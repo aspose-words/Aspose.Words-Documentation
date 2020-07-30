@@ -1,0 +1,20 @@
+---
+title: Public API Changes in Aspose.Words 14.x.x
+type: docs
+weight: 50
+url: /java/public-api-changes-in-aspose-words-14-x-x/
+---
+
+###### **This section includes the following topics:** 
+- [Public API Changes in Aspose.Words 14.1.0](/words/java/public-api-changes-in-aspose-words-14-1-0-html/)
+- [Public API Changes in Aspose.Words 14.2.0](/words/java/public-api-changes-in-aspose-words-14-2-0-html/)
+- [Public API Changes in Aspose.Words 14.3.0](/words/java/public-api-changes-in-aspose-words-14-3-0-html/)
+- [Public API Changes in Aspose.Words 14.4.0](/words/java/public-api-changes-in-aspose-words-14-4-0-html/)
+- [Public API Changes in Aspose.Words 14.5.0](/words/java/public-api-changes-in-aspose-words-14-5-0-html/)
+- [Public API Changes in Aspose.Words 14.6.0](/words/java/public-api-changes-in-aspose-words-14-6-0-html/)
+- [Public API Changes in Aspose.Words 14.7.0](/words/java/public-api-changes-in-aspose-words-14-7-0-html/)
+- [Public API Changes in Aspose.Words 14.8.0](/words/java/public-api-changes-in-aspose-words-14-8-0-html/)
+- [Public API Changes in Aspose.Words 14.9.0](/words/java/public-api-changes-in-aspose-words-14-9-0-html/)
+- [Public API Changes in Aspose.Words 14.10.0](/words/java/public-api-changes-in-aspose-words-14-10-0-html/)
+- [Public API Changes in Aspose.Words 14.11.0](/words/java/public-api-changes-in-aspose-words-14-11-0-html/)
+- [Public API Changes in Aspose.Words 14.12.0](/words/java/public-api-changes-in-aspose-words-14-12-0-html/)
