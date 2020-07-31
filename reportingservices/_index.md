@@ -3,6 +3,7 @@ title: Aspose.Words for Reporting Services
 type: docs
 weight: 10
 url: /reportingservices/
+is_root: true
 ---
 
 {{% alert color="primary" %}} 

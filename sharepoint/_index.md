@@ -3,6 +3,7 @@ title: Aspose.Words for SharePoint
 type: docs
 weight: 10
 url: /sharepoint/
+is_root: true
 ---
 
 {{% alert color="primary" %}} 

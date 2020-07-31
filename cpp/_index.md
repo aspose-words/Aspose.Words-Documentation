@@ -3,6 +3,7 @@ title: Aspose.Words for C++
 type: docs
 weight: 10
 url: /cpp/
+is_root: true
 ---
 
 {{% alert color="primary" %}} 

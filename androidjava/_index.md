@@ -3,6 +3,7 @@ title: Aspose.Words for Android via Java
 type: docs
 weight: 10
 url: /androidjava/
+is_root: true
 ---
 
 {{% alert color="primary" %}} 
