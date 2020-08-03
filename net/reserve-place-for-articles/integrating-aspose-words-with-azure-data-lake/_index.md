@@ -14,7 +14,7 @@ This article explains how to configure a C# project in Visual Studio with ADLA, 
 - Installed Azure Data Lake Tools for Visual Studio.
 - Configured Visual Studio with ADLA account. For details, refer to the "See Also" section.
 ## **Build a Document with a Table from a Database on Azure Data Lake**
-This topic demonstrates how with Aspose.Words, you can implement the IOutputter interface to create a user-defined outputter, which outputs data from ADLS in MS Word and other formats supported by Aspose.Words.
+This topic demonstrates how with Aspose.Words, you can implement the IOutputter interface to create a user-defined outputter, which outputs data from ADLS in formats supported by Aspose.Words.
 
 {{% alert color="primary" %}} 
 
