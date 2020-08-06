@@ -12,7 +12,6 @@ url: /net/supported-features-on-document-save/
 - [Save in the FlatOPC OOXML Document (.XML) Format](/words/net/save-in-the-flatopc-ooxml-document-28-xml-29-format-html/)
 - [Save in the HTML (.HTML, .XHTML, .MHTML) Format](/words/net/save-in-the-html-28-html-2c-xhtml-2c-mhtml-29-format-html/)
 - [Save in the IDPF EPUB Document (.EPUB) Format](/words/net/save-in-the-idpf-epub-document-28-epub-29-format-html/)
-- [Save in the IDPF EPUB Document (.EPUB) Format v2](/words/net/save-in-the-idpf-epub-document-28-epub-29-format-v2-html/)
 - [Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format](/words/net/save-in-the-image-28-jpeg-2c-bmp-2c-png-2c-emf-2c-tiff-2c-svg-29-format-html/)
 - [Save in the Macromedia Flash File (.SWF) Format](/words/net/save-in-the-macromedia-flash-file-28-swf-29-format-html/)
 - [Save in the Microsoft Word 2003 WordprocessingML (.XML) Format](/words/net/save-in-the-microsoft-word-2003-wordprocessingml-28-xml-29-format-html/)
