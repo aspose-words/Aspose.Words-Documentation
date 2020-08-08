@@ -124,13 +124,14 @@ Added new font substitution rule for font name processing. It will be checked at
 
 **.NET**
 {{< highlight csharp >}}
-/// <summary>
-/// Font substitution rule for processing font name.
-/// </summary>
-/// <remarks>
-/// According to this rule Aspose.Words tries to process the font name to get the substitution. Particularly
-/// Aspose.Words tries to removes suffixes with '-' and ',' separators like it does the MS Word. 
-/// </remarks>
+
+ /// <summary>
+ /// Font substitution rule for processing font name.
+ /// </summary>
+ /// <remarks>
+ /// According to this rule Aspose.Words tries to process the font name to get the substitution. Particularly
+ /// Aspose.Words tries to removes suffixes with '-' and ',' separators like it does the MS Word. 
+ /// </remarks>
 public class FontNameSubstitutionRule : FontSubstitutionRule
 {
 }
@@ -142,4 +143,52 @@ public class FontSubstitutionSettings
     /// </summary>
     public FontNameSubstitutionRule FontNameSubstitution { get; }
 }
+{{< /highlight >}}
+
+### **Added new option to the PdfLoadOptions class**
+Related issue: WORDSNET-20779
+Added flag indicating whether images must be skipped while loading PDF document.
+
+**.NET**
+{{< highlight csharp >}}
+
+ /// <summary>
+ /// Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is False.
+ /// </summary>
+public bool SkipPdfImages
+{
+    get { return mSkipPdfImages; }
+    set { mSkipPdfImages = value; }
+}
+{{< /highlight >}}
+
+Use Case: Explains how to use SkipPdfImages flag.
+**.NET**
+{{< highlight csharp >}}
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.SkipPdfImages = true;
+ Document doc = new Document("in.pdf", options);
+{{< /highlight >}}
+
+### **Removed obsolete property FindReplaceOptions.PreserveMetaCharacters**
+Related issue: WORDSNET-20266
+Removed obsolete property from FindReplaceOptions class.
+
+**.NET**
+{{< highlight csharp >}}
+ /// <summary>
+ /// True indicates that meta-characters beginning with "&amp;" are preserved.
+ /// Default value is false.
+ /// </summary>
+ [Obsolete("This property is obsolete. Please use &amp; character to escape meta-characters instead.")]
+ public bool PreserveMetaCharacters
+{{< /highlight >}}
+
+Use Case: Explains how to replace text ignoring meta-characters.
+**.NET**
+{{< highlight csharp >}}
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.Write("text&plain");
+ doc.Range.Replace("&&", " & ");
+ Console.WriteLine(doc.GetText()); // The output is: text & plain\f
 {{< /highlight >}}
