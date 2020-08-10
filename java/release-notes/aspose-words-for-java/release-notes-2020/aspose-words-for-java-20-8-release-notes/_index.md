@@ -23,7 +23,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-| WORDSJAVA-2427 | Crosstest all Encodings Java vs. .Net. | New Feature |
+| WORDSJAVA-2427 | Crosstest all Encodings Java vs. .NET. | New Feature |
 | WORDSJAVA-2430 | New platform-independent Generic CMYK Profile | New Feature |
 | WORDSJAVA-2432 | SonarQube report for the new code. | New Feature |
 | WORDSNET-19654 | Add support for SVG images embedded using   data URLs | New Feature |
@@ -65,7 +65,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-20603 | RTF to RTF conversion moves page sizing and margin information from   document level to per-section level | Bug |
 | WORDSNET-8476 | Different fonts are applied to characters of same Arabic word in PDF | Bug |
 | WORDSNET-20806 | Exception while loading DOC file | Bug |
-| WORDSNET-20690 | Empty Rich Text CustomXmlPart control pdf save issue | Bug |
+| WORDSNET-20690 | Empty Rich Text CustomXmlPart control PDF save issue | Bug |
 | WORDSNET-19394 | Converting MHTML to PDF generates empty PDF file | Bug |
 | WORDSNET-20656 | A generic error occurred in GDI\+ when converting DOCX to PNG | Bug |
 | WORDSNET-20699 | PDF to DOCX blank output | Bug |
@@ -122,7 +122,6 @@ This section lists public API changes that were introduced in Aspose.Words 20.8.
 Related issue: WORDSNET-20199
 Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. (see documentation page). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
 
-**.NET**
 {{< highlight csharp >}}
 
  /// <summary>
@@ -149,7 +148,6 @@ public class FontSubstitutionSettings
 Related issue: WORDSNET-20779
 Added flag indicating whether images must be skipped while loading PDF document.
 
-**.NET**
 {{< highlight csharp >}}
 
  /// <summary>
@@ -163,7 +161,6 @@ public bool SkipPdfImages
 {{< /highlight >}}
 
 Use Case: Explains how to use SkipPdfImages flag.
-**.NET**
 {{< highlight csharp >}}
  PdfLoadOptions options = new PdfLoadOptions();
  options.SkipPdfImages = true;
@@ -174,7 +171,6 @@ Use Case: Explains how to use SkipPdfImages flag.
 Related issue: WORDSNET-20266
 Removed obsolete property from FindReplaceOptions class.
 
-**.NET**
 {{< highlight csharp >}}
  /// <summary>
  /// True indicates that meta-characters beginning with "&amp;" are preserved.
@@ -185,7 +181,6 @@ Removed obsolete property from FindReplaceOptions class.
 {{< /highlight >}}
 
 Use Case: Explains how to replace text ignoring meta-characters.
-**.NET**
 {{< highlight csharp >}}
  DocumentBuilder builder = new DocumentBuilder();
  builder.Write("text&plain");
