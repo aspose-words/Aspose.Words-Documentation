@@ -102,3 +102,74 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-20210 | Font missing (error) when converting to PDF | Bug |
 | WORDSNET-20337 | DOCX to PDF - Additional page in PDF | Bug |
 | WORDSNET-19706 | File format detected as TEXT instead of MHTML | Bug |
+## **Public API and Backward Incompatible Changes**
+This section lists public API changes that were introduced in Aspose.Words 20.8. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
+### **Added a new public property OoxmlSaveOptions.CompressionLevel**
+Related issue: WORDSNET-20199
+Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. (see documentation page). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
+
+{{< highlight csharp >}}
+
+ /// <summary>
+ /// Font substitution rule for processing font name.
+ /// </summary>
+ /// <remarks>
+ /// According to this rule Aspose.Words tries to process the font name to get the substitution. Particularly
+ /// Aspose.Words tries to removes suffixes with '-' and ',' separators like it does the MS Word. 
+ /// </remarks>
+public class FontNameSubstitutionRule : FontSubstitutionRule
+{
+}
+ 
+public class FontSubstitutionSettings
+{
+    /// <summary>
+    /// Settings related to font name substitution rule.
+    /// </summary>
+    public FontNameSubstitutionRule FontNameSubstitution { get; }
+}
+{{< /highlight >}}
+
+### **Added new option to the PdfLoadOptions class**
+Related issue: WORDSNET-20779
+Added flag indicating whether images must be skipped while loading PDF document.
+
+{{< highlight csharp >}}
+
+ /// <summary>
+ /// Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is False.
+ /// </summary>
+public bool SkipPdfImages
+{
+    get { return mSkipPdfImages; }
+    set { mSkipPdfImages = value; }
+}
+{{< /highlight >}}
+
+Use Case: Explains how to use SkipPdfImages flag.
+{{< highlight csharp >}}
+ PdfLoadOptions options = new PdfLoadOptions();
+ options.SkipPdfImages = true;
+ Document doc = new Document("in.pdf", options);
+{{< /highlight >}}
+
+### **Removed obsolete property FindReplaceOptions.PreserveMetaCharacters**
+Related issue: WORDSNET-20266
+Removed obsolete property from FindReplaceOptions class.
+
+{{< highlight csharp >}}
+ /// <summary>
+ /// True indicates that meta-characters beginning with "&amp;" are preserved.
+ /// Default value is false.
+ /// </summary>
+ [Obsolete("This property is obsolete. Please use &amp; character to escape meta-characters instead.")]
+ public bool PreserveMetaCharacters
+{{< /highlight >}}
+
+Use Case: Explains how to replace text ignoring meta-characters.
+{{< highlight csharp >}}
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.Write("text&plain");
+ doc.Range.Replace("&&", " & ");
+ Console.WriteLine(doc.GetText()); // The output is: text & plain\f
+{{< /highlight >}}
