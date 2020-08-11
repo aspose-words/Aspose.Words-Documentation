@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words for .NET 20.8 Release Notes
 type: docs
-weight: 10
+weight: 5
 url: /net/aspose-words-for-net-20-8-release-notes/
 ---
 
@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for .NET 20.8](https://downlo
 ## **Major Features**
 There are 81 improvements and fixes in this regular monthly release. The most notable are:
 
-- Implemented Markdown "Inline Images" feature.
+- Implemented Markdown **Inline Images** feature.
 - Added new font substitution rule for font name processing.
 - Added flag indicating whether images must be skipped while loading PDF document.
 - Implemented support for SVG images embedded using data URLs upon HTML import.
@@ -23,7 +23,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 | :- | :- | :- |
 | WORDSNET-19654 | Add support for SVG images embedded using   data URLs | New Feature |
 | WORDSNET-18471 | ResolveFontNames option for HtmlFixedSaveOptions and SvgSaveOptions | New Feature |
-| WORDSNET-20467 | Implement Markdown �Inline Images� feature | New Feature |
+| WORDSNET-20467 | Implement Markdown Inline Images feature | New Feature |
 | WORDSNET-7201 | Problem with Copy Macros from one document to another | Bug |
 | WORDSNET-20693 | Elements of the SVG shape are disappeared when building the effect | Bug |
 | WORDSNET-20473 | Aspose.Words.FileCorruptedException occurs upon loading a DOC | Bug |
@@ -102,13 +102,11 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-20210 | Font missing (error) when converting to PDF | Bug |
 | WORDSNET-20337 | DOCX to PDF - Additional page in PDF | Bug |
 | WORDSNET-19706 | File format detected as TEXT instead of MHTML | Bug |
-
 ## **Public API and Backward Incompatible Changes**
-This section lists public API changes that were introduced in Aspose.Words 20.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
-
+This section lists public API changes that were introduced in Aspose.Words 20.8. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 ### **Added a new public property OoxmlSaveOptions.CompressionLevel**
 Related issue: WORDSNET-20199
-Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. at [Font Availability and Substitution](https://docs.aspose.com/words/net/manipulating-and-substitution-truetype-fonts/#font-availability-and-substitution). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
+Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. (see documentation page). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
 
 {{< highlight csharp >}}
 
