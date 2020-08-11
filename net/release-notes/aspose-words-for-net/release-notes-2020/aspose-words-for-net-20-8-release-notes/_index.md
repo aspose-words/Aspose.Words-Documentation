@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words for .NET 20.8 Release Notes
 type: docs
-weight: 10
+weight: 5
 url: /net/aspose-words-for-net-20-8-release-notes/
 ---
 
@@ -23,7 +23,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 | :- | :- | :- |
 | WORDSNET-19654 | Add support for SVG images embedded using   data URLs | New Feature |
 | WORDSNET-18471 | ResolveFontNames option for HtmlFixedSaveOptions and SvgSaveOptions | New Feature |
-| WORDSNET-20467 | Implement Markdown ‘Inline Images’ feature | New Feature |
+| WORDSNET-20467 | Implement Markdown Inline Images feature | New Feature |
 | WORDSNET-7201 | Problem with Copy Macros from one document to another | Bug |
 | WORDSNET-20693 | Elements of the SVG shape are disappeared when building the effect | Bug |
 | WORDSNET-20473 | Aspose.Words.FileCorruptedException occurs upon loading a DOC | Bug |
