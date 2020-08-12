@@ -16,7 +16,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 
 ## **About SWF**
 
-|![todo:image_alt_text](macromedia-flash-file-format-swf_1.png)|The Macromedia Flash File Format ([SWF](https://wiki.fileformat.com/page-description-language/swf/)) is a popular file format used to display different types of multimedia and vector graphics to the end-user, normally embedded in websites. <br><br>SWF files can contain applets of varying degrees of interactivity and function.|
+|![todo:image_alt_text](macromedia-flash-file-format-swf_1.png)|The Macromedia Flash File Format ([SWF](https://docs.fileformat.com/page-description-language/swf/)) is a popular file format used to display different types of multimedia and vector graphics to the end-user, normally embedded in websites. <br><br>SWF files can contain applets of varying degrees of interactivity and function.|
 | :- | :- |
 ## **SWF in Aspose.Words**
 Using Aspose.Words any supporting document can be converted to SWF and displayed anywhere that a flash file can be displayed, for example on a website or on a mobile phone. As with the PDF and XPS formats, Aspose.Words uses the same high-fidelity rendering engine to produce output in the SWF format. The generated flash file contains an optional built-in viewer allowing any application that can open flash format files to display documents almost identically to how they originally looked in Microsoft Word. 

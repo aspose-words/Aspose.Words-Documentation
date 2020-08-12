@@ -10,7 +10,7 @@ Custom Markup are elements that added to parts of the document which allow extra
 ### **CustomXML**
 Represented in Aspose.Words DOM as a CustomXmlMarkup node.You can create and remove CustomXmlMarkup in a document. You can also access the properties of the XML markup node. See the following link in the documentation for further information:
 
-- [CustomXmlMarkup](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.markup.customxmlmarkup.html)
+- [CustomXmlMarkup](https://apireference.aspose.com/words/net/aspose.words.markup)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -18,7 +18,7 @@ Represented in Aspose.Words DOM as a CustomXmlMarkup node.You can create and rem
 ### **Content Controls (Structured Document Tags)**
 Represented in Aspose.Words DOM as a StructuredDocumentTag node. You can insert new Structured Document Tags and remove existing ones from the document. There is also a rich API for accessing the various properties of SDTs. Currently Content Controls linked to Custom XML Data Storage are not supported during import. The default value of the tag is imported instead which may appear as if the wrong text is being displayed when compared to opening the document in Microsoft Word. See the following link in the documentation for further information:
 
-- [StructuredDocumentTag](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.markup.structureddocumenttag.html)
+- [StructuredDocumentTag](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -26,10 +26,10 @@ Represented in Aspose.Words DOM as a StructuredDocumentTag node. You can insert
 ### **Smart Tags**
 SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Words DOM as a SmartTag node. See the following links in the documentation for further information:
 
-- [SmartTag](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.markup.smarttag.html)
-- [Document.RemoveSmartTags](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.compositenode.removesmarttags.html)
+- [SmartTag](https://apireference.aspose.com/words/net/aspose.words.markup/smarttag)
+- [Document.RemoveSmartTags](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/removesmarttags)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Smart Tag Properties|Yes| |- [SmartTag.Properties](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.markup.smarttag.properties.html)|
+|Smart Tag Properties|Yes| |- [SmartTag.Properties](https://apireference.aspose.com/words/net/aspose.words.markup/smarttag/properties/index)|
 
