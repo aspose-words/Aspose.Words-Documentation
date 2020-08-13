@@ -6,10 +6,14 @@ url: /net/what-s-new-in-aspose-words-for-net/
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
-## **Aspose.Words for .NET 20.5, 20.6**
+## **Aspose.Words for .NET 20.5, 20.6, 20.7, 20.8**
 Aspose.Words 20.5 introduces performance improvements and enhanced document display capabilities.
 
 Aspose.Words 20.6 expands formatting options, makes saving to Markdown more convenient, and improves SmartArt Cold Rendering.
+
+Aspose.Words 20.7 introduces structured document tags, expands mail merge functionality and document display capabilities.
+
+Aspose.Words 20.8 expands the capabilities of working with images in various supported document formats and improves font substitution rules to ensure a high level of rendering.
 
 The API is improved for more flexible and convenient development.
 ### **Platforms**
@@ -26,19 +30,34 @@ Formatting options have been extended:
 
 - A new public property [EmphasisMark](https://apireference.aspose.com/words/net/aspose.words/font/properties/emphasismark) has been added to manage the emphasis mark – an additional character that is rendered above or below the main character glyph. Now you can control its behavior using the **EmphasisMark** option.
 - A new public property [IgnoreHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/ignoreheaderfooter) has been added to manage the formatting of headers/footers content. Using this option, you can specify whether to ignore the source formatting of the headers/footers content if the [KeepSourceFormatting](https://apireference.aspose.com/words/net/aspose.words/importformatmode) formatting mode is used.
+#### Advanced Control over Revision Options
+The [RevisionOptions](https://apireference.aspose.com/words/net/aspose.words.layout/revisionoptions) class has been extended with new properties. Now you have more control over the revision options, such as revision bars position represented by the [RevisionBarsPosition](https://apireference.aspose.com/words/net/aspose.words.layout/revisionoptions/properties/revisionbarsposition) property and measurement units represented by the [MeasurementUnit](https://apireference.aspose.com/words/net/aspose.words.layout/revisionoptions/properties/measurementunit) property.
+#### Font Substitution Rules
+A new font substitution rule has been added through the [FontNameSubstitutionRule](https://apireference.aspose.com/words/net/aspose.words.fonts/fontnamesubstitutionrule) class. This rule tries to process font name suffixes in the same way as Microsoft Word does.
+
 ### **Graphics**
 #### **Watermarks in Documents**
 A new helper class [Watermark](https://apireference.aspose.com/words/net/aspose.words/watermark) has been introduced to work with a watermark inside a document. This class simplifies the way you add or remove a watermark in a document – now you can do it with just one line of code! You can easily create a watermark from text or an image, as well as control its display settings.
 #### **Improving SmartArt Rendering**
 SmartArt Cold Rendering has become even better – the processing of hyperlinks in the SmartArt data model has been implemented and the preliminary processing of the chart drawing has been improved.
 ### **Other**
-A new ability to show or hide grammatical and spelling errors has been provided. Using the [ShowGrammaticalErrors](https://apireference.aspose.com/words/net/aspose.words/document/properties/showgrammaticalerrors) and [ShowSpellingErrors](https://apireference.aspose.com/words/net/aspose.words/document/properties/showspellingerrors) properties, you can easily control the way grammatical and spelling errors are displayed in your document.
+
+- A new ability to show or hide grammatical and spelling errors has been provided. Using the [ShowGrammaticalErrors](https://apireference.aspose.com/words/net/aspose.words/document/properties/showgrammaticalerrors) and [ShowSpellingErrors](https://apireference.aspose.com/words/net/aspose.words/document/properties/showspellingerrors) properties, you can easily control the way grammatical and spelling errors are displayed in your document.
+- Two new nodes have been introduced to handle multi-section structured document tags. These structured document tags are now supported upon import/export.
+- A new public property [RetainFirstSectionStart](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/retainfirstsectionstart) has been added to get or set a value that indicates whether the [SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to Microsoft Word behavior.
+- Markdown ‘Inline Images’ feature has been implemented to make our Markdown support even better.
+- The [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words/pdfloadoptions/properties/skippdfimages) flag has been added to the [PdfLoadOptions](https://apireference.aspose.com/words/net/aspose.words/pdfloadoptions) class to indicate whether images must be skipped when loading a PDF document.
+- Support for SVG images embedded using data URLs upon HTML import has been implemented.
 
 {{% alert color="primary" %}} 
 
 Learn more about [Aspose.Words for .NET 20.5 Release Notes](/words/net/aspose-words-for-net-20-5-release-notes/).
 
 Learn more about [Aspose.Words for .NET 20.6 Release Notes](/words/net/aspose-words-for-net-20-6-release-notes/).
+
+Learn more about [Aspose.Words for .NET 20.7 Release Notes](/words/net/aspose-words-for-net-20-7-release-notes/).
+
+Learn more about [Aspose.Words for .NET 20.8 Release Notes](/words/net/aspose-words-for-net-20-8-release-notes/).
 
 {{% /alert %}} 
 ## **Aspose.Words for .NET 20.3, 20.4**
@@ -75,6 +94,10 @@ Search and compare options are extended:
 - A new public property [UpdateLastPrintedProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastprintedproperty) has been added. Using this property, you can control when to update *LastPrintedProperty*, for example, before printing.
 - The ability to change Asian paragraph spacing and indents through the public API has been added. This is the next step of Chinese language-specific Paragraph formatting improvement.
 
+{{% alert color="primary" %}} 
+
 Learn more about [Aspose.Words for .NET 20.3 Release Notes](/words/net/aspose-words-for-net-20-3-release-notes/).
 
 Learn more about [Aspose.Words for .NET 20.4 Release Notes](/words/net/aspose-words-for-net-20-4-release-notes/).
+
+{{% /alert %}} 
