@@ -118,7 +118,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-19706 | File format detected as TEXT instead of MHTML | Bug |
 ## **Public API and Backward Incompatible Changes**
 This section lists public API changes that were introduced in Aspose.Words 20.8. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
-### **Added a new public property OoxmlSaveOptions.CompressionLevel**
+### **Added new FontNameSubstitutionRule**
 Related issue: WORDSNET-20199
 Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. at [Font Availability and Substitution](https://docs.aspose.com/words/net/manipulating-and-substitution-truetype-fonts/#font-availability-and-substitution). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
 
