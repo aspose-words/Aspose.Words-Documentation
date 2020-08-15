@@ -15,8 +15,8 @@ A table is comprised of rows and cells and is used to display data in a grid-lik
 
 Using Aspose.Words you can access and modify all features and formatting of a table along with creating new tables and removing existing ones from the document. Note that some elements of a table may be wrapped with Markup nodes such as CustomXmlMarkup or StructuredDocumentTag nodes. See the following links in the documentation for further information:
 
-- [Working with Tables old](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Tables+old&linkCreation=true&fromPageId=2596096)
-- [Table](https://apireference.aspose.com/net/words/aspose.words.tables/table)
+- [Working with Tables old](/words/net/working-with-tables/)
+- [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table)
 
 {{% /alert %}} 
 ## **Table**
@@ -24,16 +24,16 @@ Using Aspose.Words you can access and modify all features and formatting of a ta
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Nested Tables|Yes| | |
-|Right To Left Tables|Yes| |- [Table.Bidi](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.bidi.html)|
-|Table Style|Yes|Table styles are supported in the model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles.|<p>- [Working with Table Styles](/words/net/working-with-tablestyle/)</p><p>- [Table.Style](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.style.html)</p><p>- [Table.StyleIdentifier](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.styleidentifier.html)</p>|
-|Conditional Formatting Style|Yes| |- [Table.StyleOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.styleoptions.html)|
-|Table Alignment|Yes| |- [Table.Alignment](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.alignment.html)|
-|Table Indent|Yes| |- [Table.LeftIndent](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.leftindent.html)|
-|Allow AutoFit|Yes| |- [Table.AllowAutoFit](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.allowautofit.html)|
-|Default Cell Margins|Yes| |<p>- [Table.LeftPadding](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.leftpadding.html)</p><p>- [Table.RightPadding](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.rightpadding.html)</p><p>- [Table.BottomPadding](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.bottompadding.html)</p><p>- [Table.TopPadding](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.toppadding.html)</p>|
-|Default Cell Spacing|Yes| |- [Table.CellSpacing](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.cellspacing.html)|
-|Preferred Table Width|Yes|Preferred width on the table can be set to absolute (points), relative (per cent) or auto setting.|- [Table.PreferredWidth](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.preferredwidth.html)|
-|Table Shading|Yes| |- [Table.SetShading](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.setshading.html)|
+|Right To Left Tables|Yes| |- [Table.Bidi](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bidi)|
+|Table Style|Yes|Table styles are supported in the model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles.|<p>- [Working with Table Styles](/words/net/working-with-tablestyle/)</p><p>- [Table.Style](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/style)</p><p>- [Table.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleidentifier)</p>|
+|Conditional Formatting Style|Yes| |- [Table.StyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions)|
+|Table Alignment|Yes| |- [Table.Alignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/alignment)|
+|Table Indent|Yes| |- [Table.LeftIndent](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftindent)|
+|Allow AutoFit|Yes| |- [Table.AllowAutoFit](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/allowautofit)|
+|Default Cell Margins|Yes| |<p>- [Table.LeftPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftpadding)</p><p>- [Table.RightPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/rightpadding)</p><p>- [Table.BottomPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bottompadding)</p><p>- [Table.TopPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/toppadding)</p>|
+|Default Cell Spacing|Yes| |- [Table.CellSpacing](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/cellspacing)|
+|Preferred Table Width|Yes|Preferred width on the table can be set to absolute (points), relative (per cent) or auto setting.|- [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
+|Table Shading|Yes| |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
 |Hidden|Yes|There is currently no API to access or modify this property on Table or Row.| |
 ## **Floating Tables**
 Floating tables are supported during import and export. However, there is currently no API to access or modify the floating position of a table.
@@ -44,9 +44,9 @@ Floating tables are supported during import and export. However, there is curren
 ## **Table Borders**
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document. If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first. See the following links in the documentation for further information:
 
-- [Table.SetBorders](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.setborders.html)
-- [Table.ClearBorders](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.clearborders.html)
-- [RowFormat.Borders](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.rowformat.borders.html)
+- [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setborders)
+- [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/clearborders)
+- [RowFormat.Borders](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/borders)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -55,22 +55,21 @@ Table borders are stored in the rows of the table. This mimics the structure of 
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Allow Break Across Pages|Yes| |<p>- [Keeping Tables and Rows from Breaking across Pages](/words/net/working-with-columns-and-rows/#workingwithcolumnsandrows-keepingtablesandrowsfrombreakingacrosspages)</p><p>- [RowFormat.AllowBreakAcrossPages](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.rowformat.allowbreakacrosspages.html)</p>|
-|Repeat as Header Row|Yes| |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](/words/net/working-with-columns-and-rows/#workingwithcolumnsandrows-specifyingrowstorepeatonsubsequentpagesasheaderrows)</p><p>- [RowFormat.HeadingFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.rowformat.headingformat.html)</p>|
-|Height|Yes| |- [RowFormat.Height](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.rowformat.height.html)|
-|Height Rule|Yes| |- [RowFormat.HeightRule](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.rowformat.heightrule.html)|
+|Allow Break Across Pages|Yes| |<p>- [Keeping Tables and Rows from Breaking across Pages](/words/net/working-with-columns-and-rows/#workingwithcolumnsandrows-keepingtablesandrowsfrombreakingacrosspages)</p><p>- [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/allowbreakacrosspages)</p>|
+|Repeat as Header Row|Yes| |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](/words/net/working-with-columns-and-rows/#workingwithcolumnsandrows-specifyingrowstorepeatonsubsequentpagesasheaderrows)</p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/headingformat)</p>|
+|Height|Yes| |- [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/height)|
+|Height Rule|Yes| |- [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/heightrule)|
 ## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Cell Margins|Yes| |<p>- [CellFormat.TopPadding](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.toppadding.html)</p><p>- [CellFormat.BottomPadding](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.bottompadding.html)</p><p>- [CellFormat.LeftPadding](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.leftpadding.html)</p><p>- [CellFormat.RightPadding](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.rightpadding.html)</p>|
-|Borders|Yes| |- [CellFormat.Borders](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.borders.html)|
-|Shading|Yes| |- [CellFormat.Shading](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.shading.html)|
-|Wrap Text|Yes| |- [CellFormat.WrapText](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.wraptext.html)|
-|Fit Text|Yes| |- [CellFormat.FitText](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.fittext.html)|
-|Preferred Width|Yes| |- [CellFormat.PreferredWidth](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.preferredwidth.html)|
-|Merged Horizontally|Yes| |<p>- [Working with Merged Cells](/words/net/working-with-columns-and-rows/#workingwithcolumnsandrows-workingwithmergedcells)</p><p>- [CellFormat.HorizontalMerge](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.horizontalmerge.html)</p>|
-|Merged Vertically|Yes| |- [CellFormat.VerticalMerge](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.verticalmerge.html)|
-|Vertical Alignment|Yes| |- [CellFormat.VerticalAlignment](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.verticalalignment.html)|
-|Text Direction|Yes| |- [CellFormat.Orientation](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.cellformat.orientation.html)|
-
+|Cell Margins|Yes| |<p>- [CellFormat.TopPadding](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/toppadding)</p><p>- [CellFormat.BottomPadding](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/bottompadding)</p><p>- [CellFormat.LeftPadding](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/leftpadding)</p><p>- [CellFormat.RightPadding](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/rightpadding)</p>|
+|Borders|Yes| |- [CellFormat.Borders](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/borders)|
+|Shading|Yes| |- [CellFormat.Shading](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/shading)|
+|Wrap Text|Yes| |- [CellFormat.WrapText](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/wraptext)|
+|Fit Text|Yes| |- [CellFormat.FitText](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/fittext)|
+|Preferred Width|Yes| |- [CellFormat.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth)|
+|Merged Horizontally|Yes| |<p>- [Working with Merged Cells](/words/net/working-with-columns-and-rows/#workingwithcolumnsandrows-workingwithmergedcells)</p><p>- [CellFormat.HorizontalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/horizontalmerge)</p>|
+|Merged Vertically|Yes| |- [CellFormat.VerticalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/verticalmerge)|
+|Vertical Alignment|Yes| |- [CellFormat.VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/verticalalignment)|
+|Text Direction|Yes| |- [CellFormat.Orientation](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/orientation)|

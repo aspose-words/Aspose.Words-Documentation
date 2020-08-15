@@ -17,8 +17,8 @@ Sections are imported from <div> elements. Section-wide formatting is imported t
 
 See the following links in the documentation for further information:
 
-- [Section](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.section.html)
-- [Document.Sections](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.sections.html)
+- [Section](https://apireference.aspose.com/words/net/aspose.words/section)
+- [Document.Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections)
 
 {{% /alert %}} 
 ## **Headers and Footers**
@@ -47,10 +47,10 @@ Import of external headers and footers (stored in a separate file) like how Micr
 
 See the following links in the documentation for further information:
 
-- [Section.HeadersFooters](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.section.headersfooters.html)
-- [PageSetup.DifferentFirstPageHeaderFooter](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.differentfirstpageheaderfooter.html)
+- [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/properties/headersfooters)
+- [PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/differentfirstpageheaderfooter)
 - **PageSetup.OddAndEvenPageHeaderFooter**
-- [HeaderFooterCollection.LinkToPrevious](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.headerfootercollection.linktoprevious overloads.html)
+- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words.headerfootercollection/linktoprevious/methods/1)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -62,8 +62,8 @@ The different section breaks types are imported from <br> tag which contains the
 
 See the following links in the documentation for further information:
 
-- [PageSetup.SectionStart](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.sectionstart.html)
-- [DocumentBuilder.InsertBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.insertbreak.html)
+- [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -85,10 +85,10 @@ Paper size and margins are imported from size and margin attributes on each sect
 
 See the following links in the documentation for further information:
 
-- [PageSetup](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.html)
-- [PageSetup.LeftMargin](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.leftmargin.html)
-- [PageSetup.FooterDistance](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.footerdistance.html)
-- [PageSetup.Gutter](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.gutter.html)
+- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/html)
+- [PageSetup.LeftMargin](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/leftmargin)
+- [PageSetup.FooterDistance](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/footerdistance)
+- [PageSetup.Gutter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/gutter)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -102,11 +102,11 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Right to Left Section |Planned | |- [PageSetup.Bidi](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.bidi.html)|
-|Line Numbering |Planned | |<p>- [PageSetup.LineNumberCountBy](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.linenumbercountby.html) </p><p>- [PageSetup.LineNumberDistanceFromText](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.linenumberdistancefromtext.html) </p><p>- [PageSetup.LineNumberRestartMode](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.linenumberrestartmode.html) </p><p>- [PageSetup.LineStartingNumber](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.linestartingnumber.html)</p>|
-|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.firstpagetray.html) </p><p>- **PageSetup.OtherPageTray**</p>|
-|Paper Size |Yes | |- [PageSetup.PaperSize](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.papersize.html)|
-|Orientation |Yes |Currently imported paper size depends on orientation as width and height are switched. |- [PageSetup.Orientation](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.orientation.html)|
+|Right to Left Section |Planned | |- [PageSetup.Bidi](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/bidi)|
+|Line Numbering |Planned | |<p>- [PageSetup.LineNumberCountBy](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumbercountby) </p><p>- [PageSetup.LineNumberDistanceFromText](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberdistancefromtext) </p><p>- [PageSetup.LineNumberRestartMode](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberrestartmode) </p><p>- [PageSetup.LineStartingNumber](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linestartingnumber)</p>|
+|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Size |Yes | |- [PageSetup.PaperSize](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/papersize)|
+|Orientation |Yes |Currently imported paper size depends on orientation as width and height are switched. |- [PageSetup.Orientation](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation)|
 |Protection |N/A | | |
 |Text Direction |Planned | | |
 |Vertical Alignment |N/A | | |
@@ -122,4 +122,3 @@ HTML does not have any "page" concept so no page border is imported.
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Page Border |N/A | | |
-

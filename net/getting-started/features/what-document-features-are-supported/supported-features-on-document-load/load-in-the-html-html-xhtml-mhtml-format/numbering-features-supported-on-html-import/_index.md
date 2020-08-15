@@ -26,10 +26,10 @@ Lists can also appear in HTML as ordinary paragraphs, which apperance-wise are i
 
 See the following links in the documentation for further information:
 
-- [Paragraph.IsListItem](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraph.islistitem.html)
-- [Paragraph.ListFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraph.listformat.html)
-- [Paragraph.ListLabel](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraph.listlabel.html)
-- [List.ListLevels](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.list.listlevels.html)
+- [Paragraph.IsListItem](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/islistitem)
+- [Paragraph.ListFormat](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/listformat)
+- [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/listlabel)
+- [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/listlevels)
 
 {{% /alert %}} 
 ## **Numbering Definition**
@@ -37,21 +37,21 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
-|Multi Level |Yes |Some parts of multi-level lists will be imported as separte List objects. This can cause some formatting differences during conversion. <br><br>This will be improved in a future version of Aspose.Words so multi-level lists are imported as a single List object. |- [List.IsMultiLevel](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.list.ismultilevel.html)|
+|Multi Level |Yes |Some parts of multi-level lists will be imported as separte List objects. This can cause some formatting differences during conversion. <br><br>This will be improved in a future version of Aspose.Words so multi-level lists are imported as a single List object. |- [List.IsMultiLevel](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
 |Name |Planned | | |
 ## **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Label Alignment |Yes | |- [ListLevel.Alignment](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.alignment.html)|
+|Label Alignment |Yes | |- [ListLevel.Alignment](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/alignment)|
 |Picture Bullet |Planned |Picture bullets are supported, however there is currently no way to set a new picture bullet for a list item. <br><br>Consider creating a list with the picture bullet first in the document using Microsoft Word and then apply this list to the required paragraphs. <br><br>Will be imported using list-style-image attribute and other related attributes. | |
-|Restart Level |Yes | |- [ListLevel.RestartAfterLevel](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.restartafterlevel.html)|
+|Restart Level |Yes | |- [ListLevel.RestartAfterLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/restartafterlevel)|
 |Bullet Character |Yes |Imported from type attribute on <ul> tag. | |
-|Label/Format String |Yes | |- [ListLabel.LabelString](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlabel.labelstring.html)|
-|Number Format |Yes |Imported from "type" attribute on <ol>. |- [ListLevel.NumberFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.numberformat.html)|
+|Label/Format String |Yes | |- [ListLabel.LabelString](https://apireference.aspose.com/words/net/aspose.words.lists/listlabel/properties/labelstring)|
+|Number Format |Yes |Imported from "type" attribute on <ol>. |- [ListLevel.NumberFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/numberformat)|
 |Paragraph Properties |Planned | | |
-|Font Properties |Planned | |- [ListLevel.Font](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.font.html)|
-|Linked Paragraph Style |Planned | |- [ListLevel.LinkedStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.linkedstyle.html)|
-|Starting Value |Yes |Imported from start attribute on <ul> or <ol>. |- [ListLevel.StartAt](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.startat.html)|
-|Text After |Planned | |- [ListLevel.TrailingCharacter](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.trailingcharacter.html)|
+|Font Properties |Planned | |- [ListLevel.Font](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/font)|
+|Linked Paragraph Style |Planned | |- [ListLevel.LinkedStyle](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/linkedstyle)|
+|Starting Value |Yes |Imported from start attribute on <ul> or <ol>. |- [ListLevel.StartAt](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/startat)|
+|Text After |Planned | |- [ListLevel.TrailingCharacter](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/trailingcharacter)|
 

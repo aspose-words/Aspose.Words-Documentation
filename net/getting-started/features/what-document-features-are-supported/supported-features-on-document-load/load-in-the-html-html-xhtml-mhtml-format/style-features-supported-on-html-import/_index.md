@@ -31,31 +31,31 @@ The logic used when a external style sheet is enctounered on ocument load can be
 
 See the following links in the documentation for further information:
 
-- [Document.Styles](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbase.styles.html)
-- [Style](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.html)
-- [Style.Name](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.name.html)
-- [IResourceLoadingCallback](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.loading.iresourceloadingcallback.html)
+- [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/document/properties/styles)
+- [Style](https://apireference.aspose.com/words/net/aspose.words/style)
+- [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
+- [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes |Imported from "class" attribute on HTML paragraph elements. |- [StyleType.Paragraph](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.styletype.html)|
-|Character Style |Yes |Imported from "class" attribute on span elements. |- [StyleType.Character](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.styletype.html)|
-|List Style |Planned | |- [StyleType.List](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.styletype.html)|
-|Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tablestyle.html) </p><p>- [StyleType.Table](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.styletype.html)</p>|
+|Paragraph Style |Yes |Imported from "class" attribute on HTML paragraph elements. |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
+|Character Style |Yes |Imported from "class" attribute on span elements. |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
+|List Style |Planned | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
+|Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/StyleType)</p>|
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Aliases |Yes |Aliases are exported as ordinary CSS classes. On subsequent import they produce independent styles. | |
-|Based On |Planned | |- [Style.BaseStyleName](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.basestylename.html)|
-|Built-in Styles |Yes |Some built-in styles are imported from specific elements. <br><br>For instance Normal redirects to general <p> element, <h1> to Heading 1 etc. |<p>- [Style.BuiltIn](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.builtin.html) </p><p>- [Style.StyleIdentifier](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.styleidentifier.html)</p>|
+|Based On |Planned | |- [Style.BaseStyleName](https://apireference.aspose.com/words/net/aspose.words/style/properties/basestylename)|
+|Built-in Styles |Yes |Some built-in styles are imported from specific elements. <br><br>For instance Normal redirects to general <p> element, <h1> to Heading 1 etc. |<p>- [Style.BuiltIn](https://apireference.aspose.com/words/net/aspose.words/style/properties/builtin) </p><p>- [Style.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words/style/properties/styleidentifier)</p>|
 |Custom Styles |Yes |A new style is created for all other CSS styles in the HTML document. | |
 |Linked Styles |Planned | | |
 |Style Name |Yes | |- **Style.Name**|
 |Next Style |N/A | | |
-|Paragraph Properties |Yes | |- [Style.ParagraphFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.paragraphformat.html)|
-|Run Properties |Yes | |- [Style.Font](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.font.html)|
-|Bullets and Numbering |Yes | |<p>- [Style.List](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.list.html) </p><p>- [Style.ListFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.listformat.html)</p>|
+|Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
+|Run Properties |Yes | |- [Style.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
+|Bullets and Numbering |Yes | |<p>- [Style.List](https://apireference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
 ## **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -66,9 +66,8 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Apply Formatting to |Planned | |- [Table.StyleOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.styleoptions.html)|
+|Apply Formatting to |Planned | |- [Table.StyleOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.styleoptions)|
 |Table Properties |Planned | |- **TableStyle**|
 |Banding |Planned | |- **Table.StyleOptions**|
-|Paragraph Properties |Planned | |- [TableStyle.ParagraphFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.paragraphformat.html)|
-|Run Properties |Planned | |- [TableStyle.Font](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.style.font.html)|
-
+|Paragraph Properties |Planned | |- [TableStyle.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
+|Run Properties |Planned | |- [TableStyle.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|

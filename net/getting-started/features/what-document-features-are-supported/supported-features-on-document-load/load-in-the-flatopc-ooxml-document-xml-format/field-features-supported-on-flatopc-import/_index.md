@@ -23,10 +23,10 @@ We provide the Field facade for working with this structure more easily. This al
 ## **Field Codes**
 See the following links in the documentation for further information:
 
-- [Working with Fields old](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Fields+old&linkCreation=true&fromPageId=2596114)
-- [DocumentBuilder.InsertField](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.insertfield overloads.html)
-- [Document.UpdateFields](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.updatefields.html)
-- [FieldType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.fieldtype.html)
+- [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/)
+- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertfield/methods/1)
+- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
+- [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldchar/properties/fieldtype)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -83,27 +83,27 @@ All Document Automation fields are supported and can be updated by Aspose.Words 
 ## **Form Fields**
 Form fields are fully supported by Aspose.Words. See the following links in the documentation for further information:
 
-- [Working with Form Fields old](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Form+Fields+old&linkCreation=true&fromPageId=2596114)
-- [FormField](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.html)
-- [FormField.Type](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.type.html)
-- [FormField.Result](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.result.html)
+- [Working with Form Fields](https://docs.aspose.com/words/net/working-with-form-fields/)
+- [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
+- [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
+- [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|TextInput|Yes| |<p>- [FormField.TextInputDefault](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.textinputdefault.html)</p><p>- [FormField.TextInputFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.textinputformat.html)</p>|
+|TextInput|Yes| |<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](textinputformat)</p>|
 |CheckBox|Yes| |- **FormField.Type**|
-|DropDown|Yes| |<p>- [FormField.DropDownItems](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.dropdownitems.html)</p><p>- [FormField.DropDownSelectedIndex](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.dropdownselectedindex.html)</p>|
-|Calc On Exit|Yes| |- [FormField.CalculateOnExit](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.calculateonexit.html)|
-|Checked|Yes| |- [FormField.Checked](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.checked.html)|
+|DropDown|Yes| |<p>- [FormField.DropDownItems](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems)</p><p>- [FormField.DropDownSelectedIndex](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|
+|Calc On Exit|Yes| |- [FormField.CalculateOnExit](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/calculateonexit)|
+|Checked|Yes| |- [FormField.Checked](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|
 |Default Value|Yes| |- **FormField.TextInputDefault**|
-|Enabled|Yes| |- [FormField.Enabled](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.enabled.html)|
-|Entry and Exit Macro|Yes| |<p>- [FormField.EntryMacro](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.entrymacro.html)</p><p>- [FormField.ExitMacro](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.exitmacro.html)</p>|
-|Name|Yes| |- [FormField.Name](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.name.html)|
-|Help Text|Yes| |- [FormField.HelpText](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.helptext.html)|
-|Status Text|Yes| |- [FormField.StatusText](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.statustext.html)|
-|Max Length|Yes| |- [FormField.MaxLength](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.maxlength.html)|
-|Check Box Size|Yes| |<p>- [FormField.CheckBoxSize](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.checkboxsize.html)</p><p>- [FormField.IsCheckBoxExactSize](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.ischeckboxexactsize.html)</p>|
-|Text Input Type|Yes| |- [FormField.TextInputType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.textinputtype.html)|
+|Enabled|Yes| |- [FormField.Enabled](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/enabled)|
+|Entry and Exit Macro|Yes| |<p>- [FormField.EntryMacro](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/entrymacro)</p><p>- [FormField.ExitMacro](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/exitmacro)</p>|
+|Name|Yes| |- [FormField.Name](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|
+|Help Text|Yes| |- [FormField.HelpText](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/helptext)|
+|Status Text|Yes| |- [FormField.StatusText](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/statustext)|
+|Max Length|Yes| |- [FormField.MaxLength](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/maxlength)|
+|Check Box Size|Yes| |<p>- [FormField.CheckBoxSize](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checkboxsize)</p><p>- [FormField.IsCheckBoxExactSize](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/ischeckboxexactsize)</p>|
+|Text Input Type|Yes| |- [FormField.TextInputType](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputtype)|
 ## **Index and Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -124,7 +124,7 @@ Form fields are fully supported by Aspose.Words. See the following links in the
 |Bibliography|Yes|This field is not yet supported during field update.| |
 |Citation|Yes|This field is not yet supported during field update.| |
 |Hyperlink|Yes|This field is fully supported. No update of this field is required.| |
-|IncludePicture|Yes|This field is fully supported. No field update is required. <br><br>You can access all of the properties of the IncludePicture field including the image and its source.|- [Shape.ImageData](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.imagedata.html)|
+|IncludePicture|Yes|This field is fully supported. No field update is required. <br><br>You can access all of the properties of the IncludePicture field including the image and its source.|- [Shape.ImageData](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata)|
 |IncludeText|Yes|This field is supported. The field result of this field loaded from an existing document can be extracted and preserved during conversion. <br><br>Updating this field is partially supported. Currently only Word document sources are supported at the moment. Support for TXT and other MIME types is planned.| |
 |Link|Yes|Embedded objects are preserved and round-tripped correctly. However updating a linked object is currently unsupported.| |
 |NoteRef|Yes|Currently is unsupported on field update.| |
@@ -142,9 +142,9 @@ The mail merge engine allows you to quickly merge a variety of data into a docum
 
 These fields will be supported in a later version of Aspose.Words. All other fields are supported. See the following links in the documentation for further information:
 
-- [Mail Merge and Reporting](/words/net/mail-merge-and-reporting-html/)
-- [Document.MailMerge](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.mailmerge.html)
-- [How to Use Advanced Mail Merge Features](/words/net/how-to-execute-mail-merge-html/)
+- [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
+- [Document.MailMerge](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmerge)
+- [How to Use Advanced Mail Merge Features](/words/net/how-to-use-advanced-mail-merge-features/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -155,7 +155,7 @@ These fields will be supported in a later version of Aspose.Words. All other fie
 |Fill-in|Yes| | |
 |GreetingLine|Yes| | |
 |If|Yes| | |
-|MergeField|Yes| |- [How to Rename Merge Fields](/pages/createpage.action?spaceKey=wordsnet&title=How+to+Rename+Merge+Fields&linkCreation=true&fromPageId=2596114)|
+|MergeField|Yes| |- [How to Rename Merge Fields](/words/net/fields-overview/#how-to-rename-merge-fields)|
 |MergeRec|Yes| | |
 |MergeSeq|Yes| | |
 |Next|Yes| | |
@@ -195,8 +195,8 @@ These fields are imported and round-tripped but currently are not updated by the
 ## **Hyperlinks**
 Aspose.Words fully supports all features of hyperlink fields. You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink. See the following links in the documentation for further information:
 
-- [DocumentBuilder.InsertHyperlink](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.inserthyperlink.html)
-- [How to Replace or Modify Hyperlinks](/pages/createpage.action?spaceKey=wordsnet&title=How+to+Replace+or+Modify+Hyperlinks+and+Replace+Fields+with+Static+Text+old&linkCreation=true&fromPageId=2596114)
+- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
+- [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -215,4 +215,3 @@ All formatting types are supported during field update or mail merge. For examp
 |Date and Time Formatting|Yes|All date formats (pictures defined by the @ tag, e.g @ dd/MM/yyyy) are supported during update. <br><br>Hijri, Lunar or Saka Era calender are not supported and are updated as regular Gregorian dates.| |
 |Numbering Formatting|Yes|All number formats e.g * Arabic, * roman, * hex etc are supported with the exception of Asian language formats. <br><br>All numeric formats (using the # switch, for example # 0.00) are supported.| |
 |General Formatting|Yes|All formatting to text, paragraphs etc are retained during field update.| |
-

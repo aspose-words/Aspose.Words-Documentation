@@ -27,11 +27,11 @@ Note that PNG is a lossless compression format, so there is no degregration of i
 
 There is a load option avalible to control whether external images are downloaded, left as link only or the bytes of the image data are provided by the user through the use of the IResourceLoadingCallback. You can also set the BaseUri path of the document being loaded so relative resources can be correctly imported. "px" measurement unit is currently imported as if resolution is 96dpi. There will be a load option to control this in the future. See the following links in the documentation for further information:
 
-- [Shape.IsImage](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.isimage.html)
-- [LoadOptions.BaseUri](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.loadoptions.baseuri.html)
-- [Shape.ImageData](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.imagedata.html)
-- [ImageData.ImageType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.imagedata.imagetype.html)
-- [ConvertUtil](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.convertutil.html)
+- [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/isimage)
+- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
+- [Shape.ImageData](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata)
+- [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
+- [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)
 - **IResourceLoadingCallback**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -44,28 +44,28 @@ There is a load option avalible to control whether external images are downloade
 |BMP|Yes| | |
 |GIF|Yes| | |
 |TIFF|Yes| | |
-|Borders|Planned|Native borders will be imported from style attributes such as border-style, border-color etc. <br><br>Some complex borders may have been already exported in raster form and are imported back correctly but borders cannot be modified or removed.|- [ImageData.Borders](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.imagedata.borders.html)|
-|Cropping|Yes|During export images are cropped permantly and cropping cannot be removed when round-tripped back into Word document formats.|<p>- [ImageData.CropLeft](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.imagedata.cropleft.html)</p><p>- [ImageData.CropRight](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.imagedata.cropright.html)</p><p>- [ImageData.CropTop](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.imagedata.croptop.html)</p><p>- [ImageData.CropBottom](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.imagedata.cropbottom.html)</p>|
+|Borders|Planned|Native borders will be imported from style attributes such as border-style, border-color etc. <br><br>Some complex borders may have been already exported in raster form and are imported back correctly but borders cannot be modified or removed.|- [ImageData.Borders](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/borders)|
+|Cropping|Yes|During export images are cropped permantly and cropping cannot be removed when round-tripped back into Word document formats.|<p>- [ImageData.CropLeft](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropleft)</p><p>- [ImageData.CropRight](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropright)</p><p>- [ImageData.CropTop](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/croptop)</p><p>- [ImageData.CropBottom](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropbottom)</p>|
 |Alternative text|Yes|Imported from alt=xxx.|- **Shape.AltText**|
 ## **Image Recoloring**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Brightness|Yes|Brightness modifier is applied to the image during export. <br><br>The image brightness is preserved on round-tripped but it cannot be modified.|- [ImageData.Brightness](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.imagedata.brightness.html)|
-|Contrast|Yes|Contrast modifier is applied to the image during export. <br><br>The image contrast is preserved on round-tripped but it cannot be modified.|- [ImageData.Contrast](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.imagedata.contrast.html)|
+|Brightness|Yes|Brightness modifier is applied to the image during export. <br><br>The image brightness is preserved on round-tripped but it cannot be modified.|- [ImageData.Brightness](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/brightness)|
+|Contrast|Yes|Contrast modifier is applied to the image during export. <br><br>The image contrast is preserved on round-tripped but it cannot be modified.|- [ImageData.Contrast](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/contrast)|
 |Recolor|Planned| | |
 ## **Textboxes**
 Textboxes are rastered to image during export to HTML to improve fidelity. Upon subsequent import this content appears correctly (the same as the textbox with settings) but is imported as an image and not as a working textbox. Text is not editable and textbox settings cannot be changed. There is no tag that directly imports a new textbox from HTML. See the following link in the documentation for further information:
 
-- [Shape.TextBox](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.textbox.html)
+- [Shape.TextBox](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/textbox)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Text Direction|Yes| |- [TextBox.LayoutFlow](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.textbox.layoutflow.html)|
+|Text Direction|Yes| |- [TextBox.LayoutFlow](https://apireference.aspose.com/words/net/aspose.words.drawing/textbox/properties/layoutflow)|
 |Linked Textboxes|Planned|Linked text boxes are supported in Aspose.Words model, however there is currently no API to access or modify these values.| |
-|Internal Margins|Yes| |<p>- [TextBox.InternalMarginLeft](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.textbox.internalmarginleft.html)</p><p>- [TextBox.InternalMarginRight](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.textbox.internalmarginright.html)</p><p>- [TextBox.InternalMarginTop](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.textbox.internalmargintop.html)</p><p>- [TextBox.InternalMarginBottom](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.textbox.internalmarginbottom.html)</p>|
+|Internal Margins|Yes| |<p>- [TextBox.InternalMarginLeft](https://apireference.aspose.com/words/net/aspose.words.drawing/textbox/properties/internalmarginleft)</p><p>- [TextBox.InternalMarginRight](https://apireference.aspose.com/words/net/aspose.words.drawing/textbox/properties/internalmarginright)</p><p>- [TextBox.InternalMarginTop](https://apireference.aspose.com/words/net/aspose.words.drawing/textbox/properties/internalmargintop)</p><p>- [TextBox.InternalMarginBottom](https://apireference.aspose.com/words/net/aspose.words.drawing/textbox/properties/internalmarginbottom)</p>|
 |Vertical Alignment|Yes| | |
-|Resize To Fit Text|Yes| |- [TextBox.FitShapeToText](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.textbox.fitshapetotext.html)|
+|Resize To Fit Text|Yes| |- [TextBox.FitShapeToText](https://apireference.aspose.com/words/net/aspose.words.drawing/textbox/properties/fitshapetotext)|
 |Text in Other Shapes|Yes| | |
 ## **OLE Objects**
 OLE Objects are exported as images so are imported back as regular images and not OLE Objects.
@@ -90,9 +90,9 @@ Aspose.Words supports almost all Shape and Image elements. References to externa
 
 During export WordArt is exported to HTML as a regular image. On import this feature is loaded as a regular image and not as a working WordArt object. There is no tag that directly imports a new WordArt object from HTML. See the following links in the documentation for further information:
 
-- [Shape](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.html)
-- [Shape.ShapeType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.shapetype.html)
-- [Shape.IsTopLevel](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.istoplevel.html)
+- [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape)
+- [Shape.ShapeType](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/shapetype)
+- [Shape.IsTopLevel](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/istoplevel)
 - **LoadOptions.ResourceLoadingCallback**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -103,7 +103,7 @@ During export WordArt is exported to HTML as a regular image. On import this fea
 |Flowcharts|Yes| | |
 |Callouts|Yes| | |
 |Stars and Banners|Yes| | |
-|Group Shape|Yes| |<p>- [GroupShape](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.groupshape.html)</p><p>- [Shape.IsGroup](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.isgroup.html)</p>|
+|Group Shape|Yes| |<p>- [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape)</p><p>- [Shape.IsGroup](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/isgroup)</p>|
 |Drawing Canvas|Yes| | |
 |Signature Line|N/A| | |
 |Ink Annotation|N/A| | |
@@ -112,13 +112,13 @@ During export WordArt is exported to HTML as a regular image. On import this fea
 |SmartArt (VML)|Planned| | |
 |Charts (VML)|Planned| | |
 |Shape Customizations|N/A| | |
-|Hyperlink on Shape|Yes|Imported from parent <a> element of the <img> element.|- [Shape.HRef](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.href.html)|
+|Hyperlink on Shape|Yes|Imported from parent <a> element of the <img> element.|- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/href)|
 |Watermark|N/A| | |
 ## **WordArt**
 WordArt is imported as a Shape object in Aspose.Words. This class provides properties to extract and modify properties of a WordArt object. Using Aspose.Words you can create new WordArt graphics. Note that not all WordArt features are avalible through the API. During export WordArt is exported to HTML as a regular image. On import this feature is loaded as a regular image and not as a working WordArt object. There is no tag that directly imports a new WordArt object from HTML. See the following links in the documentation for further information:
 
-- [Shape.IsWordArt](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.iswordart.html)
-- [Shape.TextPath](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.textpath.html)
+- [Shape.IsWordArt](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/iswordart)
+- [Shape.TextPath](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/textpath)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -134,37 +134,37 @@ WordArt is imported as a Shape object in Aspose.Words. This class provides prope
 ## **Horizontal Line Object**
 Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a Shape can also represent an image there is a property which returns if this shape is a Horizontal Line Object. Using Aspose.Words you can create new or modify existing Horizontal Rule objects. Imported from <hr> element. See the following link in the documentation for further information:
 
-- [Shape.IsHorizontalRule](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.ishorizontalrule.html)
+- [Shape.IsHorizontalRule](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/ishorizontalrule)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Width|Yes|Width appears in the API only as absoloute points and not as percent as what Horizontal Line widths are normally calcuated in.The percent value can be calculated by using the width of the page. <br><br>Imported from width:XXX% on style attribute.|- [Shape.Width](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.width.html)|
-|Height|Yes|Imported from height:XXpt on style attribute.|- [Shape.Height](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.height.html)|
-|Color|Yes|Imported from color on style attribute. Note that border:none must be present on the style attribute for the color to be imported correctly.|- [Shape.FillColor](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.fillcolor.html)|
-|Alignment|Yes|Imported from "text-align:XXX" on style attribute.|- [Shape.HorizontalAlignment](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.horizontalalignment.html)|
+|Width|Yes|Width appears in the API only as absoloute points and not as percent as what Horizontal Line widths are normally calcuated in.The percent value can be calculated by using the width of the page. <br><br>Imported from width:XXX% on style attribute.|- [Shape.Width](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/width)|
+|Height|Yes|Imported from height:XXpt on style attribute.|- [Shape.Height](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/height)|
+|Color|Yes|Imported from color on style attribute. Note that border:none must be present on the style attribute for the color to be imported correctly.|- [Shape.FillColor](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fillcolor)|
+|Alignment|Yes|Imported from "text-align:XXX" on style attribute.|- [Shape.HorizontalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/horizontalalignment)|
 |Hyperlink|Yes|An <hr> tag wrapped with an <a> hyperlink element is imported as a working hyperlink. <br><br>However this link is not of hyperlink property on a Horiziontal Rule Object, instead the object is wrapped with a Hyperlink field.|- **Shape.HRef**|
 |Image|Planned|There are plans to import a horizontal line with an image from <hr> element with style="background: url(xxx.png)".|- **Shape.HRef**|
 ## **Position**
 Aspose.Words supports creating objects with a variety of different positioning settings. Almost all possible settings are supported in the Aspose.Words model. You can also access and modify existing shape's positioning. Currently all drawing objects are imported as inline. This will be improved in a future version. See the following links in the documentation for further information:
 
-- [Shape.Top](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.top.html)
+- [Shape.Top](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/top)
 - **Shape.Width**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Inline|Yes| |- [Shape.IsInline](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.isinline.html)|
+|Inline|Yes| |- [Shape.IsInline](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/isinline)|
 |Floating|Planned|In a Word document floating content is anchored to a paragraph. When a document is loaded into Aspose.Words this anchor is represented by the position of the Shape node in relation to Paragraph and the Runs of text.| |
-|Wrap Type|Planned| |- [Shape.WrapType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.wraptype.html)|
-|Wrap Sides|Planned| |- [Shape.WrapSide](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.wrapside.html)|
+|Wrap Type|Planned| |- [Shape.WrapType](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/wraptype)|
+|Wrap Sides|Planned| |- [Shape.WrapSide](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/wrapside)|
 |Distance from Text|Planned| |<p>- **Shape.DistanceFromTextTop**</p><p>- **Shape.DistanceFromTextBottom**</p><p>- **Shape.DistanceFromTextLeft**</p><p>- **Shape.DistanceFromTextRight**</p>|
-|Z-Order|Planned| |- [Shape.ZOrder](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.zorder.html)|
+|Z-Order|Planned| |- [Shape.ZOrder](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/zorder)|
 |Polygon Wrap Points|N/A| | |
-|Rotation|Yes|Using AsposeWords rotation is exported by converting the shape to image and including the rotation in the process. <br><br>The imported shape will appear rotated but won't be true editable rotation.|- [Shape.Rotation](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.rotation.html)|
-|Flip|Yes|Using AsposeWords flip is exported by converting the shape to image and flipping the shape in the process. <br><br>The imported shape will appear flipped but won't be a true "flip".|- [Shape.FlipOrientation](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.fliporientation.html)|
+|Rotation|Yes|Using AsposeWords rotation is exported by converting the shape to image and including the rotation in the process. <br><br>The imported shape will appear rotated but won't be true editable rotation.|- [Shape.Rotation](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/rotation)|
+|Flip|Yes|Using AsposeWords flip is exported by converting the shape to image and flipping the shape in the process. <br><br>The imported shape will appear flipped but won't be a true "flip".|- [Shape.FlipOrientation](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fliporientation)|
 |Horizontal Alignment|Planned| |- **Shape.HorizontalAlignment**|
-|Horizontal Position Relative To|Planned| |- [Shape.RelativeHorizontalPosition](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.relativehorizontalposition.html)|
-|Vertical Alignment|Planned| |- [Shape.VerticalAlignment](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.verticalalignment.html)|
-|Vertical Position Relative To|Planned| |- [Shape.RelativeVerticalPosition](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shapebase.relativeverticalposition.html)|
+|Horizontal Position Relative To|Planned| |- [Shape.RelativeHorizontalPosition](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/relativehorizontalposition)|
+|Vertical Alignment|Planned| |- [Shape.VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/verticalalignment)|
+|Vertical Position Relative To|Planned| |- [Shape.RelativeVerticalPosition](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/relativeverticalposition)|
 |Anchor Lock|N/A| | |
 |Allow Overlap|N/A| | |
 |Layout in Table Cell|N/A| | |
@@ -179,31 +179,31 @@ Aspose.Words supports creating objects with a variety of different positioning s
 ## **Fill**
 Using Aspose.Words you can access, modify and remove most fill properties of a shape. Fill is exported on image during export. During round-trip this is imported as an image shape which looks visually the same but the fill properties cannot be edited. See the following link in the documentation for further information:
 
-- [Shape.Fill](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.fill.html)
+- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fill)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|No Fill|Yes| |- [Shape.Filled](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.filled.html)|
+|No Fill|Yes| |- [Shape.Filled](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/filled)|
 |Solid Fill|Yes| |- **Shape.FillColor**|
 |Gradient Fill|Yes|There is currently no API for accessing or modifying the graident fill of a shape.| |
-|Pattern Fill|Yes|The raw bytes of the Pattern fill can be extracted only. A new pattern can not be set.|- [Fill.ImageBytes](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.fill.imagebytes.html)|
+|Pattern Fill|Yes|The raw bytes of the Pattern fill can be extracted only. A new pattern can not be set.|- [Fill.ImageBytes](https://apireference.aspose.com/words/net/aspose.words.drawing/fill/properties/imagebytes)|
 |Picture or Texture Fill|Yes|The raw bytes of the Texture fill can be extracted only. A new texture or image can not be set.|- **Fill.ImageBytes**|
 ## **Line Style**
 Line styles will visually be imported properly. However these lines are images and are imported as shapes. Line style properties cannot be edited. See the following links in the documentation for further information:
 
-- [Shape.Stroke](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.stroke.html)
-- [Shape.Stroked](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.stroked.html)
+- [Shape.Stroke](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/stroke)
+- [Shape.Stroked](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/stroked)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Line Color|Yes| |<p>- [Stroke.Color](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.color.html)</p><p>- [Stroke.Color2](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.color2.html)</p>|
-|Line Fill|Yes| |- [Stroke.ImageBytes](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.imagebytes.html)|
-|Line Width|Yes| |- [Stroke.Weight](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.weight.html)|
-|Compound Type|Yes| |- [Stroke.LineStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.linestyle.html)|
-|Dash Type|Yes| |- [Stroke.DashStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.dashstyle.html)|
+|Line Color|Yes| |<p>- [Stroke.Color](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/color)</p><p>- [Stroke.Color2](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/color2)</p>|
+|Line Fill|Yes| |- [Stroke.ImageBytes](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/imagebytes)|
+|Line Width|Yes| |- [Stroke.Weight](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/weight)|
+|Compound Type|Yes| |- [Stroke.LineStyle](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/linestyle)|
+|Dash Type|Yes| |- [Stroke.DashStyle](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/dashstyle)|
 |Cap Type|Yes| |- **Stroke.Cap**|
-|Join Type|Yes| |- [Stroke.JoinStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.joinstyle.html)|
-|Arrow Settings|Yes| |<p>- [Stroke.StartArrowLength](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.startarrowlength.html)</p><p>- [Stroke.StartArrowType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.startarrowtype.html)</p><p>- [Stroke.EndArrowLength](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.endarrowlength.html)</p><p>- [Stroke.EndArrowType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.stroke.endarrowtype.html)</p>|
+|Join Type|Yes| |- [Stroke.JoinStyle](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/joinstyle)|
+|Arrow Settings|Yes| |<p>- [Stroke.StartArrowLength](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/startarrowlength)</p><p>- [Stroke.StartArrowType](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/startarrowtype)</p><p>- [Stroke.EndArrowLength](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/endarrowlength)</p><p>- [Stroke.EndArrowType](https://apireference.aspose.com/words/net/aspose.words.drawing/stroke/properties/endarrowtype)</p>|
 ## **Shadow**
 Shadow properties are currently not supported during HTML import.
 

@@ -23,8 +23,8 @@ There is a sample project which demonstrates how to convert this type of footnot
 
 See the following links in the documentation for further information:
 
-- [Footnote](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnote.html)
-- [Document.FootnoteOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.footnoteoptions.html)
+- [Footnote](https://apireference.aspose.com/words/net/aspose.words/footnote)
+- [Document.FootnoteOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/footnoteoptions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -37,7 +37,7 @@ See the following links in the documentation for further information:
 |Number Format |Planned | | |
 |Restart Location |Planned | | |
 |Starting Value |Planned | | |
-|Placement |Planned | |- [FootnoteOptions.Location](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnoteoptions.location.html)|
+|Placement |Planned | |- [FootnoteOptions.Position](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/position)|
 ## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -48,8 +48,8 @@ See the following links in the documentation for further information:
 |Continuation Separator Mark |N/A | | |
 |Document Wide Properties |Planned | | |
 |Section Wide Properties |N/A | | |
-|Number Format |Yes | |- [FootnoteOptions.NumberStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnoteoptions.numberstyle.html)|
-|Restart Location |Planned | |- [FootnoteOptions.RestartRule](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnoteoptions.restartrule.html)|
-|Starting Value |Planned | |- [FootnoteOptions.StartNumber](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnoteoptions.startnumber.html)|
+|Number Format |Yes | |- [FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/numberstyle)|
+|Restart Location |Planned | |- [FootnoteOptions.RestartRule](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/restartrule)|
+|Starting Value |Planned | |- [FootnoteOptions.StartNumber](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/startnumber)|
 |Placement |Planned | | |
 

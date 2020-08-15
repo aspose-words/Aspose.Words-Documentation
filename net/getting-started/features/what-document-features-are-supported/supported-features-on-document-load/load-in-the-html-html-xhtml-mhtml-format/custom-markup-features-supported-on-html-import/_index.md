@@ -13,7 +13,7 @@ Custom Markup are elements that added to parts of the document which allow extra
 ## **CustomXML**
 Represented in Aspose.Words DOM as a CustomXmlMarkup node. You can create and remove CustomXmlMarkup in a document. You can also access the properties of the XML markup node. It is planned to import custom tags from HTML as CustomXML around document elements in the document. See the following link in the documentation for further information:
 
-- [CustomXmlMarkup](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.markup.customxmlmarkup.html)
+- [CustomXmlMarkup](https://apireference.aspose.com/words/net/aspose.words.markup)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
