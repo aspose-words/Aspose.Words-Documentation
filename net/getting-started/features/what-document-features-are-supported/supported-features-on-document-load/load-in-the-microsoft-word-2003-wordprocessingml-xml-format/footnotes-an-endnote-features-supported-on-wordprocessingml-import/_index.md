@@ -15,7 +15,7 @@ Using Aspose.Words you can interact with footnotes and endnotes and access or mo
 ## **Footnotes**
 See the following links in the documentation for further information:
 
-- [Footnote](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnote.html)
+- [Footnote](https://apireference.aspose.com/words/net/aspose.words/footnote)
 - **Document.FootnoteOptions**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -29,7 +29,7 @@ See the following links in the documentation for further information:
 |Number Format |Yes | | |
 |Restart Location |Yes | | |
 |Starting Value |Yes | | |
-|Placement |Yes | |- [FootnoteOptions.Location](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnoteoptions.location.html)|
+|Placement |Yes | |- [FootnoteOptions.Location](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/location)|
 ## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -40,8 +40,7 @@ See the following links in the documentation for further information:
 |Continuation Separator Mark |Yes | | |
 |Document Wide Properties |Yes | | |
 |Section Wide Properties |Yes | | |
-|Number Format |Yes | |- [FootnoteOptions.NumberStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnoteoptions.numberstyle.html)|
-|Restart Location |Yes | |- [FootnoteOptions.RestartRule](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnoteoptions.restartrule.html)|
-|Starting Value |Yes | |- [FootnoteOptions.StartNumber](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.footnoteoptions.startnumber.html)|
+|Number Format |Yes | |- [FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/numberstyle)|
+|Restart Location |Yes | |- [FootnoteOptions.RestartRule](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/restartrule)|
+|Starting Value |Yes | |- [FootnoteOptions.StartNumber](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/startnumber)|
 |Placement |Yes | | |
-

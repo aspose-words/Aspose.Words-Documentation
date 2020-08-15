@@ -6,4 +6,4 @@ url: /java/load-in-the-plain-text-txt-format/
 ---
 
 ###### **This section includes the following topics:** 
-- [Load in the Plain Text Format](/words/java/load-in-the-plain-text-format-html/)
+- [Load in the Plain Text Format](/words/java/load-in-the-plain-text-format/)

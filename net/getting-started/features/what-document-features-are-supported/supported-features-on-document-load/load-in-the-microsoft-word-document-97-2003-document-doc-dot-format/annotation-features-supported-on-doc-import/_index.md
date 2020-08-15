@@ -11,7 +11,7 @@ Annonations allow the user to add extra information to the document normally for
 
 These features are supported by Aspose.Words.
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Doc+Export&linkCreation=true&fromPageId=2595920)
+[Jump to this location in the export section](https://docs.aspose.com/words/net/annotation-features-supported-on-doc-export/)
 
 {{% /alert %}} 
 ##### **Bookmarks**
@@ -29,7 +29,7 @@ The Aspose.Words model is based on Word document formats. In these formats bookm
 
 See the following links in the documentation for further information:
 
-- [Working with Bookmarks](/words/net/working-with-bookmarks-html/)
+- [Working with Bookmarks](/words/net/working-with-bookmarks)
 - [Range.Bookmarks](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.range.bookmarks.html)
 - [Bookmark](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.bookmark.html)
 

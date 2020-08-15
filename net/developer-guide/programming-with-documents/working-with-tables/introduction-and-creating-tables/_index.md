@@ -169,6 +169,7 @@ As described in previous articles, Aspose.Words provides several methods for ins
 |Table( [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
 |Cloning ([Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
 |From an HTML source. ([DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml))|Can create a new table from HTML source e.g the <table>, <tr>, <td> tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
+
 ## **Extracting Plain Text from a Table**
 A Table like any other node in Aspose.Words has access to a Range object. Using this object, you can call methods over the entire table range to extract the table as plain text. The Range.Text property is used for this purpose. Below example shows how to print the text range of a table.
 

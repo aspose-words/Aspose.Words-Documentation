@@ -13,37 +13,37 @@ Aspose.Words provides extensive support for loading, saving and converting Wordp
 
 See the following links in the documentation for further information:
 
-- [Loading, Saving and Converting](/words/net/loading-2c-saving-and-converting-html/)
+- [Loading, Saving and Converting](/words/net/loading-2c-saving-and-converting)
 - [Working with Document old](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Document+old&linkCreation=true&fromPageId=2595928)
-- [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model-html/)
-- [Document](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.html)
+- [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model)
+- [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 
 {{% /alert %}} 
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Attached Template|Yes|Attached template is used to reference styles and other settings through the use of a separate document template. <br><br>The link to this template is imported from the source document and can be found in the API as the Document.AttachedTemplate property.|- [Document.AttachedTemplate](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.attachedtemplate.html)|
-|Built-In Properties|Yes|All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated.|<p>- [Document.BuiltInDocumentProperties](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.builtindocumentproperties.html)</p><p>- [Document.UpdatePageLayout](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.updatepagelayout.html)</p><p>- [Document.UpdateWordCount](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.updatewordcount.html)</p>|
-|Custom Properties|Yes|Custom Document Properties can be created, accessed and modified through the API.|- [Document.CustomDocumentProperties](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.customdocumentproperties.html)|
+|Attached Template|Yes|Attached template is used to reference styles and other settings through the use of a separate document template. <br><br>The link to this template is imported from the source document and can be found in the API as the Document.AttachedTemplate property.|- [Document.AttachedTemplate](https://apireference.aspose.com/words/net/aspose.words/document/properties/attachedtemplate)|
+|Built-In Properties|Yes|All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated.|<p>- [Document.BuiltInDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties)</p><p>- [Document.UpdatePageLayout](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatepagelayout)</p><p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatewordcount)</p>|
+|Custom Properties|Yes|Custom Document Properties can be created, accessed and modified through the API.|- [Document.CustomDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/customdocumentproperties)|
 |Custom Payload Part|N/A| | |
-|Custom XML Data Storage|Planned|Custom XML Parts can be accessed and modified in the DOM. <br><br>You can remove schemas linked to a part, however you cannot schemas in the document that are not referenced. <br><br>This feature will be supported in a future version.|- [Document.CustomXmlParts](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.customxmlparts.html)|
+|Custom XML Data Storage|Planned|Custom XML Parts can be accessed and modified in the DOM. <br><br>You can remove schemas linked to a part, however you cannot schemas in the document that are not referenced. <br><br>This feature will be supported in a future version.|- [Document.CustomXmlParts](https://apireference.aspose.com/words/net/aspose.words/document/properties/customxmlparts)|
 |Digital Signature|N/A|Digital signatures cannot be added to WordML format.| |
-|Embedded Package|Yes|<p>Embedded packages are generally supported by Aspose.Words. There are two ways documents can be embedded inside other documents:</p><p>- OLE (this is available in DOC and OOXML formats)</p><p>- Package Embedding (available in OOXML only) <br><br>  Content can be extracted from both types of embedded packages by using the OleFormat.Save method. <br><br>  Aspose.Words supports these in the following ways during conversion: <br><br>  If you have an OLE embedded or linked object it will be preserved during any conversion (e.g. DOC to DOCX or DOCX to DOC etc). <br><br>  If you have a Package Embedded document, then it will only be preserved during DOCX to DOCX conversion. <br><br>  There is no way to save a Package Embedded document from DOCX into a DOC file without converting it into an OLE embedded object. Implementing conversion of Package Embedded to OLE is tricky and it will take a while to implement. <br><br>  OLE objects contain "native data" and are supposed to be created by the actual OLE creating application. We at Aspose.Words have never attempted or planned to replace the behavior of OLE creating applications.</p>|- [Shape.OleFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape.oleformat.html)|
+|Embedded Package|Yes|<p>Embedded packages are generally supported by Aspose.Words. There are two ways documents can be embedded inside other documents:</p><p>- OLE (this is available in DOC and OOXML formats)</p><p>- Package Embedding (available in OOXML only) <br><br>  Content can be extracted from both types of embedded packages by using the OleFormat.Save method. <br><br>  Aspose.Words supports these in the following ways during conversion: <br><br>  If you have an OLE embedded or linked object it will be preserved during any conversion (e.g. DOC to DOCX or DOCX to DOC etc). <br><br>  If you have a Package Embedded document, then it will only be preserved during DOCX to DOCX conversion. <br><br>  There is no way to save a Package Embedded document from DOCX into a DOC file without converting it into an OLE embedded object. Implementing conversion of Package Embedded to OLE is tricky and it will take a while to implement. <br><br>  OLE objects contain "native data" and are supposed to be created by the actual OLE creating application. We at Aspose.Words have never attempted or planned to replace the behavior of OLE creating applications.</p>|- [Shape.OleFormat](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/oleformat)|
 |Encryption|N/A| | |
 |Font Table|Yes| | |
-|Glossary Document/Quick Parts/Auto Text|Planned| |- [Document.GlossaryDocument](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.glossarydocument.html)|
-|Hyphenation|Yes|There is currently no API to access and modify hypenation settings in a document.|- [ParagraphFormat.SuppressAutoHyphens](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraphformat.suppressautohyphens.html)|
+|Glossary Document/Quick Parts/Auto Text|Planned| |- [Document.GlossaryDocument](https://apireference.aspose.com/words/net/aspose.words/document/properties/glossarydocument)|
+|Hyphenation|Yes|There is currently no API to access and modify hypenation settings in a document.|- [ParagraphFormat.SuppressAutoHyphens](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraphformat.suppressautohyphens)|
 |Key Map Customizations|Yes| | |
-|Mail Merge Recipient Data|Yes| |- [Document.MailMergeSettings](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.mailmergesettings.html)|
+|Mail Merge Recipient Data|Yes| |- [Document.MailMergeSettings](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmergesettings)|
 |Office Math|N/A| | |
 |Themes|N/A|Only OOXML documents have native support for themes. <br><br>During export, theme formatting is applied as direct formatting to WordML <br><br>During round-trip back to DOCX this formatting is retained but the theme information is lost.| |
 |Toolbar Customizations|Yes| | |
-|Variables|Yes|Variables allow you to store additional information in the document which is "hidden" from the main document. <br><br>This can be used to embed custom tracking data in the document itself.|- [Document.Variables](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.variables.html)|
-|VBA Project (Macro)|Yes|VBA Projects are preserved during open and save to different formats that support them. This means you can load an existing template/document and add content to it and the VBA Projects will remain properly. <br><br>There is no API to access the code behind or execute any of the macros. There is a method provided to remove all macros from a document.|- [Document.RemoveMacros](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.removemacros.html)|
+|Variables|Yes|Variables allow you to store additional information in the document which is "hidden" from the main document. <br><br>This can be used to embed custom tracking data in the document itself.|- [Document.Variables](https://apireference.aspose.com/words/net/aspose.words/document/properties/variables)|
+|VBA Project (Macro)|Yes|VBA Projects are preserved during open and save to different formats that support them. This means you can load an existing template/document and add content to it and the VBA Projects will remain properly. <br><br>There is no API to access the code behind or execute any of the macros. There is a method provided to remove all macros from a document.|- [Document.RemoveMacros](https://apireference.aspose.com/words/net/aspose.words/document/properties/removemacros)|
 |VBA Project Digital Signature|Yes|The digital signature on a VBA Project is preserved during open and save even if the document content is modified.| |
-|Background|Yes|A background of a Word document can be a solid color or an image.|- [Document.BackgroundShape](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbase.backgroundshape.html)|
-|Thumbnail|Planned| |- [BuiltInDocumentProperties.Thumbnail](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.properties.builtindocumentproperties.thumbnail.html)|
+|Background|Yes|A background of a Word document can be a solid color or an image.|- [Document.BackgroundShape](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbase.backgroundshape)|
+|Thumbnail|Planned| |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
 ## **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -67,32 +67,31 @@ Once loaded you can remove any protection from a document.
 See the following links in the documentation for further information:
 
 - [Protecting Documents](/words/net/working-with-document/#workingwithdocument-protectingdocuments)
-- [Document.Protect](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.protect overloads.html)
-- [Document.Unprotect](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.unprotect overload 1.html)
+- [Document.Protect](https://apireference.aspose.com/words/net/aspose.words/document/properties/protect overloads)
+- [Document.Unprotect](https://apireference.aspose.com/words/net/aspose.words/document/properties/unprotect overload 1)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Allow Only Comments|Yes| |- [Document.ProtectionType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.protectiontype.html)|
+|Allow Only Comments|Yes| |- [Document.ProtectionType](https://apireference.aspose.com/words/net/aspose.words/document/properties/protectiontype)|
 |Allow Only Form Fields|Yes| |- **Document.ProtectionType**|
 |Allow Only Revisions|Yes|When this protection type is enabled, tracked changes are automatically turned on.|<p>- **Document.ProtectionType**</p><p>- **Document.TrackChanges**</p>|
 |Limit Formatting to Selection of Styles|Planned| | |
-|Protection Password (Legacy)|Yes| |- [WriteProtection.SetPassword](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.settings.writeprotection.setpassword.html)|
+|Protection Password (Legacy)|Yes| |- [WriteProtection.SetPassword](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/methods/writeprotection.setpassword)|
 |Protection Password (OOXML)|N/A| | |
-|Protected Sections|Yes| |- [Section.ProtectedForForms](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.section.protectedforforms.html)|
+|Protected Sections|Yes| |- [Section.ProtectedForForms](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.section.protectedforforms)|
 |Protection Ranges|Planned|Currently protected ranges are lost upon import.| |
-|Read Only|Yes| |<p>- [Document.WriteProtection](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.writeprotection.html)</p><p>- [WriteProtection.IsWriteProtected](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.settings.writeprotection.iswriteprotected.html)</p>|
+|Read Only|Yes| |<p>- [Document.WriteProtection](https://apireference.aspose.com/words/net/aspose.words/document/properties/writeprotection)</p><p>- [WriteProtection.IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/writeprotection.iswriteprotected)</p>|
 ## **Settings**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Asian Typography Settings|Yes| | |
-|Compatibility Options|Yes| |- [Document.CompatibilityOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.compatibilityoptions.html)|
-|Endnote Options|Yes| |- [Document.EndnoteOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.endnoteoptions.html)|
-|Footnote Options|Yes| |- [Document.FootnoteOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.footnoteoptions.html)|
+|Compatibility Options|Yes| |- [Document.CompatibilityOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/compatibilityoptions)|
+|Endnote Options|Yes| |- [Document.EndnoteOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/endnoteoptions)|
+|Footnote Options|Yes| |- [Document.FootnoteOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/footnoteoptions)|
 |Mail Merge Settings|Yes|You can modify all mail merge settings, as well as setting a new mail merge data source for the document to use.|- **Document.MailMergeSettings**|
-|Print Settings|Yes| |- [Section.PageSetup](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.section.pagesetup.html)|
+|Print Settings|Yes| |- [Section.PageSetup](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.section.pagesetup)|
 |Show/Hide Settings|Yes| | |
-|View Settings|Yes| |- [Document.ViewOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.viewoptions.html)|
+|View Settings|Yes| |- [Document.ViewOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/viewoptions)|
 |Web Settings|Yes| | |
 |XML Settings|Yes| | |
-
