@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words for Java 20.6 Release Notes
 type: docs
-weight: 10
+weight: 15
 url: /java/aspose-words-for-java-20-6-release-notes/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words for JasperReports 20.4 Release Notes
 type: docs
-weight: 10
+weight: 20
 url: /jasperreports/aspose-words-for-jasperreports-20-4-release-notes/
 ---
 
