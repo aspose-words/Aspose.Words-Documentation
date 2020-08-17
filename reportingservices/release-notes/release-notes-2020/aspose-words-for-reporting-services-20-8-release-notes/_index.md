@@ -21,6 +21,6 @@ Note: Microsoft changed target framework for SSRS 2019 from 3.5 to 4.6. SSRS 201
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for .NET (20.8)](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.8+Release+Notes)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for .NET (20.8)](https://docs.aspose.com/words/net/aspose-words-for-net-20-8-release-notes/)|New feature|
 |WORDSRS-275|Upgrade to the latest SSRS 2019|New feature|
 |WORDSRS-193|Repeat header row on every page does not work|Bug|
