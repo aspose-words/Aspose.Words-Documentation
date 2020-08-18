@@ -47,4 +47,4 @@ The following table indicates the input and output file formats supported by Asp
 |JPEG|Renders a page of the document and saves it as a JPEG file.| |{{< emoticons/tick >}}| |
 |GIF|Renders a page of the document and saves it as a GIF file.| |{{< emoticons/tick >}}| |
 ## **See also**
-- [File Format Wiki](https://wiki.fileformat.com/home/) provides file formats information
+- [File Format Wiki](https://docs.fileformat.com/home/) provides file formats information
