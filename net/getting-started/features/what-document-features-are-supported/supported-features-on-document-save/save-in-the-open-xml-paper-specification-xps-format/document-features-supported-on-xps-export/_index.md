@@ -21,9 +21,9 @@ Both TrueType and OpenFont font formats are supported and can be subsetted durin
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/pages/createpage.action?spaceKey=wordsnet&title=Save+a+Document&linkCreation=true&fromPageId=2589341)
-- [Rendering and Printing](/pages/createpage.action?spaceKey=wordsnet&title=Rendering+and+Printing&linkCreation=true&fromPageId=2589341)
-- [XpsSaveOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.xpssaveoptions.html)
+- [Save a Document](/words/net/saving-a-document/)
+- [Rendering and Printing](/words/net/rendering/)
+- [XpsSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/xpssaveoptions)
 
 {{% /alert %}} 
 ##### **General**
@@ -31,7 +31,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template |N/A | | |
-|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. <br><br>Built-in properties are exported to XPS as Dublin Core tags where applicable. |- [Document.UpdateWordCount](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.updatewordcount.html)|
+|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. <br><br>Built-in properties are exported to XPS as Dublin Core tags where applicable. |- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
 |Custom Properties |N/A | | |
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |N/A | | |

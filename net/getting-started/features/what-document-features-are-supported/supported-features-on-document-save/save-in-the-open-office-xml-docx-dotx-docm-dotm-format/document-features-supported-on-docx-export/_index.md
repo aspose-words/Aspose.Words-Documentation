@@ -9,12 +9,12 @@ url: /net/document-features-supported-on-docx-export/
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/pages/createpage.action?spaceKey=wordsnet&title=Save+a+Document&linkCreation=true&fromPageId=2589338)
-- [OoxmlSaveOptions](/pages/createpage.action?spaceKey=wordsnet&title=OoxmlSaveOptions+Class&linkCreation=true&fromPageId=2589338)
-- [OoxmlSaveOptions.TempFolder](/pages/createpage.action?spaceKey=wordsnet&title=TempFolder+Property&linkCreation=true&fromPageId=2589338)
-- [OoxmlSaveOptions.Compliance](/pages/createpage.action?spaceKey=wordsnet&title=Compliance+Property&linkCreation=true&fromPageId=2589338)
+- [Save a Document](/words/net/saving-a-document/)
+- [OoxmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/OoxmlSaveOptions)
+- [OoxmlSaveOptions.TempFolder](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/tempfolder)
+- [OoxmlSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/properties/compliance)
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Ooxml+Import&linkCreation=true&fromPageId=2589338)
+[Jump to this location in the import section](/words/net/document-features-supported-on-docx-import/)
 
 {{% /alert %}} 
 ##### **General**
@@ -38,7 +38,7 @@ See the following links in the documentation for further information:
 |Themes |Yes |Themes are preserved during open/save cycle. | |
 |Toolbar Customizations |Yes | | |
 |Variables |Yes | | |
-|VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. <br><br>Only DOCM, DOTM and FlatOPC format support macros. If saving to DOCX or DOTX you will need to use the Document.RemoveMacros to remove any macros first before saving. |- [Document.RemoveMacros](/pages/createpage.action?spaceKey=wordsnet&title=RemoveMacros+Method&linkCreation=true&fromPageId=2589338)|
+|VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. <br><br>Only DOCM, DOTM and FlatOPC format support macros. If saving to DOCX or DOTX you will need to use the Document.RemoveMacros to remove any macros first before saving. |- [Document.RemoveMacros](https://apireference.aspose.com/words/net/aspose.words/document/methods/removemacros)|
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes | | |
 |Thumbnail |Planned | | |

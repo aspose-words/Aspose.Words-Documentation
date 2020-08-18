@@ -7,7 +7,7 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=WordML+Import&linkCreation=true&fromPageId=2595744)
+[Jump to this location in the import section](/words/net/table-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
 ##### **Table**

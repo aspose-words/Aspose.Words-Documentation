@@ -19,9 +19,6 @@ You can check the quality of Aspose.Words conversion and view the results online
 
 The [XML Paper Specification](https://wiki.fileformat.com/page-description-language/xps/) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.
 
-
-
-
 ## **XPS in Aspose.Words**
 Any document loaded into Aspose.Words can be converted to XPS.
 

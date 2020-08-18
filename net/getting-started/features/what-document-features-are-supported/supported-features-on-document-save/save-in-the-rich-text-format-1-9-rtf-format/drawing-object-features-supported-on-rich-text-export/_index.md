@@ -9,7 +9,7 @@ url: /net/drawing-object-features-supported-on-rich-text-export/
 
 Images are exported to RTF in hex format. There are plans to support writing images in bin format to reduce the size of the image by half.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Images+Rtf+Import&linkCreation=true&fromPageId=2589378)
+[Jump to this location in the import section](/words/net/drawing-object-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
 ##### **Images**

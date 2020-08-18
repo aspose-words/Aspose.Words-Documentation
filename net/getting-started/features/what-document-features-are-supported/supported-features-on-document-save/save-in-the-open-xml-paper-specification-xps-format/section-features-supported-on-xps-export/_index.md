@@ -16,7 +16,7 @@ url: /net/section-features-supported-on-xps-export/
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
-- [DocumentBuilder.InsertBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.insertbreak.html)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Right to Left Section |Planned | | |
 |Line Numbering |Yes | | |
-|Paper Source |Yes |The appropriate paper source from each section is exported to XPS using PrintTicket |<p>- [PageSetup.FirstPageTray](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.firstpagetray.html) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Source |Yes |The appropriate paper source from each section is exported to XPS using PrintTicket |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
 |Paper Size |Yes | | |
 |Orientation |Yes | | |
 |Protection |N/A | | |

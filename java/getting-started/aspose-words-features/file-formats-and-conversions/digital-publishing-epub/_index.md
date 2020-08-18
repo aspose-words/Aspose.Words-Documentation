@@ -17,9 +17,9 @@ You can check the quality of Aspose.Words conversion and view the results online
 ## **About EPUB**
 ![todo:image_alt_text](digital-publishing-epub_1.png)
 
-[EPUB](https://wiki.fileformat.com/ebook/epub/) is an XML-based distribution format for eBooks that is rapidly gaining adoption by publishers and distributors. [EPUB](https://wiki.fileformat.com/ebook/epub/) is an open standard supported by the [International Digital Publishing Forum](http://idpf.org/) (IDPF) organization.
+[EPUB](https://docs.fileformat.com/ebook/epub/) is an XML-based distribution format for eBooks that is rapidly gaining adoption by publishers and distributors. [EPUB](https://docs.fileformat.com/ebook/epub/) is an open standard supported by the [International Digital Publishing Forum](http://idpf.org/) (IDPF) organization.
 
-[EPUB](https://wiki.fileformat.com/ebook/epub/) has been adopted by Adobe as a complement to PDF for reflow-centric eBooks and it is supported by a number of other 3rd parties, including notably the Stanza Reader, the top iPhone application in its category. Commercial [EPUB](https://wiki.fileformat.com/ebook/epub/) content is available from O'Reilly, Penguin, Waterstones (top UK bookseller), FNAC (#1 France bookseller), etc.
+[EPUB](https://docs.fileformat.com/ebook/epub/) has been adopted by Adobe as a complement to PDF for reflow-centric eBooks and it is supported by a number of other 3rd parties, including notably the Stanza Reader, the top iPhone application in its category. Commercial [EPUB](https://docs.fileformat.com/ebook/epub/) content is available from O'Reilly, Penguin, Waterstones (top UK bookseller), FNAC (#1 France bookseller), etc.
 
 
 ## **EPUB in Aspose.Words**

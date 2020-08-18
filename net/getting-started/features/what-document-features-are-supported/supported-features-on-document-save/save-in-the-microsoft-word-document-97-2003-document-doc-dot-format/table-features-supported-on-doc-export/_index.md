@@ -7,7 +7,7 @@ url: /net/table-features-supported-on-doc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Doc+Import&linkCreation=true&fromPageId=2595712)
+[Jump to this location in the import section](/words/net/table-features-supported-on-doc-import/)
 
 {{% /alert %}} 
 ##### **Table**

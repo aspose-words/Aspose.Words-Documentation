@@ -17,7 +17,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 
 WordprocessingML or WordML is a name for a family of XML-based formats for word processing documents.
 WordprocessingML was first introduced in Microsoft Word 2003. WordprocessingML was a significant step by Microsoft towards making the document format open. It is plain XML format.
-[Office Open XML](http://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. [Office Open XML](http://en.wikipedia.org/wiki/Office_Open_XML) is a container format for several specialized XML-based markup languages. WordprocessingML is the markup language used by Microsoft Office Word to store its [DOCX ](https://wiki.fileformat.com/word-processing/docx/)documents.
+[Office Open XML](http://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. [Office Open XML](http://en.wikipedia.org/wiki/Office_Open_XML) is a container format for several specialized XML-based markup languages. WordprocessingML is the markup language used by Microsoft Office Word to store its [DOCX ](https://docs.fileformat.com/word-processing/docx/)documents.
 ### **WordprocessingML in Aspose.Words**
 This table explains which "versions" of WordprocessingML are supported by Aspose.Words for Java:
 

@@ -7,7 +7,7 @@ url: /net/table-features-supported-on-docx-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Ooxml+Import&linkCreation=true&fromPageId=2589346)
+[Jump to this location in the import section](/words/net/table-features-supported-on-docx-import/)
 
 {{% /alert %}} 
 ##### **Table**

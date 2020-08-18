@@ -7,7 +7,7 @@ url: /net/section-features-supported-on-rich-text-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Rtf+Import&linkCreation=true&fromPageId=2589373)
+[Jump to this location in the import section](/words/net/section-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
 ##### **Headers and Footers**
@@ -21,7 +21,7 @@ url: /net/section-features-supported-on-rich-text-export/
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
-- [DocumentBuilder.InsertBreak](/pages/createpage.action?spaceKey=wordsnet&title=InsertBreak+Method&linkCreation=true&fromPageId=2589373)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -52,7 +52,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Right to Left Section |Yes | | |
 |Line Numbering |Yes | | |
-|Paper Source |Yes | |<p>- [PageSetup.FirstPageTray](/pages/createpage.action?spaceKey=wordsnet&title=FirstPageTray+Property&linkCreation=true&fromPageId=2589373) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Source |Yes | |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
 |Paper Size |Yes | | |
 |Orientation |Yes | | |
 |Protection |Yes | | |

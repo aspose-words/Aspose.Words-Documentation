@@ -63,5 +63,3 @@ Then define Aspose.Words for Java API dependency in your pom.xml as follows:
 {{< /highlight >}}
 
 Congratulations! You have successfully defined the Aspose.Words for Java Maven dependency in your Maven project.
-
-

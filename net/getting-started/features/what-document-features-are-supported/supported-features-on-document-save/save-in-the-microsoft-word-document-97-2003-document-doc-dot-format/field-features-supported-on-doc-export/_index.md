@@ -15,7 +15,7 @@ Fields with custom field codes (a field code modified to represent something dif
 
 When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of page layout.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Field+Codes+Doc+Import&linkCreation=true&fromPageId=2595698)
+[Jump to this location in the import section](/words/net/field-features-supported-on-doc-import/)
 
 {{% /alert %}} 
 ##### **Field Codes**

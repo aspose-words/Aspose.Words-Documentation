@@ -7,7 +7,7 @@ url: /net/style-features-supported-on-wordprocessingml-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Style+Type+WordML+Import&linkCreation=true&fromPageId=2595746)
+[Jump to this location in the import section](/words/net/style-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
 ##### **Style Type**

@@ -7,7 +7,7 @@ url: /net/style-features-supported-on-doc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Style+Type+Doc+Import&linkCreation=true&fromPageId=2595710)
+[Jump to this location in the import section](/words/net/style-features-supported-on-doc-import/)
 
 {{% /alert %}} 
 ##### **Style Type**

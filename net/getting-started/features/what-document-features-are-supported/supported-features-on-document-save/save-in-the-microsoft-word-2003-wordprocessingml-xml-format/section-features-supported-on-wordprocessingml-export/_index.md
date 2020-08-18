@@ -7,7 +7,7 @@ url: /net/section-features-supported-on-wordprocessingml-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=WordML+Import&linkCreation=true&fromPageId=2595740)
+[Jump to this location in the import section](/words/net/section-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
 ##### **Headers and Footers**
@@ -21,7 +21,7 @@ url: /net/section-features-supported-on-wordprocessingml-export/
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
-- [DocumentBuilder.InsertBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.insertbreak.html)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -52,7 +52,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Right to Left Section |Yes | | |
 |Line Numbering |Yes | | |
-|Paper Source |Yes | |<p>- [PageSetup.FirstPageTray](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.firstpagetray.html) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Source |Yes | |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
 |Paper Size |Yes | | |
 |Orientation |Yes | | |
 |Protection |Yes | | |

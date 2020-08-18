@@ -7,7 +7,7 @@ url: /net/drawing-object-features-supported-on-wordprocessingml-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Images+WordML+Import&linkCreation=true&fromPageId=2595734)
+[Jump to this location in the import section](/words/net/drawing-object-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
 ##### **Images**

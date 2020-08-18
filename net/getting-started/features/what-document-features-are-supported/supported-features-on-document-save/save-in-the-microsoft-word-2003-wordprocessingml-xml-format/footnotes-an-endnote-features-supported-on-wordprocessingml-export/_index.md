@@ -7,7 +7,7 @@ url: /net/footnotes-an-endnote-features-supported-on-wordprocessingml-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Footnotes+WordML+Import&linkCreation=true&fromPageId=2595738)
+[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
 ##### **Footnotes**

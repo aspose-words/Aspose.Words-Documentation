@@ -7,7 +7,7 @@ url: /net/drawing-object-features-supported-on-doc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Images+Doc+Import&linkCreation=true&fromPageId=2595696)
+[Jump to this location in the import section](/words/net/drawing-object-features-supported-on-doc-import/)
 
 {{% /alert %}} 
 ##### **Images**

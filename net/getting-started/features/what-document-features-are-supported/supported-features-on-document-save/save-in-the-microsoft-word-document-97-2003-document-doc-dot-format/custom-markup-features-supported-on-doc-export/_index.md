@@ -9,7 +9,7 @@ url: /net/custom-markup-features-supported-on-doc-export/
 
 When converting to a document format that doesn't support custom markup features, the markup is stripped but content is preserved. The non-Microsoft Word document formats do not support custom markup and only text is exported.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=CustomXML+Doc+Import&linkCreation=true&fromPageId=2595692)
+[Jump to this location in the import section](/words/net/custom-markup-features-supported-on-doc-import/)
 
 {{% /alert %}} 
 ##### **CustomXML**

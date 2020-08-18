@@ -16,7 +16,7 @@ Note that there may appear to be more styles in the output ODT document than in 
 See the following links in the documentation for further information:
 
 - [Save a Document](/words/net/saving-a-document/)
-- [OdtSaveOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.odtsaveoptions.html)
+- [OdtSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/OdtSaveOptions)
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-opendocument-import/)
 
@@ -36,7 +36,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template|N/A| | |
-|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>Some Microsoft Word document properties that do not have corresponding properties in ODT are not saved to ODT.|- [Document.UpdateWordCount](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.updatewordcount.html)|
+|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>Some Microsoft Word document properties that do not have corresponding properties in ODT are not saved to ODT.|- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
 |Custom Properties|Yes| | |
 |Custom Payload Part|N/A| | |
 |Custom XML Data Storage|N/A| | |

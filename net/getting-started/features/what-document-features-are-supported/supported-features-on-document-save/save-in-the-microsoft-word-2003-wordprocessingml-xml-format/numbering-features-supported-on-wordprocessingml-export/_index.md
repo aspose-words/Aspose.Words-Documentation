@@ -7,7 +7,7 @@ url: /net/numbering-features-supported-on-wordprocessingml-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=WordML+Import&linkCreation=true&fromPageId=2595736)
+[Jump to this location in the import section](/words/net/numbering-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
 ##### **Numbering Definition**

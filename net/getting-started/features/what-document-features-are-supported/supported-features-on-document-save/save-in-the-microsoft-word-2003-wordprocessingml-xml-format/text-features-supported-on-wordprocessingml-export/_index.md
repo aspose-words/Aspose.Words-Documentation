@@ -9,7 +9,7 @@ url: /net/text-features-supported-on-wordprocessingml-export/
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=WordML+Import&linkCreation=true&fromPageId=2595750)
+[Jump to this location in the import section](/words/net/text-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
 ##### **Characters**

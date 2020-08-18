@@ -7,7 +7,7 @@ url: /net/footnotes-an-endnote-features-supported-on-docx-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Footnotes+Ooxml+Import&linkCreation=true&fromPageId=2589335)
+[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-docx-import/)
 
 {{% /alert %}} 
 ##### **Footnotes**

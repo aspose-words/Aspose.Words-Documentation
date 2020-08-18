@@ -18,11 +18,11 @@ There are two questions that we hear most often here at Aspose:
 
 There are several reasons why Aspose components are a better alternative to automation. Some of the key reasons are:
 
-- [Security](/words/java/why-not-automation-html/)
-- [Stability](/words/java/why-not-automation-html/)
-- [Scalability/Speed](/words/java/why-not-automation-html/)
-- [Price](/words/java/why-not-automation-html/)
-- [Features](/words/java/why-not-automation-html/)
+- [Security](/words/java/why-not-automation/)
+- [Stability](/words/java/why-not-automation/)
+- [Scalability/Speed](/words/java/why-not-automation/)
+- [Price](/words/java/why-not-automation/)
+- [Features](/words/java/why-not-automation/)
 
 The key points are described below. Also, be sure to visit the links at the end of this section.
 

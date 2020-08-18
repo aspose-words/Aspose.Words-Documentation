@@ -7,7 +7,7 @@ url: /net/numbering-features-supported-on-rich-text-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Rtf+Import&linkCreation=true&fromPageId=2589371)
+[Jump to this location in the import section](/words/net/numbering-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
 ##### **Numbering Definition**

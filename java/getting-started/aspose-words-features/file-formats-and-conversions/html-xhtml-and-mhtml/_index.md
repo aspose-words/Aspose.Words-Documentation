@@ -17,7 +17,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 ## **HTML in Aspose.Words**
 ![todo:image_alt_text](html-xhtml-and-mhtml_1.png)
 
-[HTML ](https://wiki.fileformat.com/web/html/)features in Aspose.Words:
+[HTML ](https://docs.fileformat.com/web/html/)features in Aspose.Words:
 
 - Load and save HTML, XHTML and MHTML documents.
 - Load and save CSS styles.

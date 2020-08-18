@@ -7,7 +7,7 @@ url: /net/style-features-supported-on-docx-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Style+Type+Ooxml+Import&linkCreation=true&fromPageId=2589331)
+[Jump to this location in the import section](/words/net/style-features-supported-on-docx-import/)
 
 {{% /alert %}} 
 ##### **Style Type**

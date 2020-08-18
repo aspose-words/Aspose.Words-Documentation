@@ -9,7 +9,7 @@ url: /net/text-features-supported-on-docx-export/
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Ooxml+Import&linkCreation=true&fromPageId=2589345)
+[Jump to this location in the import section](/words/net/text-features-supported-on-docx-import/)
 
 {{% /alert %}} 
 ##### **Characters**

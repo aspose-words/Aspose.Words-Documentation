@@ -7,7 +7,7 @@ url: /net/footnotes-an-endnote-features-supported-on-doc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Footnotes+Doc+Import&linkCreation=true&fromPageId=2595700)
+[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-doc-import/)
 
 {{% /alert %}} 
 ##### **Footnotes**

@@ -7,7 +7,7 @@ url: /net/paragraph-features-supported-on-doc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Doc+Import&linkCreation=true&fromPageId=2595704)
+[Jump to this location in the import section](/words/net/paragraph-features-supported-on-doc-import/)
 
 {{% /alert %}} 
 ##### **General Formatting**

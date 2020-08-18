@@ -9,11 +9,11 @@ url: /net/document-features-supported-on-doc-export/
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/pages/createpage.action?spaceKey=wordsnet&title=Save+a+Document&linkCreation=true&fromPageId=2595694)
-- [DocSaveOptions](/pages/createpage.action?spaceKey=wordsnet&title=DocSaveOptions+Class&linkCreation=true&fromPageId=2595694)
-- [DocSaveOptions.TempFolder](/pages/createpage.action?spaceKey=wordsnet&title=TempFolder+Property&linkCreation=true&fromPageId=2595694)
+- [Save a Document](/words/net/saving-a-document/)
+- [DocSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/DocSaveOptions)
+- [DocSaveOptions.TempFolder](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/tempfolder)
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Doc+Import&linkCreation=true&fromPageId=2595694)
+[Jump to this location in the import section](/words/net/document-features-supported-on-doc-import/)
 
 {{% /alert %}} 
 ##### **General**
@@ -21,13 +21,13 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template |Yes | | |
-|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. |- [Document.UpdateWordCount](/pages/createpage.action?spaceKey=wordsnet&title=UpdateWordCount+Method&linkCreation=true&fromPageId=2595694)|
+|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. |- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
 |Custom Properties |Yes | | |
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |Yes | | |
 |Digital Signature |Planned |Signing a DOC document with a digital signatures is not yet supported. <br><br>Note that an existing signature on a document cannot be retained as by nature the document has been changed during import. | |
 |Embedded Package |Yes |<p>Embedded packages are generally supported by Aspose.Words. There are two ways documents can be embedded inside other documents: </p><p>- OLE (this is available in DOC and OOXML formats) </p><p>- Package Embedding (available in OOXML only) <br><br>  Aspose.Words supports these in the following ways: <br><br>  If you have an OLE embedded or linked object it will be preserved during any conversion (e.g. DOC to DOCX or DOCX to DOC etc). <br><br>  If you have a Package Embedded document, then it will only be preserved during DOCX to DOCX conversion. <br><br>  There is no way to save a Package Embedded document from DOCX into a DOC file without converting it into an OLE embedded object. Implementing conversion of Package Embedded to OLE is tricky and it will take a while to implement. <br><br>  OLE objects contain "native data" and are supposed to be created by the actual OLE creating application. We at Aspose.Words have never attempted or planned to replace the behavior of OLE creating applications. </p>| |
-|Encryption |Yes |You can encrypt a DOC document on save by specifying the password using the DocSaveOptions class. |- [DocSaveOptions.Password](/pages/createpage.action?spaceKey=wordsnet&title=Password+Property&linkCreation=true&fromPageId=2595694)|
+|Encryption |Yes |You can encrypt a DOC document on save by specifying the password using the DocSaveOptions class. |- [DocSaveOptions.Password](https://apireference.aspose.com/words/net/aspose.words.saving/docsaveoptions/properties/password)|
 |Font Table |Yes | | |
 |Glossary Document/Quick Parts/Auto Text |Planned | | |
 |Hyphenation |Yes | | |
@@ -37,7 +37,7 @@ See the following links in the documentation for further information:
 |Themes |Yes |Properties of themes are converted to direct formatting upon save. <br><br>Not all properties may be maintained at the moment. | |
 |Toolbar Customizations |Yes | | |
 |Variables |Yes | | |
-|VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. <br><br>DOC format supports macros. You can optionally remove existing macros from a document by using the Document.RemoveMacros method. |- [Document.RemoveMacros](/pages/createpage.action?spaceKey=wordsnet&title=RemoveMacros+Method&linkCreation=true&fromPageId=2595694)|
+|VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. <br><br>DOC format supports macros. You can optionally remove existing macros from a document by using the Document.RemoveMacros method. |- [Document.RemoveMacros](https://apireference.aspose.com/words/net/aspose.words/document/methods/removemacros)|
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes | | |
 |Thumbnail |Planned | | |

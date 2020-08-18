@@ -7,7 +7,7 @@ url: /net/paragraph-features-supported-on-rich-text-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Rtf+Import&linkCreation=true&fromPageId=2589374)
+[Jump to this location in the import section](/words/net/paragraph-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
 ##### **General Formatting**

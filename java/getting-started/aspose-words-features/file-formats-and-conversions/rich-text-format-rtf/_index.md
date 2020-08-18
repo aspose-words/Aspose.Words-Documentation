@@ -17,7 +17,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 ## **About RTF**
 ![todo:image_alt_text](rich-text-format-rtf_1.png)
 
-The [Rich Text Format (RTF)](https://wiki.fileformat.com/word-processing/rtf/) is one of the document formats supported by Microsoft Word and many other word processing applications. RTF is a human-readable word processing format intended for interchange between different applications on various platforms and it has been around for 20 years. The new XML-based formats are becoming more common, but RTF is still being supported and updated by Microsoft. The latest version is RTF 1.9 Specification dated January 2007.
+The [Rich Text Format (RTF)](https://docs.fileformat.com/word-processing/rtf/) is one of the document formats supported by Microsoft Word and many other word processing applications. RTF is a human-readable word processing format intended for interchange between different applications on various platforms and it has been around for 20 years. The new XML-based formats are becoming more common, but RTF is still being supported and updated by Microsoft. The latest version is RTF 1.9 Specification dated January 2007.
 ## **RTF in Aspose.Words**
 Aspose.Words can read and write files in the RTF format of any version.
 

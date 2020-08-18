@@ -11,11 +11,11 @@ There are save options avalaible to export the RTF in compact size and to accomd
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/pages/createpage.action?spaceKey=wordsnet&title=Save+a+Document&linkCreation=true&fromPageId=2589375)
-- [RtfSaveOptions](/pages/createpage.action?spaceKey=wordsnet&title=RtfSaveOptions+Class&linkCreation=true&fromPageId=2589375)
-- [RtfSaveOptions.ExportCompactSize](/pages/createpage.action?spaceKey=wordsnet&title=ExportCompactSize+Property&linkCreation=true&fromPageId=2589375)
+- [Save a Document](/words/net/saving-a-document/)
+- [RtfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/RtfSaveOptions)
+- [RtfSaveOptions.ExportCompactSize](https://apireference.aspose.com/words/net/aspose.words.saving/rtfsaveoptions/properties/exportcompactsize)
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Rtf+Import&linkCreation=true&fromPageId=2589375)
+[Jump to this location in the import section](/words/net/document-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
 ##### **General**
@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template |Yes | | |
-|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. |- [Document.UpdateWordCount](/pages/createpage.action?spaceKey=wordsnet&title=UpdateWordCount+Method&linkCreation=true&fromPageId=2589375)|
+|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. |- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
 |Custom Properties |Yes | | |
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |Planned | | |

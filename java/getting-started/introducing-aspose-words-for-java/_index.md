@@ -57,7 +57,7 @@ Although there are over 150 public classes and enumerations in Aspose.Words, the
 - Borrow best practices from the industry accepted Java design guidelines.
 - Provide a balance of easy usage vs detailed document element manipulation.
 
-Developers, who used Microsoft Word Automation in their projects before, will find names and behavior of many classes, methods, and properties familiar. [Document](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Document+class), [Paragraph](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Paragraph+class), [Bookmark](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Bookmark+class), Range, Section.PageSetup and [Paragraph.ParagraphFormat](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ParagraphFormat+class) are some of the Aspose.Words classes.
+Developers, who used Microsoft Word Automation in their projects before, will find names and behavior of many classes, methods, and properties familiar. [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document), [Paragraph](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph), [Bookmark](https://apireference.aspose.com/words/java/com.aspose.words/Bookmark), Range, Section.PageSetup and [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) are some of the Aspose.Words classes.
 
 At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents the document as a tree of objects more like an XML DOM tree. If you worked with any XML DOM library you will find it is easy to understand and work with Aspose.Words.
 ### **Technical Support**
@@ -78,6 +78,6 @@ Please refer to the following article:
 
 [Installing Aspose.Words for Java from Maven Repository](/words/java/installation/)
 ### **Evaluate Aspose.Words**
-You can easily download Aspose.Words for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to [apply the license](). The evaluation version of Aspose.Words provides full product functionality, but inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to several hundred paragraphs.
+You can easily download Aspose.Words for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to [apply the license](https://docs.aspose.com/words/java/license-aspose-words/#applying-a-license). The evaluation version of Aspose.Words provides full product functionality, but inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to several hundred paragraphs.
 #### **Evaluation License**
 If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx).
