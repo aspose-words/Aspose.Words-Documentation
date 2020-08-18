@@ -19,9 +19,9 @@ You pass a stream object to the Document->Save method. When you save to a stre
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-LoadAndSaveToStream-LoadAndSaveToStream.cpp" >}}
 ## **Save HTML tags Input and Select as Content Control**
-Aspose.Words provides support to import HTML tags <input> and <select> as form field or content control (SDT) into its DOM and export them in output Word document. You can use HtmlLoadOptions.set_PreferredControlType property to specify the preferred control type.
+Aspose.Words provides support to import HTML tags &lt;input&gt; and &lt;select&gt; as form field or content control (SDT) into its DOM and export them in output Word document. You can use HtmlLoadOptions.set_PreferredControlType property to specify the preferred control type.
 
-Following code example shows how to export HTML tags <input> and <select> as content control in output DOCX.
+Following code example shows how to export HTML tags &lt;input&gt; and &lt;select&gt; as content control in output DOCX.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-LoadAndSaveHtmlFormFieldAsContentControlInDOCX-LoadAndSaveHtmlFormFieldasContentControlinDOCX.cpp" >}}
 ## **Specifying Html Save Options**
