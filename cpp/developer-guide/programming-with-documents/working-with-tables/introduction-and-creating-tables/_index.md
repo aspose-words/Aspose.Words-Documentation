@@ -138,7 +138,7 @@ Below example shows how to make a clone of the last row of a table and append it
 If you are looking at creating tables in the document which dynamically grow with each record from your data source, then the above method is not advised.
 Instead, the desired output is achieved more easily by using Mail Merge with Regions. You can learn more about this technique under Mail Merge with Regions Explained.
 ### **Inserting a Table from HTML**
-Aspose.Words supports inserting content into a document from an HTML source by using the DocumentBuilder.InsertHtml method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g <table>, <tr>, <td>. Below example shows how to insert a table in a document from a string containing HTML tags.
+Aspose.Words supports inserting content into a document from an HTML source by using the DocumentBuilder.InsertHtml method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cpp" >}}
 ### **Comparison of Insertion Techniques**
