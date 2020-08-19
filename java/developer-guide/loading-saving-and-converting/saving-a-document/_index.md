@@ -129,8 +129,8 @@ Following code example shows how to save the document to PCL using save options
 
 
 ## **Save HTML tags Input and Select as Content Control**
-Aspose.Words provides support to import HTML tags <input> and <select> as form field or content control (SDT) into its DOM and export them in output Word document. You can use HtmlLoadOptions.PreferredControlType property to specify the preferred control type.
+Aspose.Words provides support to import HTML tags &lt;input&gt; and &lt;select&gt; as form field or content control (SDT) into its DOM and export them in output Word document. You can use HtmlLoadOptions.PreferredControlType property to specify the preferred control type.
 
-Following code example shows how to export HTML tags <input> and <select> as content control in output DOCX.
+Following code example shows how to export HTML tags &lt;input&gt; and &lt;select&gt; as content control in output DOCX.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveHtmlFormFieldasContentControlinDOCX.java" >}}
