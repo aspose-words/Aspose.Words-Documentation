@@ -29,9 +29,9 @@ Aspose.Words for JasperReports provides a number of parameters that affect the r
 
 {{< highlight java >}}
 
-<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-<property name="spacingFactor" value="0.75"/>
-</bean>
+&lt;bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean"&gt;
+&lt;property name="spacingFactor" value="0.75"/&gt;
+&lt;/bean&gt;
 
 {{< /highlight >}}
 
