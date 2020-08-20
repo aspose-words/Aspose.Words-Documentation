@@ -7,7 +7,7 @@ url: /net/annotation-features-supported-on-flatopc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Ooxml+Import&linkCreation=true&fromPageId=2595860)
+[Jump to this location in the import section](/words/net/annotation-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
 ##### **Bookmarks**
@@ -35,7 +35,7 @@ You may need to accept tracked changes before saving to different formats or els
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.acceptallrevisions.html)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

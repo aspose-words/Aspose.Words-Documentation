@@ -11,7 +11,7 @@ Exported as hyperlink with footnote number inline of text.
 
 Footnote text is exported at the bottom of the document separted by a horizontal ruler. The hyperlink links to here.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Footnotes+Html+Import&linkCreation=true&fromPageId=2595662)
+[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-epub-import/)
 
 {{% /alert %}} 
 ##### **Footnotes**

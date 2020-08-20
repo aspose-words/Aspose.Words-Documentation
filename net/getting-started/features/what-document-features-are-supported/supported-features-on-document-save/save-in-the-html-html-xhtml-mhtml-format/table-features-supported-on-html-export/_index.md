@@ -13,9 +13,9 @@ There is a save option to control how table and cell widths are exported. You ca
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.TableWidthOutputMode](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.tablewidthoutputmode.html)
+- [HtmlSaveOptions.TableWidthOutputMode](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/tablewidthoutputmode)
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Html+Import&linkCreation=true&fromPageId=2595841)
+[Jump to this location in the import section](/words/net/table-features-supported-on-html-import/)
 
 {{% /alert %}} 
 

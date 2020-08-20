@@ -13,7 +13,7 @@ If there is only one section then the document content is expoted directly to <b
 
 Section-wide formatting is exported as CSS styles on <div>.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Html+Import&linkCreation=true&fromPageId=2595672)
+[Jump to this location in the import section](/words/net/section-features-supported-on-epub-import/)
 
 {{% /alert %}} 
 ##### **Headers and Footers**
@@ -42,7 +42,7 @@ Note that when exporting to EPUB such break elements are normally ignored by mos
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
-- [DocumentBuilder.InsertBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.insertbreak.html)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 - **HtmlSaveOptions.DocumentSplitCritera**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -82,7 +82,7 @@ Some features need Microsoft Office specific attributes, they are not currently 
 | :- | :- | :- | :- |
 |Right to Left Section |Yes |Supported on HTML export only. | |
 |Line Numbering |Planned | | |
-|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.firstpagetray.html) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
 |Paper Size |Yes | | |
 |Orientation |Yes |Currently paper size depends on orientation as width and height are switched. <br><br>In the future we can also output native CSS 3 attributes. | |
 |Protection |N/A | | |

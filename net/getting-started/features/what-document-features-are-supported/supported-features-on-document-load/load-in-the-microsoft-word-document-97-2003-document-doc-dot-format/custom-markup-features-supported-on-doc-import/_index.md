@@ -11,7 +11,7 @@ Custom Markup are elements that added to parts of the document which allow extra
 
 For example, CustomXML markup can be wrapped around a paragraph in the document and user-defined data added to it. This data can then be retrieved from that paragraphs when required.
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=CustomXML+Doc+Export&linkCreation=true&fromPageId=2595922)
+[Jump to this location in the export section](/words/net/custom-markup-features-supported-on-doc-export/)
 
 {{% /alert %}} 
 ##### **CustomXML**
@@ -21,7 +21,7 @@ You can create and remove CustomXmlMarkup in a document. You can also access the
 
 See the following link in the documentation for further information:
 
-- [CustomXmlMarkup](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.markup.customxmlmarkup.html)
+- [CustomXmlPart](https://apireference.aspose.com/words/net/aspose.words.markup/customxmlpart)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -37,10 +37,10 @@ SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Wo
 
 See the following links in the documentation for further information:
 
-- [SmartTag](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.markup.smarttag.html)
-- [Document.RemoveSmartTags](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.compositenode.removesmarttags.html)
+- [SmartTag](https://apireference.aspose.com/words/net/aspose.words.markup/smarttag)
+- [Document.RemoveSmartTags](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/removesmarttags)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Smart Tag Properties |Yes | |- [SmartTag.Properties](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.markup.smarttag.properties.html)|
+|Smart Tag Properties |Yes | |- [SmartTag.Properties](https://apireference.aspose.com/words/net/aspose.words.markup/smarttag/properties)|
 

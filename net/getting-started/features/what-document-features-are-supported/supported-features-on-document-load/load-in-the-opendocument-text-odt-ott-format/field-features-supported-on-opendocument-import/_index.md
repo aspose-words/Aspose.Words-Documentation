@@ -27,16 +27,16 @@ Currently to work with a field you need to iterate through the different field n
 
 Fields with custom field codes or field results (modified manually in the document to appear different) are retained during import and export. However if you invoke field update, these might be replaced with the proper field content.
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Field+Codes+Odt+Export&linkCreation=true&fromPageId=2595980)
+[Jump to this location in the export section](/words/net/field-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
 ##### **Field Codes**
 See the following links in the documentation for further information:
 
-- [Working with Fields](/words/net/working-with-fields-html/)
-- [DocumentBuilder.InsertField](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.insertfield overloads.html)
-- [Document.UpdateFields](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.updatefields.html)
-- [FieldType](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.fieldtype.html)
+- [Working with Fields](/words/net/working-with-fields/)
+- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertfield overloads)
+- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatefields)
+- [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldtype)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -96,22 +96,22 @@ Form fields are fully supported by Aspose.Words.
 
 See the following links in the documentation for further information:
 
-- [Working with Form Fields](/words/net/working-with-form-fields-html/)
-- [FormField](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.html)
-- [FormField.Type](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.type.html)
-- [FormField.Result](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.result.html)
+- [Working with Form Fields](/words/net/working-with-form-fields/)
+- [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
+- [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
+- [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|TextInput |Yes | |<p>- [FormField.TextInputDefault](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.textinputdefault.html) </p><p>- [FormField.TextInputFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.textinputformat.html)</p>|
+|TextInput |Yes | |<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault) </p><p>- [FormField.TextInputFormat](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
 |CheckBox |Yes | |- **FormField.Type**|
-|DropDown |Yes | |<p>- [FormField.DropDownItems](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.dropdownitems.html) </p><p>- [FormField.DropDownSelectedIndex](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.dropdownselectedindex.html)</p>|
+|DropDown |Yes | |<p>- [FormField.DropDownItems](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems) </p><p>- [FormField.DropDownSelectedIndex](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|
 |Calc On Exit |N/A | | |
-|Checked |Yes | |- [FormField.Checked](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.checked.html)|
+|Checked |Yes | |- [FormField.Checked](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|
 |Default Value |Yes | |- **FormField.TextInputDefault**|
 |Enabled |N/A | | |
-|Entry and Exit Macro |Yes | |<p>- [FormField.EntryMacro](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.entrymacro.html) </p><p>- [FormField.ExitMacro](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.exitmacro.html)</p>|
-|Name |Yes | |- [FormField.Name](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield.name.html)|
+|Entry and Exit Macro |Yes | |<p>- [FormField.EntryMacro](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/entrymacro) </p><p>- [FormField.ExitMacro](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/exitmacro)</p>|
+|Name |Yes | |- [FormField.Name](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|
 |Help Text |N/A | | |
 |Status Text |N/A | | |
 |Max Length |N/A | | |
@@ -161,9 +161,9 @@ MailMerge features of OpenOffice is supported by Aspose.Words.
 
 See the following links in the documentation for further information:
 
-- [Mail Merge and Reporting](/words/net/mail-merge-and-reporting-html/)
-- [Document.MailMerge](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.mailmerge.html)
-- [How to Use Advanced Mail Merge Features](/words/net/how-to-use-advanced-mail-merge-features-html/)
+- [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
+- [Document.MailMerge](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmerge)
+- [How to Use Advanced Mail Merge Features](/words/net/how-to-use-advanced-mail-merge-features/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -174,7 +174,7 @@ See the following links in the documentation for further information:
 |Fill-in |N/A | | |
 |GreetingLine |N/A | | |
 |If |N/A | | |
-|MergeField |Yes | |- [How to Rename Merge Fields](/pages/createpage.action?spaceKey=wordsnet&title=How+to+Rename+Merge+Fields&linkCreation=true&fromPageId=2595980)|
+|MergeField |Yes | |- [How to Rename Merge Fields](/words/net/fields-overview/#how-to-rename-merge-fields)|
 |MergeRec |Yes | | |
 |MergeSeq |N/A | | |
 |Next |Yes | | |
@@ -217,8 +217,8 @@ You can create new hyperlinks by using the DocumentBuilder class. You can also f
 
 See the following links in the documentation for further information:
 
-- [DocumentBuilder.InsertHyperlink](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.inserthyperlink.html)
-- [How to Replace or Modify Hyperlinks](/pages/createpage.action?spaceKey=wordsnet&title=How+to+Replace+or+Modify+Hyperlinks&linkCreation=true&fromPageId=2595980)
+- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/inserthyperlink)
+- [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

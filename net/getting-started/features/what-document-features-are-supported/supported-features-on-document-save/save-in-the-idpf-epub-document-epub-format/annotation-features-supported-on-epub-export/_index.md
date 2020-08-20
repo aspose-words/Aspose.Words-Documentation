@@ -7,7 +7,7 @@ url: /net/annotation-features-supported-on-epub-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Html+Import&linkCreation=true&fromPageId=2595831)
+[Jump to this location in the import section](/words/net/annotation-features-supported-on-epub-import/)
 
 {{% /alert %}} 
 ##### **Bookmarks**
@@ -40,7 +40,7 @@ Exported as <ins> and <del> elements.
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.acceptallrevisions.html)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

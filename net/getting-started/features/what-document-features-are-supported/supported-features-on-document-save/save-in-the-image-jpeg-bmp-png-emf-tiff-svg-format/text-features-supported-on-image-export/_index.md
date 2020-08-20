@@ -11,7 +11,7 @@ Text in different languages is fully supported and can be rendered to formats su
 
 See the following link in the documentation for further information:
 
-- [SvgSaveOptions.TextOutputMode](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.svgsaveoptions.textoutputmode.html)
+- [SvgSaveOptions.TextOutputMode](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/textoutputmode)
 
 {{% /alert %}} 
 ##### **Characters**

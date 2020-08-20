@@ -11,7 +11,7 @@ Annonations allow the user to add extra information to the document normally for
 
 These features are supported by Aspose.Words.
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Odt+Export&linkCreation=true&fromPageId=2595972)
+[Jump to this location in the export section](/words/net/annotation-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
 ##### **Bookmarks**
@@ -29,15 +29,15 @@ The Aspose.Words model is based on Word document formats. In these formats bookm
 
 See the following links in the documentation for further information:
 
-- [Working with Bookmarks](/words/net/working-with-bookmarks-html/)
-- [Range.Bookmarks](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.range.bookmarks.html)
-- [Bookmark](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.bookmark.html)
+- [Working with Bookmarks](/words/net/working-with-bookmarks/)
+- [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
+- [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/html)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Bookmark Start |Yes | |- [BookmarkStart](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.bookmarkstart.html)|
-|Bookmark End |Yes | |- [BookmarkEnd](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.bookmarkend.html)|
-|Bookmark Name |Yes | |- [Bookmark.Name](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.bookmark.name.html)|
+|Bookmark Start |Yes | |- [BookmarkStart](https://apireference.aspose.com/words/net/aspose.words/bookmarkstart)|
+|Bookmark End |Yes | |- [BookmarkEnd](https://apireference.aspose.com/words/net/aspose.words/bookmarkend)|
+|Bookmark Name |Yes | |- [Bookmark.Name](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
 |Bookmark Table Columns |N/A | | |
 ##### **Comments**
 A comment in a document is imported as a Comment node in the Aspose.Words DOM.
@@ -56,15 +56,15 @@ All three comment nodes are related through the use of the ID properties on each
 
 See the following links in the documentation for further information:
 
-- [How to Extract or Remove Comments](/pages/createpage.action?spaceKey=wordsnet&title=How+to+Extract+or+Remove+Comments&linkCreation=true&fromPageId=2595972)
-- [Comment](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.comment.html)
-- [Comment.Id](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.comment.id.html)
+- [How to Extract or Remove Comments](/words/net/working-with-comments/)
+- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
+- [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Comment |Yes | |- [Comment](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.comment.html)|
+|Comment |Yes | |- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment/)|
 |Comment Range |N/A | | |
-|Author |Yes | |- [Comment.Author](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.comment.author.html)|
+|Author |Yes | |- [Comment.Author](https://apireference.aspose.com/words/net/aspose.words/comment/properties/author)|
 |Date |Yes | |- **Comment.Date**|
 |Initial |N/A | | |
 ##### **Tracking Changes**
@@ -91,4 +91,3 @@ See the following links in the documentation for further information:
 |Cell Properties Change |N/A | | |
 |Row Properties Change |N/A | | |
 |RSIDs Session Identifiers |N/A | | |
-

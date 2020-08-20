@@ -16,7 +16,7 @@ url: /net/section-features-supported-on-image-export/
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
-- [DocumentBuilder.InsertBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.insertbreak.html)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Right to Left Section |Planned | | |
 |Line Numbering |Yes | | |
-|Paper Source |Yes |During printing the appropriate paper tray is selected from the document. <br><br>Note that the paper tray stored in a Word document is completely printer specific. This is the same as how Microsoft Word behaves. If the same document is printed on a different machine then the wrong printer tray may be picked. <br><br>You can specifically set the paper trays used for each section before printing. |<p>- [PageSetup.FirstPageTray](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.pagesetup.firstpagetray.html) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Source |Yes |During printing the appropriate paper tray is selected from the document. <br><br>Note that the paper tray stored in a Word document is completely printer specific. This is the same as how Microsoft Word behaves. If the same document is printed on a different machine then the wrong printer tray may be picked. <br><br>You can specifically set the paper trays used for each section before printing. |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
 |Paper Size |Yes |When rendering to image the paper size controls the image dimensions. | |
 |Orientation |Yes | | |
 |Protection |N/A | | |
@@ -62,7 +62,7 @@ See the following links in the documentation for further information:
 ##### **Page Border**
 See the following link in the documentation for further information:
 
-- [SvgSaveOptions.ShowPageBorder](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.svgsaveoptions.showpageborder.html)
+- [SvgSaveOptions.ShowPageBorder](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/showpageborder)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

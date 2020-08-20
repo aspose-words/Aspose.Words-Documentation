@@ -18,9 +18,9 @@ There is a method Document.JoinRunsWithSameFormatting to avoid this situation. I
 See the following links in the documentation for further information:
 
 - **HtmlSaveOptions.Encoding**
-- [Document.JoinRunsWithSameFormatting](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.joinrunswithsameformatting.html)
+- [Document.JoinRunsWithSameFormatting](https://apireference.aspose.com/words/net/aspose.words/document/methods/joinrunswithsameformatting)
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Html+Import&linkCreation=true&fromPageId=2595666)
+[Jump to this location in the import section](/words/net/text-features-supported-on-epub-import/)
 
 {{% /alert %}} 
 ##### **Characters**
@@ -53,7 +53,7 @@ See the following links in the documentation for further information:
 |Color |Yes |Exported as color on style attribute. | |
 |East Asian Typography |Planned |Some research is needed. | |
 |Highlight Color |Yes |Exported as background-color on span. | |
-|Language |Yes |Exported as lang attribute on <span>. |- [HtmlSaveOptions.ExportLanguageInformation](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.exportlanguageinformation.html)|
+|Language |Yes |Exported as lang attribute on <span>. |- [HtmlSaveOptions.ExportLanguageInformation](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportlanguageinformation)|
 |Do not Check Spelling or Grammar |Planned | | |
 |Border |Yes |Exported as border-style, border-width, border-color on <span>. <br><br>Normally each side is exported as separate attributes even though all sides of the border of a run must be the same. | |
 |Shading |Yes |Only solid fill is supported, both background and foreground. Others are converted to the nearest color. <br><br>Exported as background-color on <span>. | |
@@ -70,7 +70,7 @@ This feature will be supported in the future.
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.ExportRelativeFontSize](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.exportrelativefontsize.html)
+- [HtmlSaveOptions.ExportRelativeFontSize](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportrelativefontsize)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

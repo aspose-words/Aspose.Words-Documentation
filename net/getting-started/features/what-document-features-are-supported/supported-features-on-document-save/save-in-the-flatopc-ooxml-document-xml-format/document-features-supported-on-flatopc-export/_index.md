@@ -9,12 +9,12 @@ url: /net/document-features-supported-on-flatopc-export/
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/pages/createpage.action?spaceKey=wordsnet&title=Save+a+Document&linkCreation=true&fromPageId=2595849)
-- [OoxmlSaveOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.ooxmlsaveoptions.html)
-- [OoxmlSaveOptions.TempFolder](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.saveoptions.tempfolder.html)
-- [OoxmlSaveOptions.Compliance](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.ooxmlsaveoptions.compliance.html)
+- [Save a Document](/words/net/saving-a-document/)
+- [OoxmlSaveOptions]https://apireference.aspose.com/words/net/aspose.words.saving/OoxmlSaveOptions)
+- [OoxmlSaveOptions.TempFolder](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/tempfolder)
+- [OoxmlSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/compliance)
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Ooxml+Import&linkCreation=true&fromPageId=2595849)
+[Jump to this location in the import section](/words/net/document-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
 ##### **General**
@@ -22,7 +22,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template |Yes | | |
-|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. |- [Document.UpdateWordCount](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.updatewordcount.html)|
+|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. |- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
 |Custom Properties |Yes | | |
 |Custom Payload Part |Yes | | |
 |Custom XML Data Storage |Yes | | |
@@ -38,7 +38,7 @@ See the following links in the documentation for further information:
 |Themes |Yes |Themes are preserved during open/save cycle. | |
 |Toolbar Customizations |Yes | | |
 |Variables |Yes | | |
-|VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. <br><br>Only DOCM, DOTM and FlatOPC format support macros. If saving to DOCX or DOTX you will need to use the Document.RemoveMacros to remove any macros first before saving. |- [Document.RemoveMacros](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.document.removemacros.html)|
+|VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. <br><br>Only DOCM, DOTM and FlatOPC format support macros. If saving to DOCX or DOTX you will need to use the Document.RemoveMacros to remove any macros first before saving. |- [Document.RemoveMacros](https://apireference.aspose.com/words/net/aspose.words/document/methods/removemacros)|
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes | | |
 |Thumbnail |Planned | | |

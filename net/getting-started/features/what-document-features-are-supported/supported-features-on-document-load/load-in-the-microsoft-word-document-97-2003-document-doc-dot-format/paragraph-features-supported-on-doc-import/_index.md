@@ -15,22 +15,21 @@ Paragraph formatting is contained within the ParagraphFormat class which is link
 
 See the following links in the documentation for further information:
 
-- [Inserting Document Elements](/pages/createpage.action?spaceKey=wordsnet&title=Inserting+Document+Elements&linkCreation=true&fromPageId=2595908)
-- [Paragraph](/pages/createpage.action?spaceKey=wordsnet&title=Paragraph+Class&linkCreation=true&fromPageId=2595908)
-- [Paragraph.ParagraphFormat](/pages/createpage.action?spaceKey=wordsnet&title=ParagraphFormat+Class&linkCreation=true&fromPageId=2595908)
+- [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph)
+- [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat)
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Doc+Export&linkCreation=true&fromPageId=2595908)
+[Jump to this location in the export section](/words/net/paragraph-features-supported-on-doc-export/)
 
 {{% /alert %}} 
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |<p>- [ParagraphFormat](/pages/createpage.action?spaceKey=wordsnet&title=ParagraphFormat+Class&linkCreation=true&fromPageId=2595908) </p><p>- [ParagraphFormat.Style](/pages/createpage.action?spaceKey=wordsnet&title=Style+Class&linkCreation=true&fromPageId=2595908)</p>|
-|Alignment |Yes |The special "Thai Distributed" alignment is also supported during conversion. There is currently no API to access or modify this alignment. |- [ParagraphFormat.Alignment](/pages/createpage.action?spaceKey=wordsnet&title=Alignment+Property&linkCreation=true&fromPageId=2595908)|
-|Right to Left Paragraph |Yes | |- [ParagraphFormat.Bidi](/pages/createpage.action?spaceKey=wordsnet&title=Bidi+Property&linkCreation=true&fromPageId=2595908)|
+|Paragraph Style |Yes | |<p>- [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) </p><p>- [ParagraphFormat.Style](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/style)</p>|
+|Alignment |Yes |The special "Thai Distributed" alignment is also supported during conversion. There is currently no API to access or modify this alignment. |- [ParagraphFormat.Alignment](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/alignment)|
+|Right to Left Paragraph |Yes | |- [ParagraphFormat.Bidi](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/bidi)|
 |Bullets and Numbers |Yes | |<p>- **ParagraphFormat.ListFormat** </p><p>- **ParagraphFormat.ListLabel**</p>|
-|Outline Level |Yes | |- [ParagraphFormat.OutlineLevel](/pages/createpage.action?spaceKey=wordsnet&title=OutlineLevel+Class&linkCreation=true&fromPageId=2595908)|
+|Outline Level |Yes | |- [ParagraphFormat.OutlineLevel](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/outlinelevel)|
 |Run Properties for the Paragraph Mark |Yes | |- **ParagraphFormat.ParagraphBreakFont**|
 |Suppress Line Numbers |Yes | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Yes | |- **ParagraphFormat.SurpressAutoHyphens**|
@@ -38,9 +37,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Left Indent |Yes | |- [ParagraphFormat.LeftIndent](/pages/createpage.action?spaceKey=wordsnet&title=LeftIndent+Property&linkCreation=true&fromPageId=2595908)|
-|Right Indent |Yes | |- [ParagraphFormat.RightIndent](/pages/createpage.action?spaceKey=wordsnet&title=RightIndent+Property&linkCreation=true&fromPageId=2595908)|
-|First Line Indent |Yes | |- [ParagraphFormat.FirstLineIndent](/pages/createpage.action?spaceKey=wordsnet&title=FirstLineIndent+Property&linkCreation=true&fromPageId=2595908)|
+|Left Indent |Yes | |- [ParagraphFormat.LeftIndent](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/leftindent)|
+|Right Indent |Yes | |- [ParagraphFormat.RightIndent](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/rightindent)|
+|First Line Indent |Yes | |- [ParagraphFormat.FirstLineIndent](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/firstlineindent)|
 |Hanging Indent |Yes | |- **ParagraphFormat.FirstLineIndent**|
 |Mirror Indents |Yes | |<p>- **ParagraphFormat.LeftIndent** </p><p>- **ParagraphFormat.RightIndent**</p>|
 |Automatically Adjust Right Indent |Yes | | |
@@ -48,20 +47,20 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Space Before |Yes | |- [ParagraphFormat.SpaceBefore](/pages/createpage.action?spaceKey=wordsnet&title=SpaceBefore+Property&linkCreation=true&fromPageId=2595908)|
-|Space After |Yes | |- [ParagraphFormat.SpaceAfter](/pages/createpage.action?spaceKey=wordsnet&title=SpaceAfter+Property&linkCreation=true&fromPageId=2595908)|
-|Space Auto |Yes | |<p>- [ParagraphFormat.SpaceBeforeAuto](/pages/createpage.action?spaceKey=wordsnet&title=SpaceBeforeAuto+Property&linkCreation=true&fromPageId=2595908) </p><p>- [ParagraphFormat.SpaceAfterAuto](/pages/createpage.action?spaceKey=wordsnet&title=SpaceAfterAuto+Property&linkCreation=true&fromPageId=2595908)</p>|
-|Line Spacing |Yes | |<p>- [ParagraphFormat.LineSpacing](/pages/createpage.action?spaceKey=wordsnet&title=LineSpacing+Property&linkCreation=true&fromPageId=2595908) </p><p>- [ParagraphFormat.LineSpacingRule](/pages/createpage.action?spaceKey=wordsnet&title=LineSpacingRule+Class&linkCreation=true&fromPageId=2595908)</p>|
-|No Space between Conforming Paragraphs |Yes | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](/pages/createpage.action?spaceKey=wordsnet&title=NoSpaceBetweenParagraphsOfSameStyle+Property&linkCreation=true&fromPageId=2595908)|
+|Space Before |Yes | |- [ParagraphFormat.SpaceBefore](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebefore)|
+|Space After |Yes | |- [ParagraphFormat.SpaceAfter](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafter)|
+|Space Auto |Yes | |<p>- [ParagraphFormat.SpaceBeforeAuto](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebeforeauto) </p><p>- [ParagraphFormat.SpaceAfterAuto](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafterauto)</p>|
+|Line Spacing |Yes | |<p>- [ParagraphFormat.LineSpacing](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacing) </p><p>- [ParagraphFormat.LineSpacingRule](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacingrule)</p>|
+|No Space between Conforming Paragraphs |Yes | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/nospacebetweenparagraphofsamestyle)|
 |Snap To Grid |Yes | | |
 ##### **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Widow/Orphan Control |Yes | |- [ParagraphFormat.WidowControl](/pages/createpage.action?spaceKey=wordsnet&title=WidowControl+Property&linkCreation=true&fromPageId=2595908)|
-|Keep With Next |Yes | |- [ParagraphFormat.KeepWithNext](/pages/createpage.action?spaceKey=wordsnet&title=KeepWithNext+Property&linkCreation=true&fromPageId=2595908)|
-|Keep Lines Together |Yes | |- [ParagraphFormat.KeepTogether](/pages/createpage.action?spaceKey=wordsnet&title=KeepTogether+Property&linkCreation=true&fromPageId=2595908)|
-|Page Break Before |Yes | |- [ParagraphFormat.PageBreakBefore](/pages/createpage.action?spaceKey=wordsnet&title=PageBreakBefore+Property&linkCreation=true&fromPageId=2595908)|
+|Widow/Orphan Control |Yes | |- [ParagraphFormat.WidowControl](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/widowcontrol)|
+|Keep With Next |Yes | |- [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keepwithnext)|
+|Keep Lines Together |Yes | |- [ParagraphFormat.KeepTogether](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keeptogether)|
+|Page Break Before |Yes | |- [ParagraphFormat.PageBreakBefore](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/pagebreakbefore)|
 ##### **Text Frames**
 This is the legacy text frames from Word 97, not to be confused with the Autoshape Textbox which is discussed under Drawing Objects.
 
@@ -77,14 +76,14 @@ Using Aspose.Words you can find tab stops based off position or index. You can c
 
 See the following link in the documentation for further information:
 
-- [ParagraphFormat.TabStops](/pages/createpage.action?spaceKey=wordsnet&title=TabStops+Property&linkCreation=true&fromPageId=2595908)
+- [ParagraphFormat.TabStops](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/tabstop)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Absolute Position |Yes | |- [TabStop.Position](/pages/createpage.action?spaceKey=wordsnet&title=Position+Property&linkCreation=true&fromPageId=2595908)|
-|Relative Position |Planned |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. |- [AbsolutePositionTab](/pages/createpage.action?spaceKey=wordsnet&title=AbsolutePositionTab+Class&linkCreation=true&fromPageId=2595908)|
-|Alignment: Left, Center, Right, Decimal, Bar |Yes | |- [TabStop.Alignment](/pages/createpage.action?spaceKey=wordsnet&title=Alignment+Property&linkCreation=true&fromPageId=2595908)|
-|Leader |Yes | |- [TabStop.Leader](/pages/createpage.action?spaceKey=wordsnet&title=Leader+Property&linkCreation=true&fromPageId=2595908)|
+|Absolute Position |Yes | |- [TabStop.Position](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/position)|
+|Relative Position |Planned |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. |- [AbsolutePositionTab](https://apireference.aspose.com/words/net/aspose.words/absolutepositiontab)|
+|Alignment: Left, Center, Right, Decimal, Bar |Yes | |- [TabStop.Alignment](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/alignment)|
+|Leader |Yes | |- [TabStop.Leader](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/leader)|
 ##### **Drop Caps**
 Drop Caps are partially supported and preserved during document conversion. A drop cap is a text frame which is imported as a separate paragraph (from the rest of the paragraph as seen in the source document).
 
@@ -95,7 +94,7 @@ This will be improved in a future version of Aspose.Words.
 See the following links in the documentation for further information:
 
 - **ParagraphFormat.DropCapPositon**
-- [ParagraphFormat.LinesToDrop](/pages/createpage.action?spaceKey=wordsnet&title=LinesToDrop+Property&linkCreation=true&fromPageId=2595908)
+- [ParagraphFormat.LinesToDrop](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/linestodrop)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -104,17 +103,17 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Border Sides |Yes | |<p>- [ParagraphFormat.Borders](/pages/createpage.action?spaceKey=wordsnet&title=Borders+Property&linkCreation=true&fromPageId=2595908) </p><p>- [LineStyle](/pages/createpage.action?spaceKey=wordsnet&title=LineStyle+Class&linkCreation=true&fromPageId=2595908)</p>|
-|Shadow |Yes | |- [Border.Shadow](/pages/createpage.action?spaceKey=wordsnet&title=Shadow+Property&linkCreation=true&fromPageId=2595908)|
-|3D Frame |Yes | |- [Border.LineStyle](/pages/createpage.action?spaceKey=wordsnet&title=LineStyle+Class&linkCreation=true&fromPageId=2595908)|
+|Border Sides |Yes | |<p>- [ParagraphFormat.Borders](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/borders) </p><p>- [LineStyle](https://apireference.aspose.com/words/net/aspose.words/linestyle)</p>|
+|Shadow |Yes | |- [Border.Shadow](https://apireference.aspose.com/words/net/aspose.words/border/properties/shadow)|
+|3D Frame |Yes | |- [Border.LineStyle](https://apireference.aspose.com/words/net/aspose.words/border/properties/linestyle)|
 |Style |Yes | |- **Border.LineStyle**|
-|Color |Yes | |- [Border.Color](/pages/createpage.action?spaceKey=wordsnet&title=Color+Property&linkCreation=true&fromPageId=2595908)|
-|Width |Yes | |- [Border.LineWidth](/pages/createpage.action?spaceKey=wordsnet&title=LineWidth+Property&linkCreation=true&fromPageId=2595908)|
-|Distance from Text |Yes | |- [Border.DistanceFromText](/pages/createpage.action?spaceKey=wordsnet&title=DistanceFromText+Property&linkCreation=true&fromPageId=2595908)|
+|Color |Yes | |- [Border.Color](https://apireference.aspose.com/words/net/aspose.words/border/properties/color)|
+|Width |Yes | |- [Border.LineWidth](https://apireference.aspose.com/words/net/aspose.words/border/properties/linewidth)|
+|Distance from Text |Yes | |- [Border.DistanceFromText](https://apireference.aspose.com/words/net/aspose.words/border/properties/distancefromtext)|
 ##### **Shading**
 See the following link in the documentation for further information:
 
-- [ParagraphFormat.Shading](/pages/createpage.action?spaceKey=wordsnet&title=Shading+Class&linkCreation=true&fromPageId=2595908)
+- [ParagraphFormat.Shading](https://apireference.aspose.com/words/net/aspose.words/ParagraphFormat/properties/shading)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

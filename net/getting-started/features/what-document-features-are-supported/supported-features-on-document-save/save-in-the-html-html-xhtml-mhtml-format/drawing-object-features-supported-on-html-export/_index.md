@@ -15,7 +15,7 @@ Currently, images are only exported as absolute size (points) and not in percent
 
 This feature will be supported in the future.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Images+Html+Import&linkCreation=true&fromPageId=2595827)
+[Jump to this location in the import section](/words/net/drawing-object-features-supported-on-html-import/)
 
 {{% /alert %}} 
 
@@ -40,15 +40,15 @@ This feature will be supported in the future.
 See the following links in the documentation for further information:
 
 - **HtmlSaveOptions.ImageFolder**
-- [HtmlSaveOptions.ImageSavingCallback](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.imagesavingcallback.html)
-- [HtmlSaveOptions.ExportImagesAsBase64](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.exportimagesasbase64.html)
-- [HtmlSaveOptions.ImageResolution](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.imageresolution.html)
+- [HtmlSaveOptions.ImageSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/imagesavingcallback)
+- [HtmlSaveOptions.ExportImagesAsBase64](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportimagesasbase64)
+- [HtmlSaveOptions.ImageResolution](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/imageresolution)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |PNG|Yes| | |
 |JPG|Yes| | |
-|WMF|Yes|Metafiles such as WMF, EMF and EMF+ are normally converted to PNG when exporting to HTML. There is an option to export metafiles as vector images. <br><br>Note that not all browsers can display metafiles properly.|- [HtmlSaveOptions.ExportMetafileAsRaster](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.exportmetafileasraster.html)|
+|WMF|Yes|Metafiles such as WMF, EMF and EMF+ are normally converted to PNG when exporting to HTML. There is an option to export metafiles as vector images. <br><br>Note that not all browsers can display metafiles properly.|- [HtmlSaveOptions.ExportMetafileAsRaster](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportmetafileasraster)|
 |EMF|Yes| | |
 |EMF+|Yes| | |
 |BMP|Yes| | |
@@ -114,7 +114,7 @@ This provides great fidelity however text is not selectable in the output docume
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.ScaleImageToShapeSize](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.scaleimagetoshapesize.html)
+- [HtmlSaveOptions.ScaleImageToShapeSize](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/scaleimagetoshapesize)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

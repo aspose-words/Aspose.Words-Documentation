@@ -27,7 +27,7 @@ See the following links in the documentation for further information:
 - [Paragraph.ListLabel](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraph.listlabel.html)
 - [List.ListLevels](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.list.listlevels.html)
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Ooxml+Export&linkCreation=true&fromPageId=2595990)
+[Jump to this location in the export section](/words/net/numbering-features-supported-on-docx-export/)
 
 {{% /alert %}} 
 ##### **Numbering Definition**

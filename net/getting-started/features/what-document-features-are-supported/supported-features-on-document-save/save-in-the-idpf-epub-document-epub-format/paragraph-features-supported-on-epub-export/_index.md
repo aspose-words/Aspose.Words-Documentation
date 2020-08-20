@@ -11,9 +11,9 @@ Exported to HTML as <p>. Paragraphs with built-in heading styles are exported as
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.EpubNavigationMapLevel](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.epubnavigationmaplevel.html)
+- [HtmlSaveOptions.EpubNavigationMapLevel](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/epubnavigationmaplevel)
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Html+Import&linkCreation=true&fromPageId=2595658)
+[Jump to this location in the import section](/words/net/paragraph-features-supported-on-epub-import/)
 
 {{% /alert %}} 
 ##### **General Formatting**

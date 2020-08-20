@@ -13,7 +13,7 @@ There is a setting to export paragraph and character styles as inline CSS (style
 
 Character styles often are saved with .span prefix.
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Style+Type+Html+Import&linkCreation=true&fromPageId=2595670)
+[Jump to this location in the import section](/words/net/style-features-supported-on-epub-import/)
 
 {{% /alert %}} 
 ##### **Style Type**

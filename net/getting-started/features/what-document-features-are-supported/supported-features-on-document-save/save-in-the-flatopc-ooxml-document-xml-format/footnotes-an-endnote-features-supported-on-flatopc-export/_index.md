@@ -7,7 +7,7 @@ url: /net/footnotes-an-endnote-features-supported-on-flatopc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Footnotes+Ooxml+Import&linkCreation=true&fromPageId=2595850)
+[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
 ##### **Footnotes**

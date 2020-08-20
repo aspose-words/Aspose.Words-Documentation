@@ -16,7 +16,7 @@ All images are exported as the same format that they were originally loaded as.
 | :- | :- | :- | :- |
 |PNG |Yes | | |
 |JPG |Yes | | |
-|WMF |Yes |There is a save option to control exporting metafiles to PDF as vector images or to rasterize them first. |- [PdfSaveOptions.MetafileRenderingMode](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.pdfsaveoptions.metafilerenderingmode.html)|
+|WMF |Yes |There is a save option to control exporting metafiles to PDF as vector images or to rasterize them first. |- [PdfSaveOptions.MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/metafilerenderingoptions)|
 |EMF |Yes | | |
 |EMF+ |Yes | | |
 |BMP |Yes | | |

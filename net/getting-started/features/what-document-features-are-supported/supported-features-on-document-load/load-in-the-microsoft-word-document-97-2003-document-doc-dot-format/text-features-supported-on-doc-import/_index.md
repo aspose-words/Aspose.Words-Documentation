@@ -15,11 +15,11 @@ All formatting of a run is contained within a linked classed called Font.
 
 See the following links in the documentation for further information:
 
-- [Run](/pages/createpage.action?spaceKey=wordsnet&title=Run+Class&linkCreation=true&fromPageId=2595884)
-- [Run.Font](/pages/createpage.action?spaceKey=wordsnet&title=Font+Class&linkCreation=true&fromPageId=2595884)
-- [Run.Text](/pages/createpage.action?spaceKey=wordsnet&title=Text+Property&linkCreation=true&fromPageId=2595884)
+- [Run](https://apireference.aspose.com/words/net/aspose.words/Run)
+- [Run.Font](https://apireference.aspose.com/words/net/aspose.words/inline/properties/font)
+- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/inline/properties/text)
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Doc+Export&linkCreation=true&fromPageId=2595884)
+[Jump to this location in the export section](/words/net/text-features-supported-on-doc-export/)
 
 {{% /alert %}} 
 ##### **Characters**
@@ -29,40 +29,40 @@ See the following links in the documentation for further information:
 |Western Languages |Yes | | |
 |East European Languages |Yes | | |
 |East Asian Languages |Yes | | |
-|Right to Left Languages |Yes | |<p>- [Font.Bidi](/pages/createpage.action?spaceKey=wordsnet&title=Bidi+Property&linkCreation=true&fromPageId=2595884) </p><p>- [Font.BoldBi](/pages/createpage.action?spaceKey=wordsnet&title=BoldBi+Property&linkCreation=true&fromPageId=2595884) </p><p>- [Font.LocaleIdBi](/pages/createpage.action?spaceKey=wordsnet&title=LocaleIdBi+Property&linkCreation=true&fromPageId=2595884)</p>|
+|Right to Left Languages |Yes | |<p>- [Font.Bidi](https://apireference.aspose.com/words/net/aspose.words/font/properties/bidi) </p><p>- [Font.BoldBi](https://apireference.aspose.com/words/net/aspose.words/font/properties/boldbidi) </p><p>- [Font.LocaleIdBi](https://apireference.aspose.com/words/net/aspose.words/font/properties/localeidbi)</p>|
 |Carriage Return (not a Paragraph Break) |Yes | | |
-|Non Breaking Space |Yes | |- [ControlChar.NonBreakingSpace](/pages/createpage.action?spaceKey=wordsnet&title=ControlChar+Class&linkCreation=true&fromPageId=2595884)|
+|Non Breaking Space |Yes | |- [ControlChar.NonBreakingSpace](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 |Non Breaking Hyphen |Yes | |- **ControlChar.NonBreakingHyphen**|
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
-|Tab |Yes | |- [ControlChar.Tab](/pages/createpage.action?spaceKey=wordsnet&title=ControlChar+Class&linkCreation=true&fromPageId=2595884)|
+|Tab |Yes | |- [ControlChar.Tab](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 ##### **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Line Break |Yes | |- [ControlChar.LineBreak](/pages/createpage.action?spaceKey=wordsnet&title=ControlChar+Class&linkCreation=true&fromPageId=2595884)|
+|Line Break |Yes | |- [ControlChar.LineBreak](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 |Line Break Clear Type |Yes | | |
-|Page Break |Yes | |- [ControlChar.PageBreak](/pages/createpage.action?spaceKey=wordsnet&title=ControlChar+Class&linkCreation=true&fromPageId=2595884)|
-|Column Break |Yes | |- [ControlChar.ColumnBreak](/pages/createpage.action?spaceKey=wordsnet&title=ControlChar+Class&linkCreation=true&fromPageId=2595884)|
+|Page Break |Yes | |- [ControlChar.PageBreak](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
+|Column Break |Yes | |- [ControlChar.ColumnBreak](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Character Style |Yes | |- [Font.Style](/pages/createpage.action?spaceKey=wordsnet&title=Style+Class&linkCreation=true&fromPageId=2595884)|
-|Color |Yes | |- [Font.Color](/pages/createpage.action?spaceKey=wordsnet&title=Color+Property&linkCreation=true&fromPageId=2595884)|
+|Character Style |Yes | |- [Font.Style](https://apireference.aspose.com/words/net/aspose.words/font)|
+|Color |Yes | |- [Font.Color](https://apireference.aspose.com/words/net/aspose.words/font)|
 |East Asian Typography |Yes | | |
-|Highlight Color |Yes | |- [Font.HighlightColor](/pages/createpage.action?spaceKey=wordsnet&title=HighlightColor+Property&linkCreation=true&fromPageId=2595884)|
-|Language |Yes | |<p>- [Font.LocaleId](/pages/createpage.action?spaceKey=wordsnet&title=LocaleId+Property&linkCreation=true&fromPageId=2595884) </p><p>- **Font.LocaleIdBi**</p>|
-|Do not Check Spelling or Grammar |Yes | |- [Font.NoProofing](/pages/createpage.action?spaceKey=wordsnet&title=NoProofing+Property&linkCreation=true&fromPageId=2595884)|
-|Border |Yes | |- [Font.Border](/pages/createpage.action?spaceKey=wordsnet&title=Border+Class&linkCreation=true&fromPageId=2595884)|
-|Shading |Yes | |- [Font.Shading](/pages/createpage.action?spaceKey=wordsnet&title=Shading+Class&linkCreation=true&fromPageId=2595884)|
+|Highlight Color |Yes | |- [Font.HighlightColor](https://apireference.aspose.com/words/net/aspose.words/font)|
+|Language |Yes | |<p>- [Font.LocaleId](https://apireference.aspose.com/words/net/aspose.words/font) </p><p>- **Font.LocaleIdBi**</p>|
+|Do not Check Spelling or Grammar |Yes | |- [Font.NoProofing](https://apireference.aspose.com/words/net/aspose.words/font)|
+|Border |Yes | |- [Font.Border](https://apireference.aspose.com/words/net/aspose.words/font)|
+|Shading |Yes | |- [Font.Shading](https://apireference.aspose.com/words/net/aspose.words/font)|
 ##### **Font**
 See the following links in the documentation for further information:
 
-- [Font.Bold](/pages/createpage.action?spaceKey=wordsnet&title=Bold+Property&linkCreation=true&fromPageId=2595884)
+- [Font.Bold](https://apireference.aspose.com/words/net/aspose.words/font)
 - **Font.Italics**
-- [Font.Name](/pages/createpage.action?spaceKey=wordsnet&title=Name+Property&linkCreation=true&fromPageId=2595884)
-- [Font.NameFarEast](/pages/createpage.action?spaceKey=wordsnet&title=NameFarEast+Property&linkCreation=true&fromPageId=2595884)
+- [Font.Name](https://apireference.aspose.com/words/net/aspose.words/font)
+- [Font.NameFarEast](https://apireference.aspose.com/words/net/aspose.words/font)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -70,37 +70,37 @@ See the following links in the documentation for further information:
 ##### **Underline**
 See the following link in the documentation for further information:
 
-- [Font.Underline](/pages/createpage.action?spaceKey=wordsnet&title=Underline+Class&linkCreation=true&fromPageId=2595884)
+- [Font.Underline](https://apireference.aspose.com/words/net/aspose.words/font)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Underline Type |Yes |The underline property is used to both define if the run is underline and with what type of underline is used. |- **Font.Underline**|
-|Underline Color |Yes | |- [Font.UnderlineColor](/pages/createpage.action?spaceKey=wordsnet&title=UnderlineColor+Property&linkCreation=true&fromPageId=2595884)|
+|Underline Color |Yes | |- [Font.UnderlineColor](https://apireference.aspose.com/words/net/aspose.words/font/properties/UnderlineColor)|
 ##### **Text Effects**
 See the following link in the documentation for further information:
 
-- [Font](/pages/createpage.action?spaceKey=wordsnet&title=Font+Class&linkCreation=true&fromPageId=2595884)
+- [Font](https://apireference.aspose.com/words/net/aspose.words/font)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Animated Effect |Yes | | |
-|Double Strikethrough |Yes | |- [Font.DoubleStrikeThrough](/pages/createpage.action?spaceKey=wordsnet&title=DoubleStrikeThrough+Property&linkCreation=true&fromPageId=2595884)|
-|Strikethrough |Yes | |- [Font.StrikeThrough](/pages/createpage.action?spaceKey=wordsnet&title=StrikeThrough+Property&linkCreation=true&fromPageId=2595884)|
-|Subscript/Superscript |Yes | |<p>- [Font.Subscript](/pages/createpage.action?spaceKey=wordsnet&title=Subscript+Property&linkCreation=true&fromPageId=2595884) </p><p>- [Font.Superscript](/pages/createpage.action?spaceKey=wordsnet&title=Superscript+Property&linkCreation=true&fromPageId=2595884)</p>|
-|Shadow |Yes | |- [Font.Shadow](/pages/createpage.action?spaceKey=wordsnet&title=Shadow+Property&linkCreation=true&fromPageId=2595884)|
-|Outline |Yes | |- [Font.Outline](/pages/createpage.action?spaceKey=wordsnet&title=Outline+Property&linkCreation=true&fromPageId=2595884)|
-|Emboss |Yes | |- [Font.Emboss](/pages/createpage.action?spaceKey=wordsnet&title=Emboss+Property&linkCreation=true&fromPageId=2595884)|
-|Imprint (Engrave) |Yes | |- [Font.Engrave](/pages/createpage.action?spaceKey=wordsnet&title=Engrave+Property&linkCreation=true&fromPageId=2595884)|
-|Small Caps |Yes | |- [Font.SmallCaps](/pages/createpage.action?spaceKey=wordsnet&title=SmallCaps+Property&linkCreation=true&fromPageId=2595884)|
-|All Caps |Yes | |- [Font.AllCaps](/pages/createpage.action?spaceKey=wordsnet&title=AllCaps+Property&linkCreation=true&fromPageId=2595884)|
-|Hidden Text |Yes | |- [Font.Hidden](/pages/createpage.action?spaceKey=wordsnet&title=Hidden+Property&linkCreation=true&fromPageId=2595884)|
+|Double Strikethrough |Yes | |- [Font.DoubleStrikeThrough](https://apireference.aspose.com/words/net/aspose.words/font/properties/DoubleStrikeThrough)|
+|Strikethrough |Yes | |- [Font.StrikeThrough](https://apireference.aspose.com/words/net/aspose.words/font/properties/StrikeThrough)|
+|Subscript/Superscript |Yes | |<p>- [Font.Subscript](https://apireference.aspose.com/words/net/aspose.words/font/properties/Subscript) </p><p>- [Font.Superscript](https://apireference.aspose.com/words/net/aspose.words/font/properties/Superscript)</p>|
+|Shadow |Yes | |- [Font.Shadow](https://apireference.aspose.com/words/net/aspose.words/font/properties/Shadow)|
+|Outline |Yes | |- [Font.Outline](https://apireference.aspose.com/words/net/aspose.words/font/properties/Outline)|
+|Emboss |Yes | |- [Font.Emboss](https://apireference.aspose.com/words/net/aspose.words/font/properties/Emboss)|
+|Imprint (Engrave) |Yes | |- [Font.Engrave](https://apireference.aspose.com/words/net/aspose.words/font/properties/Engrave)|
+|Small Caps |Yes | |- [Font.SmallCaps](https://apireference.aspose.com/words/net/aspose.words/font/properties/SmallCaps)|
+|All Caps |Yes | |- [Font.AllCaps](https://apireference.aspose.com/words/net/aspose.words/font/properties/AllCaps)|
+|Hidden Text |Yes | |- [Font.Hidden](https://apireference.aspose.com/words/net/aspose.words/font/properties/Hidden)|
 |Special Hidden |Yes | | |
 |Web Hidden |Yes | | |
 ##### **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Scale |Yes | |- [Font.Scaling](/pages/createpage.action?spaceKey=wordsnet&title=Scaling+Property&linkCreation=true&fromPageId=2595884)|
-|Expanded/Compressed |Yes | |- [Font.Spacing](/pages/createpage.action?spaceKey=wordsnet&title=Spacing+Property&linkCreation=true&fromPageId=2595884)|
-|Vertical Position |Yes | |- [Font.Position](/pages/createpage.action?spaceKey=wordsnet&title=Position+Property&linkCreation=true&fromPageId=2595884)|
+|Scale |Yes | |- [Font.Scaling](https://apireference.aspose.com/words/net/aspose.words/font/properties/Scaling)|
+|Expanded/Compressed |Yes | |- [Font.Spacing](https://apireference.aspose.com/words/net/aspose.words/font/properties/Spacing)|
+|Vertical Position |Yes | |- [Font.Position](https://apireference.aspose.com/words/net/aspose.words/font/properties/Position)|
 

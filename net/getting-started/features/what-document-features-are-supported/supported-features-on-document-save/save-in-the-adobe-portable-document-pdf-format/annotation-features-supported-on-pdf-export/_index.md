@@ -16,7 +16,7 @@ Bookmarks are exported to PDF and can be made to appear the document outline by 
 
 See the following link in the documentation for further information:
 
-- [OutlineOptions.DefaultBookmarksOutlineLevel](https://apireference.aspose.com/net/words/aspose.words.saving/outlineoptions/properties/defaultbookmarksoutlinelevel)
+- [OutlineOptions.DefaultBookmarksOutlineLevel](https://apireference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/defaultbookmarksoutlinelevel)
 
 {{% /alert %}} 
 

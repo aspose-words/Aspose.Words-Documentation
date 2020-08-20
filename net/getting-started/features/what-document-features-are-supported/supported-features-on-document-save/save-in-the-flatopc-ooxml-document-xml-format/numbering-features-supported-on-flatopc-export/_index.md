@@ -7,7 +7,7 @@ url: /net/numbering-features-supported-on-flatopc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Ooxml+Import&linkCreation=true&fromPageId=2595872)
+[Jump to this location in the import section](/words/net/numbering-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
 ##### **Numbering Definition**

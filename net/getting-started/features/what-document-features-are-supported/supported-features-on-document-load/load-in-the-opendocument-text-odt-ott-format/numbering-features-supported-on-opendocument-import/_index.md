@@ -22,12 +22,12 @@ You can find what paragraphs a list is applied to and work with them manually. T
 
 See the following links in the documentation for further information:
 
-- [Paragraph.IsListItem](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraph.islistitem.html)
-- [Paragraph.ListFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraph.listformat.html)
-- [Paragraph.ListLabel](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraph.listlabel.html)
-- [List.ListLevels](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.list.listlevels.html)
+- [Paragraph.IsListItem](https://apireference.aspose.com/words/net/aspose.words/node/properties/islistitem)
+- [Paragraph.ListFormat](https://apireference.aspose.com/words/net/aspose.words/node/properties/listformat)
+- [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/node/properties/listlabel)
+- [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/listlevels)
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Odt+Export&linkCreation=true&fromPageId=2595986)
+[Jump to this location in the export section](/words/net/numbering-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
 ##### **Numbering Definition**
@@ -35,21 +35,20 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
-|Multi Level |Yes | |- [List.IsMultiLevel](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.list.ismultilevel.html)|
+|Multi Level |Yes | |- [List.IsMultiLevel](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
 |Name |N/A | | |
 ##### **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Label Alignment |Yes | |- [ListLevel.Alignment](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.alignment.html)|
+|Label Alignment |Yes | |- [ListLevel.Alignment](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/alignment)|
 |Picture Bullet |Planned |Picture bullets are supported, however there is currently no way to set a new picture bullet for a list item. <br><br>Consider creating a list with the picture bullet first in the document using Microsoft Word and then apply this list to the required paragraphs. | |
 |Restart Level |N/A | | |
 |Bullet Character |Yes | | |
-|Label/Format String |Yes | |- [ListLabel.LabelString](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlabel.labelstring.html)|
-|Number Format |Yes | |- [ListLevel.NumberFormat](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.numberformat.html)|
+|Label/Format String |Yes | |- [ListLabel.LabelString](https://apireference.aspose.com/words/net/aspose.words.lists/listlabel/properties/labelstring)|
+|Number Format |Yes | |- [ListLevel.NumberFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/numberformat)|
 |Paragraph Properties |Yes | | |
-|Font Properties |Yes | |- [ListLevel.Font](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.font.html)|
+|Font Properties |Yes | |- [ListLevel.Font](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/font)|
 |Linked Paragraph Style |N/A | | |
-|Starting Value |Yes | |- [ListLevel.StartAt](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.startat.html)|
-|Text After |Yes | |- [ListLevel.TrailingCharacter](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlevel.trailingcharacter.html)|
-
+|Starting Value |Yes | |- [ListLevel.StartAt](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/startat)|
+|Text After |Yes | |- [ListLevel.TrailingCharacter](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/trailingcharacter)|

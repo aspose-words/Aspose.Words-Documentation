@@ -33,10 +33,10 @@ During printing you can specify the document name which appears in any print dia
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/pages/createpage.action?spaceKey=wordsnet&title=Save+a+Document&linkCreation=true&fromPageId=2595808)
-- [Rendering and Printing](/pages/createpage.action?spaceKey=wordsnet&title=Rendering+and+Printing&linkCreation=true&fromPageId=2595808)
-- [ImageSaveOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.imagesaveoptions.html)
-- [SvgSaveOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.svgsaveoptions.html)
+- [Save a Document](/words/net/saving-a-document/)
+- [Rendering](/words/net/rendering/)
+- [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/ImageSaveOptions)
+- [SvgSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions)
 
 {{% /alert %}} 
 ##### **General**

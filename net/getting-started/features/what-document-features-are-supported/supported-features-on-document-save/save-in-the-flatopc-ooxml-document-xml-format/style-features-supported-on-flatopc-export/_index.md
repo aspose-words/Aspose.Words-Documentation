@@ -7,7 +7,7 @@ url: /net/style-features-supported-on-flatopc-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/pages/createpage.action?spaceKey=wordsnet&title=Style+Type+Ooxml+Import&linkCreation=true&fromPageId=2595874)
+[Jump to this location in the import section](/words/net/style-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
 ##### **Style Type**
