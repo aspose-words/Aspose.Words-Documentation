@@ -6,4 +6,4 @@ url: /net/microsoft-sharepoint/
 ---
 
 ###### **This section includes the following topics:** 
-- [About Aspose.Words and SharePoint](/words/net/about-aspose-words-and-sharepoint-html/)
+- [About Aspose.Words and SharePoint](/words/net/about-aspose-words-and-sharepoint/)
