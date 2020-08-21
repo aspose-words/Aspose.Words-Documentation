@@ -7,7 +7,7 @@ url: /java/how-to-extract-content-based-on-styles/
 
 {{% alert color="primary" %}} 
 
-This page is no longer maintained. For an updated page, please visit [Working with Styles](http://www.aspose.com/docs/display/wordsjava/Working+with+Styles)
+This page is no longer maintained. For an updated page, please visit [Working with Styles](https://docs.aspose.com/words/java/working-with-styles/)
 
 {{% /alert %}} 
 

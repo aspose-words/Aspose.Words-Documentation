@@ -10,7 +10,7 @@ url: /net/perl-and-aspose-words-for-net/
 
 You should have the Win32::OLE extension installed. See <http://search.cpan.org/~jdb/Win32-OLE-0.1709/lib/Win32/OLE.pm> for more information.
 
-See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop-html/) . 
+See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop/) . 
 
 {{% /alert %}} 
 #### **Hello World!**

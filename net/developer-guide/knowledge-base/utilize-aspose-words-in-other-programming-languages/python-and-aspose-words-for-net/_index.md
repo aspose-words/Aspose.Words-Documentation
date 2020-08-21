@@ -10,7 +10,7 @@ url: /net/python-and-aspose-words-for-net/
 
 Install pywin32 extension. See <http://pypi.python.org/pypi/pywin32> for more information.
 
-See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop-html/) . 
+See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop/) . 
 
 {{% /alert %}} 
 #### **Hello World!**

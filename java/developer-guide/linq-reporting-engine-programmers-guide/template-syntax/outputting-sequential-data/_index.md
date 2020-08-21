@@ -50,8 +50,8 @@ data_band_body
 
 {{% /alert %}}
 ###### **This section includes the following topics:** 
-- [Working with Common Data Bands](/words/java/working-with-common-data-bands-html/)
-- [Working with Table-Row Data Bands](/words/java/working-with-table-row-data-bands-html/)
-- [Using Extension Methods of Iteration Variables](/words/java/using-extension-methods-of-iteration-variables-html/)
-- [Using Charts to Represent Sequential Data](/words/java/using-charts-to-represent-sequential-data-html/)
-- [Forcing Movement to Next Item within Data Band](/words/java/forcing-movement-to-next-item-within-data-band-html/)
+- [Working with Common Data Bands](/words/java/working-with-common-data-bands/)
+- [Working with Table-Row Data Bands](/words/java/working-with-table-row-data-bands/)
+- [Using Extension Methods of Iteration Variables](/words/java/using-extension-methods-of-iteration-variables/)
+- [Using Charts to Represent Sequential Data](/words/java/using-charts-to-represent-sequential-data/)
+- [Forcing Movement to Next Item within Data Band](/words/java/forcing-movement-to-next-item-within-data-band/)

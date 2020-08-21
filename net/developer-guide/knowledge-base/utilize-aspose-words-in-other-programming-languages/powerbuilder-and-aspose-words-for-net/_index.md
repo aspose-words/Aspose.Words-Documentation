@@ -8,7 +8,7 @@ url: /net/powerbuilder-and-aspose-words-for-net/
 #### **Prerequisites**
 {{% alert color="primary" %}} 
 
-See [Use Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop-html/).
+See [Use Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop/).
 
 {{% /alert %}} 
 #### **Hello World!**

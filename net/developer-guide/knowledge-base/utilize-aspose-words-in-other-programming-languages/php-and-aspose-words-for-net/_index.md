@@ -10,7 +10,7 @@ url: /net/php-and-aspose-words-for-net/
 
 Configure your PHP to work with COM. See <http://www.php.net/manual/en/book.com.php> for more information.
 
-Also See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop-html/) . 
+Also See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop/) . 
 
 {{% /alert %}} 
 #### **Hello World!**

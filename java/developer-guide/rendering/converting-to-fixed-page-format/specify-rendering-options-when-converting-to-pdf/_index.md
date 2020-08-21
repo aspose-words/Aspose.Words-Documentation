@@ -13,7 +13,7 @@ Aspose.Words layout engine imitates the way the Microsoft Word’s page layout e
 
 Some examples of using **PdfSaveOptions** are provided below.
 ## **Creating a PDF/A Document with Fillable Forms**
-[PDF/A](https://wiki.fileformat.com/view/pdf/a/) is an ISO-standardized version of PDF specialized for use in the archiving and long-term preservation of electronic documents. To specify a PDF standards compliance level, use the [Compliance](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#Compliance) property. Due to preservation specifics, [PDF/A](https://wiki.fileformat.com/view/pdf/a/) document must embed all fonts and prohibit encryption. 
+[PDF/A](https://docs.fileformat.com/view/pdf/a/) is an ISO-standardized version of PDF specialized for use in the archiving and long-term preservation of electronic documents. To specify a PDF standards compliance level, use the [Compliance](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#Compliance) property. Due to preservation specifics, [PDF/A](https://wiki.fileformat.com/view/pdf/a/) document must embed all fonts and prohibit encryption. 
 
 {{% alert color="primary" %}} 
 
