@@ -7,7 +7,7 @@ url: /sharepoint/evaluate-aspose-words-for-sharepoint/
 
 Make sure to take advantage of the free Aspose.Words for SharePoint evaluation: it has no time limit, and comes with free technical support. We encourage developers to evaluate our products before buying so you know that you know that the product will do what you want it to do.
 
-The evaluation and the paid versions of Aspose.Words for SharePoint use the same download. Simply [download Aspose.Words for SharePoint](http://www.aspose.com/community/files/73/sharepoint-components/aspose.words-for-sharepoint/default.aspx) from the download page, [install it](/words/sharepoint/install-aspose-words-for-sharepoint-html/) and it works in evaluation mode. Evaluation mode injects watermarks into any exported reports and limits them to several pages. 
+The evaluation and the paid versions of Aspose.Words for SharePoint use the same download. Simply [download Aspose.Words for SharePoint](http://www.aspose.com/community/files/73/sharepoint-components/aspose.words-for-sharepoint/default.aspx) from the download page, [install it](/words/sharepoint/install-aspose-words-for-sharepoint/) and it works in evaluation mode. Evaluation mode injects watermarks into any exported reports and limits them to several pages. 
 
 When you have purchased a license, simply install the license solution over the installed evaluation copy of Aspose.Words for SharePoint and it will work in licensed mode.
 

@@ -5,7 +5,7 @@ weight: 80
 url: /sharepoint/spdatasource-element/
 ---
 
-This element contains information about a connection to a SharePoint server. You can use it with [SPListQuery](/words/sharepoint/splistquery-element-html/) or [SPXmlQuery](/words/sharepoint/spxmlquery-element-html/) to get data from a SharePoint server.
+This element contains information about a connection to a SharePoint server. You can use it with [SPListQuery](/words/sharepoint/splistquery-element/) or [SPXmlQuery](/words/sharepoint/spxmlquery-element/) to get data from a SharePoint server.
 
 |**Name**|**Cardinality**|**Has Children**|**Description**|
 | :- | :- | :- | :- |

@@ -7,7 +7,7 @@ url: /jasperreports/evaluate-aspose-words/
 
 {{% alert color="primary" %}} 
 
-You can easily download Aspose.Words for JasperReports for evaluation from the [downloads page](http://www.aspose.com/community/files/67/jasperreports-exporters/aspose.words-for-jasperreports/default.aspx). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after applying a license.
+You can easily download Aspose.Words for JasperReports for evaluation from the [downloads page](https://downloads.aspose.com/words/jasperreports). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after applying a license.
 
 {{% /alert %}} 
 

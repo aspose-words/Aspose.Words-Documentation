@@ -9,9 +9,9 @@ url: /jasperreports/page-breaks/
 
 Aspose.Words for JasperReports supports three ways page breaks are inserted between document pages:
 
-- [Normal page breaks](/words/jasperreports/page-breaks-html/).
+- [Normal page breaks](/words/jasperreports/page-breaks/).
 - Section breaks (that is, one section per page – default mode).
-- [No page breaks](/words/jasperreports/page-breaks-html/) in the document at all.
+- [No page breaks](/words/jasperreports/page-breaks/) in the document at all.
 
 The "section breaks" mode is chosen as default because there may be headers and footers in the document that contain different data. Microsoft Word requires different headers and footers to be placed in different sections. 
 

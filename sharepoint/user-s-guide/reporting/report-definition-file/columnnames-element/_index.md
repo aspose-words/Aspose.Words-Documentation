@@ -9,5 +9,5 @@ The ColumnNames element contains information about columns names in a table rela
 
 |**Name**|**Cardinality**|**Has Children**|**Description**|
 | :- | :- | :- | :- |
-|ColumnName|1-N|No|Column name in a table specified by a [ParentColumns](/words/sharepoint/parentcolumns-element-html/) or [ChildColumns](/words/sharepoint/childcolumns-element-html/) element.|
+|ColumnName|1-N|No|Column name in a table specified by a [ParentColumns](/words/sharepoint/parentcolumns-element/) or [ChildColumns](/words/sharepoint/childcolumns-element/) element.|
 

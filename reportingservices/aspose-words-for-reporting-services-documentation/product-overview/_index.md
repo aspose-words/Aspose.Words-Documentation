@@ -38,7 +38,7 @@ Aspose.Words for Reporting Services is designed to be used with the following ap
 - Microsoft Report Viewer 2005/ 2008/ 2010/ 2012/ 2015 (local and remote mode)
 - Microsoft Visual Studio 2005/ 2008/ 2010/ 2012/ 2013/ 2015 Report Designer
 
-This documentation describes Aspose.Words for Reporting Services' [features](/words/reportingservices/feature-tour-html/), [installation](/words/reportingservices/install-aspose-words-for-reporting-services-html/), [evaluation version limitations](/words/reportingservices/evaluation-version-limitations-html/), [licensing](/words/reportingservices/license-aspose-words-for-reporting-services-html/) and [configuration](/words/reportingservices/configure-aspose-words-for-reporting-services-html/).
+This documentation describes Aspose.Words for Reporting Services' [features](/words/reportingservices/feature-tour/), [installation](/words/reportingservices/install-aspose-words-for-reporting-services/), [evaluation version limitations](/words/reportingservices/evaluation-version-limitations/), [licensing](/words/reportingservices/license-aspose-words-for-reporting-services/) and [configuration](/words/reportingservices/configure-aspose-words-for-reporting-services/).
 
 **Aspose.Words for Reporting Services makes new export formats are available in Microsoft SQL Server Reporting Services**
 

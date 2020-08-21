@@ -18,7 +18,7 @@ The merge fields are populated with data from the first row of the data source, 
 - TableStart and TableEnd fields must be inside the same section in the document.
 - If used inside a table, TableStart and TableEnd must be inside the same row in the table.
 - You should always have a pair of matching TableStart and TableEnd fields with the same table name.
-- You can nest one region inside the other. In this case, the inner region should end before the outer region ends. Use the [Relations](/words/sharepoint/relations-element-html/) element to describe table relationships in report the data source definition.
+- You can nest one region inside the other. In this case, the inner region should end before the outer region ends. Use the [Relations](/words/sharepoint/relations-element/) element to describe table relationships in report the data source definition.
 
 Here is an example of a region in a report template:
 

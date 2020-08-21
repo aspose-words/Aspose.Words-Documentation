@@ -33,4 +33,4 @@ Aspose.Words for Reporting Services supports the following RDL elements:
 
 ![todo:image_alt_text](comprehensive-rdl-support_1.png)
 
-For more sample reports, see the [Sample Reports Gallery](/words/reportingservices/sample-gallery-html/).
+For more sample reports, see the [Sample Reports Gallery](/words/reportingservices/sample-gallery/).

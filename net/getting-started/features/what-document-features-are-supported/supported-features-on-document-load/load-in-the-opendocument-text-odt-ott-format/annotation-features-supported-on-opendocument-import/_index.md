@@ -31,7 +31,7 @@ See the following links in the documentation for further information:
 
 - [Working with Bookmarks](/words/net/working-with-bookmarks/)
 - [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
-- [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/html)
+- [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

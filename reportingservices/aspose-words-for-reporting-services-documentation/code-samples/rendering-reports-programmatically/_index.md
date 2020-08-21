@@ -217,7 +217,7 @@ You can call the **RenderReportToFile** method from any point of your applicatio
 #### **Rendering via Report Viewer Working in Local Mode**
 If you use the Microsoft Report Viewer control in your application, you can use its capabilities to render local reports (RDL and RDLC) to Microsoft Word documents programmatically. Follow these steps (assuming you use Report Viewer 2005):
 ##### **Step 1. Integrate Aspose.Words for Reporting Services with Report Viewer.**
-Follow the instructions described in the section [Integrate with Microsoft Report Viewer in Local Mode](/words/reportingservices/configure-aspose-words-for-reporting-services-html/)
+Follow the instructions described in the section [Integrate with Microsoft Report Viewer in Local Mode](/words/reportingservices/configure-aspose-words-for-reporting-services/)
 ##### **Step 2. Implement the rendering method.**
 Implement the following method in your application: 
 

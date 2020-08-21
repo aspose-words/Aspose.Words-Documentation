@@ -9,6 +9,6 @@ Currently String, Int32, DateTime and Decimal parameter elements all have the sa
 
 |**Name**|**Cardinality**|**Has Children**|**Description**|
 | :- | :- | :- | :- |
-|Name|1|No|Parameter name to use in query elements like Command in [SqlQuery](/words/sharepoint/sqlquery-element-html/) and Query in [SPListQuery](/words/sharepoint/splistquery-element-html/).|
+|Name|1|No|Parameter name to use in query elements like Command in [SqlQuery](/words/sharepoint/sqlquery-element/) and Query in [SPListQuery](/words/sharepoint/splistquery-element/).|
 |Prompt|1|No|Parameter description to display next to a control generated for entering the parameter in the user interface.|
 

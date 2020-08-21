@@ -9,6 +9,6 @@ The ChildColumns element contains information about columns that make a child si
 
 |**Name**|**Cardinality**|**Has Children**|**Description**|
 | :- | :- | :- | :- |
-|TableName|1|No|Child table name. Must match a table name set in a [TableName](/words/sharepoint/tablenames-element-html/) element for a query.|
+|TableName|1|No|Child table name. Must match a table name set in a [TableName](/words/sharepoint/tablenames-element/) element for a query.|
 |ColumnNames|1|Yes|Lists the names of the columns that form the child side of the relation.|
 

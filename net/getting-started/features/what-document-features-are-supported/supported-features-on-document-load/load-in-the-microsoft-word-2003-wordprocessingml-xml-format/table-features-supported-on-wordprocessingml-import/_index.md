@@ -24,7 +24,7 @@ Note that some elements of a table may be wrapped with Markup nodes such as Cust
 See the following links in the documentation for further information:
 
 - [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/)
-- [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table)
+- [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table)
 
 {{% /alert %}} 
 ## **Table**
@@ -32,16 +32,16 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
-|Right To Left Tables |Yes | |- [Table.Bidi](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/bidi)|
-|Table Style |Yes |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. |<p>- [Working with Table Styles]() </p><p>- [Table.Style](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/style) </p><p>- [Table.StyleIdentifier](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/styleidentifier)</p>|
-|Conditional Formatting Style |Yes | |- [Table.StyleOptions](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/styleoptions)|
-|Table Alignment |Yes | |- [Table.Alignment](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/alignment)|
-|Table Indent |Yes | |- [Table.LeftIndent](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/leftindent)|
-|Allow AutoFit |Yes | |- [Table.AllowAutoFit](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/allowautofit)|
-|Default Cell Margins |Yes | |<p>- [Table.LeftPadding](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/leftpadding) </p><p>- [Table.RightPadding](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/rightpadding) </p><p>- [Table.BottomPadding](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/bottompadding) </p><p>- [Table.TopPadding](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/toppadding)</p>|
-|Default Cell Spacing |Yes | |- [Table.CellSpacing](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/cellspacing)|
-|Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. |- [Table.PreferredWidth](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/preferredwidth)|
-|Table Shading |Yes | |- [Table.SetShading](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/setshading)|
+|Right To Left Tables |Yes | |- [Table.Bidi](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bidi)|
+|Table Style |Yes |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. |<p>- [Working with Table Styles]() </p><p>- [Table.Style](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/style) </p><p>- [Table.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleidentifier)</p>|
+|Conditional Formatting Style |Yes | |- [Table.StyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions)|
+|Table Alignment |Yes | |- [Table.Alignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/alignment)|
+|Table Indent |Yes | |- [Table.LeftIndent](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftindent)|
+|Allow AutoFit |Yes | |- [Table.AllowAutoFit](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/allowautofit)|
+|Default Cell Margins |Yes | |<p>- [Table.LeftPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftpadding) </p><p>- [Table.RightPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/rightpadding) </p><p>- [Table.BottomPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bottompadding) </p><p>- [Table.TopPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/toppadding)</p>|
+|Default Cell Spacing |Yes | |- [Table.CellSpacing](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/cellspacing)|
+|Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. |- [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
+|Table Shading |Yes | |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
 |Hidden |Yes |There is currently no API to access or modify this property on Table or Row. | |
 ## **Floating Tables**
 Floating tables are supported during import and export. However there is currently no API to access or modify the floating position of a table.
@@ -56,8 +56,8 @@ If you try to set borders or shading on a table without any rows then an excepti
 
 See the following links in the documentation for further information:
 
-- [Table.SetBorders](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/setborders)
-- [Table.ClearBorders](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/clearborders)
+- [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setborders)
+- [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/clearborders)
 - [RowFormat.Borders](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/borders)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -67,8 +67,8 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Allow Break Across Pages |Yes | |<p>- [Keeping Tables and Rows from Breaking across Pages](https://docs-old.aspose.com/display/wordsnet/Working+with+Columns+and+Rows#WorkingwithColumnsandRows-KeepingTablesandRowsfromBreakingacrossPages) </p><p>- [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/allowbreakacrosspages)</p>|
-|Repeat as Header Row |Yes | |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](https://docs-old.aspose.com/display/wordsnet/Working+with+Columns+and+Rows#WorkingwithColumnsandRows-SpecifyingRowstoRepeatonSubsequentPagesasHeaderRows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/headingformat)</p>|
+|Allow Break Across Pages |Yes | |<p>- [Keeping Tables and Rows from Breaking across Pages](https://docs.aspose.com/words/net/working-with-columns-and-rows/#keeping-tables-and-rows-from-breaking-across-pages) </p><p>- [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/allowbreakacrosspages)</p>|
+|Repeat as Header Row |Yes | |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](https://docs.aspose.com/words/net/working-with-columns-and-rows/#specifying-rows-to-repeat-on-subsequent-pages-as-header-rows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/headingformat)</p>|
 |Height |Yes | |- [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/height)|
 |Height Rule |Yes | |- [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/heightrule)|
 ## **Cells**

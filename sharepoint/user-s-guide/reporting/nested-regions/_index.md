@@ -18,4 +18,4 @@ The result is products grouped by categories:
 
 ![todo:image_alt_text](nested-regions_2.png)
 
-See how to define related tables in a report data source in the [TableRelation](/words/sharepoint/tablerelation-element-html/) element description.
+See how to define related tables in a report data source in the [TableRelation](/words/sharepoint/tablerelation-element/) element description.

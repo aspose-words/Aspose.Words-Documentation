@@ -7,7 +7,7 @@ url: /jasperreports/licensing/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words for JasperReports is available for download from the [downloads page](http://www.aspose.com/community/files/67/jasperreports-exporters/aspose.words-for-jasperreports/default.aspx). The evaluation and licensed versions of the product is the same download.
+Aspose.Words for JasperReports is available for download from the [downloads page](https://downloads.aspose.com/words/jasperreports). The evaluation and licensed versions of the product is the same download.
 
 When you are happy with the evaluation version, [purchase a license](http://www.aspose.com/purchase/default.aspx). Make sure you understand and agree to the license terms.
 
@@ -17,9 +17,9 @@ The license is available for download from the order page after the order was pa
 
 There are several ways to activate a license:
 
-- [Call setLicense](/words/jasperreports/licensing-html/).
-- [Set an exporter parameter in the code](/words/jasperreports/licensing-html/).
-- [Set an exporter parameter in **applicationContext.xml**](/words/jasperreports/licensing-html/).
+- [Call setLicense](/words/jasperreports/licensing/).
+- [Set an exporter parameter in the code](/words/jasperreports/licensing/).
+- [Set an exporter parameter in **applicationContext.xml**](/words/jasperreports/licensing/).
 
 The first two are used with JasperReports, the last with JasperServer. Each method is described below.
 #### **Call setLicense**

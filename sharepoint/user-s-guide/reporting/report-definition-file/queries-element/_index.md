@@ -5,7 +5,7 @@ weight: 100
 url: /sharepoint/queries-element/
 ---
 
-The Queries element contains information about queries for retrieving report data from the data source. It must contain at least one of the elements from the table below. Use SqlQuery with [SqlDataSource](/words/sharepoint/sqldatasource-element-html/) or [OleDbDataSource](/words/sharepoint/oledbdatasource-element-html/). Use SPListQuery or SPXmlQuery with [SPDataSource](/words/sharepoint/spdatasource-element-html/). Other combinations are not supported. At least one of the child elements should be present.
+The Queries element contains information about queries for retrieving report data from the data source. It must contain at least one of the elements from the table below. Use SqlQuery with [SqlDataSource](/words/sharepoint/sqldatasource-element/) or [OleDbDataSource](/words/sharepoint/oledbdatasource-element/). Use SPListQuery or SPXmlQuery with [SPDataSource](/words/sharepoint/spdatasource-element/). Other combinations are not supported. At least one of the child elements should be present.
 
 |**Name**|**Cardinality**|**Has Children**|**Description**|
 | :- | :- | :- | :- |

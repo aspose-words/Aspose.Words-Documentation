@@ -30,7 +30,7 @@ Aspose.Words for JasperReports provides a set of classes that extend the JRAbstr
 
 ![todo:image_alt_text](product-overview_2.png)
 
-Aspose.Words for JasperReports can be integrated with JasperServer to add DOC, DOCX, HTML, and TXT to the list of available formats. Simply configure JasperServer as [described in Installation](/words/jasperreports/installation-html/). After that, additional export format buttons are available when viewing reports.
+Aspose.Words for JasperReports can be integrated with JasperServer to add DOC, DOCX, HTML, and TXT to the list of available formats. Simply configure JasperServer as [described in Installation](/words/jasperreports/installation/). After that, additional export format buttons are available when viewing reports.
 
 **Additional export formats (icons on the right) available after installing Aspose.Words for JasperReports on JasperServer.** 
 

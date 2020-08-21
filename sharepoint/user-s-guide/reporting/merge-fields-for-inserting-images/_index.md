@@ -21,5 +21,5 @@ You can insert images from a data source in the report. Image merge fields must 
 
 
 ### **Related Articles**
-- [Report Template and Merge Fields](/words/sharepoint/report-template-and-merge-fields-html/)
-- [Merge Regions](/words/sharepoint/merge-regions-html/)
+- [Report Template and Merge Fields](/words/sharepoint/report-template-and-merge-fields/)
+- [Merge Regions](/words/sharepoint/merge-regions/)
