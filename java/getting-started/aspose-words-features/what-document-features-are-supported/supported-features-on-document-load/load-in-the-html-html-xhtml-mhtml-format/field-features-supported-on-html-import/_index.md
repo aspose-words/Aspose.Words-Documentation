@@ -111,9 +111,9 @@ See the following links in the documentation for further information:
 ##### **Form Fields**
 Form fields are fully supported by Aspose.Words.
 
-There is an option to export form fields as dynamic fields in HTML as <input> and <select> tags or to export them as plain text.
+There is an option to export form fields as dynamic fields in HTML as &lt;input&gt; and &lt;select&gt; tags or to export them as plain text.
 
-Only <input> and <select> tags are imported back as fields. The input types that have direct Microsoft Word analogs are imported as working form fields.
+Only &lt;input&gt; and &lt;select&gt; tags are imported back as fields. The input types that have direct Microsoft Word analogs are imported as working form fields.
 
 Radio and image input elements are imported as image shapes and are non-clickable.
 
@@ -132,11 +132,11 @@ See the following links in the documentation for further information:
 |CheckBox|Yes|Imported from <input type="checkbox" name="XXX" />|- **FormField.Type**|
 |DropDown|Yes|Imported from <select name="XXX" />. Each item in the list is imported from <option> child elements. <optgroup> tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop-down lists.|<p>- **FormField.DropDownItems**</p><p>- **FormField.DropDownSelectedIndex**</p>|
 |Calc On Exit|N/A| | |
-|Checked|Planned|Will be imported from checked="checked" attribute on <input>.|- **FormField.Checked**|
-|Default Value|Yes|With text form fields this is imported from value="XXX" attribute on <input> tag. <br><br>With a drop down list, this is imported form the <option> element which has selected="selected" attribute.|- **FormField.TextInputDefault**|
+|Checked|Planned|Will be imported from checked="checked" attribute on &lt;input&gt;.|- **FormField.Checked**|
+|Default Value|Yes|With text form fields this is imported from value="XXX" attribute on &lt;input&gt; tag. <br><br>With a drop down list, this is imported form the <option> element which has selected="selected" attribute.|- **FormField.TextInputDefault**|
 |Enabled|Planned|The "disabled" attribute can be used here.|- **FormField.Enabled**|
 |Entry and Exit Macro|N/A| | |
-|Name|Yes|Imported from the name attribute on <input> or <select> element.|- **FormField.Name**|
+|Name|Yes|Imported from the name attribute on &lt;input&gt; or &lt;select&gt; element.|- **FormField.Name**|
 |Help Text|Planned|The "alt" attribute can be used.|- **FormField.HelpText**|
 |Status Text|Planned| |- **FormField.StatusText**|
 |Max Length|Yes|Exported as max length attribute.|- **FormField.MaxLength**|

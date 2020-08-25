@@ -78,7 +78,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Eq |Yes |Exported as image. | |
 |Symbol |Yes | | |
 ##### **Form Fields**
-There is a save option to control if form fields are exported as elements like <input> etc. or as plain text.
+There is a save option to control if form fields are exported as elements like &lt;input&gt; etc. or as plain text.
 
 See the following link in the documentation for further information:
 
@@ -90,11 +90,11 @@ See the following link in the documentation for further information:
 |CheckBox |Yes |Exported as <input type="checkbox" name="XXX" /> | |
 |DropDown |Yes |Exported as <select name="XXX" />. Each item in the list is exported as a <option> element. | |
 |Calc On Exit |N/A | | |
-|Checked |Yes |Exported as checked="checked" attribute on <input>. | |
-|Default Value |Yes |With text form fields this is exported as value="XXX" attribute on <input> element. <br><br>With a drop down list, this is exported with the selected="selected" attribute on the default <option> element. | |
+|Checked |Yes |Exported as checked="checked" attribute on &lt;input&gt;. | |
+|Default Value |Yes |With text form fields this is exported as value="XXX" attribute on &lt;input&gt; element. <br><br>With a drop down list, this is exported with the selected="selected" attribute on the default <option> element. | |
 |Enabled |Planned |The "disabled" attribute can be used here. | |
 |Entry and Exit Macro |N/A | | |
-|Name |Yes |Exported as "name" attribute on <input> or <select> element. <br><br>Name is only exported when exporting as elements and not as plain text. | |
+|Name |Yes |Exported as "name" attribute on &lt;input&gt; or &lt;select&gt; element. <br><br>Name is only exported when exporting as elements and not as plain text. | |
 |Help Text |Planned |The "alt" attribute can be used. | |
 |Status Text |Planned | | |
 |Max Length |Yes |Exported as maxlength attribute. | |
