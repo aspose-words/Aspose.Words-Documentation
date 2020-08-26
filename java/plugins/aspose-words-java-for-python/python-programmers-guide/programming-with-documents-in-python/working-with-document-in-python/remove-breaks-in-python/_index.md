@@ -8,7 +8,7 @@ url: /java/remove-breaks-in-python/
 ## **Aspose.Words - Remove Breaks**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  # Open the document.
 

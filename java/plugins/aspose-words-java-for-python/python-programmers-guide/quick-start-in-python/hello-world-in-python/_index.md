@@ -10,7 +10,7 @@ To Write anything in the Word Document using Aspose.Words for Java in Python, si
 
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document = jpype.JClass("com.aspose.words.Document")
 

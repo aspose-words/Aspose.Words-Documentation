@@ -10,7 +10,7 @@ Use **DocumentBuilder.StartBookmark** and **DocumentBuilder.EndBookmark** to
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -36,7 +36,7 @@ The following code example shows how a bookmark can be added using docx4j.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  WordprocessingMLPackage wordMLPackage = WordprocessingMLPackage.createPackage();
 

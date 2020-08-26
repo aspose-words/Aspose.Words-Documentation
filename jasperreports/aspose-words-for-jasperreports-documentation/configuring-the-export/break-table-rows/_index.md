@@ -13,7 +13,7 @@ By default, value of **BREAK_TABLE_ROWS** parameter is **true**. This means t
 
 **In JasperReports:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  import com.aspose.words.jasperreports.*;
 

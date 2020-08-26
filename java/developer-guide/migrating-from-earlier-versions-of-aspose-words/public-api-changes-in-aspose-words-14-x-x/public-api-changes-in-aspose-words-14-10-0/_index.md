@@ -15,7 +15,7 @@ We have now added LoadOptions.WebRequestTimeout option. Previously, HTML import 
 
 **WebRequestTimeout**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /** 
 

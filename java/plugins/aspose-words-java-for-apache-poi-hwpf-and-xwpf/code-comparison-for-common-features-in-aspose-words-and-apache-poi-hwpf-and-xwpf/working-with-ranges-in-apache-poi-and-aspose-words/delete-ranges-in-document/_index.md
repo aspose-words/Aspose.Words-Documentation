@@ -10,7 +10,7 @@ Range allows the deletion of all characters of the range by calling **Range.dele
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  doc.getSections().get(0).getRange().delete();
 
@@ -22,7 +22,7 @@ delete method can be used after retrieving Section of Range.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  doc.getRange().getSection(0).delete();
 

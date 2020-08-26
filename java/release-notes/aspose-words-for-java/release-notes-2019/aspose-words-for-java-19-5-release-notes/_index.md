@@ -122,7 +122,7 @@ Related issue: WORDSNET-18228.
 
 Added a new overloaded AppendDocument() method into a Document class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -216,7 +216,7 @@ The line spacing of a font is the vertical distance between the baselines of two
 
 The following property was introduced in the Font class to obtain this value:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -438,7 +438,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[] {new SystemFontSource(), new ResourceSteamFontSourceExample()});
 
@@ -454,7 +454,7 @@ Obsolete methods GetFontSubstitutes, SetFontSubstitutes, AddFontSubstitutes was 
 ### **WORDSNET-14297 - Provide a method to check if particular Dml text effect is applied**
 Font.HasDmlEffect() method have been added to check if particular Dml text effect is applied to the Run.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

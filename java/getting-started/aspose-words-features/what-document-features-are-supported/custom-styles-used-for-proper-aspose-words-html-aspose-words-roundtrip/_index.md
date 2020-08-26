@@ -19,7 +19,7 @@ Comment's content is exported as div container. -aw-comment-author, -aw-comment-
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <div id="_cmnt1" style="-aw-comment-author: 'Author'; -aw-comment-datetime: '2015-01-01T12:00:00'; -aw-comment-initial: 'A'">
 
@@ -35,7 +35,7 @@ Example:
 ## **Comment**
 In simple case when comment is located within one paragraph, in output HTML this comment's boundaries are marked with anchor tag. In the following example comment's boundaries are marked as bookmark with “_cmntref1” name:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
 
@@ -52,7 +52,7 @@ In more complex case when comment is overlapped with other comment or comment’
 
 In the following example first comment’s boundaries are marked as bookmark with “_cmntref1” name and span which –aw-comment-end property’s value is set to “_cmntref1”.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
 
@@ -77,7 +77,7 @@ Footnote (endnote) is exported as div. –aw-footnote-isauto CSS property can be
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <div id="_ftn1" style="-aw-footnote-isauto: 1">
 
@@ -114,7 +114,7 @@ All footnotes (endnotes) in a document share formatting. When exported to HTML f
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <hr style="width: 33%; height: 1px; text-align: left; -aw-footnote-numberstyle: 0; -aw-footnote-startnumber: 3; -aw-footnote-type: 0" />
 
@@ -156,7 +156,7 @@ Header (footer) is exported as div container. –aw-different-first-page and –
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <div style="-aw-headerfooter-type:header-primary">
 
@@ -172,7 +172,7 @@ Example:
 ## **Bookmark**
 In simple case when bookmark is located within one paragraph, in output HTML this bookmark's boundaries are marked with anchor tag. In the following example bookmark's boundaries are marked as bookmark with “bm1” name:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
 
@@ -189,7 +189,7 @@ In more complex case when bookmark is overlapped with other bookmark or bookmark
 
 In the following example first bookmark’s boundaries are marked as bookmark with “bm1” name and span which –aw-bookmark-end property’s value is set to “bm1”.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
 
@@ -215,7 +215,7 @@ Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader an
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
 
@@ -237,7 +237,7 @@ Usually PAGE field is represented as one span element in HTML output, but can be
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
 
@@ -261,7 +261,7 @@ Shape is exported as img element. –aw-wrap-type, –aw-left-pos, -aw-top-pos, 
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <img src="TestImage Out.001.png" width="193" height="193" alt="" style="margin-top: 27.3pt; margin-left: 46.2pt; -aw-left-pos: 46.2pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 27.3pt; -aw-wrap-type: none; position: absolute; z-index: 0" />
 
@@ -274,7 +274,7 @@ Insert (delete) revision is exported as ins (del) element. –aw-revision-author
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
 
@@ -305,7 +305,7 @@ Every document element which is content control can be marked in output HTML wit
 
 Example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <p style="margin: 0pt; -aw-sdt-tag: TAG; -aw-sdt-title: TAG">
 

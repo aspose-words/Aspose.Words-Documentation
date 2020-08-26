@@ -10,7 +10,7 @@ If you need to move to the beginning of the document, call **DocumentBuilder.mo
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "document.doc");
 

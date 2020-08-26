@@ -62,7 +62,7 @@ It is very simple and easy to install Aspose.Words Java for Ruby gem, please fol
 
 1. Add this line to your application's Gemfile. 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  gem 'aspose-wordsjavaforruby'
 
@@ -70,7 +70,7 @@ It is very simple and easy to install Aspose.Words Java for Ruby gem, please fol
 
 1. And then execute. 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  $ bundle
 
@@ -80,7 +80,7 @@ It is very simple and easy to install Aspose.Words Java for Ruby gem, please fol
 
 1. Run following command. 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  $ gem install aspose-wordsjavaforruby
 
@@ -88,7 +88,7 @@ It is very simple and easy to install Aspose.Words Java for Ruby gem, please fol
 ### **Using**
 Include the required files for working with the HelloWorld document.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  require File.dirname(File.dirname(File.dirname(__FILE__))) + '/lib/aspose-wordsjavaforruby'
 

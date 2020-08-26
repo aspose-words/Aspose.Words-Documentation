@@ -13,7 +13,7 @@ By default, value of FORCE_LINE_BREAKS parameter is **false**. However, if you n
 
 **In JasperReports:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  import com.aspose.words.jasperreports.*;
 

@@ -112,7 +112,7 @@ The "[Inserting Hyperlinks Dynamically](/words/java/inserting-hyperlinks-dynamic
 ### **Added Title and Description Properties into Table Class**
 WORDSNET-5890 has been resolved. The following public properties have been added into the Table class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -164,7 +164,7 @@ public string Description
 
 {{< /highlight >}}
 ###### **Usage**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document document = new Document(myDir + "Test.docx");
 
@@ -180,7 +180,7 @@ document.Save(myDir + "Output.docx");
 ### **Added Feature to Insert Shapes through DocumentBuilder using ShapeType**
 ` `WORDSNET-15112 has been resolved. The following methods were added in the DocumentBuilder:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -200,7 +200,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -236,7 +236,7 @@ See, few use cases below:
 
 \1. Free-floating shape insertion.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -258,7 +258,7 @@ doc.Save("RotatedShape.docx", so);
 
 \2. Inline shape insertion.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -278,7 +278,7 @@ doc.Save("RotatedShape.docx", so);
 ### **Changed Public Properties of AxisScaling Class**
 ` `WORDSNET-16345 has been resolved. The properties MinimumIsAuto and MaximumIsAuto have been removed from the AxisScaling class. Type of the Minimum and Maximum properties has been changed from **double** to AxisBound.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -324,7 +324,7 @@ public AxisBound Maximum
 
 The new AxisBound class allows specifying axis bound as a numeric, datetime or "auto" value.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  namespace Aspose.Words.Drawing.Charts
 
@@ -420,7 +420,7 @@ The new AxisBound class allows specifying axis bound as a numeric, datetime or "
 
 {{< /highlight >}}
 ###### **UC**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -486,7 +486,7 @@ doc.Save(dir + "TestAxis.docx");
 
 {{< /highlight >}}
 ###### **UC to set date/time values to axis properties**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -538,7 +538,7 @@ doc.Save(dir + "TestDateValues.docx");
 
 {{< /highlight >}}
 ###### **UC to set bounds of an axis**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -574,7 +574,7 @@ WORDSNET-16401 has been resolved. Displaying the document in Word depends on wha
 
 The new API implements such dialog of Word:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -594,7 +594,7 @@ public class LanguagePreferences
 
 This class implements the following public members:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -634,7 +634,7 @@ public EditingLanguage DefaultEditingLanguage
 
 Also added a new public enumeration:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -648,7 +648,7 @@ public enum EditingLanguage
 
 And finally, a new public property is added to LoadOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -662,7 +662,7 @@ public LanguagePreferences LanguagePreferences
 
 The use cases will be as follows.
 ##### **UC: Add Japanese language to the editing languages:**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  LoadOptions loadOptions = new LoadOptions();
 
@@ -682,7 +682,7 @@ else
 
 {{< /highlight >}}
 ##### **UC: Set Russian language as the default editing language:**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  LoadOptions loadOptions = new LoadOptions();
 
@@ -704,7 +704,7 @@ else
 ### **Added IsMoveFromRevision and IsMoveToRevision Properties**
 ` `WORDSNET-16664 has been resolved. The following public properties have been added into the Inline, Paragraph, ShapeBase and InlineStory classes:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -738,7 +738,7 @@ public bool IsMoveToRevision
 
 **Usage**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(myDir + "Test.docx");
 
@@ -762,7 +762,7 @@ for (int i = 0; i < paragraphs.Count; i++)
 ### **Added Properties for Asian Typography into ParagraphFormat Class**
 ` `WORDSNET-16664 has been resolved. The following public properties have been added into the ParagraphFormat class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -814,7 +814,7 @@ The properties correspond to the options of the Line break group on the Asian Ty
 
 **Usage**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(myDir + "Input.docx");
 
@@ -832,7 +832,7 @@ doc.Save(myDir + "Output.docx");
 ### **Added Public TXT Save Option AddBidiMarks**
 ` `WORDSNET-16814 has been resolved. Implemented TxtSaveOptions.AddBidiMarks property as following:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -850,7 +850,7 @@ When this option is enabled, AW inserts Unicode Character 'RIGHT-TO-LEFT MARK' (
 
 In addition, unlike Word where this option is set to **false** by default, in AW this option is set by default to **true**.
 ##### **UC: Export to TXT format, no adding RTL marks before each BiDi Run:**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("in.docx");
 

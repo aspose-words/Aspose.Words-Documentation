@@ -142,7 +142,7 @@ This section lists public API changes that were introduced in Aspose.Words 17.7.
 ### **WORDSNET-14190 - Make the Title of the Generated Documents show up in Title Bar**
 New property **DisplayDocTitle** was added to PdfSaveOptions to control behavior of how document's title is presented in output PDF document:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -175,7 +175,7 @@ public void setDisplayDocTitle(boolean value)
 ### **WORDSNET-15504 -  Shape AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.insertImage Method.**
 Shape AspectRatioLocked default value was changed for shapes inserted through the DocumentBuilder.insertImage method. Now, to mimic MS Word behavior this value is "true" for ShapeType.Image upon inserting image through the DocumentBuilder or through the Model.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

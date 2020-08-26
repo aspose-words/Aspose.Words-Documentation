@@ -10,7 +10,7 @@ A field inserted into the document using DocumentBuilder.insertField returns a F
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder(doc);
 

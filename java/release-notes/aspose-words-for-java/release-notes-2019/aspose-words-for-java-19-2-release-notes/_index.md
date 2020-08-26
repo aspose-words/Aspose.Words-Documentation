@@ -159,7 +159,7 @@ Here are some details about the particular changes:
 
 
 ### **Added new public API for font substitution settings. Previous API methods/properties related to font substitution marked as obsolete.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class FontSettings
 
@@ -613,7 +613,7 @@ Removed deprecated public property TxtSaveOptions.ExportHeadersFooters:
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Specifies whether to output headers and footers when exporting in plain text format.
 

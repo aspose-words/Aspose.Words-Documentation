@@ -81,7 +81,7 @@ The usage of above two methods is as follows:
 
 **UC1 Insert embedded Excel 97-2003 document as iconic OLE object from stream using predefined image**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -97,7 +97,7 @@ doc.save(MyDir + "out.docx");
 
 **UC2 Insert linked Word document from file as normal OLE object using custom presentation image**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

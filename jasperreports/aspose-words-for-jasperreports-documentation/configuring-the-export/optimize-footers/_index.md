@@ -15,7 +15,7 @@ In JasperReports:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
    import com.aspose.words.jasperreports.*;
 
@@ -49,7 +49,7 @@ In JasperReports:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
    import com.aspose.words.jasperreports.*;
 

@@ -12,7 +12,7 @@ This page provides a simple example of how, using Aspose.Words, you can execute 
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Use DocumentBuilder from the javax.xml.parsers package and Document class from the org.w3c.dom package to read
 

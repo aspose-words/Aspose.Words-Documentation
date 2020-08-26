@@ -10,7 +10,7 @@ To update fields of Word Document using Aspose.Words Java Apis in Php, simply in
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  $doc = new Java("com.aspose.words.Document");
 

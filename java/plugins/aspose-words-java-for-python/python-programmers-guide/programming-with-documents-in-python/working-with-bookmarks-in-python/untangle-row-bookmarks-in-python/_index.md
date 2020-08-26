@@ -8,7 +8,7 @@ url: /java/untangle-row-bookmarks-in-python/
 ## **Aspose.Words - Untangle Row Bookmarks**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
   # Load a document.
 

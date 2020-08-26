@@ -8,7 +8,7 @@ url: /java/remove-field-in-php/
 ## **Aspose.Words - Insert Nested Fields**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function main() {
 

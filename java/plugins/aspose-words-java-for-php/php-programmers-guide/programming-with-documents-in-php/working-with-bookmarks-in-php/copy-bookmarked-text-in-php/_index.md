@@ -10,7 +10,7 @@ To copy bookmarked text, see below example in php
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function main() {
 

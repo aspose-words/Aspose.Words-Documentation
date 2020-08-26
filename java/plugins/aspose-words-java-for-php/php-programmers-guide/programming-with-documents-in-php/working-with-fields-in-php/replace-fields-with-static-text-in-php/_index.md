@@ -8,7 +8,7 @@ url: /java/replace-fields-with-static-text-in-php/
 ## **Aspose.Words - Replace Fields With Static Text**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /**
 

@@ -47,7 +47,7 @@ You can directly include the source code of **Aspose.Words Java for Apache POI H
 
 To configure **Aspose.Words for Java API**, include the Aspose repository URL and Aspose.Words for Java API maven dependency in your **pom.xml** as following:
 #### **Aspose Maven Repository**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <repositories>
 
@@ -65,7 +65,7 @@ To configure **Aspose.Words for Java API**, include the Aspose repository URL an
 
 {{< /highlight >}}
 #### **Aspose.Words for Java Maven Dependency**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <dependency>
 

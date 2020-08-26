@@ -8,7 +8,7 @@ url: /java/add-watermark-in-python/
 ## **Aspose.Words - Add Watermark**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  doc = self.Document(self.dataDir + "TestFile.doc")
 

@@ -9,7 +9,7 @@ url: /java/working-withtables-in-php/
 ## **Auto Fit Tables**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function main() {
 

@@ -127,7 +127,7 @@ The following sections of the engine's documentation were updated/added to descr
 Now it is possible to create structured document tag nodes of the repeating section and repeating section item types.
 The new item has also been added into the SdtType enumeration type:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public enum SdtType
 

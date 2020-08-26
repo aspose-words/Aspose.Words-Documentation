@@ -8,7 +8,7 @@ url: /java/check-format-in-python/
 ## **Aspose.Words - Check Format**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  supportedDir = self.dataDir + '/OutSupported/'
 

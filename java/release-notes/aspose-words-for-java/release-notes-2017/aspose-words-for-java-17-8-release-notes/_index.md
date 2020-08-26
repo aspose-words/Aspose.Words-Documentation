@@ -142,7 +142,7 @@ New saving format is introduced - PCL (Printer Command Language). Aspose.Words c
 
 New value was added to enum SaveFormat:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SaveFormat.PCL
 
@@ -150,7 +150,7 @@ New value was added to enum SaveFormat:
 
 Example of how to save document to PCL:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Load the document from disk.
 
@@ -170,7 +170,7 @@ doc.save(dataDir + "Document.PclConversion_out.pcl", saveOptions);
 
 PclSaveOptions has following public options and methods:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -247,7 +247,7 @@ There is one major feature of PCL that is unsupported in current version of Aspo
 ### **WORDSNET-14378 - New Properties Added into the PageSetup Class Allowing to Define Document Grid**
 The following new public properties have been added into the PageSetup class to allow defining document grid behavior:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -308,7 +308,7 @@ public void setLinesPerPage(int value)
 
 Also the following public enum has been implemented:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -374,7 +374,7 @@ Added read-only public API to get extended comment properties.
 
 Following methods were added to the **Comment** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Returns the parent Comment object. Returns null for top-level comments.
 
@@ -397,7 +397,7 @@ Added new public class **CommentCollection** which represents collection of Comm
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(filename);
 
@@ -430,7 +430,7 @@ Comment parentComment = (Comment) comments.get(0);
 ### **WORDSNET-14947. DistanceLeft, DistanceRight, DistanceTop, DistanceBottom Properties Added in Table Class**
 Added new public read-only properties to the **Table** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Gets distance between table left and the surrounding text, in points.
 
@@ -452,7 +452,7 @@ public double getDistanceBottom()
 
 **Typical UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
@@ -474,7 +474,7 @@ Now document structure data and cross-reference table are compressed when saving
 
 New public property NumberFormat is available in the ChartDataLabel class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -488,7 +488,7 @@ public ChartNumberFormat getNumberFormat()
 
 ChartNumberFormat class represents number formatting of the parent element and contains the following public properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -531,7 +531,7 @@ public void setFormatCode(java.lang.String value)
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -551,7 +551,7 @@ public boolean isLinkedToSource(boolean value)
 
 **UC:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -612,7 +612,7 @@ chartDataLabel2.getNumberFormat().isLinkedToSource(true);
 
 \1. Added new public property for SignatureLine class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -633,7 +633,7 @@ public void setId(java.util.UUID value)
 
 \2. Added new public class SignOptions:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -647,7 +647,7 @@ public class SignOptions
 
 It has the following public properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -730,7 +730,7 @@ public void setDecryptionPassword(java.lang.String value)
 
 \3. New public methods are introduced in DigitalSignatureUtil class for signing documents:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -824,7 +824,7 @@ public static void sign(string srcFileName, string dstFileName, CertificateHolde
 
 \4. Old signing methods in DigitalSignatureUtil are marked as 'Obsolete':
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
 
@@ -842,7 +842,7 @@ public static void sign(InputStream srcStream, InputStream dstStream, Certificat
 
 **UC1 - simple document signing:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  CertificateHolder certHolder = CertificateHolder.create(dataDir + "temp.pfx", "password");
 
@@ -852,7 +852,7 @@ DigitalSignatureUtil.sign(dataDir + "Document.Signed.docx", dataDir + "Document.
 
 **UC2 - signing encrypted document:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SignOptions signOptions = new SignOptions();
 
@@ -866,7 +866,7 @@ DigitalSignatureUtil.sign(dataDir + "Document.Signed.docx", dataDir + "Document.
 
 **UC3 - signing existing signature line:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "Document.Signed.docx");
 
@@ -888,7 +888,7 @@ DigitalSignatureUtil.sign(dataDir + "Document.Signed.docx", dataDir + "Document.
 
 **UC4 - creating and signing new signature line:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

@@ -49,7 +49,7 @@ Assume, that you have the Sender class defined in your application as follows:
 
 To produce a report containing a message of a concrete sender on its behalf, you can use a template document with the following content.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <<[s.getName()]>> says: "<<[s.getMessage()]>>."
 
@@ -75,7 +75,7 @@ doc.save(getMyDir() + "out.docx");
 
 After the source code is ran, the template document is populated with the data about the sender, and the document becomes a ready report with the following content.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  LINQ Reporting Engine says: "Hello, World."
 

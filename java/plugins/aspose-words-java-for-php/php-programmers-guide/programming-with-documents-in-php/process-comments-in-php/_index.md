@@ -8,7 +8,7 @@ url: /java/process-comments-in-php/
 ## **Aspose.Words - Process Comments**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function main(){
 

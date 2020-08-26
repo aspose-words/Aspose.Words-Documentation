@@ -10,7 +10,7 @@ To convert a document to PDF simply invoke the Document.save() method and specif
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Load the document from disk.
 
@@ -30,7 +30,7 @@ The following code example shows how documents can be converted to PDF format us
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 

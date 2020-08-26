@@ -10,7 +10,7 @@ In Aspose.Words the **DocumentBuilder.insertField** method is used to insert n
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

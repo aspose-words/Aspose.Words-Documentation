@@ -8,7 +8,7 @@ url: /java/remove-breaks-in-php/
 ## **Aspose.Words - Remove Breaks**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function main() {
 

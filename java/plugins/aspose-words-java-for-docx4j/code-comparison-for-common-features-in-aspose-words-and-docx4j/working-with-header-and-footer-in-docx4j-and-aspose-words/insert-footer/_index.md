@@ -10,7 +10,7 @@ The following sample code demonstrates how to create headers/footers using Docum
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -47,7 +47,7 @@ The following sample code demonstrates how to create headers/footers using docx4
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  private static ObjectFactory objectFactory = new ObjectFactory();
 

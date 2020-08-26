@@ -10,7 +10,7 @@ For joining and appending using Aspose.Words Java Apis in php, simply use append
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  $dstDoc = new Java("com.aspose.words.Document",AppendDocument::$gDataDir . "TestFile.Destination.doc");
 

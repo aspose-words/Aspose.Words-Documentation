@@ -126,7 +126,7 @@ On .NET baseline, some public API methods contain out/ref params in signatures. 
 
 Now, the code like:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  void SomeMethod(ref Document doc, out int i)
 
@@ -134,7 +134,7 @@ Now, the code like:
 
 is autoported to Java as:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  void someMethod(Ref<Document> doc, RefInt i)
 
@@ -148,7 +148,7 @@ Supported encryption for ODF documents.
 
 The following public API has been added to the OdtSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -162,7 +162,7 @@ public OdtSaveOptions(String password)
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -180,7 +180,7 @@ public String Password
 
 {{< /highlight >}}
 ##### **UC1: Load encrypted ODT document.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("\\encrypted.odt", new LoadOptions("password"));
 
@@ -188,7 +188,7 @@ public String Password
 
 **UC2: Save ODT document encrypted with a password.**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -196,7 +196,7 @@ doc.save("\\encryped.odt", new OdtSaveOptions("password"));
 
 {{< /highlight >}}
 ##### **UC3: Verify ODT document is encrypted.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  FileFormatInfo info = FileFormatUtil.detectFileFormat("\\encryped.odt");
 
@@ -209,7 +209,7 @@ Related issue: WORDSNET-16391
 Paper tray information is now preserved when saving document to PCL format.
 Following information is transferred from document's model to PCL file:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  PageSetup.FirstPageTray
 
@@ -225,7 +225,7 @@ Related issue: WORDSNET-16546
 
 The following public property has been added into the **ShapeBase** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -255,7 +255,7 @@ public boolean isLayoutInCell
 
 The property may be helpful for shapes (mainly VML) that are placed into a table cell but are needed to position without binding to the cell.
 ###### **Usage**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "LayoutInCell.docx");
 

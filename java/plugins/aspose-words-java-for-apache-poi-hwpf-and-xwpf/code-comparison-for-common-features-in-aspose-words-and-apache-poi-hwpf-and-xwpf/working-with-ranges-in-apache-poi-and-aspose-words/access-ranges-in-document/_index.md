@@ -10,7 +10,7 @@ Use the **Range.getText** to retrieve plain, unformatted text of the range.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Range range = doc.getRange();
 
@@ -22,7 +22,7 @@ Use the **Range.text** to retrieve text of the range.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Range range = doc.getRange();
 

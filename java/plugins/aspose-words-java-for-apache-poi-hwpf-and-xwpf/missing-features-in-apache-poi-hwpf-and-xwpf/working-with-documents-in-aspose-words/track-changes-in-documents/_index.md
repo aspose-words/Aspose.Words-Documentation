@@ -10,7 +10,7 @@ The **Document.AcceptAllRevisions** method allows you to "accept" all revision
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "trackDoc.doc");
 

@@ -11,7 +11,7 @@ To save a word Document using Aspose.Words for Java in Php, simply invoke save m
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 

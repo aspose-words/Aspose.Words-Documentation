@@ -10,7 +10,7 @@ Comments of the document are represented by the Comment class.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

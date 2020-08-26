@@ -8,7 +8,7 @@ url: /java/extract-content-in-php/
 ## **Aspose.Words - Extract Content**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  private static $gDataDir = "/usr/local/apache-tomcat-8.0.22/webapps/JavaBridge/Aspose.Words-for-Java_For_PHP/src/programmingwithdocuments/workingwithdocument/extractcontent/data/";
 

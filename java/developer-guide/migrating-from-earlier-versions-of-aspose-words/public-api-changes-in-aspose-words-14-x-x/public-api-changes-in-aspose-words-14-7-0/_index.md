@@ -15,7 +15,7 @@ Images in PDF document now can be saved in CMYK color space. It is controlled by
 
 **ImageColorSpaceExportMode**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /** 
 

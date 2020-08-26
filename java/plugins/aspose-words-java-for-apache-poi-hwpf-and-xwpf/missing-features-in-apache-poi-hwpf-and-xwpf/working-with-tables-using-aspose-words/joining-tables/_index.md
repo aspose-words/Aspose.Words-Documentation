@@ -12,7 +12,7 @@ In order to manipulate a table to split or join with another table we simply nee
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Get the first and second table in the document.
 

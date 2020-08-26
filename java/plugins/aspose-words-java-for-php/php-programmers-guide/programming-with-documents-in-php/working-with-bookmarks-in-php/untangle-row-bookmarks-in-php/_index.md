@@ -8,7 +8,7 @@ url: /java/untangle-row-bookmarks-in-php/
 ## **Aspose.Words - Copy Bookmarked Text**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /**
 

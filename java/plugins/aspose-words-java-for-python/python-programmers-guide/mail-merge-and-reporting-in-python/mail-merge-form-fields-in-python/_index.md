@@ -8,7 +8,7 @@ url: /java/mail-merge-form-fields-in-python/
 ## **Aspose.Words - Mail Merge Form Fields**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  # Load the template document.
 

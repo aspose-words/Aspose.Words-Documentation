@@ -39,7 +39,7 @@ The following code snippets show you how to set the name of the watermark shape 
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Set name to be able to remove it afterwards
 

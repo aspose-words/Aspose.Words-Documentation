@@ -13,7 +13,7 @@ By default, value of **CHECK_VERSION** parameter is **true**. This means that As
 
 **In JasperReports:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  import com.aspose.words.jasperreports.*;
 

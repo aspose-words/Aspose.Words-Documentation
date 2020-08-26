@@ -8,7 +8,7 @@ url: /java/extract-content-in-python/
 ## **Aspose.Words - Extract Content**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  # Load in the document
 

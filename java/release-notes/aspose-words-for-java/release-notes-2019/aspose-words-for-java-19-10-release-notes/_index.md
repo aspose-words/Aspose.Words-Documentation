@@ -128,7 +128,7 @@ Added new public option into TxtLoadOptions class:
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -148,7 +148,7 @@ Use Case. Explains how to detect document direction automatically:
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  TxtLoadOptions loadOptions = new TxtLoadOptions();
 

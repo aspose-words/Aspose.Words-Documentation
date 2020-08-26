@@ -11,7 +11,7 @@ When you need to selectively remove comments, the process becomes more similar t
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "AsposeComments.docx");
 

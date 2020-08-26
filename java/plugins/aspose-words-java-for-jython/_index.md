@@ -50,7 +50,7 @@ Following releases of running examples are available to download on all of the b
 ### **Using**
 You can create HelloWorld document using following example code:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  from aspose-words import Settings
 

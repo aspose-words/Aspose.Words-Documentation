@@ -137,7 +137,7 @@ Related issue WORDSNET-13512.
 
 The following public classes and enumeration types are added to allow setting chart axis properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -1001,7 +1001,7 @@ public enum AxisScaleType
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -1069,7 +1069,7 @@ doc.save(dataDir);
 
 **UC to set date/time values to axis properties**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -1123,7 +1123,7 @@ doc.save(dataDir);
 
 **UC to change format of numbers on the value axis**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -1159,7 +1159,7 @@ doc.save(dataDir);
 
 **UC to set bounds of an axis**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -1195,7 +1195,7 @@ doc.save(dataDir);
 
 **UC to set the interval unit between labels on an axis**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -1231,7 +1231,7 @@ Related issue WORDSNET-15972.
 
 The behavior of the following properties was improved:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class StructuredDocumentTag
 
@@ -1257,7 +1257,7 @@ Related Issue: WORDSNET-16088 
 
 To provide typed access to a merge field's properties requested by a customer we have changed the return type of the FieldMergingArgsBase.Field property (and hence of the corresponding descendants' properties) from **Field** to **FieldMergeField**.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

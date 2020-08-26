@@ -32,7 +32,7 @@ In the case when **FontSettings** is not defined explicitly, Aspose.Words uses
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  FontSettings fontSettings = FontSettings.getDefaultInstance();
 
@@ -61,7 +61,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getFontConfigSubstitution()().setEnabled(true);
 
@@ -93,7 +93,7 @@ The main feature of this rule is the ability to load your own substitution table
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getTableSubstitution().load("Table.xml");
 
@@ -103,7 +103,7 @@ You can take as a basis the existing table from the jar or save it programmatica
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getTableSubstitution().save("MyTable.xml");
 
@@ -113,7 +113,7 @@ Despite the flexibility of this mechanism, there are some cases when it is bette
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getTableSubstitution().setEnabled(false);
 
@@ -123,7 +123,7 @@ Despite the flexibility of this mechanism, there are some cases when it is bette
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  FontInfoCollection fontInfos = doc.getFontInfos();
 
@@ -133,7 +133,7 @@ Users cannot interfere in the workflow of this feature unless they decide to dis
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(false);
 
@@ -145,7 +145,7 @@ If **FontInfo** is not available for the missing font, then the process stops.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(false);
 
@@ -155,7 +155,7 @@ To check the current default font, use:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().getDefaultFontName();
 
@@ -165,7 +165,7 @@ To set up your own replacement option, apply:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
 
@@ -191,7 +191,7 @@ There is a [BuildAutomatic](https://apireference.aspose.com/java/words/com.aspo
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  FontFallbackSettings settings = fontSettings.getFallbackSettings();
 
@@ -201,7 +201,7 @@ Similarly to *Table substitution rule*, this mechanism uses XML tables for conf
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getFallbackSettings().load("MyNewFallbackTable.xml");
 
@@ -215,7 +215,7 @@ The *MsOfficeFallbackSetting* table defines a replacement strategy for a rang
 
 **.Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getFallbackSettings().loadMsOfficeFallbackSettings();
 
@@ -225,7 +225,7 @@ The *NotoFallbackSetting* table is created especially for use with Google Noto
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getFallbackSettings().loadNotoFallbackSettings();
 

@@ -10,7 +10,7 @@ The **ControlChar** class is a repository for the constants that represent con
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  text.replace(ControlChar.CR, ControlChar.CR_LF);
 

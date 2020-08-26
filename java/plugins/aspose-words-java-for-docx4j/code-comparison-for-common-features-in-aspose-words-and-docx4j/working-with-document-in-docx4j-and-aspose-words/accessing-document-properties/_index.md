@@ -12,7 +12,7 @@ You can use document properties in your document automation project to store som
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "document.doc");
 
@@ -46,7 +46,7 @@ Shows how to access a docx's:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  WordprocessingMLPackage wordMLPackage = WordprocessingMLPackage.load(new java.io.File(inputfilepath));
 

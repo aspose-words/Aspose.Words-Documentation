@@ -7,7 +7,7 @@ url: /sharepoint/configuring-active-output-formats/
 
 You can configure which output formats should be active (enabled for conversion). By default, all output formats are active, but you can filter out unwanted ones by modifying **Web.Config** file in the root folder(s) of installed SharePoint web application(s). Find section <**appSettings**> and add following line into it:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <appSettings>
 
@@ -25,7 +25,7 @@ You can configure which output formats should be active (enabled for conversion)
 
 If **Web.Config** file does not contain <**appSettings**> section, then navigate to the end of **Web.Config** file (before </**configuration**> line) and add new section with following lines:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
    <!-- Start Aspose.Words for SharePoint Settings -->
 

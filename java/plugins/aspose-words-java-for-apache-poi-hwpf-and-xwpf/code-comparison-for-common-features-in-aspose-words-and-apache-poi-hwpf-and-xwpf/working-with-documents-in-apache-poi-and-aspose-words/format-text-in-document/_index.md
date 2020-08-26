@@ -10,7 +10,7 @@ Current font formatting is represented by a **Font** object returned by the *
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 
@@ -66,7 +66,7 @@ XWPFRun can be used to format text using Apache POI
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 

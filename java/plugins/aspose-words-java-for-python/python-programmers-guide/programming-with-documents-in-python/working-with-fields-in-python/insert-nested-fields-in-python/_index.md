@@ -8,7 +8,7 @@ url: /java/insert-nested-fields-in-python/
 ## **Aspose.Words - Insert Nested Fields**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  doc = self.Document()
 

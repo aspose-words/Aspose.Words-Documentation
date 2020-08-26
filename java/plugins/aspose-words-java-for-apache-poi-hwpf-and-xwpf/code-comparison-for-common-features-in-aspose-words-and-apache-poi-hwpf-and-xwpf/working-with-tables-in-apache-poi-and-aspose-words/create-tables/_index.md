@@ -16,7 +16,7 @@ In Aspose.Words a table is normally inserted using **DocumentBuilder**. The fol
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 
@@ -72,7 +72,7 @@ Below example shows how table is inserted using Apache POI XWPF library.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 

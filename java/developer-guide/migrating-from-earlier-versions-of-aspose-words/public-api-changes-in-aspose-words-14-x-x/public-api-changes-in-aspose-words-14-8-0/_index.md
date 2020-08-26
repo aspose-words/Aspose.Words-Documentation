@@ -13,7 +13,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.8.0. 
 ### **LinkedStyleName Property Added to Style Class**
 **LinkedStyleName**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /** 
 
@@ -29,7 +29,7 @@ PreblendImages property has been added to the PdfSaveOptions class. It may impro
 
 **PreblendImages**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /** 
 
@@ -65,7 +65,7 @@ New property TimestampSettings has been added to PdfDigitalSignatureDetails. It 
 
 **TimestampSettings**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /** 
 
@@ -93,7 +93,7 @@ public final void setTimestampSettings(PdfDigitalSignatureTimestampSettings valu
 
 **Usage**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  saveOptions.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings(timestampServerUrl, userName, password, timeout));
 

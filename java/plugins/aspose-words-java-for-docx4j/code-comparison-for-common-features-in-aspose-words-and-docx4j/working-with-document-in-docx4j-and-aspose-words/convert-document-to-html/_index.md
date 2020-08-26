@@ -11,7 +11,7 @@ Aspose.Words allows exporting or converting word documents to PDF, XPS, XamlFixe
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Load the document from disk.
 
@@ -31,7 +31,7 @@ This sample uses XSLT (and Xalan) to produce HTML output. (There is also HtmlE
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Document loading (required)
 

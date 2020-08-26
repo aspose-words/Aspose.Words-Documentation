@@ -96,7 +96,7 @@ WORDSNET-17819 has now been resolved:
 
 New public property was added to ImageSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -128,7 +128,7 @@ public byte ThresholdForFloydSteinbergDithering
 
 The higher the value, the darker the image.
 #### **UC**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document ("inputFileName");
 

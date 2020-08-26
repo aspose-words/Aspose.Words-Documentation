@@ -10,7 +10,7 @@ To update fields of Word Document using Aspose.Words Java Apis in Python, simply
 
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document = jpype.JClass("com.aspose.words.Document")
 

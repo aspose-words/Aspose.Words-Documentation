@@ -16,7 +16,7 @@ You can output a sequence of elements of the same type to your report using a da
 
 A data band body is defined between the corresponding opening and closing foreach tags within a template as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <<foreach ...>>
 
@@ -38,7 +38,7 @@ An opening foreach tag defines a foreach statement enclosed by brackets. The fol
 |**Sequence Expression**|No|A sequence expression must return an [Iterable](http://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html) implementor.|
 The complete syntax of a foreach tag (including optional elements) is as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <<foreach [variable_type variable_name in sequence_expression]>>
 

@@ -10,7 +10,7 @@ To use Mail Merge, simply invoke getMailMerge.execute method.
 
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document =jpype.JClass("com.aspose.words.Document")
 

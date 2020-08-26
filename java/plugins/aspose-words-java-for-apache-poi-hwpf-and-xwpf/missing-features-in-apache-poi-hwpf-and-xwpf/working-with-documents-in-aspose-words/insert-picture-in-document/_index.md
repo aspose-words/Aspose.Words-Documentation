@@ -10,7 +10,7 @@ DocumentBuilder provides several overloads of the DocumentBuilder.InsertImage me
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

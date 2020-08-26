@@ -15,7 +15,7 @@ This option allows to get or set a flag which indicates whether the styles in th
 
 **Usage**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -33,7 +33,7 @@ When the document (with this option set) is reopened in Microsoft Word, changes 
 ### **Document.CompatibilityOptions.OptimizeFor Added to the Public API**
 This version of Aspose.Words exposes **Document.CompatibilityOptions.OptimizeFor** method and **MsWordVersion** enum which allows to fine-tune Aspose.Words behavior to match particular Microsoft Word version as well as to suppress Microsoft Word compatibility-mode ribbon for Aspose.Words generated documents.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -57,7 +57,7 @@ Aspose.Words' layout engine now supports Hyphenation. However, to be able to use
 
 **Usage**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("in.doc");
 
@@ -80,7 +80,7 @@ Aspose.Words now supports loading digital signatures from XPS documents. The u
 
 **UC1**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DigitalSignatureCollection signatures = DigitalSignatureUtil.loadSignatures("X:\\test.xps");
 
@@ -90,7 +90,7 @@ System.out.println(signatures.get(0).isValid());
 
 **UC2**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  InputStream stream = new FileInputStream("X:\\test.xps");
 

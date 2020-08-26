@@ -10,7 +10,7 @@ To replace text using Aspose.Words Java in php, simply invoke the replace() meth
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
   // The path to the documents directory.
 

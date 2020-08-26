@@ -12,7 +12,7 @@ You can use document properties in your document automation project to store som
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 
@@ -46,7 +46,7 @@ SummaryInformation class is used to access various properties of HWPF document.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 

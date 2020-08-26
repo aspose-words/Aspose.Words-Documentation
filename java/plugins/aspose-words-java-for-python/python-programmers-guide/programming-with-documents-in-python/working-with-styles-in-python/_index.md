@@ -8,7 +8,7 @@ url: /java/working-with-styles-in-python/
 ## **Aspose.Words - Extract Content Based On Styles**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  # Open the document.
 

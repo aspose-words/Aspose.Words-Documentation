@@ -8,7 +8,7 @@ url: /java/insert-nested-fields-in-php/
 ## **Aspose.Words - Insert Nested Fields**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function main() {
 

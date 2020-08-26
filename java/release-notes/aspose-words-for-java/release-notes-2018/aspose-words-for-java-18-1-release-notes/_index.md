@@ -103,7 +103,7 @@ The "[Working with Table-Row Data Bands](/words/java/working-with-table-row-data
 ### **Remove Obsolete Method in CompositeNode**
 Removed obsolete public method from CompositeNode class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public NodeCollection getChildNodes(NodeType nodeType, boolean isDeep, boolean isLive)
 
@@ -115,7 +115,7 @@ Related Issue: WORDSNET-15801
 
 The following public property has been added into the **ChartAxis** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -141,7 +141,7 @@ public boolean Hidden
 
 The property allows hiding/showing and getting visibility state of an axis of a chart.
 #### **UC to create a chart and hide its Y axis**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -179,7 +179,7 @@ Related Issue: WORDSNET-15840
 
 We have added public get/set property for preserving meta-characters during replacement as an option in FindReplaceOptions class
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -197,7 +197,7 @@ This is useful for example in replacing html text with meta-characters such as "
 
 Sample usage
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 
@@ -229,7 +229,7 @@ doc.save(dataDir);
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  static class FindAndInsertHtml implements IReplacingCallback {
 
@@ -263,7 +263,7 @@ Related Issue: WORDSNET-16060
 
 As per customer's request, we have made public get property StoreItemId of class XmlMapping:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -281,7 +281,7 @@ More info about storeItemID property: <https://msdn.microsoft.com/en-us/library/
 
 Sample usage:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("file.docx");
 

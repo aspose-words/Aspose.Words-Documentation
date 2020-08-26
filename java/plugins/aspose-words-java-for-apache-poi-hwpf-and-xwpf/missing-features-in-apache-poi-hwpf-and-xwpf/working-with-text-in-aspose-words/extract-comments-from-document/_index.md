@@ -21,7 +21,7 @@ To illustrate how to extract and remove comments from a document, we will go thr
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "AsposeComments.docx");
 

@@ -202,7 +202,7 @@ foreach (Revision revision in doc.Revisions)
 ### **WORDSNET-18600 - Implemented API to define default options for data labels of chart series**
 The following new public properties have been added into the ChartDataLabelCollection class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

@@ -11,7 +11,7 @@ A common data band is a data band which body starts and ends within paragraphs t
 
 In particular, a common data band can be entirely located within a single paragraph. In this case, while building a report, the band is replaced with contents that are entirely located within the same paragraph as well. The following example illustrates such a scenario. Given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them with commas in a single paragraph.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  The items are: <<foreach [item in items]>><<[item]>>, <</foreach>>and others.
 
@@ -19,7 +19,7 @@ In particular, a common data band can be entirely located within a single paragr
 
 In this case, the engine produces a report as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  The items are: item1, item2, item3, and others.
 
@@ -31,16 +31,16 @@ When the body of a common data band starts and ends within different paragraphs,
 
 |**Template**|**Report**|
 | :- | :- |
-|<p>{{< highlight java >}}</p><p> prefix <<foreach [item in items]>><<[item]>>¶</p><p><</foreach>>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> prefix<<foreach [item in items]>>¶</p><p><<[item]>><</foreach>> suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3 suffix</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> prefix¶</p><p><<foreach [item in items]>><<[item]>>¶</p><p><</foreach>>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> prefix<<foreach [item in items]>>¶</p><p><<[item]>><</foreach>>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> prefix¶</p><p><<foreach [item in items]>>¶</p><p><<[item]>>¶</p><p><</foreach>>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix¶</p><p>¶</p><p>item1¶</p><p>¶</p><p>item2¶</p><p>¶</p><p>item3¶</p><p>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix <<foreach [item in items]>><<[item]>>¶</p><p><</foreach>>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix<<foreach [item in items]>>¶</p><p><<[item]>><</foreach>> suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3 suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p><<foreach [item in items]>><<[item]>>¶</p><p><</foreach>>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix<<foreach [item in items]>>¶</p><p><<[item]>><</foreach>>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p><<foreach [item in items]>>¶</p><p><<[item]>>¶</p><p><</foreach>>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p>¶</p><p>item1¶</p><p>¶</p><p>item2¶</p><p>¶</p><p>item3¶</p><p>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
 While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of items, you can get a report with their numbered list using the following template.
 
 **Note –** “1. ” in the template stands for a numbered list label.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  1. <<foreach [item in items]>><<[item]>>
 
@@ -50,7 +50,7 @@ While building a report, duplicated paragraph breaks derive common attributes fr
 
 In this case, the engine produces a report as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  1. item1
 

@@ -23,7 +23,7 @@ New overload in DocumentBuilder allows inserting footnotes with custom marks:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public Footnote DocumentBuilder.insertFootnote(FootnoteType footnoteType, String footnoteText, String referenceMark)
 
@@ -39,7 +39,7 @@ And also public writable property for adding custom mark:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public String Footnote.ReferenceMark {get;set;}
 
@@ -63,7 +63,7 @@ WORDSNET-7893 is implemented now. A new WriteProtection.validatePassword method 
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public boolean validatePassword(String password);
 
@@ -74,7 +74,7 @@ Usage example is as follows:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(getMyDir() + "in.docx");
 

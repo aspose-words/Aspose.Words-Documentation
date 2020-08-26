@@ -157,7 +157,7 @@ WORDSNET-13498 has been resolved. We've improved the speed of fast text indexing
 WORDSNET-13739 has been resolved. ShowRevisionBalloons property has been added to the RevisionOptions class. This option lets a user to show formatting changes in the balloons.
 NOTE: Now it works only for delete revisions.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -201,7 +201,7 @@ public bool ShowRevisionBalloons
 
 Example of how to use:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("D:\\temp\\input.docx");
 
@@ -213,7 +213,7 @@ doc.save("D:\\temp\\16.6.0.pdf");
 ### **Saving DOCX as ISO 29500 Strict OOXML Format is Available now**
 A new member Iso29500_2008_Strict is added into the OoxmlCompliance enum type. UseCase to save as Strict OOXML:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("D:\\temp\\input.docx");
 
@@ -239,7 +239,7 @@ In this case you have to use the code provided below:
 **double.NaN** value is used as empty data value.
 **null** is used as empty category name.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Add chart with default data.
 
@@ -272,7 +272,7 @@ The resulted chart looks like this:
 WORDSNET-13432 has been resolved. We have added the MailMergeRegionInfo.Level property to satisfy customer's requirements logged in WORDSNET-13432.
 Following property for getting/setting level number will be added to public API for Aspose.Words.MailMerging.MailMergeRegionInfo class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  namespace Aspose.Words.MailMerging
 
@@ -338,7 +338,7 @@ Following property for getting/setting level number will be added to public API 
 ### **Added MailMerge.GetRegionsByName() Method**
 WORDSNET-13433 has been resolved. We have added the MailMerge.GetRegionsByName() method so that the user can obtain a list of regions by the specified name as follows:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class MailMerge
 
@@ -362,7 +362,7 @@ WORDSNET-13433 has been resolved. We have added the MailMerge.GetRegionsByName()
 ### **XpsSaveOptions.OptimizeOutput Option Added**
 WORDSNET-13572 has been resolved. Following new option is available in XpsSaveOptions:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

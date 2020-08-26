@@ -10,7 +10,7 @@ Aspose hosts all Java APIs on [Maven repository](https://repository.aspose.com/w
 
 First, you need to specify Aspose Maven Repository configuration/location in your Maven pom.xml as below:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <repositories>
 
@@ -30,7 +30,7 @@ First, you need to specify Aspose Maven Repository configuration/location in you
 
 Then define Aspose.Words for Java API dependency in your pom.xml as follows:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <dependencies>
 

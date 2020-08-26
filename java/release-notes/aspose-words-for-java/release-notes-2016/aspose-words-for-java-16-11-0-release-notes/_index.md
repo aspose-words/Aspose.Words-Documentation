@@ -108,7 +108,7 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 This section lists public API changes that were introduced in Aspose.Words 16.11.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 ### **WORDSNET-3498 Support export to HTML5**
 #### **New public enum HtmlVersion:**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -156,7 +156,7 @@ public enum HtmlVersion
 
 {{< /highlight >}}
 #### **New public property in HtmlSaveOptions:**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -178,7 +178,7 @@ public HtmlVersion HtmlVersion
 
 {{< /highlight >}}
 #### **Usecase:**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  var so = new HtmlSaveOptions();
 
@@ -190,7 +190,7 @@ doc.Save("out.html", so);
 ### **WORDSNET-13625 - FixedPageSaveOptions.OptimizeOutput**
 Starting from 16.11.0 version, OptimizeOutput option is available for all fixed page formats.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

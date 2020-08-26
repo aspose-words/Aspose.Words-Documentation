@@ -10,7 +10,7 @@ To use Mail Merge, simply invoke getMailMerge->execute method.
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  $doc = new Java("com.aspose.words.Document", "Template.doc");
 

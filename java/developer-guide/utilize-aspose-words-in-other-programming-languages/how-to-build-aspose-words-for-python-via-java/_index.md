@@ -19,7 +19,7 @@ Make sure Java's and Python's paths are on the environment variables list
 
 Install wheel
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  >  pip install wheel
 
@@ -31,7 +31,7 @@ Download and unzip [JCC](https://pypi.python.org/pypi/JCC/)
 
 Run following command in JCC directory
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  JCC-3.0> python .\setup.py build
 
@@ -39,7 +39,7 @@ Run following command in JCC directory
 
 Then run install command
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  JCC-3.0> python .\setup.py install
 
@@ -47,7 +47,7 @@ Then run install command
 
 Check JCC egg has been installed
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > ls C:\Python27\Lib\site-packages\JCC-3.0-py2.7-win-amd64.egg
 
@@ -55,7 +55,7 @@ Check JCC egg has been installed
 #### **How to build JCC on Ubuntu**
 Check if python is installed
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > python
 
@@ -69,7 +69,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 In order to get things working make sure Java is installed, if it isn't then do following:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > sudo add-apt-repository ppa:webupd8team/java
 
@@ -81,7 +81,7 @@ In order to get things working make sure Java is installed, if it isn't then do 
 
 Install svn
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > sudo apt install subversion
 
@@ -89,7 +89,7 @@ Install svn
 
 Check out JCC's sources
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > svn co http://svn.apache.org/repos/asf/lucene/pylucene/trunk/jcc jcc
 
@@ -97,7 +97,7 @@ Check out JCC's sources
 
 Make sure that [setuptools](https://pypi.python.org/pypi/setuptools) is installed
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > pip install setuptools
 
@@ -105,7 +105,7 @@ Make sure that [setuptools](https://pypi.python.org/pypi/setuptools) is installe
 
 Run following commands
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > jcc/$ python setup.py build
 
@@ -115,7 +115,7 @@ Run following commands
 
 Make sure JCC has been installed
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > ls /home/_username_/.local/lib/python2.7/site-packages
 
@@ -125,7 +125,7 @@ Make sure Java, JCC and wheel are installed.
 
 Then run [create_aspose_words.py](https://docs.aspose.com/download/attachments/61539591/create_aspose_words.py?api=v2) with appropriate arguments
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > python .\create_aspose_words.py .\Aspose.Words.jdk16.jar 17.8 aspose_words
 
@@ -149,7 +149,7 @@ Result *.whl* file will be saved in *.\dist* directory
 
 \4. Then install the .whl package [create_aspose_words.py](https://docs.aspose.com/download/attachments/61539591/create_aspose_words.py?api=v2)
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > pip install .\aspose_words-17.8-cp27-none-win_amd64.whl
 
@@ -157,7 +157,7 @@ Result *.whl* file will be saved in *.\dist* directory
 #### **How to install "Aspose Words for Python via Java" on Ubuntu**
 Check if python is installed
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > python
 
@@ -171,7 +171,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 In order to get things working make sure Java is installed, if it isn't then do following:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > sudo add-apt-repository ppa:webupd8team/java
 
@@ -183,7 +183,7 @@ In order to get things working make sure Java is installed, if it isn't then do 
 
 Make sure pip is installed if it isn't then
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > sudo apt install python-pip
 
@@ -191,13 +191,13 @@ Make sure pip is installed if it isn't then
 
 Run terminal and use following command:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > pip install --prefix=~/.local aspose_words-17.8-cp27-none-linux_x86_64.whl
 
 {{< /highlight >}}
 #### **How to use "Aspose Words for Python via Java"**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  > python
 

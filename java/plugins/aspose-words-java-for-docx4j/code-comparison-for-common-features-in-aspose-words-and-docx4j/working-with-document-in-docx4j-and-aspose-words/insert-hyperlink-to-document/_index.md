@@ -10,7 +10,7 @@ Aspose.Words uses DocumentBuilder.insertHyperlink() to insert hyperlinks to docu
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -31,7 +31,7 @@ The following code example shows how hyperlinks can be inserted to document usin
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void main(String[] args) throws Exception
 

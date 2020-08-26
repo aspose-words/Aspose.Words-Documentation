@@ -8,7 +8,7 @@ url: /java/remove-field-in-python/
 ## **Aspose.Words - Remove Field**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  doc = self.Document(self.dataDir + "Field.RemoveField.doc")
 

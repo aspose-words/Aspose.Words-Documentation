@@ -12,7 +12,7 @@ Use **DocumentBuilder.startBookmark** and **DocumentBuilder.endBookmark** to
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  builder.startBookmark("AsposeBookmark");
 
@@ -26,7 +26,7 @@ builder.endBookmark("AsposeBookmark");
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // By index.
 

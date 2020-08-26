@@ -14,7 +14,7 @@ While in Aspose.Words there is no single “Insert Watermark” command like in 
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void main(String[] args) throws Exception
 
@@ -123,7 +123,7 @@ Below example shows how a watermark can be added to document using docx4j librar
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void main(String[] args) throws Exception
 

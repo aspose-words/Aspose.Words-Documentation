@@ -10,7 +10,7 @@ Aspose.Words allows you to import plain text data the same way as other document
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The encoding of the text file is automatically detected.
 

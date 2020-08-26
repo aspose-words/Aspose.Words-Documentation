@@ -10,7 +10,7 @@ Each section in a document can have up to three headers and up to three footers 
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "AsposeHeaderFooter.docx");
 
@@ -73,7 +73,7 @@ Examples shows how header and footer can be removed using docx4j library.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void main(String[] args) throws Exception
 

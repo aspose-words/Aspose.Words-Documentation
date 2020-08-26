@@ -153,7 +153,7 @@ Related issue: WORDSNET-15943
 
 The following public method has been added into the **DocumentBuilder** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -175,7 +175,7 @@ Style Separator can be added to the end of a paragraph using the* *Ctrl+Alt+Ent
 
 Use case:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder(new Document());
 
@@ -311,7 +311,7 @@ ExportMetafileAsRaster = false;
 
 The new option value - HtmlMetafileFormat.Svg - is useful in scenarios where a customer imports SVG images to a document and want to save these images back to SVG format, as in the following code sample:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder();
 
@@ -333,7 +333,7 @@ Related issue: WORDSNET-16315
 
 The following public property has been added into the **FontSettings** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -375,7 +375,7 @@ Behavior of the model while setting of shape height/width was changed. Relative 
 
 For example, the following code, for shape with relative height 20% from "margin", updates relative height to 0 and set absolute value to 150 points:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Shape shape = (Shape)doc.getFirstSection().getBody().getChild(NodeType.SHAPE, 0, true);
 

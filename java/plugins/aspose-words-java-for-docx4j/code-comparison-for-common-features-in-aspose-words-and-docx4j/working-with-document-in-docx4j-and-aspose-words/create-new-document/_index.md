@@ -12,7 +12,7 @@ If you want to generate a document programmatically, the most reasonable step af
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -36,7 +36,7 @@ Creates a WordprocessingML document from scratch and show several different ways
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  WordprocessingMLPackage wordMLPackage = WordprocessingMLPackage.createPackage();
 

@@ -162,7 +162,7 @@ public void onStart() {
 1. Add maven repository into your build.gradle 
 1. Add 'Aspose.Words for Android via Java' JAR as a dependency
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // 1. Add maven repository into your build.gradle 
 
@@ -239,7 +239,7 @@ This article gives you an idea of getting started with Aspose.Words for Android 
 
 1. Navigate back to the code section of the app and add the following imports: 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  import java.io.File;
 
@@ -254,7 +254,7 @@ import android.os.Environment; 
 And then insert the following code in the body of the onCreate method to create a new document from scratch using Aspose.Words, 
 insert some text and save it to the SDCard in DOCX format.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  try
 

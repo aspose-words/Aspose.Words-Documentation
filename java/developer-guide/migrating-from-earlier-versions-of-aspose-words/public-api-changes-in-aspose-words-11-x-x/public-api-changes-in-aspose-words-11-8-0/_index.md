@@ -36,7 +36,7 @@ The existing [Node.ToTxt]() method is still available however it is marked as de
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
 
 
@@ -64,7 +64,7 @@ String nodeAsHtml = node.toString(SaveFormat.HTML);
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
 
 
@@ -96,7 +96,7 @@ This release of Aspose.Words provides functionality to add a copy of one style a
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
 
 
@@ -114,7 +114,7 @@ newStyle.setName("My Heading 1");
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
 
 
@@ -138,7 +138,7 @@ Node collections which contain a single type of node e.g [ParagraphCollection]()
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
 
 
@@ -164,7 +164,7 @@ If you are using a "deep" search and you remove the current node then the childr
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
 
 
@@ -208,7 +208,7 @@ The algorithm behind the enumeration visits all nodes of the document (for deep 
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
 
 
@@ -271,7 +271,7 @@ In Aspose.Words 11.7.0 the PdfSaveOptions member [NumeralFormat]() was mistakenl
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
 
 

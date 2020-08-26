@@ -8,7 +8,7 @@ url: /java/mail-merge-form-fields/
 ## **Aspose.Words - Mail Merge Form Fields**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function main()
 

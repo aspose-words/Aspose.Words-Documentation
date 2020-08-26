@@ -8,7 +8,7 @@ url: /java/working-with-comments-in-python/
 ## **Aspose.Words - Process Comments**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document = jpype.Jclass("com.aspose.words.Document")
 

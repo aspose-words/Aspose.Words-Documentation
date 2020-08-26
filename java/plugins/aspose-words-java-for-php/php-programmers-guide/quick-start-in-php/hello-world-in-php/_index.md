@@ -10,7 +10,7 @@ To Write anything in the Word Document using Aspose.Words for Java in Php, simpl
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
   $builderBoject = new Java("com.aspose.words.DocumentBuilder",$documentObject);
 

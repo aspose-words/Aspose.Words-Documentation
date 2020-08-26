@@ -12,7 +12,7 @@ Aspose.Words supports documents with digital signatures and provides access to t
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the document which is to be processed.
 

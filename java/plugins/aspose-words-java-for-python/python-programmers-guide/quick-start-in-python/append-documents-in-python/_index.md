@@ -10,7 +10,7 @@ To append documents using Aspose.Words Java in Python, simply invoke the appendD
 
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document = jpype.JClass("com.aspose.words.Document")
 

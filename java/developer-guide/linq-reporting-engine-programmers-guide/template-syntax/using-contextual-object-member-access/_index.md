@@ -19,12 +19,12 @@ Consider the following example. Given that ds is a DataSet instance containing a
 
 |**No.** |**Name** |**Age** |
 | :- | :- | :- |
-|<p>{{< highlight java >}}</p><p> <<foreach [p</p><p>        in ds.Persons]>><<[</p><p>    p.numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[p.Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[p.Age]>><</</p><p>foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> Count: <<[ds.Persons.count()]>></p><p>{{< /highlight >}}</p>| | |
+|<p>{{< highlight csharp >}}</p><p> <<foreach [p</p><p>        in ds.Persons]>><<[</p><p>    p.numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[p.Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[p.Age]>><</</p><p>foreach>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> Count: <<[ds.Persons.count()]>></p><p>{{< /highlight >}}</p>| | |
 Alternatively, you can use the following template involving the contextual object member access syntax to get the same results.
 
 |**No.** |**Name** |**Age** |
 | :- | :- | :- |
-|<p>{{< highlight java >}}</p><p>  <<foreach [</p><p>        in Persons]>><<[</p><p>    numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[Name]>> </p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[Age]>><</</p><p>foreach>> </p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> Count: <<[Persons.count()]>> </p><p>{{< /highlight >}}</p>| | |
+|<p>{{< highlight csharp >}}</p><p>  <<foreach [</p><p>        in Persons]>><<[</p><p>    numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Name]>> </p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Age]>><</</p><p>foreach>> </p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> Count: <<[Persons.count()]>> </p><p>{{< /highlight >}}</p>| | |
 {{% /alert %}}

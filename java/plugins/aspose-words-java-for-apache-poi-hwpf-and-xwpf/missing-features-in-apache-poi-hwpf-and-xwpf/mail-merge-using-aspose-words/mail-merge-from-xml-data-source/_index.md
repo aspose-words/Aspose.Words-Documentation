@@ -12,7 +12,7 @@ This page provides a simple example of how, using Aspose.Words, you can execute 
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 

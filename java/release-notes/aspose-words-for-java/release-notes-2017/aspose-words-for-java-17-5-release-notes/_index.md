@@ -133,7 +133,7 @@ This section lists public API changes that were introduced in Aspose.Words 17.5.
 ### **Added Public Method CustomXmlPartCollection.add(string id, string xml)**
 A public method is added into the CustomXmlPartCollection class to help in creation of a custom XML part by specifying its XML:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -153,7 +153,7 @@ public CustomXmlPart add(string id, string xml)
 
 Value of the 'xml' parameter is encoded as UTF8 and is stored in creating XML part.
 ##### **UC for creating a custom XML part by specifying its XML**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -169,7 +169,7 @@ doc.getFirstSection().getBody().appendChild(sdt);
 ### **Implemented API to Bind StructuredDocumentTag to Node of Custom XML Part**
 WORDSNET-4738 has been resolved. The following public property is added into the StructuredDocumentTag class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -193,7 +193,7 @@ public XmlMapping getXmlMapping()
 
 Public methods of the XmlMapping class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -279,7 +279,7 @@ public class XmlMapping
 
 {{< /highlight >}}
 ##### **UC for creation of an XML part and binding a content control to it**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -297,7 +297,7 @@ doc.save(fileName);
 ### **CellFormat.setPaddings Method was Introduced.**
 WORDSNET-15014 (Enhancement) has been resolved. We have added a simple method allowing to set all cell paddings in one line of code.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -311,7 +311,7 @@ public void setPaddings(double leftPadding, double topPadding, double rightPaddi
 
 You can use this method instead of using four properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Set all cell paddings.
 

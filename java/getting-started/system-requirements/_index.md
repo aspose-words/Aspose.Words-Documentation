@@ -50,7 +50,7 @@ Aspose.Words for Java depends upon the [Java Advanced Imaging (JAI) package](htt
 1. Move SO files in the JDK/JRE **lib/amd64** folder.
 1. For example, on an Ubuntu 64 bit system:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  $ cd /tmp
 
@@ -77,7 +77,7 @@ rm -r /tmp/jai-1_1_3
 1. For example, on an Ubuntu 64 bit system:
  
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  $ cd /tmp
 

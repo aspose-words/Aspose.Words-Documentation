@@ -13,7 +13,7 @@ By default, value of TRIM_OVERSIZED_TEXTS parameter is **false**. This means tha
 
 **In JasperReports:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  import com.aspose.words.jasperreports.*;
 

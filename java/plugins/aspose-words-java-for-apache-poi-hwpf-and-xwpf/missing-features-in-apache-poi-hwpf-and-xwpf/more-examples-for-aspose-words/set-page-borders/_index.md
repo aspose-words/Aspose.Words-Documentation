@@ -10,7 +10,7 @@ Page setup and section properties are encapsulated in the **PageSetup** object
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

@@ -85,7 +85,7 @@ This section lists public API changes that were introduced in Aspose.Words 17.2.
 ### **WORDSNET-14589 and WORDSNET-14590 - Added Public Properties HtmlSaveOptions.ResourceFolder and HtmlSaveOptions.ResourceFolderAlias**
 New public properties ResourceFolder and ResourceFolderAlias are added into the HtmlSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -242,7 +242,7 @@ Here are some use cases. In examples below input test document has name Test.doc
 
 \1. Simplest scenario. Use it if you want to save all external resources in one folder.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -260,7 +260,7 @@ doc.save("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -274,7 +274,7 @@ C:\Resources\Test.css
 
 \2.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -288,7 +288,7 @@ doc.save("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -300,7 +300,7 @@ Fonts and CSS style sheet are not written as external resources.
 
 \3.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -318,7 +318,7 @@ doc.save("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -334,7 +334,7 @@ When ResourceFolder specifies relative path this path is relative to output fold
 
 \4.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -354,7 +354,7 @@ doc.save("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -370,7 +370,7 @@ In this scenario "http://example.com/resources" alias is used to construct URIs 
 
 \5.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -388,7 +388,7 @@ doc.aave("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -404,7 +404,7 @@ In this scenario "http://example.com/resources" alias is used to construct URIs 
 
 \6.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -424,7 +424,7 @@ doc.save("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -438,7 +438,7 @@ C:\Resources\Test.calibril.ttf
 
 \7.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -458,7 +458,7 @@ doc.save("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -472,7 +472,7 @@ C:\Resources\Test.css
 
 \8.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -492,7 +492,7 @@ doc.save("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -506,7 +506,7 @@ C:\Resources\Test.css
 
 \9.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:\Test.docx");
 
@@ -526,7 +526,7 @@ doc.save("C:\Test.html", saveOptions);
 
 **Output**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  C:\Test.html
 
@@ -540,7 +540,7 @@ C:\Resouces\MyStyleSheet.css
 ### **WORDSNET-14762 - Added Public Property HtmlSaveOptions.ExportFontsAsBase64.**
 New public property ExportFontsAsBase64 is added into the HtmlSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -572,7 +572,7 @@ The property affects only HTML format and doesn't affect EPUB and MHTML. This is
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 

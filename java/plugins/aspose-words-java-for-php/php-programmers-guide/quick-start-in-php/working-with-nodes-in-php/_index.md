@@ -10,7 +10,7 @@ To get Node Type using Aspose.Words Java Apis in Php, simply invoke getNodeType 
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Create a new document.
 

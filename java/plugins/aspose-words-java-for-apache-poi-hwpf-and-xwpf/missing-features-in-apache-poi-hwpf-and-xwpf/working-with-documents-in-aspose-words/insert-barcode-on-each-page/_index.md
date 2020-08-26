@@ -10,7 +10,7 @@ There is no direct way to add barcodes on all pages of a document but you can us
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Create a blank document.
 

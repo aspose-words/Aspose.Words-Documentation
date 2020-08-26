@@ -24,7 +24,7 @@ You can switch Aspose.Words from the General mode into the FIPS mode using the f
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SecuritySettings.startFipsMode();
 
@@ -38,7 +38,7 @@ Use the following method to make sure Aspose.Words for Java is in FIPS mode:
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SecuritySettings.isInFipsMode();
 

@@ -17,7 +17,7 @@ To append documents using Aspose.Words, simply invoke the appendDocument() met
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc1 = new Document(dataDir + "doc1.doc");
 

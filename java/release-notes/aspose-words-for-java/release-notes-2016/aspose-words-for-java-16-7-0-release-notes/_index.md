@@ -174,7 +174,7 @@ This section lists public API changes that were introduced in Aspose.Words 16.7.
 ### **Added Public Methods to the DigitalSignatureUtil Class that Allow to Specify a Password for Decrypting Document before it will be Signed.**
 WORDSNET-13735 is resolved and we have added following static methods for signing encrypted documents:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
 
@@ -188,7 +188,7 @@ Also, this is meaningful only if source document has **DOCX** format.
 
 **UC1 (working with file)**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Create certificate holder from a file.
 
@@ -214,7 +214,7 @@ if (signatures.isValid() && (signatures.getCount() > 0))
 
 UC2 (working with stream)
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Create certificate holder from a file.
 
@@ -244,7 +244,7 @@ Aspose.Words for .Net uses standard GIF codec provided by GDI+. Aspose.Words fo
 
 Sample code:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Open some document.
 
@@ -264,7 +264,7 @@ The ["Outputting Expression Results"](http://www.aspose.com/docs/display/wordsja
 ### **MsWordVersion Enum Moved to Aspose.Words.Settings**
 Customers will now have to use 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  using Aspose.Words.Settings;
 
@@ -278,7 +278,7 @@ During WORDSNET-1252 implementation we decided to create new namespace Aspose.Wo
 ### **WORDSNET-1252. Advanced replace methods**
 Two methods were added to class Range to support advanced find/replace operations.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public int Replace(string pattern, string replacement, FindReplaceOptions options)
 
@@ -294,7 +294,7 @@ Below are couple examples.
 
 Demonstrate how breaks support works. In this example we replace certain paragraph breaks with new paragraph breaks + some underline while make it centered. Additionally we replace custom text tag with section break.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -332,7 +332,7 @@ count = doc.getRange().replace("{insert-section}", "&b", options);
 
 Demonstrates usage of apply formatting and customer callback. In this example we replace numbers with their hexadecimal representations while make them highlighted with color.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -384,7 +384,7 @@ Old Replace methods are left for backward compatibility but marked as obsolete.
 
 We going to remove following methods in this year:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public int Replace(string oldValue, string newValue, bool isMatchCase, bool isMatchWholeWord)
 
@@ -394,7 +394,7 @@ public int Replace(Regex pattern, IReplacingCallback handler, bool isForward)
 
 One old method
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public int Replace(Regex pattern, string replacement)
 
@@ -410,7 +410,7 @@ Added support for MathML in HTML export.
 
 The following property is added to HtmlSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -434,7 +434,7 @@ public HtmlOfficeMathOutputMode OfficeMathOutputMode
 
 The following enum is publicly available:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -476,7 +476,7 @@ public enum HtmlOfficeMathOutputMode
 
 Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutputMode.Image value:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <img src="Test Out.001.png" width="49" height="21" alt="" />
 
@@ -484,7 +484,7 @@ Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutput
 
 Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutputMode.MathML value:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <math xmlns="http://www.w3.org/1998/Math/MathML">
 
@@ -516,7 +516,7 @@ Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutput
 
 Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutputMode.Text value:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <span style="font-family:'Cambria Math'">A=π</span><span style="font-family:'Cambria Math'">r</span><span style="font-family:'Cambria Math'">2</span>
 
@@ -526,7 +526,7 @@ WORDSNET-12901 is implemented.
 
 Added following properties to FontInfoCollection class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -550,7 +550,7 @@ public bool EmbedTrueTypeFonts
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -584,7 +584,7 @@ public bool EmbedSystemFonts
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -606,7 +606,7 @@ public bool SaveSubsetFonts
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // UC1 - Save document with embedded TrueType fonts. System fonts are not included. Saves full versions of embedding fonts.
 
@@ -624,7 +624,7 @@ doc.save("DocWithEmbeddedFonts");
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // UC2 - Save document with embedded TrueType fonts. System fonts are included. Saves full versions of embedding fonts.
 
@@ -642,7 +642,7 @@ doc.save("DocWithEmbeddedFonts");
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // UC3 - Save document with embedded TrueType fonts. System fonts are included. Saves subset of embedding fonts.
 
@@ -660,7 +660,7 @@ doc.save("DocWithEmbeddedFonts");
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // UC4 -  Save document with embedded TrueType fonts. System fonts are not included. Saves subset of embedding fonts.
 
@@ -678,7 +678,7 @@ doc.save("DocWithEmbeddedFonts");
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // UC5 -  Remove embedded fonts from the saved document.
 

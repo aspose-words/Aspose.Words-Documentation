@@ -12,7 +12,7 @@ Aspose.Words supports documents with digital signatures and provide access to th
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  String filePath = dataDir + "document.docx";
 

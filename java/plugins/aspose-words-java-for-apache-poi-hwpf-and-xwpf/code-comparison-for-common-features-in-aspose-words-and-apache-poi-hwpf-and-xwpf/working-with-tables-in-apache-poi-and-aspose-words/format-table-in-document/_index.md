@@ -14,7 +14,7 @@ Note that before you apply table properties there must be at least one row prese
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 
@@ -86,7 +86,7 @@ doc.save(dataDir + "Aspose_styledTable.doc");
 ## **Apache POI HWPF XWPF - Format Table in Document**
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 

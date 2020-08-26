@@ -127,7 +127,7 @@ When dealing with very large and complex documents Aspose.Words sometimes had pr
 
 We've introduced an option to optimize memory consumption during these scenarios. When set to true it will improve document memory footprint but will add extra time to processing. This optimization is only applied during save operation.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -141,7 +141,7 @@ public boolean MemoryOptimization {get;set;}
 
 {{< /highlight >}}
 ##### **Usage Example:**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("myDoc.docx");
 
@@ -155,7 +155,7 @@ doc.save("myFile.pdf", so);
 ### **FrameFormat Class for getting Frame related Properties of a Paragraph Added**
 Available to API users as Paragraph.FrameFormat. This class exposes all frame properties of paragraph in "readonly" mode
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -177,7 +177,7 @@ public class FrameFormat
 ### **WORDSNET-14405 - TxtSaveOptions.ForcePageBreaks Property Added**
 New public property ForcePageBreaks is added into the TxtSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -195,7 +195,7 @@ The property affects only page breaks that are inserted explicitly into a docume
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  TxtSaveOptions saveOptions = new TxtSaveOptions();
 

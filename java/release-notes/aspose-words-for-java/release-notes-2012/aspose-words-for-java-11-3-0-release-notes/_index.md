@@ -15,7 +15,7 @@ What's new
 
 There are 133 improvements and fixes in this regular monthly release. Most notable changes are: 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  OfficeMath is rendered and supported in almost all formats;MathML import in ODT is supported;Floating tables rendering improvements;Table formatting revisions are supported in DOCX and WML;Performance improvements for the PAGE field update;Support for some EMF+ rendering;Signature line shapes are supported. 
 

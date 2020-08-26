@@ -10,7 +10,7 @@ Bookmarks can be deleted by calling bookmark.remove().
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "Aspose_Bookmark.doc");
 
@@ -26,7 +26,7 @@ The following code example shows how a bookmark can be removed using docx4j.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  WordprocessingMLPackage wordMLPackage = WordprocessingMLPackage
 

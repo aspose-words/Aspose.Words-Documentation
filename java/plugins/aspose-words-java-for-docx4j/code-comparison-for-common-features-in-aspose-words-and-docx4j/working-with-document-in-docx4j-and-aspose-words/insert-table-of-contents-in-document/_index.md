@@ -10,7 +10,7 @@ Demonstrates how to insert a Table of contents (TOC) into a document using headi
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -96,7 +96,7 @@ Below example shows how Table of Contents can be inserted in documents using doc
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void main(String[] args) throws Exception {
 

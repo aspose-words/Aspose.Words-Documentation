@@ -10,7 +10,7 @@ This example inserts a floating image from a file or URL at a specified position
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  builder.insertImage(dataDir + "background.jpg");
 
@@ -39,7 +39,7 @@ FileInputStream is to read image and below mentioned code shows how the image is
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  WordprocessingMLPackage wordMLPackage = WordprocessingMLPackage.createPackage();
 

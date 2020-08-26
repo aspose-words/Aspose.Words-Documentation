@@ -8,7 +8,7 @@ url: /java/working-with-tables-in-python/
 ## **Aspose.Words - Auto Fit Tables**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  # Demonstrate autofitting a table to the window.
 

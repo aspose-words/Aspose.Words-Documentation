@@ -10,7 +10,7 @@ To get Node Type using Aspose.Words Java Apis in Python, simply invoke getNodeTy
 
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document = jpype.JClass("com.aspose.words.Document")
 

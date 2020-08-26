@@ -99,7 +99,7 @@ New public property was added to the OoxmlSaveOptions class:
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -127,7 +127,7 @@ Some formats support legacy control characters. Word does not save these symbols
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("document.doc");
 
@@ -149,7 +149,7 @@ Added predefined font fallback settings for Google Noto fonts. These are free fo
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class FontFallbackSetting
 
@@ -179,7 +179,7 @@ The default value for public property TxtSaveOptions.AddBidiMarks was changed 
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -204,7 +204,7 @@ The following public class is introduced that allows to specify how list levels 
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -223,7 +223,7 @@ It has two public properties for specifying how many and which character to use 
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -257,7 +257,7 @@ At last, a new option is added to the TxtSaveOptions class:
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -275,7 +275,7 @@ public TxtListIndentation ListIndentation
 ##### **UseCase1: Use one tab character per level for list indentation:**
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("input_document");
 
@@ -297,7 +297,7 @@ doc.Save("output.txt", options);
 ##### **UseCase2: Use three spaces indentation level for list indentation:**
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("input_document");
 
@@ -319,7 +319,7 @@ doc.Save("output.txt", options);
 ##### **UseCase3: Do not use any list level indentation (default behavior):**
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc1 = new Document("input_document");
 
@@ -341,7 +341,7 @@ Added new property for specifying vertical anchor of shape's textbox.
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -373,7 +373,7 @@ The property allows to specify text anchor within the shape(Top, Middle, Bottom)
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(fileName);
 
@@ -395,7 +395,7 @@ The following new property has been added into the ChartAxis class:
 
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -429,7 +429,7 @@ When axis tick labels are multi-line, MS Word aligns them to the center by defau
 ##### **UseCase:**
 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(fileName);
 

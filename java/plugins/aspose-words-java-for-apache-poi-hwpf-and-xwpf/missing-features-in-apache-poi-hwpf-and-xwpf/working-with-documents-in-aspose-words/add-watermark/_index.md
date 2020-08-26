@@ -21,7 +21,7 @@ While in Aspose.Words there is no single “Insert Watermark” command like in 
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  private static void insertWatermarkText(Document doc, String watermarkText) throws Exception
 

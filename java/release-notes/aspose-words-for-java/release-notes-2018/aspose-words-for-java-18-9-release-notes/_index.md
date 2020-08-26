@@ -130,7 +130,7 @@ WORDSNET-721 has now been resolved.
 The bookmark nodes are allowed to be placed on the block, cell and row levels now. In the previous versions bookmarks were moved into the next nearest paragraph on document loading. So, now on reading/saving DOCX, DOC, WML documents, bookmarks preserve their positions in document node structure.
 The following public properties have been added into the LoadOptions class to control the mentioned behavior.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -165,7 +165,7 @@ public static boolean AnnotationsAtBlockLevelAsDefault { get; set; }
 Now code that uses Aspose.Words should consider that not only composite nodes may appear on the block/cell/row level, for example, as children of the Body, Table, Row, Cell nodes.
 Setting the AnnotationsAtBlockLevelAsDefault property to **false** allows temporarily prevent possible issues with the existing code. But please note that the property may become obsolete in the further versions of the software.
 ##### **UC to open a document in the inline-bookmarks mode**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  LoadOptions options = new LoadOptions();
 
@@ -175,7 +175,7 @@ Document doc = new Document("Document1.docx", options);
 
 {{< /highlight >}}
 ##### **UC to set the “old” mode as default**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  LoadOptions.setAnnotationsAtBlockLevelAsDefault(false);
 
@@ -185,7 +185,7 @@ WORDSNET-16540 has now been resolved.
 
 The "ConvertShapeToOfficeMath" property has been added to "LoadOptions" class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -209,7 +209,7 @@ Default value corresponds to MS Word behaviour i.e. shapes with equation XML are
 
 Use case:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  LoadOptions lo = new LoadOptions();
 
@@ -225,7 +225,7 @@ WORDSNET-17313 has now been resolved.
 
 We had a customer (issue: WORDSNET-17259) who was not happy with the current Aspose.Words behavior related to the IF fields evaluation during mail merge. They were relying on the fact that the merge fields and regions located in the "false" argument of the IF field ("false" meaning the argument that does not match the condition) were merged in the past along with the "true" argument. This behavior was changed over time to mimic MS Word and at the moment it matches MS Word (the "false" argument is not merged); however the customer considered it a regression and wanted the old behavior back. To satisfy them, we decided to introduce an option controlling the behavior.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -245,7 +245,7 @@ public boolean UnconditionalMergeFieldsAndRegions
 
 Use case:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  document.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
 

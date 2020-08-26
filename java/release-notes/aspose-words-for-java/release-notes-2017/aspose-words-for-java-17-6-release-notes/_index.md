@@ -136,7 +136,7 @@ WORDSNET-14376 and WORDSNET-14377 are resolved.
 
 Two new public properties are available in the ParagraphFormat class: AddSpaceBetweenFarEastAndAlpha and AddSpaceBetweenFarEastAndDigit.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -168,7 +168,7 @@ WORDSNET-14669 has been resolved.
 
 New public property PreferredControlType is added into the HtmlLoadOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -213,7 +213,7 @@ public void setPreferredControlType(int value)
 
 Sample usage:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  HtmlLoadOptions lo = new HtmlLoadOptions();
 

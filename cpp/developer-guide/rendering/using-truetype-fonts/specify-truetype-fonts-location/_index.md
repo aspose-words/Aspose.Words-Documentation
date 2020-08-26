@@ -97,7 +97,7 @@ The Aspose.Words looks through user-defined sources which was set with the metho
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings->SetFontsFolder(u"C:\\MyFonts\\", true);
 
@@ -107,7 +107,7 @@ In case an explicit replacement has been specified, Aspose.Words replaces the mi
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitutes(u"PMingLiU-ExtB", System::MakeArray<System::String>({ u"Liberation Serif" }));
 
@@ -120,7 +120,7 @@ The list of folders where the search will be performed can be found by calling t
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SystemFontSource()->GetAvailableFonts()
 

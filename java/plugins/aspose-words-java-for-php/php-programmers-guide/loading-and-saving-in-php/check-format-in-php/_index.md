@@ -8,7 +8,7 @@ url: /java/check-format-in-php/
 ## **Aspose.Words - Check Format**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function check()
 

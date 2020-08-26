@@ -10,7 +10,7 @@ For joining and appending using Aspose.Words Java Apis in Python, simply use app
 
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  dstDoc = self.Document(self.gDataDir + "TestFile.Destination.doc")
 

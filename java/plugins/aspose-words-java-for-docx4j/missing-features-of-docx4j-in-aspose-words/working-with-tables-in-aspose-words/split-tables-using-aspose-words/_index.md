@@ -13,7 +13,7 @@ We first need to pick a row at where to split the table. Once we know this we ca
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Get the first table in the document.
 

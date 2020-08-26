@@ -136,7 +136,7 @@ WORDSNET-13967 has been resolved:
 
 The following shapes types were added to the "ShapeType" enum:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// Snip single corner rectangle object.
 
@@ -238,7 +238,7 @@ DiagonalCornersRounded = 209
 
 These shape types can not be used to create VML shapes. Attempt to create shape  by using public constructor of the "Shape" class raises the "NotSupportedException" exception. DML shape with one of specified above type can be created with "InsertShape" method of the document builder:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -259,7 +259,7 @@ WORDSNET-16985 has been resolved.
 By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
 Now was added a new option to HtmlSaveOptions. This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "[cid:image.png](http://cidimage.png)") and are matched against "Content-ID" headers.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public boolean ExportCidUrlsForMhtmlResources { get; set; }
 
@@ -269,7 +269,7 @@ WORDSNET-16986 has been resolved.
 
 The following property has been added to the LayoutOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -293,7 +293,7 @@ This property is used to show\hide comments in the output document. By default, 
 
 **Usage**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(myDir + "Input.docx");
 
@@ -307,7 +307,7 @@ WORDSNET-16986 has been resolved.
 
 The following property has been added to the RevisionOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -327,7 +327,7 @@ public ShowInBalloons ShowInBalloons
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -377,7 +377,7 @@ This property is used to show revisions in the balloons. By default, the revisio
 
 **Usage:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(myDir + "Input.docx");
 
@@ -391,7 +391,7 @@ doc.save(myDir + "Output.pdf");
 
 Or
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(myDir + "Input.docx");
 
@@ -419,7 +419,7 @@ A new LoadOptions class for dealing with RTF files was introduced : ***RtfLoadOp
 
 New public property ***RecognizeUtf8Text*** was added into the RtfLoadOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -441,7 +441,7 @@ This property allows to detect UTF-8 encoded characters and preserve them during
 
 UC:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  RtfLoadOptions loadOptions = new RtfLoadOptions();
 

@@ -10,7 +10,7 @@ To set license of Aspose.Words Java in php, simply invoke the setLicense() metho
 
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
   $license = new Java('com.aspose.words.License');
 

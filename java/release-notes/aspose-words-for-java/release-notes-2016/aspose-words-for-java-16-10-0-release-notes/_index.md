@@ -148,7 +148,7 @@ This section lists public API changes that were introduced in Aspose.Words 16.10
 ### **WORDSNET-3762 - Added feature to get OOXML compliance version determined from the loaded document content**
 Starting from 16.10.0 Version of Aspose.Words you can get OOXML compliance version determined from the loaded document content.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("in.docx");
 

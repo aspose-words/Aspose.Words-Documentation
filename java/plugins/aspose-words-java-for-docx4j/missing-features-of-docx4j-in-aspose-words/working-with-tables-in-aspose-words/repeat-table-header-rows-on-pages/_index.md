@@ -12,7 +12,7 @@ In Aspose.Words you can apply this setting by using the **RowFormat.HeadingForm
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

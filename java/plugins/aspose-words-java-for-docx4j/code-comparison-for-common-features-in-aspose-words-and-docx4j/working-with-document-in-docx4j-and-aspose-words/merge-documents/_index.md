@@ -17,7 +17,7 @@ To append documents using Aspose.Words, simply invoke the appendDocument() met
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc1 = new Document(dataDir + "doc1.doc");
 
@@ -37,7 +37,7 @@ To run the utility, you simply pass it a list of the docx you want to merge; it
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  final static String[] sourceDocxNames = { "doc1.docx", "doc2.docx"};
 

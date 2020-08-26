@@ -91,7 +91,7 @@ The Aspose.Words looks through user-defined sources which was set with the metho
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.setFontsFolder("/home/user/MyFonts", true);
 
@@ -101,7 +101,7 @@ In case an explicit replacement has been specified, Aspose.Words replaces the mi
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PMingLiU-ExtB", "Liberation Serif");
 
@@ -114,7 +114,7 @@ The list of folders where the search will be performed can be found by calling t
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SystemFontSource().getAvailableFonts()
 
@@ -150,7 +150,7 @@ If you don’t want to use system fonts at all, Aspose.Words allows you to ignor
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
 

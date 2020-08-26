@@ -10,7 +10,7 @@ Use the **Document.protect(ProtectionType)** method to protect a document from
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(dataDir + "document.doc");
 

@@ -10,7 +10,7 @@ Use Range.replace to find or replace a particular string within the current rang
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Replaces all 'sad' and 'mad' occurrences with 'bad'
 

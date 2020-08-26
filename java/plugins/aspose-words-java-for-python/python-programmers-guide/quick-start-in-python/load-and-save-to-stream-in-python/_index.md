@@ -8,7 +8,7 @@ url: /java/load-and-save-to-stream-in-python/
 ## **Aspose.Words - Load And Save To Stream**
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document =jpype.JClass("com.aspose.words.Document")
 

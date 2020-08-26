@@ -14,7 +14,7 @@ Aspose.Words for SharePoint uses SharePoint tracing logs to log information abou
 
 You can find messages related to Aspose.Words for SharePoint using the line “Aspose.Words for SharePoint” as a keyword. It serves as a diagnostics area under SharePoint 2010/2013/2016 or as a product name under SharePoint 2007. Here is an example of the logged messages.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  10/21/2010 10:29:48.42 	w3wp.exe (0x0A1C) 
 

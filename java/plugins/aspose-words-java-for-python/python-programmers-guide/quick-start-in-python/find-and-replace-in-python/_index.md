@@ -10,7 +10,7 @@ To replace text using Aspose.Words Java in Python, simply invoke the replace() m
 
 **Python Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
   # The path to the documents directory.
 

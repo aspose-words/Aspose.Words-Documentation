@@ -33,7 +33,7 @@ This property behaves similar way as HtmlSaveOptions.CssClassNamesPrefix propert
 [PDF to HTML - Prefix CSS Class Names in style.css](http://www.aspose.com/docs/display/pdfnet/PDF+to+HTML+-+Prefix+CSS+Class+Names+in+style.css)
 This is how simple style.css looked in previous Aspose.Words releases:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  div {
 
@@ -92,7 +92,7 @@ page {
 Both element and class selectors are used.
 In order to provide Aspose.Pdf's HtmlSaveOptions.CssClassNamesPrefix behavior now style.css looks like this:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  .awdiv {
 

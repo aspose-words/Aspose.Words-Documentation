@@ -130,7 +130,7 @@ WORDSNET-12330 - (Provide API to convert Shape and OfficeMath nodes SVG) has bee
 
 Starting from 16.3.0 version it is possible to render OfficeMath formulas to image separately from whole document:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("C:/Temp/in.docx");
 
@@ -146,7 +146,7 @@ Starting from 16.3.0 Version, Aspose.Words supports AspectRatioLocked property o
 
 ![todo:image_alt_text](aspose-words-for-java-16-3-0-release-notes_1.png)
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Shape shape = (Shape)doc.GetChild(NodeType.SHAPE, 0, true);
 

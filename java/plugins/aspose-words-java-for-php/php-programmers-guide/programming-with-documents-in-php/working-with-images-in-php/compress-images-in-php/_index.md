@@ -8,7 +8,7 @@ url: /java/compress-images-in-php/
 ## **Aspose.Words - Compress Images**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static function main(){
 

@@ -12,7 +12,7 @@ By default Aspose.Words inserts a new table using “**AutoFit to Window”**. T
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Open the document
 

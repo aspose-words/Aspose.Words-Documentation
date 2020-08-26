@@ -10,7 +10,7 @@ The **FileFormatUtil.DetectFileFormat** method checks the file format, but not
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  File[] fileList = new java.io.File(dataPath).listFiles();
 

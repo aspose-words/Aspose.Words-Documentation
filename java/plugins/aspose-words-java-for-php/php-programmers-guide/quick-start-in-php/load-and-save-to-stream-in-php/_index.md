@@ -8,7 +8,7 @@ url: /java/load-and-save-to-stream-in-php/
 ## **Aspose.Words - Load And Save To Stream**
 **Php Code**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // The path to the documents directory.
 

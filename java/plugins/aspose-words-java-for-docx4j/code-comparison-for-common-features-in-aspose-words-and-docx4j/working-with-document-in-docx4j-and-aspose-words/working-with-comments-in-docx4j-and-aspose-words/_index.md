@@ -10,7 +10,7 @@ Comments of the document are represented by the Comment class.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -34,7 +34,7 @@ Creates a WordprocessingML document from scratch, and adds a comment.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  outputfilepath = dataDir + "Docx4j_CommentsSample.docx";
 
