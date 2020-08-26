@@ -86,7 +86,7 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14276|Doc to Pdf conversion issue with image position|Enhancement|
 |WORDSNET-14503|Docx to Pdf conversion issue with image position|Enhancement|
 |WORDSNET-14632|Contents are lost after conversion from Doc to Pdf|Enhancement|
-|WORDSNET-14669|Import certain <input> elements as SDT during HTML to DOCX conversion|Enhancement|
+|WORDSNET-14669|Import certain &lt;input&gt; elements as SDT during HTML to DOCX conversion|Enhancement|
 |WORDSNET-15415|Word ignores cell width value when compares cells.|Enhancement|
 |WORDSNET-6668|Watermark shape in header is overlapping the other content in PDF|Enhancement|
 |WORDSNET-9590|A DrawingML is partially rendering and doesn't wrap text around it in Pdf|Enhancement|
