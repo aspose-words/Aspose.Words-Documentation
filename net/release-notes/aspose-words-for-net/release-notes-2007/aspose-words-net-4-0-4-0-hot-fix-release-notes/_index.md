@@ -16,7 +16,7 @@ Last release in 2006 here! Includes some useful new features and fixes.
 - 1372 - Import of HR elements from HTML.
 - 1413 - Export of horizontal rule shapes to HR elements in HTML.
 - 1407 - Support import of row height and padding from HTML.
-- 1401 - Attributes currently supported for <SPAN> should also be supported for <FONT> elements.
+- 1401 - Attributes currently supported for &lt;SPAN&gt; should also be supported for <FONT> elements.
 - 1388 - A document throws 'Table seem to be badly formed' error.
 - 1390 - InvalidCastException when opening document in Aspose.Words.
 - 1402 - NullReferenceException when opening document with freeform shape.
