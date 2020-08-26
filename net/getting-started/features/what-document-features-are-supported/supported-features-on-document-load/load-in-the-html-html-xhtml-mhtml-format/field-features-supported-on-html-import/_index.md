@@ -95,12 +95,12 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 
 |**Feature**|**Supported**|**Comment**|**See Also**|||
 | :- | :- | :- | :- | :- | :- |
-|TextInput|Yes|Imported from <input type="text|password|file" name="XXX" />.|<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
-|CheckBox|Yes|Imported from <input type="checkbox" name="XXX" />|- **FormField.Type**|||
-|DropDown|Yes|Imported from <select name="XXX" />. Each item in the list is imported from <option> child elements. <optgroup> tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop down lists.|<p>- [FormField.DropDownItems](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems)</p><p>- [FormField.DropDownSelectedIndex](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|||
+|TextInput|Yes|Imported from &lt;input type="text|password|file" name="XXX" /&gt;.|<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
+|CheckBox|Yes|Imported from &lt;input type="checkbox" name="XXX" /&gt;|- **FormField.Type**|||
+|DropDown|Yes|Imported from &lt;select name="XXX" /&gt;. Each item in the list is imported from &lt;option&gt; child elements. &lt;optgroup&gt; tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop down lists.|<p>- [FormField.DropDownItems](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems)</p><p>- [FormField.DropDownSelectedIndex](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|||
 |Calc On Exit|N/A| | |||
 |Checked|Planned|Will be mported from checked="checked" attribute on &lt;input&gt;.|- [FormField.Checked](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|||
-|Default Value|Yes|With text form fields this is imported from value="XXX" attribute on &lt;input&gt; tag. <br><br>With a drop down list, this is imported form the <option> element which has selected="selected" attribute.|- **FormField.TextInputDefault**|||
+|Default Value|Yes|With text form fields this is imported from value="XXX" attribute on &lt;input&gt; tag. <br><br>With a drop down list, this is imported form the &lt;option&gt; element which has selected="selected" attribute.|- **FormField.TextInputDefault**|||
 |Enabled|Planned|The "disabled" attribute can be used here.|- [FormField.Enabled](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/enabled)|||
 |Entry and Exit Macro|N/A| | |||
 |Name|Yes|Imported from the name attribute on &lt;input&gt; or &lt;select&gt; element.|- [FormField.Name](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|||
@@ -177,7 +177,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 |UserInitials|N/A| | |
 |UserName|N/A| | |
 ## **Hyperlinks**
-Aspose.Words fully supports all features of hyperlink fields. You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink. Imported from <a> element. Several different objects can have hyperlinks imported from this element. The most common is plain text which is imported a regular hyperlink. If the <a> element has image as a child then the hyperlink is imported on Shape node. See the following links in the documentation for further information:
+Aspose.Words fully supports all features of hyperlink fields. You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink. Imported from &lt;a&gt; element. Several different objects can have hyperlinks imported from this element. The most common is plain text which is imported a regular hyperlink. If the &lt;a&gt; element has image as a child then the hyperlink is imported on Shape node. See the following links in the documentation for further information:
 
 - [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
 - [How to Replace or Modify Hyperlinks](https://docs.aspose.com/words/net/working-with-hyperlinks-and-html/)
