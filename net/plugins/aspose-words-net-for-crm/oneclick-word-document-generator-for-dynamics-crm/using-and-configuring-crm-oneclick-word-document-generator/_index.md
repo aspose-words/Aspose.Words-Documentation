@@ -45,7 +45,7 @@ url: /net/using-and-configuring-crm-oneclick-word-document-generator/
 ![todo:image_alt_text](using-and-configuring-crm-oneclick-word-document-generator_8)
 
 - Use seperate line for each button and use the following syntax: 
-  - Syntax: <Template Name>|<Action: Download/Note>|<Output Format>|<Output FileName>
+  - Syntax: &lt;Template Name&gt;|&lt;Action: Download/Note&gt;|&lt;Output Format&gt;|&lt;Output FileName&gt;
   - Example: Demo|Download|docx|My Downloaded File
 - Save and publish the customization.
 - The button is available on the form. 
