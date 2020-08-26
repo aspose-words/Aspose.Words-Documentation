@@ -121,7 +121,7 @@ The following properties are exposed to configure and use cool features provided
 |ExportButtonText |string |Export to Word |You can use this property to override existing default text |
 |ExportInLandscape |bool |true or false |If true it changes the orientation of the output document to landscape. Default is Portrait |
 | | | | |
-|ExportFileHeading |string |<h4>Repeater Export Example Report</h4> |You can use html tags to add style to your heading |
+|ExportFileHeading |string |&lt;h4&gt;Repeater Export Example Report&lt;/h4&gt; |You can use html tags to add style to your heading |
 |ExportOutputFormat |enum |Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |Output format of the exported document. Supported formats are Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |
 |ExportOutputPathOnServer |string |c:\temp |Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path. |
 |LicenseFilePath |string | |Local path on server to the license file. For example e:\Aspose\Aspose.Words.lic  <br>Aspose.Words.lic |
