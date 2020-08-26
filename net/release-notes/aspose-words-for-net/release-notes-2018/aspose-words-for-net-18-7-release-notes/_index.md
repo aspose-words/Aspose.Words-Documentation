@@ -75,7 +75,7 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16899|Line break in Cell occurs at wrong character|Bug|
 |WORDSNET-14641|MathML is exported incorrectly in output Docx|Bug|
 |WORDSNET-14343|mathml notation problem during converting html to word - mtext|Bug|
-|WORDSNET-16851|MathML object having no revisions is enclosed in <ins> and <del> elements during export to HTML|Bug|
+|WORDSNET-16851|MathML object having no revisions is enclosed in &lt;ins&gt; and &lt;del&gt; elements during export to HTML|Bug|
 |WORDSNET-16920|Microsoft Edge browser does not open EPUB correctly|Bug|
 |WORDSNET-16981|Picture truncates from right in PDF|Bug|
 |WORDSNET-16617|Remove the scaling in SVG export|Bug|
@@ -96,7 +96,7 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16616|Add support for the MathML "mathcolor" attribute|Enhancement|
 |WORDSNET-10424|Docx to WordML conversion issue with Hyperlinks|Enhancement|
 |WORDSNET-16936|Improve Aspose.Words trial mode message|Enhancement|
-|WORDSNET-16614|Improve support for MathML elements <menclose>, <mtext>, and for the "mathcolor" attribute|Enhancement|
+|WORDSNET-16614|Improve support for MathML elements &lt;menclose&gt;, &lt;mtext&gt;, and for the "mathcolor" attribute|Enhancement|
 |WORDSNET-9014|Incorrect shape height causes unnecessary text wrapping in Aspose.Words output|Enhancement|
 |WORDSNET-17059|Aspose.Words.UnsupportedFileFormatException is thrown while loading DOCX|Exception|
 |WORDSNET-16829|Document.PageCount throws System.NullReferenceException|Exception|
@@ -178,7 +178,7 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 }
 {{< /highlight >}}
 ### **Generics**
-Untyped containers like **ArrayList** have been replaced with typed containers like **List<T>**.
+Untyped containers like **ArrayList** have been replaced with typed containers like **List&lt;T&gt;**.
 As a result some public API becomes changed.
 ### **1. MailMerge**
 Before:
