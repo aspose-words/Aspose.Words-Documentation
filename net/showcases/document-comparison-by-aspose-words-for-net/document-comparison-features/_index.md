@@ -87,20 +87,15 @@ public static ArrayList CompareDocuments(string document1, string document2)
         DocumentComparisonUtil docCompUtil = new DocumentComparisonUtil();
         int added = 0, deleted = 0;
         docCompUtil.Compare(document1, document2, comparisonDocument, ref added, ref deleted);
-        result.Add(Common.Success);
- // 0. Result
-        result.Add((comparisonDocument));
- // 1. Path of the comparison document
-        result.Add(added);
- // 2. Number of additions
-        result.Add(deleted);
- // 3. Number of deletions
+        result.Add(Common.Success); // 0. Result
+        result.Add((comparisonDocument)); // 1. Path of the comparison document
+        result.Add(added); // 2. Number of additions
+        result.Add(deleted); // 3. Number of deletions
     }
     catch (Exception ex)
     {
         result.Clear();
-        result.Add(Common.Error + ": " + ex.Message);
- // 0. Result
+        result.Add(Common.Error + ": " + ex.Message); // 0. Result
     }
     return result;
 }
@@ -120,7 +115,8 @@ public void Compare(string document1, string document2, string comparisonDocumen
     Document docComp = new Document(document1);
     DocumentBuilder builder = new DocumentBuilder(docComp);
     doc1.Compare(doc2, "a", DateTime.Now);
-    foreach (Revision revision in doc1.Revisions)
+    
+	foreach (Revision revision in doc1.Revisions)
     {
         switch (revision.RevisionType)
         {
@@ -167,7 +163,6 @@ By default, there is an image with a white background. Initially, we set the SRC
 For the page numbering, we have used Bootstrap navigation bar. In jQuery, we just add new list items LI to the navbar list tag UL in a loop, from 1 to page count. We already have the path of image folder, so we added an A tag as well and set its src to the image. As a result, when you click on the page number in the browser, it will load the image.
 #### **Default.js**
 {{< highlight csharp >}}
-
 // Send document path to server and receive page count and image path
 function getDocumentData(filePath) {
     filePath = filePath.replace(/\\/g, "\\\\");
@@ -218,7 +213,6 @@ function getDocumentData_Success(result) {
 {{< /highlight >}}
 #### **Default.aspx.cs**
 {{< highlight csharp >}}
-
 // Convert the document to images and send page count and folder path to calling method
 [WebMethod]
 public static ArrayList GetDocumentData(string filePath, string sessionID)
@@ -242,18 +236,14 @@ public static ArrayList GetDocumentData(string filePath, string sessionID)
             options.PageIndex = i;
             doc.Save(string.Format(@"{0}\{1}.png", documentFolder, i), options);
         }
-        result.Add(Common.Success);
- // 0. Result
-        result.Add(doc.PageCount.ToString());
- // 1. Page count
-        result.Add(MapPathReverse(documentFolder));
- // 2. Images Folder path
+        result.Add(Common.Success); // 0. Result
+        result.Add(doc.PageCount.ToString()); // 1. Page count
+        result.Add(MapPathReverse(documentFolder)); // 2. Images Folder path
     }
     catch (Exception ex)
     {
         result.Clear();
-        result.Add(Common.Error + ": " + ex.Message);
- // 0. Result
+        result.Add(Common.Error + ": " + ex.Message); // 0. Result
     }
     return result;
 }

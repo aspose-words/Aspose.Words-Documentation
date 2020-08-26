@@ -32,7 +32,7 @@ To create the Hello World program, follow the steps below:
 **.NET**
 
 {{< highlight csharp >}}
-ng Aspose.Words;
+using Aspose.Words;
 using System;
 namespace Aspose.Words.Docker.Sample
 {
