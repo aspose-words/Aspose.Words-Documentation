@@ -122,7 +122,7 @@ The following properties are exposed to configure and use cool features provided
 |ExportButtonCssClass |string |btn btn-primary |Css Class that is applied to the outer div of the export button. To apply css on button you can use .yourClass input |
 |ExportInLandscape |bool |true or false |If true it changes the orientation of the output document to landscape. Default is Portrait |
 | | | | |
-|ExportFileHeading |string |<h4>ListView Export Example Report</h4> |You can use html tags to add style to your heading |
+|ExportFileHeading |string |&lt;h4&gt;ListView Export Example Report&lt;/h4&gt; |You can use html tags to add style to your heading |
 |ExportOutputFormat |enum |Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |Output format of the exported document. Supported formats are Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |
 |ExportOutputPathOnServer |string |c: <br>temp |Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path. |
 |ExportDataSource |object |allRowsDataTable |Sets the object from which this data-bind control retrieves its list of data items. The object must have all the data that need to be exported. This property is used in addition to normal DataSource property and is useful when custom paging is enabled and current page only fetches rows to be displayed on screen. |
