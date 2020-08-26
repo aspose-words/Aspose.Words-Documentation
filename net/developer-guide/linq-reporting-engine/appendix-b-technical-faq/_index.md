@@ -17,7 +17,7 @@ If you do not specify the type of an enumeration item in a foreach statement or 
 1. Otherwise, if the enumeration represents a DataView instance, then the item type is DataRowView.
 1. Otherwise, if the enumeration implements IDataReader, then the item type is IDataRecord.
 1. Otherwise, if the enumeration represents child rows of a DataRow instance, then the item type is DataRow.
-1. Otherwise, if the enumeration implements generic IEnumerable<T>, then the item type is a type argument corresponding to T. Note, that the engine does not support enumerations that implement IEnumerable<T> multiple times using different type arguments.
+1. Otherwise, if the enumeration implements generic IEnumerable&lt;T&gt;, then the item type is a type argument corresponding to T. Note, that the engine does not support enumerations that implement IEnumerable&lt;T&gt; multiple times using different type arguments.
 1. Otherwise, the item type is Object.
 ## **Does the engine cooperate with LINQ providers?**
 The engine does not cooperate with [LINQ providers](http://msdn.microsoft.com/en-us/library/vstudio/bb882640\(v=vs.110\).aspx). To be aware of consequences of this feature, consider the following example. Assume, that you have the City and Person classes defined in your application as follows.
