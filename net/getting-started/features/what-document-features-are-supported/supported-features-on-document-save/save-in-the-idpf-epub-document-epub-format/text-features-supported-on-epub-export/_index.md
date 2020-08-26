@@ -9,7 +9,7 @@ url: /net/text-features-supported-on-epub-export/
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
-Exported to HTML as <span> elements.
+Exported to HTML as &lt;span&gt; elements.
 
 Each Run node in the model is exported as a separate span to retain formatting properly. Some documents can contain many runs that are unrequired and can be joined. In the resulting HTML document this can result in many extra span elements.
 
@@ -31,7 +31,7 @@ See the following links in the documentation for further information:
 |East European Languages |Yes | | |
 |East Asian Languages |Yes | | |
 |Right to Left Languages |Yes |Exported as dir="rtl" attribute on span. | |
-|Carriage Return (not a Paragraph Break) |Yes |Exported as <br> element. | |
+|Carriage Return (not a Paragraph Break) |Yes |Exported as &lt;br&gt; element. | |
 |Non Breaking Space |Yes |Exported as " " entity code. | |
 |Non Breaking Hyphen |Yes |Exported to HTML as entity code "". | |
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. <br><br>Exported to HTML as the entity code "". | |
@@ -41,10 +41,10 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Line Break |Yes |Exported as <br> | |
+|Line Break |Yes |Exported as &lt;br&gt; | |
 |Line Break Clear Type |Yes |Clear type "both" is output with this type of break. | |
-|Page Break |Yes |Exported as a <br style="page-break-before:always; clear:both"> | |
-|Column Break |Yes |Exported as <br style="mso-column-break-before:always; clear:both" > <br><br>There are plans to make it optional since it uses a Microsoft Office specific attribute. | |
+|Page Break |Yes |Exported as a &lt;br style="page-break-before:always; clear:both"&gt; | |
+|Column Break |Yes |Exported as &lt;br style="mso-column-break-before:always; clear:both" &gt; <br><br>There are plans to make it optional since it uses a Microsoft Office specific attribute. | |
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -53,14 +53,14 @@ See the following links in the documentation for further information:
 |Color |Yes |Exported as color on style attribute. | |
 |East Asian Typography |Planned |Some research is needed. | |
 |Highlight Color |Yes |Exported as background-color on span. | |
-|Language |Yes |Exported as lang attribute on <span>. |- [HtmlSaveOptions.ExportLanguageInformation](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportlanguageinformation)|
+|Language |Yes |Exported as lang attribute on &lt;span&gt;. |- [HtmlSaveOptions.ExportLanguageInformation](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportlanguageinformation)|
 |Do not Check Spelling or Grammar |Planned | | |
-|Border |Yes |Exported as border-style, border-width, border-color on <span>. <br><br>Normally each side is exported as separate attributes even though all sides of the border of a run must be the same. | |
-|Shading |Yes |Only solid fill is supported, both background and foreground. Others are converted to the nearest color. <br><br>Exported as background-color on <span>. | |
+|Border |Yes |Exported as border-style, border-width, border-color on &lt;span&gt;. <br><br>Normally each side is exported as separate attributes even though all sides of the border of a run must be the same. | |
+|Shading |Yes |Only solid fill is supported, both background and foreground. Others are converted to the nearest color. <br><br>Exported as background-color on &lt;span&gt;. | |
 ##### **Font**
 Bold and italics is exported as font-weight:bold and font-style:italics on style attribute.
 
-There is plans to make an option to export these as simple <b>, <i> tags.
+There is plans to make an option to export these as simple &lt;b&gt;, &lt;i&gt; tags.
 
 There is an option to control how size is exported. Font can be exported as points or as em units. This allows fonts to be resized automatically by browsers by increasing or decreasing font size.
 
@@ -80,7 +80,7 @@ Only single line underline type is supported in native HTML. Exported as "text-d
 
 In CSS 3 different underline types are proposed and may be implemented in the future.
 
-There is plans to make an option to export underline as simple <u> tag.
+There is plans to make an option to export underline as simple &lt;u&gt; tag.
 
 "Words only" underline type can be simulated by splitting runs and only underlining non-space text.
 
@@ -95,7 +95,7 @@ There is plans to make an option to export underline as simple <u> tag.
 |Animated Effect |Planned | | |
 |Double Strikethrough |Yes |Output as single strikethrough as HTML does not have any analog for double strikethrough. | |
 |Strikethrough |Yes |Exported as text-decoration:line-through. | |
-|Subscript/Superscript |Yes |Exported as vertical-align:sub and vertical-align:super. <br><br>There are plans to add an option to export these as <sup> and <sub> elements. | |
+|Subscript/Superscript |Yes |Exported as vertical-align:sub and vertical-align:super. <br><br>There are plans to add an option to export these as &lt;sup&gt; and &lt;sub&gt; elements. | |
 |Shadow |Planned | | |
 |Outline |Yes |Output as bold. | |
 |Emboss |Yes |Output as bold with color. Can be improved since in some cases we get white on white. | |
