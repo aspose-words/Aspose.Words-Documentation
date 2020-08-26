@@ -33,7 +33,7 @@ Here are the topics that you will eventually need to master:
 #### **Register Aspose.Words for .NET with COM Interop**
 After installation, you need to register Aspose.Words for COM Interop using the regasm.exe utility.
 
-regasm.exe is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the *%windir%\Microsoft .NET\Framework\&lt;FrameworkVersion&gt;\ directory, for example *C:\Windows\Microsoft .NET\Framework\v2.0.50727* 
+regasm.exe is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the *%windir%\Microsoft .NET\Framework&#92;&lt;FrameworkVersion&gt;\ directory, for example *C:\Windows\Microsoft .NET\Framework\v2.0.50727* 
 
 If you use Visual Studio, then the easiest way to launch regasm is to:
 
