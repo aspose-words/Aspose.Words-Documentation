@@ -8,7 +8,7 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-**![todo:image_alt_text](home_1)**
+**![todo:image_alt_text](aspose_words-for-sharepoint.png)**
 
 **Welcome to Aspose.Words for SharePoint**
 
