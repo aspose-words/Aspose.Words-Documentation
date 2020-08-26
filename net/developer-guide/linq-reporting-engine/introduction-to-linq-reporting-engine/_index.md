@@ -20,9 +20,9 @@ In contrast to Aspose.Words Mail Merge, LINQ Reporting Engine works with templat
 1. The results of the expressions are processed by the engine according to their roles.
 1. The corresponding tags are replaced with appropriate contents.
 
-While composing expressions, you can use a subset of C# language that satisfies [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029). Common reporting data manipulations such as grouping, sorting, and others are included in the expression syntax in the form of [IEnumerable<T>](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) extension methods. LINQ Reporting Engine gained its name because of this feature.
+While composing expressions, you can use a subset of C# language that satisfies [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029). Common reporting data manipulations such as grouping, sorting, and others are included in the expression syntax in the form of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) extension methods. LINQ Reporting Engine gained its name because of this feature.
 
-You can use common Aspose.Words Mail Merge data source objects such as [DataSet](http://msdn.microsoft.com/en-us/library/system.data.dataset\(v=vs.110\).aspx), [DataTable](http://msdn.microsoft.com/en-us/library/system.data.datatable\(v=vs.110\).aspx), and others while working with LINQ Reporting Engine as well. The engine provides a simplified expression syntax to work with such objects. For example, a data table is treated as a collection of its rows. That is, you can normally apply IEnumerable<T> extension methods to it. A single data row, in turn, is treated as if it was an object that has the same set of fields that the row has.
+You can use common Aspose.Words Mail Merge data source objects such as [DataSet](http://msdn.microsoft.com/en-us/library/system.data.dataset\(v=vs.110\).aspx), [DataTable](http://msdn.microsoft.com/en-us/library/system.data.datatable\(v=vs.110\).aspx), and others while working with LINQ Reporting Engine as well. The engine provides a simplified expression syntax to work with such objects. For example, a data table is treated as a collection of its rows. That is, you can normally apply IEnumerable&lt;T&gt; extension methods to it. A single data row, in turn, is treated as if it was an object that has the same set of fields that the row has.
 
 In addition to traditional data sources, the engine enables you to use custom ones. Custom data source objects are not treated in a special way by the engine. That is while working with such objects, you can use the same expression syntax as you use while writing C# code. Moreover, you can use accessible members of any custom type that can implement any complex logic. This feature makes the engine very flexible and suitable almost for any specific need while building a report.
 ## **Hello World Example**
@@ -48,7 +48,7 @@ LINQ Reporting Engine says: "Hello, World."
 
 After the report document is built, you can save it or perform any other tasks on it using [Aspose.Words API](https://apireference.aspose.com/net/words) in your code.
 ## **Enumeration Extension Methods**
-LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for IEnumerable. These extension methods mimic some extension methods of [IEnumerable<T>](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus, you can group, sort, and perform other sequential data manipulations in template expressions in a familiar way.
+LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for IEnumerable. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus, you can group, sort, and perform other sequential data manipulations in template expressions in a familiar way.
 
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
 
@@ -150,7 +150,7 @@ If you do not specify the type of an enumeration item in a foreach statement or 
 1. Otherwise, if the enumeration represents a DataView instance, then the item type is DataRowView.
 1. Otherwise, if the enumeration implements IDataReader, then the item type is IDataRecord.
 1. Otherwise, if the enumeration represents child rows of a DataRow instance, then the item type is DataRow.
-1. Otherwise, if the enumeration implements generic IEnumerable<T>, then the item type is a type argument corresponding to T. Note, that the engine does not support enumerations that implement IEnumerable<T> multiple times using different type arguments.
+1. Otherwise, if the enumeration implements generic IEnumerable&lt;T&gt;, then the item type is a type argument corresponding to T. Note, that the engine does not support enumerations that implement IEnumerable&lt;T&gt; multiple times using different type arguments.
 1. Otherwise, the item type is Object.
 ### **Does the engine cooperate with LINQ providers?**
 The engine does not cooperate with [LINQ providers](http://msdn.microsoft.com/en-us/library/vstudio/bb882640\(v=vs.110\).aspx). To be aware of the consequences of this feature, consider the following example. Assume, that you have the City and Person classes defined in your application as follows.
