@@ -30,7 +30,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-12170|digital signature is lost after conversion from Docx to Pdf|Bug|
 |WORDSNET-12446|Docx to Pdf conversion issue: Creating watermark using Acrobat 9 Pro|Bug|
 |WORDSNET-12488|RTF->Html->RTF removes the empty spaces|Bug|
-|WORDSNET-12736|An empty <TR> added at the end of Table in HTML|Bug|
+|WORDSNET-12736|An empty &lt;TR&gt; added at the end of Table in HTML|Bug|
 |WORDSNET-12751|Vertical spacing between Paragraphs is increased in PDF|Bug|
 |WORDSNET-12758|Hyperlink, bold and font size returned incorrectly|Bug|
 |WORDSNET-12768|Mht to png/pdf : inline image not displayed|Bug|
@@ -106,7 +106,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-12156|Fonts substitution // Docx to Pdf conversion issue with text font|Feature|
 |WORDSNET-12211|Implement odt stock charts conversion.|Feature|
 |WORDSNET-12499|Provide properties to determine if a Run/Paragraph nodes have some Format Changes|Feature|
-|WORDSNET-12644|Support HTML <dl> Tag|Feature|
+|WORDSNET-12644|Support HTML &lt;dl&gt; Tag|Feature|
 |WORDSNET-12761|Color set in the Template's Content Control Properties is not retained|Feature|
 |WORDSNET-12918|Add feature to get/set Alt Text Title property of Shape|Feature|
 |WORDSNET-13173|Introduce InvalidateFieldTypes method|Feature|
