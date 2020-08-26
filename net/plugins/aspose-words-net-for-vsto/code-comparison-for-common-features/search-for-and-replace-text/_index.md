@@ -7,39 +7,23 @@ url: /net/search-for-and-replace-text/
 
 ## **VSTO**
 {{< highlight csharp >}}
-
- Word.Application wordApp = Application;
-
+Word.Application wordApp = Application;
 wordApp.Documents.Open("Search and Replace.doc");
-
 object replaceAll = Word.WdReplace.wdReplaceAll;
-
 this.Application.Selection.Find.ClearFormatting();
-
 this.Application.Selection.Find.Text = "find me";
-
 this.Application.Selection.Find.Replacement.ClearFormatting();
-
 this.Application.Selection.Find.Replacement.Text = "Found";
-
 this.Application.Selection.Find.Execute(
-
 	ref missing, ref missing, ref missing, ref missing, ref missing,
-
 	ref missing, ref missing, ref missing, ref missing, ref missing,
-
 	ref replaceAll, ref missing, ref missing, ref missing, ref missing);
-
 {{< /highlight >}}
 ## **Aspose.Words**
 {{< highlight csharp >}}
-
- Document doc = new Document("Search and Replace.doc");
-
+Document doc = new Document("Search and Replace.doc");
 doc.Range.Replace("find me", "found", false, true);
-
 doc.Save("Search and Replace.doc");
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](http://goo.gl/D3Jmkl)

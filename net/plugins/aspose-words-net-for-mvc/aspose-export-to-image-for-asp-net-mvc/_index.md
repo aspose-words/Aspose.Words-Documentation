@@ -67,9 +67,7 @@ You can download Export web page contents to an image for ASP.NET MVC from one o
 - Step 5 – Add partial view “AsposeContentToImage.cshtml” in your desired view.
 
 {{< highlight csharp >}}
-
- e.g @{ Html.RenderPartial("~/Views/Shared/AsposeContentToImage.cshtml"); }
-
+e.g @{ Html.RenderPartial("~/Views/Shared/AsposeContentToImage.cshtml"); }
 {{< /highlight >}}
 
 - Step 6 – To resolve “References” by taking the following the steps 

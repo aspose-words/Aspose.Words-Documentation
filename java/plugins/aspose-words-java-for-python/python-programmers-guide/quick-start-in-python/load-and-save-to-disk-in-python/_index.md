@@ -12,21 +12,13 @@ To save a word Document using Aspose.Words for Java in Python, simply invoke sav
 **Python Code**
 
 {{< highlight csharp >}}
-
- # The path to the documents directory.
-
+# The path to the documents directory.
 dataDir = ""
-
 \# Load the document from the absolute path on disk.
-
 Document = jpype.jClass("com.aspose.words.Document")
-
 doc = new Document(dataDir + "Document.doc")
-
 \# Save the document as DOCX document.")
-
 doc.save(dataDir + "Document Out.docx")
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Load And Save To Disk (Aspose.Words)** from any of the below mentioned social coding sites:

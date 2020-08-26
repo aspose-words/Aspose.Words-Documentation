@@ -16,21 +16,16 @@ The default switches that are used in a TOC inserted in Microsoft Word are **“
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert a table of contents at the beginning of the document.
-
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 // The newly inserted table of contents will be initially empty.
 
 // It needs to be populated by updating the fields in the document.
-
 doc.UpdateFields();
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)

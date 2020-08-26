@@ -59,131 +59,68 @@ Check the detailed article on [Working with HtmlSaveOptions Properties](https://
 New public properties ResourceFolder and ResourceFolderAlias are added into the HtmlSaveOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document
-
-/// is exported to HTML. Default is an empty string.
-
-/// </summary>
-
-/// <remarks>
-
-/// <p><see cref="ResourceFolder"/> is the simplest way to specify a folder where all resources should be written.
-
-/// Another way is to use individual properties <see cref="FontsFolder"/>, <see cref="ImagesFolder"/>,
-
-/// and <see cref="CssStyleSheetFileName"/>.</p>
-
-///
-
-/// <p><see cref="ResourceFolder"/> has a lower priority than folders specified via <see cref="FontsFolder"/>,
-
-/// <see cref="ImagesFolder"/>, and <see cref="CssStyleSheetFileName"/>. For example, if both <see cref="ResourceFolder"/>
-
-/// and <see cref="FontsFolder"/> are specified, fonts will be saved to <see cref="FontsFolder"/>, while images and CSS
-
-/// will be saved to <see cref="ResourceFolder"/>.</p>
-
-///
-
-/// <p>If the folder specified by <see cref="ResourceFolder"/> doesn't exist, it will be created automatically.</p>
-
-///
-
-/// <seealso cref="FontsFolder"/>
-
-/// <seealso cref="ImagesFolder"/>
-
-/// <seealso cref="CssStyleSheetFileName"/>
-
-/// </remarks>
-
-public String ResourceFolder
-
-{
-
-    get { return mResourceFolder; }
-
-    set
-
-    {
-
-        ArgumentUtil.CheckNotNull(value, "ResourceFolder");
-
-        mResourceFolder = value;
-
-    }
-
-}
-
 /// <summary>
-
-/// Specifies the name of the folder used to construct URIs of all resources written into an HTML document.
-
-/// Default is an empty string.
-
+/// Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document
+/// is exported to HTML. Default is an empty string.
 /// </summary>
-
 /// <remarks>
-
-/// <p><see cref="ResourceFolderAlias"/> is the simplest way to specify how URIs for all resource files should be
-
-/// constructed. Same information can be specified for images and fonts separately via <see cref="ImagesFolderAlias"/>
-
-/// and <see cref="FontsFolderAlias"/> properties, respectively. However, there is no individual property for CSS.</p>
-
+/// <p><see cref="ResourceFolder"/> is the simplest way to specify a folder where all resources should be written.
+/// Another way is to use individual properties <see cref="FontsFolder"/>, <see cref="ImagesFolder"/>,
+/// and <see cref="CssStyleSheetFileName"/>.</p>
 ///
-
-/// <p><see cref="ResourceFolderAlias"/> has lower priority than <see cref="FontsFolderAlias"/>
-
-/// and <see cref="ImagesFolderAlias"/>. For example, if both <see cref="ResourceFolderAlias"/>
-
-/// and <see cref="FontsFolderAlias"/> are specified, fonts' URIs will be constructed using <see cref="FontsFolderAlias"/>,
-
-/// while URIs of images and CSS will be constructed using <see cref="ResourceFolderAlias"/>.</p>
-
+/// <p><see cref="ResourceFolder"/> has a lower priority than folders specified via <see cref="FontsFolder"/>,
+/// <see cref="ImagesFolder"/>, and <see cref="CssStyleSheetFileName"/>. For example, if both <see cref="ResourceFolder"/>
+/// and <see cref="FontsFolder"/> are specified, fonts will be saved to <see cref="FontsFolder"/>, while images and CSS
+/// will be saved to <see cref="ResourceFolder"/>.</p>
 ///
-
-/// <p>If <see cref="ResourceFolderAlias"/> is empty, the <see cref="ResourceFolder"/> property value will be used
-
-/// to construct resource URIs.</p>
-
+/// <p>If the folder specified by <see cref="ResourceFolder"/> doesn't exist, it will be created automatically.</p>
 ///
-
-/// <p>If <see cref="ResourceFolderAlias"/> is set to '.' (dot), resource URIs will contain file names only, without
-
-/// any path.</p>
-
-///
-
-/// <seealso cref="ResourceFolder"/>
-
-/// <seealso cref="FontsFolderAlias"/>
-
-/// <seealso cref="ImagesFolderAlias"/>
-
+/// <seealso cref="FontsFolder"/>
+/// <seealso cref="ImagesFolder"/>
+/// <seealso cref="CssStyleSheetFileName"/>
 /// </remarks>
-
-public String ResourceFolderAlias
-
+public String ResourceFolder
 {
-
-    get { return mResourceFolderAlias; }
-
+    get { return mResourceFolder; }
     set
-
     {
-
-        ArgumentUtil.CheckNotNull(value, "ResourceFolderAlias");
-
-        mResourceFolderAlias = value;
-
+        ArgumentUtil.CheckNotNull(value, "ResourceFolder");
+        mResourceFolder = value;
     }
-
 }
-
+/// <summary>
+/// Specifies the name of the folder used to construct URIs of all resources written into an HTML document.
+/// Default is an empty string.
+/// </summary>
+/// <remarks>
+/// <p><see cref="ResourceFolderAlias"/> is the simplest way to specify how URIs for all resource files should be
+/// constructed. Same information can be specified for images and fonts separately via <see cref="ImagesFolderAlias"/>
+/// and <see cref="FontsFolderAlias"/> properties, respectively. However, there is no individual property for CSS.</p>
+///
+/// <p><see cref="ResourceFolderAlias"/> has lower priority than <see cref="FontsFolderAlias"/>
+/// and <see cref="ImagesFolderAlias"/>. For example, if both <see cref="ResourceFolderAlias"/>
+/// and <see cref="FontsFolderAlias"/> are specified, fonts' URIs will be constructed using <see cref="FontsFolderAlias"/>,
+/// while URIs of images and CSS will be constructed using <see cref="ResourceFolderAlias"/>.</p>
+///
+/// <p>If <see cref="ResourceFolderAlias"/> is empty, the <see cref="ResourceFolder"/> property value will be used
+/// to construct resource URIs.</p>
+///
+/// <p>If <see cref="ResourceFolderAlias"/> is set to '.' (dot), resource URIs will contain file names only, without
+/// any path.</p>
+///
+/// <seealso cref="ResourceFolder"/>
+/// <seealso cref="FontsFolderAlias"/>
+/// <seealso cref="ImagesFolderAlias"/>
+/// </remarks>
+public String ResourceFolderAlias
+{
+    get { return mResourceFolderAlias; }
+    set
+    {
+        ArgumentUtil.CheckNotNull(value, "ResourceFolderAlias");
+        mResourceFolderAlias = value;
+    }
+}
 {{< /highlight >}}
 
 Behavior of properties FontsFolder, FontsFolderAlias, ImagesFolder, ImagesFolderAlias and CssStyleSheetFileName are not changed. Note that CssStyleSheetFileName properties is used both for specifying folder name and file name. Order of priority in which Aspose.Words decides into what folder to write external CSS style sheet:
@@ -213,57 +150,37 @@ Here are some use cases. In examples below input test document has name Test.doc
 \1. Simplest scenario. Use it if you want to save all external resources in one folder.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
-
 saveOptions.setExportFontResources(true);
-
 saveOptions.setResourceFolder("C:\Resources");
-
 doc.save("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Resources\Test.001.png
-
 C:\Resources\Test.calibril.ttf
-
 C:\Resources\Test.css
-
 {{< /highlight >}}
 
 \2.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setResourceFolder("C:\Resources");
-
 doc.save("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Resources\Test.001.png
-
 {{< /highlight >}}
 
 Fonts and CSS style sheet are not written as external resources.
@@ -271,33 +188,21 @@ Fonts and CSS style sheet are not written as external resources.
 \3.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
-
 saveOptions.setExportFontResources(true);
-
 saveOptions.setResourceFolder("Resources");
-
 doc.save("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Resources\Test.001.png
-
 C:\Resources\Test.calibril.ttf
-
 C:\Resources\Test.css
-
 {{< /highlight >}}
 
 When ResourceFolder specifies relative path this path is relative to output folder, where HTML document is saved.
@@ -305,35 +210,22 @@ When ResourceFolder specifies relative path this path is relative to output fold
 \4.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
-
 saveOptions.setExportFontResources(true);
-
 saveOptions.setResourceFolder("C:\Resources");
-
 saveOptions.setResourceFolderAlias("http://example.com/resources");
-
 doc.save("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Resources\Test.001.png
-
 C:\Resources\Test.calibril.ttf
-
 C:\Resources\Test.css
-
 {{< /highlight >}}
 
 In this scenario "<http://example.com/resources>" alias is used to construct URIs of all resources.
@@ -341,33 +233,21 @@ In this scenario "<http://example.com/resources>" alias is used to construct URI
 \5.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
-
 saveOptions.setExportFontResources(true);
-
 saveOptions.setResourceFolderAlias("http://example.com/resources");
-
 doc.aave("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Test.001.png
-
 C:\Test.calibril.ttf
-
 C:\Test.css
-
 {{< /highlight >}}
 
 In this scenario "<http://example.com/resources>" alias is used to construct URIs of all resources.
@@ -375,137 +255,85 @@ In this scenario "<http://example.com/resources>" alias is used to construct URI
 \6.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External;
-
 saveOptions.setCssStyleSheetFileName("C:\Css\");
-
 saveOptions.setExportFontResources(true);
-
 saveOptions.setResourceFolder("C:\Resources");
-
 doc.save("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Css\Test.css
-
 C:\Resources\Test.001.png
-
 C:\Resources\Test.calibril.ttf
-
 {{< /highlight >}}
 
 \7.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
-
 saveOptions.setExportFontResources(true);
-
 saveOptions.setFontsFolder("C:\Fonts");
-
 saveOptions.setResourceFolder("C:\Resources");
-
 doc.save("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Fonts\Test.calibril.ttf
-
 C:\Resources\Test.001.png
-
 C:\Resources\Test.css
-
 {{< /highlight >}}
 
 \8.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
-
 saveOptions.setExportFontResources(true);
-
 saveOptions.setImagesFolder("C:\Images");
-
 saveOptions.setResourceFolder("C:\Resources");
-
 doc.save("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Images\Test.001.png
-
 C:\Resouces\Test.calibril.ttf
-
 C:\Resources\Test.css
-
 {{< /highlight >}}
 
 \9.
 
 {{< highlight csharp >}}
-
- Document doc = new Document("C:\Test.docx");
-
+Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
-
 saveOptions.setCssStyleSheetFileName("MyStyleSheet.css");
-
 saveOptions.setExportFontResources(true);
-
 saveOptions.setResourceFolder("C:\Resources");
-
 doc.save("C:\Test.html", saveOptions);
-
 {{< /highlight >}}
 
 **Output**
 
 {{< highlight csharp >}}
-
- C:\Test.html
-
+C:\Test.html
 C:\Resouces\Test.001.png
-
 C:\Resouces\Test.calibril.ttf
-
 C:\Resouces\MyStyleSheet.css
-
 {{< /highlight >}}
 ### **WORDSNET-14762 - Added Public Property HtmlSaveOptions.ExportFontsAsBase64.**
 Check the detailed article on [Export Fonts to HTML in Base64 Encoding](https://docs.aspose.com/display/wordsandroid/Converting+a+Microsoft+Word+document+using+save+Method#ConvertingaMicrosoftWorddocumentusingsaveMethod-ExportFontstoHTMLinBase64Encoding)
@@ -513,31 +341,18 @@ Check the detailed article on [Export Fonts to HTML in Base64 Encoding](https://
 New public property ExportFontsAsBase64 is added into the HtmlSaveOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether fonts resources should be embedded to HTML in Base64 encoding.
-
 /// Default is <c>false</c>.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>By default, fonts are written to separate files. If this option is set to <c>true</c>, fonts will be embedded
-
 /// into the document's CSS in Base64 encoding.</p>
-
 /// </remarks>
-
 public boolean ExportFontsAsBase64 {
-
     get { return mExportFontsAsBase64; }
-
     set { mExportFontsAsBase64 = value; }
-
 }
-
 {{< /highlight >}}
 
 The property affects only HTML format and doesn't affect EPUB and MHTML. This is an extension to HtmlSaveOptions.ExportFontResources option and ExportFontsAsBase64 will work only if this property set to true.
@@ -545,15 +360,10 @@ The property affects only HTML format and doesn't affect EPUB and MHTML. This is
 **UC**
 
 {{< highlight csharp >}}
-
- HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.setExportFontResources(true);
-
 saveOptions.ExportFontsAsBase64(true);
-
 doc.save(fileName, saveOptions);
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 

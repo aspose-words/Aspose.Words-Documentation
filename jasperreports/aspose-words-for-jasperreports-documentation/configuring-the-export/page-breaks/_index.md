@@ -22,31 +22,18 @@ You can change the page breaks inserted to regular (not section) breaks by using
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.PAGE_BREAKS, AWExporterParameter.PAGE_BREAKS_NORMAL);
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 #### **JasperServer**
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="pageBreaks" value="0"/>
-
 </bean>
-
-
-
 {{< /highlight >}}
 ### **No Page Breaks**
 You can instruct the exporter to avoid any use of page breaks (so that the report contents are simply exported continuously) by using the following parameter:
@@ -54,31 +41,18 @@ You can instruct the exporter to avoid any use of page breaks (so that the repor
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.PAGE_BREAKS, AWExporterParameter.PAGE_BREAKS_NONE);
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 #### **JasperServer**
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="pageBreaks" value="2"/>
-
 </bean>
-
-
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 

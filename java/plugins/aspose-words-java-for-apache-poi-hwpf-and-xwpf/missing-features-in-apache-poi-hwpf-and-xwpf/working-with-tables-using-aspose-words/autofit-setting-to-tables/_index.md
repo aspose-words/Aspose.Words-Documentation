@@ -14,22 +14,16 @@ By default Aspose.Words inserts a new table using “**AutoFit to Window”**. T
 
 {{< highlight csharp >}}
 
- // Open the document
-
+// Open the document
 Document doc = new Document(dataDir + "tableDoc.doc");
-
 Table table = (Table)doc.getChild(NodeType.TABLE, 0, true);
 
 // Autofit the first table to the page width.
-
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_WINDOW);
-
 Table table2 = (Table)doc.getChild(NodeType.TABLE, 1, true);
 
 // Auto fit the table to the cell contents
-
 table2.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

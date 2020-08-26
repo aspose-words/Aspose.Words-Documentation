@@ -75,11 +75,8 @@ To remove evaluation message and feature limitations, product license should be 
 - Use following code for activating the license:
 
 {{< highlight csharp >}}
-
- License license = new License();
-
+License license = new License();
 license.setLicense("Aspose.Words.Java.lic");
-
 {{< /highlight >}}
 ## **Support, Extend and Contribute**
 ### **Support**

@@ -124,13 +124,9 @@ WORDSNET-12330 - (Provide API to convert Shape and OfficeMath nodes SVG) has bee
 Starting from 16.3.0 version it is possible to render OfficeMath formulas to image separately from whole document:
 
 {{< highlight csharp >}}
-
- Document doc = new Document(@"C:\Temp\in.docx");
-
+Document doc = new Document(@"C:\Temp\in.docx");
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
-
 math.GetMathRenderer().Save(@"C:\Temp\formula.png", new ImageSaveOptions(SaveFormat.Png));
-
 {{< /highlight >}}
 
 Also, now it is possible to pass SaveFormat.Svg into ImageSaveOptions, so OfficeMath and Shape nodes now can be save to SVG.
@@ -140,14 +136,10 @@ Starting from 16.3.0 Version, Aspose.Words supports AspectRatioLocked property o
 ![todo:image_alt_text](aspose-words-for-net-16-3-0-release-notes_1.png)
 
 {{< highlight csharp >}}
-
- Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 // Get/set AspectRatioLocked.
-
 shape.AspectRatioLocked = true;
-
 {{< /highlight >}}
 
 Plase none:  it is possible to get/set AspectRatioLocked for child shapes (mimic MS Word behavior), but AspectRatioLocked has effect only for top level shapes!

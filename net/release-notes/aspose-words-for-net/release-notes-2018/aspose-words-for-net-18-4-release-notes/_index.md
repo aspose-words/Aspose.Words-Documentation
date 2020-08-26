@@ -117,57 +117,35 @@ Supported encryption for ODF documents.
 The following public API has been added to the OdtSaveOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Initializes a new instance of this class that can be used to save a document in the <see cref="Words.SaveFormat.Odt"/> format
-
 /// encrypted with a password.
-
 /// </summary>
-
 public OdtSaveOptions(string password)
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a password to encrypt document.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>In order to save document without encryption this property should be null or empty string.</para>
-
 /// </remarks>
-
 public string Password
-
 {{< /highlight >}}
 ##### **UC1: Load encrypted ODT document.**
 {{< highlight csharp >}}
-
- Document doc = new Document(@"\encrypted.odt", new LoadOptions("password"));
-
+Document doc = new Document(@"\encrypted.odt", new LoadOptions("password"));
 {{< /highlight >}}
 ##### **UC2: Save ODT document encrypted with a password.**
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 doc.Save(@"\encryped.odt", new OdtSaveOptions("password"));
-
 {{< /highlight >}}
 ##### **UC3: Verify ODT document is encrypted.**
 {{< highlight csharp >}}
-
- FileFormatInfo info = FileFormatUtil.DetectFileFormat(@"\encryped.odt");
-
+FileFormatInfo info = FileFormatUtil.DetectFileFormat(@"\encryped.odt");
 Debug.Assert(info.IsEncrypted);
-
 {{< /highlight >}}
 ### **Ability to Preserve PaperTray Information in PCL Added**
 Related issue: WORDSNET-16391
@@ -176,11 +154,8 @@ Paper tray information is now preserved when saving document to PCL format.
 Following information is transferred from document's model to PCL file:
 
 {{< highlight csharp >}}
-
- PageSetup.FirstPageTray
-
+PageSetup.FirstPageTray
 PageSetup.OtherPagesTray
-
 {{< /highlight >}}
 
 No additional code is required.
@@ -192,71 +167,41 @@ Related issue: WORDSNET-16546
 The following public property has been added into the **ShapeBase** class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it.
-
 /// </summary>
-
 /// <remarks>
-
 /// The default value is <b>true</b>.
-
 /// Has effect only for top level shapes, the property <see cref="WrapType"/> of which is set to value
-
 /// other than <see cref="WrapType.Inline"/>.
-
 /// </remarks>
-
 public bool IsLayoutInCell
-
 {
-
     get; set;
-
 }
-
 {{< /highlight >}}
 
 The property may be helpful for shapes (mainly VML) that are placed into a table cell but are needed to position without binding to the cell.
 ###### **Usage**
 {{< highlight csharp >}}
-
- Shape watermark = new Shape(doc, ShapeType.TextPlainText);
-
+Shape watermark = new Shape(doc, ShapeType.TextPlainText);
 watermark.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-
 watermark.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-
-watermark.IsLayoutInCell = false; // Display the shape outside of table cell if it will be placed into a cell.
-
+watermark.IsLayoutInCell = false;
+ // Display the shape outside of table cell if it will be placed into a cell.
 watermark.Width = 300;
-
 watermark.Height = 70;
-
 watermark.HorizontalAlignment = HorizontalAlignment.Center;
-
 watermark.VerticalAlignment = VerticalAlignment.Center;
-
 watermark.Rotation = -40;
-
 watermark.Fill.Color = Color.Gray;
-
 watermark.StrokeColor = Color.Gray;
-
 watermark.TextPath.Text = "watermarkText";
-
 watermark.TextPath.FontFamily = "Arial";
-
 watermark.Name = string.Format("WaterMark_{0}", Guid.NewGuid());
-
 watermark.WrapType = WrapType.None;
-
 builder.MoveTo(run);
-
 builder.InsertNode(watermark);
-
 {{< /highlight >}}
 ### **Optimization of Vector Graphics Output of Metafile Rendering**
 Related issues: WORDSNET-16449, WORDSNET-15490

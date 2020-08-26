@@ -12,21 +12,12 @@ To replace text using Aspose.Words Java in php, simply invoke the replace() meth
 
 {{< highlight csharp >}}
 
-  // The path to the documents directory.
-
+ // The path to the documents directory.
  $doc = new Java("com.aspose.words.Document","ReplaceSimple.doc");
 
  // Replace the text in the document.
-
-
-
  $doc->getRange()->replace("_CustomerName_", "James Bond", false, false);
-
-
-
  }
-
-
 {{< /highlight >}}
 
 **Download Running Code**

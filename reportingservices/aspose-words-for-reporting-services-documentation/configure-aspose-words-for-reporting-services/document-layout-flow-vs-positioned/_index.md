@@ -16,23 +16,12 @@ To switch to the Positioned Layout, add the following lines to the *<Extension>*
 {{% /alert %}} 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <DocumentLayout>Positioned</DocumentLayout>
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}

@@ -121,158 +121,84 @@ WORDSNET-14944 has been resolved.
 We have added an interface allowing to implement a custom formatting of field's result. The original request was about addiing a feature to remove spaces between sign and digits during mail merge. However, we decided to implement a more generic and flexible solution because our API is already overwhelmed with different specific properties.
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 Document document = builder.Document;
-
 Field field = builder.InsertField("=-1234567.89 \\# \"### ### ###.000\"", null);
-
 document.FieldOptions.ResultFormatter = new FieldResultFormatter("[{0}]", null);
-
 field.Update();
-
 Assert.AreEqual("[-1234567.89]", field.Result);
-
-
 private class FieldResultFormatter : IFieldResultFormatter
-
 {
-
     public FieldResultFormatter(string numberFormat, string dateFormat)
-
     {
-
         mNumberFormat = numberFormat;
-
         mDateFormat = dateFormat;
-
     }
-
     public FieldResultFormatter()
-
         : this(null, null)
-
     {
-
     }
-
     public string FormatNumber(double value, string format)
-
     {
-
         mNumberFormatInvocations.Add(new object[] { value, format });
-
         return string.IsNullOrEmpty(mNumberFormat)
-
             ? null
-
             : string.Format(mNumberFormat, value);
-
     }
-
     public string FormatDate(DateTime value, string format, CalendarType calendarType)
-
     {
-
         mDateFormatInvocations.Add(new object[] { value, format, calendarType });
-
         return string.IsNullOrEmpty(mDateFormat)
-
             ? null
-
             : string.Format(mDateFormat, value);
-
     }
-
     public string FormatNumber(double value, string format, string formattedValue)
-
     {
-
         throw new NotImplementedException();
-
     }
-
     public string FormatDate(DateTime value, string format, CalendarType calendarType, string formattedValue)
-
     {
-
         throw new NotImplementedException();
-
     }
-
     private readonly string mNumberFormat;
-
     private readonly string mDateFormat;
-
     private readonly ArrayList mNumberFormatInvocations = new ArrayList();
-
     private readonly ArrayList mDateFormatInvocations = new ArrayList();
-
 }
-
 {{< /highlight >}}
 ### **Added Feature to Set Horizontal and Vertical Resolution of Output Image**
 Previously it was one property Resolution that set both vertical and horizontal resolution to the same values.
 Now new public properties HorizontalResolution and VerticalResolution are added into the ImageSaveOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Gets or sets the horizontal resolution for the generated images, in dots per inch.
-
-/// </summary>
-
-/// <remarks>
-
-/// <para>This property has effect only when saving to raster image formats.</para>
-
-/// <p>The default value is 96.</p>
-
-/// </remarks>
-
-public float getHorizontalResolution()
-
-public void  setgetHorizontalResolution(float value)
-
-
 /// <summary>
-
-/// Gets or sets the vertical resolution for the generated images, in dots per inch.
-
+/// Gets or sets the horizontal resolution for the generated images, in dots per inch.
 /// </summary>
-
 /// <remarks>
-
 /// <para>This property has effect only when saving to raster image formats.</para>
-
 /// <p>The default value is 96.</p>
-
 /// </remarks>
-
+public float getHorizontalResolution()
+public void  setgetHorizontalResolution(float value)
+/// <summary>
+/// Gets or sets the vertical resolution for the generated images, in dots per inch.
+/// </summary>
+/// <remarks>
+/// <para>This property has effect only when saving to raster image formats.</para>
+/// <p>The default value is 96.</p>
+/// </remarks>
 public float getVerticalResolution()
-
 public void  getVerticalResolution(float value)
-
 {{< /highlight >}}
 
 Please note, that Resolution property became write-only:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Sets both horizontal and vertical resolution for the generated images, in dots per inch.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>This property has effect only when saving to raster image formats.</para>
-
 /// </remarks>
-
 public void setResolution(float value)
-
 {{< /highlight >}}

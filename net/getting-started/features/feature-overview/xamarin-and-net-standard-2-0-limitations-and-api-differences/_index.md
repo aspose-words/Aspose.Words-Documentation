@@ -25,8 +25,7 @@ Xamarin DLLs are always built using the latest stable versions of Xamarin.Androi
 **.NET**
 
 {{< highlight csharp >}}
-
-// Use System.Drawing.Bitmap.
+/ Use System.Drawing.Bitmap.
 using (System.Drawing.Bitmap image = new System.Drawing.Bitmap(gTestImagePath))
 {
     builder.InsertImage(image);
@@ -36,8 +35,7 @@ using (System.Drawing.Bitmap image = new System.Drawing.Bitmap(gTestImagePath))
 **.NET Standard 2.0, Xamarin.Android, Xamarin.iOS and Xamarin.Mac**
 
 {{< highlight csharp >}}
-
-// Insert image into the document from SkiaSharp.SKBitmap object.
+/ Insert image into the document from SkiaSharp.SKBitmap object.
 using (SkiaSharp.SKBitmap bitmap = SkiaSharp.SKBitmap.Decode(gTestImagePath))
 {
     builder.InsertImage(bitmap);
@@ -53,14 +51,13 @@ using (SkiaSharp.SKBitmap bitmap = SkiaSharp.SKBitmap.Decode(gTestImagePath))
 **.NET**
 
 {{< highlight csharp >}}
-Document doc = new Document(gTestDocumentPath);
+ument doc = new Document(gTestDocumentPath);
 
 // Render the first page to System.Drawing.Graphics
 using (System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(1000, 1000))
 {
     using (System.Drawing.Graphics gr = System.Drawing.Graphics.FromImage(bitmap))
     {
-
         // Apply required transformations to the graphics, rotation for example.
         gr.RotateTransform(45);
         doc.RenderToSize(0, gr, 0, 0, bitmap.Width, bitmap.Height);
@@ -74,14 +71,13 @@ using (System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(1000, 1000))
 **.NET Standard 2.0, Xamarin.Android, Xamarin.iOS and Xamarin.Mac**
 
 {{< highlight csharp >}}
-Document doc = new Document(gTestDocumentPath);
+ument doc = new Document(gTestDocumentPath);
 
 // Render the first page to SkiaSharp.SKCanvas
 using (SkiaSharp.SKBitmap bitmap = new SkiaSharp.SKBitmap(1000, 1000))
 {
     using (SkiaSharp.SKCanvas canvas = new SkiaSharp.SKCanvas(bitmap))
     {
-
         // Apply required transformations to the canvas, rotation for example.
         canvas.RotateDegrees(45);
         doc.RotateDegrees(0, canvas, 0, 0, bitmap.Width, bitmap.Height);

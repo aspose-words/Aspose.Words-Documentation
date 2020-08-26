@@ -11,14 +11,8 @@ To set license of Aspose.Words Java in Python, simply invoke the setLicense() me
 **Python Code**
 
 {{< highlight csharp >}}
-
- license = jpype.Jclass('com.aspose.words.License')
-
+license = jpype.Jclass('com.aspose.words.License')
 license.setLicense("Aspose.Words.lic")
-
-
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Apply License (Aspose.Words)** from any of the below mentioned social coding sites:

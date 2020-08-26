@@ -123,7 +123,5 @@ This section lists public API changes that were introduced in Aspose.Words 16.4.
 In order to fix WORDSNET-13094, we decided to introduce a way to update a field ignoring the MERGEFORMAT switch. We have added following overload:
 
 {{< highlight csharp >}}
-
- public void Update(bool ignoreMergeFormat)
-
+public void Update(bool ignoreMergeFormat)
 {{< /highlight >}}

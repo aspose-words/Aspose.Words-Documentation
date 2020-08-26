@@ -11,55 +11,32 @@ Aspose hosts all Java APIs on [Maven repository](https://repository.aspose.com/w
 First, you need to specify Aspose Maven Repository configuration/location in your Maven pom.xml as below:
 
 {{< highlight csharp >}}
-
- <repositories>
-
+<repositories>
     <repository>
-
         <id>AsposeJavaAPI</id>
-
         <name>Aspose Java API</name>
-
         <url>https://repository.aspose.com/repo/</url>
-
     </repository>
-
 </repositories>
-
 {{< /highlight >}}
 
 Then define Aspose.Words for Java API dependency in your pom.xml as follows:
 
 {{< highlight csharp >}}
-
- <dependencies>
-
+<dependencies>
     <dependency>
-
         <groupId>com.aspose</groupId>
-
         <artifactId>aspose-words</artifactId>
-
         <version>20.6</version>
-
         <classifier>jdk17</classifier>
-
     </dependency>
-
     <dependency>
-
         <groupId>com.aspose</groupId>
-
         <artifactId>aspose-words</artifactId>
-
         <version>20.6</version>
-
         <classifier>javadoc</classifier>
-
     </dependency>
-
 </dependencies>
-
 {{< /highlight >}}
 
 Congratulations! You have successfully defined the Aspose.Words for Java Maven dependency in your Maven project.

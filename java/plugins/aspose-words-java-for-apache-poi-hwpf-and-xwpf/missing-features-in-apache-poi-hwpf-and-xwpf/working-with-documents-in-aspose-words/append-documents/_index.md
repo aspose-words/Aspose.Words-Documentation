@@ -18,13 +18,9 @@ To append documents using Aspose.Words, simply invoke the appendDocument() met
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc1 = new Document(dataDir + "doc1.doc");
-
+Document doc1 = new Document(dataDir + "doc1.doc");
 Document doc2 = new Document(dataDir + "doc2.doc");
-
 doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

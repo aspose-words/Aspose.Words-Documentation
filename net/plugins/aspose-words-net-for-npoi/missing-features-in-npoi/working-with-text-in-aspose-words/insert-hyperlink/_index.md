@@ -10,31 +10,21 @@ The code sample below inserts **hyperlink** in a Word document using **DocumentB
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.Write("Please make sure to visit ");
 
 // Specify font formatting for the hyperlink.
-
 builder.Font.Color = Color.Blue;
-
 builder.Font.Underline = Underline.Single;
 
 // Insert the link.
-
 builder.InsertHyperlink("Aspose Website", "http://www.aspose.com", false);
 
 // Revert to default formatting.
-
 builder.Font.ClearFormatting();
-
 builder.Write(" for more information.");
-
 doc.Save("Insert_Hyperlink_In_Document.doc");
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [CodePlex](https://asposewordsnpoi.codeplex.com/downloads/get/1556914)

@@ -38,9 +38,7 @@ The user has to use the following code:
 
 
 {{< highlight csharp >}}
-
- #include <Aspose.Words.Cpp\Model\Document\Document.h>
-
+#include <Aspose.Words.Cpp\Model\Document\Document.h>
 {{< /highlight >}}
 
 
@@ -50,9 +48,7 @@ instead of
 
 
 {{< highlight csharp >}}
-
- #include <Model\Document\Document.h>
-
+#include <Model\Document\Document.h>
 {{< /highlight >}}
 
 

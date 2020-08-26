@@ -9,9 +9,7 @@ LINQ Reporting Engine enables you to access DataTable objects contained within a
 table using the following syntax.
 
 {{< highlight csharp >}}
-
- ds.Persons
-
+ds.Persons
 {{< /highlight >}}
 
 **Note –** Table names are case-insensitive.

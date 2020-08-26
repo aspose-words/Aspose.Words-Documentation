@@ -15,40 +15,27 @@ We first need to pick a row at where to split the table. Once we know this we ca
 
 {{< highlight csharp >}}
 
- // Get the first table in the document.
-
+// Get the first table in the document.
 Table firstTable = (Table)doc.getChild(NodeType.TABLE, 0, true);
 
 // We will split the table at the third row (inclusive).
-
 Row row = firstTable.getRows().get(2);
 
 // Create a new container for the split table.
-
 Table table = (Table)firstTable.deepClone(false);
 
 // Insert the container after the original.
-
 firstTable.getParentNode().insertAfter(table, firstTable);
 
 // Add a buffer paragraph to ensure the tables stay apart.
-
 firstTable.getParentNode().insertAfter(new Paragraph(doc), firstTable);
-
 Row currentRow;
-
 do
-
 {
-
     currentRow = firstTable.getLastRow();
-
     table.prependChild(currentRow);
-
 }
-
 while (currentRow != row);
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

@@ -9,34 +9,20 @@ url: /java/remove-field-in-php/
 **Php Code**
 
 {{< highlight csharp >}}
-
- public static function main() {
-
+public static function main() {
 // The path to the documents directory.
-
 $dataDir = "/usr/local/apache-tomcat-8.0.22/webapps/JavaBridge/Aspose.Words-for-Java_For_PHP/src/programmingwithdocuments/workingwithfields/removefield/data/";
-
 $doc = new Java("com.aspose.words.Document" , $dataDir . "Field.RemoveField.doc");
-
 //ExStart
-
 //ExFor:Field.Remove
-
 //ExId:DocumentBuilder_RemoveField
-
 //ExSummary:Removes a field from the document.
-
 $field = $doc->getRange()->getFields()->get(0);
 
 // Calling this method completely removes the field from the document.
-
 $field->remove();
-
 //ExEnd
-
 }
-
-
 {{< /highlight >}}
 
 **Download Running Code**

@@ -117,82 +117,47 @@ Public property added to the CompareOptions class to provide ability to determin
 For example, this option together with IgnoreFormatting setting determines which document has to be used as formatting source for ranges of equal text.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies which document shall be used as a target during comparison.
-
 /// </summary>
-
 public ComparisonTargetType Target
-
 {
-
   get { return mTargetType; }
-
   set { mTargetType = value; }
-
 }
-
 {{< /highlight >}}
 
 Possible values described by the following enumeration
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify base document which will be used during comparison.  Default value is <see cref="Current" />.
-
 /// </summary>
-
 /// <remarks>
-
 /// Relates to Microsoft Word "Show changes in" option in "Compare Documents" dialog box.
-
 /// </remarks>
-
 public enum ComparisonTargetType
-
 {
-
   /// <summary>
-
   /// This document is used as a base during comparison.
-
   /// </summary>
-
   Current,
-
-
   /// <summary>
-
   /// Other document is used as a base during comparison.
-
   /// </summary>
-
   New
-
 }
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
 
- // Use case.
-
+// Use case.
 Document docA = new Document(pathA);
-
 Document docB = new Document(pathB);
-
 CompareOptions options = new CompareOptions();
-
 options.IgnoreFormatting = true;
-
 options.Target =  ComparisonTargetType.New;
-
 docA.Compare(docB, "am", DateTime.Now, options);
-
 {{< /highlight >}}
 ### **LINQ Reporting Engine Supports Dynamic Chart Series Removal**
 Related Issue: WORDSNET-15442
@@ -205,73 +170,41 @@ Implemented public API to add/remove comment replies.
 The following methods have been added to the **Comment** class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Adds a reply to this comment.
-
 /// </summary>
-
 /// <param name="author">The author name for the reply.</param>
-
 /// <param name="initial">The author initials for the reply.</param>
-
 /// <param name="dateTime">The date and time for the reply.</param>
-
 /// <param name="text">The reply text.</param>
-
 /// <returns>The created <see cref="Comment"/> node for the reply.</returns>
-
 /// <remarks>
-
 /// Due to the existing MS Office limitations only 1 level of replies is allowed in the document.
-
 /// An exception of type <see cref="InvalidOperationException"/> will be raised if this method is
-
 /// called on the existing Reply comment.
-
 /// </remarks>
-
 public Comment AddReply(string author, string initial, DateTime dateTime, string text);
-
 /// <summary>
-
 /// Removes the specified reply to this comment.
-
 /// </summary>
-
 /// <param name="reply">The comment node of the deleting reply.</param>
-
 /// <remarks>All constituent nodes of the reply will be deleted from the document.</remarks>
-
 public void RemoveReply(Comment reply);
-
 /// <summary>
-
 /// Removes all replies to this comment.
-
 /// </summary>
-
 /// <remarks>All constituent nodes of the replies will be deleted from the document.</remarks>
-
 public void RemoveAllReplies();
-
 {{< /highlight >}}
 
 **UC** to add/remove replies:
 
 {{< highlight csharp >}}
-
- Document doc = new Document(fileName);
-
+Document doc = new Document(fileName);
 Comment comment = (Comment)doc.GetChild(NodeType.Comment, 0, true);
-
 comment.RemoveReply(comment.Replies[1]);
-
 comment.AddReply("John Doe", "JD", new DateTime(2017, 9, 25, 12, 15, 0), "New reply");
-
 doc.Save(outFileName);
-
 {{< /highlight >}}
 ### **Format1bppIndexed Added to ImageSaveOptions.PixelFormat**
 Related issue: WORDSNET-13489
@@ -279,29 +212,17 @@ Related issue: WORDSNET-13489
 Format1bppIndexed value was added to ImageSaveOptions.PixelFormat enum:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
     /// Specifies the pixel format for the generated images of document pages.
-
     /// </summary>
-
     public enum ImagePixelFormat
-
     {
-
         ...
-
         /// <summary>
-
         /// 1 bit per pixel, Indexed.
-
         /// </summary>
-
         Format1bppIndexed
-
     }
-
 {{< /highlight >}}
 
 Previously setting ImageSaveOptions.ImageColorMode.BlackAndWhite would produce black and white image but with more that one bit per pixel format.
@@ -310,19 +231,12 @@ For now black and white image with one bit per pixel format could be produced.
 UC:
 
 {{< highlight csharp >}}
-
- Document doc = new Document("in.docx");
-
+Document doc = new Document("in.docx");
 ImageSaveOptions opt = new ImageSaveOptions(SaveFormat.Png);
-
 opt.PageIndex = 3;
-
 opt.ImageColorMode = ImageColorMode.BlackAndWhite;
-
 opt.PixelFormat = ImagePixelFormat.Format1bppIndexed;
-
 doc.Save("out.png", opt);
-
 {{< /highlight >}}
 ### **Ability to Get and Set Number of Footnote Layout Columns is Implemented**
 Related issue: WORDSNET-14958
@@ -330,85 +244,49 @@ Related issue: WORDSNET-14958
 The following property has been added into the **FootnoteOptions** class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the number of columns with which the footnotes area is formatted.
-
 /// </summary>
-
 /// <remarks>
-
 /// If this property has the value of 0, the footnotes area is formatted with a number of columns based on
-
 /// the number of columns on the displayed page. The default value is 0.
-
 /// </remarks>
-
 public int Columns { get; set; }
-
 {{< /highlight >}}
 
 **UC**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(fileName);
-
+Document doc = new Document(fileName);
 doc.FootnoteOptions.Columns = 2;
-
 doc.Save(outFileName);
-
 {{< /highlight >}}
 
 The Document.EndnoteOptions and PageSetup.EndnoteOptions properties have been changed to be of the EndnoteOptions type. This new EndnoteOptions class has the same properties as FootnoteOptions except the Columns property:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Represents the endnote numbering options for a document or section.
-
 /// </summary>
-
 public class EndnoteOptions
-
 {
-
     /// <summary>
-
     /// Specifies the endnotes position.
-
     /// </summary>
-
     public EndnotePosition Position { get; set; }
-
     /// <summary>
-
     /// Specifies the number format for automatically numbered endnotes.
-
     /// </summary>
-
     public NumberStyle NumberStyle { get; set; }
-
     /// <summary>
-
     /// Specifies the starting number or character for the first automatically numbered endnotes.
-
     /// </summary>
-
     public int StartNumber { get; set; }
-
     /// <summary>
-
     /// Determines when automatic numbering restarts.
-
     /// </summary>
-
     public FootnoteNumberingRule RestartRule { get; set; }
-
 }
-
 {{< /highlight >}}
 
 The similar Position property of the FootnotePosition type is added into the FootnoteOptions class. The property should be used instead of the obsolete Location property.
@@ -416,63 +294,34 @@ The similar Position property of the FootnotePosition type is added into the Foo
 The new public enum types FootnotePosition and EndnotePosition have the following items:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Defines the footnote position.
-
-/// </summary>
-
-public enum FootnotePosition
-
-{
-
-    /// <summary>
-
-    /// Footnotes are output at the bottom of each page.
-
-    /// </summary>
-
-    BottomOfPage = 1,
-
-    /// <summary>
-
-    /// Footnotes are output beneath text on each page.
-
-    /// </summary>
-
-    BeneathText = 2
-
-}
-
 /// <summary>
-
-/// Defines the endnote position.
-
+/// Defines the footnote position.
 /// </summary>
-
-public enum EndnotePosition
-
+public enum FootnotePosition
 {
-
     /// <summary>
-
-    /// Endnotes are output at the end of the section.
-
+    /// Footnotes are output at the bottom of each page.
     /// </summary>
-
-    EndOfSection = 0,
-
+    BottomOfPage = 1,
     /// <summary>
-
-    /// Endnotes are output at the end of the document.
-
+    /// Footnotes are output beneath text on each page.
     /// </summary>
-
-    EndOfDocument = 3
-
+    BeneathText = 2
 }
-
+/// <summary>
+/// Defines the endnote position.
+/// </summary>
+public enum EndnotePosition
+{
+    /// <summary>
+    /// Endnotes are output at the end of the section.
+    /// </summary>
+    EndOfSection = 0,
+    /// <summary>
+    /// Endnotes are output at the end of the document.
+    /// </summary>
+    EndOfDocument = 3
+}
 {{< /highlight >}}
 ### **Provided API Similar to SignatureSet.AddSignatureLine Method (Office)**
 Related issue: WORDSNET-14984
@@ -481,80 +330,52 @@ Added public property ProviderId to the **SignOptions** class.
 
 {{< highlight csharp >}}
 
- // Specifies the class ID of the signature provider.
-
+// Specifies the class ID of the signature provider.
 public Guid ProviderId
-
 {{< /highlight >}}
 
 And also added public property ProviderId to the **SignatureLine** class.
 
 {{< highlight csharp >}}
 
- // Gets or sets signature provider identifier for this signature line.
-
+// Gets or sets signature provider identifier for this signature line.
 public Guid ProviderId
-
 {{< /highlight >}}
 
 **UC1 - existing signature line:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document("pathToDocument.docx");
-
+Document doc = new Document("pathToDocument.docx");
 SignatureLine signatureLine = doc.FirstSection.Body.Shapes[0].SignatureLine;
-
 SignOptions signOptions = new SignOptions();
-
 signOptions.ProviderId = signatureLine.ProviderId;
-
 signOptions.SignatureLineId = signatureLine.Id;
-
 CertificateHolder certHolder = CertificateHolder.Create("pathToCert.pfx", "certPassword");
-
 DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);
-
 {{< /highlight >}}
 
 **UC2 - creating new signature line:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptions()).SignatureLine;
-
 signatureLine.ProviderId = new Guid("{F5AC7D23-DA04-45F5-ABCB-38CE7A982553}");
-
 doc.Save("pathToSrcFile.docx");
-
 SignOptions signOptions = new SignOptions();
-
 signOptions.SignatureLineId = signatureLine.Id;
-
 signOptions.ProviderId = signatureLine.ProviderId;
-
 CertificateHolder certHolder = CertificateHolder.Create("pathToCert.pfx", "certPassword");
-
 DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);
-
 {{< /highlight >}}
 
 **UC3 - signing using special provider Id:**
 
 {{< highlight csharp >}}
-
- SignOptions signOptions = new SignOptions();
-
+SignOptions signOptions = new SignOptions();
 signOptions.ProviderId = new Guid("{F5AC7D23-DA04-45F5-ABCB-38CE7A982553}");
-
 CertificateHolder certHolder = CertificateHolder.Create("pathToCert.pfx", "certPassword");
-
 DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);
-
 {{< /highlight >}}
 ### **Exposed Table.HorizontalAlignment Property**
 Related issue: WORDSNET-15817
@@ -563,42 +384,29 @@ Added new public read-only properties to the **Table** class.
 
 {{< highlight csharp >}}
 
- // Gets table relative horizontal alignment.
-
+// Gets table relative horizontal alignment.
 public HorizontalAlignment RelativeHorizontalAlignment
 
 // Gets table relative vertical alignment.
-
 public VerticalAlignment RelativeVerticalAlignment
-
 {{< /highlight >}}
 
 **UC:**
 
 {{< highlight csharp >}}
 
- // It is necessary to use the appropriate properties,
+// It is necessary to use the appropriate properties,
 
 // depending on the floating table or not.
-
 if (table.TextWrapping == TextWrapping.Around)
-
 {
-
     Console.WriteLine(table.RelativeHorizontalAlignment);
-
     Console.WriteLine(table.RelativeVerticalAlignment);
-
 }
-
 else
-
 {
-
     Console.WriteLine(table.Alignment);
-
 }
-
 {{< /highlight >}}
 ### **Prevent Embedding Fonts while Saving into HTML Fixed Format.**
 Related issue: WORDSNET-15880
@@ -606,19 +414,11 @@ Related issue: WORDSNET-15880
 We have introduced HtmlFixedSaveOptions.UseTargetMachineFonts property.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Flag indicates whether fonts from target machine must be used to display the document.
-
 /// If this flag is set to true, <see cref="FontFormat"/> and <see cref="ExportEmbeddedFonts"/> properties do not have effect,
-
 /// also <see cref="ResourceSavingCallback"/> is not fired for fonts.
-
 /// Default is false.
-
 /// </summary>
-
 public bool UseTargetMachineFonts
-
 {{< /highlight >}}

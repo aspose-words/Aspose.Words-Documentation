@@ -10,25 +10,16 @@ The code sample below insert basic **Bar Graph** in document using [DocumentBuil
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 //Create new document
-
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Write text on the document
-
 builder.Write("Simple Bar graph using Aspose.Words \t");
-
 //select the chart type (here chartType is bar)
-
 Shape shape1 = builder.InsertChart(ChartType.Bar, 432, 252);
-
 //save the document
-
 doc.Save("SimpleBarGraph.doc");
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposewordsnpoi.codeplex.com/downloads/get/1556915)

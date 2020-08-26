@@ -27,25 +27,14 @@ The following example shows typical code needed to export a report to a DOC file
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    File sourceFile = new File(fileName);
-
    JasperPrint jasperPrint = (JasperPrint)JRLoader.loadObject(sourceFile);
-
    exporter.setParameter(JRExporterParameter.JASPER_PRINT, jasperPrint);
-
    File destFile = new File(sourceFile.getParent(), jasperPrint.getName() + ".doc");
-
    exporter.setParameter(JRExporterParameter.OUTPUT_FILE_NAME, destFile.toString());
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 ## **Integration with JasperServer**
 To add DOC, DOCX, RTF, ODT, HTML and TXT export formats to JasperServer, perform the following steps. In all of the following steps **<InstallDir>** stands for the JasperServer installation directory.
@@ -63,143 +52,72 @@ Following properties - <property name="iconSrc" ... /> are only applied to Jaspe
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_reportDocExporter" class="com.aspose.words.jasperreports.AWReportDocExporter" parent="baseReportExporter">
-
+<bean id="aw_reportDocExporter" class="com.aspose.words.jasperreports.AWReportDocExporter" parent="baseReportExporter">
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="setResponseContentLength" value="true"/>
-
 </bean>
-
 <bean id="aw_reportDocxExporter" class="com.aspose.words.jasperreports.AWReportDocxExporter" parent="baseReportExporter">
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="setResponseContentLength" value="true"/>
-
 </bean>
-
 <bean id="aw_reportRtfExporter" class="com.aspose.words.jasperreports.AWReportRtfExporter" parent="baseReportExporter">
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="setResponseContentLength" value="true"/>
-
 </bean>
-
 <bean id="aw_reportOdtExporter" class="com.aspose.words.jasperreports.AWReportOdtExporter" parent="baseReportExporter">
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="setResponseContentLength" value="true"/>
-
 </bean>
-
 <bean id="aw_reportHtmlExporter" class="com.aspose.words.jasperreports.AWReportHtmlExporter" parent="baseReportExporter">
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="setResponseContentLength" value="true"/>
-
 </bean>
-
 <bean id="aw_reportTxtExporter" class="com.aspose.words.jasperreports.AWReportTxtExporter" parent="baseReportExporter">
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="setResponseContentLength" value="true"/>
-
 </bean>
-
-
-
 <bean id="aw_docExporterConfiguration" class="com.jaspersoft.jasperserver.war.action.ExporterConfigurationBean">
-
    <property name="descriptionKey" value="DOC - Word Document via Aspose.Words"/>
-
    <property name="iconSrc" value="/images/aw_doc.gif"/>
-
    <property name="parameterDialogName" value=""/>
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="currentExporter" ref="aw_reportDocExporter"/>
-
 </bean>
-
 <bean id="aw_docxExporterConfiguration" class="com.jaspersoft.jasperserver.war.action.ExporterConfigurationBean">
-
    <property name="descriptionKey" value="OOXML - Office Open Document via Aspose.Words"/>
-
    <property name="iconSrc" value="/images/aw_docx.gif"/>
-
    <property name="parameterDialogName" value=""/>
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="currentExporter" ref="aw_reportDocxExporter"/>
-
 </bean>
-
 <bean id="aw_rtfExporterConfiguration" class="com.jaspersoft.jasperserver.war.action.ExporterConfigurationBean">
-
    <property name="descriptionKey" value="RTF - Rich Text Format via Aspose.Words"/>
-
    <property name="iconSrc" value="/images/aw_rtf.gif"/>
-
    <property name="parameterDialogName" value=""/>
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="currentExporter" ref="aw_reportRtfExporter"/>
-
 </bean>
-
 <bean id="aw_odtExporterConfiguration" class="com.jaspersoft.jasperserver.war.action.ExporterConfigurationBean">
-
    <property name="descriptionKey" value="ODT - OpenDocument Text via Aspose.Words"/>
-
    <property name="iconSrc" value="/images/aw_odt.gif"/>
-
    <property name="parameterDialogName" value=""/>
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="currentExporter" ref="aw_reportOdtExporter"/>
-
 </bean>
-
 <bean id="aw_htmlExporterConfiguration" class="com.jaspersoft.jasperserver.war.action.ExporterConfigurationBean">
-
    <property name="descriptionKey" value="HTML - Web Page via Aspose.Words"/>
-
    <property name="iconSrc" value="/images/aw_html.gif"/>
-
    <property name="parameterDialogName" value=""/>
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="currentExporter" ref="aw_reportHtmlExporter"/>
-
 </bean>
-
 <bean id="aw_txtExporterConfiguration" class="com.jaspersoft.jasperserver.war.action.ExporterConfigurationBean">
-
    <property name="descriptionKey" value="TXT - Plain Text via Aspose.Words"/>
-
    <property name="iconSrc" value="/images/aw_txt.gif"/>
-
    <property name="parameterDialogName" value=""/>
-
    <property name="exportParameters" ref="aw_exportParameters"/>
-
    <property name="currentExporter" ref="aw_reportTxtExporter"/>
-
 </bean>
-
-
-
 {{< /highlight >}}
 
 **Step 2.**
@@ -209,39 +127,21 @@ Locate the <util:map id=”exporterConfigMap> element in the **<InstallDir>\apac
 **XML**
 
 {{< highlight csharp >}}
-
- <util:map id="exporterConfigMap">
-
+<util:map id="exporterConfigMap">
    <entry key="pdf" value-ref="pdfExporterConfiguration"/>
-
    <entry key="xls" value-ref="xlsExporterConfiguration"/>
-
    <entry key="rtf" value-ref="rtfExporterConfiguration"/>
-
    <entry key="csv" value-ref="csvExporterConfiguration"/>
-
    <entry key="swf" value-ref="swfExporterConfiguration"/>
-
 <!-- START of ADDED LINES -->
-
    <entry key="aw_doc" value-ref="aw_docExporterConfiguration"/>
-
    <entry key="aw_docx" value-ref="aw_docxExporterConfiguration"/>
-
    <entry key="aw_rtf" value-ref="aw_rtfExporterConfiguration"/>
-
    <entry key="aw_odt" value-ref="aw_odtExporterConfiguration"/>
-
    <entry key="aw_html" value-ref="aw_htmlExporterConfiguration"/>
-
    <entry key="aw_txt" value-ref="aw_txtExporterConfiguration"/>
-
 <!-- END of ADDED LINES -->
-
 </util:map>
-
-
-
 {{< /highlight >}}
 
 **Step 3.**
@@ -273,33 +173,18 @@ This bean may contain various configuration settings intended to configure the e
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
   <property name="fontMap">
-
     <util:map id="fontMap">
-
       <entry key="sansserif" value="Arial"/>
-
       <entry key="serif" value="Times New Roman"/>
-
       <entry key="monospaced" value="Courier"/>
-
     </util:map>
-
   </property>
-
 <!-- Uncomment to apply a license. Check the license path.
-
 <property name="licenseFile" value="C:/jasperserver-3.0/apache-tomcat/webapps/jasperserver/WEB-INF/Aspose.Words.JasperReports.lic"/>
-
 -->
-
 </bean>
-
-
-
 {{< /highlight >}}
 
 **Step 5b.**
@@ -311,117 +196,63 @@ Note that starting from JasperReports Server 5.6 SOAP Web Services feature is NO
 **XML**
 
 {{< highlight csharp >}}
-
- ...
-
-    <bean id="xmlExporter" class="com.jaspersoft.jasperserver.ws.axis2.XmlWSExporter" scope="prototype">
-
-        <property name="jasperReportsContext" ref="${bean.jasperReportsContext}"/>
-
-    </bean>
-
-    <!-- Aspose.Words for JasperReports START -->
-
-    <bean id="awDocExporter" class="com.aspose.words.jasperreports.ws.AWDocWSExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="awDocxExporter" class="com.aspose.words.jasperreports.ws.AWDocxWSExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="awHtmlExporter" class="com.aspose.words.jasperreports.ws.AWHtmlWSExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="awOdtExporter" class="com.aspose.words.jasperreports.ws.AWOdtWSExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="awRtfExporter" class="com.aspose.words.jasperreports.ws.AWRtfWSExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="awTxtExporter" class="com.aspose.words.jasperreports.ws.AWTxtWSExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <!-- Aspose.Words for JasperReports END -->
-
 ...
-
-
-
-{{< /highlight >}}
-
-**XML**
-
-{{< highlight csharp >}}
-
-     <util:map id="exportersMap">
-
-        ...
-
-        <!-- Aspose.Words for JasperReports START -->
-
-        <entry key="aw_doc" value-ref="awDocExporter"/>
-
-        <entry key="aw_docx" value-ref="awDocxExporter"/>
-
-        <entry key="aw_html" value-ref="awHtmlExporter"/>
-
-        <entry key="aw_odt" value-ref="awOdtExporter"/>
-
-        <entry key="aw_rtf" value-ref="awRtfExporter"/>
-
-        <entry key="aw_txt" value-ref="awTxtExporter"/>
-
-        <!-- Aspose.Words for JasperReports END -->
-
-    </util:map>
-
-
-
-{{< /highlight >}}
-
-**XML**
-
-{{< highlight csharp >}}
-
- <util:map id="exportParametersMap">
-
-    ...
-
+    <bean id="xmlExporter" class="com.jaspersoft.jasperserver.ws.axis2.XmlWSExporter" scope="prototype">
+        <property name="jasperReportsContext" ref="${bean.jasperReportsContext}"/>
+    </bean>
     <!-- Aspose.Words for JasperReports START -->
-
-    <entry key="aw_doc" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_docx" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_html" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_odt" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_rtf" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_txt" value-ref="aw_exportParameters"/>
-
+    <bean id="awDocExporter" class="com.aspose.words.jasperreports.ws.AWDocWSExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="awDocxExporter" class="com.aspose.words.jasperreports.ws.AWDocxWSExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="awHtmlExporter" class="com.aspose.words.jasperreports.ws.AWHtmlWSExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="awOdtExporter" class="com.aspose.words.jasperreports.ws.AWOdtWSExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="awRtfExporter" class="com.aspose.words.jasperreports.ws.AWRtfWSExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="awTxtExporter" class="com.aspose.words.jasperreports.ws.AWTxtWSExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
     <!-- Aspose.Words for JasperReports END -->
+...
+{{< /highlight >}}
 
+**XML**
+
+{{< highlight csharp >}}
+    <util:map id="exportersMap">
+        ...
+        <!-- Aspose.Words for JasperReports START -->
+        <entry key="aw_doc" value-ref="awDocExporter"/>
+        <entry key="aw_docx" value-ref="awDocxExporter"/>
+        <entry key="aw_html" value-ref="awHtmlExporter"/>
+        <entry key="aw_odt" value-ref="awOdtExporter"/>
+        <entry key="aw_rtf" value-ref="awRtfExporter"/>
+        <entry key="aw_txt" value-ref="awTxtExporter"/>
+        <!-- Aspose.Words for JasperReports END -->
+    </util:map>
+{{< /highlight >}}
+
+**XML**
+
+{{< highlight csharp >}}
+<util:map id="exportParametersMap">
+    ...
+    <!-- Aspose.Words for JasperReports START -->
+    <entry key="aw_doc" value-ref="aw_exportParameters"/>
+    <entry key="aw_docx" value-ref="aw_exportParameters"/>
+    <entry key="aw_html" value-ref="aw_exportParameters"/>
+    <entry key="aw_odt" value-ref="aw_exportParameters"/>
+    <entry key="aw_rtf" value-ref="aw_exportParameters"/>
+    <entry key="aw_txt" value-ref="aw_exportParameters"/>
+    <!-- Aspose.Words for JasperReports END -->
 </util:map>
-
 {{< /highlight >}}
 
 **Step 5c.**
@@ -431,117 +262,63 @@ In order to enable Aspose exporters with the **REST API** services of Jasper Rep
 **XML**
 
 {{< highlight csharp >}}
-
- ...
-
-    <bean id="localizedErrorDescriptorBuilder" class="com.jaspersoft.jasperserver.remote.exception.builders.LocalizedErrorDescriptorBuilder">
-
-        <constructor-arg ref="messageSource" />
-
-    </bean>
-
-
-
-    <!-- Aspose.Words for JasperReports START -->
-
-    <bean id="remoteAwDocExporter" class="com.aspose.words.jasperreports.remote.AWDocRemoteExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="remoteAwDocxExporter" class="com.aspose.words.jasperreports.remote.AWDocxRemoteExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="remoteAwHtmlExporter" class="com.aspose.words.jasperreports.remote.AWHtmlRemoteExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="remoteAwOdtExporter" class="com.aspose.words.jasperreports.remote.AWOdtRemoteExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="remoteAwRtfExporter" class="com.aspose.words.jasperreports.remote.AWRtfRemoteExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <bean id="remoteAwTxtExporter" class="com.aspose.words.jasperreports.remote.AWTxtRemoteExporter" scope="prototype">
-
-        <property name="exportParams" ref="aw_exportParameters"/>
-
-    </bean>
-
-    <!-- Aspose.Words for JasperReports END -->
-
 ...
-
-{{< /highlight >}}
-
-**XML**
-
-{{< highlight csharp >}}
-
- <util:map id="remoteExportersMap">
-
-        ...
-
-        <!-- Aspose.Words for JasperReports START -->
-
-        <entry key="aw_doc" value-ref="remoteAwDocExporter"/>
-
-        <entry key="aw_docx" value-ref="remoteAwDocxExporter"/>
-
-        <entry key="aw_html" value-ref="remoteAwHtmlExporter"/>
-
-        <entry key="aw_odt" value-ref="remoteAwOdtExporter"/>
-
-        <entry key="aw_rtf" value-ref="remoteAwRtfExporter"/>
-
-        <entry key="aw_txt" value-ref="remoteAwTxtExporter"/>
-
-        <!-- Aspose.Words for JasperReports END -->
-
-    </util:map>
-
-
-
-{{< /highlight >}}
-
-**XML**
-
-{{< highlight csharp >}}
-
- <util:map id="exportParametersMap">
-
-    ...
-
+    <bean id="localizedErrorDescriptorBuilder" class="com.jaspersoft.jasperserver.remote.exception.builders.LocalizedErrorDescriptorBuilder">
+        <constructor-arg ref="messageSource" />
+    </bean>
     <!-- Aspose.Words for JasperReports START -->
-
-    <entry key="aw_doc" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_docx" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_html" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_odt" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_rtf" value-ref="aw_exportParameters"/>
-
-    <entry key="aw_txt" value-ref="aw_exportParameters"/>
-
+    <bean id="remoteAwDocExporter" class="com.aspose.words.jasperreports.remote.AWDocRemoteExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="remoteAwDocxExporter" class="com.aspose.words.jasperreports.remote.AWDocxRemoteExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="remoteAwHtmlExporter" class="com.aspose.words.jasperreports.remote.AWHtmlRemoteExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="remoteAwOdtExporter" class="com.aspose.words.jasperreports.remote.AWOdtRemoteExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="remoteAwRtfExporter" class="com.aspose.words.jasperreports.remote.AWRtfRemoteExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
+    <bean id="remoteAwTxtExporter" class="com.aspose.words.jasperreports.remote.AWTxtRemoteExporter" scope="prototype">
+        <property name="exportParams" ref="aw_exportParameters"/>
+    </bean>
     <!-- Aspose.Words for JasperReports END -->
+...
+{{< /highlight >}}
 
+**XML**
+
+{{< highlight csharp >}}
+<util:map id="remoteExportersMap">
+        ...
+        <!-- Aspose.Words for JasperReports START -->
+        <entry key="aw_doc" value-ref="remoteAwDocExporter"/>
+        <entry key="aw_docx" value-ref="remoteAwDocxExporter"/>
+        <entry key="aw_html" value-ref="remoteAwHtmlExporter"/>
+        <entry key="aw_odt" value-ref="remoteAwOdtExporter"/>
+        <entry key="aw_rtf" value-ref="remoteAwRtfExporter"/>
+        <entry key="aw_txt" value-ref="remoteAwTxtExporter"/>
+        <!-- Aspose.Words for JasperReports END -->
+    </util:map>
+{{< /highlight >}}
+
+**XML**
+
+{{< highlight csharp >}}
+<util:map id="exportParametersMap">
+    ...
+    <!-- Aspose.Words for JasperReports START -->
+    <entry key="aw_doc" value-ref="aw_exportParameters"/>
+    <entry key="aw_docx" value-ref="aw_exportParameters"/>
+    <entry key="aw_html" value-ref="aw_exportParameters"/>
+    <entry key="aw_odt" value-ref="aw_exportParameters"/>
+    <entry key="aw_rtf" value-ref="aw_exportParameters"/>
+    <entry key="aw_txt" value-ref="aw_exportParameters"/>
+    <!-- Aspose.Words for JasperReports END -->
 </util:map>
-
 {{< /highlight >}}
 
 **Step 6.**

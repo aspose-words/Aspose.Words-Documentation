@@ -143,104 +143,60 @@ New saving format is introduced - PCL (Printer Command Language). Aspose.Words c
 New value was added to enum SaveFormat:
 
 {{< highlight csharp >}}
-
- SaveFormat.PCL
-
+SaveFormat.PCL
 {{< /highlight >}}
 
 Example of how to save document to PCL:
 
 {{< highlight csharp >}}
 
- // Load the document from disk.
-
+// Load the document from disk.
 Document doc = new Document(dataDir + "Document.doc");
-
 PclSaveOptions saveOptions = new PclSaveOptions();
-
 saveOptions.setSaveFormat(SaveFormat.PCL);
-
 saveOptions.setRasterizeTransformedElements(false);
 
 // Export the document as an PCL file.
-
 doc.save(dataDir + "Document.PclConversion_out.pcl", saveOptions);
-
 {{< /highlight >}}
 
 PclSaveOptions has following public options and methods:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a value determining whether or not complex transformed elements
-
 /// should be rasterized before saving to PCL document.
-
 /// Default is <c>true</c>.
-
 /// </summary>
-
 /// <remarks>
-
 /// PCL doesn't support some kind of transformations that are used by Aspose Words.
-
 /// E.g. rotated, skewed images and texture brushes. To properly render such elements
-
 /// rasterization process is used, i.e. saving to image and clipping.
-
 /// This process can take additional time and memory.
-
 /// If flag is set to <c>false</c>, some content in output may be different
-
 /// as compared with the source document.
-
 /// </remarks>
-
 public boolean getRasterizeTransformedElements()
-
 public void setRasterizeTransformedElements(boolean value)
-
 /// <summary>
-
 /// Adds information about font that is uploaded to the printer by manufacturer.
-
 /// </summary>
-
 /// <param name="fontFullName">Full name of the font (e.g. "Times New Roman Bold Italic").</param>
-
 /// <param name="fontPclName">Name of the font that is used in Pcl document.</param>
-
 /// <remarks>
-
 /// There are 52 fonts that are to be built in any printer according to Pcl specification.
-
 /// However manufactures can add some other fonts to their devices.
-
 /// </remarks>
-
 public void addPrinterFont(String fontFullName, String fontPclName);
-
 /// <summary>
-
 /// Name of the font that will be used
-
 /// if no expected font is found in printer and built-in fonts collections.
-
 /// </summary>
-
 /// <remarks>
-
 /// If no fallback is found, warning is generated and "Arial" font is used.
-
 /// </remarks>
-
 public String getFalllbackFontName()
-
 public void setFallbackFontName(String value)
-
-
 {{< /highlight >}}
 
 There is one major feature of PCL that is unsupported in current version of Aspose.Words i.e. custom fonts. It is rather big and complex problem, but we will implement this feature in future.
@@ -248,122 +204,65 @@ There is one major feature of PCL that is unsupported in current version of Aspo
 The following new public properties have been added into the PageSetup class to allow defining document grid behavior:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets the layout mode of this section. The value of the property is SectionLayoutMode integer constant.
-
 /// </summary>
-
 public int getLayoutMode()
-
 public void setLayoutMode(int value)
-
 /// <summary>
-
 /// Gets or sets the number of characters per line in the document grid.
-
 /// </summary>
-
 /// <remarks>
-
 /// Minimum value of the property is 1. Maximum value depends on page width and font size of the Normal
-
 /// style. Minimum character pitch is 90 percent of the font size. For example, maximum number of characters
-
 /// per line of a Letter page with one-inch margins is 43.
-
 /// By default, the property has a value, on which character pitch equals to font size of the Normal style.
-
 /// </remarks>
-
 public int getCharactersPerLine()
-
 public void setCharactersPerLine(int value)
-
 /// <summary>
-
 /// Gets or sets the number of lines per page in the document grid.
-
 /// </summary>
-
 /// <remarks>
-
 /// Minimum value of the property is 1. Maximum value depends on page height and font size of the Normal
-
 /// style. Minimum line pitch is 136 percent of the font size. For example, maximum number of lines per page of
-
 /// a Letter page with one-inch margins is 39.
-
 /// By default, the property has a value, on which line pitch is in 1.5 times greater than font size of the Normal style.
-
 /// </remarks>
-
 public int getLinesPerPage()
-
 public void setLinesPerPage(int value)
-
-
 {{< /highlight >}}
 
 Also the following public enum has been implemented:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the layout mode for a section allowing to define the document grid behavior.
-
 /// </summary>
-
 public enum SectionLayoutMode
-
 {
-
     /// <summary>
-
     /// Specifies that no document grid shall be applied to the contents of the corresponding section in the document.
-
     /// </summary>
-
     Default = 0,
-
     /// <summary>
-
     /// Specifies that the corresponding section shall have both the additional line pitch and character pitch added to
-
     /// each line and character within it in order to maintain a specific number of lines per page and characters per line.
-
     /// Characters will not be automatically aligned with gridlines on typing.
-
     /// </summary>
-
     Grid = 1,
-
     /// <summary>
-
     /// Specifies that the corresponding section shall have additional line pitch added to each line within it in order
-
     /// to maintain the specified number of lines per page.
-
     /// </summary>
-
     LineGrid = 2,
-
     /// <summary>
-
     /// Specifies that the corresponding section shall have both the additional line pitch and character pitch added to
-
     /// each line and character within it in order to maintain a specific number of lines per page and characters per line.
-
     /// Characters will be automatically aligned with gridlines on typing.
-
     /// </summary>
-
     SnapToChars = 3
-
 }
-
 {{< /highlight >}}
 
 The Document Grid tab becomes visible in the Page Setup dialog of MS Word if any Asian language is defined as editing language.
@@ -376,21 +275,15 @@ Following methods were added to the **Comment** class.
 
 {{< highlight csharp >}}
 
- // Returns the parent Comment object. Returns null for top-level comments.
-
+// Returns the parent Comment object. Returns null for top-level comments.
 public Comment getAncestor()
 
 // Returns a collection of <see cref="Comment"/> objects that are immediate children of the specified comment.
-
 public CommentCollection getReplies()
 
 // Gets or sets flag indicating that the comment has been marked done.
-
 public boolean getDone()
-
 public void setDone(boolean value)
-
-
 {{< /highlight >}}
 
 Added new public class **CommentCollection** which represents collection of Comment nodes.
@@ -398,74 +291,43 @@ Added new public class **CommentCollection** which represents collection of Comm
 **UC**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(filename);
-
+Document doc = new Document(filename);
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
-
-
-
 Comment parentComment = (Comment) comments.get(0);
-
-
    for (Comment childComment : parentComment.getReplies()) {
-
-
-
         // Get comment parent and status.
-
         System.out.println(childComment.getAncestor().getId());
-
         System.out.println(childComment.getDone());
 
-
-
         // And update comment Done mark.
-
         childComment.setDone(true);
-
     }
-
 {{< /highlight >}}
 ### **WORDSNET-14947. DistanceLeft, DistanceRight, DistanceTop, DistanceBottom Properties Added in Table Class**
 Added new public read-only properties to the **Table** class.
 
 {{< highlight csharp >}}
-
- // Gets distance between table left and the surrounding text, in points.
-
+// Gets distance between table left and the surrounding text, in points.
 public double getDistanceLeft()
 
 // Gets distance between table right and the surrounding text, in points.
-
 public double getDistanceRight()
 
 // Gets distance between table top and the surrounding text, in points.
-
 public double getDistanceTop()
 
 // Gets distance between table bottom and the surrounding text, in points.
-
 public double getDistanceBottom()
-
 {{< /highlight >}}
 
 **Typical UC**
 
 {{< highlight csharp >}}
-
- Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
-
-
+Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println(table.getDistanceTop());
-
 System.out.println(table.getDistanceBottom());
-
 System.out.println(table.getDistanceRight());
-
 System.out.println(table.getDistanceLeft());
-
-
 {{< /highlight >}}
 ### **WORDSNET-15497 - Compression of Document Structure Data and Cross-Reference Table in PDF 1.5 Output**
 Now document structure data and cross-reference table are compressed when saving to PDF 1.5. This changes do not affect PDF/A-1 output due to limitations in specification.
@@ -475,137 +337,84 @@ Now document structure data and cross-reference table are compressed when saving
 New public property NumberFormat is available in the ChartDataLabel class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Returns number format of the parent element.
-
 /// </summary>
-
 public ChartNumberFormat getNumberFormat()
-
 {{< /highlight >}}
 
 ChartNumberFormat class represents number formatting of the parent element and contains the following public properties:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets the format code applied to a data label.
-
 /// </summary>
-
 /// <remarks>
-
 /// Number formatting is used to change the way a value appears in data label and can be used in some very creative ways.
-
 /// The examples of number formats:
-
 /// <para>Number - "#,##0.00"</para>
-
 /// <para>Currency - "\"$\"#,##0.00"</para>
-
 /// <para>Time - "\[$-x-systime\]h:mm:ss AM/PM"</para>
-
 /// <para>Date - "d/mm/yyyy"</para>
-
 /// <para>Percentage - "0.00%"</para>
-
 /// <para>Fraction - "# ?/?"</para>
-
 /// <para>Scientific - "0.00E+00"</para>
-
 /// <para>Text - "@"</para>
-
 /// <para>Accounting - "_-\"$\"\* #,##0.00_-;-\"$\"\* #,##0.00_-;_-\"$\"\* \"-\"??_-;_-@_-"</para>
-
 /// <para>Custom with color - "\[Red\]-#,##0.0"</para>
-
 /// </remarks>
-
 public java.lang.String getFormatCode()
-
 public void setFormatCode(java.lang.String value)
-
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether the format code is linked to a source cell.
-
 /// Default is true.
-
 /// </summary>
-
 /// <remarks>The NumberFormat will be reset to general if format code is linked to source.</remarks>
-
 public boolean isLinkedToSource()
-
 public boolean isLinkedToSource(boolean value)
-
 {{< /highlight >}}
 
 **UC:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Add chart with default data.
-
 Shape shape = builder.insertChart(ChartType.LINE, 432, 252);
-
 Chart chart = shape.getChart();
-
 chart.getTitle().setText("Data Labels With Different Number Format");
 
 // Delete default generated series.
-
 chart.getSeries().clear();
 
 // Add new series
-
 ChartSeries series0 = chart.getSeries().add("AW Series 0", new String[] { "AW0", "AW1", "AW2" }, new double[] { 2.5, 1.5, 3.5 });
 
 // Add DataLabel to the first point of the first series.
-
 ChartDataLabel chartDataLabel0 = series0.getDataLabels().add(0);
-
 chartDataLabel0.setShowValue(true);
 
 // Set currency format code.
-
 chartDataLabel0.getNumberFormat().setFormatCode("\"$\"#,##0.00");
-
 ChartDataLabel chartDataLabel1 = series0.getDataLabels().add(1);
-
 chartDataLabel1.setShowValue(true);
 
 // Set date format code.
-
 chartDataLabel1.getNumberFormat().setFormatCode("d/mm/yyyy");
-
 ChartDataLabel chartDataLabel2 = series0.getDataLabels().add(2);
-
 chartDataLabel2.setShowValue(true);
 
 // Set percentage format code.
-
 chartDataLabel2.getNumberFormat().setFormatCode("0.00%");
 
 // Or you can set format code to be linked to a source cell,
 
 // in this case NumberFormat will be reset to general and inherited from a source cell.
-
 chartDataLabel2.getNumberFormat().isLinkedToSource(true);
-
-
 {{< /highlight >}}
 ### **WORDSNET-15641 - Implemented Signing Signature Line in Word Documents**
 
@@ -613,301 +422,167 @@ chartDataLabel2.getNumberFormat().isLinkedToSource(true);
 \1. Added new public property for SignatureLine class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets identifier for this signature line.
-
 /// <p>This identifier can be associated with a digital signature, when signing document using <see cref="DigitalSignatureUtil"/>.
-
 /// This value must be unique and by default it is randomly generated with <see cref="Guid.NewGuid"/>.</p>
-
 /// </summary>
-
 public java.util.UUID getId()
-
 public void setId(java.util.UUID value)
-
-
 {{< /highlight >}}
 
 \2. Added new public class SignOptions:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify options for document signing.
-
 /// </summary>
-
 public class SignOptions
-
 {{< /highlight >}}
 
 It has the following public properties:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies comments on the digital signature.
-
 /// Default value is <see cref="string.Empty"/>.
-
 /// </summary>
-
 public java.lang.String getComments()
-
 public void setComments(java.lang.String value)
-
 /// <summary>
-
 /// The date of signing.
-
 /// Default value is <see cref="DateTime.Now"/>.
-
 /// </summary>
-
 public java.util.Date getSignTime()
-
 public void setSignTime(java.util.Date value)
-
 /// <summary>
-
 /// Signature line identifier.
-
 /// Default value is <see cref="Guid.Empty"/>.
-
 /// </summary>
-
 /// <remarks>
-
 /// When set, it associates <see cref="SignatureLine"/> with corresponding <see cref="DigitalSignature"/>.
-
 /// </remarks>
-
 public java.util.UUID getSignatureLineId()
-
 public void setSignatureLineId(java.util.UUID value)
-
 /// <summary>
-
 /// The image that will be shown in associated <see cref="SignatureLine"/>.
-
 /// Default value is <c>null</c>.
-
 /// </summary>
-
 public byte[] getSignatureLineImage()
-
 public void setSignatureLineImage(byte[] value)
-
 /// <summary>
-
 /// The password to decrypt source document.
-
 /// Default value is <see cref="string.Empty"/>.
-
 /// </summary>
-
 /// <remarks>
-
 /// If OOXML document is encrypted, you should provide decryption password
-
 /// to decrypt source document before it will be signed.
-
 /// This is not required for documents in binary DOC format.
-
 /// </remarks>
-
 public java.lang.String getDecryptionPassword()
-
 public void setDecryptionPassword(java.lang.String value)
-
-
 {{< /highlight >}}
 
 \3. New public methods are introduced in DigitalSignatureUtil class for signing documents:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
  /// Signs source document using given <see cref="CertificateHolder"/> and <see cref="SignOptions"/>
-
  /// with digital signature and writes signed document to destination stream.
-
  /// <p>Document should be either <see cref="LoadFormat.Doc"/> or <see cref="LoadFormat.Docx"/>.</p>
-
  /// <p><b>Output will be written to the start of stream and stream size will be updated with content length.</b></p>
-
  /// </summary>
-
  /// <param name="srcStream">The stream which contains the document to sign.</param>
-
  /// <param name="dstStream">The stream that signed document will be written to.</param>
-
  /// <param name="certHolder"><see cref="CertificateHolder"/> object with certificate that used to sign file.
-
  /// <ms>The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set.</ms></param>
-
  /// <param name="signOptions"><see cref="SignOptions"/> object with various signing options.</param>
-
  public static void sign(InputStream srcStream, InputStream dstStream, CertificateHolder certHolder, SignOptions signOptions)
-
 /// <summary>
-
 /// Signs source document using given <see cref="CertificateHolder"/> and <see cref="SignOptions"/>
-
 /// with digital signature and writes signed document to destination file.
-
 /// <p>Document should be either <see cref="LoadFormat.Doc"/> or <see cref="LoadFormat.Docx"/>.</p>
-
 /// </summary>
-
 /// <param name="srcFileName">The file name of the document to sign.</param>
-
 /// <param name="dstFileName">The file name of the signed document output.</param>
-
 /// <param name="certHolder"><see cref="CertificateHolder"/> object with certificate that used to sign file.
-
 /// <ms>The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set.</ms></param>
-
 /// <param name="signOptions"><see cref="SignOptions"/> object with various signing options.</param>
-
 public static void sign(string srcFileName, string dstFileName, CertificateHolder certHolder, SignOptions signOptions)
-
 /// <summary>
-
 /// Signs source document using given <see cref="CertificateHolder"/> with digital signature
-
 /// and writes signed document to destination stream.
-
 /// <p>Document should be either <see cref="LoadFormat.Doc"/> or <see cref="LoadFormat.Docx"/>.</p>
-
 /// <p><b>Output will be written to the start of stream and stream size will be updated with content length.</b></p>
-
 /// </summary>
-
 /// <param name="srcStream">The stream which contains the document to sign.</param>
-
 /// <param name="dstStream">The stream that signed document will be written to.</param>
-
 /// <param name="certHolder"><see cref="CertificateHolder"/> object with certificate that used to sign file.
-
 /// <ms>The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set.</ms></param>
-
 public static void sign(InputStream srcStream, InputStream dstStream, CertificateHolder certHolder)
-
 /// <summary>
-
 /// Signs source document using given <see cref="CertificateHolder"/> with digital signature
-
 /// and writes signed document to destination file.
-
 /// <p>Document should be either <see cref="LoadFormat.Doc"/> or <see cref="LoadFormat.Docx"/>.</p>
-
 /// </summary>
-
 /// <param name="srcFileName">The file name of the document to sign.</param>
-
 /// <param name="dstFileName">The file name of the signed document output.</param>
-
 /// <param name="certHolder"><see cref="CertificateHolder"/> object with certificate that used to sign file.
-
 /// <ms>The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set.</ms></param>
-
 public static void sign(string srcFileName, string dstFileName, CertificateHolder certHolder)
-
 {{< /highlight >}}
 
 \4. Old signing methods in DigitalSignatureUtil are marked as 'Obsolete':
 
 {{< highlight csharp >}}
-
- public static void sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
-
+public static void sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
 public static void sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments,DateTime signTime);
-
 public static void sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
-
 public static void sign(InputStream srcStream, InputStream dstStream, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
-
 public static void sign(InputStream srcStream, InputStream dstStream, CertificateHolder certHolder, string comments, DateTime signTime);
-
 public static void sign(InputStream srcStream, InputStream dstStream, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
-
 {{< /highlight >}}
 
 **UC1 - simple document signing:**
 
 {{< highlight csharp >}}
-
- CertificateHolder certHolder = CertificateHolder.create(dataDir + "temp.pfx", "password");
-
+CertificateHolder certHolder = CertificateHolder.create(dataDir + "temp.pfx", "password");
 DigitalSignatureUtil.sign(dataDir + "Document.Signed.docx", dataDir + "Document.Signed_out.docx", certHolder);
-
 {{< /highlight >}}
 
 **UC2 - signing encrypted document:**
 
 {{< highlight csharp >}}
-
- SignOptions signOptions = new SignOptions();
-
+SignOptions signOptions = new SignOptions();
 signOptions.setDecryptionPassword("decryptionPassword");
-
 CertificateHolder certHolder = CertificateHolder.create(dataDir + "temp.pfx", "password");
-
 DigitalSignatureUtil.sign(dataDir + "Document.Signed.docx", dataDir + "Document.EncryptedDocument_out.docx", certHolder, signOptions);
-
 {{< /highlight >}}
 
 **UC3 - signing existing signature line:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(dataDir + "Document.Signed.docx");
-
+Document doc = new Document(dataDir + "Document.Signed.docx");
 SignatureLine signatureLine = ((Shape)doc.getFirstSection().getBody().getChild(NodeType.SHAPE, 0, true)).getSignatureLine();
-
 SignOptions signOptions = new SignOptions();
-
 signOptions.setSignatureLineId(signatureLine.getId());
-
 java.nio.file.Path path = java.nio.file.Paths.get(dataDir + "SignatureImage.emf");
-
 signOptions.setSignatureLineImage(Files.readAllBytes(path));
-
 CertificateHolder certHolder = CertificateHolder.create(dataDir + "temp.pfx", "password");
-
 DigitalSignatureUtil.sign(dataDir + "Document.Signed.docx", dataDir + "Document.Signed.ExistingSignatureLine.docx", certHolder, signOptions);
-
 {{< /highlight >}}
 
 **UC4 - creating and signing new signature line:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 SignatureLine signatureLine = builder.insertSignatureLine(new SignatureLineOptions()).getSignatureLine();
-
 doc.save(dataDir + "Document.NewSignatureLine.docx");
-
 SignOptions signOptions = new SignOptions();
-
 signOptions.setSignatureLineId(signatureLine.getId());
-
 java.nio.file.Path path = java.nio.file.Paths.get(dataDir + "SignatureImage.emf");
-
 signOptions.setSignatureLineImage(Files.readAllBytes(path));
-
 CertificateHolder certHolder = CertificateHolder.create(dataDir + "temp.pfx", "password");
-
 DigitalSignatureUtil.sign(dataDir + "Document.NewSignatureLine.docx", dataDir + "Document.NewSignatureLine.docx_out.docx", certHolder, signOptions);
-
 {{< /highlight >}}

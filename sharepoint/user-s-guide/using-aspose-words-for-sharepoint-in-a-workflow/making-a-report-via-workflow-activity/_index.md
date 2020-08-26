@@ -45,27 +45,16 @@ However, this example uses a fixed URL set to the report template by editing the
 For example, if the report is expecting two parameters, configure the data collection activity to get two fields. The field names must match the parameter names in the report definition. Here is a fragment of the report definition with parameter description.
 
 {{< highlight csharp >}}
-
-   <Parameters>
-
+  <Parameters>
     <String>
-
       <Name>@comment</Name>
-
       <Prompt>This is a test report parameter of type string</Prompt>
-
     </String>
-
     <Int32>
-
       <Name>@numericValue</Name>
-
       <Prompt>This is a test numeric report parameter</Prompt>
-
     </Int32>
-
   </Parameters>
-
 {{< /highlight >}}
 
 **Configuring the field for the @comment parameter in the data collection activity.** 

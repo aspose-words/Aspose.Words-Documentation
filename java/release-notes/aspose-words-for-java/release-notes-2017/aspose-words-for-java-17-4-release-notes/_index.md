@@ -130,159 +130,79 @@ WORDSNET-14944 has been resolved.
 We have added an interface allowing to implement a custom formatting of field's result. The original request was about adding a feature to remove spaces between sign and digits during mail merge. However, we decided to implement a more generic and flexible solution because our API is already overwhelmed with different specific properties.
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 Document document = builder.getDocument();
-
-
-
 Field field = builder.insertField("=-1234567.89 \\# \"### ### ###.000\"", null);
-
 document.getFieldOptions().setResultFormatter(new FieldResultFormatter("[%0$s]", null));
-
-
-
 field.update();
-
 document.save("FormatFieldResult_out.docx");
-
-
-
 /////implementation of IFieldResultFormatter////////
-
 public class FieldResultFormatter implements IFieldResultFormatter {
-
 	private final String mNumberFormat;
-
 	private final String mDateFormat;
-
 	private final ArrayList mNumberFormatInvocations = new ArrayList();
-
 	private final ArrayList mDateFormatInvocations = new ArrayList();
-
-
 	public FieldResultFormatter(String numberFormat, String dateFormat) {
-
 		mNumberFormat = numberFormat;
-
 		mDateFormat = dateFormat;
-
 	}
-
-
 	public FieldResultFormatter() {
-
 		mNumberFormat = null;
-
 		mDateFormat = null;
-
 	}
-
-
 	public String format(String arg0, int arg1) {
-
 		// TODO Auto-generated method stub
-
 		return null;
-
 	}
-
-
 	public String format(double arg0, int arg1) {
-
 		// TODO Auto-generated method stub
-
 		return null;
-
 	}
-
-
 	public String formatNumeric(double value, String format) {
-
 		// TODO Auto-generated method stub
-
 		mNumberFormatInvocations.add(new Object[] { value, format });
-
 		return (mNumberFormat.isEmpty() || mNumberFormat == null) ? null
-
 				: String.format(mNumberFormat, value);
-
 	}
-
-
 	public String formatDateTime(Date value, String format, int calendarType) {
-
 		mDateFormatInvocations
-
 				.add(new Object[] { value, format, calendarType });
-
 		return (mDateFormat.isEmpty() || mDateFormat == null) ? null : String
-
 				.format(mDateFormat, value);
-
 	}
-
 }
-
 {{< /highlight >}}
 ### **Added Feature to Set Horizontal and Vertical Resolution of Output Image**
 Previously it was one property Resolution that set both vertical and horizontal resolution to the same values.
 Now new public properties HorizontalResolution and VerticalResolution are added into the ImageSaveOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Gets or sets the horizontal resolution for the generated images, in dots per inch.
-
-/// </summary>
-
-/// <remarks>
-
-/// <para>This property has effect only when saving to raster image formats.</para>
-
-/// <p>The default value is 96.</p>
-
-/// </remarks>
-
-public float HorizontalResolution {get;set;}
-
-
 /// <summary>
-
-/// Gets or sets the vertical resolution for the generated images, in dots per inch.
-
+/// Gets or sets the horizontal resolution for the generated images, in dots per inch.
 /// </summary>
-
 /// <remarks>
-
 /// <para>This property has effect only when saving to raster image formats.</para>
-
 /// <p>The default value is 96.</p>
-
 /// </remarks>
-
+public float HorizontalResolution {get;set;}
+/// <summary>
+/// Gets or sets the vertical resolution for the generated images, in dots per inch.
+/// </summary>
+/// <remarks>
+/// <para>This property has effect only when saving to raster image formats.</para>
+/// <p>The default value is 96.</p>
+/// </remarks>
 public float VerticalResolution {get;set;}
-
 {{< /highlight >}}
 
 Please note, that Resolution property became write-only:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Sets both horizontal and vertical resolution for the generated images, in dots per inch.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>This property has effect only when saving to raster image formats.</para>
-
 /// </remarks>
-
 public float Resolution {set;}
-
 {{< /highlight >}}

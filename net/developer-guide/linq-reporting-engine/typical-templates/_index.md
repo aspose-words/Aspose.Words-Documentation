@@ -75,78 +75,48 @@ You can download template file of this example from [here](https://github.com/as
 ### **Bulleted List Template**
 #### **Template Example**
 {{< highlight csharp >}}
-
- We provide support for the following clients:
-
+We provide support for the following clients:
     * <<foreach [in clients]>><<[Name]>>
-
 <</foreach>>
-
 {{< /highlight >}}
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/BulletedList.doc).
 #### **Report Example**
 {{< highlight csharp >}}
-
- We provide support for the following clients:
-
+We provide support for the following clients:
     * A Company
-
     * B Ltd.
-
     * C & D
-
     * E Corp.
-
     * F & Partners
-
     * G & Co.
-
     * H Group
-
     * I & Sons
-
     * J Ent.
-
 {{< /highlight >}}
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-BulletedList-BulletedList.cs" >}}
 ### **Numbered List Template**
 #### **Template Example**
 {{< highlight csharp >}}
-
- We provide support for the following clients:
-
+We provide support for the following clients:
     1. <<foreach [in clients]>><<[Name]>>
-
 <</foreach>>
-
 {{< /highlight >}}
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/NumberedList.doc).
 #### **Report Example**
 {{< highlight csharp >}}
-
- We provide support for the following clients:
-
+We provide support for the following clients:
     1. A Company
-
     2. B Ltd.
-
     3. C & D
-
     4. E Corp.
-
     5. F & Partners
-
     6. G & Co.
-
     7. H Group
-
     8. I & Sons
-
     9. J Ent.
-
 {{< /highlight >}}
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-NumberedList-NumberedList.cs" >}}
@@ -179,17 +149,29 @@ You can download template file of this example from [here](https://github.com/as
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> <<foreach [in managers]>><<[Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Contracts.Sum(</p><p>c => c.Price)]>><</foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Sum(</p><p>m => m.Contracts.Sum(</p><p>c => c.Price))]>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> <<foreach [in managers]>><<[Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[Contracts.Sum(</p><p>c => c.Price)]>><</foreach>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[Sum(</p><p>m => m.Contracts.Sum(</p><p>c => c.Price))]>></p><p>{{< /highlight >}}</p>|
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableList.doc).
 #### **Report Example**
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 2300000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 800000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 4300000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 2300000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 1200000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 800000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 4300000</p><p>{{< /highlight >}}</p>|
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableList-InTableList.cs" >}}
 ### **In-Table List Template with Running (Progressive) Total**
 #### **Template Example**
@@ -322,28 +304,60 @@ You can download template file of this example from [here](https://github.com/as
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> <<foreach [in managers]>><<[Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Contracts.Sum(</p><p>c => c.Price)]>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> <<foreach [in Contracts]>> <<[Client.Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Price]>><</foreach>><<</p><p>/foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Sum(</p><p>m => m.Contracts.Sum(</p><p>c => c.Price))]>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> <<foreach [in managers]>><<[Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[Contracts.Sum(</p><p>c => c.Price)]>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> <<foreach [in Contracts]>> <<[Client.Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[Price]>><</foreach>><<</p><p>/foreach>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[Sum(</p><p>m => m.Contracts.Sum(</p><p>c => c.Price))]>></p><p>{{< /highlight >}}</p>|
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableMasterDetail.doc).
 #### **Report Example**
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 2300000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   A Company</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   B Ltd.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 750000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   C & D</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 350000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   E Corp.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 650000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   F & Partners</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 550000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 800000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   G & Co.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 350000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   H Group</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 250000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   I & Sons</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 100000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   J Ent.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 100000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 4300000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 2300000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   A Company</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 1200000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   B Ltd.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 750000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   C & D</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 350000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 1200000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   E Corp.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 650000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   F & Partners</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 550000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 800000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   G & Co.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 350000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   H Group</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 250000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   I & Sons</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 100000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   J Ent.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 100000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 4300000</p><p>{{< /highlight >}}</p>|
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableMasterDetail-InTableMasterDetail.cs" >}}
 ### **Pie Chart Template**
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/PieChart.docx).

@@ -16,31 +16,19 @@ Usage: CHANGE_MARGINS=“L; R; T; B”, where L is left, R is right, T is top, B
 **Java**
 
 {{< highlight csharp >}}
-
- import com.aspose.words.jasperreports.*;
-
-
-
+import com.aspose.words.jasperreports.*;
 AWDocExporter exporter = new AWDocExporter();
 
 // Decrease bottom margin by 24pt
-
 exporter.setParameter(AWExporterParameter.CHANGE_MARGINS, ";;;-24pt");
-
 exporter.exportReport(); 
-
 {{< /highlight >}}
 #### **JasperServer**
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <!-- Decrease bottom margin by 24pt -->
-
     <property name="changeMargins" value=";;;-24pt"/>
-
 </bean>
-
 {{< /highlight >}}

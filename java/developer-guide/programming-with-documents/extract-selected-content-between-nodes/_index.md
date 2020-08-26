@@ -257,9 +257,6 @@ Below example shows how to save a document in TXT format.
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(getMyDir() + "Document.doc");
-
+Document doc = new Document(getMyDir() + "Document.doc");
 doc.save(getMyDir() + "Document.ConvertToTxt Out.txt");
-
 {{< /highlight >}}

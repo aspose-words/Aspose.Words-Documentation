@@ -22,49 +22,31 @@ The field facade provides helpful methods such as getting the field code and f
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Document.TableOfContents.doc");
-
+Document doc = new Document(MyDir + "Document.TableOfContents.doc");
 FieldStart fieldStart = (FieldStart)doc.GetChild(NodeType.FieldStart, 0, true);
 
 // Retrieve the facade object which represents the field in the document.
-
 Field field = fieldStart.GetField();
-
 Console.WriteLine("Field code:" + field.GetFieldCode());
-
 Console.WriteLine("Field result: " + field.Result);
-
 Console.WriteLine("Is locked: " + field.IsLocked);
 
 // This updates only this field in the document.
-
 field.Update();
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document(MyDir & "Document.TableOfContents.doc")
-
+Dim doc As New Document(MyDir & "Document.TableOfContents.doc")
 Dim fieldStart As FieldStart = CType(doc.GetChild(NodeType.FieldStart, 0, True), FieldStart)
-
 ' Retrieve the facade object which represents the field in the document.
-
 Dim field As Field = fieldStart.GetField()
-
 Console.WriteLine("Field code:" & field.GetFieldCode())
-
 Console.WriteLine("Field result: " & field.Result)
-
 Console.WriteLine("Is locked: " & field.IsLocked)
-
 ' This updates only this field in the document.
-
 field.Update()
-
 {{< /highlight >}}
 ### **Added FieldCollection to Range**
 We have implemented a **FieldCollection** class that is very similar to **BookmarkCollection**. The **Range.Fields** property now allows to access all fields based on field starts within a node's range.
@@ -74,29 +56,20 @@ We have implemented a **FieldCollection** class that is very similar to **Boo
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Document.TableOfContents.doc");
-
+Document doc = new Document(MyDir + "Document.TableOfContents.doc");
 Field field = doc.Range.Fields[0];
 
 // This should be the first field in the document - a TOC field.
-
 Console.WriteLine(field.Type);
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document(MyDir & "Document.TableOfContents.doc")
-
+Dim doc As New Document(MyDir & "Document.TableOfContents.doc")
 Dim field As Field = doc.Range.Fields(0)
-
 ' This should be the first field in the document - a TOC field.
-
 Console.WriteLine(field.Type)
-
 {{< /highlight >}}
 ### **Discontinued Support for .NET Framework 1.1**
 To make things better and easier for both our developers and the users of Aspose.Words, we have decided to dismiss support for the .NET Framework 1.1 from the Aspose.Words for .NET product. This means starting from this release we no longer ship the special DLLs targeting the .NET Framework 1.1 with Aspose.Words for .NET.
@@ -118,54 +91,30 @@ These fields are an alternative way to produce numbered lists in a document. The
 Import of images from HTML files using the object, embed and iframe tags is now possible using Aspose.Words 11.3.0.
 
 {{< highlight csharp >}}
-
- <html>
-
+<html>
    <body>
-
       <div>
-
          <h1>Embed SVG with the EMBED Tag</h1>
-
          <embed src="circle1.svg" type="image/svg+xml" />
-
          <h1>Embed SVG with the OBJECT Tag</h1>
-
          <object data="circle1.svg" type="image/svg+xml"></object>
-
          <h1>Embed SVG with the IFRAME Tag</h1>
-
          <iframe src="circle1.svg"></iframe></div>
-
    </body>
-
 </html>
-
 {{< /highlight >}}
 ### **SVG Images are Supported on HTML Import**
 Aspose.Words now supports import of SVG images from HTML. Internally in Aspose.Words document model the SVG images are converted to PNG images using resolution of 96 dpi. If width or height of SVG images is not specified or set to 0 then default value of 100pt is used.
 
 {{< highlight csharp >}}
-
- <html>
-
+<html>
    <body>
-
       <div>
-
          <h1>Embed SVG code directly into the HTML</h1>
-
          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-
             <circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
-
          </svg>
-
       </div>
-
    </body>
-
 </html>
-
-
 {{< /highlight >}}

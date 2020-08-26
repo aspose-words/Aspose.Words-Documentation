@@ -92,9 +92,7 @@ The Aspose.Words looks through user-defined sources which was set with the metho
 **Java**
 
 {{< highlight csharp >}}
-
- fontSettings.setFontsFolder("/home/user/MyFonts", true);
-
+fontSettings.setFontsFolder("/home/user/MyFonts", true);
 {{< /highlight >}}
 
 In case an explicit replacement has been specified, Aspose.Words replaces the missing font with the user's suggestion:
@@ -102,9 +100,7 @@ In case an explicit replacement has been specified, Aspose.Words replaces the mi
 **Java**
 
 {{< highlight csharp >}}
-
- fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PMingLiU-ExtB", "Liberation Serif");
-
+fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PMingLiU-ExtB", "Liberation Serif");
 {{< /highlight >}}
 
 If none of the rules worked, Aspose.Words check the internal replacement table. If the table contains information about a good fit then the font gets replaced. In our case Aspose.Words will select Typeface.SERIF. But if the table doesn’t know anything about the requested font then Aspose.Words picks up a font based on special MS Word rules or the closest distance in Panose space.
@@ -115,9 +111,7 @@ The list of folders where the search will be performed can be found by calling t
 **Java**
 
 {{< highlight csharp >}}
-
- SystemFontSource().getAvailableFonts()
-
+SystemFontSource().getAvailableFonts()
 {{< /highlight >}}
 ## **Loading Fonts from Folder**
 If the document being processed contains links to fonts that are not on the system, or you don't want to add them to the system folder, or you lack permissions, then the best solution would be to add a folder with your own fonts using the SetFontsSources method. This will allow replacing the system source with a user source. Aspose.Words will no longer look for fonts in the registry or Windows\Font folder and instead only scan for fonts within the specified folder(s). The GetFontSources method will return the corresponding values.
@@ -151,9 +145,7 @@ If you don’t want to use system fonts at all, Aspose.Words allows you to ignor
 **Java**
 
 {{< highlight csharp >}}
-
- FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
-
+FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
 {{< /highlight >}}
 
 

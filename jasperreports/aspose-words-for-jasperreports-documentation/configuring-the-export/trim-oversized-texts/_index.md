@@ -14,17 +14,10 @@ By default, value of TRIM_OVERSIZED_TEXTS parameter is **false**. This means tha
 **In JasperReports:**
 
 {{< highlight csharp >}}
-
- import com.aspose.words.jasperreports.*;
-
-
-
+import com.aspose.words.jasperreports.*;
 AWDocExporter exporter = new AWDocExporter();
-
 exporter.setParameter(AWExporterParameter.TRIM_OVERSIZED_TEXTS, true);
-
 exporter.exportReport();
-
 {{< /highlight >}}
 
 **In JasperServer:**

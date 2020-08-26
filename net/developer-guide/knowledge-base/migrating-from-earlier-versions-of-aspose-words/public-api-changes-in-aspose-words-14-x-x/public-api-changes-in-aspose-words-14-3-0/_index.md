@@ -52,9 +52,7 @@ Aspose.Words now supports insertion of embedded OLE objects such as another Wor
 **Overload 1**
 
 {{< highlight csharp >}}
-
- public Shape DocumentBuilder.InsertOleObject(Stream stream, string progId, bool asIcon, System.Drawing.Image presentation)
-
+public Shape DocumentBuilder.InsertOleObject(Stream stream, string progId, bool asIcon, System.Drawing.Image presentation)
 {{< /highlight >}}
 
 **stream -** Binary data of OLE object. It is up to the user what this data is. Note that this method has no 'isLinked' parameter contrary to the next method. It is impossible to insert object linked to stream.
@@ -68,9 +66,7 @@ Aspose.Words now supports insertion of embedded OLE objects such as another Wor
 **Overload 2**
 
 {{< highlight csharp >}}
-
- public Shape DocumentBuilder.InsertOleObject(string fileName, bool isLinked, bool asIcon, System.Drawing.Image presentation)
-
+public Shape DocumentBuilder.InsertOleObject(string fileName, bool isLinked, bool asIcon, System.Drawing.Image presentation)
 {{< /highlight >}}
 
 **fileName -** The file being inserted as OLE object. Note that 'progId' is missed in this method because Aspose.Words detects it using file extension. So, file extension should be valid. Otherwise object is inserted as Packager OLE object.
@@ -82,31 +78,19 @@ The usage of above two methods is as follows:
 **UC1 Insert embedded Excel 97-2003 document as iconic OLE object from stream using predefined image**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 Stream memoryStream = File.OpenRead(MyDir + "Book1.xls");
-
 Shape oleObject = builder.InsertOleObject(memoryStream, "Excel.Sheet.8", true, null);
-
 doc.Save(MyDir + @"out.docx");
-
 {{< /highlight >}}
 
 **UC2 Insert linked Word document from file as normal OLE object using custom presentation image**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 Image image = Image.FromFile(MyDir + "Aspose.Words.png");
-
 Shape oleObject = builder.InsertOleObject(MyDir + "Doc1.docx", true, false, image);
-
 doc.Save(MyDir + @"out.docx");
-
 {{< /highlight >}}

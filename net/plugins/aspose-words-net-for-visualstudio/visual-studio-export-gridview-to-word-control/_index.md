@@ -96,17 +96,13 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 1. Add this line to the top of the page, control or MasterPage 
 
 {{< highlight csharp >}}
-
- <%@ Register assembly="Aspose.Words.GridViewExport" namespace="Aspose.Words.GridViewExport" tagprefix="aspose" %>
-
+<%@ Register assembly="Aspose.Words.GridViewExport" namespace="Aspose.Words.GridViewExport" tagprefix="aspose" %>
 {{< /highlight >}}
 
 1. Add the following to a place on your ASP.NET page, control or masterpage where you want the control to be added 
 
 {{< highlight csharp >}}
-
- <aspose:ExportGridViewToWord ID="ExportGridViewToWord1" runat="server"></aspose:ExportGridViewToWord>
-
+<aspose:ExportGridViewToWord ID="ExportGridViewToWord1" runat="server"></aspose:ExportGridViewToWord>
 {{< /highlight >}}
 ### **FAQs**
 Common questions and issues you might face while using this Control
@@ -132,22 +128,13 @@ The following properties are exposed to configure and use cool features provided
 An example of Export GridView to Word control with all properties used is shown below
 
 {{< highlight csharp >}}
-
- <aspose:ExportGridViewToWord Width="800px" ID="ExportGridViewToWord1" ExportButtonText="Export to Word"
-
+<aspose:ExportGridViewToWord Width="800px" ID="ExportGridViewToWord1" ExportButtonText="Export to Word"
     CssClass="table table-hover table-bordered" ExportButtonCssClass="myClass" ExportOutputFormat="Doc"
-
     ExportInLandscape="true" ExportOutputPathOnServer="c:\\temp" ExportFileHeading="<h4>Example Report</h4>"
-
     OnPageIndexChanging="ExportGridViewToWord1_PageIndexChanging" PageSize="5" AllowPaging="True"
-
     LicenseFilePath="c:\\inetpub\\Aspose.Words.lic"
-
     runat="server" CellPadding="4" ForeColor="#333333" GridLines="Both">
-
 </aspose:ExportGridViewToWord>
-
-
 {{< /highlight >}}
 ## **Video Demo**
 Please check [the video](https://www.youtube.com/watch?v=IGNmXtZC3N4) below to see the module in action.

@@ -11,15 +11,11 @@ A field inserted into the document using DocumentBuilder.insertField returns a F
 **Java**
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder(doc);
-
+DocumentBuilder builder = new DocumentBuilder(doc);
 Field field = builder.insertField("PAGE");
 
 // Calling this method completely removes the field from the document.
-
 field.remove();
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

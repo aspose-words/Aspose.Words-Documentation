@@ -23,17 +23,9 @@ The Markdown feature implementation mostly follows the CommonMark specification
 This section demonstrates you how to produce a markdown document with emphases as given below:
 
 {{< highlight csharp >}}
-
- Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
-
-
-
+Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
 You can write **bold** or *italic* text. 
-
-
-
 You can also write ***BoldItalic***text.
-
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
@@ -43,23 +35,14 @@ The following code snippet can be used to produce the above given markdown docum
 This section demonstrates you how to produce a markdown document with headings as given below:
 
 {{< highlight csharp >}}
-
- The following produces headings:
-
+The following produces headings:
 \# Heading1
-
 \## Heading2
-
 \### Heading3
-
 \#### Heading4
-
 \##### Heading5
-
 \###### Heading6
-
 \# **Bold Heading1**
-
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
@@ -69,27 +52,15 @@ The following code snippet can be used to produce the above given markdown docum
 This section demonstrates you how to produce a markdown document with block quotes as given below:
 
 {{< highlight csharp >}}
-
- We support blockquotes in Markdown:
-
+We support blockquotes in Markdown:
 \>*Lorem*
-
 \>*ipsum*
-
-
-
 The quotes can be of any level and can be nested:
-
 \>>>Quote level 3
-
 \>>>>Nested quote level 4
-
 \>
-
 \>*Back to first level*
-
 \> ### Headings are allowed inside Quotes
-
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
@@ -99,11 +70,8 @@ The following code snippet can be used to produce the above given markdown docum
 This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
 
 {{< highlight csharp >}}
-
- We support Horizontal rules (Thematic breaks) in Markdown:
-
+We support Horizontal rules (Thematic breaks) in Markdown:
 \-----
-
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.

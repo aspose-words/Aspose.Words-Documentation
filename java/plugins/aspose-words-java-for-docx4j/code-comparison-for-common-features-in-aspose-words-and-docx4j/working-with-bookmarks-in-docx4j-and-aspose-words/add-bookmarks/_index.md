@@ -11,25 +11,17 @@ Use **DocumentBuilder.StartBookmark** and **DocumentBuilder.EndBookmark** to
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.startBookmark("AsposeBookmark");
-
 builder.writeln("Text inside a bookmark.");
-
 builder.endBookmark("AsposeBookmark");
 
 // By index.
-
 Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 
 // By name.
-
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("AsposeBookmark");
-
 {{< /highlight >}}
 ## **docx4j - Add Bookmarks**
 The following code example shows how a bookmark can be added using docx4j.
@@ -37,35 +29,21 @@ The following code example shows how a bookmark can be added using docx4j.
 **Java**
 
 {{< highlight csharp >}}
-
- WordprocessingMLPackage wordMLPackage = WordprocessingMLPackage.createPackage();
-
+WordprocessingMLPackage wordMLPackage = WordprocessingMLPackage.createPackage();
 String outputfilepath = dataDir + "Docx4j_BookmarkAdd.docx";
-
 wordMLPackage.getMainDocumentPart().addParagraphOfText("x");
-
 wordMLPackage.getMainDocumentPart().addParagraphOfText("x");
-
 wordMLPackage.getMainDocumentPart().addParagraphOfText("hello world");
-
 P p = (P)wordMLPackage.getMainDocumentPart().getContent().get(2);
-
 R r = (R)p.getContent().get(0);
-
 String bookmarkName = "abcd";
-
 bookmarkRun(p,r, bookmarkName, 123);
-
 wordMLPackage.getMainDocumentPart().addParagraphOfText("x");
-
 wordMLPackage.getMainDocumentPart().addParagraphOfText("x");
 
 // Now add an internal hyperlink to it
-
 Hyperlink h = MainDocumentPart.hyperlinkToBookmark(bookmarkName, "link to bookmark");
-
 wordMLPackage.getMainDocumentPart().addParagraphOfText("some text").getContent().add(h);
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

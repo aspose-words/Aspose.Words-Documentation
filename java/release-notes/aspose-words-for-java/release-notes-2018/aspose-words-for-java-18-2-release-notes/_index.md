@@ -154,21 +154,13 @@ Related issue: WORDSNET-15943
 The following public method has been added into the **DocumentBuilder** class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Inserts style separator into the document.
-
 /// </summary>
-
 /// <remarks>
-
 /// This method allows to apply different paragraph styles to two different parts of a text line.
-
 /// </remarks>
-
 public void InsertStyleSeparator()
-
 {{< /highlight >}}
 
 Style Separator can be added to the end of a paragraph using the* *Ctrl+Alt+Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph.
@@ -176,33 +168,21 @@ Style Separator can be added to the end of a paragraph using the* *Ctrl+Alt+Ent
 Use case:
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder(new Document());
-
+DocumentBuilder builder = new DocumentBuilder(new Document());
 Style paraStyle = builder.getDocument().getStyles().add(StyleType.PARAGRAPH, "MyParaStyle");
-
 paraStyle.getFont().setBold(false);
-
 paraStyle.getFont().setSize(8);
-
 paraStyle.getFont().setName("Arial");
 
 // Append text with "Heading 1" style.
-
 builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
-
 builder.write("Heading 1");
-
 builder.insertStyleSeparator();
 
 // Append text with another style.
-
 builder.getParagraphFormat().setStyleName(paraStyle.getName());
-
 builder.write("This is text with some other formatting ");
-
 builder.getDocument().save("OutDoc.docx");
-
 {{< /highlight >}}
 ### **HtmlSaveOptions.MetafileFormat Property Added**
 Related issue: WORDSNET-15995
@@ -312,19 +292,12 @@ ExportMetafileAsRaster = false;
 The new option value - HtmlMetafileFormat.Svg - is useful in scenarios where a customer imports SVG images to a document and want to save these images back to SVG format, as in the following code sample:
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 builder.write("Here is an SVG image: ");
-
 builder.insertHtml("<svg height='210' width='500'> <polygon points='100,10 40,198 190,78 10,78 160,198' style='fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;' /></svg> ");
-
 HtmlSaveOptions opts = new HtmlSaveOptions();
-
 opts.setMetafileFormat(HtmlMetafileFormat.SVG);
-
 builder.getDocument().save("D:\\temp\\out.html", opts);
-
 {{< /highlight >}}
 ### **FontSettings.EnableFontSubstitution Option Added**
 Related issue: WORDSNET-16315
@@ -334,39 +307,22 @@ Related issue: WORDSNET-16315
 The following public property has been added into the **FontSettings** class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether to enable or disable font substitution.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>If font substitution is enabled, Aspose.Words evaluates all the related fields in <see cref="FontInfo"/>
-
 /// (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. Note that
-
 /// font substitution mechanism will override the <see cref="DefaultFontName"/> in cases when <see cref="FontInfo"/>
-
 /// for the missing font is available in the document.</para>
-
 /// <para>If font substitution is disabled, Aspose.Words uses the <see cref="DefaultFontName"/> for the substitution
-
 /// of missing fonts.</para>
-
 /// <para>The default value is <c>true</c>.</para>
-
 /// </remarks>
-
 public boolean EnableFontSubstitution
-
 {
-
     get; set;
-
 }
-
 {{< /highlight >}}
 ### **Shape was not Resized Properly**
 Related issue: WORDSNET-16362
@@ -376,11 +332,8 @@ Behavior of the model while setting of shape height/width was changed. Relative 
 For example, the following code, for shape with relative height 20% from "margin", updates relative height to 0 and set absolute value to 150 points:
 
 {{< highlight csharp >}}
-
- Shape shape = (Shape)doc.getFirstSection().getBody().getChild(NodeType.SHAPE, 0, true);
-
+Shape shape = (Shape)doc.getFirstSection().getBody().getChild(NodeType.SHAPE, 0, true);
 shape.setHeight(150);
-
 {{< /highlight >}}
 ### **Obsolete Properties were Removed from HtmlSaveOptions**
 Then following obsolete properties were removed from the HtmlSaveOptions class:

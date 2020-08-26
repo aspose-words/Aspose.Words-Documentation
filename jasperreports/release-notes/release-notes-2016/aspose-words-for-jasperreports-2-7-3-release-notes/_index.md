@@ -32,15 +32,10 @@ In JasperReports:
 **Java**
 
 {{< highlight csharp >}}
-
- import com.aspose.words.jasperreports.*;
-
+import com.aspose.words.jasperreports.*;
 AWDocExporter exporter = new AWDocExporter();
-
 exporter.setParameter(AWExporterParameter.USE_POSITIONING_TABLES, AWExporterParameter.USE_POSITIONING_TABLES_SMART);
-
 exporter.exportReport();
-
 {{< /highlight >}}
 
 In JasperServer:
@@ -48,11 +43,7 @@ In JasperServer:
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="usePositioningTables" value="2"/>
-
 </bean>
-
 {{< /highlight >}}

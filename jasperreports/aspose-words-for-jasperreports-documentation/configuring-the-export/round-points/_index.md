@@ -18,17 +18,10 @@ In JasperReports:
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.ROUND_POINTS, 5);
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 
 In JasperServer:
@@ -36,13 +29,7 @@ In JasperServer:
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="roundPoints" value="5"/>
-
 </bean>
-
-
-
 {{< /highlight >}}

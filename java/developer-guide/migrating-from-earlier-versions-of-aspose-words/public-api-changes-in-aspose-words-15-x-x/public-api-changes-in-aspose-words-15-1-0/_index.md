@@ -16,35 +16,17 @@ We have now added a new public property to HtmlSaveOptions class:
 **C#**
 
 {{< highlight csharp >}}
-
- /** 
-
+/** 
  Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB.
-
  Default value is <c>true</c> for HTML and <c>false</c> for MHTML and EPUB.
-
-
-
-
-
  <p>Saving of the roundtrip information allows to restore document properties such as tab stops,
-
  comments, headers and footers during the HTML documents loading back into a <see cref="Document"/> object.</p>
-
  <p>When <c>true</c>, the roundtrip information is exported as -aw-* CSS properties
-
  of the corresponding HTML elements.</p>
-
  <p>When <c>false</c>, causes no roundtrip information to be output into produced files.</p>
-
-
-
 */
-
 public final boolean getExportRoundtripInformation()
-
 public final void setExportRoundtripInformation(boolean value)
-
 {{< /highlight >}}
 ### **Spacing and Kerning in WordArt Objects is Supported**
 Now spacing and kerning in WordArt objects are taken into account during rendering to fixed page formats such as PDF. 

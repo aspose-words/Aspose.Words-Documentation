@@ -14,15 +14,10 @@ You may have a document which originates from a website or external source in HT
 To achieve this task using Word automation the following code is used:
 
 {{< highlight csharp >}}
-
- For Each Table In ActiveDocument.Tables
-
+For Each Table In ActiveDocument.Tables
     Table.PreferredWidthType = WdPreferredWidthType.wdPreferredWidthPercent
-
     Table.PreferredWidth = 100
-
  Next Table
-
 {{< /highlight >}}
 
 This code enumerates through each table in the document and sets the width sizing behavior of each table so it fits to the entire of the page width.
@@ -34,27 +29,18 @@ To achieve this task using Aspose.Words the [Table](/pages/createpage.action?spa
 **C#**
 
 {{< highlight csharp >}}
-
- foreach (Table table in doc.GetChildNodes(NodeType.Table, true))
-
+foreach (Table table in doc.GetChildNodes(NodeType.Table, true))
 {
-
     table.PreferredWidth = PreferredWidth.FromPercent(100);
-
 }
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- For Each table As Table In doc.GetChildNodes(NodeType.Table, True)
-
+For Each table As Table In doc.GetChildNodes(NodeType.Table, True)
 	table.PreferredWidth = PreferredWidth.FromPercent(100)
-
 Next table
-
 {{< /highlight >}}
 
 For further information on this topic see the [Specifying Table and Cell Widths](/pages/createpage.action?spaceKey=wordsnet&title=Specifying+Table+and+Cell+Widths&linkCreation=true&fromPageId=2589028) section of the documentation.

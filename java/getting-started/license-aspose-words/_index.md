@@ -29,34 +29,29 @@ Use the License.setLicense method to license the APIs. Often the easiest way to 
 In this example Aspose.Words will attempt to find the license file in the folder that contain the JARs of your application.
 
 {{< highlight csharp >}}
-
- com.aspose.words.License license = new com.aspose.words.License();
+com.aspose.words.License license = new com.aspose.words.License();
  license.setLicense("Aspose.Words.Java.lic");
 {{< /highlight >}}
 
 Initializes a license from a stream.
 
 {{< highlight csharp >}}
-
- com.aspose.words.License license = new com.aspose.words.License();
+com.aspose.words.License license = new com.aspose.words.License();
  license.setLicense(new java.io.FileInputStream("Aspose.Words.Java.lic"));
 {{< /highlight >}}
 ### **Including the License File as an Embedded Resource**
 You can simply copy the LIC file in the **resources** folder of your project. Rebuilding the project should embed the .lic file into application’s .jar file. After that you can apply license by using the code like below:
 
 {{< highlight csharp >}}
-
- License lic = new License();
+License lic = new License();
  lic.setLicense(Program.class.getResourceAsStream("Aspose.Words.Java.lic"));
 {{< /highlight >}}
 ### **Validate the License**
 It is possible to validate if the license has been set properly or not. The License class has the isLicensed field that will return true if license has been properly set.
 
 {{< highlight csharp >}}
-
- License license = new License();
+License license = new License();
  license.setLicense("Aspose.Words.Java.lic");
- 
  if (License.isLicensed()) {
     System.out.println("License is Set!");
 }

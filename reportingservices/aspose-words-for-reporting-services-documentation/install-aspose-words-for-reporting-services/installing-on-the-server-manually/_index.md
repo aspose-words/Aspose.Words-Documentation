@@ -37,83 +37,44 @@ To make sure NTFS permissions are correct, right click on Aspose.Words.Reporting
 Open *C:\Program Files\Microsoft SQL Server\<Instance>\Reporting Services\ReportServer\rsreportserver.config* and add the following lines into the *<Render>* element: 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <!--Start here.-->
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices"/>
-
 <Extension Name="AWRTF" Type="Aspose.Words.ReportingServices.RtfRenderer,Aspose.Words.ReportingServices"/>
-
 <Extension Name="AWWML" Type="Aspose.Words.ReportingServices.WordMLRenderer,Aspose.Words.ReportingServices"/>
-
 <Extension Name="AWDOCX" Type="Aspose.Words.ReportingServices.DocxRenderer,Aspose.Words.ReportingServices"/>
-
 <Extension Name="AWHTML" Type="Aspose.Words.ReportingServices.HtmlRenderer,Aspose.Words.ReportingServices"/>
-
 <Extension Name="AWMHTML" Type="Aspose.Words.ReportingServices.MhtmlRenderer,Aspose.Words.ReportingServices"/>
-
 <Extension Name="AWTXT" Type="Aspose.Words.ReportingServices.TxtRenderer,Aspose.Words.ReportingServices"/>
-
 <Extension Name="AWXPS" Type="Aspose.Words.ReportingServices.XpsRenderer,Aspose.Words.ReportingServices"/>
-
 <Extension Name="AWEPUB" Type="Aspose.Words.ReportingServices.EpubRenderer,Aspose.Words.ReportingServices"/>
-
 <!--End here.-->
-
 </Render>
-
-
-
 {{< /highlight >}}
 #### **Step 4. Give Aspose.Words for Reporting Services permissions to execute.**
 Open *C:\Program Files\Microsoft SQL Server\<Instance>\Reporting Services\ReportServer\rssrvpolicy.config* and add the following as the last item in the second to outer *<CodeGroup>* element (which should be *<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">*):
 
 {{< highlight csharp >}}
-
- <CodeGroup>
-
-...
-
 <CodeGroup>
-
 ...
-
+<CodeGroup>
+...
 <!--Start here.-->
-
 <CodeGroup
-
 class="UnionCodeGroup"
-
 version="1"
-
 PermissionSetName="FullTrust"
-
 Name="Aspose.Words_for_Reporting_Services"
-
 Description="This code group grants full trust to the AW4SSRS assembly.">
-
 <IMembershipCondition
-
 class="StrongNameMembershipCondition"
-
 version="1"
-
 PublicKeyBlob="00240000048000009400000006020000002400005253413100040000010001005542e99cecd28842dad186257b2c7b6ae9b5947e51e0b17b4ac6d8cecd3e01c4d20658c5e4ea1b9a6c8f854b2d796c4fde740dac65e834167758cff283eed1be5c9a812022b015a902e0b97d4e95569eb8c0971834744e633d9cb4c4a6d8eda03c12f486e13a1a0cb1aa101ad94943236384cbbf5c679944b994de9546e493bf" />
-
 </CodeGroup>
-
 <!--End here.-->
-
 </CodeGroup>
-
 </CodeGroup>
-
-
-
 {{< /highlight >}}
 #### **Step 5. Verify that Aspose.Words for Reporting Services was installed successfully.**
 Launch Report Manager by opening your browser (Microsoft Internet Explorer 6.0 or later). Type the Report Manager URL in the address bar (by default it is *http://<ComputerName>/Reports*).

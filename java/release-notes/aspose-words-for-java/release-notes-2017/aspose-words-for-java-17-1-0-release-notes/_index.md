@@ -128,49 +128,30 @@ When dealing with very large and complex documents Aspose.Words sometimes had pr
 We've introduced an option to optimize memory consumption during these scenarios. When set to true it will improve document memory footprint but will add extra time to processing. This optimization is only applied during save operation.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets value determining if memory optimization should be performed before saving the document.
-
 /// Default value for this property is <b>false</b>.
-
 /// </summary>
-
 public boolean MemoryOptimization {get;set;}
-
 {{< /highlight >}}
 ##### **Usage Example:**
 {{< highlight csharp >}}
-
- Document doc = new Document("myDoc.docx");
-
+Document doc = new Document("myDoc.docx");
 SaveOptions so = SaveOptions.createSaveOptions(SaveFormat.PDF);
-
 so.setMemoryOptimization(true);
-
 doc.save("myFile.pdf", so);
-
 {{< /highlight >}}
 ### **FrameFormat Class for getting Frame related Properties of a Paragraph Added**
 Available to API users as Paragraph.FrameFormat. This class exposes all frame properties of paragraph in "readonly" mode
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Represents frame related formatting for a paragraph.
-
 /// </summary>
-
 /// <p>This object is always created. If a paragraph is a frame, then all properties will contain respective values, otherwise
-
 /// all properties are set to their defaults.</p>
-
 /// <p>Use <see cref="IsFrame" /> to check whether paragraph is a frame.</p>
-
 public class FrameFormat
-
 {{< /highlight >}}
 
 
@@ -178,17 +159,11 @@ public class FrameFormat
 New public property ForcePageBreaks is added into the TxtSaveOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// <para>Allows to specify whether the page breaks should be preserved during export.</para>
-
 /// <para>The default value is <b>false</b>.</para>
-
 /// </summary>
-
 public boolean ForcePageBreaks { get; set; }
-
 {{< /highlight >}}
 
 The property affects only page breaks that are inserted explicitly into a document. It is not related to page breaks that MS Word automatically inserts at the end of each page.
@@ -196,11 +171,7 @@ The property affects only page breaks that are inserted explicitly into a docume
 **UC**
 
 {{< highlight csharp >}}
-
- TxtSaveOptions saveOptions = new TxtSaveOptions();
-
+TxtSaveOptions saveOptions = new TxtSaveOptions();
 saveOptions.setForcePageBreaks(true);
-
 document.save(fileName, saveOptions);
-
 {{< /highlight >}}

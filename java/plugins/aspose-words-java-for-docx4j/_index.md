@@ -45,37 +45,22 @@ Following releases of running examples are available to download on all of the b
 To configure **Aspose.Words for Java API**, include the Aspose repository URL and Aspose.Words for Java API maven dependency in your **pom.xml** as following:
 ### **Aspose Maven Repository**
 {{< highlight csharp >}}
-
- <repositories>
-
+<repositories>
     <repository>
-
         <id>aspose-maven-repository</id>
-
         <name>Aspose Maven Repository</name>
-
         <url>http://repository.aspose.com/repo/</url>
-
     </repository>
-
 </repositories>
-
 {{< /highlight >}}
 ### **Aspose.Words for Java Maven Dependency**
 {{< highlight csharp >}}
-
- <dependency>
-
+<dependency>
     <groupId>com.aspose</groupId>
-
     <artifactId>aspose-words</artifactId>
-
     <version>15.6.0</version>
-
     <classifier>jdk16</classifier>
-
 </dependency>
-
 {{< /highlight >}}
 
 **Note:** Please use the available latest version of the Aspose API.

@@ -11,9 +11,7 @@ The **ControlChar** class is a repository for the constants that represent con
 **Java**
 
 {{< highlight csharp >}}
-
- text.replace(ControlChar.CR, ControlChar.CR_LF);
-
+text.replace(ControlChar.CR, ControlChar.CR_LF);
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

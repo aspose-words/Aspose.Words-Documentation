@@ -113,73 +113,43 @@ This article explains following topics:
 ## **Bulleted List Template**
 ### **Template Example**
 {{< highlight csharp >}}
-
- We provide support for the following clients:
-
+We provide support for the following clients:
     * <<foreach [in clients]>><<[getName()]>>
-
 <</foreach>>
-
 {{< /highlight >}}
 ### **Report Example**
 {{< highlight csharp >}}
-
- We provide support for the following clients:
-
+We provide support for the following clients:
     * A Company
-
     * B Ltd.
-
     * C & D
-
     * E Corp.
-
     * F & Partners
-
     * G & Co.
-
     * H Group
-
     * I & Sons
-
     * J Ent.
-
 {{< /highlight >}}
 ## **Numbered List Template**
 {{% alert color="primary" %}} 
 ### **Template Example**
 {{< highlight csharp >}}
-
- We provide support for the following clients:
-
+We provide support for the following clients:
     1. <<foreach [in clients]>><<[getName()]>>
-
 <</foreach>>
-
 {{< /highlight >}}
 ### **Report Example**
 {{< highlight csharp >}}
-
- We provide support for the following clients:
-
+We provide support for the following clients:
     1. A Company
-
     2. B Ltd.
-
     3. C & D
-
     4. E Corp.
-
     5. F & Partners
-
     6. G & Co.
-
     7. H Group
-
     8. I & Sons
-
     9. J Ent.
-
 {{< /highlight >}}
 
 {{% /alert %}} 
@@ -210,16 +180,28 @@ This article explains following topics:
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> <<foreach [in managers]>><<[getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[getContracts().sum(</p><p>c => c.getPrice())]>><</foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[sum(</p><p>m => m.getContracts().sum(</p><p>c => c.getPrice()))]>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> <<foreach [in managers]>><<[getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[getContracts().sum(</p><p>c => c.getPrice())]>><</foreach>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[sum(</p><p>m => m.getContracts().sum(</p><p>c => c.getPrice()))]>></p><p>{{< /highlight >}}</p>|
 ### **Report Example**
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 2300000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 800000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 4300000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 2300000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 1200000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 800000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 4300000</p><p>{{< /highlight >}}</p>|
 ## **In-Table List Template with Running (Progressive) Total**
 **Template Example**
 
@@ -355,26 +337,58 @@ This article explains following topics:
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> <<foreach [in managers]>><<[getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[getContracts().sum(</p><p>c => c.getPrice())]>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> <<foreach [in getContracts()]>></p><p><<[getClient().getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[getPrice()]>><</foreach>><<</p><p>/foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[sum(</p><p>m => m.getContracts().sum(</p><p>c => c.getPrice()))]>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> <<foreach [in managers]>><<[getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[getContracts().sum(</p><p>c => c.getPrice())]>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> <<foreach [in getContracts()]>></p><p><<[getClient().getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[getPrice()]>><</foreach>><<</p><p>/foreach>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[sum(</p><p>m => m.getContracts().sum(</p><p>c => c.getPrice()))]>></p><p>{{< /highlight >}}</p>|
 ### **Report Example**
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 2300000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   A Company</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   B Ltd.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 750000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   C & D</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 350000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   E Corp.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 650000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   F & Partners</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 550000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 800000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   G & Co.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 350000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   H Group</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 250000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   I & Sons</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 100000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p>   J Ent.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 100000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}</p><p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> 4300000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 2300000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   A Company</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 1200000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   B Ltd.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 750000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   C & D</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 350000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 1200000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   E Corp.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 650000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   F & Partners</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 550000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 800000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   G & Co.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 350000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   H Group</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 250000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   I & Sons</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 100000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p>   J Ent.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 100000</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> 4300000</p><p>{{< /highlight >}}</p>|
 ## **Pie Chart Template**
 **Template Example**
 

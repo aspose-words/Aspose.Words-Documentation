@@ -123,21 +123,13 @@ Related issue: WORDSNET-18228.
 Added a new overloaded AppendDocument() method into a Document class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Appends the specified document to the end of this document.
-
 /// </summary>
-
 /// <param name="srcDoc">The document to append.</param>
-
 /// <param name="importFormatMode">Specifies how to merge style formatting that clashes.</param>
-
 /// <param name="importFormatOptions">Allows to specify options that affect formatting of a result document.</param>
-
 public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, ImportFormatOptions importFormatOptions)
-
 {{< /highlight >}}
 
 
@@ -151,21 +143,13 @@ See additional information under added a new ImportFormatOptions class for more 
 ` `**UseCase:**
 
 {{< highlight csharp >}}
-
- Document srcDoc = new Document("source.docx");
-
+Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
-
-
-
 ImportFormatOptions options = new ImportFormatOptions();
 
 // Specify that if numbering clashes in source and destination documents, then a numbering from the source document will be used.
-
 options.KeepSourceNumbering = true;
-
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions)
-
 {{< /highlight >}}
 ### **Added a new public property Paragraph.BreakIsStyleSeparator**
 Related issue: WORDSNET-18436.
@@ -195,19 +179,11 @@ It allows to identify Style Separator Paragraph.
 **UseCase:**
 
 {{< highlight csharp >}}
-
- Paragraph paragraph;
-
-
-
+Paragraph paragraph;
 if (paragraph.BreakIsStyleSeparator)
-
 {
-
   // Do smth..
-
 }
-
 {{< /highlight >}}
 ### **Added feature to get font leading (line spacing)**
 Related to WORDSNET-16734.
@@ -217,15 +193,10 @@ The line spacing of a font is the vertical distance between the baselines of two
 The following property was introduced in the Font class to obtain this value:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Returns line spacing of this font (in points).
-
 /// </summary>
-
 public double LineSpacing { get; }
-
 {{< /highlight >}}
 
 
@@ -233,23 +204,13 @@ public double LineSpacing { get; }
 **UseCase:**
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder(new Document());
-
+DocumentBuilder builder = new DocumentBuilder(new Document());
 builder.Font.Name = "Calibri";
-
 builder.Writeln("qText");
 
-
-
-
-
 // Obtain line spacing.
-
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
-
 {{< /highlight >}}
 ### **Added Field.DisplayResult property to obtain the fake result**
 Related issue: WORDSNET-18357
@@ -257,23 +218,14 @@ Related issue: WORDSNET-18357
 Inspired by WORDSNET-18165, we have decided to add a property that would allow customers to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets the text that represents the displayed field result.
-
 /// </summary>
-
 /// <remarks>
-
 /// The <see cref="Words.Document.UpdateListLabels"/> method must be called to obtain correct value for the
-
 /// <see cref="FieldListNum"/>, <see cref="FieldAutoNum"/>, <see cref="FieldAutoNumOut"/> and <see cref="FieldAutoNumLgl"/> fields.
-
 /// </remarks>
-
 public string DisplayResult
-
 {{< /highlight >}}
 
 
@@ -281,31 +233,15 @@ public string DisplayResult
 **Usage:**
 
 {{< highlight csharp >}}
-
- List<Field> fields = FieldExtractor.ExtractToCollection(document, false);
-
-
-
+List<Field> fields = FieldExtractor.ExtractToCollection(document, false);
 Assert.AreEqual("111", fields[0].DisplayResult);
-
 Assert.AreEqual("222", fields[1].DisplayResult);
-
 Assert.AreEqual("Multi\rLine\rText", fields[2].DisplayResult);
-
 Assert.AreEqual("%", fields[3].DisplayResult);
-
 Assert.AreEqual("Macro Button Text", fields[4].DisplayResult);
-
 Assert.AreEqual(string.Empty, fields[5].DisplayResult);
-
-
-
 document.UpdateListLabels();
-
-
-
 Assert.AreEqual("1)", fields[5].DisplayResult);
-
 {{< /highlight >}}
 ### **Added new StreamFontSource class**
 Related issue: WORDSNET-16739
@@ -315,105 +251,52 @@ Added new StreamFontSource class which allows loading fonts from the stream:
 
 
 {{< highlight csharp >}}
-
-     /// <summary>
-
+    /// <summary>
     /// Base class for user-defined stream font source.
-
     /// </summary>
-
     /// <remarks>
-
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
-
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
-
     /// 
-
     /// <para><see cref="OpenFontDataStream"/> method could be called several times. For the first time it will be called 
-
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
-
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
-
     /// 
-
     /// <para><see cref="StreamFontSource"/> may be useful because it allows to load the font data only when it is required
-
     /// and not to store it in the memory for the <see cref="FontSettings"/> lifetime.</para>
-
     /// </remarks>
-
     public abstract class StreamFontSource : FontSourceBase, IFontData
-
     {
-
         /// <summary>
-
         /// Ctor.
-
         /// </summary>
-
         protected StreamFontSource()
-
         {
-
         }
-
-
-
         /// <summary>
-
         /// Ctor.
-
         /// </summary>
-
         /// <param name="priority">Font source priority. See the <see cref="FontSourceBase.Priority"/> property description for more information.</param>
-
         protected StreamFontSource(int priority)
-
             : base(priority)
-
         {
-
         }
-
-
-
         /// <summary>
-
         /// Returns the type of the font source.
-
         /// </summary>
-
         public sealed override FontSourceType Type
-
         {
-
             get { return FontSourceType.FontStream; }
-
         }
-
-
-
         /// <summary>
-
         /// This method should open the stream with font data on demand.
-
         /// </summary>
-
         /// <returns>Font data stream.</returns>
-
         /// <remarks>
-
         /// Aspose.Words will close the stream after reading. There is no need to close it explicitly.
-
         /// </remarks>
-
         public abstract Stream OpenFontDataStream();       
-
     }
-
 {{< /highlight >}}
 
 
@@ -421,27 +304,17 @@ Added new StreamFontSource class which allows loading fonts from the stream:
 **UseCase:**
 
 {{< highlight csharp >}}
-
- class ResourceSteamFontSourceExample : StreamFontSource
-
+class ResourceSteamFontSourceExample : StreamFontSource
 {
-
     public override Stream OpenFontDataStream()
-
     {
-
         return Assembly.GetExecutingAssembly().GetManifestResourceStream("resourceName");
-
     }
-
 }
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[] {new SystemFontSource(), new ResourceSteamFontSourceExample()});
-
+FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[] {new SystemFontSource(), new ResourceSteamFontSourceExample()});
 {{< /highlight >}}
 
 
@@ -455,19 +328,12 @@ Obsolete methods GetFontSubstitutes, SetFontSubstitutes, AddFontSubstitutes was 
 Font.HasDmlEffect() method have been added to check if particular Dml text effect is applied to the Run.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Checks if particular Dml text effect is applied.
-
 /// </summary>
-
 /// <param name="dmlEffectType">Dml text effect type.</param>
-
 /// <returns>True if particular Dml text effect is applied.</returns>
-
 public bool HasDmlEffect(TextDmlEffect dmlEffectType)
-
 {{< /highlight >}}
 
 
@@ -475,27 +341,15 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 **UseCase:**
 
 {{< highlight csharp >}}
-
- RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
-
-
-
+RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 Font runFont = runs[1].Font;
 
-
-
 // One run might have several Dml text effects applied.
-
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
-
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Effect3D));
-
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Reflection));
-
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Outline));
-
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
-
 {{< /highlight >}}
 
 

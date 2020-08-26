@@ -143,62 +143,33 @@ This section lists public API changes that were introduced in Aspose.Words 17.7.
 New property **DisplayDocTitle** was added to PdfSaveOptions to control behavior of how document's title is presented in output PDF document:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// A flag specifying whether the window’s title bar should display the document title taken from
-
 /// the Title entry of the document information dictionary.
-
 /// </summary>
-
 /// <remarks>
-
 /// If <c>false</c>, the title bar should instead display the name
-
 /// of the PDF file containing the document.
-
 ///
-
 /// <para>The default value is <c>false</c>.</para>
-
 /// </remarks>
-
 public boolean getDisplayDocTitle() 
-
-
-
 public void setDisplayDocTitle(boolean value)
-
-
 {{< /highlight >}}
 ### **WORDSNET-15504 -  Shape AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.insertImage Method.**
 Shape AspectRatioLocked default value was changed for shapes inserted through the DocumentBuilder.insertImage method. Now, to mimic MS Word behavior this value is "true" for ShapeType.Image upon inserting image through the DocumentBuilder or through the Model.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether the shape's aspect ratio is locked.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>The default value depends on the <see cref="ShapeType"/>, for the ShapeType.Image it is <b>true</b>
-
 /// but for the other shape types it is <b>false</b>.</p>
-
 /// <p>Has effect for top level shapes only.</p>
-
 /// </remarks>
-
 public boolean getAspectRatioLocked()
-
-
-
 public void setAspectRatioLocked(boolean value)
-
 {{< /highlight >}}
 ### **WORDSNET-14504 and WORDSNET-14803 - Changed Importing Behavior of Lists**
 Previously, list definitions were copied with a new identifier while importing. Now Aspose.Words reuses identical list definitions in the destination. Equality of list definitions in the source and destination is determined by their identifiers. Also Aspose.Words preserves list definition identifiers from the source when equal list definition cannot be found in the destination. This is how MS Word behaves.

@@ -34,129 +34,68 @@ You can download xml file of this example from [here](https://github.com/aspose-
 **XML**
 
 {{< highlight csharp >}}
-
- <?xml version="1.0" encoding="utf-8" ?>
-
+<?xml version="1.0" encoding="utf-8" ?>
 <Orders>
-
  <Order>
-
  <Number>23</Number>
-
  <Address>Nelson Street</Address>
-
  <Suburb>Howick</Suburb>
-
  <City>Auckland</City>
-
  <Phonenumber>543 1234</Phonenumber>
-
  <Date>03/01/2010</Date>
-
  <Total>14.00</Total>
-
   <Item>
-
   <Name>BBQ Chicken Pizza</Name>
-
   <Price>6.00</Price>
-
   <Quantity>1</Quantity>
-
   <ItemTotal>6.00</ItemTotal>
-
   </Item>
-
   <Item>
-
   <Name>1.5 Litre Coke</Name>
-
   <Price>4.00</Price>
-
   <Quantity>2</Quantity>
-
   <ItemTotal>8.00</ItemTotal>
-
   </Item>
-
  </Order>
-
 ...
-
 </Orders>
-
 {{< /highlight >}}
 ##### **PizzaSchema.xsd**
 **XML**
 
 {{< highlight csharp >}}
-
- <?xml version="1.0" encoding ="utf-8"?>
-
+<?xml version="1.0" encoding ="utf-8"?>
 <xs:schema id="OrdersSchema"  xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
  <xs:element name="Orders">
-
  <xs:complexType>
-
  <xs:sequence>
-
   <xs:element name="Order">
-
   <xs:complexType>
-
   <xs:sequence>
-
   <xs:element name="Number"/>
-
   <xs:element name="Address"/>
-
   <xs:element name="Suburb"/>
-
   <xs:element name="City"/>
-
   <xs:element name="Phonenumber">
-
   <xs:element name="Date"/>
-
   <xs:element name="Total"/>
-
   <xs:element name="Item">
-
    <xs:complexType>
-
    <xs:sequence>
-
    <xs:element name="Name"/>
-
    <xs:element name="Price"/>
-
    <xs:element name="Quantity"/>
-
    <xs:element name="ItemTotal"/>
-
    </xs:sequence>
-
   </xs:complexType>
-
   </xs:element>
-
   </xs:sequence>
-
   </xs:complexType>
-
  </xs:element>
-
  </xs:sequence>
-
  </xs:complexType>
-
  </xs:element>
-
 </xs:schema>
-
-
-
 {{< /highlight >}}
 
 

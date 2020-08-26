@@ -16,31 +16,18 @@ To enable field code recognition, use the following parameter:
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.RECOGNIZE_FIELDS, true);
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 #### **JasperServer**
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="recognizeFields" value="true"/>
-
 </bean>
-
-
-
 {{< /highlight >}}
 
 Once this parameter is set to true, the exporter treats any text enclosed in curved brackets ({}) as a field code and exports it appropriately. For example, the following text

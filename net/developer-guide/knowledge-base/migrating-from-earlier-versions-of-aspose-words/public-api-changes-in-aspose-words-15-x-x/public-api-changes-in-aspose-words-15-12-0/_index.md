@@ -21,38 +21,25 @@ Forms2OleControl have Caption, Value, Enabled, ChildNodes and Type properties fo
 
 {{< highlight csharp >}}
 
- // Load the document which have ActiveX Control.
-
+// Load the document which have ActiveX Control.
 Document doc = new Document("filename");
 
 // Retrieve the target shape from the document. In our sample document this is the first shape.
-
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-
 OleControl oleControl = shape.OleFormat.OleControl;
 
 // Check control type is Forms 2.0 OLE control.
-
 if (oleControl.IsForms2OleControl)
-
 {
-
   Forms2OleControl checkBox = (Forms2OleControl)oleControl;
 
   // Read ActiveX Control properties.
-
   Console.WriteLine("Caption: " + checkBox.Caption);
-
   Console.WriteLine("Value: " + checkBox.Value);
-
   Console.WriteLine("Enabled: " + checkBox.Enabled);
-
   Console.WriteLine("Type: " + checkBox.Type);
-
   Console.WriteLine("ChildNodes: " + checkBox.ChildNodes);
-
 }
-
 {{< /highlight >}}
 ### **BARCODE field supported**
 Now we have supported updating of the legacy BARCODE field.
@@ -70,29 +57,26 @@ The following code can be used to restore the previous behavior.
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
+Document doc = new Document();
 
 // Retrieve first section from the document.
-
 Section section = doc.Sections[0];
 
 // Set section page setup properties.
-
-section.PageSetup.LeftMargin = 90;            // 3.17 cm
-
-section.PageSetup.RightMargin = 90;           // 3.17 cm
-
-section.PageSetup.TopMargin = 72;             // 2.54 cm
-
-section.PageSetup.BottomMargin = 72;          // 2.54 cm
-
-section.PageSetup.HeaderDistance = 35.4;      // 1.25 cm
-
-section.PageSetup.FooterDistance = 35.4;      // 1.25 cm
-
-section.PageSetup.TextColumns.Spacing = 35.4; // 1.25 cm
-
+section.PageSetup.LeftMargin = 90;
+            // 3.17 cm
+section.PageSetup.RightMargin = 90;
+           // 3.17 cm
+section.PageSetup.TopMargin = 72;
+             // 2.54 cm
+section.PageSetup.BottomMargin = 72;
+          // 2.54 cm
+section.PageSetup.HeaderDistance = 35.4;
+      // 1.25 cm
+section.PageSetup.FooterDistance = 35.4;
+      // 1.25 cm
+section.PageSetup.TextColumns.Spacing = 35.4;
+ // 1.25 cm
 {{< /highlight >}}
 
 It is possible to change culture for current thread that will cause changing default page margins, header/footer distance and column spacing.
@@ -100,31 +84,27 @@ It is possible to change culture for current thread that will cause changing def
 **C#**
 
 {{< highlight csharp >}}
-
- Thread.CurrentThread.CurrentCulture = new CultureInfo("de-de");
-
+Thread.CurrentThread.CurrentCulture = new CultureInfo("de-de");
 Document doc = new Document();
 
 // Retrieve first section from the document.
-
 Section section = doc.Sections[0];
 
 // Set section page setup properties.
-
-Debug.Assert(section.PageSetup.LeftMargin == 70.85);         // 2.5 cm
-
-Debug.Assert(section.PageSetup.RightMargin == 70.85);        // 2.5 cm
-
-Debug.Assert(section.PageSetup.TopMargin == 70.85);          // 2.5 cm
-
-Debug.Assert(section.PageSetup.BottomMargin == 56.7);        // 2 cm
-
-Debug.Assert(section.PageSetup.HeaderDistance == 35.4);      // 1.25 cm
-
-Debug.Assert(section.PageSetup.FooterDistance == 35.4);      // 1.25 cm
-
-Debug.Assert(section.PageSetup.TextColumns.Spacing == 35.4); // 1.25 cm
-
+Debug.Assert(section.PageSetup.LeftMargin == 70.85);
+         // 2.5 cm
+Debug.Assert(section.PageSetup.RightMargin == 70.85);
+        // 2.5 cm
+Debug.Assert(section.PageSetup.TopMargin == 70.85);
+          // 2.5 cm
+Debug.Assert(section.PageSetup.BottomMargin == 56.7);
+        // 2 cm
+Debug.Assert(section.PageSetup.HeaderDistance == 35.4);
+      // 1.25 cm
+Debug.Assert(section.PageSetup.FooterDistance == 35.4);
+      // 1.25 cm
+Debug.Assert(section.PageSetup.TextColumns.Spacing == 35.4);
+ // 1.25 cm
 {{< /highlight >}}
 ### **New InsertOleObject method**
 Previous implementation of InsertOleObject expects full file name to linked object and chooses ProgId and ClsId depending on file extension. Passing internet URL reveals new use case. We can't extract file type from URL directly, URL can refer to page in very different way. It can be www.aspose.com, www.aspose.com\index.aspx?id=1 and so on. So Aspose.Words now has a new method which allows customer to pass ProgId explicitly.
@@ -133,18 +113,14 @@ Previous implementation of InsertOleObject expects full file name to linked obje
 
 {{< highlight csharp >}}
 
- // Create Aspose.Words.Document and DocumentBuilder.
+// Create Aspose.Words.Document and DocumentBuilder.
 
 // The builder makes it simple to add content to the document.
-
 Document doc = new Document();
-
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert Ole Object.
-
 builder.InsertOleObject("http://www.aspose.com", "htmlfile", true, true, null);
-
 {{< /highlight >}}
 ### **New public OleFormat.SuggestedFileName property**
 Microsoft Word is smart enough to extract file name of embedded OLE object if it is an OutlookAttach OLE object. So Aspose.Words mimics the same behavior. If file name can not be extracted, empty string is returned.
@@ -153,16 +129,12 @@ Microsoft Word is smart enough to extract file name of embedded OLE object if it
 
 {{< highlight csharp >}}
 
- // Load the document.
-
+// Load the document.
 Document doc = new Document("filename");
 
 // Retrieve the target shape from the document.
-
 Shape oleShape = doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
-
 Console.WriteLinel(oleShape.OleFormat.SuggestedFileName);
-
 {{< /highlight >}}
 ### **Aspose.Words does not populate merge fields inside false part of IF field anymore**
 WORDSNET-12622 issue is now resolved. Originally, this issue was about introducing the option to control whether to populate merge field inside false part of IF field or not. However, we eventually decided that the suggested option was too specific. Thus we decided to simply make Aspose.Words avoid populating merge fields inside the false part of the field. The cleanup options are not applied too. So, false part of the IF field remains unchanged, like in MS Word mail merge preview.
@@ -172,7 +144,5 @@ This is a behavioral change of the "mimic Word" kind. Therefore it should be pre
 WORDSNET-12650 and WORDSNET-12791 are now resolved. In Aspose.Words 15.12.0 an option is added that allows to trim trailing and leading whitespaces mail merge values:
 
 {{< highlight csharp >}}
-
- Document.MailMerge.TrimWhitespaces = false;
-
+Document.MailMerge.TrimWhitespaces = false;
 {{< /highlight >}}

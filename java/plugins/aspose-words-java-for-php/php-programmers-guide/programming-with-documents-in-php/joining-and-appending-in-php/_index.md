@@ -11,17 +11,11 @@ For joining and appending using Aspose.Words Java Apis in php, simply use append
 **Php Code**
 
 {{< highlight csharp >}}
-
- $dstDoc = new Java("com.aspose.words.Document",AppendDocument::$gDataDir . "TestFile.Destination.doc");
-
+$dstDoc = new Java("com.aspose.words.Document",AppendDocument::$gDataDir . "TestFile.Destination.doc");
 $srcDoc = new Java("com.aspose.words.Document",AppendDocument::$gDataDir . "TestFile.Source.doc");
-
 $importFormatMode = new Java("com.aspose.words.ImportFormatMode");
-
 $dstDoc->appendDocument($srcDoc, $importFormatMode->KEEP_SOURCE_FORMATTING);
-
 $dstDoc->save(AppendDocument::$gDataDir . "TestFile.SimpleAppendDocument Out.docx");
-
 {{< /highlight >}}
 
 **Download Running Code**

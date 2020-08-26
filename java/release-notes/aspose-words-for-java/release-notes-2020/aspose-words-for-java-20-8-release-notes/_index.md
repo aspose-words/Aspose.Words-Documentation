@@ -123,8 +123,7 @@ Related issue: WORDSNET-20199
 Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. at [Font Availability and Substitution](https://docs.aspose.com/words/java/manipulate-and-substitute-truetype-fonts/#font-availability-and-substitution). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
 
 {{< highlight csharp >}}
-
- /// <summary>
+/// <summary>
  /// Font substitution rule for processing font name.
  /// </summary>
  /// <remarks>
@@ -134,7 +133,6 @@ Added new font substitution rule for font name processing. It will be checked at
 public class FontNameSubstitutionRule : FontSubstitutionRule
 {
 }
- 
 public class FontSubstitutionSettings
 {
     /// <summary>
@@ -149,8 +147,7 @@ Related issue: WORDSNET-20779
 Added flag indicating whether images must be skipped while loading PDF document.
 
 {{< highlight csharp >}}
-
- /// <summary>
+/// <summary>
  /// Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is False.
  /// </summary>
 public bool SkipPdfImages
@@ -162,7 +159,7 @@ public bool SkipPdfImages
 
 Use Case: Explains how to use SkipPdfImages flag.
 {{< highlight csharp >}}
- PdfLoadOptions options = new PdfLoadOptions();
+fLoadOptions options = new PdfLoadOptions();
  options.SkipPdfImages = true;
  Document doc = new Document("in.pdf", options);
 {{< /highlight >}}
@@ -172,7 +169,7 @@ Related issue: WORDSNET-20266
 Removed obsolete property from FindReplaceOptions class.
 
 {{< highlight csharp >}}
- /// <summary>
+/ <summary>
  /// True indicates that meta-characters beginning with "&amp;" are preserved.
  /// Default value is false.
  /// </summary>
@@ -182,8 +179,9 @@ Removed obsolete property from FindReplaceOptions class.
 
 Use Case: Explains how to replace text ignoring meta-characters.
 {{< highlight csharp >}}
- DocumentBuilder builder = new DocumentBuilder();
+cumentBuilder builder = new DocumentBuilder();
  builder.Write("text&plain");
  doc.Range.Replace("&&", " & ");
- Console.WriteLine(doc.GetText()); // The output is: text & plain\f
+ Console.WriteLine(doc.GetText());
+ // The output is: text & plain\f
 {{< /highlight >}}

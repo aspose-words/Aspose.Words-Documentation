@@ -11,17 +11,11 @@ To Write anything in the Word Document using Aspose.Words for Java in Python, si
 **Python Code**
 
 {{< highlight csharp >}}
-
- Document = jpype.JClass("com.aspose.words.Document")
-
+Document = jpype.JClass("com.aspose.words.Document")
 DocumentBuilder = jpype.JClass("com.aspose.words.DocumentBuilder")
-
 doc = Document()
-
 builder = DocumentBuilder(doc)
-
 builder.writeln('Hello World!')
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Hello World (Aspose.Words)** from any of the below mentioned social coding sites:

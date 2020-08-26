@@ -7,61 +7,35 @@ url: /net/create-a-word-processing-document/
 
 ### **OpenXML SDK**
 {{< highlight csharp >}}
-
- string FilePath = @"..\..\..\..\Sample Files\";
-
+string FilePath = @"..\..\..\..\Sample Files\";
 string File = FilePath + "Create a Document - OpenXML.docx";
-
 CreateWordprocessingDocument(File);
-
 public static void CreateWordprocessingDocument(string filepath)
-
 {
-
     // Create a document by supplying the filepath. 
-
     using (WordprocessingDocument wordDocument =
-
         WordprocessingDocument.Create(filepath, WordprocessingDocumentType.Document))
-
     {
-
         // Add a main document part. 
-
         MainDocumentPart mainPart = wordDocument.AddMainDocumentPart();
 
         // Create the document structure and add some text.
-
         mainPart.Document = new Document();
-
         Body body = mainPart.Document.AppendChild(new Body());
-
         Paragraph para = body.AppendChild(new Paragraph());
-
         Run run = para.AppendChild(new Run());
-
         run.AppendChild(new Text("Create text in body - CreateWordprocessingDocument"));
-
     }
-
 }
-
 {{< /highlight >}}
 ### **Aspose.Words**
 {{< highlight csharp >}}
-
- string FilePath = @"..\..\..\..\Sample Files\";
-
+string FilePath = @"..\..\..\..\Sample Files\";
 string File = FilePath + "Create a Document - Aspose.docx";
-
 Document doc = new Document();
-
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.Writeln("Hello World!");
-
 doc.Save(File);
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)

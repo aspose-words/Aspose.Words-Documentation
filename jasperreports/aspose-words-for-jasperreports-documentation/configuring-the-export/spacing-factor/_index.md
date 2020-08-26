@@ -16,29 +16,16 @@ To overcome this issue, try to reduce spacing between page elements proportional
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.SPACING_FACTOR, 0.75);
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 #### **JasperServer**
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="spacingFactor" value="0.75"/>
-
 </bean>
-
-
-
 {{< /highlight >}}

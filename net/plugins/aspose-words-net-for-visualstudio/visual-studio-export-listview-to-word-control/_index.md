@@ -96,9 +96,7 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 1. Add this line to the top of the page, control or MasterPage 
 
 {{< highlight csharp >}}
-
- <%@ Register assembly="Aspose.Words.ListViewExport" namespace="Aspose.Words.ListViewExport" tagprefix="aspose" %>
-
+<%@ Register assembly="Aspose.Words.ListViewExport" namespace="Aspose.Words.ListViewExport" tagprefix="aspose" %>
 {{< /highlight >}}
 
 1. Add page property to false EnableEventValidation="false"
@@ -106,9 +104,7 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 1. Add the following to a place on your ASP.NET page, control or masterpage where you want the control to be added 
 
 {{< highlight csharp >}}
-
- <aspose:ExportListViewToWord ID="ExportListViewToWord1" runat="server"></aspose:ExportListViewToWord>
-
+<aspose:ExportListViewToWord ID="ExportListViewToWord1" runat="server"></aspose:ExportListViewToWord>
 {{< /highlight >}}
 ### **FAQs**
 Common questions and issues you might face while using this Control
@@ -134,112 +130,58 @@ The following properties are exposed to configure and use cool features provided
 An example of Export ListView to Word control with all properties used is shown below
 
 {{< highlight csharp >}}
-
- <Aspose:ExportListViewToWord ID="ExportListViewToWord1" GroupPlaceholderID="groupPlaceHolder1"
-
+<Aspose:ExportListViewToWord ID="ExportListViewToWord1" GroupPlaceholderID="groupPlaceHolder1"
             ItemPlaceholderID="itemPlaceHolder1" ExportButtonText="Export to Word" ExportButtonCssClass="myClass"
-
             ExportOutputFormat="Doc" ExportInLandscape="true" ExportOutputPathOnServer="c:\\temp"
-
             ExportFileHeading="<h4>Example Report</h4>" LicenseFilePath="c:\\inetpub\\Aspose.Words.lic"
-
             runat="server" CellPadding="4" ExportMaximumRecords="100" OnPagePropertiesChanging="ExportListViewToWord1_PagePropertiesChanging">
-
             <LayoutTemplate>
-
                 <table cellpadding="0" border="1" width="800px" cellspacing="0">
-
                     <tr>
-
                         <th>
-
                             Product Id
-
                         </th>
-
                         <th>
-
                             Product Name
-
                         </th>
-
                         <th>
-
                             Units In Stock
-
                         </th>
-
                     </tr>
-
                     <asp:PlaceHolder runat="server" ID="groupPlaceHolder1"></asp:PlaceHolder>
-
                     <tr>
-
                         <td colspan="3">
-
                             <asp:DataPager ID="DataPager1" runat="server" PagedControlID="ExportListViewToWord1"
-
                                 PageSize="10">
-
                                 <Fields>
-
                                     <asp:NextPreviousPagerField ButtonType="Link" ShowFirstPageButton="false" ShowPreviousPageButton="true"
-
                                         ShowNextPageButton="false" />
-
                                     <asp:NumericPagerField ButtonType="Link" />
-
                                     <asp:NextPreviousPagerField ButtonType="Link" ShowNextPageButton="true" ShowLastPageButton="false"
-
                                         ShowPreviousPageButton="false" />
-
                                 </Fields>
-
                             </asp:DataPager>
-
                         </td>
-
                     </tr>
-
                 </table>
-
             </LayoutTemplate>
-
             <GroupTemplate>
-
                 <tr>
-
                     <asp:PlaceHolder runat="server" ID="itemPlaceHolder1"></asp:PlaceHolder>
-
                 </tr>
-
             </GroupTemplate>
-
             <ItemTemplate>
-
                 <td>
-
                     <%# Eval("Product Id")%>
-
                 </td>
-
                 <td>
-
                     <%# Eval("Product Name")%>
-
                 </td>
-
                 <td>
-
                     <%# Eval("Units In Stock")%>
-
                 </td>
-
             </ItemTemplate>
-
         </Aspose:ExportListViewToWord>
-
-
 {{< /highlight >}}
 ## **Video Demo**
 Please check [the video](https://www.youtube.com/watch?v=xtjLrQ2mG4Q) below to see the module in action.

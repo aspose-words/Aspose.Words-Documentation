@@ -17,14 +17,11 @@ The following example shows how to convert DOCX to HTML with specifying a save f
 
 {{< highlight csharp >}}
 
- // Load the document from disk.
-
+// Load the document from disk.
 Document doc = new Document(dataDir + "Test File.docx");
 
 // Save the document into HTML.
-
 doc.Save(dataDir + "Document", SaveFormat.Html);
-
 {{< /highlight >}}
 
 To convert a document to MHTML or EPUB, use SaveFormat.Mhtml or SaveFormat.Epub respectively.

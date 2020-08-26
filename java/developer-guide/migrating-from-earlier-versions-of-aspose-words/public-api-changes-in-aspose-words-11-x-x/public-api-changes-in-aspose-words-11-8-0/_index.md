@@ -37,13 +37,9 @@ The existing [Node.ToTxt]() method is still available however it is marked as de
 **Java**
 
 {{< highlight csharp >}}
-
-
-
 Document doc = new Document(getMyDir() + "Document.doc");
 
 // Extract the last paragraph in the document to convert to HTML.
-
 Node node = doc.getLastSection().getBody().getLastParagraph();
 
 // When ToString is called using the SaveFormat overload then conversion is executed using default save options.
@@ -55,9 +51,7 @@ Node node = doc.getLastSection().getBody().getLastParagraph();
 //   CssStyleSheetType = CssStyleSheetType.Inline
 
 //   ExportFontResources = false
-
 String nodeAsHtml = node.toString(SaveFormat.HTML);
-
 {{< /highlight >}}
 ##### **Example**
 *Exports the content of a node to string in HTML format using custom specified options.*
@@ -65,29 +59,20 @@ String nodeAsHtml = node.toString(SaveFormat.HTML);
 **Java**
 
 {{< highlight csharp >}}
-
-
-
 Document doc = new Document(getMyDir() + "Document.doc");
 
 // Extract the last paragraph in the document to convert to HTML.
-
 Node node = doc.getLastSection().getBody().getLastParagraph();
 
 // Create an instance of HtmlSaveOptions and set a few options.
-
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.setExportHeadersFootersMode(ExportHeadersFootersMode.PER_SECTION);
-
 saveOptions.setExportRelativeFontSize(true);
 
 // Convert the document to HTML and return as a string. Pass the instance of HtmlSaveOptions to
 
 // to use the specified options during the conversion.
-
 String nodeAsHtml = node.toString(saveOptions);
-
 {{< /highlight >}}
 #### **4. Added StyleCollection.AddCopy to Allow Copying of Styles**
 This release of Aspose.Words provides functionality to add a copy of one style and copy styles from one document to another. Use the [StyleCollection.AddCopy]() method.
@@ -98,16 +83,11 @@ This release of Aspose.Words provides functionality to add a copy of one style a
 
 {{< highlight csharp >}}
 
-
-
 // The AddCopy method creates a copy of the specified style and automatically generates a new name for the style, such as "Heading 1_0".
-
 Style newStyle = doc.getStyles().addCopy(doc.getStyles().get("Heading 1"));
 
 // You can change the new style name if required as the Style.Name property is read-write.
-
 newStyle.setName("My Heading 1");
-
 {{< /highlight >}}
 ##### **Example**
 *Demonstrates how to copy style from one document into a different document.*
@@ -115,17 +95,11 @@ newStyle.setName("My Heading 1");
 **Java**
 
 {{< highlight csharp >}}
-
-
-
 Style srcStyle = srcDoc.getStyles().get("Heading 1");
-
 srcStyle.getFont().setColor(Color.RED);
 
 // The AddCopy method can be used to copy a style from a different document.
-
 Style newStyle = dstDoc.getStyles().addCopy(srcStyle);
-
 {{< /highlight >}}
 #### **5. The Style.Name Property is now Writable**
 It is possible to change the name of an existing style. In previous versions this property was read-only.
@@ -140,12 +114,8 @@ Node collections which contain a single type of node e.g [ParagraphCollection]()
 
 {{< highlight csharp >}}
 
-
-
 // You can use ToArray to return a typed array of nodes. 
-
 Paragraph[] paras = doc.getFirstSection().getBody().getParagraphs().toArray();
-
 {{< /highlight >}}
 
 A call to **CompositeNode.GetChildNodes** still returns an array of nodes. For example, **doc.GetChildNodes(NodeType.Paragraph, false).ToArray** still returns **Node[]** (and not **Paragraph[]**). 
@@ -165,37 +135,21 @@ If you are using a "deep" search and you remove the current node then the childr
 **Java**
 
 {{< highlight csharp >}}
-
-
-
 DocumentBuilder builder = new DocumentBuilder();
-
 builder.writeln("The first paragraph");
-
 builder.writeln("The second paragraph");
-
 builder.writeln("The third paragraph");
-
 builder.writeln("The fourth paragraph");
 
 // Hot remove allows a node to be removed from a live collection and have the enumeration continue.
-
 for (Paragraph para : (Iterable<Paragraph>)builder.getDocument().getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true))
-
 {
-
      if (para.getRange().getText().contains("third"))
-
      {
-
           // Enumeration will continue even after this node is removed.
-
           para.remove();
-
      }
-
 }
-
 {{< /highlight >}}
 
 It was the absence of hot remove that was the original reason for "snapshot" collections. With the introduction of this feature the snapshot functionality of node collections has been deprecated
@@ -209,37 +163,21 @@ The algorithm behind the enumeration visits all nodes of the document (for deep 
 **Java**
 
 {{< highlight csharp >}}
-
-
-
 DocumentBuilder builder = new DocumentBuilder();
-
 builder.writeln("The first paragraph");
-
 builder.writeln("The second paragraph");
-
 builder.writeln("The third paragraph");
-
 builder.writeln("The fourth paragraph");
 
 // This causes unexpected behavior, the fourth pargraph in the collection is not visited.
-
 for (Paragraph para : (Iterable<Paragraph>)builder.getDocument().getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true))
-
 {
-
      if (para.getRange().getText().contains("third"))
-
      {
-
           para.getPreviousSibling().remove();
-
           para.remove();
-
      }
-
 }
-
 {{< /highlight >}}
 
 In the above code: 
@@ -272,11 +210,6 @@ In Aspose.Words 11.7.0 the PdfSaveOptions member [NumeralFormat]() was mistakenl
 **Java**
 
 {{< highlight csharp >}}
-
-
-
 PdfSaveOptions options = new PdfSaveOptions(); 
-
 options.NumeralFormat = NumeralFormat.Context; 
-
 {{< /highlight >}}

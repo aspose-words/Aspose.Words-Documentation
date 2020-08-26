@@ -16,54 +16,30 @@ We have added following methods in DocumentBuilder class in 15.9.0.
 **Java**
 
 {{< highlight csharp >}}
-
- /**
-
+/**
   Marks the current position in the document as an editable range start.
-
  Editable range in a document can overlap and span any range. To create a valid editable range you need to
-
  call both <see cref="StartEditableRange"/> and <see cref="EndEditableRange()"/>
-
  or <see cref="EndEditableRange(EditableRangeStart)"/> methods.
-
  Badly formed editable range will be ignored when the document is saved.
-
  Returns the editable range start node that was just created.
-
  @return
-
 */
-
 public EditableRangeStart StartEditableRange()
-
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- /**
-
+/**
  Marks the current position in the document as an editable range end.
-
  Use this overload during creating nested editable ranges.
-
  Editable range in a document can overlap and span any range. To create a valid editable range you need to
-
  call both <see cref="StartEditableRange"/> and <see cref="EndEditableRange()"/>
-
  or <see cref="EndEditableRange(EditableRangeStart)"/> methods.
-
  Badly formed editable range will be ignored when the document is saved.
-
  @param This editable range start.
-
  @return the editable range end node that was just created.</returns>
-
 */
-
 public EditableRangeEnd EndEditableRange(EditableRangeStart start)
-
 {{< /highlight >}}
 ### **Added Options to Control Image Stretching for LINQ Reporting Engine**
 WORDSNET-12077 has now been resolved and the documentation for the engine has been updated appropriately.
@@ -85,60 +61,32 @@ WORDSNET-12380 is now resolved. We have introduced following property in Aspose.
 **Java**
 
 {{< highlight csharp >}}
-
- /**
-
+/**
  Gets or sets a set of flags controlling behavior of this <see cref="ReportingEngine"/> instance
-
  while building a report.
-
  The value of the property is ReportBuildOptions integer constant.
-
 */
-
 public int getOptions() 
-
 public void setOptions(int value)
-
-
 {{< /highlight >}}
 
 **Java**
 
 {{< highlight csharp >}}
-
- /**
-
+/**
  ReportBuildOptions Specifies options controlling behavior of <see cref="ReportingEngine"/> while building a report.
-
 */
-
 NONE = 0
-
-
-
 public static final int NONE
-
 /**
-
 Specifies default options. 
-
 */
-
 ALLOW_MISSING_DATA_FIELDS = 1
-
-
-
 public static final int ALLOW_MISSING_DATA_FIELDS
-
 /**
-
 Specifies that fields missing in a data source object should be treated as null literals by the engine. 
-
 This option affects only fields of System.Data.DataTable rows. If this option is not set, the engine throws an exception when encounters a missing data field. 
-
 */
-
 {{< /highlight >}}
 ### **Changed the default DrawingML Rendering Mode**
 Starting from Aspose.Words 15.9.0, the default DmlRenderingMode has been changed from Fallback to DrawingML.

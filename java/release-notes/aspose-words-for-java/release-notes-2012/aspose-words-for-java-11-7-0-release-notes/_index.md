@@ -14,11 +14,7 @@ This page contains release notes for [Aspose.Words for Java 11.7.0](http://www.a
 There are 212 improvements and fixes in this regular monthly release. The most notable are: 
 
 {{< highlight csharp >}}
-
- Page BorderArt rendering implemented;Supported rendering of EMF metafiles embedded in WMF metafiles (special metafiles format);Improved printing speed;Improved font substitution according to default registry values;Fixed a problem with incorrect image rotation in PDF export;Fixed page size detection while printing;Fixed problem with CMYK images being not rendered;Fixed rendering problem with gradient "from center" fill in WordArt shapes;Fixed rendering problem with super-scripted underlined text.
-
-
-
+Page BorderArt rendering implemented;Supported rendering of EMF metafiles embedded in WMF metafiles (special metafiles format);Improved printing speed;Improved font substitution according to default registry values;Fixed a problem with incorrect image rotation in PDF export;Fixed page size detection while printing;Fixed problem with CMYK images being not rendered;Fixed rendering problem with gradient "from center" fill in WordArt shapes;Fixed rendering problem with super-scripted underlined text.
 {{< /highlight >}}
 
 

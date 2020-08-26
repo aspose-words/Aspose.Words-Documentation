@@ -142,23 +142,16 @@ Related issue WORDSNET-14771.
 The following constant is added into the MsWordVersion enumeration type.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Optimize Aspose.Words behavior to match MS Word 2016 version.
-
 /// </summary>
-
 Word2016
-
 {{< /highlight >}}
 
 It can be passed into the CompatibilityOptions.OptimizeFor method to optimize the document contents as well as Aspose.Words behavior to match MS Word 2016 version.
 
 {{< highlight csharp >}}
-
- doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
-
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 {{< /highlight >}}
 ### **To Set File Name and Extension when Inserting Ole Object using MemoryStream**
 Related Issue: WORDSNET-15616
@@ -167,59 +160,34 @@ The public property OlePackage was added to the OleFormat class to provide abi
 The OlePackage class has 2 public properties:
 
 {{< highlight csharp >}}
-
- public class OlePackage
-
+public class OlePackage
 {
-
     /// <summary>
-
     /// Gets or sets OLE Package file name.
-
     /// </summary>
-
     public string FileName { get; set;}
-
     /// <summary>
-
     /// Gets or sets OLE Package display name.
-
     /// </summary>
-
     public string DisplayName { get; set;}
-
 }
-
 {{< /highlight >}}
 
 The example:
 
 {{< highlight csharp >}}
-
- //use case
-
+//use case
 Document document = new Document();
-
 DocumentBuilder builder = new DocumentBuilder(document);
-
 byte[] bs = File.ReadAllBytes(@"D:\downloads\aaa.zip");
-
 using (Stream stream = new MemoryStream(bs))
-
 {
-
     Shape shape = builder.InsertOleObject(stream, "Package", true, null);
-
     OlePackage olePackage = shape.OleFormat.OlePackage;
-
     olePackage.FileName = "bbb.zip";
-
     olePackage.DisplayName = "bbb.zip";
-
     document.Save(@"D:\downloads\testInsertZip.docx");
-
 }
-
 {{< /highlight >}}
 ### **Changed Behavior of Range.Replace Methods**
 Related issue WORDSNET-15624
@@ -227,11 +195,8 @@ Related issue WORDSNET-15624
 Behaviour of the following methods of the Range class is changed.
 
 {{< highlight csharp >}}
-
- public int Replace(string pattern, string replacement, FindReplaceOptions options);
-
+public int Replace(string pattern, string replacement, FindReplaceOptions options);
 public int Replace(Regex pattern, string replacement, FindReplaceOptions options)
-
 {{< /highlight >}}
 
 Now headers/footers of a section are processed in this order:
@@ -254,19 +219,12 @@ Related issue: WORDSNET-15712
 Removed obsolete public methods from DigitalSignatureUtil class:
 
 {{< highlight csharp >}}
-
- public static void Sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
-
+public static void Sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments,DateTime signTime);
-
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
-
 public static void Sign(Stream srcStream, Stream dstStream, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
-
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, string comments, DateTime signTime);
-
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
-
 {{< /highlight >}}
 
 Instead, the methods with SignOptions class should be used. See following headings:
@@ -285,99 +243,54 @@ Related issue: WORDSNET-15981 
 Added new public property for floating tables in Table class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets the base object from which the horizontal positioning in the <see cref="AbsoluteHorizontalDistance"/>
-
 /// and/or <see cref="RelativeHorizontalAlignment"/> attribute should be calculated.
-
 /// Default value is <see cref="RelativeHorizontalPosition.Column"/>.
-
 /// </summary>
-
 public RelativeHorizontalPosition HorizontalAnchor
-
 /// <summary>
-
 /// Gets the base object from which the vertical positioning in the <see cref="AbsoluteVerticalDistance"/>
-
 /// attribute should be calculated.
-
 /// Default value is <see cref="RelativeVerticalPosition.Margin"/>.
-
 /// </summary>
-
 public RelativeVerticalPosition VerticalAnchor
-
 /// <summary>
-
 /// Gets table absolute horizontal position relative to the horizontal anchor
-
 /// specified by the <see cref="HorizontalAnchor"/>, in points.
-
 /// Default value is 0.
-
 /// </summary>
-
 public double AbsoluteHorizontalDistance
-
 /// <summary>
-
 /// Gets table absolute vertical position relative to the vertical anchor
-
 /// specified by the <see cref="VerticalAnchor"/>, in points.
-
 /// Default value is 0.
-
 /// </summary>
-
 public double AbsoluteVerticalDistance
-
 /// <summary>
-
 /// Gets whether a floating table shall allow other floating tables in the document
-
 /// to overlap its extents when displayed.
-
 /// Default value is <c>true</c>.
-
 /// </summary>
-
 public bool AllowOverlap
-
 {{< /highlight >}}
 
 **UC:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(@"Path\to\document.xml");
-
+Document doc = new Document(@"Path\to\document.xml");
 foreach (Table table in doc.FirstSection.Body.Tables)
-
 {
-
     // If table is floating type then print its positioning properties.
-
     if (table.TextWrapping == TextWrapping.Around)
-
     {
-
         Console.WriteLine(table.HorizontalAnchor);
-
         Console.WriteLine(table.VerticalAnchor);
-
         Console.WriteLine(table.AbsoluteHorizontalDistance);
-
         Console.WriteLine(table.AbsoluteVerticalDistance);
-
         Console.WriteLine(table.AllowOverlap);
-
     }
-
 }
-
 {{< /highlight >}}
 ### **Added the FieldIf.EvaluateCondition() Method**
 Related issue: WORDSNET-15903
@@ -385,75 +298,43 @@ Related issue: WORDSNET-15903
 Customer wanted to evaluate IF condition after mail merge and was requesting some API for it. Since the ComparisonOperator, LeftExpression and RightExpression properties of FieldIf did not fulfill customer requirements, we have introduced the FieldIf.EvaluateCondition() method that immediately returns the result of expression's evaluation.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Evaluates the condition.
-
 /// </summary>
-
 /// <returns>
-
 /// A <see cref="FieldIfComparisonResult"/> value that represents the result of the condition evaluation.
-
 /// </returns>
-
 public FieldIfComparisonResult EvaluateCondition()
-
 {{< /highlight >}}
 
 FieldIfComparisonResult enumeration:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies result of the IF field condition evaluation.
-
 /// </summary>
-
 public enum FieldIfComparisonResult
-
 {
-
     /// <summary>
-
     /// There is an error in condition.
-
     /// </summary>
-
     Error,
-
     /// <summary>
-
     /// The condition is <c>true</c>.
-
     /// </summary>
-
     True,
-
     /// <summary>
-
     /// The condition is <c>false</c>.
-
     /// </summary>
-
     False
-
 }
-
 {{< /highlight >}}
 
 Usage:
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 FieldIf field = (FieldIf)builder.InsertField("IF 1 = 1", null);
-
 FieldIfComparisonResult actualResult = field.EvaluateCondition();
-
 Assert.AreEqual(FieldIfComparisonResult.True, actualResult);
-
 {{< /highlight >}}

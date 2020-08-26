@@ -9,16 +9,10 @@ url: /java/remove-field-in-python/
 **Python Code**
 
 {{< highlight csharp >}}
-
- doc = self.Document(self.dataDir + "Field.RemoveField.doc")
-
+doc = self.Document(self.dataDir + "Field.RemoveField.doc")
 field = doc.getRange().getFields().get(0)
-
 \# Calling this method completely removes the field from the document.
-
 field.remove()
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Remove Field (Aspose.Words)** from any of the below mentioned social coding sites:

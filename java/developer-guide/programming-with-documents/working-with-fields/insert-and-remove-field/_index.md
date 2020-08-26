@@ -83,11 +83,9 @@ Below example shows how to Add a AUTHOR Field using DOM to a Paragraph in Docume
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(getMyDir() + "in.docx");
+Document doc = new Document(getMyDir() + "in.docx");
 
 // Get paragraph you want to append this Ask field to
-
 Paragraph para = (Paragraph)doc.getChildNodes(NodeType.PARAGRAPH, true).get(1);
 
 // We want to insert an AUTHOR field like this:
@@ -95,19 +93,14 @@ Paragraph para = (Paragraph)doc.getChildNodes(NodeType.PARAGRAPH, true).get(1);
 // { AUTHOR Test1 }
 
 // Create instance of FieldAuthor class and lets build the above field code
-
 FieldAuthor field = (FieldAuthor)para.appendField(FieldType.FIELD_AUTHOR, false);
 
 // { AUTHOR Test1 }
-
 field.setAuthorName("Test1");
 
 // Finally update this AUTHOR field
-
 field.update();
-
 doc.save(getMyDir() + "out.docx");
-
 {{< /highlight >}}
 ### **Inserting INCLUDETEXT field into a Document without using DocumentBuilder**
 The INCLUDETEXT field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use FieldIncludeText class to perform following operations:

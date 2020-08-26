@@ -129,121 +129,65 @@ WORDSNET-13967 has been resolved:
 The following shapes types were added to the "ShapeType" enum:
 
 {{< highlight csharp >}}
-
- /// Snip single corner rectangle object.
-
+/// Snip single corner rectangle object.
 /// </summary>
-
 /// <remarks>
-
 /// Applicable only for DML shapes.
-
 /// </remarks>
-
 SingleCornerSnipped = 203,
-
 /// <summary>
-
 /// Snip same side corner rectangle.
-
 /// </summary>
-
 /// <remarks>
-
 /// Applicable only for DML shapes.
-
 /// </remarks>
-
 TopCornersSnipped = 204,
-
 /// <summary>
-
 /// Snip diagonal corner rectangle.
-
 /// </summary>
-
 /// <remarks>
-
 /// Applicable only for DML shapes.
-
 /// </remarks>
-
 DiagonalCornersSnipped = 205,
-
 /// <summary>
-
 /// Snip and round single corner rectangle.
-
 /// </summary>
-
 /// <remarks>
-
 /// Applicable only for DML shapes.
-
 /// </remarks>
-
 TopCornersOneRoundedOneSnipped = 206,
-
 /// <summary>
-
 /// Round single corner rectangle.
-
 /// </summary>
-
 /// <remarks>
-
 /// Applicable only for DML shapes.
-
 /// </remarks>
-
 SingleCornerRounded = 207,
-
 /// <summary>
-
 /// Round same side corner rectangle.
-
 /// </summary>
-
 /// <remarks>
-
 /// Applicable only for DML shapes.
-
 /// </remarks>
-
 TopCornersRounded = 208,
-
 /// <summary>
-
 /// Round diagonal corner rectangle.
-
 /// </summary>
-
 /// <remarks>
-
 /// Applicable only for DML shapes.
-
 /// </remarks>
-
 DiagonalCornersRounded = 209
-
 {{< /highlight >}}
 
 These shape types can not be used to create VML shapes. Attempt to create shape  by using public constructor of the "Shape" class raises the "NotSupportedException" exception. DML shape with one of specified above type can be created with "InsertShape" method of the document builder:
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 Shape shape = builder.InsertShape(ShapeType.TopCornersSnipped, 50, 50);
-
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
-
 so.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
-
 doc.Save("TopCornersSnipped.docx", so);
-
 {{< /highlight >}}
 ### **Reference Resources in MHTML Documents using the "Content-Id" URL Scheme.**
 WORDSNET-16985 has been resolved.
@@ -252,9 +196,7 @@ By default, resources in MHTML documents are referenced by file name (for exampl
 Now was added a new option to HtmlSaveOptions. This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
 
 {{< highlight csharp >}}
-
- public bool ExportCidUrlsForMhtmlResources { get; set; }
-
+public bool ExportCidUrlsForMhtmlResources { get; set; }
 {{< /highlight >}}
 ### **Added Public Property ShowComments in LayoutOptions**
 WORDSNET-16986 has been resolved.
@@ -262,23 +204,14 @@ WORDSNET-16986 has been resolved.
 The following property has been added to the LayoutOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets indication of whether comments are rendered.
-
 /// Default is True.
-
 /// </summary>
-
 public bool ShowComments
-
 {
-
    get; set;
-
 }
-
 {{< /highlight >}}
 
 This property is used to show\hide comments in the output document. By default, the comments are always shown.
@@ -286,13 +219,9 @@ This property is used to show\hide comments in the output document. By default, 
 **Usage**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(myDir + "Input.docx");
-
+Document doc = new Document(myDir + "Input.docx");
 doc.LayoutOptions.ShowComments = false;
-
 doc.Save(myDir + "Output.pdf");
-
 {{< /highlight >}}
 ### **Added Public Property ShowInBalloons in RevisionOptions**
 WORDSNET-16986 has been resolved.
@@ -300,69 +229,38 @@ WORDSNET-16986 has been resolved.
 The following property has been added to the RevisionOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify whether the revisions are rendered in the balloons.
-
 /// Default value for this property is <see cref="Layout.ShowInBalloons.None"/>
-
 /// </summary>
-
 public ShowInBalloons ShowInBalloons
-
 {
-
       get; set;
-
 }
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies which revisions are rendered in balloons.
-
 /// </summary>
-
 /// <remarks>
-
 /// Note that these values do not affect rendering of comments, which are controlled by <see cref="LayoutOptions.ShowComments"/>.
-
 /// </remarks>
-
 public enum ShowInBalloons
-
 {
-
      /// <summary>
-
      /// Renders insert, delete and format revisions inline.
-
      /// </summary>
-
      None,
-
      /// <summary>
-
      /// Renders insert and delete revisions inline, format revisions in balloons.
-
      /// </summary>
-
      Format,
-
      /// <summary>
-
      /// Renders insert revisions inline, delete and format revisions in balloons.
-
      /// </summary>
-
      FormatAndDelete,
-
 }
-
 {{< /highlight >}}
 
 This property is used to show revisions in the balloons. By default, the revisions in balloons are not shown.
@@ -370,29 +268,21 @@ This property is used to show revisions in the balloons. By default, the revisio
 **Usage:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(myDir + "Input.docx");
+Document doc = new Document(myDir + "Input.docx");
 
 // Renders insert and delete revisions inline, format revisions in balloons.
-
 doc.LayoutOptions.RevisionOptions.ShowInBalloons = ShowInBalloons.Format;
-
 doc.Save(myDir + "Output.pdf");
-
 {{< /highlight >}}
 
 Or
 
 {{< highlight csharp >}}
-
- Document doc = new Document(myDir + "Input.docx");
+Document doc = new Document(myDir + "Input.docx");
 
 // Renders insert revisions inline, delete and format revisions in balloons.
-
 doc.LayoutOptions.RevisionOptions.ShowInBalloons = ShowInBalloons.FormatAndDelete;
-
 doc.Save(myDir + "Output.pdf");
-
 {{< /highlight >}}
 ### **Write all CSS Declarations of HtmlFixed Documents into Single File**
 WORDSNET-17089 has been resolved.
@@ -412,21 +302,13 @@ A new LoadOptions class for dealing with RTF files was introduced : ***RtfLoadOp
 New public property ***RecognizeUtf8Text*** was added into the RtfLoadOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// <para> When set to true, <see cref="CharsetDetector"/> will try to detect UTF8 characters,
-
 /// they will be preserved during import.
-
 /// </para>
-
 /// Default value is false.
-
 /// </summary>
-
 public bool RecognizeUtf8Text
-
 {{< /highlight >}}
 
 This property allows to detect UTF-8 encoded characters and preserve them during import.
@@ -434,13 +316,9 @@ This property allows to detect UTF-8 encoded characters and preserve them during
 UC:
 
 {{< highlight csharp >}}
-
- RtfLoadOptions loadOptions = new RtfLoadOptions();
-
+RtfLoadOptions loadOptions = new RtfLoadOptions();
 loadOptions.RecognizeUtf8Text = true;
-
 Document doc = new Document(fileName, loadOptions);
-
 {{< /highlight >}}
 ### **Obsolete Member NumInDash was Removed from NumberStyle Enum**
 Obsolete value NumInDash was removed from NumberStyle enum. Please, use NumberStyle.NumberInDash value instead.

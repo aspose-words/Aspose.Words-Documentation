@@ -20,37 +20,24 @@ You can now use **PdfSaveOptions.ImageCompression** to specify JPEG compressio
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Rendering.doc");
-
+Document doc = new Document(MyDir + "Rendering.doc");
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Use JPEG compression at 50% quality to reduce file size.
-
 options.ImageCompression = PdfImageCompression.Jpeg;
-
 options.JpegQuality = 50;
-
 doc.Save(MyDir + "Rendering.JpegImageCompression Out.pdf", options);
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As Document = new Document(MyDir & "Rendering.doc")
-
+Dim doc As Document = new Document(MyDir & "Rendering.doc")
 Dim options as PdfSaveOptions = new PdfSaveOptions()
-
 ' Use JPEG compression at 50% quality to reduce file size.
-
 options.ImageCompression = PdfImageCompression.Jpeg
-
 options.JpegQuality = 50
-
 doc.Save(MyDir & "Rendering.JpegImageCompression Out.pdf", options);
-
 {{< /highlight >}}
 ### **Added Control for how Lists Labels are Exported to HTML**
 The ﻿**HtmlSaveOptions.ExportListLabels** property controls how list labels are exported to HTML.
@@ -60,61 +47,39 @@ The ﻿**HtmlSaveOptions.ExportListLabels** property controls how list labels ar
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Lists.PrintOutAllLists.doc");
-
+Document doc = new Document(MyDir + "Lists.PrintOutAllLists.doc");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
 
 // This option uses <ul> and <ol> tags are used for list label representation if it doesn't cause formatting loss,
 
 // otherwise HTML <p> tag is used. This is also the default value.
-
 saveOptions.ExportListLabels = ExportListLabels.Auto;
-
 doc.Save(MyDir + "Document.ExportListLabels Auto Out.html", saveOptions);
 
 // Using this option the <p> tag is used for any list label representation.
-
 saveOptions.ExportListLabels = ExportListLabels.AsInlineText;
-
 doc.Save(MyDir + "Document.ExportListLabels InlineText Out.html", saveOptions);
 
 // The <ul> and <ol> tags are used for list label representation. Some formatting loss is possible.
-
 saveOptions.ExportListLabels = ExportListLabels.ByHtmlTags;
-
 doc.Save(MyDir + "Document.ExportListLabels HtmlTags Out.html", saveOptions);
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document(MyDir & "Lists.PrintOutAllLists.doc")
-
+Dim doc As New Document(MyDir & "Lists.PrintOutAllLists.doc")
 Dim saveOptions As New HtmlSaveOptions(SaveFormat.Html)
-
 ' This option uses <ul> and <ol> tags are used for list label representation if it doesn't cause formatting loss,
-
 ' otherwise HTML <p> tag is used. This is also the default value.
-
 saveOptions.ExportListLabels = ExportListLabels.Auto
-
 doc.Save(MyDir & "Document.ExportListLabels Auto Out.html", saveOptions)
-
 ' Using this option the <p> tag is used for any list label representation.
-
 saveOptions.ExportListLabels = ExportListLabels.AsInlineText
-
 doc.Save(MyDir & "Document.ExportListLabels InlineText Out.html", saveOptions)
-
 ' The <ul> and <ol> tags are used for list label representation. Some formatting loss is possible.
-
 saveOptions.ExportListLabels = ExportListLabels.ByHtmlTags
-
 doc.Save(MyDir & "Document.ExportListLabels HtmlTags Out.html", saveOptions)
-
 {{< /highlight >}}
 ### **Full Support for Object.Attribute Syntax for all Merge Field Types**
 The Object.Attribute merge field syntax allows querying any data source and an attribute through the use of one field e.g Customer.Name. This feature was introduced with mustache merge fields in Aspose.Words 11.2.0. Some bug fixes and improvements to this feature means that it is now fully supported on both mustache and regular merge fields.
@@ -168,33 +133,18 @@ In order to support custom properties with spaces and other characters when expo
 This is an example of XML written for custom properties in Aspose.Words for .NET 11.10.0.
 
 {{< highlight csharp >}}
-
- <rdf:Description rdf:about="" xmlns:custprops="http://aspose.com/">
-
+<rdf:Description rdf:about="" xmlns:custprops="http://aspose.com/">
   <custprops:Property1>
-
     <rdf:Description>
-
       <custprops:Name>prop 1</custprops:Name>
-
       <custprops:Value>True</custprops:Value>
-
     </rdf:Description>
-
   </custprops:Property1>
-
   <custprops:Property2>
-
     <rdf:Description>
-
       <custprops:Name>prop 2</custprops:Name>
-
       <custprops:Value>10</custprops:Value>
-
     </rdf:Description>
-
   </custprops:Property2>
-
 </rdf:Description>
-
 {{< /highlight >}}

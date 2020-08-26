@@ -12,21 +12,12 @@ By default **RoundPoints** is set to **0.0** (rounding is disabled), and can be 
 To change the setting, add the following lines to the <Extension> element corresponding to a particular renderer:
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <RoundPoints>1.0</ RoundPoints >
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
 {{< /highlight >}}

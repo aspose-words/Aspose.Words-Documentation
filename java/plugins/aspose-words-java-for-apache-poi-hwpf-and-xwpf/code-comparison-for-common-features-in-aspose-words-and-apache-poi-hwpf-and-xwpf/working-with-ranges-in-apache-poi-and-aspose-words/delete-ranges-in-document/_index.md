@@ -11,11 +11,8 @@ Range allows the deletion of all characters of the range by calling **Range.dele
 **Java**
 
 {{< highlight csharp >}}
-
- doc.getSections().get(0).getRange().delete();
-
+doc.getSections().get(0).getRange().delete();
 String text = doc.getRange().getText();
-
 {{< /highlight >}}
 ## **Apache POI HWPF XWPF - Delete Ranges in Document**
 delete method can be used after retrieving Section of Range.
@@ -23,11 +20,8 @@ delete method can be used after retrieving Section of Range.
 **Java**
 
 {{< highlight csharp >}}
-
- doc.getRange().getSection(0).delete();
-
+doc.getRange().getSection(0).delete();
 String text = doc.getRange().text();
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

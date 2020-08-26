@@ -105,9 +105,7 @@ The "[Working with Table-Row Data Bands](/words/net/template-syntax/#templatesyn
 Removed obsolete public method from CompositeNode class:
 
 {{< highlight csharp >}}
-
- public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep, bool isLive)
-
+public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep, bool isLive)
 {{< /highlight >}}
 
 Parameter "isLive" is not used anymore. Please use CompositeNode.GetChildNodes(NodeType nodeType, bool isDeep) instead.
@@ -117,61 +115,39 @@ Related Issue: WORDSNET-15801
 The following public property has been added into the **ChartAxis** class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a flag indicating whether this axis is hidden or not.
-
 /// </summary>
-
 /// <remarks>
-
 /// Default value is false.
-
 /// </remarks>
-
 public bool Hidden
-
 {
-
     get; set;
-
 }
-
 {{< /highlight >}}
 
 The property allows hiding/showing and getting visibility state of an axis of a chart.
 #### **UC to create a chart and hide its Y axis**
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-
 Chart chart = shape.Chart;
 
 // Clear demo data.
-
 chart.Series.Clear();
 
 // Fill data.
-
 chart.Series.Add("AW Series 1",
-
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
-
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
 // Hide the Y axis.
-
 chart.AxisY.Hidden = true;
-
 doc.Save(dir + "TestHiddenAxis.docx");
-
 {{< /highlight >}}
 ### **Added Property for Preserving Meta-Characters during Replacement**
 Related Issue: WORDSNET-15840

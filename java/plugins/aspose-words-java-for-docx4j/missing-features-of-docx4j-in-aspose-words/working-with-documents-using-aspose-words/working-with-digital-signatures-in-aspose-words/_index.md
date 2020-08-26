@@ -14,32 +14,19 @@ Aspose.Words supports documents with digital signatures and provides access to t
 
 {{< highlight csharp >}}
 
- // The path to the document which is to be processed.
-
+// The path to the document which is to be processed.
 String filePath = dataDir + "document.docx";
-
 FileFormatInfo info = FileFormatUtil.detectFileFormat(filePath);
-
 if (info.hasDigitalSignature())
-
 {
-
     System.out.println(java.text.MessageFormat.format(
-
             "Document {0} has digital signatures, they will be lost if you open/save this document with Aspose.Words.",
-
             new File(filePath).getName()));
-
 }
-
 else
-
 {
-
 	System.out.println("Document has no digital signature.");
-
 }
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

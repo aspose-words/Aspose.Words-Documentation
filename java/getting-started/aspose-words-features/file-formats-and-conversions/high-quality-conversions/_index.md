@@ -22,11 +22,8 @@ Opens a document from a file and saves it to a different format
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(getMyDir() + "Document.doc");
-
+Document doc = new Document(getMyDir() + "Document.doc");
 doc.save(getMyDir() + "Document Out.html");
-
 {{< /highlight >}}
 #### **Fidelity**
 One of the main goals of Aspose.Words is to provide high-fidelity conversion between document formats. We use the word “high-fidelity” to describe conversions where the output document retains all content and formatting of the original.

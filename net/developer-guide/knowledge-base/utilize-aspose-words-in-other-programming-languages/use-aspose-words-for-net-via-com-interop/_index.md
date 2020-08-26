@@ -65,13 +65,8 @@ The creation of a .NET object is similar to creation of a normal COM object:
 **VBScript**
 
 {{< highlight csharp >}}
-
- Dim helper
-
+Dim helper
 Set helper = CreateObject("Aspose.Words.ComHelper")
-
-
-
 {{< /highlight >}}
 
 Once created, you are able to access the object’s methods and properties, as if it was a COM object:
@@ -79,13 +74,8 @@ Once created, you are able to access the object’s methods and properties, as i
 **VBScript**
 
 {{< highlight csharp >}}
-
- Dim doc
-
+Dim doc
 Set doc = helper.Open("C:\my.doc")
-
-
-
 {{< /highlight >}}
 
 Some methods have overloads and they will be exposed by COM Interop with a numeric suffix added to them, except for the very first method that stays unchanged. For example, Document.Save method overloads become Document.Save, Document.Save_2, Document.Save_3, and so on. 

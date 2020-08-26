@@ -12,17 +12,11 @@ To get Node Type using Aspose.Words Java Apis in Php, simply invoke getNodeType 
 
 {{< highlight csharp >}}
 
- // Create a new document.
-
+// Create a new document.
 $doc = new Java("com.aspose.words.Document");
-
 $nodeType = $doc->getFirstSection()->getBody()->getNodeType();
-
 $node = new Java("com.aspose.words.Node");
-
 echo "NodeType: " . $node->nodeTypeToString($nodeType);
-
-
 {{< /highlight >}}
 
 **Download Running Code**

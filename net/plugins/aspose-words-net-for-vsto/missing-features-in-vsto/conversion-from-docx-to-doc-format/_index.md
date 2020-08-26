@@ -42,11 +42,8 @@ url: /net/conversion-from-docx-to-doc-format/
 Below is code snippet that shows conversion from docx to doc you can do it vice versa as well
 
 {{< highlight csharp >}}
-
- Document doc = new Document("Sample.docx");
-
+Document doc = new Document("Sample.docx");
 doc.Save("Converted.doc",SaveFormat.Doc);
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/813253)

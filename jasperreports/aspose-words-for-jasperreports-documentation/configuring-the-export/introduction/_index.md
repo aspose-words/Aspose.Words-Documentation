@@ -14,13 +14,10 @@ Aspose.Words for JasperReports provides a number of parameters that affect the r
 **Java**
 
 {{< highlight csharp >}}
-
-   import com.aspose.words.jasperreports.*;
-
+  import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
    exporter.setParameter(AWExporterParameter.SPACING_FACTOR, 0.75);
    exporter.exportReport();
-
 {{< /highlight >}}
 
 - If you export reports from JasperServer, you should add the corresponding entries to the <InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml file: 
@@ -28,11 +25,9 @@ Aspose.Words for JasperReports provides a number of parameters that affect the r
 **XML**
 
 {{< highlight csharp >}}
-
-<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">;
+bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">;
 <property name="spacingFactor" value="0.75"/>;
 </bean>;
-
 {{< /highlight >}}
 
 {{% /alert %}}

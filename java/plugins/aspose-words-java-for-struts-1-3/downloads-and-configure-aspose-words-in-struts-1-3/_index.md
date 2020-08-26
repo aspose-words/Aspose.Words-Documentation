@@ -18,9 +18,7 @@ You can download/check out the project source codes from the following locations
 After checking out source codes from any of the above repositories, apply the following mvn commands:
 
 {{< highlight csharp >}}
-
- $ mvn -U clean package 
-
+$ mvn -U clean package 
 {{< /highlight >}}
 
 This will build "Strutsbookapp.war" in the target folder.

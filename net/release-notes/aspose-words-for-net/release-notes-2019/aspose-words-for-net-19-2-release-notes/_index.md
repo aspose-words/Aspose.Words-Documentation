@@ -149,445 +149,200 @@ Here are some details about the particular changes:
 
 ### **Added new public API for font substitution settings. Previous API methods/properties related to font substitution marked as obsolete.**
 {{< highlight csharp >}}
-
- public class FontSettings
-
+public class FontSettings
 {
-
     /// <summary>
-
     /// Settings related to font substitution mechanism.
-
     /// </summary>
-
     public FontSubstitutionSettings SubstitutionSettings
-
     { get; }
-
-
-
     [Obsolete("This property is obsolete. Please use SubstitutionSettings.DefaultFontSubstitution instead.")]
-
     public string DefaultFontName
-
     { get; set; }
-
-
-
     [Obsolete("This property is obsolete. Please use SubstitutionSettings.FontInfoSubstitution instead.")]
-
     public bool EnableFontSubstitution
-
     { get; set; }
-
-
-
     [Obsolete("This method is obsolete. Please use SubstitutionSettings.TableSubstitution instead.")]
-
     public string[] GetFontSubstitutes(string originalFontName);
-
-
-
     [Obsolete("This method is obsolete. Please use SubstitutionSettings.TableSubstitution instead.")]
-
     public void SetFontSubstitutes(string originalFontName, params string[] substituteFontNames);
-
-
-
     [Obsolete("This method is obsolete. Please use SubstitutionSettings.TableSubstitution instead.")]
-
     public void AddFontSubstitutes(string originalFontName, params string[] substituteFontNames);
-
 }
-
-
-
 /// <summary>
-
 /// Specifies font substitution mechanism settings.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>
-
 /// Font substitution process consists of several rules which are checked one by one in specific order.
-
 /// If the first rule can't resolve the font then second rule is checked and so on.</para>
-
 /// <para>The order of the rules is following:
-
 /// 1. Font config substitution rule (disabled by default)
-
 /// 2. Table substitution rule (enabled by default)
-
 /// 3. Font info substitution rule (enabled by default)
-
 /// 4. Default font rule (enabled by default)
-
 /// </para>
-
 /// <para>
-
 /// Note that font info substitution rule will always resolve the font if <see cref="FontInfo"/> is available
-
 /// and will override the default font rule. If you want to use the default font rule then you should disable the
-
 /// font info substitution rule. 
-
 /// </para>
-
 /// <para>
-
 /// Note that font config substitution rule will resolve the font in most cases and thus overrides all other rules. 
-
 /// </para>
-
 /// </remarks>
-
 public class FontSubstitutionSettings
-
 {        
-
     /// <summary>
-
     /// Settings related to table substitution rule.
-
     /// </summary>
-
     public TableSubstitutionRule TableSubstitution
-
     { get; }
-
-
-
     /// <summary>
-
     /// Settings related to font info substitution rule.
-
     /// </summary>
-
     public FontInfoSubstitutionRule FontInfoSubstitution
-
     { get; }
-
-
-
     /// <summary>
-
     /// Settings related to default font substitution rule.
-
     /// </summary>
-
     public DefaultFontSubstitutionRule DefaultFontSubstitution
-
     { get; }
-
-
-
     /// <summary>
-
     /// Settings related to font config substitution rule.
-
     /// </summary>
-
     public FontConfigSubstitutionRule FontConfigSubstitution
-
     { get; }
-
 }
-
-
-
 /// <summary>
-
 /// This is an abstract base class for the font substitution rule.
-
 /// </summary>
-
 public abstract class FontSubstitutionRule
-
 {
-
     /// <summary>
-
     /// Specifies whether the rule is enabled or not.
-
     /// </summary>
-
     public bool Enabled
-
     { get; set; }
-
 }
-
-
-
 /// <summary>
-
 /// Font config substitution rule.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>
-
 /// This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution
-
 /// if the original font is not available.
-
 /// </para>
-
 /// <para>
-
 /// If fontconfig utility is not available then this rule will be ignored.
-
 /// </para>
-
 /// </remarks>
-
 public class FontConfigSubstitutionRule : FontSubstitutionRule
-
 {
-
     /// <summary>
-
     /// Check if fontconfig utility is available or not.
-
     /// </summary>
-
     public bool IsFontConfigAvailable();
-
-
-
     /// <summary>
-
     /// Resets the cache of fontconfig calling results.
-
     /// </summary>
-
     public void ResetCache();
-
 }
-
-
-
 /// <summary>
-
 /// Table font substitution rule.
-
 /// </summary>
-
 /// <remarks>
-
 /// This rule defines the list of substitute font names to be used if the original font is not available.
-
 /// Substitutes will be checked for the font name and the <see cref="FontInfo.AltName"/> (if any).
-
 /// </remarks>
-
 public class TableSubstitutionRule : FontSubstitutionRule
-
 {      
-
     /// <summary>
-
     /// Loads table substitution settings from XML file.
-
     /// </summary>
-
     /// <param name="fileName">Input file name.</param>
-
     public void Load(string fileName);
-
-
-
     /// <summary>
-
     /// Loads table substitution settings from XML stream.
-
     /// </summary>
-
     /// <param name="stream">Input stream.</param>
-
     public void Load(Stream stream);
-
-
-
     /// <summary>
-
     /// Loads predefined table substitution settings for Windows platform.
-
     /// </summary>
-
     public void LoadWindowsSettings();
-
-
-
     /// <summary>
-
     /// Loads predefined table substitution settings for Linux platform.
-
     /// </summary>
-
     public void LoadLinuxSettings();
-
-
-
     /// <summary>
-
     /// Saves the current table substitution settings to file.
-
     /// </summary>
-
     /// <param name="fileName">Output file name.</param>
-
     public void Save(string fileName);
-
-
-
     /// <summary>
-
     /// Saves the current table substitution settings to stream.
-
     /// </summary>
-
     /// <param name="outputStream">Output stream.</param>
-
     public void Save(Stream outputStream);
-
-
-
     /// <summary>
-
     /// Returns array containing substitute font names for the specified original font name.
-
     /// </summary>
-
     /// <param name="originalFontName">Original font name.</param>
-
     /// <returns>List of alternative font names.</returns>
-
     public IEnumerable<string> GetSubstitutes(string originalFontName);
-
-
-
     /// <summary>
-
     /// Override substitute font names for given original font name.
-
     /// </summary>
-
     /// <param name="originalFontName">Original font name.</param>
-
     /// <param name="substituteFontNames">List of alternative font names.</param>
-
     public void SetSubstitutes(string originalFontName, IEnumerable<string> substituteFontNames);
-
-
-
     /// <summary>
-
     /// Override substitute font names for given original font name.
-
     /// </summary>
-
     /// <param name="originalFontName">Original font name.</param>
-
     /// <param name="substituteFontNames">List of alternative font names.</param>
-
     public void SetSubstitutes(string originalFontName, params string[] substituteFontNames);
-
-
-
     /// <summary>
-
     /// Adds substitute font names for given original font name.
-
     /// </summary>
-
     /// <param name="originalFontName">Original font name.</param>
-
     /// <param name="substituteFontNames">List of alternative font names.</param>
-
     public void AddSubstitutes(string originalFontName, IEnumerable<string> substituteFontNames);
-
-
-
     /// <summary>
-
     /// Adds substitute font names for given original font name.
-
     /// </summary>
-
     /// <param name="originalFontName">Original font name.</param>
-
     /// <param name="substituteFontNames">List of alternative font names.</param>
-
     public void AddSubstitutes(string originalFontName, params string[] substituteFontNames);
-
 }
-
-
-
 /// <summary>
-
 /// Font info substitution rule.
-
 /// </summary>
-
 /// <remarks>
-
 /// According to this rule Aspose.Words evaluates all the related fields in <see cref="FontInfo"/> (Panose, Sig etc) for
-
 /// the missing font and finds the closest match among the available font sources. If <see cref="FontInfo"/> is not
-
 /// available for the missing font then nothing will be done.
-
 /// </remarks>
-
 public class FontInfoSubstitutionRule : FontSubstitutionRule
-
 { }
-
-
-
 /// <summary>
-
 /// Default font substitution rule.
-
 /// </summary>
-
 /// <remarks>
-
 /// This rule defines single default font name to be used for substitution if the original font is not available.
-
 /// </remarks>
-
 public class DefaultFontSubstitutionRule : FontSubstitutionRule
-
 {
-
     /// <summary>
-
     /// Gets or sets the default font name.
-
     /// </summary>
-
     /// <remarks>
-
     /// <para>The default value is 'Times New Roman'.</para>
-
     /// </remarks>
-
     public string DefaultFontName
-
     { get; set; }
-
 }
-
 {{< /highlight >}}
 ### **Supported Inlining of Syntax Error Messages into Templates Instead of Exception Throwing for LINQ Reporting Engine**
 **Issues:** WORDSNET-16111, WORDSNET-15203, WORDSNET-13756
@@ -604,12 +359,10 @@ Removed deprecated public property TxtSaveOptions.ExportHeadersFooters:
 
 {{< highlight csharp >}}
 
- // Specifies whether to output headers and footers when exporting in plain text format.
+// Specifies whether to output headers and footers when exporting in plain text format.
 
 // Default value is <b>true</b>.
-
 public bool ExportHeadersFooters
-
 {{< /highlight >}}
 
 

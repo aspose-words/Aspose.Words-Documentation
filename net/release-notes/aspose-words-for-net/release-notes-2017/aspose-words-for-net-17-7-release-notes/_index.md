@@ -126,95 +126,54 @@ New saving format is introduced - PCL (Printer Command Language). Aspose.Words c
 New value was added to enum SaveFormat:
 
 {{< highlight csharp >}}
-
- SaveFormat.Pcl
-
+SaveFormat.Pcl
 {{< /highlight >}}
 
 Example of how to save document to PCL:
 
 {{< highlight csharp >}}
-
- Document doc = new Document("Example.docx");
-
+Document doc = new Document("Example.docx");
 PclSaveOptions saveOptions = new PclSaveOptions();
-
 doc.Save("Example.pcl", saveOptions);
-
 {{< /highlight >}}
 
 PclSaveOptions has following public options and methods:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a value determining whether or not complex transformed elements
-
 /// should be rasterized before saving to PCL document.
-
 /// Default is <c>true</c>.
-
 /// </summary>
-
 /// <remarks>
-
 /// PCL doesn't support some kind of transformations that are used by Aspose Words.
-
 /// E.g. rotated, skewed images and texture brushes. To properly render such elements
-
 /// rasterization process is used, i.e. saving to image and clipping.
-
 /// This process can take additional time and memory.
-
 /// If flag is set to <c>false</c>, some content in output may be different
-
 /// as compared with the source document.
-
 /// </remarks>
-
 public bool RasterizeTransformedElements
-
 {  get; set; }
-
 /// <summary>
-
 /// Adds information about font that is uploaded to the printer by manufacturer.
-
 /// </summary>
-
 /// <param name="fontFullName">Full name of the font (e.g. "Times New Roman Bold Italic").</param>
-
 /// <param name="fontPclName">Name of the font that is used in Pcl document.</param>
-
 /// <remarks>
-
 /// There are 52 fonts that are to be built in any printer according to Pcl specification.
-
 /// However manufactures can add some other fonts to their devices.
-
 /// </remarks>
-
 public void AddPrinterFont(string fontFullName, string fontPclName);
-
 /// <summary>
-
 /// Name of the font that will be used
-
 /// if no expected font is found in printer and built-in fonts collections.
-
 /// </summary>
-
 /// <remarks>
-
 /// If no fallback is found, warning is generated and "Arial" font is used.
-
 /// </remarks>
-
 public string FalllbackFontName
-
 {  get; set; }
-
 {{< /highlight >}}
 
 There is one major feature of PCL that is unsupported in current version of Aspose.Words i.e. custom fonts. It is rather big and complex problem, but we will implement this feature in future.
@@ -222,69 +181,39 @@ There is one major feature of PCL that is unsupported in current version of Aspo
 New property **DisplayDocTitle** was added to PdfSaveOptions to control behavior of how document's title is presented in output PDF document:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// A flag specifying whether the window’s title bar should display the document title taken from
-
 /// the Title entry of the document information dictionary.
-
 /// </summary>
-
 /// <remarks>
-
 /// If <c>false</c>, the title bar should instead display the name
-
 /// of the PDF file containing the document.
-
 ///
-
 /// <para>The default value is <c>false</c>.</para>
-
 /// </remarks>
-
 public bool DisplayDocTitle
-
 {
-
     get { return mDisplayDocTitle; }
-
     set { mDisplayDocTitle = value; }
-
 }
-
 {{< /highlight >}}
 ### **WORDSNET-15504 -  Shape.AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.InsertImage Method.**
 Shape.AspectRatioLocked default value was changed for shapes inserted through the DocumentBuilder.InsertImage method. Now, to mimic MS Word behavior this value is "true" for ShapeType.Image upon inserting image through the DocumentBuilder or through the Model.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether the shape's aspect ratio is locked.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>The default value depends on the <see cref="ShapeType"/>, for the ShapeType.Image it is <b>true</b>
-
 /// but for the other shape types it is <b>false</b>.</p>
-
 /// <p>Has effect for top level shapes only.</p>
-
 /// </remarks>
-
 public bool AspectRatioLocked
-
 {
-
   get { return GraphicData.AspectRatioLocked; }
-
   set { GraphicData.AspectRatioLocked = value; }
-
 }
-
 {{< /highlight >}}
 
 ### **WORDSNET-14504 and WORDSNET-14803 - Changed Importing Behavior of Lists**

@@ -113,45 +113,25 @@ This section lists public API changes that were introduced in Aspose.Words 16.5.
 The following overload has been added to the ReportingEngine class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Populates the specified template document with data from the specified sources making it a ready report.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>
-
 /// Using this overload you can reference multiple data source objects and their members in the template.
-
 /// The name of the first data source can be omitted (i.e. be an empty string or null) if you are going to
-
 /// reference the data source's members but not the data source object itself. Names of the other data sources
-
 /// must be specified and unique.
-
 /// </para>
-
 /// <para>
-
 /// If you are going to use a single data source, consider using of <see cref="BuildReport(Document, object)"/>
-
 /// and <see cref="BuildReport(Document, object, string)"/> overloads instead.
-
 /// </para>
-
 /// </remarks>
-
 /// <param name="document">A template document to be populated with data.</param>
-
 /// <param name="dataSources">An array of data source objects.</param>
-
 /// <param name="dataSourceNames">An array of names to reference the data source objects within the template.</param>
-
 public void BuildReport(Document document, object[] dataSources, string[] dataSourceNames)
-
 {{< /highlight >}}
 
 It allows using multiple data source objects while building a report.

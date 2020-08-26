@@ -98,17 +98,13 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 1. Add this line to the top of the page, control or MasterPage 
 
 {{< highlight csharp >}}
-
- <%@ Register assembly="Aspose.Words.RepeaterExport" namespace="Aspose.Words.RepeaterExport" tagprefix="aspose" %>
-
+<%@ Register assembly="Aspose.Words.RepeaterExport" namespace="Aspose.Words.RepeaterExport" tagprefix="aspose" %>
 {{< /highlight >}}
 
 1. Add the following to a place on your ASP.NET page, control or masterpage where you want the control to be added 
 
 {{< highlight csharp >}}
-
- <aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" runat="server"></aspose:ExportRepeaterToWord>
-
+<aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" runat="server"></aspose:ExportRepeaterToWord>
 {{< /highlight >}}
 ### **FAQs**
 Common questions and issues you might face while using this Control
@@ -132,53 +128,29 @@ The following properties are exposed to configure and use cool features provided
 An example of Export Repeater to Word control with all properties used is shown below
 
 {{< highlight csharp >}}
-
- <aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" ExportButtonText="Export to Word"
-
+<aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" ExportButtonText="Export to Word"
 ExportButtonCssClass="myClass" ExportOutputFormat="Doc" ExportInLandscape="true"
-
 ExportOutputPathOnServer="E:\\temp" ExportFileHeading="<h4>Example Report</h4>"
-
 LicenseFilePath="E:\\Aspose\\Aspose.Total.lic" runat="server">
-
 <HeaderTemplate>
-
    <table class="table table-hover table-bordered">
-
       <tr>
-
          <th>Product ID</th>
-
          <th>Product Name</th>
-
          <th>Units In Stock</th>
-
       </tr>
-
 </HeaderTemplate>
-
 <ItemTemplate>
-
    <tr>
-
       <td><%# Eval("Product ID") %></td>
-
       <td><%# Eval("Product Name")%></td>
-
       <td><%# Eval("Units In Stock")%></td>
-
    </tr>
-
 </ItemTemplate>
-
 <FooterTemplate>
-
    </table>
-
 </FooterTemplate>
-
 </aspose:ExportRepeaterToWord>
-
 {{< /highlight >}}
 ## **Video Demo**
 Video demo will be available soon.

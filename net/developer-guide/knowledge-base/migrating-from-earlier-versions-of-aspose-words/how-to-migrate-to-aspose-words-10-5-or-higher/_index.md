@@ -38,65 +38,40 @@ To fix your code so that fixed widths are used as in previous versions, you need
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Keep a reference to the table being built.
-
 Table table = builder.StartTable();
 
 // Apply some formatting.
-
 builder.CellFormat.Width = 100;
-
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
-
 builder.InsertCell();
 
 // This will cause the table to be structured using column widths as in previous verisons
 
 // instead of fitted to the page width like in the newer versions.
-
-table.AutoFit(AutoFitBehavior.FixedColumnWidths); 
-
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+ 
 // Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document()
-
+Dim doc As New Document()
 Dim builder As New DocumentBuilder(doc)
-
 ' Keep a reference to the table being built.
-
 Dim table As Table = builder.StartTable()
-
 ' Apply some formatting.
-
 builder.CellFormat.Width = 100
-
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red
-
 builder.InsertCell()
-
 ' This will cause the table to be structured using column widths as in previous verisons
-
 ' instead of fitted to the page width like in the newer versions.
-
 table.AutoFit(AutoFitBehavior.FixedColumnWidths)
-
 ' Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 
 On the other hand, if you were previously attempting to fit a table to the page width by using the following code, you can now remove this as tables are fit to the window by default.
@@ -112,51 +87,30 @@ To fix this in the new version you need to specify that tables should not have a
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Keep a reference to the table being built.
-
 Table table = builder.StartTable();
-
-
-
 builder.InsertCell();
 
 // Clear all borders to match the defaults used in previous versions.
-
 table.ClearBorders();
 
 // Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document()
-
+Dim doc As New Document()
 Dim builder As New DocumentBuilder(doc)
-
 ' Keep a reference to the table being built.
-
 Dim table As Table = builder.StartTable()
-
 builder.InsertCell()
-
 ' Clear all borders to match the defaults used in previous versions.
-
 table.ClearBorders()
-
 ' Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
@@ -172,53 +126,33 @@ This occurs when the new table-wide formatting such as Table.Alignment or Table.
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Keep a reference to the table being built.
-
 Table table = builder.StartTable();
 
 // We must first insert a new cell which in turn inserts a row into the table.
-
 builder.InsertCell();
 
 // Once a row exists in our table we can apply table wide formatting.
-
 table.AllowAutoFit = true;
 
 // Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document()
-
+Dim doc As New Document()
 Dim builder As New DocumentBuilder(doc)
-
 ' Keep a reference to the table being built.
-
 Dim table As Table = builder.StartTable()
-
 ' We must first insert a new cell which in turn inserts a row into the table.
-
 builder.InsertCell()
-
 ' Once a row exists in our table we can apply table wide formatting.
-
 table.AllowAutoFit = True
-
 ' Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 #### **Row Formatting is not Applied to Subsequent Rows**
 Currently you may find that custom row formatting such as RowFormat.Height or RowFormat.HeadingFormat does not take effect and instead the formatting of the previous row is used instead is used for these members instead. 
@@ -230,89 +164,54 @@ This has been recognized as a temporary bug and will be fixed in one of the next
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.StartTable();
 
 // For the first row this will be set correctly.
-
 builder.RowFormat.HeadingFormat = true;
-
 builder.InsertCell();
-
 builder.Writeln("Text");
-
 builder.InsertCell();
-
 builder.Writeln("Text");
 
 // End the first row.
-
 builder.EndRow();
 
-// Here we would normally define some other row formatting, such as disabling the 
-
-// heading format. However at the moment this will be ignored and the value from the 
-
+// Here we would normally define some other row formatting, such as disabling the
+ 
+// heading format. However at the moment this will be ignored and the value from the
+ 
 // first row reapplied to the row.
-
 builder.InsertCell();
 
 // Instead make sure to specify the row formatting for the second row here.
-
 builder.RowFormat.HeadingFormat = false;
 
 // Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document()
-
+Dim doc As New Document()
 Dim builder As New DocumentBuilder(doc)
-
 builder.StartTable()
-
 ' For the first row this will be set correctly.
-
 builder.RowFormat.HeadingFormat = True
-
 builder.InsertCell()
-
 builder.Writeln("Text")
-
 builder.InsertCell()
-
 builder.Writeln("Text")
-
 ' End the first row.
-
 builder.EndRow()
-
 ' Here we would normally define some other row formatting, such as disabling the 
-
 ' heading format. However at the moment this will be ignored and the value from the 
-
 ' first row reapplied to the row.
-
 builder.InsertCell()
-
 ' Instead make sure to specify the row formatting for the second row here.
-
 builder.RowFormat.HeadingFormat = False
-
 ' Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 #### **Appearance of Tables Differs when Rendering to a Fixed Page Format**
 At the moment there may be a some differences in how tables appear when saving to a flow based format (e.g DOC, DOCX, RTF) and rendering to a fixed page format (e.g PDF, XPS, SWF etc). The tables in the rendered format may appear different or may extend outside the page.
@@ -324,37 +223,24 @@ Such occurrences are recognized as temporary bugs and will be fixed in future re
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Document.doc");
+Document doc = new Document(MyDir + "Document.doc");
 
 // Normally this method is not necessary to call, as cell and table widths are maintained automatically.
 
 // This method may need to be called when exporting to PDF in rare cases when the table layout appears
 
 // incorrectly in the rendered output.
-
 doc.UpdateTableLayout();
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document(MyDir & "Document.doc")
-
+Dim doc As New Document(MyDir & "Document.doc")
 ' Normally this method is not necessary to call, as cell and table widths are maintained automatically.
-
 ' This method may need to be called when exporting to PDF in rare cases when the table layout appears
-
 ' incorrectly in the rendered output.
-
 doc.UpdateTableLayout()
-
-
-
 {{< /highlight >}}
 #### **Why are some Row Formatting Members now Obsolete**
 In previous versions table formatting was applied by setting properties in RowFormat for every row on the table. With the new version of Aspose.Words you can now set these properties by using a one line call on the Table object instead.

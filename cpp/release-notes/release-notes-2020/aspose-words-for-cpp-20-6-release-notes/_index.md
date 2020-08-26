@@ -138,15 +138,10 @@ A new public class **MarkdownSaveOptions** has been added into **Aspose.Words.Sa
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Class to specify additional options when saving a document into the <see cref="Words.SaveFormat.Markdown"/> format.
-
 /// </summary>
-
 public class MarkdownSaveOptions : TxtSaveOptionsBase
-
 {{< /highlight >}}
 
 For a moment it has only the following own public property:
@@ -154,17 +149,11 @@ For a moment it has only the following own public property:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the format in which the document will be saved if this save options object is used.
-
 /// Can only be <see cref="Words.SaveFormat.Markdown"/>.
-
 /// </summary>
-
 public override SaveFormat SaveFormat
-
 {{< /highlight >}}
 
 Note, TxtSaveOptionsBase.PreserveTableLayout is moved to TxtSaveOptions.PreserveTableLayout:
@@ -172,17 +161,11 @@ Note, TxtSaveOptionsBase.PreserveTableLayout is moved to TxtSaveOptions.Preserve
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format.
-
 /// The default value is <b>false</b>.
-
 /// </summary>
-
 public bool PreserveTableLayout
-
 {{< /highlight >}}
 
 Use Case. Explains how to create and use MarkdownSaveOptions object:
@@ -190,17 +173,10 @@ Use Case. Explains how to create and use MarkdownSaveOptions object:
 **.NET**
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 builder.Writeln("Some text!");
-
-
-
 MarkdownSaveOptions saveOptions = (MarkdownSaveOptions)SaveOptions.CreateSaveOptions(SaveFormat.Markdown);
-
 builder.Document.Save("TestDocument.md", saveOptions);
-
 {{< /highlight >}}
 
 
@@ -212,15 +188,10 @@ Added a new public property Font.EmphasisMark:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets the emphasis mark applied to this formatting.
-
 /// </summary>
-
 public EmphasisMark EmphasisMark
-
 {{< /highlight >}}
 
 
@@ -229,67 +200,32 @@ The emphasis mark is an additional character that is rendered above or below the
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies possible types of emphasis mark.
-
 /// </summary>
-
 public enum EmphasisMark
-
 {
-
     /// <summary>
-
     /// No emphasis mark.
-
     /// </summary>
-
     None = 0x00,
-
-
-
     /// <summary>
-
     /// Emphasis mark is a solid black circle displayed above text.
-
     /// </summary>
-
     OverSolidCircle = 0x01,
-
-
-
     /// <summary>
-
     /// Emphasis mark is a comma character displayed above text.
-
     /// </summary>
-
     OverComma = 0x02,
-
-
-
     /// <summary>
-
     /// Emphasis mark is an empty white circle displayed above text.
-
     /// </summary>
-
     OverWhiteCircle = 0x03,
-
-
-
     /// <summary>
-
     /// Emphasis mark is a solid black circle displayed below text.
-
     /// </summary>
-
     UnderSolidCircle = 0x04,
-
 }
-
 {{< /highlight >}}
 
 Use Case. Explains how to set Font.EmphasisMark via DocumentBuilder:
@@ -297,29 +233,14 @@ Use Case. Explains how to set Font.EmphasisMark via DocumentBuilder:
 **.NET**
 
 {{< highlight csharp >}}
-
- Document document = new Document();
-
+Document document = new Document();
 DocumentBuilder builder = new DocumentBuilder(document);
-
-
-
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
-
-
-
 builder.Write("Emphasis text");
-
 builder.Writeln();
-
 builder.Font.ClearFormatting();
-
 builder.Write("Simple text");
-
-
-
 document.Save(savePath, saveOptions);
-
 {{< /highlight >}}
 
 
@@ -331,17 +252,11 @@ Added a new public property ImportFormatOptions.IgnoreHeaderFooter:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored
-
 /// if ImportFormatMode.KeepSourceFormatting mode is used.
-
 /// The default value is true.
-
 /// </summary>
-
 {{< /highlight >}}
 
 It's true by default to preserve Word's behavior.
@@ -351,21 +266,11 @@ Use Case:
 **.NET**
 
 {{< highlight csharp >}}
-
- Document dstDocument = new Document(dstDocumentPath);
-
+Document dstDocument = new Document(dstDocumentPath);
 Document srcDocument = new Document(srcDocumentPath);
-
-
-
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
-
 importFormatOptions.IgnoreHeaderFooter = false;
-
-
-
 dstDocument.AppendDocument(srcDocument, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
-
 {{< /highlight >}}
 ### **Added a new public property MarkdownSaveOptions.TableContentAlignment**
 Related issue: WORDSNET-20425
@@ -375,19 +280,12 @@ A new public property **TableContentAlignment** has been added into **MarkdownSa
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a value that specifies how to align contents in tables
-
 /// when exporting into the <see cref="Words.SaveFormat.Markdown"/> format.
-
 /// The default value is <see cref="Saving.TableContentAlignment.Auto"/>. 
-
 /// </summary>
-
 public TableContentAlignment TableContentAlignment { get; set; }
-
 {{< /highlight >}}
 
 Also, a new public enumeration has been added:
@@ -395,51 +293,28 @@ Also, a new public enumeration has been added:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
-
 /// </summary>
-
 public enum TableContentAlignment
-
 {
-
     /// <summary>
-
     /// The alignment will be taken from the first paragraph in corresponding table column.
-
     /// </summary>
-
     Auto,
-
     /// <summary>
-
     /// The content of tables will be aligned to the Left.
-
     /// </summary>
-
     Left,
-
     /// <summary>
-
     /// The content of tables will be aligned to the Center.
-
     /// </summary>
-
     Center,
-
     /// <summary>
-
     /// The content of tables will be aligned to the Right.
-
     /// </summary>
-
     Right
-
 }
-
 {{< /highlight >}}
 
 Use Case. Explains how to align content inside the table when exporting into Markdown:
@@ -447,61 +322,34 @@ Use Case. Explains how to align content inside the table when exporting into Mar
 **.NET**
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
-
+DocumentBuilder builder = new DocumentBuilder();
 
 // Create a new table with two cells.
-
 builder.InsertCell();
-
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
-
 builder.Write("Cell1");
-
 builder.InsertCell();
-
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
-
 builder.Write("Cell2");
-
-
-
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 
 // Makes all paragraphs inside table to be aligned to Left. 
-
 saveOptions.TableContentAlignment = TableContentAlignment.Left;
-
 builder.Document.Save("left.md", saveOptions);
 
-
-
 // Makes all paragraphs inside table to be aligned to Right. 
-
 saveOptions.TableContentAlignment = TableContentAlignment.Right;
-
 builder.Document.Save("right.md", saveOptions);
 
-
-
 // Makes all paragraphs inside table to be aligned to Center. 
-
 saveOptions.TableContentAlignment = TableContentAlignment.Center;
-
 builder.Document.Save("center.md", saveOptions);
-
-
 
 // Makes all paragraphs inside table to be aligned automatically.
 
 // The alignment in this case will be taken from the first paragraph in corresponding table column.
-
 saveOptions.TableContentAlignment = TableContentAlignment.Auto;
-
 builder.Document.Save("auto.md", saveOptions);
-
 {{< /highlight >}}
 ### **PDF version 1.5 is marked as obsolete**
 PDF version 1.5 is outdated and marked as obsolete. Please, use the latest PDF version 1.7.
@@ -510,22 +358,14 @@ PDF version 1.5 is outdated and marked as obsolete. Please, use the latest PDF v
 
 {{< highlight csharp >}}
 
- // Specifies the PDF standards compliance level. 
-
+// Specifies the PDF standards compliance level. 
 public enum PdfCompliance
-
 {
-
 ...
-
     [Obsolete("PDF version 1.5 is outdated and will be removed in future releases. Please, use the latest PDF version 1.7.")]
-
     Pdf15,
-
 ...
-
 }
-
 {{< /highlight >}}
 
 

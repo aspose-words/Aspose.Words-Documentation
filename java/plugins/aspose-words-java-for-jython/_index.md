@@ -51,33 +51,19 @@ Following releases of running examples are available to download on all of the b
 You can create HelloWorld document using following example code:
 
 {{< highlight csharp >}}
-
- from aspose-words import Settings
-
+from aspose-words import Settings
 from com.aspose.words import Document
-
 from com.aspose.words import DocumentBuilder
-
 class HelloWorld:
-
     def __init__(self):
-
         dataDir = Settings.dataDir + 'quickstart/'
-
         doc = Document()
-
         builder = DocumentBuilder(doc)
-
         builder.writeln('Hello World!')
-
         doc.save(dataDir + 'HelloWorld.docx')
-
         print "Document saved."
-
 if __name__ == '__main__':
-
     HelloWorld()
-
 {{< /highlight >}}
 ## **Support, Extend and Contribute**
 ### **Support**

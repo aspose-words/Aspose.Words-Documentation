@@ -137,91 +137,51 @@ Related issue: WORDSNET-19556
 Added a Clone() method for a VbaProject:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Performs a copy of the <see cref="VbaProject"/>.
-
 /// </summary>
-
 /// <returns>The cloned VbaProject.</returns>
-
 public VbaProject Clone()
-
 {{< /highlight >}}
 
 Added a Clone() method for a VbaModule:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Performs a copy of the <see cref="VbaModule"/>.
-
 /// </summary>
-
 /// <returns>The cloned VbaModule.</returns>
-
 public VbaModule Clone()
-
 {{< /highlight >}}
 
 Use Case 1:
 
 {{< highlight csharp >}}
-
- Document sourceDoc = TestUtil.Open(@"source.docm");
-
-
-
+Document sourceDoc = TestUtil.Open(@"source.docm");
 Document destDoc = new Document();
 
-
-
 // Clone the whole project.
-
 destDoc.VbaProject = sourceDoc.VbaProject.Clone();
-
-
-
 destDoc.Save("output.docm", );
-
 {{< /highlight >}}
 
 Use Case 2:
 
 {{< highlight csharp >}}
-
- Document sourceDoc = TestUtil.Open(@"source.docm");
-
-
-
+Document sourceDoc = TestUtil.Open(@"source.docm");
 Document destDoc = new Document();
-
-
-
 destDoc.VbaProject = new VbaProject();
 
-
-
 // Clone a single module.
-
 VbaModule copyModule = sourceDoc.VbaProject.Modules["Module1"].Clone();
-
 destDoc.VbaProject.Modules.Add(copyModule);
-
-
-
 destDoc.Save("output.docm", );
-
 {{< /highlight >}}
 ### **Added ability to get access to OLE object raw data**
 WORDSNET-18897: added a feature to get access to OLE object raw data.
 
 {{< highlight csharp >}}
-
- byte[] OleFormat.GetRawData();
-
+byte[] OleFormat.GetRawData();
 {{< /highlight >}}
 
 
@@ -230,18 +190,10 @@ Use Case:
 
 {{< highlight csharp >}}
 
- // Load document with OLE object.
-
+// Load document with OLE object.
 Document doc = new Document(filename);
-
-
-
-
-
 Shape oleShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-
 byte[] oleRawData = shape.OleFormat.GetRawData();
-
 {{< /highlight >}}
 ### **Added a new FindReplaceOptions.UseLegacyOrder option**
 Related issue: WORDSNET-19357.
@@ -249,71 +201,41 @@ Related issue: WORDSNET-19357.
 Some time ago, the Find/Replace method was redesigned in accordance with Word's behavior. In the current behavior, text boxes are analyzed separately from traversal the contents of the document. However, sometimes it is required that the text find/replace occurs sequentially considering the text in the text boxes. To allow users to choose an appropriate behavior, the following option was introduced in FindReplaceOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// True indicates that a text search is performed sequentially from top to bottom considering the text boxes.
-
 /// Default value is false.
-
 /// </summary>
-
 public bool UseLegacyOrder
-
 {
-
     get; set;
-
 }
-
 {{< /highlight >}}
 
 
 ##### **Use Case: In the example, the text "2" is in the text box.**
 {{< highlight csharp >}}
 
- // Open the document.
-
+// Open the document.
     Document doc = Document(@"source.docx");
-
     FindReplaceOptions options = new FindReplaceOptions();
-
     options.ReplacingCallback = new ReplacingCallback();
-
     options.UseLegacyOrder = useLegacyOrder;
-
-
-
     doc.Range.Replace(new Regex(@"\[(.*?)\]"), "", options);
-
 }
-
-
-
 private class ReplacingCallback : IReplacingCallback
-
 {
-
     ReplaceAction IReplacingCallback.Replacing(ReplacingArgs e)
-
     {
-
         Console.Write(e.Match.Value);
-
         return ReplaceAction.Replace;
-
     }
-
 }
-
-
 
 // The example displays the following output:
 
 //    If useLegacyOrder is true: [1][2][3]
 
 //    If useLegacyOrder is false: [1][3][2]
-
 {{< /highlight >}}
 ### **Added new RtfSaveOption.SaveImagesAsWmf**
 Related issue: WORDSNET-19419
@@ -321,39 +243,22 @@ Related issue: WORDSNET-19419
 Added the following new RtfSaveOption:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// When true all images will be saved as WMF.
-
 /// </summary>
-
 /// <remarks>
-
 /// This option might help to avoid WordPad warning messages.
-
 /// </remarks>
-
 public bool SaveImagesAsWmf
-
 {{< /highlight >}}
 
 Use Case:
 
 {{< highlight csharp >}}
-
- Document doc = new Document(@"source.docx");
-
-
-
+Document doc = new Document(@"source.docx");
 RtfSaveOptions saveOpts = new RtfSaveOptions();
-
 saveOpts.SaveImagesAsWmf = true;
-
-
-
 doc.Save("output.rtf", saveOpts);
-
 {{< /highlight >}}
 ### **Conversion to PDF 1.7 standard is now supported**
 Added by Denis Panov, last edited by Andrey Noskov on Dec 04, 2019 (view change)
@@ -369,29 +274,17 @@ Description:
 Added PDF 1.7 to PdfCompliance enum:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the PDF standards compliance level.
-
 /// </summary>
-
 public enum PdfCompliance
-
 {
-
     /// <summary>
-
     /// The output file will comply with the PDF 1.7 standard.
-
     /// </summary>
-
     Pdf17,
-
     …
-
 }
-
 {{< /highlight >}}
 
 
@@ -399,25 +292,14 @@ public enum PdfCompliance
 The property allows specifying PDF format for the output document. Example:
 
 {{< highlight csharp >}}
-
- Document originalDoc = new Document(@"C:\PathToSource\Document.docx");
-
+Document originalDoc = new Document(@"C:\PathToSource\Document.docx");
 Saving.PdfSaveOptions pso = new Saving.PdfSaveOptions();
-
 pso.Compliance = Saving.PdfCompliance.Pdf17;
-
 originalDoc.Save(@"C:\PathToSource\Output.pdf", pso);
 
-
-
 // or just convert without SaveOptions
-
-
-
 Document originalDoc = new Document(@"C:\PathToSource\Document.docx");
-
 originalDoc.Save(@"C:\PathToSource\Output.pdf");
-
 {{< /highlight >}}
 
 
@@ -427,93 +309,49 @@ Issue WORDSNET-12678.
 The following new public properties have been added into the Bookmark class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Returns <b>true</b> if this bookmark is a table column bookmark.
-
 /// </summary>
-
 public bool IsColumn
-
 {
-
     get;
-
 }
-
-
-
 /// <summary>
-
 /// Gets the zero-based index of the first column of the table column range associated with the bookmark.
-
 /// </summary>
-
 /// <remarks>
-
 /// Returns <b>-1</b> if this bookmark is not a table column bookmark.
-
 /// </remarks>
-
 public int FirstColumn
-
 {
-
     get;
-
 }
-
-
-
 /// <summary>
-
 /// Gets the zero-based index of the last column of the table column range associated with the bookmark.
-
 /// </summary>
-
 /// <remarks>
-
 /// Returns <b>-1</b> if this bookmark is not a table column bookmark.
-
 /// </remarks>
-
 public int LastColumn
-
 {
-
     get;
-
 }
-
 {{< /highlight >}}
 
 User Case:
 
 {{< highlight csharp >}}
-
- Document doc = new Document(fileName);
-
+Document doc = new Document(fileName);
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
-
 {
-
     Console.WriteLine("Bookmark: {0}{1}", bookmark.Name, bookmark.IsColumn ? " (Column)" : "");
-
     if (bookmark.IsColumn)
-
     {
-
         Row row = bookmark.BookmarkStart.GetAncestor(NodeType.Row) as Row;
-
         if (row != null && bookmark.FirstColumn < row.Cells.Count)
-
             Console.WriteLine(row.Cells[bookmark.FirstColumn].GetText().TrimEnd(ControlChar.CellChar));
-
     }
-
 }
-
 {{< /highlight >}}
 ### **Supported access to related DataTable using relation name for LINQ Reporting Engine**
 Issue: WORDSNET-19238

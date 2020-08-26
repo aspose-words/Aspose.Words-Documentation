@@ -10,7 +10,5 @@ LINQ Reporting Engine enables you to treat DataTable objects in template express
 Also, you can normally apply enumeration extension methods (see "Appendix A. Enumeration Extension Methods" for more information) to DataTable objects in template expressions. For example, given that persons is a DataTable instance, you can count its rows using the following syntax.
 
 {{< highlight csharp >}}
-
- persons.count()
-
+persons.count()
 {{< /highlight >}}

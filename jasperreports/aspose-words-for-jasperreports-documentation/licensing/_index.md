@@ -31,21 +31,14 @@ This method is used with JasperReports.
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
+   import com.aspose.words.jasperreports.*;
 
    // Create a stream object containing the license file
-
    FileInputStream fstream = new FileInputStream("C:\\Aspose.Words.JasperReports.lic");
 
    // Set the license through the stream object
-
    License license = new License();
-
    license.setLicense(fstream);
-
-
-
 {{< /highlight >}}
 #### **Set the licenseFile Exporter Parameter in Code**
 {{% alert color="primary" %}} 
@@ -60,17 +53,10 @@ This method is used with JasperReports.
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.LICENSE, "Aspose.Words.JasperReports.lic");
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 #### **Set the licenseFile Exporter Parameter in applicationContext.xml**
 This method is used with JasperServer.
@@ -81,15 +67,9 @@ This method is used with JasperServer.
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="licenseFile" value="C:/jasperserver-3.0/apache-tomcat/webapps/jasperserver/WEB-INF/Aspose.Words.JasperReports.lic"/>
-
 </bean>
-
-
-
 {{< /highlight >}}
 #### **Verify that the License Works**
 Export any report to DOC or DOCX format and check if the report contains an evaluation message. If there is no evaluation message, then the license is working properly.

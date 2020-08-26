@@ -19,31 +19,18 @@ You can change the default 1in value by specifying what page margins the exporte
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.PAGE_MARGINS, "1in;1in;0.5in;0.5in");
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 #### **JasperServer**
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="pageMargins" value="1in;1in;0.5in;0.5in"/>
-
 </bean>
-
-
-
 {{< /highlight >}}
 
 The value of the parameter is a string of the form 

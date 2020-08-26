@@ -14,17 +14,10 @@ By default, value of **CHECK_VERSION** parameter is **true**. This means that As
 **In JasperReports:**
 
 {{< highlight csharp >}}
-
- import com.aspose.words.jasperreports.*;
-
-
-
+import com.aspose.words.jasperreports.*;
 AWDocExporter exporter = new AWDocExporter();
-
 exporter.setParameter(AWExporterParameter.CHECK_VERSION, false); 
-
 exporter.exportReport();
-
 {{< /highlight >}}
 
 **In JasperServer:**

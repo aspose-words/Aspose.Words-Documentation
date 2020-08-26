@@ -105,17 +105,11 @@ Issues WORDSNET-17093, WORDSNET-17235, WORDSNET-17261, WORDSNET-16491 and WORDSN
 The following new member added to the ReportBuildOptions enum:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies that the engine should remove paragraphs becoming empty after template syntax tags are
-
 /// removed or replaced with empty values.
-
 /// </summary>
-
 RemoveEmptyParagraphs
-
 {{< /highlight >}}
 
 When the option is applied to ReportingEngine.Options, the engine additionally removes paragraphs becoming empty after template syntax tags are removed or replaced with empty values as shown in the following examples.
@@ -125,33 +119,23 @@ When the option is applied to ReportingEngine.Options, the engine additionally r
 Template document
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 <<[""]>>
-
 Suffix
-
 {{< /highlight >}}
 
 Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 Suffix
-
 {{< /highlight >}}
 
 Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 Suffix
-
 {{< /highlight >}}
 
 **Example 2**
@@ -159,37 +143,25 @@ Suffix
 Template document
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 <<if [false]>>
-
 Text to be removed
-
 <</if>>
-
 Suffix
-
 {{< /highlight >}}
 
 Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 Suffix
-
 {{< /highlight >}}
 
 Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 Suffix
-
 {{< /highlight >}}
 
 **Example 3**
@@ -203,71 +175,44 @@ In this example, persons is assumed to be a data table having a field Name.
 Template document
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 <<foreach [in persons]>>
-
 <<[Name]>>
-
 <</foreach>>
-
 Suffix
-
 {{< /highlight >}}
 
 Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 John Doe
-
 Jane Doe
-
 John Smith
-
 Suffix
-
 {{< /highlight >}}
 
 Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
 
 {{< highlight csharp >}}
-
- Prefix
-
+Prefix
 John Doe
-
 Jane Doe
-
 John Smith
-
 Suffix
-
 {{< /highlight >}}
 ### **NodeRendererBase.BoundsInPoints Property Made Public**
 NodeRendererBase.BoundsInPoints property made public:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets the actual bounds of the shape in points.
-
 /// </summary>
-
 /// <remarks>
-
 /// This property returns the actual (as rendered on the page) bounding box of the shape.
-
 /// The bounds takes into account shape rotation (if any).
-
 /// </remarks>
-
 public RectangleF BoundsInPoints
-
 {{< /highlight >}}
 
 This property is added for convenience in addition to *SizeInPoints* property and *GetBoundsInPixels()* method.
@@ -275,111 +220,58 @@ This property is added for convenience in addition to *SizeInPoints* property an
 We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](/words/net/true-type-fonts/#truetypefonts-fontsubstitutionandfontfallbackinaspose-words).
 
 {{< highlight csharp >}}
-
- public class FontSettings
-
+public class FontSettings
 {
-
     /// <summary>
-
     /// Settings related to font fallback mechanism.
-
     /// </summary>
-
     public FontFallbackSettings FallbackSettings
-
     {
-
         get { return mFallbackSettings; }
-
     }
-
 }
-
 /// <summary>
-
 /// Specifies font fallback mechanism settings.
-
 /// </summary>
-
 /// <remarks>
-
 /// By default fallback settings are initialized with predefined settings which mimics the Microsoft Word fallback.
-
 /// </remarks>
-
 public class FontFallbackSettings
-
 {
-
 	/// <summary>
-
 	/// Loads font fallback settings from XML file.
-
 	/// </summary>
-
 	/// <param name="fileName">Input file name.</param>
-
 	public void Load(string fileName);
-
 	/// <summary>
-
 	/// Loads fallback settings from XML stream.
-
 	/// </summary>
-
 	/// <param name="stream">Input stream.</param>
-
 	public void Load(Stream stream);
-
 	/// <summary>
-
 	/// Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts.
-
 	/// </summary>
-
 	public void LoadMsOfficeFallbackSettings();
-
 	/// <summary>
-
 	/// Saves the current fallback settings to stream.
-
 	/// </summary>
-
 	/// <param name="outputStream">Output stream.</param>
-
 	public void Save(Stream outputStream);
-
 	/// <summary>
-
 	/// Saves the current fallback settings to file.
-
 	/// </summary>
-
 	/// <param name="fileName">Output file name.</param>
-
 	public void Save(string fileName);
-
 	/// <summary>
-
 	/// Automatically builds the fallback settings by scanning available fonts.
-
 	/// </summary>
-
 	/// <remarks>
-
 	/// This method may produce non-optimal fallback settings. Fonts are checked by <a href="https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur">
-
 	/// Unicode Character Range</a> fields and not by the actual glyphs presence. Also Unicode ranges are checked individually
-
 	/// and several ranges related to single language/script may use different fallback fonts.
-
 	/// </remarks>
-
 	public void BuildAutomatic();
-
 }
-
 {{< /highlight >}}
 
 
@@ -432,90 +324,59 @@ WORDSNET-14601 has now been resolved.
 A new property has been added to the **StructuredDocumentTag** class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets the style applied to this SDT.
-
 /// </summary>
-
 public Style Style
-
 {{< /highlight >}}
 
 It can also be accessed via the string property "StyleName" like that what Font, ParagraphFormat and Table have.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets the name of the table style applied to this SDT.
-
 /// </summary>
-
 public string StyleName
-
 {{< /highlight >}}
 ##### **Note.**
 Only Linked and Character styles can be applied to an SDT.
 An InvalidOperationException ("Cannot apply this style to the SDT") is thrown when a style that exists but is not Linked or Character style is being applied.
 ##### **UC1. Setting a style to an SDT.**
 {{< highlight csharp >}}
-
- StructuredDocumentTag sdt = ...
-
+StructuredDocumentTag sdt = ...
 Style style = doc.Styles[styleName];
-
 sdt.Style = style;
-
 {{< /highlight >}}
 ##### **UC 1.1. Setting a style to an SDT via StyleName.**
 {{< highlight csharp >}}
-
- StructuredDocumentTag sdt = ...
-
+StructuredDocumentTag sdt = ...
 sdt.StyleName = "Quote";
-
 {{< /highlight >}}
 ##### **UC 1.2 Removing defined style.**
 To remove the applied style the default Style should be applied.
 
 {{< highlight csharp >}}
-
- StructuredDocumentTag sdt = ...
-
+StructuredDocumentTag sdt = ...
 sdt.StyleName = "Default Paragraph Font";
-
 {{< /highlight >}}
 ##### **UC 2. Getting applied to sdt control style.**
 Note. When a linked style is applied to an sdt a paragraph style is returned.
 
 {{< highlight csharp >}}
-
- StructuredDocumentTag sdt = ...
-
+StructuredDocumentTag sdt = ...
 Style style = sdt.Style; //paragraph style name will be returned if it's linked with a character style
-
 {{< /highlight >}}
 ##### **UC 2.1 Getting applied to sdt control style via accessing StyleName.**
 {{< highlight csharp >}}
-
- StructuredDocumentTag sdt = ...
-
+StructuredDocumentTag sdt = ...
 string styleName = sdt.StyleName; //paragraph style name will be returned if it's linked with a character style
-
 {{< /highlight >}}
 ##### **UC 2.2 Accessing style that is not defined.**
 {{< highlight csharp >}}
-
- StructuredDocumentTag sdt = ...
-
+StructuredDocumentTag sdt = ...
 //... style was not defined before
-
 Style style = sdt.Style;
-
 //style should be "Default Paragraph Font"
-
 {{< /highlight >}}
 ### **Feature to Copy All Styles from Template**
 WORDSNET-16783 has now been resolved.
@@ -523,23 +384,16 @@ WORDSNET-16783 has now been resolved.
 Following methods were added:
 
 {{< highlight csharp >}}
-
- public void Document.CopyStylesFromTemplate(string template)
-
+public void Document.CopyStylesFromTemplate(string template)
 public void Document.CopyStylesFromTemplate(Document template)
-
 {{< /highlight >}}
 
 Methods copies all styles from template trying to preserve style hierarchy for base and linked styles.
 #### **UC**
 {{< highlight csharp >}}
-
- string templateFileName = "template file name";
-
+string templateFileName = "template file name";
 Document target = new Document("target document file name");
-
 target.CopyStylesFromTemplate(templateFileName);
-
 {{< /highlight >}}
 ### **DocumentBuilder.InsertField Throws System.InvalidOperationException**
 WORDSNET-17328 has now been resolved.
@@ -547,37 +401,25 @@ WORDSNET-17328 has now been resolved.
 A customer requested the ability to insert untyped/empty fields ({}) just like MS Word allows doing so. By the moment AW threw System.InvalidOperationException when attempting to insert **FieldType.FieldNone** (which was the way the customer tried to insert an untyped field):
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.InsertField(FieldType.FieldNone, false);
-
 {{< /highlight >}}
 
 Since mimicking MS Word is one of our primary goals, we have supported inserting untyped fields. This is resulted in making the **FieldUnknown** class public because **DocumentBuilder** returns its instance. It existed prior to that, but used to be internal.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Implements an unknown or unrecognized field.
-
 /// </summary>
-
 public class FieldUnknown : Field
-
 {{< /highlight >}}
 
 Use case:
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 FieldUnknown field = (FieldUnknown)builder.InsertField(FieldType.FieldNone, false);
-
 {{< /highlight >}}
 ### **Added Public Property AllowCellSpacing**
 WORDSNET-17330 has now been resolved.
@@ -585,15 +427,10 @@ WORDSNET-17330 has now been resolved.
 New public property ***AllowCellSpacing*** was added into the Table class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets the "Allow spacing between cells" option.
-
 /// </summary>
-
 public bool AllowCellSpacing
-
 {{< /highlight >}}
 
 This property allows to control spacing between cells.
@@ -603,10 +440,8 @@ UC:
 
 {{< highlight csharp >}}
 
- // Remove spacing between cells
-
+// Remove spacing between cells
 table.AllowCellSpacing = false;
-
 {{< /highlight >}}
 ### **Added Feature to Insert Horizontal Rule into Document**
 WORDSNET-17397 has now been resolved.
@@ -614,15 +449,10 @@ WORDSNET-17397 has now been resolved.
 The builder.InsertHorizontalRule() method was added to the DocumentBuilder class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Inserts a horizontal rule shape into the document.
-
 /// </summary>
-
 public void InsertHorizontalRule()
-
 {{< /highlight >}}
 
 This adds a horizontal rule to a document without using builder.InsertHtml("<hr>") method.
@@ -630,7 +460,5 @@ This adds a horizontal rule to a document without using builder.InsertHtml("<hr>
 Use case:
 
 {{< highlight csharp >}}
-
- builder.InsertHorizontalRule();
-
+builder.InsertHorizontalRule();
 {{< /highlight >}}

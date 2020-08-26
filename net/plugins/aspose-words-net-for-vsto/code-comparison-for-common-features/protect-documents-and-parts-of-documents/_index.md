@@ -10,19 +10,12 @@ You can add protection to Word documents to prevent users from making any edits 
 The following code example protects the active document. To use this code example, run it from the ThisAddIn class in your project.
 
 {{< highlight csharp >}}
-
- object noReset = false;
-
+object noReset = false;
 object password = System.String.Empty;
-
 object useIRM = false;
-
 object enforceStyleLock = false;
-
 this.Application.ActiveDocument.Protect(Word.WdProtectionType.wdAllowOnlyReading,
-
 ref noReset, ref password, ref useIRM, ref enforceStyleLock);
-
 {{< /highlight >}}
 ## **Aspose.Words**
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
@@ -33,11 +26,8 @@ When you use Aspose.Words to protect a document, you have an option of keeping t
 Use the **Document.Protect** method to protect a document from changes. This method accepts a **ProtectionType** parameter and optionally a password by passing one as the second parameter **Document.Protect**.
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
-
 {{< /highlight >}}
 ## **Download Running Code Example**
 - [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)

@@ -122,91 +122,52 @@ WORDSNET-14376 and WORDSNET-14377 are resolved. Two new public properties are av
 Two new public properties are available in the ParagraphFormat class: AddSpaceBetweenFarEastAndAlpha and AddSpaceBetweenFarEastAndDigit.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions
-
-/// of Latin text and regions of East Asian text in the current paragraph.
-
-/// </summary>
-
-public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
-
 /// <summary>
-
 /// Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions
-
-/// of numbers and regions of East Asian text in the current paragraph.
-
+/// of Latin text and regions of East Asian text in the current paragraph.
 /// </summary>
-
+public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
+/// <summary>
+/// Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions
+/// of numbers and regions of East Asian text in the current paragraph.
+/// </summary>
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
-
 {{< /highlight >}}
 
 ### **Added Public Property HtmlLoadOptions.PreferredControlType**
 WORDSNET-14669 has been resolved. New public property PreferredControlType is added into the HtmlLoadOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Type of document nodes that represent &lt;input&gt; and &lt;select&gt; elements imported from HTML.
-
-/// </summary>
-
-public enum HtmlControlType
-
-{
-
-    FormField,
-
-    StructuredDocumentTag
-
-}
-
-
 /// <summary>
-
-/// Gets or sets preffered type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements.
-
-/// Default value is <see cref="HtmlControlType.FormField"/>.
-
+/// Type of document nodes that represent &lt;input&gt; and &lt;select&gt; elements imported from HTML.
 /// </summary>
-
-/// <remarks>
-
-/// Please note that setting this property does not guarantee that all imported controls will be of the specified type.
-
-/// If an HTML control is not representable with document nodes of the preferred type, Aspose.Words will use
-
-/// a compatible <see cref="HtmlControlType"/> for that control.
-
-/// </remarks>
-
-public HtmlControlType PreferredControlType
-
+public enum HtmlControlType
 {
-
-    get { return mPreferedControlType; }
-
-    set { mPreferedControlType = value; }
-
+    FormField,
+    StructuredDocumentTag
 }
-
+/// <summary>
+/// Gets or sets preffered type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements.
+/// Default value is <see cref="HtmlControlType.FormField"/>.
+/// </summary>
+/// <remarks>
+/// Please note that setting this property does not guarantee that all imported controls will be of the specified type.
+/// If an HTML control is not representable with document nodes of the preferred type, Aspose.Words will use
+/// a compatible <see cref="HtmlControlType"/> for that control.
+/// </remarks>
+public HtmlControlType PreferredControlType
+{
+    get { return mPreferedControlType; }
+    set { mPreferedControlType = value; }
+}
 {{< /highlight >}}
 
 Sample usage:
 
 {{< highlight csharp >}}
-
- HtmlLoadOptions lo = new HtmlLoadOptions();
-
+HtmlLoadOptions lo = new HtmlLoadOptions();
 lo.PreferredControlType = HtmlControlType.StructuredDocumentTag;
-
 Document doc = new Document(@"test.html", lo);
-
 {{< /highlight >}}
 ### **WORDSNET-15326 - SVG Multithread Processing Issue Resolved**
 Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in multiple threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI+ used earlier.

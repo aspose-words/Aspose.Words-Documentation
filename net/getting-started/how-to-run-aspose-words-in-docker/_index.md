@@ -32,7 +32,7 @@ To create the Hello World program, follow the steps below:
 **.NET**
 
 {{< highlight csharp >}}
-using Aspose.Words;
+ng Aspose.Words;
 using System;
 namespace Aspose.Words.Docker.Sample
 {
@@ -40,7 +40,6 @@ namespace Aspose.Words.Docker.Sample
 	{
     	static void Main(string[] args)
     	{
-
         	// Create document and save it in all available formats.
         	Document doc = new Document();
         	DocumentBuilder builder = new DocumentBuilder(doc);
@@ -51,7 +50,6 @@ namespace Aspose.Words.Docker.Sample
             	{
                 	try
                 	{
-
                     	// The folder specified will be mounted as a volume when run the application in Docker image.
                     	doc.Save(string.Format("/TestOut/out{0}", FileFormatUtil.SaveFormatToExtension(sf)), sf);
                     	Console.WriteLine("Saving {0}\t\t[OK]", sf);

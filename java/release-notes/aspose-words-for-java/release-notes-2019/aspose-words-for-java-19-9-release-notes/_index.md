@@ -128,31 +128,18 @@ Now it is possible to create structured document tag nodes of the repeating sect
 The new item has also been added into the SdtType enumeration type:
 
 {{< highlight csharp >}}
-
- public enum SdtType
-
+public enum SdtType
 {
-
 …
-
     /// <summary>
-
     /// The SDT represents repeating section item.
-
     /// </summary>
-
     /// <remarks>
-
     /// This is MS-specific feature available since Office 2013 and not supported by the ISO/IEC 29500 OOXML standard.
-
     /// </remarks>
-
     RepeatingSectionItem,
-
 …
-
 }
-
 {{< /highlight >}}
 
 
@@ -160,115 +147,51 @@ The new item has also been added into the SdtType enumeration type:
 **Use case to create a table repeating section mapped to a custom XML part:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-
-
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
-
     "<books><book><title>Everyday Italian</title><author>Giada De Laurentiis</author></book>" +
-
     "<book><title>Harry Potter</title><author>J K. Rowling</author></book>" +
-
     "<book><title>Learning XML</title><author>Erik T. Ray</author></book></books>");
-
-
-
 Table table = builder.StartTable();
-
-
-
 builder.InsertCell();
-
 builder.Write("Title");
-
-
-
 builder.InsertCell();
-
 builder.Write("Author");
-
-
-
 builder.EndRow();
-
 builder.EndTable();
-
-
-
 StructuredDocumentTag repeatingSectionSdt =
-
     new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
-
 repeatingSectionSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book", "");
-
 table.AppendChild(repeatingSectionSdt);
-
-
-
 StructuredDocumentTag repeatingSectionItemSdt =
-
     new StructuredDocumentTag(doc, SdtType.RepeatingSectionItem, MarkupLevel.Row);
-
 repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
-
-
-
 Row row = new Row(doc);
-
 repeatingSectionItemSdt.AppendChild(row);
-
-
-
 StructuredDocumentTag titleSdt =
-
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
-
 titleSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/title[1]", "");
-
 row.AppendChild(titleSdt);
-
-
-
 StructuredDocumentTag authorSdt =
-
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
-
 authorSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/author[1]", "");
-
 row.AppendChild(authorSdt);
-
-
-
 doc.Save(dir + "Document.docx");
-
 {{< /highlight >}}
 ### **WORDSNET-17449 - Implemented SavePictureBullet option for Word 97, which cannot work correctly with PictureBullet data**
 A new public option has been added to the DocSaveOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// When <c>false</c>, PictureBullet data is not saved to output document.
-
 /// Default value is <b>true</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>This option is provided for Word 97, which cannot work correctly with PictureBullet data.
-
 /// To remove PictureBullet data, set the option to "false".</para>
-
 /// </remarks>
-
 public bool SavePictureBullet
-
 {{< /highlight >}}
 
 
@@ -276,15 +199,10 @@ public bool SavePictureBullet
 **Use Case. Explains how to remove PictureBullet data from the saving DOC-file:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document("in.doc");
-
+Document doc = new Document("in.doc");
 DocSaveOptions so = (DocSaveOptions)SaveOptions.CreateSaveOptions(SaveFormat.Doc);
-
 so.SavePictureBullet = false;
-
 doc.Save("out.doc", so);
-
 {{< /highlight >}}
 ### **WORDSNET-18210 - Incorrect number formatting in PDF**
 New elements added to public enumeration ***Aspose.Words.Shaping.FontFeature.***
@@ -292,65 +210,32 @@ New elements added to public enumeration ***Aspose.Words.Shaping.FontFeature.***
 Currently, these font features are processed and correctly provided to the external shapers.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Replaces figure glyphs set on uniform (tabular) widths with corresponding glyphs set on glyph-specific (proportional) widths.
-
 /// https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-pnum
-
 /// Equivalent OpenType tag: 'pnum'
-
 /// </summary>
-
 ProportionalFigures,
-
-
-
 /// <summary>
-
 /// Replaces figure glyphs set on proportional widths with corresponding glyphs set on uniform (tabular) widths.
-
 /// Tabular widths will generally be the default, but this cannot be safely assumed.
-
 /// Of course this feature would not be present in monospaced designs.
-
 /// https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-tnum
-
 /// Equivalent OpenType tag: 'tnum'
-
 /// </summary>
-
 TabularFigures,
-
-
-
 /// <summary>
-
 /// This feature changes selected non-lining figures to lining figures.
-
 /// https://docs.microsoft.com/en-us/typography/opentype/spec/features_ko#lnum
-
 /// Equivalent OpenType tag: 'lnum'
-
 /// </summary>
-
 LiningFigures,
-
-
-
 /// <summary>
-
 /// This feature changes selected figures from the default or lining style to oldstyle form.
-
 /// https://docs.microsoft.com/en-us/typography/opentype/spec/features_ko#onum
-
 /// Equivalent OpenType tag: 'onum'
-
 /// </summary>
-
 OldstyleFigures
-
 {{< /highlight >}}
 ### **WORDSNET-18369 - Remove License.IsLicensed property**
 The License.IsLicensed obsolete property has been removed in order to increase anti-hacking resistance.
@@ -359,15 +244,10 @@ Moreover, this property was useless because of the License.SetLicense(...) throw
 A new public setter has been added to the VbaModule.SourceCode property:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets VBA project module source code.
-
 /// </summary>
-
 public string SourceCode
-
 {{< /highlight >}}
 
 
@@ -375,41 +255,24 @@ public string SourceCode
 **Use Case. Explains how to modify macro source code:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(@"test.docm");
-
+Document doc = new Document(@"test.docm");
 VbaProject project = doc.VbaProject;
-
-
-
 const string newSourceCode = "Test change source code";
 
-
-
 // Choose a module, and set a new source code.
-
 project.Modules[0].SourceCode = newSourceCode;
-
 {{< /highlight >}}
 ### **WORDSNET-19103 - Add feature to link CustomDocumentProperty to Bookmark**
 A new public method has been added: ***CustomDocumentProperties.AddLinkToContent(string, string)***
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Creates a new linked to content custom document property.
-
 /// </summary>
-
 /// <param name="name">The name of the property.</param>
-
 /// <param name="linkSource">The source of the property.</param>
-
 /// <returns>The newly created property object or null when the linkSource is invalid.</returns>
-
 public DocumentProperty AddLinkToContent(string name, string linkSource)
-
 {{< /highlight >}}
 
 
@@ -417,71 +280,41 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 A new public properties has been added: ***DocumentProperty.LinkSource, DocumentProperty.IsLinkToContent***
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets the source of a linked custom document property.
-
 /// </summary>
-
 public string LinkSource
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Shows whether this property is linked to content or not.
-
 /// </summary>
-
 public bool IsLinkToContent
-
 {{< /highlight >}}
 
 
 ##### **Use Case. Configuring “Link to content” Custom Property:**
 {{< highlight csharp >}}
-
- Document doc = new Document(@"test.docx");
-
-
+Document doc = new Document(@"test.docx");
 
 // Retrieve a list of all custom document properties from the file.
-
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 
-
-
 // Add linked to content property.
-
 DocumentProperty customProperty = customProperties.AddLinkToContent("PropertyName", "BookmarkName");
 
-
-
 // Also, accessing the custom document property can be performed by using the property name.
-
 customProperty = customProperties["PropertyName"];
 
-
-
 // Check whether the property is linked to content.
-
 bool isLinkedToContent = customProperty.IsLinkToContent;
 
-
-
 // Get the source of the property.
-
 string source = customProperty.LinkSource;
 
-
-
 // Get the value of the property.
-
 string value = customProperty.Value;
-
 {{< /highlight >}}
 
 

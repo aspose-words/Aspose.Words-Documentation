@@ -20,31 +20,18 @@ In JasperReports:
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.EXPORT_LINES, true);
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="exportLines" value="true"/>
-
 </bean>
-
-
-
 {{< /highlight >}}
 #### **Exporting Rectangles**
 To enable the export of rectangles, use the EXPORT_RECTANGLES parameter. 
@@ -54,29 +41,16 @@ In JasperReports:
 **Java**
 
 {{< highlight csharp >}}
-
-    import com.aspose.words.jasperreports.*;
-
+   import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
-
    exporter.setParameter(AWExporterParameter.EXPORT_RECTANGLES, true);
-
    exporter.exportReport();
-
-
-
 {{< /highlight >}}
 
 **XML**
 
 {{< highlight csharp >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="exportRectangles" value="true"/>
-
 </bean>
-
-
-
 {{< /highlight >}}

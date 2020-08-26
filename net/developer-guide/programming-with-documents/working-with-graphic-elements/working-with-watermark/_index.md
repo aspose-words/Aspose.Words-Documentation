@@ -41,10 +41,8 @@ The following code snippets show you how to set the name of the watermark shape 
 
 {{< highlight csharp >}}
 
- // Set name to be able to remove it afterwards
-
+// Set name to be able to remove it afterwards
 watermark.Name("WaterMark");
-
 {{< /highlight >}}
 
 

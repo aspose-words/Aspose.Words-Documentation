@@ -16,37 +16,28 @@ The save format chosen is important as to ensure the highest fidelity is retaine
 The steps above are then reversed to load the bytes back into a **Document** object.
 
 {{< highlight csharp >}}
-
- string FilePath = @"..\..\..\Sample Files\";
-
+string FilePath = @"..\..\..\Sample Files\";
 string FileName = FilePath + "Converting Document.docx";
 
 // Load the document.
-
 Document doc = new Document(FileName);
 
 // Create a new memory stream.
-
 MemoryStream outStream = new MemoryStream();
 
 // Save the document to stream.
-
 doc.Save(outStream, SaveFormat.Docx);
 
 // Convert the document to byte form.
-
 byte[] docBytes = outStream.ToArray();
 
 // The bytes are now ready to be stored/transmitted.
 
 // Now reverse the steps to load the bytes back into a document object.
-
 MemoryStream inStream = new MemoryStream(docBytes);
 
 // Load the stream into a new document object.
-
 Document loadDoc = new Document(inStream);
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)

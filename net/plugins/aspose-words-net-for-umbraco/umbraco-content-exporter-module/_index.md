@@ -50,9 +50,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 **Note:** You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
 
 {{< highlight csharp >}}
-
-  <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /> 
-
+ <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /> 
 {{< /highlight >}}
 ## **Using**
 ### **Using the Export to Word Macro**

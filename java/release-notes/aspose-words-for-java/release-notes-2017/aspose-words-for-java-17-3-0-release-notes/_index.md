@@ -122,18 +122,12 @@ To improve customer experience with Office Math objects in Aspose.Words model we
 
 {{< highlight csharp >}}
 
- // How to use:
-
+// How to use:
 OfficeMath officeMath = GetOfficeMath();
-
 if (officeMath.getMathObjectType() == MathObjectType.MATRIX)
-
 {
-
    // Do something useful with the Matrix object.
-
 }
-
 {{< /highlight >}}
 ### **Support of Variables, Dynamic Text Background Setting, and a New Image Size Fit mode Added to LINQ Reporting Engine**
 These issues have been resolved: WORDSNET-14489, WORDSNET-14600 and WORDSNET-14627
@@ -149,97 +143,56 @@ The following sections of the engine's documentation were added/updated to descr
 As per customer's request, we have added a MailMergeCleanupOptions option allowing to remove empty rows during mail merge:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether empty rows that contain mail merge regions should be removed from the document.
-
 /// </summary>
-
 /// <remarks>
-
 /// This option applies only to mail merge with regions.
-
 /// </remarks>
-
 RemoveEmptyTableRows = 0x20
-
 {{< /highlight >}}
 
 Sample usage:
 
 {{< highlight csharp >}}
-
- document.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROW | MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
-
+document.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROW | MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 document.getMailMerge().setMergeDuplicateRegions(true);
-
 document.getMailMerge().executeWithRegions(dataTable);
-
 {{< /highlight >}}
 ### **WORDSNET-14602 - New Public Properties were Added to the OfficeMath Object.**
 New public properties Justification and DisplayType were added into the OfficeMath class.
 
 {{< highlight csharp >}}
-
- /** 
-
- Gets/sets Office Math justification.
-
-
-
-
-
- <p>Justification cannot be set to the Office Math with display format type <see cref="OfficeMathDisplayType.Inline"/>.</p>
-
- <p>Inline justification cannot be set to the Office Math with display format type <see cref="OfficeMathDisplayType.Display"/>.</p>
-
- <p>Corresponding <see cref="DisplayType"/> has to be set before setting Office Math justification.</p>
-
-
-
-*/
-
-public OfficeMathJustification Justification
-
 /** 
-
- Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text&nbsp;
-
- or displayed on its own line.
-
-
-
-
-
- <p>Display format type has effect for top level Office Math only.</p>
-
- <p>Returned display format type is always <see cref="OfficeMathDisplayType.Inline"/> for nested Office Math.</p>
-
+ Gets/sets Office Math justification.
+ <p>Justification cannot be set to the Office Math with display format type <see cref="OfficeMathDisplayType.Inline"/>.</p>
+ <p>Inline justification cannot be set to the Office Math with display format type <see cref="OfficeMathDisplayType.Display"/>.</p>
+ <p>Corresponding <see cref="DisplayType"/> has to be set before setting Office Math justification.</p>
 */
-
+public OfficeMathJustification Justification
+/** 
+ Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text&nbsp;
+ or displayed on its own line.
+ <p>Display format type has effect for top level Office Math only.</p>
+ <p>Returned display format type is always <see cref="OfficeMathDisplayType.Inline"/> for nested Office Math.</p>
+*/
 public OfficeMathDisplayType DisplayType
-
 {{< /highlight >}}
 
 **Use Case:**
 
 {{< highlight csharp >}}
-
- OfficeMath officeMath = (OfficeMath)doc.getChild(NodeType.OFFICE_MATH, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.getChild(NodeType.OFFICE_MATH, 0, true);
 
 // Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text
 
 // or displayed on its own line.
-
-officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY); // or OfficeMathDisplayType.Inline
+officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
+ // or OfficeMathDisplayType.Inline
 
 // Gets/sets Office Math justification.
-
-officeMath.setJustification(OfficeMathJustification.LEFT); // Left justification of Math Paragraph.
-
-
-
+officeMath.setJustification(OfficeMathJustification.LEFT);
+ // Left justification of Math Paragraph.
 {{< /highlight >}}
 
 
@@ -255,27 +208,17 @@ Mimic MS Word VBA behavior:
 As per customer's request, we have added a property that allows to get/set field's locale:
 
 {{< highlight csharp >}}
-
- /**
-
+/**
 Gets or sets LCID of the field.
-
 <seealso cref="FieldUpdateCultureSource.FieldCode"/>
-
 */
-
 public int LocaleId
-
 {{< /highlight >}}
 
 Sample usage:
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 Field field = builder.insertField("=1", null);
-
 field.setLocaleId(1027);
-
 {{< /highlight >}}

@@ -16,17 +16,10 @@ In JasperReports:
 **Java**
 
 {{< highlight csharp >}}
-
-   import com.aspose.words.jasperreports.*;
-
+  import com.aspose.words.jasperreports.*;
   AWDocExporter exporter = new AWDocExporter();
-
   exporter.setParameter(AWExporterParameter.OPTIMIZE_FOOTERS, false);
-
   exporter.exportReport();
-
-
-
 {{< /highlight >}}
 
 In JasperServer:
@@ -50,17 +43,10 @@ In JasperReports:
 **Java**
 
 {{< highlight csharp >}}
-
-   import com.aspose.words.jasperreports.*;
-
+  import com.aspose.words.jasperreports.*;
   AWDocExporter exporter = new AWDocExporter();
-
   exporter.setParameter(AWExporterParameter.OPTIMIZE_FOOTER_DISTANCE, 16);
-
   exporter.exportReport();
-
-
-
 {{< /highlight >}}
 
 In JasperServer:

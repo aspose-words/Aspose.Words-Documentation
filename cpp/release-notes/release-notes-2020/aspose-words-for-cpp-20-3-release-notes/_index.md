@@ -111,15 +111,10 @@ Added a new public property SaveOptions.UpdateLastPrintedProperty:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a value determining whether the BuiltInDocumentProperties.LastPrinted property is updated before saving.
-
 /// </summary>
-
 public bool UpdateLastPrintedProperty
-
 {{< /highlight >}}
 
 It's true by default for FixedPageSaveOptions.
@@ -127,15 +122,10 @@ It's true by default for FixedPageSaveOptions.
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(docPath);
-
+Document doc = new Document(docPath);
 SaveOptions saveOptions = new PdfSaveOptions();
-
 saveOptions.UpdateLastPrintedProperty = false;
-
 doc.Save(pdfPath, saveOptions);
-
 {{< /highlight >}}
 
 
@@ -149,29 +139,17 @@ We've opted for a more generic approach and decided to provide full control over
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the shape that the mail merge engine must insert into the document.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>When this property is specified, the mail merge engine ignores all other properties like <see cref="ImageFileName"/> or <see cref="ImageStream"/>
-
 /// and simply inserts the shape into the document.</p>
-
 /// <p>Use this property to fully control the process of merging an image merge field.
-
 /// For example, you can specify <see cref="ShapeBase.WrapType"/> or any other shape property to fine tune the resulting node. However, please note that
-
 /// you are responsible for providing the content of the shape.</p>
-
 /// </remarks>
-
 public Shape Shape { get; set; }
-
 {{< /highlight >}}
 
 As the summary states, this property overrides others like **ImageFileName** or **ImageStream**, i.e. the user just specifies a shape they want to insert with all necessary properties set:
@@ -179,47 +157,23 @@ As the summary states, this property overrides others like **ImageFileName** o
 **.NET**
 
 {{< highlight csharp >}}
-
- private class TestShapeSetFieldMergingCallback : IFieldMergingCallback
-
+private class TestShapeSetFieldMergingCallback : IFieldMergingCallback
 {
-
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
-
     {
-
         //  Implementation is not required.
-
     }
-
-
-
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
-
     {
-
         Shape shape = new Shape(args.Document);
-
         shape.Width = 1000;
-
         shape.Height = 2000;
-
         shape.WrapType = WrapType.Square;
-
-
-
         string imageFileName = "image.png";
-
         shape.ImageData.SetImage(imageFileName);
-
-
-
         args.Shape = shape;
-
     }
-
 }
-
 {{< /highlight >}}
 
 
@@ -231,49 +185,31 @@ The following public properties were added to FindReplaceOptions class:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a boolean value indicating either to ignore text inside delete revisions.
-
 /// The default value is <c>false</c>.
-
 /// </summary>
-
 public bool IgnoreDeleted
-
 {{< /highlight >}}
 
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a boolean value indicating either to ignore text inside insert revisions.
-
 /// The default value is <c>false</c>.
-
 /// </summary>
-
 public bool IgnoreInserted
-
 {{< /highlight >}}
 
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a boolean value indicating either to ignore text inside fields.
-
 /// The default value is <c>false</c>.
-
 /// </summary>
-
 public bool IgnoreFields
-
 {{< /highlight >}}
 
 
@@ -282,56 +218,32 @@ public bool IgnoreFields
 
 {{< highlight csharp >}}
 
- // Create new document.
-
+// Create new document.
 Document doc = new Document();
-
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-
-
 // Insert non-revised text.
-
 builder.Writeln("Deleted");
-
 builder.Write("Text");
 
-
-
 // Remove first paragraph with tracking revisions.
-
 doc.StartTrackRevisions("author", DateTime.Now);
-
 doc.FirstSection.Body.FirstParagraph.Remove();
-
 doc.StopTrackRevisions();
-
-
-
 Regex regex = new Regex("e");
-
 FindReplaceOptions options = new FindReplaceOptions();
 
-
-
 // Replace 'e' in document ignoring deleted text.
-
 options.IgnoreDeleted = true;
-
 doc.Range.Replace(regex, "*", options);
-
-Console.WriteLine(doc.GetText()); // The output is: Deleted\rT*xt\f
-
-
+Console.WriteLine(doc.GetText());
+ // The output is: Deleted\rT*xt\f
 
 // Replace 'e' in document NOT ignoring deleted text.
-
 options.IgnoreDeleted = false;
-
 doc.Range.Replace(regex, "*", options);
-
-Console.WriteLine(doc.GetText()); // The output is: D*l*t*d\rT*xt\f
-
+Console.WriteLine(doc.GetText());
+ // The output is: D*l*t*d\rT*xt\f
 {{< /highlight >}}
 
 
@@ -340,54 +252,31 @@ Console.WriteLine(doc.GetText()); // The output is: D*l*t*d\rT*xt\f
 
 {{< highlight csharp >}}
 
- // Create new document.
-
+// Create new document.
 Document doc = new Document();
-
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-
-
 // Insert text with tracking revisions.
-
 doc.StartTrackRevisions("author", DateTime.Now);
-
 builder.Writeln("Inserted");
-
 doc.StopTrackRevisions();
 
-
-
 // Insert non-revised text.
-
 builder.Write("Text");
-
-
-
 Regex regex = new Regex("e");
-
 FindReplaceOptions options = new FindReplaceOptions();
 
-
-
 // Replace 'e' in document ignoring inserted text.
-
 options.IgnoreInserted = true;
-
 doc.Range.Replace(regex, "*", options);
-
-Console.WriteLine(doc.GetText()); // The output is: Inserted\rT*xt\f
-
-
+Console.WriteLine(doc.GetText());
+ // The output is: Inserted\rT*xt\f
 
 // Replace 'e' in document NOT ignoring inserted text.
-
 options.IgnoreInserted = false;
-
 doc.Range.Replace(regex, "*", options);
-
-Console.WriteLine(doc.GetText()); // The output is: Ins*rt*d\rT*xt\f
-
+Console.WriteLine(doc.GetText());
+ // The output is: Ins*rt*d\rT*xt\f
 {{< /highlight >}}
 
 
@@ -396,42 +285,24 @@ Console.WriteLine(doc.GetText()); // The output is: Ins*rt*d\rT*xt\f
 
 {{< highlight csharp >}}
 
- // Create document.
-
+// Create document.
 Document doc = new Document();
-
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-
-
 // Insert field with text inside.
-
 builder.InsertField("INCLUDETEXT", "Text in field");
-
-
-
 Regex regex = new Regex("e");
-
 FindReplaceOptions options = new FindReplaceOptions();
 
-
-
 // Replace 'e' in document ignoring text inside field.
-
 options.IgnoreFields = true;
-
 doc.Range.Replace(regex, "*", options);
-
-Console.WriteLine(doc.GetText()); // The output is: \u0013INCLUDETEXT\u0014Text in field\u0015\f
-
-
+Console.WriteLine(doc.GetText());
+ // The output is: \u0013INCLUDETEXT\u0014Text in field\u0015\f
 
 // Replace 'e' in document NOT ignoring text inside field.
-
 options.IgnoreFields = false;
-
 doc.Range.Replace(regex, "*", options);
-
-Console.WriteLine(doc.GetText()); // The output is: \u0013INCLUDETEXT\u0014T*xt in fi*ld\u0015\f
-
+Console.WriteLine(doc.GetText());
+ // The output is: \u0013INCLUDETEXT\u0014T*xt in fi*ld\u0015\f
 {{< /highlight >}}

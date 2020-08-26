@@ -41,25 +41,15 @@ Use the License.SetLicense method to license the component. The easiest way to s
 **C#**
 
 {{< highlight csharp >}}
-
- Aspose.Words.ReportingServices.License license = new Aspose.Words.ReportingServices.License();
-
+Aspose.Words.ReportingServices.License license = new Aspose.Words.ReportingServices.License();
 license.SetLicense("Aspose.Words.Reporting.Services.lic");
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
-
+Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
 license.SetLicense("Aspose.Words.Reporting.Services.lic")
-
-
-
 {{< /highlight >}}
 
 The following example shows how to set a license from a stream:
@@ -67,25 +57,15 @@ The following example shows how to set a license from a stream:
 **C#**
 
 {{< highlight csharp >}}
-
- Aspose.Words.ReportingServices.License license = new Aspose.Words.ReportingServices.License();
-
+Aspose.Words.ReportingServices.License license = new Aspose.Words.ReportingServices.License();
 license.SetLicense(myStream);
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
-
+Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
 license.SetLicense(myStream)
-
-
-
 {{< /highlight >}}
 #### **Deploying a License with Your Application**
 Distribute the license file in the same folder as Aspose.Words.ReportingServices.dll.

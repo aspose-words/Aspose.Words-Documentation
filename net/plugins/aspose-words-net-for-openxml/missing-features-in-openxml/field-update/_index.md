@@ -49,19 +49,13 @@ Calculation of the following fields is supported in the current version of Aspos
 - TC
 
 {{< highlight csharp >}}
-
- string FilePath = @"..\..\..\Sample Files\";
-
+string FilePath = @"..\..\..\Sample Files\";
 string FileName = FilePath + "All Field Update.docx";
-
 Document doc = new Document(FileName);
 
 // This updates all fields in the document.
-
 doc.UpdateFields();
-
 doc.Save(FileName);
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)

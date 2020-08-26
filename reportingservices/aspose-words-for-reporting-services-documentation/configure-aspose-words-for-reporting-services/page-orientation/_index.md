@@ -14,23 +14,12 @@ The RDL specification does not explicitly allow specifying the orientation of pa
 To specify the Landscape orientation, add the following lines to the *<Extension>* element corresponding to a particular renderer: 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <PageOrientation>Landscape</PageOrientation>
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}

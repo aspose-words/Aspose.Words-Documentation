@@ -56,9 +56,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.SubstitutionSettings.FontConfigSubstitution.Enabled = true;
-
+fontSettings.SubstitutionSettings.FontConfigSubstitution.Enabled = true;
 {{< /highlight >}}
 
 1. The next step uses a simple but powerful mechanism called Table substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the FontConfig substitution rule.
@@ -87,9 +85,7 @@ The main feature of this rule is the ability to load your own substitution table
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.SubstitutionSettings.TableSubstitution.Load("Table.xml");
-
+fontSettings.SubstitutionSettings.TableSubstitution.Load("Table.xml");
 {{< /highlight >}}
 
 Despite flexibility of this mechanism, there are some cases when it is better to disable it, as shown below:
@@ -97,9 +93,7 @@ Despite flexibility of this mechanism, there are some cases when it is better to
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.SubstitutionSettings.TableSubstitution.Enabled = false;
-
+fontSettings.SubstitutionSettings.TableSubstitution.Enabled = false;
 {{< /highlight >}}
 
 1. The **FontInfo** substitution rule will be applied if the table substitution rule cannot find the font. This mechanism is enabled by default. Aspose.Words finds the most suitable font according to the font information contained in a particular document. This information can be obtained from the **FontInfo** class as shown below:
@@ -107,9 +101,7 @@ Despite flexibility of this mechanism, there are some cases when it is better to
 **.NET**
 
 {{< highlight csharp >}}
-
- FontInfoCollection fontInfos = doc.FontInfos;
-
+FontInfoCollection fontInfos = doc.FontInfos;
 {{< /highlight >}}
 
 Users cannot interfere in the workflow of this feature, unless they decide to disable it in case of unsatisfactory results:
@@ -117,9 +109,7 @@ Users cannot interfere in the workflow of this feature, unless they decide to di
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
-
+fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
 {{< /highlight >}}
 
 If **FontInfo** is not available for the missing font, then the process stops.
@@ -129,9 +119,7 @@ If **FontInfo** is not available for the missing font, then the process stops.
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
-
+fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
 {{< /highlight >}}
 
 To check the current default font, use:
@@ -139,9 +127,7 @@ To check the current default font, use:
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName;
-
+fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName;
 {{< /highlight >}}
 
 To set up your own replacement option, apply:
@@ -149,9 +135,7 @@ To set up your own replacement option, apply:
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
-
+fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 {{< /highlight >}}
 
 1. If Aspose.Words is unable to perform the font substitution, it tries to get the first available font from available font sources.
@@ -175,9 +159,7 @@ There is a [BuildAutomatic](https://apireference.aspose.com/net/words/aspose.wo
 **.NET**
 
 {{< highlight csharp >}}
-
- FontFallbackSettings settings = fontSettings.FallbackSettings;
-
+FontFallbackSettings settings = fontSettings.FallbackSettings;
 {{< /highlight >}}
 
 Similarly to *Table substitution rule*, this mechanism uses XML tables for configuration. These XML tables can be loaded and saved with the following methods:
@@ -185,11 +167,8 @@ Similarly to *Table substitution rule*, this mechanism uses XML tables for conf
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.FallbackSettings.Load("MyNewFallbackTable.xml");
-
+fontSettings.FallbackSettings.Load("MyNewFallbackTable.xml");
 fontSettings.FallbackSettings.Save("Current_FallbackTable.xml");
-
 {{< /highlight >}}
 
 The Aspose.Words release includes two tables: *MsOfficeFallbackSetting.xml* and *NotoFallbackSetting.xml*.
@@ -199,9 +178,7 @@ The *MsOfficeFallbackSetting* table defines a replacement strategy for a rang
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.FallbackSettings.LoadMsOfficeFallbackSettings();
-
+fontSettings.FallbackSettings.LoadMsOfficeFallbackSettings();
 {{< /highlight >}}
 
 The *NotoFallbackSetting* table is created especially for use with Google Noto fonts (see more about Google Noto font settings in the next section) and can be enabled as follows:
@@ -209,9 +186,7 @@ The *NotoFallbackSetting* table is created especially for use with Google Noto
 **.NET**
 
 {{< highlight csharp >}}
-
- fontSettings.FallbackSettings.LoadNotoFallbackSettings();
-
+fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 {{< /highlight >}}
 
 The following code example demonstrates how to load font fallback settings from an XML file:

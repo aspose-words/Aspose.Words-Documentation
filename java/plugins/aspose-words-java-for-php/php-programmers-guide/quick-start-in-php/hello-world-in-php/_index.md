@@ -11,20 +11,10 @@ To Write anything in the Word Document using Aspose.Words for Java in Php, simpl
 **Php Code**
 
 {{< highlight csharp >}}
-
-  $builderBoject = new Java("com.aspose.words.DocumentBuilder",$documentObject);
-
-
+ $builderBoject = new Java("com.aspose.words.DocumentBuilder",$documentObject);
 
  // Write a new paragraph in the document with the text "Hello World!"
-
-
-
  $builderBoject->writeln("Hello World!");
-
-
-
-
 {{< /highlight >}}
 
 **Download Running Code**

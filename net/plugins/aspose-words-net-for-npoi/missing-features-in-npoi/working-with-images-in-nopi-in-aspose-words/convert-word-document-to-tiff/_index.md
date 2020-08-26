@@ -16,17 +16,13 @@ The code sample below converts document's pages from DOC to TIFF.
 **C#**
 
 {{< highlight csharp >}}
-
- string fileDir = "../../data/";
+string fileDir = "../../data/";
 
 // open the document
-
 Document doc = new Document(fileDir + "test.doc");
 
 // Save the document as multipage TIFF.
-
 doc.Save("TestFile Out.tiff");
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [CodePlex](https://asposewordsnpoi.codeplex.com/downloads/get/1556913)

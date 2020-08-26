@@ -44,168 +44,98 @@ To create the output document, we load the first document in the Aspose.Words. T
 #### **Default.js**
 {{< highlight csharp >}}
 
- // This is generic method that will take URL of two documents for comparison (WEB or File)
-
+// This is generic method that will take URL of two documents for comparison (WEB or File)
 function compareDocuments(document1, document2) {
-
     resetDocumentViewerModalData();
 
     // Call server side method to compare the documents
-
     $.ajax({
-
         type: "POST",
-
         url: "Default.aspx/CompareDocuments",
-
         data: '{ document1: "' + document1 + '" , document2: "' + document2 + '" }',
-
         contentType: "application/json; charset=utf-8",
-
         dataType: "json",
-
         success: function (data) {
-
             // If there is error
-
             if (data.d[0].substr(0, 5) == error) {
-
                 // Show error message
-
             }
-
             else {
-
                 // In case call is successful, pass data to success method
-
                 var comparisonDocument = data.d[1];
-
                 viewDocument(comparisonDocument, "False", data.d[2], data.d[3]);
-
             }
-
         },
-
         failure: function (data) {
-
             alert('error');
-
         }
-
     });
-
 }
-
 {{< /highlight >}}
 #### **Default.aspx.cs**
 {{< highlight csharp >}}
-
- [WebMethod]
-
+[WebMethod]
 public static ArrayList CompareDocuments(string document1, string document2)
-
 {
-
     ArrayList result = new ArrayList();
-
     try
-
     {
-
         // Create a temporary folder
-
         string comparisonDocument = GetCompareDocumentName(document1, document2);
 
         // Call the util class for comparison
-
         DocumentComparisonUtil docCompUtil = new DocumentComparisonUtil();
-
         int added = 0, deleted = 0;
-
         docCompUtil.Compare(document1, document2, comparisonDocument, ref added, ref deleted);
-
-        result.Add(Common.Success); // 0. Result
-
-        result.Add((comparisonDocument)); // 1. Path of the comparison document
-
-        result.Add(added); // 2. Number of additions
-
-        result.Add(deleted); // 3. Number of deletions
-
+        result.Add(Common.Success);
+ // 0. Result
+        result.Add((comparisonDocument));
+ // 1. Path of the comparison document
+        result.Add(added);
+ // 2. Number of additions
+        result.Add(deleted);
+ // 3. Number of deletions
     }
-
     catch (Exception ex)
-
     {
-
         result.Clear();
-
-        result.Add(Common.Error + ": " + ex.Message); // 0. Result
-
+        result.Add(Common.Error + ": " + ex.Message);
+ // 0. Result
     }
-
     return result;
-
 }
-
 {{< /highlight >}}
 #### **DocumentComparisonUtil.cs**
 {{< highlight csharp >}}
 
- // Compare the text in two Word documents
-
+// Compare the text in two Word documents
 public void Compare(string document1, string document2, string comparisonDocument, ref int added, ref int deleted)
-
 {
-
     added = 0;
-
     deleted = 0;
 
     // Load both documents in Aspose.Words
-
     Document doc1 = new Document(document1);
-
     Document doc2 = new Document(document2);
-
     Document docComp = new Document(document1);
-
     DocumentBuilder builder = new DocumentBuilder(docComp);
-
     doc1.Compare(doc2, "a", DateTime.Now);
-
     foreach (Revision revision in doc1.Revisions)
-
     {
-
         switch (revision.RevisionType)
-
         {
-
             case RevisionType.Insertion:
-
                 added++;
-
                 break;
-
             case RevisionType.Deletion:
-
                 deleted++;
-
                 break;
-
         }
-
         Console.WriteLine(revision.RevisionType + ": " + revision.ParentNode);
-
     }
-
     Debug.WriteLine("Revisions: " + doc1.Revisions.Count);
-
     doc1.Save(comparisonDocument);
-
 }
-
 {{< /highlight >}}
 ### **Compare Word Documents from URL**
 If you have the web URL of the documents, you can compare them directly, without uploading them. Just specify the URLs and hit the Compare Documents button, it will show you the result after doing the comparison.
@@ -238,156 +168,93 @@ For the page numbering, we have used Bootstrap navigation bar. In jQuery, we jus
 #### **Default.js**
 {{< highlight csharp >}}
 
- // Send document path to server and receive page count and image path
-
+// Send document path to server and receive page count and image path
 function getDocumentData(filePath) {
-
     filePath = filePath.replace(/\\/g, "\\\\");
-
     $.ajax({
-
         type: "POST",
-
         url: "Default.aspx/GetDocumentData",
-
         data: '{ filePath: "' + filePath + '" , sessionID: "' + $("#txtSessionID").val() + '" }',
-
         contentType: "application/json; charset=utf-8",
-
         dataType: "json",
-
         success: function (data) {
-
             // If there is error
-
             if (data.d[0].substr(0, 5) == error) {
-
                 $("#DocumentViewerAlert").addClass("alert-danger");
-
                 $("#DocumentViewerAlert").removeClass("hidden");
-
                 $("#DocumentViewerAlert").text(data.d);
-
             }
-
             else {
-
                 // In case call is successful, pass data to success method
-
                 getDocumentData_Success(data.d);
-
             }
-
         },
-
         failure: function (data) {
-
             alert('error');
-
         }
-
     });
-
 }
 
 // Load first page (image) of document and set page navigation bar
-
 function getDocumentData_Success(result) {
-
     var totalPages = result[1];
-
     var imageFolder = result[2];
-
     //alert(totalPages);
 
     // Show the first page
-
     $("#CurrentDocumentPage").attr("src", imageFolder + "/0.png");
 
     // Show pagination
-
     $("#DocumentViewerPagination").removeClass("hidden");
 
     // Add pages in pagination
-
     for (var iPage = 1 ; iPage <= totalPages ; iPage++) {
-
         var currentPage = 'setCurrentPage(&quot;' + imageFolder + '/' + (iPage - 1) + '.png' + '&quot;)';
-
         //alert(currentPage);
-
         $("#DocumentViewerPaginationUL li:nth-child(" + iPage + ")")
-
             .after('<li class="DocumentViewerPaginationLI"><a onclick="' + currentPage + '" href="#">' + iPage + '</a></li>');
-
     }
-
 }
-
 {{< /highlight >}}
 #### **Default.aspx.cs**
 {{< highlight csharp >}}
 
- // Convert the document to images and send page count and folder path to calling method
-
+// Convert the document to images and send page count and folder path to calling method
 [WebMethod]
-
 public static ArrayList GetDocumentData(string filePath, string sessionID)
-
 {
-
     ArrayList result = new ArrayList();
-
     try
-
     {
-
         // Create a temporary folder
-
         string documentFolder = CreateTempFolders(filePath, sessionID);
 
         // Load the document in Aspose.Words
-
         Document doc = new Document(filePath);
 
         // Convert the document to images
-
         ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
         options.PageCount = 1;
 
         // Save each page of the document as image.
-
         for (int i = 0; i < doc.PageCount; i++)
-
         {
-
             options.PageIndex = i;
-
             doc.Save(string.Format(@"{0}\{1}.png", documentFolder, i), options);
-
         }
-
-        result.Add(Common.Success); // 0. Result
-
-        result.Add(doc.PageCount.ToString()); // 1. Page count
-
-        result.Add(MapPathReverse(documentFolder)); // 2. Images Folder path
-
+        result.Add(Common.Success);
+ // 0. Result
+        result.Add(doc.PageCount.ToString());
+ // 1. Page count
+        result.Add(MapPathReverse(documentFolder));
+ // 2. Images Folder path
     }
-
     catch (Exception ex)
-
     {
-
         result.Clear();
-
-        result.Add(Common.Error + ": " + ex.Message); // 0. Result
-
+        result.Add(Common.Error + ": " + ex.Message);
+ // 0. Result
     }
-
     return result;
-
 }
-
 {{< /highlight >}}

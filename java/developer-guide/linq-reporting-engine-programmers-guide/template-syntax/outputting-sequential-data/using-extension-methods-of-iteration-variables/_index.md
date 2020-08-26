@@ -14,23 +14,16 @@ LINQ Reporting Engine provides special extension methods for iteration variables
 Returns the zero-based index of a sequence item that is represented by the corresponding iteration variable. You can use this extension method to distinguish sequence items with different indexes and then handle them in different ways. For example, given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them prefixing all of them but the first one with commas.
 
 {{< highlight csharp >}}
-
- The items are: <<foreach [
-
+The items are: <<foreach [
     item in items]>><<[item.indexOf() != 0
-
         ? ", "
-
         : ""]>><<[item]>><</foreach>>.
-
 {{< /highlight >}}
 
 In this case, the engine produces a report as follows.
 
 {{< highlight csharp >}}
-
- The items are: item1, item2, item3.
-
+The items are: item1, item2, item3.
 {{< /highlight >}}
 
 - numberOf()
@@ -39,7 +32,9 @@ Returns the one-based index of a sequence item that is represented by the corres
 
 |**No.** |**Item**|
 | :- | :- |
-|<p>{{< highlight csharp >}}</p><p> <<foreach [item</p><p>in items]>><<[</p><p>item.numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[item]>><</foreach>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}
+p> <<foreach [item</p><p>in items]>><<[</p><p>item.numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
+p> <<[item]>><</foreach>></p><p>{{< /highlight >}}</p>|
 In this case, the engine produces a report as follows.
 
 |**No.** |**Item**|

@@ -18,69 +18,37 @@ If CAML query is not specified, all elements in the list are retrieved. CAML que
 Here is an example of the report with the SPListQuery element:
 
 {{< highlight csharp >}}
-
- <Report xmlns="http://www.aspose.com/Words/SharePoint/Reporting" >
-
+<Report xmlns="http://www.aspose.com/Words/SharePoint/Reporting" >
   <DataSets>
-
     <DataSet>
-
       <DataSource>
-
         <SPDataSource>
-
           <SiteUrl>http://localhost</SiteUrl>
-
         </SPDataSource>
-
       </DataSource>
-
       <Queries>
-
         <SPListQuery>
-
           <TableNames>
-
             <TableName>Docs</TableName>
-
           </TableNames>
-
           <ListName>Documents</ListName>
-
           <Query><![CDATA[
-
             <Where>
-
               <Contains>
-
                 <FieldRef Name='FileLeafRef'/>
-
                 <Value Type='Text'>s</Value>
-
               </Contains>
-
             </Where>
-
           ]]></Query>
-
           <ViewFields><![CDATA[
-
             <FieldRef Name='FileLeafRef' />
-
             <FieldRef Name='ID' />
-
           ]]></ViewFields>
-
         </SPListQuery>
-
       </Queries>
-
     </DataSet>
-
   </DataSets>
-
 </Report>
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 

@@ -9,13 +9,9 @@ url: /java/add-watermark-in-python/
 **Python Code**
 
 {{< highlight csharp >}}
-
- doc = self.Document(self.dataDir + "TestFile.doc")
-
+doc = self.Document(self.dataDir + "TestFile.doc")
 self.insertWatermarkText(doc, "CONFIDENTIAL")
-
 doc.save(self.dataDir + "TestFile Out.doc")
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Add Watermark (Aspose.Words)** from any of the below mentioned social coding sites:

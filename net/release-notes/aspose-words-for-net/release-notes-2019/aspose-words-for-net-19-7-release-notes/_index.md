@@ -128,57 +128,31 @@ Related issue: WORDSNET-18418
 Added the following new property to the Revision class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets the revision group. Returns null if the revision does not belong to any group.
-
 /// </summary>
-
 /// <remarks>
-
 /// Revision has no group if revision type is RevisionType.StyleDefinitionChange or
-
 /// if the revision is not longer exist in document context (accepted/rejected).
-
 /// </remarks>
-
 public RevisionGroup Group
-
 {{< /highlight >}}
 
 **Use Case:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(@"source.docx");
-
-
-
+Document doc = new Document(@"source.docx");
 foreach (Revision revision in doc.Revisions)
-
 {
-
     string groupText = revision.Group != null
-
         ? "Revision group text: " + revision.Group.Text
-
         : "Revision has no group";
-
-
-
     Console.WriteLine("Type: " + revision.RevisionType);
-
     Console.WriteLine("Author: " + revision.Author);
-
     Console.WriteLine("Date: " + revision.DateTime);
-
     Console.WriteLine("Revision text: " + revision.ParentNode.ToString(SaveFormat.Text));
-
     Console.WriteLine(groupText);
-
 }
-
 {{< /highlight >}}
 ### **Implemented basic reader and writer for Markdown features**
 Related issue: WORDSNET-18338.
@@ -194,103 +168,54 @@ For a moment the following Markdown features are supported:
 The new public enumerations were added:
 
 {{< highlight csharp >}}
-
- LoadFormat.Markdown
-
+LoadFormat.Markdown
 SaveFormat.Markdown
-
 FileFormat.Markdown
-
 {{< /highlight >}}
 
 The new TxtSaveOptionsBase class was added:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// The base class for specifying additional options when saving a document into a text based formats.
-
 /// </summary>
-
 public abstract class TxtSaveOptionsBase : SaveOptions
-
 {{< /highlight >}}
 
 Some of the members were moved from the TxtSaveOptions class into TxtSaveOptionsBase class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the encoding to use when exporting in text formats. 
-
 /// Default value is <ms><b>Encoding.UTF8</b></ms><java>'UTF-8' Charset</java>.
-
 /// </summary>
-
 public Encoding Encoding
-
-
-
 /// <summary>
-
 /// Specifies the string to use as a paragraph break when exporting in text formats.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>The default value is <see cref="ControlChar.CrLf"/>.</p>
-
 /// </remarks>
-
 public string ParagraphBreak
-
-
-
 /// <summary>
-
 /// Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format.
-
 /// The default value is <b>false</b>.
-
 /// </summary>
-
 public bool PreserveTableLayout
-
-
-
 /// <summary>
-
 /// <para>Allows to specify whether the page breaks should be preserved during export.</para>
-
 /// <para>The default value is <b>false</b>.</para>
-
 /// </summary>
-
 /// <remarks>
-
 /// The property affects only page breaks that are inserted explicitly into a document. 
-
 /// It is not related to page breaks that MS Word automatically inserts at the end of each page.
-
 /// </remarks>
-
 public bool ForcePageBreaks
-
-
-
 /// <summary>
-
 /// Specifies the way headers and footers are exported to the text formats.
-
 /// Default value is <see cref="TxtExportHeadersFootersMode.PrimaryOnly"/>.
-
 /// </summary>
-
 public TxtExportHeadersFootersMode ExportHeadersFootersMode
-
 {{< /highlight >}}
 
 Our implementation mostly follows the CommonMark specification.
@@ -313,205 +238,106 @@ You can also write ***BoldItalic***text.
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder(new Document());
-
+DocumentBuilder builder = new DocumentBuilder(new Document());
 builder.Writeln("Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.");
-
 builder.Write("You can write ");
-
 builder.Font.Bold = true;
-
 builder.Write("bold");
-
 builder.Font.Bold = false;
-
 builder.Write(" or ");
-
 builder.Font.Italic = true;
-
 builder.Write("italic");
-
 builder.Font.Italic = false;
-
 builder.Writeln(" text. ");
-
 builder.Write("You can also write ");
-
 builder.Font.Bold = true;
-
 builder.Font.Italic = true;
-
 builder.Write("BoldItalic");
-
 builder.Font.Bold = false;
-
 builder.Font.Italic = false;
-
 builder.Write("text.");
-
-
-
 builder.Document.Save("EmphasesExample.md");
-
 {{< /highlight >}}
 
 **Use Case 2. Explains how to produce the following Markdown document with Headings:**
 
 {{< highlight csharp >}}
-
- The following produces headings:
-
+The following produces headings:
 \# Heading1
-
 \## Heading2
-
 \### Heading3
-
 \#### Heading4
-
 \##### Heading5
-
 \###### Heading6
-
 \# **Bold Heading1**
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-
 
 // By default Heading styles in Word may have bold and italic formatting.
 
 // If we do not want text to be emphasized, set these properties explicitly to false.
-
 builder.Font.Bold = false;
-
 builder.Font.Italic = false;
-
-
-
 builder.Writeln("The following produces headings:");
-
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
-
 builder.Writeln("Heading1");
-
 builder.ParagraphFormat.Style = doc.Styles["Heading 2"];
-
 builder.Writeln("Heading2");
-
 builder.ParagraphFormat.Style = doc.Styles["Heading 3"];
-
 builder.Writeln("Heading3");
-
 builder.ParagraphFormat.Style = doc.Styles["Heading 4"];
-
 builder.Writeln("Heading4");
-
 builder.ParagraphFormat.Style = doc.Styles["Heading 5"];
-
 builder.Writeln("Heading5");
-
 builder.ParagraphFormat.Style = doc.Styles["Heading 6"];
-
 builder.Writeln("Heading6");
 
-
-
 // Note, emphases are also allowed inside Headings:
-
 builder.Font.Bold = true;
-
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
-
 builder.Writeln("Bold Heading1");
-
-
-
 doc.Save("HeadingsExample.md");
-
 {{< /highlight >}}
 
 **Use Case 3. Explains how to produce the following Markdown document with block quotes:**
 
 {{< highlight csharp >}}
-
- We support blockquotes in Markdown:
-
+We support blockquotes in Markdown:
 \>*Lorem*
-
 \>*ipsum*
-
-
-
 The quotes can be of any level and can be nested:
-
 \>>>Quote level 3
-
 \>>>>Nested quote level 4
-
 \>
-
 \>*Back to first level*
-
 \> ### Headings are allowed inside Quotes
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-
-
 builder.Writeln("We support blockquotes in Markdown:");
-
 builder.ParagraphFormat.Style = doc.Styles["Quote"];
-
 builder.Writeln("Lorem");
-
 builder.Writeln("ipsum");
-
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
-
 builder.Writeln("The quotes can be of any level and can be nested:");
-
 Style quoteLevel3 = doc.Styles.Add(StyleType.Paragraph, "Quote2");
-
 builder.ParagraphFormat.Style = quoteLevel3;
-
 builder.Writeln("Quote level 3");
-
 Style quoteLevel4 = doc.Styles.Add(StyleType.Paragraph, "Quote3");
-
 builder.ParagraphFormat.Style = quoteLevel4;
-
 builder.Writeln("Nested quote level 4");
-
 builder.ParagraphFormat.Style = doc.Styles["Quote"];
-
 builder.Writeln();
-
 builder.Writeln("Back to first level");
-
 Style quoteLevel1WithHeading = doc.Styles.Add(StyleType.Paragraph, "Quote Heading 3");
-
 builder.ParagraphFormat.Style = quoteLevel1WithHeading;
-
 builder.Write("Headings are allowed inside Quotes");
-
-
-
 doc.Save("QuotesExample.md");
-
 {{< /highlight >}}
 
 
@@ -519,29 +345,15 @@ doc.Save("QuotesExample.md");
 **Use Case 4. Explains how to produce the following Markdown document with Horizontal Rule:**
 
 {{< highlight csharp >}}
-
- We support Horizontal rules (Thematic breaks) in Markdown:
-
-
-
+We support Horizontal rules (Thematic breaks) in Markdown:
 \-----
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder(new Document());
-
-
-
+DocumentBuilder builder = new DocumentBuilder(new Document());
 builder.Writeln("We support Horizontal rules (Thematic breaks) in Markdown:");
-
 builder.InsertHorizontalRule();
-
-
-
 builder.Document.Save("HorizontalRuleExample.md");
-
 {{< /highlight >}}
 
 
@@ -550,22 +362,13 @@ builder.Document.Save("HorizontalRuleExample.md");
 
 {{< highlight csharp >}}
 
- // This is Markdown document that was produced in example of UC3.
-
+// This is Markdown document that was produced in example of UC3.
 Document doc = new Document("QuotesExample.md");
 
-
-
 // Let's remove Heading formatting from a Quote in the very last paragraph.
-
 Paragraph paragraph = doc.FirstSection.Body.LastParagraph;
-
 paragraph.ParagraphFormat.Style = doc.Styles["Quote"];
-
-
-
 doc.Save("QuotesModifiedExample.md");
-
 {{< /highlight >}}
 
 
@@ -575,41 +378,23 @@ Related issue: WORDSNET-18745.
 Added the following new property to a Shape class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Returns true if this Shape has a SmartArt object.
-
 /// </summary>
-
 public bool HasSmartArt
-
 {{< /highlight >}}
 
 **Use Case: Count a number of shapes with SmartArt in a document.**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(@"input.docx");
-
-
-
+Document doc = new Document(@"input.docx");
 int count = 0;
-
 foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
-
 {
-
     if (shape.HasSmartArt)
-
         count++;
-
 }
-
-
-
 Console.WriteLine("The document has {0} shapes with SmartArt.", count);
-
 {{< /highlight >}}
 
 
@@ -619,9 +404,7 @@ Support of OpenType fonts was added. Support of advanced typography feature Kern
 New public property TextShaperFactory was added to LayoutOptions class.
 
 {{< highlight csharp >}}
-
- public ITextShaperFactory TextShaperFactory { get; set; }
-
+public ITextShaperFactory TextShaperFactory { get; set; }
 {{< /highlight >}}
 
 Implementations of ITextShaperFactory should be provided via separate nuget-packages. Concrete implementation should create a text shaper that represents a font and computes shaping information for a text.
@@ -633,31 +416,19 @@ For now, text shaping is only performed for PDF and XPS output formats.
 Usage example:
 
 {{< highlight csharp >}}
-
- public void Test()
-
+public void Test()
 {
-
     // Open a document
-
     Document doc = new Document("OpenType.Document.docx");
-
-
 
     // When text shaper factory is set, layout starts to use OpenType features.
 
     // An Instance property returns static BasicTextShaperCache object wrapping HarfBuzzTextShaperFactory
-
     doc.LayoutOptions.TextShaperFactory = Aspose.Words.Shaping.HarfBuzz.HarfBuzzTextShaperFactory.Instance;
 
-
-
     // Render the document to PDF format
-
     doc.Save("OpenType.Document.pdf");
-
 }
-
 {{< /highlight >}}
 
 
@@ -673,171 +444,85 @@ New public properties and methods were added into the TextBox class.
 A public property for getting parent shape from text box was added to allow customer to find linked Shape from linked TextBox.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Determines whether this TextBox can be linked to the target Textbox.
-
 /// </summary>
-
 public bool IsValidLinkTarget(TextBox target)
-
 {
-
 }
-
-
-
 /// <summary>
-
 /// Returns or sets a TextBox that represents the next TextBox in a sequence of shapes.
-
 /// </summary>
-
 public TextBox Next
-
 {
-
   get; set;
-
 }
-
-
-
 /// <summary>
-
 /// Returns a TextBox that represents the previous TextBox in a sequence of shapes.
-
 /// </summary>
-
 public TextBox Previous
-
 {
-
   get;
-
 }
-
-
-
 /// <summary>
-
 /// Breaks the forward link for the specified TextBox, if such a link exists.
-
 /// </summary>
-
 /// <remarks>
-
 /// BreakForwardLink() doesn't break all other links in the current sequence of shapes.
-
 /// For example: 1-2-3-4 sequence and BreakForwardLink at the 2-nd textbox will create
-
 /// two sequences 1-2, 3-4.
-
 /// </remarks>
-
 public void BreakForwardLink()
-
 {
-
 }
-
-
-
 /// <summary>
-
 /// Gets a parent shape for the TextBox.
-
 /// </summary>
-
 public Shape Parent
-
 {
-
     get { return mParent; }
-
 }
-
 {{< /highlight >}}
 
 **Use Case to create a link from shape1.TextBox to shape2.TextBox:**
 
 {{< highlight csharp >}}
-
- TextBox textBox1 = shape1.TextBox;
-
+TextBox textBox1 = shape1.TextBox;
 TextBox textBox2 = shape2.TextBox;
-
-
-
 if (textBox1.IsValidLinkTarget(textBox2))
-
   textBox1.Next = textBox2;
-
 {{< /highlight >}}
 
 **Use Case to check if shape.TextBox is a Head, a Tail or a Middle of the sequence:**
 
 {{< highlight csharp >}}
-
- TextBox textBox = shape.TextBox;
-
-
-
+TextBox textBox = shape.TextBox;
 if ((textBox.Next != null) && (textBox.Previous == null))
-
 {
-
   //The head of the sequence.
-
 }
-
-
-
 if ((textBox.Next != null) && (textBox.Previous != null))
-
 {
-
   //The Middle of the sequence.
-
 }
-
-
-
 if ((textBox.Next == null) && (textBox.Previous != null))
-
 {
-
   //The Tail of the sequence.
-
 }
-
 {{< /highlight >}}
 
 **Use Case to break a link for a shape.TextBox:**
 
 {{< highlight csharp >}}
-
- TextBox textBox = shape.TextBox;
-
-
+TextBox textBox = shape.TextBox;
 
 // Break a forward link
-
 textBox.BreakForwardLink();
 
-
-
 // Break a forward link by setting a null
-
 textBox.Next = null;
 
-
-
 // Break a link, which leads to this textbox
-
 if (textBox.Previous != null)
-
   textBox.Previous.BreakForwardLink();
-
 {{< /highlight >}}

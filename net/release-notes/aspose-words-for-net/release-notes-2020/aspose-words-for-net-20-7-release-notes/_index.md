@@ -123,23 +123,14 @@ Added a new public property MailMerge.RetainFirstSectionStart:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a value indicating whether the <see cref="PageSetup.SectionStart"/> of the first document section and its copies for subsequent data source rows
-
 /// are retained during mail merge or updated according to MS Word behaviour.
-
 /// </summary>
-
 /// <remarks>
-
 /// The default value is <b>true</b>.
-
 /// </remarks>
-
 public bool RetainFirstSectionStart { get; set; }
-
 {{< /highlight >}}
 
 Use Case:
@@ -147,13 +138,9 @@ Use Case:
 **.NET**
 
 {{< highlight csharp >}}
-
- Document document = new Document(path);
-
+Document document = new Document(path);
 document.MailMerge.RetainFirstSectionStart = false;
-
 document.MailMerge.Execute(dataSource);
-
 {{< /highlight >}}
 
 
@@ -165,17 +152,11 @@ A new value is added to the public enumeration **WarningSource**:
 **.NET**
 
 {{< highlight csharp >}}
-
- ...
-
+...
 /// <summary>
-
 /// Module that reads/writes Markdown files.
-
 /// </summary>
-
 Markdown
-
 {{< /highlight >}}
 
 
@@ -184,29 +165,15 @@ Use Case. Explains how to use WarningSource.Markdown enumeration value:
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = TestUtil.Open("input.docx");
-
-
-
+Document doc = TestUtil.Open("input.docx");
 WarningInfoCollection warnings = new WarningInfoCollection();
-
 doc.WarningCallback = warnings;
-
 doc.Save("output.md");
-
-
-
 foreach (WarningInfo warningInfo in warnings)
-
 {
-
     if (warningInfo.Source == WarningSource.Markdown)
-
         Console.WriteLine(warningInfo.Description);
-
 }
-
 {{< /highlight >}}
 
 
@@ -218,17 +185,11 @@ Added a new public property RevisionOptions.MeasurementUnit:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify the measurement unit for revision comments.
-
 /// Default value for this property is <see cref="MeasurementUnits.Centimeters"/>
-
 /// </summary>
-
 public MeasurementUnits MeasurementUnit
-
 {{< /highlight >}}
 
 
@@ -237,67 +198,32 @@ Also, a new public enumeration has been added:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies a the unit of measurement.
-
 /// </summary>
-
 public enum MeasurementUnits
-
 {
-
     /// <summary>
-
         /// Inches.
-
         /// </summary>
-
         Inches = 0,
-
-
-
         /// <summary>
-
         /// Centimeters.
-
         /// </summary>
-
         Centimeters = 1,
-
-
-
         /// <summary>
-
         /// Millimeters.
-
         /// </summary>
-
         Millimeters = 2,
-
-
-
         /// <summary>
-
         /// Points.
-
         /// </summary>
-
         Points = 3,
-
-
-
         /// <summary>
-
         /// Picas (commonly used in traditional typewriter font spacing).
-
         /// </summary>
-
     Picas = 4
-
 }
-
 {{< /highlight >}}
 
 Use Case:
@@ -305,21 +231,11 @@ Use Case:
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(myDir +"Input.docx");
-
-
-
+Document doc = new Document(myDir +"Input.docx");
 doc.LayoutOptions.RevisionOptions.MeasurementUnit = MeasurementUnits.Inches;
-
 doc.LayoutOptions.RevisionOptions.ShowInBalloons = ShowInBalloons.FormatAndDelete;
-
 doc.LayoutOptions.ShowComments = true;
-
-
-
 doc.Save(myDir +"Output.pdf");
-
 {{< /highlight >}}
 ### **Added public property RevisionBarsPosition in RevisionOptions**
 Related issue: WORDSNET-20415, WORDSNET-19724
@@ -329,19 +245,12 @@ Added a new public property RevisionOptions.RevisionBarsPosition:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets rendering position of revision bars.
-
 /// Default value is <see cref="HorizontalAlignment.Outside"/>.
-
 /// </summary>
-
 /// <remarks>Values of <see cref="HorizontalAlignment.Center"/> and <see cref="HorizontalAlignment.Inside"/>
-
 /// are not allowed and will cause <see cref="ArgumentOutOfRangeException"/>.</remarks>
-
 {{< /highlight >}}
 
 Use Case:
@@ -349,17 +258,10 @@ Use Case:
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(myDir +"Input.docx");
-
-
-
+Document doc = new Document(myDir +"Input.docx");
 //Renders revision bars on the right side of a page.
-
 doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
-
 doc.Save(myDir +"Output.pdf");
-
 {{< /highlight >}}
 ### **Added two new nodes to handle multi-section Structured Document Tags**
 Related issue: WORDSNET-15659
@@ -371,141 +273,62 @@ The following classes have been added:
 **.NET**
 
 {{< highlight csharp >}}
-
- public class StructuredDocumentTagRangeStart : Node
-
+public class StructuredDocumentTagRangeStart : Node
 {
-
     /// <summary>
-
     /// Gets the type of this node.
-
     /// </summary>
-
     public NodeType NodeType { get; }
-
-
-
     /// <summary>
-
     /// Gets the level at which this <b>SDT range start</b> occurs in the document tree.
-
     /// </summary>
-
     public MarkupLevel Level { get; }
-
-
-
     /// <summary>
-
     /// Gets type of this <b>Structured document tag</b>.
-
     /// </summary>
-
     public SdtType SdtType { get; }
-
-
-
     /// <summary>
-
     /// <para>Specifies a unique read-only persistent numerical Id for this <b>SDT</b>.</para>
-
     /// </summary>
-
     public int Id { get; }
-
-
-
     /// <summary>
-
     /// When set to true, this property will prohibit a user from deleting this <b>SDT</b>.
-
     /// </summary>
-
     public bool LockContentControl { get; }
-
-
-
     /// <summary>
-
     /// When set to true, this property will prohibit a user from editing the contents of this <b>SDT</b>.
-
     /// </summary>
-
     public bool LockContents { get; }
-
-
-
     /// <summary>
-
     /// Specifies whether the content of this <b>SDT</b> shall be interpreted to contain placeholder text
-
     /// (as opposed to regular text contents within the SDT).
-
     /// </summary>
-
     public bool IsShowingPlaceholderText { get; }
-
-
-
     /// <summary>
-
     /// Specifies a tag associated with the current SDT node.
-
     /// </summary>
-
     public string Tag { get; }
-
-
-
     /// <summary>
-
     /// Specifies the friendly name associated with this <b>SDT</b>.
-
     /// </summary>
-
     public string Title { get; }
-
-
-
     /// <summary>
-
     /// Specifies end of range if the StructuredDocumentTag is a ranged structured document tag.
-
     /// </summary>
-
     public StructuredDocumentTagRangeEnd RangeEnd { get; }
-
 }
-
-
-
 public class StructuredDocumentTagRangeEnd : Node
-
 {
-
     /// <summary>
-
     /// Gets the type of this node.
-
     /// </summary>
-
     public NodeType NodeType { get; }
-
-
-
     /// <summary>
-
     /// Specifies a unique read-only persistent numerical Id for this structured document tag node.
-
     /// Corresponding range start node has the same Id.
-
     /// </summary>
-
     public int Id { get; }
-
 }
-
 {{< /highlight >}}
 
 **NOTE:** These nodes can be a child of NodeType.Body node only.
@@ -517,17 +340,9 @@ Use Case:
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Document("document containing multi-section SDT");
-
+Document doc = new Document("document containing multi-section SDT");
 List<StructuredDocumentTagRangeStart> tags =
-
                 doc.GetChildNodes(NodeType.StructuredDocumentTagRangeStart, true).ToList<StructuredDocumentTagRangeStart>();
-
-
-
 foreach(StructuredDocumentTagRangeStart tag in tags)
-
     Console.WriteLine(tag.Title);
-
 {{< /highlight >}}

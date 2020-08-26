@@ -100,23 +100,14 @@ New public property was added to the OoxmlSaveOptions class:
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Keeps original representation of legacy control characters.
-
 /// </summary>
-
 public bool KeepLegacyControlChars
-
 {
-
     get { return mKeepLegacyControlChars; }
-
     set { mKeepLegacyControlChars = value; }
-
 }
-
 {{< /highlight >}}
 
 
@@ -128,19 +119,10 @@ Some formats support legacy control characters. Word does not save these symbols
 
 
 {{< highlight csharp >}}
-
- Document doc = new Document("document.doc");
-
-
-
+Document doc = new Document("document.doc");
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.FlatOpc);
-
 so.KeepLegacyControlChars = true;
-
-
-
 doc.Save("document.docx", so);
-
 {{< /highlight >}}
 ### **Added predefined font fallback settings for Google Noto fonts**
 Related issue:WORDSNET-17329 has now been resolved:
@@ -150,21 +132,13 @@ Added predefined font fallback settings for Google Noto fonts. These are free fo
 
 
 {{< highlight csharp >}}
-
- public class FontFallbackSetting
-
+public class FontFallbackSetting
 {
-
     /// <summary>
-
     /// Loads predefined fallback settings which uses Google Noto fonts.
-
     /// </summary>
-
     public void LoadNotoFallbackSettings();
-
 }
-
 {{< /highlight >}}
 
 
@@ -180,17 +154,11 @@ The default value for public property TxtSaveOptions.AddBidiMarks was changed 
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// <para>Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.</para>
-
 /// <para>The default value is <b>false</b>.</para>
-
 /// </summary>
-
 public bool AddBidiMarks
-
 {{< /highlight >}}
 
 
@@ -205,15 +173,10 @@ The following public class is introduced that allows to specify how list levels 
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies how list levels are indented when document is exporting to SaveFormat.Text format.
-
 /// </summary>
-
 public class TxtListIndentation
-
 {{< /highlight >}}
 
 
@@ -224,29 +187,16 @@ It has two public properties for specifying how many and which character to use 
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Gets or sets how many <see cref="Character"/> to use as indentation per one list level.
-
-/// The default value is 0, that means no indentation.
-
-/// </summary>
-
-public int Count
-
-
-
 /// <summary>
-
-/// Gets or sets which character to use for indenting list levels.
-
-/// The default value is '\0', that means there is no indentation.
-
+/// Gets or sets how many <see cref="Character"/> to use as indentation per one list level.
+/// The default value is 0, that means no indentation.
 /// </summary>
-
+public int Count
+/// <summary>
+/// Gets or sets which character to use for indenting list levels.
+/// The default value is '\0', that means there is no indentation.
+/// </summary>
 public char Character
-
 {{< /highlight >}}
 
 
@@ -258,17 +208,11 @@ At last, a new option is added to the TxtSaveOptions class:
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels.
-
 /// By default it is zero count of character '\0', that means no indentation.
-
 /// </summary>
-
 public TxtListIndentation ListIndentation
-
 {{< /highlight >}}
 
 
@@ -276,21 +220,11 @@ public TxtListIndentation ListIndentation
 
 
 {{< highlight csharp >}}
-
- Document doc = new Document("input_document");
-
-
-
+Document doc = new Document("input_document");
 TxtSaveOptions options = new TxtSaveOptions();
-
 options.ListIndentation.Count = 1;
-
 options.ListIndentation.Character = '\t';
-
-
-
 doc.Save("output.txt", options);
-
 {{< /highlight >}}
 
 
@@ -298,21 +232,11 @@ doc.Save("output.txt", options);
 
 
 {{< highlight csharp >}}
-
- Document doc = new Document("input_document");
-
-
-
+Document doc = new Document("input_document");
 TxtSaveOptions options = new TxtSaveOptions();
-
 options.ListIndentation.Count = 3;
-
 options.ListIndentation.Character = ' ';
-
-
-
 doc.Save("output.txt", options);
-
 {{< /highlight >}}
 
 
@@ -320,19 +244,11 @@ doc.Save("output.txt", options);
 
 
 {{< highlight csharp >}}
-
- Document doc1 = new Document("input_document");
-
+Document doc1 = new Document("input_document");
 doc1.Save("output1.txt");
-
-
-
 Document doc2 = new Document("input_document");
-
 TxtSaveOptions options = new TxtSaveOptions();
-
 doc2.Save("output2.txt", options);
-
 {{< /highlight >}}
 ### **Provide API to change how text is vertically aligned within the Text Box**
 Related issue:WORDSNET-17996 has now been resolved.
@@ -342,29 +258,17 @@ Added new property for specifying vertical anchor of shape's textbox.
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the vertical alignment of the text within a shape.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>The default value is <see cref="TextBoxAnchor.Top"/>.</p>
-
 /// </remarks>
-
 public TextBoxAnchor VerticalAnchor
-
 {
-
     get;
-
     set;
-
 }
-
 {{< /highlight >}}
 
 
@@ -374,13 +278,9 @@ The property allows to specify text anchor within the shape(Top, Middle, Bottom)
 
 
 {{< highlight csharp >}}
-
- Document doc = new Document(fileName);
-
+Document doc = new Document(fileName);
 Shape shape = doc.FirstSection.Body.Shapes[0];
-
 shape.TextBox.VerticalAnchor = TextBoxAnchor.Middle;
-
 {{< /highlight >}}
 
 
@@ -396,31 +296,18 @@ The following new property has been added into the ChartAxis class:
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets text alignment of axis tick labels.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>This property has effect only for multi-line labels.</para>
-
 /// <para>Default value is <see cref="ParagraphAlignment.Center"/>.</para>.
-
 /// </remarks>
-
 public ParagraphAlignment TickLabelAlignment
-
 {
-
     get;
-
     set;
-
 }
-
 {{< /highlight >}}
 
 
@@ -430,13 +317,8 @@ When axis tick labels are multi-line, MS Word aligns them to the center by defau
 
 
 {{< highlight csharp >}}
-
- Document doc = new Document(fileName);
-
+Document doc = new Document(fileName);
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-
 ChartAxis axis = shape.Chart.AxisX;
-
 axis.TickLabelAlignment = ParagraphAlignment.Right;
-
 {{< /highlight >}}

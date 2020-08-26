@@ -11,21 +11,13 @@ Comments of the document are represented by the Comment class.
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.write("Some text is added.");
-
 Comment comment = new Comment(doc, "Aspose", "As", new Date());
-
 builder.getCurrentParagraph().appendChild(comment);
-
 comment.getParagraphs().add(new Paragraph(doc));
-
 comment.getFirstParagraph().getRuns().add(new Run(doc, "Comment text."));
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

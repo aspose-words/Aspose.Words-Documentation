@@ -138,1093 +138,581 @@ Related issue WORDSNET-13512.
 The following public classes and enumeration types are added to allow setting chart axis properties:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Represents the axis options of the chart.
-
 /// </summary>
-
 public class ChartAxis
-
 {
-
     /// <summary>
-
     /// Returns type of the axis.
-
     /// </summary>
-
     public ChartAxisType Type { get; }
-
     /// <summary>
-
     /// Gets or sets type of the category axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// Only text categories (AxisCategoryType.Category) are allowed in MS Office 2016 new charts.
-
     /// </remarks>
-
     public AxisCategoryType CategoryType { get; set; }
-
     /// <summary>
-
     /// Specifies how this axis crosses the perpendicular axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// Default value is AxisCrosses.Automatic.
-
     /// The property is not supported by MS Office 2016 new charts.
-
     /// </remarks>
-
     public AxisCrosses Crosses { get; set; }
-
     /// <summary>
-
     /// Specifies where on the perpendicular axis the axis crosses.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect only if "Crosses" are set to AxisCrosses.Custom. It is not supported by MS Office 2016 new charts.
-
     /// The units are determined by the type of axis. When the axis is a value axis, the value of the property is a decimal number on
-
     /// the value axis. When the axis is a time category axis, the value is defined as an integer number of days relative to the base
-
     /// date (30/12/1899). For a text category axis, the value is an integer category number, starting with 1 as the first category.
-
     /// </remarks>
-
     public double CrossesAt { get; set; }
-
     /// <summary>
-
     /// Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property is not supported by MS Office 2016 new charts. Default value is false.
-
     /// </remarks>
-
     public bool ReverseOrder { get; set; }
-
     /// <summary>
-
     /// Returns or sets the major tick marks.
-
     /// </summary>
-
     public AxisTickMark MajorTickMark { get; set; }
-
     /// <summary>
-
     /// Returns or sets the minor tick marks for the axis.
-
     /// </summary>
-
     public AxisTickMark MinorTickMark { get; set; }
-
     /// <summary>
-
     /// Returns or sets the position of the tick labels on the axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property is not supported by MS Office 2016 new charts.
-
     /// </remarks>
-
     public AxisTickLabelPosition TickLabelPosition { get; set; }
-
     /// <summary>
-
     /// Returns or sets the distance between major tick marks.
-
     /// </summary>
-
     /// <remarks>
-
     /// Valid range of a value is greater than zero. The property has effect for time category and value axes.
-
     /// Setting this property sets the MajorUnitIsAuto property to false.
-
     /// </remarks>
-
     public double MajorUnit { get; set; }
-
     /// <summary>
-
     /// Gets or sets a flag indicating whether default distance between major tick marks shall be used.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect for time category and value axes.
-
     /// </remarks>
-
     public bool MajorUnitIsAuto { get; set; }
-
     /// <summary>
-
     /// Returns or sets the scale value for major tick marks on the time category axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect only for time category axes.
-
     /// </remarks>
-
     public AxisTimeUnit MajorUnitScale { get; set; }
-
     /// <summary>
-
     /// Returns or sets the distance between minor tick marks.
-
     /// </summary>
-
     /// <remarks>
-
     /// Valid range of a value is greater than zero. The property has effect for time category and value axes.
-
     /// Setting this property sets the MinorUnitIsAuto property to false.
-
     /// </remarks>
-
     public double MinorUnit { get; set; }
-
     /// <summary>
-
     /// Gets or sets a flag indicating whether default distance between minor tick marks shall be used.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect for time category and value axes.
-
     /// </remarks>
-
     public bool MinorUnitIsAuto { get; set; }
-
     /// <summary>
-
     /// Returns or sets the scale value for minor tick marks on the time category axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect only for time category axes.
-
     /// </remarks>
-
     public AxisTimeUnit MinorUnitScale { get; set; }
-
     /// <summary>
-
     /// Returns or sets the smallest time unit that is represented on the time category axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect only for time category axes.
-
     /// </remarks>
-
     public AxisTimeUnit BaseTimeUnit { get; set; }
-
     /// <summary>
-
     /// Returns a ChartNumberFormat object that allows defining number formats for the axis.
-
     /// </summary>
-
     public ChartNumberFormat NumberFormat { get; }
-
     /// <summary>
-
     /// Gets or sets the distance of labels from the axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property represents a percentage of the default label offset.
-
     /// Valid range is from 0 to 1000 percent inclusive. Default value is 100%.
-
     /// The property has effect only for category axes. It is not supported by MS Office 2016 new charts.
-
     /// </remarks>
-
     public int TickLabelOffset { get; set; }
-
     /// <summary>
-
     /// Specifies the scaling value of the display units for the value axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect only for value axes.
-
     /// </remarks>
-
     public AxisDisplayUnit DisplayUnit { get; }
-
     /// <summary>
-
     /// Gets or sets a flag indicating whether the value axis crosses the category axis between categories.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect only for value axes. It is not supported by MS Office 2016 new charts.
-
     /// </remarks>
-
     public bool AxisBetweenCategories { get; set; }
-
     /// <summary>
-
     /// Provides access to the scaling options of the axis.
-
     /// </summary>
-
     public AxisScaling Scaling { get; }
-
     /// <summary>
-
     /// Gets or sets the interval, at which tick labels are drawn.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
-
     /// Valid range of a value is greater than or equal to 1.
-
     /// Setting this property sets the TickLabelSpacingIsAuto property to false.
-
     /// </remarks>
-
     public int TickLabelSpacing { get; set; }
-
     /// <summary>
-
     /// Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used.
-
     /// </summary>
-
     /// <remarks>
-
     /// Default value is true.
-
     /// The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
-
     /// </remarks>
-
     public bool TickLabelSpacingIsAuto { get; set; }
-
     /// <summary>
-
     /// Gets or sets the interval, at which tick marks are drawn.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
-
     /// Valid range of a value is greater than or equal to 1.
-
     /// </remarks>
-
     public int TickMarkSpacing { get; set; }
-
 }
-
 /// <summary>
-
 /// Specifies type of chart axis.
-
 /// </summary>
-
 public enum ChartAxisType
-
 {
-
     /// <summary>
-
     /// Category axis of a chart.
-
     /// </summary>
-
     Category,
-
     /// <summary>
-
     /// Series axis of a chart.
-
     /// </summary>
-
     Series,
-
     /// <summary>
-
     /// Value axis of a chart.
-
     /// </summary>
-
     Value
-
 }
-
 /// <summary>
-
 /// Specifies type of a category axis.
-
 /// </summary>
-
 public enum AxisCategoryType
-
 {
-
     /// <summary>
-
     /// Specifies that type of a category axis is determined automatically based on data.
-
     /// </summary>
-
     Automatic,
-
     /// <summary>
-
     /// Specifies an axis of an arbitrary set of categories.
-
     /// </summary>
-
     Category,
-
     /// <summary>
-
     /// Specifies a time category axis.
-
     /// </summary>
-
     Time
-
 }
-
 /// <summary>
-
 /// Specifies the possible crossing points for an axis.
-
 /// </summary>
-
 public enum AxisCrosses
-
 {
-
     /// <summary>
-
     /// The category axis crosses at the zero point of the value axis (if possible), or at the minimum value
-
     /// if the minimum is greater than zero, or at the maximum if the maximum is less than zero.
-
     /// </summary>
-
     Automatic,
-
     /// <summary>
-
     /// A perpendicular axis crosses at the maximum value of the axis.
-
     /// </summary>
-
     Maximum,
-
     /// <summary>
-
     /// A perpendicular axis crosses at the minimum value of the axis.
-
     /// </summary>
-
     Minimum,
-
     /// <summary>
-
     /// A perpendicular axis crosses at the specified value of the axis.
-
     /// </summary>
-
     Custom
-
 }
-
 /// <summary>
-
 /// Specifies the possible positions for tick marks.
-
 /// </summary>
-
 public enum AxisTickMark
-
 {
-
     /// <summary>
-
     /// Specifies that the tick marks shall cross the axis.
-
     /// </summary>
-
     Cross,
-
     /// <summary>
-
     /// Specifies that the tick marks shall be inside the plot area.
-
     /// </summary>
-
     Inside,
-
     /// <summary>
-
     /// Specifies that the tick marks shall be outside the plot area.
-
     /// </summary>
-
     Outside,
-
     /// <summary>
-
     /// Specifies that there shall be no tick marks.
-
     /// </summary>
-
     None
-
 }
-
 /// <summary>
-
 /// Specifies the possible positions for tick labels.
-
 /// </summary>
-
 public enum AxisTickLabelPosition
-
 {
-
     /// <summary>
-
     /// Specifies the axis labels shall be at the high end of the perpendicular axis.
-
     /// </summary>
-
     High,
-
     /// <summary>
-
     /// Specifies the axis labels shall be at the low end of the perpendicular axis.
-
     /// </summary>
-
     Low,
-
     /// <summary>
-
     /// Specifies the axis labels shall be next to the axis.
-
     /// </summary>
-
     NextToAxis,
-
     /// <summary>
-
     /// Specifies the axis labels are not drawn.
-
     /// </summary>
-
     None,
-
     /// <summary>
-
     /// Specifies default value of tick labels position.
-
     /// </summary>
-
     Default = NextToAxis
-
 }
-
 /// <summary>
-
 /// Specifies the unit of time for axes.
-
 /// </summary>
-
 public enum AxisTimeUnit
-
 {
-
     /// <summary>
-
     /// Specifies that unit was not set explicitly and default value should be used.
-
     /// </summary>
-
     Automatic,
-
     /// <summary>
-
     /// Specifies that the chart data shall be shown in days.
-
     /// </summary>
-
     Days,
-
     /// <summary>
-
     /// Specifies that the chart data shall be shown in months.
-
     /// </summary>
-
     Months,
-
     /// <summary>
-
     /// Specifies that the chart data shall be shown in years.
-
     /// </summary>
-
     Years
-
 }
-
 /// <summary>
-
 /// Provides access to the scaling options of the display units for the value axis.
-
 /// </summary>
-
 public class AxisDisplayUnit
-
 {
-
     /// <summary>
-
     /// Gets or sets the scaling value of the display units as one of the predefined values.
-
     /// </summary>
-
     /// <remarks>
-
     /// Default value is AxisBuiltInUnit.None. The AxisBuiltInUnit.Custom and AxisBuiltInUnit.Percentage values are not available
-
     /// in some chart types; see AxisBuiltInUnit for more information.
-
     /// </remarks>
-
     public AxisBuiltInUnit Unit { get; set; }
-
     /// <summary>
-
     /// Gets or sets a user-defined divisor to scale display units on the value axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property is not supported by MS Office 2016 new charts. Default value is 1.
-
     /// Setting this property sets the Unit property to AxisBuiltInUnit.Custom.
-
     /// </remarks>
-
     public double CustomUnit { get; set; }
-
 }
-
 /// <summary>
-
 /// Specifies the display units for an axis.
-
 /// </summary>
-
 public enum AxisBuiltInUnit
-
 {
-
     /// <summary>
-
     /// Specifies the values on the chart shall displayed as is.
-
     /// </summary>
-
     None,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by a user-defined divisor. This value is not supported
-
     /// by the new chart types of MS Office 2016.
-
     /// </summary>
-
     Custom,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 1,000,000,000.
-
     /// </summary>
-
     Billions,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 100,000,000.
-
     /// </summary>
-
     HundredMillions,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 100.
-
     /// </summary>
-
     Hundreds,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 100,000.
-
     /// </summary>
-
     HundredThousands,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 1,000,000.
-
     /// </summary>
-
     Millions,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 10,000,000.
-
     /// </summary>
-
     TenMillions,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 10,000.
-
     /// </summary>
-
     TenThousands,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 1,000.
-
     /// </summary>
-
     Thousands,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 1,000,000,000,0000.
-
     /// </summary>
-
     Trillions,
-
     /// <summary>
-
     /// Specifies the values on the chart shall be divided by 0.01. This value is supported only by the new chart types of MS Office 2016.
-
     /// </summary>
-
     Percentage
-
 }
-
 /// <summary>
-
 /// Represents the scaling options of the axis.
-
 /// </summary>
-
 public class AxisScaling
-
 {
-
     /// <summary>
-
     /// Gets or sets scaling type of the axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The AxisScaleType.Linear value is the only that is allowed in MS Office 2016 new charts.
-
     /// </remarks>
-
     public AxisScaleType Type { get; set; }
-
     /// <summary>
-
     /// Gets or sets the logarithmic base for a logarithmic axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// The property is not supported by MS Office 2016 new charts.
-
     /// Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only
-
     /// if "Type" is set to AxisScaleType.Logarithmic.
-
     /// Setting this property sets the Type property to AxisScaleType.Logarithmic.
-
     /// </remarks>
-
     public double LogBase { get; set; }
-
     /// <summary>
-
     /// Gets or sets minimum value of the axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// Setting this property sets the MinimumIsAuto property to false.
-
     /// </remarks>
-
     public double Minimum { get; set; }
-
     /// <summary>
-
     /// Gets or sets a flag indicating whether minimum value of the axis shall be set automatically depending on data.
-
     /// </summary>
-
     public bool MinimumIsAuto { get; set; }
-
     /// <summary>
-
     /// Gets or sets the maximum value of the axis.
-
     /// </summary>
-
     /// <remarks>
-
     /// Setting this property sets the MaximumIsAuto property to false.
-
     /// </remarks>
-
     public double Maximum { get; set; }
-
     /// <summary>
-
     /// Gets or sets a flag indicating whether maximum value of the axis shall be set automatically depending on data.
-
     /// </summary>
-
     public bool MaximumIsAuto { get; set; }
-
 }
-
 /// <summary>
-
 /// Specifies the possible scale types for an axis.
-
 /// </summary>
-
 public enum AxisScaleType
-
 {
-
     /// <summary>
-
     /// Linear scaling.
-
     /// </summary>
-
     Linear,
-
     /// <summary>
-
     /// Logarithmic scaling.
-
     /// </summary>
-
     Logarithmic
-
 }
-
 {{< /highlight >}}
 
 **UC**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.insertChart(ChartType.AREA, 432, 252);
-
 Chart chart = shape.getChart();
 
 // Clear demo data.
-
 chart.getSeries().clear();
 
 // Fill data.
-
 chart.getSeries().add("AW Series 1",
-
         new Date[]{new Date(2002, 1, 1), new Date(2002, 6, 1), new Date(2015, 7, 1), new Date(2015, 8, 1), new Date(2015, 9, 1)},
-
         new double[]{640, 320, 280, 120, 150});
-
 ChartAxis xAxis = chart.getAxisX();
-
 ChartAxis yAxis = chart.getAxisY();
 
 // Change the X axis to be category instead of date, so all the points will be put with equal interval on the X axis.
-
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 
 // Define X axis properties.
-
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-
-xAxis.setCrossesAt(3); // measured in display units of the Y axis (hundreds)
-
+xAxis.setCrossesAt(3);
+ // measured in display units of the Y axis (hundreds)
 xAxis.setReverseOrder(true);
-
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
-
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
-
 xAxis.setTickLabelOffset(200);
 
 // Define Y axis properties.
-
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
-
 yAxis.setMajorUnit(100);
-
 yAxis.setMinorUnit(50);
-
 yAxis.getDisplayUnit().setUnit(AxisBuiltInUnit.HUNDREDS);
-
 yAxis.getScaling().setMinimum(100);
-
 yAxis.getScaling().setMaximum(700);
-
 dataDir = dataDir + "SetAxisProperties_out.docx";
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 
 **UC to set date/time values to axis properties**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.insertChart(ChartType.COLUMN, 432, 252);
-
 Chart chart = shape.getChart();
 
 // Clear demo data.
-
 chart.getSeries().clear();
 
 // Fill data.
-
 chart.getSeries().add("AW Series 1",
-
         new Date[]{new Date(2017, 11, 06), new Date(2017, 11, 9), new Date(2017, 11, 15),
-
                 new Date(2017, 11, 21), new Date(2017, 11, 25), new Date(2017, 11, 29)},
-
         new double[]{1.2, 0.3, 2.1, 2.9, 4.2, 5.3}
-
 );
 
 // Set X axis bounds.
-
 ChartAxis xAxis = chart.getAxisX();
-
 xAxis.getScaling().setMinimum(new Date(2017, 11, 5).getTime());
-
 xAxis.getScaling().setMaximum(new Date(2017, 12, 3).getTime());
 
 // Set major units to a week and minor units to a day.
-
 xAxis.setMajorUnit(7);
-
 xAxis.setMinorUnit(1);
-
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
-
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
-
 dataDir = dataDir + "SetDateTimeValuesToAxis_out.docx";
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 
 **UC to change format of numbers on the value axis**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.insertChart(ChartType.COLUMN, 432, 252);
-
 Chart chart = shape.getChart();
 
 // Clear demo data.
-
 chart.getSeries().clear();
 
 // Fill data.
-
 chart.getSeries().add("AW Series 1",
-
         new String[]{"Item 1", "Item 2", "Item 3", "Item 4", "Item 5"},
-
         new double[]{1900000, 850000, 2100000, 600000, 1500000});
 
 // Set number format.
-
 chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
-
 dataDir = dataDir + "FormatAxisNumber_out.docx";
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 
 **UC to set bounds of an axis**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.insertChart(ChartType.COLUMN, 432, 252);
-
 Chart chart = shape.getChart();
 
 // Clear demo data.
-
 chart.getSeries().clear();
 
 // Fill data.
-
 chart.getSeries().add("AW Series 1",
-
         new String[]{"Item 1", "Item 2", "Item 3", "Item 4", "Item 5"},
-
         new double[]{1.2, 0.3, 2.1, 2.9, 4.2});
-
 chart.getAxisY().getScaling().setMinimum(0);
-
 chart.getAxisY().getScaling().setMaximum(6);
-
 dataDir = dataDir + "SetboundsOfAxis_out.docx";
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 
 **UC to set the interval unit between labels on an axis**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.insertChart(ChartType.COLUMN, 432, 252);
-
 Chart chart = shape.getChart();
 
 // Clear demo data.
-
 chart.getSeries().clear();
 
 // Fill data.
-
 chart.getSeries().add("AW Series 1",
-
         new String[]{"Item 1", "Item 2", "Item 3", "Item 4", "Item 5"},
-
         new double[]{1.2, 0.3, 2.1, 2.9, 4.2});
-
 chart.getAxisX().setTickLabelSpacing(2);
-
 dataDir = dataDir + "SetIntervalUnitBetweenLabelsOnAxis_out.docx";
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 ### **Added Feature to Get the docPartGallery Value of StructuredDocumentTag of Type SdtType.DocPartObj.**
 Related issue WORDSNET-15972.
@@ -1232,21 +720,13 @@ Related issue WORDSNET-15972.
 The behavior of the following properties was improved:
 
 {{< highlight csharp >}}
-
- public class StructuredDocumentTag
-
+public class StructuredDocumentTag
 {
-
     .....
-
     public String BuildingBlockGallery{ get; set;}
-
     public String BuildingBlockCategory{get; set;}
-
     .....
-
 }
-
 {{< /highlight >}}
 
 Now it is possible to obtain the value of these properties for "Markup.SdtType.DocPartObj" SDT type. The exception was thrown in previous versions.
@@ -1258,19 +738,11 @@ Related Issue: WORDSNET-16088 
 To provide typed access to a merge field's properties requested by a customer we have changed the return type of the FieldMergingArgsBase.Field property (and hence of the corresponding descendants' properties) from **Field** to **FieldMergeField**.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets the object that represents the current merge field.
-
 /// </summary>
-
 public FieldMergeField Field
-
 {
-
     get { return mField; }
-
 }
-
 {{< /highlight >}}

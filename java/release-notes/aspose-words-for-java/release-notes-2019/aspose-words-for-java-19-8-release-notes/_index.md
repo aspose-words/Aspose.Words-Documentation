@@ -125,283 +125,140 @@ Related issues: WORDSNET-18903, WORDSNET-18922.
 The new public enumeration was added:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify whether to work with the original or revised version of a document.
-
 /// </summary>
-
 public enum RevisionsView
-
 {{< /highlight >}}
 
 Added new public option into Document class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a value indicating whether to work with the original or revised version of a document.
-
 /// </summary>
-
 /// <remarks>
-
 /// The default value is <b><see cref="Aspose.Words.RevisionsView.Original"/></b>.
-
 /// </remarks>
-
 public RevisionsView RevisionsView
-
 {{< /highlight >}}
 
 
 ##### **Use Case. Explains how to access the revised version of a document:**
 {{< highlight csharp >}}
-
- Document doc = new Document(@"test.docx");
-
+Document doc = new Document(@"test.docx");
 doc.UpdateListLabels();
 
-
-
 // Switch to the revised version of the document.
-
 doc.RevisionsView = RevisionsView.Final;
-
-
-
 foreach (Revision revision in doc.Revisions)
-
 {
-
     if (revision.ParentNode.NodeType == NodeType.Paragraph)
-
     {
-
         Paragraph paragraph = (Paragraph)revision.ParentNode;
-
         if (paragraph.IsListItem)
-
         {
-
             // Print revised version of LabelString and ListLevel.
-
             Console.WriteLine(paragraph.ListLabel.LabelString);
-
             Console.WriteLine(paragraph.ListFormat.ListLevel);
-
         }
-
     }
-
 }
-
 {{< /highlight >}}
 ### **WORDSNET-18600 - Implemented API to define default options for data labels of chart series**
 The following new public properties have been added into the ChartDataLabelCollection class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify whether category name is to be displayed for the data labels of the entire series.
-
 /// Default value is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.ShowCategoryName"/> property.
-
 /// </remarks>
-
 public bool ShowCategoryName { get; set; }
-
-
-
 /// <summary>
-
 /// Allows to specify whether bubble size is to be displayed for the data labels of the entire series.
-
 /// Applies only to Bubble charts. 
-
 /// Default value is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.ShowBubbleSize"/> property.
-
 /// </remarks>
-
 public bool ShowBubbleSize { get; set; }
-
-
-
 /// <summary>
-
 /// Allows to specify whether legend key is to be displayed for the data labels of the entire series.
-
 /// Default value is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.ShowLegendKey"/> property.
-
 /// </remarks>
-
 public bool ShowLegendKey { get; set; }
-
-
-
 /// <summary>
-
 /// Allows to specify whether percentage value is to be displayed for the data labels of the entire series.
-
 /// Default value is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.ShowPercentage"/> property.
-
 /// </remarks>
-
 public bool ShowPercentage { get; set; }
-
-
-
 /// <summary>
-
 /// Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series.
-
 /// <b>True</b> to show the series name. <b>False</b> to hide. By default <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.ShowSeriesName"/> property.
-
 /// </remarks>
-
 public bool ShowSeriesName { get; set; }
-
-
-
 /// <summary>
-
 /// Allows to specify whether values are to be displayed in the data labels of the entire series.
-
 /// Default value is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.ShowValue"/> property.
-
 /// </remarks>
-
 public bool ShowValue { get; set; }
-
-
-
 /// <summary>
-
 /// Allows to specify whether data label leader lines need be shown for the data labels of the entire series.
-
 /// Default value is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>Applies to Pie charts only. 
-
 /// Leader lines create a visual connection between a data label and its corresponding data point.</para>
-
 /// <para>Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.ShowLeaderLines"/> property.</para>
-
 /// </remarks>
-
 public bool ShowLeaderLines { get; set; }
-
-
-
 /// <summary>
-
 /// Allows to specify whether values from data labels range to be displayed in the data labels of the entire series.
-
 /// Default value is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.ShowDataLabelsRange"/> property.
-
 /// </remarks>
-
 public bool ShowDataLabelsRange { get; set; }
-
-
-
 /// <summary>
-
 /// Gets or sets string separator used for the data labels of the entire series. 
-
 /// The default is a comma, except for pie charts showing only category name and percentage, when a line break 
-
 /// shall be used instead. 
-
 /// </summary>
-
 /// <remarks>
-
 /// Value defined for this property can be overridden for an individual data label with using the
-
 /// <see cref="ChartDataLabel.Separator"/> property.
-
 /// </remarks>
-
 public string Separator { get; set; }
-
-
-
 /// <summary>
-
 /// Gets an <see cref="ChartNumberFormat"/> instance allowing to set number format for the data labels of the
-
 /// entire series.
-
 /// </summary>
-
 public ChartNumberFormat NumberFormat { get; set; }
-
 {{< /highlight >}}
 
 
@@ -409,41 +266,18 @@ public ChartNumberFormat NumberFormat { get; set; }
 **Use Case:**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-
-
 Shape shape = builder.InsertChart(ChartType.Pie, 432, 252);
-
 Chart chart = shape.Chart;
-
 chart.Series.Clear();
-
-
-
 ChartSeries series = chart.Series.Add("Series 1", 
-
     new string[] { "Category1", "Category2", "Category3" }, 
-
     new double[] { 2.7, 3.2, 0.8 });
-
-
-
 ChartDataLabelCollection labels = series.DataLabels;
-
 labels.ShowPercentage = true;
-
 labels.ShowValue = true;
-
 labels.ShowLeaderLines = false;
-
 labels.Separator = " - ";
-
-
-
 doc.Save(dir + "Demo.docx");
-
 {{< /highlight >}}

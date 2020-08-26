@@ -13,18 +13,14 @@ To save a word Document using Aspose.Words for Java in Php, simply invoke save m
 
 {{< highlight csharp >}}
 
- // The path to the documents directory.
-
+// The path to the documents directory.
 $dataDir = "";
 
 // Load the document from the absolute path on disk.
-
 $doc = new Java("com.aspose.words.Document", $dataDir . "Document.doc");
 
 // Save the document as DOCX document.");
-
 $doc->save($dataDir . "Document Out.docx");
-
 {{< /highlight >}}
 
 **Download Running Code**

@@ -34,29 +34,17 @@ Starting with Aspose.Words 3.0, before any node from another document can be ins
 **C#**
 
 {{< highlight csharp >}}
-
- Section sourceSection = srcDoc.Sections[0];
-
+Section sourceSection = srcDoc.Sections[0];
 Section newSection = (Section)dstDoc.ImportNode(sourceSection, true);
-
 dstDoc.Sections.Add(newSection);
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim sourceSection As Section = srcDoc.Sections(0)
-
+Dim sourceSection As Section = srcDoc.Sections(0)
 Dim newSection As Section = CType(dstDoc.ImportNode(sourceSection, True), Section)
-
 dstDoc.Sections.Add(newSection)
-
-
-
 {{< /highlight >}}
 #### **MailMerge.GetFieldNamesEx was Removed**
 In Aspose.Words 2.x there were two methods:

@@ -12,14 +12,11 @@ Use Range.replace to find or replace a particular string within the current rang
 
 {{< highlight csharp >}}
 
- // Replaces all 'sad' and 'mad' occurrences with 'bad'
-
+// Replaces all 'sad' and 'mad' occurrences with 'bad'
 doc.getRange().replace("sad", "bad", false, true);
 
 // Replaces all 'sad' and 'mad' occurrences with 'bad'
-
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "bad");
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

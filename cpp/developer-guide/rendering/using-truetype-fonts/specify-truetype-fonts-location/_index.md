@@ -98,9 +98,7 @@ The Aspose.Words looks through user-defined sources which was set with the metho
 **Java**
 
 {{< highlight csharp >}}
-
- fontSettings->SetFontsFolder(u"C:\\MyFonts\\", true);
-
+fontSettings->SetFontsFolder(u"C:\\MyFonts\\", true);
 {{< /highlight >}}
 
 In case an explicit replacement has been specified, Aspose.Words replaces the missing font with the user's suggestion:
@@ -108,9 +106,7 @@ In case an explicit replacement has been specified, Aspose.Words replaces the mi
 **Java**
 
 {{< highlight csharp >}}
-
- fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitutes(u"PMingLiU-ExtB", System::MakeArray<System::String>({ u"Liberation Serif" }));
-
+fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitutes(u"PMingLiU-ExtB", System::MakeArray<System::String>({ u"Liberation Serif" }));
 {{< /highlight >}}
 
 If none of the rules worked, Aspose.Words check the internal replacement table. If the table contains information about a good fit then the font gets replaced. In our case Aspose.Words will select Typeface.SERIF. But if the table doesn’t know anything about the requested font then Aspose.Words picks up a font based on special MS Word rules or the closest distance in Panose space.
@@ -121,9 +117,7 @@ The list of folders where the search will be performed can be found by calling t
 **Java**
 
 {{< highlight csharp >}}
-
- SystemFontSource()->GetAvailableFonts()
-
+SystemFontSource()->GetAvailableFonts()
 {{< /highlight >}}
 ## **Loading Fonts from Folder**
 If the document being processed contains links to fonts that are not on the system, or you don't want to add them to the system folder, or you lack permissions, then the best solution would be to add a folder with your own fonts using the [SetFontsSources](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#a4815c34e68e313bc3f6d8eb7ca6097d6) method. This will allow replacing the system source with a user source. Aspose.Words will no longer look for fonts in the registry or Windows\Font folder and instead only scan for fonts within the specified folder(s). The [GetFontSources](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#ae6f47148d3dec9f25d37791827cf8ab2) method will return the corresponding values.
