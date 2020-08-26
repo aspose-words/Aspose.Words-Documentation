@@ -58,7 +58,7 @@ You can download the latest solution for Microsoft Visual Studio at:
 - Step 2 – Open your existing ASP.NET MVC Solution / Project.
 - Step 3 – Copy “Controllers/ExportToWordController.cs” to your projects “Controllers” folder.
 - Step 4 – Add link to “ExportToWord” controller in your desired view.
-  e.g <a href="@Url.Action("Index","ExportToWord")">Export To Word</a>
+  e.g &lt;a href="@Url.Action("Index","ExportToWord")"&gt;Export To Word&lt;/a&gt;
 ### **Video Demo**
 Please check [the video](https://www.youtube.com/watch?v=vteWnbIy8Ag) below to see the module in action.
 ## **Support, Extend and Contribute**
