@@ -15,7 +15,7 @@ The following example shows how to convert DOCX to HTML with specifying a save f
 
 **.NET**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  // Load the document from disk.
 
