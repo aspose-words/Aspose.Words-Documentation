@@ -26,32 +26,22 @@ Xamarin DLLs are always built using the latest stable versions of Xamarin.Androi
 
 {{< highlight java >}}
 
- // Use System.Drawing.Bitmap.
-
+// Use System.Drawing.Bitmap.
 using (System.Drawing.Bitmap image = new System.Drawing.Bitmap(gTestImagePath))
-
 {
-
     builder.InsertImage(image);
-
 }
-
 {{< /highlight >}}
 
 **.NET Standard 2.0, Xamarin.Android, Xamarin.iOS and Xamarin.Mac**
 
 {{< highlight java >}}
 
- // Insert image into the document from SkiaSharp.SKBitmap object.
-
+// Insert image into the document from SkiaSharp.SKBitmap object.
 using (SkiaSharp.SKBitmap bitmap = SkiaSharp.SKBitmap.Decode(gTestImagePath))
-
 {
-
     builder.InsertImage(bitmap);
-
 }
-
 {{< /highlight >}}
 
 1. In **Aspose.Words for** **.NET Standard 2.0, Xamarin.Android, Xamarin.iOS and Xamarin.Mac** *SkiaSharp.SKCanvas* object is used instead of *System.Drawing.Graphics* object used in .NET API. The list of affected API:
@@ -63,71 +53,46 @@ using (SkiaSharp.SKBitmap bitmap = SkiaSharp.SKBitmap.Decode(gTestImagePath))
 **.NET**
 
 {{< highlight java >}}
-
- Document doc = new Document(gTestDocumentPath);
+Document doc = new Document(gTestDocumentPath);
 
 // Render the first page to System.Drawing.Graphics
-
 using (System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(1000, 1000))
-
 {
-
     using (System.Drawing.Graphics gr = System.Drawing.Graphics.FromImage(bitmap))
-
     {
 
         // Apply required transformations to the graphics, rotation for example.
-
         gr.RotateTransform(45);
-
         doc.RenderToSize(0, gr, 0, 0, bitmap.Width, bitmap.Height);
-
     }
 
     // Save output to file.
-
     bitmap.Save(@"C:\Temp\out.png", System.Drawing.Imaging.ImageFormat.Png);
-
 }
-
 {{< /highlight >}}
 
 **.NET Standard 2.0, Xamarin.Android, Xamarin.iOS and Xamarin.Mac**
 
 {{< highlight java >}}
-
- Document doc = new Document(gTestDocumentPath);
+Document doc = new Document(gTestDocumentPath);
 
 // Render the first page to SkiaSharp.SKCanvas
-
 using (SkiaSharp.SKBitmap bitmap = new SkiaSharp.SKBitmap(1000, 1000))
-
 {
-
     using (SkiaSharp.SKCanvas canvas = new SkiaSharp.SKCanvas(bitmap))
-
     {
 
         // Apply required transformations to the canvas, rotation for example.
-
         canvas.RotateDegrees(45);
-
         doc.RotateDegrees(0, canvas, 0, 0, bitmap.Width, bitmap.Height);
-
     }
 
     // Save output to file.
-
     using (SkiaSharp.SKFileWStream fs = new SkiaSharp.SKFileWStream(gOutPath+ "RenderToSize_Out.png"))
-
     {
-
         bitmap.Encode(fs, SkiaSharp.SKEncodedImageFormat.Png, 100);
-
     }
-
 }
-
 {{< /highlight >}}
 ## **Xamarin.Android Additional Requirements**
 1. To work properly Aspose.Words' Xamarin.Android API requires Encodings support. When you run your Xamarin.Android application in 'Release' mode, it is required to add additional supported Encodings. Note that in 'Debug' mode everything will work without these options.
