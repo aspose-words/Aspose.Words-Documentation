@@ -7,11 +7,11 @@ url: /net/section-features-supported-on-epub-export/
 
 {{% alert color="primary" %}} 
 
-Each section is exported as separate <div> elements as a child of <body> when there is more than one section in the document. 
+Each section is exported as separate &lt;div&gt; elements as a child of &lt;body&gt; when there is more than one section in the document. 
 
-If there is only one section then the document content is expoted directly to <body>.
+If there is only one section then the document content is expoted directly to &lt;body&gt;.
 
-Section-wide formatting is exported as CSS styles on <div>.
+Section-wide formatting is exported as CSS styles on &lt;div&gt;.
 
 [Jump to this location in the import section](/words/net/section-features-supported-on-epub-import/)
 
@@ -33,7 +33,7 @@ See the following link in the documentation for further information:
 |Different Even and Odd Pages |N/A | | |
 |Continue from Previous Section |Yes | | |
 ##### **Section Break Type**
-Section breaks are exported as a <br> tag which contains the special Microsoft Office attribute mso-break-type:section-break.
+Section breaks are exported as a &lt;br&gt; tag which contains the special Microsoft Office attribute mso-break-type:section-break.
 
 There is an option to skip exporting breaks to HTML at all.
 
@@ -47,11 +47,11 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Continuous |Yes |Exported as <br> with page-break-before:auto. | |
-|Even Page |Yes |Exported as <br> with page-break-before:left. | |
-|Odd Page |Yes |Exported as <br> with page-break-before:right. | |
-|Next Column |Yes |Exported as <br> with mso-column-break-before:always | |
-|Next Page |Yes |Exported as <br> with page-break-before:always. | |
+|Continuous |Yes |Exported as &lt;br&gt; with page-break-before:auto. | |
+|Even Page |Yes |Exported as &lt;br&gt; with page-break-before:left. | |
+|Odd Page |Yes |Exported as &lt;br&gt; with page-break-before:right. | |
+|Next Column |Yes |Exported as &lt;br&gt; with mso-column-break-before:always | |
+|Next Page |Yes |Exported as &lt;br&gt; with page-break-before:always. | |
 ##### **Text Columns**
 HTML and EPUB have no native support for text columns.
 
