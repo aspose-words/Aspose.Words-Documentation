@@ -167,7 +167,7 @@ In order to support custom properties with spaces and other characters when expo
 
 This is an example of XML written for custom properties in Aspose.Words for .NET 11.10.0.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <rdf:Description rdf:about="" xmlns:custprops="http://aspose.com/">
 

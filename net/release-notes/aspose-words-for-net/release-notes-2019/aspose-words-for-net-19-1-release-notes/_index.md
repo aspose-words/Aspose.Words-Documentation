@@ -91,7 +91,7 @@ A customer complained about incorrect date/time formatting. We have figured out 
 
 When thinking on how to fix this issue, we opted for providing the customer with a flexible way of specifying a culture defining date/time formatting on per field basis. To do so, we have introduced the **IFieldUpdateCultureSource** interface:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
      /// <summary>
 
@@ -123,7 +123,7 @@ When thinking on how to fix this issue, we opted for providing the customer with
 
 and the corresponding **FieldOptions** property:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -145,7 +145,7 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider
 
 Usage:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  document.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
@@ -221,7 +221,7 @@ WORDSNET-17819 has now been resolved:
 
 New public property was added to ImageSaveOptions  class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -253,7 +253,7 @@ public byte ThresholdForFloydSteinbergDithering
 
 The higher the value, the darker the image.
 #### **UC**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document ("inputFileName");
 

@@ -116,7 +116,7 @@ Public property added to the CompareOptions class to provide ability to determin
 
 For example, this option together with IgnoreFormatting setting determines which document has to be used as formatting source for ranges of equal text.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -138,7 +138,7 @@ public ComparisonTargetType Target
 
 Possible values described by the following enumeration
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -177,7 +177,7 @@ public enum ComparisonTargetType
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Use case.
 
@@ -204,7 +204,7 @@ Related issue WORDSNET-9959
 Implemented public API to add/remove comment replies.
 The following methods have been added to the **Comment** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -260,7 +260,7 @@ public void RemoveAllReplies();
 
 **UC** to add/remove replies:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(fileName);
 
@@ -278,7 +278,7 @@ Related issue: WORDSNET-13489
 
 Format1bppIndexed value was added to ImageSaveOptions.PixelFormat enum:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -309,7 +309,7 @@ For now black and white image with one bit per pixel format could be produced.
 
 UC:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("in.docx");
 
@@ -329,7 +329,7 @@ Related issue: WORDSNET-14958
 
 The following property has been added into the **FootnoteOptions** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -351,7 +351,7 @@ public int Columns { get; set; }
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(fileName);
 
@@ -363,7 +363,7 @@ doc.Save(outFileName);
 
 The Document.EndnoteOptions and PageSetup.EndnoteOptions properties have been changed to be of the EndnoteOptions type. This new EndnoteOptions class has the same properties as FootnoteOptions except the Columns property:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -415,7 +415,7 @@ The similar Position property of the FootnotePosition type is added into the Foo
 
 The new public enum types FootnotePosition and EndnotePosition have the following items:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -479,7 +479,7 @@ Related issue: WORDSNET-14984
 
 Added public property ProviderId to the **SignOptions** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Specifies the class ID of the signature provider.
 
@@ -489,7 +489,7 @@ public Guid ProviderId
 
 And also added public property ProviderId to the **SignatureLine** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Gets or sets signature provider identifier for this signature line.
 
@@ -499,7 +499,7 @@ public Guid ProviderId
 
 **UC1 - existing signature line:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("pathToDocument.docx");
 
@@ -519,7 +519,7 @@ DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder
 
 **UC2 - creating new signature line:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -545,7 +545,7 @@ DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder
 
 **UC3 - signing using special provider Id:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SignOptions signOptions = new SignOptions();
 
@@ -561,7 +561,7 @@ Related issue: WORDSNET-15817
 
 Added new public read-only properties to the **Table** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Gets table relative horizontal alignment.
 
@@ -575,7 +575,7 @@ public VerticalAlignment RelativeVerticalAlignment
 
 **UC:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // It is necessary to use the appropriate properties,
 
@@ -605,7 +605,7 @@ Related issue: WORDSNET-15880
 
 We have introduced HtmlFixedSaveOptions.UseTargetMachineFonts property.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

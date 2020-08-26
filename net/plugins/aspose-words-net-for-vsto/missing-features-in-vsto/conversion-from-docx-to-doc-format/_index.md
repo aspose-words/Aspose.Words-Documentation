@@ -41,7 +41,7 @@ url: /net/conversion-from-docx-to-doc-format/
 |Jpeg |29 |Indicates the format in which the document is saved |
 Below is code snippet that shows conversion from docx to doc you can do it vice versa as well
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("Sample.docx");
 

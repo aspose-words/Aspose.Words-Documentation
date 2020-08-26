@@ -107,7 +107,7 @@ You can download the latest source code at:
 
 Simply merge two documents here:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc1 = new Document(fileStream1);
 

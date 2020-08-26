@@ -112,7 +112,7 @@ To improve customer experience with Office Math objects in Aspose.Words model we
 - New readon-only property *OfficeMath.MathObjectType*
 - New public enum **MathObjectType** 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // How to use:
 
@@ -140,7 +140,7 @@ The following sections of the engine's documentation were added/updated to descr
 ### **WORDSNET-12412 - Added a MailMergeCleanupOptions Option to Remove Empty Row**
 As per customer's request, we have added a MailMergeCleanupOptions option allowing to remove empty rows during mail merge:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -160,7 +160,7 @@ RemoveEmptyTableRows = 0x20
 
 Sample usage:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  document.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTableRows | MailMergeCleanupOptions.RemoveContainingFields;
 
@@ -172,7 +172,7 @@ document.MailMerge.ExecuteWithRegions(dataTable);
 ### **WORDSNET-14602 - New Public Properties were Added to the OfficeMath Object.**
 New public properties Justification and DisplayType were added into the OfficeMath class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -215,7 +215,7 @@ public OfficeMathDisplayType DisplayType
 
 **Use Case:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
@@ -243,7 +243,7 @@ Mimic MS Word VBA behavior:
 ### **WORDSNET-14745 - Provided Ability to Specify Locale at Field Level**
 As per customer's request, we have added a property that allows to get/set field's locale:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -259,7 +259,7 @@ public int LocaleId
 
 Sample usage:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder();
 

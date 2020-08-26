@@ -33,7 +33,7 @@ When the document (with this option set) is reopened in Microsoft Word, changes 
 ### **Document.CompatibilityOptions.OptimizeFor Added to the Public API**
 This version of Aspose.Words exposes **Document.CompatibilityOptions.OptimizeFor** method and **MsWordVersion** enum which allows to fine-tune Aspose.Words behavior to match particular Microsoft Word version as well as to suppress Microsoft Word compatibility-mode ribbon for Aspose.Words generated documents.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

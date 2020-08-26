@@ -32,7 +32,7 @@ A "Hello, World" example is traditionally used to introduce features of a progra
 
 To produce a report containing a message of a concrete sender on its behalf, you can use a template document with the following content.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <<[s.Name]>> says: "<<[s.Message]>>."
 
@@ -44,7 +44,7 @@ To build a report from the template, you can use the following source code. You 
 
 After the source code is executed, the template document is populated with the data about the sender, and the document becomes a ready report with the following content.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  LINQ Reporting Engine says: "Hello, World."
 
@@ -62,7 +62,7 @@ The following table describes these built-in extension methods. The following no
 
 Examples in the following table are given using persons and otherPersons, enumerations of instances of the Person class that is defined as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class Person
 
@@ -82,39 +82,39 @@ Examples in the following table are given using persons and otherPersons, enumer
 
 |**Extension Method**|**Examples and Notes**|
 | :- | :- |
-|All(Predicate)|<p>{{< highlight java >}}</p><p> persons.All(p => p.Age < 50)</p><p>{{< /highlight >}}</p>|
-|Any()|<p>{{< highlight java >}}</p><p> persons.Any()</p><p>{{< /highlight >}}</p>|
-|Any(Predicate)|<p>{{< highlight java >}}</p><p> persons.Any(p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
-|Average(Selector)|<p>{{< highlight java >}}</p><p> persons.Average(p => p.Age)</p><p>{{< /highlight >}}</p><p>The input selector must return a value of any type that has predefined or user-defined addition and division operators.</p>|
-|Concat(IEnumerable)|<p>{{< highlight java >}}</p><p> persons.Concat(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of concatenated enumerations.</p>|
-|Contains(Object)|<p>{{< highlight java >}}</p><p> persons.Contains(otherPersons.First())</p><p>{{< /highlight >}}</p>|
-|Count()|<p>{{< highlight java >}}</p><p> persons.Count()</p><p>{{< /highlight >}}</p>|
-|Count(Predicate)|<p>{{< highlight java >}}</p><p> persons.Count(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
-|Distinct()|<p>{{< highlight java >}}</p><p> persons.Distinct()</p><p>{{< /highlight >}}</p>|
-|First()|<p>{{< highlight java >}}</p><p> persons.First()</p><p>{{< /highlight >}}</p>|
-|First(Predicate)|<p>{{< highlight java >}}</p><p> persons.First(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
-|FirstOrDefault()|<p>{{< highlight java >}}</p><p> persons.FirstOrDefault()</p><p>{{< /highlight >}}</p>|
-|FirstOrDefault(Predicate)|<p>{{< highlight java >}}</p><p> persons.FirstOrDefault(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
-|GroupBy(Selector)|<p>{{< highlight java >}}</p><p> persons.GroupBy(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight java >}}</p><p> persons.GroupBy(</p><p>    p => new</p><p>    {</p><p>        Age = p.Age,</p><p>        Count = p.Children.Count()</p><p>    })</p><p>{{< /highlight >}}</p><p>This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains.</p>|
-|Last()|<p>{{< highlight java >}}</p><p> persons.Last()</p><p>{{< /highlight >}}</p>|
-|Last(Predicate)|<p>{{< highlight java >}}</p><p> persons.Last(p => p.Age > 100)</p><p>{{< /highlight >}}</p>|
-|LastOrDefault()|<p>{{< highlight java >}}</p><p> persons.LastOrDefault()</p><p>{{< /highlight >}}</p>|
-|LastOrDefault(Predicate)|<p>{{< highlight java >}}</p><p> persons.LastOrDefault(p => p.Age > 100)</p><p>{{< /highlight >}}</p>|
-|Max(ComparableSelector)|<p>{{< highlight java >}}</p><p> persons.Max(p => p.Age)</p><p>{{< /highlight >}}</p>|
-|Min(ComparableSelector)|<p>{{< highlight java >}}</p><p> persons.Min(p => p.Age)</p><p>{{< /highlight >}}</p>|
-|OrderBy(ComparableSelector)|<p>{{< highlight java >}}</p><p> persons.OrderBy(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight java >}}</p><p> persons.OrderBy(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight java >}}</p><p> persons.OrderBy(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>    .ThenBy(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:</p><p>- ThenBy(ComparableSelector)</p><p>- ThenByDescending(ComparableSelector)</p>|
-|OrderByDescending(ComparableSelector)|<p>{{< highlight java >}}</p><p> persons.OrderByDescending(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight java >}}</p><p> persons.OrderByDescending(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight java >}}</p><p> persons.OrderByDescending(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>    .ThenBy(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>See the previous note.</p>|
-|Single()|<p>{{< highlight java >}}</p><p> persons.Single()</p><p>{{< /highlight >}}</p>|
-|Single(Predicate)|<p>{{< highlight java >}}</p><p> persons.Single(</p><p>    p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
-|SingleOrDefault()|<p>{{< highlight java >}}</p><p> persons.SingleOrDefault()</p><p>{{< /highlight >}}</p>|
-|SingleOrDefault(Predicate)|<p>{{< highlight java >}}</p><p> persons.SingleOrDefault(</p><p>    p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
-|Skip(int)|<p>{{< highlight java >}}</p><p> persons.Skip(10)</p><p>{{< /highlight >}}</p>|
-|SkipWhile(Predicate)|<p>{{< highlight java >}}</p><p> persons.SkipWhile(p => p.Age < 21)</p><p>{{< /highlight >}}</p>|
-|Sum(Selector)|<p>{{< highlight java >}}</p><p> persons.Sum(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>The input selector must return a value of any type that has a predefined or user-defined addition operator.</p>|
-|Take(int)|<p>{{< highlight java >}}</p><p> persons.Take(5)</p><p>{{< /highlight >}}</p>|
-|TakeWhile(Predicate)|<p>{{< highlight java >}}</p><p> persons.TakeWhile(p => p.Age < 50)</p><p>{{< /highlight >}}</p>|
-|Union(IEnumerable)|<p>{{< highlight java >}}</p><p> persons.Union(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of united enumerations.</p>|
-|Where(Predicate)|<p>{{< highlight java >}}</p><p> persons.Where(p => p.Age > 18)</p><p>{{< /highlight >}}</p>|
+|All(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.All(p => p.Age < 50)</p><p>{{< /highlight >}}</p>|
+|Any()|<p>{{< highlight csharp >}}</p><p> persons.Any()</p><p>{{< /highlight >}}</p>|
+|Any(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.Any(p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
+|Average(Selector)|<p>{{< highlight csharp >}}</p><p> persons.Average(p => p.Age)</p><p>{{< /highlight >}}</p><p>The input selector must return a value of any type that has predefined or user-defined addition and division operators.</p>|
+|Concat(IEnumerable)|<p>{{< highlight csharp >}}</p><p> persons.Concat(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of concatenated enumerations.</p>|
+|Contains(Object)|<p>{{< highlight csharp >}}</p><p> persons.Contains(otherPersons.First())</p><p>{{< /highlight >}}</p>|
+|Count()|<p>{{< highlight csharp >}}</p><p> persons.Count()</p><p>{{< /highlight >}}</p>|
+|Count(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.Count(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
+|Distinct()|<p>{{< highlight csharp >}}</p><p> persons.Distinct()</p><p>{{< /highlight >}}</p>|
+|First()|<p>{{< highlight csharp >}}</p><p> persons.First()</p><p>{{< /highlight >}}</p>|
+|First(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.First(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
+|FirstOrDefault()|<p>{{< highlight csharp >}}</p><p> persons.FirstOrDefault()</p><p>{{< /highlight >}}</p>|
+|FirstOrDefault(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.FirstOrDefault(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
+|GroupBy(Selector)|<p>{{< highlight csharp >}}</p><p> persons.GroupBy(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight csharp >}}</p><p> persons.GroupBy(</p><p>    p => new</p><p>    {</p><p>        Age = p.Age,</p><p>        Count = p.Children.Count()</p><p>    })</p><p>{{< /highlight >}}</p><p>This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains.</p>|
+|Last()|<p>{{< highlight csharp >}}</p><p> persons.Last()</p><p>{{< /highlight >}}</p>|
+|Last(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.Last(p => p.Age > 100)</p><p>{{< /highlight >}}</p>|
+|LastOrDefault()|<p>{{< highlight csharp >}}</p><p> persons.LastOrDefault()</p><p>{{< /highlight >}}</p>|
+|LastOrDefault(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.LastOrDefault(p => p.Age > 100)</p><p>{{< /highlight >}}</p>|
+|Max(ComparableSelector)|<p>{{< highlight csharp >}}</p><p> persons.Max(p => p.Age)</p><p>{{< /highlight >}}</p>|
+|Min(ComparableSelector)|<p>{{< highlight csharp >}}</p><p> persons.Min(p => p.Age)</p><p>{{< /highlight >}}</p>|
+|OrderBy(ComparableSelector)|<p>{{< highlight csharp >}}</p><p> persons.OrderBy(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight csharp >}}</p><p> persons.OrderBy(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight csharp >}}</p><p> persons.OrderBy(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>    .ThenBy(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:</p><p>- ThenBy(ComparableSelector)</p><p>- ThenByDescending(ComparableSelector)</p>|
+|OrderByDescending(ComparableSelector)|<p>{{< highlight csharp >}}</p><p> persons.OrderByDescending(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight csharp >}}</p><p> persons.OrderByDescending(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>{{< /highlight >}}</p><p>Or</p><p>{{< highlight csharp >}}</p><p> persons.OrderByDescending(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>    .ThenBy(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>See the previous note.</p>|
+|Single()|<p>{{< highlight csharp >}}</p><p> persons.Single()</p><p>{{< /highlight >}}</p>|
+|Single(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.Single(</p><p>    p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
+|SingleOrDefault()|<p>{{< highlight csharp >}}</p><p> persons.SingleOrDefault()</p><p>{{< /highlight >}}</p>|
+|SingleOrDefault(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.SingleOrDefault(</p><p>    p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
+|Skip(int)|<p>{{< highlight csharp >}}</p><p> persons.Skip(10)</p><p>{{< /highlight >}}</p>|
+|SkipWhile(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.SkipWhile(p => p.Age < 21)</p><p>{{< /highlight >}}</p>|
+|Sum(Selector)|<p>{{< highlight csharp >}}</p><p> persons.Sum(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>The input selector must return a value of any type that has a predefined or user-defined addition operator.</p>|
+|Take(int)|<p>{{< highlight csharp >}}</p><p> persons.Take(5)</p><p>{{< /highlight >}}</p>|
+|TakeWhile(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.TakeWhile(p => p.Age < 50)</p><p>{{< /highlight >}}</p>|
+|Union(IEnumerable)|<p>{{< highlight csharp >}}</p><p> persons.Union(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of united enumerations.</p>|
+|Where(Predicate)|<p>{{< highlight csharp >}}</p><p> persons.Where(p => p.Age > 18)</p><p>{{< /highlight >}}</p>|
 ## **Technical FAQ**
 This section reveals some technical aspects and implementation details related to LINQ Reporting Engine. This information can be useful for you while making design decisions for your applications. The information is provided in a question-answer form.
 ### **How is the type of an enumeration item implicitly determined by the engine in template expressions?**
@@ -129,7 +129,7 @@ If you do not specify the type of an enumeration item in a foreach statement or 
 ### **Does the engine cooperate with LINQ providers?**
 The engine does not cooperate with [LINQ providers](http://msdn.microsoft.com/en-us/library/vstudio/bb882640\(v=vs.110\).aspx). To be aware of the consequences of this feature, consider the following example. Assume, that you have the City and Person classes defined in your application as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class City
 
@@ -159,7 +159,7 @@ public class Person
 
 Given that city is an instance of the City class, consider the evaluation of the following template expression by the engine.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  city.Persons.Where(p => p.Age > 30).OrderBy(p => p.Name)
 
@@ -167,7 +167,7 @@ Given that city is an instance of the City class, consider the evaluation of the
 
 If you use an ORM to provide an interaction of your application with an SQL database in conjunction with a LINQ provider for the ORM, then you most likely expect an SQL query like the following one to be performed in the background while evaluating the template expression.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SELECT *
 
@@ -181,7 +181,7 @@ If you use an ORM to provide an interaction of your application with an SQL data
 
 However, since the engine does not cooperate with LINQ providers, the actual SQL query, in this case, is as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SELECT *
 
@@ -195,7 +195,7 @@ That is, the engine makes an eager call before applying its built-in extension m
 ### **Have I do something special to merge the Aspose.Words assembly with another assembly?**
 You can normally use a tool like [ILMerge](http://research.microsoft.com/en-us/people/mbarnett/ilmerge.aspx) to merge the Aspose.Words assembly with another assembly. However, if you use the functionality of LINQ Reporting Engine, add the following attribute to the target assembly.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  [assembly: InternalsVisibleTo(
 

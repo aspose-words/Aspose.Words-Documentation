@@ -117,7 +117,7 @@ These fields are an alternative way to produce numbered lists in a document. The
 ### **Support for Loading Images from "embed", "object" and "iframe" Tags when Importing HTML**
 Import of images from HTML files using the object, embed and iframe tags is now possible using Aspose.Words 11.3.0.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <html>
 
@@ -145,7 +145,7 @@ Import of images from HTML files using the object, embed and iframe tags is now 
 ### **SVG Images are Supported on HTML Import**
 Aspose.Words now supports import of SVG images from HTML. Internally in Aspose.Words document model the SVG images are converted to PNG images using resolution of 96 dpi. If width or height of SVG images is not specified or set to 0 then default value of 100pt is used.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <html>
 

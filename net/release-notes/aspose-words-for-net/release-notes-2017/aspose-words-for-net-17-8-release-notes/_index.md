@@ -117,7 +117,7 @@ This section lists public API changes that were introduced in Aspose.Words 17.8.
 ### **WORDSNET-14378 - New Properties Added into the PageSetup Class Allowing to Define Document Grid**
 The following new public properties have been added into the PageSetup class to allow defining document grid behavior:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -171,7 +171,7 @@ public int LinesPerPage { get; set; }
 
 Also the following public enum has been implemented:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -237,7 +237,7 @@ Added read-only public API to get extended comment properties.
 
 Following methods were added to the **Comment** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Returns the parent Comment object. Returns null for top-level comments.
 
@@ -257,7 +257,7 @@ Added new public class **CommentCollection** which represents collection of Comm
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(filename);
 
@@ -285,7 +285,7 @@ foreach (Comment childComment in parentComment.Replies)
 ### **WORDSNET-14947. DistanceLeft, DistanceRight, DistanceTop, DistanceBottom Properties Added in Table Class**
 Added new public read-only properties to the **Table** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Gets distance between table left and the surrounding text, in points.
 
@@ -307,7 +307,7 @@ public double DistanceBottom
 
 **Typical UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Table table = doc.FirstSection.Body.Tables[0];
 
@@ -327,7 +327,7 @@ Now document structure data and cross-reference table are compressed when saving
 
 New public property NumberFormat is available in the ChartDataLabel class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -341,7 +341,7 @@ public ChartNumberFormat NumberFormat
 
 ChartNumberFormat class represents number formatting of the parent element and contains the following public properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -381,7 +381,7 @@ public string FormatCode
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -399,7 +399,7 @@ public bool IsLinkedToSource
 
 **UC:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -459,7 +459,7 @@ chartDataLabel2.NumberFormat.IsLinkedToSource = true;
 
 \1. Added new public property for SignatureLine class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -477,7 +477,7 @@ public Guid Id
 
 \2. Added new public class SignOptions:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -491,7 +491,7 @@ public class SignOptions
 
 It has the following public properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -563,7 +563,7 @@ public string DecryptionPassword
 
 \3. New public methods are introduced in DigitalSignatureUtil class for signing documents:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -657,7 +657,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 
 \4. Old signing methods in DigitalSignatureUtil are marked as 'Obsolete':
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void Sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
 
@@ -675,7 +675,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 
 **UC1 - simple document signing:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  CertificateHolder certHolder = CertificateHolder.Create("pathToCert.pfx", "certPassword");
 
@@ -685,7 +685,7 @@ DigitalSignatureUtil.Sign("pathToSrcFileName.docx", "pathToDstFileName.docx", ce
 
 **UC2 - signing encrypted document:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SignOptions signOptions = new SignOptions();
 
@@ -699,7 +699,7 @@ DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder
 
 **UC3 - signing existing signature line:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("pathToDocument.docx");
 
@@ -719,7 +719,7 @@ DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder
 
 **UC4 - creating and signing new signature line:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

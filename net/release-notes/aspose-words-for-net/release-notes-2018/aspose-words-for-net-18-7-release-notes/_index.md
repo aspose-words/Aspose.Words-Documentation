@@ -125,7 +125,7 @@ A revision in Aspose.Words is a change in one document node. A set of sequential
 
 The new public RevisionGroupCollection and RevisionGroup classes have been added. Also the RevisionCollection.Groups property has been implemented.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -209,7 +209,7 @@ public class RevisionCollection : IEnumerable<Revision>
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(myDir + "Document1.docx");
 
@@ -230,7 +230,7 @@ As a result some public API becomes changed.
 ### **1. MailMerge**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -254,7 +254,7 @@ public ArrayList GetRegionsByName(string regionName)
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
@@ -268,7 +268,7 @@ After:
 ### **2. MailMergeRegionInfo**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -288,7 +288,7 @@ public ArrayList Regions
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public IList<MailMergeRegionInfo> Regions
 
@@ -302,7 +302,7 @@ After:
 ### **3. MailMergeRegionInfo**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -322,7 +322,7 @@ public ArrayList Fields
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public IList<FieldMergeField> Fields
 
@@ -336,7 +336,7 @@ After:
 ### **4. DocumentInfo**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -358,7 +358,7 @@ public SortedStringList CustomProperties
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -380,7 +380,7 @@ public SortedStringListGeneric<object> CustomProperties
 ### **5. BorderCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public sealed class BorderCollection : IEnumerable
 
@@ -388,7 +388,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public sealed class BorderCollection : IEnumerable<Border>
 
@@ -396,7 +396,7 @@ After:
 ### **6. DigitalSignatureCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class DigitalSignatureCollection : IEnumerable
 
@@ -404,7 +404,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 
@@ -412,7 +412,7 @@ After:
 ### **7. VariableCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class VariableCollection : IEnumerable
 
@@ -420,7 +420,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
@@ -428,7 +428,7 @@ After:
 ### **8. WarningInfoCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class WarningInfoCollection : IWarningCallback, IEnumerable
 
@@ -436,7 +436,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class WarningInfoCollection : IWarningCallback, IEnumerable<WarningInfo>
 
@@ -444,7 +444,7 @@ After:
 ### **9. ChartDataLabelCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ChartDataLabelCollection : IEnumerable
 
@@ -452,7 +452,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 
@@ -460,7 +460,7 @@ After:
 ### **10. ChartDataPointCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ChartDataPointCollection : IEnumerable
 
@@ -468,7 +468,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 
@@ -476,7 +476,7 @@ After:
 ### **11. ChartSeriesCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ChartSeriesCollection : IEnumerable
 
@@ -484,7 +484,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
@@ -492,7 +492,7 @@ After:
 ### **12. Type of DmlChartDataLabelAttrs.Extensions property changed.**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  StringToObjDictionary
 
@@ -500,7 +500,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  StringToObjDictionary<DmlExtension>
 
@@ -508,7 +508,7 @@ After:
 ### **13. ListCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ListCollection : IEnumerable
 
@@ -516,7 +516,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ListCollection : IEnumerable<List>
 
@@ -524,7 +524,7 @@ After:
 ### **14. ListLevelCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ListLevelCollection : IEnumerable
 
@@ -532,7 +532,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class ListLevelCollection : IEnumerable<ListLevel>
 
@@ -540,7 +540,7 @@ After:
 ### **15. CustomPartCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class CustomPartCollection : IEnumerable
 
@@ -548,7 +548,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class CustomPartCollection : IEnumerable<CustomPart>
 
@@ -556,7 +556,7 @@ After:
 ### **16. CustomXmlPartCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class CustomXmlPartCollection : IEnumerable
 
@@ -564,7 +564,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
@@ -572,7 +572,7 @@ After:
 ### **17. CustomXmlPropertyCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class CustomXmlPropertyCollection : IEnumerable
 
@@ -580,7 +580,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
@@ -588,7 +588,7 @@ After:
 ### **18. CustomXmlSchemaCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class CustomXmlSchemaCollection : IEnumerable
 
@@ -596,7 +596,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class CustomXmlSchemaCollection : IEnumerable<string>
 
@@ -604,7 +604,7 @@ After:
 ### **19. SdtListItemCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class SdtListItemCollection : IEnumerable
 
@@ -612,7 +612,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class SdtListItemCollection : IEnumerable<SdtListItem>
 
@@ -620,7 +620,7 @@ After:
 ### **20. CompositeNode**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public abstract class CompositeNode : Node, IEnumerable, INodeCollection
 
@@ -634,7 +634,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public abstract class CompositeNode : Node, IEnumerable<Node>, INodeCollection
 
@@ -648,7 +648,7 @@ After:
 ### **21. NodeCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class NodeCollection : INodeCollection, IEnumerable
 
@@ -656,7 +656,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class NodeCollection : INodeCollection, IEnumerable<Node>
 
@@ -664,7 +664,7 @@ After:
 ### **22. NodeList**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class NodeList : IEnumerable
 
@@ -672,7 +672,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class NodeList : IEnumerable<Node>
 
@@ -680,7 +680,7 @@ After:
 ### **23. DocumentPropertyCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public abstract class DocumentPropertyCollection : IEnumerable
 
@@ -688,7 +688,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 
@@ -696,7 +696,7 @@ After:
 ### **24. RevisionCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class RevisionCollection : IEnumerable
 
@@ -704,7 +704,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class RevisionCollection : IEnumerable<Revision>
 
@@ -712,7 +712,7 @@ After:
 ### **25. BookmarksOutlineLevelCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class BookmarksOutlineLevelCollection : IEnumerable
 
@@ -720,7 +720,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
 
@@ -728,7 +728,7 @@ After:
 ### **26. OdsoFieldMapDataCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class OdsoFieldMapDataCollection : IEnumerable
 
@@ -736,7 +736,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
@@ -744,7 +744,7 @@ After:
 ### **27. OdsoRecipientDataCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class OdsoRecipientDataCollection : IEnumerable
 
@@ -752,7 +752,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
@@ -760,7 +760,7 @@ After:
 ### **28. StyleCollection**
 Before:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class StyleCollection : IEnumerable
 
@@ -768,7 +768,7 @@ Before:
 
 After:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class StyleCollection : IEnumerable<Style>
 
@@ -776,7 +776,7 @@ After:
 ### **Added Public Property HeaderFooterBookmarksExportMode in PdfSaveOptions**
 WORDSNET-9079 has now been resolved.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -794,7 +794,7 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -836,7 +836,7 @@ public enum HeaderFooterBookmarksExportMode
 ### **Added FontSourceBase.GetAvailableFonts Method**
 WORDSNET-16731 has now been resolved. This method returns the list of fonts available via specific font source.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -848,7 +848,7 @@ public IList<PhysicalFontInfo> GetAvailableFonts();
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -898,7 +898,7 @@ public class PhysicalFontInfo
 ### **Introduced new Comparison Settings**
 WORDSNET-16806 has now been resolved. The following settings were added to the CompareOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -973,7 +973,7 @@ These options were created according to appropriate analogs in the "Compare Docu
 
 Usage:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document docA = new Docment(myDir + "TestA.docx");
 
@@ -992,7 +992,7 @@ WORDSNET-14858 has been resolved.
 A public property ***TxtLoadOptions.DetectNumberingWithWhitespaces*** was introduced instead of previously used LoadOptions.AllowTrailingWhitespaceForListItems.
 ***LoadOptions.AllowTrailingWhitespaceForListItems*** is obsolete property now.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -1018,7 +1018,7 @@ public bool DetectNumberingWithWhitespaces
 
 UC:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  TxtLoadOptions loadOptions = new TxtLoadOptions();
 
@@ -1030,7 +1030,7 @@ Document doc = new Document(fileName, loadOptions);
 ### **API for Removing Personal Information Setting from Document**
 WORDSNET-16914 has been resolved. We have added new public option
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  bool Document.RemovePersonalInformation
 
@@ -1042,7 +1042,7 @@ WORDSNET-14858 has been resolved. A new LoadOptions class for dealing with the t
 
 New public properties ***LeadingSpacesOptions*** and ***TrailingSpacesOptions*** were added into the TxtLoadOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -1056,7 +1056,7 @@ public TxtTrailingSpacesOptions TrailingSpacesOptions
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -1077,7 +1077,7 @@ Trailing spaces could be trimmed or preserved.
 
 UC:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  TxtLoadOptions loadOptions = new TxtLoadOptions();
 

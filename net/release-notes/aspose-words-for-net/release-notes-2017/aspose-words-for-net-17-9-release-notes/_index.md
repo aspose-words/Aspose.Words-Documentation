@@ -110,7 +110,7 @@ WORDSNET-15686 has been resolved. While working on WORDSNET-15686, we have added
 
 LoadOptions:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -124,7 +124,7 @@ public bool UpdateDirtyFields
 
 Field:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -138,7 +138,7 @@ public bool IsDirty
 
 FieldChar:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -158,7 +158,7 @@ When LoadOptions.UpdateDirtyFields == true, all fields having Field.IsDirty == t
 ### **Added OdtSaveOptions.MeasureUnit Property**
 WORDSNET-15425 has been resolved. Public property added to OdtSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -182,7 +182,7 @@ public OdtSaveMeasureUnit MeasureUnit
 
 **Use case:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = TestUtil.Open("XXX.docx");
 
@@ -197,7 +197,7 @@ doc.Save("ХХХ.odt", saveOptions);
 Related issue WORDSNET-15162.
 Public method added to AsposeWordsPrintDocument class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -219,7 +219,7 @@ public void CachePrinterSettings()
 
 Use case:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document ("Simple.docx");
 
@@ -257,7 +257,7 @@ The goal of this method is to reduce time of first call of Print() method.
 ### **Added Public Method StructuredDocumentTag.Clear**
 Ability to clear contents of a content control with displaying a placeholder is implemented.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -275,7 +275,7 @@ If a content control is mapped to custom XML, the referenced XML node is cleared
 
 Example of use:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(myDir + "document1.docx");
 
@@ -291,7 +291,7 @@ Related issue: WORDSNET-15054
 
 Public property added to the List class to support backward compatibility upon Mail Merge, please see [WORDSNET-15054](http://auckland.dynabic.com/jira/browse/WORDSNET-15054).
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -315,7 +315,7 @@ public bool IsRestartAtEachSection
 
 **Use case:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -357,7 +357,7 @@ doc.Save("out.docx", options);
 
 Here is the code snippet for backward compatibility upon Mail Merge:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Dictionary<List, bool> lists = new Dictionary<List, bool>();
 
@@ -377,7 +377,7 @@ Reference: WORDSNET-7912
 
 While working on WORDSNET-7912, we have added the SaveOptions.UpdateLastSavedTimeProperty property that controls whether to update the corresponding built-in document property on document save.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -389,7 +389,7 @@ public bool UpdateLastSavedTimeProperty
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  [Test]
 

@@ -128,7 +128,7 @@ LINQ Reporting Engine enables you to use a simplified syntax in template express
 #### **Working with DataSet objects**
 LINQ Reporting Engine enables you to access DataTable objects contained within a particular DataSet instance by table names using the “.” operator in template expressions. That is, for example, given that ds is a DataSet instance that contains a DataTable named “Persons”, you can access the table using the following syntax.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  ds.Persons
 
@@ -140,7 +140,7 @@ LINQ Reporting Engine enables you to treat DataTable and DataView objects in tem
 
 Also, you can normally apply enumeration extension methods (see "Appendix A. Enumeration Extension Methods" for more information) to DataTable and DataView objects in template expressions. For example, given that persons are a DataTable or DataView instance, you can count its rows using the following syntax.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  persons.Count()
 
@@ -171,7 +171,7 @@ LINQ Reporting Engine enables you to access the field values of a particular IDa
 
 The following example shows, how to use this feature. Given that r is an IDataRecord implementor that has a field named "Name", you can access the field’s value using the following syntax.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  r.Name
 
@@ -249,7 +249,7 @@ You can output a sequence of elements of the same type to your report using a da
 
 A data band body is defined between the corresponding opening and closing foreach tags within a template as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <<foreach ...>>
 
@@ -271,7 +271,7 @@ An opening foreach tag defines a foreach statement enclosed by brackets. The fol
 |**Sequence Expression**|No|A sequence expression must return an [IEnumerable](http://msdn.microsoft.com/en-us/library/system.collections.ienumerable\(v=vs.110\).aspx) implementor.|
 The complete syntax of a foreach tag (including optional elements) is as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <<foreach [variable_type variable_name in sequence_expression]>>
 
@@ -285,7 +285,7 @@ A common data band is a data band whose body starts and ends within paragraphs t
 
 In particular, a common data band can be entirely located within a single paragraph. In this case, while building a report, the band is replaced with contents that are entirely located within the same paragraph as well. The following example illustrates such a scenario. Given that items are an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them with commas in a single paragraph.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  The items are: <<foreach [item in items]>><<[item]>>, <</foreach>>and others.
 
@@ -293,7 +293,7 @@ In particular, a common data band can be entirely located within a single paragr
 
 In this case, the engine produces a report as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  The items are: item1, item2, item3, and others.
 
@@ -305,16 +305,16 @@ When the body of a common data band starts and ends within different paragraphs,
 
 |**Template**|**Report**|
 | :- | :- |
-|<p>{{< highlight java >}}</p><p> prefix <<foreach [item in items]>><<[item]>>¶</p><p><</foreach>>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> prefix<<foreach [item in items]>>¶</p><p><<[item]>><</foreach>> suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3 suffix</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> prefix¶</p><p><<foreach [item in items]>><<[item]>>¶</p><p><</foreach>>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> prefix<<foreach [item in items]>>¶</p><p><<[item]>><</foreach>>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> prefix¶</p><p><<foreach [item in items]>>¶</p><p><<[item]>>¶</p><p><</foreach>>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> prefix¶</p><p>¶</p><p>item1¶</p><p>¶</p><p>item2¶</p><p>¶</p><p>item3¶</p><p>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix <<foreach [item in items]>><<[item]>>¶</p><p><</foreach>>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix<<foreach [item in items]>>¶</p><p><<[item]>><</foreach>> suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3 suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p><<foreach [item in items]>><<[item]>>¶</p><p><</foreach>>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix<<foreach [item in items]>>¶</p><p><<[item]>><</foreach>>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p><<foreach [item in items]>>¶</p><p><<[item]>>¶</p><p><</foreach>>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> prefix¶</p><p>¶</p><p>item1¶</p><p>¶</p><p>item2¶</p><p>¶</p><p>item3¶</p><p>¶</p><p>suffix</p><p>{{< /highlight >}}</p>|
 While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of items, you can get a report with their numbered list using the following template.
 
 **Note –** “1. ” in the template stands for a numbered list label.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  1. <<foreach [item in items]>><<[item]>>
 
@@ -324,7 +324,7 @@ While building a report, duplicated paragraph breaks derive common attributes fr
 
 In this case, the engine produces a report as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  1. item1
 
@@ -443,7 +443,7 @@ LINQ Reporting Engine provides special extension methods for iteration variables
 
 Returns the zero-based index of a sequence item that is represented by the corresponding iteration variable. You can use this extension method to distinguish sequence items with different indexes and then handle them in different ways. For example, given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them prefixing all of them but the first one with commas.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  The items are: <<foreach [
 
@@ -457,7 +457,7 @@ Returns the zero-based index of a sequence item that is represented by the corre
 
 In this case, the engine produces a report as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  The items are: item1, item2, item3.
 
@@ -469,7 +469,7 @@ Returns the one-based index of a sequence item that is represented by the corres
 
 |**No.**|**Item**|
 | :- | :- |
-|<p>{{< highlight java >}}</p><p> <<foreach [item</p><p>in items]>><<[</p><p>item.NumberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[item]>><</foreach>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> <<foreach [item</p><p>in items]>><<[</p><p>item.NumberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[item]>><</foreach>></p><p>{{< /highlight >}}</p>|
 In this case, the engine produces a report as follows.
 
 |**No.**|**Item**|
@@ -1120,14 +1120,14 @@ Consider the following example. Given that ds is a DataSet instance containing a
 
 |**No.**|**Name**|**Age**|
 | :- | :- | :- |
-|<p>{{< highlight java >}}</p><p> <<foreach [p</p><p>        in ds.Persons]>><<[</p><p>    p.NumberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[p.Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[p.Age]>><</</p><p>foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> Count: <<[ds.Persons.Count()]>></p><p>{{< /highlight >}}</p>| | |
+|<p>{{< highlight csharp >}}</p><p> <<foreach [p</p><p>        in ds.Persons]>><<[</p><p>    p.NumberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[p.Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[p.Age]>><</</p><p>foreach>></p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> Count: <<[ds.Persons.Count()]>></p><p>{{< /highlight >}}</p>| | |
 Alternatively, you can use the following template involving the contextual object member access syntax to get the same results.
 
 |**No.**|**Name**|**Age**|
 | :- | :- | :- |
-|<p>{{< highlight java >}}</p><p>  <<foreach [</p><p>        in Persons]>><<[</p><p>    NumberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[Name]>> </p><p>{{< /highlight >}}</p>|<p>{{< highlight java >}}</p><p> <<[Age]>><</</p><p>foreach>> </p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight java >}}</p><p> Count: <<[Persons.Count()]>> </p><p>{{< /highlight >}}</p>| | |
+|<p>{{< highlight csharp >}}</p><p>  <<foreach [</p><p>        in Persons]>><<[</p><p>    NumberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Name]>> </p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}</p><p> <<[Age]>><</</p><p>foreach>> </p><p>{{< /highlight >}}</p>|
+|<p>{{< highlight csharp >}}</p><p> Count: <<[Persons.Count()]>> </p><p>{{< /highlight >}}</p>| | |
 ## **Using Variables**
 LINQ Reporting Engine enables you to use variables in template documents. Variables are useful when you need to calculate an expensive value just once and access it multiple times in a template. Also, calculation of complex values such as running (progressive) totals may require variables, see “ REF typicalTemplates Appendix C. Typical Templates” to get an example.
 

@@ -98,7 +98,7 @@ This section lists public API changes that were introduced in Aspose.Words 16.8.
 ### **Added HtmlLoadOptions.SupportVml public property**
 WORDSNET-6933 is resolved and we have added new public property to HtmlLoadOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -122,7 +122,7 @@ public bool SupportVml
 ### **Added HtmlSaveOptions.ExportTextBoxAsSvg public property**
 WORDSNET-10041 is resolved and we have added new public property to HtmlSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -155,7 +155,7 @@ public bool ExportTextBoxAsSvg
 WORDSNET-6933 is resolved and HtmlLoadOptions class is a subclass of LoadOptions and should be used instead of LoadOptions whenever specific options are needed to be set when loading HTML document.
 Currently HtmlLoadOptions class has two properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -207,7 +207,7 @@ Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be re
 
 Use case:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
 
@@ -223,7 +223,7 @@ Document doc = new Document("Test.html", htmlLoadOptions);
 
 \2. The MetafileRenderingOptions property has become available in the SwfSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -237,7 +237,7 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; }
 
 \3. The JpegQuality property has become available in the XamlFixedSaveOptions and XpsSaveOptions classes:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

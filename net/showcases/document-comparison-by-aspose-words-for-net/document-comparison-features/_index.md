@@ -42,7 +42,7 @@ To create the output document, we load the first document in the Aspose.Words. T
 
 **Deleted text:** It is also appended to the existing text. The red color and strike-through font is applied to it.
 #### **Default.js**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // This is generic method that will take URL of two documents for comparison (WEB or File)
 
@@ -98,7 +98,7 @@ function compareDocuments(document1, document2) {
 
 {{< /highlight >}}
 #### **Default.aspx.cs**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  [WebMethod]
 
@@ -150,7 +150,7 @@ public static ArrayList CompareDocuments(string document1, string document2)
 
 {{< /highlight >}}
 #### **DocumentComparisonUtil.cs**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Compare the text in two Word documents
 
@@ -236,7 +236,7 @@ By default, there is an image with a white background. Initially, we set the SRC
 
 For the page numbering, we have used Bootstrap navigation bar. In jQuery, we just add new list items LI to the navbar list tag UL in a loop, from 1 to page count. We already have the path of image folder, so we added an A tag as well and set its src to the image. As a result, when you click on the page number in the browser, it will load the image.
 #### **Default.js**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Send document path to server and receive page count and image path
 
@@ -326,7 +326,7 @@ function getDocumentData_Success(result) {
 
 {{< /highlight >}}
 #### **Default.aspx.cs**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Convert the document to images and send page count and folder path to calling method
 

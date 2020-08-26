@@ -13,7 +13,7 @@ You can download the latest source code at:
 
 Below code demonstrate the functionality to generate document from template.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Entity Note = Notes[0];
 

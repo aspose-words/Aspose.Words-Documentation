@@ -193,7 +193,7 @@ For a moment the following Markdown features are supported:
 
 The new public enumerations were added:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  LoadFormat.Markdown
 
@@ -205,7 +205,7 @@ FileFormat.Markdown
 
 The new TxtSaveOptionsBase class was added:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -358,7 +358,7 @@ builder.Document.Save("EmphasesExample.md");
 
 **Use Case 2. Explains how to produce the following Markdown document with Headings:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  The following produces headings:
 
@@ -440,7 +440,7 @@ doc.Save("HeadingsExample.md");
 
 **Use Case 3. Explains how to produce the following Markdown document with block quotes:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  We support blockquotes in Markdown:
 
@@ -518,7 +518,7 @@ doc.Save("QuotesExample.md");
 
 **Use Case 4. Explains how to produce the following Markdown document with Horizontal Rule:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  We support Horizontal rules (Thematic breaks) in Markdown:
 
@@ -574,7 +574,7 @@ Related issue: WORDSNET-18745.
 
 Added the following new property to a Shape class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -618,7 +618,7 @@ Support of OpenType fonts was added. Support of advanced typography feature Kern
 
 New public property TextShaperFactory was added to LayoutOptions class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public ITextShaperFactory TextShaperFactory { get; set; }
 
@@ -778,7 +778,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 
 **Use Case to check if shape.TextBox is a Head, a Tail or a Middle of the sequence:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  TextBox textBox = shape.TextBox;
 

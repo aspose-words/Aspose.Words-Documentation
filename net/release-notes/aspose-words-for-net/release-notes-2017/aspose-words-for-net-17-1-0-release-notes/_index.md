@@ -121,7 +121,7 @@ When dealing with very large and complex documents Aspose.Words sometimes had pr
 
 We've introduced an option to optimize memory consumption during these scenarios. When set to true it will improve document memory footprint but will add extra time to processing. This optimization is only applied during save operation.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -135,7 +135,7 @@ public bool MemoryOptimization {get;set;}
 
 {{< /highlight >}}
 ##### **Usage Example:**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(@"myDoc.docx");
 
@@ -149,7 +149,7 @@ doc.Save("myFile.pdf", so);
 ### **FrameFormat Class for getting Frame related Properties of a Paragraph Added**
 Available to API users as Paragraph.FrameFormat. This class exposes all frame properties of paragraph in "readonly" mode
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -175,7 +175,7 @@ The first one works with the most popular video resources and takes the URL to t
 
 Please see the following example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -201,7 +201,7 @@ The second overload works with all other video resources and takes embed Html co
 
 Please see the following example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -233,7 +233,7 @@ Please note: The document will be automatically optimized for MS Word 2013 to sh
 ### **WORDSNET-14405 - TxtSaveOptions.ForcePageBreaks Property Added**
 New public property ForcePageBreaks is added into the TxtSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -251,7 +251,7 @@ The property affects only page breaks that are inserted explicitly into a docume
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  TxtSaveOptions saveOptions = new TxtSaveOptions();
 

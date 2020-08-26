@@ -104,7 +104,7 @@ The "[Working with Table-Row Data Bands](/words/net/template-syntax/#templatesyn
 ### **Remove Obsolete Method in CompositeNode**
 Removed obsolete public method from CompositeNode class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep, bool isLive)
 
@@ -116,7 +116,7 @@ Related Issue: WORDSNET-15801
 
 The following public property has been added into the **ChartAxis** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -142,7 +142,7 @@ public bool Hidden
 
 The property allows hiding/showing and getting visibility state of an axis of a chart.
 #### **UC to create a chart and hide its Y axis**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -178,7 +178,7 @@ Related Issue: WORDSNET-15840
 
 We have added public get/set property for preserving meta-characters during replacement as an option in FindReplaceOptions class
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -226,7 +226,7 @@ Related Issue: WORDSNET-16060
 
 As per customer's request, we have made public get property StoreItemId of class XmlMapping:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

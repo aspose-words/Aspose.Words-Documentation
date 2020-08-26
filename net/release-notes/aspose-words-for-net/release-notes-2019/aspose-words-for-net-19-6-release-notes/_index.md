@@ -100,7 +100,7 @@ Related issue: WORDSNET-18202.
 
 Large metafiles are always compressed when exporting a document. But small metafiles are not compressed for performance reason. Word compresses all metafiles regardless of its size. Also, some other document editors, such as LibreOffice, cannot read uncompressed metafiles. To allow users to choose an appropriate behavior, the following option was introduced in DocSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -148,7 +148,7 @@ public bool IsLicensed
 ### **WORDSNET-3714 Ability to read macros from the document**
 Implemented feature to get access to VBA project source code. Following classes has been added: VbaProject, VbaModuleCollection, VbaModule.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -944,7 +944,7 @@ doc.Save(dir + "TableStyleCreation.docx");
 
 **UseCase to define conditional formatting (special formatting of header row)**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 

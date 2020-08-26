@@ -107,7 +107,7 @@ This section lists public API changes that were introduced in Aspose.Words 18.5.
 ### **Added Public Property StructuredDocumentTag.Color**
 This property allows to control the ***Color*** of a content control.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -126,7 +126,7 @@ The color of highlighting is a bit "softer", than the ***Color***. For example, 
 
 Example of use:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(myDir + "document1.docx");
 

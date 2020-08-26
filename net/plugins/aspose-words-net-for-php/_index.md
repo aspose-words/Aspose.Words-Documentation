@@ -56,7 +56,7 @@ Following releases of running examples are available to download on below mentio
 ### **How to configure the source code on Windows Platform**
 Please follow these simple steps in order to open and extend the source code while using:
 #### **1. Register dll files e.g. Aspose.Words.dll.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Register dll files e.g. Aspose.Words.dll.
 
@@ -76,7 +76,7 @@ In IIS open PHP Manager and then Click ‘Enable to Disable and Extension‘. Fi
 Clone PHP Examples from [github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose_Words_NET_for_PHP)
 and run the following command
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  composer install
 
@@ -84,7 +84,7 @@ and run the following command
 ##### **Method 2**
 In your PHP Project's composer.json file add following lines
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  {
 
@@ -100,7 +100,7 @@ In your PHP Project's composer.json file add following lines
 
 and run the install command
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  composer install
 

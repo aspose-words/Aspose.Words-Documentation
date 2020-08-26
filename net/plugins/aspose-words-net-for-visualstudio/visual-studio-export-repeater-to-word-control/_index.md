@@ -97,7 +97,7 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 1. Add reference to **Aspose.Words.RepeaterExport.dll** available in extracted download package in your ASP.NET project or web application. Make sure your web application/Visual Studio have full access to this folder otherwise you might get Access is denied exception.
 1. Add this line to the top of the page, control or MasterPage 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <%@ Register assembly="Aspose.Words.RepeaterExport" namespace="Aspose.Words.RepeaterExport" tagprefix="aspose" %>
 
@@ -105,7 +105,7 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 
 1. Add the following to a place on your ASP.NET page, control or masterpage where you want the control to be added 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" runat="server"></aspose:ExportRepeaterToWord>
 
@@ -131,7 +131,7 @@ The following properties are exposed to configure and use cool features provided
 |LicenseFilePath |string | |Local path on server to the license file. For example e:\Aspose\Aspose.Words.lic  <br>Aspose.Words.lic |
 An example of Export Repeater to Word control with all properties used is shown below
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" ExportButtonText="Export to Word"
 

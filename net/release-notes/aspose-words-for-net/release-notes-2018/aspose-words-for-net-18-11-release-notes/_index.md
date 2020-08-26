@@ -110,7 +110,7 @@ A customer requested a feature supported by Word where you can surround a colon
 
 We could just hard-code the new Aspose.Words behavior but did not want to introduce something that could be treated as a regression. Given that, we have added another option:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -168,7 +168,7 @@ public bool CleanupParagraphsWithPunctuationMarks
 
 The following sample demonstrates this case:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  document.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
@@ -180,7 +180,7 @@ document.MailMerge.Execute(new string[] {"field"}, new object[] {null});
 ### **Provide TxtSaveOptions.ExportHeadersFootersMode Property**
 ` `New public enum type was added:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Specifies the way headers and footers are exported to plain text format.
 
@@ -206,7 +206,7 @@ public enum TxtExportHeadersFootersMode
 
 New public property was added to TxtSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Specifies the way headers and footers are exported to the plain text format.
 
@@ -217,7 +217,7 @@ public TxtExportHeadersFootersMode ExportHeadersFootersMode
 The main advantage of new property over the old TxtSaveOptions.ExportHeadersFooters property is that it has new headers and footers export mode: 'AllAtEnd'.
 In this mode Aspose.Words acts the way similar to MS Word: all headers and footers are placed after all section bodies at the very end of a document.
 #### **UC**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document ("inputFileName");
 

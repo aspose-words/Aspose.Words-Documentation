@@ -104,7 +104,7 @@ Issues WORDSNET-17093, WORDSNET-17235, WORDSNET-17261, WORDSNET-16491 and WORDSN
 
 The following new member added to the ReportBuildOptions enum:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -124,7 +124,7 @@ When the option is applied to ReportingEngine.Options, the engine additionally r
 
 Template document
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -136,7 +136,7 @@ Suffix
 
 Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -146,7 +146,7 @@ Suffix
 
 Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -158,7 +158,7 @@ Suffix
 
 Template document
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -174,7 +174,7 @@ Suffix
 
 Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -184,7 +184,7 @@ Suffix
 
 Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -202,7 +202,7 @@ In this example, persons is assumed to be a data table having a field Name.
 
 Template document
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -218,7 +218,7 @@ Suffix
 
 Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -234,7 +234,7 @@ Suffix
 
 Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Prefix
 
@@ -250,7 +250,7 @@ Suffix
 ### **NodeRendererBase.BoundsInPoints Property Made Public**
 NodeRendererBase.BoundsInPoints property made public:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -274,7 +274,7 @@ This property is added for convenience in addition to *SizeInPoints* property an
 ### **Added API for Font Fallback Settings**
 We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](/words/net/true-type-fonts/#truetypefonts-fontsubstitutionandfontfallbackinaspose-words).
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class FontSettings
 
@@ -431,7 +431,7 @@ WORDSNET-14601 has now been resolved.
 
 A new property has been added to the **StructuredDocumentTag** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -445,7 +445,7 @@ public Style Style
 
 It can also be accessed via the string property "StyleName" like that what Font, ParagraphFormat and Table have.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -460,7 +460,7 @@ public string StyleName
 Only Linked and Character styles can be applied to an SDT.
 An InvalidOperationException ("Cannot apply this style to the SDT") is thrown when a style that exists but is not Linked or Character style is being applied.
 ##### **UC1. Setting a style to an SDT.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  StructuredDocumentTag sdt = ...
 
@@ -470,7 +470,7 @@ sdt.Style = style;
 
 {{< /highlight >}}
 ##### **UC 1.1. Setting a style to an SDT via StyleName.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  StructuredDocumentTag sdt = ...
 
@@ -480,7 +480,7 @@ sdt.StyleName = "Quote";
 ##### **UC 1.2 Removing defined style.**
 To remove the applied style the default Style should be applied.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  StructuredDocumentTag sdt = ...
 
@@ -490,7 +490,7 @@ sdt.StyleName = "Default Paragraph Font";
 ##### **UC 2. Getting applied to sdt control style.**
 Note. When a linked style is applied to an sdt a paragraph style is returned.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  StructuredDocumentTag sdt = ...
 
@@ -498,7 +498,7 @@ Style style = sdt.Style; //paragraph style name will be returned if it's linked 
 
 {{< /highlight >}}
 ##### **UC 2.1 Getting applied to sdt control style via accessing StyleName.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  StructuredDocumentTag sdt = ...
 
@@ -506,7 +506,7 @@ string styleName = sdt.StyleName; //paragraph style name will be returned if it'
 
 {{< /highlight >}}
 ##### **UC 2.2 Accessing style that is not defined.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  StructuredDocumentTag sdt = ...
 
@@ -522,7 +522,7 @@ WORDSNET-16783 has now been resolved.
 
 Following methods were added:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public void Document.CopyStylesFromTemplate(string template)
 
@@ -532,7 +532,7 @@ public void Document.CopyStylesFromTemplate(Document template)
 
 Methods copies all styles from template trying to preserve style hierarchy for base and linked styles.
 #### **UC**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  string templateFileName = "template file name";
 
@@ -546,7 +546,7 @@ WORDSNET-17328 has now been resolved.
 
 A customer requested the ability to insert untyped/empty fields ({}) just like MS Word allows doing so. By the moment AW threw System.InvalidOperationException when attempting to insert **FieldType.FieldNone** (which was the way the customer tried to insert an untyped field):
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -558,7 +558,7 @@ builder.InsertField(FieldType.FieldNone, false);
 
 Since mimicking MS Word is one of our primary goals, we have supported inserting untyped fields. This is resulted in making the **FieldUnknown** class public because **DocumentBuilder** returns its instance. It existed prior to that, but used to be internal.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -572,7 +572,7 @@ public class FieldUnknown : Field
 
 Use case:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder();
 
@@ -584,7 +584,7 @@ WORDSNET-17330 has now been resolved.
 
 New public property ***AllowCellSpacing*** was added into the Table class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -601,7 +601,7 @@ Setting this property to ***false*** will completelly remove spacing between cel
 
 UC:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Remove spacing between cells
 
@@ -613,7 +613,7 @@ WORDSNET-17397 has now been resolved.
 
 The builder.InsertHorizontalRule() method was added to the DocumentBuilder class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -629,7 +629,7 @@ This adds a horizontal rule to a document without using builder.InsertHtml("<hr>
 
 Use case:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  builder.InsertHorizontalRule();
 

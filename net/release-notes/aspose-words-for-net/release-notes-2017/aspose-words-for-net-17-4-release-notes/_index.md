@@ -120,7 +120,7 @@ WORDSNET-14944 has been resolved.
 
 We have added an interface allowing to implement a custom formatting of field's result. The original request was about addiing a feature to remove spaces between sign and digits during mail merge. However, we decided to implement a more generic and flexible solution because our API is already overwhelmed with different specific properties.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder();
 
@@ -216,7 +216,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 Previously it was one property Resolution that set both vertical and horizontal resolution to the same values.
 Now new public properties HorizontalResolution and VerticalResolution are added into the ImageSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -259,7 +259,7 @@ public void  getVerticalResolution(float value)
 
 Please note, that Resolution property became write-only:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

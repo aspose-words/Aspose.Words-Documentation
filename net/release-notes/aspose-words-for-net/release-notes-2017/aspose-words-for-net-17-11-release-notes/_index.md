@@ -141,7 +141,7 @@ Related issue WORDSNET-14771.
 
 The following constant is added into the MsWordVersion enumeration type.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -155,7 +155,7 @@ Word2016
 
 It can be passed into the CompatibilityOptions.OptimizeFor method to optimize the document contents as well as Aspose.Words behavior to match MS Word 2016 version.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 
@@ -166,7 +166,7 @@ Related Issue: WORDSNET-15616
 The public property OlePackage was added to the OleFormat class to provide ability to set file name, extension and display name for OLE Package.
 The OlePackage class has 2 public properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class OlePackage
 
@@ -194,7 +194,7 @@ The OlePackage class has 2 public properties:
 
 The example:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  //use case
 
@@ -226,7 +226,7 @@ Related issue WORDSNET-15624
 
 Behaviour of the following methods of the Range class is changed.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public int Replace(string pattern, string replacement, FindReplaceOptions options);
 
@@ -253,7 +253,7 @@ Related issue: WORDSNET-15712
 
 Removed obsolete public methods from DigitalSignatureUtil class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public static void Sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
 
@@ -284,7 +284,7 @@ Related issue: WORDSNET-15981 
 
 Added new public property for floating tables in Table class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -350,7 +350,7 @@ public bool AllowOverlap
 
 **UC:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(@"Path\to\document.xml");
 
@@ -384,7 +384,7 @@ Related issue: WORDSNET-15903
 
 Customer wanted to evaluate IF condition after mail merge and was requesting some API for it. Since the ComparisonOperator, LeftExpression and RightExpression properties of FieldIf did not fulfill customer requirements, we have introduced the FieldIf.EvaluateCondition() method that immediately returns the result of expression's evaluation.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -404,7 +404,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 FieldIfComparisonResult enumeration:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -446,7 +446,7 @@ public enum FieldIfComparisonResult
 
 Usage:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  DocumentBuilder builder = new DocumentBuilder();
 

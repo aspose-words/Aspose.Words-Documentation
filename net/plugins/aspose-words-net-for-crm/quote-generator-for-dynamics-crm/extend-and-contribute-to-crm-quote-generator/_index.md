@@ -13,7 +13,7 @@ You can download the latest source code at:
 
 Below code demonstrate the functionality to convert HTML to word and Attach Generated Quotation with Quote.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// Generate Quote from Editor HTML
 

@@ -101,7 +101,7 @@ This section lists public API changes that were introduced in Aspose.Words 16.5.
 ### **WORDSNET-13538 - Added ReportingEngine.BuildReport() overload**
 The following overload has been added to the ReportingEngine class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

@@ -116,7 +116,7 @@ Supported encryption for ODF documents.
 
 The following public API has been added to the OdtSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -130,7 +130,7 @@ public OdtSaveOptions(string password)
 
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -148,13 +148,13 @@ public string Password
 
 {{< /highlight >}}
 ##### **UC1: Load encrypted ODT document.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document(@"\encrypted.odt", new LoadOptions("password"));
 
 {{< /highlight >}}
 ##### **UC2: Save ODT document encrypted with a password.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document();
 
@@ -162,7 +162,7 @@ doc.Save(@"\encryped.odt", new OdtSaveOptions("password"));
 
 {{< /highlight >}}
 ##### **UC3: Verify ODT document is encrypted.**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  FileFormatInfo info = FileFormatUtil.DetectFileFormat(@"\encryped.odt");
 
@@ -175,7 +175,7 @@ Related issue: WORDSNET-16391
 Paper tray information is now preserved when saving document to PCL format.
 Following information is transferred from document's model to PCL file:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  PageSetup.FirstPageTray
 
@@ -191,7 +191,7 @@ Related issue: WORDSNET-16546
 
 The following public property has been added into the **ShapeBase** class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -221,7 +221,7 @@ public bool IsLayoutInCell
 
 The property may be helpful for shapes (mainly VML) that are placed into a table cell but are needed to position without binding to the cell.
 ###### **Usage**
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Shape watermark = new Shape(doc, ShapeType.TextPlainText);
 

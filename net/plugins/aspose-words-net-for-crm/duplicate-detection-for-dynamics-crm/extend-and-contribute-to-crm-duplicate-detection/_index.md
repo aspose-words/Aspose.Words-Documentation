@@ -13,7 +13,7 @@ You can download the latest source code at:
 
 In this scenario we have used Aspose.Words.dll to generate document from a template. we have defined a custom workflow assembly that can be used with Workflows and Dialogs in CRM.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document Result = new Document();
 

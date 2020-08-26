@@ -9,7 +9,7 @@ Conversion of documents with images to fixed page formats using Aspose.Words in 
 
 In order to resolve the problem, you can add the following section in the .csproj file that makes native assets copied properly:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish">
 
@@ -36,7 +36,7 @@ In this example, you create a simple “Hello World” document and return it to
 
 1. Start creating a function using Aspose.Words by adding a NuGet reference to the latest version of [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/). Then modify the code as follows:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  using System.IO;
 
@@ -137,7 +137,7 @@ namespace AsposeWordsAzureTestApp
 
 1. Open the .csproj file in Notepad and add the following section to it:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  <Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish">
 

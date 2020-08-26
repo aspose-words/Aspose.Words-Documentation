@@ -169,7 +169,7 @@ An example of different behavior is below. 
 ### **Added WMF Fonts Scaling According to Metafile Size on the Page and Public Option to Control it**
 New public property was added to MetafileRenderingOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -215,7 +215,7 @@ WORDSNET-17294 has been resolved.
 
 Removed obsolete public API method 'SetAsDefault' from LoadOptions.LanguagePreferences:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  // Sets default editing language.
 

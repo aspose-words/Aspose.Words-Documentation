@@ -119,7 +119,7 @@ You can download the latest source code at:
 
 Retrieve Note and Read in FileStream. Then read the list of Fields from CRM
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  if (Note.Contains("documentbody"))
 
@@ -140,7 +140,7 @@ Retrieve Note and Read in FileStream. Then read the list of Fields from CRM
 
 The values retrieved from CRM can be simply used in MailMerge:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  doc.MailMerge.Execute(fields, values);
 

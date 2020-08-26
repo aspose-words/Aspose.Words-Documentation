@@ -22,7 +22,7 @@ If you do not specify the type of an enumeration item in a foreach statement or 
 ## **Does the engine cooperate with LINQ providers?**
 The engine does not cooperate with [LINQ providers](http://msdn.microsoft.com/en-us/library/vstudio/bb882640\(v=vs.110\).aspx). To be aware of consequences of this feature, consider the following example. Assume, that you have the City and Person classes defined in your application as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  public class City
 
@@ -52,7 +52,7 @@ public class Person
 
 Given that city is an instance of the City class, consider the evaluation of the following template expression by the engine.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  city.Persons.Where(p => p.Age > 30).OrderBy(p => p.Name)
 
@@ -60,7 +60,7 @@ Given that city is an instance of the City class, consider the evaluation of the
 
 If you use an ORM to provide an interaction of your application with an SQL database in conjunction with a LINQ provider for the ORM, then you most likely expect an SQL query like the following one to be performed in the background while evaluating the template expression.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SELECT *
 
@@ -74,7 +74,7 @@ If you use an ORM to provide an interaction of your application with an SQL data
 
 However, since the engine does not cooperate with LINQ providers, the actual SQL query in this case is as follows.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SELECT *
 
@@ -88,7 +88,7 @@ That is, the engine makes an eager call before applying its built-in extension m
 ## **Have I do something special to merge the Aspose.Words assembly with another assembly?**
 You can normally use a tool like [ILMerge](http://research.microsoft.com/en-us/people/mbarnett/ilmerge.aspx) to merge the Aspose.Words assembly with another assembly. However, if you use a functionality of LINQ Reporting Engine, add the following attribute to the target assembly.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  [assembly: InternalsVisibleTo(
 

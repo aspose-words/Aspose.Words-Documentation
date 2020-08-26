@@ -125,7 +125,7 @@ New saving format is introduced - PCL (Printer Command Language). Aspose.Words c
 
 New value was added to enum SaveFormat:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  SaveFormat.Pcl
 
@@ -133,7 +133,7 @@ New value was added to enum SaveFormat:
 
 Example of how to save document to PCL:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document("Example.docx");
 
@@ -145,7 +145,7 @@ doc.Save("Example.pcl", saveOptions);
 
 PclSaveOptions has following public options and methods:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -221,7 +221,7 @@ There is one major feature of PCL that is unsupported in current version of Aspo
 ### **WORDSNET-14190 - Make the Title of the Generated Documents show up in Title Bar**
 New property **DisplayDocTitle** was added to PdfSaveOptions to control behavior of how document's title is presented in output PDF document:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -257,7 +257,7 @@ public bool DisplayDocTitle
 ### **WORDSNET-15504 -  Shape.AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.InsertImage Method.**
 Shape.AspectRatioLocked default value was changed for shapes inserted through the DocumentBuilder.InsertImage method. Now, to mimic MS Word behavior this value is "true" for ShapeType.Image upon inserting image through the DocumentBuilder or through the Model.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 

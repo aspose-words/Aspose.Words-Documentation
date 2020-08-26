@@ -108,7 +108,7 @@ Related issue: WORDSNET-16121
 
 The following property has been added to the PdfSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -134,7 +134,7 @@ public bool EscapeUri
 
 Set this property to false if you are sure that hyperlinks in document's model are already escaped:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  Document doc = new Document ("in.docx");
 
@@ -152,7 +152,7 @@ The following property has been added to the HtmlSaveOptions class:
 
 **API**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  /// <summary>
 
@@ -200,7 +200,7 @@ public string CssClassNamePrefix
 
 **UC**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
  HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 
