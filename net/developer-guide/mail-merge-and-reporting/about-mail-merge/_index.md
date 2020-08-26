@@ -172,15 +172,15 @@ You can easily merge attributes of fields using the following syntax:
 
 This will merge data from XML data which looks like this:
 
-<Order> // <-- Current context is here.
-`   `<Number>23</Number>
-`   `<Address>
-`      `<Street>Nelson Street</Street>
-`      `<Suburb>Howick</Suburb>
-`      `<City>Auckland</City>
-`   `</Address>
-`   `<PhoneNumber>543 1234</PhoneNumber>
-</Order>
+&lt;Order&gt; // &lt;-- Current context is here.
+`   `&lt;Number&gt;23&lt;/Number&gt;
+`   `&lt;Address&gt;
+`      `&lt;Street&gt;Nelson Street&lt;/Street&gt;
+`      `&lt;Suburb&gt;Howick&lt;/Suburb&gt;
+`      `&lt;City&gt;Auckland&lt;/City&gt;
+`   `&lt;/Address&gt;
+`   `&lt;PhoneNumber&gt;543 1234&lt;/PhoneNumber&gt;
+&lt;/Order&gt;
 ### **Foreach Blocks**
 You can merge data from multiple records using the foreach tag. This is similar to mail merge regions with convectional merge fields. You can nest such blocks.
 
