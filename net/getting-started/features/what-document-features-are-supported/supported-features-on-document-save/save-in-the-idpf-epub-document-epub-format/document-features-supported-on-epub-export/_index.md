@@ -63,7 +63,7 @@ See the following links in the documentation for further information:
 |Variables |N/A | | |
 |VBA Project (Macro) |N/A |Macros are not exported to HTML based formats. | |
 |VBA Project Digital Signature |N/A | | |
-|Background |Yes |Only solid background is exported. Exported as style="background:xxx" on each <body> tag. <br><br>There are plans to export background shape as style-background. | |
+|Background |Yes |Only solid background is exported. Exported as style="background:xxx" on each &lt;body&gt; tag. <br><br>There are plans to export background shape as style-background. | |
 |Thumbnail |Yes |You can include a cover image on output EPUB documents either by importing an existing image or by generating a thumbnail of one of the document page's using Aspose.Words |- **InBuiltDocumentProperties.Thumbnail**|
 ##### **Embedded Fonts**
 
