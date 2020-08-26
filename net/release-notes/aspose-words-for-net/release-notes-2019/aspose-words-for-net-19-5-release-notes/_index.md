@@ -38,7 +38,7 @@ This page contains release notes for [Aspose.Words for .NET 19.5](https://www.nu
 |WORDSNET-16739|Provide StreamFontSource similar to the FileFontSource|New Feature|
 |WORDSNET-16734|Add feature to get font leading/metrics of Run node|New Feature|
 |WORDSNET-18436|Provide API to identify Style Separator Paragraph|New Feature|
-|WORDSNET-17843|Generate <TOC> tags for Table of contents in PDF|New Feature|
+|WORDSNET-17843|Generate &lt;TOC&gt; tags for Table of contents in PDF|New Feature|
 |WORDSNET-18440|Add new 3D parameters to ExtrusionParameters and their processing|New Feature|
 |WORDSNET-11952|Performance issue while converting Html to PDF|Bug|
 |WORDSNET-18097|A picture in XML occasionally renders as Red Cross in PDF|Bug|
