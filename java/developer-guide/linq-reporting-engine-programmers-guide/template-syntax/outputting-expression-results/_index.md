@@ -13,17 +13,17 @@ An expression tag has no name and consists of the following elements:
 - An optional format string enclosed by double quotes and preceded by the ":" character
 - An optional html switch
 
-**<<[expression]:"format" -html>>**
+**&lt;&lt;[expression]:"format" -html&gt;&gt;**
 
 If html switch is not present, the result of the corresponding expression is written to a document as a plain text at runtime. Font attributes are derived from the first character of the corresponding tag in this case.
 
 If html switch is present, the expression result is considered to be a HTML block and is written as such. This feature is useful, when you need to format text parts of an expression result in different ways. For example, the following tag is replaced with a content like "**Bold** and *italic* text" at runtime.
 
-**<<["<b>Bold</b> and <i>italic</i> text"] -html>>**
+**&lt;&lt;["&lt;b&gt;Bold&lt;/b&gt; and &lt;i&gt;italic&lt;/i&gt; text"] -html&gt;&gt;**
 
 To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [DecimalFormat](http://docs.oracle.com/javase/7/docs/api/java/text/DecimalFormat.html) or [SimpleDateFormat](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) constructors. That is, for example, given that d is a Date value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
 
-**<<[d]:"yyyy.MM.dd">>**
+**&lt;&lt;[d]:"yyyy.MM.dd"&gt;&gt;**
 
 LINQ Reporting Engine provides several additional number formats that can not be specified using format strings because these formats are missing in standard  REF platform Java libraries. The following table describes these formats.
 
@@ -40,7 +40,7 @@ LINQ Reporting Engine provides several additional number formats that can not be
 
 You can specify one of these additional number formats instead of a format string like in the following example. Given that i is an integer number, you can format the number as an upper-case letter using the following template.
 
-**<<[i]:alphabetic>>**
+**&lt;&lt;[i]:alphabetic&gt;&gt;**
 
 LINQ Reporting Engine provides several additional string formats that can not be specified using format strings because these formats are missing in standard  REF platform Java libraries. The following table describes these formats.
 
@@ -54,14 +54,14 @@ LINQ Reporting Engine provides several additional string formats that can not be
 
 You can specify one of these additional string formats instead of a format string like in the following example. Given that s is a string, you can capitalize a first letter of every word in the string using the following template.
 
-**<<[s]:caps>>**
+**&lt;&lt;[s]:caps&gt;&gt;**
 
 You can also specify one of the additional string formats together with a format string or an additional number format like in the following examples. Given that d is a Date value, you can convert its textual month representation to upper case using the following template.
 
-**<<[d]:"MMMM":upper>>**
+**&lt;&lt;[d]:"MMMM":upper&gt;&gt;**
 
 Given that i is an integer number, you can convert the number to a lower-case Roman numeral using the following template.
 
-**<<[i]:roman:lower>>**
+**&lt;&lt;[i]:roman:lower&gt;&gt;**
 
 ` `REF note **Note -** In contrast to format strings, additional number and string formats must not be enclosed with double quotes.
