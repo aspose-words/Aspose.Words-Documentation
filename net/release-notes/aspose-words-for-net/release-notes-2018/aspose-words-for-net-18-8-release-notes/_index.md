@@ -290,9 +290,7 @@ WORDSNET-17089 has been resolved.
 Previously, Aspose.Words saved "@font-face" rules of HtmlFixed documents into a separate file "fontFaces.css" while other CSS declarations were written to "styles.css". We have changed this behavior and now Aspose.Words saves all CSS rules and declarations into the same file "styles.css". In case the old behavior is required for compatibility with legacy code, it can be restored by using the new public property that we have added to the HtmlFixedSaveOptions class:
 
 {{< highlight cs >}}
-
- bool SaveFontFaceCssSeparately { get; set; }
-
+bool SaveFontFaceCssSeparately { get; set; }
 {{< /highlight >}}
 ### **RtfLoadOptions class was extended**
 WORDSNET-17184 has been resolved.

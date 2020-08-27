@@ -14,31 +14,17 @@ Aspose.Words supports documents with digital signatures and provides access to t
 
 {{< highlight cs >}}
 
-
-
 // The path to the document which is to be processed.
-
 string filePath = "../../data/document.doc";
-
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(filePath);
-
 if (info.HasDigitalSignature)
-
 {
-
 	Console.WriteLine(string.Format("Document {0} has digital signatures, they will be lost if you open/save this document with Aspose.Words.", new FileInfo(filePath).Name));
-
 }
-
 else
-
 {
-
 	Console.WriteLine("Document has no digital signature.");
-
 }
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Working with Digital Signatures** form any of the below mentioned social coding sites:

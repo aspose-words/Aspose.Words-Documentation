@@ -14,20 +14,15 @@ By default Aspose.Words inserts a new table using “**AutoFit to Window”**. T
 
 {{< highlight cs >}}
 
- // Open the document
-
+// Open the document
 Document doc = new Document("../../data/document.doc");
-
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 
 // Autofit the first table to the page width.
-
 table.AutoFit(AutoFitBehavior.AutoFitToWindow);
 
 // Save the document to disk.
-
 doc.Save("TestFile.AutoFitToWindow Out.doc");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Autofit Setting to Tables** form any of the below mentioned social coding sites:

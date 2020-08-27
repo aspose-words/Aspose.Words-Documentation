@@ -18,17 +18,11 @@ To append documents using Aspose.Words, simply invoke the AppendDocument() met
 **C#**
 
 {{< highlight cs >}}
-
- Document doc1 = new Document("../../data/doc1.doc");
-
+Document doc1 = new Document("../../data/doc1.doc");
 Document doc2 = new Document("../../data/doc2.doc");
-
 Document doc3 = doc1.Clone();
-
 doc3.AppendDocument(doc2, ImportFormatMode.KeepSourceFormatting);
-
 doc3.Save("appendedDocument.doc");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Append Documents (Aspose.Words)** form any of the below mentioned social coding sites:

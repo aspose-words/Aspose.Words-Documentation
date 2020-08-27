@@ -11,15 +11,10 @@ DocumentBuilder provides several overloads of the DocumentBuilder.InsertImage me
 **C#**
 
 {{< highlight cs >}}
-
- Document doc = new Document("../../data/document.doc");
-
+Document doc = new Document("../../data/document.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.InsertImage("../../data/HumpbackWhale.jpg");
-
 doc.Save("insertedImage.docx");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Insert Picture in Document** form any of the below mentioned social coding sites:

@@ -13,13 +13,9 @@ If you want to generate a document programmatically, the most reasonable step af
 **C#**
 
 {{< highlight cs >}}
-
- using Aspose.Words;
-
+using Aspose.Words;
 Document doc = new Document();
-
 doc.Save("blank.docx");
-
 {{< /highlight >}}
 ## **NPOI HWPF XWPF - Create Empty Document**
 Below example shows how to create a new document using NPOI XWPF
@@ -27,21 +23,13 @@ Below example shows how to create a new document using NPOI XWPF
 **C#**
 
 {{< highlight cs >}}
-
- using NPOI.XWPF.UserModel;
-
+using NPOI.XWPF.UserModel;
 XWPFDocument doc = new XWPFDocument();
-
 doc.CreateParagraph();
-
 using (FileStream sw = File.Create("blank.docx"))
-
 {
-
     doc.Write(sw);
-
 }
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Create Empty Document** from any of the below mentioned social coding sites:

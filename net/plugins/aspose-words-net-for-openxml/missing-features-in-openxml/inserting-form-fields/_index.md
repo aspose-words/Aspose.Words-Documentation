@@ -14,15 +14,10 @@ DocumentBuilder provides special methods to insert each type of form field into 
 **C#**
 
 {{< highlight cs >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 string[] items = { "One", "Two", "Three" };
-
 builder.InsertComboBox("DropDown", items, 0);
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)

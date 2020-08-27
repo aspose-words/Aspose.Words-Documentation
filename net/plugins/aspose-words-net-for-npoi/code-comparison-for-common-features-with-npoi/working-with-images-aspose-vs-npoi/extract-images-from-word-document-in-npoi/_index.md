@@ -17,29 +17,17 @@ To extract all images or images having specific type from the document, follow t
 **C#**
 
 {{< highlight cs >}}
-
-  Document wordDocument = new Document("Extract Images from Word Document.doc");
-
+ Document wordDocument = new Document("Extract Images from Word Document.doc");
  NodeCollection pictures = wordDocument.GetChildNodes(NodeType.Shape, true);
-
  int imageindex = 0;
-
  foreach (Shape shape in pictures)
-
  {
-
     if (shape.HasImage)
-
     {
-
        string imageFileName = "data/Aspose_" + (imageindex++).ToString() + "_" + shape.Name;
-
        shape.ImageData.Save(imageFileName);
-
     }
-
   }
-
 {{< /highlight >}}
 ## **NPOI HWPF XWPF - Extract Images from Document**
 Below is the code for extracting images from word document:
@@ -47,25 +35,15 @@ Below is the code for extracting images from word document:
 **C#**
 
 {{< highlight cs >}}
-
-  XWPFDocument doc = new XWPFDocument(new FileStream("data/Extract Images from Word Document.doc",FileMode.Open));
-
+ XWPFDocument doc = new XWPFDocument(new FileStream("data/Extract Images from Word Document.doc",FileMode.Open));
  IList<XWPFPictureData> pics = doc.AllPictures;
-
  foreach (XWPFPictureData pic in pics)
-
  {
-
     FileStream outputStream = new FileStream("data/NPOI_" + pic.FileName,FileMode.OpenOrCreate);
-
     byte[] picData= pic.Data;
-
     outputStream.Write(picData, 0, picData.Length);
-
     outputStream.Close();
-
  }
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Extract Images from Document** from any of the below mentioned social coding sites:

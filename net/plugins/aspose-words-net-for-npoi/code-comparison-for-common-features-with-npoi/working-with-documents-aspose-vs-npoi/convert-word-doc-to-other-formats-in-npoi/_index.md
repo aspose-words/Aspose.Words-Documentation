@@ -21,37 +21,22 @@ Converts a whole document from DOC to other formats using default options.
 **C#**
 
 {{< highlight cs >}}
-
-  Document wordDocument = new Document("Convert Word Doc to Other Formats.doc");
-
+ Document wordDocument = new Document("Convert Word Doc to Other Formats.doc");
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.docx", SaveFormat.Docx);
-
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.bmp", SaveFormat.Bmp);
-
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.html", SaveFormat.Html);
-
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.pdf", SaveFormat.Pdf);
-
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.text", SaveFormat.Text);
-
-
 {{< /highlight >}}
 ## **NPOI HWPF XWPF - Convert Word Doc to Other Formats**
 **C#**
 
 {{< highlight cs >}}
-
-   XWPFDocument  wordDocument = new XWPFDocument( new FileStream("Convert Word Doc to Other Formats.doc", FileMode.Open));
-
+  XWPFDocument  wordDocument = new XWPFDocument( new FileStream("Convert Word Doc to Other Formats.doc", FileMode.Open));
   using (FileStream sw = File.Create("data/Convert Word Doc to Other Formatsblank.docx"))
-
   {
-
       wordDocument.Write(sw);
-
   }
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Convert Word Doc to Other Formats** from any of the below mentioned social coding sites:

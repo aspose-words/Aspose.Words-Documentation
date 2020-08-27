@@ -11,22 +11,13 @@ Use Range.Replace to find or replace a particular string within the current rang
 **C#**
 
 {{< highlight cs >}}
-
-             Document doc = new Document();
-
+            Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
-
             builder.Write("Hello World");
-
             doc.Range.Replace("Hello", "Hallow", false, true);
-
             String text = doc.Range.Text;
-
             System.Console.WriteLine(text);
-
             System.Console.ReadKey();
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Using Find and Replace** form any of the below mentioned social coding sites:

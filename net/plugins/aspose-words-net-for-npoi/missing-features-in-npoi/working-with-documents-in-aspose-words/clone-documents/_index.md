@@ -11,13 +11,9 @@ To clone documents using Aspose.Words, simply invoke the Clone() method of Docum
 **C#**
 
 {{< highlight cs >}}
-
- Document doc = new Document("../../data/document.doc");
-
+Document doc = new Document("../../data/document.doc");
 Document clone = doc.Clone();
-
 clone.Save("AsposeClone.doc", SaveFormat.Doc);
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Clone Documents (Aspose.Words)** form any of the below mentioned social coding sites:

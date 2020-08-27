@@ -8,27 +8,18 @@ url: /net/conversion-between-different-open-office-word-formats/
 Below is the code for conversions between Open Office formats:
 #### **Conversion from ODT:**
 {{< highlight cs >}}
-
-  Document doc = new Document("OpenOfficeWord.odt");
-
+ Document doc = new Document("OpenOfficeWord.odt");
  doc.Save("ConvertedOdtFromDoc.docx",SaveFormat.Docx);
-
 {{< /highlight >}}
 #### **Conversion from OTT:**
 {{< highlight cs >}}
-
-  Document doc = new Document("Sample.ott");
-
+ Document doc = new Document("Sample.ott");
  doc.Save("ConvertedFromOttFromDoc.docx", SaveFormat.Docx);
-
 {{< /highlight >}}
 #### **Conversion to ODT:**
 {{< highlight cs >}}
-
-  Document doc = new Document("ConvertedOdtFromDoc.docx");
-
+ Document doc = new Document("ConvertedOdtFromDoc.docx");
  doc.Save( "ConvertedToODT.odt", SaveFormat.Odt);
-
 {{< /highlight >}}
 ### **Download Running Examples**
 - [Codeplex](https://asposewordsvsto.codeplex.com/SourceControl/latest#Aspose.Words Features missing in VSTO/Conversion to Open Office Document/)

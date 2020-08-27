@@ -184,103 +184,58 @@ Related issue: WORDSNET-15995
 The following property has been added to the HtmlSaveOptions class:
 
 {{< highlight cs >}}
-
- public class HtmlSaveOptions
-
+public class HtmlSaveOptions
 {
-
     /// <summary>
-
     /// Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB.
-
     /// Default value is <see cref="HtmlMetafileFormat.Png" />, meaning that metafiles are rendered to raster PNG images.
-
     /// </summary>
-
     /// <remarks>
-
     /// <p>Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF
-
     /// images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export
-
     /// them as is without conversion.</p>
-
     /// <p>Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported
-
     /// to HTML without conversion.</p>
-
     /// </remarks>
-
     /// <seealso cref="ImageResolution"/>
-
     /// <seealso cref="ScaleImageToShapeSize"/>
-
     public HtmlMetafileFormat MetafileFormat
-
     {
-
         get { return mSaveImageOptions.MetafileFormat; }
-
         set { mSaveImageOptions.MetafileFormat = value; }
-
     }
-
 }
-
 /// <summary>
-
 /// Indicates the format in which metafiles are saved to HTML documents.
-
 /// </summary>
-
 public enum HtmlMetafileFormat
-
 {
-
     /// <summary>
-
     /// Metafiles are rendered to raster PNG images.
-
     /// </summary>
-
     Png,
-
     /// <summary>
-
     /// Metafiles are converted to vector SVG images.
-
     /// </summary>
-
     Svg,
-
     /// <summary>
-
     /// Metafiles are saved as is, without conversion.
-
     /// </summary>
-
     EmfOrWmf
-
 }
-
 {{< /highlight >}}
 
 The new property replaces HtmlSaveOptions.ExportMetafileAsRaster, which is now marked obsolete. New code should use MetafileFormat instead of ExportMetafileAsRaster, as shown below:
 
 {{< highlight cs >}}
-
- MetafileFormat = HtmlMetafileFormat.Png;
+MetafileFormat = HtmlMetafileFormat.Png;
 
 // Instead of
-
 ExportMetafileAsRaster = true;
-
 MetafileFormat = HtmlMetafileFormat.EmfOrWmf;
 
 // Instead of
-
 ExportMetafileAsRaster = false;
-
 {{< /highlight >}}
 
 The new option value - HtmlMetafileFormat.Svg - is useful in scenarios where a customer imports SVG images to a document and want to save these images back to SVG format, as in the following code sample:

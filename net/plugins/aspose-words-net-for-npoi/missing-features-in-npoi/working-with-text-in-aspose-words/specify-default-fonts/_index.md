@@ -13,19 +13,14 @@ We can specify the default font to use by calling the **FontSettings.Substituti
 **C#**
 
 {{< highlight cs >}}
-
- Document doc = new Document("../../data/document.doc");
+Document doc = new Document("../../data/document.doc");
 
 // If the default font defined here cannot be found during rendering then the closest font on the machine is used instead.
-
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial Unicode MS";
 
 // Now the set default font is used in place of any missing fonts during any rendering calls.
-
 doc.Save("Rendering.SetDefaultFont_Out.pdf");
-
 doc.Save("Rendering.SetDefaultFont_Out.xps");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Specify Default Fonts** form any of the below mentioned social coding sites:

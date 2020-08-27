@@ -14,32 +14,24 @@ In order to manipulate a table to split or join with another table we simply nee
 
 {{< highlight cs >}}
 
- // Load the document.
-
+// Load the document.
 Document doc = new Document("../../data/document.doc");
 
 // Get the first and second table in the document.
 
 // The rows from the second table will be appended to the end of the first table.
-
 Table firstTable = (Table)doc.GetChild(NodeType.Table, 0, true);
-
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
 // Append all rows from the current table to the next.
 
 // Due to the design of tables even tables with different cell count and widths can be joined into one table.
-
 while (secondTable.HasChildNodes)
-
 	firstTable.Rows.Add(secondTable.FirstRow);
 
 // Remove the empty table container.
-
 secondTable.Remove();
-
 doc.Save("Table.CombineTables Out.doc");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Joining Tables** form any of the below mentioned social coding sites:

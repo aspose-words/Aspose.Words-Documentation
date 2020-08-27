@@ -11,20 +11,13 @@ In Aspose.Words the DocumentBuilder.InsertField method is used to insert new fie
 **C#**
 
 {{< highlight cs >}}
-
-             Document doc = new Document();
-
+            Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
 
             // Insert a Form Field
-
             string[] items = { "One", "Two", "Three" };
-
             builder.InsertComboBox("DropDown", items, 0);
-
             doc.Save("FormFieldTest.docx");
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Insert Form Field in Document** form any of the below mentioned social coding sites:
