@@ -7,7 +7,7 @@ url: /java/merging-table-cells-dynamically/
 
 You can merge table cells with equal textual contents within your reports dynamically using cellMerge tags. Syntax of a cellMerge tag is defined as follows.
 
-**<<cellMerge -horz>>**
+**&lt;&lt;cellMerge -horz&gt;&gt;**
 
 A horz switch is optional. If the switch is present, it denotes a cell merging operation in a horizontal direction. If the switch is missing, it means that a cell merging operation is to be performed in a vertical direction (the default).
 
@@ -21,8 +21,8 @@ Consider the following template.
 
 |**...**|**...**|**...**|
 | :- | :- | :- |
-|**...**|**<<cellMerge>><<[value1]>>**|**...**|
-|**...**|**<<cellMerge>><<[value2]>>**|**...**|
+|**...**|**&lt;&lt;cellMerge&gt;&gt;&lt;&lt;[value1]&gt;&gt;**|**...**|
+|**...**|**&lt;&lt;cellMerge&gt;&gt;&lt;&lt;[value2]&gt;&gt;**|**...**|
 |**...**|**...**|**...**|
 
 
