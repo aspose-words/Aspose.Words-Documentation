@@ -14,7 +14,7 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 1. Add an opening foreach tag to the chart title.
 1. Depending on the type of the chart, add x tags to the chart title or chart series’ names as follows.
 
-**<<x [x_value_expression]>>**
+**&lt;&lt;x [x_value_expression&gt;&gt;**
 
 - For a scatter or bubble chart, you can go one of the following ways: 
   - To use the same x-value expression for all chart series, add a single x tag to the chart title after the corresponding foreach tag.
@@ -25,13 +25,13 @@ An x-value expression for a scatter or bubble chart must return a numeric value.
 - For a chart of another type, add a single x tag to the chart title after the corresponding foreach tag. In this case, an x-value expression must return a numeric, date, or string value.
 7. For a chart of any type, add y tags to chart series’ names as follows.
 
-**<<y [y_value_expression]>>**
+**&lt;&lt;y [y_value_expression]&gt;&gt;**
 
 An y-value expression must return a numeric value.
 
 8. For a bubble chart, add size tags to chart series’ names as follows.
 
-**<<size [bubble_size_expression]>>**
+**&lt;&lt;size [bubble_size_expression]&gt;&gt;**
 
 A bubble-size expression must return a numeric value.
 
@@ -53,7 +53,7 @@ Consider the following example. Assume that you have the Manager and Contract cl
 **public class Manager
 {
 `    `public String  REF getName getName()  REF getterBody { ... }
-`    `public  REF enumeration Iterable<Contract>  REF getContracts getContracts()  REF getterBody { ... }**
+`    `public  REF enumeration Iterable&lt;Contract&gt;  REF getContracts getContracts()  REF getterBody { ... }**
 
 `    `**...
 }
@@ -79,7 +79,7 @@ For a chart with dynamic data, you can select which series to include into it dy
 1. Declare a chart with dynamic data in the usual way.
 1. For series to be removed from the chart based upon conditions dynamically, define the conditions in names of these series using removeif tags having the following syntax.
 
-**<<removeif [conditional_expression]>>**
+**&lt;&lt;removeif [conditional_expression]&gt;&gt;**
 
 ` `REF note **Note –** A conditional expression must return a Boolean value.
 
@@ -102,7 +102,7 @@ For a chart with dynamic data, you can set colors of chart series dynamically ba
 1. Declare a chart with dynamic data in the usual way.
 1. For chart series to be colored dynamically, define corresponding color expressions in names of these series using seriesColor tags having the following syntax.
 
-**<<seriesColor [color_expression]>>**
+**&lt;&lt;seriesColor [color_expression]&gt;&gt;**
 
 A color expression must return a value of one of the following types:
 
@@ -125,7 +125,7 @@ For a chart with dynamic data, you can set colors of individual chart series poi
 1. Declare a chart with dynamic data in the usual way.
 1. For chart series with points to be colored dynamically, define corresponding color expressions in names of these series using pointColor tags having the following syntax.
 
-**<<pointColor [color_expression]>>**
+**&lt;&lt;pointColor [color_expression]&gt;&gt;**
 
 A color expression must return a value of one of the following types:
 
