@@ -18,6 +18,7 @@ from java.io import File
 class DigitalSignatures:
     def __init__(self):
         dataDir = Settings.dataDir + 'loading_saving/'
+
         # The path to the document which is to be processed.
         filePath = dataDir + "document.doc"
         info = FileFormatUtil.detectFileFormat(filePath)

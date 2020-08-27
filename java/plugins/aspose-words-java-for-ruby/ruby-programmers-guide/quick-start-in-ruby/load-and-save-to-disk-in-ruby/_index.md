@@ -11,6 +11,7 @@ To load and save a word document to disk using Aspose.Words Java for Ruby, simpl
 **Ruby Code**
 
 {{< highlight ruby >}}
+
 # The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 \# Open the document.

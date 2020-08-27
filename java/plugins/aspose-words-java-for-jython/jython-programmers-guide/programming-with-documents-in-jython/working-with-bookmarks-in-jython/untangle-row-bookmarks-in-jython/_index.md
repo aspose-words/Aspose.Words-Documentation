@@ -17,9 +17,11 @@ def untangle_row_bookmarks(self, doc):
         x = 0
         while x < bookmarks_count:
             bookmark = bookmarks.get(x)
+
             # Get the parent row of both the bookmark and bookmark end node.
             row1 = bookmark.getBookmarkStart().getAncestor(Row)
             row2 = bookmark.getBookmarkEnd().getAncestor(Row)
+
             # If both rows are found okay and the bookmark start and end are contained
             # in adjacent rows, then just move the bookmark end node to the end
             # of the last paragraph in the last cell of the top row.

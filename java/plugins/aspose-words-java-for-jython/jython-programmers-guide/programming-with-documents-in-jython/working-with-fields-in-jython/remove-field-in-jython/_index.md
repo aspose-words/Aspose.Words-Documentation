@@ -18,6 +18,7 @@ class RemoveField:
         dataDir = Settings.dataDir + 'programming_documents/'
         doc = Document(dataDir + "RemoveField.doc")
         field = doc.getRange().getFields().get(0)
+
         # Calling this method completely removes the field from the document.
         field.remove()
         doc.save(dataDir + "RemoveField Out.docx")

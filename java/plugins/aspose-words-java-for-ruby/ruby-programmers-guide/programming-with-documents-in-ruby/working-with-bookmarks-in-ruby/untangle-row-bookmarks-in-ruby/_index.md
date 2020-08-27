@@ -19,14 +19,18 @@ def untangle_row_bookmark(doc)
         bookmark = bookmarks.get(i)
         row1 = bookmark.getBookmarkStart().getAncestor(Rjb::import("com.aspose.words.Row"))
         row2 = bookmark.getBookmarkEnd().getAncestor(Rjb::import("com.aspose.words.Row"))
+
         # If both rows are found okay and the bookmark start and end are contained
+
         # in adjacent rows, then just move the bookmark end node to the end
+
         # of the last paragraph in the last cell of the top row.
         if ((row1 != "") && (row2 != "") && (row1.getNextSibling() == row2)) then
             row1.getLastCell().getLastParagraph().appendChild(bookmark.getBookmarkEnd())
         end
         $i +=1
     end
+
     # Save the document.
     doc.save(@data_dir + "TestDefect1352 Out.doc")
 end
@@ -36,13 +40,16 @@ def delete_row_by_bookmark(doc, bookmark_name)
     if bookmark.nil? then
         return
     end
+
     # Get the parent row of the bookmark. Exit if the bookmark is not in a row.
     row = bookmark.getBookmarkStart().getAncestor(Rjb::import('com.aspose.words.Row'))
     if row.nil? then
         return
     end
+
     # Remove the row.
     row.remove()
+
     # Save the document.
     doc.save(@data_dir + "TestDefect1352 Out.doc")
 end

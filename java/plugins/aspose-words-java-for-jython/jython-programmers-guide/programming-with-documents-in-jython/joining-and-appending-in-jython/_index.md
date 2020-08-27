@@ -26,6 +26,7 @@ class AppendDocument:
         """
         dstDoc = Document(self.dataDir + "TestFile.Destination.doc")
         srcDoc = Document(self.dataDir + "TestFile.Source.doc")
+
         # Append the source document to the destination document using no extra options.
         dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)
         dstDoc.save(self.dataDir + "TestFile.SimpleAppendDocument Out.docx")
@@ -35,6 +36,7 @@ class AppendDocument:
         """
         dstDoc = Document(self.dataDir + "TestFile.Destination.doc")
         srcDoc = Document(self.dataDir + "TestFile.Source.doc")
+
         # Append the source document to the destination document using no extra options.
         dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)
         dstDoc.save(self.dataDir + "TestFile.KeepSourceFormatting Out.docx")

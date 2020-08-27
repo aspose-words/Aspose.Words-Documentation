@@ -11,6 +11,7 @@ To load and save a word document to stream using Aspose.Words for Java in Ruby, 
 **Ruby Code**
 
 {{< highlight ruby >}}
+
 # The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 \# Open the stream. Read only access is enough for Aspose.Words to load a document.

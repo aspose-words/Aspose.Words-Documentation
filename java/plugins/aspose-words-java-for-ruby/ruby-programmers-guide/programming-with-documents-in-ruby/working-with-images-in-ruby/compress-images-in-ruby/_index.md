@@ -14,12 +14,17 @@ To compress images using Aspose.Words Java in Ruby, simply invoke the compress_i
 def compress_images(doc, srcFileName)
     messageFormat = Rjb::import("java.text.MessageFormat")
     file_size = get_file_size(srcFileName)
+
     # 220ppi Print - said to be excellent on most printers and screens.
+
     # 150ppi Screen - said to be good for web pages and projectors.
+
     # 96ppi Email - said to be good for minimal document size and sharing.
     desiredPpi = 150
+
     # In Java this seems to be a good compression / quality setting.
     jpegQuality = 90
+
     # Resample images to desired ppi and save.
     resampler = Rjb::import("com.aspose.words.Resampler").new
     count = resampler.resample(doc, desiredPpi, jpegQuality)
@@ -30,6 +35,7 @@ def compress_images(doc, srcFileName)
     dstFileName = @data_dir + "TestCompressImages Out.docx"
     doc.save(dstFileName)
     puts messageFormat.format("Saving {0}. Size {1}.", dstFileName, get_file_size(dstFileName))
+
     # Verify that the first image was compressed by checking the new Ppi.
     dst_doc = Rjb::import("com.aspose.words.Document").new(dstFileName)
     nodeType = Rjb::import("com.aspose.words.NodeType")

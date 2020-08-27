@@ -20,12 +20,16 @@ from java.io import FileOutputStream
 class LoadAndSaveToStream:
     def __init__(self):
         dataDir = Settings.dataDir + 'quickstart/'
+
         # Open the stream. Read only access is enough for Aspose.Words to load a document.
         stream = FileInputStream(dataDir + 'Document.doc')
+
         # Load the entire document into memory.
         doc = Document(stream)
+
         # You can close the stream now, it is no longer needed because the document is in memory.
         stream.close()
+
         # ... do something with the document
         # Convert the document to a different format and save to stream.
         dstStream = ByteArrayOutputStream()

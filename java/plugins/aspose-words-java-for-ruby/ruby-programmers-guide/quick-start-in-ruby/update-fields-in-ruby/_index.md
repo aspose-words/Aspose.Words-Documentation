@@ -11,6 +11,7 @@ To update fields of Word Document using Aspose.Words Java for Ruby, simply invok
 **Ruby Code**
 
 {{< highlight ruby >}}
+
 # The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 \# Demonstrates how to insert fields and update them using Aspose.Words.

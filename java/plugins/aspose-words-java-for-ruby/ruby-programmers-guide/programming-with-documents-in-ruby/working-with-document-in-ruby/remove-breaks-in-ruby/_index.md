@@ -12,6 +12,7 @@ To remove breaks using Aspose.Words Java in Ruby, simply invoke the remove_page_
 
 {{< highlight ruby >}}
 def remove_page_breaks(doc)
+
     # Retrieve all paragraphs in the document.
     node_type = Rjb::import("com.aspose.words.NodeType")
     paragraphs = doc.getChildNodes(node_type.PARAGRAPH, true)
@@ -38,13 +39,17 @@ def remove_page_breaks(doc)
     end
 end
 def remove_section_breaks(doc)
+
     # Loop through all sections starting from the section that precedes the last one
+
     # and moving to the first section.
     i = doc.getSections().getCount()
     i = i - 2
     while (i >= 0) do
+
         # Copy the content of the current section to the beginning of the last section.
         doc.getLastSection().prependContent(doc.getSections().get(i))
+
         # Remove the copied section.
         doc.getSections().get(i).remove()
         i = i - 1

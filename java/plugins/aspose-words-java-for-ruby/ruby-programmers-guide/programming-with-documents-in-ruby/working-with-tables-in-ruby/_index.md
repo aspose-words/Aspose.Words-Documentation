@@ -11,15 +11,19 @@ url: /java/working-with-tables-in-ruby/
 {{< highlight ruby >}}
 def autofit_table_to_window()
     #data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
+
     # Open the document
     doc = Rjb::import('com.aspose.words.Document').new(@data_dir + "TestFile.doc")
     node_type = Rjb::import('com.aspose.words.NodeType')
     table = doc.getChild(node_type.TABLE, 0, true)
+
     # Autofit the first table to the page width.
     autofit_behavior = Rjb::import("com.aspose.words.AutoFitBehavior")
     table.autoFit(autofit_behavior.AUTO_FIT_TO_WINDOW)
+
     # Save the document to disk.
     doc.save(@data_dir + "TestFile.AutoFitToWindow Out.doc")
+
     # ExEnd
     preferred_width_type = Rjb::import("com.aspose.words.PreferredWidthType")
     if (doc.getFirstSection().getBody().getTables().get(0).getPreferredWidth().getType() == preferred_width_type.PERCENT) then
@@ -30,15 +34,19 @@ def autofit_table_to_window()
     end
 end
 def autofit_table_to_contents()
+
     # Open the document
     doc = Rjb::import('com.aspose.words.Document').new(@data_dir + "TestFile.doc")
     node_type = Rjb::import('com.aspose.words.NodeType')
     table = doc.getChild(node_type.TABLE, 0, true)
+
     # Autofit the table to the cell contents
     autofit_behavior = Rjb::import("com.aspose.words.AutoFitBehavior")
     table.autoFit(autofit_behavior.AUTO_FIT_TO_CONTENTS)
+
     # Save the document to disk.
     doc.save(@data_dir + "TestFile.AutoFitToContents Out.doc")
+
     # ExEnd
     preferred_width_type = Rjb::import("com.aspose.words.PreferredWidthType")
     if (doc.getFirstSection().getBody().getTables().get(0).getPreferredWidth().getType() == preferred_width_type.AUTO) then
@@ -52,15 +60,19 @@ def autofit_table_to_contents()
     end
 end
 def autofit_table_to_fixed_column_widths()
+
     # Open the document
     doc = Rjb::import('com.aspose.words.Document').new(@data_dir + "TestFile.doc")
     node_type = Rjb::import('com.aspose.words.NodeType')
     table = doc.getChild(node_type.TABLE, 0, true)
+
     # Disable autofitting on this table.
     autofit_behavior = Rjb::import("com.aspose.words.AutoFitBehavior")
     table.autoFit(autofit_behavior.AUTO_FIT_TO_CONTENTS)
+
     # Save the document to disk.
     doc.save(@data_dir + "TestFile.FixedWidth Out.doc")
+
     # ExEnd
     preferred_width_type = Rjb::import("com.aspose.words.PreferredWidthType")
     if (doc.getFirstSection().getBody().getTables().get(0).getPreferredWidth().getType() == preferred_width_type.AUTO) then

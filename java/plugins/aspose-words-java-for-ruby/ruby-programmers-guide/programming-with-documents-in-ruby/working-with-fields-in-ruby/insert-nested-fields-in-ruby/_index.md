@@ -9,6 +9,7 @@ url: /java/insert-nested-fields-in-ruby/
 **Ruby Code**
 
 {{< highlight ruby >}}
+
 # The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 \# Create new document.

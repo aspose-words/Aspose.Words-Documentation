@@ -11,6 +11,7 @@ To replace text using Aspose.Words Java in Ruby, simply invoke the replace_text(
 **Ruby Code**
 
 {{< highlight ruby >}}
+
 # The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 \# Open the document.

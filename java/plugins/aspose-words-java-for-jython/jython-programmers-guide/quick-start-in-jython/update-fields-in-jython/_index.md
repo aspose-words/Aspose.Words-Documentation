@@ -19,14 +19,18 @@ from com.aspose.words import StyleIdentifier
 class UpdateFields:
     def __init__(self):
         dataDir = Settings.dataDir + 'quickstart/'
+
         # Demonstrates how to insert fields and update them using Aspose.Words.
         # First create a blank document.
         doc = Document()
+
         # Use the document builder to insert some content and fields.
         builder = DocumentBuilder(doc)
+
         # Insert a table of contents at the beginning of the document.
         builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u")
         builder.writeln()
+
         # Insert some other fields.
         builder.write("Page: ")
         builder.insertField("PAGE")
@@ -35,8 +39,10 @@ class UpdateFields:
         builder.writeln()
         builder.write("Date: ")
         builder.insertField("DATE")
+
         # Start the actual document content on the second page.
         builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE)
+
         # Build a document with complex structure by applying different heading styles thus creating TOC entries.
         builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1)
         builder.writeln("Heading 1")
@@ -46,6 +52,7 @@ class UpdateFields:
         builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1)
         builder.writeln("Heading 2")
         builder.writeln("Heading 3")
+
         # Move to the next page.
         builder.insertBreak(BreakType.PAGE_BREAK)
         builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2)
@@ -58,6 +65,7 @@ class UpdateFields:
         builder.writeln("Heading 3.2")
         builder.writeln("Heading 3.3")
         print "Updating all fields in the document."
+
         # Call the method below to update the TOC.
         doc.updateFields()
         doc.save(dataDir + "Document Field Update Out.docx")
