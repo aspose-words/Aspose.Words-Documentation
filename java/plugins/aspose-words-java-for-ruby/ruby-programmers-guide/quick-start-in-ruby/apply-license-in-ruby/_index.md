@@ -11,11 +11,8 @@ To set license of Aspose.Words Java in Ruby, simply invoke the apply_license() m
 **Ruby Code**
 
 {{< highlight ruby >}}
-
- license = Rjb::import('com.aspose.words.License').new()
-
+license = Rjb::import('com.aspose.words.License').new()
 license.setLicense('Aspose.Words.lic')
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Apply License (Aspose.Words)** from any of the below mentioned social coding sites:

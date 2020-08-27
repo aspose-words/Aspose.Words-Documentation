@@ -11,19 +11,12 @@ Load TXT file and save as word document using Aspose.Words Java in Ruby, simply 
 **Ruby Code**
 
 {{< highlight ruby >}}
-
- # The path to the documents directory.
-
+# The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
-
 \# Open the document.
-
 doc = Rjb::import('com.aspose.words.Document').new(data_dir + "LoadTxt.txt")
-
 \# Save as any Aspose.Words supported format, such as DOCX.
-
 doc.save(data_dir + "LoadTxt Out.doc")
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Load Text (TXT) File (Aspose.Words)** from any of the below mentioned social coding sites:
