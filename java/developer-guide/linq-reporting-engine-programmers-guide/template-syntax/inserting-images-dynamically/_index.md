@@ -11,7 +11,7 @@ You can insert images to your reports dynamically using image tags. To declare a
 1. Set common image attributes such as frame, size, and others for the textbox, making the textbox look like a blank inserted image.
 1. Specify an image tag within the textbox using the following syntax.
 
-**<<image [image_expression]>>**
+**&lt;&lt;image [image_expression]&gt;&gt;**
 
 The expression declared within an image tag is used by the engine to build an image to be inserted. The expression must return a value of one of the following types:
 
@@ -32,22 +32,22 @@ By default, the engine stretches an image filling a textbox to the size of the t
 
 - To keep the size of the textbox and stretch the image within bounds of the textbox preserving the ratio of the image, use the keepRatio switch as follows.
 
-**<<image [image_expression] -keepRatio>>**
+**&lt;&lt;image [image_expression] -keepRatio&gt;&gt;**
 
 - To keep the width of the textbox and change its height according to the ratio of the image, use the fitHeight switch as follows.
 
-**<<image [image_expression] -fitHeight>>**
+**&lt;&lt;image [image_expression] -fitHeight&gt;&gt;**
 
 - To keep the height of the textbox and change its width according to the ratio of the image, use the fitWidth switch as follows.
 
-**<<image [image_expression] -fitWidth>>**
+**&lt;&lt;image [image_expression] -fitWidth&gt;&gt;**
 
 - To change the size of the textbox according to the size of the image, use the fitSize switch as follows.
 
-**<<image [image_expression] -fitSize>>**
+**&lt;&lt;image [image_expression] -fitSize&gt;&gt;**
 
 - To change the size of the textbox according to the size of the image without increasing the size of the textbox, use the fitSizeLim switch as follows.
 
-**<<image [image_expression] -fitSizeLim>>**
+**&lt;&lt;image [image_expression] -fitSizeLim&gt;&gt;**
 
 ` `REF note **Note –** If the size of the image is greater than the size of the textbox, then the fitSizeLim switch acts like fitHeight or fitWidth. Otherwise, the fitSizeLim switch acts like fitSize.
