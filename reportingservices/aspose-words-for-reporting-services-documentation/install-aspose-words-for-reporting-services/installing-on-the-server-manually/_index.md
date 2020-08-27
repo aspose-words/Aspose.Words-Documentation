@@ -28,13 +28,13 @@ The root directory for Microsoft SQL Server is usually C:\Program Files\Microsof
 #### **Step 2. Copy Aspose.Words.ReportingServices.dll to the Report Server directory.**
 Aspose.Words.ReportingServices.zip download contains Bin\SSRS2005, Bin\SSRS2008, Bin\SSRS2012, Bin\SSRS2014, Bin\SSRS2016, Bin\SSRS2017 and Bin\SSRS2019 directories with Aspose.Words.ReportingServices.dll for the corresponding Microsoft SQL Server versions.
 
-Select the appropriate Aspose.Words.ReportingServices.dll and copy it to C:\Program Files\Microsoft SQL Server\<Instance>\Reporting Services\ReportServer\bin folder.
+Select the appropriate Aspose.Words.ReportingServices.dll and copy it to C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder.
 
 Note: In some cases, when you copy the DLL to the ReportServer\bin directory, it might be copied together with explicit NTFS file permissions assigned to it. The NTFS permissions might be such that Microsoft SQL Server Reporting Services will be denied access when loading Aspose.Words.ReportingServices.dll and the new export formats will not be available.
 
 To make sure NTFS permissions are correct, right click on Aspose.Words.ReportingServices.dll, click Properties and select the Security tab. Remove any explicitly assigned NTFS permissions and leave only inherited permissions.
 #### **Step 3. Register Aspose.Words for Reporting Services as a rendering extension.**
-Open *C:\Program Files\Microsoft SQL Server\<Instance>\Reporting Services\ReportServer\rsreportserver.config* and add the following lines into the *<Render>* element: 
+Open *C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\rsreportserver.config* and add the following lines into the *&lt;Render&gt;* element: 
 
 {{< highlight csharp >}}
 <Render>
@@ -53,7 +53,7 @@ Open *C:\Program Files\Microsoft SQL Server\<Instance>\Reporting Services\Report
 </Render>
 {{< /highlight >}}
 #### **Step 4. Give Aspose.Words for Reporting Services permissions to execute.**
-Open *C:\Program Files\Microsoft SQL Server\<Instance>\Reporting Services\ReportServer\rssrvpolicy.config* and add the following as the last item in the second to outer *<CodeGroup>* element (which should be *<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">*):
+Open *C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\rssrvpolicy.config* and add the following as the last item in the second to outer *&lt;CodeGroup&gt;* element (which should be *&lt;CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "&gt;*):
 
 {{< highlight csharp >}}
 <CodeGroup>
@@ -77,7 +77,7 @@ PublicKeyBlob="00240000048000009400000006020000002400005253413100040000010001005
 </CodeGroup>
 {{< /highlight >}}
 #### **Step 5. Verify that Aspose.Words for Reporting Services was installed successfully.**
-Launch Report Manager by opening your browser (Microsoft Internet Explorer 6.0 or later). Type the Report Manager URL in the address bar (by default it is *http://<ComputerName>/Reports*).
+Launch Report Manager by opening your browser (Microsoft Internet Explorer 6.0 or later). Type the Report Manager URL in the address bar (by default it is *http://&lt;ComputerName&gt;/Reports*).
 
 Select one of the reports you have on your server and open the Select Format combo box. You should see the list of export formats provided by Aspose.Words for Reporting Services. Select DOC – Word Document via Aspose.Words. 
 
