@@ -23,35 +23,27 @@ Please follow these simple steps in order to open and extend the source code wh
 To install tomcat server, issue following command on the linux console. This will successfully install tomcat server. 
 
 {{< highlight actionscript3 >}}
-
- sudo apt-get install tomcat8
-
+sudo apt-get install tomcat8
 {{< /highlight >}}
 ## **2. Download and Configure PHP/JavaBridge**
 In order to download the PHP/JavaBridge binaries, issue following command on the linux console. 
 
 {{< highlight actionscript3 >}}
-
-  wget http://citylan.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip 
-
+ wget http://citylan.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip 
 {{< /highlight >}}
 
 
 Unzip the PHP/JavaBridge binaries by issuing the following command on linux console. 
 
 {{< highlight actionscript3 >}}
-
-  unzip -d php-java-bridge_6.2.1_documentation.zip 
-
+ unzip -d php-java-bridge_6.2.1_documentation.zip 
 {{< /highlight >}}
 
 
 This will extract **JavaBridge.war** file. Copy it to tomcat88 **webapps** folder by issuing the following command on Linux console. 
 
 {{< highlight actionscript3 >}}
-
-  sudo cp JavaBridge.war /var/lib/tomcat8/webapps/JavaBridge.war 
-
+ sudo cp JavaBridge.war /var/lib/tomcat8/webapps/JavaBridge.war 
 {{< /highlight >}}
 
 
@@ -60,9 +52,7 @@ By copying, tomcat8 will automatically create a new folder "**JavaBridge**" in 
 If any error message appears then install  **FastCGI** by issuing the following command on Linux console.
 
 {{< highlight actionscript3 >}}
-
-  sudo apt-get install php55-cgi 
-
+ sudo apt-get install php55-cgi 
 {{< /highlight >}}
 
 After installing php5.5 cgi, restart tomcat8 server and check <http://localhost:8080/JavaBridge> again in the browser.
@@ -72,11 +62,8 @@ If **JAVA_HOME** error is displayed, then open /etc/default/tomcat8 file and u
 Clone, PHP examples by issuing the following commands inside webapps/JavaBridge folder.  
 
 {{< highlight actionscript3 >}}
-
- $ git init&nbsp;
-
+$ git init&nbsp;
 $ git clone [https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_PHP] 
-
 {{< /highlight >}}
 
 ## **How to configure the source code on Windows Platform**
