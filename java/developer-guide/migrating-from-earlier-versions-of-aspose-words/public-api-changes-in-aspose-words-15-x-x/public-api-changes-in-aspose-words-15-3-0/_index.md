@@ -30,10 +30,8 @@ public static void RenderNode(com.aspose.words.Node node, String filePath, com.a
 {
     // This code is taken from public API samples of AW.
     // Previously to find opaque bounds of the shape the function
-
     // that checks every pixel of the rendered image was used.
     // For now opaque bounds is got using ShapeRenderer.GetOpaqueRectangleInPixels method.
-
     // If no image options are supplied, create default options.
     if (imageOptions == null)
         imageOptions = new com.aspose.words.ImageSaveOptions(com.aspose.words.FileFormatUtil.extensionToSaveFormat(FilenameUtils.getExtension(filePath)));
@@ -63,7 +61,6 @@ public static void RenderNode(com.aspose.words.Node node, String filePath, com.a
 
     // Move up through the DOM until we find node which is suitable to insert into a Shape (a node with a parent can contain paragraph, tables the same as a shape).
     // Each parent node is cloned on the way up so even a descendant node passed to this method can be rendered.
-
     // Since we are working with the actual nodes of the document we need to clone the target node into the temporary shape.
     com.aspose.words.Node currentNode = node;
     while (!(currentNode.getParentNode() instanceof com.aspose.words.InlineStory || currentNode.getParentNode() instanceof com.aspose.words.Story || currentNode.getParentNode() instanceof com.aspose.words.ShapeBase))

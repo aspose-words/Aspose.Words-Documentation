@@ -52,7 +52,6 @@ public static void main(String[] args) throws Exception {
 
 	// OK, the guts of this sample:
 	// The 2 things you need:
-
 	// 1. the Header part
 	Relationship relationship = createHeaderPart(wordMLPackage);
 

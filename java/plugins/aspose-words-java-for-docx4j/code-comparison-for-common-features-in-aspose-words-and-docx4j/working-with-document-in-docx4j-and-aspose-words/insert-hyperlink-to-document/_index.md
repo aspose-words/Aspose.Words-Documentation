@@ -48,7 +48,6 @@ public static Hyperlink createHyperlink(MainDocumentPart mdp, String url) {
 	try {
 		// We need to add a relationship to word/_rels/document.xml.rels
 		// but since its external, we don't use the
-
 		// usual wordMLPackage.getMainDocumentPart().addTargetPart
 		// mechanism
 		org.docx4j.relationships.ObjectFactory factory =

@@ -155,7 +155,6 @@ public void insertDocumentAtMailMerge() throws Exception
 
     // The main document has a merge field in it called "Document_1".
     // The corresponding data for this field contains fully qualified path to the document
-
     // that should be inserted to this field.
     mainDoc.getMailMerge().execute(
         new String[] { "Document_1" },

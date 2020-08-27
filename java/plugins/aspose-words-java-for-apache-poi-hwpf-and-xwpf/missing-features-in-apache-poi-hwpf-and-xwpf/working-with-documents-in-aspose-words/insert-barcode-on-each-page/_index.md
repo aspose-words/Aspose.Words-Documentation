@@ -48,7 +48,6 @@ private static void insertBarcodeIntoFooter(DocumentBuilder builder, Section sec
 
 	// Insert the barcode, then move to the next line and insert the ID
 	// along with the page number.
-
 	// Use pageId if you need to insert a different barcode on each page. 0
 	// = First page, 1 = Second page etc.
 	builder.insertImage(ImageIO.read(new File(dataDir + "barcode.png")));

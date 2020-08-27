@@ -73,7 +73,6 @@ namespace WebRole
         {
             // Uncomment this code and embed your license file as a resource in this project and this code
             // will find and activate the license. Aspose.Wods licensing needs to execute only once
-
             // before any Document instance is created and a static ctor is a good place.
             //
 

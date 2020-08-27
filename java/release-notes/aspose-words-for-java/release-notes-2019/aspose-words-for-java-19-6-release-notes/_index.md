@@ -292,7 +292,6 @@ public class TableStyle : Style
 
     // Gets or sets whether this is a style for a right-to-left table.
     // When true, the cells in rows are laid out right to left.
-
     // The default value is false.
     public bool Bidi
     {

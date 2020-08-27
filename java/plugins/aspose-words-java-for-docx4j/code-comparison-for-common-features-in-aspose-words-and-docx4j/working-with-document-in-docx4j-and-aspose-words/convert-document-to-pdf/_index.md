@@ -46,18 +46,15 @@ public static void main(String[] args)
 
 	// Font regex (optional)
 	// Set regex if you want to restrict to some defined subset of fonts
-
 	// Here we have to do this before calling createContent,
 	// since that discovers fonts
 	String regex = null;
 
 	// Windows:
 	// String
-
 	// regex=".*(calibri|camb|cour|arial|symb|times|Times|zapf).*";
 	//regex=".*(calibri|camb|cour|arial|times|comic|georgia|impact|LSANS|pala|tahoma|trebuc|verdana|symbol|webdings|wingding).*";
 	// Mac
-
 	// String
 	// regex=".*(Courier New|Arial|Times New Roman|Comic Sans|Georgia|Impact|Lucida Console|Lucida Sans Unicode|Palatino Linotype|Tahoma|Trebuchet|Verdana|Symbol|Webdings|Wingdings|MS Sans Serif|MS Serif).*";
 	PhysicalFonts.setRegex(regex);
@@ -85,7 +82,6 @@ public static void main(String[] args)
 
 	// .. example of mapping font Times New Roman which doesn't have certain Arabic glyphs
 	// eg Glyph "ي" (0x64a, afii57450) not available in font "TimesNewRomanPS-ItalicMT".
-
 	// eg Glyph "ج" (0x62c, afii57420) not available in font "TimesNewRomanPS-ItalicMT".
 	// to a font which does
 	PhysicalFont font
@@ -98,7 +94,6 @@ public static void main(String[] args)
 //		}
 //		fontMapper.put("Libian SC Regular", PhysicalFonts.get("SimSun"));
 	// FO exporter setup (required)
-
 	// .. the FOSettings object
 	FOSettings foSettings = Docx4J.createFOSettings();
 	if (saveFO) {
@@ -108,10 +103,8 @@ public static void main(String[] args)
 
 	// Document format:
 	// The default implementation of the FORenderer that uses Apache Fop will output
-
 	// a PDF document if nothing is passed via
 	// foSettings.setApacheFopMime(apacheFopMime)
-
 	// apacheFopMime can be any of the output formats defined in org.apache.fop.apps.MimeConstants eg org.apache.fop.apps.MimeConstants.MIME_FOP_IF or
 	// FOSettings.INTERNAL_FO_MIME if you want the fo document as the result.
 	//foSettings.setApacheFopMime(FOSettings.INTERNAL_FO_MIME);
@@ -122,16 +115,13 @@ public static void main(String[] args)
 
 	// Specify whether PDF export uses XSLT or not to create the FO
 	// (XSLT takes longer, but is more complete).
-
 	// Don't care what type of exporter you use
 	Docx4J.toFO(foSettings, os, Docx4J.FLAG_EXPORT_PREFER_XSL);
 
 	// Prefer the exporter, that uses a xsl transformation
 	// Docx4J.toFO(foSettings, os, Docx4J.FLAG_EXPORT_PREFER_XSL);
-
 	// Prefer the exporter, that doesn't use a xsl transformation (= uses a visitor)
 	// .. faster, but not yet at feature parity
-
 	// Docx4J.toFO(foSettings, os, Docx4J.FLAG_EXPORT_PREFER_NONXSL);
 	System.out.println("Saved: " + outputfilepath);
 //

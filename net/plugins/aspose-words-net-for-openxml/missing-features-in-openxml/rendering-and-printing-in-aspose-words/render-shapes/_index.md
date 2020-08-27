@@ -89,7 +89,6 @@ public static void RenderShapeToGraphics(string dataDir, Shape shape)
 	//ExId:RenderShapeToGraphics
 	//ExSummary:Shows how to render a shape independent of the document to a .NET Graphics object and apply rotation to the rendered image.
 	// The shape renderer is retrieved using this method. This is made into a separate object from the shape as it internally
-
 	// caches the rendered shape.
 	ShapeRenderer r = shape.GetShapeRenderer();
 
@@ -231,7 +230,6 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
 
 	// Move up through the DOM until we find node which is suitable to insert into a Shape (a node with a parent can contain paragraph, tables the same as a shape).
 	// Each parent node is cloned on the way up so even a descendant node passed to this method can be rendered.
-
 	// Since we are working with the actual nodes of the document we need to clone the target node into the temporary shape.
 	Node currentNode = node;
 	while (!(currentNode.ParentNode is InlineStory || currentNode.ParentNode is Story || currentNode.ParentNode is ShapeBase))
