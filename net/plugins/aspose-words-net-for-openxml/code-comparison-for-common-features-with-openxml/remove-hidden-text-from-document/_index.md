@@ -24,7 +24,6 @@ Below is the code example for removing hidden text from MS Word Document.
       nsManager.AddNamespace("w", wordmlNamespace);
 
       // Get the document part from the package.
-
       // Load the XML in the document part into an XmlDocument instance.
       XmlDocument xdoc = new XmlDocument(nt);
       xdoc.Load(wdDoc.MainDocumentPart.GetStream());

@@ -30,7 +30,6 @@ using (WordprocessingDocument doc =
     string parastyleid = "OverdueAmountPara";
 
     // Create and add a paragraph style to the specified styles part
- 
     // with the specified style ID, style name and aliases.
     CreateAndAddParagraphStyle(part,
         parastyleid,

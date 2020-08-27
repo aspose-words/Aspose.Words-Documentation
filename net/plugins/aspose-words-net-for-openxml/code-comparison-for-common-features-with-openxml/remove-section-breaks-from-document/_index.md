@@ -45,7 +45,6 @@ Below is the code for removing Section Breaks from MS Word Document using Aspose
   private static void RemoveSectionBreaks(Document doc)
   {
     // Loop through all sections starting from the section that precedes the last one
- 
     // and moving to the first section.
     for (int i = doc.Sections.Count - 2; i >= 0; i--)
     {

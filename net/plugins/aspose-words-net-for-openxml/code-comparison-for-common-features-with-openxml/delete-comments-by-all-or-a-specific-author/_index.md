@@ -22,13 +22,11 @@ public static void DeleteComments(string fileName,
         WordprocessingDocument.Open(fileName, true))
     {
         // Set commentPart to the document WordprocessingCommentsPart,
- 
         // if it exists.
         WordprocessingCommentsPart commentPart =
             document.MainDocumentPart.WordprocessingCommentsPart;
 
         // If no WordprocessingCommentsPart exists, there can be no
- 
         // comments. Stop execution and return from the method.
         if (commentPart == null)
         {
@@ -36,7 +34,6 @@ public static void DeleteComments(string fileName,
         }
 
         // Create a list of comments by the specified author, or
-
         // if the author name is empty, all authors.
         List<Comment> commentsToDelete =
             commentPart.Comments.Elements<Comment>().ToList();
@@ -49,7 +46,6 @@ public static void DeleteComments(string fileName,
             commentsToDelete.Select(r => r.Id.Value);
 
         // Delete each comment in commentToDelete from the
- 
         // Comments collection.
         foreach (Comment c in commentsToDelete)
         {
@@ -61,7 +57,6 @@ public static void DeleteComments(string fileName,
         Document doc = document.MainDocumentPart.Document;
 
         // Delete CommentRangeStart for each
-
         // deleted comment in the main document.
         List<CommentRangeStart> commentRangeStartToDelete =
             doc.Descendants<CommentRangeStart>().

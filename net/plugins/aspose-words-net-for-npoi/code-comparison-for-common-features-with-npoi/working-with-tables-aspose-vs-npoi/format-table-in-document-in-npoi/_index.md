@@ -42,7 +42,6 @@ Note that before you apply table properties there must be at least one row prese
   builder.InsertCell();
 
   // Create larger borders for the first cell of this row. This will be different
-
   // compared to the borders set for the table.
   builder.CellFormat.Borders.Left.LineWidth=4.0;
   builder.CellFormat.Borders.Right.LineWidth=4.0;

@@ -195,7 +195,6 @@ function getDocumentData_Success(result) {
     var totalPages = result[1];
     var imageFolder = result[2];
     //alert(totalPages);
-
     // Show the first page
     $("#CurrentDocumentPage").attr("src", imageFolder + "/0.png");
 

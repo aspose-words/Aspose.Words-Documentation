@@ -71,7 +71,6 @@ else
 	for (org.docx4j.docProps.custom.Properties.Property prop: customProps.getProperty() )
 	{
 		// At the moment, you need to know what sort of value it has.
-
 		// Could create a generic Object getValue() method.
 		if (prop.getLpwstr()!=null)
 		{

@@ -144,7 +144,6 @@ To include the reference to **Aspose.Words**.
     DataSet pizzaDs = new DataSet();
 
     // Note: The Datatable.TableNames and the DataSet.Relations are defined implicitly by .NET through ReadXml.
-
     // To see examples of how to set up relations manually check the corresponding documentation of this sample
     pizzaDs.ReadXml(dataDir + "CustomerData.xml");
 

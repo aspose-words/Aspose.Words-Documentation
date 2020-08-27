@@ -25,7 +25,6 @@ While in Aspose.Words there is no single “Insert Watermark” command like in 
 private static void insertWatermarkText(Document doc, String watermarkText) throws Exception
 {
     // Create a watermark shape. This will be a WordArt shape.
-
     // You are free to try other shape types as watermarks.
     Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 
@@ -43,7 +42,6 @@ private static void insertWatermarkText(Document doc, String watermarkText) thro
  // Try LightGray to get more Word-style watermark
     watermark.setStrokeColor(Color.GRAY);
  // Try LightGray to get more Word-style watermark
-
     // Place the watermark in the page center.
     watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
     watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
@@ -59,7 +57,6 @@ private static void insertWatermarkText(Document doc, String watermarkText) thro
     for (Section sect : doc.getSections())
     {
         // There could be up to three different headers in each section, since we want
-
         // the watermark to appear on all pages, insert into all headers.
         insertWatermarkIntoHeader(watermarkPara, sect, HeaderFooterType.HEADER_PRIMARY);
 

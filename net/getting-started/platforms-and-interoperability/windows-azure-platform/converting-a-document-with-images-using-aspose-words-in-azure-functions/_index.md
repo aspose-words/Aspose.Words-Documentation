@@ -61,7 +61,6 @@ namespace AsposeWordsAzureTestApp
 
             // Insert some image into the document.
             builder.InsertImage(@"https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/aspose-logo.png");
-
             // Now save the created document to PDF and return as a FileContentResult.
             using (MemoryStream ms = new MemoryStream())
             {

@@ -111,7 +111,6 @@ private static void RenderReportToFile(
     catch (Exception ex)
     {
         // Exception handing code, such as
-
         // Console.WriteLine(ex);
     }
 }
@@ -206,7 +205,6 @@ private static void RenderReportToFile(
     }
 
     // We have to specify data sources for local report rendering. GetDataTables() returns a list of DataTable objects
-
     // populated with real report data.
     List<DataTable> tables = GetDataTables();
 

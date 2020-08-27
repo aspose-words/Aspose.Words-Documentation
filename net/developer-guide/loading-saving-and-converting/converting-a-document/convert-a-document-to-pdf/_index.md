@@ -61,7 +61,6 @@ ConvertImageToPdf(dataDir + "Test.tiff", dataDir + "TestTif_out.pdf");
 public void ConvertImageToPdf(string inputFileName, string outputFileName)
 {
 	// Create Document and DocumentBuilder.
- 
 	// The builder makes it simple to add content to the document.
 	Document doc = new Document();
 	DocumentBuilder builder = new DocumentBuilder(doc);
@@ -70,7 +69,6 @@ public void ConvertImageToPdf(string inputFileName, string outputFileName)
 	using (Image image = Image.FromFile(inputFileName))
 	{
     	// Find which dimension the frames in this image represent. For example
- 
 	    // The frames of a BMP or TIFF are "page dimension" whereas frames of a GIF image are "time dimension". 
 	    FrameDimension dimension = new FrameDimension(image.FrameDimensionsList[0]);
 
@@ -88,7 +86,6 @@ public void ConvertImageToPdf(string inputFileName, string outputFileName)
         	image.SelectActiveFrame(dimension, frameIdx);
 
 	        // We want the size of the page to be the same as the size of the image.
-
     	    // Convert pixels to points to size the page to the actual image size.
         	PageSetup ps = builder.PageSetup;
         	ps.PageWidth = ConvertUtil.PixelToPoint(image.Width, image.HorizontalResolution);

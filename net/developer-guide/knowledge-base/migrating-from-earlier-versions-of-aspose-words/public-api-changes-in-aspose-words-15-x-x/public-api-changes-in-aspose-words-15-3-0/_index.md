@@ -29,11 +29,9 @@ New property OpaqueBoundsInPoints and method GetOpaqueRectangleInPixels have bee
 public static void RenderNode(Node node, string filePath, ImageSaveOptions imageOptions)
 {
     // This code is taken from public API samples of AW.
-
     // Previously to find opaque bounds of the shape the function
 
     // that checks every pixel of the rendered image was used.
-
     // For now opaque bounds is got using ShapeRenderer.GetOpaqueRectangleInPixels method.
 
     // If no image options are supplied, create default options.
@@ -41,19 +39,16 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
         imageOptions = new ImageSaveOptions(FileFormatUtil.ExtensionToSaveFormat(Path.GetExtension(filePath)));
 
     // Store the paper color to be used on the final image and change to transparent.
-
     // This will cause any content around the rendered node to be removed later on.
     Color savePaperColor = imageOptions.PaperColor;
     imageOptions.PaperColor = Color.Transparent;
 
     // There a bug which affects the cache of a cloned node. To avoid this we instead clone the entire document including all nodes,
-
     // find the matching node in the cloned document and render that instead.
     Document doc = (Document)node.Document.Clone(true);
     node = doc.GetChild(NodeType.Any, node.Document.GetChildNodes(NodeType.Any, true).IndexOf(node), true);
 
     // Create a temporary shape to store the target node in. This shape will be rendered to retrieve
-
     // the rendered content of the node.
     Shape shape = new Shape(doc, ShapeType.TextBox);
     Section parentSection = (Section)node.GetAncestor(NodeType.Section);
@@ -63,12 +58,10 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
     shape.Height = parentSection.PageSetup.PageHeight;
     shape.FillColor = Color.Transparent;
  // We must make the shape and paper color transparent.
-
     // Don't draw a surronding line on the shape.
     shape.Stroked = false;
 
     // Move up through the DOM until we find node which is suitable to insert into a Shape (a node with a parent can contain paragraph, tables the same as a shape).
-
     // Each parent node is cloned on the way up so even a descendant node passed to this method can be rendered.
 
     // Since we are working with the actual nodes of the document we need to clone the target node into the temporary shape.
@@ -87,7 +80,6 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
     parentSection.Body.FirstParagraph.AppendChild(shape);
 
     // Render the shape to stream so we can take advantage of the effects of the ImageSaveOptions class.
-
     // Retrieve the rendered image and remove the shape from the document.
     MemoryStream stream = new MemoryStream();
     ShapeRenderer renderer = shape.GetShapeRenderer();

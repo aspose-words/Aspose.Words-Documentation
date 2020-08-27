@@ -55,16 +55,13 @@ if (docPart.HeaderParts.Count() > 0 ||
 	docPart.DeleteParts(docPart.FooterParts);
 
 	// Get a reference to the root element of the main
-
 	// document part.
 	Document document = docPart.Document;
 
 	// Remove all references to the headers and footers.
-
 	// First, create a list of all descendants of type
 
 	// HeaderReference. Then, navigate the list and call
-
 	// Remove on each item to delete the reference.
 	var headers =
 	  document.Descendants<HeaderReference>().ToList();
@@ -74,7 +71,6 @@ if (docPart.HeaderParts.Count() > 0 ||
 	}
 
 	// First, create a list of all descendants of type
-
 	// FooterReference. Then, navigate the list and call
 
 	// Remove on each item to delete the reference.

@@ -52,7 +52,6 @@ public static void main(String[] args) throws Docx4JException {
 	}
 	try {
 		// Use reflection, so docx4j can be built
-
 		// by users who don't have the MergeDocx utility
 		Class<?> documentBuilder = Class.forName("com.plutext.merge.DocumentBuilder");
 		//Method method = documentBuilder.getMethod("merge", wmlPkgList.getClass());

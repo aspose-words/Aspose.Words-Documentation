@@ -49,7 +49,6 @@ public static void RenderShapeToStream(string dataDir, Shape shape)
 	//ExFor:ShapeRenderer.Save(Stream, ImageSaveOptions)
 	//ExId:RenderShapeToStream
 	//ExSummary:Shows how to render a shape independent of the document to a JPEG image and save it to a stream.
-
 	// We can also retrieve the renderer for a shape by using the ShapeRenderer constructor.
 	ShapeRenderer r = new ShapeRenderer(shape);
 
@@ -76,7 +75,6 @@ public static void RenderDrawingMLToDisk(string dataDir, DrawingML drawingML)
 	//ExFor:DrawingML
 	//ExId:RenderDrawingMLToDisk
 	//ExSummary:Shows how to render a DrawingML image independent of the document to a JPEG image on the disk.
-
 	// Save the DrawingML image to disk in JPEG format and using default options.
 	drawingML.GetShapeRenderer().Save(dataDir + "TestFile.RenderDrawingML Out.jpg", null);
 	//ExEnd
@@ -90,7 +88,6 @@ public static void RenderShapeToGraphics(string dataDir, Shape shape)
 	//ExFor:ShapeRenderer.RenderToSize
 	//ExId:RenderShapeToGraphics
 	//ExSummary:Shows how to render a shape independent of the document to a .NET Graphics object and apply rotation to the rendered image.
-
 	// The shape renderer is retrieved using this method. This is made into a separate object from the shape as it internally
 
 	// caches the rendered shape.
@@ -100,13 +97,11 @@ public static void RenderShapeToGraphics(string dataDir, Shape shape)
 	Size shapeSizeInPixels = r.GetSizeInPixels(1.0f, 96.0f);
 
 	// Rotating the shape may result in clipping as the image canvas is too small. Find the longest side
-
 	// and make sure that the graphics canvas is large enough to compensate for this.
 	int maxSide = Math.Max(shapeSizeInPixels.Width, shapeSizeInPixels.Height);
 	using (Bitmap image = new Bitmap((int)(maxSide * 1.25), (int)(maxSide * 1.25)))
 	{
 		// Rendering to a graphics object means we can specify settings and transformations to be applied to
-
 		// the shape that is rendered. In our case we will rotate the rendered shape.
 		using (Graphics gr = Graphics.FromImage(image))
 		{
@@ -155,7 +150,6 @@ public static void RenderParagraphToImage(string dataDir, Document doc)
 	//ExFor:Shape.LastParagraph
 	//ExId:RenderParagraphToImage
 	//ExSummary:Shows how to render a paragraph with a custom background color independent of the document.
-
 	// Retrieve the first paragraph in the main shape.
 	Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 	Paragraph paragraph = (Paragraph)shape.LastParagraph;
@@ -182,7 +176,6 @@ public static void FindShapeSizes(Shape shape)
 	//ExFor:ShapeRenderer.GetSizeInPixels
 	//ExId:ShapeRendererGetSizeInPixels
 	//ExSummary:Shows how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered.
-
 	// We will render the shape at normal size and 96dpi. Calculate the size in pixels that the shape will be rendered at.
 	Size shapeRenderedSize = shape.GetShapeRenderer().GetSizeInPixels(1.0f, 96.0f);
 	using (Bitmap image = new Bitmap(shapeRenderedSize.Width, shapeRenderedSize.Height))
@@ -214,19 +207,16 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
 		imageOptions = new ImageSaveOptions(FileFormatUtil.ExtensionToSaveFormat(Path.GetExtension(filePath)));
 
 	// Store the paper color to be used on the final image and change to transparent.
-
 	// This will cause any content around the rendered node to be removed later on.
 	Color savePaperColor = imageOptions.PaperColor;
 	imageOptions.PaperColor = Color.Transparent;
 
 	// There a bug which affects the cache of a cloned node. To avoid this we instead clone the entire document including all nodes,
-
 	// find the matching node in the cloned document and render that instead.
 	Document doc = (Document)node.Document.Clone(true);
 	node = doc.GetChild(NodeType.Any, node.Document.GetChildNodes(NodeType.Any, true).IndexOf(node), true);
 
 	// Create a temporary shape to store the target node in. This shape will be rendered to retrieve
-
 	// the rendered content of the node.
 	Shape shape = new Shape(doc, ShapeType.TextBox);
 	Section parentSection = (Section)node.GetAncestor(NodeType.Section);
@@ -236,12 +226,10 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
 	shape.Height = parentSection.PageSetup.PageHeight;
 	shape.FillColor = Color.Transparent;
  // We must make the shape and paper color transparent.
-
 	// Don't draw a surronding line on the shape.
 	shape.Stroked = false;
 
 	// Move up through the DOM until we find node which is suitable to insert into a Shape (a node with a parent can contain paragraph, tables the same as a shape).
-
 	// Each parent node is cloned on the way up so even a descendant node passed to this method can be rendered.
 
 	// Since we are working with the actual nodes of the document we need to clone the target node into the temporary shape.
@@ -260,7 +248,6 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
 	parentSection.Body.FirstParagraph.AppendChild(shape);
 
 	// Render the shape to stream so we can take advantage of the effects of the ImageSaveOptions class.
-
 	// Retrieve the rendered image and remove the shape from the document.
 	MemoryStream stream = new MemoryStream();
 	shape.GetShapeRenderer().Save(stream, imageOptions);
@@ -270,7 +257,6 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
 	using (Bitmap renderedImage = new Bitmap(stream))
 	{
 		// Extract the actual content of the image by cropping transparent space around
-
 		// the rendered shape.
 		Rectangle cropRectangle = FindBoundingBoxAroundNode(renderedImage);
 		Bitmap croppedImage = new Bitmap(cropRectangle.Width, cropRectangle.Height);

@@ -17,7 +17,6 @@ public static void AddCommentOnFirstParagraph(string fileName,
     string author, string initials, string comment)
 {
     // Use the file name and path passed in as an
- 
     // argument to open an existing Wordprocessing document. 
     using (WordprocessingDocument document =
         WordprocessingDocument.Open(fileName, true))
@@ -29,7 +28,6 @@ public static void AddCommentOnFirstParagraph(string fileName,
         string id = "0";
 
         // Verify that the document contains a
- 
         // WordProcessingCommentsPart part; if not, add a new one.
         if (document.MainDocumentPart.GetPartsCountOfType<WordprocessingCommentsPart>() > 0)
         {
@@ -65,7 +63,6 @@ public static void AddCommentOnFirstParagraph(string fileName,
         comments.Save();
 
         // Specify the text range for the Comment.
- 
         // Insert the new CommentRangeStart before the first run of paragraph.
         firstParagraph.InsertBefore(new CommentRangeStart() { Id = id }, firstParagraph.GetFirstChild<Run>());
 

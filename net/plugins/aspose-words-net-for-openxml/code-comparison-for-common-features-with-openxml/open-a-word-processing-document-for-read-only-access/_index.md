@@ -33,7 +33,6 @@ public static void OpenWordprocessingDocumentReadonly(string filepath)
         run.AppendChild(new Text("Append text in body, but text is not saved - OpenWordprocessingDocumentReadonly"));
 
         // Call Save to generate an exception and show that access is read-only.
-
         // wordDocument.MainDocumentPart.Document.Save();
     }
 }

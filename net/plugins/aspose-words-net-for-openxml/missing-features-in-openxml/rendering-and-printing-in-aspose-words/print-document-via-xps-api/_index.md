@@ -20,7 +20,6 @@ try
     //ExStart
     //ExId:XpsPrint_Main
     //ExSummary:Invoke the utility class to print via XPS.
-
     // Open a sample document in Aspose.Words.
     Aspose.Words.Document document = new Aspose.Words.Document(dataDir + "Print via XPS API.doc");
 

@@ -21,7 +21,6 @@ public static void main(String[] args) throws Exception
 	String watermarkText = "CONFIDENTIAL";
 
 	// Create a watermark shape. This will be a WordArt shape.
-
 	// You are free to try other shape types as watermarks.
 	Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 
@@ -39,7 +38,6 @@ public static void main(String[] args) throws Exception
  // Try LightGray to get more Word-style watermark
 	watermark.setStrokeColor(Color.GRAY);
  // Try LightGray to get more Word-style watermark
-
 	// Place the watermark in the page center.
 	watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
 	watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
@@ -55,7 +53,6 @@ public static void main(String[] args) throws Exception
 	for (Section sect : doc.getSections())
 	{
 		// There could be up to three different headers in each section, since we want
-
 		// the watermark to appear on all pages, insert into all headers.
 		insertWatermarkIntoHeader(watermarkPara, sect, HeaderFooterType.HEADER_PRIMARY);
 		insertWatermarkIntoHeader(watermarkPara, sect, HeaderFooterType.HEADER_FIRST);
@@ -112,7 +109,6 @@ public void addWaterMark() throws Exception
 }
 private SectPr createSectPr() throws Exception {
 	String openXML = "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">"
-
 			// Word adds the background image in each of 3 header parts
 			+ "<w:headerReference r:id=\"" + createHeaderPart("even").getId() + "\" w:type=\"even\"/>"
 			+ "<w:headerReference r:id=\"" + createHeaderPart("default").getId() + "\" w:type=\"default\"/>"
@@ -185,7 +181,6 @@ private byte[] getImage() throws IOException {
 	long length = imageFile.length();
 
 	// You cannot create an array using a long type.
-
 	// It needs to be an int type.
 	if (length > Integer.MAX_VALUE) {
 		System.out.println("File too large!!");

@@ -28,7 +28,6 @@ static void Main(string[] args)
 	string watermarkText = "Aspose.Words for .NET";
 
 	// Create a watermark shape. This will be a WordArt shape.
-
 	// You are free to try other shape types as watermarks.
 	Shape watermark = new Shape(doc, ShapeType.TextPlainText);
 
@@ -46,7 +45,6 @@ static void Main(string[] args)
  // Try LightGray to get more Word-style watermark
 	watermark.StrokeColor = System.Drawing.Color.Gray;
  // Try LightGray to get more Word-style watermark
-
 	// Place the watermark in the page center.
 	watermark.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 	watermark.RelativeVerticalPosition = RelativeVerticalPosition.Page;
@@ -62,7 +60,6 @@ static void Main(string[] args)
 	foreach (Section sect in doc.Sections)
 	{
 		// There could be up to three different headers in each section, since we want
-
 		// the watermark to appear on all pages, insert into all headers.
 		insertWatermarkIntoHeader(watermarkPara, sect, HeaderFooterType.HeaderPrimary);
 		insertWatermarkIntoHeader(watermarkPara, sect, HeaderFooterType.HeaderFirst);

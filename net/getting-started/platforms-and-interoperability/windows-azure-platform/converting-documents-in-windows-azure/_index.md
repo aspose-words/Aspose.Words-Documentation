@@ -66,21 +66,18 @@ namespace WebRole
             doc.Save(Response, dstFileName, ContentDisposition.Inline, SaveOptions.CreateSaveOptions(dstFormat));
 
             // Required. Otherwise DOCX cannot be opened on the client (probably not all data sent
-
             // or some extra data sent in the response).
             Response.End();
         }
         static _Default()
         {
             // Uncomment this code and embed your license file as a resource in this project and this code
- 
             // will find and activate the license. Aspose.Wods licensing needs to execute only once
 
             // before any Document instance is created and a static ctor is a good place.
             //
 
             // Aspose.Words.License l = new Aspose.Words.License();
-
             // l.SetLicense("Aspose.Words.lic");
         }
     }

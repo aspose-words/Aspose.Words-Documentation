@@ -29,11 +29,9 @@ New property OpaqueBoundsInPoints and method GetOpaqueRectangleInPixels have bee
 public static void RenderNode(com.aspose.words.Node node, String filePath, com.aspose.words.ImageSaveOptions imageOptions) throws Exception
 {
     // This code is taken from public API samples of AW.
-
     // Previously to find opaque bounds of the shape the function
 
     // that checks every pixel of the rendered image was used.
-
     // For now opaque bounds is got using ShapeRenderer.GetOpaqueRectangleInPixels method.
 
     // If no image options are supplied, create default options.
@@ -41,19 +39,16 @@ public static void RenderNode(com.aspose.words.Node node, String filePath, com.a
         imageOptions = new com.aspose.words.ImageSaveOptions(com.aspose.words.FileFormatUtil.extensionToSaveFormat(FilenameUtils.getExtension(filePath)));
 
     // Store the paper color to be used on the final image and change to transparent.
-
     // This will cause any content around the rendered node to be removed later on.
     Color savePaperColor = imageOptions.getPaperColor();
     imageOptions.setPaperColor(Color.white);
 
     // There a bug which affects the cache of a cloned node. To avoid this we instead clone the entire document including all nodes,
-
     // find the matching node in the cloned document and render that instead.
     com.aspose.words.Document doc = (com.aspose.words.Document)node.getDocument().deepClone(true);
     node = doc.getChild(com.aspose.words.NodeType.ANY, node.getDocument().getChildNodes(com.aspose.words.NodeType.ANY, true).indexOf(node), true);
 
     // Create a temporary shape to store the target node in. This shape will be rendered to retrieve
-
     // the rendered content of the node.
     com.aspose.words.Shape shape = new com.aspose.words.Shape(doc, com.aspose.words.ShapeType.TEXT_BOX);
     com.aspose.words.Section parentSection = (com.aspose.words.Section)node.getAncestor(com.aspose.words.NodeType.SECTION);
@@ -63,12 +58,10 @@ public static void RenderNode(com.aspose.words.Node node, String filePath, com.a
     shape.setHeight(parentSection.getPageSetup().getPageHeight());
     shape.setFillColor(Color.white);
  // We must make the shape and paper color transparent.
-
     // Don't draw a surronding line on the shape.
     shape.setStroked(false);
 
     // Move up through the DOM until we find node which is suitable to insert into a Shape (a node with a parent can contain paragraph, tables the same as a shape).
-
     // Each parent node is cloned on the way up so even a descendant node passed to this method can be rendered.
 
     // Since we are working with the actual nodes of the document we need to clone the target node into the temporary shape.
@@ -87,7 +80,6 @@ public static void RenderNode(com.aspose.words.Node node, String filePath, com.a
     parentSection.getBody().getFirstParagraph().appendChild(shape);
 
     // Render the shape to stream so we can take advantage of the effects of the ImageSaveOptions class.
-
     // Retrieve the rendered image and remove the shape from the document.
     ByteArrayOutputStream  stream = new ByteArrayOutputStream();
     com.aspose.words.ShapeRenderer renderer = shape.getShapeRenderer();
@@ -100,7 +92,6 @@ public static void RenderNode(com.aspose.words.Node node, String filePath, com.a
     BufferedImage renderedImage = ImageIO.read(in);
     BufferedImage croppedImage = new BufferedImage(crop.width, crop.height, ImageType.BMP);
     //croppedImage.SetResolution(imageOptions.getResolution(), imageOptions.getResolution());
-
     // Create the final image with the proper background color.
     Graphics g = croppedImage.createGraphics();
 

@@ -241,7 +241,6 @@ New public properties have been added into the TableStyle class, and the new pub
 public class TableStyle : Style
 {
     // Gets or sets a flag indicating whether text in a table row is allowed to split across a page break.
-
     // The default value is true.
     public bool AllowBreakAcrossPages
     {
@@ -279,7 +278,6 @@ public class TableStyle : Style
     }
 
     // Specifies the alignment for the table style.
-
     // The default value is TableAlignment.Left.
     public TableAlignment Alignment
     {
@@ -293,7 +291,6 @@ public class TableStyle : Style
     }
 
     // Gets or sets whether this is a style for a right-to-left table.
-
     // When true, the cells in rows are laid out right to left.
 
     // The default value is false.
@@ -350,7 +347,6 @@ public class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
     }
 
     // Retrieves a ConditionalStyle object by index.
-
     // index: Zero-based index of the conditional style to retrieve.
     public ConditionalStyle this[int index]
     {

@@ -29,7 +29,6 @@ for (int i = 1; i <= recordCount; i++)
     dstDoc.AppendDocument(doc2, ImportFormatMode.UseDestinationStyles);
 
     // If this is the second document or above being appended then unlink all headers footers in this section
-
     // from the headers and footers of the previous section.
     if (i > 1)
         dstDoc.Sections[i].HeadersFooters.LinkToPrevious(false);

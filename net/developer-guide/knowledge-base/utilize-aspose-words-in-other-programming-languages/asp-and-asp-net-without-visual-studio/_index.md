@@ -49,7 +49,6 @@ Works easiest in ASP.NET v2.0 – Copy Aspose.Words.DLL into a directory named "
  string lic = "c:\\inetpub\\wwwroot\\wordsamples\\Aspose.Custom.lic";
 
  // ===================================
-
  //       Set Controls Licensing
 
  // ===================================
@@ -57,23 +56,19 @@ Works easiest in ASP.NET v2.0 – Copy Aspose.Words.DLL into a directory named "
  license_w.SetLicense(lic);
 
  // ===================================
-
  //           Load Word Doc
 
  // ===================================
  Document doc = new Document(file + ".doc");
 
  // ===================================
-
  //       MailMerge Data Fields
 
  // ===================================
-
  // *** MANUAL METHOD
  //string[] fieldNames =  {"Company", "EndNumber", "PolicyNumber", "EffectiveDate", "DateIssued", "CounterSignedDate"};
  //object[] fieldValues = {"ABC Corporation of America", "3", "NAC12345", "10/31/2006", "10/28/2006", "10/30/2006"}; 
  //doc.MailMerge.Execute(fieldNames, fieldValues);
-
  // *** XML FILE METHOD
  DataSet ds = new DataSet();
  System.IO.FileStream fsReadXml = new System.IO.FileStream(file + "_data.xml", System.IO.FileMode.Open);
@@ -83,7 +78,6 @@ Works easiest in ASP.NET v2.0 – Copy Aspose.Words.DLL into a directory named "
  doc.MailMerge.Execute(ds.Tables["header"]);
 
  // ===================================
-
  //        Convert Word to PDF
 
  // ===================================

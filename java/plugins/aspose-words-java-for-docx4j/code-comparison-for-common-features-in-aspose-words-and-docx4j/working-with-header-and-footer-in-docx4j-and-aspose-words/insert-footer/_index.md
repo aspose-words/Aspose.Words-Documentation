@@ -51,7 +51,6 @@ public static void main(String[] args) throws Exception {
 	mdp.getRelationshipsPart().removeRelationship(styleRel);
 
 	// OK, the guts of this sample:
-
 	// The 2 things you need:
 
 	// 1. the Header part
@@ -95,7 +94,6 @@ public static void createFooterReference(
 	footerReference.setId(relationship.getId());
 	footerReference.setType(HdrFtrRef.DEFAULT);
 	sectPr.getEGHdrFtrReferences().add(footerReference);// add header or
-
 	// footer references
 }
 public static Ftr getFtr(WordprocessingMLPackage wordprocessingMLPackage,

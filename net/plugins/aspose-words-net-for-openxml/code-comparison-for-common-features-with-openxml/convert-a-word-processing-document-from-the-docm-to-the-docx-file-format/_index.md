@@ -36,7 +36,6 @@ ConvertDOCMtoDOCX(File, NewFile);
             docPart.Document.Save();
 
             // Change the document type to
-
             // not macro-enabled.
             document.ChangeDocumentType(
                 WordprocessingDocumentType.Document);
@@ -47,12 +46,10 @@ ConvertDOCMtoDOCX(File, NewFile);
     }
 
     // If anything goes wrong in this file handling,
-
     // the code will raise an exception back to the caller.
     if (fileChanged)
     {
         // Create the new .docx filename.
-
         // If it already exists, it will be deleted!
         if (File.Exists(newfileName))
         {

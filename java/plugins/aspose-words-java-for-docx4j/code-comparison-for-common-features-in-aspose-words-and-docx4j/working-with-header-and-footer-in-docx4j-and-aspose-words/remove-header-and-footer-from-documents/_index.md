@@ -15,7 +15,6 @@ Document doc = new Document(dataDir + "AsposeHeaderFooter.docx");
 for (Section section : doc.getSections())
 {
 	// Up to three different header footers are possible in a section (for first, even and odd pages).
-
 	// We check and delete all of them.
 	HeaderFooter header;
 	HeaderFooter footer;
