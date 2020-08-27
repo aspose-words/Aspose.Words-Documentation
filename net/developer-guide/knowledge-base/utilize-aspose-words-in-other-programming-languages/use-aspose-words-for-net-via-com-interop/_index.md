@@ -62,8 +62,7 @@ If your programming language (for example Visual Basic or Delphi) allows you to 
 #### **Creating COM Objects**
 The creation of a .NET object is similar to creation of a normal COM object:
 
-**VBScript**
-
+**VBScript:**
 {{< highlight csharp >}}
 Dim helper
 Set helper = CreateObject("Aspose.Words.ComHelper")
@@ -71,8 +70,7 @@ Set helper = CreateObject("Aspose.Words.ComHelper")
 
 Once created, you are able to access the object’s methods and properties, as if it was a COM object:
 
-**VBScript**
-
+**VBScript:**
 {{< highlight csharp >}}
 Dim doc
 Set doc = helper.Open("C:\my.doc")
