@@ -17,12 +17,12 @@ To configure Aspose.Words for Reporting Services at the instance level, you need
 
 |**Host Application** |**Configuration File** |
 | :- | :- |
-|Microsoft SQL Server 2005, 2008, 2012, 2014, 2016, 2017 or 2019 Reporting Services|*C:\Program Files\Microsoft SQL Server\<Instance>\Reporting Services\ReportServer\rsreportserver.config* |
-|Microsoft Visual Studio 2005, 2008, 2010, 2012, 2013 or 2015 Report Designer|*C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config* |
+|Microsoft SQL Server 2005, 2008, 2012, 2014, 2016, 2017 or 2019 Reporting Services|*C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\rsreportserver.config* |
+|Microsoft Visual Studio 2005, 2008, 2010, 2012, 2013 or 2015 Report Designer|*C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config* |
 |Microsoft Report Viewer 2005, 2008, 2010, 2012 or 2015|*Not configurable in this version.* |
 You can edit the configuration file in any text or XML editor. It is recommended that you make a backup copy of the configuration file before editing.
 
-The renderer configuration is stored inside the *<Extension>* element corresponding to a particular renderer. 
+The renderer configuration is stored inside the *&lt;Extension&gt;* element corresponding to a particular renderer. 
 
 Every export format has its own configuration XML element. Therefore, if you want changes to apply to several export formats, you need to duplicate your changes accordingly. Most examples used in this section configure only the DOC format renderer. 
 
@@ -70,4 +70,4 @@ To specify configuration settings for an individual report, follow these steps:
 1. Add a textbox to any place in the report. 
 1. Set textbox visibility to **Hidden**. 
 1. Set textbox name to a **configuration**. 
-1. Set textbox text to the XML similar to that you would specify in the *<Configuration>* element of the configuration file. For example, to make this particular report be exported in positioned layout mode, set the text to **<DocumentLayout>Positioned</DocumentLayout>** . You can specify any number of any number of configuration settings in a sequence, for example **<DocumentLayout>Positioned</DocumentLayout>** **<PageBreaks>OnEachPage</PageBreaks><SpacingFactor>0.75</SpacingFactor>** . 
+1. Set textbox text to the XML similar to that you would specify in the *&lt;Configuration&gt;* element of the configuration file. For example, to make this particular report be exported in positioned layout mode, set the text to **&lt;DocumentLayout&gt;Positioned&lt;/DocumentLayout&gt;** . You can specify any number of any number of configuration settings in a sequence, for example **&lt;DocumentLayout&gt;Positioned&lt;/DocumentLayout&gt;** **&lt;PageBreaks&gt;OnEachPage&lt;/PageBreaks&gt;&lt;SpacingFactor&gt;0.75&lt;/SpacingFactor&gt;** . 
