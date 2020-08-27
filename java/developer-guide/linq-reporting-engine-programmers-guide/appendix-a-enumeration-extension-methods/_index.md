@@ -7,7 +7,7 @@ url: /java/appendix-a-enumeration-extension-methods/
 
 {{% alert color="primary" %}} 
 
-LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for Iterable. These extension methods mimic some extension methods of [IEnumerable<T>](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus, you can group, sort, and perform other sequential data manipulations in template expressions in a common way.
+LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for Iterable. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus, you can group, sort, and perform other sequential data manipulations in template expressions in a common way.
 
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
 
@@ -22,7 +22,7 @@ public class Person
 {
     public String getName() { ... }
     public int getAge() { ... }
-    public Iterable<Person> getChildren() { ... }
+    public Iterable&lt;Person&gt; getChildren() { ... }
     ...
 }
 {{< /highlight >}}
@@ -30,7 +30,7 @@ public class Person
 |**Extension Method** |**Examples and Notes** |
 | :- | :- |
 |all(Predicate)|<p>{{< highlight csharp >}}
-p> persons.all(p => p.getAge() < 50)</p><p>{{< /highlight >}}</p>|
+p> persons.all(p => p.getAge() &lt; 50)</p><p>{{< /highlight >}}</p>|
 |any()|<p>{{< highlight csharp >}}
 p> persons.any()</p><p>{{< /highlight >}}</p>|
 |any(Predicate)|<p>{{< highlight csharp >}}
@@ -89,13 +89,13 @@ p> persons.singleOrDefault(</p><p>    p => p.getName() == "John Smith")</p><p>{{
 |skip(int)|<p>{{< highlight csharp >}}
 p> persons.skip(10)</p><p>{{< /highlight >}}</p>|
 |skipWhile(Predicate)|<p>{{< highlight csharp >}}
-p> persons.skipWhile(p => p.getAge() < 21)</p><p>{{< /highlight >}}</p>|
+p> persons.skipWhile(p => p.getAge() &lt; 21)</p><p>{{< /highlight >}}</p>|
 |sum(Selector)|<p>{{< highlight csharp >}}
 p> persons.sum(p => p.getChildren().count())</p><p>{{< /highlight >}}</p><p>The input selector must return a value of any type that has a predefined addition operator. </p>|
 |take(int)|<p>{{< highlight csharp >}}
 p> persons.take(5)</p><p>{{< /highlight >}}</p>|
 |takeWhile(Predicate)|<p>{{< highlight csharp >}}
-p> persons.takeWhile(p => p.getAge() < 50)</p><p>{{< /highlight >}}</p>|
+p> persons.takeWhile(p => p.getAge() &lt; 50)</p><p>{{< /highlight >}}</p>|
 |union(Iterable)|<p>{{< highlight csharp >}}
 p> persons.union(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of united enumerations. </p>|
 |where(Predicate)|<p>{{< highlight csharp >}}
