@@ -11,21 +11,15 @@ Load Text File Example
 **PHP Code**
 
 {{< highlight php >}}
-
-         $dataDir = '.';
-
+        $dataDir = '.';
         $comHelper = new \COM("Aspose.Words.ComHelper");
 
         // The encoding of the text file is automatically detected.
-
         $doc = $comHelper->Open($dataDir."/LoadTxt.txt");
 
         // Save as any Aspose.Words supported format, such as DOCX.
-
         $doc->Save($dataDir . "/LoadTxt Out.docx");
-
         print "Text document loaded successfully.\nFile saved at " . $dataDir . "LoadTxt Out.docx" . PHP_EOL;
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Load Text File Example (Aspose.Words)** from any of the below mentioned social coding sites:

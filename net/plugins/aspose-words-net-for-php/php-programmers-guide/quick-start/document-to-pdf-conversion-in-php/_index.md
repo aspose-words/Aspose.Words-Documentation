@@ -11,19 +11,13 @@ Document to PDF Conversion Example
 **PHP Code**
 
 {{< highlight php >}}
-
-         $dataDir = '.';
-
+        $dataDir = '.';
          $comHelper = new \COM("Aspose.Words.ComHelper");
-
         $doc = $comHelper->Open($dataDir."/Template.doc");
 
         // Save the document in PDF format.
-
         $doc->Save($dataDir . "/Doc2PdfSave Out.pdf");
-
         print "Document converted to PDF successfully.\nFile saved at " . $dataDir . "Doc2PdfSave Out.pdf" . PHP_EOL;
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Document to PDF Conversion Example (Aspose.Words)** from any of the below mentioned social coding sites:

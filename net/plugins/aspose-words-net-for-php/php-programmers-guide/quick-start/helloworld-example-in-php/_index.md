@@ -11,19 +11,12 @@ Hello World Example
 **PHP Code**
 
 {{< highlight php >}}
-
-         $dataDir = '.';
-
+        $dataDir = '.';
         $doc = new \COM("Aspose.Words.Document");
-
         $builder = new \COM("Aspose.Words.DocumentBuilder");
-
         $builder->Document = $doc;
-
         $builder->Write("Hello world!");
-
         $doc->Save($dataDir . "/HelloWorld Out.docx");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **HelloWorld Example (Aspose.Words)** from any of the below mentioned social coding sites:
