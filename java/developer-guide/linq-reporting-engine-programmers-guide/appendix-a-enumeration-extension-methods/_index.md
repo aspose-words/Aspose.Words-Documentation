@@ -22,7 +22,7 @@ public class Person
 {
     public String getName() { ... }
     public int getAge() { ... }
-    public Iterable&lt;Person&gt; getChildren() { ... }
+    public Iterable<Person> getChildren() { ... }
     ...
 }
 {{< /highlight >}}
@@ -30,7 +30,7 @@ public class Person
 |**Extension Method** |**Examples and Notes** |
 | :- | :- |
 |all(Predicate)|<p>{{< highlight csharp >}}
-p> persons.all(p => p.getAge() &lt; 50)</p><p>{{< /highlight >}}</p>|
+p> persons.all(p => p.getAge() < 50)</p><p>{{< /highlight >}}</p>|
 |any()|<p>{{< highlight csharp >}}
 p> persons.any()</p><p>{{< /highlight >}}</p>|
 |any(Predicate)|<p>{{< highlight csharp >}}
@@ -89,13 +89,13 @@ p> persons.singleOrDefault(</p><p>    p => p.getName() == "John Smith")</p><p>{{
 |skip(int)|<p>{{< highlight csharp >}}
 p> persons.skip(10)</p><p>{{< /highlight >}}</p>|
 |skipWhile(Predicate)|<p>{{< highlight csharp >}}
-p> persons.skipWhile(p => p.getAge() &lt; 21)</p><p>{{< /highlight >}}</p>|
+p> persons.skipWhile(p => p.getAge() < 21)</p><p>{{< /highlight >}}</p>|
 |sum(Selector)|<p>{{< highlight csharp >}}
 p> persons.sum(p => p.getChildren().count())</p><p>{{< /highlight >}}</p><p>The input selector must return a value of any type that has a predefined addition operator. </p>|
 |take(int)|<p>{{< highlight csharp >}}
 p> persons.take(5)</p><p>{{< /highlight >}}</p>|
 |takeWhile(Predicate)|<p>{{< highlight csharp >}}
-p> persons.takeWhile(p => p.getAge() &lt; 50)</p><p>{{< /highlight >}}</p>|
+p> persons.takeWhile(p => p.getAge() < 50)</p><p>{{< /highlight >}}</p>|
 |union(Iterable)|<p>{{< highlight csharp >}}
 p> persons.union(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of united enumerations. </p>|
 |where(Predicate)|<p>{{< highlight csharp >}}
