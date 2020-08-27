@@ -53,12 +53,15 @@ doc = helper.Open("C:\Temp\in.doc");
 connection = CREATE oleobject;
 connection.ConnectToNewObject("ADODB.Connection");
 connection.Open(connectionString);
+
 //Perform data selection
 RS = connection.Execute(commandString);
+
 //Execute mail merge
 doc.MailMerge.ExecuteADO(RS);
 RS.Close();
 connection.Close();
+
 //Save generated docuemnt
 doc.Save("C:\Temp\out.doc");
 {{< /highlight >}}
