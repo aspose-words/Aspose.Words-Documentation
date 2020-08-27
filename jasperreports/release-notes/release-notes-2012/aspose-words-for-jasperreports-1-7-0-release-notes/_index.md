@@ -31,7 +31,7 @@ Please copy jar library according to the version of installed JasperReports.
 - Fix WORDSJSP-76 (Wrong page settings for exported document)
 - Fix WORDSJSP-77 (Wrong page breaking)
 - Fix WORDSJSP-78 (Conversion from JRXML to DOC/DOCX, the hyperlink functionality is not working)
-- Fix WORDSJSP-79 (Bullet list formatting issue (<ul><li>test</li></ul>))
+- Fix WORDSJSP-79 (Bullet list formatting issue (&lt;ul&gt;&lt;li&gt;test&lt;/li&gt;&lt;/ul&gt;))
 - Fix WORDSJSP-91 (Footer appears twice in output docx)
 - Fix WORDSJSP-96 (Wrong page settings for exported document when AWExporterParameter.PAGE_BREAKS_NORMAL is used)
 - Fix WORDSJSP-97 (Docx margins wrong when using Margin value 72pt in jrxml)
