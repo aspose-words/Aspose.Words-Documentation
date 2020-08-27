@@ -33,9 +33,7 @@ In the case when **FontSettings** is not defined explicitly, Aspose.Words uses
 **C++**
 
 {{< highlight cpp >}}
-
- System::SharedPtr<FontSettings> fontSettings = System::MakeObject<FontSettings>()->get_DefaultInstance();
-
+System::SharedPtr<FontSettings> fontSettings = System::MakeObject<FontSettings>()->get_DefaultInstance();
 {{< /highlight >}}
 
 If you are sure that all processing documents require the same font settings, then it is recommended to set up and utilize the default **FontSettings** instance. Suppose that you need to use the same font sources for all your documents. In this case, you can just amend the default instance as follows:
@@ -62,9 +60,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_SubstitutionSettings()->get_FontConfigSubstitution()->set_Enabled(true);
-
+fontSettings->get_SubstitutionSettings()->get_FontConfigSubstitution()->set_Enabled(true);
 {{< /highlight >}}
 
 1. The next step is a simple, but incredibly powerful mechanism called [TableSubstitutionRule](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.table_substitution_rule/). By default, this feature is active and available for any OS. Aspose.Words uses XML tables which define basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.
@@ -94,9 +90,7 @@ The main feature of this rule is the ability to load your own substitution table
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->Load(u"Table.xml");
-
+fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->Load(u"Table.xml");
 {{< /highlight >}}
 
 You can take as a basis the existing table from the jar or save it programmatically in the following way:
@@ -104,9 +98,7 @@ You can take as a basis the existing table from the jar or save it programmatica
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->Save(u"MyTable.xml");
-
+fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->Save(u"MyTable.xml");
 {{< /highlight >}}
 
 Despite the flexibility of this mechanism, there are some cases when it is better to disable it, as shown below:
@@ -114,9 +106,7 @@ Despite the flexibility of this mechanism, there are some cases when it is bette
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->set_Enabled(false);
-
+fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->set_Enabled(false);
 {{< /highlight >}}
 
 1. The **FontInfo** substitution rule will be applied if the table substitution rule cannot find the font. This mechanism is enabled by default. Aspose.Words finds the most suitable font according to the font information contained in a particular document. This information can be obtained from the **FontInfo** class as shown below:
@@ -124,9 +114,7 @@ Despite the flexibility of this mechanism, there are some cases when it is bette
 **C++**
 
 {{< highlight cpp >}}
-
- System::SharedPtr<FontInfoCollection> fontInfos = doc->get_FontInfos();
-
+System::SharedPtr<FontInfoCollection> fontInfos = doc->get_FontInfos();
 {{< /highlight >}}
 
 Users cannot interfere in the workflow of this feature unless they decide to disable it in case of unsatisfactory results:
@@ -134,9 +122,7 @@ Users cannot interfere in the workflow of this feature unless they decide to dis
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_SubstitutionSettings()->get_FontInfoSubstitution()->set_Enabled(false);
-
+fontSettings->get_SubstitutionSettings()->get_FontInfoSubstitution()->set_Enabled(false);
 {{< /highlight >}}
 
 If **FontInfo** is not available for the missing font, then the process stops.
@@ -146,9 +132,7 @@ If **FontInfo** is not available for the missing font, then the process stops.
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution()->set_Enabled(false);
-
+fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution()->set_Enabled(false);
 {{< /highlight >}}
 
 To check the current default font, use:
@@ -156,9 +140,7 @@ To check the current default font, use:
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution()->get_DefaultFontName();
-
+fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution()->get_DefaultFontName();
 {{< /highlight >}}
 
 To set up your own replacement option, apply:
@@ -166,9 +148,7 @@ To set up your own replacement option, apply:
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution()->set_DefaultFontName(u"Arial");
-
+fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution()->set_DefaultFontName(u"Arial");
 {{< /highlight >}}
 
 1. If Aspose.Words is unable to perform the font substitution, it tries to get the first available font from available font sources.
@@ -192,9 +172,7 @@ There is a [BuildAutomatic](https://apireference.aspose.com/words/cpp/class/asp
 **C++**
 
 {{< highlight cpp >}}
-
- System::SharedPtr<FontFallbackSettings> settings = fontSettings->get_FallbackSettings();
-
+System::SharedPtr<FontFallbackSettings> settings = fontSettings->get_FallbackSettings();
 {{< /highlight >}}
 
 Similarly to *Table substitution rule*, this mechanism uses XML tables for configuration. These XML tables can be loaded and saved with the following methods:
@@ -202,11 +180,8 @@ Similarly to *Table substitution rule*, this mechanism uses XML tables for conf
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_FallbackSettings()->Load(u"MyNewFallbackTable.xml");
-
+fontSettings->get_FallbackSettings()->Load(u"MyNewFallbackTable.xml");
 fontSettings->get_FallbackSettings()->Save(u"Current_FallbackTable.xml");
-
 {{< /highlight >}}
 
 The Aspose.Words release includes two tables: *MsOfficeFallbackSetting.xml* and *NotoFallbackSetting.xml*.
@@ -216,9 +191,7 @@ The *MsOfficeFallbackSetting* table defines a replacement strategy for a rang
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_FallbackSettings()->LoadMsOfficeFallbackSettings();
-
+fontSettings->get_FallbackSettings()->LoadMsOfficeFallbackSettings();
 {{< /highlight >}}
 
 The *NotoFallbackSetting* table is created especially for use with Google Noto fonts (see more about Google Noto font settings in the next section) and can be enabled as follows:
@@ -226,9 +199,7 @@ The *NotoFallbackSetting* table is created especially for use with Google Noto
 **C++**
 
 {{< highlight cpp >}}
-
- fontSettings->get_FallbackSettings()->LoadNotoFallbackSettings();
-
+fontSettings->get_FallbackSettings()->LoadNotoFallbackSettings();
 {{< /highlight >}}
 
 The following code example demonstrates how to load font fallback settings from an XML file:

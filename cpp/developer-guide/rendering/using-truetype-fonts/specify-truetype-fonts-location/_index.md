@@ -147,11 +147,8 @@ If you don’t want to use system fonts at all, Aspose.Words allows you to ignor
 **C++**
 
 {{< highlight cpp >}}
-
- System::SharedPtr<FontSettings> fontSettings = System::MakeObject<FontSettings>()->get_DefaultInstance();
-
+System::SharedPtr<FontSettings> fontSettings = System::MakeObject<FontSettings>()->get_DefaultInstance();
 fontSettings->SetFontsFolder(u"C:\\MyFonts\\", true);
-
 {{< /highlight >}}
 
 
@@ -161,9 +158,7 @@ The [Priority](https://apireference.aspose.com/words/cpp/class/aspose.words.fon
 **C++**
 
 {{< highlight cpp >}}
-
- System::SharedPtr<FolderFontSource> folderFontSource = System::MakeObject<FolderFontSource>(u"C:\\MyFonts\\", true, 1);
-
+System::SharedPtr<FolderFontSource> folderFontSource = System::MakeObject<FolderFontSource>(u"C:\\MyFonts\\", true, 1);
 {{< /highlight >}}
 ## **Loading Fonts from Stream**
 Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/#af64ded16125328a45fdaee65f193f748) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) lifetime.
