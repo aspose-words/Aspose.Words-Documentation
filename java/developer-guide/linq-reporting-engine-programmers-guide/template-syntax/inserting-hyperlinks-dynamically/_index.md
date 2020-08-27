@@ -9,7 +9,7 @@ url: /java/inserting-hyperlinks-dynamically/
 
 You can insert hyperlinks to your reports dynamically using link tags. Syntax of a link tag is defined as follows.
 
-**<<link [uri_or_bookmark_expression] [display_text_expression]>>**
+**&lt;&lt;link [uri_or_bookmark_expression] [display_text_expression]&gt;&gt;**
 
 Here, uri_or_bookmark_expression defines URI or the name of a bookmark within the same document for a hyperlink to be inserted dynamically. This expression is mandatory and must return a non-empty value.
 
