@@ -90,7 +90,7 @@ The missing features will be added in future releases.
 |WORDSNET-14904|DOCX to HTML conversion issue with shape's rendering|Bug|
 |WORDSNET-20269|SmartArt Text Rotation (Direction) issue when converting from DOCX to PDF|Bug|
 |WORDSNET-19526|DOCX to HTML conversion issue with text direction in table's cell|Bug|
-|WORDSNET-19917|The "span" attribute of <colgroup> elements in HTML is not supported|Bug|
+|WORDSNET-19917|The "span" attribute of &lt;colgroup&gt; elements in HTML is not supported|Bug|
 |WORDSNET-20270|ThrowArgumentOutOfRangeException occurs if "rowspan" attribute of a table cell is not correctly defined|Bug|
 |WORDSNET-20420|InsertDocument changes the inserted document|Bug|
 |WORDSNET-20422|InvalidOperationException in PdfWriter|Bug|
@@ -100,13 +100,13 @@ The missing features will be added in future releases.
 |WORDSNET-20120|Performance issue while saving first page of document to JPEG|Bug|
 |WORDSNET-20431|Font formatting " All Caps" is lost for heading text in output PDF|Bug|
 |WORDSNET-20272|System.IO.__Error.EndOfFile occurs if an image with base64 source is corrupted|Bug|
-|WORDSNET-20283|ArgumentOutOfRangeException occurs if "value" parameter of <li> is less than 0 or greater than 32767|Bug|
+|WORDSNET-20283|ArgumentOutOfRangeException occurs if "value" parameter of &lt;li&gt; is less than 0 or greater than 32767|Bug|
 |WORDSNET-20507|LINQ Reporting Engine - Nullable int is not recognized for JsonDataSource|Bug|
 |WORDSNET-19870|System.ArgumentException Invalid object Parameter name: opaque - DOCX to HTML|Bug|
 |WORDSNET-2295|Compatibility option "Use Word 97 line-breaking rules for Asian text" is not supported|Bug|
 |WORDSNET-19923|Performance degrades while writing to more than 100MB file|Bug|
 |WORDSNET-20358|JoinRunsWithSameFormatting does not join the Run nodes with same formatting|Bug|
-|WORDSNET-20444|ArgumentOutOfRangeException occurs if "value" of <li> and "start" of <ol> are both out of range|Bug|
+|WORDSNET-20444|ArgumentOutOfRangeException occurs if "value" of &lt;li&gt; and "start" of &lt;ol&gt; are both out of range|Bug|
 |WORDSNET-20132|Picture pushed to the next page when converting DOCX to PDF|Bug|
 |WORDSNET-20282|ArgumentOutOfRangeException occurs if "margin-top" or "margin-bottom" is less than 0 or greater than 2112px|Bug|
 |WORDSNET-6886|Theme colors in Font color palette are displayed black in MS WORD WEB APP|Bug|
