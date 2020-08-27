@@ -10,7 +10,7 @@ The **ControlChar** class is a repository for the constants that represent con
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 
 // Enter a dummy field into the document.

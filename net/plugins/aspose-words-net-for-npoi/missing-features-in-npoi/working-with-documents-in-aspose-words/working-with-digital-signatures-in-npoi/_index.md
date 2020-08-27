@@ -12,7 +12,7 @@ Aspose.Words supports documents with digital signatures and provides access to t
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 
 // The path to the document which is to be processed.
 string filePath = "../../data/document.doc";

@@ -14,7 +14,7 @@ Note that before you apply table properties there must be at least one row prese
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   Document doc = new Document();
   DocumentBuilder builder = new DocumentBuilder(doc);
   Table table = builder.StartTable();
@@ -59,7 +59,7 @@ Note that before you apply table properties there must be at least one row prese
 ## **NPOI HWPF XWPF - Format Table in Document**
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 
   // Create a new document from scratch
   XWPFDocument doc = new XWPFDocument();

@@ -12,7 +12,7 @@ You can use document properties in your document automation project to store som
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   Document doc = new Document("Get Document Properties.doc");
   foreach (DocumentProperty prop in doc.BuiltInDocumentProperties)
   {
@@ -22,7 +22,7 @@ You can use document properties in your document automation project to store som
 ## **NPOI HWPF XWPF - Get Document Properties**
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  SummaryInformation summaryInfo = new SummaryInformation(new PropertySet(new FileStream("Get Document Properties.doc", FileMode.Open)));
  Console.WriteLine(summaryInfo.ApplicationName);
  Console.WriteLine(summaryInfo.Author);

@@ -12,7 +12,7 @@ In order to manipulate a table to split or join with another table we simply nee
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 
 // Load the document.
 Document doc = new Document("../../data/document.doc");

@@ -12,7 +12,7 @@ We can specify the default font to use by calling the **FontSettings.Substituti
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 
 // If the default font defined here cannot be found during rendering then the closest font on the machine is used instead.

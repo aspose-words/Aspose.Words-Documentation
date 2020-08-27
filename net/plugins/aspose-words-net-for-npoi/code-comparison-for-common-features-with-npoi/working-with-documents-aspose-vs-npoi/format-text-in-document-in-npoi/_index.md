@@ -10,7 +10,7 @@ Current font formatting is represented by a **Font** object returned by the *
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -77,7 +77,7 @@ XWPFRun can be used to format text using NPOI
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using NPOI.XWPF.UserModel;
 XWPFDocument doc = new XWPFDocument();
 XWPFParagraph p1 = doc.CreateParagraph();

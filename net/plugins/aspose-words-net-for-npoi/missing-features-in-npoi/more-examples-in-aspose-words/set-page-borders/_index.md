@@ -10,7 +10,7 @@ Page setup and section properties are encapsulated in the **PageSetup** object
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();

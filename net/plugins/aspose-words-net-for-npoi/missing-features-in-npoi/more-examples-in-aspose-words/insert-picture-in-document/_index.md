@@ -10,7 +10,7 @@ DocumentBuilder provides several overloads of the DocumentBuilder.InsertImage me
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage("../../data/HumpbackWhale.jpg");

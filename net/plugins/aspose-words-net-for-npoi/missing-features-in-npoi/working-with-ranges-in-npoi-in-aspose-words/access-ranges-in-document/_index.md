@@ -10,7 +10,7 @@ Use the Range.Text property to retrieve plain, unformatted text of the range.
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
 

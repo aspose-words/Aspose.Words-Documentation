@@ -10,7 +10,7 @@ If you need to move to the beginning of the document, call **DocumentBuilder.Mo
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
 //Shows how to access the current node in a document builder.

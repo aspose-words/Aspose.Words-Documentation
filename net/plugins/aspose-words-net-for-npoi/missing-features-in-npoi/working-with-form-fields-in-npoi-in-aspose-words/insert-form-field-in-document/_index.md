@@ -10,7 +10,7 @@ In Aspose.Words the DocumentBuilder.InsertField method is used to insert new fie
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
 

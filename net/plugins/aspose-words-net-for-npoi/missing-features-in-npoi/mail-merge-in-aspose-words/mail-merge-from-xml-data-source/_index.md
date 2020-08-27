@@ -12,7 +12,7 @@ This page provides a simple example of how, using Aspose.Words, you can execute 
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 
 // Create the Dataset and read the XML.
 DataSet customersDs = new DataSet();

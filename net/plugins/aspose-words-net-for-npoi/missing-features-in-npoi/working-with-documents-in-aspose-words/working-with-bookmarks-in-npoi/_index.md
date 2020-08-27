@@ -10,7 +10,7 @@ Use **DocumentBuilder.StartBookmark** and **DocumentBuilder.EndBookmark** to
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
 

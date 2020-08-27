@@ -183,7 +183,7 @@ Related issue: WORDSNET-15995
 
 The following property has been added to the HtmlSaveOptions class:
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 public class HtmlSaveOptions
 {
     /// <summary>
@@ -227,7 +227,7 @@ public enum HtmlMetafileFormat
 
 The new property replaces HtmlSaveOptions.ExportMetafileAsRaster, which is now marked obsolete. New code should use MetafileFormat instead of ExportMetafileAsRaster, as shown below:
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 MetafileFormat = HtmlMetafileFormat.Png;
 
 // Instead of

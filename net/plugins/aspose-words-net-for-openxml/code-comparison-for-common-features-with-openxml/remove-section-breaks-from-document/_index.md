@@ -8,7 +8,7 @@ url: /net/remove-section-breaks-from-document/
 ### **OpenXML**
 Below is the code for removing Section Breaks from MS Word Document using OpenXML SDK.
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Section Breaks.docx";
   RemoveSectionBreaks(fileName);
@@ -37,7 +37,7 @@ Below is the code for removing Section Breaks from MS Word Document using OpenXM
 ### **Aspose.Words**
 Below is the code for removing Section Breaks from MS Word Document using Aspose.Words.
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Section Breaks.docx";
   Document doc = new Document(fileName);

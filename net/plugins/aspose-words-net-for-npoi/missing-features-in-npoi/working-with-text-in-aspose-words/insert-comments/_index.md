@@ -10,7 +10,7 @@ Comments of the document are represented by the Comment class.
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Some text is added.");

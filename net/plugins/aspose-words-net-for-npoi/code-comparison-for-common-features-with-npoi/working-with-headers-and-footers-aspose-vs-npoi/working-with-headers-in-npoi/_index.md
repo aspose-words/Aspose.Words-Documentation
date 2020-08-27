@@ -10,7 +10,7 @@ The following sample code demonstrates how to create headers/footers using Docum
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  Document wordDocument = new Document("Convert Word Doc to Other Formats.doc");
  HeaderFooterCollection headers = wordDocument.FirstSection.HeadersFooters;
  foreach (HeaderFooter header in headers)
@@ -23,7 +23,7 @@ The following sample code demonstrates how to create headers/footers using Docum
 ## **NPOI HWPF XWPF - Working with Headers**
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   XWPFDocument wordDocument = new XWPFDocument(new FileStream("Working with Headers.doc", FileMode.Open));
   IList<XWPFHeader> headers = wordDocument.HeaderList;
   foreach (XWPFHeader header in headers)

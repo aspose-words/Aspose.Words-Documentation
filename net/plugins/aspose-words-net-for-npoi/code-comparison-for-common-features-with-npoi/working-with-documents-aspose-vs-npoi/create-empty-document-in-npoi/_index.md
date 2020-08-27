@@ -12,7 +12,7 @@ If you want to generate a document programmatically, the most reasonable step af
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using Aspose.Words;
 Document doc = new Document();
 doc.Save("blank.docx");
@@ -22,7 +22,7 @@ Below example shows how to create a new document using NPOI XWPF
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using NPOI.XWPF.UserModel;
 XWPFDocument doc = new XWPFDocument();
 doc.CreateParagraph();

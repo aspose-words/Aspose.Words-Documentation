@@ -13,7 +13,7 @@ We first need to pick a row at where to split the table. Once we know this we ca
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 
 // Load the document.
 Document doc = new Document("../../data/document.doc");

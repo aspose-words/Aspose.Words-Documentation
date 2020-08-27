@@ -21,7 +21,7 @@ While in Aspose.Words there is no single “Insert Watermark” command like in 
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 static void Main(string[] args)
 {
 	Document doc = new Document("../../data/document.doc");

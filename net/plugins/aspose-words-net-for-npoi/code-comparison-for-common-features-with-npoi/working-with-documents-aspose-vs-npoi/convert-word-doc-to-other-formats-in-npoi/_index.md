@@ -20,7 +20,7 @@ Converts a whole document from DOC to other formats using default options.
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  Document wordDocument = new Document("Convert Word Doc to Other Formats.doc");
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.docx", SaveFormat.Docx);
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.bmp", SaveFormat.Bmp);
@@ -31,7 +31,7 @@ Converts a whole document from DOC to other formats using default options.
 ## **NPOI HWPF XWPF - Convert Word Doc to Other Formats**
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   XWPFDocument  wordDocument = new XWPFDocument( new FileStream("Convert Word Doc to Other Formats.doc", FileMode.Open));
   using (FileStream sw = File.Create("data/Convert Word Doc to Other Formatsblank.docx"))
   {

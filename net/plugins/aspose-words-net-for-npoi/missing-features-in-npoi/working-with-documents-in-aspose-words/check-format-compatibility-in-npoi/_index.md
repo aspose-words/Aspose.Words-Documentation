@@ -10,7 +10,7 @@ The **FileFormatUtil.DetectFileFormat** method checks the file format, but not
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 string dataPath = "../../data/";
 string[] fileList = Directory.GetFiles(dataPath);
 

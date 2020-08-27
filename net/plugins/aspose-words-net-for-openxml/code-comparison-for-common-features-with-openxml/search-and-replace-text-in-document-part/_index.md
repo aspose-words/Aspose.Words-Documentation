@@ -8,7 +8,7 @@ url: /net/search-and-replace-text-in-document-part/
 ### **OpenXML**
 Below is the code example of search and replace text using OpenXML SDK.
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Search and Replace Text.docx";
   SearchAndReplace(fileName);
@@ -35,7 +35,7 @@ Below is the code example of search and replace text using OpenXML SDK.
 ### **Aspose.Words**
 Below is the code example of searching and replacing text in Document part using Aspose.Words.
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  string FilePath = @"..\..\..\..\Sample Files\";
  string fileName = FilePath + "Search and Replace Text.docx";
  Document doc = new Document(fileName);

@@ -17,7 +17,7 @@ To append documents using Aspose.Words, simply invoke the AppendDocument() met
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc1 = new Document("../../data/doc1.doc");
 Document doc2 = new Document("../../data/doc2.doc");
 Document doc3 = doc1.Clone();

@@ -10,7 +10,7 @@ This example inserts an image from a file at a specified position and size
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using Aspose.Words;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -25,7 +25,7 @@ XWPFRun.addPicture is used to add an image to document.
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using NPOI.XWPF.UserModel;
 XWPFDocument doc = new XWPFDocument();
 XWPFParagraph p2 = doc.CreateParagraph();

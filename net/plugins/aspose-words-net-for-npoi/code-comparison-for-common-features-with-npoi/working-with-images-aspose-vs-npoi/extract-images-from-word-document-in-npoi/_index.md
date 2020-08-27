@@ -16,7 +16,7 @@ To extract all images or images having specific type from the document, follow t
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  Document wordDocument = new Document("Extract Images from Word Document.doc");
  NodeCollection pictures = wordDocument.GetChildNodes(NodeType.Shape, true);
  int imageindex = 0;
@@ -34,7 +34,7 @@ Below is the code for extracting images from word document:
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  XWPFDocument doc = new XWPFDocument(new FileStream("data/Extract Images from Word Document.doc",FileMode.Open));
  IList<XWPFPictureData> pics = doc.AllPictures;
  foreach (XWPFPictureData pic in pics)

@@ -11,7 +11,7 @@ A field inserted into the document using DocumentBuilder.InsertField returns a F
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Field field = builder.InsertField("PAGE");

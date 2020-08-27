@@ -10,7 +10,7 @@ The **Document.AcceptAllRevisions** method allows you to "accept" all revision
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 doc.AcceptAllRevisions();
 doc.Save("AsposeAcceptChanges.doc", SaveFormat.Doc);

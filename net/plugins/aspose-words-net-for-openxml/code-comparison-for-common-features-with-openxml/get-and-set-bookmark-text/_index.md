@@ -8,7 +8,7 @@ url: /net/get-and-set-bookmark-text/
 ### **OpenXML**
 Below is the code example for getting and setting Bookmark text in word document using OpenXML SDK.
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string File = FilePath + "Get and Set Bookmark Text - OpenXML.docx";
   IDictionary<String, BookmarkStart> bookmarkMap = new Dictionary<String, BookmarkStart>();
@@ -33,7 +33,7 @@ Below is the code example for getting and setting Bookmark text in word document
 ### **Aspose.Words**
 Below is the code example of get and set Bookmark text using Aspose.Words
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  string FilePath = @"..\..\..\..\Sample Files\";
  string File = FilePath + "Get and Set Bookmark Text - Aspose.docx";
  Document doc = new Document(File);

@@ -12,7 +12,7 @@ By default Aspose.Words inserts a new table using “**AutoFit to Window”**. T
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 
 // Open the document
 Document doc = new Document("../../data/document.doc");

@@ -13,7 +13,7 @@ DocumentBuilder provides special methods to insert each type of form field into 
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
  string[] items = { "One", "Two", "Three" };

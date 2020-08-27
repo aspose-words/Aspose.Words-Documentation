@@ -16,7 +16,7 @@ In **Aspose.Words** a table is normally inserted using **DocumentBuilder**. The 
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using Aspose.Words;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -61,7 +61,7 @@ Below example shows how table is inserted using NPOI XWPF library.
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using NPOI.XWPF.UserModel;
 XWPFDocument doc = new XWPFDocument();
 XWPFParagraph para= doc.CreateParagraph();

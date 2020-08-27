@@ -10,7 +10,7 @@ Below is the code to demonstrate how to insert footer in word document:
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  Document wordDocument = new Document("Convert Word Doc to Other Formats.doc");
  HeaderFooterCollection footers = wordDocument.FirstSection.HeadersFooters;
  foreach (HeaderFooter footer in footers)
@@ -25,7 +25,7 @@ Below is the code to demonstrate how to insert footer in word document using NPO
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   XWPFDocument wordDocument = new XWPFDocument(new FileStream("Working with Footers.doc", FileMode.Open));
   IList<XWPFFooter> footers = wordDocument.FooterList;
   foreach (XWPFFooter footer in footers)

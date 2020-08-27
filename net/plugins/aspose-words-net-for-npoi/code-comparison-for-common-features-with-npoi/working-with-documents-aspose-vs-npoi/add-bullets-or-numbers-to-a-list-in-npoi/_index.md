@@ -10,7 +10,7 @@ The **Lists** class is used to Add bullets or numbers to a list in word document
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using Aspose.Words;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -59,7 +59,7 @@ The following can be used to add bullets using NPOI
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 using NPOI.XWPF.UserModel;
 XWPFDocument doc = new XWPFDocument();
 //simple bullet

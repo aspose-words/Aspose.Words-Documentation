@@ -8,7 +8,7 @@ url: /net/remove-page-breaks-from-document/
 ### **OpenXML**
 Below is the code example for removing page breaks from MS Word Document.
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Page Breaks.docx";
   RemovePageBreaks(fileName);
@@ -29,7 +29,7 @@ Below is the code example for removing page breaks from MS Word Document.
 ### **Aspose.Words**
 Below is the code example for removing page breaks from MS Word Document using Aspose.Words.
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Page Breaks.docx";
   Document doc = new Document(fileName);

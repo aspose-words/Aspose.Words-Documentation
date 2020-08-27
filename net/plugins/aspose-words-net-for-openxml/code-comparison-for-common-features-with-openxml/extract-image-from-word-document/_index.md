@@ -6,7 +6,7 @@ url: /net/extract-image-from-word-document/
 ---
 
 ### **OpenXML**
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string File = FilePath + "Extract Image - OpenXML.docx";
   using (WordprocessingDocument doc = WordprocessingDocument.Open(fileName, false))
@@ -25,7 +25,7 @@ url: /net/extract-image-from-word-document/
    }
 {{< /highlight >}}
 ### **Aspose.Words**
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string File = FilePath + "Extract Image - Aspose.docx";
   Document doc = new Document(fileName);

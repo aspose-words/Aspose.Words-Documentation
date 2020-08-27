@@ -8,7 +8,7 @@ url: /net/remove-hidden-text-from-document/
 ### **OpenXML**
 Below is the code example for removing hidden text from MS Word Document.
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Hidden Text.docx";       
   WDDeleteHiddenText(fileName);
@@ -47,7 +47,7 @@ Below is the code example for removing hidden text from MS Word Document.
 ### **Aspose.Words**
 Below is the example of removing Hidden text from MS Word Document
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
  string FilePath = @"..\..\..\..\Sample Files\";
  string fileName = FilePath + "Remove Hidden Text.docx";
  Document doc = new Document(fileName);

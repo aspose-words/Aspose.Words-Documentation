@@ -10,7 +10,7 @@ Use Range.Replace to find or replace a particular string within the current rang
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             builder.Write("Hello World");

@@ -10,7 +10,7 @@ Use the **Document.Protect(ProtectionType)** method to protect a document from
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 Document doc = new Document("../../data/document.doc");
 doc.Protect(ProtectionType.ReadOnly);
 
