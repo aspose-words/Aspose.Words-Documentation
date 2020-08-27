@@ -59,41 +59,23 @@ For developing Qt application using Visual Studio, you require to install [Qt Vi
 - Copy and paste the following content within the *CMakeLists.txt* file.
 
 {{< highlight cpp >}}
-
- cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
-
+cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
 project(Qt_AsposeWords_CMake)
-
 set(CMAKE_AUTOMOC ON)
-
 set(CMAKE_AUTORCC ON)
-
 set(CMAKE_AUTOUIC ON)
-
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
-
 find_package(CodePorting.Native.Cs2Cpp REQUIRED CONFIG PATHS ${CMAKE_CURRENT_SOURCE_DIR} NO_DEFAULT_PATH)
-
 find_package(Aspose.Words.Cpp REQUIRED CONFIG PATHS ${CMAKE_CURRENT_SOURCE_DIR} NO_DEFAULT_PATH)
-
 add_executable(Qt_AsposeWords_CMake
-
     main.cpp
-
 )
-
 target_link_libraries(Qt_AsposeWords_CMake PRIVATE Qt5::Widgets Aspose::Words) 
-
 set_directory_properties(PROPERTIES VS_STARTUP_PROJECT Qt_AsposeWords_CMake)
-
 file(TO_NATIVE_PATH "${Aspose.Words.Cpp_DIR}/lib/${CMAKE_VS_PLATFORM_NAME}" Aspose.Words.Cpp_DLL_PATH)
-
 file(TO_NATIVE_PATH "${CodePorting.Native.Cs2Cpp_DIR}/lib" CodePorting.Native.Cs2Cpp_DLL_PATH)
-
 file(TO_NATIVE_PATH "${Qt5_DIR}/../../../bin" Qt5_DLL_PATH)
-
 set_target_properties(Qt_AsposeWords_CMake PROPERTIES VS_DEBUGGER_ENVIRONMENT "PATH=${Aspose.Words.Cpp_DLL_PATH}\\$<CONFIG>;${CodePorting.Native.Cs2Cpp_DLL_PATH};${Qt5_DLL_PATH};$(Path)")
-
 {{< /highlight >}}
 
 
@@ -102,9 +84,7 @@ set_target_properties(Qt_AsposeWords_CMake PROPERTIES VS_DEBUGGER_ENVIRONMENT "P
 - Run the following command by replacing *<path-to-qt5>* with the path to *Qt5Config.cmake* file (i.e. C:\QT\5.14.2\msvc2017_64\lib\cmake\Qt5).
 
 {{< highlight bash >}}
-
- cmake -G "Visual Studio 15 2017" -Thost=x64 -Ax64 -S . -B build -D"Qt5_DIR=<path-to-qt5>"
-
+cmake -G "Visual Studio 15 2017" -Thost=x64 -Ax64 -S . -B build -D"Qt5_DIR=<path-to-qt5>"
 {{< /highlight >}}
 
 - Once you have completed the above-mentioned steps, a Visual Studio solution will be created in the folder. You are now ready to use Aspose.Words for C++ features within the Qt application.
