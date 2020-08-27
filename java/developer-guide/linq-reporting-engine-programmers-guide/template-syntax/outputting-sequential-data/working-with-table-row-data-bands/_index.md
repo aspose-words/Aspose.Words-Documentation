@@ -9,9 +9,9 @@ A table-row data band is a data band which body occupies single or multiple rows
 
 ||||
 | :- | :- | :- |
-|**<<foreach ...>> ...**|**...**|**...**|
+|**&lt;&lt;foreach ...&gt;&gt; ...**|**...**|**...**|
 |**...**|**...**|**...**|
-|**...**|**...**|**... <</foreach>>**|
+|**...**|**...**|**... &lt;&lt;/foreach&gt;&gt;**|
 ||||
 
 The following examples in this section are given using ds, a DataSet instance containing DataTable and DataRelation objects according to the following data model.
@@ -22,8 +22,8 @@ The most common use case of a table-row data band is the building of a document 
 
 |**Client**|**Manager**|**Contract Price**|
 | :- | :- | :- |
-|<p>**<<foreach [**</p><p>`    `**c in ds.Contracts**</p><p>**]>><<[c.Clients.Name]>>**</p>|**<<[c.Managers.Name]>>**|<p>**<<[c.Price]>><</**</p><p>**foreach>>**</p>|
-|**Total:**||<p>**<<[ds**</p><p>`   `**.Contracts**</p><p>`   `**. REF linqSum sum(c =>**</p><p>`      `**c.Price)]>>**</p>|
+|<p>**&lt;&lt;foreach [**</p><p>`    `**c in ds.Contracts**</p><p>**]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;**</p>|**&lt;&lt;[c.Managers.Name]&gt;&gt;**|<p>**&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/**</p><p>**foreach&gt;&gt;**</p>|
+|**Total:**||<p>**&lt;&lt;[ds**</p><p>`   `**.Contracts**</p><p>`   `**. REF linqSum sum(c =>**</p><p>`      `**c.Price)]&gt;&gt;**</p>|
 
 In this case, the engine produces a report as follows.
 
@@ -44,9 +44,9 @@ To populate a document table with a master-detail data, you can use nested table
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>**<<foreach [**</p><p>`    `**m in ds.Managers**</p><p>**]>><<[m.Name]>>**</p>|<p>**<<[m.Contracts. REF linqSum sum(**</p><p>`     `**c => c.Price)]>>**</p>|
-|<p>**<<foreach [**</p><p>`    `**c in m.Contracts**</p><p>**]>>  <<[c.Clients.Name]>>**</p>|<p>**<<[c.Price]>><</**</p><p>**foreach>><</**</p><p>**foreach>>**</p>|
-|**Total:**|<p>**<<[ds**</p><p>`   `**.Contracts**</p><p>`   `**. REF linqSum sum(c =>**</p><p>`      `**c.Price)]>>**</p>|
+|<p>**&lt;&lt;foreach [**</p><p>`    `**m in ds.Managers**</p><p>**]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;**</p>|<p>**&lt;&lt;[m.Contracts. REF linqSum sum(**</p><p>`     `**c => c.Price)]&gt;&gt;**</p>|
+|<p>**&lt;&lt;foreach [**</p><p>`    `**c in m.Contracts**</p><p>**]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt;**</p>|<p>**&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/**</p><p>**foreach&gt;&gt;&lt;&lt;/**</p><p>**foreach&gt;&gt;**</p>|
+|**Total:**|<p>**&lt;&lt;[ds**</p><p>`   `**.Contracts**</p><p>`   `**. REF linqSum sum(c =>**</p><p>`      `**c.Price)]&gt;&gt;**</p>|
 
 In this case, the engine produces a report as follows.
 
@@ -70,7 +70,7 @@ You can normally use common data bands nested to table-row data bands as well li
 
 |**Manager**|**Clients**|
 | :- | :- |
-|<p>**<<foreach [**</p><p>`    `**m in ds.Managers**</p><p>**]>><<[m.Name]>>**</p>|<p>**<<foreach [<br>`    `c in m.Contracts<br>]>><<[c.Clients.Name]>>**</p><p>**<</foreach>><</foreach>>**</p>|
+|<p>**&lt;&lt;foreach [**</p><p>`    `**m in ds.Managers**</p><p>**]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;**</p>|<p>**&lt;&lt;foreach [<br>`    `c in m.Contracts<br>]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;**</p><p>**&lt;&lt;/foreach&gt;&gt;&lt;&lt;/foreach&gt;&gt;**</p>|
 
 In this case, the engine produces a report as follows.
 
@@ -84,7 +84,7 @@ A special case is a data band inside a single-column table row. In such a case, 
 
 |**Managers**|
 | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>  <</foreach>>**|
+|**&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;  &lt;&lt;/foreach&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
@@ -96,7 +96,7 @@ However, if needed, you can override this behavior making the engine to treat su
 
 |**Managers**|
 | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>><</foreach -greedy>>**|
+|**&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;&lt;&lt;/foreach -greedy&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
