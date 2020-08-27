@@ -20,7 +20,7 @@ This section describes how to install Aspose.Words for Reporting Services on a c
 - To integrate with Visual Studio 2013 Report Designer, copy Bin\SSRS2014\Aspose.Words.ReportingServices.dll to the C:\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies directory.
 - To integrate with Visual Studio 2015 Report Designer, copy Bin\SSRS2016\Aspose.Words.ReportingServices.dll to the C:\Program Files\Microsoft Visual Studio 13.0\Common7\IDE\PrivateAssemblies directory.
 #### **Step 2. Register Aspose.Words for Reporting Services as a rendering extension.**
-Open C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config (where <Version> is “8” for Visual Studio 2005, “9.0” for Visual Studio 2008, “10.0” for Visual Studio 2010, “11.0” for Visual Studio 2012, “12.0” for Visual Studio 2013 and “13.0” for Visual Studio 2015) and add the following lines into the <Render> element:
+Open C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config (where &lt;Version&gt; is “8” for Visual Studio 2005, “9.0” for Visual Studio 2008, “10.0” for Visual Studio 2010, “11.0” for Visual Studio 2012, “12.0” for Visual Studio 2013 and “13.0” for Visual Studio 2015) and add the following lines into the &lt;Render&gt; element:
 
 {{< highlight csharp >}}
 <Render>
@@ -40,7 +40,7 @@ Open C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssem
 </Render>
 {{< /highlight >}}
 #### **Step 3. Give Aspose.Words for Reporting Services permissions to execute.**
-Open C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config (where <Version> is “8” for Visual Studio 2005, “9.0” for Visual Studio 2008, “10.0” for Visual Studio , “11.0” for Visual Studio 2012, “12.0” for Visual Studio 2013 and “13.0” for Visual Studio 2015) and add the following as the last item in the second to outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">):
+Open C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config (where &lt;Version&gt; is “8” for Visual Studio 2005, “9.0” for Visual Studio 2008, “10.0” for Visual Studio , “11.0” for Visual Studio 2012, “12.0” for Visual Studio 2013 and “13.0” for Visual Studio 2015) and add the following as the last item in the second to outer &lt;CodeGroup&gt; element (which should be &lt;CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "&gt;):
 
 {{< highlight csharp >}}
 <CodeGroup>
