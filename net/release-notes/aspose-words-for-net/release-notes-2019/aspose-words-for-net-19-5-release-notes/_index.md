@@ -157,17 +157,11 @@ Related issue: WORDSNET-18436.
 Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
 {{< highlight html >}}
-
- /// <summary>
-
+/// <summary>
 /// True if this paragraph break is a Style Separator. A style separator allows one
-
 /// paragraph to consist of parts that have different paragraph styles.
-
 /// </summary>
-
 public bool BreakIsStyleSeparator
-
 {{< /highlight >}}
 
 

@@ -122,17 +122,11 @@ doc.Save("SmallMetafilesUncompressed.doc", saveOptions);
 This property will be removed later by security reason.
 
 {{< highlight html >}}
-
- /// <summary>
-
+/// <summary>
 /// Returns true if a valid license has been applied; false if the component is running in evaluation mode.
-
 /// </summary>
-
 [Obsolete("This property is obsolete. SetLicense() method raises an exception if license is invalid.")]
-
 public bool IsLicensed
-
 {{< /highlight >}}
 ### **WORDSNET-3714 Ability to read macros from the document**
 Implemented feature to get access to VBA project source code. Following classes has been added: VbaProject, VbaModuleCollection, VbaModule.

@@ -224,17 +224,9 @@ In Aspose.Words model Markdown features are represented as corresponding styles 
 **Use Case 1. Explains how to produce the following Markdown document with emphases:**
 
 {{< highlight html >}}
-
- Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
-
-
-
+Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
 You can write **bold** or *italic* text. 
-
-
-
 You can also write ***BoldItalic***text.
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}

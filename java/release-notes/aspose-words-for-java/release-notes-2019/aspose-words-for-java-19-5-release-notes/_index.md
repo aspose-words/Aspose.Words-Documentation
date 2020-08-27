@@ -156,23 +156,13 @@ Related issue: WORDSNET-18436.
 
 Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
-{{< highlight html >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// True if this paragraph break is a Style Separator. A style separator allows one
-
 /// paragraph to consist of parts that have different paragraph styles.
-
 /// </summary>
-
 public bool BreakIsStyleSeparator
-
 {{< /highlight >}}
-
-
-
-
 
 It allows to identify Style Separator Paragraph.
 
@@ -273,6 +263,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
         protected StreamFontSource()
         {
         }
+		
         /// <summary>
         /// Ctor.
         /// </summary>
@@ -281,6 +272,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
             : base(priority)
         {
         }
+		
         /// <summary>
         /// Returns the type of the font source.
         /// </summary>
@@ -288,6 +280,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
         {
             get { return FontSourceType.FontStream; }
         }
+		
         /// <summary>
         /// This method should open the stream with font data on demand.
         /// </summary>

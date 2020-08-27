@@ -23,11 +23,7 @@ exporter.exportReport();
 **In JasperServer:**
 
 {{< highlight html >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="trimOversizedTexts" value="true"/>
-
 </bean>
-
 {{< /highlight >}}

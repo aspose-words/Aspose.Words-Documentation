@@ -236,17 +236,9 @@ HorizontalRule is a paragraph with HorizontalRule shape.
 **Use Case 1. Explains how to produce the following Markdown document with emphases:**
 
 {{< highlight html >}}
-
- Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
-
-
-
+Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
 You can write **bold** or *italic* text. 
-
-
-
 You can also write ***BoldItalic***text.
-
 {{< /highlight >}}
 
 {{< highlight csharp >}}

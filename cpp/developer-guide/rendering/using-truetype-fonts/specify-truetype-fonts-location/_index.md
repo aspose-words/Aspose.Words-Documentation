@@ -62,23 +62,14 @@ For instance, according to Android’s [fonts.xml](http://androidxref.com/9.0.0
 **Fonts.xml**
 
 {{< highlight html >}}
-
- <family name="serif">
-
+<family name="serif">
         <font weight="400" style="normal">NotoSerif-Regular.ttf</font>
-
         <font weight="700" style="normal">NotoSerif-Bold.ttf</font>
-
         <font weight="400" style="italic">NotoSerif-Italic.ttf</font>
-
         <font weight="700" style="italic">NotoSerif-BoldItalic.ttf</font>
-
 </family>
-
 <alias name="times" to="serif" />
-
 <alias name="times new roman" to="serif" />
-
 {{< /highlight >}}
 
 To search for similar fonts, the strategies described earlier are used. 

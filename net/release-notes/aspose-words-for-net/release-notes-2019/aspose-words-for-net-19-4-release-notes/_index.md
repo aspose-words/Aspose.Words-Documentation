@@ -155,9 +155,7 @@ Previously while loading HTML (SVG) document font families resolved by font name
 ` `For example, if ‘UnknownFont1’ is absent on the system the following font family declaration resolved as ‘Arial’ (‘Arial’ is name for ‘san-serif’ generic font name.)
 
 {{< highlight html >}}
-
- <p style='font-family:UnknownFont1, sans-serif;'>This is a paragraph.</p>
-
+<p style='font-family:UnknownFont1, sans-serif;'>This is a paragraph.</p>
 {{< /highlight >}}
 
 Now the customer can use font settings before loading the document (add substitution rule, specify fonts folder and etc). 
