@@ -13,14 +13,14 @@ A conditional block can have a default template option that is not bound with a 
 
 You can use the following syntax to declare a conditional block.
 
-**<<if [conditional_expression1]>>
+**&lt;&lt;if [conditional_expression1]&gt;&gt;
 template_option1
-<<elseif [conditional_expression2]>>
+&lt;&lt;elseif [conditional_expression2]&gt;&gt;
 template_option2
 ...
-<<else>>
+&lt;&lt;else&gt;&gt;
 default_template_option
-<</if>>**
+&lt;&lt;/if&gt;&gt;**
 
 **Note -** A conditional expression must return a Boolean value.
 
