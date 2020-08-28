@@ -11,13 +11,13 @@ A table-row conditional block is a conditional block which body occupies single 
 
 ||||
 | :- | :- | :- |
-|**<<if ...>> ...**|**...**|**...**|
+|**&lt;&lt;if ...&gt;&gt; ...**|**...**|**...**|
 |**...**|**...**|**...**|
-|**<<elseif ...>> ...**|**...**|**...**|
+|**&lt;&lt;elseif ...&gt;&gt; ...**|**...**|**...**|
 |**...**|**...**|**...**|
-|**<<else>> ...**|**...**|**...**|
+|**&lt;&lt;else&gt;&gt; ...**|**...**|**...**|
 |**...**|**...**|**...**|
-|**...**|**...**|**... <</if>>**|
+|**...**|**...**|**... &lt;&lt;/if&gt;&gt;**|
 ||||
 
 The following examples in this section are given using client, an instance of the Client class, and clients, an enumeration of instances of the Client class that is defined as follows.
@@ -37,15 +37,15 @@ Using table-row conditional blocks, you can pick to output a single row among se
 
 |**...**|**...**|**...**|
 | :- | :- | :- |
-|**<<if [client. REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]>><<[client. REF getName  \* MERGEFORMAT getName()]>>**|**<<[client. REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]>>**||
-|**<<else>><<[client. REF getName getName()]>>**|**<<[client. REF getCountry getCountry()]>>**|**<<[client. REF getLocalAddress getLocalAddress()]>><</if>>**|
+|**&lt;&lt;if [client. REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[client. REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[client. REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;**||
+|**&lt;&lt;else&gt;&gt;&lt;&lt;[client. REF getName getName()]&gt;&gt;**|**&lt;&lt;[client. REF getCountry getCountry()]&gt;&gt;**|**&lt;&lt;[client. REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;**|
 |**...**|**...**|**...**|
 
 You can normally use table-row conditional blocks within data bands to make elements of an enumeration look differently depending on a condition. Consider the following template.
 
-|**<<foreach [in clients]>><<if [ REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]>><<[ REF getName  \* MERGEFORMAT getName()]>>**|**<<[ REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]>>**||
+|**&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;if [ REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;**||
 | :- | :- | :- |
-|**<<else>><<[ REF getName getName()]>>**|**<<[ REF getCountry getCountry()]>>**|**<<[ REF getLocalAddress getLocalAddress()]>><</if>><</foreach>>**|
+|**&lt;&lt;else&gt;&gt;&lt;&lt;[ REF getName getName()]&gt;&gt;**|**&lt;&lt;[ REF getCountry getCountry()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
@@ -66,8 +66,8 @@ Also, you can use data bands inside table-row conditional blocks. For example, y
 
 |**Client**|**Country**|**Local Address**|
 | :- | :- | :- |
-|**<<if [!clients. REF linqAny any()]>>No data**|||
-|**<<else>><<foreach [in clients]>><<[ REF getName  \* MERGEFORMAT getName()]>>**|**<<[ REF getCountry  \* MERGEFORMAT getCountry()]>>**|**<<[ REF getLocalAddress getLocalAddress()]>><</foreach>><</if>>**|
+|**&lt;&lt;if [!clients. REF linqAny any()]&gt;&gt;No data**|||
+|**&lt;&lt;else&gt;&gt;&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[ REF getCountry  \* MERGEFORMAT getCountry()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/if&gt;&gt;**|
 
 In case when the corresponding enumeration is empty, the engine produces a report as follows.
 
@@ -79,7 +79,7 @@ A special case is a template option inside a single-column table row. In such a 
 
 |**Header**|
 | :- |
-|**<<if [false]>>Content to remove<</if>>**|
+|**&lt;&lt;if [false]&gt;&gt;Content to remove&lt;&lt;/if&gt;&gt;**|
 |**Footer**|
 
 In this case, the engine produces a report as follows.
@@ -93,7 +93,7 @@ However, if needed, you can override this behavior making the engine to treat su
 
 |**Header**|
 | :- |
-|**<<if [false]>>Content to remove<</if -greedy>>**|
+|**&lt;&lt;if [false]&gt;&gt;Content to remove&lt;&lt;/if -greedy&gt;&gt;**|
 |**Footer**|
 
 In this case, the engine produces a report as follows.
@@ -102,4 +102,4 @@ In this case, the engine produces a report as follows.
 | :- |
 |**Footer**|
 
-` `REF note **Note –** In the previous examples, tag <<if [false]>> is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
+` `REF note **Note –** In the previous examples, tag &lt;&lt;if [false]&gt;&gt; is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
