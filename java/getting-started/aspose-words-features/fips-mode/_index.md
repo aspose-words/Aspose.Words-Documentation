@@ -24,10 +24,8 @@ You can switch Aspose.Words from the General mode into the FIPS mode using the f
 
 **Java**
 
-{{< highlight java >}}
-
- SecuritySettings.startFipsMode();
-
+{{< highlight csharp >}}
+SecuritySettings.startFipsMode();
 {{< /highlight >}}
 
 For security reasons you cannot change the mode back to General at runtime.
@@ -38,10 +36,8 @@ Use the following method to make sure Aspose.Words for Java is in FIPS mode:
 
 **Java**
 
-{{< highlight java >}}
-
- SecuritySettings.isInFipsMode();
-
+{{< highlight csharp >}}
+SecuritySettings.isInFipsMode();
 {{< /highlight >}}
 
 When the FIPS mode is on, Aspose Words will prevent you from using some cryptorgraphy algorithms and keys with non-approved lengths.

@@ -112,7 +112,7 @@ During export WordArt is exported to HTML as a regular image. On import this fea
 |SmartArt (VML)|Planned| | |
 |Charts (VML)|Planned| | |
 |Shape Customizations|N/A| | |
-|Hyperlink on Shape|Yes|Imported from parent <a> element of the <img> element.|- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/href)|
+|Hyperlink on Shape|Yes|Imported from parent &lt;a&gt; element of the &lt;img&gt; element.|- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/href)|
 |Watermark|N/A| | |
 ## **WordArt**
 WordArt is imported as a Shape object in Aspose.Words. This class provides properties to extract and modify properties of a WordArt object. Using Aspose.Words you can create new WordArt graphics. Note that not all WordArt features are avalible through the API. During export WordArt is exported to HTML as a regular image. On import this feature is loaded as a regular image and not as a working WordArt object. There is no tag that directly imports a new WordArt object from HTML. See the following links in the documentation for further information:
@@ -132,7 +132,7 @@ WordArt is imported as a Shape object in Aspose.Words. This class provides prope
 |Align and Justify Text|Planned| |- **Textbox.TextPathAlignment**|
 |WordArt Shape|Planned| | |
 ## **Horizontal Line Object**
-Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a Shape can also represent an image there is a property which returns if this shape is a Horizontal Line Object. Using Aspose.Words you can create new or modify existing Horizontal Rule objects. Imported from <hr> element. See the following link in the documentation for further information:
+Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a Shape can also represent an image there is a property which returns if this shape is a Horizontal Line Object. Using Aspose.Words you can create new or modify existing Horizontal Rule objects. Imported from &lt;hr&gt; element. See the following link in the documentation for further information:
 
 - [Shape.IsHorizontalRule](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/ishorizontalrule)
 
@@ -142,8 +142,8 @@ Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a
 |Height|Yes|Imported from height:XXpt on style attribute.|- [Shape.Height](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/height)|
 |Color|Yes|Imported from color on style attribute. Note that border:none must be present on the style attribute for the color to be imported correctly.|- [Shape.FillColor](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fillcolor)|
 |Alignment|Yes|Imported from "text-align:XXX" on style attribute.|- [Shape.HorizontalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/horizontalalignment)|
-|Hyperlink|Yes|An <hr> tag wrapped with an <a> hyperlink element is imported as a working hyperlink. <br><br>However this link is not of hyperlink property on a Horiziontal Rule Object, instead the object is wrapped with a Hyperlink field.|- **Shape.HRef**|
-|Image|Planned|There are plans to import a horizontal line with an image from <hr> element with style="background: url(xxx.png)".|- **Shape.HRef**|
+|Hyperlink|Yes|An &lt;hr&gt; tag wrapped with an &lt;a&gt; hyperlink element is imported as a working hyperlink. <br><br>However this link is not of hyperlink property on a Horiziontal Rule Object, instead the object is wrapped with a Hyperlink field.|- **Shape.HRef**|
+|Image|Planned|There are plans to import a horizontal line with an image from &lt;hr&gt; element with style="background: url(xxx.png)".|- **Shape.HRef**|
 ## **Position**
 Aspose.Words supports creating objects with a variety of different positioning settings. Almost all possible settings are supported in the Aspose.Words model. You can also access and modify existing shape's positioning. Currently all drawing objects are imported as inline. This will be improved in a future version. See the following links in the documentation for further information:
 
@@ -172,7 +172,7 @@ Aspose.Words supports creating objects with a variety of different positioning s
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Width and Height|Yes|Imported from height and width attributes. It is planned to import these attributes using the style attribute on <img>.|<p>- **Shape.Width**</p><p>- **Shape.Height**</p>|
+|Width and Height|Yes|Imported from height and width attributes. It is planned to import these attributes using the style attribute on &lt;img&gt;.|<p>- **Shape.Width**</p><p>- **Shape.Height**</p>|
 |Scale|N/A|Only the absolute size of the input image is taken as the shape size.| |
 |Relative Size|N/A| | |
 |Lock Aspect Ratio|N/A|Imported as enabled on shapes by default.| |

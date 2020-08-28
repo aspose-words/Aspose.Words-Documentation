@@ -13,10 +13,8 @@ This page contains release notes for [Aspose.Words for Java 11.5.0](http://www.a
 
 There are 143 improvements and fixes in this regular monthly release. Most notable are: 
 
-{{< highlight java >}}
-
- Added plaintext import format (TXT). Formatting of paragraphs and lists is supported;Support for reading and importing of AltChunk content (DOCX) into document model;Support for reading/writing MailMerge settings in RTF;Better validation of AW generated DOCX documents through OpenXML SDK 2.0;Office Math formulas are preserved during DOCX&gt;DOC&gt;DOCX and DOCX&gt;WML&gt;DOCX roundtrip scenarios;Table/row revisions are supported in DOCX;Improvements in table width handling for HTML and PDF;Added option to specify zoom factor and fit type in rendered PDF documents (see PdfSaveOptions.ZoomFactor and PdfSaveOptions.OpenFitOptions);Supported signature image rendering for digital signature line in rendered PDF documents;Enhanced rendering of Office MathML;Fixed problem with CMYK image export to PDF;Fixed problem with decreased metafile size in some documents (fixed page formats);Fixed problem with disappearing metafile images in rendered documents (fixed page formats); 
-
+{{< highlight csharp >}}
+Added plaintext import format (TXT). Formatting of paragraphs and lists is supported;Support for reading and importing of AltChunk content (DOCX) into document model;Support for reading/writing MailMerge settings in RTF;Better validation of AW generated DOCX documents through OpenXML SDK 2.0;Office Math formulas are preserved during DOCX&gt;DOC&gt;DOCX and DOCX&gt;WML&gt;DOCX roundtrip scenarios;Table/row revisions are supported in DOCX;Improvements in table width handling for HTML and PDF;Added option to specify zoom factor and fit type in rendered PDF documents (see PdfSaveOptions.ZoomFactor and PdfSaveOptions.OpenFitOptions);Supported signature image rendering for digital signature line in rendered PDF documents;Enhanced rendering of Office MathML;Fixed problem with CMYK image export to PDF;Fixed problem with decreased metafile size in some documents (fixed page formats);Fixed problem with disappearing metafile images in rendered documents (fixed page formats); 
 {{< /highlight >}}
 
 New features 

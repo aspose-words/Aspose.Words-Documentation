@@ -17,10 +17,8 @@ You can download/check out the project source codes from the following locations
 ## **Building Aspose.Words Java for Struts 1.3 from Source Codes**
 After checking out source codes from any of the above repositories, apply the following mvn commands:
 
-{{< highlight java >}}
-
- $ mvn -U clean package 
-
+{{< highlight csharp >}}
+$ mvn -U clean package 
 {{< /highlight >}}
 
 This will build "Strutsbookapp.war" in the target folder.

@@ -71,7 +71,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9309|Hyperlinks color is changed after conversion from HTML to Docx/Pdf|Bug|
 |WORDSNET-9314|Font changes from Arial to Courier New during open/save a RTF|Bug|
 |WORDSNET-9332|Aspose.Words produces a corrupt DOCX file.|Bug|
-|WORDSNET-9333|Lines of text imported from <pre> HTML elements have non-zero spacing|Bug|
+|WORDSNET-9333|Lines of text imported from &lt;pre&gt; HTML elements have non-zero spacing|Bug|
 |WORDSNET-9336|Left and Hanging indentation values are incorrectly imported from HTML|Bug|
 |WORDSNET-9337|StructuredDocumentTag does not export correctly in output Doc/Pdf files|Bug|
 |WORDSNET-9341|Styles are imported with incorrect settings when importing sections|Bug|

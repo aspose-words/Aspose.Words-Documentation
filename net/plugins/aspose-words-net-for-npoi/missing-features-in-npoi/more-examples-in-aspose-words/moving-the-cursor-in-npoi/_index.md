@@ -10,34 +10,22 @@ If you need to move to the beginning of the document, call **DocumentBuilder.Mo
 
 **C#**
 
-{{< highlight cs >}}
-
- Document doc = new Document("../../data/document.doc");
-
+{{< highlight csharp >}}
+Document doc = new Document("../../data/document.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 //Shows how to access the current node in a document builder.
-
 Node curNode = builder.CurrentNode;
-
 Paragraph curParagraph = builder.CurrentParagraph;
 
 // Shows how to move a cursor position to a specified node.
-
 builder.MoveTo(doc.FirstSection.Body.LastParagraph);
 
 // Shows how to move a cursor position to the beginning or end of a document.
-
 builder.MoveToDocumentEnd();
-
 builder.Writeln("This is the end of the document.");
-
 builder.MoveToDocumentStart();
-
 builder.Writeln("This is the beginning of the document.");
-
 doc.Save("outputDocument.doc");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Moving the Cursor** form any of the below mentioned social coding sites:

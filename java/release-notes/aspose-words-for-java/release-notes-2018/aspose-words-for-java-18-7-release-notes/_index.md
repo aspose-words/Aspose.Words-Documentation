@@ -138,104 +138,57 @@ A revision in Aspose.Words is a change in one document node. A set of sequential
 
 The new public RevisionGroupCollection and RevisionGroup classes have been added. Also the RevisionCollection.Groups property has been implemented.
 
-{{< highlight java >}}
-
- /// <summary>
-
-/// A collection of <see cref="RevisionGroup"/> objects that represent revision groups in the document.
-
-/// </summary>
-
-public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
-
-{
-
-    /// <summary>
-
-    /// Returns a revision group at the specified index.
-
-    /// </summary>
-
-    public RevisionGroup this[int index] { get; }
-
-    /// <summary>
-
-    /// Returns the number of revision groups in the collection.
-
-    /// </summary>
-
-    public int Count { get; }
-
-}
-
+{{< highlight csharp >}}
 /// <summary>
-
-/// Represents a group of sequential <see cref="Revision" /> objects.
-
+/// A collection of <see cref="RevisionGroup"/> objects that represent revision groups in the document.
 /// </summary>
-
+public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
+{
+    /// <summary>
+    /// Returns a revision group at the specified index.
+    /// </summary>
+    public RevisionGroup this[int index] { get; }
+    /// <summary>
+    /// Returns the number of revision groups in the collection.
+    /// </summary>
+    public int Count { get; }
+}
+/// <summary>
+/// Represents a group of sequential <see cref="Revision" /> objects.
+/// </summary>
 public class RevisionGroup
-
 {
-
     /// <summary>
-
     /// Gets the type of revisions included in this group.
-
     /// </summary>
-
     public RevisionType RevisionType { get; }
-
     /// <summary>
-
     /// Gets the author of this revision group.
-
     /// </summary>
-
     public string Author { get; }
-
     /// <summary>
-
     /// Returns inserted/deleted/moved text or description of format change.
-
     /// </summary>
-
     public string Text { get; }
-
 }
-
 public class RevisionCollection : IEnumerable<Revision>
-
 {
-
     /// <summary>
-
     /// Collection of revision groups.
-
     /// </summary>
-
     public RevisionGroupCollection Groups { get; }
-
 }
-
 {{< /highlight >}}
 
 **UC**
 
-{{< highlight java >}}
-
- Document doc = new Document(myDir + "Document1.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(myDir + "Document1.docx");
 foreach (RevisionGroup group in doc.Revisions.Groups)
-
 {
-
     Console.WriteLine("{0}, {1}:", group.Author, group.RevisionType);
-
     Console.WriteLine(group.Text);
-
 }
-
 {{< /highlight >}}
 ### **Generics**
 Untyped containers like **ArrayList** have been replaced with typed containers like **List<T>**.
@@ -243,736 +196,491 @@ As a result some public API becomes changed.
 ### **1. MailMerge**
 Before:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Returns a collection of mail merge regions with the specified name.
-
 /// </summary>
-
 /// <param name="regionName">Region name (case-insensitive).</param>
-
 /// <returns>The list of regions.</returns>
-
 public ArrayList GetRegionsByName(string regionName)
-
 {
-
 ...
-
 }
-
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
-
+{{< highlight csharp >}}
+public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 {
-
 ...
-
 }
-
 {{< /highlight >}}
 ### **2. MailMergeRegionInfo**
 Before:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Returns a list of child regions.
-
 /// </summary>
-
 public ArrayList Regions
-
 {
-
     get { return mChildRegions; }
-
 }
-
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public IList<MailMergeRegionInfo> Regions
-
+{{< highlight csharp >}}
+public IList<MailMergeRegionInfo> Regions
 {
-
     get {...}
-
 }
-
 {{< /highlight >}}
 ### **3. MailMergeRegionInfo**
 Before:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Returns a list of child merge fields.
-
 /// </summary>
-
 public ArrayList Fields
-
 {
-
     get { return mChildFields; }
-
 }
-
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public IList<FieldMergeField> Fields
-
+{{< highlight csharp >}}
+public IList<FieldMergeField> Fields
 {
-
     get { return mChildFields; }
-
 }
-
 {{< /highlight >}}
 ### **4. DocumentInfo**
 Before:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets custom properties of the document.
-
 /// </summary>
-
 public SortedStringList CustomProperties
-
 {
-
     get { return mCustomProperties; }
-
     set { mCustomProperties = value; }
-
 }
-
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets custom properties of the document.
-
 /// </summary>
-
 public SortedStringListGeneric<object> CustomProperties
-
 {
-
     get { return mCustomProperties; }
-
     set { mCustomProperties = value; }
-
 }
-
 {{< /highlight >}}
 ### **5. BorderCollection**
 Before:
 
-{{< highlight java >}}
-
- public sealed class BorderCollection : IEnumerable
-
+{{< highlight csharp >}}
+public sealed class BorderCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public sealed class BorderCollection : IEnumerable<Border>
-
+{{< highlight csharp >}}
+public sealed class BorderCollection : IEnumerable<Border>
 {{< /highlight >}}
 ### **6. DigitalSignatureCollection**
 Before:
 
-{{< highlight java >}}
-
- public class DigitalSignatureCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class DigitalSignatureCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
-
+{{< highlight csharp >}}
+public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 {{< /highlight >}}
 ### **7. VariableCollection**
 Before:
 
-{{< highlight java >}}
-
- public class VariableCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class VariableCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
-
+{{< highlight csharp >}}
+public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 {{< /highlight >}}
 ### **8. WarningInfoCollection**
 Before:
 
-{{< highlight java >}}
-
- public class WarningInfoCollection : IWarningCallback, IEnumerable
-
+{{< highlight csharp >}}
+public class WarningInfoCollection : IWarningCallback, IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class WarningInfoCollection : IWarningCallback, IEnumerable<WarningInfo>
-
+{{< highlight csharp >}}
+public class WarningInfoCollection : IWarningCallback, IEnumerable<WarningInfo>
 {{< /highlight >}}
 ### **9. ChartDataLabelCollection**
 Before:
 
-{{< highlight java >}}
-
- public class ChartDataLabelCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class ChartDataLabelCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
-
+{{< highlight csharp >}}
+public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 {{< /highlight >}}
 ### **10. ChartDataPointCollection**
 Before:
 
-{{< highlight java >}}
-
- public class ChartDataPointCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class ChartDataPointCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
-
+{{< highlight csharp >}}
+public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 {{< /highlight >}}
 ### **11. ChartSeriesCollection**
 Before:
 
-{{< highlight java >}}
-
- public class ChartSeriesCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class ChartSeriesCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class ChartSeriesCollection : IEnumerable<ChartSeries>
-
+{{< highlight csharp >}}
+public class ChartSeriesCollection : IEnumerable<ChartSeries>
 {{< /highlight >}}
 ### **12. Type of DmlChartDataLabelAttrs.Extensions property changed.**
 Before:
 
-{{< highlight java >}}
-
- StringToObjDictionary
-
+{{< highlight csharp >}}
+StringToObjDictionary
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- StringToObjDictionary<DmlExtension>
-
+{{< highlight csharp >}}
+StringToObjDictionary<DmlExtension>
 {{< /highlight >}}
 ### **13. ListCollection**
 Before:
 
-{{< highlight java >}}
-
- public class ListCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class ListCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class ListCollection : IEnumerable<List>
-
+{{< highlight csharp >}}
+public class ListCollection : IEnumerable<List>
 {{< /highlight >}}
 ### **14. ListLevelCollection**
 Before:
 
-{{< highlight java >}}
-
- public class ListLevelCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class ListLevelCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class ListLevelCollection : IEnumerable<ListLevel>
-
+{{< highlight csharp >}}
+public class ListLevelCollection : IEnumerable<ListLevel>
 {{< /highlight >}}
 ### **15. CustomPartCollection**
 Before:
 
-{{< highlight java >}}
-
- public class CustomPartCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class CustomPartCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class CustomPartCollection : IEnumerable<CustomPart>
-
+{{< highlight csharp >}}
+public class CustomPartCollection : IEnumerable<CustomPart>
 {{< /highlight >}}
 ### **16. CustomXmlPartCollection**
 Before:
 
-{{< highlight java >}}
-
- public class CustomXmlPartCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class CustomXmlPartCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
-
+{{< highlight csharp >}}
+public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 {{< /highlight >}}
 ### **17. CustomXmlPropertyCollection**
 Before:
 
-{{< highlight java >}}
-
- public class CustomXmlPropertyCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class CustomXmlPropertyCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
-
+{{< highlight csharp >}}
+public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 {{< /highlight >}}
 ### **18. CustomXmlSchemaCollection**
 Before:
 
-{{< highlight java >}}
-
- public class CustomXmlSchemaCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class CustomXmlSchemaCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class CustomXmlSchemaCollection : IEnumerable<string>
-
+{{< highlight csharp >}}
+public class CustomXmlSchemaCollection : IEnumerable<string>
 {{< /highlight >}}
 ### **19. SdtListItemCollection**
 Before:
 
-{{< highlight java >}}
-
- public class SdtListItemCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class SdtListItemCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class SdtListItemCollection : IEnumerable<SdtListItem>
-
+{{< highlight csharp >}}
+public class SdtListItemCollection : IEnumerable<SdtListItem>
 {{< /highlight >}}
 ### **20. CompositeNode**
 Before:
 
-{{< highlight java >}}
-
- public abstract class CompositeNode : Node, IEnumerable, INodeCollection
-
-#if !JAVA  // XPath navigation is supported on Java, but implementing this interface is not needed.
-
+{{< highlight csharp >}}
+public abstract class CompositeNode : Node, IEnumerable, INodeCollection
+#if !JAVA
+  // XPath navigation is supported on Java, but implementing this interface is not needed.
         , IXPathNavigable
-
 #endif
-
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public abstract class CompositeNode : Node, IEnumerable<Node>, INodeCollection
-
-#if !JAVA  // XPath navigation is supported on Java, but implementing this interface is not needed.
-
+{{< highlight csharp >}}
+public abstract class CompositeNode : Node, IEnumerable<Node>, INodeCollection
+#if !JAVA
+  // XPath navigation is supported on Java, but implementing this interface is not needed.
         , IXPathNavigable
-
 #endif
-
 {{< /highlight >}}
 ### **21. NodeCollection**
 Before:
 
-{{< highlight java >}}
-
- public class NodeCollection : INodeCollection, IEnumerable
-
+{{< highlight csharp >}}
+public class NodeCollection : INodeCollection, IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class NodeCollection : INodeCollection, IEnumerable<Node>
-
+{{< highlight csharp >}}
+public class NodeCollection : INodeCollection, IEnumerable<Node>
 {{< /highlight >}}
 ### **22. NodeList**
 Before:
 
-{{< highlight java >}}
-
- public class NodeList : IEnumerable
-
+{{< highlight csharp >}}
+public class NodeList : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class NodeList : IEnumerable<Node>
-
+{{< highlight csharp >}}
+public class NodeList : IEnumerable<Node>
 {{< /highlight >}}
 ### **23. DocumentPropertyCollection**
 Before:
 
-{{< highlight java >}}
-
- public abstract class DocumentPropertyCollection : IEnumerable
-
+{{< highlight csharp >}}
+public abstract class DocumentPropertyCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
-
+{{< highlight csharp >}}
+public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 {{< /highlight >}}
 ### **24. RevisionCollection**
 Before:
 
-{{< highlight java >}}
-
- public class RevisionCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class RevisionCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class RevisionCollection : IEnumerable<Revision>
-
+{{< highlight csharp >}}
+public class RevisionCollection : IEnumerable<Revision>
 {{< /highlight >}}
 ### **25. BookmarksOutlineLevelCollection**
 Before:
 
-{{< highlight java >}}
-
- public class BookmarksOutlineLevelCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class BookmarksOutlineLevelCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
-
+{{< highlight csharp >}}
+public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
 {{< /highlight >}}
 ### **26. OdsoFieldMapDataCollection**
 Before:
 
-{{< highlight java >}}
-
- public class OdsoFieldMapDataCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class OdsoFieldMapDataCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
-
+{{< highlight csharp >}}
+public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 {{< /highlight >}}
 ### **27. OdsoRecipientDataCollection**
 Before:
 
-{{< highlight java >}}
-
- public class OdsoRecipientDataCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class OdsoRecipientDataCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
-
+{{< highlight csharp >}}
+public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 {{< /highlight >}}
 ### **28. StyleCollection**
 Before:
 
-{{< highlight java >}}
-
- public class StyleCollection : IEnumerable
-
+{{< highlight csharp >}}
+public class StyleCollection : IEnumerable
 {{< /highlight >}}
 
 After:
 
-{{< highlight java >}}
-
- public class StyleCollection : IEnumerable<Style>
-
+{{< highlight csharp >}}
+public class StyleCollection : IEnumerable<Style>
 {{< /highlight >}}
 ### **Added Public Property HeaderFooterBookmarksExportMode in PdfSaveOptions**
 WORDSNET-9079 has now been resolved.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Determines how bookmarks in headers/footers are exported.
-
 /// </summary>
-
 /// <remarks>
-
 /// The default value is <see cref="Aspose.Words.Saving.HeaderFooterBookmarksExportMode.All"/>.
-
 /// </remarks>
-
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies how bookmarks in headers/footers are exported.
-
 /// </summary>
-
 public enum HeaderFooterBookmarksExportMode
-
 {
-
     /// <summary>
-
     /// Bookmarks in headers/footers are not exported.
-
     /// </summary>
-
     None,
-
     /// <summary>
-
     /// Only bookmark in first header/footer of the section is exported.
-
     /// </summary>
-
     First,
-
     /// <summary>
-
     /// Bookmarks in all headers/footers are exported.
-
     /// </summary>
-
     All
-
 }
-
 {{< /highlight >}}
 ### **Added FontSourceBase.GetAvailableFonts Method**
 WORDSNET-16731 has now been resolved. This method returns the list of fonts available via specific font source.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Returns list of fonts available via this source.
-
 /// </summary>
-
 public IList<PhysicalFontInfo> GetAvailableFonts();
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies information about physical font available to Aspose.Words font engine.
-
 /// </summary>
-
 public class PhysicalFontInfo
-
 {
-
     /// <summary>
-
     /// Family name of the font.
-
     /// </summary>
-
     public string FontFamilyName { get; }
-
     /// <summary>
-
     /// Full name of the font.
-
     /// </summary>
-
     public string FullFontName { get; }
-
     /// <summary>
-
     /// Version string of the font.
-
     /// </summary>
-
     public string Version { get; }
-
     /// <summary>
-
     /// Path to the font file if any.
-
     /// </summary>
-
     public string FilePath { get; }
-
 }
-
 {{< /highlight >}}
 ### **Introduced new Comparison Settings**
 WORDSNET-16806 has now been resolved. The following settings were added to the CompareOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// True indicates that documents comparison is case insensitive.
-
 /// By default comparison is case sensitive.
-
 /// </summary>
-
 public bool IgnoreCaseChanges
-
 /// <summary>
-
 /// Specifies whether to compare the differences in data contained in tables.
-
 /// By default tables are not ignored.
-
 /// </summary>
-
 public bool IgnoreTables
-
 /// <summary>
-
 /// Specifies whether to compare differences in fields.
-
 /// By default fields are not ignored.
-
 /// </summary>
-
 public bool IgnoreFields
-
 /// <summary>
-
 /// Specifies whether to compare differences in footnotes and endnotes.
-
 /// By default footnotes are not ignored.
-
 /// </summary>
-
 public bool IgnoreFootnotes
-
 /// <summary>
-
 /// Specifies whether to compare differences in comments.
-
 /// By default comments are not ignored.
-
 /// </summary>
-
 public bool IgnoreComments
-
 /// <summary>
-
 /// Specifies whether to compare differences in the data contained within text boxes.
-
 /// By default textboxes are not ignored.
-
 /// </summary>
-
 public bool IgnoreTextboxes
-
 {{< /highlight >}}
 
 These options were created according to appropriate analogs in the "Compare Documents" dialog in the MS Word:
@@ -986,18 +694,12 @@ These options were created according to appropriate analogs in the "Compare Docu
 
 Usage:
 
-{{< highlight java >}}
-
- Document docA = new Docment(myDir + "TestA.docx");
-
+{{< highlight csharp >}}
+Document docA = new Docment(myDir + "TestA.docx");
 Document docB = new Document(myDir + "Test.docx");
-
 CompareOptions options = new CompareOptions();
-
 options.IgnoreTables = true;
-
 docA.Compare(docB, "am", DateTime.Now, options);
-
 {{< /highlight >}}
 ### **Added Public Property TxtLoadOptions.DetectNumberingWithWhitespaces**
 WORDSNET-14858 has been resolved.
@@ -1005,48 +707,31 @@ WORDSNET-14858 has been resolved.
 A public property ***TxtLoadOptions.DetectNumberingWithWhitespaces*** was introduced instead of previously used LoadOptions.AllowTrailingWhitespaceForListItems.
 ***LoadOptions.AllowTrailingWhitespaceForListItems*** is obsolete property now.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Allows to specify how numbered list items are recognized when document is imported from plain text format.
-
 /// The default value is true.</summary>
-
 /// <remarks>
-
 /// <para> If this option is set to false, lists recognition algorithm detects list paragraphs, when list numbers ends with
-
 /// either dot, right bracket or bullet symbols (such as "•", "*", "-" or "o").</para>
-
 /// <para> If this option is set to true, whitespaces are also used as list number delimeters:
-
 /// list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.</para>
-
 /// </remarks>
-
 public bool DetectNumberingWithWhitespaces
-
 {{< /highlight >}}
 
 UC:
 
-{{< highlight java >}}
-
- TxtLoadOptions loadOptions = new TxtLoadOptions();
-
+{{< highlight csharp >}}
+TxtLoadOptions loadOptions = new TxtLoadOptions();
 loadOptions.DetectNumberingWithWhitespaces = false;
-
 Document doc = new Document(fileName, loadOptions);
-
 {{< /highlight >}}
 ### **API for Removing Personal Information Setting from Document**
 WORDSNET-16914 has been resolved. We have added new public option
 
-{{< highlight java >}}
-
- bool Document.RemovePersonalInformation
-
+{{< highlight csharp >}}
+bool Document.RemovePersonalInformation
 {{< /highlight >}}
 
 Important note: Setting this option does not actually remove personal information while document is processed in Aspose.Words and affects only Microsoft Word behavior.
@@ -1055,32 +740,20 @@ WORDSNET-14858 has been resolved. A new LoadOptions class for dealing with the t
 
 New public properties ***LeadingSpacesOptions*** and ***TrailingSpacesOptions*** were added into the TxtLoadOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets preferred option of a trailing space handling.
-
 /// Default value is <see cref="TxtTrailingSpacesOptions.Trim"/>.
-
 /// </summary>
-
 public TxtTrailingSpacesOptions TrailingSpacesOptions
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets preferred option of a leading space handling.
-
 /// Default value is <see cref="TxtLeadingSpacesOptions.ConvertToIndent"/>.
-
 /// </summary>
-
 public TxtLeadingSpacesOptions LeadingSpacesOptions
-
 {{< /highlight >}}
 
 These properties allows to control  the way of handling leading and trailing spaces during loading txt file.
@@ -1090,16 +763,11 @@ Trailing spaces could be trimmed or preserved.
 
 UC:
 
-{{< highlight java >}}
-
- TxtLoadOptions loadOptions = new TxtLoadOptions();
-
+{{< highlight csharp >}}
+TxtLoadOptions loadOptions = new TxtLoadOptions();
 loadOptions.LeadingSpacesOptions = TxtLeadingSpacesOptions.Trim;
-
 loadOptions.TrailingSpacesOptions = TxtTrailingSpacesOptions.Trim;
-
 Document doc = new Document(fileName, loadOptions);
-
 {{< /highlight >}}
 ### **Obsolete Method RemoveUnusedResources() was Removed from Document Class**
 Obsolete method RemoveUnusedResources() was removed from Document class. Please use Document.Cleanup() method instead.

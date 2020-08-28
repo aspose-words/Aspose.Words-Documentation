@@ -14,23 +14,12 @@ Aspose.Words for Reporting Services exports the report’s body border as a page
 To make the page border continuous, add the following lines to the *<Extension>* element corresponding to a particular renderer: 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <PageBorder>Continuous</PageBorder>
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}

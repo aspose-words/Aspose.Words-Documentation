@@ -174,12 +174,9 @@ This section lists public API changes that were introduced in Aspose.Words 16.7.
 ### **Added Public Methods to the DigitalSignatureUtil Class that Allow to Specify a Password for Decrypting Document before it will be Signed.**
 WORDSNET-13735 is resolved and we have added following static methods for signing encrypted documents:
 
-{{< highlight java >}}
-
- public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
-
+{{< highlight csharp >}}
+public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
-
 {{< /highlight >}}
 
 Methods sign source file or stream using given certificate holder and writes signed document to destination file/stream.
@@ -188,54 +185,40 @@ Also, this is meaningful only if source document has **DOCX** format.
 
 **UC1 (working with file)**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Create certificate holder from a file.
-
+// Create certificate holder from a file.
 CertificateHolder cert = CertificateHolder.create("certFileName", "certPassword");
 
 // Digitally sign encrypted with "docPassword" document in the specified path.
-
 DigitalSignatureUtil.sign("srcDocFileName", "signedDocFileName", cert, "Comment", new Date(), "docPassword");
 
 // Open encrypted document from a file.
-
 Document signedDoc = new Document("signedDocFileName", new LoadOptions("docPassword"));
 
 // Check that encrypted document was successfully signed.
-
 DigitalSignatureCollection signatures = doc.getDigitalSignatures();
-
 if (signatures.isValid() && (signatures.getCount() > 0))
-
     System.out.println("The document was signed successfully.");
-
 {{< /highlight >}}
 
 UC2 (working with stream)
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Create certificate holder from a file.
-
+// Create certificate holder from a file.
 CertificateHolder cert = CertificateHolder.create("certFileName", "certPassword");
 
 // Digitally sign encrypted with "docPassword" document in the specified stream.
-
 DigitalSignatureUtil.sign(srcDocStream, signedDocStream, cert, "Comment", new Date(), "docPassword");
 
 // Open encrypted document from a stream.
-
 Document signedDoc = new Document("signedDocStream", new LoadOptions("docPassword"));
 
 // Check that encrypted document was successfully signed.
-
 DigitalSignatureCollection signatures = doc.getDigitalSignatures();
-
 if (signatures.isValid() && (signatures.getCount() > 0))
-
     System.out.println("The document was signed successfully.");
-
 {{< /highlight >}}
 ### **A Document Page can now be Saved in GIF Format**
 The document page can now be saved into GIF format just like any other image formats. A new 'Gif' member is added into 'SaveFormat' enum.
@@ -244,30 +227,23 @@ Aspose.Words for .Net uses standard GIF codec provided by GDI+. Aspose.Words fo
 
 Sample code:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Open some document.
-
+// Open some document.
 Document doc = new Document("mydocument.docx");
 
 // Save the second page as GIF image.
-
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.GIF);
-
 saveOptions.setPageIndex(1);
-
 doc.save("mydocument.gif", saveOptions);
-
 {{< /highlight >}}
 ### **Exposed more String and Number Formats for Expression Results in LINQ Reporting Engine**
 The ["Outputting Expression Results"](http://www.aspose.com/docs/display/wordsjava/Outputting+Expression+Results) section of the engine's documentation was updated to describe the change.
 ### **MsWordVersion Enum Moved to Aspose.Words.Settings**
 Customers will now have to use 
 
-{{< highlight java >}}
-
- using Aspose.Words.Settings;
-
+{{< highlight csharp >}}
+using Aspose.Words.Settings;
 {{< /highlight >}}
 
 to work with MsWordVersion.
@@ -278,12 +254,9 @@ During WORDSNET-1252 implementation we decided to create new namespace Aspose.Wo
 ### **WORDSNET-1252. Advanced replace methods**
 Two methods were added to class Range to support advanced find/replace operations.
 
-{{< highlight java >}}
-
- public int Replace(string pattern, string replacement, FindReplaceOptions options)
-
+{{< highlight csharp >}}
+public int Replace(string pattern, string replacement, FindReplaceOptions options)
 public int Replace(Regex pattern, string replacement, FindReplaceOptions options)
-
 {{< /highlight >}}
 
 These methods support breaks in both search pattern and replacement string. Customer needs to use special meta-characters to specify breaks: &p for paragraph break, &b for section break, &m for page break and &l for manual line break.Also new FindReplaceOptions class was introduced to hold all find/replace options. Most notable member of this class is ApplyFont/ApplyParagraphFormat. It allow to specify text/paragraph formatting to be applied to replacement text.
@@ -294,88 +267,55 @@ Below are couple examples.
 
 Demonstrate how breaks support works. In this example we replace certain paragraph breaks with new paragraph breaks + some underline while make it centered. Additionally we replace custom text tag with section break.
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.getFont().setName("Arial");
-
 builder.writeln("First section");
-
 builder.writeln("  1st paragraph");
-
 builder.writeln("  2nd paragraph");
-
 builder.writeln("{insert-section}");
-
 builder.writeln("Second section");
-
 builder.writeln("  1st paragraph");
-
 FindReplaceOptions options = new FindReplaceOptions();
-
 options.getApplyParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 
 // Double each paragraph break after word "section", add kind of underline and make it centered.
-
 int count = doc.getRange().replace("section&p", "section&p----------------------&p", options);
 
 // Insert section break instead of custom text tag.
-
 count = doc.getRange().replace("{insert-section}", "&b", options);
-
 {{< /highlight >}}
 
 **UC2**
 
 Demonstrates usage of apply formatting and customer callback. In this example we replace numbers with their hexadecimal representations while make them highlighted with color.
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.getFont().setName("Arial");
-
 builder.write("There are few numbers that should be converted to HEX and highlighted: 123, 456, 789 and 17379.");
-
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Highlight newly inserted content.
-
 options.getApplyFont().setHighlightColor(Color.ORANGE);
-
 options.setReplacingCallback(new NumberHexer());
-
 int count = doc.getRange().replace(new Regex("[0-9]+"), "", options);
 
 // Customer defined callback.
-
 private static class NumberHexer implements IReplacingCallback
-
 {
-
     public int replacing(ReplacingArgs args)
-
     {
-
         // Parse numbers.
-
         int number = Integer.parseInt(args.getMatchNode().getText());
 
         // And write it as HEX.
-
         args.setReplacement(String.format("0x{0:X}", number));
-
         return ReplaceAction.REPLACE;
-
     }
-
 }
-
 {{< /highlight >}}
 
 Some improvements were made to make replace method to be isolated from changes made by customer in callback.
@@ -384,20 +324,15 @@ Old Replace methods are left for backward compatibility but marked as obsolete.
 
 We going to remove following methods in this year:
 
-{{< highlight java >}}
-
- public int Replace(string oldValue, string newValue, bool isMatchCase, bool isMatchWholeWord)
-
+{{< highlight csharp >}}
+public int Replace(string oldValue, string newValue, bool isMatchCase, bool isMatchWholeWord)
 public int Replace(Regex pattern, IReplacingCallback handler, bool isForward)
-
 {{< /highlight >}}
 
 One old method
 
-{{< highlight java >}}
-
- public int Replace(Regex pattern, string replacement)
-
+{{< highlight csharp >}}
+public int Replace(Regex pattern, string replacement)
 {{< /highlight >}}
 
 continues to work with old code and will be switched to new code eventually.
@@ -410,286 +345,169 @@ Added support for MathML in HTML export.
 
 The following property is added to HtmlSaveOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Controls how OfficeMath objects are exported to HTML, MHTML or EPUB.
-
 /// Default value is <c>HtmlOfficeMathOutputMode.Image</c>.
-
 /// </summary>
-
 public HtmlOfficeMathOutputMode OfficeMathOutputMode
-
 {
-
     get { return mOfficeMathOutputMode; }
-
     set { mOfficeMathOutputMode = value; }
-
 }
-
 {{< /highlight >}}
 
 The following enum is publicly available:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB.
-
 /// </summary>
-
 public enum HtmlOfficeMathOutputMode
-
 {
-
     /// <summary>
-
     /// OfficeMath is converted to HTML as image specified by <img> tag.
-
     /// </summary>
-
     Image,
-
     /// <summary>
-
     /// OfficeMath is converted to HTML using MathML.
-
     /// </summary>
-
     MathML,
-
     /// <summary>
-
     /// OfficeMath is converted to HTML as sequence of runs specified by <span> tags.
-
     /// </summary>
-
     Text
-
 }
-
 {{< /highlight >}}
 
 Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutputMode.Image value:
 
-{{< highlight java >}}
-
- <img src="Test Out.001.png" width="49" height="21" alt="" />
-
+{{< highlight csharp >}}
+<img src="Test Out.001.png" width="49" height="21" alt="" />
 {{< /highlight >}}
 
 Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutputMode.MathML value:
 
-{{< highlight java >}}
-
- <math xmlns="http://www.w3.org/1998/Math/MathML">
-
+{{< highlight csharp >}}
+<math xmlns="http://www.w3.org/1998/Math/MathML">
 	<mi>A</mi>
-
 	<mo>=</mo>
-
 	<mi>π</mi>
-
 	<msup>
-
 		<mrow>
-
 			<mi>r</mi>
-
 		</mrow>
-
 		<mrow>
-
 			<mn>2</mn>
-
 		</mrow>
-
 	</msup>
-
 </math>
-
 {{< /highlight >}}
 
 Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutputMode.Text value:
 
-{{< highlight java >}}
-
- <span style="font-family:'Cambria Math'">A=π</span><span style="font-family:'Cambria Math'">r</span><span style="font-family:'Cambria Math'">2</span>
-
+{{< highlight csharp >}}
+<span style="font-family:'Cambria Math'">A=π</span><span style="font-family:'Cambria Math'">r</span><span style="font-family:'Cambria Math'">2</span>
 {{< /highlight >}}
 ### **WORDSNET-12901 Implemented API for Adding or Removing Embedded Fonts**
 WORDSNET-12901 is implemented.
 
 Added following properties to FontInfoCollection class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies whether or not to embed TrueType fonts in a document when it is saved.
-
 /// Default value for this property is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it,
-
 /// but may substantially increase the document size.</para>
-
 /// <para>This option works for DOC, DOCX and RTF formats only.</para>
-
 /// </remarks>
-
 public bool EmbedTrueTypeFonts
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// <para>Specifies whether or not to embed System fonts into the document.
-
 /// Default value for this property is <b>false</b>.</para>
-
 /// <para>This option works only when <see cref="EmbedTrueTypeFonts"/> option is set to <b>true</b>.</para>
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>
-
 /// Setting this property to <c>True</c> is useful if the user is on an East Asian system
-
 /// and wants to create a document that is readable by others who do not have fonts for that
-
 /// language on their system. For example, a user on a Japanese system could choose to embed the
-
 /// fonts in a document so that the Japanese document would be readable on all systems.
-
 /// </para>
-
 /// <para>This option works for DOC, DOCX and RTF formats only.</para>
-
 /// </remarks>
-
 public bool EmbedSystemFonts
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// <para>Specifies whether or not to save a subset of the embedded TrueType fonts with the document.
-
 /// Default value for this property is <b>false</b>.</para>
-
 /// <para>This option works only when <see cref="EmbedTrueTypeFonts"/> property is set to <b>true</b>.</para>
-
 /// </summary>
-
 /// <remarks>
-
 /// This option works for DOC, DOCX and RTF formats only.
-
 /// </remarks>
-
 public bool SaveSubsetFonts
-
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // UC1 - Save document with embedded TrueType fonts. System fonts are not included. Saves full versions of embedding fonts.
-
+// UC1 - Save document with embedded TrueType fonts. System fonts are not included. Saves full versions of embedding fonts.
 Document doc = new Document("fileName");
-
 FontInfoCollection fontInfos = doc.getFontInfos();
-
 fontInfos.setEmbedTrueTypeFonts(true);
-
 fontInfos.setEmbedSystemFonts(false);
-
 fontInfos.setSaveSubsetFonts(false);
-
 doc.save("DocWithEmbeddedFonts");
-
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // UC2 - Save document with embedded TrueType fonts. System fonts are included. Saves full versions of embedding fonts.
-
+// UC2 - Save document with embedded TrueType fonts. System fonts are included. Saves full versions of embedding fonts.
 Document doc = new Document("fileName");
-
 FontInfoCollection fontInfos = doc.getFontInfos();
-
 fontInfos.setEmbedTrueTypeFonts(true);
-
 fontInfos.setEmbedSystemFonts(true);
-
 fontInfos.setSaveSubsetFonts(false);
-
 doc.save("DocWithEmbeddedFonts");
-
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // UC3 - Save document with embedded TrueType fonts. System fonts are included. Saves subset of embedding fonts.
-
+// UC3 - Save document with embedded TrueType fonts. System fonts are included. Saves subset of embedding fonts.
 Document doc = new Document("fileName");
-
 FontInfoCollection fontInfos = doc.getFontInfos();
-
 fontInfos.setEmbedTrueTypeFonts(true);
-
 fontInfos.setEmbedSystemFonts(true);
-
 fontInfos.setSaveSubsetFonts(true);
-
 doc.save("DocWithEmbeddedFonts");
-
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // UC4 -  Save document with embedded TrueType fonts. System fonts are not included. Saves subset of embedding fonts.
-
+// UC4 -  Save document with embedded TrueType fonts. System fonts are not included. Saves subset of embedding fonts.
 Document doc = new Document("fileName");
-
 FontInfoCollection fontInfos = doc.getFontInfos();
-
 fontInfos.setEmbedTrueTypeFonts(true);
-
 fontInfos.setEmbedSystemFonts(false);
-
 fontInfos.setSaveSubsetFonts(true);
-
 doc.save("DocWithEmbeddedFonts");
-
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // UC5 -  Remove embedded fonts from the saved document.
-
+// UC5 -  Remove embedded fonts from the saved document.
 Document doc = new Document("fileName");
-
 FontInfoCollection fontInfos = doc.getFontInfos();
-
 fontInfos.setEmbedTrueTypeFonts(false);
-
 doc.save("DocWithoutEmbeddedFonts");
-
 {{< /highlight >}}
 ### **WORDSNET-13817 Font Substitution Rules Improved**
 Improvement is made in case when specific font is not installed but is embedded into the document and a substitute for this font is assigned.

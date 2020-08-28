@@ -119,34 +119,20 @@ You can download the latest source code at:
 
 Retrieve Note and Read in FileStream. Then read the list of Fields from CRM
 
-{{< highlight java >}}
-
- if (Note.Contains("documentbody"))
-
+{{< highlight csharp >}}
+if (Note.Contains("documentbody"))
 {
-
      byte[] DocumentBody = Convert.FromBase64String(Note["documentbody"].ToString());
-
      MemoryStream fileStream = new MemoryStream(DocumentBody);
-
      Document doc = new Document(fileStream);
-
      string[] fields = doc.MailMerge.GetFieldNames();
-
      Entity contact = service.Retrieve("contact", Contact.Id, new ColumnSet(fields));
-
-
 {{< /highlight >}}
 
 The values retrieved from CRM can be simply used in MailMerge:
 
-{{< highlight java >}}
-
- doc.MailMerge.Execute(fields, values);
-
+{{< highlight csharp >}}
+doc.MailMerge.Execute(fields, values);
 MemoryStream UpdateDoc = new MemoryStream();
-
 doc.Save(UpdateDoc, SaveFormat.Docx);
-
-
 {{< /highlight >}}

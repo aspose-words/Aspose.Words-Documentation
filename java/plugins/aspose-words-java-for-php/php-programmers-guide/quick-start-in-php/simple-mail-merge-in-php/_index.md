@@ -10,24 +10,17 @@ To use Mail Merge, simply invoke getMailMerge->execute method.
 
 **Php Code**
 
-{{< highlight java >}}
-
- $doc = new Java("com.aspose.words.Document", "Template.doc");
+{{< highlight csharp >}}
+$doc = new Java("com.aspose.words.Document", "Template.doc");
 
 // Fill the fields in the document with user data.
-
 $doc->getMailMerge()->execute(
-
             array("FullName", "Company", "Address", "Address2", "City"),
-
             array("James Bond", "MI5 Headquarters", "Milbank", "", "London")
-
 );
 
 // Saves the document to disk.
-
 $doc->save($dataDir . "MailMerge Result Out.docx");
-
 {{< /highlight >}}
 
 **Download Running Code**

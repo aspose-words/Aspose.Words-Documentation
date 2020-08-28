@@ -10,20 +10,15 @@ Use Range.Replace to find or replace a particular string within the current rang
 
 **C#**
 
-{{< highlight cs >}}
-
- Document doc = new Document("../../data/document.doc");
+{{< highlight csharp >}}
+Document doc = new Document("../../data/document.doc");
 
 // Replaces all 'sad' and 'mad' occurrences with 'bad'
-
 doc.Range.Replace("document", "document replaced", false, true);
 
 // Replaces all 'sad' and 'mad' occurrences with 'bad'
-
 doc.Range.Replace(new Regex("[s|m]ad"), "bad");
-
 doc.Save("replacedDocument.doc");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Find and Replace Text in Documents** form any of the below mentioned social coding sites:

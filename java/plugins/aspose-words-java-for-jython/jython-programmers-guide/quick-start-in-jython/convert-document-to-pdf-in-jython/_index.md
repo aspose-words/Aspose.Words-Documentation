@@ -11,27 +11,16 @@ To convert Document to PDF using **Aspose.Words Java for Jython**. Here you can 
 **Jython Code**
 
 {{< highlight ruby >}}
-
- from aspose-words import Settings
-
+from aspose-words import Settings
 from com.aspose.words import Document
-
 class DocToPdf:
-
     def __init__(self):
-
         dataDir = Settings.dataDir + 'quickstart/'
-
         doc = Document(dataDir + 'Document.doc')
-
         doc.save(dataDir + 'Document.pdf')
-
         print "Converted document to PDF."
-
 if __name__ == '__main__':
-
     DocToPdf()
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download running code from any of the below mentioned social coding sites:

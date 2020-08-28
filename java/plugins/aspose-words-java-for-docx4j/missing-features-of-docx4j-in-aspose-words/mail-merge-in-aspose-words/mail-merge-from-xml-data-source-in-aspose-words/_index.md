@@ -12,20 +12,17 @@ This page provides a simple example of how, using Aspose.Words, you can execute 
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Use DocumentBuilder from the javax.xml.parsers package and Document class from the org.w3c.dom package to read
+// Use DocumentBuilder from the javax.xml.parsers package and Document class from the org.w3c.dom package to read
 
 // the XML data file and store it in memory.
-
 DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
 
 // Parse the XML data.
-
 org.w3c.dom.Document xmlData = db.parse("Customers.xml");
 
 // Open a template document.
-
 Document doc = new Document("TestFile.doc");
 
 // Note that this class also works with a single repeatable region (and any nested regions).
@@ -33,9 +30,7 @@ Document doc = new Document("TestFile.doc");
 // To merge multiple regions at the same time from a single XML data source, use the XmlMailMergeDataSet class.
 
 // e.g doc.getMailMerge().executeWithRegions(new XmlMailMergeDataSet(xmlData));
-
 doc.getMailMerge().execute(new XmlMailMergeDataTable(xmlData, "customer"));
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

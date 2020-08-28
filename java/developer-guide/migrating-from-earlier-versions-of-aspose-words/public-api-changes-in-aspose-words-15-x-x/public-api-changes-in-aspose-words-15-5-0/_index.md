@@ -16,17 +16,11 @@ We have added new public property TextOrientation to PageSetup class:
 **Java**
 
 {{< highlight csharp >}}
-
- /**
-
+/**
 Allows to specify <see cref="TextOrientation"/> for the whole page.
-
 Default value is <see cref="Aspose.Words.TextOrientation.Horizontal"/>
-
 */
-
 public TextOrientation TextOrientation
-
 {{< /highlight >}}
 
 It allows to specify TextOrientation for the whole page. Default value is Horizontal. This property is only supported for MS Word native formats such as DOCX, WML, RTF and DOC.
@@ -39,21 +33,13 @@ We have added new public property ColorMode to SaveOptions class. While renderin
 **Java**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a value determining how colors are rendered.
-
 /// </summary>
-
 /// <remarks>The default value is <see cref="Aspose.Words.Saving.ColorMode.Normal"/>
-
 /// <para>This property is used when the document is exported to fixed page formats.</para>
-
 /// </remarks>
-
 public ColorMode ColorMode { get; set; }
-
 {{< /highlight >}}
 
 Sample code is as follows:
@@ -61,17 +47,12 @@ Sample code is as follows:
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(getMyDir() + "in.docx");
-
+Document doc = new Document(getMyDir() + "in.docx");
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Save the document "doc" in grayscale mode PDF.
-
 options.setColorMode(ColorMode.GRAYSCALE);
-
 doc.save(getMyDir() + "out.pdf", options);
-
 {{< /highlight >}}
 ### **Conditional Blocks for LINQ Reporting Engine Supported**
 New functionality of conditional blocks is described in the following sections of the documentation:

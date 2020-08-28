@@ -13,51 +13,34 @@ We first need to pick a row at where to split the table. Once we know this we ca
 **C#**
 
 {{< highlight csharp >}}
-
- string FilePath = @"..\..\..\Sample Files\";
-
+string FilePath = @"..\..\..\Sample Files\";
 string FileName = FilePath + "Spliting Tables.docx";
 
 // Load the document.
-
 Document doc = new Document(FileName);
 
 // Get the first table in the document.
-
 Table firstTable = (Table)doc.GetChild(NodeType.Table, 0, true);
 
 // We will split the table at the third row (inclusive).
-
 Row row = firstTable.Rows[2];
 
 // Create a new container for the split table.
-
 Table table = (Table)firstTable.Clone(false);
 
 // Insert the container after the original.
-
 firstTable.ParentNode.InsertAfter(table, firstTable);
 
 // Add a buffer paragraph to ensure the tables stay apart.
-
 firstTable.ParentNode.InsertAfter(new Paragraph(doc), firstTable);
-
 Row currentRow;
-
 do
-
 {
-
     currentRow = firstTable.LastRow;
-
     table.PrependChild(currentRow);
-
 }
-
 while (currentRow != row);
-
 doc.Save(FileName);
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)

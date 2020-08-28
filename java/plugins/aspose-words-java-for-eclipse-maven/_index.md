@@ -74,12 +74,9 @@ To remove evaluation message and feature limitations, product license should be 
 - Place **Aspose.Words.Java.lic** file in the folder that contains the Aspose.Words.jar
 - Use following code for activating the license:
 
-{{< highlight java >}}
-
- License license = new License();
-
+{{< highlight csharp >}}
+License license = new License();
 license.setLicense("Aspose.Words.Java.lic");
-
 {{< /highlight >}}
 ## **Support, Extend and Contribute**
 ### **Support**

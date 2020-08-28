@@ -10,73 +10,41 @@ The example **OpenAndAddToWordprocessingStream** method shown here can be used t
 Below is the sample code
 
 {{< highlight csharp >}}
-
- private static string FilePath = @"..\..\..\..\Sample Files\";
-
+private static string FilePath = @"..\..\..\..\Sample Files\";
 private static string fileName = FilePath + "OpenDocumentFromStream.docx";
-
  string txt = "Append text in body - OpenAndAddToWordprocessingStream";
-
  Stream stream = File.Open(fileName, FileMode.Open);
-
  OpenAndAddToWordprocessingStream(stream, txt);
-
  stream.Close();
-
-
 private static void OpenAndAddToWordprocessingStream(Stream stream, string txt)
-
 {
-
     WordprocessingDocument wordprocessingDocument =
-
         WordprocessingDocument.Open(stream, true);
-
     Body body = wordprocessingDocument.MainDocumentPart.Document.Body;
-
     Paragraph para = body.AppendChild(new Paragraph());
-
     Run run = para.AppendChild(new Run());
-
     run.AppendChild(new Text(txt));
-
     wordprocessingDocument.Close();
-
 }
-
 {{< /highlight >}}
 ## **Aspose.Words**
 Simply pass a stream object that contains a document to the **Document** constructor.
 Below is the sample code
 
 {{< highlight csharp >}}
-
- private static string FilePath = @"..\..\..\..\Sample Files\";
-
+private static string FilePath = @"..\..\..\..\Sample Files\";
 private static string FileName = FilePath + "OpenDocumentFromStream.docx";
-
 string txt = "Append text in body - OpenAndAddToWordprocessingStream";
-
 Stream stream = File.Open(FileName, FileMode.Open);
-
 OpenAndAddToWordprocessingStream(stream, txt);
-
 private static void OpenAndAddToWordprocessingStream(Stream stream, string txt)
-
 {
-
     Document doc = new Document(stream);
-
     stream.Close();
-
     DocumentBuilder db = new DocumentBuilder(doc);
-
     db.Writeln(txt);
-
     doc.Save(FileName);
-
 }
-
 {{< /highlight >}}
 ## **Download**
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)

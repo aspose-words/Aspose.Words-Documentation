@@ -16,13 +16,9 @@ WORDSNET-12080 is now resolved. We have added following overloads of Paragraph.I
 **C#**
 
 {{< highlight csharp >}}
-
- public Field InsertField(FieldType,bool,Node,bool);
-
+public Field InsertField(FieldType,bool,Node,bool);
 public Field InsertField(string,Node,bool);
-
 public Field InsertField(string,string,Node,bool);
-
 {{< /highlight >}}
 ### **OutlineOptions.CreateMissingOutlineLevels Property Added**
 CreateMissingOutlineLevels property is added to OutlineOptions class. Default value for this property is false.
@@ -30,19 +26,12 @@ CreateMissingOutlineLevels property is added to OutlineOptions class. Default va
 **C#**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// <para>Gets or sets a value determining whether or not to create missing heading levels when the document is
-
 /// exported.</para>
-
 /// <para>Default value for this property is <b>false</b></para>
-
 /// </summary>
-
 public bool CreateMissingOutlineLevels { get;set; }
-
 {{< /highlight >}}
 ### **HtmlFixedSaveOptions.Encoding Property Added**
 WORDSNET-12178 is now resolved. We have introduced following property in Aspose.Words 15.8.0.
@@ -50,19 +39,12 @@ WORDSNET-12178 is now resolved. We have introduced following property in Aspose.
 **C#**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the encoding to use when exporting to HTML.
-
 /// Default value is <ms><c>new UTF8Encoding(true)</c> (UTF-8 with BOM)</ms><java>'UTF-8' Charset</java>.
-
 /// </summary>
-
 /// <javaName>Encoding(java.nio.charset.Charset)</javaName>
-
 public Encoding Encoding { get; set; }
-
 {{< /highlight >}}
 ### **CustomXmlMarkup Support Fully Removed from Aspose.Words Code**
 We used to keep CustomXmlMarkup nodes marked as Obsolete, but now it is fully removed as per:

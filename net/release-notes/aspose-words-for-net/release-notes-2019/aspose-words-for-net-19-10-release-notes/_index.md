@@ -103,31 +103,20 @@ Related issue: WORDSNET-19067.
 The new public enumeration was added:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify the direction to flow the text in a document.
-
 /// </summary>
-
 public enum DocumentDirection
-
 {{< /highlight >}}
 
 Added new public option into TxtLoadOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a document direction.
-
 /// The default value is <see cref="Aspose.Words.DocumentDirection.LeftToRight"/>. 
-
 /// </summary>
-
 public DocumentDirection DocumentDirection
-
 {{< /highlight >}}
 
 
@@ -135,21 +124,11 @@ public DocumentDirection DocumentDirection
 Use Case. Explains how to detect document direction automatically:
 
 {{< highlight csharp >}}
-
- TxtLoadOptions loadOptions = new TxtLoadOptions();
-
+TxtLoadOptions loadOptions = new TxtLoadOptions();
 loadOptions.DocumentDirection = DocumentDirection.Auto;
-
-
-
 Document doc = new Document("SomeRtlText.txt", loadOptions);
-
-
-
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
-
 Console.WriteLine(paragraph.ParagraphFormat.Bidi);
-
 {{< /highlight >}}
 ### **Supported dynamic insertion of links to document bookmarks for LINQ Reporting Engine**
 Issue: WORDSNET-18920

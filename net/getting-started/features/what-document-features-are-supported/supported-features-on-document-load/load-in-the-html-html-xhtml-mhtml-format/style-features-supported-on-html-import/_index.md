@@ -48,7 +48,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Aliases |Yes |Aliases are exported as ordinary CSS classes. On subsequent import they produce independent styles. | |
 |Based On |Planned | |- [Style.BaseStyleName](https://apireference.aspose.com/words/net/aspose.words/style/properties/basestylename)|
-|Built-in Styles |Yes |Some built-in styles are imported from specific elements. <br><br>For instance Normal redirects to general <p> element, <h1> to Heading 1 etc. |<p>- [Style.BuiltIn](https://apireference.aspose.com/words/net/aspose.words/style/properties/builtin) </p><p>- [Style.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words/style/properties/styleidentifier)</p>|
+|Built-in Styles |Yes |Some built-in styles are imported from specific elements. <br><br>For instance Normal redirects to general &lt;p&gt; element, &lt;h1&gt; to Heading 1 etc. |<p>- [Style.BuiltIn](https://apireference.aspose.com/words/net/aspose.words/style/properties/builtin) </p><p>- [Style.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words/style/properties/styleidentifier)</p>|
 |Custom Styles |Yes |A new style is created for all other CSS styles in the HTML document. | |
 |Linked Styles |Planned | | |
 |Style Name |Yes | |- **Style.Name**|

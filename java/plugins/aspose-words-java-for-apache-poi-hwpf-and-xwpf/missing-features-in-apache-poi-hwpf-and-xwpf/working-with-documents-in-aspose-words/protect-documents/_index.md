@@ -10,10 +10,8 @@ Use the **Document.protect(ProtectionType)** method to protect a document from
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document(dataDir + "document.doc");
-
+{{< highlight csharp >}}
+Document doc = new Document(dataDir + "document.doc");
 doc.protect(ProtectionType.READ_ONLY);
 
 // Following other Protection types are also available
@@ -23,9 +21,7 @@ doc.protect(ProtectionType.READ_ONLY);
 // ProtectionType.ALLOW_ONLY_FORM_FIELDS
 
 // ProtectionType.ALLOW_ONLY_REVISIONS
-
 doc.save(dataDir + "AsposeProtect.doc", SaveFormat.DOC);
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

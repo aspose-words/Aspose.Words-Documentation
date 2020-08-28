@@ -153,74 +153,44 @@ WORDSNET-13498 has been resolved. We've improved the speed of fast text indexing
 WORDSNET-13739 has been resolved. ShowRevisionBalloons property has been added to the RevisionOptions class. This option lets a user to show formatting changes in the balloons.
 NOTE: Now it works only for delete revisions.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Allows to specify whether the formatting changes are rendered in the balloons.
-
 /// Default value for this property is <c>false</c>.
-
 /// <remarks>
-
 /// <para>
-
 /// Only works for <see cref="RevisionType.Deletion"/>.
-
 /// For <see cref="RevisionType.FormatChange"/> and <see cref="RevisionType.Insertion"/> is not supported yet.
-
 /// </para>
-
 /// </remarks>
-
 /// </summary>
-
 public bool ShowRevisionBalloons
-
 {
-
     get { return mShowRevisionBalloons; }
-
     set
-
     {
-
         mHasChanged = true;
-
         mShowRevisionBalloons = value;
-
     }
-
 }
-
 {{< /highlight >}}
 
 Example of how to use:
 
-{{< highlight java >}}
-
- Document doc = new Document(@"Document.docx"); 
-
+{{< highlight csharp >}}
+Document doc = new Document(@"Document.docx"); 
 doc.LayoutOptions.RevisionOptions.ShowRevisionBalloons = true; 
-
 string outFileName = (@"Out.pdf"); 
-
 doc.Save(outFileName);
-
 {{< /highlight >}}
 ### **Saving DOCX as ISO 29500 Strict OOXML Format is Available now**
 A new member Iso29500_2008_Strict is added into the OoxmlCompliance enum type. UseCase to save as Strict OOXML:
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Strict;
-
 doc.Save(@"C:\MyDir\strict_OOXML.docx", saveOptions);
-
 {{< /highlight >}}
 
 Limitations:
@@ -237,36 +207,21 @@ In this case you have to use the code provided below:
 **double.NaN** value is used as empty data value.
 **null** is used as empty category name.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Add chart with default data.
-
+// Add chart with default data.
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
-
 Chart chart = shape.Chart;
-
-
-
 ChartSeriesCollection seriesColl = chart.Series;
-
 seriesColl.Clear();
 
-
-
 // Create category names array, second category will be null.
-
 string[] categories = new string[] { "Cat1", null, "Cat3", "Cat4", "Cat5" };
 
-
-
 // Adding new series with empty (double.NaN) values.
-
 seriesColl.Add("AW Series 1", categories, new double[] { 1, 2, double.NaN, 4, 5 });
-
 seriesColl.Add("AW Series 2", categories, new double[] { 2, 3, double.NaN, 5, 6 });
-
 seriesColl.Add("AW Series 3", categories, new double[] { double.NaN, 4, 5, double.NaN, double.NaN });
-
 {{< /highlight >}}
 
 The resulted chart looks like this:
@@ -276,114 +231,60 @@ The resulted chart looks like this:
 WORDSNET-13432 has been resolved. We have added the MailMergeRegionInfo.Level property to satisfy customer's requirements logged in WORDSNET-13432.
 Following property for getting/setting level number will be added to public API for Aspose.Words.MailMerging.MailMergeRegionInfo class:
 
-{{< highlight java >}}
-
- namespace Aspose.Words.MailMerging
-
+{{< highlight csharp >}}
+namespace Aspose.Words.MailMerging
 {
-
     /// <summary>
-
     /// Contains information about a mail merge region.
-
     /// </summary>
-
     public class MailMergeRegionInfo
-
     {
-
-
-
 ...
-
         /// <summary>
-
         /// Return nesting level for the region.
-
         /// </summary>
-
         public int Level
-
         {
-
             get { return mRegionLevel; }
-
         }
-
-
-
         /// <summary>
-
         /// Sets nesting level for the region.
-
         /// </summary>
-
         internal void SetRegionLevel(int val)
-
         {
-
             mRegionLevel = val;
-
         }
-
-
-
 ...
-
         private int mRegionLevel = 0;
-
 ...
-
-
-
 }
-
 {{< /highlight >}}
 ### **Added MailMerge.GetRegionsByName() Method**
 WORDSNET-13433 has been resolved. We have added the MailMerge.GetRegionsByName() method so that the user can obtain a list of regions by the specified name as follows:
 
-{{< highlight java >}}
-
- public class MailMerge
-
+{{< highlight csharp >}}
+public class MailMerge
 {
-
 ...
-
         /// <summary>
-
         /// Returns a collection of mail merge regions with given name.
-
         /// </summary>
-
         /// <param name="regionName">Region name (case-insensitive).</param>
-
         /// <returns>The list of regions.</returns>
-
         public ArrayList GetRegionsByName(string regionName)
-
 {{< /highlight >}}
 ### **XpsSaveOptions.OptimizeOutput Option Added**
 WORDSNET-13572 has been resolved. Following new option is available in XpsSaveOptions:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Flag indicates whether it is required to optimize output of XPS.
-
 /// If this flag is set redundant nested canvases and empty canvases are removed,
-
 /// also neighbor glyphs with the same formating are concatenated.
-
 ///
-
 /// Default is false.
-
 /// </summary>
-
 public bool OptimizeOutput
-
 {{< /highlight >}}
 ### **Field.GetFieldCode() Improved, Added Field.GetFieldCode() Overload**
 As a resolution for WORDSNET-13583, we decided to improve the method Field.GetFieldCode(). Now it collects field's code properly: the returned string includes all nested fields' codes and results regardless of how the parent field is spanned among paragraphs or sections. Additionally, we have introduced a Field.GetFieldCode(bool) overload that accepts a parameter controlling whether to include child field codes into the resulting string. The user can pass false if they want to see nested fields' results only.

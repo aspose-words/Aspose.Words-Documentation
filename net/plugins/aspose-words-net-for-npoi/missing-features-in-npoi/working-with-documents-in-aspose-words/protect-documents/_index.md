@@ -10,10 +10,8 @@ Use the **Document.Protect(ProtectionType)** method to protect a document from
 
 **C#**
 
-{{< highlight cs >}}
-
- Document doc = new Document("../../data/document.doc");
-
+{{< highlight csharp >}}
+Document doc = new Document("../../data/document.doc");
 doc.Protect(ProtectionType.ReadOnly);
 
 // Following other Protection types are also available
@@ -25,9 +23,7 @@ doc.Protect(ProtectionType.ReadOnly);
 // ProtectionType.AllowOnlyComments
 
 // ProtectionType.AllowOnlyFormFields
-
 doc.Save("AsposeProtect.doc", SaveFormat.Doc);
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Protect Documents (Aspose.Words)** form any of the below mentioned social coding sites:

@@ -98,9 +98,7 @@ Below example shows how to get names of all merge fields in a document.
 **Java**
 
 {{< highlight csharp >}}
-
- String[] fieldNames = doc.getMailMerge().getFieldNames();
-
+String[] fieldNames = doc.getMailMerge().getFieldNames();
 {{< /highlight >}}
 
 **Q:** The output of nested merging displays no data from the child table for the first entry in the parent table but displays all items for the last entry in the parent table, even ones that are not actually linked to it?

@@ -73,7 +73,7 @@ This page contains release notes for [Aspose.Words for .NET 20.1](https://www.nu
 |WORDSNET-18740|Document.Save hangs while saving document's page to JPEG|Bug|
 |WORDSNET-19620|Specifying ImportFormatMode.KeepDifferentStyles causes AppendDocument to throw exception|Bug|
 |WORDSNET-18916|Problem with rendered PDF with OTF font in Mac OS Preview app|Bug|
-|WORDSNET-19332|LINQ Reporting with JsonDataSource using List<string> does not work|Bug|
+|WORDSNET-19332|LINQ Reporting with JsonDataSource using List&lt;string&gt; does not work|Bug|
 |WORDSNET-19073|Provide another SkiaSharp Native Asset Package for Redhat Enterprise Linux|Bug|
 |WORDSNET-19331|Document.Save generates big size HtmlFixed document|Bug|
 |WORDSNET-19637|A line moves to the next page in PDF|Bug|
@@ -91,29 +91,19 @@ This section lists public API changes that were introduced in Aspose.Words 20.1.
 Related issue: WORDSNET-12444 Added a new public property VbaProject.IsSigned:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Shows whether the VbaProject is signed or not.
-
 /// </summary>
-
 public bool IsSigned
-
 {{< /highlight >}}
 
 Use Case:
 
 {{< highlight csharp >}}
-
- Document doc = new Document(@"source.docm"); 
-
-
-
-if (doc.VbaProject.IsSigned) 
-
+Document doc = new Document(@"source.docm"); 
+if (doc.VbaProject.IsSigned)
+ 
   // do smth..
-
 {{< /highlight >}}
 ### **Added setters for floating table properties**
 WORDSNET-12204. Added setters for following table properties: RelativeHorizontalAlignment, AbsoluteHorizontalDistance, RelativeVerticalAlignment, AbsoluteVerticalDistance.
@@ -131,15 +121,12 @@ Note that this is combined property, i.e setting RelativeHorizontalAlignment wil
 Use Case:
 
 {{< highlight csharp >}}
-
- Document doc = new Document("some doc"); 
-
+Document doc = new Document("some doc"); 
 Table table = document.FirstSection.Body.Tables\[0\];
-
-table.AbsoluteHorizontalDistance = 10; // sets absolute table horizontal position at 10pt.
-
-table.RelativeVerticalAlignment = VerticalAlignment.Center; // sets vertical table position to center of entity specified by Table.VerticalAnchor.
-
+table.AbsoluteHorizontalDistance = 10;
+ // sets absolute table horizontal position at 10pt.
+table.RelativeVerticalAlignment = VerticalAlignment.Center;
+ // sets vertical table position to center of entity specified by Table.VerticalAnchor.
 {{< /highlight >}}
 ### **SaveOptions.ColorMode property moved to FixedPageSaveOptions class**
 Related issue: WORDSNET-19635 SaveOptions.ColorMode public property moved to FixedPageSaveOptions class.
@@ -149,31 +136,18 @@ Issue: WORDSNET-19648 The "[Inserting Bookmarks Dynamically](/words/net/template
 A new public method has been added to the DocumentBuilder class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Inserts an embedded or linked OLE object as icon into the document. 
-
 /// Allows to specify icon file and caption. Detects OLE object type using file extension. 
-
 /// </summary>
-
 /// <param name="fileName">Full path to the file.</param>
-
 /// <param name="isLinked">
-
 /// If true then linked OLE object is inserted otherwise embedded OLE object is inserted.
-
 /// </param>/// <param name="iconFile">
-
 /// Full path to the ICO file. 
-
 /// If the value is null or the ICO file is not readable, Aspose.Words will use a predefined image.
-
 /// </param>/// <param name="iconCaption">Icon caption.</param>/// <returns>Shape node containing Ole object and inserted at the current Builder position.</returns>
-
 public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFile, string iconCaption)
-
 {{< /highlight >}}
 
 
@@ -181,11 +155,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 Use Case. Explains how to inserts an embedded or linked OLE object as an icon into the document:
 
 {{< highlight csharp >}}
-
- Document doc = new Document();DocumentBuilder builder = new DocumentBuilder(doc);
-
+Document doc = new Document();DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertOleObjectAsIcon("C:\\embedded.xlsx", false, "C:\\icon.ico", "My embedded file");
-
 doc.Save("C:\\output.docx");
-
 {{< /highlight >}}

@@ -146,57 +146,27 @@ The following ParagraphFormat properties were added:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets the left indent value (in characters) for the specified paragraphs.
-
 /// </summary>
-
 public int ParagraphFormat.CharacterUnitLeftIndent {get; set; }
-
-
-
 /// <summary>
-
 /// Gets or sets the right indent value (in characters) for the specified paragraphs.
-
 /// </summary>
-
 public int ParagraphFormat.CharacterUnitRightIndent {get; set; }
-
-
-
 /// <summary>
-
 /// Gets or sets the value (in characters) for the first-line or hanging indent.
-
 /// <p>Use positive values to set the first-line indent, and negative values to set the hanging indent.</p>
-
 /// </summary>
-
 public int ParagraphFormat.CharacterUnitFirstLineIndent {get; set; }
-
-
-
 /// <summary>
-
 /// Gets or sets the amount of spacing (in gridlines) before the paragraphs.
-
 /// </summary>
-
 public int ParagraphFormat.LineUnitBefore {get; set; }
-
-
-
 /// <summary>
-
 /// Gets or sets the amount of spacing (in gridlines) after the paragraphs.
-
 /// </summary>
-
 public int ParagraphFormat.LineUnitAfter {get; set; }
-
 {{< /highlight >}}
 
 **Use Case:**
@@ -206,31 +176,18 @@ Note, that setting unit indents and spacing will update appropriate common inden
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Document()
-
+Document doc = new Document()
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
-
-
-
-format.CharacterUnitLeftIndent = 10;       // ParagraphFormat.LeftIndent will be updated
-
-
-
-format.CharacterUnitRightIndent = 10;      // ParagraphFormat.RightIndent will be updated
-
-
-
-format.CharacterUnitFirstLineIndent = 20;  // ParagraphFormat.FirstLineIndent will be updated
-
-
-
-format.LineUnitBefore = 5;                 // ParagraphFormat.SpaceBefore will be updated
-
-
-
-format.LineUnitAfter= 10;                  // ParagraphFormat.SpaceAfter will be updated
-
+format.CharacterUnitLeftIndent = 10;
+       // ParagraphFormat.LeftIndent will be updated
+format.CharacterUnitRightIndent = 10;
+      // ParagraphFormat.RightIndent will be updated
+format.CharacterUnitFirstLineIndent = 20;
+  // ParagraphFormat.FirstLineIndent will be updated
+format.LineUnitBefore = 5;
+                 // ParagraphFormat.SpaceBefore will be updated
+format.LineUnitAfter= 10;
+                  // ParagraphFormat.SpaceAfter will be updated
 {{< /highlight >}}
 
 
@@ -242,17 +199,11 @@ Added a new public property ParagraphFormat.SnapToGrid:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether the current paragraph should use the document grid lines per page settings
-
 /// when laying out the contents in the paragraph.
-
 /// </summary>
-
 public bool SnapToGrid
-
 {{< /highlight >}}
 
 and Font.SnapToGrid:
@@ -260,17 +211,11 @@ and Font.SnapToGrid:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether the current run should use the document grid characters per line settings
-
 /// when laying out the contents in this run.
-
 /// </summary>
-
 public bool SnapToGrid
-
 {{< /highlight >}}
 
 **Use Case:**
@@ -278,15 +223,10 @@ public bool SnapToGrid
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(docPath);
-
+Document doc = new Document(docPath);
 Paragraph par = doc.FirstSection.Body.FirstParagraph;
-
 par.ParagraphFormat.SnapToGrid = true;
-
 par.Runs[0].Font.SnapToGrid = true;
-
 {{< /highlight >}}
 ### **Added an option that allows customers to specify comparison granularity**
 Related issue: **WORDSNET-20043**
@@ -296,35 +236,19 @@ Added the following properties:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Specifies the granularity of changes to track when comparing two documents.
-
-/// </summary>
-
-public enum Granularity
-
-{
-
-    CharLevel,
-
-    WordLevel
-
-}
-
-
-
 /// <summary>
-
-/// Specifies whether changes are tracked by character or by word.
-
-/// Default value is <see cref="Granularity.WordLevel"/>.
-
+/// Specifies the granularity of changes to track when comparing two documents.
 /// </summary>
-
+public enum Granularity
+{
+    CharLevel,
+    WordLevel
+}
+/// <summary>
+/// Specifies whether changes are tracked by character or by word.
+/// Default value is <see cref="Granularity.WordLevel"/>.
+/// </summary>
 Granularity CompareOptions.Granularity { get; set; }
-
 {{< /highlight >}}
 
 
@@ -334,27 +258,13 @@ Granularity CompareOptions.Granularity { get; set; }
 **.NET**
 
 {{< highlight csharp >}}
-
- DocumentBuilder builderA = new DocumentBuilder(new Document());
-
+DocumentBuilder builderA = new DocumentBuilder(new Document());
 DocumentBuilder builderB = new DocumentBuilder(new Document());
-
-
-
 builderA.Writeln("This is A simple word");
-
 builderB.Writeln("This is B simple words");
-
-
-
 CompareOptions co = new CompareOptions();
-
 co.Granularity = Granularity.CharLevel;
-
-
-
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, co);
-
 {{< /highlight >}}
 ### **Sample output**
 ![todo:image_alt_text](https://auckland.dynabic.com/wiki/download/attachments/41386312/20043.png?version=1&modificationDate=1585804110000)
@@ -366,29 +276,16 @@ Setters for the following properties have been added to the Table class:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
-/// Gets or sets the base object from which the horizontal positioning of floating table should be calculated.
-
-/// Default value is <see cref="RelativeHorizontalPosition.Column"/>.
-
-/// </summary>
-
-public RelativeHorizontalPosition Table.HorizontalAnchor
-
-
-
 /// <summary>
-
-/// Gets or sets the base object from which the vertical positioning of floating table should be calculated.
-
-/// Default value is <see cref="RelativeVerticalPosition.Margin"/>.
-
+/// Gets or sets the base object from which the horizontal positioning of floating table should be calculated.
+/// Default value is <see cref="RelativeHorizontalPosition.Column"/>.
 /// </summary>
-
+public RelativeHorizontalPosition Table.HorizontalAnchor
+/// <summary>
+/// Gets or sets the base object from which the vertical positioning of floating table should be calculated.
+/// Default value is <see cref="RelativeVerticalPosition.Margin"/>.
+/// </summary>
 public RelativeVerticalPosition Table.VerticalAnchor
-
 {{< /highlight >}}
 
 Note, ONLY the following values are allowed in HorizontalAnchor setter. The ArgumentException will be thrown for any other values.
@@ -396,13 +293,9 @@ Note, ONLY the following values are allowed in HorizontalAnchor setter. The Argu
 **.NET**
 
 {{< highlight csharp >}}
-
- RelativeHorizontalPosition.Margin
-
+RelativeHorizontalPosition.Margin
 RelativeHorizontalPosition.Page
-
 RelativeHorizontalPosition.Column
-
 {{< /highlight >}}
 
 Note, ONLY the following values are allowed in VerticalAnchor setter. The ArgumentException will be thrown for any other values.
@@ -410,13 +303,9 @@ Note, ONLY the following values are allowed in VerticalAnchor setter. The Argume
 **.NET**
 
 {{< highlight csharp >}}
-
- RelativeVerticalPosition.Margin
-
+RelativeVerticalPosition.Margin
 RelativeVerticalPosition.Page
-
 RelativeVerticalPosition.Paragraph
-
 {{< /highlight >}}
 
 **Use Case:**
@@ -424,17 +313,10 @@ RelativeVerticalPosition.Paragraph
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Documnet(file_with_table);
-
+Document doc = new Documnet(file_with_table);
 Table table = doc.FirstSection.Body.Tables[0];
-
-
-
 table.HorizontalAnchor = RelativeHorizontalPosition.Column;
-
 table.VerticalAnchor = RelativeVerticalPosition.Page;
-
 {{< /highlight >}}
 
 
@@ -446,47 +328,26 @@ Added image interpolation option for PDF rendering which can be specified by Pdf
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// A flag indicating whether image interpolation shall be performed by a conforming reader.
-
 /// When <c>false</c> is specified, the flag is not written to the output document and
-
 /// the default behaviour of reader is used instead.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>
-
 /// When the resolution of a source image is significantly lower than that of the output device,
-
 /// each source sample covers many device pixels. As a result, images can appear jaggy or blocky.
-
 /// These visual artifacts can be reduced by applying an image interpolation algorithm during rendering.
-
 /// Instead of painting all pixels covered by a source sample with the same color, image interpolation
-
 /// attempts to produce a smooth transition between adjacent sample values.
-
 /// </para>
-
 /// <para>
-
 /// A conforming Reader may choose to not implement this feature of PDF,
-
 /// or may use any specific implementation of interpolation that it wishes.
-
 /// </para>
-
 /// <para>The default value is <c>false</c>.</para>
-
 /// </remarks>
-
 public bool InterpolateImages
-
 {{< /highlight >}}
 
 **Use Case:**
@@ -494,15 +355,10 @@ public bool InterpolateImages
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(docPath);
-
+Document doc = new Document(docPath);
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 saveOptions.InterpolateImages = true;
-
 doc.Save(pdfPath, saveOptions);
-
 {{< /highlight >}}
 
 
@@ -512,25 +368,15 @@ This property allows using temporary files when reading a document.
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to use temporary files when reading document.
-
 /// By default this property is <c>null</c> and no temporary files are used.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>The folder must exist and be writable, otherwise an exception will be thrown.</para>
-
 /// <para>Aspose.Words automatically deletes all temporary files when reading is complete.</para>
-
 /// </remarks>
-
 public string TempFolder
-
 {{< /highlight >}}
 
 Such an approach degrades speed but reduces memory usage.
@@ -540,15 +386,9 @@ Such an approach degrades speed but reduces memory usage.
 **.NET**
 
 {{< highlight csharp >}}
-
- LoadOptions lo = new LoadOptions();
-
+LoadOptions lo = new LoadOptions();
 lo.TempFolder = @"C:\TempFolder\";
-
-
-
 Document doc = new Document(myDir + "document.docx", lo);
-
 {{< /highlight >}}
 
 
@@ -568,101 +408,47 @@ The following changes in chart data labels API have been implemented (WORDSNET-1
 **.NET**
 
 {{< highlight csharp >}}
-
- public class ChartSeries
-
+public class ChartSeries
 {
-
     /// <summary>
-
     /// Gets or sets a flag indicating whether data labels are displayed for the series.
-
     /// </summary>
-
     public bool HasDataLabels { get; set; }
-
 }
-
-
-
 public class ChartDataLabelCollection
-
 {
-
     /// <summary>
-
     /// Adds new <see cref="ChartDataLabel"/> at the specified index.
-
     /// </summary>
-
     [Obsolete("When ChartSeries.HasDataLabels is 'true', all data labels are available in this collection.")]
-
     public ChartDataLabel Add(int index);
-
-
-
     /// <summary>
-
     /// Clears format of a <see cref="ChartDataLabel"/> at the specified index.
-
     /// </summary>
-
     [Obsolete("Use the ChartDataLabel.ClearFormat method instead.")]
-
     public void RemoveAt(int index);
-
-
-
     /// <summary>
-
     /// Clears format of all <see cref="ChartDataLabel"/> in this collection.
-
     /// </summary>
-
     [Obsolete("Use the ClearFormat method instead.")]
-
     public void Clear();
-
-
-
     /// <summary>
-
     /// Clears format of all <see cref="ChartDataLabel"/> in this collection.
-
     /// </summary>
-
     public void ClearFormat();
-
 }
-
-
-
 public class ChartDataLabel
-
 {
-
     /// <summary>
-
     /// Clears format of this data label. The properties are set to the default values defined in the parent data label collection.
-
     /// </summary>
-
     public void ClearFormat();
-
-
-
     /// <summary>
-
     /// Gets/sets a flag indicating whether this label is hidden.
-
     /// The default value is <b>false</b>.
-
     /// </summary>
-
     public bool IsHidden { get; set; }
-
 }
-
 {{< /highlight >}}
 
 
@@ -672,47 +458,22 @@ public class ChartDataLabel
 **.NET**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-
-
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
-
 Chart chart = shape.Chart;
 
-
-
 // Delete default generated series.
-
 chart.Series.Clear();
-
-
-
 ChartSeries series1 = chart.Series.Add("Series 1", 
-
     new string[] { "Category 1", "Category 2", "Category 3" }, 
-
     new double[] { 1, 5, 4 });
-
-
-
 series1.HasDataLabels = true;
-
 series1.DataLabels.ShowValue = true;
-
 series1.DataLabels[1].ShowCategoryName = true;
-
 series1.DataLabels[1].ShowValue = true;
-
 series1.DataLabels[2].IsHidden = true;
-
-
-
 doc.Save(dir + "DataLabels.docx");
-
 {{< /highlight >}}
 
 
@@ -724,61 +485,35 @@ The following public property was added to FindReplaceOptions class:
 **.NET**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns.
-
 /// The default value is <c>false</c>. 
-
 /// </summary>
-
 /// <remarks>
-
 /// For the details on substitution elements please refer to:
-
 /// https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
-
 /// </remarks>
-
 public bool UseSubstitutions
-
 {{< /highlight >}}
 ##### **Use Case. Explains how to recognize and use substitutions within replacement patterns:**
 **.NET**
 
 {{< highlight csharp >}}
 
- // Create new document.
-
+// Create new document.
 Document doc = new Document();
-
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-
-
 // Write some text.
-
 builder.Write("Jason give money to Paul.");
-
-
-
 Regex regex = new Regex(@"([A-z]+) give money to ([A-z]+)");
 
-
-
 // Replace text using substitutions.
-
 FindReplaceOptions options = new FindReplaceOptions();
-
 options.UseSubstitutions = true;
-
 doc.Range.Replace(regex, @"$2 take money from $1", options);
-
-
-
-Console.WriteLine(doc.GetText()); // The output is: Paul take money from Jason.\f
-
+Console.WriteLine(doc.GetText());
+ // The output is: Paul take money from Jason.\f
 {{< /highlight >}}
 ### **Implemented mutual conversion of several PageBorderArt names between ECMA376 and ISO29500 standard documents**
 Experiments show that there's a mutual correspondence between "*Tribal*"* border art styles and ISO29500 specific border art styles, in the range from *"Triangle1*" to "*Shapes2*".

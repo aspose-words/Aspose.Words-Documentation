@@ -10,16 +10,13 @@ Aspose.Words allows you to import plain text data the same way as other document
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // The encoding of the text file is automatically detected.
-
+// The encoding of the text file is automatically detected.
 Document doc = new Document(dataDir + "LoadTxt.txt");
 
 // Save as any Aspose.Words supported format, such as DOCX.
-
 doc.save(dataDir + "AsposeLoadTxt_Out.docx");
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

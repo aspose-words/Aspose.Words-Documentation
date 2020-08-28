@@ -148,24 +148,17 @@ Related issue WORDSNET-14771.
 
 The following constant is added into the MsWordVersion enumeration type.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Optimize Aspose.Words behavior to match MS Word 2016 version.
-
 /// </summary>
-
 WORD_2016
-
 {{< /highlight >}}
 
 It can be passed into the CompatibilityOptions.OptimizeFor method to optimize the document contents as well as Aspose.Words behavior to match MS Word 2016 version.
 
-{{< highlight java >}}
-
- doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
-
+{{< highlight csharp >}}
+doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 {{< /highlight >}}
 ### **To Set File Name and Extension when Inserting Ole Object using MemoryStream**
 Related Issue: WORDSNET-15616
@@ -173,75 +166,45 @@ Related Issue: WORDSNET-15616
 The public property OlePackage was added to the OleFormat class to provide ability to set file name, extension and display name for OLE Package.
 The OlePackage class has 2 public properties:
 
-{{< highlight java >}}
-
- public class OlePackage
-
+{{< highlight csharp >}}
+public class OlePackage
 {
-
     /// <summary>
-
     /// Gets or sets OLE Package file name.
-
     /// </summary>
-
     java.lang.String	getFileName()	
-
     void	setFileName(java.lang.String value)
-
     /// <summary>
-
     /// Gets or sets OLE Package display name.
-
     /// </summary>
-
     java.lang.String	getDisplayName()	
-
     void	setDisplayName(java.lang.String value)
-
 }
-
 {{< /highlight >}}
 
 The example:
 
-{{< highlight java >}}
-
- //use case
-
+{{< highlight csharp >}}
+//use case
 Document document = new Document();
-
 DocumentBuilder builder = new DocumentBuilder(document);
-
 InputStream stream = null;
-
 FileInputStream fis = new FileInputStream("aaa.zip");
-
 stream = fis;
-
 Shape shape = builder.insertOleObject(stream, "Package", true, null);
-
 OlePackage olePackage = shape.getOleFormat().getOlePackage();
-
 olePackage.setFileName("aaa.zip");
-
 olePackage.setDisplayName("aaa.zip");
-
 document.save("output.docx");
-
-
 {{< /highlight >}}
 ### **Changed Behavior of Range.Replace Methods**
 Related issue WORDSNET-15624
 
 Behaviour of the following methods of the Range class is changed.
 
-{{< highlight java >}}
-
- public int Replace(string pattern, string replacement, FindReplaceOptions options);
-
+{{< highlight csharp >}}
+public int Replace(string pattern, string replacement, FindReplaceOptions options);
 public int Replace(Regex pattern, string replacement, FindReplaceOptions options)
-
 {{< /highlight >}}
 
 Now headers/footers of a section are processed in this order:
@@ -263,20 +226,13 @@ Related issue: WORDSNET-15712
 
 Removed obsolete public methods from DigitalSignatureUtil class:
 
-{{< highlight java >}}
-
- public static void Sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
-
+{{< highlight csharp >}}
+public static void Sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments,DateTime signTime);
-
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
-
 public static void Sign(Stream srcStream, Stream dstStream, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
-
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, string comments, DateTime signTime);
-
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, string comments, DateTime signTime, string srcPassword);
-
 {{< /highlight >}}
 
 Instead, the methods with SignOptions class should be used. See following headings:
@@ -294,196 +250,109 @@ Related issue: WORDSNET-15981 
 
 Added new public property for floating tables in Table class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets the base object from which the horizontal positioning in the <see cref="AbsoluteHorizontalDistance"/>
-
 /// and/or <see cref="RelativeHorizontalAlignment"/> attribute should be calculated.
-
 /// Default value is <see cref="RelativeHorizontalPosition.Column"/>.
-
 /// </summary>
-
 public int getHorizontalAnchor()
-
 /// <summary>
-
 /// Gets the base object from which the vertical positioning in the <see cref="AbsoluteVerticalDistance"/>
-
 /// attribute should be calculated.
-
 /// Default value is <see cref="RelativeVerticalPosition.Margin"/>.
-
 /// </summary>
-
 public int getVerticalAnchor()
-
 /// <summary>
-
 /// Gets table absolute horizontal position relative to the horizontal anchor
-
 /// specified by the <see cref="HorizontalAnchor"/>, in points.
-
 /// Default value is 0.
-
 /// </summary>
-
 public double getAbsoluteHorizontalDistance()
-
 /// <summary>
-
 /// Gets table absolute vertical position relative to the vertical anchor
-
 /// specified by the <see cref="VerticalAnchor"/>, in points.
-
 /// Default value is 0.
-
 /// </summary>
-
 public double getAbsoluteVerticalDistance()
-
 /// <summary>
-
 /// Gets whether a floating table shall allow other floating tables in the document
-
 /// to overlap its extents when displayed.
-
 /// Default value is <c>true</c>.
-
 /// </summary>
-
 public boolean AllowOverlap
-
 {{< /highlight >}}
 
 **UC:**
 
-{{< highlight java >}}
-
- Document doc = new Document("document.xml");
-
+{{< highlight csharp >}}
+Document doc = new Document("document.xml");
 for (Table table: (Iterable<Table>) doc.getFirstSection().getBody().getTables())
-
 {
-
     // If table is floating type then print its positioning properties.
-
     if (table.getTextWrapping() == TextWrapping.AROUND)
-
     {
-
     	System.out.println(table.getHorizontalAnchor());
-
     	System.out.println(table.getVerticalAnchor());
-
     	System.out.println(table.getAbsoluteHorizontalDistance());
-
     	System.out.println(table.getAbsoluteVerticalDistance());
-
     	System.out.println(table.getAllowOverlap());
-
     }
-
 }
-
 {{< /highlight >}}
 ### **Added the FieldIf.EvaluateCondition() Method**
 Related issue: WORDSNET-15903
 
 Customer wanted to evaluate IF condition after mail merge and was requesting some API for it. Since the ComparisonOperator, LeftExpression and RightExpression properties of FieldIf did not fulfill customer requirements, we have introduced the FieldIf.EvaluateCondition() method that immediately returns the result of expression's evaluation.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Evaluates the condition.
-
 /// </summary>
-
 /// <returns>
-
 /// A <see cref="FieldIfComparisonResult"/> value that represents the result of the condition evaluation.
-
 /// </returns>
-
 public int evaluateCondition()
-
 {{< /highlight >}}
 
 FieldIfComparisonResult enumeration:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies result of the IF field condition evaluation.
-
 /// </summary>
-
 public enum FieldIfComparisonResult
-
 {
-
     /// <summary>
-
     /// There is an error in condition.
-
     /// </summary>
-
     ERROR,
-
     /// <summary>
-
     /// The condition is <c>true</c>.
-
     /// </summary>
-
     TRUE,
-
     /// <summary>
-
     /// The condition is <c>false</c>.
-
     /// </summary>
-
     FALSE
-
 }
-
 {{< /highlight >}}
 
 Usage:
 
-{{< highlight java >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+{{< highlight csharp >}}
+DocumentBuilder builder = new DocumentBuilder();
 FieldIf field = (FieldIf)builder.insertField("IF 1 = 1", null);
-
 int actualResult = field.evaluateCondition();
-
 switch (actualResult) {
-
     case 0:
-
         System.out.println("ERROR");
-
         break;
-
     case 1:
-
         System.out.println("TRUE");
-
         break;
-
     case 2:
-
         System.out.println("FALSE");
-
         break;
-
 }
-
 {{< /highlight >}}

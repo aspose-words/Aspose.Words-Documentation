@@ -36,17 +36,10 @@ In previous versions the **DataRelation** class took the names of the parent and
 **Java**
 
 {{< highlight csharp >}}
-
- dataSet.getRelations().add(new DataRelation(
-
+dataSet.getRelations().add(new DataRelation(
                 "OrderToItemDetails",
-
                 orders,
-
                 itemDeatails,
-
                 new String[]{"OrderID"},
-
                 new String[]{"OrderID"}));
-
 {{< /highlight >}}

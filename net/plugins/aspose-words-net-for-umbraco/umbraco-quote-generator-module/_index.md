@@ -66,7 +66,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 1. Follow the instructions on screen.
 
 **Note:** You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
-<httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /> 
+&lt;httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /&gt; 
 ## **Using**
 - [Using Umbraco Quote Generator ](http://www.aspose.com/docs/display/wordsnet/Using+and+Video+Demo+for+Umbraco+Quote+Generator#UsingandVideoDemoforUmbracoQuoteGenerator-Using)
 ## **Video Demo**

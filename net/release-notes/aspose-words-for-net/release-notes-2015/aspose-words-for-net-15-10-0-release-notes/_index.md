@@ -87,7 +87,7 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-12356|ruby is improperly imported from DOCX|Enhancement|
 |WORDSNET-12472|Inline Shape with WrapSide as Both pushes following paragraph down in PDF|Enhancement|
 |WORDSNET-12485|DoNotUseHTMLParagraphAutoSpacing compatibility option is improperly read from DOC|Enhancement|
-|WORDSNET-12521|Redundant <c:marker>, <c:spPr>, and incorrect values appear while testing in multi-threading mode|Enhancement|
+|WORDSNET-12521|Redundant &lt;c:marker&gt;, &lt;c:spPr&gt;, and incorrect values appear while testing in multi-threading mode|Enhancement|
 |WORDSNET-4324|Support of proper reading of footnote custom reference mark in Rtf reader.|Enhancement|
 |WORDSNET-4819|Format of TOC entries differs when TOC is updated by Word|Enhancement|
 |WORDSNET-4821|Paragraph marker in TOC entry has different format when updated by MS Word and AW|Enhancement|

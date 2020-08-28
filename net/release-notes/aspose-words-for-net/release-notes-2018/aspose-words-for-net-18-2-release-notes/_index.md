@@ -147,178 +147,106 @@ Related issue: WORDSNET-15943
 
 The following public method has been added into the **DocumentBuilder** class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Inserts style separator into the document.
-
 /// </summary>
-
 /// <remarks>
-
 /// This method allows to apply different paragraph styles to two different parts of a text line.
-
 /// </remarks>
-
 public void InsertStyleSeparator()
-
 {{< /highlight >}}
 
 Style Separator can be added to the end of a paragraph using the* *Ctrl+Alt+Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph.
 
 Use case:
 
-{{< highlight java >}}
-
- DocumentBuilder builder = new DocumentBuilder(new Document());
-
+{{< highlight csharp >}}
+DocumentBuilder builder = new DocumentBuilder(new Document());
 Style paraStyle = builder.Document.Styles.Add(StyleType.Paragraph, "MyParaStyle");
-
 paraStyle.Font.Bold = false;
-
 paraStyle.Font.Size =8;
-
 paraStyle.Font.Name ="Arial";
 
 // Append text with "Heading 1" style.
-
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
-
 builder.Write("Heading 1");
-
 builder.InsertStyleSeparator();
 
 // Append text with another style.
-
 builder.ParagraphFormat.StyleName = paraStyle.Name;
-
 builder.Write("This is text with some other formatting ");
-
 builder.Document.Save(@"OutDoc.docx");
-
 {{< /highlight >}}
 ### **HtmlSaveOptions.MetafileFormat Property Added**
 Related issue: WORDSNET-15995
 
 The following property has been added to the HtmlSaveOptions class:
 
-{{< highlight cs >}}
-
- public class HtmlSaveOptions
-
+{{< highlight csharp >}}
+public class HtmlSaveOptions
 {
-
     /// <summary>
-
     /// Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB.
-
     /// Default value is <see cref="HtmlMetafileFormat.Png" />, meaning that metafiles are rendered to raster PNG images.
-
     /// </summary>
-
     /// <remarks>
-
     /// <p>Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF
-
     /// images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export
-
     /// them as is without conversion.</p>
-
     /// <p>Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported
-
     /// to HTML without conversion.</p>
-
     /// </remarks>
-
     /// <seealso cref="ImageResolution"/>
-
     /// <seealso cref="ScaleImageToShapeSize"/>
-
     public HtmlMetafileFormat MetafileFormat
-
     {
-
         get { return mSaveImageOptions.MetafileFormat; }
-
         set { mSaveImageOptions.MetafileFormat = value; }
-
     }
-
 }
-
 /// <summary>
-
 /// Indicates the format in which metafiles are saved to HTML documents.
-
 /// </summary>
-
 public enum HtmlMetafileFormat
-
 {
-
     /// <summary>
-
     /// Metafiles are rendered to raster PNG images.
-
     /// </summary>
-
     Png,
-
     /// <summary>
-
     /// Metafiles are converted to vector SVG images.
-
     /// </summary>
-
     Svg,
-
     /// <summary>
-
     /// Metafiles are saved as is, without conversion.
-
     /// </summary>
-
     EmfOrWmf
-
 }
-
 {{< /highlight >}}
 
 The new property replaces HtmlSaveOptions.ExportMetafileAsRaster, which is now marked obsolete. New code should use MetafileFormat instead of ExportMetafileAsRaster, as shown below:
 
-{{< highlight cs >}}
-
- MetafileFormat = HtmlMetafileFormat.Png;
+{{< highlight csharp >}}
+MetafileFormat = HtmlMetafileFormat.Png;
 
 // Instead of
-
 ExportMetafileAsRaster = true;
-
 MetafileFormat = HtmlMetafileFormat.EmfOrWmf;
 
 // Instead of
-
 ExportMetafileAsRaster = false;
-
 {{< /highlight >}}
 
 The new option value - HtmlMetafileFormat.Svg - is useful in scenarios where a customer imports SVG images to a document and want to save these images back to SVG format, as in the following code sample:
 
-{{< highlight java >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+{{< highlight csharp >}}
+DocumentBuilder builder = new DocumentBuilder();
 builder.Write("Here is an SVG image: ");
-
 builder.InsertHtml("<svg height='210' width='500'> <polygon points='100,10 40,198 190,78 10,78 160,198' style='fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;' /></svg> ");
-
 HtmlSaveOptions opts = new HtmlSaveOptions();
-
 opts.MetafileFormat = HtmlMetafileFormat.Svg;
-
 builder.Document.Save("D:\\temp\\out.html", opts);
-
 {{< /highlight >}}
 ### **FontSettings.EnableFontSubstitution Option Added**
 Related issue: WORDSNET-16315
@@ -327,40 +255,23 @@ Related issue: WORDSNET-16315
 
 The following public property has been added into the **FontSettings** class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies whether to enable or disable font substitution.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>If font substitution is enabled, Aspose.Words evaluates all the related fields in <see cref="FontInfo"/>
-
 /// (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. Note that
-
 /// font substitution mechanism will override the <see cref="DefaultFontName"/> in cases when <see cref="FontInfo"/>
-
 /// for the missing font is available in the document.</para>
-
 /// <para>If font substitution is disabled, Aspose.Words uses the <see cref="DefaultFontName"/> for the substitution
-
 /// of missing fonts.</para>
-
 /// <para>The default value is <c>true</c>.</para>
-
 /// </remarks>
-
 public bool EnableFontSubstitution
-
 {
-
     get; set;
-
 }
-
 {{< /highlight >}}
 ### **Shape was not Resized Properly**
 Related issue: WORDSNET-16362
@@ -369,12 +280,9 @@ Behavior of the model while setting of shape height/width was changed. Relative 
 
 For example, the following code, for shape with relative height 20% from "margin", updates relative height to 0 and set absolute value to 150 points:
 
-{{< highlight java >}}
-
- Shape shape = (Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
-
+{{< highlight csharp >}}
+Shape shape = (Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 shape.Height = 150;
-
 {{< /highlight >}}
 ### **Obsolete Properties were Removed from HtmlSaveOptions**
 Then following obsolete properties were removed from the HtmlSaveOptions class:

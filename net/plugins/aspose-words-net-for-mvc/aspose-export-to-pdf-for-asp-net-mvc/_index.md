@@ -65,10 +65,8 @@ You can download the latest solution for Microsoft Visual Studio at:
 - Step 4 - Copy “Views/Shared/AsposeWordsExportTypes.cshtml” to your projects “Views/Shared” folder.
 - Step 5 – Add partial view "AsposeWordsExportTypes.cshtml" in your desired view. 
 
-{{< highlight java >}}
-
- e.g @{ Html.RenderPartial("~/Views/Shared/AsposeWordsExportTypes.cshtml"); }
-
+{{< highlight csharp >}}
+e.g @{ Html.RenderPartial("~/Views/Shared/AsposeWordsExportTypes.cshtml"); }
 {{< /highlight >}}
 ## **Support, Extend and Contribute**
 ### **Support**

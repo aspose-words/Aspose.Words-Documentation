@@ -11,31 +11,22 @@ Find and Replace Example
 **PHP Code**
 
 {{< highlight php >}}
-
-         $dataDir = '.';
-
+        $dataDir = '.';
         $comHelper = new \COM("Aspose.Words.ComHelper");
-
         $doc = $comHelper->Open($dataDir."/ReplaceSimple.doc");
 
         // Check the text of the document
-
         print "Original document text: " . $doc->Range->Text . PHP_EOL;
 
         // Replace the text in the document.
-
         $doc->Range->Replace("_CustomerName_", "James Bond", false, false);
 
         // Check the replacement was made.
-
         print "Original document text: " . $doc->Range->Text . PHP_EOL;
 
         // Save the modified document.
-
         $doc->Save($dataDir . "/ReplaceSimple Out.doc");
-
         print "Text found and replaced successfully.\nFile saved at " . $dataDir . "ReplaceSimple Out.doc" . PHP_EOL;
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Find and Replace Example (Aspose.Words)** from any of the below mentioned social coding sites:

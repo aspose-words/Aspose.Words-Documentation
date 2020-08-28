@@ -103,10 +103,8 @@ The "[Working with Table-Row Data Bands](/words/java/working-with-table-row-data
 ### **Remove Obsolete Method in CompositeNode**
 Removed obsolete public method from CompositeNode class:
 
-{{< highlight java >}}
-
- public NodeCollection getChildNodes(NodeType nodeType, boolean isDeep, boolean isLive)
-
+{{< highlight csharp >}}
+public NodeCollection getChildNodes(NodeType nodeType, boolean isDeep, boolean isLive)
 {{< /highlight >}}
 
 Parameter "isLive" is not used anymore. Please use CompositeNode.GetChildNodes(NodeType nodeType, bool isDeep) instead.
@@ -115,178 +113,114 @@ Related Issue: WORDSNET-15801
 
 The following public property has been added into the **ChartAxis** class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a flag indicating whether this axis is hidden or not.
-
 /// </summary>
-
 /// <remarks>
-
 /// Default value is false.
-
 /// </remarks>
-
 public boolean Hidden
-
 {
-
     get; set;
-
 }
-
 {{< /highlight >}}
 
 The property allows hiding/showing and getting visibility state of an axis of a chart.
 #### **UC to create a chart and hide its Y axis**
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.insertChart(ChartType.COLUMN, 432, 252);
-
 Chart chart = shape.getChart();
 
 // Clear demo data.
-
 chart.getSeries().clear();
 
 // Fill data.
-
 chart.getSeries().add("AW Series 1",
-
         new String[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
-
         new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
 // Hide the Y axis.
-
 chart.getAxisY().setHidden(true);
-
 dataDir = dataDir + "HideChartAxis_out.docx";
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 ### **Added Property for Preserving Meta-Characters during Replacement**
 Related Issue: WORDSNET-15840
 
 We have added public get/set property for preserving meta-characters during replacement as an option in FindReplaceOptions class
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// True indicates that meta-characters beginning with "&" are preserved.
-
 /// Default value is false.
-
 /// </summary>
-
 public boolean PreserveMetaCharacters
-
 {{< /highlight >}}
 
 This is useful for example in replacing html text with meta-characters such as "&ldquo" and others
 
 Sample usage
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // The path to the documents directory.
-
+// The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ReplaceTextWithField.class) + "FindAndReplace/";
-
 String html = "<p>&ldquo;Some Text&rdquo;</p>";
 
 // Initialize a Document.
-
 Document doc = new Document();
 
 // Use a document builder to add content to the document.
-
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.write("{PLACEHOLDER}");
-
 FindReplaceOptions findReplaceOptions = new FindReplaceOptions();
-
 findReplaceOptions.setReplacingCallback(new FindAndInsertHtml());
-
 findReplaceOptions.setPreserveMetaCharacters(true);
-
 doc.getRange().replace("{PLACEHOLDER}", html, findReplaceOptions);
-
 dataDir = dataDir + "ReplaceHtmlTextWithMetaCharacters_out.doc";
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- static class FindAndInsertHtml implements IReplacingCallback {
-
+{{< highlight csharp >}}
+static class FindAndInsertHtml implements IReplacingCallback {
     public int replacing(ReplacingArgs e) throws Exception {
-
         // This is a Run node that contains either the beginning or the complete match.
-
         Node currentNode = e.getMatchNode();
 
         // create Document Buidler and insert MergeField
-
         DocumentBuilder builder = new DocumentBuilder((Document) e.getMatchNode().getDocument());
-
         builder.moveTo(currentNode);
-
         builder.insertHtml(e.getReplacement());
-
         currentNode.remove();
-
         //Signal to the replace engine to do nothing because we have already done all what we wanted.
-
         return ReplaceAction.SKIP;
-
     }
-
 }
-
 {{< /highlight >}}
 ### **Added Feature to Get StoreItemID Property of StructuredDocumentTag**
 Related Issue: WORDSNET-16060
 
 As per customer's request, we have made public get property StoreItemId of class XmlMapping:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies the custom XML data identifier for the custom XML data part which
-
 /// shall be used to evaluate the <see cref="XPath"/> expression.
-
 /// </summary>
-
 public String StoreItemId
-
 {{< /highlight >}}
 
 More info about storeItemID property: <https://msdn.microsoft.com/en-us/library/documentformat.openxml.wordprocessing.databinding(v=office.14).aspx>
 
 Sample usage:
 
-{{< highlight java >}}
-
- Document doc = new Document("file.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document("file.docx");
 StructuredDocumentTag sdt = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
-
 System.out.println("Id = " + sdt.getXmlMapping().getStoreItemId());
-
 {{< /highlight >}}

@@ -107,16 +107,10 @@ You can download the latest source code at:
 
 Simply merge two documents here:
 
-{{< highlight java >}}
-
- Document doc1 = new Document(fileStream1);
-
+{{< highlight csharp >}}
+Document doc1 = new Document(fileStream1);
 Document doc2 = new Document(fileStream2);
-
 doc1.AppendDocument(doc2, ImportFormatMode.KeepSourceFormatting);
-
 MemoryStream UpdateDoc = new MemoryStream();
-
 doc1.Save(UpdateDoc, SaveFormat.Docx);
-
 {{< /highlight >}}

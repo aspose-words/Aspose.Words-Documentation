@@ -18,106 +18,65 @@ In this scenario we have used Aspose.Words.dll to generate document from a templ
 - Please Notice the Input and Output parameters that would be used by the 'Generate Document Class': 
 
 {{< highlight csharp >}}
-
- [RequiredArgument]
-
+[RequiredArgument]
 [Input("Document Template")]
-
 [ReferenceTarget("aspose_documenttemplate")]
-
 public InArgument<EntityReference> DocumentTemplateId { get; set; }
-
 [Output("Attachment")]
-
 [ReferenceTarget("annotation")]
-
 public OutArgument<EntityReference> OutputAttachmentId { get; set; }
-
 {{< /highlight >}}
 
 - Once we have the Document Template Id, we can retrieve the Template in word document format from this template.
 - Now we need to get all the fields name from the Template, so that we can retrieve this data from CRM and generate document. 
 
 {{< highlight csharp >}}
-
- byte[] DocumentBody = Convert.FromBase64String(Note["documentbody"].ToString());
-
+byte[] DocumentBody = Convert.FromBase64String(Note["documentbody"].ToString());
 MemoryStream fileStream = new MemoryStream(DocumentBody);
-
 Document doc = new Document(fileStream);
-
 string[] fields = doc.MailMerge.GetFieldNames();
-
 {{< /highlight >}}
 
 - Retrieve the Data from CRM and Execute MailMerge on Document 
 
 {{< highlight csharp >}}
-
- string[] values = new string[fields.Length];
-
+string[] values = new string[fields.Length];
 for (int i = 0; i < fields.Length; i++)
-
 {
-
    if (PrimaryEntity.Contains(fields[i]))
-
    {
-
       if (PrimaryEntity[fields[i]].GetType() == typeof(OptionSetValue))
-
          values[i] = PrimaryEntity.FormattedValues[fields[i]].ToString();
-
       else if (PrimaryEntity[fields[i]].GetType() == typeof(EntityReference))
-
          values[i] = ((EntityReference)PrimaryEntity[fields[i]]).Name;
-
       else
-
          values[i] = PrimaryEntity[fields[i]].ToString();
-
    }
-
    else
-
       values[i] = "";
-
 }
-
 doc.MailMerge.Execute(fields, values);
-
 MemoryStream UpdateDoc = new MemoryStream();
-
-doc.Save(UpdateDoc, SaveFormat.Docx); // The SaveFormat is assigned on the basis of Input Parameters.
-
+doc.Save(UpdateDoc, SaveFormat.Docx);
+ // The SaveFormat is assigned on the basis of Input Parameters.
 {{< /highlight >}}
 
 - Once the Document is generated from the Template, we can easily create an Attachment and use it. 
 
 {{< highlight csharp >}}
-
- Entity NewNote = new Entity("annotation");
-
+Entity NewNote = new Entity("annotation");
 NewNote.Attributes.Add("objectid", new EntityReference(PrimaryEntityName, PrimaryEntityId));
-
 NewNote.Attributes.Add("subject", FileName != "" ? FileName : "Aspose .NET AutoMerge Created Document." + saveAs);
-
 NewNote.Attributes.Add("documentbody", encodedData);
 
 // Set the type of attachment
-
 NewNote.Attributes.Add("mimetype", @"application/vnd.openxmlformats-officedocument.wordprocessingml.document");
-
 NewNote.Attributes.Add("notetext", "Document Created using template");
 
 // Set the File Name
-
 NewNote.Attributes.Add("filename", FileName != "" ? FileName : "Aspose .NET AutoMerge Created Document." + saveAs);
-
 Guid NewNoteId = service.Create(NewNote);
-
 OutputAttachmentId.Set(executionContext, new EntityReference("annotation", NewNoteId));
-
 {{< /highlight >}}
 
 **Please Note:** This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.

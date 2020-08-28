@@ -12,11 +12,7 @@ You want to change page setup (e.g. paper size, orientation, margins etc) for an
 
 
 {{< highlight csharp >}}
-
- ActiveDocument.Range.PageSetup.PaperSize = wdPaperLetter
-
-
-
+ActiveDocument.Range.PageSetup.PaperSize = wdPaperLetter
 {{< /highlight >}}
 
 When migrating to Aspose.Words, you can easily achieve the same functionality. The only difference in Aspose.Words is when applying such changes to the entire document you need to loop across all sections in the document and modify the page setup of each section. 

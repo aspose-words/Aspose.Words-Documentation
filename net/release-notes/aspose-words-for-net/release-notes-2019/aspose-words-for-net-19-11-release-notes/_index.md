@@ -108,699 +108,302 @@ This section lists public API changes that were introduced in Aspose.Words 19.11
 Following public classes and enums were added.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Represents an add-in task pane object.
-
 /// </summary>
-
 public class TaskPane
-
 {
-
     /// <summary>
-
     /// Creates task pane add-in instance.
-
     /// </summary>
-
     public TaskPane() { }
-
-
-
     /// <summary>
-
     /// Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted
-
     /// task panes docked in the same default location.
-
     /// </summary>
-
     public int Row { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies the default width value for this task pane instance.
-
     /// </summary>
-
     public double Width { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user.
-
     /// </summary>
-
     public bool IsLocked { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies whether the task pane shows as visible by default when the document opens.
-
     /// </summary>
-
     public bool IsVisible { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies the last-docked location of this task pane object.
-
     /// </summary>
-
     /// <dev>In the spec this value represents as string.</dev>
-
     public TaskPaneDockState DockState { get; set; }
-
-
-
     /// <summary>
-
     /// Represents an web extension object.
-
     /// </summary>
-
     public WebExtension WebExtension { get; }
-
 }
-
-
-
 /// <summary>
-
 /// Specifies a list of persisted task pane objects.
-
 /// </summary>
-
 public class TaskPaneCollection
-
 {
-
     /// <summary>
-
     /// Gets the number of elements contained in the collection.
-
     /// </summary>
-
     public int Count;
-
-
-
     /// <summary>
-
     /// Gets or sets an item at the specified index.
-
     /// </summary>
-
     /// <param name="index">Zero-based index of the item.</param>
-
     public T this[int index] { get; set; }
-
-
-
     /// <summary>
-
     /// Adds specified item to the collection.
-
     /// </summary>
-
     /// <param name="item">Item for adding.</param>
-
     public void Add(T item);
-
-
-
     /// <summary>
-
     /// Removes all elements from the collection.
-
     /// </summary>
-
     public void Clear();
-
-
-
     /// <summary>
-
     /// Removes the item at the specified index from the collection.
-
     /// </summary>
-
     /// <param name="index">The zero-based index of the collection item.</param>
-
     public void Remove(int index);
-
 }
-
-
-
 /// <summary>
-
 /// Represents a web extension object.
-
 /// </summary>
-
 public class WebExtension
-
 {
-
     /// <summary>
-
     /// Uniquely identifies the web extension instance in the current document.
-
     /// </summary>
-
     public string Id { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies whether the user can interact with the web extension or not.
-
     /// </summary>
-
     public bool IsFrozen { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies the primary reference to an web extension.
-
     /// </summary>
-
     public WebExtensionReference Reference { get; }
-
-
-
     /// <summary>
-
     /// Specifies a list of web extension bindings.
-
     /// </summary>
-
     public WebExtensionBindingCollection Bindings { get; }
-
-
-
     /// <summary>
-
     /// Specifies alternate references to a web extension.
-
     /// </summary>
-
     public WebExtensionReferenceCollection AlternateReferences { get; }
-
-
-
     /// <summary>
-
     /// Represents a set of web extension custom properties.
-
     /// </summary>
-
     public WebExtensionPropertyCollection Properties { get; }
-
 }
-
-
-
 /// <summary>
-
 /// Specifies a binding relationship between a web extension and the data in the document.
-
 /// </summary>
-
 public class WebExtensionBinding
-
 {
-
     /// <summary>
-
     /// Creates web extension binding with specified parameters.
-
     /// </summary>
-
     /// <param name="id">Binding identifier.</param>
-
     /// <param name="bindingType">Binding type.</param>
-
     /// <param name="appRef">Binding key used to map the binding entry in this list with the bound data in the document.</param>
-
     public WebExtensionBinding(string id, WebExtensionBindingType bindingType, string appRef);
-
-
-
     /// <summary>
-
     /// Specifies the binding identifier.
-
     /// </summary>
-
     public string Id { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies the binding type.
-
     /// </summary>
-
     public WebExtensionBindingType BindingType { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies the binding key used to map the binding entry in this list with the bound data in the document.
-
     /// </summary>
-
     /// <dev>It may be, for example, identifier of the SDT.</dev>
-
     public string AppRef { get; set; }
-
 }
-
-
-
 /// <summary>
-
 /// Specifies a web extension custom property.
-
 /// </summary>
-
 public class WebExtensionProperty
-
 {
-
     /// <summary>
-
     /// Creates web extension custom property with specified name and value.
-
     /// </summary>
-
     /// <param name="name">Property name.</param>
-
     /// <param name="value">Property value.</param>
-
     public WebExtensionProperty(string name, string value);
-
-
-
     /// <summary>
-
     ///  Specifies a custom property name
-
     /// </summary>
-
     public string Name { get; set; }
-
-
-
     /// <summary>
-
     ///  Specifies a custom property value.
-
     /// </summary>
-
     public string Value { get; set; }
-
 }
-
-
-
 /// <summary>
-
 /// Represents the reference to a web extension. The reference is used to identify the provider location and version of the
-
 /// extension.
-
 /// </summary>
-
 public class WebExtensionReference
-
 {
-
     /// <summary>
-
     /// Creates instance of the reference to a web extension.
-
     /// </summary>
-
     public WebExtensionReference();
-
-
-
     /// <summary>
-
     /// Identifier associated with the web extension within a catalog provider.
-
     /// </summary>
-
     public string Id { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies the version of the web extension.
-
     /// </summary>
-
     public string Version { get; set; }
-
-
-
     /// <summary>
-
     ///  Specifies the instance of the marketplace where the web extension is stored.
-
     /// </summary>
-
     public string Store { get; set; }
-
-
-
     /// <summary>
-
     /// Specifies the type of marketplace.
-
     /// </summary>
-
     public WebExtensionStoreType StoreType { get; set; }
-
 }
-
-
-
 /// <summary>
-
 /// Specifies a list of web extension bindings.
-
 /// </summary>
-
 public class WebExtensionBindingCollection
-
 {
-
     /// <summary>
-
     /// Gets the number of elements contained in the collection.
-
     /// </summary>
-
     public int Count { get; }
-
-
-
     /// <summary>
-
     /// Gets or sets an item at the specified index.
-
     /// </summary>
-
     /// <param name="index">Zero-based index of the item.</param>
-
     public T this[int index] { get; set; }
-
-
-
     /// <summary>
-
     /// Adds specified item to the collection.
-
     /// </summary>
-
     /// <param name="item">Item for adding.</param>
-
     public void Add(T item);
-
-
-
     /// <summary>
-
     /// Removes all elements from the collection.
-
     /// </summary>
-
     public void Clear();
-
-
-
     /// <summary>
-
     /// Removes the item at the specified index from the collection.
-
     /// </summary>
-
     /// <param name="index">The zero-based index of the collection item.</param>
-
     public void Remove(int index);
-
 }
-
-
-
 /// <summary>
-
 /// Specifies a set of web extension custom properties.
-
 /// </summary>
-
 public class WebExtensionPropertyCollection
-
 {
-
     /// <summary>
-
     /// Gets the number of elements contained in the collection.
-
     /// </summary>
-
     public int Count { get; }
-
-
-
     /// <summary>
-
     /// Gets or sets an item at the specified index.
-
     /// </summary>
-
     /// <param name="index">Zero-based index of the item.</param>
-
     public T this[int index] { get; set; }
-
-
-
     /// <summary>
-
     /// Adds specified item to the collection.
-
     /// </summary>
-
     /// <param name="item">Item for adding.</param>
-
     public void Add(T item);
-
-
-
     /// <summary>
-
     /// Removes all elements from the collection.
-
     /// </summary>
-
     public void Clear();
-
-
-
     /// <summary>
-
     /// Removes the item at the specified index from the collection.
-
     /// </summary>
-
     /// <param name="index">The zero-based index of the collection item.</param>
-
     public void Remove(int index);
-
 }
-
-
-
 /// <summary>
-
 /// Specifies a list of web extension references.
-
 /// </summary>
-
 public class WebExtensionReferenceCollection
-
 {
-
     /// <summary>
-
     /// Gets the number of elements contained in the collection.
-
     /// </summary>
-
     public int Count { get; }
-
-
-
     /// <summary>
-
     /// Gets or sets an item at the specified index.
-
     /// </summary>
-
     /// <param name="index">Zero-based index of the item.</param>
-
     public T this[int index] { get; set; }
-
-
-
     /// <summary>
-
     /// Adds specified item to the collection.
-
     /// </summary>
-
     /// <param name="item">Item for adding.</param>
-
     public void Add(T item);
-
-
-
     /// <summary>
-
     /// Removes all elements from the collection.
-
     /// </summary>
-
     public void Clear();
-
-
-
     /// <summary>
-
     /// Removes the item at the specified index from the collection.
-
     /// </summary>
-
     /// <param name="index">The zero-based index of the collection item.</param>
-
     public void Remove(int index);
-
 }
-
-
-
 /// <summary>
-
 /// Enumerates available locations of task pane object.
-
 /// </summary>
-
 public enum TaskPaneDockState
-
 {
-
     Right,
-
     Left
-
 }
-
-
-
 /// <summary>
-
 /// Enumerates available types of binding between a web extension and the data in the document.
-
 /// </summary>
-
 public enum WebExtensionBindingType
-
 {
-
     /// <summary>
-
     /// Tabular data without a header row.
-
     /// </summary>
-
     Matrix,
-
-
-
     /// <summary>
-
     /// Tabular data with a header row.
-
     /// </summary>
-
     Table,
-
-
-
     /// <summary>
-
     /// Plain text.
-
     /// </summary>
-
     Text,
-
-
-
     Default = Matrix
-
 }
-
-
-
 /// <summary>
-
 /// Enumerates available types of a web extension store.
-
 /// </summary>
-
 public enum WebExtensionStoreType
-
 {
-
     SPCatalog,
-
     OMEX,
-
     SPApp,
-
     Exchange,
-
     FileSystem,
-
     Registry,
-
     ExCatalog,
-
     Default = SPCatalog
-
 }
-
 {{< /highlight >}}
 
 
@@ -808,37 +411,18 @@ public enum WebExtensionStoreType
 Typical Use Case.
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
-
-
+Document doc = new Document();
 TaskPane taskPane = new TaskPane();
-
 doc.WebExtensionTaskPanes.Add(taskPane);
-
-
-
 taskPane.DockState = TaskPaneDockState.Right;
-
 taskPane.IsVisible = true;
-
 taskPane.Width = 300;
-
-
-
 taskPane.WebExtension.Reference.Id = "wa102923726";
-
 taskPane.WebExtension.Reference.Version = "1.0.0.0";
-
 taskPane.WebExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
-
 taskPane.WebExtension.Reference.Store = "th-TH";
-
 taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign", "mailchimpCampaign"));
-
 taskPane.WebExtension.Bindings.Add(new WebExtensionBinding("UnnamedBinding_0_1506535429545", WebExtensionBindingType.Text, "194740422"));
-
 {{< /highlight >}}
 ### **Horizontal rule formatting**
 Related issue: WORDSNET-18182
@@ -846,186 +430,96 @@ Related issue: WORDSNET-18182
 **Added new public property Shape.HorizontalRuleFormat**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Provides access to the properties of the horizontal rule shape.
-
 /// For a shape that is not a horizontal rule, returns null.
-
 /// </summary>
-
 public HorizontalRuleFormat HorizontalRuleFormat
-
 {{< /highlight >}}
 
 **Added new public class HorizontalRuleFormat** 
 HorizontalRuleFormat class allows to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Represents horizontal rule formatting.
-
 /// </summary>
-
 public class HorizontalRuleFormat
-
 {
-
     /// <summary>
-
     /// Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width.
-
     /// </summary>
-
     /// <remarks>
-
     /// <p>Valid values range from 1 to 100 inclusive.</p>
-
     /// <p>The default value is 100.</p>
-
     /// </remarks>
-
     /// <exception cref="ArgumentOutOfRangeException">
-
     /// Throws when argument was out of the range of valid values.
-
     /// </exception>
-
     public double WidthPercent
-
     {
-
         get; set;
-
     }
-
-
-
     /// <summary>
-
     /// Gets or sets the height of the horizontal rule.
-
     /// </summary>
-
     /// <remarks>
-
     /// <p>This is a shortcut to the <see cref="Aspose.Words.Drawing.ShapeBase.Height"/> property.</p>
-
     /// <p>Valid values range from 0 to 1584 inclusive.</p>
-
     /// <p>The default value is 1.5.</p>
-
     /// </remarks>
-
     /// <exception cref="ArgumentOutOfRangeException">
-
     /// Throws when argument was out of the range of valid values.
-
     /// </exception>
-
     public double Height
-
     {
-
         get; set;
-
     }
-
-
-
     /// <summary>
-
     /// Indicates the presence of 3D shading for the horizontal rule.
-
     /// If true, then the horizontal rule is without 3D shading and solid color is used.
-
     /// </summary>
-
     /// <remarks>
-
     /// <p>The default value is false.</p>
-
     /// </remarks>
-
     public bool NoShade
-
     {
-
         get; set;
-
     }
-
-
-
     /// <summary>
-
     /// Gets or sets the brush color that fills the horizontal rule.
-
     /// </summary>
-
     /// <remarks>
-
     /// <p>This is a shortcut to the <see cref="Aspose.Words.Drawing.Fill.Color"/> property.</p>
-
     /// <p>The default value is 
-
     /// <ms><see cref="System.Drawing.Color.Gray"/>.</ms>
-
     /// <java><see javaref="T:java.awt.Color.GRAY"/>.</java>
-
     /// </p>
-
     /// </remarks>
-
     public Color Color
-
     {
-
         get; set;
-
     }
-
-
-
     /// <summary>
-
     /// Gets or sets the alignment of the horizontal rule.
-
     /// </summary>
-
     /// <remarks>
-
     /// <p>The default value is <see cref="HorizontalRuleAlignment.Left"/>.</p>
-
     /// </remarks>
-
     public HorizontalRuleAlignment Alignment
-
     {
-
         get; set;
-
     }
-
 }
-
 {{< /highlight >}}
 
 **Added public enum HorizontalRuleAlignment**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Represents the alignment for the specified horizontal rule. 
-
 /// </summary>
-
 public enum HorizontalRuleAlignment
-
 {{< /highlight >}}
 
 
@@ -1033,259 +527,142 @@ public enum HorizontalRuleAlignment
 **Use Case:**
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
-
-
+DocumentBuilder builder = new DocumentBuilder();
 Shape shape = builder.InsertHorizontalRule();
-
 HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
-
-
-
 horizontalRuleFormat.Alignment = HorizontalRuleAlignment.Center;
-
 horizontalRuleFormat.WidthPercent = 70;
-
 horizontalRuleFormat.Height = 3;
-
 horizontalRuleFormat.Color = Color.Blue;
-
 horizontalRuleFormat.NoShade = true;
-
-
-
 builder.Document.Save("HorizontalRuleFormat.docx");
-
 {{< /highlight >}}
 ### **Macros support improved**
 Related issue: WORDSNET-19153
 ##### **Added a new public setter for a Document.VbaProject**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a <see cref="VbaProject" />.
-
 /// </summary>
-
 public VbaProject VbaProject
-
 {{< /highlight >}}
 
 
 ##### **Added a new public constructor for a VbaProject class.**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Creates a blank VbaProject.
-
 /// </summary>
-
 public VbaProject()
-
 {{< /highlight >}}
 
 
 ##### **Added a new public setter for a VbaProject.Name**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets VBA project name.
-
 /// </summary>
-
 public string Name
-
 {{< /highlight >}}
 ##### **Added a new public getter for a VbaProject.CodePage**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Returns the VBA project’s code page.
-
 /// </summary>
-
 public int CodePage
-
 {{< /highlight >}}
 ##### **Added a new public constructor for a VbaModule class.**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Creates an empty module.
-
 /// </summary>
-
 public VbaModule()
-
 {{< /highlight >}}
 ##### **Added a new public setter for a VbaModule.Name**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets VBA project module name.
-
 /// </summary>
-
 public string Name
-
 {{< /highlight >}}
 ##### **Added a new public property VbaModule.Type**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies whether the module is a procedural module, document module, class module, or designer module.
-
 /// </summary>
-
 public VbaModuleType Type
-
 {{< /highlight >}}
 ##### **Added a new public void VbaModuleCollection.Add(VbaModule vbaModule)**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Adds a module to the collection.
-
 /// </summary>
-
 public void Add(VbaModule vbaModule)
-
 {{< /highlight >}}
 ##### **Added a new public void VbaModuleCollection.Remove(VbaModule vbaModule)**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Removes the specified module from the collection.
-
 /// </summary>
-
 /// <param name="module">The module to remove.</param>
-
 public void Remove(VbaModule module)
-
 {{< /highlight >}}
 ##### **Added ability to retrieve a module from the VbaModuleCollection by name.**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Retrieves a <see cref="VbaModule"/> object by name, or Null if not found.
-
 /// </summary>
-
 public VbaModule this[string name]
-
 {{< /highlight >}}
 ##### **Added a new public property VbaModuleCollection.Count**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Returns the number of VBA modules in the collection.
-
 /// </summary>
-
 public int Count
-
 {{< /highlight >}}
 ##### **Added public enums for specifying a VbaModule type.**
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the type of a model in a VBA project.
-
 /// </summary>
-
 public enum VbaModuleType
-
 {
-
   /// <summary>
-
   /// Specifies a module that extends a document module.
-
   /// </summary>
-
   DocumentModule,
-
-
-
   /// <summary>
-
   /// Specifies a procedural module.
-
   /// </summary>
-
   ProceduralModule,
-
-
-
   /// <summary>
-
   /// Specifies a class module.
-
   /// </summary>
-
   ClassModule,
-
-
-
   /// <summary>
-
   /// Specifies a designer module.
-
   /// </summary>
-
   DesignerModule
-
 }
-
 {{< /highlight >}}
 ##### **Use Case: Explains how to create a VbaProject from a scratch, create a VbaModules from a scratch and add it to the project.**
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
-
+Document doc = new Document();
 
 // Create a new VBA project.
-
 VbaProject project = new VbaProject();
-
 project.Name = "AsposeProject";
-
 doc.VbaProject = project;
 
-
-
 // Create a new module and specify a macro source code.
-
 VbaModule module = new VbaModule();
-
 module.Name = "AsposeModule";
-
 module.Type = VbaModuleType.ProceduralModule;
-
 module.SourceCode = "New source code";
 
-
-
 // Add module to the VBA project.
-
 doc.VbaProject.Modules.Add(module);
-
 {{< /highlight >}}
 ### **Obsolete enum Aspose.Words.MailMerging.MailMergeRtlCleanupMode was removed**
 Obsolete enum Aspose.Words.MailMerging.MailMergeRtlCleanupMode was removed.

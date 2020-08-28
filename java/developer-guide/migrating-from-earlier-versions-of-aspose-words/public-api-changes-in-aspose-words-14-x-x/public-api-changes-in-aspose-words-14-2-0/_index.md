@@ -15,38 +15,29 @@ This option allows to get or set a flag which indicates whether the styles in th
 
 **Usage**
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 doc.setAttachedTemplate("MyTemplate.dot");
 
 // True if the styles in the specified document are updated to match the styles in the attached template each time the document is opened.
-
 doc.setAutomaticallyUpdateSyles(true);
-
 doc.save("out.docx");
-
 {{< /highlight >}}
 
 When the document (with this option set) is reopened in Microsoft Word, changes to the styles in the attached template will automatically appear in this document. Also, please note that Aspose.Words does not use this flag to update styles upon document loading.
 ### **Document.CompatibilityOptions.OptimizeFor Added to the Public API**
 This version of Aspose.Words exposes **Document.CompatibilityOptions.OptimizeFor** method and **MsWordVersion** enum which allows to fine-tune Aspose.Words behavior to match particular Microsoft Word version as well as to suppress Microsoft Word compatibility-mode ribbon for Aspose.Words generated documents.
 
-{{< highlight java >}}
-
- Document doc = new Document();
+{{< highlight csharp >}}
+Document doc = new Document();
 
 // Initialize compatibility options to Word 2010 default values.
 
 // OptimizeFor also affects the way the AW is and will be handling MSW-version specific features.
 
 // For example default built-in styles will be a bit different for older MSW versions.
-
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
-
 doc.save("myDocMimickingMsWord2010.docx");
-
 {{< /highlight >}}
 
 The complete list of Microsoft Word version specific nuances across Aspose.Words is not yet available but there are known differences that exist in Layout, Fields and the Model.
@@ -57,16 +48,11 @@ Aspose.Words' layout engine now supports Hyphenation. However, to be able to use
 
 **Usage**
 
-{{< highlight java >}}
-
- Document doc = new Document("in.doc");
-
+{{< highlight csharp >}}
+Document doc = new Document("in.doc");
 Hyphenation.registerDictionary("en-US", "C:\\HyphDic\\hyph_en_US.dic");
-
 Hyphenation.registerDictionary("de-CH", "C:\\HyphDic\\hyph_de_CH.dic");
-
 doc.save("out.pdf");
-
 {{< /highlight >}}
 
 [This page lists Hunspell spell checker dictionaries](http://archive.services.openoffice.org/pub/mirror/OpenOffice.org/contrib/dictionaries/) that can be used with Aspose.Words
@@ -80,24 +66,17 @@ Aspose.Words now supports loading digital signatures from XPS documents. The u
 
 **UC1**
 
-{{< highlight java >}}
-
- DigitalSignatureCollection signatures = DigitalSignatureUtil.loadSignatures("X:\\test.xps");
-
+{{< highlight csharp >}}
+DigitalSignatureCollection signatures = DigitalSignatureUtil.loadSignatures("X:\\test.xps");
 System.out.println(signatures.get(0).isValid());
-
 {{< /highlight >}}
 
 **UC2**
 
-{{< highlight java >}}
-
- InputStream stream = new FileInputStream("X:\\test.xps");
-
+{{< highlight csharp >}}
+InputStream stream = new FileInputStream("X:\\test.xps");
 DigitalSignatureCollection signatures = DigitalSignatureUtil.loadSignatures(stream);
-
 System.out.println(signatures.get(0).isValid());
-
 {{< /highlight >}}
 
 This method can also be used to load signatures from DOC, DOCX and ODT files as well. It returns empty collection if file is not signed.

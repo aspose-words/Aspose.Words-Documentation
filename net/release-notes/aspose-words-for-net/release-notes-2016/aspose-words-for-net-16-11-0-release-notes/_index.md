@@ -106,114 +106,63 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 This section lists public API changes that were introduced in Aspose.Words 16.11.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 ### **WORDSNET-3498 Support export to HTML5**
 #### **New public enum HtmlVersion:**
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Indicates the version of HTML is used when saving the document to <see cref="SaveFormat.Html"/> and 
-
 /// <see cref="SaveFormat.Mhtml"/> formats.
-
 /// </summary>
-
 public enum HtmlVersion
-
 {
-
     /// <summary>
-
     /// Saves the document in compliance with the XHTML 1.0 Transitional standard. 
-
     /// </summary>
-
     /// <remarks>
-
     /// <p>Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional standard, 
-
     /// but the output will not always validate against the DTD. Some structures inside a Microsoft Word 
-
     /// document are hard or impossible to map to a document that will validate against the XHTML schema. 
-
     /// For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), 
-
     /// but in Microsoft Word document multilevel lists occur quite often.</p>
-
     /// </remarks>
-
     Xhtml,
-
     /// <summary>
-
     /// Saves the document in compliance with the HTML 5 standard. 
-
     /// </summary>
-
     Html5
-
 }
-
 {{< /highlight >}}
 #### **New public property in HtmlSaveOptions:**
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies version of HTML standard that should be used when saving the document to HTML or MHTML.
-
 /// Default value is <see cref="Saving.HtmlVersion.Xhtml"/>.
-
 /// </summary>
-
 public HtmlVersion HtmlVersion
-
 {
-
      get { return mHtmlVersion; }
-
      set { mHtmlVersion = value; }
-
 }
-
 {{< /highlight >}}
 #### **Usecase:**
-{{< highlight java >}}
-
- var so = new HtmlSaveOptions();
-
+{{< highlight csharp >}}
+var so = new HtmlSaveOptions();
 so.HtmlVersion = HtmlVersion.Html5;
-
 doc.Save("out.html", so);
-
 {{< /highlight >}}
 ### **WORDSNET-13625 - FixedPageSaveOptions.OptimizeOutput**
 Starting from 16.11.0 version, OptimizeOutput option is available for all fixed page formats.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Flag indicates whether it is required to optimize output of XPS.
-
 /// If this flag is set redundant nested canvases and empty canvases are removed,
-
 /// also neighbor glyphs with the same formating are concatenated.
-
 /// Note: The accuracy of the content display may be affected if this property is set to true.
-
 ///
-
 /// Default is false.
-
 /// </summary>
-
 public virtual bool OptimizeOutput
-
 {
-
     get { return mOptimizeOutput; }
-
     set { mOptimizeOutput = value; }
-
 }
-
 {{< /highlight >}}

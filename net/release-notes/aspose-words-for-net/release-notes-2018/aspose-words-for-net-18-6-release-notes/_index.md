@@ -108,122 +108,68 @@ The "[Inserting Hyperlinks Dynamically](/words/net/template-syntax/#templatesynt
 ### **Added Title and Description Properties into Table Class**
 WORDSNET-5890 has been resolved. The following public properties have been added into the Table class:
 
-{{< highlight java >}}
-
- /// <summary>
-
-/// Gets or sets title of this table. It provides an alternative text representation of the information contained in the table.
-
-/// </summary>
-
-/// <remarks>
-
-/// The default value is an empty string.
-
-/// This property is meaningful for ISO/IEC 29500 compliant DOCX documents (see the OoxmlCompliance class).
-
-/// When saved to pre-ISO/IEC 29500 formats, the property is ignored.
-
-/// </remarks>
-
-public string Title
-
-{
-
-    get; set;
-
-}
-
+{{< highlight csharp >}}
 /// <summary>
-
-/// Gets or sets description of this table. It provides an alternative text representation of the information contained in the table.
-
+/// Gets or sets title of this table. It provides an alternative text representation of the information contained in the table.
 /// </summary>
-
 /// <remarks>
-
 /// The default value is an empty string.
-
 /// This property is meaningful for ISO/IEC 29500 compliant DOCX documents (see the OoxmlCompliance class).
-
 /// When saved to pre-ISO/IEC 29500 formats, the property is ignored.
-
 /// </remarks>
-
-public string Description
-
+public string Title
 {
-
     get; set;
-
 }
-
+/// <summary>
+/// Gets or sets description of this table. It provides an alternative text representation of the information contained in the table.
+/// </summary>
+/// <remarks>
+/// The default value is an empty string.
+/// This property is meaningful for ISO/IEC 29500 compliant DOCX documents (see the OoxmlCompliance class).
+/// When saved to pre-ISO/IEC 29500 formats, the property is ignored.
+/// </remarks>
+public string Description
+{
+    get; set;
+}
 {{< /highlight >}}
 ###### **Usage**
-{{< highlight java >}}
-
- Document document = new Document(myDir + "Test.docx");
-
+{{< highlight csharp >}}
+Document document = new Document(myDir + "Test.docx");
 Table table = document.FirstSection.Body.Tables[0];
-
 table.Title = "Test title";
-
 table.Description = "Test description";
-
 document.Save(myDir + "Output.docx");
-
 {{< /highlight >}}
 ### **Added Feature to Insert Shapes through DocumentBuilder using ShapeType**
 ` `WORDSNET-15112 has been resolved. The following methods were added in the DocumentBuilder:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Inserts inline shape with specified type and size.
-
 /// </summary>
-
 /// <param name="shapeType">The shape type to insert into the document.</param>
-
 /// <param name="width">The width of the shape in points.</param>
-
 /// <param name="height">The height of the shape in points.</param>
-
 /// <returns>The shape node that was inserted.</returns>
-
 public Shape InsertShape(ShapeType shapeType, double width, double height)
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Inserts free-floating shape with specified position, size and text wrap type.
-
 /// </summary>
-
 /// <param name="shapeType">The shape type to insert into the document</param>
-
 /// <param name="horzPos">Specifies where the horizontal distance to the shape is measured from.</param>
-
 /// <param name="left">Distance in points from the origin to the left side of the shape.</param>
-
 /// <param name="vertPos">Specifies where the vertical distance to the shape is measured from.</param>
-
 /// <param name="top">Distance in points from the origin to the top side of the shape.</param>
-
 /// <param name="width">The width of the shape in points.</param>
-
 /// <param name="height">The width of the shape in points.</param>
-
 /// <param name="wrapType">Specifies how to wrap text around the shape.</param>
-
 /// <returns>The shape node that was inserted.</returns>
-
 public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos, double left, RelativeVerticalPosition vertPos, double top, double width, double height, WrapType wrapType)
-
 {{< /highlight >}}
 
 These methods allow to insert DML shape into the document model. Document must be saved in the format, which support DML shapes, otherwise such nodes will be converted to VML shape, while document saving.
@@ -232,630 +178,369 @@ See, few use cases below:
 
 \1. Free-floating shape insertion.
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
-
 shape.Rotation = 30.0;
-
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 
 // "Strict" or "Transitional" compliance allows to save shape as DML.
-
 so.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
-
 doc.Save("RotatedShape.docx", so);
-
 {{< /highlight >}}
 
 \2. Inline shape insertion.
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 Shape shape = builder.InsertShape(ShapeType.TextBox, 50, 50);
-
 shape.Rotation = 30.0;
-
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
-
 so.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
-
 doc.Save("RotatedShape.docx", so);
-
 {{< /highlight >}}
 ### **Changed Public Properties of AxisScaling Class**
 ` `WORDSNET-16345 has been resolved. The properties MinimumIsAuto and MaximumIsAuto have been removed from the AxisScaling class. Type of the Minimum and Maximum properties has been changed from **double** to AxisBound.
 
-{{< highlight java >}}
-
- /// <summary>
-
-/// Gets or sets minimum value of the axis.
-
-/// </summary>
-
-/// <remarks>
-
-/// The default value is "auto".
-
-/// </remarks>
-
-public AxisBound Minimum
-
-{
-
-    get; set;
-
-}
-
+{{< highlight csharp >}}
 /// <summary>
-
-/// Gets or sets the maximum value of the axis.
-
+/// Gets or sets minimum value of the axis.
 /// </summary>
-
 /// <remarks>
-
 /// The default value is "auto".
-
 /// </remarks>
-
-public AxisBound Maximum
-
+public AxisBound Minimum
 {
-
     get; set;
-
 }
-
+/// <summary>
+/// Gets or sets the maximum value of the axis.
+/// </summary>
+/// <remarks>
+/// The default value is "auto".
+/// </remarks>
+public AxisBound Maximum
+{
+    get; set;
+}
 {{< /highlight >}}
 
 The new AxisBound class allows specifying axis bound as a numeric, datetime or "auto" value.
 
-{{< highlight java >}}
-
- namespace Aspose.Words.Drawing.Charts
-
+{{< highlight csharp >}}
+namespace Aspose.Words.Drawing.Charts
 {
-
     /// <summary>
-
     /// Represents minimum or maximum bound of axis values.
-
     /// </summary>
-
     /// <remarks>
-
     /// Bound can be specified as a numeric, datetime or a special "auto" value.
-
     /// The instances of this class are immutable.
-
     /// </remarks>
-
     public class AxisBound
-
     {
-
         /// <summary>
-
         /// Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
-
         /// </summary>
-
         public AxisBound();
-
         /// <summary>
-
         /// Creates an axis bound represented as a number.
-
         /// </summary>
-
         public AxisBound(double value);
-
         /// <summary>
-
         /// Creates an axis bound represented as datetime value.
-
         /// </summary>
-
         public AxisBound(DateTime datetime);
-
         /// <summary>
-
         /// Returns a flag indicating that axis bound should be determined automatically.
-
         /// </summary>
-
         public bool IsAuto
-
         {
-
             get;
-
         }
-
         /// <summary>
-
         /// Returns numeric value of axis bound.
-
         /// </summary>
-
         public double Value
-
         {
-
             get;
-
         }
-
         /// <summary>
-
         /// Returns value of axis bound represented as datetime.
-
         /// </summary>
-
         public DateTime ValueAsDate
-
         {
-
             get;
-
         }
-
     }
-
 }
-
 {{< /highlight >}}
 ###### **UC**
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
-
 Chart chart = shape.Chart;
 
 // Clear demo data.
-
 chart.Series.Clear();
 
 // Fill data.
-
 chart.Series.Add("AW Series 1",
-
     new DateTime[] { new DateTime(2002, 01, 01), new DateTime(2002, 06, 01), new DateTime(2002, 07, 01),
-
         new DateTime(2002, 08, 01), new DateTime(2002, 09, 01)},
-
     new double[] { 640, 320, 280, 120, 150 });
-
 ChartAxis xAxis = chart.AxisX;
-
 ChartAxis yAxis = chart.AxisY;
 
 // Change the X axis to be category instead of date, so all the points will be put with equal interval on the X axis.
-
 xAxis.CategoryType = AxisCategoryType.Category;
 
 // Define X axis properties.
-
 xAxis.Crosses = AxisCrosses.Custom;
-
-xAxis.CrossesAt = 3; // measured in display units of the Y axis (hundreds)
-
+xAxis.CrossesAt = 3;
+ // measured in display units of the Y axis (hundreds)
 xAxis.ReverseOrder = true;
-
 xAxis.MajorTickMark = AxisTickMark.Cross;
-
 xAxis.MinorTickMark = AxisTickMark.Outside;
-
 xAxis.TickLabelOffset = 200;
 
 // Define Y axis properties.
-
 yAxis.TickLabelPosition = AxisTickLabelPosition.High;
-
 yAxis.MajorUnit = 100;
-
 yAxis.MinorUnit = 50;
-
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
-
 yAxis.Scaling.Minimum = new AxisBound(100);
-
 yAxis.Scaling.Maximum = new AxisBound(700);
-
 doc.Save(dir + "TestAxis.docx");
-
 {{< /highlight >}}
 ###### **UC to set date/time values to axis properties**
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-
 Chart chart = shape.Chart;
 
 // Clear demo data.
-
 chart.Series.Clear();
 
 // Fill data.
-
 chart.Series.Add("AW Series 1",
-
     new DateTime[] { new DateTime(2017, 11, 06), new DateTime(2017, 11, 09), new DateTime(2017, 11, 15),
-
         new DateTime(2017, 11, 21), new DateTime(2017, 11, 25), new DateTime(2017, 11, 29) },
-
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
 // Set X axis bounds.
-
 ChartAxis xAxis = chart.AxisX;
-
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05));
-
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
 // Set major units to a week and minor units to a day.
-
 xAxis.MajorUnitScale = AxisTimeUnit.Days;
-
 xAxis.MajorUnit = 7;
-
 xAxis.MinorUnitScale = AxisTimeUnit.Days;
-
 xAxis.MinorUnit = 1;
-
 xAxis.MajorTickMark = AxisTickMark.Cross;
-
 xAxis.MinorTickMark = AxisTickMark.Outside;
-
 doc.Save(dir + "TestDateValues.docx");
-
 {{< /highlight >}}
 ###### **UC to set bounds of an axis**
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert chart.
-
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-
 Chart chart = shape.Chart;
 
 // Clear demo data.
-
 chart.Series.Clear();
 
 // Fill data.
-
 chart.Series.Add("AW Series 1",
-
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
-
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
-
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
-
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
-
 doc.Save(dir + "TestAxisBounds.docx");
-
 {{< /highlight >}}
 ### **Added API Allowing to Setup Language Preferences**
 WORDSNET-16401 has been resolved. Displaying the document in Word depends on what languages are set in defaults of that document. But what to do, if there are no any languages are set in defaults? In this case Word takes information from 'Set the Office Language Preferences' dialog, which for example, can be found under 'File -> Options -> Language' menu in Word 2016.
 
 The new API implements such dialog of Word:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Allows to set up language preferences.
-
 /// </summary>
-
 /// <remarks>
-
 /// Implements 'Set the Office Language Preferences' dialog in Word.
-
 /// </remarks>
-
 public class LanguagePreferences
-
 {{< /highlight >}}
 
 This class implements the following public members:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Adds additional editing language.
-
 /// </summary>
-
 public void AddEditingLanguage(EditingLanguage language)
-
 /// <summary>
-
 /// Adds additional editing languages.
-
 /// </summary>
-
 public void AddEditingLanguages(EditingLanguage[] languages)
-
 /// <summary>
-
 /// Sets default editing language.
-
 /// </summary>
-
 public void SetAsDefault(EditingLanguage language)
-
 /// <summary>
-
 /// <para>Gets or sets default editing language.</para>
-
 /// <para>The default value is <see cref="EditingLanguage.EnglishUS"/>.</para>
-
 /// </summary>
-
 public EditingLanguage DefaultEditingLanguage
-
 {{< /highlight >}}
 
 Also added a new public enumeration:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies the editing language.
-
 /// </summary>
-
 public enum EditingLanguage
-
 {{< /highlight >}}
 
 And finally, a new public property is added to LoadOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets language preferences that will be used when document is loading.
-
 /// </summary>
-
 public LanguagePreferences LanguagePreferences
-
 {{< /highlight >}}
 
 The use cases will be as follows.
 ##### **UC: Add Japanese language to the editing languages:**
-{{< highlight java >}}
-
- LoadOptions loadOptions = new LoadOptions();
-
+{{< highlight csharp >}}
+LoadOptions loadOptions = new LoadOptions();
 loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
-
 Document doc = TestUtil.Open(@"in.docx", loadOptions);
-
 int localeIdFarEast = doc.Styles.DefaultFont.LocaleIdFarEast;
-
 if (localeIdFarEast == (int)EditingLanguage.Japanese)
-
     Console.WriteLine("The document either has no any FarEast language set in defaults or it was set to Japanese originally.");
-
 else
-
     Console.WriteLine("The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
-
 {{< /highlight >}}
 ##### **UC: Set Russian language as the default editing language:**
-{{< highlight java >}}
-
- LoadOptions loadOptions = new LoadOptions();
-
+{{< highlight csharp >}}
+LoadOptions loadOptions = new LoadOptions();
 loadOptions.LanguagePreferences.SetAsDefault(EditingLanguage.Russian);
-
 Document doc = TestUtil.Open(@"in.docx", loadOptions);
-
 int localeId = doc.Styles.DefaultFont.LocaleId;
-
 if (localeId == (int)EditingLanguage.Russian)
-
     Console.WriteLine("The document either has no any language set in defaults or it was set to Russian originally.");
-
 else
-
     Console.WriteLine("The document default language was set to another than Russian language originally, so it is not overridden.");
-
 {{< /highlight >}}
 ### **Added IsMoveFromRevision and IsMoveToRevision Properties**
 ` `WORDSNET-16664 has been resolved. The following public properties have been added into the Inline, Paragraph, ShapeBase and InlineStory classes:
 
-{{< highlight java >}}
-
- /// <summary>
-
-/// Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
-
-/// </summary>
-
-public bool IsMoveFromRevision
-
-{
-
-    get;
-
-}
-
+{{< highlight csharp >}}
 /// <summary>
-
-/// Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
-
+/// Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 /// </summary>
-
-public bool IsMoveToRevision
-
+public bool IsMoveFromRevision
 {
-
     get;
-
 }
-
+/// <summary>
+/// Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+/// </summary>
+public bool IsMoveToRevision
+{
+    get;
+}
 {{< /highlight >}}
 
 **Usage**
 
-{{< highlight java >}}
-
- Document doc = new Document(myDir + "Test.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(myDir + "Test.docx");
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
-
 for (int i = 0; i < paragraphs.Count; i++)
-
 {
-
     if (paragraphs[i].IsMoveFromRevision)
-
         Console.WriteLine("The paragraph {0} has been moved (deleted).", i);
-
     if (paragraphs[i].IsMoveToRevision)
-
         Console.WriteLine("The paragraph {0} has been moved (inserted).", i);
-
 }
-
 {{< /highlight >}}
 ### **Added Properties for Asian Typography into ParagraphFormat Class**
 ` `WORDSNET-16664 has been resolved. The following public properties have been added into the ParagraphFormat class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
-
 /// </summary>
-
 public bool FarEastLineBreakControl
-
 {
-
     get; set;
-
 }
-
 /// <summary>
-
 /// If this property is <b>false</b>, Latin text in the middle of a word can be wrapped for
-
 /// the current paragraph. Otherwise Latin text is wrapped by whole words.
-
 /// </summary>
-
 public bool WordWrap
-
 {
-
     get; set;
-
 }
-
 /// <summary>
-
 /// Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph.
-
 /// </summary>
-
 public bool HangingPunctuation
-
 {
-
     get; set;
-
 }
-
 {{< /highlight >}}
 
 The properties correspond to the options of the Line break group on the Asian Typography tab of the Paragraph properties dialog in MSW.
 
 **Usage**
 
-{{< highlight java >}}
-
- Document doc = new Document(myDir + "Input.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(myDir + "Input.docx");
 ParagraphFormat format = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat;
-
 format.FarEastLineBreakControl = false;
-
 format.WordWrap = true;
-
 format.HangingPunctuation = false;
-
 doc.Save(myDir + "Output.docx");
-
 {{< /highlight >}}
 ### **Added Public TXT Save Option AddBidiMarks**
 ` `WORDSNET-16814 has been resolved. Implemented TxtSaveOptions.AddBidiMarks property as following:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// <para>Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.</para>
-
 /// <para>The default value is <b>true</b>.</para>
-
 /// </summary>
-
 public bool AddBidiMarks
-
 {{< /highlight >}}
 
 When this option is enabled, AW inserts Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text. This option corresponds to *"Add bi-directional marks"* option in Word File Conversion dialog when you export to a Plain Text format. Note, it appears in dialog only if any of **Arabic** or **Hebrew** editing languages are added in Word.
 
 In addition, unlike Word where this option is set to **false** by default, in AW this option is set by default to **true**.
 ##### **UC: Export to TXT format, no adding RTL marks before each BiDi Run:**
-{{< highlight java >}}
-
- Document doc = new Document("in.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document("in.docx");
 TxtSaveOptions saveOptions = new TxtSaveOptions();
-
 saveOptions.AddBidiMarks = false;
-
 doc.Save("out.txt", saveOptions);
-
 {{< /highlight >}}
 ### **Obsolete Enum RowAlignment was Removed**
 ` `Obsolete enum RowAlignment was removed. Use TableAlignment instead.

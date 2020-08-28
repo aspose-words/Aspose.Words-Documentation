@@ -27,23 +27,12 @@ There are several modes of shrinking space. Below is the description of the mode
 To change the shrink space factor option, add the following lines to the <Extension> element corresponding to a particular renderer:
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <ShrinkSpace>Hard</ ShrinkSpace >
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}

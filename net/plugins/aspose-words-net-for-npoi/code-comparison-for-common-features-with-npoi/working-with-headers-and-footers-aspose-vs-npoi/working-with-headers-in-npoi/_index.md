@@ -10,44 +10,26 @@ The following sample code demonstrates how to create headers/footers using Docum
 
 **C#**
 
-{{< highlight cs >}}
-
-  Document wordDocument = new Document("Convert Word Doc to Other Formats.doc");
-
+{{< highlight csharp >}}
+ Document wordDocument = new Document("Convert Word Doc to Other Formats.doc");
  HeaderFooterCollection headers = wordDocument.FirstSection.HeadersFooters;
-
  foreach (HeaderFooter header in headers)
-
  {
-
    if (header.HeaderFooterType == HeaderFooterType.HeaderFirst || header.HeaderFooterType == HeaderFooterType.HeaderPrimary || header.HeaderFooterType ==
-
        HeaderFooterType.HeaderEven)
-
    Console.WriteLine(header.GetText());
-
  }
-
-
 {{< /highlight >}}
 ## **NPOI HWPF XWPF - Working with Headers**
 **C#**
 
-{{< highlight cs >}}
-
-   XWPFDocument wordDocument = new XWPFDocument(new FileStream("Working with Headers.doc", FileMode.Open));
-
+{{< highlight csharp >}}
+  XWPFDocument wordDocument = new XWPFDocument(new FileStream("Working with Headers.doc", FileMode.Open));
   IList<XWPFHeader> headers = wordDocument.HeaderList;
-
   foreach (XWPFHeader header in headers)
-
   {
-
      Console.WriteLine(header.Text);
-
   }
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Working with Headers** from any of the below mentioned social coding sites:

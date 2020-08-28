@@ -13,7 +13,7 @@ Assume that you have the Order and Service classes defined in your application a
 {
 `    `public String  REF getClientName getClientName()  REF getterBody { ... }
 `    `public String  REF getClientAddress getClientAddress()  REF getterBody { ... }
-`    `public  REF enumeration Iterable<Service>  REF getServices getServices()  REF getterBody { ... }**
+`    `public  REF enumeration Iterable&lt;Service&gt;  REF getServices getServices()  REF getterBody { ... }**
 
 `    `**...
 }**
@@ -27,11 +27,11 @@ Assume that you have the Order and Service classes defined in your application a
 
 Given that orders is an enumeration of Order instances, you could try to use the following template to output information on several orders in one document.
 
-**<<foreach [order in orders]>><<[order. REF getClientName getClientName()]>> (<<[order. REF getClientAddress getClientAddress()]>>)**
+**&lt;&lt;foreach [order in orders]&gt;&gt;&lt;&lt;[order. REF getClientName getClientName()]&gt;&gt; (&lt;&lt;[order. REF getClientAddress getClientAddress()]&gt;&gt;)**
 
-1. **<<foreach [service in order. REF getServices getServices()]>><<[service. REF getName getName()]>>**
+1. **&lt;&lt;foreach [service in order. REF getServices getServices()]&gt;&gt;&lt;&lt;[service. REF getName getName()]&gt;&gt;**
 
-**<</foreach>><</foreach>>**
+**&lt;&lt;/foreach&gt;&gt;&lt;&lt;/foreach&gt;&gt;**
 
 But then, a result document would look as follows.
 
@@ -48,11 +48,11 @@ But then, a result document would look as follows.
 
 That is, there would be a single numbered list across all orders, which is not applicable for this scenario. However, you can make list numbering to restart for every order by putting a restartNum tag into your template before a corresponding foreach tag as follows.
 
-**<<foreach [order in orders]>><<[order. REF getClientName getClientName()]>> (<<[order. REF getClientAddress getClientAddress()]>>)**
+**&lt;&lt;foreach [order in orders]&gt;&gt;&lt;&lt;[order. REF getClientName getClientName()]&gt;&gt; (&lt;&lt;[order. REF getClientAddress getClientAddress()]&gt;&gt;)**
 
-1. **<<restartNum>><<foreach [service in order. REF getServices getServices()]>><<[service. REF getName getName()]>>**
+1. **&lt;&lt;restartNum&gt;&gt;&lt;&lt;foreach [service in order. REF getServices getServices()]&gt;&gt;&lt;&lt;[service. REF getName getName()]&gt;&gt;**
 
-**<</foreach>><</foreach>>**
+**&lt;&lt;/foreach&gt;&gt;&lt;&lt;/foreach&gt;&gt;**
 
 ` `REF note **Note –** When using with a data band, it is required to put a restartNum tag before a corresponding foreach tag in the same numbered paragraph.
 

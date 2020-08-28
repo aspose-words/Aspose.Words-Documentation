@@ -56,18 +56,12 @@ Following releases of running examples are available to download on below mentio
 ### **How to configure the source code on Windows Platform**
 Please follow these simple steps in order to open and extend the source code while using:
 #### **1. Register dll files e.g. Aspose.Words.dll.**
-{{< highlight java >}}
-
- Register dll files e.g. Aspose.Words.dll.
-
+{{< highlight csharp >}}
+Register dll files e.g. Aspose.Words.dll.
 C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\words\Aspose.Words.dll /codebase
-
 Microsoft (R) .NET Framework Assembly Registration Utility 2.0.50727.7905
-
 Copyright (C) Microsoft Corporation 1998-2004. All rights reserved.
-
 Types registered successfully
-
 {{< /highlight >}}
 #### **2. Enable COM and DOTNET Extensions in PHP.**
 In IIS open PHP Manager and then Click ‘Enable to Disable and Extension‘. Find php_com_dotnet.dll and make sure it is enabled.
@@ -76,34 +70,24 @@ In IIS open PHP Manager and then Click ‘Enable to Disable and Extension‘. Fi
 Clone PHP Examples from [github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose_Words_NET_for_PHP)
 and run the following command
 
-{{< highlight java >}}
-
- composer install
-
+{{< highlight csharp >}}
+composer install
 {{< /highlight >}}
 ##### **Method 2**
 In your PHP Project's composer.json file add following lines
 
-{{< highlight java >}}
-
- {
-
+{{< highlight csharp >}}
+{
     "require": {
-
         "aspose-words/Aspose.Words-for-.NET_for_php": "dev-master"
-
     }
-
 }
-
 {{< /highlight >}}
 
 and run the install command
 
-{{< highlight java >}}
-
- composer install
-
+{{< highlight csharp >}}
+composer install
 {{< /highlight >}}
 
 To read about composer visit <https://getcomposer.org/>

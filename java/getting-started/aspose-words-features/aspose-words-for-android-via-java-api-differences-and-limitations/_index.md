@@ -75,90 +75,48 @@ See the following Public API methods:
 In order to use metered licensing feature and load documents or images by http/ftp protocols users should add following permission to their applications
 *<uses-permission android:name="android.permission.INTERNET" />*
 ## **Public API Examples**
-{{< highlight java >}}
-
- public void testPublicAPI1() throws Exception
-
+{{< highlight csharp >}}
+public void testPublicAPI1() throws Exception
     {
-
         final String imagePath = "myImage.pmg";
-
         Bitmap image = null;
-
         try
-
         {
-
             image = BitmapFactory.decodeFile(imagePath);
-
             DocumentBuilder builder = new DocumentBuilder();
-
             builder.insertImage(image);
-
         }
-
         finally
-
         {
-
             if (image != null)
-
                 image.recycle();
-
         }
-
     }
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- public void testPublicAPI2() throws Exception
-
+{{< highlight csharp >}}
+public void testPublicAPI2() throws Exception
     {
-
         String gTestDocumentPath = "testDoc.docx";
-
         String outFile = "out.png";
-
         Document doc = new Document(gTestDocumentPath);
-
         Bitmap image = null;
-
         FileOutputStream fos = null;
-
         try
-
         {
-
             image = Bitmap.createBitmap(1000, 1000, Bitmap.Config.ARGB_8888);
-
             Canvas gr = new Canvas(image);
-
             gr.rotate(45);
-
             doc.renderToSize(0, gr, 0, 0, image.getWidth(), image.getHeight());
-
             fos = new FileOutputStream(outFile);
-
             image.compress(Bitmap.CompressFormat.PNG, 100, fos);
-
         }
-
         finally
-
         {
-
             if (fos != null)
-
                 fos.close();
-
             if (image != null)
-
                 image.recycle();
-
         }
-
     }
-
 {{< /highlight >}}

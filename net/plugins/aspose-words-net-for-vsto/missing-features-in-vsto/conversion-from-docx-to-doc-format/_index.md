@@ -41,12 +41,9 @@ url: /net/conversion-from-docx-to-doc-format/
 |Jpeg |29 |Indicates the format in which the document is saved |
 Below is code snippet that shows conversion from docx to doc you can do it vice versa as well
 
-{{< highlight java >}}
-
- Document doc = new Document("Sample.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document("Sample.docx");
 doc.Save("Converted.doc",SaveFormat.Doc);
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/813253)

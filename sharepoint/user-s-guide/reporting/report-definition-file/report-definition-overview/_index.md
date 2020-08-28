@@ -31,21 +31,15 @@ Look at the report definition diagram. The main section is [DataSets](/words/sha
 The [Parameters](/words/sharepoint/parameters-element/) section is used for report parameters description. All elements used in the report definition are defined in the <http://www.aspose.com/Words/SharePoint/Reporting> XML namespace. Elements have either child elements or a value stored as text element content. Elements with children do not use text content in the report definition. When the element has text content as a value, leading and trailing whitespace is trimmed from the text before usage. Consider this element:
 
 {{< highlight csharp >}}
-
- <TableName>MyTable</TableName>
-
+<TableName>MyTable</TableName>
 {{< /highlight >}}
 
 It has the same value (“MyTable”) as the element below.
 
 {{< highlight csharp >}}
-
- <TableName>
-
+<TableName>
 	MyTable
-
 </TableName>
-
 {{< /highlight >}}
 
 The report definition schema file (Report.xsd) and data source definition schema file (DataSource.xsd) are included in the installation package for reference.

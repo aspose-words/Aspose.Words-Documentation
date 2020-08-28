@@ -10,14 +10,10 @@ The **Document.AcceptAllRevisions** method allows you to "accept" all revision
 
 **C#**
 
-{{< highlight cs >}}
-
- Document doc = new Document("../../data/document.doc");
-
+{{< highlight csharp >}}
+Document doc = new Document("../../data/document.doc");
 doc.AcceptAllRevisions();
-
 doc.Save("AsposeAcceptChanges.doc", SaveFormat.Doc);
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Track Changes in Documents (Aspose.Words)** form any of the below mentioned social coding sites:

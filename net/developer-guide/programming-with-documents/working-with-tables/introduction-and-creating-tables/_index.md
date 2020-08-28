@@ -157,7 +157,7 @@ Below example shows how to make a clone of the last row of a table and append it
 If you are looking at creating tables in document which dynamically grow with each record from your data source, then the above method is not advised.
 Instead the desired output is achieved more easily by using Mail Merge with Regions. You can learn more about this technique under [Mail Merge with Regions Explained]().
 ### **Inserting a Table from HTML**
-Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g <table>, <tr>, <td>. Below example shows how to insert a table in a document from a string containing HTML tags.
+Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cs" >}}
 ### **Comparison of Insertion Techniques**
@@ -168,7 +168,7 @@ As described in previous articles, Aspose.Words provides several methods for ins
 |DocumentBuilder ([DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable))|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
 |Table( [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
 |Cloning ([Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
-|From an HTML source. ([DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml))|Can create a new table from HTML source e.g the <table>, <tr>, <td> tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
+|From an HTML source. ([DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
 
 ## **Extracting Plain Text from a Table**
 A Table like any other node in Aspose.Words has access to a Range object. Using this object, you can call methods over the entire table range to extract the table as plain text. The Range.Text property is used for this purpose. Below example shows how to print the text range of a table.

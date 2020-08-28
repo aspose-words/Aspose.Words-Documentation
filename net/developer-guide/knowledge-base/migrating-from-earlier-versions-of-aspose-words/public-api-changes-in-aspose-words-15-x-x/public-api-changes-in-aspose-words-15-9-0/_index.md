@@ -16,59 +16,33 @@ We have added following methods in DocumentBuilder class in 15.9.0.
 **C#**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Marks the current position in the document as an editable range start.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>Editable range in a document can overlap and span any range. To create a valid editable range you need to
-
 /// call both <see cref="StartEditableRange"/> and <see cref="EndEditableRange()"/>
-
 /// or <see cref="EndEditableRange(EditableRangeStart)"/> methods.</p>
-
 /// <p>Badly formed editable range will be ignored when the document is saved.</p>
-
 /// </remarks>
-
 /// <returns>The editable range start node that was just created.</returns>
-
 public EditableRangeStart StartEditableRange()
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Marks the current position in the document as an editable range end.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>Use this overload during creating nested editable ranges.</p>
-
 /// <p>Editable range in a document can overlap and span any range. To create a valid editable range you need to
-
 /// call both <see cref="StartEditableRange"/> and <see cref="EndEditableRange()"/>
-
 /// or <see cref="EndEditableRange(EditableRangeStart)"/> methods.</p>
-
 /// <p>Badly formed editable range will be ignored when the document is saved.</p>
-
 /// </remarks>
-
 /// <param name="start">This editable range start.</param>
-
 /// <returns>The editable range end node that was just created.</returns>
-
 public EditableRangeEnd EndEditableRange(EditableRangeStart start)
-
 {{< /highlight >}}
 ### **Added Options to Control Image Stretching for LINQ Reporting Engine**
 WORDSNET-12077 has now been resolved and the documentation for the engine has been updated appropriately.
@@ -90,69 +64,38 @@ WORDSNET-12380 is now resolved. We have introduced following property in Aspose.
 **C#**
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a set of flags controlling behavior of this <see cref="ReportingEngine"/> instance
-
 /// while building a report.
-
 /// </summary>
-
 public ReportBuildOptions Options
-
 {
-
     get;
-
     set;
-
 }
-
 {{< /highlight >}}
 
 **C#**
 
 {{< highlight csharp >}}
-
-
-
 /// <summary>
-
 /// Specifies options controlling behavior of <see cref="ReportingEngine"/> while building a report.
-
 /// </summary>
-
 [Flags]
-
 public enum ReportBuildOptions
-
 {
-
     /// <summary>
-
     /// Specifies default options.
-
     /// </summary>
-
     None = 0,
-
     /// <summary>
-
     /// Specifies that fields missing in a data source object should be treated as null literals by the engine.
-
     /// This option affects only fields of <ms><see cref="DataRow"/> and <see cref="IDataRecord"/> objects</ms>
-
     /// <java><see cref="DataTable"/> rows</java>. If this option is not set, the engine throws an exception
-
     /// when encounters a missing data field.
-
     /// </summary>
-
     AllowMissingDataFields = 1
-
 }
-
 {{< /highlight >}}
 ### **Changed the default DrawingML Rendering Mode**
 Starting from Aspose.Words 15.9.0, the default DmlRenderingMode has been changed from Fallback to DrawingML.

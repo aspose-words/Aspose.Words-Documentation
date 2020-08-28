@@ -64,7 +64,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-7585|Unicode zero width space character (\u200B) is not rendering correctly in PDF|Bug|
 |WORDSNET-7590|Aspose.Words produces a corrupt XPS file.|Bug|
 |WORDSNET-7600|System.InvalidOperationException occurs when calling License.SetLicense|Bug|
-|WORDSNET-7608|Contents of <body> are getting lost during open/save|Bug|
+|WORDSNET-7608|Contents of &lt;body&gt; are getting lost during open/save|Bug|
 |WORDSNET-7610|StyleCollection.AddCopy change NextParagraphStyleName value and add w:next|Bug|
 |WORDSNET-7613|MS Word 2010 crashes when DrawingML docPr Id is negative.|Bug|
 |WORDSNET-7614|/IF spacing issue/ Conditional field without a space do not show mail merge value|Bug|
@@ -96,7 +96,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-7543|Unicode control characters become visible in PDF and TIFF files|Enhancement|
 |WORDSNET-7553|Fix incorrect pattern fill of 3D objects|Enhancement|
 |WORDSNET-7565|Support checkbox color rendering|Enhancement|
-|WORDSNET-7570|System.InvalidOperationException : XPS file <file> does not conform|Enhancement|
+|WORDSNET-7570|System.InvalidOperationException : XPS file &lt;file&gt; does not conform|Enhancement|
 |WORDSNET-7574|Incorrect encoding is used while loading TXT file.|Enhancement|
 |WORDSNET-7607|Percent sign (%) is located incorrectly in RTL text|Enhancement|
 |WORDSNET-7621|Silverlight Pdf vierwers do not display chinese text in Pdf|Enhancement|
@@ -130,7 +130,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-7518|Provide events in the API similar to those provided by Word.Application and Word.Document classes|Feature|
 |WORDSNET-7598|SwfSaveOptions- Add an option to prevent printing of SWF file|Feature|
 |WORDSNET-7676|Support import of images from HTML using embed, object and iframe tags|Feature|
-|WORDSNET-7684|Support binary OLE objects (<draw:object-ole>) in ODT|Feature|
+|WORDSNET-7684|Support binary OLE objects (&lt;draw:object-ole&gt;) in ODT|Feature|
 |WORDSNET-7620|Extract a calculation of RunPr for Node from a loop by DocumentRunSplitter|Performance|
 |WORDSNET-7661|Move calculation of Font from LayoutSpan.Font to new method in class LprSpan|Performance|
 

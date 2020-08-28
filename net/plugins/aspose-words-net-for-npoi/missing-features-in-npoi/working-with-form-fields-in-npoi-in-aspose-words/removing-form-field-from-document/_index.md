@@ -11,21 +11,14 @@ A field inserted into the document using DocumentBuilder.InsertField returns a F
 
 **C#**
 
-{{< highlight cs >}}
-
-             Document doc = new Document();
-
+{{< highlight csharp >}}
+            Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
-
             Field field = builder.InsertField("PAGE");
 
             // Calling this method completely removes the field from the document.
-
             field.Remove();
-
             doc.Save("FormFieldTest.docx");
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Removing Form Field from Document** form any of the below mentioned social coding sites:

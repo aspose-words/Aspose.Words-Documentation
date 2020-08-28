@@ -16,13 +16,9 @@ WORDSNET-12080 is now resolved. We have added following overloads of Paragraph.i
 **Java**
 
 {{< highlight csharp >}}
-
- public Field insertField(FieldType,boolean,Node,boolean);
-
+public Field insertField(FieldType,boolean,Node,boolean);
 public Field insertField(String,Node,boolean);
-
 public Field insertField(String,String,Node,boolean);
-
 {{< /highlight >}}
 ### **OutlineOptions.CreateMissingOutlineLevels Property Added**
 CreateMissingOutlineLevels proprty is added to OutlineOptions class. It can be used to get or set a value determining whether or not to create missing heading levels when the document is exported. Default value for this property is false.

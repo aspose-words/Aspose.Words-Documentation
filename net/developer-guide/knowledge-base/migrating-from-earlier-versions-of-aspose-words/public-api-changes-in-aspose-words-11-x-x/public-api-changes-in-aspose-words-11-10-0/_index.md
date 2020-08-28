@@ -20,37 +20,24 @@ You can now use **PdfSaveOptions.ImageCompression** to specify JPEG compressio
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Rendering.doc");
-
+Document doc = new Document(MyDir + "Rendering.doc");
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Use JPEG compression at 50% quality to reduce file size.
-
 options.ImageCompression = PdfImageCompression.Jpeg;
-
 options.JpegQuality = 50;
-
 doc.Save(MyDir + "Rendering.JpegImageCompression Out.pdf", options);
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As Document = new Document(MyDir & "Rendering.doc")
-
+Dim doc As Document = new Document(MyDir & "Rendering.doc")
 Dim options as PdfSaveOptions = new PdfSaveOptions()
-
 ' Use JPEG compression at 50% quality to reduce file size.
-
 options.ImageCompression = PdfImageCompression.Jpeg
-
 options.JpegQuality = 50
-
 doc.Save(MyDir & "Rendering.JpegImageCompression Out.pdf", options);
-
 {{< /highlight >}}
 ### **Added Control for how Lists Labels are Exported to HTML**
 The ﻿**HtmlSaveOptions.ExportListLabels** property controls how list labels are exported to HTML.
@@ -60,61 +47,39 @@ The ﻿**HtmlSaveOptions.ExportListLabels** property controls how list labels ar
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Lists.PrintOutAllLists.doc");
-
+Document doc = new Document(MyDir + "Lists.PrintOutAllLists.doc");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
 
 // This option uses <ul> and <ol> tags are used for list label representation if it doesn't cause formatting loss,
 
 // otherwise HTML <p> tag is used. This is also the default value.
-
 saveOptions.ExportListLabels = ExportListLabels.Auto;
-
 doc.Save(MyDir + "Document.ExportListLabels Auto Out.html", saveOptions);
 
 // Using this option the <p> tag is used for any list label representation.
-
 saveOptions.ExportListLabels = ExportListLabels.AsInlineText;
-
 doc.Save(MyDir + "Document.ExportListLabels InlineText Out.html", saveOptions);
 
 // The <ul> and <ol> tags are used for list label representation. Some formatting loss is possible.
-
 saveOptions.ExportListLabels = ExportListLabels.ByHtmlTags;
-
 doc.Save(MyDir + "Document.ExportListLabels HtmlTags Out.html", saveOptions);
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document(MyDir & "Lists.PrintOutAllLists.doc")
-
+Dim doc As New Document(MyDir & "Lists.PrintOutAllLists.doc")
 Dim saveOptions As New HtmlSaveOptions(SaveFormat.Html)
-
 ' This option uses <ul> and <ol> tags are used for list label representation if it doesn't cause formatting loss,
-
 ' otherwise HTML <p> tag is used. This is also the default value.
-
 saveOptions.ExportListLabels = ExportListLabels.Auto
-
 doc.Save(MyDir & "Document.ExportListLabels Auto Out.html", saveOptions)
-
 ' Using this option the <p> tag is used for any list label representation.
-
 saveOptions.ExportListLabels = ExportListLabels.AsInlineText
-
 doc.Save(MyDir & "Document.ExportListLabels InlineText Out.html", saveOptions)
-
 ' The <ul> and <ol> tags are used for list label representation. Some formatting loss is possible.
-
 saveOptions.ExportListLabels = ExportListLabels.ByHtmlTags
-
 doc.Save(MyDir & "Document.ExportListLabels HtmlTags Out.html", saveOptions)
-
 {{< /highlight >}}
 ### **Full Support for Object.Attribute Syntax for all Merge Field Types**
 The Object.Attribute merge field syntax allows querying any data source and an attribute through the use of one field e.g Customer.Name. This feature was introduced with mustache merge fields in Aspose.Words 11.2.0. Some bug fixes and improvements to this feature means that it is now fully supported on both mustache and regular merge fields.
@@ -140,9 +105,9 @@ Additional features are now supported when rendering OOXML charts to PDF, XPS, i
 
 See ﻿[OOXML Chart Rendering Supported Features](/words/net/ooxml-chart-rendering-supported-features-html/) for a full list of supported features.
 ### **Improved Bookmark Export to HTML**
-Aspose.Words converts bookmarks in word documents as anchor tags (<a>) when saving to HTML. In previous versions of Aspose.Words a bookmark was exported to HTML without the actual text content of the bookmark inbetween e.g **"<a name='BookmarkName'></a><span>Text that is actually inside the bookmark</span>"**.
+Aspose.Words converts bookmarks in word documents as anchor tags (&lt;a&gt;) when saving to HTML. In previous versions of Aspose.Words a bookmark was exported to HTML without the actual text content of the bookmark inbetween e.g **"&lt;a name='BookmarkName'&gt;&lt;/a&gt;&lt;span&gt;Text that is actually inside the bookmark&lt;/span&gt;"**.
 
-Aspose.Words 11.10.0 provides an improved export of bookmarks to HTML and attempts to preserve bookmark's boundary. Therefore the same example above is now exported as: **"<a name='BookmarkName'>Text that is actually inside the bookmark</a>"**
+Aspose.Words 11.10.0 provides an improved export of bookmarks to HTML and attempts to preserve bookmark's boundary. Therefore the same example above is now exported as: **"&lt;a name='BookmarkName'&gt;Text that is actually inside the bookmark&lt;/a&gt;"**
 
 Note that because HTML does not allow some tags to be embedded inside anchor tags in general any tags to be overlapped, during HTML export Aspose.Words still forcibly ends bookmark before:
 
@@ -167,34 +132,19 @@ In order to support custom properties with spaces and other characters when expo
 
 This is an example of XML written for custom properties in Aspose.Words for .NET 11.10.0.
 
-{{< highlight java >}}
-
- <rdf:Description rdf:about="" xmlns:custprops="http://aspose.com/">
-
+{{< highlight csharp >}}
+<rdf:Description rdf:about="" xmlns:custprops="http://aspose.com/">
   <custprops:Property1>
-
     <rdf:Description>
-
       <custprops:Name>prop 1</custprops:Name>
-
       <custprops:Value>True</custprops:Value>
-
     </rdf:Description>
-
   </custprops:Property1>
-
   <custprops:Property2>
-
     <rdf:Description>
-
       <custprops:Name>prop 2</custprops:Name>
-
       <custprops:Value>10</custprops:Value>
-
     </rdf:Description>
-
   </custprops:Property2>
-
 </rdf:Description>
-
 {{< /highlight >}}

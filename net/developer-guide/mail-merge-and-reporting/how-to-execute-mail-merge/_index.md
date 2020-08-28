@@ -43,23 +43,13 @@ For this example, we’re going to use the ReadXML method of the DataSet class t
 **XML**
 
 {{< highlight csharp >}}
-
- <?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <customers>
-
 <customer Name="John Ben Jan" ID="1" Domain="History" City="Boston"/>
-
 <customer Name="Lisa Lane" ID="2" Domain="Chemistry" City="LA"/>
-
 <customer Name="Dagomir Zits" ID="3" Domain="Heraldry" City="Milwaukee"/>
-
 <customer Name="Sara Careira Santy" ID="4" Domain="IT" City="Miami"/>
-
 </customers>
-
-
-
 {{< /highlight >}}
 
 Note that the structure of the XML document can also be varied and the data will still be read correctly. This allows different types of XML documents to be merged easily. The XML can be changed so that each table represented as an element in the XML with each field of the table is a child element and the field value being the text node of this element. 
@@ -88,77 +78,40 @@ For more advanced mail merges, you may need to pre-process the XML source file t
 **XML**
 
 {{< highlight csharp >}}
-
- <?xml version="1.0"?>
-
+<?xml version="1.0"?>
 <PurchaseOrder PurchaseOrderNumber="99503" OrderDate="1999-10-20">
-
   <Address Type="Shipping">
-
     <Name>Ellen Adams</Name>
-
     <Street>123 Maple Street</Street>
-
     <City>Mill Valley</City>
-
     <State>CA</State>
-
     <Zip>10999</Zip>
-
     <Country>USA</Country>
-
   </Address>
-
   <Address Type="Billing">
-
     <Name>Tai Yee</Name>
-
     <Street>8 Oak Avenue</Street>
-
     <City>Old Town</City>
-
     <State>PA</State>
-
     <Zip>95819</Zip>
-
     <Country>USA</Country>
-
   </Address>
-
   <DeliveryNotes>Please leave packages in shed by driveway.</DeliveryNotes>
-
   <Items>
-
     <Item PartNumber="872-AA">
-
       <ProductName>Lawnmower</ProductName>
-
       <Quantity>1</Quantity>
-
       <USPrice>148.95</USPrice>
-
       <Comment>Confirm this is electric</Comment>
-
     </Item>
-
     <Item PartNumber="926-AA">
-
       <ProductName>Baby Monitor</ProductName>
-
       <Quantity>2</Quantity>
-
       <USPrice>39.98</USPrice>
-
       <ShipDate>1999-05-21</ShipDate>
-
     </Item>
-
   </Items>
-
 </PurchaseOrder>
-
-
-
 {{< /highlight >}}
 
 To select the data about ordered items and the delivery address from this XML file you should:

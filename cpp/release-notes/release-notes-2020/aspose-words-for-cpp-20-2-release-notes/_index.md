@@ -96,33 +96,18 @@ Related issue: WORDSNET-19750
 The customer was using the FieldMergingArgs.Text property and wanted the provided value to be formatted according to the format specified in the field being merged. We have made the FieldMergingArgsBase.FieldValue property settable so that instead of setting Text the user can set FieldValue which takes formatting into account instead of simply replacing the field.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets the value of the field from the data source.
-
 /// </summary>
-
 /// <remarks>
-
 /// This property contains a value that has just been selected from your data source
-
 /// for this field by the mail merge engine. You can also replace the value by setting the property.
-
 /// </remarks>
-
-
-
 public object FieldValue
-
 {
-
     get { return mFieldValue; }
-
     set { mFieldValue = value; }
-
 }
-
 {{< /highlight >}}
 
 
@@ -134,33 +119,23 @@ Due to the fact that submissions to the support service regarding different defa
 Now the code:
 
 {{< highlight csharp >}}
-
- Document doc = new Document("document.docx");
-
+Document doc = new Document("document.docx");
 {{< /highlight >}}
 
 will be identical to:
 
 {{< highlight csharp >}}
-
- LoadOptions lo = new LoadOptions();
-
+LoadOptions lo = new LoadOptions();
 lo.MswVersion = MsWordVersion.Word2019;
-
 Document doc = new Document("document.docx", lo);
-
 {{< /highlight >}}
 
 To achieve the previous behavior, it is necessary to explicitly specify the version:
 
 {{< highlight csharp >}}
-
- LoadOptions lo = new LoadOptions();
-
+LoadOptions lo = new LoadOptions();
 lo.MswVersion = MsWordVersion.Word2007;
-
 Document doc = new Document("document.docx", lo);
-
 {{< /highlight >}}
 
 

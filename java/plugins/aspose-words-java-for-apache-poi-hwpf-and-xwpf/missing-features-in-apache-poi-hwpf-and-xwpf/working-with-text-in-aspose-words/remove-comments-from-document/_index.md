@@ -11,30 +11,20 @@ When you need to selectively remove comments, the process becomes more similar t
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document(dataDir + "AsposeComments.docx");
+{{< highlight csharp >}}
+Document doc = new Document(dataDir + "AsposeComments.docx");
 
 // Collect all comments in the document
-
 NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
 
 // Look through all comments and remove those written by the authorName author.
-
 for (int i = comments.getCount() - 1; i >= 0; i--)
-
 {
-
     Comment comment = (Comment) comments.get(i);
-
     if (comment.getAuthor().equalsIgnoreCase("Aspose"))
-
 	System.out.println("Aspose comment removed");
-
 	comment.remove();
-
 }
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

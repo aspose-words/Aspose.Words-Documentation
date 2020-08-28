@@ -8,20 +8,13 @@ url: /java/working-with-tables-in-python/
 ## **Aspose.Words - Auto Fit Tables**
 **Python Code**
 
-{{< highlight java >}}
-
- # Demonstrate autofitting a table to the window.
-
+{{< highlight csharp >}}
+# Demonstrate autofitting a table to the window.
 self.autoFitTableToWindow()
-
 \# Demonstrate autofitting a table to its contents.
-
 self.autoFitTableToContents()
-
 \# Demonstrate autofitting a table to fixed column widths.
-
 self.autoFitTableToFixedColumnWidths()
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Auto Fit Tables (Aspose.Words)** from any of the below mentioned social coding sites:

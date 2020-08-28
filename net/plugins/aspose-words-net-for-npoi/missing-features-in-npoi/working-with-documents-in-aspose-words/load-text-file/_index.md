@@ -10,16 +10,13 @@ Aspose.Words allows you to import plain text data the same way as other document
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 
- // The encoding of the text file is automatically detected.
-
+// The encoding of the text file is automatically detected.
 Document doc = new Document("../../data/LoadTxt.txt");
 
 // Save as any Aspose.Words supported format, such as DOCX.
-
 doc.Save("AsposeLoadTxt_Out.docx");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Load Text File** form any of the below mentioned social coding sites:

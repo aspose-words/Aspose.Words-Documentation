@@ -8,16 +8,11 @@ url: /java/working-with-comments-in-python/
 ## **Aspose.Words - Process Comments**
 **Python Code**
 
-{{< highlight java >}}
-
- Document = jpype.Jclass("com.aspose.words.Document")
-
+{{< highlight csharp >}}
+Document = jpype.Jclass("com.aspose.words.Document")
 doc = Document("data/TestFile.doc")
-
 \# Collect all comments in the document
-
 comments = doc.getChildNodes(self.nodeType.COMMENT, True).toArray()
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Process Comments (Aspose.Words)** form any of the below mentioned social coding sites:

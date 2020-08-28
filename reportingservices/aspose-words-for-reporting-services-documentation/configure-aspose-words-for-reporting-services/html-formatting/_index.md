@@ -15,7 +15,7 @@ However, Aspose.Words for Reporting Services offers a workaround that you can us
 
 To do this you need to enable a special mode where all text in textboxes is treated as HTML. For example, to have normal, bold and italic text in the same textbox, enter the following textbox value: 
 
-Some of this text is <b>bold</b> and other text is <i>italic</i>. 
+Some of this text is &lt;b&gt;bold&lt;/b&gt; and other text is &lt;i&gt;italic&lt;/i&gt;. 
 
 When exported, the text will look like: 
 
@@ -28,30 +28,17 @@ Some of this text is **bold** and other text is *italic* .
 - Since the text is contained in textboxes, all the corresponding restrictions apply. For example, you cannot have form fields within a textbox. 
 - If HTML text is spread over multiple pages, most likely it will be exported as plain text. 
 
-To instruct the renderer to parse HTML formatting in textboxes, add the following lines to the *<Extension>* element corresponding to a particular renderer: 
+To instruct the renderer to parse HTML formatting in textboxes, add the following lines to the *&lt;Extension&gt;* element corresponding to a particular renderer: 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <DeviceInfo>
-
         <EnableHTMLFormatting>True</EnableHTMLFormatting>
-
     </DeviceInfo>
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}

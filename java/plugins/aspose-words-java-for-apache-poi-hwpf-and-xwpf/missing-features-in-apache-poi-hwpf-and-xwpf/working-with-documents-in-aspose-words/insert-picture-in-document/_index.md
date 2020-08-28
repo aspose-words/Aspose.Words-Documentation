@@ -10,14 +10,10 @@ DocumentBuilder provides several overloads of the DocumentBuilder.InsertImage me
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.insertImage("image.jpg");
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

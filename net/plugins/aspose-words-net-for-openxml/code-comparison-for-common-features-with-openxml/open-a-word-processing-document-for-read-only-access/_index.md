@@ -12,52 +12,30 @@ The below sample code shows how you can add some text and attempt to save the ch
 Below is the code sample
 
 {{< highlight csharp >}}
-
- private static string FilePath = @"..\..\..\..\Sample Files\";
-
+private static string FilePath = @"..\..\..\..\Sample Files\";
 private static string fileName = FilePath + "OpenReadOnlyAccess.docx";
-
 static void Main(string[] args)
-
 {
-
     OpenWordprocessingDocumentReadonly(fileName);
-
 }
-
 public static void OpenWordprocessingDocumentReadonly(string filepath)
-
 {
-
     // Open a WordprocessingDocument based on a filepath.
-
     using (WordprocessingDocument wordDocument =
-
         WordprocessingDocument.Open(filepath, false))
-
     {
-
         // Assign a reference to the existing document body.
-
         Body body = wordDocument.MainDocumentPart.Document.Body;
 
         // Attempt to add some text.
-
         Paragraph para = body.AppendChild(new Paragraph());
-
         Run run = para.AppendChild(new Run());
-
         run.AppendChild(new Text("Append text in body, but text is not saved - OpenWordprocessingDocumentReadonly"));
 
         // Call Save to generate an exception and show that access is read-only.
-
         // wordDocument.MainDocumentPart.Document.Save();
-
     }
-
 }
-
-
 {{< /highlight >}}
 ## **Aspose.Words**
 Make the **Document** object having parameter filename and LoadOptions without setting password we cant protect or open document for read-only access . **LoadOptions** is a shortcut to initialize a new instance of this class with the specified password to load an encrypted document. Then initialize the **DocumentBuilder** object which provides methods to insert text, images and other content, specify font, paragraph and section formatting of word document.
@@ -65,30 +43,17 @@ Make the **Document** object having parameter filename and LoadOptions without s
 Below is the sample code
 
 {{< highlight csharp >}}
-
- private static string FilePath = @"..\..\..\..\Sample Files\";
-
+private static string FilePath = @"..\..\..\..\Sample Files\";
 private static string fileName = FilePath + "OpenReadOnlyAccess.docx";
-
 OpenWordprocessingDocumentReadonly(fileName);
-
 private static void OpenWordprocessingDocumentReadonly(string fileName)
-
 {
-
     Document doc = new Document(fileName, new LoadOptions("1234"));
-
     DocumentBuilder db = new DocumentBuilder(doc);
-
     string txt = "Append text in body - OpenAndAddToWordprocessingStream";
-
     db.Writeln(txt);
-
     doc.Save(fileName);
-
 }
-
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)

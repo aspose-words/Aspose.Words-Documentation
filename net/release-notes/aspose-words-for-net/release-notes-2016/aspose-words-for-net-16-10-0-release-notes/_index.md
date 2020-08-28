@@ -102,7 +102,7 @@ There are 109 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-12339|Compare Word documents is wrongly comparing Normal text to Heading text|Enhancement|
 |WORDSNET-12460|Enhancement in Document.Compare when complete section is removed/inserted|Enhancement|
 |WORDSNET-12461|Enhancement in Document.Compare (when a lot of contents are changed)|Enhancement|
-|WORDSNET-14160|Reduce number of <span> in HtmlFixed|Enhancement|
+|WORDSNET-14160|Reduce number of &lt;span&gt; in HtmlFixed|Enhancement|
 |WORDSNET-14196|Table top row is missing when DOCX converted to PDF|Enhancement|
 |WORDSNET-5582|Consider filling multiple regions with the same name.|Enhancement|
 |WORDSNET-8396|Multi-paragraph DocVariable do not render correctly in output Pdf|Enhancement|
@@ -139,12 +139,9 @@ This section lists public API changes that were introduced in Aspose.Words 16.10
 ### **WORDSNET-3762 - Added feature to get OOXML compliance version determined from the loaded document content**
 Starting from 16.10.0 Version of Aspose.Words you can get OOXML compliance version determined from the loaded document content.
 
-{{< highlight java >}}
-
- Document doc = new Document("in.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document("in.docx");
 OoxmlCompliance compliance = doc.getCompliance();
-
 {{< /highlight >}}
 
 Please note that it makes sense only for OOXML documents. If you created a new blank document or load non OOXML document this property returns the OoxmlCompliance.Ecma376_2006.

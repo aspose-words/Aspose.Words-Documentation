@@ -115,16 +115,11 @@ This section lists public API changes that were introduced in Aspose.Words 18.5.
 ### **Added Public Property StructuredDocumentTag.Color**
 This property allows to control the ***Color*** of a content control.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets the color of the structured document tag.
-
 /// </summary>
-
 public java.awt.color Color
-
 {{< /highlight >}}
 
 The ***Color*** affects content control in two situations:
@@ -134,20 +129,14 @@ The color of highlighting is a bit "softer", than the ***Color***. For example, 
 
 Example of use:
 
-{{< highlight java >}}
-
- Document doc = new Document(dataDir + "input.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(dataDir + "input.docx");
 StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
-
 sdt.setColor(Color.RED);
-
 dataDir = dataDir + "SetContentControlColor_out.docx";
 
 // Save the document to disk.
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 ### **Obsolete Property HtmlSaveOptions.ExportMetafileAsRaster was Removed**
 Obsolete property ExportMetafileAsRaster was removed from the HtmlSaveOptions class. Please use the HtmlSaveOptions.MetafileFormat property instead.

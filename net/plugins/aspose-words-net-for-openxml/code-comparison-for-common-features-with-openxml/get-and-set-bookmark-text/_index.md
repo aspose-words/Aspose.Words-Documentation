@@ -8,79 +8,47 @@ url: /net/get-and-set-bookmark-text/
 ### **OpenXML**
 Below is the code example for getting and setting Bookmark text in word document using OpenXML SDK.
 
-{{< highlight cs >}}
-
-   string FilePath = @"..\..\..\..\Sample Files\";
-
+{{< highlight csharp >}}
+  string FilePath = @"..\..\..\..\Sample Files\";
   string File = FilePath + "Get and Set Bookmark Text - OpenXML.docx";
-
   IDictionary<String, BookmarkStart> bookmarkMap = new Dictionary<String, BookmarkStart>();
-
   using (WordprocessingDocument wordDocument = WordprocessingDocument.Open(File, true))
-
   {
-
     foreach (BookmarkStart bookmarkStart in wordDocument.MainDocumentPart.Document.Body.Descendants<BookmarkStart>())
-
     {
-
       // foreach (BookmarkStart bookmarkStart in file.MainDocumentPart.RootElement.Descendants<BookmarkStart>())
-
       //{
-
            bookmarkMap[bookmarkStart.Name] = bookmarkStart;
-
            foreach (BookmarkStart bookmark in bookmarkMap.Values)
-
            {
-
              Run bookmarkText = bookmark.NextSibling<Run>();
-
              if (bookmarkText != null)
-
              {
-
                bookmarkText.GetFirstChild<Text>().Text = "Test";
-
              }
-
            }
-
      }
-
    }
-
-
 {{< /highlight >}}
 ### **Aspose.Words**
 Below is the code example of get and set Bookmark text using Aspose.Words
 
-{{< highlight cs >}}
-
-  string FilePath = @"..\..\..\..\Sample Files\";
-
+{{< highlight csharp >}}
+ string FilePath = @"..\..\..\..\Sample Files\";
  string File = FilePath + "Get and Set Bookmark Text - Aspose.docx";
-
  Document doc = new Document(File);
 
  // Use the indexer of the Bookmarks collection to obtain the desired bookmark.
-
  Bookmark bookmark = doc.Range.Bookmarks["MyBookmark"];
 
  // Get the name and text of the bookmark.
-
  string name = bookmark.Name;
-
  string text = bookmark.Text;
 
  // Set the name and text of the bookmark.
-
  bookmark.Name = "RenamedBookmark";
-
  bookmark.Text = "This is a new bookmarked text.";
-
  doc.Save(File);
-
 {{< /highlight >}}
 ### **Download Running Example**
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)

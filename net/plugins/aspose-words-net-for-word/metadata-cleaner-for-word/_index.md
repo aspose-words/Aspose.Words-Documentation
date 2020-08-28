@@ -81,12 +81,9 @@ You can download the latest source code at:
 To Extend, Open the Project in Visual Studio. It contains both the source code and setup project.
 Here is some sample code to help you extend the code according to your own need:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Remove all built-in and Custom Properties
-
+// Remove all built-in and Custom Properties
 doc.CustomDocumentProperties.Clear();
-
 doc.BuiltInDocumentProperties.Clear();
-
 {{< /highlight >}}

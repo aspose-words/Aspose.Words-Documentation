@@ -42,7 +42,7 @@ There are 101 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8637|Images are placed incorrectly after RTF-HTML-DOCX round-trip|Bug|
 |WORDSNET-8638|Font size of table text gets smaller after export to HTML|Bug|
 |WORDSNET-8668|A hyperlink causes LinkAnnotation to be generated for each word|Bug|
-|WORDSNET-8820|Unwanted margin-left is added to <p> during exporting a Docx to Html|Bug|
+|WORDSNET-8820|Unwanted margin-left is added to &lt;p&gt; during exporting a Docx to Html|Bug|
 |WORDSNET-8950|Numbers with digit grouping break order of RTL text during HTML import|Bug|
 |WORDSNET-8953|Columns of adjacent tables get misaligned after DOCX-HTML-DOCX round trip|Bug|
 |WORDSNET-8954|Image is placed incorrectly when exported to HTML|Bug|
@@ -56,7 +56,7 @@ There are 101 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9239|Document.UpdateFields method does not calculate a TOC field in DOC|Bug|
 |WORDSNET-9303|Aspose.Words hangs during rendering DOC to HTML|Bug|
 |WORDSNET-9305|An Elbow Arrow Connector Shape is not preserved during rendering to fixed page formts|Bug|
-|WORDSNET-9334|Font size of text imported from <pre> HTML elements is too large|Bug|
+|WORDSNET-9334|Font size of text imported from &lt;pre&gt; HTML elements is too large|Bug|
 |WORDSNET-9351|"Error : Unknown op code for conditional" is shown after calling Document.UpdateFields|Bug|
 |WORDSNET-9356|/asian baseline/ A Paragraph renders on to the next page in PDF|Bug|
 |WORDSNET-9375|SmartArt does not preserve when Doc file is converted to Docx|Bug|

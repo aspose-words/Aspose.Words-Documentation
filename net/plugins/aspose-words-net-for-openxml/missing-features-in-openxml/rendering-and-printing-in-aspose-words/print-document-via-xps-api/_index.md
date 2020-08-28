@@ -12,53 +12,31 @@ We have created the **XpsPrintHelper class** with the **Print** method, which is
 The last parameter is a Boolean value that specifies whether the code should wait until the job is printed or return immediately after the print job has been submitted. If you choose to return immediately, then you will not be able to determine whether the document has printed successfully or not in the end.
 
 {{< highlight csharp >}}
-
- try
-
+try
 {
-
     // Sample infrastructure.
-
     string exeDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + Path.DirectorySeparatorChar;
-
     string dataDir = new Uri(new Uri(exeDir), @"../Data/").LocalPath;
-
     //ExStart
-
     //ExId:XpsPrint_Main
-
     //ExSummary:Invoke the utility class to print via XPS.
-
     // Open a sample document in Aspose.Words.
-
     Aspose.Words.Document document = new Aspose.Words.Document(dataDir + "Print via XPS API.doc");
 
     // Specify the name of the printer you want to print to.
-
     const string printerName = @"\\COMPANY\Zeeshan MFC-885CW Printer";
 
     // Print the document.
-
     XpsPrintHelper.Print(document, printerName, "test", true);
-
     //ExEnd
-
     Console.WriteLine("Printed successfully.");
-
 }
-
 catch (Exception e)
-
 {
-
     Console.WriteLine(e.ToString());
-
 }
-
 Console.WriteLine("Press Enter.");
-
 Console.ReadLine();
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)

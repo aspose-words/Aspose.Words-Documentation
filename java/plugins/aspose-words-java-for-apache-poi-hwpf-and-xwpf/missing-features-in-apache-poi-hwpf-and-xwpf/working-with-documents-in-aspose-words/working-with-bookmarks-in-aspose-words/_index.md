@@ -12,30 +12,23 @@ Use **DocumentBuilder.startBookmark** and **DocumentBuilder.endBookmark** to
 
 **Java**
 
-{{< highlight java >}}
-
- builder.startBookmark("AsposeBookmark");
-
+{{< highlight csharp >}}
+builder.startBookmark("AsposeBookmark");
 builder.writeln("Text inside a bookmark.");
-
 builder.endBookmark("AsposeBookmark");
-
 {{< /highlight >}}
 
 **Get Bookmark**
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // By index.
-
+// By index.
 Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 
 // By name.
-
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("AsposeBookmark");
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

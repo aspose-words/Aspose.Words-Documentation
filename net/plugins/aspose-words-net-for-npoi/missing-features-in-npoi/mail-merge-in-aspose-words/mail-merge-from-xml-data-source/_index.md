@@ -12,26 +12,20 @@ This page provides a simple example of how, using Aspose.Words, you can execute 
 
 **C#**
 
-{{< highlight cs >}}
+{{< highlight csharp >}}
 
- // Create the Dataset and read the XML.
-
+// Create the Dataset and read the XML.
 DataSet customersDs = new DataSet();
-
 customersDs.ReadXml("../../data/Customers.xml");
 
 // Open a template document.
-
 Document doc = new Document("../../data/TestFile XML.doc");
 
 // Execute mail merge to fill the template with data from XML using DataTable.
-
 doc.MailMerge.Execute(customersDs.Tables["Customer"]);
 
 // Save the output document.
-
 doc.Save("TestFile XML Out.doc");
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Mail Merge from XML Data Source** form any of the below mentioned social coding sites:

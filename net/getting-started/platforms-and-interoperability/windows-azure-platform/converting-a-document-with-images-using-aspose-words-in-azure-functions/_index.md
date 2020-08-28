@@ -9,20 +9,13 @@ Conversion of documents with images to fixed page formats using Aspose.Words in 
 
 In order to resolve the problem, you can add the following section in the .csproj file that makes native assets copied properly:
 
-{{< highlight java >}}
-
- <Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish">
-
+{{< highlight csharp >}}
+<Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish">
   <ItemGroup>
-
     <NativeAssetToCopy Include="$(PublishDir)runtimes\win-x86\native\libSkiaSharp.dll" />
-
   </ItemGroup>
-
   <Copy SourceFiles="@(NativeAssetToCopy)" DestinationFolder="$(PublishDir)bin" />
-
 </Target>
-
 {{< /highlight >}}
 
 The following example shows how to use Aspose.Words in Azure Function with the details on how to add the code above.
@@ -36,93 +29,50 @@ In this example, you create a simple “Hello World” document and return it to
 
 1. Start creating a function using Aspose.Words by adding a NuGet reference to the latest version of [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/). Then modify the code as follows:
 
-{{< highlight java >}}
-
- using System.IO;
-
+{{< highlight csharp >}}
+using System.IO;
 using System.Threading.Tasks;
-
 using Microsoft.AspNetCore.Mvc;
-
 using Microsoft.Azure.WebJobs;
-
 using Microsoft.Azure.WebJobs.Extensions.Http;
-
 using Microsoft.AspNetCore.Http;
-
 using Microsoft.Extensions.Logging;
-
 using Aspose.Words;
-
-
-
 namespace AsposeWordsAzureTestApp
-
 {
-
     public static class CreateTestDocument
-
     {
-
         [FunctionName("CreateTestDocument")]
-
         public static async Task<IActionResult> Run(
-
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
-
             ILogger log)
-
         {
-
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-
             // Create a simple document using DocumentBuilder.
-
             Document doc = new Document();
-
             DocumentBuilder builder = new DocumentBuilder(doc);
 
-
             // Write some text in the document.
-
             builder.Writeln("Hello Aspose.Words!");
 
             // Write OS we are running on.
-
             builder.Writeln("You are running on " + System.Environment.OSVersion.VersionString);
 
             // Insert some image into the document.
-
             builder.InsertImage(@"https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/aspose-logo.png");
-
-
-
             // Now save the created document to PDF and return as a FileContentResult.
-
             using (MemoryStream ms = new MemoryStream())
-
             {
-
                 doc.Save(ms, SaveFormat.Pdf);
-
-
                 return new FileContentResult(ms.ToArray(), "application/pdf")
-
                 {
-
                     FileDownloadName = "out.pdf"
-
                 };
-
             }
-
         }
-
     }
-
 }
-
 {{< /highlight >}}
 
 1. Run the code in Visual Studio to test it. The result will be displayed in the console output.
@@ -137,20 +87,13 @@ namespace AsposeWordsAzureTestApp
 
 1. Open the .csproj file in Notepad and add the following section to it:
 
-{{< highlight java >}}
-
- <Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish">
-
+{{< highlight csharp >}}
+<Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish">
   <ItemGroup>
-
     <NativeAssetToCopy Include="$(PublishDir)runtimes\win-x86\native\libSkiaSharp.dll" />
-
   </ItemGroup>
-
   <Copy SourceFiles="@(NativeAssetToCopy)" DestinationFolder="$(PublishDir)bin" />
-
 </Target>
-
 {{< /highlight >}}
 
 1. Publish your project again and verify that the image is now present in the generated output.

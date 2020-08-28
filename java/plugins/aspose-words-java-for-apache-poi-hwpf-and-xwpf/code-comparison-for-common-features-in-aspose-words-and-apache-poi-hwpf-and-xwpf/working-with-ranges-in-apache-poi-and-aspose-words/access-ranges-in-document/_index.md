@@ -10,24 +10,18 @@ Use the **Range.getText** to retrieve plain, unformatted text of the range.
 
 **Java**
 
-{{< highlight java >}}
-
- Range range = doc.getRange();
-
+{{< highlight csharp >}}
+Range range = doc.getRange();
 String text = range.getText();
-
 {{< /highlight >}}
 ## **Apache POI HWPF XWPF - Access Ranges in Document**
 Use the **Range.text** to retrieve text of the range.
 
 **Java**
 
-{{< highlight java >}}
-
- Range range = doc.getRange();
-
+{{< highlight csharp >}}
+Range range = doc.getRange();
 String text = range.text();
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

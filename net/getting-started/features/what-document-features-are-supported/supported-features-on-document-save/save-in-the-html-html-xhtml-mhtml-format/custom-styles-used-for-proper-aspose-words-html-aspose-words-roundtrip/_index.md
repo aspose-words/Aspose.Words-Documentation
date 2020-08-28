@@ -19,30 +19,20 @@ Comment's content is exported as div container. -aw-comment-author, -aw-comment-
 
 Example:
 
-{{< highlight java >}}
-
- <div id="_cmnt1" style="-aw-comment-author: 'Author'; -aw-comment-datetime: '2015-01-01T12:00:00'; -aw-comment-initial: 'A'">
-
+{{< highlight csharp >}}
+<div id="_cmnt1" style="-aw-comment-author: 'Author'; -aw-comment-datetime: '2015-01-01T12:00:00'; -aw-comment-initial: 'A'">
     <p style="margin: 0pt 0pt 8pt">
-
         <a href="#_cmntref1">[A1]</a><span style="font-family: Calibri; font-size: 10pt">Some comment.</span>
-
     </p>
-
 </div>
-
 {{< /highlight >}}
 ## **Comment**
 In simple case when comment is located within one paragraph, in output HTML this comment's boundaries are marked with anchor tag. In the following example comment's boundaries are marked as bookmark with “_cmntref1” name:
 
-{{< highlight java >}}
-
- <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
+{{< highlight csharp >}}
+<p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
     <span style="font-family: Calibri; font-size: 11pt">Some </span><a name="_cmntref1"><span style="font-family: Calibri; font-size: 11pt">text</span></a><a href="#_cmnt1">[A1]</a><span style="font-family: Calibri; font-size: 11pt">.</span>
-
 </p>
-
 {{< /highlight >}}
 
 In more complex case when comment is overlapped with other comment or comment’s boundaries are spread over multiple paragraphs additional span element is used to preserve comment’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-comment-start and –aw-comment-end CSS properties can be applied to this span.
@@ -52,20 +42,13 @@ In more complex case when comment is overlapped with other comment or comment’
 
 In the following example first comment’s boundaries are marked as bookmark with “_cmntref1” name and span which –aw-comment-end property’s value is set to “_cmntref1”.
 
-{{< highlight java >}}
-
- <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
-    <span style="font-family: Calibri; font-size: 11pt">Some </span><a name="_cmntref1"><span style="font-family: Calibri; font-size: 11pt">text 1.</span></a>
-
-</p>
-
+{{< highlight csharp >}}
 <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
-    <span style="font-family: Calibri; font-size: 11pt">Some</span><span style="-aw-comment-end: _cmntref1"></span><a href="#_cmnt1">[A1]</a><span style="font-family: Calibri; font-size: 11pt"> text 2.</span>
-
+    <span style="font-family: Calibri; font-size: 11pt">Some </span><a name="_cmntref1"><span style="font-family: Calibri; font-size: 11pt">text 1.</span></a>
 </p>
-
+<p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
+    <span style="font-family: Calibri; font-size: 11pt">Some</span><span style="-aw-comment-end: _cmntref1"></span><a href="#_cmnt1">[A1]</a><span style="font-family: Calibri; font-size: 11pt"> text 2.</span>
+</p>
 {{< /highlight >}}
 ## **Footnote (Endnote)**
 Footnote (endnote) is exported as div. –aw-footnote-isauto CSS property can be applied to this div.
@@ -77,28 +60,17 @@ Footnote (endnote) is exported as div. –aw-footnote-isauto CSS property can be
 
 Example:
 
-{{< highlight java >}}
-
- <div id="_ftn1" style="-aw-footnote-isauto: 1">
-
+{{< highlight csharp >}}
+<div id="_ftn1" style="-aw-footnote-isauto: 1">
     <p style="margin: 0pt">
-
         <a href="#_ftnref1"><span style="font-family: Calibri; font-size: 7.33pt; vertical-align: super">[3]</span></a><span style="font-family: Calibri; font-size: 10pt"> Some footnote.</span>
-
     </p>
-
 </div>
-
 <div id="_ftn2" style="-aw-footnote-isauto: 0">
-
     <p style="margin: 0pt">
-
         <a href="#_ftnref2"><span style="font-family: Calibri; font-size: 7.33pt; vertical-align: super">[ftn]</span></a><span style="font-family: Calibri; font-size: 10pt"> Some footnote with custom mark.</span>
-
     </p>
-
 </div>
-
 {{< /highlight >}}
 ## **Footnotes’ (Endnotes’) Formatting**
 All footnotes (endnotes) in a document share formatting. When exported to HTML footnotes (endnotes) are separated from other document’s content with horizontal rule element. –aw-footnote-numberstyle, -aw-footnote-startnumber and –aw-footnote-type CSS properties can be applied to this horizontal rule.
@@ -114,32 +86,19 @@ All footnotes (endnotes) in a document share formatting. When exported to HTML f
 
 Example:
 
-{{< highlight java >}}
-
- <hr style="width: 33%; height: 1px; text-align: left; -aw-footnote-numberstyle: 0; -aw-footnote-startnumber: 3; -aw-footnote-type: 0" />
-
+{{< highlight csharp >}}
+<hr style="width: 33%; height: 1px; text-align: left; -aw-footnote-numberstyle: 0; -aw-footnote-startnumber: 3; -aw-footnote-type: 0" />
 <div id="_ftn1" style="-aw-footnote-isauto: 1">
-
     <p style="margin: 0pt">
-
         <a href="#_ftnref1"><span style="font-family: Calibri; font-size: 7.33pt; vertical-align: super">[3]</span></a><span style="font-family: Calibri; font-size: 10pt"> Some footnote.</span>
-
     </p>
-
 </div>
-
 <hr style="width: 33%; height: 1px; text-align: left; -aw-footnote-numberstyle: 2; -aw-footnote-startnumber: 5; -aw-footnote-type: 1" />
-
 <div id="_edn1" style="-aw-footnote-isauto: 1">
-
     <p style="margin: 0pt">
-
         <a href="#_ednref1"><span style="font-family: Calibri; font-size: 7.33pt; vertical-align: super">[v]</span></a><span style="font-family: Calibri; font-size: 10pt"> Some endnote.</span>
-
     </p>
-
 </div>
-
 {{< /highlight >}}
 ## **Header (Footer)**
 Header (footer) is exported as div container. –aw-different-first-page and –aw-headerfooter-type CSS properties can be applied to this div.
@@ -156,30 +115,20 @@ Header (footer) is exported as div container. –aw-different-first-page and –
 
 Example:
 
-{{< highlight java >}}
-
- <div style="-aw-headerfooter-type:header-primary">
-
+{{< highlight csharp >}}
+<div style="-aw-headerfooter-type:header-primary">
 	<p style="margin:0pt">
-
 		<span style="font-family:Calibri; font-size:11pt">Some header.</span>
-
 	</p>
-
 </div>
-
 {{< /highlight >}}
 ## **Bookmark**
 In simple case when bookmark is located within one paragraph, in output HTML this bookmark's boundaries are marked with anchor tag. In the following example bookmark's boundaries are marked as bookmark with “bm1” name:
 
-{{< highlight java >}}
-
- <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
+{{< highlight csharp >}}
+<p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
     <span style="font-family: Calibri; font-size: 11pt">Some </span><a name="bm1"><span style="font-family: Calibri; font-size: 11pt">text</span></a><span style="font-family: Calibri; font-size: 11pt">.</span>
-
 </p>
-
 {{< /highlight >}}
 
 In more complex case when bookmark is overlapped with other bookmark or bookmark’s boundaries are spread over multiple paragraphs additional span element is used to preserve bookmark’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-bookmark-start and –aw-bookmark-end CSS properties can be applied to this span.
@@ -189,20 +138,13 @@ In more complex case when bookmark is overlapped with other bookmark or bookmark
 
 In the following example first bookmark’s boundaries are marked as bookmark with “bm1” name and span which –aw-bookmark-end property’s value is set to “bm1”.
 
-{{< highlight java >}}
-
- <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
-    <span style="font-family: Calibri; font-size: 11pt">Some </span><a name="bm1"><span style="font-family: Calibri; font-size: 11pt">text 1.</span></a>
-
-</p>
-
+{{< highlight csharp >}}
 <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
-    <span style="font-family: Calibri; font-size: 11pt">Some</span><span style="-aw-bookmark-end: bm1"></span><span style="font-family: Calibri; font-size: 11pt"> text 2.</span>
-
+    <span style="font-family: Calibri; font-size: 11pt">Some </span><a name="bm1"><span style="font-family: Calibri; font-size: 11pt">text 1.</span></a>
 </p>
-
+<p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
+    <span style="font-family: Calibri; font-size: 11pt">Some</span><span style="-aw-bookmark-end: bm1"></span><span style="font-family: Calibri; font-size: 11pt"> text 2.</span>
+</p>
 {{< /highlight >}}
 ## **Tab Stop**
 Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader and –aw-tabstop-pos CSS properties can be applied to this span.
@@ -215,20 +157,13 @@ Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader an
 
 Example:
 
-{{< highlight java >}}
-
- <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
-    <span style="width: 64.8pt; text-indent: 0pt; font-family: 'Lucida Console'; font-size: 10pt; display: inline-block; -aw-tabstop-align: left; -aw-tabstop-leader: dots; -aw-tabstop-pos: 64.8pt">..........</span><span style="font-family: Calibri; font-size: 11pt">Some text.</span>
-
-</p>
-
+{{< highlight csharp >}}
 <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
-    <span style="font-family: Calibri; font-size: 11pt"></span><span style="font-family: Calibri; font-size: 11pt">Some text.</span>
-
+    <span style="width: 64.8pt; text-indent: 0pt; font-family: 'Lucida Console'; font-size: 10pt; display: inline-block; -aw-tabstop-align: left; -aw-tabstop-leader: dots; -aw-tabstop-pos: 64.8pt">..........</span><span style="font-family: Calibri; font-size: 11pt">Some text.</span>
 </p>
-
+<p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
+    <span style="font-family: Calibri; font-size: 11pt"></span><span style="font-family: Calibri; font-size: 11pt">Some text.</span>
+</p>
 {{< /highlight >}}
 ## **PAGE Field**
 Usually PAGE field is represented as one span element in HTML output, but can be represented with several spans. We enclose these span elements with one span container. –aw-field-code CSS property can be applied to this span.
@@ -237,14 +172,10 @@ Usually PAGE field is represented as one span element in HTML output, but can be
 
 Example:
 
-{{< highlight java >}}
-
- <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
+{{< highlight csharp >}}
+<p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
     <span style="-aw-field-code: ' PAGE  \\* Arabic  \\* MERGEFORMAT '"><span style="font-family: Calibri; font-size: 11pt">1</span></span>
-
 </p>
-
 {{< /highlight >}}
 ## **Shape**
 Shape is exported as img element. –aw-wrap-type, –aw-left-pos, -aw-top-pos, -aw-rel-hpos and –aw-rel-vpos CSS properties can be applied to this img element.
@@ -261,10 +192,8 @@ Shape is exported as img element. –aw-wrap-type, –aw-left-pos, -aw-top-pos, 
 
 Example:
 
-{{< highlight java >}}
-
- <img src="TestImage Out.001.png" width="193" height="193" alt="" style="margin-top: 27.3pt; margin-left: 46.2pt; -aw-left-pos: 46.2pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 27.3pt; -aw-wrap-type: none; position: absolute; z-index: 0" />
-
+{{< highlight csharp >}}
+<img src="TestImage Out.001.png" width="193" height="193" alt="" style="margin-top: 27.3pt; margin-left: 46.2pt; -aw-left-pos: 46.2pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 27.3pt; -aw-wrap-type: none; position: absolute; z-index: 0" />
 {{< /highlight >}}
 ## **Insert (Delete) Revision**
 Insert (delete) revision is exported as ins (del) element. –aw-revision-author and –aw-revision-datetime CSS properties can be applied to this ins (del) element.
@@ -274,28 +203,17 @@ Insert (delete) revision is exported as ins (del) element. –aw-revision-author
 
 Example:
 
-{{< highlight java >}}
-
- <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
-    <del style="-aw-revision-author: 'Author'; -aw-revision-datetime: '2015-01-01T12:00:00'">
-
-        <span style="font-family: Calibri; font-size: 11pt">Some text 1.</span>
-
-    </del>
-
-</p>
-
+{{< highlight csharp >}}
 <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
-
-    <ins style="-aw-revision-author: 'Author'; -aw-revision-datetime: '2015-01-01T12:00:00'">
-
-        <span style="font-family: Calibri; font-size: 11pt">Some text 2.</span>
-
-    </ins>
-
+    <del style="-aw-revision-author: 'Author'; -aw-revision-datetime: '2015-01-01T12:00:00'">
+        <span style="font-family: Calibri; font-size: 11pt">Some text 1.</span>
+    </del>
 </p>
-
+<p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
+    <ins style="-aw-revision-author: 'Author'; -aw-revision-datetime: '2015-01-01T12:00:00'">
+        <span style="font-family: Calibri; font-size: 11pt">Some text 2.</span>
+    </ins>
+</p>
 {{< /highlight >}}
 ## **Structured Document Tag**
 Every document element which is content control can be marked in output HTML with special CSS properties –aw-sdt-title and –aw-sdt-tag (div and span elements).
@@ -305,26 +223,15 @@ Every document element which is content control can be marked in output HTML wit
 
 Example:
 
-{{< highlight java >}}
-
- <div style="-aw-sdt-tag:'Tag1'; -aw-sdt-title:'Title1'">
-
+{{< highlight csharp >}}
+<div style="-aw-sdt-tag:'Tag1'; -aw-sdt-title:'Title1'">
     <p>
-
         <span>This text is tagged.</span>
-
     </p>
-
 </div>
-
 <p>
-
     <span>Before</span>
-
     <span style="-aw-sdt-tag:'Tag2'; -aw-sdt-title:'Title2'"><span>Plain text</span></span>
-
     <span>After</span>
-
 </p>
-
 {{< /highlight >}}

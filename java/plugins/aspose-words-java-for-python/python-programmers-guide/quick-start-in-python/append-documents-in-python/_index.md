@@ -10,18 +10,12 @@ To append documents using Aspose.Words Java in Python, simply invoke the appendD
 
 **Python Code**
 
-{{< highlight java >}}
-
- Document = jpype.JClass("com.aspose.words.Document")
-
+{{< highlight csharp >}}
+Document = jpype.JClass("com.aspose.words.Document")
 doc1 = Document("data/doc1.doc")
-
 doc2 = Document("data/doc2.doc")
-
 ImportFormatMode = jpype.JClass("com.aspose.words.ImportFormatMode)
-
 doc1.appendDocument(doc2), ImportFormatMode->KEEP_SOURCE_FORMATTING)
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Append Documents (Aspose.Words)** from any of the below mentioned social coding sites:

@@ -23,15 +23,11 @@ Following example shows how to update all fields before rendering a document.
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(getMyDir() + "Rendering.doc");
+Document doc = new Document(getMyDir() + "Rendering.doc");
 
 // This updates all fields in the document.
-
 doc.updateFields();
-
 doc.save(getMyDir() + "Rendering.UpdateFields Out.pdf");
-
 {{< /highlight >}}
 ### **Automatic Field Update during Mail Merge**
 When you execute a mail merge, all fields in the document will be automatically updated. This is because the mail merge is a case of a field update. The program encounters a mail merge field and needs to update its result, which involves grabbing the value from the data source and inserting it into the field. The logic is, of course, more complicated, for example, when the end of the document/mail merge region is reached but there is still further data to be merged, then the region needs to be duplicated and the new set of fields updated.

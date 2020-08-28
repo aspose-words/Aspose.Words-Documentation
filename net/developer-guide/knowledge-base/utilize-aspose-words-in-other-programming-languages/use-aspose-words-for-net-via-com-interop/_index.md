@@ -33,15 +33,15 @@ Here are the topics that you will eventually need to master:
 #### **Register Aspose.Words for .NET with COM Interop**
 After installation, you need to register Aspose.Words for COM Interop using the regasm.exe utility.
 
-regasm.exe is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the *%windir%\Microsoft .NET\Framework\<FrameworkVersion>\ directory, for example *C:\Windows\Microsoft .NET\Framework\v2.0.50727* 
+regasm.exe is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the *%windir%\Microsoft .NET\Framework&#92;&lt;FrameworkVersion&gt;\ directory, for example *C:\Windows\Microsoft .NET\Framework\v2.0.50727* 
 
 If you use Visual Studio, then the easiest way to launch regasm is to:
 
 1. On the **Start** menu, select **Programs**, then **Microsoft Visual Studio 2010** and finally **Visual Studio Tools**.
 1. Right-click **Visual Studio Command Prompt** and select **Run as Administrator**.
    This will launch the command prompt with all the necessary environment variables set.
-1. Type: regasm <installdir>\bin\net2.0\Aspose.Words.dll /codebase
-   where <installdir> is the directory where you installed Aspose.Words, typically **C:\Program Files (x86)\Aspose\Aspose.Words for .NET**. 
+1. Type: regasm &lt;installdir&gt;\bin\net2.0\Aspose.Words.dll /codebase
+   where &lt;installdir&gt; is the directory where you installed Aspose.Words, typically **C:\Program Files (x86)\Aspose\Aspose.Words for .NET**. 
 #### **ProgIDs**
 ProgID stands for “programmatic identifier”, it is a name of a COM class that you need to use in order to create an object. 
 
@@ -56,36 +56,24 @@ The ProgIDs consist of the library name ("Aspose.Words") and the class name.
 #### **Type Library**
 During installation, the Aspose.Words.tlb (COM type library) is copied to your computer to:
 
-- For .NET Framework 2.0, 3.0, 3.5 and 4.0 to **<installdir>\bin\net2.0**
+- For .NET Framework 2.0, 3.0, 3.5 and 4.0 to **&lt;installdir&gt;\bin\net2.0**
 
 If your programming language (for example Visual Basic or Delphi) allows you to reference a COM type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser. 
 #### **Creating COM Objects**
 The creation of a .NET object is similar to creation of a normal COM object:
 
-**VBScript**
-
+**VBScript:**
 {{< highlight csharp >}}
-
- Dim helper
-
+Dim helper
 Set helper = CreateObject("Aspose.Words.ComHelper")
-
-
-
 {{< /highlight >}}
 
 Once created, you are able to access the object’s methods and properties, as if it was a COM object:
 
-**VBScript**
-
+**VBScript:**
 {{< highlight csharp >}}
-
- Dim doc
-
+Dim doc
 Set doc = helper.Open("C:\my.doc")
-
-
-
 {{< /highlight >}}
 
 Some methods have overloads and they will be exposed by COM Interop with a numeric suffix added to them, except for the very first method that stays unchanged. For example, Document.Save method overloads become Document.Save, Document.Save_2, Document.Save_3, and so on. 

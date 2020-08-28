@@ -103,29 +103,17 @@ Related issue: WORDSNET-14397 has now been resolved.
 Added a new **ImportFormatOptions** class with only a single public property **SmartStyleBehavior**:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify various import options to format output.
-
 /// </summary>
-
 public class ImportFormatOptions
-
 {
-
   /// <summary>
-
   /// Smart style behavior.
-
   /// Default value is <c>false</c>.
-
   /// </summary>
-
   public bool SmartStyleBehavior
-
 }
-
 {{< /highlight >}}
 
 This option starts working when styles clashes upon importing. 
@@ -137,41 +125,23 @@ This option starts working when styles clashes upon importing. 
 ` `For a moment this option can be used only with a new public method of a DocumentBuilder class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Inserts a document at the cursor position.
-
 /// </summary>
-
 public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode, ImportFormatOptions options)
-
 {{< /highlight >}}
 
 **UseCase:**
 
 {{< highlight csharp >}}
-
- Document srcDoc = new Document("source.docx");
-
+Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
-
-
-
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
-
 builder.MoveToDocumentEnd();
-
 builder.InsertBreak(BreakType.PageBreak);
-
-
-
 ImportFormatOptions options = new ImportFormatOptions();
-
 options.SmartStyleBehavior = true;
-
 builder.InsertDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
-
 {{< /highlight >}}
 ### **Changes in font resolving while loading HTML (SVG) document**
 Related issue: WORDSNET-17383 has now been resolved:
@@ -185,9 +155,7 @@ Previously while loading HTML (SVG) document font families resolved by font name
 ` `For example, if ‘UnknownFont1’ is absent on the system the following font family declaration resolved as ‘Arial’ (‘Arial’ is name for ‘san-serif’ generic font name.)
 
 {{< highlight html >}}
-
- <p style='font-family:UnknownFont1, sans-serif;'>This is a paragraph.</p>
-
+<p style='font-family:UnknownFont1, sans-serif;'>This is a paragraph.</p>
 {{< /highlight >}}
 
 Now the customer can use font settings before loading the document (add substitution rule, specify fonts folder and etc). 
@@ -195,21 +163,14 @@ Now the customer can use font settings before loading the document (add substitu
 ` `The following example shows how to add font substitution rule while loading the document.
 
 {{< highlight csharp >}}
-
- FontSettings fontSettings = new FontSettings();
-
+FontSettings fontSettings = new FontSettings();
 TableSubstitutionRule substitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
 // If "UnknownFont1" font family is not available then substitute it by "Comic Sans MS".
-
 substitutionRule.AddSubstitutes("UnknownFont1", new string[] { "Comic Sans MS" });
-
 LoadOptions lo = new LoadOptions();
-
 lo.FontSettings = fontSettings;
-
 Document doc = new Document(MyDir + "myfile.html", lo);
-
 {{< /highlight >}}
 
 The resulting model will contain 'UnknownFont1' as resolved font name for a paragraph from example. 
@@ -219,41 +180,25 @@ Related issue: WORDSNET-17996 has now been resolved.
 Added new property for specifying vertical anchor of shape's textbox.
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Specifies the vertical alignment of the text within a shape.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>The default value is <see cref="TextBoxAnchor.Top"/>.</p>
-
 /// </remarks>
-
 public TextBoxAnchor VerticalAnchor
-
 {
-
     get;
-
     set;
-
 }
-
 {{< /highlight >}}
 
 The property allows to specify text anchor within the shape (Top, Middle, Bottom).
 
 {{< highlight csharp >}}
-
- Document doc = new Document(fileName);
-
+Document doc = new Document(fileName);
 Shape shape = doc.FirstSection.Body.Shapes[0];
-
 shape.TextBox.VerticalAnchor = TextBoxAnchor.Middle;
-
 {{< /highlight >}}
 
 Saving warnings will be thrown for unsupported formats (WordML) and for incompatible Word versions above 2007 (DOC, DOT).
@@ -263,37 +208,21 @@ Related issue: WORDSNET-18027 has now been resolved.
 The following new property has been added into the PdfSaveOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// A flag specifying whether to write additional text positioning operators or not.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>
-
 /// If <c>true</c>, additional text positioning operators are written to the output PDF. This may help to overcome
-
 /// issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
-
 /// </para> 
-
 /// <para>The default value is <c>false</c>.</para>
-
 /// </remarks>
-
 public bool AdditionalTextPositioning
-
 {
-
     get { return mAdditionalTextPositioning; }
-
     set { mAdditionalTextPositioning = value; }
-
 }
-
 {{< /highlight >}}
 
 ### **Added a new ImportFormatOptions.KeepSourceNumbering option for use in import operations**
@@ -306,17 +235,11 @@ To allow users to choose an appropriate behavior, the following option was intro
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents.
-
 /// The default value is <c>false</c>.
-
 /// </summary>
-
 public bool KeepSourceNumbering
-
 {{< /highlight >}}
 
 
@@ -324,61 +247,33 @@ public bool KeepSourceNumbering
 Also, a new public method that accepts the new KeepSourceNumbering option was introduced as the following:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Initializes a new instance of the <see cref="NodeImporter"/> class.
-
 /// </summary>
-
 /// <param name="srcDoc">The source document.</param>
-
 /// <param name="dstDoc">The destination document that will be the owner of imported nodes.</param>
-
 /// <param name="importFormatMode">Specifies how to merge style formatting that clashes.</param>
-
 /// <param name="importFormatOptions">Specifies various options to format imported node.</param>
-
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode, ImportFormatOptions importFormatOptions)
-
 {{< /highlight >}}
 
 **UseCase:**
 
 {{< highlight csharp >}}
-
- Document srcDoc = TestUtil.Open(@"source.docx");
-
+Document srcDoc = TestUtil.Open(@"source.docx");
 Document dstDoc = TestUtil.Open(@"destination.docx");
-
-
-
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 
 // Keep source list formatting when importing numbered paragraphs.
-
 importFormatOptions.KeepSourceNumbering = true;
-
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
-
-
-
 ParagraphCollection srcParas = srcDoc.FirstSection.Body.Paragraphs;
-
 foreach (Paragraph srcPara in srcParas)
-
 {
-
     Node importedNode = importer.ImportNode(srcPara, false);
-
     dstDoc.FirstSection.Body.AppendChild(importedNode);
-
 }
-
-
-
 dstDoc.Save("output.docx");
-
 {{< /highlight >}}
 
 
@@ -388,19 +283,12 @@ Related issue: WORDSNET-18202 has now been resolved.
 When import a text box between different documents, the formatting of the destination document is applied to it. This corresponds to the behavior of Word. To allow users to choose an appropriate behavior, the following option was introduced in ImportFormatOptions class:
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Gets or sets a boolean value that indicates whether to ignore formatting in the text boxes of
-
 /// the source destination during the import.
-
 /// Default value is <c>true</c>.
-
 /// </summary>
-
 public bool IgnoreTextBoxes
-
 {{< /highlight >}}
 
 
@@ -408,37 +296,18 @@ public bool IgnoreTextBoxes
 **UseCase:**
 
 {{< highlight csharp >}}
-
- Document srcDoc = TestUtil.Open(@"source.docx");
-
+Document srcDoc = TestUtil.Open(@"source.docx");
 Document dstDoc = TestUtil.Open(@"destination.docx");
-
-
-
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 
 // Keep the source text boxes formatting when importing.
-
 importFormatOptions.IgnoreTextBoxes = false;
-
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
-
-
-
 ParagraphCollection srcParas = srcDoc.FirstSection.Body.Paragraphs;
-
 foreach (Paragraph srcPara in srcParas)
-
 {
-
     Node importedNode = importer.ImportNode(srcPara, true);
-
     dstDoc.FirstSection.Body.AppendChild(importedNode);
-
 }
-
-
-
 dstDoc.Save("output.docx");
-
 {{< /highlight >}}

@@ -96,52 +96,30 @@ WORDSNET-17819 has now been resolved:
 
 New public property was added to ImageSaveOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets the threshold that determines the value
-
 /// of the binarization error in the Floyd-Steinberg method.
-
 /// when <see cref="ImageBinarizationMethod"/> is ImageBinarizationMethod.FloydSteinbergDithering.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>The default value is 128.</para>
-
 /// </remarks>
-
 public byte ThresholdForFloydSteinbergDithering
-
 {
-
     get { return mThresholdForFloydSteinbergDithering; }
-
     set { mThresholdForFloydSteinbergDithering = value; }
-
 }
-
 {{< /highlight >}}
 
 The higher the value, the darker the image.
 #### **UC**
-{{< highlight java >}}
-
- Document doc = new Document ("inputFileName");
-
+{{< highlight csharp >}}
+Document doc = new Document ("inputFileName");
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
-
 options.setTiffCompression(TiffCompression.CCITT_3);
-
 options.setImageColorMode(ImageColorMode.GRAYSCALE);
-
 options.setTiffBinarizationMethod(ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING);
-
 options.setThresholdForFloydSteinbergDithering((byte)127);
-
 doc.save("outputFileNameC.tiff", options);
-
 {{< /highlight >}}

@@ -37,15 +37,13 @@ The existing [Node.ToTxt](/pages/createpage.action?spaceKey=wordsnet&title=ToTxt
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Document.doc");
+Document doc = new Document(MyDir + "Document.doc");
 
 // Extract the last paragraph in the document to convert to HTML.
-
 Node node = doc.LastSection.Body.LastParagraph;
 
-// When ToString is called using the SaveFormat overload then conversion is executed using default save options. 
-
+// When ToString is called using the SaveFormat overload then conversion is executed using default save options.
+ 
 // When saving to HTML using default options the following settings are set:
 
 //   ExportImagesAsBase64 = true
@@ -53,33 +51,21 @@ Node node = doc.LastSection.Body.LastParagraph;
 //   CssStyleSheetType = CssStyleSheetType.Inline
 
 //   ExportFontResources = false
-
 string nodeAsHtml = node.ToString(SaveFormat.Html);
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document(MyDir & "Document.doc")
-
+Dim doc As New Document(MyDir & "Document.doc")
 ' Extract the last paragraph in the document to convert to HTML.
-
 Dim node As Node = doc.LastSection.Body.LastParagraph
-
 ' When ToString is called using the SaveFormat overload then conversion is executed using default save options. 
-
 ' When saving to HTML using default options the following settings are set:
-
 '   ExportImagesAsBase64 = true
-
 '   CssStyleSheetType = CssStyleSheetType.Inline
-
 '   ExportFontResources = false
-
 Dim nodeAsHtml As String = node.ToString(SaveFormat.Html)
-
 {{< /highlight >}}
 ##### **Example**
 *Exports the content of a node to string in HTML format using custom specified options.*
@@ -87,53 +73,35 @@ Dim nodeAsHtml As String = node.ToString(SaveFormat.Html)
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(MyDir + "Document.doc");
+Document doc = new Document(MyDir + "Document.doc");
 
 // Extract the last paragraph in the document to convert to HTML.
-
 Node node = doc.LastSection.Body.LastParagraph;
 
 // Create an instance of HtmlSaveOptions and set a few options.
-
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-
 saveOptions.ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection;
-
 saveOptions.ExportRelativeFontSize = true;
 
 // Convert the document to HTML and return as a string. Pass the instance of HtmlSaveOptions to
 
 // to use the specified options during the conversion.
-
 string nodeAsHtml = node.ToString(saveOptions);
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim doc As New Document(MyDir & "Document.doc")
-
+Dim doc As New Document(MyDir & "Document.doc")
 ' Extract the last paragraph in the document to convert to HTML.
-
 Dim node As Node = doc.LastSection.Body.LastParagraph
-
 ' Create an instance of HtmlSaveOptions and set a few options.
-
 Dim saveOptions As New HtmlSaveOptions()
-
 saveOptions.ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection
-
 saveOptions.ExportRelativeFontSize = True
-
 ' Convert the document to HTML and return as a string. Pass the instance of HtmlSaveOptions to
-
 ' to use the specified options during the conversion.
-
 Dim nodeAsHtml As String = node.ToString(saveOptions)
-
 {{< /highlight >}}
 #### **4. Added StyleCollection.AddCopy to Allow Copying of Styles**
 This release of Aspose.Words provides functionality to add a copy of one style and copy styles from one document to another. Use the [StyleCollection.AddCopy](/pages/createpage.action?spaceKey=wordsnet&title=AddCopy+Method&linkCreation=true&fromPageId=2589110) method.
@@ -144,30 +112,20 @@ This release of Aspose.Words provides functionality to add a copy of one style a
 
 {{< highlight csharp >}}
 
-
-
 // The AddCopy method creates a copy of the specified style and automatically generates a new name for the style, such as "Heading 1_0".
-
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
 // You can change the new style name if required as the Style.Name property is read-write.
-
 newStyle.Name = "My Heading 1";
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- ' The AddCopy method creates a copy of the specified style and automatically generates a new name for the style, such as "Heading 1_0".
-
+' The AddCopy method creates a copy of the specified style and automatically generates a new name for the style, such as "Heading 1_0".
 Dim newStyle As Style = doc.Styles.AddCopy(doc.Styles("Heading 1"))
-
 ' You can change the new style name if required as the Style.Name property is read-write.
-
 newStyle.Name = "My Heading 1"
-
 {{< /highlight >}}
 ##### **Example**
 *Demonstrates how to copy style from one document into a different document.*
@@ -175,33 +133,25 @@ newStyle.Name = "My Heading 1"
 **C#**
 
 {{< highlight csharp >}}
-
- Style srcStyle = srcDoc.Styles[StyleIdentifier.Heading1];
+Style srcStyle = srcDoc.Styles[StyleIdentifier.Heading1];
 
 // Change the font of the heading style to red.
-
 srcStyle.Font.Color = Color.Red;
 
 // The AddCopy method can be used to copy a style from a different document.
-
 Style newStyle = dstDoc.Styles.AddCopy(srcStyle);
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim srcStyle as Style = srcDoc.Styles(StyleIdentifier.Heading1)
+Dim srcStyle as Style = srcDoc.Styles(StyleIdentifier.Heading1)
 
 // Change the font of the heading style to red.
-
 srcStyle.Font.Color = Color.Red
 
 // The AddCopy method can be used to copy a style from a different document.
-
 Dim newStyle as Style = dstDoc.Styles.AddCopy(srcStyle)
-
 {{< /highlight >}}
 #### **5. The Style.Name Property is now Writable**
 It is possible to change the name of an existing style. In previous versions this property was read-only.
@@ -216,20 +166,15 @@ Node collections which contain a single type of node e.g [ParagraphCollection](/
 
 {{< highlight csharp >}}
 
- // You can use ToArray to return a typed array of nodes.
-
+// You can use ToArray to return a typed array of nodes.
 Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- ' You can use ToArray to return a typed array of nodes.
-
+' You can use ToArray to return a typed array of nodes.
 Dim paras as Paragraph[] = doc.FirstSection.Body.Paragraphs.ToArray()
-
 {{< /highlight >}}
 
 A call to **CompositeNode.GetChildNodes** still returns an array of nodes. For example, **doc.GetChildNodes(NodeType.Paragraph, false).ToArray** still returns **Node[]** (and not **Paragraph[]**).
@@ -249,65 +194,36 @@ If you are using a "deep" search and you remove the current node then the childr
 **C#**
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 builder.Writeln("The first paragraph");
-
 builder.Writeln("The second paragraph");
-
 builder.Writeln("The third paragraph");
-
 builder.Writeln("The fourth paragraph");
-
-
-
 foreach (Paragraph para in builder.Document.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true))
-
 {
-
     if (para.Range.Text.Contains("third"))
-
     {
-
         // Enumeration will continue even after this node is removed.
-
         para.Remove();
-
     }
-
 }
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim builder As New DocumentBuilder()
-
+Dim builder As New DocumentBuilder()
 builder.Writeln("The first paragraph")
-
 builder.Writeln("The second paragraph")
-
 builder.Writeln("The third paragraph")
-
 builder.Writeln("The fourth paragraph")
-
 ' Hot remove allows a node to be removed from a live collection and have the enumeration continue.
-
 For Each para As Paragraph In builder.Document.FirstSection.Body.GetChildNodes(NodeType.Paragraph, True)
-
 	If para.Range.Text.Contains("third") Then
-
 		' Enumeration will continue even after this node is removed.
-
 		para.Remove()
-
 	End If
-
 Next para
-
 {{< /highlight >}}
 
 It was the absence of hot remove that was the original reason for "snapshot" collections. With the introduction of this feature the snapshot functionality of node collections has been deprecated
@@ -321,67 +237,38 @@ The algorithm behind the enumeration visits all nodes of the document (for deep 
 **C#**
 
 {{< highlight csharp >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+DocumentBuilder builder = new DocumentBuilder();
 builder.Writeln("The first paragraph");
-
 builder.Writeln("The second paragraph");
-
 builder.Writeln("The third paragraph");
-
 builder.Writeln("The fourth paragraph");
 
-
-
 // This causes unexpected behavior.
-
 foreach (Paragraph para in builder.Document.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true))
-
 {
-
     if (para.Range.Text.Contains("third"))
-
     {
-
         para.PreviousSibling.Remove();
-
         para.Remove();
-
     }
-
 }
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim builder As New DocumentBuilder()
-
+Dim builder As New DocumentBuilder()
 builder.Writeln("The first paragraph")
-
 builder.Writeln("The second paragraph")
-
 builder.Writeln("The third paragraph")
-
 builder.Writeln("The fourth paragraph")
-
 ' This causes unexpected behavior, the fourth pargraph in the collection is not visited.
-
 For Each para As Paragraph In builder.Document.FirstSection.Body.GetChildNodes(NodeType.Paragraph, True)
-
 	If para.Range.Text.Contains("third") Then
-
 		para.PreviousSibling.Remove()
-
 		para.Remove()
-
 	End If
-
 Next para
-
 {{< /highlight >}}
 
 In the above code:
@@ -414,19 +301,13 @@ In Aspose.Words 11.7.0 the PdfSaveOptions member [NumeralFormat](/pages/createpa
 **C#**
 
 {{< highlight csharp >}}
-
- PdfSaveOptions options = new PdfSaveOptions();
-
+PdfSaveOptions options = new PdfSaveOptions();
 options.NumeralFormat = NumeralFormat.Context;
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim options as PdfSaveOptions = new PdfSaveOptions()
-
+Dim options as PdfSaveOptions = new PdfSaveOptions()
 options.NumeralFormat = NumeralFormat.Context
-
 {{< /highlight >}}

@@ -91,128 +91,71 @@ A customer complained about incorrect date/time formatting. We have figured out 
 
 When thinking on how to fix this issue, we opted for providing the customer with a flexible way of specifying a culture defining date/time formatting on per field basis. To do so, we have introduced the **IFieldUpdateCultureSource** interface:
 
-{{< highlight java >}}
-
-     /// <summary>
-
+{{< highlight csharp >}}
+    /// <summary>
     /// When implemented, provides a <see cref="CultureInfo"/> object that should be used during the update of a particular field.
-
     /// </summary>
-
     public interface IFieldUpdateCultureProvider
-
     {
-
         /// <summary>
-
         /// Returns a <see cref="CultureInfo"/> object to be used during the field's update.
-
         /// </summary>
-
         /// <param name="culture">The name of the culture requested for the field being updated.</param>
-
         /// <param name="field">The field being updated.</param>
-
         /// <returns>The culture object that should be used for the field's update.</returns>
-
         CultureInfo GetCulture(string culture, Field field);
-
     }
-
 {{< /highlight >}}
 
 and the corresponding **FieldOptions** property:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a provider that returns a culture object specific for each particular field.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>The provider is requested when the value of <see cref="FieldUpdateCultureSource"/> is <b>FieldUpdateCultureSource.FieldCode</b>.</para>
-
 /// <para>If the provider is present, then the culture object it returns is used for the field update. Otherwise, a system culture is used.</para>
-
 /// </remarks>
-
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider
-
 {{< /highlight >}}
 
 Usage:
 
-{{< highlight java >}}
-
- document.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
-
+{{< highlight csharp >}}
+document.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 document.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
-
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
-
 {
-
 	public CultureInfo GetCulture(string name, Field field)
-
 	{
-
 		switch (name)
-
 		{
-
 			case "ru-RU":
-
 				CultureInfo culture = new CultureInfo(name, false);
-
 				DateTimeFormatInfo format = culture.DateTimeFormat;
-
 				format.MonthNames = new []{"месяц 1", "месяц 2", "месяц 3", "месяц 4", "месяц 5", "месяц 6", "месяц 7", "месяц 8", "месяц 9", "месяц 10", "месяц 11", "месяц 12", ""};
-
 				format.MonthGenitiveNames = format.MonthNames;
-
 				format.AbbreviatedMonthNames = new []{"мес 1", "мес 2", "мес 3", "мес 4", "мес 5", "мес 6", "мес 7", "мес 8", "мес 9", "мес 10", "мес 11", "мес 12", ""};
-
 				format.AbbreviatedMonthGenitiveNames = format.AbbreviatedMonthNames;
-
 				format.DayNames = new []{"день недели 7", "день недели 1", "день недели 2", "день недели 3", "день недели 4", "день недели 5", "день недели 6"};
-
 				format.AbbreviatedDayNames = new []{"день 7", "день 1", "день 2", "день 3", "день 4", "день 5", "день 6"};
-
 				format.ShortestDayNames = new []{"д7", "д1", "д2", "д3", "д4", "д5", "д6"};
-
 				format.AMDesignator = "До полудня";
-
 				format.PMDesignator = "После полудня";
-
 				const string pattern = "yyyy MM (MMMM) dd (dddd) hh:mm:ss tt";
-
 				format.LongDatePattern = pattern;
-
 				format.LongTimePattern = pattern;
-
 				format.ShortDatePattern = pattern;
-
 				format.ShortTimePattern = pattern;
-
 				return culture;
-
 			case "en-US":
-
 				return new CultureInfo(name, false);
-
 			default:
-
 				return null;
-
 		}
-
 	}
-
 }
-
 {{< /highlight >}}
 
 Customers are now able to specify any culture and any date/time formatting for a particular field based on the specified name.
@@ -221,52 +164,30 @@ WORDSNET-17819 has now been resolved:
 
 New public property was added to ImageSaveOptions  class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets the threshold that determines the value
-
 /// of the binarization error in the Floyd-Steinberg method.
-
 /// when <see cref="ImageBinarizationMethod"/> is ImageBinarizationMethod.FloydSteinbergDithering.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>The default value is 128.</para>
-
 /// </remarks>
-
 public byte ThresholdForFloydSteinbergDithering
-
 {
-
     get { return mThresholdForFloydSteinbergDithering; }
-
     set { mThresholdForFloydSteinbergDithering = value; }
-
 }
-
 {{< /highlight >}}
 
 The higher the value, the darker the image.
 #### **UC**
-{{< highlight java >}}
-
- Document doc = new Document ("inputFileName");
-
+{{< highlight csharp >}}
+Document doc = new Document ("inputFileName");
 ImageSaveOptions options = new ImageSaveOptions(Aspose.Words.SaveFormat.Tiff);
-
 options.TiffCompression = TiffCompression.Ccitt3;
-
 options.ImageColorMode = ImageColorMode.Grayscale;
-
 options.TiffBinarizationMethod = ImageBinarizationMethod.FloydSteinbergDithering;
-
 options.ThresholdForFloydSteinbergDithering = 254;
-
 doc.Save("outputFileNameC.tiff", options);
-
 {{< /highlight >}}

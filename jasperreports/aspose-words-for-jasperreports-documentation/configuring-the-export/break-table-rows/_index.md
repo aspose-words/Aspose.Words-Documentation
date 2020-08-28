@@ -13,26 +13,17 @@ By default, value of **BREAK_TABLE_ROWS** parameter is **true**. This means t
 
 **In JasperReports:**
 
-{{< highlight java >}}
-
- import com.aspose.words.jasperreports.*;
-
+{{< highlight csharp >}}
+import com.aspose.words.jasperreports.*;
 AWDocExporter exporter = new AWDocExporter();
-
 exporter.setParameter(AWExporterParameter.BREAK_TABLE_ROWS, false);
-
 exporter.exportReport();
-
 {{< /highlight >}}
 
 **In JasperServer:**
 
 {{< highlight html >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="breakTableRows" value="false"/>
-
 </bean>
-
 {{< /highlight >}}

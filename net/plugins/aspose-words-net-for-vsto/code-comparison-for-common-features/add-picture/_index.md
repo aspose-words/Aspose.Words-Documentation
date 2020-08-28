@@ -7,29 +7,18 @@ url: /net/add-picture/
 
 ## **VSTO**
 {{< highlight csharp >}}
-
- Word.Application wordApp = Application;
-
+Word.Application wordApp = Application;
 wordApp.Documents.Open(mypath+"Add Picture.doc");
-
 //Add picture to Doc
-
 this.Application.Selection.InlineShapes.AddPicture("download.jpg");
-
 {{< /highlight >}}
 ## **Aspose.Words**
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 //Add picture
-
 builder.InsertImage(MyDir + "download.jpg");
-
 doc.Save("Adding Picture.doc");
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/787339)

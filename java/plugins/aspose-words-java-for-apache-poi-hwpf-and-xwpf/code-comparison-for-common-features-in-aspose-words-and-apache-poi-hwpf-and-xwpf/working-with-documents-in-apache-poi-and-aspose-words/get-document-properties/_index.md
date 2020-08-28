@@ -12,76 +12,46 @@ You can use document properties in your document automation project to store som
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // The path to the documents directory.
-
+// The path to the documents directory.
 String dataDir = Utils.getDataDir(AsposeDocumentProperties.class);
-
 Document doc = new Document(dataDir + "document.doc");
-
 System.out.println("============ Built-in Properties ============");
-
 for (DocumentProperty prop : doc.getBuiltInDocumentProperties())
-
     System.out.println(MessageFormat.format("{0} : {1}", prop.getName(), prop.getValue()));
-
 System.out.println("============ Custom Properties ============");
-
 for (DocumentProperty prop : doc.getCustomDocumentProperties())
-
     System.out.println(MessageFormat.format("{0} : {1}", prop.getName(), prop.getValue()));
-
 FileFormatInfo info = FileFormatUtil.detectFileFormat(dataDir + "document.doc");
-
 System.out.println("The document format is: " + FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
-
 System.out.println("Document is encrypted: " + info.isEncrypted());
-
 System.out.println("Document has a digital signature: " + info.hasDigitalSignature());
-
 {{< /highlight >}}
 ## **Apache POI HWPF XWPF - Get Document Properties**
 SummaryInformation class is used to access various properties of HWPF document.
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // The path to the documents directory.
-
+// The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheDocumentProperties.class);
-
 HWPFDocument doc = new HWPFDocument(new FileInputStream(
-
                 dataDir + "document.doc"));
-
 SummaryInformation summaryInfo = doc.getSummaryInformation();
-
 System.out.println(summaryInfo.getApplicationName());
-
 System.out.println(summaryInfo.getAuthor());
-
 System.out.println(summaryInfo.getComments());
-
 System.out.println(summaryInfo.getCharCount());
-
 System.out.println(summaryInfo.getEditTime());
-
 System.out.println(summaryInfo.getKeywords());
-
 System.out.println(summaryInfo.getLastAuthor());
-
 System.out.println(summaryInfo.getPageCount());
-
 System.out.println(summaryInfo.getRevNumber());
-
 System.out.println(summaryInfo.getSecurity());
-
 System.out.println(summaryInfo.getSubject());
-
 System.out.println(summaryInfo.getTemplate());
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

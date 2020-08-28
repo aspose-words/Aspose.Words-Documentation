@@ -61,31 +61,17 @@ What started out as a seemingly simple task of loading, modifying and saving an 
 **XML**
 
 {{< highlight csharp >}}
-
- <w:p w:rsidR="00C07F31" w:rsidRDefault="003F6D7A">
-
+<w:p w:rsidR="00C07F31" w:rsidRDefault="003F6D7A">
 <w:r w:rsidRPr="003F6D7A">
-
 <w:rPr>
-
 <w:b /> 
-
 </w:rPr>
-
 <w:t>Hello</w:t> 
-
 </w:r>
-
 <w:r>
-
 <w:t xml:space="preserve">World.</w:t> 
-
 </w:r>
-
 </w:p>
-
-
-
 {{< /highlight >}}
 
 Implementing even a simple find and replace operation over an Office Open XML document yourself is far from easy. It might be that your boss will enjoy you coding this yourself, but maybe not. Our advice: remember that open and standard does not mean simple and use Aspose.Words.

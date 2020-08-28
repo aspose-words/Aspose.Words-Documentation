@@ -9,9 +9,7 @@ url: /net/display-documents-in-print-preview/
 Below is the code to show Print Preview of the document.
 
 {{< highlight csharp >}}
-
- this.Application.ActiveDocument.PrintPreview();
-
+this.Application.ActiveDocument.PrintPreview();
 {{< /highlight >}}
 ## **Aspose.Words**
 The Aspose.Words component has no built in dialogs or forms, but implements its own version of the .NET **PrintDocument** class which can be passed to a **PrintPreviewDialog** form to print and preview a document .
@@ -23,33 +21,22 @@ This sample describes how to use these classes to print a document from Aspose.W
 Finally, an instance of the PrintPreviewDialog is created. For this example we have implemented a derived version of the PrintPreviewDialog class called ActivePrintPreviewDialog. This custom class is used to move preview dialog on top of all other windows when it is displayed.
 
 {{< highlight csharp >}}
-
- string FileName = "YourFileName.docx";
-
+string FileName = "YourFileName.docx";
 Document doc = new Document(FileName);
-
 ActivePrintPreviewDialog previewDlg = new ActivePrintPreviewDialog();
 
 // Pass the Aspose.Words print document to the Print Preview dialog.
-
 previewDlg.Document = doc;
 
 // Specify additional parameters of the Print Preview dialog.
-
 previewDlg.ShowInTaskbar = true;
-
 previewDlg.MinimizeBox = true;
-
 previewDlg.PrintPreviewControl.Zoom = 1;
-
 previewDlg.Document.DocumentName = "TestName.doc";
-
 previewDlg.WindowState = FormWindowState.Maximized;
 
 // Show the appropriately configured Print Preview dialog.
-
 previewDlg.ShowDialog();
-
 {{< /highlight >}}
 ## **Download Running Code Example**
 - [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)

@@ -95,20 +95,16 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 1. Add reference to **Aspose.Words.ListViewExport.dll** available in extracted download package in your ASP.NET project or web application. Make sure your web application/Visual Studio have full access to this folder otherwise you might get Access is denied exception.
 1. Add this line to the top of the page, control or MasterPage 
 
-{{< highlight java >}}
-
- <%@ Register assembly="Aspose.Words.ListViewExport" namespace="Aspose.Words.ListViewExport" tagprefix="aspose" %>
-
+{{< highlight csharp >}}
+<%@ Register assembly="Aspose.Words.ListViewExport" namespace="Aspose.Words.ListViewExport" tagprefix="aspose" %>
 {{< /highlight >}}
 
 1. Add page property to false EnableEventValidation="false"
 1. Override method in aspx.cs file "public override void VerifyRenderingInServerForm(Control control) { }"
 1. Add the following to a place on your ASP.NET page, control or masterpage where you want the control to be added 
 
-{{< highlight java >}}
-
- <aspose:ExportListViewToWord ID="ExportListViewToWord1" runat="server"></aspose:ExportListViewToWord>
-
+{{< highlight csharp >}}
+<aspose:ExportListViewToWord ID="ExportListViewToWord1" runat="server"></aspose:ExportListViewToWord>
 {{< /highlight >}}
 ### **FAQs**
 Common questions and issues you might face while using this Control
@@ -126,120 +122,66 @@ The following properties are exposed to configure and use cool features provided
 |ExportButtonCssClass |string |btn btn-primary |Css Class that is applied to the outer div of the export button. To apply css on button you can use .yourClass input |
 |ExportInLandscape |bool |true or false |If true it changes the orientation of the output document to landscape. Default is Portrait |
 | | | | |
-|ExportFileHeading |string |<h4>ListView Export Example Report</h4> |You can use html tags to add style to your heading |
+|ExportFileHeading |string |&lt;h4&gt;ListView Export Example Report&lt;/h4&gt; |You can use html tags to add style to your heading |
 |ExportOutputFormat |enum |Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |Output format of the exported document. Supported formats are Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |
 |ExportOutputPathOnServer |string |c: <br>temp |Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path. |
 |ExportDataSource |object |allRowsDataTable |Sets the object from which this data-bind control retrieves its list of data items. The object must have all the data that need to be exported. This property is used in addition to normal DataSource property and is useful when custom paging is enabled and current page only fetches rows to be displayed on screen. |
 |LicenseFilePath |string | |Local path on server to the license file. For example c: <br>inetpub <br>Aspose.Words.lic |
 An example of Export ListView to Word control with all properties used is shown below
 
-{{< highlight java >}}
-
- <Aspose:ExportListViewToWord ID="ExportListViewToWord1" GroupPlaceholderID="groupPlaceHolder1"
-
+{{< highlight csharp >}}
+<Aspose:ExportListViewToWord ID="ExportListViewToWord1" GroupPlaceholderID="groupPlaceHolder1"
             ItemPlaceholderID="itemPlaceHolder1" ExportButtonText="Export to Word" ExportButtonCssClass="myClass"
-
             ExportOutputFormat="Doc" ExportInLandscape="true" ExportOutputPathOnServer="c:\\temp"
-
             ExportFileHeading="<h4>Example Report</h4>" LicenseFilePath="c:\\inetpub\\Aspose.Words.lic"
-
             runat="server" CellPadding="4" ExportMaximumRecords="100" OnPagePropertiesChanging="ExportListViewToWord1_PagePropertiesChanging">
-
             <LayoutTemplate>
-
                 <table cellpadding="0" border="1" width="800px" cellspacing="0">
-
                     <tr>
-
                         <th>
-
                             Product Id
-
                         </th>
-
                         <th>
-
                             Product Name
-
                         </th>
-
                         <th>
-
                             Units In Stock
-
                         </th>
-
                     </tr>
-
                     <asp:PlaceHolder runat="server" ID="groupPlaceHolder1"></asp:PlaceHolder>
-
                     <tr>
-
                         <td colspan="3">
-
                             <asp:DataPager ID="DataPager1" runat="server" PagedControlID="ExportListViewToWord1"
-
                                 PageSize="10">
-
                                 <Fields>
-
                                     <asp:NextPreviousPagerField ButtonType="Link" ShowFirstPageButton="false" ShowPreviousPageButton="true"
-
                                         ShowNextPageButton="false" />
-
                                     <asp:NumericPagerField ButtonType="Link" />
-
                                     <asp:NextPreviousPagerField ButtonType="Link" ShowNextPageButton="true" ShowLastPageButton="false"
-
                                         ShowPreviousPageButton="false" />
-
                                 </Fields>
-
                             </asp:DataPager>
-
                         </td>
-
                     </tr>
-
                 </table>
-
             </LayoutTemplate>
-
             <GroupTemplate>
-
                 <tr>
-
                     <asp:PlaceHolder runat="server" ID="itemPlaceHolder1"></asp:PlaceHolder>
-
                 </tr>
-
             </GroupTemplate>
-
             <ItemTemplate>
-
                 <td>
-
                     <%# Eval("Product Id")%>
-
                 </td>
-
                 <td>
-
                     <%# Eval("Product Name")%>
-
                 </td>
-
                 <td>
-
                     <%# Eval("Units In Stock")%>
-
                 </td>
-
             </ItemTemplate>
-
         </Aspose:ExportListViewToWord>
-
-
 {{< /highlight >}}
 ## **Video Demo**
 Please check [the video](https://www.youtube.com/watch?v=xtjLrQ2mG4Q) below to see the module in action.

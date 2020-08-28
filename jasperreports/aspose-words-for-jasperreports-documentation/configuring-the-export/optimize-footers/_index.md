@@ -15,18 +15,11 @@ In JasperReports:
 
 **Java**
 
-{{< highlight java >}}
-
-   import com.aspose.words.jasperreports.*;
-
+{{< highlight csharp >}}
+  import com.aspose.words.jasperreports.*;
   AWDocExporter exporter = new AWDocExporter();
-
   exporter.setParameter(AWExporterParameter.OPTIMIZE_FOOTERS, false);
-
   exporter.exportReport();
-
-
-
 {{< /highlight >}}
 
 In JasperServer:
@@ -34,13 +27,9 @@ In JasperServer:
 **XML**
 
 {{< highlight html >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="optimizeFooters" value="false"/>
-
 </bean>
-
 {{< /highlight >}}
 
 You can also set explicit minimal distance between bottom-most element and bottom page margin. This is controlled by **OPTIMIZE_FOOTER_DISTANCE** parameter. By default, its value is **12.0**. However, you can set any value between **12.0** and **36.0**. Therefore, if the distance between bottom margin of the bottom-most element and page bottom margin is less or equal to this parameter value – then footer is optimized, otherwise nothing happens.
@@ -49,18 +38,11 @@ In JasperReports:
 
 **Java**
 
-{{< highlight java >}}
-
-   import com.aspose.words.jasperreports.*;
-
+{{< highlight csharp >}}
+  import com.aspose.words.jasperreports.*;
   AWDocExporter exporter = new AWDocExporter();
-
   exporter.setParameter(AWExporterParameter.OPTIMIZE_FOOTER_DISTANCE, 16);
-
   exporter.exportReport();
-
-
-
 {{< /highlight >}}
 
 In JasperServer:
@@ -68,11 +50,7 @@ In JasperServer:
 **XML**
 
 {{< highlight html >}}
-
- <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-
+<bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="optimizeFooterDistance" value="16"/>
-
 </bean>
-
 {{< /highlight >}}

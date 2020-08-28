@@ -14,26 +14,20 @@ License installation is performed from the server console via **stsadm.exe**. Th
 
 1. Run stsadm to add the solution to the SharePoint solution store:
 
-{{< highlight java >}}
-
- stsadm.exe -o addsolution -filename Aspose.Words.SharePoint.License.wsp 
-
+{{< highlight csharp >}}
+stsadm.exe -o addsolution -filename Aspose.Words.SharePoint.License.wsp 
 {{< /highlight >}}
 
 1. Deploy the solution to all servers in the farm:
 
-{{< highlight java >}}
-
- stsadm.exe -o deploysolution -name Aspose.Words.SharePoint.License.wsp -immediate -force 
-
+{{< highlight csharp >}}
+stsadm.exe -o deploysolution -name Aspose.Words.SharePoint.License.wsp -immediate -force 
 {{< /highlight >}}
 
 1. Execute administrative timer jobs to complete the deployment immediately
 
-{{< highlight java >}}
-
- stsadm.exe -o execadmsvcjobs   
-
+{{< highlight csharp >}}
+stsadm.exe -o execadmsvcjobs   
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 

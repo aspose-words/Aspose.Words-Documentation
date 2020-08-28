@@ -27,23 +27,12 @@ In some rare cases you might find it better to export tables and matrices as a s
 To export RDL tables and matrices as textboxes, add the following lines to the *<Extension>* element corresponding to a particular renderer: 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <UseFloatingTables>False</UseFloatingTables>
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}

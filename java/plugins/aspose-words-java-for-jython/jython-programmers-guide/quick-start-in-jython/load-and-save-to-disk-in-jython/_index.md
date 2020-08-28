@@ -11,27 +11,16 @@ To Load And Save a Document to Disk using **Aspose.Words Java for Jython**. Here
 **Jython Code**
 
 {{< highlight ruby >}}
-
- from aspose-words import Settings
-
+from aspose-words import Settings
 from com.aspose.words import Document
-
 class LoadAndSaveToDisk:
-
     def __init__(self):
-
         dataDir = Settings.dataDir + 'quickstart/'
-
         doc = Document(dataDir + 'Document.doc')
-
         doc.save(dataDir + 'Document_Out.doc')
-
         print "Document saved."
-
 if __name__ == '__main__':
-
     LoadAndSaveToDisk()
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download running code from any of the below mentioned social coding sites:

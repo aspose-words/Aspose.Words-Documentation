@@ -16,17 +16,10 @@ For example, it is known that Crystal Reports often outputs documents in RTF for
 **C#**
 
 {{< highlight csharp >}}
-
- FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.doc");
-
+FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.doc");
 Console.WriteLine("The document format is: " + FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
-
 Console.WriteLine("Document is encrypted: " + info.IsEncrypted);
-
 Console.WriteLine("Document has a digital signature: " + info.HasDigitalSignature);
-
-
-
 {{< /highlight >}}
 ### **Download Running Examples**
 - [Codeplex](https://asposewordsvsto.codeplex.com/SourceControl/latest#Aspose.Words Features missing in VSTO/Detect the File Format/)

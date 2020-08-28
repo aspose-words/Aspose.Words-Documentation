@@ -13,7 +13,7 @@ Using Aspose.Words you can insert, move, and remove runs. You can also access an
 
 All formatting of a run is contained within a linked classed called Font.
 
-Text content is imported from any text area found in the HTML document. The formatting of text elements are imported from <span> elements.
+Text content is imported from any text area found in the HTML document. The formatting of text elements are imported from &lt;span&gt; elements.
 
 Aspose.Words supports reading the text content even if the input HTML is not properly formed.
 
@@ -42,9 +42,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Line Break |Yes |Imported from <br> element. |- [ControlChar.LineBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.controlchar.html)|
+|Line Break |Yes |Imported from &lt;br&gt; element. |- [ControlChar.LineBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.controlchar.html)|
 |Line Break Clear Type |Yes | | |
-|Page Break |Yes |Imported from <br style="page-break-before:always; clear:both"> |- [ControlChar.PageBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.controlchar.html)|
+|Page Break |Yes |Imported from &lt;br style="page-break-before:always; clear:both"&gt; |- [ControlChar.PageBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.controlchar.html)|
 |Column Break |Yes |Imported using the Microsoft Office attribute on break: style="mso-column-break-before:always" |- [ControlChar.ColumnBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.controlchar.html)|
 ## **General Formatting**
 
@@ -54,18 +54,18 @@ See the following links in the documentation for further information:
 |Color |Yes |Imported from color on style attribute. |- [Font.Color](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.color.html)|
 |East Asian Typography |Planned | | |
 |Highlight Color |Planned |Highlight is imported as a solid pattern. <br><br>Can be made to round-trip with some research. |- [Font.HighlightColor](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.highlightcolor.html)|
-|Language |Yes |Imported from lang attribute on <span>. <br><br>If this attribute is missing then the default language for the document is used. |<p>- [Font.LocaleId](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.localeid.html) </p><p>- **Font.LocaleIdBi**</p>|
+|Language |Yes |Imported from lang attribute on &lt;span&gt;. <br><br>If this attribute is missing then the default language for the document is used. |<p>- [Font.LocaleId](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.localeid.html) </p><p>- **Font.LocaleIdBi**</p>|
 |Do not Check Spelling or Grammar |Planned | |- [Font.NoProofing](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.noproofing.html)|
-|Border |Yes |Imported from border-style, border-width, border-color on <span>. |- [Font.Border](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.border.html)|
-|Shading |Yes |Imported from background-color on <span>. <br><br>Imported into the model as solid pattern on Run. |- [Font.Shading](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.shading.html)|
+|Border |Yes |Imported from border-style, border-width, border-color on &lt;span&gt;. |- [Font.Border](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.border.html)|
+|Shading |Yes |Imported from background-color on &lt;span&gt;. <br><br>Imported into the model as solid pattern on Run. |- [Font.Shading](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.shading.html)|
 ## **Font**
 Bold and italics imported from font-weight:bold and font-style:italics on style.
 
-This formatting can also be imported from simple tags e.g <b></b>, <i></i>.
+This formatting can also be imported from simple tags e.g &lt;b&gt;&lt;/b&gt;, &lt;i&gt;&lt;/i&gt;.
 
 All other font formatting is imported from standard CCS attributes on the "style" attribute.
 
-<pre> tag is imported as text formatted with "Courier New" font.
+&lt;pre&gt; tag is imported as text formatted with "Courier New" font.
 
 There is an option to control how size is exported. Font can be exported as points or as em units. This allows fonts to be resized automatically by browsers by increasing or decreasing font size.
 
@@ -80,7 +80,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Font |Yes | | |
 ## **Underline**
-Imported from style attribute "text-decoration:underline" or from <u></u> tags.
+Imported from style attribute "text-decoration:underline" or from &lt;u&gt;&lt;/u&gt; tags.
 
 Import of underline color is currently not supported.
 
@@ -101,8 +101,8 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Animated Effect |N/A | | |
 |Double Strikethrough |N/A | | |
-|Strikethrough |Yes |Imported from text-decoration:line-through on <span> style. |- [Font.StrikeThrough](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.strikethrough.html)|
-|Subscript/Superscript |Yes |Imported from vertical-align:sub and vertical-align:super on <span> style. |<p>- [Font.Subscript](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.subscript.html) </p><p>- [Font.Superscript](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.superscript.html)</p>|
+|Strikethrough |Yes |Imported from text-decoration:line-through on &lt;span&gt; style. |- [Font.StrikeThrough](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.strikethrough.html)|
+|Subscript/Superscript |Yes |Imported from vertical-align:sub and vertical-align:super on &lt;span&gt; style. |<p>- [Font.Subscript](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.subscript.html) </p><p>- [Font.Superscript](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.font.superscript.html)</p>|
 |Shadow |N/A | | |
 |Outline |N/A | | |
 |Emboss |N/A | | |

@@ -13,8 +13,8 @@ The license emailed to you when the order has been paid. The license is a clear 
 
 {{% /alert %}} 
 ### **Licensing a Server**
-Download the license file and copy it to the C:\Program Files\Microsoft SQL Server\<Instance>\Reporting Services\ReportServer\bin folder on the server.
-Where <Instance> is the subdirectory name that corresponds to the Microsoft SQL Server instance you want to license:
+Download the license file and copy it to the C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder on the server.
+Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsoft SQL Server instance you want to license:
 
 - The default instance directory for Microsoft SQL Server 2000 is MSSQL.
 - The default instance directory for Microsoft SQL Server 2005 is MSSQL.x, where “x” is the instance identifier.
@@ -41,25 +41,15 @@ Use the License.SetLicense method to license the component. The easiest way to s
 **C#**
 
 {{< highlight csharp >}}
-
- Aspose.Words.ReportingServices.License license = new Aspose.Words.ReportingServices.License();
-
+Aspose.Words.ReportingServices.License license = new Aspose.Words.ReportingServices.License();
 license.SetLicense("Aspose.Words.Reporting.Services.lic");
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
-
+Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
 license.SetLicense("Aspose.Words.Reporting.Services.lic")
-
-
-
 {{< /highlight >}}
 
 The following example shows how to set a license from a stream:
@@ -67,30 +57,20 @@ The following example shows how to set a license from a stream:
 **C#**
 
 {{< highlight csharp >}}
-
- Aspose.Words.ReportingServices.License license = new Aspose.Words.ReportingServices.License();
-
+Aspose.Words.ReportingServices.License license = new Aspose.Words.ReportingServices.License();
 license.SetLicense(myStream);
-
-
-
 {{< /highlight >}}
 
 **Visual Basic**
 
 {{< highlight csharp >}}
-
- Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
-
+Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
 license.SetLicense(myStream)
-
-
-
 {{< /highlight >}}
 #### **Deploying a License with Your Application**
 Distribute the license file in the same folder as Aspose.Words.ReportingServices.dll.
 #### **Licensing Generation of Reports at Design Time**
-Download the license file and copy it to C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies, where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008.
+Download the license file and copy it to C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies, where &lt;Version&gt; is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008.
 #### **Testing a License**
 To test that a license has been installed correctly, export any report as a Microsoft Word document. If the document contains no watermark at the top, the license was activated successfully.
 

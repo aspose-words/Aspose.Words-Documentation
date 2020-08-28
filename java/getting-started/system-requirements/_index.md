@@ -50,22 +50,14 @@ Aspose.Words for Java depends upon the [Java Advanced Imaging (JAI) package](htt
 1. Move SO files in the JDK/JRE **lib/amd64** folder.
 1. For example, on an Ubuntu 64 bit system:
 
-{{< highlight java >}}
-
- $ cd /tmp
-
+{{< highlight csharp >}}
+$ cd /tmp
 $ wget http://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64.tar.gz && \
-
 gunzip -c jai-1_1_3-lib-linux-amd64.tar.gz | tar xf - && \
-
 mv /tmp/jai-1_1_3/lib/*.jar $JAVA_HOME/jre/lib/ext/ && \
-
 mv /tmp/jai-1_1_3/lib/*.so $JAVA_HOME/jre/lib/amd64/ && \
-
 rm /tmp/jai-1_1_3-lib-linux-amd64.tar.gz && \
-
 rm -r /tmp/jai-1_1_3
-
 {{< /highlight >}}
 
 1. Download **JAI Image I/O 1.1**, choosing the appropriate architecture:
@@ -77,22 +69,14 @@ rm -r /tmp/jai-1_1_3
 1. For example, on an Ubuntu 64 bit system:
  
 
-{{< highlight java >}}
-
- $ cd /tmp
-
+{{< highlight csharp >}}
+$ cd /tmp
 $ wget http://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-amd64.tar.gz && \
-
 gunzip -c jai_imageio-1_1-lib-linux-amd64.tar.gz | tar xf - && \
-
 mv /tmp/jai_imageio-1_1/lib/*.jar $JAVA_HOME/jre/lib/ext/ && \
-
 mv /tmp/jai_imageio-1_1/lib/*.so $JAVA_HOME/jre/lib/amd64/ && \
-
 rm /tmp/jai_imageio-1_1-lib-linux-amd64.tar.gz && \
-
 rm -r /tmp/jai_imageio-1_1
-
 {{< /highlight >}}
 ### **Folder used for temporary files**
 Aspose.Words for Java uses a temporary directory on your machine that is specified via **java.io.tmpdir** system property. Aspose.Words for Java writes temporary files and then removes these files as soon as the rendering is completed. "java.io.tmpdir" is a standard Java system property which is also used by the disk-based storage policies. It determines where the JVM writes temporary files. 

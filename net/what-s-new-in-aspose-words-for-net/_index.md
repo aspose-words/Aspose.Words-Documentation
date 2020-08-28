@@ -73,7 +73,7 @@ According to the .NET Standard documentation, Aspose.Words for .NET Standard 2.0
 #### **New Platform Support: .NET 4.6.1**
 Starting from 20.4 version, Aspose.Words has a dedicated release for .NET 4.6.1 framework.
 ### **Performance and Memory Improvements**
-We released Aspose.Words for .NET and, as always, Aspose.Words for Java almost at the same time. And we are pleased to present the huge performance and memory improvements in Aspose.Words for Java 20.3 due to the *NodeCollectionEnumerator* algorithm optimization, removing the *Ref<T>* objects creation from nested cycles, and Blank documents loading optimization using *arraycopy* for small arrays.
+We released Aspose.Words for .NET and, as always, Aspose.Words for Java almost at the same time. And we are pleased to present the huge performance and memory improvements in Aspose.Words for Java 20.3 due to the *NodeCollectionEnumerator* algorithm optimization, removing the *Ref&lt;T&gt;* objects creation from nested cycles, and Blank documents loading optimization using *arraycopy* for small arrays.
 ### **Graphics**
 #### **3D Effects Rendering Support**
 The first version of 3D Effects Rendering through the OpenGL feature has been released. You can select one of two rendering modes for 3D shape effects rendering – “Basic mode” or “Advanced mode”:

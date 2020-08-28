@@ -16,27 +16,15 @@ In order to support such usecases as fast search and indexing of documents, the 
 **Java**
 
 {{< highlight csharp >}}
-
-
-
 public class Document
-
 {
-
   ....
-
   public static PlaintextDocument ExtractText(String fileName) 
-
   public static PlaintextDocument ExtractText(String fileName, LoadOptions loadOptions) 
-
   public static PlaintextDocument ExtractText(Stream stream) 
-
   public static PlaintextDocument ExtractText(Stream stream, LoadOptions loadOptions)
-
    ....
-
 }
-
 {{< /highlight >}}
 
 All of the methods exposed above return the plain text representation of the document.
@@ -44,25 +32,15 @@ All of the methods exposed above return the plain text representation of the doc
 **Java**
 
 {{< highlight csharp >}}
-
- /** 
-
+/** 
  Contains plain-text representation of the document's content as extracted by <see cref="Document.ExtractText(string)"/> and alike.
-
 */
-
 public class PlaintextDocument
-
 {
-
  public String getText()
-
  public BuiltInDocumentProperties getBuiltInDocumentProperties()
-
  public CustomDocumentProperties getCustomDocumentProperties()
-
 }
-
 {{< /highlight >}}
 
 Presently the speed optimizations are done for DOCX and DOC.
@@ -81,61 +59,32 @@ WORDSNET-12176 has been resolved. PageSavingCallback allows you to control how s
 **Java**
 
 {{< highlight csharp >}}
-
- public void TestPageSavingCallbackHtmlFixed() throws Exception
-
+public void TestPageSavingCallbackHtmlFixed() throws Exception
 {
-
     Document doc = new Document("Test.docx");
-
-
-
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
-
     htmlFixedSaveOptions.setPageIndex(0);
-
     htmlFixedSaveOptions.setPageCount(doc.getPageCount());
-
-
-
     htmlFixedSaveOptions.setPageSavingCallback(new CustomPageFileNamePageSavingCallback()); 
-
-
-
     doc.save("out.html", htmlFixedSaveOptions);
-
 }
-
 {{< /highlight >}}
 
 **Java**
 
 {{< highlight csharp >}}
-
- /*
-
+/*
  Custom PageFileName is specified.
-
 */
-
 class CustomPageFileNamePageSavingCallback implements IPageSavingCallback
-
 {
-
     @Override
-
     public void pageSaving(PageSavingArgs args)
-
     {
-
         // Specify name of the output file for the current page.
-
         args.setPageFileName(String.format("C:/Temp/Page_{0}.html", args.getPageIndex()));
-
     }
-
 }
-
 {{< /highlight >}}
 
 Or you can specify PageStream:
@@ -143,33 +92,19 @@ Or you can specify PageStream:
 **Java**
 
 {{< highlight csharp >}}
-
- /** 
-
+/** 
 Custom PageStream is specified.
-
 */
-
 class CustomPageStreamPageSavingCallback implements IPageSavingCallback
-
 {
-
 	@Override
-
 	public void pageSaving(PageSavingArgs args)
-
 	{
-
 		InputStream stream = new ByteArrayInputStream("".getBytes());
-
 		args.setPageStream(stream);
-
 		args.setKeepPageStreamOpen(true);
-
 	}
-
 }
-
 {{< /highlight >}}
 
 PageSavingCallback is available for following classes:
@@ -188,15 +123,10 @@ WORDSNET-12499 has been resolved and the following property is added into the In
 **Java**
 
 {{< highlight csharp >}}
-
- /** 
-
+/** 
  Returns true if this object was formatted in Microsoft Word while change tracking was enabled.
-
 */
-
 public boolean getIsFormatRevision()
-
 {{< /highlight >}}
 ### **Feature to Get-Set Alt Text Title Property of Shape Added**
 WORDSNET-12918 has been resolved. Starting from 16.2.0 version, Aspose.Words starts supporting Alt Text Title.
@@ -209,25 +139,12 @@ In case of older format conversion MS Word formats following string "Title: titl
 **Java**
 
 {{< highlight csharp >}}
-
-
-
 Node[] shapes = doc.getChildNodes(NodeType.SHAPE, true).toArray();
-
-
-
 Shape shape0 = (Shape)shapes[0];
 
-
-
 // Get shape title.
-
 System.out.println(shape0.getTitle());
 
-
-
 // Set new shape title.
-
 shape0.setTitle("New Shape Title");
-
 {{< /highlight >}}

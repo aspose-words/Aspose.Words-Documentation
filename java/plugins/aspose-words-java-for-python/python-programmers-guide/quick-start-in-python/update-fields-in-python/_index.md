@@ -10,34 +10,20 @@ To update fields of Word Document using Aspose.Words Java Apis in Python, simply
 
 **Python Code**
 
-{{< highlight java >}}
-
- Document = jpype.JClass("com.aspose.words.Document")
-
+{{< highlight csharp >}}
+Document = jpype.JClass("com.aspose.words.Document")
 DocumentBuilder = jpype.JClass("com.aspose.words.DocumentBuilder")
-
 BreakType = jpype.JClass("com.aspose.words.BreakType")
-
 StyleIdentifier = jpype.JClass("com.aspose.words.StyleIdentifier")
-
 \# Demonstrates how to insert fields and update them using Aspose.Words.
-
 \# First create a blank document.
-
 doc = Document()
-
 \# Use the document builder to insert some content and fields.
-
 builder = DocumentBuilder(doc)
-
 \# Start the actual document content on the second page.
-
 builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE)
-
 \# Call the method below to update the TOC.
-
 doc.updateFields()
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Update Fields (Aspose.Words)** from any of the below mentioned social coding sites:

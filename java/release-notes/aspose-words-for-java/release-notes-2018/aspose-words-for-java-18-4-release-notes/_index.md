@@ -126,18 +126,14 @@ On .NET baseline, some public API methods contain out/ref params in signatures. 
 
 Now, the code like:
 
-{{< highlight java >}}
-
- void SomeMethod(ref Document doc, out int i)
-
+{{< highlight csharp >}}
+void SomeMethod(ref Document doc, out int i)
 {{< /highlight >}}
 
 is autoported to Java as:
 
-{{< highlight java >}}
-
- void someMethod(Ref<Document> doc, RefInt i)
-
+{{< highlight csharp >}}
+void someMethod(Ref<Document> doc, RefInt i)
 {{< /highlight >}}
 
 The Ref* classes contain get() and set() methods to get and set the value.
@@ -148,60 +144,38 @@ Supported encryption for ODF documents.
 
 The following public API has been added to the OdtSaveOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Initializes a new instance of this class that can be used to save a document in the <see cref="Words.SaveFormat.Odt"/> format
-
 /// encrypted with a password.
-
 /// </summary>
-
 public OdtSaveOptions(String password)
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a password to encrypt document.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>In order to save document without encryption this property should be null or empty string.</para>
-
 /// </remarks>
-
 public String Password
-
 {{< /highlight >}}
 ##### **UC1: Load encrypted ODT document.**
-{{< highlight java >}}
-
- Document doc = new Document("\\encrypted.odt", new LoadOptions("password"));
-
+{{< highlight csharp >}}
+Document doc = new Document("\\encrypted.odt", new LoadOptions("password"));
 {{< /highlight >}}
 
 **UC2: Save ODT document encrypted with a password.**
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 doc.save("\\encryped.odt", new OdtSaveOptions("password"));
-
 {{< /highlight >}}
 ##### **UC3: Verify ODT document is encrypted.**
-{{< highlight java >}}
-
- FileFormatInfo info = FileFormatUtil.detectFileFormat("\\encryped.odt");
-
+{{< highlight csharp >}}
+FileFormatInfo info = FileFormatUtil.detectFileFormat("\\encryped.odt");
 System.out.println(info.isEncrypted());
-
 {{< /highlight >}}
 ### **Ability to Preserve PaperTray Information in PCL Added**
 Related issue: WORDSNET-16391
@@ -209,12 +183,9 @@ Related issue: WORDSNET-16391
 Paper tray information is now preserved when saving document to PCL format.
 Following information is transferred from document's model to PCL file:
 
-{{< highlight java >}}
-
- PageSetup.FirstPageTray
-
+{{< highlight csharp >}}
+PageSetup.FirstPageTray
 PageSetup.OtherPagesTray
-
 {{< /highlight >}}
 
 No additional code is required.
@@ -225,86 +196,50 @@ Related issue: WORDSNET-16546
 
 The following public property has been added into the **ShapeBase** class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it.
-
 /// </summary>
-
 /// <remarks>
-
 /// The default value is <b>true</b>.
-
 /// Has effect only for top level shapes, the property <see cref="WrapType"/> of which is set to value
-
 /// other than <see cref="WrapType.Inline"/>.
-
 /// </remarks>
-
 public boolean isLayoutInCell
-
 {
-
     get; set;
-
 }
-
 {{< /highlight >}}
 
 The property may be helpful for shapes (mainly VML) that are placed into a table cell but are needed to position without binding to the cell.
 ###### **Usage**
-{{< highlight java >}}
-
- Document doc = new Document(dataDir + "LayoutInCell.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(dataDir + "LayoutInCell.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
-
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
-
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
-
-watermark.isLayoutInCell(false); // Display the shape outside of table cell if it will be placed into a cell.
-
+watermark.isLayoutInCell(false);
+ // Display the shape outside of table cell if it will be placed into a cell.
 watermark.setWidth(300);
-
 watermark.setHeight(70);
-
 watermark.setHorizontalAlignment(HorizontalAlignment.CENTER);
-
 watermark.setVerticalAlignment(VerticalAlignment.CENTER);
-
 watermark.setRotation(-40);
-
 watermark.getFill().setColor(Color.GRAY);
-
 watermark.setStrokeColor(Color.GRAY);
-
 watermark.getTextPath().setText("watermarkText");
-
 watermark.getTextPath().setFontFamily("Arial");
-
 watermark.setName("WaterMark_0");
-
 watermark.setWrapType(WrapType.NONE);
-
 Run run = (Run) doc.getChildNodes(NodeType.RUN, true).get(doc.getChildNodes(NodeType.RUN, true).getCount() - 1);
-
 builder.moveTo(run);
-
 builder.insertNode(watermark);
-
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 
 // Save the document to disk.
-
 dataDir = dataDir + "Shape_IsLayoutInCell_out.docx";
-
 doc.save(dataDir);
-
 {{< /highlight >}}
 ### **Optimization of Vector Graphics Output of Metafile Rendering**
 Related issues: WORDSNET-16449, WORDSNET-15490

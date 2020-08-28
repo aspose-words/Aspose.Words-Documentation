@@ -50,16 +50,11 @@ After you have installed the Export to Word OSGI plugin, it is really simple to 
 1. Navigate to the page whose content you want to export to a Word Processing document.
 1. Add following HTML code in your page content. 
 
-{{< highlight java >}}
-
- <form action="/app/exporttoword" method="POST">
-
+{{< highlight csharp >}}
+<form action="/app/exporttoword" method="POST">
     <input type="hidden" name="page_url" value=$dotPageContent.url />
-
     <input type="submit" value="Export to Word" style="float: right;" />
-
 </form>
-
 {{< /highlight >}}
 
 1. This will add **Export to Word** button on the page and clicking a button will dynamically exports the content of the page into a Word Processing document.
@@ -70,12 +65,9 @@ To remove evaluation message and feature limitations, product license should be 
 - Make sure the license file is named as **Aspose.Words.Java.lic.**
 - Place **Aspose.Words.Java.lic** file in the folder that contains the Aspose.Words.jar
 - Use following code for activating the license:
-- {{< highlight java >}}
-
- License license = new License();
-
+- {{< highlight csharp >}}
+License license = new License();
 license.setLicense("Aspose.Words.Java.lic");
-
 {{< /highlight >}}
 
 Please check this [article](http://www.aspose.com/docs/display/wordsjava/Applying+a+License) for further details.

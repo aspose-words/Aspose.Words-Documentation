@@ -8,96 +8,53 @@ url: /net/remove-section-breaks-from-document/
 ### **OpenXML**
 Below is the code for removing Section Breaks from MS Word Document using OpenXML SDK.
 
-{{< highlight cs >}}
-
-   string FilePath = @"..\..\..\..\Sample Files\";
-
+{{< highlight csharp >}}
+  string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Section Breaks.docx";
-
   RemoveSectionBreaks(fileName);
-
   static void RemoveSectionBreaks(string filename)
-
   {
-
     using (WordprocessingDocument myDoc = WordprocessingDocument.Open(filename, true))
-
     {
-
       MainDocumentPart mainPart = myDoc.MainDocumentPart;
-
       List<ParagraphProperties> paraProps = mainPart.Document.Descendants<ParagraphProperties>().Where(pPr => IsSectionProps(pPr)).ToList();
-
       foreach (ParagraphProperties pPr in paraProps)
-
       {
-
          pPr.RemoveChild<SectionProperties>(pPr.GetFirstChild<SectionProperties>());
-
       }
-
       mainPart.Document.Save();
-
     }
-
   }
-
   static bool IsSectionProps(ParagraphProperties pPr)
-
   {
-
      SectionProperties sectPr = pPr.GetFirstChild<SectionProperties>();
-
      if (sectPr == null)
-
        return false;
-
      else
-
        return true;
-
   }
-
 {{< /highlight >}}
 ### **Aspose.Words**
 Below is the code for removing Section Breaks from MS Word Document using Aspose.Words.
 
-{{< highlight cs >}}
-
-   string FilePath = @"..\..\..\..\Sample Files\";
-
+{{< highlight csharp >}}
+  string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Section Breaks.docx";
-
   Document doc = new Document(fileName);
-
   RemoveSectionBreaks(doc);
-
-
-
   private static void RemoveSectionBreaks(Document doc)
-
   {
-
-    // Loop through all sections starting from the section that precedes the last one 
-
+    // Loop through all sections starting from the section that precedes the last one
     // and moving to the first section.
-
     for (int i = doc.Sections.Count - 2; i >= 0; i--)
-
     {
-
       // Copy the content of the current section to the beginning of the last section.
-
       doc.LastSection.PrependContent(doc.Sections[i]);
 
       // Remove the copied section.
-
       doc.Sections[i].Remove();
-
      }
-
    }
-
 {{< /highlight >}}
 ### **Download Running Example**
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)

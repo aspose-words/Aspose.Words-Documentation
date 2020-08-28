@@ -111,15 +111,10 @@ The new public enumeration was added:
 
 
 {{< highlight csharp >}}
-
- /// <summary>
-
+/// <summary>
 /// Allows to specify the direction to flow the text in a document.
-
 /// </summary>
-
 public enum DocumentDirection
-
 {{< /highlight >}}
 
 
@@ -128,18 +123,12 @@ Added new public option into TxtLoadOptions class:
 
 
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a document direction.
-
 /// The default value is <see cref="Aspose.Words.DocumentDirection.LeftToRight"/>. 
-
 /// </summary>
-
 public DocumentDirection DocumentDirection
-
 {{< /highlight >}}
 
 
@@ -148,22 +137,12 @@ Use Case. Explains how to detect document direction automatically:
 
 
 
-{{< highlight java >}}
-
- TxtLoadOptions loadOptions = new TxtLoadOptions();
-
+{{< highlight csharp >}}
+TxtLoadOptions loadOptions = new TxtLoadOptions();
 loadOptions.DocumentDirection = DocumentDirection.Auto;
-
-
-
 Document doc = new Document("SomeRtlText.txt", loadOptions);
-
-
-
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
-
 Console.WriteLine(paragraph.ParagraphFormat.Bidi);
-
 {{< /highlight >}}
 
 

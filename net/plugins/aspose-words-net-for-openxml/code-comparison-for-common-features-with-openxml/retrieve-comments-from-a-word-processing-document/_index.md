@@ -7,89 +7,49 @@ url: /net/retrieve-comments-from-a-word-processing-document/
 
 ### **OpenXML SDK**
 {{< highlight csharp >}}
-
- string FilePath = @"..\..\..\..\Sample Files\";
-
+string FilePath = @"..\..\..\..\Sample Files\";
 string fileName = FilePath + "Retrieve comments.docx";
-
 GetCommentsFromDocument(fileName);
-
 public static void GetCommentsFromDocument(string fileName)
-
 {
-
     using (WordprocessingDocument wordDoc =
-
         WordprocessingDocument.Open(fileName, false))
-
     {
-
         WordprocessingCommentsPart commentsPart =
-
             wordDoc.MainDocumentPart.WordprocessingCommentsPart;
-
         if (commentsPart != null && commentsPart.Comments != null)
-
         {
-
             foreach (Comment comment in commentsPart.Comments.Elements<Comment>())
-
             {
-
                 Console.WriteLine(comment.InnerText);
-
             }
-
         }
-
     }
-
 }
-
 {{< /highlight >}}
 ### **Aspose.Words**
 {{< highlight csharp >}}
-
- string FilePath = @"..\..\..\..\Sample Files\";
-
+string FilePath = @"..\..\..\..\Sample Files\";
 string fileName = FilePath + "Retrieve comments.docx";  
-
 Document doc = new Document(fileName);
-
 ExtractComments(doc);
-
 public static void ExtractComments(Document doc)
-
 {
-
     ArrayList collectedComments = new ArrayList();
 
     // Collect all comments in the document
-
     NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 
     // Look through all comments and gather information about them.
-
     foreach (Comment comment in comments)
-
     {
-
         collectedComments.Add(comment.Author + " " + comment.DateTime + " " + comment.ToString(SaveFormat.Text));
-
     }
-
     foreach (string collectedComment in collectedComments)
-
     {
-
         Console.WriteLine(collectedComment);
-
     }
-
-
-
 }
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)

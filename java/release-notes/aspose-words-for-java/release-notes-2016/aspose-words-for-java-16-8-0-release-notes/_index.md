@@ -103,173 +103,101 @@ This section lists public API changes that were introduced in Aspose.Words 16.8.
 ### **Added HtmlLoadOptions.SupportVml public property**
 WORDSNET-6933 is resolved and we have added new public property to HtmlLoadOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies HTML parser to parse conditional comments exactly like &lt;!--[if gte vml 1]&gt;
-
 /// and not to parse conditional comments exactly like &lt;![if !vml]&gt;.
-
 /// </summary>
-
 public bool SupportVml
-
 {
-
     get { return mSupportVml; }
-
     set { mSupportVml = value; }
-
 }
-
 {{< /highlight >}}
 ### **Added HtmlSaveOptions.ExportTextBoxAsSvg public property**
 WORDSNET-10041 is resolved and we have added new public property to HtmlSaveOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Controls how textboxes represented by <see cref="Drawing.Shape"/> are saved to HTML, MHTML or EPUB. 
-
 /// Default value is <c>false</c>.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>When set to <c>true</c>, exports textboxes as inline <b>&lt;svg&gt;</b> elements. 
-
 /// When <c>false</c>, exports as <b>&lt;img&gt;</b> elements.</p>
-
 /// </remarks>
-
 public bool ExportTextBoxAsSvg
-
 {
-
     get { return mSaveImageOptions.TextBoxAsSvg; }
-
     set { mSaveImageOptions.TextBoxAsSvg = value; }
-
 }
-
 {{< /highlight >}}
 ### **HtmlLoadOptions public class is introduced**
 WORDSNET-6933 is resolved and HtmlLoadOptions class is a subclass of LoadOptions and should be used instead of LoadOptions whenever specific options are needed to be set when loading HTML document.
 Currently HtmlLoadOptions class has two properties:
 
-{{< highlight java >}}
-
- /// <summary>
-
-/// Specifies HTML parser to parse conditional comments exactly like &lt;!--[if gte vml 1]&gt;
-
-/// and not to parse conditional comments exactly like &lt;![if !vml]&gt;.
-
-/// </summary>
-
-public bool SupportVml
-
-{
-
-    get { return mSupportVml; }
-
-    set { mSupportVml = value; }
-
-}
-
-
-
+{{< highlight csharp >}}
 /// <summary>
-
-/// The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds).
-
+/// Specifies HTML parser to parse conditional comments exactly like &lt;!--[if gte vml 1]&gt;
+/// and not to parse conditional comments exactly like &lt;![if !vml]&gt;.
 /// </summary>
-
-/// <remarks>
-
-/// The number of milliseconds that Aspose.Words waits for a response, when loading external resources (images, style sheets)
-
-/// linked in HTML and MHTML documents.
-
-/// </remarks>
-
-public new int WebRequestTimeout
-
+public bool SupportVml
 {
-
-    get { return mWebRequestTimeout; }
-
-    set { mWebRequestTimeout = value; }
-
+    get { return mSupportVml; }
+    set { mSupportVml = value; }
 }
-
+/// <summary>
+/// The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds).
+/// </summary>
+/// <remarks>
+/// The number of milliseconds that Aspose.Words waits for a response, when loading external resources (images, style sheets)
+/// linked in HTML and MHTML documents.
+/// </remarks>
+public new int WebRequestTimeout
+{
+    get { return mWebRequestTimeout; }
+    set { mWebRequestTimeout = value; }
+}
 {{< /highlight >}}
 
 Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in several releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
 
 Use case:
 
-{{< highlight java >}}
-
- HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
-
+{{< highlight csharp >}}
+HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
 htmlLoadOptions.SupportVml = true;
-
 htmlLoadOptions.WebRequestTimeout = 1000;
-
 Document doc = new Document("Test.html", htmlLoadOptions);
-
 {{< /highlight >}}
 ### **WORDSNET-13188 Changes in save options of fixed page formats**
 \1. Now all save option classes of fixed page formats (HtmlFixedSaveOptions, ImageSaveOptions, PdfSaveOptions, PsSaveOptions, SvgSaveOptions, SwfSaveOptions, XamlFixedSaveOptions and XpsSaveOptions) are inherited from the new public abstract class FixedPageSaveOptions.
 
 \2. The MetafileRenderingOptions property has become available in the SwfSaveOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Allows to specify metafile rendering options.
-
 /// </summary>
-
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
-
 {{< /highlight >}}
 
 \3. The JpegQuality property has become available in the XamlFixedSaveOptions and XpsSaveOptions classes:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a value determining the quality of the JPEG images inside Html document.
-
 /// </summary>
-
 /// <remarks>
-
 /// <para>Has effect only when a document contains JPEG images.</para>
-
 ///
-
 /// <p>Use this property to get or set the quality of the images inside a document when saving in fixed page format.
-
 /// The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100
-
 /// means best quality but minimum compression.</p>
-
 ///
-
 /// <p>The default value is 95.</p>
-
 /// </remarks>
-
 public int JpegQuality { get; set; }
-
 {{< /highlight >}}
 
 Jpeg quality was 100 for the XAML and XPS formats in the previous version. Now its default value is 95 to unify with the other formats (except PDF).

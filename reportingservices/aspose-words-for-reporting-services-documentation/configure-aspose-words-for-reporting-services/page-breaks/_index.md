@@ -22,25 +22,14 @@ Below is the description of the modes.
 To enable this mode, add the following lines to the *<Extension>* element corresponding to a particular renderer: 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <PageBreaks>OnEachPage</PageBreaks>
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}
 
 **No page breaks in the document**. In this mode, no page breaks are inserted into the document. The contents are continuous, just like in HTML Web pages. This mode makes the document easiest to edit, but the appearance may suffer, because something you expect to appear at the beginning of the page may appear somewhere in the middle.
@@ -48,25 +37,14 @@ To enable this mode, add the following lines to the *<Extension>* element corres
 To enable this mode, add the following lines to the *<Extension>* element corresponding to a particular renderer: 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <PageBreaks>None</PageBreaks>
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}
 
 **No page breaks within tables**. In this mode, no page breaks are inserted into tables thus keeping them unbroken. Page breaks outside of tables are preserved.
@@ -74,23 +52,12 @@ To enable this mode, add the following lines to the *<Extension>* element corres
 To enable this mode, add the following lines to the *<Extension>* element corresponding to a particular renderer: 
 
 {{< highlight csharp >}}
-
- <Render>
-
+<Render>
 ...
-
 <Extension Name="AWDOC" Type="Aspose.Words.ReportingServices.DocRenderer,Aspose.Words.ReportingServices">
-
 <Configuration>
-
     <PageBreaks>DontBreakTables</PageBreaks>
-
 </Configuration>
-
 </Extension>
-
 </Render>
-
-
-
 {{< /highlight >}}

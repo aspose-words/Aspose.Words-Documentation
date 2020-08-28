@@ -133,188 +133,108 @@ This section lists public API changes that were introduced in Aspose.Words 17.5.
 ### **Added Public Method CustomXmlPartCollection.add(string id, string xml)**
 A public method is added into the CustomXmlPartCollection class to help in creation of a custom XML part by specifying its XML:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Creates a new XML part with the specified XML and adds it to the collection.
-
 /// </summary>
-
 /// <param name="id">Identifier of a new custom XML part.</param>
-
 /// <param name="xml">XML data of the part.</param>
-
 /// <returns>Created custom XML part.</returns>
-
 public CustomXmlPart add(string id, string xml)
-
 {{< /highlight >}}
 
 Value of the 'xml' parameter is encoded as UTF8 and is stored in creating XML part.
 ##### **UC for creating a custom XML part by specifying its XML**
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 CustomXmlPart xmlPart = doc.getCustomXmlParts().add(UUID.fromString("B").toString(), "<root><text>Hello, World!</text></root>");
-
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
-
 sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
-
 doc.getFirstSection().getBody().appendChild(sdt);
-
 {{< /highlight >}}
 ### **Implemented API to Bind StructuredDocumentTag to Node of Custom XML Part**
 WORDSNET-4738 has been resolved. The following public property is added into the StructuredDocumentTag class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets an object that represents the mapping of this structured document tag to XML data
-
 /// in a custom XML part of the current document.
-
 /// </summary>
-
 /// <remarks>
-
 /// You can use the <see cref="Markup.XmlMapping.SetMapping"/> method of this object to map
-
 /// a structured document tag to XML data.
-
 /// </remarks>
-
 public XmlMapping getXmlMapping()
-
 {{< /highlight >}}
 
 Public methods of the XmlMapping class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies the information that is used to establish a mapping between the parent
-
 /// structured document tag and an XML element stored within a custom XML data part in the document.
-
 /// </summary>
-
 public class XmlMapping
-
 {
-
     /// <summary>
-
     /// Sets a mapping between the parent structured document tag and an XML node of a custom XML data part.
-
     /// </summary>
-
     /// <param name="customXmlPart">A custom XML data part to map to.</param>
-
     /// <param name="xPath">An XPath expression to find the XML node.</param>
-
     /// <param name="prefixMapping">XML namespace prefix mappings to evaluate the XPath.</param>
-
     /// <returns>A flag indicating whether the parent structured document tag is successfully mapped to
-
     /// the XML node.</returns>
-
     public boolean setMapping(CustomXmlPart customXmlPart, string xPath, string prefixMapping);
-
     /// <summary>
-
     /// Deletes mapping of the parent structured document to XML data.
-
     /// </summary>
-
     public void delete();
-
     /// <summary>
-
     /// Returns the custom XML data part to which the parent structured document tag is mapped.
-
     /// </summary>
-
     public CustomXmlPart getCustomXmlPart()
-
     /// <summary>
-
     /// Returns the XPath expression, which is evaluated to find the custom XML node
-
     /// that is mapped to the parent structured document tag.
-
     /// </summary>
-
     public string getXPath()
-
     /// <summary>
-
     /// Returns XML namespace prefix mappings to evaluate the <see cref="XPath"/>.
-
     /// </summary>
-
     /// <remarks>
-
     /// Specifies the set of prefix mappings, which shall be used to interpret the XPath expression
-
     /// when the XPath expression is evaluated against the custom XML data parts in the document.
-
     /// </remarks>
-
     public string getPrefixMappings()
-
     /// <summary>
-
     /// Returns <b>true</b> if the parent structured document tag is successfully mapped to XML data.
-
     /// </summary>
-
     public boolean isMapped()
-
 }
-
 {{< /highlight >}}
 ##### **UC for creation of an XML part and binding a content control to it**
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 CustomXmlPart xmlPart = doc.getCustomXmlParts().add(UUID.fromString("B").toString(), "<root><text>Hello, World!</text></root>");
-
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
-
 doc.getFirstSection().getBody().appendChild(sdt);
-
 sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
-
 doc.save(fileName);
-
 {{< /highlight >}}
 ### **CellFormat.setPaddings Method was Introduced.**
 WORDSNET-15014 (Enhancement) has been resolved. We have added a simple method allowing to set all cell paddings in one line of code.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell.
-
 /// </summary>
-
 public void setPaddings(double leftPadding, double topPadding, double rightPadding, double bottomPadding)
-
 {{< /highlight >}}
 
 You can use this method instead of using four properties:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Set all cell paddings.
-
+// Set all cell paddings.
 builder.getCellFormat().setPaddings(30, 40, 50, 60);
-
 {{< /highlight >}}

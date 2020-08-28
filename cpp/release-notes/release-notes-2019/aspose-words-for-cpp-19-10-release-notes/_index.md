@@ -37,10 +37,8 @@ The user has to use the following code:
 
 
 
-{{< highlight java >}}
-
- #include <Aspose.Words.Cpp\Model\Document\Document.h>
-
+{{< highlight csharp >}}
+#include <Aspose.Words.Cpp\Model\Document\Document.h>
 {{< /highlight >}}
 
 
@@ -49,10 +47,8 @@ instead of
 
 
 
-{{< highlight java >}}
-
- #include <Model\Document\Document.h>
-
+{{< highlight csharp >}}
+#include <Model\Document\Document.h>
 {{< /highlight >}}
 
 

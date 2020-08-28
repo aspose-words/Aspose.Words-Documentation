@@ -10,24 +10,18 @@ Range allows the deletion of all characters of the range by calling **Range.dele
 
 **Java**
 
-{{< highlight java >}}
-
- doc.getSections().get(0).getRange().delete();
-
+{{< highlight csharp >}}
+doc.getSections().get(0).getRange().delete();
 String text = doc.getRange().getText();
-
 {{< /highlight >}}
 ## **Apache POI HWPF XWPF - Delete Ranges in Document**
 delete method can be used after retrieving Section of Range.
 
 **Java**
 
-{{< highlight java >}}
-
- doc.getRange().getSection(0).delete();
-
+{{< highlight csharp >}}
+doc.getRange().getSection(0).delete();
 String text = doc.getRange().text();
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

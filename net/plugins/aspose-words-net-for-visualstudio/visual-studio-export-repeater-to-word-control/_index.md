@@ -97,18 +97,14 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 1. Add reference to **Aspose.Words.RepeaterExport.dll** available in extracted download package in your ASP.NET project or web application. Make sure your web application/Visual Studio have full access to this folder otherwise you might get Access is denied exception.
 1. Add this line to the top of the page, control or MasterPage 
 
-{{< highlight java >}}
-
- <%@ Register assembly="Aspose.Words.RepeaterExport" namespace="Aspose.Words.RepeaterExport" tagprefix="aspose" %>
-
+{{< highlight csharp >}}
+<%@ Register assembly="Aspose.Words.RepeaterExport" namespace="Aspose.Words.RepeaterExport" tagprefix="aspose" %>
 {{< /highlight >}}
 
 1. Add the following to a place on your ASP.NET page, control or masterpage where you want the control to be added 
 
-{{< highlight java >}}
-
- <aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" runat="server"></aspose:ExportRepeaterToWord>
-
+{{< highlight csharp >}}
+<aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" runat="server"></aspose:ExportRepeaterToWord>
 {{< /highlight >}}
 ### **FAQs**
 Common questions and issues you might face while using this Control
@@ -125,60 +121,36 @@ The following properties are exposed to configure and use cool features provided
 |ExportButtonText |string |Export to Word |You can use this property to override existing default text |
 |ExportInLandscape |bool |true or false |If true it changes the orientation of the output document to landscape. Default is Portrait |
 | | | | |
-|ExportFileHeading |string |<h4>Repeater Export Example Report</h4> |You can use html tags to add style to your heading |
+|ExportFileHeading |string |&lt;h4&gt;Repeater Export Example Report&lt;/h4&gt; |You can use html tags to add style to your heading |
 |ExportOutputFormat |enum |Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |Output format of the exported document. Supported formats are Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |
 |ExportOutputPathOnServer |string |c:\temp |Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path. |
 |LicenseFilePath |string | |Local path on server to the license file. For example e:\Aspose\Aspose.Words.lic  <br>Aspose.Words.lic |
 An example of Export Repeater to Word control with all properties used is shown below
 
-{{< highlight java >}}
-
- <aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" ExportButtonText="Export to Word"
-
+{{< highlight csharp >}}
+<aspose:ExportRepeaterToWord ID="ExportRepeaterToWord1" ExportButtonText="Export to Word"
 ExportButtonCssClass="myClass" ExportOutputFormat="Doc" ExportInLandscape="true"
-
 ExportOutputPathOnServer="E:\\temp" ExportFileHeading="<h4>Example Report</h4>"
-
 LicenseFilePath="E:\\Aspose\\Aspose.Total.lic" runat="server">
-
 <HeaderTemplate>
-
    <table class="table table-hover table-bordered">
-
       <tr>
-
          <th>Product ID</th>
-
          <th>Product Name</th>
-
          <th>Units In Stock</th>
-
       </tr>
-
 </HeaderTemplate>
-
 <ItemTemplate>
-
    <tr>
-
       <td><%# Eval("Product ID") %></td>
-
       <td><%# Eval("Product Name")%></td>
-
       <td><%# Eval("Units In Stock")%></td>
-
    </tr>
-
 </ItemTemplate>
-
 <FooterTemplate>
-
    </table>
-
 </FooterTemplate>
-
 </aspose:ExportRepeaterToWord>
-
 {{< /highlight >}}
 ## **Video Demo**
 Video demo will be available soon.

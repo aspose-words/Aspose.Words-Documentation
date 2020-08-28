@@ -9,7 +9,7 @@ You can insert contents of outer documents to your reports dynamically using doc
 
 Syntax of a doc tag is defined as follows.
 
-**<<doc [document_expression]>>**
+**&lt;&lt;doc [document_expression]&gt;&gt;**
 
 ` `REF note **Note –** A doc tag can be used almost anywhere in a template document except textboxes and charts.
 
@@ -26,7 +26,7 @@ While building a report, an expression declared within a doc tag is evaluated an
 
 By default, a document being inserted is not checked against template syntax and is not populated with data. However, you can enable this by using a build switch as follows.
 
-**<<doc [document_expression] -build>>**
+**&lt;&lt;doc [document_expression] -build&gt;&gt;**
 
 When a build switch is used, the engine treats a document being inserted as a template that can access the following data available at the scope of a corresponding doc tag:
 

@@ -169,60 +169,37 @@ An example of different behavior is below. 
 ### **Added WMF Fonts Scaling According to Metafile Size on the Page and Public Option to Control it**
 New public property was added to MetafileRenderingOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
-
 /// </summary>
-
 /// <remarks>
-
 /// When WMF metafiles are displayed in MS Word, fonts may be scaled according to actual metafile size on the page.
-
 ///
-
 /// When this value is set to <c>true</c>, Aspose.Words emulates font scaling according to metafile size on the page.
-
 ///
-
 /// When this value is set to <c>false</c>, Aspose.Words displays the fonts as metafile is rendered to its default size.
-
 ///
-
 /// This option is used only when metafile is rendered as vector graphics.
-
 ///
-
 /// The default value is <c>true</c>.
-
 /// </remarks>
-
 public bool ScaleWmfFontsToMetafileSize
-
 {
-
     get;
-
     set;
-
 }
-
 {{< /highlight >}}
 ### **Removed Obsolete Public API Method 'SetAsDefault' from LoadOptions.LanguagePreferences**
 WORDSNET-17294 has been resolved.
 
 Removed obsolete public API method 'SetAsDefault' from LoadOptions.LanguagePreferences:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Sets default editing language.
-
+// Sets default editing language.
 [Obsolete("Please use LanguagePreferences.DefaultEditingLanguage property instead.")]
-
 public void SetAsDefault(EditingLanguage language)
-
 {{< /highlight >}}
 
 Please use *LanguagePreferences.DefaultEditingLanguage* property instead: [https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+18.6+Release+Notes](/words/net/aspose-words-for-net-18-6-release-notes/)

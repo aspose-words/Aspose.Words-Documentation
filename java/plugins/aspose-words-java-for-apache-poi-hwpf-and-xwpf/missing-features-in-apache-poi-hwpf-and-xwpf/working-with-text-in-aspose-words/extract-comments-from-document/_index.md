@@ -21,28 +21,19 @@ To illustrate how to extract and remove comments from a document, we will go thr
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document(dataDir + "AsposeComments.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(dataDir + "AsposeComments.docx");
 ArrayList collectedComments = new ArrayList();
 
 // Collect all comments in the document
-
 NodeCollection comments = doc.getChildNodes(NodeType.COMMENT, true);
 
 // Look through all comments and gather information about them.
-
 for (Comment comment : (Iterable<Comment>) comments)
-
 {
-
     System.out.println(comment.getAuthor() + " - " + comment.getDateTime() + " - "
-
 	    + comment.toString(SaveFormat.TEXT));
-
 }
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

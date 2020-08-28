@@ -10,14 +10,10 @@ The **Document.AcceptAllRevisions** method allows you to "accept" all revision
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document("trackDoc.doc");
-
+{{< highlight csharp >}}
+Document doc = new Document("trackDoc.doc");
 doc.acceptAllRevisions();
-
 doc.save("AsposeAcceptChanges.doc", SaveFormat.DOC);
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

@@ -12,36 +12,24 @@ Using [Shape ](http://www.aspose.com/api/net/words/aspose.words.drawing/shape)cl
 **C#**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
+Document doc = new Document();
 
 // Create New Document
-
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.Write("Image Before Resize");
-
 //insert image from disk
-
 Shape shape = builder.InsertImage(@"../../data/aspose_Words-for-net.jpg");
 
 // write text in document
-
 builder.Write("ReSize image ");
-
 shape = builder.InsertImage(@"../../data/aspose_Words-for-net.jpg");
 
 // Chaging image size.(ConvertUtil Provides helper functions to convert between various measurement units. like Converts inches to points.)
-
 shape.Width = ConvertUtil.InchToPoint(0.5);
-
 shape.Height = ConvertUtil.InchToPoint(0.5);
 
 // save document on file location
-
 builder.Document.Save("ImageReSize.doc");
-
-
 {{< /highlight >}}
 ## **Download Sample Code**
 - [CodePlex](https://asposewordsnpoi.codeplex.com/downloads/get/1556914)

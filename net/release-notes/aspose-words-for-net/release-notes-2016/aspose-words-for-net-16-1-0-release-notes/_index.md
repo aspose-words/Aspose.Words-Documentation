@@ -120,7 +120,7 @@ There are 133 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-11007 |Table does not render correctly in output Pdf file |Feature |
 |WORDSNET-11208 |Support signature line (not digital signature) in Word documents |Feature |
 |WORDSNET-11349 |Different Word and PDF output when table auto fit is set to true |Feature |
-|WORDSNET-11368 |Add option in HtmlFixedSaveOptions to export FORMCHECKBOX as <input type="checkbox"> |Feature |
+|WORDSNET-11368 |Add option in HtmlFixedSaveOptions to export FORMCHECKBOX as &lt;input type="checkbox"&gt; |Feature |
 |WORDSNET-11375 |Add option in HtmlFixedSaveOptions to export FORMDROPDOWN into select, option tags |Feature |
 |WORDSNET-11746 |/pre-word97/ Support pre-Word97 format |Feature |
 |WORDSNET-11801 |Provide way to use Aspose' hyphenation functionality when no input document is involved |Feature |

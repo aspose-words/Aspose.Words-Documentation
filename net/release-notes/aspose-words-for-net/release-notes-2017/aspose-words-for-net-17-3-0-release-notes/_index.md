@@ -112,20 +112,14 @@ To improve customer experience with Office Math objects in Aspose.Words model we
 - New readon-only property *OfficeMath.MathObjectType*
 - New public enum **MathObjectType** 
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // How to use:
-
+// How to use:
 OfficeMath officeMath = GetOfficeMath();
-
 if (officeMath.MathObjectType == MathObjectType.Matrix)
-
 {
-
    // Do something useful with the Matrix object.
-
 }
-
 {{< /highlight >}}
 ### **Support of Variables, Dynamic Text Background Setting, and a New Image Size Fit mode Added to LINQ Reporting Engine**
 These issues have been resolved: WORDSNET-14489, WORDSNET-14600 and WORDSNET-14627
@@ -140,95 +134,61 @@ The following sections of the engine's documentation were added/updated to descr
 ### **WORDSNET-12412 - Added a MailMergeCleanupOptions Option to Remove Empty Row**
 As per customer's request, we have added a MailMergeCleanupOptions option allowing to remove empty rows during mail merge:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies whether empty rows that contain mail merge regions should be removed from the document.
-
 /// </summary>
-
 /// <remarks>
-
 /// This option applies only to mail merge with regions.
-
 /// </remarks>
-
 RemoveEmptyTableRows = 0x20
-
 {{< /highlight >}}
 
 Sample usage:
 
-{{< highlight java >}}
-
- document.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTableRows | MailMergeCleanupOptions.RemoveContainingFields;
-
+{{< highlight csharp >}}
+document.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTableRows | MailMergeCleanupOptions.RemoveContainingFields;
 document.MailMerge.MergeDuplicateRegions = true;
-
 document.MailMerge.ExecuteWithRegions(dataTable);
-
 {{< /highlight >}}
 ### **WORDSNET-14602 - New Public Properties were Added to the OfficeMath Object.**
 New public properties Justification and DisplayType were added into the OfficeMath class.
 
-{{< highlight java >}}
-
- /// <summary>
-
-/// Gets/sets Office Math justification.
-
-/// </summary>
-
-/// <remarks>
-
-/// <para>Justification cannot be set to the Office Math with display format type <see cref="OfficeMathDisplayType.Inline"/>.</para>
-
-/// <para>Inline justification cannot be set to the Office Math with display format type <see cref="OfficeMathDisplayType.Display"/>.</para>
-
-/// <para>Corresponding <see cref="DisplayType"/> has to be set before setting Office Math justification.</para>
-
-/// </remarks>
-
-public OfficeMathJustification Justification
-
-
+{{< highlight csharp >}}
 /// <summary>
-
-/// Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text&nbsp;
-
-/// or displayed on its own line.
-
+/// Gets/sets Office Math justification.
 /// </summary>
-
 /// <remarks>
-
-/// <para>Display format type has effect for top level Office Math only.</para>
-
-/// <para>Returned display format type is always <see cref="OfficeMathDisplayType.Inline"/> for nested Office Math.</para>
-
+/// <para>Justification cannot be set to the Office Math with display format type <see cref="OfficeMathDisplayType.Inline"/>.</para>
+/// <para>Inline justification cannot be set to the Office Math with display format type <see cref="OfficeMathDisplayType.Display"/>.</para>
+/// <para>Corresponding <see cref="DisplayType"/> has to be set before setting Office Math justification.</para>
 /// </remarks>
-
+public OfficeMathJustification Justification
+/// <summary>
+/// Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text&nbsp;
+/// or displayed on its own line.
+/// </summary>
+/// <remarks>
+/// <para>Display format type has effect for top level Office Math only.</para>
+/// <para>Returned display format type is always <see cref="OfficeMathDisplayType.Inline"/> for nested Office Math.</para>
+/// </remarks>
 public OfficeMathDisplayType DisplayType
-
 {{< /highlight >}}
 
 **Use Case:**
 
-{{< highlight java >}}
-
- OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
+{{< highlight csharp >}}
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text
 
 // or displayed on its own line.
-
-officeMath.DisplayType = OfficeMathDisplayType.Display; // or OfficeMathDisplayType.Inline
+officeMath.DisplayType = OfficeMathDisplayType.Display;
+ // or OfficeMathDisplayType.Inline
 
 // Gets/sets Office Math justification.
-
-officeMath.Justification = OfficeMathJustification.Left; // Left justification of Math Paragraph.
-
+officeMath.Justification = OfficeMathJustification.Left;
+ // Left justification of Math Paragraph.
 {{< /highlight >}}
 
 
@@ -243,28 +203,18 @@ Mimic MS Word VBA behavior:
 ### **WORDSNET-14745 - Provided Ability to Specify Locale at Field Level**
 As per customer's request, we have added a property that allows to get/set field's locale:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets LCID of the field.
-
 /// </summary>
-
 /// <seealso cref="FieldUpdateCultureSource.FieldCode"/>
-
 public int LocaleId
-
 {{< /highlight >}}
 
 Sample usage:
 
-{{< highlight java >}}
-
- DocumentBuilder builder = new DocumentBuilder();
-
+{{< highlight csharp >}}
+DocumentBuilder builder = new DocumentBuilder();
 Field field = builder.InsertField("=1", null);
-
 field.LocaleId = 1027;
-
 {{< /highlight >}}

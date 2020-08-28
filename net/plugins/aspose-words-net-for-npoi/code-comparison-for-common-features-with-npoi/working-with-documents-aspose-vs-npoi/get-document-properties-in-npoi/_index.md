@@ -12,52 +12,30 @@ You can use document properties in your document automation project to store som
 
 **C#**
 
-{{< highlight cs >}}
-
-   Document doc = new Document("Get Document Properties.doc");
-
+{{< highlight csharp >}}
+  Document doc = new Document("Get Document Properties.doc");
   foreach (DocumentProperty prop in doc.BuiltInDocumentProperties)
-
   {
-
       Console.WriteLine(prop.Name+": "+ prop.Value);
-
   }
-
-
 {{< /highlight >}}
 ## **NPOI HWPF XWPF - Get Document Properties**
 **C#**
 
-{{< highlight cs >}}
-
-  SummaryInformation summaryInfo = new SummaryInformation(new PropertySet(new FileStream("Get Document Properties.doc", FileMode.Open)));
-
+{{< highlight csharp >}}
+ SummaryInformation summaryInfo = new SummaryInformation(new PropertySet(new FileStream("Get Document Properties.doc", FileMode.Open)));
  Console.WriteLine(summaryInfo.ApplicationName);
-
  Console.WriteLine(summaryInfo.Author);
-
  Console.WriteLine(summaryInfo.Comments);
-
  Console.WriteLine(summaryInfo.CharCount);
-
  Console.WriteLine(summaryInfo.EditTime);
-
  Console.WriteLine(summaryInfo.Keywords);
-
  Console.WriteLine(summaryInfo.LastAuthor);
-
  Console.WriteLine(summaryInfo.PageCount);
-
  Console.WriteLine(summaryInfo.RevNumber);
-
  Console.WriteLine(summaryInfo.Security);
-
  Console.WriteLine(summaryInfo.Subject);
-
  Console.WriteLine(summaryInfo.Template);
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Get Document Properties** from any of the below mentioned social coding sites:

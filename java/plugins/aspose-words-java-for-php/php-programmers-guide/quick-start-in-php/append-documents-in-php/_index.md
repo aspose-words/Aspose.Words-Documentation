@@ -10,16 +10,11 @@ To append documents using Aspose.Words Java in php, simply invoke the appendDocu
 
 **Php Code**
 
-{{< highlight java >}}
-
- $doc1 = new Java("com.aspose.words.Document", "data/doc1.doc");
-
+{{< highlight csharp >}}
+$doc1 = new Java("com.aspose.words.Document", "data/doc1.doc");
 $doc2 = new Java("com.aspose.words.Document", "data/doc2.doc");
-
 $importFormatMode = Java("com.aspose.words.ImportFormatMode);
-
 $doc1->appendDocument(java_values($doc2), importFormatMode->KEEP_SOURCE_FORMATTING);
-
 {{< /highlight >}}
 
 **Download Running Code**

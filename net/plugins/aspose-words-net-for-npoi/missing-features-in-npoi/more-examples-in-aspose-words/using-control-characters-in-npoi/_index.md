@@ -10,26 +10,18 @@ The **ControlChar** class is a repository for the constants that represent con
 
 **C#**
 
-{{< highlight cs >}}
-
- Document doc = new Document("../../data/document.doc");
+{{< highlight csharp >}}
+Document doc = new Document("../../data/document.doc");
 
 // Enter a dummy field into the document.
-
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.InsertField("MERGEFIELD Field");
 
 // GetText will retrieve all field codes and special characters
-
 Console.WriteLine("GetText() Result: " + doc.GetText());
-
 string text = doc.GetText();
-
 text = text.Replace(ControlChar.Cr, ControlChar.CrLf);
-
 Console.WriteLine("Replaced text Result: " + text);
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Using Control Characters** form any of the below mentioned social coding sites:

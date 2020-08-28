@@ -123,80 +123,47 @@ Public property added to the CompareOptions class to provide ability to determin
 
 For example, this option together with IgnoreFormatting setting determines which document has to be used as formatting source for ranges of equal text.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies which document shall be used as a target during comparison.
-
 /// The value of the property is ComparisonTargetType integer constant.
-
 /// </summary>
-
 public int getTarget()
-
 void setTarget(int value)
-
 {{< /highlight >}}
 
 ssible values described by the following enumeration
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Allows to specify base document which will be used during comparison.  Default value is <see cref="Current" />.
-
 ///Default value is CURRENT.
-
 /// </summary>
-
 /// <remarks>
-
 /// Relates to Microsoft Word "Show changes in" option in "Compare Documents" dialog box.
-
 /// </remarks>
-
 public class ComparisonTargetType
-
 {
-
   /// <summary>
-
   /// This document is used as a base during comparison.
-
   /// </summary>
-
 public static final int CURRENT = 0
-
   /// <summary>
-
   /// Other document is used as a base during comparison.
-
   /// </summary>
-
 public static final int NEW = 1
-
 }
-
 {{< /highlight >}}
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Use case.
-
+// Use case.
 Document docA = new Document(pathA);
-
 Document docB = new Document(pathB);
-
 CompareOptions options = new CompareOptions();
-
 options.setIgnoreFormatting(true);
-
 options.setTarget(ComparisonTargetType.NEW);
-
 docA.compare(docB, "am", new Date(), options);
-
 {{< /highlight >}}
 ### **LINQ Reporting Engine Supports Dynamic Chart Series Removal**
 Related Issue: WORDSNET-15442
@@ -208,392 +175,236 @@ Related issue WORDSNET-9959
 Implemented public API to add/remove comment replies.
 The following methods have been added to the **Comment** class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Adds a reply to this comment.
-
 /// </summary>
-
 /// <param name="author">The author name for the reply.</param>
-
 /// <param name="initial">The author initials for the reply.</param>
-
 /// <param name="dateTime">The date and time for the reply.</param>
-
 /// <param name="text">The reply text.</param>
-
 /// <returns>The created <see cref="Comment"/> node for the reply.</returns>
-
 /// <remarks>
-
 /// Due to the existing MS Office limitations only 1 level of replies is allowed in the document.
-
 /// An exception of type <see cref="InvalidOperationException"/> will be raised if this method is
-
 /// called on the existing Reply comment.
-
 /// </remarks>
-
 public Comment addReply(string author, string initial, java.util.Date dateTime, string text);
-
 /// <summary>
-
 /// Removes the specified reply to this comment.
-
 /// </summary>
-
 /// <param name="reply">The comment node of the deleting reply.</param>
-
 /// <remarks>All constituent nodes of the reply will be deleted from the document.</remarks>
-
 public void removeReply(Comment reply);
-
 /// <summary>
-
 /// Removes all replies to this comment.
-
 /// </summary>
-
 /// <remarks>All constituent nodes of the replies will be deleted from the document.</remarks>
-
 public void removeAllReplies();
-
 {{< /highlight >}}
 
 **UC** to add/remove replies:
 
-{{< highlight java >}}
-
- Document doc = new Document(fileName);
-
+{{< highlight csharp >}}
+Document doc = new Document(fileName);
 Comment comment = (Comment)doc.getChild(NodeType.COMMENT, 0, true);
-
 comment.removeReply(comment.getReplies().get(1));
-
 comment.addReply("John Doe", "JD", new Date(2017, 9, 25, 12, 15, 0), "New reply");
-
 doc.save(outFileName);
-
 {{< /highlight >}}
 ### **Ability to Get and Set Number of Footnote Layout Columns is Implemented**
 Related issue: WORDSNET-14958
 
 The following property has been added into the **FootnoteOptions** class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies the number of columns with which the footnotes area is formatted.
-
 /// </summary>
-
 /// <remarks>
-
 /// If this property has the value of 0, the footnotes area is formatted with a number of columns based on
-
 /// the number of columns on the displayed page. The default value is 0.
-
 /// </remarks>
-
 public int getColumns()
-
 public void setColumns(int value)
-
 {{< /highlight >}}
 
 **UC**
 
-{{< highlight java >}}
-
- Document doc = new Document(fileName);
-
+{{< highlight csharp >}}
+Document doc = new Document(fileName);
 doc.getFootnoteOptions().setColumns(2);
-
 doc.Save(outFileName);
-
 {{< /highlight >}}
 
 The Document.EndnoteOptions and PageSetup.EndnoteOptions properties have been changed to be of the EndnoteOptions type. This new EndnoteOptions class has the same properties as FootnoteOptions except the Columns property:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Represents the endnote numbering options for a document or section.
-
 /// </summary>
-
 public class EndnoteOptions
-
 {
-
     /// <summary>
-
     /// Specifies the endnotes position. The value of the property is EndnotePosition integer constant.
-
     /// </summary>
-
     public int getPosition()
-
     public void setPosition(int value)
-
     /// <summary>
-
     /// Specifies the number format for automatically numbered endnotes. The value of the property is NumberStyle integer constant.
-
     /// </summary>
-
     public int getNumberStyle()
-
     public void setNumberStyle(int value)
-
     /// <summary>
-
     /// Specifies the starting number or character for the first automatically numbered endnotes.
-
     /// </summary>
-
     public int getStartNumber()
-
     public void setStartNumber(int value)
-
     /// <summary>
-
     /// Determines when automatic numbering restarts. The value of the property is FootnoteNumberingRule integer constant.
-
     /// </summary>
-
     public int getRestartRule()
-
     public void setRestartRule(int value)
-
 }
-
 {{< /highlight >}}
 
 The similar Position property of the FootnotePosition type is added into the FootnoteOptions class. The property should be used instead of the obsolete Location property.
 
 The new public enum types FootnotePosition and EndnotePosition have the following items:
 
-{{< highlight java >}}
-
- /// <summary>
-
-/// Defines the footnote position.
-
-/// </summary>
-
-public class FootnotePosition
-
-{
-
-    /// <summary>
-
-    /// Footnotes are output at the bottom of each page.
-
-    /// </summary>
-
-    BOTTOM_OF_PAGE = 1,
-
-    /// <summary>
-
-    /// Footnotes are output beneath text on each page.
-
-    /// </summary>
-
-    BENEATH_TEXT = 2
-
-}
-
+{{< highlight csharp >}}
 /// <summary>
-
-/// Defines the endnote position.
-
+/// Defines the footnote position.
 /// </summary>
-
-public class EndnotePosition
-
+public class FootnotePosition
 {
-
     /// <summary>
-
-    /// Endnotes are output at the end of the section.
-
+    /// Footnotes are output at the bottom of each page.
     /// </summary>
-
-    END_OF_SECTION = 0,
-
+    BOTTOM_OF_PAGE = 1,
     /// <summary>
-
-    /// Endnotes are output at the end of the document.
-
+    /// Footnotes are output beneath text on each page.
     /// </summary>
-
-    END_OF_DOCUMENT = 3
-
+    BENEATH_TEXT = 2
 }
-
+/// <summary>
+/// Defines the endnote position.
+/// </summary>
+public class EndnotePosition
+{
+    /// <summary>
+    /// Endnotes are output at the end of the section.
+    /// </summary>
+    END_OF_SECTION = 0,
+    /// <summary>
+    /// Endnotes are output at the end of the document.
+    /// </summary>
+    END_OF_DOCUMENT = 3
+}
 {{< /highlight >}}
 ### **Provided API Similar to SignatureSet.AddSignatureLine Method (Office)**
 Related issue: WORDSNET-14984
 
 Added public property ProviderId to the **SignOptions** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Specifies the class ID of the signature provider.
-
+// Specifies the class ID of the signature provider.
 public java.util.UUID getProviderId()
-
 public void setProviderId(java.util.UUID value)
-
 {{< /highlight >}}
 
 And also added public property ProviderId to the **SignatureLine** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Gets or sets signature provider identifier for this signature line.
-
+// Gets or sets signature provider identifier for this signature line.
 public java.util.UUID getProviderId()
-
 public void setProviderId(java.util.UUID value)
-
 {{< /highlight >}}
 
 **UC1 - existing signature line:**
 
-{{< highlight java >}}
-
- Document doc = new Document("pathToDocument.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document("pathToDocument.docx");
 SignatureLine signatureLine = ((Shape)doc.getFirstSection().getBody().getChild(NodeType.SHAPE, 0, true)).getSignatureLine();
-
-
 SignOptions signOptions = new SignOptions();
-
 signOptions.setProviderId(signatureLine.getProviderId());
-
 signOptions.setSignatureLineId(signatureLine.getId());
-
-
 CertificateHolder certHolder = CertificateHolder.create("pathToCert.pfx", "certPassword");
-
 DigitalSignatureUtil.sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);
-
 {{< /highlight >}}
 
 **C2 - creating new signature line:**
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 SignatureLine signatureLine = builder.insertSignatureLine(new SignatureLineOptions()).getSignatureLine();
-
 signatureLine.setProviderId(UUID.randomUUID()); 
-
 doc.save("pathToSrcFile.docx");
-
 SignOptions signOptions = new SignOptions();
-
 signOptions.setSignatureLineId(signatureLine.getId());
-
 signOptions.setProviderId(signatureLine.getProviderId());
-
 CertificateHolder certHolder = CertificateHolder.create("pathToCert.pfx", "certPassword");
-
 DigitalSignatureUtil.sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);
-
 {{< /highlight >}}
 
 **C3 - signing using special provider Id:**
 
-{{< highlight java >}}
-
- SignOptions signOptions = new SignOptions();
-
+{{< highlight csharp >}}
+SignOptions signOptions = new SignOptions();
 signOptions.setProviderId(UUID.randomUUID());
-
 CertificateHolder certHolder = CertificateHolder.create("pathToCert.pfx", "certPassword");
-
 DigitalSignatureUtil.sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);		
-
 {{< /highlight >}}
 ### **Exposed Table.HorizontalAlignment Property**
 Related issue: WORDSNET-15817
 
 Added new public read-only properties to the **Table** class.
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Gets table relative horizontal alignment. The value of the property is HorizontalAlignment integer constant.
-
+// Gets table relative horizontal alignment. The value of the property is HorizontalAlignment integer constant.
 public int getRelativeHorizontalAlignment()
 
 // Gets table relative vertical alignment. The value of the property is VerticalAlignment integer constant.
-
 public int getRelativeVerticalAlignment()
-
 {{< /highlight >}}
 
 **UC:**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // It is necessary to use the appropriate properties,
+// It is necessary to use the appropriate properties,
 
 // depending on the floating table or not.
 
 // It is necessary to use the appropriate properties,
 
 // depending on the floating table or not.
-
 if (table.getTextWrapping() == TextWrapping.AROUND)
-
 {
-
  System.out.println(table.getRelativeHorizontalAlignment());
-
  System.out.println(table.getRelativeVerticalAlignment());
-
 }
-
 else
-
 {
-
 System.out.println(table.getAlignment());
-
 }
-
 {{< /highlight >}}
 ### **Prevent Embedding Fonts while Saving into HTML Fixed Format.**
 Related issue: WORDSNET-15880
 
 We have introduced HtmlFixedSaveOptions.UseTargetMachineFonts property.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Flag indicates whether fonts from target machine must be used to display the document.
-
 /// If this flag is set to true, <see cref="FontFormat"/> and <see cref="ExportEmbeddedFonts"/> properties do not have effect,
-
 /// also <see cref="ResourceSavingCallback"/> is not fired for fonts.
-
 /// Default is false.
-
 /// </summary>
-
 public boolean getUseTargetMachineFonts()
-
 public void setUseTargetMachineFonts(boolean value)
-
 {{< /highlight >}}

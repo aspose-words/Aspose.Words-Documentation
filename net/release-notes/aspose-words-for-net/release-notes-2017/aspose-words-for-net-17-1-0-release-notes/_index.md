@@ -121,50 +121,31 @@ When dealing with very large and complex documents Aspose.Words sometimes had pr
 
 We've introduced an option to optimize memory consumption during these scenarios. When set to true it will improve document memory footprint but will add extra time to processing. This optimization is only applied during save operation.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets value determining if memory optimization should be performed before saving the document.
-
 /// Default value for this property is <b>false</b>.
-
 /// </summary>
-
 public bool MemoryOptimization {get;set;}
-
 {{< /highlight >}}
 ##### **Usage Example:**
-{{< highlight java >}}
-
- Document doc = new Document(@"myDoc.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(@"myDoc.docx");
 SaveOptions so = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
-
 so.MemoryOptimization = true;
-
 doc.Save("myFile.pdf", so);
-
 {{< /highlight >}}
 ### **FrameFormat Class for getting Frame related Properties of a Paragraph Added**
 Available to API users as Paragraph.FrameFormat. This class exposes all frame properties of paragraph in "readonly" mode
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Represents frame related formatting for a paragraph.
-
 /// </summary>
-
 /// <p>This object is always created. If a paragraph is a frame, then all properties will contain respective values, otherwise
-
 /// all properties are set to their defaults.</p>
-
 /// <p>Use <see cref="IsFrame" /> to check whether paragraph is a frame.</p>
-
 public class FrameFormat
-
 {{< /highlight >}}
 ### **WORDSNET-13482 - Feature to Insert Online Video Added**
 Starting from 17.1.0 Version, Aspose.Words supports inserting online video into the document.
@@ -175,20 +156,14 @@ The first one works with the most popular video resources and takes the URL to t
 
 Please see the following example:
 
-{{< highlight java >}}
-
- DocumentBuilder builder = new DocumentBuilder(doc);
+{{< highlight csharp >}}
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Pass direct url from youtu.be.
-
 string url = "https://youtu.be/t_1LYZ102RA";
-
 double width = 360;
-
 double height = 270;
-
 Shape shape = builder.InsertOnlineVideo(url, width, height);
-
 {{< /highlight >}}
 
 Simple insertion of online video from the following resources is supported:
@@ -201,30 +176,22 @@ The second overload works with all other video resources and takes embed Html co
 
 Please see the following example:
 
-{{< highlight java >}}
-
- DocumentBuilder builder = new DocumentBuilder(doc);
+{{< highlight csharp >}}
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Shape width/height.
-
 double width = 360;
-
 double height = 270;
 
 // Poster frame image.
-
 byte[] imageBytes = TestUtil.ReadAllBytes("TestImage.jpg");
 
 // Visible url
-
 string vimeoVideoUrl = @"https://vimeo.com/52477838";
 
 // Embed Html code.
-
 string vimeoEmbedCode = "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
-
 builder.InsertOnlineVideo(vimeoVideoUrl, vimeoEmbedCode, imageBytes, width, height);
-
 {{< /highlight >}}
 
 The Html code for embedding video can vary between providers, consult your corresponding provider of choice for details.
@@ -233,30 +200,20 @@ Please note: The document will be automatically optimized for MS Word 2013 to sh
 ### **WORDSNET-14405 - TxtSaveOptions.ForcePageBreaks Property Added**
 New public property ForcePageBreaks is added into the TxtSaveOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// <para>Allows to specify whether the page breaks should be preserved during export.</para>
-
 /// <para>The default value is <b>false</b>.</para>
-
 /// </summary>
-
 public bool ForcePageBreaks { get; set; }
-
 {{< /highlight >}}
 
 The property affects only page breaks that are inserted explicitly into a document. It is not related to page breaks that MS Word automatically inserts at the end of each page.
 
 **UC**
 
-{{< highlight java >}}
-
- TxtSaveOptions saveOptions = new TxtSaveOptions();
-
+{{< highlight csharp >}}
+TxtSaveOptions saveOptions = new TxtSaveOptions();
 saveOptions.ForcePageBreaks = true;
-
 document.Save(fileName, saveOptions);
-
 {{< /highlight >}}

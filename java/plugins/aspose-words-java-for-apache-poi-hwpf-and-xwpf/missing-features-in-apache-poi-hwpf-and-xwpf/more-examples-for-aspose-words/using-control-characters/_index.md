@@ -10,10 +10,8 @@ The **ControlChar** class is a repository for the constants that represent con
 
 **Java**
 
-{{< highlight java >}}
-
- text.replace(ControlChar.CR, ControlChar.CR_LF);
-
+{{< highlight csharp >}}
+text.replace(ControlChar.CR, ControlChar.CR_LF);
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Using Control Characters** form any of the below mentioned social coding sites:

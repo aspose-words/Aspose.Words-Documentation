@@ -10,17 +10,11 @@ For joining and appending using Aspose.Words Java Apis in Python, simply use app
 
 **Python Code**
 
-{{< highlight java >}}
-
- dstDoc = self.Document(self.gDataDir + "TestFile.Destination.doc")
-
+{{< highlight csharp >}}
+dstDoc = self.Document(self.gDataDir + "TestFile.Destination.doc")
 srcDoc = self.Document(self.gDataDir + "TestFile.Source.doc")
-
 \# Append the source document to the destination document using no extra options.
-
 dstDoc.appendDocument(srcDoc, self.ImportFormatMode.KEEP_SOURCE_FORMATTING)
-
-
 {{< /highlight >}}
 ## **Download Running Code**
 Download **Joining And Appending (Aspose.Words)** form any of the below mentioned social coding sites:

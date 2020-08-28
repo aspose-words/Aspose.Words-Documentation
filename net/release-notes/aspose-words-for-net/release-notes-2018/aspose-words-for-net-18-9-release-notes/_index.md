@@ -114,127 +114,82 @@ WORDSNET-721 has now been resolved.
 The bookmark nodes are allowed to be placed on the block, cell and row levels now. In the previous versions bookmarks were moved into the next nearest paragraph on document loading. So, now on reading/saving DOCX, DOC, WML documents, bookmarks preserve their positions in document node structure.
 The following public properties have been added into the LoadOptions class to control the mentioned behavior.
 
-{{< highlight java >}}
-
- /// <summary>
-
-/// Gets or sets a flag indicating whether cross structure annotation nodes can be added at block/cell/row level (<see cref="Node.NodeLevel"/>).
-
-/// </summary>
-
-/// <remarks>
-
-/// Currently only bookmarks are affected by this option.
-
-/// </remarks>
-
-public bool AnnotationsAtBlockLevel { get; set; }
-
+{{< highlight csharp >}}
 /// <summary>
-
-/// Gets or sets a default value for the <see cref="AnnotationsAtBlockLevel"/> property.
-
+/// Gets or sets a flag indicating whether cross structure annotation nodes can be added at block/cell/row level (<see cref="Node.NodeLevel"/>).
 /// </summary>
-
 /// <remarks>
-
-/// Allows defining necessary behaviour when an instance of <see cref="LoadOptions"/> is not specified on opening a document.
-
+/// Currently only bookmarks are affected by this option.
 /// </remarks>
-
+public bool AnnotationsAtBlockLevel { get; set; }
+/// <summary>
+/// Gets or sets a default value for the <see cref="AnnotationsAtBlockLevel"/> property.
+/// </summary>
+/// <remarks>
+/// Allows defining necessary behaviour when an instance of <see cref="LoadOptions"/> is not specified on opening a document.
+/// </remarks>
 public static bool AnnotationsAtBlockLevelAsDefault { get; set; }
-
 {{< /highlight >}}
 
 Now code that uses Aspose.Words should consider that not only composite nodes may appear on the block/cell/row level, for example, as children of the Body, Table, Row, Cell nodes.
 Setting the AnnotationsAtBlockLevelAsDefault property to **false** allows temporarily prevent possible issues with the existing code. But please note that the property may become obsolete in the further versions of the software.
 ##### **UC to open a document in the inline-bookmarks mode**
-{{< highlight java >}}
-
- LoadOptions options = new LoadOptions();
-
+{{< highlight csharp >}}
+LoadOptions options = new LoadOptions();
 options.AnnotationsAtBlockLevel = false;
-
 Document doc = new Document(myDir + "Document1.docx", options);
-
 {{< /highlight >}}
 ##### **UC to set the “old” mode as default**
-{{< highlight java >}}
-
- LoadOptions.AnnotationsAtBlockLevelAsDefault = false;
-
+{{< highlight csharp >}}
+LoadOptions.AnnotationsAtBlockLevelAsDefault = false;
 {{< /highlight >}}
 ### **Added LoadOption to Treat Shapes with Math XML as Shapes in Model**
 WORDSNET-16540 has now been resolved.
 
 The "ConvertShapeToOfficeMath" property has been added to "LoadOptions" class.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets whether to convert shapes with EquationXML to Office Math objects.
-
 /// </summary>
-
 public bool ConvertShapeToOfficeMath
-
 {
-
     get { return mConvertShapeToOfficeMath; }
-
     set { mConvertShapeToOfficeMath = value; }
-
 }
-
 {{< /highlight >}}
 
 Default value corresponds to MS Word behaviour i.e. shapes with equation XML are not converted to Office math objects.
 
 Use case:
 
-{{< highlight java >}}
-
- LoadOptions lo = new LoadOptions();
-
+{{< highlight csharp >}}
+LoadOptions lo = new LoadOptions();
 lo.ConvertShapeToOfficeMath = true;
 
 // Specify load option to use previous default behaviour i.e. convert math shapes to office math ojects on loading stage.
-
 Document doc = new Document("SrcFile.docx", lo);
-
 {{< /highlight >}}
 ### **Option to Choose Between Old and New Mail Merge Behaviors Added**
 WORDSNET-17313 has now been resolved.
 
 We had a customer (issue: WORDSNET-17259) who was not happy with the current Aspose.Words behavior related to the IF fields evaluation during mail merge. They were relying on the fact that the merge fields and regions located in the "false" argument of the IF field ("false" meaning the argument that does not match the condition) were merged in the past along with the "true" argument. This behavior was changed over time to mimic MS Word and at the moment it matches MS Word (the "false" argument is not merged); however the customer considered it a regression and wanted the old behavior back. To satisfy them, we decided to introduce an option controlling the behavior.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition.
-
 /// </summary>
-
 /// <remarks>
-
 /// The default value is <b>false</b>.
-
 /// </remarks>
-
 public bool UnconditionalMergeFieldsAndRegions
-
 {{< /highlight >}}
 
 Use case:
 
-{{< highlight java >}}
-
- document.MailMerge.UnconditionalMergeFieldsAndRegions = true;
-
+{{< highlight csharp >}}
+document.MailMerge.UnconditionalMergeFieldsAndRegions = true;
 document.MailMerge.Execute(dataSource);
-
 {{< /highlight >}}
 ### **Improved PDF encryption in Case when Owner Password is not Specified**
 WORDSNET-17316 has now been resolved.

@@ -16,11 +16,8 @@ Earlier the field "NameOfApplication" in document properties contained product n
 Public API for controlling colors of Move revisions for rendering to fixed formats are added. RevisionOptions class now has the following two new public read-write properties:
 
 {{< highlight csharp >}}
-
- public RevisionColor MovedFromTextColor
-
+public RevisionColor MovedFromTextColor
 public RevisionColor MovedToTextColor
-
 {{< /highlight >}}
 ### **Style.Aliases Property Added**
 Style.Aliases property now returns all aliases of the style as string[]. If style has no aliases then empty array of string is returned.

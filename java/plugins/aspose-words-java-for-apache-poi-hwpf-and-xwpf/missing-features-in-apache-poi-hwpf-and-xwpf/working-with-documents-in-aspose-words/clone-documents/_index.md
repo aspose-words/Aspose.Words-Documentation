@@ -10,14 +10,10 @@ To clone documents using Aspose.Words, simply invoke the deepClone() method of D
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document(dataDir + "document.doc");
-
+{{< highlight csharp >}}
+Document doc = new Document(dataDir + "document.doc");
 Document clone = doc.deepClone();
-
 clone.save(dataDir + "AsposeClone.doc", SaveFormat.DOC);
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

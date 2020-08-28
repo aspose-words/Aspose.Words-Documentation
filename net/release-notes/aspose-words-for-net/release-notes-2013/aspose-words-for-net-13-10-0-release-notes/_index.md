@@ -67,10 +67,10 @@ There are 169 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-7695|Cell shading color is not imported from background-color CSS|Bug|
 |WORDSNET-7700|ul and li css styles are imported incorrectly|Bug|
 |WORDSNET-7701|CSS embedded in HTML file is not applied to DIV|Bug|
-|WORDSNET-7789|margin-left style attribute of <body> is ignored during importing Html|Bug|
+|WORDSNET-7789|margin-left style attribute of &lt;body&gt; is ignored during importing Html|Bug|
 |WORDSNET-7878|Unwanted borders around Runs are observed in DOCX that is imported from HTML|Bug|
 |WORDSNET-7890|Consider Importing all Table formatting from CSS in HTML|Bug|
-|WORDSNET-7922|Border style attribute of <table> is not imported from Html|Bug|
+|WORDSNET-7922|Border style attribute of &lt;table&gt; is not imported from Html|Bug|
 |WORDSNET-8025|Exception while converting Docx to HTML|Bug|
 |WORDSNET-8177|Aspose.Words hangs during rendering ODT to Pdf|Bug|
 |WORDSNET-8364|Debug.Assert fails in BorderGrid.CorrectParagraphPoints()|Bug|
@@ -90,7 +90,7 @@ There are 169 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8750|Table left indent is not preserved during DOC->HTML->DOC roundtrip|Bug|
 |WORDSNET-8783|Contents position is changed in output Pdf after conversion from Docx|Bug|
 |WORDSNET-8785|HtmlFixedSaveOptions.ResourcesFolder is not working|Bug|
-|WORDSNET-8825|Incorrect font is applied to Paragraphs when importing <p> tags from Html|Bug|
+|WORDSNET-8825|Incorrect font is applied to Paragraphs when importing &lt;p&gt; tags from Html|Bug|
 |WORDSNET-8830|Header and footer do not render correctly in output Pdf file|Bug|
 |WORDSNET-8839|Document.UpdateFields removes content of TOC field|Bug|
 |WORDSNET-8853|Blank pages are being inserted during appending documents|Bug|
@@ -104,7 +104,7 @@ There are 169 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8992|Strikethrough effect applied on white spaces should not be displayed in Pdf|Bug|
 |WORDSNET-8995|Incorrect page count|Bug|
 |WORDSNET-9016|0px image border becomes visible after import from HTML file|Bug|
-|WORDSNET-9024|CSS style of <p> elements affects text of other elements|Bug|
+|WORDSNET-9024|CSS style of &lt;p&gt; elements affects text of other elements|Bug|
 |WORDSNET-9054|Charts images become distorted during exporting to HTML|Bug|
 |WORDSNET-9063|Pictures within RTF file when saved to pdf are positioned incorrectly.|Bug|
 |WORDSNET-9072|Doc to Pdf conversion issue with mathematical formulas rendering|Bug|
@@ -179,7 +179,7 @@ There are 169 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-4957|Table looks incorrectly|Feature|
 |WORDSNET-6460|While converting HTML to EPUB, embedded CSS is malfunctioning|Feature|
 |WORDSNET-6546|Support importing nested CSS selectors from HTML|Feature|
-|WORDSNET-6716|Support 'style' attribute of <h1> ... <h6>|Feature|
+|WORDSNET-6716|Support 'style' attribute of &lt;h1&gt; ... &lt;h6&gt;|Feature|
 |WORDSNET-7436|Border style is applied to a cell's text (to a child paragraph) instead of to the cell itself|Feature|
 |WORDSNET-7442|DocumentBuilder.InsertHtml supports only styles from CSS|Feature|
 |WORDSNET-8195|Font-family specified inside paragraph style is changed after HTML import.|Feature|

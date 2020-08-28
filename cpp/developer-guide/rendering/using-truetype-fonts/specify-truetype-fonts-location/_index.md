@@ -62,23 +62,14 @@ For instance, according to Android’s [fonts.xml](http://androidxref.com/9.0.0
 **Fonts.xml**
 
 {{< highlight html >}}
-
- <family name="serif">
-
+<family name="serif">
         <font weight="400" style="normal">NotoSerif-Regular.ttf</font>
-
         <font weight="700" style="normal">NotoSerif-Bold.ttf</font>
-
         <font weight="400" style="italic">NotoSerif-Italic.ttf</font>
-
         <font weight="700" style="italic">NotoSerif-BoldItalic.ttf</font>
-
 </family>
-
 <alias name="times" to="serif" />
-
 <alias name="times new roman" to="serif" />
-
 {{< /highlight >}}
 
 To search for similar fonts, the strategies described earlier are used. 
@@ -97,20 +88,16 @@ The Aspose.Words looks through user-defined sources which was set with the metho
 
 **Java**
 
-{{< highlight java >}}
-
- fontSettings->SetFontsFolder(u"C:\\MyFonts\\", true);
-
+{{< highlight csharp >}}
+fontSettings->SetFontsFolder(u"C:\\MyFonts\\", true);
 {{< /highlight >}}
 
 In case an explicit replacement has been specified, Aspose.Words replaces the missing font with the user's suggestion:
 
 **Java**
 
-{{< highlight java >}}
-
- fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitutes(u"PMingLiU-ExtB", System::MakeArray<System::String>({ u"Liberation Serif" }));
-
+{{< highlight csharp >}}
+fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitutes(u"PMingLiU-ExtB", System::MakeArray<System::String>({ u"Liberation Serif" }));
 {{< /highlight >}}
 
 If none of the rules worked, Aspose.Words check the internal replacement table. If the table contains information about a good fit then the font gets replaced. In our case Aspose.Words will select Typeface.SERIF. But if the table doesn’t know anything about the requested font then Aspose.Words picks up a font based on special MS Word rules or the closest distance in Panose space.
@@ -120,10 +107,8 @@ The list of folders where the search will be performed can be found by calling t
 
 **Java**
 
-{{< highlight java >}}
-
- SystemFontSource()->GetAvailableFonts()
-
+{{< highlight csharp >}}
+SystemFontSource()->GetAvailableFonts()
 {{< /highlight >}}
 ## **Loading Fonts from Folder**
 If the document being processed contains links to fonts that are not on the system, or you don't want to add them to the system folder, or you lack permissions, then the best solution would be to add a folder with your own fonts using the [SetFontsSources](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#a4815c34e68e313bc3f6d8eb7ca6097d6) method. This will allow replacing the system source with a user source. Aspose.Words will no longer look for fonts in the registry or Windows\Font folder and instead only scan for fonts within the specified folder(s). The [GetFontSources](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#ae6f47148d3dec9f25d37791827cf8ab2) method will return the corresponding values.
@@ -153,11 +138,8 @@ If you don’t want to use system fonts at all, Aspose.Words allows you to ignor
 **C++**
 
 {{< highlight cpp >}}
-
- System::SharedPtr<FontSettings> fontSettings = System::MakeObject<FontSettings>()->get_DefaultInstance();
-
+System::SharedPtr<FontSettings> fontSettings = System::MakeObject<FontSettings>()->get_DefaultInstance();
 fontSettings->SetFontsFolder(u"C:\\MyFonts\\", true);
-
 {{< /highlight >}}
 
 
@@ -167,9 +149,7 @@ The [Priority](https://apireference.aspose.com/words/cpp/class/aspose.words.fon
 **C++**
 
 {{< highlight cpp >}}
-
- System::SharedPtr<FolderFontSource> folderFontSource = System::MakeObject<FolderFontSource>(u"C:\\MyFonts\\", true, 1);
-
+System::SharedPtr<FolderFontSource> folderFontSource = System::MakeObject<FolderFontSource>(u"C:\\MyFonts\\", true, 1);
 {{< /highlight >}}
 ## **Loading Fonts from Stream**
 Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/#af64ded16125328a45fdaee65f193f748) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) lifetime.

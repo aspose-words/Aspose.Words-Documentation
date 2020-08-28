@@ -110,46 +110,30 @@ WORDSNET-15686 has been resolved. While working on WORDSNET-15686, we have added
 
 LoadOptions:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies whether to update the fields with the <c>dirty</c> attribute.
-
 /// </summary>
-
 public bool UpdateDirtyFields
-
 {{< /highlight >}}
 
 Field:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
-
 /// </summary>
-
 public bool IsDirty
-
 {{< /highlight >}}
 
 FieldChar:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications
-
 /// made to the document.
-
 /// </summary>
-
 public bool IsDirty
-
 {{< /highlight >}}
 
 When LoadOptions.UpdateDirtyFields == true, all fields having Field.IsDirty == true or FieldChar.IsDirty == true are updated on document load.
@@ -158,98 +142,62 @@ When LoadOptions.UpdateDirtyFields == true, all fields having Field.IsDirty == t
 ### **Added OdtSaveOptions.MeasureUnit Property**
 WORDSNET-15425 has been resolved. Public property added to OdtSaveOptions class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Allows to specify units of measure to apply to document content.
-
 /// The default value is <see cref="OdtSaveMeasureUnit.Centimeters"/>
-
 /// </summary>
-
 /// <remarks>
-
 /// Open Office uses centimeters when specifying lengths, widths and other measurable formatting and&nbsp;
-
 /// content properties in documents whereas MS Office uses inches.
-
 ///</remarks>
-
 public OdtSaveMeasureUnit MeasureUnit
-
 {{< /highlight >}}
 
 **Use case:**
 
-{{< highlight java >}}
-
- Document doc = TestUtil.Open("XXX.docx");
-
+{{< highlight csharp >}}
+Document doc = TestUtil.Open("XXX.docx");
 OdtSaveOptions saveOptions = new OdtSaveOptions();
-
 saveOptions.MeasureUnit = OdtSaveMeasureUnit.Inches;
-
 doc.Save("ХХХ.odt", saveOptions);
-
 {{< /highlight >}}
 ### **Added Public Method AsposeWordsPrintDocument.CachePrinterSettings**
 Related issue WORDSNET-15162.
 Public method added to AsposeWordsPrintDocument class:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Reads and caches some fields of <see cref="PrinterSettings"/>
-
 /// to reduce printing time.
-
 /// </summary>
-
 /// <remarks>
-
 /// This method is called before the printing starts if it wasn't executed previously.
-
 /// </remarks>
-
 public void CachePrinterSettings()
-
 {{< /highlight >}}
 
 Use case:
 
-{{< highlight java >}}
-
- Document doc = new Document ("Simple.docx");
+{{< highlight csharp >}}
+Document doc = new Document ("Simple.docx");
 
 // Build layout.
-
 doc.UpdatePageLayout();
 
 // Create settings, setup printing.
-
 PrinterSettings settings = new PrinterSettings();
-
 settings.PrinterName = "Microsoft XPS Document Writer";
-
 ...
 
 // Create AsposeWordsPrintDocument  and cache settings.
-
 AsposeWordsPrintDocument printDocument = new AsposeWordsPrintDocument(doc);
-
 printDocument.PrinterSettings = settings;
-
 printDocument.CachePrinterSettings();
 
-
 // Do something.
-
 ...
-
 printDocument.Print();
-
 {{< /highlight >}}
 
 Please note that total time of printing with and without call to CachePrinterSettings() is almost the same.
@@ -257,16 +205,11 @@ The goal of this method is to reduce time of first call of Print() method.
 ### **Added Public Method StructuredDocumentTag.Clear**
 Ability to clear contents of a content control with displaying a placeholder is implemented.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Clears contents of this structured document tag and displays a placeholder if it is defined.
-
 /// </summary>
-
 public void Clear()
-
 {{< /highlight >}}
 
 It is not possible to clear contents of a content control if it has revisions. Also, the method does nothing for row-level content controls that have more than one cell (limitation of MS Word).
@@ -275,142 +218,87 @@ If a content control is mapped to custom XML, the referenced XML node is cleared
 
 Example of use:
 
-{{< highlight java >}}
-
- Document doc = new Document(myDir + "document1.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(myDir + "document1.docx");
 StructuredDocumentTag sdt = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
-
 sdt.Clear();
-
 doc.Save(myDir + "document1.docx");
-
 {{< /highlight >}}
 ### **Added Public Property List.IsRestartAtEachSection.**
 Related issue: WORDSNET-15054
 
 Public property added to the List class to support backward compatibility upon Mail Merge, please see [WORDSNET-15054](http://auckland.dynabic.com/jira/browse/WORDSNET-15054).
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Specifies whether list should be restarted at each section.
-
 /// Default value is <b>false</b>.
-
 /// </summary>
-
 /// <remarks>
-
 /// <p>This option is supported only in RTF, DOC and DOCX document formats.</p>
-
 /// <p>This option will be written to DOCX only if <see cref="OoxmlCompliance"/> is higher then <see cref="OoxmlComplianceCore.Ecma376"/>.</p>
-
 /// </remarks>
-
 public bool IsRestartAtEachSection
-
 {{< /highlight >}}
 
 **Use case:**
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 doc.Lists.Add(ListTemplate.NumberDefault);
-
 List list = doc.Lists[0];
 
 // Set true to specify that the list has to be restarted at each section.
-
 list.IsRestartAtEachSection = true;
-
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.ListFormat.List = list;
-
 for (int i = 1; i < 45; i++)
-
 {
-
 	builder.Writeln(String.Format("List Item {0}", i));
 
 	// Insert section break.
-
 	if (i == 15)
-
 		builder.InsertBreak(BreakType.SectionBreakNewPage);
-
 }
 
 // IsRestartAtEachSection will be written only if compliance is higher then OoxmlComplianceCore.Ecma376
-
 OoxmlSaveOptions options = new OoxmlSaveOptions();
-
 options.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
-
 doc.Save("out.docx", options);
-
 {{< /highlight >}}
 
 Here is the code snippet for backward compatibility upon Mail Merge:
 
-{{< highlight java >}}
-
- Dictionary<List, bool> lists = new Dictionary<List, bool>();
-
+{{< highlight csharp >}}
+Dictionary<List, bool> lists = new Dictionary<List, bool>();
 foreach (List list in document.Lists)
-
 	lists[list] = list.IsRestartAtEachSection;
-
 document.MailMerge.Execute(...);
-
 foreach (KeyValuePair<List, bool> pair in lists)
-
 	pair.Key.IsRestartAtEachSection = pair.Value
-
 {{< /highlight >}}
 ### **Added SaveOptions.UpdateLastSavedTimeProperty Property**
 Reference: WORDSNET-7912
 
 While working on WORDSNET-7912, we have added the SaveOptions.UpdateLastSavedTimeProperty property that controls whether to update the corresponding built-in document property on document save.
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a value determining whether the <see cref="BuiltInDocumentProperties.LastSavedTime" /> property is updated before saving.
-
 /// </summary>
-
 public bool UpdateLastSavedTimeProperty
-
 {{< /highlight >}}
 
-{{< highlight java >}}
-
- [Test]
-
+{{< highlight csharp >}}
+[Test]
 public void TestJira7912([Values(true, false)]bool updateLastSavedTimeProperty)
-
 {
-
     Document document = new Document();
-
     using (Stream stream = new MemoryStream())
-
         document.Save(stream, new OoxmlSaveOptions { UpdateLastSavedTimeProperty = updateLastSavedTimeProperty });
-
     DateTime expected = updateLastSavedTimeProperty
-
         ? DateTimeUtil.UnitTestingDateTime
-
         : DateTime.MinValue;
-
     Assert.AreEqual(expected, document.BuiltInDocumentProperties.LastSavedTime);
-
 }
-
 {{< /highlight >}}

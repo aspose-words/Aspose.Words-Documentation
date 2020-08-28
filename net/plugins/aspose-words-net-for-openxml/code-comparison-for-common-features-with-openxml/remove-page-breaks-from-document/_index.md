@@ -8,88 +8,51 @@ url: /net/remove-page-breaks-from-document/
 ### **OpenXML**
 Below is the code example for removing page breaks from MS Word Document.
 
-{{< highlight cs >}}
-
-   string FilePath = @"..\..\..\..\Sample Files\";
-
+{{< highlight csharp >}}
+  string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Page Breaks.docx";
-
   RemovePageBreaks(fileName);
-
   static void RemovePageBreaks(string filename)
-
   {
-
      using (WordprocessingDocument myDoc = WordprocessingDocument.Open(filename, true))
-
      {
-
         MainDocumentPart mainPart = myDoc.MainDocumentPart;
-
         List<Break> breaks = mainPart.Document.Descendants<Break>().ToList();
-
         foreach (Break b in breaks)
-
         {
-
            b.Remove();
-
         }
-
         mainPart.Document.Save();
-
      }
-
   }
-
 {{< /highlight >}}
 ### **Aspose.Words**
 Below is the code example for removing page breaks from MS Word Document using Aspose.Words.
 
-{{< highlight cs >}}
-
-   string FilePath = @"..\..\..\..\Sample Files\";
-
+{{< highlight csharp >}}
+  string FilePath = @"..\..\..\..\Sample Files\";
   string fileName = FilePath + "Remove Page Breaks.docx";
-
   Document doc = new Document(fileName);
-
   RemovePageBreaks(doc);
-
   private static void RemovePageBreaks(Document doc)
-
   {
-
     // Retrieve all paragraphs in the document.
-
     NodeCollection paragraphs = doc.GetChildNodes(NodeType.Paragraph, true);
 
     // Iterate through all paragraphs
-
     foreach (Paragraph para in paragraphs)
-
     {
-
       // If the paragraph has a page break before set then clear it.
-
       if (para.ParagraphFormat.PageBreakBefore)
-
       para.ParagraphFormat.PageBreakBefore = false;
 
       // Check all runs in the paragraph for page breaks and remove them.
-
       foreach (Run run in para.Runs)
-
       {
-
         if (run.Text.Contains(ControlChar.PageBreak))
-
         run.Text = run.Text.Replace(ControlChar.PageBreak, string.Empty);
-
       }
-
     }
-
 {{< /highlight >}}
 ### **Download Running Example**
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)

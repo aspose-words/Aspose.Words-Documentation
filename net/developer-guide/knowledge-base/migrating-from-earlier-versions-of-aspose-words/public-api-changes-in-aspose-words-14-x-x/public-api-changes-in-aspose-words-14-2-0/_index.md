@@ -16,37 +16,28 @@ This option allows to get or set a flag which indicates whether the styles in th
 **Usage**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 doc.AttachedTemplate = "MyTemplate.dot";
 
 // True if the styles in the specified document are updated to match the styles in the attached template each time the document is opened.
-
 doc.AutomaticallyUpdateSyles = true;
-
 doc.Save("out.docx");
-
 {{< /highlight >}}
 
 When the document (with this option set) is reopened in Microsoft Word, changes to the styles in the attached template will automatically appear in this document. Also, please note that Aspose.Words does not use this flag to update styles upon document loading.
 ### **Document.CompatibilityOptions.OptimizeFor Added to the Public API**
 This version of Aspose.Words exposes **Document.CompatibilityOptions.OptimizeFor** method and **MsWordVersion** enum which allows to fine-tune Aspose.Words behavior to match particular Microsoft Word version as well as to suppress Microsoft Word compatibility-mode ribbon for Aspose.Words generated documents.
 
-{{< highlight java >}}
-
- Document doc = new Document();
+{{< highlight csharp >}}
+Document doc = new Document();
 
 // Initialize compatibility options to Word 2010 default values.
 
 // OptimizeFor also affects the way the AW is and will be handling MSW-version specific features.
 
 // For example default built-in styles will be a bit different for older MSW versions.
-
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
-
 doc.Save("myDocMimickingMsWord2010.docx");
-
 {{< /highlight >}}
 
 The complete list of Microsoft Word version specific nuances across Aspose.Words is not yet available but there are known differences that exist in Layout, Fields and the Model.
@@ -58,15 +49,10 @@ Aspose.Words' layout engine now supports Hyphenation. However, to be able to use
 **Usage**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(@"C:\Temp\in.doc");
-
+Document doc = new Document(@"C:\Temp\in.doc");
 Hyphenation.RegisterDictionary("en-US", @"C:\HyphDic\hyph_en_US.dic");
-
 Hyphenation.RegisterDictionary("de-CH", @"C:\HyphDic\hyph_de_CH.dic");
-
 doc.Save(@"C:\Temp\out.pdf");
-
 {{< /highlight >}}
 
 [This page lists Hunspell spell checker dictionaries](http://archive.services.openoffice.org/pub/mirror/OpenOffice.org/contrib/dictionaries/) that can be used with Aspose.Words
@@ -81,23 +67,16 @@ Aspose.Words now supports loading digital signatures from XPS documents. The u
 **UC1**
 
 {{< highlight csharp >}}
-
- DigitalSignatureCollection signatures = DigitalSignatureUtil.LoadSignatures(@"X:\test.xps");
-
+DigitalSignatureCollection signatures = DigitalSignatureUtil.LoadSignatures(@"X:\test.xps");
 Assert.IsTrue(signatures[0].IsValid);
-
 {{< /highlight >}}
 
 **UC2**
 
 {{< highlight csharp >}}
-
- Stream stream = File.OpenRead(@"X:\test.docx");
-
+Stream stream = File.OpenRead(@"X:\test.docx");
 DigitalSignatureCollection signatures = DigitalSignatureUtil.LoadSignatures(stream);
-
 Assert.IsTrue(signatures[0].IsValid);
-
 {{< /highlight >}}
 
 This method can also be used to load signatures from DOC, DOCX and ODT files as well. It returns empty collection if file is not signed.

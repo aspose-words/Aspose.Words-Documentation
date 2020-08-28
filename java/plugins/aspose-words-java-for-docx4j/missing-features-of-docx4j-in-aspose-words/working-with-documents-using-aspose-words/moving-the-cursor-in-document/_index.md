@@ -10,32 +10,21 @@ If you need to move to the beginning of the document, call **DocumentBuilder.mo
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document(dataDir + "document.doc");
-
+{{< highlight csharp >}}
+Document doc = new Document(dataDir + "document.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 //Shows how to access the current node in a document builder.
-
 Node curNode = builder.getCurrentNode();
-
 Paragraph curParagraph = builder.getCurrentParagraph();
 
 // Shows how to move a cursor position to a specified node.
-
 builder.moveTo(doc.getFirstSection().getBody().getLastParagraph());
 
 // Shows how to move a cursor position to the beginning or end of a document.
-
 builder.moveToDocumentEnd();
-
 builder.writeln("This is the end of the document.");
-
 builder.moveToDocumentStart();
-
 builder.writeln("This is the beginning of the document.");
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

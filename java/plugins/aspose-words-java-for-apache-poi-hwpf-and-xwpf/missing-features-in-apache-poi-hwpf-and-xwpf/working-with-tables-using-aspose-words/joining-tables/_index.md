@@ -12,28 +12,22 @@ In order to manipulate a table to split or join with another table we simply nee
 
 **Java**
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Get the first and second table in the document.
+// Get the first and second table in the document.
 
 // The rows from the second table will be appended to the end of the first table.
-
 Table firstTable = (Table)doc.getChild(NodeType.TABLE, 0, true);
-
 Table secondTable = (Table)doc.getChild(NodeType.TABLE, 1, true);
 
 // Append all rows from the current table to the next.
 
 // Due to the design of tables even tables with different cell count and widths can be joined into one table.
-
 while (secondTable.hasChildNodes())
-
     firstTable.getRows().add(secondTable.getFirstRow());
 
 // Remove the empty table container.
-
 secondTable.remove();
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)

@@ -10,26 +10,16 @@ Page setup and section properties are encapsulated in the **PageSetup** object
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document();
-
+{{< highlight csharp >}}
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 PageSetup pageSetup = builder.getPageSetup();
-
 pageSetup.setTopMargin(ConvertUtil.inchToPoint(0.5));
-
 pageSetup.setBottomMargin(ConvertUtil.inchToPoint(0.5));
-
 pageSetup.setLeftMargin(ConvertUtil.inchToPoint(0.5));
-
 pageSetup.setRightMargin(ConvertUtil.inchToPoint(0.5));
-
 pageSetup.setHeaderDistance(ConvertUtil.inchToPoint(0.2));
-
 pageSetup.setFooterDistance(ConvertUtil.inchToPoint(0.2));
-
 {{< /highlight >}}
 ## **Download Running Code**
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)

@@ -38,33 +38,23 @@ To fix your code so that fixed widths are used as in previous versions, you need
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Keep a reference to the table being built.
-
 Table table = builder.startTable();
 
 // Apply some formatting.
-
 builder.getCellFormat().setWidth(100);
-
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
-
 builder.insertCell();
 
 // This will cause the table to be structured using column widths as in previous verisons
 
 // instead of fitted to the page width like in the newer versions.
-
 table.autoFit(AutoFitBehavior.FIXED_COLUMN_WIDTHS);
 
 // Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 
 On the other hand, if you were previously attempting to fit a table to the page width by using the following code, you can now remove this as tables are fit to the window by default.
@@ -80,25 +70,17 @@ To fix this in the new version you need to specify that tables should not have a
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Keep a reference to the table being built.
-
 Table table = builder.startTable();
-
 builder.insertCell();
 
 // Clear all borders to match the defaults used in previous versions.
-
 table.clearBorders();
 
 // Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
@@ -114,27 +96,19 @@ This occurs when the new table-wide formatting such as **Table.Alignment** or **
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Keep a reference to the table being built.
-
 Table table = builder.startTable();
 
 // We must first insert a new cell which in turn inserts a row into the table.
-
 builder.insertCell();
 
 // Once a row exists in our table we can apply table wide formatting.
-
 table.setAllowAutoFit(true);
 
 // Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 #### **Row Formatting is not Applied to Subsequent Rows**
 Currently you may find that custom row formatting such as **RowFormat.Height** or **RowFormat.HeadingFormat** does not take effect and instead the formatting of the previous row is used instead is used for these members instead. 
@@ -146,27 +120,18 @@ This has been recognized as a temporary bug and will be fixed in one of the next
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document();
-
+Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.startTable();
 
 // For the first row this will be set correctly.
-
 builder.getRowFormat().setHeadingFormat(true);
-
 builder.insertCell();
-
 builder.writeln("Text");
-
 builder.insertCell();
-
 builder.writeln("Text");
 
 // End the first row.
-
 builder.endRow();
 
 // Here we would normally define some other row formatting, such as disabling the
@@ -174,17 +139,12 @@ builder.endRow();
 // heading format. However at the moment this will be ignored and the value from the
 
 // first row reapplied to the row.
-
 builder.insertCell();
 
 // Instead make sure to specify the row formatting for the second row here.
-
 builder.getRowFormat().setHeadingFormat(false);
 
 // Continue with building your table as usual...
-
-
-
 {{< /highlight >}}
 #### **Appearance of Tables Differs when Rendering to a Fixed Page Format**
 At the moment there may be a some differences in how tables appear when saving to a flow based format (e.g DOC, DOCX, RTF) and rendering to a fixed page format (e.g PDF, XPS, SWF etc). The tables in the rendered format may appear different or may extend outside the page.
@@ -196,19 +156,14 @@ Such occurrences are recognized as temporary bugs and will be fixed in future re
 **Java**
 
 {{< highlight csharp >}}
-
- Document doc = new Document(getMyDir() + "Document.doc");
+Document doc = new Document(getMyDir() + "Document.doc");
 
 // Normally this method is not necessary to call, as cell and table widths are maintained automatically.
 
 // This method may need to be called when exporting to PDF in rare cases when the table layout appears
 
 // incorrectly in the rendered output.
-
 doc.updateTableLayout();
-
-
-
 {{< /highlight >}}
 #### **Why are some Row Formatting Members now Obsolete**
 In previous versions table formatting was applied by setting properties in **RowFormat** for every row on the table. With the new version of Aspose.Words you can now set these properties by using a one line call on the **Table** object instead.

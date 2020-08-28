@@ -110,139 +110,89 @@ A customer requested a feature supported by Word where you can surround a colon
 
 We could just hard-code the new Aspose.Words behavior but did not want to introduce something that could be treated as a regression. Given that, we have added another option:
 
-{{< highlight java >}}
-
- /// <summary>
-
+{{< highlight csharp >}}
+/// <summary>
 /// Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty
-
 /// and should be removed if the <see cref="MailMergeCleanupOptions.RemoveEmptyParagraphs"/> option is specified.
-
 /// </summary>
-
 /// <remarks>
-
 /// The default value is <c>true</c>.
-
 /// </remarks>
-
 /// <remarks>
-
 /// Here is the complete list of cleanable punctuation marks:
-
 /// <list type="bullet">
-
 /// <item><description>!</description></item>
-
 /// <item><description>,</description></item>
-
 /// <item><description>.</description></item>
-
 /// <item><description>:</description></item>
-
 /// <item><description>;</description></item>
-
 /// <item><description>?</description></item>
-
 /// <item><description>¡</description></item>
-
 /// <item><description>¿</description></item>
-
 /// </list>
-
 /// </remarks>
-
 public bool CleanupParagraphsWithPunctuationMarks
-
 {
-
     get { return mCleanupParagraphsWithPunctuationMarks; }
-
     set { mCleanupParagraphsWithPunctuationMarks = value; }
-
 }
-
 {{< /highlight >}}
 
 *The default value of the option is* ***true*** *which means that the behavior was changed to mimic MS Word; however, the customers who rely on the old behavior are able to revert it by setting the option to* ***false**.*
 
 The following sample demonstrates this case:
 
-{{< highlight java >}}
-
- document.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
-
+{{< highlight csharp >}}
+document.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 document.MailMerge.CleanupParagraphsWithPunctuationMarks = false;
-
 document.MailMerge.Execute(new string[] {"field"}, new object[] {null});
-
 {{< /highlight >}}
 ### **Provide TxtSaveOptions.ExportHeadersFootersMode Property**
 ` `New public enum type was added:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Specifies the way headers and footers are exported to plain text format.
-
+// Specifies the way headers and footers are exported to plain text format.
 public enum TxtExportHeadersFootersMode
-
 {
-
     // No headers and footers are exported.
-
     None,
 
     // Only primary headers and footers are exported at the beginning and end of each section.
-
     PrimaryOnly,
 
     // All headers and footers are placed after all section bodies at the very end of a document.
-
     AllAtEnd
-
 }
-
 {{< /highlight >}}
 
 New public property was added to TxtSaveOptions class:
 
-{{< highlight java >}}
+{{< highlight csharp >}}
 
- // Specifies the way headers and footers are exported to the plain text format.
-
+// Specifies the way headers and footers are exported to the plain text format.
 public TxtExportHeadersFootersMode ExportHeadersFootersMode
-
 {{< /highlight >}}
 
 The main advantage of new property over the old TxtSaveOptions.ExportHeadersFooters property is that it has new headers and footers export mode: 'AllAtEnd'.
 In this mode Aspose.Words acts the way similar to MS Word: all headers and footers are placed after all section bodies at the very end of a document.
 #### **UC**
-{{< highlight java >}}
-
- Document doc = new Document ("inputFileName");
-
+{{< highlight csharp >}}
+Document doc = new Document ("inputFileName");
 TxtSaveOptions options = new TxtSaveOptions();
-
 options.SaveFormat = SaveFormat.Text;
 
 // All headers and footers are placed at the very end of the output document.
-
 options.ExportHeadersFootersMode = TxtExportHeadersFootersMode.AllAtEnd;
-
 doc.Save("outputFileNameA.txt", options);
 
 // Only primary headers and footers are exported at the beginning and end of each section.
-
 options.ExportHeadersFootersMode = TxtExportHeadersFootersMode.PrimaryOnly;
-
 doc.Save("outputFileNameB.txt", options);
 
 // No headers and footers are exported.
-
 options.ExportHeadersFootersMode = TxtExportHeadersFootersMode.None;
-
 doc.Save("outputFileNameC.txt", options);
-
 {{< /highlight >}}
 ### **Obsolete Property ShowRevisionBalloons was Removed from RevisionOptions Class**
 Obsolete property ShowRevisionBalloons was removed from RevisionOptions class. Please use ShowInBalloons property instead.

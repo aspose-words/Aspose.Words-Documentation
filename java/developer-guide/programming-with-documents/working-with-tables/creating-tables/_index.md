@@ -88,11 +88,8 @@ Below example shows how to remove all content from the cells of a cloned table.
 **Java**
 
 {{< highlight csharp >}}
-
- for (Cell cell : (Iterable<Cell>) tableClone.getChildNodes(NodeType.CELL, true))
-
+for (Cell cell : (Iterable<Cell>) tableClone.getChildNodes(NodeType.CELL, true))
     cell.removeAllChildren();
-
 {{< /highlight >}}
 
 The same technique can be used to add copies of an existing row to a table.

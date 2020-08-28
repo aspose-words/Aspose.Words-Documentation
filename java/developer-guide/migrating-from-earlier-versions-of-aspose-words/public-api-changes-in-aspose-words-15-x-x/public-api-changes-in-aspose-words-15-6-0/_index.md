@@ -23,10 +23,8 @@ New overload in DocumentBuilder allows inserting footnotes with custom marks:
 
 **Java**
 
-{{< highlight java >}}
-
- public Footnote DocumentBuilder.insertFootnote(FootnoteType footnoteType, String footnoteText, String referenceMark)
-
+{{< highlight csharp >}}
+public Footnote DocumentBuilder.insertFootnote(FootnoteType footnoteType, String footnoteText, String referenceMark)
 {{< /highlight >}}
 
 It inserts a footnote or endnote into the document and returns a footnote object that was just created. Here is description of parameters:
@@ -39,10 +37,8 @@ And also public writable property for adding custom mark:
 
 **Java**
 
-{{< highlight java >}}
-
- public String Footnote.ReferenceMark {get;set;}
-
+{{< highlight csharp >}}
+public String Footnote.ReferenceMark {get;set;}
 {{< /highlight >}}
 
 It is used to get/set- custom reference mark to be used for this footnote. Default value is empty string, meaning auto-numbered footnotes are used. If this property is set to empty string or null, then "IsAuto" property will automatically be set to true, if set to anything else then "IsAuto" will be set to false. RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.
@@ -63,10 +59,8 @@ WORDSNET-7893 is implemented now. A new WriteProtection.validatePassword method 
 
 **Java**
 
-{{< highlight java >}}
-
- public boolean validatePassword(String password);
-
+{{< highlight csharp >}}
+public boolean validatePassword(String password);
 {{< /highlight >}}
 
 It returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false.
@@ -74,18 +68,13 @@ Usage example is as follows:
 
 **Java**
 
-{{< highlight java >}}
-
- Document doc = new Document(getMyDir() + "in.docx");
-
+{{< highlight csharp >}}
+Document doc = new Document(getMyDir() + "in.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 if (doc.getWriteProtection().validatePassword("password"))
-
-    DoSomething(); // password is correct.
-
+    DoSomething();
+ // password is correct.
 else
-
-    return false; // password is incorrect.
-
+    return false;
+ // password is incorrect.
 {{< /highlight >}}

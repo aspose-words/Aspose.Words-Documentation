@@ -30,169 +30,90 @@ Implement the following method in your application:
 **C#**
 
 {{< highlight csharp >}}
-
- using System;
-
+using System;
 using System.IO;
-
 /// <summary>
-
 /// Renders a report located on Report Server to a Microsoft Word document on disk.
-
 /// </summary>
-
 /// <param name="reportName">The name of the report (including path) on Report Server.</param>
-
 /// <param name="fileName">The name of the resulting document (including path) on disk.</param>
-
 /// <param name="format">
-
 /// The export format, should be:
-
 /// "AWDOC" for DOC
-
 /// "AWDOCX" for DOCX
-
 /// "AWRTF" for RTF
-
 /// "AWWML" for WordML
-
 /// "AWHTML" for HTML
-
 /// "AWMHTML" for MHTML
-
 /// "AWODT" for ODT
-
 /// "AWTXT" for TXT
-
 /// "AWXPS" for XPS
-
 /// "AWEPUB" for EPUB
-
 /// </param>
-
 /// <param name="deviceInfo">
-
 /// The device info string as it would appear in rsreportserver.config, for example
-
 /// "<DeviceInfo><PageBreaksMode>OnEachPage</PageBreaksMode></DeviceInfo>". May be null.
-
 /// </param>
-
 private static void RenderReportToFile(
-
     string reportName, 
-
     string fileName,
-
     string format,
-
     string deviceInfo)
-
 {
-
     // Create Web service proxies.
-
     ReportingService2005.ReportingService2005 rs = new ReportingService2005.ReportingService2005();
-
     ReportExecutionService.ReportExecutionService rsExec = new ReportExecutionService.ReportExecutionService();
-
     try
-
     {
-
         string encoding;
-
         string mimeType;
-
         string extension;
-
         ReportExecutionService.Warning[] warnings;
-
         string[] streamIDs;
 
         // Load the report.
-
-        ReportExecutionService.ExecutionInfo info = rsExec.LoadReport(reportName, null); 
-
-
-
+        ReportExecutionService.ExecutionInfo info = rsExec.LoadReport(reportName, null);
+ 
         // Get if the report requires parameters set.
-
         ReportingService2005.ReportParameter[] parameters = rs.GetReportParameters(
-
             reportName,
-
             null,
-
             false,
-
             null,
-
             null);
 
         // Set report parameters if needed.
-
         if (parameters.Length > 0)
-
         {
-
             ReportExecutionService.ParameterValue value = new ReportExecutionService.ParameterValue();
-
             value.Label = "SalesOrderNumber";
-
             value.Name = "SalesOrderNumber";
-
             value.Value = "SO50750";
-
             ReportExecutionService.ParameterValue[] values = new ReportExecutionService.ParameterValue[1];
-
             values[0] = value;
-
             rsExec.SetExecutionParameters(values, "en-us");
-
         }
 
         // Render the report.
-
         byte[] reportBytes = rsExec.Render(
-
             format,
-
             deviceInfo,
-
             out extension,
-
             out mimeType,
-
             out encoding,
-
             out warnings,
-
             out streamIDs);
 
         // Write report bytes to a file.
-
         using (FileStream stream = File.OpenWrite(fileName))
-
             stream.Write(reportBytes, 0, reportBytes.Length);
-
     }
-
     catch (Exception ex)
-
     {
-
         // Exception handing code, such as
-
         // Console.WriteLine(ex);
-
     }
-
 }
-
-
-
 {{< /highlight >}}
 ##### **Step 4. Call the RenderReportToFile method.**
 You can call the **RenderReportToFile** method from any point of your application. The call might look like the following: 
@@ -200,19 +121,11 @@ You can call the **RenderReportToFile** method from any point of your applicatio
 **C#**
 
 {{< highlight csharp >}}
-
- RenderReportToFile(
-
+RenderReportToFile(
     @"/AdventureWorks Sample Reports/Sales Order Detail",
-
     @"C:\Work\Sales Order Detail.doc",
-
     "AWDOC",
-
     null);
-
-
-
 {{< /highlight >}}
 #### **Rendering via Report Viewer Working in Local Mode**
 If you use the Microsoft Report Viewer control in your application, you can use its capabilities to render local reports (RDL and RDLC) to Microsoft Word documents programmatically. Follow these steps (assuming you use Report Viewer 2005):
@@ -224,165 +137,90 @@ Implement the following method in your application:
 **C#**
 
 {{< highlight csharp >}}
-
- using System;
-
+using System;
 using System.Collections;
-
 using System.Collections.Generic;
-
 using System.Data;
-
 using System.IO;
-
 using System.Reflection;
-
 using System.Windows.Forms;
-
 using Aspose.Words.ReportingServices;
-
 using Microsoft.Reporting.WinForms;
-
 using Microsoft.ReportingServices.ReportRendering;
-
 /// <summary>
-
 /// Renders a local (RDL or RDLC) reports to a Microsoft Word document on disk.
-
 /// </summary>
-
 /// <param name="viewer">A ReportViewer instance with Aspose.Words for Reporting Services export formats integrated.</param>
-
 /// <param name="reportName">The name (including path) of the local report.</param>
-
 /// <param name="documentName">The name (including path) of the resulting document.</param>
-
 /// <param name="format">
-
 /// The export format, should be:
-
 /// "AWDOC" for DOC
-
 /// "AWDOCX" for DOCX
-
 /// "AWRTF" for RTF
-
 /// "AWWML" for WordML
-
 /// "AWHTML" for HTML
-
 /// "AWMHTML" for MHTML
-
 /// "AWODT" for ODT
-
 /// "AWTXT" for TXT
-
 /// "AWXPS" for XPS
-
 /// "AWEPUB" for EPUB
-
 /// </param>
-
 /// <param name="deviceInfo">
-
 /// The device info string as it would appear in rsreportserver.config, for example
-
 /// "<DeviceInfo><PageBreaksMode>OnEachPage</PageBreaksMode></DeviceInfo>". May be null.
-
 /// </param>
-
 private static void RenderReportToFile(
-
     ReportViewer viewer, 
-
     string reportName, 
-
     string documentName,
-
     string format,
-
     string deviceInfo)
-
 {
-
     string extension;
-
     string mimeType;
-
     string encoding;
-
     Warning[] warnings;
-
     string[] streamIds;
-
     LocalReport report = viewer.LocalReport;
 
     // Load and set up the report.
-
     report.ReportPath = reportName;
-
     report.EnableExternalImages = true;
-
     report.EnableHyperlinks = true;
 
     // Get the information about report's parameters.
-
     ReportParameterInfoCollection parameterInfos = report.GetParameters();
-
     if (parameterInfos.Count > 0)
-
     {
-
         // If the report requires parameters set, add them as the following pattern shows:
-
         List<Microsoft.Reporting.WinForms.ReportParameter> parameters = new List<Microsoft.Reporting.WinForms.ReportParameter>();
 
-
-
         // Repeat this until all parameters are set.
-
         Microsoft.Reporting.WinForms.ReportParameter parameter = new Microsoft.Reporting.WinForms.ReportParameter(
-
             "name",
-
             "value");
-
         parameters.Add(parameter);
-
         report.SetParameters(parameters);
-
     }
 
     // We have to specify data sources for local report rendering. GetDataTables() returns a list of DataTable objects
-
     // populated with real report data.
-
     List<DataTable> tables = GetDataTables();
 
     // Add the data sources.
-
     foreach (DataTable table in tables)
-
         report.DataSources.Add(new ReportDataSource(table.TableName, table));
 
     // Render to appropriate format using Aspose extensions
-
     ReportViewerHelper asposeHelper = new ReportViewerHelper(reportViewer);
-
     asposeHelper.AddExtensions();
-
     byte[] reportBytes = asposeHelper.Render(format);
 
     // Write document bytes to a file.
-
     using (FileStream stream = File.OpenWrite(documentName))
-
         stream.Write(reportBytes, 0, reportBytes.Length);
-
 }
-
-
-
 {{< /highlight >}}
 ##### **Step 4. Call the RenderReportToFile method.**
 You can call the **RenderReportToFile** method from any point of your application. The call might look like the following: 
@@ -390,19 +228,10 @@ You can call the **RenderReportToFile** method from any point of your applicatio
 **C#**
 
 {{< highlight csharp >}}
-
- RenderReportToFile(
-
+RenderReportToFile(
     reportViewer1,
-
     @"C:\Work\MyReport.rdlc",
-
     @"C:\Work\MyReport.doc",
-
     "AWDOC",
-
     null);
-
-
-
 {{< /highlight >}}

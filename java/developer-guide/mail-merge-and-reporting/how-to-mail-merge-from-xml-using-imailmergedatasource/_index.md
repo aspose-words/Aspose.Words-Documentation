@@ -16,21 +16,13 @@ We’ll use this simple XML file which contains the customer information we want
 **XML**
 
 {{< highlight csharp >}}
-
- <?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <customers>
-
 <customer Name="John Ben Jan" ID="1" Domain="History" City="Boston"/>
-
 <customer Name="Lisa Lane" ID="2" Domain="Chemistry" City="LA"/>
-
 <customer Name="Dagomir Zits" ID="3" Domain="Heraldry" City="Milwaukee"/>
-
 <customer Name="Sara Careira Santy" ID="4" Domain="IT" City="Miami"/>
-
 </customers>
-
 {{< /highlight >}}
 
 Note that the structure of the XML document can also be varied and the data will still be read correctly. This allows different types of XML documents to be merged easily. The XML can be changed so that each table represented as an element in the XML with each field of the table being a child element and the field value being the text node of this element.

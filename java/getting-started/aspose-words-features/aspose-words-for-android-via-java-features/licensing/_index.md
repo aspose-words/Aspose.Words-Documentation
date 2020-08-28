@@ -27,22 +27,15 @@ In Aspose.Words for Android via Java, the license can be [embedded as a resourc
 **Java**
 
 {{< highlight csharp >}}
-
- String dataDir = Environment.getExternalStorageDirectory().getPath() + "/";
+String dataDir = Environment.getExternalStorageDirectory().getPath() + "/";
 
 // Create a stream object containing the license file
-
 FileInputStream fstream = new FileInputStream(dataDir + "Aspose.Email.Android.Java.lic");
 
 // Instantiate the License class
-
 License license = new License();
-
 //Set the license through the stream object
-
 license.setLicense(fstream);
-
-
 {{< /highlight >}}
 
 
@@ -56,13 +49,9 @@ Applying a License from an Embedded Resource. To access the license as a resour
 **Java**
 
 {{< highlight csharp >}}
-
- License license = new License();
-
+License license = new License();
 InputStream inputStream = getResources().openRawResource(R.raw.license);
-
 license.setLicense(inputStream);
-
 {{< /highlight >}}
 ### **Apply Metered License**
 Aspose.Words allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing.
@@ -70,31 +59,18 @@ Aspose.Words allows developers to to apply metered key. It is a new licensing me
 **Java**
 
 {{< highlight csharp >}}
-
- Metered metered = new Metered();
-
+Metered metered = new Metered();
 try
-
 {
-
 	// Access the setMeteredKey property and pass public and private keys as parameters
-
     metered.setMeteredKey(publicKey, privateKey);
-
 	Log.i("Metered License", "Ok. Metered License has been applied successfully.");
-
 }
-
 catch (Exception ex)
-
 {
-
     ex.printStackTrace();
-
     Log.e("Metered License", "Setting metered key has failed: " + ex.getMessage());
-
 }
-
 {{< /highlight >}}
 ## **When to Apply a License**
 Follow these simple rules:
