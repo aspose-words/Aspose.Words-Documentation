@@ -9,9 +9,9 @@ url: /java/setting-background-color-dynamically/
 
 You can set text background color for document contents dynamically using backColor tags. Syntax of a backColor tag is defined as follows.
 
-**<<backColor [color_expression]>>
+**&lt;&lt;backColor [color_expression]&gt;&gt;
 content_to_be_colored
-<</backColor>>**
+&lt;&lt;/backColor&gt;&gt;**
 
 ` `REF note **Note –** A backColor tag can be used anywhere in a template document except charts.
 
@@ -19,11 +19,11 @@ An expression declared within an opening backColor tag defines a text background
 
 - A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor\(v=vs.110\).aspx) enumeration like in the following example.
 
-**<<backColor [“red”]>>text with red background<</backColor>>**
+**&lt;&lt;backColor [“red”]&gt;&gt;text with red background&lt;&lt;/backColor&gt;&gt;**
 
 - An integer value defining RGB (red, green, blue) components of the color like in the following example.
 
-**<<backColor [0xFFFF00]>>text with yellow background<</backColor>>**
+**&lt;&lt;backColor [0xFFFF00]&gt;&gt;text with yellow background&lt;&lt;/backColor&gt;&gt;**
 
 - A value of the [Color](http://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.
 
@@ -48,12 +48,12 @@ Assume that you have the ColoredItem class defined in your application as follow
 
 Given that items is an enumeration of ColoredItem instances, you can use the following template to output every item into a separate paragraph colored dynamically.
 
-**<<foreach [item in items]>><<backColor [item. REF getColor getColor()]>><<[item. REF getName getName()]>><</backColor>>
-<</foreach>>**
+**&lt;&lt;foreach [item in items]&gt;&gt;&lt;&lt;backColor [item. REF getColor getColor()]&gt;&gt;&lt;&lt;[item. REF getName getName()]&gt;&gt;&lt;&lt;/backColor&gt;&gt;
+&lt;&lt;/foreach&gt;&gt;**
 
 To output every item into a separate table row colored dynamically, you can use the following template.
 
-|**<<foreach [item in items]>><<backColor [item. REF getColor  \* MERGEFORMAT getColor()]>><<[item. REF getName  \* MERGEFORMAT getName()]>>**|**<<[item. REF getDescription getDescription()]>><</backColor>><</foreach>>**|
+|**&lt;&lt;foreach [item in items]&gt;&gt;&lt;&lt;backColor [item. REF getColor  \* MERGEFORMAT getColor()]&gt;&gt;&lt;&lt;[item. REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[item. REF getDescription getDescription()]&gt;&gt;&lt;&lt;/backColor&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
 | :- | :- |
 
 
@@ -65,7 +65,7 @@ Also, you can use a backColor tag to set a solid-fill color for a shape dynamica
 1. Set the shape’s fill to none (that is, “No fill”).
 1. Inside the shape’s textbox, add opening and closing backColor tags so that they to enclose the whole text inside the textbox, if any, like in the following example.
 
-**<<backColor [“red”]>>text inside shape<</backColor>>**
+**&lt;&lt;backColor [“red”]&gt;&gt;text inside shape&lt;&lt;/backColor&gt;&gt;**
 
 During runtime, an expression declared within the opening backColor tag is evaluated and the shape’s solid-fill color is set accordingly. The opening and closing backColor tags are removed then.
 
