@@ -11,28 +11,35 @@ The main class of the LINQ Reporting Engine is ReportingEngine. All the function
 
 {{% /alert %}} 
 ## **Building Reports**
-To build a report from a template, you can use one of the ReportingEngine. REF buildReport  \* MERGEFORMAT buildReport overloads. The following table describes parameters of these overloads.
+To build a report from a template, you can use one of the ReportingEngine.buildReport overloads. The following table describes parameters of these overloads.
 
 |**Parameter**|**Description**|
 | :- | :- |
 |document|A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report.|
-|dataSource|An object providing a data to populate the specified template. The object must be of one of the following types:- A traditional mail merge data source (see “ REF traditional Working with Traditional Mail Merge Data Sources” for more information)- An object of a custom visible type (see “Working with Types” for more information)- An XmlDataSource instance (see “Accessing XML Data” for more information)- A JsonDataSource instance (see “Accessing JSON Data” for more information)- A CsvDataSource instance (see “Accessing CSV Data” for more information)|
-|dataSourceName|The identifier of the specified data source object within the specified template. You can omit this identifier, if the template uses the contextual object member access (see “ REF contextual Using Contextual Object Member Access” for more information) when dealing with the data source.|
+|dataSource|An object providing a data to populate the specified template. The object must be of one of the following types:
+    - A traditional mail merge data source (see “Working with Traditional Mail Merge Data Sources” for more information)
+    - An object of a custom visible type (see “Working with Types” for more information)
+    - An XmlDataSource instance (see “Accessing XML Data” for more information)
+    - A JsonDataSource instance (see “Accessing JSON Data” for more information)
+    - A CsvDataSource instance (see “Accessing CSV Data” for more information)|
+|dataSourceName|The identifier of the specified data source object within the specified template. You can omit this identifier, if the template uses the contextual object member access (see “Using Contextual Object Member Access” for more information) when dealing with the data source.|
 
 Given a template to be populated with a data from a DataSet instance that is identified as “ds” within the template, you can use the following code to build the corresponding report.
 {{< highlight java >}}
-Document doc = ...    // Loading a template document.
-DataSet dataSet = ... // Setting up a data set.
-ReportingEngine engine = new ReportingEngine();
-engine. REF buildReport buildReport(doc, dataSet, “ds”);
+    Document doc = ...    // Loading a template document.
+    DataSet dataSet = ... // Setting up a data set.
+    
+    ReportingEngine engine = new ReportingEngine();
+    engine.buildReport(doc, dataSet, “ds”);
 {{< /highlight >}}
 
 Given a visible Person class defined in your application and a template to be populated with a data about a single Person instance using the contextual object member access, you can use the following code to build the corresponding report.
 {{< highlight java >}}
-Document doc = ...    // Loading a template document.
-Person person = ...   // Setting up a person data.
-ReportingEngine engine = new ReportingEngine();
-engine. REF buildReport buildReport(doc, person);**
+    Document doc = ...    // Loading a template document.
+    Person person = ...   // Setting up a person data.
+    
+    ReportingEngine engine = new ReportingEngine();
+    engine.buildReport(doc, person);
 {{< /highlight >}}
 
 ## **Accessing XML Data**
@@ -52,80 +59,80 @@ In template documents, if a top-level XML element contains only a sequence of el
 
 XML
 {{< highlight xml >}}
-**<Persons>**
-    **<Person>**
-        **<Name>John Doe</Name>**
-        **<Age>30</Age>**
-        **<Birth>1989-04-01 4:00:00 pm</Birth>**
-    **</Person>**
-    **<Person>**
-        **<Name>Jane Doe</Name>**
-        **<Age>27</Age>**
-        **<Birth>1992-01-31 07:00:00 am</Birth>**
-    **</Person>**
-    **<Person>**
-        **<Name>John Smith</Name>**
-        **<Age>51</Age>**
-        **<Birth>1968-03-08 1:00:00 pm</Birth>**
-    **</Person>**
-**</Persons>**
+<Persons>
+    <Person>
+        <Name>John Doe</Name>
+        <Age>30</Age>
+        <Birth>1989-04-01 4:00:00 pm</Birth>
+    </Person>
+    <Person>
+        <Name>Jane Doe</Name>
+        <Age>27</Age>
+        <Birth>1992-01-31 07:00:00 am</Birth>
+    </Person>
+    <Person>
+        <Name>John Smith</Name>
+        <Age>51</Age>
+        <Birth>1968-03-08 1:00:00 pm</Birth>
+    </Person>
+</Persons>
 {{< /highlight >}}
 
 Template document
 {{< highlight xml >}}
-<<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
-<</foreach>>
-Average age: <<[persons. REF linqAverage average(p => p.Age)]>>
+    <<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
+    <</foreach>>
+    Average age: <<[persons.average(p => p.Age)]>>
 {{< /highlight >}}
 
 Source code
 {{< highlight java >}}
-Document doc = ...             // Loading a template document.
-XmlDataSource dataSource = ... // Loading XML (without schema).
-
-ReportingEngine engine = new ReportingEngine();
-engine.buildReport(doc, dataSource, "persons");
+    Document doc = ...             // Loading a template document.
+    XmlDataSource dataSource = ... // Loading XML (without schema).
+    
+    ReportingEngine engine = new ReportingEngine();
+    engine.buildReport(doc, dataSource, "persons");
 {{< /highlight >}}
 
 Result document
 {{< highlight text >}}
-**Name: John Doe, Age: 30, Date of Birth: 01.04.1989**
-**Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992**
-**Name: John Smith, Age: 51, Date of Birth: 08.03.1968**
+Name: John Doe, Age: 30, Date of Birth: 01.04.1989
+Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992
+Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 
-**Average age: 36**
+Average age: 36
 {{< /highlight >}}
 
 **Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of Birth and Age XML elements are automatically converted to Date and Integer respectively even in the absence of XML schema.
 
-If a top-level XML element contains attributes or nested elements of different types, an XmlDataSource instance should be treated in template documents in the same way as if it was a DataRow instance (see “ REF dataRow  \* MERGEFORMAT Working with DataTable Row Objects” for more information) as shown in the following example.
+If a top-level XML element contains attributes or nested elements of different types, an XmlDataSource instance should be treated in template documents in the same way as if it was a DataRow instance (see “Working with DataTable Row Objects” for more information) as shown in the following example.
 
 XML
 {{< highlight xml >}}
-**<Person>**
-    **<Name>John Doe</Name>**
-    **<Age>30</Age>**
-    **<Birth>1989-04-01 4:00:00 pm</Birth>**
-    **<Child>Ann Doe</Child>**
-    **<Child>Charles Doe</Child>**
-**</Person>**
+<Person>
+    <Name>John Doe</Name>
+    <Age>30</Age>
+    <Birth>1989-04-01 4:00:00 pm</Birth>
+    <Child>Ann Doe</Child>
+    <Child>Charles Doe</Child>
+</Person>
 {{< /highlight >}}
 
 Template document
 {{< highlight xml >}}
-Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
-Children:
-<<foreach [in Child]>><<[Child_Text]>>
-<</foreach>>
+    Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
+    Children:
+    <<foreach [in Child]>><<[Child_Text]>>
+    <</foreach>>
 {{< /highlight >}}
 
 Source code
 {{< highlight java >}}
-Document doc = ...             // Loading a template document.
-XmlDataSource dataSource = ... // Loading XML.
-
-ReportingEngine engine = new ReportingEngine();
-engine.buildReport(doc, dataSource);
+    Document doc = ...             // Loading a template document.
+    XmlDataSource dataSource = ... // Loading XML.
+    
+    ReportingEngine engine = new ReportingEngine();
+    engine.buildReport(doc, dataSource);
 {{< /highlight >}}
 
 Result document
@@ -142,110 +149,110 @@ The following example sums up typical scenarios involving nested complex-type XM
 
 XML
 {{< highlight csharp >}}
-**<Managers>**
-    **<Manager>**
-        **<Name>John Smith</Name>**
-        **<Contract>**
-            **<Client>**
-                **<Name>A Company</Name>**
-            **</Client>**
-            **<Price>1200000</Price>**
-        **</Contract>**
-        **<Contract>**
-            **<Client>**
-                **<Name>B Ltd.</Name>**
-            **</Client>**
-            **<Price>750000</Price>**
-        **</Contract>**
-        **<Contract>**
-            **<Client>**
-                **<Name>C &amp; D</Name>**
-            **</Client>**
-            **<Price>350000</Price>**
-        **</Contract>**
-    **</Manager>**
-    **<Manager>**
-        **<Name>Tony Anderson</Name>**
-        **<Contract>**
-            **<Client>**
-                **<Name>E Corp.</Name>**
-            **</Client>**
-            **<Price>650000</Price>**
-        **</Contract>**
-        **<Contract>**
-            **<Client>**
-                **<Name>F &amp; Partners</Name>**
-            **</Client>**
-            **<Price>550000</Price>**
-        **</Contract>**
-    **</Manager>**
-    **<Manager>**
-        **<Name>July James</Name>**
-        **<Contract>**
-            **<Client>**
-                **<Name>G &amp; Co.</Name>**
-            **</Client>**
-            **<Price>350000</Price>**
-        **</Contract>**
-        **<Contract>**
-            **<Client>**
-                **<Name>H Group</Name>**
-            **</Client>**
-            **<Price>250000</Price>**
-        **</Contract>**
-        **<Contract>**
-            **<Client>**
-                **<Name>I &amp; Sons</Name>**
-            **</Client>**
-            **<Price>100000</Price>**
-        **</Contract>**
-        **<Contract>**
-            **<Client>**
-                **<Name>J Ent.</Name>**
-            **</Client>**
-            **<Price>100000</Price>**
-        **</Contract>**
-    **</Manager>**
-**</Managers>**
+<Managers>
+    <Manager>
+        <Name>John Smith</Name>
+        <Contract>
+            <Client>
+                <Name>A Company</Name>
+            </Client>
+            <Price>1200000</Price>
+        </Contract>
+        <Contract>
+            <Client>
+                <Name>B Ltd.</Name>
+            </Client>
+            <Price>750000</Price>
+        </Contract>
+        <Contract>
+            <Client>
+                <Name>C &amp; D</Name>
+            </Client>
+            <Price>350000</Price>
+        </Contract>
+    </Manager>
+    <Manager>
+        <Name>Tony Anderson</Name>
+        <Contract>
+            <Client>
+                <Name>E Corp.</Name>
+            </Client>
+            <Price>650000</Price>
+        </Contract>
+        <Contract>
+            <Client>
+                <Name>F &amp; Partners</Name>
+            </Client>
+            <Price>550000</Price>
+        </Contract>
+    </Manager>
+    <Manager>
+        <Name>July James</Name>
+        <Contract>
+            <Client>
+                <Name>G &amp; Co.</Name>
+            </Client>
+            <Price>350000</Price>
+        </Contract>
+        <Contract>
+            <Client>
+                <Name>H Group</Name>
+            </Client>
+            <Price>250000</Price>
+        </Contract>
+        <Contract>
+            <Client>
+                <Name>I &amp; Sons</Name>
+            </Client>
+            <Price>100000</Price>
+        </Contract>
+        <Contract>
+            <Client>
+                <Name>J Ent.</Name>
+            </Client>
+            <Price>100000</Price>
+        </Contract>
+    </Manager>
+</Managers>
 {{< /highlight >}}
 
 Template document
 {{< highlight xml >}}
-<<foreach [in managers]>>Manager: <<[Name]>>
-Contracts:**
-<<foreach [in Contract]>>- <<[Client.Name]>> ($<<[Price]>>)
-<</foreach>>
-<</foreach>>
+    <<foreach [in managers]>>Manager: <<[Name]>>
+    Contracts:
+    <<foreach [in Contract]>>- <<[Client.Name]>> ($<<[Price]>>)
+    <</foreach>>
+    <</foreach>>
 {{< /highlight >}}
 
 Source code
 {{< highlight java >}}
-Document doc = ...             // Loading a template document.
-XmlDataSource dataSource = ... // Loading XML.
-
-ReportingEngine engine = new ReportingEngine();
-engine.buildReport(doc, dataSource, "managers");
+    Document doc = ...             // Loading a template document.
+    XmlDataSource dataSource = ... // Loading XML.
+    
+    ReportingEngine engine = new ReportingEngine();
+    engine.buildReport(doc, dataSource, "managers");
 {{< /highlight >}}
 
 Result document
 {{< highlight text >}}
-**Manager: John Smith**
-**Contracts:**
-**- A Company ($1200000)**
-**- B Ltd. ($750000)**
-**- C & D ($350000)**
-
-**Manager: Tony Anderson**
-**Contracts:**
-**- E Corp. ($650000)**
-**- F & Partners ($550000)**
-
-**Manager: July James**
-**Contracts:**
-**- G & Co. ($350000)**
-**- H Group ($250000)**
-**- I & Sons ($100000)**
-**- J Ent. ($100000)**
+    Manager: John Smith
+    Contracts:
+    - A Company ($1200000)
+    - B Ltd. ($750000)
+    - C & D ($350000)
+    
+    Manager: Tony Anderson
+    Contracts:
+    - E Corp. ($650000)
+    - F & Partners ($550000)
+    
+    Manager: July James
+    Contracts:
+    - G & Co. ($350000)
+    - H Group ($250000)
+    - I & Sons ($100000)
+    - J Ent. ($100000)
 {{< /highlight >}}
 
 ## **Accessing JSON Data**
@@ -311,27 +318,27 @@ Alternative JSON (produces the same result)
 
 Template document
 {{< highlight xml >}}
-<<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
-<</foreach>>
-Average age: <<[persons. REF linqAverage average(p => p.Age)]>>
+    <<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
+    <</foreach>>
+    Average age: <<[persons.average(p => p.Age)]>>
 {{< /highlight >}}
 
 Source code
 {{< highlight java >}}
-Document doc = ...              // Loading a template document.
-JsonDataSource dataSource = ... // Loading JSON.
-
-ReportingEngine engine = new ReportingEngine();
-engine.buildReport(doc, dataSource, "persons");
+    Document doc = ...              // Loading a template document.
+    JsonDataSource dataSource = ... // Loading JSON.
+    
+    ReportingEngine engine = new ReportingEngine();
+    engine.buildReport(doc, dataSource, "persons");
 {{< /highlight >}}
 
 Result document
 {{< highlight text >}}
-**Name: John Doe, Age: 30, Date of Birth: 01.04.1989**
-**Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992**
-**Name: John Smith, Age: 51, Date of Birth: 08.03.1968**
+Name: John Doe, Age: 30, Date of Birth: 01.04.1989
+Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992
+Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 
-**Average age: 36**
+Average age: 36
 {{< /highlight >}}
 
 **Note –** Using of the custom date-time format becomes possible, because text values of Birth properties are automatically converted to Date.
@@ -363,10 +370,10 @@ Alternative JSON (produces the same result)
 
 Template document
 {{< highlight xml >}}
-Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
-Children:
-<<foreach [in Child]>><<[Child_Text]>>
-<</foreach>>
+    Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
+    Children:
+    <<foreach [in Child]>><<[Child_Text]>>
+    <</foreach>>
 {{< /highlight >}}
 
 Source code
@@ -497,23 +504,23 @@ Source code
 
 Result document
 {{< highlight text >}}
-    **Manager: John Smith**
-    **Contracts:**
-    **- A Company ($1200000)**  
-    **- B Ltd. ($750000)**
-    **- C & D ($350000)**
+    Manager: John Smith
+    Contracts:
+    - A Company ($1200000)
+    - B Ltd. ($750000)
+    - C & D ($350000)
     
-    **Manager: Tony Anderson**
-    **Contracts:**
-    **- E Corp. ($650000)**
-    **- F & Partners ($550000)**
+    Manager: Tony Anderson
+    Contracts:
+    - E Corp. ($650000)
+    - F & Partners ($550000)
     
-    **Manager: July James**
-    **Contracts:**
-    **- G & Co. ($350000)**
-    **- H Group ($250000)**
-    **- I & Sons ($100000)**
-    **- J Ent. ($100000)**
+    Manager: July James
+    Contracts:
+    - G & Co. ($350000)
+    - H Group ($250000)
+    - I & Sons ($100000)
+    - J Ent. ($100000)
 {{< /highlight >}}
 
 For recognition of JSON simple values (null, boolean, number, integer, and string), the engine provides two modes: *loose* and *strict*. In the loose mode, types of JSON simple values are determined upon parsing of their string representations. In the strict mode, types of JSON simple values are determined from JSON notation itself. To see the main difference between the modes, consider the following JSON snippet.
@@ -571,17 +578,17 @@ In template documents, a CsvDataSource instance should be treated in the same wa
 
 CSV
 {{< highlight csv >}}
-**John Doe,30,1989-04-01 4:00:00 pm**
-**Jane Doe,27,1992-01-31 07:00:00 am**
-**John Smith,51,1968-03-08 1:00:00 pm**
+John Doe,30,1989-04-01 4:00:00 pm
+Jane Doe,27,1992-01-31 07:00:00 am
+John Smith,51,1968-03-08 1:00:00 pm
 {{< /highlight >}}
 
 Template document
 {{< highlight xml >}}
-    <<foreach [in persons]>>Name: <<[Column1]>>, Age: <<[Column2]>>, Date of Birth: <<[Column3]:"dd.MM.yyyy">>**
-    <</foreach>>**
+    <<foreach [in persons]>>Name: <<[Column1]>>, Age: <<[Column2]>>, Date of Birth: <<[Column3]:"dd.MM.yyyy">>
+    <</foreach>>
     
-    Average age: <<[persons. REF linqAverage average(p => p.Column2)]>>**
+    Average age: <<[persons.average(p => p.Column2)]>>
 {{< /highlight >}}
 
 Source code
@@ -595,11 +602,11 @@ Source code
 
 Result document
 {{< highlight text >}}
-**Name: John Doe, Age: 30, Date of Birth: 01.04.1989**
-**Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992**
-**Name: John Smith, Age: 51, Date of Birth: 08.03.1968**
+Name: John Doe, Age: 30, Date of Birth: 01.04.1989
+Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992
+Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 
-**Average age: 36**
+Average age: 36
 {{< /highlight >}}
 
 **Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of Column3 and Column2 are automatically converted to Date and Integer respectively.
@@ -608,19 +615,19 @@ By default, CsvDataSource uses column names such as “Column1”, “Column2”
 
 CSV
 {{< highlight csv >}}
-**Name,Age,Birth**
-**John Doe,30,1989-04-01 4:00:00 pm**
-**Jane Doe,27,1992-01-31 07:00:00 am**
-**John Smith,51,1968-03-08 1:00:00 pm**
+Name,Age,Birth
+John Doe,30,1989-04-01 4:00:00 pm
+Jane Doe,27,1992-01-31 07:00:00 am
+John Smith,51,1968-03-08 1:00:00 pm
 {{< /highlight >}}
 
 Template document
 {{< highlight xml >}}
-**<<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>**
-**<</foreach>>**
-
-**Average age: <<[persons. REF linqAverage average(p => p.Age)]>>**
-{{< /highlight >}}
+    <<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
+    <</foreach>>
+    
+    Average age: <<[persons.average(p => p.Age)]>>
+{< /highlight >}}
 
 Source code
 {{< highlight java >}}
@@ -634,11 +641,11 @@ Source code
 
 Result document
 {{< highlight text >}}
-**Name: John Doe, Age: 30, Date of Birth: 01.04.1989**
-**Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992**
-**Name: John Smith, Age: 51, Date of Birth: 08.03.1968**
+Name: John Doe, Age: 30, Date of Birth: 01.04.1989
+Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992
+Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 
-**Average age: 36**
+Average age: 36
 {{< /highlight >}}
 
 Also, you can use CsvDataLoadOptions to customize the following characters playing special roles while loading CSV data:
@@ -647,7 +654,7 @@ Also, you can use CsvDataLoadOptions to customize the following characters playi
 - Single-line comment start (the default is sharp)
 - Quotation mark enabling to use other special characters within a value (the default is double quotes)
 ## **Setting up Known External Types**
-LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the ReportingEngine.getKnownTypes() property. The property represents an unordered set (that is, a collection of unique items) of [Class](http://docs.oracle.com/javase/7/docs/api/java/lang/Class.html) objects. Every type in the set must meet requirements declared at “ REF types Working with Types”.
+LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the ReportingEngine.getKnownTypes() property. The property represents an unordered set (that is, a collection of unique items) of [Class](http://docs.oracle.com/javase/7/docs/api/java/lang/Class.html) objects. Every type in the set must meet requirements declared at “Working with Types”.
 
 **Note –** Object, String, and primitive types are known by the engine by default.
 
@@ -672,52 +679,44 @@ The difference in the engine’s behavior when the option is applied and not app
 
 Template document
 {{< highlight xml >}}
-**Prefix**
-**<<[""]>>**
-**Suffix**
+Prefix
+<<[""]>>
+Suffix
 {{< /highlight >}}
 
 Result document without ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
-**Prefix**
+Prefix
 
-**Suffix**
+Suffix
 {{< /highlight >}}
 
 Result document with ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
-**Prefix**
-
-**Suffix**
+Prefix
+Suffix
 {{< /highlight >}}
 
 **Example 2**
 
 Template document
 {{< highlight xml >}}
-**Prefix**
-
-**<<if [false]>>**
-
-**Text to be removed**
-
-**<</if>>**
-
-**Suffix**
+Prefix
+<<if [false]>>
+Text to be removed
+<</if>>
+Suffix
 {{< /highlight >}}
 Result document without ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
-**Prefix**
-
-** 
-
-**Suffix**
+Prefix
+ 
+Suffix
 {{< /highlight >}}
 Result document with ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
-**Prefix**
-
-**Suffix**
+Prefix
+Suffix
 {{< /highlight >}}
 **Example 3**
 
@@ -725,47 +724,31 @@ Result document with ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 
 Template document
 {{< highlight xml >}}
-**Prefix**
-
-**<<foreach [in persons]>>**
-
-**<<[Name]>>**
-
-**<</foreach>>**
-
-**Suffix**
+Prefix
+<<foreach [in persons]>>
+<<[Name]>>
+<</foreach>>
+Suffix
 {{< /highlight >}}
 Result document without ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
-**Prefix**
+Prefix
 
-** 
+John Doe
 
-**John Doe**
+Jane Doe
 
-** 
+John Smith
 
-**Jane Doe**
-
-** 
-
-**John Smith**
-
-** 
-
-**Suffix**
+Suffix
 {{< /highlight >}}
 Result document with ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
-**Prefix**
-
-**John Doe**
-
-**Jane Doe**
-
-**John Smith**
-
-**Suffix**
+Prefix
+John Doe
+Jane Doe
+John Smith
+Suffix
 {{< /highlight >}}
 ## **Accessing Missing Members of Data Objects**
 By default, LINQ Reporting Engine forbids access to missing members of data objects used to build a report in template expressions, since such access is forbidden by [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029). On attempt to use a missing member of a data object, the engine throws an exception then.
@@ -781,7 +764,7 @@ To support such scenarios, the engine provides an option to treat missing member
 
 Consider the following example. Given that r is a DataRow instance that does not have a field Missing, by default, the following template expression causes the engine to throw an exception while building a report.
 {{< highlight xml >}}
-**<<[r.Missing]>>**
+    <<[r.Missing]>>
 {{< /highlight >}}
 However, if ReportBuildOptions.ALLOW_MISSING_MEMBERS is applied, the engine treats access to such a field as a null literal, so no exception is thrown and simply no value is written to the report then.
 ## **Inlining Syntax Error Messages into Templates**
@@ -793,11 +776,11 @@ However, when dealing with complex templates containing a large number of tags, 
 
 Consider the following template.
 {{< highlight xml >}}
-**<<var [name]>>**
+    <<var [name]>>
 {{< /highlight >}}
 By default, such a template causes the engine to throw an exception while building a report. However, when ReportBuildOptions.INLINE_ERROR_MESSAGES is applied, no exception is thrown and the report looks as follows then.
 {{< highlight xml >}}
-**<<var [name] Error! An assignment operator is expected. >>**
+    <<var [name] Error! An assignment operator is expected. >>
 {{< /highlight >}}
 **Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
@@ -805,7 +788,7 @@ When ReportBuildOptions.INLINE_ERROR_MESSAGES is applied, a Boolean value return
 {{< highlight java >}}
     ReportingEngine engine = new ReportingEngine();
     engine.setOptions(ReportBuildOptions.INLINE_ERROR_MESSAGES);
-    if (engine. REF buildReport buildReport(...))
+    if (engine.buildReport(...))
     {
         // Do something with a successfully built report.
     }
