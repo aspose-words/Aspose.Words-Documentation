@@ -73,7 +73,7 @@ See the following Public API methods:
    1. setThumbnailSize(android.graphics.PointF)
 ## **Aspose.Words for Android via Java additional requirements**
 In order to use metered licensing feature and load documents or images by http/ftp protocols users should add following permission to their applications
-*<uses-permission android:name="android.permission.INTERNET" />*
+*&lt;uses-permission android:name="android.permission.INTERNET" /&gt;*
 ## **Public API Examples**
 {{< highlight csharp >}}
 public void testPublicAPI1() throws Exception
