@@ -20,7 +20,7 @@ In all import formats the list value is not stored with the document, it is calc
 
 You can find what paragraphs a list is applied to and work with them manually. There are plans to allow to retrieve a list in the document body as an object. You can remove list formatting from a paragraph however you cannot remove a list reference from a document.
 
-Lists are imported in HTML from <ul> and <ol> tags. Nested lists of different types are also supported during import. A <li> tag must be wrapped in a <ul> or <ol> tag to be imported as a proper list item, otherwise it is imported as a regular paragraph. We will look into importing such elements on there own as list items as well in a future version.
+Lists are imported in HTML from &lt;ul&gt; and &lt;ol&gt; tags. Nested lists of different types are also supported during import. A &lt;li&gt; tag must be wrapped in a &lt;ul&gt; or &lt;ol&gt; tag to be imported as a proper list item, otherwise it is imported as a regular paragraph. We will look into importing such elements on there own as list items as well in a future version.
 
 Lists can also appear in HTML as ordinary paragraphs, which apperance-wise are imported correctly, however are not read as proper List objects.
 
@@ -48,12 +48,12 @@ See the following links in the documentation for further information:
 |Label Alignment |Yes | |- **ListLevel.Alignment**|
 |Picture Bullet |Planned |Picture bullets are supported, however there is currently no way to set a new picture bullet for a list item. <br><br>Consider creating a list with the picture bullet first in the document using Microsoft Word and then apply this list to the required paragraphs. <br><br>Will be imported using list-style-image attribute and other related attributes. | |
 |Restart Level |Yes | |- **ListLevel.RestartAfterLevel**|
-|Bullet Character |Yes |Imported from type attribute on <ul> tag. | |
+|Bullet Character |Yes |Imported from type attribute on &lt;ul&gt; tag. | |
 |Label/Format String |Yes | |- **ListLabel.LabelString**|
-|Number Format |Yes |Imported from "type" attribute on <ol>. |- **ListLevel.NumberFormat**|
+|Number Format |Yes |Imported from "type" attribute on &lt;ol&gt;. |- **ListLevel.NumberFormat**|
 |Paragraph Properties |Planned | | |
 |Font Properties |Planned | |- **ListLevel.Font**|
 |Linked Paragraph Style |Planned | |- **ListLevel.LinkedStyle**|
-|Starting Value |Yes |Imported from start attribute on <ul> or <ol>. |- **ListLevel.StartAt**|
+|Starting Value |Yes |Imported from start attribute on &lt;ul&gt; or &lt;ol&gt;. |- **ListLevel.StartAt**|
 |Text After |Planned | |- **ListLevel.TrailingCharacter**|
 
