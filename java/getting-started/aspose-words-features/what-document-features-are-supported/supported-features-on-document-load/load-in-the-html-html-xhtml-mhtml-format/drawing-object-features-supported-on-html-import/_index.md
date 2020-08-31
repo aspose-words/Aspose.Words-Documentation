@@ -161,7 +161,7 @@ See the following links in the documentation for further information:
 |SmartArt (VML)|Planned| | |
 |Charts (VML)|Planned| | |
 |Shape Customizations|N/A| | |
-|Hyperlink on Shape|Yes|Imported from parent <a> element of the <img> element.|- **Shape.HRef**|
+|Hyperlink on Shape|Yes|Imported from parent &lt;a&gt; element of the &lt;img&gt; element.|- **Shape.HRef**|
 |Watermark|N/A| | |
 ##### **WordArt**
 WordArt is imported as a Shape object in Aspose.Words. This class provides properties to extract and modify the properties of a WordArt object.
@@ -192,7 +192,7 @@ Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a
 
 Using Aspose.Words you can create new or modify existing Horizontal Rule objects.
 
-Imported from <hr> element.
+Imported from &lt;hr&gt; element.
 
 See the following link in the documentation for further information:
 
@@ -204,8 +204,8 @@ See the following link in the documentation for further information:
 |Height|Yes|Imported from height:XXpt on style attribute.|- **Shape.Height**|
 |Color|Yes|Imported from color on style attribute. Note that border:none must be present on the style attribute for the color to be imported correctly.|- **Shape.FillColor**|
 |Alignment|Yes|Imported from "text-align:XXX" on style attribute.|- **Shape.HorizontalAlignment**|
-|Hyperlink|Yes|A <hr> tag wrapped with a <a> hyperlink element is imported as a working hyperlink. <br><br>However this link is not of hyperlink property on a Horizontal Rule Object, instead, the object is wrapped with a Hyperlink field.|- **Shape.HRef**|
-|Image|Planned|There are plans to import a horizontal line with an image from <hr> element with style="background: url(xxx.png)".|- **Shape.HRef**|
+|Hyperlink|Yes|A &lt;hr&gt; tag wrapped with a &lt;a&gt; hyperlink element is imported as a working hyperlink. <br><br>However this link is not of hyperlink property on a Horizontal Rule Object, instead, the object is wrapped with a Hyperlink field.|- **Shape.HRef**|
+|Image|Planned|There are plans to import a horizontal line with an image from &lt;hr&gt; element with style="background: url(xxx.png)".|- **Shape.HRef**|
 
 ##### **Position**
 Aspose.Words supports creating objects with a variety of different positioning settings. Almost all possible settings are supported in the Aspose.Words model
@@ -244,7 +244,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Width and Height|Yes|Imported from height and width attributes. It is planned to import these attributes using the style attribute on <img>.|<p>- **Shape.Width**</p><p>- **Shape.Height**</p>|
+|Width and Height|Yes|Imported from height and width attributes. It is planned to import these attributes using the style attribute on &lt;img&gt;.|<p>- **Shape.Width**</p><p>- **Shape.Height**</p>|
 |Scale|N/A|Only the absolute size of the input image is taken as the shape size.| |
 |Relative Size|N/A| | |
 |Lock Aspect Ratio|N/A|Imported as enabled on shapes by default.| |
