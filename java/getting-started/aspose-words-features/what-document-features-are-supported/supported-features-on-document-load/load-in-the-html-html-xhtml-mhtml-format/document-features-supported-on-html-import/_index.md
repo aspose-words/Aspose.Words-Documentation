@@ -9,7 +9,7 @@ url: /java/document-features-supported-on-html-import/
 
 Aspose.Words supports importing and exporting HTML based documents. You can load such documents in the Document Object Model, edit and add new content and convert them to any supported format such as DOCX, PDF, Image etc.
 
-The Aspose.Words HTML engine is resilient and can properly import simple and complex HTML even if there are problems with it, resolving any malformed structure, parts and ignoring any unsupported tags. Most common native HTML tags and CSS formatting are supported during import. The input HTML can skip tags and still be imported well e.g you can miss out <p> or <span> tags and the text content is still imported properly.
+The Aspose.Words HTML engine is resilient and can properly import simple and complex HTML even if there are problems with it, resolving any malformed structure, parts and ignoring any unsupported tags. Most common native HTML tags and CSS formatting are supported during import. The input HTML can skip tags and still be imported well e.g you can miss out &lt;p&gt; or &lt;span&gt; tags and the text content is still imported properly.
 
 Note that Aspose.Words works with Word documents, therefore not all HTML features are supported during import and export. Not all HTML attributes may be imported as they do not have Microsoft Word equivalents. Also during export, some document features may not be included as they cannot be represented in HTML properly. There may be many "N/A" values in this list for these reasons however Aspose.Words strives to support all HTML features possible.
 
@@ -58,7 +58,7 @@ See the following links in the documentation for further information:
 |Variables|N/A| | |
 |VBA Project (Macro)|N/A| | |
 |VBA Project Digital Signature|N/A| | |
-|Background|Yes|A background of a Word document can be a solid color or an image. <br><br>Only solid background is imported. Imported from style="background:xxx" on <body> tag. <br><br>There are plans to support image background through the style-background attribute.|- **Document.BackgroundShape**|
+|Background|Yes|A background of a Word document can be a solid color or an image. <br><br>Only solid background is imported. Imported from style="background:xxx" on &lt;body&gt; tag. <br><br>There are plans to support image background through the style-background attribute.|- **Document.BackgroundShape**|
 |Thumbnail|N/A| | |
 
 ##### **Embedded Fonts**
