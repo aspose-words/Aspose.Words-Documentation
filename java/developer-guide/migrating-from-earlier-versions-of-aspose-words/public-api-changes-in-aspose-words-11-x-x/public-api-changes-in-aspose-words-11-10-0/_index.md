@@ -77,9 +77,9 @@ Additional features are now supported when rendering OOXML charts to PDF, XPS, i
 
 See ﻿[OOXML Chart Rendering Supported Features]() for a full list of supported features.
 ### **Improved Bookmark Export to HTML**
-Aspose.Words converts bookmarks in word documents as anchor tags (<a>) when saving to HTML. In previous versions of Aspose.Words a bookmark was exported to HTML without the actual text content of the bookmark inbetween e.g **"<a name='BookmarkName'></a><span>Text that is actually inside the bookmark</span>"**.
+Aspose.Words converts bookmarks in word documents as anchor tags (&lt;a&gt;) when saving to HTML. In previous versions of Aspose.Words a bookmark was exported to HTML without the actual text content of the bookmark inbetween e.g **"&lt;a name='BookmarkName'&gt;&lt;/a&gt;&lt;span&gt;Text that is actually inside the bookmark&lt;/span&gt;"**.
 
-Aspose.Words 11.10.0 provides an improved export of bookmarks to HTML and attempts to preserve bookmark's boundary. Therefore the same example above is now exported as: **"<a name='BookmarkName'>Text that is actually inside the bookmark</a>"**
+Aspose.Words 11.10.0 provides an improved export of bookmarks to HTML and attempts to preserve bookmark's boundary. Therefore the same example above is now exported as: **"&lt;a name='BookmarkName'&gt;Text that is actually inside the bookmark&lt;/a&gt;"**
 
 Note that because HTML does not allow some tags to be embedded inside anchor tags in general any tags to be overlapped, during HTML export Aspose.Words still forcibly ends bookmark before:
 
