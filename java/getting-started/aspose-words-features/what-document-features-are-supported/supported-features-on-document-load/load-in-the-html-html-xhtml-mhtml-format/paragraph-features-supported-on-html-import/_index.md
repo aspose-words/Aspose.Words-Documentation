@@ -13,7 +13,7 @@ Using Aspose.Words you can access and change virtually all properties of a parag
 
 Paragraph formatting is contained within the ParagraphFormat class which is linked to the paragraph.
 
-Paragraphs are imported from HTML from <p> and <h1> - <h6> tags.
+Paragraphs are imported from HTML from &lt;p&gt; and &lt;h1&gt; - &lt;h6&gt; tags.
 
 Most common native HTML tags and CSS formatting are supported during import. Note that Aspose.Words works with Word documents, therefore not all CSS can be imported as some features do not have a useful eqivilant in Word document formats. Such attributes are ignored during import.
 
@@ -32,9 +32,9 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 ##### **General Formatting**
-Paragraph style and formatting can be imported from HTML in the form of tags such as <h1> to <h6> or from <p> tags that have CSS styles. 
+Paragraph style and formatting can be imported from HTML in the form of tags such as &lt;h1&gt; to &lt;h6&gt; or from &lt;p&gt; tags that have CSS styles. 
 
-<h1> to <h6> tags are imported into the Aspose.Words DOM as the built-in Heading styles: Heading 1 - Heading 6.
+&lt;h1&gt; to &lt;h6&gt; tags are imported into the Aspose.Words DOM as the built-in Heading styles: Heading 1 - Heading 6.
 
 Inline CSS (through use of the style attribute) is imported as direct formatting on the paragraph (stored in the ParagraphFormat of the Paragraph node). 
 
@@ -47,9 +47,9 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |Paragraph Style |Yes |Styles are imported from embedded or external style sheets. If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). To make sure styles are imported use a style sheet of any kind. There is a load option to control whether embedded or external style sheets are read or skipped during HTML import. There is also an option to supply your own CSS style sheet instead. |<p>- **ParagraphFormat** </p><p>- **ParagraphFormat.Style**</p>|
 |Alignment |Yes |Imported from the "text-align" paragraph style attribute. |- **ParagraphFormat.Alignment**|
 |Right to Left Paragraph |Planned | |- **ParagraphFormat.Bidi**|
-|Bullets and Numbers |Yes |Imported from <ol>, <ul>, <li> tags. <br><br>Simulated lists using <p> and <span> look correct but will not be imported as proper lists in the DOM. |<p>- **ParagraphFormat.ListFormat** </p><p>- **ParagraphFormat.ListLabel**</p>|
+|Bullets and Numbers |Yes |Imported from &lt;ol&gt;, &lt;ul&gt;, &lt;li&gt; tags. <br><br>Simulated lists using &lt;p&gt; and &lt;span&gt; look correct but will not be imported as proper lists in the DOM. |<p>- **ParagraphFormat.ListFormat** </p><p>- **ParagraphFormat.ListLabel**</p>|
 |Outline Level |Planned | |- **ParagraphFormat.OutlineLevel**|
-|Run Properties for the Paragraph Mark |Planned |Can be implemented with Microsoft Office specific techniques. <br><br>During import the formatting from the last span from <p> becomes the font properties for the paragraph. |- **ParagraphFormat.ParagraphBreakFont**|
+|Run Properties for the Paragraph Mark |Planned |Can be implemented with Microsoft Office specific techniques. <br><br>During import the formatting from the last span from &lt;p&gt; becomes the font properties for the paragraph. |- **ParagraphFormat.ParagraphBreakFont**|
 |Suppress Line Numbers |Planned | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Planned | |- **ParagraphFormat.SurpressAutoHyphens**|
 ##### **Indents**
