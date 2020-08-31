@@ -27,7 +27,7 @@ This normally causes no problems but some bookmarks on tables can appear differe
 
 The Aspose.Words model is based on Word document formats. In these formats, bookmark names must be unique. The model will allow bookmarks with the same name, however, all duplicates are removed automatically during export. Note that duplicate bookmarks can happen when you accidentally create a bookmark with the same name, or when documents that contain the same bookmark are joined together using the AppendDocument or InsertDocument methods.
 
-Bookmark is imported from <a> element. Bookmark start and end appear in the same position. Nesting and overlapping of bookmarks are not allowed.
+Bookmark is imported from &lt;a&gt; element. Bookmark start and end appear in the same position. Nesting and overlapping of bookmarks are not allowed.
 
 See the following links in the documentation for further information:
 
@@ -86,7 +86,7 @@ Most revision types properly round-tripped to the appropriate formats. Currently
 
 These additional features will be included in a future version as well as an API to easily retrieve revisions by author, date etc.
 
-Imported from <ins> and <del> elements.
+Imported from &lt;ins&gt; and &lt;del&gt; elements.
 
 See the following links in the documentation for further information:
 
