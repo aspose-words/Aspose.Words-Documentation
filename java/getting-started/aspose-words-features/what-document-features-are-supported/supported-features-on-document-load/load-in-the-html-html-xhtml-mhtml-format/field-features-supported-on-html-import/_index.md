@@ -128,12 +128,12 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|TextInput|Yes|Imported from <input type="text file" name="XXX" />.|<p>- password</p><p>- **FormField.TextInputDefault**</p><p>- **FormField.TextInputFormat**</p>|
-|CheckBox|Yes|Imported from <input type="checkbox" name="XXX" />|- **FormField.Type**|
-|DropDown|Yes|Imported from <select name="XXX" />. Each item in the list is imported from <option> child elements. <optgroup> tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop-down lists.|<p>- **FormField.DropDownItems**</p><p>- **FormField.DropDownSelectedIndex**</p>|
+|TextInput|Yes|Imported from &lt;input type="text file" name="XXX" /&gt;.|<p>- password</p><p>- **FormField.TextInputDefault**</p><p>- **FormField.TextInputFormat**</p>|
+|CheckBox|Yes|Imported from &lt;input type="checkbox" name="XXX" /&gt;|- **FormField.Type**|
+|DropDown|Yes|Imported from &lt;select name="XXX" /&gt;. Each item in the list is imported from &lt;option&gt; child elements. &lt;optgroup&gt; tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop-down lists.|<p>- **FormField.DropDownItems**</p><p>- **FormField.DropDownSelectedIndex**</p>|
 |Calc On Exit|N/A| | |
 |Checked|Planned|Will be imported from checked="checked" attribute on &lt;input&gt;.|- **FormField.Checked**|
-|Default Value|Yes|With text form fields this is imported from value="XXX" attribute on &lt;input&gt; tag. <br><br>With a drop down list, this is imported form the <option> element which has selected="selected" attribute.|- **FormField.TextInputDefault**|
+|Default Value|Yes|With text form fields this is imported from value="XXX" attribute on &lt;input&gt; tag. <br><br>With a drop down list, this is imported form the &lt;option&gt; element which has selected="selected" attribute.|- **FormField.TextInputDefault**|
 |Enabled|Planned|The "disabled" attribute can be used here.|- **FormField.Enabled**|
 |Entry and Exit Macro|N/A| | |
 |Name|Yes|Imported from the name attribute on &lt;input&gt; or &lt;select&gt; element.|- **FormField.Name**|
@@ -220,9 +220,9 @@ Aspose.Words fully supports all features of hyperlink fields.
 
 You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink.
 
-Imported from <a> element. Several different objects can have hyperlinks imported from this element. The most common is plain text which is imported a regular hyperlink.
+Imported from &lt;a&gt; element. Several different objects can have hyperlinks imported from this element. The most common is plain text which is imported a regular hyperlink.
 
-If the <a> element has an image as a child then the hyperlink is imported on Shape node.
+If the &lt;a&gt; element has an image as a child then the hyperlink is imported on Shape node.
 
 See the following links in the documentation for further information:
 
