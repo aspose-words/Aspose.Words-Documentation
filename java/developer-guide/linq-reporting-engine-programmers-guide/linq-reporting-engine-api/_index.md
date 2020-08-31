@@ -16,12 +16,12 @@ To build a report from a template, you can use one of the ReportingEngine.buildR
 |**Parameter**|**Description**|
 | :- | :- |
 |document|A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report.|
-|dataSource|An object providing a data to populate the specified template. The object must be of one of the following types:
-    - A traditional mail merge data source (see “Working with Traditional Mail Merge Data Sources” for more information)
-    - An object of a custom visible type (see “Working with Types” for more information)
-    - An XmlDataSource instance (see “Accessing XML Data” for more information)
-    - A JsonDataSource instance (see “Accessing JSON Data” for more information)
-    - A CsvDataSource instance (see “Accessing CSV Data” for more information)|
+|dataSource|An object providing a data to populate the specified template. The object must be of one of the following types:|
+| | - A traditional mail merge data source (see “Working with Traditional Mail Merge Data Sources” for more information)|
+| | - An object of a custom visible type (see “Working with Types” for more information)|
+| | - An XmlDataSource instance (see “Accessing XML Data” for more information)|
+| | - A JsonDataSource instance (see “Accessing JSON Data” for more information)|
+| | - A CsvDataSource instance (see “Accessing CSV Data” for more information)|
 |dataSourceName|The identifier of the specified data source object within the specified template. You can omit this identifier, if the template uses the contextual object member access (see “Using Contextual Object Member Access” for more information) when dealing with the data source.|
 
 Given a template to be populated with a data from a DataSet instance that is identified as “ds” within the template, you can use the following code to build the corresponding report.
@@ -627,7 +627,7 @@ Template document
     <</foreach>>
     
     Average age: <<[persons.average(p => p.Age)]>>
-{< /highlight >}}
+{{< /highlight >}}
 
 Source code
 {{< highlight java >}}
@@ -653,6 +653,7 @@ Also, you can use CsvDataLoadOptions to customize the following characters playi
 - Value separator (the default is comma)
 - Single-line comment start (the default is sharp)
 - Quotation mark enabling to use other special characters within a value (the default is double quotes)
+
 ## **Setting up Known External Types**
 LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the ReportingEngine.getKnownTypes() property. The property represents an unordered set (that is, a collection of unique items) of [Class](http://docs.oracle.com/javase/7/docs/api/java/lang/Class.html) objects. Every type in the set must meet requirements declared at “Working with Types”.
 
@@ -661,8 +662,8 @@ LINQ Reporting Engine must be aware of custom external types that you reference 
 Consider the following example. Given an ImageUtil class declared at your application and a template accessing a static member of this class, you can use the following code to make the engine be aware of the class before processing the template.
 {{< highlight java >}}
     ReportingEngine engine = new ReportingEngine();
-    engine.getKnownTypes getKnownTypes().add(ImageUtil.class);
-    engine.buildReport buildReport(...);
+    engine.getKnownTypes().add(ImageUtil.class);
+    engine.buildReport(...);
 {{< /highlight >}}
 
 ## **Removing Paragraphs Containing Only Template Syntax Tags**
@@ -707,17 +708,20 @@ Text to be removed
 <</if>>
 Suffix
 {{< /highlight >}}
+
 Result document without ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
 Prefix
  
 Suffix
 {{< /highlight >}}
+
 Result document with ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
 Prefix
 Suffix
 {{< /highlight >}}
+
 **Example 3**
 
 **Note –** In this example, persons is assumed to be a data table having a field Name.
@@ -730,6 +734,7 @@ Prefix
 <</foreach>>
 Suffix
 {{< /highlight >}}
+
 Result document without ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
 Prefix
@@ -742,6 +747,7 @@ John Smith
 
 Suffix
 {{< /highlight >}}
+
 Result document with ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS applied
 {{< highlight xml >}}
 Prefix
@@ -750,6 +756,7 @@ Jane Doe
 John Smith
 Suffix
 {{< /highlight >}}
+
 ## **Accessing Missing Members of Data Objects**
 By default, LINQ Reporting Engine forbids access to missing members of data objects used to build a report in template expressions, since such access is forbidden by [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029). On attempt to use a missing member of a data object, the engine throws an exception then.
 
@@ -767,6 +774,7 @@ Consider the following example. Given that r is a DataRow instance that does not
     <<[r.Missing]>>
 {{< /highlight >}}
 However, if ReportBuildOptions.ALLOW_MISSING_MEMBERS is applied, the engine treats access to such a field as a null literal, so no exception is thrown and simply no value is written to the report then.
+
 ## **Inlining Syntax Error Messages into Templates**
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
@@ -778,10 +786,12 @@ Consider the following template.
 {{< highlight xml >}}
     <<var [name]>>
 {{< /highlight >}}
+
 By default, such a template causes the engine to throw an exception while building a report. However, when ReportBuildOptions.INLINE_ERROR_MESSAGES is applied, no exception is thrown and the report looks as follows then.
 {{< highlight xml >}}
     <<var [name] Error! An assignment operator is expected. >>
 {{< /highlight >}}
+
 **Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
 When ReportBuildOptions.INLINE_ERROR_MESSAGES is applied, a Boolean value returned by a ReportingEngine.buildReport overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
