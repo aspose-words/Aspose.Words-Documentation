@@ -7,7 +7,7 @@ url: /java/table-features-supported-on-html-export/
 
 {{% alert color="primary" %}} 
 
-Table is exported to HTML as &lt;table&g&lt;t; and other applicable tags.
+Table is exported to HTML as &lt;table&gt; and other applicable tags.
 
 There is a save option to control how table and cell widths are exported. You can choose to export absolute and relative values, relative values only or no width. When no width is exported then the viewer must calculate the appropriate widths for the table elements.
 
@@ -34,12 +34,12 @@ You can check the quality of HTML Export and view the results online at this lin
 |Right To Left Tables|Yes| | |
 |Table Style|Yes|When a table style is present, it is converted to direct formatting on save so all formatting is still preserved. <br><br>There are plans to export table styles as CSS so they can be properly round-tripped.| |
 |Conditional Formatting Style|Yes| | |
-|Table Alignment|Yes|If the table is inline then it's exported as a &lt;table&g&lt;t; wrapped inside a &lt;div&g&lt;t; formatted with text-align style. <br><br>This is done so the text does not wrap around the table.| |
+|Table Alignment|Yes|If the table is inline then it's exported as a &lt;table&gt; wrapped inside a &lt;div&gt; formatted with text-align style. <br><br>This is done so the text does not wrap around the table.| |
 |Table Indent|Yes|Exported as margin-left:XXX on the table.| |
 |Allow AutoFit|Planned|Consider export of such tables with "table-layout:fixed".| |
 |Default Cell Margins|Yes|Margins are output on every cell.| |
 |Default Cell Spacing|Planned| | |
-|Preferred Table Width|Yes|Fixed width tables are exported as width=XXXpt on &lt;table&g&lt;t;. <br><br>A table with relative size (per cent) is exported as a per cent width e.g width=100%.| |
+|Preferred Table Width|Yes|Fixed width tables are exported as width=XXXpt on &lt;table&gt;. <br><br>A table with relative size (per cent) is exported as a per cent width e.g width=100%.| |
 |Table Shading|Yes|Only a solid fill color is supported. <br><br>Exported as background-color style attribute on all cells in the table.| |
 |Hidden|Planned|Hidden table or row is currently exported as collapsed with no content. This can produce the correct output with the exception of a row border present.| |
 
