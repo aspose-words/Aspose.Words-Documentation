@@ -10,9 +10,9 @@ url: /net/document-features-supported-on-flatopc-export/
 See the following links in the documentation for further information:
 
 - [Save a Document](/words/net/saving-a-document/)
-- [OoxmlSaveOptions]https://apireference.aspose.com/words/net/aspose.words.saving/OoxmlSaveOptions)
+- [OoxmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions)
 - [OoxmlSaveOptions.TempFolder](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/tempfolder)
-- [OoxmlSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/compliance)
+- [OoxmlSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/properties/compliance)
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-flatopc-import/)
 
