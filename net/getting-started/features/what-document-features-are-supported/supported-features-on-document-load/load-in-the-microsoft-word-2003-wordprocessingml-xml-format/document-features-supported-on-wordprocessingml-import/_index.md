@@ -67,8 +67,8 @@ Once loaded you can remove any protection from a document.
 See the following links in the documentation for further information:
 
 - [Protecting Documents](/words/net/working-with-document/#workingwithdocument-protectingdocuments)
-- [Document.Protect](https://apireference.aspose.com/words/net/aspose.words/document/properties/protect overloads)
-- [Document.Unprotect](https://apireference.aspose.com/words/net/aspose.words/document/properties/unprotect overload 1)
+- [Document.Protect](https://apireference.aspose.com/words/net/aspose.words/document/methods/protect/index)
+- [Document.Unprotect](https://apireference.aspose.com/words/net/aspose.words/document/methods/unprotect/index)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
