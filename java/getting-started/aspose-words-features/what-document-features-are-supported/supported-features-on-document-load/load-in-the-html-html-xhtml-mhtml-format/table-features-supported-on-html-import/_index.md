@@ -21,7 +21,7 @@ Using Aspose.Words you can access and modify all features and formatting of a ta
 
 Note that some elements of a table may be wrapped with Markup nodes such as CustomXmlMarkup or StructuredDocumentTag nodes.
 
-A table is imported from source HTML from <table> and other applicable tags.
+A table is imported from source HTML from &lt;table&gt; and other applicable tags.
 
 Currently CSS styles are not imported from table, tr and td elements on import. These feature are planned. You can define inline styles on TD in the mean time.
 
@@ -41,12 +41,12 @@ See the following links in the documentation for further information:
 |Right To Left Tables |Yes | |- **Table.Bidi**|
 |Table Style |Planned |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. <br><br>There are plans to import CSS style on table as a Table Style. |<p>- [Working with Table Styles]() </p><p>- **Table.Style** </p><p>- **Table.StyleIdentifier**</p>|
 |Conditional Formatting Style |N/A | | |
-|Table Alignment |Yes |Imported as a table wrapped inside a <div> formatted with text-align. |- **Table.Alignment**|
+|Table Alignment |Yes |Imported as a table wrapped inside a &lt;div&gt; formatted with text-align. |- **Table.Alignment**|
 |Table Indent |Planned |Will be imported from margin-left:XXX on table. <br><br>Currently this property is skipped. |- **Table.LeftIndent**|
 |Allow AutoFit |Planned |Can be imported from "table-layout:fixed" attribute. |- **Table.AllowAutoFit**|
 |Default Cell Margins |Planned |Can be imported from "spacing" style attribute on table. |<p>- **Table.LeftPadding** </p><p>- **Table.RightPadding** </p><p>- **Table.BottomPadding** </p><p>- **Table.TopPadding**</p>|
 |Default Cell Spacing |Planned |Can be imported from "padding-left", "padding-right" etc style attribute on table. |- **Table.CellSpacing**|
-|Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. <br><br>Imported from width as relative (percent) or absolute (point) width from <table>. |- **Table.PreferredWidth**|
+|Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. <br><br>Imported from width as relative (percent) or absolute (point) width from &lt;table&gt;. |- **Table.PreferredWidth**|
 |Table Shading |Yes |Imported from background-color style attribute on all cells in the table. |- **Table.SetShading**|
 |Hidden |N/A | | |
 ##### **Floating Tables**
@@ -78,21 +78,21 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Allow Break Across Pages |Planned | |<p>- [Keeping Tables and Rows from Breaking across Pages]() </p><p>- **RowFormat.AllowBreakAcrossPages**</p>|
-|Repeat as Header Row |Planned |Will be imported from <thead> and <th> elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows]() </p><p>- **RowFormat.HeadingFormat**</p>|
-|Height |Yes |Imported from "height" of style attribute on <tr>. Row height is only from <tr> and not from <td> cells. |- **RowFormat.Height**|
+|Repeat as Header Row |Planned |Will be imported from &lt;thead&gt; and &lt;th&gt; elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows]() </p><p>- **RowFormat.HeadingFormat**</p>|
+|Height |Yes |Imported from "height" of style attribute on &lt;tr&gt;. Row height is only from &lt;tr&gt; and not from &lt;td&gt; cells. |- **RowFormat.Height**|
 |Height Rule |Planned |A row without any height is imported as "Auto" height rule. <br><br>A row with height defined is imported as "At Least". |- **RowFormat.HeightRule**|
 ##### **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Cell Margins |Yes |Imported from padding-XXX on <td> elements. |<p>- **CellFormat.TopPadding** </p><p>- **CellFormat.BottomPadding** </p><p>- **CellFormat.LeftPadding** </p><p>- **CellFormat.RightPadding**</p>|
-|Borders |Yes |Imported from <td> style attribute border-XXX-style, border-XXX-width etc. |- **CellFormat.Borders**|
-|Shading |Yes |Imported from "background-color" style attribute on <td>. <br><br>Note that background-image attribute is not supported as a Cell in a Microsoft Word document does not have a corresponing feature to this>. <br><br>Instead consider applying the background image to the paragraph inside the cell in the HTML document. |- **CellFormat.Shading**|
+|Cell Margins |Yes |Imported from padding-XXX on &lt;td&gt; elements. |<p>- **CellFormat.TopPadding** </p><p>- **CellFormat.BottomPadding** </p><p>- **CellFormat.LeftPadding** </p><p>- **CellFormat.RightPadding**</p>|
+|Borders |Yes |Imported from &lt;td&gt; style attribute border-XXX-style, border-XXX-width etc. |- **CellFormat.Borders**|
+|Shading |Yes |Imported from "background-color" style attribute on &lt;td&gt;. <br><br>Note that background-image attribute is not supported as a Cell in a Microsoft Word document does not have a corresponing feature to this>. <br><br>Instead consider applying the background image to the paragraph inside the cell in the HTML document. |- **CellFormat.Shading**|
 |Wrap Text |Planned | |- **CellFormat.WrapText**|
 |Fit Text |Planned | |- **CellFormat.FitText**|
 |Preferred Width |Yes |Imported from style attribute width from cells as either relative (percent) or fixed (points). |- **CellFormat.PreferredWidth**|
-|Merged Horizontally |Yes |Imported from "row-span" attribute on <td>. |<p>- [Working with Merged Cells]() </p><p>- **CellFormat.HorizontalMerge**</p>|
-|Merged Vertically |Yes |Imported from "col-span" attribute on <td>. |- **CellFormat.VerticalMerge**|
+|Merged Horizontally |Yes |Imported from "row-span" attribute on &lt;td&gt;. |<p>- [Working with Merged Cells]() </p><p>- **CellFormat.HorizontalMerge**</p>|
+|Merged Vertically |Yes |Imported from "col-span" attribute on &lt;td&gt;. |- **CellFormat.VerticalMerge**|
 |Vertical Alignment |Yes |Imported from vertical-align attribute on cell. |- **CellFormat.VerticalAlignment**|
 |Text Direction |Yes |Imported from "writing-mode" style attribute. |- **CellFormat.Orientation**|
 
