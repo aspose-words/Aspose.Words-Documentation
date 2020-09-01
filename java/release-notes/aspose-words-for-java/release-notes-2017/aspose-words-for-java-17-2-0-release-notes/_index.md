@@ -59,7 +59,7 @@ There are 51 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14732|Some text content is repeated in rendered document|Bug|
 |WORDSNET-14749|Rtf to Doc conversion issue with page numbers of TOC field.|Bug|
 |WORDSNET-14752|When open document, a Aspose.Words.FileCorruptedException occurs.|Bug|
-|WORDSNET-14761|HTML document has no <link> to external CSS file when callback is used|Bug|
+|WORDSNET-14761|HTML document has no &lt;link&gt; to external CSS file when callback is used|Bug|
 |WORDSNET-14768|Horizontal Axis of chart does not render correctly in output PNG|Bug|
 |WORDSNET-14792|Document.Compare does not work for CheckBox (FormField)|Bug|
 |WORDSNET-11771|Support the dir and the bdo elements|Enhancement|
