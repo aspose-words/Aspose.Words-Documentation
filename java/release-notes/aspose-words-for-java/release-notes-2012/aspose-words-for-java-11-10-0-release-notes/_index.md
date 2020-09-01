@@ -98,9 +98,9 @@ There are 171 improvements and fixes in this regular monthly release. The most 
 |WORDSNET-7177 |Docx to HTML conversion issue with chart rendering |Bug |
 |WORDSNET-7182 |Docm to PDF conversion issue with NumeralFormat.ArabicIndic |Bug |
 |WORDSNET-7183 |HTML Table Caption spans only first Cell instead of the entire table |Bug |
-|WORDSNET-7191 |<p> inside <li> which is nested in a <OL> is imported incorrectly |Bug |
+|WORDSNET-7191 |&lt;p&gt; inside &lt;li&gt; which is nested in a &lt;OL&gt; is imported incorrectly |Bug |
 |WORDSNET-7199 |Aspose.Words freeze on loading docx file |Bug |
-|WORDSNET-7202 |Consider exporting Table Alignment as 'align' instead of 'style:text-align' attribute to <div> |Bug |
+|WORDSNET-7202 |Consider exporting Table Alignment as 'align' instead of 'style:text-align' attribute to &lt;div&gt; |Bug |
 |WORDSNET-7207 |Column width is imported incorrectly from HTML into Portrait Orientation of DOC |Bug |
 |WORDSNET-7213 |DrawingML is squeezed to occupy smaller space in PDF |Bug |
 |WORDSNET-7215 |Bar chart's data point values are not rendering to PDF |Bug |
