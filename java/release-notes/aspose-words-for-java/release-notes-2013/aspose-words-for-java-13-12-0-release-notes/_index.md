@@ -79,7 +79,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9309 |Hyperlinks color is changed after conversion from HTML to Docx/Pdf |Bug |
 |WORDSNET-9314 |Font changes from Arial to Courier New during open/save a RTF |Bug |
 |WORDSNET-9332 |Aspose.Words produces a corrupt DOCX file. |Bug |
-|WORDSNET-9333 |Lines of text imported from <pre> HTML elements have non-zero spacing |Bug |
+|WORDSNET-9333 |Lines of text imported from &lt;pre&gt; HTML elements have non-zero spacing |Bug |
 |WORDSNET-9336 |Left and Hanging indentation values are incorrectly imported from HTML |Bug |
 |WORDSNET-9337 |StructuredDocumentTag does not export correctly in output Doc/Pdf files |Bug |
 |WORDSNET-9341 |Styles are imported with incorrect settings when importing sections |Bug |
@@ -91,7 +91,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9407 |Formatting of Paragraph in Shape is not preserved during open/save an ODT |Bug |
 |WORDSNET-9427 |Aspose.Words renders an invalid signature in PDF/Image formats |Bug |
 |WORDSNET-9434 |Aspose.Words.FileCorruptedException is thrown while loading Doc file |Bug |
-|WORDSNET-1787 |Import < thead > and < th > in tables properly |Enhancement |
+|WORDSNET-1787 |Import &lt; thead &gt; and &lt; th &gt; in tables properly |Enhancement |
 |WORDSNET-1869 |font.color and td.bgcolor are not imported during HTML import. |Enhancement |
 |WORDSNET-3855 |Shape extrusion doesn't work |Enhancement |
 |WORDSNET-4436 |"!Syntax Error" is shown after updating fields. |Enhancement |
