@@ -174,7 +174,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSNET-7354 |Support text rotation and direction upon rendering Axis labels. |Feature |
 |WORDSNET-7468 |Shape shadow effects is not rendered in pdf output |Feature |
 |WORDSNET-7609 |Hyperlink in PDF is not opened in a new window when specifying ContentDisposition.Inline option |Feature |
-|WORDSNET-7696 |Support non binary OLE objects (<draw:object>) in ODT |Feature |
+|WORDSNET-7696 |Support non binary OLE objects (&lt;draw:object&gt;) in ODT |Feature |
 |WORDSNET-7710 |Aspose.Words renders more Pages than in original Docuement |Feature |
 |WORDSNET-7728 |Create samples for the new access to page layout feature |Feature |
 |WORDSNET-7729 |Touch up PageSplitter sample |Feature |
