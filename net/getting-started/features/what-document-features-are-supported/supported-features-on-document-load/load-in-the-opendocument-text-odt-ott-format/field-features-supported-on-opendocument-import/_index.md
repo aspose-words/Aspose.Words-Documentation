@@ -34,8 +34,8 @@ Fields with custom field codes or field results (modified manually in the docume
 See the following links in the documentation for further information:
 
 - [Working with Fields](/words/net/working-with-fields/)
-- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertfield overloads)
-- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatefields)
+- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertfield/index)
+- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
 - [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldtype)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
