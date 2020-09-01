@@ -171,26 +171,29 @@ You can easily merge attributes of fields using the following syntax:
 {{ Address.Street }}
 
 This will merge data from XML data which looks like this:
+{{< highlight csharp >}}
+<Order> // <-- Current context is here.
+<Number>23</Number>
+<Address>
+  <Street>Nelson Street</Street>
+  <Suburb>Howick</Suburb>
+  <City>Auckland</City>
+</Address>
+<PhoneNumber>543 1234</PhoneNumber>
+</Order>
+{{< /highlight >}}
 
-&lt;Order&gt; // &lt;-- Current context is here.
-`   `&lt;Number&gt;23&lt;/Number&gt;
-`   `&lt;Address&gt;
-`      `&lt;Street&gt;Nelson Street&lt;/Street&gt;
-`      `&lt;Suburb&gt;Howick&lt;/Suburb&gt;
-`      `&lt;City&gt;Auckland&lt;/City&gt;
-`   `&lt;/Address&gt;
-`   `&lt;PhoneNumber&gt;543 1234&lt;/PhoneNumber&gt;
-&lt;/Order&gt;
 ### **Foreach Blocks**
 You can merge data from multiple records using the foreach tag. This is similar to mail merge regions with convectional merge fields. You can nest such blocks.
-
+{{< highlight csharp >}}
 {{ #foreach Order }}
-`  `{{ Number }}
-`  `{{ Address.Street }}
-`    `{{ #foreach Item }}
-`       `{{ Description }} {{ Cost}} {{ Total }}
-`    `{{/foreach Item }}
+{{ Number }}
+{{ Address.Street }}
+{{ #foreach Item }}
+{{ Description }} {{ Cost}} {{ Total }}
+{{/foreach Item }}
 {{ /foreach Order }}
+{{< /highlight >}}
 
 You can also mix these fields and place them inside other Microsoft Word fields such as IF or Formula fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/VendorTemplate.doc).
 
