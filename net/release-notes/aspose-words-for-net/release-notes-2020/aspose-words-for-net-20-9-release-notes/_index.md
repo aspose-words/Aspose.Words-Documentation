@@ -91,7 +91,7 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-20957	|Stack Overflow observed during processing a DOC|Bug|
 |WORDSNET-20962	|Additional pages appear in output PDF|Bug|
 |WORDSNET-18318	|Export correct styles for list items using Node.ToString|Bug|
-|WORDSNET-20614	|Space between ?and ?Chinese charterers increased in PDF|Bug|
+|WORDSNET-20614	|Space between ）and ：Chinese charterers increased in PDF|Bug|
 |WORDSNET-20637	|System.ArgumentOutOfRangeException is thrown by LINQ Reporting engine|Bug|
 |WORDSNET-13509	|Incorrect breaking of vertically merged cell contents|Bug|
 |WORDSNET-14951	|Content Controls lost during open/save a DOCX|Bug|
