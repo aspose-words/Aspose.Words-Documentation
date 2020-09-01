@@ -29,7 +29,7 @@ There are 95 improvements and fixes in this regular monthly release. The most n
 |WORDSJAVA-853 |Condensed character spacing is lost. |Bug |
 |WORDSJAVA-852 |Relative hyperlink with Unicode is improperly saved to Pdf. |Bug |
 |WORDSJAVA-457 |Add pre-built Document Explorer JAR to Java release. |Enhancement |
-|WORDSNET-6074 |Aspose.Words does not take in account style set in <head>. |Bug |
+|WORDSNET-6074 |Aspose.Words does not take in account style set in &lt;head&gt;. |Bug |
 |WORDSNET-6127 |Table looks incorrectly while converting html to doc. |Bug |
 |WORDSNET-7406 |Hyperlinks split into multiple fragments/links in output PDF |Bug |
 |WORDSNET-8435 |Horizontal table position is wrong |Bug |
@@ -37,7 +37,7 @@ There are 95 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8835 |PDPageContentStream.drawImage draws an inverted image inside Aspose.Words generated Pdf |Bug |
 |WORDSNET-8842 |Content in the output html is overlapped at many places in Html |Bug |
 |WORDSNET-9135 |Different table justify alignment for different compatibilityMode values. |Bug |
-|WORDSNET-9176 |CSS selectors do not work for <thead>, <tbody>, and<tfoot> elements |Bug |
+|WORDSNET-9176 |CSS selectors do not work for &lt;thead&gt;, &lt;tbody&gt;, and&lt;tfoot&gt; elements |Bug |
 |WORDSNET-9191 |Chart Legend/Series do not render correctly in output Pdf file |Bug |
 |WORDSNET-9254 |Data labels with best fit position are rendering at incorrect places in Chart |Bug |
 |WORDSNET-9315 |Offset of the hyperlink text line is off by a few pixels in output Pdf |Bug |
@@ -49,7 +49,7 @@ There are 95 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9541 |Problem with vertical paragraph spacing when importing HTML using InsertHtml method |Bug |
 |WORDSNET-9568 |Shape is rotated after conversion from Doc to Pdf |Bug |
 |WORDSNET-9573 |Text color is changed after conversion from Docx to WordML/Doc |Bug |
-|WORDSNET-9626 |Word Table indentation is not correct when <table> is placed inside <li> |Bug |
+|WORDSNET-9626 |Word Table indentation is not correct when &lt;table&gt; is placed inside &lt;li&gt; |Bug |
 |WORDSNET-9677 |Arrows on the Lines gets distorted when converting to Pdf |Bug |
 |WORDSNET-9689 |A space character is exported to PDF output between Japanese and Numeric characters |Bug |
 |WORDSNET-9691 |System.NullReferenceException is thrown while using Node.ToString(SaveFormat.Html) |Bug |
@@ -98,7 +98,7 @@ There are 95 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9871 |System.InvalidOperationException is thrown while saving document to ODT format |Exception |
 |WORDSNET-1206 |Support OLE embedding of documents and files |Feature |
 |WORDSNET-4260 |Write an article about how to work with Table of contents in Aspose.Words |Feature |
-|WORDSNET-5147 |Add <col> tag support |Feature |
+|WORDSNET-5147 |Add &lt;col&gt; tag support |Feature |
 |WORDSNET-7245 |Support BestFit position of Pie chart's data labels. |Feature |
 |WORDSNET-7528 |Support style:text-decoration attribute of Paragraph tag. |Feature |
 |WORDSNET-9496 |Preserve private characters in EUDC.TTE during rendering to Pdf |Feature |
