@@ -186,7 +186,7 @@ The following code example demonstrates how to load font fallback settings from
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetFontFallbackSettings.cs" >}}
 
-` `In the above code example, the following XML file is used:
+In the above code example, the following XML file is used:
 
 {{< highlight html >}}
 <FontFallbackSettings xmlns="Aspose.Words">
