@@ -86,12 +86,12 @@ See the following link in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|TextInput |Yes |Exported as <input type="text" name="XXX" /> | |
-|CheckBox |Yes |Exported as <input type="checkbox" name="XXX" /> | |
-|DropDown |Yes |Exported as <select name="XXX" />. Each item in the list is exported as a <option> element. | |
+|TextInput |Yes |Exported as &lt;input type="text" name="XXX" /&gt; | |
+|CheckBox |Yes |Exported as &lt;input type="checkbox" name="XXX" /&gt; | |
+|DropDown |Yes |Exported as &lt;select name="XXX" /&gt;. Each item in the list is exported as a &lt;option&gt; element. | |
 |Calc On Exit |N/A | | |
 |Checked |Yes |Exported as checked="checked" attribute on &lt;input&gt;. | |
-|Default Value |Yes |With text form fields this is exported as value="XXX" attribute on &lt;input&gt; element. <br><br>With a drop down list, this is exported with the selected="selected" attribute on the default <option> element. | |
+|Default Value |Yes |With text form fields this is exported as value="XXX" attribute on &lt;input&gt; element. <br><br>With a drop down list, this is exported with the selected="selected" attribute on the default &lt;option&gt; element. | |
 |Enabled |Planned |The "disabled" attribute can be used here. | |
 |Entry and Exit Macro |N/A | | |
 |Name |Yes |Exported as "name" attribute on &lt;input&gt; or &lt;select&gt; element. <br><br>Name is only exported when exporting as elements and not as plain text. | |
@@ -120,7 +120,7 @@ See the following link in the documentation for further information:
 |Bibliography |Yes | | |
 |Citation |N/A | | |
 |Hyperlink |Yes |Output to HTML as a clickable hyperlink. | |
-|IncludePicture |Yes |If the field is set to embedding the image in the document then the image is saved along with the HTML and referenced locally. <br><br>If the field is link only then the full address to the source image is written to the image tag as <img src="xxx">. | |
+|IncludePicture |Yes |If the field is set to embedding the image in the document then the image is saved along with the HTML and referenced locally. <br><br>If the field is link only then the full address to the source image is written to the image tag as &lt;img src="xxx"&gt;. | |
 |IncludeText |Yes | | |
 |Link |Yes |Exported as an image. | |
 |NoteRef |Yes |Exported as plain text. | |
@@ -169,17 +169,17 @@ Any fields that have a field result are exported to HTML as text.
 |UserInitials |Yes | | |
 |UserName |Yes | | |
 ##### **Hyperlinks**
-Exported as <a> element with text or image being linked as children.
+Exported as &lt;a&gt; element with text or image being linked as children.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text |Yes | | |
-|Hyperlinked Shape or Image |Yes |Image is wrapped inside <a> element. | |
+|Hyperlinked Shape or Image |Yes |Image is wrapped inside &lt;a&gt; element. | |
 |Hyperlink across Multiple Paragraphs |Yes |Is exported as one hyperlink for each paragraph. <br><br>This is the same as how Microsoft Word exports such hyperlinks. | |
-|Hyperlink to a Local Bookmark |Yes |Linked to bookmarks exported as <a> elements. | |
+|Hyperlink to a Local Bookmark |Yes |Linked to bookmarks exported as &lt;a&gt; elements. | |
 |Hyperlink to an External Resource |Yes | | |
 |Screen Tip |Planned | | |
-|Target Frame |Yes |Exported as target="_XXX" attribute on <a>. | |
+|Target Frame |Yes |Exported as target="_XXX" attribute on &lt;a&gt;. | |
 ##### **Formatting Switches**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
