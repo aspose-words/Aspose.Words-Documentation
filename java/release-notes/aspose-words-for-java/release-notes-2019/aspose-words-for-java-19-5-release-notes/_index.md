@@ -32,7 +32,7 @@ This page contains release notes for [Aspose.Words for Java 19.5](https://reposi
 |WORDSNET-16739|Provide StreamFontSource similar to the FileFontSource|New Feature|
 |WORDSNET-16734|Add feature to get font leading/metrics of Run node|New Feature|
 |WORDSNET-18436|Provide API to identify Style Separator Paragraph|New Feature|
-|WORDSNET-17843|Generate <TOC> tags for Table of contents in PDF|New Feature|
+|WORDSNET-17843|Generate &lt;TOC&gt; tags for Table of contents in PDF|New Feature|
 |WORDSNET-18440|Add new 3D parameters to ExtrusionParameters and their processing|New Feature|
 |WORDSJAVA-1866|Run out of Java Heap Space while saving an image with a mismatched number of color components to Pdf.|Bug|
 |WORDSJAVA-2010|The time consumption in conversion DOCX to PDF|Bug|

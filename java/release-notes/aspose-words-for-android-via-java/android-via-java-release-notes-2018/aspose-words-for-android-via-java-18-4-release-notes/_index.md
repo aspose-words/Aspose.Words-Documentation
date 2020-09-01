@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Android via Java 18.4](ht
 ## **Major Features**
 There are 70+ improvements and fixes in this regular monthly release. The most notable are:
 
-- Added public Ref<T> class for out/ref emulation in public API.
+- Added public Ref&lt;T&gt; class for out/ref emulation in public API.
 - Provide an ability to work with password-protected ODT and OTT file formats
 - Preserve PaperTray information in PCL       
 - Added ShapeBase.IsLayoutInCell property 

@@ -15,7 +15,7 @@ All Word documents and most other formats that Aspose.Words export to only allow
 
 If two bookmarks are given the same name in the model then no errors will occur. During export to any format the duplicate bookmarks are removed silently. The first bookmark visited in the model is the one that is retained, any other bookmarks are removed,
 
-Bookmark is represented by <a> element. Only bookmark start is output. Nesting and overlapping is not allowed.
+Bookmark is represented by &lt;a&gt; element. Only bookmark start is output. Nesting and overlapping is not allowed.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -28,7 +28,7 @@ There are plans to export comments to HTML as footnotes.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Comment |Yes |Currently a comment is exported as "title" attribute on <span>. | |
+|Comment |Yes |Currently a comment is exported as "title" attribute on &lt;span&gt;. | |
 |Comment Range |Yes |The same comment is exported as title attribute for all spans inside a comment range. <br><br>This will be improved in the future. | |
 |Author |Planned | | |
 |Date |Planned | | |
@@ -36,7 +36,7 @@ There are plans to export comments to HTML as footnotes.
 ##### **Tracking Changes**
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 
-Exported as <ins> and <del> elements.
+Exported as &lt;ins&gt; and &lt;del&gt; elements.
 
 See the following link in the documentation for further information:
 

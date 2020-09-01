@@ -79,7 +79,7 @@ OLE objects are fully preserved when converting within different Word document f
 
 OLE objects are saved as images.
 
-There are plans to export using the <object> tag and the type of object which is embedded. This will allow export of embedded objects such as PDF to be exported as working objects.
+There are plans to export using the &lt;object&gt; tag and the type of object which is embedded. This will allow export of embedded objects such as PDF to be exported as working objects.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -125,7 +125,7 @@ See the following link in the documentation for further information:
 |SmartArt (VML) |Yes | | |
 |Charts (VML) |Yes | | |
 |Shape Customizations |Yes |Exported as image. | |
-|Hyperlink on Shape |Yes |Exported as <img> element wrapped in <a> element with appropriate attributes. | |
+|Hyperlink on Shape |Yes |Exported as &lt;img&gt; element wrapped in &lt;a&gt; element with appropriate attributes. | |
 |Watermark |N/A |Watermark shapes will be exported as a regular image to HTML at the same level as normal content. This is because there is no native support for watermark in HTML. To increase fidelity, set the watermark wrapping to "Behind Text" so the watermark will appear behind the main document content when exported to HTML. <br><br>Also note that the image will not have the same transparency level as what is applied in Microsoft Word. <br><br>Watermarks are only exported if the export of headers and footers to HTML is enabled. Since HTML has no "page" concept, the headers and footers only appear once. There is a save option to control how headers and footers are exported to HTML. | |
 ##### **WordArt**
 WordArt is exported as an image. You can also set the AltText property so the plain text content of the WordArt can be found in the output HTML.
@@ -143,7 +143,7 @@ WordArt is exported as an image. You can also set the AltText property so the pl
 |WordArt Shape |Planned | | |
 
 ##### **Horizontal Line Object**
-Exported as <hr> tag.
+Exported as &lt;hr&gt; tag.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -151,16 +151,16 @@ Exported as <hr> tag.
 |Height |Yes |Exported as height:XXpt on style attribute. | |
 |Color |Yes |Exported as color:XXX along with border:none on style attribute. <br><br>Note that some browsers cannot display this properly (Chrome seems to ignore this). <br><br>We will consider using a different attribute in a future version. | |
 |Alignment |Yes |Exported as "text-align:XXX" on style attribute. | |
-|Hyperlink |Planned |<hr> tag can be wrapped in an <a> element. | |
-|Image |Yes |Exported as a regular <img> element instead of <hr>. <br><br>There are plans to export a horizontal line with an image as <hr> element with style="background: url(xxx.png)". | |
+|Hyperlink |Planned |&lt;hr&gt; tag can be wrapped in an &lt;a&gt; element. | |
+|Image |Yes |Exported as a regular &lt;img&gt; element instead of &lt;hr&gt;. <br><br>There are plans to export a horizontal line with an image as &lt;hr&gt; element with style="background: url(xxx.png)". | |
 
 ##### **Position**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Inline |Yes |Exported as child element child of <p>. | |
+|Inline |Yes |Exported as child element child of &lt;p&gt;. | |
 |Floating |Yes |Aspose.Words attempts to export floating content to HTML. Note that the output producd may differ greatly from the Word document source as a Word document is a vastly different format. We are activly improving export of floating content in our HTML engine. <br><br>Floating content is made possible by exporting elements with margin-top and margin-left style and position:absolute style. <br><br>In the future we will provide tips on how to design Word documents with floating content that are exported to HTML based formats well. | |
-|Wrap Type |Yes |<p>Text wrapping around images and shapes is supported in all formats. <br><br>Wrap type is emulated through the use of "float" on style attribute. </p><p>- Square, Tight and Through are exported as "float:left". </p><p>- Top and Bottom can be emulated by adding <br style="clear:both"> around image but is currently exported as "float:left". </p><p>- Behind-Text can be emulated using z-index:-1 but is currently such content is exported on top of text. </p><p>- Infront of Text content is exported with a z-index greater than 0.</p>| |
+|Wrap Type |Yes |<p>Text wrapping around images and shapes is supported in all formats. <br><br>Wrap type is emulated through the use of "float" on style attribute. </p><p>- Square, Tight and Through are exported as "float:left". </p><p>- Top and Bottom can be emulated by adding &lt;br style="clear:both"&gt; around image but is currently exported as "float:left". </p><p>- Behind-Text can be emulated using z-index:-1 but is currently such content is exported on top of text. </p><p>- Infront of Text content is exported with a z-index greater than 0.</p>| |
 |Wrap Sides |Yes |<p>Wrap sides is exported through use of the float style attribute. </p><p>- Both sides and largest only wrap have no suitable analog in HTML and are exported as float:left. </p><p>- Right side wrap is exported as float:left. </p><p>- Left side wrap is exported as float:right.</p>| |
 |Distance from Text |Yes |Exported as margin style on exported object. | |
 |Z-Order |Yes |Exported as "z-index:X" on style attribute. | |

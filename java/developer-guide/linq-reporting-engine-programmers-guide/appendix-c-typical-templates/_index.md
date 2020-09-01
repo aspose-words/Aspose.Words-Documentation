@@ -16,6 +16,7 @@ This section contains examples of templates for typical scenarios. Every example
 
 The Manager, Contract, and Client classes are defined as follows.
 
+{{< highlight csharp >}}
 **public class Manager
 {
 `    `public String getName() { ... }
@@ -40,6 +41,7 @@ public class Client
 `    `public String getName() { ... }
 `    `...
 }**
+{{< /highlight >}}
 
 This article explains following topics:
 

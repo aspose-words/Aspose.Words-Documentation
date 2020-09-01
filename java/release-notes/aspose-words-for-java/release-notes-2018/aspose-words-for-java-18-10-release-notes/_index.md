@@ -87,7 +87,7 @@ Full List of Issues Covering all Changes in this Release 
 |WORDSNET-17330|Unable to completely remove cell spacing in RTF tables|Bug|
 |WORDSNET-17395|Table direction changed from 'Right-to-left' to 'Left-to-right'|Bug|
 |WORDSNET-14256|OutlineOptions.HeadingsOutlineLevels does not export heading levels when Html is exported to Pdf|Bug|
-|WORDSNET-16978|Fallback content of an <object> element is imported from HTML even if element's data are available|Bug|
+|WORDSNET-16978|Fallback content of an &lt;object&gt; element is imported from HTML even if element's data are available|Bug|
 |WORDSNET-17319|HTML-to-Words converter generates corrupted DOCX|Bug|
 |WORDSNET-17402|Watermark is not rendered in output PDF|Bug|
 |WORDSNET-17314|A DOCX document produced by Aspose.Words cannot be opened in MS Word|Bug|

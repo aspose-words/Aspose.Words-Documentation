@@ -67,10 +67,10 @@ There are 95 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8784 |/justify narrows spaces/ Less words per line are being written in Pdf |Bug |
 |WORDSNET-9059 |/w:cr/ Spacing between words is lost in Pdf |Bug |
 |WORDSNET-9236 |/justify narrows spaces/ Words are misplaced in the output PDF |Bug |
-|WORDSNET-9318 |Process <style> elements located in HTML document's body |Bug |
+|WORDSNET-9318 |Process &lt;style&gt; elements located in HTML document's body |Bug |
 |WORDSNET-9591 |Paragraph spacing of preformatted text is incorrectly imported from HTML |Bug |
-|WORDSNET-9615 |Preserve distance between the ListLabel and Text during importing/exporting a list (<ul> or <ol>) |Bug |
-|WORDSNET-9617 |Margins of a paragraph imported from <pre> are applied to the first line of the paragraph |Bug |
+|WORDSNET-9615 |Preserve distance between the ListLabel and Text during importing/exporting a list (&lt;ul&gt; or &lt;ol&gt;) |Bug |
+|WORDSNET-9617 |Margins of a paragraph imported from &lt;pre&gt; are applied to the first line of the paragraph |Bug |
 |WORDSNET-9784 |Formatting tracked changes are lost after conversion from Docx to Pdf |Bug |
 |WORDSNET-9791 |Document.UpdateFields changes the paragraphs formatting |Bug |
 |WORDSNET-9837 |Document.JoinRunsWithSameFormatting does not work with RTF document |Bug |

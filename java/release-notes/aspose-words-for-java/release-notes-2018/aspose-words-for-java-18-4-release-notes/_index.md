@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Java 18.4](https://reposi
 ## **Major Features**
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
-- Added public Ref<T> class for out/ref emulation in public API.
+- Added public Ref&lt;T&gt; class for out/ref emulation in public API.
 - Provide an ability to work with password-protected ODT and OTT file formats
 - Preserve PaperTray information in PCL       
 - Added ShapeBase.IsLayoutInCell property 
@@ -122,7 +122,7 @@ This section lists public API changes that were introduced in Aspose.Words 18.4.
 ### **Public Ref Class for out-ref Emulation in Public Java API**
 Related issue: WORDSJAVA-1756
 
-On .NET baseline, some public API methods contain out/ref params in signatures. Service classes Ref<T>, RefInt, RefBoolean, etc. are added to emulate out/ref in Java.
+On .NET baseline, some public API methods contain out/ref params in signatures. Service classes Ref&lt;T&gt;, RefInt, RefBoolean, etc. are added to emulate out/ref in Java.
 
 Now, the code like:
 

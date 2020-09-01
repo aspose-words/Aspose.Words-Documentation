@@ -82,7 +82,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-19177	|Border of PieChart pieces is changed in output PNG|Bug|
 |WORDSNET-19164	|SmartArt to PNG conversion issue with fill color|Bug|
 |WORDSNET-18954	|Watermarks are black and doubled when converting EMF to PDF|Bug|
-|WORDSNET-20106	|Problem in ODT format with field Fill-In containing <text:line-break> tag or carriage return character.|Bug|
+|WORDSNET-20106	|Problem in ODT format with field Fill-In containing &lt;text:line-break&gt; tag or carriage return character.|Bug|
 |WORDSNET-20528	|Conversion from RTF to PDF - Paragraph borders not imported correctly|Bug|
 |WORDSNET-20117	|Table of Contents does use the wrong style|Bug|
 |WORDSNET-20108	|Language of SDTs is changed from Hebrew to Arabic after DOCX>HTML>DOCX|Bug|

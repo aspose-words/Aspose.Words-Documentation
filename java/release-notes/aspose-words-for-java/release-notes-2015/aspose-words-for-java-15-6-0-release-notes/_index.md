@@ -94,7 +94,7 @@ Printer metrics are supported on the Windows platform.
 |WORDSNET-11693 |Support CurrentShape in HtmlFixedSaveOptions |Enhancement |
 |WORDSNET-11808 |Cell's top and bottom paddings are changed after DOCX->HTML->DOCX roundtrip |Enhancement |
 |WORDSNET-11913 |Insertion using DocumentBuilder.InsertHtml is always performed in Quirks mode. |Enhancement |
-|WORDSNET-11915 |Propagate background color of <div> elements to whole child tables |Enhancement |
+|WORDSNET-11915 |Propagate background color of &lt;div&gt; elements to whole child tables |Enhancement |
 |WORDSNET-11938 |Spaces are missing after saving RTF to Doc/Rtf/Docx/Txt |Enhancement |
 |WORDSNET-11967 |Links are shifted to the top of the page in IE8 |Enhancement |
 |WORDSNET-12014 |WordArt Vertical Text is not supported. |Enhancement |

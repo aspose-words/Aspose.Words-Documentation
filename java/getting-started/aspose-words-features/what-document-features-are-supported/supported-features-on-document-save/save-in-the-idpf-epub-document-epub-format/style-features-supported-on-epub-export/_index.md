@@ -35,7 +35,7 @@ Character styles often are saved with .span prefix.
 | :- | :- | :- | :- |
 |Aliases |Yes |Aliases are exported as ordinary CSS classes. | |
 |Based On |Planned | | |
-|Built-in Styles |Yes |Built-in styles are exported specifically. For instance Normal redirects to general <p> element, Heading 1 to <h1> etc. | |
+|Built-in Styles |Yes |Built-in styles are exported specifically. For instance Normal redirects to general &lt;p&gt; element, Heading 1 to &lt;h1&gt; etc. | |
 |Custom Styles |Yes |A new style is created with each custom style in the document. | |
 |Style Name |Yes | | |
 |Next Style |N/A | | |

@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for Java 20.1](https://reposi
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
-| :-: | :-: | :-: |
+| :- | :- | :- |
 |WORDSJAVA-2248|Investigate loading documents from PostgreSQL BlobInputStream.|New Feature|
 |WORDSJAVA-2280|JavaDoc for WebExtensions|New Feature|
 |WORDSJAVA-2286|Render an EMF file containing an icon and icon caption.|New Feature|
@@ -85,7 +85,7 @@ This page contains release notes for [Aspose.Words for Java 20.1](https://reposi
 |WORDSNET-18740|Document.Save hangs while saving document's page to JPEG|Bug|
 |WORDSNET-19620|Specifying ImportFormatMode.KeepDifferentStyles causes AppendDocument to throw an exception|Bug|
 |WORDSNET-18916|Problem with rendered PDF with OTF font in Mac OS Preview app|Bug|
-|WORDSNET-19332|LINQ Reporting with JsonDataSource using List<string> does not work|Bug|
+|WORDSNET-19332|LINQ Reporting with JsonDataSource using List&lt;string&gt; does not work|Bug|
 |WORDSNET-19073|Provide another SkiaSharp Native Asset Package for Redhat Enterprise Linux|Bug|
 |WORDSNET-19331|Document.Save generates big size HtmlFixed document|Bug|
 |WORDSNET-19637|A line moves to the next page in PDF|Bug|
