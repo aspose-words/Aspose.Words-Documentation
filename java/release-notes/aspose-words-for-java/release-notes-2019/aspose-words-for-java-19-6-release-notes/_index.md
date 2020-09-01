@@ -41,7 +41,7 @@ This page contains release notes for [Aspose.Words for Java 19.6](https://reposi
 |WORDSNET-18473|Implement switching between Software and Hardware modes rendering|New Feature|
 |WORDSNET-9641|Accessing information of Table Styles|New Feature|
 |WORDSJAVA-2006|Colour shading Issue in PDF|Bug|
-|WORDSJAVA-2062|Does not load <img> src containing Chinese characters.|Bug|
+|WORDSJAVA-2062|Does not load &lt;img&gt; src containing Chinese characters.|Bug|
 |WORDSJAVA-2084|Chart axis label format code.|Bug|
 |WORDSJAVA-2085|Some ApsPath FillMode is not supported.|Bug|
 |WORDSJAVA-2086|Exception throws during loading a malformed image.|Bug|
