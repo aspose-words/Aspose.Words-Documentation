@@ -15,7 +15,7 @@ The [FontSourceBase](https://apireference.aspose.com/net/words/aspose.words.font
 - [FileFontSource](https://apireference.aspose.com/net/words/aspose.words.fonts/filefontsource)
 - [MemoryFontSource](https://apireference.aspose.com/net/words/aspose.words.fonts/memoryfontsource)
 
-` `Implementation details for some classes are explained below.
+Implementation details for some classes are explained below.
 ## **Loading Fonts from System**
 There is a special [SystemFontSource](https://apireference.aspose.com/net/words/aspose.words.fonts/systemfontsource) class that is always used by default. It represents all TrueType fonts installed on the system. Therefore, it is possible to create a source list with **SystemFontSource** and any other required sources:
 
