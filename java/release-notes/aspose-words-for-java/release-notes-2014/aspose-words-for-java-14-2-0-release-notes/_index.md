@@ -88,9 +88,9 @@ There are 131 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9610 |IMailMergeDataSource.GetValue is not invoked for nested regions contained inside IF field |Bug |
 |WORDSNET-9611 |Author, DateTime of a Revision is incorrectly returned |Bug |
 |WORDSNET-9618 |Non-zero space before the first paragraph of a document imported from preformatted HTML |Bug |
-|WORDSNET-9619 |No new paragraph is created for inline text imported from <pre> elements |Bug |
-|WORDSNET-9620 |Incorrect size of text imported from a paragraph that is a child of a <pre> element |Bug |
-|WORDSNET-9621 |A new line is not imported if it separates child elements of <pre> |Bug |
+|WORDSNET-9619 |No new paragraph is created for inline text imported from &lt;pre&gt; elements |Bug |
+|WORDSNET-9620 |Incorrect size of text imported from a paragraph that is a child of a &lt;pre&gt; element |Bug |
+|WORDSNET-9621 |A new line is not imported if it separates child elements of &lt;pre&gt; |Bug |
 |WORDSNET-9624 |Heading3 gray color appears when rendering to fixed page formats |Bug |
 |WORDSNET-9639 |RowFormat.HeightRule is changed after conversion from MHT to Doc/Docx |Bug |
 |WORDSNET-9648 |Company logo size is not preserved in Pdf |Bug |
