@@ -88,7 +88,7 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16899|Line break in Cell occurs at wrong character|Bug|
 |WORDSNET-14641|MathML is exported incorrectly in output Docx|Bug|
 |WORDSNET-14343|mathml notation problem during converting html to word - mtext|Bug|
-|WORDSNET-16851|MathML object having no revisions is enclosed in <ins> and <del> elements during export to HTML|Bug|
+|WORDSNET-16851|MathML object having no revisions is enclosed in &lt;ins&gt; and &lt;del&gt; elements during export to HTML|Bug|
 |WORDSNET-16920|Microsoft Edge browser does not open EPUB correctly|Bug|
 |WORDSNET-16981|Picture truncates from right in PDF|Bug|
 |WORDSNET-16617|Remove the scaling in SVG export|Bug|
@@ -109,7 +109,7 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16616|Add support for the MathML "mathcolor" attribute|Enhancement|
 |WORDSNET-10424|Docx to WordML conversion issue with Hyperlinks|Enhancement|
 |WORDSNET-16936|Improve Aspose.Words trial mode message|Enhancement|
-|WORDSNET-16614|Improve support for MathML elements <menclose>, <mtext>, and for the "mathcolor" attribute|Enhancement|
+|WORDSNET-16614|Improve support for MathML elements &lt;menclose&gt;, &lt;mtext&gt;, and for the "mathcolor" attribute|Enhancement|
 |WORDSNET-9014|Incorrect shape height causes unnecessary text wrapping in AW output|Enhancement|
 |WORDSNET-17059|Aspose.Words.UnsupportedFileFormatException is thrown while loading DOCX|Exception|
 |WORDSNET-16829|Document.PageCount throws System.NullReferenceException|Exception|
@@ -125,7 +125,7 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-9079|Add support in PdfSaveOptions to export bookmarks of header/footer|Feature|
 |WORDSNET-16914|API for removing personal information setting from the document|Feature|
 |WORDSNET-16955|Create outlines for heading style paragraphs inside table|Feature|
-|WORDSNET-16965|Export hyperlinks using <w:hyperlink> instead of using complex fields|Feature|
+|WORDSNET-16965|Export hyperlinks using &lt;w:hyperlink&gt; instead of using complex fields|Feature|
 |WORDSNET-17070|Public interface for revision groups|Feature|
 |WORDSNET-14858|Spaces in a text file are truncated in output document|Feature|
 |WORDSNET-17005|BMP and PNG images are not scaled down in size when HTML is converted to PDF/DOCX`|Regression|
@@ -191,7 +191,7 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 }
 {{< /highlight >}}
 ### **Generics**
-Untyped containers like **ArrayList** have been replaced with typed containers like **List<T>**.
+Untyped containers like **ArrayList** have been replaced with typed containers like **List&lt;T&gt;**.
 As a result some public API becomes changed.
 ### **1. MailMerge**
 Before:
