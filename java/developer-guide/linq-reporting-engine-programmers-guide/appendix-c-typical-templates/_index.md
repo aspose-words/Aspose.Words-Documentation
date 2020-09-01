@@ -15,7 +15,6 @@ This section contains examples of templates for typical scenarios. Every example
 - clients, an enumeration of instances of the Client class
 
 The Manager, Contract, and Client classes are defined as follows.
-
 {{< highlight csharp >}}
 public class Manager
 {
