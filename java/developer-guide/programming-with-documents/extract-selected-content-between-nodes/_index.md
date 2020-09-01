@@ -5,37 +5,6 @@ weight: 100
 url: /java/extract-selected-content-between-nodes/
 ---
 
-**Contents Summary**
-
-1 [Extract Content Overview and Code](#ExtractSelectedContentBetweenNodes-ExtractContentOverviewandCode) 
-
-1.1 [The Solution](#ExtractSelectedContentBetweenNodes-TheSolution)
-
-1.2 [The Code](#ExtractSelectedContentBetweenNodes-TheCode)
-
-2 [Extract Content Between Paragraphs](#ExtractSelectedContentBetweenNodes-ExtractContentBetweenParagraphs)
-
-3 [Extract Content Between Different Types of Nodes](#ExtractSelectedContentBetweenNodes-ExtractContentBetweenDifferentTypesofNodes)
-
-4 [Extract Content Between Paragraphs Based on Style](#ExtractSelectedContentBetweenNodes-ExtractContentBetweenParagraphsBasedonStyle)
-
-5 [Extract Content Between Specific Runs](#ExtractSelectedContentBetweenNodes-ExtractContentBetweenSpecificRuns)
-
-6 [Extract Content using a Field](#ExtractSelectedContentBetweenNodes-ExtractContentusingaField)
-
-7 [Extract Content from a Bookmark](#ExtractSelectedContentBetweenNodes-ExtractContentfromaBookmark)
-
-8 [Extract Content from a Comment](#ExtractSelectedContentBetweenNodes-ExtractContentfromaComment)
-
-9 [Extract Content using DocumentVisitor](#ExtractSelectedContentBetweenNodes-ExtractContentusingDocumentVisitor)
-
-10 [Extract Text Only](#ExtractSelectedContentBetweenNodes-ExtractTextOnly) 
-
-10.1 [Using Node.GetText and Node.ToString](#ExtractSelectedContentBetweenNodes-UsingNode.GetTextandNode.ToString)
-
-10.2 [Using SaveFormat.Text](#ExtractSelectedContentBetweenNodes-UsingSaveFormat.Text)
-
-
 ## **Extract Content Overview and Code**
 A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore many different node types to consider when extracting content. For instance, you may want to extract content between:
 
@@ -71,7 +40,7 @@ We will work with this document below in this article. As you can see it contain
 ### **The Code**
 To extract the content from your document you need to call the ExtractContent method below and pass the appropriate parameters.
 
-The underlying basis of this method involves finding block level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block level then the method is able to simply copy the content on that level and add it to the array.
+The underlying basis of this method involves finding block-level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block-level then the method is able to simply copy the content on that level and add it to the array.
 
 However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc.
 
@@ -98,7 +67,7 @@ The implementation of the **ExtractContent** method is found below . This method
 {{< gist "aspose-words" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphs-extractContent.java" >}}
 
 
-We will also define a custom method to easily generate a document from extracted nodes. This method is used in many of the scenarios below and simply creates a new document and imports the extracted content into it. Below method takes a list of nodes and inserts them into a new document.
+We will also define a custom method to easily generate a document from extracted nodes. This method is used in many of the scenarios below and simply creates a new document and imports the extracted content into it. The method given below takes a list of nodes and inserts them into a new document.
 
 {{< gist "aspose-words" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphs-generateDocument.java" >}}
 
