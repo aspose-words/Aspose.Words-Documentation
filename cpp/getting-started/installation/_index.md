@@ -28,3 +28,6 @@ Aspose.Words for C++ is a native library. Aspose.Words for C++ supports 64-bit 
 You can use Aspose.Words for C++ to develop applications in any development environment that supports C++, but the following environments are explicitly supported:
 
 - Microsoft Visual C++ version 2017 or higher
+
+## **See also**
+- [Configure Aspose.Words for C++ in Visual Studio 2019](/words/cpp/configure-aspose-words-for-cpp-in-visual-studio-2019/)
