@@ -90,7 +90,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Eq|Yes|Exported as image.| |
 |Symbol|Yes| | |
 
-##### **Form Fields**&lt;
+##### **Form Fields**
 There is a save option to control if form fields are exported as elements like &lt;input&gt; etc. or as plain text.
 
 See the following link in the documentation for further information:
@@ -135,7 +135,7 @@ See the following link in the documentation for further information:
 |Bibliography|Yes| | |
 |Citation|N/A| | |
 |Hyperlink|Yes|Output to HTML as a clickable hyperlink.| |
-|IncludePicture|Yes|If the field is set to embedding the image in the document then the image is saved along with the HTML and referenced locally. <br><br>If the field is linked only then the full address to the source image is written to the image tag as &lt;img src="xxx"&g&lt;t;.| |
+|IncludePicture|Yes|If the field is set to embedding the image in the document then the image is saved along with the HTML and referenced locally. <br><br>If the field is linked only then the full address to the source image is written to the image tag as &lt;img src="xxx"&gt;.| |
 |IncludeText|Yes| | |
 |Link|Yes|Exported as an image.| |
 |NoteRef|Yes|Exported as plain text.| |
