@@ -87,7 +87,7 @@ OLE objects are fully preserved when converting within different Word document f
 
 OLE objects are saved as images.
 
-There are plans to export using the &lt;object&g&lt;t; tag and the type of object which is embedded. This will allow the export of embedded objects such as PDF to be exported as working objects.
+There are plans to export using the &lt;object&gt; tag and the type of object which is embedded. This will allow the export of embedded objects such as PDF to be exported as working objects.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
