@@ -28,7 +28,7 @@ Some tags require closing counterparts. A closing tag has the “/” character 
 
 **<</tag_name>>**
 
-` `REF note **Note –** Tag body elements are case-sensitive.
+**Note –** Tag body elements are case-sensitive.
 
 During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine (see “ REF emptyParagraphs Removing Paragraphs Containing Only Template Syntax Tags” for more information).
 ## **Composing Expressions**
@@ -76,7 +76,7 @@ LINQ Reporting Engine enables you to access the following public (static and ins
 - Methods
 - Constructors
 
-` `REF note **Note –** To access a static member of a type in a template expression, the type must be set known for the engine (see “ REF knownTypes Setting up Known External Types” for more information).
+**Note –** To access a static member of a type in a template expression, the type must be set known for the engine (see “ REF knownTypes Setting up Known External Types” for more information).
 
 A function type member can be used in a template expression only if the following additional requirements are met:
 
@@ -150,11 +150,11 @@ LINQ Reporting Engine enables you to access a data associated with a particular 
 |**Single Parent or Child Row**|Parent (child) table name|<p>Given that r is a row of a DataTable that has a parent (child) DataTable named “City”, you can access the single parent (child) row of r using the following syntax.</p><p>**r.City**</p><p>Given that the “City” DataTable has a field named “Name”, you can access the field’s value for the single parent (child) row using the following syntax.</p><p>**r.City.Name**</p>|
 |**Enumeration of Child or Parent Rows**|Child (parent) table name|<p>Given that r is a row of a DataTable that has a child (parent) DataTable named “Persons”, you can access the enumeration of the child (parent) rows of r using the following syntax.</p><p>**r.Persons**</p><p>Given that the “Persons” DataTable has a field named “Age”, you can count the child (parent) rows that correspond to persons over thirty years old using the following syntax.</p><p>**r.Persons. REF linqCount Count(p => p.Age > 30)**</p>|
 
-` `REF note **Note –** Field and table names are case-insensitive.
+**Note –** Field and table names are case-insensitive.
 
 To determine parent-child relationships for a particular DataTable instance, the engine uses [DataRelation](http://msdn.microsoft.com/en-us/library/system.data.datarelation\(v=vs.110\).aspx) objects contained within the corresponding DataSet instance. Thus, you can manage these relationships in a common way.
 
-` `REF note **Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
+**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
 #### **Working with IDataReader Implementors**
 LINQ Reporting Engine enables you to treat IDataReader implementors as enumerations of IDataRecord implementors in template expressions. That is, you can use IDataReader implementors in template expressions in the same way as DataTable objects. See "Working with DataTable and DataView Objects" for more information.
 
@@ -501,11 +501,11 @@ An y-value expression must return a numeric value.
 
 A bubble-size expression must return a numeric value.
 
-` `REF note **Note –** A closing foreach tag is not used for a chart.
+**Note –** A closing foreach tag is not used for a chart.
 
 While composing expressions for x, y, and size tags, you can normally reference an iteration variable declared at the corresponding foreach tag in a chart title in the same way as if you intended to output results of expressions within a data band.
 
-` `REF note **Note –** You can normally use charts with dynamic data within data bands.
+**Note –** You can normally use charts with dynamic data within data bands.
 
 During runtime, a chart with a foreach tag in its title is processed by the engine as follows:
 
@@ -547,7 +547,7 @@ For a chart with dynamic data, you can select which series to include into it dy
 
 **<<removeif [conditional_expression]>>**
 
-` `REF note **Note –** A conditional expression must return a Boolean value.
+**Note –** A conditional expression must return a Boolean value.
 
 During runtime, series with removeif tags, for which conditional expressions return true, are removed from corresponding charts. The rest of the series are kept and populated with data as usual. In either case, removeif tags themselves are removed.
 
@@ -635,7 +635,7 @@ In this case, the engine produces a report as follows.
 
 ![todo:image_alt_text](/data:image/png;base64,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)
 
-` `REF note **Note –** You can normally apply this approach to a chart dynamically populated with data.
+**Note –** You can normally apply this approach to a chart dynamically populated with data.
 
 The following code example demonstrates how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/ChartTemplate.docx).
 
@@ -689,7 +689,7 @@ You can use data bands within common conditional blocks as well. For example, gi
 ### **Working with Table-Row Conditional Blocks**
 A table-row conditional block is a conditional block which body occupies single or multiple rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
-` `REF note **Note –** Table rows occupied by different template options in the following template are highlighted with different colors.
+**Note –** Table rows occupied by different template options in the following template are highlighted with different colors.
 
 ||||
 | :- | :- | :- |
@@ -742,7 +742,7 @@ In this case, the engine produces a report as follows.
 |**I & Sons**|<p>**43 Vogel Street**</p><p>**Roslyn**</p><p>**Palmerston North 4414**</p>||
 |**J Ent.**|**Japan**|<p>**Hakusan 4-Chōme 3-2**</p><p>**Bunkyō-ku, TŌKYŌ**</p><p>**112-0001**</p><p>**Japan**</p>|
 
-` `REF note **Note –** You can use common conditional blocks within table-row data bands as well.
+**Note –** You can use common conditional blocks within table-row data bands as well.
 
 Also, you can use data bands inside table-row conditional blocks. For example, you can provide an alternate content for an empty table-row data band using the following template.
 
@@ -784,7 +784,7 @@ In this case, the engine produces a report as follows.
 | :- |
 |**Footer**|
 
-` `REF note **Note –** In the previous examples, tag <<if [false]>> is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
+**Note –** In the previous examples, tag <<if [false]>> is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
 ## **Inserting Documents Dynamically**
 You can insert contents of outer documents to your reports dynamically using doc tags. A doc tag denotes a placeholder within a template for a document to be inserted during runtime. 
 
@@ -792,7 +792,7 @@ Syntax of a doc tag is defined as follows.
 
 **<<doc [document_expression]>>**
 
-` `REF note **Note –** A doc tag can be used almost anywhere in a template document except textboxes and charts.
+**Note –** A doc tag can be used almost anywhere in a template document except textboxes and charts.
 
 An expression declared within a doc tag is used by the engine to load a document to be inserted during runtime. The expression must return a value of one of the following types:
 
@@ -803,7 +803,7 @@ An expression declared within a doc tag is used by the engine to load a document
 
 While building a report, an expression declared within a doc tag is evaluated and its result is used to load a document which content replaces the doc tag then.
 
-` `REF note **Note –** If an expression declared within a doc tag returns a stream object, then the stream is closed by the engine as soon as a corresponding document is loaded.
+**Note –** If an expression declared within a doc tag returns a stream object, then the stream is closed by the engine as soon as a corresponding document is loaded.
 
 By default, a document being inserted is not checked against template syntax and is not populated with data. However, you can enable this by using a build switch as follows.
 
@@ -839,7 +839,7 @@ While building a report, the following procedure is applied to an image tag:
 1. The corresponding textbox is filled with this image.
 1. The tag is removed from the textbox. 
 
-` `REF note **Note –** If the expression declared within an image tag returns a stream object, then it is closed by the engine as soon as the corresponding image is built.
+**Note –** If the expression declared within an image tag returns a stream object, then it is closed by the engine as soon as the corresponding image is built.
 
 By default, the engine stretches an image filling a textbox to the size of the textbox without preserving the ratio of the image. However, you can change this behavior in the following ways:
 
@@ -863,7 +863,7 @@ By default, the engine stretches an image filling a textbox to the size of the t
 
 **<<image [image_expression] -fitSizeLim>>**
 
-` `REF note **Note –** If the size of the image is greater than the size of the textbox, then the fitSizeLim switch acts like fitHeight or fitWidth. Otherwise, the fitSizeLim switch acts like fitSize.
+**Note –** If the size of the image is greater than the size of the textbox, then the fitSizeLim switch acts like fitHeight or fitWidth. Otherwise, the fitSizeLim switch acts like fitSize.
 
 
 ## **Inserting Bookmarks Dynamically**
@@ -875,7 +875,7 @@ bookmarked_content
 
 Here, bookmark_expression defines the name of a bookmark to be inserted during runtime. This expression is mandatory and must return a non-empty value. While building a report, bookmark_expression is evaluated and its result is used to construct a bookmark start and end that replace corresponding opening and closing bookmark tags respectively.
 
-` `REF note **Note –** A bookmark tag cannot be used within a chart.
+**Note –** A bookmark tag cannot be used within a chart.
 
 
 ## **Inserting Hyperlinks Dynamically**
@@ -887,13 +887,13 @@ Here, uri_or_bookmark_expression defines URI or the name of a bookmark within th
 
 In turn, display_text_expression defines text to be displayed for the hyperlink. This expression is optional. If it is omitted or returns an empty value, then during runtime, a value of uri_or_bookmark_expression is used as display text as well.
 
-` `REF note **Note –** Values of both uri_or_bookmark_expression and display_text_expression can be of any types. During runtime, Object. REF toString  \* MERGEFORMAT ToString() is invoked to get textual representations of these expressions’ values, which is useful for expressions of types like [Uri](http://msdn.microsoft.com/en-us/library/system.uri\(v=vs.110\).aspx), for example. 
+**Note –** Values of both uri_or_bookmark_expression and display_text_expression can be of any types. During runtime, Object. REF toString  \* MERGEFORMAT ToString() is invoked to get textual representations of these expressions’ values, which is useful for expressions of types like [Uri](http://msdn.microsoft.com/en-us/library/system.uri\(v=vs.110\).aspx), for example. 
 
 While building a report, uri_or_bookmark_expression and display_text_expression are evaluated and their results are used to construct a hyperlink that replaces the corresponding link tag then. If uri_or_bookmark_expression returns the name of a bookmark in the same document, then the hyperlink navigates to the bookmark. Otherwise, the hyperlink navigates to a corresponding external resource.
 ## **Working with Content Controls**
 LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.
 
-` `REF note **Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
+**Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
 ### **Setting Checkbox Values Dynamically**
 You can set checkbox values to either checked or unchecked in your reports dynamically by taking the following steps:
 
@@ -918,7 +918,7 @@ You can set text background color for document contents dynamically using backCo
 content_to_be_colored
 <</backColor>>**
 
-` `REF note **Note –** A backColor tag can be used anywhere in a template document except charts.
+**Note –** A backColor tag can be used anywhere in a template document except charts.
 
 An expression declared within an opening backColor tag defines a text background color to be applied during runtime. The expression must return a value of one of the following types:
 
@@ -934,7 +934,7 @@ An expression declared within an opening backColor tag defines a text background
 
 While building a report, an expression declared within an opening backColor tag is evaluated and document content between the tag and its corresponding closing tag is colored accordingly. The opening and closing backColor tags are removed then.
 
-` `REF note **Note –** Within a document block to be colored using a backColor tag, elements having a text background color already applied are not affected during runtime.
+**Note –** Within a document block to be colored using a backColor tag, elements having a text background color already applied are not affected during runtime.
 
 You can use backColor tags nested into each other. Also, you can normally use backColor tags within data bands and conditional blocks like in the following example.
 
@@ -961,8 +961,7 @@ To output every item into a separate table row colored dynamically, you can use 
 |**<<foreach [item in items]>><<backColor [item. REF getColor  \* MERGEFORMAT Color]>><<[item. REF getName  \* MERGEFORMAT Name]>>**|**<<[item. REF getDescription Description]>><</backColor>><</foreach>>**|
 | :- | :- |
 
-
-` `REF note **Note –** Start and end backColor tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as foreach tags.
+**Note –** Start and end backColor tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as foreach tags.
 
 
 
@@ -1070,7 +1069,7 @@ That is, there would be a single numbered list across all orders, which is not a
 
 **<</foreach>><</foreach>>**
 
-` `REF note **Note –** When using with a data band, it is required to put a restartNum tag before a corresponding foreach tag in the same numbered paragraph.
+**Note –** When using with a data band, it is required to put a restartNum tag before a corresponding foreach tag in the same numbered paragraph.
 
 Then, a result document looks as follows.
 
@@ -1085,7 +1084,7 @@ Then, a result document looks as follows.
 1. **Oven Cleaning**
 1. **Carpet Cleaning**
 
-` `REF note **Note –** You can use a restartNum tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “ REF insertDoc Inserting Documents Dynamically” for more information).
+**Note –** You can use a restartNum tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “ REF insertDoc Inserting Documents Dynamically” for more information).
 
 
 ## **Using Contextual Object Member Access**
