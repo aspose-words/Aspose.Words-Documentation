@@ -7,7 +7,7 @@ url: /java/paragraph-features-supported-on-html-export/
 
 {{% alert color="primary" %}} 
 
-Exported to HTML as <p>. Paragraphs with built-in heading styles are exported as <h1> - <h6> elements.
+Exported to HTML as &lt;p&gt;. Paragraphs with built-in heading styles are exported as &lt;h1&gt; - &lt;h6&gt; elements.
 
 See the following link in the documentation for further information:
 
@@ -34,7 +34,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Style|Yes|Note that to properly round-trip styles back to a word document format, an embedded or external style sheet must be used. On HTML import classes defined in the stylesheets are used to create styles. If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). <br><br>There are plans to provide an option to save a document to HTML as pure HTML without CSS styles.|- **HtmlSaveOptions.CssStyleSheetType**|
-|Alignment|Yes|Exported as "text-align" paragraph style attribute. <br><br>There are plans to introduce export of "<center> tags as well along with an option to define which type is used on export.| |
+|Alignment|Yes|Exported as "text-align" paragraph style attribute. <br><br>There are plans to introduce export of "&lt;center&gt; tags as well along with an option to define which type is used on export.| |
 |Right to Left Paragraph|Yes|Exported as dir="rtl" attribute on the paragraph.| |
 |Bullets and Numbers|Yes|There is a save option to control how lists are exported to HTML.| |
 |Outline Level|Planned| | |
