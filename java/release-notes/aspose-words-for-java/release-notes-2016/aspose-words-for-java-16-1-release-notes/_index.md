@@ -34,7 +34,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 |WORDSJAVA-1220|Office Math does not display correctly after saving Rtf to Html|Bug|
 |WORDSJAVA-1257|WORDSJAVA-1219 is not resolved in v15.12.0|Bug|
 |WORDSJAVA-1169|Check if it is possible to create the entire DataSet from Java's ResultSet|Enhancement|
-|WORDSJAVA-1272|Expose of internal ThreadLocal<Locale> to public api.|Feature|
+|WORDSJAVA-1272|Expose of internal ThreadLocal&lt;Locale&gt; to public api.|Feature|
 |WORDSJAVA-1273|Add feature to set ThreadLocal Locale for Document|Feature|
 |WORDSJAVA-1239|Docx to PNG performance issue|Performance|
 |WORDSNET-10588|Text is overlapped after conversion from Docx to Pdf|Bug|
@@ -129,7 +129,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-11007|Table does not render correctly in output Pdf file|Feature|
 |WORDSNET-11208|Support signature line (not digital signature) in Word documents|Feature|
 |WORDSNET-11349|Different Word and PDF output when table auto fit is set to true|Feature|
-|WORDSNET-11368|Add option in HtmlFixedSaveOptions to export FORMCHECKBOX as <input type="checkbox">|Feature|
+|WORDSNET-11368|Add option in HtmlFixedSaveOptions to export FORMCHECKBOX as &lt;input type="checkbox"&gt;|Feature|
 |WORDSNET-11375|Add option in HtmlFixedSaveOptions to export FORMDROPDOWN into select, option tags|Feature|
 |WORDSNET-11746|/pre-word97/ Support pre-Word97 format|Feature|
 |WORDSNET-11801|Provide way to use Aspose' hyphenation functionality when no input document is involved|Feature|
