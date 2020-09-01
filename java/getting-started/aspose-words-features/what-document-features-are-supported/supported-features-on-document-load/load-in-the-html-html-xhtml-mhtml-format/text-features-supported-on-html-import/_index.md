@@ -13,7 +13,7 @@ Using Aspose.Words you can insert, move, and remove runs. You can also access an
 
 All formatting of a run is contained within a linked classed called Font.
 
-Text content is imported from any text area found in the HTML document. The formatting of text elements are imported from <span> elements.
+Text content is imported from any text area found in the HTML document. The formatting of text elements are imported from &lt;span&gt; elements.
 
 Aspose.Words supports reading the text content even if the input HTML is not properly formed.
 
@@ -44,9 +44,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Line Break |Yes |Imported from <br> element. |- **ControlChar.LineBreak**|
+|Line Break |Yes |Imported from &lt;br&gt; element. |- **ControlChar.LineBreak**|
 |Line Break Clear Type |Yes | | |
-|Page Break |Yes |Imported from <br style="page-break-before:always; clear:both"> |- **ControlChar.PageBreak**|
+|Page Break |Yes |Imported from &lt;br style="page-break-before:always; clear:both"&gt; |- **ControlChar.PageBreak**|
 |Column Break |Yes |Imported using the Microsoft Office attribute on break: style="mso-column-break-before:always" |- **ControlChar.ColumnBreak**|
 ##### **General Formatting**
 
@@ -56,18 +56,18 @@ See the following links in the documentation for further information:
 |Color |Yes |Imported from color on style attribute. |- **Font.Color**|
 |East Asian Typography |Planned | | |
 |Highlight Color |Planned |Highlight is imported as a solid pattern. <br><br>Can be made to round-trip with some research. |- **Font.HighlightColor**|
-|Language |Yes |Imported from lang attribute on <span>. <br><br>If this attribute is missing then the default language for the document is used. |<p>- **Font.LocaleId** </p><p>- **Font.LocaleIdBi**</p>|
+|Language |Yes |Imported from lang attribute on &lt;span&gt;. <br><br>If this attribute is missing then the default language for the document is used. |<p>- **Font.LocaleId** </p><p>- **Font.LocaleIdBi**</p>|
 |Do not Check Spelling or Grammar |Planned | |- **Font.NoProofing**|
-|Border |Yes |Imported from border-style, border-width, border-color on <span>. |- **Font.Border**|
-|Shading |Yes |Imported from background-color on <span>. <br><br>Imported into the model as solid pattern on Run. |- **Font.Shading**|
+|Border |Yes |Imported from border-style, border-width, border-color on &lt;span&gt;. |- **Font.Border**|
+|Shading |Yes |Imported from background-color on &lt;span&gt;. <br><br>Imported into the model as solid pattern on Run. |- **Font.Shading**|
 ##### **Font**
 Bold and italics imported from font-weight:bold and font-style:italics on style.
 
-This formatting can also be imported from simple tags e.g <b></b>, <i></i>.
+This formatting can also be imported from simple tags e.g &lt;b&gt;&lt;/b&gt;, &lt;i&gt;&lt;/i&gt;.
 
 All other font formatting is imported from standard CCS attributes on the "style" attribute.
 
-<pre> tag is imported as text formatted with "Courier New" font.
+&lt;pre&gt; tag is imported as text formatted with "Courier New" font.
 
 There is an option to control how size is exported. Font can be exported as points or as em units. This allows fonts to be resized automatically by browsers by increasing or decreasing font size.
 
@@ -82,7 +82,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Font |Yes | | |
 ##### **Underline**
-Imported from style attribute "text-decoration:underline" or from <u></u> tags.
+Imported from style attribute "text-decoration:underline" or from &lt;u&gt;&lt;/u&lt; tags.
 
 Import of underline color is currently not supported.
 
@@ -103,8 +103,8 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Animated Effect |N/A | | |
 |Double Strikethrough |N/A | | |
-|Strikethrough |Yes |Imported from text-decoration:line-through on <span> style. |- **Font.StrikeThrough**|
-|Subscript/Superscript |Yes |Imported from vertical-align:sub and vertical-align:super on <span> style. |<p>- **Font.Subscript** </p><p>- **Font.Superscript**</p>|
+|Strikethrough |Yes |Imported from text-decoration:line-through on &lt;span&gt; style. |- **Font.StrikeThrough**|
+|Subscript/Superscript |Yes |Imported from vertical-align:sub and vertical-align:super on &lt;span&gt; style. |<p>- **Font.Subscript** </p><p>- **Font.Superscript**</p>|
 |Shadow |N/A | | |
 |Outline |N/A | | |
 |Emboss |N/A | | |
