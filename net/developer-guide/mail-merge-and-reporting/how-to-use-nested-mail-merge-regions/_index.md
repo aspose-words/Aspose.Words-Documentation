@@ -148,9 +148,9 @@ Below example shows how to get names of all merge fields in a document.
 
 **Q:** The output of nested merging displays no data from the child table for the first entry in the parent table but displays all items for the last entry in the parent table, even ones that are not actually linked to it?
 
-` `**A:** This happens when the merge regions in the template document are not correctly formed. Check step 1 of this documentation for information on the structure nested merge regions.
+**A:** This happens when the merge regions in the template document are not correctly formed. Check step 1 of this documentation for information on the structure nested merge regions.
 
-` `**Q:** Each entry from the parent table displays every item in the child table, even ones that are not actually linked to it?
+**Q:** Each entry from the parent table displays every item in the child table, even ones that are not actually linked to it?
 
 **A:** This happens when the relationship between the parent and child tables are set up incorrectly or not at all. Check step 2 for information on how to setup a **DataRelation**.
 **Q:** When executing nested mail merge an exception is thrown: “System.ArgumentException: This constraint cannot be enabled as not all values have corresponding parent values”?
