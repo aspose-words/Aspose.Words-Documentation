@@ -28,9 +28,9 @@ There are 99 improvements and fixes in this regular monthly release. The most no
 |WORDSJAVA-1006 |Contents of DrawingML is missing after conversion from Docx to Pdf |Bug |
 |WORDSJAVA-1047 |Contents of OLE does not render correctly |Bug |
 |WORDSJAVA-1097 |One tick diff in chart DateTime axis value. |Bug |
-|WORDSJAVA-1143 |Spare <c:marker> tag is added while building Report with charts in multithread. |Bug |
+|WORDSJAVA-1143 |Spare &lt;c:marker&gt; tag is added while building Report with charts in multithread. |Bug |
 |WORDSJAVA-1174 |Rendering mathematical formulas by OpenSymbol font. |Bug |
-|WORDSJAVA-1177 |Spare <c:spPr> empty tag is added in multithread. |Bug |
+|WORDSJAVA-1177 |Spare &lt;c:spPr&gt; empty tag is added in multithread. |Bug |
 |WORDSJAVA-1179 |Metrics of some shapes are changed while in multihreading enviroment |Bug |
 |WORDSJAVA-1180 |WORDSJAVA-1152 issue was not fixed in v15.9.0 |Bug |
 |WORDSJAVA-1185 |CVS isssue: Insufficient Entropy of java.util.Random. |Enhancement |
@@ -102,7 +102,7 @@ There are 99 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-12356 |ruby is improperly imported from DOCX |Enhancement |
 |WORDSNET-12472 |Inline Shape with WrapSide as Both pushes following paragraph down in PDF |Enhancement |
 |WORDSNET-12485 |DoNotUseHTMLParagraphAutoSpacing compatibility option is improperly read from DOC |Enhancement |
-|WORDSNET-12521 |Redundant <c:marker>, <c:spPr>, and incorrect values appear while testing in multi-threading mode |Enhancement |
+|WORDSNET-12521 |Redundant &lt;c:marker&gt;, &lt;c:spPr&gt;, and incorrect values appear while testing in multi-threading mode |Enhancement |
 |WORDSNET-4324 |Support of proper reading of footnote custom reference mark in Rtf reader. |Enhancement |
 |WORDSNET-4819 |Format of TOC entries differs when TOC is updated by Word |Enhancement |
 |WORDSNET-4821 |Paragraph marker in TOC entry has different format when updated by MS Word and AW |Enhancement |
