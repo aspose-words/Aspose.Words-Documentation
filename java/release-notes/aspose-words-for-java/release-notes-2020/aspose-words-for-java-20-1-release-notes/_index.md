@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for Java 20.1](https://reposi
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
-| :-: | :-: | :-: |
+| :- | :- | :- |
 |WORDSJAVA-2248|Investigate loading documents from PostgreSQL BlobInputStream.|New Feature|
 |WORDSJAVA-2280|JavaDoc for WebExtensions|New Feature|
 |WORDSJAVA-2286|Render an EMF file containing an icon and icon caption.|New Feature|
