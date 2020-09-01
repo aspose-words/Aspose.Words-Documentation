@@ -17,30 +17,29 @@ This section contains examples of templates for typical scenarios. Every example
 The Manager, Contract, and Client classes are defined as follows.
 
 {{< highlight csharp >}}
-**public class Manager
+public class Manager
 {
-`    `public String getName() { ... }
-`    `public int getAge() { ... }
-`    `public byte[] getPhoto() { ... }
-`    `public Iterable<Contract> getContracts() { ... }**
-
-`    `**...
+public String getName() { ... }
+public int getAge() { ... }
+public byte[] getPhoto() { ... }
+public Iterable<Contract> getContracts() { ... }
+...
 }
 
 public class Contract
 {
-`    `public Manager getManager() { ... }
-`    `public Client getClient() { ... }
-`    `public float getPrice() { ... }
-`    `public Date getDate() { ... }
-`    `...
+public Manager getManager() { ... }
+public Client getClient() { ... }
+public float getPrice() { ... }
+public Date getDate() { ... }
+...
 }
 
 public class Client
 {
-`    `public String getName() { ... }
-`    `...
-}**
+public String getName() { ... }
+...
+}
 {{< /highlight >}}
 
 This article explains following topics:
