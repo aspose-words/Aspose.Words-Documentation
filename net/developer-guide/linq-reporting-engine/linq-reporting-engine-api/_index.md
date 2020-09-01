@@ -39,13 +39,13 @@ To access XML data while building a report, you can use facilities of DataSet to
 
 To overcome this limitation, you can pass an XmlDataSource instance to the engine as a data source instead. Even when XML schema is not provided, XmlDataSource is capable to recognize values of the following types by their string representations:
 
-- ` `REF nullableInt  \* MERGEFORMAT Int32?
-- ` `REF nullableLong  \* MERGEFORMAT Int64?
-- ` `REF nullableDouble  \* MERGEFORMAT Double?
-- ` `REF nullableBoolean  \* MERGEFORMAT Boolean?
-- ` `REF nullableDateTime  \* MERGEFORMAT DateTime?
+- REF nullableInt  \* MERGEFORMAT Int32?
+- REF nullableLong  \* MERGEFORMAT Int64?
+- REF nullableDouble  \* MERGEFORMAT Double?
+- REF nullableBoolean  \* MERGEFORMAT Boolean?
+- REF nullableDateTime  \* MERGEFORMAT DateTime?
 
-` `REF note **Note –** For recognition of data types to work, string representations of corresponding attributes and text values of XML elements must be formed using invariant culture settings.
+REF note **Note –** For recognition of data types to work, string representations of corresponding attributes and text values of XML elements must be formed using invariant culture settings.
 
 In template documents, if a top-level XML element contains only a sequence of elements of the same type, an XmlDataSource instance should be treated in the same way as if it was a DataTable instance (see “ REF dataTable  \* MERGEFORMAT Working with DataTable and DataView Objects” for more information) as shown in the following example.
 
@@ -114,7 +114,7 @@ Result document
 
 **Average age: 36**
 
-` `REF note **Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of Birth and Age XML elements are automatically converted to  REF nullableDateTime  \* MERGEFORMAT DateTime? and  REF nullableInt  \* MERGEFORMAT Int32? respectively even in the absence of XML schema.
+REF note **Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of Birth and Age XML elements are automatically converted to  REF nullableDateTime  \* MERGEFORMAT DateTime? and  REF nullableInt  \* MERGEFORMAT Int32? respectively even in the absence of XML schema.
 
 If a top-level XML element contains attributes or nested elements of different types, an XmlDataSource instance should be treated in template documents in the same way as if it was a DataRow instance (see “ REF dataRow  \* MERGEFORMAT Working with DataRow and DataRowView Objects” for more information) as shown in the following example.
 
@@ -166,7 +166,7 @@ Result document
 **Charles Doe
 **
 
-` `REF note **Note –** To reference a sequence of repeated simple-type XML elements with the same name, the elements’ name itself (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the text value of one of these elements.
+REF note **Note –** To reference a sequence of repeated simple-type XML elements with the same name, the elements’ name itself (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the text value of one of these elements.
 
 The following example sums up typical scenarios involving nested complex-type XML elements.
 
@@ -373,7 +373,7 @@ Using of JsonDataSource enables you to work with typed values of JSON elements i
 - ` `REF nullableDateTime  \* MERGEFORMAT DateTime?
 - String
 
-` `REF note **Note –** Working with complex JSON types (objects and arrays) is also supported.
+REF note **Note –** Working with complex JSON types (objects and arrays) is also supported.
 
 In template documents, if a top-level JSON element is an array or an object having only one property of an array type, a JsonDataSource instance should be treated in the same way as if it was a DataTable instance (see “ REF dataTable  \* MERGEFORMAT Working with DataTable and DataView Objects” for more information) as shown in the following example.
 
@@ -484,7 +484,7 @@ Result document
 
 **Average age: 36**
 
-` `REF note **Note –** Using of the custom date-time format becomes possible, because text values of Birth properties are automatically converted to  REF nullableDateTime  \* MERGEFORMAT DateTime?.
+REF note **Note –** Using of the custom date-time format becomes possible, because text values of Birth properties are automatically converted to  REF nullableDateTime  \* MERGEFORMAT DateTime?.
 
 If a top-level JSON element represents an object, a JsonDataSource instance should be treated in template documents in the same way as if it was a DataRow instance (see “ REF dataRow  \* MERGEFORMAT Working with DataRow and DataRowView Objects” for more information). If a top-level JSON object has a single property that is also an object, then this nested object is accessed by the engine instead. To see how it works, consider the following example.
 
@@ -554,7 +554,7 @@ Result document
 **Charles Doe
 **
 
-` `REF note **Note –** To reference a JSON object property that is an array of simple-type values, the name of the property (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the value of an item of this array.
+REF note **Note –** To reference a JSON object property that is an array of simple-type values, the name of the property (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the value of an item of this array.
 
 The following example sums up typical scenarios involving nested JSON objects and arrays.
 
@@ -796,7 +796,7 @@ The loose mode is used by the engine by default to support more typed data repre
 options.SimpleValueParseMode = JsonSimpleValueParseMode.Strict;
 JsonDataSource dataSource = new JsonDataSource(..., options);**
 
-` `REF note **Note –** Parsing of date-time values does not depend on whether the loose or strict mode is used.
+REF note **Note –** Parsing of date-time values does not depend on whether the loose or strict mode is used.
 
 Recognition of date-time values is a special case, because [JSON specification](https://www.json.org) does not define a format for their representation. So, by default, while parsing date-time values from strings, the engine tries several formats in the following order:
 
@@ -816,7 +816,7 @@ In this example, strings conforming the format "MM/dd/yyyy" are going to be reco
 
 In some scenarios, you may need to disable recognition of date-time values at all, for example, when you deal with strings containing already formatted date-time values, which you do not want to re-format using the engine. You can achieve this by setting the exact date-time parse format to an empty string (but see the following note).
 
-` `REF note **Note –** Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse format.
+REF note **Note –** Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse format.
 
 
 ## **Accessing CSV Data**
@@ -826,13 +826,13 @@ To access CSV data while building a report, you can pass a CsvDataSource instanc
 
 Using of CsvDataSource enables you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, CsvDataSource is capable to recognize values of the following types by their string representations:
 
-- ` `REF nullableInt  \* MERGEFORMAT Int32?
-- ` `REF nullableLong  \* MERGEFORMAT Int64?
-- ` `REF nullableDouble  \* MERGEFORMAT Double?
-- ` `REF nullableBoolean  \* MERGEFORMAT Boolean?
-- ` `REF nullableDateTime  \* MERGEFORMAT DateTime?
+- REF nullableInt  \* MERGEFORMAT Int32?
+- REF nullableLong  \* MERGEFORMAT Int64?
+- REF nullableDouble  \* MERGEFORMAT Double?
+- REF nullableBoolean  \* MERGEFORMAT Boolean?
+- REF nullableDateTime  \* MERGEFORMAT DateTime?
 
-` `REF note **Note –** For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
+REF note **Note –** For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
 
 In template documents, a CsvDataSource instance should be treated in the same way as if it was a DataTable instance (see “ REF dataTable  \* MERGEFORMAT Working with DataTable and DataView Objects” for more information) as shown in the following example.
 
@@ -873,7 +873,7 @@ Result document
 
 **Average age: 36**
 
-` `REF note **Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of Column3 and Column2 are automatically converted to  REF nullableDateTime  \* MERGEFORMAT DateTime? and  REF nullableInt  \* MERGEFORMAT Int32? respectively.
+REF note **Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of Column3 and Column2 are automatically converted to  REF nullableDateTime  \* MERGEFORMAT DateTime? and  REF nullableInt  \* MERGEFORMAT Int32? respectively.
 
 By default, CsvDataSource uses column names such as “Column1”, “Column2”, and so on, as you can see from the previous example. However, CsvDataSource can be configured to read column names from the first line of CSV data as shown in the following example.
 
@@ -928,7 +928,7 @@ Also, you can use CsvDataLoadOptions to customize the following characters playi
 ## **Setting up Known External Types**
 LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the ReportingEngine. REF getKnownTypes  \* MERGEFORMAT KnownTypes property. The property represents an unordered set (that is, a collection of unique items) of [Type](http://msdn.microsoft.com/en-us/library/system.type\(v=vs.110\).aspx) objects. Every type in the set must meet requirements declared at “ REF types Working with Types”.
 
-` `REF note **Note –** Aliases of simple types like int, string, and others are known by the engine by default.
+REF note **Note –** Aliases of simple types like int, string, and others are known by the engine by default.
 
 Consider the following example. Given an ImageUtil class declared at your application and a template accessing a static member of this class, you can use the following code to make the engine be aware of the class before processing the template.
 
@@ -1000,7 +1000,7 @@ Result document with ReportBuildOptions. REF removeEmptyParagraphs  \* CHARFORMA
 
 **Example 3**
 
-` `REF note **Note –** In this example, persons is assumed to be a data table having a field Name.
+REF note **Note –** In this example, persons is assumed to be a data table having a field Name.
 
 Template document
 
@@ -1066,7 +1066,7 @@ By default, LINQ Reporting Engine throws an exception when encounters a template
 
 However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the ReportBuildOptions. REF inlineErrorMessages  \* CHARFORMAT InlineErrorMessages option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
 
-` `REF note **Note –** A template syntax error message is written using a bold font to make it more apparent.
+REF note **Note –** A template syntax error message is written using a bold font to make it more apparent.
 
 Consider the following template.
 
@@ -1076,7 +1076,7 @@ By default, such a template causes the engine to throw an exception while buildi
 
 **<<var [name] Error! An assignment operator is expected. >>**
 
-` `REF note **Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
+REF note **Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
 When ReportBuildOptions. REF inlineErrorMessages  \* CHARFORMAT InlineErrorMessages is applied, a Boolean value returned by a ReportingEngine. REF buildReport  \* MERGEFORMAT BuildReport overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
 
@@ -1093,7 +1093,7 @@ else
 `    `**// Do something with a report containing a template syntax error.
 }**
 
-` `REF note **Note –** When ReportBuildOptions. REF inlineErrorMessages  \* CHARFORMAT InlineErrorMessages is not applied, ReportingEngine. REF buildReport  \* MERGEFORMAT BuildReport overloads return true if there were no template syntax errors encountered or throw an exception otherwise.
+REF note **Note –** When ReportBuildOptions. REF inlineErrorMessages  \* CHARFORMAT InlineErrorMessages is not applied, ReportingEngine. REF buildReport  \* MERGEFORMAT BuildReport overloads return true if there were no template syntax errors encountered or throw an exception otherwise.
 
 
 ## **Optimizing Reflection Calls**
