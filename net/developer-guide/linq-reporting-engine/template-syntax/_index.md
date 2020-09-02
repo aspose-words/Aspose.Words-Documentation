@@ -19,6 +19,7 @@ A tag body typically consists of the following elements:
 - An expression surrounded by brackets
 - A set of switches available for the tag, each of which is preceded by the “-“ character
 - An optional comment providing a human-readable explanation ignored by the engine
+
 {{< highlight xml >}}
 <<tag_name [expression] –switch1 –switch2 ... // optional_comment >>
 {{< /highlight >}}
@@ -40,7 +41,7 @@ The following table describes lexical tokens that you can use in template expres
 |**Token**|**Restrictions**|
 | :- | :- |
 |**Keyword**|Only the following tokens are reserved as keywords: true, false, null, new, and in.|
-|**Identifier**|- The feature of keyword escaping through the “@” character is not supported.- Unicode character escapes are not permitted in identifiers.|
+|**Identifier**|- The feature of keyword escaping through the “@” character is not supported.<br>- Unicode character escapes are not permitted in identifiers.|
 |**Literal**|None.|
 |**Operator**|See “Using Operators.”|
 
@@ -173,6 +174,7 @@ The following example shows, how to use this feature. Given that r is an IDataRe
 {{< /highlight >}}
 
 **Note –** Field names are case-insensitive.
+
 ## **Outputting Expression Results**
 You can output expression results to your reports using expression tags. An expression tag denotes a placeholder for an expression result within a template. While building a report, the corresponding expression is evaluated, and this placeholder is replaced with the formatted result of the expression. 
 
@@ -181,9 +183,11 @@ An expression tag has no name and consists of the following elements:
 - An expression enclosed by brackets
 - An optional format string enclosed by double quotes and preceded by the ":" character
 - An optional html switch
+
 {{< highlight xml >}}
 <<[expression]:"format" -html>>
 {{< /highlight >}}
+
 If html switch is not present, the result of the corresponding expression is written to a document as a plain text at runtime. Font attributes are derived from the first character of the corresponding tag in this case.
 
 If html switch is present, the expression result is considered to be a HTML block and is written as such. This feature is useful, when you need to format text parts of an expression result in different ways. For example, the following tag is replaced with a content like "**Bold** and *italic* text" at runtime.

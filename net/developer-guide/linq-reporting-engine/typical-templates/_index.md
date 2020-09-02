@@ -12,51 +12,28 @@ Every example given in this article is using one of the following data source ob
 - managers, an enumeration of instances of the Manager class
 - contracts, an enumeration of instances of the Contract class
 - clients, an enumeration of instances of the Client class
-  The Manager, Contract, and Client classes are defined as follows.
+
+The Manager, Contract, and Client classes are defined as follows.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-Manager-Manager.cs" >}}
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-Contract-Contract.cs" >}}
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-Client-Client.cs" >}}
+
 ## **Templates**
 ### **Single-Row Template**
 #### **Template Example**
 
-||
-| :- |
-
-|![todo:image_alt_text](/data:image/png;base64,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)||
+|![Single_Row_Template_Example](Single-Row-Template-Example2.png) | **Name:** **<<[manager.Name]>>** <br> **Age:** <<[manager.Age]>> |
 | :- | :- |
-
-|**Name:**|**<<[manager.Name]>>**|
-| :- | :- |
-|**Age:**|<<[manager.Age]>>|
-
-|||
-| :- | :- |
-
-||
-| :- |
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/SingleRow.doc).
 #### **Report Example**
 
-||
-| :- |
-
-|![todo:image_alt_text](/data:image/png;base64,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)||
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png)|**Name:** **John Smith** <br> **Age:** 37 |
 | :- | :- |
 
-|**Name:**|**John Smith**|
-| :- | :- |
-|**Age:**|37|
-
-|||
-| :- | :- |
-
-||
-| :- |
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-SingleRow-SingleRow.cs" >}}
 
 
@@ -67,11 +44,14 @@ You can download template file of this example from [here](https://github.com/as
 | :- |
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InParagraphList.doc).
+
 #### **Report Example**
 
 |We provide support for the following clients: A Company, B Ltd., C & D, E Corp., F & Partners, G & Co., H Group, I & Sons, J Ent.|
 | :- |
+
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InParagraphList-InParagraphList.cs" >}}
+
 ### **Bulleted List Template**
 #### **Template Example**
 {{< highlight csharp >}}
@@ -81,7 +61,9 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/BulletedList.doc).
+
 #### **Report Example**
+
 {{< highlight csharp >}}
 We provide support for the following clients:
     * A Company
@@ -96,8 +78,10 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-BulletedList-BulletedList.cs" >}}
+
 ### **Numbered List Template**
 #### **Template Example**
+
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. <<foreach [in clients]>><<[Name]>>
@@ -105,6 +89,7 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/NumberedList.doc).
+
 #### **Report Example**
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -120,75 +105,82 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-NumberedList-NumberedList.cs" >}}
+
 ### **Multicolored Numbered List Template**
 #### **Template Example**
 
-|<p>We provide support for the following clients:</p><p>1. <<foreach [in clients]>><<if [IndexOf() % 2 == 0]>><<[Name]>></p><p>2. <<else>><<[Name]>></p><p><</if>><</foreach>></p>|
-| :- |
+{{< highlight csharp >}}
+We provide support for the following clients:
+    1. <<foreach [in clients]>><<if [IndexOf() % 2 == 0]>><<[Name]>>
+    2. <<else>><<[Name]>>
+<</if>><</foreach>>
+{{< /highlight >}}
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/MulticoloredNumberedList.doc).
+
 #### **Report Example**
 
-|<p>We provide support for the following clients:</p><p>1. A Company</p><p>2. B Ltd.</p><p>3. C & D</p><p>4. E Corp.</p><p>5. F & Partners</p><p>6. G & Co.</p><p>7. H Group</p><p>8. I & Sons</p><p>9. J Ent.</p><p> </p>|
-| :- |
+{{< highlight csharp >}}
+We provide support for the following clients:
+    1. A Company
+    2. B Ltd.
+    3. C & D
+    4. E Corp.
+    5. F & Partners
+    6. G & Co.
+    7. H Group
+    8. I & Sons
+    9. J Ent.
+{{< /highlight >}}
+
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-MulticoloredNumberedList-MulticoloredNumberedList.cs" >}}
+
 ### **Common List Template**
 #### **Template Example**
 
-|<p><<foreach [in managers]</p><p>>> </p><p>![todo:image_alt_text](/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACOCAYAAAAij6qZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAU3SURBVHhe7ZmNUeMwGAXTDF3QBDXQAi3QAR1QARXQAA3QAA1QgJnH5MsIoThxkk3C3Xomk/j08+T1WpKP1Wq1mvzIAHZgNXlIgCKwllfJKMD2O9UqqWTKwBFwJuPY2vOagJKpAk5AyXDEBiiZDuAElAxHbMDZJLu5uZnu7u6ulvjj4+OUMeazz5F6aXOO4+3tbTO29/f3c0SeNEPJ1jgjTCtNCVff9/f3P8AfK9kh7dMmwv2142jJcmO2zVBzZdcGaiRZSVczSXudh0jSXvMh7VvJMqaM5/X19RfKubJLcD9YstyA29vb4ZIxKuuh5vz5+fkbVH4/PDxMWQrqPH23T21b1vfVl/XLXvquf8vv0TEnWepXH9W2xrxtvG2bfquQ84AfLc/tWPuHt5/JIljqjGSbKzu3aIslq71Llo/Pz88f450rG0lW0AKkoOd3+o1k+dQRkB8fH9+ndSPqPPVKnl6GEj591owUuftjl2S53na/VoJsG287xowz9dsldzST7dNmtFxmDGGwTbZtZeeSbZFkJdFoip4ry8WMJOv3QO159TcCEdAZeAHvl5FehrbfXt7qf06yXG/NXO1MNjfevv5oJuxfHPZpM7cnq1l1xGyujJZtkWQZTN380bIzV3asZIEbQWoGaSXrZ7J2Bqz67fdoD7lr499fb389/UOxtHz0II76HEmWmXnbbDVXRstV/S+WrH3yj92TLZnJ2uWmn8kiTQnY7+X23WDvWi77G7KPRK2YxEx27cvk0ZK1su3zdnnsTNa2z96mXy77/WGNL3UjXu3ftj29p5as9nDJrT1Z/1D1s+M+bWom+y/eLpdOtcdKlmm/lry6GQX86elpU5Y6kerl5WUzxKpf7Uf/iXpqyRJe+6B+r9W+vLT7x11t+rfLpffgUvUPXi4vNeBRbqSKaO3s1d+8XePtJdtV/xLlSnYJ6uvMwG8lqz3akiHVJnupnEsyDq3rn5UOJXfCdlka2zfPSPYX/8Z3QiRX1dU/sVxeFVEH84uAkikFTkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAZsJFv/mPxeyWB1egZf3w/5gswtMdYAAAAASUVORK5CYII=)</p><p>**<<[Name]>>**</p><p> </p><p><</foreach>></p>|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example2](Common-List-Template-Example2.png) <br> <<[Name**()**]>>** <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/CommonList.doc).
+
 #### **Report Example**
 
-|<p>![todo:image_alt_text](/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACOCAYAAAAij6qZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAuQSURBVHhe7Z3pVts8EIZz/zfQfd8LLS3QvXBoS6GFLqd0oftCL8TfefQxOiZNcOzIzow8P3RCiKPImkfvjEayPRgMBoUX74OWGRgUx44d8+J90AoD+/A6ZD7I2hMZh8zVqxX1Kg9ah8wh6w6yEydOFF68D9pgICrZ8ePHiz4XOlckXvqB90ePHg39wt8nT54sLl68GMqFCxfC/8Qocmz5vfzd537l3B2y/cEFTKdOnSpWV1eL3d3d4vv376H8+vWr+PHjR3zP3xT+//Pnz/A3r7z//ft3+Jvvb2xsFGfOnAkQOmQhPTToVUccOXIkGB8I7ty5U+zt7QVAgEogSvX69evXUP/6+npx+vTpoH7AjCr2Bb5eKtnc3FxUIFGiVFCNqufbt29R9VC85eXl3gDWC3eJcnCiKNfdu3ej62sTqqq6cakUXKrEdTkrW1SyNmYVGuoEsPn5+RhHSTxVBUJbn+OScc0S6wHbyspK1jP7bCEjkEclMCruqi1oUtQLaIBHrCaqq2GApmpDdpDhduicxcXFCJbMAlMA0UYdMpPldXNzM4Am55HK0LOsJzvI6MydnZ1/Ug5twNFWnSivpD5ygC0byCSA1u4aJwFTUimAJm6/nPidpSo1+e1sIMMY5KMmMaKVY5gckMsjVmtiXC3fyQIyXIoVcJq08+zZsweWsLTAM2k7ImSMFouFE9Ue2DcBq/wdzg/QLNqHNkfIUANLRZZmytn0aY2p/fuEBJZsJG01CxmxysuXL1tbc9QI3OfPnx2yLkcZ223aWNDWCJe0CbfJ0lg5vdFlnzf9LbNKVt6GoxmMlG2TQYWx2dHR1Ohdf89c4E82XBa6UxrQUl1v3rwxNQkwBxmjsG9uctQAoB+szDbNQXbr1q3sUxZVqkpsxqQHl2kBNHOQ5bBsVAVR1eeyTUgW0rWDZgYyRi1pC0axg/b/dQbMsLUDdiAZa6GxS0tLIS9GqRrtffj83bt3JlxmVDKUQnNBxVzB/lewcmG5SbPdaJspyPqgTnXOkUGnHTBTkDFll4C3jiFyPpb+uHbtmnrQopLhjjSXhYWF3qcuhgcMSkZcptlutM0MZFtbWx7sD8VjzLQ/ffrkkKUaZV++fHF3OQSZKNu5c+fiFfGp+jtlPWaUjMv9fTnp39kloEkOMSUYKesyM7ukMx2y0ZBpT2NEyGio5iJXXuc8W2x6brhLzbYzAxnTdU9hjFcyhyyBSrqrHA0Y6qcZMNpmRsnkTjhNXUrO38OQBOpaYYuQnT9/vtBc3F2OVzJiMopW+0XIpKFaX8u3z8xZlZqcGyqm1W60yxRkHviPD/w1g2YGMg/8Dw/8Xcn2Y4ZpOoJlJQft8BTGNP3b5nfNBP5cPd0kXunDdzQH/UxGzEDGboPcb6zSZEDQJ1pnldKuCBlP2NBcPn786O5yxC4MNg5othttMwPZ69evHbIhyIhRHbKE6vjo0SOPyUZsWvzw4YMrWSopZy+7zy7/nV2+ePHCIUsFGTOoJoFxzt9h0F29etUOZPKIPc2vrmQHlYwVkEuXLsXHI2q1XQz8tTaw/HxJh+wgZKQv8BTabWcGMnIu5Mpydn91z01yZA7Z/pNup+0I3ALPpqxriJyP52Z4DL5p+7bt70clw4iaC7PLPt4n9rBBcvPmTdU2E57MQAZgly9fjo9gzlmhJj03ZpaahcEcZNLgV69e9f6CEm5PwK4U+uTKlSvqQTOjZAIZndr3WSYBPysgqDuzS+1qFiHDFVkpfYcMd2rFVrTTHGTEIc+fPw8us6/bsdlbh3pZAS1ChhuyUOhYOphbevZV0a5fvx6WkyzYizaag0w69v37973cxMjAsgKXtNMsZIzkvu2UBTCexiIzSiuwmYZMtmT3xW0Sg1oBq9xO05BJOqMvioaKEZNaAy1ChvuxWLhnau5KxiCSvWMWbWQeMmaauacyAGxubi6qmDXQzEPGwvna2lq4oGLSNT9rx3ERDS7SGlzS3ggZuRerBdBYy8s1NhNjWbVPhAxDWS4YIrfYDHVeXFw0bReYygYyTia3y+Zwk6iX5cGfFWTELJxQDleai9snXeGQKXKxzDKZgQGatcB+uL17e3vhPAgBsoLMalA53G6MMz8/b3KXhigYj8DmPHKxSVYxWTl2Yf87gTO7SC09hPX+/fvmY7DhGDKLFMaoEY+acXUTkFlJ1nLLAdqdi4LJeUTIiGdyLPfu3QsxGq5Ia8KWgbCxsZFl/8NU9pAxmnCdWnNouHIUFwXLcZD3AjIxHEbUBhrtuXHjRrZwSd9nr2QO2ezDoAgZIz3notFlipLl3O+cm0M25mm4XSR0HTKjyoZiiTIQ72xvbxdcQsb/mcV1AU+d38Cd7+7uhuUw2lueAOSicFHJMEIOBcNsbW2FlAVKwRYgjP7371+VkAE+baO95PN4z60YcrCFnEOEjFFkuZCqkHxYHSXRfCxrmCwxWbYLbc8GMk5GW4piWoA5H/aTOWQzUkCJXW7fvl1wMzhxj9MaVtv3AY3bqC8vLwfYFhYWQtxmCTxzSob7ePz4cVAtAUviGW2ApGiP7MyQ533yfn19PaxvWgFNbeDPaGXUAhWFxWOMBlwaZ4kpgJq0DvqA8ufPn+Lt27fBpcqsWuOEQS1kgMUsq9zxZfWa1CA5Hld+HruoOUq3s7NzwK2idBqgUwMZqkWHbG5uqstlWQGVQQhsLLoTp4onmDVoETIa1GVB4lErAncuvy+PTitGtdLOp0+fhgGMfelv6feu7D0zyDhB3CGjTmKs3FIQWiCUfuV2WwKZzFS7AK0zyBhJjCAUzB/6MP554l2AyaAmJYI9BDJRujag6wwyRpAoVq5XencBSIrfKE8W2DApAtAGYNQZIZNUQapXibnkFgIpOsfraEcBcacSr4k7TcUB9bQGGZWzUC2zHQekHUBS9ithDPnJlIAdgCyVVMpIQJItXYqW0lhW68JmJHhXV1eLpaWlZNmGqGTAkaJIZt7SpWhWoUjdbryOrCawBy8FD9SRDDJisNy22qQ2orX68ESS6sC+TaFLBhnK5QlV/XFXHdAlnibdUZ4Y1IVtKsgI6vDdIrN1TsCPtQMkcVpdsMrHTwUZFbE/3QN8O8A0GdzyiKGmoEXI8Ll1CgomN53z5GrekMnuF5YBZdWmDisRMqCpW8qzkSYjxL9jB06ZdaJmdTlprGQPHz70LTkzvGZzFgMU0LjFaB0V49hGkEGyzCZncbL+m7NTQLwX9q8DWiN3yQ+IfLrBZ2fwrvseYcHu3KivjtusDRmAPXv2zF1lz1xlGWhWA9i9MWlsVgsyAGMXa98v5OhaQbT9Hi4TFlqBjErJ/mo7aW9P9y4bsWkNMm6P6dukuzeqpoGE/dkI0Rpk7BHTdMLelu6Bl/vv1oaMQK6qeOqie4NqHESyAlDFi3weA39irUmK77Rw0CR9NQkvHFMLMsgUijWOMG9TNwNAhGZlZaUgRq+CLUI2ifSRhMOQHvh3Y0ztg4ar/ZllVrFTCzKuRHbAHDCBn1taVQHG57UgY3FU++jy9nU3CEjKJ4MMn4vvZYOiG7E7I1ro62TuEsCozF2lAzYMfjLIpCLfAeuQlSFjDdMh6/FOiS5cLaJTCzIOriquZK5kZXgJn6qY4fM4uzzsYGYQfN7F6PDfsAMykD148KAStIkhAzQHwA4AXdgKz7a2tpYGMmaX8gTcLhrvv2ED5uSQyZKSA2ADgK7sxDMFquKy6C6BaFxBxRwyh2sYXJSMZ6cfxg6fRcjEJY57dcgcsnGQVbHjkHkurfGETpTMIXOIGkNUFdfJc54cMoesVciePHkSMg+HlYncJbMHT2F4TDZK2bizUxLIpBJfVnLQhhfIqwDj84mUjANZPqjy0f55vyBEdJJCRgpje3s73LrTYeoXTOPsLTdfqQJtomSsJNvkibm+edEhAzwu9JZE/WEJ2QjZ/h/iP/11MPA+SNgH/wEHWEceW4ftVAAAAABJRU5ErkJggg==)</p><p>**John Smith**</p><p> </p><p>![todo:image_alt_text](/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACOCAYAAAAij6qZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAuQSURBVHhe7Z3pVts8EIZz/zfQfd8LLS3QvXBoS6GFLqd0oftCL8TfefQxOiZNcOzIzow8P3RCiKPImkfvjEayPRgMBoUX74OWGRgUx44d8+J90AoD+/A6ZD7I2hMZh8zVqxX1Kg9ah8wh6w6yEydOFF68D9pgICrZ8ePHiz4XOlckXvqB90ePHg39wt8nT54sLl68GMqFCxfC/8Qocmz5vfzd537l3B2y/cEFTKdOnSpWV1eL3d3d4vv376H8+vWr+PHjR3zP3xT+//Pnz/A3r7z//ft3+Jvvb2xsFGfOnAkQOmQhPTToVUccOXIkGB8I7ty5U+zt7QVAgEogSvX69evXUP/6+npx+vTpoH7AjCr2Bb5eKtnc3FxUIFGiVFCNqufbt29R9VC85eXl3gDWC3eJcnCiKNfdu3ej62sTqqq6cakUXKrEdTkrW1SyNmYVGuoEsPn5+RhHSTxVBUJbn+OScc0S6wHbyspK1jP7bCEjkEclMCruqi1oUtQLaIBHrCaqq2GApmpDdpDhduicxcXFCJbMAlMA0UYdMpPldXNzM4Am55HK0LOsJzvI6MydnZ1/Ug5twNFWnSivpD5ygC0byCSA1u4aJwFTUimAJm6/nPidpSo1+e1sIMMY5KMmMaKVY5gckMsjVmtiXC3fyQIyXIoVcJq08+zZsweWsLTAM2k7ImSMFouFE9Ue2DcBq/wdzg/QLNqHNkfIUANLRZZmytn0aY2p/fuEBJZsJG01CxmxysuXL1tbc9QI3OfPnx2yLkcZ223aWNDWCJe0CbfJ0lg5vdFlnzf9LbNKVt6GoxmMlG2TQYWx2dHR1Ohdf89c4E82XBa6UxrQUl1v3rwxNQkwBxmjsG9uctQAoB+szDbNQXbr1q3sUxZVqkpsxqQHl2kBNHOQ5bBsVAVR1eeyTUgW0rWDZgYyRi1pC0axg/b/dQbMsLUDdiAZa6GxS0tLIS9GqRrtffj83bt3JlxmVDKUQnNBxVzB/lewcmG5SbPdaJspyPqgTnXOkUGnHTBTkDFll4C3jiFyPpb+uHbtmnrQopLhjjSXhYWF3qcuhgcMSkZcptlutM0MZFtbWx7sD8VjzLQ/ffrkkKUaZV++fHF3OQSZKNu5c+fiFfGp+jtlPWaUjMv9fTnp39kloEkOMSUYKesyM7ukMx2y0ZBpT2NEyGio5iJXXuc8W2x6brhLzbYzAxnTdU9hjFcyhyyBSrqrHA0Y6qcZMNpmRsnkTjhNXUrO38OQBOpaYYuQnT9/vtBc3F2OVzJiMopW+0XIpKFaX8u3z8xZlZqcGyqm1W60yxRkHviPD/w1g2YGMg/8Dw/8Xcn2Y4ZpOoJlJQft8BTGNP3b5nfNBP5cPd0kXunDdzQH/UxGzEDGboPcb6zSZEDQJ1pnldKuCBlP2NBcPn786O5yxC4MNg5othttMwPZ69evHbIhyIhRHbKE6vjo0SOPyUZsWvzw4YMrWSopZy+7zy7/nV2+ePHCIUsFGTOoJoFxzt9h0F29etUOZPKIPc2vrmQHlYwVkEuXLsXHI2q1XQz8tTaw/HxJh+wgZKQv8BTabWcGMnIu5Mpydn91z01yZA7Z/pNup+0I3ALPpqxriJyP52Z4DL5p+7bt70clw4iaC7PLPt4n9rBBcvPmTdU2E57MQAZgly9fjo9gzlmhJj03ZpaahcEcZNLgV69e9f6CEm5PwK4U+uTKlSvqQTOjZAIZndr3WSYBPysgqDuzS+1qFiHDFVkpfYcMd2rFVrTTHGTEIc+fPw8us6/bsdlbh3pZAS1ChhuyUOhYOphbevZV0a5fvx6WkyzYizaag0w69v37973cxMjAsgKXtNMsZIzkvu2UBTCexiIzSiuwmYZMtmT3xW0Sg1oBq9xO05BJOqMvioaKEZNaAy1ChvuxWLhnau5KxiCSvWMWbWQeMmaauacyAGxubi6qmDXQzEPGwvna2lq4oGLSNT9rx3ERDS7SGlzS3ggZuRerBdBYy8s1NhNjWbVPhAxDWS4YIrfYDHVeXFw0bReYygYyTia3y+Zwk6iX5cGfFWTELJxQDleai9snXeGQKXKxzDKZgQGatcB+uL17e3vhPAgBsoLMalA53G6MMz8/b3KXhigYj8DmPHKxSVYxWTl2Yf87gTO7SC09hPX+/fvmY7DhGDKLFMaoEY+acXUTkFlJ1nLLAdqdi4LJeUTIiGdyLPfu3QsxGq5Ia8KWgbCxsZFl/8NU9pAxmnCdWnNouHIUFwXLcZD3AjIxHEbUBhrtuXHjRrZwSd9nr2QO2ezDoAgZIz3notFlipLl3O+cm0M25mm4XSR0HTKjyoZiiTIQ72xvbxdcQsb/mcV1AU+d38Cd7+7uhuUw2lueAOSicFHJMEIOBcNsbW2FlAVKwRYgjP7371+VkAE+baO95PN4z60YcrCFnEOEjFFkuZCqkHxYHSXRfCxrmCwxWbYLbc8GMk5GW4piWoA5H/aTOWQzUkCJXW7fvl1wMzhxj9MaVtv3AY3bqC8vLwfYFhYWQtxmCTxzSob7ePz4cVAtAUviGW2ApGiP7MyQ533yfn19PaxvWgFNbeDPaGXUAhWFxWOMBlwaZ4kpgJq0DvqA8ufPn+Lt27fBpcqsWuOEQS1kgMUsq9zxZfWa1CA5Hld+HruoOUq3s7NzwK2idBqgUwMZqkWHbG5uqstlWQGVQQhsLLoTp4onmDVoETIa1GVB4lErAncuvy+PTitGtdLOp0+fhgGMfelv6feu7D0zyDhB3CGjTmKs3FIQWiCUfuV2WwKZzFS7AK0zyBhJjCAUzB/6MP554l2AyaAmJYI9BDJRujag6wwyRpAoVq5XencBSIrfKE8W2DApAtAGYNQZIZNUQapXibnkFgIpOsfraEcBcacSr4k7TcUB9bQGGZWzUC2zHQekHUBS9ithDPnJlIAdgCyVVMpIQJItXYqW0lhW68JmJHhXV1eLpaWlZNmGqGTAkaJIZt7SpWhWoUjdbryOrCawBy8FD9SRDDJisNy22qQ2orX68ESS6sC+TaFLBhnK5QlV/XFXHdAlnibdUZ4Y1IVtKsgI6vDdIrN1TsCPtQMkcVpdsMrHTwUZFbE/3QN8O8A0GdzyiKGmoEXI8Ll1CgomN53z5GrekMnuF5YBZdWmDisRMqCpW8qzkSYjxL9jB06ZdaJmdTlprGQPHz70LTkzvGZzFgMU0LjFaB0V49hGkEGyzCZncbL+m7NTQLwX9q8DWiN3yQ+IfLrBZ2fwrvseYcHu3KivjtusDRmAPXv2zF1lz1xlGWhWA9i9MWlsVgsyAGMXa98v5OhaQbT9Hi4TFlqBjErJ/mo7aW9P9y4bsWkNMm6P6dukuzeqpoGE/dkI0Rpk7BHTdMLelu6Bl/vv1oaMQK6qeOqie4NqHESyAlDFi3weA39irUmK77Rw0CR9NQkvHFMLMsgUijWOMG9TNwNAhGZlZaUgRq+CLUI2ifSRhMOQHvh3Y0ztg4ar/ZllVrFTCzKuRHbAHDCBn1taVQHG57UgY3FU++jy9nU3CEjKJ4MMn4vvZYOiG7E7I1ro62TuEsCozF2lAzYMfjLIpCLfAeuQlSFjDdMh6/FOiS5cLaJTCzIOriquZK5kZXgJn6qY4fM4uzzsYGYQfN7F6PDfsAMykD148KAStIkhAzQHwA4AXdgKz7a2tpYGMmaX8gTcLhrvv2ED5uSQyZKSA2ADgK7sxDMFquKy6C6BaFxBxRwyh2sYXJSMZ6cfxg6fRcjEJY57dcgcsnGQVbHjkHkurfGETpTMIXOIGkNUFdfJc54cMoesVciePHkSMg+HlYncJbMHT2F4TDZK2bizUxLIpBJfVnLQhhfIqwDj84mUjANZPqjy0f55vyBEdJJCRgpje3s73LrTYeoXTOPsLTdfqQJtomSsJNvkibm+edEhAzwu9JZE/WEJ2QjZ/h/iP/11MPA+SNgH/wEHWEceW4ftVAAAAABJRU5ErkJggg==)</p><p>**Tony Anderson**</p><p> </p><p>![todo:image_alt_text](/data:image/png;base64,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)</p><p>**July James**</p><p> </p><p> </p>|
+|![Single_Row_Report_Example1](Single-Row-Report-Example1.png) <br> **John Smith** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James**|
 | :- |
+
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonList-CommonList.cs" >}}
+
 ### **In-Table List Template**
 #### **Template Example**
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}
-p> <<foreach [in managers]>><<[Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[Contracts.Sum(</p><p>c => c.Price)]>><</foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[Sum(</p><p>m => m.Contracts.Sum(</p><p>c => c.Price))]>></p><p>{{< /highlight >}}</p>|
+|{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>><</foreach>> {{< /highlight >}} |
+|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}} |
+
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableList.doc).
+
 #### **Report Example**
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}
-p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 2300000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 800000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 4300000</p><p>{{< /highlight >}}</p>|
+|{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}} |
+|{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}} |
+|{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000 {{< /highlight >}} |
+|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000 {{< /highlight >}} 
+
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableList-InTableList.cs" >}}
+
 ### **In-Table List Template with Running (Progressive) Total**
 #### **Template Example**
 
-|<<var [total = 0.0]>>|
-| :- |
+&lt;&lt;var [total = 0.0]&gt;&gt;
 
 |**Client**|**Total Contract Price**|
 | :- | :- |
-|**<<foreach [in contracts]>><<[ REF getClient  \* MERGEFORMAT Client. REF getName  \* MERGEFORMAT Name]>>**|<<var [total = total +  REF getPrice  \* MERGEFORMAT Price]>><<[total]>><</foreach>>|
+|**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;var [total = total + getPrice()]&gt;&gt;&lt;&lt;[total]&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
 
-|<p> </p><p> </p>|
-| :- |
 #### **Report Example**
-
-| |
-| :- |
 
 |**Client**|**Total Contract Price**|
 | :- | :- |
@@ -202,26 +194,16 @@ p> 4300000</p><p>{{< /highlight >}}</p>|
 |**I & Sons**|4200000|
 |**J Ent.**|4300000|
 
-|<p> </p><p> </p>|
-| :- |
 ### **In-Table List Template with Highlighted Rows**
 #### **Template Example**
 
-| |
-| :- |
-
 |**Client**|**Contract Price**|
 | :- | :- |
-|**<<foreach [in contracts]>><<if [ REF getPrice  \* MERGEFORMAT Price >= 1000000]>><<[ REF getClient  \* MERGEFORMAT Client. REF getName  \* MERGEFORMAT Name]>>**|<<[ REF getPrice  \* MERGEFORMAT Price]>>|
-|**<<else>><<[ REF getClient Client. REF getName  \* MERGEFORMAT Name]>>**|<<[ REF getPrice Price]>><</if>><</foreach>>|
-|**Total:**|<<[ REF linqSum Sum(c => c. REF getPrice Price)]>>|
+|**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;if [Price() >= 1000000]&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;**|&lt;&lt;[Price()]&gt;&gt;|
+|**&lt;&lt;else&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;**|&lt;&lt;[Price()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
+|**Total:**|&lt;&lt;[sum(c => c.Price())]&gt;&gt;|
 
-|<p> </p><p> </p>|
-| :- |
 #### **Report Example**
-
-| |
-| :- |
 
 |**Client**|**Contract Price**|
 | :- | :- |
@@ -236,13 +218,8 @@ p> 4300000</p><p>{{< /highlight >}}</p>|
 |**J Ent.**|100000|
 |**Total:**|4300000|
 
-|<p> </p><p> </p>|
-| :- |
 ### **In-Table List Template with Alternate Content**
 #### **Template Example**
-
-| |
-| :- |
 
 |**Client**|**Contract Price**|
 | :- | :- |
@@ -250,26 +227,15 @@ p> 4300000</p><p>{{< /highlight >}}</p>|
 |**<<else>><<foreach [in contracts]>><<[Client.Name]>>**|<<[Price]>><</foreach>>|
 |**Total:**|<<[Sum(c => c.Price)]>><</if>>|
 
-|<p> </p><p> </p>|
-| :- |
-
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableAlternateContent.doc).
-#### **Report Example 1**
 
-| |
-| :- |
+#### **Report Example 1**
 
 |**Client**|**Contract Price**|
 | :- | :- |
 |**No data**||
 
-|<p> </p><p> </p>|
-| :- |
-
 #### **Report Example 2**
-
-| |
-| :- |
 
 |**Client**|**Contract Price**|
 | :- | :- |
@@ -284,82 +250,56 @@ You can download template file of this example from [here](https://github.com/as
 |**J Ent.**|100000|
 |**Total:**|4300000|
 
-|<p> </p><p> </p>|
-| :- |
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableAlternateContent-InTableAlternateContent.cs" >}}
+
 ### **Common Master-Detail Template**
 #### **Template Example**
 
-|<p><<foreach [in managers]</p><p>>> </p><p>![todo:image_alt_text](/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACOCAYAAAAij6qZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAU3SURBVHhe7ZmNUeMwGAXTDF3QBDXQAi3QAR1QARXQAA3QAA1QgJnH5MsIoThxkk3C3Xomk/j08+T1WpKP1Wq1mvzIAHZgNXlIgCKwllfJKMD2O9UqqWTKwBFwJuPY2vOagJKpAk5AyXDEBiiZDuAElAxHbMDZJLu5uZnu7u6ulvjj4+OUMeazz5F6aXOO4+3tbTO29/f3c0SeNEPJ1jgjTCtNCVff9/f3P8AfK9kh7dMmwv2142jJcmO2zVBzZdcGaiRZSVczSXudh0jSXvMh7VvJMqaM5/X19RfKubJLcD9YstyA29vb4ZIxKuuh5vz5+fkbVH4/PDxMWQrqPH23T21b1vfVl/XLXvquf8vv0TEnWepXH9W2xrxtvG2bfquQ84AfLc/tWPuHt5/JIljqjGSbKzu3aIslq71Llo/Pz88f450rG0lW0AKkoOd3+o1k+dQRkB8fH9+ndSPqPPVKnl6GEj591owUuftjl2S53na/VoJsG287xowz9dsldzST7dNmtFxmDGGwTbZtZeeSbZFkJdFoip4ry8WMJOv3QO159TcCEdAZeAHvl5FehrbfXt7qf06yXG/NXO1MNjfevv5oJuxfHPZpM7cnq1l1xGyujJZtkWQZTN380bIzV3asZIEbQWoGaSXrZ7J2Bqz67fdoD7lr499fb389/UOxtHz0II76HEmWmXnbbDVXRstV/S+WrH3yj92TLZnJ2uWmn8kiTQnY7+X23WDvWi77G7KPRK2YxEx27cvk0ZK1su3zdnnsTNa2z96mXy77/WGNL3UjXu3ftj29p5as9nDJrT1Z/1D1s+M+bWom+y/eLpdOtcdKlmm/lry6GQX86elpU5Y6kerl5WUzxKpf7Uf/iXpqyRJe+6B+r9W+vLT7x11t+rfLpffgUvUPXi4vNeBRbqSKaO3s1d+8XePtJdtV/xLlSnYJ6uvMwG8lqz3akiHVJnupnEsyDq3rn5UOJXfCdlka2zfPSPYX/8Z3QiRX1dU/sVxeFVEH84uAkikFTkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAYomQ7gBJQMR2yAkukATkDJcMQGKJkO4ASUDEdsgJLpAE5AyXDEBiiZDuAElAxHbICS6QBOQMlwxAZsJFv/mPxeyWB1egZf3w/5gswtMdYAAAAASUVORK5CYII=)</p><p>**<<[Name]>>**</p><p>**Clients: <<foreach [in Contracts]>><<[IndexOf() != 0 ? ", " : ""]>><<[Client.Name]>><</foreach>>**</p><p> </p><p><</foreach>></p>|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example2](Common-List-Template-Example2.png) <br> **<<[Name**()**]>>** <br> **Clients: <<foreach [in Contracts**()** ]>><<[indexOf() != 0 ? ", " : ""]>><<[Client**()**.Name**()**]>><</foreach>>** <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/CommonMasterDetail.doc).
+
 #### **Report Example**
 
-|<p>![todo:image_alt_text](/data:image/png;base64,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)</p><p>**John Smith**</p><p>**Clients: A Company, B Ltd., C & D**</p><p> </p><p>![todo:image_alt_text](/data:image/png;base64,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)</p><p>**Tony Anderson**</p><p>**Clients: E Corp., F & Partners**</p><p> </p><p>![todo:image_alt_text](/data:image/png;base64,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)</p><p>**July James**</p><p>**Clients: G & Co., H Group, I & Sons, J Ent.**</p><p> </p><p> </p>|
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **John Smith** <br> **Clients: A Company, B Ltd., C & D** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> **Clients: E Corp., F & Partners** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James** <br> **Clients: G & Co., H Group, I & Sons, J Ent.**|
 | :- |
+
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonMasterDetail-CommonMasterDetail.cs" >}}
+
 ### **In-Table Master-Detail Template**
 #### **Template Example**
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}
-p> <<foreach [in managers]>><<[Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[Contracts.Sum(</p><p>c => c.Price)]>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> <<foreach [in Contracts]>> <<[Client.Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[Price]>><</foreach>><<</p><p>/foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[Sum(</p><p>m => m.Contracts.Sum(</p><p>c => c.Price))]>></p><p>{{< /highlight >}}</p>|
+|{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>> {{< /highlight >}}|
+|{{< highlight csharp >}} <<foreach [in Contracts()]>> <<[Client().Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Price()]>><</foreach>><</foreach>> {{< /highlight >}}|
+|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}}|
 
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableMasterDetail.doc).
+
 #### **Report Example**
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}
-p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 2300000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   A Company</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   B Ltd.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 750000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   C & D</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 350000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   E Corp.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 650000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   F & Partners</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 550000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 800000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   G & Co.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 350000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   H Group</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 250000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   I & Sons</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 100000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p>   J Ent.</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 100000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 4300000</p><p>{{< /highlight >}}</p>|
+|{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}}|
+|{{< highlight csharp >}} A Company {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}}|
+|{{< highlight csharp >}} B Ltd. {{< /highlight >}} | {{< highlight csharp >}} 750000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} C & D {{< /highlight >}} | {{< highlight csharp >}} 350000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} E Corp. {{< /highlight >}} | {{< highlight csharp >}} 650000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} F & Partners {{< /highlight >}} | {{< highlight csharp >}} 550000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} G & Co. {{< /highlight >}} | {{< highlight csharp >}} 350000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} H Group {{< /highlight >}} | {{< highlight csharp >}} 250000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} I & Sons {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} J Ent. {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
+|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000</p><p>{{< /highlight >}}|
+
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableMasterDetail-InTableMasterDetail.cs" >}}
+
 ### **Pie Chart Template**
+
 You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/PieChart.docx).
 
 **Template Example**
