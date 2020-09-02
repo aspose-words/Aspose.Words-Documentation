@@ -388,4 +388,3 @@ You can download template file of this example from [here](https://github.com/as
 ![Chart_Report_Example](Chart-Report-Example.png)
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-ChartWithFilteringGroupingOrdering-ChartWithFilteringGroupingOrdering.cs" >}}
-` `PAGE 
