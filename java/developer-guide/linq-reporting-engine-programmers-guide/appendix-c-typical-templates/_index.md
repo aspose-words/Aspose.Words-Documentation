@@ -273,15 +273,10 @@ We provide support for the following clients:
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}
-p> <<foreach [in managers]>><<[getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[getContracts().sum(</p><p>c => c.getPrice())]>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> <<foreach [in getContracts()]>></p><p><<[getClient().getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[getPrice()]>><</foreach>><<</p><p>/foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[sum(</p><p>m => m.getContracts().sum(</p><p>c => c.getPrice()))]>></p><p>{{< /highlight >}}</p>|
+|{{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>> {{< /highlight >}}|
+|{{< highlight csharp >}} <<foreach [in getContracts()]>> <<[getClient().getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getPrice()]>><</foreach>><</foreach>> {{< /highlight >}}|
+|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}}|
+
 ### **Report Example**
 
 |**Manager/Client**|**Contract Price**|
