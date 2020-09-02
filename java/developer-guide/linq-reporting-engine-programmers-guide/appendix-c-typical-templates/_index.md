@@ -130,14 +130,27 @@ We provide support for the following clients:
 
 ## **Multicolored Numbered List Template**
 ### **Template Example**
-
-|<p>We provide support for the following clients:</p><p>1. <<foreach [in clients]>><<if [indexOf() % 2 == 0]>><<[getName()]>></p><p>2. <<else>><<[getName()]>></p><p><</if>><</foreach>></p>|
-| :- |
+{{< highlight csharp >}}
+We provide support for the following clients:
+1. <<foreach [in clients]>><<if [indexOf() % 2 == 0]>><<[getName()]>>
+2. <<else>><<[getName()]>>
+   <</if>><</foreach>>
+{{< /highlight >}}
 
 ### **Report Example**
+{{< highlight csharp >}}
+We provide support for the following clients:
+1. A Company
+2. B Ltd.
+3. C & D
+4. E Corp.
+5. F & Partners
+6. G & Co.
+7. H Group
+8. I & Sons
+9. J Ent.
+{{< /highlight >}}
 
-|<p>We provide support for the following clients:</p><p>1. A Company</p><p>2. B Ltd.</p><p>3. C & D</p><p>4. E Corp.</p><p>5. F & Partners</p><p>6. G & Co.</p><p>7. H Group</p><p>8. I & Sons</p><p>9. J Ent.</p><p> </p>|
-| :- |
 ## **Common List Template**
 {{% alert color="primary" %}} 
 ### **Template Example**
