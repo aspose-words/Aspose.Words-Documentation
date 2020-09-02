@@ -173,6 +173,7 @@ p> <<[getContracts().sum(</p><p>c => c.getPrice())]>><</foreach>></p><p>{{< /hig
 |<p>{{< highlight csharp >}}
 p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
 p> <<[sum(</p><p>m => m.getContracts().sum(</p><p>c => c.getPrice()))]>></p><p>{{< /highlight >}}</p>|
+
 ### **Report Example**
 
 |**Manager**|**Contract Price**|
@@ -189,24 +190,17 @@ p> 800000</p><p>{{< /highlight >}}</p>|
 |<p>{{< highlight csharp >}}
 p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
 p> 4300000</p><p>{{< /highlight >}}</p>|
+
 ## **In-Table List Template with Running (Progressive) Total**
 **Template Example**
 
-|<<var [total = 0.0]>>|
-| :- |
+&lt;&lt;var [total = 0.0]&gt;&gt;
 
 |**Client**|**Total Contract Price**|
 | :- | :- |
-|**<<foreach [in contracts]>><<[ REF getClient  \* MERGEFORMAT getClient(). REF getName  \* MERGEFORMAT getName()]>>**|<<var [total = total +  REF getPrice  \* MERGEFORMAT getPrice()]>><<[total]>><</foreach>>|
-
-|<p> </p><p> </p>|
-| :- |
-
+|**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;var [total = total + getPrice()]&gt;&gt;&lt;&lt;[total]&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
 
 **Report Example**
-
-| |
-| :- |
 
 |**Client**|**Total Contract Price**|
 | :- | :- |
@@ -220,10 +214,7 @@ p> 4300000</p><p>{{< /highlight >}}</p>|
 |**I & Sons**|4200000|
 |**J Ent.**|4300000|
 
-|<p> </p><p> </p>|
-| :- |
 ## **In-Table List Template with Highlighted Rows**
-{{% alert color="primary" %}} 
 ### **Template Example**
 
 | |
@@ -258,7 +249,7 @@ p> 4300000</p><p>{{< /highlight >}}</p>|
 
 |<p> </p><p> </p>|
 | :- |
-{{% /alert %}} 
+
 ## **In-Table List Template with Alternate Content**
 ### **Template Example**
 
