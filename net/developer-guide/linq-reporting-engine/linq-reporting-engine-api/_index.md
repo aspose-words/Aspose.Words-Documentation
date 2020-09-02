@@ -528,13 +528,13 @@ For recognition of JSON simple values (null, boolean, number, integer, and strin
     { prop: "123" }
 {{< /highlight >}}
 
-In the loose mode, the type of prop is determined as integer, whereas in the strict mode, it is determined as string.
+In the loose mode, the type of prop is determined as an integer, whereas in the strict mode, it is determined as a string.
 
-The loose mode is used by the engine by default to support more typed data representation options. However, in some scenarios, it can be more preferable to disable recognition of numbers and other JSON simple values from strings, for example, when you need to keep leading padding zeros in a string value representing a number. In this case, you can switch to the strict mode as shown in following code snippet.
+The loose mode is used by the engine by default to support more typed data representation options. However, in some scenarios, it can be more preferable to disable recognition of numbers and other JSON simple values from strings, for example, when you need to keep leading padding zeros in a string value representing a number. In this case, you can switch to the strict mode as shown in the following code snippet.
 
 {{< highlight csharp >}}
     JsonDataLoadOptions options = new JsonDataLoadOptions();
-    options.SimpleValueParseMode(JsonSimpleValueParseMode.STRICT);
+    options.SimpleValueParseMode = JsonSimpleValueParseMode.STRICT;
     JsonDataSource dataSource = new JsonDataSource(..., options);
 {{< /highlight >}}
 
@@ -552,7 +552,7 @@ Although this approach is quite flexible, in some scenarios, you may need to res
 
 {{< highlight csharp >}}
     JsonDataLoadOptions options = new JsonDataLoadOptions();
-    options.ExactDateTimeParseFormat("MM/dd/yyyy");
+    options.ExactDateTimeParseFormat = "MM/dd/yyyy";
     JsonDataSource dataSource = new JsonDataSource(..., options);
 {{< /highlight >}}
 
