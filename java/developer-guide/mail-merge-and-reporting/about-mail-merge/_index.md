@@ -175,26 +175,28 @@ You can easily merge attributes of fields using the following syntax:
 {{ Address.Street }}
 
 This will merge data from XML data which looks like this:
-
-`<Order> // <-- Current context is here.
-`   `<Number>23</Number>
-`   `<Address>
-`      `<Street>Nelson Street</Street>
-`      `<Suburb>Howick</Suburb>
-`      `<City>Auckland</City>
-`   `</Address>
-`   `<PhoneNumber>543 1234</PhoneNumber>
-</Order>`
+{{< highlight csharp >}}
+<Order> // <-- Current context is here.
+<Number>23</Number>
+<Address>
+<Street>Nelson Street</Street>
+<Suburb>Howick</Suburb>
+<City>Auckland</City>
+</Address>
+<PhoneNumber>543 1234</PhoneNumber>
+</Order>
+{{< /highlight >}}
 ### **Foreach Blocks**
 You can merge data from multiple records using the foreach tag. This is similar to mail merge regions with convectional merge fields. You can nest such blocks.
-
+{{< highlight csharp >}}
 {{ #foreach Order }}
-`  `{{ Number }}
-`  `{{ Address.Street }}
-`    `{{ #foreach Item }}
-`       `{{ Description }} {{ Cost}} {{ Total }}
-`    `{{/foreach Item }}
+{{ Number }}
+{{ Address.Street }}
+{{ #foreach Item }}
+{{ Description }} {{ Cost}} {{ Total }}
+{{/foreach Item }}
 {{ /foreach Order }}
+{{< /highlight >}}
 
 You can also mix these fields and place them inside other Microsoft Word fields such as IF or Formula fields. Following code example shows how to use mail merge using “Mustache” Syntax (Foreach Blocks).
 
