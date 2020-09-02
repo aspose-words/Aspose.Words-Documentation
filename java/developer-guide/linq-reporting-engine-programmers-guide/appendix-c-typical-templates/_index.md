@@ -317,7 +317,7 @@ We provide support for the following clients:
 
 **Initial Chart Series Data**
 
-![Scatter_Chart_Series_Data](Scatter-Chart-Series-Data.png)
+![Scatter_Chart_Series_Data](Scatter-Chart-Chart-Series-Data.png)
 
 **Report Example**
 
@@ -343,11 +343,11 @@ We provide support for the following clients:
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|{{< highlight csharp >}} **<<foreach [in contracts
+|{{< highlight csharp >}} <<foreach [in contracts
 .where(c => c.getDate().getYear() == 115)
 .groupBy(c => c.getManager())
 .orderBy(g => g.key.getName())]>>
-<<[key.getName()]>>** {{< /highlight >}} | <<[sum(c => c.getPrice())]>><</foreach>>|
+<<[key.getName()]>> {{< /highlight >}} | <<[sum(c => c.getPrice())]>><</foreach>>|
 
 
 **Report Example**
