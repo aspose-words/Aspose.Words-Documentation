@@ -167,29 +167,17 @@ We provide support for the following clients:
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}
-p> <<foreach [in managers]>><<[getName()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[getContracts().sum(</p><p>c => c.getPrice())]>><</foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[sum(</p><p>m => m.getContracts().sum(</p><p>c => c.getPrice()))]>></p><p>{{< /highlight >}}</p>|
+|{{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>><</foreach>> {{< /highlight >}} |
+|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}} |
 
 ### **Report Example**
 
 |**Manager**|**Contract Price**|
 | :- | :- |
-|<p>{{< highlight csharp >}}
-p> John Smith</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 2300000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Tony Anderson</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 1200000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> July James</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 800000</p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Total:</p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> 4300000</p><p>{{< /highlight >}}</p>|
+|{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}} |
+|{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}} |
+|{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000 {{< /highlight >}} |
+|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000 {{< /highlight >}} |
 
 ## **In-Table List Template with Running (Progressive) Total**
 **Template Example**
