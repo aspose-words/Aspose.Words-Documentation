@@ -133,7 +133,7 @@ We provide support for the following clients:
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. <<foreach [in clients]>><<if [indexOf() % 2 == 0]>><<[getName()]>>
-    2. <<else>><<[getName()]>>
+    2. {{% alert color="primary" %}} <<else>><<[getName()]>> {{% /alert %}} 
 <</if>><</foreach>>
 {{< /highlight >}}
 
@@ -141,13 +141,13 @@ We provide support for the following clients:
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. A Company
-    2. B Ltd.
+    2. {{% alert color="primary" %}} B Ltd. {{% /alert %}} 
     3. C & D
-    4. E Corp.
+    4. {{% alert color="primary" %}} E Corp. {{% /alert %}} 
     5. F & Partners
-    6. G & Co.
+    6. {{% alert color="primary" %}} G & Co. {{% /alert %}} 
     7. H Group
-    8. I & Sons
+    8. {{% alert color="primary" %}} I & Sons {{% /alert %}} 
     9. J Ent.
 {{< /highlight >}}
 
