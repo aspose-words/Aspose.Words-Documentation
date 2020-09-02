@@ -13,7 +13,7 @@ Aspose.Words provides extensive support for loading, saving and converting Wordp
 
 See the following links in the documentation for further information:
 
-- [Loading, Saving and Converting](/words/net/loading-2c-saving-and-converting)
+- [Loading, Saving and Converting](/words/net/loading-saving-and-converting/)
 - [Working with Document old](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Document+old&linkCreation=true&fromPageId=2595928)
 - [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model)
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
