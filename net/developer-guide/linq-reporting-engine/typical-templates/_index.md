@@ -145,7 +145,7 @@ You can download template file of this example from [here](https://github.com/as
 
 #### **Report Example**
 
-|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **John Smith** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James**|
+|![Single_Row_Report_Example1](Single-Row-Report-Example1.png) <br> **John Smith** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James**|
 | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonList-CommonList.cs" >}}
@@ -262,7 +262,7 @@ You can download template file of this example from [here](https://github.com/as
 
 #### **Report Example**
 
-|![Single_Row_Report_Example](Single-Row-Report-Example2.png) <br> **John Smith** <br> **Clients: A Company, B Ltd., C & D** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> **Clients: E Corp., F & Partners** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James** <br> **Clients: G & Co., H Group, I & Sons, J Ent.**|
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **John Smith** <br> **Clients: A Company, B Ltd., C & D** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> **Clients: E Corp., F & Partners** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James** <br> **Clients: G & Co., H Group, I & Sons, J Ent.**|
 | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonMasterDetail-CommonMasterDetail.cs" >}}
