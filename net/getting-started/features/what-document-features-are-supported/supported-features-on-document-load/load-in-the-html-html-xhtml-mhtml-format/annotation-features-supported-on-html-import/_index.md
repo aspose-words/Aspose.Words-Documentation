@@ -37,7 +37,7 @@ The CommentRangeStart and CommentRangeEnd nodes define the area of the document 
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Comment|Planned| |- [Comment.ToTxt](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.node.totxt)|
+|Comment|Planned| |- Comment.ToTxt|
 |Comment Range|Planned| |<p>- [CommentRangeStart](http://www.aspose.com/api/net/words/aspose.words/commentrangestart)</p><p>- [CommentRangeEnd](http://www.aspose.com/api/net/words/aspose.words/commentrangeend)</p>|
 |Author|Planned| |- [Comment.Author](https://apireference.aspose.com/words/net/aspose.words/comment/properties/author)|
 |Date|Planned| |- **Comment.Date**|
