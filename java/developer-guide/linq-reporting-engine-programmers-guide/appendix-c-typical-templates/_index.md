@@ -133,7 +133,7 @@ We provide support for the following clients:
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. <<foreach [in clients]>><<if [indexOf() % 2 == 0]>><<[getName()]>>
-    2. {{% alert color="primary" %}} <<else>><<[getName()]>> {{% /alert %}} 
+    2. {{% alert color="green" %}} <<else>><<[getName()]>> {{% /alert %}} 
 <</if>><</foreach>>
 {{< /highlight >}}
 
