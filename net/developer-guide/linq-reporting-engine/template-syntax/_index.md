@@ -194,7 +194,7 @@ If html switch is present, the expression result is considered to be a HTML bloc
 To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [IFormattable.ToString](http://msdn.microsoft.com/en-us/library/system.iformattable.tostring\(v=vs.110\).aspx)[](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)method implementors. That is, for example, given that d is a DateTime value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
 {{< highlight xml >}}
 <<[d]:"yyyy.MM.dd">>
-{{< highlight xml >}}
+{{< /highlight >}}
 
 LINQ Reporting Engine provides several additional number formats that can not be specified using format strings because these formats are missing in standard .Net libraries. The following table describes these formats.
 
