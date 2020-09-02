@@ -70,11 +70,10 @@ This article explains following topics:
 
 ### **Report Example**
 
-|![todo:image_alt_text](Single-Row-Report-Example1.png)|**Name:** **John Smith** <br> **Age:** 37 |
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png)|**Name:** **John Smith** <br> **Age:** 37 |
 | :- | :- |
 
 ## **In-Paragraph List Template**
-{{% alert color="primary" %}} 
 ### **Template Example**
 
 |We provide support for the following clients: <<foreach [in clients]>><<[indexOf() != 0 ? ", " : ""]>><<[getName()]>><</foreach>>|
@@ -84,7 +83,7 @@ This article explains following topics:
 
 |We provide support for the following clients: A Company, B Ltd., C & D, E Corp., F & Partners, G & Co., H Group, I & Sons, J Ent.|
 | :- |
-{{% /alert %}} 
+
 ## **Bulleted List Template**
 ### **Template Example**
 {{< highlight csharp >}}
@@ -92,6 +91,7 @@ We provide support for the following clients:
     * <<foreach [in clients]>><<[getName()]>>
 <</foreach>>
 {{< /highlight >}}
+
 ### **Report Example**
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -105,14 +105,15 @@ We provide support for the following clients:
     * I & Sons
     * J Ent.
 {{< /highlight >}}
+
 ## **Numbered List Template**
-{{% alert color="primary" %}} 
 ### **Template Example**
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. <<foreach [in clients]>><<[getName()]>>
 <</foreach>>
 {{< /highlight >}}
+
 ### **Report Example**
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -127,7 +128,6 @@ We provide support for the following clients:
     9. J Ent.
 {{< /highlight >}}
 
-{{% /alert %}} 
 ## **Multicolored Numbered List Template**
 ### **Template Example**
 
