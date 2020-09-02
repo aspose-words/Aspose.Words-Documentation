@@ -141,7 +141,7 @@ We provide support for the following clients:
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. A Company
-    2. {{% alert color="primary" %}} B Ltd. {{% /alert %}} 
+{{% alert color="green" %}}    2. B Ltd. {{% /alert %}} 
     3. C & D
     4. {{% alert color="primary" %}} E Corp. {{% /alert %}} 
     5. F & Partners
