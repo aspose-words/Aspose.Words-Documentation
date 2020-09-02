@@ -132,23 +132,23 @@ We provide support for the following clients:
 ### **Template Example**
 {{< highlight csharp >}}
 We provide support for the following clients:
-1. <<foreach [in clients]>><<if [indexOf() % 2 == 0]>><<[getName()]>>
-2. <<else>><<[getName()]>>
-   <</if>><</foreach>>
+    1. <<foreach [in clients]>><<if [indexOf() % 2 == 0]>><<[getName()]>>
+    2. <<else>><<[getName()]>>
+<</if>><</foreach>>
 {{< /highlight >}}
 
 ### **Report Example**
 {{< highlight csharp >}}
 We provide support for the following clients:
-1. A Company
-2. B Ltd.
-3. C & D
-4. E Corp.
-5. F & Partners
-6. G & Co.
-7. H Group
-8. I & Sons
-9. J Ent.
+    1. A Company
+    2. B Ltd.
+    3. C & D
+    4. E Corp.
+    5. F & Partners
+    6. G & Co.
+    7. H Group
+    8. I & Sons
+    9. J Ent.
 {{< /highlight >}}
 
 ## **Common List Template**
