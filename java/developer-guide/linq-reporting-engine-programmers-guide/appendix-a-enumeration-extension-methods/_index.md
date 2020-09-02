@@ -5,8 +5,6 @@ weight: 50
 url: /java/appendix-a-enumeration-extension-methods/
 ---
 
-{{% alert color="primary" %}} 
-
 LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for Iterable. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus, you can group, sort, and perform other sequential data manipulations in template expressions in a common way.
 
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
@@ -100,4 +98,3 @@ p> persons.takeWhile(p => p.getAge() < 50)</p><p>{{< /highlight >}}</p>|
 p> persons.union(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of united enumerations. </p>|
 |where(Predicate)|<p>{{< highlight csharp >}}
 p> persons.where(p => p.getAge() > 18)</p><p>{{< /highlight >}}</p>|
-{{% /alert %}}
