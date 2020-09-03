@@ -74,7 +74,7 @@ namespace AsposeWordsAzureTestApp
         }
     }
 }
-{{< /highlight >}}
+{{< /highlight >}}<br>
 1. Run the code in Visual Studio to test it. The result will be displayed in the console output.
 1. ![todo:image_alt_text](converting-a-document-with-images-using-aspose-words-in-azure-functions_1.png)
 1. Copy URL from the console output to your favorite browser to get the output document, which should look as follows:<br>
@@ -89,7 +89,7 @@ namespace AsposeWordsAzureTestApp
   </ItemGroup>
   <Copy SourceFiles="@(NativeAssetToCopy)" DestinationFolder="$(PublishDir)bin" />
 </Target>
-{{< /highlight >}}
+{{< /highlight >}}<br>
 1. Publish your project again and verify that the image is now present in the generated output.
 
 ## **See Also**
