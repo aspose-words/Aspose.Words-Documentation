@@ -83,7 +83,7 @@ See the following links in the documentation for further information:
 |Wrap Text |Yes | |- [CellFormat.WrapText](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/wraptext)|
 |Fit Text |Yes | |- [CellFormat.FitText](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/fittext)|
 |Preferred Width |Yes | |- [CellFormat.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth)|
-|Merged Horizontally |Yes | |<p>- [Working with Merged Cells](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Merged+Cells&linkCreation=true&fromPageId=2595998) </p><p>- [CellFormat.HorizontalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/horizontalmerge)</p>|
+|Merged Horizontally |Yes | |<p>- [Working with Merged Cells](https://docs.aspose.com/words/net/working-with-columns-and-rows/#working-with-merged-cells) </p><p>- [CellFormat.HorizontalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/horizontalmerge)</p>|
 |Merged Vertically |Yes | |- [CellFormat.VerticalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/verticalmerge)|
 |Vertical Alignment |Yes | |- [CellFormat.VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/verticalalignment)|
 |Text Direction |Yes | |- [CellFormat.Orientation](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/orientation)|
