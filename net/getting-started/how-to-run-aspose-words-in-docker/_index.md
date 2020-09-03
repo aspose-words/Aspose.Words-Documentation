@@ -168,7 +168,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y libfontconfig1
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
-{{< /highlight >}}<br>
+{{< /highlight >}}
 1. To run the application in Ubuntu 18.04, the Dockerfile remains practically the same (only the tag is changed):<br>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-bionic AS build
@@ -189,7 +189,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y libfontconfig1
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
-{{< /highlight >}}<br>
+{{< /highlight >}}
 1. To run the application in Alpine Linux, it is required to add the SkiaSharp native assets and use the following Dockerfile:<br>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-alpine3.9 AS build
@@ -210,7 +210,7 @@ WORKDIR /app
 RUN apk update && apk upgrade && apk add fontconfig
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
-{{< /highlight >}}<br>
+{{< /highlight >}}
 1. To run the application in RHEL 7, it is required to add the SkiaSharp native assets and use the following Dockerfile:<br>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build
