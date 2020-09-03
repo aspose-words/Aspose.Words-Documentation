@@ -66,7 +66,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Apply Formatting to |Planned | |- [Table.StyleOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tables.table.styleoptions)|
+|Apply Formatting to |Planned | |- [Table.StyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions)|
 |Table Properties |Planned | |- **TableStyle**|
 |Banding |Planned | |- **Table.StyleOptions**|
 |Paragraph Properties |Planned | |- [TableStyle.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
