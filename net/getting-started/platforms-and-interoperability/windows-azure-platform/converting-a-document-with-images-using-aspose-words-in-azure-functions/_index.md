@@ -19,16 +19,17 @@ In order to resolve the problem, you can add the following section in the .cspro
 {{< /highlight >}}
 
 The following example shows how to use Aspose.Words in Azure Function with the details on how to add the code above.
+
 ## **Prerequisites**
 - Active Azure subscription. If you don't have one, create a free account before you begin.
 - Visual Studio 2019 or Visual Studio 2017 with the latest installed Azure Functions tools to create the project.
+
 ## **Creating an Azure Functions Application**
 You need to use Visual Studio to create an Azure Functions Application. The created application already has a simple “Hello World” function code.
 
 In this example, you create a simple “Hello World” document and return it to the user's browser as a PDF file. To accomplish this:
 
-1. Start creating a function using Aspose.Words by adding a NuGet reference to the latest version of [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/). Then modify the code as follows:
-
+1. Start creating a function using Aspose.Words by adding a NuGet reference to the latest version of [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/). Then modify the code as follows:<br>
 {{< highlight csharp >}}
 using System.IO;
 using System.Threading.Tasks;
@@ -74,19 +75,13 @@ namespace AsposeWordsAzureTestApp
     }
 }
 {{< /highlight >}}
-
 1. Run the code in Visual Studio to test it. The result will be displayed in the console output.
 1. ![todo:image_alt_text](converting-a-document-with-images-using-aspose-words-in-azure-functions_1.png)
-1. Copy URL from the console output to your favorite browser to get the output document, which should look as follows:
-
+1. Copy URL from the console output to your favorite browser to get the output document, which should look as follows:<br>
 ![todo:image_alt_text](converting-a-document-with-images-using-aspose-words-in-azure-functions_2.png)
-
-1. Now, if you [deploy the created function to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure), the image will not be rendered because of the problem stated at the beginning of this article. The output is shown below:
-
+1. Now, if you [deploy the created function to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure), the image will not be rendered because of the problem stated at the beginning of this article. The output is shown below:<br>
 ![todo:image_alt_text](converting-a-document-with-images-using-aspose-words-in-azure-functions_3.png)
-
-1. Open the .csproj file in Notepad and add the following section to it:
-
+1. Open the .csproj file in Notepad and add the following section to it:<br>
 {{< highlight csharp >}}
 <Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish">
   <ItemGroup>
@@ -95,8 +90,8 @@ namespace AsposeWordsAzureTestApp
   <Copy SourceFiles="@(NativeAssetToCopy)" DestinationFolder="$(PublishDir)bin" />
 </Target>
 {{< /highlight >}}
-
 1. Publish your project again and verify that the image is now present in the generated output.
+
 ## **See Also**
 - Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing).
 - Create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure.
