@@ -52,7 +52,7 @@ See the following links in the documentation for further information:
 |VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. This means you can load an existing template/document and add content to it and the VBA Projects will remain properly. <br><br>There is no API to access the code behind or execute any of the macros. There is a method provided to remove all macros from a document. |- [Document.RemoveMacros](https://apireference.aspose.com/words/net/aspose.words/document/properties/removemacros)|
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes |A background of a Word document can be a solid color or an image. |- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
-|Thumbnail |Planned | |- [BuiltInDocumentProperties.Thumbnail](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.properties.builtindocumentproperties.thumbnail)|
+|Thumbnail |Planned | |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
 ##### **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
