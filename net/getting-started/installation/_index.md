@@ -31,48 +31,27 @@ Once downloaded you will see the following confirmation messages. If you are not
 
 You should now find that Aspose.Words has successfully been added and referenced in your application for you.
 
-![todo:image_alt_text](/download/thumbnails/2589348/1728436315)
+![todo:image_alt_text](installation11.png)
 
 In the package manager console, you can also use the command “**Update-Package Aspose.Words**” and press enter to check for any updates to the Aspose.Words package and install them if present. You can also add the "-prerelease" suffix to update the latest release.
+
 ## **Installing Aspose.Words for .NET through Installer**
+
 Aspose.Words for .NET can be installed by direct downloading the MSI installer from the [downloads section](https://downloads.aspose.com/words/net). You must be logged in to download the installer. If you are not already registered then you may signup for free.
 
 Please follow the steps below:
 
 1. Download **Aspose.Words_{LatestVersion}.msi** from the [downloads section](https://downloads.aspose.com/words/net).
-1. Doble-click the downloaded file. The setup wizard shall start. Follow the setup wizard instructions. When the setup wizard shall finish the installation, the required files shall be available in the folder at the provided folder path.
-
-![todo:image_alt_text](installation_6.png)
-
-
-
-
-![todo:image_alt_text](installation_7.jpg)
-
-
-
-
-![todo:image_alt_text](installation_8.jpg)
-
-
-
-
-![todo:image_alt_text](installation_9.jpg)
-
-
-
-
+1. Doble-click the downloaded file. The setup wizard shall start. Follow the setup wizard instructions. When the setup wizard shall finish the installation, the required files shall be available in the folder at the provided folder path.<br>
+![todo:image_alt_text](installation_6.png)<br>
+![todo:image_alt_text](installation_7.jpg)<br>
+![todo:image_alt_text](installation_8.jpg)<br>
+![todo:image_alt_text](installation_9.jpg)<br>
 1. Open your solution/project in Visual Studio.
 1. Right-click on your project in solution explorer and add the reference to the installed assemblies.
-1. Aspose.Words for .NET installed assemblies shall appear in extensions under Assemblies section. Select your required DLL component.
-
-![todo:image_alt_text](installation_10.png)
-
-
-
-
+1. Aspose.Words for .NET installed assemblies shall appear in extensions under Assemblies section. Select your required DLL component.<br>
+![todo:image_alt_text](installation_10.png)<br>
 1. Finally, click OK.
-
 
 ## **Considerations When Running on a Shared Server Environment**
 All Aspose .NET components are recommended to run with Full Trust permission set. This is because Aspose .NET component sometimes needs to access registry settings and files located in places other than the virtual directory e.g. for reading fonts etc. Furthermore, Aspose.NET components are based on core .NET system classes, some of which also require Full Trust permission to run in some cases.
