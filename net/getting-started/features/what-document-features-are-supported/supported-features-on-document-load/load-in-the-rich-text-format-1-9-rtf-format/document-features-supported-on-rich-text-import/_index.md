@@ -46,7 +46,7 @@ See the following links in the documentation for further information:
 |Variables |Yes |Variables allow you to store additional information in the document which is "hidden" from the main document. <br><br>This can be used to embed custom tracking data in the document itself. |- [Document.Variables](https://apireference.aspose.com/words/net/aspose.words/document/properties/variables)|
 |VBA Project (Macro) |N/A | | |
 |VBA Project Digital Signature |N/A | | |
-|Background |Yes |A background of a Word document can be a solid color or an image. |- [Document.BackgroundShape](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbase.backgroundshape)|
+|Background |Yes |A background of a Word document can be a solid color or an image. |- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
 |Thumbnail |Planned | |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
 ##### **Embedded Fonts**
 

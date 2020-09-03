@@ -19,7 +19,7 @@ See the following links in the documentation for further information:
 - [Run.Font](https://apireference.aspose.com/words/net/aspose.words/inline/properties/font)
 - [Run.Text](https://apireference.aspose.com/words/net/aspose.words/node/properties/text)
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Ooxml+Export&linkCreation=true&fromPageId=2596000)
+[Jump to this location in the export section](/https://docs.aspose.com/words/net/save-in-the-flatopc-ooxml-document-xml-format/)
 
 {{% /alert %}} 
 ##### **Characters**

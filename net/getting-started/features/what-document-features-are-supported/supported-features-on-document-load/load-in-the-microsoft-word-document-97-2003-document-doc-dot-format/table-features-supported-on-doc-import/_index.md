@@ -35,7 +35,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Yes | |- [Table.Bidi](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bidi)|
-|Table Style |Yes |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. |<p>- [Working with Table Styles](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Table+Styles&linkCreation=true&fromPageId=2595902) </p><p>- [Table.Style](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/style) </p><p>- [Table.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleidentifier)</p>|
+|Table Style |Yes |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. |<p>- [Working with Table Styles](https://docs.aspose.com/words/net/working-with-tablestyle/) </p><p>- [Table.Style](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/style) </p><p>- [Table.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleidentifier)</p>|
 |Conditional Formatting Style |Yes | |- [Table.StyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions)|
 |Table Alignment |Yes | |- [Table.Alignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/alignment)|
 |Table Indent |Yes | |- [Table.LeftIndent](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftindent)|
@@ -83,7 +83,7 @@ See the following links in the documentation for further information:
 |Wrap Text |Yes | |- [CellFormat.WrapText](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/wraptext)|
 |Fit Text |Yes | |- [CellFormat.FitText](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/fittext)|
 |Preferred Width |Yes | |- [CellFormat.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth)|
-|Merged Horizontally |Yes | |<p>- [Working with Merged Cells](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Merged+Cells&linkCreation=true&fromPageId=2595902) </p><p>- [CellFormat.HorizontalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/horizontalmerge)</p>|
+|Merged Horizontally |Yes | |<p>- [Working with Merged Cells](https://docs.aspose.com/words/net/working-with-columns-and-rows/#working-with-merged-cells) </p><p>- [CellFormat.HorizontalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/horizontalmerge)</p>|
 |Merged Vertically |Yes | |- [CellFormat.VerticalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/verticalmerge)|
 |Vertical Alignment |Yes | |- [CellFormat.VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/verticalalignment)|
 |Text Direction |Yes | |- [CellFormat.Orientation](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/orientation)|

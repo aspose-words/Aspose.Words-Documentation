@@ -100,7 +100,7 @@ Form fields are fully supported by Aspose.Words.
 See the following links in the documentation for further information:
 
 - [Working with Form Fields](/words/net/working-with-form-fields/)
-- [FormField](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.fields.formfield)
+- [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
 - [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
 - [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
 

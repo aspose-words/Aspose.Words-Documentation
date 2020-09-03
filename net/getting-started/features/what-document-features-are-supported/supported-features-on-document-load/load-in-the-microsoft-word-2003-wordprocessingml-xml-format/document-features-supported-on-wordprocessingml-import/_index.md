@@ -14,7 +14,7 @@ Aspose.Words provides extensive support for loading, saving and converting Wordp
 See the following links in the documentation for further information:
 
 - [Loading, Saving and Converting](/words/net/loading-saving-and-converting/)
-- [Working with Document old](/pages/createpage.action?spaceKey=wordsnet&title=Working+with+Document+old&linkCreation=true&fromPageId=2595928)
+- [Working with Document](https://docs.aspose.com/words/net/working-with-document/)
 - [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model)
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 
@@ -33,7 +33,7 @@ See the following links in the documentation for further information:
 |Encryption|N/A| | |
 |Font Table|Yes| | |
 |Glossary Document/Quick Parts/Auto Text|Planned| |- [Document.GlossaryDocument](https://apireference.aspose.com/words/net/aspose.words/document/properties/glossarydocument)|
-|Hyphenation|Yes|There is currently no API to access and modify hypenation settings in a document.|- [ParagraphFormat.SuppressAutoHyphens](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.paragraphformat.suppressautohyphens)|
+|Hyphenation|Yes|There is currently no API to access and modify hypenation settings in a document.|- [ParagraphFormat.SuppressAutoHyphens](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/suppressautohyphens)|
 |Key Map Customizations|Yes| | |
 |Mail Merge Recipient Data|Yes| |- [Document.MailMergeSettings](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmergesettings)|
 |Office Math|N/A| | |
@@ -42,7 +42,7 @@ See the following links in the documentation for further information:
 |Variables|Yes|Variables allow you to store additional information in the document which is "hidden" from the main document. <br><br>This can be used to embed custom tracking data in the document itself.|- [Document.Variables](https://apireference.aspose.com/words/net/aspose.words/document/properties/variables)|
 |VBA Project (Macro)|Yes|VBA Projects are preserved during open and save to different formats that support them. This means you can load an existing template/document and add content to it and the VBA Projects will remain properly. <br><br>There is no API to access the code behind or execute any of the macros. There is a method provided to remove all macros from a document.|- [Document.RemoveMacros](https://apireference.aspose.com/words/net/aspose.words/document/properties/removemacros)|
 |VBA Project Digital Signature|Yes|The digital signature on a VBA Project is preserved during open and save even if the document content is modified.| |
-|Background|Yes|A background of a Word document can be a solid color or an image.|- [Document.BackgroundShape](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbase.backgroundshape)|
+|Background|Yes|A background of a Word document can be a solid color or an image.|- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
 |Thumbnail|Planned| |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
 ## **Embedded Fonts**
 
@@ -78,7 +78,7 @@ See the following links in the documentation for further information:
 |Limit Formatting to Selection of Styles|Planned| | |
 |Protection Password (Legacy)|Yes| |- [WriteProtection.SetPassword](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/methods/writeprotection.setpassword)|
 |Protection Password (OOXML)|N/A| | |
-|Protected Sections|Yes| |- [Section.ProtectedForForms](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.section.protectedforforms)|
+|Protected Sections|Yes| |- [Section.ProtectedForForms](https://apireference.aspose.com/words/net/aspose.words/section/properties/protectedforforms)|
 |Protection Ranges|Planned|Currently protected ranges are lost upon import.| |
 |Read Only|Yes| |<p>- [Document.WriteProtection](https://apireference.aspose.com/words/net/aspose.words/document/properties/writeprotection)</p><p>- [WriteProtection.IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/writeprotection.iswriteprotected)</p>|
 ## **Settings**
@@ -90,7 +90,7 @@ See the following links in the documentation for further information:
 |Endnote Options|Yes| |- [Document.EndnoteOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/endnoteoptions)|
 |Footnote Options|Yes| |- [Document.FootnoteOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/footnoteoptions)|
 |Mail Merge Settings|Yes|You can modify all mail merge settings, as well as setting a new mail merge data source for the document to use.|- **Document.MailMergeSettings**|
-|Print Settings|Yes| |- [Section.PageSetup](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.section.pagesetup)|
+|Print Settings|Yes| |- [Section.PageSetup](https://apireference.aspose.com/words/net/aspose.words/section/properties/pagesetup)|
 |Show/Hide Settings|Yes| | |
 |View Settings|Yes| |- [Document.ViewOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/viewoptions)|
 |Web Settings|Yes| | |

@@ -1,8 +1,8 @@
 ---
-title: Footnotes an Endnote Features Supported on DOC Export
+title: Footnotes and Endnote Features Supported on DOC Export
 type: docs
 weight: 60
-url: /net/footnotes-an-endnote-features-supported-on-doc-export/
+url: /net/footnotes-and-endnote-features-supported-on-doc-export/
 ---
 
 {{% alert color="primary" %}} 

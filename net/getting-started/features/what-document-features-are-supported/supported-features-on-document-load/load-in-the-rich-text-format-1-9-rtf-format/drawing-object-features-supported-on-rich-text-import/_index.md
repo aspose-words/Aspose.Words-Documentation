@@ -74,7 +74,7 @@ See the following links in the documentation for further information:
 ##### **Textboxes**
 See the following link in the documentation for further information:
 
-- [Shape.TextBox]((https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/textbox)
+- [Shape.TextBox](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/textbox)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -132,7 +132,7 @@ Shapes which are linked to external resources such as images on the internet can
 
 See the following links in the documentation for further information:
 
-- [Shape](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.shape)
+- [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape)
 - [Shape.ShapeType](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/shapetype)
 - [Shape.IsTopLevel](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/istoplevel)
 
@@ -154,7 +154,7 @@ See the following links in the documentation for further information:
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/href)|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](/pages/createpage.action?spaceKey=wordsnet&title=How+to+Add+a+Watermark+to+a+Document&linkCreation=true&fromPageId=2595944)|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs.aspose.com/words/net/working-with-watermark/)|
 ##### **WordArt**
 WordArt is imported as a Shape object in Aspose.Words. This class provides properties to extract and modify properties of a WordArt object.
 
