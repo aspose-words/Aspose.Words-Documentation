@@ -59,7 +59,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.FontConfigSubstitution.Enabled = true;
       {{< /highlight >}}<br>
-   1. The next step uses a simple but powerful mechanism called Table substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the FontConfig substitution rule.
+   1. The next step uses a simple but powerful mechanism called Table substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the FontConfig substitution rule.<br>
       Aspose.Words uses XML tables, which define the basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.<br>
       **XML**<br>
       {{< highlight html >}}
