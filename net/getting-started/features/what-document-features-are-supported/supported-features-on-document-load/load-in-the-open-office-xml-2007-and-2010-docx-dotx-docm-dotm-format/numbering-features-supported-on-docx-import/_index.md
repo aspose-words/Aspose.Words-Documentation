@@ -45,7 +45,7 @@ See the following links in the documentation for further information:
 |Picture Bullet |Yes |Picture bullets are supported, however there is currently no way to set a new picture bullet for a list item. <br><br>Consider creating a list with the picture bullet first in the document using Microsoft Word and then apply this list to the required paragraphs. | |
 |Restart Level |Yes | |- [ListLevel.RestartAfterLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/restartafterlevel)|
 |Bullet Character |Yes | | |
-|Label/Format String |Yes | |- [ListLabel.LabelString](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.lists.listlabel.labelstring)|
+|Label/Format String |Yes | |- [ListLabel.LabelString](https://apireference.aspose.com/words/net/aspose.words.lists/listlabel/properties/labelstring)|
 |Number Format |Yes | |- [ListLevel.NumberFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/numberformat)|
 |Paragraph Properties |Yes | | |
 |Font Properties |Yes | |- [ListLevel.Font](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/font)|
