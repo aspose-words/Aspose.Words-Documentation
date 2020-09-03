@@ -22,7 +22,7 @@ See the following links in the documentation for further information:
 - [Loading, Saving and Converting](https://docs.aspose.com/words/net/loading-saving-and-converting/)
 - [Working with Document](/words/net/working-with-document/)
 - [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)
-- [Document](/https://apireference.aspose.com/words/net/aspose.words/document)
+- [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 
 [Jump to this location in the export section](/words/net/document-features-supported-on-doc-export/)
 
@@ -32,7 +32,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template |Yes |Attached template is used to reference styles and other settings through the use of a separate document template. <br><br>The link to this template is imported from the source document and can be found in the API as the Document.AttachedTemplate property. |- [Document.AttachedTemplate](https://apireference.aspose.com/words/net/aspose.words/document/properties/attachedtemplate)|
-|Built-In Properties |Yes |All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated. |<p>- [Document.BuiltInDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties) </p><p>- [Document.UpdatePageLayout](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatepagelayout) </p><p>- [Document.UpdateWordCount](/pages/createpage.action?spaceKey=wordsnet&title=UpdateWordCount+Method&linkCreation=true&fromPageId=2595917)</p>|
+|Built-In Properties |Yes |All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated. |<p>- [Document.BuiltInDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties) </p><p>- [Document.UpdatePageLayout](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatepagelayout) </p><p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)</p>|
 |Custom Properties |Yes |Custom Document Properties can be created, accessed and modified through the API. |- [Document.CustomDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/customdocumentproperties)|
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |Yes |Custom XML Parts can be accessed and modified in the DOM. <br><br>You can remove schemas linked to a part, however you cannot schemas in the document that are not referenced. <br><br>This feature will be supported in a future version. |- [Document.CustomXmlParts](https://apireference.aspose.com/words/net/aspose.words/document/properties/customxmlparts)|
