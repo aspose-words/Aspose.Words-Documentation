@@ -27,7 +27,7 @@ See the following links in the documentation for further information:
 - [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/listlabel)
 - [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/listlevels)
 
-[Jump to this location in the export section](/pages/createpage.action?spaceKey=wordsnet&title=Rtf+Export&linkCreation=true&fromPageId=2595952)
+[Jump to this location in the export section](https://docs.aspose.com/words/net/numbering-features-supported-on-rich-text-export/)
 
 {{% /alert %}} 
 ##### **Numbering Definition**
