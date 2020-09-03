@@ -8,7 +8,7 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-**![todo:image_alt_text](aspose_words-for-sharepoint.png)**
+**<img src="aspose_words-for-sharepoint.png" alt="todo:image_alt_text" style="zoom: 50%;" />**
 
 **Welcome to Aspose.Words for SharePoint**
 
@@ -16,7 +16,7 @@ Aspose.Words for SharePoint makes it possible to convert and combine word docume
 
 {{% /alert %}} 
 ## **Aspose.Words for SharePoint Resources**
-Following are the links to some useful resources you may need to accomplish your tasks.
+The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for SharePoint Online Documentation](/words/sharepoint/)
 - [Aspose.Words for SharePoint Features](/words/sharepoint/features/)

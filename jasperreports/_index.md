@@ -8,7 +8,7 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-**![todo:image_alt_text](aspose_words-for-jasperreports.png)**
+**<img src="aspose_words-for-jasperreports.png" alt="todo:image_alt_text" style="zoom:50%;" />**
 
 **Welcome to Aspose.Words for JasperReports**
 
@@ -16,7 +16,7 @@ Aspose.Words for JasperReports is the only known solution on the market that mak
 
 {{% /alert %}} 
 ## **Aspose.Words for JasperReports Resources**
-Following are the links to some useful resources you may need to accomplish your tasks.
+The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for JasperReports Online Documentation](/words/jasperreports/)
 - [Aspose.Words for JasperReports Features](/words/jasperreports/feature-tour/)
