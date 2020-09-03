@@ -91,15 +91,11 @@ using (SkiaSharp.SKBitmap bitmap = new SkiaSharp.SKBitmap(1000, 1000))
 }
 {{< /highlight >}}
 ## **Xamarin.Android Additional Requirements**
-1. To work properly Aspose.Words' Xamarin.Android API requires Encodings support. When you run your Xamarin.Android application in 'Release' mode, it is required to add additional supported Encodings. Note that in 'Debug' mode everything will work without these options.
-
+1. To work properly Aspose.Words' Xamarin.Android API requires Encodings support. When you run your Xamarin.Android application in 'Release' mode, it is required to add additional supported Encodings. Note that in 'Debug' mode everything will work without these options.<br>
 ![todo:image_alt_text](xamarin-and-net-standard-2-0-limitations-and-api-differences_1)
-
-
-
-1. If you would like to use Metered license, you need to allow your application internet access.
-
+1. If you would like to use Metered license, you need to allow your application internet access.<br>
 ![todo:image_alt_text](xamarin-and-net-standard-2-0-limitations-and-api-differences_2)
+
 ## **Xamarin.iOS Additional Requirements**
 1. To work properly Aspose.Words' Xamarin.iOS API requires Encodings support. When you run your Xamarin.iOS application it is required to add additional supported Encodings.
 
