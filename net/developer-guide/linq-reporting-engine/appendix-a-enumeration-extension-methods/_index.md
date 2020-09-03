@@ -29,75 +29,75 @@ public class Person
 
 |**Extension Method** |**Examples and Notes** |
 | :- | :- |
-|All(Predicate)|<p>{{< highlight csharp >}}
-p> persons.All(p => p.Age < 50)</p><p>{{< /highlight >}}</p>|
-|Any()|<p>{{< highlight csharp >}}
-p> persons.Any()</p><p>{{< /highlight >}}</p>|
-|Any(Predicate)|<p>{{< highlight csharp >}}
-p> persons.Any(p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
-|Average(Selector)|<p>{{< highlight csharp >}}
-p> persons.Average(p => p.Age)</p><p>{{< /highlight >}}</p><p>The input selector must return a value of any type that has predefined or user-defined addition and division operators. </p>|
-|Concat(IEnumerable)|<p>{{< highlight csharp >}}
-p> persons.Concat(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of concatenated enumerations. </p>|
-|Contains(Object)|<p>{{< highlight csharp >}}
-p> persons.Contains(otherPersons.First())</p><p>{{< /highlight >}}</p>|
-|Count()|<p>{{< highlight csharp >}}
-p> persons.Count()</p><p>{{< /highlight >}}</p>|
-|Count(Predicate)|<p>{{< highlight csharp >}}
-p> persons.Count(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
-|Distinct()|<p>{{< highlight csharp >}}
-p> persons.Distinct()</p><p>{{< /highlight >}}</p>|
-|First()|<p>{{< highlight csharp >}}
-p> persons.First()</p><p>{{< /highlight >}}</p>|
-|First(Predicate)|<p>{{< highlight csharp >}}
-p> persons.First(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
-|FirstOrDefault()|<p>{{< highlight csharp >}}
-p> persons.FirstOrDefault()</p><p>{{< /highlight >}}</p>|
-|FirstOrDefault(Predicate)|<p>{{< highlight csharp >}}
-p> persons.FirstOrDefault(p => p.Age > 30)</p><p>{{< /highlight >}}</p>|
-|GroupBy(Selector)|<p>{{< highlight csharp >}}
-p> persons.GroupBy(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or </p><p>{{< highlight csharp >}}
-p> persons.GroupBy(</p><p>    p => new</p><p>    {</p><p>        Age = p.Age,</p><p>        Count = p.Children.Count()</p><p>    })</p><p>{{< /highlight >}}</p><p>This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains. </p>|
-|Last()|<p>{{< highlight csharp >}}
-p> persons.Last()</p><p>{{< /highlight >}}</p>|
-|Last(Predicate)|<p>{{< highlight csharp >}}
-p> persons.Last(p => p.Age > 100)</p><p>{{< /highlight >}}</p>|
-|LastOrDefault()|<p>{{< highlight csharp >}}
-p> persons.LastOrDefault()</p><p>{{< /highlight >}}</p>|
-|LastOrDefault(Predicate)|<p>{{< highlight csharp >}}
-p> persons.LastOrDefault(p => p.Age > 100)</p><p>{{< /highlight >}}</p>|
-|Max(ComparableSelector)|<p>{{< highlight csharp >}}
-p> persons.Max(p => p.Age)</p><p>{{< /highlight >}}</p>|
-|Min(ComparableSelector)|<p>{{< highlight csharp >}}
-p> persons.Min(p => p.Age)</p><p>{{< /highlight >}}</p>|
-|OrderBy(ComparableSelector)|<p>{{< highlight csharp >}}
-p> persons.OrderBy(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or </p><p>{{< highlight csharp >}}
-p> persons.OrderBy(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>{{< /highlight >}}</p><p>Or </p><p>{{< highlight csharp >}}
-p> persons.OrderBy(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>    .ThenBy(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:</p><p>- ThenBy(ComparableSelector)</p><p>- ThenByDescending(ComparableSelector)</p>|
-|OrderByDescending(ComparableSelector)|<p>{{< highlight csharp >}}
-p> persons.OrderByDescending(p => p.Age)</p><p>{{< /highlight >}}</p><p>Or </p><p>{{< highlight csharp >}}
-p> persons.OrderByDescending(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>{{< /highlight >}}</p><p>Or </p><p>{{< highlight csharp >}}
-p> persons.OrderByDescending(p => p.Age)</p><p>    .ThenByDescending(p => p.Name)</p><p>    .ThenBy(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>See the previous note. </p>|
-|Single()|<p>{{< highlight csharp >}}
-p> persons.Single()</p><p>{{< /highlight >}}</p>|
-|Single(Predicate)|<p>{{< highlight csharp >}}
-p> persons.Single(</p><p>    p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
-|SingleOrDefault()|<p>{{< highlight csharp >}}
-p> persons.SingleOrDefault()</p><p>{{< /highlight >}}</p>|
-|SingleOrDefault(Predicate)|<p>{{< highlight csharp >}}
-p> persons.SingleOrDefault(</p><p>    p => p.Name == "John Smith")</p><p>{{< /highlight >}}</p>|
-|Skip(int)|<p>{{< highlight csharp >}}
-p> persons.Skip(10)</p><p>{{< /highlight >}}</p>|
-|SkipWhile(Predicate)|<p>{{< highlight csharp >}}
-p> persons.SkipWhile(p => p.Age < 21)</p><p>{{< /highlight >}}</p>|
-|Sum(Selector)|<p>{{< highlight csharp >}}
-p> persons.Sum(p => p.Children.Count())</p><p>{{< /highlight >}}</p><p>The input selector must return a value of any type that has a predefined or user-defined addition operator. </p>|
-|Take(int)|<p>{{< highlight csharp >}}
-p> persons.Take(5)</p><p>{{< /highlight >}}</p>|
-|TakeWhile(Predicate)|<p>{{< highlight csharp >}}
-p> persons.TakeWhile(p => p.Age < 50)</p><p>{{< /highlight >}}</p>|
-|Union(IEnumerable)|<p>{{< highlight csharp >}}
-p> persons.Union(otherPersons)</p><p>{{< /highlight >}}</p><p>An implicit reference conversion must exist between types of items of united enumerations. </p>|
-|Where(Predicate)|<p>{{< highlight csharp >}}
-p> persons.Where(p => p.Age > 18)</p><p>{{< /highlight >}}</p>|
+|All(Predicate)|{{< highlight csharp >}}
+p> persons.All(p => p.Age < 50){{< /highlight >}}|
+|Any()|{{< highlight csharp >}}
+p> persons.Any(){{< /highlight >}}|
+|Any(Predicate)|{{< highlight csharp >}}
+p> persons.Any(p => p.Name == "John Smith"){{< /highlight >}}|
+|Average(Selector)|{{< highlight csharp >}}
+p> persons.Average(p => p.Age){{< /highlight >}}The input selector must return a value of any type that has predefined or user-defined addition and division operators. |
+|Concat(IEnumerable)|{{< highlight csharp >}}
+p> persons.Concat(otherPersons){{< /highlight >}}An implicit reference conversion must exist between types of items of concatenated enumerations. |
+|Contains(Object)|{{< highlight csharp >}}
+p> persons.Contains(otherPersons.First()){{< /highlight >}}|
+|Count()|{{< highlight csharp >}}
+p> persons.Count(){{< /highlight >}}|
+|Count(Predicate)|{{< highlight csharp >}}
+p> persons.Count(p => p.Age > 30){{< /highlight >}}|
+|Distinct()|{{< highlight csharp >}}
+p> persons.Distinct(){{< /highlight >}}|
+|First()|{{< highlight csharp >}}
+p> persons.First(){{< /highlight >}}|
+|First(Predicate)|{{< highlight csharp >}}
+p> persons.First(p => p.Age > 30){{< /highlight >}}|
+|FirstOrDefault()|{{< highlight csharp >}}
+p> persons.FirstOrDefault(){{< /highlight >}}|
+|FirstOrDefault(Predicate)|{{< highlight csharp >}}
+p> persons.FirstOrDefault(p => p.Age > 30){{< /highlight >}}|
+|GroupBy(Selector)|{{< highlight csharp >}}
+p> persons.GroupBy(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
+p> persons.GroupBy(    p => new    {        Age = p.Age,        Count = p.Children.Count()    }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains. |
+|Last()|{{< highlight csharp >}}
+p> persons.Last(){{< /highlight >}}|
+|Last(Predicate)|{{< highlight csharp >}}
+p> persons.Last(p => p.Age > 100){{< /highlight >}}|
+|LastOrDefault()|{{< highlight csharp >}}
+p> persons.LastOrDefault(){{< /highlight >}}|
+|LastOrDefault(Predicate)|{{< highlight csharp >}}
+p> persons.LastOrDefault(p => p.Age > 100){{< /highlight >}}|
+|Max(ComparableSelector)|{{< highlight csharp >}}
+p> persons.Max(p => p.Age){{< /highlight >}}|
+|Min(ComparableSelector)|{{< highlight csharp >}}
+p> persons.Min(p => p.Age){{< /highlight >}}|
+|OrderBy(ComparableSelector)|{{< highlight csharp >}}
+p> persons.OrderBy(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
+p> persons.OrderBy(p => p.Age)    .ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
+p> persons.OrderBy(p => p.Age)    .ThenByDescending(p => p.Name)    .ThenBy(p => p.Children.Count()){{< /highlight >}}This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:- ThenBy(ComparableSelector)- ThenByDescending(ComparableSelector)|
+|OrderByDescending(ComparableSelector)|{{< highlight csharp >}}
+p> persons.OrderByDescending(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
+p> persons.OrderByDescending(p => p.Age)    .ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
+p> persons.OrderByDescending(p => p.Age)    .ThenByDescending(p => p.Name)    .ThenBy(p => p.Children.Count()){{< /highlight >}}See the previous note. |
+|Single()|{{< highlight csharp >}}
+p> persons.Single(){{< /highlight >}}|
+|Single(Predicate)|{{< highlight csharp >}}
+p> persons.Single(    p => p.Name == "John Smith"){{< /highlight >}}|
+|SingleOrDefault()|{{< highlight csharp >}}
+p> persons.SingleOrDefault(){{< /highlight >}}|
+|SingleOrDefault(Predicate)|{{< highlight csharp >}}
+p> persons.SingleOrDefault(    p => p.Name == "John Smith"){{< /highlight >}}|
+|Skip(int)|{{< highlight csharp >}}
+p> persons.Skip(10){{< /highlight >}}|
+|SkipWhile(Predicate)|{{< highlight csharp >}}
+p> persons.SkipWhile(p => p.Age < 21){{< /highlight >}}|
+|Sum(Selector)|{{< highlight csharp >}}
+p> persons.Sum(p => p.Children.Count()){{< /highlight >}}The input selector must return a value of any type that has a predefined or user-defined addition operator. |
+|Take(int)|{{< highlight csharp >}}
+p> persons.Take(5){{< /highlight >}}|
+|TakeWhile(Predicate)|{{< highlight csharp >}}
+p> persons.TakeWhile(p => p.Age < 50){{< /highlight >}}|
+|Union(IEnumerable)|{{< highlight csharp >}}
+p> persons.Union(otherPersons){{< /highlight >}}An implicit reference conversion must exist between types of items of united enumerations. |
+|Where(Predicate)|{{< highlight csharp >}}
+p> persons.Where(p => p.Age > 18){{< /highlight >}}|
 {{% /alert %}}
