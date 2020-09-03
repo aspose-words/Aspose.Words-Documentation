@@ -245,7 +245,7 @@ See the following link in the documentation for further information:
 |No Fill |Yes | |- [Shape.Filled](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/filled)|
 |Solid Fill |Yes | |- **Shape.FillColor**|
 |Gradient Fill |Yes |There is currently no API for accessing or modifying the graident fill of a shape. | |
-|Pattern Fill |Yes |The raw bytes of the Pattern fill can be extracted only. A new pattern can not be set. |- [Fill.ImageBytes](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.drawing.fill.imagebytes)|
+|Pattern Fill |Yes |The raw bytes of the Pattern fill can be extracted only. A new pattern can not be set. |- [Fill.ImageBytes](https://apireference.aspose.com/words/net/aspose.words.drawing/fill/properties/imagebytes)|
 |Picture or Texture Fill |Yes |The raw bytes of the Texture fill can be extracted only. A new texture or image can not be set. |- **Fill.ImageBytes**|
 
 ##### **Line Style**
