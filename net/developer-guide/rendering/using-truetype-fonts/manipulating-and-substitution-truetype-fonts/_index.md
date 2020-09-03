@@ -56,56 +56,56 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
    1. Aspose.Words will attempt to apply OS font settings, if they are available, by using the FontConfig utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
       Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the FontConfig utility is disabled. You can enable it as follows:<br>
       **.NET**<br>
-{{< highlight csharp >}}
-fontSettings.SubstitutionSettings.FontConfigSubstitution.Enabled = true;
-{{< /highlight >}}<br>
+      {{< highlight csharp >}}
+      fontSettings.SubstitutionSettings.FontConfigSubstitution.Enabled = true;
+      {{< /highlight >}}<br>
    1. The next step uses a simple but powerful mechanism called Table substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the FontConfig substitution rule.
       Aspose.Words uses XML tables, which define the basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.<br>
       **XML**<br>
-{{< highlight html >}}
-<TableSubstitutionSettings xmlns="Aspose.Words"> 
-	<SubstitutesTable> 
+      {{< highlight html >}}
+      <TableSubstitutionSettings xmlns="Aspose.Words"> 
+      	<SubstitutesTable> 
 		<Item OriginalFont="Arabic Transparent" SubstituteFonts="Arial" /> 
 		… 
 	</SubstitutesTable> 
-</TableSubstitutionSettings>
-{{< /highlight >}}<br>
+      </TableSubstitutionSettings>
+      {{< /highlight >}}<br>
       The main feature of this rule is the ability to load your own substitution tables, as it is shown in the following example:<br>
       **.NET**<br>
-{{< highlight csharp >}}
-fontSettings.SubstitutionSettings.TableSubstitution.Load("Table.xml");
-{{< /highlight >}}<br>
+      {{< highlight csharp >}}
+      fontSettings.SubstitutionSettings.TableSubstitution.Load("Table.xml");
+      {{< /highlight >}}<br>
       Despite flexibility of this mechanism, there are some cases when it is better to disable it, as shown below:<br>
       **.NET**<br>
-{{< highlight csharp >}}
-fontSettings.SubstitutionSettings.TableSubstitution.Enabled = false;
-{{< /highlight >}}<br>
+      {{< highlight csharp >}}
+      fontSettings.SubstitutionSettings.TableSubstitution.Enabled = false;
+      {{< /highlight >}}<br>
    1. The **FontInfo** substitution rule will be applied if the table substitution rule cannot find the font. This mechanism is enabled by default. Aspose.Words finds the most suitable font according to the font information contained in a particular document. This information can be obtained from the **FontInfo** class as shown below:<br>
       **.NET**<br>
-{{< highlight csharp >}}
-FontInfoCollection fontInfos = doc.FontInfos;
-{{< /highlight >}}<br>
+      {{< highlight csharp >}}
+      FontInfoCollection fontInfos = doc.FontInfos;
+      {{< /highlight >}}<br>
       Users cannot interfere in the workflow of this feature, unless they decide to disable it in case of unsatisfactory results:<br>
       **.NET**<br>
-{{< highlight csharp >}}
-      fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
-{{< /highlight >}}<br>
+      {{< highlight csharp >}}
+            fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
+      {{< /highlight >}}<br>
       If **FontInfo** is not available for the missing font, then the process stops.<br>
    1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://apireference.aspose.com/net/words/aspose.words.fonts/defaultfontsubstitutionrule/properties/defaultfontname) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
       **.NET**<br>
-{{< highlight csharp >}}
-fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
-{{< /highlight >}}<br>
+      {{< highlight csharp >}}
+      fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
+      {{< /highlight >}}<br>
       To check the current default font, use:<br>
       **.NET**<br>
-{{< highlight csharp >}}
-fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName;
-{{< /highlight >}}<br>
+      {{< highlight csharp >}}
+      fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName;
+      {{< /highlight >}}<br>
       To set up your own replacement option, apply:<br>
       **.NET**<br>
-{{< highlight csharp >}}
-fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
-{{< /highlight >}}<br>
+      {{< highlight csharp >}}
+      fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
+      {{< /highlight >}}<br>
 1. If Aspose.Words is unable to perform the font substitution, it tries to get the first available font from available font sources.
 1. Finally, if Aspose.Words cannot find any fonts among the available font sources, it renders the document using the free Fanwood font that is embedded into the Aspose.Words assembly.<br>
 
