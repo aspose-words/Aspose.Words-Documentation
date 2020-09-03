@@ -90,7 +90,7 @@ Form fields are fully supported by Aspose.Words. See the following links in the
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|TextInput|Yes| |<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](textinputformat)</p>|
+|TextInput|Yes| |<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
 |CheckBox|Yes| |- **FormField.Type**|
 |DropDown|Yes| |<p>- [FormField.DropDownItems](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems)</p><p>- [FormField.DropDownSelectedIndex](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|
 |Calc On Exit|Yes| |- [FormField.CalculateOnExit](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/calculateonexit)|

@@ -41,7 +41,7 @@ See the following links in the documentation for further information:
 |Paragraph Style |Yes |Imported from "class" attribute on HTML paragraph elements. |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |Character Style |Yes |Imported from "class" attribute on span elements. |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |List Style |Planned | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
-|Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/StyleType)</p>|
+|Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/StyleType)</p>|
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
