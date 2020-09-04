@@ -13,8 +13,6 @@ See the following link in the documentation for further information:
 
 - [HtmlSaveOptions.EpubNavigationMapLevel](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/epubnavigationmaplevel)
 
-[Jump to this location in the import section](/words/net/paragraph-features-supported-on-epub-import/)
-
 {{% /alert %}} 
 ##### **General Formatting**
 There is a setting to export paragraph styles and formatting as inline CSS (style) only, or as a mix of inline and embedded or linked CSS style sheet (class). 
@@ -37,7 +35,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Left Indent |Yes |Exported as "margin-left" on style attribute. |- [HtmlSaveOptions.AllowNegativeLeftIndent](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.allownegativeleftindent.html)|
+|Left Indent |Yes |Exported as "margin-left" on style attribute. | |
 |Right Indent |Yes |Exported as "margin-right" on style attribute. | |
 |First Line Indent |Yes |Exported as "text-indent" on style attribute. | |
 |Hanging Indent |Yes |Exported as a combination of "margin-left" and "text-indent" on style. | |
