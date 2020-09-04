@@ -56,7 +56,7 @@ The diagrams below outline the old API members and their corresponding new API m
 #### **Code Examples**
 Sample implementations of the new code members are presented below.
 ##### **Document Constructors**
-The parameters passed to the constructors of the [Document](/pages/createpage.action?spaceKey=wordsnet&title=Document+Class&linkCreation=true&fromPageId=2589111) class from previous versions used to define the password and baseUri strings have now been integrated into the [LoadOptions](/pages/createpage.action?spaceKey=wordsnet&title=LoadOptions+Class&linkCreation=true&fromPageId=2589111) class. This object is passed to the [Document](/pages/createpage.action?spaceKey=wordsnet&title=Document+Class&linkCreation=true&fromPageId=2589111) constructors accepting a **LoadOptions** object to specify these settings when loading a document. 
+The parameters passed to the constructors of the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class from previous versions used to define the password and baseUri strings have now been integrated into the [LoadOptions](https://apireference.aspose.com/words/net/aspose.words/loadoptions) class. This object is passed to the [Document](https://apireference.aspose.com/words/net/aspose.words/document) constructors accepting a **LoadOptions** object to specify these settings when loading a document. 
 ##### **Example**
 *Opens an HTML document with images from a stream using a base URI.* 
 
@@ -120,7 +120,7 @@ stream.Close()
 doc.Save(MyDir & "Document.OpenFromStreamWithBaseUri Out.doc")
 {{< /highlight >}}
 ##### **Detecting File Format**
-Retrieving the file format and properties of the document has been moved to a new utility class [FileFormatUtil](/pages/createpage.action?spaceKey=wordsnet&title=FileFormatUtil+Class&linkCreation=true&fromPageId=2589111) . The [FileFormatUtil.DetectFileFormat](/pages/createpage.action?spaceKey=wordsnet&title=Detectfileformat+Method&linkCreation=true&fromPageId=2589111) method accepts a file path as a string or stream object containing the loaded **Document** . An object of the [FileFormatInfo](/pages/createpage.action?spaceKey=wordsnet&title=FileFormatInfo+Class&linkCreation=true&fromPageId=2589111) class is returned which provides information such as the [LoadFormat](/pages/createpage.action?spaceKey=wordsnet&title=LoadFormat+Class&linkCreation=true&fromPageId=2589111) of the document and its encryption status. 
+Retrieving the file format and properties of the document has been moved to a new utility class [FileFormatUtil](https://apireference.aspose.com/words/net/aspose.words/fileformatutil) . The [FileFormatUtil.DetectFileFormat](https://apireference.aspose.com/words/net/aspose.words/fileformatutil/methods/detectfileformat/index) method accepts a file path as a string or stream object containing the loaded **Document** . An object of the [FileFormatInfo](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo) class is returned which provides information such as the [LoadFormat](https://apireference.aspose.com/words/net/aspose.words/loadformat) of the document and its encryption status. 
 ##### **Example**
 *Shows how to use the FileFormatUtil class to detect the document format and other features of the document.* 
 
@@ -142,9 +142,9 @@ Console.WriteLine("Document is encrypted: " & info.IsEncrypted)
 Console.WriteLine("Document has a digital signature: " & info.HasDigitalSignature)
 {{< /highlight >}}
 ##### **Saving To Different Formats**
-The **Document.SaveToXXX** methods such as **Document.SaveToPdf** , **Document.SaveToXps** and **Document.SaveToImage** have been simplified and are now called through the single [Document.Save](/pages/createpage.action?spaceKey=wordsnet&title=Save+Method&linkCreation=true&fromPageId=2589111) method overloads. 
+The **Document.SaveToXXX** methods such as **Document.SaveToPdf** , **Document.SaveToXps** and **Document.SaveToImage** have been simplified and are now called through the single [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method overloads. 
 
-The option classes passed to the **Document.Save** method for each format have been simplified as part of the move to the Unified Framework pattern. All the different types of option classes such as [PdfSaveOptions](/pages/createpage.action?spaceKey=wordsnet&title=PdfSaveOptions+Class&linkCreation=true&fromPageId=2589111) and [XpsSaveOptions](/pages/createpage.action?spaceKey=wordsnet&title=XpsSaveOptions+Class&linkCreation=true&fromPageId=2589111) are now derived from the base class [SaveOptions](/pages/createpage.action?spaceKey=wordsnet&title=SaveOptions+Class&linkCreation=true&fromPageId=2589111) and inherit its members. This means that any of these derived classes can be passed to an overload which accepts a **SaveOptions** object. 
+The option classes passed to the **Document.Save** method for each format have been simplified as part of the move to the Unified Framework pattern. All the different types of option classes such as [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions) and [XpsSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/xpssaveoptions) are now derived from the base class [SaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions) and inherit its members. This means that any of these derived classes can be passed to an overload which accepts a **SaveOptions** object. 
 ##### **Example**
 *Shows how to save a document to the PDF format using the Save method and the PdfSaveOptions class.* 
 
@@ -300,12 +300,12 @@ imageOptions.JpegQuality = 80
 doc.Save(MyDir & "Rendering.JpegCustomOptions Out.jpg", imageOptions)
 {{< /highlight >}}
 ##### **Saving the Document to Browser**
-The method signature and the enumeration values passed to the **Document.Save** overload to save the document to the browser has been refactored as part of the move to the Unified Framework pattern. Now instead of accepting an object of **SaveType** and [SaveFormat](/pages/createpage.action?spaceKey=wordsnet&title=SaveFormat+Class&linkCreation=true&fromPageId=2589111) , the method accepts an object of [ContentDisposition](/pages/createpage.action?spaceKey=wordsnet&title=ContentDisposition+Class&linkCreation=true&fromPageId=2589111) and **SaveOptions** . 
+The method signature and the enumeration values passed to the **Document.Save** overload to save the document to the browser has been refactored as part of the move to the Unified Framework pattern. Now instead of accepting an object of **SaveType** and [SaveFormat](https://apireference.aspose.com/words/net/aspose.words/saveformat) , the method accepts an object of [ContentDisposition](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) and **SaveOptions** . 
 
 The **SaveType** enumeration has changed to the **ContentDisposition** enumeration and the values changed as: 
 
-- **SaveType.OpenInBrowser** has become [ContentDisposition.Inline](/pages/createpage.action?spaceKey=wordsnet&title=ContentDisposition+Class&linkCreation=true&fromPageId=2589111) . 
-- **SaveType.OpenInApplicaiton** has become [ContentDisposition.Attachment](/pages/createpage.action?spaceKey=wordsnet&title=ContentDisposition+Class&linkCreation=true&fromPageId=2589111) . 
+- **SaveType.OpenInBrowser** has become [ContentDisposition.Inline](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) . 
+- **SaveType.OpenInApplicaiton** has become [ContentDisposition.Attachment](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) . 
 ##### **Example**
 *Performs a simple insertion of data into merge fields and sends the document to the browser inline.* 
 
@@ -336,11 +336,11 @@ doc.MailMerge.Execute(New String() {"FullName", "Company", "Address", "Address2"
 doc.Save(Response, "MailMerge.ExecuteArray Out.doc", ContentDisposition.Inline, Nothing)
 {{< /highlight >}}
 ##### **Document Save Options**
-The options defined in the **Document.SaveOptions** property from previous versions has been split into separate classes to which the members belong. For example the **SaveOptions.HtmlExportImagesFolder** has moved to the [HtmlSaveOptions.ImagesFolder](/pages/createpage.action?spaceKey=wordsnet&title=ImagesFolder+Property&linkCreation=true&fromPageId=2589111) property of the [HtmlSaveOptions](/pages/createpage.action?spaceKey=wordsnet&title=HtmlSaveOptions+Class&linkCreation=true&fromPageId=2589111) class. Similarly the **SaveOptions.TxtExportHeadersFooters** has moved to [TxtSaveOptions.ExportHeadersFooters](/pages/createpage.action?spaceKey=wordsnet&title=ExportHeadersFooters+Property&linkCreation=true&fromPageId=2589111) property of the [TxtSaveOptions](/pages/createpage.action?spaceKey=wordsnet&title=TxtSaveOptions+Class&linkCreation=true&fromPageId=2589111) class. These objects are passed to the **Document.Save** method as a parameter. 
+The options defined in the **Document.SaveOptions** property from previous versions has been split into separate classes to which the members belong. For example the **SaveOptions.HtmlExportImagesFolder** has moved to the [HtmlSaveOptions.ImagesFolder](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/imagesfolder) property of the [HtmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions) class. Similarly the **SaveOptions.TxtExportHeadersFooters** has moved to [TxtSaveOptions.ExportHeadersFooters](https://apireference.aspose.com/words/net/aspose.words.saving/txtsaveoptionsbase/properties/exportheadersfootersmode) property of the [TxtSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/txtsaveoptions) class. These objects are passed to the **Document.Save** method as a parameter. 
 
 The names of the properties have also been simplified in the move towards using the Unified Framework pattern. 
 
-There are also new members in the [FontSettings](/pages/createpage.action?spaceKey=wordsnet&title=FontSettings+Class&linkCreation=true&fromPageId=2589111) to specify multiple font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](/pages/createpage.action?spaceKey=wordsnet&title=How+to++Specify+True+Type+Fonts+Location&linkCreation=true&fromPageId=2589111) article. 
+There are also new members in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) to specify multiple font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) article. 
 ##### **Replacing Events and Delegates with Callbacks and Interfaces**
 To facilitate automatic porting of code from the .NET platform to the Java platform events and delegates have been replaced with callbacks and interfaces. Examples of how to modify each event to use the appropriate interface in your code are described below. 
 
@@ -348,7 +348,7 @@ The quickest method to implement the new interfaces is to wrap your existing del
 
 For those interfaces that require implementation of more than one method, you can choose to leave the unused methods empty. 
 
-Note that the names of the arguments passed to the handler methods have been simplified for consistently, for example **MergeFieldEventArgs** has become [FieldMergingArgs](/pages/createpage.action?spaceKey=wordsnet&title=FieldMergingArgs+Class&linkCreation=true&fromPageId=2589111) . 
+Note that the names of the arguments passed to the handler methods have been simplified for consistently, for example **MergeFieldEventArgs** has become [FieldMergingArgs](https://apireference.aspose.com/words/net/aspose.words.mailmerging/fieldmergingargs) . 
 ##### **Implementing the IFieldMergingCallback Interface**
 ##### **Example**
 *Demonstrates how to use the InsertDocument method to insert a document into a merge field during mail merge.* 
@@ -693,7 +693,7 @@ End Class
 #### **Demonstration Videos**
 Additionally, a few short videos providing a visual walk through of how to change some code members are available to download from the resources page [here](http://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1242.aspx). These videos show how to:
 
-- Change the old **MailMerge.MergeField** event and the **MergeFieldEventHanlder** delegate to the new [MailMerge.FieldMergingCallback](/pages/createpage.action?spaceKey=wordsnet&title=FieldMergingCallback+Property&linkCreation=true&fromPageId=2589111) property and [IFieldMergingCallback](/pages/createpage.action?spaceKey=wordsnet&title=IFieldMergingCallback+Class&linkCreation=true&fromPageId=2589111) interface. 
+- Change the old **MailMerge.MergeField** event and the **MergeFieldEventHanlder** delegate to the new [MailMerge.FieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/fieldmergingcallback) property and [IFieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/ifieldmergingcallback) interface. 
 - Change the old **Document.SaveOptions** property to use the new **HtmlSaveOptions** class. 
 
 These videos can be viewed immediately in any browser which supports displaying Flash content. 
@@ -704,6 +704,6 @@ This method is replaced by direct conversion to PDF, which is invoked by calling
 
 To save a document in the PDF format you can call the many overloads of the **Document.Save** method, for example: 
 
-- Passing a file name in a string with the file extension “.pdf” to the [Document.Save](/pages/createpage.action?spaceKey=wordsnet&title=Save+Method&linkCreation=true&fromPageId=2589111) method. The **Document.Save** method will automatically infer the **SaveFormat** from this extension. 
-- Passing the [SaveFormat.Pdf](/pages/createpage.action?spaceKey=wordsnet&title=SaveFormat+Class&linkCreation=true&fromPageId=2589111) enumeration to one of the overloads accepting a **SaveFormat** enumeration. For example this is used when calling the [Document.Save](/pages/createpage.action?spaceKey=wordsnet&title=Save+Overload_3&linkCreation=true&fromPageId=2589111) method to save the document to a stream. In this case you are required to specify the **SaveFormat** as **SaveFormat.Pdf** explicitly. 
-- Defining custom options which control how the PDF is rendered. This is done by creating an object of the **PdfSaveOptions** class and passing it to an overload method which accepts any object inherited from the **SaveOptions** class. For example, passing an instance of the **PdfSaveOptions** class to the [Document.Save](/pages/createpage.action?spaceKey=wordsnet&title=Save+Overload_4&linkCreation=true&fromPageId=2589111) method will save the document in the PDF format with the defined options. When passing an instance of **PdfSaveOptions** to the method, the document will automatically be saved in the PDF format regardless of any file extension passed to the method in the file name. 
+- Passing a file name in a string with the file extension “.pdf” to the [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method. The **Document.Save** method will automatically infer the **SaveFormat** from this extension. 
+- Passing the [SaveFormat.Pdf](https://apireference.aspose.com/words/net/aspose.words/saveformat) enumeration to one of the overloads accepting a **SaveFormat** enumeration. For example this is used when calling the [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method to save the document to a stream. In this case you are required to specify the **SaveFormat** as **SaveFormat.Pdf** explicitly. 
+- Defining custom options which control how the PDF is rendered. This is done by creating an object of the **PdfSaveOptions** class and passing it to an overload method which accepts any object inherited from the **SaveOptions** class. For example, passing an instance of the **PdfSaveOptions** class to the [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method will save the document in the PDF format with the defined options. When passing an instance of **PdfSaveOptions** to the method, the document will automatically be saved in the PDF format regardless of any file extension passed to the method in the file name. 
