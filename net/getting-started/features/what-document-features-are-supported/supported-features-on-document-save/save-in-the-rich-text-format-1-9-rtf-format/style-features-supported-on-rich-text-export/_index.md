@@ -7,7 +7,7 @@ url: /net/style-features-supported-on-rich-text-export/
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](words/net/style-features-supported-on-rich-text-import/)
+[Jump to this location in the import section](https://docs.aspose.com/words/net/style-features-supported-on-rich-text-import)
 
 {{% /alert %}} 
 ##### **Style Type**
