@@ -15,8 +15,6 @@ Currently images are only exported as absolute size (points) and not in percent.
 
 This feature will be supported in the future.
 
-[Jump to this location in the import section](/words/net/drawing-object-features-supported-on-epub-import/)
-
 {{% /alert %}} 
 ##### **Images**
 All images are exported as the same format that they were originally loaded as.
