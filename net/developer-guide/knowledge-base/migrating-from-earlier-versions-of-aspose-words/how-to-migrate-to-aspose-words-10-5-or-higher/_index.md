@@ -19,7 +19,7 @@ The new API boasts impressive new features with working for tables as well as so
 | :- | :- | :- | :- |
 |**RowFormat.AllowAutoFit** |*False* |*True* |This was changed to be in line with the default formatting in Microsoft Word and is needed in order to automatically resize columns. |
 |**RowFormat.LeftPadding** **RowFormat.RightPadding** |*0.0* |*5.4* |Left and right padding was added to be the same as default table formatting in Microsoft Word. |
-|**CellFormat.Width** |*72.0* |*0.0* |The size of a cell or column is now mostly calculated from its preferred width. Now a value [CellFormat.Width](/pages/createpage.action?spaceKey=wordsnet&title=Width+Property&linkCreation=true&fromPageId=2589114) value of 0.0 means that Aspose.Words updates the appropriate width when the document is saved from such properties.<br>For more information see Specifying Table and Cell Widths.<br>If no preferred width is set for table or cell and allowing auto fit is set to false then the [CellFormat.Width](/pages/createpage.action?spaceKey=wordsnet&title=Width+Property&linkCreation=true&fromPageId=2589114) property is still used. |
+|**CellFormat.Width** |*72.0* |*0.0* |The size of a cell or column is now mostly calculated from its preferred width. Now a value [CellFormat.Width](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) value of 0.0 means that Aspose.Words updates the appropriate width when the document is saved from such properties.<br>For more information see Specifying Table and Cell Widths.<br>If no preferred width is set for table or cell and allowing auto fit is set to false then the [CellFormat.Width](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) property is still used. |
 |**RowFormat.Borders** |*None* |*Single, 2.5pt borders around* |Borders are now added to match default border formatting in Microsoft Word. |
 |**Table.PreferredWidth** |*(N/A)* |*100%* |Table preferred width has been made public and can now be used to control the width of the table as a whole.By default the table is applied with “AutoFit to Window” which is a table preferred width of 100%. |
 |**CellFormat.PreferredWidth** |*(N/A)* |*Auto* |Cell preferred width has been made public and is used to control the width of individual cells.By default each cell is automatically sized based on the other width information of the table. |
@@ -31,7 +31,7 @@ Most tables that are generated programmatically will be affected by the changes 
 
 Aspose.Words now by default auto fits a table to the page width and enables allow auto fitting to contents. Both of these properties together ignore any fixed column widths that are set by code. In previous versions tables would use this property to specify the width of each cell. If this property was not set (a value of 0.0) then a fixed width of 72 points was used. 
 
-To fix your code so that fixed widths are used as in previous versions, you need to specify that you want to use fixed column widths by calling the [Table.AutoFit](/pages/createpage.action?spaceKey=wordsnet&title=AutoFit+Method&linkCreation=true&fromPageId=2589114) method with the [AutoFitBehavior.FixedColumnWidths](/pages/createpage.action?spaceKey=wordsnet&title=AutoFitBehavior+Class&linkCreation=true&fromPageId=2589114) enumeration. This will build the table based off the widths set on each cell instead of fitting the table to the window. 
+To fix your code so that fixed widths are used as in previous versions, you need to specify that you want to use fixed column widths by calling the [Table.AutoFit](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/autofit) method with the [AutoFitBehavior.FixedColumnWidths](https://apireference.aspose.com/words/net/aspose.words.tables/autofitbehavior) enumeration. This will build the table based off the widths set on each cell instead of fitting the table to the window. 
 ##### **Example**
 *Shows how to revert the default behaviour of table sizing to use column widths.* 
 
@@ -76,11 +76,11 @@ table.AutoFit(AutoFitBehavior.FixedColumnWidths)
 
 On the other hand, if you were previously attempting to fit a table to the page width by using the following code, you can now remove this as tables are fit to the window by default.
 
-Furthermore if you were constructing your tables in complex ways e.g each columns proportionally or fitting to contents you may be able to now simplify your code. For further information see [How-To: Apply Different AutoFit Settings to a Table](/pages/createpage.action?spaceKey=wordsnet&title=How+to++Apply+Different+AutoFit+Settings+to+a+Table&linkCreation=true&fromPageId=2589114) and [Specifying Table and Cell Widths](/pages/createpage.action?spaceKey=wordsnet&title=Specifying+Table+and+Cell+Widths&linkCreation=true&fromPageId=2589114) . 
+Furthermore if you were constructing your tables in complex ways e.g each columns proportionally or fitting to contents you may be able to now simplify your code. For further information see [How-To: Apply Different AutoFit Settings to a Table](https://docs.aspose.com/words/net/applying-formatting/#allowing-autofit) and [Specifying Table and Cell Widths](https://docs.aspose.com/words/net/applying-formatting/#specifying-table-and-cell-widths) . 
 ##### **Fixing Table Borders**
 In older versions by default tables were not created with any borders. If you have tables that are built without any borders applied you will now find that such a table has a single outline border is added to tables in the new version. 
 
-To fix this in the new version you need to specify that tables should not have any borders applied by using [Table.ClearBorders](/pages/createpage.action?spaceKey=wordsnet&title=ClearBorders+Method&linkCreation=true&fromPageId=2589114) . 
+To fix this in the new version you need to specify that tables should not have any borders applied by using [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/clearborders) . 
 ##### **Example**
 *Shows how to revert the default borders on tables back to no border lines.* 
 
@@ -216,7 +216,7 @@ builder.RowFormat.HeadingFormat = False
 #### **Appearance of Tables Differs when Rendering to a Fixed Page Format**
 At the moment there may be a some differences in how tables appear when saving to a flow based format (e.g DOC, DOCX, RTF) and rendering to a fixed page format (e.g PDF, XPS, SWF etc). The tables in the rendered format may appear different or may extend outside the page.
 
-Such occurrences are recognized as temporary bugs and will be fixed in future releases. However you should submit such bugs to the Aspose.Words support forum to ensure that the particular problem is fixed. In the mean time you can attempt to work around the issue by calling the [Document.UpdateTableLayout](/pages/createpage.action?spaceKey=wordsnet&title=UpdateTableLayout+Method&linkCreation=true&fromPageId=2589114) method before saving the document. 
+Such occurrences are recognized as temporary bugs and will be fixed in future releases. However you should submit such bugs to the Aspose.Words support forum to ensure that the particular problem is fixed. In the mean time you can attempt to work around the issue by calling the [Document.UpdateTableLayout](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatetablelayout) method before saving the document. 
 ##### **Example**
 *Shows how to update the layout of tables in a document.* 
 
@@ -252,15 +252,15 @@ The following list describes the members that were deprecated and the new member
 |**Old Member** |**New Member** |
 | :- | :- |
 |**RowFormat.Alignment** |**Table.Alignment** |
-|**RowAlignment** |[TableAlignment](/pages/createpage.action?spaceKey=wordsnet&title=TableAlignment+Class&linkCreation=true&fromPageId=2589114)|
+|**RowAlignment** |[TableAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/alignment)|
 |**RowFormat.AllowAutoFit** |**Table.AllowAutoFit** |
-|**RowFormat.Bidi** |[Table.Bidi](/pages/createpage.action?spaceKey=wordsnet&title=Bidi+Property&linkCreation=true&fromPageId=2589114)|
-|**RowFormat.BottomPadding** |[Table.BottomPadding](/pages/createpage.action?spaceKey=wordsnet&title=BottomPadding+Property&linkCreation=true&fromPageId=2589114)|
-|**RowFormat.CellSpacing** |[Table.CellSpacing](/pages/createpage.action?spaceKey=wordsnet&title=CellSpacing+Property&linkCreation=true&fromPageId=2589114)|
-|**RowFormat.LeftIndent** |[Table.LeftIndent](/pages/createpage.action?spaceKey=wordsnet&title=LeftIndent+Property&linkCreation=true&fromPageId=2589114)|
-|**RowFormat.LeftPadding** |[Table.LeftPadding](/pages/createpage.action?spaceKey=wordsnet&title=LeftPadding+Property&linkCreation=true&fromPageId=2589114)|
-|**RowFormat.PreferredWidth** |[Table.PreferredWidth](/pages/createpage.action?spaceKey=wordsnet&title=PreferredWidth+Class&linkCreation=true&fromPageId=2589114)|
-|**RowFormat.RightPadding** |[Table.RightPadding](/pages/createpage.action?spaceKey=wordsnet&title=RightPadding+Property&linkCreation=true&fromPageId=2589114)|
-|**RowFormat.TopPadding** |[Table.TopPadding](/pages/createpage.action?spaceKey=wordsnet&title=TopPadding+Property&linkCreation=true&fromPageId=2589114)|
+|**RowFormat.Bidi** |[Table.Bidi](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bidi)|
+|**RowFormat.BottomPadding** |[Table.BottomPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bottompadding)|
+|**RowFormat.CellSpacing** |[Table.CellSpacing](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/cellspacing)|
+|**RowFormat.LeftIndent** |[Table.LeftIndent](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftindent)|
+|**RowFormat.LeftPadding** |[Table.LeftPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftpadding)|
+|**RowFormat.PreferredWidth** |[Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
+|**RowFormat.RightPadding** |[Table.RightPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/rightpadding)|
+|**RowFormat.TopPadding** |[Table.TopPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/toppadding)|
 |**RowFormat.ClearCellPadding** |Use the **Table.XXXPading** properties instead. |
 
