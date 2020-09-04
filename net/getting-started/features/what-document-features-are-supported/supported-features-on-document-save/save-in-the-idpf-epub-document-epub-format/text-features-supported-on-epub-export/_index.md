@@ -20,8 +20,6 @@ See the following links in the documentation for further information:
 - **HtmlSaveOptions.Encoding**
 - [Document.JoinRunsWithSameFormatting](https://apireference.aspose.com/words/net/aspose.words/document/methods/joinrunswithsameformatting)
 
-[Jump to this location in the import section](/words/net/text-features-supported-on-epub-import/)
-
 {{% /alert %}} 
 ##### **Characters**
 
