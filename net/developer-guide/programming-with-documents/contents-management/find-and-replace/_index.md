@@ -36,8 +36,8 @@ This section describes how to programmatically find and highlight a word or a ph
 
 In addition to formatting, bookmarks in the middle of text will split it into more runs.) The above example is represented in Aspose.Words using the following objects:
 
-- [Run](/pages/createpage.action?spaceKey=wordsnet&title=Run+Class&linkCreation=true&fromPageId=102465845) ([Run.Text](/pages/createpage.action?spaceKey=wordsnet&title=Text+Property&linkCreation=true&fromPageId=102465845) = “Hello”, [Font.Italic](/pages/createpage.action?spaceKey=wordsnet&title=Italic+Property&linkCreation=true&fromPageId=102465845) = true)
-- Run (Run.Text = “World”, [Font.Bold](/pages/createpage.action?spaceKey=wordsnet&title=Bold+Property&linkCreation=true&fromPageId=102465845) = true)
+- [Run](https://apireference.aspose.com/words/net/aspose.words/run) ([Run.Text](https://apireference.aspose.com/words/net/aspose.words/run/properties/text) = “Hello”, [Font.Italic](https://apireference.aspose.com/words/net/aspose.words/font/properties/italic) = true)
+- Run (Run.Text = “World”, [Font.Bold](https://apireference.aspose.com/words/net/aspose.words/font/properties/bold) = true)
 - Run (Run.Text = “!”)
 
 This article provides a solution designed to handle the described case – if necessary it collects the word (or phrase) from several runs while skipping non-run nodes.
