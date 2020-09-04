@@ -62,7 +62,7 @@ Using destination styles has its advantages as it reduces duplicated styles whic
 
 {{% alert color="primary" %}} 
 
-Further information about the different import modes can be found in the API description for the [ImportFormatMode](/pages/createpage.action?spaceKey=wordsnet&title=ImportFormatMode+Class&linkCreation=true&fromPageId=102465849) enumeration.
+Further information about the different import modes can be found in the API description for the [ImportFormatMode](https://apireference.aspose.com/words/net/aspose.words/importformatmode) enumeration.
 
 {{% /alert %}} 
 ## **Specifying How a Document is Joined Together**
@@ -145,7 +145,7 @@ The algorithm works by inserting a bookmark at the end of the section each time 
 
 It is good to note that this code will still work even if a document has no page numbering restarts. In this case, it will simply change any NUMPAGE field to a PAGEREF field with reference to a bookmark found at the end of the document. This will display the same page numbering as what the NUMPAGES field would but using PAGEREF instead.
 ## **Controlling How Lists are Handled**
-When appending documents which contain lists with linked styles, the chosen [ImportFormatMode](/pages/createpage.action?spaceKey=wordsnet&title=ImportFormatMode+Class&linkCreation=true&fromPageId=102465849) can make a difference in how the lists behave when the documents are combined. Below example shows how to append a document to another document containing lists retaining source formatting.
+When appending documents which contain lists with linked styles, the chosen [ImportFormatMode](https://apireference.aspose.com/words/net/aspose.words/importformatmode) can make a difference in how the lists behave when the documents are combined. Below example shows how to append a document to another document containing lists retaining source formatting.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Joining-Appending-ListKeepSourceFormatting-ListKeepSourceFormatting.cs" >}}
 
