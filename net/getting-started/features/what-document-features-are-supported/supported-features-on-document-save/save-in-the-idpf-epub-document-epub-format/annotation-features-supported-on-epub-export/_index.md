@@ -5,11 +5,6 @@ weight: 10
 url: /net/annotation-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
-
-[Jump to this location in the import section](/words/net/annotation-features-supported-on-epub-import/)
-
-{{% /alert %}} 
 ##### **Bookmarks**
 All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unqiue names, that is, no two bookmarks are allowed the exact same name.
 
