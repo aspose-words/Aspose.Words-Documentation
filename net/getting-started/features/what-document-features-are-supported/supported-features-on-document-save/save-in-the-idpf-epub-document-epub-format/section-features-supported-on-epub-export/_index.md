@@ -13,8 +13,6 @@ If there is only one section then the document content is expoted directly to &l
 
 Section-wide formatting is exported as CSS styles on &lt;div&gt;.
 
-[Jump to this location in the import section](/words/net/section-features-supported-on-epub-import/)
-
 {{% /alert %}} 
 ##### **Headers and Footers**
 There is a save option that controls how headers and footers are output. This controls how the primary header is exported in different places in the output document.
@@ -25,7 +23,7 @@ When embedded or external style sheet is set, regular paragraphs in the header o
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.ExportHeadersFootersMode](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.htmlsaveoptions.exportheadersfootersmode.html)
+- [HtmlSaveOptions.ExportHeadersFootersMode](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportheadersfootersmode)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
