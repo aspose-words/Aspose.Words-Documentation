@@ -7,13 +7,13 @@ url: /net/how-to-execute-mail-merge/
 
 ## **How to Execute Simple Mail Merge**
 After you have the template properly prepared, you are ready to run the mail merge. Use the MailMerge object methods to execute it. The MailMerge object is returned by the Document.MailMerge property.
-Call [MailMerge.Execute](http://www.aspose.com/api/net/words/aspose.words.mailmerging.mailmerge/execute/methods/2) passing it a data source object to perform a simple mail merge. Here is a list of the data objects acceptable by the **MailMerge.Execute** overloads:
+Call [MailMerge.Execute](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/execute/methods/2) passing it a data source object to perform a simple mail merge. Here is a list of the data objects acceptable by the **MailMerge.Execute** overloads:
 
 - **DataTable**. Fills mail merge fields in the document with values from a **DataTable**.
 - **DataView**. This method is useful if you retrieve data into a **DataTable** but then need to apply a filter or sort before the mail merge.
 - **DataRow**. Fills mail merge fields in the document with values from a single **DataRow**.
 - **IDataReader**. You can pass **SqlDataReader** or **OleDbDataReader** object into this method as a parameter because they both implement the **IDataReader** interface.
-- [IMailMergeDataSource](http://www.aspose.com/api/net/words/aspose.words.mailmerging/mailmerge/methods/execute) . You can pass any object to this method that implements the **IMailMergeDataSource** interface. This allows you to merge data from custom data sources such as business objects, hashtables or lists.
+- [IMailMergeDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource) . You can pass any object to this method that implements the **IMailMergeDataSource** interface. This allows you to merge data from custom data sources such as business objects, hashtables or lists.
 - A pair of arrays, one of which represents a set of the field names (array of strings), and another that represents a set of the corresponding field values (array of objects). Note that the number of array elements must be the same in both of the arrays.
 
 Note that a simple mail merge done using **MailMerge.Execute** ignores fields that are inside mail merge regions. Only merge fields that are not inside any mail merge region are populated.Field names are not case sensitive. If a field name is not found in the document but is encountered in the data source, it is ignored. Let us take an example. Imagine that you need to create a personalized letter filled with the data entered by the user in your application. You prepare the template accordingly by inserting merge fields named *Company*, *Address*, *Address2*, and so on. Then you create two arrays and pass them to **MailMerge.Execute**. The following code example performs a simple insertion of data into merge fields and sends the document to the browser inline. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/MailMerge.ExecuteArray.doc).
@@ -26,7 +26,7 @@ Performing mail merge with regions is as easy as one without regions. Just pass 
 - **DataTable**. The table must have its **TableName** property set.
 - **DataView**. This method is useful if you retrieve data into a **DataTable** but then need to apply a filter or sort before the mail merge. The source table of the **DataView** must have its **TableName** property set and the document must have a mail merge region defined with a name that matches **DataView.Table.TableName** .
 - **IDataReader**. You can pass **SqlDataReader** or **OleDbDataReader** object into this method as a parameter because they both implement the **IDataReader** interface. This method accepts the second parameter (string) that specifies the name of the mail merge region in the document to populate.
-- [IMailMergeDataSource](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imailmergedatasource) . You can pass any object to this method that implements the **IMailMergeDataSource** interface. This allows you to merge data into mail merge regions from custom data sources such as business objects, hashtables or lists.
+- [IMailMergeDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource) . You can pass any object to this method that implements the **IMailMergeDataSource** interface. This allows you to merge data into mail merge regions from custom data sources such as business objects, hashtables or lists.
 
 The following code example executes a mail merge with repeatable regions. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/MailMerge.ExecuteWithRegions.doc).
 
@@ -61,7 +61,7 @@ Here’s our sample Word template document. The Name, ID, Domain, and City field
 The basic steps we’ll employ are :
 
 1. Create the Dataset, and then read the XML data.
-1. Run the Aspose.Words [MailMerge.Execute](http://www.aspose.com/api/net/words/aspose.words.mailmerging/mailmerge/methods/execute) method.
+1. Run the Aspose.Words [MailMerge.Execute](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/execute/index) method.
 
 It’s really pretty simple. Using Aspose.Words, the mail merge operation will replace the merge fields in the document with the values from the XML file.
 ### **Mail Merge from XML using DataSet Code**
@@ -119,7 +119,7 @@ To select the data about ordered items and the delivery address from this XML fi
 1. Query the order items from the purchase order using LINQ to XML.
 1. Query the delivery (shipping) address using LINQ to XML.
 1. Create a custom Aspose.Words mail merge data source that accepts LINQ query results.
-1. Open the template document using the [Document](/pages/createpage.action?spaceKey=wordsnet&title=Document+Class&linkCreation=true&fromPageId=2594086) class.
+1. Open the template document using the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class.
 1. Perform a mail merge with regions for the ordered items, using the created custom mail merge data source.
 1. Perform a mail merge without regions for the delivery address, using the created custom mail merge data source.
 
@@ -141,7 +141,7 @@ The PartNumber property is collected from the attribute of the Item element, whi
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-LINQtoXMLMailMerge-LINQToXMLQueryForDeliveryAddress.cs" >}}
 
-Here you should select only the Address element that has the Type attribute with the "Shipping" value and then collect the properties related to the address info. As Aspose.Words does not accept the results of the LINQ query directly, you need to implement a custom mail merge data source interface that accepts a LINQ query. Actually the data source developed here is quite generic and could work with any IEnumerable object. To provide the custom mail merge data source you next need to create a new MyMailMergeDataSource class that implements the [IMailMergeDataSource](/pages/createpage.action?spaceKey=wordsnet&title=IMailMergeDataSource+Class&linkCreation=true&fromPageId=2594086) interface: The following code example is the implementation of the IMailMergeDataSource interface.
+Here you should select only the Address element that has the Type attribute with the "Shipping" value and then collect the properties related to the address info. As Aspose.Words does not accept the results of the LINQ query directly, you need to implement a custom mail merge data source interface that accepts a LINQ query. Actually the data source developed here is quite generic and could work with any IEnumerable object. To provide the custom mail merge data source you next need to create a new MyMailMergeDataSource class that implements the [IMailMergeDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource) interface: The following code example is the implementation of the IMailMergeDataSource interface.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-LINQtoXMLMailMerge-MyMailMergeDataSource.cs" >}}
 
@@ -184,7 +184,7 @@ Some of the fields have empty values because there is no appropriate data in the
 ## **How to Apply Custom Formatting during Mail Merge**
 The MailMerge class provides two events that could be very useful in expanding mail merge capabilities. The MailMerge.FieldMergingCallback property accepts a class that implements the methods IFieldMergingCallback.FieldMerging and IFieldMergingCallback.ImageFieldMerging. These can be used to implement custom control over the mail merge process.
 
-The **IFieldMergingCallback.FieldMerging** event occurs during mail merge when a simple mail merge field is encountered in the document. This gives further control over the mail merge and you can perform any actions when the event occurs. This method is wrapped in a class that implements the [IFieldMergingCallback](http://www.aspose.com/api/net/words/aspose.words.mailmerging/ifieldmergingcallback) interface and accepts a [FieldMergingArgs](http://www.aspose.com/api/net/words/aspose.words.mailmerging/fieldmergingargs) object that provides data for the corresponding event. The following code example demonstrates how to implement custom logic in the MergeField event to apply cell formatting. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/MailMerge.AlternatingRows.doc).
+The **IFieldMergingCallback.FieldMerging** event occurs during mail merge when a simple mail merge field is encountered in the document. This gives further control over the mail merge and you can perform any actions when the event occurs. This method is wrapped in a class that implements the [IFieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/ifieldmergingcallback) interface and accepts a [FieldMergingArgs](https://apireference.aspose.com/words/net/aspose.words.mailmerging/fieldmergingargs) object that provides data for the corresponding event. The following code example demonstrates how to implement custom logic in the MergeField event to apply cell formatting. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/MailMerge.AlternatingRows.doc).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeAlternatingRows-MailMergeAlternatingRows.cs" >}}
 
@@ -213,7 +213,7 @@ The following code sample is complete source code of a program that inserts chec
 ## **How to Insert Images from a Database**
 The MailMerge.FieldMergingCallback event occurs during mail merge when an image mail merge field is encountered in the document. An image mail merge field is a merge field named Image:MyFieldName. You can respond to this event to return a file name, stream, or an Image object to the mail merge engine so that it is inserted into the document.
 
-The **MailMerge.FieldMergingCallback** property accepts a class implementing the [IFieldMergingCallback](http://www.aspose.com/api/net/words/aspose.words.mailmerging/ifieldmergingcallback) interface. This class defines the method that is called to handle the merging for the image field. The method handler receives an argument of type [ImageFieldMergingArgs](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imagefieldmergingargs). There are three properties available [ImageFieldMergingArgs.ImageFileName](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imagefieldmergingargs/properties/imagefilename) , [ImageFieldMergingArgs.ImageStream](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imagefieldmergingargs/properties/imagestream) and [ImageFieldMergingArgs.Image](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imagefieldmergingargs/properties/image) to specify where the image must be taken. Set only one of these properties. The following code example shows how to insert images stored in a database BLOB field into a report. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/MailMerge.MergeImage.doc). The database file can be downloaded from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Database/Northwind.mdb).
+The **MailMerge.FieldMergingCallback** property accepts a class implementing the [IFieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/ifieldmergingcallback) interface. This class defines the method that is called to handle the merging for the image field. The method handler receives an argument of type [ImageFieldMergingArgs](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imagefieldmergingargs). There are three properties available [ImageFieldMergingArgs.ImageFileName](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imagefieldmergingargs/properties/imagefilename) , [ImageFieldMergingArgs.ImageStream](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imagefieldmergingargs/properties/imagestream) and [ImageFieldMergingArgs.Image](http://www.aspose.com/api/net/words/aspose.words.mailmerging/imagefieldmergingargs/properties/image) to specify where the image must be taken. Set only one of these properties. The following code example shows how to insert images stored in a database BLOB field into a report. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/MailMerge.MergeImage.doc). The database file can be downloaded from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Database/Northwind.mdb).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeImageFromBlob-MailMergeImageFromBlob.cs" >}}
 
@@ -261,7 +261,7 @@ This sample project demonstrates this technique. It involves the following steps
 This method executes the following steps:
 
 1. Sets the handler specified by the user to the **MailMerge.FieldMergingCallback** property.
-1. Calls the **CreateDataSourceFromDocumentRegions** method which accepts the user’s [Document](/pages/createpage.action?spaceKey=wordsnet&title=Document+Class&linkCreation=true&fromPageId=2594086) and **ArrayList** containing region names. This method will create a dummy data source containing tables for each unmerged region in the document.
+1. Calls the **CreateDataSourceFromDocumentRegions** method which accepts the user’s [Document](https://apireference.aspose.com/words/net/aspose.words/document) and **ArrayList** containing region names. This method will create a dummy data source containing tables for each unmerged region in the document.
 1. Executes mail merge on the document using the dummy data source. When mail merge is executed with this data source it allows the user-specified handler to be called for each unmerge region and the custom logic applied
 ### **Apply Custom Logic to Unmerged Regions Code**
 The implementation of the ExecuteCustomLogicOnEmptyRegions method is found below. This method accepts several parameters:
