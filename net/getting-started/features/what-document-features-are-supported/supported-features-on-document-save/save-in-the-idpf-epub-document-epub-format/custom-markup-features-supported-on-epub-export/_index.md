@@ -11,8 +11,6 @@ When converting to a document format that doesn't support custom markup features
 
 There are plans to export the Custom XML found within the document structure to custom tags surronding elements in HTML output.
 
-[Jump to this location in the import section](/words/net/custom-markup-features-supported-on-epub-import/)
-
 {{% /alert %}} 
 ##### **CustomXML**
 There are plans to export the Custom XML found within the document structure to custom tags surronding elements in HTML output.

@@ -35,7 +35,7 @@ Some section properties (e.g. top margin, bottom margin) for continuous section 
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
-- [DocumentBuilder.InsertBreak](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.documentbuilder.insertbreak.html)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

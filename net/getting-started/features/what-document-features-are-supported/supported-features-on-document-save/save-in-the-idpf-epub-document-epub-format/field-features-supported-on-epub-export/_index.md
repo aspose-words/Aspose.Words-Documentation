@@ -17,8 +17,6 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 
 Fields are output as plain text in HTML. Only field result is exported.
 
-[Jump to this location in the import section](/words/net/field-features-supported-on-epub-import/)
-
 {{% /alert %}} 
 ##### **Field Codes**
 Fields are output as plain text in HTML. Only field result is exported.

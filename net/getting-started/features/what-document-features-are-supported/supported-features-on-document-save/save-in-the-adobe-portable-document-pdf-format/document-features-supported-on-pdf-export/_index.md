@@ -25,10 +25,10 @@ Both TrueType and OpenFont font formats are supported and can be subsetted durin
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/pages/createpage.action?spaceKey=wordsnet&title=Save+a+Document&linkCreation=true&fromPageId=2595754)
-- [Rendering and Printing](/pages/createpage.action?spaceKey=wordsnet&title=Rendering+and+Printing&linkCreation=true&fromPageId=2595754)
-- [PdfSaveOptions](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.pdfsaveoptions.html)
-- [PdfSaveOptions.Compliance](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.pdfsaveoptions.compliance.html)
+- [Save a Document](https://docs.aspose.com/words/net/saving-a-document/)
+- [Rendering and Printing](https://docs.aspose.com/words/net/rendering/)
+- [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions)
+- [PdfSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/compliance)
 
 {{% /alert %}} 
 ##### **General**

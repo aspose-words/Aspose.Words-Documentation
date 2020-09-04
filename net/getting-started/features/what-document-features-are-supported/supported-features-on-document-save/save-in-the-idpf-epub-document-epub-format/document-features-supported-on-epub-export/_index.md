@@ -37,8 +37,6 @@ See the following links in the documentation for further information:
 - [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype)
 - [HtmlSaveOptions.Encoding](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/encoding)
 
-[Jump to this location in the import section](/words/net/document-features-supported-on-epub-import/)
-
 {{% /alert %}} 
 ##### **General**
 
