@@ -28,7 +28,7 @@ The Manager, Contract, and Client classes are defined as follows.
 |![Single_Row_Template_Example](Single-Row-Template-Example2.png) | **Name:** **<<[manager.Name]>>** <br> **Age:** <<[manager.Age]>> |
 | :- | :- |
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/SingleRow.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/SingleRow.doc).
 #### **Report Example**
 
 |![Single_Row_Report_Example](Single-Row-Report-Example1.png)|**Name:** **John Smith** <br> **Age:** 37 |
@@ -43,7 +43,7 @@ You can download template file of this example from [here](https://github.com/as
 |We provide support for the following clients: <<foreach [in clients]>><<[IndexOf() != 0 ? ", " : ""]>><<[Name]>><</foreach>>|
 | :- |
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InParagraphList.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InParagraphList.doc).
 
 #### **Report Example**
 
@@ -60,7 +60,7 @@ We provide support for the following clients:
 <</foreach>>
 {{< /highlight >}}
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/BulletedList.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/BulletedList.doc).
 
 #### **Report Example**
 
@@ -88,7 +88,7 @@ We provide support for the following clients:
 <</foreach>>
 {{< /highlight >}}
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/NumberedList.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/NumberedList.doc).
 
 #### **Report Example**
 {{< highlight csharp >}}
@@ -116,7 +116,7 @@ We provide support for the following clients:
 <</if>><</foreach>>
 {{< /highlight >}}
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/MulticoloredNumberedList.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/MulticoloredNumberedList.doc).
 
 #### **Report Example**
 
@@ -141,7 +141,7 @@ We provide support for the following clients:
 |<<foreach [in managers]>> <br> ![Common_List_Template_Example2](Common-List-Template-Example2.png) <br> <<[Name**()**]>>** <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/CommonList.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/CommonList.doc).
 
 #### **Report Example**
 
@@ -158,7 +158,7 @@ You can download template file of this example from [here](https://github.com/as
 |{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>><</foreach>> {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}} |
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableList.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableList.doc).
 
 #### **Report Example**
 
@@ -227,7 +227,7 @@ You can download template file of this example from [here](https://github.com/as
 |**<<else>><<foreach [in contracts]>><<[Client.Name]>>**|<<[Price]>><</foreach>>|
 |**Total:**|<<[Sum(c => c.Price)]>><</if>>|
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableAlternateContent.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableAlternateContent.doc).
 
 #### **Report Example 1**
 
@@ -258,7 +258,7 @@ You can download template file of this example from [here](https://github.com/as
 |<<foreach [in managers]>> <br> ![Common_List_Template_Example2](Common-List-Template-Example2.png) <br> **<<[Name**()**]>>** <br> **Clients: <<foreach [in Contracts**()** ]>><<[indexOf() != 0 ? ", " : ""]>><<[Client**()**.Name**()**]>><</foreach>>** <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/CommonMasterDetail.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/CommonMasterDetail.doc).
 
 #### **Report Example**
 
@@ -276,7 +276,7 @@ You can download template file of this example from [here](https://github.com/as
 |{{< highlight csharp >}} <<foreach [in Contracts()]>> <<[Client().Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Price()]>><</foreach>><</foreach>> {{< /highlight >}}|
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}}|
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableMasterDetail.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableMasterDetail.doc).
 
 #### **Report Example**
 
@@ -300,7 +300,7 @@ You can download template file of this example from [here](https://github.com/as
 
 ### **Pie Chart Template**
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/PieChart.docx).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/PieChart.docx).
 
 **Template Example**
 
@@ -318,7 +318,7 @@ You can download template file of this example from [here](https://github.com/as
 
 ### **Scatter Chart Template**
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/ScatterChart.docx).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/ScatterChart.docx).
 
 **Template Example**
 
@@ -336,7 +336,7 @@ You can download template file of this example from [here](https://github.com/as
 
 ### **Bubble Chart Template**
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/BubbleChart.docx).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/BubbleChart.docx).
 
 **Template Example**
 
@@ -354,7 +354,7 @@ You can download template file of this example from [here](https://github.com/as
 
 ### **In-Table Template with Filtering, Grouping, and Ordering**
 
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableWithFilteringGroupingSorting.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/InTableWithFilteringGroupingSorting.doc).
 
 **Template Example**
 
@@ -377,7 +377,7 @@ You can download template file of this example from [here](https://github.com/as
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableWithFilteringGroupingSorting-InTableWithFilteringGroupingSorting.cs" >}}
 
 ### **Chart Template with Filtering, Grouping, and Ordering**
-You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/ChartWithFilteringGroupingOrdering.docx).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/ChartWithFilteringGroupingOrdering.docx).
 
 **Template Example**
 

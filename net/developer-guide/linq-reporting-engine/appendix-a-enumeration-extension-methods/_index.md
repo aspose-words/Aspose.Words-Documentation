@@ -5,8 +5,6 @@ weight: 30
 url: /net/appendix-a-enumeration-extension-methods/
 ---
 
-{{% alert color="primary" %}} 
-
 LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for IEnumerable. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus you can group, sort and perform other sequential data manipulations in template expressions in a familiar way.
 
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
@@ -100,4 +98,3 @@ persons.TakeWhile(p => p.Age < 50){{< /highlight >}}|
 persons.Union(otherPersons){{< /highlight >}}An implicit reference conversion must exist between types of items of united enumerations. |
 |Where(Predicate)|{{< highlight csharp >}}
 persons.Where(p => p.Age > 18){{< /highlight >}}|
-{{% /alert %}}
