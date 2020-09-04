@@ -76,7 +76,7 @@ There is a save option to control if form fields are exported as proper form fie
 
 See the following link in the documentation for further information:
 
-- [PdfSaveOptions.PreserveFormFields](http://www.aspose.com/documentation/.net-components/aspose.words-for-.net/aspose.words.saving.pdfsaveoptions.preserveformfields.html)
+- [PdfSaveOptions.PreserveFormFields](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/preserveformfields)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
