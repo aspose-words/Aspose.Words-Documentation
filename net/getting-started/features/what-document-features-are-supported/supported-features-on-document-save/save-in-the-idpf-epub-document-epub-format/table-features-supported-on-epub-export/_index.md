@@ -15,8 +15,6 @@ See the following link in the documentation for further information:
 
 - [HtmlSaveOptions.TableWidthOutputMode](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/tablewidthoutputmode)
 
-[Jump to this location in the import section](/words/net/table-features-supported-on-epub-import/)
-
 {{% /alert %}} 
 ##### **Table**
 
