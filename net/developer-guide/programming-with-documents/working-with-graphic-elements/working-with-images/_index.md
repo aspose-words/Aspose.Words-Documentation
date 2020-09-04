@@ -8,12 +8,12 @@ url: /net/working-with-images/
 ## **Inserting an Image**
 DocumentBuilder provides several overloads of the [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/1) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
 
-- From a file or URL by passing a string parameter [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/2).
-- From a stream by passing a Stream parameter [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/3).
-- From an Image object by passing an Image parameter [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/4).
-- From a byte array by passing a byte array parameter [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/insertimage). For each of the DocumentBuilder.InsertImage methods, there are further overloads which allow you to insert an image with the following options:
-- Inline or floating at a specific position, for example, [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/11).
-- Percentage scale or custom size, for example, [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/insertimage%20methods/7). Furthermore, the DocumentBuilder.InsertImage method returns a [Shape](http://www.aspose.com/api/net/words/aspose.words.drawing/shape) object that was just created and inserted so you can further modify properties of the Shape.
+- From a file or URL by passing a string parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/2).
+- From a stream by passing a Stream parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3).
+- From an Image object by passing an Image parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/4).
+- From a byte array by passing a byte array parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertimage). For each of the DocumentBuilder.InsertImage methods, there are further overloads which allow you to insert an image with the following options:
+- Inline or floating at a specific position, for example, [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/11).
+- Percentage scale or custom size, for example, [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/7). Furthermore, the DocumentBuilder.InsertImage method returns a [Shape](http://www.aspose.com/api/net/words/aspose.words.drawing/shape) object that was just created and inserted so you can further modify properties of the Shape.
 ### **Inserting an Inline Image**
 Pass a single string representing a file that contains the image to DocumentBuilder.InsertImage to insert the image into the document as an inline graphic. Below example shows how to insert an inline image at the cursor position into a document.
 
