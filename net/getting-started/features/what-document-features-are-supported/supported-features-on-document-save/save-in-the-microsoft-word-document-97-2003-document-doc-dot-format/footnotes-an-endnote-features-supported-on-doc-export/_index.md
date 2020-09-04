@@ -5,11 +5,6 @@ weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-doc-export/
 ---
 
-{{% alert color="primary" %}} 
-
-[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-doc-import/)
-
-{{% /alert %}} 
 ##### **Footnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
