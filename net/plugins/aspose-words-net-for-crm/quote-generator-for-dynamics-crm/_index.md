@@ -85,7 +85,7 @@ You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 - Go to solution and select "Aspose .NET Quote Generator".
 - Press the Delete button. press OK for confirmation.
 ## **Using**
-Easily configure and Use Aspose .NET Quote Generator for Dynamics CRM by following the instructions [here](http://www.aspose.com/docs/display/wordsnet/Using+and+Configuring+CRM+Quote+Generator).
+Easily configure and Use Aspose .NET Quote Generator for Dynamics CRM by following the instructions [here](https://docs.aspose.com/words/net/using-and-configuring-crm-quote-generator/).
 ## **Video Demo**
 Please check [the video](https://youtu.be/mngscvhHWHw) below to see the plugin in action.
 ## **Support**
@@ -98,4 +98,4 @@ You can log any issues or suggestions related to Aspose .Net Quote Generator usi
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Quote-Generator-1e73e2a9)
 ## **Extend and Contribute**
 This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
-Please find the latest Source Code and Code Example [here](http://www.aspose.com/docs/display/wordsnet/Extend+and+Contribute+to+CRM+Quote+Generator).
+Please find the latest Source Code and Code Example [here](https://docs.aspose.com/words/net/extend-and-contribute-to-crm-quote-generator/).
