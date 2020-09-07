@@ -7,5 +7,5 @@ url: /net/working-with-headers-and-footers-aspose-vs-npoi/
 
 This section has following topics:
 
-- [Working with Footers in NPOI](/words/net/working-with-footers-in-npoi-html/)
-- [Working with Headers in NPOI](/words/net/working-with-headers-in-npoi-html/)
+- [Working with Footers in NPOI](https://docs.aspose.com/words/net/working-with-footers-in-npoi/)
+- [Working with Headers in NPOI](https://docs.aspose.com/words/net/working-with-headers-in-npoi/)
