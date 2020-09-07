@@ -49,6 +49,6 @@ client.Send(message);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Convert a Document to MHTML and Email](http://www.aspose.com/docs/display/wordsnet/How+to++Convert+a+Document+to+MHTML+and+Email).
+For more details, visit [How to Convert a Document to MHTML and Email](https://docs.aspose.com/words/net/convert-a-document-to-mhtml-and-send-it-by-email/).
 
 {{% /alert %}}
