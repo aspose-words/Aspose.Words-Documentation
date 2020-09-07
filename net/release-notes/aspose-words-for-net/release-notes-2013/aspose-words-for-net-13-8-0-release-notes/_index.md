@@ -123,7 +123,7 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8666|Copies of the template are not getting separated by a section break in destination document|Enhancement|
 |WORDSNET-8684|/legacy lists/ Amount of Tab space between List number and Text is incorrectly calculated during rendering to PDF|Enhancement|
 |WORDSNET-8694|Aspose.Words.FileCorruptedException while loading Docx file int DOM|Enhancement|
-|WORDSNET-8703|doc.Styles[StyleIdentifier.xxxx](/pages/createpage.action?spaceKey=wordsnet&title=StyleIdentifier.xxxx&linkCreation=true&fromPageId=2596192) creates new style in the empty document|Enhancement|
+|WORDSNET-8703|doc.Styles[StyleIdentifier.xxxx](https://apireference.aspose.com/words/net/aspose.words/styleidentifier) creates new style in the empty document|Enhancement|
 |WORDSNET-8720|System.ArgumentException is thrown when exporting a Doc to Html|Enhancement|
 |WORDSNET-8722|Font formatting issue after conversion from Doc to Png|Enhancement|
 |WORDSNET-8807|TextBox overlaps the content of following Paragraph after appending documents|Enhancement|
