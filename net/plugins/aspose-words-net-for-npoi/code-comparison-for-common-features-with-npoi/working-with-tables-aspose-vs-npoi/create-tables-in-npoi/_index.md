@@ -94,6 +94,6 @@ Download **Create Tables** form any of the below mentioned social coding sites:
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Inserting a Table using DocumentBuilder](http://www.aspose.com/docs/display/wordsnet/Inserting+a+Table+using+DocumentBuilder).
+For more details, visit [Inserting a Table using DocumentBuilder](https://docs.aspose.com/words/net/introduction-and-creating-tables/#inserting-a-table-using-documentbuilder).
 
 {{% /alert %}}
