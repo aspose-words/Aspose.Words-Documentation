@@ -32,7 +32,7 @@ This maintenance release contains improvements and fixes to DOCX import (which i
 |3970 |DOCX |RTL paragraph alignment is incorrect in TestHebrew |
 |3969 |DOCX |RTL paragraph indents are incorrect |
 |3966 |DOCX |Vertical text direction is lost in TestRtlIssue |
-|3932 |DOCX |“Unknown color type encountered during WordML import - #9bbb59 [3206](/pages/createpage.action?spaceKey=wordsnet&title=3206&linkCreation=true&fromPageId=2596242)” exception occurred during opening DOCX file. |
+|3932 |DOCX |“Unknown color type encountered during WordML import - #9bbb59 3206” exception occurred during opening DOCX file. |
 |3901 |HTML |HtmlExportScaleImageToShapeSize docs not work during HTML exporting. |
 |922 |HTML |An email hyperlink causes exception |
 |871 |HTML |An HTML document falls into infinite loop |
