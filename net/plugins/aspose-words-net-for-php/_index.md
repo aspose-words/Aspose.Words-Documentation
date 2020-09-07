@@ -110,11 +110,11 @@ You can get the latest source code from one of the following locations
 # **Sample Code Examples**
 This section includes the following topics
 
-- [PHP Programmers Guide](/words/net/php-programmers-guide-html/)
-  - [Loading and Saving Documents](/words/net/loading-and-saving-documents-html/)
-    - [Load Text File in PHP](/words/net/load-text-file-in-php-html/)
-  - [Quick Start](/words/net/quick-start-html/)
-    - [Append Documents in PHP](/words/net/append-documents-in-php-html/)
-    - [Document to PDF Conversion in PHP](/words/net/document-to-pdf-conversion-in-php-html/)
-    - [Find and Replace in PHP](/words/net/find-and-replace-in-php-html/)
-    - [HelloWorld Example in PHP](/words/net/helloworld-example-in-php-html/)
+- [PHP Programmers Guide](https://docs.aspose.com/words/net/php-programmers-guide/)
+  - [Loading and Saving Documents](https://docs.aspose.com/words/net/loading-and-saving-documents/)
+    - [Load Text File in PHP](https://docs.aspose.com/words/net/load-text-file-in-php/)
+  - [Quick Start](https://docs.aspose.com/words/net/quick-start/)
+    - [Append Documents in PHP](https://docs.aspose.com/words/net/append-documents-in-php/)
+    - [Document to PDF Conversion in PHP](https://docs.aspose.com/words/net/document-to-pdf-conversion-in-php/)
+    - [Find and Replace in PHP](https://docs.aspose.com/words/net/find-and-replace-in-php/)
+    - [HelloWorld Example in PHP](https://docs.aspose.com/words/net/helloworld-example-in-php/)
