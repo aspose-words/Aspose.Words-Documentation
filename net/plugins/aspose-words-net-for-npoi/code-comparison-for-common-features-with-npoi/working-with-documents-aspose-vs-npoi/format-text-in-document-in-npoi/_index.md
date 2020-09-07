@@ -159,6 +159,6 @@ Download **Format Text in Document** form any of the below mentioned social codi
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Specifying Formatting](http://www.aspose.com/docs/display/wordsnet/Specifying+Formatting).
+For more details, visit [Specifying Formatting](https://docs.aspose.com/words/net/working-with-styles-and-themes/).
 
 {{% /alert %}}
