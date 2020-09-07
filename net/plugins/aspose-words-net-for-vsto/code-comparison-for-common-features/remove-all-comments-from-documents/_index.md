@@ -25,7 +25,7 @@ NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 comments.Clear();
 {{< /highlight >}}
 
-For more details you can go [here](http://www.aspose.com/docs/display/wordsnet/How+to++Extract+or+Remove+Comments)
+For more details you can go [here](https://docs.aspose.com/words/net/working-with-comments/#how-to-extract-or-remove-comments)
 ## **Download Running Code Example**
 - [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
