@@ -50,7 +50,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-10434|Paragraphs in a column of table are not preserved during open/save a DOCX|Bug|
 |WORDSNET-10452|Header contents are missing after re-saving the ODT|Bug|
 |WORDSNET-10457|Table's cell layout issue while re-saving ODT|Bug|
-|WORDSNET-10462|Contents of an [iframe](/pages/createpage.action?spaceKey=wordsnet&title=iframe&linkCreation=true&fromPageId=2596197) element get visible after HTML import|Bug|
+|WORDSNET-10462|Contents of an **iframe** element get visible after HTML import|Bug|
 |WORDSNET-10463|Table border becomes visible during open/save a DOCX|Bug|
 |WORDSNET-10464|Top margin issue after conversion from Docx to Pdf|Bug|
 |WORDSNET-10475|A Word is rendered in multiple SPAN tags in HtmlFixed|Bug|
@@ -58,9 +58,9 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-4651|Font becomes bold in a cell in ODT output|Bug|
 |WORDSNET-5296|Table looks incorrect in MS Words after open/save ODT document using AW|Bug|
 |WORDSNET-6878|TabStop positions are not correctly reflected in HTML|Bug|
-|WORDSNET-6997|Support 'text-align' style attribute of [ul](/pages/createpage.action?spaceKey=wordsnet&title=ul&linkCreation=true&fromPageId=2596197)|Bug|
+|WORDSNET-6997|Support 'text-align' style attribute of **ul**|Bug|
 |WORDSNET-7173|margin-bottom attribute in CSS style is not imported into DOM|Bug|
-|WORDSNET-7233|Text inside [blockquote](/pages/createpage.action?spaceKey=wordsnet&title=blockquote&linkCreation=true&fromPageId=2596197) is not having indent from left in PDF|Bug|
+|WORDSNET-7233|Text inside **blockquote** is not having indent from left in PDF|Bug|
 |WORDSNET-7316|Attributes of Normal Style are not preserved during Docx to Html to Docx roundtrip|Bug|
 |WORDSNET-7317|Cell content is unexpectedly formatted as bold during Docx to Html to Docx|Bug|
 |WORDSNET-7874|'Visiblity' style attribute of div is not preserved when importing HTML|Bug|
