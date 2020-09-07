@@ -82,6 +82,6 @@ if (Note.Contains("documentbody"))
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Execute Simple Mail Merge](http://www.aspose.com/docs/display/wordsnet/How+to++Execute+Simple+Mail+Merge).
+For more details, visit [How to Execute Simple Mail Merge](https://docs.aspose.com/words/net/how-to-execute-mail-merge/#how-to-execute-simple-mail-merge).
 
 {{% /alert %}}
