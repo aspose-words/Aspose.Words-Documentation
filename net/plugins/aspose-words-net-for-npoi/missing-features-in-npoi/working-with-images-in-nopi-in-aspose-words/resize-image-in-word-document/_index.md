@@ -42,6 +42,6 @@ builder.Document.Save("ImageReSize.doc");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Inserting Image into a Document](http://www.aspose.com/docs/display/wordsnet/Inserting+Document+Elements#InsertingDocumentElements-image).
+For more details, visit [Inserting Image into a Document](https://docs.aspose.com/words/net/working-with-images/#inserting-an-image).
 
 {{% /alert %}}
