@@ -9,7 +9,7 @@ url: /net/aspose-words-for-ios-via-xamarin-17-10-release-notes/
 
 This page contains release notes for [Aspose.Words for iOS via Xamarin 17.10](https://downloads.aspose.com/words/iosxamarin/new-releases/aspose.words-for-ios-via-xamarin-17.10/).
 
-This is a regular monthly release. 'Aspose.Words for iOS via Xamarin' has full functionality of Aspose.Words for .NET with [few limitations, minor API changes and additional requirements](/words/net/aspose-words-for-ios-via-xamarin-api-differences-and-limitations/).
+This is a regular monthly release. 'Aspose.Words for iOS via Xamarin' has full functionality of Aspose.Words for .NET with few limitations, minor API changes and additional requirements.
 
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.10, see [Aspose.Words for .NET 17.10 release notes](/words/net/aspose-words-for-net-17-10-release-notes/) for more information.
 
