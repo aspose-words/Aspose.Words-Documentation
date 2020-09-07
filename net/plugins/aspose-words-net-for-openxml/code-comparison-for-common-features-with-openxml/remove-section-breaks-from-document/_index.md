@@ -67,6 +67,6 @@ Below is the code for removing Section Breaks from MS Word Document using Aspose
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Remove Page and Section Breaks](http://www.aspose.com/docs/display/wordsnet/How+to++Remove+Page+and+Section+Breaks)
+For more information about Aspose.Words features please visit [Remove Page and Section Breaks](https://docs.aspose.com/words/net/working-with-sections/#how-to-remove-page-and-section-breaks)
 
 {{% /alert %}}
