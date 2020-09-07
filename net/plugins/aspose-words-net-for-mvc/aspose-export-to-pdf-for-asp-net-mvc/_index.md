@@ -14,7 +14,7 @@ url: /net/aspose-export-to-pdf-for-asp-net-mvc/
 - [Downloading](#AsposeExporttoPDFforASP.NETMVC-Downloading)
 - [Installation and Usage](#AsposeExporttoPDFforASP.NETMVC-InstallationandUsage) 
   - [Test a running demonstration](#AsposeExporttoPDFforASP.NETMVC-Testarunningdemonstration)
-  - [Embed “Export to PDF” to an Existing Project](ExporttoPDF#AsposeExporttoPDFforASP.NETMVC-Embed)
+  - [Embed “Export to PDF” to an Existing Project](#AsposeExporttoPDFforASP.NETMVC-Embed)
 - [Support, Extend and Contribute](#AsposeExporttoPDFforASP.NETMVC-Support,ExtendandContribute) 
   - [Support](#AsposeExporttoPDFforASP.NETMVC-Support)
   - [Extend and Contribute](#AsposeExporttoPDFforASP.NETMVC-ExtendandContribute) 
