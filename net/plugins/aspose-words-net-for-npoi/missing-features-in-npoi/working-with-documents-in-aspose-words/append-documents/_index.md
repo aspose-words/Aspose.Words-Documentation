@@ -30,4 +30,4 @@ Download **Append Documents (Aspose.Words)** form any of the below mentioned soc
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475278)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.Words_Features_Missing_in_NPOI_v_1.0/Append.Documents.Aspose.Words.zip)
 
-For more details, visit [Appending Documents Overview](/words/net/joining-and-appending-documents/#joiningandappendingdocuments-appendingdocumentsoverview)
+For more details, visit [Appending Documents Overview](https://docs.aspose.com/words/net/join-and-append-documents/)
