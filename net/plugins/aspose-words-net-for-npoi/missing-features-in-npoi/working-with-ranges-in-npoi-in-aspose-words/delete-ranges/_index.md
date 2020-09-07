@@ -49,6 +49,6 @@ Download **Delete Ranges** form any of the below mentioned social coding sites:
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Working with Ranges](http://www.aspose.com/docs/display/wordsnet/Working+with+Ranges).
+For more details, visit [Working with Ranges](https://docs.aspose.com/words/net/working-with-ranges-in-npoi-in-aspose-words/).
 
 {{% /alert %}}
