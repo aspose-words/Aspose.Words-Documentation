@@ -27,6 +27,6 @@ Download **Using Find and Replace** form any of the below mentioned social codin
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Find and Replace Overview](http://www.aspose.com/docs/display/wordsnet/Find+and+Replace+Overview).
+For more details, visit [Find and Replace Overview](https://docs.aspose.com/words/net/find-and-replace/).
 
 {{% /alert %}}
