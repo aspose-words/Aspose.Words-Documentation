@@ -29,7 +29,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-11281|Document.UpdateFields does not update the TOC field correctly|Bug|
 |WORDSNET-11911|Drawing Canvas is changed to GroupShape after re-saving the Docx|Bug|
 |WORDSNET-11960|Docx to Pdf conversion issue with shape's position|Bug|
-|WORDSNET-11997|[hr](/pages/createpage.action?spaceKey=wordsnet&title=hr&linkCreation=true&fromPageId=2596157) elements exported to HTML by Aspose.Words are rendered incorrectly in modern browsers|Bug|
+|WORDSNET-11997|**hr** elements exported to HTML by Aspose.Words are rendered incorrectly in modern browsers|Bug|
 |WORDSNET-12018|Text is overlapped in Pdf file after replacing text|Bug|
 |WORDSNET-12162|Table is missing after conversion from Doc to Docx/Doc/Pdf|Bug|
 |WORDSNET-12203|Word to Pdf Conversion - Bookmark hyperlinks are not seen if zoom level is around 200%|Bug|
