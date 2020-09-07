@@ -34,6 +34,6 @@ Download **Working with Digital Signatures** form any of the below mentioned soc
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Working with Digital Signatures](http://www.aspose.com/docs/display/wordsnet/Working+with+Digital+Signatures).
+For more details, visit [Working with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/).
 
 {{% /alert %}}
