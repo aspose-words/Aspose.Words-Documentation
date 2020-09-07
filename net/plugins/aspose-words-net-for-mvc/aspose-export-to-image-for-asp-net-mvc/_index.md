@@ -13,7 +13,7 @@ url: /net/aspose-export-to-image-for-asp-net-mvc/
   - [Downloading](#AsposeExporttoImageforASP.NETMVC-Downloading)
   - [Installing](#AsposeExporttoImageforASP.NETMVC-Installing) 
     - [Test a running demonstration](#AsposeExporttoImageforASP.NETMVC-Testarunningdemonstration)
-    - [Add “Export web page content to an image” feature to an existing MVC project](Exportwebpagecontenttoanimage#AsposeExporttoImageforASP.NETMVC-Add)
+    - [Add “Export web page content to an image” feature to an existing MVC project](#AsposeExporttoImageforASP.NETMVC-Add)
 - [Using and Video Demo](#AsposeExporttoImageforASP.NETMVC-UsingandVideoDemo) 
   - [How to apply Aspose License?](#AsposeExporttoImageforASP.NETMVC-HowtoapplyAsposeLicense?)
   - [Video Demo](#AsposeExporttoImageforASP.NETMVC-VideoDemo)
