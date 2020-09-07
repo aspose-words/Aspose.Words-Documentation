@@ -21,9 +21,3 @@ Download **Insert Picture in Document** form any of the below mentioned social c
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475294)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.Words_Features_Missing_in_NPOI_v_1.0/Insert.Picture.in.Word.Document.Aspose.Words.zip)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [Inserting Document Elements](http://www.aspose.com/docs/display/wordsnet/Inserting+Document+Elements).
-
-{{% /alert %}}
