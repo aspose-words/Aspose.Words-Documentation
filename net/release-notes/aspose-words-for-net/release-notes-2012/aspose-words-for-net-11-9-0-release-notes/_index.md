@@ -47,7 +47,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-6911|StructuredDocumentTag Dropdown and ComboBox SelectedValue is null|Bug|
 |WORDSNET-6913|FORMCHECKBOX fields don't appear after calling doc.UpdateFields|Bug|
 |WORDSNET-6918|Floating table in Word duplicates when converted to PDF|Bug|
-|WORDSNET-6951|RTF to Doc conversion issue with [Line spacing and Spacing after](/pages/createpage.action?spaceKey=wordsnet&title=Line+spacing+and+Spacing+after&linkCreation=true&fromPageId=2596177) after adding section breaks|Bug|
+|WORDSNET-6951|RTF to Doc conversion issue with Line spacing and Spacing after after adding section breaks|Bug|
 |WORDSNET-6969|Right-To-Left Hebrew RTF conversion to DOC/DOCX problems|Bug|
 |WORDSNET-6976|Docx to Epub file conversion issue with image rendering|Bug|
 |WORDSNET-6985|Doc to RTF conversion issue with text rendering|Bug|
