@@ -49,4 +49,4 @@ Document loadDoc = new Document(inStream);
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofVSTOv1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Features-bfd6167c#content)
 
-For more details, visit [How to Convert a Document to a Byte Array](http://www.aspose.com/docs/display/wordsnet/How+to++Convert+a+Document+to+a+Byte+Array).
+For more details, see [Convert a Document to Byte Array](https://docs.aspose.com/words/net/serialize-and-work-with-a-document-in-a-database/#convert-a-document-to-byte-array).
