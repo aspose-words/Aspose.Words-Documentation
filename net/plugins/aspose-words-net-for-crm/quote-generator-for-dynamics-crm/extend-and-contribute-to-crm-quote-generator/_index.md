@@ -51,6 +51,6 @@ if (NewNoteId != Guid.Empty)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Convert a Document to HTML with roundtrip information](http://www.aspose.com/docs/display/wordsnet/Convert+a+Document+to+HTML+with+roundtrip+information).
+For more details, visit [Convert a Document to HTML with roundtrip information](https://docs.aspose.com/words/net/convert-a-document-to-html-mhtml-or-epub/#convert-a-document-with-round-trip-information).
 
 {{% /alert %}}
