@@ -6,8 +6,8 @@ url: /net/more-examples-in-aspose-words/
 ---
 
 ###### **This section includes the following topics:** 
-- [Insert Picture in Document](/words/net/insert-picture-in-document-html/)
-- [Moving the Cursor in NPOI](/words/net/moving-the-cursor-in-npoi-html/)
-- [Set Page Borders](/words/net/set-page-borders-html/)
-- [Using Control Characters in NPOI](/words/net/using-control-characters-in-npoi-html/)
-- [Using Find and Replace in NPOI](/words/net/using-find-and-replace-in-npoi-html/)
+- [Insert Picture in Document](https://docs.aspose.com/words/net/insert-picture-in-document/)
+- [Moving the Cursor in NPOI](https://docs.aspose.com/words/net/moving-the-cursor-in-npoi/)
+- [Set Page Borders](https://docs.aspose.com/words/net/set-page-borders/)
+- [Using Control Characters in NPOI](https://docs.aspose.com/words/net/using-control-characters-in-npoi/)
+- [Using Find and Replace in NPOI](https://docs.aspose.com/words/net/using-find-and-replace-in-npoi/)
