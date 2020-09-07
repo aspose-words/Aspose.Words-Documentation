@@ -29,5 +29,9 @@ You can use Aspose.Words for C++ to develop applications in any development env
 
 - Microsoft Visual C++ version 2017 or higher
 
+{{% alert color="primary" %}} 
+While using Visual Studio 2017, you may also need to install Visual C++ Redistributable from here: https://aka.ms/vs/16/release/vc_redist.x64.exe
+{{% /alert %}} 
+
 ## **See also**
 - [Configure Aspose.Words for C++ in Visual Studio 2019](/words/cpp/configure-aspose-words-for-cpp-in-visual-studio-2019/)
