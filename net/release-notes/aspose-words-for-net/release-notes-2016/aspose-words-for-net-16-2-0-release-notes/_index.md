@@ -98,7 +98,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13140|ShapeRenderer.RenderToScale throws System.NullReferenceException|Exception|
 |WORDSNET-13156|Aspose.Words.FileCorruptedException occurs when loading an ODT file|Exception|
 |WORDSNET-13181|OleFormat.SuggestedExtension throws System.IO.EndOfStreamException|Exception|
-|WORDSNET-9674|mono / Aspose.Words fails to start because it cannot find the 'WINDOWS-31J' character map [linux with mono](/pages/createpage.action?spaceKey=wordsnet&title=linux+with+mono&linkCreation=true&fromPageId=2590192)|Exception|
+|WORDSNET-9674|mono / Aspose.Words fails to start because it cannot find the 'WINDOWS-31J' character map linux with mono|Exception|
 |WORDSNET-11610|Incorrect font in pdf output|Feature|
 |WORDSNET-11648|DrawingMLs overlap text in generated PDF and HTML|Feature|
 |WORDSNET-11787|Fonts substitution // Font "sans-serif" is converted to "Times new roman" in output Pdf|Feature|
