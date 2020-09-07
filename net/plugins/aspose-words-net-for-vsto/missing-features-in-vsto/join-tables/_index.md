@@ -45,4 +45,4 @@ In order to manipulate a table to split or join with another table we simply nee
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofVSTOv1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Features-bfd6167c#content)
 
-For more details, visit [Joinning and Splitting Tables](http://www.aspose.com/docs/display/wordsnet/Joining+and+Splitting+Tables).
+For more details, visit [Joining and Splitting Tables](https://docs.aspose.com/words/net/joining-and-splitting-tables/).
