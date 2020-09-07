@@ -14,4 +14,4 @@ Aspose.Words can be used with Outlook in multiple ways. When you are working wit
 
 We have created the following plugins for Outlook using Aspose.Words
 
-- [Metadata Cleaner for Outlook](/words/net/metadata-cleaner-for-outlook-html/)
+- [Metadata Cleaner for Outlook](https://docs.aspose.com/words/net/metadata-cleaner-for-outlook/)
