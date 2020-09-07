@@ -7,5 +7,5 @@ url: /net/working-with-tables-aspose-vs-npoi/
 
 This section has the following topics:
 
-- [Create Tables in NPOI](/words/net/create-tables-in-npoi-html/)
-- [Format Table in Document in NPOI](/words/net/format-table-in-document-in-npoi-html/)
+- [Create Tables in NPOI](https://docs.aspose.com/words/net/create-tables-in-npoi/)
+- [Format Table in Document in NPOI](https://docs.aspose.com/words/net/format-table-in-document-in-npoi/)
