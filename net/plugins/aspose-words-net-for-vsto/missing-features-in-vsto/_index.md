@@ -7,11 +7,11 @@ url: /net/missing-features-in-vsto/
 
 This section includes the following topics
 
-- [Conversion from Docx to Doc format](/words/net/conversion-from-docx-to-doc-format-html/)
-- [Insert Form Fields](/words/net/insert-form-fields-html/)
-- [Join Tables](/words/net/join-tables-html/)
-- [Split Tables](/words/net/split-tables-html/)
-- [Convert document to MHTML Email](/words/net/convert-document-to-mhtml-email-html/)
-- [Detecting File Format](/words/net/detecting-file-format-html/)
-- [Converting a Document to Byte Array](/words/net/converting-a-document-to-byte-array-html/)
-- [Conversion between different Open Office Word formats](/words/net/conversion-between-different-open-office-word-formats-html/)
+- [Conversion from Docx to Doc format](https://docs.aspose.com/words/net/conversion-from-docx-to-doc-format/)
+- [Insert Form Fields](https://docs.aspose.com/words/net/insert-form-fields/)
+- [Join Tables](https://docs.aspose.com/words/net/join-tables/)
+- [Split Tables](https://docs.aspose.com/words/net/split-tables/)
+- [Convert document to MHTML Email](https://docs.aspose.com/words/net/convert-document-to-mhtml-email/)
+- [Detecting File Format](https://docs.aspose.com/words/net/detecting-file-format/)
+- [Converting a Document to Byte Array](https://docs.aspose.com/words/net/converting-a-document-to-byte-array/)
+- [Conversion between different Open Office Word formats](https://docs.aspose.com/words/net/conversion-between-different-open-office-word-formats/)
