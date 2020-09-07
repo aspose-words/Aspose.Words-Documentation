@@ -108,7 +108,7 @@ The DISPLAYBARCODE field is now supported. We have introduced following entities
 - Added the **FieldOptions.BarcodeGenerator** property.
 
 The usage example can be found in following link:
-[How to Generate a Custom BarCode Image for DISPLAYBARCODE Field](http://www.aspose.com/docs/display/wordsnet/How+to+Generate+a+Custom+BarCode+Image+for+DISPLAYBARCODE+Field)
+[How to Generate a Custom BarCode Image for DISPLAYBARCODE Field](https://docs.aspose.com/words/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/)
 ### **InsertDocument Method Added to DocumentBuilder Class**
 The following new method inserts content of the document into the current position of DocumentBuilder's cursor.
 
