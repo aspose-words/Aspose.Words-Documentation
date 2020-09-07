@@ -140,7 +140,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-6299|Create DmlX model objects for every diagram element according to specs.|Feature|
 |WORDSNET-6300|Read XML and build DmlX model. (Proper DmlXBuilder classes development).|Feature|
 |WORDSNET-6592|Support all "layout" and "fake" fields in HTML export.|Feature|
-|WORDSNET-7253|[VML 3D](/pages/createpage.action?spaceKey=wordsnet&title=VML+3D&linkCreation=true&fromPageId=2596186) Implement influence of material on face and edge color|Feature|
+|WORDSNET-7253|**VML 3D** Implement influence of material on face and edge color|Feature|
 |WORDSNET-7278|List numbering style is not preserved during rendering to Pdf|Feature|
 |WORDSNET-7306|Style.Font.Name does not return the correct font name|Feature|
 |WORDSNET-7649|Provide options to generate a scalable SVG|Feature|
