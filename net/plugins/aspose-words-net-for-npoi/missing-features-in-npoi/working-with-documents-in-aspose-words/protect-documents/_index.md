@@ -33,6 +33,6 @@ Download **Protect Documents (Aspose.Words)** form any of the below mentioned so
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Protecting Documents](http://www.aspose.com/docs/display/wordsnet/Protecting+Documents).
+For more details, visit [Document Protection](https://docs.aspose.com/words/net/document-protection/).
 
 {{% /alert %}}
