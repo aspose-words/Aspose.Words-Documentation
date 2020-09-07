@@ -31,7 +31,7 @@ The above code runs in a loop and inserts a document at the end of the current d
 
 When migrating to Aspose.Words you will find that this task above is very easy to achieve. Aspose.Words provides a special Document.AppendDocument method for this purpose and is used to join two documents together.
 
-This method copies the sections from the source document to the destination document. This removes any need to insert any section breaks which is required in automation. Also note that you can control how the documents appear joined together i.e continuous or on a new page by using the [PageSetup.SectionStart](/pages/createpage.action?spaceKey=wordsnet&title=SectionStart+Class&linkCreation=true&fromPageId=2589029) property of the appropriate [Section](/pages/createpage.action?spaceKey=wordsnet&title=Section+Class&linkCreation=true&fromPageId=2589029) object.
+This method copies the sections from the source document to the destination document. This removes any need to insert any section breaks which is required in automation. Also note that you can control how the documents appear joined together i.e continuous or on a new page by using the [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) property of the appropriate [Section](https://apireference.aspose.com/words/net/aspose.words/section) object.
 ##### **Example**
 *Shows how to join multiple documents together.*
 
@@ -85,4 +85,4 @@ For i As Integer = 1 To recordCount
 Next i
 {{< /highlight >}}
 
-For further information on this topic see the [Joining and Appending Documents](/pages/createpage.action?spaceKey=wordsnet&title=Joining+and+Appending+Documents&linkCreation=true&fromPageId=2589029) section of the documentation.
+For further information on this topic see the [Joining and Appending Documents](https://docs.aspose.com/words/net/join-and-append-documents/) section of the documentation.

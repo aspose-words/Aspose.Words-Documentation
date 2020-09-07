@@ -7,5 +7,5 @@ url: /net/assemble-documents/
 
 This section includes the following topics
 
-- [Joining Multiple Document](/words/net/joining-multiple-document-html/)
-- [Keeping the content from Split](/words/net/keeping-the-content-from-split-html/)
+- [Joining Multiple Document](https://docs.aspose.com/words/net/joining-multiple-document/)
+- [Keeping the content from Split](https://docs.aspose.com/words/net/keeping-the-content-from-split/)

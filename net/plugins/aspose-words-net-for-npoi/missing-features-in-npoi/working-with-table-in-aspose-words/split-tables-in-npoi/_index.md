@@ -49,6 +49,6 @@ Download **Split Tables** form any of the below mentioned social coding sites:
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Joining and Splitting Tables](http://www.aspose.com/docs/display/wordsnet/Joining+and+Splitting+Tables).
+For more details, visit [Joining and Splitting Tables](https://docs.aspose.com/words/net/joining-and-splitting-tables/).
 
 {{% /alert %}}

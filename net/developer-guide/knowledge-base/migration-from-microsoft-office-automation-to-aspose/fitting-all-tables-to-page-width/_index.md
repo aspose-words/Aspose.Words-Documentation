@@ -22,7 +22,7 @@ For Each Table In ActiveDocument.Tables
 
 This code enumerates through each table in the document and sets the width sizing behavior of each table so it fits to the entire of the page width.
 
-To achieve this task using Aspose.Words the [Table](/pages/createpage.action?spaceKey=wordsnet&title=Table+Class&linkCreation=true&fromPageId=2589028) and [PreferredWidth](/pages/createpage.action?spaceKey=wordsnet&title=PreferredWidth+Property&linkCreation=true&fromPageId=2589028) members are used. The code is quite similar with the only main difference being that as a document is represented in Aspose.Words using nodes in a hierarchical structure, the **GetChildNodes** method is used to retrieve all tables in the document.
+To achieve this task using Aspose.Words the [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table) and [PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth) members are used. The code is quite similar with the only main difference being that as a document is represented in Aspose.Words using nodes in a hierarchical structure, the **GetChildNodes** method is used to retrieve all tables in the document.
 ##### **Example**
 *Demonstrates how to set the table width of all tables in the document to the page width.*
 
@@ -43,4 +43,4 @@ For Each table As Table In doc.GetChildNodes(NodeType.Table, True)
 Next table
 {{< /highlight >}}
 
-For further information on this topic see the [Specifying Table and Cell Widths](/pages/createpage.action?spaceKey=wordsnet&title=Specifying+Table+and+Cell+Widths&linkCreation=true&fromPageId=2589028) section of the documentation.
+For further information on this topic see the [Specifying Table and Cell Widths](https://docs.aspose.com/words/net/applying-formatting/#specifying-table-and-cell-widths) section of the documentation.

@@ -59,7 +59,7 @@ dstDoc.Save("updated.doc");
 {{< /highlight >}}
 
 **Note** 
-you can control how the documents appear joined together i.e continuous or on a new page by using the [PageSetup.SectionStart](http://www.aspose.com/docs/display/wordsnet/SectionStart+Class) property of the appropriate [Section](http://www.aspose.com/docs/display/wordsnet/Section+Class) object.
+you can control how the documents appear joined together i.e continuous or on a new page by using the [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) property of the appropriate [Section](https://apireference.aspose.com/words/net/aspose.words/section) object.
 ## **Download Sample Code**
 - [Codeplex](http://goo.gl/Isuwmz)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/2/Joining.Documents.Together.Aspose.Words.zip)

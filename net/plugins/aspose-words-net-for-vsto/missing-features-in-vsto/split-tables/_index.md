@@ -51,6 +51,6 @@ We first need to pick a row at where to split the table. Once we know this we ca
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Joinning and Splitting Tables](http://www.aspose.com/docs/display/wordsnet/Joining+and+Splitting+Tables).
+For more details, visit [Joining and Splitting Tables](https://docs.aspose.com/words/net/joining-and-splitting-tables/).
 
 {{% /alert %}}

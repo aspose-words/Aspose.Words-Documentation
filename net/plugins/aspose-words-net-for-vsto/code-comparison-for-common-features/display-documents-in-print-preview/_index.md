@@ -14,7 +14,7 @@ this.Application.ActiveDocument.PrintPreview();
 ## **Aspose.Words**
 The Aspose.Words component has no built in dialogs or forms, but implements its own version of the .NET **PrintDocument** class which can be passed to a **PrintPreviewDialog** form to print and preview a document .
 
-Aspose.Words defines a special class called [**AsposeWordsPrintDocument**](/pages/createpage.action?spaceKey=wordsnet&title=AsposeWordsPrintDocument&linkCreation=true&fromPageId=2588853) which is a sub class of the .NET **PrintDocument** class . An instance of this object is passed to the **PrintPreviewDialog** class which defines the output to transmit to a printer.
+Aspose.Words defines a special class called [**AsposeWordsPrintDocument**](https://apireference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument) which is a sub class of the .NET **PrintDocument** class . An instance of this object is passed to the **PrintPreviewDialog** class which defines the output to transmit to a printer.
 
 This sample describes how to use these classes to print a document from Aspose.Words with print preview and settings dialog.
 

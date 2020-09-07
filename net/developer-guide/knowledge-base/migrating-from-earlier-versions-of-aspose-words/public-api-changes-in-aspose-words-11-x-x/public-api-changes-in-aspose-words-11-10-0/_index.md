@@ -103,7 +103,7 @@ Additional features are now supported when rendering OOXML charts to PDF, XPS, i
 - Manual Layout
 - Overlapping
 
-See ﻿[OOXML Chart Rendering Supported Features](/words/net/ooxml-chart-rendering-supported-features-html/) for a full list of supported features.
+See ﻿["Working with Charts"](https://docs.aspose.com/words/net/working-with-charts/) for more details.
 ### **Improved Bookmark Export to HTML**
 Aspose.Words converts bookmarks in word documents as anchor tags (&lt;a&gt;) when saving to HTML. In previous versions of Aspose.Words a bookmark was exported to HTML without the actual text content of the bookmark inbetween e.g **"&lt;a name='BookmarkName'&gt;&lt;/a&gt;&lt;span&gt;Text that is actually inside the bookmark&lt;/span&gt;"**.
 

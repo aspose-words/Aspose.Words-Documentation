@@ -61,6 +61,6 @@ Below is the code example of get and set Bookmark text using Aspose.Words
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words feature please visit [Bookmarks in Aspose.Words](http://www.aspose.com/docs/display/wordsnet/Bookmarks+in+Aspose.Words)
+For more information about Aspose.Words feature please visit [Bookmarks in Aspose.Words](https://docs.aspose.com/words/net/working-with-bookmarks/)
 
 {{% /alert %}}

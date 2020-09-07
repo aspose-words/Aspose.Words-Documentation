@@ -7,7 +7,7 @@ url: /net/aspose-words-net-for-umbraco/
 
 This section has the following topics:
 
-- [Umbraco Content Exporter Module](/words/net/umbraco-content-exporter-module-html/)
-- [Umbraco Word Import Module](/words/net/umbraco-word-import-module-html/)
-- [Umbraco Quote Generator Module](/words/net/umbraco-quote-generator-module-html/)
-- [Umbraco Export Members to Word](/words/net/umbraco-export-members-to-word-html/)
+- [Umbraco Content Exporter Module](https://docs.aspose.com/words/net/umbraco-content-exporter-module/)
+- [Umbraco Word Import Module](https://docs.aspose.com/words/net/umbraco-word-import-module/)
+- [Umbraco Quote Generator Module](https://docs.aspose.com/words/net/umbraco-quote-generator-module/)
+- [Umbraco Export Members to Word](https://docs.aspose.com/words/net/umbraco-export-members-to-word/)

@@ -51,13 +51,14 @@ Note that there was a lack of documentation about using of charts with LINQ Repo
 
 The following documentation sections were added/modified:
 
-- [Using Charts to Represent Sequential Data](http://www.aspose.com/docs/display/wordsnet/Using+Charts+to+Represent+Sequential+Data)
-- [Inserting Images Dynamically](http://www.aspose.com/docs/display/wordsnet/Inserting+Images+Dynamically)
-- [Pie Chart Template (Appendix C)](http://www.aspose.com/docs/display/wordsnet/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-PieChartTemplate)
-- [Scatter Chart Template (Appendix C)](http://www.aspose.com/docs/display/wordsnet/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-ScatterChartTemplate)
-- [Bubble Chart Template (Appendix C)](http://www.aspose.com/docs/display/wordsnet/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-BubbleChartTemplate)
-- [In-Table Template with Filtering, Grouping, and Ordering (Appendix C)](http://www.aspose.com/docs/display/wordsnet/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-InTableTemplateFilteringGroupingOrdering)
-- [Chart Template with Filtering, Grouping, and Ordering (Appendix C)](http://www.aspose.com/docs/display/wordsnet/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-ChartTemplateFilteringGroupingOrdering)
+- [Using Charts to Represent Sequential Data](https://docs.aspose.com/words/net/template-syntax/#using-charts-to-represent-sequential-data)
+- [Inserting Images Dynamically](https://docs.aspose.com/words/net/template-syntax/#inserting-images-dynamically)
+- [Pie Chart Template](https://docs.aspose.com/words/net/typical-templates/#pie-chart-template)
+- [Scatter Chart Template](https://docs.aspose.com/words/net/typical-templates/#scatter-chart-template)
+- [Bubble Chart Template](https://docs.aspose.com/words/net/typical-templates/#bubble-chart-template)
+- [In-Table Template with Filtering, Grouping, and Ordering](https://docs.aspose.com/words/net/typical-templates/#in-table-template-with-filtering-grouping-and-ordering)
+- [Chart Template with Filtering, Grouping, and Ordering](https://docs.aspose.com/words/net/typical-templates/#chart-template-with-filtering-grouping-and-ordering)
+
 ### **Added ReportingEngine.Options Property**
 WORDSNET-12380 is now resolved. We have introduced following property in Aspose.Words 15.9.0.
 
