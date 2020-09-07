@@ -59,6 +59,6 @@ url: /net/extract-image-from-word-document/
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [How to Extract Images from a Document](http://www.aspose.com/docs/display/wordsnet/How+to++Extract+Images+from+a+Document)
+For more information about Aspose.Words features please visit [How to Extract Images from a Document](https://docs.aspose.com/words/net/working-with-images/#how-to-extract-images-from-a-document)
 
 {{% /alert %}}
