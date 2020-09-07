@@ -41,7 +41,7 @@ PrinterSettings.ToPage = doc.PageCount;
 doc.Print(PrinterSettings);
 {{< /highlight >}}
 
-For more details of this feature you can go [here](http://www.aspose.com/docs/display/wordsnet/How+to++Print+a+Document+with+Settings+and+Print+Preview+Dialog)
+For more details of this feature you can go [here](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/#printing-a-document-with-settings-and-print-preview-dialogs)
 ## **Download Running Code Example**
 - [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
