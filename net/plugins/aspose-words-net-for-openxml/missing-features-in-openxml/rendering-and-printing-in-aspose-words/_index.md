@@ -7,7 +7,7 @@ url: /net/rendering-and-printing-in-aspose-words/
 
 This section includes the following topics
 
-- [Print Document via XPS API](/words/net/print-document-via-xps-api-html/)
-- [Render Shapes](/words/net/render-shapes-html/)
-- [Save Document as PNG](/words/net/save-document-as-png-html/)
-- [Save Document as MutiPage TIFF](/words/net/save-document-as-mutipage-tiff-html/)
+- [Print Document via XPS API](https://docs.aspose.com/words/net/print-document-via-xps-api/)
+- [Render Shapes](https://docs.aspose.com/words/net/render-shapes/)
+- [Save Document as PNG](https://docs.aspose.com/words/net/save-document-as-png/)
+- [Save Document as MutiPage TIFF](https://docs.aspose.com/words/net/save-document-as-mutipage-tiff/)
