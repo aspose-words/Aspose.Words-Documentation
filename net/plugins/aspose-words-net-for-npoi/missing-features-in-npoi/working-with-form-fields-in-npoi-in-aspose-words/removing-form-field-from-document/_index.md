@@ -28,6 +28,6 @@ Download **Removing Form Field from Document** form any of the below mentioned s
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Removing a Field](http://www.aspose.com/docs/display/wordsnet/Removing+a+Field).
+For more details, visit [Removing a Field](https://docs.aspose.com/words/net/updating-and-removing-a-field/#removing-a-field).
 
 {{% /alert %}}
