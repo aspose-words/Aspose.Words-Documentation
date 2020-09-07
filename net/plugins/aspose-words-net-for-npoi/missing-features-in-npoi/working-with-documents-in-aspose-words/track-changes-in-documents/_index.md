@@ -23,6 +23,6 @@ Download **Track Changes in Documents (Aspose.Words)** form any of the below men
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Manage Tracking Changes](http://www.aspose.com/docs/display/wordsnet/Manage+Tracking+Changes).
+For more details, visit [Track Changes in a Document](https://docs.aspose.com/words/net/track-changes-in-a-document/).
 
 {{% /alert %}}
