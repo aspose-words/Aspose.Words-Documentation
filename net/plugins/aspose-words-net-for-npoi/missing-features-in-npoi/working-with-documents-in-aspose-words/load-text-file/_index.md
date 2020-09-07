@@ -26,6 +26,6 @@ Download **Load Text File** form any of the below mentioned social coding sites
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Load Text File](http://www.aspose.com/docs/display/wordsnet/How+to++Load+Plain+Text+%28TXT%29+Files).
+For more details, visit [Load a Document](https://docs.aspose.com/words/net/creating-or-loading-a-document/#load-a-document).
 
 {{% /alert %}}
