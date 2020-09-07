@@ -35,6 +35,6 @@ Download **Mail Merge from XML Data Source** form any of the below mentioned soc
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Mail Merge from XML using IMailMergeDataSource](http://www.aspose.com/docs/display/wordsnet/How+to++Mail+Merge+from+XML+using+DataSet).
+For more details, visit [How to Execute Mail Merge](https://docs.aspose.com/words/net/how-to-execute-mail-merge/).
 
 {{% /alert %}}
