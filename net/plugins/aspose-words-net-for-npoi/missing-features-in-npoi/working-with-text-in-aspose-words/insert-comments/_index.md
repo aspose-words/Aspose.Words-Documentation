@@ -28,6 +28,6 @@ Download **Insert Comments** form any of the below mentioned social coding sites
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Add a Comment](http://www.aspose.com/docs/display/wordsnet/How+to+Add+a+Comment).
+For more details, visit [Insert Comments](https://docs.aspose.com/words/net/insert-comments/).
 
 {{% /alert %}}
