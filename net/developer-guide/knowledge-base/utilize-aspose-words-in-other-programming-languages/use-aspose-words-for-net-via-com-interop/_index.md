@@ -29,7 +29,7 @@ Here are the topics that you will eventually need to master:
 
 - Using COM objects in your programming language. See your programming language documentation and the language-specific topics further in this documentation.
 - Working with COM objects exposed by .NET COM Interop. See [Interoperating With Unmanaged Code](http://msdn.microsoft.com/en-us/library/sd10k43k.aspx) and [Exposing .NET Framework Components to COM](http://msdn.microsoft.com/en-us/library/zsfww439%28v=vs.110%29.aspx) in MSDN.
-- Aspose.Words document object model. See Aspose.Words [Programmer’s Guide](http://www.aspose.com/docs/display/wordsnet/Programmers+Guide) and [API Reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words+for+.NET+API+Reference).
+- Aspose.Words document object model. See Aspose.Words [Developer Guide](https://docs.aspose.com/words/net/developer-guide/) and [API Reference](https://apireference.aspose.com/words/net).
 #### **Register Aspose.Words for .NET with COM Interop**
 After installation, you need to register Aspose.Words for COM Interop using the regasm.exe utility.
 
@@ -47,10 +47,10 @@ ProgID stands for “programmatic identifier”, it is a name of a COM class tha
 
 Currently, Aspose.Words defines four publicly creatable COM objects. Their ProgIDs are: 
 
-- [ComHelper](/pages/createpage.action?spaceKey=wordsnet&title=ComHelper+Class&linkCreation=true&fromPageId=2589106)
-- [Document](/pages/createpage.action?spaceKey=wordsnet&title=Document+Class&linkCreation=true&fromPageId=2589106)
-- [DocumentBuilder](/pages/createpage.action?spaceKey=wordsnet&title=DocumentBuilder+Class&linkCreation=true&fromPageId=2589106)
-- [License](/pages/createpage.action?spaceKey=wordsnet&title=License+Class&linkCreation=true&fromPageId=2589106)
+- [ComHelper](https://apireference.aspose.com/words/net/aspose.words/comhelper)
+- [Document](https://apireference.aspose.com/words/net/aspose.words/document)
+- [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder)
+- [License](https://apireference.aspose.com/words/net/aspose.words/license)
 
 The ProgIDs consist of the library name ("Aspose.Words") and the class name. 
 #### **Type Library**
