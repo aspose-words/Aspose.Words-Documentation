@@ -30,6 +30,6 @@ Download **Specify Default Fonts** form any of the below mentioned social coding
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Specify the Default Font to use when Rendering](http://www.aspose.com/docs/display/wordsnet/How+to+Specify+the+Default+Font+to+use+when+Rendering).
+For more details, visit [Manipulating and Substitution TrueType Fonts](https://docs.aspose.com/words/net/manipulating-and-substitution-truetype-fonts/).
 
 {{% /alert %}}
