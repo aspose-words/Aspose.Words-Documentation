@@ -28,9 +28,3 @@ Download **Using Control Characters** form any of the below mentioned social cod
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475297)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.Words_Features_Missing_in_NPOI_v_1.0/Using.Control.Characters.Aspose.Words.zip)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [How to Use Control Characters](http://www.aspose.com/docs/display/wordsnet/How+to++Use+Control+Characters).
-
-{{% /alert %}}
