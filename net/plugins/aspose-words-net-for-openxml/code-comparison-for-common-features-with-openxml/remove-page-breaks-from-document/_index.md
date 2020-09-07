@@ -65,6 +65,6 @@ Below is the code example for removing page breaks from MS Word Document using A
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Remove Page and Section Breaks](http://www.aspose.com/docs/display/wordsnet/How+to++Remove+Page+and+Section+Breaks)
+For more information about Aspose.Words features please visit [Remove Page and Section Breaks](https://docs.aspose.com/words/net/working-with-sections/#how-to-remove-page-and-section-breaks)
 
 {{% /alert %}}
