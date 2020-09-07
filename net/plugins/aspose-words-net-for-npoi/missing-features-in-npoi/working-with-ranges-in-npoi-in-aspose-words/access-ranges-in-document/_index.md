@@ -48,6 +48,6 @@ Download **Access Ranges in Document** form any of the below mentioned social co
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Working with Ranges](http://www.aspose.com/docs/display/wordsnet/Working+with+Ranges).
+For more details, visit [Working with Ranges](https://docs.aspose.com/words/net/working-with-ranges-in-npoi-in-aspose-words/).
 
 {{% /alert %}}
