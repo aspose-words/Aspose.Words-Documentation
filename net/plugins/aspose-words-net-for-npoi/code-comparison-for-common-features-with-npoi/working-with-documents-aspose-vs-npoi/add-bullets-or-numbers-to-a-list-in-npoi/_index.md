@@ -155,6 +155,6 @@ Download **Add bullets or numbers to a list** form any of the below mentioned s
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Lists](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Lists.ListCollection.Add+Method).
+For more details, visit [Lists](https://apireference.aspose.com/words/net/aspose.words.lists/listcollection/methods/add/index).
 
 {{% /alert %}}
