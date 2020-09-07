@@ -87,6 +87,6 @@ Download **Check Format Compatibility** form any of the below mentioned social c
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Check Format Compatibility](http://www.aspose.com/docs/display/wordsnet/How+to++Check+Format+Compatibility).
+For more details, visit [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/).
 
 {{% /alert %}}
