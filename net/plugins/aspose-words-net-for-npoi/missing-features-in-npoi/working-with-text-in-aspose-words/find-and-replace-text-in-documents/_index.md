@@ -28,6 +28,6 @@ Download **Find and Replace Text in Documents** form any of the below mentioned 
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Find and Replace](http://www.aspose.com/docs/display/wordsnet/Find+and+Replace+Overview).
+For more details, visit [Find and Replace](https://docs.aspose.com/words/net/find-and-replace/).
 
 {{% /alert %}}
