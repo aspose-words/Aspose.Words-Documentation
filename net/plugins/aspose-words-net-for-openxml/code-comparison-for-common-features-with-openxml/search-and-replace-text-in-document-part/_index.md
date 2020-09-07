@@ -54,6 +54,6 @@ Below is the code example of searching and replacing text in Document part using
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Find and Replace](http://www.aspose.com/docs/display/wordsnet/Find+and+Replace+Overview)
+For more information about Aspose.Words features please visit [Find and Replace](https://docs.aspose.com/words/net/find-and-replace/)
 
 {{% /alert %}}
