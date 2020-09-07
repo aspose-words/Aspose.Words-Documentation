@@ -230,7 +230,7 @@ saveOptions.PageIndex = 1;
 doc.Save("mydocument.gif", saveOptions);
 {{< /highlight >}}
 ### **Exposed more String and Number Formats for Expression Results in LINQ Reporting Engine**
-The ["Outputting Expression Results"](http://www.aspose.com/docs/display/wordsnet/Template+Syntax#TemplateSyntax-OutputtingExpressionResults) section of the engine's documentation was updated to describe the change.
+The ["Outputting Expression Results"](https://docs.aspose.com/words/net/template-syntax/#outputting-expression-results) section of the engine's documentation was updated to describe the change.
 ### **MsWordVersion Enum Moved to Aspose.Words.Settings**
 Customers will now have to use 
 
