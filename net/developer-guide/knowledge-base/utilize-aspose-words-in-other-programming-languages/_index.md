@@ -8,7 +8,7 @@ url: /net/utilize-aspose-words-in-other-programming-languages/
 ###### **This section includes the following topics:** 
 - [Choose the Platform and Interoperability Technology](/words/net/choose-the-platform-and-interoperability-technology/)
 - [Use Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop/)
-- [ASP, VBScript Aspose.Words for .NET](/words/net/asp-vbscript-aspose-words-for-net/)
+- [ASP, VBScript Aspose.Words for .NET](https://docs.aspose.com/words/net/asp-vbscript-aspose-words-for-net/)
 - [ASP and ASP.NET without Visual Studio](/words/net/asp-and-asp-net-without-visual-studio/)
 - [ColdFusion and Aspose.Words for .NET](/words/net/coldfusion-and-aspose-words-for-net/)
 - [Perl and Aspose.Words for .NET](/words/net/perl-and-aspose-words-for-net/)
