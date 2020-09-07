@@ -35,6 +35,6 @@ Download **Moving the Cursor** form any of the below mentioned social coding sit
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Moving the Cursor](http://www.aspose.com/docs/display/wordsnet/Moving+the+Cursor).
+For more details, visit [Navigation the Cursor](https://docs.aspose.com/words/net/navigation-with-cursor/).
 
 {{% /alert %}}
