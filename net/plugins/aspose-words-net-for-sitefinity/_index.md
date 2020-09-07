@@ -18,6 +18,6 @@ Aspose.Words for .NET supports DOC, DOCX, OpenOffice and many other formats.
 ## **Aspose.Words for .NET Plugins**
 This section contains following children
 
-- [Sitefinity Content Exporter Module](/words/net/sitefinity-content-exporter-module-html/)
-- [Sitefinity Export Users to Word](/words/net/sitefinity-export-users-to-word-html/)
-- [Sitefinity Word Import Module](/words/net/sitefinity-word-import-module-html/)
+- [Sitefinity Content Exporter Module](https://docs.aspose.com/words/net/sitefinity-content-exporter-module/)
+- [Sitefinity Export Users to Word](https://docs.aspose.com/words/net/sitefinity-export-users-to-word/)
+- [Sitefinity Word Import Module](https://docs.aspose.com/words/net/sitefinity-word-import-module/)
