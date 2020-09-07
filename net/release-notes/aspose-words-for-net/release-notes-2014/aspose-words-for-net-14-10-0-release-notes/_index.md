@@ -107,7 +107,7 @@ There are 97 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-10620|Add feature to support field switches in mustache syntax|Feature|
 |WORDSNET-10667|Automatically switch Bidi context of DocumentBuilder for LTR/RTL mixed strings|Feature|
 |WORDSNET-10679|Automatically switch Bidi context of DocumentBuilder for LTR/RTL mixed strings|Feature|
-|WORDSNET-10808|[DML](/pages/createpage.action?spaceKey=wordsnet&title=DML&linkCreation=true&fromPageId=2596154) Render DrawingML textboxes.|Feature|
+|WORDSNET-10808|DML Render DrawingML textboxes.|Feature|
 |WORDSNET-10841|Repeat only part of a paragraph instead of repeating whole paragraph durign mail merge with regions|Feature|
 |WORDSNET-3609|Add full support "right to left text" in ODT export/import|Feature|
 |WORDSNET-4684|Support breaking nested floating tables across pages.|Feature|
