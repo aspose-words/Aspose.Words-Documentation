@@ -90,7 +90,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-4630|The copyright year in the CHM documentation is incorrect|Enhancement|
 |WORDSNET-4797|There is no documentation for the Underline enumeration|Enhancement|
 |WORDSNET-5852|WordArt advanced // While docx to Pdf, Text render incorrectly.|Enhancement|
-|WORDSNET-596|Using [BR](/pages/createpage.action?spaceKey=wordsnet&title=BR&linkCreation=true&fromPageId=2596196) tags within table cells leads to incorrect output|Enhancement|
+|WORDSNET-596|Using **BR** tags within table cells leads to incorrect output|Enhancement|
 |WORDSNET-6914|WordArt // Bezier // shape is not rendering correctly in PDF|Enhancement|
 |WORDSNET-7422|Disregard paragraph space after for tight wrapping|Enhancement|
 |WORDSNET-7465|Incorrect image size and text wrapping|Enhancement|
@@ -107,7 +107,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9120|Add HtmlFixedSaveOptions.FontsFolder and HtmlFixedSaveOptions.FontsFolderAlias properties in API|Enhancement|
 |WORDSNET-9155|Incorrect text wrapping around a tight-wrapped image|Enhancement|
 |WORDSNET-9244|Contents move to next page after conversion from Docx to fixed file format|Enhancement|
-|WORDSNET-9261|Move Conversions [Explicit](/pages/createpage.action?spaceKey=wordsnet&title=Explicit&linkCreation=true&fromPageId=2596196) long running Unit Tests into the new project Aspose.Words.Test.Longrun|Enhancement|
+|WORDSNET-9261|Move Conversions **Explicit** long running Unit Tests into the new project Aspose.Words.Test.Longrun|Enhancement|
 |WORDSNET-9292|Inaccurate WordArt rendering in output Pdf file|Enhancement|
 |WORDSNET-9300|Unsupported path type and rendering mode are encountered during rendering WordArt shapes to PDF|Enhancement|
 |WORDSNET-9316|At slash sign a line of text is broken into two lines in PDF|Enhancement|
