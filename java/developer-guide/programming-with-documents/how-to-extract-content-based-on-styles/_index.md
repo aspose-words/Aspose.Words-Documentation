@@ -32,7 +32,9 @@ Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph
 ![todo:image_alt_text](how-to-extract-content-based-on-styles_1.png)
 
 In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
-#### **The Code The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution: ParagraphsByStyleName – This method retrieves an array of those paragraphs in the document that have a specific style name. RunsByStyleName – This method retrieves an array of those runs in the document that have a specific style name. Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of ParagraphsByStyleName :**
+#### **The Code**
+
+The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution: ParagraphsByStyleName – This method retrieves an array of those paragraphs in the document that have a specific style name. RunsByStyleName – This method retrieves an array of those runs in the document that have a specific style name. Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of ParagraphsByStyleName:
 ##### **Example**
 *Find all paragraphs formatted with the specified style.*
 
@@ -57,15 +59,15 @@ public static ArrayList paragraphsByStyleName(Document doc, String styleName) th
 }
 {{< /highlight >}}
 
-This implementation also uses the [Document.GetChildNodes](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Document.getChildNodes+property) method of the Document class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
+This implementation also uses the [Document.GetChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#getChildNodes(int,boolean)) method of the Document class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
-Note that the second parameter of the [Document.GetChildNodes](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Document.getChildNodes+property) method is set to true. This forces the [Document.GetChildNodes](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Document.getChildNodes+property) method to select from all child nodes recursively, rather than selecting the immediate children only.
+Note that the second parameter of the [Document.GetChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#getChildNodes(int,boolean)) method is set to true. This forces the [Document.GetChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#getChildNodes(int,boolean)) method to select from all child nodes recursively, rather than selecting the immediate children only.
 
 It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them.
 
-Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.Name](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Style.getName+property) property of the [Paragraph.ParagraphFormat](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Paragraph.getParagraphFormat+property) object.
+Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.Name](https://apireference.aspose.com/words/java/com.aspose.words/style#Name) property of the [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) object.
 
-The implementation of RunsByStyleName is almost the same, although we’re obviously using [NodeType.Run](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.NodeType+Class) to retrieve run nodes. The [Font.Style](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Font.getStyle+property) property of a [Run](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Run+class) object is used to access style information in the **Run** nodes.
+The implementation of RunsByStyleName is almost the same, although we’re obviously using [NodeType.Run](https://apireference.aspose.com/words/java/com.aspose.words/NodeType) to retrieve run nodes. The [Font.Style](https://apireference.aspose.com/words/java/com.aspose.words/font#Style) property of a [Run](https://apireference.aspose.com/words/java/com.aspose.words/Run) object is used to access style information in the **Run** nodes.
 ##### **Example**
 *Find all runs formatted with the specified style.*
 
