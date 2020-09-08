@@ -35,8 +35,8 @@ See the following links in the documentation for further information:
 
 - [Save a Document]()
 - [Rendering and Printing]()
-- [ImageSaveOptions](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ImageSaveOptions+class)
-- [SvgSaveOptions](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.SvgSaveOptions+class)
+- [ImageSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/ImageSaveOptions)
+- [SvgSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/SvgSaveOptions)
 
 {{% /alert %}} 
 ##### **General**
