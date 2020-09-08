@@ -38,6 +38,6 @@ secondTable.remove();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Joining and Splitting Tables](http://docs.aspose.com/docs/display/wordsjava/Joining+and+Splitting+Tables).
+For more details, visit [Joining and Splitting Tables](https://docs.aspose.com/words/java/joining-and-splitting-tables/).
 
 {{% /alert %}}
