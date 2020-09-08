@@ -8,7 +8,7 @@ url: /java/working-with-tables/
 ###### **This section includes the following topics:** 
 - [Tables Overview](/words/java/tables-overview/)
 - [Creating Tables](/words/java/creating-tables/)
-- [Applying Formatting to Table, Row and Cell](/words/java/applying-formatting-to-table-2c-row-and-cell/)
+- [Applying Formatting to Table, Row and Cell](https://docs.aspose.com/words/java/applying-formatting-to-table-row-and-cell/)
 - [Specifying Table and Cell Widths](/words/java/specifying-table-and-cell-widths/)
 - [Working with Table Styles](/words/java/working-with-table-styles/)
 - [Finding the Index of Table Elements](/words/java/finding-the-index-of-table-elements/)
