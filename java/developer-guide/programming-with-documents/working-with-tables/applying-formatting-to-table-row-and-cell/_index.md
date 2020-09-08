@@ -31,7 +31,7 @@ Below example shows how to build a table with all borders enabled (grid).
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-BuildATableWithAllBordersEnabled.java" >}}
 
-Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.DocumentBuilder+class), such formatting must be done after the first call to [DocumentBuilder.InsertCell](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.DocumentBuilder.insertCell+method) or after adding the first row to a table or when inserting nodes directly into the DOM.
+Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
 ## **Applying Formatting on the Row Level**
 Formatting on the row level can be controlled using the [RowFormat](http://www.aspose.com/api/java/words/com.aspose.words/classes/RowFormat) property of the [Row](http://www.aspose.com/api/java/words/com.aspose.words/classes/Row).
 
