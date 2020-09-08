@@ -7,6 +7,6 @@ url: /java/working-with-bookmarks-in-jython/
 
 **This section includes the following topics:**
 
-- [Copy Bookmarked Text in Jython](/words/java/copy-bookmarked-text-in-jython-html/)
-- [Delete Row By Bookmark in Jython](/words/java/delete-row-by-bookmark-in-jython-html/)
-- [Untangle Row Bookmarks in Jython](/words/java/untangle-row-bookmarks-in-jython-html/)
+- [Copy Bookmarked Text in Jython](https://docs.aspose.com/words/java/copy-bookmarked-text-in-jython/)
+- [Delete Row By Bookmark in Jython](https://docs.aspose.com/words/java/delete-row-by-bookmark-in-jython/)
+- [Untangle Row Bookmarks in Jython](https://docs.aspose.com/words/java/untangle-row-bookmarks-in-jython/)
