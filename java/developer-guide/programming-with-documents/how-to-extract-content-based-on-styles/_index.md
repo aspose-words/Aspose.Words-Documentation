@@ -129,4 +129,6 @@ for (Run run : (Iterable<Run>) runs)
 {{< /highlight >}}
 #### **End Result**
 
-When everything is done, running the sample will display the following output: ![todo:image_alt_text](how-to-extract-content-based-on-styles_2.png) As you can see, this is a very simple example, showing the number and text of the collected paragraphs and runs in the sample Word document.
+When everything is done, running the sample will display the following output: ![todo:image_alt_text](how-to-extract-content-based-on-styles_2.png)
+
+As you can see, this is a very simple example, showing the number and text of the collected paragraphs and runs in the sample Word document.
