@@ -34,6 +34,6 @@ table2.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Apply Different AutoFit Settings to a Table](http://docs.aspose.com/docs/display/wordsjava/How+to++Apply+Different+AutoFit+Settings+to+a+Table).
+For more details, visit [How to Apply Different AutoFit Settings to a Table](https://docs.aspose.com/words/java/how-to-apply-different-autofit-settings-to-a-table/).
 
 {{% /alert %}}
