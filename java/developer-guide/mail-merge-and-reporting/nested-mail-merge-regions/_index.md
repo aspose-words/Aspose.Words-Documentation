@@ -62,7 +62,7 @@ For Aspose.Words to perform nested mail merge correctly, the following requireme
 
 Since our data is coming from a database, the data is expected to be represented in a **ResultSet** object. Aspose.Words include special classes used when mail merging from data stored in **ResultSet** objects. Each **ResultSet** is wrapped into its own **DataTable** object. These **DataTable** objects are added to a **DataSet** and relations between each **DataTable** defined. This is the basis of how nested mail merge works.
 
-For further information about setting up data, relations see the following article in the documentation [here](http://www.aspose.com/docs/display/wordsjava/How+to+Execute+Mail+Merge).
+For further information about setting up data, relations see the following article in the documentation [here](https://docs.aspose.com/words/java/how-to-execute-mail-merge/).
 #### **Step 4 – Prepare the Code**
 The code for setting up nested mail merge is simple to implement with Aspose.Words. Remember when setting up your project:
 
