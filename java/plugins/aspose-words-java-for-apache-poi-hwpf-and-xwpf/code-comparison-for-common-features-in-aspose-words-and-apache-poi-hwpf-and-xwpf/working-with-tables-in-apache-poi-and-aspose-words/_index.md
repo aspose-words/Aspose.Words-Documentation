@@ -6,5 +6,5 @@ url: /java/working-with-tables-in-apache-poi-and-aspose-words/
 ---
 
 ###### **This section includes the following topics:**
-- [Create Tables](/words/java/create-tables-html/)
-- [Format Table in Document](/words/java/format-table-in-document-html/)
+- [Create Tables](https://docs.aspose.com/words/java/create-tables/)
+- [Format Table in Document](https://docs.aspose.com/words/java/format-table-in-document/)
