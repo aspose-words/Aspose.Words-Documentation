@@ -210,6 +210,6 @@ private byte[] getImage() throws IOException {
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Add a Watermark to a Document](http://www.aspose.com/docs/display/wordsjava/How+to++Add+a+Watermark+to+a+Document).
+For more details, visit [How to Add a Watermark to a Document](https://docs.aspose.com/words/java/how-to-add-a-watermark-to-a-document/).
 
 {{% /alert %}}
