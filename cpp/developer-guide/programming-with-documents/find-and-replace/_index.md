@@ -47,8 +47,8 @@ This section describes how to programmatically find and highlight a word or a ph
 
 In addition to formatting, bookmarks in the middle of text will split it into more runs.) The above example is represented in Aspose.Words using the following objects:
 
-- [Run](/pages/createpage.action?spaceKey=wordscpp&title=Run+Class&linkCreation=true&fromPageId=68943873) ([Run.Text](/pages/createpage.action?spaceKey=wordscpp&title=Text+Property&linkCreation=true&fromPageId=68943873) = “Hello”, [Font.Italic](/pages/createpage.action?spaceKey=wordscpp&title=Italic+Property&linkCreation=true&fromPageId=68943873) = true)
-- Run (Run.Text = “World”, [Font.Bold](/pages/createpage.action?spaceKey=wordscpp&title=Bold+Property&linkCreation=true&fromPageId=68943873) = true)
+- [Run](https://apireference.aspose.com/words/cpp/class/aspose.words.run) ([Run.Text](https://apireference.aspose.com/words/cpp/class/aspose.words.run#a62816f744b09a5afa32061cc826e23c2) = “Hello”, [Font.Italic](https://apireference.aspose.com/words/cpp/class/aspose.words.font#a567e5f51bda576ac68e64ac28c27dd2c) = true)
+- Run (Run.Text = “World”, [Font.Bold](https://apireference.aspose.com/words/cpp/class/aspose.words.font#a321186d0ff687df7328f15fd23444acc) = true)
 - Run (Run.Text = “!”)
 
 This article provides a solution designed to handle the described case – if necessary it collects the word (or phrase) from several runs while skipping non-run nodes.
