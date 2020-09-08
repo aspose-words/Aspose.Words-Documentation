@@ -71,9 +71,9 @@ To download IntelliJ IDEA
   - In Search Box type: "Aspose"
   - Select "**Aspose Words Java for IntelliJ IDEA Maven**" plugin to install.
 ## **Installing**
-[Installing Aspose.Words for IntelliJ IDEA - Maven](http://www.aspose.com/docs/display/wordsjava/Installing+and+Using+Aspose.Words+for+IntelliJ+IDEA+-+Maven#InstallingandUsingAspose.WordsforIntelliJIDEA-Maven-InstallingAsposeWordsJavaforIntelliJIDEA%5CMaven)
+[Installing Aspose.Words for IntelliJ IDEA - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/)
 ## **Using**
-[Using Aspose.Words for IntelliJ IDEA - Maven](http://www.aspose.com/docs/display/wordsjava/Installing+and+Using+Aspose.Words+for+IntelliJ+IDEA+-+Maven#InstallingandUsingAspose.WordsforIntelliJIDEA-Maven-Using)
+[Using Aspose.Words for IntelliJ IDEA - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/#using-asposeword-maven-project-wizard)
 ## **Video Demo**
 Please check [the video](https://youtu.be/7AzHu20I0ro) below to see [Aspose.Words Maven Project Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordsmavenproject-wizard) and [Aspose.Words Example Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordscodeexample-wizard) in action.
 ## **Support, Extend and Contribute**
