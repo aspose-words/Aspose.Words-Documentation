@@ -149,7 +149,7 @@ Documents in DOCX format can contain a special type of graphics called Shape. Th
 |![todo:image_alt_text](aspose-words-document-object-model_5.png)| |
 On the above diagram:* **Table** can have many rows.
 
-- [Row](/pages/createpage.action?spaceKey=wordscpp&title=Row+Class&linkCreation=true&fromPageId=66948945) can have many cells.
+- [Row](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.row) can have many cells.
 - **Cell** can contain block-level nodes (e.g. **Paragraph** and **Table** ).
 - Rows, cell and block-level elements can be wrapped inside **CustomXmlMarkup** and **StructuredDocumentTag** .
 ### **About Custom Markup**
