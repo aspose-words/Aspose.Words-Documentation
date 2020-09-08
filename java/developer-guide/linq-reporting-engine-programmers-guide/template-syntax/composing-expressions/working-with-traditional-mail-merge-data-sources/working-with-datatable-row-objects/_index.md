@@ -18,6 +18,6 @@ LINQ Reporting Engine enables you to access a data associated with a particular 
 
 ` `REF note **Note –** Field and table names are case-insensitive.
 
-To determine parent-child relationships for a particular DataTable instance, the engine uses [DataRelation](http://www.aspose.com/docs/display/wordsjavaold/DataRelation) objects contained within the corresponding DataSet instance. Thus, you can manage these relationships in a common way.
+To determine parent-child relationships for a particular DataTable instance, the engine uses **DataRelation** objects contained within the corresponding DataSet instance. Thus, you can manage these relationships in a common way.
 
 {{% /alert %}}
