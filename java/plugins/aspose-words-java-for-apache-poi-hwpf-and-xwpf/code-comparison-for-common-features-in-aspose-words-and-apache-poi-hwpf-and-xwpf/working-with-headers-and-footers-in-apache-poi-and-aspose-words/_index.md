@@ -6,5 +6,5 @@ url: /java/working-with-headers-and-footers-in-apache-poi-and-aspose-words/
 ---
 
 ###### **This section includes the following topics:**
-- [Working with Footers](/words/java/working-with-footers-html/)
-- [Working with Headers](/words/java/working-with-headers-html/)
+- [Working with Footers](https://docs.aspose.com/words/java/working-with-footers/)
+- [Working with Headers](https://docs.aspose.com/words/java/working-with-headers/)
