@@ -6,13 +6,13 @@ url: /java/working-with-documents-in-aspose-words/
 ---
 
 ###### **This section includes the following topics:** 
-- [Add Watermark](/words/java/add-watermark-html/)
-- [Append Documents](/words/java/append-documents-html/)
-- [Check Format Compatibility](/words/java/check-format-compatibility-html/)
-- [Clone Documents](/words/java/clone-documents-html/)
-- [Insert Barcode on Each Page](/words/java/insert-barcode-on-each-page-html/)
-- [Insert Picture in Document](/words/java/insert-picture-in-document-html/)
-- [Protect Documents](/words/java/protect-documents-html/)
-- [Track Changes in Documents](/words/java/track-changes-in-documents-html/)
-- [Working with Bookmarks in Aspose.Words](/words/java/working-with-bookmarks-in-aspose-words-html/)
-- [Working with Digital Signatures using Aspose.Words](/words/java/working-with-digital-signatures-using-aspose-words-html/)
+- [Add Watermark](https://docs.aspose.com/words/java/add-watermark/)
+- [Append Documents](https://docs.aspose.com/words/java/append-documents/)
+- [Check Format Compatibility](https://docs.aspose.com/words/java/check-format-compatibility/)
+- [Clone Documents](https://docs.aspose.com/words/java/clone-documents/)
+- [Insert Barcode on Each Page](https://docs.aspose.com/words/java/insert-barcode-on-each-page/)
+- [Insert Picture in Document](https://docs.aspose.com/words/java/insert-picture-in-document/)
+- [Protect Documents](https://docs.aspose.com/words/java/protect-documents/)
+- [Track Changes in Documents](https://docs.aspose.com/words/java/track-changes-in-documents/)
+- [Working with Bookmarks in Aspose.Words](https://docs.aspose.com/words/java/working-with-bookmarks-in-aspose-words/)
+- [Working with Digital Signatures using Aspose.Words](https://docs.aspose.com/words/java/working-with-digital-signatures-using-aspose-words/)
