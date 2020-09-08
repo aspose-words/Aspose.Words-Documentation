@@ -13,9 +13,9 @@ Please find below a list of custom styles that Aspose.Words uses to save extra i
 ## **Comment’s Content**
 Comment's content is exported as div container. -aw-comment-author, -aw-comment-datetime and -aw-comment-initial CSS properties can be applied to this div.
 
-**-aw-comment-author** stores author name for the comment. Corresponds to [Aspose.Words.Comment.Author](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Comment.getAuthor+property) property.
-**-aw-comment-datetime** stores date and time the comment was made. Corresponds to [Aspose.Words.Comment.DateTime](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Comment.getDateTime+property) property.
-**-aw-comment-initial** stores initials of the user associated with the comment. Corresponds to [Aspose.Words.Comment.Initial](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Comment.getInitial+property) property.
+**-aw-comment-author** stores author name for the comment. Corresponds to [Aspose.Words.Comment.Author](https://apireference.aspose.com/words/java/com.aspose.words/comment#Author) property.
+**-aw-comment-datetime** stores date and time the comment was made. Corresponds to [Aspose.Words.Comment.DateTime](https://apireference.aspose.com/words/java/com.aspose.words/comment#DateTime) property.
+**-aw-comment-initial** stores initials of the user associated with the comment. Corresponds to [Aspose.Words.Comment.Initial](https://apireference.aspose.com/words/java/com.aspose.words/comment#Initial) property.
 
 Example:
 
@@ -75,9 +75,9 @@ Example:
 ## **Footnotes’ (Endnotes’) Formatting**
 All footnotes (endnotes) in a document share formatting. When exported to HTML footnotes (endnotes) are separated from other document’s content with horizontal rule element. –aw-footnote-numberstyle, -aw-footnote-startnumber and –aw-footnote-type CSS properties can be applied to this horizontal rule.
 
-**-aw-footnote-numberstyle** stores the number format for automatically numbered footnotes (endnotes). Corresponds to [Aspose.Words.FootnoteOptions.NumberStyle](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.FootnoteOptions.getNumberStyle+property) property of Document.FootnoteOptions ([Document.EndnoteOptions](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Document.getFootnoteOptions+property)) object.
+**-aw-footnote-numberstyle** stores the number format for automatically numbered footnotes (endnotes). Corresponds to [Aspose.Words.FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/java/com.aspose.words/footnoteoptions#NumberStyle) property of Document.FootnoteOptions ([Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/document#EndnoteOptions)) object.
 
-**-aw-footnote-startnumber** stores the starting number or character for the first automatically numbered footnotes (endnotes). Corresponds to [Aspose.Words.FootnoteOptions.StartNumber](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.FootnoteOptions.getStartNumber+property) property of [Document.EndnoteOptions](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Document.getFootnoteOptions+property) ([Document.EndnoteOptions](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Document.getEndnoteOptions+property)) object.
+**-aw-footnote-startnumber** stores the starting number or character for the first automatically numbered footnotes (endnotes). Corresponds to [Aspose.Words.FootnoteOptions.StartNumber](https://apireference.aspose.com/words/java/com.aspose.words/footnoteoptions#StartNumber) property of [Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/document#EndnoteOptions) ([Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/document#EndnoteOptions)) object.
 
 **-aw-footnote-type** stores value indicating whether this is footnote or endnote.
 
@@ -103,7 +103,7 @@ Example:
 ## **Header (Footer)**
 Header (footer) is exported as div container. –aw-different-first-page and –aw-headerfooter-type CSS properties can be applied to this div.
 
-**-aw-headerfooter-type** stores value indicating type of header (footer). This propertie’s values partially correspond to [Aspose.Words.HeaderFooterType](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.HeaderFooterType+Class) enum (other values are meaningless in HTML context and are not used). Corresponds to [Aspose.Words.HeaderFooter.HeaderFooterType](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.HeaderFooterType+Class) property.
+**-aw-headerfooter-type** stores value indicating type of header (footer). This propertie’s values partially correspond to [Aspose.Words.HeaderFooterType](https://apireference.aspose.com/words/java/com.aspose.words/HeaderFooterType) enum (other values are meaningless in HTML context and are not used). Corresponds to [Aspose.Words.HeaderFooter.HeaderFooterType](https://apireference.aspose.com/words/java/com.aspose.words/headerfooter#HeaderFooterType) property.
 
 - If value of this property is “header-primary” than this is primary header.
 - If value of this property is “header-first” than this is header for the first page of a section.
@@ -111,7 +111,7 @@ Header (footer) is exported as div container. –aw-different-first-page and –
 - If value of this property is “footer-first” than this is footer for the first page of a section.
 - If value of this property is “linked” than this header (footer) is linked to the previous section’s header (footer).
 
-**-aw-different-first-page** stores value indicating whether different header (footer) is used on the first page. One possible value for this property is “true”. Corresponds to [Aspose.Words.PageSetup.DifferentFirstPageHeaderFooter](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.PageSetup.getDifferentFirstPageHeaderFooter+property) property of [Aspose.Words.Section.PageSetup](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.PageSetup+class) object.
+**-aw-different-first-page** stores value indicating whether different header (footer) is used on the first page. One possible value for this property is “true”. Corresponds to [Aspose.Words.PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#DifferentFirstPageHeaderFooter) property of [Aspose.Words.Section.PageSetup](https://apireference.aspose.com/words/java/com.aspose.words/section#PageSetup) object.
 
 Example:
 
@@ -133,8 +133,8 @@ In simple case when bookmark is located within one paragraph, in output HTML thi
 
 In more complex case when bookmark is overlapped with other bookmark or bookmark’s boundaries are spread over multiple paragraphs additional span element is used to preserve bookmark’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-bookmark-start and –aw-bookmark-end CSS properties can be applied to this span.
 
-**-aw-bookmark-start** stores name of bookmark which it starts. Corresponds to [Aspose.Words.Bookmark.Name](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Bookmark.getName+property) property.
-**-aw-bookmark-end** stores name of bookmark which it ends. Corresponds to [Aspose.Words.Bookmark.Name](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Bookmark.getName+property) property.
+**-aw-bookmark-start** stores name of bookmark which it starts. Corresponds to [Aspose.Words.Bookmark.Name](https://apireference.aspose.com/words/java/com.aspose.words/bookmark#Name) property.
+**-aw-bookmark-end** stores name of bookmark which it ends. Corresponds to [Aspose.Words.Bookmark.Name](https://apireference.aspose.com/words/java/com.aspose.words/bookmark#Name) property.
 
 In the following example first bookmark’s boundaries are marked as bookmark with “bm1” name and span which –aw-bookmark-end property’s value is set to “bm1”.
 
@@ -149,11 +149,11 @@ In the following example first bookmark’s boundaries are marked as bookmark wi
 ## **Tab Stop**
 Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader and –aw-tabstop-pos CSS properties can be applied to this span.
 
-**-aw-tabstop-align** stores value which specifies the alignment/type of a tab stop. Possible values are “left”, “center”, “right” and partially correspond to values of Aspose.Words.TabAlignment enum (other tab stop types can’t be emulated by means of HTML and are exported as span elements with "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\x20" content). Property corresponds to [Aspose.Words.TabStop.Alignment](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.TabStop.getAlignment+property) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ParagraphFormat.getTabStops+property) collection object.
+**-aw-tabstop-align** stores value which specifies the alignment/type of a tab stop. Possible values are “left”, “center”, “right” and partially correspond to values of Aspose.Words.TabAlignment enum (other tab stop types can’t be emulated by means of HTML and are exported as span elements with "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\x20" content). Property corresponds to [Aspose.Words.TabStop.Alignment](https://apireference.aspose.com/words/java/com.aspose.words/tabstop#Alignment) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat#TabStops) collection object.
 
-**-aw-tabstop-pos** stores position of the tab stop. Corresponds to Aspose.Words.TabStop.Position property of Corresponds to [Aspose.Words.Paragraph.ParagraphFormat.TabStops](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ParagraphFormat.getTabStops+property) collection object.
+**-aw-tabstop-pos** stores position of the tab stop. Corresponds to Aspose.Words.TabStop.Position property of Corresponds to [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat#TabStops) collection object.
 
-**-aw-tabstop-leader** stores stores value which specifies the type of the leader line displayed under the tab character. Possible values are “none”, “dots”, “dashes”, “line”, “heavy”, “middledot” and correspond to values of [Aspose.Words.TabLeader](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.TabLeader+Class) enum. Property corresponds to [Aspose.Words.TabStop.Leader](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.TabStop.getLeader+property) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ParagraphFormat.getTabStops+property) collection object.
+**-aw-tabstop-leader** stores stores value which specifies the type of the leader line displayed under the tab character. Possible values are “none”, “dots”, “dashes”, “line”, “heavy”, “middledot” and correspond to values of [Aspose.Words.TabLeader](https://apireference.aspose.com/words/java/com.aspose.words/TabLeader) enum. Property corresponds to [Aspose.Words.TabStop.Leader](https://apireference.aspose.com/words/java/com.aspose.words/tabstop#Leader) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat#TabStops) collection object.
 
 Example:
 
@@ -168,7 +168,7 @@ Example:
 ## **PAGE Field**
 Usually PAGE field is represented as one span element in HTML output, but can be represented with several spans. We enclose these span elements with one span container. –aw-field-code CSS property can be applied to this span.
 
-**-aw-field-code** stores text between field start and field separator (or field end if there is no separator). Corresponds to [Aspose.Words.Fields.Field.GetFieldCode()](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.Field.getFieldCode+method) function’s return value.
+**-aw-field-code** stores text between field start and field separator (or field end if there is no separator). Corresponds to [Aspose.Words.Fields.Field.GetFieldCode()](https://apireference.aspose.com/words/java/com.aspose.words/field#getFieldCode()) function’s return value.
 
 Example:
 
@@ -180,15 +180,15 @@ Example:
 ## **Shape**
 Shape is exported as img element. –aw-wrap-type, –aw-left-pos, -aw-top-pos, -aw-rel-hpos and –aw-rel-vpos CSS properties can be applied to this img element.
 
-**-aw-wrap-type** stores value which specifies how text is wrapped around a shape. Possible values are “none”, “inline”, “topbottom”, “square”, “tight”, “through” and correspond to Aspose.Words.Drawing.WrapType enum. Property corresponds to [Aspose.Words.Drawing.ShapeBase.WrapType](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ShapeBase.getWrapType+property) property.
+**-aw-wrap-type** stores value which specifies how text is wrapped around a shape. Possible values are “none”, “inline”, “topbottom”, “square”, “tight”, “through” and correspond to Aspose.Words.Drawing.WrapType enum. Property corresponds to [Aspose.Words.Drawing.ShapeBase.WrapType](https://apireference.aspose.com/words/java/com.aspose.words/shapebase#WrapType) property.
 
-**-aw-left-pos** stores position of the left edge of the containing block of the shape. Corresponds to [Aspose.Words.Drawing.ShapeBase.Left](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ShapeBase.getLeft+property) property.
+**-aw-left-pos** stores position of the left edge of the containing block of the shape. Corresponds to [Aspose.Words.Drawing.ShapeBase.Left](https://apireference.aspose.com/words/java/com.aspose.words/shapebase#Left) property.
 
-**-aw-top-pos** stores position of the top edge of the containing block of the shape. Corresponds to [Aspose.Words.Drawing.ShapeBase.Top](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ShapeBase.getTop+property) property.
+**-aw-top-pos** stores position of the top edge of the containing block of the shape. Corresponds to [Aspose.Words.Drawing.ShapeBase.Top](https://apireference.aspose.com/words/java/com.aspose.words/shapebase#Top) property.
 
-**-aw-rel-hpos** stores value which specifies to what the horizontal position of a shape or text frame is relative. Possible values are “margin”, “page”, “column”, “character”, “leftmargin”, “rightmargin”, “insidemargin”, “outsidemargin” and correspond to Aspose.Words.Drawing.RelativeHorizontalPosition enum. Property corresponds to [Aspose.Words.Drawing.ShapeBase.RelativeHorizontalPosition](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ShapeBase.getRelativeHorizontalPosition+method) property.
+**-aw-rel-hpos** stores value which specifies to what the horizontal position of a shape or text frame is relative. Possible values are “margin”, “page”, “column”, “character”, “leftmargin”, “rightmargin”, “insidemargin”, “outsidemargin” and correspond to Aspose.Words.Drawing.RelativeHorizontalPosition enum. Property corresponds to [Aspose.Words.Drawing.ShapeBase.RelativeHorizontalPosition](https://apireference.aspose.com/words/java/com.aspose.words/shapebase#RelativeHorizontalPosition) property.
 
-**-aw-rel-vpos** stores value which specifies to what the vertical position of a shape or text frame is relative. Possible values are “margin”, “page”, “paragraph”, “line”, “topmargin”, “bottommargin”, “insidemargin”, “outsidemargin” and correspond to Aspose.Words.Drawing.RelativeVerticalPosition enum. Property corresponds to [Aspose.Words.Drawing.ShapeBase.RelativeVerticalPosition](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.ShapeBase.getRelativeVerticalPosition+property) property.
+**-aw-rel-vpos** stores value which specifies to what the vertical position of a shape or text frame is relative. Possible values are “margin”, “page”, “paragraph”, “line”, “topmargin”, “bottommargin”, “insidemargin”, “outsidemargin” and correspond to Aspose.Words.Drawing.RelativeVerticalPosition enum. Property corresponds to [Aspose.Words.Drawing.ShapeBase.RelativeVerticalPosition](https://apireference.aspose.com/words/java/com.aspose.words/shapebase#RelativeVerticalPosition) property.
 
 Example:
 
@@ -218,8 +218,8 @@ Example:
 ## **Structured Document Tag**
 Every document element which is content control can be marked in output HTML with special CSS properties –aw-sdt-title and –aw-sdt-tag (p and span elements).
 
-**-aw-sdt-title** stores friendly name associated with structured document tag. Corresponds to [Aspose.Words.Markup.StructuredDocumentTag.Title](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.StructuredDocumentTag.getTitle+property) property.
-**-aw-sdt-tag** stores tag associated with structured document tag. Corresponds to [Aspose.Words.Markup.StructuredDocumentTag.Tag](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.StructuredDocumentTag.getTag+property) property.
+**-aw-sdt-title** stores friendly name associated with structured document tag. Corresponds to [Aspose.Words.Markup.StructuredDocumentTag.Title](https://apireference.aspose.com/words/java/com.aspose.words/structureddocumenttag#Title) property.
+**-aw-sdt-tag** stores tag associated with structured document tag. Corresponds to [Aspose.Words.Markup.StructuredDocumentTag.Tag](https://apireference.aspose.com/words/java/com.aspose.words/structureddocumenttag#Tag) property.
 
 Example:
 
