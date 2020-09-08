@@ -230,7 +230,7 @@ Only Sans style Noto fonts with regular weight are used in predefined settings.
 
 {{% /alert %}} 
 ## **Where Aspose.Words Looks for Fonts**
-Aspose.Words attempts to find TrueType fonts on the file system automatically. Usually, you can rely on the default behavior of Aspose.Words to find the TrueType fonts, but sometimes you need to specify your own folders containing TrueType fonts. The ["Specifying TrueType Fonts Location"](/words/java/specifying-truetype-fonts-location/) topic describes how and where Aspose.Words looks for fonts, as well as how to specify your own font locations.
+Aspose.Words attempts to find TrueType fonts on the file system automatically. Usually, you can rely on the default behavior of Aspose.Words to find the TrueType fonts, but sometimes you need to specify your own folders containing TrueType fonts. The ["Specify TrueType Fonts Location"](https://docs.aspose.com/words/java/specify-truetype-fonts-location/) topic describes how and where Aspose.Words looks for fonts, as well as how to specify your own font locations.
 ## **Differences in Processing of Font Formats in Aspose.Words and Microsoft Word**
 There are some differences in the processing of font formats in Aspose.Words and Microsoft Word as shown in the table below:
 
