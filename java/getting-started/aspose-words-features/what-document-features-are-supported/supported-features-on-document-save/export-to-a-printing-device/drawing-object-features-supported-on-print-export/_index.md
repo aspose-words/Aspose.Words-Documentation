@@ -12,8 +12,8 @@ All images are exported as the same format that they were originally loaded as.
 
 See the following links in the documentation for further information:
 
-- [SvgSaveOptions.ExportEmbeddedImages](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.SvgSaveOptions+class)
-- [SvgSaveOptions.ResourcesFolder](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.SvgSaveOptions+class)
+- [SvgSaveOptions.ExportEmbeddedImages](https://apireference.aspose.com/words/java/com.aspose.words/svgsaveoptions#ExportEmbeddedImages)
+- [SvgSaveOptions.ResourcesFolder](https://apireference.aspose.com/words/java/com.aspose.words/svgsaveoptions#ResourcesFolder)
 
 {{% /alert %}} 
 
