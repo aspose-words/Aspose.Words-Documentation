@@ -76,4 +76,4 @@ The output below shows the result after merging the document with an empty data 
 
 
 
-You can also observe some of the related content surronding the region is not removed along with the unused region. To manually handle how a region is removed or replaced you can use the technique provided in the **“Apply Custom Logic to Empty Regions”** article [How to Apply Custom Logic to Unmerged Regions](http://www.aspose.com/docs/display/wordsjava/How+to+Execute+Mail+Merge).
+You can also observe some of the related content surronding the region is not removed along with the unused region. To manually handle how a region is removed or replaced you can use the technique provided in the **“Apply Custom Logic to Empty Regions”** article [How to Apply Custom Logic to Unmerged Regions](https://docs.aspose.com/words/java/how-to-apply-custom-logic-to-unmerged-regions/).
