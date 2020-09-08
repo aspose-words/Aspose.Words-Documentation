@@ -14,10 +14,11 @@ Use [Range.replace](http://www.aspose.com/api/java/words/com.aspose.words/classe
 
 The following examples show how to use the aforementioned overloads. The sample class provides methods, each of which uses a Range.Replace overload:
 
-- [**Example 1**](/words/java/find-and-replace-html/) simply replaces all occurrences of the word "sad" to "bad".
-- [**Example 2**](/words/java/find-and-replace-html/) replaces all occurrences of the words "sad" or "mad" to "bad".
-- [**Example 3**](/words/java/find-and-replace-html/) uses a replace evaluator method to concatenate occurrences of words "sad" or "bad" with the counter value that is incremented each time the new occurrence is found.
-- [**Example 4**](/words/java/find-and-replace-html/) explains how to recognize and use substitutions within replacement patterns.
+- **Example 1** simply replaces all occurrences of the word "sad" to "bad".
+- **Example 2** replaces all occurrences of the words "sad" or "mad" to "bad".
+- **Example 3** uses a replace evaluator method to concatenate occurrences of words "sad" or "bad" with the counter value that is incremented each time the new occurrence is found.
+- **Example 4** explains how to recognize and use substitutions within replacement patterns.
+
 ### **Example 1: Replace One Word with Another**
 Shows how to replace all occurrences of the word "sad" to "bad". You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ReplaceWithString/Document.doc).
 
