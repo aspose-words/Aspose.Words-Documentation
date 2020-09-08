@@ -48,13 +48,13 @@ Note that there was a lack of documentation about using of charts with LINQ Repo
 
 The following documentation sections were added/modified:
 
-- [Using Charts to Represent Sequential Data](http://www.aspose.com/docs/display/wordsjava/Using+Charts+to+Represent+Sequential+Data)
-- [Inserting Images Dynamically](http://www.aspose.com/docs/display/wordsjava/Inserting+Images+Dynamically)
-- [Pie Chart Template (Appendix C)](http://www.aspose.com/docs/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-PieChartTemplate)
-- [Scatter Chart Template (Appendix C)](http://www.aspose.com/docs/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-ScatterChartTemplate)
-- [Bubble Chart Template (Appendix C)](http://www.aspose.com/docs/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-BubbleChartTemplate)
-- [In-Table Template with Filtering, Grouping, and Ordering (Appendix C)](http://www.aspose.com/docs/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-InTableTemplateFilteringGroupingOrdering)
-- [Chart Template with Filtering, Grouping, and Ordering (Appendix C)](http://www.aspose.com/docs/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-ChartTemplateFilteringGroupingOrdering)
+- [Using Charts to Represent Sequential Data](https://docs.aspose.com/words/java/using-charts-to-represent-sequential-data/)
+- [Inserting Images Dynamically](https://docs.aspose.com/words/java/inserting-images-dynamically/)
+- [Pie Chart Template (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#pie-chart-template)
+- [Scatter Chart Template (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#scatter-chart-template)
+- [Bubble Chart Template (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#bubble-chart-template)
+- [In-Table Template with Filtering, Grouping, and Ordering (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#in-table-template-with-filtering-grouping-and-ordering)
+- [Chart Template with Filtering, Grouping, and Ordering (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#chart-template-with-filtering-grouping-and-ordering)
 ### **Added ReportingEngine.Options Property**
 WORDSNET-12380 is now resolved. We have introduced following property in Aspose.Words 15.9.0.
 
