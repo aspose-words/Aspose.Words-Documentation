@@ -53,7 +53,7 @@ The following items are implemented in Aspose.Words 15.6.0
 
 Please read more details and examples in the following section of documentation.
 
-[Working with Charts](http://www.aspose.com/docs/display/wordsjava/Working+with+Charts)
+[Working with Charts](https://docs.aspose.com/words/java/working-with-charts/)
 ### **Password Verification in Write-Protected Document.**
 WORDSNET-7893 is implemented now. A new WriteProtection.validatePassword method is added to the public API.
 
