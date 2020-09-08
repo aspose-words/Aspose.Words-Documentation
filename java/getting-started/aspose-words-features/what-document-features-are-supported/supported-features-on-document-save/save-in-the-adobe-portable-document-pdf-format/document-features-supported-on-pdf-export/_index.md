@@ -31,8 +31,8 @@ See the following links in the documentation for further information:
 
 - [Save a Document]()
 - [Rendering and Printing]()
-- [PdfSaveOptions](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.PdfSaveOptions+class)
-- [PdfSaveOptions.Compliance](http://www.aspose.com/docs/display/wordsjava/com.aspose.words.PdfSaveOptions+class)
+- [PdfSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
+- [PdfSaveOptions.Compliance](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
 
 {{% /alert %}} 
 ##### **General**
