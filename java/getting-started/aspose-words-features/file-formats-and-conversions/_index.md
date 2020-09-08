@@ -10,7 +10,7 @@ url: /java/file-formats-and-conversions/
 - [Microsoft Word - DOC](/words/java/microsoft-word-doc/)
 - [WordprocessingML - DOCX and XML](/words/java/wordprocessingml-docx-and-xml/)
 - [Rich Text Format - RTF](/words/java/rich-text-format-rtf/)
-- [HTML, XHTML and MHTML](/words/java/html-2c-xhtml-and-mhtml/)
+- [HTML, XHTML and MHTML](https://docs.aspose.com/words/java/html-xhtml-and-mhtml/)
 - [OpenDocument - ODT](/words/java/opendocument-odt/)
 - [Adobe Portable Document Format - PDF](/words/java/adobe-portable-document-format-pdf/)
 - [XML Paper Specification - XPS](/words/java/xml-paper-specification-xps/)
