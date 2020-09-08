@@ -60,7 +60,7 @@ Using destination styles has its advantages as it reduces duplicated styles whic
 
 {{% alert color="primary" %}} 
 
-Further information about the different import modes can be found in the API description for the [ImportFormatMode](/pages/createpage.action?spaceKey=wordscpp&title=ImportFormatMode+Class&linkCreation=true&fromPageId=68943884) enumeration.
+Further information about the different import modes can be found in the API description for the [ImportFormatMode](https://apireference.aspose.com/words/cpp/namespace/aspose.words#aafaa52cbf0baa49c3225787c23a8c949) enumeration.
 
 {{% /alert %}} 
 ## **Specifying How a Document is Joined Together**
@@ -119,7 +119,7 @@ In this context, we will refer to each appended document with the page numbering
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Joining-Appending-ConvertNumPageFields-ConvertNumPageFields.cpp" >}}
 ## **Controlling How Lists are Handled**
-When appending documents which contain lists with linked styles, the chosen [ImportFormatMode](/pages/createpage.action?spaceKey=wordscpp&title=ImportFormatMode+Class&linkCreation=true&fromPageId=68943884) can make a difference in how the lists behave when the documents are combined. Below example shows how to append a document to another document containing lists retaining source formatting.
+When appending documents which contain lists with linked styles, the chosen [ImportFormatMode](https://apireference.aspose.com/words/cpp/namespace/aspose.words#aafaa52cbf0baa49c3225787c23a8c949) can make a difference in how the lists behave when the documents are combined. Below example shows how to append a document to another document containing lists retaining source formatting.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Joining-Appending-ListKeepSourceFormatting-ListKeepSourceFormatting.cpp" >}}
 
