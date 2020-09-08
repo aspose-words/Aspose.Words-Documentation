@@ -7,6 +7,6 @@ url: /java/working-with-tables-in-jython/
 
 **This section includes the following topics:**
 
-- [Autofit Setting to Tables in Jython](/words/java/autofit-setting-to-tables-in-jython-html/)
-- [Joining Tables in Jython](/words/java/joining-tables-in-jython-html/)
-- [Split Tables in Jython](/words/java/split-tables-in-jython-html/)
+- [Autofit Setting to Tables in Jython](https://docs.aspose.com/words/java/autofit-setting-to-tables-in-jython/)
+- [Joining Tables in Jython](https://docs.aspose.com/words/java/joining-tables-in-jython/)
+- [Split Tables in Jython](https://docs.aspose.com/words/java/split-tables-in-jython/)
