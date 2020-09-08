@@ -21,6 +21,6 @@ Here is a description how to do this with JasperServer Web Services sample appli
 1. Run <http://localhost:8080/jasperserver-ws-sample>
 1. Browse to Reports, then Samples and then select some report, say "Employees"
 1. In "Export format" drop-down box select "XXX via Aspose.Words", where XXX is desired output format
-1. Press [Run the Report](/pages/createpage.action?spaceKey=wordsjasperreports&title=Run+the+Report&linkCreation=true&fromPageId=4194346) button
+1. Press "Run the Report" button
 1. Report download should start
    Certainly it is possible to use any other standard (or your own) client to produce reports from JasperServer Web Services.
