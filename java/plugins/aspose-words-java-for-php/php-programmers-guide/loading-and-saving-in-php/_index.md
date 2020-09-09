@@ -7,4 +7,4 @@ url: /java/loading-and-saving-in-php/
 
 **This section includes the following topics:**
 
-- [Check Format in PHP](/words/java/check-format-in-php-html/)
+- [Check Format in PHP](https://docs.aspose.com/words/java/check-format-in-php/)
