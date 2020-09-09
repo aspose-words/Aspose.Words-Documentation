@@ -13,6 +13,8 @@ Note that there may appear to be more styles in the output ODT document than in 
 
 {{% /alert %}} 
 
+{{% alert color="primary" %}} 
+
 Try Online
 
 You can check the quality of Aspose.Words conversion to OpenOffice file format, and view the results online at these links:
@@ -20,6 +22,8 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 <https://products.aspose.app/words/conversion>
 
 <https://products.aspose.app/words/viewer>
+
+{{% /alert %}} 
 
 
 ##### **Style Type**
