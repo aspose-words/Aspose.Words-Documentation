@@ -70,7 +70,7 @@ License license = new License();
 license.setLicense("Aspose.Words.Java.lic");
 {{< /highlight >}}
 
-Please check this [article](http://www.aspose.com/docs/display/wordsjava/Applying+a+License) for further details.
+Please check this [article](https://docs.aspose.com/words/java/license-aspose-words/#applying-a-license) for further details.
 ## **Support, Extend and Contribute**
 ### **Support**
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
