@@ -42,8 +42,8 @@ builder.write("(C) 2001 Aspose Pty Ltd. All rights reserved.");
 doc.save(dataDir + "AsposeFooter.doc");
 {{< /highlight >}}
 
-## **Apache POI HWPF XWPF - Working with Footers
-HeaderStories can be used to access footer of document.
+## **Apache POI HWPF XWPF - Working with Footers**
+HeaderStories can be used to access the footer of the document.
 
 **Java**
 
