@@ -7,6 +7,6 @@ url: /java/working-with-fields-in-php/
 
 **This section includes the following topics:**
 
-- [Insert Nested Fields in PHP](/words/java/insert-nested-fields-in-php-html/)
-- [Remove Field in PHP](/words/java/remove-field-in-php-html/)
-- [Replace Fields With Static Text in PHP](/words/java/replace-fields-with-static-text-in-php-html/)
+- [Insert Nested Fields in PHP](https://docs.aspose.com/words/java/insert-nested-fields-in-php/)
+- [Remove Field in PHP](https://docs.aspose.com/words/java/remove-field-in-php/)
+- [Replace Fields With Static Text in PHP](https://docs.aspose.com/words/java/replace-fields-with-static-text-in-php/)
