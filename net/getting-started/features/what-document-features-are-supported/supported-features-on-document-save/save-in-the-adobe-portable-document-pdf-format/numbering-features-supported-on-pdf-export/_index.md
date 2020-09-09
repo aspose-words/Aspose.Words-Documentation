@@ -7,7 +7,7 @@ url: /net/numbering-features-supported-on-pdf-export/
 
 ##### **Numbering Definition**
 
-|<p>**{{% alert color="primary" %}}** </p><p>**Feature**</p><p>**{{% /alert %}}**</p>|**Supported**|**Comment**|**See Also**|
+|**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
 |Multi Level |Yes | | |

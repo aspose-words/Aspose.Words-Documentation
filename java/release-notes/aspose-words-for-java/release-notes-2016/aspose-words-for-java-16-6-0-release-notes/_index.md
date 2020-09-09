@@ -150,7 +150,7 @@ There are 113 improvements and fixes in this regular monthly release. The most n
 ## **Public API and Backward Incompatible Changes**
 This section lists public API changes that were introduced in Aspose.Words 16.6.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 ### **Added Support for Outer Document Insertion to LINQ Reporting Engine**
-WORDSNET-13329 has been resolved. The [Inserting Documents Dynamically](http://www.aspose.com/docs/display/wordsjava/Inserting+Documents+Dynamically) section was added to the LINQ Reporting Engine's documentation.
+WORDSNET-13329 has been resolved. The [Inserting Documents Dynamically](https://docs.aspose.com/words/java/inserting-documents-dynamically/) section was added to the LINQ Reporting Engine's documentation.
 ### **Fast Extraction from DOC Format via PlainTextDocument Class is Faster by a Factor of Ten (at a cost)**
 WORDSNET-13498 has been resolved. We've improved the speed of fast text indexing method for DOC format available via public API as PlainTextDocument. However to do this a special DOC reader had to be written which only guarantees the order of plain text within a story upon reading. This means that document sections may be swapped around, and their order is not guaranteed. However the order of paragraphs words and so forth within is section will be as usual.
 ### **RevisionOptions has ShowRevisionBalloons Option now**

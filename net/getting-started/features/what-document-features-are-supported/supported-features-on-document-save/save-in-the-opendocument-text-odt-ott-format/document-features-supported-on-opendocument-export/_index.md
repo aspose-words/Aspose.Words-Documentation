@@ -22,6 +22,8 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
+{{% alert color="primary" %}} 
+
 Try Online
 
 You can check the quality of Aspose.Words conversion to OpenOffice file format, and view the results online at these links:
@@ -29,6 +31,8 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 <https://products.aspose.app/words/conversion>
 
 <https://products.aspose.app/words/viewer>
+
+{{% /alert %}} 
 
 
 ##### **General**

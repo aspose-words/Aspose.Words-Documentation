@@ -7,7 +7,7 @@ url: /net/paragraph-features-supported-on-print-export/
 
 ##### **General Formatting**
 
-|<p>**{{% alert color="primary" %}}** </p><p>**Feature**</p><p>**{{% /alert %}}**</p>|**Supported**|**Comment**|**See Also**|
+|**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Style |Yes | | |
 |Alignment |Yes |The special "Thai Distributed" alignment is currently unsupported during rendering. Such alignment is rendered as left alignment. | |

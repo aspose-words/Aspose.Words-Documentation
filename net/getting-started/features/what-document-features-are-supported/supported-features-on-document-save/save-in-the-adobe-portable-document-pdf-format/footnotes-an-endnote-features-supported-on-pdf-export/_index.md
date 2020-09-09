@@ -7,7 +7,7 @@ url: /net/footnotes-an-endnote-features-supported-on-pdf-export/
 
 ##### **Footnotes**
 
-|<p>**{{% alert color="primary" %}}** </p><p>**Feature**</p><p>**{{% /alert %}}**</p>|**Supported**|**Comment**|**See Also**|
+|**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Reference Mark |Yes | | |
 |Custom Reference Mark |Yes | | |

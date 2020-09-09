@@ -44,5 +44,5 @@ Aspose.Words Java for Struts 1.3 is simple book store web based application writ
 
 - Aspose.Words 14.10.0 or above.
 - Java IDE (Eclipse, NetBeans, IntelliJ, ...).
-- [Downloads and Configure Aspose.Words in Struts 1.3](/words/java/downloads-and-configure-aspose-words-in-struts-1-3-html/)
-- [Support, Extend and Contribute Aspose.Words in Struts 1.3](/words/java/support-2c-extend-and-contribute-aspose-words-in-struts-1-3-html/)
+- [Downloads and Configure Aspose.Words in Struts 1.3](https://docs.aspose.com/words/java/downloads-and-configure-aspose-words-in-struts-1-3/)
+- [Support, Extend and Contribute Aspose.Words in Struts 1.3](https://docs.aspose.com/words/java/support-extend-and-contribute-aspose-words-in-struts-1-3/)

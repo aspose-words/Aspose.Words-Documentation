@@ -17,11 +17,15 @@ Character styles often are saved with .span prefix.
 
 {{% /alert %}} 
 
+{{% alert color="primary" %}} 
+
 Try Online
 
 You can check the quality of HTML Export and view the results online at this link:
 
 <https://products.aspose.app/words/viewer>
+
+{{% /alert %}} 
 
 
 ##### **Style Type**
