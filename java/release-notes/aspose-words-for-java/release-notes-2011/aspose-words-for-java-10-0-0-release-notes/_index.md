@@ -34,8 +34,7 @@ This release is a major milestone because from now on we can work more efficien
 - There is no build for Java 1.4. Only JARs for Java 1.5 and 6 are provided.
   Printing documents is not supported. 
   Rendering document pages to images such as TIFF is not supported. 
-  Some code examples in the user documentation and samples have not been updated and will not compile. 
-  For a complete list of known issues see <http://www.aspose.com/documentation/java-components/aspose.words-for-java/known-issues-in-aspose-words-for-java.html>. 
+  Some code examples in the user documentation and samples have not been updated and will not compile.
 ## **All Fixes**
 
 
