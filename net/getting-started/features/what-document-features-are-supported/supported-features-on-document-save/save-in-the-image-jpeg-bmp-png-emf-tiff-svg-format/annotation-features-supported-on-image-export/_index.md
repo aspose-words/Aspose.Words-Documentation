@@ -7,7 +7,7 @@ url: /net/annotation-features-supported-on-image-export/
 
 ##### **Bookmarks**
 
-|<p>**{{% alert color="primary" %}}** </p><p>**Feature**</p><p>**{{% /alert %}}**</p>|**Supported**|**Comment**|**See Also**|
+|**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Bookmark Start |Yes | | |
 |Bookmark End |Yes | | |
