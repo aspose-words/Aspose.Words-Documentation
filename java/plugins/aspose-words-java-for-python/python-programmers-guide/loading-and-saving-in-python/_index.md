@@ -7,4 +7,4 @@ url: /java/loading-and-saving-in-python/
 
 This section has following topics
 
-- [Check Format in Python](/words/java/check-format-in-python-html/)
+- [Check Format in Python](https://docs.aspose.com/words/java/check-format-in-python/)
