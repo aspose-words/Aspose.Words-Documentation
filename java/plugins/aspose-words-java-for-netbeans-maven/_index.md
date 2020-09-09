@@ -74,9 +74,9 @@ Download only Java EE / SE supported NetBeans download bundle of the current lat
   - Select "**Aspose.Words Java NetBeans (Maven)**" plugin
   - Click **"Install"**
 ## **Installing**
-[Installing Aspose.Words for NetBeans - Maven](http://www.aspose.com/docs/display/wordsjava/Installing+and+Using+Aspose.Words+for+NetBeans+-+Maven#InstallingandUsingAspose.WordsforNetBeans-Maven-Installing)
+[Installing Aspose.Words for NetBeans - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-netbeans-maven/)
 ## **Using the Plugin**
-[Using Aspose.Words for NetBeans - Maven](http://www.aspose.com/docs/display/wordsjava/Installing+and+Using+Aspose.Words+for+NetBeans+-+Maven#InstallingandUsingAspose.WordsforNetBeans-Maven-Using)
+[Using Aspose.Words for NetBeans - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-netbeans-maven/#using)
 ## **Support, Extend and Contribute**
 ### **Support**
 - If you like to see known / reported issues (by the users or Q.A team) in the plugin.
