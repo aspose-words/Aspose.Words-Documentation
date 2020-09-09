@@ -7,5 +7,5 @@ url: /java/working-with-images-in-php/
 
 **This section includes the following topics:**
 
-- [Add Watermark in PHP](/words/java/add-watermark-in-php-html/)
-- [Compress Images in PHP](/words/java/compress-images-in-php-html/)
+- [Add Watermark in PHP](https://docs.aspose.com/words/java/add-watermark-in-php/)
+- [Compress Images in PHP](https://docs.aspose.com/words/java/compress-images-in-php/)
