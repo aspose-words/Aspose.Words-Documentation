@@ -7,5 +7,5 @@ url: /java/working-with-images-in-ruby/
 
 **This section includes the following topics:**
 
-- [Add Watermark in Ruby](/words/java/add-watermark-in-ruby-html/)
-- [Compress Images in Ruby](/words/java/compress-images-in-ruby-html/)
+- [Add Watermark in Ruby](https://docs.aspose.com/words/java/add-watermark-in-ruby/)
+- [Compress Images in Ruby](https://docs.aspose.com/words/java/compress-images-in-ruby/)
