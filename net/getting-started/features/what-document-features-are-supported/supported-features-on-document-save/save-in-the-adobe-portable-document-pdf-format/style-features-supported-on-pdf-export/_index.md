@@ -7,7 +7,7 @@ url: /net/style-features-supported-on-pdf-export/
 
 ##### **Style Type**
 
-|<p>**{{% alert color="primary" %}}** </p><p>**Feature**</p><p>**{{% /alert %}}**</p>|**Supported**|**Comment**|**See Also**|
+|**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Style |Yes | | |
 |Character Style |Yes | | |
