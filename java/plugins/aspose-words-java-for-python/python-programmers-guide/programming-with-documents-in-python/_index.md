@@ -6,11 +6,11 @@ url: /java/programming-with-documents-in-python/
 ---
 
 ###### **This section includes the following topics:** 
-- [Joining And Appending in Python](/words/java/joining-and-appending-in-python-html/)
-- [Working With Bookmarks in Python](/words/java/working-with-bookmarks-in-python-html/)
-- [Working With Comments in Python](/words/java/working-with-comments-in-python-html/)
-- [Working With Document in Python](/words/java/working-with-document-in-python-html/)
-- [Working With Fields in Python](/words/java/working-with-fields-in-python-html/)
-- [Working With Images in Python](/words/java/working-with-images-in-python-html/)
-- [Working With Styles in Python](/words/java/working-with-styles-in-python-html/)
-- [Working With Tables in Python](/words/java/working-with-tables-in-python-html/)
+- [Joining And Appending in Python](https://docs.aspose.com/words/java/joining-and-appending-in-python/)
+- [Working With Bookmarks in Python](https://docs.aspose.com/words/java/working-with-bookmarks-in-python/)
+- [Working With Comments in Python](https://docs.aspose.com/words/java/working-with-comments-in-python/)
+- [Working With Document in Python](https://docs.aspose.com/words/java/working-with-document-in-python/)
+- [Working With Fields in Python](https://docs.aspose.com/words/java/working-with-fields-in-python/)
+- [Working With Images in Python](https://docs.aspose.com/words/java/working-with-images-in-python/)
+- [Working With Styles in Python](https://docs.aspose.com/words/java/working-with-styles-in-python/)
+- [Working With Tables in Python](https://docs.aspose.com/words/java/working-with-tables-in-python/)
