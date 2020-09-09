@@ -6,5 +6,5 @@ url: /java/working-with-images-in-python/
 ---
 
 ###### **This section includes the following topics:** 
-- [Add Watermark in Python](/words/java/add-watermark-in-python-html/)
+- [Add Watermark in Python](https://docs.aspose.com/words/java/add-watermark-in-python/)
 
