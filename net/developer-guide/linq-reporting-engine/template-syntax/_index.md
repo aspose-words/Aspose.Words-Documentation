@@ -297,20 +297,20 @@ When the body of a common data band starts and ends within different paragraphs,
 |**Template**|**Report**|
 | :- | :- |
 |{{< highlight csharp >}}
-p> prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}}
-p> prefix item1¶item2¶item3¶suffix{{< /highlight >}}|
+ prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}}
+ prefix item1¶item2¶item3¶suffix{{< /highlight >}}|
 |{{< highlight csharp >}}
-p> prefix<<foreach [item in items]>>¶<<[item]>><</foreach>> suffix{{< /highlight >}}|{{< highlight csharp >}}
-p> prefix¶item1¶item2¶item3 suffix{{< /highlight >}}|
+ prefix<<foreach [item in items]>>¶<<[item]>><</foreach>> suffix{{< /highlight >}}|{{< highlight csharp >}}
+ prefix¶item1¶item2¶item3 suffix{{< /highlight >}}|
 |{{< highlight csharp >}}
-p> prefix¶<<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}}
-p> prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
+ prefix¶<<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}}
+ prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
 |{{< highlight csharp >}}
-p> prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}}
-p> prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
+ prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}}
+ prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
 |{{< highlight csharp >}}
-p> prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}}
-p> prefix¶¶item1¶¶item2¶¶item3¶¶suffix{{< /highlight >}}|
+ prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}}
+ prefix¶¶item1¶¶item2¶¶item3¶¶suffix{{< /highlight >}}|
 While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of items, you can get a report with their numbered list using the following template.
 
 **Note –** “1. ” in the template stands for a numbered list label.
@@ -345,7 +345,7 @@ The most common use case of a table-row data band is the building of a document 
 
 |**Client**|**Manager**|**Contract Price**|
 | :- | :- | :- |
-|**<<foreach [c in ds.Contracts]>><<[c.Clients.Name]>>**|**<<[c.Managers.Name]>>**|**<<[c.Price]>><</****foreach>>**|
+|**<<foreach [c in ds.Contracts]>><<[c.Clients.Name]>>**|**<<[c.Managers.Name]>>**|**<<[c.Price]>><</ foreach>>**|
 |**Total:**||**<<[ds.Contracts.Sum(c =>c.Price)]>>**|
 
 In this case, the engine produces a report as follows.
@@ -368,7 +368,7 @@ To populate a document table with a master-detail data, you can use nested table
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
 |**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<[m.Contracts.Sum(**`     `**c => c.Price)]>>**|
-|**<<foreach [c in m.Contracts]>>  <<[c.Clients.Name]>>**|**<<[c.Price]>><</****foreach>><</****foreach>>**|
+|**<<foreach [c in m.Contracts]>>  <<[c.Clients.Name]>>**|**<<[c.Price]>><</ foreach>><</ foreach>>**|
 |**Total:**|**<<[ds.Contracts.Sum(c =>c.Price)]>>**|
 
 In this case, the engine produces a report as follows.
@@ -393,15 +393,15 @@ You can normally use common data bands nested to table-row data bands as well li
 
 |**Manager**|**Clients**|
 | :- | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<foreach [<br>c in m.Contracts<br>]>><<[c.Clients.Name]>>****<</foreach>><</foreach>>**|
+|**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<foreach [<br>c in m.Contracts<br>]>><<[c.Clients.Name]>> <</foreach>><</foreach>>**|
 
 In this case, the engine produces a report as follows.
 
 |**Manager**|**Clients**|
 | :- | :- |
-|**John Smith**|**A Company****B Ltd.****C & D**|
-|**Tony Anderson**|**E Corp.****F & Partners**|
-|**July James**|**G & Co.****H Group****I & Sons****J Ent.**|
+|**John Smith**|**A Company B Ltd. C & D**|
+|**Tony Anderson**|**E Corp. F & Partners**|
+|**July James**|**G & Co. H Group I & Sons J Ent.**|
 
 A special case is a data band inside a single-column table row. In such a case, if you put opening and closing foreach tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
@@ -457,8 +457,8 @@ Returns the one-based index of a sequence item that is represented by the corres
 |**No.**|**Item**|
 | :- | :- |
 |{{< highlight csharp >}}
-p> <<foreach [itemin items]>><<[item.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
-p> <<[item]>><</foreach>>{{< /highlight >}}|
+ <<foreach [itemin items]>><<[item.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
+ <<[item]>><</foreach>>{{< /highlight >}}|
 In this case, the engine produces a report as follows.
 
 |**No.**|**Item**|
@@ -489,7 +489,7 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 1. Add an opening foreach tag to the chart title.
 1. Depending on the type of the chart, add x tags to the chart title or chart series’ names as follows.
 {{< highlight csharp >}}
-**<<x [x_value_expression]>>**
+<<x [x_value_expression]>>
 {{< /highlight >}}
 - For a scatter or bubble chart, you can go one of the following ways: 
   - To use the same x-value expression for all chart series, add a single x tag to the chart title after the corresponding foreach tag.
@@ -500,13 +500,13 @@ An x-value expression for a scatter or bubble chart must return a numeric value.
 - For a chart of another type, add a single x tag to the chart title after the corresponding foreach tag. In this case, an x-value expression must return a numeric, date, or string value.
 7. For a chart of any type, add y tags to chart series’ names as follows.
 {{< highlight csharp >}}
-**<<y [y_value_expression]>>**
+<<y [y_value_expression]>>
 {{< /highlight >}}
 An y-value expression must return a numeric value.
 
 8. For a bubble chart, add size tags to chart series’ names as follows.
 {{< highlight csharp >}}
-**<<size [bubble_size_expression]>>**
+<<size [bubble_size_expression]>>
 {{< /highlight >}}
 A bubble-size expression must return a numeric value.
 
@@ -736,16 +736,16 @@ You can normally use table-row conditional blocks within data bands to make elem
 
 In this case, the engine produces a report as follows.
 
-|**A Company**|**Australia**|**219-241 Cleveland St****STRAWBERRY HILLS  NSW  1427**|
+|**A Company**|**Australia**|**219-241 Cleveland St STRAWBERRY HILLS  NSW  1427**|
 | :- | :- | :- |
-|**B Ltd.**|**Brazil**|**Avenida João Jorge, 112, ap. 31****Vila Industrial****Campinas - SP****13035-680**|
-|**C & D**|**Canada**|**101-3485 RUE DE LA MONTAGNE****MONTRÉAL (QUÉBEC) H3G 2A6**|
-|**E Corp.**|**445 Mount Eden Road****Mount Eden****Auckland 1024**||
-|**F & Partners**|**20 Greens Road****Tuahiwi****Kaiapoi 7691**||
-|**G & Co.**|**Greece**|**Karkisias 6****GR-111 42  ATHINA****GRÉCE**|
-|**H Group**|**Hungary**|**Budapest****Fiktív utca 82., IV. em./28.****2806**|
-|**I & Sons**|**43 Vogel Street****Roslyn****Palmerston North 4414**||
-|**J Ent.**|**Japan**|**Hakusan 4-Chōme 3-2****Bunkyō-ku, TŌKYŌ****112-0001****Japan**|
+|**B Ltd.**|**Brazil**|**Avenida João Jorge, 112, ap. 31Vila Industrial Campinas - SP 13035-680**|
+|**C & D**|**Canada**|**101-3485 RUE DE LA MONTAGNE MONTRÉAL (QUÉBEC) H3G 2A6**|
+|**E Corp.**|**445 Mount Eden Road Mount Eden Auckland 1024**||
+|**F & Partners**|**20 Greens Road Tuahiwi Kaiapoi 7691**||
+|**G & Co.**|**Greece**|**Karkisias 6 GR-111 42  ATHINA GRÉCE**|
+|**H Group**|**Hungary**|**Budapest Fiktív utca 82., IV. em./28. 2806**|
+|**I & Sons**|**43 Vogel Street Roslyn Palmerston North 4414**||
+|**J Ent.**|**Japan**|**Hakusan 4-Chōme 3-2 Bunkyō-ku, TŌKYŌ 112-0001 Japan**|
 
 **Note –** You can use common conditional blocks within table-row data bands as well.
 
@@ -795,7 +795,7 @@ You can insert contents of outer documents to your reports dynamically using doc
 
 Syntax of a doc tag is defined as follows.
 {{< highlight csharp >}}
-**<<doc [document_expression]>>**
+<<doc [document_expression]>>
 {{< /highlight >}}
 **Note –** A doc tag can be used almost anywhere in a template document except textboxes and charts.
 
@@ -812,7 +812,7 @@ While building a report, an expression declared within a doc tag is evaluated an
 
 By default, a document being inserted is not checked against template syntax and is not populated with data. However, you can enable this by using a build switch as follows.
 {{< highlight csharp >}}
-**<<doc [document_expression] -build>>**
+<<doc [document_expression] -build>>
 {{< /highlight >}}
 When a build switch is used, the engine treats a document being inserted as a template that can access the following data available at the scope of a corresponding doc tag:
 
@@ -829,7 +829,7 @@ You can insert images to your reports dynamically using image tags. To declare a
 1. Set common image attributes such as frame, size, and others for the textbox, making the textbox look like a blank inserted image.
 1. Specify an image tag within the textbox using the following syntax.
 {{< highlight csharp >}}
-**<<image [image_expression]>>**
+<<image [image_expression]>>
 {{< /highlight >}}
 The expression declared within an image tag is used by the engine to build an image to be inserted. The expression must return a value of one of the following types:
 
@@ -850,32 +850,32 @@ By default, the engine stretches an image filling a textbox to the size of the t
 
 - To keep the size of the textbox and stretch the image within bounds of the textbox preserving the ratio of the image, use the keepRatio switch as follows.
 {{< highlight csharp >}}
-**<<image [image_expression] -keepRatio>>**
+<<image [image_expression] -keepRatio>>
 {{< /highlight >}}
 - To keep the width of the textbox and change its height according to the ratio of the image, use the fitHeight switch as follows.
 {{< highlight csharp >}}
-**<<image [image_expression] -fitHeight>>**
+<<image [image_expression] -fitHeight>>
 {{< /highlight >}}
 - To keep the height of the textbox and change its width according to the ratio of the image, use the fitWidth switch as follows.
 {{< highlight csharp >}}
-**<<image [image_expression] -fitWidth>>**
+<<image [image_expression] -fitWidth>>
 {{< /highlight >}}
 - To change the size of the textbox according to the size of the image, use the fitSize switch as follows.
 {{< highlight csharp >}}
-**<<image [image_expression] -fitSize>>**
+<<image [image_expression] -fitSize>>
 {{< /highlight >}}
 - To change the size of the textbox according to the size of the image without increasing the size of the textbox, use the fitSizeLim switch as follows.
 {{< highlight csharp >}}
-**<<image [image_expression] -fitSizeLim>>**
+<<image [image_expression] -fitSizeLim>>
 {{< /highlight >}}
 **Note –** If the size of the image is greater than the size of the textbox, then the fitSizeLim switch acts like fitHeight or fitWidth. Otherwise, the fitSizeLim switch acts like fitSize.
 
 ## **Inserting Bookmarks Dynamically**
 You can insert bookmarks to your reports dynamically using bookmark tags. Syntax of a bookmark tag is defined as follows.
 {{< highlight csharp >}}
-**<<bookmark [bookmark_expression]>>
+<<bookmark [bookmark_expression]>>
 bookmarked_content
-<</bookmark>>**
+<</bookmark>>
 {{< /highlight >}}
 Here, bookmark_expression defines the name of a bookmark to be inserted during runtime. This expression is mandatory and must return a non-empty value. While building a report, bookmark_expression is evaluated and its result is used to construct a bookmark start and end that replace corresponding opening and closing bookmark tags respectively.
 
@@ -884,7 +884,7 @@ Here, bookmark_expression defines the name of a bookmark to be inserted during r
 ## **Inserting Hyperlinks Dynamically**
 You can insert hyperlinks to your reports dynamically using link tags. Syntax of a link tag is defined as follows.
 {{< highlight csharp >}}
-**<<link [uri_or_bookmark_expression] [display_text_expression]>>**
+<<link [uri_or_bookmark_expression] [display_text_expression]>>
 {{< /highlight >}}
 Here, uri_or_bookmark_expression defines URI or the name of a bookmark within the same document for a hyperlink to be inserted dynamically. This expression is mandatory and must return a non-empty value.
 
@@ -903,7 +903,7 @@ You can set checkbox values to either checked or unchecked in your reports dynam
 1. Add a checkbox content control to your template at a place where you want it to appear in a result document.
 1. By editing content control properties, add a check tag to the title of the checkbox content control using the following syntax.
 {{< highlight csharp >}}
-**<<check [conditional_expression]>>**
+<<check [conditional_expression]>>
 {{< /highlight >}}
 Here, conditional_expression defines a condition upon which the value of the checkbox content control is to be set to checked (or unchecked, if the condition is not met). The conditional expression must return a Boolean value.
 
@@ -911,15 +911,15 @@ While building a report, a conditional expression declared within a check tag is
 ### **Setting Content Control Titles Dynamically**
 You can normally use common expression tags in content control titles, thus forming their contents dynamically. For example, given that s is a string value, you can set a content control title from this value dynamically by putting the following expression tag into the title.
 {{< highlight csharp >}}
-**<<[s]>>**
+<<[s]>>
 {{< /highlight >}}
 
 ## **Setting Background Color Dynamically**
 You can set text background color for document contents dynamically using backColor tags. Syntax of a backColor tag is defined as follows.
 {{< highlight csharp >}}
-**<<backColor [color_expression]>>
+<<backColor [color_expression]>>
 content_to_be_colored
-<</backColor>>**
+<</backColor>>
 {{< /highlight >}}
 **Note –** A backColor tag can be used anywhere in a template document except charts.
 
@@ -927,11 +927,11 @@ An expression declared within an opening backColor tag defines a text background
 
 - A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor\(v=vs.110\).aspx) enumeration like in the following example.
 {{< highlight csharp >}}
-**<<backColor [“red”]>>text with red background<</backColor>>**
+<<backColor [“red”]>>text with red background<</backColor>>
 {{< /highlight >}}
 - An integer value defining RGB (red, green, blue) components of the color like in the following example.
 {{< highlight csharp >}}
-**<<backColor [0xFFFF00]>>text with yellow background<</backColor>>**
+<<backColor [0xFFFF00]>>text with yellow background<</backColor>>
 {{< /highlight >}}
 - A value of the [Color](http://msdn.microsoft.com/en-us/library/system.drawing.color\(v=vs.110\).aspx) type.
 
@@ -943,16 +943,13 @@ You can use backColor tags nested into each other. Also, you can normally use ba
 
 Assume that you have the ColoredItem class defined in your application as follows.
 {{< highlight csharp >}}
-**public class ColoredItem
+public class ColoredItem
 {
-`    `public String Name { get { ... } }**
-
-`    `**public String Description { get { ... } }**
-
-`    `**public Color Color { get { ... } }**
-
-`    `**...
-}**
+  public String Name { get { ... } }
+  public String Description { get { ... } }
+  public Color Color { get { ... } }
+  ...
+}
 {{< /highlight >}}
 Given that items is an enumeration of ColoredItem instances, you can use the following template to output every item into a separate paragraph colored dynamically.
 {{< highlight csharp >}}
@@ -973,14 +970,14 @@ Also, you can use a backColor tag to set a solid-fill color for a shape dynamica
 1. Inside the shape’s textbox, add opening and closing backColor tags so that they to enclose the whole text inside the textbox, if any, like in the following example.
 
 {{< highlight csharp >}}
-**<<backColor [“red”]>>text inside shape<</backColor>>**
+<<backColor [“red”]>>text inside shape<</backColor>>
 {{< /highlight >}}
 
 During runtime, an expression declared within the opening backColor tag is evaluated and the shape’s solid-fill color is set accordingly. The opening and closing backColor tags are removed then.
 ## **Merging Table Cells Dynamically**
-You can merge table cells with equal textual contents within your reports dynamically using cellMerge tags. Syntax of a cellMerge tag is defined as follows.
+You can merge table cells with equal textual contents within your reports dynamically using cellMerge tags. The syntax of a cellMerge tag is defined as follows.
 {{< highlight csharp >}}
-**<<cellMerge -horz>>**
+<<cellMerge -horz>>
 {{< /highlight >}}
 A horz switch is optional. If the switch is present, it denotes a cell merging operation in a horizontal direction. If the switch is missing, it means that a cell merging operation is to be performed in a vertical direction (the default).
 
@@ -1037,47 +1034,47 @@ Assume that you have the Order and Service classes defined in your application a
 {{< /highlight >}}
 Given that orders is an enumeration of Order instances, you could try to use the following template to output information on several orders in one document.
 {{< highlight csharp >}}
-**<<foreach [order in orders]>><<[order.ClientName]>> (<<[order.ClientAddress]>>)**
+<<foreach [order in orders]>><<[order.ClientName]>> (<<[order.ClientAddress]>>)
 
-1. **<<foreach [service in order.Services]>><<[service.Name]>>**
+1. <<foreach [service in order.Services]>><<[service.Name]>>
 
-**<</foreach>><</foreach>>**
+<</foreach>><</foreach>>
 {{< /highlight >}}
 But then, a result document would look as follows.
 {{< highlight text >}}
-**Jane Doe (445 Mount Eden Road Mount Eden Auckland 1024)**
+Jane Doe (445 Mount Eden Road Mount Eden Auckland 1024)
 
-1. **Regular Cleaning**
-1. **Oven Cleaning**
+1. Regular Cleaning
+2. Oven Cleaning
 
-**John Smith (43 Vogel Street Roslyn Palmerston North 4414)**
+John Smith (43 Vogel Street Roslyn Palmerston North 4414)
 
-3. **Regular Cleaning**
-3. **Oven Cleaning**
-3. **Carpet Cleaning**
+1. Regular Cleaning
+2. Oven Cleaning
+3. Carpet Cleaning
 {{< /highlight >}}
 That is, there would be a single numbered list across all orders, which is not applicable for this scenario. However, you can make list numbering to restart for every order by putting a restartNum tag into your template before a corresponding foreach tag as follows.
 {{< highlight csharp >}}
-**<<foreach [order in orders]>><<[order.ClientName]>> (<<[order.ClientAddress]>>)**
+<<foreach [order in orders]>><<[order.ClientName]>> (<<[order.ClientAddress]>>)
 
-1. **<<restartNum>><<foreach [service in order.Services]>><<[service.Name]>>**
+1. <<restartNum>><<foreach [service in order.Services]>><<[service.Name]>>
 
-**<</foreach>><</foreach>>**
+<</foreach>><</foreach>>
 {{< /highlight >}}
 **Note –** When using with a data band, it is required to put a restartNum tag before a corresponding a foreach tag in the same numbered paragraph.
 
 Then, a result document looks as follows.
 {{< highlight text >}}
-**Jane Doe (445 Mount Eden Road Mount Eden Auckland 1024)**
+Jane Doe (445 Mount Eden Road Mount Eden Auckland 1024)**
 
-1. **Regular Cleaning**
-1. **Oven Cleaning**
+1. Regular Cleaning
+2. Oven Cleaning
 
-**John Smith (43 Vogel Street Roslyn Palmerston North 4414)**
+John Smith (43 Vogel Street Roslyn Palmerston North 4414)
 
-1. **Regular Cleaning**
-1. **Oven Cleaning**
-1. **Carpet Cleaning**
+1. Regular Cleaning
+2. Oven Cleaning
+3. Carpet Cleaning
 {{< /highlight >}}
 **Note –** You can use a restartNum tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “Inserting Documents Dynamically” for more information).
 
@@ -1095,21 +1092,21 @@ Consider the following example. Given that ds is a DataSet instance containing a
 |**No.**|**Name**|**Age**|
 | :- | :- | :- |
 |{{< highlight csharp >}}
-p> <<foreach [p        in ds.Persons]>><<[    p.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
-p> <<[p.Name]>>{{< /highlight >}}|{{< highlight csharp >}}
-p> <<[p.Age]>><</foreach>>{{< /highlight >}}|
+ <<foreach [p in ds.Persons]>><<[    p.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
+ <<[p.Name]>>{{< /highlight >}}|{{< highlight csharp >}}
+ <<[p.Age]>><</foreach>>{{< /highlight >}}|
 |{{< highlight csharp >}}
-p> Count: <<[ds.Persons.Count()]>>{{< /highlight >}}| | |
+ Count: <<[ds.Persons.Count()]>>{{< /highlight >}}| | |
 Alternatively, you can use the following template involving the contextual object member access syntax to get the same results.
 
 |**No.**|**Name**|**Age**|
 | :- | :- | :- |
 |{{< highlight csharp >}}
-p>  <<foreach [        in Persons]>><<[    NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
-p> <<[Name]>> {{< /highlight >}}|{{< highlight csharp >}}
-p> <<[Age]>><</foreach>> {{< /highlight >}}|
+  <<foreach [ in Persons]>><<[    NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
+ <<[Name]>> {{< /highlight >}}|{{< highlight csharp >}}
+ <<[Age]>><</foreach>> {{< /highlight >}}|
 |{{< highlight csharp >}}
-p> Count: <<[Persons.Count()]>> {{< /highlight >}}| | |
+ Count: <<[Persons.Count()]>> {{< /highlight >}}| | |
 
 ## **Using Variables**
 LINQ Reporting Engine enables you to use variables in template documents. Variables are useful when you need to calculate an expensive value just once and access it multiple times in a template. Also, calculation of complex values such as running (progressive) totals may require variables, see “Appendix C. Typical Templates” to get an example.
