@@ -15,12 +15,15 @@ There are plans to introduce an option to control if lists are exported as nativ
 
 {{% /alert %}} 
 
+{{% alert color="primary" %}} 
+
 Try Online
 
 You can check the quality of HTML Export and view the results online at this link:
 
 <https://products.aspose.app/words/viewer>
 
+{{% /alert %}} 
 
 ##### **Numbering Definition**
 
