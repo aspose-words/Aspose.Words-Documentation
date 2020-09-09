@@ -7,4 +7,4 @@ url: /java/mail-merge-and-reporting-in-php/
 
 **This section includes the following topics:**
 
-- [Mail Merge Form Fields](/words/java/mail-merge-form-fields-html/)
+- [Mail Merge Form Fields](https://docs.aspose.com/words/java/mail-merge-form-fields/)
