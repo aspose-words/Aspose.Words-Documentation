@@ -6,6 +6,22 @@ url: /net/what-s-new-in-aspose-words-for-net/
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
+
+
+## **Aspose.Words for .NET 20.9**
+Aspose.Words 20.9 expands control over Macros, as well as improves the quality of converting from PDF to Word document formats.
+
+The API is enhanced for more flexible and convenient development.
+
+- The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word. 
+- PDF to Word import is now faster and more accurate. Footnotes support has been implemented and integrated to the latest version.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 20.9 Release Notes](/words/net/aspose-words-for-net-20-9-release-notes/).
+
+{{% /alert %}}
+
 ## **Aspose.Words for .NET 20.5, 20.6, 20.7, 20.8**
 Aspose.Words 20.5 introduces performance improvements and enhanced document display capabilities.
 
