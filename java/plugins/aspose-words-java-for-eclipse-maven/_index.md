@@ -63,9 +63,9 @@ Following are three recommended methods for the successful downloading and insta
   [http://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords](http://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords/)
   Then select "Aspose.Words Java for Eclipse (Maven)" and **Finish**. Accept License Agreement and Install the plugin.
 ## **Installing**
-[Installing Aspose.Words Java for Eclipse - Maven](http://www.aspose.com/docs/display/wordsjava/Installing+and+Using+Aspose.Words+Java+for+Eclipse+-+Maven#InstallingandUsingAspose.WordsJavaforEclipse-Maven-Installing)
+[Installing Aspose.Words Java for Eclipse - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/)
 ## **Using the Plugin**
-[Using Aspose.Words Java for Eclipse - Maven](http://www.aspose.com/docs/display/wordsjava/Installing+and+Using+Aspose.Words+Java+for+Eclipse+-+Maven#InstallingandUsingAspose.WordsJavaforEclipse-Maven-Using)
+[Using Aspose.Words Java for Eclipse - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#using)
 ### **How to apply Aspose License?**
 This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
