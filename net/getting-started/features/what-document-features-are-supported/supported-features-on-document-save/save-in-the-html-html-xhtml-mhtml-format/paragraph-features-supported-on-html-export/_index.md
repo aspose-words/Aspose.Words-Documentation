@@ -17,11 +17,15 @@ See the following link in the documentation for further information:
 
 {{% /alert %}} 
 
+{{% alert color="primary" %}} 
+
 Try Online
 
 You can check the quality of HTML Export and view the results online at this link:
 
 <https://products.aspose.app/words/viewer>
+
+{{% /alert %}} 
 
 
 ##### **General Formatting**
