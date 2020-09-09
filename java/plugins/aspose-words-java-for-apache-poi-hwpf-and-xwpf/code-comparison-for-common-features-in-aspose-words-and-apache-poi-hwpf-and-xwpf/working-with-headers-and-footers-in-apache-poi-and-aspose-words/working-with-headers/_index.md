@@ -42,7 +42,7 @@ doc.save(dataDir + "AsposeHeader.doc");
 {{< /highlight >}}
 
 ## **Apache POI HWPF XWPF - Working with Headers**
-HeaderStories can be used to access Headers of document.
+HeaderStories can be used to access Headers of the document.
 
 **Java**
 
