@@ -7,7 +7,7 @@ url: /net/section-features-supported-on-xps-export/
 
 ##### **Headers and Footers**
 
-|<p>**{{% alert color="primary" %}}** </p><p>**Feature**</p><p>**{{% /alert %}}**</p>|**Supported**|**Comment**|**See Also**|
+|**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Different First Page |Yes | | |
 |Different Even and Odd Pages |Yes | | |
