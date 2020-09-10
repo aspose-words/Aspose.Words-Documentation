@@ -2,7 +2,7 @@
 title: Create New Document in Apache POI and Aspose.Words
 type: docs
 weight: 35
-url: /java/create-new-document-in-apache-poi-and-wspose-words/
+url: /java/create-new-document-in-apache-poi-and-aspose-words/
 ---
 
 ## **Aspose.Words - Create New Document**
