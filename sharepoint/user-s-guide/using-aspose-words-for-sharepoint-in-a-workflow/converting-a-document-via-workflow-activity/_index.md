@@ -16,20 +16,19 @@ To create a new workflow:
    The workflow designer window appears.
 1. Attach the workflow to the "Incoming Documents” library by selecting it in the document library list.
 1. Select **Automatically start this workflow when a new item is created**.
-1. Clear the other options to run this workflow for new documents only. 
-   **Creating a new workflow.** 
-
+1. Clear the other options to run this workflow for new documents only.<br>
+   **Creating a new workflow.**<br>
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_1.png)
 
-1. Give the new workflow a descriptive name. 
+1. Give the new workflow a descriptive name.<br>
    **Add the Convert via Aspose.Words action to your workflow**
-1. Clicking **Next**.
+1. Clicking **Next**.<br>
    A workflow steps editor appears.
 1. Add an action that tries to convert every new document without any conditions.
-1. Click **Actions** and select **Convert via Aspose.Words** from the list. You may need to select **More Actions** to produce the complete action list. 
+1. Click **Actions** and select **Convert via Aspose.Words** from the list. You may need to select **More Actions** to produce the complete action list.<br>
    **Selecting conversion action.** 
-
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_2.png)
+
 ### **Configure Action Parameters**
 The parameters of the workflow action are similar to the conversion settings available when launching conversion via Aspose.Words from a document library:
 
@@ -46,8 +45,8 @@ The parameters of the workflow action are similar to the conversion settings ava
 1. Leave the destination file name parameter at the default (“the same file name”).
 1. Select **Do overwrite existing files** to overwrite existing files in the destination folder with the conversion result. 
    **Setting other workflow action parameters.** 
-
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_4.png)
+
 ### **Use Action Output Parameters in Other Actions**
 The conversion action sets three workflow variables on execution:
 
@@ -59,34 +58,30 @@ Add another action using one of the conversion output parameters as an argument.
 
 1. Click **Actions** in the workflow designer to add another action and select **Log to History List**.
 1. Click **this message** in the action sentence and the ***fx*** button next to it to set the message to the conversion output.
-1. Select **Workflow Data** as a source and **Variable: Conversion output data** as a field. 
-   **Using action output as a parameter for another action.** 
-
+1. Select **Workflow Data** as a source and **Variable: Conversion output data** as a field.<br>
+   **Using action output as a parameter for another action.**<br>
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_5.png)
 
-1. Click **Finish** in the workflow designer window to save the new workflow.
-### **Test the New Workflow**
+1. Click **Finish** in the workflow designer window to save the new workflow.<br>
+
+### **Test the New Workflow**<br>
 Now let us see how it works.
 
 1. Start a browser and go to the “Incoming Documents” library to which our new workflow is attached.
 1. Upload a new document.
    Make sure that document type is supported by Aspose.Words (DOCX, DOC, RTF, MHT, XML, Microsoft Word 2003 WordprocessingML or Flat OPC). 
    The workflow should start automatically.
-1. Refresh the browser window. A new column with the workflow status should appear: 
-
-   **Workflow status column displayed in a document library.** 
-
+1. Refresh the browser window. A new column with the workflow status should appear:<br>
+   **Workflow status column displayed in a document library.**<br>
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_6.png)
 
-1. Click **Completed** in the workflow status column to see that a conversion outcome message was logged to the workflow history. 
-   **A workflow history entry.** 
-
+1. Click **Completed** in the workflow status column to see that a conversion outcome message was logged to the workflow history.<br>
+   **A workflow history entry.**<br>
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_7.png)
 
 1. Go to the destination library and find the converted document there.
 
 If a user with insufficient permissions to update the destination library has started the workflow, it still completes successfully, but the failure is logged in the workflow history:
 ### **An unsuccessful conversion logged in the workflow history.**
-
 
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_8.png)
