@@ -10,18 +10,14 @@ Aspose.Words for SharePoint lets you create a report with Aspose.Words for Share
 To make a report:
 
 1. Select a report template in a SharePoint document library.
-1. Click **Make Report via Aspose.Words** in the template’s Edit Control Block. 
-   **Selecting Make Reports vie Aspose.Words** 
-
+1. Click **Make Report via Aspose.Words** in the template’s Edit Control Block.<br>
+   **Selecting Make Reports vie Aspose.Words**<br>
 ![todo:image_alt_text](user-interface-for-creating-reports_1.png)
 
-1. In SharePoint 2010/2013/2016, you can find **Make Report via Aspose.Words** button on the ribbon. The button is active when you select a single file. 
-   **Selecting Make Report via Aspose.Words from the ribbon** 
-
-![todo:image_alt_text](user-interface-for-creating-reports_2.png)
-
-
-The report settings screen is displayed. The following options are available: 
+1. In SharePoint 2010/2013/2016, you can find **Make Report via Aspose.Words** button on the ribbon. The button is active when you select a single file.<br>
+   **Selecting Make Report via Aspose.Words from the ribbon**<br>
+![todo:image_alt_text](user-interface-for-creating-reports_2.png)<br>
+The report settings screen is displayed. The following options are available:
 
 1. If the report has parameters, the **Parameters** section is present. Enter the required parameter values of the appropriate type.
 1. Select the destination format from the **Save as** list.
@@ -32,12 +28,11 @@ The report settings screen is displayed. The following options are available:
    1. When versioning is not enabled for the destination library, an existing file with a conflicting name is overwritten.
 1. Click **Save Report** to build and save the report, or
 1. Click **Cancel** to go back to the document library.
+
 #### **The Report Settings Screen**
 After saving the report, another screen is presented. It lists the options and parameters used. You can return to the library where the report template is located, go to the destination library or use the hyperlink to open the saved report.
 
-` `**Report properties**
-
-
+**Report properties**
 
 ![todo:image_alt_text](user-interface-for-creating-reports_3.png)
 
