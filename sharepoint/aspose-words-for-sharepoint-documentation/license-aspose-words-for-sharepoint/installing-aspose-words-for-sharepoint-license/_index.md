@@ -12,20 +12,17 @@ Once you are happy with your evaluation, you can [purchase a license](http://www
 ### **Installation**
 License installation is performed from the server console via **stsadm.exe**. The steps required to install the license are below. The paths are omitted for clarity. You may need to add the actual path to stsadm.exe and/or solution file when executing them.
 
-1. Run stsadm to add the solution to the SharePoint solution store:
-
+1. Run stsadm to add the solution to the SharePoint solution store:<br>
 {{< highlight csharp >}}
 stsadm.exe -o addsolution -filename Aspose.Words.SharePoint.License.wsp 
 {{< /highlight >}}
 
-1. Deploy the solution to all servers in the farm:
-
+1. Deploy the solution to all servers in the farm:<br>
 {{< highlight csharp >}}
 stsadm.exe -o deploysolution -name Aspose.Words.SharePoint.License.wsp -immediate -force 
 {{< /highlight >}}
 
-1. Execute administrative timer jobs to complete the deployment immediately
-
+1. Execute administrative timer jobs to complete the deployment immediately<br>
 {{< highlight csharp >}}
 stsadm.exe -o execadmsvcjobs   
 {{< /highlight >}}
