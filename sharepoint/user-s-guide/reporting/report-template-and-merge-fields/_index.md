@@ -13,14 +13,11 @@ You need a template document before you can generate a report. A template is a M
 1. From the **Field names** list, select **MergeField**.
 1. In the **Field name** text box, enter a name for the merge field and click **OK**.
 
-` `**Creating a merge field** 
-
+**Creating a merge field** 
 
 ![todo:image_alt_text](report-template-and-merge-fields_2.png)
 
-
-
-` `Now you have a new merge field placed in your document. Microsoft Word shows it like this: 
+Now you have a new merge field placed in your document. Microsoft Word shows it like this: 
 
 **A merge field in a document**
 
@@ -31,8 +28,6 @@ Of course, since a merge field is a regular Microsoft Word field, you can switch
 **The field code exposed** 
 
 ![todo:image_alt_text](report-template-and-merge-fields_4.png)
-
-
 
 You can edit merge field name and format switches if needed.
 
