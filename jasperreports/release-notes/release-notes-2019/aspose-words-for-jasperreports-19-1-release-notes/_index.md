@@ -36,4 +36,4 @@ Please copy **ONLY ONE** JAR library according to the version of installed Jas
 |WORDSJR-251|Bottom margin is too high|Bug |
 
 ## **Configuration Option Changes**
-We have added [**Break Table Rows**](/words/jasperreports/break-table-rows/)** **configuration option** **in this release.
+We have added [**Break Table Rows**](/words/jasperreports/break-table-rows/) configuration option in this release.
