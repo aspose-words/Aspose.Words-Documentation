@@ -37,6 +37,6 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 |WORDSJR-268|An extra blank line is exported in output DOCX|Bug |
 
 ## **Configuration Option Changes**
-[DOCX Compatibility option](/words/jasperreports/compatibility-mode-for-docx-output/) is extended** **in this release.
+[DOCX Compatibility option](/words/jasperreports/compatibility-mode-for-docx-output/) is extended in this release.
 
-We have added [**Change Margins**](/words/jasperreports/change-margins/)** **configuration option** **in this release.
+We have added [**Change Margins**](/words/jasperreports/change-margins/) configuration option in this release.
