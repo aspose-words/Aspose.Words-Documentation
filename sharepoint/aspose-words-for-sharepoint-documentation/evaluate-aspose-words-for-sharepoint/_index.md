@@ -11,6 +11,6 @@ The evaluation and the paid versions of Aspose.Words for SharePoint use the same
 
 When you have purchased a license, simply install the license solution over the installed evaluation copy of Aspose.Words for SharePoint and it will work in licensed mode.
 
-` `**Aspose.Words for SharePoint injects a watermark when working in evaluation mode.** 
+**Aspose.Words for SharePoint injects a watermark when working in evaluation mode.** 
 
 ![todo:image_alt_text](evaluate-aspose-words-for-sharepoint_1.png)
