@@ -41,8 +41,6 @@ In version 1.0 of comments rendering long or many comments are not truncated in 
 ##### **Tracking Changes**
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 
-Tracked changes are currently not exported to SWF in the way they appear in Microsoft Word. This functionality will be included in a future version of Aspose.Words. At the moment any tracked changes are exported to SWF as plain content and thefore may affect the apperance of the document. For this reason you may need to accept all revisions before rendering.
-
 In a future version there will be an option to render the document in any level of "mark up" e.g Final with Markup, Final (without markup) etc.
 
 For now rendering simple insertion, change or deletion revisions can be simulated by applying appropriate run formatting on these revisions before rendering.
