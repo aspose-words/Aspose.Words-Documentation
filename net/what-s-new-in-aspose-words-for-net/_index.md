@@ -13,8 +13,11 @@ Aspose.Words 20.9 expands control over Macros, as well as improves the quality o
 
 The API is enhanced for more flexible and convenient development.
 
-- The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word. 
-- PDF to Word import is now faster and more accurate. Footnotes support has been implemented and integrated to the latest version.
+### **Conversion**
+PDF import is now faster and more accurate. Footnotes support has been implemented and integrated to the latest version.
+
+### **Other**
+The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word.
 
 {{% alert color="primary" %}}
 
