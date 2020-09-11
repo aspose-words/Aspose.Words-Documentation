@@ -35,7 +35,6 @@ Many customers worldwide rely on the thorough document import and export feature
 |[OpenDocument (ODT)]()|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|
 |[Adobe Portable Document Format (PDF)]()|Convert any document to PDF with high fidelity. PDF/A is supported.|
 |[XML Paper Specification (XPS)]()|Convert any document to XPS with high fidelity.|
-|[Macromedia Flash File Format (SWF)]()|Convert any document to SWF with high fidelity. The generated SWF contains the document pages and an embedded viewer allowing the document to be viewed on any device.|
 |[Plain Text (TXT)]()|Easily extract text by saving in plain text format.|
 |[Digital Publishing (EPUB)]()|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|
 #### **Rendering and Printing**
@@ -44,7 +43,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 |**Feature**|
 | :- |
 |Layout document into pages with high fidelity (exactly like Microsoft Word® would do that) to all the formats below.|
-|Render individual pages or complete documents to PDF, XPS, or SWF.|
+|Render individual pages or complete documents to PDF or XPS.|
 |Render document pages to raster images (Multipage TIFF, PNG, JPEG, BMP).|
 |Render pages to a Java Graphics object to a specific size.|
 |Print document pages using the Java printing infrastructure.|
