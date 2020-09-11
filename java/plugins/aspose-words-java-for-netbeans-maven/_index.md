@@ -16,26 +16,23 @@ The NetBeans Team actively support the product and seek feature suggestions from
 [Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
 applications.
 
-[Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF and all image formats. With Aspose.Words you can
+[Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
 generate, modify, and convert documents without using Microsoft Word.
 ### **Aspose.Words Java for NetBeans (Maven)**
 - Aspose.Words Java for NetBeans (Maven) is a Plugin for **NetBeans IDE** by **Aspose.** The Plugin intended for developers using Maven platform for Java developments and want to use [Aspose.Words for Java](http://goo.gl/Eg359W) in their projects. The Plugin lets you create maven projects for using [Aspose.Words for Java API](http://goo.gl/Eg359W) and also download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of the API. 
-- The plugin provides following features to work with [Aspose.Words for Java API](http://goo.gl/Eg359W) within **NetBeans IDE** comfortably: 
+- The plugin provides following features to work with [Aspose.Words for Java API](http://goo.gl/Eg359W) within **NetBeans IDE** comfortably:<br>
+![todo:image_alt_text](http://i.imgur.com/KWKGljg.png)<br>
+**WIZARDS**:<br>
+The plugin contains two wizards
 
-![todo:image_alt_text](http://i.imgur.com/KWKGljg.png)
-
-
-**WIZARDS**:
-The plugin contains two wizards-----
-
-**       ****Aspose.Words Maven Project (wizard)**
+**Aspose.Words Maven Project (wizard)**
 
 - This New Project wizard lets developers to create **Maven** project for using [Aspose.Words for Java](http://goo.gl/Eg359W) from **New Project -> Maven-> Aspose.Words Maven Project.**
 - The reference of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](http://maven.aspose.com/artifactory/webapp/home.html?0) and gets added in the pom.xml.
 - The created project will always contain most recent available version **Maven** Dependency for [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx).
 - The wizard steps also presents with the option for downloading [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx).
 
-**       ****Aspose.Words Code Example (wizard)**
+**Aspose.Words Code Example (wizard)**
 
 - This New File wizard lets you copy the downloaded [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) into your project for using [Aspose.Words for Java](http://goo.gl/Eg359W) from **New File -> Java -> Aspose.Words Code Example.** 
 - Available samples are displayed in tree format from where the user can select them categorically.
