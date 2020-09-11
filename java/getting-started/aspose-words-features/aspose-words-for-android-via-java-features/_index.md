@@ -19,7 +19,6 @@ This section provides a comparison of availability of features between Aspose.Wo
 |OpenDocument (ODT)|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Adobe Portable Document Format (PDF)|Convert any document to PDF with high fidelity. PDF/A is supported.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |XML Paper Specification (XPS)|Convert any document to XPS with high fidelity.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Macromedia Flash File Format (SWF)|Convert any document to SWF with high fidelity. The generated SWF contains the document pages and an embedded viewer allowing the document to be viewed on any device.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Plain Text (TXT)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Digital Publishing (EPUB)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Rendering and Printing**
@@ -28,7 +27,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 |**Feature**|**Aspose.Words for Java**|**Aspose.Words for Android via Java**|
 | :- | :- | :- |
 |Layout document into pages with high fidelity (exactly like Microsoft Word® would do that) to all the formats below.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Render individual pages or complete documents to PDF, XPS or SWF.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Render individual pages or complete documents to PDF or XPS.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Render document pages to raster images (Multipage TIFF, BMP).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Render document pages to images (PNG, EMF, JPEG, GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Render pages to a Java Graphics object to a specific size.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
