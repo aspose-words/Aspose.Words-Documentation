@@ -32,7 +32,6 @@ Many customers worldwide rely on the thorough document import and export feature
 |[OpenDocument - ODT](/words/net/opendocument-odt/)|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Adobe Portable Document Format - PDF](/words/net/adobe-portable-document-format-pdf/)|Convert any document to PDF with high fidelity. PDF/A is supported.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XML Paper Specification - XPS](/words/net/xml-paper-specification-xps/)|Convert any document to XPS with high fidelity.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Macromedia Flash File Format - SWF](/words/net/macromedia-flash-file-format-swf/)|Convert any document to SWF with high fidelity. The generated SWF contains the document pages and an embedded viewer allowing the document to be viewed on any device.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Plain Text - TXT](/words/net/plain-text-txt/)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Digital Publishing EPUB](/words/net/digital-publishing-epub/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Printer Command Language (PCL)](/words/net/printer-command-language-pcl/)|Aspose.Words for .NET provides support to save document to PCL format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -42,7 +41,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 |**Feature**|**.NET**|**.NET Standard 2.0**|**Xamarin.Android**|**Xamarin.iOS**|**Xamarin.Mac**|
 | :- | :- | :- | :- | :- | :- |
 |Layout document into pages with high fidelity (exactly like Microsoft Word® would do that) to all the formats below.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Render individual pages or complete documents to PDF, XPS or SWF.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Render individual pages or complete documents to PDF or XPS.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Render document pages to BMP images|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/cross >}}|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Render document pages to images (PNG, EMF, JPEG, GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Render individual shapes from the document into raster or vector images.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
