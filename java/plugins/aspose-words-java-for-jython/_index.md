@@ -16,7 +16,7 @@ Jython is a Java implementation of Python that combines expressive power with cl
 Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
 applications.
 
-Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF and all image formats. With Aspose.Words you can
+Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
 generate, modify, and convert documents without using Microsoft Word.
 ### **Aspose.Words Java for Jython**
 Aspose.Words Java for Jython is a project that demonstrates / provides the Aspose.Words for Java API usage examples in Jython.
