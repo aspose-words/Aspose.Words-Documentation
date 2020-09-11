@@ -26,7 +26,7 @@ Aspose.Words for Java features can be divided into four main areas:
 
 - **Conversions**. High quality conversions to and from DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, TXT and OpenDocument formats.
 - **Document Object Model**. Programmatic access through a rich API to all document elements and formatting allows to create, modify, extract, copy, split, join, and replace document content.
-- **Rendering**. Convert whole documents or pages to PDF, XPS or SWF for server-side document generation. Also convert document pages to TIFF, PNG or BMP images, print or render pages to Java Graphics. All with high fidelity - exactly like Microsoft Word® would have done it.
+- **Rendering**. Convert whole documents or pages to PDF or XPS for server-side document generation. Also convert document pages to TIFF, PNG or BMP images, print or render pages to Java Graphics. All with high fidelity - exactly like Microsoft Word® would have done it.
 - **Reporting**. Generate documents or reports from scratch or by filling templates with data from data sources or business objects.
 
 **Aspose.Words for Java's main feature areas and how they relate to each other.** 
