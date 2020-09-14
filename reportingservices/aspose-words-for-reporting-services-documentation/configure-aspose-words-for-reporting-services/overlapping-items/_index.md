@@ -16,7 +16,7 @@ RDL reports can contain overlapping items. Faithfully converting reports with ov
 In Flow Layout, overlapping items cannot be converted preserving their original location or size because there is no such thing as Z-order in Flow Layout. However, Aspose.Words for Reporting Services tries to export such items as close to the original as possible. It offers two methods of resolving overlapping items: 
 
 - **Truncate** - Overlapping parts are truncated (default). 
-- **Push** - ** Overlapping items are pushed in appropriate directions. 
+- **Push** - Overlapping items are pushed in appropriate directions. 
 
 The first method is used by default as it allows the preservation of the original position of report items and does not affect surrounding contents. However, it may corrupt the item’s appearance. If you are not satisfied with the Truncate method, you can try the Push method. 
 
