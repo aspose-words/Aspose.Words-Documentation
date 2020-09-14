@@ -80,7 +80,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
       **Java**<br>
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().save("MyTable.xml");
-      {{< /highlight >}
+      {{< /highlight >}}
       Despite the flexibility of this mechanism, there are some cases when it is better to disable it, as shown below:<br>
       **Java**<br>
       {{< highlight csharp >}}
