@@ -11,10 +11,6 @@ Aspose.Words for Android via Java is written entirely in Java, depends only on t
 - Example projects.
 - Aspose.Words Documentation in HTML format.
 
-**Developing a Java application with Aspose.Words for Android via Java.**
-
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
-
 
 
 
