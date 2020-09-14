@@ -69,18 +69,18 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 		… 
 	</SubstitutesTable> 
       </TableSubstitutionSettings>
-      {{< /highlight >}}<br>
+      {{< /highlight >}}
       OriginalFont - a font to be replaced, SubstituteFonts - list of substitution variants, separated by a comma. The first available font is used for replacement.<br>
       The main feature of this rule is the ability to load your own substitution tables, as it is shown in the following example:<br>
       **Java**<br>
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().load("Table.xml");
-      {{< /highlight >}}<br>
+      {{< /highlight >}}
       You can take as a basis the existing table from the jar or save it programmatically in the following way:<br>
       **Java**<br>
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().save("MyTable.xml");
-      {{< /highlight >}}<br>
+      {{< /highlight >}
       Despite the flexibility of this mechanism, there are some cases when it is better to disable it, as shown below:<br>
       **Java**<br>
       {{< highlight csharp >}}
@@ -90,23 +90,23 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
       **Java**<br>
       {{< highlight csharp >}}
       FontInfoCollection fontInfos = doc.getFontInfos();
-      {{< /highlight >}}<br>
+      {{< /highlight >}}
       Users cannot interfere in the workflow of this feature unless they decide to disable it in case of unsatisfactory results:<br>
       **Java**<br>
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(false);
-      {{< /highlight >}}<br>
+      {{< /highlight >}}
       If **FontInfo** is not available for the missing font, then the process stops.
    1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://apireference.aspose.com/java/words/com.aspose.words/defaultfontsubstitutionrule#DefaultFontName) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
       **Java**<br>
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(false);
-      {{< /highlight >}}<br>
+      {{< /highlight >}}
       To check the current default font, use:<br>
       **Java**<br>
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().getDefaultFontName();
-      {{< /highlight >}}<br>
+      {{< /highlight >}}
       To set up your own replacement option, apply:<br>
       **Java**<br>
       {{< highlight csharp >}}
