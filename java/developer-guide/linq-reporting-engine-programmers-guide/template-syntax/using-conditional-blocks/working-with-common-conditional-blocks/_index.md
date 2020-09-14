@@ -23,10 +23,9 @@ You can normally use common conditional blocks within data bands. For example, g
 
 In this case, the engine produces a report as follows.
 
-**item1
-item2
-item3
-** 
+**item1<br>
+item2<br>
+item3** 
 
 You can use data bands within common conditional blocks as well. For example, given the previous declaration of items, you can check whether the enumeration contains any elements before outputting their list.
 
