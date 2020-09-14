@@ -26,4 +26,4 @@ You can download an example of using the **MultipagePrintDocument** class from [
 
 The result of this code example is shown below:
 
-![todo:image_alt_text](/download/attachments/101122567/912869423)
+![print_several_pages_on_one_sheet](print_several_pages_on_one_sheet.png)
