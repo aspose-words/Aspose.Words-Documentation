@@ -16,7 +16,7 @@ A table-row data band is a data band which body occupies single or multiple rows
 
 The following examples in this section are given using ds, a DataSet instance containing DataTable and DataRelation objects according to the following data model.
 
-![todo:image_alt_text](orking_with_table_row_data_bands.png)
+![todo:image_alt_text](working_with_table_row_data_bands.png)
 
 The most common use case of a table-row data band is the building of a document table that represents a list of items. You can use a template like the following one to achieve this.
 
