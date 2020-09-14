@@ -5,7 +5,7 @@ weight: 120
 url: /java/table-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Table is exported to HTML as &lt;table&gt; and other applicable tags.
 
@@ -17,7 +17,9 @@ See the following link in the documentation for further information:
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
+
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -25,6 +27,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
+{{% /alert %}}
 
 ##### **Table**
 
