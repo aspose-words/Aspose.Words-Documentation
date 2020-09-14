@@ -207,7 +207,7 @@ Aspose.Words attempts to find TrueType fonts on the file system automatically.
 ## **Differences in Processing of Font Formats in Aspose.Words and Microsoft Word**
 There are some differences in the processing of font formats in Aspose.Words and Microsoft Word as shown in the table below:
 
-|** |**Microsoft Word**|**Aspose.Words**|
+| |**Microsoft Word**|**Aspose.Words**|
 | :- | :- | :- |
 |TrueType fonts and OpenType fonts with TrueType outlines|Supported.|Supported.|
 |OpenType fonts with PostScript outlines|Supported for most scenarios. Embedding to fixed-page formats such as PDF and XPS are not supported. The text is replaced with bitmap images.|Supported for most scenarios, including embedding to fixed-page formats. Parsing of glyph data, required for rendering WordArt/3D text effects, and SVG font embedding is not supported.|
