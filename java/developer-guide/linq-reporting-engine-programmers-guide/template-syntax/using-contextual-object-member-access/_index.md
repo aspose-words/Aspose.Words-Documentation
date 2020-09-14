@@ -5,8 +5,6 @@ weight: 120
 url: /java/using-contextual-object-member-access/
 ---
 
-{{% alert color="primary" %}} 
-
 You can make your templates less cumbersome using the contextual object member access feature. This feature enables you to access members of some objects without specifying the objects' identifiers in template expressions. An object to which the feature can be applied is determined depending on a 
 context as follows:
 
@@ -23,6 +21,7 @@ Consider the following example. Given that ds is a DataSet instance containing a
 <<foreach [in ds.Persons]>><<[p.numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}<<[p.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[p.Age]>><</foreach>>{{< /highlight >}}|
 |{{< highlight csharp >}}
 Count: <<[ds.Persons.count()]>>{{< /highlight >}}| | |
+
 Alternatively, you can use the following template involving the contextual object member access syntax to get the same results.
 
 |**No.** |**Name** |**Age** |
@@ -33,4 +32,3 @@ Alternatively, you can use the following template involving the contextual objec
 <<[Age]>><</foreach>>{{< /highlight >}}|
 |{{< highlight csharp >}}
 Count: <<[Persons.count()]>>{{< /highlight >}}| | |
-{{% /alert %}}
