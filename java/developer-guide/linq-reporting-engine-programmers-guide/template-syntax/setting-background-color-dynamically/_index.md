@@ -44,7 +44,6 @@ public Color  REF getColor getColor()  REF getterBody { ... }
 
 ...
 }
-FontSettings fontSettings = FontSettings.getDefaultInstance();
 {{< /highlight >}}
 
 Given that items is an enumeration of ColoredItem instances, you can use the following template to output every item into a separate paragraph colored dynamically.
