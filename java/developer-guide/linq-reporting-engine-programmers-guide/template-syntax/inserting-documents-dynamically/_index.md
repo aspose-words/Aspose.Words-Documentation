@@ -11,7 +11,7 @@ Syntax of a doc tag is defined as follows.
 
 **&lt;&lt;doc [document_expression]&gt;&gt;**
 
-` `REF note **Note –** A doc tag can be used almost anywhere in a template document except textboxes and charts.
+**Note –** A doc tag can be used almost anywhere in a template document except textboxes and charts.
 
 An expression declared within a doc tag is used by the engine to load a document to be inserted during runtime. The expression must return a value of one of the following types:
 
