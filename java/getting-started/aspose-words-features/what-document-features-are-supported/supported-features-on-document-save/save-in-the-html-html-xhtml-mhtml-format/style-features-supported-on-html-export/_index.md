@@ -5,7 +5,7 @@ weight: 110
 url: /java/style-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Style type itself is not exported to CSS but it is implied by the specific attributes exported to that style.
 
@@ -15,7 +15,9 @@ Character styles often are saved with .span prefix.
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
+
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -23,6 +25,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
+{{% alert color="primary" %}}
 
 ##### **Style Type**
 Style type itself is not exported to CSS but it is implied by the specific attributes exported to that style.
