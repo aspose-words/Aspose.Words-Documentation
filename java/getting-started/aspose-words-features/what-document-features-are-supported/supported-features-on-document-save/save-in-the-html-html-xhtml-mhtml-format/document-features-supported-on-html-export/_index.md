@@ -5,7 +5,7 @@ weight: 30
 url: /java/document-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that not all Microsoft Word document features are available in HTML format and some features may be lost or converted to an image.
 
@@ -39,7 +39,9 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the import section](/words/java/document-features-supported-on-html-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
+
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -47,6 +49,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
+{{% /alert %}}
 
 ##### **General**
 
