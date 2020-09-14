@@ -54,100 +54,73 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 1. Aspose.Words tries to find the required font among the fonts embedded in the original document. Some document formats such as DOCX can contain embedded fonts.
 1. If Aspose.Words is unable to locate the required font with the exact name match, and the [AltName](https://apireference.aspose.com/java/words/com.aspose.words/fontinfo#AltName) property defined for this font, then Aspose.Words will find the font defined with **AltName** from the [FontInfo](https://apireference.aspose.com/java/words/com.aspose.words/FontInfo) class, which specifies the font information.
 1. If Aspose.Words is unable to locate the defined font, and **AltName** is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
-   1. Aspose.Words will attempt to apply OS font settings, if they are available, by using the FontConfig utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
-      Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the FontConfig utility is disabled. You can enable it as follows:
-
-**Java**
-
-{{< highlight csharp >}}
-fontSettings.getSubstitutionSettings().getFontConfigSubstitution()().setEnabled(true);
-{{< /highlight >}}
-
-1. The next step is a simple, but incredibly powerful mechanism called [TableSubstitutionRule](https://apireference.aspose.com/words/java/com.aspose.words/TableSubstitutionRule). By default, this feature is active and available for any OS. Aspose.Words uses XML tables which define basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.
-
-**XML**
-
-{{< highlight html >}}
+   1. Aspose.Words will attempt to apply OS font settings, if they are available, by using the FontConfig utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.<br>
+      Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the FontConfig utility is disabled. You can enable it as follows:<br>
+      **Java**<br>
+      {{< highlight csharp >}}
+      fontSettings.getSubstitutionSettings().getFontConfigSubstitution()().setEnabled(true);
+      {{< /highlight >}}
+   1. The next step is a simple, but incredibly powerful mechanism called [TableSubstitutionRule](https://apireference.aspose.com/words/java/com.aspose.words/TableSubstitutionRule). By default, this feature is active and available for any OS. Aspose.Words uses XML tables which define basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.<br>
+      **XML**<br>
+      {{< highlight html >}}
 <TableSubstitutionSettings xmlns="Aspose.Words"> 
 	<SubstitutesTable> 
 		<Item OriginalFont="Arabic Transparent" SubstituteFonts="Arial" /> 
 		… 
 	</SubstitutesTable> 
 </TableSubstitutionSettings>
-{{< /highlight >}}
-
-OriginalFont - a font to be replaced, SubstituteFonts - list of substitution variants, separated by a comma. The first available font is used for replacement.
-
-The main feature of this rule is the ability to load your own substitution tables, as it is shown in the following example:
-
-**Java**
-
+{{< /highlight >}}<br>
+      OriginalFont - a font to be replaced, SubstituteFonts - list of substitution variants, separated by a comma. The first available font is used for replacement.<br>
+      The main feature of this rule is the ability to load your own substitution tables, as it is shown in the following example:<br>
+      **Java**<br>
 {{< highlight csharp >}}
 fontSettings.getSubstitutionSettings().getTableSubstitution().load("Table.xml");
-{{< /highlight >}}
-
-You can take as a basis the existing table from the jar or save it programmatically in the following way:
-
-**Java**
-
+{{< /highlight >}}<br>
+      You can take as a basis the existing table from the jar or save it programmatically in the following way:<br>
+      **Java**<br>
 {{< highlight csharp >}}
 fontSettings.getSubstitutionSettings().getTableSubstitution().save("MyTable.xml");
-{{< /highlight >}}
-
-Despite the flexibility of this mechanism, there are some cases when it is better to disable it, as shown below:
-
-**Java**
-
+{{< /highlight >}}<br>
+      Despite the flexibility of this mechanism, there are some cases when it is better to disable it, as shown below:<br>
+      **Java**<br>
 {{< highlight csharp >}}
 fontSettings.getSubstitutionSettings().getTableSubstitution().setEnabled(false);
 {{< /highlight >}}
-
-1. The **FontInfo** substitution rule will be applied if the table substitution rule cannot find the font. This mechanism is enabled by default. Aspose.Words finds the most suitable font according to the font information contained in a particular document. This information can be obtained from the **FontInfo** class as shown below:
-
-**Java**
-
+   1. The **FontInfo** substitution rule will be applied if the table substitution rule cannot find the font. This mechanism is enabled by default. Aspose.Words finds the most suitable font according to the font information contained in a particular document. This information can be obtained from the **FontInfo** class as shown below:<br>
+      **Java**<br>
 {{< highlight csharp >}}
 FontInfoCollection fontInfos = doc.getFontInfos();
-{{< /highlight >}}
-
-Users cannot interfere in the workflow of this feature unless they decide to disable it in case of unsatisfactory results:
-
-**Java**
-
+{{< /highlight >}}<br>
+      Users cannot interfere in the workflow of this feature unless they decide to disable it in case of unsatisfactory results:<br>
+      **Java**<br>
 {{< highlight csharp >}}
 fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(false);
-{{< /highlight >}}
-
-If **FontInfo** is not available for the missing font, then the process stops.
-
-1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://apireference.aspose.com/java/words/com.aspose.words/defaultfontsubstitutionrule#DefaultFontName) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:
-
-**Java**
-
+{{< /highlight >}}<br>
+      If **FontInfo** is not available for the missing font, then the process stops.
+   1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://apireference.aspose.com/java/words/com.aspose.words/defaultfontsubstitutionrule#DefaultFontName) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
+      **Java**<br>
 {{< highlight csharp >}}
 fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(false);
-{{< /highlight >}}
-
-To check the current default font, use:
-
-**Java**
-
+{{< /highlight >}}<br>
+      To check the current default font, use:<br>
+      **Java**<br>
 {{< highlight csharp >}}
 fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().getDefaultFontName();
-{{< /highlight >}}
-
-To set up your own replacement option, apply:
-
-**Java**
-
+{{< /highlight >}}<br>
+      To set up your own replacement option, apply:<br>
+      **Java**<br>
 {{< highlight csharp >}}
 fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
 {{< /highlight >}}
-
 1. If Aspose.Words is unable to perform the font substitution, it tries to get the first available font from available font sources.
 1. Finally, if Aspose.Words cannot find any fonts among the available font sources, it renders the document using the free Fanwood font that is embedded into the Aspose.Words assembly.
 
+{{% alert color="primary" %}} 
+
 If **FontInfo** is available, the *FontInfo substitution rule* will always resolve the font and override the default font rule. If you want to use the default font rule, you should disable the *FontInfo substitution rule*. Note that the *FontConfig substitution rule* will resolve the font in most cases, and thus overrides all other rules.
+
+{{% /alert %}} 
+
 ## **How to Recognize That the Font Was Replaced**
 Sometimes, it may be unclear why the document layout has changed, or why some font does not look as expected. In such cases, font substitution warnings messages implemented by the [IWarningCallback](https://apireference.aspose.com/java/words/com.aspose.words/IWarningCallback) interface come to rescue. They have the [FontSubstitution](https://apireference.aspose.com/java/words/com.aspose.words/warningtype#FONT_SUBSTITUTION) warning type and the standard description text format, "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: <Reason>", with the following reasons:
 
@@ -199,7 +172,7 @@ The following code example demonstrates how to load font fallback settings from
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-SetFontFallbackSettings.java" >}}
 
-` `In the above code example, the following XML file is used:
+In the above code example, the following XML file is used:
 
 {{< highlight html >}}
 <FontFallbackSettings xmlns="Aspose.Words">
