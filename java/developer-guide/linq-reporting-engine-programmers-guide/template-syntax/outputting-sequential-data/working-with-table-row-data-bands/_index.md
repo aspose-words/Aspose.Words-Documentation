@@ -44,7 +44,7 @@ To populate a document table with a master-detail data, you can use nested table
 
 |**Manager/Client**|**Contract Price**|
 | :- | :- |
-|<p>&lt;&lt;foreach [</p><p>m in ds.Managers</p><p>]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;</p>|<p>&lt;&lt;[m.Contracts. REF linqSum sum(</p><p>**c => c.Price)]&gt;&gt;</p>|
+|<p>&lt;&lt;foreach [</p><p>m in ds.Managers</p><p>]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;</p>|<p>&lt;&lt;[m.Contracts. REF linqSum sum(</p><p>c => c.Price)]&gt;&gt;</p>|
 |<p>&lt;&lt;foreach [</p><p>c in m.Contracts</p><p>]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt;</p>|<p>&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/</p><p>foreach&gt;&gt;&lt;&lt;/</p><p>foreach&gt;&gt;</p>|
 |**Total:**|<p>&lt;&lt;[ds</p><p>.Contracts</p><p>. REF linqSum sum(c =></p><p>c.Price)]&gt;&gt;</p>|
 
@@ -70,7 +70,7 @@ You can normally use common data bands nested to table-row data bands as well li
 
 |**Manager**|**Clients**|
 | :- | :- |
-|<p>&lt;&lt;foreach [</p><p>m in ds.Managers**</p><p>]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;</p>|<p>**&lt;&lt;foreach [<br>c in m.Contracts<br>]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;</p><p>&lt;&lt;/foreach&gt;&gt;&lt;&lt;/foreach&gt;&gt;</p>|
+|<p>&lt;&lt;foreach [</p><p>m in ds.Managers</p><p>]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;</p>|<p>&lt;&lt;foreach [<br>c in m.Contracts<br>]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;</p><p>&lt;&lt;/foreach&gt;&gt;&lt;&lt;/foreach&gt;&gt;</p>|
 
 In this case, the engine produces a report as follows.
 
