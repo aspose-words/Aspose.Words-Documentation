@@ -5,7 +5,7 @@ weight: 60
 url: /java/footnotes-an-endnote-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Exported as a hyperlink with footnote number inline of text.
 
@@ -13,7 +13,9 @@ Footnote text is exported at the bottom of the document separated by a horizonta
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
+
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -21,6 +23,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
+{{% /alert %}}
 
 ##### **Footnotes**
 Exported as a hyperlink with footnote number inline of text.
