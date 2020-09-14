@@ -5,7 +5,7 @@ weight: 50
 url: /java/field-features-supported-on-opendocument-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
@@ -19,7 +19,9 @@ Fields that do not exist in ODT are converted to plain text when saved to ODT, o
 
 [Jump to this location in the import section](/words/java/field-features-supported-on-opendocument-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
+
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -29,6 +31,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 <https://products.aspose.app/words/viewer>
 
+{{% /alert %}}
 
 ##### **Field Codes**
 Fields that do not exist in ODT are converted to plain text when saved to ODT, others are exported as working fields.
