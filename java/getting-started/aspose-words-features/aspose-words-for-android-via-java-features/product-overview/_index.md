@@ -7,7 +7,6 @@ url: /java/product-overview/
 
 {{% alert color="primary" %}} 
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
 ### **Welcome to Aspose.Words for Android via Java!**
 Aspose.Words for Android via Java is a Java class library that enables Android developers to perform a great range of document processing tasks. Aspose.Words for Android via Java supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words for Android via Java you can generate, modify, convert, render and print documents. Using Aspose.Words for Android via Java in your project gives you the benefits of a rich feature set, platform independence, performance and scalability all with a minimal learning curve.
 
@@ -20,38 +19,6 @@ Aspose.Words for Android via Java features can be divided into four main areas:
 - **Document Object Model**. Programmatic access through a rich API to all document elements and formatting allows to create, modify, extract, copy, split, join, and replace document content.
 - **Rendering**. Convert whole documents or pages to PDF, XPS or SWF. Also convert document pages to TIFF, PNG or BMP images, print or render pages to a Canvas object. All with high fidelity - exactly like Microsoft Word® would have done it.
 - **Reporting**. Generate documents or reports from scratch or by filling templates with data from data sources or business objects.
-
-  **Aspose.Words for Android via Java's main feature areas and how they relate to each other.**
-
-**![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #### **Platform Independence**
 Aspose.Words for Android via Java can be used wherever the Android Runtime environment is installed. Aspose.Words for Android via Java is available for Java SE 5, 6 and 7 and will run on Android systems running Android OS 2.0 or greater. This means almost all Android developers can use Aspose.Words for Android via Java to enrich their applications.
