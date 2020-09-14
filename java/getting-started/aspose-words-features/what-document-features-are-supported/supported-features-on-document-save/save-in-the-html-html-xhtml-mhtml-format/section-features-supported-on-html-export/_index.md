@@ -5,7 +5,7 @@ weight: 100
 url: /java/section-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Each section is exported as separate &lt;div&gt; elements as a child of &lt;body&gt; when there is more than one section in the document.
 
@@ -15,7 +15,9 @@ Section-wide formatting is exported as CSS styles on &lt;div&gt;.
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
+
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -23,6 +25,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
+{{% /alert %}}
 
 ##### **Headers and Footers**
 There is a save option that controls how headers and footers are output. This controls how the primary header is exported in different places in the output document.
