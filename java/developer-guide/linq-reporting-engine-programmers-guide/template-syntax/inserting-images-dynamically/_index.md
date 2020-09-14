@@ -26,7 +26,7 @@ While building a report, the following procedure is applied to an image tag:
 1. The corresponding textbox is filled with this image.
 1. The tag is removed from the textbox. 
 
-` `REF note **Note –** If the expression declared within an image tag returns a stream object, then it is closed by the engine as soon as the corresponding image is built.
+**Note –** If the expression declared within an image tag returns a stream object, then it is closed by the engine as soon as the corresponding image is built.
 
 By default, the engine stretches an image filling a textbox to the size of the textbox without preserving the ratio of the image. However, you can change this behavior in the following ways:
 
@@ -50,4 +50,4 @@ By default, the engine stretches an image filling a textbox to the size of the t
 
 **&lt;&lt;image [image_expression] -fitSizeLim&gt;&gt;**
 
-` `REF note **Note –** If the size of the image is greater than the size of the textbox, then the fitSizeLim switch acts like fitHeight or fitWidth. Otherwise, the fitSizeLim switch acts like fitSize.
+**Note –** If the size of the image is greater than the size of the textbox, then the fitSizeLim switch acts like fitHeight or fitWidth. Otherwise, the fitSizeLim switch acts like fitSize.
