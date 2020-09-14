@@ -42,4 +42,4 @@ If value1 and value2 have different values, say “Hello” and “World”, tab
 |**...**|**World**|**...**|
 |**...**|**...**|**...**|
 
-` `REF note **Note –** A cellMerge tag can be normally used within a table data band.
+**Note –** A cellMerge tag can be normally used within a table data band.
