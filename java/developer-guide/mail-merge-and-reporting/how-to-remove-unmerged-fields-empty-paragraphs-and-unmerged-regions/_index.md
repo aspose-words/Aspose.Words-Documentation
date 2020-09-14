@@ -56,9 +56,6 @@ The following steps are used to demonstrate this:
 1. Enable the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](http://www.aspose.com/api/java/words/com.aspose.words/constants/MailMergeCleanupOptions) flag in [MailMerge.setCleanupOptions(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge)*.
 1. Merge the data with the document using the [MailMerge.executeWithRegions()](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge) method.
 
-The following document is used in our sample. It contains multiple regions which serve as a good example. Notice how the first region in the document includes a nested region. 
-
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
 ### **The Code**
 The [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](http://www.aspose.com/api/java/words/com.aspose.words/constants/MailMergeCleanupOptions) flag is enabled before mail merge is executed. This instructs the mail merge engine to remove any regions which are not merged with any data.
 
@@ -70,10 +67,6 @@ The [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](http://www.aspose.com/api/ja
 
 If you are merging data from many data sources by using separate calls to [MailMerge.executeWithRegions()](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge) then you need to make sure that this flag is only enabled with the very last merge. Otherwise all unused regions will be removed from the document before they can be merged.
 ### **End Result**
-The output below shows the result after merging the document with an empty data source and the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](http://www.aspose.com/api/java/words/com.aspose.words/constants/MailMergeCleanupOptions) flag to true. All of the regions which contained no data were successfully removed from the document.
+All of the regions which contained no data were successfully removed from the document.
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
-
-
-
-You can also observe some of the related content surronding the region is not removed along with the unused region. To manually handle how a region is removed or replaced you can use the technique provided in the **“Apply Custom Logic to Empty Regions”** article [How to Apply Custom Logic to Unmerged Regions](https://docs.aspose.com/words/java/how-to-apply-custom-logic-to-unmerged-regions/).
+Some of the related content surronding the region is not removed along with the unused region. To manually handle how a region is removed or replaced you can use the technique provided in the **“Apply Custom Logic to Empty Regions”** article [How to Apply Custom Logic to Unmerged Regions](https://docs.aspose.com/words/java/how-to-apply-custom-logic-to-unmerged-regions/).
