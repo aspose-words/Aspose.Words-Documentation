@@ -10,8 +10,8 @@ The following table describes lexical tokens that you can use in template expres
 |**Token**|**Restrictions**|
 | :- | :- |
 |**Keyword**|Only the following tokens are reserved as keywords: true, false, null, new, and in.|
-|**Identifier**|<p>`  `·  The feature of keyword escaping through the “@” character is not supported.</p><p>`  `·  Unicode character escapes are not permitted in identifiers.</p>|
-|**Literal**|<p>`  `·  32-bit Unicode character escapes are not supported.</p><p>`  `·  Unsigned integer and decimal literals are not permitted.</p>|
+|**Identifier**|- The feature of keyword escaping through the “@” character is not supported.<br>- Unicode character escapes are not permitted in identifiers.|
+|**Literal**|- 32-bit Unicode character escapes are not supported.<br>- Unsigned integer and decimal literals are not permitted.|
 |**Operator**|See “ REF operators Using Operators.”|
 
 You can use the following identifiers that are not preceded by a member access operator in template expressions:
