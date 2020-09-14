@@ -13,7 +13,7 @@ You can set text background color for document contents dynamically using backCo
 content_to_be_colored
 &lt;&lt;/backColor&gt;&gt;**
 
-` `REF note **Note –** A backColor tag can be used anywhere in a template document except charts.
+**Note** A backColor tag can be used anywhere in a template document except charts.
 
 An expression declared within an opening backColor tag defines a text background color to be applied during runtime. The expression must return a value of one of the following types:
 
@@ -29,22 +29,23 @@ An expression declared within an opening backColor tag defines a text background
 
 While building a report, an expression declared within an opening backColor tag is evaluated and document content between the tag and its corresponding closing tag is colored accordingly. The opening and closing backColor tags are removed then.
 
-` `REF note **Note –** Within a document block to be colored using a backColor tag, elements having a text background color already applied are not affected during runtime.
+**Note** Within a document block to be colored using a backColor tag, elements having a text background color already applied are not affected during runtime.
 
 You can use backColor tags nested into each other. Also, you can normally use backColor tags within data bands and conditional blocks like in the following example.
 
 Assume that you have the ColoredItem class defined in your application as follows.
 
-**public class ColoredItem
+{{< highlight csharp >}}
+public class ColoredItem
 {
-`    `public String  REF getName getName()  REF getterBody { ... }**
+public String  REF getName getName()  REF getterBody { ... }
+public String  REF getDescription getDescription()  REF getterBody { ... }
+public Color  REF getColor getColor()  REF getterBody { ... }
 
-`    `**public String  REF getDescription getDescription()  REF getterBody { ... }**
-
-`    `**public Color  REF getColor getColor()  REF getterBody { ... }**
-
-`    `**...
-}**
+...
+}
+FontSettings fontSettings = FontSettings.getDefaultInstance();
+{{< /highlight >}}
 
 Given that items is an enumeration of ColoredItem instances, you can use the following template to output every item into a separate paragraph colored dynamically.
 
@@ -57,7 +58,7 @@ To output every item into a separate table row colored dynamically, you can use 
 | :- | :- |
 
 
-` `REF note **Note –** Start and end backColor tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as foreach tags.
+**Note** Start and end backColor tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as foreach tags.
 
 Also, you can use a backColor tag to set a solid-fill color for a shape dynamically by performing the following steps:
 
