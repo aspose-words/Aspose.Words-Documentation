@@ -5,7 +5,7 @@ weight: 130
 url: /java/text-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
@@ -22,7 +22,9 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
+
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -30,6 +32,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
+{{% /alert %}}
 
 ##### **Characters**
 
