@@ -7,7 +7,7 @@ url: /java/working-with-table-row-conditional-blocks/
 
 A table-row conditional block is a conditional block which body occupies single or multiple rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
-` `REF note **Note –** Table rows occupied by different template options in the following template are highlighted with different colors.
+**Note –** Table rows occupied by different template options in the following template are highlighted with different colors.
 
 ||||
 | :- | :- | :- |
@@ -22,16 +22,15 @@ A table-row conditional block is a conditional block which body occupies single 
 
 The following examples in this section are given using client, an instance of the Client class, and clients, an enumeration of instances of the Client class that is defined as follows.
 
-**public class Client
+{{< highlight csharp >}}
+public class Client
 {
-`    `public String  REF getName getName()  REF getterBody { ... }**
-
-`    `**public String  REF getCountry getCountry()  REF getterBody { ... }**
-
-`    `**public String  REF getLocalAddress getLocalAddress()  REF getterBody { ... }**
-
-`    `**...
-}**
+public String  REF getName getName()  REF getterBody { ... }
+public String  REF getCountry getCountry()  REF getterBody { ... }
+public String  REF getLocalAddress getLocalAddress()  REF getterBody { ... }
+...
+}
+{{< /highlight >}}
 
 Using table-row conditional blocks, you can pick to output a single row among several rows of a single document table depending on a condition like in the following example.
 
@@ -60,7 +59,7 @@ In this case, the engine produces a report as follows.
 |**I & Sons**|<p>**43 Vogel Street**</p><p>**Roslyn**</p><p>**Palmerston North 4414**</p>||
 |**J Ent.**|**Japan**|<p>**Hakusan 4-Chōme 3-2**</p><p>**Bunkyō-ku, TŌKYŌ**</p><p>**112-0001**</p><p>**Japan**</p>|
 
-` `REF note **Note –** You can use common conditional blocks within table-row data bands as well.
+**Note –** You can use common conditional blocks within table-row data bands as well.
 
 Also, you can use data bands inside table-row conditional blocks. For example, you can provide an alternate content for an empty table-row data band using the following template.
 
@@ -102,4 +101,4 @@ In this case, the engine produces a report as follows.
 | :- |
 |**Footer**|
 
-` `REF note **Note –** In the previous examples, tag &lt;&lt;if [false]&gt;&gt; is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
+**Note –** In the previous examples, tag &lt;&lt;if [false]&gt;&gt; is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
