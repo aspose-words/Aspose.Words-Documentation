@@ -15,7 +15,7 @@ The [FontSourceBase](https://apireference.aspose.com/java/words/com.aspose.word
 - [FileFontSource](https://apireference.aspose.com/java/words/com.aspose.words/FileFontSource)
 - [MemoryFontSource](https://apireference.aspose.com/java/words/com.aspose.words/MemoryFontSource)
 
-` `Implementation details for some classes are explained below.
+Implementation details for some classes are explained below.
 ## **Loading Fonts from System**
 There is a special [SystemFontSource](https://apireference.aspose.com/java/words/com.aspose.words/SystemFontSource) class that is always used by default. It represents all TrueType fonts installed on the system. Therefore, it is possible to create a source list with **SystemFontSource** and any other required sources:
 
