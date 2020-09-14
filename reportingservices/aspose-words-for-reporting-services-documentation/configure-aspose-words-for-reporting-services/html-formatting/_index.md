@@ -19,7 +19,7 @@ Some of this text is &lt;b&gt;bold&lt;/b&gt; and other text is &lt;i&gt;italic&l
 
 When exported, the text will look like: 
 
-Some of this text is **bold** and other text is *italic* . 
+Some of this text is **bold** and other text is *italic*. 
 
 **Note however that this feature has some serious limitations, some of which are:** 
 
