@@ -5,7 +5,7 @@ weight: 40
 url: /java/drawing-object-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Most drawing objects are exported using the img element unless there is native support for the feature. HTML does not have support for a lot of Word graphics options therefore these features are rendered to image before export. There are options to choose a folder or streams to save images during export to HTML. There is also an option to export image data embedded in the HTML as base64. You can export the document as MHTML to automatically embed all image data.
 
@@ -17,7 +17,9 @@ This feature will be supported in the future.
 
 [Jump to this location in the import section](/words/java/drawing-object-features-supported-on-html-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
+
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -25,6 +27,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
+{{% /alert %}}
 
 ##### **Images**
 All images are exported as the same format that they were originally loaded as.
