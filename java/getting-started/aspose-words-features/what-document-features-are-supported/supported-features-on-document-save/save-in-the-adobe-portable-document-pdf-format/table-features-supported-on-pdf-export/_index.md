@@ -7,7 +7,7 @@ url: /java/table-features-supported-on-pdf-export/
 
 ##### **Table**
 
-|<p>**{{% alert color="primary" %}}** </p><p>**Feature**</p><p>**{{% /alert %}}**</p>|**Supported**|**Comment**|**See Also**|
+|**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Planned |Currently exported as left-to-right. | |
