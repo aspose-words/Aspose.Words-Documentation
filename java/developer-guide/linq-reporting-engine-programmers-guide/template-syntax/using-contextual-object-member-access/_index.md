@@ -19,20 +19,18 @@ Consider the following example. Given that ds is a DataSet instance containing a
 
 |**No.** |**Name** |**Age** |
 | :- | :- | :- |
-|<p>{{< highlight csharp >}}
-p> <<foreach [p</p><p>        in ds.Persons]>><<[</p><p>    p.numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[p.Name]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[p.Age]>><</</p><p>foreach>></p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Count: <<[ds.Persons.count()]>></p><p>{{< /highlight >}}</p>| | |
+|{{< highlight csharp >}}
+<<foreach [in ds.Persons]>><<[p.numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}<<[p.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[p.Age]>><</foreach>>{{< /highlight >}}|
+|{{< highlight csharp >}}
+Count: <<[ds.Persons.count()]>>{{< /highlight >}}| | |
 Alternatively, you can use the following template involving the contextual object member access syntax to get the same results.
 
 |**No.** |**Name** |**Age** |
 | :- | :- | :- |
-|<p>{{< highlight csharp >}}
-p>  <<foreach [</p><p>        in Persons]>><<[</p><p>    numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[Name]>> </p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[Age]>><</</p><p>foreach>> </p><p>{{< /highlight >}}</p>|
-|<p>{{< highlight csharp >}}
-p> Count: <<[Persons.count()]>> </p><p>{{< /highlight >}}</p>| | |
+|{{< highlight csharp >}}
+<<foreach [in Persons]>><<[numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
+<<[Name]>>{{< /highlight >}}|{{< highlight csharp >}}
+<<[Age]>><</foreach>>{{< /highlight >}}|
+|{{< highlight csharp >}}
+Count: <<[Persons.count()]>>{{< /highlight >}}| | |
 {{% /alert %}}
