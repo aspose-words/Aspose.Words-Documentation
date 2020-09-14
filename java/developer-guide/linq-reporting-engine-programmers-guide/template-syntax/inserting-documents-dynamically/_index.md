@@ -22,7 +22,7 @@ An expression declared within a doc tag is used by the engine to load a document
 
 While building a report, an expression declared within a doc tag is evaluated and its result is used to load a document which content replaces the doc tag then.
 
-` `REF note **Note –** If an expression declared within a doc tag returns a stream object, then the stream is closed by the engine as soon as a corresponding document is loaded.
+**Note –** If an expression declared within a doc tag returns a stream object, then the stream is closed by the engine as soon as a corresponding document is loaded.
 
 By default, a document being inserted is not checked against template syntax and is not populated with data. However, you can enable this by using a build switch as follows.
 
