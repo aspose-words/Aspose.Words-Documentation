@@ -5,8 +5,6 @@ weight: 10
 url: /java/working-with-common-data-bands/
 ---
 
-{{% alert color="primary" %}} 
-
 A common data band is a data band which body starts and ends within paragraphs that belong to a single story or table cell.
 
 In particular, a common data band can be entirely located within a single paragraph. In this case, while building a report, the band is replaced with contents that are entirely located within the same paragraph as well. The following example illustrates such a scenario. Given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them with commas in a single paragraph.
@@ -48,5 +46,3 @@ In this case, the engine produces a report as follows.
 2. item2
 3. item3
 {{< /highlight >}}
-
-{{% /alert %}}
