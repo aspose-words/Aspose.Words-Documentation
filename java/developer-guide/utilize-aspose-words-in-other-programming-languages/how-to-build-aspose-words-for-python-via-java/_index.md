@@ -108,20 +108,18 @@ The second is the version;
 The third is the python module name.
 
 Result *.whl* file will be saved in *.\dist* directory
+
 #### **How to install "Aspose Words for Python via Java" on Windows**
-\1. Download and install [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html). We use JRE x64 version because our .whl was built for Windows x64;
 
-\2. Download and install [Python](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi). At the moment 2.7 version is used;
-
-\3. Add following path variables to the environment variables list:
-
+1. Download and install [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html). We use JRE x64 version because our .whl was built for Windows x64;
+1. Download and install [Python](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi). At the moment 2.7 version is used;
+1. Add following path variables to the environment variables list:<br>
 ![todo:image_alt_text](how-to-build-aspose-words-for-python-via-java_2.png)
-
-\4. Then install the .whl package [create_aspose_words.py](https://docs.aspose.com/download/attachments/61539591/create_aspose_words.py?api=v2)
-
+1. Then install the .whl package [create_aspose_words.py](https://docs.aspose.com/download/attachments/61539591/create_aspose_words.py?api=v2)<br>
 {{< highlight csharp >}}
 > pip install .\aspose_words-17.8-cp27-none-win_amd64.whl
 {{< /highlight >}}
+
 #### **How to install "Aspose Words for Python via Java" on Ubuntu**
 Check if python is installed
 

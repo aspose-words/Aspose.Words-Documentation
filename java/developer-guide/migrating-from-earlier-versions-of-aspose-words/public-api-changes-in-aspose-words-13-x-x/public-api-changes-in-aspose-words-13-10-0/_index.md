@@ -18,18 +18,20 @@ Behavior of ResourcesFolder and ResourcesFolderAlias properties of HtmlFixedSave
 Before the fix, when **ResourcesFolder** was only specified but not **ResourcesFolderAlias**, the file name of the result document was used as the resources folder alias.
 Now, the **ResourcesFolder** value is used as the resources folder alias in this case i.e the resource file URI in the result document contain full paths to the resource files.
 
-|** |**Image file path** |**Image file URI** |
+| |**Image file path** |**Image file URI** |
 | :- | :- | :- |
 |Before the fix |c:\res\image.png |doc/image.png |
 |After the fix |c:\res\image.png |c:\res\image.png |
+
 #### **2. Default ResourcesFolder and Custom ResourcesFolderAlias.**
 Before the fix, when only **ResourcesFolderAlias** is specified but not*ResourcesFolder*, the alias was used as the path to the resources folder.
 Now, the file name of the result document is used as the path to the resources folder in this case. You may have to move the resource files so they are accessible with the specified alias.
 
-|** |**Image file path** |**Image file URI** |
+| |**Image file path** |**Image file URI** |
 | :- | :- | :- |
 |Before the fix |c:\foo\bar\image.png |foo/bar/image.png |
 |After the fix |c:\doc\image.png |foo/bar/image.png |
+
 #### **3. An empty string as a ResourcesFolderAlias.**
 Before the fix, there was no way to specify an empty resources folder alias (in other words, resource file URI always had an alias, which could not be removed).
 Now, an empty string value can be used to specify that resource file URI must have no resources folder alias. When an empty string is used for **ResourcesFolderAlias** the resulting URI will only contain resource file names.

@@ -33,13 +33,11 @@ Starting from 14.3.0, Best Fit position of data labels in Pie chart is partially
 
 Here are few examples:
 
-\1. Best fit position of data labels of 2D Pie chart:
+1. Best fit position of data labels of 2D Pie chart:<br>
+![data_labels_position_2d_pie_chart](data_labels_best_fit_position_2d_pie_chart.png)
+1. Best fit position of data labels of 3D Pie chart:<br>
+![data_labels_position_3d_pie_chart](data_labels_best_fit_position_3d_pie_chart.png)
 
-![todo:image_alt_text](/download/thumbnails/2884694/1149111684)
-
-\2. Best fit position of data labels of 3D Pie chart:
-
-![todo:image_alt_text](/download/thumbnails/2884694/1795045600)
 ### **EUDC Fonts Partial Support Added**
 Aspose.Words' rendering engine now partially supports EUDC (End-User-Defined-Characters) fonts. Please find below the description of how EUDC fonts works on Windows (Microsoft Word also seems to follow this logic in general):
 

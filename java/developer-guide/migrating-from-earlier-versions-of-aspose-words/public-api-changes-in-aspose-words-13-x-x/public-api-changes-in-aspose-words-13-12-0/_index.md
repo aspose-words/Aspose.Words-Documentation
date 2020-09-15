@@ -43,9 +43,9 @@ The new property **ResourceSavingArgs.ResourceFileUri** does not have the limita
 ### **SaveOptions.DmlRenderingMode Introduced**
 Within a separate fix a new option SaveOptions.DmlRenderingMode was introduced. It allows users to control how DrawingML shapes are rendered to fixed page formats. It has two possible values:
 
-\1. Fallback (default mode) - Aspose.Words checks whether DrawingML has fallback shape and if so, renders fallback shape. This is behavior of earlier versions of Aspose.Words, so users will not see any difference in their documents.
+1. Fallback (default mode) - Aspose.Words checks whether DrawingML has fallback shape and if so, renders fallback shape. This is behavior of earlier versions of Aspose.Words, so users will not see any difference in their documents.
+1. DrawingML - In this mode Aspose.Words ignores fallback shape and renders the DrawingML itself.
 
-\2. DrawingML - In this mode Aspose.Words ignores fallback shape and renders the DrawingML itself. 
 ### **TOC Field Switch to Omit Page Numbers is Supported**
 The "\n" switch in TOC fields to omit page numbering during field generation is now supported. Any TOC field with this switch present will have page numbering removed. In previous versions this switch was ignored.
 ### **Trackmove Revisions Supported upon DOCX Round-trip**

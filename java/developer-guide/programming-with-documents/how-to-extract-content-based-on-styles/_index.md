@@ -5,13 +5,17 @@ weight: 280
 url: /java/how-to-extract-content-based-on-styles/
 ---
 
+{{% alert color="primary" %}}
+
+This page is no longer maintained. For an updated page, please visit [Working with Styles](https://docs.aspose.com/words/java/working-with-styles/).
+
+{{% /alert %}}
+
 {{% alert color="primary" %}} 
 
-This page is no longer maintained. For an updated page, please visit [Working with Styles](https://docs.aspose.com/words/java/working-with-styles/)
+You can download the complete source code of the ExtractContentBasedOnStyles sample [here](https://github.com/aspose-words/Aspose.Words-for-Java).
 
-{{% /alert %}} 
-
-You can download the complete source code of the ExtractContentBasedOnStyles sample [here](https://github.com/aspose-words/Aspose.Words-for-Java). 
+{{% /alert %}}
 
 At a simple level, retrieving the content based on styles from a Word document can be useful to identify, list and count paragraphs and runs of text formatted with a specific style. For example, you may need to identify particular kinds of content in the document, such as examples, titles, references, keywords, figure names, and case studies.
 
@@ -127,8 +131,10 @@ System.out.println(java.text.MessageFormat.format("\nRuns with \"{0}\" styles ({
 for (Run run : (Iterable<Run>) runs)
     System.out.println(run.getRange().getText());
 {{< /highlight >}}
+    
 #### **End Result**
 
-When everything is done, running the sample will display the following output: ![todo:image_alt_text](how-to-extract-content-based-on-styles_2.png)
+When everything is done, running the sample will display the following output:
+![todo:image_alt_text](how-to-extract-content-based-on-styles_2.png)
 
 As you can see, this is a very simple example, showing the number and text of the collected paragraphs and runs in the sample Word document.
