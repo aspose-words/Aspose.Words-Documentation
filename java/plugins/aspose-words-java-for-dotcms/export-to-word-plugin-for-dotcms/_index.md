@@ -25,19 +25,15 @@ You can download Export to Word plugin from one of the following locations
 Once downloaded, please follow these steps to install the plugin into your dotCMS website:
 
 1. Log into your site as either admin or another super-user level account.
-1. Go to the dotCMS Dynamic Plugin portlet under the System tab and click on the "Upload Plugin" button and then choose the AsposeDotCMSExportToWord JAR file. 
-
-![todo:image_alt_text](http://i.imgur.com/7dhmMs3.png)
-
-
-OR
+1. Go to the dotCMS Dynamic Plugin portlet under the System tab and click on the "Upload Plugin" button and then choose the AsposeDotCMSExportToWord JAR file.<br>
+![todo:image_alt_text](http://i.imgur.com/7dhmMs3.png)<br>
+OR<br>
 Copy the AsposeDotCMSExportToWord JAR file inside the Felix OSGI container (dotCMS/felix/load).
-
-1. Please add the following 2 exported packages either by changing the file: dotCMS/WEB-INF/felix/osgi-extra.conf or using the dotCMS UI (System -> Dynamic Plugins -> Exported Packages).
+1. Please add the following 2 exported packages either by changing the file: dotCMS/WEB-INF/felix/osgi-extra.conf or using the dotCMS UI (System -> Dynamic Plugins -> Exported Packages).<br>
    i. javax.xml.stream
    ii. javax.xml.namespace
    To add packages to the list:
-       1. Add a comma to the last package in the list.
+   1. Add a comma to the last package in the list.
    2. Add each new package to the list, separating packages with commas.
    3. Press the Save Packages button.
    Important: Selecting Save Packages will restart the OSGI framework. 
@@ -48,16 +44,15 @@ After you have installed the Export to Word OSGI plugin, it is really simple to 
 
 1. Make sure you are logged-in to dotCMS with a Host or Admin level account.
 1. Navigate to the page whose content you want to export to a Word Processing document.
-1. Add following HTML code in your page content. 
-
+1. Add following HTML code in your page content.<br>
 {{< highlight csharp >}}
 <form action="/app/exporttoword" method="POST">
     <input type="hidden" name="page_url" value=$dotPageContent.url />
     <input type="submit" value="Export to Word" style="float: right;" />
 </form>
-{{< /highlight >}}
-
+{{< /highlight >}}<br>
 1. This will add **Export to Word** button on the page and clicking a button will dynamically exports the content of the page into a Word Processing document.
+
 ### **How to apply Aspose License?**
 This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
