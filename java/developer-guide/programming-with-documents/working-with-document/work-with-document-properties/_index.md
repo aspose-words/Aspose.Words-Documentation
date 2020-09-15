@@ -17,7 +17,7 @@ Please note that you cannot instruct Aspose.Words for Java to change or remove t
 ## **Accessing Document Properties in Microsoft Word**
 You can access document properties in Microsoft Word by using the File | Properties menu.
 
-![todo:image_alt_text](/download/attachments/103514258/1877984775)
+![accessing_document_properties_ms_word](accessing_document_properties_ms_word_1.png)
 ## **Accessing Document Properties in Aspose.Words**
 To access document properties in Aspose.Words do the following:
 
