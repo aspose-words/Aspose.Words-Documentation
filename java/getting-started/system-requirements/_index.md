@@ -35,12 +35,14 @@ Aspose.Words for Java supports the following Java versions:
 - J2SE 8.0 (1.8)
 - or above (*for example Java 10*)
 ## **Additional Dependencies**
-Aspose.Words for Java depends upon the [Java Advanced Imaging (JAI) package](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-client-419417.html) from Oracle in order to process some image formats such as TIFF. 
+Aspose.Words for Java depends upon the [Java Advanced Imaging (JAI) package](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-client-419417.html) from Oracle in order to process some image formats such as TIFF.
+
 #### **Installing Native JAI and ImageIO on Windows**
 1. Download **JAI 1.1.3**. At the time of writing only the 32-bit version of the installer is available, so if you are using a JDK, you will want to download [Jai-1_1_3-lib-windows-i586-jdk.exe](http://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jdk.exe), and if you are using a JRE, you will want to download [Jai-1_1_3-lib-windows-i586-jre.exe](http://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jre.exe).
 1. Run the installer and point it to the directory where JDK/JRE is installed.
 1. Download **JAI Image I/O 1.1**. At the time of writing only the 32-bit version of the installer is available, so if you are using a JDK, you will want to download [jai_imageio-1_1-lib-windows-i586-jdk.exe](http://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jdk.exe), and if you are using a JRE, you will want to download [jai_imageio-1_1-lib-windows-i586-jre.exe](http://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jre.exe)
 1. Run the installer and point it to the directory where JDK/JRE is installed.
+
 #### **Installing Native JAI and ImageIO on Linux**
 1. Download **JAI 1.1.3**, choosing the appropriate architecture:
    1. [i586](http://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-i586.tar.gz) for the 32 bit systems
@@ -48,8 +50,7 @@ Aspose.Words for Java depends upon the [Java Advanced Imaging (JAI) package](htt
 1. Extract the file into a temporary directory
 1. Move JAR files in the JDK/JRE **lib/ext** folder.
 1. Move SO files in the JDK/JRE **lib/amd64** folder.
-1. For example, on an Ubuntu 64 bit system:
-
+1. For example, on an Ubuntu 64 bit system:<br>
 {{< highlight csharp >}}
 $ cd /tmp
 $ wget http://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64.tar.gz && \
@@ -59,7 +60,6 @@ mv /tmp/jai-1_1_3/lib/*.so $JAVA_HOME/jre/lib/amd64/ && \
 rm /tmp/jai-1_1_3-lib-linux-amd64.tar.gz && \
 rm -r /tmp/jai-1_1_3
 {{< /highlight >}}
-
 1. Download **JAI Image I/O 1.1**, choosing the appropriate architecture:
    1. [i586](http://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-i586.tar.gz) for the 32 bit systems
    1. [amd64](http://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-amd64.tar.gz) for the 64-bit ones (even if using Intel processors)
