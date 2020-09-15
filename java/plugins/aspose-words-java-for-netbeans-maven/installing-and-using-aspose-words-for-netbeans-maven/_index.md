@@ -21,20 +21,14 @@ To create **Maven Project** by wizard for using [Aspose.Words for Java API](htt
 
 1. Select **New Project**.
 1. Select **Aspose.Words Maven Project** in the **Maven** category.
-1. Click **Next**. 
-
+1. Click **Next**.<br>
 ![todo:image_alt_text](http://i.imgur.com/P8ZRsD8.jpg)
-
-1. Provide **Project Name, Location, GroupId, ArtifactId** and **Version** for your Maven Project and click **Finish.** 
-
+1. Provide **Project Name, Location, GroupId, ArtifactId** and **Version** for your Maven Project and click **Finish.**<br>
 ![todo:image_alt_text](http://i.imgur.com/ymk88Mk.jpg)
-
 1. This will retrieve the [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) latest [Maven Dependency](http://goo.gl/OK9LAs) reference from [Aspose Cloud Maven Repository](http://maven.aspose.com/artifactory/webapp/home.html?0) and configure it in **pom.xml**. If you have opted for **Also Download Code Examples,** downloading of the **Code Examples** will also begin from the [Aspose.Words for Java API Examples Repository. ](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
-1. Following **Maven** Project will be created on your **NetBeans IDE** on completion of the wizard:  
-
+1. Following **Maven** Project will be created on your **NetBeans IDE** on completion of the wizard:<br>
 ![todo:image_alt_text](http://i.imgur.com/2rQWgDT.jpg)
-
-1. The created **Maven Project** is configured to use **Aspose.Words for Java API** and ready to be enhanced as per your Project requirements.
+1. The created **Maven Project** is configured to use **Aspose.Words for Java API** and ready to be enhanced as per your Project requirements.<br>
    If you have opted to download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples), you can use **Aspose.Words Code Example (wizard)** for importing needed **Code Examples** of [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API into your project.
 ### **Aspose.Words Code Example (wizard)**
 **Aspose.Words Code Example wizard** allows you to try out many samples provided for [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API.
@@ -49,17 +43,11 @@ To use examples, just:
 
 1. Click **New File** in **NetBeans**.
 1. Choose your project and then select **Aspose.Words Code Example** in the **Java** category.
-1. Click **Next**. 
-
+1. Click **Next**.<br>
 ![todo:image_alt_text](http://i.imgur.com/Kt06qqe.jpg)
-
-1. Expand the tree to select **Code Example** category and click **Finish**. 
-
+1. Expand the tree to select **Code Example** category and click **Finish**.<br>
 ![todo:image_alt_text](http://i.imgur.com/YPGLYGN.jpg)
-
-1. This will copy the selected category **Code Examples** Java files into the project under **com.aspose.words.examples** package. Also any required resources needed by the Code Examples will be copied into **src/main/resources** folder, as shown below: 
-
+1. This will copy the selected category **Code Examples** Java files into the project under **com.aspose.words.examples** package. Also any required resources needed by the Code Examples will be copied into **src/main/resources** folder, as shown below:<br>
 ![todo:image_alt_text](http://i.imgur.com/miDO2qr.jpg)
-
 1. Review the example code, compile and run.
 1. You can now test other examples and start building your own application using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx).
