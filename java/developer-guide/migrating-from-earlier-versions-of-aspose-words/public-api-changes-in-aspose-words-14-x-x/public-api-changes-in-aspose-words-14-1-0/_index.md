@@ -39,8 +39,8 @@ The ability to export drop down form fields in Word documents as text when savin
 ### **Support for Left, Right, Center Text alignment for Multiline WordArt Objects**
 Starting from 14.1.0 version Aspose.Words supports multi-line WordArt objects, but with the following restrictions:
 
-\1. Only Left, Right and Center text alignments are supported.
+1. Only Left, Right and Center text alignments are supported.
+1. Bezier fit for multiline WordArt doesn't correctly work with the following curves: "Deflate Inflate", "Deflate Inflate Deflate", "Button", "Circle (Curve)", "Arc Up" and "Arc Down".
 
-\2. Bezier fit for multiline WordArt doesn't correctly work with the following curves: "Deflate Inflate", "Deflate Inflate Deflate", "Button", "Circle (Curve)", "Arc Up" and "Arc Down".
 ### **Support for Loading Documents via URI**
 The document constructor used to load external documents into the Aspose.Words DOM now accepts a **URI** parameter to load documents from the web. By default when an **URI** is passed to to the Document constructor the designated file is retrieved using a GET operation of **HttpWebRequest**. Further ability to control how the document is loaded from the URI can be controlled using **IResourceLoadingCallback**.
