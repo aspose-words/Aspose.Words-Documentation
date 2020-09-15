@@ -30,8 +30,8 @@ Once downloaded, please follow these steps to install the plugin into your dotCM
 OR<br>
 Copy the AsposeDotCMSExportToWord JAR file inside the Felix OSGI container (dotCMS/felix/load).
 1. Please add the following 2 exported packages either by changing the file: dotCMS/WEB-INF/felix/osgi-extra.conf or using the dotCMS UI (System -> Dynamic Plugins -> Exported Packages).<br>
-   i. javax.xml.stream
-   ii. javax.xml.namespace
+   i. javax.xml.stream<br>
+   ii. javax.xml.namespace<br>
    To add packages to the list:
    1. Add a comma to the last package in the list.
    2. Add each new package to the list, separating packages with commas.
