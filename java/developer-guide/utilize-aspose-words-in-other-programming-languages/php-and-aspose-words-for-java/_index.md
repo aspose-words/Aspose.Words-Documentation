@@ -6,14 +6,16 @@ url: /java/php-and-aspose-words-for-java/
 ---
 
 #### **Prerequisites**
-#### {{% alert color="primary" %}} 
+
+{{% alert color="primary" %}}
 Install and configure the PHP/Java Bridge to make use of Java from PHP. For more details about installing and configuring the PHP see <https://www.php.net/manual/en/install.php>.
 
 Also, you can download PHP/Java Bridge that doesn’t require a java extension from <http://php-java-bridge.sourceforge.net/pjb>. The installation instruction for installing PHP/ Java Bridge can be found here <http://php-java-bridge.sourceforge.net/pjb/installation.php>. 
 
 Download the latest version of Aspose.Words for Java from <https://downloads.aspose.com/words/java>. Extract files and copy the lib folder with jar files to the root folder of your project. 
 
-{{% /alert %}} 
+{{% /alert %}}
+
 #### **Hello World!**
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
