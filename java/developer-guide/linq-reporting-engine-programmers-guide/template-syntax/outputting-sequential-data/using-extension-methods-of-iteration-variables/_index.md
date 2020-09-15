@@ -5,8 +5,6 @@ weight: 30
 url: /java/using-extension-methods-of-iteration-variables/
 ---
 
-{{% alert color="primary" %}} 
-
 LINQ Reporting Engine provides special extension methods for iteration variables of any type. You can normally use these extension methods in template expressions. The following list describes the extension methods.
 
 - indexOf()
@@ -19,7 +17,6 @@ The items are: <<foreach [
         ? ", "
         : ""]>><<[item]>><</foreach>>.
 {{< /highlight >}}
-
 
 In this case, the engine produces a report as follows.
 
@@ -36,6 +33,7 @@ Returns the one-based index of a sequence item that is represented by the corres
 |{{< highlight csharp >}}
 <<foreach [item in items]>><<[item.numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
 <<[item]>><</foreach>>{{< /highlight >}}|
+
 In this case, the engine produces a report as follows.
 
 |**No.** |**Item**|
@@ -43,4 +41,3 @@ In this case, the engine produces a report as follows.
 |1 |item1|
 |2 |item2|
 |3 |item3|
-{{% /alert %}}
