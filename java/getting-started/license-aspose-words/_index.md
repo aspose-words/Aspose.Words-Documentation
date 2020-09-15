@@ -61,8 +61,6 @@ Aspose.Words allows developers to apply metered key. It is a new licensing mecha
 
 A new class [Metered](https://apireference.aspose.com/java/words/com.aspose.words/Metered) has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private key.
 
-A new class [Metered](https://apireference.aspose.com/java/words/com.aspose.words/Metered) has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private key.
-
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-quickstart-ApplyMeteredLicense-ApplyMeteredLicense.java" >}}
 ## **When to Apply a License**
 Follow these simple rules:
