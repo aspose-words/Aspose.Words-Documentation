@@ -34,8 +34,8 @@ Copy the AsposeDotCMSExportToWord JAR file inside the Felix OSGI container (dot
    ii. javax.xml.namespace<br>
    To add packages to the list:
    1. Add a comma to the last package in the list.
-   2. Add each new package to the list, separating packages with commas.
-   3. Press the Save Packages button.
+   1. Add each new package to the list, separating packages with commas.
+   1. Press the Save Packages button.<br>
    Important: Selecting Save Packages will restart the OSGI framework. 
 
 ![todo:image_alt_text](http://i.imgur.com/8fOyDLN.png)
