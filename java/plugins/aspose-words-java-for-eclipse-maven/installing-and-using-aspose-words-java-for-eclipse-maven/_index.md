@@ -10,7 +10,7 @@ url: /java/installing-and-using-aspose-words-java-for-eclipse-maven/
 
 - To open it, select **Plugins** from the **Tools** menu in Eclipse.  
 
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_1.png)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_1)
 
 - This adds the **Aspose.Words Maven Project** in New Project wizard and **Aspose.Words Code Example** in New Other wizard of Eclipse IDE.  
 
