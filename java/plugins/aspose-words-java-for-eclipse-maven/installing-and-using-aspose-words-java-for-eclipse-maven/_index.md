@@ -10,11 +10,11 @@ url: /java/installing-and-using-aspose-words-java-for-eclipse-maven/
 
 - To open it, select **Plugins** from the **Tools** menu in Eclipse.  
 
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_1)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_1.png)
 
 - This adds the **Aspose.Words Maven Project** in New Project wizard and **Aspose.Words Code Example** in New Other wizard of Eclipse IDE.  
 
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_2)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_2.png)
 ## **Using**
 ### **Aspose.Words Maven Project (wizard)**
 To create **Maven Project** by wizard for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx):
@@ -22,12 +22,12 @@ To create **Maven Project** by wizard for using [Aspose.Words for Java API](htt
 1. Select **New -> Project**.
 1. Select **Aspose.Words Maven Project** in the **Maven** category.
 1. Click **Next**.<br>
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_3)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_3.png)
 1. Provide **Project Name, Location, GroupId, ArtifactId** and **Version** for your Maven Project and click **Finish.**<br>
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_4)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_4.png)
 1. This will retrieve the [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) latest [Maven Dependency](http://goo.gl/OK9LAs) reference from [Aspose Cloud Maven Repository](http://maven.aspose.com/artifactory/webapp/home.html?0) and configure it in **pom.xml**. If you have opted for **Also Download Code Examples,** downloading of the **Code Examples** will also begin from the [Aspose.Words for Java API Examples Repository.](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
 1. Following **Maven** Project will be created on your **Eclipse IDE** on completion of the wizard:<br>
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_5)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_5.png)
 1. The created **Maven Project** is configured to use **Aspose.Words for Java API** and ready to be enhanced as per your Project requirements.<br>
    If you have opted to download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples), you can use **Aspose.Words Code Example (wizard)** for importing needed **Code Examples** of [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API into your project.
 
@@ -45,10 +45,10 @@ To use examples, just:
 1. Click **New -> Other** in **Eclipse**.
 1. Select **Aspose.Words Code Example** in the **Java** category.
 1. Click **Next**.<br>
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_6)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_6.png)
 1. Choose your project and then expand the tree to select **Code Example** category and click **Finish**.<br>
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_7)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_7.png)
 1. This will copy the selected category **Code Examples** Java files into the project under **com.aspose.words.examples** package. Also any required resources needed by the Code Examples will be copied into **src/main/resources** folder, as shown below:<br>
-![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_8)
+![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_8.png)
 1. Review the example code, compile and run.
 1. You can now test other examples and start building your own application using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx).
