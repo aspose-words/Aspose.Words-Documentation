@@ -60,25 +60,20 @@ You can get the latest source code from one of the following locations:
 ### **Installing**
 It is very simple and easy to install Aspose.Words Java for Ruby gem, please follow these simple steps:
 
-1. Add this line to your application's Gemfile. 
-
+1. Add this line to your application's Gemfile.<br>
 {{< highlight csharp >}}
 gem 'aspose-wordsjavaforruby'
 {{< /highlight >}}
-
-1. And then execute. 
-
+1. And then execute.<br>
 {{< highlight csharp >}}
 $ bundle
-{{< /highlight >}}
-
+{{< /highlight >}}<br>
 **OR**
-
-1. Run following command. 
-
+1. Run following command.<br>
 {{< highlight csharp >}}
 $ gem install aspose-wordsjavaforruby
 {{< /highlight >}}
+
 ### **Using**
 Include the required files for working with the HelloWorld document.
 
