@@ -13,7 +13,6 @@ Download required libraries mentioned below. These are the required for executin
 ## **Download Examples from Social Coding Sites**
 Following releases of running examples are available to download on below mentioned social coding sites:
 
------
 ### **GitHub**
 - **Aspose.Words Java for PHP Examples** 
   - [Aspose.Words Java for PHP](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_Java_for_PHP)
@@ -67,15 +66,15 @@ $ git clone [https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/P
 {{< /highlight >}}
 
 ## **How to configure the source code on Windows Platform**
-Please follow below simple steps to configure PHP/Java Bridge on Windows Platform
+Please follow below simple steps to configure PHP/Java Bridge on Windows Platform:
 
-1. Install PHP5 and configure as you normally do
+1. Install PHP5 and configure as you normally do.
 1. Install JRE 6 (Java Runtime Environment) if you don’t already have it. You can check this in C:\Program Files etc. You can download it here . I am using JRE 6 as It is compatible with PHP Java Bridge (PJB).
-1. Install Apache Tomcat 8.0. You can download it here
-1. Download [JavaBridge.war](http://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). Copy this file to tomcat webapps directory.
-(ex: C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps )
+1. Install Apache Tomcat 8.0.
+1. Download [JavaBridge.war](http://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). Copy this file to tomcat webapps directory.<br>
+(ex: C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps)
 1. Restart tomcat apache service.
-1. Go to <http://localhost:8080/JavaBridge/test.php> to check if php works. You can find other examples in there
+1. Go to <http://localhost:8080/JavaBridge/test.php> to check if php works.
 1. Copy your [Aspose.Words Java](http://www.aspose.com/community/files/72/java-components/aspose.words-for-java/default.aspx) jar file to C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib
 1. Clone [Aspose.Words Java for PHP](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_PHP) examples inside C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ folder.
 1. Copy folder C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java to your Aspose.Words Java for PHP examples folder.
