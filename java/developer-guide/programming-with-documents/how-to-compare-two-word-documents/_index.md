@@ -5,19 +5,6 @@ weight: 260
 url: /java/how-to-compare-two-word-documents/
 ---
 
-**Contents Summary**
-
-1 [Overview](#HowtoCompareTwoWordDocuments-Overview) 
-
-1.1 [Limitations](#HowtoCompareTwoWordDocuments-Limitations)
-
-1.2 [Compare Word Documents and Ignore Document Formatting](#HowtoCompareTwoWordDocuments-CompareWordDocumentsandIgnoreDocumentFormatting)
-
-1.3 [Set Target Document for Comparison Differences](#HowtoCompareTwoWordDocuments-SetTargetDocumentforComparisonDifferences)
-
-1.4 [Set Comparison Granularity](#HowtoCompareTwoWordDocuments-SetComparisonGranularity)
-
-
 # **Overview**
 You can use the Document.Compare method to compare two documents to see the difference between them. This method mimics Microsoft Word's Compare feature and produces document difference as a number of edit and format revisions. The main idea is that if we reject all revisions then we get a document which is equal to the original document. On the contrary, if we accept all revisions then we get the final (comparison target) document.
 
