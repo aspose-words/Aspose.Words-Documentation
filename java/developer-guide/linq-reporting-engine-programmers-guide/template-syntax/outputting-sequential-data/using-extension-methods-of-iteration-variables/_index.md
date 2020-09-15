@@ -32,9 +32,9 @@ Returns the one-based index of a sequence item that is represented by the corres
 
 |**No.** |**Item**|
 | :- | :- |
-|<p>{{< highlight csharp >}}
-p> <<foreach [item</p><p>in items]>><<[</p><p>item.numberOf()]>></p><p>{{< /highlight >}}</p>|<p>{{< highlight csharp >}}
-p> <<[item]>><</foreach>></p><p>{{< /highlight >}}</p>|
+|{{< highlight csharp >}}
+<<foreach [item in items]>><<[item.numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
+<<[item]>><</foreach>>{{< /highlight >}}|
 In this case, the engine produces a report as follows.
 
 |**No.** |**Item**|
