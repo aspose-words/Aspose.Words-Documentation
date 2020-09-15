@@ -9,11 +9,12 @@ url: /java/public-api-changes-in-aspose-words-15-2-0/
 
 These page list public API changes that were introduced in Aspose.Words 15.2.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ### **Aspose.Words Drawing API Changes**
 To make your life easier, when you work with graphic objects, Aspose.Words introduces new API changes.
 
-\1. The hugest one is removing DrawingML from the API. Now you do not need to think about graphic object markup language, Vml or DrawingML, now both of them are available through the Shape or GroupShape object in Aspose.Words document model.
+1. The hugest one is removing DrawingML from the API. Now you do not need to think about graphic object markup language, Vml or DrawingML, now both of them are available through the Shape or GroupShape object in Aspose.Words document model.
 
 Previously to loop through all single graphic objects inside your document you have to loop through two different collections of Shapes and DrawingMLs, but now everything is much easier, you need just one collection, which already contains all graphics. However, if you still need to find out the shape markup language, you can do it using public property Shape.MarkupLanguage, and depending on shape, you will get ShapeMarkupLanguage.Dml or ShapeMarkupLanguage.Vml.
 
@@ -43,7 +44,7 @@ for(GroupShape groupShape : (Iterable<GroupShape>) doc.getChildNodes(NodeType.GR
 
 1.4. DrawingML shape had Size property but now you have to use SizeInPoints like for Vml shape. Please replace DrawingML.Size with Shape.SizeInPoints.
 
-\2. All shapes properties are available for Dml shapes now. Therefore, you are able to modify Dml and Vml shapes using exactly the same code:
+2. All shapes properties are available for Dml shapes now. Therefore, you are able to modify Dml and Vml shapes using exactly the same code:
 
 **Java**
 
@@ -105,7 +106,7 @@ shapeFont.setSize(10);
 // Etc.
 {{< /highlight >}}
 
-\3. As you already know MS Word inserts new graphic objects to the document using Dml markup language, Aspose.Words does the same now. But, for backward compatibility you can use doc.CompatibilityOptions.OptimizeFor method to specify needed MS Word version. And if MS Word version is higher than Word2007 or not specified Aspose.Words inserts image using ShapeMarkupLanguage.Dml, in other cases using ShapeMarkupLanguage.Vml.
+3. As you already know MS Word inserts new graphic objects to the document using Dml markup language, Aspose.Words does the same now. But, for backward compatibility you can use doc.CompatibilityOptions.OptimizeFor method to specify needed MS Word version. And if MS Word version is higher than Word2007 or not specified Aspose.Words inserts image using ShapeMarkupLanguage.Dml, in other cases using ShapeMarkupLanguage.Vml.
 
 **Java**
 
