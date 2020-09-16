@@ -12,11 +12,11 @@ The Aspose.Words Document Object Model (DOM) is an in-memory representation of a
 
 A sample document showing how it appears in Microsoft Word.
 
-![todo:image_alt_text](/download/attachments/2588704/1930488605)
+![todo:image_alt_text](object_model_overview-1.png)
 
 The tree of objects is created when the above document is read into the Aspose.Words DOM.
 
-![todo:image_alt_text](/download/attachments/2588704/1765092174)
+![todo:image_alt_text](object_model_overview-1.png)
 
 Document, Section, Paragraph, Table, Shape, Run and all other ellipses on below diagram are Aspose.Words objects that represent elements of a Word document. The objects are organized into a tree. The illustration also shows that the objects in the document tree have various properties.
 
