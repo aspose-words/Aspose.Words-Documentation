@@ -41,4 +41,5 @@ Aspose.Words for Java.Android 17.4 also includes the current Aspose.Words for Ja
 |WORDSANDROID-244|Incorrect size of the Area|Bug|
 |WORDSANDROID-248|The curvature of lines is different|Bug|
 |WORDSANDROID-246|Chart's markers have incorrect order|Bug|
+
 Since the code base of Aspose.Words for Java.Android matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.4 and Aspose.Words for Java 17.4 are also included in this Aspose.Words for Java.Android 17.4.
