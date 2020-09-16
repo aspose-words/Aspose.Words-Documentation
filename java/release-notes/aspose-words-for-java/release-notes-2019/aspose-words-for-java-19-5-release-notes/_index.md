@@ -140,7 +140,7 @@ See additional information under added a new ImportFormatOptions class for more 
 
 
 
-` `**UseCase:**
+**UseCase:**
 
 {{< highlight csharp >}}
 Document srcDoc = new Document("source.docx");
