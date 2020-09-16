@@ -43,4 +43,5 @@ There are 80+ improvements and fixes in this regular monthly release. The most n
 |WORDSJAND-98|Android can't read 32BppArgb Bitmaps|Bug|
 |WORDSJAND-87|Text's outline is now drawn or has incorrect position|Bug|
 |WORDSJAND-34|Some images have opaque background|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.9 and Aspose.Words for Java 17.9 are also included in this 'Aspose.Words for Android via Java' 17.9.
