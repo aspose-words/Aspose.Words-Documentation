@@ -5,32 +5,6 @@ weight: 140
 url: /cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 ---
 
-**Contents Summary**
-
-1 [Extract Content Overview and Code](#HowtoExtractSelectedContentBetweenNodesinaDocument-ExtractContentOverviewandCode) 
-
-1.1 [The Solution](#HowtoExtractSelectedContentBetweenNodesinaDocument-TheSolution)
-
-1.2 [The Code](#HowtoExtractSelectedContentBetweenNodesinaDocument-TheCode)
-
-2 [Extract Content Between Paragraphs](#HowtoExtractSelectedContentBetweenNodesinaDocument-ExtractContentBetweenParagraphs)
-
-3 [Extract Content Between Different Types of Nodes](#HowtoExtractSelectedContentBetweenNodesinaDocument-ExtractContentBetweenDifferentTypesofNodes)
-
-4 [Extract Content Between Paragraphs Based on Style](#HowtoExtractSelectedContentBetweenNodesinaDocument-ExtractContentBetweenParagraphsBasedonStyle)
-
-5 [Extract Content Between Specific Runs](#HowtoExtractSelectedContentBetweenNodesinaDocument-ExtractContentBetweenSpecificRuns)
-
-6 [Extract Content from a Bookmark](#HowtoExtractSelectedContentBetweenNodesinaDocument-ExtractContentfromaBookmark)
-
-7 [Extract Content from a Comment](#HowtoExtractSelectedContentBetweenNodesinaDocument-ExtractContentfromaComment)
-
-8 [How to Extract Content using DocumentVisitor](#HowtoExtractSelectedContentBetweenNodesinaDocument-HowtoExtractContentusingDocumentVisitor)
-
-9 [How to Extract Text Only](#HowtoExtractSelectedContentBetweenNodesinaDocument-HowtoExtractTextOnly) 
-
-9.1 [Using Node.GetText and Node.ToString](#HowtoExtractSelectedContentBetweenNodesinaDocument-UsingNode.GetTextandNode.ToString)
-
 
 ## **Extract Content Overview and Code**
 A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore many different node types to consider when extracting content. For instance, you may want to extract content between:
