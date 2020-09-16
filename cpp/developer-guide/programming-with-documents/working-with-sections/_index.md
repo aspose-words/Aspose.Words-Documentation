@@ -16,12 +16,7 @@ A Section break is a mark you insert to show the end of a section. A section bre
 
 1. Click where you want to insert a section break.
 1. On the Insert menu, click **Break**.
-
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
-
 1. Under **Section break types** , click the option that describes where you want the new section to begin.
-
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
 
 The following types of section breaks can be inserted:
 
