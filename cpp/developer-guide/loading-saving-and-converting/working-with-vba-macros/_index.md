@@ -16,18 +16,18 @@ Aspose.Words API provides Dcoument.VbaProject property to get or set VbaProjec
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-WorkingWithVbaMacros-CreateVbaProject.cpp" >}}
 ## **Read Macros**
-` `The following code example demonstrates how to read VBA Macros from the document.
+The following code example demonstrates how to read VBA Macros from the document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-WorkingWithVbaMacros-ReadVbaMacros.cpp" >}}
 ## **Write or Modify Macros**
-` `The following code example demonstrates how to modify VBA Macros using the VbaModule.SourceCode property.
+The following code example demonstrates how to modify VBA Macros using the VbaModule.SourceCode property.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-WorkingWithVbaMacros-ModifyVbaMacros.cpp" >}}
 ## **Clone VBA Project**
-` `The following code example demonstrates how to clone the VBA Project using the VbaProject.Clone property which creates a copy of the existing project. 
+The following code example demonstrates how to clone the VBA Project using the VbaProject.Clone property which creates a copy of the existing project. 
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaProject.cpp" >}}
 ## **Clone VBA Module**
-` `The following code example demonstrates how to clone the VBA Module using the VbaModule.Clone property which creates a copy of the existing project.
+The following code example demonstrates how to clone the VBA Module using the VbaModule.Clone property which creates a copy of the existing project.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaModule.cpp" >}}
