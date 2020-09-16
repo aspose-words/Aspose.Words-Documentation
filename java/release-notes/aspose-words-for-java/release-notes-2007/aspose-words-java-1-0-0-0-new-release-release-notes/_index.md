@@ -25,6 +25,4 @@ Aspose.Words 1.0 for Java corresponds to the set of features available in Aspose
 
 is being updated to include information for both .NET and Java versions of Aspose.Words. We will continue to work on more demos, sample code and documentation for Aspose.Words for Java.
 
-`  `explains the main differences in the APIs of the two products in such a way so you will be able to use documentation that was created for Aspose.Words for .NET while we work on the documentation to include Java specific portions.
-
-
+explains the main differences in the APIs of the two products in such a way so you will be able to use documentation that was created for Aspose.Words for .NET while we work on the documentation to include Java specific portions.
