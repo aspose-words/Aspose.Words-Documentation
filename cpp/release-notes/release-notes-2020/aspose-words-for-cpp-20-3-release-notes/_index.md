@@ -26,7 +26,7 @@ The missing features will be added in future releases.
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
-| :-: | :-: | :-: |
+| :- | :- | :- |
 |WORDSNET-19568|Provide the ability to set different attributes of Shape inside IFieldMergingCallback.ImageFieldMerging|New Feature|
 |WORDSNET-19912|FindReplaceOptions new properties|New Feature|
 |WORDSNET-20012|Implement color change for side faces|New Feature|
