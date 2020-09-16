@@ -49,4 +49,5 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 |WORDSJAND-345|Some fields containing functions returns '!Syntax Error'|Bug|
 |WORDSJAND-346|Incorrect Russian months names|Bug|
 |WORDSJAND-310|Incorrect PathGradient's pattern|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 18.2 and Aspose.Words for Java 18.2 are also included in this 'Aspose.Words for Android via Java' 18.2.
