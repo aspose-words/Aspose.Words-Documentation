@@ -9,7 +9,8 @@ url: /java/aspose-words-for-android-17-2-0-release-notes/
 
 This page contains release notes for [Aspose.Words for Android 17.2.0](https://downloads.aspose.com/words/androidjava/new-releases/aspose.words-for-android-17.2.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ## **Major Features**
 There are 22 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -47,8 +48,10 @@ Aspose.Words for Android also includes the current Aspose.Words for Java feature
 |WORDSANDROID-207|IllegalStateException: Certificate must contain private key.|Bug|
 |WORDSANDROID-194|Rebuild Aspose.Words for Android and ship it in one piece (remove .apk)|New Feature|
 |WORDSANDROID-177|Bullet disappeared|Bug|
+
 ## **Public API and Backward Incompatible Changes**
 This section lists public API changes that were introduced in Aspose.Words 17.2.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **WORDSNET-14589 and WORDSNET-14590 - Added public properties HtmlSaveOptions.ResourceFolder and HtmlSaveOptions.ResourceFolderAlias**
 {{% alert color="primary" %}} 
 
@@ -125,29 +128,29 @@ public String ResourceFolderAlias
 
 Behavior of properties FontsFolder, FontsFolderAlias, ImagesFolder, ImagesFolderAlias and CssStyleSheetFileName are not changed. Note that CssStyleSheetFileName properties is used both for specifying folder name and file name. Order of priority in which Aspose.Words decides into what folder to write external CSS style sheet:
 
-\1. Folder specified in CssStyleSheetFileName property.
-\2. Folder specified in ResourceFolder property.
-\3. Output folder where HTML document is saved.
+1. Folder specified in CssStyleSheetFileName property.
+2. Folder specified in ResourceFolder property.
+3. Output folder where HTML document is saved.
 
 Order of priority in which Aspose.Words decides what name external CSS style sheet has:
-\1. File name specified in CssStyleSheetFileName property.
-\2. Output HTML file name with ".css" extension.
+1. File name specified in CssStyleSheetFileName property.
+2. Output HTML file name with ".css" extension.
 
 Order of priority in which Aspose.Words decides into what folder to write fonts:
-\1. Folder specified in FontsFolder property.
-\2. Folder specified in ResourceFolder property.
-\3. Folder where code assembly is located.
+1. Folder specified in FontsFolder property.
+2. Folder specified in ResourceFolder property.
+3. Folder where code assembly is located.
 
 Order of priority in which Aspose.Words decides into what folder to write images:
-\1. Folder specified in ImagesFolder property.
-\2. Folder specified in ResourceFolder property.
-\3. Folder where code assembly is located.
+1. Folder specified in ImagesFolder property.
+2. Folder specified in ResourceFolder property.
+3. Folder where code assembly is located.
 
 Note that when relative path is specified, FontsFolder and ImagesFolder are relative to folder where code assembly is located, ResourceFolder and CssStyleSheetFileName are relative to output folder where HTML document is located.
 
 Here are some use cases. In examples below input test document has name Test.docx, output HTML document has name Test.html. Input document has one image Test.001.png and one font Test.calibril.ttf. By default external CSS style sheet has name Test.css.
 
-\1. Simplest scenario. Use it if you want to save all external resources in one folder.
+1. Simplest scenario. Use it if you want to save all external resources in one folder.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
@@ -167,7 +170,7 @@ C:\Resources\Test.calibril.ttf
 C:\Resources\Test.css
 {{< /highlight >}}
 
-\2.
+2.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
@@ -185,7 +188,7 @@ C:\Resources\Test.001.png
 
 Fonts and CSS style sheet are not written as external resources.
 
-\3.
+3.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
@@ -207,7 +210,7 @@ C:\Resources\Test.css
 
 When ResourceFolder specifies relative path this path is relative to output folder, where HTML document is saved.
 
-\4.
+4.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
@@ -230,7 +233,7 @@ C:\Resources\Test.css
 
 In this scenario "<http://example.com/resources>" alias is used to construct URIs of all resources.
 
-\5.
+5.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
@@ -252,7 +255,7 @@ C:\Test.css
 
 In this scenario "<http://example.com/resources>" alias is used to construct URIs of all resources.
 
-\6.
+6.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
@@ -273,7 +276,7 @@ C:\Resources\Test.001.png
 C:\Resources\Test.calibril.ttf
 {{< /highlight >}}
 
-\7.
+7.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
@@ -294,7 +297,7 @@ C:\Resources\Test.001.png
 C:\Resources\Test.css
 {{< /highlight >}}
 
-\8.
+8.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
@@ -315,7 +318,7 @@ C:\Resouces\Test.calibril.ttf
 C:\Resources\Test.css
 {{< /highlight >}}
 
-\9.
+9.
 
 {{< highlight csharp >}}
 Document doc = new Document("C:\Test.docx");
