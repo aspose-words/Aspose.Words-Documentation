@@ -48,4 +48,5 @@ There are 90+ improvements and fixes in this regular monthly release. The most n
 |WORDSJAND-338|Image gets disappeared in XPS file|Bug|
 |WORDSJAND-314|24bit tiff image is not shown while rendering to XPS despite TifDecoder can read it|Bug|
 |WORDSJAND-306|Gradient's artifacts|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.12 and Aspose.Words for Java 17.12 are also included in this 'Aspose.Words for Android via Java' 17.12.
