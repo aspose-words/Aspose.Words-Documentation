@@ -147,7 +147,7 @@ table.Description = "Test description";
 document.Save(myDir + "Output.docx");
 {{< /highlight >}}
 ### **Added Feature to Insert Shapes through DocumentBuilder using ShapeType**
-` `WORDSNET-15112 has been resolved. The following methods were added in the DocumentBuilder:
+WORDSNET-15112 has been resolved. The following methods were added in the DocumentBuilder:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -180,7 +180,7 @@ These methods allow to insert DML shape into the document model. Document must b
 
 See, few use cases below:
 
-\1. Free-floating shape insertion.
+1. Free-floating shape insertion.
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -194,7 +194,7 @@ so.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 doc.Save("RotatedShape.docx", so);
 {{< /highlight >}}
 
-\2. Inline shape insertion.
+2. Inline shape insertion.
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -206,7 +206,7 @@ so.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 doc.Save("RotatedShape.docx", so);
 {{< /highlight >}}
 ### **Changed Public Properties of AxisScaling Class**
-` `WORDSNET-16345 has been resolved. The properties MinimumIsAuto and MaximumIsAuto have been removed from the AxisScaling class. Type of the Minimum and Maximum properties has been changed from **double** to AxisBound.
+WORDSNET-16345 has been resolved. The properties MinimumIsAuto and MaximumIsAuto have been removed from the AxisScaling class. Type of the Minimum and Maximum properties has been changed from **double** to AxisBound.
 
 {{< highlight csharp >}}
 /// <summary>
@@ -453,7 +453,7 @@ else
     Console.WriteLine("The document default language was set to another than Russian language originally, so it is not overridden.");
 {{< /highlight >}}
 ### **Added IsMoveFromRevision and IsMoveToRevision Properties**
-` `WORDSNET-16664 has been resolved. The following public properties have been added into the Inline, Paragraph, ShapeBase and InlineStory classes:
+WORDSNET-16664 has been resolved. The following public properties have been added into the Inline, Paragraph, ShapeBase and InlineStory classes:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -486,7 +486,7 @@ for (int i = 0; i < paragraphs.Count; i++)
 }
 {{< /highlight >}}
 ### **Added Properties for Asian Typography into ParagraphFormat Class**
-` `WORDSNET-16664 has been resolved. The following public properties have been added into the ParagraphFormat class:
+WORDSNET-16664 has been resolved. The following public properties have been added into the ParagraphFormat class:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -526,7 +526,7 @@ format.HangingPunctuation = false;
 doc.Save(myDir + "Output.docx");
 {{< /highlight >}}
 ### **Added Public TXT Save Option AddBidiMarks**
-` `WORDSNET-16814 has been resolved. Implemented TxtSaveOptions.AddBidiMarks property as following:
+WORDSNET-16814 has been resolved. Implemented TxtSaveOptions.AddBidiMarks property as following:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -547,7 +547,7 @@ saveOptions.AddBidiMarks = false;
 doc.Save("out.txt", saveOptions);
 {{< /highlight >}}
 ### **Obsolete Enum RowAlignment was Removed**
-` `Obsolete enum RowAlignment was removed. Use TableAlignment instead.
+Obsolete enum RowAlignment was removed. Use TableAlignment instead.
 ### **Obsolete Method InvalidateFieldTypes() was Removed from Document and Range Classes**
 Obsolete method InvalidateFieldTypes() was removed from Document and Range classes. Use NormalizeFieldTypes() instead.
 ### **Obsolete Properties were Removed from RowFormat Class**
