@@ -9,7 +9,8 @@ url: /java/aspose-words-for-java-17-3-0-release-notes/
 
 This page contains release notes for [Aspose.Words for Java 17.3.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.3.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ## **Major Features**
 There are 72 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -26,8 +27,8 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 - Improved table breaking logic for tables with nested tables in a cell with bottom margin set.
 - Improved tables breaking logic for tables with vertically merged cells having horizontal borders.
 - Implemented fitText option for table cells.
-## **Full List of Issues Covering all Changes in this Release**
 
+## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -103,9 +104,11 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-8969|Support of MS Word 2013 documents (WORDSNET-7741 and WORDSNET-7964)|Feature|
 |WORDSNET-9943|/table grid/ Cell's content is rendering a few inches to the right in PDF|Feature|
 |WORDSNET-14454|LeftIndent and FirstLineIndent are lost in output Docx|Regression|
-` `Public API and Backward Incompatible Changes
+
+## **Public API and Backward Incompatible Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.3.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **WORDSNET-4316: Font Substitution Mechanism Improved**
 Previously Aspose.Words performed font substitution only in cases when FontInfo in the document for the missing font doesn't contains the PANOSE. Now Aspose.Words evaluates all related fields in FontInfo (Panose, Sig etc) and finds the closest match among the available font sources. In case of font substitution the warning is issued with text:
 
@@ -138,7 +141,8 @@ The following sections of the engine's documentation were added/updated to descr
 - [Inserting Images Dynamically](/words/java/inserting-images-dynamically/)
 - [Setting Text Background Color Dynamically](https://docs.aspose.com/words/java/setting-background-color-dynamically/)
 - [Using Variables](/words/java/using-variables/)
-- [In-Table List Template with Running (Progressive) Total](https://docs.asposeptyltd.com/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-InTableListTemplatewithRunningProgressiveTotal) (see In-Table List Template with Running (Progressive) Total)
+- [In-Table List Template with Running (Progressive) Total](https://docs.asposeptyltd.com/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-InTableListTemplatewithRunningProgressiveTotal) (see In-Table List Template with Running (Progressive) Total).
+
 ### **WORDSNET-12412 - Added a MailMergeCleanupOptions Option to Remove Empty Row**
 As per customer's request, we have added a MailMergeCleanupOptions option allowing to remove empty rows during mail merge:
 
@@ -199,11 +203,10 @@ officeMath.setJustification(OfficeMathJustification.LEFT);
 
 Mimic MS Word VBA behavior:
 
-\-  DisplayType cannot be changed for nested Office Math. The exception will be thrown.
+-  DisplayType cannot be changed for nested Office Math. The exception will be thrown.
+-   Inline justification cannot be set to the Office Math displayed on its own line (DisplayType=OfficeMathDisplayType.Display). The exception will be thrown. OfficeMath.DisplayType property has to be used to change OfficeMathDisplayType first.
+-   Justification cannot be set to the Office Math displayed inline with text. The exception will be thrown. OfficeMath.DisplayType property has to be used to change OfficeMathDisplayType first.
 
-\-   Inline justification cannot be set to the Office Math displayed on its own line (DisplayType=OfficeMathDisplayType.Display). The exception will be thrown. OfficeMath.DisplayType property has to be used to change OfficeMathDisplayType first.
-
-\-   Justification cannot be set to the Office Math displayed inline with text. The exception will be thrown. OfficeMath.DisplayType property has to be used to change OfficeMathDisplayType first.
 ### **WORDSNET-14745 - Provided Ability to Specify Locale at Field Level**
 As per customer's request, we have added a property that allows to get/set field's locale:
 
