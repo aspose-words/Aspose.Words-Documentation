@@ -33,4 +33,5 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 | :- | :- | :- |
 |WORDSJAND-273|The position of Path Gradient is incorrect in EMF, PDF|Bug|
 |WORDSJAND-275|LinearGradient is scaled incorrectly for PDF|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.7 and Aspose.Words for Java 17.7 are also included in this 'Aspose.Words for Android via Java' 17.7.
