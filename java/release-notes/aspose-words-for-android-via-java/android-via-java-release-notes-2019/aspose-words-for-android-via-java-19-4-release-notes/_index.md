@@ -39,4 +39,5 @@ This page contains release notes for [Aspose.Words for Android via Java 19.4](ht
 | :- | :- | :- |
 |WORDSJAND-424|Built-in substitution rule is not used.|Bug|
 |WORDSJAND-425|A picture cannot be drawn|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements, and fixes included in the Aspose.Words for .NET 19.4 and Aspose.Words for Java 19.4 are also included in this 'Aspose.Words for Android via Java' 19.4.
