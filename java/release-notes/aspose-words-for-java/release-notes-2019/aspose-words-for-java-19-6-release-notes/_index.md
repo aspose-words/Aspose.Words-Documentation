@@ -119,7 +119,7 @@ public bool AlwaysCompressMetafiles
 
 
 
-` `**UseCase:**
+**UseCase:**
 
 {{< highlight csharp >}}
 Document doc = new Document(@"sourse.doc");
@@ -597,9 +597,7 @@ So, when cells are horizontally merged by its width – there are no merge flags
 
 To resolve this inconvenience, we have added a new public method to convert cells which are horizontally merged by its width to the cell horizontally merged by flags.
 
-*Note. *Method transforms table and adds new cells when needed.
-
-
+**Note.** Method transforms table and adds new cells when needed.
 
 **UseCase:**
 
