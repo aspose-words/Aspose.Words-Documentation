@@ -41,4 +41,5 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 |WORDSJAND-325|Figures are shifted.|Bug|
 |WORDSJAND-156|Empty square instead of logo.|Bug|
 |WORDSJAND-324|Text disappears in reflection|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.11 and Aspose.Words for Java 17.11 are also included in this 'Aspose.Words for Android via Java' 17.11.
