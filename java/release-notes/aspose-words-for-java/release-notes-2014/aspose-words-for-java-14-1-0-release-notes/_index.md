@@ -26,6 +26,7 @@ There are 118 improvements and fixes in this regular monthly release. The most n
 - DrawingML Soft Edge rendering effect implemented
 - DrawingML preset shadows rendering implemented
 - Hyperlink fragmentation in PDF resolved
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |
@@ -148,6 +149,7 @@ There are 118 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9455 |Aspose.Words hangs during open/save a DOC |Performance |
 |WORDSNET-5322 |Row properties are copied over from the previous row |Regression |
 |WORDSNET-9387 |NullReferenceException occurs during open/save a DOC |Regression |
+
 Comments inside Microsoft Word documents are exported to HTML as Footnote elements. This behavior matches how Microsoft Word exports comments to HTML and greatly improves document fidelity and the ability to round trip such documents from DOC to HTML to DOC. 
 
 The property FieldOptions.CustomTocStyleSeparator has been added allowing you to sets custom style separator for \t switch in TOC field.By default, custom styles defined by the \t switch in the TOC field are separated by a delimiter taken from the current culture. This property overrides that behavior by specifying a user defined delimiter.
