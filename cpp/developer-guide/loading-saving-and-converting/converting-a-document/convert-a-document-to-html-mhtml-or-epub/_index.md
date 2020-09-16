@@ -15,7 +15,8 @@ The following example shows how to convert DOCX to HTML with specifying a save f
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocxToHtml.cpp" >}}
 
-` `To convert a document to MHTML or EPUB, use SaveFormat.Mhtml or SaveFormat.Epub respectively.
+To convert a document to MHTML or EPUB, use SaveFormat.Mhtml or SaveFormat.Epub respectively.
+
 ## **Convert a Document with Round-trip Information**
 The HTML format does not support many Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#a7fe0a32e742927a323a1a7c087b3cc0c) property. Saving the round-trip information allows restoring document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
 
