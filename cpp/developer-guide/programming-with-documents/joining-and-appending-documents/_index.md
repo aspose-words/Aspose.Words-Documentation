@@ -64,7 +64,7 @@ Further information about the different import modes can be found in the API des
 
 {{% /alert %}} 
 ## **Specifying How a Document is Joined Together**
-` `Documents are appended at the section level therefore the PageSetup.SectionStart property of the Section object defines how the content of the current section is joined in relation to the previous section. If the PageSetup.SectionStart property is set to SectionStart.NewPage for the first section in the source document then the content in this section is forced to start on a new page. Conversely if the property is set to SectionStart.Continuous then the content is allowed to flow on the same page directly after the previous section’s content.
+Documents are appended at the section level therefore the PageSetup.SectionStart property of the Section object defines how the content of the current section is joined in relation to the previous section. If the PageSetup.SectionStart property is set to SectionStart.NewPage for the first section in the source document then the content in this section is forced to start on a new page. Conversely if the property is set to SectionStart.Continuous then the content is allowed to flow on the same page directly after the previous section’s content.
 ### **Specifying the Source Document to Flow Continuously or Start from a New Page**
 Specifying the PageSetup.SectionStart property as **SectionStart.Continuous** for the first section of the source document will cause the content to appear together. Below example shows how to append a document to another document so the content flows continuously.
 
