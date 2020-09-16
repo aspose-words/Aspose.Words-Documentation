@@ -9,7 +9,8 @@ url: /java/aspose-words-for-java-17-6-release-notes/
 
 This page contains release notes for [Aspose.Words for Java 17.6](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.6/)
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ## **Major Features**
 There are 95 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -27,6 +28,7 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 - SVG graphics are now rendered via internal EMF rendering engine (without GDI+).
 - Improved rendering of PDF logical structure of Table headers.
 - Character offsets in META_EXTTEXTOUT records are now taken into account while rendering multi-byte encoding metafiles.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -126,10 +128,10 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15090|Document.AcceptAllRevisions takes much time to execute|Performance|
 |WORDSNET-14939|Duplicate table styles are generated when content control is updated with Html|Regression|
 |WORDSNET-15319|Font size difference in document appending feature after 17.2|Regression|
-` `Public API and Backward Incompatible Changes
+
+## **Public API and Backward Incompatible Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
-
 
 ### **Public Properties ParagraphFormat.AddSpaceBetweenFarEastAndAlpha and ParagraphFormat.AddSpaceBetweenFarEastAndDigit**
 WORDSNET-14376 and WORDSNET-14377 are resolved.
