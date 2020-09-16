@@ -25,8 +25,8 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 - Improved text wrapping logic for "2013 and later" documents.
 - Improved non-breaking space width calculation.
 - Improved Asian text justification logic.
-## **Full List of Issues Covering all Changes in this Release**
 
+## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -135,8 +135,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-15528|Numeric format is broken after performing mail merge|Regression|
 |WORDSNET-15529|Exception using Reflection in 17.6|Regression|
 
-
-` `Public API and Backward Incompatble Changes
+## **Public API and Backward Incompatble Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 ### **WORDSNET-14190 - Make the Title of the Generated Documents show up in Title Bar**
