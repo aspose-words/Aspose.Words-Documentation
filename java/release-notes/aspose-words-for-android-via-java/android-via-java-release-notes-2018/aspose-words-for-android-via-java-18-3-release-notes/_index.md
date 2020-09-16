@@ -44,4 +44,5 @@ There are 70+ improvements and fixes in this regular monthly release. The most n
 |WORDSJAND-361|Sdt content is not being updated|Bug|
 |WORDSJAND-363|Incorrect number formatting|Bug|
 |WORDSJAND-367|Shape must be empty when image is broken|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 18.3 and Aspose.Words for Java 18.3 are also included in this 'Aspose.Words for Android via Java' 18.3.
