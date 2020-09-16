@@ -32,4 +32,5 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 |WORDSJAND-282|Windows fonts are not being used for substitutions even if exist|Bug|
 |WORDSJAND-280|License.setLicense method throws Signature is invalid Exception|Bug|
 |WORDSJAND-281|Parsing of doubles with contiguous spaces doesn't work|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.8 and Aspose.Words for Java 17.8 are also included in this 'Aspose.Words for Android via Java' 17.8.
