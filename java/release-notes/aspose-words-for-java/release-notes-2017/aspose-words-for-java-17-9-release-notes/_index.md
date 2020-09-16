@@ -113,10 +113,7 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15783|Document.UpdateFields does not update the formula field|Regression|
 |WORDSNET-15815|Document.Compare throws System.NullReferenceException|Regression|
 
-
-
-
-` `Public API and Backward Incompatble Changes
+## **Public API and Backward Incompatble Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 ### **Added LoadOptions.UpdateDirtyFields, Field.IsDirty and FieldChar.IsDirty Properties**
