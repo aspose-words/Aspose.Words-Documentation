@@ -137,8 +137,11 @@ Microsoft Word 2013 does not write any zoom factor to a document and no longer s
 The following code shows how to make sure the document is displayed at 50% zoom when opened in Microsoft Word. You can download the template file of this example from here.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-SetViewOption-SetViewOption.cpp" >}}
+
 ## **How to Compare Two Word Documents**
 You can use Document.Compare method to compare two documents to see the difference between them. This method mimics Microsoft Word's Compare feature and produces document difference as a number of edit and format revisions. The main idea is that if we reject all revisions then we get a document which is equal to the original document. On the contrary, if we accept all revisions then we get the final (comparison target) document.
+
+{{% alert color="primary" %}}
 
 **Try Online**
 
@@ -146,6 +149,7 @@ You can try this functionality and view the results online at this link:
 
 <https://products.aspose.app/words/comparison>
 
+{{% alert color="primary" %}}
 
 ### **Limitations**
 There are a few general limitations:
@@ -158,7 +162,7 @@ There are a few general limitations:
 
 There is an important note regarding "equal". Actually "equality" means here that the comparison method is not able to represent changes as revisions. In general, it means that both document text and text formatting are the same. But there can be other difference between documents. For example, Word supports only format revisions for styles and we can't represent style insertion/deletion. So documents can have a different set of styles and the Compare method still produces no revisions.
 
-{{% /alert %}} 
+c
 
 Following Example Shows Normal Comparison Case. You can download the template files of below examples from here.
 
