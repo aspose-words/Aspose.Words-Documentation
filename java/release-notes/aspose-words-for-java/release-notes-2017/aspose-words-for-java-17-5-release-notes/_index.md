@@ -27,8 +27,8 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 - Image crop is now taken into account while rendering HtmlFixed.
 - Shaded DrawingML images rendering fixed.
 - DrawingML Charts rendering improved (axis label placement).
-## **Full List of Issues Covering all Changes in this Release**
 
+## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -125,7 +125,8 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15149|DOC to HTML conversion results a big HTML|Regression|
 |WORDSNET-15161|Table borders disappear after Paragraph removal|Regression|
 |WORDSNET-15199|Header content becomes visible from behind a floating Frame with shading during rendering|Regression|
-` `Public API and Backward Incompatible Changes
+
+## **Public API and Backward Incompatible Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.5. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
