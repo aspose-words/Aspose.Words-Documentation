@@ -12,9 +12,12 @@ To take this a few steps further, this can also be used to leverage the structur
 
 The solution for retrieving text formatted with specific styles in a Word document is typically economical and straightforward using Aspose.Words.
 ### **The Solution**
-To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document. At a high level, this will involve:# Opening a Word document using the Document class.# Getting collections of all paragraphs and all runs in the document.# Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
+To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document. At a high level, this will involve:
+- Opening a Word document using the Document class.
+- Getting collections of all paragraphs and all runs in the document.
+- Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
+![todo:image_alt_text](working-with-styles_1.png)
 
 
 In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
@@ -42,7 +45,7 @@ When both queries are implemented, all you need to do is to pass a document obje
 #### **End Result**
 When everything is done, running the sample will display the following output: 
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
+![todo:image_alt_text](working-with-styles_2.png)
 
 
 As you can see, this is a very simple example, showing the number and text of the collected paragraphs and runs in the sample Word document.
@@ -80,6 +83,6 @@ The style separator can be added to the end of a paragraph using the Ctrl + Alt 
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Styles-InsertStyleSeparator-ParagraphInsertStyleSeparator.cpp" >}}
 ## **Copy All Styles from Template**
-` `There are cases when you want to copy all styles from one document into another. You can use the Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
+There are cases when you want to copy all styles from one document into another. You can use the Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Styles-CopyStyles-CopyStylesFromDocument.cpp" >}}
