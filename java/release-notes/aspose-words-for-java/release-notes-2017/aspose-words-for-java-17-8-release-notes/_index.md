@@ -133,8 +133,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-15648|MathML throws NullReferenceException in rendering|Regression|
 |WORDSNET-15702|DOCX to PDF conversion throws NullReferenceException in 17.7|Regression|
 
-
-` `Public API and Backward Incompatble Changes
+## **Public API and Backward Incompatble Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.8. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 ### **WORDSNET-6118 - Rendering Word Document to PCL format Supported**
@@ -418,8 +417,7 @@ chartDataLabel2.getNumberFormat().isLinkedToSource(true);
 {{< /highlight >}}
 ### **WORDSNET-15641 - Implemented Signing Signature Line in Word Documents**
 
-
-\1. Added new public property for SignatureLine class:
+1. Added new public property for SignatureLine class:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -431,7 +429,7 @@ public java.util.UUID getId()
 public void setId(java.util.UUID value)
 {{< /highlight >}}
 
-\2. Added new public class SignOptions:
+2. Added new public class SignOptions:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -483,7 +481,7 @@ public java.lang.String getDecryptionPassword()
 public void setDecryptionPassword(java.lang.String value)
 {{< /highlight >}}
 
-\3. New public methods are introduced in DigitalSignatureUtil class for signing documents:
+3. New public methods are introduced in DigitalSignatureUtil class for signing documents:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -532,7 +530,7 @@ public static void sign(InputStream srcStream, InputStream dstStream, Certificat
 public static void sign(string srcFileName, string dstFileName, CertificateHolder certHolder)
 {{< /highlight >}}
 
-\4. Old signing methods in DigitalSignatureUtil are marked as 'Obsolete':
+4. Old signing methods in DigitalSignatureUtil are marked as 'Obsolete':
 
 {{< highlight csharp >}}
 public static void sign(string srcFileName, string dstFileName, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, string comments, DateTime signTime);
