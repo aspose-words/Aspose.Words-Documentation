@@ -128,11 +128,11 @@ public class ImportFormatOptions
 
 This option starts working when styles clashes upon importing. 
 
-` `When this option is **enabled**, a source style will be expanded into direct attributes inside a destination document, if KeepSourceFormatting importing mode is used. 
+When this option is **enabled**, a source style will be expanded into direct attributes inside a destination document, if KeepSourceFormatting importing mode is used. 
 
-` `When this option is **disabled**, a source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists. 
+When this option is **disabled**, a source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists. 
 
-` `For a moment this option can be used only with a new public method of a DocumentBuilder class:
+For a moment this option can be used only with a new public method of a DocumentBuilder class:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -158,11 +158,11 @@ Related issue:WORDSNET-17383 has now been resolved:
 
 Previously while loading HTML (SVG) document font families resolved by font names were found on the system. 
 
-` `If font family wasn’t found on the system original font family kept in the model. 
+If font family wasn’t found on the system original font family kept in the model. 
 
-` `This led to a situation when resolved font name depended on the local system. 
+This led to a situation when resolved font name depended on the local system. 
 
-` `For example, if ‘UnknownFont1’ is absent on the system the following font family declaration resolved as ‘Arial’ (‘Arial’ is name for ‘san-serif’ generic font name.)
+For example, if ‘UnknownFont1’ is absent on the system the following font family declaration resolved as ‘Arial’ (‘Arial’ is name for ‘san-serif’ generic font name.)
 
 {{< highlight html >}}
 <p style='font-family:UnknownFont1, sans-serif;'>This is a paragraph.</p>
@@ -170,7 +170,7 @@ Previously while loading HTML (SVG) document font families resolved by font name
 
 Now the customer can use font settings before loading the document (add substitution rule, specify fonts folder and etc). 
 
-` `The following example shows how to add font substitution rule while loading the document.
+The following example shows how to add font substitution rule while loading the document.
 
 {{< highlight csharp >}}
 FontSettings fontSettings = new FontSettings();
@@ -242,8 +242,6 @@ When import nodes between different documents there can be a situation when sour
 
 To allow users to choose an appropriate behavior, the following option was introduced in ImportFormatOptions class:
 
-
-
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents.
@@ -251,8 +249,6 @@ To allow users to choose an appropriate behavior, the following option was intr
 /// </summary>
 public bool KeepSourceNumbering
 {{< /highlight >}}
-
-
 
 Also, a new public method that accepts the new KeepSourceNumbering option was introduced as the following:
 
@@ -286,7 +282,6 @@ foreach (Paragraph srcPara in srcParas)
 dstDoc.Save("output.docx");
 {{< /highlight >}}
 
-
 ### **Added a new ImportFormatOptions.IgnoreTextBoxes option for use in import operations**
 Related issue:WORDSNET-18202 has now been resolved.
 
@@ -300,8 +295,6 @@ When import a text box between different documents, the formatting of the destin
 /// </summary>
 public bool IgnoreTextBoxes
 {{< /highlight >}}
-
-
 
 **UseCase:**
 
