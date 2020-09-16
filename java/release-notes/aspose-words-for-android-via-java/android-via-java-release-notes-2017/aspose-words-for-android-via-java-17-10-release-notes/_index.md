@@ -37,4 +37,5 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 |WORDSJAND-309|Poor quality of EMF images.|Bug|
 |WORDSJAND-326|Chinese fonts cannot be found by their names.|Bug|
 |WORDSJAND-312|Incorrect numeric formatting.|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.10 and Aspose.Words for Java 17.10 are also included in this 'Aspose.Words for Android via Java' 17.10.
