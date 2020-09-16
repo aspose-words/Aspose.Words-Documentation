@@ -36,4 +36,5 @@ This page contains release notes for [Aspose.Words for Android via Java 19.2](ht
 |WORDSJAND-416|Incorrect float formatting if pattern mixes '#' and '0'.|Bug|
 |WORDSJAND-418|Metafile picture disappeared.|Bug|
 |WPRDSJAND-420|Wrong background color or transparency.|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements, and fixes included in the Aspose.Words for .NET 19.2 and Aspose.Words for Java 19.2 are also included in this 'Aspose.Words for Android via Java' 19.2.
