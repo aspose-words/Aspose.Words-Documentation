@@ -119,7 +119,7 @@ The option to embed Core fonts can be enabled or disabled by using the UseCoreF
 - Courier New
 - Symbol
 
-` `These fonts are replaced with the corresponding core Type 1 fonts, which are provided by a reader when the PDF is opened.
+These fonts are replaced with the corresponding core Type 1 fonts, which are provided by a reader when the PDF is opened.
 
 The example provided below shows how to set Aspose.Words to avoid embedding core fonts and let the reader substitute them with PDF Type 1 fonts:
 
