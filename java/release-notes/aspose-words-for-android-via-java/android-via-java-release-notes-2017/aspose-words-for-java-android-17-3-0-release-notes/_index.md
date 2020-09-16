@@ -38,4 +38,5 @@ Aspose.Words for Java.Android 17.3.0 also includes the current Aspose.Words for 
 |WORDSANDROID-118|Text and its bounds are incorrect positioned|Bug|
 |WORDSANDROID-179|Black square instead of the picture|Bug|
 |WORDSANDROID-91|WordArts' outlines are filled with black|Bug|
+
 Since the code base of Aspose.Words for Java.Android matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.3.0 and Aspose.Words for Java 17.3.0 are also included in this Aspose.Words for Java.Android 17.3.0.
