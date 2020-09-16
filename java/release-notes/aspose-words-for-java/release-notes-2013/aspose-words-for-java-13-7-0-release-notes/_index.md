@@ -25,7 +25,8 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 - Improved format revision support (including styles)
 - Several improvements in OLE support area
 
-` `For a list of changes to the public API in this release refer to the in the documentation.
+For a list of changes to the public API in this release refer to the in the documentation.
+
 ## **All Fixes**
 
 |**Key** |**Summary** |**Category** |
