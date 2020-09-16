@@ -22,7 +22,7 @@ A field consists of:
 
 Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on Github.
 
-![todo:image_alt_text](fields_overview_2.png)
+![todo:image_alt_text](fields-overview_2.png)
 
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
