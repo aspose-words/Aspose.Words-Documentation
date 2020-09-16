@@ -45,4 +45,5 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for Java (18.7)|New Feature|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 18.7 and Aspose.Words for Java 18.7 are also included in this 'Aspose.Words for Android via Java' 18.7.
