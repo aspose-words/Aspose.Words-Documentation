@@ -250,4 +250,4 @@ Optimization may affect the visual appearance of metafile vector graphics in vie
 
 Metafile output optimization is controlled by existing FixedPageSaveOptions.OptimizeOutput flag.
 ### **Obsolete property LoadOptions.WebRequestTimeout was removed**
-` `Obsolete property WebRequestTimeout was removed from the LoadOptions class. Please use the HtmlLoadOptions.WebRequestTimeout property instead.
+Obsolete property WebRequestTimeout was removed from the LoadOptions class. Please use the HtmlLoadOptions.WebRequestTimeout property instead.
