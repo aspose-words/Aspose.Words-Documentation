@@ -7,10 +7,7 @@ url: /cpp/printer-command-language-pcl/
 
 ## **About PCL**
 
-|![todo:image_alt_text](printer-command-language-pcl_1)|PCL – Printer Command Language – is a page description language (PDL) developed by Hewlett-Packard as a printer protocol and has become a de facto industry standard. Originally developed for early inkjet printers in 1984, PCL has been released in varying levels for thermal, matrix printer, and page printers.<br>HP introduced PCL 6 around 1995 with the HP LaserJet 4000 series printers. It consists of:
-- PCL 6 Enhanced: An object-oriented PDL optimized for printing from GUI interfaces such as Windows and compressed to optimize throughput. Formerly known as PCL XL.
-- PCL 6 Standard: Equivalent to PCL 5e or PCL 5c, intended to provide backward compatibility.
-- Font synthesis: Provides scalable fonts, font management and storage of forms and fonts.|
+|![todo:image_alt_text](printer-command-language-pcl_1)|PCL – Printer Command Language – is a page description language (PDL) developed by Hewlett-Packard as a printer protocol and has become a de facto industry standard. Originally developed for early inkjet printers in 1984, PCL has been released in varying levels for thermal, matrix printer, and page printers.<br>HP introduced PCL 6 around 1995 with the HP LaserJet 4000 series printers. It consists of:<br>- PCL 6 Enhanced: An object-oriented PDL optimized for printing from GUI interfaces such as Windows and compressed to optimize throughput. Formerly known as PCL XL.<br>- PCL 6 Standard: Equivalent to PCL 5e or PCL 5c, intended to provide backward compatibility.<br>- Font synthesis: Provides scalable fonts, font management and storage of forms and fonts.|
 | :- | :- |
 
 ## **PCL in Aspose.Words**
