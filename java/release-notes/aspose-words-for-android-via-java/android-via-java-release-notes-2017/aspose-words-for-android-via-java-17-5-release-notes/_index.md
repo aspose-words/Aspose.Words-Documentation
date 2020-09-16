@@ -36,4 +36,5 @@ There are 90+ improvements and fixes in this regular monthly release. The most n
 |WORDSJAND-249|Sign ODT Documents|New Feature|
 |WORDSJAND-252|Syntax error in regexp pattern|Bug|
 |WORDSJAND-250|Some math symbols cannot be drawn|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.5 and Aspose.Words for Java 17.5 are also included in this 'Aspose.Words for Android via Java' 17.5.
