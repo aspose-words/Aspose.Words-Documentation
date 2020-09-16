@@ -47,4 +47,5 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 |WORDSJAND-405|Currency formatting issue.|Bug|
 |WORDSJAND-399|Embedded font looks differently.|Bug|
 |WORDSJAND-398|Line disappeared in Metafile.|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 18.10 and Aspose.Words for Java 18.10 are also included in this 'Aspose.Words for Android via Java' 18.10.
