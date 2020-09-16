@@ -31,6 +31,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.6](ht
 - Fixed exception when table which spans multiple pages and has many nested floaters is broken across pages.
 - Improved text positioning when there is a paragraph-relative shape with anchor wrapped around multiple floaters.
 - Improved calculation of space before a paragraph when its first in the document and there is a floater before it.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -38,4 +39,5 @@ This page contains release notes for [Aspose.Words for Android via Java 19.6](ht
 |WORDSJAND-428|Out of memory exception during the conversion to PDF|Bug|
 |WORDSJAND-430|Some reflections are not rendered|Bug|
 |WORDSJAND-434|Font is not the same as requested|Bug|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements, and fixes included in the Aspose.Words for .NET 19.6 and Aspose.Words for Java 19.6 are also included in this 'Aspose.Words for Android via Java' 19.6.
