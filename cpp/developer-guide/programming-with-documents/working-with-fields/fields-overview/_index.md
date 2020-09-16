@@ -34,7 +34,7 @@ Fields in Microsoft Word documents are complex. There are over 50 field types (e
 
 |**Field Code**|**Field Result**|
 | :- | :- |
-|![todo:image_alt_text](fields_overview_3.png)|![todo:image_alt_text](fields_overview_4.png)|
+|![todo:image_alt_text](fields-overview_3.png)|![todo:image_alt_text](fields-overview_3.png)|
 
 ### **Inserting Fields in Microsoft Word**
 To insert a field in Microsoft Word:
@@ -44,20 +44,20 @@ To insert a field in Microsoft Word:
 1. Select **Field**
 1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.
 
-![todo:image_alt_text](fields_overview_5.png)
+![todo:image_alt_text](fields-overview_5.png)
 
 1. Additionally you can press the **Field Codes** button which allows you to directly write out the field code.
 
-![todo:image_alt_text](fields_overview_6.png)
+![todo:image_alt_text](fields-overview_6.png)
 
 1. Switches can also be inserted by using the **Options** button
 
-![todo:image_alt_text](fields_overview_7.png)
+![todo:image_alt_text](fields-overview_7.png)
 
 1. Using either method, fill in the desired fields with the appropriate information then press **Ok**.
 1. The field is inserted into the document at the current cursor position.
 
-![todo:image_alt_text](fields_overview_8.png)
+![todo:image_alt_text](fields-overview_8.png)
 
 ### **Updating Fields in Microsoft Word**
 To update a single field in Microsoft Word:
