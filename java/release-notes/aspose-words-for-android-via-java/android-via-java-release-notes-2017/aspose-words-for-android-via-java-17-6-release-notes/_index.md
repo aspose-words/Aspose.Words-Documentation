@@ -35,4 +35,5 @@ There are 90+ improvements and fixes in this regular monthly release. The most n
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |WORDSJAND-25|Gradient along a curve doesn't work|New Feature|
+
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 17.6 and Aspose.Words for Java 17.6 are also included in this 'Aspose.Words for Android via Java' 17.6.
