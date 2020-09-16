@@ -170,10 +170,11 @@ htmlLoadOptions.SupportVml = true;
 htmlLoadOptions.WebRequestTimeout = 1000;
 Document doc = new Document("Test.html", htmlLoadOptions);
 {{< /highlight >}}
-### **WORDSNET-13188 Changes in save options of fixed page formats**
-\1. Now all save option classes of fixed page formats (HtmlFixedSaveOptions, ImageSaveOptions, PdfSaveOptions, PsSaveOptions, SvgSaveOptions, SwfSaveOptions, XamlFixedSaveOptions and XpsSaveOptions) are inherited from the new public abstract class FixedPageSaveOptions.
 
-\2. The MetafileRenderingOptions property has become available in the SwfSaveOptions class:
+### **WORDSNET-13188 Changes in save options of fixed page formats**
+1. Now all save option classes of fixed page formats (HtmlFixedSaveOptions, ImageSaveOptions, PdfSaveOptions, PsSaveOptions, SvgSaveOptions, SwfSaveOptions, XamlFixedSaveOptions and XpsSaveOptions) are inherited from the new public abstract class FixedPageSaveOptions.
+
+2. The MetafileRenderingOptions property has become available in the SwfSaveOptions class:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -182,7 +183,7 @@ Document doc = new Document("Test.html", htmlLoadOptions);
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
 {{< /highlight >}}
 
-\3. The JpegQuality property has become available in the XamlFixedSaveOptions and XpsSaveOptions classes:
+3. The JpegQuality property has become available in the XamlFixedSaveOptions and XpsSaveOptions classes:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -201,5 +202,6 @@ public int JpegQuality { get; set; }
 {{< /highlight >}}
 
 Jpeg quality was 100 for the XAML and XPS formats in the previous version. Now its default value is 95 to unify with the other formats (except PDF).
+
 ### **The analogue of NEXT fields is added to LINQ Reporting Engine**
 The "[Forcing Movement to Next Item within Data Band](https://docs.aspose.com/words/java/forcing-movement-to-next-item-within-data-band/)" section of the engine's documentation was added to describe the change
