@@ -111,9 +111,7 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15883|Aspose.Words throws FileCorruptedException upon loading DOCM file|Regression|
 
 
-
-
-` `Public API and Backward Incompatble Changes
+## **Public API and Backward Incompatble Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.10. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 ### **Added CompareOptions.Target Property and Enumeration ComparisonTargetType**
