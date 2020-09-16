@@ -27,8 +27,8 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 - Textboxes with automatic fit is now rendered correctly inside the group shapes.
 - Corrupted texture images do not stop the rendering procedure with an exception, a warning is sent instead now.
 - DrawingML Charts rendering improved (rotated and scaled horizontal axis labels).
-## **Full List of Issues Covering all Changes in this Release**
 
+## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -120,8 +120,7 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14978|Some of the rows and columns are missing in Aspose 17.2 generated PDF file|Regression|
 |WORDSNET-15087|Document.UpdateFields does not update fields when ExecuteWithRegions is used|Regression|
 
-
-` `Public API and Backward Incompatible Changes
+## **Public API and Backward Incompatible Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 ### **Added an Interface to Flexibly Format Field Result**
