@@ -21,7 +21,8 @@ There are 159 improvements and fixes in this regular monthly release. The most n
 - Improved tab width computation in marginal scenarios
 - Improved table border rendering with conflicting or missing attributes
 
-` `For a list of changes to the public API in this release refer to the in the documentation.
+For a list of changes to the public API in this release refer to the in the documentation.
+
 ## **All Fixes**
 
 |**Key** |**Summary** |**Category** |
