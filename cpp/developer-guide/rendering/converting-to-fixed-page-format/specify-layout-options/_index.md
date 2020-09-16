@@ -18,13 +18,13 @@ The page depicted in the example below contains three paragraphs. The second one
 
 In Microsoft Word, these parameters are set using the "File → Options → Display" dialog box as follows:
 
-![todo:image_alt_text](/download/attachments/94635696/710881111)
+![todo:image_alt_text](specify-layout-options_3.png)
 ## **Comments and Revisions**
 With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#a6aaf25d9ece89cf47d95f44de2e67fef) property.
 
 In Microsoft Word, this parameter is set using the "Track Changes Options" dialog box, as shown below:
 
-![todo:image_alt_text](/download/attachments/94635696/425941823)
+![todo:image_alt_text](specify-layout-options_4.png)
 
 Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#a215ac992ec983b4a7260283493fc737d) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.revision_options/) class.
 
