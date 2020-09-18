@@ -16,11 +16,12 @@ The minimum required version of compilers are the following:
 
 - GCC 6.3 or higher
 - Clang 3.9.1 or higher
+
 Right now, we support only the x86_x64 platform, but we can add other architectures to the next releases on request.
 
-It is the first version for Linux, so there may be artifacts and differences in behavior from both the Windows version of Aspose.Words for C++ and Aspose.Words for .Net. We continue to work on improving the product and adding features from .Net
+It is the first version for Linux, so there may be artifacts and differences in behavior from both the Windows version of Aspose.Words for C++ and Aspose.Words for .NET. We continue to work on improving the product and adding features from .NET
 
-We have added the following features from Aspose.Words for .Net on this regular monthly release:
+We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - VbaReferenceCollection and related types are exposed publicly.
 - Implemented rendering of metafiles with EMF+ containers.
