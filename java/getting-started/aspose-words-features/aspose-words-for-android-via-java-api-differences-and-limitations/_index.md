@@ -6,6 +6,7 @@ url: /java/aspose-words-for-android-via-java-api-differences-and-limitations/
 ---
 
 ## **Limitations of Aspose.Words for Android via Java API compared to Aspose.Words for Java API**
+
 1. *Document.print *methods are not available.
 1. Saving in **TIFF** and **BMP** formats is not supported, though *SaveFormat.TIFF* and *SaveFormat.BMP* are available in public Aspose.Words for Android via Java API, but *UnsupportedOperationException* is thrown when these save formats are used.
 1. Reading **TIFF** images is not supported.
@@ -13,7 +14,9 @@ url: /java/aspose-words-for-android-via-java-api-differences-and-limitations/
 1. Barcodes are not supported.
 1. Gradients along a curve are not supported
 1. Printing is not supported
+
 ## **Public API differences**
+
 - android.graphics.Bitmap is used instead of java.awt.image.BufferedImage;
 - android.graphics.Canvas is used instead of java.awt.image.Graphics2D;
 - android.graphics.RectF is used instead of  java.awt.geom.Rectangle2D.Float;
@@ -71,10 +74,14 @@ See the following Public API methods:
 1. com.aspose.words.ThumbnailGeneratingOptions:
    1. android.graphics.PointF getThumbnailSize()
    1. setThumbnailSize(android.graphics.PointF)
+
 ## **Aspose.Words for Android via Java additional requirements**
+
 In order to use metered licensing feature and load documents or images by http/ftp protocols users should add following permission to their applications
 *&lt;uses-permission android:name="android.permission.INTERNET" /&gt;*
+
 ## **Public API Examples**
+
 {{< highlight csharp >}}
 public void testPublicAPI1() throws Exception
     {

@@ -29,6 +29,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 
 ##### **Style Type**
+
 Style type itself is not exported to CSS but it is implied by the specific attributes exported to that style.
 
 There is a setting to export paragraph and character styles as inline CSS (style), embedded or linked CSS style sheet (class).

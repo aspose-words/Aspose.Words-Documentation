@@ -6,6 +6,7 @@ url: /java/insert-nested-fields-in-python/
 ---
 
 ## **Aspose.Words - Insert Nested Fields**
+
 **Python Code**
 
 {{< highlight csharp >}}
@@ -32,7 +33,9 @@ field.update()
 doc.save(self.dataDir + "InsertNestedFields Out.docx")
     }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Insert Nested Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Python/tests/programmingwithdocuments/workingwithfields/insertnestedfields/InsertNestedFields.py)

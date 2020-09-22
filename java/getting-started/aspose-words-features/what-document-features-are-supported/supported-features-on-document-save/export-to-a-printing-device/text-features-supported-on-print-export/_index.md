@@ -14,6 +14,7 @@ See the following link in the documentation for further information:
 - [SvgSaveOptions.TextOutputMode](https://apireference.aspose.com/words/java/com.aspose.words/SvgSaveOptions)
 
 {{% /alert %}} 
+
 ##### **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

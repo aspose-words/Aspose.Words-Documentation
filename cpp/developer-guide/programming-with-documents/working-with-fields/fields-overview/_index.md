@@ -6,6 +6,7 @@ url: /cpp/fields-overview/
 ---
 
 ## **Fields Overview**
+
 Fields in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula or a mail merge field. A field in a Microsoft Word document consists of a field code and a field result. The field code is an instruction about how the field result needs to be updated or calculated. An application that processes a document and encounters a field might have the functionality to interpret the instructions contained in the field code and update the field result with a new value. This is called field update.
 
 Usually a field, when inserted in Microsoft Word, already contains an up to date value. For example, if the field is a formula or a page number, it will contain a correct calculated value for the given version of the document. But if you have an application that generates or modifies a document with fields (for example combines two documents or populates with data) then for the document to be useful, all fields should ideally be updated.
@@ -30,6 +31,7 @@ Aspose.Words is a class library designed for server-side processing of Microsoft
 - It is possible to update results of some of the most popular fields.
 
 ## **Fields in Microsoft Word**
+
 Fields in Microsoft Word documents are complex. There are over 50 field types (each needs its own result calculation procedure), formulas and expressions, bookmarks and references, functions and various switches. Fields can also be nested. Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field result or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
 
 |**Field Code**|**Field Result**|
@@ -37,6 +39,7 @@ Fields in Microsoft Word documents are complex. There are over 50 field types (e
 |![todo:image_alt_text](fields-overview_3.png)|![todo:image_alt_text](fields-overview_3.png)|
 
 ### **Inserting Fields in Microsoft Word**
+
 To insert a field in Microsoft Word:
 
 1. Click on the **Insert** menu.
@@ -60,6 +63,7 @@ To insert a field in Microsoft Word:
 ![todo:image_alt_text](fields-overview_8.png)
 
 ### **Updating Fields in Microsoft Word**
+
 To update a single field in Microsoft Word:
 
 1. Move the caret into the field that you want to update.
@@ -71,6 +75,7 @@ To update all fields in Microsoft Word:
 1. Press **F9** to update all of the fields found within the selection.
 
 ### **Switching Between Display of Field Code and Field Result**
+
 To toggle field codes of a single field in Microsoft Word:
 
 1. Move the caret into the desired field.
@@ -81,18 +86,21 @@ To toggle field codes of all fields in Microsoft Word:
 1. Press **ALT+F9**
 
 ### **Converting Fields to Static Text in Microsoft Word**
+
 To convert a dynamic field to static text in Microsoft Word:
 
 1. Move the caret into the field that you want to convert.
 1. Press **Ctrl+Shift+F9** to convert the fields to static text.
 
 ### **Removing a Field in Microsoft Word**
+
 To remove a field in Microsoft Word:
 
 1. Select the entire content making up the field. If field codes are displayed then the opening and ending braces need to be selected as well.
 1. Press **Delete** to remove the entire field.
 
 ## **Fields in Aspose.Words**
+
 When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of FieldStart, FieldSeparator and FieldEnd nodes along with the content in between these nodes. If a field does not have a field result then there will be no FieldSeparator node. All of these nodes are always found inline (as children of Paragraph or SmartTag).
 
 The content which makes up the field code is stored as Run nodes between the FieldStart and FieldSeparator. The field result is stored between the FieldSeparator and FieldEnd nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of block level nodes such as Table and Paragraph nodes as well.
@@ -108,6 +116,7 @@ Form fields are also imported into Aspose.Words as their own special class. The 
 {{% /alert %}} 
 
 ### **Fields Supported during Update**
+
 Calculation of the following fields is supported in the current version of Aspose.Words:
 
 - = (formula field)
@@ -142,6 +151,7 @@ Calculation of the following fields is supported in the current version of Aspos
 - TC
 
 ### **Sophisticated Parsing**
+
 Aspose.Words follows the way Microsoft Word processes fields and as a result it correctly handles:
 
 - Nested fields
@@ -153,6 +163,7 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 - Fields that span across multiple paragraphs.
 
 #### **Formula Fields**
+
 Aspose.Words provides a very serious implementation of the formula engine and supports the following:
 
 - Arithmetic and logical operators:
@@ -167,6 +178,7 @@ Aspose.Words provides a very serious implementation of the formula engine and su
 The following functions in expressions are supported: ABS, AND, AVERAGE, COUNT, DEFINED, FALSE, IF, INT, MAX, MIN, MOD, NOT, OR, PRODUCT, ROUND, SIGN, SUM, TRUE.
 
 #### **IF and COMPARE Fields**
+
 Just some of the IF expressions that Aspose.Words can easily calculate should give you an idea of how powerful this feature is:
 
 - IF 3 > 5.7^4+MAX(4,3) True False
@@ -176,12 +188,14 @@ Just some of the IF expressions that Aspose.Words can easily calculate should gi
 - COMPARE 3+5/34 < 4.6/3/2
 
 #### **DATE and TIME Fields**
+
 Aspose.Words supports all date and time formatting switches available in Microsoft Word, some examples are:
 
 - DATE @ "d-MMM-yy"
 - DATE @ "d/MM/yyyy h:mm am/pm
 
 #### **Mail Merge Fields**
+
 Aspose.Words imposes no limit on the complexity of mail merge fields in your documents and supports nested IF and formula fields and can even calculate the merge field’s name using a formula.
 
 Some examples of mail merge fields that Aspose.Words supports:
@@ -196,6 +210,7 @@ Some examples of mail merge fields that Aspose.Words supports:
   NEXTIF { MERGEFIELD Value1 } <= { =IF(-2.45 >= 6*{ MERGEFIELD Value2 }, 2, -.45) }
 
 #### **Format Switches**
+
 A field in a document can have formatting switches that specify how the resulting value should be formatted. Aspose.Words supports the following format switches:
 
 - @ - date and time formatting
@@ -208,6 +223,7 @@ A field in a document can have formatting switches that specify how the resultin
 - \\\\\\\\* MERGEFORMAT – format result according to how the old result is formatted.
 
 ## **How to Rename Merge Fields**
+
 Below example shows how to rename merge fields in a Word document. You can download the template file of this example from here.
 
 {{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cpp" >}}

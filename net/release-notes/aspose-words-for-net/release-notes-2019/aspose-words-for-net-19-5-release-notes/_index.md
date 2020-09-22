@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-19-5-release-notes/
 This page contains release notes for [Aspose.Words for .NET 19.5](https://www.nuget.org/packages/Aspose.Words/19.5.0).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Added a new overloaded AppendDocument() method with additional ImportFormatOptions parameter.
 - Added a new public property Paragraph.BreakIsStyleSeparator.
 - Added feature to get font leading (line spacing).
@@ -30,6 +32,7 @@ This page contains release notes for [Aspose.Words for .NET 19.5](https://www.nu
 - Improved performance for a class of documents when very small text wraps around the floating object and does not fit.
 - Improved handling of tab stops positioned between right indent and right margin.
 - Fixed an exception which happened in some RTL documents when reflow resulted in empty runs
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -113,11 +116,14 @@ This page contains release notes for [Aspose.Words for .NET 19.5](https://www.nu
 |WORDSNET-18356|System.NotSupportedException is thrown while importing MHTML|Bug|
 |WORDSNET-18336|System.ArgumentException is thrown while saving DOCX to PDF|Bug|
 |WORDSNET-18361|Check Boxes are not rendered in output PDF|Bug|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.5. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 
 ### **Added a new overloaded AppendDocument() method with additional ImportFormatOptions parameter**
+
 Related issue: WORDSNET-18228.
 
 Added a new overloaded AppendDocument() method into a Document class:
@@ -151,7 +157,9 @@ ImportFormatOptions options = new ImportFormatOptions();
 options.KeepSourceNumbering = true;
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions)
 {{< /highlight >}}
+
 ### **Added a new public property Paragraph.BreakIsStyleSeparator**
+
 Related issue: WORDSNET-18436.
 
 Added a new public property BreakIsStyleSeparator into a Paragraph class.
@@ -179,7 +187,9 @@ if (paragraph.BreakIsStyleSeparator)
   // Do smth..
 }
 {{< /highlight >}}
+
 ### **Added feature to get font leading (line spacing)**
+
 Related to WORDSNET-16734.
 
 The line spacing of a font is the vertical distance between the baselines of two consecutive lines of text. Thus, the line spacing includes the blank space between lines along with the height of the character itself.
@@ -206,7 +216,9 @@ builder.Writeln("qText");
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 {{< /highlight >}}
+
 ### **Added Field.DisplayResult property to obtain the fake result**
+
 Related issue: WORDSNET-18357
 
 Inspired by WORDSNET-18165, we have decided to add a property that would allow customers to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model
@@ -237,7 +249,9 @@ Assert.AreEqual(string.Empty, fields[5].DisplayResult);
 document.UpdateListLabels();
 Assert.AreEqual("1)", fields[5].DisplayResult);
 {{< /highlight >}}
+
 ### **Added new StreamFontSource class**
+
 Related issue: WORDSNET-16739
 
 Added new StreamFontSource class which allows loading fonts from the stream:
@@ -313,6 +327,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[] {new SystemF
 
 
 ### **Obsolete properties and methods related to font substitution settings was removed from FontSettings class**
+
 Obsolete property DefaultFontName was removed from FontSettings class. Please use SubstitutionSettings.DefaultFontSubstitution instead.
 Obsolete property EnableFontSubstitution was removed from FontSettings class. Please use SubstitutionSettings.FontInfoSubstitution instead.
 Obsolete methods GetFontSubstitutes, SetFontSubstitutes, AddFontSubstitutes was removed from FontSettings class. Please use SubstitutionSettings.TableSubstitution instead.
@@ -321,6 +336,7 @@ Obsolete methods GetFontSubstitutes, SetFontSubstitutes, AddFontSubstitutes was 
 
 
 ### **WORDSNET-14297 - Provide a method to check if particular Dml text effect is applied**
+
 Font.HasDmlEffect() method have been added to check if particular Dml text effect is applied to the Run.
 
 {{< highlight csharp >}}

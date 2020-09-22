@@ -30,7 +30,9 @@ As noted on the image you can see that the **ContactDetails** region for the sec
 - The table and title related to the **Suppliers** region also remains after the region inside the table is removed.
 
 The technique provided in this article demonstrates how to apply custom logic to each unmerged regions to avoid these issues.
+
 #### **The Solution**
+
 To manually apply logic to each unused region in the document we take advantage of features already available in Aspose.Words.
 
 The mail merge engine provides a property to remove unused regions through the **MailMergeCleanupOptions.RemoveUnusedRegions** flag. This can be disabled so that such regions are left untouched during mail merge. This allows us to leave the unmerged regions in the document and handle them manually ourselves instead.
@@ -46,13 +48,17 @@ This sample project demonstrates this technique. It involves the following steps
    1. Sets the handler specified by the user to the **MailMerge.FieldMergingCallback** property.
    1. Calls the **CreateDataSourceFromDocumentRegions** method which accepts the user’s **Document** and **ArrayList** containing regions names. This method will create a dummy data source containing tables for each unmerged region in the document.
    1. Executes mail merge on the document using the dummy data source. When mail merge is executed with this data source it allows the user-specified handler to be called for each unmerge region and the custom logic applied
+
 #### **The Code**
+
 The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts several parameters:
 
 1. The [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) object containing unmerged regions which are to be handled by the passed handler.
 1. The handler class which defines the logic to apply to unmerged regions. This handler must implement the [IFieldMergingCallback](http://www.aspose.com/api/java/words/com.aspose.words/interfaces/IFieldMergingCallback) interface.
 1. Through the use of the appropriate overload, the method can also accept a third parameter – a list of region names as strings. If this is specified then only region names remaining the document specified in the list will be manually handled. Other regions which are encountered will not be called by the handler and removed automatically. When the overload with only two parameters is specified, every remaining region in the document is included by the method to be handled manually.
+
 ##### **Example**
+
 Shows how to execute custom logic on unused regions using the specified handler.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-ExecuteCustomLogicOnUnusedRegions.java" >}}
@@ -62,7 +68,9 @@ Shows how to execute custom logic on unused regions using the specified handler.
 If you considering running the **ExecuteCustomLogicOnEmptyRegions** method consecutively with different handlers (e.g each handler applies logic to certain fields) then you will need to disable the removal of unused regions so such regions are not removed in between these calls.
 
 {{% /alert %}} 
+
 ##### **Example**
+
 Defines the method used to manually handle unmerged regions.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-ManuallyHandleUnmergedRegions.java" >}}
@@ -76,7 +84,9 @@ When an appropriate region start has been found and added to the database, the n
 We also set the field value of the first field to “FirstField” to make it easier to apply logic to the first or other fields in the region. By including this it means it is not necessary to hard-code the name of the first field or implements extra code to check if the current field is the first in the handler code.
 
 The code below demonstrates how this system works. The document shown at the start of this article is remerged with the same data source but this time, the unused regions are handled by custom code.
+
 ##### **Example**
+
 Shows how to handle unmerged regions after mail merge with user defined code.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-HandleUnmergedRegionsAfterMailMerge.java" >}}
@@ -87,7 +97,9 @@ The code performs different operations based on the name of the region retrieved
 The logic for the **ContactDetails** region involves changing the text of each field in the **ContactDetails** region with an appropriate message stating that there is no data. The names of each field are matched within the handler using the **FieldMergingArgs.FieldName** property.
 
 A similar process is applied to the **Suppliers** region with the addition of extra code to handle the table which contains the region. The code will check if the region is contained within a table (as it may have already been removed). If it is, it will remove the entire table from the document as well as the paragraph which precedes it as long as it is formatted with a heading style e.g “Heading 1”.
+
 ##### **Example**
+
 Shows how to define custom logic in a handler implementing IFieldMergingCallback that is executed for unmerged regions in the document.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-EmptyRegionsHandler.java" >}}
@@ -104,7 +116,9 @@ We can insert different code in the handler to control how unmerged regions are 
 The replacement text is merged into the first field by setting the specified text into the **FieldMergingArgs.Text** property. The text from this property is merged into the field by the mail merge engine.
 
 The code applies this for only the first field in the region by checking the **FieldMergingArgs.FieldValue** property. The field value of the first field in the region is marked with “FirstField” . This makes this type of logic easier to implement over many regions as no extra code is required.
+
 ##### **Example**
+
 Shows how to replace an unused region with a message and remove extra paragraphs.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-ReplaceAnUnusedRegionWithAMessage.java" >}}
@@ -115,7 +129,9 @@ The resulting document after the code above has been executed is shown below. Th
 
 
 As another example, we can insert the code below in place of the code originally handling the **SuppliersRegion** . This will display a message within the table and merge the cells instead of removing the table from the document. Since the region resides within a table with multiple cells, it looks nicer to have the cells of the table merged together and the message centered.
+
 ##### **Example**
+
 Shows how to merge all the parent cells of an unused region and display a message within the table.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-MergeAllTheParentCellsOfAnUnusedRegion.java" >}}
@@ -126,7 +142,9 @@ The resulting document after the code above has been executed is shown below.
 
 
 Finally, we can call the **ExecuteCustomLogicOnEmptyRegions** method and specify the table names that should be handled within our handler method, while specifying others to be automatically removed.
+
 ##### **Example**
+
 Shows how to specify only the ContactDetails region to be handled through the handler class.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-HandleTheContactDetailsRegion.java" >}}

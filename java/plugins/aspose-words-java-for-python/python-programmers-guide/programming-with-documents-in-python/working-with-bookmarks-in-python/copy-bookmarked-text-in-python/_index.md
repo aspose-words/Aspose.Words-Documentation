@@ -6,12 +6,15 @@ url: /java/copy-bookmarked-text-in-python/
 ---
 
 ## **Aspose.Words - Copy Bookmarked Text**
+
 To copy bookmarked text, see below example in Python
 
 **Python Code**
 
 {{< highlight csharp >}}
+
 ## Load the source document.
+
 srcDoc = self.Document(self.dataDir + "Template.doc")
 \# This is the bookmark whose content we want to copy.
 srcBookmark = srcDoc.getRange().getBookmarks().get("ntf010145060")
@@ -29,7 +32,9 @@ self.appendBookmarkedText(importer, srcBookmark, dstNode)
 \# Save the finished document.
 dstDoc.save(self.dataDir + "Template Out.doc")
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Copy Bookmarked Text (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Python/tests/programmingwithdocuments/workingwithbookmarks/copybookmarkedtext/CopyBookmarkedText.py)

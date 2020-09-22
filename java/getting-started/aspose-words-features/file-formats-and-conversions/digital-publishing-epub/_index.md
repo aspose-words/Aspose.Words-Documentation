@@ -15,6 +15,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 
 
 ## **About EPUB**
+
 ![todo:image_alt_text](digital-publishing-epub_1.png)
 
 [EPUB](https://docs.fileformat.com/ebook/epub/) is an XML-based distribution format for eBooks that is rapidly gaining adoption by publishers and distributors. [EPUB](https://docs.fileformat.com/ebook/epub/) is an open standard supported by the [International Digital Publishing Forum](http://idpf.org/) (IDPF) organization.
@@ -23,6 +24,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 
 
 ## **EPUB in Aspose.Words**
+
 With Aspose.Words you can easily convert any document to the EPUB format. Content, formatting, images, hyperlinks, and navigation will all function in any EPUB-compliant reader.
 
 |![todo:image_alt_text](digital-publishing-epub_2.png)|

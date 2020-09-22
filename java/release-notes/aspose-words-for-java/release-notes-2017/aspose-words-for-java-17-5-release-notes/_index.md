@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-17-5-release-notes/
 This page contains release notes for [Aspose.Words for Java 17.5](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.5/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 93 improvements and fixes in this regular monthly release. The most notable are:
 
 - New types of Radial Gradients are supported.
@@ -132,6 +134,7 @@ This section lists public API changes that were introduced in Aspose.Words 17.5.
 
 
 ### **Added Public Method CustomXmlPartCollection.add(string id, string xml)**
+
 A public method is added into the CustomXmlPartCollection class to help in creation of a custom XML part by specifying its XML:
 
 {{< highlight csharp >}}
@@ -145,7 +148,9 @@ public CustomXmlPart add(string id, string xml)
 {{< /highlight >}}
 
 Value of the 'xml' parameter is encoded as UTF8 and is stored in creating XML part.
+
 ##### **UC for creating a custom XML part by specifying its XML**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 CustomXmlPart xmlPart = doc.getCustomXmlParts().add(UUID.fromString("B").toString(), "<root><text>Hello, World!</text></root>");
@@ -153,7 +158,9 @@ StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, M
 sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.getFirstSection().getBody().appendChild(sdt);
 {{< /highlight >}}
+
 ### **Implemented API to Bind StructuredDocumentTag to Node of Custom XML Part**
+
 WORDSNET-4738 has been resolved. The following public property is added into the StructuredDocumentTag class:
 
 {{< highlight csharp >}}
@@ -213,7 +220,9 @@ public class XmlMapping
     public boolean isMapped()
 }
 {{< /highlight >}}
+
 ##### **UC for creation of an XML part and binding a content control to it**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 CustomXmlPart xmlPart = doc.getCustomXmlParts().add(UUID.fromString("B").toString(), "<root><text>Hello, World!</text></root>");
@@ -222,7 +231,9 @@ doc.getFirstSection().getBody().appendChild(sdt);
 sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.save(fileName);
 {{< /highlight >}}
+
 ### **CellFormat.setPaddings Method was Introduced.**
+
 WORDSNET-15014 (Enhancement) has been resolved. We have added a simple method allowing to set all cell paddings in one line of code.
 
 {{< highlight csharp >}}

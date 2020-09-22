@@ -12,7 +12,9 @@ Once you are happy with the evaluation, [buy a license](http://www.aspose.com/pu
 The license emailed to you when the order has been paid. The license is a clear text, digitally signed XML file and contains information such as the client name, the purchased product and the type of the license. Do not modify the content of the license file as it will invalidate the license.
 
 {{% /alert %}} 
+
 ### **Licensing a Server**
+
 Download the license file and copy it to the C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder on the server.
 Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsoft SQL Server instance you want to license:
 
@@ -25,7 +27,9 @@ Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsof
 - The default instance directory for Microsoft SQL Server 2016 is MSRS13.MSSQLSERVER.
 - The default instance directory for Microsoft SQL Server 2017 is MSRS14.MSSQLSERVER
 - The default instance directory for Microsoft SQL Server 2019 is MSRS14.MSSQLSERVER
+
 #### **Licensing Application Development**
+
 Add a reference to Aspose.Words for Reporting Services to your project and Aspose.Words.ReportingServices.dll will be automatically copied to the Bin (binary output) folder of your application.
 
 The license can be loaded from a file, stream or an embedded resource. Aspose.Words for Reporting Services will try to find the license in the following locations:
@@ -67,11 +71,17 @@ license.SetLicense(myStream);
 Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.ReportingServices.License()
 license.SetLicense(myStream)
 {{< /highlight >}}
+
 #### **Deploying a License with Your Application**
+
 Distribute the license file in the same folder as Aspose.Words.ReportingServices.dll.
+
 #### **Licensing Generation of Reports at Design Time**
+
 Download the license file and copy it to C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies, where &lt;Version&gt; is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008.
+
 #### **Testing a License**
+
 To test that a license has been installed correctly, export any report as a Microsoft Word document. If the document contains no watermark at the top, the license was activated successfully.
 
 **When a valid Aspose.Words.ReportingServices.lic is present in the ReportServer\bin folder, no evaluation watermark is added to the file** 

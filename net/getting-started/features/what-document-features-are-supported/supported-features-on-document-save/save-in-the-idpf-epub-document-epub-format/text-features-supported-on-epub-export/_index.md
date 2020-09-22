@@ -21,6 +21,7 @@ See the following links in the documentation for further information:
 - [Document.JoinRunsWithSameFormatting](https://apireference.aspose.com/words/net/aspose.words/document/methods/joinrunswithsameformatting)
 
 {{% /alert %}} 
+
 ##### **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -35,6 +36,7 @@ See the following links in the documentation for further information:
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. <br><br>Exported to HTML as the entity code "". | |
 |Symbol |Yes |Symbols are exported as encoded characters. <br><br>Depending on the encoding used when saving the document, such symbols may not appear correctly in the output HTML. | |
 |Tab |Yes |There is no equivalent of a tab in HTML documents. <br><br>During conversion to HTML a tab is exported as a series of non-breaking spaces of constant length. Improvement in length calculation is planned. | |
+
 ##### **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -43,6 +45,7 @@ See the following links in the documentation for further information:
 |Line Break Clear Type |Yes |Clear type "both" is output with this type of break. | |
 |Page Break |Yes |Exported as a &lt;br style="page-break-before:always; clear:both"&gt; | |
 |Column Break |Yes |Exported as &lt;br style="mso-column-break-before:always; clear:both" &gt; <br><br>There are plans to make it optional since it uses a Microsoft Office specific attribute. | |
+
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -55,7 +58,9 @@ See the following links in the documentation for further information:
 |Do not Check Spelling or Grammar |Planned | | |
 |Border |Yes |Exported as border-style, border-width, border-color on &lt;span&gt;. <br><br>Normally each side is exported as separate attributes even though all sides of the border of a run must be the same. | |
 |Shading |Yes |Only solid fill is supported, both background and foreground. Others are converted to the nearest color. <br><br>Exported as background-color on &lt;span&gt;. | |
+
 ##### **Font**
+
 Bold and italics is exported as font-weight:bold and font-style:italics on style attribute.
 
 There is plans to make an option to export these as simple &lt;b&gt;, &lt;i&gt; tags.
@@ -73,7 +78,9 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
+
 ##### **Underline**
+
 Only single line underline type is supported in native HTML. Exported as "text-decoration:underline". Underline color is not exported.
 
 In CSS 3 different underline types are proposed and may be implemented in the future.
@@ -86,6 +93,7 @@ There is plans to make an option to export underline as simple &lt;u&gt; tag.
 | :- | :- | :- | :- |
 |Underline Type |N/A | | |
 |Underline Color |Yes | | |
+
 ##### **Text Effects**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -103,6 +111,7 @@ There is plans to make an option to export underline as simple &lt;u&gt; tag.
 |Hidden Text |Yes |Exported as style="display:none". | |
 |Special Hidden |Planned |Special hidden and Web hidden can be made aliases of ordinary Hidden. | |
 |Web Hidden |Planned | | |
+
 ##### **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -16,11 +16,15 @@ There are 3 versions of Windows Metafile:
 - EMF+ Metafile stores call to GDI+. EMF+ Metafile may also be dual, describing the same graphics with both EMF and EMF+ parts.
 
 The existing issue with Windows Metafile is that it is not supported by most non-Word formats, to which documents are usually saved. Therefore, it is required to convert the Metafile format to other raster or vector formats. It is easy to convert Windows Metafile to raster image on .NET by simply passing it to GDI+, but it is not possible on other platforms since even GDI+ does not provide the functionality to extract the vector graphics from Metafile. To solve these issues, Aspose.Words implements its own Windows Metafile player, which is able to play Metafile format both vector and raster graphics on all platforms.
+
 ## **Controlling the Aspose.Words Metafile Player**
+
 The [MetafileRenderingOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/#a9bc343f58046b2c73d17e6e0913a4560) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/#a9486784178fa19a4ff8f0272b32fd263) property).
 
 Saving to a bitmap works differently on platforms other than .NET. While .NET GDI+ rendering is a reference that works almost perfectly even for the most complex metafile format, on other platforms it may cause issues or not be supported at all.
+
 ## **Supporting Raster Operations**
+
 Raster operations is a complex metafile feature, that currently has limited support. Raster operations are available in WMF and EMF metafile formats. The EMF+ metafile format does not use raster operations directly but can contain EMF parts, embedded WMF or EMF metafiles.
 
 There are binary and ternary raster operations:
@@ -44,7 +48,9 @@ While binary raster operations are not currently supported and the limited numbe
 The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of the metafile records to vector graphics:
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-Doc2Pdf-RenderMetafileToBitmap.cpp" >}}
+
 ## **Metafile Fallback Settings**
+
 Aspose.Words does not support a number of metafile features that are most complex or rare. Users can implement the [IWarningCallBack](https://apireference.aspose.com/words/cpp/class/aspose.words.load_options/#a088bef549c753ac0756756b3caeb6cd2) interface and receive warning messages. If Aspose.Words encounters unsupported features in a metafile, it issues a warning message with [WarningSource](https://apireference.aspose.com/words/cpp/class/aspose.words.warning_info/#a1609f8a6e78dc28486ca48717a4640c9).**Metafile**. In this case Aspose.Words may perform fallback to a different type of metafile player. The warning message regarding fallback is also issued.
 
 Firstly, Aspose.Words performs fallback from the vector metafile player to raster, which is controlled by the [RenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/#a9bc343f58046b2c73d17e6e0913a4560) property. If the fallback feature is disabled, Aspose.Words tries to render some substitution graphics instead of the features that are not supported.

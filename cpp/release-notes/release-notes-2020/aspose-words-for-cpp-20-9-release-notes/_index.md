@@ -10,7 +10,9 @@ url: /cpp/aspose-words-for-cpp-20-9-release-notes/
 This page contains release notes for [Aspose.Words for C++ 20.9](https://downloads.aspose.com/words/cpp/new-releases/aspose.words-for-c---20.9/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 Starting from this release, we are beginning to publish the Linux version of Aspose.Words for C++.
 The minimum required version of compilers are the following:
 
@@ -28,6 +30,7 @@ We have added the following features from Aspose.Words for .NET on this regular 
 - The FormField font formatting API was extended.
 
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 
@@ -127,9 +130,11 @@ The missing features will be added in future releases.
 |WORDSNET-4066	|Incorrect floating table position|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 ### **Changed the behavior of the FormField.Font property**
+
 Related issue: WORDSNET-522
 Changed the behavior of the 'FormField.Font' property.
 It is currently allowed to apply font formatting to the FormField as a whole.
@@ -144,6 +149,7 @@ Use Case. Explains how to apply font formatting to the FormField as a whole:
 {{< /highlight >}}
 
 ### **Deprecated find replace algorithm returned for compatibility reason**
+
 Related issue: WORDSNET-21018
 The following member has been added to FindReplaceOptions class
 {{< highlight csharp >}}
@@ -158,6 +164,7 @@ The following member has been added to FindReplaceOptions class
 {{< /highlight >}}
 
 ### **VbaReferenceCollection and related types are exposed publicly**
+
 Related issue: WORDSNET-13678
 
 Implemented a new VbaReferenceCollection class:

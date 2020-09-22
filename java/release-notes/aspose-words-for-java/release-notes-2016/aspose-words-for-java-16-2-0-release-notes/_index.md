@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-16-2-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 16.2.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.2.0/)
 
 {{% /alert %}} 
+
 ### **Major Features**
+
 There are 103 improvements and fixes in this regular monthly release. The most notable are:
 
 - SVM format supported

@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-17-11-release-notes/
 This page contains release notes for [Aspose.Words for Java 17.11](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.11/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 106 improvements and fixes in this regular monthly release. The most notable are:
 
 - LINQ Reporting Engine supports dynamic shape background coloring.
@@ -137,13 +139,18 @@ Full List of Issues Covering all Changes in this Release
 |WORDSNET-16024|IFieldMergingCallback.FieldMerging is not called when mail merge field is inside DISPLAYBARCODE field|Regression|
 |WORDSNET-8531|Field.Update method return incorrect value for Page field|Regression|
 |WORDSNET-9149|MailMerge.Execute takes very long time to complete|Regression |
+
 ## **Public API and Backward Incompatible Changes**
 
 
 This section lists public API changes that were introduced in Aspose.Words 17.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Supported Dynamic Shape Fill Color Setting for LINQ Reporting Engine**
+
 The "Setting Text Background Color Dynamically" section of the engine's documentation was renamed to "[Setting Background Color Dynamically](/words/java/setting-background-color-dynamically/)" and updated to describe the change.
+
 ### **Added Word2016 Constant into MsWordVersion Enumeration Type**
+
 Related issue WORDSNET-14771.
 
 The following constant is added into the MsWordVersion enumeration type.
@@ -160,7 +167,9 @@ It can be passed into the CompatibilityOptions.OptimizeFor method to optimize th
 {{< highlight csharp >}}
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 {{< /highlight >}}
+
 ### **To Set File Name and Extension when Inserting Ole Object using MemoryStream**
+
 Related Issue: WORDSNET-15616
 
 The public property OlePackage was added to the OleFormat class to provide ability to set file name, extension and display name for OLE Package.
@@ -197,7 +206,9 @@ olePackage.setFileName("aaa.zip");
 olePackage.setDisplayName("aaa.zip");
 document.save("output.docx");
 {{< /highlight >}}
+
 ### **Changed Behavior of Range.Replace Methods**
+
 Related issue WORDSNET-15624
 
 Behaviour of the following methods of the Range class is changed.
@@ -221,7 +232,9 @@ Now headers/footers of a section are processed in this order:
   - Primary footer
   - Even header
   - Even footer
+
 ### **Remove Obsolete Methods in DigitalSignatureUtil**
+
 Related issue: WORDSNET-15712
 
 Removed obsolete public methods from DigitalSignatureUtil class:
@@ -239,13 +252,17 @@ Instead, the methods with SignOptions class should be used. See following headin
 
 - [Implemented Signing Signature Line in Word Documents](/words/java/aspose-words-for-java-17-8-release-notes/) (17.8 release notes)
 - [Provided API Similar to SignatureSet.AddSignatureLine Method in MS Office](/words/java/aspose-words-for-java-17-10-release-notes/) (17.10 release notes)
+
 ### **Metafile Warnings Improved**
+
 Related issue: WORDSNET-15969
 
 - Added warnings for unsupported binary raster operations. Also added fallback to bitmap rendering in this case on .NET platform.
 - Removed warnings about unsupported metafile records which do not affect the output.
 - Changed type of warnings about unsupported metafile records from DataLoss/UnexpectedContent to more appropriate MinorFormattingLoss.
+
 ### **Get Position of Floating Table in Public API**
+
 Related issue: WORDSNET-15981 
 
 Added new public property for floating tables in Table class:
@@ -300,7 +317,9 @@ for (Table table: (Iterable<Table>) doc.getFirstSection().getBody().getTables())
     }
 }
 {{< /highlight >}}
+
 ### **Added the FieldIf.EvaluateCondition() Method**
+
 Related issue: WORDSNET-15903
 
 Customer wanted to evaluate IF condition after mail merge and was requesting some API for it. Since the ComparisonOperator, LeftExpression and RightExpression properties of FieldIf did not fulfill customer requirements, we have introduced the FieldIf.EvaluateCondition() method that immediately returns the result of expression's evaluation.

@@ -6,6 +6,7 @@ url: /net/more-examples-in-aspose-words/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Insert Picture in Document](https://docs.aspose.com/words/net/insert-picture-in-document/)
 - [Moving the Cursor in NPOI](https://docs.aspose.com/words/net/moving-the-cursor-in-npoi/)
 - [Set Page Borders](https://docs.aspose.com/words/net/set-page-borders/)

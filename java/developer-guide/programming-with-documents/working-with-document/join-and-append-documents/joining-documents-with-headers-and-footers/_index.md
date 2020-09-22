@@ -10,8 +10,11 @@ url: /java/joining-documents-with-headers-and-footers/
 You can download the used template files in below examples from [here](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending).
 
 {{% /alert %}} 
+
 ## **Controlling How Header and Footers Appear**
+
 ### **Continuing Headers and Footers from the Destination Document**
+
 The headers and footers of a document provide an option which allows the current section’s headers and footers to continue on from the previous section. This setting can be seen in Microsoft Word below.
 
 |![todo:image_alt_text](http://i.imgur.com/0mjShsA.png)|
@@ -26,13 +29,17 @@ In some cases if your source document uses different headers in multiple section
 
 |![todo:image_alt_text](http://i.imgur.com/n9k0j9s.png)|
 | :- |
+
 ### **Stopping Headers and Footers from Continuing from the Destination Document**
+
 As described previously a section may be already set to inherit the headers and footers from the previous section. Even a document which has no content in the headers and footers can still have a link to the headers and footers of the previous section. When such a document is appended to another document then the headers and footers from the destination document will carry through to the source document.
 
 To avoid this situation the headers and footers must be unlinked by calling the **HeaderFooterCollection.linkToPrevious** method on the first section of the source document. Passing false to this method will unlink all types of headers and footers from the previous section. It is enough to unlink only the first section as any further linked sections in the source document now will not inherit any headers or footers from the previous section. Below example shows how to append a document to another document so headers and footers do not continue from the destination document.
 
 {{< gist "aspose-words" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-UnlinkHeadersFooters-1.java" >}}
+
 ### **Removing Headers and Footers from the Source Document**
+
 Sometimes documents which are being joined are no longer required to display their headers and footers. Removing them can be easily achieved by calling the Section.ClearHeadersFooters method.
 Below example shows how to remove headers and footers from a document before appending it to another document.
 
@@ -42,8 +49,11 @@ As in the previous examples above the headers and footers are unlinked from the 
 
 |![todo:image_alt_text](http://i.imgur.com/73f1Juv.png)|
 | :- |
+
 ## **Controlling How Page Numbering is Handled**
+
 ### **Restarting Page Numbering**
+
 By default combined documents which contain page numbering fields will automatically have the page numbering continued throughout the joined document. For instance, the sample documents when joined together will have continuous page numbering. The page number fields (PAGENUM) will display {1-4} across the pages and total page fields (NUMPAGES) will display {4} . A section contains the option to restart page numbering. In Microsoft Word this can be specified in the Page Numbering options.
 
 |![todo:image_alt_text](http://i.imgur.com/NbtxSTZ.png)|
@@ -57,7 +67,9 @@ The output shows the page numbering has been restarted where the source document
 
 |![todo:image_alt_text](http://i.imgur.com/ob8P9Gd.png)|
 | :- |
+
 ### **Retaining Multiple Page Numbering Schemes when using the NUMPAGES Field**
+
 Often when documents containing NUMPAGES fields are appended the desired behavior is for that field type to continue to display the total page count only for only those newly appended pages, just like how they appeared in the original document. However the actual behavior is the opposite and the NUMPAGES field will instead by design display the total number of pages across the entire document.
 
 In this context we will refer to each appended document with the page numbering in the first section restarted as a “subdocument”. Since each subdocument has its numbering restarted and therefore its own page numbering scheme, it should have the total pages field numbering reflecting this by only having pages belonging to the sub document being counted by this field.

@@ -6,6 +6,7 @@ url: /java/create-new-document/
 ---
 
 ## **Aspose.Words - Create New Document**
+
 Call the Document constructor without parameters to create a new blank document.
 
 If you want to generate a document programmatically, the most reasonable step after creation is to use **DocumentBuilder** to add document contents.
@@ -26,7 +27,9 @@ builder.writeln("Aspose Sample Content for Word file.");
 // Aspose.Words supports saving any document in many more formats.
 doc.save("Aspose_NewDoc.docx",SaveFormat.DOCX);
 {{< /highlight >}}
+
 ## **docx4j - Create New Document**
+
 Creates a WordprocessingML document from scratch and show several different ways of adding basic content.
 
 **Java**
@@ -113,10 +116,14 @@ if (save) {
 	System.out.println("Saved " + filename);
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/createnewdoc/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/createnewdoc)
 

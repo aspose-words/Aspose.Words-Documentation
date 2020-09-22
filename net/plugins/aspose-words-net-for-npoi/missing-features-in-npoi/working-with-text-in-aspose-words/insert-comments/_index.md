@@ -6,6 +6,7 @@ url: /net/insert-comments/
 ---
 
 ## **Aspose.Words - Insert Comments**
+
 Comments of the document are represented by the Comment class.
 
 **C#**
@@ -20,7 +21,9 @@ comment.Paragraphs.Add(new Paragraph(doc));
 comment.FirstParagraph.Runs.Add(new Run(doc, "Comment text."));
 doc.Save("insertedComments.doc");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Insert Comments** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475288)

@@ -6,6 +6,7 @@ url: /java/installing-and-using-aspose-words-for-netbeans-maven/
 ---
 
 ## **Installing**
+
 **Aspose.Words Java for NetBeans (Maven)** plugin can be easily installed from the Available **Plugin** tab in the Plugin dialog.
 
 - To open it, select **Plugins** from the **Tools** menu in NetBeans. 
@@ -15,8 +16,11 @@ url: /java/installing-and-using-aspose-words-for-netbeans-maven/
 - This adds the **Aspose.Words Maven Project** in New Project wizard and **Aspose.Words Code Example** in New File wizard of NetBeans IDE. 
 
 ![todo:image_alt_text](http://i.imgur.com/P8ZRsD8.jpg)
+
 ## **Using**
+
 ### **Aspose.Words Maven Project (wizard)**
+
 To create **Maven Project** by wizard for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx):
 
 1. Select **New Project**.
@@ -30,7 +34,9 @@ To create **Maven Project** by wizard for using [Aspose.Words for Java API](htt
 ![todo:image_alt_text](http://i.imgur.com/2rQWgDT.jpg)
 1. The created **Maven Project** is configured to use **Aspose.Words for Java API** and ready to be enhanced as per your Project requirements.<br>
    If you have opted to download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples), you can use **Aspose.Words Code Example (wizard)** for importing needed **Code Examples** of [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API into your project.
+
 ### **Aspose.Words Code Example (wizard)**
+
 **Aspose.Words Code Example wizard** allows you to try out many samples provided for [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API.
 
 {{% alert color="primary" %}} 

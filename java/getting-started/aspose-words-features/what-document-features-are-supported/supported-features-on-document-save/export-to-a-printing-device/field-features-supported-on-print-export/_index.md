@@ -16,7 +16,9 @@ Fields with custom field codes (a field code modified to represent something dif
 When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of page layout.
 
 {{% /alert %}} 
+
 ##### **Field Codes**
+
 See the following link in the documentation for further information:
 
 - [Document.UpdateFields](https://apireference.aspose.com/words/java/com.aspose.words/document#updateFields()).
@@ -48,6 +50,7 @@ See the following link in the documentation for further information:
 |Print |N/A | | |
 
 ##### **Document Information**
+
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -77,6 +80,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Symbol |Yes | | |
 
 ##### **Form Fields**
+
 Form fields currently do not appear in rendered output.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

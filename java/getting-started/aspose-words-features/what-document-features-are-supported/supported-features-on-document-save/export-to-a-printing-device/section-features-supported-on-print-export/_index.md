@@ -12,7 +12,9 @@ url: /java/section-features-supported-on-print-export/
 |Different First Page |Yes | | |
 |Different Even and Odd Pages |Yes | | |
 |Continue from Previous Section |Yes | | |
+
 ##### **Section Break Type**
+
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
@@ -25,22 +27,26 @@ See the following links in the documentation for further information:
 |Odd Page |Yes | | |
 |Next Column |Yes | | |
 |Next Page |Yes | | |
+
 ##### **Text Columns**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Columns |Yes | | |
+
 ##### **Page Margins**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Page Margins |Yes | | |
+
 ##### **Page Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Number Format |Yes | | |
 |Starting Number |Yes | | |
+
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -54,12 +60,15 @@ See the following links in the documentation for further information:
 |Text Direction |Yes | | |
 |Vertical Alignment |Yes | | |
 |Asian Document Grid |Planned | | |
+
 ##### **Chapter Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Chapter Numbering |Yes | | |
+
 ##### **Page Border**
+
 See the following link in the documentation for further information:
 
 - **SvgSaveOptions.ShowPageBorder**

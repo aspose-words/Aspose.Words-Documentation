@@ -10,7 +10,9 @@ url: /java/linq-reporting-engine-api/
 The main class of the LINQ Reporting Engine is ReportingEngine. All the functionality required to build a report from a template is assembled within the class.
 
 {{% /alert %}} 
+
 ## **Building Reports**
+
 To build a report from a template, you can use one of the ReportingEngine.buildReport overloads. The following table describes parameters of these overloads.
 
 |**Parameter**|**Description**|
@@ -43,6 +45,7 @@ Given a visible Person class defined in your application and a template to be po
 {{< /highlight >}}
 
 ## **Accessing XML Data**
+
 To access XML data while building a report, you can use facilities of DataSet to read XML into it and then pass it to the engine as a data source. However, if your scenario does not permit to specify XML schema while loading XML into DataSet, all attributes and text values of XML elements are loaded as strings then. Thus, it becomes impossible, for example, to use arithmetic operations on numbers or to specify custom date-time and numeric formats to output corresponding values, because all of them are treated as strings.
 
 To overcome this limitation, you can pass an XmlDataSource instance to the engine as a data source instead. Even when XML schema is not provided, XmlDataSource is capable to recognize values of the following types by their string representations:
@@ -256,6 +259,7 @@ Result document
 {{< /highlight >}}
 
 ## **Accessing JSON Data**
+
 To access JSON data while building a report, you can pass a JsonDataSource instance to the engine as a data source.
 
 Using of JsonDataSource enables you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:
@@ -562,6 +566,7 @@ In some scenarios, you may need to disable recognition of date-time values at al
 
 
 ## **Accessing CSV Data**
+
 To access CSV data while building a report, you can pass a CsvDataSource instance to the engine as a data source.
 
 Using of CsvDataSource enables you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, CsvDataSource is capable to recognize values of the following types by their string representations:
@@ -655,6 +660,7 @@ Also, you can use CsvDataLoadOptions to customize the following characters playi
 - Quotation mark enabling to use other special characters within a value (the default is double quotes)
 
 ## **Setting up Known External Types**
+
 LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the ReportingEngine.getKnownTypes() property. The property represents an unordered set (that is, a collection of unique items) of [Class](http://docs.oracle.com/javase/7/docs/api/java/lang/Class.html) objects. Every type in the set must meet requirements declared at “Working with Types”.
 
 **Note –** Object, String, and primitive types are known by the engine by default.
@@ -667,6 +673,7 @@ Consider the following example. Given an ImageUtil class declared at your applic
 {{< /highlight >}}
 
 ## **Removing Paragraphs Containing Only Template Syntax Tags**
+
 While building a report, some paragraphs containing only template syntax tags can become empty after the tags are removed or replaced with empty values. To remove such paragraphs from the report, you can apply the ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS option as shown in the following example.
 {{< highlight java >}}
     ReportingEngine engine = new ReportingEngine();
@@ -758,6 +765,7 @@ Suffix
 {{< /highlight >}}
 
 ## **Accessing Missing Members of Data Objects**
+
 By default, LINQ Reporting Engine forbids access to missing members of data objects used to build a report in template expressions, since such access is forbidden by [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029). On attempt to use a missing member of a data object, the engine throws an exception then.
 
 But in some scenarios, members of data objects are not exactly known while designing a template. For example, if using a DataSet instance loaded from XML without its schema defined, some of expected data members can be missing.
@@ -776,6 +784,7 @@ Consider the following example. Given that r is a DataRow instance that does not
 However, if ReportBuildOptions.ALLOW_MISSING_MEMBERS is applied, the engine treats access to such a field as a null literal, so no exception is thrown and simply no value is written to the report then.
 
 ## **Inlining Syntax Error Messages into Templates**
+
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
 However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the ReportBuildOptions.INLINE_ERROR_MESSAGES option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
@@ -811,6 +820,7 @@ When ReportBuildOptions.INLINE_ERROR_MESSAGES is applied, a Boolean value return
 **Note –** When ReportBuildOptions.INLINE_ERROR_MESSAGES is not applied, ReportingEngine.buildReport overloads return true if there were no template syntax errors encountered or throw an exception otherwise.
 
 ## **Optimizing Reflection Calls**
+
 LINQ Reporting Engine uses reflection calls while accessing members of custom external types. However, reflection calls are much slower than direct calls, which creates a performance overhead.
 
 That is why, the engine provides a strategy minimizing the reflection usage. The strategy is based upon the runtime type generation. That is, the engine generates a proxy type per an external type. The proxy directly calls members of the corresponding external type, the engine to access these members in a uniform way with no reflection involved. The proxy is [lazily initialized](http://en.wikipedia.org/wiki/Lazy_initialization) and reused in further. Thus, the reflection is used only while building the proxy.

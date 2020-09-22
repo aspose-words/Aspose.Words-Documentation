@@ -25,6 +25,8 @@ default_template_option
 **Note -** A conditional expression must return a Boolean value.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Working with Common Conditional Blocks](/words/java/working-with-common-conditional-blocks/)
 - [Working with Table-Row Conditional Blocks](/words/java/working-with-table-row-conditional-blocks/)

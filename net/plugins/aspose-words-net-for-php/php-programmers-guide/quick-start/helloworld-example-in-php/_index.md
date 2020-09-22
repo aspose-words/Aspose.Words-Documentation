@@ -6,6 +6,7 @@ url: /net/helloworld-example-in-php/
 ---
 
 ## **Aspose.Words - HelloWorld Example**
+
 Hello World Example
 
 **PHP Code**
@@ -18,7 +19,9 @@ Hello World Example
         $builder->Write("Hello world!");
         $doc->Save($dataDir . "/HelloWorld Out.docx");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **HelloWorld Example (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Plugins/Aspose_Words_NET_for_PHP/src/aspose/words/quickstart/HelloWorld.php)

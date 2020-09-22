@@ -6,6 +6,7 @@ url: /java/joining-and-appending-in-php/
 ---
 
 ## **Aspose.Words - Joining And Appending**
+
 For joining and appending using Aspose.Words Java Apis in php, simply use appendDocument method.
 
 **Php Code**

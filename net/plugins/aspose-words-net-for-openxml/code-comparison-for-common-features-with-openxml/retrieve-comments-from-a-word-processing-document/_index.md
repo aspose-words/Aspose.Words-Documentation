@@ -6,6 +6,7 @@ url: /net/retrieve-comments-from-a-word-processing-document/
 ---
 
 ### **OpenXML SDK**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string fileName = FilePath + "Retrieve comments.docx";
@@ -27,7 +28,9 @@ public static void GetCommentsFromDocument(string fileName)
     }
 }
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string fileName = FilePath + "Retrieve comments.docx";  
@@ -51,7 +54,9 @@ public static void ExtractComments(Document doc)
     }
 }
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

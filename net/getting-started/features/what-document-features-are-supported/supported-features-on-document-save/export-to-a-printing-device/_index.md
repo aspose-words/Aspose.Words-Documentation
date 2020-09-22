@@ -10,7 +10,9 @@ url: /net/export-to-a-printing-device/
 The following tables provide implementation details about how Aspose.Words prints a document to a printer.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on Print Export](/words/net/annotation-features-supported-on-print-export/)
 - [Custom Markup Features Supported on Print Export](/words/net/custom-markup-features-supported-on-print-export/)
 - [Document Features Supported on Print Export](/words/net/document-features-supported-on-print-export/)

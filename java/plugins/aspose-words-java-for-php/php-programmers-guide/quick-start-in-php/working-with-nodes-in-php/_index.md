@@ -6,6 +6,7 @@ url: /java/working-with-nodes-in-php/
 ---
 
 ## **Aspose.Words - Working With Nodes**
+
 To get Node Type using Aspose.Words Java Apis in Php, simply invoke getNodeType method.
 
 **Php Code**

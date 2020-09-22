@@ -23,7 +23,9 @@ For Each Table In ActiveDocument.Tables
 This code enumerates through each table in the document and sets the width sizing behavior of each table so it fits to the entire of the page width.
 
 To achieve this task using Aspose.Words the [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table) and [PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth) members are used. The code is quite similar with the only main difference being that as a document is represented in Aspose.Words using nodes in a hierarchical structure, the **GetChildNodes** method is used to retrieve all tables in the document.
+
 ##### **Example**
+
 *Demonstrates how to set the table width of all tables in the document to the page width.*
 
 **C#**

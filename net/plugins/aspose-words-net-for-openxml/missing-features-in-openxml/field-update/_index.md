@@ -14,7 +14,9 @@ Aspose.Words is a class library designed for server-side processing of Microsoft
 
 - All fields in a document are preserved during open/save and conversions.
 - It is possible to update results of some of the most popular fields.
+
 ## **Fields Supported during Update**
+
 Calculation of the following fields is supported in the current version of Aspose.Words:
 
 - = (formula field)
@@ -57,7 +59,9 @@ Document doc = new Document(FileName);
 doc.UpdateFields();
 doc.Save(FileName);
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/Missing-Features-in-6a2c882b)

@@ -10,7 +10,9 @@ url: /net/public-api-changes-in-aspose-words-14-3-0/
 These page list public API changes that were introduced in Aspose.Words 14.3.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **Best Fit Position of Data Labels Partially Supported**
+
 Starting from 14.3.0, Best Fit position of data labels in Pie chart is partially supported. In previous versions labels with best fit position were rendered as if they have inside end position. Currently we use a little modified Open Office algorithm to set best fit position of data labels. The algorithm is as follows:
 
 1. Data label is rendered inside the corresponding slice of pie chart.
@@ -40,13 +42,17 @@ Here are few examples:
 \2. Best fit position of data labels of 3D Pie chart:
 
 ![todo:image_alt_text](/download/thumbnails/2589002/523207127)
+
 ### **EUDC Fonts Partial Support Added**
+
 Aspose.Words' rendering engine now partially supports EUDC (End-User-Defined-Characters) fonts. Please find below the description of how EUDC fonts works on Windows (Microsoft Word also seems to follow this logic in general):
 
 [End-User-Defined and Private Use Area Characters](http://msdn.microsoft.com/en-us/library/windows/desktop/dd317802\(v=vs.85\).aspx)
 
 In first implementation, Aspose.Words currently uses a single EUDC font. During rendering document to fixed-page formats, this font is searched among the specified font sources by "EUDC" family name.
+
 ### **DocumentBuilder.InsertOleObject Method Added to the Public API**
+
 Aspose.Words now supports insertion of embedded OLE objects such as another Word document or an Excel chart. Following two methods are added to DocumentBuilder class:
 
 **Overload 1**

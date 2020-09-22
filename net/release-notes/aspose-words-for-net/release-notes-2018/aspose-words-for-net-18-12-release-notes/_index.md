@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-18-12-release-notes/
 This page contains release notes for [Aspose.Words for .NET 18.12](https://www.nuget.org/packages/Aspose.Words/18.12.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 96 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented WMF fonts scaling, according to metafile size on the page, and public option to control it (MetafileRenderingOptions.ScaleWmfFontsToMetafileSize).
@@ -31,6 +33,7 @@ There are 96 improvements and fixes in this regular monthly release. The most no
 - Fixed exception in rare case when field update causes line to contain only zero length spans.
 - Fixed exception in rare case when floating object is pushed beyond empty column.
 - Fixed layout when tables merge over the hidden paragraph.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -131,9 +134,13 @@ There are 96 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17304|Investigation - slow save to PDF after mail merge|Performance|
 |WORDSNET-17650|Some symbols turn into rectangles in PDF|Regression|
 |WORDSNET-10756|Image and table misalignment during rendering/printing|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 18.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **hideMark Handling Changed to Match MS Word 2016 Behavior When Converting to Fixed-Page Formats**
+
 WORDSNET-17619 has been resolved.
 
 A customer complained about differences between Aspose.Words pdf output and MS Word layout.
@@ -154,7 +161,9 @@ Because of different hideMark handling, the cell height is different for a numbe
 As the current policy is to emulate MS Word 2016 behavior, the changes will essentially roll back some special handling of the above cases when calculating table cell height in presence of hideMark.
 
 The changes may be perceived as a breakage by customers still using MS Word versions before MS Word 2016.
+
 ### **MS Word 2016 Behavior Imitated for Some Special Cases with Continuous and "new column" Section Breaks**
+
 .WORDSNET-17760 has been resolved.
 
 Aspose.Words behavior was changed to match MS Word 2016 for some situations with continuous and "new column" section breaks. The changes affect conversion to fixed-page formats. The behavior changed for computing page numbers and for providing of an empty facing page when adjacent pages have the same oddity.
@@ -167,6 +176,7 @@ An example of different behavior is below. 
 
 
 ### **Added WMF Fonts Scaling According to Metafile Size on the Page and Public Option to Control it**
+
 New public property was added to MetafileRenderingOptions class:
 
 {{< highlight csharp >}}
@@ -190,7 +200,9 @@ public bool ScaleWmfFontsToMetafileSize
     set;
 }
 {{< /highlight >}}
+
 ### **Removed Obsolete Public API Method 'SetAsDefault' from LoadOptions.LanguagePreferences**
+
 WORDSNET-17294 has been resolved.
 
 Removed obsolete public API method 'SetAsDefault' from LoadOptions.LanguagePreferences:
@@ -203,11 +215,15 @@ public void SetAsDefault(EditingLanguage language)
 {{< /highlight >}}
 
 Please use *LanguagePreferences.DefaultEditingLanguage* property instead: [https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+18.6+Release+Notes](/words/net/aspose-words-for-net-18-6-release-notes/)
+
 ### **Added a Public Property HtmlSaveOptions.ResolveFontNames**
+
 WORDSNET-17577 has been resolved.
 
 A new option HtmlSaveOptions.ResolveFontNames has been added that affects writing of font names to HTML-based formats. By default this option is set to false and, as before, Aspose.Words writes font names as specified in the source document, ignoring Document.FontSettings. If this option is set to true, Aspose.Words resolves all font names before writing them to HTML. That is, it checks availability of each font using Document.FontSettings and substitutes unavailable fonts if needed.
+
 ### **Obsolete Property AllowTrailingWhitespaceForListItems was Removed from LoadOptions Class**
+
 Obsolete property AllowTrailingWhitespaceForListItems was removed from LoadOptions class.
 
 Please, use TxtLoadOptions.DetectNumberingWithWhitespaces instead.

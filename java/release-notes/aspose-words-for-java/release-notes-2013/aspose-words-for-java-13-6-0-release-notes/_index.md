@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-13-6-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 13.6.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-13.6.0/)
 
 {{% /alert %}} 
+
 ## **What's New**
+
 There are 142 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved algorithm of content width calculation inside table cells.
@@ -23,6 +25,7 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 - PDF form fields rendering improvements.
 
 For a list of changes to the public API in this release refer to the following article in the documentation. 
+
 ## **All Fixes**
 
 |**Key** |**Summary** |**Category** |

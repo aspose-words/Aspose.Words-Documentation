@@ -10,7 +10,9 @@ url: /net/public-api-changes-in-aspose-words-15-3-0/
 These page list public API changes that were introduced in Aspose.Words 15.3.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **DocumentBase.WarningCallback Property Added**
+
 The Document can raise warnings at an any stage of its life cycle. So, to be able to receive all the warnings, a new property was added into DocumentBase class.
 
 **C#**
@@ -20,7 +22,9 @@ public IWarningCallback WarningCallback
 {{< /highlight >}}
 
 At the same time SaveOptions.WarningCallback is now obsolete and its usage in new code should be avoided.
+
 ### **OpaqueBoundsInPoints Property and GetOpaqueRectangleInPixels Method Added to ShapeRenderer Class**
+
 New property OpaqueBoundsInPoints and method GetOpaqueRectangleInPixels have been added to ShapeRenderer class. They allow to get opaque bounds of the shape in points. Before this option was introduced it had been needed to work with raw pixel data to get this bound. This is how it works now:
 
 **C#**
@@ -100,7 +104,9 @@ public static void RenderNode(Node node, string filePath, ImageSaveOptions image
     }
 }
 {{< /highlight >}}
+
 ### **Public Barcode Generation API Introduced**
+
 The DISPLAYBARCODE field is now supported. We have introduced following entities in Aspose.Words API:
 
 - Added the **IBarcodeGenerator** interface
@@ -109,7 +115,9 @@ The DISPLAYBARCODE field is now supported. We have introduced following entities
 
 The usage example can be found in following link:
 [How to Generate a Custom BarCode Image for DISPLAYBARCODE Field](https://docs.aspose.com/words/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/)
+
 ### **InsertDocument Method Added to DocumentBuilder Class**
+
 The following new method inserts content of the document into the current position of DocumentBuilder's cursor.
 
 **C#**

@@ -10,7 +10,9 @@ url: /java/public-api-changes-in-aspose-words-15-11-0/
 This page lists public API changes that were introduced in Aspose.Words 15.11.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **Added public methods CreatePictureBullet(), DeletePictureBullet() and public property ImageData in ListLevel.**
+
 Using ListLevel.ImageData you are getting access to all available ImageData options. Please see the following code example to find out how to work with picture bullets.
 
 **Java**
@@ -74,7 +76,9 @@ listLevel0.deletePictureBullet();
 // Save output.
 doc.save("out_Without_PictureBullet.docx");
 {{< /highlight >}}
+
 ### **Added public overload DocumentBuilder.InsertCheckBox, public property FormField.Default**
+
 WORDSNET-11871 is now resolved. The following overload method of InsertCheckBox has been added to the DocumentBuilder class:
 
 **Java**
@@ -117,7 +121,9 @@ Applicable for a check box form field only.
 */
 public boolean Default
 {{< /highlight >}}
+
 ### **Bookmarks with white-spaces are allowed in PDF, XPS and SWF**
+
 WORDSNET-12531 is now resolved. In the previous versions of Aspose.Words it was not allowed to use bookmarks with white spaces in all document formats. All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC cannot have white spaces. However, PDF allows such bookmarks.
 
 So now, if you need to use bookmarks in PDF, XPS or SWF outlines, you can use them with white spaces.
@@ -152,7 +158,9 @@ for (Bookmark bookmark : doc.getRange().getBookmarks())
 {{< /highlight >}}
 
 Note: behavior for all other formats was not changed. White spaces in bookmarks are replaced with underscores upon saving to all flow formats.
+
 ### **Document-wide defaults are exposed public.**
+
 WORDSNET-4079 is now resolved. We have added new public properties DefaultParagraphFormat and DefaultFont to StyleCollection class:
 
 **Java**
@@ -185,7 +193,9 @@ doc.getStyles().getDefaultParagraphFormat().setSpaceAfter(20);
 Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats only. Earlier document formats have limited support for default text formatting (only font names can be stored) and have no support for default paragraph formatting (default paragraph formatting is copied to all top level styles when it is not supported in target document format).
 
 {{% /alert %}}
+
 ### **OutlineOptions.CreateMissingOutlineLevels now works for bookmarks too**
+
 In the previous versions of Aspose.Words with this option enabled missing outline levels was created only for headings. Now missing outline levels are created both for headings and bookmarks.
 
 **Java**
@@ -198,7 +208,9 @@ Default value for this property is <b>false</b>
 */
 public bool createMissingOutlineLevels { get; set; }
 {{< /highlight >}}
+
 ### **New public property UpdateFields has been added to SaveOptions**
+
 We have added new public property UpdateFields to SaveOptions class:
 
 **Java**
@@ -210,7 +222,9 @@ Default value for this property is <b>true</b>
 */
 public bool UpdateFields {get;set;}
 {{< /highlight >}}
+
 ### **ReportBuildOptions.AllowMissingDataFields is renamed to ReportBuildOptions.AllowMissingMembers**
+
 ReportBuildOptions.AllowMissingDataFields affected only fields of DataRow and IDataRecord instances. The option was introduced per WORDSNET-12380 for a single customer. Then, the customer returned complaining that he also needs master-detail relationships and extension methods to be affected. Thus, the option's purpose had to be changed. That is why, the option was renamed.
 
 **Java**

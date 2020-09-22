@@ -12,7 +12,9 @@ Change Margins option allows to decrease/increase page margins in the exported r
 Usage: CHANGE_MARGINS=“L; R; T; B”, where L is left, R is right, T is top, B is bottom margins. Positive values will increase, and negative values will decrease the corresponding margin. The units are the same as for the PAGE_MARGINS option. It is most convenient to specify values in points (pt), as Word is using those units. If the value is not specified (empty) - the corresponding margin is not changed. Valid values are in the range (-36pt ... +36pt).
 
 {{% /alert %}} 
+
 #### **JasperReports**
+
 **Java**
 
 {{< highlight csharp >}}
@@ -23,7 +25,9 @@ AWDocExporter exporter = new AWDocExporter();
 exporter.setParameter(AWExporterParameter.CHANGE_MARGINS, ";;;-24pt");
 exporter.exportReport(); 
 {{< /highlight >}}
+
 #### **JasperServer**
+
 **XML**
 
 {{< highlight csharp >}}

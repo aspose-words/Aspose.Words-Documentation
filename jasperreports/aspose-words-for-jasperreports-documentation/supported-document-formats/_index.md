@@ -6,6 +6,7 @@ url: /jasperreports/supported-document-formats/
 ---
 
 ## **Supported Output Formats**
+
 The following table indicates the file formats in which the JasperReports can be saved by using Aspose.Words for JasperReports.
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|

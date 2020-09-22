@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-20-9-release-notes/
 This page contains release notes for [Aspose.Words for Java 20.9](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.9).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 86 improvements and fixes in this regular monthly release. The most notable are:
 
 - Culture/Locale tables are synchronized with Windows/.NET now. So, now we can read/write Windows-generated documents with "strange" Cultures: Pseudo, Invariant, de-De with Phone sort, Chinese with Bopomofo sort, etc.
@@ -18,6 +20,7 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 - Implemented support of footnotes upon loading PDF documents.
 - Implemented rendering of metafiles with EMF+ containers.
 - The FormField font formatting API was extended.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -109,8 +112,11 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-4066	|Incorrect floating table position | Bug |
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
+
 ### **Changed the behavior of the FormField.Font property**
+
 Related issue: WORDSNET-522
 Changed the behavior of the 'FormField.Font' property.
 It is currently allowed to apply font formatting to the FormField as a whole.
@@ -125,6 +131,7 @@ doc.Save("out.doc");
 {{< /highlight >}}
 
 ### **Deprecated find replace algorithm returned for compatibility reason**
+
 Related issue: WORDSNET-21018
 Following member has been added to FindReplaceOptions class
 {{< highlight csharp >}}
@@ -139,6 +146,7 @@ public bool LegacyMode { get; set; }
 {{< /highlight >}}
 
 ### **VbaReferenceCollection and related types are exposed publicly**
+
 Related issue: WORDSNET-13678
 
 Implemented a new VbaReferenceCollection class:

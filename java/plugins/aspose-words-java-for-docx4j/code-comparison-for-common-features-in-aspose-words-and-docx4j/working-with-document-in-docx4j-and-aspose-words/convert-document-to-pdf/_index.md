@@ -6,6 +6,7 @@ url: /java/convert-document-to-pdf/
 ---
 
 ## **Aspose.Words - Convert Document to PDF**
+
 To convert a document to PDF simply invoke the Document.save() method and specify a file name with the .pdf extension.
 
 **Java**
@@ -19,7 +20,9 @@ doc.save(dataDir + "html/Aspose_DocToHTML.html",SaveFormat.HTML); //Save the doc
 doc.save(dataDir + "Aspose_DocToTxt.txt",SaveFormat.TEXT); //Save the document in TXT format.
 doc.save(dataDir + "Aspose_DocToJPG.jpg",SaveFormat.JPEG); //Save the document in JPEG format.
 {{< /highlight >}}
+
 ## **Docx4j - Convert Document to PDF**
+
 The following code example shows how documents can be converted to PDF format using docx4j library.
 
 **Java**
@@ -135,10 +138,14 @@ public static void main(String[] args)
 	wordMLPackage = null;
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/converttopdf/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/converttopdf)
 

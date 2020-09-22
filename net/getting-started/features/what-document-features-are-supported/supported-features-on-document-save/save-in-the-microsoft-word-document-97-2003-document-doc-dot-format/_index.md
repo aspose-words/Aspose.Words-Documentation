@@ -10,7 +10,9 @@ url: /net/save-in-the-microsoft-word-document-97-2003-document-doc-dot-format/
 The following tables provide implementation details about how Aspose.Words saves a document in the DOC, DOT formats.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on DOC Export](/words/net/annotation-features-supported-on-doc-export)
 - [Custom Markup Features Supported on DOC Export](/words/net/custom-markup-features-supported-on-doc-export)
 - [Document Features Supported on DOC Export](/words/net/document-features-supported-on-doc-export)

@@ -10,7 +10,9 @@ url: /net/public-api-changes-in-aspose-words-15-5-0/
 These page list public API changes that were introduced in Aspose.Words 15.5.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **PageSetup.TextOrientation Public Property Added**
+
 We have added new public property TextOrientation to PageSetup class:
 
 **C#**
@@ -24,7 +26,9 @@ public TextOrientation TextOrientation
 {{< /highlight >}}
 
 It allows to specify TextOrientation for the whole page. Default value is Horizontal. This property is only supported for MS Word native formats such as DOCX, WML, RTF and DOC.
+
 ### **SaveOptions.ColorMode Public Property Added**
+
 We have added new public property ColorMode to SaveOptions class. While rendering to fixed page formats such as PDF, XPS and images, the documents can be rendered in two color modes now
 
 - ColorMode.Normal - an ordinary way with unmodified colors and
@@ -54,7 +58,9 @@ PdfSaveOptions options = new PdfSaveOptions();
 options.ColorMode = ColorMode.Grayscale;
 doc.Save(MyDir + "out.pdf", options);
 {{< /highlight >}}
+
 ### **Conditional Blocks for LINQ Reporting Engine Supported**
+
 The new functionality of conditional blocks is described in the following sections of the documentation:
 
 - [Using Conditional Blocks](/words/net/template-syntax/#templatesyntax-usingconditionalblocks)

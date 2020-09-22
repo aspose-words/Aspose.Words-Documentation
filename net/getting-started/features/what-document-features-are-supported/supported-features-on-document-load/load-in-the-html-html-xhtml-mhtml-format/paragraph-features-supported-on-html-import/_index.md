@@ -29,7 +29,9 @@ See the following links in the documentation for further information:
 - [LoadOptions.ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/resourceloadingcallback)
 
 {{% /alert %}} 
+
 ## **General Formatting**
+
 Paragraph style and formatting can be imported from HTML in the form of tags such as &lt;h1&gt; to &lt;h6&gt; or from &lt;p&gt; tags that have CSS styles. 
 
 &lt;h1&gt; to &lt;h6&gt; tags are imported into the Aspose.Words DOM as the built-in Heading styles: Heading 1 - Heading 6.
@@ -50,6 +52,7 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |Run Properties for the Paragraph Mark |Planned |Can be implemented with Microsoft Office specific techniques. <br><br>During import the formatting from the last span from &lt;p&gt; becomes the font properties for the paragraph. |- **ParagraphFormat.ParagraphBreakFont**|
 |Suppress Line Numbers |Planned | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Planned | |- **ParagraphFormat.SurpressAutoHyphens**|
+
 ## **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -60,6 +63,7 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |Hanging Indent |Yes |Imported from a combination of margin-left and text-indent style attribute. |- **ParagraphFormat.FirstLineIndent**|
 |Mirror Indents |N/A | | |
 |Automatically Adjust Right Indent |N/A | | |
+
 ## **Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -70,6 +74,7 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |Line Spacing |Yes |Imported from "line-height" style attribute. |<p>- [ParagraphFormat.LineSpacing](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacing) </p><p>- [ParagraphFormat.LineSpacingRule](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacingrule)</p>|
 |No Space between Conforming Paragraphs |Planned | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/nospacebetweenparagraphsofsamestyle)|
 |Snap To Grid |Planned | | |
+
 ## **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -78,7 +83,9 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |Keep With Next |Yes |Imported from style attribute with "page-break-after:avoid". |- [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keepwithnext)|
 |Keep Lines Together |Yes |Imported from style attribute with "page-break-inside:avoid". |- [ParagraphFormat.KeepTogether](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keeptogether)|
 |Page Break Before |Yes |Imported from "page-break-before" on style attribute. |- [ParagraphFormat.PageBreakBefore](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/pagebreakbefore)|
+
 ## **Text Frames**
+
 This is the legacy text frames from Word 97, not to be confused with the Autoshape Textbox which is discussed under Drawing Objects.
 
 Text frames are preserved in the model but there is no API or node to modify or access information about frames.
@@ -90,7 +97,9 @@ These are round-tripped back to a document with similar formatting but not as ac
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Frames |Planned | | |
+
 ## **Tab Stops**
+
 All features of tab stops are supported in Aspose.Words except for relative tab stops.
 
 Using Aspose.Words you can find tab stops based off position or index. You can change tab stop features like position, alignment etc or remove tabstops completely.
@@ -109,7 +118,9 @@ See the following link in the documentation for further information:
 |Relative Position |Planned |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. <br><br>This feature might be supported during HTML import if a proper analog can be found. |- [AbsolutePositionTab](https://apireference.aspose.com/words/net/aspose.words/AbsolutePositionTab)|
 |Alignment: Left, Center, Right, Decimal, Bar |Planned | |- [TabStop.Alignment](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/alignment)|
 |Leader |Planned | |- [TabStop.Leader](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/leader)|
+
 ## **Drop Caps**
+
 Drop Caps are partially supported and preserved during document conversion. A drop cap is a text frame which is imported as a separate paragraph (from the rest of the paragraph as seen in the source document).
 
 You can modify drop cap properties and position, however the new settings are not applied to the drop cap. You cannot yet create new drop caps (although you can easily simulate them through the use of a textbox). 
@@ -126,7 +137,9 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
+
 ## **Borders**
+
 Borders are imported from border-style, border-width etc on style or from indivudal borders using border-xxx-style and border-xxx-width etc style attributes.
 
 A div with embedded or linked CSS containing a border style has all of the paragraphs and spans inside the div imported with full borders. This will be improved in a future version.
@@ -140,7 +153,9 @@ A div with embedded or linked CSS containing a border style has all of the parag
 |Color |Yes | |- [Border.Color](https://apireference.aspose.com/words/net/aspose.words/border/properties/color)|
 |Width |Yes | |- [Border.LineWidth](https://apireference.aspose.com/words/net/aspose.words/border/properties/linewidth)|
 |Distance from Text |Yes |Imported from "padding-xxx" settings. |- [Border.DistanceFromText](https://apireference.aspose.com/words/net/aspose.words/border/properties/distancefromtext)|
+
 ## **Shading**
+
 Fill color imported from "background-color" on style attribute.
 
 Currently cell background is imported as paragraph shading. This will be improved in a future version of Aspose.Words.
@@ -152,7 +167,9 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
+
 ## **Asian Typography**
+
 Asian Typography settings is fully supported during conversion. However there is currently no API to access or modify these settings.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

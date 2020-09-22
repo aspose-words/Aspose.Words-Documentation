@@ -6,6 +6,7 @@ url: /java/update-fields-in-python/
 ---
 
 ## **Aspose.Words - Update Fields**
+
 To update fields of Word Document using Aspose.Words Java Apis in Python, simply invoke updateFields of Document object.
 
 **Python Code**
@@ -25,7 +26,9 @@ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE)
 \# Call the method below to update the TOC.
 doc.updateFields()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Update Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Python/tests/quickstart/updatefields/UpdateFields.py)

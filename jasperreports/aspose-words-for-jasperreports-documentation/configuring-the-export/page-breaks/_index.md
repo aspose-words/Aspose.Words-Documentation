@@ -16,9 +16,13 @@ Aspose.Words for JasperReports supports three ways page breaks are inserted betw
 The "section breaks" mode is chosen as default because there may be headers and footers in the document that contain different data. Microsoft Word requires different headers and footers to be placed in different sections. 
 
 {{% /alert %}} 
+
 ### **Normal Page Breaks**
+
 You can change the page breaks inserted to regular (not section) breaks by using the following parameter: 
+
 #### **JasperReports**
+
 **Java**
 
 {{< highlight csharp >}}
@@ -27,7 +31,9 @@ You can change the page breaks inserted to regular (not section) breaks by using
    exporter.setParameter(AWExporterParameter.PAGE_BREAKS, AWExporterParameter.PAGE_BREAKS_NORMAL);
    exporter.exportReport();
 {{< /highlight >}}
+
 #### **JasperServer**
+
 **XML**
 
 {{< highlight csharp >}}
@@ -35,9 +41,13 @@ You can change the page breaks inserted to regular (not section) breaks by using
     <property name="pageBreaks" value="0"/>
 </bean>
 {{< /highlight >}}
+
 ### **No Page Breaks**
+
 You can instruct the exporter to avoid any use of page breaks (so that the report contents are simply exported continuously) by using the following parameter:
+
 #### **JasperReports**
+
 **Java**
 
 {{< highlight csharp >}}
@@ -46,7 +56,9 @@ You can instruct the exporter to avoid any use of page breaks (so that the repor
    exporter.setParameter(AWExporterParameter.PAGE_BREAKS, AWExporterParameter.PAGE_BREAKS_NONE);
    exporter.exportReport();
 {{< /highlight >}}
+
 #### **JasperServer**
+
 **XML**
 
 {{< highlight csharp >}}

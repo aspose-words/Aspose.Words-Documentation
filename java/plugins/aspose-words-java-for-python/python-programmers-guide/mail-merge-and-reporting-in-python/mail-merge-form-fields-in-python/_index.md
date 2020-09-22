@@ -6,10 +6,13 @@ url: /java/mail-merge-form-fields-in-python/
 ---
 
 ## **Aspose.Words - Mail Merge Form Fields**
+
 **Python Code**
 
 {{< highlight csharp >}}
+
 ## Load the template document.
+
 doc = self.Document(self.dataDir + "Template.doc")
 \# Setup mail merge event handler to do the custom work.
 c = HandleMergeField()
@@ -25,7 +28,9 @@ doc.getMailMerge().execute(fieldNames, fieldValues)
 \# Save the finished document.
 doc.save(self.dataDir + "Template Out.doc")
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Mail Merge Form Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Python/tests/mailmergeandreporting/mailmergeformfields/MailMergeFormFields.py)

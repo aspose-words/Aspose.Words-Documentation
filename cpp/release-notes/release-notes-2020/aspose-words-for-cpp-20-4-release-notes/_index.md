@@ -10,7 +10,9 @@ url: /cpp/aspose-words-for-cpp-20-4-release-notes/
 This page contains release notes for [Aspose.Words for C++ 20.4](https://www.nuget.org/packages/Aspose.Words.CPP/20.4)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Added support for verifying and signing documents.
@@ -18,7 +20,9 @@ We have added the following features from Aspose.Words for .NET on this regular 
 - Provided ability to change Asian paragraph spacing and indents.
 - Added image interpolation option for PDF rendering (new public property PdfSaveOptions.InterpolateImages).
 - Extended API of chart data labels and series.
+
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 
@@ -30,6 +34,7 @@ The missing features will be added in future releases.
 - The current release does not support loading PDF documents.
 - The current release has limited support for database features - C++ doesn't have a common API for DB like .Net System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -136,9 +141,13 @@ The missing features will be added in future releases.
 |WORDSNET-20027|Image is rotated after conversion from DOCX to HtmlFixed|Bug|
 |WORDSNET-19995|Missing content due to invalid 'transform: rotate' property value|Bug|
 |WORDSNET-20067|The text inside a Form is not well-rendered when saving as HTML(HtmlFixed)|Bug|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
+
 ### **Added ability to change Asian paragraph spacing and indents**
+
 Related issue: **WORDSNET-20001**
 
 The following ParagraphFormat properties were added:
@@ -192,6 +201,7 @@ format.LineUnitAfter= 10;
 
 
 ### **Added a new public property SnapToGrid for Font and ParagraphFormat**
+
 Related issue: **WORDSNET-19747**
 
 Added a new public property ParagraphFormat.SnapToGrid:
@@ -228,7 +238,9 @@ Paragraph par = doc.FirstSection.Body.FirstParagraph;
 par.ParagraphFormat.SnapToGrid = true;
 par.Runs[0].Font.SnapToGrid = true;
 {{< /highlight >}}
+
 ### **Added an option that allows customers to specify comparison granularity**
+
 Related issue: **WORDSNET-20043**
 
 Added the following properties:
@@ -266,9 +278,13 @@ CompareOptions co = new CompareOptions();
 co.Granularity = Granularity.CharLevel;
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, co);
 {{< /highlight >}}
+
 ### **Sample output**
+
 ![todo:image_alt_text](https://auckland.dynabic.com/wiki/download/attachments/41386312/20043.png?version=1&modificationDate=1585804110000)
+
 ### **Added feature to set positioning of floating table (HorizontalAnchor and VerticalAnchor)**
+
 Related issue: **WORDSNET-19873**
 
 Setters for the following properties have been added to the Table class:
@@ -321,6 +337,7 @@ table.VerticalAnchor = RelativeVerticalPosition.Page;
 
 
 ### **Added image interpolation option for PDF rendering (new public property PdfSaveOptions.InterpolateImages)**
+
 Related issue: **WORDSNET-19996**
 
 Added image interpolation option for PDF rendering which can be specified by PdfSaveOptions.InterpolateImages property.
@@ -363,6 +380,7 @@ doc.Save(pdfPath, saveOptions);
 
 
 ### **Added public property LoadOptions.TempFolder**
+
 This property allows using temporary files when reading a document.
 
 **.NET**
@@ -393,6 +411,7 @@ Document doc = new Document(myDir + "document.docx", lo);
 
 
 ### ` `**Changes in API of chart data labels and series**
+
 The following changes in chart data labels API have been implemented (WORDSNET-19124):
 
 - The property HasDataLabels has been added to the ChartSeries class.
@@ -478,6 +497,7 @@ doc.Save(dir + "DataLabels.docx");
 
 
 ### ` `**FindReplaceOptions class is extended with new property**
+
 Related issue: **WORDSNET-19913**.
 
 The following public property was added to FindReplaceOptions class:
@@ -495,7 +515,9 @@ The following public property was added to FindReplaceOptions class:
 /// </remarks>
 public bool UseSubstitutions
 {{< /highlight >}}
+
 ##### **Use Case. Explains how to recognize and use substitutions within replacement patterns:**
+
 **.NET**
 
 {{< highlight csharp >}}
@@ -515,7 +537,9 @@ doc.Range.Replace(regex, @"$2 take money from $1", options);
 Console.WriteLine(doc.GetText());
  // The output is: Paul take money from Jason.\f
 {{< /highlight >}}
+
 ### **Implemented mutual conversion of several PageBorderArt names between ECMA376 and ISO29500 standard documents**
+
 Experiments show that there's a mutual correspondence between "*Tribal*"* border art styles and ISO29500 specific border art styles, in the range from *"Triangle1*" to "*Shapes2*".
 
 In this release the direct conversion of the mentioned BorderArt style names was implemented according to the following table:
@@ -528,6 +552,8 @@ In this release the direct conversion of the mentioned BorderArt style names was
 |tribal4|triangleCircle2|
 |tribal5|shapes1|
 |tribal6|shapes2|
+
 ### **Removed obsolete properties AnnotationsAtBlockLevel and AnnotationsAtBlockLevelAsDefault of LoadOptions class**
+
 The obsolete properties LoadOptions.AnnotationsAtBlockLevel and LoadOptions.AnnotationsAtBlockLevelAsDefault have been removed (WORDSNET-19211).
 The mode of moving annotation nodes to inline-level is no longer supported.

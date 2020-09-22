@@ -17,6 +17,7 @@ Download the latest version of Aspose.Words for Java from <https://downloads.asp
 {{% /alert %}}
 
 #### **Hello World!**
+
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
 **PHP**
@@ -32,7 +33,9 @@ $builder->write("Hello world!");
 $doc->save("C:\\Temp\\out.doc");
 ?>
 {{< /highlight >}}
+
 #### **Simple Mail Merge**
+
 Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 
 **PHP**
@@ -56,7 +59,9 @@ $doc->getMailMerge()->execute($names, $values);
 $doc->save("C:\\Temp\\out.doc");
 ?>
 {{< /highlight >}}
+
 #### **Invoke Static Methods**
+
 Some methods in the Aspose.Words object model are static. For example, there is the Document.DetectFileFormat method that allows you to detect the original format of a file.
 
 **PHP**
@@ -86,7 +91,9 @@ else
 }
 ?>
 {{< /highlight >}}
+
 #### **Save or Convert a Document**
+
 With Aspose.Words, you can save a document in a variety of formats. For the full list of formats and identifiers see the **SaveFormat** enumeration.
 
 **PHP**
@@ -98,7 +105,9 @@ $doc->save("C:\\Temp\\out.doc", $saveFormat->DOC);
 $doc->save("C:\\Temp\\out.html", $saveFormat->HTML);
 $doc->save("C:\\Temp\\out.txt", $saveFormat->TEXT
 {{< /highlight >}}
+
 #### **Mail Merge with Regions**
+
 First, create a Java class that would return a **ResultSet** object as shown below. Compile it, put it in a jar file, and place it in the “lib” folder inside your application root folder.
 
 **Java**

@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-20-2-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 20.2](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Gradients rendering improvements.
 - Added support of RGBA_F16 images.
 - Formatting and parsing of digits were improved. 
@@ -23,6 +25,7 @@ This page contains release notes for [Aspose.Words for Android via Java 20.2](ht
 - Supported dynamic insertion of documents and images from Base64-encoded bytes and dynamic checkbox value setting for the LINQ Reporting Engine.
 
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements, and fixes included in the Aspose.Words for .NET 20.2 and Aspose.Words for Java 20.2 are also included in this 'Aspose.Words for Android via Java' 20.2.
+
 ## **All Changes**
 
 |Key|Summary|Category|

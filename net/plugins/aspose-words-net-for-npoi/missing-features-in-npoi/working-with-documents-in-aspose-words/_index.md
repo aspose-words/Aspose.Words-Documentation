@@ -6,6 +6,7 @@ url: /net/working-with-documents-in-aspose-words/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Add Watermark](https://docs.aspose.com/words/net/add-watermark/)
 - [Append Documents](https://docs.aspose.com/words/net/append-documents-html/)
 - [Check Format Compatibility in NPOI](https://docs.aspose.com/words/net/check-format-compatibility-in-npoi/)

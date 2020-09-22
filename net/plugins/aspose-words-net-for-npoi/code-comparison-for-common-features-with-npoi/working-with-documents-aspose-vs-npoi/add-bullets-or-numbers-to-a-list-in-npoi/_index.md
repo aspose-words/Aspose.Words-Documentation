@@ -6,6 +6,7 @@ url: /net/add-bullets-or-numbers-to-a-list-in-npoi/
 ---
 
 ## **Aspose.Words - Add bullets or numbers to a list**
+
 The **Lists** class is used to Add bullets or numbers to a list in word documents
 
 **C#**
@@ -54,7 +55,9 @@ builder.Writeln("third");
 builder.ListFormat.RemoveNumbers();
 doc.Save("bullet-sample.docx");
 {{< /highlight >}}
+
 ## **NPOI HWPF XWPF - Add bullets or numbers to a list**
+
 The following can be used to add bullets using NPOI
 
 **C#**
@@ -147,7 +150,9 @@ FileStream sw = new FileStream("bullet-sample.docx", FileMode.Create);
 doc.Write(sw);
 sw.Close();
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Add bullets or numbers to a list** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1467693)

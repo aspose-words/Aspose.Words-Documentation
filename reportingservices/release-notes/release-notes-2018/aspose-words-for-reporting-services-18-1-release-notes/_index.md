@@ -10,6 +10,7 @@ url: /reportingservices/aspose-words-for-reporting-services-18-1-release-notes/
 This page contains release notes for [Aspose.Words for Reporting Services 18.1](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-18.1/).
 
 {{% /alert %}} 
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

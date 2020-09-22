@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-17-8-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 17.8](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.8/).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 100+ improvements and fixes in this regular monthly release. The most notable are:
 
 - Rendering into PCL format (Printer Command Language) was implemented.
@@ -25,6 +27,7 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 - Added feature to format Data Labels of chart.
 
 'Aspose.Words for Android via Java' 17.8 also includes the current 'Aspose.Words for Java' features. See the full list of changes in [Aspose.Words for Java 17.8 Release Notes](/words/java/aspose-words-for-java-17-8-release-notes/).
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

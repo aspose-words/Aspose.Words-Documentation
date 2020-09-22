@@ -6,20 +6,27 @@ url: /java/install-aspose-words-for-android-via-java/
 ---
 
 ## **Installation**
+
 Previously, Aspose.Words for Android via Java was distributed as a single ZIP file that contained the JAR file, demos, and documentation of Aspose.Words for Android via Java.
 
 1. If you want to use any version before Aspose.Words for Android via Java 1.11, you just need to unzip any version of Aspose.Words.Android.zip into a directory of your choice.
 1. Include the extracted Jar file in your application using the Build Path configuration for its application.
 
 Versions 1.11 and 1.12 were manually divided into two parts: JAR and APK in order to limit the number of methods in the DEX file. In these versions, we provided our own APK loader to initiate the correct loading of the additional classes.dex file. Starting from version 17.2.0 we support the official workflow described [here](https://developer.android.com/studio/build/multidex.html).
+
 ### **How to Use Aspose.Words for Android via Java from 1.11 Onward**
+
 Previously, a single JAR of Aspose.Words for Android via Java contained 47+ thousand methods which made older versions a little impractical to use in huge android applications. Now starting from this release, we have started to reduce the size of Aspose.Words for Android via Java library. Our major concern now is to reduce the number of methods without loss of functionality. We are constantly working on improving the quality and usability of Aspose.Words for Android via Java.
+
 ### **Aspose.Words for Android via Java Library Divided into Two Parts**
+
 We had divided the library into following two archives:
 
 - aspose-words-1.11-android-jdk15.jar: The first one includes public API and its auxiliary methods. Currently, it has 32395 methods.
 - aspose-words-1.11-libs-android-jdk15.apk: The second one includes 3rd party jars, basic classes, and resources. Currently, it has 18296 methods.
+
 ### **Using Aspose Words for Android via Java since 1.11**
+
 To include Aspose.Words for Android via Java into the project you can use any of the following methods:
 
 - To place “aspose-words-1.11-android-jdk15.jar” in the folder “libs” of your project, and the archive “aspose-words-1.11-libs-android-jdk15.apk” into the folder “assets”. Indicate that you are going to use AsposeWordsApplication as the basic one.
@@ -73,7 +80,9 @@ public static boolean checkIfAWSetUpCorrectly()
     }
 }
 {{< /highlight >}}
+
 ### **Using Aspose.Words for Android via Java in Android Test Applications**
+
 To use Aspose.Words for Android via Java in test projects, the same approach can be applied:
 
 - Indicate AsposeWordsTestRunner in AndroidManifest.xml of the test project.
@@ -104,6 +113,7 @@ public void onStart() {
     super.onStart();
 }
 {{< /highlight >}}
+
 ## **How to Use Aspose.Words for Android via Java from 17.2.0 Onward**
 
 1. Download the newest version of [Aspose.Words for Android via Java](https://repository.aspose.com/repo/com/aspose/aspose-words/)
@@ -131,6 +141,7 @@ dependencies {
 {{< /highlight >}}
 
 ## **Your First Application Using Aspose.Words for Android via Java**
+
 This article gives you an idea of getting started with Aspose.Words for Android via Java. It will demonstrate how to set up a new Android project from scratch, add a reference to the Aspose.Words JAR and create a new document which is saved to disk in DOCX format. This example uses [Android Studio](https://developer.android.com/studio/index.html) for development and the application is run on the Android Emulator. To get started with Aspose.Words for Android via Java, please follow this step-by-step tutorial to create an app which uses Aspose.Words for Android via Java:
 
 1. Download and the [Android Studio](https://developer.android.com/studio/index.html) and install it to any location.
@@ -185,6 +196,7 @@ The full code should look like this:<br>
 ![todo:image_alt_text](install-aspose-words-for-android-via-java_16.jpg)
 
 ## **Versioning**
+
 Since 2017 the versioning of Aspose.Words for Android via Java complies with Aspose.Words for Java. 
 
 [aspose-words-20.2-android.via.java.jar](https://repository.aspose.com/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)

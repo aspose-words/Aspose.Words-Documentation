@@ -29,6 +29,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 
 ##### **Field Codes**
+
 Fields are output as plain text in HTML. Only field result is exported.
 
 See the following link in the documentation for further information:
@@ -62,6 +63,7 @@ See the following link in the documentation for further information:
 |Print|N/A| | |
 
 ##### **Document Information**
+
 Fields such as FileName or FileSize are not automatically updated on save. However, they can be updated explicitly by calling Document.UpdateFields.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -91,6 +93,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Symbol|Yes| | |
 
 ##### **Form Fields**
+
 There is a save option to control if form fields are exported as elements like &lt;input&gt; etc. or as plain text.
 
 See the following link in the documentation for further information:
@@ -145,6 +148,7 @@ See the following link in the documentation for further information:
 |StyleRef|Yes| | |
 
 ##### **Mail Merge**
+
 Any fields that have a field result are exported to HTML as text.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -188,6 +192,7 @@ Any fields that have a field result are exported to HTML as text.
 |UserName|Yes| | |
 
 ##### **Hyperlinks**
+
 Exported as &lt;a&gt; element with text or image being linked as children.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

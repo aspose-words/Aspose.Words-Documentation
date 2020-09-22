@@ -6,6 +6,7 @@ url: /java/load-and-save-to-stream-in-jython/
 ---
 
 ## **Aspose.Words - Load And Save To Stream**
+
 To Load And Save To Stream using **Aspose.Words Java for Jython**. Here you can see example code.
 
 **Jython Code**
@@ -41,7 +42,9 @@ class LoadAndSaveToStream:
 if __name__ == '__main__':
     LoadAndSaveToStream()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

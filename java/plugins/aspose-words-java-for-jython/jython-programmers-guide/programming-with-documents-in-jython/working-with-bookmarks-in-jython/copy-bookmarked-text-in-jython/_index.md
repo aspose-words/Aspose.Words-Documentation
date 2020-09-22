@@ -6,6 +6,7 @@ url: /java/copy-bookmarked-text-in-jython/
 ---
 
 ## **Aspose.Words - Copy Bookmarked Text**
+
 To Copy Bookmarked Text using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 **Jython Code**
@@ -67,7 +68,9 @@ To Copy Bookmarked Text using **Aspose.Words Java for Jython**. Here you can see
             dstNode.appendChild(newNode)
             curNode = curNode.getNextSibling()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

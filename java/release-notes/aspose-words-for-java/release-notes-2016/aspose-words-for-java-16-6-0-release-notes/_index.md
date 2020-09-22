@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-16-6-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 16.6.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.6.0/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 113 improvements and fixes in this regular monthly release. The most notable are:
 
 - Fast extraction from DOC format via PlainTextDocument class is faster by a factor of ten (at a cost).
@@ -26,6 +28,7 @@ There are 113 improvements and fixes in this regular monthly release. The most n
 - Introduced a Field.GetFieldCode(bool) overload that controlling whether to include child field codes.
 - Added the MailMerge.GetRegionsByName() method so that the user can obtain a list of regions by the specified name.
 - Added the MailMergeRegionInfo.Level property that allows to get the nesting level of a mail merge region.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -147,13 +150,21 @@ There are 113 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-13711|Aspose.Words.FileCorruptedException occurs upon loading a FlatOpc|Regression|
 |WORDSNET-13712|System.InvalidOperationException is thrown while saving Docx to Pdf|Regression|
 |WORDSNET-13809|Document.UpdateFields throws System.InvalidOperationException|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 16.6.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added Support for Outer Document Insertion to LINQ Reporting Engine**
+
 WORDSNET-13329 has been resolved. The [Inserting Documents Dynamically](https://docs.aspose.com/words/java/inserting-documents-dynamically/) section was added to the LINQ Reporting Engine's documentation.
+
 ### **Fast Extraction from DOC Format via PlainTextDocument Class is Faster by a Factor of Ten (at a cost)**
+
 WORDSNET-13498 has been resolved. We've improved the speed of fast text indexing method for DOC format available via public API as PlainTextDocument. However to do this a special DOC reader had to be written which only guarantees the order of plain text within a story upon reading. This means that document sections may be swapped around, and their order is not guaranteed. However the order of paragraphs words and so forth within is section will be as usual.
+
 ### **RevisionOptions has ShowRevisionBalloons Option now**
+
 WORDSNET-13739 has been resolved. ShowRevisionBalloons property has been added to the RevisionOptions class. This option lets a user to show formatting changes in the balloons.
 NOTE: Now it works only for delete revisions.
 
@@ -186,7 +197,9 @@ Document doc = new Document("D:\\temp\\input.docx");
 doc.getLayoutOptions().getRevisionOptions().setShowRevisionBalloons(true);
 doc.save("D:\\temp\\16.6.0.pdf");
 {{< /highlight >}}
+
 ### **Saving DOCX as ISO 29500 Strict OOXML Format is Available now**
+
 A new member Iso29500_2008_Strict is added into the OoxmlCompliance enum type. UseCase to save as Strict OOXML:
 
 {{< highlight csharp >}}
@@ -200,7 +213,9 @@ Limitations:
 
 - ISO 29500 Strict forbids VML, so we had to do a quick conversion hack by rendering VML shapes into pictures and storing them as DML Pictures. Proper VML->DML conversion is a big task without an ETA
 - Testing has been done on documents mostly from our TestBase, so Support people please be prepared to receive a number of non-conformant, non-compliant and generally bad smelling documents that will violate our model assumptions in one way or another.
+
 ### **Added Feature to Insert Empty Values in Chart Series.**
+
 WORDSNET-13428 has been resolved. Starting from 16.6.0 Version, Aspose.Words supports an empty values in chart data series and categories upon creating. For example, you are going to create the chart with the following data:
 
 ![todo:image_alt_text](aspose-words-for-java-16-6-0-release-notes_1.png)
@@ -230,7 +245,9 @@ seriesColl.add("AW Series 3", categories, new double[] { Double.NaN, 4, 5, Doubl
 The resulted chart looks like this:
 
 ![todo:image_alt_text](aspose-words-for-java-16-6-0-release-notes_2.png)
+
 ### **Added MailMergeRegionInfo.Level Property**
+
 WORDSNET-13432 has been resolved. We have added the MailMergeRegionInfo.Level property to satisfy customer's requirements logged in WORDSNET-13432.
 Following property for getting/setting level number will be added to public API for Aspose.Words.MailMerging.MailMergeRegionInfo class:
 
@@ -262,7 +279,9 @@ namespace Aspose.Words.MailMerging
 ...
 }
 {{< /highlight >}}
+
 ### **Added MailMerge.GetRegionsByName() Method**
+
 WORDSNET-13433 has been resolved. We have added the MailMerge.GetRegionsByName() method so that the user can obtain a list of regions by the specified name as follows:
 
 {{< highlight csharp >}}
@@ -276,7 +295,9 @@ public class MailMerge
         /// <returns>The list of regions.</returns>
         public ArrayList GetRegionsByName(string regionName)
 {{< /highlight >}}
+
 ### **XpsSaveOptions.OptimizeOutput Option Added**
+
 WORDSNET-13572 has been resolved. Following new option is available in XpsSaveOptions:
 
 {{< highlight csharp >}}
@@ -289,5 +310,7 @@ WORDSNET-13572 has been resolved. Following new option is available in XpsSaveOp
 /// </summary>
 public bool OptimizeOutput
 {{< /highlight >}}
+
 ### **Field.GetFieldCode() Improved, Added Field.GetFieldCode() Overload**
+
 As a resolution for WORDSNET-13583, we decided to improve the method Field.GetFieldCode(). Now it collects field's code properly: the returned string includes all nested fields' codes and results regardless of how the parent field is spanned among paragraphs or sections. Additionally, we have introduced a Field.GetFieldCode(bool) overload that accepts a parameter controlling whether to include child field codes into the resulting string. The user can pass false if they want to see nested fields' results only.

@@ -29,7 +29,9 @@ To build a table in a document from the data found in a DataTable:
    The following data in our **DataTable** is used in this example: 
 
 ![todo:image_alt_text](how-to-build-a-table-from-a-datatable_1.png)
+
 ### **The Code**
+
 The following code demonstrates how to achieve this in Aspose.Words. The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder’s current position and formatting. Below example provides a method to import data from the DataTable and insert it into a new table using the DocumentBuilder.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-ImportTableFromDataTable.java" >}}
@@ -39,7 +41,9 @@ The method can then be easily called using your **DocumentBuilder** and data.
 Below example shows how to import the data from a DataTable and insert it into a new table in the document.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-.java" >}}
+
 ### **The Result**
+
 The following table is produced by running the code above:
 
 ![todo:image_alt_text](how-to-build-a-table-from-a-datatable_2.png)

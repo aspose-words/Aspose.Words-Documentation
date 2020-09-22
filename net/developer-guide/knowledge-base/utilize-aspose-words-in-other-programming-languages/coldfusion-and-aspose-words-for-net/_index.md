@@ -6,12 +6,15 @@ url: /net/coldfusion-and-aspose-words-for-net/
 ---
 
 #### **Prerequisites**
+
 {{% alert color="primary" %}} 
 
 To use Aspose.Words for .NET in ColdFusion projects you must install the ColdFusion .NET extension and run the ColdFusion 9 .NET service on the system that hosts the assemblies. You can find detailed instructions about using .NET assemblies in ColdFusion from the article [here](http://help.adobe.com/en_US/ColdFusion/9.0/Developing/WSc3ff6d0ea77859461172e0811cbec13e1a-7ffd.html).
 
 {{% /alert %}} 
+
 #### **Simple Mail Merge**
+
 Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ€™s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 
 **ColdFusion**
@@ -30,7 +33,9 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 </body>
 </html>
 {{< /highlight >}}
+
 #### **Invoke Static Methods**
+
 Some methods in the Aspose.Words object model are static. For example, there is the FileFormatUtil.DetectFileFormat method that allows you to detect the original format of a file.
 
 **ColdFusion**
@@ -49,7 +54,9 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 </body>
 </html>
 {{< /highlight >}}
+
 #### **Save or Convert a Document**
+
 With Aspose.Words, you can save a document in a variety of formats. For the full list of formats and identifiers see the SaveFormat enumeration.
 
 **ColdFusion**
@@ -75,7 +82,9 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 </body>
 </html>
 {{< /highlight >}}
+
 #### **Merge documents**
+
 You can use Document.AppendDocument method to append one document to another.
 
 **ColdFusion**

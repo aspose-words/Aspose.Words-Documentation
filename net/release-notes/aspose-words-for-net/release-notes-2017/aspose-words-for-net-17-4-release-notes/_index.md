@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-17-4-release-notes/
 This page contains release notes for [Aspose.Words for .NET 17.4](https://www.nuget.org/packages/Aspose.Words/17.4.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 80 improvements and fixes in this regular monthly release. The most notable are:
 
 - CompareOptions class introduced to allow customer specify comparison settings.
@@ -26,6 +28,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 - Textboxes with automatic fit is now rendered correctly inside the group shapes.
 - Corrupted texture images do not stop the rendering procedure with an exception, a warning is sent instead now.
 - DrawingML Charts rendering improved (rotated and scaled horizontal axis labels).
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 
@@ -115,7 +118,9 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added an Interface to Flexibly Format Field Result**
+
 WORDSNET-14944 has been resolved.
 
 We have added an interface allowing to implement a custom formatting of field's result. The original request was about addiing a feature to remove spaces between sign and digits during mail merge. However, we decided to implement a more generic and flexible solution because our API is already overwhelmed with different specific properties.
@@ -166,7 +171,9 @@ private class FieldResultFormatter : IFieldResultFormatter
     private readonly ArrayList mDateFormatInvocations = new ArrayList();
 }
 {{< /highlight >}}
+
 ### **Added Feature to Set Horizontal and Vertical Resolution of Output Image**
+
 Previously it was one property Resolution that set both vertical and horizontal resolution to the same values.
 Now new public properties HorizontalResolution and VerticalResolution are added into the ImageSaveOptions class:
 

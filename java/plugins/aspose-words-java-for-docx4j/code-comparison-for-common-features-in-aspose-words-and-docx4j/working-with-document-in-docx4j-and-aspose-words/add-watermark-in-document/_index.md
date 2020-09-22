@@ -6,6 +6,7 @@ url: /java/add-watermark-in-document/
 ---
 
 ## **Aspose.Words - Add Watermark in Document**
+
 Sometimes you need to insert a watermark into a Word document, for instance if you would like to print a draft document or mark it as confidential.
 
 In Microsoft Word, you can quickly insert a watermark using the Insert Watermark command. Not many people using this command realize that such “watermark” is just a shape with text inserted into a header or footer and positioned in the centre of the page.
@@ -75,7 +76,9 @@ private static void insertWatermarkIntoHeader(Paragraph watermarkPara, Section s
 	header.appendChild(watermarkPara.deepClone(true));
 }
 {{< /highlight >}}
+
 ## **Docx4j - Add Watermark in Document**
+
 Below example shows how a watermark can be added to document using docx4j library.
 
 **Java**
@@ -201,10 +204,14 @@ private byte[] getImage() throws IOException {
 	return bytes;
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/addwatermark/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/addwatermark)
 

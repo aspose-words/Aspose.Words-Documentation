@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-14-4-release-notes-release-notes/
 This page contains release notes for [Aspose.Words for Java 14.4 Release Notes](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-14.4-release-notes/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 14.4 Release Notes**
+
 ### **Major Features**
+
 There are 83 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Improvements to rendering of Arabic texts
@@ -22,6 +25,7 @@ There are 83 improvements and fixes in this regular monthly release. The most n
   Gradient fill with transparency rendering in PDF implemented 
   3D rotated DrawingML shapes (and images) rendering implemented 
   Better support of tab stops and underlines in HTML import/export 
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |

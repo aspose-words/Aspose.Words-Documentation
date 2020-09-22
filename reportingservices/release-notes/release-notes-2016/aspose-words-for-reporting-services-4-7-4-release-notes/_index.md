@@ -10,12 +10,15 @@ url: /reportingservices/aspose-words-for-reporting-services-4-7-4-release-notes/
 This page contains release notes for [Aspose.Words for Reporting Services from 4.7.0 to 4.7.4](http://www.aspose.com/downloads/words/reportingservices/new-releases/aspose.words-for-reporting-services-4.7.4-\(msi\)/).
 
 {{% /alert %}} 
+
 ## **Full List of Issues Covering all Changes in this Release**
+
 #### **Changes in 4.7.4**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |WORDSRPT-240|RDL to Rtf/Doc/Docx conversion issue with merged table's cell|Bug |
+
 #### **Changes in 4.7.3**
 
 |** |** |** |
@@ -23,16 +26,19 @@ This page contains release notes for [Aspose.Words for Reporting Services from 4
 |WORDSRPT-233|Table header does not repeat in output RTF/Docx|Bug |
 |WORDSRPT-237|WORDSRPT-187/WORDSRPT-201 has not resolved in v4.7.2|Bug |
 |WORDSRPT-238|Grouping number value with HTML does not generate correct output |Bug |
+
 #### **Changes in 4.7.2**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |WORDSRPT-231|An exception is thrown while exporting RDLC to Html|Bug |
+
 #### **Changes in 4.7.1**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |WORDSRPT-228|WORDSRPT-204 is not resolved in v4.7.0|Bug |
+
 #### **Changes in 4.7.0**
 
 |**Key** |**Summary** |**Category** |

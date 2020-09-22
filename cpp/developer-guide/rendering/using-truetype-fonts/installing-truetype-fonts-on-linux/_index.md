@@ -15,7 +15,9 @@ There are two main ways to get TrueType fonts on a Linux system:
 
 - Copy .TTF and .TTC files from a Windows machine onto your Linux machine.
 - Install a TrueType font package, such as *msttcorefonts*.
+
 ## **Copying Fonts from a Windows Machine**
+
 An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF and .TTC files from the C:\Windows\Fonts directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way; you just need to specify the location of the fonts using the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) class in Aspose.Words.
 
 {{% alert color="primary" %}} 
@@ -23,7 +25,9 @@ An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF an
 Verify whether font licensing is required, and read the EULA carefully before installing MS Fonts on any Linux operating system.
 
 {{% /alert %}} 
+
 ## **Install a TrueType Fonts Package**
+
 There are a number of Linux packages, containing Microsoft TrueType fonts, that you can download and install onto your Linux machine. The exact steps may be different on various Linux distributions.
 
 - On Ubuntu, use Synaptic Package Manager to find and install the *ttf-mscorefonts-installer* package.
@@ -32,5 +36,7 @@ There are a number of Linux packages, containing Microsoft TrueType fonts, that 
 - For font packages suitable to other Linux distributions, search available documentation on the internet.
 
 After installing the package, Aspose.Words will find these fonts in the folders on your system and use them when working with documents.
+
 ## **See Also**
+
 - [Liberation Fonts](https://fedorahosted.org/liberation-fonts/) as an alternative to standard Windows fonts.

@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-17-7-release-notes/
 This page contains release notes for [Aspose.Words for Java 17.7](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.7/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 104 improvements and fixes in this regular monthly release. The most notable are:
 
 - Performance of saving to PDF is improved.
@@ -138,7 +140,9 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 ## **Public API and Backward Incompatble Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **WORDSNET-14190 - Make the Title of the Generated Documents show up in Title Bar**
+
 New property **DisplayDocTitle** was added to PdfSaveOptions to control behavior of how document's title is presented in output PDF document:
 
 {{< highlight csharp >}}
@@ -155,7 +159,9 @@ New property **DisplayDocTitle** was added to PdfSaveOptions to control behavior
 public boolean getDisplayDocTitle() 
 public void setDisplayDocTitle(boolean value)
 {{< /highlight >}}
+
 ### **WORDSNET-15504 -  Shape AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.insertImage Method.**
+
 Shape AspectRatioLocked default value was changed for shapes inserted through the DocumentBuilder.insertImage method. Now, to mimic MS Word behavior this value is "true" for ShapeType.Image upon inserting image through the DocumentBuilder or through the Model.
 
 {{< highlight csharp >}}
@@ -170,5 +176,7 @@ Shape AspectRatioLocked default value was changed for shapes inserted through th
 public boolean getAspectRatioLocked()
 public void setAspectRatioLocked(boolean value)
 {{< /highlight >}}
+
 ### **WORDSNET-14504 and WORDSNET-14803 - Changed Importing Behavior of Lists**
+
 Previously, list definitions were copied with a new identifier while importing. Now Aspose.Words reuses identical list definitions in the destination. Equality of list definitions in the source and destination is determined by their identifiers. Also Aspose.Words preserves list definition identifiers from the source when equal list definition cannot be found in the destination. This is how MS Word behaves.

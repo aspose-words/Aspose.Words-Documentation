@@ -6,6 +6,7 @@ url: /java/moving-the-cursor-in-document/
 ---
 
 ## **Aspose.Words - Moving the Cursor in Document**
+
 If you need to move to the beginning of the document, call **DocumentBuilder.moveToDocumentStart**. If you need to move to the end of the document, call **DocumentBuilder.moveToDocumentEnd**.
 
 **Java**
@@ -26,10 +27,14 @@ builder.writeln("This is the end of the document.");
 builder.moveToDocumentStart();
 builder.writeln("This is the beginning of the document.");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/documents/movingcursorindocs/AsposeMovingCursor.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/asposefeatures/documents/movingcursorindocs/AsposeMovingCursor.java)
 

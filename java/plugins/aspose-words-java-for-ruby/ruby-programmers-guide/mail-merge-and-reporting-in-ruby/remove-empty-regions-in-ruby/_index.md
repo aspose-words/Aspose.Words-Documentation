@@ -6,6 +6,7 @@ url: /java/remove-empty-regions-in-ruby/
 ---
 
 ## **Aspose.Words - Remove Empty Regions**
+
 To remove empty regions from word document using Aspose.Words Java in Ruby, simply invoke HandleMergeField module.
 
 **Ruby Code**
@@ -35,7 +36,9 @@ def remove_empty_regions()
     doc.save(data_dir + "TestFile.RemoveEmptyRegions Out.doc")
 end
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Remove Empty Regions (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/mergefield.rb)

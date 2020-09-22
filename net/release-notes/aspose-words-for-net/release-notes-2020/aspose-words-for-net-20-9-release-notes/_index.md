@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-20-9-release-notes/
 This page contains release notes for [Aspose.Words for .NET 20.9](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-20.9/).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 82 improvements and fixes in this regular monthly release. The most notable are:
 
 - VbaReferenceCollection and related types are exposed publicly.
@@ -19,6 +21,7 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 - The FormField font formatting API was extended.
 
 ## **Full List of Issues Covering all Changes in this Release**
+
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |WORDSNET-20589	|PDF to DOCX - footnotes|New Feature|
@@ -105,8 +108,11 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-4066	|Incorrect floating table position|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
+
 ### **Changed the behavior of the FormField.Font property**
+
 Related issue: WORDSNET-522
 Changed the behavior of the 'FormField.Font' property.
 It is currently allowed to apply font formatting to the FormField as a whole.
@@ -121,6 +127,7 @@ doc.Save("out.doc");
 {{< /highlight >}}
 
 ### **Deprecated find replace algorithm returned for compatibility reason**
+
 Related issue: WORDSNET-21018
 Following member has been added to FindReplaceOptions class
 {{< highlight csharp >}}
@@ -135,6 +142,7 @@ public bool LegacyMode { get; set; }
 {{< /highlight >}}
 
 ### **VbaReferenceCollection and related types are exposed publicly**
+
 Related issue: WORDSNET-13678
 
 Implemented a new VbaReferenceCollection class:

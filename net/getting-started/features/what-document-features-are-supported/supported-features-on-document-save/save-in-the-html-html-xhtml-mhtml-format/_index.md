@@ -10,7 +10,9 @@ url: /net/save-in-the-html-html-xhtml-mhtml-format/
 The following tables provide implementation details about how Aspose.Words saves a document in HTML based formats: HTML, XHTML, and MHTML.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on HTML Export](/words/net/annotation-features-supported-on-html-export/)
 - [Custom Markup Features Supported on HTML Export](/words/net/custom-markup-features-supported-on-html-export/)
 - [Document Features Supported on HTML Export](/words/net/document-features-supported-on-html-export/)

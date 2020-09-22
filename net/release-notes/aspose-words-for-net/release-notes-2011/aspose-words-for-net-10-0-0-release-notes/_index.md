@@ -10,9 +10,13 @@ url: /net/aspose-words-for-net-10-0-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 10.0.0](http://www.aspose.com/downloads/words/net/new-releases/aspose.words-for-.net-10.0.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 10.0 Release Notes**
+
 This release is important because it delivers several important features, some have been in development for long time. But the most important milestone of this release is that from now on we will be releasing Aspose.Words for .NET and Aspose.Words for Java on the same day with the same set of features and fixes in both products.
+
 ## **What's New**
+
 - Table Styles are supported in DOC documents.
 - Office Math Markup Language (OMML) formulas are preserved during DOCX roundtrips.
 - Custom XML is supported in WordprocessingML 2003 documents.

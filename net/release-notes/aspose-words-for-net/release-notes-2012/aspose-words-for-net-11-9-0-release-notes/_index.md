@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-11-9-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 11.9.0](https://www.nuget.org/packages/Aspose.Words/11.9.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 11.9 Release Notes**
+
 ### **What's New**
+
 There are 139 improvements and fixes in this regular monthly release. The most notable are:
 
 - Many more features supported when rendering DrawingML charts.
@@ -20,6 +23,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 - Significant improvements to layout of floating tables when converting to PDF and XPS.
 - Improvements to handling of spaces for East Asian languages when converting to PDF and XPS.
 - Improvements to RTL text layout when converting to PDF and XPS.
+
 ## **All Fixes**
 
 |**Key**|**Summary**|**Category**|

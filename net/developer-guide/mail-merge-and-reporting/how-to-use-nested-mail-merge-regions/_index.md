@@ -6,8 +6,11 @@ url: /net/how-to-use-nested-mail-merge-regions/
 ---
 
 ## **How to Use Nested Mail Merge Regions**
+
 Most data in relational databases or XML files is hierarchical (e.g. with parent-child relationships). The most common example is an invoice or an order containing multiple items. Aspose.Words allows nesting mail merge regions inside each other in a document to reflect the way the data is nested and this allows you to easily populate a document with hierarchical data. This article details the steps of how to set up a working nested mail merge application to generate a collection of invoices where each contains multiple items. An example project with complete source code and files can be downloaded. The process and code will be explained step by step and common issues addressed at the end of the article.
+
 ### **What are Nested Mail Merge Regions and When Would I use Them?**
+
 Nested mail merge regions are at least two regions in which one is defined entirely inside the other, so they are “nested” in one another. In a document it looks like this:
 
 ![todo:image_alt_text](how-to-use-nested-mail-merge-regions_1.png)
@@ -18,7 +21,9 @@ Just as in standard mail merge each region contains the data from one table. Wha
 ![todo:image_alt_text](how-to-use-nested-mail-merge-regions_2.png)
 
 As you can see, each order from the **Order** table is inserted followed by each item from the **Item** table that is related to that order. Then the next order will be inserted along with their items until all the orders and items are listed.
+
 #### **Step 1 – Create the Template**
+
 This is the same process as creating a standard mail merge document with regions. Remember that with mail merge regions we can have the same field name in different regions so there is no need to change any column names. There are a few things you need to consider when preparing nested mail merge regions and merge regions in general.
 
 - The mail merge region opening and closing tag (e.g. TableStart:Order, TableEnd:Order) **both need to appear in the same row or cell.** For example, if you start a merge region in a cell of a table, you must end the merge region in the same row as the first cell.
@@ -26,9 +31,13 @@ This is the same process as creating a standard mail merge document with regions
 - The opening and closing table tags **need to be well formed**. This means that the StartTable and EndTable table tags must match. An incorrectly formed region will cause all nested mail merge regions to stop displaying anything at all.
 
 If one of these rules is broken the program may produce unexpected results or an exception may be thrown.
+
 #### **Step 2 – Create the Data Source**
+
 The data to be merged into the template can come from a variety of sources, mainly relational databases or XML documents. In our example we are going to use an XML file to store our data and load it straight into a DataSet using the inbuilt .NET functionality. In our example, XML is used to store the data. There is a schema file found in the Data folder called **OrdersSchema.xsd** to ensure data integrity. Here are the contents of the files:
+
 ##### **CustomerData.xml**
+
 You can download xml file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/CustomerData.xml).
 
 **XML**
@@ -60,7 +69,9 @@ You can download xml file of this example from [here](https://github.com/aspose-
 ...
 </Orders>
 {{< /highlight >}}
+
 ##### **PizzaSchema.xsd**
+
 **XML**
 
 {{< highlight csharp >}}
@@ -102,7 +113,9 @@ You can download xml file of this example from [here](https://github.com/aspose-
 These files should be included in our project folder:
 
 ![todo:image_alt_text](how-to-use-nested-mail-merge-regions_3.png)
+
 #### **Step 3 – Ensure Correct Table Names and Relationships Exist Between Tables**
+
 For Aspose.Words to perform nested mail merge correctly, the following requirements must be met:
 
 1. The names of the mail merge regions in the document must match the **names of the DataTables** populated from the data source.
@@ -126,7 +139,9 @@ This will open up the contents of the DataSet in a window as shown below.
 ![todo:image_alt_text](how-to-use-nested-mail-merge-regions_6.png)
 
 We can see that an extra column **Order_Id,** was added automatically to both tables. This is the primary key for the **Order** table and the foreign key of the **Item** table. These columns are the basis for the relationship.
+
 #### **Step 4 – Prepare the Code**
+
 The code for setting up nested mail merge is simple to implement with Aspose.Words. Remember when setting up your project:
 
 - To include the reference to Aspose.Words.
@@ -136,7 +151,9 @@ The code for setting up nested mail merge is simple to implement with Aspose.Wor
 We create a [Document](http://www.aspose.com/api/net/words/aspose.words/document) object which loads our invoice template. Then Aspose.Words merges the data from our **DataSet** and fills the document with data. Then we save the results into a document in the desired format. Here is the complete code for our project: Below example shows how to generate an invoice using nested mail merge regions. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/Invoice%20Template.doc).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Mail-Merge-NestedMailMerge-NestedMailMerge.cs" >}}
+
 ### **Common Issues When Developing using Nested Mail Merge**
+
 **Q:** When using nested mail merge, the generated output has no fields that are merged; instead the original name of the merge field just stays the same?
 **A:** Check the data is being loaded properly into tables. The tables should have their TableName property set, a primary key and a relationship defined.
 

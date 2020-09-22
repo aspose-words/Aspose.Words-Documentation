@@ -10,7 +10,9 @@ url: /net/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/
 The following tables provide implementation details about how Aspose.Words saves a document in the image formats: JPG, BMP, PNG EMF, TIFF, and SVG. These are the same features as when rendering the document in memory to a **.NET** **Graphics** object.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on Image Export](/words/net/annotation-features-supported-on-image-export)
 - [Custom Markup Features Supported on Image Export](/words/net/custom-markup-features-supported-on-image-export)
 - [Document Features Supported on Image Export](/words/net/document-features-supported-on-image-export)

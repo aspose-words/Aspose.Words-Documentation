@@ -6,6 +6,7 @@ url: /net/change-or-replace-header-and-footer/
 ---
 
 ### **OpenXML SDK**
+
 {{< highlight csharp >}}
 
 // Replace header in target document with header of source document.
@@ -105,7 +106,9 @@ footer1.Append(paragraph1);
 part.Footer = footer1;
 }
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string path = FilePath + "Change or Replace Header and footer - Aspose.docx";
@@ -132,7 +135,9 @@ public static void ChangeHeader(string documentPath)
     doc.Save(documentPath);
 }
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-14-6-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.6.0](https://www.nuget.org/packages/Aspose.Words/14.6.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 14.6 Release Notes**
+
 ### **Major Features**
+
 There are 104 improvements and fixes in this regular monthly release. The most notable are:
 
 - Support of automatic change tracking on a document
@@ -20,6 +23,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
   CJK (Chinese, Japanese, Korean) text is now properly rendered in multiline DrawingML textboxes 
   Default text AntiAliasing on Java is optimized for Chinese, Japanese and Korean fonts 
   Font substitution feature is added to public API
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

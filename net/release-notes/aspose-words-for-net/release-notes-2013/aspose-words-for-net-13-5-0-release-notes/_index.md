@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-13-5-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 13.5.0](https://www.nuget.org/packages/Aspose.Words/13.5.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 13.5 Release Notes**
+
 ### **What's New**
+
 There are 132 improvements and fixes in this regular monthly release. The most notable are:
 
 - Update of the INDEX field is supported by the field update engine.
@@ -26,6 +29,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 - Added support for the "Balance SBCS characters and DBCS characters" compatibility option.
 - Added options of different font embedding for optimal PDF output size.
 - DrawingML Charts rendering enhancements: overlap option, depth grid lines, trend lines, subcharts for pie charts.
+
 ## **All Fixes**
 
 |**Key**|**Summary**|**Category**|

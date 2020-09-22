@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-17-12-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 17.12](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.12/).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 90+ improvements and fixes in this regular monthly release. The most notable are:
 
 - Support saving to BMP.
@@ -37,6 +39,7 @@ There are 90+ improvements and fixes in this regular monthly release. The most n
 - Fixed exception in rare case when line break point cannot be found.
 
 'Aspose.Words for Android via Java' 17.12 also includes the current 'Aspose.Words for Java' features. See the full list of changes in [Aspose.Words for Java 17.12 Release Notes](/words/java/aspose-words-for-java-17-12-release-notes/).
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

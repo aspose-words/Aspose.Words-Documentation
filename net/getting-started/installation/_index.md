@@ -6,10 +6,13 @@ url: /net/installation/
 ---
 
 ## **Installing Aspose.Words for .NET through NuGet**
+
 NuGet is the easiest way to download and install [Aspose APIs for .NET](https://www.nuget.org/profiles/Aspose). Open Microsoft Visual Studio and NuGet package manager. Search "aspose" to find the desired Aspose API. Click on "Install", the selected API will be downloaded and referenced in your project.
 
 ![todo:image_alt_text](installation_1.png)
+
 ### **Install or Update Aspose.Words using the Package Manager Console**
+
 You can follow the steps below to reference the [Aspose.Words API](https://www.nuget.org/packages/Aspose.Words/) using the package manager console:
 
 1. Open your solution/project in Visual Studio.
@@ -54,6 +57,7 @@ Please follow the steps below:
 1. Finally, click OK.
 
 ## **Considerations When Running on a Shared Server Environment**
+
 All Aspose .NET components are recommended to run with Full Trust permission set. This is because Aspose .NET component sometimes needs to access registry settings and files located in places other than the virtual directory e.g. for reading fonts etc. Furthermore, Aspose.NET components are based on core .NET system classes, some of which also require Full Trust permission to run in some cases.
 
 Internet Service Providers hosting multiple applications from different companies mostly enforce Medium Trust security level. In the case of .NET 2.0, such a security level may set the following constraints which could affect the ability of Aspose.Words to perform properly.

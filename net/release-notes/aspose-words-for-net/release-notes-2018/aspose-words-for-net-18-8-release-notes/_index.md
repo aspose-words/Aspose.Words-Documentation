@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-18-8-release-notes/
 This page contains release notes for [Aspose.Words for .NET 18.8](https://www.nuget.org/packages/Aspose.Words/18.8.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 81 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented support for “underline trailing spaces” compatibility option
@@ -32,6 +34,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 - Fixed a bug when an arrow pointer is incorrectly directed while rendering Bezier curves with arrows
 - Fixed a bug where the end of the line was outside the "stealth arrow" when rendering
 - LINQ Reporting Engine supports nested reports
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -117,13 +120,19 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17184|Add feature to detect encoding characters and change them to UFT-8 in output RTF|Feature|
 |WORDSNET-16807|Document.UpdateFields throws System.NullReferenceException|Regression|
 |WORDSNET-16904|UpdateFields after MailMerge causes "Error! Bookmark not defined" error in generated PDF|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 18.8. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Nested reports are supported by LINQ Reporting Engine**
+
 WORDSNET-16817 has now been resolved.
 
 The "[Inserting Documents Dynamically](/words/net/template-syntax/#templatesyntax-insertingdocumentsdynamically)" section of the engine's documentation was updated to describe the change.
+
 ### **Added Feature to Create Snip Corner Rectangle**
+
 WORDSNET-13967 has been resolved:
 
 The following shapes types were added to the "ShapeType" enum:
@@ -189,7 +198,9 @@ OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 doc.Save("TopCornersSnipped.docx", so);
 {{< /highlight >}}
+
 ### **Reference Resources in MHTML Documents using the "Content-Id" URL Scheme.**
+
 WORDSNET-16985 has been resolved.
 
 By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
@@ -198,7 +209,9 @@ Now was added a new option to HtmlSaveOptions. This option enables an alternati
 {{< highlight csharp >}}
 public bool ExportCidUrlsForMhtmlResources { get; set; }
 {{< /highlight >}}
+
 ### **Added Public Property ShowComments in LayoutOptions**
+
 WORDSNET-16986 has been resolved.
 
 The following property has been added to the LayoutOptions class:
@@ -223,7 +236,9 @@ Document doc = new Document(myDir + "Input.docx");
 doc.LayoutOptions.ShowComments = false;
 doc.Save(myDir + "Output.pdf");
 {{< /highlight >}}
+
 ### **Added Public Property ShowInBalloons in RevisionOptions**
+
 WORDSNET-16986 has been resolved.
 
 The following property has been added to the RevisionOptions class:
@@ -284,7 +299,9 @@ Document doc = new Document(myDir + "Input.docx");
 doc.LayoutOptions.RevisionOptions.ShowInBalloons = ShowInBalloons.FormatAndDelete;
 doc.Save(myDir + "Output.pdf");
 {{< /highlight >}}
+
 ### **Write all CSS Declarations of HtmlFixed Documents into Single File**
+
 WORDSNET-17089 has been resolved.
 
 Previously, Aspose.Words saved "@font-face" rules of HtmlFixed documents into a separate file "fontFaces.css" while other CSS declarations were written to "styles.css". We have changed this behavior and now Aspose.Words saves all CSS rules and declarations into the same file "styles.css". In case the old behavior is required for compatibility with legacy code, it can be restored by using the new public property that we have added to the HtmlFixedSaveOptions class:
@@ -292,7 +309,9 @@ Previously, Aspose.Words saved "@font-face" rules of HtmlFixed documents into a 
 {{< highlight csharp >}}
 bool SaveFontFaceCssSeparately { get; set; }
 {{< /highlight >}}
+
 ### **RtfLoadOptions class was extended**
+
 WORDSNET-17184 has been resolved.
 
 A new LoadOptions class for dealing with RTF files was introduced : ***RtfLoadOptions***.
@@ -318,11 +337,19 @@ RtfLoadOptions loadOptions = new RtfLoadOptions();
 loadOptions.RecognizeUtf8Text = true;
 Document doc = new Document(fileName, loadOptions);
 {{< /highlight >}}
+
 ### **Obsolete Member NumInDash was Removed from NumberStyle Enum**
+
 Obsolete value NumInDash was removed from NumberStyle enum. Please, use NumberStyle.NumberInDash value instead.
+
 ### **Obsolete Method ToTxt() was Removed from Node Class**
+
 Obsolete method ToTxt() was removed from Node class. Please, use ToString(SaveFormat.Text) instead.
+
 ### **Obsolete Property Location was Removed from FootnoteOptions and EndnoteOptions Classes**
+
 The obsolete property Location has been removed from the FootnoteOptions and EndnoteOptions classes. Please use the Position property. Also, the FootnoteLocation emum type has been removed.
+
 ### **Obsolete Property WarningCallback  was Removed from SaveOptions Class**
+
 Obsolete property WarningCallback  was removed from SaveOptions class. Please, use the Document.WarningCallback property instead.

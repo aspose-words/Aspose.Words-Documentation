@@ -6,8 +6,11 @@ url: /net/convert-word-doc-to-other-formats-in-npoi/
 ---
 
 ## **Microsoft Word - Conversion to Other Formats**
+
 Documents can be converted to other formats using Save As option in File menu.
+
 ## **Aspose.Words - Convert Word Doc to Other Formats**
+
 {{% alert color="primary" %}} 
 
 To convert a document to other formats using Aspose.Words, simply invoke the save() method of Document class and specify a file name with the desired and supported extension.
@@ -28,7 +31,9 @@ Converts a whole document from DOC to other formats using default options.
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.pdf", SaveFormat.Pdf);
  wordDocument.Save("data/Convert Word Doc to Other Formatsblank.text", SaveFormat.Text);
 {{< /highlight >}}
+
 ## **NPOI HWPF XWPF - Convert Word Doc to Other Formats**
+
 **C#**
 
 {{< highlight csharp >}}
@@ -38,13 +43,17 @@ Converts a whole document from DOC to other formats using default options.
       wordDocument.Write(sw);
   }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Convert Word Doc to Other Formats** from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/SourceControl/latest#Aspose.Words_NPOI.HWPF and XWPF/Aspose.Words Vs NPOI HWPF and XWPF v1.1/Convert Word Doc to Other Formats/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Convert%20Word%20Doc%20to%20Other%20Formats)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
+
 ## **Download Sample Code**
+
 Download **Convert Word Doc to Other Formats** from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/releases/view/617696)

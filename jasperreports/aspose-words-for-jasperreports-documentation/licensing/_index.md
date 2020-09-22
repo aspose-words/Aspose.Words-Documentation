@@ -22,7 +22,9 @@ There are several ways to activate a license:
 - [Set an exporter parameter in **applicationContext.xml**](/words/jasperreports/licensing/).
 
 The first two are used with JasperReports, the last with JasperServer. Each method is described below.
+
 #### **Call setLicense**
+
 This method is used with JasperReports.
 
 1. Download the license to your computer and copy it to the appropriate folder (for example your application's folder or JasperReports\lib).
@@ -40,7 +42,9 @@ This method is used with JasperReports.
    License license = new License();
    license.setLicense(fstream);
 {{< /highlight >}}
+
 #### **Set the licenseFile Exporter Parameter in Code**
+
 {{% alert color="primary" %}} 
 
 This method is used with JasperReports.
@@ -58,7 +62,9 @@ This method is used with JasperReports.
    exporter.setParameter(AWExporterParameter.LICENSE, "Aspose.Words.JasperReports.lic");
    exporter.exportReport();
 {{< /highlight >}}
+
 #### **Set the licenseFile Exporter Parameter in applicationContext.xml**
+
 This method is used with JasperServer.
 
 1. Download the license to your computer and copy it to the <InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF folder, where <InstallDir> stands for the JasperServer installation directory.
@@ -71,7 +77,9 @@ This method is used with JasperServer.
     <property name="licenseFile" value="C:/jasperserver-3.0/apache-tomcat/webapps/jasperserver/WEB-INF/Aspose.Words.JasperReports.lic"/>
 </bean>
 {{< /highlight >}}
+
 #### **Verify that the License Works**
+
 Export any report to DOC or DOCX format and check if the report contains an evaluation message. If there is no evaluation message, then the license is working properly.
 
 **Aspose.Words for JasperReports injects a watermark when working in the evaluation mode.** 

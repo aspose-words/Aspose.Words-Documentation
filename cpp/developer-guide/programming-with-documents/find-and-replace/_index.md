@@ -6,6 +6,7 @@ url: /cpp/find-and-replace/
 ---
 
 ## **Find and Replace Overview**
+
 Use Range.Replace to find or replace a particular string within the current range. It returns the number of replacements made, so it is useful for searching strings without replace. An exception is thrown if a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object and footnote.
 
 The Range.Replace method provides several overloads. Here are the possibilities they provide:
@@ -20,27 +21,36 @@ The following examples show how to use the aforementioned overloads. The sample 
 - **Example 2** replaces all occurrences of the words "sad" or "mad" to "bad".
 - **Example 3** uses a replace evaluator method to concatenate occurrences of words "sad" or "bad" with the counter value that is incremented each time the new occurrence is found.
 - **Example 4** explains how to recognize and use substitutions within replacement patterns.
+
 ### **Example 1: Replace One Word with Another**
+
 Shows how to replace all occurrences of the word "sad" to "bad". You can download the template file of this example from here.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-ReplaceWithString-ReplaceWithString.cpp" >}}
+
 ### **Example 2: Replace Two Similar Words with One Other**
+
 Shows how to replace all occurrences of words "sad" or "mad" to "bad". You can download the template file of this example from here.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-ReplaceWithRegex-ReplaceWithRegex.cpp" >}}
+
 ### **Example 3: Use a Custom Evaluator**
+
 Shows how to replace it with a custom evaluator. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Find-Replace/Range.ReplaceWithEvaluator.doc).
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-ReplaceWithEvaluator-ReplaceWithEvaluator.cpp" >}}
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-ReplaceWithEvaluator-MyReplaceEvaluator.cpp" >}}
+
 ### **Example 4: Recognize and Use Substitutions within Replacement Patterns**
+
 The following code example demonstrates how to recognize and use substitutions within replacement patterns using UseSubstitutions property.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-ReplaceWithRegex-RecognizeAndSubstitutionsWithinReplacementPatterns.cpp" >}}
 
 
 ## **How to Find and Highlight Text**
+
 This section describes how to programmatically find and highlight a word or a phrase in a document using Aspose.Words. It might seem easy to simply find the string of text in a document and change its formatting, but the main difficulty is that due to formatting, the match string could be spread over several runs of text. Consider the following example. The phrase “Hello World!” if formatted and consists of three different runs: Hello is italic, World is bold, and the exclamation mark is the regular text:
 
 *Hello* **World**!
@@ -56,7 +66,9 @@ This article provides a solution designed to handle the described case – if ne
 The following document is used in this sample.
 
 ![todo:image_alt_text](http://i.imgur.com/AtdnRmR.png)
+
 ### **The Code**
+
 The sample code will open a document and find any instance of the text “your document”. A replace handler is set up to handle the logic to be applied to each resulting match found. In this case, the resulting runs are split around the text and the resulting runs highlighted. The following code example finds and highlights all instances of a particular word or a phrase in a Word document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Find-Replace/TestFile.doc).
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-FindAndHighlight-FindAndHighlight.cpp" >}}
@@ -64,18 +76,25 @@ The sample code will open a document and find any instance of the text “your d
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-FindAndHighlight-ReplaceEvaluatorFindAndHighlight.cpp" >}}
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-FindAndHighlight-SplitRun.cpp" >}}
+
 ### **The Result**
+
 Each resulting match is highlighted yellow, even those matches that have different formatting and span across multiple runs.
 
 ![todo:image_alt_text](http://i.imgur.com/GtyZdQd.png)
+
 ## **Find and Replace Text using Meta-Characters**
+
 ### **How to Preserve Meta-Characters During Replacement**
+
 If you want to preserve meta-characters beginning with "&" during find and replace process, you can use FindReplaceOptions.PreserveMetaCharacters property. The following code example shows how to find a text and replace it with HTML that has meta-characters.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-ReplaceHtmlTextWithMetaCharacters-ReplaceHtmlTextWithMetaCharacters.cpp" >}}
 
 {{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Find-Replace-ReplaceHtmlTextWithMetaCharacters-ReplaceHtmlFindAndInsertHtml.cpp" >}}
+
 ### **Replace Text using Meta-Characters**
+
 Range.Replace method supports breaks in both the search pattern and a replacement string. You need to use special meta-characters to specify breaks: **&p** for a paragraph break, **&b** for section break, **&m** for page break and **&l** for a manual line break. The following code example shows how to replace text that contains paragraphs and page breaks.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-MetaCharactersInSearchPattern.cpp" >}}
@@ -83,16 +102,23 @@ Range.Replace method supports breaks in both the search pattern and a replacemen
 The following code example shows how to replace certain paragraph breaks with new paragraph break and replace custom text tag with a section break.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-ReplaceTextContaingMetaCharacters.cpp" >}}
+
 ## **Ignore Text during Find and Replace**
+
 ### **Ignore Text Inside Field**
+
 Aspose.Words provides the [IgnoreFields](https://apireference.aspose.com/cpp/words/class/aspose.words.replacing.find_replace_options/#ad1d6ffd2811f93722fb7c6e7a25ca641) in the FindReplaceOptions class indicating either to ignore the text inside fields. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside fields while find and replace.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideFields.cpp" >}}
+
 ### **Ignore Text Inside Delete Revisions**
+
 Aspose.Words provides the [IgnoreDeleted](https://apireference.aspose.com/cpp/words/class/aspose.words.replacing.find_replace_options/#a64bceaeb51010a5242d4264217962883) property in the FindReplaceOptions class indicating either to ignore the text inside delete revisions. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside delete revisions.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideDeleteRevisions.cpp" >}}
+
 ### **Ignore Text Inside Insert Revisions**
+
 Aspose.Words provides the [IgnoreInserted](https://apireference.aspose.com/cpp/words/class/aspose.words.replacing.find_replace_options/#acab2ad6dcd055c092aa45aca692471d4) property in the FindReplaceOptions class indicating either to ignore the text inside insert revisions. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside insert revisions.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideInsertRevisions.cpp" >}}

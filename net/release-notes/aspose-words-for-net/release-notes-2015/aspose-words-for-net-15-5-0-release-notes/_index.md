@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-5-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.5.0](https://www.nuget.org/packages/Aspose.Words/15.5.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.5 Release Notes**
+
 ### **Major Features**
+
 There are 82 improvements and fixes in this regular monthly release. The most notable are:
 
 CustomXML nodes are removed
@@ -31,6 +34,7 @@ A document can now be rendered in a grayscale mode
 Improved Far-Eastern characters rendering for PDF embedded fonts
 
 Significantly improved time and size when rendering PDF documents with DrawingML text effects
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

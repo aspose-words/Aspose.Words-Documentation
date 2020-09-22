@@ -10,7 +10,9 @@ url: /java/public-api-changes-in-aspose-words-16-1-0/
 This page lists public API changes that were introduced in Aspose.Words 16.01.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **HtmlSaveOptions.ExportPageMargins Property Added**
+
 We have now added a new public property to HtmlSaveOptions class: 
 
 **Java**
@@ -25,7 +27,9 @@ We have now added a new public property to HtmlSaveOptions class:
 public boolean getExportPageMargins() 
 public void setExportPageMargins(boolean value)
 {{< /highlight >}}
+
 ### **ImageSaveOptions.UseGdiEmfRenderer Property Added**
+
 Now Aspose.Words could save metafiles directly without using GDI+. For now only saving to EmfPlusOnly format is supported. In Aspose.Words for .NET version this is controlled by the flag in ImageSaveOptions.
 
 **Java**
@@ -42,7 +46,9 @@ Now Aspose.Words could save metafiles directly without using GDI+. For now only 
 */
 public boolean UseGdiEmfRenderer;
 {{< /highlight >}}
+
 ### **HtmlFixedSaveOptions.ExportFormFields Property Added**
+
 We have now added a new public property to HtmlFixedSaveOptions class: 
 
 **Java**
@@ -55,9 +61,13 @@ We have now added a new public property to HtmlFixedSaveOptions class:
 public boolean getExportFormFields() 
 public void setExportFormFields(boolean value)
 {{< /highlight >}}
+
 ### **Ancient Legacy Binary DOC files supported Now.**
+
 We have added support for older binary DOC format for Word6.0/Word95 documents import. Public enum LoadFormat.DocPreWord97 renamed to DocPreWord60 to avoid confusion.
+
 ### **Public Methods Added in DocumentBuilder class to Insert Signature Lines.**
+
 Following two methods are added to DocumentBuilder class to insert signature lines. 
 
 **Java**
@@ -95,7 +105,9 @@ Following code example shows how to insert signature line.
   options.setShowDate(false);
   builder.insertSignatureLine(options);
 {{< /highlight >}}
+
 ### **Shape.SignatureLine Property Added**
+
 We have now added a new public property to Shape class. **Note! Now it is not possible to sign a signature line by digital signature in Aspose.Words.**
 
 **Java**
@@ -180,7 +192,9 @@ signatureLine.setSigner("John Doe2");
 signatureLine.setSignerTitle("Manager2");
 signatureLine.setShowDate(true);
 {{< /highlight >}}
+
 ### **A New Feature Added to Configure Document Hyphenation Options**
+
 New HyphenationOptions class has added in Aspose.Words. HyphenationOptions instance is available as a readonly property on the Document class and contains the following properties to configure document hyphenation options:
 
 **Java**
@@ -227,6 +241,7 @@ doc.getHyphenationOptions().setHyphenationZone(720);
  // 0.5 inch
 doc.getHyphenationOptions().setHyphenateCaps(false);
 {{< /highlight >}}
+
 ### **Font Substitution Warnings Improved**
 
 |**Substitution case** |**Warning text** |**Previous warning text** |
@@ -236,7 +251,9 @@ doc.getHyphenationOptions().setHyphenateCaps(false);
 |Font substitution per first available font. |"Font '<font_name>' has not been found. Using '<substitution_name>' font instead. Reason: first available font." |"Font '<font_name>' has not been found. Using '<substitution_name>' font instead." |
 |Font substitution per specified font substitutes. |"Font substitutes: '<font_name>' replaced with '<substitute_name>'." |No warning |
 |Font substitution when saving to image |"GDI+ can't load '<font_name>' font. Using '<substitution_name>' font instead." |"GDI+ doesn't support OpenType fonts with PostScript outlines. '<font_name>' font has been substituted." |
+
 ### **A New Feature Added to Get Mail Merge Regions Hierarchy**
+
 We have added the **MailMergeRegionInfo** public class and the **MailMerge.GetRegionsHierachy** public method. These allow to obtain mail merge hierarchy including child regions and fields.
 
 **Java**
@@ -294,7 +311,9 @@ assert 2 == nestedRegions.size();
 assert ((MailMergeRegionInfo)nestedRegions.get(0)).getName().equals("NestedRegion1");
 assert ((MailMergeRegionInfo)nestedRegions.get(1)).getName().equals("NestedRegion2");
 {{< /highlight >}}
+
 ### **A New Feature Added to Work Without Static Font Cache and can Use Per-document Font Settings**
+
 All methods of FontSettings class made instance methods. Static methods are replaced with static DefaultInstance property. **This is a breaking change.**
 
 **Java**
@@ -399,7 +418,9 @@ doc = new Document(inFile);
 doc.setFontSettings(fontSettings);
 doc.save(outFile);
 {{< /highlight >}}
+
 ### **FormField.removeField() method Added**
+
 We have added a capability to remove the whole form field right from the FormField object.
 
 **Java**
@@ -411,7 +432,9 @@ If there is a bookmark associated with the form field, the bookmark is not remov
 */
 public void removeField()
 {{< /highlight >}}
+
 ### **MailMerge.PreserveUnusedTags option Added**
+
 We have added a capability to preserve mustache tags that haven't been populated.
 
 **Java**
@@ -425,7 +448,9 @@ We have added a capability to preserve mustache tags that haven't been populated
 public boolean getPreserveUnusedTags() 
 public void setPreserveUnusedTags(boolean value)
 {{< /highlight >}}
+
 ### **A New Feature Added to Control Global Mail Merge Events**
+
 We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This allows to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
 
 **Java**
@@ -481,7 +506,9 @@ private class MailMergeCallbackStub implements IMailMergeCallback
     private int mTagsReplacedCounter;
 }
 {{< /highlight >}}
+
 ### **Public Fields API v2.0 - Building Arbitrary Field Using FieldBuilder**
+
 We have now provided typed access to all Microsoft Word fields, it is a good time to allow users build an arbitrary field code. We can insert a complete field code via **DocumentBuilder**, or we can insert a field of a certain type and access its code using the typed properties of a **FieldXXX** class. 
 
 Below are skeletons of proposed classes responsible for building a field. They support nested fields and arbitrary document nodes. They also expose a bunch of methods for convenient insertion of field argument and switches.

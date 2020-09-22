@@ -6,6 +6,7 @@ url: /java/insert-hyperlink-to-document/
 ---
 
 ## **Aspose.Words - Insert Hyperlink to Document**
+
 Aspose.Words uses DocumentBuilder.insertHyperlink() to insert hyperlinks to document.
 
 **Java**
@@ -19,7 +20,9 @@ builder.write("Please make sure to visit ");
 builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
 doc.save(dataDir + "AsposeAddHyperlinks.doc");
 {{< /highlight >}}
+
 ## **Docx4j - Insert Hyperlink to Document**
+
 The following code example shows how hyperlinks can be inserted to document using docx4j library.
 
 **Java**
@@ -78,10 +81,14 @@ public static Hyperlink createHyperlink(MainDocumentPart mdp, String url) {
 	}
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/inserthyperlinks/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/inserthyperlinks)
 

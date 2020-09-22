@@ -10,7 +10,9 @@ url: /java/load-in-the-rich-text-format-1-9-rtf-format/
 The following pages provide implementation details about how Aspose.Words loads a document in the RTF format.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on Rich Text Import](/words/java/annotation-features-supported-on-rich-text-import/)
 - [Custom Markup Features Supported on Rich Text Import](/words/java/custom-markup-features-supported-on-rich-text-import/)
 - [Document Features Supported on Rich Text Import](/words/java/document-features-supported-on-rich-text-import/)

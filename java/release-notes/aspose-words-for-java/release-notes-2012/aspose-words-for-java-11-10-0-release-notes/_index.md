@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-11-10-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 11.10.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-11.10.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 11.10 Release Notes**
+
 ### **What's New**
+
 There are 171 improvements and fixes in this regular monthly release. The most notable are:
 
 - Gradient fills are exported to PDF now.
@@ -28,6 +31,7 @@ There are 171 improvements and fixes in this regular monthly release. The most 
 - Supported Asian Typography hanging punctuation.
 - Multiple improvements in RTL layout.
   For a list of changes to the public API in this release refer to the following article in the documentation. 
+
 ## **All Fixes**
 
 |**Key** |**Summary** |**Category** |

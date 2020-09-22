@@ -6,6 +6,7 @@ url: /java/delete-row-by-bookmark-in-jython/
 ---
 
 ## **Aspose.Words - Delete Row By Bookmark**
+
 To Delete Row By Bookmark using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 **Jython Code**
@@ -26,7 +27,9 @@ def delete_row_by_bookmark(self, doc, bookmarkName):
     # Remove the row.
     row.remove()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

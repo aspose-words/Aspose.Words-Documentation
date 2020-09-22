@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-16-12-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 16.12.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.12.0/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 83 improvements and fixes in this regular monthly release. The most notable are:
 
 - Support of Hijri/Hebrew/Japanese/ThaiBuddhist and other Lunar and non-Gregorian Calendars
@@ -27,6 +29,7 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 - Path gradient fill support while rendering SVG implemented
 - Leader lines rendering for all DrawingML Chart types (not only for pie-charts) implemented
 - Styles are now properly applied for DrawingML Charts while rendering
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -114,11 +117,19 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14490|Value of ResourceLoadingArgs.Uri is ignored during HTML import|Regression|
 |WORDSNET-14534|Document.UpdateFields throws System.NullReferenceException|Regression|
 |WORDSNET-14549|System.NullReferenceException is thrown when docx is saved to pdf|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 16.12.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **WORDSJAVA-1447 - Pass RenderingHints as a parameter in ImageSaveOptions**
+
 ImageSaveOptions.GraphicsQualityOptions is added so user can pass RenderingHints (TextRenderingHint, InterpolationMode etc.) as a parameter of GdiRenderer:
+
 ### **WORDSNET-14364 - REVNUM field supported**
+
 We have added the support for the REVNUM field. It can be updated now:
+
 ### **WORDSNET-14365 - INFO field supported**
+
 We have added the support for the INFO field. It can be updated now:

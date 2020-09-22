@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-19-6-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 19.6](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.6).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Enhanced the image scaling workflow.
 - Improved the charset recognition process.
 - API's codebase is upgraded to the version Aspose.Words for Java 19.6

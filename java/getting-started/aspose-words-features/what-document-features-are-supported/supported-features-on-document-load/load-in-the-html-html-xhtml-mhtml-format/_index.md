@@ -10,7 +10,9 @@ url: /java/load-in-the-html-html-xhtml-mhtml-format/
 The following pages provide implementation details about how Aspose.Words loads a document in HTML based formats: HTML, XHTML, and MHTML.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on HTML Import](/words/java/annotation-features-supported-on-html-import/)
 - [Custom Markup Features Supported on HTML Import](/words/java/custom-markup-features-supported-on-html-import/)
 - [Document Features Supported on HTML Import](/words/java/document-features-supported-on-html-import/)

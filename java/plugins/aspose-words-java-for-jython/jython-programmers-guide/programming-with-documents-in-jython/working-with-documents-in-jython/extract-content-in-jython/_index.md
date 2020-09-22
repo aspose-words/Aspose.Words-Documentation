@@ -6,6 +6,7 @@ url: /java/extract-content-in-jython/
 ---
 
 ## **Aspose.Words - Extract Content**
+
 To Extract Content from document using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 **Jython Code**
@@ -49,7 +50,9 @@ def extract_content_between_block_level_nodes(self, doc):
     # Save the generated document to disk.
     doc.save(self.dataDir + "TestFile.DuplicatedContent Out.doc")
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

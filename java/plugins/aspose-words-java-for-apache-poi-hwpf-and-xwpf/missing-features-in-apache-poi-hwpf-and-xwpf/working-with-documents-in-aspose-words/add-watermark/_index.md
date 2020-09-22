@@ -12,7 +12,9 @@ You can try to add watermark and view the results online at this link:
 <https://products.aspose.app/words/watermark>
 
 {{% /alert %}} 
+
 ## **Aspose.Words - Add Watermark**
+
 Sometimes you need to insert a watermark into a Word document, for instance, if you would like to print a draft document or mark it as confidential.
 
 In Microsoft Word, you can quickly insert a watermark using the Insert Watermark option. Not many people using this command realize that such “watermark” is just a shape with text inserted into a header or footer and positioned in the centre of the page.
@@ -79,10 +81,14 @@ private static void insertWatermarkIntoHeader(Paragraph watermarkPara, Section s
     header.appendChild(watermarkPara.deepClone(true));
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithdocument/addwatermark/AsposeWatermarks.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithdocument/addwatermark/AsposeWatermarks.java)
 

@@ -6,6 +6,7 @@ url: /net/extract-image-from-word-document/
 ---
 
 ### **OpenXML**
+
 {{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string File = FilePath + "Extract Image - OpenXML.docx";
@@ -24,7 +25,9 @@ url: /net/extract-image-from-word-document/
       }
    }
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 {{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";
   string File = FilePath + "Extract Image - Aspose.docx";
@@ -48,11 +51,15 @@ url: /net/extract-image-from-word-document/
     }
   }
 {{< /highlight >}}
+
 ### **Download Running Example**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
+
 ### **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/SourceControl/latest#Aspose.Words VS OpenXML/Extract Image/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML/Extract%20Image)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7/view/SourceCode#content)

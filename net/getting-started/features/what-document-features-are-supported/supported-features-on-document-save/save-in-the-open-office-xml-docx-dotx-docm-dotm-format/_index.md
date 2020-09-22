@@ -10,7 +10,9 @@ url: /net/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/
 The following tables provide implementation details about how Aspose.Words saves a document in the DOCX, DOT, DOCM, DOTM formats.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on DOCX Export](/words/net/annotation-features-supported-on-docx-export)
 - [Custom Markup Features Supported on DOCX Export](/words/net/custom-markup-features-supported-on-docx-export)
 - [Document Features Supported on DOCX Export](/words/net/document-features-supported-on-docx-export)

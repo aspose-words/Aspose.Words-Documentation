@@ -6,6 +6,7 @@ url: /java/check-format-in-python/
 ---
 
 ## **Aspose.Words - Check Format**
+
 **Python Code**
 
 {{< highlight csharp >}}
@@ -56,7 +57,9 @@ print "Unknown format."
     destFile = destFileObj.getPath()
     shutil.copy(fileName, destFile)
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Check Format (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Python/tests/loadandsaving/checkformat/CheckFormat.py)

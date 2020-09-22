@@ -49,7 +49,9 @@ doc.MailMerge.Execute(customersDs.Tables["Customer"]);
 // Save the output document.
 doc.Save(dataDir + "Customer Info.doc");
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/Missing-Features-in-6a2c882b)

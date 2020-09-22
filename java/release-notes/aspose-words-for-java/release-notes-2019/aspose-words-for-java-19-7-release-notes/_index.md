@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-19-7-release-notes/
 This page contains release notes for [Aspose.Words for Java 19.7](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.7).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Cryptographic libraries are updated to eliminate known possible security vulnerabilities.
 - Aspose.Words.jdk16.jar compatibility with old Java 6,7 and 8 environments.
 - Implemented basic reader and writer for Markdown format.
@@ -34,6 +36,7 @@ This page contains release notes for [Aspose.Words for Java 19.7](https://reposi
 - Improved rendering of DML charts with scaled date axis.
 - Language settings in the format code are now taken into account when rendering DML charts.
 - Fixed a bug with rendering of the Pie chart with empty series.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -126,11 +129,14 @@ This page contains release notes for [Aspose.Words for Java 19.7](https://reposi
 |WORDSNET-12847|Cell's contents are render in two lines in output PDF|Bug|
 |WORDSNET-12705|VML shape in improperly converted from DOCX to PDF|Bug|
 |WORDSNET-13327|Horizontally merged cells are ignored in PDF after calling Document.UpdateTableLayout|Bug|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
 
 ### **Added property Revision.Group**
+
 Related issue: WORDSNET-18418
 
 Added the following new property to the Revision class:
@@ -162,7 +168,9 @@ foreach (Revision revision in doc.Revisions)
     Console.WriteLine(groupText);
 }
 {{< /highlight >}}
+
 ### **Implemented basic reader and writer for Markdown features**
+
 Related issue: WORDSNET-18338.
 
 For a moment the following Markdown features are supported:
@@ -377,6 +385,7 @@ doc.Save("QuotesModifiedExample.md");
 
 
 ### **Implemented feature to detect SmartArt shape**
+
 Related issue: WORDSNET-18745.
 
 Added the following new property to a Shape class:
@@ -403,12 +412,14 @@ Console.WriteLine("The document has {0} shapes with SmartArt.", count);
 
 
 ### **Supported dynamic list numbering restart for LINQ Reporting Engine**
+
 Issue: WORDSNET-17234
 
 The "[Restarting List Numbering Dynamically](/words/java/restarting-list-numbering-dynamically/)" section of the engine's documentation was added to describe the change.
 
 
 ### **WORDSNET-11297 - Implemented public API for dealing with linked textboxes**
+
 New public properties and methods were added into the TextBox class.
 
 A public property for getting parent shape from text box was added to allow customer to find linked Shape from linked TextBox.

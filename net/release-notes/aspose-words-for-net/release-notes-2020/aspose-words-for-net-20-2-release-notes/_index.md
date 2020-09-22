@@ -10,10 +10,13 @@ url: /net/aspose-words-for-net-20-2-release-notes/
 This page contains release notes for [Aspose.Words for .NET 20.2](https://www.nuget.org/packages/Aspose.Words/20.2.0).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Loading PDF documents is now supported by Aspose.Words for .NET Standard.
 - Background shape texture image is now rendered the same way as in print layout of MS Word with a 100% scale.
 - Supported dynamic insertion of documents and images from Base64-encoded bytes and dynamic checkbox value setting for the LINQ Reporting Engine.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -77,10 +80,12 @@ This page contains release notes for [Aspose.Words for .NET 20.2](https://www.nu
 |WORDSNET-18880|The issue with table position and UpdateTableLayout method|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.2. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 
 ### **Loading PDF documents is now supported by Aspose.Words for .NET Standard**
+
 Loading PDF documents is now supported by Aspose.Words for .NET Standard. This the first file format codec included as a plugin in Aspose.Words. To make loading PDF documents work in your .NET Core application, you should add a reference to Aspose.Words.Pdf2Word.dll, or simply add Nuget reference to Aspose.Words. Loading PDF documents is as simple as loading a regular Word document.
 
 {{< highlight csharp >}}
@@ -91,7 +96,9 @@ Document doc = new Document(“in.pdf”);
 If you would like to load a password-protected PDF document, you can specify a password via LoadOptions. Also using new public class PdfLoadOptions, you can specify pages range in the PDF document to load.
 
 New LoadFormat.Pdf was added and the behavior of FileFormatUtil.DetectFileFormat changed accordingly to detect PDF documents.
+
 ### **FieldMergingArgsBase.FieldValue made settable**
+
 Related issue: WORDSNET-19750
 
 The customer was using the FieldMergingArgs.Text property and wanted the provided value to be formatted according to the format specified in the field being merged. We have made the FieldMergingArgsBase.FieldValue property settable so that instead of setting Text the user can set FieldValue which takes formatting into account instead of simply replacing the field.
@@ -113,6 +120,7 @@ public object FieldValue
 
 
 ### **Supported dynamic insertion of documents and images from Base64-encoded bytes and dynamic checkbox value setting for LINQ Reporting Engine**
+
 **Issues:** WORDSNET-19859 and WORDSNET-19561
 
 The following sections of the engine's documentation were updated/added to describe the changes:
@@ -122,7 +130,9 @@ The following sections of the engine's documentation were updated/added to descr
 - [Working with Content Controls](/words/net/template-syntax/#templatesyntax-workingwithcontentcontrols)
 - [Setting Checkbox Values Dynamically](/words/net/template-syntax/#templatesyntax-settingcheckboxvaluesdynamically)
 - [Setting Content Control Titles Dynamically](/words/net/template-syntax/#templatesyntax-settingcontentcontroltitlesdynamically)
+
 ### **Word 2019 version set by default**
+
 Ref: WORDSNET-19908
 
 Due to the fact that submissions to the support service regarding different default spacing values for the paragraph have become more frequent, it was decided to change the default version of MS Word. Now, this version is MSWordVersion.Word2019. In most cases, the issue appeared when the customers created documents in WPS Office that do not write default spacing values for the paragraph in a document to be saved. When opening such documents in Aspose.Words, the values actual for MSWord 2007 were substituted because it was the default version before this release.

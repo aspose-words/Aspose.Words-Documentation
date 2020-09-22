@@ -14,7 +14,9 @@ There is a setting to export paragraph and character styles as inline CSS (style
 Character styles often are saved with .span prefix.
 
 {{% /alert %}} 
+
 ##### **Style Type**
+
 Style type itself is not exported to CSS but it is implied by the specific attributes exported to that style.
 
 There is a setting to export paragraph and character styles as inline CSS (style), embedded or linked CSS style sheet (class).
@@ -27,6 +29,7 @@ Character styles often are saved with .span prefix.
 |Character Style |Yes | | |
 |List Style |Planned | | |
 |Table Style |Planned | | |
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -40,12 +43,14 @@ Character styles often are saved with .span prefix.
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
 |Bullets and Numbering |Yes |Output as inline styles. | |
+
 ##### **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |N/A | | |
 |Run Properties |N/A | | |
+
 ##### **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

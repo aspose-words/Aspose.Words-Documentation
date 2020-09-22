@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-17-1-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 17.1.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.1.0/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 80 improvements and fixes in this regular monthly release. The most notable are:
 
 - TxtSaveOptions.ForcePageBreaks public property
@@ -29,6 +31,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 - Improved extracting document outline when TOC headings contain hidden entries
 - Fixed positioning issue with Arabic list labels
 - Fixed height issue with LTR list labels in RTL paragraphs
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 
@@ -123,6 +126,7 @@ This section lists public API changes that were introduced in Aspose.Words 17.1.
 
 
 ### **SaveOptions.MemoryOptimization Property Added**
+
 When dealing with very large and complex documents Aspose.Words sometimes had problems during saving resulting in out of memory exceptions, disk swapping and generally failures.
 
 We've introduced an option to optimize memory consumption during these scenarios. When set to true it will improve document memory footprint but will add extra time to processing. This optimization is only applied during save operation.
@@ -136,13 +140,16 @@ public boolean MemoryOptimization {get;set;}
 {{< /highlight >}}
 
 ##### **Usage Example:**
+
 {{< highlight csharp >}}
 Document doc = new Document("myDoc.docx");
 SaveOptions so = SaveOptions.createSaveOptions(SaveFormat.PDF);
 so.setMemoryOptimization(true);
 doc.save("myFile.pdf", so);
 {{< /highlight >}}
+
 ### **FrameFormat Class for getting Frame related Properties of a Paragraph Added**
+
 Available to API users as Paragraph.FrameFormat. This class exposes all frame properties of paragraph in "readonly" mode
 
 {{< highlight csharp >}}
@@ -157,6 +164,7 @@ public class FrameFormat
 
 
 ### **WORDSNET-14405 - TxtSaveOptions.ForcePageBreaks Property Added**
+
 New public property ForcePageBreaks is added into the TxtSaveOptions class:
 
 {{< highlight csharp >}}

@@ -6,6 +6,7 @@ url: /java/convert-document-to-html/
 ---
 
 ## **Aspose.Words - Convert Document to HTML**
+
 To convert a document to other formats using Aspose.Words, simply invoke the save()}}method of {{Document class and specify a file name with the desired and supported extension.
 Aspose.Words allows exporting or converting word documents to PDF, XPS, XamlFixed, XamlFlow, XamlFlowPack, EPUB, HTML, HtmlFixed, OpenXPS, PostScript, TXT and popular image/multimedia file formats including TIFF, JPG, PNG, BMP, SVG, SVG and SWF.
 
@@ -20,7 +21,9 @@ doc.save(dataDir + "Aspose_DocToPDF.pdf",SaveFormat.PDF); //Save the document in
 doc.save(dataDir + "Aspose_DocToTxt.txt",SaveFormat.TEXT); //Save the document in TXT format.
 doc.save(dataDir + "Aspose_DocToJPG.jpg",SaveFormat.JPEG); //Save the document in JPEG format.
 {{< /highlight >}}
+
 ## **docx4j - Convert Document to HTML**
+
 This sample uses XSLT (and Xalan) to produce HTML output. (There is also HtmlExporterNonXSLT for environments where that is not desirable e.g. Android). If the source docx contained a WMF, that will get converted to inline SVG. In order to see the SVG in your browser, you'll need to rename the file to .xml or serve it with MIME type application/xhtml+xml
 
 **Java**
@@ -74,10 +77,14 @@ Docx4J.toHTML(htmlSettings, os, Docx4J.FLAG_EXPORT_PREFER_XSL);
 //		Docx4J.toHTML(htmlSettings, os, Docx4J.FLAG_EXPORT_PREFER_NONXSL);
 System.out.println("Saved: " + inputfilepath + ".html ");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/converttoformats/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/converttoformats)
 

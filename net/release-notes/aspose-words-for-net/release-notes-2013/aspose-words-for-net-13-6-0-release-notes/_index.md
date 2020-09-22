@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-13-6-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 13.6.0](https://www.nuget.org/packages/Aspose.Words/13.6.0)
 
 {{% /alert %}} 
+
 ## **What's New**
+
 There are 132 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved algorithm of content width calculation inside table cells.
@@ -21,6 +23,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 - Many HTML and MHTML import improvements.
 - Material when rendering VML objects with 3D effects.
 - PDF form fields rendering improvements.
+
 ## **All Fixes**
 
 |**Key**|**Summary**|**Category**|

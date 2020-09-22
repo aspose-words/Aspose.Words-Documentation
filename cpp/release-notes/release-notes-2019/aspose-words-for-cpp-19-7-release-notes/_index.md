@@ -10,9 +10,13 @@ url: /cpp/aspose-words-for-cpp-19-7-release-notes/
 This page contains release notes for [Aspose.Words for C++ 19.7](https://www.nuget.org/packages/Aspose.Words.CPP/19.7)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 We have reworked culture related subsystem of the library and have made it more similar to Aspose.Words for .Net and .Net in general - number and date formatting and parsing, conversion between different encoding, etc.
+
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in the future releases.
 

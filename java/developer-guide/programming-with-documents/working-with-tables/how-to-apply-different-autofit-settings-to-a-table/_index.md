@@ -12,7 +12,9 @@ By default Aspose.Words inserts a new table using “**AutoFit to Window”**. T
 As in Microsoft Word, an autofit method is actually a shortcut which applies different properties to the table all at once. These properties are actually what give the table the observed behavior. We will discuss these properties for each autofit option. We will use the following table and apply the different auto fit settings as a demonstration:
 
 ![todo:image_alt_text](how-to-apply-different-autofit-settings-to-a-table_1.png)
+
 ### **AutoFitting a Table to Window**
+
 Below example autofits a table to fit the page width.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-AutoFittingATableToWindow.java" >}}
@@ -32,7 +34,9 @@ When autofit to window is applied to a table the following operations are actual
    The end result is a table that occupies all available width. The widths of the columns in the table change automatically as the user edits text in MS Word.
 
 {{% /alert %}} 
+
 ### **AutoFitting a Table to Contents**
+
 Below example autofits a table in the document to its contents.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-AutoFittingATableToContents.java" >}}
@@ -54,7 +58,9 @@ When a table is auto fitted to contents the following steps are actually underta
 Note that this autofit option clears the preferred widths from the cells just like in Microsoft Word. If you want to preserve the column sizes and have the columns further grow or shrink to fit content then you should set the [Table.getAllowAutoFit()](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/getAllowAutoFit\(\)/) property to True on its own instead of using the autofit shortcut.
 
 {{% /alert %}} 
+
 ### **Disabling AutoFitting on a Table and Use Fixed Column Widths**
+
 Below example disables autofitting and enables fixed widths for the specified table.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-DisablingAutoFittingOnATableAndUseFixedColumnWidths.java" >}}

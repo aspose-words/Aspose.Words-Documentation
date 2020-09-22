@@ -10,7 +10,9 @@ url: /net/appendix-b-technical-faq/
 This section reveals some technical aspects and implementation details related to LINQ Reporting Engine. This information can be useful for you while making design decisions for your applications. The information is provided in a question-answer form.
 
 {{% /alert %}} 
+
 ## **How is the type of an enumeration item implicitly determined by the engine in template expressions?**
+
 If you do not specify the type of an enumeration item in a foreach statement or lambda function signature within your template explicitly, the type is implicitly determined by the engine from the type of the enumeration as follows:
 
 1. If the enumeration represents a DataTable instance, then the item type is DataRow.
@@ -19,7 +21,9 @@ If you do not specify the type of an enumeration item in a foreach statement or 
 1. Otherwise, if the enumeration represents child rows of a DataRow instance, then the item type is DataRow.
 1. Otherwise, if the enumeration implements generic IEnumerable&lt;T&gt;, then the item type is a type argument corresponding to T. Note, that the engine does not support enumerations that implement IEnumerable&lt;T&gt; multiple times using different type arguments.
 1. Otherwise, the item type is Object.
+
 ## **Does the engine cooperate with LINQ providers?**
+
 The engine does not cooperate with [LINQ providers](http://msdn.microsoft.com/en-us/library/vstudio/bb882640\(v=vs.110\).aspx). To be aware of the consequences of this feature, consider the following example. Assume, that you have the City and Person classes defined in your application as follows.
 
 {{< highlight csharp >}}
@@ -61,7 +65,9 @@ SELECT *
 {{< /highlight >}}
 
 That is, the engine makes an eager call before applying its built-in extension methods. In some cases, this feature can lead to a significant performance overhead. So, if the performance of your application is your primary concern, then consider a preparing of your sequential data outside your templates. That is, pass to the engine a sequential data that is already filtered, ordered, grouped, and so forth.
+
 ## **Have I do something special to merge the Aspose.Words assembly with another assembly?**
+
 You can normally use a tool like [ILMerge](http://research.microsoft.com/en-us/people/mbarnett/ilmerge.aspx) to merge the Aspose.Words assembly with another assembly. However, if you use a functionality of the LINQ Reporting Engine, add the following attribute to the target assembly.
 
 {{< highlight csharp >}}

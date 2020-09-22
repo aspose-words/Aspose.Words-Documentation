@@ -6,6 +6,7 @@ url: /net/find-and-replace-in-php/
 ---
 
 ## **Aspose.Words - Find and Replace Example**
+
 Find and Replace Example
 
 **PHP Code**
@@ -28,7 +29,9 @@ Find and Replace Example
         $doc->Save($dataDir . "/ReplaceSimple Out.doc");
         print "Text found and replaced successfully.\nFile saved at " . $dataDir . "ReplaceSimple Out.doc" . PHP_EOL;
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Find and Replace Example (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Plugins/Aspose_Words_NET_for_PHP/src/aspose/words/quickstart/FindAndReplace.php)

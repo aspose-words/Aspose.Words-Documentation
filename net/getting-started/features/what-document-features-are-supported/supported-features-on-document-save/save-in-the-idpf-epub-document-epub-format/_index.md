@@ -10,7 +10,9 @@ url: /net/save-in-the-idpf-epub-document-epub-format/
 The following tables provide details about how Aspose.Words saves document in the EPUB format. All EPUB documents produced by Aspose.Words are made to pass validation.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on EPUB Export](/words/net/annotation-features-supported-on-epub-export/)
 - [Custom Markup Features Supported on EPUB Export](/words/net/custom-markup-features-supported-on-epub-export/)
 - [Document Features Supported on EPUB Export](/words/net/document-features-supported-on-epub-export/)

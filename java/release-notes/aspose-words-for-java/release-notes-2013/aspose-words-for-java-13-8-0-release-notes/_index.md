@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-13-8-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 13.8.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-13.8.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 13.8 Release Notes**
+
 ### **What's New**
+
 There are 159 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Rendering to PostScript 3.0 is now supported

@@ -10,14 +10,18 @@ url: /cpp/aspose-words-for-cpp-19-12-release-notes/
 This page contains release notes for [Aspose.Words for C++ 19.12](https://www.nuget.org/packages/Aspose.Words.CPP/19.12)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 This is a regular monthly release, we continue to add features from Aspose.Words for .Net:
 
 - Conversion to PDF 1.7 standard is now supported.
 - User-installed fonts are now supported upon using SystemFontSource on Windows10.
 - New public properties of Bookmark are exposed.
 - OLE object data is exposed to public API.
+
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 
@@ -28,6 +32,7 @@ The missing features will be added in future releases.
 - The current release does not support LINQ and Reporting features.
 - The current release has limited support for database features - C++ does not have common API for DB like .Net System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -127,11 +132,14 @@ The missing features will be added in future releases.
 |WORDSNET-19249|Harfbuzz causes an exception in x64 environment|Bug|
 |WORDSNET-18223|The list numbers are lost after comparing documents using Document.Compare|Bug|
 |WORDSNET-14466|Empty page gets added to the PDF when converting from DOCX|Bug|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 
 ### **Added ability to clone VbaProject and VbaModule**
+
 Related issue: WORDSNET-19556
 
 Added a Clone() method for a VbaProject:
@@ -177,7 +185,9 @@ VbaModule copyModule = sourceDoc.VbaProject.Modules["Module1"].Clone();
 destDoc.VbaProject.Modules.Add(copyModule);
 destDoc.Save("output.docm", );
 {{< /highlight >}}
+
 ### **Added ability to get access to OLE object raw data**
+
 WORDSNET-18897: added a feature to get access to OLE object raw data.
 
 {{< highlight csharp >}}
@@ -195,7 +205,9 @@ Document doc = new Document(filename);
 Shape oleShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 byte[] oleRawData = shape.OleFormat.GetRawData();
 {{< /highlight >}}
+
 ### **Added a new FindReplaceOptions.UseLegacyOrder option**
+
 Related issue: WORDSNET-19357.
 
 Some time ago, the Find/Replace method was redesigned in accordance with Word's behavior. In the current behavior, text boxes are analyzed separately from traversal the contents of the document. However, sometimes it is required that the text find/replace occurs sequentially considering the text in the text boxes. To allow users to choose an appropriate behavior, the following option was introduced in FindReplaceOptions class:
@@ -213,6 +225,7 @@ public bool UseLegacyOrder
 
 
 ##### **Use Case: In the example, the text "2" is in the text box.**
+
 {{< highlight csharp >}}
 
 // Open the document.
@@ -237,7 +250,9 @@ private class ReplacingCallback : IReplacingCallback
 
 //    If useLegacyOrder is false: [1][3][2]
 {{< /highlight >}}
+
 ### **Added new RtfSaveOption.SaveImagesAsWmf**
+
 Related issue: WORDSNET-19419
 
 Added the following new RtfSaveOption:
@@ -260,7 +275,9 @@ RtfSaveOptions saveOpts = new RtfSaveOptions();
 saveOpts.SaveImagesAsWmf = true;
 doc.Save("output.rtf", saveOpts);
 {{< /highlight >}}
+
 ### **Conversion to PDF 1.7 standard is now supported**
+
 Added by Denis Panov, last edited by Andrey Noskov on Dec 04, 2019 (view change)
 Task: WORDSNET-11083 - Support converting to PDF 1.7(Subtask - WORDSNET-19508)
 
@@ -304,6 +321,7 @@ originalDoc.Save(@"C:\PathToSource\Output.pdf");
 
 
 ### **New public properties of Bookmark are exposed**
+
 Issue WORDSNET-12678.
 
 The following new public properties have been added into the Bookmark class:
@@ -353,13 +371,17 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
     }
 }
 {{< /highlight >}}
+
 ### **Supported access to related DataTable using relation name for LINQ Reporting Engine**
+
 Issue: WORDSNET-19238
 
 The following sections of the engine's documentation were updated to describe the change:
 
 - "[Working with DataRow and DataRowView Objects](https://docs.aspose.com/display/wordsnet/Template+Syntax#TemplateSyntax-WorkingwithDataRowandDataRowViewObjects)"
+
 ### **User-installed fonts are now supported upon using SystemFontSource on Windows10**
+
 Issue WORDSNET-19531
 
 On Windows 10 fonts may be installed either into system folder "%windir%\fonts" for all users or into user folder "%userprofile%\AppData\Local\Microsoft\Windows\Fonts" for the current user. Previously for SystemFontSource AW scanned only system-installed fonts. Now AW also scans user-installed fonts for SystemFontSource.

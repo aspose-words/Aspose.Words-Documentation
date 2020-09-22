@@ -10,7 +10,9 @@ url: /java/load-in-the-open-office-xml-2007-an-2010-docx-dotx-docm-dotm-format/
 The following pages provide implementation details about how Aspose.Words loads a document in the DOCX, DOTX, DOCM, DOTM formats.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on DOCX Import](/words/java/annotation-features-supported-on-docx-import/)
 - [Custom Markup Features Supported on DOCX Import](/words/java/custom-markup-features-supported-on-docx-import/)
 - [Document Features Supported on DOCX Import](/words/java/document-features-supported-on-docx-import/)

@@ -6,6 +6,7 @@ url: /java/convert-document-to-other-formats-in-jython/
 ---
 
 ## **Aspose.Words - Convert Document to Other Formats**
+
 To Convert Document to Other Formats using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 **Jython Code**
@@ -36,7 +37,9 @@ class ConvertToFormats:
 if __name__ == '__main__':
     ConvertToFormats()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

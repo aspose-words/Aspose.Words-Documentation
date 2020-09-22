@@ -6,6 +6,7 @@ url: /sharepoint/aspose-words-for-sharepoint-documentation/
 ---
 
 ###### **This section includes the following topics:**
+
 - [Introducing Aspose.Words for SharePoint](/words/sharepoint/introducing-aspose-words-for-sharepoint/)
 - [Supported Document Formats](/words/sharepoint/supported-document-formats/)
 - [Features](/words/sharepoint/features/)

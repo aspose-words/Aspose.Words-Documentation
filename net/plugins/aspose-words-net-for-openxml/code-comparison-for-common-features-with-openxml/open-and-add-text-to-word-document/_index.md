@@ -6,6 +6,7 @@ url: /net/open-and-add-text-to-word-document/
 ---
 
 ### **OpenXML Word**
+
 Following are the namespace we need to use:
 
 {{< highlight csharp >}}
@@ -39,7 +40,9 @@ run.AppendChild(new Text(txt));
 wordprocessingDocument.Close();
 }
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string File = FilePath + "Open and add text.docx";
@@ -56,7 +59,9 @@ font.Underline = Underline.Dash;
 builder.Write("Insert text");
 doc.Save(File);
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

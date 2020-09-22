@@ -6,7 +6,9 @@ url: /java/working-withtables-in-php/
 ---
 
 ## **Aspose.Words - Working WithTables**
+
 ## **Auto Fit Tables**
+
 **Php Code**
 
 {{< highlight csharp >}}

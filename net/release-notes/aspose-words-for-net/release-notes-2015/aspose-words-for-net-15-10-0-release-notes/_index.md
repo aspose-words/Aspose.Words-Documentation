@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-10-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.10.0](https://www.nuget.org/packages/Aspose.Words/15.10.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.10 Release Notes**
+
 ### **Major Features**
+
 There are 85 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improvements in text wrapping around shapes and frames
@@ -20,6 +23,7 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 - Ruby is supported in HTML export
 - Ruby import/export is supported for OpenDocument (ODT) documents
 - DrawingML Charts can be rendered into images using ShapeRenderer
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

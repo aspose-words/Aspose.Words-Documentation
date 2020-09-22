@@ -12,14 +12,18 @@ This page contains release notes for [Aspose.Words for .NET 6.0.0](http://www.as
 {{% /alert %}} 
 
 We celebrate 5 years of Aspose.Words by delivering to you another set of great features in this Aspose.Words for .NET 6.0 release.
+
 ## **New Features**
+
 - Direct conversion to PDF
 - Printing and imaging
 - Saving pages as images
 - Full DrawingML support
 - MHTML import
 - EPUB export (Beta)
+
 ## **Rendering Engine**
+
 The main theme of Aspose.Words for .NET 6.0 is the Rendering Engine that finally makes it possible to print, render to images and convert documents to PDF directly.
 
 Word® documents do not contain information about where each page starts and ends and where on the page each element is located. Such documents are called “flow-layout” documents. The task of the Rendering Engine is to take a “flow-layout” document and allocate content into pages to create a “fixed-page” document.
@@ -29,7 +33,9 @@ The Aspose.Words Rendering Engine has been designed to format a document into pa
 Our work never ends. Although this is version 6.0 for Aspose.Words, it is only “version 1.0” for the Rendering Engine. The list of document features that are rendered well is great, but we are of course to ship more versions that will render documents even better.
 
 I would like to thank the team who worked on the engine painstakingly trying to recreate the many quirks of Microsoft Word’s page layout behavior.I would also like to thank all customers who have been waiting for this feature for 5 years!
+
 ## **Direct Conversion to PDF**
+
 It has been possible to convert Word documents to PDF with Aspose.Words for .NET for long time, but it required two components Aspose.Words and Aspose.Pdf operating together. This conversion works well, but the fact that two products are involved has its costs for customers.
 
 With the introduction of the Rendering Engine and making Aspose.Words convert documents to PDF directly it becomes possible to serve our customers much better. Using the Aspose.Words’ direct to PDF conversion gives you the following advantages:
@@ -44,7 +50,9 @@ With the introduction of the Rendering Engine and making Aspose.Words convert do
 To start using direct conversion to PDF in Aspose.Words, see methods.
 
 The legacy conversion that requires Aspose.Words and Aspose.Pdf is still available and will be supported throughout 2009.
+
 ## **Printing and Imaging**
+
 Being able to print Word® documents in any server or client application without utilizing Microsoft Word® has been a dream for many and for long. Aspose.Words for .NET 6.0 makes it possible. 
 
 The same document Rendering Engine can output to a .NET Graphics object and it opens endless prospects for Aspose.Words customers:
@@ -55,23 +63,31 @@ The same document Rendering Engine can output to a .NET Graphics object and it o
 - View. Create images or thumbnails of document pages to any size, scale or rotation to view them in an application or in the browser. 
 
 See the new , , and methods for more information.
+
 ## **Full DrawingML Support**
+
 DrawingML is a part of the Office Open XML standard and describes the XML used to store drawing objects in Microsoft Office 2007 documents. Microsoft Word 2007 uses either DrawingML or VML (Vector Markup Language) to store images in documents.
 
 Starting with this release, Aspose.Words for .NET 6.0 supports the full set of DrawingML used by Microsoft Word 2007. It is now possible to use Aspose.Words to load and save OOXML documents with VML as well as with DrawingML. In earlier versions of Aspose.Words support for DrawingML was limited to inline images only.
 
 To benefit from this feature all you need to do is download and use the latest Aspose.Words for .NET.
+
 ## **MHTML Import**
+
 MHTML is a “single file web page” format. MHTML is a way to save HTML with all related images and other resources into a single file.
 
 Saving documents as MHTML has been available in Aspose.Words for several months already and the ability to load MHTML files is a logical next step.
 
 Loading and saving documents as MHTML is fully integrated in Aspose.Words. Use constructors to load a file in any format and to save in any format. Also see the and enumerations.
+
 ## **EPUB Export (Beta)**
+
 We are happy to announce our initial support for saving documents in the EPUB format.
 
 EPUB is an open standard for eBooks that is rapidly gaining adoption by publishers and distributors. EPUB has been adopted by Adobe as a complement to PDF for reflow-centric eBooks. Specs are available at .
+
 ## **Fixes and Enhancements**
+
 Issue ID || 
 Component || 
 Summary ||

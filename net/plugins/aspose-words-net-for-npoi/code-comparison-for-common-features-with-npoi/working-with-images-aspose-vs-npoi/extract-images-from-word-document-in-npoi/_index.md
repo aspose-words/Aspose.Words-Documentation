@@ -6,6 +6,7 @@ url: /net/extract-images-from-word-document-in-npoi/
 ---
 
 ## **Aspose.Words - Extract Images from Document**
+
 To extract all images or images having specific type from the document, follow these steps:
 
 - Use the **Document.GetChildNodes** method to select all **Shape** nodes.
@@ -29,7 +30,9 @@ To extract all images or images having specific type from the document, follow t
     }
   }
 {{< /highlight >}}
+
 ## **NPOI HWPF XWPF - Extract Images from Document**
+
 Below is the code for extracting images from word document:
 
 **C#**
@@ -45,13 +48,17 @@ Below is the code for extracting images from word document:
     outputStream.Close();
  }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Extract Images from Document** from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/SourceControl/latest#Aspose.Words_NPOI.HWPF and XWPF/Aspose.Words Vs NPOI HWPF and XWPF v1.1/Extract Images from Word Document/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Extract%20Images%20from%20Word%20Document)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
+
 ## **Download Sample Code**
+
 Download **Extract Images from Document** from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/releases/view/617696)

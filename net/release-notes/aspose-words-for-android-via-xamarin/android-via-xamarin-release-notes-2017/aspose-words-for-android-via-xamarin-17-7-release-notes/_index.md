@@ -14,7 +14,9 @@ This is a regular monthly release. 'Aspose.Words for Android via Xamarin' has fu
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.7, see [Aspose.Words for .NET 17.7 release notes](/words/net/aspose-words-for-net-17-7-release-notes/) for more information.
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Rendering into PCL format (Printer Command Language) was implemented. New saving format introduced – “SaveFormat.Pcl”. Please note that custom fonts is not yet supported.
 - The proper algorithm for rendering of shapes with automatic size textboxes (i.e. closest to MS Word output) implemented.
 - The rendered PDF documents can now show the document title in the title bar of the viewer. This is controlled by “PdfSaveOptions.DisplayDocTitle” property.

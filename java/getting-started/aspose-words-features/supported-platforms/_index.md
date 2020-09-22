@@ -6,4 +6,5 @@ url: /java/supported-platforms/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Java](/words/java/java/)

@@ -10,11 +10,14 @@ url: /net/aspose-words-for-net-19-10-release-notes/
 This page contains release notes for [Aspose.Words for .NET 19.10](https://www.nuget.org/packages/Aspose.Words/19.10.0).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Implemented DocumentDirection option that allows specifying the direction to flow the text in a document.
 - Implemented proper scaling for shapes inside 'graphicFrame' container for DrawingML rendering.
 - Improved "inline/not inline" validation for OMath objects when rendering.
 - Supported dynamic insertion of links to document bookmarks for LINQ Reporting Engine.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -93,11 +96,14 @@ This page contains release notes for [Aspose.Words for .NET 19.10](https://www.n
 |WORDSNET-5405|Table styles are always expanded in "DOC" mode|Bug|
 |WORDSNET-19246|Incorrect line width computation in the footnote.|Bug|
 |WORDSNET-12429|Tag with name 'extraClrSchemeLst' is not supported|Bug|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.10. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 
 ### **Implemented DocumentDirection option that allows specifying the direction to flow the text in a document**
+
 Related issue: WORDSNET-19067.
 
 The new public enumeration was added:
@@ -130,7 +136,9 @@ Document doc = new Document("SomeRtlText.txt", loadOptions);
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Console.WriteLine(paragraph.ParagraphFormat.Bidi);
 {{< /highlight >}}
+
 ### **Supported dynamic insertion of links to document bookmarks for LINQ Reporting Engine**
+
 Issue: WORDSNET-18920
 
 The "[Inserting Hyperlinks Dynamically](/words/net/template-syntax/#templatesyntax-insertinghyperlinksdynamically)" section of the engine's documentation was updated to describe the change.

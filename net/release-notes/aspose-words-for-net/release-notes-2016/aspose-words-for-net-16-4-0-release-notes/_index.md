@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-16-4-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 16.4.0](https://www.nuget.org/packages/Aspose.Words/16.4.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 94 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved the speed of cold document creation and loading.
@@ -19,6 +21,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 - Improved positioning of pictures inside tables.
 - PDF A1b compliancy improved.
 - DML Charts effects support improved.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |Key|Summary|Category|
@@ -117,9 +120,13 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13293|WORDSNET-12619 appears again in v16.2.0|Regression|
 |WORDSNET-13311|All text after STRONG tag contained in PRE tag becomes bold in output documents|Regression|
 |WORDSNET-13331|Width of wide cell of table is changed in output Pdf|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 16.4.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Field.Update() Overload Added**
+
 In order to fix WORDSNET-13094, we decided to introduce a way to update a field ignoring the MERGEFORMAT switch. We have added following overload:
 
 {{< highlight csharp >}}

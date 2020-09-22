@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-17-9-release-notes/
 This page contains release notes for [Aspose.Words for .NET 17.9](https://www.nuget.org/packages/Aspose.Words/17.9.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 76 improvements and fixes in this regular monthly release. The most notable are:
 
 - Caching of shading patterns for PDF output implemented. The output size of PDF documents with the repeating images (e.g. in header/footer) is now significantly reduced.
@@ -21,6 +23,7 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 - Added feature to set Placeholder Text of Structured Document Tag.
 - Added feature to support w:dirty attribute on a field.
 - Updating value of SaveDate field just by doing open/save.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -105,7 +108,9 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added LoadOptions.UpdateDirtyFields, Field.IsDirty and FieldChar.IsDirty Properties**
+
 WORDSNET-15686 has been resolved. While working on WORDSNET-15686, we have added three public properties related to the dirty (stale) state of the fields and controlling whether such fields should be updated: 
 
 LoadOptions:
@@ -140,6 +145,7 @@ When LoadOptions.UpdateDirtyFields == true, all fields having Field.IsDirty == t
 
 
 ### **Added OdtSaveOptions.MeasureUnit Property**
+
 WORDSNET-15425 has been resolved. Public property added to OdtSaveOptions class:
 
 {{< highlight csharp >}}
@@ -162,7 +168,9 @@ OdtSaveOptions saveOptions = new OdtSaveOptions();
 saveOptions.MeasureUnit = OdtSaveMeasureUnit.Inches;
 doc.Save("ХХХ.odt", saveOptions);
 {{< /highlight >}}
+
 ### **Added Public Method AsposeWordsPrintDocument.CachePrinterSettings**
+
 Related issue WORDSNET-15162.
 Public method added to AsposeWordsPrintDocument class:
 
@@ -202,7 +210,9 @@ printDocument.Print();
 
 Please note that total time of printing with and without call to CachePrinterSettings() is almost the same.
 The goal of this method is to reduce time of first call of Print() method.
+
 ### **Added Public Method StructuredDocumentTag.Clear**
+
 Ability to clear contents of a content control with displaying a placeholder is implemented.
 
 {{< highlight csharp >}}
@@ -224,7 +234,9 @@ StructuredDocumentTag sdt = (StructuredDocumentTag)doc.GetChild(NodeType.Structu
 sdt.Clear();
 doc.Save(myDir + "document1.docx");
 {{< /highlight >}}
+
 ### **Added Public Property List.IsRestartAtEachSection.**
+
 Related issue: WORDSNET-15054
 
 Public property added to the List class to support backward compatibility upon Mail Merge, please see [WORDSNET-15054](http://auckland.dynabic.com/jira/browse/WORDSNET-15054).
@@ -277,7 +289,9 @@ document.MailMerge.Execute(...);
 foreach (KeyValuePair<List, bool> pair in lists)
 	pair.Key.IsRestartAtEachSection = pair.Value
 {{< /highlight >}}
+
 ### **Added SaveOptions.UpdateLastSavedTimeProperty Property**
+
 Reference: WORDSNET-7912
 
 While working on WORDSNET-7912, we have added the SaveOptions.UpdateLastSavedTimeProperty property that controls whether to update the corresponding built-in document property on document save.

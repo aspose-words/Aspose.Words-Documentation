@@ -10,7 +10,9 @@ url: /net/save-in-the-open-xml-paper-specification-xps-format/
 The following tables provide implementation details about how Aspose.Words saves a document in the XPS format.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on XPS Export](/words/net/annotation-features-supported-on-xps-export)
 - [Custom Markup Features Supported on XPS Export](/words/net/custom-markup-features-supported-on-xps-export)
 - [Document Features Supported on XPS Export](/words/net/document-features-supported-on-xps-export)

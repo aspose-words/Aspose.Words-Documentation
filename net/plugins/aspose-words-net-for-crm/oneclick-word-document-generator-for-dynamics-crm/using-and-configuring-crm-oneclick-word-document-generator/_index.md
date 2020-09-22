@@ -6,6 +6,7 @@ url: /net/using-and-configuring-crm-oneclick-word-document-generator/
 ---
 
 ### **Create Template and Add in CRM**
+
 - Open word and create a template.
 - Insert MailMerge fields for data comming from CRM. 
 
@@ -20,7 +21,9 @@ url: /net/using-and-configuring-crm-oneclick-word-document-generator/
 - Give the name of the template, select entity the template is defined for and attach the created document in the attachment. 
 
 ![todo:image_alt_text](using-and-configuring-crm-oneclick-word-document-generator_3)
+
 ### **Generate Document from Ribbon Button**
+
 - Open Record where you want to generate document. (Make sure a template is already attached in the configuration for that entity)
 - Click OneClick Word button from the ribbon. 
 
@@ -33,7 +36,9 @@ url: /net/using-and-configuring-crm-oneclick-word-document-generator/
 - Check the Downloaded file or Notes, on basis of the selection. 
 
 ![todo:image_alt_text](using-and-configuring-crm-oneclick-word-document-generator_6)
+
 ### **Configure OneClick Buttons and use them**
+
 - In Order to use OneClick Button directly from Form, Open Form Customization. 
 
 ![todo:image_alt_text](using-and-configuring-crm-oneclick-word-document-generator_7)

@@ -10,11 +10,14 @@ url: /net/aspose-words-for-net-20-6-release-notes/
 This page contains release notes for [Aspose.Words for .NET 20.6](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-20.6/).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Font.EmphasisMark is exposed to the public.
 - Added a new public property ImportFormatOptions.IgnoreHeaderFooter.
 - MarkdownSaveOptions class is introduced.
 - Provided options to control JSON simple values’ recognition for LINQ Reporting Engine.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -121,8 +124,11 @@ This page contains release notes for [Aspose.Words for .NET 20.6](https://downlo
 |WORDSNET-16221|The table is overlapped after conversion from DOCX to PDF|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
+
 ### **Added a new public class MarkdownSaveOptions**
+
 Related issue: WORDSNET-20297
 
 A new public class **MarkdownSaveOptions** has been added into **Aspose.Words.Saving** namespace:
@@ -173,6 +179,7 @@ builder.Document.Save("TestDocument.md", saveOptions);
 
 
 ### **Added a new public property Font.EmphasisMark**
+
 Related issue: WORDSNET-13983
 
 Added a new public property Font.EmphasisMark:
@@ -237,6 +244,7 @@ document.Save(savePath, saveOptions);
 
 
 ### **Added a new public property ImportFormatOptions.IgnoreHeaderFooter**
+
 Related issue: WORDSNET-19776
 
 Added a new public property ImportFormatOptions.IgnoreHeaderFooter:
@@ -264,7 +272,9 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreHeaderFooter = false;
 dstDocument.AppendDocument(srcDocument, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 {{< /highlight >}}
+
 ### **Added a new public property MarkdownSaveOptions.TableContentAlignment**
+
 Related issue: WORDSNET-20425
 
 A new public property **TableContentAlignment** has been added into **MarkdownSaveOptions** class:
@@ -343,7 +353,9 @@ builder.Document.Save("center.md", saveOptions);
 saveOptions.TableContentAlignment = TableContentAlignment.Auto;
 builder.Document.Save("auto.md", saveOptions);
 {{< /highlight >}}
+
 ### **PDF version 1.5 is marked as obsolete**
+
 PDF version 1.5 is outdated and marked as obsolete. Please, use the latest PDF version 1.7.
 
 **.NET**
@@ -359,7 +371,9 @@ public enum PdfCompliance
 ...
 }
 {{< /highlight >}}
+
 ### **Provided options to control JSON simple values’ recognition for LINQ Reporting Engine**
+
 Issues: WORDSNET-19979, WORDSNET-20488
 
 The ["Accessing JSON Data"](/words/net/linq-reporting-engine-api/#linqreportingengineapi-accessingjsondata) section of the engine's documentation was updated to describe the change.

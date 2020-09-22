@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-16-7-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 16.7.0](https://www.nuget.org/packages/Aspose.Words/16.7.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 132 improvements and fixes in this regular monthly release. The most notable are:
 
 - A document page can now be saved in GIF format using SaveFormat.Gif in ImageSaveOptions.
@@ -26,6 +28,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 - Font Embedding API (Implemented API for adding or removing embedded fonts).
 - MsWordVersion enum moved to Aspose.Words.Settings.
 - Added public methods to the DigitalSignatureUtil class that allow to specify a password for decrypting document before it will be signed.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |Key|Summary|Category|
@@ -161,9 +164,13 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-13575|Cells widths are changed after joining the tables|Regression|
 |WORDSNET-13585|Aspose.Words.FileCorruptedException is thrown while loading Docx|Regression|
 |WORDSNET-13920|Japanese ruby text does not render correctly in output pdf|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 16.7.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added Public Methods to the DigitalSignatureUtil Class that Allow to Specify a Password for Decrypting Document before it will be Signed.**
+
 WORDSNET-13735 is resolved and we have added following static methods for signing encrypted documents:
 
 {{< highlight csharp >}}
@@ -212,7 +219,9 @@ DigitalSignatureCollection signatures = doc.DigitalSignatures;
 if (signatures.IsValid && (signatures.Count > 0))
   Console.WriteLine("The document was signed successfully.")
 {{< /highlight >}}
+
 ### **A Document Page can now be Saved in GIF Format**
+
 The document page can now be saved into GIF format just like any other image formats. A new 'Gif' member is added into 'SaveFormat' enum.
 
 Aspose.Words for .Net uses standard GIF codec provided by GDI+. Aspose.Words for Java uses standard GIF codec provided by ImageIO.
@@ -229,9 +238,13 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Gif);
 saveOptions.PageIndex = 1;
 doc.Save("mydocument.gif", saveOptions);
 {{< /highlight >}}
+
 ### **Exposed more String and Number Formats for Expression Results in LINQ Reporting Engine**
+
 The ["Outputting Expression Results"](https://docs.aspose.com/words/net/template-syntax/#outputting-expression-results) section of the engine's documentation was updated to describe the change.
+
 ### **MsWordVersion Enum Moved to Aspose.Words.Settings**
+
 Customers will now have to use 
 
 {{< highlight csharp >}}
@@ -241,9 +254,13 @@ using Aspose.Words.Settings;
 to work with MsWordVersion.
 
 This however should not be a breaking change as presently CompatibilityOptions.OptimizeFor is the only method that uses MsWordVersion enum and is already a member of Aspose.Words.Settings namespace.
+
 ### **ReplaceAction, IReplacingCallback and ReplacingArgs Moved to Aspose.Words.Replacing**
+
 During WORDSNET-1252 implementation we decided to create new namespace Aspose.Words.Replacing and move classes related to find/replace operations to this new namespace.
+
 ### **WORDSNET-1252. Advanced replace methods**
+
 Two methods were added to class Range to support advanced find/replace operations.
 
 {{< highlight csharp >}}
@@ -311,7 +328,9 @@ private class NumberHexer : IReplacingCallback
 {{< /highlight >}}
 
 Some improvements were made to make replace method to be isolated from changes made by customer in callback.
+
 ## **Deprecated methods**
+
 Old Replace methods are left for backward compatibility but marked as obsolete.
 
 We going to remove following methods in this year:
@@ -328,9 +347,13 @@ public int Replace(Regex pattern, string replacement)
 {{< /highlight >}}
 
 continues to work with old code and will be switched to new code eventually.
+
 ### **WORDSNET-4285 - SKIPIF field supported**
+
 This feature has been requested by a few customers and we have it implemented now. SKIPIF field is now updated during mail merge.
+
 ### **WORDSNET-6205 Added Support for MathML in HTML Export**
+
 WORDSNET-6205 is implemented.
 
 Added support for MathML in HTML export.
@@ -401,7 +424,9 @@ Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutput
 {{< highlight csharp >}}
 <span style="font-family:'Cambria Math'">A=π</span><span style="font-family:'Cambria Math'">r</span><span style="font-family:'Cambria Math'">2</span>
 {{< /highlight >}}
+
 ### **WORDSNET-12901 Implemented API for Adding or Removing Embedded Fonts**
+
 WORDSNET-12901 is implemented.
 
 Added following properties to FontInfoCollection class:
@@ -501,7 +526,9 @@ FontInfoCollection fontInfos = doc.FontInfos;
 fontInfos.EmbedTrueTypeFonts = false;
 doc.Save("DocWithoutEmbeddedFonts");
 {{< /highlight >}}
+
 ### **WORDSNET-13817 Font Substitution Rules Improved**
+
 Improvement is made in case when specific font is not installed but is embedded into the document and a substitute for this font is assigned.
 
 Previously font substitute was used in this case. Now embedded font is used.

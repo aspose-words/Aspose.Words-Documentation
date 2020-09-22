@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-17-12-release-notes/
 This page contains release notes for [Aspose.Words for .NET 17.12](https://www.nuget.org/packages/Aspose.Words/17.12.0)
 
 {{% /alert %}} 
+
 ## **Major News**
+
 **Xamarin**
 
 Starting from 17.12 release, Aspose.Words for Android via Xamarin, Aspose.Words for iOS via Xamarin and Aspose.Words for Mac via Xamarin have become part of Aspose.Words for .NET. Few breaking changes have been made:
@@ -27,7 +29,9 @@ Starting from 17.12 release, Aspose.Words for .NET includes .NET Standard 2.0 ve
 - Printing feature is not provided in .NET Standard
 - Saving to user browser is not provided, i.e. Document.Save(HttpResponse,string,ContentDescription,SaveOptions) overload is not available.
 - Public API differences are the same as in Xamarin versions, i.e. SkiaSharp.SKBitmap and SkiaSharp.SKCanvas are used as native graphics objects insted of System.Drawing.Bitmap and System.Drawing.Graphics.
+
 ## **Major Features**
+
 There are 84 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented Aspose.Words for .NET Standard 2.0.
@@ -50,6 +54,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 - Improved handling of collapsed paragraphs.
 - Fixed exception in rare case when line break point cannot be found.
 - Fixed exception when document is saved with revision balloons inside of a cell.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -138,9 +143,13 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13612|Implement Aspose.Words for .NET Core|Feature|
 |WORDSNETSTD-1|Add feature to support Aspose.Words for .NET Core 2.0|Feature|
 |WORDSNET-16127|Different behavior of Section New Page Break in 16.7 and 17.11|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 17.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Implemented API to Set Chart Axis Properties**
+
 Related issue WORDSNET-13512.
 
 The following public classes and enumeration types are added to allow setting chart axis properties:
@@ -719,6 +728,7 @@ doc.Save(dir + "TestLabelSpacing.docx");
 {{< /highlight >}}
 
 ### **Added Feature to Get the docPartGallery Value of StructuredDocumentTag of Type SdtType.DocPartObj.**
+
 Related issue WORDSNET-15972.
 
 The behavior of the following properties was improved:
@@ -736,7 +746,9 @@ public class StructuredDocumentTag
 Now it is possible to obtain the value of these properties for "Markup.SdtType.DocPartObj" SDT type. The exception was thrown in previous versions.
 
 Note: these properties still can no be set for SDT of the document part type.
+
 ### **Changed Return Type for FieldMergingArgsBase.Field**
+
 Related Issue: WORDSNET-16088 
 
 To provide typed access to a merge field's properties requested by a customer we have changed the return type of the FieldMergingArgsBase.Field property (and hence of the corresponding descendants' properties) from **Field** to **FieldMergeField**.

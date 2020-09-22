@@ -6,6 +6,7 @@ url: /net/delete-ranges/
 ---
 
 ## **Aspose.Words - Delete Ranges**
+
 Use the Range.Text property to retrieve plain, unformatted text of the range.
 
 **C#**
@@ -41,7 +42,9 @@ Use the Range.Text property to retrieve plain, unformatted text of the range.
             System.Console.WriteLine(text);
             System.Console.ReadKey();
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Delete Ranges** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1525853)

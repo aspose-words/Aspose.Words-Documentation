@@ -8,7 +8,9 @@ url: /cpp/detect-file-format-and-check-format-compatibility/
 Sometimes it is necessary to determine the format of a document before opening because the file extension does not guarantee that the contents of the file are appropriate. For example, it is known that Crystal Reports often outputs documents in RTF format, but gives them the .doc extension.
 
 Aspose.Words provides an ability to obtain information about the file type in order to avoid an exception if you are not sure what the actual content of the file is.
+
 ## **Detect File Format without an Exception**
+
 When you are dealing with multiple documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
 If you attempt to load a file into a [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util/#a40672aef78025e28055af0d6dafd1eef) method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info/) object that contains the detected information about the file type.
@@ -18,7 +20,9 @@ If you attempt to load a file into a [Document](https://apireference.aspose.com
 DetectFileFormat only checks the file format but does not validate the file format. There is no guarantee that the file will be opened successfully, even if **DetectFileFormat** returns that it is one of the supported formats. This is because of **DetectFileFormat** method reads only partial file format data, sufficient for checking the file format, but not enough for complete validation.
 
 {{% /alert %}} 
+
 ## **Check Files Format Compatibility**
+
 We can check the format compatibility of all files in the selected folder and sort them by format into corresponding subfolders.
 
 Since we are dealing with contents in a folder, the first thing we need to do is get a collection of all the files in this folder using the **GetFiles** method of the Directory class (from the System.IO namespace).

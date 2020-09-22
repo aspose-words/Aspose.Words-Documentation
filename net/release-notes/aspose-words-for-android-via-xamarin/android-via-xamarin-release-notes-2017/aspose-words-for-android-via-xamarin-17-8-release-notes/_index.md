@@ -14,7 +14,9 @@ This is a regular monthly release. 'Aspose.Words for Android via Xamarin' has fu
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.8, see [Aspose.Words for .NET 17.8 release notes](/words/net/aspose-words-for-net-17-8-release-notes/) for more information.
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - A significant optimization of PDF rendering engine has been carried out.
 - Compression of document structure data and cross-reference table in PDF 1.5 output. Now the output PDF documents with the logical structure are much smaller.
 - Image tag in Fixed HTML documents can now contain an alternative text string.

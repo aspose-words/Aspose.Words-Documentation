@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-19-3-release-notes/
 This page contains release notes for [Aspose.Words for .NET 19.3](https://www.nuget.org/packages/Aspose.Words/19.3.0).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Added feature to preserve the representation of legacy control characters while converting to OOXML formats.
 - Added new public properties to the ChartAxis class.
 - Added predefined font fallback settings for Google Noto fonts.
@@ -25,6 +27,7 @@ This page contains release notes for [Aspose.Words for .NET 19.3](https://www.nu
 - Fixed a bug that caused the image to be incorrectly positioned due to a bounding box calculation error while rendering.
 - Fixed a bug with rendering DML Charts markers and data labels if the number of X-values is not equal to the number of Y-values.
 - Fixed a bug with rendering of DML charts series with empty XValues.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -82,9 +85,13 @@ This page contains release notes for [Aspose.Words for .NET 19.3](https://www.nu
 |WORDSNET-18104|MHT file is improperly loaded|Bug|
 |WORDSNET-17879|The chart markers are missing in PDF rendition|Bug|
 |WORDSNET-17893|DOCX to PDF - hyphenation not same|Bug|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.3. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
+
 ### **Added feature to preserve the representation of legacy control characters while converting to OOXML formats**
+
 Related issue: WORDSNET-18081 has now been resolved.
 
 New public property was added to the OoxmlSaveOptions class:
@@ -116,7 +123,9 @@ OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.FlatOpc);
 so.KeepLegacyControlChars = true;
 doc.Save("document.docx", so);
 {{< /highlight >}}
+
 ### **Added predefined font fallback settings for Google Noto fonts**
+
 Related issue: WORDSNET-17329 has now been resolved:
 
 Added predefined font fallback settings for Google Noto fonts. These are free fonts licensed under [SIL OFL](http://scripts.sil.org/OFL). They can be downloaded [from here](https://www.google.com/get/noto/).
@@ -138,7 +147,9 @@ public class FontFallbackSetting
 **Note:** Only Sans style Noto fonts with regular weight are used in the predefined settings.
 
 **Note:** Some of the Noto fonts uses advanced typography features. Advanced typography is currently not supported by AW and these fonts may be rendered inaccurately.
+
 ### **Changed default value for TxtSaveOptions.AddBidiMarks property from 'true' to 'false'**
+
 Related issue: WORDSNET-17853 has now been resolved.
 
 The default value for public property TxtSaveOptions.AddBidiMarks was changed from *true* to *false*:
@@ -157,7 +168,9 @@ public bool AddBidiMarks
 
 
 This is now the same as the corresponding option in Word.
+
 ### **TxtSaveOptions.ListIndentation option is introduced that allows specifying how list levels are indented when exporting to a plain text format**
+
 Related issue: WORDSNET-17778 has now been resolved.
 
 The following public class is introduced that allows to specify how list levels are indented when exporting to a plain text format:
@@ -242,7 +255,9 @@ Document doc2 = new Document("input_document");
 TxtSaveOptions options = new TxtSaveOptions();
 doc2.Save("output2.txt", options);
 {{< /highlight >}}
+
 ### **WORDSNET-18146 - Added public property ChartAxis.TickLabelAlignment**
+
 The following new property has been added into the ChartAxis class:
 
 
@@ -265,6 +280,7 @@ public ParagraphAlignment TickLabelAlignment
 
 
 When axis tick labels are multi-line, MS Word aligns them to the center by default. The property allows for changing this behaviour.
+
 ##### **UseCase:**
 
 

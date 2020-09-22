@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-11-10-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 11.10.0](https://www.nuget.org/packages/Aspose.Words/11.10.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 11.10 Release Notes**
+
 ### **What's New**
+
 There are 157 improvements and fixes in this regular monthly release. The most notable are:
 
 - TOC (Table Of Contents) field update performance dramatically improved.
@@ -26,6 +29,7 @@ There are 157 improvements and fixes in this regular monthly release. The most n
 - Improved performance for .NET 4.0.
 - Supported Asian Typography hanging punctuation.
 - Multiple improvements in RTL layout.
+
 ## **All Fixes**
 
 |**Key**|**Summary**|**Category**|

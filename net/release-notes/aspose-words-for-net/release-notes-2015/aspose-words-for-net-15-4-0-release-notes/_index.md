@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-4-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.4.0](https://www.nuget.org/packages/Aspose.Words/15.4.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.4 Release Notes**
+
 ### **Major Features**
+
 There are 99 improvements and fixes in this regular monthly release. The most notable are:
 
 MathML equations rendering inside shapes implemented
@@ -27,6 +30,7 @@ EMF and WMF rendering improvements
 Added some new public members to HTML save options and shapes/drawing
 
 Over 30 improvements to DocumentBuilder, TXT, ODT and Microsoft Word document formats
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

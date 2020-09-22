@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-19-4-release-notes/
 This page contains release notes for [Aspose.Words for Java 19.4](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.4).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - MailMerge performance improved.
 - Cold startup time improved by 10%.
 - Added a new ImportFormatOptions class for more flexible control over importing tasks.
@@ -32,6 +34,7 @@ This page contains release notes for [Aspose.Words for Java 19.4](https://reposi
 - Improved overlapping logic for frames and tables.
 - Improved Keep With Next rule handling for paragraph splits.
 - Improved Keep Lines Together rule handling in presence of floaters.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -106,8 +109,11 @@ This page contains release notes for [Aspose.Words for Java 19.4](https://reposi
 |WORDSNET-18202|Problems with NodeImporter using ImportFormatMode KeepSourceFormatting|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added a new ImportFormatOptions class for more flexible control over importing tasks**
+
 Related issue:WORDSNET-14397 has now been resolved.
 
 Added a new **ImportFormatOptions** class with only a single public property **SmartStyleBehavior**:
@@ -153,7 +159,9 @@ ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;
 builder.InsertDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 {{< /highlight >}}
+
 ### **Changes in font resolving while loading HTML (SVG) document**
+
 Related issue:WORDSNET-17383 has now been resolved:
 
 Previously while loading HTML (SVG) document font families resolved by font names were found on the system. 
@@ -184,7 +192,9 @@ Document doc = new Document(MyDir + "myfile.html", lo);
 {{< /highlight >}}
 
 The resulting model will contain 'UnknownFont1' as resolved font name for a paragraph from example. 
+
 ### **API to change how text is vertically aligned within the Text Box**
+
 Related issue:WORDSNET-17996 has now been resolved.
 
 Added new property for specifying vertical anchor of shape's textbox.
@@ -212,7 +222,9 @@ shape.TextBox.VerticalAnchor = TextBoxAnchor.Middle;
 {{< /highlight >}}
 
 Saving warnings will be thrown for unsupported formats (WordML) and for incompatible Word versions above 2007 (DOC, DOT).
+
 ### **Added public property PdfSaveOptions.AdditionalTextPositioning**
+
 Related issue: WORDSNET-18027 has now been resolved.
 
 The following new property has been added into the PdfSaveOptions class:
@@ -236,6 +248,7 @@ public bool AdditionalTextPositioning
 {{< /highlight >}}
 
 ### **Added a new ImportFormatOptions.KeepSourceNumbering option for use in import operations**
+
 Related issue:WORDSNET-17534 has now been resolved.
 
 When import nodes between different documents there can be a situation when source document has lists with the same identifiers that were already used in a destination document. Word in such case always uses formatting from the destination lists.
@@ -283,6 +296,7 @@ dstDoc.Save("output.docx");
 {{< /highlight >}}
 
 ### **Added a new ImportFormatOptions.IgnoreTextBoxes option for use in import operations**
+
 Related issue:WORDSNET-18202 has now been resolved.
 
 When import a text box between different documents, the formatting of the destination document is applied to it. This corresponds to the behavior of Word. To allow users to choose an appropriate behavior, the following option was introduced in ImportFormatOptions class:

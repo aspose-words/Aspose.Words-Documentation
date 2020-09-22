@@ -6,16 +6,21 @@ url: /java/fips-mode/
 ---
 
 ## **FIPS Mode in Aspose.Words for Java**
+
 Aspose.Words uses several cryptography and hash algorithms when processing documents and this article describes how it is related to the FIPS standards.
 
 Federal Information Processing Standards (FIPS) are a set of openly published standards developed by the United States federal government to establish requirements for various purposes, such as ensuring computer security and interoperability.
+
 ### **BouncyCastle to the Rescue**
+
 Aspose.Words for Java and Aspose.Words for Android use the Bouncy Castle FIPS JAR for encryption, decryption and signing documents. The JAR has been designed and implemented to meet the FIPS 140-2, Level 1 requirements.
 
 FIPS 140-2 is a U.S. government computer security standard used to approve cryptographic modules. This standard specifies the security requirements that will be satisfied by a cryptographic module and provides high levels of security intended to cover a wide range of potential applications and environments. For more details on FIPS 140-2, see the [NIST publication](https://www.nist.gov/publications/security-requirements-cryptographic-modules-includes-change-notices-1232002?pub_id=902003).
 
 Aspose.Words for .NET uses the general Bouncy Castle version without support for FIPS.
+
 ### **FIPS Mode Activation**
+
 Starting from the version 18.10 Aspose.Words allows to work in two modes: General and FIPS.
 
 By default Aspose.Words works in the General mode, so there are no restrictions on the use of algorithms and keys in this case.

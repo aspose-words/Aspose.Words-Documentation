@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-14-2-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 14.2.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-14.2.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 14.2 Release Notes**
+
 ### **Major Features**
+
 There are 131 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Improved export of tabs and tab stop positions to HTML
@@ -24,6 +27,7 @@ There are 131 improvements and fixes in this regular monthly release. The most n
   DrawingML "Inner Shadow" effect rendering implemented 
   Multiline watermark rendering supports "Fit to Bezier curves" cases 
   Digitally signing XPS documents is possible now 
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |

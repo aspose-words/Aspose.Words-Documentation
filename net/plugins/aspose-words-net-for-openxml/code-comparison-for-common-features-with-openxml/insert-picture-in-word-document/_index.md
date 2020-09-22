@@ -6,6 +6,7 @@ url: /net/insert-picture-in-word-document/
 ---
 
 ### **OpenXML Word**
+
 Following are the namespaces we need to add:
 
 {{< highlight csharp >}}
@@ -105,7 +106,9 @@ private static void AddImageToBody(WordprocessingDocument wordDoc, string relati
     wordDoc.MainDocumentPart.Document.Body.AppendChild(new Paragraph(new Run(element)));
 }
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 **DocumentBuilder** is a powerful class that is associated with a **Document** and allows dynamic document building from scratch or the addition of new elements to an existing document. It provides methods to insert text, paragraphs, lists, tables, images and other contents, specification of font, paragraph, and section formatting, and other things. Using **DocumentBuilder** is somewhat similar in concept to using the **StringBuilder** class of the .NET Framework.
 
 **DocumentBuilder** complements classes and methods available in the Aspose.Words **Document Object Model** by simplifying most common document building tasks, such as inserting text, tables, fields and hyperlinks.
@@ -125,7 +128,9 @@ builder.InsertImage(FilePath + "Aspose.Words.png",
     WrapType.Square);
 doc.Save(File);
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

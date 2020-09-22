@@ -18,7 +18,9 @@ You can download the template file of this example from [Aspose.Words GitHub](
 {{% /alert %}} 
 
 The article describes a few properties you can control when saving a document.
+
 ## **Encrypt a Document With a Password**
+
 Use the **Password** property to get or set a password for an encrypted document. Use the **Password** property of the corresponding class to work with the selected document format.
 
 For example, when saving a document to DOC or DOT format, use the [Password](https://apireference.aspose.com/net/words/aspose.words.saving/docsaveoptions/properties/password) property of the [DocSaveOptions](https://apireference.aspose.com/net/words/aspose.words.saving/docsaveoptions) class.
@@ -34,19 +36,25 @@ The following code example shows how to load and save OpenDocument encrypted wit
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cs" >}}
 
 Not all formats support encryption and the use of **Password** property.
+
 ## **Update Last Saved Property**
+
 Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastsavedtimeproperty) property to gets or sets a value determining whether the [LastSavedTime](https://apireference.aspose.com/net/words/aspose.words.properties/builtindocumentproperties/properties/lastsavedtime) property is updated before saving.
 
 The following code example shows how to set this property and save the document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cs" >}}
+
 ## **Control External Resources When Saving a Document into HTML or SWG**
+
 To convert HTML or SVG into PDF, simply invoke the [Save](https://apireference.aspose.com/net/words/aspose.words/document/methods/save/index) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://apireference.aspose.com/net/words/aspose.words.saving/iresourcesavingcallback).
 
 The following code example shows how to convert HTML to PDF and loads images from external sources:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ImageLoadingWithCredentialsHandler-ImageLoadingWithCredentialsHandler.cs" >}}
+
 ## **Save Black and White Image with One Bit Per Pixel Format**
+
 To control image saving options, the **ImageSaveOptions** class is used. For example, you can use the [PixelFormat](https://apireference.aspose.com/net/words/aspose.words.saving/imagesaveoptions/properties/pixelformat) property to set the pixel format for the generated images. Please note that the pixel format of the output image may differ from the set value because of the work of GDI+.
 
 The following code example shows how to save a black and white image with one bit per pixel format:

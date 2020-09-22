@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-12-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.12.0](https://www.nuget.org/packages/Aspose.Words/15.12.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.12 Release Notes**
+
 ### **Major Features**
+
 There are 80 improvements and fixes in this regular monthly release. The most notable are:
 
 - Access ActiveX control properties
@@ -20,6 +23,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 - DrawingML textboxes rendering improved
 - Apply styles from the template during HTML insertion
 - HTML Import supports ruby tags now
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

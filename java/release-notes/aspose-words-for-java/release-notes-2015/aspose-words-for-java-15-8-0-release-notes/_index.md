@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-15-8-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 15.8.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-15.8.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 15.8 Release Notes**
+
 ### **Major Features**
+
 There are 98 improvements and fixes in this regular monthly release. The most notable are: 
 
 New functionality similar to ADO.NET was added to increase the number of MailMerge and Reporting data sources.
@@ -29,6 +32,7 @@ ODT Charts rendering implemented.
 CustomXmlMarkup fully removed from the code.
 
 Allow to specify encoding when saving as HTML. 
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |

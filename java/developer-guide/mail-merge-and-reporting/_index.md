@@ -6,6 +6,7 @@ url: /java/mail-merge-and-reporting/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [About Mail Merge](/words/java/about-mail-merge/)
 - [How to Execute Mail Merge](/words/java/how-to-execute-mail-merge/)
 - [Nested Mail Merge Regions](/words/java/nested-mail-merge-regions/)

@@ -12,7 +12,9 @@ Starting in Aspose.Words 10.5 many new features and properties were made availab
 This article describes the changes in the new API and how to easily fix your code so that tables produced by existing code appear as expected. 
 
 {{% /alert %}} 
+
 #### **New Defaults when Creating Tables**
+
 The new API boasts impressive new features with working for tables as well as some changes to the defaults used when creating new tables. These changes bring how a default table is constructed more in line with how Microsoft Word behaves. This allows for a more easily migration for new users, but may break the layout of tables built in existing code.
 
 |**Member** |**Default in 10.4 and Earlier** |**Default in 10.5 and Later** |**Comments** |
@@ -24,15 +26,21 @@ The new API boasts impressive new features with working for tables as well as so
 |**Table.PreferredWidth** |*(N/A)* |*100%* |Table preferred width has been made public and can now be used to control the width of the table as a whole.By default the table is applied with “AutoFit to Window” which is a table preferred width of 100%. |
 |**CellFormat.PreferredWidth** |*(N/A)* |*Auto* |Cell preferred width has been made public and is used to control the width of individual cells.By default each cell is automatically sized based on the other width information of the table. |
 These changes may affect the layout of some tables that are created programmatically using Aspose.Words in your application. 
+
 #### **How to Fix a Table which Looks Different using the New Version**
+
 The main differences in the new version that will cause the behavior or appearance of tables will be caused by the new defaults applied to tables created programmatically. Depending on the layout of your tables you may or may not encounter any problems.
+
 ##### **Fixing Table Layout**
+
 Most tables that are generated programmatically will be affected by the changes to the new table API. In the newer version of Aspose.Words you will find that the table takes up much more horizontal space compared with previous versions by stretching to the width of the page. 
 
 Aspose.Words now by default auto fits a table to the page width and enables allow auto fitting to contents. Both of these properties together ignore any fixed column widths that are set by code. In previous versions tables would use this property to specify the width of each cell. If this property was not set (a value of 0.0) then a fixed width of 72 points was used. 
 
 To fix your code so that fixed widths are used as in previous versions, you need to specify that you want to use fixed column widths by calling the [Table.AutoFit](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/autofit) method with the [AutoFitBehavior.FixedColumnWidths](https://apireference.aspose.com/words/net/aspose.words.tables/autofitbehavior) enumeration. This will build the table based off the widths set on each cell instead of fitting the table to the window. 
+
 ##### **Example**
+
 *Shows how to revert the default behaviour of table sizing to use column widths.* 
 
 **C#**
@@ -77,11 +85,15 @@ table.AutoFit(AutoFitBehavior.FixedColumnWidths)
 On the other hand, if you were previously attempting to fit a table to the page width by using the following code, you can now remove this as tables are fit to the window by default.
 
 Furthermore if you were constructing your tables in complex ways e.g each columns proportionally or fitting to contents you may be able to now simplify your code. For further information see [How-To: Apply Different AutoFit Settings to a Table](https://docs.aspose.com/words/net/applying-formatting/#allowing-autofit) and [Specifying Table and Cell Widths](https://docs.aspose.com/words/net/applying-formatting/#specifying-table-and-cell-widths) . 
+
 ##### **Fixing Table Borders**
+
 In older versions by default tables were not created with any borders. If you have tables that are built without any borders applied you will now find that such a table has a single outline border is added to tables in the new version. 
 
 To fix this in the new version you need to specify that tables should not have any borders applied by using [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/clearborders) . 
+
 ##### **Example**
+
 *Shows how to revert the default borders on tables back to no border lines.* 
 
 **C#**
@@ -118,9 +130,13 @@ table.ClearBorders()
 Conversely, if you have code which sets borders to be like the default table line of Microsoft Word then you can remove this code as Aspose.Words now creates tables with these settings as default.
 
 {{% /alert %}} 
+
 #### **How to Fix the Exception: “Formatting cannot be applied because the table is empty. Add at least one row to the table first”**
+
 This occurs when the new table-wide formatting such as Table.Alignment or Table.AllowAutoFit is applied before there are any rows in the table. To fix this exception you must move such calls to after the first row is inserted.
+
 ##### **Example**
+
 *Shows how to avoid encountering an exception when applying table formatting.* 
 
 **C#**
@@ -154,11 +170,15 @@ builder.InsertCell()
 table.AllowAutoFit = True
 ' Continue with building your table as usual...
 {{< /highlight >}}
+
 #### **Row Formatting is not Applied to Subsequent Rows**
+
 Currently you may find that custom row formatting such as RowFormat.Height or RowFormat.HeadingFormat does not take effect and instead the formatting of the previous row is used instead is used for these members instead. 
 
 This has been recognized as a temporary bug and will be fixed in one of the next releases. In the mean time you can work around this issue by moving such formatting to after the first table is inserted: 
+
 ##### **Example**
+
 *Shows how to fix row formatting not being applied to some rows.* 
 
 **C#**
@@ -213,11 +233,15 @@ builder.InsertCell()
 builder.RowFormat.HeadingFormat = False
 ' Continue with building your table as usual...
 {{< /highlight >}}
+
 #### **Appearance of Tables Differs when Rendering to a Fixed Page Format**
+
 At the moment there may be a some differences in how tables appear when saving to a flow based format (e.g DOC, DOCX, RTF) and rendering to a fixed page format (e.g PDF, XPS, SWF etc). The tables in the rendered format may appear different or may extend outside the page.
 
 Such occurrences are recognized as temporary bugs and will be fixed in future releases. However you should submit such bugs to the Aspose.Words support forum to ensure that the particular problem is fixed. In the mean time you can attempt to work around the issue by calling the [Document.UpdateTableLayout](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatetablelayout) method before saving the document. 
+
 ##### **Example**
+
 *Shows how to update the layout of tables in a document.* 
 
 **C#**
@@ -242,7 +266,9 @@ Dim doc As New Document(MyDir & "Document.doc")
 ' incorrectly in the rendered output.
 doc.UpdateTableLayout()
 {{< /highlight >}}
+
 #### **Why are some Row Formatting Members now Obsolete**
+
 In previous versions table formatting was applied by setting properties in RowFormat for every row on the table. With the new version of Aspose.Words you can now set these properties by using a one line call on the Table object instead.
 
 For instance the functionality that was provided by calling **RowFormat.AllowAutoFit** on every row in a table has now been moved to a single call to **Table.AllowAutoFit** . 

@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-17-10-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 17.10](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.10/).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 83 improvements and fixes in this regular monthly release. The most notable are:
 
 - "Don't add extra space for raised/lowered characters" compatibility option is supported.
@@ -27,6 +29,7 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 - Expose Table.HorizontalAlignment property public.
 
 'Aspose.Words for Android via Java' 17.10 also includes the current 'Aspose.Words for Java' features. See the full list of changes in [Aspose.Words for Java 17.10 Release Notes](/words/java/aspose-words-for-java-17-10-release-notes/).
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

@@ -10,7 +10,9 @@ url: /cpp/aspose-words-for-cpp-20-8-release-notes/
 This page contains release notes for [Aspose.Words for C++ 20.8](https://downloads.aspose.com/words/cpp/new-releases/aspose.words-for-c---20.8/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 We have added the following features from Aspose.Words for .Net on this regular monthly release:
 
 - Implemented Markdown ‘Inline Images’ feature.
@@ -19,6 +21,7 @@ We have added the following features from Aspose.Words for .Net on this regular 
 - Implemented support for SVG images embedded using data URLs upon HTML import.
 
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 
@@ -118,9 +121,11 @@ The missing features will be added in future releases.
 |WORDSNET-19706	|File format detected as TEXT instead of MHTML	|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.8. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 ### **Added new FontNameSubstitutionRule**
+
 Related issue: WORDSNET-20199
 Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. at [Font Availability and Substitution](https://docs.aspose.com/words/cpp/manipulate-and-substitute-truetype-fonts/#font-availability-and-substitution). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
 
@@ -145,6 +150,7 @@ public class FontSubstitutionSettings
 {{< /highlight >}}
 
 ### **Added new option to the PdfLoadOptions class**
+
 Related issue: WORDSNET-20779
 Added flag indicating whether images must be skipped while loading PDF document.
 
@@ -167,6 +173,7 @@ fLoadOptions options = new PdfLoadOptions();
 {{< /highlight >}}
 
 ### **Removed obsolete property FindReplaceOptions.PreserveMetaCharacters**
+
 Related issue: WORDSNET-20266
 Removed obsolete property from FindReplaceOptions class.
 

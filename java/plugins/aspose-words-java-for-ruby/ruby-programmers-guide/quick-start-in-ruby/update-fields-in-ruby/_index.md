@@ -6,6 +6,7 @@ url: /java/update-fields-in-ruby/
 ---
 
 ## **Aspose.Words - Update Fields**
+
 To update fields of Word Document using Aspose.Words Java for Ruby, simply invoke update_fields() method of UpdateFields module.
 
 **Ruby Code**
@@ -13,6 +14,7 @@ To update fields of Word Document using Aspose.Words Java for Ruby, simply invok
 {{< highlight ruby >}}
 
 ## The path to the documents directory.
+
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 \# Demonstrates how to insert fields and update them using Aspose.Words.
 \# First create a blank document.
@@ -59,7 +61,9 @@ puts "Updating all fields in the document."
 doc.updateFields()
 doc.save(data_dir + "Document Field Update Out.docx")
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Update Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/updatefields.rb)

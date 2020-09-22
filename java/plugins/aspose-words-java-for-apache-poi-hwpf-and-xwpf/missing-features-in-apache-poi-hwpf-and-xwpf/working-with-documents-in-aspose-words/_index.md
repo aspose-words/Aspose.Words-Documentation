@@ -6,6 +6,7 @@ url: /java/working-with-documents-in-aspose-words/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Add Watermark](https://docs.aspose.com/words/java/add-watermark/)
 - [Append Documents](https://docs.aspose.com/words/java/append-documents/)
 - [Check Format Compatibility](https://docs.aspose.com/words/java/check-format-compatibility/)

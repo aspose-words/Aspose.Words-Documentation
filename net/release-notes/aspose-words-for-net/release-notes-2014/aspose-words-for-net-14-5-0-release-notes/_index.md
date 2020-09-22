@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-14-5-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.5.0](https://www.nuget.org/packages/Aspose.Words/14.5.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 14.5 Release Notes**
+
 ### **Major Features**
+
 There are 84 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved justification around inline paragraph breaks
@@ -20,6 +23,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
   OOXML (MS Word 2010) Text effects rendering implemented 
   Image export to HTML, MHTML and EPUB improved 
   FitText attribute supported for all flow formats
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

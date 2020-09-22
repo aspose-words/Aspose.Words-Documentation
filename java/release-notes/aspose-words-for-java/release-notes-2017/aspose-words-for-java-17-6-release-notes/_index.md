@@ -12,6 +12,7 @@ This page contains release notes for [Aspose.Words for Java 17.6](http://maven.a
 {{% /alert %}}
 
 ## **Major Features**
+
 There are 95 improvements and fixes in this regular monthly release. The most notable are:
 
 - Performance and memory optimizations caused by shrinking and optimizing storage of internal unsigned types.
@@ -134,6 +135,7 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 This section lists public API changes that were introduced in Aspose.Words 17.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 ### **Public Properties ParagraphFormat.AddSpaceBetweenFarEastAndAlpha and ParagraphFormat.AddSpaceBetweenFarEastAndDigit**
+
 WORDSNET-14376 and WORDSNET-14377 are resolved.
 
 Two new public properties are available in the ParagraphFormat class: AddSpaceBetweenFarEastAndAlpha and AddSpaceBetweenFarEastAndDigit.
@@ -152,7 +154,9 @@ public void    setAddSpaceBetweenFarEastAndAlpha(boolean value)
 public boolean getAddSpaceBetweenFarEastAndDigit()
 public void    setAddSpaceBetweenFarEastAndDigit(boolean value)
 {{< /highlight >}}
+
 ### **Added Public Property HtmlLoadOptions.PreferredControlType**
+
 WORDSNET-14669 has been resolved.
 
 New public property PreferredControlType is added into the HtmlLoadOptions class:
@@ -186,5 +190,7 @@ HtmlLoadOptions lo = new HtmlLoadOptions();
 lo.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);
 Document doc = new Document("test.html", lo);
 {{< /highlight >}}
+
 ### **WORDSNET-15326 - SVG Multithread Processing Issue Resolved**
+
 Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in multiple threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI\+ used earlier.

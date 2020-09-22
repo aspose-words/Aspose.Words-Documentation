@@ -6,6 +6,7 @@ url: /java/check-format-in-ruby/
 ---
 
 ## **Aspose.Words - Check Format**
+
 To check file format using Aspose.Words Java in Ruby, simply invoke the check_fromat() method of CheckFromat module.
 
 **Ruby Code**
@@ -62,7 +63,9 @@ def check_fromat(file)
     end
 end
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Check Format (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/checkformat.rb)

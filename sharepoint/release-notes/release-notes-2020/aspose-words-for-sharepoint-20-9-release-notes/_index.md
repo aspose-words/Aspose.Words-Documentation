@@ -11,6 +11,7 @@ This page contains release notes for [Aspose.Words for SharePoint 20.9](https://
 This version includes all bug fixes and public API changes made in Aspose.Words for .NET up-to version 20.6, see [Aspose.Words for .NET 20.9 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/) for more information.
 
 {{% /alert %}} 
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

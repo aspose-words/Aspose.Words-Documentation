@@ -6,13 +6,18 @@ url: /net/xamarin-and-net-standard-2-0-limitations-and-api-differences/
 ---
 
 ## **Xamarin Platform Notes**
+
 Xamarin DLLs are always built using the latest stable versions of Xamarin.Android, Xamarin.iOS and Xamarin.Mac respectively. If you face problems with using Aspose.Words in your Xamarin application, please make sure you have the latest Xamarin versions installed. Sometimes Aspose.Words' Xamarin DLLs built with the latest Xamarin version do not work with older versions of Xamarin.
+
 ## **Limitations of .NET Standard 2.0, Xamarin.Android, Xamarin.iOS And Xamarin.Mac API compared to .NET API**
+
 1. **Document.Print** method is not available in .NET Standard 2.0, Xamarin.Android, Xamarin.iOS and Xamarin.Mac API.
 1. Saving to user browser is not provided, i.e. **Document.Save(HttpResponse,string,ContentDescription,SaveOptions)** overload is not available.
 1. Because of lack of Windows fonts in target OS (Android, MacOS, Linux etc), fonts used in documents are substituted with available fonts, this might lead into inaccurate document layout, when render document to fixed page formats (like Images, PDF, XPS etc.)
 1. If Aspose.Words for .NET Standard is intended to be used in Linux environment, an additional NuGet package should be referenced to make it work correctly with graphics: SkiaSharp.NativeAssets.Linux for Ubuntu (it also should work on most Debian-based Linux distributions) or Goelze.SkiaSharp.NativeAssets.AlpineLinux for Alpine Linux.
+
 ## **Public API Differences**
+
 1. In **Aspose.Words for** **.NET Standard 2.0, Xamarin.Android, Xamarin.iOS and Xamarin.Mac** *SkiaSharp.SKBitmap* object is used instead of *System.Drawing.Bitmap* in .NET API. The list of affected API:
    1. *Aspose.Words.DocumentBuilder.InsertImage*
    1. *Aspose.Words.DocumentBuilder.InsertOleObject*
@@ -90,19 +95,23 @@ using (SkiaSharp.SKBitmap bitmap = new SkiaSharp.SKBitmap(1000, 1000))
     }
 }
 {{< /highlight >}}
+
 ## **Xamarin.Android Additional Requirements**
+
 1. To work properly Aspose.Words' Xamarin.Android API requires Encodings support. When you run your Xamarin.Android application in 'Release' mode, it is required to add additional supported Encodings. Note that in 'Debug' mode everything will work without these options.<br>
 ![todo:image_alt_text](xamarin-and-net-standard-2-0-limitations-and-api-differences_1)
 1. If you would like to use Metered license, you need to allow your application internet access.<br>
 ![todo:image_alt_text](xamarin-and-net-standard-2-0-limitations-and-api-differences_2)
 
 ## **Xamarin.iOS Additional Requirements**
+
 1. To work properly Aspose.Words' Xamarin.iOS API requires Encodings support. When you run your Xamarin.iOS application it is required to add additional supported Encodings.
 
 ![todo:image_alt_text](xamarin-and-net-standard-2-0-limitations-and-api-differences_3)
 
 
 ## **Xamarin.Mac Additional Requirements**
+
 1. To work properly Aspose.Words' Xamarin.Mac API requires Encodings support. When you run your Xamarin.Mac application it is required to add additional supported Encodings.
 
 ![todo:image_alt_text](xamarin-and-net-standard-2-0-limitations-and-api-differences_4)

@@ -6,6 +6,7 @@ url: /java/add-watermark-in-php/
 ---
 
 ## **Aspose.Words - Add Watermark**
+
 **Php Code**
 
 {{< highlight csharp >}}

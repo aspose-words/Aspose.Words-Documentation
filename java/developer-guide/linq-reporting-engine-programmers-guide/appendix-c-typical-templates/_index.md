@@ -62,7 +62,9 @@ This article explains following topics:
 - [Chart Template with Filtering, Grouping, and Ordering](/words/java/appendix-c-typical-templates/)
 
 {{% /alert %}} 
+
 ## **Single-Row Template**
+
 ### **Template Example**
 
 |![Single_Row_Template_Example](Single-Row-Template-Example1.png) | **Name:** **<<[manager.getName()]>>** <br> **Age:** <<[manager.getAge()]>> |
@@ -74,6 +76,7 @@ This article explains following topics:
 | :- | :- |
 
 ## **In-Paragraph List Template**
+
 ### **Template Example**
 
 |We provide support for the following clients: <<foreach [in clients]>><<[indexOf() != 0 ? ", " : ""]>><<[getName()]>><</foreach>>|
@@ -85,7 +88,9 @@ This article explains following topics:
 | :- |
 
 ## **Bulleted List Template**
+
 ### **Template Example**
+
 {{< highlight csharp >}}
 We provide support for the following clients:
     * <<foreach [in clients]>><<[getName()]>>
@@ -93,6 +98,7 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 ### **Report Example**
+
 {{< highlight csharp >}}
 We provide support for the following clients:
     * A Company
@@ -107,7 +113,9 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 ## **Numbered List Template**
+
 ### **Template Example**
+
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. <<foreach [in clients]>><<[getName()]>>
@@ -115,6 +123,7 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 ### **Report Example**
+
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. A Company
@@ -129,7 +138,9 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 ## **Multicolored Numbered List Template**
+
 ### **Template Example**
+
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. <<foreach [in clients]>><<if [indexOf() % 2 == 0]>><<[getName()]>>
@@ -138,6 +149,7 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 ### **Report Example**
+
 {{< highlight csharp >}}
 We provide support for the following clients:
     1. A Company
@@ -152,6 +164,7 @@ We provide support for the following clients:
 {{< /highlight >}}
 
 ## **Common List Template**
+
 ### **Template Example**
 
 |<<foreach [in managers]>> <br> ![Common_List_Template_Example](Common-List-Template-Example.png) <br> <<[getName**()**]>>** <br> &lt;&lt;/foreach&gt;&gt;|
@@ -163,6 +176,7 @@ We provide support for the following clients:
 | :- |
 
 ## **In-Table List Template**
+
 ### **Template Example**
 
 |**Manager**|**Contract Price**|
@@ -180,6 +194,7 @@ We provide support for the following clients:
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000 {{< /highlight >}} |
 
 ## **In-Table List Template with Running (Progressive) Total**
+
 **Template Example**
 
 &lt;&lt;var [total = 0.0]&gt;&gt;
@@ -203,6 +218,7 @@ We provide support for the following clients:
 |**J Ent.**|4300000|
 
 ## **In-Table List Template with Highlighted Rows**
+
 ### **Template Example**
 
 |**Client**|**Contract Price**|
@@ -227,6 +243,7 @@ We provide support for the following clients:
 |**Total:**|4300000|
 
 ## **In-Table List Template with Alternate Content**
+
 ### **Template Example**
 
 |**Client**|**Contract Price**|
@@ -258,6 +275,7 @@ We provide support for the following clients:
 |**Total:**|4300000|
 
 ## **Common Master-Detail Template**
+
 ### **Template Example**
 
 |<<foreach [in managers]>> <br> ![Common_List_Template_Example](Common-List-Template-Example.png) <br> **<<[getName**()**]>>** <br> **Clients: <<foreach [in getContracts**()** ]>><<[indexOf() != 0 ? ", " : ""]>><<[getClient**()**.getName**()**]>><</foreach>>** <br> &lt;&lt;/foreach&gt;&gt;|
@@ -269,6 +287,7 @@ We provide support for the following clients:
 | :- |
 
 ## **In-Table Master-Detail Template**
+
 ### **Template Example**
 
 |**Manager/Client**|**Contract Price**|
@@ -295,6 +314,7 @@ We provide support for the following clients:
 |{{< highlight csharp >}} J Ent. {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000</p><p>{{< /highlight >}}|
    
+
 ## **Pie Chart Template**
 
 **Template Example**

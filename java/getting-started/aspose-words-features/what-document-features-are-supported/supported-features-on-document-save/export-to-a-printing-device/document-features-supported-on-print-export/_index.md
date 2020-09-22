@@ -39,6 +39,7 @@ See the following links in the documentation for further information:
 - [SvgSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/SvgSaveOptions)
 
 {{% /alert %}} 
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

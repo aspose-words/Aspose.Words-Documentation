@@ -31,6 +31,7 @@ See the following links in the documentation for further information:
 - [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table)
 
 {{% /alert %}} 
+
 ## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -47,7 +48,9 @@ See the following links in the documentation for further information:
 |Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. <br><br>Imported from width as relative (percent) or absolute (point) width from &lt;table&gt;. |- [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
 |Table Shading |Yes |Imported from background-color style attribute on all cells in the table. |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
 |Hidden |Planned |Will be imported from display:none style attribute on table. | |
+
 ## **Floating Tables**
+
 Floating tables are supported during import and export. However there is currently no API to access or modify the floating position of a table.
 
 Floating tables are imported as inline.
@@ -55,7 +58,9 @@ Floating tables are imported as inline.
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Floating Tables |Planned | | |
+
 ## **Table Borders**
+
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document.
 
 If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first.
@@ -71,6 +76,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Planned | | |
+
 ## **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -79,6 +85,7 @@ See the following links in the documentation for further information:
 |Repeat as Header Row |Planned |Will be imported from &lt;thead&gt; and &lt;th&gt; elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](https://docs.aspose.com/words/net/working-with-columns-and-rows/#specifying-rows-to-repeat-on-subsequent-pages-as-header-rows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/headingformat)</p>|
 |Height |Yes |Imported from "height" of style attribute on &lt;tr&gt;. Row height is only from &lt;tr&gt; and not from &lt;td&gt; cells. |- [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/height)|
 |Height Rule |Planned |A row without any height is imported as "Auto" height rule. <br><br>A row with height defined is imported as "At Least". |- [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/heightrule)|
+
 ## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

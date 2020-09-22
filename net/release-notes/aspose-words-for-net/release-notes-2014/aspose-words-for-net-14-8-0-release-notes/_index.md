@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-14-8-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.8.0](https://www.nuget.org/packages/Aspose.Words/14.8.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 14.8 Release Notes**
+
 ### **Major Features**
+
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved how TOC field culture and formatting is handled
@@ -20,6 +23,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
   Horizontal rotation of characters having HorizontalRotatedFarEast orientation supported 
   Improved page layout for additional compatibility modes 
   Improved floater positioning in complex cases
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

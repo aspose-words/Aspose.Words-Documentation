@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-18-1-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 18.1](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/18.1/).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 60+ improvements and fixes in this regular monthly release. The most notable are:
 
 - Performance improvements.
@@ -30,6 +32,7 @@ There are 60+ improvements and fixes in this regular monthly release. The most n
 - Chart title with ManualLayout rendering fixed.
 
 'Aspose.Words for Android via Java' 18.1 also includes the current 'Aspose.Words for Java' features. See the full list of changes in [Aspose.Words for Java 18.1 Release Notes](/words/java/aspose-words-for-java-18-1-release-notes/).
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

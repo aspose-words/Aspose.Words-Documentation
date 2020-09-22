@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-8-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.8.0](https://www.nuget.org/packages/Aspose.Words/15.8.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.8 Release Notes**
+
 ### **Major Features**
+
 There are 89 improvements and fixes in this regular monthly release. The most notable are:
 
 Added assemblies that target .NET CLR 4.0.
@@ -29,6 +32,7 @@ ODT Charts rendering implemented.
 - CustomXmlMarkup fully removed from the code.
 
 Allow to specify encoding when saving as HTML.
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

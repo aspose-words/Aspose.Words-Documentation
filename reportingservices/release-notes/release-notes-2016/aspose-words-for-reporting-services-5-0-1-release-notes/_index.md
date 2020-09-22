@@ -10,6 +10,7 @@ url: /reportingservices/aspose-words-for-reporting-services-5-0-1-release-notes/
 This page contains release notes for [Aspose.Words for Reporting Services 5.0.1](http://www.aspose.com/downloads/words/reportingservices/new-releases/aspose.word-for-reporting-services-5.0.1-\(msi\)/). 
 
 {{% /alert %}} 
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key** |**Summary** |**Category** |

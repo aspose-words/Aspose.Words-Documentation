@@ -10,12 +10,16 @@ url: /cpp/aspose-words-for-cpp-20-2-release-notes/
 This page contains release notes for [Aspose.Words for C++ 20.2](https://www.nuget.org/packages/Aspose.Words.CPP/20.2)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Elliptic Curve Digital Signature Algorithm (ECDSA) is supported now
 - Encrypted documents are supported now
+
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 
@@ -26,6 +30,7 @@ The missing features will be added in future releases.
 - The current release does not support LINQ and Reporting features.
 - The current release has limited support for database features - C++ does not have a common API for DB like .NET System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -89,8 +94,11 @@ The missing features will be added in future releases.
 |WORDSNET-18880|The issue with table position and UpdateTableLayout method|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.2. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
+
 ### **FieldMergingArgsBase.FieldValue made settable**
+
 Related issue: WORDSNET-19750
 
 The customer was using the FieldMergingArgs.Text property and wanted the provided value to be formatted according to the format specified in the field being merged. We have made the FieldMergingArgsBase.FieldValue property settable so that instead of setting Text the user can set FieldValue which takes formatting into account instead of simply replacing the field.
@@ -112,6 +120,7 @@ public object FieldValue
 
 
 ### **Word 2019 version set by default**
+
 Ref: WORDSNET-19908
 
 Due to the fact that submissions to the support service regarding different default spacing values for the paragraph have become more frequent, it was decided to change the default version of MS Word. Now, this version is MSWordVersion.Word2019. In most cases, the issue appeared when the customers created documents in WPS Office that do not write default spacing values for the paragraph in a document to be saved. When opening such documents in Aspose.Words, the values actual for MSWord 2007 were substituted because it was the default version before this release.

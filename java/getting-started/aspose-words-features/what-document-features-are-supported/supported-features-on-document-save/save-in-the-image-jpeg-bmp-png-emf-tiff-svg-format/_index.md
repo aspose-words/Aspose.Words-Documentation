@@ -6,6 +6,7 @@ url: /java/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on Image Export](/words/java/annotation-features-supported-on-image-export/)
 - [Custom Markup Features Supported on Image Export](/words/java/custom-markup-features-supported-on-image-export/)
 - [Document Features Supported on Image Export](/words/java/document-features-supported-on-image-export/)

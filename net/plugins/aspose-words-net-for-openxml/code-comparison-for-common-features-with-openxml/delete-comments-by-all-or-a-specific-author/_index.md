@@ -6,6 +6,7 @@ url: /net/delete-comments-by-all-or-a-specific-author/
 ---
 
 ### **OpenXML SDK**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string File = FilePath + "Delete comments - OpenXML.docx";
@@ -88,7 +89,9 @@ public static void DeleteComments(string fileName,
         doc.Save();
     }
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string File = FilePath + "Delete comments - Aspose.docx";
@@ -117,7 +120,9 @@ public static void RemoveComments(string File, string authorName)
     doc.Save(File);
 }
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-16-1-release-notes/
 This page contains release notes for [Aspose.Words for Java 16.1](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.1.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 16.1 Release Notes**
+
 ### **Major Features**
+
 There are 139 improvements and fixes in this regular monthly release. The most notable are:
 
 - EMF format is now supported
@@ -27,6 +30,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 - Added more public classes and methods to work with fields in a document
 - Font sources can now be specified for each document instance
 - Implemented line counting (Document.BuiltInDocumentProperties.Lines)
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

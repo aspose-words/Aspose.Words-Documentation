@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-13-3-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 13.3.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-13.3.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 13.3 Release Notes**
+
 ### **What's New**
+
 There are 110 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improvements in style handing in Tables, Format Revisions
@@ -25,6 +28,7 @@ There are 110 improvements and fixes in this regular monthly release. The most n
 - Fixed issue with missing footnotes in complex page layout
 
 For a list of changes to the public API in this release refer to the following article in the documentation. 
+
 ## **All Fixes**
 
 |**Key** |**Summary** |**Category** |

@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-14-9-release-notes-release-notes/
 This page contains release notes for [Aspose.Words for Java 14.9 Release Notes](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-14.9-release-notes/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 14.9 Release Notes**
+
 ### **Major Features**
+
 There are 120 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Databinding for image SDTs is supported
@@ -24,6 +27,7 @@ There are 120 improvements and fixes in this regular monthly release. The most 
   Rounding corners rendering in DrawingML charts implemented 
   Improved 3D lighting rendering for WordArt objects 
   Added support of Gradient background in HTML output 
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |

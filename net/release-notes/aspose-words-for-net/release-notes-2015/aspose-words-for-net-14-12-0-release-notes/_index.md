@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-14-12-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.12.0](https://www.nuget.org/packages/Aspose.Words/14.12.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 14.12 Release Notes**
+
 ### **Major Features**
+
 There are 101 improvements and fixes in this regular monthly release. The most notable are:
 
 - WordArt rendering does not rely on GDI+ now and supported on .NET, Mono and Java
@@ -23,6 +26,7 @@ There are 101 improvements and fixes in this regular monthly release. The most 
   Enhanced inter-characters spacing calculation for Asian documents with kerning 
   Improved text direction detection for documents with missing RTL attributes 
   Hyperlinks on shapes and text inside textboxes are exported correctly to HTML
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

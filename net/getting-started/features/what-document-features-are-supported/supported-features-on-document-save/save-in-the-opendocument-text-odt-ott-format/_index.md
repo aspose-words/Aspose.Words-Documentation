@@ -10,7 +10,9 @@ url: /net/save-in-the-opendocument-text-odt-ott-format/
 Aspose.Words saves documents in ODT, OTT format according to the OASIS ODF 1.1 standard. The following table provides implementation details. 
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on OpenDocument Export](/words/net/annotation-features-supported-on-opendocument-export)
 - [Custom Markup Features Supported on OpenDocument Export](/words/net/custom-markup-features-supported-on-opendocument-export)
 - [Document Features Supported on OpenDocument Export](/words/net/document-features-supported-on-opendocument-export)

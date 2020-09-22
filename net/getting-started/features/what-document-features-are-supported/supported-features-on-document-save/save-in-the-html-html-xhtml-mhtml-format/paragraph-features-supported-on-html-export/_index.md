@@ -29,6 +29,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 
 ##### **General Formatting**
+
 There is a setting to export paragraph styles and formatting as inline CSS (style) only, or as a mix of inline and embedded or linked CSS style sheet (class).
 
 Direct formatting on the paragraph (from ParagraphFormat) is exported as inline CSS (using the style attribute).
@@ -77,6 +78,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Page Break Before|Yes|Exported as "page-break-before" on style attribute.| |
 
 ##### **Text Frames**
+
 Text frames are exported as paragraphs surrounded by a border.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -84,6 +86,7 @@ Text frames are exported as paragraphs surrounded by a border.
 |Text Frames|Yes| | |
 
 ##### **Tab Stops**
+
 Tab stops are not natively available in HTML. Aspose.Words converts tab stops into a fixed set of non-breaking spaces.
 
 Will be improved later by simulating the correct width. Consider using a borderless table to layout information instead of tab stops when export to HTML is required.
@@ -96,6 +99,7 @@ Will be improved later by simulating the correct width. Consider using a borderl
 |Leader|Planned|Leader characters are currently not exported to HTML.| |
 
 ##### **Drop Caps**
+
 A drop cap is a frame which is exported to HTML as a paragraph with borders.
 
 Visually the drop cap looks correct but the main text is moved to the next paragraph. This will be improved when the support of text frames is improved.
@@ -105,6 +109,7 @@ Visually the drop cap looks correct but the main text is moved to the next parag
 |Drop Caps|Yes| | |
 
 ##### **Borders**
+
 Borders are exported on style attribute as border-xxx-style and border-xxx-width etc.
 
 Normally each side is exported as separate attributes even if all borders of the paragraph are the same formatting.

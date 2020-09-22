@@ -22,7 +22,9 @@ Below are some of the Shape types supported in Aspose.Words. For complete list, 
 - Trapezoid
 - Hexagon
 - Octagon
+
 ##### **Example**
+
 *Add a group shape into a Word document.*
 
 **Java**

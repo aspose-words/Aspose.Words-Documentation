@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-17-12-release-notes/
 This page contains release notes for [Aspose.Words for Java 17.12](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.12/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 91 improvements and fixes in this regular monthly release. The most notable are:
 
 - PixelFormat property in ImageSaveOptions class.
@@ -34,6 +36,7 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 - Improved handling of collapsed paragraphs.
 - Fixed exception in rare case when line break point cannot be found.
 - Fixed exception when document is saved with revision balloons inside of a cell.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -131,8 +134,11 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16127|Different behavior of Section New Page Break in 16.7 and 17.11|Regression|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 17.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Implemented API to Set Chart Axis Properties**
+
 Related issue WORDSNET-13512.
 
 The following public classes and enumeration types are added to allow setting chart axis properties:
@@ -714,7 +720,9 @@ chart.getAxisX().setTickLabelSpacing(2);
 dataDir = dataDir + "SetIntervalUnitBetweenLabelsOnAxis_out.docx";
 doc.save(dataDir);
 {{< /highlight >}}
+
 ### **Added Feature to Get the docPartGallery Value of StructuredDocumentTag of Type SdtType.DocPartObj.**
+
 Related issue WORDSNET-15972.
 
 The behavior of the following properties was improved:
@@ -732,7 +740,9 @@ public class StructuredDocumentTag
 Now it is possible to obtain the value of these properties for "Markup.SdtType.DocPartObj" SDT type. The exception was thrown in previous versions.
 
 Note: these properties still can no be set for SDT of the document part type.
+
 ### **Changed Return Type for FieldMergingArgsBase.Field**
+
 Related Issue: WORDSNET-16088 
 
 To provide typed access to a merge field's properties requested by a customer we have changed the return type of the FieldMergingArgsBase.Field property (and hence of the corresponding descendants' properties) from **Field** to **FieldMergeField**.

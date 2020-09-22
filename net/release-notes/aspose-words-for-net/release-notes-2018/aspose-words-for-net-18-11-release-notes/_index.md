@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-18-11-release-notes/
 This page contains release notes for [Aspose.Words for .NET 18.11](https://www.nuget.org/packages/Aspose.Words/18.11.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 69 improvements and fixes in this regular monthly release. The most notable are:
 
 - Fixed hang with autosized tables when cell has right aligned floaters.
@@ -28,6 +30,7 @@ There are 69 improvements and fixes in this regular monthly release. The most no
 - Fixed bug with rendering of DrawingML chart markers, if series data are not sorted in ascending order.
 - Fixed a bug causing shifts of rotated shapes in DrawingML chart while rendering.
 - Provided TxtSaveOptions.ExportHeadersFootersMode property.
+
 ## ` `**Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -101,9 +104,13 @@ There are 69 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17436|ExportDocumentStructure does not create tags for PDF|Regression|
 |WORDSNET-17585|Performance test failed|Regression|
 |WORDSNET-17494|Infinite loop detected when invoking UpdatePageLayout method|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 18.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Removing Colon between Empty MERGEFIELDs**
+
 WORDSNET-17386 has now been resolved.
 
 A customer requested a feature supported by Word where you can surround a colon with two merge fields and if both fields are empty then it will also remove the colon. In fact, Aspose.Words removes a paragraph with merge fields if it becomes empty or contains only white-spaces after mail merge, which is controlled by the **MailMergeCleanupOptions.RemoveEmptyParagraphs** option. However, MS Word considers paragraphs with some non-white-space symbols (including colon) empty, while Aspose.Words did not prior to the fix.
@@ -147,7 +154,9 @@ document.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraph
 document.MailMerge.CleanupParagraphsWithPunctuationMarks = false;
 document.MailMerge.Execute(new string[] {"field"}, new object[] {null});
 {{< /highlight >}}
+
 ### **Provide TxtSaveOptions.ExportHeadersFootersMode Property**
+
 ` `New public enum type was added:
 
 {{< highlight csharp >}}
@@ -176,7 +185,9 @@ public TxtExportHeadersFootersMode ExportHeadersFootersMode
 
 The main advantage of new property over the old TxtSaveOptions.ExportHeadersFooters property is that it has new headers and footers export mode: 'AllAtEnd'.
 In this mode Aspose.Words acts the way similar to MS Word: all headers and footers are placed after all section bodies at the very end of a document.
+
 #### **UC**
+
 {{< highlight csharp >}}
 Document doc = new Document ("inputFileName");
 TxtSaveOptions options = new TxtSaveOptions();
@@ -194,9 +205,15 @@ doc.Save("outputFileNameB.txt", options);
 options.ExportHeadersFootersMode = TxtExportHeadersFootersMode.None;
 doc.Save("outputFileNameC.txt", options);
 {{< /highlight >}}
+
 ### **Obsolete Property ShowRevisionBalloons was Removed from RevisionOptions Class**
+
 Obsolete property ShowRevisionBalloons was removed from RevisionOptions class. Please use ShowInBalloons property instead.
+
 ### **Obsolete Property IsShowParagraphMarks was Removed from LayoutOptions Class**
+
 Obsolete property IsShowParagraphMarks was removed from LayoutOptions class. Please use ShowParagraphMarks property instead.
+
 ### **Obsolete Property IsShowHiddenText was Removed from LayoutOptions Class**
+
 Obsolete property IsShowHiddenText was removed from LayoutOptions class. Please use ShowHiddenText property instead.

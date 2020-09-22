@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-17-10-release-notes/
 This page contains release notes for [Aspose.Words for .NET 17.10](https://www.nuget.org/packages/Aspose.Words/17.10.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 76 improvements and fixes in this regular monthly release. The most notable are:
 
 - "Don't add extra space for raised/lowered characters" compatibility option is supported.
@@ -26,6 +28,7 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 - Ability to get and set the number of footnote layout columns.
 - Provide API similar to SignatureSet.AddSignatureLine Method (Office).
 - Expose Table.HorizontalAlignment property public.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -108,8 +111,11 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15883|Aspose.Words throws FileCorruptedException upon loading DOCM file|Regression|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 17.10. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added CompareOptions.Target Property and Enumeration ComparisonTargetType**
+
 Related issue WORDSNET-15681.
 
 Public property added to the CompareOptions class to provide ability to determine base document upon documents comparison. 
@@ -159,11 +165,15 @@ options.IgnoreFormatting = true;
 options.Target =  ComparisonTargetType.New;
 docA.Compare(docB, "am", DateTime.Now, options);
 {{< /highlight >}}
+
 ### **LINQ Reporting Engine Supports Dynamic Chart Series Removal**
+
 Related Issue: WORDSNET-15442
 
 The "[Using Charts to Represent Sequential Data](/words/net/template-syntax/#templatesyntax-usingchartstorepresentsequentialdata)" section of the engine's documentation was updated to describe the change.
+
 ### **Added Public Methods to Add and Remove Replies to Comment**
+
 Related issue WORDSNET-9959
 
 Implemented public API to add/remove comment replies.
@@ -206,7 +216,9 @@ comment.RemoveReply(comment.Replies[1]);
 comment.AddReply("John Doe", "JD", new DateTime(2017, 9, 25, 12, 15, 0), "New reply");
 doc.Save(outFileName);
 {{< /highlight >}}
+
 ### **Format1bppIndexed Added to ImageSaveOptions.PixelFormat**
+
 Related issue: WORDSNET-13489
 
 Format1bppIndexed value was added to ImageSaveOptions.PixelFormat enum:
@@ -238,7 +250,9 @@ opt.ImageColorMode = ImageColorMode.BlackAndWhite;
 opt.PixelFormat = ImagePixelFormat.Format1bppIndexed;
 doc.Save("out.png", opt);
 {{< /highlight >}}
+
 ### **Ability to Get and Set Number of Footnote Layout Columns is Implemented**
+
 Related issue: WORDSNET-14958
 
 The following property has been added into the **FootnoteOptions** class:
@@ -323,7 +337,9 @@ public enum EndnotePosition
     EndOfDocument = 3
 }
 {{< /highlight >}}
+
 ### **Provided API Similar to SignatureSet.AddSignatureLine Method (Office)**
+
 Related issue: WORDSNET-14984
 
 Added public property ProviderId to the **SignOptions** class.
@@ -377,7 +393,9 @@ signOptions.ProviderId = new Guid("{F5AC7D23-DA04-45F5-ABCB-38CE7A982553}");
 CertificateHolder certHolder = CertificateHolder.Create("pathToCert.pfx", "certPassword");
 DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);
 {{< /highlight >}}
+
 ### **Exposed Table.HorizontalAlignment Property**
+
 Related issue: WORDSNET-15817
 
 Added new public read-only properties to the **Table** class.
@@ -408,7 +426,9 @@ else
     Console.WriteLine(table.Alignment);
 }
 {{< /highlight >}}
+
 ### **Prevent Embedding Fonts while Saving into HTML Fixed Format.**
+
 Related issue: WORDSNET-15880
 
 We have introduced HtmlFixedSaveOptions.UseTargetMachineFonts property.

@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-13-10-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 13.10.0](https://www.nuget.org/packages/Aspose.Words/13.10.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 13.10 Release Notes**
+
 ### **What's New**
+
 There are 169 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Finally implemented a much richer support of CSS cascading and inheritance in HTML and MHTML imports

@@ -12,6 +12,7 @@ This page contains release notes for [Aspose.Words for Android 17.2.0](https://d
 {{% /alert %}}
 
 ## **Major Features**
+
 There are 22 improvements and fixes in this regular monthly release. The most notable are:
 
 - Aspose Words for Android is delivered as a single JAR file
@@ -22,6 +23,7 @@ There are 22 improvements and fixes in this regular monthly release. The most no
 - Support of Metered License
 
 Aspose.Words for Android also includes the current Aspose.Words for Java features. See the full list of changes [Aspose.Words for Java 17.2.0 Release Notes]() 
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |Key|Summary|Category|
@@ -50,9 +52,11 @@ Aspose.Words for Android also includes the current Aspose.Words for Java feature
 |WORDSANDROID-177|Bullet disappeared|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 17.2.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 ### **WORDSNET-14589 and WORDSNET-14590 - Added public properties HtmlSaveOptions.ResourceFolder and HtmlSaveOptions.ResourceFolderAlias**
+
 {{% alert color="primary" %}} 
 
 Check the detailed article on [Working with HtmlSaveOptions Properties](https://docs.aspose.com/display/wordsandroid/Converting+a+Microsoft+Word+document+using+save+Method#ConvertingaMicrosoftWorddocumentusingsaveMethod-WorkingwithHtmlSaveOptionsProperties)
@@ -338,7 +342,9 @@ C:\Resouces\Test.001.png
 C:\Resouces\Test.calibril.ttf
 C:\Resouces\MyStyleSheet.css
 {{< /highlight >}}
+
 ### **WORDSNET-14762 - Added Public Property HtmlSaveOptions.ExportFontsAsBase64.**
+
 Check the detailed article on [Export Fonts to HTML in Base64 Encoding](https://docs.aspose.com/display/wordsandroid/Converting+a+Microsoft+Word+document+using+save+Method#ConvertingaMicrosoftWorddocumentusingsaveMethod-ExportFontstoHTMLinBase64Encoding)
 
 New public property ExportFontsAsBase64 is added into the HtmlSaveOptions class:

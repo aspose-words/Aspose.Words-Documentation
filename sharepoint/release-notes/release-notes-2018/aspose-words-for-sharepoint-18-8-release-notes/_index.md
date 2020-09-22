@@ -12,6 +12,7 @@ This page contains release notes for [Aspose.Words for SharePoint 18.8](https://
 This version includes all bug fixes and public API changes made in Aspose.Words for .NET up-to version 18.8, see [Aspose.Words for .NET 18.8 release notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+18.8+Release+Notes) for more information.
 
 {{% /alert %}} 
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

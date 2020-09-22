@@ -15,7 +15,9 @@ All page margins are set to a default value that is used by Microsoft Word when 
 {{% /alert %}} 
 
 You can change the default 1in value by specifying what page margins the exporter should try to enforce. Use the following parameter: 
+
 #### **JasperReports**
+
 **Java**
 
 {{< highlight csharp >}}
@@ -24,7 +26,9 @@ You can change the default 1in value by specifying what page margins the exporte
    exporter.setParameter(AWExporterParameter.PAGE_MARGINS, "1in;1in;0.5in;0.5in");
    exporter.exportReport();
 {{< /highlight >}}
+
 #### **JasperServer**
+
 **XML**
 
 {{< highlight csharp >}}

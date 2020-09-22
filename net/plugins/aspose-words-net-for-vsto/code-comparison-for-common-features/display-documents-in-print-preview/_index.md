@@ -6,12 +6,15 @@ url: /net/display-documents-in-print-preview/
 ---
 
 ## **VSTO Words**
+
 Below is the code to show Print Preview of the document.
 
 {{< highlight csharp >}}
 this.Application.ActiveDocument.PrintPreview();
 {{< /highlight >}}
+
 ## **Aspose.Words**
+
 The Aspose.Words component has no built in dialogs or forms, but implements its own version of the .NET **PrintDocument** class which can be passed to a **PrintPreviewDialog** form to print and preview a document .
 
 Aspose.Words defines a special class called [**AsposeWordsPrintDocument**](https://apireference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument) which is a sub class of the .NET **PrintDocument** class . An instance of this object is passed to the **PrintPreviewDialog** class which defines the output to transmit to a printer.
@@ -38,9 +41,13 @@ previewDlg.WindowState = FormWindowState.Maximized;
 // Show the appropriately configured Print Preview dialog.
 previewDlg.ShowDialog();
 {{< /highlight >}}
+
 ## **Download Running Code Example**
+
 - [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
+
 ## **Sample Code**
+
 - [CodePlex](https://asposevsto.codeplex.com/SourceControl/latest#Aspose.Words Vs VSTO Words/Display Documents in Print Preview/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20VSTO%20Word/Code%20Comparison%20of%20Common%20Features/Display%20Documents%20in%20Print%20Preview)

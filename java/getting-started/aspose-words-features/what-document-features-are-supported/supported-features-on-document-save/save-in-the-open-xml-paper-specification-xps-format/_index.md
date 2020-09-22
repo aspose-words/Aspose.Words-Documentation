@@ -6,6 +6,7 @@ url: /java/save-in-the-open-xml-paper-specification-xps-format/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on XPS Export](/words/java/annotation-features-supported-on-xps-export/)
 - [Custom Markup Features Supported on XPS Export](/words/java/custom-markup-features-supported-on-xps-export/)
 - [Document Features Supported on XPS Export](/words/java/document-features-supported-on-xps-export/)

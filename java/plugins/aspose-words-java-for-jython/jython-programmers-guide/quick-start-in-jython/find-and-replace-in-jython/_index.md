@@ -6,6 +6,7 @@ url: /java/find-and-replace-in-jython/
 ---
 
 ## **Aspose.Words - Find And Replace**
+
 To Find And Replace in a document using **Aspose.Words Java for Jython**. Here you can see example code.
 
 **Jython Code**
@@ -30,7 +31,9 @@ class FindAndReplace:
 if __name__ == '__main__':
     FindAndReplace()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

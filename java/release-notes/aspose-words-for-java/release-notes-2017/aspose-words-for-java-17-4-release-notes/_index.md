@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-17-4-release-notes/
 This page contains release notes for [Aspose.Words for Java 17.4](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.4.0/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 87 improvements and fixes in this regular monthly release. The most notable are:
 
 - Digital signature of ODT documents.
@@ -123,7 +125,9 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 ## **Public API and Backward Incompatible Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added an Interface to Flexibly Format Field Result**
+
 WORDSNET-14944 has been resolved.
 
 We have added an interface allowing to implement a custom formatting of field's result. The original request was about adding a feature to remove spaces between sign and digits during mail merge. However, we decided to implement a more generic and flexible solution because our API is already overwhelmed with different specific properties.
@@ -171,7 +175,9 @@ public class FieldResultFormatter implements IFieldResultFormatter {
 	}
 }
 {{< /highlight >}}
+
 ### **Added Feature to Set Horizontal and Vertical Resolution of Output Image**
+
 Previously it was one property Resolution that set both vertical and horizontal resolution to the same values.
 Now new public properties HorizontalResolution and VerticalResolution are added into the ImageSaveOptions class:
 

@@ -6,6 +6,7 @@ url: /java/linq-reporting-engine-programmers-guide/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [About this Guide](/words/java/about-this-guide/)
 - [Introduction to LINQ Reporting Engine](/words/java/introduction-to-linq-reporting-engine/)
 - [Template Syntax](/words/java/template-syntax/)

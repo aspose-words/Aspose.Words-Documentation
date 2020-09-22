@@ -6,7 +6,9 @@ url: /net/convert-a-word-processing-document-from-the-docm-to-the-docx-file-form
 ---
 
 The **ConvertDOCMtoDOCX** sample method can be used to convert a Word 2010 or Word 2013 document that contains VBA code (and has a .docm extension) to a standard document (with a .docx extension). Use this method to remove the macros and the vbaProject part that contains them from a document stored in .docm file format.
+
 ## **OpenXML Words**
+
 The sample code modifies the document that you specify, verifying that the document contains a vbaProject part, and deleting the part. After the code deletes the part, it changes the document type internally and renames the document so that it uses the .docx extension.
 
 {{< highlight csharp >}}
@@ -61,7 +63,9 @@ ConvertDOCMtoDOCX(File, NewFile);
     }
     }
 {{< /highlight >}}
+
 ## **Aspose.Words**
+
 We can use **Document** constructor of Aspose.Words API to load .doc or .docm files and use **Document.Save** method to save to .docx.
 
 {{< highlight csharp >}}
@@ -75,7 +79,9 @@ private static void ConvertDOCMtoDOCX(string oldfileName, string newfilename)
     doc.Save(newfilename, SaveFormat.Docx);
 }
 {{< /highlight >}}
+
 ## **Download**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

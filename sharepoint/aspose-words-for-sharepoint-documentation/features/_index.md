@@ -6,6 +6,7 @@ url: /sharepoint/features/
 ---
 
 ###### **This section includes the following topics:**
+
 - [Multiple Format Support](/words/sharepoint/multiple-format-support/)
 - [Conversion Options](/words/sharepoint/conversion-options/)
 - [Report Generation](/words/sharepoint/report-generation/)

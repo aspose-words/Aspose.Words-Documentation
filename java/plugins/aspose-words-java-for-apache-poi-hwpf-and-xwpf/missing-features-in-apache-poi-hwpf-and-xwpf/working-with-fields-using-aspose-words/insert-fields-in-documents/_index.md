@@ -6,6 +6,7 @@ url: /java/insert-fields-in-documents/
 ---
 
 ## **Aspose.Words - Insert Fields in Documents**
+
 In Aspose.Words the **DocumentBuilder.insertField** method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
 **Java**
@@ -35,10 +36,14 @@ builder.write(" \"See Next Page\" \"Last Page\" ");
 field.update();
 doc.save(dataDir + "AsposeFields.docx");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithfields/insertfieldsindoc/AsposeInsertFields.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithfields/insertfieldsindoc/AsposeInsertFields.java)
 

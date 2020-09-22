@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-9-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.9.0](https://www.nuget.org/packages/Aspose.Words/15.9.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.9 Release Notes**
+
 ### **Major Features**
+
 There are 81 improvements and fixes in this regular monthly release. The most notable are:
 
 - Creation of EditableRange objects in DocumentBuilder
@@ -20,6 +23,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 - Bookmark hyperlinks are now rendered correctly into PDF/A standard documents
 - Overlapping problem while rendering of Chinese characters into HTML Fixed format resolved
 - Improvements to DrawmingML Charts rendering
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

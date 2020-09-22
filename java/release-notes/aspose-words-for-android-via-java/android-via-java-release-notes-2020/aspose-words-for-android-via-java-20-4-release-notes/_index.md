@@ -13,6 +13,7 @@ This page contains release notes for [Aspose.Words for Android via Java 20.4](ht
 
 
 ## **Major Features**
+
 There are 100+ improvements and fixes in this regular monthly release. The most notable are:
 
 - The logging system is updated and improved.

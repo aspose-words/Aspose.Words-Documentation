@@ -10,7 +10,9 @@ url: /jasperreports/aspose-words-for-jasperreports-2-7-3-release-notes/
 This page contains release notes for [Aspose.Words for JasperReports 2.7.3](http://www.aspose.com/downloads/words/jasperreports/new-releases/aspose.words-for-jasperreports-2.7.3/).
 
 {{% /alert %}} 
+
 ## **Important note:**
+
 Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
 
 - for JasperReports 5.6.0 ... 6.2.0 (**aspose.words.jasperreports-6.2.0.jar**)
@@ -19,12 +21,15 @@ Starting from release **1.9.0** there are several versions of jar library (neces
 - for JasperReports 3.7.1 and lower (**aspose.words.jasperreports-3.7.1.jar**)
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |WORDSJSP-182 |Position of Section break (new page) is incorrect in output Docx/Doc |Bug|
+
 ## **Configuration Option Changes**
+
 Configuration option USE_POSITIONING_TABLES has been changed. By default, its value is **0** (**NONE**). This means that Aspose Words for JasperReports will never use positioning tables. However, you can enable this option by setting it to **1** (**ALWAYS**) if you need to force usage of positioning tables (for example, for complex reports with hierarchy of subreports, frames etc). Or you can set it to 2 (**SMART**) if you need to use adaptive algorithm – positioning tables will be used only where they are required.
 
 In JasperReports:

@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-19-12-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 19.12](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.12).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Memory consumption is reduced for graphic data and HTML files processing.
 - Elliptic Curve Digital Signature Algorithm (ECDSA) is supported now.
 - "Truncate Font Height" MS-Word compatibility option is supported now.

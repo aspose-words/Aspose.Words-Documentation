@@ -52,7 +52,9 @@ There are many properties available in the ImageSaveOptions class which allows c
 - The **ImageSaveOptions.PageCount** property specifies the number of pages to convert. If you save a TIFF file and this parameter is greater than 1 then a multipage TIFF file will be created. If you save multiple pages in a format other than TIFF, i.e in JPEG format, then only the first page will be rendered. By default this is set to the total number of pages in the document.
 - The **ImageSaveOptions.Resolution** property can be set to specify which resolution the document is rendered to. This setting affects any image format being rendered to. By default this is set to 96.
 - The **ImageSaveOptions.TiffCompression** properly sets which compression method to apply when saving to the TIFF format. By default this is set as **TiffCompression.Lzw**
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/Missing-Features-in-6a2c882b)

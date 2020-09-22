@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-18-12-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 18.12](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/18.12).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 108 improvements and fixes in this regular monthly release. The most notable are:
 
 - Java 11 compatibility is checked and updated.
@@ -35,6 +37,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 - Fixed layout when tables merge over the hidden paragraph
 
 'Aspose.Words for Android via Java' 18.12 also includes the current 'Aspose.Words for Java' features. See the full list of changes in [Aspose.Words for Java 18.12 Release Notes](/words/java/aspose-words-for-java-18-12-release-notes/).
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

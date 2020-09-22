@@ -10,7 +10,9 @@ url: /jasperreports/aspose-words-for-jasperreports-2-7-0-release-notes/
 This page contains release notes for [Aspose.Words for JasperReports 2.7.0](http://www.aspose.com/downloads/words/jasperreports/new-releases/aspose.words-for-jasperreports-2.7.0/).
 
 {{% /alert %}} 
+
 ## **Important note:**
+
 Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
 
 - for JasperReports 5.6.0 ... 6.2.0 (**aspose.words.jasperreports-6.2.0.jar**)
@@ -19,6 +21,7 @@ Starting from release **1.9.0** there are several versions of jar library (neces
 - for JasperReports 3.7.1 and lower (**aspose.words.jasperreports-3.7.1.jar**)
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key** |**Summary** |**Category** |

@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-17-1-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 17.1.0](https://www.nuget.org/packages/Aspose.Words/17.1.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 80 improvements and fixes in this regular monthly release. The most notable are:
 
 - Added public API to insert online video via DocumentBuilder.InsertOnlineVideo
@@ -30,6 +32,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 - Improved extracting document outline when TOC headings contain hidden entries
 - Fixed positioning issue with Arabic list labels
 - Fixed height issue with LTR list labels in RTL paragraphs
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -114,9 +117,13 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14450|Hangs on exporting an MHTML document to PDF format|Performance|
 |WORDSNET-7959|/slow/ Aspose.Words hangs during rendering DOCX to PDF|Performance|
 |WORDSNET-7962|Aspose.Words hangs on exporting huge encoded text documents to PDF|Performance|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 17.1.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **SaveOptions.MemoryOptimization Property Added**
+
 When dealing with very large and complex documents Aspose.Words sometimes had problems during saving resulting in out of memory exceptions, disk swapping and generally failures.
 
 We've introduced an option to optimize memory consumption during these scenarios. When set to true it will improve document memory footprint but will add extra time to processing. This optimization is only applied during save operation.
@@ -128,14 +135,18 @@ We've introduced an option to optimize memory consumption during these scenarios
 /// </summary>
 public bool MemoryOptimization {get;set;}
 {{< /highlight >}}
+
 ##### **Usage Example:**
+
 {{< highlight csharp >}}
 Document doc = new Document(@"myDoc.docx");
 SaveOptions so = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 so.MemoryOptimization = true;
 doc.Save("myFile.pdf", so);
 {{< /highlight >}}
+
 ### **FrameFormat Class for getting Frame related Properties of a Paragraph Added**
+
 Available to API users as Paragraph.FrameFormat. This class exposes all frame properties of paragraph in "readonly" mode
 
 {{< highlight csharp >}}
@@ -147,7 +158,9 @@ Available to API users as Paragraph.FrameFormat. This class exposes all frame pr
 /// <p>Use <see cref="IsFrame" /> to check whether paragraph is a frame.</p>
 public class FrameFormat
 {{< /highlight >}}
+
 ### **WORDSNET-13482 - Feature to Insert Online Video Added**
+
 Starting from 17.1.0 Version, Aspose.Words supports inserting online video into the document.
 
 Two overloads of InsertOnlineVideo method were introduced in DocumentBuilder class.
@@ -197,7 +210,9 @@ builder.InsertOnlineVideo(vimeoVideoUrl, vimeoEmbedCode, imageBytes, width, heig
 The Html code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
 Please note: The document will be automatically optimized for MS Word 2013 to show video.
+
 ### **WORDSNET-14405 - TxtSaveOptions.ForcePageBreaks Property Added**
+
 New public property ForcePageBreaks is added into the TxtSaveOptions class:
 
 {{< highlight csharp >}}

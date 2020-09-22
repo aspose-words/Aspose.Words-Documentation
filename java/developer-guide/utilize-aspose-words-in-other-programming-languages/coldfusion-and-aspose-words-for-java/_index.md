@@ -6,6 +6,7 @@ url: /java/coldfusion-and-aspose-words-for-java/
 ---
 
 #### **Prerequisites**
+
 {{% alert color="primary" %}} 
 
 To use Aspose.Words for Java in ColdFusion applications, you simply need to copy the Aspose.Words.jar to **ColdFusion8\wwwroot\WEB-INF\lib** folder. You can learn more about using Java libraries in ColdFusion from the article [here](http://help.adobe.com/en_US/ColdFusion/9.0/Developing/WSc3ff6d0ea77859461172e0811cbec13e1a-7ffd.html).
@@ -13,7 +14,9 @@ To use Aspose.Words for Java in ColdFusion applications, you simply need to copy
 {{% /alert %}} 
 
 Don’t forget to restart the “ColdFusion Application Server” after putting the new jars into the “lib” folder. 
+
 #### **Hello World**
+
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
 **ColdFusion**
@@ -30,7 +33,9 @@ This is a simple application that creates an empty document, inserts some conten
 </body>
 </html>
 {{< /highlight >}}
+
 #### **Simple Mail Merge**
+
 Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 
 **ColdFusion**
@@ -48,7 +53,9 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Word�
 </body>
 </html>
 {{< /highlight >}}
+
 #### **Invoke Static Methods**
+
 Some methods in the Aspose.Words object model are static. For example, there is the **detectFileFormat** method that allows you to detect the original format of a file.
 
 **ColdFusion**
@@ -84,7 +91,9 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 </body>
 </html>
 {{< /highlight >}}
+
 #### **Save or Convert a Document**
+
 With Aspose.Words, you can save a document in a variety of formats. For the full list of formats and identifiers see the **SaveFormat** enumeration.
 
 **ColdFusion**
@@ -105,7 +114,9 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 </body>
 </html>
 {{< /highlight >}}
+
 #### **Mail Merge with Regions**
+
 First, create a Java class that returns a **ResultSet** object as shown below. Compile it, and place in a jar file, and place it in the **“ColdFusion8\wwwroot\WEB-INF\lib”** folder.
 
 **Java**

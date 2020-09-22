@@ -15,7 +15,9 @@ is_root: true
 Aspose.Words for SharePoint makes it possible to convert and combine word documents within Microsoft SharePoint applications. It supports format conversion with high fidelity, and can be used to generate reports with data from SQL databases, XML files or SharePoint lists.
 
 {{% /alert %}} 
+
 ## **Aspose.Words for SharePoint Resources**
+
 The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for SharePoint Online Documentation](/words/sharepoint/)

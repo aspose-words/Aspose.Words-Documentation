@@ -6,6 +6,7 @@ url: /net/add-table-to-word-document/
 ---
 
 ### **OpenXML Word**
+
 Below are the namespace for use:
 
 {{< highlight csharp >}}
@@ -50,7 +51,9 @@ builder.EndTable();
 // Save the document to disk.
 doc.Save(FilePath + "Add Table - Aspose.doc");
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 In **Aspose.Words** a table is normally inserted using **DocumentBuilder**. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
 - DocumentBuilder.StartTable
@@ -140,7 +143,9 @@ using (var document = WordprocessingDocument.Open(fileName, true))
 }
 }
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

@@ -6,6 +6,7 @@ url: /net/add-headers-and-footers/
 ---
 
 ## **VSTO**
+
 {{< highlight csharp >}}
 Word.Application wordApp = Application;
 wordApp.Documents.Open("Add Headers and Footers.doc");
@@ -25,7 +26,9 @@ foreach (Word.Section wordSection in this.Application.ActiveDocument.Sections)
 	footerRange.Text = "Confidential";
 }
 {{< /highlight >}}
+
 ## **Aspose.Words**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -39,7 +42,9 @@ builder.InsertField("Date", "");
 doc.UpdateFields();
 doc.Save("Insert Headers and Footers.doc");
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/787338)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Add.Headers.and.Footers.to.Doc.Aspose.Words.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Headers%20and%20Footers%20to%20Doc%20\(Aspose.Words\).zip)

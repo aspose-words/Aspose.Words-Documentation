@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-16-5-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 16.5.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.5.0/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 83 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved reflow performance for large paragraphs.
@@ -20,6 +22,7 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 - Improved asian text line breaking.
 - Improved font metrics calculation for substituted fonts.
 - Implemented support for SuppressEndnotes option.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |Key|Summary|Category|
@@ -107,9 +110,13 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13418|Optimize line wrapping performance|Performance|
 |WORDSNET-13514|It takes long to save a document to PDF|Performance|
 |WORDSNET-13577|Certain images don't show up in the printed version of the generated report|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 16.5.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **WORDSNET-13538 - Added ReportingEngine.BuildReport() overload**
+
 The following overload has been added to the ReportingEngine class:
 
 {{< highlight csharp >}}

@@ -6,6 +6,7 @@ url: /net/public-api-changes-in-aspose-words-13-x-x/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Public API Changes in Aspose.Words 13.1.0](/words/net/public-api-changes-in-aspose-words-13-1-0/)
 - [Public API Changes in Aspose.Words 13.2.0](/words/net/public-api-changes-in-aspose-words-13-2-0/)
 - [Public API Changes in Aspose.Words 13.3.0](/words/net/public-api-changes-in-aspose-words-13-3-0/)

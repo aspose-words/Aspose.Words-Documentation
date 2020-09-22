@@ -6,6 +6,7 @@ url: /java/working-with-styles-in-jython/
 ---
 
 ## **Aspose.Words - Working With Styles**
+
 To Work With Styles using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 **Jython Code**
@@ -72,7 +73,9 @@ class ExtractContentBasedOnStyles:
 if __name__ == '__main__':        
     ExtractContentBasedOnStyles()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

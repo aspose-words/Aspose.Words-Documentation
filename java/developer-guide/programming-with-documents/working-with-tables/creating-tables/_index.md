@@ -6,6 +6,7 @@ url: /java/creating-tables/
 ---
 
 ### **Creating Tables Overview**
+
 Aspose.Words provides several different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
 
 |**Table Property**|**Default in Aspose.Words**|
@@ -21,7 +22,9 @@ Aspose.Words provides several different methods to create new tables in a docume
 A table can be inline where it is tightly positioned or can be floating where it can be positioned anywhere on the page. By default, Aspose.Words always creates inline tables.
 
 {{% /alert %}} 
+
 ### **Inserting a Table using DocumentBuilder**
+
 In Aspose.Words a table is normally inserted using [DocumentBuilder](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder). The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
 - [DocumentBuilder.startTable()](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/startTable\(\)/)
@@ -64,7 +67,9 @@ Below example shows how to insert a nested table using DocumentBuilder.
 This will produce a table within another table. This is often referred to as a nested table.
 
 ![todo:image_alt_text](creating-tables_12.png)
+
 ### **Inserting a Table Directly into the Document Object Model**
+
 Additionally, you can insert tables directly into the DOM at a particular node position. The same table defaults are used when using a [DocumentBuilder](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder) to create a table. To build a new table from scratch without the use of [DocumentBuilder](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder), first, create a new [Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table) node using the appropriate constructor, then add it to the document tree.
 
 Note that you must take into account that the table will initially be completely empty (i.e contains no child rows yet). In order to build the table, you will first need to add the appropriate child nodes.
@@ -72,7 +77,9 @@ Note that you must take into account that the table will initially be completely
 Below example shows how to insert a table using the constructors of nodes.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertTableDirectlyIntoDOM-.java" >}}
+
 ### **Inserting a Clone of an Existing Table**
+
 Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.deepClone(boolean)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/deepClone\(boolean\)/) method. Below example shows how to make a clone of a table in the document and insert it after the original table.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertCloneOfExistingTable-CloneOfATable.java" >}}
@@ -103,11 +110,15 @@ Below example shows how to make a clone of the last row of a table and append it
 If you are looking at creating tables in a document which dynamically grow with each record from your data source, then the above method is not advised. Instead, the desired output is achieved more easily by using Mail Merge with Regions. You can learn more about this technique under [Mail Merge with Regions Explained](/words/java/about-mail-merge/#aboutmailmerge-mailmergewithregionsexplained).
 
 {{% /alert %}} 
+
 ### **Inserting a Table from HTML**
+
 Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.insertHtml(java.lang.String)](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/insertHtml\(java.lang.String\)/) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertTableFromHtml-.java" >}}
+
 ### **Comparison of Insertion Techniques**
+
 As described in previous articles, Aspose.Words provides several methods for inserting new tables into a document. Each has its advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
 
 |**Method**|**Advantages**|**Disadvantages**|

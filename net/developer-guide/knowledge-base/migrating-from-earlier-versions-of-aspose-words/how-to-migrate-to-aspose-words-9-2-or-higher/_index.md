@@ -6,6 +6,7 @@ url: /net/how-to-migrate-to-aspose-words-9-2-or-higher/
 ---
 
 #### **Overview of the Changes**
+
 {{% alert color="primary" %}} 
 
 Starting from the release of Aspose.Words for .NET 9.2, the public API has undergone some changes. It is not common practice for us to make breaking changes to the API and we try to avoid this whenever possible, but sometimes it is necessary. In this case the changes in the new version occur because:
@@ -18,7 +19,9 @@ Due to these changes you may need to fix certain parts of code when upgrading yo
 {{% /alert %}} 
 
 **Note:** No functionality has been lost from the previous versions through the refactoring of the API. All of the same functionality remains intact, only access to some members has been shifted, renamed or merged into other methods. 
+
 #### **Possible Signs Your Code Requires Changes**
+
 When migrating from a previous version to a newer version implementing the refactored API, attempting to build your project may return compile time errors, such as:
 
 |**Description of Possible Errors** |
@@ -33,7 +36,9 @@ When migrating from a previous version to a newer version implementing the refac
 These types of errors indicate that you are still using members from the old API and need to upgrade to use the new members described below.
 
 {{% /alert %}} 
+
 #### **Quick Reference Guide**
+
 The diagrams below outline the old API members and their corresponding new API members, and are grouped in relation to their function. This allows for quick reference when code needs to be changed. The gray box below the new members states what changes have happened and why they occurred. Example implementations of the new code members can be found following the diagrams.
 
 **Document Constructors, Load and Save Members** 
@@ -53,11 +58,17 @@ The diagrams below outline the old API members and their corresponding new API m
 
 
 ![todo:image_alt_text](how-to-migrate-to-aspose-words-9-2-or-higher_4.png)
+
 #### **Code Examples**
+
 Sample implementations of the new code members are presented below.
+
 ##### **Document Constructors**
+
 The parameters passed to the constructors of the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class from previous versions used to define the password and baseUri strings have now been integrated into the [LoadOptions](https://apireference.aspose.com/words/net/aspose.words/loadoptions) class. This object is passed to the [Document](https://apireference.aspose.com/words/net/aspose.words/document) constructors accepting a **LoadOptions** object to specify these settings when loading a document. 
+
 ##### **Example**
+
 *Opens an HTML document with images from a stream using a base URI.* 
 
 **C#**
@@ -119,9 +130,13 @@ stream.Close()
 ' Save in the DOC format.
 doc.Save(MyDir & "Document.OpenFromStreamWithBaseUri Out.doc")
 {{< /highlight >}}
+
 ##### **Detecting File Format**
+
 Retrieving the file format and properties of the document has been moved to a new utility class [FileFormatUtil](https://apireference.aspose.com/words/net/aspose.words/fileformatutil) . The [FileFormatUtil.DetectFileFormat](https://apireference.aspose.com/words/net/aspose.words/fileformatutil/methods/detectfileformat/index) method accepts a file path as a string or stream object containing the loaded **Document** . An object of the [FileFormatInfo](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo) class is returned which provides information such as the [LoadFormat](https://apireference.aspose.com/words/net/aspose.words/loadformat) of the document and its encryption status. 
+
 ##### **Example**
+
 *Shows how to use the FileFormatUtil class to detect the document format and other features of the document.* 
 
 **C#**
@@ -141,11 +156,15 @@ Console.WriteLine("The document format is: " & FileFormatUtil.LoadFormatToExtens
 Console.WriteLine("Document is encrypted: " & info.IsEncrypted)
 Console.WriteLine("Document has a digital signature: " & info.HasDigitalSignature)
 {{< /highlight >}}
+
 ##### **Saving To Different Formats**
+
 The **Document.SaveToXXX** methods such as **Document.SaveToPdf** , **Document.SaveToXps** and **Document.SaveToImage** have been simplified and are now called through the single [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method overloads. 
 
 The option classes passed to the **Document.Save** method for each format have been simplified as part of the move to the Unified Framework pattern. All the different types of option classes such as [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions) and [XpsSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/xpssaveoptions) are now derived from the base class [SaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions) and inherit its members. This means that any of these derived classes can be passed to an overload which accepts a **SaveOptions** object. 
+
 ##### **Example**
+
 *Shows how to save a document to the PDF format using the Save method and the PdfSaveOptions class.* 
 
 **C#**
@@ -195,7 +214,9 @@ pdfOptions.PageCount = 1
 pdfOptions.PreserveFormFields = True
 doc.Save(MyDir & "Rendering.PdfCustomOptions Out.pdf", pdfOptions)
 {{< /highlight >}}
+
 ##### **Example**
+
 *Shows how to save a document to the Xps format using the Save method and the XpsSaveOptions class.* 
 
 **C#**
@@ -243,7 +264,9 @@ xpsOptions.PageIndex = 0
 xpsOptions.PageCount = 1
 doc.Save(MyDir & "Rendering.XpsCustomOptions Out.xps", xpsOptions)
 {{< /highlight >}}
+
 ##### **Example**
+
 *Shows how to save a document to the Jpeg format using the Save method and the ImageSaveOptions class.* 
 
 **C#**
@@ -299,14 +322,18 @@ imageOptions.PageCount = 1
 imageOptions.JpegQuality = 80
 doc.Save(MyDir & "Rendering.JpegCustomOptions Out.jpg", imageOptions)
 {{< /highlight >}}
+
 ##### **Saving the Document to Browser**
+
 The method signature and the enumeration values passed to the **Document.Save** overload to save the document to the browser has been refactored as part of the move to the Unified Framework pattern. Now instead of accepting an object of **SaveType** and [SaveFormat](https://apireference.aspose.com/words/net/aspose.words/saveformat) , the method accepts an object of [ContentDisposition](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) and **SaveOptions** . 
 
 The **SaveType** enumeration has changed to the **ContentDisposition** enumeration and the values changed as: 
 
 - **SaveType.OpenInBrowser** has become [ContentDisposition.Inline](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) . 
 - **SaveType.OpenInApplicaiton** has become [ContentDisposition.Attachment](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) . 
+
 ##### **Example**
+
 *Performs a simple insertion of data into merge fields and sends the document to the browser inline.* 
 
 **C#**
@@ -335,13 +362,17 @@ doc.MailMerge.Execute(New String() {"FullName", "Company", "Address", "Address2"
 ' Send the document in Word format to the client browser with an option to save to disk or open inside the current browser.
 doc.Save(Response, "MailMerge.ExecuteArray Out.doc", ContentDisposition.Inline, Nothing)
 {{< /highlight >}}
+
 ##### **Document Save Options**
+
 The options defined in the **Document.SaveOptions** property from previous versions has been split into separate classes to which the members belong. For example the **SaveOptions.HtmlExportImagesFolder** has moved to the [HtmlSaveOptions.ImagesFolder](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/imagesfolder) property of the [HtmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions) class. Similarly the **SaveOptions.TxtExportHeadersFooters** has moved to [TxtSaveOptions.ExportHeadersFooters](https://apireference.aspose.com/words/net/aspose.words.saving/txtsaveoptionsbase/properties/exportheadersfootersmode) property of the [TxtSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/txtsaveoptions) class. These objects are passed to the **Document.Save** method as a parameter. 
 
 The names of the properties have also been simplified in the move towards using the Unified Framework pattern. 
 
 There are also new members in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) to specify multiple font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) article. 
+
 ##### **Replacing Events and Delegates with Callbacks and Interfaces**
+
 To facilitate automatic porting of code from the .NET platform to the Java platform events and delegates have been replaced with callbacks and interfaces. Examples of how to modify each event to use the appropriate interface in your code are described below. 
 
 The quickest method to implement the new interfaces is to wrap your existing delegates into a nested class (a class defined inside the main class where the delegate methods reside) as shown in the examples below. 
@@ -349,8 +380,11 @@ The quickest method to implement the new interfaces is to wrap your existing del
 For those interfaces that require implementation of more than one method, you can choose to leave the unused methods empty. 
 
 Note that the names of the arguments passed to the handler methods have been simplified for consistently, for example **MergeFieldEventArgs** has become [FieldMergingArgs](https://apireference.aspose.com/words/net/aspose.words.mailmerging/fieldmergingargs) . 
+
 ##### **Implementing the IFieldMergingCallback Interface**
+
 ##### **Example**
+
 *Demonstrates how to use the InsertDocument method to insert a document into a merge field during mail merge.* 
 
 **C#**
@@ -451,8 +485,11 @@ Private Class InsertDocumentAtMailMergeHandler
     End Sub
 End Class
 {{< /highlight >}}
+
 ##### **Implementing the IReplacingCallback Interface**
+
 ##### **Example**
+
 *Shows how to replace with a custom evaluator.* 
 
 **C#**
@@ -502,8 +539,11 @@ Private Class MyReplaceEvaluator
     Private mMatchNumber As Integer
 End Class
 {{< /highlight >}}
+
 ##### **Implementing the IFontSavingCallback Interface**
+
 ##### **Example**
+
 *Shows how to define custom logic for handling font exporting when saving to HTML based formats.* 
 
 **C#**
@@ -551,8 +591,11 @@ Public Class HandleFontSaving
     End Sub
 End Class
 {{< /highlight >}}
+
 ##### **Implementing the IImageSavingCallback Interface**
+
 ##### **Example**
+
 *Shows how to define custom logic for controlling how images are saved when exporting to HTML based formats.* 
 
 **C#**
@@ -598,8 +641,11 @@ Public Class HandleImageSaving
     End Sub
 End Class
 {{< /highlight >}}
+
 ##### **Implementing the INodeChangingCallback Interface**
+
 ##### **Example**
+
 *Shows how to implement custom logic over node insertion in the document by changing the font of inserted HTML content.* 
 
 **C#**
@@ -690,14 +736,18 @@ Public Class HandleNodeChanging_FontChanger
     End Sub
 End Class
 {{< /highlight >}}
+
 #### **Demonstration Videos**
+
 Additionally, a few short videos providing a visual walk through of how to change some code members are available to download from the resources page [here](http://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1242.aspx). These videos show how to:
 
 - Change the old **MailMerge.MergeField** event and the **MergeFieldEventHanlder** delegate to the new [MailMerge.FieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/fieldmergingcallback) property and [IFieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/ifieldmergingcallback) interface. 
 - Change the old **Document.SaveOptions** property to use the new **HtmlSaveOptions** class. 
 
 These videos can be viewed immediately in any browser which supports displaying Flash content. 
+
 #### **Legacy Pdf Rendering Method (Using the Aspose.Pdf library) is Removed**
+
 The method of rendering to PDF using Aspose.Words and the Aspose.Pdf libraries has been deprecated for some time and due to be removed. Therefore beginning in Aspose.Words for .NET 9.3 this functionality is to be completely removed from the API. 
 
 This method is replaced by direct conversion to PDF, which is invoked by calling the **Document.Save** method. This method of rendering to the PDF format provides improved rendering fidelity and is fully maintained, with new features and bug fixes for it coming out with every release. 

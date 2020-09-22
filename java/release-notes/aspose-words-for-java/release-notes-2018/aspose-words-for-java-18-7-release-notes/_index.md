@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-18-7-release-notes/
 This page contains release notes for [Aspose.Words for Java 18.7](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/18.7).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 90 improvements and fixes in this regular monthly release. The most notable are:
 
 - New typed (generic) collections and enumerators were introduced in Aspose.Words public API
@@ -37,6 +39,7 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 - Improved handling of "don't add space between paragraphs of the same style" option when only one of the paragraphs have this option set
 - Fixed issue when hanging punctuation precedes inline shape
 - Fixed issue when Kinsoku rule is analyzed for shapes
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -131,9 +134,13 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17005|BMP and PNG images are not scaled down in size when HTML is converted to PDF/DOCX`|Regression|
 |WORDSNET-17030|Document.Clone method keeps the reference on original document|Regression|
 |WORDSNET-16975|Yen Currency formatting on MERGEFIELD does not work|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 18.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added API for Revision Groups**
+
 A revision in Aspose.Words is a change in one document node. A set of sequential revisions of the same type in adjacent document nodes forms a revision group. Similar revision groups are displayed in the Reviewing Pane of MS Word.
 
 The new public RevisionGroupCollection and RevisionGroup classes have been added. Also the RevisionCollection.Groups property has been implemented.
@@ -190,10 +197,14 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
     Console.WriteLine(group.Text);
 }
 {{< /highlight >}}
+
 ### **Generics**
+
 Untyped containers like **ArrayList** have been replaced with typed containers like **List&lt;T&gt;**.
 As a result some public API becomes changed.
+
 ### **1. MailMerge**
+
 Before:
 
 {{< highlight csharp >}}
@@ -216,7 +227,9 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 ...
 }
 {{< /highlight >}}
+
 ### **2. MailMergeRegionInfo**
+
 Before:
 
 {{< highlight csharp >}}
@@ -237,7 +250,9 @@ public IList<MailMergeRegionInfo> Regions
     get {...}
 }
 {{< /highlight >}}
+
 ### **3. MailMergeRegionInfo**
+
 Before:
 
 {{< highlight csharp >}}
@@ -258,7 +273,9 @@ public IList<FieldMergeField> Fields
     get { return mChildFields; }
 }
 {{< /highlight >}}
+
 ### **4. DocumentInfo**
+
 Before:
 
 {{< highlight csharp >}}
@@ -284,7 +301,9 @@ public SortedStringListGeneric<object> CustomProperties
     set { mCustomProperties = value; }
 }
 {{< /highlight >}}
+
 ### **5. BorderCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -296,7 +315,9 @@ After:
 {{< highlight csharp >}}
 public sealed class BorderCollection : IEnumerable<Border>
 {{< /highlight >}}
+
 ### **6. DigitalSignatureCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -308,7 +329,9 @@ After:
 {{< highlight csharp >}}
 public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 {{< /highlight >}}
+
 ### **7. VariableCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -320,7 +343,9 @@ After:
 {{< highlight csharp >}}
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 {{< /highlight >}}
+
 ### **8. WarningInfoCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -332,7 +357,9 @@ After:
 {{< highlight csharp >}}
 public class WarningInfoCollection : IWarningCallback, IEnumerable<WarningInfo>
 {{< /highlight >}}
+
 ### **9. ChartDataLabelCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -344,7 +371,9 @@ After:
 {{< highlight csharp >}}
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 {{< /highlight >}}
+
 ### **10. ChartDataPointCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -356,7 +385,9 @@ After:
 {{< highlight csharp >}}
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 {{< /highlight >}}
+
 ### **11. ChartSeriesCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -368,7 +399,9 @@ After:
 {{< highlight csharp >}}
 public class ChartSeriesCollection : IEnumerable<ChartSeries>
 {{< /highlight >}}
+
 ### **12. Type of DmlChartDataLabelAttrs.Extensions property changed.**
+
 Before:
 
 {{< highlight csharp >}}
@@ -380,7 +413,9 @@ After:
 {{< highlight csharp >}}
 StringToObjDictionary<DmlExtension>
 {{< /highlight >}}
+
 ### **13. ListCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -392,7 +427,9 @@ After:
 {{< highlight csharp >}}
 public class ListCollection : IEnumerable<List>
 {{< /highlight >}}
+
 ### **14. ListLevelCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -404,7 +441,9 @@ After:
 {{< highlight csharp >}}
 public class ListLevelCollection : IEnumerable<ListLevel>
 {{< /highlight >}}
+
 ### **15. CustomPartCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -416,7 +455,9 @@ After:
 {{< highlight csharp >}}
 public class CustomPartCollection : IEnumerable<CustomPart>
 {{< /highlight >}}
+
 ### **16. CustomXmlPartCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -428,7 +469,9 @@ After:
 {{< highlight csharp >}}
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 {{< /highlight >}}
+
 ### **17. CustomXmlPropertyCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -440,7 +483,9 @@ After:
 {{< highlight csharp >}}
 public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 {{< /highlight >}}
+
 ### **18. CustomXmlSchemaCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -452,7 +497,9 @@ After:
 {{< highlight csharp >}}
 public class CustomXmlSchemaCollection : IEnumerable<string>
 {{< /highlight >}}
+
 ### **19. SdtListItemCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -464,27 +511,39 @@ After:
 {{< highlight csharp >}}
 public class SdtListItemCollection : IEnumerable<SdtListItem>
 {{< /highlight >}}
+
 ### **20. CompositeNode**
+
 Before:
 
 {{< highlight csharp >}}
 public abstract class CompositeNode : Node, IEnumerable, INodeCollection
+
 #if !JAVA
+
   // XPath navigation is supported on Java, but implementing this interface is not needed.
         , IXPathNavigable
+
 #endif
+
 {{< /highlight >}}
 
 After:
 
 {{< highlight csharp >}}
 public abstract class CompositeNode : Node, IEnumerable<Node>, INodeCollection
+
 #if !JAVA
+
   // XPath navigation is supported on Java, but implementing this interface is not needed.
         , IXPathNavigable
+
 #endif
+
 {{< /highlight >}}
+
 ### **21. NodeCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -496,7 +555,9 @@ After:
 {{< highlight csharp >}}
 public class NodeCollection : INodeCollection, IEnumerable<Node>
 {{< /highlight >}}
+
 ### **22. NodeList**
+
 Before:
 
 {{< highlight csharp >}}
@@ -508,7 +569,9 @@ After:
 {{< highlight csharp >}}
 public class NodeList : IEnumerable<Node>
 {{< /highlight >}}
+
 ### **23. DocumentPropertyCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -520,7 +583,9 @@ After:
 {{< highlight csharp >}}
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 {{< /highlight >}}
+
 ### **24. RevisionCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -532,7 +597,9 @@ After:
 {{< highlight csharp >}}
 public class RevisionCollection : IEnumerable<Revision>
 {{< /highlight >}}
+
 ### **25. BookmarksOutlineLevelCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -544,7 +611,9 @@ After:
 {{< highlight csharp >}}
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
 {{< /highlight >}}
+
 ### **26. OdsoFieldMapDataCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -556,7 +625,9 @@ After:
 {{< highlight csharp >}}
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 {{< /highlight >}}
+
 ### **27. OdsoRecipientDataCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -568,7 +639,9 @@ After:
 {{< highlight csharp >}}
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 {{< /highlight >}}
+
 ### **28. StyleCollection**
+
 Before:
 
 {{< highlight csharp >}}
@@ -580,7 +653,9 @@ After:
 {{< highlight csharp >}}
 public class StyleCollection : IEnumerable<Style>
 {{< /highlight >}}
+
 ### **Added Public Property HeaderFooterBookmarksExportMode in PdfSaveOptions**
+
 WORDSNET-9079 has now been resolved.
 
 {{< highlight csharp >}}
@@ -613,7 +688,9 @@ public enum HeaderFooterBookmarksExportMode
     All
 }
 {{< /highlight >}}
+
 ### **Added FontSourceBase.GetAvailableFonts Method**
+
 WORDSNET-16731 has now been resolved. This method returns the list of fonts available via specific font source.
 
 {{< highlight csharp >}}
@@ -647,7 +724,9 @@ public class PhysicalFontInfo
     public string FilePath { get; }
 }
 {{< /highlight >}}
+
 ### **Introduced new Comparison Settings**
+
 WORDSNET-16806 has now been resolved. The following settings were added to the CompareOptions class:
 
 {{< highlight csharp >}}
@@ -701,7 +780,9 @@ CompareOptions options = new CompareOptions();
 options.IgnoreTables = true;
 docA.Compare(docB, "am", DateTime.Now, options);
 {{< /highlight >}}
+
 ### **Added Public Property TxtLoadOptions.DetectNumberingWithWhitespaces**
+
 WORDSNET-14858 has been resolved.
 
 A public property ***TxtLoadOptions.DetectNumberingWithWhitespaces*** was introduced instead of previously used LoadOptions.AllowTrailingWhitespaceForListItems.
@@ -727,7 +808,9 @@ TxtLoadOptions loadOptions = new TxtLoadOptions();
 loadOptions.DetectNumberingWithWhitespaces = false;
 Document doc = new Document(fileName, loadOptions);
 {{< /highlight >}}
+
 ### **API for Removing Personal Information Setting from Document**
+
 WORDSNET-16914 has been resolved. We have added new public option
 
 {{< highlight csharp >}}
@@ -735,7 +818,9 @@ bool Document.RemovePersonalInformation
 {{< /highlight >}}
 
 Important note: Setting this option does not actually remove personal information while document is processed in Aspose.Words and affects only Microsoft Word behavior.
+
 ### **TxtLoadOptions Class was Extended**
+
 WORDSNET-14858 has been resolved. A new LoadOptions class for dealing with the text files was introduced : ***TxtLoadOptions***.
 
 New public properties ***LeadingSpacesOptions*** and ***TrailingSpacesOptions*** were added into the TxtLoadOptions class:
@@ -769,9 +854,15 @@ loadOptions.LeadingSpacesOptions = TxtLeadingSpacesOptions.Trim;
 loadOptions.TrailingSpacesOptions = TxtTrailingSpacesOptions.Trim;
 Document doc = new Document(fileName, loadOptions);
 {{< /highlight >}}
+
 ### **Obsolete Method RemoveUnusedResources() was Removed from Document Class**
+
 Obsolete method RemoveUnusedResources() was removed from Document class. Please use Document.Cleanup() method instead.
+
 ### **Obsolete Method SetImage() was Removed from ImageData Class**
+
 Obsolete method SetImage() was removed from ImageData class. Please use the ImageBytes property to set an image.
+
 ### **Obsolete Property MirrorMargins was Removed from PageSetup Class**
+
 Obsolete property MirrorMargins was removed from PageSetup class. Please use the MultiplePages property to set MultiplePagesType. 

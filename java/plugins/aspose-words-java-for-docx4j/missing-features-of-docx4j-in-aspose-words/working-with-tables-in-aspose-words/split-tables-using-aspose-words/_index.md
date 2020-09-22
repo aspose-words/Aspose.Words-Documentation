@@ -6,6 +6,7 @@ url: /java/split-tables-using-aspose-words/
 ---
 
 ## **Aspose.Words - Split Tables**
+
 We first need to pick a row at where to split the table. Once we know this we can create two tables from the original table by following these simple steps:
 
 1. Create a clone of the table without cloning children to hold the moved rows and insert it after the original table.
@@ -37,10 +38,14 @@ do
 }
 while (currentRow != row);
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/tables/splittables/AsposeSplittingTables.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/asposefeatures/tables/splittables/AsposeSplittingTables.java)
 

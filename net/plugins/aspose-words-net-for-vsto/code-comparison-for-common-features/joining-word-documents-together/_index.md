@@ -6,6 +6,7 @@ url: /net/joining-word-documents-together/
 ---
 
 ## **VSTO**
+
 {{< highlight csharp >}}
 string mypath = "Document.docx";
 Word.Application wordApp = Application;
@@ -27,7 +28,9 @@ The above code runs in a loop and inserts a document at the end of the current d
 When migrating to Aspose.Words you will find that this task above is very easy to achieve. Aspose.Words provides a special Document.AppendDocument method for this purpose and is used to join two documents together.
 
 This method copies the sections from the source document to the destination document. This removes any need to insert any section breaks which is required in automation.
+
 ## **Aspose.Words**
+
 {{< highlight csharp >}}
 
 // The document that the other documents will be appended to.
@@ -60,7 +63,9 @@ dstDoc.Save("updated.doc");
 
 **Note** 
 you can control how the documents appear joined together i.e continuous or on a new page by using the [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) property of the appropriate [Section](https://apireference.aspose.com/words/net/aspose.words/section) object.
+
 ## **Download Sample Code**
+
 - [Codeplex](http://goo.gl/Isuwmz)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/2/Joining.Documents.Together.Aspose.Words.zip)
 - [Sourceforge](http://goo.gl/NcF8cv)

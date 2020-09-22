@@ -6,6 +6,7 @@ url: /java/autofit-setting-to-tables-in-jython/
 ---
 
 ## **Aspose.Words - Autofit Setting to Tables**
+
 To do Autofit Setting to Tables using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 **Jython Code**
@@ -52,7 +53,9 @@ class AutoFitTables:
 if __name__ == '__main__':        
     AutoFitTables()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

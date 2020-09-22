@@ -6,6 +6,7 @@ url: /net/working-with-text-in-aspose-words/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Find and Replace Text in Documents](https://docs.aspose.com/words/net/find-and-replace-text-in-documents/)
 - [Insert Comments](https://docs.aspose.com/words/net/insert-comments/)
 - [Insert Hyperlink](https://docs.aspose.com/words/net/insert-hyperlink/)

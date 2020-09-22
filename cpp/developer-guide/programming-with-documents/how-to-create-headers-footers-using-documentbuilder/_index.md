@@ -21,7 +21,9 @@ Special attention is given to the following issues:
 - How to ensure proper header/footer appearance when using different page orientation and size for subsequent sections.
 
 {{% /alert %}} 
+
 ## **Example**
+
 Below example shows how to create headers footers using DocumentBuilder.
 
 {{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Document-CreateHeaderFooterUsingDocBuilder-CreateHeaderFooterUsingDocBuilder.cpp" >}}

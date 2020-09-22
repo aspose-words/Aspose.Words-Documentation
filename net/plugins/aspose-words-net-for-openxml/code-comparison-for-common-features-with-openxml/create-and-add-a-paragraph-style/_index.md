@@ -6,6 +6,7 @@ url: /net/create-and-add-a-paragraph-style/
 ---
 
 ### **OpenXML SDK**
+
 {{< highlight csharp >}}
 class Program
 {
@@ -145,7 +146,9 @@ root.Save(part);
 return part;
 }
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string File = FilePath + "Create and add a paragraph style - Aspose.docx";
@@ -170,7 +173,9 @@ builder.Writeln("I'm a very nice formatted string.");
 string txt = builder.CurrentParagraph.GetText();
 doc.Save(File);
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

@@ -6,6 +6,7 @@ url: /java/simple-mail-merge-in-php/
 ---
 
 ## **Aspose.Words - Simple Mail Merge**
+
 To use Mail Merge, simply invoke getMailMerge->execute method.
 
 **Php Code**

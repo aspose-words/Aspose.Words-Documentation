@@ -6,6 +6,7 @@ url: /java/update-fields-in-jython/
 ---
 
 ## **Aspose.Words - Update Fields**
+
 To Update Fields using **Aspose.Words Java for Jython**. Here you can see example code.
 
 **Jython Code**
@@ -73,7 +74,9 @@ class UpdateFields:
 if __name__ == '__main__':
     UpdateFields()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

@@ -22,7 +22,9 @@ Style type is calculated based on the elements that the style is applied to. The
 The logic used when a external style sheet is enctounered on ocument load can be controlled using IResourceLoadingCallback. Using this callback you can choose to download the external style sheet, skip loading and avoid applying the styles from the sheet or specify your own style sheet to use instead.
 
 {{% /alert %}} 
+
 ## **Style Type**
+
 Styles are imported from embedded or external CSS style sheets. Each selector is imported as a new Style in the Aspose.Words model. All styles are imported even if they are not actually used within the HTML body.
 
 Style type is calculated based on the elements that the style is applied to. The appropriate style type is created from this.
@@ -42,6 +44,7 @@ See the following links in the documentation for further information:
 |Character Style |Yes |Imported from "class" attribute on span elements. |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |List Style |Planned | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/StyleType)</p>|
+
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -56,12 +59,14 @@ See the following links in the documentation for further information:
 |Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
 |Run Properties |Yes | |- [Style.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
 |Bullets and Numbering |Yes | |<p>- [Style.List](https://apireference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
+
 ## **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |N/A | | |
 |Run Properties |N/A | | |
+
 ## **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

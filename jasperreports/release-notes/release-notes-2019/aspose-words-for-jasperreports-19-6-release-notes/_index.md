@@ -10,7 +10,9 @@ url: /jasperreports/aspose-words-for-jasperreports-19-6-release-notes/
 This page contains release notes of [Aspose.Words for JasperReports 19.6](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-19.6/).
 
 {{% /alert %}} 
+
 ## **Important Note:**
+
 Starting from release **1.9.0** there are several versions of JAR library (necessary for better support of older versions of JasperServer and JasperReports):
 
 |**For <br>JasperServer** |**For <br>JasperReports** |**Use following JAR library** |
@@ -25,6 +27,7 @@ Starting from release **1.9.0** there are several versions of JAR library (nec
 Note that there is no more support of JasperReports **3.7.1** and lower versions.
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key** |**Summary** |**Category** |
@@ -37,6 +40,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 |WORDSJR-268|An extra blank line is exported in output DOCX|Bug |
 
 ## **Configuration Option Changes**
+
 [DOCX Compatibility option](/words/jasperreports/compatibility-mode-for-docx-output/) is extended in this release.
 
 We have added [**Change Margins**](/words/jasperreports/change-margins/) configuration option in this release.

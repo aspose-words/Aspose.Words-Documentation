@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-1-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.1.0](https://www.nuget.org/packages/Aspose.Words/15.1.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.1 Release Notes**
+
 ### **Major Features**
+
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
 - Fields Public API
@@ -25,6 +28,7 @@ Rendering of spacing and kerning in WordArt supported
 HTML export/import improved for better round-tripping
 
 Comment numbering in rendering
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

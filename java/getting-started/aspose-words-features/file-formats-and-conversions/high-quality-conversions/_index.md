@@ -25,7 +25,9 @@ Opens a document from a file and saves it to a different format
 Document doc = new Document(getMyDir() + "Document.doc");
 doc.save(getMyDir() + "Document Out.html");
 {{< /highlight >}}
+
 #### **Fidelity**
+
 One of the main goals of Aspose.Words is to provide high-fidelity conversion between document formats. We use the word “high-fidelity” to describe conversions where the output document retains all content and formatting of the original.
 
 Modern word processing document formats are complex and include hundreds of features. Sometimes, when a vendor claims their solution supports a particular document format – it means only the basic features of the format are supported. For example, Microsoft Word documents have advanced features such as footnotes, text boxes, auto shapes, OLE objects, fields, and advanced formatting attributes. Many of these elements often will be ignored in document processing libraries, but not in Aspose.Words.
@@ -43,11 +45,15 @@ Examples of Aspose.Words conversions.
 |**Aspose.Words converted DOC to PDF. High-fidelity conversion.**|![todo:image_alt_text](high-quality-conversions_3.png)|
 |**Aspose.Words converted DOC to ODT. High-fidelity conversion.**|![todo:image_alt_text](high-quality-conversions_4.png)|
 |**Aspose.Words converted DOC to HTML. Not “high-fidelity”, but still very good.**|![todo:image_alt_text](high-quality-conversions_5.png)|
+
 #### **Scalability**
+
 Server-side scalable scenarios are where Aspose.Words is used mainly because of its simple and clean design.
 
 Aspose.Words supports multithreading. Document objects are independent of each other and as long as only one thread at a time is allowed to modify a document (a typical requirement for any collection class), multiple threads can be processed any number of documents at the same time.
+
 #### **Speed**
+
 Aspose.Words demonstrates high productivity when loading and saving documents. In a test, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 
 On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over a line of code that loaded a huge document in a debugger and it was so instantaneous that they could not believe the file was loaded into the Document object.

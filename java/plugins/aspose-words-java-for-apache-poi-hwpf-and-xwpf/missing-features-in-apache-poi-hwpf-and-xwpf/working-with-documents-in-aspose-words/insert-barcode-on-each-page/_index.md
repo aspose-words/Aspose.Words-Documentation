@@ -6,6 +6,7 @@ url: /java/insert-barcode-on-each-page/
 ---
 
 ## **Aspose.Words - Insert Barcode on Each Page**
+
 There is no direct way to add barcodes on all pages of a document but you can use **DocumentBuilder.moveToSection**, **DocumentBuilder.moveToHeaderFooter** and **DocumentBuilder.insertImage** methods to move to any section or headers/footers and insert the barcode images
 
 **Java**
@@ -69,10 +70,14 @@ private static void insertBarcodeIntoFooter(DocumentBuilder builder, Section sec
 	builder.insertField("NUMPAGES");
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithbarcode/insertbarcodeoneachpage/AsposeInsertBarcodeOnEachPage.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithbarcode/insertbarcodeoneachpage/AsposeInsertBarcodeOnEachPage.java)
 

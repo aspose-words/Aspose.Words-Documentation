@@ -6,6 +6,7 @@ url: /java/how-to-migrate-to-aspose-words-10-0-or-higher/
 ---
 
 #### **Overview of the Changes**
+
 {{% alert color="primary" %}} 
 
 Starting from the release of Aspose.Words for Java 10.0, the public API has undergone some changes. It is not common practice for us to make breaking changes to the API and we try to avoid this whenever possible, but sometimes it is necessary. In this case the changes in the new version occur because:
@@ -18,7 +19,9 @@ Due to these changes you may need to fix certain parts of code when upgrading yo
 {{% /alert %}} 
 
 **Note:** No functionality has been lost from the previous versions through the refactoring of the API. All of the same functionality remains intact, only access to some members has been shifted, renamed or merged into other methods. 
+
 #### **Possible Signs Your Code Requires Changes**
+
 {{% alert color="primary" %}} 
 
 When migrating from a previous version to a newer version implementing the refactored API, attempting to build your project may return compile time errors, such as:
@@ -32,7 +35,9 @@ When migrating from a previous version to a newer version implementing the refac
 |Cannot resolve method ‘setTrueTypeFontsFolder’. |
 |Cannot resolve symbol ‘PdfOptions’. |
 These types of errors indicate that you are still using members from the old API and need to upgrade to use the new members described below.
+
 #### **Quick Reference Guide**
+
 The diagrams below outline the old API members and their corresponding new API members, and are grouped in relation to their function. This allows for quick reference when code needs to be changed. The gray box below the new members states what changes have happened and why they occurred. Example implementations of the new code members can be found following the diagrams.
 
 **Document Constructors, Load and Save Members** 
@@ -42,11 +47,17 @@ The diagrams below outline the old API members and their corresponding new API m
 **Events, Delegates and Argument Members** 
 
 ![todo:image_alt_text](how-to-migrate-to-aspose-words-10-0-or-higher_2.png)
+
 #### **Code Examples**
+
 Sample implementations of the new code members are presented below.
+
 ##### **Document Constructors**
+
 The parameters passed to the constructors of the **Document** class from previous versions used to define the password and baseUri strings have now been integrated into the **LoadOptions** class. This object is passed to the **Document.#Ctor** constructors accepting a **LoadOptions** object to specify these settings when loading a document. 
+
 ##### **Example**
+
 *Opens an HTML document with images from a stream using a base URI.* 
 
 **Java**
@@ -84,11 +95,15 @@ stream.close();
 // Save in the DOC format.
 doc.save(getMyDir() + "Document.OpenFromStreamWithBaseUri Out.doc");
 {{< /highlight >}}
+
 ##### **Saving To Different Formats**
+
 The **Document.saveToPdf** method and its overloads have been simplified and is now called through the single **Document.Save** method overloads. 
 
 The option classes passed to the **Document.Save** method for the PDF format and each format have been simplified as part of the move to the Unified Framework pattern. All the different types of option classes such as **PdfSaveOptions** and **XpsSaveOptions** are now derived from the base class **SaveOptions** and inherit its members. This means that any of these derived classes can be passed to an overload which accepts a **SaveOptions** object. 
+
 ##### **Example**
+
 *Shows how to save a document to the PDF format using the Save method and the PdfSaveOptions class.* 
 
 **Java**
@@ -114,13 +129,19 @@ pdfOptions.setPageCount(1);
 pdfOptions.setPreserveFormFields(true);
 doc.save(getMyDir() + "Rendering.PdfCustomOptions Out.pdf", pdfOptions);
 {{< /highlight >}}
+
 ##### **Document Save Options**
+
 The options defined in the **Document.SaveOptions** property from previous versions has been split into separate classes to which the members belong. For example the **SaveOptions.HtmlExportImagesFolder** has moved to the **HtmlSaveOptions.ImagesFolder** property of the **HtmlSaveOptions** class. Similarly the **SaveOptions.TxtExportHeadersFooters** has moved to **TxtSaveOptions.ExportHeadersFooters** property of the **TxtSaveOptions** class. These objects are passed to the **Document.Save** method as a parameter. 
 
 The names of the properties have also been simplified in the move towards using the Unified Framework pattern. 
+
 ##### **Specifying Font Folders used During Rendering**
+
 To set the folder used to look for fonts during rendering in previous versions you would use the **PdfOptions.setTrueTypeFontsFolder** method. Starting in Aspose.Words 10.0 this functionality has been moved to a static class so that setting the folders used to find fonts when rendering is shared for every fixed format across the application. Now to set the location of fonts on the machine, you need to call the **FontSettings.SetFontsFolder** method. 
+
 ##### **Example**
+
 *Demonstrates how to set the folder Aspose.Words uses to look for TrueType fonts during rendering.* 
 
 **Java**
@@ -132,14 +153,19 @@ Document doc = new Document(getMyDir() + "Rendering.doc");
 FontSettings.setFontsFolder("C:\\MyFonts\\", false);
 doc.save(getMyDir() + "Rendering.SetFontsFolder Out.pdf");
 {{< /highlight >}}
+
 ##### **Replacing Events and Delegates with Callbacks and Interfaces**
+
 To facilitate automatic porting of code from the .NET platform to the Java platform events and delegates have been replaced with callbacks and interfaces. Examples of how to modify each event to use the appropriate interface in your code are described below. 
 
 For those interfaces that require implementation of more than one method, you can choose to leave the unused methods empty. 
 
 Note that the names of the arguments passed to the handler methods have been simplified for consistently, for example **MergeFieldEventArgs** has become **FieldMergingArgs** . 
+
 ##### **Implementing the IFieldMergingCallback Interface**
+
 ##### **Example**
+
 *Demonstrates how to use the InsertDocument method to insert a document into a merge field during mail merge.* 
 
 **Java**
@@ -196,8 +222,11 @@ private class InsertDocumentAtMailMergeHandler implements IFieldMergingCallback
     }
 }
 {{< /highlight >}}
+
 ##### **Implementing the IReplacingCallback Interface**
+
 ##### **Example**
+
 *Shows how to replace with a custom evaluator.* 
 
 **Java**
@@ -224,8 +253,11 @@ private class MyReplaceEvaluator implements IReplacingCallback
     private int mMatchNumber;
 }
 {{< /highlight >}}
+
 ##### **Implementing the IImageSavingCallback Interface**
+
 ##### **Example**
+
 *Shows how to define custom logic for controlling how images are saved when exporting to HTML based formats.* 
 
 **Java**
@@ -250,8 +282,11 @@ public class HandleImageSaving implements IImageSavingCallback
     }
 }
 {{< /highlight >}}
+
 ##### **Implementing the INodeChangingCallback Interface**
+
 ##### **Example**
+
 *Shows how to implement custom logic over node insertion in the document by changing the font of inserted HTML content.* 
 
 **Java**

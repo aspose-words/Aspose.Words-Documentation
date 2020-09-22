@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-17-10-release-notes/
 This page contains release notes for [Aspose.Words for Java 17.10](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.10/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 83 improvements and fixes in this regular monthly release. The most notable are:
 
 - "Don't add extra space for raised/lowered characters" compatibility option is supported.
@@ -25,6 +27,7 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 - Ability to get and set the number of footnote layout columns.
 - Provide API similar to SignatureSet.AddSignatureLine Method (Office).
 - Expose Table.HorizontalAlignment property public.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -114,7 +117,9 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 ## **Public API and Backward Incompatble Changes**
 
 This section lists public API changes that were introduced in Aspose.Words 17.10. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added CompareOptions.Target Property and Enumeration ComparisonTargetType**
+
 Related issue WORDSNET-15681.
 
 Public property added to the CompareOptions class to provide ability to determine base document upon documents comparison. 
@@ -163,11 +168,15 @@ options.setIgnoreFormatting(true);
 options.setTarget(ComparisonTargetType.NEW);
 docA.compare(docB, "am", new Date(), options);
 {{< /highlight >}}
+
 ### **LINQ Reporting Engine Supports Dynamic Chart Series Removal**
+
 Related Issue: WORDSNET-15442
 
 The "[Using Charts to Represent Sequential Data](/words/java/using-charts-to-represent-sequential-data/)" section of the engine's documentation was updated to describe the change.
+
 ### **Added Public Methods to Add and Remove Replies to Comment**
+
 Related issue WORDSNET-9959
 
 Implemented public API to add/remove comment replies.
@@ -210,7 +219,9 @@ comment.removeReply(comment.getReplies().get(1));
 comment.addReply("John Doe", "JD", new Date(2017, 9, 25, 12, 15, 0), "New reply");
 doc.save(outFileName);
 {{< /highlight >}}
+
 ### **Ability to Get and Set Number of Footnote Layout Columns is Implemented**
+
 Related issue: WORDSNET-14958
 
 The following property has been added into the **FootnoteOptions** class:
@@ -300,7 +311,9 @@ public class EndnotePosition
     END_OF_DOCUMENT = 3
 }
 {{< /highlight >}}
+
 ### **Provided API Similar to SignatureSet.AddSignatureLine Method (Office)**
+
 Related issue: WORDSNET-14984
 
 Added public property ProviderId to the **SignOptions** class.
@@ -356,7 +369,9 @@ signOptions.setProviderId(UUID.randomUUID());
 CertificateHolder certHolder = CertificateHolder.create("pathToCert.pfx", "certPassword");
 DigitalSignatureUtil.sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);		
 {{< /highlight >}}
+
 ### **Exposed Table.HorizontalAlignment Property**
+
 Related issue: WORDSNET-15817
 
 Added new public read-only properties to the **Table** class.
@@ -391,7 +406,9 @@ else
 System.out.println(table.getAlignment());
 }
 {{< /highlight >}}
+
 ### **Prevent Embedding Fonts while Saving into HTML Fixed Format.**
+
 Related issue: WORDSNET-15880
 
 We have introduced HtmlFixedSaveOptions.UseTargetMachineFonts property.

@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-15-1-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 15.1.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-15.1.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 15.1 Release Notes**
+
 ### **Major Features**
+
 There are 81 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Moved main codebase to Java 6 (Java 7 and 8 are also supported). Dropped support for Java 5 and 1.4
@@ -27,6 +30,7 @@ Rendering of spacing and kerning in WordArt supported
 HTML export/import improved for better round-tripping
 
 Comment numbering in rendering 
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |

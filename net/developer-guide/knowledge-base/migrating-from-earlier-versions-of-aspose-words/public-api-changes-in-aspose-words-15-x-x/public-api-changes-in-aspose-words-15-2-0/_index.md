@@ -10,7 +10,9 @@ url: /net/public-api-changes-in-aspose-words-15-2-0/
 These page list public API changes that were introduced in Aspose.Words 15.2.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **Aspose.Words Drawing API Changes**
+
 To make your life easier, when you work with graphic objects, Aspose.Words introduces new API changes.
 
 \1. The hugest one is removing DrawingML from the API. Now you do not need to think about graphic object markup language, Vml or DrawingML, now both of them are available through the Shape or GroupShape object in Aspose.Words document model.
@@ -129,9 +131,13 @@ shape = builder.InsertImage(testImage);
 {{< /highlight >}}
 
 But actually you do not need even to think about this too, because Aspose.Words smartly converts your Dml markup shape to Vml in case of using old MS Word formats.
+
 ### **LayoutCollector will not Automatically Update Fields in Document.**
+
 Fix of WORSDNET-10305 has changed behavior of layout collector class. It will not automatically update fields in the document. If user wants fields updated this can be achieved by adding document.UpdateFields() after the call to layout collector class constructor.
+
 ### **First Version of Document Comparison**
+
 WORDSNET-2385 is implemented and first version of document comparison is exposed publicly.
 
 **C#**

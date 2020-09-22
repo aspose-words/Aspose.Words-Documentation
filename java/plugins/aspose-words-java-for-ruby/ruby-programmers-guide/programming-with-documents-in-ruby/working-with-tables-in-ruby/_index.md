@@ -6,6 +6,7 @@ url: /java/working-with-tables-in-ruby/
 ---
 
 ## **Aspose.Words - Auto Fit Tables**
+
 **Ruby Code**
 
 {{< highlight ruby >}}
@@ -86,7 +87,9 @@ def autofit_table_to_fixed_column_widths()
     end
 end
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Auto Fit Tables (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/autofittables.rb)

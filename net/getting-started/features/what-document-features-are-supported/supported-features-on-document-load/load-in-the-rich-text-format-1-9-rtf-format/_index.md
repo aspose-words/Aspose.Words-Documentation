@@ -6,6 +6,7 @@ url: /net/load-in-the-rich-text-format-1-9-rtf-format/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on Rich Text Import](/words/net/annotation-features-supported-on-rich-text-import)
 - [Custom Markup Features Supported on Rich Text Import](/words/net/custom-markup-features-supported-on-rich-text-import)
 - [Document Features Supported on Rich Text Import](/words/net/document-features-supported-on-rich-text-import)

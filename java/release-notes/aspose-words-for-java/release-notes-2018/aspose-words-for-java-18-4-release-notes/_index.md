@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-18-4-release-notes/
 This page contains release notes for [Aspose.Words for Java 18.4](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/18.4).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
 - Added public Ref&lt;T&gt; class for out/ref emulation in public API.
@@ -38,6 +40,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 - Fixed incorrect glyph selection for Zero Width No-Break Space when font does not have this glyph
 - Fixed comment range highlighting issue when comment spans multiple pages inside a repeated header row of a table
 - Fixed rendering of text in merged cells when row contains hidemark attribute on the cell break and all remaining cells are merged
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -117,9 +120,13 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16353|Improve the rendering of compound lines and DrawingML shapes|Feature|
 |WORDSNET-16133|Provide an ability to work with password-protected ODT and OTT file formats|Feature|
 |WORDSNET-16565|UpdateFields caused hidden fields to be shown|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 18.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Public Ref Class for out-ref Emulation in Public Java API**
+
 Related issue: WORDSJAVA-1756
 
 On .NET baseline, some public API methods contain out/ref params in signatures. Service classes Ref&lt;T&gt;, RefInt, RefBoolean, etc. are added to emulate out/ref in Java.
@@ -137,7 +144,9 @@ void someMethod(Ref<Document> doc, RefInt i)
 {{< /highlight >}}
 
 The Ref* classes contain get() and set() methods to get and set the value.
+
 ### **Ability to Work with Password-Protected ODT and OTT File Formats Added**
+
 Related issue: WORDSNET-16133
 
 Supported encryption for ODF documents.
@@ -161,7 +170,9 @@ public OdtSaveOptions(String password)
 /// </remarks>
 public String Password
 {{< /highlight >}}
+
 ##### **UC1: Load encrypted ODT document.**
+
 {{< highlight csharp >}}
 Document doc = new Document("\\encrypted.odt", new LoadOptions("password"));
 {{< /highlight >}}
@@ -172,12 +183,16 @@ Document doc = new Document("\\encrypted.odt", new LoadOptions("password"));
 Document doc = new Document();
 doc.save("\\encryped.odt", new OdtSaveOptions("password"));
 {{< /highlight >}}
+
 ##### **UC3: Verify ODT document is encrypted.**
+
 {{< highlight csharp >}}
 FileFormatInfo info = FileFormatUtil.detectFileFormat("\\encryped.odt");
 System.out.println(info.isEncrypted());
 {{< /highlight >}}
+
 ### **Ability to Preserve PaperTray Information in PCL Added**
+
 Related issue: WORDSNET-16391
 
 Paper tray information is now preserved when saving document to PCL format.
@@ -191,7 +206,9 @@ PageSetup.OtherPagesTray
 No additional code is required.
 Please note the value of paper tray is passed from document "as is".
 PCL format supports only 8-bit identifiers for paper tray so make sure this values are correct for PCL printer.
+
 ### **Added ShapeBase.IsLayoutInCell property**
+
 Related issue: WORDSNET-16546
 
 The following public property has been added into the **ShapeBase** class:
@@ -212,7 +229,9 @@ public boolean isLayoutInCell
 {{< /highlight >}}
 
 The property may be helpful for shapes (mainly VML) that are placed into a table cell but are needed to position without binding to the cell.
+
 ###### **Usage**
+
 {{< highlight csharp >}}
 Document doc = new Document(dataDir + "LayoutInCell.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -241,7 +260,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 dataDir = dataDir + "Shape_IsLayoutInCell_out.docx";
 doc.save(dataDir);
 {{< /highlight >}}
+
 ### **Optimization of Vector Graphics Output of Metafile Rendering**
+
 Related issues: WORDSNET-16449, WORDSNET-15490
 
 Implemented optimization of metafile rendering vector output. Optimization includes applying intermediate transformations directly to the graphics and removing redundant canvases. Such optimization is also performed by MW when saving metafiles as vector graphics to PDF, XPS, etc.
@@ -249,5 +270,7 @@ Implemented optimization of metafile rendering vector output. Optimization inclu
 Optimization may affect the visual appearance of metafile vector graphics in viewer applications due to peculiarities of vector graphics rendering. For example, there are cases when not optimized output looks faded out in Acrobat Reader comparing to optimized output.
 
 Metafile output optimization is controlled by existing FixedPageSaveOptions.OptimizeOutput flag.
+
 ### **Obsolete property LoadOptions.WebRequestTimeout was removed**
+
 Obsolete property WebRequestTimeout was removed from the LoadOptions class. Please use the HtmlLoadOptions.WebRequestTimeout property instead.

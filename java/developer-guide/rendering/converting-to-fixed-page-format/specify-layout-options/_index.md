@@ -6,7 +6,9 @@ url: /java/specify-layout-options/
 ---
 
 Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/java/words/com.aspose.words/LayoutOptions) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
+
 ## **Formatting Marks**
+
 Aspose.Words allows to manage formatting marks using the following properties:
 
 - [ShowHiddenText](https://apireference.aspose.com/java/words/com.aspose.words/layoutoptions#ShowHiddenText) – a Boolean value, which specifies whether the hidden text is rendered.
@@ -19,7 +21,9 @@ The page depicted in the example below contains three paragraphs. The second one
 In Microsoft Word, these parameters are set using the "File → Options → Display" dialog box as follows:
 
 ![formatting_marks_ms_word](specify-layout-options_3.png)
+
 ## **Comments and Revisions**
+
 With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://apireference.aspose.com/java/words/com.aspose.words/layoutoptions#ShowComments) property.
 
 In Microsoft Word, this parameter is set using the "Track Changes Options" dialog box, as shown below:
@@ -35,7 +39,9 @@ You can also have revisions displayed as comments to the content. For this purpo
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
 ![comments_and_revisions_example](specify-layout-options_2.png)
+
 ## **Text Shaper for Advanced Typography Rendering**
+
 The [TextShaperFactory](https://apireference.aspose.com/java/words/com.aspose.words/ITextShaperFactory) property enables you to set the text shaping functionality, as well as the OpenType features support.
 
 Use text shaping for document processing in the following main cases:

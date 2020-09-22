@@ -22,7 +22,9 @@ At a simple level, retrieving the content based on styles from a Word document c
 To take this a few steps further, this can also be used to leverage the structure of the document, defined by the styles it uses, to re-purpose the document for another output, such as HTML. This is in fact how the Aspose documentation is built, putting Aspose.Words to the test. A tool built using Aspose.Words takes the source Word documents and splits them into topics at certain heading levels. An XML file is produced using Aspose.Words which is used to build the navigation tree you can see on the left. And then Aspose.Words converts each topic into HTML.
 
 The solution for retrieving text formatted with specific styles in a Word document is typically economical and straightforward using Aspose.Words.
+
 #### **The Solution**
+
 To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document.
 
 At a high level, this will involve:
@@ -36,10 +38,13 @@ Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph
 ![todo:image_alt_text](how-to-extract-content-based-on-styles_1.png)
 
 In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
+
 #### **The Code**
 
 The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution: ParagraphsByStyleName – This method retrieves an array of those paragraphs in the document that have a specific style name. RunsByStyleName – This method retrieves an array of those runs in the document that have a specific style name. Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of ParagraphsByStyleName:
+
 ##### **Example**
+
 *Find all paragraphs formatted with the specified style.*
 
 **Java**
@@ -72,7 +77,9 @@ It’s also worth pointing out that the paragraphs collection does not create an
 Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.Name](https://apireference.aspose.com/words/java/com.aspose.words/style#Name) property of the [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) object.
 
 The implementation of RunsByStyleName is almost the same, although we’re obviously using [NodeType.Run](https://apireference.aspose.com/words/java/com.aspose.words/NodeType) to retrieve run nodes. The [Font.Style](https://apireference.aspose.com/words/java/com.aspose.words/font#Style) property of a [Run](https://apireference.aspose.com/words/java/com.aspose.words/Run) object is used to access style information in the **Run** nodes.
+
 ##### **Example**
+
 *Find all runs formatted with the specified style.*
 
 **Java**
@@ -101,7 +108,9 @@ public static ArrayList runsByStyleName(Document doc, String styleName) throws E
 When both queries are implemented, all you need to do is to pass a document object and specify the style names of the content you want to retrieve:
 
 {{% /alert %}} 
+
 ##### **Example**
+
 *Run queries and display results.*
 
 **Java**
@@ -132,6 +141,7 @@ for (Run run : (Iterable<Run>) runs)
     System.out.println(run.getRange().getText());
 {{< /highlight >}}
     
+
 #### **End Result**
 
 When everything is done, running the sample will display the following output:

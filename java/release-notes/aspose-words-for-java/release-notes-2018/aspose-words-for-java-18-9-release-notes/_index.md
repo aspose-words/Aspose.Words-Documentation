@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-18-9-release-notes/
 This page contains release notes for [Aspose.Words for Java 18.9](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/18.9).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 85 improvements and fixes in this regular monthly release. The most notable are:
 
 - Animated GIF is fully supported now
@@ -33,6 +35,7 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 - Fixed issue with paragraph spacing in footnotes
 - Fixed issue with line wrapping when it has single glyph wider than the line followed by page break
 - Fixed issue with table row height calculation when cells in vertical merge have horizontal borders
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -122,9 +125,13 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16637|Bookmarks are not part of the BookmarkCollection|Regression|
 |WORDSNET-17300|Bookmark.Remove very slow in the Aspose.Version 18.8|Regression|
 |WORDSNET-17305|Bookmark Performance issue in Aspose.Words 18.6 version|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 18.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Bookmarks are Allowed on Block, Cell, Row Levels**
+
 WORDSNET-721 has now been resolved.
 
 The bookmark nodes are allowed to be placed on the block, cell and row levels now. In the previous versions bookmarks were moved into the next nearest paragraph on document loading. So, now on reading/saving DOCX, DOC, WML documents, bookmarks preserve their positions in document node structure.
@@ -149,17 +156,23 @@ public static boolean AnnotationsAtBlockLevelAsDefault { get; set; }
 
 Now code that uses Aspose.Words should consider that not only composite nodes may appear on the block/cell/row level, for example, as children of the Body, Table, Row, Cell nodes.
 Setting the AnnotationsAtBlockLevelAsDefault property to **false** allows temporarily prevent possible issues with the existing code. But please note that the property may become obsolete in the further versions of the software.
+
 ##### **UC to open a document in the inline-bookmarks mode**
+
 {{< highlight csharp >}}
 LoadOptions options = new LoadOptions();
 options.setAnnotationsAtBlockLevel(false);
 Document doc = new Document("Document1.docx", options);
 {{< /highlight >}}
+
 ##### **UC to set the “old” mode as default**
+
 {{< highlight csharp >}}
 LoadOptions.setAnnotationsAtBlockLevelAsDefault(false);
 {{< /highlight >}}
+
 ### **Added LoadOption to Treat Shapes with Math XML as Shapes in Model**
+
 WORDSNET-16540 has now been resolved.
 
 The "ConvertShapeToOfficeMath" property has been added to "LoadOptions" class.
@@ -186,7 +199,9 @@ lo.setConvertShapeToOfficeMath(true);
 // Specify load option to use previous default behaviour i.e. convert math shapes to office math ojects on loading stage.
 Document doc = new Document("SrcFile.docx", lo);
 {{< /highlight >}}
+
 ### **Option to Choose Between Old and New Mail Merge Behaviors Added**
+
 WORDSNET-17313 has now been resolved.
 
 We had a customer (issue: WORDSNET-17259) who was not happy with the current Aspose.Words behavior related to the IF fields evaluation during mail merge. They were relying on the fact that the merge fields and regions located in the "false" argument of the IF field ("false" meaning the argument that does not match the condition) were merged in the past along with the "true" argument. This behavior was changed over time to mimic MS Word and at the moment it matches MS Word (the "false" argument is not merged); however the customer considered it a regression and wanted the old behavior back. To satisfy them, we decided to introduce an option controlling the behavior.
@@ -207,7 +222,9 @@ Use case:
 document.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
 document.getMailMerge().execute(dataSource);
 {{< /highlight >}}
+
 ### **Improved PDF encryption in Case when Owner Password is not Specified**
+
 WORDSNET-17316 has now been resolved.
 
 Previously Aspose.Words created random owner password in the produced PDF document when PdfEncryptionDetails.OwnerPassword was not set by the user. This behavior was described in XML comments:

@@ -10,12 +10,16 @@ url: /cpp/aspose-words-for-cpp-19-11-1-release-notes/
 This page contains release notes for [Aspose.Words for C++ 19.11.1](https://www.nuget.org/packages/Aspose.Words.CPP/19.11.1)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 This is a patch release.
 
 - We have moved WebExtension related classes to a proper namespace - from Aspose::Words::Model::WebExtensions to Aspose::Words::WebExtensions (the same as in the Aspose.Words for .Net)
 - We have updated dependency from CodePorting.Native.Cs2Cpp to version 19.11
+
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 

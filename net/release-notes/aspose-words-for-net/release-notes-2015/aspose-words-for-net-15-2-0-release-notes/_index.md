@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-2-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.2.0](https://www.nuget.org/packages/Aspose.Words/15.2.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.2 Release Notes**
+
 ### **Major Features**
+
 There are 116 improvements and fixes in this regular monthly release. The most notable are:
 
 Document comparison feature is introduced, see Document.Compare
@@ -26,6 +29,7 @@ Middle East languages are now rendered correctly in SmartArt and charts
 Improved positioning of comment's balloons during rendering
 
 Improved vertical text inside text boxes during rendering
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

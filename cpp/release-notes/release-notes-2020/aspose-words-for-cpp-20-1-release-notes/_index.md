@@ -10,14 +10,18 @@ url: /cpp/aspose-words-for-cpp-20-1-release-notes/
 This page contains release notes for [Aspose.Words for C++ 20.1](https://www.nuget.org/packages/Aspose.Words.CPP/20.1)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 We have added the following features from Aspose.Words for .Net on this regular monthly release:
 
 - Implemented support of paragraph rules in footnotes.
 - API to get/set the position of the floating table is exposed.
 - Implemented an ability to check if VbaProject is signed.
 - Added feature to insert IconCaption while using InsertOleObject.
+
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 
@@ -28,6 +32,7 @@ The missing features will be added in future releases.
 - The current release does not support LINQ and Reporting features.
 - The current release has limited support for database features - C++ does not have common API for DB like .Net System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -98,10 +103,12 @@ The missing features will be added in future releases.
 
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 
 ### **Added a new public property VbaProject.IsSigned**
+
 Related issue: WORDSNET-12444 Added a new public property VbaProject.IsSigned:
 
 {{< highlight csharp >}}
@@ -119,7 +126,9 @@ if (doc.VbaProject.IsSigned)
  
   // do smth..
 {{< /highlight >}}
+
 ### **Added setters for floating table properties**
+
 WORDSNET-12204. Added setters for following table properties: RelativeHorizontalAlignment, AbsoluteHorizontalDistance, RelativeVerticalAlignment, AbsoluteVerticalDistance.
 
 These properties allow setting floating table position.
@@ -142,11 +151,17 @@ table.AbsoluteHorizontalDistance = 10;
 table.RelativeVerticalAlignment = VerticalAlignment.Center;
  // sets vertical table position to center of entity specified by Table.VerticalAnchor.
 {{< /highlight >}}
+
 ### **SaveOptions.ColorMode property moved to FixedPageSaveOptions class**
+
 Related issue: WORDSNET-19635 SaveOptions.ColorMode public property moved to FixedPageSaveOptions class.
+
 ### **Supported dynamic bookmark insertion for LINQ Reporting Engine**
+
 Issue: WORDSNET-19648 The "[Inserting Bookmarks Dynamically](https://docs.aspose.com/display/wordsnet/Template+Syntax#TemplateSyntax-InsertingBookmarksDynamically)" section of the engine's documentation was added to describe the change.
+
 ### **WORDSNET-18928 - Add feature to insert IconCaption and correct icon while using InsertOleObject**
+
 A new public method has been added to the DocumentBuilder class:
 
 {{< highlight csharp >}}

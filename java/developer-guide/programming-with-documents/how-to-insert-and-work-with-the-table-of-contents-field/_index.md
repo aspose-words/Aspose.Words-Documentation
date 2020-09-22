@@ -6,6 +6,7 @@ url: /java/how-to-insert-and-work-with-the-table-of-contents-field/
 ---
 
 ## **Insert and Work with the Table of Contents Field**
+
 Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just a few lines of code.
 
 This article outlines how to work with the table of contents field and demonstrates:
@@ -15,7 +16,9 @@ This article outlines how to work with the table of contents field and demonstra
 - Specify switches to control the formatting and overall structure f the TOC.
 - How to modify the styles and appearance of the table of contents.
 - How to remove an entire TOC field along with all entries form the document.
+
 ### **Insert a Table of Contents Programmatically**
+
 The [DocumentBuilder.insertTableOfContents(java.lang.String)](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/insertTableOfContents\(java.lang.String\)/) method is called to insert a TOC field into the document at the current position of the DocumentBuilder.
 
 A table of contents in a Word document can be built in a number of ways and formatted using a variety of options. The field switches that you pass to the method control the way the table is built and displayed in your document.
@@ -35,7 +38,9 @@ The code demonstrates the new table of contents is inserted into a blank documen
 ![todo:image_alt_text](how-to-insert-and-work-with-the-table-of-contents-field_1.png)
 
 Without these calls when the output document is opened you would find that there would be a TOC field but with no visible content. This is because the TOC field has been inserted but is not yet populated until it’s updated in the document. Further information about this is discussed in the next section.
+
 ### **Updating the Table of Contents**
+
 Aspose.Words allows you to completely update a TOC with only a few lines of code. This can be done to populate a newly inserted TOC or to update an existing TOC after changes to the document have been made.
 
 The following two methods must be used in order to update the TOC fields in the document:
@@ -52,7 +57,9 @@ The following code example shows how to completely rebuild TOC fields in the do
 The first call to [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updateFields\(\)/) will build the TOC, all text entries are populated and the TOC appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”.
 
 The second call to [Document.updatePageLayout()](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updatePageLayout\(\)/) will build the layout of the document in memory. This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
+
 ### **Using Switches to Control the Behavior of the Table of Contents**
+
 As with any other field, the TOC field can accept switches defined within the field code that controls how the table of contents is built. Certain switches are used to control which entries are included and at what level while others are used to control the appearance of the TOC. Switches can be combined together to allow a complex table of contents to be produced.
 
 ![todo:image_alt_text](how-to-insert-and-work-with-the-table-of-contents-field_2.png)
@@ -63,6 +70,7 @@ By default, these switches above are included when inserting a default TOC in th
 The available TOC switches that are supported by Aspose.Words are listed below and their uses are described in detail. They can be divided into separate sections based on their type. The switches in the first section define what content to include in the TOC and the switches in the second section control the appearance of the TOC.
 
 If a switch is not listed here then it is currently unsupported.  All switches will be supported in future versions. We are adding further support to every release.
+
 #### **Entry Marking Switches**
 
 |**Switch**|**Description**|
@@ -87,6 +95,7 @@ If a switch is not listed here then it is currently unsupported.  All switches 
 |**Preserve New Line Entries** <br> *(\X Switch)* <br> |<p>Similar to the switch above, this switch specifies that headings spanning over multiple lines (using newline characters, not separate paragraphs) will be preserved as they are in the generated TOC. For example, a heading which is to spread across multiple lines can use the new line character (Ctrl + Enter or ControlChar.LineBreak) to separate content across different lines. With this switch specified, the entry in the TOC will preserve these new line characters as shown below. <br><br>In this situation, if the switch is not defined then the new line characters are converted to a single white space. </p><p>![todo:image_alt_text](how-to-insert-and-work-with-the-table-of-contents-field_11.png)</p>|
 
 ### **Insert TC Fields**
+
 You can insert a new TC field at the current position of the DocumentBuilder by calling the DocumentBuilder.InsertField method and specifying the field name as “TC” along with any switches that are needed.
 
 The following code example shows how to insert a TC field into the document using [DocumentBuilder](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder).
@@ -96,8 +105,11 @@ The following code example shows how to insert a TC field into the document usi
 Often a specific line of text is designated for the TOC and is marked with a TC field.  The easy way to do this in MS Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a TC field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a TC field in the same position as the text. The code is based on the same technique used in the article. The following code example shows how to find and insert a TC field at the text in a document.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-FindAndInsertATCField-.java" >}}
+
 ## **Modify a Table of Contents**
+
 #### **Change the Formatting of Styles**
+
 The formatting of entries in the TOC does not use the original styles of the marked entries, instead, each level is formatted using an equivalent TOC style. For example, the first level in the TOC is formatted with the **TOC1** style, the second level formatted with the **TOC2** style and so on. This means that to change the look of the TOC these styles must be modified. In Aspose.Words these styles are represented by the locale-independent StyleIdentifier.TOC1 through to StyleIdentifier.TOC9 and can be retrieved from the Document.Styles collection using these identifiers.
 
 Once the appropriate style of the document has been retrieved the formatting for this style can be modified. Any changes to these styles will be automatically reflected in the TOCs in the document.
@@ -117,7 +129,9 @@ To change how this appears firstly Style.ParagraphFormat must be called to retri
 The following code example shows how to modify the position of the right tab stop in TOC related paragraphs.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-ModifyPositionOfRightTabStopInTOC.java" >}}
+
 ## **Removing a Table of Contents from the Document**
+
 A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the TOC field.
 
 The code below demonstrates this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the FieldEnd node is of type FieldType.FieldTOC which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field.
@@ -125,7 +139,9 @@ The code below demonstrates this. The removal of the TOC field is simpler than a
 Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The following code example demonstrates how to remove a specified TOC from a document.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-RemoveATableOfContents-.java" >}}
+
 ## **Extract Table of Contents**
+
 If you want to extract a table of contents from any Word document, the following code sample can be used.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ExtractTableOfContents-ExtractTableOfContents.java" >}}

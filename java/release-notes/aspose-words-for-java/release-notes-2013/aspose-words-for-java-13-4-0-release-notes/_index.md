@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-13-4-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 13.4.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-13.4.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 13.4 Release Notes**
+
 ### **What's New**
+
 - Printing to multitray printers improved
 - Printing documents that contain pages with different orientation
 - Improved memory performance for large documents (now code uses ~20% less memory for 1Gb+ documents)
@@ -28,6 +31,7 @@ This page contains release notes for [Aspose.Words for Java 13.4.0](http://www.a
 - Aspose.Words allows to write OOXML documents that do not cause Compatibility Mode when opened in MS Word 2010-2013 
 
 For a list of changes to the public API in this release refer to the following article in the documentation. 
+
 ## **All Fixes**
 
 |**Key** |**Summary** |**Category** |

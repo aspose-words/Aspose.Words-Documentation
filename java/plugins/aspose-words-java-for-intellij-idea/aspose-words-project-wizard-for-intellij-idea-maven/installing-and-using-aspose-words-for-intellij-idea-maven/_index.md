@@ -6,6 +6,7 @@ url: /java/installing-and-using-aspose-words-for-intellij-idea-maven/
 ---
 
 ## **Installing Aspose Words Java for IntelliJ IDEA - Maven**
+
 Steps below demonstrate how to install **Aspose.Words Java for IntelliJ IDEA (Maven)** plugin.
 
 The plugin is listed on IntelliJ IDEA’s CE [official plugin website](https://plugins.jetbrains.com/plugin/7922) - plugin repository as **Aspose Words Java for IntelliJ IDEA Maven**, so you don’t need to download it manually and install it from disk, but this extra option still exists in IntelliJ IDEA.
@@ -16,7 +17,9 @@ The plugin is listed on IntelliJ IDEA’s CE [official plugin website](https://p
 1. Click **Plugins**, then browse the repositories in IntelliJ IDEA. 
 
 ![todo:image_alt_text](http://i.imgur.com/0qU5sYL.jpg)
+
 ### **Aspose.Words Maven Project Wizard**
+
 Installing this plugin will introduce a new project type – 
 
 ![todo:image_alt_text](maven_project_wizard_1.png)
@@ -24,7 +27,9 @@ Installing this plugin will introduce a new project type –
 **Aspose.Words Maven Project** – into IntelliJ IDEA, which will enable you to create Aspose.Words Maven-based project for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx). 
 
 ![todo:image_alt_text](http://i.imgur.com/93Pdr49.jpg)
+
 ### **Aspose.Words Examples Wizard**
+
 An option for creating [Source Code Examples of using Aspose.Words for Java API](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) inside the project, will also appear after the installation under "New" menu (using Right Click -> New **OR** File menu->New) – 
 
 ![todo:image_alt_text](examples_wizard_1.png)
@@ -32,8 +37,11 @@ An option for creating [Source Code Examples of using Aspose.Words for Java API]
 **Aspose.Words Examples**
 
 ![todo:image_alt_text](http://i.imgur.com/Og2kpGV.jpg)
+
 ## **Using**
+
 ### **Using Aspose.Word Maven Project Wizard**
+
 To create Aspose.Words Maven project for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) within IntelliJ IDEA, you need to have an internet connection.
 
 Then follow the steps below:
@@ -58,6 +66,7 @@ The created Aspose.Words for Java API Maven project is ready to be modified as p
 If you have opted to download [Examples Source Codes](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples), you can use [Aspose.Words Examples wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordscodeexample-wizard) to copy/create the downloaded examples into your project.
 
 ### **Using Aspose.Words Examples Wizard**
+
 To create/copy [Examples Source Codes ](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)into the project using **Aspose.Words Examples Wizard**, you need to first download the examples by opting  "Also Download Examples Source Code" on [Aspose.Words Maven Project Wizard.](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordsmavenproject-wizard)
 
 Then follow the steps below on IntelliJ IDEA:

@@ -6,6 +6,7 @@ url: /java/working-with-nodes-in-ruby/
 ---
 
 ## **Aspose.Words - Working With Nodes**
+
 To get Node Type using Aspose.Words Java for Ruby, simply invoke get_nodes() method. method of Nodes module.
 
 **Ruby Code**
@@ -13,6 +14,7 @@ To get Node Type using Aspose.Words Java for Ruby, simply invoke get_nodes() met
 {{< highlight ruby >}}
 
 ## The path to the documents directory.
+
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 \# Create a new document.
 doc = Rjb::import('com.aspose.words.Document').new()
@@ -26,7 +28,9 @@ node_type = doc.getFirstSection().getBody().getNodeType()
 node = Rjb::import("com.aspose.words.Node")
 puts "NodeType: " + node.nodeTypeToString(node_type)
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Working With Nodes (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/nodes.rb)

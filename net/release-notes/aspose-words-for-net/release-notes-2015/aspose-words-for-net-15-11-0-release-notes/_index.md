@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-15-11-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 15.11.0](https://www.nuget.org/packages/Aspose.Words/15.11.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 15.11 Release Notes**
+
 ### **Major Features**
+
 There are 127 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improvements to rendering of images on Mono.
@@ -19,6 +22,7 @@ There are 127 improvements and fixes in this regular monthly release. The most n
 - Performance improvements.
 - Many improvements in rendering of WordArt, gradient fill, SmartArt, DrawingML.
 - Fixes and improvements in all document format conversions.
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

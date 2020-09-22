@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-13-2-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 13.2.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-13.2.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 13.2 Release Notes**
+
 ### **What's New**
+
 - 3D effects are rendered for VML shapes.
 - Shadows are rendered for VML shapes.
 - PDF rendering performance is improved for documents with large JPEG images.
@@ -22,6 +25,7 @@ This page contains release notes for [Aspose.Words for Java 13.2.0](http://www.a
 - Layout of RTL tables and paragraphs improved. 
 
 For a list of changes to the public API in this release refer to the following article in the documentation. 
+
 ## **All Fixes**
 
 |**Key** |**Summary** |**Category** |

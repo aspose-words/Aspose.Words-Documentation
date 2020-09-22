@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-14-1-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.1.0](https://www.nuget.org/packages/Aspose.Words/14.1.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 14.1 Release Notes**
+
 ### **Major Features**
+
 There are 101 improvements and fixes in this regular monthly release. The most notable are:
 
 - Support for password-protected documents created in MS Word 2013
@@ -26,6 +29,7 @@ There are 101 improvements and fixes in this regular monthly release. The most n
 - DrawingML Soft Edge rendering effect implemented
 - DrawingML preset shadows rendering implemented
 - Hyperlink fragmentation in PDF resolved
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

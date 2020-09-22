@@ -14,7 +14,9 @@ This is a regular monthly release. 'Aspose.Words for Android via Xamarin' has fu
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.10, see [Aspose.Words for .NET 17.10 release notes](/words/net/aspose-words-for-net-17-10-release-notes/) for more information.
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - "Don't add extra space for raised/lowered characters" compatibility option is supported.
 - Multiple improvements in RTL and Asian text handling.
 - LINQ Reporting Engine supports dynamic chart series removal.

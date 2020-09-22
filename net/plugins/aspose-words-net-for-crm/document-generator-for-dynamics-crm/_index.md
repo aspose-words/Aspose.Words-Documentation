@@ -20,7 +20,9 @@ url: /net/document-generator-for-dynamics-crm/
 - [Support, Extend and Contribute](#DocumentGeneratorforDynamicsCRM-Support,ExtendandContribute) 
   - [Support](#DocumentGeneratorforDynamicsCRM-Support)
   - [Extend and Contribute](#DocumentGeneratorforDynamicsCRM-ExtendandContribute)
+
 ## **Introduction**
+
 The Aspose Document Generator is an open-source add-on to be used in Microsoft Dynamic CRM. This add-on is capable of automatically generate a document using a template defined. One-click will generate a document for individual contact based on the template selected. This can be used with all versions of Microsoft Dynamics CRM 2011.
 Major features of this Addon are:
 
@@ -29,21 +31,28 @@ Major features of this Addon are:
 - Allow users to Add OptionSet fields in the templates.
 - Allow users to Add Lookup fields in the templates.
 - Provided a separate button that will trigger the Dialog automatically.
+
 ## **System Requirements and Supported Platforms**
+
 ### **System Requirements**
+
 In order to install and use Aspose .Net Document Generator for Microsoft Dynamics CRM, you need to have one of the following CRM version installed
 
 - Microsoft Dynamics CRM 2013.
 - Microsoft Dynamics CRM 2015.
 - Microsoft Dynamics CRM Online.
   Please feel free to contact us if you find any issues in installing or using this Add-on.
+
 ### **Supported Platforms**
+
 This addon will work with all version of Microsoft Dynamics CRM:
 
 - Microsoft Dynamics CRM 2013.
 - Microsoft Dynamics CRM 2015.
 - Microsoft Dynamics CRM Online.
+
 ## **Downloading**
+
 You can download Aspose .NET Document Generator for CRM from one of the following locations:
 
 - [Codeplex](http://goo.gl/eMcjA9)
@@ -51,8 +60,11 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 - [Sourceforge](http://goo.gl/mua233)
 - [Bitbucket](http://goo.gl/ngjuJg)
 - [Code.MSDN](http://goo.gl/bqPhfr)
+
 ## **Installing or Uninstalling**
+
 ### **How to Install**
+
 - Copy Aspose.Words.dll into CRM installation directory under the CRMWeb/Bin folder.
 - Download the Solution and place it on your hard disk.
 - Open CRM and go to Import Solution. 
@@ -70,7 +82,9 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 - Click the close button when the solution import is successful. 
 
 ![todo:image_alt_text](document-generator-for-dynamics-crm_4)
+
 ### **Applying License**
+
 - Copy the license file on the server and copy the path of the file.
 - Recommended: "C:\Aspose\Aspose.Total.Lic"
 - Open CRM and Navigate to Processes.
@@ -87,7 +101,9 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 ![todo:image_alt_text](document-generator-for-dynamics-crm_7)
 
 - Activate the Process and Close it.
+
 ### **How to Uninstall**
+
 - Go To Solution and select Aspose .Net Document Generator. 
 
 ![todo:image_alt_text](document-generator-for-dynamics-crm_8)
@@ -95,10 +111,15 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 - Click Ok on the next screen. 
 
 ![todo:image_alt_text](document-generator-for-dynamics-crm_9)
+
 ## **Using**
+
 Easily configure and Use Aspose .NET Document Generator for Dynamics CRM by following the instructions [here](https://docs.aspose.com/words/net/using-and-configuring-crm-document-generator/).
+
 ## **Support, Extend and Contribute**
+
 ### **Support**
+
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
 You can log any issues or suggestions related to Aspose .NET Document Generator using any of the following platforms:
@@ -108,7 +129,9 @@ You can log any issues or suggestions related to Aspose .NET Document Generator 
 - [Sourceforge](http://goo.gl/mua233)
 - [Bitbucket](http://goo.gl/ngjuJg)
 - [Code.MSDN](http://goo.gl/bqPhfr)
+
 ### **Extend and Contribute**
+
 You can download the latest source code at:
 
 - [CodePlex](https://asposenetcrm.codeplex.com/SourceControl/latest#Aspose .NET Document Generator/).

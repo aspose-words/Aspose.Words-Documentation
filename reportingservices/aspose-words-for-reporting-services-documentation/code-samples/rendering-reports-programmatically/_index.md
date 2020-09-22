@@ -10,21 +10,29 @@ url: /reportingservices/rendering-reports-programmatically/
 Sometimes you need to render reports programmatically instead of using the Report Manager or Report Viewer interface. This might happen, for example, if you need to include report rendering in your application where the user may want to export the report to Microsoft Word document by clicking a button on the form. The following code samples demonstrate how to render reports programmatically in your application.
 
 {{% /alert %}} 
+
 #### **Rendering via Reporting Services Web Service**
+
 If you have a Report Server running with Aspose.Words for Reporting Services installed on it, you can render reports to Microsoft Word documents using the Reporting Service Web Service. Follow these steps to achieve that (assuming you use Reporting Services 2005):
+
 ##### **Step 1. Add a reference to the ReportingService2005 Web service.**
+
 Open your project in Visual Studio, right click on the **References** folder and select **Add Web Reference** . Enter the URL of the **ReportingService2005** Web service ( ReportService2005.asmx) or browse for it using the browser on the left. Once the service is found, enter “ReportingService2005” in the **Web reference name** textbox and click the **Add Reference** button. 
 
 **Adding a reference to the ReportingService2005 Web service in Visual Studio.**
 
 ![todo:image_alt_text](rendering-reports-programmatically_1.png)
+
 ##### **Step 2. Add a reference to the ReportExecutionService Web service.**
+
 Repeat Step 1 for the **ReportExecutionService** ( ReportExecution2005.asmx) Web service. Name it ReportExecutionService and click the **Add Reference** button. 
 
 **Adding a reference to the ReportExecutionService Web service in Visual Studio.**
 
 ![todo:image_alt_text](rendering-reports-programmatically_2.png)
+
 ##### **Step 3. Implement the rendering method.**
+
 Implement the following method in your application: 
 
 **C#**
@@ -115,7 +123,9 @@ private static void RenderReportToFile(
     }
 }
 {{< /highlight >}}
+
 ##### **Step 4. Call the RenderReportToFile method.**
+
 You can call the **RenderReportToFile** method from any point of your application. The call might look like the following: 
 
 **C#**
@@ -127,11 +137,17 @@ RenderReportToFile(
     "AWDOC",
     null);
 {{< /highlight >}}
+
 #### **Rendering via Report Viewer Working in Local Mode**
+
 If you use the Microsoft Report Viewer control in your application, you can use its capabilities to render local reports (RDL and RDLC) to Microsoft Word documents programmatically. Follow these steps (assuming you use Report Viewer 2005):
+
 ##### **Step 1. Integrate Aspose.Words for Reporting Services with Report Viewer.**
+
 Follow the instructions described in the section [Integrate with Microsoft Report Viewer in Local Mode](/words/reportingservices/configure-aspose-words-for-reporting-services/)
+
 ##### **Step 2. Implement the rendering method.**
+
 Implement the following method in your application: 
 
 **C#**
@@ -222,7 +238,9 @@ private static void RenderReportToFile(
         stream.Write(reportBytes, 0, reportBytes.Length);
 }
 {{< /highlight >}}
+
 ##### **Step 4. Call the RenderReportToFile method.**
+
 You can call the **RenderReportToFile** method from any point of your application. The call might look like the following: 
 
 **C#**

@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-13-8-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 13.8.0](https://www.nuget.org/packages/Aspose.Words/13.8.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 13.8 Release Notes**
+
 ### **What's New**
+
 There are 142 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Rendering to PostScript 3.0 is now supported

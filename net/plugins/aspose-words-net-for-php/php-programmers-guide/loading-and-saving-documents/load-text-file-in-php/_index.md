@@ -6,6 +6,7 @@ url: /net/load-text-file-in-php/
 ---
 
 ## **Aspose.Words - Load Text File Conversion Example**
+
 Load Text File Example
 
 **PHP Code**
@@ -21,7 +22,9 @@ Load Text File Example
         $doc->Save($dataDir . "/LoadTxt Out.docx");
         print "Text document loaded successfully.\nFile saved at " . $dataDir . "LoadTxt Out.docx" . PHP_EOL;
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Load Text File Example (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Plugins/Aspose_Words_NET_for_PHP/src/aspose/words/LoadingAndSaving/LoadTxt.php)

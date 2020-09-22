@@ -6,6 +6,7 @@ url: /java/append-documents-in-jython/
 ---
 
 ## **Aspose.Words - Append Documents**
+
 To append documents using **Aspose.Words Java for Jython**. Here you can see example code.
 
 **Jython Code**
@@ -25,7 +26,9 @@ class AppendDocuments:
 if __name__ == '__main__':
     AppendDocuments()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Append Documents (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

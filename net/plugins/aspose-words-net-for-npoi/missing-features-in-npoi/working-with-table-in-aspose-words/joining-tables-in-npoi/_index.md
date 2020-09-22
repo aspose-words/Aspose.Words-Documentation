@@ -6,6 +6,7 @@ url: /net/joining-tables-in-npoi/
 ---
 
 ## **Aspose.Words - Joining Tables**
+
 A table which is represented in the Aspose.Words Document Object Model is made up of independent rows and cells which makes joining or splitting tables easy.
 
 In order to manipulate a table to split or join with another table we simply need to move the rows from one table to another.
@@ -33,7 +34,9 @@ while (secondTable.HasChildNodes)
 secondTable.Remove();
 doc.Save("Table.CombineTables Out.doc");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Joining Tables** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475291)

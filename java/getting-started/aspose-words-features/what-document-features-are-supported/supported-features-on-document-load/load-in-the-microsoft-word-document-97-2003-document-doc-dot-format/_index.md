@@ -10,7 +10,9 @@ url: /java/load-in-the-microsoft-word-document-97-2003-document-doc-dot-format/
 The following pages provide implementation details about how Aspose.Words loads a document in the DOC, DOT formats.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on DOC Import](/words/java/annotation-features-supported-on-doc-import/)
 - [Custom Markup Features Supported on DOC Import](/words/java/custom-markup-features-supported-on-doc-import/)
 - [Document Features Supported on DOC Import](/words/java/document-features-supported-on-doc-import/)

@@ -6,6 +6,7 @@ url: /net/split-tables-in-npoi/
 ---
 
 ## **Aspose.Words - Split Tables**
+
 We first need to pick a row at where to split the table. Once we know this we can create two tables from the original table by following these simple steps:
 
 1. Create a clone of the table without cloning children to hold the moved rows and insert it after the original table.
@@ -41,7 +42,9 @@ do
 while (currentRow != row);
 doc.Save("Table.SplitTable Out.doc");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Split Tables** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475292)

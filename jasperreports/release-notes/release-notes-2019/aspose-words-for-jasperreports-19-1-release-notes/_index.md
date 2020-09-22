@@ -10,7 +10,9 @@ url: /jasperreports/aspose-words-for-jasperreports-19-1-release-notes/
 This page contains release notes of [Aspose.Words for JasperReports 19.1](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-19.1/).
 
 {{% /alert %}} 
+
 ## **Important note:**
+
 Starting from release **1.9.0** there are several versions of JAR library (necessary for better support of older versions of JasperReports):
 
 - for JasperReports 7.1.0 and higher (**aspose.words.jasperreports-7.1.0.jar**)
@@ -26,6 +28,7 @@ Please note that there is no more support of JasperReports **3.7.1** and lower
 Please copy **ONLY ONE** JAR library according to the version of installed JasperReports.
 
 .
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key** |**Summary** |**Category** |
@@ -36,4 +39,5 @@ Please copy **ONLY ONE** JAR library according to the version of installed Jas
 |WORDSJR-251|Bottom margin is too high|Bug |
 
 ## **Configuration Option Changes**
+
 We have added [**Break Table Rows**](/words/jasperreports/break-table-rows/) configuration option in this release.

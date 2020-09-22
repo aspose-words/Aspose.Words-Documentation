@@ -10,7 +10,9 @@ url: /cpp/aspose-words-for-cpp-20-7-release-notes/
 This page contains release notes for [Aspose.Words for C++ 20.7](https://downloads.aspose.com/words/cpp/new-releases/aspose.words-for-c---20.7/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Improved support of TIFF formats
@@ -20,6 +22,7 @@ We have added the following features from Aspose.Words for .NET on this regular 
 - Improved performance of SmartArt cold rendering.
 
 ## **Limitations and API Differences**
+
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 
@@ -126,9 +129,11 @@ The missing features will be added in future releases.
 |WORDSNET-16907	|Incorrect line breaks push some content to the next page in PDF|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 ### **Added a new public property MailMerge.RetainFirstSectionStart**
+
 Related issue: WORDSNET-20480
 
 Added a new public property MailMerge.RetainFirstSectionStart:
@@ -160,6 +165,7 @@ Use Case:
 
 
 ### **Added a new value to public enumeration WarningSource**
+
 Related issue: WORDSNET-20334
 
 A new value is added to the public enumeration **WarningSource**:
@@ -195,6 +201,7 @@ Use Case. Explains how to use WarningSource.Markdown enumeration value:
 
 
 ### **Added public property MeasurementUnit in RevisionOptions**
+
 Related issue: WORDSNET-20487
 
 Added a new public property RevisionOptions.MeasurementUnit:
@@ -263,6 +270,7 @@ Use Case:
 {{< /highlight >}}
 
 ### **Added public property RevisionBarsPosition in RevisionOptions**
+
 Related issue: WORDSNET-20415, WORDSNET-19724
 
 Added a new public property RevisionOptions.RevisionBarsPosition:
@@ -293,6 +301,7 @@ Use Case:
 {{< /highlight >}}
 
 ### **Added two new nodes to handle multi-section Structured Document Tags**
+
 Related issue: WORDSNET-15659
 
 Added new nodes to handle multi-section structured document tags.

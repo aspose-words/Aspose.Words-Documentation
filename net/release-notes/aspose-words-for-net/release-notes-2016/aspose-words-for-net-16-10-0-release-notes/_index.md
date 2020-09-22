@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-16-10-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 16.10.0](https://www.nuget.org/packages/Aspose.Words/16.10.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 109 improvements and fixes in this regular monthly release. The most notable are:
 
 - Added feature to compare document as MS Word does.
@@ -21,6 +23,7 @@ There are 109 improvements and fixes in this regular monthly release. The most n
 - SVG rendering improved.
 - Detection of encoding while rendering MathML improved.
 - Chinese text rendering in HtmlFixed improved.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -134,9 +137,13 @@ There are 109 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9769|Docx-Html-Docx round-trip - Add feature to preserve Page field|Feature|
 |WORDSNET-14027|GetEffectsKey() causes a performance decrease when comparing 16.6 to 13.2|Performance|
 |WORDSNET-14165|System.NullReferenceException occurs during converting DOCX to PDF|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 16.10.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **WORDSNET-3762 - Added feature to get OOXML compliance version determined from the loaded document content**
+
 Starting from 16.10.0 Version of Aspose.Words you can get OOXML compliance version determined from the loaded document content.
 
 {{< highlight csharp >}}
@@ -145,5 +152,7 @@ OoxmlCompliance compliance = doc.getCompliance();
 {{< /highlight >}}
 
 Please note that it makes sense only for OOXML documents. If you created a new blank document or load non OOXML document this property returns the OoxmlCompliance.Ecma376_2006.
+
 ### **WORDSNET-12027 Generate results closer to what MS Word generates after comparison**
+
 Document comparison changed to compare at word level rather than at character level. This makes output looks more readable and closer to MS Word. Also speed is greatly improved for big documents.

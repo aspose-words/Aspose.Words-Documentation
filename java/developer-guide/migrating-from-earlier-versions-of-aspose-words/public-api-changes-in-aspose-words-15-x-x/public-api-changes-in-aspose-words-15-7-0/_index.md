@@ -10,7 +10,9 @@ url: /java/public-api-changes-in-aspose-words-15-7-0/
 These page list public API changes that were introduced in Aspose.Words 15.7.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **Font.AutoColor Property Added**
+
 WORDSNET-2768 is now resolved. Aspose.Words now can determine actual color of text output that will be used for the "auto color" using the following property:
 
 **Java**
@@ -40,7 +42,9 @@ run.getFont().getShading().setBackgroundPatternColor(Color.WHITE);
 System.out.println(run.getFont().getAutoColor());
  // returns Color.Black.
 {{< /highlight >}}
+
 ### **Basic API to Programmatically Manipulate Themes Added**
+
 WORDSNET-10513 is now resolved. We have added basic API to access document theme properties. For now, this API includes following public objects:
 
 - Theme
@@ -74,7 +78,9 @@ theme.getMinorFonts().setLatin("Times New Roman");
 theme.getColors().setHyperlink(Color.GREEN);
            // Set Color.GREEN for theme color Hyperlink.
 {{< /highlight >}}
+
 ### **TextOrientation.VERTICAL_ROTATED_FAR_EAST Option Added**
+
 WORDSNET-12039 is now implemented and the following property added to the API:
 
 **Java**
@@ -96,7 +102,9 @@ Cell cell = (Cell) doc.getChild(NodeType.CELL, 0, true);
 // Set text orientation for Far East characters appear vertical, other text is rotated 90 degrees to the right to appears from top to bottom vertically, then left to right horizontally.
 cell.getCellFormat().setOrientation(TextOrientation.VERTICAL_ROTATED_FAR_EAST);
 {{< /highlight >}}
+
 ### **SaveOptions.UpdateSdtContent is added.**
+
 WORDSNET-12111 is now resolved. This option controls whether content of StructuredDocumentTag is updated before document saving. Default value is TRUE.
 
 **Java**

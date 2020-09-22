@@ -6,6 +6,7 @@ url: /net/migrating-from-earlier-versions-of-aspose-words/
 ---
 
 ###### **This section includes the following topics:** 
+
 - [How to Migrate to Aspose.Words 10.5 or Higher](/words/net/how-to-migrate-to-aspose-words-10-5-or-higher/)
 - [How to Migrate to Aspose.Words 9.2 or Higher](/words/net/how-to-migrate-to-aspose-words-9-2-or-higher/)
 - [How to Migrate to Aspose.Words 3.0 or Higher](/words/net/how-to-migrate-to-aspose-words-3-0-or-higher/)

@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-14-10-release-notes/
 This page contains release notes for [Aspose.Words for Java 14.10](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-14.10/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 14.10 Release Notes**
+
 ### **Major Features**
+
 There are 106 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Improved DocumentBuilder to handle mixed LTR/RTL text
@@ -19,6 +22,7 @@ There are 106 improvements and fixes in this regular monthly release. The most 
   Improved custom tab stop beyond line ending 
   Implemented new features and effects in DrawingML rendering 
   Added LoadOptions.WebRequestTimeout property 
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |

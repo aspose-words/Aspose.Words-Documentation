@@ -41,7 +41,9 @@ data_band_body
 {{< /highlight >}}
 
 {{% /alert %}}
+
 ###### **This section includes the following topics:** 
+
 - [Working with Common Data Bands](/words/java/working-with-common-data-bands/)
 - [Working with Table-Row Data Bands](/words/java/working-with-table-row-data-bands/)
 - [Using Extension Methods of Iteration Variables](/words/java/using-extension-methods-of-iteration-variables/)

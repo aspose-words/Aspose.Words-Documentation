@@ -6,6 +6,7 @@ url: /java/working-with-styles-in-ruby/
 ---
 
 ## **Aspose.Words - Extract Content Based On Styles**
+
 **Ruby Code**
 
 {{< highlight ruby >}}
@@ -81,7 +82,9 @@ def runs_by_style_name(doc, run_style)
     runsWithStyle
 end   
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Extract Content Based On Styles (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/styles.rb)

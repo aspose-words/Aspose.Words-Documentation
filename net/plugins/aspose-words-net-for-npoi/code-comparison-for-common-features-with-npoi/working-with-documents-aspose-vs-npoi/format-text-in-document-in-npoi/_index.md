@@ -6,6 +6,7 @@ url: /net/format-text-in-document-in-npoi/
 ---
 
 ## **Aspose.Words - Format Text in Document**
+
 Current font formatting is represented by a **Font** object returned by the **DocumentBuilder.Font** property. The **Font** class contains a wide variety of the font properties possible in Microsoft Word.
 
 **C#**
@@ -72,7 +73,9 @@ builder.Writeln("The pangs of despised love, the law's delay,"
                 + "The insolence of office and the spurns" + ".......");
 doc.Save("simple.docx");
 {{< /highlight >}}
+
 ## **NPOI HWPF XWPF - Format Text in Document**
+
 XWPFRun can be used to format text using NPOI
 
 **C#**
@@ -151,7 +154,9 @@ FileStream out1 = new FileStream("simple.docx", FileMode.Create);
 doc.Write(out1);
 out1.Close();
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Format Text in Document** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1467696)

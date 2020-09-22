@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-16-11-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 16.11.0](https://www.nuget.org/packages/Aspose.Words/16.11.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 74 improvements and fixes in this regular monthly release. The most notable are:
 
 - FixedPageSaveOptions.OptimizeOutput option is implemented for all fixed page formats, improving the size of output documents.
@@ -24,6 +26,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
   - The extrusionOk (3D Extrusion Allowed) and fill (Path Fill) attributes
   - scene3d, sp3d, extLst for charts
   - drawing ML extended text run properties
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -102,10 +105,15 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14226|Provide option for "Create bookmarks using: Headings" in PDF|Feature|
 |WORDSNET-3498|Support export to HTML5.|Feature|
 |WORDSNET-14205|Styles lost when Word XML saved as Doc|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 16.11.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **WORDSNET-3498 Support export to HTML5**
+
 #### **New public enum HtmlVersion:**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Indicates the version of HTML is used when saving the document to <see cref="SaveFormat.Html"/> and 
@@ -130,7 +138,9 @@ public enum HtmlVersion
     Html5
 }
 {{< /highlight >}}
+
 #### **New public property in HtmlSaveOptions:**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies version of HTML standard that should be used when saving the document to HTML or MHTML.
@@ -142,13 +152,17 @@ public HtmlVersion HtmlVersion
      set { mHtmlVersion = value; }
 }
 {{< /highlight >}}
+
 #### **Usecase:**
+
 {{< highlight csharp >}}
 var so = new HtmlSaveOptions();
 so.HtmlVersion = HtmlVersion.Html5;
 doc.Save("out.html", so);
 {{< /highlight >}}
+
 ### **WORDSNET-13625 - FixedPageSaveOptions.OptimizeOutput**
+
 Starting from 16.11.0 version, OptimizeOutput option is available for all fixed page formats.
 
 {{< highlight csharp >}}

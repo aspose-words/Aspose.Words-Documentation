@@ -6,12 +6,15 @@ url: /net/powerbuilder-and-aspose-words-for-net/
 ---
 
 #### **Prerequisites**
+
 {{% alert color="primary" %}} 
 
 See [Use Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop/).
 
 {{% /alert %}} 
+
 #### **Hello World!**
+
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
 **PowerBuilder**
@@ -27,7 +30,9 @@ builder.Document = doc;
 builder.Write("Hello world!");
 doc.Save("C:\Temp\out.doc");
 {{< /highlight >}}
+
 #### **Simple Mail Merge**
+
 Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 
 **PowerBuilder**
@@ -65,14 +70,19 @@ connection.Close();
 //Save generated docuemnt
 doc.Save("C:\Temp\out.doc");
 {{< /highlight >}}
+
 #### **Save or Convert a Document**
+
 With Aspose.Words, you can save a document in a variety of formats. For the full list of formats and identifiers see the SaveFormat enumeration.
 
 **PowerBuilder**
 
 {{< highlight csharp >}}
+
 #Save a document in a variety of formats.
+
 #SaveFormat.Doc = 1, therefore 1 is passed as a parameter to indicate save format.
+
 doc.Save_2("C:\Temp\out.doc", 1);
 doc.Save_2("C:\Temp\out.txt", 2);
 doc.Save_2("C:\Temp\out.html", 4);

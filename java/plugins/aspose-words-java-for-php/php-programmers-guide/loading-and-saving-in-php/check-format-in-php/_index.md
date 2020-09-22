@@ -6,6 +6,7 @@ url: /java/check-format-in-php/
 ---
 
 ## **Aspose.Words - Check Format**
+
 **Php Code**
 
 {{< highlight csharp >}}

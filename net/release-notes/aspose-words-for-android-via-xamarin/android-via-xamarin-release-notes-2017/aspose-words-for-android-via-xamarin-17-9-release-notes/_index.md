@@ -14,7 +14,9 @@ This is a regular monthly release. 'Aspose.Words for Android via Xamarin' has fu
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.9, see [Aspose.Words for .NET 17.9 release notes](/words/net/aspose-words-for-net-17-9-release-notes/) for more information.
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 Except fixes and improvements from Aspose.Words for .NET the following improvements have been made in this Aspose.Words for Android via Xamarin:
 
 - Caching of shading patterns for PDF output implemented. The output size of PDF documents with the repeating images (e.g. in header/footer) is now significantly reduced.

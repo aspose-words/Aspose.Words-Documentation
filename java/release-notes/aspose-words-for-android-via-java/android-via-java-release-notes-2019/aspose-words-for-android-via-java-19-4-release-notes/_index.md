@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-19-4-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 19.4](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.4).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - API's codebase is upgraded to the version Aspose.Words for Java 19.4
 - MailMerge performance improved.
 - Cold startup time improved by 10%.
@@ -33,6 +35,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.4](ht
 - Improved overlapping logic for frames and tables.
 - Improved Keep With Next rule handling for paragraph splits.
 - Improved Keep Lines Together rule handling in presence of floaters.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

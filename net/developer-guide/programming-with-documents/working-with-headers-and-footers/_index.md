@@ -6,6 +6,7 @@ url: /net/working-with-headers-and-footers/
 ---
 
 ## **How to Create Headers Footers using DocumentBuilder**
+
 {{% alert color="primary" %}} 
 
 The following sample code demonstrates how to create headers/footers using DocumentBuilder..
@@ -30,7 +31,9 @@ Below example shows how to create headers footers using DocumentBuilder.
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-CreateHeaderFooterUsingDocBuilder-CopyHeadersFootersFromPreviousSection.cs" >}}
 
 Each section in a document can have up to three headers and up to three footers (for first, even and odd pages). If you want to delete all footers in a document you need to loop through all sections and remove every footer node.
+
 ## **How to Remove Footers but Leave Headers Intact**
+
 Below example deletes all footers from all sections, but leaves headers intact. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/HeaderFooter.RemoveFooters.doc).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-RemoveFooters-RemoveFooters.cs" >}}

@@ -6,6 +6,7 @@ url: /java/update-fields-in-php/
 ---
 
 ## **Aspose.Words - Update Fields**
+
 To update fields of Word Document using Aspose.Words Java Apis in Php, simply invoke updateFields of Document object.
 
 **Php Code**

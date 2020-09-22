@@ -18,7 +18,9 @@ When working in the **local mode** however, Report Viewer does not connect to a 
 By installing Aspose.Words for Reporting Services on a development machine and following the steps below, you will be able to add the ability to export to Microsoft Word formats from Report Viewer working in the **local mode**.
 
 {{% /alert %}} 
+
 #### **Step 1. Add a Reference to Aspose.Words.ReportingServices.dll to your project.**
+
 Open your project in Visual Studio, right click on the **References** folder and select **Add Reference**. Click the **Browse** tab and browse to the following assembly:
 
 - If using Microsoft Report Viewer 2005 – browse to <InstallDir>/Bin/ReportViewer2005/Aspose.Words.ReportingServices.dll
@@ -34,7 +36,9 @@ Please note that Aspose.Words.ReportingServices.dll for ReportViewer 2015 should
 **Adding a Reference to Aspose.Words.ReportingServices.dll to your project.**
 
 ![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
+
 #### **Step 2a. Add all Aspose extensions to Report Viewer.**
+
 This will add ALL available custom Aspose rendering extensions to the list of supported extensions in Microsoft Report Viewer.
 
 **C#**
@@ -78,7 +82,9 @@ Public Class Form1
 End Class
 
 {{< /highlight >}}
+
 #### **Step 2b. Add specific Aspose extensions to Report Viewer.**
+
 This will add only specific custom Aspose rendering extensions to the list of supported extensions in Microsoft Report Viewer.
 
 **C#**
@@ -180,7 +186,9 @@ Public Class Form1
 End Class
 
 {{< /highlight >}}
+
 #### **Step 3. Test the new export formats.**
+
 Run your application and you should notice a number of new export formats available in the Export dropdown list in Report Viewer. Select one of the formats and run export. Verify the document is created the way you expected.
 
 **New export formats appear in Report Viewer running in local mode.**

@@ -6,6 +6,7 @@ url: /sharepoint/supported-document-formats/
 ---
 
 ## **Supported File Formats**
+
 The following table indicates the input and output file formats supported by Aspose.Words for SharePoint.
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|

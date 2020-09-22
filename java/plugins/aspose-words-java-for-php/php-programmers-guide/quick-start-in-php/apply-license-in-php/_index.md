@@ -6,6 +6,7 @@ url: /java/apply-license-in-php/
 ---
 
 ## **Aspose.Words - Apply License**
+
 To set license of Aspose.Words Java in php, simply invoke the setLicense() method of License class.
 
 **Php Code**

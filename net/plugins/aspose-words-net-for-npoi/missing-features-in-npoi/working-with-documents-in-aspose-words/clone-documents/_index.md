@@ -6,6 +6,7 @@ url: /net/clone-documents/
 ---
 
 ## **Aspose.Words - Clone Documents**
+
 To clone documents using Aspose.Words, simply invoke the Clone() method of Document class.
 
 **C#**
@@ -15,7 +16,9 @@ Document doc = new Document("../../data/document.doc");
 Document clone = doc.Clone();
 clone.Save("AsposeClone.doc", SaveFormat.Doc);
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Clone Documents (Aspose.Words)** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475280)

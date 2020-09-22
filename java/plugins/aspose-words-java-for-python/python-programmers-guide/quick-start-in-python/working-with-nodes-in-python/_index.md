@@ -6,6 +6,7 @@ url: /java/working-with-nodes-in-python/
 ---
 
 ## **Aspose.Words - Working With Nodes**
+
 To get Node Type using Aspose.Words Java Apis in Python, simply invoke getNodeType method.
 
 **Python Code**
@@ -22,7 +23,9 @@ para = Paragraph(doc)
 section = doc.getLastSection()
 section.getBody().appendChild(para)
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Working With Nodes (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Python/tests/quickstart/workingwithnodes/WorkingWithNodes.py)

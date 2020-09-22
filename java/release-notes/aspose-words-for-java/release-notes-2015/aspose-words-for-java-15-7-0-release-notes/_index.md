@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-15-7-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 15.7.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-15.7.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 15.7 Release Notes**
+
 ### **Major Features**
+
 There are 115 improvements and fixes in this regular monthly release. The most notable are: 
 
 Added API to work with Themes
@@ -31,6 +34,7 @@ PDF background rendering improved
 Text with gradient fill rendering implemented
 
 Japanese OTF fonts overlapping characters problem in rendered images fixed 
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |

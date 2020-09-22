@@ -10,7 +10,9 @@ url: /jasperreports/aspose-words-for-jasperreports-18-5-release-notes/
 This page contains release notes of [Aspose.Words for JasperReports 18.5](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-18.5/).
 
 {{% /alert %}} 
+
 ## **Important note:**
+
 Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
 
 - for JasperReports 7.1.0 and higher (**aspose.words.jasperreports-7.1.0.jar**)
@@ -24,6 +26,7 @@ Starting from release **1.9.0** there are several versions of jar library (neces
 Note that there is no more support of JasperReports 3.7.1 and lower versions.
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -33,5 +36,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 | |Support of JasperServer 6.4.3|New feature|
 | |Support of JasperServer 6.2.1|New feature|
 | |Upgrade to the latest version of Aspose.Words for Java (18.5)|New feature|
+
 ## **Configuration Option Changes**
+
 We have added new configuration option [**Check Version**](/words/jasperreports/check-version/)** **in this release. 

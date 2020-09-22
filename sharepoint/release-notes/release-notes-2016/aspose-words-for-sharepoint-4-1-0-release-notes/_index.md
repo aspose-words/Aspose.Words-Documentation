@@ -10,6 +10,7 @@ url: /sharepoint/aspose-words-for-sharepoint-4-1-0-release-notes/
 This page contains release notes for [Aspose.Words for SharePoint 4.1.0](http://www.aspose.com/downloads/words/sharepoint/new-releases/aspose.words-for-sharepoint-4.1.0/).
 
 {{% /alert %}} 
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key** |**Summary** |**Category** |

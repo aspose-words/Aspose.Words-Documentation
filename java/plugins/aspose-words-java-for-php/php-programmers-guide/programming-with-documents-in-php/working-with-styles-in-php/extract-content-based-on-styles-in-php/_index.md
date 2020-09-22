@@ -6,6 +6,7 @@ url: /java/extract-content-based-on-styles-in-php/
 ---
 
 ## **Aspose.Words - Extract Content Based On Styles**
+
 **Php Code**
 
 {{< highlight csharp >}}

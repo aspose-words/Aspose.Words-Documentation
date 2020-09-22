@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-19-1-release-notes/
 This page contains release notes for [Aspose.Words for .NET 19.1](https://www.nuget.org/packages/Aspose.Words/19.1.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 48 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented the directed line caps rendering for Bezier curves in metafiles.
@@ -30,6 +32,7 @@ There are 48 improvements and fixes in this regular monthly release. The most no
 - Implemented navigation from footnote reference to footnote for PDF output.
 - Fixed exception which may happen when spans are merged in paragraphs with different directionality.
 - Fixed exception which may happen when span has null shading inside text box.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -82,9 +85,13 @@ There are 48 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17786|Add name to foreach syntax of Linq Reporting|Feature|
 |WORDSNET-17784|UnsupportedOperationException upon loading Doc|Regression|
 |WORDSNET-17956|System.InvalidCastException occurs upon converting DOC to DOCX|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Different Time Format in DOC and PDF (Added IFieldUpdateCultureSource)**
+
 WORDSNET-17615 has now been resolved.
 
 A customer complained about incorrect date/time formatting. We have figured out that there is a difference between MS Word formatting and .NET/Windows formatting and also between different .NET Framework versions.
@@ -159,7 +166,9 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {{< /highlight >}}
 
 Customers are now able to specify any culture and any date/time formatting for a particular field based on the specified name.
+
 ### **Expose the threshold control for Tiff binarization**
+
 WORDSNET-17819 has now been resolved:
 
 New public property was added to ImageSaveOptions  class:
@@ -181,7 +190,9 @@ public byte ThresholdForFloydSteinbergDithering
 {{< /highlight >}}
 
 The higher the value, the darker the image.
+
 #### **UC**
+
 {{< highlight csharp >}}
 Document doc = new Document ("inputFileName");
 ImageSaveOptions options = new ImageSaveOptions(Aspose.Words.SaveFormat.Tiff);

@@ -6,6 +6,7 @@ url: /java/untangle-row-bookmarks-in-jython/
 ---
 
 ## **Aspose.Words - Untangle Row Bookmarks**
+
 To Untangle Row Bookmarks using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 **Jython Code**
@@ -29,7 +30,9 @@ def untangle_row_bookmarks(self, doc):
                 row1.getLastCell().getLastParagraph().appendChild(bookmark.getBookmarkEnd())
             x = x + 1
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

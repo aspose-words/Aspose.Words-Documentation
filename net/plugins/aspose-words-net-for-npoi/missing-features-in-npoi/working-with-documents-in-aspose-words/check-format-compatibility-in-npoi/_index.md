@@ -6,6 +6,7 @@ url: /net/check-format-compatibility-in-npoi/
 ---
 
 ## **Aspose.Words - Check Format Compatibility**
+
 The **FileFormatUtil.DetectFileFormat** method checks the file format, but note that it only checks the file format, it does not validate the file format.
 
 **C#**
@@ -79,7 +80,9 @@ foreach (string filePath in fileList)
 	}
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Check Format Compatibility** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475279)

@@ -31,7 +31,9 @@ Some tags require closing counterparts. A closing tag has the “/” character 
 ` `REF note **Note –** Tag body elements are case-sensitive.
 
 During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine (see “ REF emptyParagraphs Removing Paragraphs Containing Only Template Syntax Tags” for more information).
+
 ###### **This section includes the following topics:**
+
 - [Composing Expressions](/words/java/composing-expressions/)
 - [Outputting Expression Results](/words/java/outputting-expression-results/)
 - [Outputting Sequential Data](/words/java/outputting-sequential-data/)

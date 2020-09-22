@@ -10,7 +10,9 @@ url: /reportingservices/configuration-explained/
 This section describes configuration parameters that affect how Aspose.Words for Reporting Services generates documents.
 
 {{% /alert %}} 
+
 #### **Instance level configuration**
+
 You can specify configuration settings for a whole Reporting Services instance. All reports processed by this instance will be affected by these settings.
 
 To configure Aspose.Words for Reporting Services at the instance level, you need to edit an XML configuration file. The settings are the same in all cases, but the location and name of the configuration file are different depending on the host application. 
@@ -62,7 +64,9 @@ Every export format has its own configuration XML element. Therefore, if you wan
 </Extension>
 </Render>
 {{< /highlight >}}
+
 #### **Report level configuration**
+
 You can specify configuration settings for an individual report. In this case, the settings you specify will override the corresponding settings specified at the instance level.
 
 To specify configuration settings for an individual report, follow these steps: 

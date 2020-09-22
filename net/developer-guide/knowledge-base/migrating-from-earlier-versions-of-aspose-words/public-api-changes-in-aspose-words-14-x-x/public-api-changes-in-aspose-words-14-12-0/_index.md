@@ -10,7 +10,9 @@ url: /net/public-api-changes-in-aspose-words-14-12-0/
 This page lists public API changes that were introduced in Aspose.Words 14.12.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **PageHorizontalAlignment and PageMargins Properties Added to HtmlFixedSaveOptions Class**
+
 **PageHorizontalAlignment**
 
 {{< highlight csharp >}}
@@ -83,7 +85,9 @@ public double PageMargins
 {{< /highlight >}}
 
 To remove the margin declaration, set PageHorizontalAlignment to HtmlFixedPageHorizontalAlignment.Left and PageMargins to 0.
+
 ### **AllowTrailingWhitespaceForListItems Property Added to LoadOptions Class**
+
 **AllowTrailingWhitespaceForListItems**
 
 {{< highlight csharp >}}
@@ -101,7 +105,9 @@ public bool AllowTrailingWhitespaceForListItems
     set { mAllowTrailingWhitespaceForListItems = value; }
 }
 {{< /highlight >}}
+
 ### **New Mode of Handling Styles during Import via Public ImportFormatMode.KeepDifferentStyles**
+
 **KeepDifferentStyles**
 
 {{< highlight csharp >}}
@@ -121,12 +127,16 @@ Document src = new Document("dst.docx");
 dst.AppendDocument(src, ImportFormatMode.KeepDifferentStyles);
 dst.Save("out.docx");
 {{< /highlight >}}
+
 ### **Saving to OpenDocument (ODT) Version 1.2 Supported**
+
 For output ODT documents, Aspose.Words now supports the following versions:
 
 - 'office:version = "1.1"' is specified when ' OdtSaveOptions.IsStrictSchema11 = true'
 - 'office:version = "1.2"' is specified when ' OdtSaveOptions.IsStrictSchema11 = false'
+
 ### **Public API for Specifying Text Effects for Revisions during Rendering to Fixed Page Formats**
+
 The following public entities exposed:
 
 {{< highlight csharp >}}

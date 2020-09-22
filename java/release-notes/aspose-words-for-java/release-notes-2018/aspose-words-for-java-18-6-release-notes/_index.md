@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-18-6-release-notes/
 This page contains release notes for [Aspose.Words for Java 18.6](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/18.6).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 66 improvements and fixes in this regular monthly release. The most notable are:
 
 - Exposed Title and Description properties into Table class
@@ -35,6 +37,7 @@ There are 66 improvements and fixes in this regular monthly release. The most no
 - Fixed exception when revision balloons are displayed in certain cases
 - Enhanced logic which handles page breaks inside text frames
 - LINQ Reporting Engine supports dynamic insertion of hyperlinks
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -105,11 +108,17 @@ There are 66 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16888|Document.UpdatePageLayout does not stop|Performance|
 |WORDSNET-16667|Significant decrease of performance (getting bookmark)|Regression|
 |WORDSNET-16384|System.NullReferenceException is thrown while saving DOC to HTML|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 18.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Supported Dynamic Insertion of Hyperlinks for LINQ Reporting Engine**
+
 The "[Inserting Hyperlinks Dynamically](/words/java/inserting-hyperlinks-dynamically/)" section of the LINQ Reporting Engine's documentation was added to describe the change.
+
 ### **Added Title and Description Properties into Table Class**
+
 WORDSNET-5890 has been resolved. The following public properties have been added into the Table class:
 
 {{< highlight csharp >}}
@@ -138,7 +147,9 @@ public string Description
     get; set;
 }
 {{< /highlight >}}
+
 ###### **Usage**
+
 {{< highlight csharp >}}
 Document document = new Document(myDir + "Test.docx");
 Table table = document.FirstSection.Body.Tables[0];
@@ -146,7 +157,9 @@ table.Title = "Test title";
 table.Description = "Test description";
 document.Save(myDir + "Output.docx");
 {{< /highlight >}}
+
 ### **Added Feature to Insert Shapes through DocumentBuilder using ShapeType**
+
 WORDSNET-15112 has been resolved. The following methods were added in the DocumentBuilder:
 
 {{< highlight csharp >}}
@@ -205,7 +218,9 @@ OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 doc.Save("RotatedShape.docx", so);
 {{< /highlight >}}
+
 ### **Changed Public Properties of AxisScaling Class**
+
 WORDSNET-16345 has been resolved. The properties MinimumIsAuto and MaximumIsAuto have been removed from the AxisScaling class. Type of the Minimum and Maximum properties has been changed from **double** to AxisBound.
 
 {{< highlight csharp >}}
@@ -281,7 +296,9 @@ namespace Aspose.Words.Drawing.Charts
     }
 }
 {{< /highlight >}}
+
 ###### **UC**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -322,7 +339,9 @@ yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
 doc.Save(dir + "TestAxis.docx");
 {{< /highlight >}}
+
 ###### **UC to set date/time values to axis properties**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -354,7 +373,9 @@ xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
 doc.Save(dir + "TestDateValues.docx");
 {{< /highlight >}}
+
 ###### **UC to set bounds of an axis**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -374,7 +395,9 @@ chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
 doc.Save(dir + "TestAxisBounds.docx");
 {{< /highlight >}}
+
 ### **Added API Allowing to Setup Language Preferences**
+
 WORDSNET-16401 has been resolved. Displaying the document in Word depends on what languages are set in defaults of that document. But what to do, if there are no any languages are set in defaults? In this case Word takes information from 'Set the Office Language Preferences' dialog, which for example, can be found under 'File -> Options -> Language' menu in Word 2016.
 
 The new API implements such dialog of Word:
@@ -430,7 +453,9 @@ public LanguagePreferences LanguagePreferences
 {{< /highlight >}}
 
 The use cases will be as follows.
+
 ##### **UC: Add Japanese language to the editing languages:**
+
 {{< highlight csharp >}}
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
@@ -441,7 +466,9 @@ if (localeIdFarEast == (int)EditingLanguage.Japanese)
 else
     Console.WriteLine("The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
 {{< /highlight >}}
+
 ##### **UC: Set Russian language as the default editing language:**
+
 {{< highlight csharp >}}
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.LanguagePreferences.SetAsDefault(EditingLanguage.Russian);
@@ -452,7 +479,9 @@ if (localeId == (int)EditingLanguage.Russian)
 else
     Console.WriteLine("The document default language was set to another than Russian language originally, so it is not overridden.");
 {{< /highlight >}}
+
 ### **Added IsMoveFromRevision and IsMoveToRevision Properties**
+
 WORDSNET-16664 has been resolved. The following public properties have been added into the Inline, Paragraph, ShapeBase and InlineStory classes:
 
 {{< highlight csharp >}}
@@ -485,7 +514,9 @@ for (int i = 0; i < paragraphs.Count; i++)
         Console.WriteLine("The paragraph {0} has been moved (inserted).", i);
 }
 {{< /highlight >}}
+
 ### **Added Properties for Asian Typography into ParagraphFormat Class**
+
 WORDSNET-16664 has been resolved. The following public properties have been added into the ParagraphFormat class:
 
 {{< highlight csharp >}}
@@ -525,7 +556,9 @@ format.WordWrap = true;
 format.HangingPunctuation = false;
 doc.Save(myDir + "Output.docx");
 {{< /highlight >}}
+
 ### **Added Public TXT Save Option AddBidiMarks**
+
 WORDSNET-16814 has been resolved. Implemented TxtSaveOptions.AddBidiMarks property as following:
 
 {{< highlight csharp >}}
@@ -539,18 +572,26 @@ public bool AddBidiMarks
 When this option is enabled, AW inserts Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text. This option corresponds to *"Add bi-directional marks"* option in Word File Conversion dialog when you export to a Plain Text format. Note, it appears in dialog only if any of **Arabic** or **Hebrew** editing languages are added in Word.
 
 In addition, unlike Word where this option is set to **false** by default, in AW this option is set by default to **true**.
+
 ##### **UC: Export to TXT format, no adding RTL marks before each BiDi Run:**
+
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 saveOptions.AddBidiMarks = false;
 doc.Save("out.txt", saveOptions);
 {{< /highlight >}}
+
 ### **Obsolete Enum RowAlignment was Removed**
+
 Obsolete enum RowAlignment was removed. Use TableAlignment instead.
+
 ### **Obsolete Method InvalidateFieldTypes() was Removed from Document and Range Classes**
+
 Obsolete method InvalidateFieldTypes() was removed from Document and Range classes. Use NormalizeFieldTypes() instead.
+
 ### **Obsolete Properties were Removed from RowFormat Class**
+
 Obsolete property RowFormat.PreferredWidth was removed. Please use the Table.PreferredWidth property instead.
 
 Obsolete property RowFormat.RowAlignment was removed. Please use the Table.RowAlignment property instead.

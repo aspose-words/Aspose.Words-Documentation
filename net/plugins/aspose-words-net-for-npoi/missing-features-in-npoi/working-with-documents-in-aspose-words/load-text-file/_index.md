@@ -6,6 +6,7 @@ url: /net/load-text-file/
 ---
 
 ## **Aspose.Words - Load Text File**
+
 Aspose.Words allows you to import plain text data the same way as other document formats, by using the Document constructor.
 
 **C#**
@@ -18,7 +19,9 @@ Document doc = new Document("../../data/LoadTxt.txt");
 // Save as any Aspose.Words supported format, such as DOCX.
 doc.Save("AsposeLoadTxt_Out.docx");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Load Text File** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475281)

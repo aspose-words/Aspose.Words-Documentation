@@ -15,6 +15,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 
 
 ## **TXT in Aspose.Words**
+
 ![todo:image_alt_text](plain-text-txt_1.png)
 
 [TXT](https://docs.fileformat.com/word-processing/txt/), or plain text, is a file format used to transfer information with very little formatting. Where [RTF ](https://docs.fileformat.com/word-processing/rtf/)accommodates bold, underline and other styles, and [DOC](https://docs.fileformat.com/word-processing/doc/) and [DOCX](https://docs.fileformat.com/word-processing/docx/) allows very sophisticated formatting, TXT contains nothing but ASCII characters. It is considered a universal format because any text editor can open a TXT file.

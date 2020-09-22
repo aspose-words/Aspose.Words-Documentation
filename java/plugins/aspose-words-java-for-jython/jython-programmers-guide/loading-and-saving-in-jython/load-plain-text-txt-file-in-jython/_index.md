@@ -6,10 +6,13 @@ url: /java/load-plain-text-txt-file-in-jython/
 ---
 
 ## **Aspose.Words - Load Plain Text (TXT) File**
+
 To Load Plain Text (TXT) File using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 Error rendering macro 'code' : Invalid value specified for parameter lang
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

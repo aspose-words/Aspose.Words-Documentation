@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-19-1-release-notes/
 This page contains release notes for [Aspose.Words for Java 19.1](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.1).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 55 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented the directed line caps rendering for Bezier curves in metafiles.
@@ -30,6 +32,7 @@ There are 55 improvements and fixes in this regular monthly release. The most no
 - Implemented navigation from footnote reference to footnote for PDF output.
 - Fixed exception which may happen when spans are merged in paragraphs with different directionality.
 - Fixed exception which may happen when span has null shading inside text box
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -89,9 +92,13 @@ There are 55 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17786|Add name to foreach syntax of Linq Reporting|Feature|
 |WORDSNET-17784|UnsupportedOperationException upon loading Doc|Regression|
 |WORDSNET-17956|System.InvalidCastException occurs upon converting DOC to DOCX|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Exposed the Threshold Control for TIFF Binarization**
+
 WORDSNET-17819 has now been resolved:
 
 New public property was added to ImageSaveOptions class:
@@ -113,7 +120,9 @@ public byte ThresholdForFloydSteinbergDithering
 {{< /highlight >}}
 
 The higher the value, the darker the image.
+
 #### **UC**
+
 {{< highlight csharp >}}
 Document doc = new Document ("inputFileName");
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);

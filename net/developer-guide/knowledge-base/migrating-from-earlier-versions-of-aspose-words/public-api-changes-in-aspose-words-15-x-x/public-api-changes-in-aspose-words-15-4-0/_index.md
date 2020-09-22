@@ -10,7 +10,9 @@ url: /net/public-api-changes-in-aspose-words-15-4-0/
 These page list public API changes that were introduced in Aspose.Words 15.4.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
+
 ### **HtmlFixedSaveOptions.CssClassNamesPrefix Public Property Added**
+
 We have added new public property to HtmlFixedSaveOptions class:
 
 **C#**
@@ -97,7 +99,9 @@ In order to provide Aspose.Pdf's HtmlSaveOptions.CssClassNamesPrefix behavior no
 {{< /highlight >}}
 
 Only class selectors are used which allows to prefix all class names.
+
 ### **HtmlSaveOptions.ExportOriginalUrlForLinkedImages Public Property Added**
+
 We have added new public property to HtmlSaveOptions class:
 
 **C#**
@@ -120,9 +124,13 @@ public bool ExportOriginalUrlForLinkedImages
     set { mExportOriginalUrlForLinkedImages = value; }
 }
 {{< /highlight >}}
+
 ### **ShapeBase.IsSignatureLine Public Property Added**
+
 Previously, the API didn't provide any clues to whether a shape is a signature line or not, except for a hint under Alternative Text. This property provides a way to distinguish signature line shapes.
+
 ### **Unknown Fields now Merged during Mail Merge like in MS Word**
+
 While analyzing WORDSNET-11716, we have discovered that Word merges unknown fields like ﻿
 
 { City }

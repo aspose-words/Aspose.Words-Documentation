@@ -10,12 +10,15 @@ url: /java/aspose-words-for-java-20-1-release-notes/
 This page contains release notes for [Aspose.Words for Java 20.1](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.1).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Implemented support of paragraph rules in footnotes.
 - API to get/set the position of the floating table is exposed.
 - Implemented an ability to check if VbaProject is signed.
 - Added feature to insert IconCaption while using InsertOleObject.
 - Supported dynamic bookmark insertion for LINQ Reporting Engine.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -95,11 +98,14 @@ This page contains release notes for [Aspose.Words for Java 20.1](https://reposi
 |WORDSNET-4210|Table row height is changed during rendering|Bug|
 |WORDSNET-19545|Appending Document causes indent issues|Bug|
 |WORDSNET-14050|DOC to PDF conversion issue with RTL text direction|Bug|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
 
 ### **Added a new public property VbaProject.IsSigned**
+
 Related issue: WORDSNET-12444 Added a new public property VbaProject.IsSigned:
 
 {{< highlight csharp >}}
@@ -117,7 +123,9 @@ if (doc.VbaProject.IsSigned)
  
  // do smth..
 {{< /highlight >}}
+
 ### **Added setters for floating table properties**
+
 WORDSNET-12204. Added setters for following table properties: RelativeHorizontalAlignment, AbsoluteHorizontalDistance, RelativeVerticalAlignment, AbsoluteVerticalDistance.
 
 These properties allow setting floating table position.
@@ -140,11 +148,17 @@ table.AbsoluteHorizontalDistance = 10;
 table.RelativeVerticalAlignment = VerticalAlignment.Center;
  // sets vertical table position to center of entity specified by Table.VerticalAnchor.
 {{< /highlight >}}
+
 ### **SaveOptions.ColorMode property moved to FixedPageSaveOptions class**
+
 Related issue: WORDSNET-19635 SaveOptions.ColorMode public property moved to FixedPageSaveOptions class.
+
 ### **Supported dynamic bookmark insertion for LINQ Reporting Engine**
+
 Issue: WORDSNET-19648 The "[Inserting Bookmarks Dynamically](/words/java/inserting-bookmarks-dynamically/)" section of the engine's documentation was added to describe the change.
+
 ### **WORDSNET-18928 - Add feature to insert IconCaption and correct icon while using InsertOleObject**
+
 A new public method has been added to the DocumentBuilder class:
 
 {{< highlight csharp >}}

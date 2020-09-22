@@ -10,14 +10,18 @@ url: /net/aspose-words-for-net-14-3-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.3.0](https://www.nuget.org/packages/Aspose.Words/14.3.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 14.3 Release Notes**
+
 ### **Major Features**
+
 There are 88 improvements and fixes in this regular monthly release. The most notable are:
 
 - Public API for insertion of OLE objects both linked and embedded
 - Outline, Shadow, Reflection, Glow and Fill text effects for rendering text inside DrawingML shapes
 - EUDC fonts rendering partially supported
 - “PDF Logical Structure” export reworked, significantly improving memory usage
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

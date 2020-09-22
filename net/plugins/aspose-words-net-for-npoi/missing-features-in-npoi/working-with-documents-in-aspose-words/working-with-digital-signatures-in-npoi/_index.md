@@ -6,6 +6,7 @@ url: /net/working-with-digital-signatures-in-npoi/
 ---
 
 ## **Aspose.Words - Working with Digital Signatures**
+
 A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
 
 Aspose.Words supports documents with digital signatures and provides access to them allowing you to detect and validate digital signatures on a document . At the present time digital signatures are supported on DOC, OOXML and ODT documents.
@@ -26,7 +27,9 @@ else
 	Console.WriteLine("Document has no digital signature.");
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Working with Digital Signatures** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475285)

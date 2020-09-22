@@ -6,6 +6,7 @@ url: /net/format-table-in-document-in-npoi/
 ---
 
 ## **Aspose.Words - Format Table in Document**
+
 {{% alert color="primary" %}} 
 
 Note that before you apply table properties there must be at least one row present in the table. This means when building a table using **DocumentBuilder**, such formatting must be done after the first call to **DocumentBuilder.InsertCell** or after adding the first row to a table or when inserting nodes directly into the DOM.
@@ -55,7 +56,9 @@ Note that before you apply table properties there must be at least one row prese
   builder.Writeln("Cell #4");
   doc.Save("Format Table in Document.doc");
 {{< /highlight >}}
+
 ## **NPOI HWPF XWPF - Format Table in Document**
+
 **C#**
 
 {{< highlight csharp >}}
@@ -78,13 +81,17 @@ Note that before you apply table properties there must be at least one row prese
   doc.Write(out1);
   out1.Close();
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Format Table in Document** from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/SourceControl/latest#Aspose.Words_NPOI.HWPF and XWPF/Aspose.Words Vs NPOI HWPF and XWPF v1.1/Format Table in Document/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Format%20Table%20in%20Document)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
+
 ## **Download Sample Code**
+
 Download **Format Table in Document** from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/releases/view/617696)

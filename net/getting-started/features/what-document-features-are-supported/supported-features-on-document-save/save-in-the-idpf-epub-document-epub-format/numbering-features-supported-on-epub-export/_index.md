@@ -12,6 +12,7 @@ Single level lists can be output either as native HTML lists or as ordinary para
 There are plans to introduce an option to control if lists are exported as native or paragraph lists.
 
 {{% /alert %}} 
+
 ##### **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -19,6 +20,7 @@ There are plans to introduce an option to control if lists are exported as nativ
 |Single Level |Yes |Single level lists can be output either as native HTML lists or as ordinary paragraphs. This depends on the properties of list. <br><br>There are plans to introduce an option to control if lists are exported as native or paragraph lists. | |
 |Multi Level |Yes |Multiple level lists are always output as ordinary paragraphs. | |
 |Name |Planned |Can be exported as List style name. | |
+
 ##### **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -10,10 +10,13 @@ url: /java/aspose-words-for-java-20-3-release-notes/
 This page contains release notes for [Aspose.Words for Java 20.3](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.3).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - FindReplaceOptions class is extended with new properties.
 - Implemented the correct rendering of the "Letterlike" symbols.
 - Supported dynamic stretching of an image within textbox bounds preserving the ratio of the image for the LINQ Reporting Engine.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -96,8 +99,11 @@ This page contains release notes for [Aspose.Words for Java 20.3](https://reposi
 |WORDSNET-19986|Application hangs when opening HTM file|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 20.3. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added a new public property SaveOptions.UpdateLastPrintedProperty**
+
 Related issue: **WORDSNET-19776**
 
 Added a new public property SaveOptions.UpdateLastPrintedProperty:
@@ -112,7 +118,9 @@ public bool UpdateLastPrintedProperty
 {{< /highlight >}}
 
 It's true by default for FixedPageSaveOptions.
+
 ##### **Use Case:**
+
 **.NET**
 
 {{< highlight csharp >}}
@@ -124,6 +132,7 @@ doc.Save(pdfPath, saveOptions);
 
 
 ### **Added the ImageFieldMergingArgs.Shape property**
+
 Reference: **WORDSNET-19568**
 
 A customer requested controlling various image properties when merging an image merge field, in particular, **WrapType**. Currently, it is only possible to set image width or height using the **ImageFieldMergingArgs.ImageWidth** and **ImageFieldMergingArgs.ImageHeight** properties, respectively.
@@ -172,6 +181,7 @@ private class TestShapeSetFieldMergingCallback : IFieldMergingCallback
 
 
 ### **FindReplaceOptions class is extended with new properties**
+
 Related issue: WORDSNET-19912.
 
 The following public properties were added to FindReplaceOptions class:
@@ -208,6 +218,7 @@ public bool IgnoreFields
 
 
 ##### **Use Case 1. Explains how to ignore text inside delete revisions:**
+
 **.NET**
 
 {{< highlight csharp >}}
@@ -242,6 +253,7 @@ Console.WriteLine(doc.GetText());
 
 
 ##### **Use Case 2. Explains how to ignore text inside insert revisions:**
+
 **.NET**
 
 {{< highlight csharp >}}
@@ -275,6 +287,7 @@ Console.WriteLine(doc.GetText());
 
 
 ##### **Use Case 3. Explains how to ignore text inside fields:**
+
 **.NET**
 
 {{< highlight csharp >}}
@@ -303,6 +316,7 @@ Console.WriteLine(doc.GetText());
 
 
 ### **Removed obsolete DigitalSignature.Certificate property and CertificateHolder.Create(X509Certificate2) method**
+
 Related issue: WORDSNET-19999.
 
 The following obsolete property of [DigitalSignature](https://apireference.aspose.com/net/words/aspose.words/digitalsignature) class was removed:
@@ -348,6 +362,7 @@ Please use the following methods instead:
 
 
 ### **Supported dynamic stretching of an image within textbox bounds preserving the ratio of the image for LINQ Reporting Engine**
+
 **Issue:** WORDSNET-18362
 
 The "[Inserting Images Dynamically](/words/java/inserting-images-dynamically/)" section of the engine's documentation was updated to describe the change.

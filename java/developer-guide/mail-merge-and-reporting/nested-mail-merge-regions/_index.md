@@ -6,11 +6,13 @@ url: /java/nested-mail-merge-regions/
 ---
 
 ## **How to Use Nested Mail Merge Regions**
+
 Most data in relational databases or XML files is hierarchical (e.g. with parent-child relationships). The most common example is an invoice or an order containing multiple items.
 
 Aspose.Words allow nesting mail merge regions inside each other in a document to reflect the way the data is nested and this allows you to easily populate a document with hierarchical data.
 
 This article details the steps of how to set up a working nested mail merge application to generate a collection of invoices where each contains multiple items. An example project with complete source code and files can be downloaded. The process and code will be explained step by step and common issues addressed at the end of the article.
+
 ### **What are Nested Mail Merge Regions and When Would I use Them?**
 
 
@@ -27,7 +29,9 @@ The example below shows the data being passed to the nested merge regions and th
 ![todo:image_alt_text](nested-mail-merge-regions_2.png)
 
 As you can see, each order from the **Order** table is inserted followed by each item from the **Item** table that is related to that order. Then the next order will be inserted along with their items until all the orders and items are listed.
+
 #### **Step 1 – Create the Template**
+
 This is the same process as creating a standard mail merge document with regions. Remember that with mail merge regions we can have the same field name in different regions so there is no need to change any column names. Here is what our Word template looks like:
 
 
@@ -43,7 +47,9 @@ There are a few things you need to consider when preparing nested mail merge reg
 - The opening and closing table tags **need to be well formed**. This means that the StartTable and EndTable table tags must match. An incorrectly formed region will cause all nested mail merge regions to stop displaying anything at all.
 
 If one of these rules is broken the program may produce unexpected results or an exception may be thrown.
+
 #### **Step 2 – Create the Data Source**
+
 The data to be merged into the template can come from a variety of sources, mainly relational databases or XML documents. In our example we are going to use a Microsoft Access database to store our data and load each table from the database into DataTable objects. Nested mail merge will be executed using this DataSet.
 
 The orders data is contained within the database as shown below. 
@@ -54,7 +60,9 @@ These files should be included in our project folder:
 
 |**![todo:image_alt_text](nested-mail-merge-regions_5.png)**|
 | :- |
+
 #### **Step 3 – Ensure Correct Table Names and Relationships Exist Between Tables**
+
 For Aspose.Words to perform nested mail merge correctly, the following requirements must be met:
 
 1. The names of the mail merge regions in the document must match the **names of the DataTables** populated from the data source.
@@ -63,7 +71,9 @@ For Aspose.Words to perform nested mail merge correctly, the following requireme
 Since our data is coming from a database, the data is expected to be represented in a **ResultSet** object. Aspose.Words include special classes used when mail merging from data stored in **ResultSet** objects. Each **ResultSet** is wrapped into its own **DataTable** object. These **DataTable** objects are added to a **DataSet** and relations between each **DataTable** defined. This is the basis of how nested mail merge works.
 
 For further information about setting up data, relations see the following article in the documentation [here](https://docs.aspose.com/words/java/how-to-execute-mail-merge/).
+
 #### **Step 4 – Prepare the Code**
+
 The code for setting up nested mail merge is simple to implement with Aspose.Words. Remember when setting up your project:
 
 - To include the reference to Aspose.Words.
@@ -75,7 +85,9 @@ We create a [Document](http://www.aspose.com/api/java/words/com.aspose.words/cla
 Below example shows how to generate an invoice using nested mail merge regions.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-NestedMailMergeRegions-.java" >}}
+
 #### **The End Result**
+
 Here is the resulting Microsoft Word document produced after running the code:
 
 ![todo:image_alt_text](nested-mail-merge-regions_6.png)
@@ -87,7 +99,9 @@ Here is the resulting Microsoft Word document produced after running the code:
 
 
 Scrolling through the document produced you can see that the nested mail merge was successful. Each order’s details are generated including the corresponding items purchased.
+
 ### **Common Issues When Developing using Nested Mail Merge**
+
 **Q:** When using nested mail merge, the generated output has no fields that are merged; instead the original name of the merge field just stays the same?
 **A:** Check the data is being loaded properly into tables. The tables should have their TableName property set, a primary key, and a relationship defined.
 

@@ -6,8 +6,11 @@ url: /net/using-and-video-demo-for-umbraco-quote-generator/
 ---
 
 ## **Using and Video Demo for Umbraco Quote Generator**
+
 Aspose .NET Quote Generator for Umbraco is an open source module from Aspose that enable users to generate Quotes in your Umbraco site without requiring any other software. It uses the powerful features of Aspose.Words for .NET to allow you to easily generate quotations.
+
 ## **Using**
+
 After you have installed Aspose .NET Quote Generator for Umbraco module it is really simple to start using it on your website. Please follow these simple steps to get started
 
 1. Make sure you are logged in to the Umbraco **Developer** section, for example <http://www.myblog.com/umbraco/>
@@ -30,13 +33,21 @@ You have successfully installed and added Aspose .NET Quote Generator for Umbrac
 1. Enter products details such as (Description, Unit Price, Quantity, VAT percentage selection if applicable )
 1. Enter Quotation description/details And Terms & Conditions to display
 1. Option either to ‘Clear Form Fields’ OR Select Export File Format’ from List
+
 ### **Input Fields**
+
 ![todo:image_alt_text](using-and-video-demo-for-umbraco-quote-generator_2)
+
 ### **On Export button click, popup to Open/Save file.**
+
 ![todo:image_alt_text](using-and-video-demo-for-umbraco-quote-generator_3)
+
 ### **Few output files will look like this in PDF and MS Word file forma.**
+
 ![todo:image_alt_text](using-and-video-demo-for-umbraco-quote-generator_4)
 
 ![todo:image_alt_text](using-and-video-demo-for-umbraco-quote-generator_5)
+
 ## **Video Demo**
+
 Please check [this video](https://www.youtube.com/watch?v=HwBVEyWykrg) to see it in action.

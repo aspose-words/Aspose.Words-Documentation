@@ -6,6 +6,7 @@ url: /java/convert-document-to-pdf-in-jython/
 ---
 
 ## **Aspose.Words - Document to PDF**
+
 To convert Document to PDF using **Aspose.Words Java for Jython**. Here you can see example code.
 
 **Jython Code**
@@ -22,7 +23,9 @@ class DocToPdf:
 if __name__ == '__main__':
     DocToPdf()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

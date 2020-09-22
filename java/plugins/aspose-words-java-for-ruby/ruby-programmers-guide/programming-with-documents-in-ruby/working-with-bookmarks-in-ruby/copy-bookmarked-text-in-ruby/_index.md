@@ -6,6 +6,7 @@ url: /java/copy-bookmarked-text-in-ruby/
 ---
 
 ## **Aspose.Words - Copy Bookmarked Text**
+
 Here is example code to copy bookmarked text in Ruby.
 
 **Ruby Code**
@@ -73,7 +74,9 @@ def append_bookmark_text()
     dst_doc.save(data_dir + "Template Out.doc");
 end
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Copy Bookmarked Text (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/bookmarks.rb)

@@ -12,7 +12,9 @@ You can try to add watermark and view the results online at this link:
 <https://products.aspose.app/words/watermark>
 
 {{% /alert %}} 
+
 ## **Aspose.Words - Add Watermark**
+
 Sometimes you need to insert a watermark into a Word document, for instance, if you would like to print a draft document or mark it as confidential.
 
 In Microsoft Word, you can quickly insert a watermark using the Insert Watermark option. Not many people using this command realize that such “watermark” is just a shape with text inserted into a header or footer and positioned in the centre of the page.
@@ -81,7 +83,9 @@ static void insertWatermarkIntoHeader(Paragraph watermarkPara, Section sect, Hea
 	header.AppendChild(watermarkPara.Clone(true));
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Add Watermark** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475277)

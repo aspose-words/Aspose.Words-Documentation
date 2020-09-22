@@ -6,6 +6,7 @@ url: /net/change-text-in-a-table/
 ---
 
 ### **OpenXML SDK**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string File = FilePath + "Change text in a table - OpenXML.docx";
@@ -42,7 +43,9 @@ using (WordprocessingDocument doc =
 }
 }
 {{< /highlight >}}
+
 ### **Aspose.Words**
+
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
 string File = FilePath + "Change text in a table - Aspose.docx";
@@ -55,7 +58,9 @@ Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 table.Rows[1].Cells[2].Range.Replace("Mr", "test", true, true);
 doc.Save(File);
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)

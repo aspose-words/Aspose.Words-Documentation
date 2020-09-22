@@ -6,11 +6,13 @@ url: /java/insert-nested-fields-in-ruby/
 ---
 
 ## **Aspose.Words - Insert Nested Fields**
+
 **Ruby Code**
 
 {{< highlight ruby >}}
 
 ## The path to the documents directory.
+
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 \# Create new document.
 doc = Rjb::import('com.aspose.words.Document').new
@@ -37,7 +39,9 @@ field.update()
 \# Save the document.
 doc.save(data_dir + "InsertNestedFields Out.doc")
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Insert Nested Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/insertnestedfields.rb)

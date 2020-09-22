@@ -6,8 +6,11 @@ url: /net/working-with-charts/
 ---
 
 ## **Creating OOXML Charts from Scratch using Aspose.Words**
+
 New [InsertChart](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertchart/methods/1) method was added into the [DocumentBuilder](http://www.aspose.com/api/net/words/aspose.words/documentbuilder) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.InsertChart](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertchart/methods/1) method:
+
 ### **How to Insert Column chart**
+
 Below examples shows how to insert column chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertSimpleColumnChart.cs" >}}
@@ -24,7 +27,9 @@ There are four different overloads for series Add method, which was exposed to c
 The code produces the following result:
 
 ![todo:image_alt_text](working-with-charts_2.png)
+
 ### **How to Insert Scatter Chart**
+
 Below example shows how to insert a scatter chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertScatterChart-InsertScatterChart.cs" >}}
@@ -32,7 +37,9 @@ Below example shows how to insert a scatter chart.
 The code produces the following result:
 
 ![todo:image_alt_text](working-with-charts_3.png)
+
 ### **How to Insert Area Chart**
+
 Below example shows how to insert an area chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertAreaChart-InsertAreaChart.cs" >}}
@@ -40,7 +47,9 @@ Below example shows how to insert an area chart.
 The code produces the following result:
 
 ![todo:image_alt_text](working-with-charts_4.png)
+
 ### **How to Insert Bubble Chart**
+
 Below example shows how to insert a bubble chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertBubbleChart-InsertBubbleChart.cs" >}}
@@ -48,7 +57,9 @@ Below example shows how to insert a bubble chart.
 The code produces the following result:
 
 ![todo:image_alt_text](working-with-charts_5.png)
+
 ## **Working with Charts through Shape.Chart Object**
+
 Once the chart was inserted and filled with data, you are able to change its appearance. Shape.Chart property contains all chart related options available through the public API. For example, let's change Chart title or legend behavior:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateChartUsingShape-CreateChartUsingShape.cs" >}}
@@ -56,13 +67,17 @@ Once the chart was inserted and filled with data, you are able to change its app
 The code generates the followings results:
 
 ![todo:image_alt_text](working-with-charts_6.png)
+
 ## **How to Work with ChartSeriesCollection of Chart**
+
 Let’s look into ChartSeries collection. All chart series are available through chart.Series collection, which is IEnumerable:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
 You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call chart.Series.Clear() method.
+
 ## **Working with Single ChartSeries Class**
+
 Here is how to work with a particular series.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-WorkWithSingleChartSeries.cs" >}}
@@ -77,7 +92,9 @@ All single ChartSeries have default ChartDataPoint options, please try using the
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
 ![todo:image_alt_text](working-with-charts_8.png)
+
 ## **How to Work with Single ChartDataPoint of a ChartSeries**
+
 Using ChartDataPoint you are able to customize the formatting of a single data point of the chart series.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
@@ -85,7 +102,9 @@ Using ChartDataPoint you are able to customize the formatting of a single data p
 Please see the result below:
 
 ![todo:image_alt_text](working-with-charts_9.png)
+
 ## **How to Work with ChartDataLabel of a Single ChartSeries**
+
 Using ChartDataLabel you are able to specify the formatting of a single data label of the chart series, like show/hide LegendKey, CategoryName, SeriesName, Value etc.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
@@ -93,7 +112,9 @@ Using ChartDataLabel you are able to specify the formatting of a single data lab
 Please see the result below:
 
 ![todo:image_alt_text](working-with-charts_10.png)
+
 ## **How to Define Default Options for ChartDataLabels of ChartSeries**
+
 The ChartDataLabelCollection class defines properties which can be used to set default options for ChartDataLabels for Chart Series. These properties include ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue etc.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
@@ -101,35 +122,51 @@ The ChartDataLabelCollection class defines properties which can be used to set d
 Please see the result below:
 
 ![todo:image_alt_text](working-with-charts_11.png)
+
 ## **How to Format Number of Chart Data Label**
+
 Using ChartDataLabel.NumberFormat you are able to specify number formatting of a single data label of the chart. The code example given below shows how to format a number of the data label. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-ChartNumberFormat-FormatNumberofDataLabel.cs" >}}
+
 ## **How to Set Chart Axis Properties**
+
 If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/net/words/aspose.words.drawing.charts/chartaxis), [AxisDisplayUnit](https://apireference.aspose.com/net/words/aspose.words.drawing.charts/axisdisplayunit), and [AxisScaling](https://apireference.aspose.com/net/words/aspose.words.drawing.charts/axisscaling) classes. The code example given below shows how to define X and Y-axis properties.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cs" >}}
+
 ### **How to Set Date Time Value of Axis**
+
 The following code example shows how to set date/time values to axis properties.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.cs" >}}
+
 ### **How to Format Number Value of Axis**
+
 ` `The following code example shows how to change the format of numbers on the value axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetNumberFormatForAxis.cs" >}}
+
 ### **How to Set Bounds of Axis**
+
 The AxisBound class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value. The following code example shows how to set bounds of an axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetboundsOfAxis.cs" >}}
+
 ### **How to Set Interval Unit Between Labels**
+
 The following code example shows how to set the interval unit between labels on an axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.cs" >}}
+
 ### **How to Hide Chart Axis**
+
 If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example shows how to hide the Y-axis of the chart. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-HideChartAxis.cs" >}}
+
 ### **How to Align Chart Label**
+
 If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.TickLabelAlignment property. The following code example shows how to tick label alignment.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cs" >}}

@@ -10,13 +10,16 @@ url: /java/aspose-words-for-android-via-java-19-9-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 19.9](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.9).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - API's codebase is upgraded to the version Aspose.Words for Java 19.9
 - Provided API to write and modify VBA macros.
 - Implemented ability to create repeating section structured document tags.
 - Simplified work with XML and CSV data sources for LINQ Reporting Engine.
 - Improved rendering of “Sitka Banner”, “Sitka Display”, “Sitka Heading”, “Sitka Small”, “Sitka Subheading”, “Sitka Text” and “Cambria Math” fonts.
 - Implemented OpenType number spacing.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

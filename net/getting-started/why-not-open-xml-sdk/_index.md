@@ -14,16 +14,22 @@ We sometimes hear this question:
 This question is easy to answer: **features and functionality**. 
 
 {{% /alert %}} 
+
 ## **What is Open XML SDK?**
+
 According to the MSDN Library, Open XML SDK is defined as:*The Open XML SDK 2.0 simplifies the task of manipulating Open XML packages and the underlying Open XML schema elements within a package. The Open XML SDK 2.0 encapsulates many common tasks that developers perform on Open XML packages, so that you can perform complex operations with just a few lines of code.*OOXML documents are essentially zipped XML files and Open XML SDK is a collection of classes that allows you to work with the content of OOXML documents in a strongly-typed way. That is instead of unzipping a file to extract XML, loading that XML into a DOM tree and working with XML elements and attributes directly, Open XML SDK provides classes to do that.
+
 ## **What is Aspose.Words?**
+
 Aspose.Words is a class library that allows your application to perform the following document processing tasks:
 
 - High quality conversions from one document format to another.
 - Programming with a document object model.
 - Generating reports, populating documents with data from a data source.
 - Rendering documents to fixed-page formats PDF, XPS and printing.
+
 ## **Compare Open XML SDK and Aspose.Words**
+
 The following table compares Open XML SDK and Aspose.Words features.
 
 |**Feature or Feature Category**|**Open XML SDK**|**Aspose.Words**|

@@ -14,7 +14,9 @@ See the following link in the documentation for further information:
 - [HtmlSaveOptions.EpubNavigationMapLevel](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/epubnavigationmaplevel)
 
 {{% /alert %}} 
+
 ##### **General Formatting**
+
 There is a setting to export paragraph styles and formatting as inline CSS (style) only, or as a mix of inline and embedded or linked CSS style sheet (class). 
 
 Direct formatting on the paragraph (from ParagraphFormat) is exported as inline CSS (using the style attribute). 
@@ -31,6 +33,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Run Properties for the Paragraph Mark |Planned |Can be implemented with Microsoft Office specific techniques. | |
 |Suppress Line Numbers |Planned | | |
 |Suppress Hyphenation |Planned | | |
+
 ##### **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -41,6 +44,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Hanging Indent |Yes |Exported as a combination of "margin-left" and "text-indent" on style. | |
 |Mirror Indents |Yes |Exported as a combination of "margin-left" and "text-indent" on style. | |
 |Automatically Adjust Right Indent |N/A | | |
+
 ##### **Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -50,6 +54,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Space Auto |Yes |Paragraph with auto spacing is exported as margin-top and margin-bottom with explict spacing based on document defaults. | |
 |Line Spacing |Yes |Exported as "line-height" with percent. | |
 |No Space between Conforming Paragraphs |Planned | | |
+
 ##### **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -58,13 +63,17 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Keep With Next |Yes |Exported as style attribute with "page-break-after:avoid". | |
 |Keep Lines Together |Yes |Exported as style attribute with "page-break-inside:avoid". | |
 |Page Break Before |Yes |Exported as "page-break-before" on style attribute. | |
+
 ##### **Text Frames**
+
 Text frames are exported as paragraphs surronded by a border.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Frames |Yes | | |
+
 ##### **Tab Stops**
+
 Tab stops are not natively available in HTML. Aspose.Words converts tab stops into a fixed set of non-breaking spaces.
 
 Will be improved later by simulating the correct width. Consider using a borderless table to lay out information instead of tab stops when export to HTML is required.
@@ -75,7 +84,9 @@ Will be improved later by simulating the correct width. Consider using a borderl
 |Relative Position |Planned |Can be simulated by calculating the actual position of the tab stop. | |
 |Alignment: Left, Center, Right, Decimal, Bar |Planned | | |
 |Leader |Planned |Leader characters is currently not exported to HTML. | |
+
 ##### **Drop Caps**
+
 Drop cap is a frame which is exported to HTML as a paragraph with borders.
 
 Visually the drop cap looks correct but the main text is moved to the next paragraph. This will be improved when support of text frames is improved.
@@ -83,7 +94,9 @@ Visually the drop cap looks correct but the main text is moved to the next parag
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
+
 ##### **Borders**
+
 Borders are exported on style attribute as border-xxx-style and border-xxx-width etc.
 
 Normally each side is exported as separate attributes even if all borders of the paragraph are the same formatting.
@@ -97,11 +110,13 @@ Normally each side is exported as separate attributes even if all borders of the
 |Color |Yes | | |
 |Width |Yes | | |
 |Distance from Text |Yes |Exported as "padding-xxx". | |
+
 ##### **Shading**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
+
 ##### **Asian Typography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

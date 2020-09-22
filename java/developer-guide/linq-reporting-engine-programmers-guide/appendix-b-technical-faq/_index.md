@@ -10,7 +10,9 @@ url: /java/appendix-b-technical-faq/
 This section reveals some technical aspects and implementation details related to LINQ Reporting Engine. This information can be useful for you while making design decisions for your applications. The information is provided in a question-answer form.
 
 {{% /alert %}} 
+
 ### **How is the type of an enumeration item implicitly determined by the engine in template expressions?**
+
 If you do not specify the type of an enumeration item in a foreach statement or lambda function signature within your template explicitly, the type is implicitly determined by the engine from the type of the enumeration as follows:
 
 1. If the enumeration represents a DataTable instance, then the item represents its row.

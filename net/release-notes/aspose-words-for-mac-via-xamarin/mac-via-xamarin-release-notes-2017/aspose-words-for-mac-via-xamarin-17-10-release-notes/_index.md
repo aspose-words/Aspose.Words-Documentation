@@ -14,7 +14,9 @@ This is the first release of Aspose.Words for Mac via Xanarin. In future regular
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.10, see [Aspose.Words for .NET 17.10 release notes](/words/net/aspose-words-for-net-17-10-release-notes/) for more information.
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 Aspose.Words for Mac via Xamarin features can be divided into four main areas:
 
 - Conversions: High quality conversions to and from DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, TXT and OpenDocument formats

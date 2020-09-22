@@ -10,7 +10,9 @@ url: /java/aspose-words-for-android-via-java-18-3-release-notes/
 This page contains release notes for [Aspose.Words for Android via Java 18.3](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/18.3/).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 70+ improvements and fixes in this regular monthly release. The most notable are:
 
 - Public API to get Subject and Issuer names from DigitalCertificate (instead obsolete properties).
@@ -28,6 +30,7 @@ There are 70+ improvements and fixes in this regular monthly release. The most n
 - A reflection effect is now applied correctly for 3D rotated WordArt objects
 
 'Aspose.Words for Android via Java' 18.3 also includes the current 'Aspose.Words for Java' features. See the full list of changes in [Aspose.Words for Java 18.3 Release Notes](/words/java/aspose-words-for-java-18-3-release-notes/).
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|

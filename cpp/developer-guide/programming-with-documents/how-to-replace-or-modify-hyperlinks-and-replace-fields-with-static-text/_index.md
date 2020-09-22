@@ -6,6 +6,7 @@ url: /cpp/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-tex
 ---
 
 ## **Replace or Modify Hyperlinks**
+
 To find and modify hyperlinks it would be nice to have some sort of Hyperlink object with properties, but in the current version, there is no built-in functionality in Aspose.Words to deal with hyperlink fields.
 
 Hyperlinks in Microsoft Word documents are fields. A field consists of the field code and field result. In the current version of Aspose.Words, there is no single object that represents a field. Aspose.Words represents a field by a set of nodes: FieldStart, one or more Run nodes of the field code, FieldSeparator , one or more **Run** nodes of the field result and FieldEnd.

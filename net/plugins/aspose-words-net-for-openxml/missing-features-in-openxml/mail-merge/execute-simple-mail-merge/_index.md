@@ -22,7 +22,9 @@ doc.MailMerge.Execute(
 // Send the document in Word format to the client browser with an option to save to disk or open inside the current browser.
 doc.Save(FileName);
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/Missing-Features-in-6a2c882b)

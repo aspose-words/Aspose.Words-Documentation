@@ -14,7 +14,9 @@ This is a regular monthly release. 'Aspose.Words for Android via Xamarin' has fu
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.5, see [Aspose.Words for .NET 17.5 release notes](/words/net/aspose-words-for-net-17-5-release-notes/) for more information.
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 Apart from the fixes and improvements from Aspose.Words for .NET, the following improvements have also been made in this 'Aspose.Words for Android via Xamarin' release:
 
 - Improved support of symbolic fonts (Symbol, Windings, Webdings, Cambria Math etc.) upon rendering to image.'

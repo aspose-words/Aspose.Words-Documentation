@@ -6,6 +6,7 @@ url: /java/working-with-document-in-docx4j-and-aspose-words/
 ---
 
 ###### **This section includes the following topics:**
+
 - [Accessing Document Properties](https://docs.aspose.com/words/java/accessing-document-properties/)
 - [Add Watermark in Document](https://docs.aspose.com/words/java/add-watermark-in-document/)
 - [Convert Document to HTML](https://docs.aspose.com/words/java/convert-document-to-html/)

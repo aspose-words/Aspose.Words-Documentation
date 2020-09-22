@@ -10,14 +10,18 @@ url: /net/working-with-comments/
 Comments of the document are represented by the [Comment](http://www.aspose.com/api/net/words/aspose.words/comment) class. Use [CommentRangeStart](http://www.aspose.com/api/net/words/aspose.words/commentrangestart) and [CommentRangeEnd](http://www.aspose.com/api/net/words/aspose.words/commentrangeend) classes to specify a region of text that is to be commented.
 
 {{% /alert %}} 
+
 ## **How to Extract or Remove Comments**
+
 Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are multiple reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
 
 In this sample we are going to look at some simple methods for both gathering information from the comments within a document and for removing comments from a document. Specifically we'll cover how to:
 
 - Extract all the comments from a document or only the ones made by a particular author.
 - Remove all the comments from a document or only from a particular author.
+
 ### **Solution**
+
 To illustrate how to extract and remove comments from a document, we will go through the following steps:
 
 1. Open a Word document using the [Document](http://www.aspose.com/api/net/words/aspose.words/document) class.
@@ -30,7 +34,9 @@ To illustrate how to extract and remove comments from a document, we will go thr
    1. Go backwards through the collection using the for operator.
    1. Remove comments.
 1. Save the changes.
+
 ### **The Code**
+
 The code in this sample is actually quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method is set to true: this forces the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) to select from all child nodes recursively, rather than only collecting the immediate children.
 
 The [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. Below example extracts the author name, date&time and text of all comments in the document.
@@ -54,7 +60,9 @@ When you need to selectively remove comments, the process becomes more similar t
 The main point to highlight here is the use of the for operator. Unlike the simple extraction, here you want to delete a comment. A suitable trick is to iterate the collection backwards from the last Comment to the first one. The reason for this if you start from the end and move backwards, the index of the preceding items remains unchanged, and you can work your way back to the first item in the collection. The demo-code that illustrates the methods for the comments extraction and removal. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Comments/TestFile.doc).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-ProcessComments.cs" >}}
+
 ## **How to Add a Comment**
+
 Below example shows how to add a comment to a paragraph in the document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-AddComments-AddComments.cs" >}}
@@ -62,15 +70,21 @@ Below example shows how to add a comment to a paragraph in the document.
 Below example shows how to anchor a comment to a region of text.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-AnchorComment-AnchorComment.cs" >}}
+
 ## **How to Remove Text between CommentRangeStart and CommentRangeEnd**
+
 Below example shows how to remove text between CommentRangeStart and CommentRangeEnd nodes.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-RemoveRegionText-RemoveRegionText.cs" >}}
+
 ## **How to Read Comment's Reply**
+
 Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. Below example shows how to iterate through a comment's replies and resolved them.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cs" >}}
+
 ## **How to Add and Remove Comment's Reply**
+
 The Comment.AddReply method adds a reply to this comment. Please note that due to the existing MS Office limitations only 1 level of replies is allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
 
 You can use Comment.RemoveReply method to remove the specified reply to this comment. Following code example shows how to add a reply to comment and remove comment's reply.

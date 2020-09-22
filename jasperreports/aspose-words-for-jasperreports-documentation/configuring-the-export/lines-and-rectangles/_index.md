@@ -12,7 +12,9 @@ Lines and rectangles are not exported by default. The reason is that lines and r
 {{% /alert %}} 
 
 However, you may want to try enabling export of lines and rectangles, especially if in your reports they are normally used as stand-alone elements. 
+
 #### **Exporting Lines**
+
 To enable the export of lines, use the EXPORT_LINES parameter. 
 
 In JasperReports:
@@ -33,7 +35,9 @@ In JasperReports:
     <property name="exportLines" value="true"/>
 </bean>
 {{< /highlight >}}
+
 #### **Exporting Rectangles**
+
 To enable the export of rectangles, use the EXPORT_RECTANGLES parameter. 
 
 In JasperReports:

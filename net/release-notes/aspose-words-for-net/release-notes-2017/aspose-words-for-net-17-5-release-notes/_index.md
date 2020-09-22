@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-17-5-release-notes/
 This page contains release notes for [Aspose.Words for .NET 17.5](https://www.nuget.org/packages/Aspose.Words/17.5.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 84 improvements and fixes in this regular monthly release. The most notable are:
 
 - MailMerge and Metafile rendering performance are improved.
@@ -26,6 +28,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 - Image crop is now taken into account while rendering HtmlFixed.
 - Shaded DrawingML images rendering fixed.
 - DrawingML Charts rendering improved (axis label placement).
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -118,7 +121,9 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.5. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Added Public Method CustomXmlPartCollection.Add(string id, string xml)**
+
 A public method is added into the CustomXmlPartCollection class to help in creation of a custom XML part by specifying its XML:
 
 {{< highlight csharp >}}
@@ -132,7 +137,9 @@ public CustomXmlPart Add(string id, string xml)
 {{< /highlight >}}
 
 Value of the 'xml' parameter is encoded as UTF8 and is stored in creating XML part.
+
 ##### **UC for creating a custom XML part by specifying its XML**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(Guid.NewGuid().ToString("B"), "<root><text>Hello, World!</text></root>");
@@ -140,7 +147,9 @@ StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, Ma
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 doc.FirstSection.Body.AppendChild(sdt);
 {{< /highlight >}}
+
 ### **Implemented API to Bind StructuredDocumentTag to Node of Custom XML Part**
+
 WORDSNET-4738 has been resolved. The following public property is added into the StructuredDocumentTag class:
 
 {{< highlight csharp >}}
@@ -200,7 +209,9 @@ public class XmlMapping
     public bool IsMapped { get; }
 }
 {{< /highlight >}}
+
 ##### **UC for creation of an XML part and binding a content control to it**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(Guid.NewGuid().ToString("B"), "<root><text>Hello, World!</text></root>");
@@ -209,7 +220,9 @@ doc.FirstSection.Body.AppendChild(sdt);
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 doc.Save(fileName);
 {{< /highlight >}}
+
 ### **CellFormat.SetPaddings Method was Introduced.**
+
 WORDSNET-15014 (Enhancement) has been resolved. We have added a simple method allowing to set all cell paddings in one line of code.
 
 {{< highlight csharp >}}

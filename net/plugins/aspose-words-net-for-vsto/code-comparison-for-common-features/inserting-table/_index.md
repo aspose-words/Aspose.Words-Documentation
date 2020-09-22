@@ -6,6 +6,7 @@ url: /net/inserting-table/
 ---
 
 ## **VSTO**
+
 {{< highlight csharp >}}
 Word.Application wordApp = Application;
 wordApp.Documents.Open("Inserting Table.doc");
@@ -45,7 +46,9 @@ tbl.Cell(3, 2).Range.Text = ((Office.DocumentProperties)(this.Application.Active
 	[Word.WdBuiltInProperty.wdPropertyAuthor].Value.ToString();
 }
 {{< /highlight >}}
+
 ## **Aspose.Words**
+
 {{< highlight csharp >}}
 Document doc = new Document("Inserting Table.doc");
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -77,7 +80,9 @@ builder.EndTable();
 // Save the document to disk.
 doc.Save("Inserting Table.doc");
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/787348)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Inserting.Table.Aspose.Words.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20Table%20\(Aspose.Words\).zip)

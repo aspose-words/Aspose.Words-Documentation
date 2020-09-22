@@ -10,7 +10,9 @@ url: /net/save-in-the-flatopc-ooxml-document-xml-format/
 The following tables provide implementation details about how Aspose.Words saves a document in the FlatOPC XML format.
 
 {{% /alert %}} 
+
 ###### **This section includes the following topics:** 
+
 - [Annotation Features Supported on FlatOPC Export](/words/net/annotation-features-supported-on-flatopc-export/)
 - [Custom Markup Features Supported on FlatOPC Export](/words/net/custom-markup-features-supported-on-flatopc-export/)
 - [Document Features Supported on FlatOPC Export](/words/net/document-features-supported-on-flatopc-export/)

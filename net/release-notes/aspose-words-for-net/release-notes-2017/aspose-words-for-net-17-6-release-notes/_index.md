@@ -10,7 +10,9 @@ url: /net/aspose-words-for-net-17-6-release-notes/
 This page contains release notes for [Aspose.Words for .NET 17.6](https://www.nuget.org/packages/Aspose.Words/17.6.0)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 82 improvements and fixes in this regular monthly release. The most notable are:
 
 - Added feature to Automatically adjust space between Asian and Latin text, numbers.
@@ -26,6 +28,7 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 - SVG graphics are now rendered via internal EMF rendering engine (without GDI+).
 - Improved rendering of PDF logical structure of Table headers.
 - Character offsets in META_EXTTEXTOUT records are now taken into account while rendering multi-byte encoding metafiles.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -116,7 +119,9 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Public Properties ParagraphFormat.AddSpaceBetweenFarEastAndAlpha and ParagraphFormat.AddSpaceBetweenFarEastAndDigit**
+
 WORDSNET-14376 and WORDSNET-14377 are resolved. Two new public properties are available in the ParagraphFormat class: AddSpaceBetweenFarEastAndAlpha and AddSpaceBetweenFarEastAndDigit.
 
 Two new public properties are available in the ParagraphFormat class: AddSpaceBetweenFarEastAndAlpha and AddSpaceBetweenFarEastAndDigit.
@@ -135,6 +140,7 @@ public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 {{< /highlight >}}
 
 ### **Added Public Property HtmlLoadOptions.PreferredControlType**
+
 WORDSNET-14669 has been resolved. New public property PreferredControlType is added into the HtmlLoadOptions class:
 
 {{< highlight csharp >}}
@@ -169,5 +175,7 @@ HtmlLoadOptions lo = new HtmlLoadOptions();
 lo.PreferredControlType = HtmlControlType.StructuredDocumentTag;
 Document doc = new Document(@"test.html", lo);
 {{< /highlight >}}
+
 ### **WORDSNET-15326 - SVG Multithread Processing Issue Resolved**
+
 Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in multiple threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI+ used earlier.

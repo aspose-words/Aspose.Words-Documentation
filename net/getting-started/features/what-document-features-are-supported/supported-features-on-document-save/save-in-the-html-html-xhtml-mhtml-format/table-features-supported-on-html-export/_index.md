@@ -44,6 +44,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Hidden|Planned|Hidden table or row is currently exported as collapsed with no content. This can produce the correct output with the exception of a row border present.| |
 
 ##### **Floating Tables**
+
 Floating tables are saved as normal tables.
 
 Left, right and center alignment is supported.
@@ -59,6 +60,7 @@ Left, right and center alignment is supported.
 |Allow Overlap Floating Tables|Planned| | |
 
 ##### **Table Borders**
+
 Currently, borders are output on each cell as style attribute border-XXX-style, border-XXX-color etc.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

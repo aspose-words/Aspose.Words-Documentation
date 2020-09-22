@@ -12,7 +12,9 @@ You can try to merge documents and view the results online at this link:
 <https://products.aspose.app/words/merger>
 
 {{% /alert %}} 
+
 ## **Aspose.Words - Append Documents**
+
 To append documents using Aspose.Words, simply invoke the AppendDocument() method of Document class and specify the second document to append at end.
 
 **C#**
@@ -24,7 +26,9 @@ Document doc3 = doc1.Clone();
 doc3.AppendDocument(doc2, ImportFormatMode.KeepSourceFormatting);
 doc3.Save("appendedDocument.doc");
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Append Documents (Aspose.Words)** form any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1475278)

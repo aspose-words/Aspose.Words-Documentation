@@ -10,9 +10,13 @@ url: /net/aspose-words-for-net-9-8-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 9.8.0](http://www.aspose.com/downloads/words/net/new-releases/aspose.words-for-.net-9.8.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 9.8 Release Notes**
+
 We have worked hard for the past two months and here is our next release with almost 170 improvements and fixes for you.
+
 ## **What's New**
+
 - Custom XML is now supported in DOC in addition to DOCX and RTF documents.
 - Specify your own directories to search for TrueType fonts for document rendering.
 - Position floating objects when exporting to HTML.

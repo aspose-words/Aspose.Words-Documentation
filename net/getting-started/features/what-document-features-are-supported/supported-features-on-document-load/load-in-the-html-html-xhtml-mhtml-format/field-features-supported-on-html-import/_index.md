@@ -28,7 +28,9 @@ Using Aspose.Words you can insert new fields, as well as find and modify existin
 ` `There are plans to try make some fields round-trip capable back to Word document formats by adding extra markup to the output HTML. There are also plans to import of fields from HTML by allowing the user to define a custom syntax that is imported into the model as a working field.
 
 {{% /alert %}} 
+
 ## **Field Codes**
+
 Only form fields and hyperlinks are importing from HTML as dynamic fields. Other fields are imported from HTML as plain text. There are plans to try make some fields round-trip capable back to Word document formats by adding extra markup to the output HTML. There are also plans to import of fields from HTML by allowing the user to define a custom syntax that is imported into the model as a working field. See the following links in the documentation for further information:
 
 - [Working with Fields](/words/net/working-with-fields/)
@@ -39,6 +41,7 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Field Codes|Yes| | |
+
 ## **Date and Time**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -49,6 +52,7 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 |PrintDate|N/A| | |
 |SaveDate|N/A| | |
 |Time|N/A| | |
+
 ## **Document Automation**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -59,6 +63,7 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 |If|N/A| | |
 |MacroButton|N/A| | |
 |Print|N/A| | |
+
 ## **Document Information**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -77,6 +82,7 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 |Subject|N/A| | |
 |Template|N/A| | |
 |Title|N/A| | |
+
 ## **Equations and Formulas**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -85,7 +91,9 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 |Advance|N/A| | |
 |Eq|N/A| | |
 |Symbol|N/A| | |
+
 ## **Form Fields**
+
 Form fields are fully supported by Aspose.Words. There is an option to export form fields as dynamic fields in HTML as &lt;input&gt; and &lt;select&gt; tags or to export them as plain text. Only &lt;input&gt; and &lt;select&gt; tags are imported back as fields. The input types that have direct Microsoft Word analogs are imported as working form fields. Radio and image input elements are imported as image shapes and are non-clickable. Input elements attributed with hidden or disabled are not imported. See the following links in the documentation for further information:
 
 - [Working with Form Fields](/words/net/working-with-form-fields/)
@@ -109,6 +117,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 |Max Length|Yes|Exported as maxlength attribute.|- [FormField.MaxLength](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/maxlength)|||
 |Check Box Size|Planned|There are plans to use width and height CSS attributes to increase size of checkboxes exported to HTML.|<p>- [FormField.CheckBoxSize](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checkboxsize)</p><p>- [FormField.IsCheckBoxExactSize](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/ischeckboxexactsize)</p>|||
 |Text Input Type|Planned| |- [FormField.TextInputType](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputtype)|||
+
 ## **Index and Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -120,6 +129,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 |TOA (Table of Authorities)|N/A| | |
 |TOC (Table of Contents)|N/A|Hyperlinked entries are imported as working hyperlinks but the entire content is not imported as a TOC field.| |
 |XE|N/A| | |
+
 ## **Links and References**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -137,6 +147,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 |Quote|N/A| | |
 |Ref|N/A| | |
 |StyleRef|N/A| | |
+
 ## **Mail Merge**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -155,6 +166,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 |NextIf|N/A| | |
 |Set|N/A| | |
 |SkipIf|N/A| | |
+
 ## **Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -169,6 +181,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 |Section|N/A| | |
 |SectionPages|N/A| | |
 |Seq|N/A| | |
+
 ## **User Information**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -176,7 +189,9 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 |UserAddress|N/A| | |
 |UserInitials|N/A| | |
 |UserName|N/A| | |
+
 ## **Hyperlinks**
+
 Aspose.Words fully supports all features of hyperlink fields. You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink. Imported from &lt;a&gt; element. Several different objects can have hyperlinks imported from this element. The most common is plain text which is imported a regular hyperlink. If the &lt;a&gt; element has image as a child then the hyperlink is imported on Shape node. See the following links in the documentation for further information:
 
 - [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
@@ -191,6 +206,7 @@ Aspose.Words fully supports all features of hyperlink fields. You can create ne
 |Hyperlink to an External Resource|Yes| | |
 |Screen Tip|Planned| | |
 |Target Frame|Yes|Imported from target="_XXX" attribute.| |
+
 ## **Formatting Switches**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -6,6 +6,7 @@ url: /java/find-and-replace-in-python/
 ---
 
 ## **Aspose.Words - Find And Replace**
+
 To replace text using Aspose.Words Java in Python, simply invoke the replace() method.
 
 **Python Code**
@@ -19,7 +20,9 @@ To replace text using Aspose.Words Java in Python, simply invoke the replace() m
  # Replace the text in the document.
  doc.getRange().replace(_CustomerName_, James Bond, FindReplaceOptions(FindReplaceDirection.FORWARD))
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Find And Replace (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Python/tests/quickstart/findandreplace/findandreplace.py)

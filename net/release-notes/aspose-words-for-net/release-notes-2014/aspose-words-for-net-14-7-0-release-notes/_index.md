@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-14-7-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.7.0](https://www.nuget.org/packages/Aspose.Words/14.7.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 14.7 Release Notes**
+
 ### **Major Features**
+
 There are 114 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improvements to DrawingML shadow, extrusion and 3D rendering algorithms
@@ -19,6 +22,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
   Vertical text is supported in HTML, MHTML and EPUB 
   Improvements to rendering and line wrapping for Arabic and Far East scripts 
   Improvements to rendering of inline shapes within rotated text
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-16-4-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 16.4.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.4.0/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 106 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved the speed of cold document creation and loading.
@@ -19,6 +21,7 @@ There are 106 improvements and fixes in this regular monthly release. The most n
 - PDF A1b compliancy improved.
 - DML Charts effects support improved.
 - Emf, Png and MailMerge performance improved.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |Key|Summary|Category|
@@ -129,9 +132,13 @@ There are 106 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-13293|WORDSNET-12619 appears again in v16.2.0|Regression|
 |WORDSNET-13311|All text after STRONG tag contained in PRE tag becomes bold in output documents|Regression|
 |WORDSNET-13331|Width of wide cell of table is changed in output Pdf|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 16.4.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Field.Update() Overload Added**
+
 In order to fix WORDSNET-13094, we decided to introduce a way to update a field ignoring the MERGEFORMAT switch. We have added following overload:
 
 {{< highlight csharp >}}

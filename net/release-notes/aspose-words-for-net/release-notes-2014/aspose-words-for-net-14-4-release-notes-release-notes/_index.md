@@ -10,8 +10,11 @@ url: /net/aspose-words-for-net-14-4-release-notes-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.4 Release Notes](https://www.nuget.org/packages/Aspose.Words/14.4.0)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for .NET 14.4 Release Notes**
+
 ### **Major Features**
+
 There are 78 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improvements to rendering of Arabic texts
@@ -22,6 +25,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
   Gradient fill with transparency rendering in PDF implemented 
   3D rotated DrawingML shapes (and images) rendering implemented 
   Better support of tab stops and underlines in HTML import/export
+
 ## **All Changes**
 
 |**Key**|**Summary**|**Category**|

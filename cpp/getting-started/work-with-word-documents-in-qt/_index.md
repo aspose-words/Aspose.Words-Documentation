@@ -6,7 +6,9 @@ url: /cpp/work-with-word-documents-in-qt/
 ---
 
 Qt is a C++ based cross-platform application development framework which is widely used to develop a variety of desktop, mobile, and embedded system applications. Aspose.Words for C++ can be integrated within Qt in order to create and manipulate Word documents in your Qt applications.
+
 ## **Using Aspose.Words for C++ within Qt Creator**
+
 For using Aspose.Words for C++ in your Qt application download the latest version of the API from the [downloads](https://downloads.aspose.com/words/cpp) section. Once the API is downloaded, you can use integrate the C++ library within Qt Creator or you can use with Visual Studio.
 
 In order to integrate and use Aspose.Words for C++ library within a Qt Console Application developed in Qt Creator, please follow the steps given below:
@@ -49,7 +51,9 @@ In order to integrate and use Aspose.Words for C++ library within a Qt Console 
 ![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-PRO-File-1024x372.png)
 
 - Build the application and you are done with the integration.
+
 ## **Using Aspose.Words for C++ in Qt Applications within Visual Studio**
+
 For developing Qt application using Visual Studio, you require to install [Qt Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools-19123). Once you have the installation, download the latest version of the API from the [downloads](https://downloads.aspose.com/pdf/cpp) section and follow the steps given below:
 
 - Download and install [CMake](https://github.com/Kitware/CMake/releases/download/v3.17.1/cmake-3.17.1-win64-x64.msi).

@@ -6,6 +6,7 @@ url: /java/working-with-comments-in-jython/
 ---
 
 ## **Aspose.Words - Working With Comments**
+
 To Work With Comments using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 **Jython Code**
@@ -71,7 +72,9 @@ class ProcessComments:
 if __name__ == '__main__':        
     ProcessComments()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download running code from any of the below mentioned social coding sites:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)

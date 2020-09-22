@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-18-2-release-notes/
 This page contains release notes for [Aspose.Words for Java 18.2](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/18.2/)
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 There are 102 improvements and fixes in this regular monthly release. The most notable are:
 
 - FontSettings.EnableFontSubstitution option added
@@ -34,6 +36,7 @@ There are 102 improvements and fixes in this regular monthly release. The most n
 - Implemented mirror margins and gutter position handling when page orientation changes
 - Improved performance of reflow when document is large and has fields in headers/footers
 - Fixed text box width issue with left-aligned RTL text
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -140,15 +143,21 @@ There are 102 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-15347|Bookmark.Text throws System.InvalidOperationException|Regression|
 |WORDSNET-16306|System.InvalidOperationException is thrown when MailMerge.FieldMergingCallback is used|Regression|
 |WORDSNET-16324|Empty Image Url Results in Broken Image Bullet Point|Regression|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 18.2. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
+
 ### **Changed Importing Logic with KeepSourceFormatting Mode**
+
 Related issue: WORDSNET-14587
 
 The importing logic with KeepSourceFormatting mode is changed to be closer to MS Word behavior.
 
 Before fix we cloned styles with same names to destination document, but now we are expanding source formatting into the direct attributes of imported nodes.
+
 ### **Support to Insert Style Separator to Put different Paragraph Styles**
+
 Related issue: WORDSNET-15943
 
 The following public method has been added into the **DocumentBuilder** class:
@@ -184,7 +193,9 @@ builder.getParagraphFormat().setStyleName(paraStyle.getName());
 builder.write("This is text with some other formatting ");
 builder.getDocument().save("OutDoc.docx");
 {{< /highlight >}}
+
 ### **HtmlSaveOptions.MetafileFormat Property Added**
+
 Related issue: WORDSNET-15995
 
 The following property has been added to the HtmlSaveOptions class:
@@ -254,7 +265,9 @@ HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.setMetafileFormat(HtmlMetafileFormat.SVG);
 builder.getDocument().save("D:\\temp\\out.html", opts);
 {{< /highlight >}}
+
 ### **FontSettings.EnableFontSubstitution Option Added**
+
 Related issue: WORDSNET-16315
 
 
@@ -279,7 +292,9 @@ public boolean EnableFontSubstitution
     get; set;
 }
 {{< /highlight >}}
+
 ### **Shape was not Resized Properly**
+
 Related issue: WORDSNET-16362
 
 Behavior of the model while setting of shape height/width was changed. Relative height/width of the shape resets to zero, while changing absolute size. It is the same as MS Word automation does.
@@ -290,22 +305,32 @@ For example, the following code, for shape with relative height 20% from "margi
 Shape shape = (Shape)doc.getFirstSection().getBody().getChild(NodeType.SHAPE, 0, true);
 shape.setHeight(150);
 {{< /highlight >}}
+
 ### **Obsolete Properties were Removed from HtmlSaveOptions**
+
 Then following obsolete properties were removed from the HtmlSaveOptions class:
 
 |**Removed property**|**Property to use instead**|
 | :- | :- |
 |HtmlSaveOptions.AllowNegativeLeftIndent|HtmlSaveOptions.AllowNegativeIndent|
 |HtmlSaveOptions.ExportHeadersFooters|HtmlSaveOptions.ExportHeadersFootersMode|
+
 ### **Obsolete Property HtmlFixedSaveOptions.MetafileRenderingMode was Removed**
+
 Obsolete property MetafileRenderingMode was removed from the HtmlFixedSaveOptions class. Please use the HtmlFixedSaveOptions.MetafileRenderingOptions.RenderingMode property instead.
+
 ### **Obsolete Property SvgSaveOptions.MetafileRenderingMode was Removed**
+
 Obsolete property MetafileRenderingMode was removed from the SvgSaveOptions class. Please use the SvgSaveOptions.MetafileRenderingOptions.RenderingMode property instead.
+
 ### **Obsolete SWF File Format was Removed from Aspose.Words API**
+
 As you may know, Adobe is going to drop support of Flash that is why we decided to remove SaveFormat.Swf from Aspose.Words API.
 
 SaveFormat.Swf was removed.
+
 ### **Several Obsolete Properties were Removed from XpsSaveOptions Class**
+
 Obsolete property XpsSaveOptions.HeadingsOutlineLevels was removed. Please use OutlineOptions.HeadingsOutlineLevels property instead.
 
 Obsolete property XpsSaveOptions.BookmarksOutlineLevel was removed. Please use OutlineOptions.DefaultBookmarksOutlineLevel property instead.

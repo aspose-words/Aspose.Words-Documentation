@@ -10,8 +10,11 @@ url: /java/aspose-words-for-java-15-9-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 15.9.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-15.9.0/)
 
 {{% /alert %}} 
+
 ## **Aspose.Words for Java 15.9 Release Notes**
+
 ### **Major Features**
+
 There are 94 improvements and fixes in this regular monthly release. The most notable are:* Creation of EditableRange objects in DocumentBuilder 
 
 - SVM image support in ODT
@@ -19,6 +22,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 - Bookmark hyperlinks are now rendered correctly into PDF/A standard documents
 - Overlapping problem while rendering of Chinese characters into HTML Fixed format resolved
 - Improvements to DrawmingML Charts rendering 
+
 ## **All Changes**
 
 |**Key** |**Summary** |**Category** |

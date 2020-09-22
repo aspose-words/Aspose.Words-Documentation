@@ -10,7 +10,9 @@ url: /java/aspose-words-for-java-19-2-release-notes/
 This page contains release notes for [Aspose.Words for Java 19.2](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.2).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Supported inlining of syntax error messages into templates instead of exception throwing for LINQ Reporting Engine.
 - Improved font fetching and substitution mechanism with corresponding API changes.
 - Improved warnings for image processing issues when rendering to PDF.
@@ -27,6 +29,7 @@ This page contains release notes for [Aspose.Words for Java 19.2](https://reposi
 - Fixed issue when a document has “printer metrics” enabled and Windows has no printer driver installed.
 - Fixed hang when the table cell is broken across pages when there is a floating shape anchor in it.
 - Fixed issue when text which has borders is wrapped around a shape and does not fit
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -112,14 +115,21 @@ This page contains release notes for [Aspose.Words for Java 19.2](https://reposi
 |WORDSNET-16496|Foreign language rendering as square boxes|Bug|
 
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.2. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
+
 ### **Adjusted Warnings for Image Processing Issues When Saving to PDF**
+
 WORDSNET-17338 has now been resolved.
 
 Previously there was one generic warning with text "Unsupported image format.". Now there is a specific warning for OutOfMemoryException with the text "Not enough memory to load the image." and a generic warning with the text "Image cannot be processed. Possibly unsupported image format.".
+
 ### **Changes in Font Substitution Process and Public API**
+
 WORDSNET-14532 has now been resolved:
+
 ### **Font fetching and substitution mechanism has been changed**
+
 Previously font fetching process was:
 
 1. Exact font name match
@@ -159,6 +169,7 @@ Here are some details about the particular changes:
 
 
 ### **Added new public API for font substitution settings. Previous API methods/properties related to font substitution marked as obsolete.**
+
 {{< highlight csharp >}}
 public class FontSettings
 {
@@ -355,13 +366,16 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
     { get; set; }
 }
 {{< /highlight >}}
+
 ### **Supported Inlining of Syntax Error Messages into Templates Instead of Exception Throwing for LINQ Reporting Engine**
+
 **Issues:** WORDSNET-16111, WORDSNET-15203, WORDSNET-13756
 
 The "Inlining Syntax Error Messages into Templates" section of the engine's documentation was added to describe the change.
 
 
 ### **Removed Deprecated Public Property TxtSaveOptions.ExportHeadersFooters**
+
 **Issue**: WORDSNET-17560
 
 Removed deprecated public property TxtSaveOptions.ExportHeadersFooters:

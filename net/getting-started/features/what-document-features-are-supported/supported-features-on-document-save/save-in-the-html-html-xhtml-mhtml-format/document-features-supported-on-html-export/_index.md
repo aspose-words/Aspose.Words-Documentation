@@ -44,6 +44,7 @@ See the following links in the documentation for further information:
 - [HtmlSaveOptions.Encoding](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/encoding)
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-html-import/)
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -100,6 +101,7 @@ See the following links in the documentation for further information:
 |Read Only|N/A| | |
 
 ##### **Settings**
+
 Only some settings can be exported.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

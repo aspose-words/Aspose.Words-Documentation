@@ -6,6 +6,7 @@ url: /java/load-and-save-to-stream-in-python/
 ---
 
 ## **Aspose.Words - Load And Save To Stream**
+
 **Python Code**
 
 {{< highlight csharp >}}
@@ -28,7 +29,9 @@ output = FileOutputStream(outputRtfFile)
 output.write(dstStream.toByteArray())
 output.close()
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Load And Save To Stream (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Python/tests/quickstart/LoadAndsaveToStream/LoadAndSaveToStream.py)

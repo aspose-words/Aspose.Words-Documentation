@@ -6,6 +6,7 @@ url: /java/append-documents-in-ruby/
 ---
 
 ## **Aspose.Words - Append Documents**
+
 To append documents using Aspose.Words Java in Ruby.
 
 **Ruby Code**
@@ -21,7 +22,9 @@ source_formating = importformatmode.KEEP_SOURCE_FORMATTING
 dst_doc.appendDocument(src_doc, source_formating)
 dst_doc.save(data_dir + "TestFile Out.docx")
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 Download **Append Documents (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/appenddoc.rb)

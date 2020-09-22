@@ -19,6 +19,7 @@ url: /net/footnotes-an-endnote-features-supported-on-print-export/
 |Restart Location |Yes | | |
 |Starting Value |Yes | | |
 |Placement |Yes | | |
+
 ##### **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

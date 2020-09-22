@@ -6,6 +6,7 @@ url: /java/extract-content-in-php/
 ---
 
 ## **Aspose.Words - Extract Content**
+
 **Php Code**
 
 {{< highlight csharp >}}

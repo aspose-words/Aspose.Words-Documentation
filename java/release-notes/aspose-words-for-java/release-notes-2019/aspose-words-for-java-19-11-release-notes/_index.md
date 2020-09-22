@@ -10,12 +10,15 @@ url: /java/aspose-words-for-java-19-11-release-notes/
 This page contains release notes for [Aspose.Words for Java 19.11](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/19.11).
 
 {{% /alert %}} 
+
 ## **Major Features**
+
 - Harfbuzz Shaper plugin supported on Unix-based OSs.
 - Provided an ability to work with Web Extensions, new classes allow to customize elements and attributes that extend the XML vocabulary for Office Add-ins representation.
 - Added an ability to customize the formatting of the horizontal rule shape.
 - Improved character spacing calculation when 'use printer metrics' option is set.
 - Macros support improved.
+
 ## **Full List of Issues Covering all Changes in this Release**
 
 |**Key**|**Summary**|**Category**|
@@ -105,11 +108,14 @@ This page contains release notes for [Aspose.Words for Java 19.11](https://repos
 |WORDSNET-12697|Cell's text is truncated after saving DOCX to PDF|Bug|
 |WORDSNET-12420|DOC to PDF conversion issue with image rendering|Bug|
 |WORDSNET-12506|The page layout of Chinese text is not correct in output PDF|Bug|
+
 ## **Public API and Backward Incompatible Changes**
+
 This section lists public API changes that were introduced in Aspose.Words 19.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
 
 ### **Added support for Web extension elements**
+
 Following public classes and enums were added.
 
 {{< highlight csharp >}}
@@ -429,7 +435,9 @@ taskPane.WebExtension.Reference.Store = "th-TH";
 taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign", "mailchimpCampaign"));
 taskPane.WebExtension.Bindings.Add(new WebExtensionBinding("UnnamedBinding_0_1506535429545", WebExtensionBindingType.Text, "194740422"));
 {{< /highlight >}}
+
 ### **Horizontal rule formatting**
+
 Related issue: WORDSNET-18182
 
 **Added new public property Shape.HorizontalRuleFormat**
@@ -542,9 +550,13 @@ horizontalRuleFormat.Color = Color.Blue;
 horizontalRuleFormat.NoShade = true;
 builder.Document.Save("HorizontalRuleFormat.docx");
 {{< /highlight >}}
+
 ### **Macros support improved**
+
 Related issue: WORDSNET-19153
+
 ##### **Added a new public setter for a Document.VbaProject**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a <see cref="VbaProject" />.
@@ -554,6 +566,7 @@ public VbaProject VbaProject
 
 
 ##### **Added a new public constructor for a VbaProject class.**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Creates a blank VbaProject.
@@ -563,48 +576,61 @@ public VbaProject()
 
 
 ##### **Added a new public setter for a VbaProject.Name**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets VBA project name.
 /// </summary>
 public string Name
 {{< /highlight >}}
+
 ##### **Added a new public getter for a VbaProject.CodePage**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Returns the VBA project’s code page.
 /// </summary>
 public int CodePage
 {{< /highlight >}}
+
 ##### **Added a new public constructor for a VbaModule class.**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Creates an empty module.
 /// </summary>
 public VbaModule()
 {{< /highlight >}}
+
 ##### **Added a new public setter for a VbaModule.Name**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets VBA project module name.
 /// </summary>
 public string Name
 {{< /highlight >}}
+
 ##### **Added a new public property VbaModule.Type**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies whether the module is a procedural module, document module, class module, or designer module.
 /// </summary>
 public VbaModuleType Type
 {{< /highlight >}}
+
 ##### **Added a new public void VbaModuleCollection.Add(VbaModule vbaModule)**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Adds a module to the collection.
 /// </summary>
 public void Add(VbaModule vbaModule)
 {{< /highlight >}}
+
 ##### **Added a new public void VbaModuleCollection.Remove(VbaModule vbaModule)**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Removes the specified module from the collection.
@@ -612,21 +638,27 @@ public void Add(VbaModule vbaModule)
 /// <param name="module">The module to remove.</param>
 public void Remove(VbaModule module)
 {{< /highlight >}}
+
 ##### **Added ability to retrieve a module from the VbaModuleCollection by name.**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Retrieves a <see cref="VbaModule"/> object by name, or Null if not found.
 /// </summary>
 public VbaModule this[string name]
 {{< /highlight >}}
+
 ##### **Added a new public property VbaModuleCollection.Count**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Returns the number of VBA modules in the collection.
 /// </summary>
 public int Count
 {{< /highlight >}}
+
 ##### **Added public enums for specifying a VbaModule type.**
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies the type of a model in a VBA project.
@@ -651,7 +683,9 @@ public enum VbaModuleType
   DesignerModule
 }
 {{< /highlight >}}
+
 ##### **Use Case: Explains how to create a VbaProject from a scratch, create a VbaModules from a scratch and add it to the project.**
+
 {{< highlight csharp >}}
 Document doc = new Document();
 
@@ -669,7 +703,9 @@ module.SourceCode = "New source code";
 // Add module to the VBA project.
 doc.VbaProject.Modules.Add(module);
 {{< /highlight >}}
+
 ### **Obsolete enum Aspose.Words.MailMerging.MailMergeRtlCleanupMode was removed**
+
 Obsolete enum Aspose.Words.MailMerging.MailMergeRtlCleanupMode was removed.
 
 
