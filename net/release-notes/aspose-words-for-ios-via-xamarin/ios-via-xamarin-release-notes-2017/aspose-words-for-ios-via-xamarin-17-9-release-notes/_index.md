@@ -26,7 +26,7 @@ Aspose.Words for iOS via Xamarin features can be divided into four main areas:
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSXIOS-1|Implement porting to Xamarin.iOS.|New Feature|
 |WORDSXIOS-9|Aspose.Words with MonoTouch|New Feature|

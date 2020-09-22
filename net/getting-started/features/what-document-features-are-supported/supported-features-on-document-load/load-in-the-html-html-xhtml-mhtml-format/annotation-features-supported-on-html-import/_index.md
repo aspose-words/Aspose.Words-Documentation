@@ -19,7 +19,7 @@ This normally causes no problems but some bookmarks on tables can appear differe
 - [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
 - [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Bookmark Start|Yes| |- [BookmarkStart](https://apireference.aspose.com/words/net/aspose.words/bookmarkstart)|
 |Bookmark End|Planned| |- [BookmarkEnd](https://apireference.aspose.com/words/net/aspose.words/bookmarkend)|
@@ -40,7 +40,7 @@ The CommentRangeStart and CommentRangeEnd nodes define the area of the document 
 - [Comment](http://www.aspose.com/api/net/words/aspose.words/comment)
 - [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Comment|Planned| |- Comment.ToTxt|
 |Comment Range|Planned| |<p>- [CommentRangeStart](http://www.aspose.com/api/net/words/aspose.words/commentrangestart)</p><p>- [CommentRangeEnd](http://www.aspose.com/api/net/words/aspose.words/commentrangeend)</p>|
@@ -59,7 +59,7 @@ Most revision types properly round-tripped to the appropriate formats. Currently
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
 - [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |On/Off State|N/A| | |
 |Table Cell Deletion|N/A| | |

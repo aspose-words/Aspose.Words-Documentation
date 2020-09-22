@@ -34,7 +34,7 @@ See the following links in the documentation for further information:
 
 ## **Table**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Yes | |- [Table.Bidi](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bidi)|
@@ -55,7 +55,7 @@ Floating tables are supported during import and export. However there is current
 
 Floating tables are imported as inline.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Floating Tables |Planned | | |
 
@@ -73,13 +73,13 @@ See the following links in the documentation for further information:
 - [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/clearborders)
 - [RowFormat.Borders](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/borders)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Table Borders |Planned | | |
 
 ## **Rows**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Allow Break Across Pages |Planned | |<p>- [Keeping Tables and Rows from Breaking across Pages](https://docs.aspose.com/words/net/working-with-columns-and-rows/#keeping-tables-and-rows-from-breaking-across-pages) </p><p>- [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/allowbreakacrosspages)</p>|
 |Repeat as Header Row |Planned |Will be imported from &lt;thead&gt; and &lt;th&gt; elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](https://docs.aspose.com/words/net/working-with-columns-and-rows/#specifying-rows-to-repeat-on-subsequent-pages-as-header-rows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/headingformat)</p>|
@@ -88,7 +88,7 @@ See the following links in the documentation for further information:
 
 ## **Cells**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Cell Margins |Yes |Imported from padding-XXX on &lt;td&gt; elements. |<p>- [CellFormat.TopPadding](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/toppadding) </p><p>- [CellFormat.BottomPadding](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/bottompadding) </p><p>- [CellFormat.LeftPadding](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/leftpadding) </p><p>- [CellFormat.RightPadding](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/rightpadding)</p>|
 |Borders |Yes |Imported from &lt;td&gt; style attribute border-XXX-style, border-XXX-width etc. |- [CellFormat.Borders](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/borders)|

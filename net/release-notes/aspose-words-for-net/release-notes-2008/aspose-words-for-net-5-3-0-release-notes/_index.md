@@ -63,7 +63,7 @@ Aspose.Words is available only in two versions: Aspose.Words for .NET and Aspose
 
 
 
-|**Issue ID** |**Component** |**Summary** |
+|Issue ID |Component |Summary |
 | :- | :- | :- |
 |4321 |DOC |Support Smart Tags in DOC |
 |5751 |DOC |CharactersWithSpaces built-in document property lost |

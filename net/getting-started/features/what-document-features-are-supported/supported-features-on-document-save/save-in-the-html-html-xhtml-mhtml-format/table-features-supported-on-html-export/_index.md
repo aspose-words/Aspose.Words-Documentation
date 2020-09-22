@@ -28,7 +28,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 ##### **Table**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Nested Tables|Yes| | |
 |Right To Left Tables|Yes| | |
@@ -49,7 +49,7 @@ Floating tables are saved as normal tables.
 
 Left, right and center alignment is supported.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Horizontal Position|Planned| | |
 |Horizontal Position Relative To|Planned| | |
@@ -63,13 +63,13 @@ Left, right and center alignment is supported.
 
 Currently, borders are output on each cell as style attribute border-XXX-style, border-XXX-color etc.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Table Borders|Yes| | |
 
 ##### **Rows**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Allow Break Across Pages|Planned| | |
 |Repeat as Header Row|Yes|A table that has heade rows are exported as &lt;thead&gt; and &lt;th&gt; elements. Normal rows exported with &lt;tbody&gt; and &lt;tr&gt; elements. <br><br>Tables without header rows are exported as &lt;tr&gt; elements without &lt;tbody&gt;.| |
@@ -78,7 +78,7 @@ Currently, borders are output on each cell as style attribute border-XXX-style, 
 
 ##### **Cells**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Cell Margins|Yes|Exported as padding-XXX on each cell.| |
 |Borders|Yes|<p>Supported except for diagonal borders.</p><p>Exported as &lt;td&gt; style attribute border-XXX-style, border-XXX-width etc.</p><p>Not all line types are exported. For reference, a few line types supported by Aspose.Words are mentioned below.</p><p>CSS - LineStyle</p><p>'solid' - LineStyle.Single</p><p>'dashed' - LineStyle.DashSmallGap</p><p>'dotted' - LineStyle.Dot</p><p>'double' - LineStyle.Double</p><p>'groove' - LineStyle.Emboss3D</p><p>'ridge' - LineStyle.Engrave3D</p><p>'none' - LineStyle.None</p>| |

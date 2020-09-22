@@ -29,7 +29,7 @@ There are 103 improvements and fixes in this regular monthly release. The most 
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-970 |Dml Shadow Effects are smaller on Java. |Bug |
 |WORDSJAVA-976 |Workaround for ZipInputStream bug/peculiarity for some types of encrypted ODT documents. |Bug |

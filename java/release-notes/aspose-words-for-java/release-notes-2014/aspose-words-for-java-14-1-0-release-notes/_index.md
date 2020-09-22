@@ -32,7 +32,7 @@ There are 118 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-419 |Symbol dissapiar in Embedded OLE Equation |Bug |
 |WORDSJAVA-434 |Shifted position for WordArts with pathInfo.getTrim() = false |Bug |

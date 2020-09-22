@@ -26,7 +26,7 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-11001|Black backgrounds appear behind OLE objects in PDF|Bug|
 |WORDSNET-11209|A blank page added in generated PDF|Bug|

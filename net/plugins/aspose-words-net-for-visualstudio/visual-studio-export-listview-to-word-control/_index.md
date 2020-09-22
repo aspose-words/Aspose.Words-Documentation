@@ -102,7 +102,7 @@ When you open an aspx or ascx control in the left side Toolbox you will see Expo
 
 Once installed, it is very easy to start using this control in your ASP.NET applications
 
-|**For .NET framework 4.0 and above** |**For .NET framework 3.5** |** |
+|For .NET framework 4.0 and above |For .NET framework 3.5 | |
 | :- | :- | :- |
 |For applications running in .NET framework 4.0 and above in Visual Studio 2010 and above, you should see **ExportListViewToWord** control in **Aspose** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. |In order you use this control in applications running in .NET 3.5 in any visual studio version make sure that you have added ExportListViewToWord to your toolbox as per instructions on ﻿8.3.2.1 Downloading and Installing under heading **For Visual Studio 2008 and Express editions** <br>You should see **ExportListViewToWord** control in **General** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. | |
 |<p>![todo:image_alt_text](visual-studio-export-listview-to-word-control_3)</p><p></p>|<p>![todo:image_alt_text](visual-studio-export-listview-to-word-control_2)</p><p></p>| |
@@ -131,7 +131,7 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 
 Common questions and issues you might face while using this Control
 
-|**#** |**Question** |**Answer** |
+|# |Question |Answer |
 | :- | :- | :- |
 |1 |I cannot see ExportListViewToWord control in Toolbox |<p>**Visual Studio 2010 and higher** </p><p>1. Make sure that you have installed this control using VSIX extension file found in downloaded package. To verify go to Tools -> Extension and Updates. Unders Installed you should see 'Aspose Export Export ListView To Word Control'. If don't see it please try re-installing it</p><p>2. Make sure your web application is running in .NET framework 4.0 or higher, for lower versions of .NET framework please check the above alternate method. <br>   **Older Versions of Visual Studio**</p><p>3. Make sure that you have manually added this control to your Toolbox as per above instructions.</p>|
 |2 |I am getting 'Access is denied' error when running the application |<p>1. If you are experiencing this problem on production then make sure that you copy both Aspose.Words.dll and Aspose.Words.ListViewExport.dll to your bin folder.</p><p>2. If you are using Visual Studio make sure to run it as Administrator even if you are already logged-in as administrator.</p>|
@@ -140,7 +140,7 @@ Common questions and issues you might face while using this Control
 
 The following properties are exposed to configure and use cool features provided by this control
 
-|**Property Name** |**Type** |**Example/Possible values** |**Description** |
+|Property Name |Type |Example/Possible values |Description |
 | :- | :- | :- | :- |
 |ExportButtonText |string |Export to Word |You can use this property to override existing default text |
 |ExportButtonCssClass |string |btn btn-primary |Css Class that is applied to the outer div of the export button. To apply css on button you can use .yourClass input |

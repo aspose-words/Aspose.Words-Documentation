@@ -31,7 +31,7 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10727|/advanced tabs/ Extra character 'R' appears in header of document after conversion from Doc to Pdf|Bug|
 |WORDSNET-11780|/justified cjk text/ Docx to PDF conversion issue with Chinese text justification|Bug|

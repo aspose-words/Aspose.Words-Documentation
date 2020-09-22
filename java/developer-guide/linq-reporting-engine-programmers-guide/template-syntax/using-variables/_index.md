@@ -15,7 +15,7 @@ You can declare a variable in a template using a var tag as follows.
 
 The following table describes elements of the var tag.
 
-|**Element**|**Optional?**|**Remarks**|
+|Element|Optional?|Remarks|
 | :- | :- | :- |
 |**Variable Type**|Yes|<p>You can specify the type of a variable explicitly. This type must be known by the engine (see “ REF knownTypes  \* MERGEFORMAT Setting up Known External Types” for more information).</p><p>If you do not specify the type explicitly, it is determined implicitly by the engine from the specified variable value.</p>|
 |**Variable Name**|No|For a new variable, its name must be a unique identifier.|

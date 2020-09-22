@@ -24,7 +24,7 @@ See the following links in the documentation for further information:
 
 ##### **Characters**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Western Languages |Yes | | |
 |East European Languages |Yes | | |
@@ -39,7 +39,7 @@ See the following links in the documentation for further information:
 
 ##### **Breaks**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Line Break |Yes |Exported as &lt;br&gt; | |
 |Line Break Clear Type |Yes |Clear type "both" is output with this type of break. | |
@@ -48,7 +48,7 @@ See the following links in the documentation for further information:
 
 ##### **General Formatting**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Character Style |Yes |There is an option to control how character style is exported as inline CSS (style) only, or a mix of inline and embedded or linked CSS style sheet (class). <br><br>Direct formatting on the run (from Font) is exported as inline CSS (using style attribute). Style properties (the style applied in Font.Style) are exported as CSS class styles when the appropriate save option is set and referenced using an embedded or external style sheet (using the class attribute). If inline styles only are exported then all formatting appears on the style attribute. <br><br>Note that to properly round-trip styles back to a word document format, an embedded or external style sheet must be used. On HTML import classes defined in the stylesheets are used to create styles. <br><br>If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). <br><br>There are plans to provide a save option to save a document to HTML as pure HTML without CSS styles. |- **HtmlSaveOptions.CssStyleSheetType**|
 |Color |Yes |Exported as color on style attribute. | |
@@ -75,7 +75,7 @@ See the following link in the documentation for further information:
 
 - [HtmlSaveOptions.ExportRelativeFontSize](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportrelativefontsize)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Font |Yes | | |
 
@@ -89,14 +89,14 @@ There is plans to make an option to export underline as simple &lt;u&gt; tag.
 
 "Words only" underline type can be simulated by splitting runs and only underlining non-space text.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Underline Type |N/A | | |
 |Underline Color |Yes | | |
 
 ##### **Text Effects**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Animated Effect |Planned | | |
 |Double Strikethrough |Yes |Output as single strikethrough as HTML does not have any analog for double strikethrough. | |
@@ -114,7 +114,7 @@ There is plans to make an option to export underline as simple &lt;u&gt; tag.
 
 ##### **Character Spacing**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Scale |Planned | | |
 |Expanded/Compressed |Yes |Output as absolute values in points: <br><br>style="letter-spacing:XXXpt" | |

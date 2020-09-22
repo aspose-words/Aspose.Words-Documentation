@@ -16,7 +16,7 @@ Starting from Aspose.Words for SharePoint 20.6 support of the SharePoint 2007 wa
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for .NET (20.6)|New feature|
 |WORDSSP-289|Support to add watermark to Word Document|New feature|

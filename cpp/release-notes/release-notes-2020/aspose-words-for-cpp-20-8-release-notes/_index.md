@@ -35,7 +35,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-955	|Improve TIFF support	|New Feature|
 |WORDSNET-19654	|Add support for SVG images embedded using data URLs	|New Feature|

@@ -28,7 +28,7 @@ There are 83 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-870 |Horisontal gradient fill doesn't work inside Smart Art. |Bug |
 |WORDSJAVA-872 |Linked image is lost while converting from html to pdf. |Bug |

@@ -35,7 +35,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-11066|TOC is built incorrectly|Bug|
 |WORDSNET-11779|/hidden cell break/ Docx to Pdf conversion issue with table border|Bug|

@@ -28,7 +28,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10014|Logo in top left corners of pages is missing from Pdf|Bug|
 |WORDSNET-6333|Language information of the 'Field with CARDTEXT switch' is lost upon calling UpdateFields|Bug|

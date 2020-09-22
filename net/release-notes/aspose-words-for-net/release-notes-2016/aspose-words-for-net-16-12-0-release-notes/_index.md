@@ -30,7 +30,7 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-13203|Incorrect cell width causes contents to wrap to the next line|Bug|
 |WORDSNET-13350|Incorrect image size in AW pdf output|Bug|

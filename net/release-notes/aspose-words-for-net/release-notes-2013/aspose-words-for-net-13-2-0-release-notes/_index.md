@@ -26,7 +26,7 @@ This page contains release notes for [Aspose.Words for .NET 13.2.0](https://www.
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-1773|“DoNotDisplayPageBoundaries” has no effect when save document in DOC format.|Bug|
 |WORDSNET-2934|EMF image is rendered improperly.|Bug|

@@ -17,7 +17,7 @@ This page contains release notes for [Aspose.Words for .NET 5.1.0](http://www.as
 - Resolved problems on 64bit Windows (again obfuscation related).
 - Over 25 issued fixed (see below).
 
-|**Issue ID** |**Component** |**Summary** |
+|Issue ID |Component |Summary |
 | :- | :- | :- |
 |4679 |PDF |Output table borders among with cell borders in PDF |
 |4644 |RTF |“System.Runtime.InteropServices.ExternalException” exception occurs during loading. |

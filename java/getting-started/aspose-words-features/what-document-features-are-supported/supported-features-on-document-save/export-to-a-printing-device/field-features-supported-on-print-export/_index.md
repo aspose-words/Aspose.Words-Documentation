@@ -23,13 +23,13 @@ See the following link in the documentation for further information:
 
 - [Document.UpdateFields](https://apireference.aspose.com/words/java/com.aspose.words/document#updateFields()).
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
 
 ##### **Date and Time**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |CreateDate |Yes | | |
 |Date |Yes | | |
@@ -40,7 +40,7 @@ See the following link in the documentation for further information:
 
 ##### **Document Automation**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Compare |Yes | | |
 |DocVariable |Yes | | |
@@ -53,7 +53,7 @@ See the following link in the documentation for further information:
 
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Author |Yes | | |
 |Comments |Yes | | |
@@ -72,7 +72,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 
 ##### **Equations and Formulas**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Formula |Yes | | |
 |Advance |Planned |The effects of the advance field do not appear in the rendered output. <br><br>There are plans to support this field during rendering. | |
@@ -83,7 +83,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 
 Form fields currently do not appear in rendered output.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |TextInput |Planned | | |
 |CheckBox |Planned | | |
@@ -102,7 +102,7 @@ Form fields currently do not appear in rendered output.
 
 ##### **Index and Tables**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Index |Yes | | |
 |RD |Yes | | |
@@ -114,7 +114,7 @@ Form fields currently do not appear in rendered output.
 
 ##### **Links and References**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AutoText |Yes | | |
 |AutoTextList |N/A | | |
@@ -132,7 +132,7 @@ Form fields currently do not appear in rendered output.
 
 ##### **Mail Merge**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AddressBlock |Yes | | |
 |Ask |Yes | | |
@@ -151,7 +151,7 @@ Form fields currently do not appear in rendered output.
 
 ##### **Numbering**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AutoNum |Planned | | |
 |AutoNumLgl |Planned | | |
@@ -166,7 +166,7 @@ Form fields currently do not appear in rendered output.
 
 ##### **User Information**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |UserAddress |Yes | | |
 |UserInitials |Yes | | |
@@ -174,7 +174,7 @@ Form fields currently do not appear in rendered output.
 
 ##### **Hyperlinks**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Text |Yes | | |
 |Hyperlinked Shape or Image |N/A | | |
@@ -186,7 +186,7 @@ Form fields currently do not appear in rendered output.
 
 ##### **Formatting Switches**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Date and Time Formatting |Yes | | |
 |Numbering Formatting |Yes | | |

@@ -17,7 +17,7 @@ You can specify configuration settings for a whole Reporting Services instance. 
 
 To configure Aspose.Words for Reporting Services at the instance level, you need to edit an XML configuration file. The settings are the same in all cases, but the location and name of the configuration file are different depending on the host application. 
 
-|**Host Application** |**Configuration File** |
+|Host Application |Configuration File |
 | :- | :- |
 |Microsoft SQL Server 2005, 2008, 2012, 2014, 2016, 2017 or 2019 Reporting Services|*C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\rsreportserver.config* |
 |Microsoft Visual Studio 2005, 2008, 2010, 2012, 2013 or 2015 Report Designer|*C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config* |

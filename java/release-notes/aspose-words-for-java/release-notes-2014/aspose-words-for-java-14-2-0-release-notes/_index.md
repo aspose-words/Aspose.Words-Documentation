@@ -30,7 +30,7 @@ There are 131 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-508 |Table render differently, while saving in doc, png and Pdf format. |Bug |
 |WORDSJAVA-819 |Conversion to TIFF: setting PhotometricInterpretation tag |Bug |

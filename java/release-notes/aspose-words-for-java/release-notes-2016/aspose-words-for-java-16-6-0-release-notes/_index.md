@@ -31,7 +31,7 @@ There are 113 improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1386|Document.updateFields method throws java.lang.RuntimeException|Bug|
 |WORDSJAVA-1375|Exception is thrown while converting Doc to Pdf|Exception|

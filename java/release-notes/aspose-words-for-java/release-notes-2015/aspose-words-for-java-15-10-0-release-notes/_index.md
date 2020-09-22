@@ -27,7 +27,7 @@ There are 99 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1006 |Contents of DrawingML is missing after conversion from Docx to Pdf |Bug |
 |WORDSJAVA-1047 |Contents of OLE does not render correctly |Bug |

@@ -70,7 +70,7 @@ The following code example shows how to set the amount of space (in points) to a
 
 The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](http://www.aspose.com/api/net/words/aspose.words.tables/rowformat/properties/height) and [RowFormat.HeightRule](http://www.aspose.com/api/net/words/aspose.words.tables/rowformat/properties/heightrule) properties of the given [Row](http://www.aspose.com/api/net/words/aspose.words.tables/row/properties/index).
 
-|**HeightRule Value**|**Description**|
+|HeightRule Value|Description|
 | :- | :- |
 |Auto|This is the default height rule given to a new row. Technically this means that no height rule is defined. The row is sized to fit the largest content within the cells of the row.|
 |At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in **RowFormat.Height**.|
@@ -126,7 +126,7 @@ The desired width of a table or individual cells is defined through the preferre
 
 The preferred width property can be expressed in one of several different ways:
 
-|**Width Type**|**Behavior**|
+|Width Type|Behavior|
 | :- | :- |
 |Absolute|This fits the element to the given width in points.|
 |Percent|Fits the element relative of the available space in the window or container size. If the available width changes then the table will automatically grow or shrink to reflect these changes.|
@@ -186,7 +186,7 @@ In Aspose.Words the CellFormat object also provides a width property. This prope
 
 Aspose.Words uses the following order when calculating cell widths.
 
-|**Order**|**Property**|**Description**|
+|Order|Property|Description|
 | :- | :- | :- |
 |1|**CellFormat.PreferredWidth**|Ideally, the preferred widths are used to calculate the cell sizes.|
 |2|**Table.AllowAutoFit**|If the auto fit is allowed then the table may grow past the preferred width to accommodate contents. Normally it will not shrink below the preferred width.|

@@ -29,7 +29,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJR-238|java.lang.Exception: Print version (60002) > Jasper package version (10100)|Bug|
 | |Support of JasperServer 7.1.0|New feature|

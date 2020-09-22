@@ -58,7 +58,7 @@ The orders data is contained within the database as shown below.
 
 These files should be included in our project folder:
 
-|**![todo:image_alt_text](nested-mail-merge-regions_5.png)**|
+|![todo:image_alt_text](nested-mail-merge-regions_5.png)|
 | :- |
 
 #### **Step 3 – Ensure Correct Table Names and Relationships Exist Between Tables**

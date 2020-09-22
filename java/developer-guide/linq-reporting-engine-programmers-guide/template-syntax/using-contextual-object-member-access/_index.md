@@ -15,7 +15,7 @@ Obviously, inside a data band body, you can not use the feature to access member
 
 Consider the following example. Given that ds is a DataSet instance containing a DataTable object named “Persons” that has fields named “Name” and “Age”, you can use the following template to list the contents of the table.
 
-|**No.** |**Name** |**Age** |
+|No. |Name |Age |
 | :- | :- | :- |
 |{{< highlight csharp >}}
 <<foreach [in ds.Persons]>><<[p.numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}<<[p.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[p.Age]>><</foreach>>{{< /highlight >}}|
@@ -24,7 +24,7 @@ Count: <<[ds.Persons.count()]>>{{< /highlight >}}| | |
 
 Alternatively, you can use the following template involving the contextual object member access syntax to get the same results.
 
-|**No.** |**Name** |**Age** |
+|No. |Name |Age |
 | :- | :- | :- |
 |{{< highlight csharp >}}
 <<foreach [in Persons]>><<[numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}

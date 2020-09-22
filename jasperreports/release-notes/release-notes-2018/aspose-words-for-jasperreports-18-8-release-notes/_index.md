@@ -29,7 +29,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for Java (18.8)|New feature|
 |WORDSJR-241|Issue with landscape and portrait orientation within one report|Bug|

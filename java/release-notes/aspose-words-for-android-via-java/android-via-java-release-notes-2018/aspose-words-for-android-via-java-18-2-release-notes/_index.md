@@ -41,7 +41,7 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-339|File paths get saved incorrectly in content.xml|Bug|
 |WORDSJAND-288|Background is incorrect when WrapMode.CLAMP is used|Bug|

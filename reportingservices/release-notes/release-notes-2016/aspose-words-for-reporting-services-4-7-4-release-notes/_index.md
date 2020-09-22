@@ -15,13 +15,13 @@ This page contains release notes for [Aspose.Words for Reporting Services from 4
 
 #### **Changes in 4.7.4**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSRPT-240|RDL to Rtf/Doc/Docx conversion issue with merged table's cell|Bug |
 
 #### **Changes in 4.7.3**
 
-|** |** |** |
+| | | |
 | :- | :- | :- |
 |WORDSRPT-233|Table header does not repeat in output RTF/Docx|Bug |
 |WORDSRPT-237|WORDSRPT-187/WORDSRPT-201 has not resolved in v4.7.2|Bug |
@@ -29,19 +29,19 @@ This page contains release notes for [Aspose.Words for Reporting Services from 4
 
 #### **Changes in 4.7.2**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSRPT-231|An exception is thrown while exporting RDLC to Html|Bug |
 
 #### **Changes in 4.7.1**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSRPT-228|WORDSRPT-204 is not resolved in v4.7.0|Bug |
 
 #### **Changes in 4.7.0**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSRPT-143|Setting a hidden expression on the row groups hides ALL detail|Bug |
 |WORDSRPT-204|Tablix body does not render in output Doc/Docx|Bug |

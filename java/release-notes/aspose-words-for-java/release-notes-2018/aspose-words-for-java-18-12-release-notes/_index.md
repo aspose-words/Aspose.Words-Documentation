@@ -38,7 +38,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1925|Aspose.Words cannot load native Windows dll: URI scheme is not "file"|Bug|
 |WORDSJAVA-1930|Mail Merge generates incorrect numeric output|Bug|

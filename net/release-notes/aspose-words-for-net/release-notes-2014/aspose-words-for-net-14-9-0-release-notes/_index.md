@@ -31,7 +31,7 @@ There are 111 improvements and fixes in this regular monthly release. The most 
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10068|A DrawingML is converted to Shape Textbox during open/save a DOCX|Bug|
 |WORDSNET-10091|Custom XML to SDT binding: images inside XML are not working|Bug|

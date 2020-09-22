@@ -32,7 +32,7 @@ This page contains release notes for [Aspose.Words for Java 19.2](https://reposi
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-14532|Improve font substitution API|Feature|
 |WORDSNET-16111|Error handling in LINQ Reporting|Feature|

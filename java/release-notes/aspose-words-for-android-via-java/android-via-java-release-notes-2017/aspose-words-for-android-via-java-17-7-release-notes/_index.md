@@ -32,7 +32,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-273|The position of Path Gradient is incorrect in EMF, PDF|Bug|
 |WORDSJAND-275|LinearGradient is scaled incorrectly for PDF|Bug|

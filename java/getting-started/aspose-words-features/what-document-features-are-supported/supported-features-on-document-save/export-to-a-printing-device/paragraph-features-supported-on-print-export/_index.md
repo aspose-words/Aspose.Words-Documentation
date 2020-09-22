@@ -7,7 +7,7 @@ url: /java/paragraph-features-supported-on-print-export/
 
 ##### **General Formatting**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Style |Yes | | |
 |Alignment |Yes |The special "Thai Distributed" alignment is currently unsupported during rendering. Such alignment is rendered as left alignment. | |
@@ -20,7 +20,7 @@ url: /java/paragraph-features-supported-on-print-export/
 
 ##### **Indents**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Left Indent |Yes | | |
 |Right Indent |Yes | | |
@@ -31,7 +31,7 @@ url: /java/paragraph-features-supported-on-print-export/
 
 ##### **Spacing**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Space Before |Yes | | |
 |Space After |Yes | | |
@@ -41,7 +41,7 @@ url: /java/paragraph-features-supported-on-print-export/
 
 ##### **Keeps and Breaks**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Widow/Orphan Control |Yes | | |
 |Keep With Next |Yes | | |
@@ -56,13 +56,13 @@ Currently floating shapes may not be properly positioned when anchor is nested i
 
 We are working to improve this with each release.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Text Frames |Yes | | |
 
 ##### **Tab Stops**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Absolute Position |Yes | | |
 |Relative Position |Planned | | |
@@ -71,13 +71,13 @@ We are working to improve this with each release.
 
 ##### **Drop Caps**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
 
 ##### **Borders**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Border Sides |Yes | | |
 |Shadow |Yes | | |
@@ -89,13 +89,13 @@ We are working to improve this with each release.
 
 ##### **Shading**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
 
 ##### **Asian Typography**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Use Asian Rules for Controlling First and Last Characters |Planned | | |
 |Allow Latin Text to Wrap in the Middle of a Word |Yes | | |

@@ -7,7 +7,7 @@ url: /net/footnotes-an-endnote-features-supported-on-print-export/
 
 ##### **Footnotes**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Reference Mark |Yes | | |
 |Custom Reference Mark |Yes | | |
@@ -22,7 +22,7 @@ url: /net/footnotes-an-endnote-features-supported-on-print-export/
 
 ##### **Endnotes**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Reference Mark |Yes | | |
 |Custom Reference Mark |Yes | | |

@@ -38,7 +38,7 @@ Although all of the converters in Aspose.Words are great, not all of them have t
 
 Examples of Aspose.Words conversions.
 
-|**Description**|**Screenshot**|
+|Description|Screenshot|
 | :- | :- |
 |**Original DOC file.**|![todo:image_alt_text](high-quality-conversions_1.png)|
 |**Aspose.Words converted DOC to RTF. High-fidelity conversion.**|![todo:image_alt_text](high-quality-conversions_2.png)|

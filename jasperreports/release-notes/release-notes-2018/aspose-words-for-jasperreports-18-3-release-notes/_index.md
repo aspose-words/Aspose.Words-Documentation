@@ -27,7 +27,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJR-223|Remove offline Documentation|Documentation |
 | |Upgrade to the latest version of Aspose.Words for Java (18.3)|Feature |

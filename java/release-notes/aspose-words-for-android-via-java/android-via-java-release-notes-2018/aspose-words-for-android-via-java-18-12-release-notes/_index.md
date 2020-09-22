@@ -40,7 +40,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for Java (18.12)|New Feature|
 |WORDSJAND-393|Dashed lines disappeared.|Bug|

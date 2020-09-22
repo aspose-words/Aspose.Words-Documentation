@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Reporting Services 16.11.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSRPT-182|'Cannot find index' error appear while exporting RDL to Doc/Docx|Bug|
 |WORDSRPT-242|Empty spaces/paragraphs are appeared in output Doc/Docx|Bug|

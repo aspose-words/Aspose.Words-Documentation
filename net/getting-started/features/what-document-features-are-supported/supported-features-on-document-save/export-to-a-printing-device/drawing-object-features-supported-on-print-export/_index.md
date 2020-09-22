@@ -18,7 +18,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |PNG |Yes | | |
 |JPG |Yes | | |
@@ -34,7 +34,7 @@ See the following links in the documentation for further information:
 
 ##### **Image Recoloring**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Brightness |Yes | | |
 |Contrast |Yes | | |
@@ -42,7 +42,7 @@ See the following links in the documentation for further information:
 
 ##### **Textboxes**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Text Direction |Yes | | |
 |Linked Textboxes |Planned |Linked text boxes are currently unsupported when rendering. | |
@@ -59,7 +59,7 @@ OLE objects are fully preserved when converting within different Word document f
 
 OLE objects are saved as images.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Linked |N/A | | |
 |Embedded |N/A | | |
@@ -74,13 +74,13 @@ OLE objects are saved as images.
 
 Ouptut as a regular image.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Persistent Properties Storage |N/A | | |
 
 ##### **Shapes**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Lines |Yes | | |
 |Basic Shapes |Yes | | |
@@ -102,7 +102,7 @@ Ouptut as a regular image.
 
 ##### **WordArt**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Styles |Yes | | |
 |Outline |Yes | | |
@@ -116,7 +116,7 @@ Ouptut as a regular image.
 
 ##### **Horizontal Line Object**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Width |Yes | | |
 |Height |Yes | | |
@@ -127,7 +127,7 @@ Ouptut as a regular image.
 
 ##### **Position**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Inline |Yes | | |
 |Floating |Yes |Floating content is exported well during rendering. <br><br>Currently floating shapes may not be properly positioned when anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output. <br><br>This is being worked on and improvements are included with each release. | |
@@ -148,7 +148,7 @@ Ouptut as a regular image.
 
 ##### **Size**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Width and Height |Yes | | |
 |Scale |Yes |A scaled object is normally exported with scaling applied to the Shape size and the Scale property reset to 100%. | |
@@ -157,7 +157,7 @@ Ouptut as a regular image.
 
 ##### **Fill**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |No Fill |Yes | | |
 |Solid Fill |Yes | | |
@@ -167,7 +167,7 @@ Ouptut as a regular image.
 
 ##### **Line Style**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Line Color |Yes | | |
 |Line Fill |Yes | | |
@@ -182,7 +182,7 @@ Ouptut as a regular image.
 
 Shadow on shape is currently lost upon rendering.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Shadow |Planned | | |
 
@@ -190,7 +190,7 @@ Shadow on shape is currently lost upon rendering.
 
 3D properties are currently lost upon rendering.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |3D Properties |Planned | | |
 

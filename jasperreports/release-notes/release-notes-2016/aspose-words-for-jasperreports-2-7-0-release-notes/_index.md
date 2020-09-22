@@ -24,7 +24,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJSP-174 |Font Name and Size is changed after conversion from Jrxml to Word documents |Bug |
 |WORDSJSP-175 |AWDocxExporter duplicates text blocks |Bug |

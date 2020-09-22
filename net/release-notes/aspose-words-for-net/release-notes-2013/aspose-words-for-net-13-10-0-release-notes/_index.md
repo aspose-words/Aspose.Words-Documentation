@@ -28,7 +28,7 @@ There are 169 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-5015|Background color of paragraphs is changed after converting MHTML to other formats.|Bug|
 |WORDSNET-5026|Position of floating frame is changed during rendering.|Bug|

@@ -30,7 +30,7 @@ There are 80+ improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-119|Support Reading TIFF files|New Feature|
 |WORDSJAND-308|Picture has Incorrect colors|Bug|

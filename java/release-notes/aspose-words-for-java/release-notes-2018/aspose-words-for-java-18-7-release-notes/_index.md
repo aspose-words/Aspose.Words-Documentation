@@ -42,7 +42,7 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1533|Document.Compare does not work correctly for list items|Bug|
 |WORDSJAVA-1581|Opening embedded Visio Drawing issue|Bug|

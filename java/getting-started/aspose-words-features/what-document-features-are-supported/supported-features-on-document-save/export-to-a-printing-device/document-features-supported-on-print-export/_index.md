@@ -42,7 +42,7 @@ See the following links in the documentation for further information:
 
 ##### **General**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Attached Template |N/A | | |
 |Built-In Properties |N/A |Built-in properties are not exported to image formats. | |
@@ -68,14 +68,14 @@ See the following links in the documentation for further information:
 
 ##### **Embedded Fonts**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Embedding Fonts |Yes |Embedded fonts are also used during rendering. | |
 |Embed Only Non-Standard Fonts |Planned | | |
 
 ##### **Bibliography**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Bibliography |Yes |Bibliography text is rendered as normal text. | |
 |Sources/Citations |Yes |Bibliography sources are not saved when rendering. | |
@@ -83,7 +83,7 @@ See the following links in the documentation for further information:
 
 ##### **Protection**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Allow Only Comments |N/A | | |
 |Allow Only Form Fields |N/A | | |
@@ -97,7 +97,7 @@ See the following links in the documentation for further information:
 
 ##### **Settings**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Asian Typography Settings |N/A | | |
 |Compatibility Options |N/A |Compatibility Options can influence how the document content is appears. These properties are not supported upon rendering to image or during printing. | |

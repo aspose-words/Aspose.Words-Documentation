@@ -21,7 +21,7 @@ This page contains release notes for [Aspose.Words for .NET 20.4](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-15697|Providing ability to change password secured VBA code (change string)|New Feature|
 |WORDSNET-20043|Expose public ComparisonLevel (Granularity) option|New Feature|
@@ -255,7 +255,7 @@ For the Advanced mode to work correctly, it is necessary that the scale in the s
 
 The following table shows the differences between the modes:
 
-|**The effect**|**Basic**|**Advanced**|
+|The effect|Basic|Advanced|
 | :- | :- | :- |
 |Bevel|-|+|
 |Depth|+|+|
@@ -622,7 +622,7 @@ Experiments show that there's a mutual correspondence between "*Tribal*"* borde
 
 In this release the direct conversion of the mentioned BorderArt style names was implemented according to the following table:
 
-|**ECMA376**|**ISO29500**|
+|ECMA376|ISO29500|
 | :- | :- |
 |tribal1|triangle1|
 |tribal2|triangle2|

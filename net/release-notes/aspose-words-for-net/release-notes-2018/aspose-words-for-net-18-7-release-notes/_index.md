@@ -42,7 +42,7 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-16939|Aspose.Words doesn't break floater table aligned bottom to margin|Bug|
 |WORDSNET-16940|Aspose.Words incorrect split floating tables with position near page bottom|Bug|

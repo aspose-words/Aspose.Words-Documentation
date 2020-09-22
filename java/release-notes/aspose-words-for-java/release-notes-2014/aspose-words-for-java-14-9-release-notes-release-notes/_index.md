@@ -30,7 +30,7 @@ There are 120 improvements and fixes in this regular monthly release. The most 
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-901 |Thin line is missed. |Bug |
 |WORDSJAVA-932 |Image is scaled up in java. |Bug |

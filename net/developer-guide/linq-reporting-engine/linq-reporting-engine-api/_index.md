@@ -15,7 +15,7 @@ Classes of the LINQ Reporting Engine are located within the Aspose.Words.Reporti
 
 To build a report from a template, you can use one of the ReportingEngine.BuildReport overloads. The following table describes the parameters of these overloads.
 
-|**Parameter**|**Description**|
+|Parameter|Description|
 | :- | :- |
 |document|A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report.|
 |dataSource|An object providing a data to populate the specified template. The object must be of one of the following types:<br>- A traditional mail merge data source (see “Working with Traditional Mail Merge Data Sources” for more information)<br>- An object of a custom visible type (see “Working with Types” for more information)<br>- An XmlDataSource instance (see “Accessing XML Data” for more information)<br>- A JsonDataSource instance (see “Accessing JSON Data” for more information)<br>- A CsvDataSource instance (see “Accessing CSV Data” for more information)|

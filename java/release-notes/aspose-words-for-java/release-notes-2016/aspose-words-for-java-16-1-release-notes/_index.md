@@ -33,7 +33,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1220|Office Math does not display correctly after saving Rtf to Html|Bug|
 |WORDSJAVA-1257|WORDSJAVA-1219 is not resolved in v15.12.0|Bug|

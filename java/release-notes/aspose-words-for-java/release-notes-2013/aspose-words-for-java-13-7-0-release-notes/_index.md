@@ -32,7 +32,7 @@ For a list of changes to the public API in this release refer to the in the docu
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-738 |Investigate why does the default locale of JVM changes randomly |Bug |
 |WORDSJAVA-696 |Wrongly locked image scale causes wrong scale while saving |Enhancement |

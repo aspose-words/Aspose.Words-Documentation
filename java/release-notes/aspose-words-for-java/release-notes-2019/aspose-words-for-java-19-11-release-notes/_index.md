@@ -21,7 +21,7 @@ This page contains release notes for [Aspose.Words for Java 19.11](https://repos
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-2173|Support Harfbuzz Shaper plugin for Unix-based OSs|New Feature|
 |WORDSNET-18182|Add feature to set properties of the horizontal rule|New Feature|

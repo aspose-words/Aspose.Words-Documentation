@@ -34,7 +34,7 @@ There are 171 improvements and fixes in this regular monthly release. The most 
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-602 |Image gets dark when save Doc to Pdf. |Bug |
 |WORDSJAVA-637 |Copying styles doesn't work as expected when using StyleIdentifer |Bug |
@@ -52,7 +52,7 @@ There are 171 improvements and fixes in this regular monthly release. The most 
 |WORDSJAVA-490 |When Aspose.Words for Java 10.8.0 is used, the Aspose.Words.jdk14.jar is not working with JDK 1.4.2 |Regression |
 
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSNET-5225 |Left border of RTL table is lost |Bug |
 |WORDSNET-5226 |Centered floating table in RTL context is exported to HTML as left aligned |Bug |

@@ -13,19 +13,19 @@ When converting to a document format that doesn't support custom markup features
 
 ##### **CustomXML**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |CustomXML |N/A | | |
 
 ##### **Content Controls (Structured Document Tags)**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
 
 ##### **Smart Tags**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Smart Tag Properties |N/A | | |
 

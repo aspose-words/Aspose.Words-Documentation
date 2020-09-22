@@ -29,7 +29,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10370|The text on shape has incorrect color while rendering.|Bug|
 |WORDSNET-11207|/rtl + decimal tabs/ Table's text does not render in output Pdf/Png|Bug|

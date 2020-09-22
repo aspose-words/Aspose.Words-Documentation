@@ -24,7 +24,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJSP-182 |Position of Section break (new page) is incorrect in output Docx/Doc |Bug|
 

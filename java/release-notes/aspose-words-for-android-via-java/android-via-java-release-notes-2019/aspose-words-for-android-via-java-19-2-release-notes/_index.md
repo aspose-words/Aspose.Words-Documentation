@@ -33,7 +33,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.2](ht
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-414|Image cannot be drawn.|Bug|
 |WORDSJAND-416|Incorrect float formatting if pattern mixes '#' and '0'.|Bug|

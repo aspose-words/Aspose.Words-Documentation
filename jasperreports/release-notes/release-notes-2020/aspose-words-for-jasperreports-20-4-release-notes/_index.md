@@ -15,7 +15,7 @@ This page contains release notes of [Aspose.Words for JasperReports 20.4](https:
 
 Starting from release **1.9.0** there are several versions of JAR library (necessary for better support of older versions of JasperServer and JasperReports):
 
-|**For<br>JasperServer**|**For<br>JasperReports**|**Use the following JAR library**|
+|For<br>JasperServer|For<br>JasperReports|Use the following JAR library|
 | :- | :- | :- |
 |7.1.0 ... 7.5.0|6.5.0 ... 6.11.0|**aspose.words.jasperreports-20.4-7.1.0-7.5.0.jar**|
 |6.4.2 ... 6.4.3|6.4.2 ... 6.4.21|**aspose.words.jasperreports-20.4-6.4.2-6.4.3.jar**|
@@ -27,7 +27,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of [Aspose.Words for Java (20.4)](https://docs.aspose.com/display/wordsjava/Aspose.Words+for+Java+20.4+Release+Notes)|New feature|
 

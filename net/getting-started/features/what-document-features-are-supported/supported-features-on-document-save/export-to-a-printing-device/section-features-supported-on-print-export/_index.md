@@ -7,7 +7,7 @@ url: /net/section-features-supported-on-print-export/
 
 ##### **Headers and Footers**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Different First Page |Yes | | |
 |Different Even and Odd Pages |Yes | | |
@@ -20,7 +20,7 @@ See the following links in the documentation for further information:
 - **Section.SectionStart**
 - [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Continuous |Yes | | |
 |Even Page |Yes | | |
@@ -30,26 +30,26 @@ See the following links in the documentation for further information:
 
 ##### **Text Columns**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Text Columns |Yes | | |
 
 ##### **Page Margins**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Page Margins |Yes | | |
 
 ##### **Page Numbering**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Number Format |Yes | | |
 |Starting Number |Yes | | |
 
 ##### **General Formatting**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Right to Left Section |Planned | | |
 |Line Numbering |Yes | | |
@@ -63,7 +63,7 @@ See the following links in the documentation for further information:
 
 ##### **Chapter Numbering**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Chapter Numbering |Yes | | |
 
@@ -73,7 +73,7 @@ See the following link in the documentation for further information:
 
 - [SvgSaveOptions.ShowPageBorder](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/showpageborder)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Page Border |Yes | | |
 

@@ -35,7 +35,7 @@ There are 48 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-16891|DOCX to PDF conversion issue with text wrapping around the table|Bug|
 |WORDSNET-17644|The scaling of the second vertical axis and the placement of the grey line are changed after converting to PDF|Bug|

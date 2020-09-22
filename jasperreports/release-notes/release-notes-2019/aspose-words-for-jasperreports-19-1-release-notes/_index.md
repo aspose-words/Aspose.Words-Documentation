@@ -31,7 +31,7 @@ Please copy **ONLY ONE** JAR library according to the version of installed Jas
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 | |[Upgrade to the latest version of Aspose.Words for Java (19.1)](https://docs.aspose.com/display/wordsjava/Aspose.Words+for+Java+19.1+Release+Notes)|New feature|
 |WORDSJR-252|Implement BREAK_TABLE_ROWS config option|New feature |

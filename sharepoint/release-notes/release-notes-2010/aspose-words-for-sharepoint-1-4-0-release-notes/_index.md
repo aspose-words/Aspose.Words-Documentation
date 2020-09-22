@@ -17,7 +17,7 @@ Major improvements in this release: - support of SharePoint Server 2010 / Share
 
 Below is the list of all fixes in this release:
 
-|**Issue ID** |**Type**  |**Description** |
+|Issue ID |Type  |Description |
 | :- | :- | :- |
 |15734 |New Feature |Remove Upgrade option |
 |15832 |Bug |Upgrade version makes workflows inoperative |

@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for .NET 20.5](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10403|Add feature to 'Hide spelling errors in this document only'|New Feature|
 |WORDSNET-4879|Add a helper method to insert a watermark into the header|New Feature|

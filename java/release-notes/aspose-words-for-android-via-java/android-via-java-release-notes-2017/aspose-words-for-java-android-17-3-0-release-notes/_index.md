@@ -34,7 +34,7 @@ Aspose.Words for Java.Android 17.3.0 also includes the current Aspose.Words for 
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSANDROID-176|TestAcrobatAntialiasingGif doesn't work|Bug|
 |WORDSANDROID-231|LinearGradient doesn't work as expected|Bug|

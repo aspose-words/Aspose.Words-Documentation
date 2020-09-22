@@ -35,7 +35,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-18367|Mediaeval fonts: support for inline number forms|New Feature|
 |WORDSNET-17731|Support converting word documents to the PDF 1.7 standard|New Feature|

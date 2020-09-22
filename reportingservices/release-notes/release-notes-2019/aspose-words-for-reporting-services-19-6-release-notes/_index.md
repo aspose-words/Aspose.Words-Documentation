@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Reporting Services 19.6](
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 | |Upgrade to the latest version of [Aspose.Words for .NET (19.6)](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+19.6+Release+Notes)|New feature|
 |WORDSRS-271|Text alignment is not correct when RLD with HTML formatting is exported to DOC|Bug|

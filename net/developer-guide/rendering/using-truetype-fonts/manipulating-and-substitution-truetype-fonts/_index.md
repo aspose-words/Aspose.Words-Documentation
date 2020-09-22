@@ -206,7 +206,7 @@ Aspose.Words attempts to find TrueType fonts on the file system automatically.
 
 There are some differences in processing of font formats in Aspose.Words and Microsoft Word as shown in the table below:
 
-||**Microsoft Word**|**Aspose.Words**|
+||Microsoft Word|Aspose.Words|
 | :- | :- | :- |
 |TrueType fonts and OpenType fonts with TrueType outlines|Supported.|Supported.|
 |OpenType fonts with PostScript outlines|Supported for most scenarios. Embedding to fixed-page formats such as PDF and XPS are not supported. Text is replaced with bitmap images.|Supported for most scenarios, including embedding to fixed-page formats. Parsing of glyph data, required for rendering WordArt/3D text effects, and SVG font embedding is not supported.|
@@ -217,7 +217,7 @@ There are some differences in processing of font formats in Aspose.Words and Mic
 
 The table below provides typical problems with rendering documents to PDF and XPS via Aspose.Words, as well as their respective solutions.
 
-|**Symptom**|**Problem**|**Solution**|
+|Symptom|Problem|Solution|
 | :- | :- | :- |
 |The layout and fonts in the output document are different from the original.|Font may not be available, or the font format is supported by Microsoft Word but not supported by Aspose.Words.|<p>Aspose.Words will perform font substitution. To check if the font is missing:</p><p>- In Microsoft Word open the "Font Substitution" dialog box (File → Options → Advanced → Font Substitution).</p><p>- In Aspose.Words use the Font substitution warnings (for details, see the "How to Recognize That the Font Was Replaced" section).</p>|
 ||In APS.NET, there is no access to the system fonts folder in medium trust. |Users have to store fonts in their own folder.|

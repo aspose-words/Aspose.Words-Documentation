@@ -35,7 +35,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-13983|Add feature to support 'Emphasis Mark' font setting|New Feature|
 |WORDSNET-19976|Font embedding works fine but the symbol is saved to PDF incorrectly|New Feature|

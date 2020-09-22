@@ -27,7 +27,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for Java (18.1)|Feature |
 |WORDSJR-226|PageFooter bands in JRXML is not exported as page footer in Word document|Bug|

@@ -33,7 +33,7 @@ Over 30 improvements to DocumentBuilder, TXT, ODT and Microsoft Word document fo
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10212|/negative page margins/ Header paragraph border is lost after conversion from Doc to PDF|Bug|
 |WORDSNET-10275|A blank page is rendered in PDF|Bug|

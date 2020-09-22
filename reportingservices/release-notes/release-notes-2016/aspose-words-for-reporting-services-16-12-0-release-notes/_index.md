@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Reporting Services 16.12.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSRPT-245|SSRS export reporting using TXT – Plain Text via Aspose.Words is losing formatting|Bug|
 |WORDSRPT-246|Some content is missing in output report|Bug|

@@ -25,7 +25,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJSP-199|Multiple appearance of elements in exported docx report|Bug|
 |WORDSJSP-200|HTML-formatted text is duplicated in output Docx|Bug|

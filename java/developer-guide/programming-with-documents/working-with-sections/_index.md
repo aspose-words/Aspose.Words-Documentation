@@ -24,12 +24,12 @@ To insert a section break, do the following:
 1. Click where you want to insert a section break.
 1. On the Insert menu, click **Break**.
 
-|**Insert section break.**|
+|Insert section break.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/uKcWrwo.png)|
 1. Under **Section break types** , click the option that describes where you want the new section to begin.
 
-|**Insert section break.**|
+|Insert section break.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/RI1gOHk.png)|
 The following types of section breaks can be inserted:

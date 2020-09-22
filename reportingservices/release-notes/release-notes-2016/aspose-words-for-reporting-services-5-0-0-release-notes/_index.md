@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Reporting Services 5.0.0]
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSRPT-239 |Add support of Microsoft Report Viewer 2015 |Feature |
 |WORDSRPT-241 |Add support of Microsoft SQL Server 2016 |Feature |

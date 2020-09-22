@@ -22,7 +22,7 @@ This page contains release notes for [Aspose.Words for Java 20.2](https://reposi
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1970|Java public API for IFieldUpdateCultureProvider|New Feature|
 |WORDSJAVA-1985|Update ms CultureInfo and DateTimeFormatInfo for public API.|New Feature|

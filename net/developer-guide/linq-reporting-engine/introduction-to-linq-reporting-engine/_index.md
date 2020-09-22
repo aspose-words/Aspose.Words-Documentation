@@ -77,7 +77,7 @@ public class Person
 }
 {{< /highlight >}}
 
-|**Extension Method**|**Examples and Notes**|
+|Extension Method|Examples and Notes|
 | :- | :- |
 |All(Predicate)|{{< highlight csharp >}}
  persons.All(p => p.Age < 50){{< /highlight >}}|

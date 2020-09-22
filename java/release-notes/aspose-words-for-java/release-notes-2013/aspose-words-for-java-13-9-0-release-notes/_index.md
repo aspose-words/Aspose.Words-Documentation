@@ -24,7 +24,7 @@ There are 115 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-742 |Aspose.Words.jdk16-13.6.0 causing apache-tomcat memory leak warning logs |Bug |
 |WORDSJAVA-762 |Lost image effects. |Bug |

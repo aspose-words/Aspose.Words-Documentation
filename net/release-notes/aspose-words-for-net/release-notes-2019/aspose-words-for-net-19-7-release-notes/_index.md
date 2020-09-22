@@ -37,7 +37,7 @@ This page contains release notes for [Aspose.Words for .NET 19.7](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-18418|Add feature to create link with RevisionGroup and Revision|New Feature|
 |WORDSNET-16984|Numbers in picture not visible in PDF|New Feature|

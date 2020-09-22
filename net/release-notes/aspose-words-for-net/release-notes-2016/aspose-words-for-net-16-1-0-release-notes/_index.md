@@ -30,7 +30,7 @@ There are 133 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSNET-10588 |Text is overlapped after conversion from Docx to Pdf |Bug |
 |WORDSNET-11410 |Inserting one document into another causes indent issue |Bug |

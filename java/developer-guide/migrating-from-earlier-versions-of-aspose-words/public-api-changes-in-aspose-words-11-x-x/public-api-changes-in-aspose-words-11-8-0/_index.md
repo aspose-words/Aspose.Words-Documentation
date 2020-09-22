@@ -17,7 +17,7 @@ A class implementing [IResourceLoadingCallback]() is used to control how resourc
 
 Also other situations when external resources are used have been included in the scope of this callback. These include:
 
-|**Scenario**|**Comments**|
+|Scenario|Comments|
 | :- | :- |
 |[DocumentBuilder.InsertImage]()|This method allows you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
 |[DocumentBuilder.InsertHtml]()|This method parses an HTML snippet into the document at the current cursor. As with **DocumentBuilder.InsertImage** this snippet can contain links to external resources. |

@@ -32,7 +32,7 @@ There are 157 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-5225|Left border of RTL table is lost|Bug|
 |WORDSNET-5226|Centered floating table in RTL context is exported to HTML as left aligned|Bug|

@@ -38,7 +38,7 @@ See the following links in the documentation for further information:
 - [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
 - [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Style |Yes |Imported from "class" attribute on HTML paragraph elements. |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |Character Style |Yes |Imported from "class" attribute on span elements. |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 
 ## **General**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Aliases |Yes |Aliases are exported as ordinary CSS classes. On subsequent import they produce independent styles. | |
 |Based On |Planned | |- [Style.BaseStyleName](https://apireference.aspose.com/words/net/aspose.words/style/properties/basestylename)|
@@ -62,14 +62,14 @@ See the following links in the documentation for further information:
 
 ## **Document Defaults**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Properties |N/A | | |
 |Run Properties |N/A | | |
 
 ## **Table Style**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Apply Formatting to |Planned | |- [Table.StyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions)|
 |Table Properties |Planned | |- **TableStyle**|

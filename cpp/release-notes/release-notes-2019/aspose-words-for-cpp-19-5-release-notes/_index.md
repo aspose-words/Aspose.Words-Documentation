@@ -35,7 +35,7 @@ The missing features will be added in the future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-580|Include XamlFlow codec to porting.|New Feature|
 |WORDSCPP-584|Include ODT codec to porting.|New Feature|

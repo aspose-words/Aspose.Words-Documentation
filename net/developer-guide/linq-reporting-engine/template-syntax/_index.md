@@ -42,7 +42,7 @@ Expression is a central concept of the template syntax. Every tag is bound with 
 
 The following table describes lexical tokens that you can use in template expressions and restrictions on these tokens’ usage comparing with C# Language Specification 5.0.
 
-|**Token**|**Restrictions**|
+|Token|Restrictions|
 | :- | :- |
 |**Keyword**|Only the following tokens are reserved as keywords: true, false, null, new, and in.|
 |**Identifier**|- The feature of keyword escaping through the “@” character is not supported.<br>- Unicode character escapes are not permitted in identifiers.|
@@ -168,7 +168,7 @@ Also, you can normally apply enumeration extension methods (see "Appendix A. Enu
 
 LINQ Reporting Engine enables you to access a data associated with a particular DataRow or DataRowView instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
 
-|**Data Kind**|**Identifier**|**Examples of Template Expressions**|
+|Data Kind|Identifier|Examples of Template Expressions|
 | :- | :- | :- |
 |**Field Value**|Field name|Given that r is a row that has a field named “Name”, you can access the field’s value using the following syntax.**r.Name**|
 |**Single Parent or Child Row**|Parent (child) table name|Given that r is a row of a DataTable that has a parent (child) DataTable named “City”, you can access the single parent (child) row of r using the following syntax.**r.City**Given that the “City” DataTable has a field named “Name”, you can access the field’s value for the single parent (child) row using the following syntax.**r.City.Name**|
@@ -229,7 +229,7 @@ To format a numeric or date-time expression result, you can specify a format str
 
 LINQ Reporting Engine provides several additional number formats that can not be specified using format strings because these formats are missing in standard .Net libraries. The following table describes these formats.
 
-|**Number Format**|**Description**|
+|Number Format|Description|
 | :- | :- |
 |**alphabetic**|Formats an integer number as an upper-case letter (A, B, C, ...)|
 |**roman**|Formats an integer number as an upper-case Roman numeral (I, II, III, ...)|
@@ -247,7 +247,7 @@ You can specify one of these additional number formats instead of a format strin
 
 LINQ Reporting Engine provides several additional string formats that can not be specified using format strings because these formats are missing in standard .Net libraries. The following table describes these formats.
 
-|**String Format**|**Description**|
+|String Format|Description|
 | :- | :- |
 |**lower**|Converts a string to lower case ("the string")|
 |**upper**|Converts a string to upper case ("THE STRING")|
@@ -291,7 +291,7 @@ You can reference an element of the corresponding sequence in template expressio
 
 An opening foreach tag defines a foreach statement enclosed by brackets. The following table describes the elements of this statement.
 
-|**Element**|**Optional?**|**Remarks**|
+|Element|Optional?|Remarks|
 | :- | :- | :- |
 |**Iteration Variable Type**|Yes|You can specify the type of an iteration variable explicitly. This type must be known by the engine (see "Setting up Known External Types" for more information).<br>If you do not specify the type explicitly, it is determined implicitly by the engine depending on the type of the corresponding sequence.|
 |**Iteration Variable Name**|Yes|You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding foreach tag.<br>If you do not specify the name, you can access the variable's members using the contextual object member access syntax (see "Using Contextual Object Member Access" for more information).|
@@ -325,7 +325,7 @@ When the body of a common data band starts and ends within different paragraphs,
 
 **Note –** Examples in the table are given with paragraph marks shown as per Microsoft Word® editor.
 
-|**Template**|**Report**|
+|Template|Report|
 | :- | :- |
 |{{< highlight csharp >}}
  prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}}
@@ -376,14 +376,14 @@ The following examples in this section are given using ds, a DataSet instance co
 
 The most common use case of a table-row data band is the building of a document table that represents a list of items. You can use a template like the following one to achieve this.
 
-|**Client**|**Manager**|**Contract Price**|
+|Client|Manager|Contract Price|
 | :- | :- | :- |
 |**<<foreach [c in ds.Contracts]>><<[c.Clients.Name]>>**|**<<[c.Managers.Name]>>**|**<<[c.Price]>><</ foreach>>**|
 |**Total:**||**<<[ds.Contracts.Sum(c =>c.Price)]>>**|
 
 In this case, the engine produces a report as follows.
 
-|**Client**|**Manager**|**Contract Price**|
+|Client|Manager|Contract Price|
 | :- | :- | :- |
 |**A Company**|**John Smith**|**1200000**|
 |**B Ltd.**|**John Smith**|**750000**|
@@ -398,7 +398,7 @@ In this case, the engine produces a report as follows.
 
 To populate a document table with a master-detail data, you can use nested table-row data bands like in the following template.
 
-|**Manager/Client**|**Contract Price**|
+|Manager/Client|Contract Price|
 | :- | :- |
 |**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<[m.Contracts.Sum(**`     `**c => c.Price)]>>**|
 |**<<foreach [c in m.Contracts]>>  <<[c.Clients.Name]>>**|**<<[c.Price]>><</ foreach>><</ foreach>>**|
@@ -406,7 +406,7 @@ To populate a document table with a master-detail data, you can use nested table
 
 In this case, the engine produces a report as follows.
 
-|**Manager/Client**|**Contract Price**|
+|Manager/Client|Contract Price|
 | :- | :- |
 |**John Smith**|**2300000**|
 |`  `**A Company**|**1200000**|
@@ -424,13 +424,13 @@ In this case, the engine produces a report as follows.
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.
 
-|**Manager**|**Clients**|
+|Manager|Clients|
 | :- | :- |
 |**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<foreach [<br>c in m.Contracts<br>]>><<[c.Clients.Name]>> <</foreach>><</foreach>>**|
 
 In this case, the engine produces a report as follows.
 
-|**Manager**|**Clients**|
+|Manager|Clients|
 | :- | :- |
 |**John Smith**|**A Company B Ltd. C & D**|
 |**Tony Anderson**|**E Corp. F & Partners**|
@@ -438,25 +438,25 @@ In this case, the engine produces a report as follows.
 
 A special case is a data band inside a single-column table row. In such a case, if you put opening and closing foreach tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
-|**Managers**|
+|Managers|
 | :- |
 |**<<foreach [m in ds.Managers]>><<[m.Name]>>  <</foreach>>**|
 
 In this case, the engine produces a report as follows.
 
-|**Managers**|
+|Managers|
 | :- |
 |**John Smith  Tony Anderson  July James**  |
 
 However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a greedy switch like in the following template.
 
-|**Managers**|
+|Managers|
 | :- |
 |**<<foreach [m in ds.Managers]>><<[m.Name]>><</foreach -greedy>>**|
 
 In this case, the engine produces a report as follows.
 
-|**Managers**|
+|Managers|
 | :- |
 |**John Smith**|
 |**Tony Anderson**|
@@ -489,14 +489,14 @@ The items are: item1, item2, item3.
 
 Returns the one-based index of a sequence item that is represented by the corresponding iteration variable. You can use this extension method to number sequence items without involving Microsoft Word® lists. For example, given the previous declaration of items, you can enumerate and number them in a document table using the following template.
 
-|**No.**|**Item**|
+|No.|Item|
 | :- | :- |
 |{{< highlight csharp >}}
  <<foreach [itemin items]>><<[item.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
  <<[item]>><</foreach>>{{< /highlight >}}|
 In this case, the engine produces a report as follows.
 
-|**No.**|**Item**|
+|No.|Item|
 | :- | :- |
 |1|item1|
 |2|item2|
@@ -506,13 +506,13 @@ In this case, the engine produces a report as follows.
 
 You can instruct the engine to force movement to the next item within a data band using a next tag. This feature is useful in label-print-like scenarios when you need to output data about a fixed number of items in a single table row like in the following example. Given that Clients is a DataTable instance having a field named "Name", you can use the following template to output three client names per table row while outputting names of all clients in a single table.
 
-|**<<foreach [c in Clients]>><<[c.Name]>>**|**<<next>><<[c.Name]>>**|**<<next>><<[c.Name]>> <</foreach>>**|
+|<<foreach [c in Clients]>><<[c.Name]>>|<<next>><<[c.Name]>>|<<next>><<[c.Name]>> <</foreach>>|
 | :- | :- | :- |
 
 
 In this case, the engine produces a report as follows.
 
-|**A Company**|**B Ltd.**|**C & D** |
+|A Company|B Ltd.|C & D |
 | :- | :- | :- |
 |**E Corp.**|**F & Partners**|**G & Co.** |
 |**H Group**|**I & Sons**|**J Ent.** |
@@ -774,7 +774,7 @@ The following examples in this section are given using client, an instance of th
 {{< /highlight >}}
 Using table-row conditional blocks, you can pick to output a single row among several rows of a single document table depending on a condition like in the following example.
 
-|**...**|**...**|**...**|
+|...|...|...|
 | :- | :- | :- |
 |**<<if [client.Country == “New Zealand”]>><<[client.Name]>>**|**<<[client.LocalAddress]>>**||
 |**<<else>><<[client.Name]>>**|**<<[client.Country]>>**|**<<[client.LocalAddress]>><</if>>**|
@@ -782,13 +782,13 @@ Using table-row conditional blocks, you can pick to output a single row among se
 
 You can normally use table-row conditional blocks within data bands to make elements of an enumeration look differently depending on a condition. Consider the following template.
 
-|**<<foreach [in clients]>><<if [Country == “New Zealand”]>><<[Name]>>**|**<<[LocalAddress]>>**||
+|<<foreach [in clients]>><<if [Country == “New Zealand”]>><<[Name]>>|<<[LocalAddress]>>||
 | :- | :- | :- |
 |**<<else>><<[Name]>>**|**<<[Country]>>**|**<<[LocalAddress]>><</if>><</foreach>>**|
 
 In this case, the engine produces a report as follows.
 
-|**A Company**|**Australia**|**219-241 Cleveland St STRAWBERRY HILLS  NSW  1427**|
+|A Company|Australia|219-241 Cleveland St STRAWBERRY HILLS  NSW  1427|
 | :- | :- | :- |
 |**B Ltd.**|**Brazil**|**Avenida João Jorge, 112, ap. 31Vila Industrial Campinas - SP 13035-680**|
 |**C & D**|**Canada**|**101-3485 RUE DE LA MONTAGNE MONTRÉAL (QUÉBEC) H3G 2A6**|
@@ -803,41 +803,41 @@ In this case, the engine produces a report as follows.
 
 Also, you can use data bands inside table-row conditional blocks. For example, you can provide an alternate content for an empty table-row data band using the following template.
 
-|**Client**|**Country**|**Local Address**|
+|Client|Country|Local Address|
 | :- | :- | :- |
 |**<<if [!clients.Any()]>>No data**|||
 |**<<else>><<foreach [in clients]>><<[Name]>>**|**<<[Country]>>**|**<<[LocalAddress]>><</foreach>><</if>>**|
 
 In case when the corresponding enumeration is empty, the engine produces a report as follows.
 
-|**Client**|**Country**|**Local Address**|
+|Client|Country|Local Address|
 | :- | :- | :- |
 |**No data**|||
 
 A special case is a template option inside a single-column table row. In such a case, if you put an opening if, elseif, or else tag and a closing if tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
-|**Header**|
+|Header|
 | :- |
 |**<<if [false]>>Content to remove<</if>>**|
 |**Footer**|
 
 In this case, the engine produces a report as follows.
 
-|**Header**|
+|Header|
 | :- |
 ||
 |**Footer**|
 
 However, if needed, you can override this behavior making the engine to treat such a template option as a table-row one by specifying a greedy switch like in the following template.
 
-|**Header**|
+|Header|
 | :- |
 |**<<if [false]>>Content to remove<</if -greedy>>**|
 |**Footer**|
 
 In this case, the engine produces a report as follows.
 
-|**Header**|
+|Header|
 | :- |
 |**Footer**|
 
@@ -1022,7 +1022,7 @@ Given that items is an enumeration of ColoredItem instances, you can use the fol
 {{< /highlight >}}
 To output every item into a separate table row colored dynamically, you can use the following template.
 
-|**<<foreach [item in items]>><<backColor [item.Color]>><<[item.Name]>>**|**<<[item.Description]>><</backColor>><</foreach>>**|
+|<<foreach [item in items]>><<backColor [item.Color]>><<[item.Name]>>|<<[item.Description]>><</backColor>><</foreach>>|
 | :- | :- |
 
 **Note –** Start and end backColor tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as foreach tags.
@@ -1055,7 +1055,7 @@ For two or more successive table cells to be merged dynamically in either direct
 
 Consider the following template.
 
-|**...**|**...**|**...**|
+|...|...|...|
 | :- | :- | :- |
 |**...**|**<<cellMerge>><<[value1]>>**|**...**|
 |**...**|**<<cellMerge>><<[value2]>>**|**...**|
@@ -1064,7 +1064,7 @@ Consider the following template.
 
 If value1 and value2 have the same value, say “Hello”, table cells containing cellMerge tags are successfully merged during runtime and a result report looks as follows then.
 
-|**...**|**...**|**...**|
+|...|...|...|
 | :- | :- | :- |
 |**...**|**Hello**|**...**|
 |**...**||**...**|
@@ -1072,7 +1072,7 @@ If value1 and value2 have the same value, say “Hello”, table cells containin
 
 If value1 and value2 have different values, say “Hello” and “World”, table cells containing cellMerge tags are not merged during runtime and a result report looks as follows then.
 
-|**...**|**...**|**...**|
+|...|...|...|
 | :- | :- | :- |
 |**...**|**Hello**|**...**|
 |**...**|**World**|**...**|
@@ -1158,7 +1158,7 @@ Obviously, inside a data band body, you can not use the feature to access member
 
 Consider the following example. Given that ds is a DataSet instance containing a DataTable object named “Persons” that has fields named “Name” and “Age”, you can use the following template to list the contents of the table.
 
-|**No.**|**Name**|**Age**|
+|No.|Name|Age|
 | :- | :- | :- |
 |{{< highlight csharp >}}
  <<foreach [p in ds.Persons]>><<[    p.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
@@ -1168,7 +1168,7 @@ Consider the following example. Given that ds is a DataSet instance containing a
  Count: <<[ds.Persons.Count()]>>{{< /highlight >}}| | |
 Alternatively, you can use the following template involving the contextual object member access syntax to get the same results.
 
-|**No.**|**Name**|**Age**|
+|No.|Name|Age|
 | :- | :- | :- |
 |{{< highlight csharp >}}
   <<foreach [ in Persons]>><<[    NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
@@ -1187,7 +1187,7 @@ You can declare a variable in a template using a var tag as follows.
 {{< /highlight >}}
 The following table describes elements of the var tag.
 
-|**Element**|**Optional?**|**Remarks**|
+|Element|Optional?|Remarks|
 | :- | :- | :- |
 |**Variable Type**|Yes|You can specify the type of a variable explicitly. This type must be known by the engine (see “Setting up Known External Types” for more information).If you do not specify the type explicitly, it is determined implicitly by the engine from the specified variable value.|
 |**Variable Name**|No|For a new variable, its name must be a unique identifier.|

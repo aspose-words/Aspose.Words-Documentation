@@ -37,7 +37,7 @@ Japanese OTF fonts overlapping characters problem in rendered images fixed
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10241|Text with gradient fill not saved in PDF output|Bug|
 |WORDSNET-10740|Line breaks at incorrect word during open/save a RTF|Bug|

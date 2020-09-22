@@ -37,7 +37,7 @@ This page contains release notes for [Aspose.Words for Java 19.4](https://reposi
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-2018|Reduce startup time|New Feature|
 |WORDSJAVA-2020|Reduce Fields' parsing time while MailMerge|New Feature|

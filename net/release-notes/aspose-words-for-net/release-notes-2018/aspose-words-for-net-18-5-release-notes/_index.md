@@ -35,7 +35,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-16781|Aspose does not recognize footer of WordML 2003|Bug|
 |WORDSNET-16775|Charset is detected incorrectly if file has less then 10 symbols|Bug|

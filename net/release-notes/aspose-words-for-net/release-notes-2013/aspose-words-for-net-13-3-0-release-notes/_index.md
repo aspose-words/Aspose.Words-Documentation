@@ -29,7 +29,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-6488|Bullet symbols are rendering incorrectly in HTML|Bug|
 |WORDSNET-7196|Shading effect of AutoShapes are getting lost when rendering to PDF|Bug|

@@ -35,7 +35,7 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-290|Support Writing TIFF files.|Task|
 |WORDSJAND-329|Broken pictures.|Bug|

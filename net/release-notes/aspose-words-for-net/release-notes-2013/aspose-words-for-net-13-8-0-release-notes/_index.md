@@ -27,7 +27,7 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-1739|Colspan duplicates cells during opening HTML.|Bug|
 |WORDSNET-5239|Numbering in RTL document goes outside right margin|Bug|

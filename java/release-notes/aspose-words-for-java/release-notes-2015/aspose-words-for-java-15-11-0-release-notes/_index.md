@@ -25,7 +25,7 @@ This page contains release notes for [Aspose.Words for Java 15.11.0](http://www.
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1172 |Time shift of LastSavedTime document property after updateFields() when PreProcessCulture is set. |Bug |
 |WORDSJAVA-1182 |&lt;c:pt idx&gt;&lt;c:v&gt;... tag has incorrect values while in multi-threading mode |Bug |

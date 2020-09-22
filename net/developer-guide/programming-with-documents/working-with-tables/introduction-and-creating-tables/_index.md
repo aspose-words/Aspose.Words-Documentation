@@ -75,7 +75,7 @@ You should also notice table is succeeded with an empty paragraph. It is a requi
 
 Aspose.Words provides several different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
 
-|**Table Property**|**Default in Aspose.Words**|
+|Table Property|Default in Aspose.Words|
 | :- | :- |
 |Border Style|Single|
 |Border Width|1/2 pt|
@@ -99,7 +99,7 @@ In Aspose.Words a table is normally inserted using DocumentBuilder. The followin
 - [DocumentBuilder.EndTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/endtable)
 - [DocumentBuilder.Writeln](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/writeln)
 
-|**Operation**|**Description**|**Table State**|
+|Operation|Description|Table State|
 | :- | :- | :- |
 |**DocumentBuilder.StartTable**|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![todo:image_alt_text](introduction-and-creating-tables_1.png)|
 |**DocumentBuilder.InsertCell**|Inserts a new row and cell into the table.|![todo:image_alt_text](introduction-and-creating-tables_2.png)|
@@ -194,7 +194,7 @@ Aspose.Words supports inserting content into a document from an HTML source by u
 
 As described in previous articles, Aspose.Words provides several methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
 
-|**Method**|**Advantages**|**Disadvantages**|
+|Method|Advantages|Disadvantages|
 | :- | :- | :- |
 |DocumentBuilder ([DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable))|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
 |Table( [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||

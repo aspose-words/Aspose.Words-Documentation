@@ -17,7 +17,7 @@ See the following link in the documentation for further information:
 
 ##### **Characters**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Western Languages |Yes | | |
 |East European Languages |Yes | | |
@@ -32,7 +32,7 @@ See the following link in the documentation for further information:
 
 ##### **Breaks**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Line Break |Yes | | |
 |Line Break Clear Type |Yes | | |
@@ -41,7 +41,7 @@ See the following link in the documentation for further information:
 
 ##### **General Formatting**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Character Style |Yes | | |
 |Color |Yes | | |
@@ -54,20 +54,20 @@ See the following link in the documentation for further information:
 
 ##### **Font**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Font |Yes | | |
 
 ##### **Underline**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Underline Type |Yes | | |
 |Underline Color |Yes | | |
 
 ##### **Text Effects**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Animated Effect |N/A | | |
 |Double Strikethrough |Yes | | |
@@ -85,7 +85,7 @@ See the following link in the documentation for further information:
 
 ##### **Character Spacing**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Scale |Yes | | |
 |Expanded/Compressed |Yes | | |

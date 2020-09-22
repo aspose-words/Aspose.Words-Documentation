@@ -21,7 +21,7 @@ This page contains release notes for [Aspose.Words for .NET 20.1](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-12444|Support an API to check if VBAcode is signed|New Feature|
 |WORDSNET-12204|Add feature to set/get positioning of floating table|New Feature|

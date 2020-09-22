@@ -25,7 +25,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-904 |Docx to Pdf conversion issue with mailto link |Bug |
 |WORDSJAVA-907 |Conversion of HTML to Docx issue with Img tag at Linux |Bug |

@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for .NET 19.11](https://www.n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-18890|Consider support ECSDA|New Feature|
 |WORDSNET-18182|Add feature to set properties of horizontal rule|New Feature|

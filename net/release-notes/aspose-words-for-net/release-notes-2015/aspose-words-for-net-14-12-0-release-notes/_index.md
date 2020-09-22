@@ -29,7 +29,7 @@ There are 101 improvements and fixes in this regular monthly release. The most 
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10053|Font formatting of generated DOC is not correct when importing from RTF|Bug|
 |WORDSNET-10109|Docx-HTML-Docx : Author details for all inserts and deletes revision become unknown|Bug|

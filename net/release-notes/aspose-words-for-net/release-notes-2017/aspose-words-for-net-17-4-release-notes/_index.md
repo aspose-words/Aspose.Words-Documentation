@@ -32,7 +32,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 ## **Full List of Issues Covering all Changes in this Release**
 
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10953|Table width is not calculated correctly during rendering to PDF|Bug|
 |WORDSNET-11295|ROOT Inline Shape position is changed after conversion from Docx to Pdf|Bug|

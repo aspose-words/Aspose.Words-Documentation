@@ -32,7 +32,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-5107|Text appears as a link after importing MHT.|Bug|
 |WORDSNET-5382|Indent of paragraph before list is incorrect after importing HTML.|Bug|

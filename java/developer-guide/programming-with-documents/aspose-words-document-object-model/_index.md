@@ -9,12 +9,12 @@ url: /java/aspose-words-document-object-model/
 
 This section describes the main classes of the Aspose.Words Document Object Model (DOM) and its relationships. By using the classes of the Aspose.Words DOM, you can obtain detailed programmatic access to document elements and formatting. The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate and modify content and formatting of a Word document.
 
-|**A sample document showing how it appears in Microsoft Word.**|** |
+|A sample document showing how it appears in Microsoft Word.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/dWXX1ZR.png)| |
 
 
-|**The tree of objects is created when the above document is read into the Aspose.Words DOM.**|** |
+|The tree of objects is created when the above document is read into the Aspose.Words DOM.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/lqwWRET.png)| |
 [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document), [Section](http://www.aspose.com/api/java/words/com.aspose.words/classes/Section), [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph), [Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table), [Shape](http://www.aspose.com/api/java/words/com.aspose.words/classes/Shape), [Run](http://www.aspose.com/api/java/words/com.aspose.words/classes/Run) and all other ellipses on this diagram are Aspose.Words objects that represent elements of a Word document. The objects are organized into a tree. The illustration also shows that the objects in the document tree have various properties. The document tree in Aspose.Words follows the Composite Design Pattern:
@@ -28,7 +28,7 @@ When Aspose.Words reads a Word document into memory, objects of different types 
 
 The following illustration is a UML class diagram that shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in italics. Note that the Aspose.Words DOM also contains non-node classes such as [Style](http://www.aspose.com/api/java/words/com.aspose.words/classes/Style), [PageSetup](http://www.aspose.com/api/java/words/com.aspose.words/classes/PageSetup), [Font](http://www.aspose.com/api/java/words/com.aspose.words/classes/Font) etc that do not participate in the inheritance and they are not shown on this diagram.
 
-|**Class diagram.**|** |
+|Class diagram.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/wIUviTq.png)| |
 {{% alert color="primary" %}} 
@@ -37,7 +37,7 @@ The following table lists Aspose.Words node classes and their short descriptions
 
 {{% /alert %}} 
 
-|**Aspose.Words Class**|**Category**|**Description**|
+|Aspose.Words Class|Category|Description|
 | :- | :- | :- |
 |[Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document)|Document|A document object that, as the root of the document tree, provides access to the entire Word document.|
 |[Section](http://www.aspose.com/api/java/words/com.aspose.words/classes/Section)|Document|A section object that corresponds to one section in a Word document.|
@@ -69,7 +69,7 @@ The following table lists Aspose.Words node classes and their short descriptions
 |[OfficeMath](http://www.aspose.com/api/java/words/com.aspose.words/classes/OfficeMath)|Math|Represents an Office math object such as a function, equation or matrix.|
 The following table lists Aspose.Words base node classes that help to form the class hierarchy.
 
-|**Class**|**Description**|
+|Class|Description|
 | :- | :- |
 |[Node](http://www.aspose.com/api/java/words/com.aspose.words/classes/Node)|Abstract base class for all nodes of a Word document. Provides basic functionality of a child node.|
 |[CompositeNode](http://www.aspose.com/api/java/words/com.aspose.words/classes/CompositeNode)|Base class for nodes that can contain other nodes. Provides operations to access, insert, remove and select child nodes.|
@@ -88,7 +88,7 @@ Although the class of the node is sufficient enough to distinguish different nod
 
 This documentation sometimes refers to a group of node classes as belonging to a "level" in a document, for example "block-level" or "inline-level" (also known as "inline") nodes. The distinction of levels in a document is purely logical and is not explicitly expressed by inheritance or other means in the Aspose.Words DOM.The level of the node is used to describe where in the document tree the node would typically occur. The following table lists the logical node levels, descriptions and the classes that belong to each level.
 
-|**Node Level**|**Classes**|**Description**|
+|Node Level|Classes|Description|
 | :- | :- | :- |
 |Document level|[Section](http://www.aspose.com/api/java/words/com.aspose.words/classes/Section)|The top level Document node contains only Section objects.A Section is a container for stories (independent flows of text) for the main text and optionally headers and footers.|
 |Block level|[Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph), [Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table), [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag), CustomXmlMarkup|Tables and paragraphs are block-level elements and contain other elements.Custom markup nodes can contain nested block-level nodes.|
@@ -100,7 +100,7 @@ The following diagrams define the "schema" of the Aspose.Words document tree. Fr
 
 ### **Document and Section**
 
-|**Document and section diagram.**|** |
+|Document and section diagram.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/Iosm33m.png)| |
 On the above diagram:
@@ -117,7 +117,7 @@ Additionally, each word document can contain a glossary document. A glossary doc
 
 ### **Block-level Nodes**
 
-|**Block-level nodes diagram.**|** |
+|Block-level nodes diagram.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/zmU0n6w.png)| |
 On the above diagram:
@@ -130,7 +130,7 @@ On the above diagram:
 
 ### **Inline-level Nodes**
 
-|**Inline-level nodes diagram.**|** |
+|Inline-level nodes diagram.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/VfXvi9Y.png)| |
 On the above diagram:
@@ -150,7 +150,7 @@ Shapes in Microsoft Word include Office Art auto shapes, textboxes, images, OLE 
 
 ### **Table, Row and Cell**
 
-|**Table, row and cell diagram.**|** |
+|Table, row and cell diagram.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/OwKQsk3.png)| |
 On the above diagram:
@@ -181,7 +181,7 @@ On each level markup nodes of the same level can be nested. For example, [Struct
 
 Aspose.Words represents a document as a tree of nodes. An integral feature of the tree is the ability to navigate between the nodes. This section shows how to explore and navigate the document tree in Aspose.Words. When the sample fax document presented earlier is opened in **DocumentExplorer** (an example project which is available on [Github](https://github.com/aspose-words/Aspose.Words-for-Java) under "ViewersAndVisualizers"), it shows the tree of nodes exactly as it is represented in Aspose.Words:
 
-|**Tree of nodes.**|** |
+|Tree of nodes.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/zVyqndK.png)| |
 
@@ -193,12 +193,12 @@ The nodes that can contain other nodes derive from the [CompositeNode](http://ww
 
 The following UML class diagram shows the classes and methods we are going to explore in the remainder of this topic:
 
-|**Classes and methods.**|** |
+|Classes and methods.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/zyRBtrb.png)| |
 The UML object diagram below shows several nodes of the fax sample document and how they are connected to each other via the parent, child and sibling properties:
 
-|**Several nodes of fax sample document.**|** |
+|Several nodes of fax sample document.| |
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/E8q1uSc.png)| |
 

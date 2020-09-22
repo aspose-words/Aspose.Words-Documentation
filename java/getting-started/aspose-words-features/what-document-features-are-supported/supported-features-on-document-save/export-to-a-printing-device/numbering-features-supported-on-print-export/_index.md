@@ -7,7 +7,7 @@ url: /java/numbering-features-supported-on-print-export/
 
 ##### **Numbering Definition**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
 |Multi Level |Yes | | |
@@ -15,7 +15,7 @@ url: /java/numbering-features-supported-on-print-export/
 
 ##### **Numbering Level**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Label Alignment |Yes | | |
 |Picture Bullet |Yes | | |

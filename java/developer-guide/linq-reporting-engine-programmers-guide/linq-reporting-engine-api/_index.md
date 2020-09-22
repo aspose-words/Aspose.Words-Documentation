@@ -15,7 +15,7 @@ The main class of the LINQ Reporting Engine is ReportingEngine. All the function
 
 To build a report from a template, you can use one of the ReportingEngine.buildReport overloads. The following table describes parameters of these overloads.
 
-|**Parameter**|**Description**|
+|Parameter|Description|
 | :- | :- |
 |document|A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report.|
 |dataSource|An object providing a data to populate the specified template. The object must be of one of the following types:|

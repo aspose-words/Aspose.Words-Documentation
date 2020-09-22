@@ -27,13 +27,13 @@ See the following link in the documentation for further information:
 
 - **Document.UpdateFields.**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
 
 ##### **Date and Time**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |CreateDate |Yes | | |
 |Date |Yes | | |
@@ -44,7 +44,7 @@ See the following link in the documentation for further information:
 
 ##### **Document Automation**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Compare |Yes |The result of the calculation is exported as static text to HTML. | |
 |DocVariable |Yes |The variable is exported as static text to HTML. | |
@@ -57,7 +57,7 @@ See the following link in the documentation for further information:
 
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Author |Yes | | |
 |Comments |Yes | | |
@@ -76,7 +76,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 
 ##### **Equations and Formulas**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Formula |Yes | | |
 |Advance |Planned |Planned to be exported as plain text separator. | |
@@ -91,7 +91,7 @@ See the following link in the documentation for further information:
 
 - **HtmlSaveOptions.ExportTextInputFormFieldsAsText**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |TextInput |Yes |Exported as &lt;input type="text" name="XXX" /&gt; | |
 |CheckBox |Yes |Exported as &lt;input type="checkbox" name="XXX" /&gt; | |
@@ -110,7 +110,7 @@ See the following link in the documentation for further information:
 
 ##### **Index and Tables**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Index |Yes | | |
 |RD |Yes | | |
@@ -122,7 +122,7 @@ See the following link in the documentation for further information:
 
 ##### **Links and References**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AutoText |Yes | | |
 |AutoTextList |N/A | | |
@@ -142,7 +142,7 @@ See the following link in the documentation for further information:
 
 Any fields that have a field result are exported to HTML as text.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AddressBlock |N/A | | |
 |Ask |N/A | | |
@@ -161,7 +161,7 @@ Any fields that have a field result are exported to HTML as text.
 
 ##### **Numbering**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AutoNum |Planned | | |
 |AutoNumLgl |Planned | | |
@@ -176,7 +176,7 @@ Any fields that have a field result are exported to HTML as text.
 
 ##### **User Information**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |UserAddress |Yes | | |
 |UserInitials |Yes | | |
@@ -186,7 +186,7 @@ Any fields that have a field result are exported to HTML as text.
 
 Exported as &lt;a&gt; element with text or image being linked as children.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Text |Yes | | |
 |Hyperlinked Shape or Image |Yes |Image is wrapped inside &lt;a&gt; element. | |
@@ -198,7 +198,7 @@ Exported as &lt;a&gt; element with text or image being linked as children.
 
 ##### **Formatting Switches**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Date and Time Formatting |Yes | | |
 |Numbering Formatting |Yes | | |

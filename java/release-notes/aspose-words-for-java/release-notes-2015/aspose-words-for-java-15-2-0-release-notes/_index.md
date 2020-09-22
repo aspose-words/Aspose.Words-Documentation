@@ -32,7 +32,7 @@ Improved vertical text inside text boxes during rendering
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1010 |Mail Merge field formatting issue with ZeroPattern and zero value |Bug |
 |WORDSJAVA-741 |Scaling the image causes text to exceed right page edge in PNG |Bug |

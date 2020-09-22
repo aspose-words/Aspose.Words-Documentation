@@ -31,7 +31,7 @@ This page contains release notes for [Aspose.Words for Java 19.3](https://reposi
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1992|Is Aspose.Words FIPS 186-4 compliant|Feature|
 |WORDSNET-18146|Formatting the bar chart labels on Y axis|Feature|

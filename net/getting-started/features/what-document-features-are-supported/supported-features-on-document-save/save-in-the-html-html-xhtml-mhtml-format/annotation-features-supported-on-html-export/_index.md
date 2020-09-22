@@ -26,7 +26,7 @@ If two bookmarks are given the same name in the model then no errors will occur.
 
 Bookmark is represented by &lt;a&gt; element. Only bookmark start is output. Nesting and overlapping are not allowed.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Bookmark Start|Yes| | |
 |Bookmark End|Planned|There are plans to support bookmark end. This is good to have for a roundtrip. <br><br>Currently, if bookmark end is required then it is suggested to export two bookmarks instead of one to achieve this.| |
@@ -37,7 +37,7 @@ Bookmark is represented by &lt;a&gt; element. Only bookmark start is output. Nes
 
 There are plans to export comments to HTML as footnotes.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Comment|Yes|Currently, a comment is exported as "title" attribute on &lt;span&gt;.| |
 |Comment Range|Yes|The same comment is exported as title attribute for all spans inside a comment range. <br>This will be improved in the future.| |
@@ -55,7 +55,7 @@ See the following link in the documentation for further information:
 
 - [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |On/Off State|N/A| | |
 |Table Cell Deletion|N/A| | |

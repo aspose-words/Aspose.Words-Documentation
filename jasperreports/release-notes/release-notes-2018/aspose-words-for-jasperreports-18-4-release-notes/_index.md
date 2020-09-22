@@ -28,7 +28,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJR-234|Table layout is not correct in output DOCX|Bug|
 |WORDSJR-235|java.lang.VerifyError Exception is thrown while exporting JRXML to DOCX|Bug|

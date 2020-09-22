@@ -35,7 +35,7 @@ The BARCODE field is supported now so you can add a custom barcode generator.
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10007|Fields in shapes // Aspose.Words does not update SECTIONPAGES fields automatically|Bug|
 |WORDSNET-10356|DocumentBuilder.InsertImage lose original size of image|Bug|

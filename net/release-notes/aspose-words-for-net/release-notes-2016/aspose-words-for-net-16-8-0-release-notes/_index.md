@@ -26,7 +26,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10377|List items are rendered incorrectly.|Bug|
 |WORDSNET-12765|Shape has wrong position after export to HTML|Bug|

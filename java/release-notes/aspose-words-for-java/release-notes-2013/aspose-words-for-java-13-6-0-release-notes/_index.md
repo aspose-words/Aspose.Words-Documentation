@@ -28,7 +28,7 @@ For a list of changes to the public API in this release refer to the following a
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-514 |Picture from header overlaps with body text after export to html. |Bug |
 |WORDSJAVA-596 |Weblogic Server startup lag in development mode |Bug |

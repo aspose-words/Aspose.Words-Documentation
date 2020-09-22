@@ -25,7 +25,7 @@ There are 106 improvements and fixes in this regular monthly release. The most 
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-934 |Inaccurate wrapping of WordArt wtih coordinates. |Bug |
 |WORDSJAVA-935 |Wrapped WordArt without coordinates is shifted down. |Bug |

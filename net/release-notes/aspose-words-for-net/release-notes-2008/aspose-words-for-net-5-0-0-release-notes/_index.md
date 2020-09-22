@@ -68,7 +68,7 @@ New namespaces were created because the namespace grew too big and we have a lot
 
 
 
-|**Issue ID** |**Component** |**Summary** |
+|Issue ID |Component |Summary |
 | :- | :- | :- |
 |4309 |DOC |“The document contains captions” exception occurs during opening document. |
 |4239 |DOC |Cannot insert PNG image, error Unable to read beyond the end of the stream. |

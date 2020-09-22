@@ -27,7 +27,7 @@ See the following link in the documentation for further information:
 
 - [HtmlSaveOptions.ExportHeadersFootersMode](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportheadersfootersmode)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Different First Page |N/A | | |
 |Different Even and Odd Pages |N/A | | |
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 - [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 - **HtmlSaveOptions.DocumentSplitCritera**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Continuous |Yes |Exported as &lt;br&gt; with page-break-before:auto. | |
 |Even Page |Yes |Exported as &lt;br&gt; with page-break-before:left. | |
@@ -61,7 +61,7 @@ HTML and EPUB have no native support for text columns.
 
 Support for this feature may be possible in a future version using CSS3 or EPUB 3.0 features.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Text Columns |N/A | | |
 
@@ -73,20 +73,20 @@ Section formatting is exported using the "@page" identifer along with margin and
 
 Some features need Microsoft Office specific attributes, they are not currently supported.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Page Margins |Yes | | |
 
 ##### **Page Numbering**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Number Format |N/A | | |
 |Starting Number |N/A | | |
 
 ##### **General Formatting**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Right to Left Section |Yes |Supported on HTML export only. | |
 |Line Numbering |Planned | | |
@@ -102,7 +102,7 @@ Some features need Microsoft Office specific attributes, they are not currently 
 
 Output as list item with ordinary list numbering.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Chapter Numbering |Yes | | |
 
@@ -110,7 +110,7 @@ Output as list item with ordinary list numbering.
 
 HTML does not have any "page" concept so no page border is imported.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Page Border |N/A | | |
 

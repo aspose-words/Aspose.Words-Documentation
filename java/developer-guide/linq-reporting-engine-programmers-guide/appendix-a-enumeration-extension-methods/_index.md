@@ -25,7 +25,7 @@ public class Person
 }
 {{< /highlight >}}
 
-|**Extension Method** |**Examples and Notes** |
+|Extension Method |Examples and Notes |
 | :- | :- |
 |all(Predicate)|{{< highlight csharp >}}
  persons.all(p => p.getAge() < 50){{< /highlight >}}|

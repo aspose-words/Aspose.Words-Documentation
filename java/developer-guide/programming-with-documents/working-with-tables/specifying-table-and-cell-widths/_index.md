@@ -34,7 +34,7 @@ The desired width of a table or individual cells is defined through the preferre
 
 The preferred width property can be expressed in one of several different ways:
 
-|**Width Type**|**Behavior**|
+|Width Type|Behavior|
 | :- | :- |
 |Absolute|This fits the element to the given width in points.|
 |Percent|Fits the element relative of the available space in the window or container size. If the available width changes then the table will automatically grow or shrink to reflect these changes.|
@@ -97,7 +97,7 @@ In Aspose.Words the [CellFormat](http://www.aspose.com/api/java/words/com.aspose
 
 Aspose.Words uses the following order when calculating cell widths.
 
-|**Order**|**Property**|**Description**|
+|Order|Property|Description|
 | :- | :- | :- |
 |1|**CellFormat.PreferredWidth**|Ideally the preferred widths are used to calculate the cell sizes.|
 |2|**Table.AllowAutoFit**|If auto fit is allowed then the table may grow past the preferred width to accommodate contents. Normally it will not shrink below the preferred width.|

@@ -26,7 +26,7 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10493|/table grid/ Table's cell width is decreased after conversion from Docx to Pdf|Bug|
 |WORDSNET-11904|/character spacing control/ Contents move to next page after conversion from Doc to fixed file format|Bug|

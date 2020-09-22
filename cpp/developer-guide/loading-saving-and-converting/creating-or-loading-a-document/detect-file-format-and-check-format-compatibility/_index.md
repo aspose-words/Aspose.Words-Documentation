@@ -41,7 +41,7 @@ The files are moved into appropriate subfolders using the Move method of the Fil
 
 The following files are used in the example above. The file name is on the left and its description is on the right:
 
-|**Group of Files**|**Input Document**|**Type**|
+|Group of Files|Input Document|Type|
 | :- | :- | :- |
 |Supported file formats|Test File (DOC).doc|Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 document.|
 | |Test File (DOT).dot|Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 template.|

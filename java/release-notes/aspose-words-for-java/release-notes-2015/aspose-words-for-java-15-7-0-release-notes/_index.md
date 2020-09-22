@@ -37,7 +37,7 @@ Japanese OTF fonts overlapping characters problem in rendered images fixed
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1082 |Japan otf font characters overlap in images. |Bug |
 |WORDSJAVA-1098 |Missing wmf inside pict image. |Bug |

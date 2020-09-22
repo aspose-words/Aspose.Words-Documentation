@@ -24,7 +24,7 @@ Behavior of ResourcesFolder and ResourcesFolderAlias properties of HtmlFixedSave
 Before the fix, when **ResourcesFolder** was only specified but not **ResourcesFolderAlias**, the file name of the result document was used as the resources folder alias.
 Now, the **ResourcesFolder** value is used as the resources folder alias in this case i.e the resource file URI in the result document contain full paths to the resource files.
 
-|** |**Image file path** |**Image file URI** |
+| |Image file path |Image file URI |
 | :- | :- | :- |
 |Before the fix |c:\res\image.png |doc/image.png |
 |After the fix |c:\res\image.png |c:\res\image.png |
@@ -34,7 +34,7 @@ Now, the **ResourcesFolder** value is used as the resources folder alias in this
 Before the fix, when only **ResourcesFolderAlias** is specified but not*ResourcesFolder*, the alias was used as the path to the resources folder.
 Now, the file name of the result document is used as the path to the resources folder in this case. You may have to move the resource files so they are accessible with the specified alias.
 
-|** |**Image file path** |**Image file URI** |
+| |Image file path |Image file URI |
 | :- | :- | :- |
 |Before the fix |c:\foo\bar\image.png |foo/bar/image.png |
 |After the fix |c:\doc\image.png |foo/bar/image.png |
@@ -46,7 +46,7 @@ Now, an empty string value can be used to specify that resource file URI must ha
 
 The following example illustrates the changes. The document contains an image, which is exported to the “image.png” file.
 
-|** |**Image file path** |**Image file URI** |
+| |Image file path |Image file URI |
 | :- | :- | :- |
 |Before the fix |c:\res\image.png |doc/image.png |
 |After the fix |c:\res\image.png |image.png |

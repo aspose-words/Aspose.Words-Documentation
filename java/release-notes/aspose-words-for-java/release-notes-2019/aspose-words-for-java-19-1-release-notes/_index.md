@@ -35,7 +35,7 @@ There are 55 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1928|Include only Required Java Modules|Bug|
 |WORDSJAVA-1956|The text is missing in PDF rendition|Bug|

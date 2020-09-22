@@ -32,7 +32,7 @@ For a list of changes to the public API in this release refer to the following a
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-572|builder.insertHtml() issue with bullet points appear as hollow square under linux.|Bug|
 |WORDSJAVA-595|Yet another color shift when saving CMYK image with 'inconsistent metadata' to PDF|Bug|
@@ -48,7 +48,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSJAVA-599|Support in java .Net-style number formats like ",0.00".|Feature|
 
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-7384|Document.Save method do not save the Shape correctly|Bug|
 |WORDSNET-7385|Paragraphs with bullet list do not export correctly in Fixed File Format|Bug|

@@ -31,7 +31,7 @@ Comment numbering in rendering
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10655|Left margin is being exported wrongly during Word-HTML-WORD roundtrips|Bug|
 |WORDSNET-10880|Text is missing from SmartArt when Docx is exported to Pdf|Bug|

@@ -25,7 +25,7 @@ There are 97 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10037|HTML to Doc/Docx/XPS conversion issue with image/Shape rendering|Bug|
 |WORDSNET-10047|FILENAME filed does not appear in output Pdf file|Bug|

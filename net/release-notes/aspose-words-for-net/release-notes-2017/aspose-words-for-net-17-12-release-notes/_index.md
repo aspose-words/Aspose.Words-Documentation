@@ -57,7 +57,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10287|Check on summer 2015 // Doc to tiff conversion issue with text rendering issue|Bug|
 |WORDSNET-10496|Merged cells are lost after when UpdateTableLayout method is called|Bug|

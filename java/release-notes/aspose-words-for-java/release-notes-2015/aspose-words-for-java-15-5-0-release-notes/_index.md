@@ -37,7 +37,7 @@ Significantly improved time and size when rendering PDF documents with DrawingML
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1054 |Image borders are incorrect when saving to image using GetShapeRenderer.Save method |Bug |
 |WORDSJAVA-1057 |Shape origin is shifted. |Bug |

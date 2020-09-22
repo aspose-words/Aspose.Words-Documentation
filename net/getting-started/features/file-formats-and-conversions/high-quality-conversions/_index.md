@@ -29,7 +29,7 @@ Aspose.Words’ document object model was designed with Microsoft Word document 
 
 Although all of the converters in Aspose.Words are great, not all of them have the “high-fidelity” mark. For example, there is no easy one-to-one match between all features of HTML and Microsoft Word documents. There are no headers/footers, sections, fields and tabs in HTML. Conversely, not all CSS attributes and rules can be mapped to a Microsoft Word document. Examples of Aspose.Words conversions.
 
-|**Description**|**Screenshot**|
+|Description|Screenshot|
 | :- | :- |
 |**Original DOC file.**|![todo:image_alt_text](high-quality-conversions_1.png)|
 |**Aspose.Words converted DOC to RTF. High-fidelity conversion.**|![todo:image_alt_text](high-quality-conversions_2.png)|

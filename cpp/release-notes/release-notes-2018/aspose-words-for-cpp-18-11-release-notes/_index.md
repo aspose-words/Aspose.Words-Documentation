@@ -37,7 +37,7 @@ The missing features will be added in the future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-532|Incorrect overload selection for string literals and nullptr vs bool|Bug|
 |WORDSCPP-605|Matching of Unicode characters does not work in ported code|Bug|

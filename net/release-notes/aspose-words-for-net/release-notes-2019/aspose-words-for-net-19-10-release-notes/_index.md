@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for .NET 19.10](https://www.n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-11772|Image is misplaced in generated PDF|New Feature|
 |WORDSNET-19103|Add feature to link CustomDocumentProperty to Bookmark|New Feature|

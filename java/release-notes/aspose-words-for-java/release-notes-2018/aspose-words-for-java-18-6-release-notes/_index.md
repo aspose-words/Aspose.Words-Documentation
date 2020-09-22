@@ -40,7 +40,7 @@ There are 66 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1731|Small shadow is absent on chart diagram|Bug|
 |WORDSJAVA-1757|Graph markings are not rendered in the output PDF|Bug|

@@ -32,7 +32,7 @@ There are 90+ improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-234|Save to GIF format is not supported|New Feature|
 |WORDSJAND-242|Blurring is not supported|Bug|

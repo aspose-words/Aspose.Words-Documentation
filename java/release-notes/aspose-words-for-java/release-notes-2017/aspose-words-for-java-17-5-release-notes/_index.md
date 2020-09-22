@@ -32,7 +32,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1478|Mirrored position of chart axis label.|Bug|
 |WORDSJAVA-1498|Specifying -Djava.ext.dirs causes i18 issues|Bug|

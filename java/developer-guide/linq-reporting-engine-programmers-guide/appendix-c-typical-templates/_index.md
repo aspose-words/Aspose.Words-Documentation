@@ -67,12 +67,12 @@ This article explains following topics:
 
 ### **Template Example**
 
-|![Single_Row_Template_Example](Single-Row-Template-Example1.png) | **Name:** **<<[manager.getName()]>>** <br> **Age:** <<[manager.getAge()]>> |
+|![Single_Row_Template_Example](Single-Row-Template-Example1.png) | Name: <<[manager.getName()]>> <br> Age: <<[manager.getAge()]>> |
 | :- | :- |
 
 ### **Report Example**
 
-|![Single_Row_Report_Example](Single-Row-Report-Example1.png)|**Name:** **John Smith** <br> **Age:** 37 |
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png)|Name: John Smith <br> Age: 37 |
 | :- | :- |
 
 ## **In-Paragraph List Template**
@@ -167,26 +167,26 @@ We provide support for the following clients:
 
 ### **Template Example**
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example](Common-List-Template-Example.png) <br> <<[getName**()**]>>** <br> &lt;&lt;/foreach&gt;&gt;|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example](Common-List-Template-Example.png) <br> <<[getName()]>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### **Report Example**
 
-|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **John Smith** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James**|
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> John Smith <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> July James|
 | :- |
 
 ## **In-Table List Template**
 
 ### **Template Example**
 
-|**Manager**|**Contract Price**|
+|Manager|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>><</foreach>> {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}} |
 
 ### **Report Example**
 
-|**Manager**|**Contract Price**|
+|Manager|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}} |
 |{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}} |
@@ -199,13 +199,13 @@ We provide support for the following clients:
 
 &lt;&lt;var [total = 0.0]&gt;&gt;
 
-|**Client**|**Total Contract Price**|
+|Client|Total Contract Price|
 | :- | :- |
 |**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;var [total = total + getPrice()]&gt;&gt;&lt;&lt;[total]&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
 
 **Report Example**
 
-|**Client**|**Total Contract Price**|
+|Client|Total Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|1950000|
@@ -221,7 +221,7 @@ We provide support for the following clients:
 
 ### **Template Example**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;if [getPrice() >= 1000000]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;[getPrice()]&gt;&gt;|
 |**&lt;&lt;else&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;[getPrice()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
@@ -229,7 +229,7 @@ We provide support for the following clients:
 
 ### **Report Example**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|750000|
@@ -246,7 +246,7 @@ We provide support for the following clients:
 
 ### **Template Example**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**<<if [!any()]>>No data**||
 |**<<else>><<foreach [in contracts]>><<[getClient().getName()]>>**|<<[getPrice()]>><</foreach>>|
@@ -254,14 +254,14 @@ We provide support for the following clients:
 
 ### **Report Example 1**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**No data**||
 
 
 ### **Report Example 2**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|750000|
@@ -278,19 +278,19 @@ We provide support for the following clients:
 
 ### **Template Example**
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example](Common-List-Template-Example.png) <br> **<<[getName**()**]>>** <br> **Clients: <<foreach [in getContracts**()** ]>><<[indexOf() != 0 ? ", " : ""]>><<[getClient**()**.getName**()**]>><</foreach>>** <br> &lt;&lt;/foreach&gt;&gt;|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example](Common-List-Template-Example.png) <br> <<[getName()]>> <br> Clients: <<foreach [in getContracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[getClient().getName()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### **Report Example**
 
-|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **John Smith** <br> **Clients: A Company, B Ltd., C & D** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> **Clients: E Corp., F & Partners** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James** <br> **Clients: G & Co., H Group, I & Sons, J Ent.**|
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
 | :- |
 
 ## **In-Table Master-Detail Template**
 
 ### **Template Example**
 
-|**Manager/Client**|**Contract Price**|
+|Manager/Client|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>> {{< /highlight >}}|
 |{{< highlight csharp >}} <<foreach [in getContracts()]>> <<[getClient().getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getPrice()]>><</foreach>><</foreach>> {{< /highlight >}}|
@@ -298,7 +298,7 @@ We provide support for the following clients:
 
 ### **Report Example**
 
-|**Manager/Client**|**Contract Price**|
+|Manager/Client|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}}|
 |{{< highlight csharp >}} A Company {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}}|
@@ -361,7 +361,7 @@ We provide support for the following clients:
 
 **Template Example**
 
-|**Manager**|**Contract Price**|
+|Manager|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in contracts
 .where(c => c.getDate().getYear() == 115)
@@ -372,7 +372,7 @@ We provide support for the following clients:
 
 **Report Example**
 
-|**Manager**|**Contract Price**|
+|Manager|Contract Price|
 | :- | :- |
 |**John Smith**|2300000|
 |**July James**|800000|

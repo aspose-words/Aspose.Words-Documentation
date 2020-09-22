@@ -24,7 +24,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJSP-178 |WORDSJSP-174 has not fully resolved in v2.7.0 |Bug |
 

@@ -17,7 +17,7 @@ This article describes the changes in the new API and how to easily fix your cod
 
 The new API boasts impressive new features with working for tables as well as some changes to the defaults used when creating new tables. These changes bring how a default table is constructed more in line with how Microsoft Word behaves. This allows for a more easily migration for new users, but may break the layout of tables built in existing code.
 
-|**Member** |**Default in 10.4 and Earlier** |**Default in 10.5 and Later** |**Comments** |
+|Member |Default in 10.4 and Earlier |Default in 10.5 and Later |Comments |
 | :- | :- | :- | :- |
 |**RowFormat.AllowAutoFit** |*False* |*True* |This was changed to be in line with the default formatting in Microsoft Word and is needed in order to automatically resize columns. |
 |**RowFormat.LeftPadding** **RowFormat.RightPadding** |*0.0* |*5.4* |Left and right padding was added to be the same as default table formatting in Microsoft Word. |
@@ -275,7 +275,7 @@ For instance the functionality that was provided by calling **RowFormat.AllowAut
 
 The following list describes the members that were deprecated and the new members that should be used instead. 
 
-|**Old Member** |**New Member** |
+|Old Member |New Member |
 | :- | :- |
 |**RowFormat.Alignment** |**Table.Alignment** |
 |**RowAlignment** |[TableAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/alignment)|

@@ -28,7 +28,7 @@ For a list of changes to the public API in this release refer to the following a
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-656 |Explicit symbol Arabic font changed by run font. |Bug |
 |WORDSJAVA-660 |QUOTE field update. |Bug |

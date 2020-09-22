@@ -30,7 +30,7 @@ This page contains release notes for [Aspose.Words for .NET 19.3](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-18146|Formatting the bar chart labels on the Y axis|Feature|
 |WORDSNET-18081|Add feature to preserve special content of DOC when it is converted to DOCX|Feature|

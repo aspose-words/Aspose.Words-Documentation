@@ -23,7 +23,7 @@ Aspose.Words for Xamarin.Android is a class library that enables your applicatio
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSXAND-7|Release Aspose.Words Targeting Xamarin Mono for Android Framework|Feature|
 

@@ -28,7 +28,7 @@ There are 177 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-782 |Specifying PdfImageCompression.JPEG option renders a black PNG in PDF |Bug |
 |WORDSJAVA-786 |Absent line endings during emf rendering |Bug |

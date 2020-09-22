@@ -24,7 +24,7 @@ There are 88 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-6074|Aspose.Words does not take in account style set in &lt;head&gt;.|Bug|
 |WORDSNET-6127|Table looks incorrectly while converting html to doc.|Bug|

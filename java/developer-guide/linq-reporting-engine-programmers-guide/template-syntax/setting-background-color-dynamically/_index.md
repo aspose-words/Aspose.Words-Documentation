@@ -53,7 +53,7 @@ Given that items is an enumeration of ColoredItem instances, you can use the fol
 
 To output every item into a separate table row colored dynamically, you can use the following template.
 
-|**&lt;&lt;foreach [item in items]&gt;&gt;&lt;&lt;backColor [item. REF getColor  \* MERGEFORMAT getColor()]&gt;&gt;&lt;&lt;[item. REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[item. REF getDescription getDescription()]&gt;&gt;&lt;&lt;/backColor&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
+|&lt;&lt;foreach [item in items]&gt;&gt;&lt;&lt;backColor [item. REF getColor  \* MERGEFORMAT getColor()]&gt;&gt;&lt;&lt;[item. REF getName  \* MERGEFORMAT getName()]&gt;&gt;|&lt;&lt;[item. REF getDescription getDescription()]&gt;&gt;&lt;&lt;/backColor&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
 | :- | :- |
 
 

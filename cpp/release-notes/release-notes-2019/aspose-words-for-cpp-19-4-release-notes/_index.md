@@ -42,7 +42,7 @@ The missing features will be added in the future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-602|Include Updating fields (including layout) to porting.|Feature|
 |WORDSCPP-601|Include Layout engine to porting.|Feature|

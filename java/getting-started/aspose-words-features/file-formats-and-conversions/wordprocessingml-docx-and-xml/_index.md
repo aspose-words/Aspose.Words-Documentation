@@ -25,7 +25,7 @@ WordprocessingML was first introduced in Microsoft Word 2003. WordprocessingML w
 
 This table explains which "versions" of WordprocessingML are supported by Aspose.Words for Java:
 
-|**WordprocessingML “Version”**|**Applicable Standard/Specification**|**Supported**|
+|WordprocessingML “Version”|Applicable Standard/Specification|Supported|
 | :- | :- | :- |
 |Microsoft Word 2003|[Microsoft Word 2003 XML](http://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Yes|
 |Microsoft Word 2007|[OOXML ECMA-376](http://www.ecma-international.org/publications/standards/Ecma-376.htm)|Yes|

@@ -26,7 +26,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-4307|A thick line shape when rendered, is cut off on its side.|Bug|
 |WORDSNET-5421|AutoShape border is cut off during open/save.|Bug|

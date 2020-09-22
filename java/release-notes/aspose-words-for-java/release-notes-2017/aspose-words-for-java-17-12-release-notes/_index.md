@@ -39,7 +39,7 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1669|Implement PixelFormat property in ImageSaveOptions class in Aspose.Words for Java|New Feature|
 |WORDSJAVA-1707|Metered License code upgraded to REST API 1.2.|Enhancement|

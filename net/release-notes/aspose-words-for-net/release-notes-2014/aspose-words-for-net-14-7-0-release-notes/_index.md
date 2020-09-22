@@ -25,7 +25,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10032|Aspose.Words return incorrect values for Paragraph.ParagraphFormat properties|Bug|
 |WORDSNET-10080|Word control characters break document formatting when imported from HTML|Bug|

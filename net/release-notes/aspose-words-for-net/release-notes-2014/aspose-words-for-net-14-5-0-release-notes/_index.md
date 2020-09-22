@@ -26,7 +26,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10020|/w:cr/ A Paragraph with Justified alignment is not rendering correctly in PDF|Bug|
 |WORDSNET-10040|Docx to Pdf conversion issue with fonts (Open Type)|Bug|

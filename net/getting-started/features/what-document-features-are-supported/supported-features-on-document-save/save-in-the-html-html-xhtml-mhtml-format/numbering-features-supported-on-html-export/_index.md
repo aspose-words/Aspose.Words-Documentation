@@ -27,7 +27,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 ##### **Numbering Definition**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Single Level|Yes|Single level lists can be output either as native HTML lists or as ordinary paragraphs. This depends on the properties of the list. <br><br>There are plans to introduce an option to control if lists are exported as native or paragraph lists.| |
 |Multi-Level|Yes|Multiple level lists are always outputted as ordinary paragraphs.| |
@@ -35,7 +35,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 ##### **Numbering Level**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Label Alignment|Yes|Ordinary paragraphs are used for alignment control in output HTML.| |
 |Picture Bullet|Yes|Lists with picture bullets are always outputted as native lists. Other possibilities will be considered to keep formatting more precisely.| |

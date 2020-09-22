@@ -11,7 +11,7 @@ This section provides a detailed description of the Aspose.Words for JasperRepor
 
 {{% /alert %}} 
 
-|**Feature** |**Description** |
+|Feature |Description |
 | :- | :- |
 |[DOC, DOCX, RTF, ODT, HTML, and TXT Export](https://docs.aspose.com/words/jasperreports/doc-docx-rtf-odt-html-and-txt-export/)|Export reports as Microsoft Word documents from JasperReports or JasperServer without utilizing Microsoft Word. |
 |[High Fidelity to the Report Design](/words/jasperreports/high-fidelity-to-the-report-design/)|DOC, DOCX, RTF and ODT reports have the same layout and appearance as the original report design. |

@@ -34,7 +34,7 @@ For a list of changes to the public API in this release refer to the following a
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-708 |Background gradient fill of shapes in Visio.Drawing.11 object are not preserved in PDF |Bug |
 |WORDSJAVA-721 |SetLicense throws IllegalStateException when loading license from folder that contains the Aspose.Words.jar |Bug |

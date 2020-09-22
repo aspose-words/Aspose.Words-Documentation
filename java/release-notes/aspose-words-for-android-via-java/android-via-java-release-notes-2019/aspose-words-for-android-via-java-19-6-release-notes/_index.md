@@ -36,7 +36,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.6](ht
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-428|Out of memory exception during the conversion to PDF|Bug|
 |WORDSJAND-430|Some reflections are not rendered|Bug|

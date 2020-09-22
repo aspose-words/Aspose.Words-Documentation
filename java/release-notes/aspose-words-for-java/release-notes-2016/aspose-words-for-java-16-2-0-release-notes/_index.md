@@ -26,7 +26,7 @@ There are 103 improvements and fixes in this regular monthly release. The most n
 - DrawingML shapes with guides are now scaled correctly
 - DML charts rendering improved
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1191|Canvas is stretched out in output Pdf|Bug|
 |WORDSJAVA-1217|Shape size and bounds retrieval issue for the shapes|Bug|

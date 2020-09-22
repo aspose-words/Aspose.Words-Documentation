@@ -31,7 +31,7 @@ For a list of changes to the public API in this release refer to the following a
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-437 |The wrong printer is chosen as the default printer when printing a document on Windows |Bug |
 |WORDSJAVA-580 |Updating INCLUDETEXT field causes MalformedURLException on Linux |Bug |
@@ -48,7 +48,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSJAVA-697 |com.sun.* Spi class slips into release. |Regression |
 
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSNET-6488 |Bullet symbols are rendering incorrectly in HTML |Bug |
 |WORDSNET-7196 |Shading effect of AutoShapes are getting lost when rendering to PDF |Bug |

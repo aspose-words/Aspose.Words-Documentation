@@ -40,7 +40,7 @@ There are 62 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-11253|A Paragraph is pushed down to the next page in output Documents|Bug|
 |WORDSNET-16555|Aspose.Words drops header/footer from altchunk document|Bug|

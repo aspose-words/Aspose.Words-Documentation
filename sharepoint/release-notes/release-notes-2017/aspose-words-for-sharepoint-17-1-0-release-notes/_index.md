@@ -14,7 +14,7 @@ This page contains release notes for [Aspose.Words for SharePoint 17.1.0](https:
 ## **Full List of Issues Covering all Changes in this Release**
 
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSSP-246|Error in conversion of document with Taxonomy columns|Bug|
 | |Upgrade to the latest version of Aspose.Words for Net (17.1.0)|New feature|

@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for .NET 20.2](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-19561|Support dynamic checkbox value setting using LINQ Reporting Engine|New Feature|
 |WORDSNET-19750|Add features to support field formats when FieldMergingArgs.Text is used|New Feature|

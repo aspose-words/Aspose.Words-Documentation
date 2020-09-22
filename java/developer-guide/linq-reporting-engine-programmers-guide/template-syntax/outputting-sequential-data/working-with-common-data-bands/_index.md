@@ -23,7 +23,7 @@ When the body of a common data band starts and ends within different paragraphs,
 
 **Note –** Examples in the table are given with paragraph marks shown as per Microsoft Word® editor.
 
-|**Template**|**Report**|
+|Template|Report|
 | :- | :- |
 |{{< highlight csharp >}}prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|prefix item1¶<br>item2¶<br>item3¶<br>suffix|
 |{{< highlight csharp >}}prefix<<foreach [item in items]>>¶<<[item]>><</foreach>> suffix{{< /highlight >}}|prefix¶<br>item1¶<br>item2¶<br>item3 suffix|

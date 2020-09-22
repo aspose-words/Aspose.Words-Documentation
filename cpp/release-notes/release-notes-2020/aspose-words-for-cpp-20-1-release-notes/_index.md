@@ -35,7 +35,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-12444|Support an API to check if VBA code is signed|New Feature|
 |WORDSNET-12204|Add feature to set/get the positioning of the floating table|New Feature|

@@ -36,7 +36,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-18182|Add feature to set properties of the horizontal rule|New Feature|
 |WORDSNET-19023|Throw warnings about the presence of JavaScript (or any other unsupported Scripts) in HTML|New Feature|

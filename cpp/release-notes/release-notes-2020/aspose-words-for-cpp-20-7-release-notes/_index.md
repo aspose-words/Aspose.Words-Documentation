@@ -36,7 +36,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-955	|Improve TIFF format support|New Feature|
 |WORDSNET-9500	|International characters (Tamil) are not converted correctly from MHTML to PDF|New Feature|

@@ -22,7 +22,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.9](ht
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-435|Image is not flipped|Bug|
 |WORDSJAND-436|The field is not updated when French-Switch culture is used|Bug|

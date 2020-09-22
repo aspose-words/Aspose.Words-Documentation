@@ -37,7 +37,7 @@ Significantly improved time and size when rendering PDF documents with DrawingML
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10490|An image overlaps the other content when converting to HTML|Bug|
 |WORDSNET-10764|Table's borders are missing after saving Docx to PDF/Docx/Doc|Bug|

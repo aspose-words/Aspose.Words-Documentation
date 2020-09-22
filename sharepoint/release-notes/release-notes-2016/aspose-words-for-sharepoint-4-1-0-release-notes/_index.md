@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for SharePoint 4.1.0](http://
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSSP-239 |Provide way to only convert documents to Pdf |New feature |
 |WORDSSP-241 |Aspose Words for SharePoint error during installation |Bug |

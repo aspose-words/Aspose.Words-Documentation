@@ -66,7 +66,7 @@ The following code example shows how to set the amount of space (in points) to a
 
 The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](http://www.aspose.com/api/java/words/com.aspose.words/classes/RowFormat) and [RowFormat.HeightRule](http://www.aspose.com/api/java/words/com.aspose.words/classes/RowFormat) properties of the given [Row](http://www.aspose.com/api/java/words/com.aspose.words/classes/Row).
 
-|**HeightRule Value**|**Description**|
+|HeightRule Value|Description|
 | :- | :- |
 |Auto|This is the default height rule given to a new row. Technically this means that no height rule is defined. The row is sized to fit the largest content within the cells of the row.|
 |At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in [RowFormat.Height](http://www.aspose.com/api/java/words/com.aspose.words/classes/RowFormat).|

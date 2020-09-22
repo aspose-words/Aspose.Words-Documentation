@@ -34,7 +34,7 @@ public String  REF getLocalAddress getLocalAddress()  REF getterBody { ... }
 
 Using table-row conditional blocks, you can pick to output a single row among several rows of a single document table depending on a condition like in the following example.
 
-|**...**|**...**|**...**|
+|...|...|...|
 | :- | :- | :- |
 |**&lt;&lt;if [client. REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[client. REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[client. REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;**||
 |**&lt;&lt;else&gt;&gt;&lt;&lt;[client. REF getName getName()]&gt;&gt;**|**&lt;&lt;[client. REF getCountry getCountry()]&gt;&gt;**|**&lt;&lt;[client. REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;**|
@@ -42,13 +42,13 @@ Using table-row conditional blocks, you can pick to output a single row among se
 
 You can normally use table-row conditional blocks within data bands to make elements of an enumeration look differently depending on a condition. Consider the following template.
 
-|**&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;if [ REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;**||
+|&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;if [ REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;|&lt;&lt;[ REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;||
 | :- | :- | :- |
 |**&lt;&lt;else&gt;&gt;&lt;&lt;[ REF getName getName()]&gt;&gt;**|**&lt;&lt;[ REF getCountry getCountry()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
-|**A Company**|**Australia**|<p>**219-241 Cleveland St**</p><p>**STRAWBERRY HILLS  NSW  1427**</p>|
+|A Company|Australia|<p>219-241 Cleveland St</p><p>STRAWBERRY HILLS  NSW  1427</p>|
 | :- | :- | :- |
 |**B Ltd.**|**Brazil**|<p>**Avenida João Jorge, 112, ap. 31**</p><p>**Vila Industrial**</p><p>**Campinas - SP**</p><p>**13035-680**</p>|
 |**C & D**|**Canada**|<p>**101-3485 RUE DE LA MONTAGNE**</p><p>**MONTRÉAL (QUÉBEC) H3G 2A6**</p>|
@@ -63,41 +63,41 @@ In this case, the engine produces a report as follows.
 
 Also, you can use data bands inside table-row conditional blocks. For example, you can provide an alternate content for an empty table-row data band using the following template.
 
-|**Client**|**Country**|**Local Address**|
+|Client|Country|Local Address|
 | :- | :- | :- |
 |**&lt;&lt;if [!clients. REF linqAny any()]&gt;&gt;No data**|||
 |**&lt;&lt;else&gt;&gt;&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[ REF getCountry  \* MERGEFORMAT getCountry()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/if&gt;&gt;**|
 
 In case when the corresponding enumeration is empty, the engine produces a report as follows.
 
-|**Client**|**Country**|**Local Address**|
+|Client|Country|Local Address|
 | :- | :- | :- |
 |**No data**|||
 
 A special case is a template option inside a single-column table row. In such a case, if you put an opening if, elseif, or else tag and a closing if tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
-|**Header**|
+|Header|
 | :- |
 |**&lt;&lt;if [false]&gt;&gt;Content to remove&lt;&lt;/if&gt;&gt;**|
 |**Footer**|
 
 In this case, the engine produces a report as follows.
 
-|**Header**|
+|Header|
 | :- |
 ||
 |**Footer**|
 
 However, if needed, you can override this behavior making the engine to treat such a template option as a table-row one by specifying a greedy switch like in the following template.
 
-|**Header**|
+|Header|
 | :- |
 |**&lt;&lt;if [false]&gt;&gt;Content to remove&lt;&lt;/if -greedy&gt;&gt;**|
 |**Footer**|
 
 In this case, the engine produces a report as follows.
 
-|**Header**|
+|Header|
 | :- |
 |**Footer**|
 

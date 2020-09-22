@@ -26,7 +26,7 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1414|java.lang.OutOfMemoryError is thrown while saving big image to pdf|Exception|
 |WORDSJAVA-1167|Performance issue while converting Doc to Pdf|Performance|

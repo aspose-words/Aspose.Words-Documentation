@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for .NET 5.2.1](http://www.as
 
 Here is a good set of new fixes, mostly in the HTML and PDF export modules.
 
-|**Issue ID** |**Component** |**Summary** |
+|Issue ID |Component |Summary |
 | :- | :- | :- |
 |5238 |DOCX |Extracted PDF document can’t be opened by Adobe PDF Reader 7 |
 |5257 |HTML |Newly created style omits paragraph attribute in CSS output if only one direct attribute specified |

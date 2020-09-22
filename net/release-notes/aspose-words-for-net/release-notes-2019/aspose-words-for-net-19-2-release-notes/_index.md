@@ -32,7 +32,7 @@ This page contains release notes for Aspose.Words for .NET 19.2
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-14532|Improve font substitution API|Feature|
 |WORDSNET-16111|Error handling in LINQ Reporting|Feature|

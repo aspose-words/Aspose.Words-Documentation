@@ -11,7 +11,7 @@ This section provides a comparison of availability of features between Aspose.Wo
 
 ### **File Formats and Conversions**
 
-|**Feature**|**Description**|**Aspose.Words for Java**|**Aspose.Words for Android via Java**|
+|Feature|Description|Aspose.Words for Java|Aspose.Words for Android via Java|
 | :- | :- | :- | :- |
 |High-Quality Conversions|Quickly and reliably, convert between several popular document formats.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Word (DOC)|The fastest and most complete DOC format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -28,7 +28,7 @@ This section provides a comparison of availability of features between Aspose.Wo
 
 Aspose.Words now provides high fidelity rendering of document pages.
 
-|**Feature**|**Aspose.Words for Java**|**Aspose.Words for Android via Java**|
+|Feature|Aspose.Words for Java|Aspose.Words for Android via Java|
 | :- | :- | :- |
 |Layout document into pages with high fidelity (exactly like Microsoft Word® would do that) to all the formats below.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Render individual pages or complete documents to PDF or XPS.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -42,7 +42,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 
 Aspose.Words provides a rich object model that consists of over 100 public classes, which allow you to programmatically generate, combine, modify, parse or otherwise examine loaded documents.
 
-|**Feature**|**Aspose.Words for Java**|**Aspose.Words for Android via Java**|
+|Feature|Aspose.Words for Java|Aspose.Words for Android via Java|
 | :- | :- | :- |
 |Access, create and modify paragraphs and text.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Access, create and modify images, textboxes and shapes.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -69,7 +69,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 
 Aspose.Words provides detailed programmatic access to formatting properties of all document elements.
 
-|**Feature**|**Aspose.Words for Java**|**Aspose.Words for Android via Java**|
+|Feature|Aspose.Words for Java|Aspose.Words for Android via Java|
 | :- | :- | :- |
 |Access and modify all character formatting including fonts, colors, effects, borders and shading.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Access and modify all paragraph formatting including indents, spacing, borders and shading, tab stops.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -85,7 +85,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 
 
 
-|**Feature**|**Aspose.Words for Java**|**Aspose.Words for Android via Java**|
+|Feature|Aspose.Words for Java|Aspose.Words for Android via Java|
 | :- | :- | :- |
 |Use all standard Microsoft Word mail merge fields in your reports including MERGEFIELD, NEXT, NEXTIF, ADDRESSBLOCK, GREETINGLINE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Execute mail merge for documents that contain even the most complex and nested IF fields and formulas.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -102,7 +102,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 
 LINQ Reporting Engine is an advanced reporting tool enabling you to generate documents based upon template documents and data obtained from various sources including databases, XML, JSON, OData, objects of custom types, external documents, and more out of the box.
 
-|**Key Features**|**Aspose.Words for .NET**|**Aspose.Words Android via Java**|
+|Key Features|Aspose.Words for .NET|Aspose.Words Android via Java|
 | :- | :- | :- |
 |Support of C# syntax and LINQ extension methods directly in templates (even for ADO.NET data sources)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Support of repeatable and conditional document blocks (loops and conditions) for tables, lists, and common content|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

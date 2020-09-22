@@ -25,7 +25,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJR-215|Table is exported in document's header instead of body in output DOCX|Bug|
 |WORDSJR-216|Export static and regular text using export.pdf.force.linebreak.policy value|Feature |

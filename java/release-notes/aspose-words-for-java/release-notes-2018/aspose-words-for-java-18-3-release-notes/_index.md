@@ -31,7 +31,7 @@ There are 71 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1734|Document.UpdateFields fails on the TOC with two-column layout.|Bug|
 |WORDSJAVA-1748|Update Java Samples - remove obsolete API members.|Enhancement|
@@ -198,7 +198,7 @@ Obsolete property MailMerge.RtlCleanupMode was removed.
 
 Following obsolete properties were removed from the PdfSaveOptions class:
 
-|**Removed property**|**Property to use instead**|
+|Removed property|Property to use instead|
 | :- | :- |
 |PdfSaveOptions.HeadingsOutlineLevels|PdfSaveOptions.OutlineOptions.HeadingsOutlineLevels|
 |PdfSaveOptions.ExpandedOutlineLevels|PdfSaveOptions.OutlineOptions.ExpandedOutlineLevels|

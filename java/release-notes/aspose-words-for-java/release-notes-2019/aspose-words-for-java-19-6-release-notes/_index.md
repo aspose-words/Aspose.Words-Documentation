@@ -33,7 +33,7 @@ This page contains release notes for [Aspose.Words for Java 19.6](https://reposi
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-5312|Support creating table styles|New Feature|
 |WORDSNET-17604|Provide a way to access Cell Padding properties of a specific TableStyle|New Feature|

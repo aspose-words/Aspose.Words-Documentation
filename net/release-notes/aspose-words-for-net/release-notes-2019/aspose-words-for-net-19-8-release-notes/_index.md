@@ -27,7 +27,7 @@ This page contains release notes for [Aspose.Words for .NET 19.8](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-18808|Analyze what it takes to convert a document with images in docker (Linux)|New Feature|
 |WORDSNET-2261|Kerning option is ignored upon rendering/converting to PDF|New Feature|

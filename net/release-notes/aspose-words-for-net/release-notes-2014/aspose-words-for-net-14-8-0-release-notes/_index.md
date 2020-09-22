@@ -26,7 +26,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10074|/negative page margins/ Content wraps to the next page not like in Word|Bug|
 |WORDSNET-10097|Shape becomes shifted down after DOCX-HTMl-DOCX round-trip|Bug|

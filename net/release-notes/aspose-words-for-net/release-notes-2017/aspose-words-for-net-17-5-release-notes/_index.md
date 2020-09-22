@@ -31,7 +31,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10427|Doc to fixed file format conversion issue with STYLEREF|Bug|
 |WORDSNET-10833|non-breaking space. Text position is changed after conversion from Docx to Doc/Pdf|Bug|

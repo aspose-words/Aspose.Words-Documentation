@@ -31,7 +31,7 @@ There are 106 improvements and fixes in this regular monthly release. The most n
 
 Full List of Issues Covering all Changes in this Release
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1679|DOCX to PDF conversion issue with Khmer text. Not loaded font resource.|Bug|
 |WORDSJAVA-1662|Image border is appeared after conversion from DOCX to PDF|Bug|

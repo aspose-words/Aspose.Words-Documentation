@@ -31,7 +31,7 @@ There are 102 improvements and fixes in this regular monthly release. The most 
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10454|Contents move down to the page after conversion from Docx to Pdf|Bug|
 |WORDSNET-10455|Position of table's rows is changed after conversion from Docx to Pdf|Bug|

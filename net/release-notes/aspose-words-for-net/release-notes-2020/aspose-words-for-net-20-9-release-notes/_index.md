@@ -22,7 +22,7 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-20589	|PDF to DOCX - footnotes|New Feature|
 |WORDSNET-522	|Allow applying font formatting to FormField as a whole|New Feature|

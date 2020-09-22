@@ -31,7 +31,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-7384|Document.Save method do not save the Shape correctly|Bug|
 |WORDSNET-7385|Paragraphs with bullet list do not export correctly in Fixed File Format|Bug|

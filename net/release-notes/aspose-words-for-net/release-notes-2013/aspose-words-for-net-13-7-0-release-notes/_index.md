@@ -31,7 +31,7 @@ There are 138 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-4965|Position of frame is incorrect after rendering.|Bug|
 |WORDSNET-5021|A field with CHARFORMAT is bold on update, though field code is not bold.|Bug|

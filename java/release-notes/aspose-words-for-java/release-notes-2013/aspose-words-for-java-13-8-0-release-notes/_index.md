@@ -28,7 +28,7 @@ For a list of changes to the public API in this release refer to the in the docu
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-507 |Image quality is degraded when converting to HTML |Bug |
 |WORDSJAVA-548 |While converting Doc to Pdf, Circular image rendered as Square. |Bug |

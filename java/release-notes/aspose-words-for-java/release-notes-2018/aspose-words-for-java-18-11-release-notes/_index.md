@@ -38,7 +38,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1818|Encrypted ODT file cannot be opened with OOo|Bug|
 |WORDSJAVA-1857|Non-breakable space vanishes in Online API JavaDoc.|Bug|

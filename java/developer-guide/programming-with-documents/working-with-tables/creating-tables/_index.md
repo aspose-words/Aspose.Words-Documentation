@@ -9,7 +9,7 @@ url: /java/creating-tables/
 
 Aspose.Words provides several different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
 
-|**Table Property**|**Default in Aspose.Words**|
+|Table Property|Default in Aspose.Words|
 | :- | :- |
 |Border Style|Single|
 |Border Width|1/2 pt|
@@ -33,7 +33,7 @@ In Aspose.Words a table is normally inserted using [DocumentBuilder](http://www.
 - [DocumentBuilder.endTable()](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/endTable\(\)/)
 - [DocumentBuilder.writeln()](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/writeln\(\)/)
 
-|**Operation**|**Description**|**Table State**|
+|Operation|Description|Table State|
 | :- | :- | :- |
 |**DocumentBuilder.StartTable**|Starts building a new table at the current cursor position.The table is created empty and has no rows or cells yet.|![todo:image_alt_text](creating-tables_1.png)|
 |**DocumentBuilder.InsertCell**|Inserts a new row and cell into the table.|![todo:image_alt_text](creating-tables_2.png)|
@@ -121,7 +121,7 @@ Aspose.Words supports inserting content into a document from an HTML source by u
 
 As described in previous articles, Aspose.Words provides several methods for inserting new tables into a document. Each has its advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
 
-|**Method**|**Advantages**|**Disadvantages**|
+|Method|Advantages|Disadvantages|
 | :- | :- | :- |
 |DocumentBuilder ([DocumentBuilder.startTable()](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/startTable\(\)/))|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
 |Table ([Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table))|Fits in better with surrounding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|The table is created “blank”. Before most operations are performed [Table.ensureMinimum()](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/ensureMinimum\(\)/) must be called to create any missing child nodes.|

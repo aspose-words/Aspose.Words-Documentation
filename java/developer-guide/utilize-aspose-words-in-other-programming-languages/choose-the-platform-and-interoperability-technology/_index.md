@@ -34,7 +34,7 @@ This is a list of the suggested interoperability technologies to use for a varie
 
 {{% /alert %}} 
 
-|**Programming Language** |**Aspose.Words to Use** |**Interoperability Technology** |
+|Programming Language |Aspose.Words to Use |Interoperability Technology |
 | :- | :- | :- |
 |ASP |.NET |COM Interop |
 |ColdFusion |.NET |ColdFusion .NET extension |
@@ -52,7 +52,7 @@ This is a list of the suggested interoperability technologies to use for a varie
 |Visual Basic |.NET |COM Interop |
 From the above table you can see that for some programming languages it is possible to use either Aspose.Words for .NET or Aspose.Words for Java. The following table can help you choose:
 
-|**Scenario** |**Comments** |
+|Scenario |Comments |
 | :- | :- |
 |Aspose.Words for .NET via COM Interop |<p>Consider the following:</p><p>- Available on Microsoft Windows platforms only.</p><p>- Cannot call static methods.</p><p>- Hard to call overloaded methods (suffixes added to names).</p><p>- Hard to use enumerated values (need to look up and use a constant value).</p><p>- Cannot invoke constructors with parameters.</p>|
 |Aspose.Words for Java via Java Bridge or Inline::Java |<p>Consider the following:</p><p>- Available on any platform where Java is available.</p><p>- Can call static methods, constructors with parameters, overloaded methods and use enumerated values.</p>|

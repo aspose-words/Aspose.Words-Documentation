@@ -26,7 +26,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10181|Some words are trimmed from the right side.|Bug|
 |WORDSNET-10284|CSS style padding-right does not work after conversion from HTML to Pdf|Bug|

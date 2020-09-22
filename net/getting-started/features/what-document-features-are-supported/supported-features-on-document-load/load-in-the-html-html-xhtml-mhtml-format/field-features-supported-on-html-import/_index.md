@@ -38,13 +38,13 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 - [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
 - [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldtype)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Field Codes|Yes| | |
 
 ## **Date and Time**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |CreateDate|N/A| | |
 |Date|N/A| | |
@@ -55,7 +55,7 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 
 ## **Document Automation**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Compare|N/A| | |
 |DocVariable|N/A| | |
@@ -66,7 +66,7 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 
 ## **Document Information**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Author|N/A| | |
 |Comments|N/A| | |
@@ -85,7 +85,7 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 
 ## **Equations and Formulas**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Formula|N/A| | |
 |Advance|N/A| | |
@@ -101,7 +101,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 - [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
 - [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|||
+|Feature|Supported|Comment|See Also|||
 | :- | :- | :- | :- | :- | :- |
 |TextInput|Yes|Imported from &lt;input type="text|password|file" name="XXX" /&gt;.|<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
 |CheckBox|Yes|Imported from &lt;input type="checkbox" name="XXX" /&gt;|- **FormField.Type**|||
@@ -120,7 +120,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 
 ## **Index and Tables**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Index|N/A| | |
 |RD|N/A| | |
@@ -132,7 +132,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 
 ## **Links and References**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AutoText|N/A| | |
 |AutoTextList|N/A| | |
@@ -150,7 +150,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 
 ## **Mail Merge**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AddressBlock|N/A| | |
 |Ask|N/A| | |
@@ -169,7 +169,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 
 ## **Numbering**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |AutoNum|N/A| | |
 |AutoNumLgl|N/A| | |
@@ -184,7 +184,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 
 ## **User Information**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |UserAddress|N/A| | |
 |UserInitials|N/A| | |
@@ -197,7 +197,7 @@ Aspose.Words fully supports all features of hyperlink fields. You can create ne
 - [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
 - [How to Replace or Modify Hyperlinks](https://docs.aspose.com/words/net/working-with-hyperlinks-and-html/)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Text|Yes| | |
 |Hyperlinked Shape or Image|Yes| | |
@@ -209,7 +209,7 @@ Aspose.Words fully supports all features of hyperlink fields. You can create ne
 
 ## **Formatting Switches**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Date and Time Formatting|N/A| | |
 |Numbering Formatting|N/A| | |

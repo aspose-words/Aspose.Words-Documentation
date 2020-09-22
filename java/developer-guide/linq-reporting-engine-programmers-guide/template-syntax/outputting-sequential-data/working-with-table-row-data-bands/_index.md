@@ -20,14 +20,14 @@ The following examples in this section are given using ds, a DataSet instance co
 
 The most common use case of a table-row data band is the building of a document table that represents a list of items. You can use a template like the following one to achieve this.
 
-|**Client**|**Manager**|**Contract Price**|
+|Client|Manager|Contract Price|
 | :- | :- | :- |
 |<p>**&lt;&lt;foreach [**</p><p>**c in ds.Contracts**</p><p>**]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;**</p>|**&lt;&lt;[c.Managers.Name]&gt;&gt;**|<p>**&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/**</p><p>**foreach&gt;&gt;**</p>|
 |**Total:**||<p>**&lt;&lt;[ds**</p><p>**.Contracts**</p><p>**. REF linqSum sum(c =>**</p><p>**c.Price)]&gt;&gt;**</p>|
 
 In this case, the engine produces a report as follows.
 
-|**Client**|**Manager**|**Contract Price**|
+|Client|Manager|Contract Price|
 | :- | :- | :- |
 |**A Company**|**John Smith**|**1200000**|
 |**B Ltd.**|**John Smith**|**750000**|
@@ -42,7 +42,7 @@ In this case, the engine produces a report as follows.
 
 To populate a document table with a master-detail data, you can use nested table-row data bands like in the following template.
 
-|**Manager/Client**|**Contract Price**|
+|Manager/Client|Contract Price|
 | :- | :- |
 |<p>&lt;&lt;foreach [</p><p>m in ds.Managers</p><p>]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;</p>|<p>&lt;&lt;[m.Contracts. REF linqSum sum(</p><p>c => c.Price)]&gt;&gt;</p>|
 |<p>&lt;&lt;foreach [</p><p>c in m.Contracts</p><p>]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt;</p>|<p>&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/</p><p>foreach&gt;&gt;&lt;&lt;/</p><p>foreach&gt;&gt;</p>|
@@ -50,7 +50,7 @@ To populate a document table with a master-detail data, you can use nested table
 
 In this case, the engine produces a report as follows.
 
-|**Manager/Client**|**Contract Price**|
+|Manager/Client|Contract Price|
 | :- | :- |
 |**John Smith**|**2300000**|
 |**A Company**|**1200000**|
@@ -68,13 +68,13 @@ In this case, the engine produces a report as follows.
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.
 
-|**Manager**|**Clients**|
+|Manager|Clients|
 | :- | :- |
 |<p>&lt;&lt;foreach [</p><p>m in ds.Managers</p><p>]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;</p>|<p>&lt;&lt;foreach [<br>c in m.Contracts<br>]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;</p><p>&lt;&lt;/foreach&gt;&gt;&lt;&lt;/foreach&gt;&gt;</p>|
 
 In this case, the engine produces a report as follows.
 
-|**Manager**|**Clients**|
+|Manager|Clients|
 | :- | :- |
 |**John Smith**|<p>**A Company**</p><p>**B Ltd.**</p><p>**C & D**</p><p></p>|
 |**Tony Anderson**|<p>**E Corp.**</p><p>**F & Partners**</p><p></p>|
@@ -82,25 +82,25 @@ In this case, the engine produces a report as follows.
 
 A special case is a data band inside a single-column table row. In such a case, if you put opening and closing foreach tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
-|**Managers**|
+|Managers|
 | :- |
 |**&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;  &lt;&lt;/foreach&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
-|**Managers**|
+|Managers|
 | :- |
 |**John Smith  Tony Anderson  July James**  |
 
 However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a greedy switch like in the following template.
 
-|**Managers**|
+|Managers|
 | :- |
 |**&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;&lt;&lt;/foreach -greedy&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
-|**Managers**|
+|Managers|
 | :- |
 |**John Smith**|
 |**Tony Anderson**|

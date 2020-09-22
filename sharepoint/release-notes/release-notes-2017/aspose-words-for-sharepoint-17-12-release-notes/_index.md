@@ -15,7 +15,7 @@ This version includes all bug fixes and public API changes made in Aspose.Words 
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for .NET (17.12) |New feature|
 

@@ -26,7 +26,7 @@ There are 79 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-913 |Incorrect conversion of watermark from word document to pdf |Bug |
 |WORDSJAVA-916 |Svg: spare text tags for empty text. |Bug |

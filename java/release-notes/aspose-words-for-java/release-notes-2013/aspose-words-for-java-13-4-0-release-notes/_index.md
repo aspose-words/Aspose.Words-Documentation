@@ -34,7 +34,7 @@ For a list of changes to the public API in this release refer to the following a
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-652 |Page prints with incorrect orientation when printing to a physical printer |Bug |
 |WORDSJAVA-659 |% formatting of doubles in charts. |Bug |

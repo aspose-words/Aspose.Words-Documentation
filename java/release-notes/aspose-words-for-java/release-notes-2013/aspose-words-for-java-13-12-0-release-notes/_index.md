@@ -31,7 +31,7 @@ The following is a list of changes in this version of Aspose.Words.
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-690 |Saving WordArt with Webdings font to non-Microsoft formats |Bug |
 |WORDSJAVA-771 |Investigate why does the default locale of JVM changes randomly |Bug |

@@ -32,7 +32,7 @@ There are 101 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-3025|Some characters are not displayed during inserting.|Bug|
 |WORDSNET-4522|STYLEREF field in header/footer is improperly updated upon rendering|Bug|

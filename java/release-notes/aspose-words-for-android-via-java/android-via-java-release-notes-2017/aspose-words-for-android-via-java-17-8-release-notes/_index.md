@@ -30,7 +30,7 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-282|Windows fonts are not being used for substitutions even if exist|Bug|
 |WORDSJAND-280|License.setLicense method throws Signature is invalid Exception|Bug|

@@ -26,7 +26,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10026|DocumentBuilder.InsertHtml changes the paragraph indentation|Bug|
 |WORDSNET-10090|Text Frame position is changed after conversion from Doc to Pdf/Doc/Docx|Bug|

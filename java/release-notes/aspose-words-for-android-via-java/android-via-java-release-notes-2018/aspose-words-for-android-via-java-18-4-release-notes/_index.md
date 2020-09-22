@@ -45,7 +45,7 @@ There are 70+ improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-359|Dml fill type is incorrect|Bug|
 |WORDSJAND-362|Mhtml is getting parsed incorrectly|Bug|

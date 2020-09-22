@@ -32,7 +32,7 @@ Improved vertical text inside text boxes during rendering
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10065|Second line of Multi-line text in DrawingML is not visible in fixed page formats|Bug|
 |WORDSNET-10305|LayoutCollector.GetStartPageIndex method incorrectly updates FILENAME value|Bug|

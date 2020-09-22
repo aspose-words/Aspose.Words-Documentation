@@ -30,7 +30,7 @@ This page contains release notes for [Aspose.Words for .NET 13.4.0](https://www.
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-2504|Hyperlink to an external document crashes XPS Viewer|Bug|
 |WORDSNET-5411|On DOC to PDF conversion, Logo inside header is misplaced|Bug|

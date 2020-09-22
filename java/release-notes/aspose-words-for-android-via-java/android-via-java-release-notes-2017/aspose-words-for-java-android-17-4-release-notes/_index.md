@@ -35,7 +35,7 @@ Aspose.Words for Java.Android 17.4 also includes the current Aspose.Words for Ja
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-165|Incorrect scale of pictures|Bug|
 |WORDSJAND-170|Picture is not visible|Bug|

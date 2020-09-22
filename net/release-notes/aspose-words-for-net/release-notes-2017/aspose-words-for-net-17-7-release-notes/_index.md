@@ -30,7 +30,7 @@ There are 88 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10407|A Table is moved from middle of page to the top in PDF|Bug|
 |WORDSNET-10598|/table grid/ Table's layout get corrupted after conversion from Docx to Pdf|Bug|

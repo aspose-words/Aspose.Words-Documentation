@@ -34,7 +34,7 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-11845|Docx to Png/Pdf conversion issue with table's autofit behavior|Bug|
 |WORDSNET-12887|Tables misaligned in rendered PDF|Bug|

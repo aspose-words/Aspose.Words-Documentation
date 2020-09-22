@@ -28,7 +28,7 @@ When migrating from a previous version to a newer version implementing the refac
 
 {{% /alert %}} 
 
-|**Description of Possible Errors** |
+|Description of Possible Errors |
 | :- |
 |Cannot resolve method ‘saveToPdf’. |
 |Cannot resolve method ‘addMergeFieldEventHandler’. |

@@ -44,7 +44,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for Java (18.10)|New Feature|
 |WORDSJAND-405|Currency formatting issue.|Bug|

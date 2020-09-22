@@ -22,7 +22,7 @@ This page contains release notes for Aspose.Words for Java 19.10.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-2177|JSON data source functionality for Reporting.|New Feature|
 |WORDSJAVA-2188|Main Maven POM should load right Aspose.Words.Shaping plugins for the local platform.|New Feature|

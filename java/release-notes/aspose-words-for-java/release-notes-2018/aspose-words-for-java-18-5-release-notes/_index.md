@@ -36,7 +36,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1753|Path Gradient Brush disappears after Scale Transform.|Bug|
 |WORDSJAVA-1758|Curly braces in chart are lost in PDF|Bug|

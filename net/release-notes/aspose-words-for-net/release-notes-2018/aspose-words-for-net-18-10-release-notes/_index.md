@@ -34,7 +34,7 @@ There are 64 improvements and fixes in this regular monthly release. The most no
 
 ## ` `**Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-17033|PDF output is corrupted after some page|Bug|
 |WORDSNET-17257|Missing Text when converting RTF|Bug|

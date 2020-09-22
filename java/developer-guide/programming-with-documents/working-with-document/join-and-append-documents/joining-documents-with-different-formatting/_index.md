@@ -46,12 +46,12 @@ Further information about the different import modes can be found in the API des
 
 For the samples below involving lists we will be using these documents:
 
-|**Destination document**|
+|Destination document|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/ri3kLxB.png)|
 
 
-|**Source document**|
+|Source document|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/DmbitfD.png)|
 Each document contains a list, both of which are defined to use a linked style called MyStyle .

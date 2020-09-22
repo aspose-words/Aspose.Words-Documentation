@@ -11,7 +11,7 @@ Aspose.Words for JasperReports exports reports as Microsoft Word documents in su
 
 {{% /alert %}} 
 
-|**The Bubble Chart Report rendered by JasperReports built-in report exporter (RTF).** |**The Bubble Chart Report rendered by Aspose.Words for JasperReports (DOC).** |
+|The Bubble Chart Report rendered by JasperReports built-in report exporter (RTF). |The Bubble Chart Report rendered by Aspose.Words for JasperReports (DOC). |
 | :- | :- |
 |![todo:image_alt_text](high-fidelity-to-the-report-design_1.png)|![todo:image_alt_text](high-fidelity-to-the-report-design_2.png)|
 |**The Shipping Report viewed in the standard JasperReport viewer.** |**The Shipping Report rendered by Aspose.Words for JasperReports exporter (DOCX).** |

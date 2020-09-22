@@ -7,7 +7,7 @@ url: /sharepoint/installing-aspose-words-for-sharepoint/
 
 Aspose.Words for SharePoint is downloadable as Aspose.Words.SharePoint.zip archive. This archive contains the following files:
 
-|**File**|**Description**|
+|File|Description|
 | :- | :- |
 |Aspose.Words.SharePoint.2007.wsp|SharePoint 2007/3.0 solution file. Aspose.Words for SharePoint is packaged as a SharePoint solution to facilitate deployment/retraction and feature activation/deactivation across the server farm.|
 |Aspose.Words.SharePoint.2010.wsp|A solution file for SharePoint 2010. The setup program automatically detects the installed SharePoint version and uses an appropriate solution file.|

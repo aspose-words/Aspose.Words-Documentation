@@ -32,7 +32,7 @@ Aspose.Words is a class library that allows your application to perform the foll
 
 The following table compares Open XML SDK and Aspose.Words features.
 
-|**Feature or Feature Category**|**Open XML SDK**|**Aspose.Words**|
+|Feature or Feature Category|Open XML SDK|Aspose.Words|
 | :- | :- | :- |
 |Supported document formats|DOCX|DOC, RTF, WordML 2003, DOCX, HTML, MHTML, ODT, EPUB, PDF, XPS|
 |Convert between document formats|No|Yes|

@@ -42,7 +42,7 @@ There are 90+ improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-317|Support saving to BMP|New Feature|
 |WORDSJAND-337|Implement JPEG tiff compressor|New Feature|

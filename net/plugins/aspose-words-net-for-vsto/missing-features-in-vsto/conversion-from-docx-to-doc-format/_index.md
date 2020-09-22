@@ -7,7 +7,7 @@ url: /net/conversion-from-docx-to-doc-format/
 
 **Aspose.Words** unique feature that provide flexibility in version conversions without affecting work.**SaveFormat** is enumeration that can convert document in the extensions given below in table.
 
-|**Member Name** |**Value** |**Description** |
+|Member Name |Value |Description |
 | :- | :- | :- |
 |Unknown |0 |Indicates the format in which the document is saved. |
 |Doc |1 |Indicates the format in which the document is saved. |

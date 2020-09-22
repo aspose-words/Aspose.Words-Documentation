@@ -30,7 +30,7 @@ When Aspose.Words reads a Word document into memory, objects of different types 
 
 The following illustration is a UML class diagram that shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in italics. Note that the Aspose.Words DOM also contains non-node classes such as [Style](https://apireference.aspose.com/net/words/aspose.words/style), [PageSetup](https://apireference.aspose.com/net/words/aspose.words/pagesetup), [Font](https://apireference.aspose.com/net/words/aspose.words/font)**,** etc that do not participate in the inheritance and they are not shown on this diagram.
 
-|**Class diagram.**|** |
+|Class diagram.| |
 | :- | :- |
 |![todo:image_alt_text](aspose-words-document-object-model_3.png)| |
 {{% alert color="primary" %}} 
@@ -39,7 +39,7 @@ The following table lists Aspose.Words node classes and their short descriptions
 
 {{% /alert %}} 
 
-|**Aspose.Words Class**|**Category**|**Description**|
+|Aspose.Words Class|Category|Description|
 | :- | :- | :- |
 |[Document](https://apireference.aspose.com/net/words/aspose.words/document)|Document|A document object that, as the root of the document tree, provides access to the entire Word document.|
 |[Section](https://apireference.aspose.com/net/words/aspose.words/section)|Document|A section object that corresponds to one section in a Word document.|
@@ -70,7 +70,7 @@ The following table lists Aspose.Words node classes and their short descriptions
 |[OfficeMath](https://apireference.aspose.com/net/words/aspose.words.math/officemath)|Math|Represents an Office math object such as a function, equation or matrix.|
 The following table lists Aspose.Words base node classes that help to form the class hierarchy.
 
-|**Class**|**Description**|
+|Class|Description|
 | :- | :- |
 |[Node](https://apireference.aspose.com/net/words/aspose.words/node)|Abstract base class for all nodes of a Word document. Provides basic functionality of a child node.|
 |[CompositeNode](https://apireference.aspose.com/net/words/aspose.words/compositenode)|Base class for nodes that can contain other nodes. Provides operations to access, insert, remove and select child nodes.|
@@ -91,7 +91,7 @@ The following example shows how to use the NodeType enumeration.
 
 This documentation sometimes refers to a group of node classes as belonging to a "level" in a document, for example, "block-level" or "inline-level" (also known as "inline") nodes. The distinction of levels in a document is purely logical and is not explicitly expressed by inheritance or other means in the Aspose.Words DOM. The level of the node is used to describe where in the document tree the node would typically occur. The following table lists the logical node levels, descriptions and the classes that belong to each level.
 
-|**Node Level**|**Classes**|**Description**|
+|Node Level|Classes|Description|
 | :- | :- | :- |
 |Document level|**Section**|The top level Document node contains only Section objects. A Section is a container for stories (independent flows of text) for the main text and optionally headers and footers.|
 |Block level|**Paragraph**, **Table**, **StructuredDocumentTag**, **CustomXmlMarkup**|Tables and paragraphs are block-level elements and contain other elements. Custom markup nodes can contain nested block-level nodes.|
@@ -103,7 +103,7 @@ The following diagrams define the "schema" of the Aspose.Words document tree. Fr
 
 ### **Document and Section**
 
-|**Document and section diagram.**|** |
+|Document and section diagram.| |
 | :- | :- |
 |![todo:image_alt_text](aspose-words-document-object-model_4.png)| |
 On the above diagram:* [Document](https://apireference.aspose.com/net/words/aspose.words/document) has one or more [Section](http://www.aspose.com/api/net/words/aspose.words/section) nodes.
@@ -121,7 +121,7 @@ Additionally, each word document can contain a glossary document. A glossary doc
 
 ### **Block-level Nodes**
 
-|**Block-level nodes diagram.**|** |
+|Block-level nodes diagram.| |
 | :- | :- |
 |![todo:image_alt_text](aspose-words-document-object-model_5.png)| |
 On the above diagram:* Block-level elements can occur in a number of places in the document tree (e.g. as children of **Body,** Footnote, Comment, Cell and other nodes).
@@ -133,7 +133,7 @@ On the above diagram:* Block-level elements can occur in a number of places in t
 
 ### **Inline-level Nodes**
 
-|**Inline-level nodes diagram.**|** |
+|Inline-level nodes diagram.| |
 | :- | :- |
 |![todo:image_alt_text](aspose-words-document-object-model_6.png)| |
 On the above diagram:* **Paragraph** is the most frequently encountered container of inline-level nodes.
@@ -154,7 +154,7 @@ Documents in DOCX format can contain a special type of graphics called Shape. Th
 
 ### **Table, Row and Cell**
 
-|**Table, row and cell diagram.**|** |
+|Table, row and cell diagram.| |
 | :- | :- |
 |![todo:image_alt_text](aspose-words-document-object-model_7.png)| |
 On the above diagram:* **Table** can have many rows.
@@ -183,7 +183,7 @@ On each level markup nodes of the same level can be nested. For example, **Struc
 
 Aspose.Words represents a document as a tree of nodes. An integral feature of the tree is the ability to navigate between the nodes. This section shows how to explore and navigate the document tree in Aspose.Words.When the sample fax document presented earlier is opened in **DocumentExplorer** (an example project which is available on [Github](https://github.com/asposewords/Aspose_Words_NET) under "ViewersAndVisualizers"), it shows the tree of nodes exactly as it is represented in Aspose.Words:
 
-|**Tree of nodes.**|** |
+|Tree of nodes.| |
 | :- | :- |
 |![todo:image_alt_text](aspose-words-document-object-model_8.png)| |
 
@@ -195,12 +195,12 @@ The nodes that can contain other nodes derive from the CompositeNode class and a
 
 The following UML class diagram shows the classes and methods we are going to explore in the remainder of this topic:
 
-|**Classes and methods.**|** |
+|Classes and methods.| |
 | :- | :- |
 |![todo:image_alt_text](aspose-words-document-object-model_9.png)| |
 The UML object diagram below shows several nodes of the fax sample document and how they are connected to each other via the parent, child and sibling properties:
 
-|**Several nodes of the fax sample document.**|** |
+|Several nodes of the fax sample document.| |
 | :- | :- |
 |![todo:image_alt_text](aspose-words-document-object-model_10.png)| |
 

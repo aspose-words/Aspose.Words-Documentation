@@ -30,7 +30,7 @@ There are 118 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-2150|MS Word does not highlight white spaces. AW should do the same.|Bug|
 |WORDSNET-4838|Vertical alignment of table cell defined using table style, is lost during converting and rendering.|Bug|

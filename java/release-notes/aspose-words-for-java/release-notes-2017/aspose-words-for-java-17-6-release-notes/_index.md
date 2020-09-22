@@ -32,7 +32,7 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1515|ShapeType enum name is changed to number during Wml document roundtrip.|Bug|
 |WORDSJAVA-1518|Swapped horizontal and vertical resolution.|Bug|

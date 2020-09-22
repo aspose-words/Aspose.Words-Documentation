@@ -9,7 +9,7 @@ url: /reportingservices/supported-document-formats/
 
 The following table indicates the input and output file formats supported by Aspose.Words for Reporting Services.
 
-|**Format**|**Description**|**Load**|**Save**|**Remarks**|
+|Format|Description|Load|Save|Remarks|
 | :- | :- | :- | :- | :- |
 |RDL|Report Definition Language|{{< emoticons/tick >}}| | |
 |RDLC|Report Definition Language Client|{{< emoticons/tick >}}| | |

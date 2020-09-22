@@ -26,7 +26,7 @@ Since the code base of 'Aspose.Words for Android via Java' matches the code of r
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-443|Foreign characters not rendering correctly in HTML.|Bug|
 |WORDSJAND-452|The code hangs on reading the TIFF image.|Bug|

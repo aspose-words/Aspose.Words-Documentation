@@ -24,7 +24,7 @@ There are 51 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1469|Document.UpdateFields updates the INDEX field incorrectly.|Bug|
 |WORDSJAVA-1476|List numbering resets when rendering Aspose.Words generated DOCX to PDF with Adlib|Bug|

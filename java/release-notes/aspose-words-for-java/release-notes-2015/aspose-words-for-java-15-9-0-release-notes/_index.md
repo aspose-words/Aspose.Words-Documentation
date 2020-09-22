@@ -25,7 +25,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1132 |Printer tray information gets lost when printing with AsposeWordsPrintDocument |Bug |
 |WORDSJAVA-1139 |Docx conversion to html is not working properly on my Linux Enviorment |Bug |

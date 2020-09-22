@@ -41,7 +41,7 @@ Printer metrics are supported on the Windows platform.
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1028 |Pixel shift of thin line, rectangular fill. |Bug |
 |WORDSJAVA-1065 |Enlarged crop of image. |Bug |

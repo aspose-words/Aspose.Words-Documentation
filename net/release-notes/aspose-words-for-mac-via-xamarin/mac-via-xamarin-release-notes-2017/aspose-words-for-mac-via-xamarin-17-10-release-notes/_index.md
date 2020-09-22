@@ -26,7 +26,7 @@ Aspose.Words for Mac via Xamarin features can be divided into four main areas:
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSXMAC-1|Analyze what it takes to work Aspose.Words with Xamarin.Mac (Mono)|New Feature|
 |WORDSXMAC-2|Impelemt porting to Xamarin.Mac|New Feature|

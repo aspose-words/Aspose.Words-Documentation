@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for SharePoint 16.12.0](http:
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSSP-243 |SharePoint 2013 ListItem Metadata and Word Quickparts not in sync |Bug |
 | |Upgrade to the latest version of Aspose.Words for .NET (16.12.0) |New feature |

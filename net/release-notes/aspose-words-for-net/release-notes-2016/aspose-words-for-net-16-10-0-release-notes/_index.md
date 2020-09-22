@@ -26,7 +26,7 @@ There are 109 improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10206|/font substitution/ Font fallback issue with space character|Bug|
 |WORDSNET-12191|/document grid + charSpace/ AW incorrectly wraps lines|Bug|

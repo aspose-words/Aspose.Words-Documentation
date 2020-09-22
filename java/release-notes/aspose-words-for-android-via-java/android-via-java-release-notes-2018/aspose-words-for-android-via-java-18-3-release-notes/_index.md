@@ -33,7 +33,7 @@ There are 70+ improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-349|Attributes are sorted incorrectly|Bug|
 |WORDSJAND-352|Result Docx document has incorrect settings.xml file|Bug|

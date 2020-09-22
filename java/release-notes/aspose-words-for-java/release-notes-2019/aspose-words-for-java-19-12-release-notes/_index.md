@@ -26,7 +26,7 @@ This page contains release notes for [Aspose.Words for Java 19.12](https://repos
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-2179|Truncate Font Height compatibility option|New Feature|
 |WORDSJAVA-2221|Build harfbuzz-shaping-engine-dll for Unix-based OS for x86 (dependency included)|New Feature|

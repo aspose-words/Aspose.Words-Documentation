@@ -19,7 +19,7 @@ See the following link in the documentation for further information:
 
 ##### **Table**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Yes | | |
@@ -40,7 +40,7 @@ Floating tables are saved as normal tables.
 
 Left, right and center alignment is supported.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Horizontal Position |Planned | | |
 |Horizontal Position Relative To |Planned | | |
@@ -54,13 +54,13 @@ Left, right and center alignment is supported.
 
 Currently borders are output on each cells as style attribute border-XXX-style, border-XXX-color etc.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
 
 ##### **Rows**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Allow Break Across Pages |Planned | | |
 |Repeat as Header Row |Yes |A table that has heade rows are exported as &lt;thead&gt; and &lt;th&gt; elements. Normal rows exported with &lt;tbody&gt; and &lt;tr&gt; elements. <br><br>Tables without header rows are exported as &lt;tr&gt; elements without &lt;tbody&gt;. | |
@@ -69,7 +69,7 @@ Currently borders are output on each cells as style attribute border-XXX-style, 
 
 ##### **Cells**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Cell Margins |Yes |Exported as padding-XXX on each cell. | |
 |Borders |Yes |Supported except for diagonal borders. Not all line types are exported. <br><br>Exported as &lt;td&gt; style attribute border-XXX-style, border-XXX-width etc. | |

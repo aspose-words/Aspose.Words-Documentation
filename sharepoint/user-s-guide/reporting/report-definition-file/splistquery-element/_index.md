@@ -9,7 +9,7 @@ The SPListQuery element contains information about CAML query for retrieving rep
 
 If CAML query is not specified, all elements in the list are retrieved. CAML queries are executed via Lists.asmx web service so the returned field names are often prefixed with “ows_”. See CAML query schema description on [MSDN](http://msdn.microsoft.com/en-us/library/ms467521.aspx). The queries are executed recursively, traversing sub-folders of the list. Please note that a bunch of fields is always returned regardless of the ViewFields element. This is the behavior of the SharePoint Lists web service.
 
-|**Name**|**Cardinality**|**Has Children**|**Description**|
+|Name|Cardinality|Has Children|Description|
 | :- | :- | :- | :- |
 |TableNames|0-1|Yes|Describes table names to assign to the tables returned by the query.|
 |ListName|1|No|The name of the list from where to retrieve data. It must not be empty.|

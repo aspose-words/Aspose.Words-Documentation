@@ -29,7 +29,7 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1436|Overflow/underflow Chart values while converting to Pdf.|Bug|
 |WORDSJAVA-1443|MS Word equation conversion problem during rendering.|Bug|

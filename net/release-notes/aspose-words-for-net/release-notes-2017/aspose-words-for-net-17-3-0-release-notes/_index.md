@@ -29,7 +29,7 @@ There are 67 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-12059|Paragraph formatting is lost after re-saving Docx|Bug|
 |WORDSNET-13034|Underline/strikethrough formatting is applied to revisions imported from HTML|Bug|

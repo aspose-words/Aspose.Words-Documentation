@@ -24,7 +24,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 - DrawingML shapes with guides are now scaled correctly
 - DML charts rendering improved
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-11466|Nonbreaking spaces gets converted to squares when saving as pdf|Bug|
 |WORDSNET-11905|RTF to Docx conversion issue with TOC field|Bug|

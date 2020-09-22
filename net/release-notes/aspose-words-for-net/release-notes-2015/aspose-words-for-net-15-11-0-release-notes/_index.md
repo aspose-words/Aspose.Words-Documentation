@@ -25,7 +25,7 @@ There are 127 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10924|DrawingML text is not visible in PDF|Bug|
 |WORDSNET-10984|Font color of Paragraph is changed after conversion from Docx to Doc/Pdf|Bug|

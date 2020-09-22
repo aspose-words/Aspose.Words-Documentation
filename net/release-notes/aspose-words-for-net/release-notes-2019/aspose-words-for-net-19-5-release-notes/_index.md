@@ -35,7 +35,7 @@ This page contains release notes for [Aspose.Words for .NET 19.5](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-14297|Provide a method to check if particular DML text effect is applied|New Feature|
 |WORDSNET-16739|Provide StreamFontSource similar to the FileFontSource|New Feature|

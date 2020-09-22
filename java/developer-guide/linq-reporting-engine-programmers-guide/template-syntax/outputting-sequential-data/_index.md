@@ -26,7 +26,7 @@ You can reference an element of the corresponding sequence in template expressio
 
 An opening foreach tag defines a foreach statement enclosed by brackets. The following table describes elements of this statement.
 
-|**Element**|**Optional?**|**Remarks**|
+|Element|Optional?|Remarks|
 | :- | :- | :- |
 |**Iteration Variable Type**|Yes|You can specify the type of an iteration variable explicitly. This type must be known by the engine (see "Setting up Known External Types" for more information).<br>If you do not specify the type explicitly, it is determined implicitly by the engine depending on the type of the corresponding sequence.|
 |**Iteration Variable Name**|Yes|You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding foreach tag.<br>If you do not specify the name, you can access the variable's members using the contextual object member access syntax (see "Using Contextual Object Member Access" for more information).|

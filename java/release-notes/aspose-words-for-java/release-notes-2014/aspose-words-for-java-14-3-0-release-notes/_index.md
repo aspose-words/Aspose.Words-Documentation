@@ -24,7 +24,7 @@ There are 95 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-867 |Aspose.Words does not work in Jdeveloper IDE |Bug |
 |WORDSJAVA-858 |OLE object cannot be edited after re saving the document |Bug |

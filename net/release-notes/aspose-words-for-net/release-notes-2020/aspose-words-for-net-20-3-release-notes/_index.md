@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for .NET 20.3](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-18362|LINQ Reporting Engine - Provide option to fit the image within textbox bounds while maintaining ratio|New Feature|
 |WORDSNET-19568|Provide ability to set different attributes of Shape inside IFieldMergingCallback.ImageFieldMerging|New Feature|

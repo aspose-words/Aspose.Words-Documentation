@@ -9,7 +9,7 @@ url: /sharepoint/supported-document-formats/
 
 The following table indicates the input and output file formats supported by Aspose.Words for SharePoint.
 
-|**Format**|**Description**|**Load**|**Save**|**Remarks**|
+|Format|Description|Load|Save|Remarks|
 | :- | :- | :- | :- | :- |
 |[DOC](https://docs.fileformat.com/word-processing/doc/)|Microsoft Word 97 - 2007 Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Office Open XML WordprocessingML Document (macro-free).|{{< emoticons/tick >}} |{{< emoticons/tick >}}| |

@@ -45,7 +45,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-865|Add support for Linux|New Feature|
 |WORDSNET-522	|Allow applying font formatting to FormField as a whole|New Feature|

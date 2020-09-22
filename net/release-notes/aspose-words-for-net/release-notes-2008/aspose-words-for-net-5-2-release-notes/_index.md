@@ -17,7 +17,7 @@ This page contains release notes for [Aspose.Words for .NET 5.2](http://www.aspo
 
 We have over 50 fixes this time. Thank you all who waited for your patience.
 
-|**Issue ID** |**Component** |**Summary** |
+|Issue ID |Component |Summary |
 | :- | :- | :- |
 |565 |DOC |Add support for outline numbered lists |
 |1084 |DOC |Support comment date |

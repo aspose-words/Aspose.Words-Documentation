@@ -7,7 +7,7 @@ url: /net/annotation-features-supported-on-print-export/
 
 ##### **Bookmarks**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Bookmark Start |Yes | | |
 |Bookmark End |Yes | | |
@@ -20,7 +20,7 @@ Comments are exported to rendered formats.
 
 In version 1.0 of comments rendering long or many comments are not truncated.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Comment |Yes | | |
 |Comment Range |Yes | | |
@@ -42,7 +42,7 @@ See the following link in the documentation for further information:
 
 - [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |On/Off State |Planned | | |
 |Table Cell Deletion |Planned | | |

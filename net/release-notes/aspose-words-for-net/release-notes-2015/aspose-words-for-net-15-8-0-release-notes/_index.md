@@ -35,7 +35,7 @@ Allow to specify encoding when saving as HTML.
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10835|mso-style-name does not import correctly into DOM|Bug|
 |WORDSNET-11655|OLE objects are missing after conversion from ODT to PDF|Bug|

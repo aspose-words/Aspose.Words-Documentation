@@ -35,7 +35,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 ## **Full List of Issues Covering all Changes in this Release**
 
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1228|Performance issue with updateFields method.|Performance|
 |WORDSNET-11066|TOC is built incorrectly|Bug|

@@ -31,7 +31,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1497|Generated document contains data of another document in multi-threading environment|Bug|
 |WORDSJAVA-1485|Adding FontSettings Object to Document Corrupts Images|Bug|

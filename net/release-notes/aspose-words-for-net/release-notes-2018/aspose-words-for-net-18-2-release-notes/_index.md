@@ -40,7 +40,7 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10413|Text of WordArt is rotated after conversion from RTF to Pdf|Bug|
 |WORDSNET-10616|Docx to Pdf conversion issue wiht chart's legend|Bug|
@@ -304,7 +304,7 @@ shape.Height = 150;
 
 Then following obsolete properties were removed from the HtmlSaveOptions class:
 
-|**Removed property**|**Property to use instead**|
+|Removed property|Property to use instead|
 | :- | :- |
 |HtmlSaveOptions.AllowNegativeLeftIndent|HtmlSaveOptions.AllowNegativeIndent|
 |HtmlSaveOptions.ExportHeadersFooters|HtmlSaveOptions.ExportHeadersFootersMode|

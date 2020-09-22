@@ -9,7 +9,7 @@ url: /cpp/supported-document-formats/
 
 The following table indicates the file formats that Aspose.Words for C++ can load.
 
-|**Format**|**Description**|**Load**|**Save**|**Remarks**|
+|Format|Description|Load|Save|Remarks|
 | :- | :- | :- | :- | :- |
 |[DOC](https://docs.fileformat.com/word-processing/doc/)|Microsoft Word 97 - 2007 Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[DOT](https://docs.fileformat.com/word-processing/dot/)|Microsoft Word 97 - 2007 Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |

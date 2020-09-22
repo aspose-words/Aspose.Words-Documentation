@@ -31,7 +31,7 @@ There are 67 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-16476|Image is not rendered correctly in output PDF|Bug|
 |WORDSNET-16474|MS Word error message when opening ODT|Bug|
@@ -195,7 +195,7 @@ Obsolete property MailMerge.RtlCleanupMode was removed.
 
 Following obsolete properties were removed from the PdfSaveOptions class:
 
-|**Removed property**|**Property to use instead**|
+|Removed property|Property to use instead|
 | :- | :- |
 |PdfSaveOptions.HeadingsOutlineLevels|PdfSaveOptions.OutlineOptions.HeadingsOutlineLevels|
 |PdfSaveOptions.ExpandedOutlineLevels|PdfSaveOptions.OutlineOptions.ExpandedOutlineLevels|

@@ -7,7 +7,7 @@ url: /net/table-features-supported-on-print-export/
 
 ##### **Table**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Planned |Currently exported as left-to-right. | |
@@ -30,7 +30,7 @@ Currently floating shapes may not be properly positioned when anchor is nested i
 
 We are working to improve this with each release.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Horizontal Position |Yes | | |
 |Horizontal Position Relative To |Yes | | |
@@ -42,13 +42,13 @@ We are working to improve this with each release.
 
 ##### **Table Borders**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
 
 ##### **Rows**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Allow Break Across Pages |Yes | | |
 |Repeat as Header Row |Yes | | |
@@ -57,7 +57,7 @@ We are working to improve this with each release.
 
 ##### **Cells**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Cell Margins |Yes | | |
 |Borders |Yes | | |

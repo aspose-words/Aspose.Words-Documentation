@@ -39,7 +39,7 @@ There are 102 improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1677|Extra chart's border is rendered in output PDF|Bug|
 |WORDSJAVA-1683|AdvancedBrushFeatures: non ideal modifying of gradient mapping.|Bug|
@@ -310,7 +310,7 @@ shape.setHeight(150);
 
 Then following obsolete properties were removed from the HtmlSaveOptions class:
 
-|**Removed property**|**Property to use instead**|
+|Removed property|Property to use instead|
 | :- | :- |
 |HtmlSaveOptions.AllowNegativeLeftIndent|HtmlSaveOptions.AllowNegativeIndent|
 |HtmlSaveOptions.ExportHeadersFooters|HtmlSaveOptions.ExportHeadersFootersMode|

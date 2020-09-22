@@ -30,7 +30,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1525|Symbol Character are broken when rendering over Linux|Bug|
 |WORDSJAVA-1527|DOCX to PDF conversion issue with shape's text when it is opened in Adobe Illustrator CC 2017|Bug|

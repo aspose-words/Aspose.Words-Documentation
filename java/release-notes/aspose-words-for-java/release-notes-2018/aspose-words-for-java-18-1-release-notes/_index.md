@@ -32,7 +32,7 @@ There are 63 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1704|Gradient fill image is filled as solid fill in PDF|Bug|
 |WORDSJAVA-1681|Thai words are showing as squares when converted to DOC.|Bug|

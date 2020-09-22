@@ -28,7 +28,7 @@ For a list of changes to the public API in this release refer to the following a
 
 ## **All Fixes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-609 |Short hour DateTime format |Bug |
 |WORDSJAVA-610 |Yet another .Net DateTime custom patterns |Enhancement |
@@ -40,7 +40,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSJAVA-628 |Public API to set ImageColorMode (Grayscale, BlackAndWhite) in ImageSaveOptions. |Feature |
 
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSNET-4160 |MergeFields which contain white spaces in the name are not replaced with value during mail merge. |Bug |
 |WORDSNET-4782 |Paragraph SpaceAfter/SpaceBefore is incorrect. |Bug |

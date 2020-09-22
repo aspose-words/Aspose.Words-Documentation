@@ -17,7 +17,7 @@ A class implementing [IResourceLoadingCallback](https://apireference.aspose.com/
 
 Also other situations when external resources are used have been included in the scope of this callback. These include:
 
-|**Scenario**|**Comments**|
+|Scenario|Comments|
 | :- | :- |
 |[DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3)|This method allows you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
 |[DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml)|This method parses an HTML snippet into the document at the current cursor. As with **DocumentBuilder.InsertImage** this snippet can contain links to external resources. |

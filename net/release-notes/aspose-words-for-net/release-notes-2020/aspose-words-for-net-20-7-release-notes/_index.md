@@ -22,7 +22,7 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-9500|International characters (Tamil) are not converted correctly from MHTML to PDF|New Feature|
 |WORDSNET-7150|SDT controls are getting lost during open/save|New Feature|

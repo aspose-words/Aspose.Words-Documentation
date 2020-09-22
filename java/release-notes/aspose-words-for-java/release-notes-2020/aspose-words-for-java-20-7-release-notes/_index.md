@@ -23,7 +23,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-2327	|User option to explicitly set encoding Charset and BOM via TxtSaveOptions.setEncoding(Charset)	|New Feature|
 |WORDSJAVA-2416	|Update 3rd party software versions, license agreements, etc.	|New Feature|

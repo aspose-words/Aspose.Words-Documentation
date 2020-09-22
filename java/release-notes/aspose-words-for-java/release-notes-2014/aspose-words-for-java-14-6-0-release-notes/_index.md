@@ -26,7 +26,7 @@ There are 115 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-909 |Add Font Substitution feature to public API. |Feature |
 |WORDSJAVA-908 |Document.save throws java.lang.NullPointerException |Exception |

@@ -33,7 +33,7 @@ Over 30 improvements to DocumentBuilder, TXT, ODT and Microsoft Word document fo
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1007 |Color of DrawingML is changed after conversion from Docx to Pdf |Bug |
 |WORDSJAVA-1023 |Document.PageCount returns incorrect value due absent fonts. |Bug |

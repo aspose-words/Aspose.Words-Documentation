@@ -33,7 +33,7 @@ There are 69 improvements and fixes in this regular monthly release. The most no
 
 ## ` `**Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-11330|Empty pages are created after conversion from Docx to Doc|Bug|
 |WORDSNET-17496|Incorrect color of the axis if WordStyle2010 is false after converting to PDF|Bug|

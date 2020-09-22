@@ -26,7 +26,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10594|Docx to Pdf conversion issue wiht SmartArt rendering|Bug|
 |WORDSNET-11175|Document.AcceptAllRevisions does not remove revision containing mail merge field|Bug|

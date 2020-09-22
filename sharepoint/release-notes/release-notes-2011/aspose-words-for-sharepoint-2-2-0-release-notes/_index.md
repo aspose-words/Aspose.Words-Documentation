@@ -14,7 +14,7 @@ This page contains release notes for [Aspose.Words for SharePoint 2.2.0](http://
 Maintenance release 
 2.2.0 of Aspose.Words for SharePoint is ready.Below is the list of fixes in this release:
 
-|**Issue<br>**  |**IDType** |**Description** |
+|Issue<br>  |IDType |Description |
 | :- | :- | :- |
 |11161 |Bug |Converter fails on particular RTF document. |
 |22613 |New Feature |Support workflow activity upgrade scenario. |

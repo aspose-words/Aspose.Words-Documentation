@@ -22,7 +22,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 | WORDSNET-19654 | Add support for SVG images embedded using   data URLs | New Feature |
 | WORDSNET-18471 | ResolveFontNames option for HtmlFixedSaveOptions and SvgSaveOptions | New Feature |

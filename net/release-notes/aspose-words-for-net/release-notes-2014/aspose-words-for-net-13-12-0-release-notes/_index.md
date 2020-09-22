@@ -29,7 +29,7 @@ The following is a list of changes in this version of Aspose.Words.
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-1988|Support transparency in EMF emulated by SRCPAINT and SRCAND raster operations.|Bug|
 |WORDSNET-2141|Interval after paragraph is exported incorrectly when paragraph in table cell|Bug|

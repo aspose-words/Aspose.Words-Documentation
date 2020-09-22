@@ -15,7 +15,7 @@ This version includes all bug fixes and public API changes made in Aspose.Words 
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSSP-256|SharePoint Document Properties Not Copied When Converting Documents |New feature|
 | |Upgrade to the latest version of Aspose.Words for Net (17.11)|New feature|

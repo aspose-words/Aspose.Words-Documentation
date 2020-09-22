@@ -23,7 +23,7 @@ There are 46 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-12975|Math equation's alignment is changed in output Pdf|Bug|
 |WORDSNET-13516|Document.Compare returns incorrect revisions|Bug|

@@ -32,7 +32,7 @@ This page contains release notes for [Aspose.Words for Java 19.8](https://reposi
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1989|Use internal TIFFImageWriter when external tiff image libs (JAI) are not available.|New Feature|
 |WORDSJAVA-2111|Clear FipsUnapprovedOperationException for non-FIPS operations in FIPS mode.|New Feature|

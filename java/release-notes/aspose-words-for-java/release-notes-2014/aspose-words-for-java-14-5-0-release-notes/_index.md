@@ -27,7 +27,7 @@ There are 95 improvements and fixes in this regular monthly release. The most n
 
 ## **All Changes**
 
-|**WORDSJAVA-871** |**Spare default font hints in DOCX document.** |**Bug** |
+|WORDSJAVA-871 |Spare default font hints in DOCX document. |Bug |
 | :- | :- | :- |
 |WORDSJAVA-878 |Extra lines are added to the image when convert from docx to pdf |Bug |
 |WORDSJAVA-883 |Color of CMYK JPEG background image is changed after conversion from Docx to Pdf |Bug |

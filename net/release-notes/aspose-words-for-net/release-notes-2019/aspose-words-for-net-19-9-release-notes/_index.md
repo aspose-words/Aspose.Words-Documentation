@@ -21,7 +21,7 @@ This page contains release notes for [Aspose.Words for .NET 19.9](https://www.nu
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-19120|Add support for the Truncate Font Height compatibility option|New Feature|
 |WORDSNET-18722|Simplify working with XML, JSON, and CSV data sources for LINQ Reporting Engine|New Feature|

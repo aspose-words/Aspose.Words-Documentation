@@ -24,7 +24,7 @@ Due to these changes you may need to fix certain parts of code when upgrading yo
 
 When migrating from a previous version to a newer version implementing the refactored API, attempting to build your project may return compile time errors, such as:
 
-|**Description of Possible Errors** |
+|Description of Possible Errors |
 | :- |
 |‘**Document**’ does not contain a definition for ‘**SaveToPdf’**|
 |‘**MailMerge**’ does not contain a definition for ‘**MergeField’** and no extension method ‘**MergeField**’…|

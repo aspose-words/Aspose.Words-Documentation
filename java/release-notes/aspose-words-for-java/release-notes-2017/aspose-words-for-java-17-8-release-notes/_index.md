@@ -29,7 +29,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 ## **Full List of Issues Covering all Changes in this Release**
 
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1552|Image's color is changed after re-saving DOC.|Bug|
 |WORDSJAVA-1560|Visio object is not rendered correctly in output HTML|Bug|

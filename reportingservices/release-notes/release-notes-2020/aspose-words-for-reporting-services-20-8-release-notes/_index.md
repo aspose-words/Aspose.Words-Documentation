@@ -19,7 +19,7 @@ Note: Microsoft changed target framework for SSRS 2019 from 3.5 to 4.6. SSRS 201
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 | |Upgrade to the latest version of [Aspose.Words for .NET (20.8)](https://docs.aspose.com/words/net/aspose-words-for-net-20-8-release-notes/)|New feature|
 |WORDSRS-275|Upgrade to the latest SSRS 2019|New feature|

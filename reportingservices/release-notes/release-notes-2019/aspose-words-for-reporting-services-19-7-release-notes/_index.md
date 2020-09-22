@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Reporting Services 19.7](
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 | |Upgrade to the latest version of [Aspose.Words for .NET (19.7)](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+19.7+Release+Notes)|New feature|
 

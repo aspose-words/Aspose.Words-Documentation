@@ -33,7 +33,7 @@ Comment numbering in rendering
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-989 |Very first AD year starts from 3rd day. |Bug |
 |WORDSJAVA-995 |ExternalFontCache is not thread-safe |Bug |

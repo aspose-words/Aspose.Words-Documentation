@@ -37,7 +37,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-4414|Borders look incorrect after converting document to PDF using MS Word or Bullzip PDF Printer|Bug|
 |WORDSNET-5319|Table with different preferred widths extends outside the page when rendered|Bug|

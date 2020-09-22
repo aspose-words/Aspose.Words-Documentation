@@ -36,7 +36,7 @@ There are 96 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-17415|Font of text is changed after conversion from DOCX to HTML|Bug|
 |WORDSNET-17202|Table's cell is lost after conversion from DOCX to HTML|Bug|

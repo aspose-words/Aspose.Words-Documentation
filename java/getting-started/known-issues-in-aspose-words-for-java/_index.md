@@ -11,7 +11,7 @@ The table below lists known issues and features that are not yet available in As
 
 {{% /alert %}} 
 
-|**Issue**|**Description**|**Planned**|
+|Issue|Description|Planned|
 | :- | :- | :- |
 |WordArt text is rendered in a simplified way.|Complex text path and some gradient fills are ignored.|TBA|
 |Loading encrypted ODT documents is not supported on Java|The Java zip library seems to have a problem with loading this type of document.When loading an encrypted ODT document an exception will be thrown.|TBA|

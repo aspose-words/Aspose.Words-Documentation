@@ -28,14 +28,14 @@ The Manager, Contract, and Client classes are defined as follows.
 
 #### **Template Example**
 
-|![Single_Row_Template_Example](Single-Row-Template-Example2.png) | **Name:** **<<[manager.Name]>>** <br> **Age:** <<[manager.Age]>> |
+|![Single_Row_Template_Example](Single-Row-Template-Example2.png) | Name: <<[manager.Name]>> <br> Age: <<[manager.Age]>> |
 | :- | :- |
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/SingleRow.doc).
 
 #### **Report Example**
 
-|![Single_Row_Report_Example](Single-Row-Report-Example1.png)|**Name:** **John Smith** <br> **Age:** 37 |
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png)|Name: John Smith <br> Age: 37 |
 | :- | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-SingleRow-SingleRow.cs" >}}
@@ -149,14 +149,14 @@ We provide support for the following clients:
 
 #### **Template Example**
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example2](Common-List-Template-Example2.png) <br> <<[Name**()**]>>** <br> &lt;&lt;/foreach&gt;&gt;|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example2](Common-List-Template-Example2.png) <br> <<[Name()]>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/CommonList.doc).
 
 #### **Report Example**
 
-|![Single_Row_Report_Example1](Single-Row-Report-Example1.png) <br> **John Smith** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James**|
+|![Single_Row_Report_Example1](Single-Row-Report-Example1.png) <br> John Smith <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> July James|
 | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonList-CommonList.cs" >}}
@@ -165,7 +165,7 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Template Example**
 
-|**Manager**|**Contract Price**|
+|Manager|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>><</foreach>> {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}} |
@@ -174,7 +174,7 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Report Example**
 
-|**Manager**|**Contract Price**|
+|Manager|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}} |
 |{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}} |
@@ -189,13 +189,13 @@ You can download the template file of this example from [here](https://github.co
 
 &lt;&lt;var [total = 0.0]&gt;&gt;
 
-|**Client**|**Total Contract Price**|
+|Client|Total Contract Price|
 | :- | :- |
 |**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;var [total = total + getPrice()]&gt;&gt;&lt;&lt;[total]&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
 
 #### **Report Example**
 
-|**Client**|**Total Contract Price**|
+|Client|Total Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|1950000|
@@ -211,7 +211,7 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Template Example**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;if [Price() >= 1000000]&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;**|&lt;&lt;[Price()]&gt;&gt;|
 |**&lt;&lt;else&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;**|&lt;&lt;[Price()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
@@ -219,7 +219,7 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Report Example**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|750000|
@@ -236,7 +236,7 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Template Example**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**<<if [!Any()]>>No data**||
 |**<<else>><<foreach [in contracts]>><<[Client.Name]>>**|<<[Price]>><</foreach>>|
@@ -246,13 +246,13 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Report Example 1**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**No data**||
 
 #### **Report Example 2**
 
-|**Client**|**Contract Price**|
+|Client|Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|750000|
@@ -271,14 +271,14 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Template Example**
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example2](Common-List-Template-Example2.png) <br> **<<[Name**()**]>>** <br> **Clients: <<foreach [in Contracts**()** ]>><<[indexOf() != 0 ? ", " : ""]>><<[Client**()**.Name**()**]>><</foreach>>** <br> &lt;&lt;/foreach&gt;&gt;|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example2](Common-List-Template-Example2.png) <br> <<[Name()]>> <br> Clients: <<foreach [in Contracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[Client().Name()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/CommonMasterDetail.doc).
 
 #### **Report Example**
 
-|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **John Smith** <br> **Clients: A Company, B Ltd., C & D** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **Tony Anderson** <br> **Clients: E Corp., F & Partners** <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> **July James** <br> **Clients: G & Co., H Group, I & Sons, J Ent.**|
+|![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
 | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonMasterDetail-CommonMasterDetail.cs" >}}
@@ -287,7 +287,7 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Template Example**
 
-|**Manager/Client**|**Contract Price**|
+|Manager/Client|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>> {{< /highlight >}}|
 |{{< highlight csharp >}} <<foreach [in Contracts()]>> <<[Client().Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Price()]>><</foreach>><</foreach>> {{< /highlight >}}|
@@ -297,7 +297,7 @@ You can download the template file of this example from [here](https://github.co
 
 #### **Report Example**
 
-|**Manager/Client**|**Contract Price**|
+|Manager/Client|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}}|
 |{{< highlight csharp >}} A Company {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}}|
@@ -375,7 +375,7 @@ You can download the template file of this example from [here](https://github.co
 
 **Template Example**
 
-|**Manager**|**Contract Price**|
+|Manager|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in contracts
 .Where(c => c.Date().Year() == 2015)
@@ -385,7 +385,7 @@ You can download the template file of this example from [here](https://github.co
 
 **Report Example**
 
-|**Manager**|**Contract Price**|
+|Manager|Contract Price|
 | :- | :- |
 |**John Smith**|2300000|
 |**July James**|800000|

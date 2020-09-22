@@ -33,7 +33,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-904|Add support for ECDSA signatures|New Feature|
 |WORDSNET-19750|Add features to support field formats when FieldMergingArgs.Text is used|New Feature|

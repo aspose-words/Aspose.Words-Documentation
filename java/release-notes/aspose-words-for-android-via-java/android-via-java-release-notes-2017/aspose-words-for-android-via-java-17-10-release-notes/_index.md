@@ -32,7 +32,7 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAND-318|Outer Shadow has been blurred differently.|Bug|
 |WORDSJAND-313|Combining of two images is not working as expected.|Bug|

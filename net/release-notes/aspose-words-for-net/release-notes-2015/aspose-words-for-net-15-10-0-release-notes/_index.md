@@ -26,7 +26,7 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 
 ## **All Changes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10994|Alignment of cell's text is changed after re-saving Docx|Bug|
 |WORDSNET-11020|Table layout issue after conversion from RTF to HTML|Bug|

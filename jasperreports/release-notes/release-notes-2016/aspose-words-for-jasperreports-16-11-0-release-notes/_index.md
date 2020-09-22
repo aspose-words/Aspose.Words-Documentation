@@ -25,7 +25,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJSP-189 |Aspose.Words for JasperReports ZIP release packages contain file names with a leading backslash |Bug |
 |WORDSJSP-190 |java.lang.NullPointerException is thrown while exporting jrprint to Doc/Docx |Bug |

@@ -37,7 +37,7 @@ The missing features will be added in future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-759|Add support for verifying and signing documents|New Feature|
 |WORDSNET-15697|Providing the ability to change password-secured VBA code (change string)|New Feature|
@@ -544,7 +544,7 @@ Experiments show that there's a mutual correspondence between "*Tribal*"* borde
 
 In this release the direct conversion of the mentioned BorderArt style names was implemented according to the following table:
 
-|**ECMA376**|**ISO29500**|
+|ECMA376|ISO29500|
 | :- | :- |
 |tribal1|triangle1|
 |tribal2|triangle2|

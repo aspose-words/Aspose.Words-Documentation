@@ -7,7 +7,7 @@ url: /net/supported-document-formats/
 
 The following table indicates the input and output file formats supported by Aspose.Words for .NET:
 
-|**Format**|**Description**|**Load**|**Save**|**Remarks**|
+|Format|Description|Load|Save|Remarks|
 | :- | :- | :- | :- | :- |
 |DOC|Microsoft Word 97 - 2007 Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |DOT|Microsoft Word 97 - 2007 Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |

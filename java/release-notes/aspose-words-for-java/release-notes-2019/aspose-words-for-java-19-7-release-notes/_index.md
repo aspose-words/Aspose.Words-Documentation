@@ -39,7 +39,7 @@ This page contains release notes for [Aspose.Words for Java 19.7](https://reposi
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-2113|Update cryptographic libraries to eliminate known possible security vulnerabilities.|New Feature|
 |WORDSJAVA-2124|Support Markdown format read/write.|New Feature|

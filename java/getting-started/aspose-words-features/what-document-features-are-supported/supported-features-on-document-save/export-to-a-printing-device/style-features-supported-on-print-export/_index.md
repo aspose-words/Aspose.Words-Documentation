@@ -7,7 +7,7 @@ url: /java/style-features-supported-on-print-export/
 
 ##### **Style Type**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Style |Yes | | |
 |Character Style |Yes | | |
@@ -16,7 +16,7 @@ url: /java/style-features-supported-on-print-export/
 
 ##### **General**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Aliases |N/A | | |
 |Based On |Yes | | |
@@ -30,14 +30,14 @@ url: /java/style-features-supported-on-print-export/
 
 ##### **Document Defaults**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
 
 ##### **Table Style**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Apply Formatting to |Yes | | |
 |Table Properties |Yes | | |

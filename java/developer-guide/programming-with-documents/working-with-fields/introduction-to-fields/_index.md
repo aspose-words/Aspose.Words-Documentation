@@ -35,7 +35,7 @@ Fields in Microsoft Word documents are complex. There are over 50 field types (e
 
 Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field result or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
 
-|**Field Code**|**Field Result**|
+|Field Code|Field Result|
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/MG6nnnG.png)|![todo:image_alt_text](http://i.imgur.com/gB25PZg.png)|
 

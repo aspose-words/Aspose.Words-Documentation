@@ -39,32 +39,32 @@ You can specify the number of options by passing an instance of [HtmlSaveOptions
 
 In the next few paragraphs, we’ll review the results of a sample document converted to EPUB format. The screenshots below show the key features. Since EPUB is a publishing format for electronic books, it’s apparent that the most import features will involve text. At a glance, we can see the text and all key features in the EPUB output look identical to the source document.
 
-|**The picture below shows the key text formatting features after conversion to EPUB.**|
+|The picture below shows the key text formatting features after conversion to EPUB.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/QbWSb4F.png)|
 
 
-|**A wide range of paragraph formatting settings used in the following example performs equal to the source document.**|
+|A wide range of paragraph formatting settings used in the following example performs equal to the source document.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/Xwl6pXo.png)|
 
 
-|**The following picture shows how great tables are rendered despite their complexity.**|
+|The following picture shows how great tables are rendered despite their complexity.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/PI7Xx39.png)|
 
 
-|**Even complex lists from the source document are exported well to EPUB.**|
+|Even complex lists from the source document are exported well to EPUB.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/JaXavsF.png)|
 
 
-|**Images are essential for most publications and can be aligned differently on the screen.**|
+|Images are essential for most publications and can be aligned differently on the screen.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/zdZtpFK.png)|
 
 
-|**This picture shows a table of contents generated from source document exported as inline text with working hyperlinks. The same headings which make up the TOC in the source document are exported to the navigation pane in the EPUB for easy navigation.**|
+|This picture shows a table of contents generated from source document exported as inline text with working hyperlinks. The same headings which make up the TOC in the source document are exported to the navigation pane in the EPUB for easy navigation.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/DWWtA8j.png)|
 
@@ -72,7 +72,7 @@ In the next few paragraphs, we’ll review the results of a sample document conv
 
 The EPUB documents produced by Aspose.Words pass validation which means that EPUB standards are adhered to and there are no errors with the EPUB. Even though passing validation doesn’t guarantee that every device or EPUB viewer will display your document in exactly the same way, it does, however, give the highest chance that your document will be viewed as close as possible as originally intended.
 
-|**The picture below shows a report on the document we just converted on [one of the validation services](http://validator.idpf.org/).**|
+|The picture below shows a report on the document we just converted on [one of the validation services](http://validator.idpf.org/).|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/XqeZwKy.png)|
 
@@ -80,7 +80,7 @@ The EPUB documents produced by Aspose.Words pass validation which means that EPU
 
 Meta-data is additional information such as Author Name, Title, Comments, etc. added to a file that’s not visible in the content of the file itself. Word document formats have special properties dedicated to such metadata and this can be exported to EPUB files as well. Metadata fields are often required by distributors and e-book stores as keywords for their search engines and providing information about books for customers.
 
-|**The picture below shows the metadata after the conversion.**|
+|The picture below shows the metadata after the conversion.|
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/etlTenE.png)|
 

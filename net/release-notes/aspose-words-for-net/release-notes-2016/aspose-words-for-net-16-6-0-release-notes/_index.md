@@ -31,7 +31,7 @@ There are 113 improvements and fixes in this regular monthly release. The most n
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-10518|UpdateFields does not calculate NOTEREF field properly|Bug|
 |WORDSNET-12497|Camera Rotation DML effect with shadow looks incorrect after rendering.|Bug|

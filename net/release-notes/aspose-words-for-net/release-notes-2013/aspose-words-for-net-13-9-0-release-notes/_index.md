@@ -24,7 +24,7 @@ There are 98 improvements and fixes in this regular monthly release. The most no
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-5448|Content inside the text box is trimmed.|Bug|
 |WORDSNET-6309|Extended Unicode (Surrogate pair) characters are rendered incorrectly.|Bug|

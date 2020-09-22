@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for .NET 20.6](https://downlo
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-13983|Add feature to support 'Emphasis on Mark' font setting|New Feature|
 |WORDSNET-19976|Font embedding works fine but the symbol is saved to PDF incorrectly|New Feature|

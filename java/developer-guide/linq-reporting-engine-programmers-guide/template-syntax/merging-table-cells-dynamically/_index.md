@@ -19,7 +19,7 @@ For two or more successive table cells to be merged dynamically in either direct
 
 Consider the following template.
 
-|**...**|**...**|**...**|
+|...|...|...|
 | :- | :- | :- |
 |**...**|**&lt;&lt;cellMerge&gt;&gt;&lt;&lt;[value1]&gt;&gt;**|**...**|
 |**...**|**&lt;&lt;cellMerge&gt;&gt;&lt;&lt;[value2]&gt;&gt;**|**...**|
@@ -28,7 +28,7 @@ Consider the following template.
 
 If value1 and value2 have the same value, say “Hello”, table cells containing cellMerge tags are successfully merged during runtime and a result report looks as follows then.
 
-|**...**|**...**|**...**|
+|...|...|...|
 | :- | :- | :- |
 |**...**|**Hello**|**...**|
 |**...**||**...**|
@@ -36,7 +36,7 @@ If value1 and value2 have the same value, say “Hello”, table cells containin
 
 If value1 and value2 have different values, say “Hello” and “World”, table cells containing cellMerge tags are not merged during runtime and a result report looks as follows then.
 
-|**...**|**...**|**...**|
+|...|...|...|
 | :- | :- | :- |
 |**...**|**Hello**|**...**|
 |**...**|**World**|**...**|

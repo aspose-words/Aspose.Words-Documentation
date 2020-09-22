@@ -23,7 +23,7 @@ There is a setting to export paragraph and character styles as inline CSS (style
 
 Character styles often are saved with .span prefix.
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Style |Yes | | |
 |Character Style |Yes | | |
@@ -32,7 +32,7 @@ Character styles often are saved with .span prefix.
 
 ##### **General**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Aliases |Yes |Aliases are exported as ordinary CSS classes. | |
 |Based On |Planned | | |
@@ -46,14 +46,14 @@ Character styles often are saved with .span prefix.
 
 ##### **Document Defaults**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Properties |N/A | | |
 |Run Properties |N/A | | |
 
 ##### **Table Style**
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
+|Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Apply Formatting to |Planned | | |
 |Table Properties |Planned | | |

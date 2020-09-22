@@ -35,7 +35,7 @@ Allow to specify encoding when saving as HTML.
 
 ## **All Changes**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-1085 |A picture is not preserved in rendered PDF |Bug |
 |WORDSJAVA-1118 |Stitch between Gradient Fills in Emf image. |Bug |

@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Reporting Services 4.6.0]
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSRPT-220 |Table's cell width is changed in output Html |Bug |
 |WORDSRPT-222 |Object reference not set to an instance of an object |Bug |

@@ -26,7 +26,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 
 ## **All Fixes**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-4160|MergeFields which contain white spaces in the name are not replaced with value during mail merge.|Bug|
 |WORDSNET-4782|Paragraph SpaceAfter/SpaceBefore is incorrect.|Bug|

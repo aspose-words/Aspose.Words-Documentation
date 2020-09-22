@@ -32,7 +32,7 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1320|Docx to Png conversion issue with space width|Bug|
 |WORDSJAVA-1437|Can't read Docx with DML that contains tag with undeclared namespace.|Bug|

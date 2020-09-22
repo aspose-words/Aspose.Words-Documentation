@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for .NET 5.0.1](http://www.as
 
 This is a maintenance release with a good number of fixes. Thank you to the customers who reported and waited for their fixes patiently.
 
-|**Issue ID** |**Component** |**Summary** |
+|Issue ID |Component |Summary |
 | :- | :- | :- |
 |4382 |DOC |Document can’t be opened by MSWord 2007 after processing using AW. |
 |4237 |DOC |Table alignment does not work in created DOC files - probably FIB problem |

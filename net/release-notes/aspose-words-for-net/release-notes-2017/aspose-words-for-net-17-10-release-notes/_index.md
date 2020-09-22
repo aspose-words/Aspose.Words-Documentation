@@ -31,7 +31,7 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-11299|Table column widths are not rendered correctly in PDF|Bug|
 |WORDSNET-11681|/non-breaking space/ DrawingMLs are not rendering on the same line in PDF|Bug|

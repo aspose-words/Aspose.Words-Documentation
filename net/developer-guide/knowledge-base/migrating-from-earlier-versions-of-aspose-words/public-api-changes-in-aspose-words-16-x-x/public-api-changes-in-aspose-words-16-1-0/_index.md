@@ -245,7 +245,7 @@ doc.HyphenationOptions.HyphenateCaps = false;
 
 ### **Font Substitution Warnings Improved**
 
-|**Substitution case** |**Warning text** |**Previous warning text** |
+|Substitution case |Warning text |Previous warning text |
 | :- | :- | :- |
 |Font substitution per AltName from document FontInfos. |"Font '<font_name>' has not been found. Using '<alt_name>' font instead. Reason: alternative name from document." |No warning |
 |Font substitution per FontSettings.DefaultFontName. |"Font '<font_name>' has not been found. Using '<substitution_name>' font instead. Reason: default font setting." |"Font '<font_name>' has not been found. Using '<substitution_name>' font instead." |

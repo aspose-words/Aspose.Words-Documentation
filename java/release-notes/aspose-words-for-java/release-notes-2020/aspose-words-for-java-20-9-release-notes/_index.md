@@ -23,7 +23,7 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-1987	|Get all possible Culture tables for compatibility with Windows/.Net-generated documents. | New Feature |
 |WORDSNET-522	|Allow applying font formatting to FormField as a whole | New Feature |

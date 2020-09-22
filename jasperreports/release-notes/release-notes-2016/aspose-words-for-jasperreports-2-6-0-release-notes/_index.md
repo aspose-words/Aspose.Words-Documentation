@@ -24,7 +24,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJSP-139 |(Aspose.Words for Jasper reports via REST web-service) |New Features |
 |WORDSJSP-173 |(Support JasperServer 6.2.0) |New Features |

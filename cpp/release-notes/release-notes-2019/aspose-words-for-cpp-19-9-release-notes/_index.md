@@ -28,7 +28,7 @@ The missing features will be added in the future releases.
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-810|CompositeNode::SelectNodes method is unusable due to the absence of the definition of the NodeList type|Bug|
 |WORDSCPP-817|Fix bounds checking issue|Bug|

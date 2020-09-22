@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for .NET 4.4.2.0](http://www.
 
 This maintenance release contains improvements and fixes to DOCX import (which is still in Beta) as well as many other fixes.
 
-|**Issue ID** |**Component** |**Summary** |
+|Issue ID |Component |Summary |
 | :- | :- | :- |
 |3994 |All Exports |“System.StackOverflowException” exception occurs during saving document in any format. |
 |3959 |All Exports |"Stack empty" exception on saving document in any format. |

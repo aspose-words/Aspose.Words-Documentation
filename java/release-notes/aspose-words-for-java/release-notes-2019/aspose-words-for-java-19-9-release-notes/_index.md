@@ -22,7 +22,7 @@ This page contains release notes for [Aspose.Words for Java 19.9](https://reposi
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key**|**Summary**|**Category**|
+|Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-2120|Advanced typography based on HarfBuzz shaper.|New Feature|
 |WORDSJAVA-2178|XML Data Source on Java|New Feature|

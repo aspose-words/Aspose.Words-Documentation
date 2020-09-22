@@ -13,7 +13,7 @@ While trying to keep the API as straight forward and clear as possible, we decid
 
 All classes and methods used in Aspose.Words for Java are contained in one package.
 
-|**Package in Aspose.Words for Java** |
+|Package in Aspose.Words for Java |
 | :- |
 |com.aspose.words |
 
@@ -21,7 +21,7 @@ All classes and methods used in Aspose.Words for Java are contained in one packa
 
 Where possible, class, method and property names match those found in Microsoft Word Automation.
 
-|**Class Name in Aspose.Words for Java** |
+|Class Name in Aspose.Words for Java |
 | :- |
 |Document |
 |Paragraph |
@@ -30,7 +30,7 @@ Where possible, class, method and property names match those found in Microsoft 
 
 Enumerations are ported to Java as classes with public integer constants
 
-|**Constant in Aspose.Words for Java** |
+|Constant in Aspose.Words for Java |
 | :- |
 |BorderType.LEFT |
 |TextFormFieldType.DATE_TEXT |
@@ -45,7 +45,7 @@ The main reason why we did not use Java enums is to stay compatible with J2SE 1.
 
 Method names follow the accepted practices for the Java platform.
 
-|**Method Name in Aspose.Words for Java** |
+|Method Name in Aspose.Words for Java |
 | :- |
 |Document.Save |
 |CompositeNode.GetChildNodes |
@@ -55,7 +55,7 @@ Several methods had to be renamed as they got into conflict with some Java runti
 
 All properties found in classes within Aspose.Words for Java are implemeneted as getter and setter methods. The original name of the method had "get" and "set" prefixes added to it.
 
-|**Getter and Setter in Aspose.Words for Java** |
+|Getter and Setter in Aspose.Words for Java |
 | :- |
 |Font.getBold , Font.setBold |
 |PageSetup.getLeftMargin , PageSetup.setLeftMargin |
@@ -64,7 +64,7 @@ All properties found in classes within Aspose.Words for Java are implemeneted as
 
 Indexed properties appear as get() and set() properties in most cases.
 
-|**Getter and Setter in Aspose.Words for Java** |
+|Getter and Setter in Aspose.Words for Java |
 | :- |
 |Style.get(int) |
 |Style.get(String) |

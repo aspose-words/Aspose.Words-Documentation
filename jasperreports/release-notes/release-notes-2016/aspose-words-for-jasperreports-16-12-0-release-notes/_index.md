@@ -25,7 +25,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 
 ## **Full List of Issues Covering all Changes in this Release**
 
-|**Key** |**Summary** |**Category** |
+|Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJSP-195 |Multiple appearance of elements in exported Docx |Bug |
 |WORDSJSP-196 |Extra section break is appeared in output Docx |Bug |
