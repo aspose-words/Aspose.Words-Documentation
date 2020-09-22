@@ -23,14 +23,14 @@ url: /net/aspose-words-net-for-vsto/
     - [Source Code](#Aspose.Words.NETforVSTO-SourceCode)
     - [How to configure the source code](#Aspose.Words.NETforVSTO-Howtoconfigurethesourcecode)
 - [Sample Code Examples](#Aspose.Words.NETforVSTO-SampleCodeExamples)
-# **What is VSTO?**
+## **What is VSTO?**
 VSTO, or Visual Studio Tools for Office, or Microsoft Visual Studio Tools is part of Microsoft's Visual Studio .NET tools suite and supports the Microsoft .NET Framework. It is used by developers to write code connecting Microsoft Office Word, Excel and Outlook applications. Developers using VSTO can employ C# or Visual Basic languages. It is an alternative to Visual Basic for Applications, or VBA.
-# **Aspose.Words for .Net**
+## **Aspose.Words for .Net**
 Aspose.Words for .NET is an advanced class library for .NET that enables you to perform a wide range of document processing tasks directly within your .NET applications.
 With Aspose.Words you can generate, modify, convert, render and print documents without using Microsoft Word.
 Aspose.Words for .NET supports DOC, OOXML, RTF, HTML, OpenDocument, PDF, XPS, EPUB and many other formats.
-# **Aspose.Words for VSTO**
-## **Introduction**
+## **Aspose.Words for VSTO**
+### **Introduction**
 The developers looking for file format libraries may need to walk through the features provided by the libraries available on the market. Mainly, two factors are considered when choosing an option:
 
 - Features
@@ -86,7 +86,7 @@ Please follow these simple steps to get started
 - Download/Clone the source code.
 - Open Visual Studio 2010 and Choose File > Open Project.
 - Browse to the latest source code that you have downloaded and Open the .sln file.
-# **Sample Code Examples**
+## **Sample Code Examples**
 This section includes the following topics
 
   - [Code Comparison for common features](https://docs.aspose.com/words/net/code-comparison-for-common-features/)

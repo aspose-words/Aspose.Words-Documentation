@@ -10,8 +10,8 @@ url: /net/aspose-words-for-net-13-2-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 13.2.0](https://www.nuget.org/packages/Aspose.Words/13.2.0)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 13.2 Release Notes**
-## **What's New**
+## **Aspose.Words for .NET 13.2 Release Notes**
+### **What's New**
 - 3D effects are rendered for VML shapes.
 - Shadows are rendered for VML shapes.
 - PDF rendering performance is improved for documents with large JPEG images.

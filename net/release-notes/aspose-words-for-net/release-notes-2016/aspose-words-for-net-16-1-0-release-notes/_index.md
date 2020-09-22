@@ -10,8 +10,8 @@ url: /net/aspose-words-for-net-16-1-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 16.1.0](http://www.aspose.com/downloads/words/net/new-releases/aspose.words-for-.net-16.1.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 16.1 Release Notes**
-## **Major Features**
+## **Aspose.Words for .NET 16.1 Release Notes**
+### **Major Features**
 There are 133 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented auto-fit table grid calculation for several classes of tables

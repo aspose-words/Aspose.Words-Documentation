@@ -10,7 +10,7 @@ url: /java/insert-nested-fields-in-ruby/
 
 {{< highlight ruby >}}
 
-# The path to the documents directory.
+## The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 \# Create new document.
 doc = Rjb::import('com.aspose.words.Document').new

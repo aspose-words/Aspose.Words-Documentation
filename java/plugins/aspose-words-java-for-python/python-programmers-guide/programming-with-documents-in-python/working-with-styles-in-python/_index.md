@@ -9,7 +9,7 @@ url: /java/working-with-styles-in-python/
 **Python Code**
 
 {{< highlight csharp >}}
-# Open the document.
+## Open the document.
 doc = self.Document(self.dataDir + "TestFile.doc")
 \# Define style names as they are specified in the Word document.
 PARA_STYLE = "Heading 1"

@@ -10,8 +10,8 @@ url: /net/aspose-words-for-net-14-6-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.6.0](https://www.nuget.org/packages/Aspose.Words/14.6.0)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 14.6 Release Notes**
-## **Major Features**
+## **Aspose.Words for .NET 14.6 Release Notes**
+### **Major Features**
 There are 104 improvements and fixes in this regular monthly release. The most notable are:
 
 - Support of automatic change tracking on a document

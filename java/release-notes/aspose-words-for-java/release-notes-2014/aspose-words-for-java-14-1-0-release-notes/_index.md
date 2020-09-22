@@ -10,8 +10,8 @@ url: /java/aspose-words-for-java-14-1-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 14.1.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-14.1.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for Java 14.1 Release Notes**
-## **Major Features**
+## **Aspose.Words for Java 14.1 Release Notes**
+### **Major Features**
 There are 118 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Support for password-protected documents created in MS Word 2013

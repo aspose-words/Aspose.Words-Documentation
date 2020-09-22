@@ -12,7 +12,7 @@ To get Node Type using Aspose.Words Java for Ruby, simply invoke get_nodes() met
 
 {{< highlight ruby >}}
 
-# The path to the documents directory.
+## The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 \# Create a new document.
 doc = Rjb::import('com.aspose.words.Document').new()

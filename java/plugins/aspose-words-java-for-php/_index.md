@@ -5,8 +5,8 @@ weight: 60
 url: /java/aspose-words-java-for-php/
 ---
 
-# **Introduction**
-## **PHP / Java Bridge**
+## **Introduction**
+### **PHP / Java Bridge**
 The PHP/Java Bridge is an implementation of a streaming, XML-based [network protocol](http://php-java-bridge.sourceforge.net/pjb/PROTOCOL.TXT), which can be used to connect a native script engine, for example PHP, Scheme or Python, with a Java virtual machine. It is up to 50 times faster than local RPC via SOAP, requires less resources on the web-server side. It is [faster](http://php-java-bridge.sourceforge.net/pjb/FAQ.html#performance) and more reliable than direct communication via the Java Native Interface, and it requires no additional components to invoke Java procedures from PHP or PHP procedures from Java.
 
 Read more at [sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
@@ -18,8 +18,8 @@ Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, Ope
 Read more at [aspose.com](http://www.aspose.com/java/word-component.aspx)
 ## **Aspose.Words Java for PHP**
 Project Aspose.Words for PHP shows how different tasks can be performed using Aspose.Words Java APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for Java in their PHP Projects using [PHP/Java Bridge](http://php-java-bridge.sourceforge.net/pjb/).
-# **System Requirements and Supported Platforms**
-## **System Requirements**
+## **System Requirements and Supported Platforms**
+### **System Requirements**
 **Following are the system requirements to use Aspose.Words Java for PHP:**
 
 - Tomcat Server 8.0 or above installed.
@@ -31,7 +31,7 @@ Project Aspose.Words for PHP shows how different tasks can be performed using As
 
 - PHP 5.3 or above
 - Java 1.8 or above
-# **Downloads and Configure**
+## **Downloads and Configure**
 Download required libraries mentioned below. These are the required for executing Aspose.Words Java for PHP examples.
 
 - **Aspose:** [Aspose.Words for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.words-for-java/default.aspx)
@@ -107,8 +107,8 @@ Please follow below simple steps to configure PHP/Java Bridge on Windows Platfor
 1. Copy folder C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java to your Aspose.Words Java for PHP examples folder.
 1. Restart apache tomcat service and start using examples.
 
-# **Support,Extend and Contribute**
-## **Support**
+## **Support,Extend and Contribute**
+### **Support**
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
 This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.

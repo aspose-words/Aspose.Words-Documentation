@@ -12,7 +12,7 @@ To use Mail Merge, simply invoke getMailMerge.execute() method.
 
 {{< highlight ruby >}}
 
-# The path to the documents directory.
+## The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 \# Open the document.
 doc = Rjb::import('com.aspose.words.Document').new(data_dir + "MailMerge.doc")

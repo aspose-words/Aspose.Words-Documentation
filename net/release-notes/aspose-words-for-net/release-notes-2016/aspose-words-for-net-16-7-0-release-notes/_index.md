@@ -311,7 +311,7 @@ private class NumberHexer : IReplacingCallback
 {{< /highlight >}}
 
 Some improvements were made to make replace method to be isolated from changes made by customer in callback.
-# **Deprecated methods**
+## **Deprecated methods**
 Old Replace methods are left for backward compatibility but marked as obsolete.
 
 We going to remove following methods in this year:

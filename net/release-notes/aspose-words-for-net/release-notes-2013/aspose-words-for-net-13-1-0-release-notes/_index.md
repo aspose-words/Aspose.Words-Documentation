@@ -10,8 +10,8 @@ url: /net/aspose-words-for-net-13-1-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 13.1.0](https://www.nuget.org/packages/Aspose.Words/13.1.0)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 13.1 Release Notes**
-## **What's New**
+## **Aspose.Words for .NET 13.1 Release Notes**
+### **What's New**
 There are 108 improvements and fixes in this regular monthly release. The most notable are:
 
 - The .NET Framework 1.1 is no longer supported.

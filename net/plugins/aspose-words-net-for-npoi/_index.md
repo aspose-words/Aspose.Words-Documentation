@@ -32,8 +32,8 @@ This project is helpful for developers who want to compare NPOI with Aspose.Word
     - [How to configure the source code](#Aspose.Words.NETforNPOI-Howtoconfigurethesourcecode)
     - [Source code overview](#Aspose.Words.NETforNPOI-Sourcecodeoverview)
 - [Sample Code Examples](#Aspose.Words.NETforNPOI-SampleCodeExamples)
-# **Getting Started**
-## **Introduction**
+## **Getting Started**
+### **Introduction**
 ### **Why Aspose for NPOI HWPF and XWPF?**
 The developers looking for file format APIs may need to walk through the features provided by the APIs available on the market. Mostly following factors are considered when choosing an option:
 
@@ -160,7 +160,7 @@ In the initial version there are following projects create for compassion featur
 - 05-SimpleTable
 - 06-ConvertDocumentToImages
 - 07-Create Charts
-# **Sample Code Examples**
+## **Sample Code Examples**
 This section includes the following topics
 
 - [Code Comparison for common features with NPOI](https://docs.aspose.com/words/net/code-comparison-for-common-features-with-npoi/)

@@ -10,8 +10,8 @@ url: /net/aspose-words-for-net-14-2-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 14.2.0](https://www.nuget.org/packages/Aspose.Words/14.2.0)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 14.2 Release Notes**
-## **Major Features**
+## **Aspose.Words for .NET 14.2 Release Notes**
+### **Major Features**
 There are 118 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved export of tabs and tab stop positions to HTML

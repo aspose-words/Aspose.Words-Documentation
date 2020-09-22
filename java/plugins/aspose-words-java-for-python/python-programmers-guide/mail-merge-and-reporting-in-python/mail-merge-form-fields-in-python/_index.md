@@ -9,7 +9,7 @@ url: /java/mail-merge-form-fields-in-python/
 **Python Code**
 
 {{< highlight csharp >}}
-# Load the template document.
+## Load the template document.
 doc = self.Document(self.dataDir + "Template.doc")
 \# Setup mail merge event handler to do the custom work.
 c = HandleMergeField()

@@ -10,7 +10,7 @@ url: /java/aspose-words-for-java-10-4-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 10.4.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-10.4.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for Java 10.4 Release Notes**
+## **Aspose.Words for Java 10.4 Release Notes**
 This regular monthly release delivers 110 new features and fixes. 
 
 Some of the highlights are: 

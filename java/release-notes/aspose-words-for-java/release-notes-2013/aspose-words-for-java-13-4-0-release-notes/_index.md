@@ -10,8 +10,8 @@ url: /java/aspose-words-for-java-13-4-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 13.4.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-13.4.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for Java 13.4 Release Notes**
-## **What's New**
+## **Aspose.Words for Java 13.4 Release Notes**
+### **What's New**
 - Printing to multitray printers improved
 - Printing documents that contain pages with different orientation
 - Improved memory performance for large documents (now code uses ~20% less memory for 1Gb+ documents)

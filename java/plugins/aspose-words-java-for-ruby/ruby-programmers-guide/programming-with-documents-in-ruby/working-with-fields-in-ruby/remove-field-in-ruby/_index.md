@@ -10,7 +10,7 @@ url: /java/remove-field-in-ruby/
 
 {{< highlight ruby >}}
 
-# The path to the documents directory.
+## The path to the documents directory.
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 \# Open the document.
 doc = Rjb::import('com.aspose.words.Document').new(data_dir + "Field.RemoveField.doc")

@@ -131,7 +131,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9209|Preserve trackmoves revision upon DOCX round-trip.|Feature|
 |WORDSNET-9247|Aspose.Words does not use the same font as MS Word does for html to PDF conversion|Feature|
 |WORDSNET-9256|A paragraph in cell breaks into two lines when converting to fixed page formats|Feature|
-# **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 ### **DrawingML.GetShapeRenderer Behavior Changed**
 ### **ExportEmbeddedSvg Property Added to HtmlFixedSaveOptions**
 ### **FirstPageHeaderFooterPerSection Option Added to ExportHeadersFootersMode**

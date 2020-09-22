@@ -11,7 +11,7 @@ To copy bookmarked text, see below example in Python
 **Python Code**
 
 {{< highlight csharp >}}
-# Load the source document.
+## Load the source document.
 srcDoc = self.Document(self.dataDir + "Template.doc")
 \# This is the bookmark whose content we want to copy.
 srcBookmark = srcDoc.getRange().getBookmarks().get("ntf010145060")

@@ -12,7 +12,7 @@ For joining and appending using Aspose.Words Java APIs in Ruby, simply use appen
 
 {{< highlight ruby >}}
 
-# Load the documents to join.
+## Load the documents to join.
 dst_doc = Rjb::import("com.aspose.words.Document").new(@data_dir + "TestFile.Destination.doc")
 src_doc = Rjb::import("com.aspose.words.Document").new(@data_dir + "TestFile.Source.doc")
 \# Append the source document to the destination document using no extra options.

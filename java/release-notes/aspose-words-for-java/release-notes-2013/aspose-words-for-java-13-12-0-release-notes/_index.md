@@ -139,7 +139,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9209 |Preserve trackmoves revision upon DOCX round-trip. |Feature |
 |WORDSNET-9247 |Aspose.Words does not use the same font as MS Word does for html to PDF conversion |Feature |
 |WORDSNET-9256 |A paragraph in cell breaks into two lines when converting to fixed page formats |Feature |
-# **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Words for .NET. If you have concerns about any change listed, please raise it on the Aspose.Words support forum.
 ### **DrawingML.GetShapeRenderer Behavior Changed**
 In earlier versions Aspose.Words always used to use the fallback shape when rendering DrawingML as Aspose.Words was not able to properly render DrawingML. Fallback shapes are prerendered shapes included by Microsoft Word or the host program when the graphics object is created. The current version version can render DrawingMLs on almost the same level as VML Shapes so the behavior of this method has been switched to render the original DrawingML instead of fall back to VML rendering.h3. ExportEmbeddedSvg Property Added to HtmlFixedSaveOptions 

@@ -10,7 +10,7 @@ url: /java/aspose-words-for-java-10-0-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 10.0.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-10.0.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for Java 10.0 Release Notes**
+## **Aspose.Words for Java 10.0 Release Notes**
 This release is a major milestone because from now on we can work more efficiently and it simply means a much better Aspose.Words for Java for you. The reason for this is that we can now maintain two products Aspose.Words for Java and Aspose.Words for .NET from single source code base. From now on the two products include the same set of features, fixes and are released on the same day.
 ## **What's New**
 - Most of the issues reported in 10.0 Beta are fixed.

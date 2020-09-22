@@ -10,8 +10,8 @@ url: /net/aspose-words-for-net-13-4-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 13.4.0](https://www.nuget.org/packages/Aspose.Words/13.4.0)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 13.4 Release Notes**
-## **What's New**
+## **Aspose.Words for .NET 13.4 Release Notes**
+### **What's New**
 - Improved memory performance for large documents (now code uses ~20% less memory for 1Gb+ documents)
 - DOC and DOCX document can be signed with digital signatures, also signatures can be removed;
 - 3D color for VML extrusion effect is supported

@@ -9,7 +9,7 @@ url: /java/remove-breaks-in-python/
 **Python Code**
 
 {{< highlight csharp >}}
-# Open the document.
+## Open the document.
 doc = self.Document(self.dataDir + "TestFile.doc")
 \# Remove the page and section breaks from the document.
 \# In Aspose.Words section breaks are represented as separate Section nodes in the document.

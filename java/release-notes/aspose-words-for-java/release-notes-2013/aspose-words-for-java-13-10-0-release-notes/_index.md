@@ -10,8 +10,8 @@ url: /java/aspose-words-for-java-13-10-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 13.10.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-13.10.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for Java 13.10 Release Notes**
-## **What's New**
+## **Aspose.Words for Java 13.10 Release Notes**
+### **What's New**
 There are 177 improvements and fixes in this regular monthly release. The most notable are: 
 
 - Finally implemented a much richer support of CSS cascading and inheritance in HTML and MHTML imports

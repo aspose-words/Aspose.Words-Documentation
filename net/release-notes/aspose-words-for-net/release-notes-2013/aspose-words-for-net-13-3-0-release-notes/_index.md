@@ -10,8 +10,8 @@ url: /net/aspose-words-for-net-13-3-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 13.3.0](https://www.nuget.org/packages/Aspose.Words/13.3.0)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 13.3 Release Notes**
-## **What's New**
+## **Aspose.Words for .NET 13.3 Release Notes**
+### **What's New**
 There are 97 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improvements in style handing in Tables, Format Revisions

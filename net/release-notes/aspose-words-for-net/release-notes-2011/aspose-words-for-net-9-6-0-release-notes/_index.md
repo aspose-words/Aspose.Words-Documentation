@@ -10,7 +10,7 @@ url: /net/aspose-words-for-net-9-6-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 9.6.0](http://www.aspose.com/downloads/words/net/new-releases/aspose.words-for-.net-9.6.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 9.6 Release Notes**
+## **Aspose.Words for .NET 9.6 Release Notes**
 There are impressive 156 issues/features addressed in this release. Below is a summary of some of the most notable changes followed by the full list of changes.
 ## **Text Wrapping around Shapes**
 Good news. Text wrapping around shapes is supported quite well now when exporting to PDF, XPS and printing. Most of the cases that were reported to us will render correctly. Only some advanced "tight" and "through" text wrapping are not yet supported.

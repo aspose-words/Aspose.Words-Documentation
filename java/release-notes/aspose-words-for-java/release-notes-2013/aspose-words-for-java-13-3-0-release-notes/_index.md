@@ -10,8 +10,8 @@ url: /java/aspose-words-for-java-13-3-0-release-notes/
 This page contains release notes for [Aspose.Words for Java 13.3.0](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-13.3.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for Java 13.3 Release Notes**
-## **What's New**
+## **Aspose.Words for Java 13.3 Release Notes**
+### **What's New**
 There are 110 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improvements in style handing in Tables, Format Revisions

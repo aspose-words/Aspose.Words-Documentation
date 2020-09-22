@@ -10,7 +10,7 @@ url: /net/aspose-words-for-net-10-4-0-release-notes/
 This page contains release notes for [Aspose.Words for .NET 10.4.0](http://www.aspose.com/downloads/words/net/new-releases/aspose.words-for-.net-10.4.0/)
 
 {{% /alert %}} 
-# **Aspose.Words for .NET 10.4 Release Notes**
+## **Aspose.Words for .NET 10.4 Release Notes**
 This regular monthly release delivers 84 improvements and fixes. 
 
 Some of the highlights are: 

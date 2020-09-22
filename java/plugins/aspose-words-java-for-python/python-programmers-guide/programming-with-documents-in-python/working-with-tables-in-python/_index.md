@@ -9,7 +9,7 @@ url: /java/working-with-tables-in-python/
 **Python Code**
 
 {{< highlight csharp >}}
-# Demonstrate autofitting a table to the window.
+## Demonstrate autofitting a table to the window.
 self.autoFitTableToWindow()
 \# Demonstrate autofitting a table to its contents.
 self.autoFitTableToContents()

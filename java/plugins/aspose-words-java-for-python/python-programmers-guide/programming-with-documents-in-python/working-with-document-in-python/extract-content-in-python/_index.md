@@ -9,7 +9,7 @@ url: /java/extract-content-in-python/
 **Python Code**
 
 {{< highlight csharp >}}
-# Load in the document
+## Load in the document
 doc = self.Document(self.dataDir + "TestFile.doc")
 \# Gather the nodes. The GetChild method uses 0-based index
 startPara = doc.getFirstSection().getChild(self.NodeType.PARAGRAPH, 6, True)

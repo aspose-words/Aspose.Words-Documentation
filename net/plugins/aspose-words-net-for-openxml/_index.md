@@ -23,17 +23,17 @@ url: /net/aspose-words-net-for-openxml/
     - [Source Code](#Aspose.Words.NETforOpenXML-SourceCode)
     - [How to configure the source code](#Aspose.Words.NETforOpenXML-Howtoconfigurethesourcecode)
 - [Sample Code Examples](#Aspose.Words.NETforOpenXML-SampleCodeExamples)
-# **What is OpenXML?**
+## **What is OpenXML?**
 OpenXML SDK is a .NET SDK from Microsoft in order to process Microsoft Office 2007 and above file formats. These file formats are basically zipped packages and the Open XML SDK for Office simplifies the task of manipulating Open XML packages and the underlying Open XML schema elements within a package. The classes in the Open XML SDK encapsulate many common tasks that developers perform on Open XML packages, so that you can perform complex operations with lines of code.
 
 Once you have installed the Open XML SDK 2.5, open your existing project or application in Visual Studio, or create a new project or application. Then, in your project or application, add references to the following components:
 
 - DocumentFormat.OpenXml
 - WindowsBase
-# **Aspose.Words for .Net**
+## **Aspose.Words for .Net**
 Using these APIs, the .NET developers can perform simple and complex operations over various word processing formats including MS Word and OpenOffice documents. The APIs also provide conversion and rendering features for these file formats.
-# **Aspose.Words for OpenXML**
-## **Introduction**
+## **Aspose.Words for OpenXML**
+### **Introduction**
 The developers looking for file format libraries may need to walk through the features provided by the libraries available on the market. Mainly, two factors are considered when choosing an option:
 
 - Features
@@ -88,7 +88,7 @@ Please follow these simple steps to get started
 - Download/Clone the source code.
 - Open Visual Studio 2010 and Choose File > Open Project.
 - Browse to the latest source code that you have downloaded and Open the .sln file.
-# **Sample Code Examples**
+## **Sample Code Examples**
 This section includes the following topics
 
 - [Code Comparison for common features with OpenXML](https://docs.aspose.com/words/net/code-comparison-for-common-features-with-openxml/)
