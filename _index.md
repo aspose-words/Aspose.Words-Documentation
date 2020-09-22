@@ -38,7 +38,7 @@ Aspose.Words for Java is a class library that enables your applications to perfo
 
 {{% /alert %}} 
 
-Following are the links to some useful resources you may need to accomplish your tasks.
+The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for Java Features](/words/java/feature-overview)
 - [Aspose.Words for Java Limitations](/words/java/what-document-features-are-supported)
@@ -83,7 +83,7 @@ Have you ever wished you could export RDL and RDLC reports as OOXML, DOC, RTF an
 
 {{% /alert %}} 
 
-Following are the links to some useful resources you may need to accomplish your tasks.
+The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for Reporting Services Online Documentation](/words/reportingservices/)
 - [Aspose.Words for Reporting Services Features](/words/reportingservices/feature-tour)
@@ -97,13 +97,13 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}} 
 
-![Aspose.Words for SharePoint Product Logo](home_5)
+<img src="home_5" alt="Aspose.Words for SharePoint" style="zoom:50%;" />
 
 Aspose.Words for SharePoint makes it possible to convert and combine word documents within Microsoft SharePoint applications. It supports format conversion with high fidelity, and can be used to generate reports with data from SQL databases, XML files or SharePoint lists.
 
 {{% /alert %}} 
 
-Following are the links to some useful resources you may need to accomplish your tasks.
+The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for SharePoint Online Documentation](/words/sharepoint/)
 - [Aspose.Words for SharePoint Features](/words/sharepoint/features)
@@ -117,13 +117,13 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}} 
 
-![Aspose.Words for JasperReports Product Logo](home_6)
+<img src="home_6" alt="Aspose.Words for JasperReports" style="zoom:50%;" />
 
 Aspose.Words for JasperReports is the only known solution on the market that makes possible exporting reports from JasperReports and JasperServer to Microsoft Word document formats. All report features are converted with the highest degree of precision to Microsoft Word documents.
 
 {{% /alert %}} 
 
-Following are the links to some useful resources you may need to accomplish your tasks.
+The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for JasperReports Online Documentation](/words/jasperreports/)
 - [Aspose.Words for JasperReports Features](/words/jasperreports/feature-tour)
