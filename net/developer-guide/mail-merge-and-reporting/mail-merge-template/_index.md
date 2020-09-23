@@ -81,7 +81,7 @@ public Document CreateMailMergeTemplate()
 
 The picture below shows the created template:
 
-![todo:mail_merge_template](mail_merge_template_1.png)
+![mail_merge_template](mail_merge_template_1.png)
 
 ## **Customize a Mail Merge Template Properties**
 
