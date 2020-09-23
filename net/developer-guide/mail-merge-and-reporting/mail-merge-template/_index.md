@@ -112,6 +112,8 @@ You can use the [Text](https://apireference.aspose.com/words/net/aspose.words.ma
 
 The following code example shows how to insert Check Boxes or HTML during mail merge operation:
 
+**.NET**
+
 {{< highlight csharp >}}
 
 // The path to the documents directory.
