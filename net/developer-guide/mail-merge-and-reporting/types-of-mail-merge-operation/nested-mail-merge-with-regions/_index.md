@@ -25,7 +25,7 @@ The picture below shows two nested regions where the *Order* mail merge region i
 
 ![nested_mail_merge_with_regions](nested_mail_merge_with_regions_1.png)
 
-## **Processing Mail Merge with Nested Regions**
+## **How to Process Mail Merge with Nested Regions**
 
 The data to be merged into a template can come from various sources, mainly relational databases or XML documents. In our example, we are going to use an XML file to store our data and load it directly into the **DataSet**.
 
