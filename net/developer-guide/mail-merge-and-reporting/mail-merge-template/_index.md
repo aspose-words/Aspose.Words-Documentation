@@ -19,7 +19,7 @@ You can create a merge template to be a model for new documents, and it should i
 
 In addition, you can add a mail merge region in your template by inserting two mail merge fields to mark the beginning and the end of the mail region. The next article “Types of Mail Merge Operation” explains that in more detail.
 
-## **How to Create a Mail Merge Template**
+## **Create a Mail Merge Template**
 
 You can create a template and add specific merge fields to it, that will be replaced by the values from the data source either manually, for example, using Microsoft Word, or programmatically using Aspose.Words. In this article, we will look at the programmatic way of creating a template.
 
