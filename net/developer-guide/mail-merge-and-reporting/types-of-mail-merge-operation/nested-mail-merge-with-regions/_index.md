@@ -41,7 +41,6 @@ The following code example shows how to generate an invoice using nested mail me
 
 **.NET**
 {{< highlight csharp >}}
-
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
 	 
@@ -51,7 +50,6 @@ DataSet pizzaDs = new DataSet();
 // The Datatable.TableNames and the DataSet.Relations are defined implicitly by .NET through ReadXml.
 pizzaDs.ReadXml(dataDir + "CustomerData.xml");
 string fileName = "Invoice Template.doc";
-
 
 // Open the template document.
 Document doc = new Document(dataDir + fileName);
@@ -63,13 +61,11 @@ doc.MailMerge.TrimWhitespaces = false;
 doc.MailMerge.ExecuteWithRegions(pizzaDs);
 dataDir = dataDir + RunExamples.GetOutputFilePath(fileName);
 
-
 // Save the output to file
 doc.Save(dataDir);
 
 Debug.Assert(doc.MailMerge.GetFieldNames().Length == 0, "There was a problem with mail merge");
 Console.WriteLine("\nMail merge performed with nested data successfully.\nFile saved at " + dataDir);
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
@@ -94,7 +90,6 @@ The following code example shows how to establish a DataRelation between a custo
 
 **.NET**
 {{< highlight csharp >}}
-
 // Create the Dataset
 DataSet dataset = new DataSet();
 
@@ -102,7 +97,6 @@ DataSet dataset = new DataSet();
 dataset.Relations.Add(
 new DataRelation("OrderToItem", orderTable.Columns["Order_Id"], itemTable.Columns["Order_Id"], false)
 );
-
 {{< /highlight >}}
 
 ## **How to Create Data Relations from a Custom Data Source**
@@ -113,7 +107,6 @@ The following example shows how to create data relations using **GetChildDataSou
 
 **.NET**
 {{< highlight csharp >}}
-
 Public IMailMergeDataSourceCore GetChildDataSource(string childTableName, bool isObjectAttr)
         {
             DataRow parentRow = GetCurrentDataRow();
@@ -145,16 +138,15 @@ Public IMailMergeDataSourceCore GetChildDataSource(string childTableName, bool i
 ​        	// Return null as per the interface specification.
 ​       	return null;
    	 }
-
 {{< /highlight >}}
 
 ## **Common Nested Mail Merge Problems and Solutions**
 
 The table below provides typical problems with performing nested mail merge via Aspose.Words, as well as their respective solutions.
 
-| **Symptom**                                                  | **Problem**                                                  | **Solution**                                                 |
-| ------------------------------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ |
+| Symptom | Problem | Solution |
+| :- | :- | :- |
 | The generated output has no fields that are merged.          | The original name of the merge field stays the same without being replaced by the required data from the data source. | * Check the data is being loaded properly into tables: set the [TableName](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/properties/tablename) correctly with all required primary keys and relationships.<br>* Check that the merge fields are named properly. Use the [GetFieldNames](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/getfieldnames) method to get all merge fields names and ensure that the name of merge fields in your template matches the one in your data source. |
 | The output of nested merging displays no data from the child table for the first entry in the parent table but displays all items for the last entry in the parent table, even ones that are not actually linked to it. | The merge regions in the template are not correctly formed that can make all nested mail merge regions to stop displaying anything at all. | The StartTable opening tag and the EndTable closing tag must match and be in the same row or cell. For example, if you start nesting merge regions in a cell of a table, you must end the merge region in the same row as the first cell. |
-| Each entry from the parent table displays every item in the child table, even ones that are not actually linked to it. | The relationship between the parent and child tables are not set up or they are incorrectly set up. | Ensure data integrity within your DataSet and use the DataRelatoin object to represent the parent-child relationship between related data tables.<br>Check the section explained above in this article on “How to Set Up Data Relations in Nested Mail Merge with Regions”. |
+| Each entry from the parent table displays every item in the child table, even ones that are not actually linked to it. | The relationship between the parent and child tables are not set up or they are incorrectly set up. | * Ensure data integrity within your DataSet and use the DataRelatoin object to represent the parent-child relationship between related data tables.<br>* Check the section explained above in this article on “How to Set Up Data Relations in Nested Mail Merge with Regions”. |
 | An exception is thrown while executing nested mail merge as the following: “System.ArgumentException: This constraint cannot be enabled as not all values have corresponding parent values”. | Not every parent record has a child record so your data source does not match the following criteria:Every row in the parent table should have a one-to-one relationship with the rows of the child table based on the primary and foreign keys. | Disable foreign key constraints when you create a DataRelation. |
