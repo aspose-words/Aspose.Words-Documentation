@@ -2,7 +2,7 @@
 title: Types of Mail Merge Operation
 type: docs
 weight: 20
-url: /net/tupes-of-mail-merge-operations/
+url: /net/types-of-mail-merge-operations/
 ---
 
 The main idea of mail merge is to automatically create a document or multiple documents based on your template and data fetched from your data source. Aspose.Words allows you to perform two different types of mail merge operations: simple mail merge and mail merge with regions.
@@ -26,9 +26,7 @@ Once your template is ready, you can start performing the simple mail merge oper
 The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/execute/methods/5) method:
 
 **.NET**
-
 {{< highlight csharp >}}
-
 Public void SimpleMailMerge()
 {
 	// Include the code for our template.
@@ -50,7 +48,6 @@ Public void SimpleMailMerge()
 
 ​	builder.Document.Save("Your local path to save the document" + "MailMerge.Simple.docx");
 }
-
 {{< /highlight >}}
 
 You can notice the difference between the document before executing simple mail merge:
@@ -68,9 +65,7 @@ In Aspose.Words, the standard mail merge operation fills only a single document 
 The following code example shows how to generate multiple merged documents during a mail merge operation:
 
 **.NET**
-
 {{< highlight csharp >}}
-
 //Put the path to the documents directory and open the template:
 string dataDir = RunExamples.GetDataDir_MailMergeAndReporting();
 Document doc = new Document(dataDir + "TestFile.doc");
@@ -99,7 +94,6 @@ foreach (DataRow row in data.Rows)
     }
 
 Console.WriteLine("\nProduce multiple documents performed successfully.\nFile saved at " + dataDir);
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
@@ -123,13 +117,9 @@ Aspose.Words allows you to execute mail merge with regions using different [Exec
 As a first step, we need to create the DataSet to pass it later as an input parameter to the ExecuteWithRegions method:
 
 **.NET**
-
 {{< highlight csharp >}}
-
 private static DataSet CreateDataSet()
 {
-
-
 // Create the customers table
 DataTable tableCustomers = new DataTable("Customers");
 tableCustomers.Columns.Add("CustomerID");
@@ -156,18 +146,14 @@ dataSet.Relations.Add(tableCustomers.Columns["CustomerID"],    tableOrders.Colum
 
 return dataSet;
 }
-
 {{< /highlight >}}
 
 The following code example shows how to execute mail merge with regions using the [ExecuteWithRegions(DataSet)](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/executewithregions/methods/2) method:
 
 **.NET**
-
 {{< highlight csharp >}}
-
 public void MailMergeWithRegions()
 {
-
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -207,7 +193,6 @@ doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 // Save the result
 doc.Save("Your local path to save the document" + "MailMerge.ExecuteWithRegions.docx");
 }
-
 {{< /highlight >}}
 
 You can notice the difference between the document before executing mail merge with regions:
