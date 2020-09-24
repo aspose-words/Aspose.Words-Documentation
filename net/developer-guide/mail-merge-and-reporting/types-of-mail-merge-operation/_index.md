@@ -56,7 +56,7 @@ You can notice the difference between the document before executing simple mail 
 
 And after executing simple mail merge:
 
-![simple_mail_merge_template](execute_simple_mail_merge_2.png)
+![execute_simple_mail_merge](execute_simple_mail_merge_2.png)
 
 ### **How to Create Multiple Merged Documents**
 
@@ -197,11 +197,11 @@ doc.Save("Your local path to save the document" + "MailMerge.ExecuteWithRegions.
 
 You can notice the difference between the document before executing mail merge with regions:
 
-![simple_mail_merge_template](execute_mail_merge_with_regions_1.png)
+![mail_merge_with_regions_template](execute_mail_merge_with_regions_1.png)
 
 And after executing mail merge with regions:
 
-![simple_mail_merge_template](execute_mail_merge_with_regions_2.png)
+![mail_merge_with_regions_execute](execute_mail_merge_with_regions_2.png)
 
 ### **Limitations of Mail Merge with Regions**
 
