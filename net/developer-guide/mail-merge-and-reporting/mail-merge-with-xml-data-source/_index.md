@@ -34,7 +34,6 @@ You can use the same templates for different data sources.
 The following XML contains the data that is needed to fill in a merge template:
 
 {{< highlight csharp >}}
-
 <?xml version="1.0" encoding="utf-8"?>
 <customers>
 	 <customer Name="John Ben Jan" ID="1" Domain="History" City="Boston"/>
@@ -42,14 +41,12 @@ The following XML contains the data that is needed to fill in a merge template:
 	 <customer Name="Dagomir Zits" ID="3" Domain="Heraldry" City="Milwaukee"/>
  	<customer Name="Sara Careira Santy" ID="4" Domain="IT" City="Miami"/>
 </customers> 
-
 {{< /highlight >}}
 
 The following code example shows how to load XML data into DataSet and then use it as a data source:
 
 **.NET**
 {{< highlight csharp >}}
-
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
 
@@ -68,7 +65,6 @@ dataDir = dataDir + RunExamples.GetOutputFilePath(fileName);
 // Save the output document.
 doc.Save(dataDir);
 Console.WriteLine("\nMail merge performed with XML data successfully.\nFile saved at " + dataDir);
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
