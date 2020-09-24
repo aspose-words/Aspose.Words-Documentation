@@ -38,9 +38,7 @@ Mustache is represented as a logic-less order as it lacks any specific control f
 The following code example shows how to replace the Mustache tags with specific data:
 
 **.NET**
-
 {{< highlight csharp >}}
-
 // Load a document
 Document doc = new Document(MyDir + @"Test.docx");
 
@@ -57,7 +55,6 @@ for (int i = 0; i < 10; i++)
 doc.MailMerge.UseNonMergeFields = true;
 doc.MailMerge.ExecuteWithRegions(dataTable);
 doc.Save("MailMerge.Mustache.docx");
-
 {{< /highlight >}}
 
 You can notice the difference between the document before executing the mail merge with regions along with applying the **UseNonMergeFields** property:
@@ -93,9 +90,7 @@ For example, you can use IF fields if you need to insert “his”, “her”, �
 The following code example shows how to perform a mail merge operation with Mustache tags and IF fields:
 
 **.NET**
-
 {{< highlight csharp >}}
-
 // Load a document
 Document doc = new Document(dataDir + "UseOfifelseMustacheSyntax.docx"); 
 
@@ -106,7 +101,6 @@ doc.MailMerge.UseNonMergeFields = true; doc.MailMerge.Execute(new String[] { "GE
 dataDir = dataDir + "MailMergeUsingMustacheSyntaxifelse_out.docx";
 doc.Save(dataDir); 
 Console.WriteLine("\nMail merge performed with mustache if else syntax successfully.\nFile saved at " + dataDir);
-
 {{< /highlight >}}
 
 You can notice the difference between the document before applying the **UseNonMergeFields** property:
