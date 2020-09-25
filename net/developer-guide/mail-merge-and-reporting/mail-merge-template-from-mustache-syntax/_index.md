@@ -1,11 +1,19 @@
 ---
 title: Mail Merge Template from Mustache Syntax
 type: docs
+description: "Aspose.Words allows you to create templates with mustache syntax – an alternative variant of syntax that consists of tag names enclosed by {{ }}. Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax."
+keywords: "mail merge template mustache syntax c#"
 weight: 40
 url: /net/mail-merge-template-from-mustache-syntax/
 ---
 
-Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by {{ }} and is backed by a model object that contains the data for the template.The Mustache syntax is the only option to use with templates that do not contain fields, such as HTML and TXT templates. But with Word templates, you have two options either to use fields or Mustache syntax.  The Mustache syntax supports *foreach* tag, which is an alternative for using mail merge with regions. So the benefit is that you can use mustache syntax if for some reason you are not able or simply you do not want to use merge fields and merge regions.You can also combine mail merge fields with some additional fields using the *foreach* tag as shown in the picture below.
+Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by {{ }} and is backed by a model object that contains the data for the template.
+
+The Mustache syntax is the only option to use with templates that do not contain fields, such as HTML and TXT templates. With Word templates, you have two options either to use fields or Mustache syntax.
+
+The Mustache syntax supports *foreach* tag, which is an alternative for using mail merge with regions. So the benefit is that you can use mustache syntax if for some reason you are not able or simply you do not want to use merge fields and merge regions.
+
+You can also combine mail merge fields with some additional fields using the *foreach* tag as shown in the picture below.
 
 ![mustache_syntax](mustache_syntax.png)
 
