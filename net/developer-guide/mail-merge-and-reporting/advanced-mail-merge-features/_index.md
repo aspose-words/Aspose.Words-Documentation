@@ -1,7 +1,7 @@
 ---
 title: Advanced Mail Merge Features
 aliases:
-  - /how-to-use-advanced-mail-merge-features/
+  - /net/how-to-use-advanced-mail-merge-features/
 type: docs
 description: "Aspose.Words provides some advanced mail merge features that allow you to perform further mail merge customization. For example, obtaining information about template structure, setting rules, cleaning up after a mail merge operation, and others."
 keywords: "use advanced mail merge features c#"
