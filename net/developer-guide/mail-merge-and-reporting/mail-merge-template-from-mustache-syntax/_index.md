@@ -33,9 +33,7 @@ The question here: how you can create 50 emails from 1 single Mustache template?
 
 {{% alert color="primary" %}}
 
-As you notice from the example above, in Mustache you need to use curly braces for placeholders that look like a mustache when you rotate the curly braces 90 degrees clockwise, as shown in the picture below.
-
-![mustache](mustache.png)
+As you notice from the example above, in Mustache you need to use curly braces for placeholders that look like a mustache when you rotate the curly braces 90 degrees clockwise.
 
 {{% /alert %}}
 
