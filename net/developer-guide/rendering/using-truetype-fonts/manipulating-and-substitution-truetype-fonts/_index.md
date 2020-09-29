@@ -53,13 +53,13 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 1. Aspose.Words tries to find the required font among the fonts embedded in the original document. Some document formats such as DOCX can contain embedded fonts.
 1. If Aspose.Words is unable to locate the required font with the exact name match, and the [AltName](https://apireference.aspose.com/net/words/aspose.words.fonts/fontinfo/properties/altname) property defined for this font, then Aspose.Words will find the font defined with **AltName** from the [FontInfo](https://apireference.aspose.com/net/words/aspose.words.fonts/fontinfo) class, which specifies the font information.
 1. If Aspose.Words is unable to locate the defined font, and **AltName** is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
-   1. Aspose.Words will attempt to apply OS font settings, if they are available, by using the FontConfig utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
+   1. Aspose.Words will attempt to apply OS font settings, if they are available, by using the **FontConfig** utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
       Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the FontConfig utility is disabled. You can enable it as follows:<br>
       **.NET**<br>
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.FontConfigSubstitution.Enabled = true;
       {{< /highlight >}}
-   1. The next step uses a simple but powerful mechanism called Table substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the FontConfig substitution rule.<br>
+   1. The next step uses a simple but powerful mechanism called **Table** substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the FontConfig substitution rule.<br>
       Aspose.Words uses XML tables, which define the basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.<br>
       **XML**<br>
       {{< highlight html >}}
