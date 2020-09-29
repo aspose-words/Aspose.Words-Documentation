@@ -1,7 +1,7 @@
 ---
 title: Licensing
 type: docs
-weight: 90
+weight: 80
 url: /net/licensing/
 ---
 
