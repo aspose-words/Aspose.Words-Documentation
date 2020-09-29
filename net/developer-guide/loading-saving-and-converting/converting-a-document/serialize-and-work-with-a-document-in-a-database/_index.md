@@ -1,7 +1,7 @@
 ---
 title: Serialize and Work with a Document in a Database
 type: docs
-weight: 40
+weight: 50
 url: /net/serialize-and-work-with-a-document-in-a-database/
 ---
 
