@@ -1,7 +1,7 @@
 ---
 title: How to Run the Examples
 type: docs
-weight: 100
+weight: 110
 url: /net/how-to-run-the-examples/
 ---
 
