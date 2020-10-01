@@ -62,5 +62,3 @@ You can notice the difference between the template before executing the mail mer
 And after executing the mail merge operation:
 
 <img src="fill_merge_template_from_xml_using_dataset_2.png" alt="fill_merge_template_from_xml" style="width:285px"/>
-
-![fill_merge_template_from_xml](fill_merge_template_from_xml_using_dataset_2.png)
