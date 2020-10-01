@@ -43,25 +43,7 @@ Mustache is represented as a logic-less order as it lacks any specific control f
 
 The following code example shows how to replace the Mustache tags with specific data:
 
-**.NET**
-{{< highlight csharp >}}
-// Load a document
-Document doc = new Document(MyDir + @"Test.docx");
-
-// Loop through each row and fill it with data
-DataTable dataTable = new DataTable("list");
-dataTable.Columns.Add("Number");
-for (int i = 0; i < 10; i++)
-   {
-     DataRow datarow = dataTable.NewRow();
-     dataTable.Rows.Add(datarow);
-     datarow[0] = "Number " + i.ToString();
-   }
-// Activate performing a mail merge operation into additional field types 
-doc.MailMerge.UseNonMergeFields = true;
-doc.MailMerge.ExecuteWithRegions(dataTable);
-doc.Save("MailMerge.Mustache.docx");
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeUsingMustacheSyntax-MustacheSyntaxUsingDataTable.cs" >}}
 
 You can notice the difference between the document before executing the mail merge with regions along with applying the **UseNonMergeFields** property:
 
@@ -95,19 +77,7 @@ For example, you can use IF fields if you need to insert “his”, “her”, �
 
 The following code example shows how to perform a mail merge operation with Mustache tags and IF fields:
 
-**.NET**
-{{< highlight csharp >}}
-// Load a document
-Document doc = new Document(dataDir + "UseOfifelseMustacheSyntax.docx"); 
-
-// Perform mail merge operation
-doc.MailMerge.UseNonMergeFields = true; doc.MailMerge.Execute(new String[] { "GENDER" }, new Object[] { "MALE" });
-
-// Save the output document.
-dataDir = dataDir + "MailMergeUsingMustacheSyntaxifelse_out.docx";
-doc.Save(dataDir); 
-Console.WriteLine("\nMail merge performed with mustache if else syntax successfully.\nFile saved at " + dataDir);
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeUsingMustacheSyntax-UseOfifelseMustacheSyntax.cs" >}}
 
 You can notice the difference between the document before applying the **UseNonMergeFields** property:
 

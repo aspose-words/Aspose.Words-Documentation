@@ -44,34 +44,7 @@ As you can see from the output document, each order from the **Order** table is 
 
 The following code example shows how to generate an invoice using nested mail merge with regions:
 
-**.NET**
-{{< highlight csharp >}}
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
-	 
-// Create the Dataset and read the XML.
-DataSet pizzaDs = new DataSet();
-	 
-// The Datatable.TableNames and the DataSet.Relations are defined implicitly by .NET through ReadXml.
-pizzaDs.ReadXml(dataDir + "CustomerData.xml");
-string fileName = "Invoice Template.doc";
-
-// Open the template document.
-Document doc = new Document(dataDir + fileName);
-	 
-// Trim trailing and leading whitespaces mail merge values
-doc.MailMerge.TrimWhitespaces = false;
-	 
-// Execute the nested mail merge with regions
-doc.MailMerge.ExecuteWithRegions(pizzaDs);
-dataDir = dataDir + RunExamples.GetOutputFilePath(fileName);
-
-// Save the output to file
-doc.Save(dataDir);
-
-Debug.Assert(doc.MailMerge.GetFieldNames().Length == 0, "There was a problem with mail merge");
-Console.WriteLine("\nMail merge performed with nested data successfully.\nFile saved at " + dataDir);
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-NestedMailMerge-NestedMailMerge.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -93,16 +66,7 @@ A DataSet that has related data tables will use the **DataRelation** object to r
 
 The following code example shows how to establish a DataRelation between a customer’s table and an order’s table by using a DataRelation object:
 
-**.NET**
-{{< highlight csharp >}}
-// Create the Dataset
-DataSet dataset = new DataSet();
-
-// Set up the data relations
-dataset.Relations.Add(
-new DataRelation("OrderToItem", orderTable.Columns["Order_Id"], itemTable.Columns["Order_Id"], false)
-);
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ApplyCustomLogicToEmptyRegions-DisableForeignKeyConstraints.cs" >}}
 
 ## **How to Create Data Relations from a Custom Data Source**
 
@@ -112,7 +76,7 @@ The following example shows how to create data relations using **GetChildDataSou
 
 **.NET**
 {{< highlight csharp >}}
-Public IMailMergeDataSourceCore GetChildDataSource(string childTableName, bool isObjectAttr)
+public IMailMergeDataSourceCore GetChildDataSource(string childTableName, bool isObjectAttr)
         {
             DataRow parentRow = GetCurrentDataRow();
             DataTable parentTable = parentRow.Table;
