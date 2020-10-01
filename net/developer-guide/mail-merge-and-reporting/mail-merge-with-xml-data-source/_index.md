@@ -47,27 +47,7 @@ The following XML contains the data that is needed to fill in a merge template:
 
 The following code example shows how to load XML data into DataSet and then use it as a data source:
 
-**.NET**
-{{< highlight csharp >}}
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
-
-// Create the Dataset and read the XML.
-DataSet customersDs = new DataSet();
-customersDs.ReadXml(dataDir + "Customers.xml");
-string fileName = "TestFile XML.doc";
-            
-// Open a template document.
-Document doc = new Document(dataDir + fileName);
-
-// Execute mail merge to fill the template with data from XML using DataTable.
-doc.MailMerge.Execute(customersDs.Tables["Customer"]);
-dataDir = dataDir + RunExamples.GetOutputFilePath(fileName);
-            
-// Save the output document.
-doc.Save(dataDir);
-Console.WriteLine("\nMail merge performed with XML data successfully.\nFile saved at " + dataDir);
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-XMLMailMerge-XMLMailMerge.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -77,8 +57,8 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 You can notice the difference between the template before executing the mail merge operation:
 
-![fill_merge_template_from_xml_using_dataset](fill_merge_template_from_xml_using_dataset_1.png)
+<img src="fill_merge_template_from_xml_using_dataset_1.png" alt="fill_merge_template_from_xml_using_dataset" style="width:250px"/>
 
 And after executing the mail merge operation:
 
-![fill_merge_template_from_xml](fill_merge_template_from_xml_using_dataset_2.png)
+<img src="fill_merge_template_from_xml_using_dataset_2.png" alt="fill_merge_template_from_xml" style="width:285px"/>

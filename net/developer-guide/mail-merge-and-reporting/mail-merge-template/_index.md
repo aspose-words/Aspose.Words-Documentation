@@ -29,61 +29,11 @@ Use the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words
 
 The following code example shows how to create a mail merge template:
 
-**.NET**
-
-{{< highlight csharp >}}
-
-public Document CreateMailMergeTemplate()
-{
-    DocumentBuilder builder = new DocumentBuilder();
-
-​	// Insert a text input field the unique name of this field is "Hello", the other parameters define
-​	// what type of FormField it is, the format of the text, the field result and the maximum text length (0 = no limit)
-​	builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Hello", 0);
-​	builder.InsertField(@"MERGEFIELD CustomerFirstName \* MERGEFORMAT");
-
-​	builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", " ", 0);
-​	builder.InsertField(@"MERGEFIELD CustomerLastName \* MERGEFORMAT");
-
-​	builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", " , ", 0);
-
-​	// Inserts a paragraph break into the document
-​	builder.InsertParagraph();
-
-​	// Insert mail body
-​	builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Thanks for purchasing our ", 0);
-​	builder.InsertField(@"MERGEFIELD ProductName \* MERGEFORMAT");
-
-​	builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", ", please download your Invoice at ", 0);
-​	builder.InsertField(@"MERGEFIELD InvoiceURL \* MERGEFORMAT");
-
-​	builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", ". If you have any questions please call ", 0);
-​	builder.InsertField(@"MERGEFIELD Supportphone \* MERGEFORMAT");
-
-​	builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", ", or email us at ", 0);
-​	builder.InsertField(@"MERGEFIELD SupportEmail \* MERGEFORMAT");
-
-​	builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", ".", 0);
-
-​	builder.InsertParagraph();
-
-​	// Insert mail ending
-​	builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Best regards,", 0);
-​	builder.InsertBreak(BreakType.LineBreak);
-​	builder.InsertField(@"MERGEFIELD EmployeeFullname \* MERGEFORMAT");
-
-​	builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", " ", 0);
-​	builder.InsertField(@"MERGEFIELD EmployeeDepartment \* MERGEFORMAT");
-
-​	return builder.Document;
-
-}
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeTemplate-CreateMailMergeTemplate.cs" >}}
 
 The picture below shows the created template:
 
-![mail_merge_template](mail_merge_template_1.png)
+<img src="mail_merge_template_1.png" alt="mail_merge_template" style="width:650px"/>
 
 ## **Customize a Mail Merge Template Properties**
 
@@ -95,18 +45,7 @@ You can specify the image properties using the [ImageFieldMergingArgs](https://a
 
 The following code example shows how to specify the image file name and image size:
 
-**.NET**
-
-{{< highlight csharp >}}
-
-void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
-	{
-    	args.ImageFileName = "Image.png";
-    	args.ImageWidth.Value = 200;
-    	args.ImageHeight = new MergeFieldImageDimension(200, MergeFieldImageDimensionUnit.Percent);
-	}
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeFormFields-ImageFieldMerging.cs" >}}
 
 ### **Customize Text Properties**
 
@@ -114,38 +53,7 @@ You can use the [Text](https://apireference.aspose.com/words/net/aspose.words.ma
 
 The following code example shows how to insert Check Boxes or HTML during mail merge operation:
 
-**.NET**
-
-{{< highlight csharp >}}
-
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting();
-string fileName = "Template.doc";
-
-// Load the template document.
-Document doc = new Document(dataDir + fileName);
-
-// Setup mail merge event handler to do the custom work.
-doc.MailMerge.FieldMergingCallback = new HandleMergeField();
-
-// Trim trailing and leading whitespaces mail merge values
-doc.MailMerge.TrimWhitespaces = false;
-
-// This is the data for mail merge.
-String[] fieldNames = new String[] {"RecipientName", "SenderName", "FaxNumber", "PhoneNumber", "Subject", "Body", "Urgent", "ForReview", "PleaseComment"};
-
-Object[] fieldValues = new Object[] {"Josh", "Jenny", "123456789", "", "Hello", "&lt;b&gt;HTML Body Test message 1&lt;/b&gt;", true, false, true};
-
-// Execute the mail merge.
-doc.MailMerge.Execute(fieldNames, fieldValues);
-dataDir = dataDir + RunExamples.GetOutputFilePath(fileName);
-
-// Save the finished document.
-doc.Save(dataDir);
-
-{{< /highlight >}}
-
-
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeFormFields-MailMergeFormFields.cs" >}}
 
 {{% alert color="primary" %}}
 

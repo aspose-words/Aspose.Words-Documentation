@@ -29,38 +29,15 @@ Once your template is ready, you can start performing the simple mail merge oper
 
 The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/execute/methods/5) method:
 
-**.NET**
-{{< highlight csharp >}}
-Public void SimpleMailMerge()
-{
-	// Include the code for our template.
-	Document doc = new Document();
-	DocumentBuilder builder = new DocumentBuilder(doc);
-
-​	// Create Merge Fields
-​	builder.InsertField(" MERGEFIELD CustomerName ");
-​	builder.InsertParagraph();
-​	builder.InsertField(" MERGEFIELD Item ");
-​	builder.InsertParagraph();
-​	builder.InsertField(" MERGEFIELD Quantity ");
-
-​	builder.Document.Save(ArtifactsDir + "MailMerge.TestTemplate.docx");
-​	
-
-​	// Fill the fields in the document with user data
-​	doc.MailMerge.Execute(new string[] { "CustomerName", "Item", "Quantity" }, new object[] { "John Doe", "Hawaiian", "2"});
-
-​	builder.Document.Save("Your local path to save the document" + "MailMerge.Simple.docx");
-}
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-SimpleMailMerge-SimpleMailMergeExecuteArray.cs" >}}
 
 You can notice the difference between the document before executing simple mail merge:
 
-![simple_mail_merge_template](execute_simple_mail_merge_1.png)
+<img src="execute_simple_mail_merge_1.png" alt="simple_mail_merge_template" style="width:300px"/>
 
 And after executing simple mail merge:
 
-![execute_simple_mail_merge](execute_simple_mail_merge_2.png)
+<img src="execute_simple_mail_merge_2.png" alt="execute_simple_mail_merge" style="width:300px"/>
 
 ### **How to Create Multiple Merged Documents**
 
@@ -68,37 +45,7 @@ In Aspose.Words, the standard mail merge operation fills only a single document 
 
 The following code example shows how to generate multiple merged documents during a mail merge operation:
 
-**.NET**
-{{< highlight csharp >}}
-//Put the path to the documents directory and open the template:
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting();
-Document doc = new Document(dataDir + "TestFile.doc");
-
-// Open the database connection.
-string connString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dataDir + "Customers.mdb";
-OleDbConnection conn = new OleDbConnection(connString);
-conn.Open();
-
-// Get data from a database.
-OleDbCommand cmd = new OleDbCommand("SELECT * FROM Customers", conn);
-OleDbDataAdapter da = new OleDbDataAdapter(cmd);
-DataTable data = new DataTable();
-da.Fill(data);
-
-//Perform a loop through each DataRow to iterate through the DataTable.
-//Clone the template document instead of loading it from disk for better speed performance before the mail merge operation.
-//You can load the template document from a file or stream but it is faster to load the document only once and then clone it in memory before each mail merge operation.
-
-int counter = 1;
-foreach (DataRow row in data.Rows)
-    {
-        Document dstDoc = (Document)doc.Clone(true);
-        dstDoc.MailMerge.Execute(row);
-        dstDoc.Save(string.Format(dataDir + "TestFile_out{0}.doc", counter++));
-    }
-
-Console.WriteLine("\nProduce multiple documents performed successfully.\nFile saved at " + dataDir);
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ProduceMultipleDocuments-ProduceMultipleDocuments.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -120,92 +67,19 @@ Aspose.Words allows you to execute mail merge with regions using different [Exec
 
 As a first step, we need to create the DataSet to pass it later as an input parameter to the ExecuteWithRegions method:
 
-**.NET**
-{{< highlight csharp >}}
-private static DataSet CreateDataSet()
-{
-// Create the customers table
-DataTable tableCustomers = new DataTable("Customers");
-tableCustomers.Columns.Add("CustomerID");
-tableCustomers.Columns.Add("CustomerName");
-tableCustomers.Rows.Add(new object[] { 1, "John Doe" });
-tableCustomers.Rows.Add(new object[] { 2, "Jane Doe" });
-
-// Create the orders table
-DataTable tableOrders = new DataTable("Orders");
-tableOrders.Columns.Add("CustomerID");
-tableOrders.Columns.Add("ItemName");
-tableOrders.Columns.Add("Quantity");
-tableOrders.Rows.Add(new object[] { 1, "Hawaiian", 2 });
-tableOrders.Rows.Add(new object[] { 2, "Pepperoni", 1 });
-tableOrders.Rows.Add(new object[] { 2, "Chicago", 1 });
-
-// Add both tables to a data set
-DataSet dataSet = new DataSet();
-dataSet.Tables.Add(tableCustomers);
-dataSet.Tables.Add(tableOrders);
-
-// The "CustomerID" column, also the primary key of the customers table is the foreign key for the Orders table
-dataSet.Relations.Add(tableCustomers.Columns["CustomerID"],    tableOrders.Columns["CustomerID"]);
-
-return dataSet;
-}
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-CreateDataSet.cs" >}}
 
 The following code example shows how to execute mail merge with regions using the [ExecuteWithRegions(DataSet)](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/executewithregions/methods/2) method:
 
-**.NET**
-{{< highlight csharp >}}
-public void MailMergeWithRegions()
-{
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// The start point of mail merge with regions
-// the dataset
-builder.InsertField(" MERGEFIELD TableStart:Customers");
-// Data from rows of the "CustomerName" column of the "Customers" table will go in this MERGEFIELD
-builder.Write("Orders for ");
-builder.InsertField(" MERGEFIELD CustomerName");
-builder.Write(":");
-
-// Create column headers
-builder.StartTable();
-builder.InsertCell();
-builder.Write("Item");
-builder.InsertCell();
-builder.Write("Quantity");
-builder.EndRow();
-
-// We have a second data table called "Orders", which has a many-to-one relationship with "Customers"
-// picking up rows with the same CustomerID value
-builder.InsertCell();
-builder.InsertField(" MERGEFIELD TableStart:Orders");
-builder.InsertField(" MERGEFIELD ItemName");
-builder.InsertCell();
-builder.InsertField(" MERGEFIELD Quantity");
-builder.InsertField(" MERGEFIELD TableEnd:Orders");
-builder.EndTable();
-
-// The end point of mail merge with regions
-builder.InsertField(" MERGEFIELD TableEnd:Customers");
-
-// pass our dataset to perform mail merge with regions            
-DataSet customersAndOrders = CreateDataSet();
-doc.MailMerge.ExecuteWithRegions(customersAndOrders);
-
-// Save the result
-doc.Save("Your local path to save the document" + "MailMerge.ExecuteWithRegions.docx");
-}
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-MailMergeWithRegions.cs" >}}
 
 You can notice the difference between the document before executing mail merge with regions:
 
-![mail_merge_with_regions_template](execute_mail_merge_with_regions_1.png)
+<img src="execute_mail_merge_with_regions_1.png" alt="mail_merge_with_regions_template" style="width:850px"/>
 
 And after executing mail merge with regions:
 
-![mail_merge_with_regions_execute](execute_mail_merge_with_regions_2.png)
+<img src="execute_mail_merge_with_regions_2.png" alt="mail_merge_with_regions_execute" style="width:850px"/>
 
 ### **Limitations of Mail Merge with Regions**
 

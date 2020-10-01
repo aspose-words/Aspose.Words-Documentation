@@ -15,7 +15,7 @@ The Mustache syntax supports *foreach* tag, which is an alternative for using ma
 
 You can also combine mail merge fields with some additional fields using the *foreach* tag as shown in the picture below.
 
-![mustache_syntax](mustache_syntax.png)
+<img src="mustache_syntax.png" alt="mustache_syntax" style="width:800px"/>
 
 ## **Create a Mustache Template**
 
@@ -29,7 +29,7 @@ Let's suppose that you need to send the same email to 50 recipients to personali
 
 The question here: how you can create 50 emails from 1 single Mustache template? To answer that, you need to perform a mail merge with regions to fill the curly braces for placeholders in the template with actual data and generate an output document.
 
-![mustache_template](mustache_template.png)
+<img src="mustache_template.png" alt="mustache_template" style="width:650px"/>
 
 {{% alert color="primary" %}}
 
@@ -43,29 +43,11 @@ Mustache is represented as a logic-less order as it lacks any specific control f
 
 The following code example shows how to replace the Mustache tags with specific data:
 
-**.NET**
-{{< highlight csharp >}}
-// Load a document
-Document doc = new Document(MyDir + @"Test.docx");
-
-// Loop through each row and fill it with data
-DataTable dataTable = new DataTable("list");
-dataTable.Columns.Add("Number");
-for (int i = 0; i < 10; i++)
-   {
-     DataRow datarow = dataTable.NewRow();
-     dataTable.Rows.Add(datarow);
-     datarow[0] = "Number " + i.ToString();
-   }
-// Activate performing a mail merge operation into additional field types 
-doc.MailMerge.UseNonMergeFields = true;
-doc.MailMerge.ExecuteWithRegions(dataTable);
-doc.Save("MailMerge.Mustache.docx");
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeUsingMustacheSyntax-MustacheSyntaxUsingDataTable.cs" >}}
 
 You can notice the difference between the document before executing the mail merge with regions along with applying the **UseNonMergeFields** property:
 
-![mustache_syntax](mustache_syntax_1.png)
+<img src="mustache_syntax_1.png" alt="mustache_syntax" style="width:400px"/>
 
 {{% alert color="primary" %}}
 
@@ -75,7 +57,7 @@ A section begins with a pound and ends with a slash. That is, {{#foreach list}} 
 
 And after applying the mail merge with regions:
 
-![mustache_syntax_result](mustache_syntax_2.png)
+<img src="mustache_syntax_2.png" alt="mustache_syntax_result" style="width:300px"/>
 
 ## **Use IF Fields to Make a Mail Merge Intelligent**
 
@@ -95,24 +77,12 @@ For example, you can use IF fields if you need to insert “his”, “her”, �
 
 The following code example shows how to perform a mail merge operation with Mustache tags and IF fields:
 
-**.NET**
-{{< highlight csharp >}}
-// Load a document
-Document doc = new Document(dataDir + "UseOfifelseMustacheSyntax.docx"); 
-
-// Perform mail merge operation
-doc.MailMerge.UseNonMergeFields = true; doc.MailMerge.Execute(new String[] { "GENDER" }, new Object[] { "MALE" });
-
-// Save the output document.
-dataDir = dataDir + "MailMergeUsingMustacheSyntaxifelse_out.docx";
-doc.Save(dataDir); 
-Console.WriteLine("\nMail merge performed with mustache if else syntax successfully.\nFile saved at " + dataDir);
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeUsingMustacheSyntax-UseOfifelseMustacheSyntax.cs" >}}
 
 You can notice the difference between the document before applying the **UseNonMergeFields** property:
 
-![mustache_if_field](mustache_if_field_1.png)
+<img src="mustache_if_field_1.png" alt="mustache_if_field" style="width:800px"/>
 
 And after applying the **UseNonMergeFields** property:
 
-![mustache_if_field_result](mustache_if_field_2.png)
+<img src="mustache_if_field_2.png" alt="mustache_if_field_2.png" style="width:800px"/>

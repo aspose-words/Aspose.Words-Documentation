@@ -17,13 +17,7 @@ When you are using some long template that is created by someone else, you may w
 
 The following code example shows how to delete all merge fields from your template without executing a mail merge operation:
 
-**.NET**
-{{< highlight csharp >}}
-
-Document doc = **new** Document(); 
-doc.MailMerge.DeleteFields();
-
- {{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-DeleteFields.cs" >}}
 
 ## **Set Up a Removing Option**
 
@@ -60,20 +54,7 @@ In both situations the **RemoveEmptyParagraphs** option will automatically remov
 
 The following code example shows how to remove the empty paragraphs:
 
-**.NET**
-{{< highlight csharp >}}
-
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
-Document doc = new Document(dataDir + "RemoveRowfromTable.docx");
-
-doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "Address2", "City" }, new object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
-
-doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
-
-dataDir = dataDir + "MailMerge.ExecuteArray_out.doc";
-doc.Save(dataDir);
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeCleanUp-RemoveEmptyParagraphs.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -87,29 +68,7 @@ In previous versions of Aspose.Words, empty mail merge regions were removed from
 
 The following code example shows how to remove the unused merge regions:
 
-**.NET**
-{{< highlight csharp >}}
-
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
-string fileName = "TestFile Empty.doc";
-
-Document doc = new Document(dataDir + fileName);
-
-// Create an empty data source in the form of a DataSet containing no DataTable objects.
-DataSet data = new DataSet();
-
-// Enable the MailMergeCleanupOptions.RemoveUnusedRegions option.
-doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveUnusedRegions;
-
-
-// Merge the data with the document by executing mail merge which will have no effect as there is no data. However the regions found in the document will be removed automatically as they are unused.
-doc.MailMerge.ExecuteWithRegions(data);
-dataDir = dataDir + RunExamples.GetOutputFilePath(fileName);
-
-// Save the output document to disk.
-doc.Save(dataDir);
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-RemoveEmptyRegions-RemoveUnmergedRegions.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -125,20 +84,7 @@ Aspose.Words allows you to remove any unused mail merge fields by assigning the 
 
 The following code example shows how to remove any unused merge fields from a document automatically during a mail merge operation:
 
-**.NET**
-{{< highlight csharp >}}
-
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
-Document doc = new Document(dataDir + "RemoveRowfromTable.docx");
-
-doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "Address2", "City" }, new object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
-
-doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveUnusedFields;
-
-dataDir = dataDir + "MailMerge.ExecuteArray_out.doc";
-doc.Save(dataDir);
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeCleanUp-RemoveUnusedFields.cs" >}}
 
 ### **Removing Containing Fields**
 
@@ -146,20 +92,7 @@ A merge field can be contained within another field such as an *IF* field or a f
 
 The following code example shows how to remove fields that contain merge fields from a document:
 
-**.NET**
-{{< highlight csharp >}}
-
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
-Document doc = new Document(dataDir + "RemoveRowfromTable.docx");
-
-doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "Address2", "City" }, new object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
-
-doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveContainingFields;
-
-dataDir = dataDir + "MailMerge.ExecuteArray_out.doc";
-doc.Save(dataDir);
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeCleanUp-RemoveContainingFields.cs" >}}
 
 **Note:** This option will only remove a containing field if the field was actually merged with data or if the merge field was removed by using the **RemoveUnusedFields** option. This option matches the behavior of Microsoft Word during mail merge which always automatically removes outer fields from a merged field and keeps only the plain text result.
 
@@ -169,17 +102,4 @@ Aspose.Words allows you to remove empty table rows by assigning the **RemoveEmpt
 
 The following code example shows how to remove empty table rows that contain mail merge regions from a document:
 
-**.NET**
-{{< highlight csharp >}}
-
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
-Document doc = new Document(dataDir + "RemoveRowfromTable.docx");
-
-doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "Address2", "City" }, new object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
-
-doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTableRows;
-
-dataDir = dataDir + "MailMerge.ExecuteArray_out.doc";
-doc.Save(dataDir);
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeCleanUp-RemoveEmptyTableRows.cs" >}}

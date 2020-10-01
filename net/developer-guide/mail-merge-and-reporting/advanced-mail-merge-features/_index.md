@@ -64,15 +64,7 @@ You can come across a scenario where you will want to merge data with merge fiel
 
 The following code example shows how to get names of all merge fields in the template:
 
-**.NET**
-{{< highlight csharp >}}
-
-Document doc = new Document(); 
-
-// Shows how to get names of all merge fields in a document.
-string[] fieldNames = doc.MailMerge.GetFieldNames();
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}
 
 ### **Get Information About Merge Regions**
 
@@ -87,24 +79,7 @@ MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
 The following code example shows how to get specific merge regions inside your template based on their names:
 
-**.NET**
-{{< highlight csharp >}}
-
-// Open your template
-Document doc = new Document(MyDir + "Mail merge regions.docx");
-
-
-// Get the first merge region in the template
-IList<MailMergeRegionInfo> regions = doc.MailMerge.GetRegionsByName("Region1");
-Assert.AreEqual(1, doc.MailMerge.GetRegionsByName("Region1").Count);
-foreach (MailMergeRegionInfo region in regions) Assert.AreEqual("Region1", region.Name);
-
-// Get the second merge region in the template
-regions = doc.MailMerge.GetRegionsByName("Region2");
-Assert.AreEqual(1, doc.MailMerge.GetRegionsByName("Region2").Count);
-foreach (MailMergeRegionInfo region in regions) Assert.AreEqual("Region2", region.Name);
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-GetRegionsByName.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -118,12 +93,4 @@ Aspose.Words allows you to automatically map names of fields in your data source
 
 The following code example shows how to add a mapped field using the [Add](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mappeddatafieldcollection/methods/add) method when a merge field in a template and a data field in a data source have different names:
 
-**.NET**
-{{< highlight csharp >}}
-
-Document doc = new Document(); 
-
-// Shows how to add a mapping when a merge field in a document and a data field in a data source have different names.
-doc.MailMerge.MappedDataFields.Add("MyFieldName_InDocument", "MyFieldName_Indata source");
-
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-MappedDataFields.cs" >}}

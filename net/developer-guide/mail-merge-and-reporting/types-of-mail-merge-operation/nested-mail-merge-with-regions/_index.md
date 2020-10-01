@@ -28,7 +28,7 @@ The most common example of a nested mail merge is an order that contains multipl
 
 The picture below shows two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
 
-![nested_mail_merge_with_regions](nested_mail_merge_with_regions_1.png)
+<img src="nested_mail_merge_with_regions_1.png" alt="nested_mail_merge_with_regions" style="width:650px"/>
 
 ## **How to Process Mail Merge with Nested Regions**
 
@@ -38,40 +38,13 @@ Aspose.Words allows you to process mail merge with nested regions using the data
 
 The image below shows how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
 
-![mail_merge_with_nested_regions](nested_mail_merge_with_regions_2.png)
+<img src="nested_mail_merge_with_regions_2.png" alt="mail_merge_with_nested_regions" style="width:650px"/>
 
 As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order’s related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting mail merge with regions in the template must match the data relationships between the tables in the data source.
 
 The following code example shows how to generate an invoice using nested mail merge with regions:
 
-**.NET**
-{{< highlight csharp >}}
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_MailMergeAndReporting(); 
-	 
-// Create the Dataset and read the XML.
-DataSet pizzaDs = new DataSet();
-	 
-// The Datatable.TableNames and the DataSet.Relations are defined implicitly by .NET through ReadXml.
-pizzaDs.ReadXml(dataDir + "CustomerData.xml");
-string fileName = "Invoice Template.doc";
-
-// Open the template document.
-Document doc = new Document(dataDir + fileName);
-	 
-// Trim trailing and leading whitespaces mail merge values
-doc.MailMerge.TrimWhitespaces = false;
-	 
-// Execute the nested mail merge with regions
-doc.MailMerge.ExecuteWithRegions(pizzaDs);
-dataDir = dataDir + RunExamples.GetOutputFilePath(fileName);
-
-// Save the output to file
-doc.Save(dataDir);
-
-Debug.Assert(doc.MailMerge.GetFieldNames().Length == 0, "There was a problem with mail merge");
-Console.WriteLine("\nMail merge performed with nested data successfully.\nFile saved at " + dataDir);
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-NestedMailMerge-NestedMailMerge.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -93,16 +66,7 @@ A DataSet that has related data tables will use the **DataRelation** object to r
 
 The following code example shows how to establish a DataRelation between a customer’s table and an order’s table by using a DataRelation object:
 
-**.NET**
-{{< highlight csharp >}}
-// Create the Dataset
-DataSet dataset = new DataSet();
-
-// Set up the data relations
-dataset.Relations.Add(
-new DataRelation("OrderToItem", orderTable.Columns["Order_Id"], itemTable.Columns["Order_Id"], false)
-);
-{{< /highlight >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ApplyCustomLogicToEmptyRegions-DisableForeignKeyConstraints.cs" >}}
 
 ## **How to Create Data Relations from a Custom Data Source**
 
@@ -112,7 +76,7 @@ The following example shows how to create data relations using **GetChildDataSou
 
 **.NET**
 {{< highlight csharp >}}
-Public IMailMergeDataSourceCore GetChildDataSource(string childTableName, bool isObjectAttr)
+public IMailMergeDataSourceCore GetChildDataSource(string childTableName, bool isObjectAttr)
         {
             DataRow parentRow = GetCurrentDataRow();
             DataTable parentTable = parentRow.Table;
