@@ -20,15 +20,8 @@ To convert a document to Markdown, you just need to load a document in any suppo
 The following code example shows how to convert DOCX to Markdown:
 
 **.NET**
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cs" >}}
 
-// Load the document from disk.
-Document doc = new Document(dataDir + "Test.docx");
-
-// Save the document to Markdown format.
-doc.Save(dataDir + "SaveDocx2Markdown.md");
-
-{{< /highlight >}}
 
 ## **Specify Save Options when Converting to Markdown**
 
@@ -54,35 +47,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 The following example shows how to create a document with some styles and save it to Markdown:
 
 **.NET**
-{{< highlight csharp >}}
-
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Specify the "Heading 1" style for the paragraph.
-builder.InsertParagraph();
-builder.ParagraphFormat.StyleName = "Heading 1";
-builder.Write("Heading 1");
-
-// Specify the Italic emphasis for the paragraph.
-builder.InsertParagraph();
-// Reset styles from the previous paragraph to not combine styles between paragraphs.
-builder.ParagraphFormat.StyleName = "Normal";
-builder.Font.Italic = true;
-builder.Write("Italic Text");
-// Reset styles from the previous paragraph to not combine styles between paragraphs.
-builder.Italic = false;
-
-// Specify a Hyperlink for the desired text.
-builder.InsertParagraph();
-builder.StartHyperlink("https://www.aspose.com", false, string.Empty, "AsposeUrl");
-builder.Write("Aspose");
-builder.EndHyperlink();
-
-// Save your document as a Markdown file.
-doc.Save("example.md");
-
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.cs" >}}
 
 The result of this code example is shown below.
 
