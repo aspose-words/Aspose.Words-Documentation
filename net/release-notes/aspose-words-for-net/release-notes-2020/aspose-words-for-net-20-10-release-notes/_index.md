@@ -111,7 +111,7 @@ There are 89 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-21157|Aspose.Words 20.9: Loading particular DOCX document and save it to PDF raises exception|Bug|
 |WORDSNET-6026|	While converting DOCX to PDF,  footnotes merged into contents|Bug|
 |WORDSNET-7885|	Text/Image positions are incorrect while conversion from MHT to DOC/DOCX|Bug|
-|WORDSNET-21193|Broken numbering when convert HTML to DOCX |Bug|
+|WORDSNET-21193|Broken numbering when converting HTML to DOCX |Bug|
 
 ## **Public API and Backward Incompatible Changes**
 
@@ -198,6 +198,7 @@ doc.Save("C:\\output.docx");
 Related issue: WORDSNET-19042
 
 Added a new public property CompareOptions.IgnoreDmlUniqueId:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies whether to ignore difference in DrawingML unique Id.
@@ -221,6 +222,7 @@ docA.Compare(docB, "vs", DateTime.Now, compareOptions);
 ### **Added a new public property LoadOptions.ConvertMetafilesToPng**
 
 Related issue: WORDSNET-20809
+
 This new LoadOption allows reducing memory usage.
 {{< highlight csharp >}}
 /// <summary>
@@ -245,6 +247,7 @@ Document doc = new Document(fielName, lo);
 ### **Added a new public property StructuredDocumentTagRangeStart.XmlMapping**
 
 Related issue: WORDSNET-21062
+
 A new public property XmlMapping has been added to the StructuredDocumentTagRangeStart class:
 {{< highlight csharp >}}
 /// <summary>
@@ -273,6 +276,7 @@ doc.Save(outFileName);
 ### **Added FieldOptions.FieldIndexFormat property and FieldIndexFormat enum**
 
 Related issue: WORDSNET-20022
+
 To satisfy the customer's requirements, we have added the FieldOptions.FieldIndexFormat property and FieldIndexFormat enum:
 
 {{< highlight csharp >}}
@@ -314,6 +318,7 @@ document.FieldOptions.FieldIndexFormat = FieldIndexFormat.Fancy;
 ### **Added support for loading CHM documents**
 
 Related issue: WORDSNET-17788
+
 Aspose.Words now can load CHM documents.
 
 A CHM document is a collection of HTML documents called "topics". Currently, Aspose.Words always loads all topics from a CHM document in the order in which they appear in the table of contents. CHM documents that don't have a table of contents, are also supported. When loading such documents, Aspose.Words loads the default topic and then locates additional topics by recursively following hyperlinks in already loaded topics.
@@ -353,6 +358,7 @@ Document doc = new Document("help.chm", options);
 ### **A new public property MarkdownSaveOptions.ImagesFolder has been added**
 
 Related issue: WORDSNET-20879
+
 New public property 'ImagesFolder' has been added to the 'MarkdownSaveOptions' class:
 
 {{< highlight csharp >}}
@@ -394,6 +400,7 @@ using (MemoryStream stream = new MemoryStream())
 ### **Document.DefaultTabStop property can now be zero**
 
 Related issue: WORDSNET-20746
+
 Document.DefaultTabStop property can now be zero (previously only a positive whole number).
 
 Use Case:
@@ -405,6 +412,7 @@ doc.DefaultTabStop = 0;
 ### **Document.ExtractPages() method was introduced**
 
 Related issue: WORDSNET-16228
+
 A new method ExtractPages() has been added to the Document class. Returns the new document, consisting of nodes located in the current document, within the specified page range.
 
 {{< highlight csharp >}}
@@ -426,6 +434,7 @@ public Document ExtractPages(int index, int count)
 ### **Implemented new API for exporting specific pages to fixed page formats**
 
 Related issue: WORDSNET-20820
+
 A new public API for exporting specific pages to fixed page formats has been implemented.
 
 Previously, you could specify only one continuous range for rendering, but now you can specify a complex set of pages based on different page ranges or individual pages in any order. This provides a flexible way to combine pages into final documents in fixed page formats.
@@ -655,6 +664,7 @@ Here are example pictures of Aspose.Words Cold Rendering of some standard layout
 ### **Signatures of DocumentBuilder.InsertOleObject methods changed to accept Syste.IO.Stream instead of System.Drawing.Image**
 
 Related issue: WORDSNET-20736
+
 To make it possible to insert OLE objects with metafile presentation in .NET Standard signatures of DocumentBuilder.InsertOleObject methods were changed to accept Syste.IO.Stream instead of System.Drawing.Image
 
 {{< highlight csharp >}}
@@ -712,6 +722,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 ### **The indexer of VbaReferenceCollection is exposed publicly**
 
 Related issue: WORDSNET-21071
+
 The indexer of VbaReferenceCollection is exposed publicly for reading:
 
 {{< highlight csharp >}}
