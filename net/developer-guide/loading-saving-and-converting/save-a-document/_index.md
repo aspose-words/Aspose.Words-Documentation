@@ -1,10 +1,9 @@
 ---
-title: Save a Document
-aliases:
-  - /net/saving-a-document/
+title: "Save a Document"
+aliases: [/net/saving-a-document/]
 type: docs
 description: "Aspose.Words enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
-keywords: "save a document c#", "save a document to file c#, "save a document to stream c#", "save a document Aspose .NET", "save formats supported by Aspose.Words .NET"
+keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /net/save-a-document/
 ---
