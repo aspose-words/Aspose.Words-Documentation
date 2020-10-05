@@ -1,8 +1,11 @@
 ---
-title: Saving a Document
+title: "Save a Document"
+aliases: [/net/saving-a-document/]
 type: docs
+description: "Aspose.Words enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
+keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
-url: /net/saving-a-document/
+url: /net/save-a-document/
 ---
 
 Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://apireference.aspose.com/net/words/aspose.words/document/methods/save/index) method of the [Document](https://apireference.aspose.com/net/words/aspose.words/document) class. There are overloads that allow saving a document to a file, stream, or ASP .NET HttpResponse object for sending to a client browser. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](http://www.aspose.com/api/net/words/aspose.words/saveformat) enumeration.
