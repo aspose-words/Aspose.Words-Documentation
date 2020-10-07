@@ -9,23 +9,23 @@ url: /java/custom-markup-features-supported-on-opendocument-import/
 
 Custom Markup are elements that added to parts of the document which allow extra information to be embedded within that particular document feature.
 
-For example, CustomXML markup can be wrapped around a paragraph in the document and user-defined data added to it. This data can then be retrieved from that paragraphs when required.
+For example, CustomXML markup can be wrapped around a paragraph in the document and user-defined data added to it. This data can then be retrieved from those paragraphs when required.
 
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **CustomXML**
+## **CustomXML**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |N/A | | |
-##### **Content Controls (Structured Document Tags)**
+## **Content Controls (Structured Document Tags)**
 ODT format does not support CustomXmlMarkup so it cannot be imported from this format.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
-##### **Smart Tags**
+## **Smart Tags**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

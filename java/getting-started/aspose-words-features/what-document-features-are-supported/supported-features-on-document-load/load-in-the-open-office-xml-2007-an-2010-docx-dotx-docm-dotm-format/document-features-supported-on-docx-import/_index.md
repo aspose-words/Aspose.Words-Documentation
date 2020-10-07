@@ -28,7 +28,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **General**
+## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -41,11 +41,11 @@ See the following links in the documentation for further information:
 |Embedded Package |Yes |<p>Embedded packages are generally supported by Aspose.Words. There are two ways documents can be embedded inside other documents: </p><p>- OLE (this is available in DOC and OOXML formats) </p><p>- Package Embedding (available in OOXML only) <br><br>  Content can be extracted from both types of embedded packages by using the OleFormat.Save method. <br><br>  Aspose.Words supports these in the following ways during conversion: <br><br>  If you have an OLE embedded or linked object it will be preserved during any conversion (e.g. DOC to DOCX or DOCX to DOC etc). <br><br>  If you have a Package Embedded document, then it will only be preserved during DOCX to DOCX conversion. <br><br>  There is no way to save a Package Embedded document from DOCX into a DOC file without converting it into an OLE embedded object. Implementing conversion of Package Embedded to OLE is tricky and it will take a while to implement. <br><br>  OLE objects contain "native data" and are supposed to be created by the actual OLE creating application. We at Aspose.Words have never attempted or planned to replace the behavior of OLE creating applications. </p>|- **Shape.OleFormat**|
 |Encryption |Yes |Encrypted documents can be loaded into Aspose.Words as long as the password supplied on load for the document is correct. <br><br>XOR obfuscation is currently unsupported. <br><br>Encrypting a document during save is currently unsupported with the exception when saving in DOC format. <br><br>Opening documents encrypted using the ECMA-376 Standard Encryption or Agile Encryption is supported <br><br>Opening documents encrypted using the Extensible Encryption is not supported. |<p>- **LoadOptions.Password** </p><p>- **FileFormatInfo.IsEncrypted**</p>|
 |Font Table |Yes | | |
-|Glossary Document/Quick Parts/Auto Text |Yes |Glossary Document for DOCX is accessiable through the DOM. |- **Document.GlossaryDocument**|
-|Hyphenation |Yes |There is currently no API to access and modify hypenation settings in a document. |- **ParagraphFormat.SuppressAutoHyphens**|
+|Glossary Document/Quick Parts/Auto Text |Yes |Glossary Document for DOCX is accessible through the DOM. |- **Document.GlossaryDocument**|
+|Hyphenation |Yes |There is currently no API to access and modify hyphenation settings in a document. |- **ParagraphFormat.SuppressAutoHyphens**|
 |Key Map Customizations |Yes | | |
 |Mail Merge Recipient Data |Yes | |- **Document.MailMergeSettings**|
-|Office Math |Yes |Office math content is accessable through the DOM. |- **OfficeMath**|
+|Office Math |Yes |Office math content is accessible through the DOM. |- **OfficeMath**|
 |Themes |Yes |There is currently no API to access information about Themes however they are preserved when exporting to most formats. <br><br>Themes are preserved during open/save cycle. | |
 |Toolbar Customizations |Yes | | |
 |Variables |Yes |Variables allow you to store additional information in the document which is "hidden" from the main document. <br><br>This can be used to embed custom tracking data in the document itself. |- **Document.Variables**|
@@ -53,23 +53,23 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes |A background of a Word document can be a solid color or an image. |- **Document.BackgroundShape**|
 |Thumbnail |Planned | |- **BuiltInDocumentProperties.Thumbnail**|
-##### **Embedded Fonts**
+## **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |Planned |Currently embedding new fonts into a document is unsupported. | |
 |Access and Use Embedded Fonts |Yes |Embedded fonts in DOCX are preserved and can be accessed through the API. |<p>- **FontInfo** </p><p>- **FontInfo.GetEmbeddedFont**</p>|
-##### **Bibliography**
+## **Bibliography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Bibliography |Yes |Bibliography content is preserved on import. <br><br>Updating a bibliography is currently unsupported. | |
 |Sources/Citations |Yes |Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. | |
 |Citation Style |Yes |Document-wide citation style is preserved but there is no access to this setting in the DOM. | |
-##### **Protection**
+## **Protection**
 Aspose.Words supports most document protection features.
 
-Using Aspose.Words you can open a document that is password protected even without the password (as long as its not encrypted). 
+Using Aspose.Words you can open a document that is password-protected even without the password (as long as its not encrypted). 
 
 Once loaded you can remove any protection from a document.
 
@@ -90,7 +90,7 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | |- **Section.ProtectedForForms**|
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | |<p>- **Document.WriteProtection** </p><p>- **WriteProtection.IsWriteProtected**</p>|
-##### **Settings**
+## **Settings**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

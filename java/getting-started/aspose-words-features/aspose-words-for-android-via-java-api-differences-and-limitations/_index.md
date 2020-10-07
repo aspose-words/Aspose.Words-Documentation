@@ -77,8 +77,11 @@ See the following Public API methods:
 
 ## **Aspose.Words for Android via Java additional requirements**
 
-In order to use metered licensing feature and load documents or images by http/ftp protocols users should add following permission to their applications
+In order to use the metered licensing feature and load documents or images by HTTP/FTP protocols, users should add the following permission to their applications
+
+{{< highlight script >}}
 *&lt;uses-permission android:name="android.permission.INTERNET" /&gt;*
+{{< /highlight >}}
 
 ## **Public API Examples**
 

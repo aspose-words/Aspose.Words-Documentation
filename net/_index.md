@@ -16,7 +16,7 @@ Aspose.Words for .NET is a class library that enables your applications to perfo
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET Resources**
+**Aspose.Words for .NET Resources**
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 

@@ -11,7 +11,7 @@ The following pages provide implementation details about how Aspose.Words loads 
 
 {{% /alert %}} 
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on DOCX Import](/words/java/annotation-features-supported-on-docx-import/)
 - [Custom Markup Features Supported on DOCX Import](/words/java/custom-markup-features-supported-on-docx-import/)

@@ -13,17 +13,17 @@ Graphic objects in any document format loaded into Aspose.Words are represented 
 
 Using Aspose.Words you can create and modify different types of graphic objects.
 
-Almost all properties that deal with object positioning use points as a unit of measurment. There is a class to help work with points by converting different types of units to and from points e.g pixel to point, point to inch.
+Almost all properties that deal with object positioning use points as a unit of measurement. There is a class to help work with points by converting different types of units to and from points e.g pixel to point, point to the inch.
 
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **Images**
+## **Images**
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
-All of the following image types listed in the table below this overview are supported. When a document contains multiple references to the same image from an from an external address (e.g the internet) then the image is only downloaded once.
+All of the following image types listed in the table below this overview are supported. When a document contains multiple references to the same image from an external address (e.g the internet) then the image is only downloaded once.
 
-It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of image from the Aspose.Words point-of-view.
+It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of the image from the Aspose.Words point-of-view.
 
 1. Microsoft Word Native (which can be stored directly in model without any changes). These are the JPEG, PNG, and PICT formats and are left untouched during insertion.
 
@@ -37,9 +37,9 @@ The reason why the formats found in the third item must be converted to PNG is b
 
 BMP is the exception and is supported by Microsoft Word. However, since a BMP stored in memory is often very large it too is converted to PNG to save memory.
 
-Note that PNG is a lossless compression format, so there is no degregration of image quality using the above techniques.
+Note that PNG is a lossless compression format, so there is no degradation of image quality using the above techniques.
 
-If you are using Aspose.Words for Java you may need to ensure that you have the appropriate JAI image libraries installed in order for Aspose.Words to convert GIF, TIFF and BMP formats to PNG. If the required functionality is missing you may recieve a "Image type not supported" exception.
+If you are using Aspose.Words for Java you may need to ensure that you have the appropriate JAI image libraries installed in order for Aspose.Words to convert GIF, TIFF and BMP formats to PNG. If the required functionality is missing you may receive a "Image type not supported" exception.
 
 See the following links in the documentation for further information:
 
@@ -63,7 +63,7 @@ See the following links in the documentation for further information:
 |Cropping |Yes | |<p>- **ImageData.CropLeft** </p><p>- **ImageData.CropRight** </p><p>- **ImageData.CropTop** </p><p>- **ImageData.CropBottom**</p>|
 |Alternative text |Planned | |- **Shape.AltText**|
 
-##### **Image Recoloring**
+## **Image Recoloring**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -71,7 +71,7 @@ See the following links in the documentation for further information:
 |Contrast |Yes | |- **ImageData.Contrast**|
 |Recolor |N/A | | |
 
-##### **Textboxes**
+## **Textboxes**
 See the following link in the documentation for further information:
 
 - **Shape.TextBox**
@@ -85,7 +85,7 @@ See the following link in the documentation for further information:
 |Resize To Fit Text |Yes | |- **TextBox.FitShapeToText**|
 |Text in Other Shapes |Yes | | |
 
-##### **OLE Objects**
+## **OLE Objects**
 Using Aspose.Words OLE Objects from Word documents are exported as images so are imported back as regular images and not OLE Objects.
 
 Support for native embedded objects in ODT during load is currently unsupported but is planned.
@@ -101,20 +101,20 @@ Support for native embedded objects in ODT during load is currently unsupported 
 |Ole Object Picture |N/A | | |
 |Source Range |N/A | | |
 
-##### **ActiveX Controls**
+## **ActiveX Controls**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Persistent Properties Storage |N/A | | |
 
-##### **Shapes**
+## **Shapes**
 Aspose.Words supports almost all Shape and Image elements. References to external images such as ones on the internet are automatically downloaded as well. All of these elements are imported into Aspose.Words as Shape nodes.
 
 Using Aspose.Words you can create any type of new shape including images, AutoShapes etc. you can also access, modify and remove such elements from a document.
 
-Most common properties such as borders or position can be modified through the API. There is currently no API for modifying advanced shape properties e.g ArcSize of a RoundRectangle.
+The most common properties such as borders or position can be modified through the API. There is currently no API for modifying advanced shape properties e.g ArcSize of a RoundRectangle.
 
-There is also no API for creating or modifiying advanced features such as Diagrams, Ink Annotations or Charts. These elements are retained fully during conversion.
+There is also no API for creating or modifying advanced features such as Diagrams, Ink Annotations or Charts. These elements are retained fully during conversion.
 
 Shapes which are linked to external resources such as images on the internet can be automatically downloaded when required.
 
@@ -147,7 +147,7 @@ See the following links in the documentation for further information:
 |Shape Customizations |N/A | | |
 |Hyperlink on Shape |N/A | | |
 |Watermark |N/A | | |
-##### **WordArt**
+## **WordArt**
 WordArt is imported as a Shape object in Aspose.Words. This class provides properties to extract and modify properties of a WordArt object.
 
 Using Aspose.Words you can create new WordArt graphics. Note that not all WordArt features are avalible through the API.
@@ -171,7 +171,7 @@ See the following links in the documentation for further information:
 |Align and Justify Text |Planned | |- **Textbox.TextPathAlignment**|
 |WordArt Shape |Planned | | |
 
-##### **Horizontal Line Object**
+## **Horizontal Line Object**
 Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a Shape can also represent an image there is a property which returns if this shape is a Horizontal Line Object.
 
 Using Aspose.Words you can create new or modify existing Horizontal Rule objects.
@@ -191,7 +191,7 @@ See the following link in the documentation for further information:
 |Hyperlink |N/A | | |
 |Image |N/A | | |
 
-##### **Position**
+## **Position**
 Aspose.Words supports creating objects with a variety of different positioning settings. Almost all possible settings are supported in the Aspose.Words model
 
 You can also access and modify existing shape's positioning.
@@ -220,7 +220,7 @@ See the following links in the documentation for further information:
 |Allow Overlap |N/A |When imported from ODT the shape has this property enabled by default. | |
 |Layout in Table Cell |N/A |When imported from ODT the shape has this property enabled by default. | |
 
-##### **Size**
+## **Size**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -229,7 +229,7 @@ See the following links in the documentation for further information:
 |Relative Size |N/A | | |
 |Lock Aspect Ratio |Planned | | |
 
-##### **Fill**
+## **Fill**
 Using Aspose.Words you can access, modify and remove most fill properties of a shape.
 
 See the following link in the documentation for further information:
@@ -244,7 +244,7 @@ See the following link in the documentation for further information:
 |Pattern Fill |Planned |The raw bytes of the Pattern fill can be extracted only. A new pattern can not be set. <br><br>Such pattern fills don't have eqivilants in ODT but can be round-tripped as image. |- **Fill.ImageBytes**|
 |Picture or Texture Fill |Planned |The raw bytes of the Texture fill can be extracted only. A new texture or image can not be set. <br><br>Such pattern fills don't have eqivilants in ODT but can be round-tripped as image. |- **Fill.ImageBytes**|
 
-##### **Line Style**
+## **Line Style**
 Some line styles might appear different when imported from ODT due to there being lesser line styles in ODT compared with Microsoft Word.
 
 See the following links in the documentation for further information:
@@ -263,21 +263,21 @@ See the following links in the documentation for further information:
 |Join Type |Yes | |- **Stroke.JoinStyle**|
 |Arrow Settings |Yes |Some arrow types might not be present in ODT and therefore cannot be round-tripped correctly. |<p>- **Stroke.StartArrowLength** </p><p>- **Stroke.StartArrowType** </p><p>- **Stroke.EndArrowLength** </p><p>- **Stroke.EndArrowType**</p>|
 
-##### **Shadow**
-Most shadow properties are preserved during import. There is currently no API to access shadow data of a graphic object.
+## **Shadow**
+Most shadow properties are preserved during import. There is currently no API to access the shadow data of a graphic object.
 
 This will be added in a future version.
 
-Shadows options in ODT are simplier so not all properties can be round-tripped from Microsoft Word documents to ODT back to Word again.
+Shadows options in ODT are simpler so not all properties can be round-tripped from Microsoft Word documents to ODT back to Word again.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shadow |Planned | | |
 
-##### **3D Properties**
+## **3D Properties**
 ODT format does not support 3D features.
 
-In a future version shapes with 3D formatting may be exported as image. During import 3D properties will appear visually, however will not be editable.
+In a future version shapes with 3D formatting may be exported as an image. During import 3D properties will appear visually, however will not be editable.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

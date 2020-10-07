@@ -26,7 +26,7 @@ Document doc = new Document(getMyDir() + "Document.doc");
 doc.save(getMyDir() + "Document Out.html");
 {{< /highlight >}}
 
-#### **Fidelity**
+## **Fidelity**
 
 One of the main goals of Aspose.Words is to provide high-fidelity conversion between document formats. We use the word “high-fidelity” to describe conversions where the output document retains all content and formatting of the original.
 
@@ -46,13 +46,13 @@ Examples of Aspose.Words conversions.
 |**Aspose.Words converted DOC to ODT. High-fidelity conversion.**|![todo:image_alt_text](high-quality-conversions_4.png)|
 |**Aspose.Words converted DOC to HTML. Not “high-fidelity”, but still very good.**|![todo:image_alt_text](high-quality-conversions_5.png)|
 
-#### **Scalability**
+## **Scalability**
 
 Server-side scalable scenarios are where Aspose.Words is used mainly because of its simple and clean design.
 
 Aspose.Words supports multithreading. Document objects are independent of each other and as long as only one thread at a time is allowed to modify a document (a typical requirement for any collection class), multiple threads can be processed any number of documents at the same time.
 
-#### **Speed**
+## **Speed**
 
 Aspose.Words demonstrates high productivity when loading and saving documents. In a test, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 

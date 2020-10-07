@@ -7,14 +7,14 @@ url: /java/footnotes-an-endnote-features-supported-on-rich-text-import/
 
 {{% alert color="primary" %}} 
 
-An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors publication in their document.
+An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors' publications in their document.
 
-Using Aspose.Words you can interact with footnotes and endnotes and access or modify footnote related propeties such as the location of the footnotes and when they restart.
+Using Aspose.Words you can interact with footnotes and endnotes and access or modify footnote related properties such as the location of the footnotes and when they restart.
 
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **Footnotes**
+## **Footnotes**
 See the following links in the documentation for further information:
 
 - **Footnote**
@@ -32,7 +32,7 @@ See the following links in the documentation for further information:
 |Restart Location |Yes | | |
 |Starting Value |Yes | | |
 |Placement |Yes | |- **FootnoteOptions.Location**|
-##### **Endnotes**
+## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -14,7 +14,7 @@ These features are supported by Aspose.Words.
 [Jump to this location in the export section](/words/java/annotation-features-supported-on-wordprocessingml-export/)
 
 {{% /alert %}} 
-##### **Bookmarks**
+## **Bookmarks**
 Bookmarks are imported as BookmarkStart and BookmarkEnd nodes. In Microsoft Word document formats a bookmark range can span over long amounts of content, including over different paragraphs and even tables.
 
 In Aspose.Words the BookmarkStart node designates where the start of the bookmarked region begins in the document. Likewise, the BookmarkEnd node designates where the end of the bookmark region closes.
@@ -40,7 +40,7 @@ See the following links in the documentation for further information:
 |Bookmark Name|Yes| |- **Bookmark.Name**|
 |Bookmark Table Columns|Yes| | |
 
-##### **Comments**
+## **Comments**
 A comment in a document is imported as a Comment node in the Aspose.Words DOM.
 
 The range of a comment can span over various parts of the document text, including over many paragraphs and tables.
@@ -69,7 +69,7 @@ See the following links in the documentation for further information:
 |Date|Yes| |- **Comment.Date**|
 |Initial|Yes| |- **Comment.Inital**|
 
-##### **Tracking Changes**
+## **Tracking Changes**
 Tracked changes are imported into the model as regular nodes. Paragraphs, Runs and Shapes all provide special properties to specify if they are insert or delete revisions.
 
 You can work with each these revisions manually or choose to accept all revisions at once. There is currently no API to reject changes.

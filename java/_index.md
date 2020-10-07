@@ -16,9 +16,9 @@ Aspose.Words for Java is a class library that enables your applications to perfo
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java Resources**
+**Aspose.Words for Java Resources**
 
-Following are the links to some useful resources you may need to accomplish your tasks.
+The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for Java Features](/words/java/feature-overview/)
 - [Aspose.Words for Java Limitations](/words/java/what-document-features-are-supported/)

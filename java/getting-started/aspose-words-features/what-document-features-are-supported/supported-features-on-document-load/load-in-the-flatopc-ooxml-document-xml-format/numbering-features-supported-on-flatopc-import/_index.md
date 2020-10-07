@@ -30,7 +30,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/java/numbering-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
-##### **Numbering Definition**
+## **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -38,7 +38,7 @@ See the following links in the documentation for further information:
 |Multi Level|Yes| |- **List.IsMultiLevel**|
 |Name|Yes| | |
 
-##### **Numbering Level**
+## **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

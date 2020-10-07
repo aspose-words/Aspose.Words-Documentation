@@ -11,7 +11,7 @@ The following pages provide implementation details about how Aspose.Words load a
 
 {{% /alert %}} 
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on OpenDocument Import](/words/java/annotation-features-supported-on-opendocument-import/)
 - [Custom Markup Features Supported on OpenDocument Import](/words/java/custom-markup-features-supported-on-opendocument-import/)

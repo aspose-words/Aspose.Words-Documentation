@@ -11,7 +11,7 @@ The following pages provide implementation details about how Aspose.Words loads 
 
 {{% /alert %}} 
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on Rich Text Import](/words/java/annotation-features-supported-on-rich-text-import/)
 - [Custom Markup Features Supported on Rich Text Import](/words/java/custom-markup-features-supported-on-rich-text-import/)

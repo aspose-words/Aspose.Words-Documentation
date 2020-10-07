@@ -30,14 +30,14 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **Numbering Definition**
+## **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
 |Multi Level |Yes | |- **List.IsMultiLevel**|
 |Name |N/A | | |
-##### **Numbering Level**
+## **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

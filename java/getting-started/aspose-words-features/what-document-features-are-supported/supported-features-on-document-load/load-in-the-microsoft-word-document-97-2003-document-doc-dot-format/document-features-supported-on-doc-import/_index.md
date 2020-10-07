@@ -27,7 +27,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **General**
+## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -41,7 +41,7 @@ See the following links in the documentation for further information:
 |Encryption |Yes |Encrypted documents can be loaded into Aspose.Words as long as the password supplied on load for the document is correct. <br><br>XOR obfuscation is currently unsupported. <br><br>Encrypting a document during save is currently unsupported with the exception when saving in DOC format. <br><br>Opening documents encrypted using the 40-bit RC4 Encryption is supported. <br><br>Opening documents encrypted using the CryptoAPI RC4 Encryption or XOR encryption is not supported. |<p>- **LoadOptions.Password** </p><p>- **FileFormatInfo.IsEncrypted**</p>|
 |Font Table |Yes | | |
 |Glossary Document/Quick Parts/Auto Text |Planned | |- **Document.GlossaryDocument**|
-|Hyphenation |Yes |There is currently no API to access and modify hypenation settings in a document. |- **ParagraphFormat.SuppressAutoHyphens**|
+|Hyphenation |Yes |There is currently no API to access and modify hyphenation settings in a document. |- **ParagraphFormat.SuppressAutoHyphens**|
 |Key Map Customizations |Yes | | |
 |Mail Merge Recipient Data |Yes | |- **Document.MailMergeSettings**|
 |Office Math |N/A | | |
@@ -52,23 +52,23 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes |A background of a Word document can be a solid color or an image. |- **Document.BackgroundShape**|
 |Thumbnail |Planned | |- **BuiltInDocumentProperties.Thumbnail**|
-##### **Embedded Fonts**
+## **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |Planned |Currently embedding new fonts into a document is unsupported. | |
 |Access and Use Embedded Fonts |Yes |Embedded fonts in DOC are preserved and can be accessed through the API. |<p>- **FontInfo** </p><p>- **FontInfo.GetEmbeddedFont**</p>|
-##### **Bibliography**
+## **Bibliography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Bibliography |Planned |Bibliography content is preserved on import. <br><br>Updating a bibliography is currently unsupported. | |
 |Sources/Citations |Planned |Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. | |
 |Citation Style |Yes |Document-wide citation style is preserved but there is no access to this setting in the DOM. | |
-##### **Protection**
+## **Protection**
 Aspose.Words supports most document protection features.
 
-Using Aspose.Words you can open a document that is password protected even without the password (as long as its not encrypted). 
+Using Aspose.Words you can open a document that is password-protected even without the password (as long as its not encrypted). 
 
 Once loaded you can remove any protection from a document.
 
@@ -89,7 +89,7 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | |- **Section.ProtectedForForms**|
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | |<p>- **Document.WriteProtection** </p><p>- **WriteProtection.IsWriteProtected**</p>|
-##### **Settings**
+## **Settings**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -5,11 +5,11 @@ weight: 20
 url: /java/overview-of-aspose-words-in-java/
 ---
 
-#### **The Aspose.Words API in Java**
+## **The Aspose.Words API in Java**
 
 While trying to keep the API as straight forward and clear as possible, we decided to recognize and honor the common development practices of the platform. Therefore, Aspose.Words for Java follows coding guidelines widely accepted by Java developers. 
 
-#### **Packages**
+### **Packages**
 
 All classes and methods used in Aspose.Words for Java are contained in one package.
 
@@ -17,7 +17,7 @@ All classes and methods used in Aspose.Words for Java are contained in one packa
 | :- |
 |com.aspose.words |
 
-#### **Classes**
+### **Classes**
 
 Where possible, class, method and property names match those found in Microsoft Word Automation.
 
@@ -26,7 +26,7 @@ Where possible, class, method and property names match those found in Microsoft 
 |Document |
 |Paragraph |
 
-#### **Enumerations**
+### **Enumerations**
 
 Enumerations are ported to Java as classes with public integer constants
 
@@ -41,7 +41,7 @@ The main reason why we did not use Java enums is to stay compatible with J2SE 1.
 
 {{% /alert %}} 
 
-#### **Methods**
+### **Methods**
 
 Method names follow the accepted practices for the Java platform.
 
@@ -51,7 +51,7 @@ Method names follow the accepted practices for the Java platform.
 |CompositeNode.GetChildNodes |
 Several methods had to be renamed as they got into conflict with some Java runtime methods. For example, the clone method which should be named **Document.Clone** was renamed to **Document.deepClone** in Java.
 
-#### **Properties**
+### **Properties**
 
 All properties found in classes within Aspose.Words for Java are implemeneted as getter and setter methods. The original name of the method had "get" and "set" prefixes added to it.
 
@@ -60,7 +60,7 @@ All properties found in classes within Aspose.Words for Java are implemeneted as
 |Font.getBold , Font.setBold |
 |PageSetup.getLeftMargin , PageSetup.setLeftMargin |
 
-#### **Indexed Properties**
+### **Indexed Properties**
 
 Indexed properties appear as get() and set() properties in most cases.
 
@@ -69,10 +69,10 @@ Indexed properties appear as get() and set() properties in most cases.
 |Style.get(int) |
 |Style.get(String) |
 
-#### **Event**
+### **Event**
 
 Events in Aspose.Words for Java are implemented as callbacks (listeners). For examples to subscribe to the event of a field merging you create your own class implementing the **IFieldMergingCallback** interface.
 
-#### **Implementation of Internal infterfaces**
+### **Implementation of Internal infterfaces**
 
 In Java, all members that are implementations of interfaces are public methods of the class. This makes some methods visible (that were not intended to be visible) in the public API of Aspose.Words for Java. We will include a corresponding remark in all such methods or will try to remove them from the documentation completely. For example, the public **Border** class implements internal interface **IComplexAttr,** and the **Merge** method is visible in the public API . You should not use such methods. In this case you cannot use this method at all because the **IComplexAttr** interface is not public and its declaration is not available to you.* 

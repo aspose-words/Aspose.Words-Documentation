@@ -7,7 +7,7 @@ url: /java/paragraph-features-supported-on-opendocument-import/
 
 {{% alert color="primary" %}} 
 
-Each paragraph in a document is represented in Aspose.Words as a Paragraph node. A paragraph represesents a block of text in a document and have a variety of properties and styles.
+Each paragraph in a document is represented in Aspose.Words as a Paragraph node. A paragraph represents a block of text in a document and have a variety of properties and styles.
 
 Using Aspose.Words you can access and change virtually all properties of a paragraph. Nearly all paragraph attributes are supported. You can also easily insert and remove paragraphs.
 
@@ -22,7 +22,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -34,7 +34,7 @@ See the following links in the documentation for further information:
 |Run Properties for the Paragraph Mark |Yes | |- **ParagraphFormat.ParagraphBreakFont**|
 |Suppress Line Numbers |Yes | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Yes | |- **ParagraphFormat.SurpressAutoHyphens**|
-##### **Indents**
+## **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -44,7 +44,7 @@ See the following links in the documentation for further information:
 |Hanging Indent |Yes | |- **ParagraphFormat.FirstLineIndent**|
 |Mirror Indents |N/A | | |
 |Automatically Adjust Right Indent |N/A | | |
-##### **Spacing**
+## **Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -54,7 +54,7 @@ See the following links in the documentation for further information:
 |Line Spacing |Yes | |<p>- **ParagraphFormat.LineSpacing** </p><p>- **ParagraphFormat.LineSpacingRule**</p>|
 |No Space between Conforming Paragraphs |N/A | | |
 |Snap To Grid |Yes | | |
-##### **Keeps and Breaks**
+## **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -62,19 +62,19 @@ See the following links in the documentation for further information:
 |Keep With Next |Yes | |- **ParagraphFormat.KeepWithNext**|
 |Keep Lines Together |Yes | |- **ParagraphFormat.KeepTogether**|
 |Page Break Before |Yes | |- **ParagraphFormat.PageBreakBefore**|
-##### **Text Frames**
+## **Text Frames**
 This is the legacy text frames from Word 97, not to be confused with the Autoshape Textbox which is discussed under Drawing Objects.
 
 Text frames are preserved in the model but there is no API or node to modify or access information about frames.
 
 Text from text frames is saved to ODT as normal text paragraphs.
 
-During round trip these will be imported back as normal paragraps and not text frames.
+During round trip these will be imported back as normal paragraphs and not text frames.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Frames |Planned | | |
-##### **Tab Stops**
+## **Tab Stops**
 All features of tab stops are supported in Aspose.Words except for relative tab stops.
 
 Using Aspose.Words you can find tab stops based off position or index. You can change tab stop features like position, alignment etc or remove tabstops completely.
@@ -89,7 +89,7 @@ See the following link in the documentation for further information:
 |Relative Position |N/A | | |
 |Alignment: Left, Center, Right, Decimal, Bar |Yes | |- **TabStop.Alignment**|
 |Leader |Yes | |- **TabStop.Leader**|
-##### **Drop Caps**
+## **Drop Caps**
 Drop Caps are partially supported and preserved during document conversion. A drop cap is a text frame which is imported as a separate paragraph (from the rest of the paragraph as seen in the source document).
 
 You can modify drop cap properties and position, however the new settings are not applied to the drop cap. You cannot yet create new drop caps (although you can easily simulate them through the use of a textbox). 
@@ -104,7 +104,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
-##### **Borders**
+## **Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -115,7 +115,7 @@ See the following links in the documentation for further information:
 |Color |Yes | |- **Border.Color**|
 |Width |Yes | |- **Border.LineWidth**|
 |Distance from Text |Yes | |- **Border.DistanceFromText**|
-##### **Shading**
+## **Shading**
 See the following link in the documentation for further information:
 
 - **ParagraphFormat.Shading**
@@ -123,8 +123,8 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
-##### **Asian Typography**
-Asian Typography settings is fully supported during conversion. However there is currently no API to access or modify these settings.
+## **Asian Typography**
+Asian Typography settings is fully supported during conversion. However, there is currently no API to access or modify these settings.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -33,7 +33,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **Table**
+## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -49,7 +49,7 @@ See the following links in the documentation for further information:
 |Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. <br><br>Imported from width as relative (percent) or absolute (point) width from &lt;table&gt;. |- **Table.PreferredWidth**|
 |Table Shading |Yes |Imported from background-color style attribute on all cells in the table. |- **Table.SetShading**|
 |Hidden |N/A | | |
-##### **Floating Tables**
+## **Floating Tables**
 Floating tables are supported during import and export. However there is currently no API to access or modify the floating position of a table.
 
 Floating tables are imported as inline.
@@ -57,7 +57,7 @@ Floating tables are imported as inline.
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Floating Tables |Planned | | |
-##### **Table Borders**
+## **Table Borders**
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document.
 
 If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first.
@@ -73,7 +73,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Planned | | |
-##### **Rows**
+## **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -81,7 +81,7 @@ See the following links in the documentation for further information:
 |Repeat as Header Row |Planned |Will be imported from &lt;thead&gt; and &lt;th&gt; elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows]() </p><p>- **RowFormat.HeadingFormat**</p>|
 |Height |Yes |Imported from "height" of style attribute on &lt;tr&gt;. Row height is only from &lt;tr&gt; and not from &lt;td&gt; cells. |- **RowFormat.Height**|
 |Height Rule |Planned |A row without any height is imported as "Auto" height rule. <br><br>A row with height defined is imported as "At Least". |- **RowFormat.HeightRule**|
-##### **Cells**
+## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -93,6 +93,6 @@ See the following links in the documentation for further information:
 |Preferred Width |Yes |Imported from style attribute width from cells as either relative (percent) or fixed (points). |- **CellFormat.PreferredWidth**|
 |Merged Horizontally |Yes |Imported from "row-span" attribute on &lt;td&gt;. |<p>- [Working with Merged Cells]() </p><p>- **CellFormat.HorizontalMerge**</p>|
 |Merged Vertically |Yes |Imported from "col-span" attribute on &lt;td&gt;. |- **CellFormat.VerticalMerge**|
-|Vertical Alignment |Yes |Imported from vertical-align attribute on cell. |- **CellFormat.VerticalAlignment**|
+|Vertical Alignment |Yes |Imported from the vertical-align attribute on cell. |- **CellFormat.VerticalAlignment**|
 |Text Direction |Yes |Imported from "writing-mode" style attribute. |- **CellFormat.Orientation**|
 

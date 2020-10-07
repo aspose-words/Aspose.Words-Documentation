@@ -18,7 +18,7 @@ You currently cannot rename a style name or remove an existing style from a docu
 [Jump to this location in the export section](/words/java/style-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
-##### **Style Type**
+## **Style Type**
 See the following links in the documentation for further information:
 
 - **Document.Styles**
@@ -32,7 +32,7 @@ See the following links in the documentation for further information:
 |List Style|Yes| |- **StyleType.List**|
 |Table Style|Yes| |<p>- **Table.Style**</p><p>- **TableStyle**</p><p>- **StyleType.Table**</p>|
 
-##### **General**
+## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,14 +47,14 @@ See the following links in the documentation for further information:
 |Run Properties|Yes| |- **Style.Font**|
 |Bullets and Numbering|Yes| |<p>- **Style.List**</p><p>- **Style.ListFormat**</p>|
 
-##### **Document Defaults**
+## **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties|Yes| | |
 |Run Properties|Yes| | |
 
-##### **Table Style**
+## **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

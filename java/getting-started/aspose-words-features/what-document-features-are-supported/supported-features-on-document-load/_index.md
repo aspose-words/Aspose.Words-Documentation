@@ -5,7 +5,7 @@ weight: 20
 url: /java/supported-features-on-document-load/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Document Loading Overview](/words/java/document-loading-overview/)
 - [Load in the FlatOPC OOXML Document (.XML) Format](https://docs.aspose.com/words/java/load-in-the-flatopc-ooxml-document-xml-format/)

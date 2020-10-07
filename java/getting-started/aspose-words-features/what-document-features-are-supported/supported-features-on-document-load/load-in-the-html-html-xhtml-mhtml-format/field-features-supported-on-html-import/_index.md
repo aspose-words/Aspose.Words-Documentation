@@ -38,7 +38,7 @@ There are also plans to import fields from HTML by allowing the user to define a
 [Jump to this location in the export section](/words/java/field-features-supported-on-html-export/)
 
 {{% /alert %}} 
-##### **Field Codes**
+## **Field Codes**
 Only form fields and hyperlinks are importing from HTML as dynamic fields.
 
 Other fields are imported from HTML as plain text.
@@ -58,7 +58,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Field Codes|Yes| | |
 
-##### **Date and Time**
+## **Date and Time**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -69,7 +69,7 @@ See the following links in the documentation for further information:
 |SaveDate|N/A| | |
 |Time|N/A| | |
 
-##### **Document Automation**
+## **Document Automation**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -80,7 +80,7 @@ See the following links in the documentation for further information:
 |MacroButton|N/A| | |
 |Print|N/A| | |
 
-##### **Document Information**
+## **Document Information**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -99,7 +99,7 @@ See the following links in the documentation for further information:
 |Template|N/A| | |
 |Title|N/A| | |
 
-##### **Equations and Formulas**
+## **Equations and Formulas**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -108,7 +108,7 @@ See the following links in the documentation for further information:
 |Eq|N/A| | |
 |Symbol|N/A| | |
 
-##### **Form Fields**
+## **Form Fields**
 Form fields are fully supported by Aspose.Words.
 
 There is an option to export form fields as dynamic fields in HTML as &lt;input&gt; and &lt;select&gt; tags or to export them as plain text.
@@ -143,7 +143,7 @@ See the following links in the documentation for further information:
 |Check Box Size|Planned|There are plans to use width and height CSS attributes to increase the size of checkboxes exported to HTML.|<p>- **FormField.CheckboxSize**</p><p>- **FormField.IsCheckBoxExactSize**</p>|
 |Text Input Type|Planned| |- **FormField.TextInputType**|
 
-##### **Index and Tables**
+## **Index and Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -155,7 +155,7 @@ See the following links in the documentation for further information:
 |TOC (Table of Contents)|N/A|Hyperlinked entries are imported as working hyperlinks but the entire content is not imported as a TOC field.| |
 |XE|N/A| | |
 
-##### **Links and References**
+## **Links and References**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -173,7 +173,7 @@ See the following links in the documentation for further information:
 |Ref|N/A| | |
 |StyleRef|N/A| | |
 
-##### **Mail Merge**
+## **Mail Merge**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -192,7 +192,7 @@ See the following links in the documentation for further information:
 |Set|N/A| | |
 |SkipIf|N/A| | |
 
-##### **Numbering**
+## **Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -207,7 +207,7 @@ See the following links in the documentation for further information:
 |SectionPages|N/A| | |
 |Seq|N/A| | |
 
-##### **User Information**
+## **User Information**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -215,7 +215,7 @@ See the following links in the documentation for further information:
 |UserInitials|N/A| | |
 |UserName|N/A| | |
 
-##### **Hyperlinks**
+## **Hyperlinks**
 Aspose.Words fully supports all features of hyperlink fields.
 
 You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink.
@@ -239,7 +239,7 @@ See the following links in the documentation for further information:
 |Screen Tip|Planned| | |
 |Target Frame|Yes|Imported from target="_XXX" attribute.| |
 
-##### **Formatting Switches**
+## **Formatting Switches**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

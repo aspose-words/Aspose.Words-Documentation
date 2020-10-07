@@ -11,7 +11,7 @@ A table is comprised of rows and cells and is used to display data in a grid-lik
 
 Aspose.Words supports imports of tables from all loaded formats including Microsoft Word, Open Office and HTML documents.
 
-A table is represented in Aspose.Words by a Table node. Each row of the table is represented by a separate Row node. Likewise each cell of the row is represented by a Cell node. Each node type has it's own formatting properties which controls the table's apperance and behavior.
+A table is represented in Aspose.Words by a Table node. Each row of the table is represented by a separate Row node. Likewise each cell of the row is represented by a Cell node. Each node type has it's own formatting properties which controls the table's appearance and behavior.
 
 - Table contains the properties for controlling the formatting of a table as a whole.
 - Each Row provides a RowFormat object which contains the properties that control formatting for that particular row.
@@ -29,7 +29,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **Table**
+## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -42,18 +42,18 @@ See the following links in the documentation for further information:
 |Allow AutoFit |Yes | |- **Table.AllowAutoFit**|
 |Default Cell Margins |Yes | |<p>- **Table.LeftPadding** </p><p>- **Table.RightPadding** </p><p>- **Table.BottomPadding** </p><p>- **Table.TopPadding**</p>|
 |Default Cell Spacing |N/A | | |
-|Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. |- **Table.PreferredWidth**|
+|Preferred Table Width |Yes |Preferred width on the table can be set to absolute (points), relative (percent) or auto setting. |- **Table.PreferredWidth**|
 |Table Shading |Yes | |- **Table.SetShading**|
 |Hidden |N/A | | |
-##### **Floating Tables**
+## **Floating Tables**
 Floating tables are supported during import and export. However there is currently no API to access or modify the floating position of a table.
 
-Floating tables are imported as inline tables with left indent.
+Floating tables are imported as inline tables with a left indent.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Floating Tables |Planned | | |
-##### **Table Borders**
+## **Table Borders**
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document.
 
 If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first.
@@ -67,7 +67,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
-##### **Rows**
+## **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -75,7 +75,7 @@ See the following links in the documentation for further information:
 |Repeat as Header Row |Yes | |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows]() </p><p>- **RowFormat.HeadingFormat**</p>|
 |Height |Yes | |- **RowFormat.Height**|
 |Height Rule |Yes | |- **RowFormat.HeightRule**|
-##### **Cells**
+## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

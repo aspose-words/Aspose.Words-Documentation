@@ -23,9 +23,9 @@ Using Aspose.Words for Java in your project gives you the following benefits:
 
 {{% /alert %}} 
 
-### **Product Description**
+## **Product Description**
 
-#### **Rich Set of Features**
+### **Rich Set of Features**
 
 Aspose.Words for Java features can be divided into four main areas:
 
@@ -38,11 +38,11 @@ Aspose.Words for Java features can be divided into four main areas:
 
 ![todo:image_alt_text](introducing-aspose-words-for-java_2.png)
 
-#### **No Microsoft Word Automation**
+### **No Microsoft Word Automation**
 
 Aspose.Words does not require Microsoft Office to be installed on the machine in order to work. All Aspose components are totally independent and are not affiliated with, nor authorized, sponsored, or otherwise approved by Microsoft Corporation. In short, Aspose.Words is a better alternative to automation in terms of security, stability, scalability/speed, price and features.
 
-#### **Platform Independence**
+### **Platform Independence**
 
 Aspose.Words for .NET and Aspose.Words for Java are “twin brothers” products and together cover most of the popular development environments and deployment platforms.
 
@@ -52,7 +52,7 @@ You can use Aspose.Words for .NET to build any type of a 32-bit or 64-bit .NET a
 
 Aspose.Words for Java is available for Java 1.6, 1.7 and 1.8 and will run in any place where Java is installed. It is possible to use Aspose.Words for Java from Perl, PHP, and Python.
 
-#### **Performance and Scalability**
+### **Performance and Scalability**
 
 Aspose.Words is designed to perform great both on a server or client. Aspose.Words is a single JAR archive that can be deployed with any Java application by simply copying it. You do not have to worry about any other services or modules.
 
@@ -62,7 +62,7 @@ Aspose.Words is multithread safe as long as only one thread works on a document 
 
 Sometimes Aspose.Words for Java will throw OutOfMemoryError on Java. This is because the default Java heap space might not be enough for high memory spikes when processing some documents. In this case, the easy way to fix the issue is to increase the heap space for the JVM.
 
-#### **Minimal Learning Curve**
+### **Minimal Learning Curve**
 
 Although there are over 150 public classes and enumerations in Aspose.Words, the learning curve is minimal because the Aspose.Words API has been carefully designed with the following goals in mind:
 
@@ -74,7 +74,7 @@ Developers, who used Microsoft Word Automation in their projects before, will fi
 
 At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents the document as a tree of objects more like an XML DOM tree. If you worked with any XML DOM library you will find it is easy to understand and work with Aspose.Words.
 
-### **Technical Support**
+## **Technical Support**
 
 Aspose provides unlimited free technical support for all its products. The support is available to all users, including evaluation. If you need help with Aspose.Words, consider the following:
 
@@ -89,16 +89,16 @@ If you have an issue with Aspose.Words, follow these simple steps to make sure i
 - When reporting an issue, please include the original document and possibly a fragment of your code that causes the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose.Forums since only you and Aspose developers will have access to the attached files.
 - Please try to report one issue per thread. If you have another issue, report it in a separate thread.
 
-### **Installing Aspose.Words for Java**
+## **Installing Aspose.Words for Java**
 
 Please refer to the following article:
 
 [Installing Aspose.Words for Java from Maven Repository](/words/java/installation/)
 
-### **Evaluate Aspose.Words**
+## **Evaluate Aspose.Words**
 
 You can easily download Aspose.Words for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to [apply the license](https://docs.aspose.com/words/java/license-aspose-words/#applying-a-license). The evaluation version of Aspose.Words provides full product functionality, but inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to several hundred paragraphs.
 
-#### **Evaluation License**
+### **Evaluation License**
 
 If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx).

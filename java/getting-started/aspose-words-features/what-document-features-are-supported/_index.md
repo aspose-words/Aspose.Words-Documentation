@@ -5,7 +5,7 @@ weight: 50
 url: /java/what-document-features-are-supported/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Document Interoperability](/words/java/document-interoperability/)
 - [Supported Features on Document Load](/words/java/supported-features-on-document-load/)

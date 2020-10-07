@@ -26,7 +26,7 @@ You can also set the BaseUri path of the document being loaded so relative resou
 [Jump to this location in the export section](/words/java/drawing-object-features-supported-on-html-export/)
 
 {{% /alert %}} 
-##### **Images**
+## **Images**
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
 All of the following image types listed in the table below this overview are supported. When a document contains multiple references to the same image from an external address (e.g the internet) then the image is only downloaded once.
@@ -80,7 +80,7 @@ See the following links in the documentation for further information:
 |Cropping|Yes|During export, images are cropped permanently and cropping cannot be removed when round-tripped back into Word document formats.|<p>- **ImageData.CropLeft**</p><p>- **ImageData.CropRight**</p><p>- **ImageData.CropTop**</p><p>- **ImageData.CropBottom**</p>|
 |Alternative text|Yes|Imported from alt=xxx.|- **Shape.AltText**|
 
-##### **Image Recoloring**
+## **Image Recoloring**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -88,7 +88,7 @@ See the following links in the documentation for further information:
 |Contrast|Yes|Contrast modifier is applied to the image during export. <br><br>The image contrast is preserved on round-tripped but it cannot be modified.|- **ImageData.Contrast**|
 |Recolor|Planned| | |
 
-##### **Textboxes**
+## **Textboxes**
 Textboxes are restored to image during export to HTML to improve fidelity.
 
 Upon subsequent import, this content appears correctly (the same as the textbox with settings) but is imported as an image. Text is not editable and textbox settings cannot be changed.
@@ -106,7 +106,7 @@ See the following link in the documentation for further information:
 |Resize To Fit Text|Yes| |- **TextBox.FitShapeToText**|
 |Text in Other Shapes|Yes| | |
 
-##### **OLE Objects**
+## **OLE Objects**
 OLE Objects are exported as images so are imported back as regular images and not OLE Objects.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -120,13 +120,13 @@ OLE Objects are exported as images so are imported back as regular images and no
 |Ole Object Picture|N/A| | |
 |Source Range|N/A| | |
 
-##### **ActiveX Controls**
+## **ActiveX Controls**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Persistent Properties Storage|N/A| | |
 
-##### **Shapes**
+## **Shapes**
 Aspose.Words supports almost all Shape and Image elements. References to external images such as ones on the internet are automatically downloaded as well. All of these elements are imported into Aspose.Words as Shape nodes.
 
 Using Aspose.Words you can create any type of new shape including images, AutoShapes etc. you can also access, modify and remove such elements from a document.
@@ -187,7 +187,7 @@ See the following links in the documentation for further information:
 |Align and Justify Text|Planned| |- **Textbox.TextPathAlignment**|
 |WordArt Shape|Planned| | |
 
-##### **Horizontal Line Object**
+## **Horizontal Line Object**
 Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a Shape can also represent an image there is a property which returns if this shape is a Horizontal Line Object.
 
 Using Aspose.Words you can create new or modify existing Horizontal Rule objects.
@@ -207,7 +207,7 @@ See the following link in the documentation for further information:
 |Hyperlink|Yes|A &lt;hr&gt; tag wrapped with a &lt;a&gt; hyperlink element is imported as a working hyperlink. <br><br>However this link is not of hyperlink property on a Horizontal Rule Object, instead, the object is wrapped with a Hyperlink field.|- **Shape.HRef**|
 |Image|Planned|There are plans to import a horizontal line with an image from &lt;hr&gt; element with style="background: url(xxx.png)".|- **Shape.HRef**|
 
-##### **Position**
+## **Position**
 Aspose.Words supports creating objects with a variety of different positioning settings. Almost all possible settings are supported in the Aspose.Words model
 
 You can also access and modify existing shape's positioning.
@@ -240,7 +240,7 @@ See the following links in the documentation for further information:
 |Allow Overlap|N/A| | |
 |Layout in Table Cell|N/A| | |
 
-##### **Size**
+## **Size**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -249,7 +249,7 @@ See the following links in the documentation for further information:
 |Relative Size|N/A| | |
 |Lock Aspect Ratio|N/A|Imported as enabled on shapes by default.| |
 
-##### **Fill**
+## **Fill**
 Using Aspose.Words you can access, modify and remove most fill properties of a shape.
 
 Fill is exported on the image during export. During round-trip, this is imported as an image shape which looks visually the same but the fill properties cannot be edited.
@@ -266,7 +266,7 @@ See the following link in the documentation for further information:
 |Pattern Fill|Yes|The raw bytes of the Pattern fill can be extracted only. A new pattern can not be set.|- **Fill.ImageBytes**|
 |Picture or Texture Fill|Yes|The raw bytes of the Texture fill can be extracted only. A new texture or image can not be set.|- **Fill.ImageBytes**|
 
-##### **Line Style**
+## **Line Style**
 Line styles will visually be imported properly. However, these lines are images and are imported as shapes. Line style properties cannot be edited.
 
 See the following links in the documentation for further information:
@@ -285,14 +285,14 @@ See the following links in the documentation for further information:
 |Join Type|Yes| |- **Stroke.JoinStyle**|
 |Arrow Settings|Yes| |<p>- **Stroke.StartArrowLength**</p><p>- **Stroke.StartArrowType**</p><p>- **Stroke.EndArrowLength**</p><p>- **Stroke.EndArrowType**</p>|
 
-##### **Shadow**
+## **Shadow**
 Shadow properties are currently not supported during HTML import.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shadow|Planned| | |
 
-##### **3D Properties**
+## **3D Properties**
 3D properties are currently unsupported during HTML import. It is planned to rasterize 3D effects on shape image during export to HTML.
 
 During import, this will allow 3D objects to appear similar. The 3D properties of the imported will not be editable.

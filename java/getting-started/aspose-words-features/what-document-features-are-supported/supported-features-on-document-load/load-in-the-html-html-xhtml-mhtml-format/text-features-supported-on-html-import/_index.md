@@ -26,7 +26,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **Characters**
+## **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -35,12 +35,12 @@ See the following links in the documentation for further information:
 |East Asian Languages |Yes | | |
 |Right to Left Languages |Yes |Imported from dir attribute on span. |<p>- **Font.Bidi** </p><p>- **Font.BoldBi** </p><p>- **Font.LocaleIdBi**</p>|
 |Carriage Return (not a Paragraph Break) |Yes | | |
-|Non Breaking Space |Yes |Imported from " " entity code. |- **ControlChar.NonBreakingSpace**|
+|Non-Breaking Space |Yes |Imported from " " entity code. |- **ControlChar.NonBreakingSpace**|
 |Non Breaking Hyphen |Planned | |- **ControlChar.NonBreakingHyphen**|
 |Soft Hyphen |Planned |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
-|Tab |Planned |There is no equivalent of a tab in HTML documents. Tabs are currently exported as a series of non-breaking spaces. <br><br>These are imported back as a series of non-breaking spaces but there is a work around to replace these with proper tabs. <br><br>It is planne to import the special Microsoft Word mso attribute to properly import tab sequences. |- **ControlChar.Tab**|
-##### **Breaks**
+|Tab |Planned |There is no equivalent of a tab in HTML documents. Tabs are currently exported as a series of non-breaking spaces. <br><br>These are imported back as a series of non-breaking spaces but there is a work around to replace these with proper tabs. <br><br>It is planned to import the special Microsoft Word mso attribute to properly import tab sequences. |- **ControlChar.Tab**|
+## **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -48,7 +48,7 @@ See the following links in the documentation for further information:
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes |Imported from &lt;br style="page-break-before:always; clear:both"&gt; |- **ControlChar.PageBreak**|
 |Column Break |Yes |Imported using the Microsoft Office attribute on break: style="mso-column-break-before:always" |- **ControlChar.ColumnBreak**|
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -60,7 +60,7 @@ See the following links in the documentation for further information:
 |Do not Check Spelling or Grammar |Planned | |- **Font.NoProofing**|
 |Border |Yes |Imported from border-style, border-width, border-color on &lt;span&gt;. |- **Font.Border**|
 |Shading |Yes |Imported from background-color on &lt;span&gt;. <br><br>Imported into the model as solid pattern on Run. |- **Font.Shading**|
-##### **Font**
+## **Font**
 Bold and italics imported from font-weight:bold and font-style:italics on style.
 
 This formatting can also be imported from simple tags e.g &lt;b&gt;&lt;/b&gt;, &lt;i&gt;&lt;/i&gt;.
@@ -81,10 +81,10 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
-##### **Underline**
+## **Underline**
 Imported from style attribute "text-decoration:underline" or from &lt;u&gt;&lt;/u&lt; tags.
 
-Import of underline color is currently not supported.
+The import of underline color is currently not supported.
 
 See the following link in the documentation for further information:
 
@@ -94,7 +94,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Underline Type |N/A | | |
 |Underline Color |Planned |Can be imported from a bottom border with different color from text. |- **Font.UnderlineColor**|
-##### **Text Effects**
+## **Text Effects**
 See the following link in the documentation for further information:
 
 - **Font**
@@ -114,7 +114,7 @@ See the following link in the documentation for further information:
 |Hidden Text |Yes |Imported from style="display:none". |- **Font.Hidden**|
 |Special Hidden |Planned | | |
 |Web Hidden |Planned | | |
-##### **Character Spacing**
+## **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

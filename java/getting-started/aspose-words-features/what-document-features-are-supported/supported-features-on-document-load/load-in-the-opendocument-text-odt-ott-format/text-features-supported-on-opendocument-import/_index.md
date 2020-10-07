@@ -22,7 +22,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
-##### **Characters**
+## **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -36,7 +36,7 @@ See the following links in the documentation for further information:
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
 |Tab |Yes | |- **ControlChar.Tab**|
-##### **Breaks**
+## **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -44,7 +44,7 @@ See the following links in the documentation for further information:
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes | |- **ControlChar.PageBreak**|
 |Column Break |Yes | |- **ControlChar.ColumnBreak**|
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -53,10 +53,10 @@ See the following links in the documentation for further information:
 |East Asian Typography |N/A | | |
 |Highlight Color |Yes | |- **Font.HighlightColor**|
 |Language |Yes | |<p>- **Font.LocaleId** </p><p>- **Font.LocaleIdBi**</p>|
-|Do not Check Spelling or Grammar |N/A | | |
+|Do Not Check Spelling or Grammar |N/A | | |
 |Border |N/A | | |
 |Shading |Yes | |- **Font.Shading**|
-##### **Font**
+## **Font**
 See the following links in the documentation for further information:
 
 - **Font.Bold**
@@ -67,7 +67,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
-##### **Underline**
+## **Underline**
 See the following link in the documentation for further information:
 
 - **Font.Underline**
@@ -76,7 +76,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Underline Type |Yes |The underline property is used to both define if the run is underline and with what type of underline is used. |- **Font.Underline**|
 |Underline Color |Yes | |- **Font.UnderlineColor**|
-##### **Text Effects**
+## **Text Effects**
 See the following link in the documentation for further information:
 
 - **Font**
@@ -93,10 +93,10 @@ See the following link in the documentation for further information:
 |Imprint (Engrave) |Yes | |- **Font.Engrave**|
 |Small Caps |Yes | |- **Font.SmallCaps**|
 |All Caps |Yes | |- **Font.AllCaps**|
-|Hidden Text |Yes |ODT also provides an extra type of "hidden" text through the conditonal text feature. This is a kind of like an IF field in a Word document. <br><br>Currently this special feature is unsupported in ODT import and export. |- **Font.Hidden**|
+|Hidden Text |Yes |ODT also provides an extra type of "hidden" text through the conditional text feature. This is a kind of like an IF field in a Word document. <br><br>Currently this special feature is unsupported in ODT import and export. |- **Font.Hidden**|
 |Special Hidden |N/A | | |
 |Web Hidden |N/A | | |
-##### **Character Spacing**
+## **Character Spacing**
 Kerning and Snap to Grid are not saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
