@@ -86,27 +86,29 @@ private class DisableRemoteResourcesHandler : IResourceLoadingCallback
 ​	{
    	 DirectoryInfo dirInfo;
 ​    	try
-​    	{
+
+​		{
 ​        	var dirName = Path.GetDirectoryName(fileName);
 ​       	 if (string.IsNullOrEmpty(dirName))
 ​         	   return false;
 ​        	dirInfo = new DirectoryInfo(dirName);
-   	 }
-   	 catch
-​    	{
+
+​		}
+​		catch
+​		{
 ​    	    return false;
-   	 }
+​		}
 
- 
+​		
 
-​    	foreach (DriveInfo d in DriveInfo.GetDrives())
-   	 {
-​    	    if (string.Compare(dirInfo.Root.FullName, d.Name, StringComparison.OrdinalIgnoreCase) == 0)
-​       	     return d.DriveType != DriveType.Network;
-   	 }
+​		foreach (DriveInfo d in DriveInfo.GetDrives())
+​		{
+​			if (string.Compare(dirInfo.Root.FullName, d.Name, StringComparison.OrdinalIgnoreCase) == 0)
+​				return d.DriveType != DriveType.Network;
+​		}
 
- 	   return false;
-	}
+​		return false;
+​	}
 
 }
 ...
