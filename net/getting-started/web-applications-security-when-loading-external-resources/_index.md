@@ -82,34 +82,29 @@ private class DisableRemoteResourcesHandler : IResourceLoadingCallback
             : ResourceLoadingAction.Skip;
     }
 
-​	private static bool IsLocalResource(string fileName)
-​	{
-   	 DirectoryInfo dirInfo;
-​    	try
+    private static bool IsLocalResource(string fileName)
+    {
+        DirectoryInfo dirInfo;
+        try
+        {
+            var dirName = Path.GetDirectoryName(fileName);
+            if (string.IsNullOrEmpty(dirName))
+                return false;
+            dirInfo = new DirectoryInfo(dirName);
+        }
+        catch
+        {
+            return false;
+        }
 
-​		{
-​        	var dirName = Path.GetDirectoryName(fileName);
-​       	 if (string.IsNullOrEmpty(dirName))
-​         	   return false;
-​        	dirInfo = new DirectoryInfo(dirName);
+        foreach (DriveInfo d in DriveInfo.GetDrives())
+        {
+            if (string.Compare(dirInfo.Root.FullName, d.Name, StringComparison.OrdinalIgnoreCase) == 0)
+                return d.DriveType != DriveType.Network;
+        }
 
-​		}
-​		catch
-​		{
-​    	    return false;
-​		}
-
-​		
-
-​		foreach (DriveInfo d in DriveInfo.GetDrives())
-​		{
-​			if (string.Compare(dirInfo.Root.FullName, d.Name, StringComparison.OrdinalIgnoreCase) == 0)
-​				return d.DriveType != DriveType.Network;
-​		}
-
-​		return false;
-​	}
-
+        return false;
+    }
 }
 ...
 var disableRemoteResourcesOptions = new LoadOptions
