@@ -24,8 +24,12 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 {{% /alert %}} 
 
 
+<<<<<<< Updated upstream
 ##### **Headers and Footers**
 
+=======
+## **Headers and Footers**
+>>>>>>> Stashed changes
 Headers and footers may appear differently when a document is saved to ODT and opened in OpenOffice. This is because the content is not greyed out like appearance in Microsoft Word.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -34,8 +38,12 @@ Headers and footers may appear differently when a document is saved to ODT and o
 |Different Even and Odd Pages|Yes| | |
 |Continue from the Previous Section|Yes| | |
 
+<<<<<<< Updated upstream
 ##### **Section Break Type**
 
+=======
+## **Section Break Type**
+>>>>>>> Stashed changes
 Some section properties (e.g. top margin, bottom margin) for continuous section breaks are not saved to ODT.
 
 See the following links in the documentation for further information:
@@ -51,28 +59,32 @@ See the following links in the documentation for further information:
 |Next Column|Yes| | |
 |Next Page|Yes| | |
 
-##### **Text Columns**
+## **Text Columns**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Columns|Yes| | |
 
+<<<<<<< Updated upstream
 ##### **Page Margins**
 
+=======
+## **Page Margins**
+>>>>>>> Stashed changes
 Gutter settings are not saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Page Margins|Yes| | |
 
-##### **Page Numbering**
+## **Page Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Number Format|Planned|Exported as Arabic numbering.| |
 |Starting Number|Yes| | |
 
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -86,14 +98,18 @@ Gutter settings are not saved to ODT.
 |Vertical Alignment|N/A| | |
 |Asian Document Grid|N/A| | |
 
-##### **Chapter Numbering**
+## **Chapter Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Chapter Numbering|N/A| | |
 
+<<<<<<< Updated upstream
 ##### **Page Border**
 
+=======
+## **Page Border**
+>>>>>>> Stashed changes
 Page border positioning options and Border Art are not saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

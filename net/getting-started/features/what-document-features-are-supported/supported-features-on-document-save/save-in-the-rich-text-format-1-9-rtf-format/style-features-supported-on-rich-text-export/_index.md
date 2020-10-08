@@ -10,8 +10,12 @@ url: /net/style-features-supported-on-rich-text-export/
 [Jump to this location in the import section](https://docs.aspose.com/words/net/style-features-supported-on-rich-text-import)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Style Type**
+=======
+## **Style Type**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -19,8 +23,12 @@ url: /net/style-features-supported-on-rich-text-export/
 |Character Style |Yes | | |
 |List Style |Yes | | |
 |Table Style |Planned | | |
+<<<<<<< Updated upstream
 
 ##### **General**
+=======
+## **General**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -33,15 +41,23 @@ url: /net/style-features-supported-on-rich-text-export/
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
 |Bullets and Numbering |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Document Defaults**
+=======
+## **Document Defaults**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Planned | | |
 |Run Properties |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Table Style**
+=======
+## **Table Style**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

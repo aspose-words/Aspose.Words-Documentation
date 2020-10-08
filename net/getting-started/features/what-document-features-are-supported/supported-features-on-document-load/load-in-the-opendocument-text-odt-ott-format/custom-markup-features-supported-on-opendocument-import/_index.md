@@ -14,22 +14,34 @@ For example, CustomXML markup can be wrapped around a paragraph in the document 
 [Jump to this location in the export section](/words/net/custom-markup-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **CustomXML**
+=======
+## **CustomXML**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |N/A | | |
+<<<<<<< Updated upstream
 
 ##### **Content Controls (Structured Document Tags)**
 
+=======
+## **Content Controls (Structured Document Tags)**
+>>>>>>> Stashed changes
 ODT format does not support CustomXmlMarkup so it cannot be imported from this format.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
+<<<<<<< Updated upstream
 
 ##### **Smart Tags**
+=======
+## **Smart Tags**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

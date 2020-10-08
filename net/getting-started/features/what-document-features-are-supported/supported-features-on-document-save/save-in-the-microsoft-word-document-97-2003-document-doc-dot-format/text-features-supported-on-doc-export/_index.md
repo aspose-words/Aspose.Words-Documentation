@@ -12,8 +12,12 @@ Text in different languages is fully supported and can be rendered to formats su
 [Jump to this location in the import section](/words/net/text-features-supported-on-doc-import/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Characters**
+=======
+## **Characters**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -27,8 +31,12 @@ Text in different languages is fully supported and can be rendered to formats su
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. | |
 |Symbol |Yes | | |
 |Tab |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Breaks**
+=======
+## **Breaks**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -36,8 +44,12 @@ Text in different languages is fully supported and can be rendered to formats su
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes | | |
 |Column Break |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **General Formatting**
+=======
+## **General Formatting**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -46,24 +58,36 @@ Text in different languages is fully supported and can be rendered to formats su
 |East Asian Typography |Yes | | |
 |Highlight Color |Yes | | |
 |Language |Yes | | |
-|Do not Check Spelling or Grammar |Yes | | |
+|Do Not Check Spelling or Grammar |Yes | | |
 |Border |Yes | | |
 |Shading |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Font**
+=======
+## **Font**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Underline**
+=======
+## **Underline**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Underline Type |Yes | | |
 |Underline Color |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Text Effects**
+=======
+## **Text Effects**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -80,8 +104,12 @@ Text in different languages is fully supported and can be rendered to formats su
 |Hidden Text |Yes | | |
 |Special Hidden |Yes | | |
 |Web Hidden |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Character Spacing**
+=======
+## **Character Spacing**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

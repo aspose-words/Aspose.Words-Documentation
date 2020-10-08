@@ -11,7 +11,7 @@ A table is comprised of rows and cells and is used to display data in a grid-lik
 
 Aspose.Words supports imports of tables from all loaded formats including Microsoft Word, Open Office and HTML documents.
 
-A table is represented in Aspose.Words by a Table node. Each row of the table is represented by a separate Row node. Likewise each cell of the row is represented by a Cell node. Each node type has it's own formatting properties which controls the table's apperance and behavior.
+A table is represented in Aspose.Words by a Table node. Each row of the table is represented by a separate Row node. Likewise each cell of the row is represented by a Cell node. Each node type has it's own formatting properties which controls the table's appearance and behavior.
 
 - Table contains the properties for controlling the formatting of a table as a whole.
 - Each Row provides a RowFormat object which contains the properties that control formatting for that particular row.
@@ -29,8 +29,12 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/table-features-supported-on-rich-text-export/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Table**
+=======
+## **Table**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -46,17 +50,25 @@ See the following links in the documentation for further information:
 |Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. |- [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
 |Table Shading |Yes | |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
 |Hidden |Yes |There is currently no API to access or modify this property on Table or Row. | |
+<<<<<<< Updated upstream
 
 ##### **Floating Tables**
 
+=======
+## **Floating Tables**
+>>>>>>> Stashed changes
 Floating tables are supported during import and export. However there is currently no API to access or modify the floating position of a table.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Floating Tables |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Table Borders**
 
+=======
+## **Table Borders**
+>>>>>>> Stashed changes
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document.
 
 If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first.
@@ -70,8 +82,12 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Rows**
+=======
+## **Rows**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -79,8 +95,12 @@ See the following links in the documentation for further information:
 |Repeat as Header Row |Yes | |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](https://docs.aspose.com/words/net/working-with-columns-and-rows/#specifying-rows-to-repeat-on-subsequent-pages-as-header-rows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/headingformat)</p>|
 |Height |Yes | |- [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/height)|
 |Height Rule |Yes | |- [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/heightrule)|
+<<<<<<< Updated upstream
 
 ##### **Cells**
+=======
+## **Cells**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -10,10 +10,15 @@ url: /net/annotation-features-supported-on-wordprocessingml-export/
 [Jump to this location in the import section](/words/net/annotation-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Bookmarks**
 
 All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unqiue names, that is, no two bookmarks are allowed the exact same name.
+=======
+## **Bookmarks**
+All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unique names, that is, no two bookmarks are allowed the exact same name.
+>>>>>>> Stashed changes
 
 If two bookmarks are given the same name in the model then no errors will occur. During export to any format the duplicate bookmarks are removed silently. The first bookmark visited in the model is the one that is retained, any other bookmarks are removed,
 
@@ -23,8 +28,12 @@ If two bookmarks are given the same name in the model then no errors will occur.
 |Bookmark End |Yes | | |
 |Bookmark Name |Yes | | |
 |Bookmark Table Columns |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Comments**
+=======
+## **Comments**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -33,9 +42,13 @@ If two bookmarks are given the same name in the model then no errors will occur.
 |Author |Yes | | |
 |Date |Yes | | |
 |Initial |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Tracking Changes**
 
+=======
+## **Tracking Changes**
+>>>>>>> Stashed changes
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 
 See the following link in the documentation for further information:

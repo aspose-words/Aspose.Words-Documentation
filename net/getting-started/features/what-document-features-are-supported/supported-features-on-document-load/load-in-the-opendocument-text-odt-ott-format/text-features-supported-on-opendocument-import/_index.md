@@ -22,8 +22,12 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/text-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Characters**
+=======
+## **Characters**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -37,8 +41,12 @@ See the following links in the documentation for further information:
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
 |Tab |Yes | |- [ControlChar.Tab](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/tab)|
+<<<<<<< Updated upstream
 
 ##### **Breaks**
+=======
+## **Breaks**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -46,8 +54,12 @@ See the following links in the documentation for further information:
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes | |- [ControlChar.PageBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/pagebreak)|
 |Column Break |Yes | |- [ControlChar.ColumnBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/columnbreak)|
+<<<<<<< Updated upstream
 
 ##### **General Formatting**
+=======
+## **General Formatting**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -56,12 +68,16 @@ See the following links in the documentation for further information:
 |East Asian Typography |N/A | | |
 |Highlight Color |Yes | |- [Font.HighlightColor](https://apireference.aspose.com/words/net/aspose.words/font/properties/highlightcolor)|
 |Language |Yes | |<p>- [Font.LocaleId](https://apireference.aspose.com/words/net/aspose.words/font/properties/localeid) </p><p>- **Font.LocaleIdBi**</p>|
-|Do not Check Spelling or Grammar |N/A | | |
+|Do Not Check Spelling or Grammar |N/A | | |
 |Border |N/A | | |
 |Shading |Yes | |- [Font.Shading](https://apireference.aspose.com/words/net/aspose.words/font/properties/shading)|
+<<<<<<< Updated upstream
 
 ##### **Font**
 
+=======
+## **Font**
+>>>>>>> Stashed changes
 See the following links in the documentation for further information:
 
 - [Font.Bold](https://apireference.aspose.com/words/net/aspose.words/font/properties/bold)
@@ -72,9 +88,13 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Underline**
 
+=======
+## **Underline**
+>>>>>>> Stashed changes
 See the following link in the documentation for further information:
 
 - [Font.Underline](https://apireference.aspose.com/words/net/aspose.words/font/properties/underline)
@@ -83,9 +103,13 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Underline Type |Yes |The underline property is used to both define if the run is underline and with what type of underline is used. |- **Font.Underline**|
 |Underline Color |Yes | |- [Font.UnderlineColor](https://apireference.aspose.com/words/net/aspose.words/font/properties/underlinecolor)|
+<<<<<<< Updated upstream
 
 ##### **Text Effects**
 
+=======
+## **Text Effects**
+>>>>>>> Stashed changes
 See the following link in the documentation for further information:
 
 - [Font](https://apireference.aspose.com/words/net/aspose.words/font/properties/html)
@@ -102,12 +126,16 @@ See the following link in the documentation for further information:
 |Imprint (Engrave) |Yes | |- [Font.Engrave](https://apireference.aspose.com/words/net/aspose.words/font/properties/engrave)|
 |Small Caps |Yes | |- [Font.SmallCaps](https://apireference.aspose.com/words/net/aspose.words/font/properties/smallcaps)|
 |All Caps |Yes | |- [Font.AllCaps](https://apireference.aspose.com/words/net/aspose.words/font/properties/allcaps)|
-|Hidden Text |Yes |ODT also provides an extra type of "hidden" text through the conditonal text feature. This is a kind of like an IF field in a Word document. <br><br>Currently this special feature is unsupported in ODT import and export. |- [Font.Hidden](https://apireference.aspose.com/words/net/aspose.words/font/properties/hidden)|
+|Hidden Text |Yes |ODT also provides an extra type of "hidden" text through the conditional text feature. This is a kind of like an IF field in a Word document. <br><br>Currently this special feature is unsupported in ODT import and export. |- [Font.Hidden](https://apireference.aspose.com/words/net/aspose.words/font/properties/hidden)|
 |Special Hidden |N/A | | |
 |Web Hidden |N/A | | |
+<<<<<<< Updated upstream
 
 ##### **Character Spacing**
 
+=======
+## **Character Spacing**
+>>>>>>> Stashed changes
 Kerning and Snap to Grid are not saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -14,9 +14,13 @@ Using Aspose.Words you can interact with footnotes and endnotes and access or mo
 [Jump to this location in the export section](/words/net/footnotes-an-endnote-features-supported-on-rich-text-export/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Footnotes**
 
+=======
+## **Footnotes**
+>>>>>>> Stashed changes
 See the following links in the documentation for further information:
 
 - [Footnote](https://apireference.aspose.com/words/net/aspose.words/footnote)
@@ -34,8 +38,12 @@ See the following links in the documentation for further information:
 |Restart Location |Yes | | |
 |Starting Value |Yes | | |
 |Placement |Yes | |- [FootnoteOptions.Location](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/location)|
+<<<<<<< Updated upstream
 
 ##### **Endnotes**
+=======
+## **Endnotes**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

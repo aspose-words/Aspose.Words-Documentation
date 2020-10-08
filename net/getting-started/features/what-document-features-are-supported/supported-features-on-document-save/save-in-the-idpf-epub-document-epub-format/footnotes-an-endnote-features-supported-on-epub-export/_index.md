@@ -7,17 +7,22 @@ url: /net/footnotes-an-endnote-features-supported-on-epub-export/
 
 {{% alert color="primary" %}} 
 
-Exported as hyperlink with footnote number inline of text.
+Exported as a hyperlink with footnote number inline of text.
 
-Footnote text is exported at the bottom of the document separted by a horizontal ruler. The hyperlink links to here.
+Footnote text is exported at the bottom of the document separated by a horizontal ruler. The hyperlink links to here.
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Footnotes**
 
 Exported as hyperlink with footnote number inline of text.
+=======
+## **Footnotes**
+Exported as a hyperlink with footnote number inline of text.
+>>>>>>> Stashed changes
 
-Footnote text is exported at the bottom of the document separted by a horizontal ruler. The hyperlink links to here.
+Footnote text is exported at the bottom of the document separated by a horizontal ruler. The hyperlink links to here.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -27,12 +32,16 @@ Footnote text is exported at the bottom of the document separted by a horizontal
 |Continuation Separator Mark |N/A | | |
 |Document Wide Properties |Planned | | |
 |Section Wide Properties |N/A | | |
-|Number Format |Yes |Only document wide format is supported. | |
+|Number Format |Yes |Only document-wide format is supported. | |
 |Restart Location |Planned | | |
 |Starting Value |Planned | | |
 |Placement |Planned | | |
+<<<<<<< Updated upstream
 
 ##### **Endnotes**
+=======
+## **Endnotes**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -42,7 +51,7 @@ Footnote text is exported at the bottom of the document separted by a horizontal
 |Continuation Separator Mark |N/A | | |
 |Document Wide Properties |Planned | | |
 |Section Wide Properties |N/A | | |
-|Number Format |Yes |Only document wide format is supported. | |
+|Number Format |Yes |Only document-wide format is supported. | |
 |Restart Location |Planned | | |
 |Starting Value |Planned | | |
 |Placement |Planned | | |

@@ -24,8 +24,12 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 {{% /alert %}} 
 
 
+<<<<<<< Updated upstream
 ##### **Images**
 
+=======
+## **Images**
+>>>>>>> Stashed changes
 All images are exported as the same format that they were originally loaded as.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -42,7 +46,7 @@ All images are exported as the same format that they were originally loaded as.
 |Cropping|Yes|Rectangular cropping is supported only.| |
 |Alternative text|Planned| | |
 
-##### **Image Recoloring**
+## **Image Recoloring**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,7 +54,7 @@ All images are exported as the same format that they were originally loaded as.
 |Contrast|Yes| | |
 |Recolor|Planned|Image is currently exported without any recoloring applied.| |
 
-##### **Textboxes**
+## **Textboxes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -61,8 +65,12 @@ All images are exported as the same format that they were originally loaded as.
 |Resize To Fit Text|Planned| | |
 |Text in Other Shapes|Yes| | |
 
+<<<<<<< Updated upstream
 ##### **OLE Objects**
 
+=======
+## **OLE Objects**
+>>>>>>> Stashed changes
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
 OLE objects are fully preserved when converting within different Word document formats.
@@ -80,15 +88,19 @@ OLE objects are saved as images.
 |Ole Object Picture|Yes| | |
 |Source Range|N/A| | |
 
+<<<<<<< Updated upstream
 ##### **ActiveX Controls**
 
+=======
+## **ActiveX Controls**
+>>>>>>> Stashed changes
 Output as an image.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Persistent Properties Storage|N/A| | |
 
-##### **Shapes**
+## **Shapes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -109,9 +121,13 @@ Output as an image.
 |Shape Customizations|Yes|Exported as image.| |
 |Hyperlink on Shape|N/A| | |
 |Watermark|N/A|Watermark image is exported as-is into the document body as OpenOffice has no support for background watermarks. It is suggested to make sure that the wrapping on the watermark is set to "Behind Text" to avoid the image appearing in front of the text. <br><br>Also, note that the image will not have the same transparency level as what is applied in Microsoft Word.| |
+<<<<<<< Updated upstream
 
 ##### **WordArt**
 
+=======
+## **WordArt**
+>>>>>>> Stashed changes
 Exported to ODT as a custom shape element.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -126,8 +142,12 @@ Exported to ODT as a custom shape element.
 |Align and Justify Text|Planned| | |
 |WordArt Shape|Yes| | |
 
+<<<<<<< Updated upstream
 ##### **Horizontal Line Object**
 
+=======
+## **Horizontal Line Object**
+>>>>>>> Stashed changes
 Exported as an image.
 
 Some formatting might appear differently when saved to ODT.
@@ -141,7 +161,7 @@ Some formatting might appear differently when saved to ODT.
 |Hyperlink|N/A| | |
 |Image|N/A|Exported as a regular image.| |
 
-##### **Position**
+## **Position**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -162,7 +182,7 @@ Some formatting might appear differently when saved to ODT.
 |Allow Overlap|N/A| | |
 |Layout in Table Cell|N/A| | |
 
-##### **Size**
+## **Size**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -171,7 +191,7 @@ Some formatting might appear differently when saved to ODT.
 |Relative Size|Yes|Exported as explicit size.| |
 |Lock Aspect Ratio|Planned| | |
 
-##### **Fill**
+## **Fill**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -181,8 +201,12 @@ Some formatting might appear differently when saved to ODT.
 |Pattern Fill|Planned| | |
 |Picture or Texture Fill|Planned| | |
 
+<<<<<<< Updated upstream
 ##### **Line Style**
 
+=======
+## **Line Style**
+>>>>>>> Stashed changes
 Some line styles might appear different when saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -196,16 +220,24 @@ Some line styles might appear different when saved to ODT.
 |Join Type|Yes| | |
 |Arrow Settings|Yes|Some arrow types might appear differently when saved to ODT.| |
 
+<<<<<<< Updated upstream
 ##### **Shadow**
 
+=======
+## **Shadow**
+>>>>>>> Stashed changes
 Shadows are exported well to ODT but in a simplified way to accommodate the ODT format.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shadow|Planned| | |
 
+<<<<<<< Updated upstream
 ##### **3D Properties**
 
+=======
+## **3D Properties**
+>>>>>>> Stashed changes
 ODT doesn't support 3D features.
 
 In a future version shapes with 3D formatting may be exported as an image.

@@ -9,7 +9,7 @@ url: /net/field-features-supported-on-doc-export/
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
-Even if a field can be updated, most fields are exported if they are up-to-date by MS Word. i.e if you import a doucment and export it with a field as it is then it will appear properly in the output format.
+Even if a field can be updated, most fields are exported if they are up-to-date by MS Word. i.e if you import a document and export it with a field as it is then it will appear properly in the output format.
 
 Fields with custom field codes (a field code modified to represent something different than a normal field) are retained as they are when converting to other Word document formats. These fields are lost when exporting to ODT.
 
@@ -18,9 +18,13 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 [Jump to this location in the import section](/words/net/field-features-supported-on-doc-import/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Field Codes**
 
+=======
+## **Field Codes**
+>>>>>>> Stashed changes
 See the following link in the documentation for further information:
 
 - **Document.UpdateFields.**
@@ -28,8 +32,12 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Date and Time**
+=======
+## **Date and Time**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -39,8 +47,12 @@ See the following link in the documentation for further information:
 |PrintDate |Yes | | |
 |SaveDate |Yes | | |
 |Time |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Document Automation**
+=======
+## **Document Automation**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,10 +62,15 @@ See the following link in the documentation for further information:
 |If |Yes | | |
 |MacroButton |Yes | | |
 |Print |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Document Information**
 
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
+=======
+## **Document Information**
+Fields such as FileName or FileSize are not automatically updated on save. However, they can be updated explictly by calling Document.UpdateFields.
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -71,8 +88,12 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Subject |Yes | | |
 |Template |Yes | | |
 |Title |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Equations and Formulas**
+=======
+## **Equations and Formulas**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -80,8 +101,12 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Advance |Planned | | |
 |Eq |Yes | | |
 |Symbol |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Form Fields**
+=======
+## **Form Fields**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -99,8 +124,12 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Max Length |Yes | | |
 |Check Box Size |Yes | | |
 |Text Input Type |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Index and Tables**
+=======
+## **Index and Tables**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -111,8 +140,12 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |TOA (Table of Authorities) |Yes | | |
 |TOC (Table of Contents) |Yes | | |
 |XE |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Links and References**
+=======
+## **Links and References**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -129,8 +162,12 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Quote |Yes | | |
 |Ref |Yes | | |
 |StyleRef |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Mail Merge**
+=======
+## **Mail Merge**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -148,8 +185,12 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |NextIf |Yes | | |
 |Set |Yes | | |
 |SkipIf |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Numbering**
+=======
+## **Numbering**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -163,16 +204,24 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Section |Yes | | |
 |SectionPages |Yes | | |
 |Seq |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **User Information**
+=======
+## **User Information**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |UserAddress |Yes | | |
 |UserInitials |Yes | | |
 |UserName |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Hyperlinks**
+=======
+## **Hyperlinks**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -183,8 +232,12 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Hyperlink to an External Resource |Yes | | |
 |Screen Tip |Yes | | |
 |Target Frame |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Formatting Switches**
+=======
+## **Formatting Switches**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

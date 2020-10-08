@@ -5,7 +5,7 @@ weight: 100
 url: /net/style-features-supported-on-image-export/
 ---
 
-##### **Style Type**
+## **Style Type**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -13,8 +13,12 @@ url: /net/style-features-supported-on-image-export/
 |Character Style |Yes | | |
 |List Style |Yes | | |
 |Table Style |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **General**
+=======
+## **General**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -27,15 +31,23 @@ url: /net/style-features-supported-on-image-export/
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
 |Bullets and Numbering |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Document Defaults**
+=======
+## **Document Defaults**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Table Style**
+=======
+## **Table Style**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

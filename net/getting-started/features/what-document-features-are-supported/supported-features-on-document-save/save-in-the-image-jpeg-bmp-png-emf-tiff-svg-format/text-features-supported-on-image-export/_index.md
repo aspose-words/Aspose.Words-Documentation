@@ -14,8 +14,12 @@ See the following link in the documentation for further information:
 - [SvgSaveOptions.TextOutputMode](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/textoutputmode)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Characters**
+=======
+## **Characters**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -29,8 +33,12 @@ See the following link in the documentation for further information:
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. | |
 |Symbol |Yes | | |
 |Tab |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Breaks**
+=======
+## **Breaks**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -38,8 +46,12 @@ See the following link in the documentation for further information:
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes | | |
 |Column Break |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **General Formatting**
+=======
+## **General Formatting**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -51,21 +63,33 @@ See the following link in the documentation for further information:
 |Do not Check Spelling or Grammar |N/A | | |
 |Border |Yes | | |
 |Shading |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Font**
+=======
+## **Font**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Underline**
+=======
+## **Underline**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Underline Type |Yes | | |
 |Underline Color |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Text Effects**
+=======
+## **Text Effects**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -82,8 +106,12 @@ See the following link in the documentation for further information:
 |Hidden Text |Yes | | |
 |Special Hidden |Yes | | |
 |Web Hidden |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Character Spacing**
+=======
+## **Character Spacing**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -10,8 +10,12 @@ url: /net/table-features-supported-on-doc-export/
 [Jump to this location in the import section](/words/net/table-features-supported-on-doc-import/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Table**
+=======
+## **Table**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -27,8 +31,12 @@ url: /net/table-features-supported-on-doc-export/
 |Preferred Table Width |Yes | | |
 |Table Shading |Yes | | |
 |Hidden |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Floating Tables**
+=======
+## **Floating Tables**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -39,14 +47,22 @@ url: /net/table-features-supported-on-doc-export/
 |Distance from Text |Yes | | |
 |Move with Text |Yes | | |
 |Allow Overlap Floating Tables |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Table Borders**
+=======
+## **Table Borders**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Rows**
+=======
+## **Rows**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -54,8 +70,12 @@ url: /net/table-features-supported-on-doc-export/
 |Repeat as Header Row |Yes | | |
 |Height |Yes | | |
 |Height Rule |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Cells**
+=======
+## **Cells**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

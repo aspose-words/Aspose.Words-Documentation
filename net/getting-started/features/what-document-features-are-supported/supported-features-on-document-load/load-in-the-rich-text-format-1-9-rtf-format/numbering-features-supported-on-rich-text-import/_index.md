@@ -30,16 +30,24 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](https://docs.aspose.com/words/net/numbering-features-supported-on-rich-text-export/)
 
 {{% /alert %}} 
+<<<<<<< Updated upstream
 
 ##### **Numbering Definition**
+=======
+## **Numbering Definition**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
 |Multi Level |Yes | |- [List.IsMultiLevel](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
 |Name |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Numbering Level**
+=======
+## **Numbering Level**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

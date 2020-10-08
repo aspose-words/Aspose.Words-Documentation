@@ -5,7 +5,7 @@ weight: 110
 url: /net/table-features-supported-on-image-export/
 ---
 
-##### **Table**
+## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -21,12 +21,16 @@ url: /net/table-features-supported-on-image-export/
 |Preferred Table Width |Yes | | |
 |Table Shading |Yes | | |
 |Hidden |Planned |Hidden table or row is currently exported as visible to rendered format. | |
+<<<<<<< Updated upstream
 
 ##### **Floating Tables**
 
+=======
+## **Floating Tables**
+>>>>>>> Stashed changes
 Aspose.Words provides great support for the rendering of floating tables.
 
-Currently floating shapes may not be properly positioned when anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output.
+Currently floating shapes may not be properly positioned when the anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output.
 
 We are working to improve this with each release.
 
@@ -39,14 +43,22 @@ We are working to improve this with each release.
 |Distance from Text |Yes | | |
 |Move with Text |Yes | | |
 |Allow Overlap Floating Tables |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Table Borders**
+=======
+## **Table Borders**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Rows**
+=======
+## **Rows**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -54,8 +66,12 @@ We are working to improve this with each release.
 |Repeat as Header Row |Yes | | |
 |Height |Yes | | |
 |Height Rule |Yes | | |
+<<<<<<< Updated upstream
 
 ##### **Cells**
+=======
+## **Cells**
+>>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
