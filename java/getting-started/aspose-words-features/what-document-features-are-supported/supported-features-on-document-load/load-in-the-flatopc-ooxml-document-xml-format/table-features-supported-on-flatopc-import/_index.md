@@ -29,6 +29,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/java/table-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
+
 ## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -47,6 +48,7 @@ See the following links in the documentation for further information:
 |Hidden|Yes|There is currently no API to access or modify this property on Table or Row.| |
 
 ## **Floating Tables**
+
 Floating tables are supported during import and export. However, there is currently no API to access or modify the floating position of a table.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -54,6 +56,7 @@ Floating tables are supported during import and export. However, there is curren
 |Floating Tables|Yes| | |
 
 ## **Table Borders**
+
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document.
 
 If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first.

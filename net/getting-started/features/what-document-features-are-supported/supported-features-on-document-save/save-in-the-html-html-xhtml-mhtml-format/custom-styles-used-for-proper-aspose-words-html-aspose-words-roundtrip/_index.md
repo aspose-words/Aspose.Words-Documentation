@@ -10,7 +10,9 @@ url: /net/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip
 Please find below a list of custom styles that Aspose.Words uses to save extra information in output HTML and usually this information is used for Aspose.Words-HTML-Aspose.Words roundtrip. The name of such Styles are prefixed with -aw. All -aw properties are used to preserve some important information which can't be saved by other means when document is saved to HTML and back to other formats.
 
 {{% /alert %}} 
+
 ## **Comment’s Content**
+
 Comment's content is exported as div container. -aw-comment-author, -aw-comment-datetime and -aw-comment-initial CSS properties can be applied to this div.
 
 **-aw-comment-author** stores author name for the comment. Corresponds to Aspose.Words.Comment.Author property.
@@ -26,7 +28,9 @@ Example:
     </p>
 </div>
 {{< /highlight >}}
+
 ## **Comment**
+
 In simple case when comment is located within one paragraph, in output HTML this comment's boundaries are marked with anchor tag. In the following example comment's boundaries are marked as bookmark with “_cmntref1” name:
 
 {{< highlight csharp >}}
@@ -50,7 +54,9 @@ In the following example first comment’s boundaries are marked as bookmark wit
     <span style="font-family: Calibri; font-size: 11pt">Some</span><span style="-aw-comment-end: _cmntref1"></span><a href="#_cmnt1">[A1]</a><span style="font-family: Calibri; font-size: 11pt"> text 2.</span>
 </p>
 {{< /highlight >}}
+
 ## **Footnote (Endnote)**
+
 Footnote (endnote) is exported as div. –aw-footnote-isauto CSS property can be applied to this div.
 
 **-aw-footnote-isauto** stores a value that specifies whether this is an auto-numbered footnote (endnote) or footnote (endnote) with user defined custom reference mark.
@@ -72,7 +78,9 @@ Example:
     </p>
 </div>
 {{< /highlight >}}
+
 ## **Footnotes’ (Endnotes’) Formatting**
+
 All footnotes (endnotes) in a document share formatting. When exported to HTML footnotes (endnotes) are separated from other document’s content with horizontal rule element. –aw-footnote-numberstyle, -aw-footnote-startnumber and –aw-footnote-type CSS properties can be applied to this horizontal rule.
 
 **-aw-footnote-numberstyle** stores the number format for automatically numbered footnotes (endnotes). Corresponds to Aspose.Words.FootnoteOptions.NumberStyle property of Document.FootnoteOptions (Document.EndnoteOptions) object.
@@ -100,7 +108,9 @@ Example:
     </p>
 </div>
 {{< /highlight >}}
+
 ## **Header (Footer)**
+
 Header (footer) is exported as div container. –aw-different-first-page and –aw-headerfooter-type CSS properties can be applied to this div.
 
 **-aw-headerfooter-type** stores value indicating type of header (footer). This propertie’s values partially correspond to Aspose.Words.HeaderFooterType enum (other values are meaningless in HTML context and are not used). Corresponds to Aspose.Words.HeaderFooter.HeaderFooterType property.
@@ -122,7 +132,9 @@ Example:
 	</p>
 </div>
 {{< /highlight >}}
+
 ## **Bookmark**
+
 In simple case when bookmark is located within one paragraph, in output HTML this bookmark's boundaries are marked with anchor tag. In the following example bookmark's boundaries are marked as bookmark with “bm1” name:
 
 {{< highlight csharp >}}
@@ -146,7 +158,9 @@ In the following example first bookmark’s boundaries are marked as bookmark wi
     <span style="font-family: Calibri; font-size: 11pt">Some</span><span style="-aw-bookmark-end: bm1"></span><span style="font-family: Calibri; font-size: 11pt"> text 2.</span>
 </p>
 {{< /highlight >}}
+
 ## **Tab Stop**
+
 Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader and –aw-tabstop-pos CSS properties can be applied to this span.
 
 **-aw-tabstop-align** stores value which specifies the alignment/type of a tab stop. Possible values are “left”, “center”, “right” and partially correspond to values of Aspose.Words.TabAlignment enum (other tab stop types can’t be emulated by means of HTML and are exported as span elements with "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\x20" content). Property corresponds to Aspose.Words.TabStop.Alignment property of Aspose.Words.Paragraph.ParagraphFormat.TabStops collection object.
@@ -165,7 +179,9 @@ Example:
     <span style="font-family: Calibri; font-size: 11pt"></span><span style="font-family: Calibri; font-size: 11pt">Some text.</span>
 </p>
 {{< /highlight >}}
+
 ## **PAGE Field**
+
 Usually PAGE field is represented as one span element in HTML output, but can be represented with several spans. We enclose these span elements with one span container. –aw-field-code CSS property can be applied to this span.
 
 **-aw-field-code** stores text between field start and field separator (or field end if there is no separator). Corresponds to Aspose.Words.Fields.Field.GetFieldCode() function’s return value.
@@ -177,7 +193,9 @@ Example:
     <span style="-aw-field-code: ' PAGE  \\* Arabic  \\* MERGEFORMAT '"><span style="font-family: Calibri; font-size: 11pt">1</span></span>
 </p>
 {{< /highlight >}}
+
 ## **Shape**
+
 Shape is exported as img element. –aw-wrap-type, –aw-left-pos, -aw-top-pos, -aw-rel-hpos and –aw-rel-vpos CSS properties can be applied to this img element.
 
 **-aw-wrap-type** stores value which specifies how text is wrapped around a shape. Possible values are “none”, “inline”, “topbottom”, “square”, “tight”, “through” and correspond to Aspose.Words.Drawing.WrapType enum. Property corresponds to Aspose.Words.Drawing.ShapeBase.WrapType property.
@@ -195,7 +213,9 @@ Example:
 {{< highlight csharp >}}
 <img src="TestImage Out.001.png" width="193" height="193" alt="" style="margin-top: 27.3pt; margin-left: 46.2pt; -aw-left-pos: 46.2pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 27.3pt; -aw-wrap-type: none; position: absolute; z-index: 0" />
 {{< /highlight >}}
+
 ## **Insert (Delete) Revision**
+
 Insert (delete) revision is exported as ins (del) element. –aw-revision-author and –aw-revision-datetime CSS properties can be applied to this ins (del) element.
 
 **-aw-revision-author** stores author name for the revision.
@@ -215,7 +235,9 @@ Example:
     </ins>
 </p>
 {{< /highlight >}}
+
 ## **Structured Document Tag**
+
 Every document element which is content control can be marked in output HTML with special CSS properties –aw-sdt-title and –aw-sdt-tag (div and span elements).
 
 **-aw-sdt-title** stores friendly name associated with structured document tag. Corresponds to Aspose.Words.Markup.StructuredDocumentTag.Title property.

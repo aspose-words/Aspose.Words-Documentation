@@ -25,6 +25,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 
 ##### **Headers and Footers**
+
 Headers and footers may appear differently when a document is saved to ODT and opened in OpenOffice. This is because the content is not greyed out like appearance in Microsoft Word.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -34,6 +35,7 @@ Headers and footers may appear differently when a document is saved to ODT and o
 |Continue from the Previous Section|Yes| | |
 
 ##### **Section Break Type**
+
 Some section properties (e.g. top margin, bottom margin) for continuous section breaks are not saved to ODT.
 
 See the following links in the documentation for further information:
@@ -56,6 +58,7 @@ See the following links in the documentation for further information:
 |Text Columns|Yes| | |
 
 ##### **Page Margins**
+
 Gutter settings are not saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -90,6 +93,7 @@ Gutter settings are not saved to ODT.
 |Chapter Numbering|N/A| | |
 
 ##### **Page Border**
+
 Page border positioning options and Border Art are not saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

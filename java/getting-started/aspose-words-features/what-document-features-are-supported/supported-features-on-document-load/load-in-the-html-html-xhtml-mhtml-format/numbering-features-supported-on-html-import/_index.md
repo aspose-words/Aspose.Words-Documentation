@@ -34,6 +34,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
+
 ## **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -41,6 +42,7 @@ See the following links in the documentation for further information:
 |Single Level |Yes | | |
 |Multi Level |Yes |Some parts of multi-level lists will be imported as separate List objects. This can cause some formatting differences during conversion. <br><br>This will be improved in a future version of Aspose.Words so multi-level lists are imported as a single List object. |- **List.IsMultiLevel**|
 |Name |Planned | | |
+
 ## **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

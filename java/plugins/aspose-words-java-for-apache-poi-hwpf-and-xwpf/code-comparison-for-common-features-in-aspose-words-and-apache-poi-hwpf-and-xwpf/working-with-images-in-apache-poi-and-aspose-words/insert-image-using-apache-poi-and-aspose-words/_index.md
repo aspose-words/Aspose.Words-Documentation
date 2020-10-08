@@ -6,6 +6,7 @@ url: /java/insert-image-using-apache-poi-and-aspose-words/
 ---
 
 ## **Aspose.Words - Insert Image**
+
 This example inserts a floating image from a file or URL at a specified position and size.
 
 **Java**
@@ -31,6 +32,7 @@ doc.save(dataDir + "Aspose_InsertImage.docx");
 {{< /highlight >}}
 
 ## **Apache POI HWPF XWPF - Insert Image**
+
 XWPFRun.addPicture is used to add an image to document.
 
 **Java**
@@ -57,9 +59,12 @@ out.close();
 {{< /highlight >}}
 
 ## **Download Running Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/images/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/images)
 

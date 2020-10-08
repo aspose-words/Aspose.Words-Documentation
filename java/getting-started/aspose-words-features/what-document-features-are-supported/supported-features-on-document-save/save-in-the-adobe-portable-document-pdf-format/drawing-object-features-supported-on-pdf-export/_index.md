@@ -6,6 +6,7 @@ url: /java/drawing-object-features-supported-on-pdf-export/
 ---
 
 ##### **Images**
+
 {{% alert color="primary" %}} 
 
 All images are exported as the same format that they were originally loaded as.
@@ -46,6 +47,7 @@ All images are exported as the same format that they were originally loaded as.
 |Text in Other Shapes |Yes | | |
 
 ##### **OLE Objects**
+
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
 OLE objects are fully preserved when converting within different Word document formats.
@@ -64,6 +66,7 @@ OLE objects are saved as images.
 |Source Range |N/A | | |
 
 ##### **ActiveX Controls**
+
 Output as a regular image.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -91,6 +94,7 @@ Output as a regular image.
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | | |
 |Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
+
 ##### **WordArt**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -170,6 +174,7 @@ Output as a regular image.
 |Arrow Settings |Yes | | |
 
 ##### **Shadow**
+
 Shadow on shape is currently lost upon rendering to PDF.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -177,6 +182,7 @@ Shadow on shape is currently lost upon rendering to PDF.
 |Shadow |Planned | | |
 
 ##### **3D Properties**
+
 3D properties are currently lost upon rendering.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

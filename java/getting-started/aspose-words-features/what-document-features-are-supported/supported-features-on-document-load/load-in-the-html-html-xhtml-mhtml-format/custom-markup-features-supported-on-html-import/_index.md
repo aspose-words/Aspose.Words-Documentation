@@ -16,7 +16,9 @@ It is planned to import custom tags from HTML as CustomXML around document eleme
 [Jump to this location in the export section](/words/java/custom-markup-features-supported-on-html-export/)
 
 {{% /alert %}} 
+
 ## **CustomXML**
+
 Represented in Aspose.Words DOM as a CustomXmlMarkup node.
 
 You can create and remove CustomXmlMarkup in a document. You can also access the properties of the XML markup node.

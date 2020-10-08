@@ -20,6 +20,7 @@ Most properties of lists are supported by Aspose.Words. You can create new lists
 - [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel)
 
 {{% /alert %}} 
+
 ## **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -27,6 +28,7 @@ Most properties of lists are supported by Aspose.Words. You can create new lists
 |Single Level|Yes| | |
 |Multi Level|Yes| |- [List.IsMultiLevel](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
 |Name|Yes| | |
+
 ## **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -23,6 +23,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/document-features-supported-on-rich-text-export/)
 
 {{% /alert %}} 
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -48,12 +49,14 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |N/A | | |
 |Background |Yes |A background of a Word document can be a solid color or an image. |- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
 |Thumbnail |Planned | |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
+
 ##### **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |Planned |Currently embedding new fonts into a document is unsupported. | |
 |Access and Use Embedded Fonts |Planned | |<p>- [FontInfo](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo) </p><p>- [FontInfo.GetEmbeddedFont](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo/methods/getembeddedfont)</p>|
+
 ##### **Bibliography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -61,7 +64,9 @@ See the following links in the documentation for further information:
 |Bibliography |Yes |Bibliography content is preserved on import. <br><br>Updating a bibliography is currently unsupported. | |
 |Sources/Citations |Yes |Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. | |
 |Citation Style |Yes |Document-wide citation style is preserved but there is no access to this setting in the DOM. | |
+
 ##### **Protection**
+
 Aspose.Words supports most document protection features.
 
 Using Aspose.Words you can open a document that is password protected even without the password (as long as its not encrypted). 
@@ -85,6 +90,7 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | |- [Section.ProtectedForForms](https://apireference.aspose.com/words/net/aspose.words/section/properties/protectedforforms)|
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | |<p>- [Document.WriteProtection](https://apireference.aspose.com/words/net/aspose.words/document/properties/writeprotection) </p><p>- [WriteProtection.IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/iswriteprotected)</p>|
+
 ##### **Settings**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -28,6 +28,7 @@ See the following links in the documentation for further information:
 [J]()[ump to this location in the export section](/words/java/document-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
+
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -70,6 +71,7 @@ See the following links in the documentation for further information:
 |Citation Style|Yes|Document-wide citation style is preserved but there is no access to this setting in the DOM.| |
 
 ## **Protection**
+
 Aspose.Words supports most document protection features.
 
 Using Aspose.Words you can open a document that is password-protected even without the password (as long as it is not encrypted).

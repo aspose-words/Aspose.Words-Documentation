@@ -12,6 +12,7 @@ When converting to a document format that doesn't support custom markup features
 [Jump to this location in the import section](/words/java/custom-markup-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
+
 ##### **CustomXML**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -19,6 +20,7 @@ When converting to a document format that doesn't support custom markup features
 |CustomXML|Yes| | |
 
 ##### **Content Controls (Structured Document Tags)**
+
 Currently, Content Controls linked to Custom XML Data Storage are not supported during export. The default value of the tag is exported instead. This may make the output appear different from how the content control appears in Microsoft Word.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

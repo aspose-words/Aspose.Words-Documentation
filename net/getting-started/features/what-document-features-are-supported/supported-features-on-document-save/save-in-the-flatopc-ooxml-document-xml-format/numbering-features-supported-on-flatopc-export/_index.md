@@ -10,6 +10,7 @@ url: /net/numbering-features-supported-on-flatopc-export/
 [Jump to this location in the import section](/words/net/numbering-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
+
 ##### **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -17,6 +18,7 @@ url: /net/numbering-features-supported-on-flatopc-export/
 |Single Level |Yes | | |
 |Multi Level |Yes | | |
 |Name |Yes | | |
+
 ##### **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

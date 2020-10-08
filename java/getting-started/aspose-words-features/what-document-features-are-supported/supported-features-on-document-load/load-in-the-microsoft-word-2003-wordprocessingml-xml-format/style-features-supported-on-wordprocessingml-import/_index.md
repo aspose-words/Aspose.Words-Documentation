@@ -18,7 +18,9 @@ You currently cannot rename a style name or remove an existing style from a docu
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
+
 ## **Style Type**
+
 See the following links in the documentation for further information:
 
 - **Document.Styles**
@@ -31,6 +33,7 @@ See the following links in the documentation for further information:
 |Character Style |Yes | |- **StyleType.Character**|
 |List Style |Yes | |- **StyleType.List**|
 |Table Style |Yes | |<p>- **Table.Style** </p><p>- **TableStyle** </p><p>- **StyleType.Table**</p>|
+
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -45,12 +48,14 @@ See the following links in the documentation for further information:
 |Paragraph Properties |Yes | |- **Style.ParagraphFormat**|
 |Run Properties |Yes | |- **Style.Font**|
 |Bullets and Numbering |Yes | |<p>- **Style.List** </p><p>- **Style.ListFormat**</p>|
+
 ## **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Planned | | |
 |Run Properties |Yes | | |
+
 ## **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

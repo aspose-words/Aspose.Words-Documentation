@@ -7,6 +7,7 @@ url: /java/save-documents-in-apache-poi-and-aspose-words/
 ---
 
 ## **Aspose.Words - Save Document**
+
 Simply use the Document.Save method with a file name as a string. Aspose.Words will infer the save format from the file extension that you specify.
 
 **Java**
@@ -29,6 +30,7 @@ doc.save(dataDir + "Aspose_SaveDoc.docx",SaveFormat.DOCX);
 {{< /highlight >}}
 
 ## **Apache POI HWPF XWPF - Save Document**
+
 FileOutputStream is used to write the data in document when using Apache POI. Sample is shown below:
 
 **Java**
@@ -49,9 +51,12 @@ fos.close();
 {{< /highlight >}}
 
 ## **Download Running Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/document/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/document)
 

@@ -32,6 +32,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |CustomXML|N/A| | |
 
 ##### **Content Controls (Structured Document Tags)**
+
 ODT format does not support content controls. During conversion, only the plain content is retained.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

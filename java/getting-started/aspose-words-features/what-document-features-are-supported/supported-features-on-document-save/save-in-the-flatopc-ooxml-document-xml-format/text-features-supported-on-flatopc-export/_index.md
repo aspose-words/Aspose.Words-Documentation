@@ -12,6 +12,7 @@ Text in different languages is fully supported and can be rendered to formats su
 [Jump to this location in the import section](/words/java/text-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
+
 ##### **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

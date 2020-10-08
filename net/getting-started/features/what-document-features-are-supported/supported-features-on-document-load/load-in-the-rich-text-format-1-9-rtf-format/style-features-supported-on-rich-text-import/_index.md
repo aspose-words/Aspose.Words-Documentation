@@ -18,7 +18,9 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 [Jump to this location in the export section](/words/net/style-features-supported-on-rich-text-export/)
 
 {{% /alert %}} 
+
 ##### **Style Type**
+
 See the following links in the documentation for further information:
 
 - [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/styles)
@@ -31,6 +33,7 @@ See the following links in the documentation for further information:
 |Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/styletype)|
 |List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/styletype)|
 |Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/styletype)</p>|
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -45,12 +48,14 @@ See the following links in the documentation for further information:
 |Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
 |Run Properties |Yes | |- [Style.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
 |Bullets and Numbering |Yes | |<p>- [Style.List](https://apireference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
+
 ##### **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Planned | | |
 |Run Properties |Yes | | |
+
 ##### **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -10,6 +10,7 @@ url: /java/table-features-supported-on-flatopc-export/
 [Jump to this location in the import section](/words/java/table-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
+
 ##### **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

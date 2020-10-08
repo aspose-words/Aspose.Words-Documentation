@@ -18,6 +18,7 @@ See the following link in the documentation for further information:
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -34,7 +35,9 @@ See the following link in the documentation for further information:
 |Preferred Table Width |Yes |Fixed width tables are exported as width=XXXpt on &lt;table&gt;. <br><br>A table with relative size (percent) is exported as a percent width e.g width=100%. | |
 |Table Shading |Yes |Only solid fill color is supported. <br><br>Exported as background-color style attribute on all cells in the table. | |
 |Hidden |Planned |Hidden table or row is currently exported as as collapsed with no content. This can produce the correct output with the exception of a row border present. | |
+
 ##### **Floating Tables**
+
 Floating tables are saved as normal tables.
 
 Left, right and center alignment is supported.
@@ -48,12 +51,15 @@ Left, right and center alignment is supported.
 |Distance from Text |Planned | | |
 |Move with Text |Planned | | |
 |Allow Overlap Floating Tables |Planned | | |
+
 ##### **Table Borders**
+
 Currently borders are output on each cells as style attribute border-XXX-style, border-XXX-color etc.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
+
 ##### **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -62,6 +68,7 @@ Currently borders are output on each cells as style attribute border-XXX-style, 
 |Repeat as Header Row |Yes |A table that has heade rows are exported as &lt;thead&gt; and &lt;th&gt; elements. Normal rows exported with &lt;tbody&gt; and &lt;tr&gt; elements. <br><br>Tables without header rows are exported as &lt;tr&gt; elements without &lt;tbody&gt;. | |
 |Height |Yes |Exported as style attribute height on &lt;tr&gt; | |
 |Height Rule |Yes |Auto is exported with no height attribute allowing auto-resize. <br><br>At least and exact are both exported as height in points. | |
+
 ##### **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

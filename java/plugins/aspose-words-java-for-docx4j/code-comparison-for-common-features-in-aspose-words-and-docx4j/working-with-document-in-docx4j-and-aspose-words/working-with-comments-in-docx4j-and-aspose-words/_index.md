@@ -6,6 +6,7 @@ url: /java/working-with-comments-in-docx4j-and-aspose-words/
 ---
 
 ## **Aspose.Words - Working with Comments**
+
 Comments of the document are represented by the Comment class.
 
 **Java**
@@ -20,7 +21,9 @@ comment.getParagraphs().add(new Paragraph(doc));
 comment.getFirstParagraph().getRuns().add(new Run(doc, "Comment text."));
 doc.save(dataDir + "Aspose_Comments.docx");
 {{< /highlight >}}
+
 ## **docx4j - Working with Comments**
+
 Creates a WordprocessingML document from scratch, and adds a comment.
 
 **Java**
@@ -54,10 +57,14 @@ paraToCommentOn.getContent().add(createRunCommentReference(commentId));
 commentId = commentId.add(java.math.BigInteger.ONE);
 wordMLPackage.save(new java.io.File(outputfilepath));
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/comments/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/comments)
 

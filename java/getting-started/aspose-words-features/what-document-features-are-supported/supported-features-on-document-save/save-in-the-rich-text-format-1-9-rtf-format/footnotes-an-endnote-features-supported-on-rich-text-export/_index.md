@@ -10,6 +10,7 @@ url: /java/footnotes-an-endnote-features-supported-on-rich-text-export/
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **Footnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -24,6 +25,7 @@ url: /java/footnotes-an-endnote-features-supported-on-rich-text-export/
 |Restart Location |Yes | | |
 |Starting Value |Yes | | |
 |Placement |Yes | | |
+
 ##### **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -6,6 +6,7 @@ url: /java/working-with-headers/
 ---
 
 ## **Aspose.Words - Working with Headers**
+
 The following sample code demonstrates how to create headers/footers using DocumentBuilder.
 
 **Java**
@@ -42,6 +43,7 @@ doc.save(dataDir + "AsposeHeader.doc");
 {{< /highlight >}}
 
 ## **Apache POI HWPF XWPF - Working with Headers**
+
 HeaderStories can be used to access Headers of the document.
 
 **Java**
@@ -64,11 +66,13 @@ System.out.println("Header Is: " + header);
 {{< /highlight >}}
 
 ## **Download Running Code**
+
 Download Extract Images from Document form any of the below mentioned social coding sites:
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/headerfooter)
 

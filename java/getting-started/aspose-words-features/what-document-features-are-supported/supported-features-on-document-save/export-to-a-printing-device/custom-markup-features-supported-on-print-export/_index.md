@@ -10,16 +10,19 @@ url: /java/custom-markup-features-supported-on-print-export/
 When converting to a document format that doesn't support custom markup features, the markup is stripped but content is preserved. The non-Microsoft Word document formats do not support custom markup and only text is exported.
 
 {{% /alert %}} 
+
 ##### **CustomXML**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |N/A | | |
+
 ##### **Content Controls (Structured Document Tags)**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
+
 ##### **Smart Tags**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

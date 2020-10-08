@@ -10,6 +10,7 @@ url: /java/paragraph-features-supported-on-flatopc-export/
 [Jump to this location in the import section](/words/java/paragraph-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
+
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

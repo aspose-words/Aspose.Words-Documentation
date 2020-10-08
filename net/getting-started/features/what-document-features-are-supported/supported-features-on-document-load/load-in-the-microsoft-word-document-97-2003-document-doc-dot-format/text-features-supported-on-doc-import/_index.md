@@ -22,6 +22,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/text-features-supported-on-doc-export/)
 
 {{% /alert %}} 
+
 ##### **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -36,6 +37,7 @@ See the following links in the documentation for further information:
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
 |Tab |Yes | |- [ControlChar.Tab](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
+
 ##### **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -44,6 +46,7 @@ See the following links in the documentation for further information:
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes | |- [ControlChar.PageBreak](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 |Column Break |Yes | |- [ControlChar.ColumnBreak](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
+
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -56,7 +59,9 @@ See the following links in the documentation for further information:
 |Do not Check Spelling or Grammar |Yes | |- [Font.NoProofing](https://apireference.aspose.com/words/net/aspose.words/font)|
 |Border |Yes | |- [Font.Border](https://apireference.aspose.com/words/net/aspose.words/font)|
 |Shading |Yes | |- [Font.Shading](https://apireference.aspose.com/words/net/aspose.words/font)|
+
 ##### **Font**
+
 See the following links in the documentation for further information:
 
 - [Font.Bold](https://apireference.aspose.com/words/net/aspose.words/font)
@@ -67,7 +72,9 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
+
 ##### **Underline**
+
 See the following link in the documentation for further information:
 
 - [Font.Underline](https://apireference.aspose.com/words/net/aspose.words/font)
@@ -76,7 +83,9 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Underline Type |Yes |The underline property is used to both define if the run is underline and with what type of underline is used. |- **Font.Underline**|
 |Underline Color |Yes | |- [Font.UnderlineColor](https://apireference.aspose.com/words/net/aspose.words/font/properties/UnderlineColor)|
+
 ##### **Text Effects**
+
 See the following link in the documentation for further information:
 
 - [Font](https://apireference.aspose.com/words/net/aspose.words/font)
@@ -96,6 +105,7 @@ See the following link in the documentation for further information:
 |Hidden Text |Yes | |- [Font.Hidden](https://apireference.aspose.com/words/net/aspose.words/font/properties/Hidden)|
 |Special Hidden |Yes | | |
 |Web Hidden |Yes | | |
+
 ##### **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

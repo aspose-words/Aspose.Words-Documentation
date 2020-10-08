@@ -72,6 +72,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Shading|Yes|Only solid fill is supported, both background and foreground. Others are converted to the nearest color. <br><br>Exported as background-color on &lt;span&gt;.| |
 
 ##### **Font**
+
 Bold and italics are exported as font-weight:bold and font-style:italics on style attribute.
 
 There are plans to make an option to export these as simple &lt;b&gt;, &lt;i&gt; tags.
@@ -91,6 +92,7 @@ See the following link in the documentation for further information:
 |Font|Yes| | |
 
 ##### **Underline**
+
 Only single line underline type is supported in native HTML. Exported as "text-decoration:underline". Underline color is not exported.
 
 In CSS 3 different underline types are proposed and may be implemented in the future.

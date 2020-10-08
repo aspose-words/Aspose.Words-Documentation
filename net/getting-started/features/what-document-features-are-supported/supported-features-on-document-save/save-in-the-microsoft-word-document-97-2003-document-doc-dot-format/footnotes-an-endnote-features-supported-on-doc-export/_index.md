@@ -19,6 +19,7 @@ url: /net/footnotes-and-endnote-features-supported-on-doc-export/
 |Restart Location |Yes | | |
 |Starting Value |Yes | | |
 |Placement |Yes | | |
+
 ##### **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

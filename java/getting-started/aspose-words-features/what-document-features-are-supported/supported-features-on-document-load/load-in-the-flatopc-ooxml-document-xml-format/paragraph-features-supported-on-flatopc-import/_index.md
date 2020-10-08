@@ -22,6 +22,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/java/paragraph-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
+
 ## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -67,6 +68,7 @@ See the following links in the documentation for further information:
 |Page Break Before|Yes| |- **ParagraphFormat.PageBreakBefore**|
 
 ## **Text Frames**
+
 This is the legacy text frames from Word 97, not to be confused with the Autoshape Textbox which is discussed under Drawing Objects.
 
 Text frames are preserved in the model but there is no API or node to modify or access information about frames.
@@ -76,6 +78,7 @@ Text frames are preserved in the model but there is no API or node to modify or 
 |Text Frames|Yes| | |
 
 ## **Tab Stops**
+
 All features of tab stops are supported in Aspose.Words except for relative tab stops.
 
 Using Aspose.Words you can find tab stops based on position or index. You can change tab stop features like position, alignment etc or remove tab stops completely.
@@ -92,6 +95,7 @@ See the following link in the documentation for further information:
 |Leader|Yes| |- **TabStop.Leader**|
 
 ## **Drop Caps**
+
 Drop Caps are partially supported and preserved during document conversion. A drop cap is a text frame which is imported as a separate paragraph (from the rest of the paragraph as seen in the source document).
 
 You can modify drop cap properties and position, however, the new settings are not applied to the drop cap. You cannot yet create new drop caps (although you can easily simulate them through the use of a textbox).
@@ -120,6 +124,7 @@ See the following links in the documentation for further information:
 |Distance from Text|Yes| |- **Border.DistanceFromText**|
 
 ## **Shading**
+
 See the following link in the documentation for further information:
 
 - **ParagraphFormat.Shading**
@@ -129,6 +134,7 @@ See the following link in the documentation for further information:
 |Shading|Yes| | |
 
 ## **Asian Typography**
+
 Asian Typography settings are fully supported during conversion. However, there is currently no API to access or modify these settings.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -14,7 +14,9 @@ Using Aspose.Words you can interact with footnotes and endnotes and access or mo
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
+
 ## **Footnotes**
+
 See the following links in the documentation for further information:
 
 - **Footnote**
@@ -32,6 +34,7 @@ See the following links in the documentation for further information:
 |Restart Location |N/A | | |
 |Starting Value |Yes | | |
 |Placement |Yes | |- **FootnoteOptions.Location**|
+
 ## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

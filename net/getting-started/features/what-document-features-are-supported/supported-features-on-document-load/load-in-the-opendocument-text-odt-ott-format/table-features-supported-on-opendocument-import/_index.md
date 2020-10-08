@@ -29,6 +29,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/table-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
+
 ##### **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -47,6 +48,7 @@ See the following links in the documentation for further information:
 |Hidden|N/A| | |
 
 ##### **Floating Tables**
+
 Floating tables are supported during import and export. However, there is currently no API to access or modify the floating position of a table.
 
 Floating tables are imported as inline tables with a left indent.
@@ -56,6 +58,7 @@ Floating tables are imported as inline tables with a left indent.
 |Floating Tables|Planned| | |
 
 ##### **Table Borders**
+
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document.
 
 If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first.

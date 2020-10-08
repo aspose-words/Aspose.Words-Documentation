@@ -26,6 +26,7 @@ You can check the quality of HTML Export and view the results online at this lin
 {{% /alert %}}
 
 ##### **Footnotes**
+
 Exported as a hyperlink with footnote number inline of text.
 
 Footnote text is exported at the bottom of the document separted by a horizontal ruler. The hyperlink links to here.

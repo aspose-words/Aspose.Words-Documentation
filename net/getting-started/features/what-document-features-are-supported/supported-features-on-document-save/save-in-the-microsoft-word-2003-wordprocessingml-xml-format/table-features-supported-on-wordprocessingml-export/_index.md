@@ -10,6 +10,7 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 [Jump to this location in the import section](/words/net/table-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
+
 ##### **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -26,6 +27,7 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 |Preferred Table Width |Yes | | |
 |Table Shading |Yes | | |
 |Hidden |Planned |Hidden attribute currently lost on hidden table or row. | |
+
 ##### **Floating Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -37,11 +39,13 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 |Distance from Text |Yes | | |
 |Move with Text |Yes | | |
 |Allow Overlap Floating Tables |Yes | | |
+
 ##### **Table Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
+
 ##### **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -50,6 +54,7 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 |Repeat as Header Row |Yes | | |
 |Height |Yes | | |
 |Height Rule |Yes | | |
+
 ##### **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

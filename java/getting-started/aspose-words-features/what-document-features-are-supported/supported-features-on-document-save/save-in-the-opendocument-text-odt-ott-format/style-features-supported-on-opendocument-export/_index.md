@@ -26,6 +26,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 {{% /alert %}}
 
 ##### **Style Type**
+
 Note that there may appear to be more styles in the output ODT document than in the original input document. This is expected as all formatting in the ODT format is style based, therefore more styles must be created during export to deal with direct formatting on runs and paragraphs (that are not applied using a style).
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

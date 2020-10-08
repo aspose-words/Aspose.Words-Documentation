@@ -30,6 +30,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/numbering-features-supported-on-docx-export/)
 
 {{% /alert %}} 
+
 ##### **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -37,6 +38,7 @@ See the following links in the documentation for further information:
 |Single Level |Yes | | |
 |Multi Level |Yes | |- [List.IsMultiLevel](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
 |Name |Yes | | |
+
 ##### **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

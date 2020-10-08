@@ -38,7 +38,9 @@ There are also plans to import fields from HTML by allowing the user to define a
 [Jump to this location in the export section](/words/java/field-features-supported-on-html-export/)
 
 {{% /alert %}} 
+
 ## **Field Codes**
+
 Only form fields and hyperlinks are importing from HTML as dynamic fields.
 
 Other fields are imported from HTML as plain text.
@@ -109,6 +111,7 @@ See the following links in the documentation for further information:
 |Symbol|N/A| | |
 
 ## **Form Fields**
+
 Form fields are fully supported by Aspose.Words.
 
 There is an option to export form fields as dynamic fields in HTML as &lt;input&gt; and &lt;select&gt; tags or to export them as plain text.
@@ -216,6 +219,7 @@ See the following links in the documentation for further information:
 |UserName|N/A| | |
 
 ## **Hyperlinks**
+
 Aspose.Words fully supports all features of hyperlink fields.
 
 You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink.

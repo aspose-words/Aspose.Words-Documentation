@@ -13,6 +13,7 @@ url: /java/style-features-supported-on-pdf-export/
 |Character Style |Yes | | |
 |List Style |Yes | | |
 |Table Style |Yes | | |
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -26,12 +27,14 @@ url: /java/style-features-supported-on-pdf-export/
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
 |Bullets and Numbering |Yes | | |
+
 ##### **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
+
 ##### **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

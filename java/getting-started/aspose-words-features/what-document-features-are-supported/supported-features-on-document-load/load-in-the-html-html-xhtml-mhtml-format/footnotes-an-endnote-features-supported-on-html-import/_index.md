@@ -18,7 +18,9 @@ There is a sample project which demonstrates how to convert this type of footnot
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
+
 ## **Footnotes**
+
 Footnotes and endnote markers are imported as hyperlinks. The content of these is separated at the bottom of the section with a horizontal rule.
 
 There is a sample project which demonstrates how to convert this type of footnote import into proper footnotes again.
@@ -40,6 +42,7 @@ See the following links in the documentation for further information:
 |Restart Location |Planned | | |
 |Starting Value |Planned | | |
 |Placement |Planned | |- **FootnoteOptions.Location**|
+
 ## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

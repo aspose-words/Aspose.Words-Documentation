@@ -107,6 +107,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Read Only|N/A| | |
 
 ##### **Settings**
+
 Only some settings can be exported.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

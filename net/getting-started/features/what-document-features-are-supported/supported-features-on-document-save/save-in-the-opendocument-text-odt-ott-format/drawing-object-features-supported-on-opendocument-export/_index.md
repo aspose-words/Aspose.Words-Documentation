@@ -25,6 +25,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 
 ##### **Images**
+
 All images are exported as the same format that they were originally loaded as.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -61,6 +62,7 @@ All images are exported as the same format that they were originally loaded as.
 |Text in Other Shapes|Yes| | |
 
 ##### **OLE Objects**
+
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
 OLE objects are fully preserved when converting within different Word document formats.
@@ -79,6 +81,7 @@ OLE objects are saved as images.
 |Source Range|N/A| | |
 
 ##### **ActiveX Controls**
+
 Output as an image.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -106,7 +109,9 @@ Output as an image.
 |Shape Customizations|Yes|Exported as image.| |
 |Hyperlink on Shape|N/A| | |
 |Watermark|N/A|Watermark image is exported as-is into the document body as OpenOffice has no support for background watermarks. It is suggested to make sure that the wrapping on the watermark is set to "Behind Text" to avoid the image appearing in front of the text. <br><br>Also, note that the image will not have the same transparency level as what is applied in Microsoft Word.| |
+
 ##### **WordArt**
+
 Exported to ODT as a custom shape element.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -122,6 +127,7 @@ Exported to ODT as a custom shape element.
 |WordArt Shape|Yes| | |
 
 ##### **Horizontal Line Object**
+
 Exported as an image.
 
 Some formatting might appear differently when saved to ODT.
@@ -176,6 +182,7 @@ Some formatting might appear differently when saved to ODT.
 |Picture or Texture Fill|Planned| | |
 
 ##### **Line Style**
+
 Some line styles might appear different when saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -190,6 +197,7 @@ Some line styles might appear different when saved to ODT.
 |Arrow Settings|Yes|Some arrow types might appear differently when saved to ODT.| |
 
 ##### **Shadow**
+
 Shadows are exported well to ODT but in a simplified way to accommodate the ODT format.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -197,6 +205,7 @@ Shadows are exported well to ODT but in a simplified way to accommodate the ODT 
 |Shadow|Planned| | |
 
 ##### **3D Properties**
+
 ODT doesn't support 3D features.
 
 In a future version shapes with 3D formatting may be exported as an image.

@@ -20,7 +20,9 @@ Fields are output as plain text in HTML. Only field result is exported.
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **Field Codes**
+
 Fields are output as plain text in HTML. Only field result is exported.
 
 See the following link in the documentation for further information:
@@ -30,6 +32,7 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
+
 ##### **Date and Time**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -40,6 +43,7 @@ See the following link in the documentation for further information:
 |PrintDate |Yes | | |
 |SaveDate |Yes | | |
 |Time |Yes | | |
+
 ##### **Document Automation**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -50,7 +54,9 @@ See the following link in the documentation for further information:
 |If |Yes |Field result is output as plain text. | |
 |MacroButton |Yes |Field result is output as plain text. | |
 |Print |N/A | | |
+
 ##### **Document Information**
+
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -69,6 +75,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Subject |Yes | | |
 |Template |Yes | | |
 |Title |Yes | | |
+
 ##### **Equations and Formulas**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -77,7 +84,9 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Advance |Planned |Planned to be exported as plain text separator. | |
 |Eq |Yes |Exported as image. | |
 |Symbol |Yes | | |
+
 ##### **Form Fields**
+
 There is a save option to control if form fields are exported as elements like &lt;input&gt; etc. or as plain text.
 
 See the following link in the documentation for further information:
@@ -100,6 +109,7 @@ See the following link in the documentation for further information:
 |Max Length |Yes |Exported as maxlength attribute. | |
 |Check Box Size |Planned |There are plans to use width and height CSS attributes to increase size of checkboxes exported to HTML. | |
 |Text Input Type |Planned | | |
+
 ##### **Index and Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -111,6 +121,7 @@ See the following link in the documentation for further information:
 |TOA (Table of Authorities) |Yes | | |
 |TOC (Table of Contents) |Yes |The \h switch on TOC can be used to export the TOC as hyperlinked to HTML. <br><br>There is a save option to disable the export of page numbers on TOC as page numbers are not required in this format. | |
 |XE |N/A | | |
+
 ##### **Links and References**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -128,7 +139,9 @@ See the following link in the documentation for further information:
 |Quote |Yes | | |
 |Ref |Yes |Exported as plain text and not yet as a clickable hyperlink. <br><br>There is a simple work around in the mean time to export this field as a working hyperlink. | |
 |StyleRef |Yes | | |
+
 ##### **Mail Merge**
+
 Any fields that have a field result are exported to HTML as text.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -147,6 +160,7 @@ Any fields that have a field result are exported to HTML as text.
 |NextIf |N/A | | |
 |Set |N/A | | |
 |SkipIf |N/A | | |
+
 ##### **Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -161,6 +175,7 @@ Any fields that have a field result are exported to HTML as text.
 |Section |Yes |Exported as plain text. | |
 |SectionPages |Yes |Exported as plain text. | |
 |Seq |Yes |Exported as plain text. | |
+
 ##### **User Information**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -168,7 +183,9 @@ Any fields that have a field result are exported to HTML as text.
 |UserAddress |Yes | | |
 |UserInitials |Yes | | |
 |UserName |Yes | | |
+
 ##### **Hyperlinks**
+
 Exported as &lt;a&gt; element with text or image being linked as children.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -180,6 +197,7 @@ Exported as &lt;a&gt; element with text or image being linked as children.
 |Hyperlink to an External Resource |Yes | | |
 |Screen Tip |Planned | | |
 |Target Frame |Yes |Exported as target="_XXX" attribute on &lt;a&gt;. | |
+
 ##### **Formatting Switches**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

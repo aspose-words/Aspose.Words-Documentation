@@ -26,6 +26,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
+
 ## **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -40,6 +41,7 @@ See the following links in the documentation for further information:
 |Soft Hyphen |Planned |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
 |Tab |Planned |There is no equivalent of a tab in HTML documents. Tabs are currently exported as a series of non-breaking spaces. <br><br>These are imported back as a series of non-breaking spaces but there is a work around to replace these with proper tabs. <br><br>It is planned to import the special Microsoft Word mso attribute to properly import tab sequences. |- **ControlChar.Tab**|
+
 ## **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -48,6 +50,7 @@ See the following links in the documentation for further information:
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes |Imported from &lt;br style="page-break-before:always; clear:both"&gt; |- **ControlChar.PageBreak**|
 |Column Break |Yes |Imported using the Microsoft Office attribute on break: style="mso-column-break-before:always" |- **ControlChar.ColumnBreak**|
+
 ## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -60,7 +63,9 @@ See the following links in the documentation for further information:
 |Do not Check Spelling or Grammar |Planned | |- **Font.NoProofing**|
 |Border |Yes |Imported from border-style, border-width, border-color on &lt;span&gt;. |- **Font.Border**|
 |Shading |Yes |Imported from background-color on &lt;span&gt;. <br><br>Imported into the model as solid pattern on Run. |- **Font.Shading**|
+
 ## **Font**
+
 Bold and italics imported from font-weight:bold and font-style:italics on style.
 
 This formatting can also be imported from simple tags e.g &lt;b&gt;&lt;/b&gt;, &lt;i&gt;&lt;/i&gt;.
@@ -81,7 +86,9 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
+
 ## **Underline**
+
 Imported from style attribute "text-decoration:underline" or from &lt;u&gt;&lt;/u&lt; tags.
 
 The import of underline color is currently not supported.
@@ -94,7 +101,9 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Underline Type |N/A | | |
 |Underline Color |Planned |Can be imported from a bottom border with different color from text. |- **Font.UnderlineColor**|
+
 ## **Text Effects**
+
 See the following link in the documentation for further information:
 
 - **Font**
@@ -114,6 +123,7 @@ See the following link in the documentation for further information:
 |Hidden Text |Yes |Imported from style="display:none". |- **Font.Hidden**|
 |Special Hidden |Planned | | |
 |Web Hidden |Planned | | |
+
 ## **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

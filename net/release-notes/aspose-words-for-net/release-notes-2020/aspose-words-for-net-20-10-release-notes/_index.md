@@ -12,6 +12,7 @@ This page contains release notes for [Aspose.Words for .NET 20.10](https://downl
 {{% /alert %}} 
 
 ## **Major Features**
+
 There are 89 improvements and fixes in this regular monthly release. The most notable are:
 
 - Added support for loading CHM documents.
@@ -558,6 +559,7 @@ doc.Save("out.xps", xpsOptions);
 {{< /highlight >}}
 
 ### **Released the first version of SmartArt Cold Rendering**
+
 Microsoft Word generates and saves the pre-rendered drawing along with the SmartArt object. In most cases the pre-rendered drawing is rendered well by Aspose.Words and no additional actions required. However if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case the SmartArt object itself should be laid-out and rendered. We call this process the SmartArt Cold Rendering.
 
 If pre-rendered drawing is available then Aspose.Words uses it to render the SmartArt object.

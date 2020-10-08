@@ -18,7 +18,9 @@ You currently cannot rename a style name or remove an existing style from a docu
 [Jump to this location in the export section](/words/java/style-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
+
 ## **Style Type**
+
 See the following links in the documentation for further information:
 
 - **Document.Styles**

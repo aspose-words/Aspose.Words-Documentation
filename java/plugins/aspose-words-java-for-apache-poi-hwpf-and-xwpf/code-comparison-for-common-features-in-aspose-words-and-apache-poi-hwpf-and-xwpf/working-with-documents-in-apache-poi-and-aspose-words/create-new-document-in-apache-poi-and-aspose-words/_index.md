@@ -6,6 +6,7 @@ url: /java/create-new-document-in-apache-poi-and-aspose-words/
 ---
 
 ## **Aspose.Words - Create New Document**
+
 Call the Document constructor without parameters to create a new blank document.
 
 If you want to generate a document programmatically, the most reasonable step after creation is to use DocumentBuilder to add document contents.
@@ -32,6 +33,7 @@ doc.save(dataDir + "Aspose_NewDoc.docx",SaveFormat.DOCX);
 {{< /highlight >}}
 
 ## **Apache POI HWPF XWPF - Create New Document**
+
 The code example given below shows how to create a new document using Apache POI XWPF.
 
 **Java**
@@ -52,10 +54,12 @@ fos.close();
 {{< /highlight >}}
 
 ## **Download Running Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/document/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/document)
 

@@ -69,6 +69,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Font|Yes| | |
 
 ##### **Underline**
+
 Some underline types appear different when saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -95,6 +96,7 @@ Some underline types appear different when saved to ODT.
 |Web Hidden|N/A| | |
 
 ##### **Character Spacing**
+
 Kerning and Snap to Grid are not saved to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

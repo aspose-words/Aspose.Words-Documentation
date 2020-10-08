@@ -12,17 +12,21 @@ When converting to a document format that doesn't support custom markup features
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **CustomXML**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |Yes | | |
+
 ##### **Content Controls (Structured Document Tags)**
+
 DOC format does not support content controls. During conversion only the plain content is retained.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
+
 ##### **Smart Tags**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

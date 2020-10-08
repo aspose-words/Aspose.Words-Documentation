@@ -10,6 +10,7 @@ url: /net/style-features-supported-on-doc-export/
 [Jump to this location in the import section](/words/net/style-features-supported-on-doc-import/)
 
 {{% /alert %}} 
+
 ##### **Style Type**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -18,6 +19,7 @@ url: /net/style-features-supported-on-doc-export/
 |Character Style |Yes | | |
 |List Style |Yes | | |
 |Table Style |Yes | | |
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -31,12 +33,14 @@ url: /net/style-features-supported-on-doc-export/
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
 |Bullets and Numbering |Yes | | |
+
 ##### **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Planned | | |
 |Run Properties |Yes | | |
+
 ##### **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

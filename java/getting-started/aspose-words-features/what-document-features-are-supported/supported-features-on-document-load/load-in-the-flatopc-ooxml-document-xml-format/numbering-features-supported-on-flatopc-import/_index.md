@@ -30,6 +30,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/java/numbering-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
+
 ## **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

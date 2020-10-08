@@ -6,6 +6,7 @@ url: /java/working-with-documents-in-apache-poi-and-aspose-words/
 ---
 
 ###### **This section includes the following topics:**
+
 - [Convert Document to Other Formats](https://docs.aspose.com/words/java/convert-document-to-other-formats/)
 - [Create New Document in Apache POI and Aspose.Words](https://docs.aspose.com/words/java/create-new-document-in-apache-poi-and-aspose-words/)
 - [Format Text in Document](https://docs.aspose.com/words/java/format-text-in-document/)

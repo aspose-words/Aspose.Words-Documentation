@@ -6,6 +6,7 @@ url: /java/remove-header-and-footer-from-documents/
 ---
 
 ## **Aspose.Words - Remove Header Footer from Documents**
+
 Each section in a document can have up to three headers and up to three footers (for first, even and odd pages). If you want to delete all headers footers in a document you need to loop through all sections and remove every header and footer node.
 
 **Java**
@@ -40,7 +41,9 @@ for (Section section : doc.getSections())
 		footer.remove();
 }
 {{< /highlight >}}
+
 ## **Docx4j - Remove Header Footer from Documents**
+
 Examples shows how header and footer can be removed using docx4j library.
 
 **Java**
@@ -95,10 +98,14 @@ public static void removeHFFromFile(File f) throws Exception {
 	wordMLPackage.save(f);
 }
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/removeheaderfooter/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/removeheaderfooter)
 

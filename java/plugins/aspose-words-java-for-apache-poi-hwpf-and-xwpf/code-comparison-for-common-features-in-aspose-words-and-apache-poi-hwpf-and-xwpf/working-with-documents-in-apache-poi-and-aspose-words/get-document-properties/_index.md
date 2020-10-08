@@ -6,6 +6,7 @@ url: /java/get-document-properties/
 ---
 
 ## **Aspose.Words - Get Document Properties**
+
 Document properties allow some useful information to be stored along with the document. There are system (built-in) and user defined (custom) properties. Built-in properties contain such things as document title, author's name, document statistics, and so on. Custom properties are just name-value pairs where user defines both the name and value.
 
 You can use document properties in your document automation project to store some useful info along with the document such as when the document was received/processed/time stamped and so on.
@@ -28,7 +29,9 @@ System.out.println("The document format is: " + FileFormatUtil.loadFormatToExten
 System.out.println("Document is encrypted: " + info.isEncrypted());
 System.out.println("Document has a digital signature: " + info.hasDigitalSignature());
 {{< /highlight >}}
+
 ## **Apache POI HWPF XWPF - Get Document Properties**
+
 SummaryInformation class is used to access various properties of HWPF document.
 
 **Java**
@@ -53,10 +56,14 @@ System.out.println(summaryInfo.getSecurity());
 System.out.println(summaryInfo.getSubject());
 System.out.println(summaryInfo.getTemplate());
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/document/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/document)
 

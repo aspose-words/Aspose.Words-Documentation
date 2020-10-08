@@ -10,7 +10,9 @@ url: /java/drawing-object-features-supported-on-wordprocessingml-export/
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **Images**
+
 All images are exported as the same format that they were originally loaded as.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -47,6 +49,7 @@ All images are exported as the same format that they were originally loaded as.
 |Text in Other Shapes |Yes | | |
 
 ##### **OLE Objects**
+
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
 OLE objects are fully preserved when converting within different Word document formats.
@@ -63,6 +66,7 @@ OLE objects are fully preserved when converting within different Word document f
 |Source Range |Yes | | |
 
 ##### **ActiveX Controls**
+
 ActiveX is supported in OOXML, DOC, RTF and WordML documents. ActiveX Controls are preserved during round-trip to the same format.
 
 When exporting to a different format from the original document the following rules apply:

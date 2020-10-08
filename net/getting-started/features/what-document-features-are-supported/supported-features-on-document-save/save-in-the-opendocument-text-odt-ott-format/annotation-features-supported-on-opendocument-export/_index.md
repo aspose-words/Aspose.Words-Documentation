@@ -25,6 +25,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 
 ##### **Bookmarks**
+
 All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unique names, that is, no two bookmarks are allowed the exact same name.
 
 If two bookmarks are given the same name in the model then no errors will occur. During export to any format, the duplicate bookmarks are removed silently. The first bookmark visited in the model is the one that is retained, any other bookmarks are removed,
@@ -37,6 +38,7 @@ If two bookmarks are given the same name in the model then no errors will occur.
 |Bookmark Table Columns|N/A| | |
 
 ##### **Comments**
+
 Comments associated with a group of words become associated with a single point at the beginning of the group of words when saved to ODT.
 
 Tables in comments are not saved to ODT. These are limitations of the ODT format.
@@ -50,6 +52,7 @@ Tables in comments are not saved to ODT. These are limitations of the ODT format
 |Initial|N/A| | |
 
 ##### **Tracking Changes**
+
 OpenOffice does not support tracked changes.
 
 You can choose to either accept changes in Aspose.Words before saving to ODT or save without accepting.

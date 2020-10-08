@@ -18,7 +18,9 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 [J]()[ump to this location in the import section](/words/java/field-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
+
 ##### **Field Codes**
+
 See the following link in the documentation for further information:
 
 - [Document.UpdateFields](https://apireference.aspose.com/java/words/com.aspose.words/document#updateFields\(\)).
@@ -50,6 +52,7 @@ See the following link in the documentation for further information:
 |Print|Yes| | |
 
 ##### **Document Information**
+
 Fields such as FileName or FileSize are not automatically updated on save. However, they can be updated explicitly by calling Document.UpdateFields.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

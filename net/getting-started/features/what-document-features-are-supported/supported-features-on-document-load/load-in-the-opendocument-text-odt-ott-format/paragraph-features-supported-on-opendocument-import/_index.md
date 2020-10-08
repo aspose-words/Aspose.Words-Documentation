@@ -21,6 +21,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/paragraph-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
+
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -33,6 +34,7 @@ See the following links in the documentation for further information:
 |Run Properties for the Paragraph Mark |Yes | |- **ParagraphFormat.ParagraphBreakFont**|
 |Suppress Line Numbers |Yes | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Yes | |- **ParagraphFormat.SurpressAutoHyphens**|
+
 ##### **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -43,6 +45,7 @@ See the following links in the documentation for further information:
 |Hanging Indent |Yes | |- **ParagraphFormat.FirstLineIndent**|
 |Mirror Indents |N/A | | |
 |Automatically Adjust Right Indent |N/A | | |
+
 ##### **Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -53,6 +56,7 @@ See the following links in the documentation for further information:
 |Line Spacing |Yes | |<p>- [ParagraphFormat.LineSpacing](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacing) </p><p>- [ParagraphFormat.LineSpacingRule](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacingrule)</p>|
 |No Space between Conforming Paragraphs |N/A | | |
 |Snap To Grid |Yes | | |
+
 ##### **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -61,7 +65,9 @@ See the following links in the documentation for further information:
 |Keep With Next |Yes | |- [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keepwithnext)|
 |Keep Lines Together |Yes | |- [ParagraphFormat.KeepTogether](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keeptogether)|
 |Page Break Before |Yes | |- [ParagraphFormat.PageBreakBefore](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/pagebreakbefore)|
+
 ##### **Text Frames**
+
 This is the legacy text frames from Word 97, not to be confused with the Autoshape Textbox which is discussed under Drawing Objects.
 
 Text frames are preserved in the model but there is no API or node to modify or access information about frames.
@@ -73,7 +79,9 @@ During round trip these will be imported back as normal paragraps and not text f
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Frames |Planned | | |
+
 ##### **Tab Stops**
+
 All features of tab stops are supported in Aspose.Words except for relative tab stops.
 
 Using Aspose.Words you can find tab stops based off position or index. You can change tab stop features like position, alignment etc or remove tabstops completely.
@@ -88,7 +96,9 @@ See the following link in the documentation for further information:
 |Relative Position |N/A | | |
 |Alignment: Left, Center, Right, Decimal, Bar |Yes | |- [TabStop.Alignment](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/alignment)|
 |Leader |Yes | |- [TabStop.Leader](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/leader)|
+
 ##### **Drop Caps**
+
 Drop Caps are partially supported and preserved during document conversion. A drop cap is a text frame which is imported as a separate paragraph (from the rest of the paragraph as seen in the source document).
 
 You can modify drop cap properties and position, however the new settings are not applied to the drop cap. You cannot yet create new drop caps (although you can easily simulate them through the use of a textbox). 
@@ -103,6 +113,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
+
 ##### **Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -114,7 +125,9 @@ See the following links in the documentation for further information:
 |Color |Yes | |- [Border.Color](https://apireference.aspose.com/words/net/aspose.words/border/properties/color)|
 |Width |Yes | |- [Border.LineWidth](https://apireference.aspose.com/words/net/aspose.words/border/properties/linewidth)|
 |Distance from Text |Yes | |- [Border.DistanceFromText](https://apireference.aspose.com/words/net/aspose.words/border/properties/distancefromtext)|
+
 ##### **Shading**
+
 See the following link in the documentation for further information:
 
 - [ParagraphFormat.Shading](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/shading)
@@ -122,7 +135,9 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
+
 ##### **Asian Typography**
+
 Asian Typography settings is fully supported during conversion. However there is currently no API to access or modify these settings.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

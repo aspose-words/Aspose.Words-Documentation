@@ -22,6 +22,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
+
 ## **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -36,6 +37,7 @@ See the following links in the documentation for further information:
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
 |Tab |Yes | |- **ControlChar.Tab**|
+
 ## **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -44,6 +46,7 @@ See the following links in the documentation for further information:
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes | |- **ControlChar.PageBreak**|
 |Column Break |Yes | |- **ControlChar.ColumnBreak**|
+
 ## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -56,7 +59,9 @@ See the following links in the documentation for further information:
 |Do Not Check Spelling or Grammar |Yes | |- **Font.NoProofing**|
 |Border |Yes | |- **Font.Border**|
 |Shading |Yes | |- **Font.Shading**|
+
 ## **Font**
+
 See the following links in the documentation for further information:
 
 - **Font.Bold**
@@ -67,7 +72,9 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
+
 ## **Underline**
+
 See the following link in the documentation for further information:
 
 - **Font.Underline**
@@ -76,7 +83,9 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Underline Type |Yes |The underline property is used to both define if the run is underline and with what type of underline is used. |- **Font.Underline**|
 |Underline Color |Yes | |- **Font.UnderlineColor**|
+
 ## **Text Effects**
+
 See the following link in the documentation for further information:
 
 - **Font**
@@ -96,6 +105,7 @@ See the following link in the documentation for further information:
 |Hidden Text |Yes | |- **Font.Hidden**|
 |Special Hidden |Yes | | |
 |Web Hidden |Yes | | |
+
 ## **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

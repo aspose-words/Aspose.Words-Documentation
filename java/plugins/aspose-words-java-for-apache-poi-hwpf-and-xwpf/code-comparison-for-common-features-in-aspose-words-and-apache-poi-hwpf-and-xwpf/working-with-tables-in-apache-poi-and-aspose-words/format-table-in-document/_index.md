@@ -6,6 +6,7 @@ url: /java/format-table-in-document/
 ---
 
 ## **Aspose.Words - Format Table in Document**
+
 {{% alert color="primary" %}} 
 
 Note that before you apply table properties there must be at least one row present in the table. This means when building a table using **DocumentBuilder**, such formatting must be done after the first call to **DocumentBuilder.InsertCell** or after adding the first row to a table or when inserting nodes directly into the DOM.
@@ -59,7 +60,9 @@ builder.getCellFormat().clearFormatting();
 builder.writeln("Cell #4");
 doc.save(dataDir + "Aspose_styledTable.doc");
 {{< /highlight >}}
+
 ## **Apache POI HWPF XWPF - Format Table in Document**
+
 **Java**
 
 {{< highlight csharp >}}
@@ -169,10 +172,14 @@ FileOutputStream out = new FileOutputStream(dataDir + "Apache_styledTable.docx")
 doc.write(out);
 out.close();
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/tables/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/tables)
 

@@ -23,6 +23,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/java/document-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
+
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -79,6 +80,7 @@ See the following links in the documentation for further information:
 |Read Only|N/A| | |
 
 ## **Settings**
+
 Footnote, Endnote and View settings are imported when loading an ODT format document.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -23,6 +23,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/document-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -48,12 +49,14 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |N/A | | |
 |Background |N/A | | |
 |Thumbnail |N/A | | |
+
 ##### **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |N/A | | |
 |Access and Use Embedded Fonts |N/A | | |
+
 ##### **Bibliography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -61,6 +64,7 @@ See the following links in the documentation for further information:
 |Bibliography |Yes |Bibliography content is preserved on import. <br><br>Updating a bibliography is currently unsupported. <br><br>Bibliography text is saved to ODT as normal text. | |
 |Sources/Citations |Yes |Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. <br><br>Bibliography sources are not saved to ODT. | |
 |Citation Style |N/A | | |
+
 ##### **Protection**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -74,7 +78,9 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | |- [Section.ProtectedForForms](https://apireference.aspose.com/words/net/aspose.words/section/properties/protectedforforms)|
 |Protection Ranges |N/A | | |
 |Read Only |N/A | | |
+
 ##### **Settings**
+
 Footnote, Endnote and View settings are imported when loading an ODT format document.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

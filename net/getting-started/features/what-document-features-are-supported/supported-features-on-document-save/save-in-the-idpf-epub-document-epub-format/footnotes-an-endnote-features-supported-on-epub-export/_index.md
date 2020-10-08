@@ -12,7 +12,9 @@ Exported as hyperlink with footnote number inline of text.
 Footnote text is exported at the bottom of the document separted by a horizontal ruler. The hyperlink links to here.
 
 {{% /alert %}} 
+
 ##### **Footnotes**
+
 Exported as hyperlink with footnote number inline of text.
 
 Footnote text is exported at the bottom of the document separted by a horizontal ruler. The hyperlink links to here.
@@ -29,6 +31,7 @@ Footnote text is exported at the bottom of the document separted by a horizontal
 |Restart Location |Planned | | |
 |Starting Value |Planned | | |
 |Placement |Planned | | |
+
 ##### **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

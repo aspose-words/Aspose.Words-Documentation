@@ -12,7 +12,9 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 [Jump to this location in the import section](/words/net/drawing-object-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
+
 ##### **Images**
+
 All images are exported as the same format that they were originally loaded as.
 
 Images are exported to RTF in hex format. There are plans to support writing images in bin format to reduce the size of the image by half.
@@ -51,6 +53,7 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 |Text in Other Shapes |Yes | | |
 
 ##### **OLE Objects**
+
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
 OLE objects are fully preserved when converting within different Word document formats.
@@ -67,6 +70,7 @@ OLE objects are fully preserved when converting within different Word document f
 |Source Range |Yes | | |
 
 ##### **ActiveX Controls**
+
 ActiveX is supported in OOXML, DOC, RTF and WordML documents. ActiveX Controls are preserved during round-trip to the same format.
 
 When exporting to a different format from the original document the following rules apply:
@@ -106,6 +110,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | | |
 |Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
+
 ##### **WordArt**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

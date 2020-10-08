@@ -10,6 +10,7 @@ url: /java/numbering-features-supported-on-rich-text-export/
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -17,6 +18,7 @@ url: /java/numbering-features-supported-on-rich-text-export/
 |Single Level |Yes | | |
 |Multi Level |Yes | | |
 |Name |Yes | | |
+
 ##### **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

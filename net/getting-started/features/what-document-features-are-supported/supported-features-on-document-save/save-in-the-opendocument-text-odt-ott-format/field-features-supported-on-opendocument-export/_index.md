@@ -35,6 +35,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 
 ##### **Field Codes**
+
 Fields that do not exist in ODT are converted to plain text when saved to ODT, others are exported as working fields.
 
 See the following link in the documentation for further information:
@@ -68,6 +69,7 @@ See the following link in the documentation for further information:
 |Print|N/A| | |
 
 ##### **Document Information**
+
 Fields such as FileName or FileSize are not automatically updated on save. However, they can be updated explicitly by calling Document.UpdateFields.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -97,6 +99,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Symbol|Yes| | |
 
 ##### **Form Fields**
+
 Not all form field features have appropriate analogues in ODT format.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -147,6 +150,7 @@ Not all form field features have appropriate analogues in ODT format.
 |StyleRef|Yes|Exported as plain text.| |
 
 ##### **Mail Merge**
+
 Some fields cannot be exported to ODT. They are converted to plain text.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -182,6 +186,7 @@ Some fields cannot be exported to ODT. They are converted to plain text.
 |Seq|Yes|Converted to plain text. Note this can affect the behaviour of some TOCs.| |
 
 ##### **User Information**
+
 These fields are all exported as plain text.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -12,17 +12,21 @@ When converting to a document format that doesn't support custom markup features
 There are plans to export the Custom XML found within the document structure to custom tags surronding elements in HTML output.
 
 {{% /alert %}} 
+
 ##### **CustomXML**
+
 There are plans to export the Custom XML found within the document structure to custom tags surronding elements in HTML output.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |Planned | | |
+
 ##### **Content Controls (Structured Document Tags)**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
+
 ##### **Smart Tags**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

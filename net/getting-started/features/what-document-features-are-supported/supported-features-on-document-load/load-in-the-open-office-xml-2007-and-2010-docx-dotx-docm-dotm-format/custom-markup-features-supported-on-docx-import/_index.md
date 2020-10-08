@@ -14,7 +14,9 @@ For example, CustomXML markup can be wrapped around a paragraph in the document 
 [Jump to this location in the export section](/words/net/custom-markup-features-supported-on-docx-export/)
 
 {{% /alert %}} 
+
 ##### **CustomXML**
+
 Represented in Aspose.Words DOM as a CustomXmlMarkup node.
 
 You can create and remove CustomXmlMarkup in a document. You can also access the properties of the XML markup node.
@@ -26,7 +28,9 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |Yes | | |
+
 ##### **Content Controls (Structured Document Tags)**
+
 Represented in Aspose.Words DOM as a StructuredDocumentTag node.
 
 You can insert new Structured Document Tags and remove existing ones from the document. There is also a rich API for accessing the various properties of SDTs.
@@ -40,7 +44,9 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |Yes | | |
+
 ##### **Smart Tags**
+
 SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Words DOM as a SmartTag node.
 
 See the following links in the documentation for further information:

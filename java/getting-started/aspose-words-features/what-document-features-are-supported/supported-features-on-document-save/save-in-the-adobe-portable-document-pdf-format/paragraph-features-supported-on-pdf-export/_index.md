@@ -14,6 +14,7 @@ See the following link in the documentation for further information:
 - [PdfSaveOptions.HeadingsOutlineLevels](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
 
 {{% /alert %}} 
+
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -58,6 +59,7 @@ See the following link in the documentation for further information:
 |Page Break Before |Yes | | |
 
 ##### **Text Frames**
+
 Floating content is generally supported well during rendering.
 
 Currently floating shapes may not be properly positioned when anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output.

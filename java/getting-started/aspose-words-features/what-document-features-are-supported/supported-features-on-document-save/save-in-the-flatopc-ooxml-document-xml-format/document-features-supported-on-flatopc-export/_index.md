@@ -17,6 +17,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the import section](/words/java/document-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

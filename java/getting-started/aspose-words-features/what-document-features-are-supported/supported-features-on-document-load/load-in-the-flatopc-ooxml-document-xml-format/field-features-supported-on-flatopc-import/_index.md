@@ -30,7 +30,9 @@ Fields with custom field codes or field results (modified manually in the docume
 [Jump to this location in the export section](/words/java/field-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
+
 ## **Field Codes**
+
 See the following links in the documentation for further information:
 
 - [Working with Fields](/words/java/working-with-fields/)
@@ -43,6 +45,7 @@ See the following links in the documentation for further information:
 |Field Codes|Yes| | |
 
 ## **Date and Time**
+
 All Date and Time fields are supported and can be updated by Aspose.Words.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -55,6 +58,7 @@ All Date and Time fields are supported and can be updated by Aspose.Words.
 |Time|Yes| | |
 
 ## **Document Automation**
+
 All Document Automation fields are supported and can be updated by Aspose.Words.
 
 Note that GotoButton, MacroButton and Print fields do not require any update.
@@ -69,6 +73,7 @@ Note that GotoButton, MacroButton and Print fields do not require any update.
 |Print|Yes| | |
 
 ## **Document Information**
+
 All Document Automation fields are supported and can be updated by Aspose.Words with the exception of the "Info" field type.
 
 Note that GotoButton, MacroButton and Print fields do not require an update.
@@ -100,6 +105,7 @@ Note that GotoButton, MacroButton and Print fields do not require an update.
 |Symbol|Yes|No update required. Field result is imported and exported correctly during document conversion.| |
 
 ## **Form Fields**
+
 Form fields are fully supported by Aspose.Words.
 
 See the following links in the documentation for further information:
@@ -157,6 +163,7 @@ See the following links in the documentation for further information:
 |StyleRef|Yes|This field is supported during field update. <br><br>Only a few switches are supported during field update. Support for the other options will be added in future versions.| |
 
 ## **Mail Merge**
+
 The mail merge engine allows you to quickly merge a variety of data into a document. You can merge simple data using simple mail merge as well as complex relational data from a database using merge regions. Both are easy to achieve using Aspose.Words.
 
 Aspose.Words fully supports all of the mail merge features and fields with the exception of the following fields:
@@ -192,6 +199,7 @@ See the following links in the documentation for further information:
 |SkipIf|Yes| | |
 
 ## **Numbering**
+
 Aspose.Words round-trips all of these fields properly. Aspose.Words supports updating the following fields:
 
 - Page
@@ -215,6 +223,7 @@ An update of the other fields will be added to future versions.
 |Seq|Yes| | |
 
 ## **User Information**
+
 These fields are imported and round-tripped but currently are not updated by the field engine.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -224,6 +233,7 @@ These fields are imported and round-tripped but currently are not updated by the
 |UserName|Yes| | |
 
 ## **Hyperlinks**
+
 Aspose.Words fully supports all features of hyperlink fields.
 
 You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink.
@@ -244,6 +254,7 @@ See the following links in the documentation for further information:
 |Target Frame|Yes| | |
 
 ## **Formatting Switches**
+
 All formatting types are supported during field update or mail merge.
 
 For example, when the MERGEFORMAT switch is used on a merge field, after mail merge, the text which replaces the merge field inherits the formatting. Fields with a "@" date formatting switch are updated based on the date format supplied with the switch etc.

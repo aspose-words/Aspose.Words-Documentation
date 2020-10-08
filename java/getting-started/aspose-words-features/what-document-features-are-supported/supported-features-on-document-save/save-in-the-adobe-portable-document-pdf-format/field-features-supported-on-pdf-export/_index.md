@@ -16,7 +16,9 @@ Fields with custom field codes (a field code modified to represent something dif
 When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of page layout.
 
 {{% /alert %}} 
+
 ##### **Field Codes**
+
 See the following link in the documentation for further information:
 
 - **Document.UpdateFields.**
@@ -24,6 +26,7 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
+
 ##### **Date and Time**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -34,6 +37,7 @@ See the following link in the documentation for further information:
 |PrintDate |Yes | | |
 |SaveDate |Yes | | |
 |Time |Yes | | |
+
 ##### **Document Automation**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -44,7 +48,9 @@ See the following link in the documentation for further information:
 |If |Yes | | |
 |MacroButton |Yes | | |
 |Print |N/A | | |
+
 ##### **Document Information**
+
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -63,6 +69,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Subject |Yes | | |
 |Template |Yes | | |
 |Title |Yes | | |
+
 ##### **Equations and Formulas**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -71,7 +78,9 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Advance |Planned |The effects of the advance field do not appear in the rendered output. <br><br>There are plans to support this field during rendering. | |
 |Eq |Planned |Some simple equation fields may render correctly. Others may appear distorted in the rendered output. | |
 |Symbol |Yes | | |
+
 ##### **Form Fields**
+
 There is a save option to control if form fields are exported as proper form fields in PDF output or as plain text.
 
 See the following link in the documentation for further information:
@@ -94,6 +103,7 @@ See the following link in the documentation for further information:
 |Max Length |Yes | | |
 |Check Box Size |Yes | | |
 |Text Input Type |N/A | | |
+
 ##### **Index and Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -105,6 +115,7 @@ See the following link in the documentation for further information:
 |TOA (Table of Authorities) |Yes | | |
 |TOC (Table of Contents) |Yes |The \h switch on TOC can be used to export the TOC as hyperlinked to PDF. | |
 |XE |N/A | | |
+
 ##### **Links and References**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -122,6 +133,7 @@ See the following link in the documentation for further information:
 |Quote |Yes | | |
 |Ref |Yes |Exported as clickable link. | |
 |StyleRef |Yes | | |
+
 ##### **Mail Merge**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -140,6 +152,7 @@ See the following link in the documentation for further information:
 |NextIf |Yes | | |
 |Set |Yes | | |
 |SkipIf |Yes | | |
+
 ##### **Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -154,6 +167,7 @@ See the following link in the documentation for further information:
 |Section |Yes | | |
 |SectionPages |Yes | | |
 |Seq |Yes | | |
+
 ##### **User Information**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -161,6 +175,7 @@ See the following link in the documentation for further information:
 |UserAddress |Yes | | |
 |UserInitials |Yes | | |
 |UserName |Yes | | |
+
 ##### **Hyperlinks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -172,6 +187,7 @@ See the following link in the documentation for further information:
 |Hyperlink to an External Resource |Yes | | |
 |Screen Tip |N/A | | |
 |Target Frame |N/A | | |
+
 ##### **Formatting Switches**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

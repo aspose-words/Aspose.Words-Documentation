@@ -48,6 +48,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Automatically Adjust Right Indent|N/A|Automatically Adjust Right Indent are not supported in ODT.| |
 
 ##### **Spacing**
+
 No Space Between Conforming Paragraphs is not supported.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -68,6 +69,7 @@ No Space Between Conforming Paragraphs is not supported.
 |Page Break Before|Yes| | |
 
 ##### **Text Frames**
+
 Text from text frames is saved to ODT as normal text paragraphs with a border.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -90,6 +92,7 @@ Text from text frames is saved to ODT as normal text paragraphs with a border.
 |Drop Caps|Yes| | |
 
 ##### **Borders**
+
 Bar and Between borders, dashed, shadow and triple lines appear differently when saved to ODT because not all border features exist in ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -109,6 +112,7 @@ Bar and Between borders, dashed, shadow and triple lines appear differently when
 |Shading|Yes| | |
 
 ##### **Asian Typography**
+
 Some Asian Typography settings are not supported in ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

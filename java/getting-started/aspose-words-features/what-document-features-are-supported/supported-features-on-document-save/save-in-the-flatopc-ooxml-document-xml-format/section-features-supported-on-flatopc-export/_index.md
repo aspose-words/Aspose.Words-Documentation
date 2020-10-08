@@ -10,6 +10,7 @@ url: /java/section-features-supported-on-flatopc-export/
 [Jump to this location in the import section](/words/java/section-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
+
 ##### **Headers and Footers**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -19,6 +20,7 @@ url: /java/section-features-supported-on-flatopc-export/
 |Continue from the Previous Section|Yes| | |
 
 ##### **Section Break Type**
+
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**

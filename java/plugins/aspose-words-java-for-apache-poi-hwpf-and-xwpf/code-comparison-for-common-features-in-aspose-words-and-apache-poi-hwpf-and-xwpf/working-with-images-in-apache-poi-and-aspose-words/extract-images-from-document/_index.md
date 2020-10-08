@@ -6,6 +6,7 @@ url: /java/extract-images-from-document/
 ---
 
 ## **Aspose.Words - Extract Images from Document**
+
 To extract all images or images having specific type from the document, follow these steps:
 
 - Use the Document.GetChildNodes method to select all Shape nodes.
@@ -40,6 +41,7 @@ for (Shape shape : (Iterable<Shape>) shapes)
 {{< /highlight >}}
 
 ## **Apache POI HWPF XWPF - Extract Images from Document**
+
 getAllPictures is used to extract images from the document.
 
 **Java**
@@ -62,6 +64,7 @@ for (int i = 0; i < pics.size(); i++)
 {{< /highlight >}}
 
 ## **Download Running Code**
+
 Download Extract Images from Document form any of the below mentioned social coding sites:
 - [CodePlex](https://asposeapachepoi.codeplex.com/downloads/get/910850)
 - [SourceForge](http://sourceforge.net/projects/asposeforapachepoi/files/Aspose.Words%20vs%20Apache%20POI%20WP/Extract%20Images%20%28Aspose.Words%20vs%20Apache%20POI%20WP%29.zip/download)

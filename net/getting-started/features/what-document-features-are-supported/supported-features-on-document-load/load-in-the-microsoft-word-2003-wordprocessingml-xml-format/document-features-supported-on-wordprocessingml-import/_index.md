@@ -19,6 +19,7 @@ See the following links in the documentation for further information:
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 
 {{% /alert %}} 
+
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -44,12 +45,14 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature|Yes|The digital signature on a VBA Project is preserved during open and save even if the document content is modified.| |
 |Background|Yes|A background of a Word document can be a solid color or an image.|- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
 |Thumbnail|Planned| |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
+
 ## **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts|N/A| | |
 |Access and Use Embedded Fonts|N/A| | |
+
 ## **Bibliography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -57,7 +60,9 @@ See the following links in the documentation for further information:
 |Bibliography|Yes|Bibliography content is preserved on import. <br><br>Updating a bibliography is currently unsupported.| |
 |Sources/Citations|Yes|Sources and citations are preserved during import. <br><br>Inserting new sources is not supported.| |
 |Citation Style|Yes|Document-wide citation style is preserved but there is no access to this setting in the DOM.| |
+
 ## **Protection**
+
 Aspose.Words supports most document protection features.
 
 Using Aspose.Words you can open a document that is password protected even without the password (as long as its not encrypted).
@@ -81,6 +86,7 @@ See the following links in the documentation for further information:
 |Protected Sections|Yes| |- [Section.ProtectedForForms](https://apireference.aspose.com/words/net/aspose.words/section/properties/protectedforforms)|
 |Protection Ranges|Planned|Currently protected ranges are lost upon import.| |
 |Read Only|Yes| |<p>- [Document.WriteProtection](https://apireference.aspose.com/words/net/aspose.words/document/properties/writeprotection)</p><p>- [WriteProtection.IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/writeprotection.iswriteprotected)</p>|
+
 ## **Settings**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

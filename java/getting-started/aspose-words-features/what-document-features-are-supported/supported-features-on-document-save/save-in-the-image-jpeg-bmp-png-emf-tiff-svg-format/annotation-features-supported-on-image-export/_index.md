@@ -13,7 +13,9 @@ url: /java/annotation-features-supported-on-image-export/
 |Bookmark End |Yes | | |
 |Bookmark Name |Yes | | |
 |Bookmark Table Columns |N/A | | |
+
 ##### **Comments**
+
 Comments are exported to rendered formats.
 
 In version 1.0 of comments rendering long or many comments are not truncated.
@@ -25,7 +27,9 @@ In version 1.0 of comments rendering long or many comments are not truncated.
 |Author |Yes | | |
 |Date |Yes | | |
 |Initial |Yes | | |
+
 ##### **Tracking Changes**
+
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 
 Tracked changes are currently not rendered in the way they appear in Microsoft Word. This functionality will be included in a future version of Aspose.Words. At the moment any tracked changes are rendered as plain content and thefore may affect the apperance of the document. For this reason you may need to accept all revisions before rendering.

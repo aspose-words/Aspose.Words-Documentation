@@ -10,7 +10,9 @@ url: /net/footnotes-an-endnote-features-supported-on-flatopc-import/
 An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors publication in their document. Using Aspose.Words you can interact with footnotes and endnotes and access or modify footnote related propeties such as the location of the footnotes and when they restart.
 
 {{% /alert %}} 
+
 ## **Footnotes**
+
 See the following links in the documentation for further information:
 
 - [Footnote](https://apireference.aspose.com/words/net/aspose.words/footnote)
@@ -28,6 +30,7 @@ See the following links in the documentation for further information:
 |Restart Location|Yes| | |
 |Starting Value|Yes| | |
 |Placement|Yes| |- [FootnoteOptions.Position](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/position)|
+
 ## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

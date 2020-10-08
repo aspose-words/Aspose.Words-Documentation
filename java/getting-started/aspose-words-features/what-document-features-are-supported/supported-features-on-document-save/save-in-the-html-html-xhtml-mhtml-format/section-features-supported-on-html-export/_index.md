@@ -28,6 +28,7 @@ You can check the quality of HTML Export and view the results online at this lin
 {{% /alert %}}
 
 ##### **Headers and Footers**
+
 There is a save option that controls how headers and footers are output. This controls how the primary header is exported in different places in the output document.
 
 By default, the header of the first section is exported at the top of the HTML output and the last footer of the last section is output at the end of the HTML output. Any linked headers and footers are taken into account.
@@ -45,6 +46,7 @@ See the following link in the documentation for further information:
 |Continue from the Previous Section|Yes| | |
 
 ##### **Section Break Type**
+
 Section breaks are exported as a &lt;br&gt; tag which contains the special Microsoft Office attribute mso-break-type:section-break.
 
 There is an option to skip exporting breaks to HTML at all.
@@ -66,6 +68,7 @@ See the following links in the documentation for further information:
 |Next Page|Yes|Exported as &lt;br&gt; with page-break-before:always.| |
 
 ##### **Text Columns**
+
 HTML and EPUB have no native support for text columns.
 
 Support for this feature may be possible in a future version using CSS3 or EPUB 3.0 features.
@@ -75,6 +78,7 @@ Support for this feature may be possible in a future version using CSS3 or EPUB 
 |Text Columns|N/A| | |
 
 ##### **Page Margins**
+
 Page settings are output optionally to HTML through the use of a save option. This is exported either as an embedded or external style sheet depending on the save option used.
 
 Section formatting is exported using the "@page" identifier along with margin and size attributes that define the appearance of the section as seen in the source document.
@@ -107,6 +111,7 @@ Some features need Microsoft Office specific attributes, they are not currently 
 |Asian Document Grid|N/A| | |
 
 ##### **Chapter Numbering**
+
 Output as a list item with ordinary list numbering.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -114,6 +119,7 @@ Output as a list item with ordinary list numbering.
 |Chapter Numbering|Yes| | |
 
 ##### **Page Border**
+
 HTML does not have any "page" concept so no page border is imported.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

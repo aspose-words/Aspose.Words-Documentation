@@ -12,6 +12,7 @@ Text in different languages is fully supported and can be rendered to formats su
 [Jump to this location in the import section](/words//net/text-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
+
 ##### **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -26,6 +27,7 @@ Text in different languages is fully supported and can be rendered to formats su
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. | |
 |Symbol |Yes | | |
 |Tab |Yes | | |
+
 ##### **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -34,6 +36,7 @@ Text in different languages is fully supported and can be rendered to formats su
 |Line Break Clear Type |Yes | | |
 |Page Break |Yes | | |
 |Column Break |Yes | | |
+
 ##### **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -46,17 +49,20 @@ Text in different languages is fully supported and can be rendered to formats su
 |Do not Check Spelling or Grammar |Yes | | |
 |Border |Yes | | |
 |Shading |Yes | | |
+
 ##### **Font**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font |Yes | | |
+
 ##### **Underline**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Underline Type |Yes | | |
 |Underline Color |Yes | | |
+
 ##### **Text Effects**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -74,6 +80,7 @@ Text in different languages is fully supported and can be rendered to formats su
 |Hidden Text |Yes | | |
 |Special Hidden |Yes | | |
 |Web Hidden |Yes | | |
+
 ##### **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

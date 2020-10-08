@@ -19,6 +19,7 @@ url: /java/footnotes-an-endnote-features-supported-on-pdf-export/
 |Restart Location |Yes | | |
 |Starting Value |Yes | | |
 |Placement |Yes | | |
+
 ##### **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

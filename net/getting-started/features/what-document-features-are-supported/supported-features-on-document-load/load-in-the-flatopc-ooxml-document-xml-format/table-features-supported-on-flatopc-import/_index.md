@@ -19,6 +19,7 @@ Using Aspose.Words you can access and modify all features and formatting of a ta
 - [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table)
 
 {{% /alert %}} 
+
 ## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -35,13 +36,17 @@ Using Aspose.Words you can access and modify all features and formatting of a ta
 |Preferred Table Width|Yes|Preferred width on the table can be set to absolute (points), relative (per cent) or auto setting.|- [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
 |Table Shading|Yes| |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
 |Hidden|Yes|There is currently no API to access or modify this property on Table or Row.| |
+
 ## **Floating Tables**
+
 Floating tables are supported during import and export. However, there is currently no API to access or modify the floating position of a table.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Floating Tables|Yes| | |
+
 ## **Table Borders**
+
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document. If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first. See the following links in the documentation for further information:
 
 - [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setborders)
@@ -51,6 +56,7 @@ Table borders are stored in the rows of the table. This mimics the structure of 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders|Yes| | |
+
 ## **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -59,6 +65,7 @@ Table borders are stored in the rows of the table. This mimics the structure of 
 |Repeat as Header Row|Yes| |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](/words/net/working-with-columns-and-rows/#workingwithcolumnsandrows-specifyingrowstorepeatonsubsequentpagesasheaderrows)</p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/headingformat)</p>|
 |Height|Yes| |- [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/height)|
 |Height Rule|Yes| |- [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/heightrule)|
+
 ## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

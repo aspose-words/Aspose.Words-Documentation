@@ -17,6 +17,7 @@ url: /java/paragraph-features-supported-on-image-export/
 |Run Properties for the Paragraph Mark |Yes | | |
 |Suppress Line Numbers |Yes | | |
 |Suppress Hyphenation |Yes | | |
+
 ##### **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -27,6 +28,7 @@ url: /java/paragraph-features-supported-on-image-export/
 |Hanging Indent |Yes | | |
 |Mirror Indents |Yes | | |
 |Automatically Adjust Right Indent |Yes | | |
+
 ##### **Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -36,6 +38,7 @@ url: /java/paragraph-features-supported-on-image-export/
 |Space Auto |Yes | | |
 |Line Spacing |Yes | | |
 |No Space between Conforming Paragraphs |Yes | | |
+
 ##### **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -44,7 +47,9 @@ url: /java/paragraph-features-supported-on-image-export/
 |Keep With Next |Yes | | |
 |Keep Lines Together |Yes | | |
 |Page Break Before |Yes | | |
+
 ##### **Text Frames**
+
 Floating content is generally supported well during rendering.
 
 Currently floating shapes may not be properly positioned when anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output.
@@ -54,6 +59,7 @@ We are working to improve this with each release.
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Frames |Yes | | |
+
 ##### **Tab Stops**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -62,11 +68,13 @@ We are working to improve this with each release.
 |Relative Position |Planned | | |
 |Alignment: Left, Center, Right, Decimal, Bar |Yes | | |
 |Leader |Yes | | |
+
 ##### **Drop Caps**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
+
 ##### **Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -78,11 +86,13 @@ We are working to improve this with each release.
 |Color |Yes | | |
 |Width |Yes | | |
 |Distance from Text |Yes | | |
+
 ##### **Shading**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
+
 ##### **Asian Typography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

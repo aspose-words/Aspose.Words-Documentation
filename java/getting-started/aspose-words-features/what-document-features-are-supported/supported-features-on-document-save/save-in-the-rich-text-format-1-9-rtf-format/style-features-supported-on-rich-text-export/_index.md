@@ -10,6 +10,7 @@ url: /java/style-features-supported-on-rich-text-export/
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **Style Type**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -18,6 +19,7 @@ url: /java/style-features-supported-on-rich-text-export/
 |Character Style |Yes | | |
 |List Style |Yes | | |
 |Table Style |Planned | | |
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -31,12 +33,14 @@ url: /java/style-features-supported-on-rich-text-export/
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
 |Bullets and Numbering |Yes | | |
+
 ##### **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Planned | | |
 |Run Properties |Yes | | |
+
 ##### **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

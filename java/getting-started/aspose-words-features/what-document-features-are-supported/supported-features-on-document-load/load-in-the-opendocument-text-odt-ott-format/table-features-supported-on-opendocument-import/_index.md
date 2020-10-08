@@ -29,6 +29,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section]()
 
 {{% /alert %}} 
+
 ## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -45,7 +46,9 @@ See the following links in the documentation for further information:
 |Preferred Table Width |Yes |Preferred width on the table can be set to absolute (points), relative (percent) or auto setting. |- **Table.PreferredWidth**|
 |Table Shading |Yes | |- **Table.SetShading**|
 |Hidden |N/A | | |
+
 ## **Floating Tables**
+
 Floating tables are supported during import and export. However there is currently no API to access or modify the floating position of a table.
 
 Floating tables are imported as inline tables with a left indent.
@@ -53,7 +56,9 @@ Floating tables are imported as inline tables with a left indent.
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Floating Tables |Planned | | |
+
 ## **Table Borders**
+
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document.
 
 If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first.
@@ -67,6 +72,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
+
 ## **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -75,6 +81,7 @@ See the following links in the documentation for further information:
 |Repeat as Header Row |Yes | |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows]() </p><p>- **RowFormat.HeadingFormat**</p>|
 |Height |Yes | |- **RowFormat.Height**|
 |Height Rule |Yes | |- **RowFormat.HeightRule**|
+
 ## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

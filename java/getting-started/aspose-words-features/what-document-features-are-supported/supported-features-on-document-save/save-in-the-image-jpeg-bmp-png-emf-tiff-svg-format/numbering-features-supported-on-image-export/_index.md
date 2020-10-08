@@ -12,6 +12,7 @@ url: /java/numbering-features-supported-on-image-export/
 |Single Level |Yes | | |
 |Multi Level |Yes | | |
 |Name |Yes | | |
+
 ##### **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

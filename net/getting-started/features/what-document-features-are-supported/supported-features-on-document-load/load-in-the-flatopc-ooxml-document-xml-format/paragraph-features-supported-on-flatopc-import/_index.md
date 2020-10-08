@@ -14,6 +14,7 @@ Each paragraph in a document is represented in Aspose.Words as a Paragraph node.
 - [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat)
 
 {{% /alert %}} 
+
 ## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -26,6 +27,7 @@ Each paragraph in a document is represented in Aspose.Words as a Paragraph node.
 |Run Properties for the Paragraph Mark|Yes| |- **ParagraphFormat.ParagraphBreakFont**|
 |Suppress Line Numbers|Yes| |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation|Yes| |- **ParagraphFormat.SurpressAutoHyphens**|
+
 ## **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -36,6 +38,7 @@ Each paragraph in a document is represented in Aspose.Words as a Paragraph node.
 |Hanging Indent|Yes| |- **ParagraphFormat.FirstLineIndent**|
 |Mirror Indents|Yes| |<p>- **ParagraphFormat.LeftIndent**</p><p>- **ParagraphFormat.RightIndent**</p>|
 |Automatically Adjust Right Indent|Yes| | |
+
 ## **Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -46,6 +49,7 @@ Each paragraph in a document is represented in Aspose.Words as a Paragraph node.
 |Line Spacing|Yes| |<p>- [ParagraphFormat.LineSpacing](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacing)</p><p>- [ParagraphFormat.LineSpacingRule](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacingrule)</p>|
 |No Space between Conforming Paragraphs|Yes| |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/nospacebetweenparagraphsofsamestyle)|
 |Snap To Grid|Yes| | |
+
 ## **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -54,13 +58,17 @@ Each paragraph in a document is represented in Aspose.Words as a Paragraph node.
 |Keep With Next|Yes| |- [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keepwithnext)|
 |Keep Lines Together|Yes| |- [ParagraphFormat.KeepTogether](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keeptogether)|
 |Page Break Before|Yes| |- [ParagraphFormat.PageBreakBefore](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/pagebreakbefore)|
+
 ## **Text Frames**
+
 This is the legacy text frames from Word 97, not to be confused with the Autoshape Textbox which is discussed under Drawing Objects. Text frames are preserved in the model but there is no API or node to modify or access information about frames.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Frames|Yes| | |
+
 ## **Tab Stops**
+
 All features of tab stops are supported in Aspose.Words except for relative tab stops. Using Aspose.Words you can find tab stops based off position or index. You can change tab stop features like position, alignment etc or remove tabstops completely. See the following link in the documentation for further information:
 
 - [ParagraphFormat.TabStops](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/tabstops)
@@ -71,7 +79,9 @@ All features of tab stops are supported in Aspose.Words except for relative tab 
 |Relative Position|Yes|A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned.|- [AbsolutePositionTab](https://apireference.aspose.com/words/net/aspose.words/absolutepositiontab)|
 |Alignment: Left, Center, Right, Decimal, Bar|Yes| |- [TabStop.Alignment](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/alignment)|
 |Leader|Yes| |- [TabStop.Leader](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/leader)|
+
 ## **Drop Caps**
+
 Drop Caps are partially supported and preserved during document conversion. A drop cap is a text frame which is imported as a separate paragraph (from the rest of the paragraph as seen in the source document). You can modify drop cap properties and position, however the new settings are not applied to the drop cap. You cannot yet create new drop caps (although you can easily simulate them through the use of a textbox). This will be improved in a future version of Aspose.Words. See the following links in the documentation for further information:
 
 - **ParagraphFormat.DropCapPositon**
@@ -80,6 +90,7 @@ Drop Caps are partially supported and preserved during document conversion. A dr
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps|Yes| | |
+
 ## **Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -91,7 +102,9 @@ Drop Caps are partially supported and preserved during document conversion. A dr
 |Color|Yes| |- [Border.Color](https://apireference.aspose.com/words/net/aspose.words/border/properties/color)|
 |Width|Yes| |- [Border.LineWidth](https://apireference.aspose.com/words/net/aspose.words/border/properties/linewidth)|
 |Distance from Text|Yes| |- [Border.DistanceFromText](https://apireference.aspose.com/words/net/aspose.words/border/properties/distancefromtext)|
+
 ## **Shading**
+
 See the following link in the documentation for further information:
 
 - [ParagraphFormat.Shading](https://apireference.aspose.com/words/net/aspose.words/border/properties/shading)
@@ -99,7 +112,9 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading|Yes| | |
+
 ## **Asian Typography**
+
 Asian Typography settings is fully supported during conversion. However there is currently no API to access or modify these settings.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

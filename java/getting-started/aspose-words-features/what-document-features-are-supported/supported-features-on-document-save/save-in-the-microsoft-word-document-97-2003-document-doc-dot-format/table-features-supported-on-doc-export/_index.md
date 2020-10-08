@@ -10,6 +10,7 @@ url: /java/table-features-supported-on-doc-export/
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -26,6 +27,7 @@ url: /java/table-features-supported-on-doc-export/
 |Preferred Table Width |Yes | | |
 |Table Shading |Yes | | |
 |Hidden |Yes | | |
+
 ##### **Floating Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -37,11 +39,13 @@ url: /java/table-features-supported-on-doc-export/
 |Distance from Text |Yes | | |
 |Move with Text |Yes | | |
 |Allow Overlap Floating Tables |Yes | | |
+
 ##### **Table Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
+
 ##### **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -50,6 +54,7 @@ url: /java/table-features-supported-on-doc-export/
 |Repeat as Header Row |Yes | | |
 |Height |Yes | | |
 |Height Rule |Yes | | |
+
 ##### **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

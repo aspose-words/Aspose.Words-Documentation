@@ -14,6 +14,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 - [Run.Text](https://apireference.aspose.com/words/net/aspose.words/inline/properties/text)
 
 {{% /alert %}} 
+
 ## **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -28,6 +29,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 |Soft Hyphen|Yes|This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents.|- **ControlChar.OptionalHyphen**|
 |Symbol|Yes| | |
 |Tab|Yes| |- [ControlChar.Tab](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/tab)|
+
 ## **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -36,6 +38,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 |Line Break Clear Type|Yes| | |
 |Page Break|Yes| |- [ControlChar.PageBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/pagebreak)|
 |Column Break|Yes| |- [ControlChar.ColumnBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/columnbreak)|
+
 ## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -48,7 +51,9 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 |Do not Check Spelling or Grammar|Yes| |- [Font.NoProofing](https://apireference.aspose.com/words/net/aspose.words/font/properties/noproofing)|
 |Border|Yes| |- [Font.Border](https://apireference.aspose.com/words/net/aspose.words/font/properties/border)|
 |Shading|Yes| |- [Font.Shading](https://apireference.aspose.com/words/net/aspose.words/font/properties/shading)|
+
 ## **Font**
+
 See the following links in the documentation for further information:
 
 - [Font.Bold](https://apireference.aspose.com/words/net/aspose.words/font/properties/bold)
@@ -59,7 +64,9 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font|Yes| | |
+
 ## **Underline**
+
 See the following link in the documentation for further information:
 
 - [Font.Underline](https://apireference.aspose.com/words/net/aspose.words/font/properties/underline)
@@ -68,7 +75,9 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Underline Type|Yes|The underline property is used to both define if the run is underline and with what type of underline is used.|- **Font.Underline**|
 |Underline Color|Yes| |- [Font.UnderlineColor](https://apireference.aspose.com/words/net/aspose.words/font/properties/underlinecolor)|
+
 ## **Text Effects**
+
 See the following link in the documentation for further information:
 
 - [Font](https://apireference.aspose.com/words/net/aspose.words/font/properties/html)
@@ -88,6 +97,7 @@ See the following link in the documentation for further information:
 |Hidden Text|Yes| |- [Font.Hidden](https://apireference.aspose.com/words/net/aspose.words/font/properties/hidden)|
 |Special Hidden|Yes| | |
 |Web Hidden|Yes| | |
+
 ## **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

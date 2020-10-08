@@ -14,6 +14,7 @@ See the following link in the documentation for further information:
 - [PdfSaveOptions.TextCompression](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
 
 {{% /alert %}} 
+
 ##### **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

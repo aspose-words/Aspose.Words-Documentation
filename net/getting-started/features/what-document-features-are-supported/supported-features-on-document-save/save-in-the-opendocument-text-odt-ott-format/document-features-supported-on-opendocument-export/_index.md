@@ -77,6 +77,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Citation Style|N/A| | |
 
 ##### **Protection**
+
 OpenOffice does not support protection so document protection is lost upon conversion to ODT.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -92,6 +93,7 @@ OpenOffice does not support protection so document protection is lost upon conve
 |Read Only|N/A| | |
 
 ##### **Settings**
+
 Footnote, Endnote and View settings are saved to ODT.
 
 Other settings such as Asian Typography, Mail Merge and Web settings are not saved to ODT.

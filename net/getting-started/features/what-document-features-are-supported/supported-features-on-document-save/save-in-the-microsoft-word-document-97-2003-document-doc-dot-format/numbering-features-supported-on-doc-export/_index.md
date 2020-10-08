@@ -10,6 +10,7 @@ url: /net/numbering-features-supported-on-doc-export/
 [Jump to this location in the import section](/words/net/numbering-features-supported-on-doc-import/)
 
 {{% /alert %}} 
+
 ##### **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -17,6 +18,7 @@ url: /net/numbering-features-supported-on-doc-export/
 |Single Level |Yes | | |
 |Multi Level |Yes | | |
 |Name |Yes | | |
+
 ##### **Numbering Level**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

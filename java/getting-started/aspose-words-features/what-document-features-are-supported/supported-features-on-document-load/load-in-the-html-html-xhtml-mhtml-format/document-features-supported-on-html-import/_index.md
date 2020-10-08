@@ -35,6 +35,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/java/document-features-supported-on-html-export/)
 
 {{% /alert %}} 
+
 ## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

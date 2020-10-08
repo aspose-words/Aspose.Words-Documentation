@@ -14,7 +14,9 @@ Using Aspose.Words you can interact with footnotes and endnotes and access or mo
 [Jump to this location in the export section](/words/java/footnotes-an-endnote-features-supported-on-flatopc-export/)
 
 {{% /alert %}} 
+
 ## **Footnotes**
+
 See the following links in the documentation for further information:
 
 - **Footnote**

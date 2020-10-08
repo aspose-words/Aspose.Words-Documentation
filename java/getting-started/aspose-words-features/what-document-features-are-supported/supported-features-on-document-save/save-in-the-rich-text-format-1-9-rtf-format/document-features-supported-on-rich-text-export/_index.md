@@ -18,6 +18,7 @@ See the following links in the documentation for further information:
 [Jump to this location in the import section]()
 
 {{% /alert %}} 
+
 ##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -43,12 +44,14 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |N/A | | |
 |Background |Yes | | |
 |Thumbnail |Planned | | |
+
 ##### **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embedding Fonts |Planned | | |
 |Embed Only Non-Standard Fonts |N/A | | |
+
 ##### **Bibliography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -56,6 +59,7 @@ See the following links in the documentation for further information:
 |Bibliography |Yes | | |
 |Sources/Citations |Yes | | |
 |Citation Style |Yes | | |
+
 ##### **Protection**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -69,6 +73,7 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | | |
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | | |
+
 ##### **Settings**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
