@@ -5,15 +5,21 @@ weight: 210
 url: /net/working-with-digital-signatures/
 ---
 
-## **Introduction**
-
 A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
 
 Aspose.Words supports documents with digital signatures and provides access to them allowing you to detect and validate digital signatures on a document and sign a generated PDF document with a supplied certificate. At the present time digital signatures are supported on DOC, OOXML and ODT documents. Signing of generated documents is supported in PDF format.
 
 Accessing digital signatures of a document is available in Aspose.Words only when running versions of the .NET Framework 2.0 and above. It is not currently supported in previous versions as it relies on specific classes not found in the previous versions. Support for previous versions of the .NET framework will be available in the future.
 
-### **Digital Signatures are not Preserved on Open and Save**
+{{% alert color="primary" %}}
+
+**Try online**
+
+You can try this functionality with our [Free online signature](https://products.aspose.app/words/signature).
+
+{{% /alert %}}
+
+## **Digital Signatures are not Preserved on Open and Save**
 
 An important point to note is that a document loaded and then saved using Aspose.Words will lose any digital signatures signed on the document. This is by design as a digital signature ensures that the content has not been modified and furthermore authenticates the identify of who signed the document. These principles would be invalidated if the original signatures were carried over to the resulting document.
 
@@ -29,7 +35,7 @@ You can also check if a document has digital signatures after loading by checkin
 
 {{% /alert %}} 
 
-### **Digital Signatures on Macros (VBA Projects)**
+## **Digital Signatures on Macros (VBA Projects)**
 
 Digital signatures on macros cannot be accessed or signed. This is because Aspose.Words does not directly deal with macros in a document. However digital signatures on macros are preserved when exporting the document back to any word format. These signatures can be preserved on VBA code because the binary content of the macros are not changed even if the document itself is modified.
 
@@ -45,7 +51,7 @@ A certificate needs to be loaded from a source i.e. from disk or from a certific
 
 The .NET framework provides numerous ways in which to load a certificate. These details are out of the scope of this article, however further information on this can be found on the MSDN page [here](http://msdn.microsoft.com/en-us/library/system.security.cryptography.x509certificates.x509certificate2.aspx).
 
-#### **Access and Verify Digital Signatures**
+### **Access and Verify Digital Signatures**
 
 A document can have multiple digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
 

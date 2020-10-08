@@ -13,6 +13,10 @@ If you need to make sure the document is really protected from changes, consider
 
 Documents protected in Microsoft Word can be easily unprotected even by users without a password. When a document is protected, it can be opened in Microsoft Word, saved as RTF or WordprocessingML document and then the protection password can be removed using Notepad or any plain text editor. Then, the user can open the document again in Microsoft Word and save as an unprotected DOC.
 
+**Try online**
+
+You can try this functionality with our [Free online documents unlocker](https://products.aspose.app/words/unlock).
+
 {{% /alert %}} 
 
 ## **Protecting a Document**

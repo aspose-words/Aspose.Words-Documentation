@@ -20,6 +20,14 @@ In this sample we are going to look at some simple methods for both gathering in
 - Extract all the comments from a document or only the ones made by a particular author.
 - Remove all the comments from a document or only from a particular author.
 
+{{% alert color="primary" %}}
+
+**Try online**
+
+You can try this functionality with our [Free online remove annotations](https://products.aspose.app/words/annotation).
+
+{{% /alert %}}
+
 ### **Solution**
 
 To illustrate how to extract and remove comments from a document, we will go through the following steps:

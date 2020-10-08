@@ -17,6 +17,14 @@ To split a document into smaller files using Aspose.Words, you need to follow t
 
 After you split a document, you will be able to open all the output documents that will start with the required pages, text, etc.
 
+{{% alert color="primary" %}}
+
+**Try online**
+
+You can try this functionality with our [Free online document splitter](https://products.aspose.app/words/splitter).
+
+{{% /alert %}}
+
 ## **Split a Document Using Different Criteria**
 
 Aspose.Words allows you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.

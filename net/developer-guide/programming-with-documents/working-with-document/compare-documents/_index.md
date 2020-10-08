@@ -7,11 +7,13 @@ url: /net/compare-documents/
 
 You can use Document.Compare method to compare two documents to see the difference between them. This method mimics Microsoft Word's Compare feature and produces document difference as a number of edit and format revisions. The main idea is that if we reject all revisions then we get a document which is equal to the original document. On the contrary, if we accept all revisions then we get the final (comparison target) document.
 
-**Try Online**
+{{% alert color="primary" %}}
 
-You can try this functionality and view the results online at this link:
+**Try online**
 
-<https://products.aspose.app/words/comparison>
+You can try this functionality with our [Document comparison online](https://products.aspose.app/words/comparison).
+
+{{% /alert %}}
 
 ## **Limitations**
 

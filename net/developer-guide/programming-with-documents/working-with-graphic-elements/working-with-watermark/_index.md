@@ -7,6 +7,14 @@ url: /net/working-with-watermark/
 
 This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://apireference.aspose.com/words/net/aspose.words/watermark) class.
 
+{{% alert color="primary" %}}
+
+**Try online**
+
+You can try this functionality with our [Free online document watermark](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
+
 ## **How to Add a Watermark to a Document**
 
 In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [watermark](https://apireference.aspose.com/words/net/aspose.words/watermark) class to add or remove watermark in documents. Aspose.Words provides [WatermarkType ](https://apireference.aspose.com/words/net/aspose.words/watermarktype)enumeration defining three possible types of watermarks (Text, Image, and None) to work with. 
