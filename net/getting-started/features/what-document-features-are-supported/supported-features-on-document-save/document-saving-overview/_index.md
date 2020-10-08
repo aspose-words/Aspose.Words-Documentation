@@ -17,6 +17,6 @@ There are also many save options available to control how documents are exported
 
 Aspose.Words can convert a document of any size as long as there is sufficient working memory to complete the operation. Additionally, if available memory is low, you can choose a temporary folder during export to DOC or DOCX format. This allows resources during conversion to be stored temporarily to disk. These files are removed after conversion is complete. This allows large documents to be saved even when there is not much memory available.
 
-The following pages describe how each Microsoft Word feature is handled and the current level of support during saving of a document to the chosen format. 
+The following pages describe how each Microsoft Word feature is handled and the current level of support during the saving of a document to the chosen format. 
 
 {{% /alert %}}

@@ -11,7 +11,7 @@ The following tables provide implementation details about how Aspose.Words saves
 
 {{% /alert %}} 
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on DOC Export](/words/net/annotation-features-supported-on-doc-export)
 - [Custom Markup Features Supported on DOC Export](/words/net/custom-markup-features-supported-on-doc-export)

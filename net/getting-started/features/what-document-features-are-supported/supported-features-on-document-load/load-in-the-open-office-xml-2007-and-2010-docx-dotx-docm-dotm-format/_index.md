@@ -5,7 +5,7 @@ weight: 60
 url: /net/load-in-the-open-office-xml-2007-and-2010-docx-dotx-docm-dotm-format/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on DOCX Import](/words/net/annotation-features-supported-on-docx-import)
 - [Custom Markup Features Supported on DOCX Import](/words/net/custom-markup-features-supported-on-docx-import)

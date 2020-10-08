@@ -17,7 +17,7 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 
 {{% /alert %}} 
 
-##### **Field Codes**
+## **Field Codes**
 
 See the following link in the documentation for further information:
 
@@ -27,7 +27,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
 
-##### **Date and Time**
+## **Date and Time**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -38,7 +38,7 @@ See the following link in the documentation for further information:
 |SaveDate |Yes | | |
 |Time |Yes | | |
 
-##### **Document Automation**
+## **Document Automation**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -49,7 +49,7 @@ See the following link in the documentation for further information:
 |MacroButton |Yes | | |
 |Print |N/A | | |
 
-##### **Document Information**
+## **Document Information**
 
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
 
@@ -70,7 +70,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Template |Yes | | |
 |Title |Yes | | |
 
-##### **Equations and Formulas**
+## **Equations and Formulas**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -79,7 +79,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Eq |Planned |Some simple equation fields may render correctly. Others may appear distorted in the rendered output. | |
 |Symbol |Yes | | |
 
-##### **Form Fields**
+## **Form Fields**
 
 There is a save option to control if form fields are exported as proper form fields in PDF output or as plain text.
 
@@ -104,7 +104,7 @@ See the following link in the documentation for further information:
 |Check Box Size |Yes | | |
 |Text Input Type |N/A | | |
 
-##### **Index and Tables**
+## **Index and Tables**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -116,7 +116,7 @@ See the following link in the documentation for further information:
 |TOC (Table of Contents) |Yes |The \h switch on TOC can be used to export the TOC as hyperlinked to PDF. | |
 |XE |N/A | | |
 
-##### **Links and References**
+## **Links and References**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -128,13 +128,13 @@ See the following link in the documentation for further information:
 |IncludePicture |Yes | | |
 |IncludeText |Yes | | |
 |Link |Yes | | |
-|NoteRef |Yes |Exported as clickable link. | |
+|NoteRef |Yes |Exported as a clickable link. | |
 |PageRef |Yes |Hyperlinked PageRef field is exported as plain text and not as a clickable hyperlink in output PDF. | |
 |Quote |Yes | | |
-|Ref |Yes |Exported as clickable link. | |
+|Ref |Yes |Exported as a clickable link. | |
 |StyleRef |Yes | | |
 
-##### **Mail Merge**
+## **Mail Merge**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -153,7 +153,7 @@ See the following link in the documentation for further information:
 |Set |Yes | | |
 |SkipIf |Yes | | |
 
-##### **Numbering**
+## **Numbering**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -168,7 +168,7 @@ See the following link in the documentation for further information:
 |SectionPages |Yes | | |
 |Seq |Yes | | |
 
-##### **User Information**
+## **User Information**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -176,7 +176,7 @@ See the following link in the documentation for further information:
 |UserInitials |Yes | | |
 |UserName |Yes | | |
 
-##### **Hyperlinks**
+## **Hyperlinks**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -188,7 +188,7 @@ See the following link in the documentation for further information:
 |Screen Tip |N/A | | |
 |Target Frame |N/A | | |
 
-##### **Formatting Switches**
+## **Formatting Switches**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

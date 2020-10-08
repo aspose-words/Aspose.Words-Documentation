@@ -11,7 +11,7 @@ The following tables provide implementation details about how Aspose.Words print
 
 {{% /alert %}} 
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on Print Export](/words/net/annotation-features-supported-on-print-export/)
 - [Custom Markup Features Supported on Print Export](/words/net/custom-markup-features-supported-on-print-export/)

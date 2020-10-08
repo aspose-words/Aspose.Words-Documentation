@@ -5,7 +5,7 @@ weight: 10
 url: /net/feature-overview/
 ---
 
-The tables below summarize and compare availability of features of Aspose.Words for .NET and provide links to detailed feature descriptions.
+The tables below summarize and compare the availability of features of Aspose.Words for .NET and provide links to detailed feature descriptions.
 
 ## **Supported Platforms**
 
@@ -86,7 +86,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 
 ## **Document Formatting Features**
 
-Aspose.Words provides detailed programmatic access to formatting properties of all document elements.
+Aspose.Words provides detailed programmatic access to the formatting properties of all document elements.
 
 |Feature|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- |

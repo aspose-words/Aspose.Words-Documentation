@@ -25,7 +25,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 {{% /alert %}} 
 
-##### **Numbering Definition**
+## **Numbering Definition**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -33,7 +33,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Multi-Level|Yes|Multiple level lists are always outputted as ordinary paragraphs.| |
 |Name|Planned|Can be exported as a List style name.| |
 
-##### **Numbering Level**
+## **Numbering Level**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -41,7 +41,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Picture Bullet|Yes|Lists with picture bullets are always outputted as native lists. Other possibilities will be considered to keep formatting more precisely.| |
 |Restart Level|Yes|Non-native list items can have a custom label.| |
 |Bullet Character|Yes|Only some bullets are supported natively. For others, a list item is exported as spans and style formatting.| |
-|Label/Format String|Yes|The only label itself is output. If a label cannot be represented by native HTML list then all the list is exported as ordinary paragraphs. Label formatting string is not output.| |
+|Label/Format String|Yes|The only label itself is output. If a label cannot be represented by a native HTML list then all the list is exported as ordinary paragraphs. The label formatting string is not output.| |
 |Number Format|Yes|Only some number formats are supported natively. For others, a list item is exported as a normal span and direct formatting.| |
 |Paragraph Properties|Yes|Output as embedded or as inline style attributes.| |
 |Font Properties|Yes|Output as inline styles.| |

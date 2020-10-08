@@ -11,7 +11,7 @@ The following tables provide details about how Aspose.Words saves document in th
 
 {{% /alert %}} 
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on EPUB Export](/words/net/annotation-features-supported-on-epub-export/)
 - [Custom Markup Features Supported on EPUB Export](/words/net/custom-markup-features-supported-on-epub-export/)

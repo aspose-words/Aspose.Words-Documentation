@@ -22,14 +22,14 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-##### **Characters**
+## **Characters**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Western Languages |Yes | | |
 |East European Languages |Yes | | |
 |East Asian Languages |Yes | | |
-|Right to Left Languages |Yes |Exported as dir="rtl" attribute on span. | |
+|Right to Left Languages |Yes |Exported as dir="rtl" attribute on the span. | |
 |Carriage Return (not a Paragraph Break) |Yes |Exported as &lt;br&gt; element. | |
 |Non Breaking Space |Yes |Exported as " " entity code. | |
 |Non Breaking Hyphen |Yes |Exported to HTML as entity code "". | |
@@ -37,7 +37,7 @@ See the following links in the documentation for further information:
 |Symbol |Yes |Symbols are exported as encoded characters. <br><br>Depending on the encoding used when saving the document, such symbols may not appear correctly in the output HTML. | |
 |Tab |Yes |There is no equivalent of a tab in HTML documents. <br><br>During conversion to HTML a tab is exported as a series of non-breaking spaces of constant length. Improvement in length calculation is planned. | |
 
-##### **Breaks**
+## **Breaks**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -46,20 +46,20 @@ See the following links in the documentation for further information:
 |Page Break |Yes |Exported as a &lt;br style="page-break-before:always; clear:both"&gt; | |
 |Column Break |Yes |Exported as &lt;br style="mso-column-break-before:always; clear:both" &gt; <br><br>There are plans to make it optional since it uses a Microsoft Office specific attribute. | |
 
-##### **General Formatting**
+## **General Formatting**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Character Style |Yes |There is an option to control how character style is exported as inline CSS (style) only, or a mix of inline and embedded or linked CSS style sheet (class). <br><br>Direct formatting on the run (from Font) is exported as inline CSS (using style attribute). Style properties (the style applied in Font.Style) are exported as CSS class styles when the appropriate save option is set and referenced using an embedded or external style sheet (using the class attribute). If inline styles only are exported then all formatting appears on the style attribute. <br><br>Note that to properly round-trip styles back to a word document format, an embedded or external style sheet must be used. On HTML import classes defined in the stylesheets are used to create styles. <br><br>If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). <br><br>There are plans to provide a save option to save a document to HTML as pure HTML without CSS styles. |- **HtmlSaveOptions.CssStyleSheetType**|
 |Color |Yes |Exported as color on style attribute. | |
 |East Asian Typography |Planned |Some research is needed. | |
-|Highlight Color |Yes |Exported as background-color on span. | |
+|Highlight Color |Yes |Exported as background-color on the span. | |
 |Language |Yes |Exported as lang attribute on &lt;span&gt;. |- [HtmlSaveOptions.ExportLanguageInformation](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportlanguageinformation)|
-|Do not Check Spelling or Grammar |Planned | | |
+|Do Not Check Spelling or Grammar |Planned | | |
 |Border |Yes |Exported as border-style, border-width, border-color on &lt;span&gt;. <br><br>Normally each side is exported as separate attributes even though all sides of the border of a run must be the same. | |
 |Shading |Yes |Only solid fill is supported, both background and foreground. Others are converted to the nearest color. <br><br>Exported as background-color on &lt;span&gt;. | |
 
-##### **Font**
+## **Font**
 
 Bold and italics is exported as font-weight:bold and font-style:italics on style attribute.
 
@@ -79,9 +79,9 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Font |Yes | | |
 
-##### **Underline**
+## **Underline**
 
-Only single line underline type is supported in native HTML. Exported as "text-decoration:underline". Underline color is not exported.
+Only a single line underline type is supported in native HTML. Exported as "text-decoration:underline". Underline color is not exported.
 
 In CSS 3 different underline types are proposed and may be implemented in the future.
 
@@ -94,7 +94,7 @@ There is plans to make an option to export underline as simple &lt;u&gt; tag.
 |Underline Type |N/A | | |
 |Underline Color |Yes | | |
 
-##### **Text Effects**
+## **Text Effects**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -112,7 +112,7 @@ There is plans to make an option to export underline as simple &lt;u&gt; tag.
 |Special Hidden |Planned |Special hidden and Web hidden can be made aliases of ordinary Hidden. | |
 |Web Hidden |Planned | | |
 
-##### **Character Spacing**
+## **Character Spacing**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

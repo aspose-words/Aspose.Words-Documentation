@@ -7,11 +7,11 @@ url: /net/save-in-the-adobe-portable-document-pdf-format/
 
 {{% alert color="primary" %}} 
 
-The following tables provide implementation details about how Aspose.Words saves a document in the PDF format.
+The following tables provide implementation details about how Aspose.Words saves a document in PDF format.
 
 {{% /alert %}} 
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on PDF Export](/words/net/annotation-features-supported-on-pdf-export/)
 - [Custom Markup Features Supported on PDF Export](/words/net/custom-markup-features-supported-on-pdf-export/)

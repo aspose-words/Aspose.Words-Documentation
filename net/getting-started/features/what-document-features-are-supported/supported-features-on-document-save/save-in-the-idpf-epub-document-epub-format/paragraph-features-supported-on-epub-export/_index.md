@@ -15,7 +15,7 @@ See the following link in the documentation for further information:
 
 {{% /alert %}} 
 
-##### **General Formatting**
+## **General Formatting**
 
 There is a setting to export paragraph styles and formatting as inline CSS (style) only, or as a mix of inline and embedded or linked CSS style sheet (class). 
 
@@ -27,14 +27,14 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 | :- | :- | :- | :- |
 |Paragraph Style |Yes |Note that to properly round-trip styles back to a word document format, an embedded or external style sheet must be used. On HTML import classes defined in the stylesheets are used to create styles. If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). <br><br>There are plans to provide a save option to save a document to HTML as pure HTML without CSS styles. |- **HtmlSaveOptions.CssStyleSheetType**|
 |Alignment |Yes |Exported as "text-align" paragraph style attribute. <br><br>There is plans to introduce export of "&lt;center&gt; tags as well along with an option to define which type is used on export. | |
-|Right to Left Paragraph |Yes |Exported as dir="rtl" attribute on paragraph. | |
+|Right to Left Paragraph |Yes |Exported as dir="rtl" attribute on the paragraph. | |
 |Bullets and Numbers |Yes |There is a save option to control how lists are exported to HTML. | |
 |Outline Level |Planned | | |
 |Run Properties for the Paragraph Mark |Planned |Can be implemented with Microsoft Office specific techniques. | |
 |Suppress Line Numbers |Planned | | |
 |Suppress Hyphenation |Planned | | |
 
-##### **Indents**
+## **Indents**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -45,17 +45,17 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Mirror Indents |Yes |Exported as a combination of "margin-left" and "text-indent" on style. | |
 |Automatically Adjust Right Indent |N/A | | |
 
-##### **Spacing**
+## **Spacing**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Space Before |Yes |Exported as "margin-top" of style attribute. | |
-|Space After |Yes |Exported as "margin-bottom" of style attribute. | |
-|Space Auto |Yes |Paragraph with auto spacing is exported as margin-top and margin-bottom with explict spacing based on document defaults. | |
+|Space Before |Yes |Exported as "margin-top" of the style attribute. | |
+|Space After |Yes |Exported as "margin-bottom" of the style attribute. | |
+|Space Auto |Yes |Paragraph with auto spacing is exported as margin-top and margin-bottom with explicit spacing based on document defaults. | |
 |Line Spacing |Yes |Exported as "line-height" with percent. | |
 |No Space between Conforming Paragraphs |Planned | | |
 
-##### **Keeps and Breaks**
+## **Keeps and Breaks**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -64,19 +64,19 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Keep Lines Together |Yes |Exported as style attribute with "page-break-inside:avoid". | |
 |Page Break Before |Yes |Exported as "page-break-before" on style attribute. | |
 
-##### **Text Frames**
+## **Text Frames**
 
-Text frames are exported as paragraphs surronded by a border.
+Text frames are exported as paragraphs surrounded by a border.
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Text Frames |Yes | | |
 
-##### **Tab Stops**
+## **Tab Stops**
 
 Tab stops are not natively available in HTML. Aspose.Words converts tab stops into a fixed set of non-breaking spaces.
 
-Will be improved later by simulating the correct width. Consider using a borderless table to lay out information instead of tab stops when export to HTML is required.
+Will be improved later by simulating the correct width. Consider using a borderless table to layout information instead of tab stops when export to HTML is required.
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -85,17 +85,17 @@ Will be improved later by simulating the correct width. Consider using a borderl
 |Alignment: Left, Center, Right, Decimal, Bar |Planned | | |
 |Leader |Planned |Leader characters is currently not exported to HTML. | |
 
-##### **Drop Caps**
+## **Drop Caps**
 
-Drop cap is a frame which is exported to HTML as a paragraph with borders.
+A drop cap is a frame which is exported to HTML as a paragraph with borders.
 
-Visually the drop cap looks correct but the main text is moved to the next paragraph. This will be improved when support of text frames is improved.
+Visually the drop cap looks correct but the main text is moved to the next paragraph. This will be improved when the support of text frames is improved.
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
 
-##### **Borders**
+## **Borders**
 
 Borders are exported on style attribute as border-xxx-style and border-xxx-width etc.
 
@@ -111,13 +111,13 @@ Normally each side is exported as separate attributes even if all borders of the
 |Width |Yes | | |
 |Distance from Text |Yes |Exported as "padding-xxx". | |
 
-##### **Shading**
+## **Shading**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
 
-##### **Asian Typography**
+## **Asian Typography**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

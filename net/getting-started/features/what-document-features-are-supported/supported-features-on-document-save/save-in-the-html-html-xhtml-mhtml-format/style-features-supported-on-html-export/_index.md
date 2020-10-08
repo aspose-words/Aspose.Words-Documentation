@@ -28,7 +28,7 @@ You can check the quality of HTML Export and view the results online at this lin
 {{% /alert %}} 
 
 
-##### **Style Type**
+## **Style Type**
 
 Style type itself is not exported to CSS but it is implied by the specific attributes exported to that style.
 
@@ -43,7 +43,7 @@ Character styles often are saved with .span prefix.
 |List Style|Planned| | |
 |Table Style|Planned| | |
 
-##### **General**
+## **General**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -57,14 +57,14 @@ Character styles often are saved with .span prefix.
 |Run Properties|Yes| | |
 |Bullets and Numbering|Yes|Output as inline styles.| |
 
-##### **Document Defaults**
+## **Document Defaults**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Properties|N/A| | |
 |Run Properties|N/A| | |
 
-##### **Table Style**
+## **Table Style**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

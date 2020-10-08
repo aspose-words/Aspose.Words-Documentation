@@ -5,7 +5,7 @@ weight: 70
 url: /net/load-in-the-opendocument-text-odt-ott-format/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on OpenDocument Import](/words/net/annotation-features-supported-on-opendocument-import)
 - [Custom Markup Features Supported on OpenDocument Import](/words/net/custom-markup-features-supported-on-opendocument-import)
