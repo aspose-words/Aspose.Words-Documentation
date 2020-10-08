@@ -10,13 +10,9 @@ url: /net/drawing-object-features-supported-on-docx-export/
 [Jump to this location in the import section](/words/net/drawing-object-features-supported-on-docx-import/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **Images**
 
-=======
-## **Images**
->>>>>>> Stashed changes
 All images are exported as the same format that they were originally loaded as.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -33,7 +29,7 @@ All images are exported as the same format that they were originally loaded as.
 |Cropping |Yes | | |
 |Alternative text |Yes | | |
 
-## **Image Recoloring**
+##### **Image Recoloring**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -41,7 +37,7 @@ All images are exported as the same format that they were originally loaded as.
 |Contrast |Yes | | |
 |Recolor |Yes | | |
 
-## **Textboxes**
+##### **Textboxes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -52,12 +48,8 @@ All images are exported as the same format that they were originally loaded as.
 |Resize To Fit Text |Yes | | |
 |Text in Other Shapes |Yes | | |
 
-<<<<<<< Updated upstream
 ##### **OLE Objects**
 
-=======
-## **OLE Objects**
->>>>>>> Stashed changes
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
 OLE objects are fully preserved when converting within different Word document formats.
@@ -73,31 +65,27 @@ OLE objects are fully preserved when converting within different Word document f
 |Ole Object Picture |Yes | | |
 |Source Range |Yes | | |
 
-<<<<<<< Updated upstream
 ##### **ActiveX Controls**
 
-=======
-## **ActiveX Controls**
->>>>>>> Stashed changes
 ActiveX is supported in OOXML, DOC, RTF and WordML documents. ActiveX Controls are preserved during round-trip to the same format.
 
 When exporting to a different format from the original document the following rules apply:
 
-- The "in-built" common ActiveX Word controls e.g checkbox, textbox, Listbox etc are fully preserved even when exporting to a different format.
+- The "in-built" common ActiveX Word controls e.g checkbox, textbox, listbox etc are fully preserved even when exporting to a different format.
 - ActiveX imported from document formats DOC, RTF, WordML should be properly retained during conversion to other formats.
 - When loading ActiveX from OOXML documents e.g DOCX, there are two main types of ActiveX.
 
 The first type is the legacy format which is found in the other formats such as DOC, RTF etc. This is freely converted to the other formats correctly.
 
-The second type is a new format of ActiveX found in OOXML documents such as the DOCX format. This format is not directly supported in the other formats so during conversion to those formats these types of ActiveX are converted to a plain image. When round-tripping back to an OOXML format these ActiveX are properly retained.
+The second type is a new format of ActiveX found in OOXML documents such as the DOCX format. This format is not diectly supported in the other formats so during conversion to those formats these types of ActiveX are converted to a plain image. When round-tripping back to an OOXML format these ActiveX are properly retained.
 
-Implementing the conversion of this new ActiveX format to the legacy format is very hard and is not yet supported. It involves interaction with the ActiveX object and perhaps even the program that embeds it. This makes it very hard, if not impossible to perform the conversion. We will consider looking into this sometime in the future.
+Implementing the conversion of this new ActiveX format to the legacy format is very hard and is not yet supported. It involves interaction with the ActiveX object and perhaps even the program that embeds it. This makes it very hard, if not impossible to peform the conversion. We will consider looking into this sometime in the future.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Persistent Properties Storage |Yes | | |
 
-## **Shapes**
+##### **Shapes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -118,12 +106,8 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | | |
 |Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
-<<<<<<< Updated upstream
 
 ##### **WordArt**
-=======
-## **WordArt**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -137,7 +121,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Align and Justify Text |Yes | | |
 |WordArt Shape |Yes | | |
 
-## **Horizontal Line Object**
+##### **Horizontal Line Object**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -148,7 +132,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Hyperlink |Yes | | |
 |Image |Yes | | |
 
-## **Position**
+##### **Position**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -169,7 +153,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Allow Overlap |Yes | | |
 |Layout in Table Cell |Yes | | |
 
-## **Size**
+##### **Size**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -178,7 +162,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Relative Size |Yes | | |
 |Lock Aspect Ratio |Yes | | |
 
-## **Fill**
+##### **Fill**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -188,7 +172,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Pattern Fill |Yes | | |
 |Picture or Texture Fill |Yes | | |
 
-## **Line Style**
+##### **Line Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -201,13 +185,13 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Join Type |Yes | | |
 |Arrow Settings |Yes | | |
 
-## **Shadow**
+##### **Shadow**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shadow |Yes | | |
 
-## **3D Properties**
+##### **3D Properties**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

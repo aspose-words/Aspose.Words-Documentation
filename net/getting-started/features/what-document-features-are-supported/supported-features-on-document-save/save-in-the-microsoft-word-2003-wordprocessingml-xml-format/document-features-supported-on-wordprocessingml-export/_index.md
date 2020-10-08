@@ -15,12 +15,8 @@ See the following links in the documentation for further information:
 [Jump to this location in the import section](/words/net/document-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **General**
-=======
-## **General**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -45,35 +41,23 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes | | |
 |Thumbnail |Planned | | |
-<<<<<<< Updated upstream
 
 ##### **Embedded Fonts**
-=======
-## **Embedded Fonts**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embedding Fonts |N/A | | |
 |Embed Only Non-Standard Fonts |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Bibliography**
-=======
-## **Bibliography**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Bibliography |Yes | | |
 |Sources/Citations |Yes | | |
 |Citation Style |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Protection**
-=======
-## **Protection**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -86,12 +70,8 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | | |
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Settings**
-=======
-## **Settings**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

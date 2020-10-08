@@ -7,20 +7,16 @@ url: /net/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip
 
 {{% alert color="primary" %}} 
 
-Please find below a list of custom styles that Aspose.Words uses to save extra information in output HTML and usually this information is used for Aspose.Words-HTML-Aspose.Words roundtrip. The name of such Styles are prefixed with -aw. All -aw properties are used to preserve some important information which can't be saved by other means when the document is saved to HTML and back to other formats.
+Please find below a list of custom styles that Aspose.Words uses to save extra information in output HTML and usually this information is used for Aspose.Words-HTML-Aspose.Words roundtrip. The name of such Styles are prefixed with -aw. All -aw properties are used to preserve some important information which can't be saved by other means when document is saved to HTML and back to other formats.
 
 {{% /alert %}} 
 
 ## **Comment’s Content**
-<<<<<<< Updated upstream
 
 Comment's content is exported as div container. -aw-comment-author, -aw-comment-datetime and -aw-comment-initial CSS properties can be applied to this div.
-=======
-Comment's content is exported as a div container. -aw-comment-author, -aw-comment-datetime and -aw-comment-initial CSS properties can be applied to this div.
->>>>>>> Stashed changes
 
-**-aw-comment-author** stores the author's name for the comment. Corresponds to Aspose.Words.Comment.Author property.
-**-aw-comment-datetime** stores the date and time the comment was made. Corresponds to Aspose.Words.Comment.DateTime property.
+**-aw-comment-author** stores author name for the comment. Corresponds to Aspose.Words.Comment.Author property.
+**-aw-comment-datetime** stores date and time the comment was made. Corresponds to Aspose.Words.Comment.DateTime property.
 **-aw-comment-initial** stores initials of the user associated with the comment. Corresponds to Aspose.Words.Comment.Initial property.
 
 Example:
@@ -34,12 +30,8 @@ Example:
 {{< /highlight >}}
 
 ## **Comment**
-<<<<<<< Updated upstream
 
 In simple case when comment is located within one paragraph, in output HTML this comment's boundaries are marked with anchor tag. In the following example comment's boundaries are marked as bookmark with “_cmntref1” name:
-=======
-In simple cases when a comment is located within one paragraph, in output HTML this comment's boundaries are marked with an anchor tag. In the following example comment's boundaries are marked as a bookmark with “_cmntref1” name:
->>>>>>> Stashed changes
 
 {{< highlight csharp >}}
 <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
@@ -47,12 +39,12 @@ In simple cases when a comment is located within one paragraph, in output HTML t
 </p>
 {{< /highlight >}}
 
-In more complex cases when a comment is overlapped with other comment or comment’s boundaries are spread over multiple paragraphs additional span element is used to preserve the comment’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-comment-start and –aw-comment-end CSS properties can be applied to this span.
+In more complex case when comment is overlapped with other comment or comment’s boundaries are spread over multiple paragraphs additional span element is used to preserve comment’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-comment-start and –aw-comment-end CSS properties can be applied to this span.
 
-**-aw-comment-start** stores the name of the comment which it starts.
-**-aw-comment-end** stores the name of the comment which it ends.
+**-aw-comment-start** stores name of comment which it starts.
+**-aw-comment-end** stores name of comment which it ends.
 
-In the following example first comment’s boundaries are marked as a bookmark with “_cmntref1” name and span which –aw-comment-end property’s value is set to “_cmntref1”.
+In the following example first comment’s boundaries are marked as bookmark with “_cmntref1” name and span which –aw-comment-end property’s value is set to “_cmntref1”.
 
 {{< highlight csharp >}}
 <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
@@ -67,10 +59,10 @@ In the following example first comment’s boundaries are marked as a bookmark w
 
 Footnote (endnote) is exported as div. –aw-footnote-isauto CSS property can be applied to this div.
 
-**-aw-footnote-isauto** stores a value that specifies whether this is an auto-numbered footnote (endnote) or footnote (endnote) with a user-defined custom reference mark.
+**-aw-footnote-isauto** stores a value that specifies whether this is an auto-numbered footnote (endnote) or footnote (endnote) with user defined custom reference mark.
 
-- If the value of this property is “1” than footnote (endnote) is auto-numbered.
-- If the value of this property is “0” than footnote (endnote) has a user-defined custom reference mark.
+- If value of this property is “1” than footnote (endnote) is auto-numbered.
+- If value of this property is “0” than footnote (endnote) has user defined custom reference mark.
 
 Example:
 
@@ -97,8 +89,8 @@ All footnotes (endnotes) in a document share formatting. When exported to HTML f
 
 **-aw-footnote-type** stores value indicating whether this is footnote or endnote.
 
-- If the  value of this property is “0” than this is a footnote.
-- If the value of this property is “1” than this is endnote.
+- If value of this property is “0” than this is footnote.
+- If value of this property is “1” than this is endnote.
 
 Example:
 
@@ -118,20 +110,16 @@ Example:
 {{< /highlight >}}
 
 ## **Header (Footer)**
-<<<<<<< Updated upstream
 
 Header (footer) is exported as div container. –aw-different-first-page and –aw-headerfooter-type CSS properties can be applied to this div.
-=======
-The header (footer) is exported as a div container. –aw-different-first-page and –aw-headerfooter-type CSS properties can be applied to this div.
->>>>>>> Stashed changes
 
-**-aw-headerfooter-type** stores value indicating the type of header (footer). The value of this property partially correspond to Aspose.Words.HeaderFooterType enum (other values are meaningless in the HTML context and are not used). Corresponds to Aspose.Words.HeaderFooter.HeaderFooterType property.
+**-aw-headerfooter-type** stores value indicating type of header (footer). This propertie’s values partially correspond to Aspose.Words.HeaderFooterType enum (other values are meaningless in HTML context and are not used). Corresponds to Aspose.Words.HeaderFooter.HeaderFooterType property.
 
-- If the value of this property is “header-primary” than this is the primary header.
-- If the value of this property is “header-first” than this is the header for the first page of a section.
-- If the value of this property is “footer-primary” than this is the primary footer.
-- If the value of this property is “footer-first” than this is the footer for the first page of a section.
-- If the value of this property is “linked” than this header (footer) is linked to the previous section’s header (footer).
+- If value of this property is “header-primary” than this is primary header.
+- If value of this property is “header-first” than this is header for the first page of a section.
+- If value of this property is “footer-primary” than this is primary footer.
+- If value of this property is “footer-first” than this is footer for the first page of a section.
+- If value of this property is “linked” than this header (footer) is linked to the previous section’s header (footer).
 
 **-aw-different-first-page** stores value indicating whether different header (footer) is used on the first page. One possible value for this property is “true”. Corresponds to Aspose.Words.PageSetup.DifferentFirstPageHeaderFooter property of Aspose.Words.Section.PageSetup object.
 
@@ -146,12 +134,8 @@ Example:
 {{< /highlight >}}
 
 ## **Bookmark**
-<<<<<<< Updated upstream
 
 In simple case when bookmark is located within one paragraph, in output HTML this bookmark's boundaries are marked with anchor tag. In the following example bookmark's boundaries are marked as bookmark with “bm1” name:
-=======
-In a simple case when a bookmark is located within one paragraph, in output HTML this bookmark's boundaries are marked with the anchor tag. In the following example bookmark's boundaries are marked as a bookmark with “bm1” name:
->>>>>>> Stashed changes
 
 {{< highlight csharp >}}
 <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
@@ -159,12 +143,12 @@ In a simple case when a bookmark is located within one paragraph, in output HTML
 </p>
 {{< /highlight >}}
 
-In a more complex case when a bookmark is overlapped with other bookmarks or bookmark’s boundaries are spread over multiple paragraphs additional span element is used to preserve bookmark’s boundaries (HTML does not allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-bookmark-start and –aw-bookmark-end CSS properties can be applied to this span.
+In more complex case when bookmark is overlapped with other bookmark or bookmark’s boundaries are spread over multiple paragraphs additional span element is used to preserve bookmark’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-bookmark-start and –aw-bookmark-end CSS properties can be applied to this span.
 
-**-aw-bookmark-start** stores the name of the bookmark which it starts. Corresponds to Aspose.Words.Bookmark.Name property.
-**-aw-bookmark-end** stores the name of the bookmark which it ends. Corresponds to Aspose.Words.Bookmark.Name property.
+**-aw-bookmark-start** stores name of bookmark which it starts. Corresponds to Aspose.Words.Bookmark.Name property.
+**-aw-bookmark-end** stores name of bookmark which it ends. Corresponds to Aspose.Words.Bookmark.Name property.
 
-In the following example first bookmark’s boundaries are marked as a bookmark with “bm1” name and span which –aw-bookmark-end property’s value is set to “bm1”.
+In the following example first bookmark’s boundaries are marked as bookmark with “bm1” name and span which –aw-bookmark-end property’s value is set to “bm1”.
 
 {{< highlight csharp >}}
 <p style="margin: 0pt 0pt 8pt; line-height: 108%; font-size: 11pt">
@@ -176,18 +160,14 @@ In the following example first bookmark’s boundaries are marked as a bookmark 
 {{< /highlight >}}
 
 ## **Tab Stop**
-<<<<<<< Updated upstream
 
 Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader and –aw-tabstop-pos CSS properties can be applied to this span.
-=======
-A tab stop is exported as a span element. –aw-tabstop-align, -aw-tabstop-leader and –aw-tabstop-pos CSS properties can be applied to this span.
->>>>>>> Stashed changes
 
 **-aw-tabstop-align** stores value which specifies the alignment/type of a tab stop. Possible values are “left”, “center”, “right” and partially correspond to values of Aspose.Words.TabAlignment enum (other tab stop types can’t be emulated by means of HTML and are exported as span elements with "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\x20" content). Property corresponds to Aspose.Words.TabStop.Alignment property of Aspose.Words.Paragraph.ParagraphFormat.TabStops collection object.
 
 **-aw-tabstop-pos** stores position of the tab stop. Corresponds to Aspose.Words.TabStop.Position property of Corresponds to Aspose.Words.Paragraph.ParagraphFormat.TabStops collection object.
 
-**-aw-tabstop-leader** stores a value which specifies the type of the leader line displayed under the tab character. Possible values are “none”, “dots”, “dashes”, “line”, “heavy”, “middledot” and correspond to values of Aspose.Words.TabLeader enum. Property corresponds to Aspose.Words.TabStop.Leader property of Aspose.Words.Paragraph.ParagraphFormat.TabStops collection object.
+**-aw-tabstop-leader** stores stores value which specifies the type of the leader line displayed under the tab character. Possible values are “none”, “dots”, “dashes”, “line”, “heavy”, “middledot” and correspond to values of Aspose.Words.TabLeader enum. Property corresponds to Aspose.Words.TabStop.Leader property of Aspose.Words.Paragraph.ParagraphFormat.TabStops collection object.
 
 Example:
 
@@ -215,18 +195,14 @@ Example:
 {{< /highlight >}}
 
 ## **Shape**
-<<<<<<< Updated upstream
 
 Shape is exported as img element. –aw-wrap-type, –aw-left-pos, -aw-top-pos, -aw-rel-hpos and –aw-rel-vpos CSS properties can be applied to this img element.
-=======
-The shape is exported as an img element. –aw-wrap-type, –aw-left-pos, -aw-top-pos, -aw-rel-hpos and –aw-rel-vpos CSS properties can be applied to this img element.
->>>>>>> Stashed changes
 
 **-aw-wrap-type** stores value which specifies how text is wrapped around a shape. Possible values are “none”, “inline”, “topbottom”, “square”, “tight”, “through” and correspond to Aspose.Words.Drawing.WrapType enum. Property corresponds to Aspose.Words.Drawing.ShapeBase.WrapType property.
 
-**-aw-left-pos** stores the position of the left edge of the containing block of the shape. Corresponds to Aspose.Words.Drawing.ShapeBase.Left property.
+**-aw-left-pos** stores position of the left edge of the containing block of the shape. Corresponds to Aspose.Words.Drawing.ShapeBase.Left property.
 
-**-aw-top-pos** stores the position of the top edge of the containing block of the shape. Corresponds to Aspose.Words.Drawing.ShapeBase.Top property.
+**-aw-top-pos** stores position of the top edge of the containing block of the shape. Corresponds to Aspose.Words.Drawing.ShapeBase.Top property.
 
 **-aw-rel-hpos** stores value which specifies to what the horizontal position of a shape or text frame is relative. Possible values are “margin”, “page”, “column”, “character”, “leftmargin”, “rightmargin”, “insidemargin”, “outsidemargin” and correspond to Aspose.Words.Drawing.RelativeHorizontalPosition enum. Property corresponds to Aspose.Words.Drawing.ShapeBase.RelativeHorizontalPosition property.
 
@@ -242,8 +218,8 @@ Example:
 
 Insert (delete) revision is exported as ins (del) element. –aw-revision-author and –aw-revision-datetime CSS properties can be applied to this ins (del) element.
 
-**-aw-revision-author** stores the author's name for the revision.
-**-aw-revision-datetime** stores the date and time the revision was made.
+**-aw-revision-author** stores author name for the revision.
+**-aw-revision-datetime** stores date and time the revision was made.
 
 Example:
 

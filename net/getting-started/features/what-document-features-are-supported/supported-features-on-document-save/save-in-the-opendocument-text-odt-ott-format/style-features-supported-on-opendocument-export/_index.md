@@ -26,12 +26,8 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 {{% /alert %}} 
 
 
-<<<<<<< Updated upstream
 ##### **Style Type**
 
-=======
-## **Style Type**
->>>>>>> Stashed changes
 Note that there may appear to be more styles in the output ODT document than in the original input document. This is expected as all formatting in the ODT format is style based, therefore more styles must be created during export to deal with direct formatting on runs and paragraphs (that are not applied using a style).
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -41,7 +37,7 @@ Note that there may appear to be more styles in the output ODT document than in 
 |List Style|Yes| | |
 |Table Style|N/A| | |
 
-## **General**
+##### **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -55,14 +51,14 @@ Note that there may appear to be more styles in the output ODT document than in 
 |Run Properties|Yes| | |
 |Bullets and Numbering|Yes| | |
 
-## **Document Defaults**
+##### **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties|N/A| | |
 |Run Properties|N/A| | |
 
-## **Table Style**
+##### **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

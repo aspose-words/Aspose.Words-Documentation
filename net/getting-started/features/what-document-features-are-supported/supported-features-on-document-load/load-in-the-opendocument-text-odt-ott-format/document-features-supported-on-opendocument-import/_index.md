@@ -23,12 +23,8 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/document-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **General**
-=======
-## **General**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -42,7 +38,7 @@ See the following links in the documentation for further information:
 |Encryption |Planned |Encrypted documents can be loaded into Aspose.Words as long as the password supplied on load for the document is correct. <br><br>XOR obfuscation is currently unsupported. <br><br>Encrypting a document during save is currently unsupported with the exception when saving in DOC format. <br><br>Encrypted ODT documents may encounter an exception during load. |<p>- [LoadOptions.Password](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/password) </p><p>- [FileFormatInfo.IsEncrypted](https://apireference.aspose.com/words/net/aspose.words/FileFormatInfo/properties/isencrypted)</p>|
 |Font Table |Yes | | |
 |Glossary Document/Quick Parts/Auto Text |N/A | | |
-|Hyphenation |Yes |There is currently no API to access and modify hyphenation settings in a document. |- [ParagraphFormat.SuppressAutoHyphens](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/suppressautohyphens)|
+|Hyphenation |Yes |There is currently no API to access and modify hypenation settings in a document. |- [ParagraphFormat.SuppressAutoHyphens](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/suppressautohyphens)|
 |Key Map Customizations |N/A | | |
 |Mail Merge Recipient Data |N/A | | |
 |Office Math |N/A | | |
@@ -53,35 +49,23 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |N/A | | |
 |Background |N/A | | |
 |Thumbnail |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Embedded Fonts**
-=======
-## **Embedded Fonts**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |N/A | | |
 |Access and Use Embedded Fonts |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Bibliography**
-=======
-## **Bibliography**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Bibliography |Yes |Bibliography content is preserved on import. <br><br>Updating a bibliography is currently unsupported. <br><br>Bibliography text is saved to ODT as normal text. | |
 |Sources/Citations |Yes |Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. <br><br>Bibliography sources are not saved to ODT. | |
 |Citation Style |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Protection**
-=======
-## **Protection**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -94,13 +78,9 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | |- [Section.ProtectedForForms](https://apireference.aspose.com/words/net/aspose.words/section/properties/protectedforforms)|
 |Protection Ranges |N/A | | |
 |Read Only |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Settings**
 
-=======
-## **Settings**
->>>>>>> Stashed changes
 Footnote, Endnote and View settings are imported when loading an ODT format document.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

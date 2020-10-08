@@ -10,25 +10,17 @@ url: /net/section-features-supported-on-flatopc-export/
 [Jump to this location in the import section](/words/net/section-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **Headers and Footers**
-=======
-## **Headers and Footers**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Different First Page |Yes | | |
 |Different Even and Odd Pages |Yes | | |
 |Continue from Previous Section |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Section Break Type**
 
-=======
-## **Section Break Type**
->>>>>>> Stashed changes
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
@@ -41,43 +33,27 @@ See the following links in the documentation for further information:
 |Odd Page |Yes | | |
 |Next Column |Yes | | |
 |Next Page |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Text Columns**
-=======
-## **Text Columns**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Columns |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Page Margins**
-=======
-## **Page Margins**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Page Margins |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Page Numbering**
-=======
-## **Page Numbering**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Number Format |Yes | | |
 |Starting Number |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **General Formatting**
-=======
-## **General Formatting**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -90,22 +66,14 @@ See the following links in the documentation for further information:
 |Text Direction |Yes | | |
 |Vertical Alignment |Yes | | |
 |Asian Document Grid |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Chapter Numbering**
-=======
-## **Chapter Numbering**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Chapter Numbering |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Page Border**
-=======
-## **Page Border**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

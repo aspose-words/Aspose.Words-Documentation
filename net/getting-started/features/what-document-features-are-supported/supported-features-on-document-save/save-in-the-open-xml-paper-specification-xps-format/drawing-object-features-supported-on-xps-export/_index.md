@@ -5,12 +5,8 @@ weight: 40
 url: /net/drawing-object-features-supported-on-xps-export/
 ---
 
-<<<<<<< Updated upstream
 ##### **Images**
 
-=======
-## **Images**
->>>>>>> Stashed changes
 {{% alert color="primary" %}} 
 
 All images are exported as the same format that they were originally loaded as.
@@ -31,7 +27,7 @@ All images are exported as the same format that they were originally loaded as.
 |Cropping |Yes | | |
 |Alternative text |N/A | | |
 
-## **Image Recoloring**
+##### **Image Recoloring**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -39,7 +35,7 @@ All images are exported as the same format that they were originally loaded as.
 |Contrast |Yes | | |
 |Recolor |Yes | | |
 
-## **Textboxes**
+##### **Textboxes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,12 +46,8 @@ All images are exported as the same format that they were originally loaded as.
 |Resize To Fit Text |Yes | | |
 |Text in Other Shapes |Yes | | |
 
-<<<<<<< Updated upstream
 ##### **OLE Objects**
 
-=======
-## **OLE Objects**
->>>>>>> Stashed changes
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
 OLE objects are fully preserved when converting within different Word document formats.
@@ -73,19 +65,15 @@ OLE objects are saved as images.
 |Ole Object Picture |Yes | | |
 |Source Range |N/A | | |
 
-<<<<<<< Updated upstream
 ##### **ActiveX Controls**
 
-=======
-## **ActiveX Controls**
->>>>>>> Stashed changes
 Ouptut as a regular image.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Persistent Properties Storage |N/A | | |
 
-## **Shapes**
+##### **Shapes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -106,12 +94,8 @@ Ouptut as a regular image.
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes |Hyperlink exported when saving to XPS format. | |
 |Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
-<<<<<<< Updated upstream
 
 ##### **WordArt**
-=======
-## **WordArt**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -125,7 +109,7 @@ Ouptut as a regular image.
 |Align and Justify Text |Planned | | |
 |WordArt Shape |Yes |Only some shapes are supported. | |
 
-## **Horizontal Line Object**
+##### **Horizontal Line Object**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -136,12 +120,12 @@ Ouptut as a regular image.
 |Hyperlink |Yes |Hyperlink preserved on export to XPS format. | |
 |Image |Yes | | |
 
-## **Position**
+##### **Position**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Inline |Yes | | |
-|Floating |Yes |Floating content is exported well during rendering. <br><br>Currently floating shapes may not be properly positioned when the anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output. <br><br>This is being worked on and improvements are included with each release. | |
+|Floating |Yes |Floating content is exported well during rendering. <br><br>Currently floating shapes may not be properly positioned when anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output. <br><br>This is being worked on and improvements are included with each release. | |
 |Wrap Type |Yes |<p>Text wrapping around images and shapes is supported in all formats. <br><br>The following wrap types are fully supported upon rendering: </p><p>- Square </p><p>- Top and Bottom </p><p>- Behind Text </p><p>- Infront of Text </p><p>- Inline with Text <br><br>  The following wrap types are currently unsupported: </p><p>- Tight </p><p>- Through <br><br>  These wrap types are rare and most of the time do not have any visible difference when compared to Square wrapping. The only time you really see differences if text is wrapped around complex objects e.g a Star shaped AutoShape. <br><br>  These two wrap types will be supported in a future version. Currently they are exported as "Square" wrapping which produces very close output. </p>| |
 |Wrap Sides |Planned |Both sides is the only Wrap Sides option supported at the moment. <br><br>Other types such as Left Only, Right Only, Largest Only are currently unsupported as are exported as "Both sides" wrapping. <br><br>These wrap types will be supported in a future version. | |
 |Distance from Text |Yes | | |
@@ -157,7 +141,7 @@ Ouptut as a regular image.
 |Allow Overlap |Yes | | |
 |Layout in Table Cell |Yes | | |
 
-## **Size**
+##### **Size**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -166,7 +150,7 @@ Ouptut as a regular image.
 |Relative Size |Yes | | |
 |Lock Aspect Ratio |Yes | | |
 
-## **Fill**
+##### **Fill**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -176,7 +160,7 @@ Ouptut as a regular image.
 |Pattern Fill |Yes | | |
 |Picture or Texture Fill |Yes | | |
 
-## **Line Style**
+##### **Line Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -189,24 +173,16 @@ Ouptut as a regular image.
 |Join Type |Yes | | |
 |Arrow Settings |Yes | | |
 
-<<<<<<< Updated upstream
 ##### **Shadow**
 
-=======
-## **Shadow**
->>>>>>> Stashed changes
 Shadow on shape is currently lost upon rendering.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shadow |Planned | | |
 
-<<<<<<< Updated upstream
 ##### **3D Properties**
 
-=======
-## **3D Properties**
->>>>>>> Stashed changes
 3D properties are currently lost upon rendering.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

@@ -9,20 +9,16 @@ url: /net/field-features-supported-on-xps-export/
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
-Even if a field can be updated, most fields are exported if they are up-to-date by MS Word. i.e if you import a document and export it with a field as it is then it will appear properly in the output format.
+Even if a field can be updated, most fields are exported if they are up-to-date by MS Word. i.e if you import a doucment and export it with a field as it is then it will appear properly in the output format.
 
 Fields with custom field codes (a field code modified to represent something different than a normal field) are retained as they are when converting to other Word document formats. These fields are lost when exporting to ODT.
 
-When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of the page layout.
+When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of page layout.
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **Field Codes**
 
-=======
-## **Field Codes**
->>>>>>> Stashed changes
 See the following link in the documentation for further information:
 
 - **Document.UpdateFields.**
@@ -30,12 +26,8 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Date and Time**
-=======
-## **Date and Time**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -45,12 +37,8 @@ See the following link in the documentation for further information:
 |PrintDate |Yes | | |
 |SaveDate |Yes | | |
 |Time |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Document Automation**
-=======
-## **Document Automation**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -60,15 +48,10 @@ See the following link in the documentation for further information:
 |If |Yes | | |
 |MacroButton |Yes | | |
 |Print |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Document Information**
 
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
-=======
-## **Document Information**
-Fields such as FileName or FileSize are not automatically updated on save. However, they can be updated explictly by calling Document.UpdateFields.
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -86,12 +69,8 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Subject |Yes | | |
 |Template |Yes | | |
 |Title |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Equations and Formulas**
-=======
-## **Equations and Formulas**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -99,13 +78,9 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Advance |Planned |The effects of the advance field do not appear in the rendered output. <br><br>There are plans to support this field during rendering. | |
 |Eq |Planned |Some simple equation fields may render correctly. Others may appear distorted in the rendered output. | |
 |Symbol |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Form Fields**
 
-=======
-## **Form Fields**
->>>>>>> Stashed changes
 Form fields currently do not appear in XPS output.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -124,12 +99,8 @@ Form fields currently do not appear in XPS output.
 |Max Length |N/A | | |
 |Check Box Size |Planned | | |
 |Text Input Type |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Index and Tables**
-=======
-## **Index and Tables**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -140,12 +111,8 @@ Form fields currently do not appear in XPS output.
 |TOA (Table of Authorities) |Yes | | |
 |TOC (Table of Contents) |Yes |The \h switch on TOC can be used to export the TOC as hyperlinked to XPS. | |
 |XE |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Links and References**
-=======
-## **Links and References**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -157,17 +124,13 @@ Form fields currently do not appear in XPS output.
 |IncludePicture |Yes | | |
 |IncludeText |Yes | | |
 |Link |Yes | | |
-|NoteRef |Yes |Exported as a clickable link in XPS output. | |
+|NoteRef |Yes |Exported as clickable link in XPS output. | |
 |PageRef |Yes | | |
 |Quote |Yes | | |
-|Ref |Yes |Exported as a clickable link in XPS output. | |
+|Ref |Yes |Exported as clickable link in XPS output. | |
 |StyleRef |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Mail Merge**
-=======
-## **Mail Merge**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -185,12 +148,8 @@ Form fields currently do not appear in XPS output.
 |NextIf |Yes | | |
 |Set |Yes | | |
 |SkipIf |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Numbering**
-=======
-## **Numbering**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -204,27 +163,18 @@ Form fields currently do not appear in XPS output.
 |Section |Yes | | |
 |SectionPages |Yes | | |
 |Seq |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **User Information**
-=======
-## **User Information**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |UserAddress |Yes | | |
 |UserInitials |Yes | | |
 |UserName |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Hyperlinks**
 
 Exported as clickable hyperlink in XPS format.
-=======
-## **Hyperlinks**
-Exported as a clickable hyperlink in XPS format.
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -235,12 +185,8 @@ Exported as a clickable hyperlink in XPS format.
 |Hyperlink to an External Resource |Yes | | |
 |Screen Tip |N/A | | |
 |Target Frame |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Formatting Switches**
-=======
-## **Formatting Switches**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -23,12 +23,8 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/document-features-supported-on-rich-text-export/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **General**
-=======
-## **General**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -38,11 +34,11 @@ See the following links in the documentation for further information:
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |Planned |Custom XML Parts can be accessed and modified in the DOM. <br><br>You can remove schemas linked to a part, however you cannot schemas in the document that are not referenced. <br><br>This feature will be supported in a future version. |- [Document.CustomXmlParts](https://apireference.aspose.com/words/net/aspose.words/document/properties/customxmlparts)|
 |Digital Signature |N/A |Digital signatures cannot be added to RTF format. | |
-|Embedded Package |Yes |<p>Embedded packages are generally supported by Aspose.Words. There are two ways documents can be embedded inside other documents: </p><p>- OLE (this is available in DOC and OOXML formats) </p><p>- Package Embedding (available in OOXML only) <br><br>  Content can be extracted from both types of embedded packages by using the OleFormat.Save method. <br><br>  Aspose.Words supports these in the following ways during conversion: <br><br>  If you have an OLE embedded or linked object it will be preserved during any conversion (e.g. DOC to DOCX or DOCX to DOC etc). <br><br>  If you have a Package Embedded document, then it will only be preserved during DOCX to DOCX conversion. <br><br>  There is no way to save a Package Embedded document from DOCX into a DOC file without converting it into an OLE embedded object. Implementing conversion of Package Embedded to OLE is tricky and it will take a while to implement. <br><br>  OLE objects contain "native data" and are supposed to be created by the actual OLE creating an application. We at Aspose.Words have never attempted or planned to replace the behavior of OLE creating applications. </p>|- [Shape.OleFormat](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/oleformat)|
+|Embedded Package |Yes |<p>Embedded packages are generally supported by Aspose.Words. There are two ways documents can be embedded inside other documents: </p><p>- OLE (this is available in DOC and OOXML formats) </p><p>- Package Embedding (available in OOXML only) <br><br>  Content can be extracted from both types of embedded packages by using the OleFormat.Save method. <br><br>  Aspose.Words supports these in the following ways during conversion: <br><br>  If you have an OLE embedded or linked object it will be preserved during any conversion (e.g. DOC to DOCX or DOCX to DOC etc). <br><br>  If you have a Package Embedded document, then it will only be preserved during DOCX to DOCX conversion. <br><br>  There is no way to save a Package Embedded document from DOCX into a DOC file without converting it into an OLE embedded object. Implementing conversion of Package Embedded to OLE is tricky and it will take a while to implement. <br><br>  OLE objects contain "native data" and are supposed to be created by the actual OLE creating application. We at Aspose.Words have never attempted or planned to replace the behavior of OLE creating applications. </p>|- [Shape.OleFormat](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/oleformat)|
 |Encryption |N/A | | |
 |Font Table |Yes | | |
 |Glossary Document/Quick Parts/Auto Text |Planned | |- [Document.GlossaryDocument](https://apireference.aspose.com/words/net/aspose.words/document/properties/glossarydocument)|
-|Hyphenation |Yes |There is currently no API to access and modify hyphenation settings in a document. |- [ParagraphFormat.SuppressAutoHyphens](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/suppressautohyphens)|
+|Hyphenation |Yes |There is currently no API to access and modify hypenation settings in a document. |- [ParagraphFormat.SuppressAutoHyphens](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/suppressautohyphens)|
 |Key Map Customizations |N/A | | |
 |Mail Merge Recipient Data |Planned | |- [Document.MailMergeSettings](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmergesettings)|
 |Office Math |N/A | | |
@@ -53,39 +49,27 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |N/A | | |
 |Background |Yes |A background of a Word document can be a solid color or an image. |- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
 |Thumbnail |Planned | |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
-<<<<<<< Updated upstream
 
 ##### **Embedded Fonts**
-=======
-## **Embedded Fonts**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |Planned |Currently embedding new fonts into a document is unsupported. | |
 |Access and Use Embedded Fonts |Planned | |<p>- [FontInfo](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo) </p><p>- [FontInfo.GetEmbeddedFont](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo/methods/getembeddedfont)</p>|
-<<<<<<< Updated upstream
 
 ##### **Bibliography**
-=======
-## **Bibliography**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Bibliography |Yes |Bibliography content is preserved on import. <br><br>Updating a bibliography is currently unsupported. | |
 |Sources/Citations |Yes |Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. | |
 |Citation Style |Yes |Document-wide citation style is preserved but there is no access to this setting in the DOM. | |
-<<<<<<< Updated upstream
 
 ##### **Protection**
 
-=======
-## **Protection**
->>>>>>> Stashed changes
 Aspose.Words supports most document protection features.
 
-Using Aspose.Words you can open a document that is password-protected even without the password (as long as its not encrypted). 
+Using Aspose.Words you can open a document that is password protected even without the password (as long as its not encrypted). 
 
 Once loaded you can remove any protection from a document.
 
@@ -106,12 +90,8 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | |- [Section.ProtectedForForms](https://apireference.aspose.com/words/net/aspose.words/section/properties/protectedforforms)|
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | |<p>- [Document.WriteProtection](https://apireference.aspose.com/words/net/aspose.words/document/properties/writeprotection) </p><p>- [WriteProtection.IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/iswriteprotected)</p>|
-<<<<<<< Updated upstream
 
 ##### **Settings**
-=======
-## **Settings**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

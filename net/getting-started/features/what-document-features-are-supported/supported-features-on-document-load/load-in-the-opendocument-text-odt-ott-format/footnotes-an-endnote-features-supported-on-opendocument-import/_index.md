@@ -7,20 +7,16 @@ url: /net/footnotes-an-endnote-features-supported-on-opendocument-import/
 
 {{% alert color="primary" %}} 
 
-An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors' publications in their document.
+An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors publication in their document.
 
-Using Aspose.Words you can interact with footnotes and endnotes and access or modify footnote related properties such as the location of the footnotes and when they restart.
+Using Aspose.Words you can interact with footnotes and endnotes and access or modify footnote related propeties such as the location of the footnotes and when they restart.
 
 [Jump to this location in the export section](/words/net/footnotes-an-endnote-features-supported-on-opendocument-export/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **Footnotes**
 
-=======
-## **Footnotes**
->>>>>>> Stashed changes
 See the following links in the documentation for further information:
 
 - [Footnote](https://apireference.aspose.com/words/net/aspose.words/footnote)
@@ -38,12 +34,8 @@ See the following links in the documentation for further information:
 |Restart Location |N/A | | |
 |Starting Value |Yes | | |
 |Placement |Yes | |- [FootnoteOptions.Location](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/location)|
-<<<<<<< Updated upstream
 
 ##### **Endnotes**
-=======
-## **Endnotes**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

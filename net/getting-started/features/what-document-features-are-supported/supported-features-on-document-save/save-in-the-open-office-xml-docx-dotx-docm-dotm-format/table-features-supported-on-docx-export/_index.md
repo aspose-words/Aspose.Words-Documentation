@@ -10,12 +10,8 @@ url: /net/table-features-supported-on-docx-export/
 [Jump to this location in the import section](/words/net/table-features-supported-on-docx-import/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **Table**
-=======
-## **Table**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -30,14 +26,9 @@ url: /net/table-features-supported-on-docx-export/
 |Default Cell Spacing |Yes | | |
 |Preferred Table Width |Yes | | |
 |Table Shading |Yes | | |
-<<<<<<< Updated upstream
 |Hidden |Planned |Hidden attribute currently lost on hidden table or row. | |
 
 ##### **Floating Tables**
-=======
-|Hidden |Planned |Hidden attribute currently lost on a hidden table or row. | |
-## **Floating Tables**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -48,22 +39,14 @@ url: /net/table-features-supported-on-docx-export/
 |Distance from Text |Yes | | |
 |Move with Text |Yes | | |
 |Allow Overlap Floating Tables |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Table Borders**
-=======
-## **Table Borders**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Rows**
-=======
-## **Rows**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -71,12 +54,8 @@ url: /net/table-features-supported-on-docx-export/
 |Repeat as Header Row |Yes | | |
 |Height |Yes | | |
 |Height Rule |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Cells**
-=======
-## **Cells**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

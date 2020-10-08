@@ -5,15 +5,11 @@ weight: 10
 url: /net/annotation-features-supported-on-xps-export/
 ---
 
-<<<<<<< Updated upstream
 ##### **Bookmarks**
 
-=======
-## **Bookmarks**
->>>>>>> Stashed changes
 {{% alert color="primary" %}} 
 
-All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unique names, that is, no two bookmarks are allowed the exact same name.
+All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unqiue names, that is, no two bookmarks are allowed the exact same name.
 
 If two bookmarks are given the same name in the model then no errors will occur. During export to any format the duplicate bookmarks are removed silently. The first bookmark visited in the model is the one that is retained, any other bookmarks are removed,
 
@@ -31,13 +27,9 @@ See the following link in the documentation for further information:
 |Bookmark End |Yes | | |
 |Bookmark Name |Yes | | |
 |Bookmark Table Columns |N/A | | |
-<<<<<<< Updated upstream
 
 ##### **Comments**
 
-=======
-## **Comments**
->>>>>>> Stashed changes
 Comments are exported to XPS.
 
 In version 1.0 of comments rendering long or many comments are not truncated in XPS output.
@@ -49,13 +41,9 @@ In version 1.0 of comments rendering long or many comments are not truncated in 
 |Author |Yes | | |
 |Date |Yes | | |
 |Initial |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Tracking Changes**
 
-=======
-## **Tracking Changes**
->>>>>>> Stashed changes
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 
 In a future version there will be an option to render the document in any level of "mark up" e.g Final with Markup, Final (without markup) etc.

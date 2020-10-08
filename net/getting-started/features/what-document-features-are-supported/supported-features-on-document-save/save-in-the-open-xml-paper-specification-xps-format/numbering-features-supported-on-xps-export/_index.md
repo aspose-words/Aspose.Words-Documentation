@@ -5,19 +5,15 @@ weight: 70
 url: /net/numbering-features-supported-on-xps-export/
 ---
 
-## **Numbering Definition**
+##### **Numbering Definition**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
 |Multi Level |Yes | | |
 |Name |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Numbering Level**
-=======
-## **Numbering Level**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

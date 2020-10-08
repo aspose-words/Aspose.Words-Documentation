@@ -10,12 +10,8 @@ url: /net/paragraph-features-supported-on-flatopc-export/
 [Jump to this location in the import section](/words/net/paragraph-features-supported-on-flatopc-import/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **General Formatting**
-=======
-## **General Formatting**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -27,12 +23,8 @@ url: /net/paragraph-features-supported-on-flatopc-export/
 |Run Properties for the Paragraph Mark |Yes | | |
 |Suppress Line Numbers |Yes | | |
 |Suppress Hyphenation |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Indents**
-=======
-## **Indents**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -42,12 +34,8 @@ url: /net/paragraph-features-supported-on-flatopc-export/
 |Hanging Indent |Yes | | |
 |Mirror Indents |Yes | | |
 |Automatically Adjust Right Indent |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Spacing**
-=======
-## **Spacing**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -56,12 +44,8 @@ url: /net/paragraph-features-supported-on-flatopc-export/
 |Space Auto |Yes | | |
 |Line Spacing |Yes | | |
 |No Space between Conforming Paragraphs |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Keeps and Breaks**
-=======
-## **Keeps and Breaks**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -69,22 +53,14 @@ url: /net/paragraph-features-supported-on-flatopc-export/
 |Keep With Next |Yes | | |
 |Keep Lines Together |Yes | | |
 |Page Break Before |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Text Frames**
-=======
-## **Text Frames**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Frames |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Tab Stops**
-=======
-## **Tab Stops**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -92,22 +68,14 @@ url: /net/paragraph-features-supported-on-flatopc-export/
 |Relative Position |Yes | | |
 |Alignment: Left, Center, Right, Decimal, Bar |Yes | | |
 |Leader |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Drop Caps**
-=======
-## **Drop Caps**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Borders**
-=======
-## **Borders**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -118,22 +86,14 @@ url: /net/paragraph-features-supported-on-flatopc-export/
 |Color |Yes | | |
 |Width |Yes | | |
 |Distance from Text |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Shading**
-=======
-## **Shading**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Asian Typography**
-=======
-## **Asian Typography**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

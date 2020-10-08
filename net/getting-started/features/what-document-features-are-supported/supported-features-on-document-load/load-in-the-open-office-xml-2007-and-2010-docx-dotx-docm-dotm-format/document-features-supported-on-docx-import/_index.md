@@ -28,12 +28,8 @@ See the following links in the documentation for further information:
 [Jump to this location in the export section](/words/net/document-features-supported-on-docx-export/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **General**
-=======
-## **General**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,7 +46,7 @@ See the following links in the documentation for further information:
 |Hyphenation |Yes |There is currently no API to access and modify hypenation settings in a document. |- [ParagraphFormat.SuppressAutoHyphens](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/suppressautohyphens)|
 |Key Map Customizations |Yes | | |
 |Mail Merge Recipient Data |Yes | |- [Document.MailMergeSettings](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmergesettings)|
-|Office Math |Yes |Office math content is accessible through the DOM. |- [OfficeMath](https://apireference.aspose.com/words/net/aspose.words.math/OfficeMath)|
+|Office Math |Yes |Office math content is accessable through the DOM. |- [OfficeMath](https://apireference.aspose.com/words/net/aspose.words.math/OfficeMath)|
 |Themes |Yes |There is currently no API to access information about Themes however they are preserved when exporting to most formats. <br><br>Themes are preserved during open/save cycle. | |
 |Toolbar Customizations |Yes | | |
 |Variables |Yes |Variables allow you to store additional information in the document which is "hidden" from the main document. <br><br>This can be used to embed custom tracking data in the document itself. |- [Document.Variables](https://apireference.aspose.com/words/net/aspose.words/document/properties/variables)|
@@ -58,39 +54,27 @@ See the following links in the documentation for further information:
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes |A background of a Word document can be a solid color or an image. |- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
 |Thumbnail |Planned | |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
-<<<<<<< Updated upstream
 
 ##### **Embedded Fonts**
-=======
-## **Embedded Fonts**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |Planned |Currently embedding new fonts into a document is unsupported. | |
 |Access and Use Embedded Fonts |Yes |Embedded fonts in DOCX are preserved and can be accessed through the API. |<p>- [FontInfo](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo) </p><p>- [FontInfo.GetEmbeddedFont](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/getembeddedfont)</p>|
-<<<<<<< Updated upstream
 
 ##### **Bibliography**
-=======
-## **Bibliography**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Bibliography |Yes |Bibliography content is preserved on import. <br><br>Updating a bibliography is currently unsupported. | |
 |Sources/Citations |Yes |Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. | |
 |Citation Style |Yes |Document-wide citation style is preserved but there is no access to this setting in the DOM. | |
-<<<<<<< Updated upstream
 
 ##### **Protection**
 
-=======
-## **Protection**
->>>>>>> Stashed changes
 Aspose.Words supports most document protection features.
 
-Using Aspose.Words you can open a document that is password-protected even without the password (as long as its not encrypted). 
+Using Aspose.Words you can open a document that is password protected even without the password (as long as its not encrypted). 
 
 Once loaded you can remove any protection from a document.
 
@@ -111,12 +95,8 @@ See the following links in the documentation for further information:
 |Protected Sections |Yes | |- [Section.ProtectedForForms](https://apireference.aspose.com/words/net/aspose.words/section/properties/protectedforforms)|
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | |<p>- [Document.WriteProtection](https://apireference.aspose.com/words/net/aspose.words/document/properties/writeprotection) </p><p>- [WriteProtection.IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/iswriteprotected)</p>|
-<<<<<<< Updated upstream
 
 ##### **Settings**
-=======
-## **Settings**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

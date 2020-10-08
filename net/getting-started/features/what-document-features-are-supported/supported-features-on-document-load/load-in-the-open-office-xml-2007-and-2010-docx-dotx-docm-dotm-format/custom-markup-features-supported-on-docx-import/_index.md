@@ -9,18 +9,14 @@ url: /net/custom-markup-features-supported-on-docx-import/
 
 Custom Markup are elements that added to parts of the document which allow extra information to be embedded within that particular document feature.
 
-For example, CustomXML markup can be wrapped around a paragraph in the document and user-defined data added to it. This data can then be retrieved from those paragraphs when required.
+For example, CustomXML markup can be wrapped around a paragraph in the document and user-defined data added to it. This data can then be retrieved from that paragraphs when required.
 
 [Jump to this location in the export section](/words/net/custom-markup-features-supported-on-docx-export/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **CustomXML**
 
-=======
-## **CustomXML**
->>>>>>> Stashed changes
 Represented in Aspose.Words DOM as a CustomXmlMarkup node.
 
 You can create and remove CustomXmlMarkup in a document. You can also access the properties of the XML markup node.
@@ -32,13 +28,9 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Content Controls (Structured Document Tags)**
 
-=======
-## **Content Controls (Structured Document Tags)**
->>>>>>> Stashed changes
 Represented in Aspose.Words DOM as a StructuredDocumentTag node.
 
 You can insert new Structured Document Tags and remove existing ones from the document. There is also a rich API for accessing the various properties of SDTs.
@@ -52,13 +44,9 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Smart Tags**
 
-=======
-## **Smart Tags**
->>>>>>> Stashed changes
 SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Words DOM as a SmartTag node.
 
 See the following links in the documentation for further information:

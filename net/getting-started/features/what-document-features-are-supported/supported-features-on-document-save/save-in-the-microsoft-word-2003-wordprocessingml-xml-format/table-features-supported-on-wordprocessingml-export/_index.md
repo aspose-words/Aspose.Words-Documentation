@@ -10,12 +10,8 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 [Jump to this location in the import section](/words/net/table-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
-<<<<<<< Updated upstream
 
 ##### **Table**
-=======
-## **Table**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -31,12 +27,8 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 |Preferred Table Width |Yes | | |
 |Table Shading |Yes | | |
 |Hidden |Planned |Hidden attribute currently lost on hidden table or row. | |
-<<<<<<< Updated upstream
 
 ##### **Floating Tables**
-=======
-## **Floating Tables**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,22 +39,14 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 |Distance from Text |Yes | | |
 |Move with Text |Yes | | |
 |Allow Overlap Floating Tables |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Table Borders**
-=======
-## **Table Borders**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Rows**
-=======
-## **Rows**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -70,12 +54,8 @@ url: /net/table-features-supported-on-wordprocessingml-export/
 |Repeat as Header Row |Yes | | |
 |Height |Yes | | |
 |Height Rule |Yes | | |
-<<<<<<< Updated upstream
 
 ##### **Cells**
-=======
-## **Cells**
->>>>>>> Stashed changes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
