@@ -11,19 +11,19 @@ When converting to a document format that doesn't support custom markup features
 
 {{% /alert %}} 
 
-##### **CustomXML**
+## **CustomXML**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |N/A | | |
 
-##### **Content Controls (Structured Document Tags)**
+## **Content Controls (Structured Document Tags)**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
 
-##### **Smart Tags**
+## **Smart Tags**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

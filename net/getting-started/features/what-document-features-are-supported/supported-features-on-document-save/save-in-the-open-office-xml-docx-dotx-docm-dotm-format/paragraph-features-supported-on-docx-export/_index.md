@@ -11,7 +11,7 @@ url: /net/paragraph-features-supported-on-docx-export/
 
 {{% /alert %}} 
 
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -24,7 +24,7 @@ url: /net/paragraph-features-supported-on-docx-export/
 |Suppress Line Numbers |Yes | | |
 |Suppress Hyphenation |Yes | | |
 
-##### **Indents**
+## **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -35,7 +35,7 @@ url: /net/paragraph-features-supported-on-docx-export/
 |Mirror Indents |Yes | | |
 |Automatically Adjust Right Indent |Yes | | |
 
-##### **Spacing**
+## **Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -45,7 +45,7 @@ url: /net/paragraph-features-supported-on-docx-export/
 |Line Spacing |Yes | | |
 |No Space between Conforming Paragraphs |Yes | | |
 
-##### **Keeps and Breaks**
+## **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -54,13 +54,13 @@ url: /net/paragraph-features-supported-on-docx-export/
 |Keep Lines Together |Yes | | |
 |Page Break Before |Yes | | |
 
-##### **Text Frames**
+## **Text Frames**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Text Frames |Yes | | |
 
-##### **Tab Stops**
+## **Tab Stops**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -69,13 +69,13 @@ url: /net/paragraph-features-supported-on-docx-export/
 |Alignment: Left, Center, Right, Decimal, Bar |Yes | | |
 |Leader |Yes | | |
 
-##### **Drop Caps**
+## **Drop Caps**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
 
-##### **Borders**
+## **Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -87,13 +87,13 @@ url: /net/paragraph-features-supported-on-docx-export/
 |Width |Yes | | |
 |Distance from Text |Yes | | |
 
-##### **Shading**
+## **Shading**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
 
-##### **Asian Typography**
+## **Asian Typography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

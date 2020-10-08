@@ -5,7 +5,7 @@ weight: 40
 url: /net/drawing-object-features-supported-on-xps-export/
 ---
 
-##### **Images**
+## **Images**
 
 {{% alert color="primary" %}} 
 
@@ -27,7 +27,7 @@ All images are exported as the same format that they were originally loaded as.
 |Cropping |Yes | | |
 |Alternative text |N/A | | |
 
-##### **Image Recoloring**
+## **Image Recoloring**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -35,7 +35,7 @@ All images are exported as the same format that they were originally loaded as.
 |Contrast |Yes | | |
 |Recolor |Yes | | |
 
-##### **Textboxes**
+## **Textboxes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -46,7 +46,7 @@ All images are exported as the same format that they were originally loaded as.
 |Resize To Fit Text |Yes | | |
 |Text in Other Shapes |Yes | | |
 
-##### **OLE Objects**
+## **OLE Objects**
 
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
@@ -65,7 +65,7 @@ OLE objects are saved as images.
 |Ole Object Picture |Yes | | |
 |Source Range |N/A | | |
 
-##### **ActiveX Controls**
+## **ActiveX Controls**
 
 Ouptut as a regular image.
 
@@ -73,7 +73,7 @@ Ouptut as a regular image.
 | :- | :- | :- | :- |
 |Persistent Properties Storage |N/A | | |
 
-##### **Shapes**
+## **Shapes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -95,7 +95,7 @@ Ouptut as a regular image.
 |Hyperlink on Shape |Yes |Hyperlink exported when saving to XPS format. | |
 |Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
 
-##### **WordArt**
+## **WordArt**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -109,7 +109,7 @@ Ouptut as a regular image.
 |Align and Justify Text |Planned | | |
 |WordArt Shape |Yes |Only some shapes are supported. | |
 
-##### **Horizontal Line Object**
+## **Horizontal Line Object**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -120,7 +120,7 @@ Ouptut as a regular image.
 |Hyperlink |Yes |Hyperlink preserved on export to XPS format. | |
 |Image |Yes | | |
 
-##### **Position**
+## **Position**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -141,7 +141,7 @@ Ouptut as a regular image.
 |Allow Overlap |Yes | | |
 |Layout in Table Cell |Yes | | |
 
-##### **Size**
+## **Size**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -150,7 +150,7 @@ Ouptut as a regular image.
 |Relative Size |Yes | | |
 |Lock Aspect Ratio |Yes | | |
 
-##### **Fill**
+## **Fill**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -160,7 +160,7 @@ Ouptut as a regular image.
 |Pattern Fill |Yes | | |
 |Picture or Texture Fill |Yes | | |
 
-##### **Line Style**
+## **Line Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -173,7 +173,7 @@ Ouptut as a regular image.
 |Join Type |Yes | | |
 |Arrow Settings |Yes | | |
 
-##### **Shadow**
+## **Shadow**
 
 Shadow on shape is currently lost upon rendering.
 
@@ -181,7 +181,7 @@ Shadow on shape is currently lost upon rendering.
 | :- | :- | :- | :- |
 |Shadow |Planned | | |
 
-##### **3D Properties**
+## **3D Properties**
 
 3D properties are currently lost upon rendering.
 

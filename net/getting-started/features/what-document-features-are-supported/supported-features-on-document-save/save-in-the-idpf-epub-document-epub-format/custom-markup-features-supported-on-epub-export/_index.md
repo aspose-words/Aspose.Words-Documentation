@@ -13,7 +13,7 @@ There are plans to export the Custom XML found within the document structure to 
 
 {{% /alert %}} 
 
-##### **CustomXML**
+## **CustomXML**
 
 There are plans to export the Custom XML found within the document structure to custom tags surronding elements in HTML output.
 
@@ -21,13 +21,13 @@ There are plans to export the Custom XML found within the document structure to 
 | :- | :- | :- | :- |
 |CustomXML |Planned | | |
 
-##### **Content Controls (Structured Document Tags)**
+## **Content Controls (Structured Document Tags)**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
 
-##### **Smart Tags**
+## **Smart Tags**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

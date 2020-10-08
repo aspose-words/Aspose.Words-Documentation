@@ -22,7 +22,7 @@ You can check the quality of HTML Export and view the results online at this lin
 <https://products.aspose.app/words/viewer>
 
 
-##### **Footnotes**
+## **Footnotes**
 
 Exported as a hyperlink with footnote number inline of text.
 
@@ -41,7 +41,7 @@ Footnote text is exported at the bottom of the document separated by a horizonta
 |Starting Value|Planned| | |
 |Placement|Planned| | |
 
-##### **Endnotes**
+## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

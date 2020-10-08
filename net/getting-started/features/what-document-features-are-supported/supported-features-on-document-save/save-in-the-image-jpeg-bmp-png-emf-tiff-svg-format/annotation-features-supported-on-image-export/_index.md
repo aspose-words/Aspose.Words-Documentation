@@ -5,7 +5,7 @@ weight: 10
 url: /net/annotation-features-supported-on-image-export/
 ---
 
-##### **Bookmarks**
+## **Bookmarks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -14,7 +14,7 @@ url: /net/annotation-features-supported-on-image-export/
 |Bookmark Name |Yes | | |
 |Bookmark Table Columns |N/A | | |
 
-##### **Comments**
+## **Comments**
 
 Comments are exported to rendered formats.
 
@@ -28,7 +28,7 @@ In version 1.0 of comments rendering long or many comments are not truncated.
 |Date |Yes | | |
 |Initial |Yes | | |
 
-##### **Tracking Changes**
+## **Tracking Changes**
 
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 

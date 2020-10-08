@@ -24,7 +24,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 {{% /alert %}} 
 
 
-##### **Images**
+## **Images**
 
 All images are exported as the same format that they were originally loaded as.
 
@@ -42,7 +42,7 @@ All images are exported as the same format that they were originally loaded as.
 |Cropping|Yes|Rectangular cropping is supported only.| |
 |Alternative text|Planned| | |
 
-##### **Image Recoloring**
+## **Image Recoloring**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,7 +50,7 @@ All images are exported as the same format that they were originally loaded as.
 |Contrast|Yes| | |
 |Recolor|Planned|Image is currently exported without any recoloring applied.| |
 
-##### **Textboxes**
+## **Textboxes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -61,7 +61,7 @@ All images are exported as the same format that they were originally loaded as.
 |Resize To Fit Text|Planned| | |
 |Text in Other Shapes|Yes| | |
 
-##### **OLE Objects**
+## **OLE Objects**
 
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
@@ -80,7 +80,7 @@ OLE objects are saved as images.
 |Ole Object Picture|Yes| | |
 |Source Range|N/A| | |
 
-##### **ActiveX Controls**
+## **ActiveX Controls**
 
 Output as an image.
 
@@ -88,7 +88,7 @@ Output as an image.
 | :- | :- | :- | :- |
 |Persistent Properties Storage|N/A| | |
 
-##### **Shapes**
+## **Shapes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -110,7 +110,7 @@ Output as an image.
 |Hyperlink on Shape|N/A| | |
 |Watermark|N/A|Watermark image is exported as-is into the document body as OpenOffice has no support for background watermarks. It is suggested to make sure that the wrapping on the watermark is set to "Behind Text" to avoid the image appearing in front of the text. <br><br>Also, note that the image will not have the same transparency level as what is applied in Microsoft Word.| |
 
-##### **WordArt**
+## **WordArt**
 
 Exported to ODT as a custom shape element.
 
@@ -126,7 +126,7 @@ Exported to ODT as a custom shape element.
 |Align and Justify Text|Planned| | |
 |WordArt Shape|Yes| | |
 
-##### **Horizontal Line Object**
+## **Horizontal Line Object**
 
 Exported as an image.
 
@@ -141,7 +141,7 @@ Some formatting might appear differently when saved to ODT.
 |Hyperlink|N/A| | |
 |Image|N/A|Exported as a regular image.| |
 
-##### **Position**
+## **Position**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -162,7 +162,7 @@ Some formatting might appear differently when saved to ODT.
 |Allow Overlap|N/A| | |
 |Layout in Table Cell|N/A| | |
 
-##### **Size**
+## **Size**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -171,7 +171,7 @@ Some formatting might appear differently when saved to ODT.
 |Relative Size|Yes|Exported as explicit size.| |
 |Lock Aspect Ratio|Planned| | |
 
-##### **Fill**
+## **Fill**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -181,7 +181,7 @@ Some formatting might appear differently when saved to ODT.
 |Pattern Fill|Planned| | |
 |Picture or Texture Fill|Planned| | |
 
-##### **Line Style**
+## **Line Style**
 
 Some line styles might appear different when saved to ODT.
 
@@ -196,7 +196,7 @@ Some line styles might appear different when saved to ODT.
 |Join Type|Yes| | |
 |Arrow Settings|Yes|Some arrow types might appear differently when saved to ODT.| |
 
-##### **Shadow**
+## **Shadow**
 
 Shadows are exported well to ODT but in a simplified way to accommodate the ODT format.
 
@@ -204,7 +204,7 @@ Shadows are exported well to ODT but in a simplified way to accommodate the ODT 
 | :- | :- | :- | :- |
 |Shadow|Planned| | |
 
-##### **3D Properties**
+## **3D Properties**
 
 ODT doesn't support 3D features.
 

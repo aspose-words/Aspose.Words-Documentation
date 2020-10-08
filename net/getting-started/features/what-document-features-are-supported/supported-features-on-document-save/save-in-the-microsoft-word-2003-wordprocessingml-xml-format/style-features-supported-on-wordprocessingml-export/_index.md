@@ -11,7 +11,7 @@ url: /net/style-features-supported-on-wordprocessingml-export/
 
 {{% /alert %}} 
 
-##### **Style Type**
+## **Style Type**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -20,7 +20,7 @@ url: /net/style-features-supported-on-wordprocessingml-export/
 |List Style |Yes | | |
 |Table Style |Yes | | |
 
-##### **General**
+## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -34,14 +34,14 @@ url: /net/style-features-supported-on-wordprocessingml-export/
 |Run Properties |Yes | | |
 |Bullets and Numbering |Yes | | |
 
-##### **Document Defaults**
+## **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Planned | | |
 |Run Properties |Yes | | |
 
-##### **Table Style**
+## **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
