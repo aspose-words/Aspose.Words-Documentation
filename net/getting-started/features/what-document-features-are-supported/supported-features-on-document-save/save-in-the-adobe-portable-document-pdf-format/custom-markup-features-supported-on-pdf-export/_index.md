@@ -11,13 +11,13 @@ When converting to a document format that doesn't support custom markup features
 
 {{% /alert %}} 
 
-##### **CustomXML**
+## **CustomXML**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |N/A | | |
 
-##### **Content Controls (Structured Document Tags)**
+## **Content Controls (Structured Document Tags)**
 
 Currently Content Controls linked to Custom XML Data Storage are not supported during export. The default value of the tag is exported instead. This may make the output appear different to how the content control appears in Microsoft Word.
 
@@ -27,7 +27,7 @@ There are plans to export structure document tags to PDF for enhanced accessibil
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |Planned | | |
 
-##### **Smart Tags**
+## **Smart Tags**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
