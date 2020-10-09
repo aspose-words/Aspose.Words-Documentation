@@ -8,11 +8,31 @@ url: /net/what-s-new-in-aspose-words-for-net/
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
 
-## **Aspose.Words for .NET 20.9**
+## **Aspose.Words for .NET 20.9**, 20.10
 
 Aspose.Words 20.9 expands control over Macros, as well as improves the quality of converting from PDF to Word document formats.
 
+Aspose.Words 20.10 introduces a new load format and new options for working with rendering features.
+
 The API is enhanced for more flexible and convenient development.
+
+### **Supported Formats**
+
+Support for loading CHM documents has been added. CHM or Microsoft Compiled HTML Help is a proprietary format consisting of a collection of pages, index, and other navigation tools. Starting from version 20.10, it is possible to load CHM documents into Aspose.Words document model and convert them to any [supported formats](https://apireference.aspose.com/words/net/aspose.words/saveformat).
+
+### **Rendering**
+
+#### **Obtaining a Document with Specified Pages**
+
+A new method [ExtractPages](https://apireference.aspose.com/words/net/aspose.words/document/methods/extractpages) has been added to the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class. This method returns a new document consisting of nodes located in the current document within a specified page range. The resulting document should look like one in Microsoft Word, as if we were performing "Print specific pages" – all formatting and layout will be preserved.
+
+#### **Export of Specific Pages to Fixed Page Formats**
+
+A new public API has been implemented for exporting specific pages to fixed page formats. Previously, you could specify only one continuous range for rendering, but now you can specify a complex set of pages based on different page ranges or individual pages in any order. This provides a flexible way to combine pages into final documents in fixed page formats.
+
+#### **The First Version of SmartArt Cold Rendering**
+
+The first version of SmartArt Cold Rendering has been released. Microsoft Word generates and saves the pre-rendered drawing along with SmartArt objects. In most cases, the pre-rendered drawing is rendered well by Aspose.Words and no additional actions required. However, if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case, the SmartArt object itself should be laid-out and rendered. We call this process the SmartArt Cold Rendering, and it is now available in Aspose.Words.
 
 ### **Conversion**
 
@@ -25,6 +45,8 @@ The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.wo
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 20.9 Release Notes](/words/net/aspose-words-for-net-20-9-release-notes/).
+
+Learn more about [Aspose.Words for .NET 20.10 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-10-release-notes/).
 
 {{% /alert %}}
 

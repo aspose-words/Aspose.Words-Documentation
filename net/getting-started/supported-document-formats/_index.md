@@ -25,6 +25,7 @@ The following table indicates the input and output file formats supported by Asp
 |HTML|HTML or XHTML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |MHTML|MHTML (Web archive) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |MOBI|MOBI is an eBook format used by the MobiPocket Reader and Amazon Kindle Readers.|{{< emoticons/tick >}}| | |
+|CHM|CHM (Compiled HTML Help) format.|{{< emoticons/tick >}}| | |
 |ODT|ODF Text Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |OTT|ODF Text Document Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |TXT|Plain Text.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
