@@ -8,7 +8,7 @@ url: /net/what-s-new-in-aspose-words-for-net/
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
 
-## **Aspose.Words for .NET 20.9**, 20.10
+## **Aspose.Words for .NET 20.9, 20.10**
 
 Aspose.Words 20.9 expands control over Macros, as well as improves the quality of converting from PDF to Word document formats.
 
