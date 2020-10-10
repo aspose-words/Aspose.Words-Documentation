@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.4.0. 
 
 {{% /alert %}} 
 
-### **HtmlFixedSaveOptions.CssClassNamesPrefix Public Property Added**
+## **HtmlFixedSaveOptions.CssClassNamesPrefix Public Property Added**
 
 We have added new public property to HtmlFixedSaveOptions class:
 
@@ -92,7 +92,7 @@ In order to provide Aspose.Pdf's HtmlSaveOptions.CssClassNamesPrefix behavior no
 
 Only class selectors are used which allows to prefix all class names.
 
-### **HtmlSaveOptions.ExportOriginalUrlForLinkedImages Public Property Added**
+## **HtmlSaveOptions.ExportOriginalUrlForLinkedImages Public Property Added**
 
 We have added new public property to HtmlSaveOptions class:
 
@@ -111,11 +111,11 @@ and <see cref="HtmlSaveOptions.ImagesFolderAlias"/> properties.</p>
 public bool ExportOriginalUrlForLinkedImages
 {{< /highlight >}}
 
-### **ShapeBase.IsSignatureLine Public Property Added**
+## **ShapeBase.IsSignatureLine Public Property Added**
 
 Previously, the API didn't provide any clues to whether a shape is a signature line or not, except for a hint under Alternative Text. This property provides a way to distinguish signature line shapes.
 
-### **Unknown Fields now Merged during Mail Merge like in MS Word**
+## **Unknown Fields now Merged during Mail Merge like in MS Word**
 
 While analyzing WORDSNET-11716, we have discovered that Word merges unknown fields like ﻿﻿
 

@@ -25,11 +25,11 @@ You can check the quality of HTML Export and view the results online at this lin
 
 {{% /alert %}}
 
-##### **Footnotes**
+## **Footnotes**
 
 Exported as a hyperlink with footnote number inline of text.
 
-Footnote text is exported at the bottom of the document separted by a horizontal ruler. The hyperlink links to here.
+Footnote text is exported at the bottom of the document separated by a horizontal ruler. The hyperlink links to here.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -44,7 +44,7 @@ Footnote text is exported at the bottom of the document separted by a horizontal
 |Starting Value|Planned| | |
 |Placement|Planned| | |
 
-##### **Endnotes**
+## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

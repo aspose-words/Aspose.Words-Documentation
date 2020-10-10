@@ -19,7 +19,7 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 
 {{% /alert %}} 
 
-##### **Field Codes**
+## **Field Codes**
 
 See the following link in the documentation for further information:
 
@@ -29,7 +29,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Field Codes|Yes| | |
 
-##### **Date and Time**
+## **Date and Time**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -40,7 +40,7 @@ See the following link in the documentation for further information:
 |SaveDate|Yes| | |
 |Time|Yes| | |
 
-##### **Document Automation**
+## **Document Automation**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -51,7 +51,7 @@ See the following link in the documentation for further information:
 |MacroButton|Yes| | |
 |Print|Yes| | |
 
-##### **Document Information**
+## **Document Information**
 
 Fields such as FileName or FileSize are not automatically updated on save. However, they can be updated explicitly by calling Document.UpdateFields.
 
@@ -72,7 +72,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Template|Yes| | |
 |Title|Yes| | |
 
-##### **Equations and Formulas**
+## **Equations and Formulas**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -81,7 +81,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Eq|Yes| | |
 |Symbol|Yes| | |
 
-##### **Form Fields**
+## **Form Fields**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -100,7 +100,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Check Box Size|Yes| | |
 |Text Input Type|Yes| | |
 
-##### **Index and Tables**
+## **Index and Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -112,7 +112,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |TOC (Table of Contents)|Yes| | |
 |XE|Yes| | |
 
-##### **Links and References**
+## **Links and References**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -130,7 +130,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Ref|Yes| | |
 |StyleRef|Yes| | |
 
-##### **Mail Merge**
+## **Mail Merge**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -149,7 +149,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Set|Yes| | |
 |SkipIf|Yes| | |
 
-##### **Numbering**
+## **Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -164,7 +164,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |SectionPages|Yes| | |
 |Seq|Yes| | |
 
-##### **User Information**
+## **User Information**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -172,7 +172,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |UserInitials|Yes| | |
 |UserName|Yes| | |
 
-##### **Hyperlinks**
+## **Hyperlinks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -184,7 +184,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Screen Tip|Yes| | |
 |Target Frame|Yes| | |
 
-##### **Formatting Switches**
+## **Formatting Switches**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

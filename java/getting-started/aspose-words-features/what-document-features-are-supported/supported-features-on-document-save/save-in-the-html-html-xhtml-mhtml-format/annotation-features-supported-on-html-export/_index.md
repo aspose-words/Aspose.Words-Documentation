@@ -22,13 +22,13 @@ You can check the quality of HTML Export and view the results online at this lin
 {{% /alert %}}
 
 
-##### **Bookmarks**
+## **Bookmarks**
 
 All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unique names, that is, no two bookmarks are allowed the exact same name.
 
 If two bookmarks are given the same name in the model then no errors will occur. During export to any format, the duplicate bookmarks are removed silently. The first bookmark visited in the model is the one that is retained, any other bookmarks are removed,
 
-Bookmark is represented by &lt;a&gt; element. Only bookmark start is output. Nesting and overlapping are not allowed.
+Bookmark is represented by &lt;a&gt; element. The only bookmark start is output. Nesting and overlapping are not allowed.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -37,7 +37,7 @@ Bookmark is represented by &lt;a&gt; element. Only bookmark start is output. Nes
 |Bookmark Name|Yes| | |
 |Bookmark Table Columns|N/A| | |
 
-##### **Comments**
+## **Comments**
 
 There are plans to export comments to HTML as footnotes.
 
@@ -49,7 +49,7 @@ There are plans to export comments to HTML as footnotes.
 |Date|Planned| | |
 |Initial|Planned| | |
 
-##### **Tracking Changes**
+## **Tracking Changes**
 
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 

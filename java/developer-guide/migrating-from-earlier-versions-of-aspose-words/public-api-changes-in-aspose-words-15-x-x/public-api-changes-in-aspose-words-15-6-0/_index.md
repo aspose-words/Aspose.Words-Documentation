@@ -11,11 +11,11 @@ These page list public API changes that were introduced in Aspose.Words 15.6.0. 
 
 {{% /alert %}} 
 
-### **DML Effects and Text Effects are not Rendered in PdfA1a and PdfA1b**
+## **DML Effects and Text Effects are not Rendered in PdfA1a and PdfA1b**
 
 The issue WORDSNET-11919 has now been resolved. MS Word does not render effects in PdfA1, Aspose.Words now does the same. If PdfSaveOptions.Compliance is set to PdfCompliance.PdfA1b or PdfCompliance.PdfA1a, PdfSaveOptions.DmlEffectsRenderingMode always returns DmlEffectsRenderingMode.None.
 
-### **PICT Images Rendering Supported now.**
+## **PICT Images Rendering Supported now.**
 
 The issue WORDSNET-9153 has now been resolved. Starting from version 15.6.0, Aspose.Words supports rendering and inserting PICT images.
 
@@ -23,7 +23,7 @@ If your document contains PICT image (usually this occurs in DOC files created o
 
 You can insert PICT image into the document using DocumentBuilder.InsertImage method. In this case Aspose.Words converts PICT to EMF or PNG (if you are using Aspose.Words for Java) on the fly and inserts EMF or PNG into the document.
 
-### **Public API for Custom Mark in FootNotes**
+## **Public API for Custom Mark in FootNotes**
 
 New overload in DocumentBuilder allows inserting footnotes with custom marks:
 
@@ -49,7 +49,7 @@ public String Footnote.ReferenceMark {get;set;}
 
 It is used to get/set- custom reference mark to be used for this footnote. Default value is empty string, meaning auto-numbered footnotes are used. If this property is set to empty string or null, then "IsAuto" property will automatically be set to true, if set to anything else then "IsAuto" will be set to false. RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.
 
-### **Public Chart API Introduced.**
+## **Public Chart API Introduced.**
 
 The following items are implemented in Aspose.Words 15.6.0
 
@@ -63,7 +63,7 @@ Please read more details and examples in the following section of documentation.
 
 [Working with Charts](https://docs.aspose.com/words/java/working-with-charts/)
 
-### **Password Verification in Write-Protected Document.**
+## **Password Verification in Write-Protected Document.**
 
 WORDSNET-7893 is implemented now. A new WriteProtection.validatePassword method is added to the public API.
 

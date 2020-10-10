@@ -33,7 +33,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 {{% /alert %}}
 
-##### **Field Codes**
+## **Field Codes**
 
 Fields that do not exist in ODT are converted to plain text when saved to ODT, others are exported as working fields.
 
@@ -45,7 +45,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Field Codes|Yes| | |
 
-##### **Date and Time**
+## **Date and Time**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -56,7 +56,7 @@ See the following link in the documentation for further information:
 |SaveDate|Yes| | |
 |Time|Yes| | |
 
-##### **Document Automation**
+## **Document Automation**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -67,7 +67,7 @@ See the following link in the documentation for further information:
 |MacroButton|N/A| | |
 |Print|N/A| | |
 
-##### **Document Information**
+## **Document Information**
 
 Fields such as FileName or FileSize are not automatically updated on save. However, they can be updated explicitly by calling Document.UpdateFields.
 
@@ -88,7 +88,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Template|Yes| | |
 |Title|Yes| | |
 
-##### **Equations and Formulas**
+## **Equations and Formulas**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -97,7 +97,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Eq|Yes|Exported as image.| |
 |Symbol|Yes| | |
 
-##### **Form Fields**
+## **Form Fields**
 
 Not all form field features have appropriate analogues in ODT format.
 
@@ -118,7 +118,7 @@ Not all form field features have appropriate analogues in ODT format.
 |CheckBox Size|N/A| | |
 |Text Input Type|N/A| | |
 
-##### **Index and Tables**
+## **Index and Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -130,7 +130,7 @@ Not all form field features have appropriate analogues in ODT format.
 |TOC (Table of Contents)|Yes| | |
 |XE|N/A| | |
 
-##### **Links and References**
+## **Links and References**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -148,7 +148,7 @@ Not all form field features have appropriate analogues in ODT format.
 |Ref|Yes| | |
 |StyleRef|Yes|Exported as plain text.| |
 
-##### **Mail Merge**
+## **Mail Merge**
 
 Some fields cannot be exported to ODT. They are converted to plain text.
 
@@ -169,7 +169,7 @@ Some fields cannot be exported to ODT. They are converted to plain text.
 |Set|N/A| | |
 |SkipIf|N/A| | |
 
-##### **Numbering**
+## **Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -184,7 +184,7 @@ Some fields cannot be exported to ODT. They are converted to plain text.
 |SectionPages|Yes| | |
 |Seq|Yes|Converted to plain text. Note this can affect the behaviour of some TOCs.| |
 
-##### **User Information**
+## **User Information**
 
 These fields are all exported as plain text.
 
@@ -194,7 +194,7 @@ These fields are all exported as plain text.
 |UserInitials|Yes| | |
 |UserName|Yes| | |
 
-##### **Hyperlinks**
+## **Hyperlinks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -206,7 +206,7 @@ These fields are all exported as plain text.
 |Screen Tip|N/A| | |
 |Target Frame|Yes| | |
 
-##### **Formatting Switches**
+## **Formatting Switches**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

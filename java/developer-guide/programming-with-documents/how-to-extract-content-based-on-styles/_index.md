@@ -23,7 +23,7 @@ To take this a few steps further, this can also be used to leverage the structur
 
 The solution for retrieving text formatted with specific styles in a Word document is typically economical and straightforward using Aspose.Words.
 
-#### **The Solution**
+## **The Solution**
 
 To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document.
 
@@ -39,11 +39,11 @@ Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph
 
 In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
 
-#### **The Code**
+## **The Code**
 
 The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution: ParagraphsByStyleName – This method retrieves an array of those paragraphs in the document that have a specific style name. RunsByStyleName – This method retrieves an array of those runs in the document that have a specific style name. Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of ParagraphsByStyleName:
 
-##### **Example**
+### **Example**
 
 *Find all paragraphs formatted with the specified style.*
 
@@ -78,7 +78,7 @@ Then, all you need to do is to go through the collection, using the standard for
 
 The implementation of RunsByStyleName is almost the same, although we’re obviously using [NodeType.Run](https://apireference.aspose.com/words/java/com.aspose.words/NodeType) to retrieve run nodes. The [Font.Style](https://apireference.aspose.com/words/java/com.aspose.words/font#Style) property of a [Run](https://apireference.aspose.com/words/java/com.aspose.words/Run) object is used to access style information in the **Run** nodes.
 
-##### **Example**
+### **Example**
 
 *Find all runs formatted with the specified style.*
 
@@ -109,7 +109,7 @@ When both queries are implemented, all you need to do is to pass a document obje
 
 {{% /alert %}} 
 
-##### **Example**
+### **Example**
 
 *Run queries and display results.*
 
@@ -142,7 +142,7 @@ for (Run run : (Iterable<Run>) runs)
 {{< /highlight >}}
     
 
-#### **End Result**
+## **End Result**
 
 When everything is done, running the sample will display the following output:
 ![todo:image_alt_text](how-to-extract-content-based-on-styles_2.png)

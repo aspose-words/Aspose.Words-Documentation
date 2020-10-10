@@ -5,7 +5,7 @@ weight: 150
 url: /java/save-in-the-rich-text-format-1-9-rtf-format/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on Rich Text Export](/words/java/annotation-features-supported-on-rich-text-export/)
 - [Custom Markup Features Supported on Rich Text Export](/words/java/custom-markup-features-supported-on-rich-text-export/)

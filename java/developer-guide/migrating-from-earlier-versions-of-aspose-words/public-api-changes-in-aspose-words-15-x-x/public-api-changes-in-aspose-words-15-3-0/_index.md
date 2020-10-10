@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.3.0. 
 
 {{% /alert %}} 
 
-### **DocumentBase.WarningCallback Property Added**
+## **DocumentBase.WarningCallback Property Added**
 
 The Document can raise warnings at an any stage of its life cycle. So, to be able to receive all the warnings, a new property was added into DocumentBase class.
 
@@ -23,7 +23,7 @@ public IWarningCallback WarningCallback
 
 At the same time SaveOptions.WarningCallback is now obsolete and its usage in new code should be avoided.
 
-### **OpaqueBoundsInPoints Property and GetOpaqueRectangleInPixels Method Added to ShapeRenderer Class**
+## **OpaqueBoundsInPoints Property and GetOpaqueRectangleInPixels Method Added to ShapeRenderer Class**
 
 New property OpaqueBoundsInPoints and method GetOpaqueRectangleInPixels have been added to ShapeRenderer class. They allow to get opaque bounds of the shape in points. Before this option was introduced it had been needed to work with raw pixel data to get this bound. This is how it works now:
 
@@ -103,7 +103,7 @@ public static void RenderNode(com.aspose.words.Node node, String filePath, com.a
 }
 {{< /highlight >}}
 
-### **Public Barcode Generation API Introduced**
+## **Public Barcode Generation API Introduced**
 
 The DISPLAYBARCODE field is now supported. We have introduced following entities in Aspose.Words API:
 
@@ -114,7 +114,7 @@ The DISPLAYBARCODE field is now supported. We have introduced following entities
 The usage example can be found in following link:
 [How to Generate a Custom BarCode Image for DISPLAYBARCODE Field](https://docs.aspose.com/words/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/)
 
-### **InsertDocument Method Added to DocumentBuilder Class**
+## **InsertDocument Method Added to DocumentBuilder Class**
 
 The following new method inserts content of the document into the current position of DocumentBuilder's cursor.
 

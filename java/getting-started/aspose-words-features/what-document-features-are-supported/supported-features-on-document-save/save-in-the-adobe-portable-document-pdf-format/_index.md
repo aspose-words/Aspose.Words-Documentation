@@ -5,7 +5,7 @@ weight: 30
 url: /java/save-in-the-adobe-portable-document-pdf-format/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on PDF Export](/words/java/annotation-features-supported-on-pdf-export/)
 - [Custom Markup Features Supported on PDF Export](/words/java/custom-markup-features-supported-on-pdf-export/)

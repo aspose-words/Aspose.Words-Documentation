@@ -11,7 +11,7 @@ LINQ Reporting Engine is a part of the [Aspose.Words](http://www.aspose.com/java
 
 {{% /alert %}} 
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Origin of LINQ Reporting Engine](/words/java/origin-of-linq-reporting-engine/)
 - [LINQ Reporting Engine Features](/words/java/linq-reporting-engine-features/)

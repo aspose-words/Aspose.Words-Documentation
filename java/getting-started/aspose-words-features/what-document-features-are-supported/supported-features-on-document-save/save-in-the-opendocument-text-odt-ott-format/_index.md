@@ -5,7 +5,7 @@ weight: 130
 url: /java/save-in-the-opendocument-text-odt-ott-format/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on OpenDocument Export](/words/java/annotation-features-supported-on-opendocument-export/)
 - [Custom Markup Features Supported on OpenDocument Export](/words/java/custom-markup-features-supported-on-opendocument-export/)

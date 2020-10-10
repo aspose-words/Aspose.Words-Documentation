@@ -23,7 +23,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 {{% /alert %}}
 
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -36,7 +36,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Suppress Line Numbers|Yes| | |
 |Suppress Hyphenation|Yes| | |
 
-##### **Indents**
+## **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,7 +47,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Mirror Indents|N/A|Mirror Indents are not supported in ODT.| |
 |Automatically Adjust Right Indent|N/A|Automatically Adjust Right Indent are not supported in ODT.| |
 
-##### **Spacing**
+## **Spacing**
 
 No Space Between Conforming Paragraphs is not supported.
 
@@ -59,7 +59,7 @@ No Space Between Conforming Paragraphs is not supported.
 |Line Spacing|Yes| | |
 |No Space between Conforming Paragraphs|N/A| | |
 
-##### **Keeps and Breaks**
+## **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -68,7 +68,7 @@ No Space Between Conforming Paragraphs is not supported.
 |Keep Lines Together|Yes| | |
 |Page Break Before|Yes| | |
 
-##### **Text Frames**
+## **Text Frames**
 
 Text from text frames is saved to ODT as normal text paragraphs with a border.
 
@@ -76,7 +76,7 @@ Text from text frames is saved to ODT as normal text paragraphs with a border.
 | :- | :- | :- | :- |
 |Text Frames|Planned| | |
 
-##### **Tab Stops**
+## **Tab Stops**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -85,13 +85,13 @@ Text from text frames is saved to ODT as normal text paragraphs with a border.
 |Alignment: Left, Center, Right, Decimal, Bar|Yes| | |
 |Leader|Yes| | |
 
-##### **Drop Caps**
+## **Drop Caps**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps|Yes| | |
 
-##### **Borders**
+## **Borders**
 
 Bar and Between borders, dashed, shadow and triple lines appear differently when saved to ODT because not all border features exist in ODT.
 
@@ -105,13 +105,13 @@ Bar and Between borders, dashed, shadow and triple lines appear differently when
 |Width|Yes| | |
 |Distance from Text|Yes| | |
 
-##### **Shading**
+## **Shading**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading|Yes| | |
 
-##### **Asian Typography**
+## **Asian Typography**
 
 Some Asian Typography settings are not supported in ODT.
 

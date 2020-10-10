@@ -34,7 +34,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 {{% /alert %}}
 
-##### **Characters**
+## **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -49,7 +49,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Symbol|Yes|Symbols are exported as encoded characters. <br><br>Depending on the encoding used when saving the document, such symbols may not appear correctly in the output HTML.| |
 |Tab|Yes|There is no equivalent of a tab in HTML documents. <br><br>During conversion to HTML, a tab is exported as a series of non-breaking spaces of constant length. Improvement in length calculation is planned.| |
 
-##### **Breaks**
+## **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -58,7 +58,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Page Break|Yes|Exported as a &lt;br style="page-break-before:always; clear:both"&gt;| |
 |Column Break|Yes|Exported as &lt;br style="mso-column-break-before:always; clear:both" &gt; <br><br>There are plans to make it optional since it uses a Microsoft Office specific attribute.| |
 
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -71,7 +71,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Border|Yes|Exported as border-style, border-width, border-color on &lt;span&gt;. <br><br>Normally each side is exported as separate attributes even though all sides of the border of a run must be the same.| |
 |Shading|Yes|Only solid fill is supported, both background and foreground. Others are converted to the nearest color. <br><br>Exported as background-color on &lt;span&gt;.| |
 
-##### **Font**
+## **Font**
 
 Bold and italics are exported as font-weight:bold and font-style:italics on style attribute.
 
@@ -91,7 +91,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Font|Yes| | |
 
-##### **Underline**
+## **Underline**
 
 Only single line underline type is supported in native HTML. Exported as "text-decoration:underline". Underline color is not exported.
 
@@ -106,7 +106,7 @@ There are plans to make an option to export underline as simple &lt;u&gt; tag.
 |Underline Type|N/A| | |
 |Underline Color|Yes| | |
 
-##### **Text Effects**
+## **Text Effects**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -124,7 +124,7 @@ There are plans to make an option to export underline as simple &lt;u&gt; tag.
 |Special Hidden|Planned|Special hidden and Web hidden can be made aliases of ordinary Hidden.| |
 |Web Hidden|Planned| | |
 
-##### **Character Spacing**
+## **Character Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

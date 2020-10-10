@@ -11,7 +11,7 @@ url: /java/footnotes-an-endnote-features-supported-on-docx-export/
 
 {{% /alert %}} 
 
-##### **Footnotes**
+## **Footnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -26,7 +26,7 @@ url: /java/footnotes-an-endnote-features-supported-on-docx-export/
 |Starting Value |Yes | | |
 |Placement |Yes | | |
 
-##### **Endnotes**
+## **Endnotes**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

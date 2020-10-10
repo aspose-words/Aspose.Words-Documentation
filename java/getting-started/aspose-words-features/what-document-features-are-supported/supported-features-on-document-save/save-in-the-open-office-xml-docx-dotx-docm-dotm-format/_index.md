@@ -5,7 +5,7 @@ weight: 110
 url: /java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on DOCX Export](/words/java/annotation-features-supported-on-docx-export/)
 - [Custom Markup Features Supported on DOCX Export](/words/java/custom-markup-features-supported-on-docx-export/)

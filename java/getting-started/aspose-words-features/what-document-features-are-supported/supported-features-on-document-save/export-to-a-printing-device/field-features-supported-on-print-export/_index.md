@@ -9,7 +9,7 @@ url: /java/field-features-supported-on-print-export/
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
-Even if a field can be updated, most fields are exported if they are up-to-date by MS Word. i.e if you import a doucment and export it with a field as it is then it will appear properly in the output format.
+Even if a field can be updated, most fields are exported if they are up-to-date by MS Word. i.e if you import a document and export it with a field as it is then it will appear properly in the output format.
 
 Fields with custom field codes (a field code modified to represent something different than a normal field) are retained as they are when converting to other Word document formats. These fields are lost when exporting to ODT.
 
@@ -17,7 +17,7 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 
 {{% /alert %}} 
 
-##### **Field Codes**
+## **Field Codes**
 
 See the following link in the documentation for further information:
 
@@ -27,7 +27,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
 
-##### **Date and Time**
+## **Date and Time**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -38,7 +38,7 @@ See the following link in the documentation for further information:
 |SaveDate |Yes | | |
 |Time |Yes | | |
 
-##### **Document Automation**
+## **Document Automation**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -49,7 +49,7 @@ See the following link in the documentation for further information:
 |MacroButton |Yes | | |
 |Print |N/A | | |
 
-##### **Document Information**
+## **Document Information**
 
 Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
 
@@ -70,7 +70,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Template |Yes | | |
 |Title |Yes | | |
 
-##### **Equations and Formulas**
+## **Equations and Formulas**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -79,9 +79,9 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Eq |Planned |Some simple equation fields may render correctly. Others may appear distorted in the rendered output. | |
 |Symbol |Yes | | |
 
-##### **Form Fields**
+## **Form Fields**
 
-Form fields currently do not appear in rendered output.
+Form fields currently do not appear in the rendered output.
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -100,7 +100,7 @@ Form fields currently do not appear in rendered output.
 |Check Box Size |Planned | | |
 |Text Input Type |N/A | | |
 
-##### **Index and Tables**
+## **Index and Tables**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -112,7 +112,7 @@ Form fields currently do not appear in rendered output.
 |TOC (Table of Contents) |Yes | | |
 |XE |N/A | | |
 
-##### **Links and References**
+## **Links and References**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -130,7 +130,7 @@ Form fields currently do not appear in rendered output.
 |Ref |Yes | | |
 |StyleRef |Yes | | |
 
-##### **Mail Merge**
+## **Mail Merge**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -149,7 +149,7 @@ Form fields currently do not appear in rendered output.
 |Set |Yes | | |
 |SkipIf |Yes | | |
 
-##### **Numbering**
+## **Numbering**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -164,7 +164,7 @@ Form fields currently do not appear in rendered output.
 |SectionPages |Yes | | |
 |Seq |Yes | | |
 
-##### **User Information**
+## **User Information**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -172,7 +172,7 @@ Form fields currently do not appear in rendered output.
 |UserInitials |Yes | | |
 |UserName |Yes | | |
 
-##### **Hyperlinks**
+## **Hyperlinks**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -184,7 +184,7 @@ Form fields currently do not appear in rendered output.
 |Screen Tip |N/A | | |
 |Target Frame |N/A | | |
 
-##### **Formatting Switches**
+## **Formatting Switches**
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

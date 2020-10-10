@@ -19,7 +19,7 @@ See the following link in the documentation for further information:
 
 {{% /alert %}} 
 
-##### **Table**
+## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -36,7 +36,7 @@ See the following link in the documentation for further information:
 |Table Shading |Yes |Only solid fill color is supported. <br><br>Exported as background-color style attribute on all cells in the table. | |
 |Hidden |Planned |Hidden table or row is currently exported as as collapsed with no content. This can produce the correct output with the exception of a row border present. | |
 
-##### **Floating Tables**
+## **Floating Tables**
 
 Floating tables are saved as normal tables.
 
@@ -52,7 +52,7 @@ Left, right and center alignment is supported.
 |Move with Text |Planned | | |
 |Allow Overlap Floating Tables |Planned | | |
 
-##### **Table Borders**
+## **Table Borders**
 
 Currently borders are output on each cells as style attribute border-XXX-style, border-XXX-color etc.
 
@@ -60,7 +60,7 @@ Currently borders are output on each cells as style attribute border-XXX-style, 
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
 
-##### **Rows**
+## **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -69,7 +69,7 @@ Currently borders are output on each cells as style attribute border-XXX-style, 
 |Height |Yes |Exported as style attribute height on &lt;tr&gt; | |
 |Height Rule |Yes |Auto is exported with no height attribute allowing auto-resize. <br><br>At least and exact are both exported as height in points. | |
 
-##### **Cells**
+## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

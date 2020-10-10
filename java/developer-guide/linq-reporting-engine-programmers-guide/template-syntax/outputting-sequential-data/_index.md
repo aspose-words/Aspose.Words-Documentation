@@ -42,7 +42,7 @@ data_band_body
 
 {{% /alert %}}
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Working with Common Data Bands](/words/java/working-with-common-data-bands/)
 - [Working with Table-Row Data Bands](/words/java/working-with-table-row-data-bands/)

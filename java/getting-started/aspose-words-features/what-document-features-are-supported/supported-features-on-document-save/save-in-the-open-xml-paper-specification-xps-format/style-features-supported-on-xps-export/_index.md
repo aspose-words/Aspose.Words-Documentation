@@ -5,7 +5,7 @@ weight: 110
 url: /java/style-features-supported-on-xps-export/
 ---
 
-##### **Style Type**
+## **Style Type**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -14,7 +14,7 @@ url: /java/style-features-supported-on-xps-export/
 |List Style |Yes | | |
 |Table Style |Yes | | |
 
-##### **General**
+## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -28,14 +28,14 @@ url: /java/style-features-supported-on-xps-export/
 |Run Properties |Yes | | |
 |Bullets and Numbering |Yes | | |
 
-##### **Document Defaults**
+## **Document Defaults**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Yes | | |
 |Run Properties |Yes | | |
 
-##### **Table Style**
+## **Table Style**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

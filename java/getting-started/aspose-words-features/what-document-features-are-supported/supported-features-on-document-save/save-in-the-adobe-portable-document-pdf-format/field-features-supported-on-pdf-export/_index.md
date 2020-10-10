@@ -9,15 +9,15 @@ url: /java/field-features-supported-on-pdf-export/
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
-Even if a field can be updated, most fields are exported if they are up-to-date by MS Word. i.e if you import a doucment and export it with a field as it is then it will appear properly in the output format.
+Even if a field can be updated, most fields are exported if they are up-to-date by MS Word. i.e if you import a document and export it with a field as it is then it will appear properly in the output format.
 
 Fields with custom field codes (a field code modified to represent something different than a normal field) are retained as they are when converting to other Word document formats. These fields are lost when exporting to ODT.
 
-When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of page layout.
+When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of the page layout.
 
 {{% /alert %}} 
 
-##### **Field Codes**
+## **Field Codes**
 
 See the following link in the documentation for further information:
 
@@ -27,7 +27,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
 
-##### **Date and Time**
+## **Date and Time**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -38,7 +38,7 @@ See the following link in the documentation for further information:
 |SaveDate |Yes | | |
 |Time |Yes | | |
 
-##### **Document Automation**
+## **Document Automation**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -49,9 +49,9 @@ See the following link in the documentation for further information:
 |MacroButton |Yes | | |
 |Print |N/A | | |
 
-##### **Document Information**
+## **Document Information**
 
-Fields such as FileName or FileSize are not automatically updated on save. However they can be updated explictly by calling Document.UpdateFields.
+Fields such as FileName or FileSize are not automatically updated on save. However, they can be updated explictly by calling Document.UpdateFields.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -70,7 +70,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Template |Yes | | |
 |Title |Yes | | |
 
-##### **Equations and Formulas**
+## **Equations and Formulas**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -79,7 +79,7 @@ Fields such as FileName or FileSize are not automatically updated on save. Howev
 |Eq |Planned |Some simple equation fields may render correctly. Others may appear distorted in the rendered output. | |
 |Symbol |Yes | | |
 
-##### **Form Fields**
+## **Form Fields**
 
 There is a save option to control if form fields are exported as proper form fields in PDF output or as plain text.
 
@@ -104,7 +104,7 @@ See the following link in the documentation for further information:
 |Check Box Size |Yes | | |
 |Text Input Type |N/A | | |
 
-##### **Index and Tables**
+## **Index and Tables**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -116,7 +116,7 @@ See the following link in the documentation for further information:
 |TOC (Table of Contents) |Yes |The \h switch on TOC can be used to export the TOC as hyperlinked to PDF. | |
 |XE |N/A | | |
 
-##### **Links and References**
+## **Links and References**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -128,13 +128,13 @@ See the following link in the documentation for further information:
 |IncludePicture |Yes | | |
 |IncludeText |Yes | | |
 |Link |Yes | | |
-|NoteRef |Yes |Exported as clickable link. | |
+|NoteRef |Yes |Exported as a clickable link. | |
 |PageRef |Yes |Hyperlinked PageRef field is exported as plain text and not as a clickable hyperlink in output PDF. | |
 |Quote |Yes | | |
-|Ref |Yes |Exported as clickable link. | |
+|Ref |Yes |Exported as a clickable link. | |
 |StyleRef |Yes | | |
 
-##### **Mail Merge**
+## **Mail Merge**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -153,14 +153,14 @@ See the following link in the documentation for further information:
 |Set |Yes | | |
 |SkipIf |Yes | | |
 
-##### **Numbering**
+## **Numbering**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |AutoNum |Planned | | |
 |AutoNumLgl |Planned | | |
 |AutoNumOut |Planned | | |
-|BarCode |Planned |Note that this only refers to the BarCode field structure. Commonly barcodes are actually represented in Microsoft Word document as text using a special barcode font or image. These are fully supported during export to all formats. | |
+|BarCode |Planned |Note that this only refers to the BarCode field structure. Commonly, barcodes are represented in Microsoft Word document as text using a special barcode font or image. These are fully supported during export to all formats. | |
 |ListNum |Planned | | |
 |Page |Yes | | |
 |RevNum |Yes | | |
@@ -168,7 +168,7 @@ See the following link in the documentation for further information:
 |SectionPages |Yes | | |
 |Seq |Yes | | |
 
-##### **User Information**
+## **User Information**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -176,7 +176,7 @@ See the following link in the documentation for further information:
 |UserInitials |Yes | | |
 |UserName |Yes | | |
 
-##### **Hyperlinks**
+## **Hyperlinks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -188,7 +188,7 @@ See the following link in the documentation for further information:
 |Screen Tip |N/A | | |
 |Target Frame |N/A | | |
 
-##### **Formatting Switches**
+## **Formatting Switches**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

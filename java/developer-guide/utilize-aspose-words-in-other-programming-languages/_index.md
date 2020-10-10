@@ -5,7 +5,7 @@ weight: 70
 url: /java/utilize-aspose-words-in-other-programming-languages/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Choose the Platform and Interoperability Technology](/words/java/choose-the-platform-and-interoperability-technology/)
 - [ColdFusion and Aspose.Words for Java](/words/java/coldfusion-and-aspose-words-for-java/)

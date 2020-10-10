@@ -25,7 +25,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 {{% /alert %}}
 
-##### **Characters**
+## **Characters**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -40,7 +40,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Symbol|Yes| | |
 |Tab|Yes| | |
 
-##### **Breaks**
+## **Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -49,7 +49,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Page Break|Yes| | |
 |Column Break|Yes| | |
 
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -62,13 +62,13 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Border|N/A| | |
 |Shading|Yes|Textured fills are saved as solid fills to ODT.| |
 
-##### **Font**
+## **Font**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font|Yes| | |
 
-##### **Underline**
+## **Underline**
 
 Some underline types appear different when saved to ODT.
 
@@ -77,7 +77,7 @@ Some underline types appear different when saved to ODT.
 |Underline Type|Yes| | |
 |Underline Color|Yes| | |
 
-##### **Text Effects**
+## **Text Effects**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -95,7 +95,7 @@ Some underline types appear different when saved to ODT.
 |Special Hidden|N/A| | |
 |Web Hidden|N/A| | |
 
-##### **Character Spacing**
+## **Character Spacing**
 
 Kerning and Snap to Grid are not saved to ODT.
 

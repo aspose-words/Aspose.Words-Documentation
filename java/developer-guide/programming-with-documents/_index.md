@@ -5,7 +5,7 @@ weight: 60
 url: /java/programming-with-documents/
 ---
 
-###### **This section includes the following topics:**
+**This section includes the following topics:**
 
 - [Aspose.Words Document Object Model](/words/java/aspose-words-document-object-model/)
 - [Working with Document](/words/java/working-with-document/)

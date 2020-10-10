@@ -5,7 +5,7 @@ weight: 20
 url: /java/export-to-a-printing-device/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on Print Export](/words/java/annotation-features-supported-on-print-export/)
 - [Custom Markup Features Supported on Print Export](/words/java/custom-markup-features-supported-on-print-export/)

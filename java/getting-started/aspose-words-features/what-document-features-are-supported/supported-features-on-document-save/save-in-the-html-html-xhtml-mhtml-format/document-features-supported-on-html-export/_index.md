@@ -9,7 +9,7 @@ url: /java/document-features-supported-on-html-export/
 
 Note that not all Microsoft Word document features are available in HTML format and some features may be lost or converted to an image.
 
-If you are looking for a way to easily store documents in a database then it is suggested to use the WordML or FlatOPC format. Both formats are fully XML based making them easy to store into a database but they are native word formats which allows you to preserve full fidelity of Microsoft Word features such as WordArt, Textboxex etc.
+If you are looking for a way to easily store documents in a database then it is suggested to use the WordML or FlatOPC format. Both formats are fully XML-based making them easy to store into a database but they are native word formats which allows you to preserve full fidelity of Microsoft Word features such as WordArt, Textboxex etc.
 
 Aspose.Words saves any loaded document that to valid HTML 4.0 or XHTML 1.0 specifications. EPUB documents are exported as EPUB 2.0. There are plans to support HTML 5 and EPUB 3.0 specification as well. There are also numerous save options available to control a document is exported to HTML. Here are some of the examples of what you can do:
 
@@ -51,7 +51,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 {{% /alert %}}
 
-##### **General**
+## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -77,14 +77,14 @@ You can check the quality of HTML Export and view the results online at this lin
 |Background|Yes|Only solid background is exported. Exported as style="background:xxx" on each &lt;body&gt; tag. <br><br>There are plans to export background shape as style-background.| |
 |Thumbnail|Yes|You can include a cover image on output EPUB documents either by importing an existing image or by generating a thumbnail of one of the document page's using Aspose.Words|- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/java/words/com.aspose.words/BuiltInDocumentProperties#Thumbnail)|
 
-##### **Embedded Fonts**
+## **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embedding Fonts|Yes|There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX can be optionally exported.|<p>- **HtmlSaveOptions.ExportFontResources**</p><p>- **HtmlSaveOptions.FontResourcesSubsettingSizeThreshold**</p><p>- **HtmlSaveOptions.FontsFolder**</p><p>- **HtmlSaveOptions.FontSavingCallback**</p>|
 |Embed Only Non-Standard Fonts|N/A| | |
 
-##### **Bibliography**
+## **Bibliography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -92,7 +92,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Sources/Citations|Yes|Bibliography sources are not saved to HTML.| |
 |Citation Style|N/A| | |
 
-##### **Protection**
+## **Protection**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -106,7 +106,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Protection Ranges|N/A| | |
 |Read Only|N/A| | |
 
-##### **Settings**
+## **Settings**
 
 Only some settings can be exported.
 

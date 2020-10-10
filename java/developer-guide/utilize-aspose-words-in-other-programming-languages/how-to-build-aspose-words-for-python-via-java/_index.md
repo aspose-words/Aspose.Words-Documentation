@@ -7,7 +7,7 @@ url: /java/how-to-build-aspose-words-for-python-via-java/
 
 In order to create "Aspose Words for Python via Java" package we use [JCC](http://lucene.apache.org/pylucene/jcc/index.html)
 
-#### **How to build JCC on Windows**
+## **How to build JCC on Windows**
 
 Download and install [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) (it is not necessary because you can use %JDK_HOME%\jre)
 
@@ -47,7 +47,7 @@ Check JCC egg has been installed
 > ls C:\Python27\Lib\site-packages\JCC-3.0-py2.7-win-amd64.egg
 {{< /highlight >}}
 
-#### **How to build JCC on Ubuntu**
+## **How to build JCC on Ubuntu**
 
 Check if python is installed
 
@@ -97,7 +97,7 @@ Make sure JCC has been installed
 > ls /home/_username_/.local/lib/python2.7/site-packages
 {{< /highlight >}}
 
-#### **How to create "Aspose Words for Python via Java" python package**
+## **How to create "Aspose Words for Python via Java" python package**
 
 Make sure Java, JCC and wheel are installed.
 
@@ -115,7 +115,7 @@ The third is the python module name.
 
 Result *.whl* file will be saved in *.\dist* directory
 
-#### **How to install "Aspose Words for Python via Java" on Windows**
+## **How to install "Aspose Words for Python via Java" on Windows**
 
 1. Download and install [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html). We use JRE x64 version because our .whl was built for Windows x64;
 1. Download and install [Python](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi). At the moment 2.7 version is used;
@@ -126,7 +126,7 @@ Result *.whl* file will be saved in *.\dist* directory
 > pip install .\aspose_words-17.8-cp27-none-win_amd64.whl
 {{< /highlight >}}
 
-#### **How to install "Aspose Words for Python via Java" on Ubuntu**
+## **How to install "Aspose Words for Python via Java" on Ubuntu**
 
 Check if python is installed
 
@@ -157,7 +157,7 @@ Run terminal and use following command:
 > pip install --prefix=~/.local aspose_words-17.8-cp27-none-linux_x86_64.whl
 {{< /highlight >}}
 
-#### **How to use "Aspose Words for Python via Java"**
+## **How to use "Aspose Words for Python via Java"**
 
 {{< highlight csharp >}}
 > python

@@ -5,7 +5,7 @@ weight: 60
 url: /java/working-with-tables/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Tables Overview](/words/java/tables-overview/)
 - [Creating Tables](/words/java/creating-tables/)

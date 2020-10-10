@@ -5,11 +5,11 @@ weight: 10
 url: /java/annotation-features-supported-on-pdf-export/
 ---
 
-##### **Bookmarks**
+## **Bookmarks**
 
 {{% alert color="primary" %}} 
 
-All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unqiue names, that is, no two bookmarks are allowed the exact same name.
+All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unique names, that is, no two bookmarks are allowed the exact same name.
 
 If two bookmarks are given the same name in the model then no errors will occur. During export to any format the duplicate bookmarks are removed silently. The first bookmark visited in the model is the one that is retained, any other bookmarks are removed,
 
@@ -28,7 +28,7 @@ See the following link in the documentation for further information:
 |Bookmark Name|Yes| | |
 |Bookmark Table Columns|N/A| | |
 
-##### **Comments**
+## **Comments**
 
 Comments are exported to PDF.
 
@@ -42,11 +42,11 @@ In version 1.0 of comments rendering long or many comments are not truncated in 
 |Date|Yes| | |
 |Initial|Yes| | |
 
-##### **Tracking Changes**
+## **Tracking Changes**
 
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 
-Tracked changes are currently not exported to PDF in the way they appear in Microsoft Word. This functionality will be included in a future version of Aspose.Words. At the moment any tracked changes are exported to PDF as plain content and thefore may affect the apperance of the document. For this reason you may need to accept all revisions before rendering.
+Tracked changes are currently not exported to PDF in the way they appear in Microsoft Word. This functionality will be included in a future version of Aspose.Words. At the moment any tracked changes are exported to PDF as plain content and therefore may affect the appearance of the document. For this reason you may need to accept all revisions before rendering.
 
 See the following link in the documentation for further information:
 

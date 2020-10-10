@@ -5,7 +5,7 @@ weight: 120
 url: /java/table-features-supported-on-xps-export/
 ---
 
-##### **Table**
+## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -22,7 +22,7 @@ url: /java/table-features-supported-on-xps-export/
 |Table Shading |Yes | | |
 |Hidden |Planned |Hidden table or row is currently exported as visible to rendered format. | |
 
-##### **Floating Tables**
+## **Floating Tables**
 
 Aspose.Words provides great support for the rendering of floating tables.
 
@@ -40,13 +40,13 @@ We are working to improve this with each release.
 |Move with Text |Yes | | |
 |Allow Overlap Floating Tables |Yes | | |
 
-##### **Table Borders**
+## **Table Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
 
-##### **Rows**
+## **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -55,7 +55,7 @@ We are working to improve this with each release.
 |Height |Yes | | |
 |Height Rule |Yes | | |
 
-##### **Cells**
+## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

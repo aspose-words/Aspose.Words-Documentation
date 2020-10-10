@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 15.11.0.
 
 {{% /alert %}} 
 
-### **Added public methods CreatePictureBullet(), DeletePictureBullet() and public property ImageData in ListLevel.**
+## **Added public methods CreatePictureBullet(), DeletePictureBullet() and public property ImageData in ListLevel.**
 
 Using ListLevel.ImageData you are getting access to all available ImageData options. Please see the following code example to find out how to work with picture bullets.
 
@@ -77,7 +77,7 @@ listLevel0.deletePictureBullet();
 doc.save("out_Without_PictureBullet.docx");
 {{< /highlight >}}
 
-### **Added public overload DocumentBuilder.InsertCheckBox, public property FormField.Default**
+## **Added public overload DocumentBuilder.InsertCheckBox, public property FormField.Default**
 
 WORDSNET-11871 is now resolved. The following overload method of InsertCheckBox has been added to the DocumentBuilder class:
 
@@ -122,7 +122,7 @@ Applicable for a check box form field only.
 public boolean Default
 {{< /highlight >}}
 
-### **Bookmarks with white-spaces are allowed in PDF, XPS and SWF**
+## **Bookmarks with white-spaces are allowed in PDF, XPS and SWF**
 
 WORDSNET-12531 is now resolved. In the previous versions of Aspose.Words it was not allowed to use bookmarks with white spaces in all document formats. All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC cannot have white spaces. However, PDF allows such bookmarks.
 
@@ -159,7 +159,7 @@ for (Bookmark bookmark : doc.getRange().getBookmarks())
 
 Note: behavior for all other formats was not changed. White spaces in bookmarks are replaced with underscores upon saving to all flow formats.
 
-### **Document-wide defaults are exposed public.**
+## **Document-wide defaults are exposed public.**
 
 WORDSNET-4079 is now resolved. We have added new public properties DefaultParagraphFormat and DefaultFont to StyleCollection class:
 
@@ -194,7 +194,7 @@ Note that document-wide defaults were introduced in Microsoft Word 2007 and are 
 
 {{% /alert %}}
 
-### **OutlineOptions.CreateMissingOutlineLevels now works for bookmarks too**
+## **OutlineOptions.CreateMissingOutlineLevels now works for bookmarks too**
 
 In the previous versions of Aspose.Words with this option enabled missing outline levels was created only for headings. Now missing outline levels are created both for headings and bookmarks.
 
@@ -209,7 +209,7 @@ Default value for this property is <b>false</b>
 public bool createMissingOutlineLevels { get; set; }
 {{< /highlight >}}
 
-### **New public property UpdateFields has been added to SaveOptions**
+## **New public property UpdateFields has been added to SaveOptions**
 
 We have added new public property UpdateFields to SaveOptions class:
 
@@ -223,7 +223,7 @@ Default value for this property is <b>true</b>
 public bool UpdateFields {get;set;}
 {{< /highlight >}}
 
-### **ReportBuildOptions.AllowMissingDataFields is renamed to ReportBuildOptions.AllowMissingMembers**
+## **ReportBuildOptions.AllowMissingDataFields is renamed to ReportBuildOptions.AllowMissingMembers**
 
 ReportBuildOptions.AllowMissingDataFields affected only fields of DataRow and IDataRecord instances. The option was introduced per WORDSNET-12380 for a single customer. Then, the customer returned complaining that he also needs master-detail relationships and extension methods to be affected. Thus, the option's purpose had to be changed. That is why, the option was renamed.
 

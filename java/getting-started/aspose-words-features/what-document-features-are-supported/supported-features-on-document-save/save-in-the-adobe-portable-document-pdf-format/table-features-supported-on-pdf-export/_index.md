@@ -5,7 +5,7 @@ weight: 120
 url: /java/table-features-supported-on-pdf-export/
 ---
 
-##### **Table**
+## **Table**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -22,11 +22,11 @@ url: /java/table-features-supported-on-pdf-export/
 |Table Shading |Yes | | |
 |Hidden |Planned |Hidden table or row is currently exported as visible to rendered format. | |
 
-##### **Floating Tables**
+## **Floating Tables**
 
 Aspose.Words provides great support for the rendering of floating tables.
 
-Currently floating shapes may not be properly positioned when anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output.
+Currently floating shapes may not be properly positioned when an anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a second column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output.
 
 We are working to improve this with each release.
 
@@ -40,13 +40,13 @@ We are working to improve this with each release.
 |Move with Text |Yes | | |
 |Allow Overlap Floating Tables |Yes | | |
 
-##### **Table Borders**
+## **Table Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders |Yes | | |
 
-##### **Rows**
+## **Rows**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -55,7 +55,7 @@ We are working to improve this with each release.
 |Height |Yes | | |
 |Height Rule |Yes | | |
 
-##### **Cells**
+## **Cells**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

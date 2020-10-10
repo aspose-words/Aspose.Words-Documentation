@@ -18,7 +18,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-##### **General**
+## **General**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -36,7 +36,7 @@ See the following links in the documentation for further information:
 |Key Map Customizations|Yes| | |
 |Mail Merge Recipient Data|Yes| | |
 |Office Math|Yes| | |
-|Themes|Yes|Themes are preserved during open/save cycle.| |
+|Themes|Yes|Themes are preserved during the open/save cycle.| |
 |Toolbar Customizations|Yes| | |
 |Variables|Yes| | |
 |VBA Project (Macro)|Yes|VBA Projects are preserved during open and save to different formats that support them. <br><br>Only DOCM, DOTM and FlatOPC format support macros. If saving to DOCX or DOTX you will need to use the Document.RemoveMacros to remove any macros first before saving.|- [Document.RemoveMacros](https://apireference.aspose.com/java/words/com.aspose.words/document#removeMacros\(\))|
@@ -44,14 +44,14 @@ See the following links in the documentation for further information:
 |Background|Yes| | |
 |Thumbnail|Planned| | |
 
-##### **Embedded Fonts**
+## **Embedded Fonts**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embedding Fonts|Yes|Embedded fonts in DOCX are only preserved when saving round-trip back to DOCX.| |
 |Embed Only Non-Standard Fonts|N/A| | |
 
-##### **Bibliography**
+## **Bibliography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -59,7 +59,7 @@ See the following links in the documentation for further information:
 |Sources/Citations|Yes| | |
 |Citation Style|Yes| | |
 
-##### **Protection**
+## **Protection**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -73,7 +73,7 @@ See the following links in the documentation for further information:
 |Protection Ranges|Planned|Currently, protected ranges are lost upon import.| |
 |Read Only|Yes| | |
 
-##### **Settings**
+## **Settings**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

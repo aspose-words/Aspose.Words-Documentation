@@ -5,7 +5,7 @@ weight: 30
 url: /java/supported-features-on-document-save/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Document Saving Overview](/words/java/document-saving-overview/)
 - [Export to a Printing Device](/words/java/export-to-a-printing-device/)

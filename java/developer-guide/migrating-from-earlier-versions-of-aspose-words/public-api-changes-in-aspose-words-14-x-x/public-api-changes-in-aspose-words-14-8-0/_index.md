@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.8.0. 
 
 {{% /alert %}} 
 
-### **LinkedStyleName Property Added to Style Class**
+## **LinkedStyleName Property Added to Style Class**
 
 **LinkedStyleName**
 
@@ -22,7 +22,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.8.0. 
 public String LinkedStyleName
 {{< /highlight >}}
 
-### **PreblendImages Property Added to PdfSaveOptions Class**
+## **PreblendImages Property Added to PdfSaveOptions Class**
 
 PreblendImages property has been added to the PdfSaveOptions class. It may improve PDF document visual appearance in Adobe Reader and remove anti-aliasing artifacts.
 
@@ -40,7 +40,7 @@ public final boolean getPreblendImages();
 public final void setPreblendImages(boolean value);
 {{< /highlight >}}
 
-### **Time Stamping of PDF Digital Signature using External Timestamp Server**
+## **Time Stamping of PDF Digital Signature using External Timestamp Server**
 
 New property TimestampSettings has been added to PdfDigitalSignatureDetails. It allows to timestamp digital signature of PDF document using external timestamp server.
 

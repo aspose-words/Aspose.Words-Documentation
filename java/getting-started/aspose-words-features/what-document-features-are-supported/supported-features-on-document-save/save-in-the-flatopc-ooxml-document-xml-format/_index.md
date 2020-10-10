@@ -5,7 +5,7 @@ weight: 40
 url: /java/save-in-the-flatopc-ooxml-document-xml-format/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 
 - [Annotation Features Supported on FlatOPC Export](/words/java/annotation-features-supported-on-flatopc-export/)
 - [Custom Markup Features Supported on FlatOPC Export](/words/java/custom-markup-features-supported-on-flatopc-export/)

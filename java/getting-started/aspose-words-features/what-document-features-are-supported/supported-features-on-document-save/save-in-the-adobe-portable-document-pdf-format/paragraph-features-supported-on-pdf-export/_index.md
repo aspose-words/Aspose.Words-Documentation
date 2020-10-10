@@ -15,20 +15,20 @@ See the following link in the documentation for further information:
 
 {{% /alert %}} 
 
-##### **General Formatting**
+## **General Formatting**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Style |Yes | | |
 |Alignment |Yes |The special "Thai Distributed" alignment is currently unsupported during rendering. Such alignment is rendered as left alignment. | |
-|Right to Left Paragraph |Planned |Currently such paragraphs are rendered as left-to-right. | |
+|Right to Left Paragraph |Planned |Currently, such paragraphs are rendered as left-to-right. | |
 |Bullets and Numbers |Yes | | |
 |Outline Level |Yes | | |
 |Run Properties for the Paragraph Mark |Yes | | |
 |Suppress Line Numbers |Yes | | |
 |Suppress Hyphenation |Yes | | |
 
-##### **Indents**
+## **Indents**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -39,7 +39,7 @@ See the following link in the documentation for further information:
 |Mirror Indents |Yes | | |
 |Automatically Adjust Right Indent |Yes | | |
 
-##### **Spacing**
+## **Spacing**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -49,7 +49,7 @@ See the following link in the documentation for further information:
 |Line Spacing |Yes | | |
 |No Space between Conforming Paragraphs |Yes | | |
 
-##### **Keeps and Breaks**
+## **Keeps and Breaks**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -58,11 +58,11 @@ See the following link in the documentation for further information:
 |Keep Lines Together |Yes | | |
 |Page Break Before |Yes | | |
 
-##### **Text Frames**
+## **Text Frames**
 
 Floating content is generally supported well during rendering.
 
-Currently floating shapes may not be properly positioned when anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a 2nd column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output.
+Currently floating shapes may not be properly positioned when the anchor is nested in a cell, belongs to a wrapped line or belongs to a paragraph with first/hanging indents, or to a second column on the page, and other advanced layouts. This may cause some content to overlap in the rendered output.
 
 We are working to improve this with each release.
 
@@ -70,7 +70,7 @@ We are working to improve this with each release.
 | :- | :- | :- | :- |
 |Text Frames |Yes | | |
 
-##### **Tab Stops**
+## **Tab Stops**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -79,13 +79,13 @@ We are working to improve this with each release.
 |Alignment: Left, Center, Right, Decimal, Bar |Yes | | |
 |Leader |Yes | | |
 
-##### **Drop Caps**
+## **Drop Caps**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
 
-##### **Borders**
+## **Borders**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -97,13 +97,13 @@ We are working to improve this with each release.
 |Width |Yes | | |
 |Distance from Text |Yes | | |
 
-##### **Shading**
+## **Shading**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading |Yes | | |
 
-##### **Asian Typography**
+## **Asian Typography**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
