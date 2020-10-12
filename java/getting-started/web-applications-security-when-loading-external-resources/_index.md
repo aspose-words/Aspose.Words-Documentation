@@ -98,7 +98,7 @@ private static class DisableRemoteResourcesHandler implements IResourceLoadingCa
 	private static boolean isLocalResource(String fileName) throws Exception
 	{
 		String protocol = null;
-
+	
 		URI uri = new URI(fileName);
 		if (uri.isAbsolute())
 		{
@@ -109,7 +109,7 @@ private static class DisableRemoteResourcesHandler implements IResourceLoadingCa
 			URL url = new URL(fileName);
 			protocol = url.getProtocol();
 		}
-
+	
 		return "file".equalsIgnoreCase(protocol);
 	}
 }
@@ -117,6 +117,7 @@ private static class DisableRemoteResourcesHandler implements IResourceLoadingCa
 
 {{% alert color="primary" %}}
 
-This article is based on the consulting firm Independent Security Evaluators [report](https://auckland.dynabic.com/wiki/download/attachments/43680655/ise-aspose-report.pdf?version=1&modificationDate=1600673149000).
+This article is based on the consulting firm Independent Security Evaluators [report](ise-aspose-report.pdf).
 
 {{% /alert %}}
+

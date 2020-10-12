@@ -123,6 +123,6 @@ var doc = new Document(documentFilename, disableRemoteResourcesOptions);
 
 {{% alert color="primary" %}}
 
-This article is based on the consulting firm Independent Security Evaluators [report](https://auckland.dynabic.com/wiki/download/attachments/43680655/ise-aspose-report.pdf?version=1&modificationDate=1600673149000).
+This article is based on the consulting firm Independent Security Evaluators [report](ise-aspose-report.pdf).
 
 {{% /alert %}}
