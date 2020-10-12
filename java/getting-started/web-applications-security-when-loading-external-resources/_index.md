@@ -2,11 +2,11 @@
 title: Web Applications Security When Loading External Resources
 type: docs
 description: "Aspose.Words allows you to load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."
-weight: 100
-url: /net/web-applications-security-when-loading-external-resources/
+weight: 120
+url: /java/web-applications-security-when-loading-external-resources/
 ---
 
-By default, Aspose.Words for .Net can load remote resources such as images, CSS styles, or external HTML documents when importing documents or inserting images using the DocumentBuilder. This behavior allows you to process your documents in full detail but can be a reason of some security risks if the library is a part of a web application.
+By default, Aspose.Words for Java can load remote resources such as images, CSS styles, or external HTML documents when importing documents or inserting images using the DocumentBuilder. This behavior allows you to process your documents in full detail but can be a reason of some security risks if the library is a part of a web application.
 
 In this article, we take a look at common security issues that can arise when loading external resources and provide recommendations on how to avoid such problems.
 
@@ -47,78 +47,72 @@ Based on the length of time the service uses to process the document, the attack
 
 ## **Solutions of Security Issues**
 
-To solve the problems described above and to improve the security of web applications, you can control or disable loading of external resources using [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback).
+To solve the problems described above and to improve the security of web applications, you can control or disable loading of external resources using [IResourceLoadingCallback](https://apireference.aspose.com/words/java/com.aspose.words/IResourceLoadingCallback).
 
 The following code example shows how to disable external images loading:
 
-**.NET**
+**Java**
 {{< highlight csharp >}}
-
-public class DisableExternalImagesHandler : IResourceLoadingCallback
+public void loadDocument(String documentFilename) throws Exception
 {
-    public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
-    {
-        // Skip external images loading.
-        return (args.ResourceType == ResourceType.Image)
-            ? ResourceLoadingAction.Skip
-            : ResourceLoadingAction.Default;
-    }
+	LoadOptions disableExternalImagesOptions = new LoadOptions();
+	disableExternalImagesOptions.setResourceLoadingCallback(new DisableExternalImagesHandler());
+
+	Document doc = new Document(documentFilename, disableExternalImagesOptions);
 }
-...
-const string documentFilename = "input.docx";
-var disableExternalImagesOptions = new LoadOptions
-{
-    ResourceLoadingCallback = new DisableExternalImagesHandler()
-};
-var doc = new Document(documentFilename, disableExternalImagesOptions);
 
+public static class DisableExternalImagesHandler implements IResourceLoadingCallback
+{
+	public /*ResourceLoadingAction*/int resourceLoading(ResourceLoadingArgs args)
+	{
+		// Skip external images loading.
+		return (args.getResourceType() == ResourceType.IMAGE)
+			? ResourceLoadingAction.SKIP
+			: ResourceLoadingAction.DEFAULT;
+	}
+}
 {{< /highlight >}}
 
 The following code example shows how to disable remote resources:
 
-**.NET**
+**Java**
 {{< highlight csharp >}}
-
-private class DisableRemoteResourcesHandler : IResourceLoadingCallback
+public void loadDocument2(String documentFilename) throws Exception
 {
-    public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
-    {
-        return IsLocalResource(args.OriginalUri)
-            ? ResourceLoadingAction.Default
-            : ResourceLoadingAction.Skip;
-    }
+	LoadOptions disableRemoteResourcesOptions = new LoadOptions();
+	disableRemoteResourcesOptions.setResourceLoadingCallback(new DisableRemoteResourcesHandler());
+	
+	Document doc = new Document(documentFilename, disableRemoteResourcesOptions);
+}	
 
-    private static bool IsLocalResource(string fileName)
-    {
-        DirectoryInfo dirInfo;
-        try
-        {
-            var dirName = Path.GetDirectoryName(fileName);
-            if (string.IsNullOrEmpty(dirName))
-                return false;
-            dirInfo = new DirectoryInfo(dirName);
-        }
-        catch
-        {
-            return false;
-        }
-    
-        foreach (DriveInfo d in DriveInfo.GetDrives())
-        {
-            if (string.Compare(dirInfo.Root.FullName, d.Name, StringComparison.OrdinalIgnoreCase) == 0)
-                return d.DriveType != DriveType.Network;
-        }
-    
-        return false;
-    }
+private static class DisableRemoteResourcesHandler implements IResourceLoadingCallback
+{
+	public /*ResourceLoadingAction*/int resourceLoading(ResourceLoadingArgs args) throws Exception
+	{
+		return isLocalResource(args.getOriginalUri())
+			? ResourceLoadingAction.DEFAULT
+			: ResourceLoadingAction.SKIP;
+	}
+
+	// Simplified code.
+	private static boolean isLocalResource(String fileName) throws Exception
+	{
+		String protocol = null;
+
+		URI uri = new URI(fileName);
+		if (uri.isAbsolute())
+		{
+			protocol = uri.getScheme();
+		}
+		else
+		{
+			URL url = new URL(fileName);
+			protocol = url.getProtocol();
+		}
+
+		return "file".equalsIgnoreCase(protocol);
+	}
 }
-...
-var disableRemoteResourcesOptions = new LoadOptions
-{
-    ResourceLoadingCallback = new DisableRemoteResourcesHandler()
-};
-var doc = new Document(documentFilename, disableRemoteResourcesOptions);
-
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
