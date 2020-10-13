@@ -63,7 +63,7 @@ The [ControlChar](http://www.aspose.com/api/net/words/aspose.words/controlchar) 
 
 You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example demonstrates how to bind content control to custom XML parts. 
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-BindSDTtoCustomXmlPart-BindSDTtoCustomXmlPart.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-BindSDTtoCustomXmlPart.cs" >}}
 
 ## **XMLMapping of Structured Document Tag Range**
 
@@ -75,7 +75,7 @@ You can get the mapping of this structured document tag range to XML data in a c
 
 You can clear the contents of a content control with displaying a placeholder. StructuredDocumentTag.Clear method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in MS Word (except repeating sections, repeating section items, groups, check-boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared. The following code example demonstrates how to clear the content of content control. 
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-ClearContentsControl-ClearContentsControl.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-ClearContentsControl.cs" >}}
 
 ## **Change Content Control Background and Border Colors**
 
@@ -86,7 +86,7 @@ The StructuredDocumentTag.Color property allows you to get or set the color of c
 
 The following code example demonstrates how to change the color of content control. 
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-SetContentControlColor-SetContentControlColor.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-SetContentControlColor.cs" >}}
 
 ## **How to Set Style to Format Text Typed into the Content Control**
 
@@ -98,7 +98,7 @@ Note that only Linked and Character styles can be applied to content control. An
 
 {{% /alert %}} 
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-SetContentControlStype.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-SetContentControlStyle.cs" >}}
 
 ## **Working with Repeating Section Content Control**
 
