@@ -13,7 +13,7 @@ Markdown is so popular because it is easy to work with this format, as well as i
 
 Now the functionality for working with the Markdown format is being actively developed to provide you with more opportunities for convenient and comfortable work with documents.
 
-## Convert a Document to Markdown
+## Convert a Document
 
 To convert a document to Markdown, you just need to load a document in any supported format or create a new one programmatically. Then you need to save the document to Markdown format.
 
@@ -22,6 +22,22 @@ The following code example shows how to convert DOCX to Markdown:
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cs" >}}
 
+You can also specify the physical folder in which you want to save images when exporting a document to Markdown format. By default, Aspose.Words saves images in the same folder where the document file is saved, but you can override this behavior using the [ImagesFolder](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesfolder) property.
+
+Specifying a folder via **ImagesFolder** is also useful if you save a document to a stream and Aspose.Words does not have a folder for saving images.
+
+If the specified **ImagesFolder** does not exist, it will be created automatically.
+
+The following code example shows how to specify a folder for images when saving a document to a stream:
+
+**.NET**
+{{< highlight csharp >}}
+Document doc = new Document(dataDir + "Test.docx");
+MarkdownSaveOptions so = new MarkdownSaveOptions();
+so.ImagesFolder = "C:\\Images";
+using (MemoryStream stream = new MemoryStream())
+    doc.Save(stream, so);
+{{< /highlight >}}
 
 ## Specify Save Options when Converting to Markdown
 
