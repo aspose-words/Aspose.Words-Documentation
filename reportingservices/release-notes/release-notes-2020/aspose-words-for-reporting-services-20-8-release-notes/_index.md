@@ -17,7 +17,7 @@ Note: Microsoft changed target framework for SSRS 2019 from 3.5 to 4.6. SSRS 201
 
 {{% /alert %}}
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key |Summary |Category |
 | :- | :- | :- |

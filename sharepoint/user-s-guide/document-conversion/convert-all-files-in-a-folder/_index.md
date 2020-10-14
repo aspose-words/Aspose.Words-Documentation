@@ -18,13 +18,13 @@ If you want to convert all files in a folder, you can do so either by selecting 
 ![todo:image_alt_text](convert-all-files-in-a-folder_2.png)
 
 
-### **Using Server Ribbon Button under SharePoint 2010/2013/2016**
+### Using Server Ribbon Button under SharePoint 2010/2013/2016
 
 Under SharePoint 2010/2013/2016, the server ribbon button is available instead of the custom action menu item used with SharePoint 2007 / WSS 3.
 
 **The server ribbon button converts a single file when a single file is selected.**
 
-### **![todo:image_alt_text](convert-all-files-in-a-folder_3.png)**
+### ![todo:image_alt_text](convert-all-files-in-a-folder_3.png)
 
 When you select a single file or folder in a document library view, the **Convert via Aspose.Words** button displays the conversion settings page for this item. It works the same way as the ECB option.
 
@@ -46,7 +46,7 @@ If you select no items in a document library view, the **Convert via Aspose.Word
 
 - The **Convert files in subfolders** option lets you include all subfolders in the conversion. During conversion, Aspose.Words for SharePoint creates the same subfolders tree in the destination folder. This option is for SharePoint 2007 only. Under SharePoint 2010/2013/2016, the subfolders are always processed recursively. To process folder contents without subfolders, just select the desired files in a document library view.
 
-#### **Selecting files.**
+#### Selecting files.
 
 - The Combine files option lets you combine files into one document. Input files can be in different formats. Setting this check box makes accessible “Select Files…” button that will lead to sequence adjustment screen.
 - The Select Files button lets you adjust the combination order.

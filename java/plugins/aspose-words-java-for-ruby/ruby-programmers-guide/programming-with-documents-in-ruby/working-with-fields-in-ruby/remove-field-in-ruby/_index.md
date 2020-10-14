@@ -5,7 +5,7 @@ weight: 20
 url: /java/remove-field-in-ruby/
 ---
 
-## **Aspose.Words - Remove Field**
+## Aspose.Words - Remove Field
 
 **Ruby Code**
 
@@ -35,7 +35,7 @@ field.remove()
 doc.save(data_dir + "Field.RemoveField Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Remove Field (Aspose.Words)** from any of the below mentioned social coding sites:
 

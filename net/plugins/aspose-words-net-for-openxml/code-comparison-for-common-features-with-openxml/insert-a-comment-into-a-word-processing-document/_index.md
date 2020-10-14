@@ -5,7 +5,7 @@ weight: 90
 url: /net/insert-a-comment-into-a-word-processing-document/
 ---
 
-### **OpenXML SDK**
+### OpenXML SDK
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -76,7 +76,7 @@ public static void AddCommentOnFirstParagraph(string fileName,
 }
 {{< /highlight >}}
 
-### **Aspose.Words**
+### Aspose.Words
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -119,7 +119,7 @@ builder.Write("This is text aftr comment");
 doc.Save(File);
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

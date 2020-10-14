@@ -5,11 +5,11 @@ weight: 10
 url: /cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
 ---
 
-## **Creating OOXML Charts from Scratch using Aspose.Words**
+## Creating OOXML Charts from Scratch using Aspose.Words
 
 Aspose.Words provides InsertChart method which was added into the DocumentBuilder class. So, let's see how to insert a simple column chart into the document using DocumentBuilder->InsertChart method:
 
-### **How to Insert Column chart.**
+### How to Insert Column chart.
 
 The code example given below shows how to insert column chart.
 
@@ -32,7 +32,7 @@ The code produces the following result:
 ![todo:image_alt_text](http://i.imgur.com/U7ylb6t.png)
 
 
-### **How to InsertScatterChart.**
+### How to InsertScatterChart.
 
 The code example given below shows how to insert a scatter chart.
 
@@ -43,7 +43,7 @@ The code produces the following result:
 ![todo:image_alt_text](http://i.imgur.com/35LAqIe.png)
 
 
-### **How to Insert Area Chart.**
+### How to Insert Area Chart.
 
 The code example given below shows how to insert an area chart.
 
@@ -54,7 +54,7 @@ The code produces the following result:
 ![todo:image_alt_text](http://i.imgur.com/wUxVamC.png)
 
 
-### **How to Insert Bubble Chart.**
+### How to Insert Bubble Chart.
 
 The code example given below shows how to insert a bubble chart.
 

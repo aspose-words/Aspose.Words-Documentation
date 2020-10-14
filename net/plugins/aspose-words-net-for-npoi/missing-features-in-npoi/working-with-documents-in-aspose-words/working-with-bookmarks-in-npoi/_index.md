@@ -5,7 +5,7 @@ weight: 80
 url: /net/working-with-bookmarks-in-npoi/
 ---
 
-## **Aspose.Words - Working with Bookmarks**
+## Aspose.Words - Working with Bookmarks
 
 Use **DocumentBuilder.StartBookmark** and **DocumentBuilder.EndBookmark** to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
@@ -30,7 +30,7 @@ Bookmark bookmark2 = doc.Range.Bookmarks["AsposeBookmark"];
 doc.Save("AsposeBookmarks.doc");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Working with Bookmarks** form any of the below mentioned social coding sites:
 

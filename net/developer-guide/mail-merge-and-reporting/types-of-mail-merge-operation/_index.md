@@ -15,7 +15,7 @@ The most common example of using simple mail merge is when you want to send a do
 
 The main difference between both merge operations is that simple mail merge (without regions) repeats the entire document per each data source record, whereas mail merge with regions repeats only designated regions per record. You can think of a simple mail merge operation as a particular case of merge with regions where the only region is the whole document.
 
-## **Simple Mail Merge Operation**
+## Simple Mail Merge Operation
 
 A simple mail merge is used to fill the mail merge fields inside your template with the required data from your data source (single table representation). So it is similar to the classic mail merge in Microsoft Word.
 
@@ -23,7 +23,7 @@ You can add one or more merge fields in your template and then execute the simpl
 
 The main limitation of using this type is the whole document content will be repeated for each record in the data source.
 
-### **How to Execute a Simple Mail Merge Operation**
+### How to Execute a Simple Mail Merge Operation
 
 Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute methods](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/execute/index) that accept various data objects as the data source.
 
@@ -39,7 +39,7 @@ And after executing simple mail merge:
 
 <img src="execute_simple_mail_merge_2.png" alt="execute_simple_mail_merge" style="width:300px"/>
 
-### **How to Create Multiple Merged Documents**
+### How to Create Multiple Merged Documents
 
 In Aspose.Words, the standard mail merge operation fills only a single document with content from your data source. So, you will need to execute the mail merge operation multiple times to create multiple merged documents as an output.
 
@@ -53,13 +53,13 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-## **Mail Merge with Regions**
+## Mail Merge with Regions
 
 You can create different regions in your template to have special areas that you can simply fill with your data. Use the mail merge with regions if you want to insert tables, rows with repeating data to make your documents dynamically grow by specifying those regions within your template.
 
 You can create nested (child) regions as well as merge regions. The main advantage of using this type is to dynamically increase parts inside a document. See more details in the next article "Nested Mail Merge with Regions".
 
-### **How to Execute Mail Merge with Regions**
+### How to Execute Mail Merge with Regions
 
 A mail merge region is a specific part inside a document that has a start point and an end point. Both points are represented as mail merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a mail merge region will automatically be repeated for every record in the data source.
 
@@ -81,7 +81,7 @@ And after executing mail merge with regions:
 
 <img src="execute_mail_merge_with_regions_2.png" alt="mail_merge_with_regions_execute" style="width:850px"/>
 
-### **Limitations of Mail Merge with Regions**
+### Limitations of Mail Merge with Regions
 
 There are some important points that you need to consider when performing a mail merge with regions:
 

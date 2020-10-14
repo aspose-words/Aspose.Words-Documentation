@@ -17,7 +17,7 @@ This feature will be supported in the future.
 
 {{% /alert %}} 
 
-## **Images**
+## Images
 
 All images are exported as the same format that they were originally loaded as.
 
@@ -50,7 +50,7 @@ See the following links in the documentation for further information:
 |Cropping |Yes |Rectangular cropping is supported only. <br><br>Images are cropped permantly and cropping cannot be removed after export. | |
 |Alternative text |Yes |Exported as "alt=xxxx" on img element. | |
 
-## **Image Recoloring**
+## Image Recoloring
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -58,7 +58,7 @@ See the following links in the documentation for further information:
 |Contrast |Yes | | |
 |Recolor |Planned |Image is currently exported without any recoloring applied. | |
 
-## **Textboxes**
+## Textboxes
 
 Textboxes are converted to raster images on export.
 
@@ -73,7 +73,7 @@ This provides great fidelity however text is not selectable in the output docume
 |Resize To Fit Text |Planned |Textbox is currently exported as the size set as Width and Height properties of Shape.l | |
 |Text in Other Shapes |Yes | | |
 
-## **OLE Objects**
+## OLE Objects
 
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
@@ -94,7 +94,7 @@ There are plans to export using the &lt;object&gt; tag and the type of object wh
 |Ole Object Picture |Yes | | |
 |Source Range |N/A | | |
 
-## **ActiveX Controls**
+## ActiveX Controls
 
 Output as an image.
 
@@ -102,7 +102,7 @@ Output as an image.
 | :- | :- | :- | :- |
 |Persistent Properties Storage |N/A | | |
 
-## **Shapes**
+## Shapes
 
 Shapes are converted to raster images on export.
 
@@ -132,7 +132,7 @@ See the following link in the documentation for further information:
 |Hyperlink on Shape |Yes |Exported as &lt;img&gt; element wrapped in &lt;a&gt; element with appropriate attributes. | |
 |Watermark |N/A |Watermark shapes will be exported as a regular image to HTML at the same level as normal content. This is because there is no native support for watermark in HTML. To increase fidelity, set the watermark wrapping to "Behind Text" so the watermark will appear behind the main document content when exported to HTML. <br><br>Also note that the image will not have the same transparency level as what is applied in Microsoft Word. <br><br>Watermarks are only exported if the export of headers and footers to HTML is enabled. Since HTML has no "page" concept, the headers and footers only appear once. There is a save option to control how headers and footers are exported to HTML. | |
 
-## **WordArt**
+## WordArt
 
 WordArt is exported as an image. You can also set the AltText property so the plain text content of the WordArt can be found in the output HTML.
 
@@ -148,7 +148,7 @@ WordArt is exported as an image. You can also set the AltText property so the pl
 |Align and Justify Text |Planned | | |
 |WordArt Shape |Planned | | |
 
-## **Horizontal Line Object**
+## Horizontal Line Object
 
 Exported as &lt;hr&gt; tag.
 
@@ -161,7 +161,7 @@ Exported as &lt;hr&gt; tag.
 |Hyperlink |Planned |&lt;hr&gt; tag can be wrapped in an &lt;a&gt; element. | |
 |Image |Yes |Exported as a regular &lt;img&gt; element instead of &lt;hr&gt;. <br><br>There are plans to export a horizontal line with an image as &lt;hr&gt; element with style="background: url(xxx.png)". | |
 
-## **Position**
+## Position
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -182,7 +182,7 @@ Exported as &lt;hr&gt; tag.
 |Allow Overlap |Yes |Floating content can overlap when "Allow Overlap" is enabled. <br><br>When disabled the HTML engine will export these as separate content that does not overlap. | |
 |Layout in Table Cell |N/A |Floating content is always exported as distance from the anchor (paragraph or character) regardless of whether the paragraph is in a table or not. | |
 
-## **Size**
+## Size
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -191,7 +191,7 @@ Exported as &lt;hr&gt; tag.
 |Relative Size |Yes |Exported as explict size as height and width attributes in pixels (no units specified). | |
 |Lock Aspect Ratio |N/A | | |
 
-## **Fill**
+## Fill
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -201,7 +201,7 @@ Exported as &lt;hr&gt; tag.
 |Pattern Fill |Yes |Rendered to raster image. | |
 |Picture or Texture Fill |Yes |Rendered to raster image. | |
 
-## **Line Style**
+## Line Style
 
 Line shapes are rendered to image and embedded in the output HTML.
 
@@ -216,7 +216,7 @@ Line shapes are rendered to image and embedded in the output HTML.
 |Join Type |Yes | | |
 |Arrow Settings |Yes | | |
 
-## **Shadow**
+## Shadow
 
 Shadow is currently lost on shapes on export to HTML.
 
@@ -226,7 +226,7 @@ There are plans to rasterize the shadow properties on the image during export to
 | :- | :- | :- | :- |
 |Shadow |Planned | | |
 
-## **3D Properties**
+## 3D Properties
 
 3D effects on shape are lost upon conversion to HTML.
 

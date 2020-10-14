@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 18.12](https://repos
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 108 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -36,7 +36,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 - Fixed exception in rare case when floating object is pushed beyond empty column.
 - Fixed layout when tables merge over the hidden paragraph.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -149,11 +149,11 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-17650|Some symbols turn into rectangles in PDF|Regression|
 |WORDSNET-10756|Image and table misalignment during rendering/printing|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **hideMark Handling Changed to Match MS Word 2016 Behavior When Converting to Fixed-Page Formats**
+### hideMark Handling Changed to Match MS Word 2016 Behavior When Converting to Fixed-Page Formats
 
 WORDSNET-17619 has been resolved.
 
@@ -176,7 +176,7 @@ As the current policy is to emulate MS Word 2016 behavior, the changes will esse
 
 The changes may be perceived as a breakage by customers still using MS Word versions before MS Word 2016.
 
-### **MS Word 2016 Behavior Imitated for Some Special Cases with Continuous and "new column" Section Breaks**
+### MS Word 2016 Behavior Imitated for Some Special Cases with Continuous and "new column" Section Breaks
 
 .WORDSNET-17760 has been resolved.
 
@@ -189,7 +189,7 @@ An example of different behavior is below. 
 ![todo:image_alt_text](https://auckland.dynabic.com/wiki/download/attachments/26608076/17760MSWordDifference.png?version=1&modificationDate=1542261714000)
 
 
-### **Added WMF Fonts Scaling According to Metafile Size on the Page and Public Option to Control it**
+### Added WMF Fonts Scaling According to Metafile Size on the Page and Public Option to Control it
 
 New public property was added to MetafileRenderingOptions class:
 
@@ -215,7 +215,7 @@ public bool ScaleWmfFontsToMetafileSize
 }
 {{< /highlight >}}
 
-### **Removed Obsolete Public API Method 'SetAsDefault' from LoadOptions.LanguagePreferences**
+### Removed Obsolete Public API Method 'SetAsDefault' from LoadOptions.LanguagePreferences
 
 WORDSNET-17294 has been resolved.
 
@@ -230,13 +230,13 @@ public void SetAsDefault(EditingLanguage language)
 
 Please use *LanguagePreferences.DefaultEditingLanguage* property instead: <https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+18.6+Release+Notes>
 
-### **Added a Public Property HtmlSaveOptions.ResolveFontNames**
+### Added a Public Property HtmlSaveOptions.ResolveFontNames
 
 WORDSNET-17577 has been resolved.
 
 A new option HtmlSaveOptions.ResolveFontNames has been added that affects writing of font names to HTML-based formats. By default this option is set to false and, as before, Aspose.Words writes font names as specified in the source document, ignoring Document.FontSettings. If this option is set to true, Aspose.Words resolves all font names before writing them to HTML. That is, it checks availability of each font using Document.FontSettings and substitutes unavailable fonts if needed.
 
-### **Obsolete Property AllowTrailingWhitespaceForListItems was Removed from LoadOptions Class**
+### Obsolete Property AllowTrailingWhitespaceForListItems was Removed from LoadOptions Class
 
 Obsolete property AllowTrailingWhitespaceForListItems was removed from LoadOptions class.
 

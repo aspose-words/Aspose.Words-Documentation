@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 19.11](https://repos
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Harfbuzz Shaper plugin supported on Unix-based OSs.
 - Provided an ability to work with Web Extensions, new classes allow to customize elements and attributes that extend the XML vocabulary for Office Add-ins representation.
@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for Java 19.11](https://repos
 - Improved character spacing calculation when 'use printer metrics' option is set.
 - Macros support improved.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -109,12 +109,12 @@ This page contains release notes for [Aspose.Words for Java 19.11](https://repos
 |WORDSNET-12420|DOC to PDF conversion issue with image rendering|Bug|
 |WORDSNET-12506|The page layout of Chinese text is not correct in output PDF|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
 
-### **Added support for Web extension elements**
+### Added support for Web extension elements
 
 Following public classes and enums were added.
 
@@ -436,7 +436,7 @@ taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign
 taskPane.WebExtension.Bindings.Add(new WebExtensionBinding("UnnamedBinding_0_1506535429545", WebExtensionBindingType.Text, "194740422"));
 {{< /highlight >}}
 
-### **Horizontal rule formatting**
+### Horizontal rule formatting
 
 Related issue: WORDSNET-18182
 
@@ -551,11 +551,11 @@ horizontalRuleFormat.NoShade = true;
 builder.Document.Save("HorizontalRuleFormat.docx");
 {{< /highlight >}}
 
-### **Macros support improved**
+### Macros support improved
 
 Related issue: WORDSNET-19153
 
-##### **Added a new public setter for a Document.VbaProject**
+##### Added a new public setter for a Document.VbaProject
 
 {{< highlight csharp >}}
 /// <summary>
@@ -565,7 +565,7 @@ public VbaProject VbaProject
 {{< /highlight >}}
 
 
-##### **Added a new public constructor for a VbaProject class.**
+##### Added a new public constructor for a VbaProject class.
 
 {{< highlight csharp >}}
 /// <summary>
@@ -575,7 +575,7 @@ public VbaProject()
 {{< /highlight >}}
 
 
-##### **Added a new public setter for a VbaProject.Name**
+##### Added a new public setter for a VbaProject.Name
 
 {{< highlight csharp >}}
 /// <summary>
@@ -584,7 +584,7 @@ public VbaProject()
 public string Name
 {{< /highlight >}}
 
-##### **Added a new public getter for a VbaProject.CodePage**
+##### Added a new public getter for a VbaProject.CodePage
 
 {{< highlight csharp >}}
 /// <summary>
@@ -593,7 +593,7 @@ public string Name
 public int CodePage
 {{< /highlight >}}
 
-##### **Added a new public constructor for a VbaModule class.**
+##### Added a new public constructor for a VbaModule class.
 
 {{< highlight csharp >}}
 /// <summary>
@@ -602,7 +602,7 @@ public int CodePage
 public VbaModule()
 {{< /highlight >}}
 
-##### **Added a new public setter for a VbaModule.Name**
+##### Added a new public setter for a VbaModule.Name
 
 {{< highlight csharp >}}
 /// <summary>
@@ -611,7 +611,7 @@ public VbaModule()
 public string Name
 {{< /highlight >}}
 
-##### **Added a new public property VbaModule.Type**
+##### Added a new public property VbaModule.Type
 
 {{< highlight csharp >}}
 /// <summary>
@@ -620,7 +620,7 @@ public string Name
 public VbaModuleType Type
 {{< /highlight >}}
 
-##### **Added a new public void VbaModuleCollection.Add(VbaModule vbaModule)**
+##### Added a new public void VbaModuleCollection.Add(VbaModule vbaModule)
 
 {{< highlight csharp >}}
 /// <summary>
@@ -629,7 +629,7 @@ public VbaModuleType Type
 public void Add(VbaModule vbaModule)
 {{< /highlight >}}
 
-##### **Added a new public void VbaModuleCollection.Remove(VbaModule vbaModule)**
+##### Added a new public void VbaModuleCollection.Remove(VbaModule vbaModule)
 
 {{< highlight csharp >}}
 /// <summary>
@@ -639,7 +639,7 @@ public void Add(VbaModule vbaModule)
 public void Remove(VbaModule module)
 {{< /highlight >}}
 
-##### **Added ability to retrieve a module from the VbaModuleCollection by name.**
+##### Added ability to retrieve a module from the VbaModuleCollection by name.
 
 {{< highlight csharp >}}
 /// <summary>
@@ -648,7 +648,7 @@ public void Remove(VbaModule module)
 public VbaModule this[string name]
 {{< /highlight >}}
 
-##### **Added a new public property VbaModuleCollection.Count**
+##### Added a new public property VbaModuleCollection.Count
 
 {{< highlight csharp >}}
 /// <summary>
@@ -657,7 +657,7 @@ public VbaModule this[string name]
 public int Count
 {{< /highlight >}}
 
-##### **Added public enums for specifying a VbaModule type.**
+##### Added public enums for specifying a VbaModule type.
 
 {{< highlight csharp >}}
 /// <summary>
@@ -684,7 +684,7 @@ public enum VbaModuleType
 }
 {{< /highlight >}}
 
-##### **Use Case: Explains how to create a VbaProject from a scratch, create a VbaModules from a scratch and add it to the project.**
+##### Use Case: Explains how to create a VbaProject from a scratch, create a VbaModules from a scratch and add it to the project.
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -704,7 +704,7 @@ module.SourceCode = "New source code";
 doc.VbaProject.Modules.Add(module);
 {{< /highlight >}}
 
-### **Obsolete enum Aspose.Words.MailMerging.MailMergeRtlCleanupMode was removed**
+### Obsolete enum Aspose.Words.MailMerging.MailMergeRtlCleanupMode was removed
 
 Obsolete enum Aspose.Words.MailMerging.MailMergeRtlCleanupMode was removed.
 

@@ -5,7 +5,7 @@ weight: 10
 url: /net/working-with-footers-in-npoi/
 ---
 
-## **Aspose.Words - Working with Footers**
+## Aspose.Words - Working with Footers
 
 Below is the code to demonstrate how to insert footer in word document:
 
@@ -22,7 +22,7 @@ Below is the code to demonstrate how to insert footer in word document:
  }
 {{< /highlight >}}
 
-## **NPOI HWPF XWPF - Working with Footers**
+## NPOI HWPF XWPF - Working with Footers
 
 Below is the code to demonstrate how to insert footer in word document using NPOI:
 
@@ -37,7 +37,7 @@ Below is the code to demonstrate how to insert footer in word document using NPO
   }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Working with Footers** from any of the below mentioned social coding sites:
 
@@ -45,7 +45,7 @@ Download **Working with Footers** from any of the below mentioned social coding 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Working%20with%20Footers)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
 
-## **Download Sample Code**
+## Download Sample Code
 
 Download **Working with Footers** from any of the below mentioned social coding sites:
 

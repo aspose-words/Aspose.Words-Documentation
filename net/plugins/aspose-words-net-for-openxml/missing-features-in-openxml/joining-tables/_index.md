@@ -13,7 +13,7 @@ In order to manipulate a table to split or join with another table we simply nee
 
 {{% /alert %}} 
 
-##### **Example**
+##### Example
 
 *Shows how to combine the rows from two tables into one.*
 
@@ -43,13 +43,13 @@ secondTable.Remove();
 doc.Save(FileName);
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/Missing-Features-in-6a2c882b)
 
-## **Download Running Code**
+## Download Running Code
 
 - [Codeplex](http://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Words Features missing in OpenXML/Joining Tables/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/OpenXMLMissingFeatures/Joining%20Tables)

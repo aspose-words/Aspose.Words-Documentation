@@ -5,7 +5,7 @@ weight: 30
 url: /java/working-with-comments-in-ruby/
 ---
 
-## **Aspose.Words - Process Comments**
+## Aspose.Words - Process Comments
 
 Below you can see example code to extract comments, delete a specific comment and delete all comments.
 
@@ -79,7 +79,7 @@ def remove_comments(doc)
 end
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Process Comments (Aspose.Words)** from any of the below mentioned social coding sites:
 

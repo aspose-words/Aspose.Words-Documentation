@@ -11,17 +11,17 @@ These page list public API changes that were introduced in Aspose.Words 13.1.0. 
 
 {{% /alert %}} 
 
-## **Access to the Page Layout Model**
+## Access to the Page Layout Model
 
 Aspose.Words 13.1.0 provides basic access to the layout engine through the **LayoutCollector** and **LayoutEnumerator** classes. Use **LayoutCollector** to find the page numbers of any given node and the **LayoutEnumerator** class to walk through the layout elements on each page of the document.
 
 Download the [offline sample pack](http://www.aspose.com/community/files/72/java-components/aspose.words-for-java/entry187175.aspx) for examples of how the API is used.
 
-## **Retrieve the Field Facade Object of an Existing Field**
+## Retrieve the Field Facade Object of an Existing Field
 
 The field facade provides helpful methods such as getting the field code and field result of the field. In Aspose.Words 13.1.0 the fields API has been extended to allow the retrieval of this facade from existing fields in the document.
 
-### **Example**
+### Example
 
 *Demonstrates how to retrieve the field class from an existing FieldStart node in the document.*
 
@@ -41,11 +41,11 @@ Console.WriteLine("Is locked: " + field.isLocked());
 field.update();
 {{< /highlight >}}
 
-## **Added FieldCollection to Range**
+## Added FieldCollection to Range
 
 We have implemented a **FieldCollection** class that is very similar to **BookmarkCollection**. The **Range.Fields** property now allows to access all fields based on field starts within a node's range.
 
-### **Example**
+### Example
 
 *Demonstrates how to retrieve the field class from an existing FieldStart node in the document.*
 
@@ -59,7 +59,7 @@ Field field = doc.getRange().getFields().get(0);
 Console.WriteLine(field.getType());
 {{< /highlight >}}
 
-## **INCLUDETEXT Fields Supports HTTP Protocol**
+## INCLUDETEXT Fields Supports HTTP Protocol
 
 Aspose.Words now supports loading resources from internet based URLs using the HTTP protocol inside INCLUDETEXT fields. The target resource is downloaded from the web and loaded into Aspose.Words which means any **LoadFormat** supported by Aspose.Words is supported by this field.
 
@@ -67,11 +67,11 @@ Aspose.Words now supports loading resources from internet based URLs using the H
 
 **{INCLUDETEXT "http://www.google.com" }**
 
-## **AUTONUM and LISTNUM Fields are Supported**
+## AUTONUM and LISTNUM Fields are Supported
 
 These fields are an alternative way to produce numbered lists in a document. They do not have any persistant field result like most fields do, instead the result is "calculated" just before conversion. This occurs when rendering the document e.g converting to PDF, XPS, image etc or when converting to a non-Microsoft Word format such as HTML.
 
-## **Support for Loading Images from "embed", "object" and "iframe" Tags when Importing HTML**
+## Support for Loading Images from "embed", "object" and "iframe" Tags when Importing HTML
 
 Import of images from HTML files using the object, embed and iframe tags is now possible using Aspose.Words 11.3.0.
 
@@ -89,7 +89,7 @@ Import of images from HTML files using the object, embed and iframe tags is now 
 </html>
 {{< /highlight >}}
 
-## **SVG Images are Supported on HTML Import**
+## SVG Images are Supported on HTML Import
 
 Aspose.Words now supports import of SVG images from HTML. Internally in Aspose.Words document model the SVG images are converted to PNG images using resolution of 96 dpi. If width or height of SVG images is not specified or set to 0 then default value of 100pt is used.
 

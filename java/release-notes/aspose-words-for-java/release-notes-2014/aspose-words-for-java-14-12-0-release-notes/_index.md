@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 14.12.0](http://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 14.12 Release Notes**
+## Aspose.Words for Java 14.12 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 103 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -27,7 +27,7 @@ There are 103 improvements and fixes in this regular monthly release. The most 
   Improved text direction detection for documents with missing RTL attributes 
   Hyperlinks on shapes and text inside textboxes are exported correctly to HTML 
 
-## **All Changes**
+## All Changes
 
 |Key |Summary |Category |
 | :- | :- | :- |

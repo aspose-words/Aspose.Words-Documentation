@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 17.8](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 85 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -24,7 +24,7 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 - Detect comment resolved and comment replies and reply to which comment.
 - Added feature to format Data Labels of chart.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -118,7 +118,7 @@ Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.8. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **WORDSNET-14378 - New Properties Added into the PageSetup Class Allowing to Define Document Grid**
+### WORDSNET-14378 - New Properties Added into the PageSetup Class Allowing to Define Document Grid
 
 The following new public properties have been added into the PageSetup class to allow defining document grid behavior:
 
@@ -184,7 +184,7 @@ public enum SectionLayoutMode
 The Document Grid tab becomes visible in the Page Setup dialog of MS Word if any Asian language is defined as editing language.
 
 
-### **WORDSNET-14471. Detect Comment Resolved and Comment Replies and Reply to Which Comment**
+### WORDSNET-14471. Detect Comment Resolved and Comment Replies and Reply to Which Comment
 
 Added read-only public API to get extended comment properties.
 
@@ -221,7 +221,7 @@ foreach (Comment childComment in parentComment.Replies)
 }
 {{< /highlight >}}
 
-### **WORDSNET-14947. DistanceLeft, DistanceRight, DistanceTop, DistanceBottom Properties Added in Table Class**
+### WORDSNET-14947. DistanceLeft, DistanceRight, DistanceTop, DistanceBottom Properties Added in Table Class
 
 Added new public read-only properties to the **Table** class.
 
@@ -249,11 +249,11 @@ Console.WriteLine(table.DistanceRight);
 Console.WriteLine(table.DistanceLeft);
 {{< /highlight >}}
 
-### **WORDSNET-15497 - Compression of Document Structure Data and Cross-Reference Table in PDF 1.5 Output**
+### WORDSNET-15497 - Compression of Document Structure Data and Cross-Reference Table in PDF 1.5 Output
 
 Now document structure data and cross-reference table are compressed when saving to PDF 1.5. This changes do not affect PDF/A-1 output due to limitations in specification.
 
-### **WORDSNET-15521 - New Property NumberFormat Added to the ChartDataLabel Object**
+### WORDSNET-15521 - New Property NumberFormat Added to the ChartDataLabel Object
 
 
 New public property NumberFormat is available in the ChartDataLabel class:
@@ -337,7 +337,7 @@ chartDataLabel2.NumberFormat.FormatCode = "0.00%";
 chartDataLabel2.NumberFormat.IsLinkedToSource = true;
 {{< /highlight >}}
 
-### **WORDSNET-15641 - Implemented Signing Signature Line in Word Documents**
+### WORDSNET-15641 - Implemented Signing Signature Line in Word Documents
 
 
 \1. Added new public property for SignatureLine class:

@@ -19,7 +19,7 @@ By installing Aspose.Words for Reporting Services on a development machine and f
 
 {{% /alert %}} 
 
-#### **Step 1. Add a Reference to Aspose.Words.ReportingServices.dll to your project.**
+#### Step 1. Add a Reference to Aspose.Words.ReportingServices.dll to your project.
 
 Open your project in Visual Studio, right click on the **References** folder and select **Add Reference**. Click the **Browse** tab and browse to the following assembly:
 
@@ -37,7 +37,7 @@ Please note that Aspose.Words.ReportingServices.dll for ReportViewer 2015 should
 
 ![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
 
-#### **Step 2a. Add all Aspose extensions to Report Viewer.**
+#### Step 2a. Add all Aspose extensions to Report Viewer.
 
 This will add ALL available custom Aspose rendering extensions to the list of supported extensions in Microsoft Report Viewer.
 
@@ -83,7 +83,7 @@ End Class
 
 {{< /highlight >}}
 
-#### **Step 2b. Add specific Aspose extensions to Report Viewer.**
+#### Step 2b. Add specific Aspose extensions to Report Viewer.
 
 This will add only specific custom Aspose rendering extensions to the list of supported extensions in Microsoft Report Viewer.
 
@@ -187,7 +187,7 @@ End Class
 
 {{< /highlight >}}
 
-#### **Step 3. Test the new export formats.**
+#### Step 3. Test the new export formats.
 
 Run your application and you should notice a number of new export formats available in the Export dropdown list in Report Viewer. Select one of the formats and run export. Verify the document is created the way you expected.
 

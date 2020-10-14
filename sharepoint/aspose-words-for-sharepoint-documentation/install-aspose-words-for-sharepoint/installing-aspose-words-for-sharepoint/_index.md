@@ -26,7 +26,7 @@ Aspose.Words for SharePoint is downloadable as Aspose.Words.SharePoint.zip archi
 |Report.xsd|Report definition schema file|
 |DataSource.xsd|Data source definition schema file|
 
-## **Installation Process**
+## Installation Process
 
 The setup program checks the following conditions before proceeding:
 
@@ -54,7 +54,7 @@ The setup program performs the following actions:
 
 **![todo:image_alt_text](installing-aspose-words-for-sharepoint_1.png)**
 
-## **Deployment**
+## Deployment
 
 Aspose.Words for SharePoint performs the following actions during deployment:
 
@@ -62,7 +62,7 @@ Aspose.Words for SharePoint performs the following actions during deployment:
 - Install feature manifest and other necessary files to the appropriate directories.
 - Register the feature in the SharePoint database and make it available for the activation at the feature scope.
 
-## **Activation**
+## Activation
 
 Aspose.Words for SharePoint is packaged as a web application level feature and can be activated and deactivated on the web application level. During activation, the feature makes some changes to the virtual directory of web application:
 

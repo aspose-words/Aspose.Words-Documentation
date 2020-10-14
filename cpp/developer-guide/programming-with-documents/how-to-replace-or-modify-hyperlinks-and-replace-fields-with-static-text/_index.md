@@ -5,7 +5,7 @@ weight: 180
 url: /cpp/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/
 ---
 
-## **Replace or Modify Hyperlinks**
+## Replace or Modify Hyperlinks
 
 To find and modify hyperlinks it would be nice to have some sort of Hyperlink object with properties, but in the current version, there is no built-in functionality in Aspose.Words to deal with hyperlink fields.
 

@@ -5,7 +5,7 @@ weight: 30
 url: /java/split-tables/
 ---
 
-## **Aspose.Words - Split Tables**
+## Aspose.Words - Split Tables
 
 We first need to pick a row from where to split the table. Once we know this we can create two tables from the original table by following these simple steps:
 
@@ -39,12 +39,12 @@ do
 while (currentRow != row);
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithtables/splittables/AsposeSplittingTables.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithtables/splittables/AsposeSplittingTables.java)

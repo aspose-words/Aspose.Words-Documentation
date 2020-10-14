@@ -5,7 +5,7 @@ weight: 20
 url: /java/remove-breaks-in-ruby/
 ---
 
-## **Aspose.Words - Remove Breaks**
+## Aspose.Words - Remove Breaks
 
 To remove breaks using Aspose.Words Java in Ruby, simply invoke the remove_page_breaks() & remove_section_breaks() methods of RemoveBreaks module.
 
@@ -58,7 +58,7 @@ def remove_section_breaks(doc)
 end   
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Remove Breaks (Aspose.Words)** from any of the below mentioned social coding sites:
 

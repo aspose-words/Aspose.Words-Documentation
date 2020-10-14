@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.7.0. 
 
 {{% /alert %}} 
 
-### **Font.AutoColor Property Added**
+### Font.AutoColor Property Added
 
 WORDSNET-2768 is now resolved. Aspose.Words now can determine actual color of text output that will be used for the "auto color" using the following property:
 
@@ -43,7 +43,7 @@ Console.WriteLine(run.Font.AutoColor);
  // returns Color.Black.
 {{< /highlight >}}
 
-### **Basic API to Programmatically Manipulate Themes Added**
+### Basic API to Programmatically Manipulate Themes Added
 
 WORDSNET-10513 is now resolved. We have added basic API to access document theme properties. For now, this API includes following public objects:
 
@@ -79,7 +79,7 @@ theme.Colors.Hyperlink = Color.Gold;
             // Set Color.Gold for theme color Hyperlink.
 {{< /highlight >}}
 
-### **TextOrientation.VerticalRotatedFarEast Option Added**
+### TextOrientation.VerticalRotatedFarEast Option Added
 
 WORDSNET-12039 is now implemented and the following property added to the API:
 
@@ -103,7 +103,7 @@ Cell cell = (Cell) doc.GetChild(NodeType.Cell, 0, true);
 cell.CellFormat.Orientation = TextOrientation.VerticalRotatedFarEast;
 {{< /highlight >}}
 
-### **SaveOptions.UpdateSdtContent is added.**
+### SaveOptions.UpdateSdtContent is added.
 
 WORDSNET-12111 is now resolved. This option controls whether content of StructuredDocumentTag is updated before document saving. Default value is TRUE.
 

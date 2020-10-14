@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 11.9.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 11.9 Release Notes**
+## Aspose.Words for Java 11.9 Release Notes
 
-### **What's New**
+### What's New
 
 There are 152 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -26,7 +26,7 @@ There are 152 improvements and fixes in this regular monthly release. The most n
 
 For a list of changes to the public API in this release refer to the following article in the documentation. 
 
-## **All Fixes**
+## All Fixes
 
 |Key |Summary |Category |
 | :- | :- | :- |

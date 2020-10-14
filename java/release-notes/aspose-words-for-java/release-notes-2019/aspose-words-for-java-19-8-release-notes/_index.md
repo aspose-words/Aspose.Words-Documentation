@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 19.8](https://reposi
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Option to call HarfBuzz library (on Windows only yet) for better kerning.
 - Separate Aspose.Words jdk16.jar is publically available on Aspose Downloads site.
@@ -30,7 +30,7 @@ This page contains release notes for [Aspose.Words for Java 19.8](https://reposi
 - Fixed a bug with inheriting paragraph properties of data labels (Font size) when rendering DML charts.
 - Fixed a bug with clipping of the user shape text when rendering DML charts.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -119,12 +119,12 @@ This page contains release notes for [Aspose.Words for Java 19.8](https://reposi
 |WORDSNET-13533|Incorrect spacing on a paragraph imported from an HTML altchunk|Bug|
 |WORDSNET-13466|The font size of the text inside SmartArt is increased in output DOC/PDF|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.8. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
 
-### **Implemented an option that allows to specify whether to work with the original or revised version of a document**
+### Implemented an option that allows to specify whether to work with the original or revised version of a document
 
 Related issues: WORDSNET-18903, WORDSNET-18922.
 
@@ -150,7 +150,7 @@ public RevisionsView RevisionsView
 {{< /highlight >}}
 
 
-##### **Use Case. Explains how to access the revised version of a document:**
+##### Use Case. Explains how to access the revised version of a document:
 
 {{< highlight csharp >}}
 Document doc = new Document(@"test.docx");
@@ -173,7 +173,7 @@ foreach (Revision revision in doc.Revisions)
 }
 {{< /highlight >}}
 
-### **WORDSNET-18600 - Implemented API to define default options for data labels of chart series**
+### WORDSNET-18600 - Implemented API to define default options for data labels of chart series
 
 The following new public properties have been added into the ChartDataLabelCollection class:
 

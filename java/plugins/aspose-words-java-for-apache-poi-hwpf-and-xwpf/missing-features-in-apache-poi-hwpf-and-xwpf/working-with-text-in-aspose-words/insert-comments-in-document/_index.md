@@ -5,7 +5,7 @@ weight: 50
 url: /java/insert-comments-in-document/
 ---
 
-## **Aspose.Words - Insert Comments**
+## Aspose.Words - Insert Comments
 
 Comments of the document are represented by the Comment class.
 
@@ -21,12 +21,12 @@ comment.getParagraphs().add(new Paragraph(doc));
 comment.getFirstParagraph().getRuns().add(new Run(doc, "Comment text."));
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithtext/insertcomments/AsposeInsertComments.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithtext/insertcomments/AsposeInsertComments.java)

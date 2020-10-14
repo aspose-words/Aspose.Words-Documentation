@@ -5,7 +5,7 @@ weight: 20
 url: /net/working-with-headers-in-npoi/
 ---
 
-## **Aspose.Words - Working with Headers**
+## Aspose.Words - Working with Headers
 
 The following sample code demonstrates how to create headers/footers using Document object.
 
@@ -22,7 +22,7 @@ The following sample code demonstrates how to create headers/footers using Docum
  }
 {{< /highlight >}}
 
-## **NPOI HWPF XWPF - Working with Headers**
+## NPOI HWPF XWPF - Working with Headers
 
 **C#**
 
@@ -35,7 +35,7 @@ The following sample code demonstrates how to create headers/footers using Docum
   }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Working with Headers** from any of the below mentioned social coding sites:
 
@@ -43,7 +43,7 @@ Download **Working with Headers** from any of the below mentioned social coding 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Working%20with%20Headers)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
 
-## **Download Sample Code**
+## Download Sample Code
 
 Download **Working with Headers** from any of the below mentioned social coding sites:
 

@@ -5,7 +5,7 @@ weight: 70
 url: /java/simple-mail-merge-in-ruby/
 ---
 
-## **Aspose.Words - Simple Mail Merge**
+## Aspose.Words - Simple Mail Merge
 
 To use Mail Merge, simply invoke getMailMerge.execute() method.
 
@@ -27,7 +27,7 @@ doc.getMailMerge().execute(
 doc.save(data_dir + "MailMerge Out.docx")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Simple Mail Merge (Aspose.Words)** from any of the below mentioned social coding sites:
 

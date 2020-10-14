@@ -16,7 +16,7 @@ Have you ever wished you could export RDL and RDLC reports as OOXML, DOC, RTF an
 
 {{% /alert %}} 
 
-## **Aspose.Words for Reporting Services Resources**
+## Aspose.Words for Reporting Services Resources
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 

@@ -5,7 +5,7 @@ weight: 130
 url: /java/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/
 ---
 
-## **Replace or Modify Hyperlinks**
+## Replace or Modify Hyperlinks
 
 To find and modify hyperlinks it would be nice to have some sort of Hyperlink object with properties, but in the current version, there is no built-in functionality in Aspose.Words to deal with hyperlink fields. Hyperlinks in Microsoft Word documents are fields. A field consists of the field code and field result. In the current version of Aspose.Words, there is no single object that represents a field. Aspose.Words represents a field by a set of nodes: [FieldStart](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldStart), one or more [Run](http://www.aspose.com/api/java/words/com.aspose.words/classes/Run) nodes of the field code, [FieldSeparator](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldSeparator) , one or more **Run** nodes of the field result and [FieldEnd](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldEnd).
 
@@ -15,11 +15,11 @@ This example shows how to create a simple class that represents a hyperlink in t
 
 {{< gist "aspose-words" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-1.java" >}}
 
-## **Replace Fields with Static Text**
+## Replace Fields with Static Text
 
 This technique refers to removing dynamic fields from a document which change the text they display when updated and transforming them into plain text that will remain as they are even when fields are updated. This is often required when you wish to save your document as a static copy, for example for when sending as an attachment in an e-mail. The conversion of fields such as a DATE or TIME field to static text will enable them to display the same date as when you sent them. In some situations you may need to remove conditional IF fields from your document and replace them with the most recent text result instead. For example, converting the result of an IF field to static text so it will no longer dynamically change its value if the fields in the document are updated.
 
-### **The Solution**
+### The Solution
 
 The process of converting fields to static text involves extracting the field result (the most recently updated text stored in the field) and retaining this value while removing the field objects around it. This will result in what was a dynamic field to be static text instead.
 
@@ -33,7 +33,7 @@ The structure can also be seen below in hierarchical form using the demo project
 | :- |
 As described in the process above, to convert the field to static text all nodes between the **FieldStart** and **FieldSeparator** inclusive, and also the **FieldEnd** node must be removed. Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across multiple pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
 
-### **The Code**
+### The Code
 
 The implementation which converts fields to static text is described below. The ConvertFieldsToStaticText method can be called at any time within your application. After invoking this method, all of the fields of the specified field type that are contained within the composite node will be transformed into static text. Below class provides a static method convert fields of a particular type to static text.
 

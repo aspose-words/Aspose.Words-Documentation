@@ -13,7 +13,7 @@ You can easily download Aspose.Words for JasperReports for evaluation from the [
 
 The evaluation version of Aspose.Words for JasperReports (without a license specified) inserts an evaluation watermark at the top of the document on save, and limits the maximum document size to several hundred paragraphs. When you have bought a license, simply reference the license in the code to apply it.
 
-#### **Temporary License**
+#### Temporary License
 
 If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx).
 

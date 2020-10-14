@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 14.10](http://www.as
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 14.10 Release Notes**
+## Aspose.Words for Java 14.10 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 106 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -23,7 +23,7 @@ There are 106 improvements and fixes in this regular monthly release. The most 
   Implemented new features and effects in DrawingML rendering 
   Added LoadOptions.WebRequestTimeout property 
 
-## **All Changes**
+## All Changes
 
 |Key |Summary |Category |
 | :- | :- | :- |

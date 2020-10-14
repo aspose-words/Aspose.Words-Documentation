@@ -5,7 +5,7 @@ weight: 60
 url: /net/footnotes-an-endnote-features-supported-on-xps-export/
 ---
 
-## **Footnotes**
+## Footnotes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -20,7 +20,7 @@ url: /net/footnotes-an-endnote-features-supported-on-xps-export/
 |Starting Value |Yes | | |
 |Placement |Yes | | |
 
-## **Endnotes**
+## Endnotes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

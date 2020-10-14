@@ -5,7 +5,7 @@ weight: 30
 url: /sharepoint/deployment-and-activation/
 ---
 
-### **Deployment**
+### Deployment
 
 Aspose.Words for SharePoint performs the following actions during deployment:
 
@@ -13,7 +13,7 @@ Aspose.Words for SharePoint performs the following actions during deployment:
 - Installs the feature manifest and other necessary files to the appropriate directories.
 - Registers the feature in the SharePoint database and makes it available for activation at the feature scope.
 
-### **Activation**
+### Activation
 
 Aspose.Words for SharePoint is packaged as a web application level feature and can be activated and deactivated on the web application level. During activation, the feature makes some changes to the virtual directory of web application. It:
 

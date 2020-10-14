@@ -25,7 +25,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **Characters**
+## Characters
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -40,7 +40,7 @@ See the following links in the documentation for further information:
 |Symbol |Yes | | |
 |Tab |Planned |There is no equivalent of a tab in HTML documents. Tabs are currently exported as a series of non-breaking spaces. <br><br>These are imported back as a series of non-breaking spaces but there is a work around to replace these with proper tabs. <br><br>It is planne to import the special Microsoft Word mso attribute to properly import tab sequences. |- [ControlChar.Tab](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/tab)|
 
-## **Breaks**
+## Breaks
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -49,7 +49,7 @@ See the following links in the documentation for further information:
 |Page Break |Yes |Imported from &lt;br style="page-break-before:always; clear:both"&gt; |- [ControlChar.PageBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/pagebreak)|
 |Column Break |Yes |Imported using the Microsoft Office attribute on break: style="mso-column-break-before:always" |- [ControlChar.ColumnBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/columnbreak)|
 
-## **General Formatting**
+## General Formatting
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -62,7 +62,7 @@ See the following links in the documentation for further information:
 |Border |Yes |Imported from border-style, border-width, border-color on &lt;span&gt;. |- [Font.Border](https://apireference.aspose.com/words/net/aspose.words/font/properties/border)|
 |Shading |Yes |Imported from background-color on &lt;span&gt;. <br><br>Imported into the model as solid pattern on Run. |- [Font.Shading](https://apireference.aspose.com/words/net/aspose.words/font/properties/shading)|
 
-## **Font**
+## Font
 
 Bold and italics imported from font-weight:bold and font-style:italics on style.
 
@@ -85,7 +85,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Font |Yes | | |
 
-## **Underline**
+## Underline
 
 Imported from style attribute "text-decoration:underline" or from &lt;u&gt;&lt;/u&gt; tags.
 
@@ -100,7 +100,7 @@ See the following link in the documentation for further information:
 |Underline Type |N/A | | |
 |Underline Color |Planned |Can be imported from a bottom border with different color from text. |- [Font.UnderlineColor](https://apireference.aspose.com/words/net/aspose.words/font/properties/underlinecolor)|
 
-## **Text Effects**
+## Text Effects
 
 See the following link in the documentation for further information:
 
@@ -122,7 +122,7 @@ See the following link in the documentation for further information:
 |Special Hidden |Planned | | |
 |Web Hidden |Planned | | |
 
-## **Character Spacing**
+## Character Spacing
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

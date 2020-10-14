@@ -17,7 +17,7 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 
 {{% /alert %}} 
 
-## **Style Type**
+## Style Type
 
 See the following links in the documentation for further information:
 
@@ -32,7 +32,7 @@ See the following links in the documentation for further information:
 |List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |Table Style |Yes | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/StyleType)</p>|
 
-## **General**
+## General
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,14 +47,14 @@ See the following links in the documentation for further information:
 |Run Properties |Yes | |- [Style.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
 |Bullets and Numbering |Yes | |<p>- [Style.List](https://apireference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
 
-## **Document Defaults**
+## Document Defaults
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |Planned | | |
 |Run Properties |Yes | | |
 
-## **Table Style**
+## Table Style
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

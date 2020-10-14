@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for SharePoint 4.1.0](http://
 
 {{% /alert %}} 
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key |Summary |Category |
 | :- | :- | :- |

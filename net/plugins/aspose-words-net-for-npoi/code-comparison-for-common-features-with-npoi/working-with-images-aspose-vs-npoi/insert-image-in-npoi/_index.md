@@ -5,7 +5,7 @@ weight: 20
 url: /net/insert-image-in-npoi/
 ---
 
-## **Aspose.Words - Insert Image**
+## Aspose.Words - Insert Image
 
 This example inserts an image from a file at a specified position and size
 
@@ -22,7 +22,7 @@ builder.InsertImage("../../image/HumpbackWhale.jpg", widthEmus, heightEmus);
 doc.Save("test.docx");
 {{< /highlight >}}
 
-## **NPOI HWPF XWPF - Insert Image**
+## NPOI HWPF XWPF - Insert Image
 
 XWPFRun.addPicture is used to add an image to document.
 
@@ -46,7 +46,7 @@ using (FileStream sw = File.Create("test.docx"))
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Insert Image** form any of the below mentioned social coding sites:
 

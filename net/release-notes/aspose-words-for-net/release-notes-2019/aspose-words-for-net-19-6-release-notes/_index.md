@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 19.6](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Provided API to Extract VBA Macros from Word Document.
 - Added a new DocSaveOptions.AlwaysCompressMetafiles option.
@@ -30,7 +30,7 @@ This page contains release notes for [Aspose.Words for .NET 19.6](https://www.nu
 - Improved text positioning when there is a paragraph-relative shape with an anchor wrapped around multiple floaters.
 - Improved calculation of space before a paragraph when it's first in the document and there is a floater before it.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -95,12 +95,12 @@ This page contains release notes for [Aspose.Words for .NET 19.6](https://www.nu
 |WORDSNET-18616|Missing text in word to PDF rendering|Bug|
 |WORDSNET-13064|Content controls are missed after saving DOCX to DOC/PDF|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 
-### **Added a new DocSaveOptions.AlwaysCompressMetafiles option**
+### Added a new DocSaveOptions.AlwaysCompressMetafiles option
 
 Related issue: WORDSNET-18202.
 
@@ -125,7 +125,7 @@ saveOptions.AlwaysCompressMetafiles = false;
 doc.Save("SmallMetafilesUncompressed.doc", saveOptions);
 {{< /highlight >}}
 
-### **License.IsLicensed marked as obsolete**
+### License.IsLicensed marked as obsolete
 
 This property will be removed later by security reason.
 
@@ -137,7 +137,7 @@ This property will be removed later by security reason.
 public bool IsLicensed
 {{< /highlight >}}
 
-### **WORDSNET-3714 Ability to read macros from the document**
+### WORDSNET-3714 Ability to read macros from the document
 
 Implemented feature to get access to VBA project source code. Following classes has been added: VbaProject, VbaModuleCollection, VbaModule.
 
@@ -196,7 +196,7 @@ if(doc.VbaModule != null)
         Console.WriteLine(module.SourceCode);
 {{< /highlight >}}
 
-### **WORDSNET-17856 Obsolete method Replace() was removed from the Range class**
+### WORDSNET-17856 Obsolete method Replace() was removed from the Range class
 
 Obsolete method Replace was removed from Range class. And fixed a few minor bug in new FindReplacer.
 Pay attention that new FindReplacer behavior may differ for some cases(e.g. SmartTag replacement).
@@ -228,7 +228,7 @@ public int Replace(Regex pattern, string replacement)
 public int Replace(Regex pattern, string replacement, FindReplaceOptions options)
 {{< /highlight >}}
 
-### **WORDSNET-18400 - Implemented table style public API**
+### WORDSNET-18400 - Implemented table style public API
 
 New public properties have been added into the TableStyle class, and the new public types ConditionalStyleCollection, ConditionalStyle, ConditionalStyleType have been implemented.
 
@@ -587,7 +587,7 @@ doc.Save(dir + "TableConditionalStyle.docx");
 {{< /highlight >}}
 
 
-### **WORDSNET-18570 Added public method ConvertToHorizontallyMergedCells**
+### WORDSNET-18570 Added public method ConvertToHorizontallyMergedCells
 
 There are two well-known techniques used by MS Word to implement horizontally merged cells inside the table. The first one is the merge flags, like Cell.CellFormat.HorizontalMerge, but according to the latest MS Word behavior looks like this way is not used anymore and MS Word just does not write merge flags. Instead, MS Word uses another technique, where cells are merged horizontally by its width.
 

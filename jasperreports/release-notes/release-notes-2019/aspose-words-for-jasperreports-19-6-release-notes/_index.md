@@ -11,7 +11,7 @@ This page contains release notes of [Aspose.Words for JasperReports 19.6](https:
 
 {{% /alert %}} 
 
-## **Important Note:**
+## Important Note:
 
 Starting from release **1.9.0** there are several versions of JAR library (necessary for better support of older versions of JasperServer and JasperReports):
 
@@ -28,7 +28,7 @@ Note that there is no more support of JasperReports **3.7.1** and lower versio
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key |Summary |Category |
 | :- | :- | :- |
@@ -39,7 +39,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 |WORDSJR-267|Badly formed rows - truncated text|Bug |
 |WORDSJR-268|An extra blank line is exported in output DOCX|Bug |
 
-## **Configuration Option Changes**
+## Configuration Option Changes
 
 [DOCX Compatibility option](/words/jasperreports/compatibility-mode-for-docx-output/) is extended in this release.
 

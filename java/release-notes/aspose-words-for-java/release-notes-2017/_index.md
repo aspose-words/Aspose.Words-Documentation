@@ -5,4 +5,4 @@ weight: 40
 url: /java/release-notes-2017/
 ---
 
-### **Release Notes - 2017**
+### Release Notes - 2017

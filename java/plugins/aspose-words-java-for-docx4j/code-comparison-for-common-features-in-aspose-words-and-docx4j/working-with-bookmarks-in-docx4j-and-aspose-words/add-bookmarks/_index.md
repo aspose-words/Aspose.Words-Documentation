@@ -5,7 +5,7 @@ weight: 10
 url: /java/add-bookmarks/
 ---
 
-## **Aspose.Words - Add Bookmarks**
+## Aspose.Words - Add Bookmarks
 
 Use **DocumentBuilder.StartBookmark** and **DocumentBuilder.EndBookmark** to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
@@ -25,7 +25,7 @@ Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("AsposeBookmark");
 {{< /highlight >}}
 
-## **docx4j - Add Bookmarks**
+## docx4j - Add Bookmarks
 
 The following code example shows how a bookmark can be added using docx4j.
 
@@ -49,12 +49,12 @@ Hyperlink h = MainDocumentPart.hyperlinkToBookmark(bookmarkName, "link to bookma
 wordMLPackage.getMainDocumentPart().addParagraphOfText("some text").getContent().add(h);
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/bookmarks/addbookmark/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/bookmarks/addbookmark)

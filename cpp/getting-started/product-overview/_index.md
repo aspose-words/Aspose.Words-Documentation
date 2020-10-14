@@ -11,7 +11,7 @@ url: /cpp/product-overview/
 
 Aspose.Words for C++ is a native class library that enables C++ application developers to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, and other formats (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*). With Aspose.Words you can generate, modify and convert documents without utilizing Microsoft Word®.
 
-## **Benefits**
+## Benefits
 
 Using Aspose.Words for C++ in your project gives you the following benefits:
 
@@ -20,11 +20,11 @@ Using Aspose.Words for C++ in your project gives you the following benefits:
 - Platform independence
 - Performance and scalability
 
-### **Rich Set of Features**
+### Rich Set of Features
 
 There could be hundreds of features related to Word document manipulation, however, we have decided to include just the basic ones in the early releases. Here is a list of notable features which will be available in the early versions of Aspose.Words for C++.
 
-##### **Document Content Features**
+##### Document Content Features
 
 - Access, create and modify paragraphs and text.
 - Access, create and modify images, text boxes and shapes.
@@ -42,7 +42,7 @@ There could be hundreds of features related to Word document manipulation, howev
 - Ability to work with Web Extension elements
 - Read and Write VBA Macros
 
-##### **Document Formatting Features**
+##### Document Formatting Features
 
 - Access and modify all character formatting including fonts, colors, effects, borders and shading.
 - Access and modify all paragraph formatting including indents, spacing, borders and shading, tab stops.
@@ -53,23 +53,23 @@ There could be hundreds of features related to Word document manipulation, howev
 - Access and modify drawing objects including position, size, line and fill properties, image bytes.
 - Ability to customize the formatting of the horizontal rule shape
 
-##### **Mail Merge Features**
+##### Mail Merge Features
 
 - Programmatically create or modify a Microsoft Word mail merge data source for a document. Preserve mail merge settings and data sources.
 
-### **No Microsoft Word Automation**
+### No Microsoft Word Automation
 
 Aspose.Words does not require Microsoft Office to be installed on the machine in order to work. All Aspose components are totally independent and are not affiliated with, nor authorized, sponsored, or otherwise approved by Microsoft Corporation. In short, Aspose.Words is a better alternative to automation in terms of security, stability, scalability/speed, price and features.
 
-### **Platform Independence**
+### Platform Independence
 
 Aspose.Words for C++ can be used to build 64-bit C++ application.
 
-### **Performance and Scalability**
+### Performance and Scalability
 
 Aspose.Words for C++ is designed to perform equally well, both on server and client-side. Aspose.Words for C++ is a native assembly that can be deployed by simply copying it. You do not have to worry about other services or modules.
 
-## **Technical Support**
+## Technical Support
 
 Aspose provides unlimited free technical support for all its products. Support is available to all users, including evaluation.
 

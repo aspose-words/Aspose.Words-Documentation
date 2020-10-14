@@ -23,7 +23,7 @@ The logic used when a external style sheet is enctounered on ocument load can be
 
 {{% /alert %}} 
 
-## **Style Type**
+## Style Type
 
 Styles are imported from embedded or external CSS style sheets. Each selector is imported as a new Style in the Aspose.Words model. All styles are imported even if they are not actually used within the HTML body.
 
@@ -45,7 +45,7 @@ See the following links in the documentation for further information:
 |List Style |Planned | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/StyleType)</p>|
 
-## **General**
+## General
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -60,14 +60,14 @@ See the following links in the documentation for further information:
 |Run Properties |Yes | |- [Style.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
 |Bullets and Numbering |Yes | |<p>- [Style.List](https://apireference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
 
-## **Document Defaults**
+## Document Defaults
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Paragraph Properties |N/A | | |
 |Run Properties |N/A | | |
 
-## **Table Style**
+## Table Style
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

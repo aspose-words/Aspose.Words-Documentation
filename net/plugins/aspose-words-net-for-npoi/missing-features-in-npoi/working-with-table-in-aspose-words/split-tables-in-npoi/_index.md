@@ -5,7 +5,7 @@ weight: 30
 url: /net/split-tables-in-npoi/
 ---
 
-## **Aspose.Words - Split Tables**
+## Aspose.Words - Split Tables
 
 We first need to pick a row at where to split the table. Once we know this we can create two tables from the original table by following these simple steps:
 
@@ -43,7 +43,7 @@ while (currentRow != row);
 doc.Save("Table.SplitTable Out.doc");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Split Tables** form any of the below mentioned social coding sites:
 

@@ -11,41 +11,41 @@ These page list public API changes that were introduced in Aspose.Words 13.8.0. 
 
 {{% /alert %}} 
 
-### **Document.RemoveExternalSchemaReferences is made Public.**
+### Document.RemoveExternalSchemaReferences is made Public.
 
 Use **Document.RemoveExternalSchemaReferences** to remove XSD references from the document
 
-### **MailMergeCleanupOptions.RemoveEmptyParagraphs Removes Paragraphs Containing NEXT and NEXTIF Fields**
+### MailMergeCleanupOptions.RemoveEmptyParagraphs Removes Paragraphs Containing NEXT and NEXTIF Fields
 
 Starting with this version of Aspose.Words the option **MailMergeCleanupOptions.RemoveEmptyParagraphs** now removes paragraphs that contain **NEXT** and **NEXTIF** fields that are otherwise empty.
 
 In addition **MailMergeCleanupOptions.RemoveEmptyParagraphs** and **MailMergeCleanupOptions.RemoveContainingFields** also now affect all of the fields participating in a mail merge such as ADDRESSBLOCK and so forth.
 
-### **MetafileRenderingMode added to ImageSaveOptions**
+### MetafileRenderingMode added to ImageSaveOptions
 
 This member allows the user to select between Aspose.Words and GDI+ metafile rendering engines. 
 
 When **MetafileRenderingMode.Vector** is specified, Aspose.Words renders metafile to vector graphics using own metafile rendering engine first and then renders vector graphics to the image. When **MetafileRenderingMode.Bitmap** is specified, Aspose.Words renders metafile directly to the image using GDI+ metafile rendering engine. **MetafileRenderingMode.Bitmap** is the default value and should be used in most cases. **MetafileRenderingMode.Vector** allows to achieve more consistent text rendering on low resolutions.
 
-### **PostScript Save Format Introduced**
+### PostScript Save Format Introduced
 
 Aspose.Words can now render documents to PostScript 3.0 format. This format is often used when sending data directly to printers and should be used over the standard printing framework when printing speed is essential.
 
-### **Protection of Selected Ranges API Introduced**
+### Protection of Selected Ranges API Introduced
 
 **EditableRangeStart**, **EditableRangeEnd** nodes and the **EditableRange** facade are added as new public API model entities which can be preserved during DOC/DOCX/WML/RTF round trip.
 
 These classes provide equivalent members to modify features of the protected range, such as changing the editor group, removing the range, changing the permissions and so forth.
 
-### **Style.IsQuickStyle Added to the Public API**
+### Style.IsQuickStyle Added to the Public API
 
 Use **Style.IsQuickStyle** to get or set whether the style is included in the Quick Styles Gallery displayed on the top ribbon when a document is opened in Microsoft Word.
 
-### **Remove a Style from a Document**
+### Remove a Style from a Document
 
 Use **Style.Remove** to delete a style from a document.
 
-### **SVG Images now Imported into the Aspose Document Model as an Vector Image**
+### SVG Images now Imported into the Aspose Document Model as an Vector Image
 
 In previous versions SVG images were imported into the model as raster image when a document was loaded. This change was implemented so that SVG images can be exported to fixed page formats such as PDF as vector images instead of as raster images like was done before. This change should greatly improve the fidelity of SVG images when converting to fixed page formats.
 

@@ -11,11 +11,11 @@ This page contains release notes for [Aspose.Words for Java 15.11.0](http://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 15.11 Release Notes**
+## Aspose.Words for Java 15.11 Release Notes
 
-### **Major Features**
+### Major Features
 
-## **There are 146 improvements and fixes in this regular monthly release. The most notable are:**
+## There are 146 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improvements to rendering of images on Mono.
 - Some new public methods and properties for picture bullets, checkboxes, fields, styles.
@@ -23,7 +23,7 @@ This page contains release notes for [Aspose.Words for Java 15.11.0](http://www.
 - Many improvements in rendering of WordArt, gradient fill, SmartArt, DrawingML.
 - Fixes and improvements in all document format conversions.
 
-## **All Changes**
+## All Changes
 
 |Key |Summary |Category |
 | :- | :- | :- |

@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 17.12](http://maven.
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 91 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -37,7 +37,7 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 - Fixed exception in rare case when line break point cannot be found.
 - Fixed exception when document is saved with revision balloons inside of a cell.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -133,11 +133,11 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 |WORDSNETSTD-1|Add feature to support Aspose.Words for .NET Core 2.0|Feature|
 |WORDSNET-16127|Different behavior of Section New Page Break in 16.7 and 17.11|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Implemented API to Set Chart Axis Properties**
+### Implemented API to Set Chart Axis Properties
 
 Related issue WORDSNET-13512.
 
@@ -721,7 +721,7 @@ dataDir = dataDir + "SetIntervalUnitBetweenLabelsOnAxis_out.docx";
 doc.save(dataDir);
 {{< /highlight >}}
 
-### **Added Feature to Get the docPartGallery Value of StructuredDocumentTag of Type SdtType.DocPartObj.**
+### Added Feature to Get the docPartGallery Value of StructuredDocumentTag of Type SdtType.DocPartObj.
 
 Related issue WORDSNET-15972.
 
@@ -741,7 +741,7 @@ Now it is possible to obtain the value of these properties for "Markup.SdtType.
 
 Note: these properties still can no be set for SDT of the document part type.
 
-### **Changed Return Type for FieldMergingArgsBase.Field**
+### Changed Return Type for FieldMergingArgsBase.Field
 
 Related Issue: WORDSNET-16088 
 

@@ -22,7 +22,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-##### **Headers and Footers**
+##### Headers and Footers
 
 Each Header and Footer in a document is stored per section. Each header or footer is imported into Aspose.Words as a HeaderFooter node. This node is always a child of a Section. 
 
@@ -52,7 +52,7 @@ See the following links in the documentation for further information:
 |Different Even and Odd Pages |Yes |Note that setting a Microsoft Word Document to display even or odd header footers applies to the entire document. If you set this option in Microsoft Word then all sections follow this rule. Even though this is a documentw-wide setting, in Aspose.Words this property appears per section as a PageSetup property. Changing this property affects all sections in the document. | |
 |Continue from Previous Section |Yes |<p>In a Microsoft Word document a header or footer can be linked to the previous section. This means the same headers and footers from the section before will be displayed for this section as well. In some cases you can check this by using the HeaderFooter.LinkedToPrevious property. <br><br>In Aspose.Words, the different situations are represented in the model as follows: </p><p>- If a document has no headers or footers of a certain type then no Section node contains any child Header Footer of that type. </p><p>- If header or footer is not linked to the previous section (the header of footer is different from the previous section) then the Section node will have its own Header Footer node of that type. This is the same for each type of header or footer that is not linked in the Section. </p><p>- If a header or footer is linked to the previous section then there will be no header or footer of that type in the current section. This means that a section that appears to have no header or footer nodes can still be displaying headers and footers as they come from previous sections. Check the HeaderFooter.LinkedToPrevious property. </p><p>- If a header or footer is not linked to the previous section but it simply blank (no content) then there will be a header or footer in that section, however it will contain no content (no runs). <br><br>  You can link/unlink header footers from previous sections by using the HeaderFooter.LinkToPrevious method. If you unlink a headerfooter from the previous section using Microsoft Word, the content from the previous header or footer is copied over. In Aspose.Words however the header footer is unlinked but left blank. You can copy the content from the previous section if required. Note that you can choose to unlink all headers and footers of all types or just a particular type. For example the primary header footer can be different whereas the primary footer can still be linked to the previous section. </p>| |
 
-##### **Section Break Type**
+##### Section Break Type
 
 See the following links in the documentation for further information:
 
@@ -67,7 +67,7 @@ See the following links in the documentation for further information:
 |Next Column |Yes | | |
 |Next Page |Yes | | |
 
-##### **Text Columns**
+##### Text Columns
 
 See the following link in the documentation for further information:
 
@@ -77,7 +77,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Text Columns |Yes | | |
 
-##### **Page Margins**
+##### Page Margins
 
 See the following links in the documentation for further information:
 
@@ -90,7 +90,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Page Margins |Yes | | |
 
-##### **Page Numbering**
+##### Page Numbering
 
 See the following links in the documentation for further information:
 
@@ -102,7 +102,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Page Numbering |Yes | | |
 
-##### **General Formatting**
+##### General Formatting
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -116,13 +116,13 @@ See the following links in the documentation for further information:
 |Vertical Alignment |Yes | |- [PageSetup.VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words/PageSetup/properties/verticalalignment)|
 |Asian Document Grid |Yes | | |
 
-##### **Chapter Numbering**
+##### Chapter Numbering
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Chapter Numbering |Yes | | |
 
-##### **Page Border**
+##### Page Border
 
 See the following links in the documentation for further information:
 

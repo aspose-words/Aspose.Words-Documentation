@@ -5,7 +5,7 @@ weight: 10
 url: /java/joining-and-appending-in-jython/
 ---
 
-## **Aspose.Words - Joining And Appending**
+## Aspose.Words - Joining And Appending
 
 To Join And Append documents using **Aspose.Words Java for Jython**. Here you can see sample code.
 
@@ -45,7 +45,7 @@ if __name__ == '__main__':
     AppendDocument()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

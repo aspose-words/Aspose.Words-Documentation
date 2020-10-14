@@ -5,7 +5,7 @@ weight: 100
 url: /java/working-with-nodes-in-jython/
 ---
 
-## **Aspose.Words - Working With Nodes**
+## Aspose.Words - Working With Nodes
 
 To Work With Nodes using **Aspose.Words Java for Jython**. Here you can see example code.
 
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     WorkingWithNodes()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

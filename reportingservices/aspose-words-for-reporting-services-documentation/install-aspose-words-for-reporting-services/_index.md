@@ -5,7 +5,7 @@ weight: 50
 url: /reportingservices/install-aspose-words-for-reporting-services/
 ---
 
-###### **This section includes the following topics:** 
+###### This section includes the following topics: 
 
 - [System Requirements](/words/reportingservices/system-requirements/)
 - [Installing Using the MSI Installer](/words/reportingservices/installing-using-the-msi-installer/)

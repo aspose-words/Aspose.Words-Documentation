@@ -9,7 +9,7 @@ In Aspose.Words the [**DocumentBuilder.InsertImage**](http://www.aspose.com/api/
 
 Using [Shape ](http://www.aspose.com/api/net/words/aspose.words.drawing/shape)class you can create or modify shapes in a Microsoft Word document. ([ConvertUtil ](http://www.aspose.com/api/net/words/aspose.words/convertutil)Provides helper functions to convert between various measurement units, like Convert [inches to points](http://www.aspose.com/api/net/words/aspose.words/convertutil/methods/inchtopoint))
 
-##### **Example**
+##### Example
 
 **C#**
 
@@ -34,13 +34,13 @@ shape.Height = ConvertUtil.InchToPoint(0.5);
 builder.Document.Save("ImageReSize.doc");
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsnpoi.codeplex.com/downloads/get/1556914)
 - [Github](https://github.com/asposewords/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/More-Code-Examples-of-d19b2e19)
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsnpoi.codeplex.com/SourceControl/latest#Missing Features of NPOI HWPF and XWPF/Aspose.Words/08-WorkingWithImages/08.03-ImageReSize/)
 - [Github](https://github.com/asposewords/Aspose.Words-for-.NET/releases/download/Aspose.WordsFeaturesmissinginNPOIv1.2/08.03-ImageReSize.zip)

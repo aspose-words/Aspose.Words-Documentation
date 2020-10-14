@@ -5,7 +5,7 @@ weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-doc-export/
 ---
 
-## **Footnotes**
+## Footnotes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -20,7 +20,7 @@ url: /net/footnotes-and-endnote-features-supported-on-doc-export/
 |Starting Value |Yes | | |
 |Placement |Yes | | |
 
-## **Endnotes**
+## Endnotes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

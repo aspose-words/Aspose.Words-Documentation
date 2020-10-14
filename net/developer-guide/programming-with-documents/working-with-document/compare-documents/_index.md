@@ -15,7 +15,7 @@ You can try this functionality with our [Document comparison online](https://pro
 
 {{% /alert %}}
 
-## **Limitations**
+## Limitations
 
 There are a few general limitations:
 
@@ -37,13 +37,13 @@ The following code example demonstrates how to test that Word Documents are "Eq
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-CompareDocument-CompareForEqual.cs" >}}
 
-## **Compare Word Documents and Ignore Document Formatting**
+## Compare Word Documents and Ignore Document Formatting
 
 CompareOptions class allows to choose advanced options for document comparison operation. You can ignore document formatting, headers-footers, fields, footnotes, tables, text boxes, comments and case changes when documents are compared. Set the value of CompareOptions.IgnoreFormatting property to *true* to ignore the document formatting. The headers and footers contents are ignored when CompareOptions.IgnoreHeadersAndFooters is set to *true*. The following code example demonstrates how to ignore the document's formatting and headers footers contents.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-CompareDocument-CompareDocumentWithCompareOptions.cs" >}}
 
-## **Set Target Document for Comparison Differences**
+## Set Target Document for Comparison Differences
 
 MS Word has "Show changes in" option in compare document dialogue box and the result of the comparison depends on this option. CompareOptions.Target property serves this purpose. This property specifies which document shall be used as a target during the comparison. For example, this option together with IgnoreFormatting setting determines which document has to be used as a formatting source for ranges of equal text. ComparisonTargetType enumeration is used to specify base document which will be used during the comparison. The following code example demonstrates how to set the target document for a comparison of two documents. 
 

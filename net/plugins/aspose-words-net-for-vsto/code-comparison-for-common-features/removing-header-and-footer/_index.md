@@ -5,7 +5,7 @@ weight: 60
 url: /net/removing-header-and-footer/
 ---
 
-## **VSTO**
+## VSTO
 
 {{< highlight csharp >}}
 Word.Document doc = Application.Documents.Open("Add Headers and Footers.doc");
@@ -13,7 +13,7 @@ Globals.ThisAddIn.Application.ActiveDocument.Sections[1].Headers[Microsoft.Offic
 Globals.ThisAddIn.Application.ActiveDocument.Sections[1].Footers[Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterPrimary].Range.Paragraphs.Last.Range.Delete();
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 {{< highlight csharp >}}
 Document doc = new Document("Remove Headers and Footers.doc");
@@ -30,7 +30,7 @@ foreach (Section section in doc)
 doc.Save("Remove Headers and Footers.doc");
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/787340)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Removing.Header.and.Footer.Aspose.Words.zip)

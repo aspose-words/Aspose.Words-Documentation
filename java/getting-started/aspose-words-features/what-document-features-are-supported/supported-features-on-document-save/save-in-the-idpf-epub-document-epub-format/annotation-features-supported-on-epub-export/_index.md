@@ -11,7 +11,7 @@ url: /java/annotation-features-supported-on-epub-export/
 
 {{% /alert %}} 
 
-## **Bookmarks**
+## Bookmarks
 
 All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unqiue names, that is, no two bookmarks are allowed the exact same name.
 
@@ -26,7 +26,7 @@ Bookmark is represented by &lt;a&gt; element. Only bookmark start is output. Nes
 |Bookmark Name |Yes | | |
 |Bookmark Table Columns |N/A | | |
 
-## **Comments**
+## Comments
 
 There are plans to export comments to HTML as footnotes.
 
@@ -38,7 +38,7 @@ There are plans to export comments to HTML as footnotes.
 |Date |Planned | | |
 |Initial |Planned | | |
 
-## **Tracking Changes**
+## Tracking Changes
 
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 

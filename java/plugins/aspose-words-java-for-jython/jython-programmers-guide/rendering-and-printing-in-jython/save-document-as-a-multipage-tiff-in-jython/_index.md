@@ -5,13 +5,13 @@ weight: 20
 url: /java/save-document-as-a-multipage-tiff-in-jython/
 ---
 
-## **Aspose.Words - Save Document as a Multipage TIFF**
+## Aspose.Words - Save Document as a Multipage TIFF
 
 To Save Document as a Multipage TIFF using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 Error rendering macro 'code' : Invalid value specified for parameter lang
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

@@ -23,7 +23,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 {{% /alert %}}
 
-## **Table**
+## Table
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -40,7 +40,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Table Shading|Yes| | |
 |Hidden|Planned|Hidden table or row is currently exported as collapsed with no content. This can produce the correct output with the exception of a row border present.| |
 
-## **Floating Tables**
+## Floating Tables
 
 Floating tables are saved as normal tables.
 
@@ -54,13 +54,13 @@ Floating tables are saved as normal tables.
 |Move with Text|Planned| | |
 |Allow Overlap Floating Tables|Planned| | |
 
-## **Table Borders**
+## Table Borders
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Table Borders|Yes| | |
 
-## **Rows**
+## Rows
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -69,7 +69,7 @@ Floating tables are saved as normal tables.
 |Height|Yes| | |
 |Height Rule|Yes| | |
 
-## **Cells**
+## Cells
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

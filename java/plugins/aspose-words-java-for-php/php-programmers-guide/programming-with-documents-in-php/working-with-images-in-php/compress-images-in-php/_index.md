@@ -5,7 +5,7 @@ weight: 20
 url: /java/compress-images-in-php/
 ---
 
-## **Aspose.Words - Compress Images**
+## Aspose.Words - Compress Images
 
 **Php Code**
 

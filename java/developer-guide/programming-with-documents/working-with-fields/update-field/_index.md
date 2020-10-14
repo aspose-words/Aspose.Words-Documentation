@@ -5,7 +5,7 @@ weight: 20
 url: /java/update-field/
 ---
 
-## **How to Update Fields**
+## How to Update Fields
 
 When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word with the option to automatically update fields is switched off. The behavior can be summarized as follows:
 
@@ -14,11 +14,11 @@ When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word wi
 - When you print/render to PDF or XPS the fields related to page-numbering in headers/footers are updated.
 - When you execute mail merge all fields are updated automatically.
 
-### **Update Fields Programmatically**
+### Update Fields Programmatically
 
 To explicitly update fields in the whole document, simply call [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document). To update fields contained in part of a document, obtain a [Range](http://www.aspose.com/api/java/words/com.aspose.words/classes/Range) object and call the [Range.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Range) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](http://www.aspose.com/api/java/words/com.aspose.words/classes/Section), [HeaderFooter](http://www.aspose.com/api/java/words/com.aspose.words/classes/HeaderFooter), [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph) etc using the [Node.getRange()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Node) property. You can update the result of a single field by calling [Field.update()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Field).
 
-### **Automatic Update of Page-Related Fields during Rendering**
+### Automatic Update of Page-Related Fields during Rendering
 
 When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields PAGE, PAGEREF found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
 
@@ -35,17 +35,17 @@ doc.updateFields();
 doc.save(getMyDir() + "Rendering.UpdateFields Out.pdf");
 {{< /highlight >}}
 
-### **Automatic Field Update during Mail Merge**
+### Automatic Field Update during Mail Merge
 
 When you execute a mail merge, all fields in the document will be automatically updated. This is because the mail merge is a case of a field update. The program encounters a mail merge field and needs to update its result, which involves grabbing the value from the data source and inserting it into the field. The logic is, of course, more complicated, for example, when the end of the document/mail merge region is reached but there is still further data to be merged, then the region needs to be duplicated and the new set of fields updated.
 
-## **Differences in Field Update in Aspose.Words 10.0 and Above**
+## Differences in Field Update in Aspose.Words 10.0 and Above
 
 Starting from Aspose.Words 10.0 the way that some fields are updated is slightly different, due to the internal reworking of the field evaluation engine. These changes to the field engine allow fields to be more accurately updated and brings field updating in Aspose.Words closer to how field update in Microsoft Word behaves.
 
 With the implementation of this new engine, the general behavior of field update remains the same with the exceptions which mostly affect how the [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) and [Document.updatePageLayout()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) methods behave. These important changes are detailed below:
 
-### **Calling UpdateFields Now Updates All Field Types**
+### Calling UpdateFields Now Updates All Field Types
 
 In previous versions calling [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) or [Range.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Range) would update only regular fields such as IF or DOCPROPERTY and not page-layout related fields such as PAGE or NUMPAGES. Newer versions will now update both the regular and page-layout related fields.
 
@@ -56,7 +56,7 @@ When [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.w
 A similar process occurs when a single field is updated using the [Field.update()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Field) method. If this field is a regular field then only this field is updated as normal. However, if this field is related to the page layout then the document layout is rebuilt and it is updated along with all other page related fields found in headers or footers.
 These changes in field evaluation may potentially cause results that differ from previous versions on certain documents when executing the same field update code.
 
-### **Calling UpdatePageLayout Now Only Updates Page-Layout Related Fields in Headers and Footers**
+### Calling UpdatePageLayout Now Only Updates Page-Layout Related Fields in Headers and Footers
 
 In previous versions, a call to [Document.updatePageLayout](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updatePageLayout\(\)/) was required in order to update fields in the document like PAGE and PAGEREF. In the current version, this functionality is handled by [Document.updateFields](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updateFields\(\)/) which updates all types of fields as discussed above.
 
@@ -64,25 +64,25 @@ In previous versions, a call to [Document.updatePageLayout](http://www.aspose.co
 
 These changes to how fields are updated upon document layout are required and match how Microsoft Word updates fields. This now allows a document to be rendered without any fields in the main body being updated which is how fields are evaluated in Microsoft Word. If the old functionality of updating page-related fields in the entire document when rendering is desired then an explicit call to [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) is required before saving the document.
 
-### **All Types of Fields Encountered during Mail Merge are Updated**
+### All Types of Fields Encountered during Mail Merge are Updated
 
 Previously only non page-related fields encountered during mail merge would be updated. Now all fields inside a mail merge region (or in the whole body if not using mail merge regions) are updated, including page-related fields.
 
 As with [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) this may invoke the document layout to be built if page-related fields are encountered. This behavior mimics how Microsoft Words handles field update during mail merge and ensures that after mail merge has been executed all fields are up to date with correct values.
 
-### **Rebuilding TOC Fields No Longer Requires UpdatePageLayout to be Called**
+### Rebuilding TOC Fields No Longer Requires UpdatePageLayout to be Called
 
 As explained earlier, all fields are now updated using Document.UpdateFields. This now means a more concise and clearer way to update the fields in a document. This also means in situations such as updating a TOC field you no longer require any call to Document.updatePageLayout. All work is handled within the Document.updateFields call. Below examples shows how to completely rebuild TOC fields in the document by invoking field update.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateDocFields-1.java" >}}
 
-## **How to Rename Merge Fields**
+## How to Rename Merge Fields
 
 An example that shows how to create your own **MergeField** class, that represents a single merge field in a Microsoft Word document and allows you to get or set its name. Below example shows how to rename merge fields in a Word document.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-RenameMergeFields-.java" >}}
 
-## **Field Display Result**
+## Field Display Result
 
 Aspose.Words provides a property to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model.
 

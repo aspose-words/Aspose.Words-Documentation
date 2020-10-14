@@ -5,7 +5,7 @@ weight: 40
 url: /net/create-and-add-a-paragraph-style/
 ---
 
-### **OpenXML SDK**
+### OpenXML SDK
 
 {{< highlight csharp >}}
 class Program
@@ -147,7 +147,7 @@ return part;
 }
 {{< /highlight >}}
 
-### **Aspose.Words**
+### Aspose.Words
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -174,7 +174,7 @@ string txt = builder.CurrentParagraph.GetText();
 doc.Save(File);
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

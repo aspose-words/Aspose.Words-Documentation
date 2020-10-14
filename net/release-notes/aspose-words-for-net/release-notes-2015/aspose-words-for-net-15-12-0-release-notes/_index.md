@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 15.12.0](https://www
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 15.12 Release Notes**
+## Aspose.Words for .NET 15.12 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 80 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -24,7 +24,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 - Apply styles from the template during HTML insertion
 - HTML Import supports ruby tags now
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

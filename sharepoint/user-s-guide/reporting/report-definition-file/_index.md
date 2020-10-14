@@ -5,7 +5,7 @@ weight: 80
 url: /sharepoint/report-definition-file/
 ---
 
-###### **This section includes the following topics:**
+###### This section includes the following topics:
 
 - [Report Definition Overview](/words/sharepoint/report-definition-overview/)
 - [Report Element](/words/sharepoint/report-element/)

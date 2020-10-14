@@ -5,7 +5,7 @@ weight: 10
 url: /sharepoint/reporting/
 ---
 
-###### **This section includes the following topics:**
+###### This section includes the following topics:
 
 - [About Reporting in Aspose.Words for SharePoint](/words/sharepoint/about-reporting-in-aspose-words-for-sharepoint/)
 - [Report Template and Merge Fields](/words/sharepoint/report-template-and-merge-fields/)

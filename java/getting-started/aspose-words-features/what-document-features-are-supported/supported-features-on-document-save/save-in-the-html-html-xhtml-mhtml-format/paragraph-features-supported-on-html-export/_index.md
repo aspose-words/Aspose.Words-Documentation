@@ -27,7 +27,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 {{% /alert %}}
 
-## **General Formatting**
+## General Formatting
 
 There is a setting to export paragraph styles and formatting as inline CSS (style) only, or as a mix of inline and embedded or linked CSS style sheet (class).
 
@@ -46,7 +46,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Suppress Line Numbers|Planned| | |
 |Suppress Hyphenation|Planned| | |
 
-## **Indents**
+## Indents
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -57,7 +57,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Mirror Indents|Yes|Exported as a combination of "margin-left" and "text-indent" on style.| |
 |Automatically Adjust Right Indent|N/A| | |
 
-## **Spacing**
+## Spacing
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -67,7 +67,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Line Spacing|Yes|Exported as "line-height" with percent.| |
 |No Space between Conforming Paragraphs|Planned| | |
 
-## **Keeps and Breaks**
+## Keeps and Breaks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -76,7 +76,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 |Keep Lines Together|Yes|Exported as style attribute with "page-break-inside:avoid".| |
 |Page Break Before|Yes|Exported as "page-break-before" on style attribute.| |
 
-## **Text Frames**
+## Text Frames
 
 Text frames are exported as paragraphs surrounded by a border.
 
@@ -84,7 +84,7 @@ Text frames are exported as paragraphs surrounded by a border.
 | :- | :- | :- | :- |
 |Text Frames|Yes| | |
 
-## **Tab Stops**
+## Tab Stops
 
 Tab stops are not natively available in HTML. Aspose.Words converts tab stops into a fixed set of non-breaking spaces.
 
@@ -97,7 +97,7 @@ Will be improved later by simulating the correct width. Consider using a borderl
 |Alignment: Left, Center, Right, Decimal, Bar|Planned| | |
 |Leader|Planned|Leader characters are currently not exported to HTML.| |
 
-## **Drop Caps**
+## Drop Caps
 
 A drop cap is a frame which is exported to HTML as a paragraph with borders.
 
@@ -107,7 +107,7 @@ Visually the drop cap looks correct but the main text is moved to the next parag
 | :- | :- | :- | :- |
 |Drop Caps|Yes| | |
 
-## **Borders**
+## Borders
 
 Borders are exported on style attribute as border-xxx-style and border-xxx-width etc.
 
@@ -123,13 +123,13 @@ Normally each side is exported as separate attributes even if all borders of the
 |Width|Yes| | |
 |Distance from Text|Yes|Exported as "padding-xxx".| |
 
-## **Shading**
+## Shading
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shading|Yes| | |
 
-## **Asian Typography**
+## Asian Typography
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

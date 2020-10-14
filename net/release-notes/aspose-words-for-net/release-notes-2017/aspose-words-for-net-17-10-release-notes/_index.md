@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 17.10](https://www.n
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 76 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -29,7 +29,7 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 - Provide API similar to SignatureSet.AddSignatureLine Method (Office).
 - Expose Table.HorizontalAlignment property public.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -110,11 +110,11 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15872|Incorrect position of a text box anchored in an RTL paragraph|Regression|
 |WORDSNET-15883|Aspose.Words throws FileCorruptedException upon loading DOCM file|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.10. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Added CompareOptions.Target Property and Enumeration ComparisonTargetType**
+### Added CompareOptions.Target Property and Enumeration ComparisonTargetType
 
 Related issue WORDSNET-15681.
 
@@ -166,13 +166,13 @@ options.Target =  ComparisonTargetType.New;
 docA.Compare(docB, "am", DateTime.Now, options);
 {{< /highlight >}}
 
-### **LINQ Reporting Engine Supports Dynamic Chart Series Removal**
+### LINQ Reporting Engine Supports Dynamic Chart Series Removal
 
 Related Issue: WORDSNET-15442
 
 The "[Using Charts to Represent Sequential Data](/words/net/template-syntax/#templatesyntax-usingchartstorepresentsequentialdata)" section of the engine's documentation was updated to describe the change.
 
-### **Added Public Methods to Add and Remove Replies to Comment**
+### Added Public Methods to Add and Remove Replies to Comment
 
 Related issue WORDSNET-9959
 
@@ -217,7 +217,7 @@ comment.AddReply("John Doe", "JD", new DateTime(2017, 9, 25, 12, 15, 0), "New re
 doc.Save(outFileName);
 {{< /highlight >}}
 
-### **Format1bppIndexed Added to ImageSaveOptions.PixelFormat**
+### Format1bppIndexed Added to ImageSaveOptions.PixelFormat
 
 Related issue: WORDSNET-13489
 
@@ -251,7 +251,7 @@ opt.PixelFormat = ImagePixelFormat.Format1bppIndexed;
 doc.Save("out.png", opt);
 {{< /highlight >}}
 
-### **Ability to Get and Set Number of Footnote Layout Columns is Implemented**
+### Ability to Get and Set Number of Footnote Layout Columns is Implemented
 
 Related issue: WORDSNET-14958
 
@@ -338,7 +338,7 @@ public enum EndnotePosition
 }
 {{< /highlight >}}
 
-### **Provided API Similar to SignatureSet.AddSignatureLine Method (Office)**
+### Provided API Similar to SignatureSet.AddSignatureLine Method (Office)
 
 Related issue: WORDSNET-14984
 
@@ -394,7 +394,7 @@ CertificateHolder certHolder = CertificateHolder.Create("pathToCert.pfx", "certP
 DigitalSignatureUtil.Sign("pathToSrcFile.docx", "pathToDstFile.docx", certHolder, signOptions);
 {{< /highlight >}}
 
-### **Exposed Table.HorizontalAlignment Property**
+### Exposed Table.HorizontalAlignment Property
 
 Related issue: WORDSNET-15817
 
@@ -427,7 +427,7 @@ else
 }
 {{< /highlight >}}
 
-### **Prevent Embedding Fonts while Saving into HTML Fixed Format.**
+### Prevent Embedding Fonts while Saving into HTML Fixed Format.
 
 Related issue: WORDSNET-15880
 

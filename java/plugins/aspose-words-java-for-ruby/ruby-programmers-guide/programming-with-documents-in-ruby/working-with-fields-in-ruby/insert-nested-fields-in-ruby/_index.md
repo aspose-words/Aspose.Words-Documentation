@@ -5,7 +5,7 @@ weight: 10
 url: /java/insert-nested-fields-in-ruby/
 ---
 
-## **Aspose.Words - Insert Nested Fields**
+## Aspose.Words - Insert Nested Fields
 
 **Ruby Code**
 
@@ -40,7 +40,7 @@ field.update()
 doc.save(data_dir + "InsertNestedFields Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Insert Nested Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 

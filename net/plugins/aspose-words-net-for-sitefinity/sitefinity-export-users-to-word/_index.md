@@ -22,15 +22,15 @@ url: /net/sitefinity-export-users-to-word/
 - [Support](#SitefinityExportUserstoWord-Support)
 - [Extend and Contribute](#SitefinityExportUserstoWord-ExtendandContribute)
 
-## **Introduction**
+## Introduction
 
 Aspose .NET Export Users to Word for SiteFinity Module allows developers to export SiteFinity Users into Microsoft Word or OpenOffice Document. This module demonstrates the powerful document building feature provided by Aspose.Words.
 
 ![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2016/01/Screenshot-2016-01-19-14.57.02-1024x505.png)
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 In order to setup Aspose.Words .NET for Sitefinity add-ons you need to have the following requirements met:
 
@@ -38,20 +38,20 @@ In order to setup Aspose.Words .NET for Sitefinity add-ons you need to have the 
 
 Please feel free to contact us if you have any issues setting up this Sitefinity Add-on.
 
-### **Supported Platforms**
+### Supported Platforms
 
 The Add-on is supported on all versions of
 
 - Sitefinity CMS running on ASP.NET 4.0
 
-## **Source Code**
+## Source Code
 
 You can get the latest source code from one of the following locations
 
 - [CodePlex ](https://asposewordsnetmvc.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/MVC/Aspose.MVC.ExportToWord)
 
-### **How to configure the source code**
+### How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 
@@ -63,9 +63,9 @@ Please follow these simple steps to get started
 1. Open Visual Studio 2010 and Choose **File** > **Open Project**
 1. Browse to the latest source code that you have downloaded and open the **.sln** file.
 
-## **Installation and Usage**
+## Installation and Usage
 
-### **Downloading**
+### Downloading
 
 You can download Aspose .NET Export Users to Word for Sitefinity module from one of the following locations
 
@@ -73,7 +73,7 @@ You can download Aspose .NET Export Users to Word for Sitefinity module from one
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 - [Code.MSDN ](https://code.msdn.microsoft.com/Aspose-NET-Export-Users-to-12cf32ef)
 
-### **Installing**
+### Installing
 
 Once downloaded, please follow these steps to install the Add-on into your Sitefinity website:
 
@@ -107,9 +107,9 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
 1. When finished, click **Save changes**.
    The widget is registered in the toolbox and can be used in Sitefinity.
 
-## **Using and Video Demo**
+## Using and Video Demo
 
-### **Using**
+### Using
 
 After you have installed and configured the Aspose Sitefinity Export Users to Word add-on it is really simple to start using it on your website. Please follow these simple steps to get started:
 
@@ -120,11 +120,11 @@ After you have installed and configured the Aspose Sitefinity Export Users to Wo
 
 You have successfully added Aspose Sitefinity Export Users to Word.
 
-### **Video Demo**
+### Video Demo
 
 Please check [the video](https://www.youtube.com/watch?v=Xyu3iUQfAq8) below to see the module in action.
 
-## **Support**
+## Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -135,6 +135,6 @@ You can log any issues or suggestions related to Aspose.Words .NET for Sitefinit
 - [CodePlex ](https://asposewordsnetmvc.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 
-## **Extend and Contribute**
+## Extend and Contribute
 
 Aspose Sitefinity Widgets / Modules are open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.

@@ -5,7 +5,7 @@ weight: 10
 url: /java/about-mail-merge/
 ---
 
-## **About Mail Merge in Aspose.Words**
+## About Mail Merge in Aspose.Words
 
 Aspose.Words can generate documents from templates with mail merge fields. The data from an external source like a database or file is placed into these fields and formatted, and the resulting document is saved in the folder you specify.
 Mail Merge is a feature of Microsoft Word for quickly and easily creating documents like letters, labels and envelopes. Aspose.Words takes the standard mail merge and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to generate even more complex documents such as reports, catalogs, inventories, and invoices.
@@ -18,7 +18,7 @@ The advantages of the Aspose.Words reporting solution are:
 - Execute any custom logic, control formatting, or insert complex content using mail merge event handlers.
 - Populate documents with data from any type of data source.
 
-### **Basic Steps**
+### Basic Steps
 
 Steps to perform a mail merge are quite easy. First, you use Microsoft Word to create and design a Word document normally called a template. Note that the document does not have to be a Microsoft Word Template (.dot), it can be a normal .doc document. You insert some special fields called merge fields into the template in places where you want data from your data source to be later inserted.
 
@@ -32,11 +32,11 @@ If you do not use mail merge regions, then the mail merge will be similar to Mic
 
 Using repeatable mail merge regions, you can designate portions inside a document that will be repeated for each record in the data source. For example, if you mark a table row as a repeatable region then this table row will be repeated, causing the table to dynamically grow to accommodate all of your data.
 
-## **Prepare a Document**
+## Prepare a Document
 
 Before you execute a mail merge, you need to prepare the document template. You should insert merge fields that will be replaced with values from your data source.
 
-### **Inserting Merge Fields into a Document:**
+### Inserting Merge Fields into a Document:
 
 To Insert Merge Fields into a Document:
 
@@ -59,24 +59,24 @@ Of course, since a merge field is a regular Microsoft Word field, you can switch
 
 ![todo:image_alt_text](http://i.imgur.com/x06C4lU.png)
 
-## **Merge Field Formatting**
+## Merge Field Formatting
 
 If you want to format merged data, you need to format merge fields in the document as appropriate. Do not format the data in the data source because its formatting is not retained when you merge the data into the document.
 
 This topic provides basic information about the merge field formatting. To learn the details, please refer to the Microsoft Word documentation.
 
-### **Change Text Formatting**
+### Change Text Formatting
 
 - In the main document, select the field that contains the information you want to format, including the surrounding merge field characters («« »»).
 - On the **Format menu**, click a command, such as **Font** or **Paragraph**, and then select the desired options.
 
-### **Change Capitalization**
+### Change Capitalization
 
 Merge fields in Microsoft Word support several options that affect how the data in the merge field is capitalized. Aspose.Words honors those options. You can set capitalization options in the Field dialog box in Microsoft Word. 
 
 ![todo:image_alt_text](http://i.imgur.com/dOu6LRu.png)
 
-### **Using Field Codes to Specify Formatting**
+### Using Field Codes to Specify Formatting
 
 Microsoft Word supports switches that control how numbers and dates are formatted and Aspose.Words honors those switches.
 
@@ -89,7 +89,7 @@ For example:
 
 To ensure that the merged information has the same font and point size you apply to the merge field, add the *\\\* MERGEFORMAT* switch.
 
-### **Setting Image Size for Image Merge Fields**
+### Setting Image Size for Image Merge Fields
 
 To insert an image, you should designate a placeholder using a merge field whose name looks like Image:FieldName. Some times you have a requirement to specify image size in the image fields name in Document.
 
@@ -101,7 +101,7 @@ Image(width[pt|%];height[pt|%]):FieldName
 
 The format is case-insensitive. The values of the width and the height should represent double constant values using the dot as the decimal separator (i.e. using invariant culture). Negative values should be used to indicate that the original values of the corresponding image dimensions should be used. If no unit is specified, points are used by default. If a unit other than “pt” or “%” is specified, then the image size parsing is considered to be failed and the original values of the corresponding image dimensions are used.
 
-## **Simple Mail Merge Explained**
+## Simple Mail Merge Explained
 
 In order to prepare your template to perform a simple mail merge (without regions, similar to the classic mail merge available in Microsoft Word) you should just insert one or more merge fields in the places you want to be populated with data from the data source.
 Let us take a look at the **Dinner Invitation** demo. It creates a letter for a list of clients defined in the database. The template contains a number of merge fields that are populated from two data sources; in other words, two mail merges are performed one after the other. First, data from the first data source is merged into the template. This data source contains only one row because this is information about the inviter, so the whole document content is not repeated and only the appropriate fields are filled with data. 
@@ -117,7 +117,7 @@ As you can see, it is possible, and sometimes useful to perform more than one me
 
 You can insert NEXT fields in the Word document to cause the mail merge engine to select the next record from the data source and continue merging. When the engine encounters a NEXT field, it just selects the next record in the data source and continues merging without copying any content. This can be used when creating documents such as mailing labels.
 
-## **Mail Merge with Regions Explained**
+## Mail Merge with Regions Explained
 
 If you want to dynamically grow portions inside the document, use mail merge with regions. To specify a mail merge region in the document you need to insert two mail merge fields to mark the beginning and end of the mail merge region. All document content that is included inside a mail merge region automatically will be repeated for every record in the data source (in most cases this is a table).
 
@@ -141,15 +141,15 @@ After executing the mail merge, here is the result:
 
 ![todo:image_alt_text](http://i.imgur.com/1RaKxy7.png)
 
-## **How to Control New Pages during Mail Merge**
+## How to Control New Pages during Mail Merge
 
-### **Question**
+### Question
 
 Is it possible to create a new page in the document for each record in the data source when executing mail merge?
 
 Conversely, is it possible to make sure all merged records appear continuously without page breaks?
 
-### **Answers**
+### Answers
 
 {{% alert color="primary" %}} 
 
@@ -157,13 +157,13 @@ Yes. There are different techniques depending upon whether you are using simple 
 
 {{% /alert %}} 
 
-### **Controlling New Pages when Using Simple Mail Merge**
+### Controlling New Pages when Using Simple Mail Merge
 
 In Microsoft Word, go to File / Page Setup / Layout. Select Section / Start from new page. Since the mail merge engine duplicates document content and the result is multiple document sections (one section per merged record), choosing this option will force Word to start every section from a new page.
 
 ![todo:image_alt_text](http://i.imgur.com/GtvsbI7.png)
 
-### **Controlling New Pages when Using Mail Merge with Regions**
+### Controlling New Pages when Using Mail Merge with Regions
 
 If you use mail merge with regions, then the mail merge region is duplicated for each record. A mail merge region can include block level elements such as paragraphs, tables, table rows all inside a single section. You can control page breaks for each merged record in a number of ways:
 
@@ -174,7 +174,7 @@ When the [MailMerge.getRemoveEmptyParagraphs](http://www.aspose.com/api/java/wor
 
 To remedy this issue you can consider moving the content from the next paragraph onto the previous paragraph so it will not be removed during mail merge.
 
-## **How to Produce Multiple Documents during Mail Merge**
+## How to Produce Multiple Documents during Mail Merge
 
 A typical mail merge operation with Aspose.Words fills just one document with data from your data source (e.g. creates an invoice or a letter).
 
@@ -192,7 +192,7 @@ Below example produce multiple documents during mail merge. You can download the
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ProduceMultipleDocumentsDuringMailMerge-.java" >}}
 
-## **Mail Merge using 'Mustache' Template Syntax**
+## Mail Merge using 'Mustache' Template Syntax
 
 This new syntax allows you to create templates for use with mail merge that use plain text markers instead of merge fields. These markers look like this:
 
@@ -204,7 +204,7 @@ Below example performs a simple insertion of data into merge fields and sends th
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-SimpleInsertionOfDataIntoMergeFields.java" >}}
 
-### **Object.Attribute Syntax**
+### Object.Attribute Syntax
 
 You can easily merge attributes of fields using the following syntax:
 
@@ -223,7 +223,7 @@ This will merge data from XML data which looks like this:
 </Order>
 {{< /highlight >}}
 
-### **Foreach Blocks**
+### Foreach Blocks
 
 You can merge data from multiple records using the foreach tag. This is similar to mail merge regions with convectional merge fields. You can nest such blocks.
 {{< highlight csharp >}}
@@ -240,7 +240,7 @@ You can also mix these fields and place them inside other Microsoft Word fields 
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseMailMergeUsingMustacheSyntax.java" >}}
 
-### **Conditional Block**
+### Conditional Block
 
 You can use mail merge with IF statement using Aspose.Words. The IF block executes only if the Boolean expression associated with it is *true*. The syntax of IF is shown below.
 
@@ -250,7 +250,7 @@ Below code example shows how to use mail merge with an IF statement in a mustach
 
 {{< gist "" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseOfifelseMustacheSyntax.java" >}}
 
-### **Known Issue**
+### Known Issue
 
 There is one exception using Object.Attribute Syntax in the template.
 

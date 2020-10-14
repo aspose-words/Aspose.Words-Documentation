@@ -17,7 +17,7 @@ Section-wide formatting is exported as CSS styles on &lt;div&gt;.
 
 {{% /alert %}} 
 
-## **Headers and Footers**
+## Headers and Footers
 
 There is a save option that controls how headers and footers are output. This controls how the primary header is exported in different places in the output document.
 
@@ -35,7 +35,7 @@ See the following link in the documentation for further information:
 |Different Even and Odd Pages |N/A | | |
 |Continue from Previous Section |Yes | | |
 
-## **Section Break Type**
+## Section Break Type
 
 Section breaks are exported as a &lt;br&gt; tag which contains the special Microsoft Office attribute mso-break-type:section-break.
 
@@ -57,7 +57,7 @@ See the following links in the documentation for further information:
 |Next Column |Yes |Exported as &lt;br&gt; with mso-column-break-before:always | |
 |Next Page |Yes |Exported as &lt;br&gt; with page-break-before:always. | |
 
-## **Text Columns**
+## Text Columns
 
 HTML and EPUB have no native support for text columns.
 
@@ -67,7 +67,7 @@ Support for this feature may be possible in a future version using CSS3 or EPUB 
 | :- | :- | :- | :- |
 |Text Columns |N/A | | |
 
-## **Page Margins**
+## Page Margins
 
 Page settings are output optionally to HTML though the use of a save option. This is exported either as an embedded or external style sheet depending on save option used.
 
@@ -79,14 +79,14 @@ Some features need Microsoft Office specific attributes, they are not currently 
 | :- | :- | :- | :- |
 |Page Margins |Yes | | |
 
-## **Page Numbering**
+## Page Numbering
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Number Format |N/A | | |
 |Starting Number |N/A | | |
 
-## **General Formatting**
+## General Formatting
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -100,7 +100,7 @@ Some features need Microsoft Office specific attributes, they are not currently 
 |Vertical Alignment |N/A | | |
 |Asian Document Grid |N/A | | |
 
-## **Chapter Numbering**
+## Chapter Numbering
 
 Output as list item with ordinary list numbering.
 
@@ -108,7 +108,7 @@ Output as list item with ordinary list numbering.
 | :- | :- | :- | :- |
 |Chapter Numbering |Yes | | |
 
-## **Page Border**
+## Page Border
 
 HTML does not have any "page" concept so no page border is imported.
 

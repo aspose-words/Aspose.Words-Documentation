@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 20.10](https://downl
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 89 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -20,7 +20,7 @@ There are 89 improvements and fixes in this regular monthly release. The most no
 - Implemented new API for exporting specific pages to fixed page formats.
 - Released the first version of SmartArt Cold Rendering.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -114,11 +114,11 @@ There are 89 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-7885|	Text/Image positions are incorrect while conversion from MHT to DOC/DOCX|Bug|
 |WORDSNET-21193|Broken numbering when converting HTML to DOCX |Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
-### **Added a new public option LayoutOptions.IgnorePrinterMetrics**
+### Added a new public option LayoutOptions.IgnorePrinterMetrics
 
 Related issue: WORDSNET-20221
 
@@ -141,7 +141,7 @@ doc.LayoutOptions.IgnorePrinterMetrics = false;
 doc.Save(outFileName);
 {{< /highlight >}}
 
-### **Added a new public overloaded methods InsertOleObjectAsIcon**
+### Added a new public overloaded methods InsertOleObjectAsIcon
 
 Related issue: WORDSNET-20702
 
@@ -194,7 +194,7 @@ using (MemoryStream stream = new MemoryStream(File.ReadAllBytes("C:\\embedded.xl
 doc.Save("C:\\output.docx");
 {{< /highlight >}}
 
-### **Added a new public property CompareOptions.IgnoreDmlUniqueId**
+### Added a new public property CompareOptions.IgnoreDmlUniqueId
 
 Related issue: WORDSNET-19042
 
@@ -220,7 +220,7 @@ compareOptions.IgnoreDmlUniqueId = true;
 docA.Compare(docB, "vs", DateTime.Now, compareOptions);
 {{< /highlight >}}
 
-### **Added a new public property LoadOptions.ConvertMetafilesToPng**
+### Added a new public property LoadOptions.ConvertMetafilesToPng
 
 Related issue: WORDSNET-20809
 
@@ -245,7 +245,7 @@ lo.ConvertMetafilesToPng = true;
 Document doc = new Document(fielName, lo);
 {{< /highlight >}}
 
-### **Added a new public property StructuredDocumentTagRangeStart.XmlMapping**
+### Added a new public property StructuredDocumentTagRangeStart.XmlMapping
 
 Related issue: WORDSNET-21062
 
@@ -274,7 +274,7 @@ sdtRangeStart.XmlMapping.SetMapping(doc.CustomXmlParts[0], "/Root/Element", null
 doc.Save(outFileName);
 {{< /highlight >}}
 
-### **Added FieldOptions.FieldIndexFormat property and FieldIndexFormat enum**
+### Added FieldOptions.FieldIndexFormat property and FieldIndexFormat enum
 
 Related issue: WORDSNET-20022
 
@@ -316,7 +316,7 @@ Use case is as simple as:
 document.FieldOptions.FieldIndexFormat = FieldIndexFormat.Fancy;
 {{< /highlight >}}
 
-### **Added support for loading CHM documents**
+### Added support for loading CHM documents
 
 Related issue: WORDSNET-17788
 
@@ -356,7 +356,7 @@ LoadOptions options = new LoadOptions
 Document doc = new Document("help.chm", options);
 {{< /highlight >}}
 
-### **A new public property MarkdownSaveOptions.ImagesFolder has been added**
+### A new public property MarkdownSaveOptions.ImagesFolder has been added
 
 Related issue: WORDSNET-20879
 
@@ -398,7 +398,7 @@ using (MemoryStream stream = new MemoryStream())
     doc.Save(stream, so);
 {{< /highlight >}}
 
-### **Document.DefaultTabStop property can now be zero**
+### Document.DefaultTabStop property can now be zero
 
 Related issue: WORDSNET-20746
 
@@ -410,7 +410,7 @@ Document doc = TestUtil.Open("input.docx");
 doc.DefaultTabStop = 0;
 {{< /highlight >}}
 
-### **Document.ExtractPages() method was introduced**
+### Document.ExtractPages() method was introduced
 
 Related issue: WORDSNET-16228
 
@@ -432,7 +432,7 @@ A new method ExtractPages() has been added to the Document class. Returns the ne
 public Document ExtractPages(int index, int count)
 {{< /highlight >}}
 
-### **Implemented new API for exporting specific pages to fixed page formats**
+### Implemented new API for exporting specific pages to fixed page formats
 
 Related issue: WORDSNET-20820
 
@@ -558,7 +558,7 @@ xpsOptions.PageSet = new PageSet(0, 1, 2, 5, 1, 3, 2, 3);
 doc.Save("out.xps", xpsOptions);
 {{< /highlight >}}
 
-### **Released the first version of SmartArt Cold Rendering**
+### Released the first version of SmartArt Cold Rendering
 
 Microsoft Word generates and saves the pre-rendered drawing along with the SmartArt object. In most cases the pre-rendered drawing is rendered well by Aspose.Words and no additional actions required. However if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case the SmartArt object itself should be laid-out and rendered. We call this process the SmartArt Cold Rendering.
 
@@ -663,7 +663,7 @@ Here are example pictures of Aspose.Words Cold Rendering of some standard layout
 |Trapezoid List	|<img src="TrapezoidList Aspose.png" alt="TrapezoidList Aspose"/>|<img src="TrapezoidList Word.png" alt="TrapezoidList Word"/>|
 
 
-### **Signatures of DocumentBuilder.InsertOleObject methods changed to accept Syste.IO.Stream instead of System.Drawing.Image**
+### Signatures of DocumentBuilder.InsertOleObject methods changed to accept Syste.IO.Stream instead of System.Drawing.Image
 
 Related issue: WORDSNET-20736
 
@@ -721,7 +721,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 }
 {{< /highlight >}}
 
-### **The indexer of VbaReferenceCollection is exposed publicly**
+### The indexer of VbaReferenceCollection is exposed publicly
 
 Related issue: WORDSNET-21071
 

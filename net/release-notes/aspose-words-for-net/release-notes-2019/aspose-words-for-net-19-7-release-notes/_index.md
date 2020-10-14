@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 19.7](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Implemented basic reader and writer for Markdown format.
 - Implemented public API for dealing with linked text boxes.
@@ -35,7 +35,7 @@ This page contains release notes for [Aspose.Words for .NET 19.7](https://www.nu
 - Language settings in the format code are now taken into account when rendering DML charts.
 - Fixed a bug with rendering of the Pie chart with empty series.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -122,12 +122,12 @@ This page contains release notes for [Aspose.Words for .NET 19.7](https://www.nu
 |WORDSNET-12705|VML shape in improperly converted from DOCX to PDF|Bug|
 |WORDSNET-13327|Horizontally merged cells are ignored in PDF after calling Document.UpdateTableLayout|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 
-### **Added property Revision.Group**
+### Added property Revision.Group
 
 Related issue: WORDSNET-18418
 
@@ -161,7 +161,7 @@ foreach (Revision revision in doc.Revisions)
 }
 {{< /highlight >}}
 
-### **Implemented basic reader and writer for Markdown features**
+### Implemented basic reader and writer for Markdown features
 
 Related issue: WORDSNET-18338.
 
@@ -372,7 +372,7 @@ doc.Save("QuotesModifiedExample.md");
 {{< /highlight >}}
 
 
-### **Implemented feature to detect SmartArt shape**
+### Implemented feature to detect SmartArt shape
 
 Related issue: WORDSNET-18745.
 
@@ -399,7 +399,7 @@ Console.WriteLine("The document has {0} shapes with SmartArt.", count);
 {{< /highlight >}}
 
 
-### **Implemented support of OpenType fonts. Implemented support of Kerning feature**
+### Implemented support of OpenType fonts. Implemented support of Kerning feature
 
 Support of OpenType fonts was added. Support of advanced typography feature Kerning was added.
 
@@ -433,14 +433,14 @@ public void Test()
 {{< /highlight >}}
 
 
-### **Supported dynamic list numbering restart for LINQ Reporting Engine**
+### Supported dynamic list numbering restart for LINQ Reporting Engine
 
 Issue: WORDSNET-17234
 
 The "[Restarting List Numbering Dynamically](/words/net/template-syntax/#templatesyntax-restartinglistnumberingdynamically)" section of the engine's documentation was added to describe the change.
 
 
-### **WORDSNET-11297 - Implemented public API for dealing with linked textboxes**
+### WORDSNET-11297 - Implemented public API for dealing with linked textboxes
 
 New public properties and methods were added into the TextBox class.
 

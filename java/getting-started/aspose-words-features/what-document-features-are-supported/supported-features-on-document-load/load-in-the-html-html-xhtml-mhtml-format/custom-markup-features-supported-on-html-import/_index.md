@@ -17,7 +17,7 @@ It is planned to import custom tags from HTML as CustomXML around document eleme
 
 {{% /alert %}} 
 
-## **CustomXML**
+## CustomXML
 
 Represented in Aspose.Words DOM as a CustomXmlMarkup node.
 
@@ -33,13 +33,13 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |CustomXML|Planned| | |
 
-## **Content Controls (Structured Document Tags)**
+## Content Controls (Structured Document Tags)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags)|N/A| | |
 
-## **Smart Tags**
+## Smart Tags
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

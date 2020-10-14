@@ -21,7 +21,7 @@ The information in this topic applies to scenarios where you want to use Aspose.
 
 {{% /alert %}} 
 
-### **Working with COM Interop**
+### Working with COM Interop
 
 Aspose.Words for .NET executes under the control of the .NET Framework and this is called managed code. Code written in all of the above languages runs outside the .NET Framework and it is called unmanaged code. Interaction between unmanaged code and Aspose.Words occurs via the .NET facility called COM Interop.
 
@@ -33,7 +33,7 @@ Here are the topics that you will eventually need to master:
 - Working with COM objects exposed by .NET COM Interop. See [Interoperating With Unmanaged Code](http://msdn.microsoft.com/en-us/library/sd10k43k.aspx) and [Exposing .NET Framework Components to COM](http://msdn.microsoft.com/en-us/library/zsfww439%28v=vs.110%29.aspx) in MSDN.
 - Aspose.Words document object model. See Aspose.Words [Developer Guide](https://docs.aspose.com/words/net/developer-guide/) and [API Reference](https://apireference.aspose.com/words/net).
 
-#### **Register Aspose.Words for .NET with COM Interop**
+#### Register Aspose.Words for .NET with COM Interop
 
 After installation, you need to register Aspose.Words for COM Interop using the regasm.exe utility.
 
@@ -47,7 +47,7 @@ If you use Visual Studio, then the easiest way to launch regasm is to:
 1. Type: regasm &lt;installdir&gt;\bin\net2.0\Aspose.Words.dll /codebase
    where &lt;installdir&gt; is the directory where you installed Aspose.Words, typically **C:\Program Files (x86)\Aspose\Aspose.Words for .NET**. 
 
-#### **ProgIDs**
+#### ProgIDs
 
 ProgID stands for “programmatic identifier”, it is a name of a COM class that you need to use in order to create an object. 
 
@@ -60,7 +60,7 @@ Currently, Aspose.Words defines four publicly creatable COM objects. Their ProgI
 
 The ProgIDs consist of the library name ("Aspose.Words") and the class name. 
 
-#### **Type Library**
+#### Type Library
 
 During installation, the Aspose.Words.tlb (COM type library) is copied to your computer to:
 
@@ -68,7 +68,7 @@ During installation, the Aspose.Words.tlb (COM type library) is copied to your c
 
 If your programming language (for example Visual Basic or Delphi) allows you to reference a COM type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser. 
 
-#### **Creating COM Objects**
+#### Creating COM Objects
 
 The creation of a .NET object is similar to creation of a normal COM object:
 
@@ -90,7 +90,7 @@ Some methods have overloads and they will be exposed by COM Interop with a numer
 
 For more information, see the language-specific articles further in this documentation. 
 
-#### **Creating a Wrapper Assembly**
+#### Creating a Wrapper Assembly
 
 If you need to use many of the Aspose.Words classes, methods and properties, consider creating a wrapper assembly (using C# or any other .NET programming language), that will help to avoid using Aspose.Words directly from unmanaged code.
 

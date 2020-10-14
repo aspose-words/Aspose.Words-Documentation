@@ -7,7 +7,7 @@ url: /net/protect-documents-and-parts-of-documents/
 
 You can add protection to Word documents to prevent users from making any edits to the document.
 
-## **VSTO Words**
+## VSTO Words
 
 The following code example protects the active document. To use this code example, run it from the ThisAddIn class in your project.
 
@@ -20,7 +20,7 @@ this.Application.ActiveDocument.Protect(Word.WdProtectionType.wdAllowOnlyReading
 ref noReset, ref password, ref useIRM, ref enforceStyleLock);
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 Even if a document is protected with a password, Aspose.Words does not require the password to open, modify or unprotect this document.
@@ -34,12 +34,12 @@ Document doc = new Document();
 doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
 {{< /highlight >}}
 
-## **Download Running Code Example**
+## Download Running Code Example
 
 - [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
 
-## **Sample Code**
+## Sample Code
 
 - [CodePlex](https://asposevsto.codeplex.com/SourceControl/latest#Aspose.Words Vs VSTO Words/Protect Documents/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20VSTO%20Word/Code%20Comparison%20of%20Common%20Features/Protect%20Documents)

@@ -20,12 +20,12 @@ In order to resolve the problem, you can add the following section in the .cspro
 
 The following example shows how to use Aspose.Words in Azure Function with the details on how to add the code above.
 
-## **Prerequisites**
+## Prerequisites
 
 - Active Azure subscription. If you don't have one, create a free account before you begin.
 - Visual Studio 2019 or Visual Studio 2017 with the latest installed Azure Functions tools to create the project.
 
-## **Creating an Azure Functions Application**
+## Creating an Azure Functions Application
 
 You need to use Visual Studio to create an Azure Functions Application. The created application already has a simple “Hello World” function code.
 
@@ -87,7 +87,7 @@ namespace AsposeWordsAzureTestApp
 {{< highlight csharp >}}<Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish"> <br> <ItemGroup> <br> <NativeAssetToCopy<br> Include="$(PublishDir)runtimes\win-x86\native\libSkiaSharp.dll" /> <br> </ItemGroup> <br> <Copy SourceFiles="@(NativeAssetToCopy)" <br> DestinationFolder="$(PublishDir)bin" /> <br> </Target> {{< /highlight >}}<br>
 1. Publish your project again and verify that the image is now present in the generated output.
 
-## **See Also**
+## See Also
 
 - Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing).
 - Create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure.

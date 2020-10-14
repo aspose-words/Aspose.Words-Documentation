@@ -5,7 +5,7 @@ weight: 50
 url: /net/change-text-in-a-table/
 ---
 
-### **OpenXML SDK**
+### OpenXML SDK
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -44,7 +44,7 @@ using (WordprocessingDocument doc =
 }
 {{< /highlight >}}
 
-### **Aspose.Words**
+### Aspose.Words
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -59,7 +59,7 @@ table.Rows[1].Cells[2].Range.Replace("Mr", "test", true, true);
 doc.Save(File);
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

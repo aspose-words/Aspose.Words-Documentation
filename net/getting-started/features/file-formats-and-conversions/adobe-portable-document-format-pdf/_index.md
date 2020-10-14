@@ -14,7 +14,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 {{% /alert %}} 
 
 
-## **PDF in Aspose.Words**
+## PDF in Aspose.Words
 
 |![todo:image_alt_text](adobe-portable-document-format-pdf_1.png)|<p>Any document loaded into Aspose.Words can be converted to [PDF ](https://docs.fileformat.com/pdf/)that conforms to the [PDF 1.5](http://en.wikipedia.org/wiki/PDF/A) or [PDF/A-1b](https://docs.fileformat.com/pdf/a/) specification.</p><p>Aspose.Words goes to great lengths to faithfully convert Microsoft Word documents to PDF. Most of the time the look of the final PDF document will be indistinguishable from the original Microsoft Word document.</p>|
 | :- | :- |

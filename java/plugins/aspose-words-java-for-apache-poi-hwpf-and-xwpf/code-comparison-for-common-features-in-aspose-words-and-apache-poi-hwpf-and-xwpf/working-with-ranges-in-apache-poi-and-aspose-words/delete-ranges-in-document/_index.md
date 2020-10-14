@@ -5,7 +5,7 @@ weight: 20
 url: /java/delete-ranges-in-document/
 ---
 
-## **Aspose.Words - Delete Ranges in Document**
+## Aspose.Words - Delete Ranges in Document
 
 Range allows the deletion of all characters of the range by calling **Range.delete**.
 
@@ -16,7 +16,7 @@ doc.getSections().get(0).getRange().delete();
 String text = doc.getRange().getText();
 {{< /highlight >}}
 
-## **Apache POI HWPF XWPF - Delete Ranges in Document**
+## Apache POI HWPF XWPF - Delete Ranges in Document
 
 delete method can be used after retrieving Section of Range.
 
@@ -27,12 +27,12 @@ doc.getRange().getSection(0).delete();
 String text = doc.getRange().text();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/ranges/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/ranges)

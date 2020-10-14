@@ -11,7 +11,7 @@ Aspose.Words for JasperReports (from v 2.0.0) can be used with JasperServer Web 
 
 {{% /alert %}} 
 
-#### **Use Aspose exporters with the Web Services of Jasper Report Server**
+#### Use Aspose exporters with the Web Services of Jasper Report Server
 
 Here is a description how to do this with JasperServer Web Services sample application (which is included in JasperServer distribution package):
 

@@ -23,7 +23,7 @@ There are several ways to activate a license:
 
 The first two are used with JasperReports, the last with JasperServer. Each method is described below.
 
-#### **Call setLicense**
+#### Call setLicense
 
 This method is used with JasperReports.
 
@@ -43,7 +43,7 @@ This method is used with JasperReports.
    license.setLicense(fstream);
 {{< /highlight >}}
 
-#### **Set the licenseFile Exporter Parameter in Code**
+#### Set the licenseFile Exporter Parameter in Code
 
 {{% alert color="primary" %}} 
 
@@ -63,7 +63,7 @@ This method is used with JasperReports.
    exporter.exportReport();
 {{< /highlight >}}
 
-#### **Set the licenseFile Exporter Parameter in applicationContext.xml**
+#### Set the licenseFile Exporter Parameter in applicationContext.xml
 
 This method is used with JasperServer.
 
@@ -78,7 +78,7 @@ This method is used with JasperServer.
 </bean>
 {{< /highlight >}}
 
-#### **Verify that the License Works**
+#### Verify that the License Works
 
 Export any report to DOC or DOCX format and check if the report contains an evaluation message. If there is no evaluation message, then the license is working properly.
 

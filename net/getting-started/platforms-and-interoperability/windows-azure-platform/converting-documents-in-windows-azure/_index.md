@@ -12,18 +12,18 @@ Aspose.Words on Windows Azure provides an ability to load, convert, and save doc
 
 The application described in this article is implemented as WebRole and can be run in the Development Fabric (on the developer’s machine) or deployed to Windows Azure. This application is one of the possible examples of how Aspose.Words works in the cloud.
 
-## **Prerequisites**
+## Prerequisites
 
 - Active Microsoft Azure subscription. If you don’t have one, create a free account before you begin.
 - Visual Studio 2019 or Visual Studio 2017 with installed Azure development.
 
-## **Convert Document Application**
+## Convert Document Application
 
 This section discusses a basic project that does not use advanced Aspose.Words features or sophisticated services of the Windows Azure platform.
 
 The project demonstrates how Aspose.Words can be easily used to build applications running in the cloud.
 
-### **Creating a Web Role Project**
+### Creating a Web Role Project
 
 To create the application, you need to perform the following steps:
 
@@ -89,7 +89,7 @@ namespace WebRole
 }
 {{< /highlight >}}
 
-### **Testing and Running the Web Role Project**
+### Testing and Running the Web Role Project
 
 To test and run the example project, perform the following steps:
 
@@ -106,7 +106,7 @@ The following picture shows the Web Role project running in the Microsoft Azure 
 
 ![todo:image_alt_text](converting-documents-in-windows-azure_2.png)
 
-## **See Also**
+## See Also
 
 - Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing).
 - Create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure.

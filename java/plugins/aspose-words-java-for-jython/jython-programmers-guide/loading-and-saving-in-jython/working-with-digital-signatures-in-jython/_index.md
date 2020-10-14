@@ -5,7 +5,7 @@ weight: 40
 url: /java/working-with-digital-signatures-in-jython/
 ---
 
-## **Aspose.Words - Working with Digital Signatures**
+## Aspose.Words - Working with Digital Signatures
 
 To Work with Digital Signatures using **Aspose.Words Java for Jython**. Here you can see sample code.
 
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     DigitalSignatures()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

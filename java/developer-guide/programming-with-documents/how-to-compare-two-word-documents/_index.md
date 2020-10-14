@@ -5,7 +5,7 @@ weight: 260
 url: /java/how-to-compare-two-word-documents/
 ---
 
-## **Overview**
+## Overview
 
 You can use the Document.Compare method to compare two documents to see the difference between them. This method mimics Microsoft Word's Compare feature and produces document difference as a number of edit and format revisions. The main idea is that if we reject all revisions then we get a document which is equal to the original document. On the contrary, if we accept all revisions then we get the final (comparison target) document.
 
@@ -19,7 +19,7 @@ You can try this functionality and view the results online at this link:
 
 {{% /alert %}} 
 
-### **Limitations**
+### Limitations
 
 {{% alert color="primary" %}} 
 
@@ -51,19 +51,19 @@ Shows how to test that Word Documents are "Equal".
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-WordDocumentsAreEqual.java" >}}
 
-### **Compare Word Documents and Ignore Document Formatting**
+### Compare Word Documents and Ignore Document Formatting
 
 The CompareOptions class allows for choosing advanced options for document comparison operation. You can ignore document formatting, headers footers, fields, footnotes, tables, text boxes, comments and case changes when documents are compared. Set the value of CompareOptions.IgnoreFormatting property to *true* to ignore the document formatting. The headers and footers contents are ignored when CompareOptions.IgnoreHeadersAndFooters is set to *true*. The following code example demonstrates how to ignore the document's formatting and headers footers contents.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-WithCompareOptions.java" >}}
 
-### **Set Target Document for Comparison Differences**
+### Set Target Document for Comparison Differences
 
 Microsoft Word has "Show changes in" option in compare document dialog box and the result of the comparison depends on this option. CompareOptions.setTarget() property serves this purpose. This property specifies which document shall be used as a target during the comparison. For example, this option together with setIgnoreFormatting() setting determines which document has to be used as a formatting source for ranges of equal text. ComparisonTargetType enumeration is used to specify base document which will be used during the comparison. The following code example demonstrates how to set the target document for a comparison of two documents. 
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareDocumentWithComparisonTarget-CompareDocumentWithComparisonTarget.java" >}}
 
-### **Set Comparison Granularity**
+### Set Comparison Granularity
 
 Aspose.Words provides the [Granularity](https://apireference.aspose.com/words/java/com.aspose.words/Granularity) option, allowing the customer to specify comparison granularity. This feature allows you to specify the exact granularity of changes to track when comparing two documents. The following code example demonstrates how to specify comparison granularity.
 

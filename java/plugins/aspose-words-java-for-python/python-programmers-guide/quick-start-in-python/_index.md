@@ -5,7 +5,7 @@ weight: 10
 url: /java/quick-start-in-python/
 ---
 
-###### **This section includes the following topics:** 
+###### This section includes the following topics: 
 
 - [Append Documents in Python](https://docs.aspose.com/words/java/append-documents-in-python/)
 - [Apply License in Python](https://docs.aspose.com/words/java/apply-license-in-python/)

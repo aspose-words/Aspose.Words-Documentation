@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 17.7](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 88 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -28,7 +28,7 @@ There are 88 improvements and fixes in this regular monthly release. The most no
 - Improved non-breaking space width calculation.
 - Improved Asian text justification logic.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -124,7 +124,7 @@ Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **WORDSNET-6118 - Rendering Word Document to PCL format Supported**
+### WORDSNET-6118 - Rendering Word Document to PCL format Supported
 
 New saving format is introduced - PCL (Printer Command Language). Aspose.Words can save documents to PCL 6 (PCL 6 Enhanced or PCL XL) format.
 
@@ -183,7 +183,7 @@ public string FalllbackFontName
 
 There is one major feature of PCL that is unsupported in current version of Aspose.Words i.e. custom fonts. It is rather big and complex problem, but we will implement this feature in future.
 
-### **WORDSNET-14190 - Make the Title of the Generated Documents show up in Title Bar**
+### WORDSNET-14190 - Make the Title of the Generated Documents show up in Title Bar
 
 New property **DisplayDocTitle** was added to PdfSaveOptions to control behavior of how document's title is presented in output PDF document:
 
@@ -205,7 +205,7 @@ public bool DisplayDocTitle
 }
 {{< /highlight >}}
 
-### **WORDSNET-15504 -  Shape.AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.InsertImage Method.**
+### WORDSNET-15504 -  Shape.AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.InsertImage Method.
 
 Shape.AspectRatioLocked default value was changed for shapes inserted through the DocumentBuilder.InsertImage method. Now, to mimic MS Word behavior this value is "true" for ShapeType.Image upon inserting image through the DocumentBuilder or through the Model.
 
@@ -225,6 +225,6 @@ public bool AspectRatioLocked
 }
 {{< /highlight >}}
 
-### **WORDSNET-14504 and WORDSNET-14803 - Changed Importing Behavior of Lists**
+### WORDSNET-14504 and WORDSNET-14803 - Changed Importing Behavior of Lists
 
 Previously, list definitions were copied with a new identifier while importing. Now Aspose.Words reuses identical list definitions in the destination. Equality of list definitions in the source and destination is determined by their identifiers. Also Aspose.Words preserves list definition identifiers from the source when equal list definition cannot be found in the destination. This is how MS Word behaves.

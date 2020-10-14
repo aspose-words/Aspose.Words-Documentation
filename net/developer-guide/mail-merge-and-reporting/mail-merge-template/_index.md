@@ -13,7 +13,7 @@ The template ensures that the text in the output merged document is formatted co
 
 Aspose.Words provides the ability to create a mail merge template to define fixed content and then generate merge documents using the merge fields. Thus, the merge template will have the necessary text, which is the same in all of the output documents, and the merge fields to fill in the changing content. As a result, information from the specified data source will be added to the merge template through these fields during the generation of the merged document.
 
-## **What is a Mail Merge Template**
+## What is a Mail Merge Template
 
 A mail merge template is a personalized document that contains the fixed data and the merged fields where you want the variable text to be. A merge template can be in any format that supports fields, for example, DOC, DOCX, DOT, DOTX, RTF. In addition, you can also use the mustache template that is explained in the article “Mustache Template Syntax” in more detail.
 
@@ -21,7 +21,7 @@ You can create a merge template to be a model for new documents, and it should i
 
 In addition, you can add a mail merge region in your template by inserting two mail merge fields to mark the beginning and the end of the mail region. The next article “Types of Mail Merge Operation” explains that in more detail.
 
-## **Create a Mail Merge Template**
+## Create a Mail Merge Template
 
 You can create a template and add specific merge fields to it, that will be replaced by the values from the data source either manually, for example, using Microsoft Word, or programmatically using Aspose.Words. In this article, we will look at the programmatic way of creating a template.
 
@@ -35,11 +35,11 @@ The picture below shows the created template:
 
 <img src="mail_merge_template_1.png" alt="mail_merge_template" style="width:650px"/>
 
-## **Customize a Mail Merge Template Properties**
+## Customize a Mail Merge Template Properties
 
 Aspose.Words allows you to customize your template through many properties. Template customization will be described below through an example of customizing some properties of images and text.
 
-### **Customize Image Properties**
+### Customize Image Properties
 
 You can specify the image properties using the [ImageFieldMergingArgs](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imagefieldmergingargs) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/CSharp/Mail-Merge/MailMergeImageFromBlob.cs).
 
@@ -47,7 +47,7 @@ The following code example shows how to specify the image file name and image si
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeFormFields-ImageFieldMerging.cs" >}}
 
-### **Customize Text Properties**
+### Customize Text Properties
 
 You can use the [Text](https://apireference.aspose.com/words/net/aspose.words.mailmerging/fieldmergingargs/properties/text) property to insert text into the document for the current merge field. Also, you can change the formatting of texts and paragraphs inside your template using [Font](https://apireference.aspose.com/words/net/aspose.words/font) and [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) classes. You can handle the text to be inserted before or after the merge field by using the [TextBefore](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield/properties/textbefore) and [TextAfter](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield/properties/textafter) properties that are included in the [FieldMergeField](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield) class.
 
@@ -63,6 +63,6 @@ You can also check the implementation of the HandleMergeField class from [Aspose
 
 {{% /alert %}}
 
-## **See Also**
+## See Also
 
 * For more details about how to create templates in Microsoft Word manually, please check the [“Create a Template”](https://support.microsoft.com/en-us/office/save-a-word-document-as-a-template-cb17846d-ecec-49d4-82ea-a6f5e3e8b9ae) article in the Microsoft Documentation.

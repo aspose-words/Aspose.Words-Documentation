@@ -24,7 +24,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **General**
+## General
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,14 +50,14 @@ See the following links in the documentation for further information:
 |Background|N/A| | |
 |Thumbnail|N/A| | |
 
-## **Embedded Fonts**
+## Embedded Fonts
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts|N/A| | |
 |Access and Use Embedded Fonts|N/A| | |
 
-## **Bibliography**
+## Bibliography
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -65,7 +65,7 @@ See the following links in the documentation for further information:
 |Sources/Citations|Yes|Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. <br><br>Bibliography sources are not saved to ODT.| |
 |Citation Style|N/A| | |
 
-## **Protection**
+## Protection
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -79,7 +79,7 @@ See the following links in the documentation for further information:
 |Protection Ranges|N/A| | |
 |Read Only|N/A| | |
 
-## **Settings**
+## Settings
 
 Footnote, Endnote and View settings are imported when loading an ODT format document.
 

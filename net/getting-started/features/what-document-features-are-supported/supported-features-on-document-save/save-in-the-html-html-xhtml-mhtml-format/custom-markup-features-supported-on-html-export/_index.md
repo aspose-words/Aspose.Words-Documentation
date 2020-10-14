@@ -22,7 +22,7 @@ You can check the quality of HTML Export and view the results online at this lin
 <https://products.aspose.app/words/viewer>
 
 
-## **CustomXML**
+## CustomXML
 
 There are plans to export the Custom XML found within the document structure to custom tags surrounding elements in HTML output.
 
@@ -30,13 +30,13 @@ There are plans to export the Custom XML found within the document structure to 
 | :- | :- | :- | :- |
 |CustomXML|Planned| | |
 
-## **Content Controls (Structured Document Tags)**
+## Content Controls (Structured Document Tags)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags)|N/A| | |
 
-## **Smart Tags**
+## Smart Tags
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

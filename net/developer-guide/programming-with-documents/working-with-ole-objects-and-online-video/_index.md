@@ -5,25 +5,25 @@ weight: 160
 url: /net/working-with-ole-objects-and-online-video/
 ---
 
-## **Inserting Ole Object**
+## Inserting Ole Object
 
 If you want Ole Object call DocumentBuilder.InsertOleObject. Pass to this method the ProgId explicitly with other parameters. The code example given below shows how to insert Ole Object into a document.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertOleObject.cs" >}}
 
-### **Set File Name and Extension when Inserting Ole Object**
+### Set File Name and Extension when Inserting Ole Object
 
 OLE package is a legacy and "undocumented" way to store embedded objects if the OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if the OLE handler is missing or unknown. OlePackage class allows accessing OLE Package properties. The code example given below shows how to set the file name, extension and display name for OLE Package.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.cs" >}}
 
-### **Get Access to OLE Object Raw Data**
+### Get Access to OLE Object Raw Data
 
 The following code example demonstrates how to get OLE Object raw data using OleFormat.GetRawData() method.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.cs" >}}
 
-### **Insert Ole Object as Icon**
+### Insert Ole Object as Icon
 
 The following code example shows how to insert OLE Object as an icon. For this purpose, the DocumentBuilder class exposes the InsertOleObjectAsIcon method.
 
@@ -31,7 +31,7 @@ The following code example shows how to insert OLE Object as an icon. For this p
 The following code example demonstrates how to inserts an embedded OLE object as an icon from a stream into the document.
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIconUsingStream.cs" >}}
 
-## **Inserting Online Video**
+## Inserting Online Video
 
 Online video can be inserted in MS Word from Insert tab > Online Video. You can insert online video into the document at the current location by calling [DocumentBuilder.InsertOnlineVideo](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/insertonlinevideo/index) method. Four overloads of this method have introduced in DocumentBuilder class. The first one works with the most popular video resources and takes the URL to the video as a parameter. 
 

@@ -11,12 +11,12 @@ In case you are targeting to create an application in the cloud, and you need As
 
 This article describes possible scenarios for using Aspose.Words for .NET when building applications for  Amazon Web Services.
 
-## **Prerequisites**
+## Prerequisites
 
 1. Active AWS account for using Lambda. If you don’t have one, create a new account before you begin.
 2. Visual Studio 2019 or Visual Studio 2017 with installed AWS Toolkit for Visual Studio.
 
-## **How to Run Aspose.Words Application in AWS Lambda**
+## How to Run Aspose.Words Application in AWS Lambda
 
 To see how Aspose.Words works in AWS Lambda, follow the steps below:
 
@@ -59,7 +59,7 @@ You might notice two strange things:
 * There is no image in the output. It disappears because Aspose.Words for .NET Standard uses SkiaSharp to deal with graphics. From the output, you can see that the Lambda function is running under Unix, and since there are no SkiaSharp native assets for Unix, it does not work. The solution to this problem is simple – add a NuGet reference to [SkiaSharp.NativeAssets.Linux.NoDependencies](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies/).
 * The font used in the PDF is Fanwood. Fanwood is the last resort font which is stored in Aspose.Words DLL as an embedded resource. It is used when Aspose.Words cannot find other alternatives.
 
-## **How to Use Fonts Stored in S3 storage in AWS Lambda**
+## How to Use Fonts Stored in S3 storage in AWS Lambda
 
 Often documents contain more than one font, and for conversion fidelity it is required to have these fonts available for Aspose.Words. Aspose.Words can use [fonts from different sources](https://docs.aspose.com/display/wordsnet/Specifying+TrueType+Fonts+Location), such as folder, stream, or system fonts. This section shows you how to use fonts stored in S3 storage, that is the most convenient way to provide custom fonts in the cloud.
 
@@ -256,7 +256,7 @@ To use fonts from the S3 storage, follow the steps below:
 3. As a result, you will receive the output PDF document created by the function, as shown in the screenshot below. Notice the image is displayed properly and the correct font is used.
    ![aspose-words-integration-in-aws-lambda](aspose-words-integration-in-aws-lambda-2.png)
 
-## **See Also**
+## See Also
 
 1. [AWS Toolkit for Visual Studio](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017).
 

@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 16.01.0.
 
 {{% /alert %}} 
 
-### **HtmlSaveOptions.ExportPageMargins Property Added**
+### HtmlSaveOptions.ExportPageMargins Property Added
 
 We have now added a new public property to HtmlSaveOptions class: 
 
@@ -33,7 +33,7 @@ public bool ExportPageMargins
 }
 {{< /highlight >}}
 
-### **ImageSaveOptions.UseGdiEmfRenderer Property Added**
+### ImageSaveOptions.UseGdiEmfRenderer Property Added
 
 Now Aspose.Words could save metafiles directly without using GDI+. For now only saving to EmfPlusOnly format is supported. In Aspose.Words for .NET version this is controlled by the flag in ImageSaveOptions.
 
@@ -54,7 +54,7 @@ Now Aspose.Words could save metafiles directly without using GDI+. For now only 
 public bool UseGdiEmfRenderer;
 {{< /highlight >}}
 
-### **HtmlFixedSaveOptions.ExportFormFields Property Added**
+### HtmlFixedSaveOptions.ExportFormFields Property Added
 
 We have now added a new public property to HtmlFixedSaveOptions class: 
 
@@ -72,11 +72,11 @@ public bool ExportFormFields
 }
 {{< /highlight >}}
 
-### **Ancient Legacy Binary DOC files supported Now.**
+### Ancient Legacy Binary DOC files supported Now.
 
 We have added support for older binary DOC format for Word6.0/Word95 documents import. Public enum LoadFormat.DocPreWord97 renamed to DocPreWord60 to avoid confusion.
 
-### **Public Methods Added in DocumentBuilder class to Insert Signature Lines.**
+### Public Methods Added in DocumentBuilder class to Insert Signature Lines.
 
 Following two methods are added to DocumentBuilder class to insert signature lines. 
 
@@ -117,7 +117,7 @@ options.ShowDate = false;
 builder.InsertSignatureLine(options);
 {{< /highlight >}}
 
-### **Shape.SignatureLine Property Added**
+### Shape.SignatureLine Property Added
 
 We have now added a new public property to Shape class. **Note! Now it is not possible to sign a signature line by digital signature in Aspose.Words.**
 
@@ -196,7 +196,7 @@ signatureLine.SignerTitle = "Manager2";
 signatureLine.ShowDate = true;
 {{< /highlight >}}
 
-### **A New Feature Added to Configure Document Hyphenation Options**
+### A New Feature Added to Configure Document Hyphenation Options
 
 New HyphenationOptions class has added in Aspose.Words. HyphenationOptions instance is available as a readonly property on the Document class and contains the following properties to configure document hyphenation options:
 
@@ -243,7 +243,7 @@ doc.HyphenationOptions.HyphenationZone = 720;
 doc.HyphenationOptions.HyphenateCaps = false;
 {{< /highlight >}}
 
-### **Font Substitution Warnings Improved**
+### Font Substitution Warnings Improved
 
 |Substitution case |Warning text |Previous warning text |
 | :- | :- | :- |
@@ -253,7 +253,7 @@ doc.HyphenationOptions.HyphenateCaps = false;
 |Font substitution per specified font substitutes. |"Font substitutes: '<font_name>' replaced with '<substitute_name>'." |No warning |
 |Font substitution when saving to image |"GDI+ can't load '<font_name>' font. Using '<substitution_name>' font instead." |"GDI+ doesn't support OpenType fonts with PostScript outlines. '<font_name>' font has been substituted." |
 
-### **A New Feature Added to Get Mail Merge Regions Hierarchy**
+### A New Feature Added to Get Mail Merge Regions Hierarchy
 
 We have added the **MailMergeRegionInfo** public class and the **MailMerge.GetRegionsHierachy** public method. These allow to obtain mail merge hierarchy including child regions and fields.
 
@@ -315,7 +315,7 @@ Assert.AreEqual(((MailMergeRegionInfo)nestedRegions[0]).Name, "NestedRegion1");
 Assert.AreEqual(((MailMergeRegionInfo)nestedRegions[1]).Name, "NestedRegion2");
 {{< /highlight >}}
 
-### **A New Feature Added to Work Without Static Font Cache and can Use Per-document Font Settings**
+### A New Feature Added to Work Without Static Font Cache and can Use Per-document Font Settings
 
 All methods of FontSettings class made instance methods. Static methods are replaced with static DefaultInstance property. **This is a breaking change.**
 
@@ -445,7 +445,7 @@ doc.FontSettings = fontSettings;
 doc.Save(outFile);
 {{< /highlight >}}
 
-### **FormField.RemoveField() method Added**
+### FormField.RemoveField() method Added
 
 We have added a capability to remove the whole form field right from the FormField object.
 
@@ -461,7 +461,7 @@ We have added a capability to remove the whole form field right from the FormFie
 public void RemoveField()
 {{< /highlight >}}
 
-### **MailMerge.PreserveUnusedTags option Added**
+### MailMerge.PreserveUnusedTags option Added
 
 We have added a capability to preserve mustache tags that haven't been populated.
 
@@ -478,7 +478,7 @@ We have added a capability to preserve mustache tags that haven't been populated
 public bool PreserveUnusedTags
 {{< /highlight >}}
 
-### **A New Feature Added to Control Global Mail Merge Events**
+### A New Feature Added to Control Global Mail Merge Events
 
 We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This allows to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
 
@@ -536,7 +536,7 @@ private class MailMergeCallbackStub : IMailMergeCallback
 }
 {{< /highlight >}}
 
-### **Public Fields API v2.0 - Building Arbitrary Field Using FieldBuilder**
+### Public Fields API v2.0 - Building Arbitrary Field Using FieldBuilder
 
 We have now provided typed access to all Microsoft Word fields, it is a good time to allow users build an arbitrary field code. We can insert a complete field code via **DocumentBuilder**, or we can insert a field of a certain type and access its code using the typed properties of a **FieldXXX** class. 
 

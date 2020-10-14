@@ -13,13 +13,13 @@ When converting to a document format that does not support custom markup feature
 
 {{% /alert %}} 
 
-## **CustomXML**
+## CustomXML
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |Yes | | |
 
-## **Content Controls (Structured Document Tags)**
+## Content Controls (Structured Document Tags)
 
 DOC format does not support content controls. During conversion only the plain content is retained.
 
@@ -27,7 +27,7 @@ DOC format does not support content controls. During conversion only the plain c
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
 
-## **Smart Tags**
+## Smart Tags
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.2](ht
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - API's codebase is upgraded to the version Aspose.Words for Java 19.2
 - Supported inlining of syntax error messages into templates instead of exception throwing for LINQ Reporting Engine.
@@ -31,7 +31,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.2](ht
 - Fixed hang when the table cell is broken across pages when there is a floating shape anchor in it.
 - Fixed issue when text which has borders is wrapped around a shape and does not fit.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

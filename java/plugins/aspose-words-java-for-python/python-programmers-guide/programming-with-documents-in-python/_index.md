@@ -5,7 +5,7 @@ weight: 20
 url: /java/programming-with-documents-in-python/
 ---
 
-###### **This section includes the following topics:** 
+###### This section includes the following topics: 
 
 - [Joining And Appending in Python](https://docs.aspose.com/words/java/joining-and-appending-in-python/)
 - [Working With Bookmarks in Python](https://docs.aspose.com/words/java/working-with-bookmarks-in-python/)

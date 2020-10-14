@@ -5,7 +5,7 @@ weight: 20
 url: /java/remove-field-in-jython/
 ---
 
-## **Aspose.Words - Remove Field**
+## Aspose.Words - Remove Field
 
 To Remove Field using **Aspose.Words Java for Jython**. Here you can see sample code.
 
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     RemoveField()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

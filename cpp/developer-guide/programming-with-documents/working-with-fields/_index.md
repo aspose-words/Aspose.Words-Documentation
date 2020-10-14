@@ -5,5 +5,5 @@ weight: 60
 url: /cpp/working-with-fields/
 ---
 
-### **Articles in this section**
+### Articles in this section
 

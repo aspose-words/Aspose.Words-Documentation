@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 20.2](https://reposi
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Performance and memory improvements due to NodeCollectionEnumerator algorithm optimization and loading of Blank Document optimization.
 - IFieldUpdateCultureProvider is accessible from public API now.
@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for Java 20.2](https://reposi
 - Background shape texture image is now rendered the same way as in print layout of MS Word with a 100% scale.
 - Supported dynamic insertion of documents and images from Base64-encoded bytes and dynamic checkbox value setting for the LINQ Reporting Engine.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -95,11 +95,11 @@ This page contains release notes for [Aspose.Words for Java 20.2](https://reposi
 |WORDSNET-14826|TextBox Shapes moved to next page during rendering to PDF|Bug|
 |WORDSNET-18880|The issue with table position and UpdateTableLayout method|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.2. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
-### **FieldMergingArgsBase.FieldValue made settable**
+### FieldMergingArgsBase.FieldValue made settable
 
 Related issue: WORDSNET-19750
 
@@ -121,7 +121,7 @@ public object FieldValue
 {{< /highlight >}}
 
 
-### **Supported dynamic insertion of documents and images from Base64-encoded bytes and dynamic checkbox value setting for LINQ Reporting Engine**
+### Supported dynamic insertion of documents and images from Base64-encoded bytes and dynamic checkbox value setting for LINQ Reporting Engine
 
 **Issues:** WORDSNET-19859 and WORDSNET-19561
 
@@ -133,7 +133,7 @@ The following sections of the engine's documentation were updated/added to descr
 - [Setting Checkbox Values Dynamically](/words/java/working-with-content-controls/#workingwithcontentcontrols-settingcheckboxvaluedynamically)
 - [Setting Content Control Titles Dynamically](/words/java/working-with-content-controls/#workingwithcontentcontrols-settingcontentcontroltitlesdynamically)
 
-### **Word 2019 version set by default**
+### Word 2019 version set by default
 
 Ref: WORDSNET-19908
 

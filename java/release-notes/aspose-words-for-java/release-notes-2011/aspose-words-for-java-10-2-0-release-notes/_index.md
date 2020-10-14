@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 10.2.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 10.2 Release Notes**
+## Aspose.Words for Java 10.2 Release Notes
 
 This monthly release delivers 144 great features and fixes.
 
@@ -26,4 +26,4 @@ Some of the highlights are:
   Improved behavior for finding TrueType fonts installed on a machine, good for Linuxes and Mac OS. 
 
 
-## **All Fixes**
+## All Fixes

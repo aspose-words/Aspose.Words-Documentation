@@ -5,7 +5,7 @@ weight: 10
 url: /java/downloads-and-configure-aspose-words-in-struts-1-3/
 ---
 
-## **Downloading Aspose.Words Java for Struts 1.3**
+## Downloading Aspose.Words Java for Struts 1.3
 
 You can download the pre-built (binary) .war file from the latest releases hosted on [codeplex](http://aspose-wordsforstruts.codeplex.com/releases/view/615997).
 
@@ -16,7 +16,7 @@ You can download/check out the project source codes from the following locations
 - [CodePlex](https://aspose-wordsforstruts.codeplex.com)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Struts)
 
-## **Building Aspose.Words Java for Struts 1.3 from Source Codes**
+## Building Aspose.Words Java for Struts 1.3 from Source Codes
 
 After checking out source codes from any of the above repositories, apply the following mvn commands:
 

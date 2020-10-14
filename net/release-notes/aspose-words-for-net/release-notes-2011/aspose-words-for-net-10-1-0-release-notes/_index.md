@@ -11,11 +11,11 @@ This page contains release notes for [Aspose.Words for .NET 10.1.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 10.1 Release Notes**
+## Aspose.Words for .NET 10.1 Release Notes
 
 - More fidelity in TOC calculation
 - Fixes in the field update engine
 - Fixes to left indents for lists with list styles
 - Fixes in the layout engine
 - Many more
-## **All Fixes**
+## All Fixes

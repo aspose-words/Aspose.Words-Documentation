@@ -21,7 +21,7 @@ We provide the Field facade for working with this structure more easily. This al
 
 {{% /alert %}} 
 
-## **Field Codes**
+## Field Codes
 
 See the following links in the documentation for further information:
 
@@ -34,7 +34,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Field Codes|Yes| | |
 
-## **Date and Time**
+## Date and Time
 
 All Date and Time fields are supported and can be updated by Aspose.Words.
 
@@ -47,7 +47,7 @@ All Date and Time fields are supported and can be updated by Aspose.Words.
 |SaveDate|Yes|This field is not updated with the current time when the document is saved by Aspose.Words using Document.Save. Rather any instance of this field in the document is updated with the correct time and date that the doucment was saved last in the editior.| |
 |Time|Yes| | |
 
-## **Document Automation**
+## Document Automation
 
 All Document Automation fields are supported and can be updated by Aspose.Words. Note that GotoButton, MacroButton and Print fields do not require any update.
 
@@ -60,7 +60,7 @@ All Document Automation fields are supported and can be updated by Aspose.Words.
 |MacroButton|Yes| | |
 |Print|Yes| | |
 
-## **Document Information**
+## Document Information
 
 All Document Automation fields are supported and can be updated by Aspose.Words with the exception of the "Info" fieldtype. Note that GotoButton, MacroButton and Print fields do not require update.
 
@@ -81,7 +81,7 @@ All Document Automation fields are supported and can be updated by Aspose.Words 
 |Template|Yes|This field is updated by the field engine. <br><br>The attached file name is correctly updated, however the option to include the full path to the template name is not supported.| |
 |Title|Yes| | |
 
-## **Equations and Formulas**
+## Equations and Formulas
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -90,7 +90,7 @@ All Document Automation fields are supported and can be updated by Aspose.Words 
 |Eq|Yes|Not yet supported by field update. <br><br>Note that some equations inserted using the EQ field and edited in the Equation Editor in Microsoft Word are actually replaced with EMBED fields.| |
 |Symbol|Yes|No update required. Field result is imported and exported correctly during document conversion.| |
 
-## **Form Fields**
+## Form Fields
 
 Form fields are fully supported by Aspose.Words. See the following links in the documentation for further information:
 
@@ -116,7 +116,7 @@ Form fields are fully supported by Aspose.Words. See the following links in the
 |Check Box Size|Yes| |<p>- [FormField.CheckBoxSize](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checkboxsize)</p><p>- [FormField.IsCheckBoxExactSize](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/ischeckboxexactsize)</p>|
 |Text Input Type|Yes| |- [FormField.TextInputType](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputtype)|
 
-## **Index and Tables**
+## Index and Tables
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -128,7 +128,7 @@ Form fields are fully supported by Aspose.Words. See the following links in the
 |TOC (Table of Contents)|Yes|<p>Table of Contents is fully supported in Aspose.Words. You can create a TOC from scratch and update it. The Aspose.Words field engine produces a TOC that looks just like how Microsoft Word does. <br><br>The TOC can be generated from styles in the document and from TC fields. <br><br>The following switches on the TOC field are supported:</p><p>- Heading Styles (\O)</p><p>- Outline Levels (\U)</p><p>- Custom Styles (\T)</p><p>- Bookmarked Content (\B)</p><p>- Use TC Fields (\F and \L)</p><p>- Omit Page Numbers (\N)</p><p>- Insert As Hyperlinks (\H)</p><p>- Set Separator Character (\P)</p><p>- Preserve Tab Entries (\W)</p><p>- Preserve New Line Entries (\X) <br><br>  All other switches will be supported in future versions. <br><br>  Currently mixed number formats in TOC is unsupported during field update and will appear as arabic numbering. This will be improved in a future version. These number formats are supported in other types of fields during update. Chapter numbeing is also unsupported at the moment.</p>| |
 |XE|Yes|This field does not require any update.| |
 
-## **Links and References**
+## Links and References
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -146,7 +146,7 @@ Form fields are fully supported by Aspose.Words. See the following links in the
 |Ref|Yes|This field is supported during field update. <br><br>Only some switches such as hyperlink and relative position are supported during field update. Support for the other options will be added in future versions.| |
 |StyleRef|Yes|This field is supported during field update. <br><br>Only a few switches are supported during field update. Support for the other options will be added in future versions.| |
 
-## **Mail Merge**
+## Mail Merge
 
 The mail merge engine allows you to quickly merge a variety of data into a document. You can merge simple data using simple mail merge as well as complex relational data from a database using merge regions. Both are easy to achieve using Aspose.Words. Aspose.Words fully supports all of the mail merge features and fields with the exception of the following fields:
 
@@ -178,7 +178,7 @@ These fields will be supported in a later version of Aspose.Words. All other fie
 |Set|Yes| | |
 |SkipIf|Yes| | |
 
-## **Numbering**
+## Numbering
 
 Aspose.Words round-trips all of these fields properly. Aspose.Words supports updating the following fields:
 
@@ -202,7 +202,7 @@ Update of the other fields will be added to future versions.
 |SectionPages|Yes| | |
 |Seq|Yes| | |
 
-## **User Information**
+## User Information
 
 These fields are imported and round-tripped but currently are not updated by the field engine.
 
@@ -212,7 +212,7 @@ These fields are imported and round-tripped but currently are not updated by the
 |UserInitials|Yes| | |
 |UserName|Yes| | |
 
-## **Hyperlinks**
+## Hyperlinks
 
 Aspose.Words fully supports all features of hyperlink fields. You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink. See the following links in the documentation for further information:
 
@@ -229,7 +229,7 @@ Aspose.Words fully supports all features of hyperlink fields. You can create ne
 |Screen Tip|Yes| | |
 |Target Frame|Yes| | |
 
-## **Formatting Switches**
+## Formatting Switches
 
 All formatting types are supported during field update or mail merge. For example, when the MERGEFORMAT switch is used on a merge field, after mail merge, the text which replaces the merge field inherits the formatting. Fields with a "@" date formatting switch are updated based on the date format supplied with the switch etc.
 

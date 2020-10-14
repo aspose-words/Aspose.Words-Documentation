@@ -11,14 +11,14 @@ This page contains release notes for [Aspose.Words for .NET 20.3](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - No separate DLLs for Xamarin anymore.
 - FindReplaceOptions class is extended with new properties.
 - Implemented the correct rendering of the "Letterlike" symbols.
 - Supported dynamic stretching of an image within textbox bounds preserving the ratio of the image for the LINQ Reporting Engine.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -95,11 +95,11 @@ This page contains release notes for [Aspose.Words for .NET 20.3](https://www.nu
 |WORDSNET-15353|Image position is changed in output PDF|Bug|
 |WORDSNET-19986|Application hangs when opening HTM file|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.3. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### **Added a new public property SaveOptions.UpdateLastPrintedProperty**
+### Added a new public property SaveOptions.UpdateLastPrintedProperty
 
 Related issue: **WORDSNET-19776**
 
@@ -116,7 +116,7 @@ public bool UpdateLastPrintedProperty
 
 It's true by default for FixedPageSaveOptions.
 
-##### **Use Case:**
+##### Use Case:
 
 **.NET**
 
@@ -128,7 +128,7 @@ doc.Save(pdfPath, saveOptions);
 {{< /highlight >}}
 
 
-### **Added the ImageFieldMergingArgs.Shape property**
+### Added the ImageFieldMergingArgs.Shape property
 
 Reference: **WORDSNET-19568**
 
@@ -177,7 +177,7 @@ private class TestShapeSetFieldMergingCallback : IFieldMergingCallback
 {{< /highlight >}}
 
 
-### **FindReplaceOptions class is extended with new properties**
+### FindReplaceOptions class is extended with new properties
 
 Related issue: WORDSNET-19912.
 
@@ -214,7 +214,7 @@ public bool IgnoreFields
 {{< /highlight >}}
 
 
-##### **Use Case 1. Explains how to ignore text inside delete revisions:**
+##### Use Case 1. Explains how to ignore text inside delete revisions:
 
 **.NET**
 
@@ -249,7 +249,7 @@ Console.WriteLine(doc.GetText());
 {{< /highlight >}}
 
 
-##### **Use Case 2. Explains how to ignore text inside insert revisions:**
+##### Use Case 2. Explains how to ignore text inside insert revisions:
 
 **.NET**
 
@@ -283,7 +283,7 @@ Console.WriteLine(doc.GetText());
 {{< /highlight >}}
 
 
-##### **Use Case 3. Explains how to ignore text inside fields:**
+##### Use Case 3. Explains how to ignore text inside fields:
 
 **.NET**
 
@@ -312,11 +312,11 @@ Console.WriteLine(doc.GetText());
 {{< /highlight >}}
 
 
-### **No Separate DLLs for Xamarin Anymore**
+### No Separate DLLs for Xamarin Anymore
 
 Starting with Aspose.Words 20.3 Xamarin support is changed. In earlier versions, we provide separate DLLs for Xamarin.Android, Xamarin.Mac and Xamarin.iOS. Now Xamarin developers can use Aspose.Words for .NET Standard in all mentioned platforms. According to the .NET Standard documentation, Aspose.Words for .NET Standard 2.0 can be used with Xamarin.iOS 10.14 or newer, Xamarin.Mac 3.8 or newer and with Xamarin.Android 8.0 or newer.
 
-### **Removed obsolete DigitalSignature.Certificate property and CertificateHolder.Create(X509Certificate2) method**
+### Removed obsolete DigitalSignature.Certificate property and CertificateHolder.Create(X509Certificate2) method
 
 Related issue: WORDSNET-19999.
 
@@ -362,7 +362,7 @@ Please use the following methods instead:
 [CertificateHolder.Create(String, String, String)](https://apireference.aspose.com/net/words/aspose.words.certificateholder/create/methods/4)
 
 
-### **Supported dynamic stretching of an image within textbox bounds preserving the ratio of the image for LINQ Reporting Engine**
+### Supported dynamic stretching of an image within textbox bounds preserving the ratio of the image for LINQ Reporting Engine
 
 **Issue:** WORDSNET-18362
 

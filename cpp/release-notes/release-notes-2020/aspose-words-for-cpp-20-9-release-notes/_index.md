@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for C++ 20.9](https://downloa
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 Starting from this release, we are beginning to publish the Linux version of Aspose.Words for C++.
 The minimum required version of compilers are the following:
@@ -29,7 +29,7 @@ We have added the following features from Aspose.Words for .NET on this regular 
 - Implemented rendering of metafiles with EMF+ containers.
 - The FormField font formatting API was extended.
 
-## **Limitations and API Differences**
+## Limitations and API Differences
 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
@@ -43,7 +43,7 @@ The missing features will be added in future releases.
 - The current release supports Microsoft Visual C++ version 2017 or higher and only for the x64 platform.
 - The current release supports GCC 6.3 or higher and Clang 3.9.1 or higher on Linux and only for the x86_x64 platform.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -129,11 +129,11 @@ The missing features will be added in future releases.
 |WORDSNET-3493	|Checkboxes are rendered incorrectly|Bug|
 |WORDSNET-4066	|Incorrect floating table position|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### **Changed the behavior of the FormField.Font property**
+### Changed the behavior of the FormField.Font property
 
 Related issue: WORDSNET-522
 Changed the behavior of the 'FormField.Font' property.
@@ -148,7 +148,7 @@ Use Case. Explains how to apply font formatting to the FormField as a whole:
     doc.Save("out.doc");
 {{< /highlight >}}
 
-### **Deprecated find replace algorithm returned for compatibility reason**
+### Deprecated find replace algorithm returned for compatibility reason
 
 Related issue: WORDSNET-21018
 The following member has been added to FindReplaceOptions class
@@ -163,7 +163,7 @@ The following member has been added to FindReplaceOptions class
     public bool LegacyMode { get; set; }
 {{< /highlight >}}
 
-### **VbaReferenceCollection and related types are exposed publicly**
+### VbaReferenceCollection and related types are exposed publicly
 
 Related issue: WORDSNET-13678
 

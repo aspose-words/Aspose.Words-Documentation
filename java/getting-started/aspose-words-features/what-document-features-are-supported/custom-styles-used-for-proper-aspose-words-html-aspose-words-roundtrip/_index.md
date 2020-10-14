@@ -11,7 +11,7 @@ Please find below a list of custom styles that Aspose.Words uses to save extra i
 
 {{% /alert %}} 
 
-## **Comment’s Content**
+## Comment’s Content
 
 Comment's content is exported as div container. -aw-comment-author, -aw-comment-datetime and -aw-comment-initial CSS properties can be applied to this div.
 
@@ -29,7 +29,7 @@ Example:
 </div>
 {{< /highlight >}}
 
-## **Comment**
+## Comment
 
 In simple case when comment is located within one paragraph, in output HTML this comment's boundaries are marked with anchor tag. In the following example comment's boundaries are marked as bookmark with “_cmntref1” name:
 
@@ -55,7 +55,7 @@ In the following example first comment’s boundaries are marked as bookmark wit
 </p>
 {{< /highlight >}}
 
-## **Footnote (Endnote)**
+## Footnote (Endnote)
 
 Footnote (endnote) is exported as div. –aw-footnote-isauto CSS property can be applied to this div.
 
@@ -79,7 +79,7 @@ Example:
 </div>
 {{< /highlight >}}
 
-## **Footnotes’ (Endnotes’) Formatting**
+## Footnotes’ (Endnotes’) Formatting
 
 All footnotes (endnotes) in a document share formatting. When exported to HTML footnotes (endnotes) are separated from other document’s content with horizontal rule element. –aw-footnote-numberstyle, -aw-footnote-startnumber and –aw-footnote-type CSS properties can be applied to this horizontal rule.
 
@@ -109,7 +109,7 @@ Example:
 </div>
 {{< /highlight >}}
 
-## **Header (Footer)**
+## Header (Footer)
 
 Header (footer) is exported as div container. –aw-different-first-page and –aw-headerfooter-type CSS properties can be applied to this div.
 
@@ -133,7 +133,7 @@ Example:
 </div>
 {{< /highlight >}}
 
-## **Bookmark**
+## Bookmark
 
 In simple case when bookmark is located within one paragraph, in output HTML this bookmark's boundaries are marked with anchor tag. In the following example bookmark's boundaries are marked as bookmark with “bm1” name:
 
@@ -159,7 +159,7 @@ In the following example first bookmark’s boundaries are marked as bookmark wi
 </p>
 {{< /highlight >}}
 
-## **Tab Stop**
+## Tab Stop
 
 Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader and –aw-tabstop-pos CSS properties can be applied to this span.
 
@@ -180,7 +180,7 @@ Example:
 </p>
 {{< /highlight >}}
 
-## **PAGE Field**
+## PAGE Field
 
 Usually PAGE field is represented as one span element in HTML output, but can be represented with several spans. We enclose these span elements with one span container. –aw-field-code CSS property can be applied to this span.
 
@@ -194,7 +194,7 @@ Example:
 </p>
 {{< /highlight >}}
 
-## **Shape**
+## Shape
 
 Shape is exported as img element. –aw-wrap-type, –aw-left-pos, -aw-top-pos, -aw-rel-hpos and –aw-rel-vpos CSS properties can be applied to this img element.
 
@@ -214,7 +214,7 @@ Example:
 <img src="TestImage Out.001.png" width="193" height="193" alt="" style="margin-top: 27.3pt; margin-left: 46.2pt; -aw-left-pos: 46.2pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 27.3pt; -aw-wrap-type: none; position: absolute; z-index: 0" />
 {{< /highlight >}}
 
-## **Insert (Delete) Revision**
+## Insert (Delete) Revision
 
 Insert (delete) revision is exported as ins (del) element. –aw-revision-author and –aw-revision-datetime CSS properties can be applied to this ins (del) element.
 
@@ -236,7 +236,7 @@ Example:
 </p>
 {{< /highlight >}}
 
-## **Structured Document Tag**
+## Structured Document Tag
 
 Every document element which is content control can be marked in output HTML with special CSS properties –aw-sdt-title and –aw-sdt-tag (p and span elements).
 

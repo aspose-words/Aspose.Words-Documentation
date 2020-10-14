@@ -5,7 +5,7 @@ weight: 10
 url: /java/mail-merge-form-fields-in-python/
 ---
 
-## **Aspose.Words - Mail Merge Form Fields**
+## Aspose.Words - Mail Merge Form Fields
 
 **Python Code**
 
@@ -29,7 +29,7 @@ doc.getMailMerge().execute(fieldNames, fieldValues)
 doc.save(self.dataDir + "Template Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Mail Merge Form Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 

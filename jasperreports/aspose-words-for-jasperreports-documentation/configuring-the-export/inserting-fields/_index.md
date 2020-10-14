@@ -13,7 +13,7 @@ Aspose.Words for JasperReports provides a unique feature that allows inserting M
 
 To enable field code recognition, use the following parameter: 
 
-#### **JasperReports**
+#### JasperReports
 
 **Java**
 
@@ -24,7 +24,7 @@ To enable field code recognition, use the following parameter:
    exporter.exportReport();
 {{< /highlight >}}
 
-#### **JasperServer**
+#### JasperServer
 
 **XML**
 

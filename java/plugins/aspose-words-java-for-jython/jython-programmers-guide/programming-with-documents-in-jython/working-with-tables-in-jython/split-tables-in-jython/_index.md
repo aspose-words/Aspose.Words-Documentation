@@ -5,7 +5,7 @@ weight: 30
 url: /java/split-tables-in-jython/
 ---
 
-## **Aspose.Words - Split Tables**
+## Aspose.Words - Split Tables
 
 To Split Tables using **Aspose.Words Java for Jython**. Here you can see sample code.
 
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     SplitTables()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

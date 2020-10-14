@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 16.11.0](https://www
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 74 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -27,7 +27,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
   - scene3d, sp3d, extLst for charts
   - drawing ML extended text run properties
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -106,13 +106,13 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-3498|Support export to HTML5.|Feature|
 |WORDSNET-14205|Styles lost when Word XML saved as Doc|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 16.11.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **WORDSNET-3498 Support export to HTML5**
+### WORDSNET-3498 Support export to HTML5
 
-#### **New public enum HtmlVersion:**
+#### New public enum HtmlVersion:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -139,7 +139,7 @@ public enum HtmlVersion
 }
 {{< /highlight >}}
 
-#### **New public property in HtmlSaveOptions:**
+#### New public property in HtmlSaveOptions:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -153,7 +153,7 @@ public HtmlVersion HtmlVersion
 }
 {{< /highlight >}}
 
-#### **Usecase:**
+#### Usecase:
 
 {{< highlight csharp >}}
 var so = new HtmlSaveOptions();
@@ -161,7 +161,7 @@ so.HtmlVersion = HtmlVersion.Html5;
 doc.Save("out.html", so);
 {{< /highlight >}}
 
-### **WORDSNET-13625 - FixedPageSaveOptions.OptimizeOutput**
+### WORDSNET-13625 - FixedPageSaveOptions.OptimizeOutput
 
 Starting from 16.11.0 version, OptimizeOutput option is available for all fixed page formats.
 

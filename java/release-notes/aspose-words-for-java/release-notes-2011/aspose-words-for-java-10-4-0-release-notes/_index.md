@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 10.4.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 10.4 Release Notes**
+## Aspose.Words for Java 10.4 Release Notes
 
 This regular monthly release delivers 110 new features and fixes. 
 
@@ -24,4 +24,4 @@ Some of the highlights are:
   Improvements and fixes in the field update engine. 
   Improvements in document conversions and rendering. 
   Enhancements in the documentation and sample code. 
-## **All Fixes**
+## All Fixes

@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for C++ 20.6](https://downloa
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
@@ -19,7 +19,7 @@ We have added the following features from Aspose.Words for .NET on this regular 
 - Added a new public property ImportFormatOptions.IgnoreHeaderFooter.
 - MarkdownSaveOptions class is introduced.
 
-## **Limitations and API Differences**
+## Limitations and API Differences
 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
@@ -33,7 +33,7 @@ The missing features will be added in future releases.
 - The current release has limited support for database features - C++ does not have a common API for DB like .NET System.Data.
 - The current release only supports Microsoft Visual C++ version 2017 or higher and only for the x64 platform.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -134,11 +134,11 @@ The missing features will be added in future releases.
 |WORDSNET-6648|Table formatting (horizontal cell merging) lost upon conversion to DOC|Bug|
 |WORDSNET-16221|Table is overlapped after conversion from DOCX to PDF|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### **Added a new public class MarkdownSaveOptions**
+### Added a new public class MarkdownSaveOptions
 
 Related issue: WORDSNET-20297
 
@@ -213,7 +213,7 @@ builder.Document.Save("TestDocument.md", saveOptions);
 {{< /highlight >}}
 
 
-### **Added a new public property Font.EmphasisMark**
+### Added a new public property Font.EmphasisMark
 
 Related issue: WORDSNET-13983
 
@@ -333,7 +333,7 @@ document.Save(savePath, saveOptions);
 {{< /highlight >}}
 
 
-### **Added a new public property ImportFormatOptions.IgnoreHeaderFooter**
+### Added a new public property ImportFormatOptions.IgnoreHeaderFooter
 
 Related issue: WORDSNET-19776
 
@@ -379,7 +379,7 @@ dstDocument.AppendDocument(srcDocument, ImportFormatMode.KeepSourceFormatting, i
 
 {{< /highlight >}}
 
-### **Added a new public property MarkdownSaveOptions.TableContentAlignment**
+### Added a new public property MarkdownSaveOptions.TableContentAlignment
 
 Related issue: WORDSNET-20425
 
@@ -517,7 +517,7 @@ builder.Document.Save("auto.md", saveOptions);
 
 {{< /highlight >}}
 
-### **PDF version 1.5 is marked as obsolete**
+### PDF version 1.5 is marked as obsolete
 
 PDF version 1.5 is outdated and marked as obsolete. Please, use the latest PDF version 1.7.
 

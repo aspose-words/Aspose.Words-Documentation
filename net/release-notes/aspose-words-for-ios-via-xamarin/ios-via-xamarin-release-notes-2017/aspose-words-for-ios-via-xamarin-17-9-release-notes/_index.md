@@ -15,7 +15,7 @@ This version also includes all bug fixes and public API changes made in Aspose.W
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 Aspose.Words for iOS via Xamarin features can be divided into four main areas:
 
@@ -24,7 +24,7 @@ Aspose.Words for iOS via Xamarin features can be divided into four main areas:
 - Rendering: Convert whole documents or pages to PDF, XPS, SVG or SWF for server-side document generation. Also convert document pages to PNG, JPEG or EMF images, render pages to CoreGraphics.CGContext. All with high fidelity - exactly like Microsoft Word® would have done it.
 - Reporting: Generate documents or reports from scratch or by filling templates with data from data sources or business objects.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

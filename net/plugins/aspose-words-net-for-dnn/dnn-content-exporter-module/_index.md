@@ -5,7 +5,7 @@ weight: 20
 url: /net/dnn-content-exporter-module/
 ---
 
-## **Introduction**
+## Introduction
 
 Advance DNN Content Exporter Module using [Aspose.Words for .NET](http://www.aspose.com/word-component-suite.aspx) allow users to export online contents into a Word Document, OpenDocument, PDF and Image formats (Jpeg, Png, Tiff) from selected DNN Skin Pane or Full Page using Aspose.Words and send output file to browser for Open/Download to local system.
 
@@ -13,7 +13,7 @@ Advance DNN Content Exporter Module using [Aspose.Words for .NET](http://www.asp
 
 Based on customer feedback we have added much requested Selected Content Pane and other export types features in this release. This new release of the module comes with the following exciting features:
 
-### **Module Features**
+### Module Features
 
 - Allow Full Page Contents Export
 - Option to select DNN Pane before exporting the content allows you to export only relevant area instead of exporting the whole page.
@@ -28,7 +28,7 @@ Based on customer feedback we have added much requested Selected Content Pane an
 
 ![todo:image_alt_text](dnn-content-exporter-module_2)
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
 In order to setup Aspose.Words .NET for DNN modules you need to have the following requirements met:
 
@@ -37,7 +37,7 @@ In order to setup Aspose.Words .NET for DNN modules you need to have the followi
 
 Please feel free to contact us if you wish to install these modules on other versions of DNN.
 
-## **Downloading**
+## Downloading
 
 You can download Quote Generator modules from one of the following locations
 
@@ -45,7 +45,7 @@ You can download Quote Generator modules from one of the following locations
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AdvanceDNNContentExporter)
 - [DNN Store](http://store.dnnsoftware.com/home/product-details/aspose-net-advance-dnn-content-exporter)
 
-## **Installing**
+## Installing
 
 Once downloaded, please follow these steps to install the module into your DNN website:
 
@@ -57,7 +57,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 
 Please check [this module installation video](http://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
 
-## **Using**
+## Using
 
 After you have installed the Aspose .NET Advance DNN Content Exporter, it is really simple to start using it on your website. Please follow these simple steps to get started:
 
@@ -71,14 +71,14 @@ After you have installed the Aspose .NET Advance DNN Content Exporter, it is rea
 
 You have successfully added Aspose .NET Advance DNN Content Exporter module to your page. 
 
-### **Export Contents**
+### Export Contents
 
 1. Select **Exportable Area** "Full Page" OR DNN Skin Panels.
 1. Select **Export Format** provided by Aspose.Words for .NET API.
 1. Click **Export** Button.
 1. Open/Download exported file in browser.
 
-### **Apply CSS Class Name**
+### Apply CSS Class Name
 
 This module allow to apply CSS Class name for DropDowns and Export Button.
 
@@ -88,7 +88,7 @@ This module allow to apply CSS Class name for DropDowns and Export Button.
 1. Input CSS class name for Dropdowns and Export Button.
 1. Click **Update** Button.
 
-### **How to apply Aspose License?**
+### How to apply Aspose License?
 
 This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
@@ -96,13 +96,13 @@ To remove evaluation message and feature limitations, product license should be 
 - Make sure the license file is named as **Aspose.Words.lic**
 - Place **Aspose.Words.lic** file in **App_Data** folder of your DNN website e.g. "DNN Root Folder/App_Data/Aspose.Words.lic"
 
-## **Video Demo**
+## Video Demo
 
 Please check [the video](https://www.youtube.com/watch?v=tvKB5BgSozQ) below to see the module in action.
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -114,11 +114,11 @@ You can log any issues or suggestions related to Aspose.Words .NET for DNN Modu
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-Advance-DNN-9d95e936/view/Discussions#content)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Aspose .NET Advance DNN Content Exporter module is open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 
-#### **Source Code**
+#### Source Code
 
 You can get the latest source code from one of the following locations
 
@@ -126,7 +126,7 @@ You can get the latest source code from one of the following locations
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
 - [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-Advance-DNN-9d95e936)
 
-#### **How to configure the source code**
+#### How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 

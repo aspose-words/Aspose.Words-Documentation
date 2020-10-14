@@ -5,7 +5,7 @@ weight: 20
 url: /java/remove-fields-from-document/
 ---
 
-## **Aspose.Words - Remove Fields from Document**
+## Aspose.Words - Remove Fields from Document
 
 A field inserted into the document using DocumentBuilder.insertField returns a Field object which provides a convenience method to easily remove the field from the document.
 
@@ -19,12 +19,12 @@ Field field = builder.insertField("PAGE");
 field.remove();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithfields/removefields/AsposeRemoveFields.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithfields/removefields/AsposeRemoveFields.java)

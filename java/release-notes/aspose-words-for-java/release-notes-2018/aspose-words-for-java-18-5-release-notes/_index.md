@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 18.5](https://reposi
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -34,7 +34,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 - Fixed rendering of a dashed line shapes with a shadow
 - LINQ Reporting Engine supports ?. and ?[] null-conditional operators in template expressions
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -114,11 +114,11 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16755|Incorrect conversion of bullet points in word|Regression|
 |WORDSNET-16610|RTF to HTML loses bullets after upgrading Aspose|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.5. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Added Public Property StructuredDocumentTag.Color**
+### Added Public Property StructuredDocumentTag.Color
 
 This property allows to control the ***Color*** of a content control.
 
@@ -146,11 +146,11 @@ dataDir = dataDir + "SetContentControlColor_out.docx";
 doc.save(dataDir);
 {{< /highlight >}}
 
-### **Obsolete Property HtmlSaveOptions.ExportMetafileAsRaster was Removed**
+### Obsolete Property HtmlSaveOptions.ExportMetafileAsRaster was Removed
 
 Obsolete property ExportMetafileAsRaster was removed from the HtmlSaveOptions class. Please use the HtmlSaveOptions.MetafileFormat property instead.
 
-### **Supported Null-Conditional Operators in Template Expressions for LINQ Reporting Engine**
+### Supported Null-Conditional Operators in Template Expressions for LINQ Reporting Engine
 
 Related issue: WORDSNET-16227
 

@@ -5,7 +5,7 @@ weight: 190
 url: /net/search-and-replace-text-in-document-part/
 ---
 
-### **OpenXML**
+### OpenXML
 
 Below is the code example of search and replace text using OpenXML SDK.
 
@@ -34,7 +34,7 @@ Below is the code example of search and replace text using OpenXML SDK.
    }
 {{< /highlight >}}
 
-### **Aspose.Words**
+### Aspose.Words
 
 Below is the code example of searching and replacing text in Document part using Aspose.Words.
 
@@ -47,13 +47,13 @@ Below is the code example of searching and replacing text in Document part using
  doc.Save(fileName);
 {{< /highlight >}}
 
-### **Download Running Example**
+### Download Running Example
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
 
-### **Download Sample Code**
+### Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/SourceControl/latest#Aspose.Words VS OpenXML/Search and Replace Text/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML/Search%20and%20Replace%20Text)

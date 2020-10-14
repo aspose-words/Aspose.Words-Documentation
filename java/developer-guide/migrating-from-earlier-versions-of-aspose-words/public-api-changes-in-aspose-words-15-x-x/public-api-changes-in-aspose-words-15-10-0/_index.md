@@ -11,6 +11,6 @@ This page lists public API changes that were introduced in Aspose.Words 15.10.0.
 
 {{% /alert %}} 
 
-## **Added new public enum member RepeatingSection to SdtType enum.**
+## Added new public enum member RepeatingSection to SdtType enum.
 
 We've supported this control before, but it was wrongly detected as SdtType.RichText in the model.

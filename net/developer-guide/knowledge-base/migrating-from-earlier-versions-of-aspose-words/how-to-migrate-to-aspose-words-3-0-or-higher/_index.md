@@ -11,35 +11,35 @@ Starting with Aspose.Words for .NET 3.0 the new document object model consisting
 
 {{% /alert %}} 
 
-#### **New Aspose.Words.Reporting Namespace**
+#### New Aspose.Words.Reporting Namespace
 
 Classes MailMerge, MailMerge.MappedDataFields, MergeFieldEventArgs, MergeFieldEventArgsBase, MergeImageFieldEventArgs and delegates MergeFieldEventHandler, MergeImageFieldEventHandler were moved from the Aspose.Words namespace to the Aspose.Words.Reporting namespace.
 
 You need to change your code by including "using Aspose.Words.Reporting;" if you are using mail merge functionality. 
 
-#### **Old Licensing is no Longer Supported**
+#### Old Licensing is no Longer Supported
 
 Licenses issued prior to 22nd of January 2005 are no longer supported. If you upgrade to a new version of Aspose.Words, you need to renew your license. Once you have a new license, use the License class to apply the license.
 
-#### **IDocumentVisitor Redesigned**
+#### IDocumentVisitor Redesigned
 
 IDocumentVisitor was a visitor interface that allowed forward-only enumeration over document content. Since the new document object model available in Aspose.Words 3.0 introduces many new classes and allows detailed programmatic access to document elements, the visitor interface was completely redesigned.
 
 The **IDocumentVisitor** interface was replaced by the [DocumentVisitor](https://apireference.aspose.com/words/net/aspose.words/documentvisitor) class. If you had an implementation of **IDocumentVisitor** , you need to change your class to derive from **DocumentVisitor** and update the names and signatures of the methods. 
 
-#### **Section.ClearStory Removed**
+#### Section.ClearStory Removed
 
 The Section.ClearStory method was removed. 
 
 To clear a story in Aspose.Words 3.0 and higher, use [Story.RemoveAllChildren](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/removeallchildren) . The main text story of a section is available as **Story.Body** , therefore calling [Body.RemoveAllChildren](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/removeallchildren) on the [Section](https://apireference.aspose.com/words/net/aspose.words/section) object will clear the main text story. The headers and footers of a section available via [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/properties/headersfooters) and to clear a header/footer of a specific type use **Section.HeadersFooters[HeaderFooterType].RemoveAllChildren** . 
 
-#### **Inserting Section from another Document**
+#### Inserting Section from another Document
 
 To insert a section from another document in Aspose.Words 2.x you just had to make a clone of the original section or remove it from the original document and then use SectionCollection.Insert or SectionCollection.Add on the Document object to insert the section into the destination document.
 
 Starting with Aspose.Words 3.0, before any node from another document can be inserted, it must be imported using [DocumentBase.ImportNode](https://apireference.aspose.com/words/net/aspose.words/documentbase/methods/importnode/index) . The **DocumentBase.ImportNode** makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. 
 
-##### **Example**
+##### Example
 
 *This fragment shows how to insert a section from another document in Aspose.Words 3.0 or higher.* 
 
@@ -59,7 +59,7 @@ Dim newSection As Section = CType(dstDoc.ImportNode(sourceSection, True), Sectio
 dstDoc.Sections.Add(newSection)
 {{< /highlight >}}
 
-#### **MailMerge.GetFieldNamesEx was Removed**
+#### MailMerge.GetFieldNamesEx was Removed
 
 In Aspose.Words 2.x there were two methods:
 

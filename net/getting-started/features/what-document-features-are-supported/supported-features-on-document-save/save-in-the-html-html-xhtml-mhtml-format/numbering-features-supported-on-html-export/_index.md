@@ -25,7 +25,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 {{% /alert %}} 
 
-## **Numbering Definition**
+## Numbering Definition
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -33,7 +33,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |Multi-Level|Yes|Multiple level lists are always outputted as ordinary paragraphs.| |
 |Name|Planned|Can be exported as a List style name.| |
 
-## **Numbering Level**
+## Numbering Level
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

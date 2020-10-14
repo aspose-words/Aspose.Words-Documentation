@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 15.7.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 15.7 Release Notes**
+## Aspose.Words for .NET 15.7 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 103 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -35,7 +35,7 @@ Text with gradient fill rendering implemented
 
 Japanese OTF fonts overlapping characters problem in rendered images fixed
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

@@ -5,15 +5,15 @@ weight: 80
 url: /java/aspose-words-java-for-ruby/
 ---
 
-## **Introduction**
+## Introduction
 
-### **Rjb - Ruby Java Bridge**
+### Rjb - Ruby Java Bridge
 
 RJB is a bridge program that connect between Ruby and Java with Java Native Interface. Rake + Rjb is the more powerful and useful build tool than both Maven and Ant, I
 believe. You can test your Java business logic class itself with Rjb's mock. It helps to migrate Struts's Model Object into your RoR application. But beware to build
 Swing application, Ruby (and Rjb) doesn't consider JVM's native threads handling.
 
-### **Aspose.Words for Java**
+### Aspose.Words for Java
 
 Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
 applications.
@@ -21,36 +21,36 @@ applications.
 Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
 generate, modify, and convert documents without using Microsoft Word.
 
-### **Aspose.Words Java for Ruby**
+### Aspose.Words Java for Ruby
 
 Project Aspose.Words Java for Ruby shows how different tasks can be performed using Aspose.Words Java APIs in Ruby. This project is aimed to provide useful examples for
 Ruby developers who want to utilize Aspose.Words for Java in their Ruby Projects using Rjb (Ruby Java Bridge).
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 **Following are the system requirements to use Aspose.Words Java for Ruby:**
 
 - Rjb Gem is configured
 - Downloaded Aspose.Words component
 
-### **Supported Platforms**
+### Supported Platforms
 
 **Following are the supported platforms:**
 
 - Ruby 2.2.x or above and respective DevKit.
 - Java 1.5 or above
 
-## **Downloads**
+## Downloads
 
-### **Download Required Libraries**
+### Download Required Libraries
 
 Download required libraries mentioned below. These are the required for executing Aspose.Words Java for Ruby examples.
 
 - [Aspose.Words for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.words-for-java/default.aspx)
 
-### **Download Examples from Social Coding Sites**
+### Download Examples from Social Coding Sites
 
 Following releases of running examples are available to download on below mentioned social coding sites:
 
@@ -58,9 +58,9 @@ Following releases of running examples are available to download on below mentio
 
 - [Aspose.Words Java for Ruby](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_Java_for_Ruby)
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -70,19 +70,19 @@ You can log any issues or suggestions related to Aspose.Words Java for Ruby usin
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Aspose.Words Java for Ruby is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 
-### **Source Code**
+### Source Code
 
 You can get the latest source code from one of the following locations:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_Java_for_Ruby)
 
-## **Installation And Usage**
+## Installation And Usage
 
-### **Installing**
+### Installing
 
 It is very simple and easy to install Aspose.Words Java for Ruby gem, please follow these simple steps:
 
@@ -100,7 +100,7 @@ $ bundle
 $ gem install aspose-wordsjavaforruby
 {{< /highlight >}}
 
-### **Using**
+### Using
 
 Include the required files for working with the HelloWorld document.
 
@@ -117,7 +117,7 @@ Let's understand the above code.
 1. Include the files that are required to access the aspose words.
 1. Initialize the libraries. The aspose JAVA classes are loaded from the path provided in the aspose.yml file.
 
-## **Create Ruby Gem for Aspose.Total Java APIs**
+## Create Ruby Gem for Aspose.Total Java APIs
 
 If you want to create your own Ruby gem Aspose.Total Java APIs, please follow these simple steps:
 
@@ -129,7 +129,7 @@ If you want to create your own Ruby gem Aspose.Total Java APIs, please follow th
 - Download relevant Aspose.Total Java Component from <http://www.aspose.com/java/total-component.aspx> and place it in your project "jars" folder
 - Upload the created gem to <http://www.rubygems.org> for distribution to the world
 
-## **Sample Code Examples**
+## Sample Code Examples
 
 **This section includes the following topics:**
 

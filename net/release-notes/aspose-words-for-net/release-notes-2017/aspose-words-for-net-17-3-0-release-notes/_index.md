@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 17.3.0](https://www.
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 67 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -27,7 +27,7 @@ There are 67 improvements and fixes in this regular monthly release. The most no
 - Improved tables breaking logic for tables with vertically merged cells having horizontal borders.
 - Implemented fitText option for table cells.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -102,7 +102,7 @@ Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.3.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **WORDSNET-4316: Font Substitution Mechanism Improved**
+### WORDSNET-4316: Font Substitution Mechanism Improved
 
 Previously Aspose.Words performed font substitution only in cases when FontInfo in the document for the missing font doesn't contains the PANOSE. Now Aspose.Words evaluates all related fields in FontInfo (Panose, Sig etc) and finds the closest match among the available font sources. In case of font substitution the warning is issued with text:
 
@@ -112,7 +112,7 @@ Please note that now font substitution mechanism will override the FontSettings
 
 Also please note that font substitution algorithm in MS Word is not documented. And the result of Aspose.Words font substitution may not match MS Word choice.
 
-### **New Public OfficeMath.MathObjectType Property Added**
+### New Public OfficeMath.MathObjectType Property Added
 
 To improve customer experience with Office Math objects in Aspose.Words model we've exposed the following simple read-only addition to the public API:
 
@@ -129,7 +129,7 @@ if (officeMath.MathObjectType == MathObjectType.Matrix)
 }
 {{< /highlight >}}
 
-### **Support of Variables, Dynamic Text Background Setting, and a New Image Size Fit mode Added to LINQ Reporting Engine**
+### Support of Variables, Dynamic Text Background Setting, and a New Image Size Fit mode Added to LINQ Reporting Engine
 
 These issues have been resolved: WORDSNET-14489, WORDSNET-14600 and WORDSNET-14627
 
@@ -141,7 +141,7 @@ The following sections of the engine's documentation were added/updated to descr
 - [Using Variables](/words/net/template-syntax/#templatesyntax-usingvariables)
 - [In-Table List Template with Running (Progressive) Total](/words/net/typical-templates/#typicaltemplates-in-tablelisttemplatewithrunning-progressive-total)
 
-### **WORDSNET-12412 - Added a MailMergeCleanupOptions Option to Remove Empty Row**
+### WORDSNET-12412 - Added a MailMergeCleanupOptions Option to Remove Empty Row
 
 As per customer's request, we have added a MailMergeCleanupOptions option allowing to remove empty rows during mail merge:
 
@@ -163,7 +163,7 @@ document.MailMerge.MergeDuplicateRegions = true;
 document.MailMerge.ExecuteWithRegions(dataTable);
 {{< /highlight >}}
 
-### **WORDSNET-14602 - New Public Properties were Added to the OfficeMath Object.**
+### WORDSNET-14602 - New Public Properties were Added to the OfficeMath Object.
 
 New public properties Justification and DisplayType were added into the OfficeMath class.
 
@@ -214,7 +214,7 @@ Mimic MS Word VBA behavior:
 
 \-   Justification cannot be set to the Office Math displayed inline with text. The exception will be thrown. OfficeMath.DisplayType property has to be used to change OfficeMathDisplayType first.
 
-### **WORDSNET-14745 - Provided Ability to Specify Locale at Field Level**
+### WORDSNET-14745 - Provided Ability to Specify Locale at Field Level
 
 As per customer's request, we have added a property that allows to get/set field's locale:
 

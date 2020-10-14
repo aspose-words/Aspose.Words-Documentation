@@ -11,7 +11,7 @@ The examples here were kindly provided by one of our forum members.
 
 {{% /alert %}} 
 
-#### **Instant ASP**
+#### Instant ASP
 
 JScript ASP page implementing Word to PDF using the COM interface:
 
@@ -36,7 +36,7 @@ JScript ASP page implementing Word to PDF using the COM interface:
  </html>
 {{< /highlight >}}
 
-#### **Instant ASP.NET**
+#### Instant ASP.NET
 
 Works easiest in ASP.NET v2.0 – Copy Aspose.Words.DLL into a directory named "Bin" in your website directory. Then create your .aspx page and copy the following into it (update the variables at the top as needed. Note that our example assumes a base filename and we play with the extensions from there - .doc and .pdf).
 

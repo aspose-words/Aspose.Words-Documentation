@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 14.4 Release Notes](
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 14.4 Release Notes**
+## Aspose.Words for .NET 14.4 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 78 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -26,7 +26,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
   3D rotated DrawingML shapes (and images) rendering implemented 
   Better support of tab stops and underlines in HTML import/export
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

@@ -11,11 +11,11 @@ This page contains release notes for [Aspose.Words for .NET 9.8.0](http://www.as
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 9.8 Release Notes**
+## Aspose.Words for .NET 9.8 Release Notes
 
 We have worked hard for the past two months and here is our next release with almost 170 improvements and fixes for you.
 
-## **What's New**
+## What's New
 
 - Custom XML is now supported in DOC in addition to DOCX and RTF documents.
 - Specify your own directories to search for TrueType fonts for document rendering.
@@ -25,4 +25,4 @@ We have worked hard for the past two months and here is our next release with al
 - Navigation pane in the SWF output.
 - Many improvements in rendering and conversion to PDF and XPS.
 - Many improvements in the field update engine.
-## **All Fixes**
+## All Fixes

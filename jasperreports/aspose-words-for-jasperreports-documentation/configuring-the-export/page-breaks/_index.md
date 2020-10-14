@@ -17,11 +17,11 @@ The "section breaks" mode is chosen as default because there may be headers and 
 
 {{% /alert %}} 
 
-### **Normal Page Breaks**
+### Normal Page Breaks
 
 You can change the page breaks inserted to regular (not section) breaks by using the following parameter: 
 
-#### **JasperReports**
+#### JasperReports
 
 **Java**
 
@@ -32,7 +32,7 @@ You can change the page breaks inserted to regular (not section) breaks by using
    exporter.exportReport();
 {{< /highlight >}}
 
-#### **JasperServer**
+#### JasperServer
 
 **XML**
 
@@ -42,11 +42,11 @@ You can change the page breaks inserted to regular (not section) breaks by using
 </bean>
 {{< /highlight >}}
 
-### **No Page Breaks**
+### No Page Breaks
 
 You can instruct the exporter to avoid any use of page breaks (so that the report contents are simply exported continuously) by using the following parameter:
 
-#### **JasperReports**
+#### JasperReports
 
 **Java**
 
@@ -57,7 +57,7 @@ You can instruct the exporter to avoid any use of page breaks (so that the repor
    exporter.exportReport();
 {{< /highlight >}}
 
-#### **JasperServer**
+#### JasperServer
 
 **XML**
 

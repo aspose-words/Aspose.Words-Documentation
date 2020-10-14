@@ -5,7 +5,7 @@ weight: 10
 url: /net/autofit-setting-to-tables/
 ---
 
-## **Aspose.Words - Autofit Setting to Tables**
+## Aspose.Words - Autofit Setting to Tables
 
 When creating a table using a visual agent such as Microsoft Word, you will often find yourself using one of the AutoFit options to automatically size the table to the desired width. For instance you can use the AutoFit to Window option to fit the table to the width of the page and AutoFit to Contents option to allow each cell to grow or shrink to accommodate its contents. 
 
@@ -26,7 +26,7 @@ table.AutoFit(AutoFitBehavior.AutoFitToWindow);
 doc.Save("TestFile.AutoFitToWindow Out.doc");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Autofit Setting to Tables** form any of the below mentioned social coding sites:
 

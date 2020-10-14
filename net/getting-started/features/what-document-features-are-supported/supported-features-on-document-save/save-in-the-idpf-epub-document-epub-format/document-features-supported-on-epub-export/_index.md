@@ -39,7 +39,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **General**
+## General
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -65,14 +65,14 @@ See the following links in the documentation for further information:
 |Background |Yes |Only solid background is exported. Exported as style="background:xxx" on each &lt;body&gt; tag. <br><br>There are plans to export background shape as style-background. | |
 |Thumbnail |Yes |You can include a cover image on output EPUB documents either by importing an existing image or by generating a thumbnail of one of the document page's using Aspose.Words |- **InBuiltDocumentProperties.Thumbnail**|
 
-## **Embedded Fonts**
+## Embedded Fonts
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Embedding Fonts |Yes |There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX can be optionally exported. |<p>- [HtmlSaveOptions.ExportFontResources](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportfontresources) </p><p>- [HtmlSaveOptions.FontResourcesSubsettingSizeThreshold](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontresourcessubsettingsizethreshold) </p><p>- [HtmlSaveOptions.FontsFolder](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontsfolder) </p><p>- [HtmlSaveOptions.FontSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontsavingcallback)</p>|
 |Embed Only Non-Standard Fonts |N/A | | |
 
-## **Bibliography**
+## Bibliography
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -80,7 +80,7 @@ See the following links in the documentation for further information:
 |Sources/Citations |Yes |Bibliography sources are not saved to HTML. | |
 |Citation Style |N/A | | |
 
-## **Protection**
+## Protection
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -94,7 +94,7 @@ See the following links in the documentation for further information:
 |Protection Ranges |N/A | | |
 |Read Only |N/A | | |
 
-## **Settings**
+## Settings
 
 Only some settings can be exported.
 

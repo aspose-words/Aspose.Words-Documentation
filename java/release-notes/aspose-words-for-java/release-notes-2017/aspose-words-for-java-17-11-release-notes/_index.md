@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 17.11](http://maven.
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 106 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -140,16 +140,16 @@ Full List of Issues Covering all Changes in this Release
 |WORDSNET-8531|Field.Update method return incorrect value for Page field|Regression|
 |WORDSNET-9149|MailMerge.Execute takes very long time to complete|Regression |
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 
 This section lists public API changes that were introduced in Aspose.Words 17.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Supported Dynamic Shape Fill Color Setting for LINQ Reporting Engine**
+### Supported Dynamic Shape Fill Color Setting for LINQ Reporting Engine
 
 The "Setting Text Background Color Dynamically" section of the engine's documentation was renamed to "[Setting Background Color Dynamically](/words/java/setting-background-color-dynamically/)" and updated to describe the change.
 
-### **Added Word2016 Constant into MsWordVersion Enumeration Type**
+### Added Word2016 Constant into MsWordVersion Enumeration Type
 
 Related issue WORDSNET-14771.
 
@@ -168,7 +168,7 @@ It can be passed into the CompatibilityOptions.OptimizeFor method to optimize th
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 {{< /highlight >}}
 
-### **To Set File Name and Extension when Inserting Ole Object using MemoryStream**
+### To Set File Name and Extension when Inserting Ole Object using MemoryStream
 
 Related Issue: WORDSNET-15616
 
@@ -207,7 +207,7 @@ olePackage.setDisplayName("aaa.zip");
 document.save("output.docx");
 {{< /highlight >}}
 
-### **Changed Behavior of Range.Replace Methods**
+### Changed Behavior of Range.Replace Methods
 
 Related issue WORDSNET-15624
 
@@ -233,7 +233,7 @@ Now headers/footers of a section are processed in this order:
   - Even header
   - Even footer
 
-### **Remove Obsolete Methods in DigitalSignatureUtil**
+### Remove Obsolete Methods in DigitalSignatureUtil
 
 Related issue: WORDSNET-15712
 
@@ -253,7 +253,7 @@ Instead, the methods with SignOptions class should be used. See following headin
 - [Implemented Signing Signature Line in Word Documents](/words/java/aspose-words-for-java-17-8-release-notes/) (17.8 release notes)
 - [Provided API Similar to SignatureSet.AddSignatureLine Method in MS Office](/words/java/aspose-words-for-java-17-10-release-notes/) (17.10 release notes)
 
-### **Metafile Warnings Improved**
+### Metafile Warnings Improved
 
 Related issue: WORDSNET-15969
 
@@ -261,7 +261,7 @@ Related issue: WORDSNET-15969
 - Removed warnings about unsupported metafile records which do not affect the output.
 - Changed type of warnings about unsupported metafile records from DataLoss/UnexpectedContent to more appropriate MinorFormattingLoss.
 
-### **Get Position of Floating Table in Public API**
+### Get Position of Floating Table in Public API
 
 Related issue: WORDSNET-15981 
 
@@ -318,7 +318,7 @@ for (Table table: (Iterable<Table>) doc.getFirstSection().getBody().getTables())
 }
 {{< /highlight >}}
 
-### **Added the FieldIf.EvaluateCondition() Method**
+### Added the FieldIf.EvaluateCondition() Method
 
 Related issue: WORDSNET-15903
 

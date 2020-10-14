@@ -9,7 +9,7 @@ This topic describes how to work programmatically with lists using Aspose.Words.
 
 A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level. A List object always belongs to the ListCollection collection.
 
-## **Creating Lists by Applying List Formatting**
+## Creating Lists by Applying List Formatting
 
 Aspose.Words allows the easy creation of lists by applying list formatting. DocumentBuilder provides the DocumentBuilder.ListFormat property that returns a ListFormat object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
 
@@ -33,7 +33,7 @@ Below example shows how to build a multilevel list.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetMultilevelListFormatting.cs" >}}
 
-## **How to Restart List for each Section**
+## How to Restart List for each Section
 
 You can restart a list for each section using List.IsRestartAtEachSection property. Note that this option is supported only in RTF, DOC and DOCX document formats. This option will be written to DOCX only if OoxmlCompliance is higher then Ecma376. Following code example shows how to create a list and restart it for each section. 
 

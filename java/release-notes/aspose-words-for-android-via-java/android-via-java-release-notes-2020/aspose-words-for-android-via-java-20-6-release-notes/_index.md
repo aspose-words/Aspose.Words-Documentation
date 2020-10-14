@@ -12,7 +12,7 @@ This page contains release notes for [Aspose.Words for Android via Java 20.6](ht
 {{% /alert %}} 
 
 
-## **Major Features**
+## Major Features
 
 There are 100+ improvements and fixes in this regular monthly release. The most notable are:
 
@@ -24,7 +24,7 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements, and fixes included in the [Aspose.Words for .NET 20.6](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.6+Release+Notes) and [Aspose.Words for Java 20.6](/words/java/aspose-words-for-java-20-6-release-notes/) are also included in this 'Aspose.Words for Android via Java' 20.6.
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

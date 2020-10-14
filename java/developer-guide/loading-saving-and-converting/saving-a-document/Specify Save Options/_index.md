@@ -19,7 +19,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 The article describes a few properties you can control when saving a document.
 
-## **Encrypt a Document With a Password**
+## Encrypt a Document With a Password
 
 Use the **Password** property to get or set a password for an encrypted document. Use the **Password** property of the corresponding class to work with the selected document format.
 
@@ -37,7 +37,7 @@ The following code example shows how to load and save OpenDocument encrypted wit
 
 Not all formats support encryption and the use of **Password** property.
 
-## **Update Last Saved Property**
+## Update Last Saved Property
 
 Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property to gets or sets a value determining whether the [LastSavedTime](https://apireference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#LastSavedTime) property is updated before saving.
 
@@ -45,7 +45,7 @@ The following code example shows how to set this property and save the document
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithOoXML-updateLastSavedTimeProperty.java" >}}
 
-## **Save Black and White Image with One Bit Per Pixel Format**
+## Save Black and White Image with One Bit Per Pixel Format
 
 To control image saving options, the **ImageSaveOptions** class is used. For example, you can use the [PixelFormat](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#PixelFormat) property to set the pixel format for the generated images. Please note that the pixel format of the output image may differ from the set value because of the work of GDI+.
 

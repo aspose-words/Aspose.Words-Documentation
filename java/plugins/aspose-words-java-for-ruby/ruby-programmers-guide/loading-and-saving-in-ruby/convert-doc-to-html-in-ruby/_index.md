@@ -5,7 +5,7 @@ weight: 20
 url: /java/convert-doc-to-html-in-ruby/
 ---
 
-## **Aspose.Words - Doc to HTML**
+## Aspose.Words - Doc to HTML
 
 Here is example code for converting document to HTML using Aspose.Words Java for Ruby.
 
@@ -33,7 +33,7 @@ save_format = Rjb::import('com.aspose.words.SaveFormat')
 doc.save(data_dir + "Out.docx", save_format.DOCX)
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Doc to HTML (Aspose.Words)** from any of the below mentioned social coding sites:
 

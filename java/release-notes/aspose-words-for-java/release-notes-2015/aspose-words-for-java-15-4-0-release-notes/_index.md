@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 15.4.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 15.4 Release Notes**
+## Aspose.Words for Java 15.4 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 110 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -31,7 +31,7 @@ Added some new public members to HTML save options and shapes/drawing
 
 Over 30 improvements to DocumentBuilder, TXT, ODT and Microsoft Word document formats 
 
-## **All Changes**
+## All Changes
 
 |Key |Summary |Category |
 | :- | :- | :- |

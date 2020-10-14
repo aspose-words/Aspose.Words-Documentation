@@ -5,7 +5,7 @@ weight: 100
 url: /net/print-documents/
 ---
 
-## **VSTO Words**
+## VSTO Words
 
 Call the **PrintOut** method of the **Document** object that you want to print.The following code example prints the active entire document or any current active page.
 
@@ -28,7 +28,7 @@ ref items, ref copies, ref pages, ref pageType, ref oFalse, ref oTrue,
 ref missing, ref oFalse, ref missing, ref missing, ref missing, ref missing);
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 Below is the code example that prints single document or any page of specific document.
 
@@ -46,12 +46,12 @@ doc.Print(PrinterSettings);
 
 For more details of this feature you can go [here](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/#printing-a-document-with-settings-and-print-preview-dialogs)
 
-## **Download Running Code Example**
+## Download Running Code Example
 
 - [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
 
-## **Sample Code**
+## Sample Code
 
 - [CodePlex](https://asposevsto.codeplex.com/SourceControl/latest#Aspose.Words Vs VSTO Words/Print Documents/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20VSTO%20Word/Code%20Comparison%20of%20Common%20Features/Print%20Documents)

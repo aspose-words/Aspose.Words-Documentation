@@ -5,9 +5,9 @@ weight: 40
 url: /java/aspose-words-java-for-jython/
 ---
 
-## **Introduction**
+## Introduction
 
-### **What is Jython?**
+### What is Jython?
 
 Jython is a Java implementation of Python that combines expressive power with clarity. Jython is freely available for both commercial and non-commercial use and is distributed with source code. Jython is complementary to Java and is especially suited for the following tasks:
 
@@ -15,7 +15,7 @@ Jython is a Java implementation of Python that combines expressive power with cl
 - **Interactive experimentation** - Jython provides an interactive interpreter that can be used to interact with Java packages or with running Java applications. This allows programmers to experiment and debug any Java system using Jython.
 - **Rapid application development** - Python programs are typically 2-10X shorter than the equivalent Java program. This translates directly to increased programmer productivity. The seamless interaction between Python and Java allows developers to freely mix the two languages both during development and in shipping products. 
 
-### **Aspose.Words for Java**
+### Aspose.Words for Java
 
 Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
 applications.
@@ -23,13 +23,13 @@ applications.
 Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
 generate, modify, and convert documents without using Microsoft Word.
 
-### **Aspose.Words Java for Jython**
+### Aspose.Words Java for Jython
 
 Aspose.Words Java for Jython is a project that demonstrates / provides the Aspose.Words for Java API usage examples in Jython.
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 **Following are the system requirements to use Aspose.Words Java for Jython:**
 
@@ -37,16 +37,16 @@ Aspose.Words Java for Jython is a project that demonstrates / provides the Aspos
 - Downloaded Aspose.Words component
 - Jython 2.7.0
 
-### **Supported Platforms**
+### Supported Platforms
 
 **Following are the supported platforms:**
 
 - Aspose.Words 15.4 and above.
 - Java IDE (Eclipse, NetBeans ...)
 
-## **Download Installation and Usage**
+## Download Installation and Usage
 
-### **Downloading**
+### Downloading
 
 **Download Examples from social coding websites**
 
@@ -59,12 +59,12 @@ Following releases of running examples are available to download on all of the b
 
 - [Aspose.Words for Java](http://www.aspose.com/community/files/72/java-components/aspose.words-for-java/default.aspx)
 
-### **Installing**
+### Installing
 
 - Place downloaded Aspose.Words for Java jar file into "lib" directory.
 - Replace "your-lib" with the downloaded jar filename in _*init*_.py file.
 
-### **Using**
+### Using
 
 You can create HelloWorld document using following example code:
 
@@ -84,9 +84,9 @@ if __name__ == '__main__':
     HelloWorld()
 {{< /highlight >}}
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -97,11 +97,11 @@ You can log any issues or suggestions related to Aspose.Words Java for Jython u
 - [CodePlex](https://asposewordsjavajython.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Aspose.Words Java for Jython is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 
-### **Source Code**
+### Source Code
 
 You can get the latest source code from one of the following locations
 

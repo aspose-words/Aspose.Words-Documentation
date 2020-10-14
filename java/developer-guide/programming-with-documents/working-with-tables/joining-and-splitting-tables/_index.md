@@ -13,13 +13,13 @@ In order to manipulate a table to split or join with another table we simply nee
 
 {{% /alert %}} 
 
-### **Combining Two Tables into One**
+### Combining Two Tables into One
 
 The rows from the second table simply need to be shifted to the end of the first table and the container of the second table deleted. Below example shows how to combine the rows from two tables into one.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-JoinAndSplitTables-CombineTwoTablesIntoOne.java" >}}
 
-### **Split a Table into Two Separate Tables**
+### Split a Table into Two Separate Tables
 
 We first need to pick a row at where to split the table. Once we know this we can create two tables from the original table by following these simple steps:
 

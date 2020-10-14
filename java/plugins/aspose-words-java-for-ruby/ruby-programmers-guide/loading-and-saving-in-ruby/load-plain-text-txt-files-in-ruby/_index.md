@@ -5,7 +5,7 @@ weight: 30
 url: /java/load-plain-text-txt-files-in-ruby/
 ---
 
-## **Aspose.Words - Load Text (TXT) File**
+## Aspose.Words - Load Text (TXT) File
 
 Load TXT file and save as word document using Aspose.Words Java in Ruby, simply invoke LoadTXT module.
 
@@ -22,7 +22,7 @@ doc = Rjb::import('com.aspose.words.Document').new(data_dir + "LoadTxt.txt")
 doc.save(data_dir + "LoadTxt Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Load Text (TXT) File (Aspose.Words)** from any of the below mentioned social coding sites:
 

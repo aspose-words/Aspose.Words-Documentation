@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.6](ht
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Enhanced the image scaling workflow.
 - Improved the charset recognition process.
@@ -34,7 +34,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.6](ht
 - Improved text positioning when there is a paragraph-relative shape with anchor wrapped around multiple floaters.
 - Improved calculation of space before a paragraph when its first in the document and there is a floater before it.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

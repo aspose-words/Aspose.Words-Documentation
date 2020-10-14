@@ -5,7 +5,7 @@ weight: 50
 url: /net/load-in-the-microsoft-word-document-97-2003-document-doc-dot-format/
 ---
 
-###### **This section includes the following topics:** 
+###### This section includes the following topics: 
 
 - [Annotation Features Supported on DOC Import](/words/net/annotation-features-supported-on-doc-import)
 - [Custom Markup Features Supported on DOC Import](/words/net/custom-markup-features-supported-on-doc-import)

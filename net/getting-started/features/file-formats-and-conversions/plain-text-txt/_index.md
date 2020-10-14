@@ -14,7 +14,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 {{% /alert %}} 
 
 
-## **TXT in Aspose.Words**
+## TXT in Aspose.Words
 
 |![todo:image_alt_text](plain-text-txt_1.png)|It is easy to extract plain text ([TXT](https://docs.fileformat.com/word-processing/txt/)) from any document using Aspose.Words. You can either save into a plain text file or programmatically get the text of any document element.|
 | :- | :- |

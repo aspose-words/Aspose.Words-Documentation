@@ -5,7 +5,7 @@ weight: 30
 url: /net/find-and-replace-in-php/
 ---
 
-## **Aspose.Words - Find and Replace Example**
+## Aspose.Words - Find and Replace Example
 
 Find and Replace Example
 
@@ -30,7 +30,7 @@ Find and Replace Example
         print "Text found and replaced successfully.\nFile saved at " . $dataDir . "ReplaceSimple Out.doc" . PHP_EOL;
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Find and Replace Example (Aspose.Words)** from any of the below mentioned social coding sites:
 

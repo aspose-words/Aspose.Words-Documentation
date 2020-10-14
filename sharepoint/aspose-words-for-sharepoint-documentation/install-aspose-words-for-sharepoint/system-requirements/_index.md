@@ -5,7 +5,7 @@ weight: 10
 url: /sharepoint/system-requirements/
 ---
 
-#### **Server Requirements**
+#### Server Requirements
 
 To install Aspose.Words for SharePoint you need a computer running one of the following:
 
@@ -19,7 +19,7 @@ To install Aspose.Words for SharePoint you need a computer running one of the fo
 
 Installing the latest service packs and other updates for these products is recommended.
 
-#### **Client Requirements**
+#### Client Requirements
 
 You need a browser to access SharePoint sites. The following browsers were checked with Aspose.Words for SharePoint:
 

@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 10.6.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 10.6 Release Notes**
+## Aspose.Words for .NET 10.6 Release Notes
 
 This Aspose.Words regular monthly release contains 66 various fixes and improvements. Here is a list of the most notable changes:
 
@@ -20,4 +20,4 @@ This Aspose.Words regular monthly release contains 66 various fixes and improvem
 - New section in the documentation dedicated to working with tables.
 
 
-## **All Fixes**
+## All Fixes

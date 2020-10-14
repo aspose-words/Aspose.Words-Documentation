@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 15.9.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 15.9 Release Notes**
+## Aspose.Words for .NET 15.9 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 81 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -24,7 +24,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 - Overlapping problem while rendering of Chinese characters into HTML Fixed format resolved
 - Improvements to DrawmingML Charts rendering
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

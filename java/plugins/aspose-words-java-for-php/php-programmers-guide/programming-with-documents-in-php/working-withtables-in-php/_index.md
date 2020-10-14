@@ -5,9 +5,9 @@ weight: 80
 url: /java/working-withtables-in-php/
 ---
 
-## **Aspose.Words - Working WithTables**
+## Aspose.Words - Working WithTables
 
-## **Auto Fit Tables**
+## Auto Fit Tables
 
 **Php Code**
 

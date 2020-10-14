@@ -5,7 +5,7 @@ weight: 20
 url: /java/remove-field-in-python/
 ---
 
-## **Aspose.Words - Remove Field**
+## Aspose.Words - Remove Field
 
 **Python Code**
 
@@ -16,7 +16,7 @@ field = doc.getRange().getFields().get(0)
 field.remove()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Remove Field (Aspose.Words)** from any of the below mentioned social coding sites:
 

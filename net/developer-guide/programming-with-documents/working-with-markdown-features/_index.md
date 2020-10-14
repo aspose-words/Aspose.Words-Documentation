@@ -20,7 +20,7 @@ The Markdown feature implementation mostly follows the CommonMark specification
 - Quotes are paragraphs with "Quote" in the style name. 
 - HorizontalRule is a paragraph with HorizontalRule shape.
 
-## **Markdown Document with Emphases**
+## Markdown Document with Emphases
 
 This section demonstrates you how to produce a markdown document with emphases as given below:
 
@@ -34,7 +34,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-MarkdownDocumentWithEmphases.cs" >}}
 
-## **Markdown Document with Headings**
+## Markdown Document with Headings
 
 This section demonstrates you how to produce a markdown document with headings as given below:
 
@@ -53,7 +53,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-MarkdownDocumentWithHeadings.cs" >}}
 
-## **Markdown Document with Block Quotes**
+## Markdown Document with Block Quotes
 
 This section demonstrates you how to produce a markdown document with block quotes as given below:
 
@@ -73,7 +73,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-MarkdownDocumentWithBlockQuotes.cs" >}}
 
-## **Markdown Document with Horizontal Rule**
+## Markdown Document with Horizontal Rule
 
 This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
 
@@ -86,13 +86,13 @@ The following code snippet can be used to produce the above given markdown docum
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderHorizontalRule-DocumentBuilderInsertHorizontalRule.cs" >}}
 
-## **Reading a Markdown Document**
+## Reading a Markdown Document
 
 The following code snippet shows you how to read a markdown document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-ReadMarkdownDocument.cs" >}}
 
-## **Specify Markdown Save Options**
+## Specify Markdown Save Options
 
 Aspose.Words API provides [MarkdownSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions) class to specify additional options while saving a document into the Markdown format.
 
@@ -100,7 +100,7 @@ The following code example demonstrated how to specify various Markdown save opt
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-SaveAsMD.cs" >}}
 
-## **How to Align Content Inside the Table while Exporting into Markdown**
+## How to Align Content Inside the Table while Exporting into Markdown
 
 Aspose.Words API provides [TableContentAlignment](http://docs.aspose.com) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 

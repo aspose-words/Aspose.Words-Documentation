@@ -5,21 +5,21 @@ weight: 100
 url: /java/aspose-words-java-for-eclipse-maven/
 ---
 
-## **Introduction**
+## Introduction
 
-### **Eclipse IDE**
+### Eclipse IDE
 
 Eclipse IDE is a famous Java Integrated Development Environment (IDE). The IDE is definitely the most known product of the Eclipse Open Source project. Today it is the leading development environment for Java with a market share of approximately 60%.
 
 The Eclipse IDE can be extended with additional software components. Eclipse calls these software components Plug-ins. Several Open Source projects and companies have extended the Eclipse IDE or created standalone applications (Eclipse RCP) on top of the Eclipse framework.
 
-### **Aspose.Words for Java**
+### Aspose.Words for Java
 
 [Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
 
 [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can generate, modify, and convert documents without using Microsoft Word.
 
-### **Aspose.Words Java for Eclipse (Maven)**
+### Aspose.Words Java for Eclipse (Maven)
 
 - Aspose.Words Java for Eclipse (Maven) is a Plugin for **Eclipse IDE** by **Aspose.** The Plugin intended for developers using Maven platform for Java developments and want to use [Aspose.Words for Java](http://goo.gl/Eg359W) in their projects. The Plugin lets you create maven projects for using [Aspose.Words for Java API](http://goo.gl/Eg359W) and also download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of the API. 
 - The plugin provides following features to work with [Aspose.Words for Java API](http://goo.gl/Eg359W) within **Eclipse IDE** comfortably:<br>
@@ -42,22 +42,22 @@ The plugin contains two wizards
 - [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) are meant for demonstrating the various of the API.
 - The wizard will also look for and updates for newly available [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) from [Aspose.Words for Java examples repository.](https://goo.gl/Qx9Hp9)
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 - **System Memory:** 2 GB or more (Recommended)
 - **OS:** Any operating system that support the Java VM (Virtual Machine)
 - **Internet Connection:** 2 MB or faster (Recommended)
 
-### **Supported Platforms**
+### Supported Platforms
 
 - Eclipse Mars.1 (4.5.1) - Recommended
 - Eclipse Juno or later.
 
-## **Downloading**
+## Downloading
 
-### **Download Eclipse IDE**
+### Download Eclipse IDE
 
 You will need to first install Eclipse IDE before downloading the Aspose.Words Java for Eclipse (Maven) plugin.
 
@@ -66,7 +66,7 @@ To download Eclipse IDE
 1. Goto [https://eclipse.org](https://eclipse.org/).
 1. Download and install the recommended Eclipse IDE for Java SE / EE developers.
 
-### **Download Aspose.Words Java for Eclipse (Maven)**
+### Download Aspose.Words Java for Eclipse (Maven)
 
 Following are three recommended methods for the successful downloading and installation of Aspose.Words Java for Eclipse (Maven) plugin:
 
@@ -76,15 +76,15 @@ Following are three recommended methods for the successful downloading and insta
   [http://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords](http://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords/)
   Then select "Aspose.Words Java for Eclipse (Maven)" and **Finish**. Accept License Agreement and Install the plugin.
 
-## **Installing**
+## Installing
 
 [Installing Aspose.Words Java for Eclipse - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/)
 
-## **Using the Plugin**
+## Using the Plugin
 
 [Using Aspose.Words Java for Eclipse - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#using)
 
-### **How to apply Aspose License?**
+### How to apply Aspose License?
 
 This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
@@ -98,9 +98,9 @@ License license = new License();
 license.setLicense("Aspose.Words.Java.lic");
 {{< /highlight >}}
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 - If you like to see known / reported issues (by the users or Q.A team) in the plugin.
 - Or you want to report any issue you found in the plugin
@@ -108,14 +108,14 @@ license.setLicense("Aspose.Words.Java.lic");
 
 Please follow [**GitHub Issues Tracker**](https://github.com/aspose-words/Aspose.Words-for-Java/issues) for logging any issues found in the plugin.
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Aspose.Words Java for Eclipse (Maven) is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it. Developers can also learn from it to make their own plugins.
 
 - [GitHub](https://goo.gl/xoJHH0)
 - [CodePlex](https://goo.gl/k2hz4B)
 
-#### **How to configure source code of Aspose.Words Java for Eclipse (Maven)**
+#### How to configure source code of Aspose.Words Java for Eclipse (Maven)
 
 Below simple steps will smoothly lead to successful configuration of  **"Aspose.Words Java for Eclipse (Maven)"** plugin source code in Eclipse IDE
 

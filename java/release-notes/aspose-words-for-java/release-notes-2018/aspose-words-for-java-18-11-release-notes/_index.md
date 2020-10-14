@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 18.11](https://repos
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 81 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -36,7 +36,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 - Fixed a bug causing shifts of rotated shapes in DrawingML chart while rendering.
 - Provided TxtSaveOptions.ExportHeadersFootersMode property.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -121,11 +121,11 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17585|Performance test failed|Regression|
 |WORDSNET-17494|Infinite loop detected when invoking UpdatePageLayout method|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Removing Colon between Empty MERGEFIELDs**
+### Removing Colon between Empty MERGEFIELDs
 
 WORDSNET-17386 has now been resolved.
 
@@ -171,7 +171,7 @@ document.MailMerge.CleanupParagraphsWithPunctuationMarks = false;
 document.MailMerge.Execute(new string[] {"field"}, new object[] {null});
 {{< /highlight >}}
 
-### **Provide TxtSaveOptions.ExportHeadersFootersMode Property**
+### Provide TxtSaveOptions.ExportHeadersFootersMode Property
 
 ` `New public enum type was added:
 
@@ -202,7 +202,7 @@ public TxtExportHeadersFootersMode ExportHeadersFootersMode
 The main advantage of new property over the old TxtSaveOptions.ExportHeadersFooters property is that it has new headers and footers export mode: 'AllAtEnd'.
 In this mode Aspose.Words acts the way similar to MS Word: all headers and footers are placed after all section bodies at the very end of a document.
 
-#### **UC**
+#### UC
 
 {{< highlight csharp >}}
 Document doc = new Document ("inputFileName");
@@ -222,14 +222,14 @@ options.ExportHeadersFootersMode = TxtExportHeadersFootersMode.None;
 doc.Save("outputFileNameC.txt", options);
 {{< /highlight >}}
 
-### **Obsolete Property ShowRevisionBalloons was Removed from RevisionOptions Class**
+### Obsolete Property ShowRevisionBalloons was Removed from RevisionOptions Class
 
 Obsolete property ShowRevisionBalloons was removed from RevisionOptions class. Please use ShowInBalloons property instead.
 
-### **Obsolete Property IsShowParagraphMarks was Removed from LayoutOptions Class**
+### Obsolete Property IsShowParagraphMarks was Removed from LayoutOptions Class
 
 Obsolete property IsShowParagraphMarks was removed from LayoutOptions class. Please use ShowParagraphMarks property instead.
 
-### **Obsolete Property IsShowHiddenText was Removed from LayoutOptions Class**
+### Obsolete Property IsShowHiddenText was Removed from LayoutOptions Class
 
 Obsolete property IsShowHiddenText was removed from LayoutOptions class. Please use ShowHiddenText property instead.

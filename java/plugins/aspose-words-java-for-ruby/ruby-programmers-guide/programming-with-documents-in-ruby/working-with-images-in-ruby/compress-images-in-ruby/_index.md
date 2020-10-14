@@ -5,7 +5,7 @@ weight: 20
 url: /java/compress-images-in-ruby/
 ---
 
-## **Aspose.Words - Compress Images**
+## Aspose.Words - Compress Images
 
 To compress images using Aspose.Words Java in Ruby, simply invoke the compress_images() method of CompressImages module.
 
@@ -53,7 +53,7 @@ def get_file_size(file_name)
 end
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Compress Images (Aspose.Words)** from any of the below mentioned social coding sites:
 

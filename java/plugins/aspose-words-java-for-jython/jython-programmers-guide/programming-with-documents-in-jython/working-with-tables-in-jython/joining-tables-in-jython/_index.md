@@ -5,7 +5,7 @@ weight: 20
 url: /java/joining-tables-in-jython/
 ---
 
-## **Aspose.Words - Joining Tables**
+## Aspose.Words - Joining Tables
 
 To Join Tables using **Aspose.Words Java for Jython**. Here you can see sample code.
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     JoiningTables()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

@@ -5,7 +5,7 @@ weight: 110
 url: /java/working-with-columns-and-rows/
 ---
 
-## **Working with Columns**
+## Working with Columns
 
 In both Word documents and in the Aspose.Words Document Object Model, there is no concept of a column. By design, table rows in Microsoft Word are completely independent and the base properties and operations are only contained on rows and cells of the table. This gives tables the possibility of some interesting attributes:
 
@@ -35,7 +35,7 @@ Below example shows how to remove a column from a table in a document.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-RemoveAColumnFromATable.java" >}}
 
-## **Specifying Rows to Repeat on Subsequent Pages as Header Rows**
+## Specifying Rows to Repeat on Subsequent Pages as Header Rows
 
 A table can specify certain starting rows of a table to be used as header rows. This means if the table spans over many pages, these rows will be repeated at the top of the table for each page. In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”* . Using this option you can choose to repeat only a single row or many rows in a table. In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page.
 
@@ -43,7 +43,7 @@ In Aspose.Words you can apply this setting by using the [RowFormat.getHeadingFor
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows-.java" >}}
 
-## **Adjusting Width for Merged Cells**
+## Adjusting Width for Merged Cells
 
 Using Aspose.Words, there is a possibility to lose the merged cells in the document while adjusting the column width when having some merged cells. So if you require to retain the merged cells at it is while adjusting column width using Aspose.Words API, the following code example demonstrates how to adjust cell width when some of the cells are merged. It is important to note that when cells are vertically merged, the display areas of the merged cells are combined. The combined area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
 

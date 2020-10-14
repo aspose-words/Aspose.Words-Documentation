@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 15.1.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 15.1 Release Notes**
+## Aspose.Words for .NET 15.1 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -29,7 +29,7 @@ HTML export/import improved for better round-tripping
 
 Comment numbering in rendering
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

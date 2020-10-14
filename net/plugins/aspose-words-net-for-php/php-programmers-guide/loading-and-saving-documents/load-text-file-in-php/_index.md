@@ -5,7 +5,7 @@ weight: 10
 url: /net/load-text-file-in-php/
 ---
 
-## **Aspose.Words - Load Text File Conversion Example**
+## Aspose.Words - Load Text File Conversion Example
 
 Load Text File Example
 
@@ -23,7 +23,7 @@ Load Text File Example
         print "Text document loaded successfully.\nFile saved at " . $dataDir . "LoadTxt Out.docx" . PHP_EOL;
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Load Text File Example (Aspose.Words)** from any of the below mentioned social coding sites:
 

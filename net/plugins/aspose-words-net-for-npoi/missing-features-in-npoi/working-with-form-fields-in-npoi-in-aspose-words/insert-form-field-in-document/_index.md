@@ -5,7 +5,7 @@ weight: 10
 url: /net/insert-form-field-in-document/
 ---
 
-## **Aspose.Words - Insert Form Field in Document**
+## Aspose.Words - Insert Form Field in Document
 
 In Aspose.Words the DocumentBuilder.InsertField method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
@@ -21,7 +21,7 @@ In Aspose.Words the DocumentBuilder.InsertField method is used to insert new fie
             doc.Save("FormFieldTest.docx");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Insert Form Field in Document** form any of the below mentioned social coding sites:
 

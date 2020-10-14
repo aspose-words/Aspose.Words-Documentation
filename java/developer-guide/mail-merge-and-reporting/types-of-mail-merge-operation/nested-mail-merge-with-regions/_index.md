@@ -20,7 +20,7 @@ Nested mail merge is relevant only when performing a mail merge with regions.
 
 {{% /alert %}}
 
-## **What is a Nested Mail Merge**
+## What is a Nested Mail Merge
 
 The mail merge region is called nested if you have two or more mail merge regions where one of them is inside the other in a hierarchical form. Note that each region contains data from one table.
 
@@ -30,7 +30,7 @@ The picture below shows two nested regions where the *Order* mail merge region i
 
 <img src="nested_mail_merge_with_regions_1.png" alt="nested_mail_merge_with_regions" style="width:650px"/>
 
-## **How to Process Mail Merge with Nested Regions**
+## How to Process Mail Merge with Nested Regions
 
 The data to be merged into a template can come from various sources, mainly relational databases or XML documents. In our example, we are going to use an XML file to store our data and load it directly into the **DataSet**.
 
@@ -52,7 +52,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-## **How to Set Up Data Relations in Nested Mail Merge with Regions**
+## How to Set Up Data Relations in Nested Mail Merge with Regions
 
 You need to set up all data relationships in the parent-child structure to execute the nested mail merge with regions correctly. Skipping this important step can lead to a failure in executing the nested mail merge with regions.
 
@@ -67,7 +67,7 @@ The following code example shows how to establish a DataRelation between a custo
 dataSet.getRelations().add(new DataRelation("OrderToItem", orderTable.getColumns().get("Order_Id"), itemTable.getColumns().get("Order_Id"), false));
 {{< /highlight >}}
 
-## **Common Nested Mail Merge Problems and Solutions**
+## Common Nested Mail Merge Problems and Solutions
 
 The table below provides typical problems with performing nested mail merge via Aspose.Words, as well as their respective solutions.
 

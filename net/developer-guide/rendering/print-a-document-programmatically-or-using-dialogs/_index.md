@@ -7,11 +7,11 @@ url: /net/print-a-document-programmatically-or-using-dialogs/
 
 This article describes how to print a word processing document from an ASP.NET or Windows Service application using Aspose.Words and the XpsPrint API. It also demonstrates the methods of printing a document with Settings, Print preview, and Print progress dialogs, and explains how to reduce the time of the first call to print a document.
 
-## **Printing a Document on a Server via the XpsPrint API**
+## Printing a Document on a Server via the XpsPrint API
 
 This section is intended for users who want to submit an XPS document to the unmanaged XpsPrint API from a .NET application using Aspose.Words.
 
-### **Limitations of printing a document in the ASP.NET or Windows Service applications**
+### Limitations of printing a document in the ASP.NET or Windows Service applications
 
 When developing a .NET application that produces some printed output, you can typically use classes provided in the *System.Drawing.Printing* namespace, or Windows Presentation Foundation (WPF) classes. However, if the application is an ASP.NET or Windows Service application, the options for printing are limited, because Microsoft discourages using this approach. The .NET Framework Printing classes are not supported by services application. This includes ASP pages, which generally run in the context of the server service.
 
@@ -19,7 +19,7 @@ The classes within the *System.Drawing.Printing* namespace are not supported for
 
 The Aspose.Words [Document](http://www.aspose.com/api/net/words/aspose.words/document) object provides a family of [Print](https://apireference.aspose.com/net/words/aspose.words/document/methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are many Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article demonstrates an alternative method for printing that is compliant with Microsoft’s recommendations.
 
-### **Methods to Print a Document on a Server**
+### Methods to Print a Document on a Server
 
 The proper way to print documents according to Microsoft is by using the unmanaged XpsPrint API. This API is available on Windows 7, Windows Server 2008 R2, and on Windows Vista provided the Platform Update for Windows Vista is installed.
 
@@ -54,7 +54,7 @@ You can download the examples of method overloading from [Aspose.Words GitHub](h
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering-Printing/TestFile.doc).
 
-## **Printing a Document with Settings and Print Preview Dialogs**
+## Printing a Document with Settings and Print Preview Dialogs
 
 When working with documents, it is often required to print them to a selected printer. It is helpful to utilize a print preview dialog to visually inspect how the printed document will appear and choose relevant print options.
 
@@ -74,7 +74,7 @@ The **AllowSomePages** property enables you to select a range of pages for print
 
 To optimize the appearance of Print Preview dialog settings, specify properties of the **PrintPreviewDialog** class.
 
-## **Printing Multiple Pages on One Sheet**
+## Printing Multiple Pages on One Sheet
 
 It is always beneficial to have more flexibility when printing documents. Using .NET and Aspose.Words you can easily fine-tune the printing operation to implement your custom logic by defining the way the document will appear on the printed page.
 
@@ -86,7 +86,7 @@ The result of this code example is shown below:
 
 ![todo:image_alt_text](print-a-document-programmatically-or-using-dialogs_1.png)
 
-## **Hiding the Print Progress Dialog When Printing a Document**
+## Hiding the Print Progress Dialog When Printing a Document
 
 The Printing Progress Dialog does not appear when printing a document via the [Print](https://apireference.aspose.com/net/words/aspose.words/document/methods/print) method. However, this dialog appears during printing with another [Print](https://apireference.aspose.com/net/words/aspose.words.rendering/asposewordsprintdocument) method. In this case, to prevent the Printing dialog from appearing, you should specify valid printer settings and a standard print controller in this method, as shown in the example below:
 
@@ -94,12 +94,12 @@ The Printing Progress Dialog does not appear when printing a document via the [
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering-Printing/TestFile%20RenderShape.doc).
 
-## **How to Reduce the Time of the First Call to Print a Document**
+## How to Reduce the Time of the First Call to Print a Document
 
 Aspose.Words reads and caches some fields of **PrinterSettings** to reduce printing time. You can achieve this by calling the [CachePrinterSettings](https://apireference.aspose.com/net/words/aspose.words.rendering/asposewordsprintdocument/methods/cacheprintersettings) method. This method is called before the printing starts if it was not executed previously. Note that the total time of printing with and without calling of this method is almost the same. The purpose of using this method is to reduce the time of the first call of the [Print](https://apireference.aspose.com/net/words/aspose.words/document/methods/print) method. The following code example shows how to use this method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-Print_CachePrinterSettings-CachePrinterSettings.cs" >}}
 
-## **See Also**
+## See Also
 
 - [Platform Update for Windows Vista](http://msdn.microsoft.com/en-us/library/ee663866\(v=vs.85\).aspx).

@@ -11,7 +11,7 @@ Annonations allow the user to add extra information to the document normally for
 
 {{% /alert %}} 
 
-## **Bookmarks**
+## Bookmarks
 
 Bookmarks are imported as BookmarkStart and BookmarkEnd nodes. In Microsoft Word document formats a bookmark range can span over long amoutns of content, including over different paragraphs and even tables.
 
@@ -38,7 +38,7 @@ See the following links in the documentation for further information:
 |Bookmark Name|Yes| |- [Bookmark.Name](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
 |Bookmark Table Columns|Yes| | |
 
-## **Comments**
+## Comments
 
 A comment in a document is imported as a Comment node in the Aspose.Words DOM.
 
@@ -68,7 +68,7 @@ See the following links in the documentation for further information:
 |Date|Yes| |- **Comment.Date**|
 |Initial|Yes| |- **Comment.Inital**|
 
-## **Tracking Changes**
+## Tracking Changes
 
 Tracked changes are imported into the model as regular nodes. Paragraphs, Runs and Shapes all provide special properties to specify if they are insert or delete revisions.
 

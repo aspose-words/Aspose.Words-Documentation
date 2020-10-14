@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 13.2.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 13.2 Release Notes**
+## Aspose.Words for .NET 13.2 Release Notes
 
-### **What's New**
+### What's New
 
 - 3D effects are rendered for VML shapes.
 - Shadows are rendered for VML shapes.
@@ -24,7 +24,7 @@ This page contains release notes for [Aspose.Words for .NET 13.2.0](https://www.
 - Floating table breaking and positioning improved.
 - Layout of RTL tables and paragraphs improved. 
 
-## **All Fixes**
+## All Fixes
 
 |Key|Summary|Category|
 | :- | :- | :- |

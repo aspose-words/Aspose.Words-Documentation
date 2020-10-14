@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 15.3.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 15.3 Release Notes**
+## Aspose.Words for .NET 15.3 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 131 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -33,7 +33,7 @@ Improvements in rendering of fills, 3D text effects and others.
 
 The BARCODE field is supported now so you can add a custom barcode generator.
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

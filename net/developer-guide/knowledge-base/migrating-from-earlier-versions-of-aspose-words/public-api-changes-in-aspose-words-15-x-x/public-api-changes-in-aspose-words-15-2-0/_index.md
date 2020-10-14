@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.2.0. 
 
 {{% /alert %}} 
 
-### **Aspose.Words Drawing API Changes**
+### Aspose.Words Drawing API Changes
 
 To make your life easier, when you work with graphic objects, Aspose.Words introduces new API changes.
 
@@ -132,11 +132,11 @@ shape = builder.InsertImage(testImage);
 
 But actually you do not need even to think about this too, because Aspose.Words smartly converts your Dml markup shape to Vml in case of using old MS Word formats.
 
-### **LayoutCollector will not Automatically Update Fields in Document.**
+### LayoutCollector will not Automatically Update Fields in Document.
 
 Fix of WORSDNET-10305 has changed behavior of layout collector class. It will not automatically update fields in the document. If user wants fields updated this can be achieved by adding document.UpdateFields() after the call to layout collector class constructor.
 
-### **First Version of Document Comparison**
+### First Version of Document Comparison
 
 WORDSNET-2385 is implemented and first version of document comparison is exposed publicly.
 

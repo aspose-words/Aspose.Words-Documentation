@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 15.8.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 15.8 Release Notes**
+## Aspose.Words for Java 15.8 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 98 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -33,7 +33,7 @@ CustomXmlMarkup fully removed from the code.
 
 Allow to specify encoding when saving as HTML. 
 
-## **All Changes**
+## All Changes
 
 |Key |Summary |Category |
 | :- | :- | :- |

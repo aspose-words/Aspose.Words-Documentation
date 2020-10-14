@@ -33,7 +33,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **Numbering Definition**
+## Numbering Definition
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -41,7 +41,7 @@ See the following links in the documentation for further information:
 |Multi Level |Yes |Some parts of multi-level lists will be imported as separte List objects. This can cause some formatting differences during conversion. <br><br>This will be improved in a future version of Aspose.Words so multi-level lists are imported as a single List object. |- [List.IsMultiLevel](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
 |Name |Planned | | |
 
-## **Numbering Level**
+## Numbering Level
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

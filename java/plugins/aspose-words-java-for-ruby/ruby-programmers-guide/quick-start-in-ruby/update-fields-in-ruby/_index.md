@@ -5,7 +5,7 @@ weight: 80
 url: /java/update-fields-in-ruby/
 ---
 
-## **Aspose.Words - Update Fields**
+## Aspose.Words - Update Fields
 
 To update fields of Word Document using Aspose.Words Java for Ruby, simply invoke update_fields() method of UpdateFields module.
 
@@ -62,7 +62,7 @@ doc.updateFields()
 doc.save(data_dir + "Document Field Update Out.docx")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Update Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 

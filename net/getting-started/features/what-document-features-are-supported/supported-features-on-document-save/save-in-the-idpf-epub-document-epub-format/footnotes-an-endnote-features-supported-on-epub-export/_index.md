@@ -13,7 +13,7 @@ Footnote text is exported at the bottom of the document separted by a horizontal
 
 {{% /alert %}} 
 
-## **Footnotes**
+## Footnotes
 
 Exported as hyperlink with footnote number inline of text.
 
@@ -32,7 +32,7 @@ Footnote text is exported at the bottom of the document separted by a horizontal
 |Starting Value |Planned | | |
 |Placement |Planned | | |
 
-## **Endnotes**
+## Endnotes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

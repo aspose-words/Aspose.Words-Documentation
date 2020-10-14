@@ -5,4 +5,4 @@ weight: 20
 url: /net/release-notes-2019/
 ---
 
-### **Release Notes - 2019**
+### Release Notes - 2019

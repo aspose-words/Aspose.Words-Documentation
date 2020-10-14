@@ -17,7 +17,7 @@ There is a sample project which demonstrates how to convert this type of footnot
 
 {{% /alert %}} 
 
-## **Footnotes**
+## Footnotes
 
 Footnotes and endnote markers are imported as hyperlinks. The content of these is separated at the bottom of the section with a horizontal rule.
 
@@ -41,7 +41,7 @@ See the following links in the documentation for further information:
 |Starting Value |Planned | | |
 |Placement |Planned | |- [FootnoteOptions.Position](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/position)|
 
-## **Endnotes**
+## Endnotes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

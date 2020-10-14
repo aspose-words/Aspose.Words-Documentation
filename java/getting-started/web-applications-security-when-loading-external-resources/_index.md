@@ -16,11 +16,11 @@ Aspose.Words does not function as antivirus software. Therefore, it does not pro
 
 {{% /alert %}}
 
-## **Security Issues**
+## Security Issues
 
 There are a number of typical security problems when loading external resources.
 
-### **Credential Disclosure Via Linked Images**
+### Credential Disclosure Via Linked Images
 
 On Windows-based hosts, documents containing references to resources that use UNC paths such as *‘\\example.com\a\b*’ will be processed by default. In a domain environment, this will cause the host to send its domain credentials in a hashed format to the specified server.
 
@@ -28,15 +28,15 @@ If an attacker is able to convince a user or server to process a document with s
 
 If the account in question uses a weak or guessable password, the attacker could additionally perform a password cracking attack to recover the account password for further malicious use.
 
-### **Local Image Disclosure Via Linked Images**
+### Local Image Disclosure Via Linked Images
 
 Similar to the previous case, processing a document with a reference to a local image file will result in that file being included in the final document. This can lead to sensitive information disclosure.
 
-### **Denial of Service**
+### Denial of Service
 
 An attacker could upload a document that either referenced or included extremely large images – the so-called "decompression bombs". When processing these images, the library will consume huge amounts of memory and CPU time.
 
-### **Server-Side Request Forgery Via Linked Content**
+### Server-Side Request Forgery Via Linked Content
 
 An attacker could create a series of documents containing embedded links to common combinations of internal IP address and port, then submit them to a web service using the Aspose.Words library to process the documents.
 
@@ -45,7 +45,7 @@ Based on the length of time the service uses to process the document, the attack
 - longer processing time indicates that the TCP SYN packet sent by the server was dropped by a firewall;
 - quick processing time indicates a successful connection has been made.
 
-## **Solutions of Security Issues**
+## Solutions of Security Issues
 
 To solve the problems described above and to improve the security of web applications, you can control or disable loading of external resources using [IResourceLoadingCallback](https://apireference.aspose.com/words/java/com.aspose.words/IResourceLoadingCallback).
 

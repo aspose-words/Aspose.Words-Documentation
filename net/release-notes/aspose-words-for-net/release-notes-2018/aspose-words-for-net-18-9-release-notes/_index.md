@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 18.9](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 73 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -32,7 +32,7 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 - Fixed issue with line wrapping when it has single glyph wider than the line followed by page break
 - Fixed issue with table row height calculation when cells in vertical merge have horizontal borders
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -110,11 +110,11 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17300|Bookmark.Remove very slow in the Aspose.Version 18.8|Regression|
 |WORDSNET-17305|Bookmark Performance issue in Aspose.Words 18.6 version|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Bookmarks are Allowed on Block, Cell, Row Levels**
+### Bookmarks are Allowed on Block, Cell, Row Levels
 
 WORDSNET-721 has now been resolved.
 
@@ -141,7 +141,7 @@ public static bool AnnotationsAtBlockLevelAsDefault { get; set; }
 Now code that uses Aspose.Words should consider that not only composite nodes may appear on the block/cell/row level, for example, as children of the Body, Table, Row, Cell nodes.
 Setting the AnnotationsAtBlockLevelAsDefault property to **false** allows temporarily prevent possible issues with the existing code. But please note that the property may become obsolete in the further versions of the software.
 
-##### **UC to open a document in the inline-bookmarks mode**
+##### UC to open a document in the inline-bookmarks mode
 
 {{< highlight csharp >}}
 LoadOptions options = new LoadOptions();
@@ -149,13 +149,13 @@ options.AnnotationsAtBlockLevel = false;
 Document doc = new Document(myDir + "Document1.docx", options);
 {{< /highlight >}}
 
-##### **UC to set the “old” mode as default**
+##### UC to set the “old” mode as default
 
 {{< highlight csharp >}}
 LoadOptions.AnnotationsAtBlockLevelAsDefault = false;
 {{< /highlight >}}
 
-### **Added LoadOption to Treat Shapes with Math XML as Shapes in Model**
+### Added LoadOption to Treat Shapes with Math XML as Shapes in Model
 
 WORDSNET-16540 has now been resolved.
 
@@ -184,7 +184,7 @@ lo.ConvertShapeToOfficeMath = true;
 Document doc = new Document("SrcFile.docx", lo);
 {{< /highlight >}}
 
-### **Option to Choose Between Old and New Mail Merge Behaviors Added**
+### Option to Choose Between Old and New Mail Merge Behaviors Added
 
 WORDSNET-17313 has now been resolved.
 
@@ -207,7 +207,7 @@ document.MailMerge.UnconditionalMergeFieldsAndRegions = true;
 document.MailMerge.Execute(dataSource);
 {{< /highlight >}}
 
-### **Improved PDF encryption in Case when Owner Password is not Specified**
+### Improved PDF encryption in Case when Owner Password is not Specified
 
 WORDSNET-17316 has now been resolved.
 

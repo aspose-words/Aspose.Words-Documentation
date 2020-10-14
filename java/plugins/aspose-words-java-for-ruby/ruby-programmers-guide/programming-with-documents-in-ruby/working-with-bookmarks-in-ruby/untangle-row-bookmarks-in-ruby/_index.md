@@ -5,7 +5,7 @@ weight: 20
 url: /java/untangle-row-bookmarks-in-ruby/
 ---
 
-## **Aspose.Words - Untangle Row Bookmarks**
+## Aspose.Words - Untangle Row Bookmarks
 
 Example code to untangle row bookmarks.
 
@@ -56,7 +56,7 @@ def delete_row_by_bookmark(doc, bookmark_name)
 end
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Untangle Row Bookmarks (Aspose.Words)** from any of the below mentioned social coding sites:
 

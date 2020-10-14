@@ -9,7 +9,7 @@ Sometimes it is necessary to determine the format of a document before opening b
 
 Aspose.Words provides an ability to obtain information about the file type in order to avoid an exception if you are not sure what the actual content of the file is.
 
-## **Detect File Format without an Exception**
+## Detect File Format without an Exception
 
 When you are dealing with multiple documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
@@ -21,7 +21,7 @@ DetectFileFormat only checks the file format but does not validate the file form
 
 {{% /alert %}} 
 
-## **Check Files Format Compatibility**
+## Check Files Format Compatibility
 
 We can check the format compatibility of all files in the selected folder and sort them by format into corresponding subfolders.
 

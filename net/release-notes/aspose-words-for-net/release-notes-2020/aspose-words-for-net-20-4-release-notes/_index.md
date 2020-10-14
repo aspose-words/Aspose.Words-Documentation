@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 20.4](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Starting from 20.4 version Aspose.Words also provides DLL for .NET 4.6.1. Like .NET Standard 2.0 it supports reading PDF documents.
 - Provided ability to change Asian paragraph spacing and indents.
@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for .NET 20.4](https://www.nu
 - Added a new mode 3D shapes rendering.
 - Extended API of chart data labels and series.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -124,16 +124,16 @@ This page contains release notes for [Aspose.Words for .NET 20.4](https://www.nu
 |WORDSNET-19995|Missing content due to invalid 'transform: rotate' property value|Bug|
 |WORDSNET-20067|Text inside a Form is not well rendered when saving as HTML(HtmlFixed)|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### **.NET 4.6.1 DLL Added**
+### .NET 4.6.1 DLL Added
 
 Starting from 20.4 version Aspose.Words also provides dll for .NET 4.6.1. Like .NET Standard 2.0 it supports reading PDF documents.
 
 
-### **Added ability to change Asian paragraph spacing and indents**
+### Added ability to change Asian paragraph spacing and indents
 
 Related issue: **WORDSNET-20001**
 
@@ -187,7 +187,7 @@ format.LineUnitAfter= 10;
 {{< /highlight >}}
 
 
-### **Added a new mode 3D shapes rendering**
+### Added a new mode 3D shapes rendering
 
 Added new public property SaveOptions.Dml3DEffectsRenderingMode:
 
@@ -238,7 +238,7 @@ public enum Dml3DEffectsRenderingMode
 {{< /highlight >}}
 
 
-##### **Use Case:**
+##### Use Case:
 
 **.NET**
 
@@ -278,7 +278,7 @@ There are problems with some specific shapes (such as the moon), some subtypes o
 There may also be problems when using other special effects such as glow, reflection, etc. along with 3D effects. Various lighting problems may also occur (wrong color). It's OK for now an will be improved in later releases.
 
 
-### **Added a new public property SnapToGrid for Font and ParagraphFormat**
+### Added a new public property SnapToGrid for Font and ParagraphFormat
 
 Related issue: **WORDSNET-19747**
 
@@ -317,7 +317,7 @@ par.ParagraphFormat.SnapToGrid = true;
 par.Runs[0].Font.SnapToGrid = true;
 {{< /highlight >}}
 
-### **Added an option that allows customers to specify comparison granularity**
+### Added an option that allows customers to specify comparison granularity
 
 Related issue: **WORDSNET-20043**
 
@@ -357,11 +357,11 @@ co.Granularity = Granularity.CharLevel;
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, co);
 {{< /highlight >}}
 
-### **Sample output**
+### Sample output
 
 ![todo:image_alt_text](https://auckland.dynabic.com/wiki/download/attachments/41386312/20043.png?version=1&modificationDate=1585804110000)
 
-### **Added feature to set positioning of floating table (HorizontalAnchor and VerticalAnchor)**
+### Added feature to set positioning of floating table (HorizontalAnchor and VerticalAnchor)
 
 Related issue: **WORDSNET-19873**
 
@@ -414,7 +414,7 @@ table.VerticalAnchor = RelativeVerticalPosition.Page;
 {{< /highlight >}}
 
 
-### **Added image interpolation option for PDF rendering (new public property PdfSaveOptions.InterpolateImages)**
+### Added image interpolation option for PDF rendering (new public property PdfSaveOptions.InterpolateImages)
 
 Related issue: **WORDSNET-19996**
 
@@ -457,7 +457,7 @@ doc.Save(pdfPath, saveOptions);
 {{< /highlight >}}
 
 
-### **Added public property LoadOptions.TempFolder**
+### Added public property LoadOptions.TempFolder
 
 This property allows using temporary files when reading a document.
 
@@ -488,7 +488,7 @@ Document doc = new Document(myDir + "document.docx", lo);
 {{< /highlight >}}
 
 
-### ` `**Changes in API of chart data labels and series**
+### ` `Changes in API of chart data labels and series
 
 The following changes in chart data labels API have been implemented (WORDSNET-19124):
 
@@ -574,7 +574,7 @@ doc.Save(dir + "DataLabels.docx");
 {{< /highlight >}}
 
 
-### ` `**FindReplaceOptions class is extended with new property**
+### ` `FindReplaceOptions class is extended with new property
 
 Related issue: **WORDSNET-19913**.
 
@@ -594,7 +594,7 @@ The following public property was added to FindReplaceOptions class:
 public bool UseSubstitutions
 {{< /highlight >}}
 
-##### **Use Case. Explains how to recognize and use substitutions within replacement patterns:**
+##### Use Case. Explains how to recognize and use substitutions within replacement patterns:
 
 **.NET**
 
@@ -616,7 +616,7 @@ Console.WriteLine(doc.GetText());
  // The output is: Paul take money from Jason.\f
 {{< /highlight >}}
 
-### **Implemented mutual conversion of several PageBorderArt names between ECMA376 and ISO29500 standard documents**
+### Implemented mutual conversion of several PageBorderArt names between ECMA376 and ISO29500 standard documents
 
 Experiments show that there's a mutual correspondence between "*Tribal*"* border art styles and ISO29500 specific border art styles, in the range from *"Triangle1*" to "*Shapes2*".
 
@@ -631,7 +631,7 @@ In this release the direct conversion of the mentioned BorderArt style names was
 |tribal5|shapes1|
 |tribal6|shapes2|
 
-### **Removed obsolete properties AnnotationsAtBlockLevel and AnnotationsAtBlockLevelAsDefault of LoadOptions class**
+### Removed obsolete properties AnnotationsAtBlockLevel and AnnotationsAtBlockLevelAsDefault of LoadOptions class
 
 The obsolete properties LoadOptions.AnnotationsAtBlockLevel and LoadOptions.AnnotationsAtBlockLevelAsDefault have been removed (WORDSNET-19211).
 The mode of moving annotation nodes to inline-level is no longer supported.

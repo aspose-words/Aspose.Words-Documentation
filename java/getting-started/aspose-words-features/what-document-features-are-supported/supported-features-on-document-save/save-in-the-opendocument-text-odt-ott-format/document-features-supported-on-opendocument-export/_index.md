@@ -34,7 +34,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 {{% /alert %}}
 
-## **General**
+## General
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -60,14 +60,14 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Background|N/A| | |
 |Thumbnail|N/A| | |
 
-## **Embedded Fonts**
+## Embedded Fonts
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embedding Fonts|N/A| | |
 |Embed Only Non-Standard Fonts|N/A| | |
 
-## **Bibliography**
+## Bibliography
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -75,7 +75,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |Sources/Citations|Yes|Bibliography sources are not saved to ODT.| |
 |Citation Style|N/A| | |
 
-## **Protection**
+## Protection
 
 OpenOffice does not support protection so document protection is lost upon conversion to ODT.
 
@@ -91,7 +91,7 @@ OpenOffice does not support protection so document protection is lost upon conve
 |Protection Ranges|N/A| | |
 |Read Only|N/A| | |
 
-## **Settings**
+## Settings
 
 Footnote, Endnote and View settings are saved to ODT.
 

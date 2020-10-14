@@ -5,7 +5,7 @@ weight: 10
 url: /java/joining-and-appending-in-ruby/
 ---
 
-## **Aspose.Words - Joining And Appending**
+## Aspose.Words - Joining And Appending
 
 For joining and appending using Aspose.Words Java APIs in Ruby, simply use appendDocument method.
 
@@ -24,7 +24,7 @@ dst_doc.appendDocument(src_doc, import_format_mode.KEEP_SOURCE_FORMATTING)
 dst_doc.save(@data_dir + "TestFile.SimpleAppendDocument Out.docx")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Joining And Appending (Aspose.Words)** from any of the below mentioned social coding sites:
 

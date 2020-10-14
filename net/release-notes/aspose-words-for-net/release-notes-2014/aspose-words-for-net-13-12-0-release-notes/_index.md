@@ -19,7 +19,7 @@ Visit the documentation to learn how to .
 
 The following is a list of changes in this version of Aspose.Words.
 
-## **Major Features**
+## Major Features
 
 - Improved tight wrapping text flow around floating objects
 - Curved WordArt objects rendering implemented (WordArt shapes fit to frames defined by Bezier curves)
@@ -27,7 +27,7 @@ The following is a list of changes in this version of Aspose.Words.
 - DrawingML “Outer Shadow” effect rendering implemented
 - DrawingML “Reflection” effect rendering implemented
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -135,15 +135,15 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9247|Aspose.Words does not use the same font as MS Word does for html to PDF conversion|Feature|
 |WORDSNET-9256|A paragraph in cell breaks into two lines when converting to fixed page formats|Feature|
 
-## **Public API and Backwards Incompatible Changes**
+## Public API and Backwards Incompatible Changes
 
-### **DrawingML.GetShapeRenderer Behavior Changed**
+### DrawingML.GetShapeRenderer Behavior Changed
 
-### **ExportEmbeddedSvg Property Added to HtmlFixedSaveOptions**
+### ExportEmbeddedSvg Property Added to HtmlFixedSaveOptions
 
-### **FirstPageHeaderFooterPerSection Option Added to ExportHeadersFootersMode**
+### FirstPageHeaderFooterPerSection Option Added to ExportHeadersFootersMode
 
-### **Rendering of DrawingML Glow Effect**
+### Rendering of DrawingML Glow Effect
 
 - Simplified
   (default) - Soft edges are simulated using several layers with different
@@ -155,9 +155,9 @@ The following is a list of changes in this version of Aspose.Words.
 - None - In
   this mode no DrawingML effects are rendered.
 
-### **Rendering of DrawingML Glow Effect**
+### Rendering of DrawingML Glow Effect
 
-### **ResourceFileUri Property Added to ResourceSavingArgs**
+### ResourceFileUri Property Added to ResourceSavingArgs
 
 - It is
   impossible to provide different aliases for individual resource files. 
@@ -166,8 +166,8 @@ The following is a list of changes in this version of Aspose.Words.
   is impossible to change the order of the alias and the file name or remove the
   slash character that separates them.
 
-### **SaveOptions.DmlRenderingMode Introduced**
+### SaveOptions.DmlRenderingMode Introduced
 
-### **TOC Field Switch to Omit Page Numbers is Supported**
+### TOC Field Switch to Omit Page Numbers is Supported
 
-### **Trackmove Revisions Supported upon DOCX Round-trip**
+### Trackmove Revisions Supported upon DOCX Round-trip

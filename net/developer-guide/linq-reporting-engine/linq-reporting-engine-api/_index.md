@@ -11,7 +11,7 @@ Classes of the LINQ Reporting Engine are located within the Aspose.Words.Reporti
 
 {{% /alert %}} 
 
-## **Building Reports**
+## Building Reports
 
 To build a report from a template, you can use one of the ReportingEngine.BuildReport overloads. The following table describes the parameters of these overloads.
 
@@ -38,7 +38,7 @@ Given a visible Person class defined in your application and a template to be po
 {{< /highlight >}}
 
 
-## **Accessing XML Data**
+## Accessing XML Data
 
 To access XML data while building a report, you can use facilities of DataSet to read XML into it and then pass it to the engine as a data source. However, if your scenario does not permit to specify XML schema while loading XML into DataSet, all attributes and text values of XML elements are loaded as strings then. Thus, it becomes impossible, for example, to use arithmetic operations on numbers or to specify custom date-time and numeric formats to output corresponding values, because all of them are treated as strings.
 
@@ -252,7 +252,7 @@ Result document
     - J Ent. ($100000)
 {{< /highlight >}}
 
-## **Accessing JSON Data**
+## Accessing JSON Data
 
 To access JSON data while building a report, you can pass a JsonDataSource instance to the engine as a data source.
 
@@ -562,7 +562,7 @@ In some scenarios, you may need to disable recognition of date-time values at al
 **Note –** Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse format.
 
 
-## **Accessing CSV Data**
+## Accessing CSV Data
 
 To access CSV data while building a report, you can pass a CsvDataSource instance to the engine as a data source.
 
@@ -657,7 +657,7 @@ Also, you can use CsvDataLoadOptions to customize the following characters playi
 - Quotation mark enabling to use other special characters within a value (the default is double quotes)
 
 
-## **Setting up Known External Types**
+## Setting up Known External Types
 
 LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the ReportingEngine.KnownTypes property. The property represents an unordered set (that is, a collection of unique items) of [Type](http://msdn.microsoft.com/en-us/library/system.type\(v=vs.110\).aspx) objects. Every type in the set must meet requirements declared at “Working with Types”.
 
@@ -671,7 +671,7 @@ Consider the following example. Given an ImageUtil class declared at your applic
     engine.BuildReport(...);
 {{< /highlight >}}
 
-## **Removing Paragraphs Containing Only Template Syntax Tags**
+## Removing Paragraphs Containing Only Template Syntax Tags
 
 While building a report, some paragraphs containing only template syntax tags can become empty after the tags are removed or replaced with empty values. To remove such paragraphs from the report, you can apply the ReportBuildOptions.RemoveEmptyParagraphs option as shown in the following example.
 
@@ -763,7 +763,7 @@ John Smith
 Suffix
 {{< /highlight >}}
 
-## **Accessing Missing Members of Data Objects**
+## Accessing Missing Members of Data Objects
 
 By default, LINQ Reporting Engine forbids access to missing members of data objects used to build a report in template expressions, since such access is forbidden by [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029). On attempt to use a missing member of a data object, the engine throws an exception then.
 
@@ -783,7 +783,7 @@ Consider the following example. Given that r is a DataRow instance that does not
 
 However, if ReportBuildOptions.AllowMissingMembers is applied, the engine treats access to such a field as a null literal, so no exception is thrown and simply no value is written to the report then.
 
-## **Inlining Syntax Error Messages into Templates**
+## Inlining Syntax Error Messages into Templates
 
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
@@ -821,7 +821,7 @@ When ReportBuildOptions.InlineErrorMessages is applied, a Boolean value returned
 **Note –** When ReportBuildOptions.InlineErrorMessages is not applied, ReportingEngine.BuildReport overloads return true if there were no template syntax errors encountered or throw an exception otherwise.
 
 
-## **Optimizing Reflection Calls**
+## Optimizing Reflection Calls
 
 LINQ Reporting Engine uses reflection calls while accessing members of custom external types. However, reflection calls are much slower than direct calls, which create a performance overhead.
 

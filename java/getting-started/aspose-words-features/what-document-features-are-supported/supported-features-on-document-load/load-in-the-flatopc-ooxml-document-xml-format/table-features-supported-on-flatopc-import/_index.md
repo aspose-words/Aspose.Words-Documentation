@@ -30,7 +30,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **Table**
+## Table
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 |Table Shading|Yes| |- **Table.SetShading**|
 |Hidden|Yes|There is currently no API to access or modify this property on Table or Row.| |
 
-## **Floating Tables**
+## Floating Tables
 
 Floating tables are supported during import and export. However, there is currently no API to access or modify the floating position of a table.
 
@@ -55,7 +55,7 @@ Floating tables are supported during import and export. However, there is curren
 | :- | :- | :- | :- |
 |Floating Tables|Yes| | |
 
-## **Table Borders**
+## Table Borders
 
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document.
 
@@ -71,7 +71,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Table Borders|Yes| | |
 
-## **Rows**
+## Rows
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -80,7 +80,7 @@ See the following links in the documentation for further information:
 |Height|Yes| |- **RowFormat.Height**|
 |Height Rule|Yes| |- **RowFormat.HeightRule**|
 
-## **Cells**
+## Cells
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -5,7 +5,7 @@ weight: 30
 url: /java/using-control-characters/
 ---
 
-## **Aspose.Words - Using Control Characters**
+## Aspose.Words - Using Control Characters
 
 The **ControlChar** class is a repository for the constants that represent control characters often encountered in documents. It provides both char and string versions of the same constants. For example, string **ControlChar.LineBreak** and char **ControlChar.LineBreakChar** have the same value.
 
@@ -15,7 +15,7 @@ The **ControlChar** class is a repository for the constants that represent con
 text.replace(ControlChar.CR, ControlChar.CR_LF);
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Using Control Characters** form any of the below mentioned social coding sites:
 

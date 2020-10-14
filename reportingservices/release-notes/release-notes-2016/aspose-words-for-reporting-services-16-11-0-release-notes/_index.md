@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Reporting Services 16.11.
 
 {{% /alert %}} 
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

@@ -16,7 +16,7 @@ Often your application will pull data from a database and store it in the form o
 
 Note that the preferred way of inserting data from a **DataTable** into a document table is by using [Mail Merge with Regions]() . The technique presented in this article is only suggested if you are unable to create a suitable template before hand to merge data with, in other words if you require everything to happen programmatically.
 
-## **The Solution**
+## The Solution
 
 1. Create a new **DocumentBuilder** object on your **Document**.
 1. Start a new table using **DocumentBuilder**.
@@ -32,7 +32,7 @@ The following data in our **DataTable** is used in this example:
 
 ![todo:image_alt_text](how-to-build-a-table-from-a-datatable_1.png)
 
-## **The Code**
+## The Code
 
 The following code demonstrates how to achieve this in Aspose.Words. The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder’s current position and formatting. Provides a method to import data from the DataTable and insert it into a new table using the DocumentBuilder.
 

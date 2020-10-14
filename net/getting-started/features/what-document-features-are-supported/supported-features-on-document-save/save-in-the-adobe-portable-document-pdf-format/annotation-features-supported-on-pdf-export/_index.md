@@ -5,7 +5,7 @@ weight: 10
 url: /net/annotation-features-supported-on-pdf-export/
 ---
 
-## **Bookmarks**
+## Bookmarks
 
 {{% alert color="primary" %}} 
 
@@ -28,7 +28,7 @@ See the following link in the documentation for further information:
 |Bookmark Name|Yes| | |
 |Bookmark Table Columns|N/A| | |
 
-## **Comments**
+## Comments
 
 Comments are exported to PDF.
 
@@ -42,7 +42,7 @@ In version 1.0 of comments rendering long or many comments are not truncated in 
 |Date|Yes| | |
 |Initial|Yes| | |
 
-## **Tracking Changes**
+## Tracking Changes
 
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 

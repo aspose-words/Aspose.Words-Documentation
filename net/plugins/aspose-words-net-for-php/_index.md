@@ -28,29 +28,29 @@ Project Aspose.Words .NET for PHP shows how different tasks can be performed usi
 
 [Sample Code Examples](#Aspose.Words.NETforPHP-SampleCodeExamples)
 
-## **Introduction Aspose.Words .NET for PHP**
+## Introduction Aspose.Words .NET for PHP
 
 Project Aspose.Words .NET for PHP shows how different tasks can be performed using Aspose.Words .NET APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for .NET in their PHP Projects.
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 **Following are the system requirements to use Aspose.Words .NET for PHP:**
 
 - IIS with PHP and PHP Manager installed.
 - Aspose.Total APIs.
 
-### **Supported Platforms**
+### Supported Platforms
 
 **Following are the supported platforms:**
 
 - PHP 5.3 or above
 - Windows OS
 
-## **Download and Configure**
+## Download and Configure
 
-### **Download Required Libraries**
+### Download Required Libraries
 
 Download required libraries mentioned below. These are the required for executing Aspose.Words .NET for PHP examples.
 
@@ -59,18 +59,18 @@ Download required libraries mentioned below. These are the required for executin
 If you download msi version, you will find Aspose.Words.dll in installed location which is C:\Program Files (x86)\Aspose\Aspose.Words for .NET\Bin\net2.0 folder by default.
 However in case you have downloaded DLL version you can extract it and then copy Aspose.Words.dll from .NET 2.0 folder to your c:\temp folder for ease of use.
 
-### **Download Examples from Social Coding Sites**
+### Download Examples from Social Coding Sites
 
 Following releases of running examples are available to download on below mentioned social coding sites:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose_Words_NET_for_PHP)
 - [Codeplex](https://asposenetphp.codeplex.com/SourceControl/latest#Aspose.Words-for-.NET_for_PHP)
 
-### **How to configure the source code on Windows Platform**
+### How to configure the source code on Windows Platform
 
 Please follow these simple steps in order to open and extend the source code while using:
 
-#### **1. Register dll files e.g. Aspose.Words.dll.**
+#### 1. Register dll files e.g. Aspose.Words.dll.
 
 {{< highlight csharp >}}
 Register dll files e.g. Aspose.Words.dll.
@@ -80,13 +80,13 @@ Copyright (C) Microsoft Corporation 1998-2004. All rights reserved.
 Types registered successfully
 {{< /highlight >}}
 
-#### **2. Enable COM and DOTNET Extensions in PHP.**
+#### 2. Enable COM and DOTNET Extensions in PHP.
 
 In IIS open PHP Manager and then Click ‘Enable to Disable and Extension‘. Find php_com_dotnet.dll and make sure it is enabled.
 
-#### **3. Configure Aspose.Words NET for PHP Examples**
+#### 3. Configure Aspose.Words NET for PHP Examples
 
-##### **Method 1**
+##### Method 1
 
 Clone PHP Examples from [github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose_Words_NET_for_PHP)
 and run the following command
@@ -95,7 +95,7 @@ and run the following command
 composer install
 {{< /highlight >}}
 
-##### **Method 2**
+##### Method 2
 
 In your PHP Project's composer.json file add following lines
 
@@ -115,7 +115,7 @@ composer install
 
 To read about composer visit <https://getcomposer.org/>
 
-## **Support**
+## Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -126,18 +126,18 @@ You can log any issues or suggestions related to Aspose.Words .NET for PHP usin
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Codeplex](https://asposenetphp.codeplex.com/workitem/list/basic)
 
-## **Extend and Contribute**
+## Extend and Contribute
 
 Aspose.Words .NET for PHP is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 
-## **Source Code**
+## Source Code
 
 You can get the latest source code from one of the following locations
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose_Words_NET_for_PHP)
 - [Codeplex](https://asposenetphp.codeplex.com/SourceControl/latest#Aspose.Words-for-.NET_for_PHP)
 
-## **Sample Code Examples**
+## Sample Code Examples
 
 This section includes the following topics
 

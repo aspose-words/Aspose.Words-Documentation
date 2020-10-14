@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 15.9.0. 
 
 {{% /alert %}} 
 
-### **Added DocumentBuilder Public Methods for Creating EditableRanges.**
+### Added DocumentBuilder Public Methods for Creating EditableRanges.
 
 We have added following methods in DocumentBuilder class in 15.9.0.
 
@@ -47,7 +47,7 @@ public EditableRangeStart StartEditableRange()
 public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 {{< /highlight >}}
 
-### **Added Options to Control Image Stretching for LINQ Reporting Engine**
+### Added Options to Control Image Stretching for LINQ Reporting Engine
 
 WORDSNET-12077 has now been resolved and the documentation for the engine has been updated appropriately.
 
@@ -63,7 +63,7 @@ The following documentation sections were added/modified:
 - [In-Table Template with Filtering, Grouping, and Ordering](https://docs.aspose.com/words/net/typical-templates/#in-table-template-with-filtering-grouping-and-ordering)
 - [Chart Template with Filtering, Grouping, and Ordering](https://docs.aspose.com/words/net/typical-templates/#chart-template-with-filtering-grouping-and-ordering)
 
-### **Added ReportingEngine.Options Property**
+### Added ReportingEngine.Options Property
 
 WORDSNET-12380 is now resolved. We have introduced following property in Aspose.Words 15.9.0.
 
@@ -104,6 +104,6 @@ public enum ReportBuildOptions
 }
 {{< /highlight >}}
 
-### **Changed the default DrawingML Rendering Mode**
+### Changed the default DrawingML Rendering Mode
 
 Starting from Aspose.Words 15.9.0, the default DmlRenderingMode has been changed from Fallback to DrawingML.

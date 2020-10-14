@@ -5,13 +5,13 @@ weight: 100
 url: /java/track-changes-in-jython/
 ---
 
-## **Aspose.Words - Track Changes in Documents**
+## Aspose.Words - Track Changes in Documents
 
 To track changes in documents using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 Error rendering macro 'code' : Invalid value specified for parameter lang
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

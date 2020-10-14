@@ -11,7 +11,7 @@ url: /java/drawing-object-features-supported-on-flatopc-export/
 
 {{% /alert %}} 
 
-## **Images**
+## Images
 
 All images are exported as the same format that they were originally loaded as.
 
@@ -29,7 +29,7 @@ All images are exported as the same format that they were originally loaded as.
 |Cropping|Yes| | |
 |Alternative text|Yes| | |
 
-## **Image Recoloring**
+## Image Recoloring
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -37,7 +37,7 @@ All images are exported as the same format that they were originally loaded as.
 |Contrast|Yes| | |
 |Recolor|Yes| | |
 
-## **Textboxes**
+## Textboxes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -48,7 +48,7 @@ All images are exported as the same format that they were originally loaded as.
 |Resize To Fit Text|Yes| | |
 |Text in Other Shapes|Yes| | |
 
-## **OLE Objects**
+## OLE Objects
 
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
@@ -65,7 +65,7 @@ OLE objects are fully preserved when converting within different Word document f
 |Ole Object Picture|Yes| | |
 |Source Range|Yes| | |
 
-## **ActiveX Controls**
+## ActiveX Controls
 
 ActiveX is supported in OOXML, DOC, RTF and WordML documents. ActiveX Controls are preserved during round-trip to the same format.
 
@@ -85,7 +85,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 | :- | :- | :- | :- |
 |Persistent Properties Storage|Yes| | |
 
-## **Shapes**
+## Shapes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -107,7 +107,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Hyperlink on Shape|Yes| | |
 |Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded.| |
 
-## **WordArt**
+## WordArt
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -121,7 +121,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Align and Justify Text|Yes| | |
 |WordArt Shape|Yes| | |
 
-## **Horizontal Line Object**
+## Horizontal Line Object
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -132,7 +132,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Hyperlink|Yes| | |
 |Image|Yes| | |
 
-## **Position**
+## Position
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -153,7 +153,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Allow Overlap|Yes| | |
 |Layout in Table Cell|Yes| | |
 
-## **Size**
+## Size
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -162,7 +162,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Relative Size|Yes| | |
 |Lock Aspect Ratio|Yes| | |
 
-## **Fill**
+## Fill
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -172,7 +172,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Pattern Fill|Yes| | |
 |Picture or Texture Fill|Yes| | |
 
-## **Line Style**
+## Line Style
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -185,13 +185,13 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Join Type|Yes| | |
 |Arrow Settings|Yes| | |
 
-## **Shadow**
+## Shadow
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shadow|Yes| | |
 
-## **3D Properties**
+## 3D Properties
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

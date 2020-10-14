@@ -11,7 +11,7 @@ Aspose.Words for JasperReports works with JasperReports and JasperServer. This a
 
 {{% /alert %}} 
 
-## **Integration with JasperReports**
+## Integration with JasperReports
 
 To use Aspose.Words for JasperReports from your application, you should copy a single appropriate **.jar** file from the \lib folder of **Aspose.Words.JasperReports-xx.x.zip** to the JasperReports\lib directory or to a library folder of your application. After that, you can access the exporters programmatically.
 
@@ -39,7 +39,7 @@ The following example shows typical code needed to export a report to a DOC file
    exporter.exportReport();
 {{< /highlight >}}
 
-## **Integration with JasperServer**
+## Integration with JasperServer
 
 To add DOC, DOCX, RTF, ODT, HTML and TXT export formats to JasperServer, perform the following steps. In all of the following steps **<InstallDir>** stands for the JasperServer installation directory.
 

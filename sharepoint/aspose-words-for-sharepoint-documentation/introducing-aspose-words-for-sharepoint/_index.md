@@ -11,7 +11,7 @@ Welcome to Aspose.Words for SharePoint!
 
 Does your organization have a corporate document repository on Windows SharePoint Services (WSS) or Microsoft Office SharePoint Server’s (MOSS) technologies? Do you have to use multiple document formats in your internal work process or in your interaction with customers and partners? 
 
-## **Overview**
+## Overview
 
 Aspose.Words for SharePoint will help you distribute corporate knowledge by allowing developers to convert files held within SharePoint into the formats your users need them in. Aspose.Words for SharePoint is a unique solution that enables you to
 
@@ -25,7 +25,7 @@ This is useful when:
 - you want to see an affordable and fast tool capable of converting documents right in your SharePoint’s document library with high fidelity but without the use of Microsoft Word automation.
 - you generate documents based on database data and would you like to do it from a SharePoint document library.
 
-## **Supported Products**
+## Supported Products
 
 Use Aspose.Words for SharePoint with the following products:
 
@@ -39,7 +39,7 @@ Use Aspose.Words for SharePoint with the following products:
 
 There are no additional system requirements.
 
-## **Features**
+## Features
 
 Use Aspose.Words for SharePoint right from a SharePoint document library to convert a particular document.
 

@@ -5,7 +5,7 @@ weight: 30
 url: /net/set-page-borders/
 ---
 
-## **Aspose.Words - Set Page Borders**
+## Aspose.Words - Set Page Borders
 
 Page setup and section properties are encapsulated in the **PageSetup** object that is returned by the **DocumentBuilder.PageSetup** property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties. 
 
@@ -54,7 +54,7 @@ builder.Writeln("Cell #4");
 doc.Save("Table.SetBordersAndShading Out.doc");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Set Page Borders** form any of the below mentioned social coding sites:
 

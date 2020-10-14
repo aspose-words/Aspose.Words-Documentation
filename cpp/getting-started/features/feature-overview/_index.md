@@ -6,7 +6,7 @@ url: /cpp/feature-overview/
 ---
 
 
-## **Major Features**
+## Major Features
 
 - Layout Engine (the module that allows building page by page model of a document)
 - Rendering documents to PDF
@@ -29,7 +29,7 @@ url: /cpp/feature-overview/
 - Comparing Two Word Documents
 - Reading and Writing VBA MAcros
 
-## **Limitations**
+## Limitations
 
 - Supports limited set of file formats (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
 - No support for encrypted documents
@@ -37,7 +37,7 @@ url: /cpp/feature-overview/
 - Limited and unstable support for Rendering features
 - No support for Reporting features
 
-## **Supported Platforms**
+## Supported Platforms
 
 Aspose.Words for C++ supports the following platform:
 

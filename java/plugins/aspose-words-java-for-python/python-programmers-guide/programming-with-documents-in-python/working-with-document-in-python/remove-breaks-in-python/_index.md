@@ -5,7 +5,7 @@ weight: 20
 url: /java/remove-breaks-in-python/
 ---
 
-## **Aspose.Words - Remove Breaks**
+## Aspose.Words - Remove Breaks
 
 **Python Code**
 
@@ -23,7 +23,7 @@ self.removeSectionBreaks(doc)
 doc.save(self.dataDir + "TestFile Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Remove Breaks (Aspose.Words)** from any of the below mentioned social coding sites:
 

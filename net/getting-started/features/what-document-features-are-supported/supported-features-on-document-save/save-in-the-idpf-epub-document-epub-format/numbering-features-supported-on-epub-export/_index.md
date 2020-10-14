@@ -13,7 +13,7 @@ There are plans to introduce an option to control if lists are exported as nativ
 
 {{% /alert %}} 
 
-## **Numbering Definition**
+## Numbering Definition
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -21,7 +21,7 @@ There are plans to introduce an option to control if lists are exported as nativ
 |Multi Level |Yes |Multiple level lists are always output as ordinary paragraphs. | |
 |Name |Planned |Can be exported as a List style name. | |
 
-## **Numbering Level**
+## Numbering Level
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

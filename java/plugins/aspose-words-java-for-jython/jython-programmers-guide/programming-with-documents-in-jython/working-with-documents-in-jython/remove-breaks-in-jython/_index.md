@@ -5,7 +5,7 @@ weight: 80
 url: /java/remove-breaks-in-jython/
 ---
 
-## **Aspose.Words - Remove Breaks**
+## Aspose.Words - Remove Breaks
 
 To Remove Page and Section Breaks using **Aspose.Words Java for Jython**. Here you can see sample code.
 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     RemoveBreaks()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

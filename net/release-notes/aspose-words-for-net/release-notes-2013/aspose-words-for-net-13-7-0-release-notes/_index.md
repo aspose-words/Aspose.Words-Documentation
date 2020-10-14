@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 13.7.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 13.7 Release Notes**
+## Aspose.Words for .NET 13.7 Release Notes
 
-### **What's New**
+### What's New
 
 There are 138 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -29,7 +29,7 @@ There are 138 improvements and fixes in this regular monthly release. The most n
 - Several improvements in OLE support area
 
 
-## **All Fixes**
+## All Fixes
 
 |Key|Summary|Category|
 | :- | :- | :- |

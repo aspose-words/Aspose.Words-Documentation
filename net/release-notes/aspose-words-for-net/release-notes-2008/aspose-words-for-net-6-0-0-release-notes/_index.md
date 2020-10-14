@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for .NET 6.0.0](http://www.as
 
 We celebrate 5 years of Aspose.Words by delivering to you another set of great features in this Aspose.Words for .NET 6.0 release.
 
-## **New Features**
+## New Features
 
 - Direct conversion to PDF
 - Printing and imaging
@@ -22,7 +22,7 @@ We celebrate 5 years of Aspose.Words by delivering to you another set of great f
 - MHTML import
 - EPUB export (Beta)
 
-## **Rendering Engine**
+## Rendering Engine
 
 The main theme of Aspose.Words for .NET 6.0 is the Rendering Engine that finally makes it possible to print, render to images and convert documents to PDF directly.
 
@@ -34,7 +34,7 @@ Our work never ends. Although this is version 6.0 for Aspose.Words, it is only �
 
 I would like to thank the team who worked on the engine painstakingly trying to recreate the many quirks of Microsoft Word’s page layout behavior.I would also like to thank all customers who have been waiting for this feature for 5 years!
 
-## **Direct Conversion to PDF**
+## Direct Conversion to PDF
 
 It has been possible to convert Word documents to PDF with Aspose.Words for .NET for long time, but it required two components Aspose.Words and Aspose.Pdf operating together. This conversion works well, but the fact that two products are involved has its costs for customers.
 
@@ -51,7 +51,7 @@ To start using direct conversion to PDF in Aspose.Words, see methods.
 
 The legacy conversion that requires Aspose.Words and Aspose.Pdf is still available and will be supported throughout 2009.
 
-## **Printing and Imaging**
+## Printing and Imaging
 
 Being able to print Word® documents in any server or client application without utilizing Microsoft Word® has been a dream for many and for long. Aspose.Words for .NET 6.0 makes it possible. 
 
@@ -64,7 +64,7 @@ The same document Rendering Engine can output to a .NET Graphics object and it o
 
 See the new , , and methods for more information.
 
-## **Full DrawingML Support**
+## Full DrawingML Support
 
 DrawingML is a part of the Office Open XML standard and describes the XML used to store drawing objects in Microsoft Office 2007 documents. Microsoft Word 2007 uses either DrawingML or VML (Vector Markup Language) to store images in documents.
 
@@ -72,7 +72,7 @@ Starting with this release, Aspose.Words for .NET 6.0 supports the full set of D
 
 To benefit from this feature all you need to do is download and use the latest Aspose.Words for .NET.
 
-## **MHTML Import**
+## MHTML Import
 
 MHTML is a “single file web page” format. MHTML is a way to save HTML with all related images and other resources into a single file.
 
@@ -80,13 +80,13 @@ Saving documents as MHTML has been available in Aspose.Words for several months 
 
 Loading and saving documents as MHTML is fully integrated in Aspose.Words. Use constructors to load a file in any format and to save in any format. Also see the and enumerations.
 
-## **EPUB Export (Beta)**
+## EPUB Export (Beta)
 
 We are happy to announce our initial support for saving documents in the EPUB format.
 
 EPUB is an open standard for eBooks that is rapidly gaining adoption by publishers and distributors. EPUB has been adopted by Adobe as a complement to PDF for reflow-centric eBooks. Specs are available at .
 
-## **Fixes and Enhancements**
+## Fixes and Enhancements
 
 Issue ID || 
 Component || 

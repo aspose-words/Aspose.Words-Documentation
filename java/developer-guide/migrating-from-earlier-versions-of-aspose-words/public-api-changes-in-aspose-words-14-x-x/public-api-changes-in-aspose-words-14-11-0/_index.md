@@ -11,11 +11,11 @@ This page lists public API changes that were introduced in Aspose.Words 14.11.0.
 
 {{% /alert %}} 
 
-## **BuiltInDocumentProperties.NameOfApplication Property Added**
+## BuiltInDocumentProperties.NameOfApplication Property Added
 
 Earlier the field "NameOfApplication" in document properties contained product name with version number. Now version number is removed from this field.
 
-## **RevisionOptions.MovedFromTextColor and RevisionOptions.MovedToTextColor Properties Added**
+## RevisionOptions.MovedFromTextColor and RevisionOptions.MovedToTextColor Properties Added
 
 Public API for controlling colors of Move revisions for rendering to fixed formats are added. RevisionOptions class now has the following two new public read-write properties:
 
@@ -24,6 +24,6 @@ public RevisionColor MovedFromTextColor
 public RevisionColor MovedToTextColor
 {{< /highlight >}}
 
-## **Style.Aliases Property Added**
+## Style.Aliases Property Added
 
 Style.Aliases property now returns all aliases of the style as String[]. If style has no aliases then empty array of string is returned.

@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 18.1](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 61 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -33,7 +33,7 @@ There are 61 improvements and fixes in this regular monthly release. The most no
 - Improved rendering of composite (with multiple series) charts.
 - Chart title with ManualLayout rendering fixed.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -99,17 +99,17 @@ There are 61 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16060|Add feature to get w:storeItemID of StructuredDocumentTag|Feature|
 |WORDSNET-16092|Add feature to add multiple replies to comment using Comment.AddReply|Feature|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Enhanced Support of Single-Column Table Data Bands and Conditional Blocks for LINQ Reporting Engine**
+### Enhanced Support of Single-Column Table Data Bands and Conditional Blocks for LINQ Reporting Engine
 
 Related issues WORDSNET-13863, WORDSNET-15776, WORDSNET-16188.
 
 The "[Working with Table-Row Data Bands](/words/net/template-syntax/#templatesyntax-workingwithtable-rowdatabands)" and "[Working with Table-Row Conditional Blocks](/words/net/template-syntax/#templatesyntax-workingwithtable-rowconditionalblocks)" sections of the engine's documentation were updated to describe the change.
 
-### **Remove Obsolete Method in CompositeNode**
+### Remove Obsolete Method in CompositeNode
 
 Removed obsolete public method from CompositeNode class:
 
@@ -119,7 +119,7 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep, bool isLive)
 
 Parameter "isLive" is not used anymore. Please use CompositeNode.GetChildNodes(NodeType nodeType, bool isDeep) instead.
 
-### **Added the ChartAxis.Hidden Property**
+### Added the ChartAxis.Hidden Property
 
 Related Issue: WORDSNET-15801
 
@@ -140,7 +140,7 @@ public bool Hidden
 
 The property allows hiding/showing and getting visibility state of an axis of a chart.
 
-#### **UC to create a chart and hide its Y axis**
+#### UC to create a chart and hide its Y axis
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -163,7 +163,7 @@ chart.AxisY.Hidden = true;
 doc.Save(dir + "TestHiddenAxis.docx");
 {{< /highlight >}}
 
-### **Added Property for Preserving Meta-Characters during Replacement**
+### Added Property for Preserving Meta-Characters during Replacement
 
 Related Issue: WORDSNET-15840
 
@@ -213,7 +213,7 @@ doc.Range.Replace(text, replaceWithText,
 
 {{< /highlight >}}
 
-### **Added Feature to Get StoreItemID Property of StructuredDocumentTag**
+### Added Feature to Get StoreItemID Property of StructuredDocumentTag
 
 Related Issue: WORDSNET-16060
 

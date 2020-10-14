@@ -5,7 +5,7 @@ weight: 10
 url: /java/create-tables/
 ---
 
-## **Aspose.Words - Create Tables**
+## Aspose.Words - Create Tables
 
 In Aspose.Words a table is normally inserted using **DocumentBuilder**. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
@@ -52,7 +52,7 @@ builder.endTable();
 doc.save(dataDir + "Aspose_CreateTable.doc");
 {{< /highlight >}}
 
-## **Apache POI HWPF XWPF - Create Tables**
+## Apache POI HWPF XWPF - Create Tables
 
 Below example shows how table is inserted using Apache POI XWPF library.
 
@@ -95,12 +95,12 @@ document.write(outStream);
 outStream.close();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/tables/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/tables)

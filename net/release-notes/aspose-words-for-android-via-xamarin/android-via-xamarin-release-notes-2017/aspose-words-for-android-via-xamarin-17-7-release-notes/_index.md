@@ -15,7 +15,7 @@ This version also includes all bug fixes and public API changes made in Aspose.W
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Rendering into PCL format (Printer Command Language) was implemented. New saving format introduced – “SaveFormat.Pcl”. Please note that custom fonts is not yet supported.
 - The proper algorithm for rendering of shapes with automatic size textboxes (i.e. closest to MS Word output) implemented.

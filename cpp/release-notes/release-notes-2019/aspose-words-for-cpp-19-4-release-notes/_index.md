@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for C++ 19.4](https://www.nug
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 This is the third release of Aspose.Words for C++, it took some time to prepare this release since it includes some major features, we are happy to present to you, like Layout Engine, Updating all fields, support HTML and PDF formats. Here is the list of features included since the previous release of Aspose.Words for C++:
 
@@ -28,7 +28,7 @@ This is the third release of Aspose.Words for C++, it took some time to prepare 
 - Creation Dml Charts.
 - Updating fields that depend on document layout, like TOC, PAGE etc.
 
-## **Limitations and API Differences**
+## Limitations and API Differences
 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in the future releases.
@@ -40,7 +40,7 @@ The missing features will be added in the future releases.
 - The current release doesn't support Reporting features
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

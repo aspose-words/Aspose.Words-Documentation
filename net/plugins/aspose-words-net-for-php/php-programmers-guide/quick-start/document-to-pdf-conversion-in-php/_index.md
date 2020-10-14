@@ -5,7 +5,7 @@ weight: 20
 url: /net/document-to-pdf-conversion-in-php/
 ---
 
-## **Aspose.Words - Document to PDF Conversion Example**
+## Aspose.Words - Document to PDF Conversion Example
 
 Document to PDF Conversion Example
 
@@ -21,7 +21,7 @@ Document to PDF Conversion Example
         print "Document converted to PDF successfully.\nFile saved at " . $dataDir . "Doc2PdfSave Out.pdf" . PHP_EOL;
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Document to PDF Conversion Example (Aspose.Words)** from any of the below mentioned social coding sites:
 

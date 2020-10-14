@@ -5,7 +5,7 @@ weight: 10
 url: /java/append-documents-in-php/
 ---
 
-## **Aspose.Words - Append Documents**
+## Aspose.Words - Append Documents
 
 To append documents using Aspose.Words Java in php, simply invoke the appendDocument() method of Document class and specify the second document to append at end.
 

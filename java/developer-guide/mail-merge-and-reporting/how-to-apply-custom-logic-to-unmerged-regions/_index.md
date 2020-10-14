@@ -31,7 +31,7 @@ As noted on the image you can see that the **ContactDetails** region for the sec
 
 The technique provided in this article demonstrates how to apply custom logic to each unmerged regions to avoid these issues.
 
-#### **The Solution**
+#### The Solution
 
 To manually apply logic to each unused region in the document we take advantage of features already available in Aspose.Words.
 
@@ -49,7 +49,7 @@ This sample project demonstrates this technique. It involves the following steps
    1. Calls the **CreateDataSourceFromDocumentRegions** method which accepts the user’s **Document** and **ArrayList** containing regions names. This method will create a dummy data source containing tables for each unmerged region in the document.
    1. Executes mail merge on the document using the dummy data source. When mail merge is executed with this data source it allows the user-specified handler to be called for each unmerge region and the custom logic applied
 
-#### **The Code**
+#### The Code
 
 The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts several parameters:
 
@@ -57,7 +57,7 @@ The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found 
 1. The handler class which defines the logic to apply to unmerged regions. This handler must implement the [IFieldMergingCallback](http://www.aspose.com/api/java/words/com.aspose.words/interfaces/IFieldMergingCallback) interface.
 1. Through the use of the appropriate overload, the method can also accept a third parameter – a list of region names as strings. If this is specified then only region names remaining the document specified in the list will be manually handled. Other regions which are encountered will not be called by the handler and removed automatically. When the overload with only two parameters is specified, every remaining region in the document is included by the method to be handled manually.
 
-##### **Example**
+##### Example
 
 Shows how to execute custom logic on unused regions using the specified handler.
 
@@ -69,7 +69,7 @@ If you considering running the **ExecuteCustomLogicOnEmptyRegions** method conse
 
 {{% /alert %}} 
 
-##### **Example**
+##### Example
 
 Defines the method used to manually handle unmerged regions.
 
@@ -85,7 +85,7 @@ We also set the field value of the first field to “FirstField” to make it ea
 
 The code below demonstrates how this system works. The document shown at the start of this article is remerged with the same data source but this time, the unused regions are handled by custom code.
 
-##### **Example**
+##### Example
 
 Shows how to handle unmerged regions after mail merge with user defined code.
 
@@ -98,7 +98,7 @@ The logic for the **ContactDetails** region involves changing the text of each f
 
 A similar process is applied to the **Suppliers** region with the addition of extra code to handle the table which contains the region. The code will check if the region is contained within a table (as it may have already been removed). If it is, it will remove the entire table from the document as well as the paragraph which precedes it as long as it is formatted with a heading style e.g “Heading 1”.
 
-##### **Example**
+##### Example
 
 Shows how to define custom logic in a handler implementing IFieldMergingCallback that is executed for unmerged regions in the document.
 
@@ -117,7 +117,7 @@ The replacement text is merged into the first field by setting the specified tex
 
 The code applies this for only the first field in the region by checking the **FieldMergingArgs.FieldValue** property. The field value of the first field in the region is marked with “FirstField” . This makes this type of logic easier to implement over many regions as no extra code is required.
 
-##### **Example**
+##### Example
 
 Shows how to replace an unused region with a message and remove extra paragraphs.
 
@@ -130,7 +130,7 @@ The resulting document after the code above has been executed is shown below. Th
 
 As another example, we can insert the code below in place of the code originally handling the **SuppliersRegion** . This will display a message within the table and merge the cells instead of removing the table from the document. Since the region resides within a table with multiple cells, it looks nicer to have the cells of the table merged together and the message centered.
 
-##### **Example**
+##### Example
 
 Shows how to merge all the parent cells of an unused region and display a message within the table.
 
@@ -143,7 +143,7 @@ The resulting document after the code above has been executed is shown below.
 
 Finally, we can call the **ExecuteCustomLogicOnEmptyRegions** method and specify the table names that should be handled within our handler method, while specifying others to be automatically removed.
 
-##### **Example**
+##### Example
 
 Shows how to specify only the ContactDetails region to be handled through the handler class.
 

@@ -13,7 +13,7 @@ You can try to add watermark and view the results online at this link:
 
 {{% /alert %}} 
 
-## **Aspose.Words - Add Watermark**
+## Aspose.Words - Add Watermark
 
 Sometimes you need to insert a watermark into a Word document, for instance, if you would like to print a draft document or mark it as confidential.
 
@@ -84,7 +84,7 @@ static void insertWatermarkIntoHeader(Paragraph watermarkPara, Section sect, Hea
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Add Watermark** form any of the below mentioned social coding sites:
 

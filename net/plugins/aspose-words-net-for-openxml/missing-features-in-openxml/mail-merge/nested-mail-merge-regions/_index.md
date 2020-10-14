@@ -11,7 +11,7 @@ Most data in relational databases or XML files is hierarchical (e.g. with parent
 
 This article details the steps of how to set up a working nested mail merge application to generate a collection of invoices where each contain multiple items. An example project with complete source code and files can be downloaded. The process and code will be explained step by step and common issues addressed at the end of the article.
 
-## **What are Nested Mail Merge Regions and When Would I use Them?**
+## What are Nested Mail Merge Regions and When Would I use Them?
 
 Nested mail merge regions are at least two regions in which one is defined entirely inside the other, so they are “nested” in one another. In a document it looks like this:
 
@@ -25,7 +25,7 @@ The example below shows the data being passed to the nested merge regions and th
 
 As you can see, each order from the Order table is inserted followed by each item from the Item table that is related to that order. Then the next order will be inserted along with their items until all the orders and items are listed.
 
-### **Step 1 – Create the Template**
+### Step 1 – Create the Template
 
 This is the same process as creating a standard mail merge document with regions. Remember that with mail merge regions we can have the same field name in different regions so there is no need to change any column names. Here is what our Word template looks like:
 
@@ -38,13 +38,13 @@ There are a few things you need to consider when preparing nested mail merge reg
 - The opening and closing table tags need to be well formed. This means that the StartTable and EndTable table tags must match. An incorrectly formed region will cause all nested mail merge regions to stop displaying anything at all.
   If one of these rules is broken the program may produce unexpected results or an exception may be thrown.
 
-### **Step 2 – Create the Data Source**
+### Step 2 – Create the Data Source
 
 The data to be merged into the template can come from a variety of sources, mainly relational databases or XML documents. In our example we are going to use an XML file to store our data and load it straight into a DataSet using the inbuilt .NET functionality.
 
 In our example, XML is used to store the data. There is a schema file found in the Data folder called **OrdersSchema.xsd** to ensure data integrity. Here are the contents of the files:
 
-#### **CustomerData.xml**
+#### CustomerData.xml
 
 **XML**
 
@@ -76,7 +76,7 @@ In our example, XML is used to store the data. There is a schema file found in t
 </Orders>
 {{< /highlight >}}
 
-#### **PizzaSchema.xsd**
+#### PizzaSchema.xsd
 
 **XML**
 
@@ -119,7 +119,7 @@ These files should be included in our project folder:
 
 ![todo:image_alt_text](/download/thumbnails/2588826/1957624239)
 
-### **Step 3 – Ensure Correct Table Names and Relationships Exist Between Tables**
+### Step 3 – Ensure Correct Table Names and Relationships Exist Between Tables
 
 For Aspose.Words to perform nested mail merge correctly, the following requirements must be met:
 
@@ -138,7 +138,7 @@ For more information about creating or inferring schemas using XML see the MSDN 
 
 ![todo:image_alt_text](/download/thumbnails/2588826/506157511)
 
-### **Step 4 – Prepare the Code**
+### Step 4 – Prepare the Code
 
 The code for setting up nested mail merge is simple to implement with Aspose.Words. Remember when setting up your project:
 
@@ -196,7 +196,7 @@ public static void DisableForeignKeyConstraints()
 }
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)

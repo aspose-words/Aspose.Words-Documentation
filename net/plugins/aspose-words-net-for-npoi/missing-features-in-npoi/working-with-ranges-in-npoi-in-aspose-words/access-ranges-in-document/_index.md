@@ -5,7 +5,7 @@ weight: 10
 url: /net/access-ranges-in-document/
 ---
 
-## **Aspose.Words - Access Ranges in Document**
+## Aspose.Words - Access Ranges in Document
 
 Use the Range.Text property to retrieve plain, unformatted text of the range.
 
@@ -42,7 +42,7 @@ Use the Range.Text property to retrieve plain, unformatted text of the range.
             System.Console.ReadKey();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Access Ranges in Document** form any of the below mentioned social coding sites:
 

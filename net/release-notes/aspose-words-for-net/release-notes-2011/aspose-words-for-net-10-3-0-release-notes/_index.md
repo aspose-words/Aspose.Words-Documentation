@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 10.3.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 10.3 Release Notes**
+## Aspose.Words for .NET 10.3 Release Notes
 
 This regular monthly release delivers 95 new features and fixes. 
 
@@ -21,4 +21,4 @@ Some of the highlights are:
 - Added options to customize UI of the Aspose.Words Flash Document Viewer.
 - Improvements in document conversions and rendering.
 - Enhancements in the documentation and sample code.
-## **All Fixes**
+## All Fixes

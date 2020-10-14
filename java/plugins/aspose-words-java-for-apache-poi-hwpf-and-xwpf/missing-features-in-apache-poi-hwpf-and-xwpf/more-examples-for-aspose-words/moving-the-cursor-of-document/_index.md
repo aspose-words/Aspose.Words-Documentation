@@ -5,7 +5,7 @@ weight: 10
 url: /java/moving-the-cursor-of-document/
 ---
 
-## **Aspose.Words - Moving the Cursor**
+## Aspose.Words - Moving the Cursor
 
 If you need to move to the beginning of the document, call **DocumentBuilder.moveToDocumentStart**. If you need to move to the end of the document, call **DocumentBuilder.moveToDocumentEnd**.
 
@@ -28,12 +28,12 @@ builder.moveToDocumentStart();
 builder.writeln("This is the beginning of the document.");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithdocument/movingcursor/AsposeMovingCursor.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithdocument/movingcursor/AsposeMovingCursor.java)

@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 17.5](http://maven.a
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 93 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -30,7 +30,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 - Shaded DrawingML images rendering fixed.
 - DrawingML Charts rendering improved (axis label placement).
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -128,12 +128,12 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15161|Table borders disappear after Paragraph removal|Regression|
 |WORDSNET-15199|Header content becomes visible from behind a floating Frame with shading during rendering|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.5. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 
-### **Added Public Method CustomXmlPartCollection.add(string id, string xml)**
+### Added Public Method CustomXmlPartCollection.add(string id, string xml)
 
 A public method is added into the CustomXmlPartCollection class to help in creation of a custom XML part by specifying its XML:
 
@@ -149,7 +149,7 @@ public CustomXmlPart add(string id, string xml)
 
 Value of the 'xml' parameter is encoded as UTF8 and is stored in creating XML part.
 
-##### **UC for creating a custom XML part by specifying its XML**
+##### UC for creating a custom XML part by specifying its XML
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -159,7 +159,7 @@ sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.getFirstSection().getBody().appendChild(sdt);
 {{< /highlight >}}
 
-### **Implemented API to Bind StructuredDocumentTag to Node of Custom XML Part**
+### Implemented API to Bind StructuredDocumentTag to Node of Custom XML Part
 
 WORDSNET-4738 has been resolved. The following public property is added into the StructuredDocumentTag class:
 
@@ -221,7 +221,7 @@ public class XmlMapping
 }
 {{< /highlight >}}
 
-##### **UC for creation of an XML part and binding a content control to it**
+##### UC for creation of an XML part and binding a content control to it
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -232,7 +232,7 @@ sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.save(fileName);
 {{< /highlight >}}
 
-### **CellFormat.setPaddings Method was Introduced.**
+### CellFormat.setPaddings Method was Introduced.
 
 WORDSNET-15014 (Enhancement) has been resolved. We have added a simple method allowing to set all cell paddings in one line of code.
 

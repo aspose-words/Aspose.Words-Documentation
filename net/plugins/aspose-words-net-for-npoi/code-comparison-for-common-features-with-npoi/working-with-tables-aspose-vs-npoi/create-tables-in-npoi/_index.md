@@ -5,7 +5,7 @@ weight: 10
 url: /net/create-tables-in-npoi/
 ---
 
-## **Aspose.Words - Create Tables**
+## Aspose.Words - Create Tables
 
 In **Aspose.Words** a table is normally inserted using **DocumentBuilder**. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
@@ -58,7 +58,7 @@ builder.EndTable();
 doc.Save("simpleTable.docx");
 {{< /highlight >}}
 
-## **NPOI HWPF XWPF - Create Tables**
+## NPOI HWPF XWPF - Create Tables
 
 Below example shows how table is inserted using NPOI XWPF library.
 
@@ -90,7 +90,7 @@ doc.Write(out1);
 out1.Close();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Create Tables** form any of the below mentioned social coding sites:
 

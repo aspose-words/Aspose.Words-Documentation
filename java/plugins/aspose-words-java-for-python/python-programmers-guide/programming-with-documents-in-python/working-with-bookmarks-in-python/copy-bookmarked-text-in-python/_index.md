@@ -5,7 +5,7 @@ weight: 10
 url: /java/copy-bookmarked-text-in-python/
 ---
 
-## **Aspose.Words - Copy Bookmarked Text**
+## Aspose.Words - Copy Bookmarked Text
 
 To copy bookmarked text, see below example in Python
 
@@ -33,7 +33,7 @@ self.appendBookmarkedText(importer, srcBookmark, dstNode)
 dstDoc.save(self.dataDir + "Template Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Copy Bookmarked Text (Aspose.Words)** from any of the below mentioned social coding sites:
 

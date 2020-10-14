@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 14.5.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 14.5 Release Notes**
+## Aspose.Words for Java 14.5 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 95 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -25,7 +25,7 @@ There are 95 improvements and fixes in this regular monthly release. The most n
   Image export to HTML, MHTML and EPUB improved 
   FitText attribute supported for all flow formats 
 
-## **All Changes**
+## All Changes
 
 |WORDSJAVA-871 |Spare default font hints in DOCX document. |Bug |
 | :- | :- | :- |

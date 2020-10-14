@@ -5,7 +5,7 @@ weight: 30
 url: /net/fitting-all-tables-to-the-page-width/
 ---
 
-## **VSTO**
+## VSTO
 
 {{< highlight csharp >}}
 string mypath = "Document.docx";
@@ -18,7 +18,7 @@ foreach (Table table in this.Application.ActiveDocument.Tables)
 }
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 {{< highlight csharp >}}
 Document doc = new Document( "doc.docx");
@@ -28,7 +28,7 @@ foreach (Table table in doc.GetChildNodes(NodeType.Table, true))
 }
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/772971)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Fitting.all.Tables.to.the.Page.Width.Aspose.Words.zip)

@@ -11,7 +11,7 @@ url: /java/numbering-features-supported-on-opendocument-export/
 
 {{% /alert %}} 
 
-## **Numbering Definition**
+## Numbering Definition
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ url: /java/numbering-features-supported-on-opendocument-export/
 |Multi Level |Yes | | |
 |Name |N/A | | |
 
-## **Numbering Level**
+## Numbering Level
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -5,7 +5,7 @@ weight: 10
 url: /java/add-watermark-in-ruby/
 ---
 
-## **Aspose.Words - Add Watermark**
+## Aspose.Words - Add Watermark
 
 To add watermark to word documents using Aspose.Words Java for Ruby, simply invoke insert_watermark_text() method of AddWatermark module.
 
@@ -79,7 +79,7 @@ def insert_watermark_into_header(watermarkPara, sect, headerType)
 end
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Add Watermark (Aspose.Words)** from any of the below mentioned social coding sites:
 

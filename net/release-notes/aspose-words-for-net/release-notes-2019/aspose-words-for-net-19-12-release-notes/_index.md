@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 19.12](https://www.n
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Conversion to PDF 1.7 standard is now supported.
 - User-installed fonts are now supported upon using SystemFontSource on Windows10.
@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for .NET 19.12](https://www.n
 - OLE object data is exposed to public API.
 - Access to related DataTable is provided in LINQ Reporting Engine through relation name.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -119,12 +119,12 @@ This page contains release notes for [Aspose.Words for .NET 19.12](https://www.n
 |WORDSNET-18223|The list numbers are lost after comparing documents using Document.Compare|Bug|
 |WORDSNET-14466|Empty page gets added to the PDF when converting from DOCX|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 
-### **Added ability to clone VbaProject and VbaModule**
+### Added ability to clone VbaProject and VbaModule
 
 Related issue: WORDSNET-19556
 
@@ -172,7 +172,7 @@ destDoc.VbaProject.Modules.Add(copyModule);
 destDoc.Save("output.docm", );
 {{< /highlight >}}
 
-### **Added ability to get access to OLE object raw data**
+### Added ability to get access to OLE object raw data
 
 WORDSNET-18897: added a feature to get access to OLE object raw data.
 
@@ -192,7 +192,7 @@ Shape oleShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 byte[] oleRawData = shape.OleFormat.GetRawData();
 {{< /highlight >}}
 
-### **Added a new FindReplaceOptions.UseLegacyOrder option**
+### Added a new FindReplaceOptions.UseLegacyOrder option
 
 Related issue: WORDSNET-19357.
 
@@ -210,7 +210,7 @@ public bool UseLegacyOrder
 {{< /highlight >}}
 
 
-##### **Use Case: In the example, the text "2" is in the text box.**
+##### Use Case: In the example, the text "2" is in the text box.
 
 {{< highlight csharp >}}
 
@@ -237,7 +237,7 @@ private class ReplacingCallback : IReplacingCallback
 //    If useLegacyOrder is false: [1][3][2]
 {{< /highlight >}}
 
-### **Added new RtfSaveOption.SaveImagesAsWmf**
+### Added new RtfSaveOption.SaveImagesAsWmf
 
 Related issue: WORDSNET-19419
 
@@ -262,7 +262,7 @@ saveOpts.SaveImagesAsWmf = true;
 doc.Save("output.rtf", saveOpts);
 {{< /highlight >}}
 
-### **Conversion to PDF 1.7 standard is now supported**
+### Conversion to PDF 1.7 standard is now supported
 
 Issue WORDSNET-11083.
 
@@ -305,7 +305,7 @@ originalDoc.Save(@"C:\PathToSource\Output.pdf");
 {{< /highlight >}}
 
 
-### **New public properties of Bookmark are exposed**
+### New public properties of Bookmark are exposed
 
 Issue WORDSNET-12678.
 
@@ -357,7 +357,7 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 }
 {{< /highlight >}}
 
-### **Supported access to related DataTable using relation name for LINQ Reporting Engine**
+### Supported access to related DataTable using relation name for LINQ Reporting Engine
 
 Issue: WORDSNET-19238
 
@@ -365,7 +365,7 @@ The following sections of the engine's documentation were updated to describe th
 
 - "[Working with DataRow and DataRowView Objects](/words/net/template-syntax/#templatesyntax-workingwithdatarowanddatarowviewobjects)"
 
-### **User-installed fonts are now supported upon using SystemFontSource on Windows10**
+### User-installed fonts are now supported upon using SystemFontSource on Windows10
 
 Issue WORDSNET-19531
 

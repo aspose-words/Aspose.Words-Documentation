@@ -14,7 +14,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 {{% /alert %}} 
 
 
-## **PDF in Aspose.Words**
+## PDF in Aspose.Words
 
 ![todo:image_alt_text](adobe-portable-document-format-pdf_1.png)
 

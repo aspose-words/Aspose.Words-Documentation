@@ -11,11 +11,11 @@ This page contains release notes for [Aspose.Words for .NET 10.0.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 10.0 Release Notes**
+## Aspose.Words for .NET 10.0 Release Notes
 
 This release is important because it delivers several important features, some have been in development for long time. But the most important milestone of this release is that from now on we will be releasing Aspose.Words for .NET and Aspose.Words for Java on the same day with the same set of features and fixes in both products.
 
-## **What's New**
+## What's New
 
 - Table Styles are supported in DOC documents.
 - Office Math Markup Language (OMML) formulas are preserved during DOCX roundtrips.
@@ -37,4 +37,4 @@ We are now working on this futher to preserve equations in RTF, ODT and also re
 Starting from this release Aspose.Words supports Custom XML in all Microsoft Word document formats DOC, DOCX, RTF and WordML 2003. Custom XML elements and attributes are preserved during conversions and programmatically accessible from the Aspose.Words public API.
 
 
-## **All Fixes**
+## All Fixes

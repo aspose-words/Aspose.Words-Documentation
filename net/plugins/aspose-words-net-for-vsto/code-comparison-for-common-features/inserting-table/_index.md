@@ -5,7 +5,7 @@ weight: 80
 url: /net/inserting-table/
 ---
 
-## **VSTO**
+## VSTO
 
 {{< highlight csharp >}}
 Word.Application wordApp = Application;
@@ -47,7 +47,7 @@ tbl.Cell(3, 2).Range.Text = ((Office.DocumentProperties)(this.Application.Active
 }
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 {{< highlight csharp >}}
 Document doc = new Document("Inserting Table.doc");
@@ -81,7 +81,7 @@ builder.EndTable();
 doc.Save("Inserting Table.doc");
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/787348)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Inserting.Table.Aspose.Words.zip)

@@ -5,7 +5,7 @@ weight: 20
 url: /java/untangle-row-bookmarks-in-php/
 ---
 
-## **Aspose.Words - Copy Bookmarked Text**
+## Aspose.Words - Copy Bookmarked Text
 
 **Php Code**
 

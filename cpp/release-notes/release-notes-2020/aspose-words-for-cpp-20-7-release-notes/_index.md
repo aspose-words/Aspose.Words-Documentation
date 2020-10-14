@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for C++ 20.7](https://downloa
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
@@ -21,7 +21,7 @@ We have added the following features from Aspose.Words for .NET on this regular 
 - RevisionOptions class is extended with new properties.
 - Improved performance of SmartArt cold rendering.
 
-## **Limitations and API Differences**
+## Limitations and API Differences
 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
@@ -34,7 +34,7 @@ The missing features will be added in future releases.
 - The current release has limited support for database features - C++ does not have a common API for DB like .NET System.Data.
 - The current release only supports Microsoft Visual C++ version 2017 or higher and only for the x64 platform.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -128,11 +128,11 @@ The missing features will be added in future releases.
 |WORDSNET-20533	|Multi-Threaded Errors with mail merge|Bug|
 |WORDSNET-16907	|Incorrect line breaks push some content to the next page in PDF|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### **Added a new public property MailMerge.RetainFirstSectionStart**
+### Added a new public property MailMerge.RetainFirstSectionStart
 
 Related issue: WORDSNET-20480
 
@@ -164,7 +164,7 @@ Use Case:
 {{< /highlight >}}
 
 
-### **Added a new value to public enumeration WarningSource**
+### Added a new value to public enumeration WarningSource
 
 Related issue: WORDSNET-20334
 
@@ -200,7 +200,7 @@ Use Case. Explains how to use WarningSource.Markdown enumeration value:
 {{< /highlight >}}
 
 
-### **Added public property MeasurementUnit in RevisionOptions**
+### Added public property MeasurementUnit in RevisionOptions
 
 Related issue: WORDSNET-20487
 
@@ -269,7 +269,7 @@ Use Case:
  doc.Save(myDir +"Output.pdf");
 {{< /highlight >}}
 
-### **Added public property RevisionBarsPosition in RevisionOptions**
+### Added public property RevisionBarsPosition in RevisionOptions
 
 Related issue: WORDSNET-20415, WORDSNET-19724
 
@@ -300,7 +300,7 @@ Use Case:
  doc.Save(myDir +"Output.pdf");
 {{< /highlight >}}
 
-### **Added two new nodes to handle multi-section Structured Document Tags**
+### Added two new nodes to handle multi-section Structured Document Tags
 
 Related issue: WORDSNET-15659
 

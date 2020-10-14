@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 18.7](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 77 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -40,7 +40,7 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 - Fixed issue when hanging punctuation precedes inline shape
 - Fixed issue when Kinsoku rule is analyzed for shapes
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -122,11 +122,11 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17030|Document.Clone method keeps the reference on original document|Regression|
 |WORDSNET-16975|Yen Currency formatting on MERGEFIELD does not work|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Added API for Revision Groups**
+### Added API for Revision Groups
 
 A revision in Aspose.Words is a change in one document node. A set of sequential revisions of the same type in adjacent document nodes forms a revision group. Similar revision groups are displayed in the Reviewing Pane of MS Word.
 
@@ -185,12 +185,12 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 }
 {{< /highlight >}}
 
-### **Generics**
+### Generics
 
 Untyped containers like **ArrayList** have been replaced with typed containers like **List&lt;T&gt;**.
 As a result some public API becomes changed.
 
-### **1. MailMerge**
+### 1. MailMerge
 
 Before:
 
@@ -215,7 +215,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 }
 {{< /highlight >}}
 
-### **2. MailMergeRegionInfo**
+### 2. MailMergeRegionInfo
 
 Before:
 
@@ -238,7 +238,7 @@ public IList<MailMergeRegionInfo> Regions
 }
 {{< /highlight >}}
 
-### **3. MailMergeRegionInfo**
+### 3. MailMergeRegionInfo
 
 Before:
 
@@ -261,7 +261,7 @@ public IList<FieldMergeField> Fields
 }
 {{< /highlight >}}
 
-### **4. DocumentInfo**
+### 4. DocumentInfo
 
 Before:
 
@@ -289,7 +289,7 @@ public SortedStringListGeneric<object> CustomProperties
 }
 {{< /highlight >}}
 
-### **5. BorderCollection**
+### 5. BorderCollection
 
 Before:
 
@@ -303,7 +303,7 @@ After:
 public sealed class BorderCollection : IEnumerable<Border>
 {{< /highlight >}}
 
-### **6. DigitalSignatureCollection**
+### 6. DigitalSignatureCollection
 
 Before:
 
@@ -317,7 +317,7 @@ After:
 public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 {{< /highlight >}}
 
-### **7. VariableCollection**
+### 7. VariableCollection
 
 Before:
 
@@ -331,7 +331,7 @@ After:
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 {{< /highlight >}}
 
-### **8. WarningInfoCollection**
+### 8. WarningInfoCollection
 
 Before:
 
@@ -345,7 +345,7 @@ After:
 public class WarningInfoCollection : IWarningCallback, IEnumerable<WarningInfo>
 {{< /highlight >}}
 
-### **9. ChartDataLabelCollection**
+### 9. ChartDataLabelCollection
 
 Before:
 
@@ -359,7 +359,7 @@ After:
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 {{< /highlight >}}
 
-### **10. ChartDataPointCollection**
+### 10. ChartDataPointCollection
 
 Before:
 
@@ -373,7 +373,7 @@ After:
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 {{< /highlight >}}
 
-### **11. ChartSeriesCollection**
+### 11. ChartSeriesCollection
 
 Before:
 
@@ -387,7 +387,7 @@ After:
 public class ChartSeriesCollection : IEnumerable<ChartSeries>
 {{< /highlight >}}
 
-### **12. Type of DmlChartDataLabelAttrs.Extensions property changed.**
+### 12. Type of DmlChartDataLabelAttrs.Extensions property changed.
 
 Before:
 
@@ -401,7 +401,7 @@ After:
 StringToObjDictionary<DmlExtension>
 {{< /highlight >}}
 
-### **13. ListCollection**
+### 13. ListCollection
 
 Before:
 
@@ -415,7 +415,7 @@ After:
 public class ListCollection : IEnumerable<List>
 {{< /highlight >}}
 
-### **14. ListLevelCollection**
+### 14. ListLevelCollection
 
 Before:
 
@@ -429,7 +429,7 @@ After:
 public class ListLevelCollection : IEnumerable<ListLevel>
 {{< /highlight >}}
 
-### **15. CustomPartCollection**
+### 15. CustomPartCollection
 
 Before:
 
@@ -443,7 +443,7 @@ After:
 public class CustomPartCollection : IEnumerable<CustomPart>
 {{< /highlight >}}
 
-### **16. CustomXmlPartCollection**
+### 16. CustomXmlPartCollection
 
 Before:
 
@@ -457,7 +457,7 @@ After:
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 {{< /highlight >}}
 
-### **17. CustomXmlPropertyCollection**
+### 17. CustomXmlPropertyCollection
 
 Before:
 
@@ -471,7 +471,7 @@ After:
 public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 {{< /highlight >}}
 
-### **18. CustomXmlSchemaCollection**
+### 18. CustomXmlSchemaCollection
 
 Before:
 
@@ -485,7 +485,7 @@ After:
 public class CustomXmlSchemaCollection : IEnumerable<string>
 {{< /highlight >}}
 
-### **19. SdtListItemCollection**
+### 19. SdtListItemCollection
 
 Before:
 
@@ -499,7 +499,7 @@ After:
 public class SdtListItemCollection : IEnumerable<SdtListItem>
 {{< /highlight >}}
 
-### **20. CompositeNode**
+### 20. CompositeNode
 
 Before:
 
@@ -529,7 +529,7 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, INodeCollection
 
 {{< /highlight >}}
 
-### **21. NodeCollection**
+### 21. NodeCollection
 
 Before:
 
@@ -543,7 +543,7 @@ After:
 public class NodeCollection : INodeCollection, IEnumerable<Node>
 {{< /highlight >}}
 
-### **22. NodeList**
+### 22. NodeList
 
 Before:
 
@@ -557,7 +557,7 @@ After:
 public class NodeList : IEnumerable<Node>
 {{< /highlight >}}
 
-### **23. DocumentPropertyCollection**
+### 23. DocumentPropertyCollection
 
 Before:
 
@@ -571,7 +571,7 @@ After:
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 {{< /highlight >}}
 
-### **24. RevisionCollection**
+### 24. RevisionCollection
 
 Before:
 
@@ -585,7 +585,7 @@ After:
 public class RevisionCollection : IEnumerable<Revision>
 {{< /highlight >}}
 
-### **25. BookmarksOutlineLevelCollection**
+### 25. BookmarksOutlineLevelCollection
 
 Before:
 
@@ -599,7 +599,7 @@ After:
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
 {{< /highlight >}}
 
-### **26. OdsoFieldMapDataCollection**
+### 26. OdsoFieldMapDataCollection
 
 Before:
 
@@ -613,7 +613,7 @@ After:
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 {{< /highlight >}}
 
-### **27. OdsoRecipientDataCollection**
+### 27. OdsoRecipientDataCollection
 
 Before:
 
@@ -627,7 +627,7 @@ After:
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 {{< /highlight >}}
 
-### **28. StyleCollection**
+### 28. StyleCollection
 
 Before:
 
@@ -641,7 +641,7 @@ After:
 public class StyleCollection : IEnumerable<Style>
 {{< /highlight >}}
 
-### **Added Public Property HeaderFooterBookmarksExportMode in PdfSaveOptions**
+### Added Public Property HeaderFooterBookmarksExportMode in PdfSaveOptions
 
 WORDSNET-9079 has now been resolved.
 
@@ -676,7 +676,7 @@ public enum HeaderFooterBookmarksExportMode
 }
 {{< /highlight >}}
 
-### **Added FontSourceBase.GetAvailableFonts Method**
+### Added FontSourceBase.GetAvailableFonts Method
 
 WORDSNET-16731 has now been resolved. This method returns the list of fonts available via specific font source.
 
@@ -712,7 +712,7 @@ public class PhysicalFontInfo
 }
 {{< /highlight >}}
 
-### **Introduced new Comparison Settings**
+### Introduced new Comparison Settings
 
 WORDSNET-16806 has now been resolved. The following settings were added to the CompareOptions class:
 
@@ -768,7 +768,7 @@ options.IgnoreTables = true;
 docA.Compare(docB, "am", DateTime.Now, options);
 {{< /highlight >}}
 
-### **Added Public Property TxtLoadOptions.DetectNumberingWithWhitespaces**
+### Added Public Property TxtLoadOptions.DetectNumberingWithWhitespaces
 
 WORDSNET-14858 has been resolved.
 
@@ -796,7 +796,7 @@ loadOptions.DetectNumberingWithWhitespaces = false;
 Document doc = new Document(fileName, loadOptions);
 {{< /highlight >}}
 
-### **API for Removing Personal Information Setting from Document**
+### API for Removing Personal Information Setting from Document
 
 WORDSNET-16914 has been resolved. We have added new public option
 
@@ -806,7 +806,7 @@ bool Document.RemovePersonalInformation
 
 Important note: Setting this option does not actually remove personal information while document is processed in Aspose.Words and affects only Microsoft Word behavior.
 
-### **TxtLoadOptions Class was Extended**
+### TxtLoadOptions Class was Extended
 
 WORDSNET-14858 has been resolved. A new LoadOptions class for dealing with the text files was introduced : ***TxtLoadOptions***.
 
@@ -842,14 +842,14 @@ loadOptions.TrailingSpacesOptions = TxtTrailingSpacesOptions.Trim;
 Document doc = new Document(fileName, loadOptions);
 {{< /highlight >}}
 
-### **Obsolete Method RemoveUnusedResources() was Removed from Document Class**
+### Obsolete Method RemoveUnusedResources() was Removed from Document Class
 
 Obsolete method RemoveUnusedResources() was removed from Document class. Please use Document.Cleanup() method instead.
 
-### **Obsolete Method SetImage() was Removed from ImageData Class**
+### Obsolete Method SetImage() was Removed from ImageData Class
 
 Obsolete method SetImage() was removed from ImageData class. Please use the ImageBytes property to set an image.
 
-### **Obsolete Property MirrorMargins was Removed from PageSetup Class**
+### Obsolete Property MirrorMargins was Removed from PageSetup Class
 
 Obsolete property MirrorMargins was removed from PageSetup class. Please use the MultiplePages property to set MultiplePagesType.

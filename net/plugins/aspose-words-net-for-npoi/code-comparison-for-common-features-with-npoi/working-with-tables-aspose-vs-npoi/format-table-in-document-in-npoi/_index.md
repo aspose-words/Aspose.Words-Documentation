@@ -5,7 +5,7 @@ weight: 20
 url: /net/format-table-in-document-in-npoi/
 ---
 
-## **Aspose.Words - Format Table in Document**
+## Aspose.Words - Format Table in Document
 
 {{% alert color="primary" %}} 
 
@@ -57,7 +57,7 @@ Note that before you apply table properties there must be at least one row prese
   doc.Save("Format Table in Document.doc");
 {{< /highlight >}}
 
-## **NPOI HWPF XWPF - Format Table in Document**
+## NPOI HWPF XWPF - Format Table in Document
 
 **C#**
 
@@ -82,7 +82,7 @@ Note that before you apply table properties there must be at least one row prese
   out1.Close();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Format Table in Document** from any of the below mentioned social coding sites:
 
@@ -90,7 +90,7 @@ Download **Format Table in Document** from any of the below mentioned social cod
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Format%20Table%20in%20Document)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
 
-## **Download Sample Code**
+## Download Sample Code
 
 Download **Format Table in Document** from any of the below mentioned social coding sites:
 

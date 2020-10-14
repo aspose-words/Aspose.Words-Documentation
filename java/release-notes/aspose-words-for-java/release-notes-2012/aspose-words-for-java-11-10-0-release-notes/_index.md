@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 11.10.0](http://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 11.10 Release Notes**
+## Aspose.Words for Java 11.10 Release Notes
 
-### **What's New**
+### What's New
 
 There are 171 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -32,7 +32,7 @@ There are 171 improvements and fixes in this regular monthly release. The most 
 - Multiple improvements in RTL layout.
   For a list of changes to the public API in this release refer to the following article in the documentation. 
 
-## **All Fixes**
+## All Fixes
 
 |Key |Summary |Category |
 | :- | :- | :- |

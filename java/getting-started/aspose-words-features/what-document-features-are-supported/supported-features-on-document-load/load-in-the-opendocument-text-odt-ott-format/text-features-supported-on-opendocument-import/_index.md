@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **Characters**
+## Characters
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -38,7 +38,7 @@ See the following links in the documentation for further information:
 |Symbol |Yes | | |
 |Tab |Yes | |- **ControlChar.Tab**|
 
-## **Breaks**
+## Breaks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 |Page Break |Yes | |- **ControlChar.PageBreak**|
 |Column Break |Yes | |- **ControlChar.ColumnBreak**|
 
-## **General Formatting**
+## General Formatting
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -60,7 +60,7 @@ See the following links in the documentation for further information:
 |Border |N/A | | |
 |Shading |Yes | |- **Font.Shading**|
 
-## **Font**
+## Font
 
 See the following links in the documentation for further information:
 
@@ -73,7 +73,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Font |Yes | | |
 
-## **Underline**
+## Underline
 
 See the following link in the documentation for further information:
 
@@ -84,7 +84,7 @@ See the following link in the documentation for further information:
 |Underline Type |Yes |The underline property is used to both define if the run is underline and with what type of underline is used. |- **Font.Underline**|
 |Underline Color |Yes | |- **Font.UnderlineColor**|
 
-## **Text Effects**
+## Text Effects
 
 See the following link in the documentation for further information:
 
@@ -106,7 +106,7 @@ See the following link in the documentation for further information:
 |Special Hidden |N/A | | |
 |Web Hidden |N/A | | |
 
-## **Character Spacing**
+## Character Spacing
 
 Kerning and Snap to Grid are not saved to ODT.
 

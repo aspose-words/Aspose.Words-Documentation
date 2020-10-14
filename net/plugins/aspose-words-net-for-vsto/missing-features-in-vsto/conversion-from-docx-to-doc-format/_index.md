@@ -46,7 +46,7 @@ Document doc = new Document("Sample.docx");
 doc.Save("Converted.doc",SaveFormat.Doc);
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/813253)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20VSTO%20Word/Aspose.Words%20Features%20missing%20in%20VSTO/Conversion%20between%20different%20Office%20Word%20formats/Conversion%20from%20docx%20to%20doc)

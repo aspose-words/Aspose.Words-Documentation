@@ -15,13 +15,13 @@ For example, CustomXML markup can be wrapped around a paragraph in the document 
 
 {{% /alert %}} 
 
-## **CustomXML**
+## CustomXML
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |CustomXML |N/A | | |
 
-## **Content Controls (Structured Document Tags)**
+## Content Controls (Structured Document Tags)
 
 ODT format does not support CustomXmlMarkup so it cannot be imported from this format.
 
@@ -29,7 +29,7 @@ ODT format does not support CustomXmlMarkup so it cannot be imported from this f
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
 
-## **Smart Tags**
+## Smart Tags
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

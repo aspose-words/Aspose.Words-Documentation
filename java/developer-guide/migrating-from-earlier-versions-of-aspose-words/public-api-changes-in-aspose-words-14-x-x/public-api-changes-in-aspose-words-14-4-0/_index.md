@@ -11,6 +11,6 @@ This page lists public API changes that were introduced in Aspose.Words 14.4.0. 
 
 {{% /alert %}} 
 
-## **Simple Mail Merge now Ignores MailMergeCleanupOptions.RemoveUnusedRegions Option**
+## Simple Mail Merge now Ignores MailMergeCleanupOptions.RemoveUnusedRegions Option
 
 Previously, when there was no mail merge region defined in template document and simple mail merge was performed using an empty data source after specifying MailMergeCleanupOptions.RemoveUnusedRegions, Aspose.Words used to produce an empty output document. This was because simple mail merge is technically a particular case of mail merge with regions where the whole document acts as a single region. Now starting with this release, **simple mail merge** is no more affected by the **MailMergeCleanupOptions.RemoveUnusedRegions** option since it is meaningless to produce empty documents.

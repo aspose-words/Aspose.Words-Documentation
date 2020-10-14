@@ -5,7 +5,7 @@ weight: 50
 url: /net/using-find-and-replace-in-npoi/
 ---
 
-## **Aspose.Words - Using Find and Replace**
+## Aspose.Words - Using Find and Replace
 
 Use Range.Replace to find or replace a particular string within the current range. It returns the number of replacements made, so it is useful for searching strings without replace. An exception is thrown if a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote.
 
@@ -21,7 +21,7 @@ Use Range.Replace to find or replace a particular string within the current rang
             System.Console.ReadKey();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Using Find and Replace** form any of the below mentioned social coding sites:
 

@@ -5,7 +5,7 @@ weight: 10
 url: /java/insert-nested-fields-in-python/
 ---
 
-## **Aspose.Words - Insert Nested Fields**
+## Aspose.Words - Insert Nested Fields
 
 **Python Code**
 
@@ -34,7 +34,7 @@ doc.save(self.dataDir + "InsertNestedFields Out.docx")
     }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Insert Nested Fields (Aspose.Words)** from any of the below mentioned social coding sites:
 

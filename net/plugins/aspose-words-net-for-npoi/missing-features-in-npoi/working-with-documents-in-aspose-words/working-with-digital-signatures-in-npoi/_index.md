@@ -5,7 +5,7 @@ weight: 90
 url: /net/working-with-digital-signatures-in-npoi/
 ---
 
-## **Aspose.Words - Working with Digital Signatures**
+## Aspose.Words - Working with Digital Signatures
 
 A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
 
@@ -28,7 +28,7 @@ else
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Working with Digital Signatures** form any of the below mentioned social coding sites:
 

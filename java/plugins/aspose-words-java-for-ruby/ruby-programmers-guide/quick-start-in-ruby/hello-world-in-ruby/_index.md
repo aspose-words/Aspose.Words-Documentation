@@ -5,7 +5,7 @@ weight: 40
 url: /java/hello-world-in-ruby/
 ---
 
-## **Aspose.Words - Hello World**
+## Aspose.Words - Hello World
 
 To Write anything in the Word Document using Aspose.Words for Java in Ruby, simply invoke print_hello_world() method of HelloWorld module.
 
@@ -30,7 +30,7 @@ builder.writeln("Hello World!")
 document.save(data_dir + "HelloWorld.docx")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Hello World (Aspose.Words)** from any of the below mentioned social coding sites:
 
