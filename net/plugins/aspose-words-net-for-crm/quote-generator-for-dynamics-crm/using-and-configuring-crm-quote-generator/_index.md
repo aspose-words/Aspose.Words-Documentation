@@ -28,7 +28,7 @@ url: /net/using-and-configuring-crm-quote-generator/
 
 - Click Save when you are done with editing Template.
 
-### Generate Quotation from Template
+## Generate Quotation from Template
 
 - Open Quote.
 - Click "Generate Quote" Button from Ribbon. 

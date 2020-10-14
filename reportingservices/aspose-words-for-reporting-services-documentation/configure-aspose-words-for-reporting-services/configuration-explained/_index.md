@@ -65,7 +65,7 @@ Every export format has its own configuration XML element. Therefore, if you wan
 </Render>
 {{< /highlight >}}
 
-### Report level configuration
+## Report level configuration
 
 You can specify configuration settings for an individual report. In this case, the settings you specify will override the corresponding settings specified at the instance level.
 

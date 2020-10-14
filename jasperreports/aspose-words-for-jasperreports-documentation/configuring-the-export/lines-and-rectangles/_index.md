@@ -36,7 +36,7 @@ In JasperReports:
 </bean>
 {{< /highlight >}}
 
-### Exporting Rectangles
+## Exporting Rectangles
 
 To enable the export of rectangles, use the EXPORT_RECTANGLES parameter. 
 

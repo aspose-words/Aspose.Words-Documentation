@@ -24,7 +24,7 @@ To overcome this issue, try to reduce spacing between page elements proportional
    exporter.exportReport();
 {{< /highlight >}}
 
-### JasperServer
+## JasperServer
 
 **XML**
 

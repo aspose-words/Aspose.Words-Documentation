@@ -42,7 +42,7 @@ Below example shows how to import the data from a DataTable and insert it into a
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-.java" >}}
 
-### The Result
+## The Result
 
 The following table is produced by running the code above:
 

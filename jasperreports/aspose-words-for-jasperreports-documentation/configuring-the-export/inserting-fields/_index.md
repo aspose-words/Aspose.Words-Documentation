@@ -24,7 +24,7 @@ To enable field code recognition, use the following parameter:
    exporter.exportReport();
 {{< /highlight >}}
 
-### JasperServer
+## JasperServer
 
 **XML**
 

@@ -27,7 +27,7 @@ You can change the default 1in value by specifying what page margins the exporte
    exporter.exportReport();
 {{< /highlight >}}
 
-### JasperServer
+## JasperServer
 
 **XML**
 

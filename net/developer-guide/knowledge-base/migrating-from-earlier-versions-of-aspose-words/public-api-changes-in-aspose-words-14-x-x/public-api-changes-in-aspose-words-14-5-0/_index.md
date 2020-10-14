@@ -19,6 +19,6 @@ Hyphenation API logic has now been changed in the following way:
 1. A callback has now been added which allows delayed loading of dictionaries.
 1. API now supports loading of Hyphenation dictionary from a stream.
 
-### SaveOptions.UseAntiAliasing Supported for Raster Images During Exporting Document to HTML
+## SaveOptions.UseAntiAliasing Supported for Raster Images During Exporting Document to HTML
 
 When the document is exported to the Html, Mhtml and Epub formats, SaveOptions.UseAntiAliasing option is used for raster images.

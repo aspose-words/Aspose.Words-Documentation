@@ -29,7 +29,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |CustomXML |Yes | | |
 
-### Content Controls (Structured Document Tags)
+## Content Controls (Structured Document Tags)
 
 Represented in Aspose.Words DOM as a StructuredDocumentTag node.
 
@@ -45,7 +45,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |Yes | | |
 
-#### Smart Tags
+## Smart Tags
 
 SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Words DOM as a SmartTag node.
 

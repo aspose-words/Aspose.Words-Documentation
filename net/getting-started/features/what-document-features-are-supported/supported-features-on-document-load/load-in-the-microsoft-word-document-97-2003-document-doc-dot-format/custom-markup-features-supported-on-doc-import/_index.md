@@ -29,7 +29,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |CustomXML |Yes | | |
 
-### Content Controls (Structured Document Tags)
+## Content Controls (Structured Document Tags)
 
 DOC format does not support CustomXmlMarkup so it cannot be imported from this format.
 
@@ -37,7 +37,7 @@ DOC format does not support CustomXmlMarkup so it cannot be imported from this f
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags) |N/A | | |
 
-#### Smart Tags
+## Smart Tags
 
 SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Words DOM as a SmartTag node.
 

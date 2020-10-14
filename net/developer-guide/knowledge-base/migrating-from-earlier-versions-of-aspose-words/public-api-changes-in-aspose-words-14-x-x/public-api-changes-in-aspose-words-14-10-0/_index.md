@@ -32,6 +32,6 @@ public int WebRequestTimeout
 }
 {{< /highlight >}}
 
-### Rendering of DrawingML Textboxes now Supported
+## Rendering of DrawingML Textboxes now Supported
 
 In earlier versions when Aspose.Word encountered DrawingML textbox, it rendered fallback VML Shape textbox. That is why rotation and some other formatting properties were lost. In new version of Aspose.Words, now it renders true DrawingML textboxes. Also, to be able to render DrawingML textboxes, DmlRenderingMode.DrawingML must be set.

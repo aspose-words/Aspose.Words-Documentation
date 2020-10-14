@@ -42,7 +42,7 @@ To execute mail merge with data from an XML data source we will:
 
 It’s really pretty simple. Using Aspose.Words, the mail merge operation will replace the merge fields in the document with the values from the XML file.
 
-### The Code
+## The Code
 
 Make sure in the Word template that you have set up merge fields wherever you want the data inserted.
 
@@ -68,7 +68,7 @@ Below example shows how to create a class implementing IMailMergeDataSource whic
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-mail_merge-XmlMailMergeDataTable-.java" >}}
 
-#### End Result
+## End Result
 
 And here’s the result below, page one of four pages in the output file, one page for each of the four customers in the XML file. The merge fields in the template have been replaced by the customer details in the XML file.
 

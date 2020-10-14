@@ -13,10 +13,10 @@ Aspose.Words for JasperReports allows exporting reports as DOC and DOCX document
 
 {{% /alert %}} 
 
-### Additional Export Formats
+## Additional Export Formats
 
 In addition to Microsoft Word formats, Aspose.Words for JasperReports offers export to RTF, ODT, HTML and TXT. More export formats will be available in the future. 
 
-#### Editable Documents
+## Editable Documents
 
 Aspose.Words for JasperReports exports flow layout documents. This means they consist of “normal” paragraphs, tables and images that are easy to further edit in Microsoft Word, if necessary. The built in JasperReports RTF exporter produces documents consisting of positioned text frames and that makes further editing hard. 

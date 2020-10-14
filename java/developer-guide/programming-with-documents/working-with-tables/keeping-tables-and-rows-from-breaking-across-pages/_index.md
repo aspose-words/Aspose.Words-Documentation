@@ -27,7 +27,7 @@ The result is the contents of each row are no longer split across the page. The 
 
 ![todo:image_alt_text](keeping-tables-and-rows-from-breaking-across-pages_2.png)
 
-### Keeping a Table from Breaking across Pages
+## Keeping a Table from Breaking across Pages
 
 To stop a table from splitting across the page we need to state that we wish the content contained within the table to stay together. In Microsoft Word this involves selecting the table and enabling “Keep with Next” under Paragraph Format. In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have [ParagraphFormat.setKeepWithNext(boolean)](http://www.aspose.com/api/java/words/com.aspose.words/classes/paragraphformat/methods/setKeepWithNext\(boolean\)/) set to true. The exception is the last paragraph in the table which should be set to false. Below example shows how to set a table to stay together on the same page.
 

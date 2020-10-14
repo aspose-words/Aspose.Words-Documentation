@@ -15,7 +15,7 @@ Aspose.Words for JasperReports is the only known solution on the market that mak
 
 {{% /alert %}} 
 
-### Product Overview
+## Product Overview
 
 [JasperReports](http://jasperforge.org/projects/jasperreports) and [JasperServer](http://jasperforge.org/projects/jasperserver) do not have built-in abilities to export reports as Microsoft Word documents (apart from the RTF format that uses positioned items), but using Aspose.Words for JasperReports, you get access to the following additional export formats:
 
@@ -28,7 +28,7 @@ Aspose.Words for JasperReports is the only known solution on the market that mak
 
 Aspose.Words for JasperReports is built on top of Aspose.Words for Java, the world-class library for server-side Microsoft Word documents processing.
 
-#### Use with JasperReports
+## Use with JasperReports
 
 Aspose.Words for JasperReports provides a set of classes that extend the JRAbstractExporter class. Aspose.Words exporter classes can be used in the same way as all other standard exporters in your application.
 

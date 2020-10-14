@@ -35,7 +35,7 @@ See the following links in the documentation for further information:
 |Starting Value |Yes | | |
 |Placement |Yes | |- [FootnoteOptions.Location](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/location)|
 
-### Endnotes
+## Endnotes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

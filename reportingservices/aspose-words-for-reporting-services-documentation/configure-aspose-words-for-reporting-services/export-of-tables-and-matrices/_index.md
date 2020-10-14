@@ -24,7 +24,7 @@ When you export a report to a Microsoft Word document format, you would normally
 
 The drawback of this method is that the table in the generated document might look slightly different from the original report design. For example, in Microsoft Word it is not possible to set different top paddings in table cells belonging to one row, whereas it is possible to do that in RDL. 
 
-### Export Tables and Matrices as Textboxes
+## Export Tables and Matrices as Textboxes
 
 In some rare cases you might find it better to export tables and matrices as a set of textboxes and rectangle shapes (each cell will be represented by a textbox). This could make the generated document look more like the original report, but it could make further manual editing in Microsoft Word harder (the user will have to deal with many adjacent textboxes instead of a single table).
 

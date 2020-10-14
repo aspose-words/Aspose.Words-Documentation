@@ -31,7 +31,7 @@ The report settings screen is displayed. The following options are available:
 1. Click **Save Report** to build and save the report, or
 1. Click **Cancel** to go back to the document library.
 
-### The Report Settings Screen
+## The Report Settings Screen
 
 After saving the report, another screen is presented. It lists the options and parameters used. You can return to the library where the report template is located, go to the destination library or use the hyperlink to open the saved report.
 
