@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.8.0. 
 
 {{% /alert %}} 
 
-### Document.RemoveExternalSchemaReferences is made Public.
+## Document.RemoveExternalSchemaReferences is made Public.
 
 Use **Document.RemoveExternalSchemaReferences** to remove XSD references from the document
 

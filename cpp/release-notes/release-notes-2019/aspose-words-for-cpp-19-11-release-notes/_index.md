@@ -120,7 +120,7 @@ The missing features will be added in future releases.
 
 This section lists public API changes that were introduced in Aspose.Words 19.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-##### Added support for Web extension elements
+### Added support for Web extension elements
 
 Following public classes and enums were added.
 
@@ -561,7 +561,7 @@ builder.Document.Save("HorizontalRuleFormat.docx");
 
 Related issue: WORDSNET-19153
 
-##### Added a new public setter for a Document.VbaProject
+#### Added a new public setter for a Document.VbaProject
 
 {{< highlight csharp >}}
 /// <summary>

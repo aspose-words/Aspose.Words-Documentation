@@ -5,7 +5,7 @@ weight: 20
 url: /net/using-and-configuring-crm-automerge/
 ---
 
-### Create Template and Upload
+## Create Template and Upload
 
 Below are the steps to create and upload Template in CRM
 

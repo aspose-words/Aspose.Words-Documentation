@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.6.0. 
 
 {{% /alert %}} 
 
-### Added a Method to Remove Unused Resources from a Document
+## Added a Method to Remove Unused Resources from a Document
 
 A new member has been added to the public API to remove unused resources from a loaded document. Use **Document.RemoveUnusedStyles** to delete any styles or list that are included in the document but are not use.
 

@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.3.0. 
 
 {{% /alert %}} 
 
-### New HtmlFixed Save Format Introduced
+## New HtmlFixed Save Format Introduced
 
 Save any document to fixed HTML based format. All elements in this output are absolutely positioned that allows displaying document in browser exactly as it looks in Microsoft Word.
 

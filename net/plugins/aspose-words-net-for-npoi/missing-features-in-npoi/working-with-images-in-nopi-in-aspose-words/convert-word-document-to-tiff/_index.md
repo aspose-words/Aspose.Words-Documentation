@@ -13,7 +13,7 @@ To convert a Word document to TIFF simply invoke the Document.Save method and sp
 
 The code sample below converts document's pages from DOC to TIFF.
 
-##### Example
+## Example
 
 **C#**
 

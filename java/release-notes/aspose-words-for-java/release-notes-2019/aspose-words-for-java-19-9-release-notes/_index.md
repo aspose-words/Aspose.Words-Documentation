@@ -313,7 +313,7 @@ public bool IsLinkToContent
 {{< /highlight >}}
 
 
-##### Use Case. Configuring “Link to content” Custom Property:
+#### Use Case. Configuring “Link to content” Custom Property:
 
 {{< highlight csharp >}}
 Document doc = new Document(@"test.docx");

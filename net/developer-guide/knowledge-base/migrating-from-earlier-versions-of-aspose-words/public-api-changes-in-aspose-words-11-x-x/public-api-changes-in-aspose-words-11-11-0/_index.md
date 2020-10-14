@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 11.11.0.
 
 {{% /alert %}} 
 
-### EMF+ Text Wrapping Rendering Improvement
+## EMF+ Text Wrapping Rendering Improvement
 
 Text wrapping is now supported in EMF+ metafiles. In previous versions any metafiles with this feature would fall back on standard EMF rendering thus the output of these images in this release is improved.
 

@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.7.0. 
 
 {{% /alert %}} 
 
-### Font.AutoColor Property Added
+## Font.AutoColor Property Added
 
 WORDSNET-2768 is now resolved. Aspose.Words now can determine actual color of text output that will be used for the "auto color" using the following property:
 

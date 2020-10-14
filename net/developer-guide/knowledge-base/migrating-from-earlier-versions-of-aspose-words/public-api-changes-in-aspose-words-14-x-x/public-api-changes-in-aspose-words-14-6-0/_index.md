@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.6.0. 
 
 {{% /alert %}} 
 
-### AddFontSubstitutes, GetFontSubstitutes and SetFontSubstitutes Methods Added to FontSettings
+## AddFontSubstitutes, GetFontSubstitutes and SetFontSubstitutes Methods Added to FontSettings
 
 Previously font substitution mechanism (fonts to be used if some font is missing in system) was hard coded inside Aspose.Words code base and there was no way in public API to manually customize it. Now, following three new public static methods are added in FontSettings class:
 

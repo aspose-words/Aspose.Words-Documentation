@@ -5,7 +5,7 @@ weight: 60
 url: /net/create-a-word-processing-document/
 ---
 
-### OpenXML SDK
+## OpenXML SDK
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";

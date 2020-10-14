@@ -50,7 +50,7 @@ Aspose.Words for Java supports the following Java versions:
 
 Aspose.Words for Java depends upon the [Java Advanced Imaging (JAI) package](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-client-419417.html) from Oracle in order to process some image formats such as TIFF.
 
-#### Installing Native JAI and ImageIO on Windows
+### Installing Native JAI and ImageIO on Windows
 
 1. Download **JAI 1.1.3**. At the time of writing only the 32-bit version of the installer is available, so if you are using a JDK, you will want to download [Jai-1_1_3-lib-windows-i586-jdk.exe](http://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jdk.exe), and if you are using a JRE, you will want to download [Jai-1_1_3-lib-windows-i586-jre.exe](http://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jre.exe).
 1. Run the installer and point it to the directory where JDK/JRE is installed.

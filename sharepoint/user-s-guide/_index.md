@@ -5,7 +5,7 @@ weight: 20
 url: /sharepoint/user-s-guide/
 ---
 
-###### This section includes the following topics:
+## This section includes the following topics:
 
 - [Reporting](/words/sharepoint/reporting/)
 - [Document Conversion](/words/sharepoint/document-conversion/)

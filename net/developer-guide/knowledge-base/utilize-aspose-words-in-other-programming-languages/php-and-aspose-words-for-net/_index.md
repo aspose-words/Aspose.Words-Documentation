@@ -5,7 +5,7 @@ weight: 80
 url: /net/php-and-aspose-words-for-net/
 ---
 
-#### Prerequisites
+## Prerequisites
 
 {{% alert color="primary" %}} 
 
@@ -15,7 +15,7 @@ Also See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-wor
 
 {{% /alert %}} 
 
-#### Hello World!
+### Hello World!
 
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 

@@ -17,7 +17,7 @@ Aspose.Words for Reporting Services supports the following technologies:
 
 {{% /alert %}} 
 
-#### Microsoft SQL Server Reporting Services
+## Microsoft SQL Server Reporting Services
 
 After the simple installation of Aspose.Words for Reporting Services onto a server running Microsoft SQL Server Reporting Services, your users can get access to the new report formats.
 
@@ -32,7 +32,7 @@ Aspose.Words for Reporting Services supports the following SQL Server versions:
 - Microsoft SQL Server 2017 Reporting Services (64-bit)
 - Microsoft SQL Server 2019 Reporting Services (64-bit)
 
-#### Microsoft Report Viewer
+### Microsoft Report Viewer
 
 When you are developing a .NET application that uses Microsoft Report Viewer, you can enable the new report formats by referencing Aspose.Words for Reporting Services and deploying it with your application.
 

@@ -5,7 +5,7 @@ weight: 30
 url: /jasperreports/why-aspose-words-for-jasperreports/
 ---
 
-#### Support for Popular Microsoft Word Formats
+## Support for Popular Microsoft Word Formats
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ Aspose.Words for JasperReports allows exporting reports as DOC and DOCX document
 
 {{% /alert %}} 
 
-#### Additional Export Formats
+### Additional Export Formats
 
 In addition to Microsoft Word formats, Aspose.Words for JasperReports offers export to RTF, ODT, HTML and TXT. More export formats will be available in the future. 
 

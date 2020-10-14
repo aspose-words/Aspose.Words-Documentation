@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 14.3.0. 
 
 {{% /alert %}} 
 
-### Best Fit Position of Data Labels Partially Supported
+## Best Fit Position of Data Labels Partially Supported
 
 Starting from 14.3.0, Best Fit position of data labels in Pie chart is partially supported. In previous versions labels with best fit position were rendered as if they have inside end position. Currently we use a little modified Open Office algorithm to set best fit position of data labels. The algorithm is as follows:
 

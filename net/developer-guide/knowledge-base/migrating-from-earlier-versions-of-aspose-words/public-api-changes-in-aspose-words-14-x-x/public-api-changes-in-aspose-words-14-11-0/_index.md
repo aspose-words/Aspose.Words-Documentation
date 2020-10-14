@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.11.0.
 
 {{% /alert %}} 
 
-### BuiltInDocumentProperties.NameOfApplication Property Added
+## BuiltInDocumentProperties.NameOfApplication Property Added
 
 Earlier the field "NameOfApplication" in document properties contained product name with version number. Now version number is removed from this field.
 

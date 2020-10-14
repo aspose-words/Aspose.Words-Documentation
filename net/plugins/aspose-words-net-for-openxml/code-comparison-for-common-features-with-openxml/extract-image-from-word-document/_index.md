@@ -5,7 +5,7 @@ weight: 200
 url: /net/extract-image-from-word-document/
 ---
 
-### OpenXML
+## OpenXML
 
 {{< highlight csharp >}}
   string FilePath = @"..\..\..\..\Sample Files\";

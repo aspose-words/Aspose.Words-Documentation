@@ -144,7 +144,7 @@ public string Description
 }
 {{< /highlight >}}
 
-###### Usage
+#### Usage
 
 {{< highlight csharp >}}
 Document document = new Document(myDir + "Test.docx");
@@ -293,7 +293,7 @@ namespace Aspose.Words.Drawing.Charts
 }
 {{< /highlight >}}
 
-###### UC
+#### UC
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -336,7 +336,7 @@ yAxis.Scaling.Maximum = new AxisBound(700);
 doc.Save(dir + "TestAxis.docx");
 {{< /highlight >}}
 
-###### UC to set date/time values to axis properties
+##### UC to set date/time values to axis properties
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -450,7 +450,7 @@ public LanguagePreferences LanguagePreferences
 
 The use cases will be as follows.
 
-##### UC: Add Japanese language to the editing languages:
+#### UC: Add Japanese language to the editing languages:
 
 {{< highlight csharp >}}
 LoadOptions loadOptions = new LoadOptions();
@@ -569,7 +569,7 @@ When this option is enabled, AW inserts Unicode Character 'RIGHT-TO-LEFT MARK' (
 
 In addition, unlike Word where this option is set to **false** by default, in AW this option is set by default to **true**.
 
-##### UC: Export to TXT format, no adding RTL marks before each BiDi Run:
+#### UC: Export to TXT format, no adding RTL marks before each BiDi Run:
 
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");

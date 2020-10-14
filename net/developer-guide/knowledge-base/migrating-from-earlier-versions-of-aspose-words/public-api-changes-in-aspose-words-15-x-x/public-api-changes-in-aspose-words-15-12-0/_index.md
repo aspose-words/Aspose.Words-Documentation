@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 15.12.0.
 
 {{% /alert %}} 
 
-### Read-only access to ActiveX Control properties
+## Read-only access to ActiveX Control properties
 
 WORDSNET-1877 was partially fixed and now you can read properties of Microsoft Forms 2.0 OLE controls. New public property OleControl is exposed in [OleFormat](http://www.aspose.com/api/java/words/com.aspose.words/classes/OleFormat) class.
 

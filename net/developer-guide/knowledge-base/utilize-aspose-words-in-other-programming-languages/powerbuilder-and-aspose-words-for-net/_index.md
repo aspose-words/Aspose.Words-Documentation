@@ -5,7 +5,7 @@ weight: 70
 url: /net/powerbuilder-and-aspose-words-for-net/
 ---
 
-#### Prerequisites
+## Prerequisites
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ See [Use Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-
 
 {{% /alert %}} 
 
-#### Hello World!
+### Hello World!
 
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
@@ -81,7 +81,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 
 #Save a document in a variety of formats.
 
-#SaveFormat.Doc = 1, therefore 1 is passed as a parameter to indicate save format.
+###### = 1, therefore 1 is passed as a parameter to indicate save format.
 
 doc.Save_2("C:\Temp\out.doc", 1);
 doc.Save_2("C:\Temp\out.txt", 2);

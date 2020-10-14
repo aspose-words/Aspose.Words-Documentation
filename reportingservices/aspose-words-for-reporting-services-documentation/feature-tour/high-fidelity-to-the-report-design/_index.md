@@ -11,7 +11,7 @@ Aspose.Words for Reporting Services exports reports as Microsoft Word documents 
 
 {{% /alert %}} 
 
-#### AWesomeExport
+## AWesomeExport
 
 Aspose.Words for Reporting Services employs a smart technology known as AWesomeExport to produce “editable” Microsoft Word documents. The goal of the AWesomeExport technology is to balance editability of the exported document against the accuracy of the RDL to Microsoft Word conversion.
 
@@ -20,7 +20,7 @@ With AWesomeExport you can choose between two types of document layout:
 - Flow Layout (default) 
 - Positioned Layout 
 
-#### Flow Layout
+### Flow Layout
 
 The *Flow Layout* produces most “editable” Microsoft Word documents that consist of simple paragraphs, tables, section breaks, etc as if an office worker created the document in Microsoft Word.
 

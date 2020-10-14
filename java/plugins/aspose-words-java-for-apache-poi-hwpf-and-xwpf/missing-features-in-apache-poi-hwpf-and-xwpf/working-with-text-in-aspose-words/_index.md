@@ -5,7 +5,7 @@ weight: 20
 url: /java/working-with-text-in-aspose-words/
 ---
 
-###### This section includes the following topics: 
+## This section includes the following topics: 
 
 - [Extract Comments from Document](https://docs.aspose.com/words/java/extract-comments-from-document/)
 - [Remove Comments from Document](https://docs.aspose.com/words/java/remove-comments-from-document/)

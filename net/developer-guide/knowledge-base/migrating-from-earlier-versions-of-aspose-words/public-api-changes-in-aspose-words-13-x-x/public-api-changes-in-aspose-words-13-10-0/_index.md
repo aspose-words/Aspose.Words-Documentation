@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.10.0.
 
 {{% /alert %}} 
 
-### AltText Exported for Tables and Pictures when saving to PDF
+## AltText Exported for Tables and Pictures when saving to PDF
 
 Alternative text is now added to table and picture elements when saving to PDF. Alternative text can be set for these elements from inside a word document and can also be set via the Aspose.Words API.
 

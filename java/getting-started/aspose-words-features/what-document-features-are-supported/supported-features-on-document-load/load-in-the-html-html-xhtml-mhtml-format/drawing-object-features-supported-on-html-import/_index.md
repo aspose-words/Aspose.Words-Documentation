@@ -169,7 +169,7 @@ See the following links in the documentation for further information:
 |Hyperlink on Shape|Yes|Imported from parent &lt;a&gt; element of the &lt;img&gt; element.|- **Shape.HRef**|
 |Watermark|N/A| | |
 
-##### WordArt
+### WordArt
 
 WordArt is imported as a Shape object in Aspose.Words. This class provides properties to extract and modify the properties of a WordArt object.
 

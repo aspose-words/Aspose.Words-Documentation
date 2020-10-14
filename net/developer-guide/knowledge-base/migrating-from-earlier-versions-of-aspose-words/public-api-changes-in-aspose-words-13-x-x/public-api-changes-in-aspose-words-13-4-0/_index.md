@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.4.0. 
 
 {{% /alert %}} 
 
-### Digitally Signing DOC and DOCX Introduced
+## Digitally Signing DOC and DOCX Introduced
 
 The members to digitally sign an existing DOC or DOCX document is exposed in a new static class **DigitalSignatureUtil**. The reason for these members being exposed on a separate class is because this is the only way to preserve existing digital signatures already signed on a document.
 

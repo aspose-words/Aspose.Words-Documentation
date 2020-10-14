@@ -5,7 +5,7 @@ weight: 80
 url: /jasperreports/configuring-the-export/
 ---
 
-###### This section includes the following topics: 
+## This section includes the following topics: 
 
 - [Lines and Rectangles](/words/jasperreports/lines-and-rectangles/)
 - [Spacing Factor](/words/jasperreports/spacing-factor/)

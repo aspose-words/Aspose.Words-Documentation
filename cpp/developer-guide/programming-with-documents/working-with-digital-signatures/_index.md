@@ -41,7 +41,7 @@ A generated PDF document can be signed during saving. Currently only PDF documen
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-DigitallySignedPdfUsingCertificateHolder-DigitallySignedPdfUsingCertificateHolder.cpp" >}}
 
 
-#### Access and Verify Digital Signatures
+### Access and Verify Digital Signatures
 
 The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signature_collection/#abac52a9b54b140ab7ee3404f13a85eaf) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
 

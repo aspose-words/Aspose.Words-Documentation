@@ -248,7 +248,7 @@ public enum Dml3DEffectsRenderingMode
 {{< /highlight >}}
 
 
-##### Use Case:
+#### Use Case:
 
 **.NET**
 
@@ -604,7 +604,7 @@ The following public property was added to FindReplaceOptions class:
 public bool UseSubstitutions
 {{< /highlight >}}
 
-##### Use Case. Explains how to recognize and use substitutions within replacement patterns:
+#### Use Case. Explains how to recognize and use substitutions within replacement patterns:
 
 **.NET**
 

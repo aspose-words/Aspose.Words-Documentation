@@ -13,7 +13,7 @@ This article describes the changes in the new API and how to easily fix your cod
 
 {{% /alert %}} 
 
-#### New Defaults when Creating Tables
+## New Defaults when Creating Tables
 
 The new API boasts impressive new features with working for tables as well as some changes to the defaults used when creating new tables. These changes bring how a default table is constructed more in line with how Microsoft Word behaves. This allows for a more easily migration for new users, but may break the layout of tables built in existing code.
 
@@ -27,11 +27,11 @@ The new API boasts impressive new features with working for tables as well as so
 |**CellFormat.PreferredWidth** |*(N/A)* |*Auto* |Cell preferred width has been made public and is used to control the width of individual cells.By default each cell is automatically sized based on the other width information of the table. |
 These changes may affect the layout of some tables that are created programmatically using Aspose.Words in your application. 
 
-#### How to Fix a Table which Looks Different using the New Version
+### How to Fix a Table which Looks Different using the New Version
 
 The main differences in the new version that will cause the behavior or appearance of tables will be caused by the new defaults applied to tables created programmatically. Depending on the layout of your tables you may or may not encounter any problems.
 
-##### Fixing Table Layout
+#### Fixing Table Layout
 
 Most tables that are generated programmatically will be affected by the changes to the new table API. In the newer version of Aspose.Words you will find that the table takes up much more horizontal space compared with previous versions by stretching to the width of the page. 
 

@@ -11,7 +11,7 @@ Aspose.Words for JasperReports (from v2.6.0) can be used with JasperServer REST 
 
 {{% /alert %}} 
 
-#### Use Aspose exporters using REST API
+## Use Aspose exporters using REST API
 
 Here is a description how to run report using REST API:
 

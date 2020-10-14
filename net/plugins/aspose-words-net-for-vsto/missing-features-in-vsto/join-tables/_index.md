@@ -13,7 +13,7 @@ In order to manipulate a table to split or join with another table we simply nee
 
 {{% /alert %}} 
 
-##### Example
+## Example
 
 *Shows how to combine the rows from two tables into one*
 

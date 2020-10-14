@@ -41,7 +41,7 @@ A generated PDF document can be signed during saving. Currently only PDF documen
 | :- |
 |![todo:image_alt_text](http://i.imgur.com/ThH0zHa.png)|
 
-#### Access and Verify Digital Signatures
+### Access and Verify Digital Signatures
 
 A document can have multiple digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
 

@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 16.2.0. 
 
 {{% /alert %}} 
 
-### Fast Extraction of Plain Text from Flow-Format Documents Supported
+## Fast Extraction of Plain Text from Flow-Format Documents Supported
 
 In order to support such usecases as fast search and indexing of documents, the following static methods were exposed on the Document class:
 

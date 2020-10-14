@@ -13,7 +13,7 @@ Sometimes it is necessary to detect the format of a document file before opening
 
 For example, it is known that Crystal Reports often outputs documents in RTF format, but gives them the .doc extension . Therefore, if you are not sure what the actual content of the file is and want to avoid throwing an exception, you can use the [FileFormatUtil.DetectFileFormat](https://apireference.aspose.com/words/net/aspose.words/fileformatutil/methods/detectfileformat/index) method. This is a static (shared) method that accepts either a file name or stream object that contains the file data. The method returns a [FileFormatInfo](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo) object that contains the detected information about the file type.
 
-##### Example Shows how to use the FileFormatUtil class to detect the document format and other features of the document.
+## Example Shows how to use the FileFormatUtil class to detect the document format and other features of the document.
 
 **C#**
 

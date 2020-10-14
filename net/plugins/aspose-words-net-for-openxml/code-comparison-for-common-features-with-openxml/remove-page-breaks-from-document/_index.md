@@ -5,7 +5,7 @@ weight: 170
 url: /net/remove-page-breaks-from-document/
 ---
 
-### OpenXML
+## OpenXML
 
 Below is the code example for removing page breaks from MS Word Document.
 

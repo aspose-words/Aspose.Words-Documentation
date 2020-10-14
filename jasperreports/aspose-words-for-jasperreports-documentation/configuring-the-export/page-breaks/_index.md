@@ -17,11 +17,11 @@ The "section breaks" mode is chosen as default because there may be headers and 
 
 {{% /alert %}} 
 
-### Normal Page Breaks
+## Normal Page Breaks
 
 You can change the page breaks inserted to regular (not section) breaks by using the following parameter: 
 
-#### JasperReports
+### JasperReports
 
 **Java**
 

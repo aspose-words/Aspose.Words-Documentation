@@ -30,7 +30,7 @@ To build a table in a document from the data found in a DataTable:
 
 ![todo:image_alt_text](how-to-build-a-table-from-a-datatable_1.png)
 
-### The Code
+## The Code
 
 The following code demonstrates how to achieve this in Aspose.Words. The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder’s current position and formatting. Below example provides a method to import data from the DataTable and insert it into a new table using the DocumentBuilder.
 

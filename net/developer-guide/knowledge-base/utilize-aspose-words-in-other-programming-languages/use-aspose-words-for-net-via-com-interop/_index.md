@@ -21,7 +21,7 @@ The information in this topic applies to scenarios where you want to use Aspose.
 
 {{% /alert %}} 
 
-### Working with COM Interop
+## Working with COM Interop
 
 Aspose.Words for .NET executes under the control of the .NET Framework and this is called managed code. Code written in all of the above languages runs outside the .NET Framework and it is called unmanaged code. Interaction between unmanaged code and Aspose.Words occurs via the .NET facility called COM Interop.
 
@@ -33,7 +33,7 @@ Here are the topics that you will eventually need to master:
 - Working with COM objects exposed by .NET COM Interop. See [Interoperating With Unmanaged Code](http://msdn.microsoft.com/en-us/library/sd10k43k.aspx) and [Exposing .NET Framework Components to COM](http://msdn.microsoft.com/en-us/library/zsfww439%28v=vs.110%29.aspx) in MSDN.
 - Aspose.Words document object model. See Aspose.Words [Developer Guide](https://docs.aspose.com/words/net/developer-guide/) and [API Reference](https://apireference.aspose.com/words/net).
 
-#### Register Aspose.Words for .NET with COM Interop
+### Register Aspose.Words for .NET with COM Interop
 
 After installation, you need to register Aspose.Words for COM Interop using the regasm.exe utility.
 

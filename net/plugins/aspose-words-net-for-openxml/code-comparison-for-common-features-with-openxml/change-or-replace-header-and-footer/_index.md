@@ -5,7 +5,7 @@ weight: 70
 url: /net/change-or-replace-header-and-footer/
 ---
 
-### OpenXML SDK
+## OpenXML SDK
 
 {{< highlight csharp >}}
 

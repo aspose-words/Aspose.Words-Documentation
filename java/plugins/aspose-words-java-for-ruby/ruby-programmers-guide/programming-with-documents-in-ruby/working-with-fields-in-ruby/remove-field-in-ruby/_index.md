@@ -23,7 +23,7 @@ doc = Rjb::import('com.aspose.words.Document').new(data_dir + "Field.RemoveField
 
 #ExId:DocumentBuilder_RemoveField
 
-#ExSummary:Removes a field from the document.
+### a field from the document.
 
 field = doc.getRange().getFields().get(0)
 \# Calling this method completely removes the field from the document.

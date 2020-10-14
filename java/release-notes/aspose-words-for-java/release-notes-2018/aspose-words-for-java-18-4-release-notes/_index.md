@@ -171,7 +171,7 @@ public OdtSaveOptions(String password)
 public String Password
 {{< /highlight >}}
 
-##### UC1: Load encrypted ODT document.
+#### UC1: Load encrypted ODT document.
 
 {{< highlight csharp >}}
 Document doc = new Document("\\encrypted.odt", new LoadOptions("password"));
@@ -230,7 +230,7 @@ public boolean isLayoutInCell
 
 The property may be helpful for shapes (mainly VML) that are placed into a table cell but are needed to position without binding to the cell.
 
-###### Usage
+#### Usage
 
 {{< highlight csharp >}}
 Document doc = new Document(dataDir + "LayoutInCell.docx");

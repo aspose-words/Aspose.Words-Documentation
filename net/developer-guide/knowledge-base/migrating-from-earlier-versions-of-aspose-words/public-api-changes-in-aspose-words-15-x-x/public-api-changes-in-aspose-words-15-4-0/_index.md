@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.4.0. 
 
 {{% /alert %}} 
 
-### HtmlFixedSaveOptions.CssClassNamesPrefix Public Property Added
+## HtmlFixedSaveOptions.CssClassNamesPrefix Public Property Added
 
 We have added new public property to HtmlFixedSaveOptions class:
 

@@ -5,7 +5,7 @@ weight: 20
 url: /net/how-to-migrate-to-aspose-words-9-2-or-higher/
 ---
 
-#### Overview of the Changes
+## Overview of the Changes
 
 {{% alert color="primary" %}} 
 
@@ -20,7 +20,7 @@ Due to these changes you may need to fix certain parts of code when upgrading yo
 
 **Note:** No functionality has been lost from the previous versions through the refactoring of the API. All of the same functionality remains intact, only access to some members has been shifted, renamed or merged into other methods. 
 
-#### Possible Signs Your Code Requires Changes
+### Possible Signs Your Code Requires Changes
 
 When migrating from a previous version to a newer version implementing the refactored API, attempting to build your project may return compile time errors, such as:
 

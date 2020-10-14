@@ -229,7 +229,7 @@ public TxtListIndentation ListIndentation
 {{< /highlight >}}
 
 
-##### UseCase1: Use one tab character per level for list indentation:
+#### UseCase1: Use one tab character per level for list indentation:
 
 
 {{< highlight csharp >}}
@@ -330,7 +330,7 @@ public ParagraphAlignment TickLabelAlignment
 
 When axis tick labels are multi-line, MS Word aligns them to the center by default. The property allows for changing this behaviour.
 
-##### UseCase:
+#### UseCase:
 
 
 {{< highlight csharp >}}

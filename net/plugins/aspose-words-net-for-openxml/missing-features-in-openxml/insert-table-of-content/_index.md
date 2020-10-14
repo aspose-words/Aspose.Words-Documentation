@@ -11,7 +11,7 @@ A table of contents in a Word document can be built in a number of ways and form
 
 The default switches that are used in a TOC inserted in Microsoft Word are **“\o “1-3 \h \z \u”**. Descriptions of these switches as well as a list of supported switches can be found later in the article. You can either use that guide obtain the correct switches or if you already have a document containing the similar TOC that you want you can show field codes (*ALT+F9*) and copy the switches directly from the field.
 
-##### Example
+## Example
 
 *Shows how to insert a Table of Contents field into a document.*
 

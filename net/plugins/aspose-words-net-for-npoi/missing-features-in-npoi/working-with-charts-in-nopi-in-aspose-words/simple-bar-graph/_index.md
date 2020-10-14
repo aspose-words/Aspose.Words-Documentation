@@ -7,7 +7,7 @@ url: /net/simple-bar-graph/
 
 The code sample below insert basic **Bar Graph** in document using [DocumentBuilder](http://www.aspose.com/api/net/words/aspose.words/documentbuilder) class
 
-##### Example
+## Example
 
 **C#**
 

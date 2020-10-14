@@ -5,7 +5,7 @@ weight: 180
 url: /net/remove-section-breaks-from-document/
 ---
 
-### OpenXML
+## OpenXML
 
 Below is the code for removing Section Breaks from MS Word Document using OpenXML SDK.
 

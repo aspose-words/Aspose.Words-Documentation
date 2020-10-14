@@ -5,7 +5,7 @@ weight: 10
 url: /net/using-and-configuring-crm-document-generator/
 ---
 
-### Create Template using word
+## Create Template using word
 
 - Open Microsoft Word and Create the Template.
 - For Adding Dynamic fields, in Microsoft Word insert field and select Mail Merge Field. 

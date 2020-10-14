@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.1.0. 
 
 {{% /alert %}} 
 
-### HtmlSaveOptions.ExportRoundtripInformation Property Added
+## HtmlSaveOptions.ExportRoundtripInformation Property Added
 
 We have now added a new public property to HtmlSaveOptions class:
 

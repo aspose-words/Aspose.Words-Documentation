@@ -18,7 +18,7 @@ If you want to convert all files in a folder, you can do so either by selecting 
 ![todo:image_alt_text](convert-all-files-in-a-folder_2.png)
 
 
-### Using Server Ribbon Button under SharePoint 2010/2013/2016
+## Using Server Ribbon Button under SharePoint 2010/2013/2016
 
 Under SharePoint 2010/2013/2016, the server ribbon button is available instead of the custom action menu item used with SharePoint 2007 / WSS 3.
 

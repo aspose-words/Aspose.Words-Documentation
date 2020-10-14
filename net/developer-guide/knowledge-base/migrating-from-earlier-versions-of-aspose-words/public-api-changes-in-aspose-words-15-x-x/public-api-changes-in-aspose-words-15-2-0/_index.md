@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.2.0. 
 
 {{% /alert %}} 
 
-### Aspose.Words Drawing API Changes
+## Aspose.Words Drawing API Changes
 
 To make your life easier, when you work with graphic objects, Aspose.Words introduces new API changes.
 

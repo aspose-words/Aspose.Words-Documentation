@@ -7,7 +7,7 @@ url: /net/convert-document-to-mhtml-email/
 
 **Aspose.Words** can save any document in **MHTML** (Web Archive) format. This makes it very easy to use **Aspose.Words** and **Aspose.Email** together to generate and send email messages with rich content. For example, you can load a predefined DOC, OOXML or RTF document into Aspose.Words, fill it with data, save as MHTML and then email using Aspose.Email.
 
-##### Example
+## Example
 
 *Below is the code Example for conversion to MHTML Email*
 

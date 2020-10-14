@@ -119,7 +119,7 @@ public bool UpdateLastPrintedProperty
 
 It's true by default for FixedPageSaveOptions.
 
-##### Use Case:
+#### Use Case:
 
 **.NET**
 
@@ -217,7 +217,7 @@ public bool IgnoreFields
 {{< /highlight >}}
 
 
-##### Use Case 1. Explains how to ignore text inside delete revisions:
+#### Use Case 1. Explains how to ignore text inside delete revisions:
 
 **.NET**
 

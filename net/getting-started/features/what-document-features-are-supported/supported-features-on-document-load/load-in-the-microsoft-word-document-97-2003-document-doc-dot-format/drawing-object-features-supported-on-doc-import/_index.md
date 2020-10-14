@@ -19,7 +19,7 @@ Almost all properties that deal with object positioning use points as a unit of 
 
 {{% /alert %}} 
 
-##### Images
+## Images
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
@@ -65,7 +65,7 @@ See the following links in the documentation for further information:
 |Cropping |Yes | |<p>- [ImageData.CropLeft](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropleft.html) </p><p>- [ImageData.CropRight](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropright.html) </p><p>- [ImageData.CropTop](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/croptop.html) </p><p>- [ImageData.CropBottom](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropbottom.html)</p>|
 |Alternative text |Yes | |- **Shape.AltText**|
 
-##### Image Recoloring
+### Image Recoloring
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -73,7 +73,7 @@ See the following links in the documentation for further information:
 |Contrast |Yes | |- [ImageData.Contrast](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/contrast.html)|
 |Recolor |Yes | | |
 
-##### Textboxes
+#### Textboxes
 
 See the following link in the documentation for further information:
 

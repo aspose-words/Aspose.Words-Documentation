@@ -9,7 +9,7 @@ In Aspose.Words the [**DocumentBuilder.InsertImage**](http://www.aspose.com/api/
 
 Using [Shape ](http://www.aspose.com/api/net/words/aspose.words.drawing/shape)class you can create or modify shapes in a Microsoft Word document. ([ConvertUtil ](http://www.aspose.com/api/net/words/aspose.words/convertutil)Provides helper functions to convert between various measurement units, like Convert [inches to points](http://www.aspose.com/api/net/words/aspose.words/convertutil/methods/inchtopoint))
 
-##### Example
+## Example
 
 **C#**
 

@@ -9,7 +9,7 @@ Aspose is renowned for its free and unlimited technical support provided directl
 
 ## Getting Support
 
-#### Forums
+### Forums
 
 [Aspose's Support Forums](https://forum.aspose.com/) is the place not only to resolve technical issues, but to participate in discussions with the vibrant and growing community of Aspose users. Currently there are over 190,000 users registered at the Aspose website.
 

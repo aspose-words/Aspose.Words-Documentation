@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 11.8.0. 
 
 {{% /alert %}} 
 
-#### 1. ResourceLoading Callback is Extended to be Called when any External Resources is Loaded
+## 1. ResourceLoading Callback is Extended to be Called when any External Resources is Loaded
 
 A class implementing [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback) is used to control how resources such as images or CSS are handled when they need to be downloaded from an external source i.e a network or internet. In previous versions of Aspose.Words this callback only worked when loading a new HTML document. Now this feature has been extended for all formats.
 
@@ -26,7 +26,7 @@ Also other situations when external resources are used have been included in the
 |**Export to fixed paged formats (PDF, image etc)**|If an image is linked and not stored in the document, it is retrieved during conversion so it can be present in the rendered output. In some situations you may wish to skip this happening in order to speed up conversion times. |
 |**Update of INCLUDEPICTURE fields**|When this field is preserved in the document object model by using the [LoadOptions.PreserveIncludePictureField](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/preserveincludepicturefield) property, this field can be linked to an external path and updating fields could cause loading of external data. |
 
-#### 2. Document.ResourceLoadingCallback Property is now Public
+### 2. Document.ResourceLoadingCallback Property is now Public
 
 A callback that is set using [LoadOptions.ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/resourceloadingcallback) can be removed or changed after the document is loaded by using the [Document.ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/resourceloadingcallback) property.
 

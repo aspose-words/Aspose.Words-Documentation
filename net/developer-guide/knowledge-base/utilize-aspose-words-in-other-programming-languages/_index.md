@@ -5,7 +5,7 @@ weight: 30
 url: /net/utilize-aspose-words-in-other-programming-languages/
 ---
 
-###### This section includes the following topics: 
+## This section includes the following topics: 
 
 - [Choose the Platform and Interoperability Technology](/words/net/choose-the-platform-and-interoperability-technology/)
 - [Use Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-for-net-via-com-interop/)

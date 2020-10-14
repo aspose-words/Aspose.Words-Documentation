@@ -7,7 +7,7 @@ url: /net/insert-hyperlink/
 
 The code sample below inserts **hyperlink** in a Word document using **DocumentBuilder** class
 
-##### Example
+## Example
 
 **C#**
 

@@ -108,7 +108,7 @@ Often a specific line of text is designated for the TOC and is marked with a TC 
 
 ## Modify a Table of Contents
 
-#### Change the Formatting of Styles
+### Change the Formatting of Styles
 
 The formatting of entries in the TOC does not use the original styles of the marked entries, instead, each level is formatted using an equivalent TOC style. For example, the first level in the TOC is formatted with the **TOC1** style, the second level formatted with the **TOC2** style and so on. This means that to change the look of the TOC these styles must be modified. In Aspose.Words these styles are represented by the locale-independent StyleIdentifier.TOC1 through to StyleIdentifier.TOC9 and can be retrieved from the Document.Styles collection using these identifiers.
 

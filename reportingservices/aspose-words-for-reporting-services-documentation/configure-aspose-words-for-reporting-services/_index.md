@@ -5,7 +5,7 @@ weight: 90
 url: /reportingservices/configure-aspose-words-for-reporting-services/
 ---
 
-###### This section includes the following topics: 
+## This section includes the following topics: 
 
 - [Configuration Explained](/words/reportingservices/configuration-explained/)
 - [Document Layout Flow vs. Positioned](/words/reportingservices/document-layout-flow-vs-positioned/)

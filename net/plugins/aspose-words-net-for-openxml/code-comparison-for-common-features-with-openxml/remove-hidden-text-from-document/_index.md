@@ -5,7 +5,7 @@ weight: 160
 url: /net/remove-hidden-text-from-document/
 ---
 
-### OpenXML
+## OpenXML
 
 Below is the code example for removing hidden text from MS Word Document.
 

@@ -5,7 +5,7 @@ weight: 50
 url: /net/coldfusion-and-aspose-words-for-net/
 ---
 
-#### Prerequisites
+## Prerequisites
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ To use Aspose.Words for .NET in ColdFusion projects you must install the ColdFus
 
 {{% /alert %}} 
 
-#### Simple Mail Merge
+### Simple Mail Merge
 
 Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 

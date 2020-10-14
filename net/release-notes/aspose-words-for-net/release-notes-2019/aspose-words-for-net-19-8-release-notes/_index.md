@@ -132,7 +132,7 @@ public RevisionsView RevisionsView
 {{< /highlight >}}
 
 
-##### Use Case. Explains how to access the revised version of a document:
+#### Use Case. Explains how to access the revised version of a document:
 
 {{< highlight csharp >}}
 Document doc = new Document(@"test.docx");

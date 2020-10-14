@@ -5,7 +5,7 @@ weight: 30
 url: /sharepoint/deployment-and-activation/
 ---
 
-### Deployment
+## Deployment
 
 Aspose.Words for SharePoint performs the following actions during deployment:
 

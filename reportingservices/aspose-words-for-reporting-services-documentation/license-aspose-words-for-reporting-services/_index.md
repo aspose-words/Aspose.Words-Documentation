@@ -13,7 +13,7 @@ The license emailed to you when the order has been paid. The license is a clear 
 
 {{% /alert %}} 
 
-### Licensing a Server
+## Licensing a Server
 
 Download the license file and copy it to the C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder on the server.
 Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsoft SQL Server instance you want to license:
@@ -28,7 +28,7 @@ Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsof
 - The default instance directory for Microsoft SQL Server 2017 is MSRS14.MSSQLSERVER
 - The default instance directory for Microsoft SQL Server 2019 is MSRS14.MSSQLSERVER
 
-#### Licensing Application Development
+### Licensing Application Development
 
 Add a reference to Aspose.Words for Reporting Services to your project and Aspose.Words.ReportingServices.dll will be automatically copied to the Bin (binary output) folder of your application.
 

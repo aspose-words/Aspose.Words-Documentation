@@ -13,7 +13,7 @@ By default Aspose.Words for JasperReports use page size/orientation from the inp
 
 You can change the default values by specifying what page size/orientation the exporter should enforce. Use the following parameter for that:
 
-#### JasperReports
+## JasperReports
 
 **Java**
 
@@ -25,7 +25,7 @@ exporter.setParameter(AWExporterParameter.PAGE_ORIENTATION, "Landscape");
 exporter.exportReport();
 {{< /highlight >}}
 
-#### JasperServer
+### JasperServer
 
 **XML**
 

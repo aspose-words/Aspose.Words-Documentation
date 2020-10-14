@@ -13,7 +13,7 @@ url: /net/document-comparison-getting-started/
 - [Download and Installation](#DocumentComparisonGettingStarted-DownloadandInstallation)
 - [Contribute](#DocumentComparisonGettingStarted-Contribute)
 
-### Introduction
+## Introduction
 
 Document Comparison by Aspose.Words for .NET compare two Microsoft Word documents and shows you the differences between them. You can see what new text is added, what is deleted and unchanged.
 

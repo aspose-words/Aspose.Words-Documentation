@@ -9,7 +9,7 @@ url: /jasperreports/product-overview/
 
 ![todo:image_alt_text](product-overview_1)
 
-### Welcome to the Aspose.Words for JasperReports documentation!
+## Welcome to the Aspose.Words for JasperReports documentation!
 
 Aspose.Words for JasperReports is the only known solution on the market that makes possible exporting reports from JasperReports and JasperServer to Microsoft Word document formats. All report features are converted with the highest degree of precision to Microsoft Word documents.
 

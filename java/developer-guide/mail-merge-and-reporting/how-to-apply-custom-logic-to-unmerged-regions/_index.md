@@ -31,7 +31,7 @@ As noted on the image you can see that the **ContactDetails** region for the sec
 
 The technique provided in this article demonstrates how to apply custom logic to each unmerged regions to avoid these issues.
 
-#### The Solution
+## The Solution
 
 To manually apply logic to each unused region in the document we take advantage of features already available in Aspose.Words.
 
@@ -49,7 +49,7 @@ This sample project demonstrates this technique. It involves the following steps
    1. Calls the **CreateDataSourceFromDocumentRegions** method which accepts the user’s **Document** and **ArrayList** containing regions names. This method will create a dummy data source containing tables for each unmerged region in the document.
    1. Executes mail merge on the document using the dummy data source. When mail merge is executed with this data source it allows the user-specified handler to be called for each unmerge region and the custom logic applied
 
-#### The Code
+### The Code
 
 The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts several parameters:
 
@@ -57,7 +57,7 @@ The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found 
 1. The handler class which defines the logic to apply to unmerged regions. This handler must implement the [IFieldMergingCallback](http://www.aspose.com/api/java/words/com.aspose.words/interfaces/IFieldMergingCallback) interface.
 1. Through the use of the appropriate overload, the method can also accept a third parameter – a list of region names as strings. If this is specified then only region names remaining the document specified in the list will be manually handled. Other regions which are encountered will not be called by the handler and removed automatically. When the overload with only two parameters is specified, every remaining region in the document is included by the method to be handled manually.
 
-##### Example
+#### Example
 
 Shows how to execute custom logic on unused regions using the specified handler.
 

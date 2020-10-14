@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.7.0. 
 
 {{% /alert %}} 
 
-### Added Options to Downsample Images when saving to PDF
+## Added Options to Downsample Images when saving to PDF
 
 **DownsampleImages** and **DownsampleResolution** options added to **PdfSaveOptions** which allows to downsample images when saving to PDF. By default images are downsample to 220 ppi. It seems that Microsoft Word uses this resolution to downsample images when saving to PDF.
 

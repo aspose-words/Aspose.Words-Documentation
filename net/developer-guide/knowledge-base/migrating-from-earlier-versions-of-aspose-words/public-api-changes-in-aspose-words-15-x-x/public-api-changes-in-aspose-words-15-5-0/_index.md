@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.5.0. 
 
 {{% /alert %}} 
 
-### PageSetup.TextOrientation Public Property Added
+## PageSetup.TextOrientation Public Property Added
 
 We have added new public property TextOrientation to PageSetup class:
 

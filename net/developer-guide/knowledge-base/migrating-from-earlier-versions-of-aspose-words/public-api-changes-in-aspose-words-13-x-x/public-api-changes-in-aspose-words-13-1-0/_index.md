@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.1.0. 
 
 {{% /alert %}} 
 
-### Access to the Page Layout Model
+## Access to the Page Layout Model
 
 Aspose.Words 13.1.0 provides basic access to the layout engine through the **LayoutCollector** and **LayoutEnumerator** classes. Use **LayoutCollector** to find the page numbers of any given node and the **LayoutEnumerator** class to walk through the layout elements on each page of the document.
 
@@ -21,7 +21,7 @@ Download the [offline sample pack](http://www.aspose.com/community/files/51/.net
 
 The field facade provides helpful methods such as getting the field code and field result of the field. In Aspose.Words 13.1.0 the fields API has been extended to allow the retrieval of this facade from existing fields in the document.
 
-##### Example
+#### Example
 
 *Demonstrates how to retrieve the field class from an existing FieldStart node in the document.*
 
@@ -59,7 +59,7 @@ field.Update()
 
 We have implemented a **FieldCollection** class that is very similar to **BookmarkCollection**. The **Range.Fields** property now allows to access all fields based on field starts within a node's range.
 
-##### Example
+#### Example
 
 *Demonstrates how to retrieve the field class from an existing FieldStart node in the document.*
 

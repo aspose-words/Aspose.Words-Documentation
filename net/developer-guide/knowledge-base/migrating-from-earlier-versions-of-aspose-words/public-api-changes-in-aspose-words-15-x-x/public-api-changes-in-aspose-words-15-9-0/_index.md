@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 15.9.0. 
 
 {{% /alert %}} 
 
-### Added DocumentBuilder Public Methods for Creating EditableRanges.
+## Added DocumentBuilder Public Methods for Creating EditableRanges.
 
 We have added following methods in DocumentBuilder class in 15.9.0.
 

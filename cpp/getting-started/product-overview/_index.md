@@ -24,7 +24,7 @@ Using Aspose.Words for C++ in your project gives you the following benefits:
 
 There could be hundreds of features related to Word document manipulation, however, we have decided to include just the basic ones in the early releases. Here is a list of notable features which will be available in the early versions of Aspose.Words for C++.
 
-##### Document Content Features
+#### Document Content Features
 
 - Access, create and modify paragraphs and text.
 - Access, create and modify images, text boxes and shapes.

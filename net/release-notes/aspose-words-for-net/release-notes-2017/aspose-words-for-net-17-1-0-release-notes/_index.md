@@ -136,7 +136,7 @@ We've introduced an option to optimize memory consumption during these scenarios
 public bool MemoryOptimization {get;set;}
 {{< /highlight >}}
 
-##### Usage Example:
+#### Usage Example:
 
 {{< highlight csharp >}}
 Document doc = new Document(@"myDoc.docx");

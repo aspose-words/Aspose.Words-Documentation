@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-##### Characters
+## Characters
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -38,7 +38,7 @@ See the following links in the documentation for further information:
 |Symbol |Yes | | |
 |Tab |Yes | |- [ControlChar.Tab](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 
-##### Breaks
+### Breaks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 |Page Break |Yes | |- [ControlChar.PageBreak](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 |Column Break |Yes | |- [ControlChar.ColumnBreak](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 
-##### General Formatting
+#### General Formatting
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -5,4 +5,3 @@ weight: 30
 url: /net/release-notes-2018/
 ---
 
-### Release Notes - 2018

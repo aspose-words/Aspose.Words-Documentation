@@ -11,11 +11,11 @@ Sometimes you need to render reports programmatically instead of using the Repor
 
 {{% /alert %}} 
 
-#### Rendering via Reporting Services Web Service
+## Rendering via Reporting Services Web Service
 
 If you have a Report Server running with Aspose.Words for Reporting Services installed on it, you can render reports to Microsoft Word documents using the Reporting Service Web Service. Follow these steps to achieve that (assuming you use Reporting Services 2005):
 
-##### Step 1. Add a reference to the ReportingService2005 Web service.
+### Step 1. Add a reference to the ReportingService2005 Web service.
 
 Open your project in Visual Studio, right click on the **References** folder and select **Add Web Reference** . Enter the URL of the **ReportingService2005** Web service ( ReportService2005.asmx) or browse for it using the browser on the left. Once the service is found, enter “ReportingService2005” in the **Web reference name** textbox and click the **Add Reference** button. 
 
@@ -23,7 +23,7 @@ Open your project in Visual Studio, right click on the **References** folder and
 
 ![todo:image_alt_text](rendering-reports-programmatically_1.png)
 
-##### Step 2. Add a reference to the ReportExecutionService Web service.
+#### Step 2. Add a reference to the ReportExecutionService Web service.
 
 Repeat Step 1 for the **ReportExecutionService** ( ReportExecution2005.asmx) Web service. Name it ReportExecutionService and click the **Add Reference** button. 
 

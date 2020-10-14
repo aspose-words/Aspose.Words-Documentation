@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Reporting Services from 4
 
 ## Full List of Issues Covering all Changes in this Release
 
-#### Changes in 4.7.4
+### Changes in 4.7.4
 
 |Key |Summary |Category |
 | :- | :- | :- |

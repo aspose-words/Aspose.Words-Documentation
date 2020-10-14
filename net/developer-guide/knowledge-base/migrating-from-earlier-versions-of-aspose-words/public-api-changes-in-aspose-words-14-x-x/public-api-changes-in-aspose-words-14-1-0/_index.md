@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 14.1.0. 
 
 {{% /alert %}} 
 
-### Comments are exported to HTML as Footnotes and can be Round tripped
+## Comments are exported to HTML as Footnotes and can be Round tripped
 
 Comments inside Microsoft Word documents are exported to HTML as Footnote elements. This behavior matches how Microsoft Word exports comments to HTML and greatly improves document fidelity and the ability to round trip such documents from DOC to HTML to DOC.
 

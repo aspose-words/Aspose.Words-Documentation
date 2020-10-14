@@ -13,7 +13,7 @@ This article gives an in-depth look into how the different width calculation pro
 
 {{% /alert %}} 
 
-### Different Widths on Table
+## Different Widths on Table
 
 Table elements present several different properties that can affect how the width of the overall table as well as individual cells are calculated. These are each explained in detail in this article.
 

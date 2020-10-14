@@ -574,7 +574,7 @@ public class ImageWatermarkOptions
 }
 {{< /highlight >}}
 
-##### Use Case: Add Text watermark with specific options.
+#### Use Case: Add Text watermark with specific options.
 
 **.NET**
 

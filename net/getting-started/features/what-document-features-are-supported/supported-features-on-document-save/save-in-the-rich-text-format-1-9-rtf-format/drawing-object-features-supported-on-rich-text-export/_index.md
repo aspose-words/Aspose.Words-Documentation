@@ -13,7 +13,7 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 
 {{% /alert %}} 
 
-##### Images
+## Images
 
 All images are exported as the same format that they were originally loaded as.
 
@@ -33,7 +33,7 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 |Cropping |Yes | | |
 |Alternative text |Yes | | |
 
-##### Image Recoloring
+### Image Recoloring
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -41,7 +41,7 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 |Contrast |Yes | | |
 |Recolor |Yes | | |
 
-##### Textboxes
+#### Textboxes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

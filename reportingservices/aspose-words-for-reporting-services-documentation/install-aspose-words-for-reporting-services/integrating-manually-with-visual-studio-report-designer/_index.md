@@ -13,7 +13,7 @@ url: /reportingservices/integrating-manually-with-visual-studio-report-designer/
 
 This section describes how to install Aspose.Words for Reporting Services on a computer with Business Intelligence Development Studio. This will enable you to export reports to Microsoft Word documents at design time from the Microsoft Visual Studio 2005. 2008, 2010, 2012 or 2015 Report Designer.
 
-#### Step 1. Copy Aspose.Words.ReportingServices.dll to the Visual Studio directory.
+## Step 1. Copy Aspose.Words.ReportingServices.dll to the Visual Studio directory.
 
 - To integrate with Visual Studio 2005 Report Designer, copy Bin\SSRS2005\Aspose.Words.ReportingServices.dll to the C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies directory.
 - To integrate with Visual Studio 2008 Report Designer, copy Bin\SSRS2008\Aspose.Words.ReportingServices.dll to the C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies directory.
@@ -22,7 +22,7 @@ This section describes how to install Aspose.Words for Reporting Services on a c
 - To integrate with Visual Studio 2013 Report Designer, copy Bin\SSRS2014\Aspose.Words.ReportingServices.dll to the C:\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies directory.
 - To integrate with Visual Studio 2015 Report Designer, copy Bin\SSRS2016\Aspose.Words.ReportingServices.dll to the C:\Program Files\Microsoft Visual Studio 13.0\Common7\IDE\PrivateAssemblies directory.
 
-#### Step 2. Register Aspose.Words for Reporting Services as a rendering extension.
+### Step 2. Register Aspose.Words for Reporting Services as a rendering extension.
 
 Open C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config (where &lt;Version&gt; is “8” for Visual Studio 2005, “9.0” for Visual Studio 2008, “10.0” for Visual Studio 2010, “11.0” for Visual Studio 2012, “12.0” for Visual Studio 2013 and “13.0” for Visual Studio 2015) and add the following lines into the &lt;Render&gt; element:
 

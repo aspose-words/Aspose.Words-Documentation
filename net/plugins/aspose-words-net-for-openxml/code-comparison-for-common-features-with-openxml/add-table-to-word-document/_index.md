@@ -5,7 +5,7 @@ weight: 10
 url: /net/add-table-to-word-document/
 ---
 
-### OpenXML Word
+## OpenXML Word
 
 Below are the namespace for use:
 

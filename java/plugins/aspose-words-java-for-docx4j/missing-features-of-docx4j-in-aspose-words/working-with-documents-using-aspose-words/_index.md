@@ -5,7 +5,7 @@ weight: 10
 url: /java/working-with-documents-using-aspose-words/
 ---
 
-###### This section includes the following topics:
+## This section includes the following topics:
 
 - [Load Text File](https://docs.aspose.com/words/java/load-text-file/)
 - [Cloning Documents](https://docs.aspose.com/words/java/cloning-documents/)

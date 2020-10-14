@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 14.2.0. 
 
 {{% /alert %}} 
 
-### Document.AutomaticallyUpdateSyles Added to the Public API
+## Document.AutomaticallyUpdateSyles Added to the Public API
 
 This option allows to get or set a flag which indicates whether the styles in the document are updated to match the styles in the attached template each time the document is opened in Microsoft Word.
 

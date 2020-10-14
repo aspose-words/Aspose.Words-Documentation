@@ -555,7 +555,7 @@ builder.Document.Save("HorizontalRuleFormat.docx");
 
 Related issue: WORDSNET-19153
 
-##### Added a new public setter for a Document.VbaProject
+#### Added a new public setter for a Document.VbaProject
 
 {{< highlight csharp >}}
 /// <summary>

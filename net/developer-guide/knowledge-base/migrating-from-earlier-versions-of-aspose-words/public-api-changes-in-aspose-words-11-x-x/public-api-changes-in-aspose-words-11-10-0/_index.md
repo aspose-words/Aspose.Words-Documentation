@@ -11,13 +11,13 @@ These page list public API changes that were introduced in Aspose.Words 11.10.0.
 
 {{% /alert %}} 
 
-### Added an Option to choose Image Compression when Rendering to PDF
+## Added an Option to choose Image Compression when Rendering to PDF
 
 Aspose.Words 11.10.0 introduces a new save option member to specify the image compression when saving to PDF. Normally images are rendered in the format they appear in the input document, this can often mean a lossless compression format called *Flate compression* is used which provides great quality, but can cause an increase in file size.
 
 You can now use **PdfSaveOptions.ImageCompression** to specify JPEG compression. Use this option in conjunction with the existing **PdfSaveOptions.JpegCompression** option to fully control the level of compression and space saving benefits. 
 
-##### Example
+### Example
 
 *Exports the content of a node to string in HTML format using default options.*
 
@@ -48,7 +48,7 @@ doc.Save(MyDir & "Rendering.JpegImageCompression Out.pdf", options);
 
 The ﻿**HtmlSaveOptions.ExportListLabels** property controls how list labels are exported to HTML.
 
-##### Example
+#### Example
 
 *Exports the content of a node to string in HTML format using default options.*
 

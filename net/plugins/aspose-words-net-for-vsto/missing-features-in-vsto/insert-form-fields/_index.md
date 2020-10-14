@@ -9,7 +9,7 @@ Form fields are a particular case of Word fields that allows "interaction" with 
 
 DocumentBuilder provides special methods to insert each type of form field into the document: [] , [], and []. Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-##### Example
+## Example
 
 *Below is the example of inserting ComboBox formfield by calling DocumentBuilder.InsertComboBox into the document.*
 

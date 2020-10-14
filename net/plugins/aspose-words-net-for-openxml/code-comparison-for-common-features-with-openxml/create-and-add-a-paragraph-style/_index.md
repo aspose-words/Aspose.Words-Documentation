@@ -5,7 +5,7 @@ weight: 40
 url: /net/create-and-add-a-paragraph-style/
 ---
 
-### OpenXML SDK
+## OpenXML SDK
 
 {{< highlight csharp >}}
 class Program

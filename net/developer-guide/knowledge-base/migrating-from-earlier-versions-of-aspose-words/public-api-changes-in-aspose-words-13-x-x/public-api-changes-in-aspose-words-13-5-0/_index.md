@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.5.0. 
 
 {{% /alert %}} 
 
-### Improved HTML Parser Introduced
+## Improved HTML Parser Introduced
 
 The HTML parser that AW used did not conform to the HTML5 specification. Differences become apparent when Aspose.Words imports malformed HTML documents which can cause loss of data or error. A new parser which conforms to the HTML5 specification is now used.
 

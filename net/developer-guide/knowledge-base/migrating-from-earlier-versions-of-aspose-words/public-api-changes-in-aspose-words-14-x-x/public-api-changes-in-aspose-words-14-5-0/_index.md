@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.5.0. 
 
 {{% /alert %}} 
 
-### Hyphenation API Extended
+## Hyphenation API Extended
 
 Hyphenation API logic has now been changed in the following way:
 

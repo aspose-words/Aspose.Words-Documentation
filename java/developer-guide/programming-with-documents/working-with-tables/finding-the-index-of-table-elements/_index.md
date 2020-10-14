@@ -11,7 +11,7 @@ Finding the index of any node involves gathering all child nodes of the elementâ
 
 {{% /alert %}} 
 
-### Finding the Index of Table in a Document
+## Finding the Index of Table in a Document
 
 Below example shows how to retrieve the index of a table in the document.
 

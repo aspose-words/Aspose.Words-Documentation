@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.2.0. 
 
 {{% /alert %}} 
 
-### LayoutEnumerator.MoveNode is made Obsolete and LayoutCollector.GetEntity Method Added
+## LayoutEnumerator.MoveNode is made Obsolete and LayoutCollector.GetEntity Method Added
 
 **LayoutEnumerator.MoveNode** method should no longer be used. The functionality to move to the layout entity of a node should is now achieved using a combination of **LayoutCollector.GetEntity(Node)** and passing the opaque object which is returned to **LayoutEnumerator.Current**.
 

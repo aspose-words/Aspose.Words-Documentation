@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.12.0.
 
 {{% /alert %}} 
 
-### PageHorizontalAlignment and PageMargins Properties Added to HtmlFixedSaveOptions Class
+## PageHorizontalAlignment and PageMargins Properties Added to HtmlFixedSaveOptions Class
 
 **PageHorizontalAlignment**
 

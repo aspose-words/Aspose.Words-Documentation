@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.7.0. 
 
 {{% /alert %}} 
 
-### ImageColorSpaceExportMode Property Added to PdfSaveOptions Class
+## ImageColorSpaceExportMode Property Added to PdfSaveOptions Class
 
 Images in PDF document now can be saved in CMYK color space. It is controlled by PdfSaveOptions.ImageColorSpaceExportMode property.
 

@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.9.0. 
 
 {{% /alert %}} 
 
-### DrawingML now is a Composite Node
+## DrawingML now is a Composite Node
 
 DrawingML node is CompositeNode now. That is why VisitDrawingML method in DocumentVisitor was replaced with VisitDrawingMLStart and VisitDrawingMLEnd 
 

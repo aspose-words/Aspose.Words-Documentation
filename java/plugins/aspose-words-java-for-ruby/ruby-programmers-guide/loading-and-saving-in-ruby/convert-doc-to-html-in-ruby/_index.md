@@ -19,7 +19,7 @@ data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 \# Open the document.
 doc = Rjb::import('com.aspose.words.Document').new(data_dir + "TestFile.doc")
 
-#HtmlSaveOptions options = new HtmlSaveOptions();
+### options = new HtmlSaveOptions();
 
 options = Rjb::import('com.aspose.words.HtmlSaveOptions').new
 \# HtmlSaveOptions.ExportRoundtripInformation property specifies

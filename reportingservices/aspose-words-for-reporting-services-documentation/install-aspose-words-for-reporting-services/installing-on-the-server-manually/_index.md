@@ -15,7 +15,7 @@ This section describes how to install Aspose.Words for Reporting Services on a s
 
 In the following steps, you will need to copy and modify files in the directory where a Microsoft SQL Server Reporting Services instance is installed.
 
-#### Step 1. Locate the Report Server instance directory.
+## Step 1. Locate the Report Server instance directory.
 
 The root directory for Microsoft SQL Server is usually C:\Program Files\Microsoft SQL Server. From there the Report Server directory can be found as follows:
 
@@ -28,7 +28,7 @@ The root directory for Microsoft SQL Server is usually C:\Program Files\Microsof
 - **Microsoft SQL Server 2017** - Report Server is installed in the C:\Program Files\Microsoft SQL Server Reporting Services. directory.
 - **Microsoft SQL Server 2019** - Report Server is installed in the C:\Program Files\Microsoft SQL Server Reporting Services. directory.
 
-#### Step 2. Copy Aspose.Words.ReportingServices.dll to the Report Server directory.
+### Step 2. Copy Aspose.Words.ReportingServices.dll to the Report Server directory.
 
 Aspose.Words.ReportingServices.zip download contains Bin\SSRS2005, Bin\SSRS2008, Bin\SSRS2012, Bin\SSRS2014, Bin\SSRS2016, Bin\SSRS2017 and Bin\SSRS2019 directories with Aspose.Words.ReportingServices.dll for the corresponding Microsoft SQL Server versions.
 

@@ -11,13 +11,13 @@ Starting with Aspose.Words for .NET 3.0 the new document object model consisting
 
 {{% /alert %}} 
 
-#### New Aspose.Words.Reporting Namespace
+## New Aspose.Words.Reporting Namespace
 
 Classes MailMerge, MailMerge.MappedDataFields, MergeFieldEventArgs, MergeFieldEventArgsBase, MergeImageFieldEventArgs and delegates MergeFieldEventHandler, MergeImageFieldEventHandler were moved from the Aspose.Words namespace to the Aspose.Words.Reporting namespace.
 
 You need to change your code by including "using Aspose.Words.Reporting;" if you are using mail merge functionality. 
 
-#### Old Licensing is no Longer Supported
+### Old Licensing is no Longer Supported
 
 Licenses issued prior to 22nd of January 2005 are no longer supported. If you upgrade to a new version of Aspose.Words, you need to renew your license. Once you have a new license, use the License class to apply the license.
 

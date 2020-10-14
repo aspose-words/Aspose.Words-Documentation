@@ -46,7 +46,7 @@ The user has to use the following code:
 
 {{< highlight csharp >}}
 
-#include <Aspose.Words.Cpp\Model\Document\Document.h>
+### <Aspose.Words.Cpp\Model\Document\Document.h>
 
 {{< /highlight >}}
 
@@ -58,7 +58,7 @@ instead of
 
 {{< highlight csharp >}}
 
-#include <Model\Document\Document.h>
+#### <Model\Document\Document.h>
 
 {{< /highlight >}}
 

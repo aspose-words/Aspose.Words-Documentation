@@ -361,7 +361,7 @@ It can also be accessed via the string property "StyleName" like that what Font,
 public String StyleName
 {{< /highlight >}}
 
-##### Note.
+#### Note.
 
 Only Linked and Character styles can be applied to an SDT.
 An InvalidOperationException ("Cannot apply this style to the SDT") is thrown when a style that exists but is not Linked or Character style is being applied.

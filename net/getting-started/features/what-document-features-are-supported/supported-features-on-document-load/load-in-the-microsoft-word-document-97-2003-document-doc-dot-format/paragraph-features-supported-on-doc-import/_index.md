@@ -22,7 +22,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-##### General Formatting
+## General Formatting
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -35,7 +35,7 @@ See the following links in the documentation for further information:
 |Suppress Line Numbers |Yes | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Yes | |- **ParagraphFormat.SurpressAutoHyphens**|
 
-##### Indents
+### Indents
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -46,7 +46,7 @@ See the following links in the documentation for further information:
 |Mirror Indents |Yes | |<p>- **ParagraphFormat.LeftIndent** </p><p>- **ParagraphFormat.RightIndent**</p>|
 |Automatically Adjust Right Indent |Yes | | |
 
-##### Spacing
+#### Spacing
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -5,7 +5,7 @@ weight: 150
 url: /net/get-and-set-bookmark-text/
 ---
 
-### OpenXML
+## OpenXML
 
 Below is the code example for getting and setting Bookmark text in word document using OpenXML SDK.
 

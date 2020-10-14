@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.12.0.
 
 {{% /alert %}} 
 
-### DrawingML.GetShapeRenderer Behavior Changed
+## DrawingML.GetShapeRenderer Behavior Changed
 
 In earlier versions Aspose.Words always used to use the fallback shape when rendering DrawingML as Aspose.Words was not able to properly render DrawingML. Fallback shapes are prerendered shapes included by Microsoft Word or the host program when the graphics object is created. The current version version can render DrawingMLs on almost the same level as VML Shapes so the behavior of this method has been switched to render the original DrawingML instead of fall back to VML rendering.
 

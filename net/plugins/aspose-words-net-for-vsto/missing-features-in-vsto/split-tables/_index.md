@@ -10,7 +10,7 @@ We first need to pick a row at where to split the table. Once we know this we ca
 1. Create a clone of the table without cloning children to hold the moved rows and insert it after the original table.
 1. Starting from the specified row move all subsequent rows to this second table.
 
-##### Example
+## Example
 
 **C#**
 

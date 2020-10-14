@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.8.0. 
 
 {{% /alert %}} 
 
-### LinkedStyleName Property Added to Style Class
+## LinkedStyleName Property Added to Style Class
 
 **LinkedStyleName**
 

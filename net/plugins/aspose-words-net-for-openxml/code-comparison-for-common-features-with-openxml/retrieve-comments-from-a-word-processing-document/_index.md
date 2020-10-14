@@ -5,7 +5,7 @@ weight: 100
 url: /net/retrieve-comments-from-a-word-processing-document/
 ---
 
-### OpenXML SDK
+## OpenXML SDK
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";

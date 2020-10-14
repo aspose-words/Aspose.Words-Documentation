@@ -116,9 +116,9 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 
 {{< highlight csharp >}}
 
-#Save a document in a variety of formats.
+### a document in a variety of formats.
 
-#SaveFormat.Doc = 1, therefore 1 is passed as a parameter to indicate save format.
+#### = 1, therefore 1 is passed as a parameter to indicate save format.
 
 doc.Save_2("C:\Temp\out.doc", 1);
 doc.Save_2("C:\Temp\out.txt", 2);

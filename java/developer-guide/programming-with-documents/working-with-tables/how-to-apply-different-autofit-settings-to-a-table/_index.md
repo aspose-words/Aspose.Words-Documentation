@@ -13,7 +13,7 @@ As in Microsoft Word, an autofit method is actually a shortcut which applies dif
 
 ![todo:image_alt_text](how-to-apply-different-autofit-settings-to-a-table_1.png)
 
-### AutoFitting a Table to Window
+## AutoFitting a Table to Window
 
 Below example autofits a table to fit the page width.
 

@@ -5,7 +5,7 @@ weight: 20
 url: /net/using-and-configuring-crm-oneclick-word-document-generator/
 ---
 
-### Create Template and Add in CRM
+## Create Template and Add in CRM
 
 - Open word and create a template.
 - Insert MailMerge fields for data comming from CRM. 

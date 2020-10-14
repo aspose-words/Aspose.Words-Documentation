@@ -14,15 +14,15 @@ To Write anything in the Word Document using Aspose.Words for Java in Ruby, simp
 {{< highlight ruby >}}
 data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/quickstart/'
 
-#Create a blank document.
+### a blank document.
 
 document = Rjb::import('com.aspose.words.Document').new()
 
-#DocumentBuilder provides members to easily add content to a document.
+#### provides members to easily add content to a document.
 
 builder = Rjb::import('com.aspose.words.DocumentBuilder').new(document)
 
-#Write a new paragraph in the document with the text "Hello World!"
+##### a new paragraph in the document with the text "Hello World!"
 
 builder.writeln("Hello World!")
 \# Save the document in DOCX format. The format to save as is inferred from the extension of the file name.

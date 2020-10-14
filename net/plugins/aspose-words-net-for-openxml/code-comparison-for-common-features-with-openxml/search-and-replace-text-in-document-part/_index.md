@@ -5,7 +5,7 @@ weight: 190
 url: /net/search-and-replace-text-in-document-part/
 ---
 
-### OpenXML
+## OpenXML
 
 Below is the code example of search and replace text using OpenXML SDK.
 

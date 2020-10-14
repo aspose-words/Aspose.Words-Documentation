@@ -5,7 +5,7 @@ weight: 80
 url: /net/delete-comments-by-all-or-a-specific-author/
 ---
 
-### OpenXML SDK
+## OpenXML SDK
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";

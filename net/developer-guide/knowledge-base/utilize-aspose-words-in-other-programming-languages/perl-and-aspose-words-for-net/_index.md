@@ -5,7 +5,7 @@ weight: 60
 url: /net/perl-and-aspose-words-for-net/
 ---
 
-#### Prerequisites
+## Prerequisites
 
 {{% alert color="primary" %}} 
 
@@ -15,7 +15,7 @@ See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-words-fo
 
 {{% /alert %}} 
 
-#### Hello World!
+### Hello World!
 
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
@@ -45,7 +45,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 
 use Win32::OLE;
 
-#Create instance of ComHelper class
+##### instance of ComHelper class
 
 my $helper = CreateObject Win32::OLE 'Aspose.Words.ComHelper';
 
@@ -53,7 +53,7 @@ my $helper = CreateObject Win32::OLE 'Aspose.Words.ComHelper';
 
 my $doc = $helper->Open("C:\\Temp\\in.doc");
 
-#Connect to Database
+###### to Database
 
 my $dbfile ='C:\\Temp\\test.mdb';
 my $conn =  CreateObject Win32::OLE 'ADODB.Connection';
@@ -86,7 +86,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 
 #Save a document in a variety of formats.
 
-#SaveFormat.Doc = 1, therefore 1 is passed as a parameter to indicate save format.
+###### = 1, therefore 1 is passed as a parameter to indicate save format.
 
 $doc->.Save_2("C:\\Temp\\out.doc", 1);
 $doc->Save_2("C:\\Temp\\out.txt", 2);

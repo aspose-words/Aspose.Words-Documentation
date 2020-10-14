@@ -5,7 +5,7 @@ weight: 50
 url: /net/change-text-in-a-table/
 ---
 
-### OpenXML SDK
+## OpenXML SDK
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";

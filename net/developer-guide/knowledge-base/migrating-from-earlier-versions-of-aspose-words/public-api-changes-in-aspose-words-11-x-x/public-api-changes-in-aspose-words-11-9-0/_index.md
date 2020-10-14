@@ -11,13 +11,13 @@ These page list public API changes that were introduced in Aspose.Words 11.9.0. 
 
 {{% /alert %}} 
 
-#### Support for SVG Image Format in the Model
+## Support for SVG Image Format in the Model
 
 Scalable Vector Graphics images can now be inserted into a document using the [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertimage/index) and [ImageData.SetImage](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/methods/setimage) methods. When such an image is inserted it is converted into raster form in the model.
 
 This format is still unsupported when loading HTML or inserting HTML content using [DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml/index).
 
-#### Support for Locked Fields
+### Support for Locked Fields
 
 In a Microsoft Word document a field can be locked to restrict the field result being changed when fields are updated. This feature is now supported by Aspose.Words 11.9.0. Calling [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields) or any other method that update fields will not affect fields with this attribute present.
 

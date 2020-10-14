@@ -13,7 +13,7 @@ To convert a Word document to PNG simply invoke the Document.Save method and spe
 
 The code sample below converts  each document's  page from DOC to PNG's 
 
-##### Example
+## Example
 
 **C#**
 

@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.6.0. 
 
 {{% /alert %}} 
 
-### DML Effects and Text Effects are not Rendered in PdfA1a and PdfA1b
+## DML Effects and Text Effects are not Rendered in PdfA1a and PdfA1b
 
 The issue WORDSNET-11919 has now been resolved. MS Word does not render effects in PdfA1, Aspose.Words now does the same. If PdfSaveOptions.Compliance is set to PdfCompliance.PdfA1b or PdfCompliance.PdfA1a, PdfSaveOptions.DmlEffectsRenderingMode always returns DmlEffectsRenderingMode.None.
 

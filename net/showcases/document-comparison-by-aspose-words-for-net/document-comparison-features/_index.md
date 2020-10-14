@@ -16,7 +16,7 @@ url: /net/document-comparison-features/
   - Default.js
   - Default.aspx.cs
 
-### Compare Text in Word Documents and Highlight Changes
+## Compare Text in Word Documents and Highlight Changes
 
 Text comparison is the core feature of Document Comparison project. You can select two documents from the list and it will show you the differences between them. Summary of changes is displayed on top, showing what is added and deleted. Newly added text is formatted in the red-underlined font. Deleted text is formatted in red color and strike-through font settings.
 
@@ -44,7 +44,7 @@ To create the output document, we load the first document in the Aspose.Words. T
 
 **Deleted text:** It is also appended to the existing text. The red color and strike-through font is applied to it.
 
-#### Default.js
+### Default.js
 
 {{< highlight csharp >}}
 

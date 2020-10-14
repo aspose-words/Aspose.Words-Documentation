@@ -7,14 +7,14 @@ url: /net/conversion-between-different-open-office-word-formats/
 
 Below is the code for conversions between Open Office formats:
 
-#### Conversion from ODT:
+## Conversion from ODT:
 
 {{< highlight csharp >}}
  Document doc = new Document("OpenOfficeWord.odt");
  doc.Save("ConvertedOdtFromDoc.docx",SaveFormat.Docx);
 {{< /highlight >}}
 
-#### Conversion from OTT:
+### Conversion from OTT:
 
 {{< highlight csharp >}}
  Document doc = new Document("Sample.ott");

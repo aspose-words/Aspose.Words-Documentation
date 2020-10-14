@@ -23,11 +23,11 @@ Sometimes when you load existing document cells in a table will appear merged. H
 
 {{% /alert %}}
 
-### Checking if a Cell is Merged
+## Checking if a Cell is Merged
 
 To check if a cell is part of a sequence of merged cells, we simply check the [CellFormat.getHorizontalMerge()](http://www.aspose.com/api/java/words/com.aspose.words/classes/cellformat/methods/getHorizontalMerge\(\)/) and [CellFormat.getVerticalMerge()](http://www.aspose.com/api/java/words/com.aspose.words/classes/cellformat/methods/getVerticalMerge\(\)/) properties.
 
-#### Example: Getting the Merge Type
+### Example: Getting the Merge Type
 
 Below example prints the horizontal and vertical merge type of a cell.
 

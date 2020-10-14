@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.9.0. 
 
 {{% /alert %}} 
 
-### PageMode added to PdfSaveOptions
+## PageMode added to PdfSaveOptions
 
 The **PdfSaveOptions.PageMode** property determines how the PDF document should be displayed when opened in the PDF reader.
 

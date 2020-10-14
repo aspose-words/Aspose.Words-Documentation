@@ -13,9 +13,9 @@ Please note that an **Document** object cannot be serialized using built in .NET
 
 {{% /alert %}} 
 
-#### The Code The simplest method used to serialize a Document object is to first save it to a MemoryStream using the Document.Save method overload of the Document class. The ToArray method is then called on the stream which returns an array of bytes representing the document in byte form.The save format chosen is important as to ensure the highest fidelity is retained upon saving and reloading into the Document object. For this reasons an OOXML format is suggested.The steps above are then reversed to load the bytes back into a Document object.
+## The Code The simplest method used to serialize a Document object is to first save it to a MemoryStream using the Document.Save method overload of the Document class. The ToArray method is then called on the stream which returns an array of bytes representing the document in byte form.The save format chosen is important as to ensure the highest fidelity is retained upon saving and reloading into the Document object. For this reasons an OOXML format is suggested.The steps above are then reversed to load the bytes back into a Document object.
 
-##### Example
+### Example
 
 *Shows how to convert a document object to an array of bytes and back into a document object again.*
 

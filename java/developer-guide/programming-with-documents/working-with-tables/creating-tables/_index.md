@@ -5,7 +5,7 @@ weight: 20
 url: /java/creating-tables/
 ---
 
-### Creating Tables Overview
+## Creating Tables Overview
 
 Aspose.Words provides several different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
 

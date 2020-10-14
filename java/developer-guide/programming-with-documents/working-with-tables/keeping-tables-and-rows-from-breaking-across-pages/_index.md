@@ -16,7 +16,7 @@ We will use the table below in our example. By default it has the properties abo
 
 ![todo:image_alt_text](keeping-tables-and-rows-from-breaking-across-pages_1.png)
 
-### Keeping a Row from Breaking across Pages
+## Keeping a Row from Breaking across Pages
 
 This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word this can found under Table Properties as the option “Allow Row to break across Pages”.
 In Aspose.Words this is found under the [RowFormat](http://www.aspose.com/api/java/words/com.aspose.words/classes/RowFormat) object of a [Row](http://www.aspose.com/api/java/words/com.aspose.words/classes/Row) as the property [RowFormat.getAllowBreakAcrossPages()](http://www.aspose.com/api/java/words/com.aspose.words/classes/rowformat/methods/getAllowBreakAcrossPages\(\)/). Below example shows how to disable rows breaking across pages for every row in a table.

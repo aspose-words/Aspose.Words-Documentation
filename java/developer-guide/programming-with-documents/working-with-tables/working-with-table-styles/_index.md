@@ -22,7 +22,7 @@ Aspose.Words supports applying a table style to a table and also reading propert
 
 ![todo:image_alt_text](working-with-table-styles_1.png)
 
-#### Applying a Table Style
+### Applying a Table Style
 
 In Aspose.Words you can apply a table style by using any of the [Table.getStyle()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table/properties/getStyle\(\)/), [Table.setStyleIdentifier(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setStyleIdentifier\(int\)/) and [Table.getStyleName()](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/getStyleName\(\)/) properties. You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using [Table.setStyleOptions(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setStyleOptions\(int\)/) property. The TableStyleOptions enumeration allows a bitwise combination of these features. Below example shows how to build a new table with a table style applied.
 

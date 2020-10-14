@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 16.01.0.
 
 {{% /alert %}} 
 
-### HtmlSaveOptions.ExportPageMargins Property Added
+## HtmlSaveOptions.ExportPageMargins Property Added
 
 We have now added a new public property to HtmlSaveOptions class: 
 

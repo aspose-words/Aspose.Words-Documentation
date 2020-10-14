@@ -5,7 +5,7 @@ weight: 40
 url: /java/working-with-ranges-in-apache-poi-and-aspose-words/
 ---
 
-###### This section includes the following topics:
+## This section includes the following topics:
 
 - [Access Ranges in Document](https://docs.aspose.com/words/java/access-ranges-in-document/)
 - [Delete Ranges in Document](https://docs.aspose.com/words/java/delete-ranges-in-document/)

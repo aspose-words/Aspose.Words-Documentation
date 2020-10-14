@@ -11,7 +11,7 @@ Yes, you can now run Aspose.Words for .NET with Mono on Linux or Mac OS to gener
 
 {{% /alert %}} 
 
-#### Supported Platforms
+## Supported Platforms
 
 We have successfully tested Aspose.Words for .NET running on Mono in the following configurations:
 
@@ -22,7 +22,7 @@ We have successfully tested Aspose.Words for .NET running on Mono in the followi
 - Ubuntu 11.4 
 - Mac OS X 10.6.4 
 
-#### Known Issues
+### Known Issues
 
 Aspose.Words for .NET was initially designed to be used on Windows systems with the .NET Framework. It is a testament to the great work done by the developers working on the Mono project that when we ran Aspose.Words on Mono for the first time, most of the functionality worked straight away.
 

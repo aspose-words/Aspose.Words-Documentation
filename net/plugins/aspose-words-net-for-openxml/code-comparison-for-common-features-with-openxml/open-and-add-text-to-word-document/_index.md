@@ -5,7 +5,7 @@ weight: 30
 url: /net/open-and-add-text-to-word-document/
 ---
 
-### OpenXML Word
+## OpenXML Word
 
 Following are the namespace we need to use:
 

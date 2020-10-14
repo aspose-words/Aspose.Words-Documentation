@@ -223,7 +223,7 @@ public bool UseLegacyOrder
 {{< /highlight >}}
 
 
-##### Use Case: In the example, the text "2" is in the text box.
+#### Use Case: In the example, the text "2" is in the text box.
 
 {{< highlight csharp >}}
 

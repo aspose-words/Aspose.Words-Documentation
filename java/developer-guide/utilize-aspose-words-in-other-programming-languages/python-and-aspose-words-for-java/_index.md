@@ -50,15 +50,15 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 import jpype
 import os.path
 
-#Get path to directory with Aspose.Words.jar 
+### path to directory with Aspose.Words.jar 
 
 jarpath = os.path.join(os.path.abspath("."), "lib")
 
-#Start JVM
+#### JVM
 
 jpype.startJVM(jpype.getDefaultJVMPath(), "-Djava.ext.dirs=%s" % jarpath)
 
-#Create Document type
+##### Document type
 
 Document = jpype.JClass("com.aspose.words.Document")
 
@@ -66,12 +66,12 @@ Document = jpype.JClass("com.aspose.words.Document")
 
 doc = Document ("C:\\Temp\\in.doc")
 
-#Create names and values arrays
+###### names and values arrays
 
 names = ["Name", "Company", "City"]
 values = ["Alexey Noskov", "Aspose", "Auckland"]
 
-#Execute mail merge
+####### mail merge
 
 doc.getMailMerge().execute(names, values)
 
@@ -118,7 +118,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 
 {{< highlight csharp >}}
 
-#Save a document in a variety of formats.
+### a document in a variety of formats.
 
 SaveFormat = jpype.JClass("com.aspose.words.SaveFormat")
 doc.save("C:\\Temp\\out.doc", SaveFormat.DOC)
@@ -180,19 +180,19 @@ Next, write your Python code.
 import jpype
 import os.path
 
-#Get path to directory with Aspose.Words.jar 
+### path to directory with Aspose.Words.jar 
 
 jarpath = os.path.join(os.path.abspath("."), "lib")
 
-#Start JVM
+#### JVM
 
 jpype.startJVM(jpype.getDefaultJVMPath(), "-Djava.ext.dirs=%s" % jarpath)
 
-#Create Document type
+##### Document type
 
 Document = jpype.JClass("com.aspose.words.Document")
 
-#Create RelationSet type
+###### RelationSet type
 
 RelationSet = jpype.JClass("RelationSet")
 
@@ -200,11 +200,11 @@ RelationSet = jpype.JClass("RelationSet")
 
 doc = Document ("C:\\Temp\\in.doc")
 
-#Execute a method of RelationSet: the database query
+###### a method of RelationSet: the database query
 
 myResultSet = RelationSet.execQuery()
 
-#Execute mail merge with regions
+####### mail merge with regions
 
 doc.getMailMerge().executeWithRegions("Users", myResultSet)
 

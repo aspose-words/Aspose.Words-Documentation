@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 13.11.0.
 
 {{% /alert %}} 
 
-### Field.Remove Behavior and Return Type Changed
+## Field.Remove Behavior and Return Type Changed
 
 Calling this method will remove the desired field from the document and will now return the node found directly after the field before removal. If the field's end is the last node in the parent paragraph then it returns the parent paragraph. If the field has already been removed it will return null. This return type is particularly useful when working with nested fields as a reference to the inner part of the field code can be retained
 

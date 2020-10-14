@@ -138,7 +138,7 @@ public CustomXmlPart Add(string id, string xml)
 
 Value of the 'xml' parameter is encoded as UTF8 and is stored in creating XML part.
 
-##### UC for creating a custom XML part by specifying its XML
+#### UC for creating a custom XML part by specifying its XML
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -210,7 +210,7 @@ public class XmlMapping
 }
 {{< /highlight >}}
 
-##### UC for creation of an XML part and binding a content control to it
+#### UC for creation of an XML part and binding a content control to it
 
 {{< highlight csharp >}}
 Document doc = new Document();

@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 15.11.0.
 
 {{% /alert %}} 
 
-### Added public methods CreatePictureBullet(), DeletePictureBullet() and public property ImageData in ListLevel.
+## Added public methods CreatePictureBullet(), DeletePictureBullet() and public property ImageData in ListLevel.
 
 Using ListLevel.ImageData you are getting access to all available ImageData options. Please see the following code example to find out how to work with picture bullets.
 

@@ -5,7 +5,7 @@ weight: 20
 url: /net/insert-picture-in-word-document/
 ---
 
-### OpenXML Word
+## OpenXML Word
 
 Following are the namespaces we need to add:
 

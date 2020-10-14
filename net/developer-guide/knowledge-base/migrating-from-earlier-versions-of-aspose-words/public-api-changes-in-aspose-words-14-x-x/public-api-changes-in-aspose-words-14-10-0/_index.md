@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.10.0.
 
 {{% /alert %}} 
 
-### LoadOptions.WebRequestTimeout Public Property Added
+## LoadOptions.WebRequestTimeout Public Property Added
 
 We have now added LoadOptions.WebRequestTimeout option. Previously, HTML import tried to load images using WebRequest with default timeout 100000ms which some times used to fail for every image with 'Unable to connect to the remote server' exception.
 

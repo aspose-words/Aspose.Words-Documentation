@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 15.3.0. 
 
 {{% /alert %}} 
 
-### DocumentBase.WarningCallback Property Added
+## DocumentBase.WarningCallback Property Added
 
 The Document can raise warnings at an any stage of its life cycle. So, to be able to receive all the warnings, a new property was added into DocumentBase class.
 

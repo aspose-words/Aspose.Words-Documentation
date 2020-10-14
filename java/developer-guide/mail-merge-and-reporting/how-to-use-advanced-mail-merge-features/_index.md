@@ -7,7 +7,7 @@ url: /java/how-to-use-advanced-mail-merge-features/
 
 The [MailMerge](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge) class provides some additional properties and methods that allow further customization of the mail merge process.
 
-### Using Mapped Fields
+## Using Mapped Fields
 
 The [MailMerge](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge) class allows you to automatically map between names of fields in your data source and names of mail merge fields in the document. To perform this, use the [MailMerge.getMappedDataFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge) property that returns a [MappedDataFieldCollection](http://www.aspose.com/api/java/words/com.aspose.words/classes/MappedDataFieldCollection) object. [MappedDataFieldCollection](http://www.aspose.com/api/java/words/com.aspose.words/classes/MappedDataFieldCollection) is a collection of string keys and string values. The keys are the names of mail merge fields in the document and the values are the names of fields in your data source. The class provides all properties and methods typical for a regular collection such as [MappedDataFieldCollection.add(java.lang.String,java.lang.String)](http://www.aspose.com/api/java/words/com.aspose.words/classes/MappedDataFieldCollection), [MappedDataFieldCollection.clear()](http://www.aspose.com/api/java/words/com.aspose.words/classes/MappedDataFieldCollection), [MappedDataFieldCollection.remove(java.lang.String)](http://www.aspose.com/api/java/words/com.aspose.words/classes/MappedDataFieldCollection), etc.
 

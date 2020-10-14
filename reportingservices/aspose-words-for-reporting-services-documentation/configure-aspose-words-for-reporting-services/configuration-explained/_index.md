@@ -11,7 +11,7 @@ This section describes configuration parameters that affect how Aspose.Words for
 
 {{% /alert %}} 
 
-#### Instance level configuration
+## Instance level configuration
 
 You can specify configuration settings for a whole Reporting Services instance. All reports processed by this instance will be affected by these settings.
 
@@ -65,7 +65,7 @@ Every export format has its own configuration XML element. Therefore, if you wan
 </Render>
 {{< /highlight >}}
 
-#### Report level configuration
+### Report level configuration
 
 You can specify configuration settings for an individual report. In this case, the settings you specify will override the corresponding settings specified at the instance level.
 

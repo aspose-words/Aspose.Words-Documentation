@@ -5,7 +5,7 @@ weight: 30
 url: /sharepoint/using-aspose-words-for-sharepoint-in-a-workflow/
 ---
 
-###### This section includes the following topics:
+## This section includes the following topics:
 
 - [Workflow Summary](/words/sharepoint/workflow-summary/)
 - [Converting a Document via Workflow Activity](/words/sharepoint/converting-a-document-via-workflow-activity/)

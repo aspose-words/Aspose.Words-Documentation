@@ -31,7 +31,7 @@ Fields with custom field codes or field results (modified manually in the docume
 
 {{% /alert %}} 
 
-##### Field Codes
+## Field Codes
 
 See the following links in the documentation for further information:
 
@@ -44,7 +44,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Field Codes |Yes | | |
 
-##### Date and Time
+### Date and Time
 
 All Date and Time fields are supported and can be updated by Aspose.Words.
 
@@ -57,7 +57,7 @@ All Date and Time fields are supported and can be updated by Aspose.Words.
 |SaveDate |Yes |This field is not updated with the current time when the document is saved by Aspose.Words using Document.Save. Rather any instance of this field in the document is updated with the correct time and date that the doucment was saved last in the editior. | |
 |Time |Yes | | |
 
-##### Document Automation
+#### Document Automation
 
 All Document Automation fields are supported and can be updated by Aspose.Words.
 
