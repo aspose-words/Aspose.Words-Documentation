@@ -50,7 +50,7 @@ The table below shows example pictures of Aspose.Words Cold Rendering of some st
 
 |                               | **Aspose.Words**                                             | **Microsoft Word**                                           |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Basic Process**             | ![basic_process_aspose](BasicProcess Aspose.png)             | ![basic_process_word](BasicProcess Word.png)                 |
-| **Circular Bending Process**  | ![circular_bending_process_aspose](CircularBendingProcess Aspose.png) | ![circular_bending_process_word](CircularBendingProcess Word.png) |
-| **Repeating Bending Process** | ![repearing_bending_process_aspose](RepearingBendingProcess Aspose.png) | ![repearing_bending_process_word](RepearingBendingProcess Word.png) |
-| **Trapezoid List**            | ![trapezoid_list_aspose](TrapezoidList Aspose.png)           | ![trapezoid_list_word](TrapezoidList Word.png)               |
+| **Basic Process**             | <img src="BasicProcess Aspose.png" alt="basic_process_aspose"/> | <img src="BasicProcess Word.png" alt="basic_process_word"/> |
+| **Circular Bending Process**  | <img src="CircularBendingProcess Aspose.png" alt="circular_bending_process_aspose"/> | <img src="CircularBendingProcess Word.png" alt="circular_bending_process_word"/> |
+| **Repeating Bending Process** | <img src="RepearingBendingProcess Aspose.png" alt="repearing_bending_process_aspose"/> | <img src="RepearingBendingProcess Word.png" alt="repearing_bending_process_word"/> |
+| **Trapezoid List**            | <img src="TrapezoidList Aspose.png" alt="trapezoid_list_aspose"/> | <img src="TrapezoidList Word.png" alt="trapezoid_list_word"/> |
