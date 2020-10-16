@@ -31,13 +31,7 @@ If the specified **ImagesFolder** does not exist, it will be created automatical
 The following code example shows how to specify a folder for images when saving a document to a stream:
 
 **.NET**
-{{< highlight csharp >}}
-Document doc = new Document(dataDir + "Test.docx");
-MarkdownSaveOptions so = new MarkdownSaveOptions();
-so.ImagesFolder = "C:\\Images";
-using (MemoryStream stream = new MemoryStream())
-    doc.Save(stream, so);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SetImagesFolder.cs" >}}
 
 ## Specify Save Options when Converting to Markdown
 
