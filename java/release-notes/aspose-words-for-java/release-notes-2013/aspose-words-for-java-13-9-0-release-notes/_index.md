@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 13.9.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 13.9 Release Notes**
+## Aspose.Words for Java 13.9 Release Notes
 
-### **What's New**
+### What's New
 
 There are 115 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -22,7 +22,7 @@ There are 115 improvements and fixes in this regular monthly release. The most n
   "Zero-weight" files are now supported 
   Various improvements in handling of MS Word formats 
 
-## **All Fixes**
+## All Fixes
 
 |Key |Summary |Category |
 | :- | :- | :- |

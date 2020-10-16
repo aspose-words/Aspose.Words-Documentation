@@ -5,7 +5,7 @@ weight: 10
 url: /java/append-documents-in-ruby/
 ---
 
-## **Aspose.Words - Append Documents**
+## Aspose.Words - Append Documents
 
 To append documents using Aspose.Words Java in Ruby.
 
@@ -23,7 +23,7 @@ dst_doc.appendDocument(src_doc, source_formating)
 dst_doc.save(data_dir + "TestFile Out.docx")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Append Documents (Aspose.Words)** from any of the below mentioned social coding sites:
 

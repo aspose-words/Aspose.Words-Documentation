@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 14.2.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 14.2 Release Notes**
+## Aspose.Words for .NET 14.2 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 118 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -28,7 +28,7 @@ There are 118 improvements and fixes in this regular monthly release. The most n
   Multiline watermark rendering supports "Fit to Bezier curves" cases
   Digitally signing XPS documents is possible now
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

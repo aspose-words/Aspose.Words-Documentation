@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for Java 3.0](http://www.aspo
 
 Please welcome our next major release of Aspose.Words for Java! Support for RTF and ODT is added in this release!
 
-## **RTF Support**
+## RTF Support
 
 RTF features in Aspose.Words for Java:
 
@@ -23,7 +23,7 @@ RTF features in Aspose.Words for Java:
 
 The RTF specification is a set of keywords. There are over 1400 keywords in the RTF 1.8 Specification. Aspose.Words for Java fully supports (reads and writes) over 95% of those keywords. It is hard to find a similar level of implementation in other products.
 
-## **ODT Support**
+## ODT Support
 
 OpenDocument Text (ODT) is the file format for word processing documents originally developed by Sun for the Open Office Writer. OpenDocument is currently an OASIS and ISO standard.
 

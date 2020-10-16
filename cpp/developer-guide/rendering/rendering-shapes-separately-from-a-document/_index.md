@@ -9,7 +9,7 @@ When processing documents, a common task is to extract all images found in the 
 
 Aspose.Words provides functionality for extracting this type of content in the same way you can extract a simple image from shape as rendered content. This article describes how to utilize this functionality to render shapes independently of the document.
 
-## **Shape Types in Aspose.Words**
+## Shape Types in Aspose.Words
 
 All the content in a document drawing layer is represented by the [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape) or [GroupShape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.group_shape/) node in the Aspose.Words Document Object Module (DOM). Such contents can be text boxes, images, AutoShapes, OLE objects, etc. Some fields are also imported as shapes, for example, the INCLUDEPICTURE field.
 
@@ -39,7 +39,7 @@ When rendering a **Shape**, it must be a part of the document hierarchy. If the 
 
 {{% /alert %}} 
 
-## **Rendering to File or Stream**
+## Rendering to File or Stream
 
 The [Save](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.node_renderer_base/#a194017c3155bdd04f6d49753bf2e2224) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.image_save_options/) class, which allows defining options for rendering the shape. This works in the same way as the [Document.Save](https://apireference.aspose.com/words/cpp/class/aspose.words.document/#a4ba337135cd6c8bed74a268ba60218bd) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
 
@@ -55,7 +55,7 @@ The code example below illustrates rendering a shape to a JPEG image separately
 
 The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
 
-## **Rendering to a .NET Graphics Object**
+## Rendering to a .NET Graphics Object
 
 Rendering directly to a **Graphics** object allows you to define your own settings and the state for the **Graphics** object. A common scenario involves rendering a shape directly into a **Graphics** object retrieved from a Windows Form or a Bitmap. When the **Shape** node is rendered, the settings will affect the shape appearance. For example, you can rotate or scale the shape by using the **RotateTransform** or **ScaleTransform** methods for the **Graphics** object.
 
@@ -67,7 +67,7 @@ Similarly, to the [RenderToSize](https://apireference.aspose.com/words/cpp/clas
 
 The **Shape** can be rendered to a certain scale using the [ShapeRenderer.RenderToScale](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.node_renderer_base/#a7cc8d30b23d0d8649ba8e106ed12a259) method inherited from the [NodeRendererBase](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.node_renderer_base/) class. This is similar to the [Document.RenderToScale](https://apireference.aspose.com/words/cpp/class/aspose.words.document/#a32e91adc88f41b8e7b9c09cfedfa7efc) method that accepts the same major parameters. The difference between these two methods is that with the **ShapeRenderer.RenderToScale** method, instead of a literal size, you choose a float value that scales the shape during its rendering. If the float value equals 1.0 causes the shape to be rendered at 100% of its original size. A float value of 0.5 will reduce the image size by half.
 
-## **Rendering a Shape Image**
+## Rendering a Shape Image
 
 The [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape/) class represents objects in the drawing layer, such as an AutoShape, text box, freeform, OLE object, ActiveX control, or a picture. Using the **Shape** class, you can create or modify shapes in a Microsoft Word document. An important property of a shape is its [ShapeType](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing#a497d548e329ebb218fbc1754e4c74bcc). Shapes of different types can have different capabilities in a Word document. For example, only images and OLE shapes can have images inside them while most of the shapes can have text only.
 
@@ -75,7 +75,7 @@ The following example shows how to render a Shape image to a JPEG image separate
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-RenderShape-RenderShapeImage.cpp" >}}
 
-## **Retrieving a Shape Size**
+## Retrieving a Shape Size
 
 The [ShapeRenderer](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.shape_renderer/) class also provides functionality to retrieve the size of the shape in pixels through the [GetSizeInPixels](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.node_renderer_base/#adb105cb9920c90a2fd5787720bfc371a) method. This method accepts two float type (Single) parameters – the scale and DPI, which are used in the calculation of the shape size when the shape is rendered. The method returns the Size object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance, for example when creating a new Bitmap from the rendered output.
 

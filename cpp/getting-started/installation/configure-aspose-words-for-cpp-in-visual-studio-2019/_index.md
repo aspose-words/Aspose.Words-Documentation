@@ -9,7 +9,7 @@ Aspose.Words for C++ API works with Visual Studio 2017 or higher versions. For w
 
 For working with Visual Studio 2019, please follow the steps given below to manually configure Aspose.Words for C++ in Visual Studio 2019.
 
-## **Step - 1**
+## Step - 1
 
 1. Open Project Property
 2. Go to C/C++ -> General
@@ -17,7 +17,7 @@ For working with Visual Studio 2019, please follow the steps given below to manu
 - Aspose.Words.Cpp\include
 - CodePorting.Native.Cs2Cpp_vc14_20.7\include
 
-## **Step - 2**
+## Step - 2
 
 1. Open Project Property
 2. Go to Linker -> Input
@@ -31,7 +31,7 @@ For working with Visual Studio 2019, please follow the steps given below to manu
 - Aspose.Words.Cpp\lib\x64\Debug\Aspose.Words.Cpp_vc14x64d.lib
 - CodePorting.Native.Cs2Cpp_vc14_20.7\lib\aspose_cpp_vc14x64d.lib
 
-## **Step - 3**
+## Step - 3
 
 1. Open Project Property
 2. Go to Build Events -> Post-Build Event

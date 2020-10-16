@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 10.5.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 10.5 Release Notes**
+## Aspose.Words for Java 10.5 Release Notes
 
 This regular monthly release delivers 104 new features and fixes. 
 
@@ -25,4 +25,4 @@ Some of the highlights are:
   Linked textboxes are no longer become unlinked after open/save.
   Printing documents is supported.
   Rendering of document pages to a specified size or scale is supported. 
-## **All Fixes**
+## All Fixes

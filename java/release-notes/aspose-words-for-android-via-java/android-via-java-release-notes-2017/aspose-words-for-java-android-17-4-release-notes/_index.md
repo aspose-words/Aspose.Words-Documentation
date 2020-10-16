@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java.Android 17.4.](https
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 80+ improvements and fixes in this regular monthly release. The most notable are:
 
@@ -33,7 +33,7 @@ There are 80+ improvements and fixes in this regular monthly release. The most n
 
 Aspose.Words for Java.Android 17.4 also includes the current Aspose.Words for Java features. See the full list of changes in [Aspose.Words for Java 17.4 Release Notes](/words/java/aspose-words-for-java-17-4-release-notes/).
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

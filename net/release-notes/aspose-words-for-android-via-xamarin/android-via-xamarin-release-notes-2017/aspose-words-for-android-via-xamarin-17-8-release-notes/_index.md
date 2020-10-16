@@ -15,7 +15,7 @@ This version also includes all bug fixes and public API changes made in Aspose.W
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - A significant optimization of PDF rendering engine has been carried out.
 - Compression of document structure data and cross-reference table in PDF 1.5 output. Now the output PDF documents with the logical structure are much smaller.

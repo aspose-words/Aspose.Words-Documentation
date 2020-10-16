@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 14.5.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 14.5 Release Notes**
+## Aspose.Words for .NET 14.5 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 84 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -24,7 +24,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
   Image export to HTML, MHTML and EPUB improved 
   FitText attribute supported for all flow formats
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

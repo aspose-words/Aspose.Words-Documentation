@@ -25,9 +25,9 @@ url: /net/sitefinity-content-exporter-module/
     - [Using](#SitefinityContentExporterModule-Using)
     - [Video Demo](#SitefinityContentExporterModule-VideoDemo)
 
-## **Getting Started**
+## Getting Started
 
-### **Introduction**
+### Introduction
 
 The Aspose Sitefinity Content Export add-on allows users to export online content into Microsoft Word or Adobe Acrobat PDF documents using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This add-on makes it very simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Microsoft Word DOC/DOCX or PDF format. It adds a simple **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking the button dynamically exports the content of the page into Microsoft Word or PDF document. The exported file is then automatically presented for downloading to any disk location selected by the user in just couple of seconds.
 
@@ -37,9 +37,9 @@ The Aspose Sitefinity Content Export add-on allows users to export online conten
 
 ![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/05/Sitefinity-exported-pdf-document-using-Aspose.Words_.png)
 
-### **System Requirements and Supported Platforms**
+### System Requirements and Supported Platforms
 
-#### **System Requirements**
+#### System Requirements
 
 In order to setup Aspose.Words .NET for Sitefinity add-ons you need to have the following requirements met:
 
@@ -47,15 +47,15 @@ In order to setup Aspose.Words .NET for Sitefinity add-ons you need to have the 
 
 Please feel free to contact us if you have any issues setting up this Sitefinity Add-on.
 
-#### **Supported Platforms**
+#### Supported Platforms
 
 The Add-on is supported on all versions of
 
 - Sitefinity CMS running on ASP.NET 4.0
 
-### **Support, Extend and Contribute**
+### Support, Extend and Contribute
 
-#### **Support**
+#### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -76,11 +76,11 @@ You can log any issues or suggestions related to Aspose.Words .NET for Sitefinit
 
 - [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Import-Word-Documents-to-f0358271/view/Discussions#content)
 
-#### **Extend and Contribute**
+#### Extend and Contribute
 
 Sitefinity Export to Word and PDF and Aspose .NET Word Import for Sitefinity are open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 
-#### **Source Code**
+#### Source Code
 
 You can get the latest source code from one of the following locations
 
@@ -89,7 +89,7 @@ You can get the latest source code from one of the following locations
 - [Sourceforge ](https://sourceforge.net/p/asposesitefinity/code/ci/master/tree/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/src)
 
-#### **How to configure the source code**
+#### How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 
@@ -101,11 +101,11 @@ Please follow these simple steps to get started
 1. Open Visual Studio 2010 and Choose **File** > **Open Project**
 1. Browse to the latest source code that you have downloaded and open **Aspose.SiteFinity.ContentExport.sln** or **Aspose.SiteFinity.WordImport.sln**
 
-## **Installation and Usage**
+## Installation and Usage
 
-### **Downloading and Installing**
+### Downloading and Installing
 
-#### **Downloading**
+#### Downloading
 
 You can download Aspose .NET Content Exporter for Sitefinity module from one of the following locations
 
@@ -114,7 +114,7 @@ You can download Aspose .NET Content Exporter for Sitefinity module from one of 
 - [Sourceforge ](https://sourceforge.net/projects/asposesitefinity/files/)
 - [Bitbucket  ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads)
 
-#### **Installing**
+#### Installing
 
 Once downloaded, please follow these steps to install the Add-on into your Sitefinity website:
 
@@ -148,9 +148,9 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
 
 ![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/05/Registering-Aspose-Sitefinity-Content-Export-Add-on-in-Sitefinity.png)
 
-### **Using and Video Demo**
+### Using and Video Demo
 
-#### **Using**
+#### Using
 
 After you have installed and configured the Aspose Sitefinity Content Export add-on it is really simple to start using it on your website. Please follow these simple steps to get started:
 
@@ -164,6 +164,6 @@ After you have installed and configured the Aspose Sitefinity Content Export add
 
 You have successfully added Aspose Sitefinity Content Export to your page. Two buttons, **Export to Word** and **Export to Pdf**, now appear on the page. Anyone can simply click a buttons and export the content of the page into a Microsoft Word or PDF document.
 
-#### **Video Demo**
+#### Video Demo
 
 Please check [the video](https://www.youtube.com/watch?v=mopEZvGn_30) below to see the module in action.

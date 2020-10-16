@@ -22,7 +22,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **General**
+## General
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -48,14 +48,14 @@ See the following links in the documentation for further information:
 |Background |Yes |A background of a Word document can be a solid color or an image. |- **Document.BackgroundShape**|
 |Thumbnail |Planned | |- **BuiltInDocumentProperties.Thumbnail**|
 
-## **Embedded Fonts**
+## Embedded Fonts
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |N/A | | |
 |Access and Use Embedded Fonts |N/A | | |
 
-## **Bibliography**
+## Bibliography
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -63,7 +63,7 @@ See the following links in the documentation for further information:
 |Sources/Citations |Yes |Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. | |
 |Citation Style |Yes |Document-wide citation style is preserved but there is no access to this setting in the DOM. | |
 
-## **Protection**
+## Protection
 
 Aspose.Words supports most document protection features.
 
@@ -89,7 +89,7 @@ See the following links in the documentation for further information:
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | |<p>- **Document.WriteProtection** </p><p>- **WriteProtection.IsWriteProtected**</p>|
 
-## **Settings**
+## Settings
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

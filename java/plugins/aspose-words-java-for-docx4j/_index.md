@@ -5,9 +5,9 @@ weight: 20
 url: /java/aspose-words-java-for-docx4j/
 ---
 
-## **Introduction**
+## Introduction
 
-### **docx4j**
+### docx4j
 
 docx4j is an open source (ASLv2) Java library for creating and manipulating Microsoft Open XML Word docx files.
 It is similar to Microsoft’s OpenXML SDK, but for Java. docx4j uses JAXB to create the in-memory object representation.
@@ -15,7 +15,7 @@ You’ll need to take the time to understand JAXB, and the Open XML file structu
 
 Read more at [docx4java.org](http://www.docx4java.org/trac/docx4j)
 
-### **Aspose.Words for Java**
+### Aspose.Words for Java
 
 Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
 
@@ -23,15 +23,15 @@ Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, Ope
 
 Read more at [aspose.com](http://www.aspose.com/java/word-component.aspx)
 
-### **Aspose.Words Java for docx4j**
+### Aspose.Words Java for docx4j
 
 Project Aspose.Words for docx4j shows how different tasks can be performed using Aspose.Words Java APIs in comparison with docx4j. The project also covers the features that are only available in Aspose.Words APIs but not in docx4j for dealing with word processing documents.
 
 This project is helpful for developers who want to compare docx4j with Aspose.Words OR migrate from docx4j to Aspose.Words.
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 Following are the system requirements to execute Aspose.Words Java for docx4j:
 
@@ -39,7 +39,7 @@ Following are the system requirements to execute Aspose.Words Java for docx4j:
 - Downloaded Aspose.Words component.
 - Downloaded docx4j libraries.
 
-### **Supported Platforms**
+### Supported Platforms
 
 Following are the supported platforms:
 
@@ -47,21 +47,21 @@ Following are the supported platforms:
 - docx4j 3.1.0 or above libraries.
 - Java IDE (Eclipse, NetBeans, IntelliJ, ...).
 
-## **Downloading**
+## Downloading
 
 Following releases of running examples are available to download on all of the below mentioned social coding sites:
 
-### **CodePlex**
+### CodePlex
 
 - [Aspose.Words Java for Docx4j - v 1.0](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 
-### **GitHub**
+### GitHub
 
 - [Aspose.Words Java for Docx4j - v 1.0](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
 To configure **Aspose.Words for Java API**, include the Aspose repository URL and Aspose.Words for Java API maven dependency in your **pom.xml** as following:
 
-### **Aspose Maven Repository**
+### Aspose Maven Repository
 
 {{< highlight csharp >}}
 <repositories>
@@ -73,7 +73,7 @@ To configure **Aspose.Words for Java API**, include the Aspose repository URL an
 </repositories>
 {{< /highlight >}}
 
-### **Aspose.Words for Java Maven Dependency**
+### Aspose.Words for Java Maven Dependency
 
 {{< highlight csharp >}}
 <dependency>
@@ -86,9 +86,9 @@ To configure **Aspose.Words for Java API**, include the Aspose repository URL an
 
 **Note:** Please use the available latest version of the Aspose API.
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -99,22 +99,22 @@ You can log any issues or suggestions related to Aspose.Words Java for Docx4j us
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Aspose.Words Java for Docx4j is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 
-### **Source Code**
+### Source Code
 
 You can get the latest source code from one of the following locations
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j)
 
-### **How to configure the source code**
+### How to configure the source code
 
 Please follow these simple steps in order to open and extend the source code while using:
 
-#### **Eclipse IDE**
+#### Eclipse IDE
 
 1. Download/Clone the source code.
 1. Open Eclipse and Choose **File** > **Import...**
@@ -122,7 +122,7 @@ Please follow these simple steps in order to open and extend the source code wh
 1. Browse to **select root directory** of the latest source code that you have downloaded.
 1. Click **Finish** to successfully import the downloaded project.
 
-#### **NetBeans IDE**
+#### NetBeans IDE
 
 1. Download/Clone the source code.
 1. Open NetBeans and Choose **File** > **New Project...**
@@ -131,7 +131,7 @@ Please follow these simple steps in order to open and extend the source code wh
 1. In **Existing Sources** tab: Click **Add Folder...** and browse to select root directory of the latest source code that you have downloaded.
 1. Click **Finish** to successfully create the downloaded project.
 
-## **Sample Code Examples**
+## Sample Code Examples
 
 This section includes the following topics
 

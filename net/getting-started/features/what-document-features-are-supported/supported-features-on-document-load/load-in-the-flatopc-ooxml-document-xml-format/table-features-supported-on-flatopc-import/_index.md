@@ -20,7 +20,7 @@ Using Aspose.Words you can access and modify all features and formatting of a ta
 
 {{% /alert %}} 
 
-## **Table**
+## Table
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -37,7 +37,7 @@ Using Aspose.Words you can access and modify all features and formatting of a ta
 |Table Shading|Yes| |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
 |Hidden|Yes|There is currently no API to access or modify this property on Table or Row.| |
 
-## **Floating Tables**
+## Floating Tables
 
 Floating tables are supported during import and export. However, there is currently no API to access or modify the floating position of a table.
 
@@ -45,7 +45,7 @@ Floating tables are supported during import and export. However, there is curren
 | :- | :- | :- | :- |
 |Floating Tables|Yes| | |
 
-## **Table Borders**
+## Table Borders
 
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document. If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first. See the following links in the documentation for further information:
 
@@ -57,7 +57,7 @@ Table borders are stored in the rows of the table. This mimics the structure of 
 | :- | :- | :- | :- |
 |Table Borders|Yes| | |
 
-## **Rows**
+## Rows
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -66,7 +66,7 @@ Table borders are stored in the rows of the table. This mimics the structure of 
 |Height|Yes| |- [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/height)|
 |Height Rule|Yes| |- [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/heightrule)|
 
-## **Cells**
+## Cells
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

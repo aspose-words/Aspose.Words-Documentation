@@ -5,7 +5,7 @@ weight: 30
 url: /java/perl-and-aspose-words-for-java/
 ---
 
-## **Prerequisites**
+## Prerequisites
 
 {{% alert color="primary" %}} 
 
@@ -21,7 +21,7 @@ Download the [latest version of Aspose.Words for Java](http://www.aspose.com/com
 
 {{% /alert %}} 
 
-## **Hello World!**
+## Hello World!
 
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
@@ -71,7 +71,7 @@ builder.Write("Hello world!");
 doc.Save("C:\Temp\out.doc");
 {{< /highlight >}}
 
-## **Simple Mail Merge**
+## Simple Mail Merge
 
 Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 
@@ -108,7 +108,7 @@ connection.Close();
 doc.Save("C:\Temp\out.doc");
 {{< /highlight >}}
 
-## **Save or Convert a Document**
+## Save or Convert a Document
 
 With Aspose.Words, you can save a document in a variety of formats. For the full list of formats and identifiers see the **SaveFormat** enumeration. 
 
@@ -116,9 +116,9 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 
 {{< highlight csharp >}}
 
-#Save a document in a variety of formats.
+### a document in a variety of formats.
 
-#SaveFormat.Doc = 1, therefore 1 is passed as a parameter to indicate save format.
+#### = 1, therefore 1 is passed as a parameter to indicate save format.
 
 doc.Save_2("C:\Temp\out.doc", 1);
 doc.Save_2("C:\Temp\out.txt", 2);

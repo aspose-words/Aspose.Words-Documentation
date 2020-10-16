@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Android via Java 20.2](ht
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Gradients rendering improvements.
 - Added support of RGBA_F16 images.
@@ -26,7 +26,7 @@ This page contains release notes for [Aspose.Words for Android via Java 20.2](ht
 
 Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements, and fixes included in the Aspose.Words for .NET 20.2 and Aspose.Words for Java 20.2 are also included in this 'Aspose.Words for Android via Java' 20.2.
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

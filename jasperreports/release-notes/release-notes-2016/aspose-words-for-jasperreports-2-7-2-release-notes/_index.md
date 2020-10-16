@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for JasperReports 2.7.2](http
 
 {{% /alert %}} 
 
-## **Important note:**
+## Important note:
 
 Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
 
@@ -22,7 +22,7 @@ Starting from release **1.9.0** there are several versions of jar library (neces
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key |Summary |Category |
 | :- | :- | :- |
@@ -30,7 +30,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 |WORDSJSP-180 |Subreport contents are exported incorrectly in Docx |Bug|
 |WORDSJSP-181 |java.lang.NullPointerException is thrown while exporting list of .Jrprint files to Doc/Docx |Bug|
 
-## **Configuration Option Changes**
+## Configuration Option Changes
 
 We have introduced a new configuration option USE_POSITIONING_TABLES to control table position. By default, its value is false. This means that Aspose Words for JasperReports will try to avoid positioning tables where possible. However, you can enable this option (set to true) if you need to force usage of positioning tables (for example, for complex reports with hierarchy of subreports, frames etc).
 

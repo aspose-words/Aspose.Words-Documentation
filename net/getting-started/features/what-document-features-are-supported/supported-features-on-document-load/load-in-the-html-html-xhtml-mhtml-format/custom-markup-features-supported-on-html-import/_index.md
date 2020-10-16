@@ -11,7 +11,7 @@ Custom Markup are elements that added to parts of the document which allow extra
 
 {{% /alert %}} 
 
-## **CustomXML**
+## CustomXML
 
 Represented in Aspose.Words DOM as a CustomXmlMarkup node. You can create and remove CustomXmlMarkup in a document. You can also access the properties of the XML markup node. It is planned to import custom tags from HTML as CustomXML around document elements in the document. See the following link in the documentation for further information:
 
@@ -21,13 +21,13 @@ Represented in Aspose.Words DOM as a CustomXmlMarkup node. You can create and r
 | :- | :- | :- | :- |
 |CustomXML|Planned| | |
 
-## **Content Controls (Structured Document Tags)**
+## Content Controls (Structured Document Tags)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Content Controls (Structured Document Tags)|N/A| | |
 
-## **Smart Tags**
+## Smart Tags
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

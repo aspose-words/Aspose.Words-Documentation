@@ -19,7 +19,7 @@ You can try this functionality with our [Free online signature](https://products
 
 {{% /alert %}}
 
-## **Digital Signatures are not Preserved on Open and Save**
+## Digital Signatures are not Preserved on Open and Save
 
 An important point to note is that a document loaded and then saved using Aspose.Words will lose any digital signatures signed on the document. This is by design as a digital signature ensures that the content has not been modified and furthermore authenticates the identify of who signed the document. These principles would be invalidated if the original signatures were carried over to the resulting document.
 
@@ -35,11 +35,11 @@ You can also check if a document has digital signatures after loading by checkin
 
 {{% /alert %}} 
 
-## **Digital Signatures on Macros (VBA Projects)**
+## Digital Signatures on Macros (VBA Projects)
 
 Digital signatures on macros cannot be accessed or signed. This is because Aspose.Words does not directly deal with macros in a document. However digital signatures on macros are preserved when exporting the document back to any word format. These signatures can be preserved on VBA code because the binary content of the macros are not changed even if the document itself is modified.
 
-## **Create Digitally Signed PDF Documents**
+## Create Digitally Signed PDF Documents
 
 A generated PDF document can be signed during saving. Currently only PDF documents can be signed in the same way. Other formats are to be supported in future versions. To sign an output PDF document firstly the **X509Certificates** namespace needs to be imported as shown below. This gives access to the necessary classes required for the next steps.
 
@@ -51,7 +51,7 @@ A certificate needs to be loaded from a source i.e. from disk or from a certific
 
 The .NET framework provides numerous ways in which to load a certificate. These details are out of the scope of this article, however further information on this can be found on the MSDN page [here](http://msdn.microsoft.com/en-us/library/system.security.cryptography.x509certificates.x509certificate2.aspx).
 
-### **Access and Verify Digital Signatures**
+### Access and Verify Digital Signatures
 
 A document can have multiple digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
 
@@ -61,7 +61,7 @@ Each signature can also be individually validated by calling DigitalSignature.Is
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-AccessAndVerifySignature-AccessAndVerifySignature.cs" >}}
 
-## **Signing Word Documents**
+## Signing Word Documents
 
 DigitalSignatureUtil class provides methods for signing document. DigitalSignatureUtil.Sign method signs source document using given CertificateHolder with digital signature and writes signed document to destination stream. 
 
@@ -73,7 +73,7 @@ Below example shows how to sign encrypted document. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SigningEncryptedDocument.cs" >}}
 
-### **Signing Word document with Signature Line**
+### Signing Word document with Signature Line
 
 You can sign source document using given CertificateHolder and SignOptions with digital signature and writes signed document to destination file. Using SignOptions class you can specify options for document signing. Below example shows how to create new signature line and sign document. 
 
@@ -83,13 +83,13 @@ Below example shows how to modify existing signature line and sign document. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SigningExistingSignatureLine.cs" >}}
 
-### **Signing Word Document using Signature Provider Identifier**
+### Signing Word Document using Signature Provider Identifier
 
 Below example shows how to sign Word document using signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of {00000000-0000-0000-0000-000000000000} for its default signature provider.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SetSignatureProviderID.cs" >}}
 
-### **Create New Signature Line Sign Word Document using Provider Identifier**
+### Create New Signature Line Sign Word Document using Provider Identifier
 
 Below example shows how to create signature line and sign Word document using signature provider identifier.
 

@@ -32,7 +32,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **General Formatting**
+## General Formatting
 
 Paragraph style and formatting can be imported from HTML in the form of tags such as &lt;h1&gt; to &lt;h6&gt; or from &lt;p&gt; tags that have CSS styles. 
 
@@ -55,7 +55,7 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |Suppress Line Numbers |Planned | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Planned | |- **ParagraphFormat.SurpressAutoHyphens**|
 
-## **Indents**
+## Indents
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -66,7 +66,7 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |Mirror Indents |N/A | | |
 |Automatically Adjust Right Indent |N/A | | |
 
-## **Spacing**
+## Spacing
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -77,7 +77,7 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |No Space between Conforming Paragraphs |Planned | |- **ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle**|
 |Snap To Grid |Planned | | |
 
-## **Keeps and Breaks**
+## Keeps and Breaks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -86,7 +86,7 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 |Keep Lines Together |Yes |Imported from style attribute with "page-break-inside:avoid". |- **ParagraphFormat.KeepTogether**|
 |Page Break Before |Yes |Imported from "page-break-before" on style attribute. |- **ParagraphFormat.PageBreakBefore**|
 
-## **Text Frames**
+## Text Frames
 
 This is the legacy text frames from Word 97, not to be confused with the Autoshape Textbox which is discussed under Drawing Objects.
 
@@ -100,7 +100,7 @@ These are round-tripped back to a document with similar formatting but not as ac
 | :- | :- | :- | :- |
 |Text Frames |Planned | | |
 
-## **Tab Stops**
+## Tab Stops
 
 All features of tab stops are supported in Aspose.Words except for relative tab stops.
 
@@ -121,7 +121,7 @@ See the following link in the documentation for further information:
 |Alignment: Left, Center, Right, Decimal, Bar |Planned | |- **TabStop.Alignment**|
 |Leader |Planned | |- **TabStop.Leader**|
 
-## **Drop Caps**
+## Drop Caps
 
 Drop Caps are partially supported and preserved during document conversion. A drop cap is a text frame which is imported as a separate paragraph (from the rest of the paragraph as seen in the source document).
 
@@ -140,7 +140,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Drop Caps |Yes | | |
 
-## **Borders**
+## Borders
 
 Borders are imported from border-style, border-width etc on style or from indivudal borders using border-xxx-style and border-xxx-width etc style attributes.
 
@@ -156,7 +156,7 @@ A div with embedded or linked CSS containing a border style has all of the parag
 |Width |Yes | |- **Border.LineWidth**|
 |Distance from Text |Yes |Imported from "padding-xxx" settings. |- **Border.DistanceFromText**|
 
-## **Shading**
+## Shading
 
 Fill color imported from "background-color" on style attribute.
 
@@ -170,7 +170,7 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Shading |Yes | | |
 
-## **Asian Typography**
+## Asian Typography
 
 Asian Typography settings is fully supported during conversion. However there is currently no API to access or modify these settings.
 

@@ -13,7 +13,7 @@ Aspose.Words layout engine imitates the way the Microsoft Word’s page layout e
 
 Some examples of using **PdfSaveOptions** are provided below.
 
-## **Creating a PDF/A Document with Fillable Forms**
+## Creating a PDF/A Document with Fillable Forms
 
 [PDF/A](https://docs.fileformat.com/view/pdf/a/) is an ISO-standardized version of PDF specialized for use in the archiving and long-term preservation of electronic documents. To specify a PDF standards compliance level, use the [Compliance](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#Compliance) property. Due to preservation specifics, [PDF/A](https://wiki.fileformat.com/view/pdf/a/) document must embed all fonts and prohibit encryption. 
 
@@ -29,7 +29,7 @@ The code example below shows how to save a document as PDF/A with fillable forms
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageComppression.java" >}}
 
-## **Exporting Document Structure and Custom Properties**
+## Exporting Document Structure and Custom Properties
 
 The [ExportDocumentStructure](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#ExportDocumentStructure) property enables you to export document structure to PDF output.
 
@@ -43,7 +43,7 @@ Aspose.Words also allows you to export document custom properties to PDF, which 
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.java" >}}
 
-## **Exporting Outlines from Bookmarks and Headings in Output PDF**
+## Exporting Outlines from Bookmarks and Headings in Output PDF
 
 If you want to export bookmarks as outlines in output PDF, you can use the [DefaultBookmarksOutlineLevel](https://apireference.aspose.com/java/words/com.aspose.words/outlineoptions#DefaultBookmarksOutlineLevel) property. This property specifies the default level in the document outline, at which Microsoft Word bookmarks are displayed. If the document contains bookmarks in the header/footer of the document, you can set the [HeaderFooterBookmarksExportMode](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#HeaderFooterBookmarksExportMode) property to [First](https://apireference.aspose.com/java/words/com.aspose.words/headerfooterbookmarksexportmode#FIRST) or [All](https://apireference.aspose.com/java/words/com.aspose.words/headerfooterbookmarksexportmode#ALL) in order to specify how they are exported in output PDF. The bookmarks in headers/footers are not exported when the value of **HeaderFooterBookmarksExportMode** is [None](https://apireference.aspose.com/java/words/com.aspose.words/headerfooterbookmarksexportmode#NONE).
 
@@ -73,7 +73,7 @@ A bookmark or heading navigation may have different appearances in various PDF v
 
 {{% /alert %}} 
 
-## **Downsampling Images to Reduce Document Size**
+## Downsampling Images to Reduce Document Size
 
 Aspose.Words provides an ability to downsample images in order to reduce the output PDF size, using the [DownsampleOptions](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#DownsampleOptions) property. Downsampling is enabled by default in the [DownsampleImages](https://apireference.aspose.com/java/words/com.aspose.words/downsampleoptions#DownsampleImages) property.
 
@@ -85,11 +85,11 @@ The code example below displays how to change the resolution of images in an ou
 
 Resolution is calculated according to the real image size on the page.
 
-## **Embedding Fonts in Adobe PDF Format**
+## Embedding Fonts in Adobe PDF Format
 
 Aspose.Words also enables you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section ["Using TrueType Fonts"](/words/java/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
 
-### **When to Use Full Fonts and When to Subset**
+### When to Use Full Fonts and When to Subset
 
 There is a way to specify an option for Aspose.Words to embed full fonts. Further details, along with some advantages and disadvantages of each setting are described in the table below.
 
@@ -98,7 +98,7 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 |Full|Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
 |Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If multiple PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
 
-### **Embedding Full Fonts in PDF**
+### Embedding Full Fonts in PDF
 
 The [EmbedFullFonts](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#EmbedFullFonts) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
 
@@ -119,7 +119,7 @@ You can download the template file for these examples from [Aspose.Words GitHu
 
 {{% /alert %}} 
 
-## **How to Control Embedding Core Fonts and Windows Standard Fonts**
+## How to Control Embedding Core Fonts and Windows Standard Fonts
 
 Core fonts and Windows Standard fonts are the “standard” sets of fonts, which are usually present on the target machine or provided by the document reader, therefore they do not need to be embedded in the output PDF. By not embedding these fonts, you can decrease the size of rendered PDF documents and yet maintain portability.
 
@@ -128,7 +128,7 @@ Aspose.Words provides options to choose how fonts are exported to PDF. You can c
 - Since these options are mutually exclusive, you should choose only one at a time.
 - When saving with PDF/A-1 compliance, all used fonts must be embedded with the PDF document. When saving with this compliance, the [UseCoreFonts](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#UseCoreFonts) property must be set to false and the [FontEmbeddingMode](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#FontEmbeddingMode) property must be set to [EmbedAll](https://apireference.aspose.com/java/words/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/usecorefonts)
 
-### **Embedding Core Fonts**
+### Embedding Core Fonts
 
 The option to embed Core fonts can be enabled or disabled by using the [UseCoreFonts](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#UseCoreFonts) property. When it is set to true, the following most popular “True Type” fonts (Base 14 fonts) are not embedded in the output PDF document:
 
@@ -157,7 +157,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 {{% /alert %}} 
 
-### **Embedding System Fonts**
+### Embedding System Fonts
 
 This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/java/words/com.aspose.words/pdfsaveoptions#FontEmbeddingMode)[ ](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedstandardwindowsfonts)property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/java/words/com.aspose.words/pdffontembeddingmode#EMBED_NONSTANDARD), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/java/words/com.aspose.words/pdffontembeddingmode#EMBED_NONE), Aspose.Words do not embed any fonts.
 

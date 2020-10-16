@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 18.3](http://maven.a
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 71 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -29,7 +29,7 @@ There are 71 improvements and fixes in this regular monthly release. The most no
 - Fixed a symbol positioning bug when rendering MathML equations
 - A reflection effect is now applied correctly for 3D rotated WordArt objects
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -104,17 +104,17 @@ There are 71 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16399|Empty table rows collapse after HTML round-trip|Regression|
 |WORDSNET-15886|Aspose.Words for .NET 17.9 generated DOC appending issue in MS Word|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.3. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Supported Dynamic Coloring of Chart Series and Individual Series Points for LINQ Reporting Engine**
+### Supported Dynamic Coloring of Chart Series and Individual Series Points for LINQ Reporting Engine
 
 Related issue: WORDSNET-15007
 
 The "[Using Charts to Represent Sequential Data](/words/java/using-charts-to-represent-sequential-data/)" section and its subsections in the engine's documentation were updated to describe the change.
 
-### **PdfSaveOptions.EscapeUri Property Added**
+### PdfSaveOptions.EscapeUri Property Added
 
 Related issue: WORDSNET-16121
 
@@ -142,7 +142,7 @@ options.setEscapeUri(false);
 doc.save("out.pdf", options);
 {{< /highlight >}}
 
-### **Added Support of CssClassNamesPrefix in HtmlSaveOptions**
+### Added Support of CssClassNamesPrefix in HtmlSaveOptions
 
 Related issue: WORDSNET-16335
 
@@ -182,11 +182,11 @@ saveOptions.setCssClassNamePrefix("pfx_");
 doc.save(fileName, saveOptions);
 {{< /highlight >}}
 
-### **Obsolete method FormFieldCollection.Remove was removed**
+### Obsolete method FormFieldCollection.Remove was removed
 
 Obsolete method FormFieldCollection.Remove was removed. Please use the FormField.RemoveField method instead.
 
-### **Obsolete properties were removed from MailMerge class**
+### Obsolete properties were removed from MailMerge class
 
 Obsolete property MailMerge.RemoveEmptyParagraphs was removed. Please use the MailMerge.CleanupOptions property instead.
 
@@ -194,7 +194,7 @@ Obsolete property MailMerge.RemoveEmptyRegions was removed. Please use the MailM
 
 Obsolete property MailMerge.RtlCleanupMode was removed.
 
-### **Obsolete properties were removed from PdfSaveOptions**
+### Obsolete properties were removed from PdfSaveOptions
 
 Following obsolete properties were removed from the PdfSaveOptions class:
 
@@ -210,6 +210,6 @@ Following obsolete properties were removed from the PdfSaveOptions class:
 |PdfSaveOptions.DownsampleResolution|PdfSaveOptions.DownsampleOptions.Resolution|
 Also removed obsolete PdfDigitalSignatureDetails constructor and PdfDigitalSignatureDetails.Certificate property which works System.Security.Cryptography.X509Certificates.X509Certificate2. CertificateHolder should be used instead.
 
-### **Obsolete value GeneralFormat.Auieo was removed**
+### Obsolete value GeneralFormat.Auieo was removed
 
 Obsolete value GeneralFormat.Auieo was removed. Please use the GeneralFormat.Aiueo value instead.

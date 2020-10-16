@@ -5,7 +5,7 @@ weight: 10
 url: /java/check-format-in-python/
 ---
 
-## **Aspose.Words - Check Format**
+## Aspose.Words - Check Format
 
 **Python Code**
 
@@ -58,7 +58,7 @@ print "Unknown format."
     shutil.copy(fileName, destFile)
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Check Format (Aspose.Words)** from any of the below mentioned social coding sites:
 

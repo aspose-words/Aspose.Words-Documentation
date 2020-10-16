@@ -5,11 +5,11 @@ weight: 30
 url: /java/convert-document-to-other-formats/
 ---
 
-## **Microsoft Word - Conversion to Other Formats**
+## Microsoft Word - Conversion to Other Formats
 
 Documents can be converted to other formats using Save As option in the File menu.
 
-## **Aspose.Words - Conversion to Other Formats**
+## Aspose.Words - Conversion to Other Formats
 
 To convert a document to other formats using Aspose.Words, simply invoke the save() method of Document class and specify a file name with the desired and supported extension.
 
@@ -31,7 +31,7 @@ doc.save(dataDir + "Aspose_DocToTxt.txt",SaveFormat.TEXT); //Save the document i
 doc.save(dataDir + "Aspose_DocToJPG.jpg",SaveFormat.JPEG); //Save the document in JPEG format.
 {{< /highlight >}}
 
-## **Apache POI WP - Conversion to Other Formats**
+## Apache POI WP - Conversion to Other Formats
 
 The WordToHtmlConverter is used to convert a DOC to HTML format using Apache POI.
 Apache POI also allows to covert in FO and text format.
@@ -66,12 +66,12 @@ outputStream.write(out.toByteArray());
 outputStream.close();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/converter/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/converter)

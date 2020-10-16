@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 16.3.0](https://www.
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 87 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -20,7 +20,7 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 - Shape and OfficeMath can now be saved to SVG.
 - Support for RC4 encryption.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -112,15 +112,15 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13255|Infinite Loop when loading HTML with a specific SVG into Aspose.Words|Performance|
 |WORDSNET-12611|Cells width are not correct in output Docx/Pdf|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 16.3.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Renamed GetOpaqueRectangleInPixels to GetOpaqueBoundsInPixels in NodeRendererBase**
+### Renamed GetOpaqueRectangleInPixels to GetOpaqueBoundsInPixels in NodeRendererBase
 
 WORDSNET-13230 (Tidy up NodeRendererBase class) has been resolved. We renamed GetOpaqueRectangleInPixels to GetOpaqueBoundsInPixels for names consistency and introduced GetBoundsInPixels method for consistency with other properties.
 
-### **Reworked public API for PlainTextDocument creation (WORDSNET-13321)**
+### Reworked public API for PlainTextDocument creation (WORDSNET-13321)
 
 Breaking API changes:
 
@@ -128,7 +128,7 @@ Breaking API changes:
 - PlaintextDocument class renamed to PlainTextDocument
 - Added 4 public constructors to the PlainTextDocument class with signatures corresponding to the removed static Document.ExtractText methods
 
-### **Shape and OfficeMath nodes can be saved as SVG**
+### Shape and OfficeMath nodes can be saved as SVG
 
 WORDSNET-12330 - (Provide API to convert Shape and OfficeMath nodes SVG) has been resolved.
 
@@ -142,7 +142,7 @@ math.GetMathRenderer().Save(@"C:\Temp\formula.png", new ImageSaveOptions(SaveFor
 
 Also, now it is possible to pass SaveFormat.Svg into ImageSaveOptions, so OfficeMath and Shape nodes now can be save to SVG.
 
-### **WORDSNET-12866 - Added feature to get-set AspectRatioLocked property of Shape.**
+### WORDSNET-12866 - Added feature to get-set AspectRatioLocked property of Shape.
 
 Starting from 16.3.0 Version, Aspose.Words supports AspectRatioLocked property of Shape. 
 
@@ -157,6 +157,6 @@ shape.AspectRatioLocked = true;
 
 Plase none:  it is possible to get/set AspectRatioLocked for child shapes (mimic MS Word behavior), but AspectRatioLocked has effect only for top level shapes!
 
-### **WORDSNET-13146 - Improvement of transparent image rendering to PDFA-1**
+### WORDSNET-13146 - Improvement of transparent image rendering to PDFA-1
 
 PDF/A-1 specification prohibits transparency. In order to provide better output AW blends transparent images with white background. Previously images were blended only with PdfImageCompression.Auto. With PdfImageCompression.Jpeg transparent images were rendered by simply stripping alpha channel. Now images are blended for both PdfImageCompression.Auto and PdfImageCompression.Jpeg.

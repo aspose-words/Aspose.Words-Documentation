@@ -5,7 +5,7 @@ weight: 290
 url: /java/how-to-insert-and-work-with-the-table-of-contents-field/
 ---
 
-## **Insert and Work with the Table of Contents Field**
+## Insert and Work with the Table of Contents Field
 
 Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just a few lines of code.
 
@@ -17,7 +17,7 @@ This article outlines how to work with the table of contents field and demonstra
 - How to modify the styles and appearance of the table of contents.
 - How to remove an entire TOC field along with all entries form the document.
 
-### **Insert a Table of Contents Programmatically**
+### Insert a Table of Contents Programmatically
 
 The [DocumentBuilder.insertTableOfContents(java.lang.String)](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/insertTableOfContents\(java.lang.String\)/) method is called to insert a TOC field into the document at the current position of the DocumentBuilder.
 
@@ -39,7 +39,7 @@ The code demonstrates the new table of contents is inserted into a blank documen
 
 Without these calls when the output document is opened you would find that there would be a TOC field but with no visible content. This is because the TOC field has been inserted but is not yet populated until it’s updated in the document. Further information about this is discussed in the next section.
 
-### **Updating the Table of Contents**
+### Updating the Table of Contents
 
 Aspose.Words allows you to completely update a TOC with only a few lines of code. This can be done to populate a newly inserted TOC or to update an existing TOC after changes to the document have been made.
 
@@ -58,7 +58,7 @@ The first call to [Document.updateFields()](http://www.aspose.com/api/java/words
 
 The second call to [Document.updatePageLayout()](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updatePageLayout\(\)/) will build the layout of the document in memory. This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
 
-### **Using Switches to Control the Behavior of the Table of Contents**
+### Using Switches to Control the Behavior of the Table of Contents
 
 As with any other field, the TOC field can accept switches defined within the field code that controls how the table of contents is built. Certain switches are used to control which entries are included and at what level while others are used to control the appearance of the TOC. Switches can be combined together to allow a complex table of contents to be produced.
 
@@ -71,7 +71,7 @@ The available TOC switches that are supported by Aspose.Words are listed below a
 
 If a switch is not listed here then it is currently unsupported.  All switches will be supported in future versions. We are adding further support to every release.
 
-#### **Entry Marking Switches**
+#### Entry Marking Switches
 
 |Switch|Description|
 | :- | :- |
@@ -83,7 +83,7 @@ If a switch is not listed here then it is currently unsupported.  All switches 
 { TOC \f t }{{< /highlight >}}</p><p>will only include TC fields such as </p><p>{{< highlight csharp >}}
 { TC \f t }{{< /highlight >}}</p><p>The TOC field also has a related switch, the “\L” switch specifies that only TC field with levels within the specified range are included.  </p><p>![todo:image_alt_text](how-to-insert-and-work-with-the-table-of-contents-field_6.png)</p><p><br><br>The TC fields themselves also can have several switches set. These are:</p><p>- \F – Explained above.*</p><p>- \L – Defines which level in the TOC this TC field will appear in. A TOC which uses this same switch will only include this TC field if it’s within the specified range.</p><p>- _\N – The page numbering for this TOC entry is not displayed.Sample code of how to insert TC fields can be found in the next section.</p>|
 
-#### **Appearance Related Switches**
+#### Appearance Related Switches
 
 |Switch|Description|
 | :- | :- |
@@ -94,7 +94,7 @@ If a switch is not listed here then it is currently unsupported.  All switches 
 |**Preserve Tab Entries** <br> *(\W Switch)* |<p>Using this switch will specify that any entries that have a tab character, for instance, a heading that has a tab at the end of the line, will be retained as a proper tab character when populating the TOC. This means the function of the tab character will be present in the TOC and can be used to format the entry. For example, certain entries may use tab stops and tab characters to evenly space out the text. As long as the corresponding TOC level defines the equivalent tab stops then the generated TOC entries will appear with similar spacing. <br><br>In the same situation if this switch was not defined then the tab characters would be converted to white space equivalent as non-functioning tabs. The output would then not appear as expected. </p><p>![todo:image_alt_text](how-to-insert-and-work-with-the-table-of-contents-field_10.png)</p>|
 |**Preserve New Line Entries** <br> *(\X Switch)* <br> |<p>Similar to the switch above, this switch specifies that headings spanning over multiple lines (using newline characters, not separate paragraphs) will be preserved as they are in the generated TOC. For example, a heading which is to spread across multiple lines can use the new line character (Ctrl + Enter or ControlChar.LineBreak) to separate content across different lines. With this switch specified, the entry in the TOC will preserve these new line characters as shown below. <br><br>In this situation, if the switch is not defined then the new line characters are converted to a single white space. </p><p>![todo:image_alt_text](how-to-insert-and-work-with-the-table-of-contents-field_11.png)</p>|
 
-### **Insert TC Fields**
+### Insert TC Fields
 
 You can insert a new TC field at the current position of the DocumentBuilder by calling the DocumentBuilder.InsertField method and specifying the field name as “TC” along with any switches that are needed.
 
@@ -106,9 +106,9 @@ Often a specific line of text is designated for the TOC and is marked with a TC 
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-FindAndInsertATCField-.java" >}}
 
-## **Modify a Table of Contents**
+## Modify a Table of Contents
 
-#### **Change the Formatting of Styles**
+### Change the Formatting of Styles
 
 The formatting of entries in the TOC does not use the original styles of the marked entries, instead, each level is formatted using an equivalent TOC style. For example, the first level in the TOC is formatted with the **TOC1** style, the second level formatted with the **TOC2** style and so on. This means that to change the look of the TOC these styles must be modified. In Aspose.Words these styles are represented by the locale-independent StyleIdentifier.TOC1 through to StyleIdentifier.TOC9 and can be retrieved from the Document.Styles collection using these identifiers.
 
@@ -130,7 +130,7 @@ The following code example shows how to modify the position of the right tab st
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-ModifyPositionOfRightTabStopInTOC.java" >}}
 
-## **Removing a Table of Contents from the Document**
+## Removing a Table of Contents from the Document
 
 A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the TOC field.
 
@@ -140,7 +140,7 @@ Firstly the FieldStart nodes of each TOC are collected and stored. The specified
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-RemoveATableOfContents-.java" >}}
 
-## **Extract Table of Contents**
+## Extract Table of Contents
 
 If you want to extract a table of contents from any Word document, the following code sample can be used.
 

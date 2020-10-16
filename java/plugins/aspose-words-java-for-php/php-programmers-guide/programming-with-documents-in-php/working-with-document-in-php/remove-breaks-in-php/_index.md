@@ -5,7 +5,7 @@ weight: 20
 url: /java/remove-breaks-in-php/
 ---
 
-## **Aspose.Words - Remove Breaks**
+## Aspose.Words - Remove Breaks
 
 **Php Code**
 

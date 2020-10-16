@@ -11,7 +11,7 @@ This page contains release notes of [Aspose.Words for JasperReports 18.1](https:
 
 {{% /alert %}} 
 
-## **Important note:**
+## Important note:
 
 Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
 
@@ -25,7 +25,7 @@ Note that there is no more support of JasperReports 3.7.1 and lower versions.
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

@@ -5,4 +5,4 @@ weight: 10
 url: /cpp/getting-started/
 ---
 
-### **Getting Started**
+

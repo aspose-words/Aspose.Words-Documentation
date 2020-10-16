@@ -5,7 +5,7 @@ weight: 10
 url: /java/autofit-setting-for-tables/
 ---
 
-## **Aspose.Words - Autofit Setting to Tables**
+## Aspose.Words - Autofit Setting to Tables
 
 When creating a table using a visual agent such as Microsoft Word, you will often find yourself using one of the AutoFit options to automatically size the table to the desired width. For instance, you can use the AutoFit to Window option to fit the table to the width of the page and AutoFit to Contents option to allow each cell to grow or shrink to accommodate its contents. 
 
@@ -27,12 +27,12 @@ Table table2 = (Table)doc.getChild(NodeType.TABLE, 1, true);
 table2.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/tables/autofitsettingstotable/AsposeTableAutoFitSettings.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/asposefeatures/tables/autofitsettingstotable/AsposeTableAutoFitSettings.java)

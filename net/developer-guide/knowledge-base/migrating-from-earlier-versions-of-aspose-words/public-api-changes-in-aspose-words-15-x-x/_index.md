@@ -5,7 +5,7 @@ weight: 70
 url: /net/public-api-changes-in-aspose-words-15-x-x/
 ---
 
-###### **This section includes the following topics:** 
+## This section includes the following topics: 
 
 - [Public API Changes in Aspose.Words 15.1.0](/words/net/public-api-changes-in-aspose-words-15-1-0/)
 - [Public API Changes in Aspose.Words 15.2.0](/words/net/public-api-changes-in-aspose-words-15-2-0/)

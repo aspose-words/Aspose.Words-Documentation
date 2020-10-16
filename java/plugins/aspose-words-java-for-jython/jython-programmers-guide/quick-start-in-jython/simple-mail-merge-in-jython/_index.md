@@ -5,7 +5,7 @@ weight: 80
 url: /java/simple-mail-merge-in-jython/
 ---
 
-## **Aspose.Words - Simple Mail Merge**
+## Aspose.Words - Simple Mail Merge
 
 To do Simple Mail Merge using **Aspose.Words Java for Jython**. Here you can see example code.
 
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     SimpleMailMerge()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

@@ -5,7 +5,7 @@ weight: 40
 url: /sharepoint/install-aspose-words-for-sharepoint/
 ---
 
-###### **This section includes the following topics:**
+## This section includes the following topics:
 
 - [System Requirements](/words/sharepoint/system-requirements/)
 - [Installing Aspose.Words for SharePoint](/words/sharepoint/installing-aspose-words-for-sharepoint/)

@@ -5,7 +5,7 @@ weight: 30
 url: /java/applying-formatting-to-table-row-and-cell/
 ---
 
-## **Formatting Overview**
+## Formatting Overview
 
 {{% alert color="primary" %}} 
 
@@ -15,7 +15,7 @@ Aspose.Words provides a rich API to retrieve and apply formatting to a table. Yo
 
 {{% /alert %}} 
 
-## **Applying Formatting on the Table Level**
+## Applying Formatting on the Table Level
 
 To apply formatting to a table you can use the properties available on the corresponding [Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table) node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below.
 
@@ -36,7 +36,7 @@ Below example shows how to build a table with all borders enabled (grid).
 
 Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
 
-## **Applying Formatting on the Row Level**
+## Applying Formatting on the Row Level
 
 Formatting on the row level can be controlled using the [RowFormat](http://www.aspose.com/api/java/words/com.aspose.words/classes/RowFormat) property of the [Row](http://www.aspose.com/api/java/words/com.aspose.words/classes/Row).
 
@@ -46,7 +46,7 @@ Below example shows how to modify the formatting of a table row.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheRowLevel-.java" >}}
 
-## **Applying Formatting on the Cell Level**
+## Applying Formatting on the Cell Level
 
 Formatting on the cell level is controlled using the [CellFormat](http://www.aspose.com/api/java/words/com.aspose.words/classes/CellFormat) property of the [Cell](http://www.aspose.com/api/java/words/com.aspose.words/classes/Cell).
 
@@ -62,7 +62,7 @@ The following code example shows how to set the amount of space (in points) to a
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SetCellPadding.java" >}}
 
-## **Specifying Row Heights**
+## Specifying Row Heights
 
 The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](http://www.aspose.com/api/java/words/com.aspose.words/classes/RowFormat) and [RowFormat.HeightRule](http://www.aspose.com/api/java/words/com.aspose.words/classes/RowFormat) properties of the given [Row](http://www.aspose.com/api/java/words/com.aspose.words/classes/Row).
 
@@ -81,7 +81,7 @@ Below example shows how to create a table that contains a single cell and apply 
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyRowHeights-.java" >}}
 
-## **Applying Borders and Shading**
+## Applying Borders and Shading
 
 Borders and shading can be applied either table wide using [Table.setBorder(int,int,double,java.awt.Color,boolean)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setBorder\(int,int,double,java.awt.Color,boolean\)/), [Table.setBorders(int,double,java.awt.Color)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setBorders\(int,double,java.awt.Color\)/) and [Table.setShading(int,java.awt.Color,java.awt.Color)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setShading\(int,java.awt.Color,java.awt.Color\)/) or to particular cells only by using [CellFormat.getBorders()](http://www.aspose.com/api/java/words/com.aspose.words/classes/cellformat/methods/getBorders\(\)/) and [CellFormat.getShading()](http://www.aspose.com/api/java/words/com.aspose.words/classes/cellformat/properties/getShading\(\)/). Additionally borders can be set on a row by using [RowFormat.getBorders()](http://www.aspose.com/api/java/words/com.aspose.words/classes/rowformat/methods/getBorders\(\)/), however shading cannot be applied in this way.
 
@@ -97,27 +97,27 @@ The following code example shows how to format a table and cell with different b
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyBordersAndShading-.java" >}}
 
-## **Get Distance between Table and Surrounding Text**
+## Get Distance between Table and Surrounding Text
 
 The following code example shows how to get the distance between the table and its surrounding text. 
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-getDistancebetweenTableSurroundingText.java" >}}
 
-## **Table Position**
+## Table Position
 
-### **How to Get the Table's Alignment**
+### How to Get the Table's Alignment
 
 If the table's text wrapping is *Around*, you can get the table's horizontal and vertical alignment using Table.getRelativeHorizontalAlignment() and Table.getRelativeVerticalAlignment() properties. In other cases, you can get a table's inline alignment using Table.getAlignment() property. Below example shows how to get the table's alignment.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetTablePosition.java" >}}
 
-### **Get Position of Floating Table**
+### Get Position of Floating Table
 
 The following code example shows how to get the position of the floating table. 
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetFloatingTablePosition.java" >}}
 
-### **Set Position of Floating Table**
+### Set Position of Floating Table
 
 Aspose.Words API provides the following properties to set the position of the floating table in the word document:
 
@@ -132,13 +132,13 @@ The alignment and distance horizontally and vertically are combined properties a
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-SetRelativeHorizontalOrVerticalPosition.java" >}}
 
-## **Working with Alternative Text of Table**
+## Working with Alternative Text of Table
 
 The title and description of the table provides alternative text-based representations of the information contained in the table. MS Word allows setting this information (*Right-click the table, click Table Properties, click the Alt Text tab, and then set the title and description of the table*). With Aspose.Words you can achieve this by using Table.Title and Table.Description properties. These properties are meaningful for ISO/IEC 29500 compliant DOCX documents. When saved to pre-ISO/IEC 29500 formats, these properties are ignored. The following code example shows how to set the table's title and description properties.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-SetTableTitleandDescription.java" >}}
 
-## **Allow Spacing Between Cells**
+## Allow Spacing Between Cells
 
 MS Word does not add any additional space between the cells in a table by default. You can find this option in the table's properties in MS Word. You can get or set "Allow spacing between cells" option using Table.AllowCellSpacing property. The following code example shows how to set space between cells.
 

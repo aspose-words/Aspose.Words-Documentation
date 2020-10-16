@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 13.4.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 13.4 Release Notes**
+## Aspose.Words for .NET 13.4 Release Notes
 
-### **What's New**
+### What's New
 
 - Improved memory performance for large documents (now code uses ~20% less memory for 1Gb+ documents)
 - DOC and DOCX document can be signed with digital signatures, also signatures can be removed;
@@ -28,7 +28,7 @@ This page contains release notes for [Aspose.Words for .NET 13.4.0](https://www.
 - Fixed issue with Arabic-Indic numerals inside SDT
 - Aspose.Words allows to write OOXML documents that do not cause Compatibility Mode when opened in MS Word 2010-2013 
 
-## **All Fixes**
+## All Fixes
 
 |Key|Summary|Category|
 | :- | :- | :- |

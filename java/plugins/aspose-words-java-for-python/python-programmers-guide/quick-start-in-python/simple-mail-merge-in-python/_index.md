@@ -5,7 +5,7 @@ weight: 70
 url: /java/simple-mail-merge-in-python/
 ---
 
-## **Aspose.Words - Simple Mail Merge**
+## Aspose.Words - Simple Mail Merge
 
 To use Mail Merge, simply invoke getMailMerge.execute method.
 
@@ -20,7 +20,7 @@ doc.getMailMerge().execute(
 ["James Bond", "MI5 Headquarters", "Milbank", "", "London"])
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Simple Mail Merge (Aspose.Words)** from any of the below mentioned social coding sites:
 

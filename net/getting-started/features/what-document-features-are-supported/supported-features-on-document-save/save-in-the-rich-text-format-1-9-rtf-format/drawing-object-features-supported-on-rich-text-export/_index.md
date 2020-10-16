@@ -13,7 +13,7 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 
 {{% /alert %}} 
 
-##### **Images**
+## Images
 
 All images are exported as the same format that they were originally loaded as.
 
@@ -33,7 +33,7 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 |Cropping |Yes | | |
 |Alternative text |Yes | | |
 
-##### **Image Recoloring**
+### Image Recoloring
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -41,7 +41,7 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 |Contrast |Yes | | |
 |Recolor |Yes | | |
 
-##### **Textboxes**
+#### Textboxes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -52,7 +52,7 @@ Images are exported to RTF in hex format. There are plans to support writing ima
 |Resize To Fit Text |Yes | | |
 |Text in Other Shapes |Yes | | |
 
-##### **OLE Objects**
+##### OLE Objects
 
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word.
 
@@ -69,7 +69,7 @@ OLE objects are fully preserved when converting within different Word document f
 |Ole Object Picture |Yes | | |
 |Source Range |Yes | | |
 
-##### **ActiveX Controls**
+##### ActiveX Controls
 
 ActiveX is supported in OOXML, DOC, RTF and WordML documents. ActiveX Controls are preserved during round-trip to the same format.
 
@@ -89,7 +89,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 | :- | :- | :- | :- |
 |Persistent Properties Storage |Yes | | |
 
-##### **Shapes**
+##### Shapes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -111,7 +111,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Hyperlink on Shape |Yes | | |
 |Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
 
-##### **WordArt**
+##### WordArt
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -125,7 +125,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Align and Justify Text |Planned |Currently exported as center alignment. | |
 |WordArt Shape |Yes | | |
 
-##### **Horizontal Line Object**
+##### Horizontal Line Object
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -136,7 +136,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Hyperlink |Yes | | |
 |Image |Yes | | |
 
-##### **Position**
+##### Position
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -157,7 +157,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Allow Overlap |Yes | | |
 |Layout in Table Cell |Yes | | |
 
-##### **Size**
+##### Size
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -166,7 +166,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Relative Size |Yes | | |
 |Lock Aspect Ratio |Yes | | |
 
-##### **Fill**
+##### Fill
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -176,7 +176,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Pattern Fill |Yes | | |
 |Picture or Texture Fill |Yes | | |
 
-##### **Line Style**
+##### Line Style
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -189,13 +189,13 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Join Type |Yes | | |
 |Arrow Settings |Yes | | |
 
-##### **Shadow**
+##### Shadow
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Shadow |Yes | | |
 
-##### **3D Properties**
+##### 3D Properties
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

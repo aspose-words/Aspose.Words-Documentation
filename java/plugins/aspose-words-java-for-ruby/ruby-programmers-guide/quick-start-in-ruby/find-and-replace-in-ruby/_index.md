@@ -5,7 +5,7 @@ weight: 30
 url: /java/find-and-replace-in-ruby/
 ---
 
-## **Aspose.Words - Find And Replace**
+## Aspose.Words - Find And Replace
 
 To replace text using Aspose.Words Java in Ruby, simply invoke the replace_text() method.
 
@@ -28,7 +28,7 @@ puts "Document text after replace: " + doc.getRange().getText()
 doc.save(data_dir + "ReplaceSimple Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Find And Replace** **(Aspose.Words)** from any of the below mentioned social coding sites:
 

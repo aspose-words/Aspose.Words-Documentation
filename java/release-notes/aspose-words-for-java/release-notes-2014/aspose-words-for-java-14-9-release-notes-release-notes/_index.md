@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 14.9 Release Notes](
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 14.9 Release Notes**
+## Aspose.Words for Java 14.9 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 120 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -28,7 +28,7 @@ There are 120 improvements and fixes in this regular monthly release. The most 
   Improved 3D lighting rendering for WordArt objects 
   Added support of Gradient background in HTML output 
 
-## **All Changes**
+## All Changes
 
 |Key |Summary |Category |
 | :- | :- | :- |

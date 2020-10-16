@@ -16,7 +16,7 @@ url: /net/document-comparison-features/
   - Default.js
   - Default.aspx.cs
 
-### **Compare Text in Word Documents and Highlight Changes**
+## Compare Text in Word Documents and Highlight Changes
 
 Text comparison is the core feature of Document Comparison project. You can select two documents from the list and it will show you the differences between them. Summary of changes is displayed on top, showing what is added and deleted. Newly added text is formatted in the red-underlined font. Deleted text is formatted in red color and strike-through font settings.
 
@@ -44,7 +44,7 @@ To create the output document, we load the first document in the Aspose.Words. T
 
 **Deleted text:** It is also appended to the existing text. The red color and strike-through font is applied to it.
 
-#### **Default.js**
+### Default.js
 
 {{< highlight csharp >}}
 
@@ -77,7 +77,7 @@ function compareDocuments(document1, document2) {
 }
 {{< /highlight >}}
 
-#### **Default.aspx.cs**
+#### Default.aspx.cs
 
 {{< highlight csharp >}}
 [WebMethod]
@@ -107,7 +107,7 @@ public static ArrayList CompareDocuments(string document1, string document2)
 }
 {{< /highlight >}}
 
-#### **DocumentComparisonUtil.cs**
+#### DocumentComparisonUtil.cs
 
 {{< highlight csharp >}}
 
@@ -142,7 +142,7 @@ public void Compare(string document1, string document2, string comparisonDocumen
 }
 {{< /highlight >}}
 
-### **Compare Word Documents from URL**
+### Compare Word Documents from URL
 
 If you have the web URL of the documents, you can compare them directly, without uploading them. Just specify the URLs and hit the Compare Documents button, it will show you the result after doing the comparison.
 
@@ -152,7 +152,7 @@ If you have the web URL of the documents, you can compare them directly, without
 
 Behind the scene, it uses the same process as used in file comparison. It is Aspose.Words.Document class that automatically downloads the document from web URL, if we pass URL instead of the local file path. See [this page](/words/net/working-with-document/#workingwithdocument-howtocomparetwoworddocuments) for details.
 
-### **Web-Based Word Document Viewer**
+### Web-Based Word Document Viewer
 
 You can click on any document from the list to view it in the browser. The document is rendered in the form of an image. The document name is displayed on top. Page numbers are displayed as links, you can navigate through the pages by clicking on the page number. By default, the viewer will show the first page of the document.
 
@@ -174,7 +174,7 @@ By default, there is an image with a white background. Initially, we set the SRC
 
 For the page numbering, we have used Bootstrap navigation bar. In jQuery, we just add new list items LI to the navbar list tag UL in a loop, from 1 to page count. We already have the path of image folder, so we added an A tag as well and set its src to the image. As a result, when you click on the page number in the browser, it will load the image.
 
-#### **Default.js**
+#### Default.js
 
 {{< highlight csharp >}}
 // Send document path to server and receive page count and image path
@@ -225,7 +225,7 @@ function getDocumentData_Success(result) {
 }
 {{< /highlight >}}
 
-#### **Default.aspx.cs**
+#### Default.aspx.cs
 
 {{< highlight csharp >}}
 // Convert the document to images and send page count and folder path to calling method

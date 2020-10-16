@@ -5,7 +5,7 @@ weight: 10
 url: /java/accessing-document-properties/
 ---
 
-## **Aspose.Words - Accessing Document Properties**
+## Aspose.Words - Accessing Document Properties
 
 Document properties allow some useful information to be stored along with the document. There is a system (built-in) and user-defined (custom) properties. Built-in properties contain such things as document title, author's name, document statistics, and so on. Custom properties are just name-value pairs where the user defines both the name and value.
 
@@ -27,7 +27,7 @@ System.out.println("Document is encrypted: " + info.isEncrypted());
 System.out.println("Document has a digital signature: " + info.hasDigitalSignature());
 {{< /highlight >}}
 
-## **docx4j - Accessing Document Properties**
+## docx4j - Accessing Document Properties
 
 Shows how to access a docx's:
 
@@ -87,12 +87,12 @@ else
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/accessdocproperties/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/accessdocproperties)

@@ -5,7 +5,7 @@ weight: 40
 url: /net/add-headers-and-footers/
 ---
 
-## **VSTO**
+## VSTO
 
 {{< highlight csharp >}}
 Word.Application wordApp = Application;
@@ -27,7 +27,7 @@ foreach (Word.Section wordSection in this.Application.ActiveDocument.Sections)
 }
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -43,7 +43,7 @@ doc.UpdateFields();
 doc.Save("Insert Headers and Footers.doc");
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/787338)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Add.Headers.and.Footers.to.Doc.Aspose.Words.zip)

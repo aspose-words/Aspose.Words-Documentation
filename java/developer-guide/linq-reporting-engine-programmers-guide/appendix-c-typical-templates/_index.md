@@ -63,33 +63,33 @@ This article explains following topics:
 
 {{% /alert %}} 
 
-## **Single-Row Template**
+## Single-Row Template
 
-### **Template Example**
+### Template Example
 
 |![Single_Row_Template_Example](Single-Row-Template-Example1.png) | Name: <<[manager.getName()]>> <br> Age: <<[manager.getAge()]>> |
 | :- | :- |
 
-### **Report Example**
+### Report Example
 
 |![Single_Row_Report_Example](Single-Row-Report-Example1.png)|Name: John Smith <br> Age: 37 |
 | :- | :- |
 
-## **In-Paragraph List Template**
+## In-Paragraph List Template
 
-### **Template Example**
+### Template Example
 
 |We provide support for the following clients: <<foreach [in clients]>><<[indexOf() != 0 ? ", " : ""]>><<[getName()]>><</foreach>>|
 | :- |
 
-### **Report Example**
+### Report Example
 
 |We provide support for the following clients: A Company, B Ltd., C & D, E Corp., F & Partners, G & Co., H Group, I & Sons, J Ent.|
 | :- |
 
-## **Bulleted List Template**
+## Bulleted List Template
 
-### **Template Example**
+### Template Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -97,7 +97,7 @@ We provide support for the following clients:
 <</foreach>>
 {{< /highlight >}}
 
-### **Report Example**
+### Report Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -112,9 +112,9 @@ We provide support for the following clients:
     * J Ent.
 {{< /highlight >}}
 
-## **Numbered List Template**
+## Numbered List Template
 
-### **Template Example**
+### Template Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -122,7 +122,7 @@ We provide support for the following clients:
 <</foreach>>
 {{< /highlight >}}
 
-### **Report Example**
+### Report Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -137,9 +137,9 @@ We provide support for the following clients:
     9. J Ent.
 {{< /highlight >}}
 
-## **Multicolored Numbered List Template**
+## Multicolored Numbered List Template
 
-### **Template Example**
+### Template Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -148,7 +148,7 @@ We provide support for the following clients:
 <</if>><</foreach>>
 {{< /highlight >}}
 
-### **Report Example**
+### Report Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -163,28 +163,28 @@ We provide support for the following clients:
     9. J Ent.
 {{< /highlight >}}
 
-## **Common List Template**
+## Common List Template
 
-### **Template Example**
+### Template Example
 
 |<<foreach [in managers]>> <br> ![Common_List_Template_Example](Common-List-Template-Example.png) <br> <<[getName()]>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
-### **Report Example**
+### Report Example
 
 |![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> John Smith <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> July James|
 | :- |
 
-## **In-Table List Template**
+## In-Table List Template
 
-### **Template Example**
+### Template Example
 
 |Manager|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>><</foreach>> {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}} |
 
-### **Report Example**
+### Report Example
 
 |Manager|Contract Price|
 | :- | :- |
@@ -193,7 +193,7 @@ We provide support for the following clients:
 |{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000 {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000 {{< /highlight >}} |
 
-## **In-Table List Template with Running (Progressive) Total**
+## In-Table List Template with Running (Progressive) Total
 
 **Template Example**
 
@@ -217,9 +217,9 @@ We provide support for the following clients:
 |**I & Sons**|4200000|
 |**J Ent.**|4300000|
 
-## **In-Table List Template with Highlighted Rows**
+## In-Table List Template with Highlighted Rows
 
-### **Template Example**
+### Template Example
 
 |Client|Contract Price|
 | :- | :- |
@@ -227,7 +227,7 @@ We provide support for the following clients:
 |**&lt;&lt;else&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;[getPrice()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
 |**Total:**|&lt;&lt;[sum(c => c.getPrice())]&gt;&gt;|
 
-### **Report Example**
+### Report Example
 
 |Client|Contract Price|
 | :- | :- |
@@ -242,9 +242,9 @@ We provide support for the following clients:
 |**J Ent.**|100000|
 |**Total:**|4300000|
 
-## **In-Table List Template with Alternate Content**
+## In-Table List Template with Alternate Content
 
-### **Template Example**
+### Template Example
 
 |Client|Contract Price|
 | :- | :- |
@@ -252,14 +252,14 @@ We provide support for the following clients:
 |**<<else>><<foreach [in contracts]>><<[getClient().getName()]>>**|<<[getPrice()]>><</foreach>>|
 |**Total:**|<<[sum(c => c.getPrice())]>><</if>>|
 
-### **Report Example 1**
+### Report Example 1
 
 |Client|Contract Price|
 | :- | :- |
 |**No data**||
 
 
-### **Report Example 2**
+### Report Example 2
 
 |Client|Contract Price|
 | :- | :- |
@@ -274,21 +274,21 @@ We provide support for the following clients:
 |**J Ent.**|100000|
 |**Total:**|4300000|
 
-## **Common Master-Detail Template**
+## Common Master-Detail Template
 
-### **Template Example**
+### Template Example
 
 |<<foreach [in managers]>> <br> ![Common_List_Template_Example](Common-List-Template-Example.png) <br> <<[getName()]>> <br> Clients: <<foreach [in getContracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[getClient().getName()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
-### **Report Example**
+### Report Example
 
 |![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example](Single-Row-Report-Example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
 | :- |
 
-## **In-Table Master-Detail Template**
+## In-Table Master-Detail Template
 
-### **Template Example**
+### Template Example
 
 |Manager/Client|Contract Price|
 | :- | :- |
@@ -296,7 +296,7 @@ We provide support for the following clients:
 |{{< highlight csharp >}} <<foreach [in getContracts()]>> <<[getClient().getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getPrice()]>><</foreach>><</foreach>> {{< /highlight >}}|
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}}|
 
-### **Report Example**
+### Report Example
 
 |Manager/Client|Contract Price|
 | :- | :- |
@@ -315,7 +315,7 @@ We provide support for the following clients:
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000</p><p>{{< /highlight >}}|
    
 
-## **Pie Chart Template**
+## Pie Chart Template
 
 **Template Example**
 
@@ -329,7 +329,7 @@ We provide support for the following clients:
 
 ![Pie_Chart_Report_Example](Pie-Chart-Report-Example.png)
 
-## **Scatter Chart Template**
+## Scatter Chart Template
 
 **Template Example**
 
@@ -343,7 +343,7 @@ We provide support for the following clients:
 
 ![Scatter_Chart_Report_Example](Scatter-Chart-Report-Example.png)
 
-## **Bubble Chart Template**
+## Bubble Chart Template
 
 **Template Example**
 
@@ -357,7 +357,7 @@ We provide support for the following clients:
 
 ![Bubble_Chart_Report_Example](Bubble-Chart-Report-Example.png)
 
-## **In-Table Template with Filtering, Grouping, and Ordering**
+## In-Table Template with Filtering, Grouping, and Ordering
 
 **Template Example**
 
@@ -378,7 +378,7 @@ We provide support for the following clients:
 |**July James**|800000|
 |**Tony Anderson**|1200000|
 
-## **Chart Template with Filtering, Grouping, and Ordering**
+## Chart Template with Filtering, Grouping, and Ordering
 
 **Template Example**
 

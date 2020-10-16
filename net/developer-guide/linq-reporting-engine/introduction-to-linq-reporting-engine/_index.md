@@ -5,17 +5,17 @@ weight: 10
 url: /net/introduction-to-linq-reporting-engine/
 ---
 
-## **Introduction**
+## Introduction
 
 LINQ Reporting Engine is a part of the [Aspose.Words API](https://products.aspose.com/words/net) that enables you to build reports using an extended set of reporting features. The engine enables you to reference business objects of your application in report templates directly, which agrees well with [Domain-Driven Design](http://en.wikipedia.org/wiki/Domain-driven_design) widely used in modern software development. Moreover, the engine uses a subset of C# language in its template syntax. These features enable you as a developer to compose report templates in a familiar and intuitive way.
 
-## **Origin of LINQ Reporting Engine**
+## Origin of LINQ Reporting Engine
 
 Historically, [Aspose.Words Mail Merge](https://docs.aspose.com/words/net/about-mail-merge/) was the first attempt to bring reporting features to the Aspose.Words API. However, the main purpose of Aspose.Words Mail Merge is mimicking Microsoft Word® Mail Merge. That is why the mail-merge-template syntax is based on Microsoft Word® merge fields. This fact makes it impossible to extend the template syntax keeping it concise, clear, and simple for users.
 
 The concept of LINQ Reporting Engine resolves this issue by using various single-purpose text tags, rather than reusing the same merge fields for various purposes. In general, this approach makes the template syntax much shorter and clearer. Thus, for example, the adding of a new tag type does not pollute the syntax that much. This fact makes the syntax much more extensible and able to satisfy growing customers’ needs.
 
-## **LINQ Reporting Engine Features**
+## LINQ Reporting Engine Features
 
 LINQ Reporting Engine enables you to build reports in a similar way as Aspose.Words Mail Merge does. The engine provides the API that enables you to populate template documents with data that comes from various sources.
 
@@ -31,7 +31,7 @@ You can use common Aspose.Words Mail Merge data source objects such as [DataSet]
 
 In addition to traditional data sources, the engine enables you to use custom ones. Custom data source objects are not treated in a special way by the engine. That is while working with such objects, you can use the same expression syntax as you use while writing C# code. Moreover, you can use accessible members of any custom type that can implement any complex logic. This feature makes the engine very flexible and suitable almost for any specific need while building a report.
 
-## **Hello World Example**
+## Hello World Example
 
 A "Hello, World" example is traditionally used to introduce features of a programming language or software with a simple use case. Here is the example for LINQ Reporting Engine. Assume that you have the Sender class defined in your application as follows:
 
@@ -55,7 +55,7 @@ LINQ Reporting Engine says: "Hello, World."
 
 After the report document is built, you can save it or perform any other tasks on it using [Aspose.Words API](https://apireference.aspose.com/net/words) in your code.
 
-## **Enumeration Extension Methods**
+## Enumeration Extension Methods
 
 LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for IEnumerable. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus, you can group, sort, and perform other sequential data manipulations in template expressions in a familiar way.
 
@@ -151,11 +151,11 @@ public class Person
 |Where(Predicate)|{{< highlight csharp >}}
  persons.Where(p => p.Age > 18){{< /highlight >}}|
 
-## **Technical FAQ**
+## Technical FAQ
 
 This section reveals some technical aspects and implementation details related to LINQ Reporting Engine. This information can be useful for you while making design decisions for your applications. The information is provided in a question-answer form.
 
-### **How is the type of an enumeration item implicitly determined by the engine in template expressions?**
+### How is the type of an enumeration item implicitly determined by the engine in template expressions?
 
 If you do not specify the type of an enumeration item in a foreach statement or lambda function signature within your template explicitly, the type is implicitly determined by the engine from the type of the enumeration as follows:
 
@@ -166,7 +166,7 @@ If you do not specify the type of an enumeration item in a foreach statement or 
 1. Otherwise, if the enumeration implements generic IEnumerable&lt;T&gt;, then the item type is a type argument corresponding to T. Note, that the engine does not support enumerations that implement IEnumerable&lt;T&gt; multiple times using different type arguments.
 1. Otherwise, the item type is Object.
 
-### **Does the engine cooperate with LINQ providers?**
+### Does the engine cooperate with LINQ providers?
 
 The engine does not cooperate with [LINQ providers](http://msdn.microsoft.com/en-us/library/vstudio/bb882640\(v=vs.110\).aspx). To be aware of the consequences of this feature, consider the following example. Assume, that you have the City and Person classes defined in your application as follows.
 
@@ -210,7 +210,7 @@ SELECT *
 
 That is, the engine makes an eager call before applying its built-in extension methods. In some cases, this feature can lead to significant performance overhead. So, if the performance of your application is your primary concern, then consider a preparing of your sequential data outside your templates. That is, pass to the engine a sequential data that is already filtered, ordered, grouped, and so forth.
 
-### **Have I do something special to merge the Aspose.Words assembly with another assembly?**
+### Have I do something special to merge the Aspose.Words assembly with another assembly?
 
 You can normally use a tool like [ILMerge](http://research.microsoft.com/en-us/people/mbarnett/ilmerge.aspx) to merge the Aspose.Words assembly with another assembly. However, if you use the functionality of the LINQ Reporting Engine, add the following attribute to the target assembly.
 

@@ -13,7 +13,7 @@ Markdown is so popular because it is easy to work with this format, as well as i
 
 Now the functionality for working with the Markdown format is being actively developed to provide you with more opportunities for convenient and comfortable work with documents.
 
-## **Convert a Document to Markdown**
+## Convert a Document
 
 To convert a document to Markdown, you just need to load a document in any supported format or create a new one programmatically. Then you need to save the document to Markdown format.
 
@@ -22,12 +22,22 @@ The following code example shows how to convert DOCX to Markdown:
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cs" >}}
 
+You can also specify the physical folder in which you want to save images when exporting a document to Markdown format. By default, Aspose.Words saves images in the same folder where the document file is saved, but you can override this behavior using the [ImagesFolder](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesfolder) property.
 
-## **Specify Save Options when Converting to Markdown**
+Specifying a folder via **ImagesFolder** is also useful if you save a document to a stream and Aspose.Words does not have a folder for saving images.
+
+If the specified **ImagesFolder** does not exist, it will be created automatically.
+
+The following code example shows how to specify a folder for images when saving a document to a stream:
+
+**.NET**
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SetImagesFolder.cs" >}}
+
+## Specify Save Options when Converting to Markdown
 
 Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions) class to work with advanced options when saving a document to Markdown format. Most properties are inheriting or overloading properties that already exist within other [Aspose.Words.Saving](https://apireference.aspose.com/words/net/aspose.words.saving) Namespace classes. In addition to them, the [TableContentAlignment](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/tablecontentalignment) property was added to control the alignment of content in tables when converting a document to Markdown format.
 
-## **Supported Markdown Features**
+## Supported Markdown Features
 
 Aspose.Words currently supports the following Markdown features, which mostly follow the CommonMark specification in the Aspose.Words API and are represented as appropriate styles or direct formatting:
 
@@ -53,7 +63,7 @@ The result of this code example is shown below.
 
 ![markdown-example](Markdown-example.png)
 
-## **Useful Tips**
+## Useful Tips
 
 There are several nuances and interesting cases, having learned which you can work with Markdown files more flexibly and conveniently. For example, there is the ability to use:
 

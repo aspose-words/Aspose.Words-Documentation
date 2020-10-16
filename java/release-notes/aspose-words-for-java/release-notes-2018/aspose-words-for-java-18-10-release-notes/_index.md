@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 18.10](https://repos
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 84 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -128,11 +128,11 @@ Full List of Issues Covering all Changes in this Release 
 |WORDSNET-10108|Saving to PDF is very slow|Performance|
 |WORDSNET-17219|Document is corrupted after conversion from HTML to DOCX|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.10. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose. Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **LINQ Reporting Engine Supports Removal of Paragraphs becoming Empty after Template Syntax Tags are Removed or Replaced with Empty Values**
+### LINQ Reporting Engine Supports Removal of Paragraphs becoming Empty after Template Syntax Tags are Removed or Replaced with Empty Values
 
 Issues WORDSNET-17093, WORDSNET-17235, WORDSNET-17261, WORDSNET-16491 and WORDSNET-16953 have now been fixed.
 
@@ -236,7 +236,7 @@ John Smith
 Suffix
 {{< /highlight >}}
 
-### **NodeRendererBase.BoundsInPoints Property Made Public**
+### NodeRendererBase.BoundsInPoints Property Made Public
 
 NodeRendererBase.BoundsInPoints property made public:
 
@@ -253,7 +253,7 @@ public RectangleF BoundsInPoints
 
 This property is added for convenience in addition to *SizeInPoints* property and *GetBoundsInPixels()* method.
 
-### **Added API for Font Fallback Settings**
+### Added API for Font Fallback Settings
 
 We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](https://docs.aspose.com/words/java/manipulate-and-substitute-truetype-fonts/#font-fallback-settings-from-xml).
 
@@ -339,7 +339,7 @@ Here is sample XML file which describes the format.
 </FontFallbackSettings>
 {{< /highlight >}}
 
-### **Option to Use a Style to Format Text Typed into the SDT Control Provided**
+### Option to Use a Style to Format Text Typed into the SDT Control Provided
 
 WORDSNET-14601 has now been resolved.
 
@@ -361,12 +361,12 @@ It can also be accessed via the string property "StyleName" like that what Font,
 public String StyleName
 {{< /highlight >}}
 
-##### **Note.**
+#### Note.
 
 Only Linked and Character styles can be applied to an SDT.
 An InvalidOperationException ("Cannot apply this style to the SDT") is thrown when a style that exists but is not Linked or Character style is being applied.
 
-##### **UC1. Setting a style to an SDT.**
+##### UC1. Setting a style to an SDT.
 
 {{< highlight csharp >}}
 StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
@@ -374,14 +374,14 @@ Style style = doc.getStyles().getByStyleIdentifier(StyleIdentifier.QUOTE);
 sdt.setStyle(style);
 {{< /highlight >}}
 
-##### **UC 1.1. Setting a style to an SDT via StyleName.**
+##### UC 1.1. Setting a style to an SDT via StyleName.
 
 {{< highlight csharp >}}
 StructuredDocumentTag sdt = ...
 sdt.setStyleName("Quote");
 {{< /highlight >}}
 
-##### **UC 1.2 Removing defined style.**
+##### UC 1.2 Removing defined style.
 
 To remove the applied style the default Style should be applied.
 
@@ -390,7 +390,7 @@ StructuredDocumentTag sdt = ...
 sdt.setStyleName("Default Paragraph Font");
 {{< /highlight >}}
 
-##### **UC 2. Getting applied to sdt control style.**
+##### UC 2. Getting applied to sdt control style.
 
 Note. When a linked style is applied to an sdt a paragraph style is returned.
 
@@ -399,14 +399,14 @@ StructuredDocumentTag sdt = ...
 Style style = sdt.getStyle(); //paragraph style name will be returned if it's linked with a character style
 {{< /highlight >}}
 
-##### **UC 2.1 Getting applied to sdt control style via accessing StyleName.**
+##### UC 2.1 Getting applied to sdt control style via accessing StyleName.
 
 {{< highlight csharp >}}
 StructuredDocumentTag sdt = ...
 String styleName = sdt.getStyleName(); //paragraph style name will be returned if it's linked with a character style
 {{< /highlight >}}
 
-##### **UC 2.2 Accessing style that is not defined.**
+##### UC 2.2 Accessing style that is not defined.
 
 {{< highlight csharp >}}
 StructuredDocumentTag sdt = ...
@@ -415,7 +415,7 @@ Style style = sdt.getStyle();
 //style should be "Default Paragraph Font"
 {{< /highlight >}}
 
-### **Feature to Copy All Styles from Template**
+### Feature to Copy All Styles from Template
 
 WORDSNET-16783 has now been resolved.
 
@@ -428,7 +428,7 @@ public void Document.CopyStylesFromTemplate(Document template)
 
 Methods copies all styles from template trying to preserve style hierarchy for base and linked styles.
 
-#### **UC**
+#### UC
 
 {{< highlight csharp >}}
 string templateFileName = "template file name";
@@ -436,7 +436,7 @@ Document target = new Document("target document file name");
 target.copyStylesFromTemplate(templateFileName);
 {{< /highlight >}}
 
-### **DocumentBuilder.InsertField Throws System.InvalidOperationException**
+### DocumentBuilder.InsertField Throws System.InvalidOperationException
 
 WORDSNET-17328 has now been resolved.
 
@@ -464,7 +464,7 @@ DocumentBuilder builder = new DocumentBuilder();
 FieldUnknown field = (FieldUnknown)builder.insertField(FieldType.FIELD_NONE, false);
 {{< /highlight >}}
 
-### **Added Public Property AllowCellSpacing**
+### Added Public Property AllowCellSpacing
 
 WORDSNET-17330 has now been resolved.
 
@@ -488,7 +488,7 @@ UC:
 table.setAllowCellSpacing(false);
 {{< /highlight >}}
 
-### **Added Feature to Insert Horizontal Rule into Document**
+### Added Feature to Insert Horizontal Rule into Document
 
 WORDSNET-17397 has now been resolved.
 

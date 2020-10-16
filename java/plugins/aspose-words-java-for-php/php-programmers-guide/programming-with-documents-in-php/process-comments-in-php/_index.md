@@ -5,7 +5,7 @@ weight: 20
 url: /java/process-comments-in-php/
 ---
 
-## **Aspose.Words - Process Comments**
+## Aspose.Words - Process Comments
 
 **Php Code**
 

@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 11.9.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 11.9 Release Notes**
+## Aspose.Words for .NET 11.9 Release Notes
 
-### **What's New**
+### What's New
 
 There are 139 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -24,7 +24,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 - Improvements to handling of spaces for East Asian languages when converting to PDF and XPS.
 - Improvements to RTL text layout when converting to PDF and XPS.
 
-## **All Fixes**
+## All Fixes
 
 |Key|Summary|Category|
 | :- | :- | :- |

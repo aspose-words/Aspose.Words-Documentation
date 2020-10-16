@@ -15,7 +15,7 @@ This topic discusses how to programmatically join and append documents using Asp
 
 When appending documents the destination document is the base document to which the content from the source document is imported into. These are common terms used frequently in the context of appending and copying content from a document to document. Each sample below shows how to append documents with different options. In these samples, we will be using these two main documents along with a few variants of them in order to demonstrate the different techniques outlined in this article.
 
-## **How the AppendDocument Method Works**
+## How the AppendDocument Method Works
 
 It’s useful to take a look at the logic behind the [Document.AppendDocument](http://www.aspose.com/api/net/words/aspose.words/document/methods/appenddocument) method. This will provide some useful background information which helps to:
 
@@ -38,7 +38,7 @@ As suggested above this approach is not limited to just combining documents. It 
 1. Import the node into the destination document. Importing creates a new node that is a copy of the original node, but suitable for insertion into the destination document.
 1. Insert the imported node into the destination document.
 
-## **Join a Document onto another Document**
+## Join a Document onto another Document
 
 The simplest way to join documents involves a single call the Document.AppendDocument method. This method will append the Document object passed as a parameter to the end of the Document object which called the method. The second parameter accepts an ImportFormatMode enumeration which defines how conflicting styles are handled when one document is imported into the other. Below example shows how to append a document to the end of another document using no additional options.
 
@@ -46,11 +46,11 @@ The simplest way to join documents involves a single call the Document.AppendDoc
 
 After this code is executed the destination document will include all content from the source document, which is inserted at the end of the destination document.
 
-## **Differences between ImportFormat Modes**
+## Differences between ImportFormat Modes
 
 This option is required when importing any node from one document to another. It dictates how formatting is resolved when both documents contain the same style but which use different formatting. As the names suggest, ImportFormatMode.KeepSourceFormatting will retain the original formatting used in the source document while ImportFormatMode.UseDestinationStyles will cause any conflicting styles to use the formatting defined in the destination document.
 
-### **Details of Keep Source Formatting**
+### Details of Keep Source Formatting
 
 When the source formatting is retained for imported content any conflicting styles are copied to the destination document and given a suffix number to distinguish them in the combined document. For example, if both documents contain content styled with the style “Normal” then when appending the document the content formatted in destination document with this style will remain formatted with the “Normal” style whereas the content from the source document will be formatted with a newly made style called “Normal_0” which is a copy of the original style used in the source document. Only styles which are actually used in the source document will be copied over to the destination document. Below example shows how to append a document to another document while keeping the original formatting.
 
@@ -60,7 +60,7 @@ The conflicting styles are copied to the document and are renamed. Consolidating
 
 For example, two documents may be combined which have no relation in any way to each other but which contain two styles names and properties which happen to exactly match by accident. The correct behaviour would be for these two styles to remain separate in the combined document so they can both be changed independently which is not possible if they were to be combined into one style. If you require an option to combine identical styles in order to reduce the number of copied styles, then feel free to post your request on the subject in our forum.
 
-### **Details of Using Destination Styles**
+### Details of Using Destination Styles
 
 Using destination styles dictates that matching styles in the source document will take on the formatting of the destination document. A block of text in the source document with the style “Heading 1” will remain with that style setting when it’s appended but it will take on the formatting of that style defined n the destination document, even if the “Heading 1” styling is vastly different in the destination document from what it originally was in the source document. Below example shows how to append a document to another document using the formatting of the destination document.
 
@@ -76,11 +76,11 @@ Further information about the different import modes can be found in the API des
 
 {{% /alert %}} 
 
-## **Specifying How a Document is Joined Together**
+## Specifying How a Document is Joined Together
 
 Documents are appended at the section level, therefore, the [PageSetup.SectionStart](http://www.aspose.com/api/net/words/aspose.words/pagesetup/properties/sectionstart) property of the Section object defines how the content of the current section is joined in relation to the previous section. If the [PageSetup.SectionStart](http://www.aspose.com/api/net/words/aspose.words/pagesetup/properties/sectionstart) property is set to SectionStart.NewPage for the first section in the source document then the content in this section is forced to start on a new page. Conversely, if the property is set to SectionStart.Continuous then the content is allowed to flow on the same page directly after the previous section’s content.
 
-### **Specifying the Source Document to Flow Continuously or Start from a New Page**
+### Specifying the Source Document to Flow Continuously or Start from a New Page
 
 Specifying the [PageSetup.SectionStart](http://www.aspose.com/api/net/words/aspose.words/pagesetup/properties/sectionstart) property as **SectionStart.Continuous** for the first section of the source document will cause the content to appear together. Below example shows how to append a document to another document so the content flows continuously.
 
@@ -94,7 +94,7 @@ Please note that sometimes even a section set to be continuous may be forced ont
 
 This option is represented by the [PageSetup.SectionStart](http://www.aspose.com/api/net/words/aspose.words/pagesetup/properties/sectionstart) property of the **Section** object in Aspose.Words. This property is of no real interest in the first section of a document when it’s not being joined to another document as any section start type for the first section will not affect how the document is displayed. Due to this reason, it is unlikely to be changed and therefore the first section of a document will almost always be set to start on a new page by default. This property does however become important when a document is being used to append to another as it defines how the source document is appended to the destination document. As a result of these documents that are appended without the [PageSetup.SectionStart](http://www.aspose.com/api/net/words/aspose.words/pagesetup/properties/sectionstart) property specifically defined will almost always result in the source document appearing on a new page by default.
 
-### **Appending a Document’s Content to Appear Together on the Same Page**
+### Appending a Document’s Content to Appear Together on the Same Page
 
 A document can be appended so that the content will always appear together on the same page and not split across two pages. Below example shows how to append a document to another document while keeping the content from splitting across two pages.
 
@@ -102,9 +102,9 @@ A document can be appended so that the content will always appear together on th
 
 The code above will set the entire content of the appended document to be kept together on the same page using the [ParagraphFormat.KeepWithNext](http://www.aspose.com/api/net/words/aspose.words/paragraphformat/properties/keepwithnext) property of the Paragraph class. Since the position it is inserted at will cause the content to be split across two pages the entire content is moved to the next page instead. Please note this is different from setting the source document to appear on a new page, it is good to note that the source document is set to be appended continuously.
 
-## **Controlling How Header and Footers Appear**
+## Controlling How Header and Footers Appear
 
-### **Continuing Headers and Footers from the Destination Document**
+### Continuing Headers and Footers from the Destination Document
 
 The headers and footers of a document provide an option which allows the current section’s headers and footers to continue on from the previous section. In Aspose.Words this setting is controlled by the [HeaderFooterCollection.LinkToPrevious](http://www.aspose.com/api/net/words/aspose.words.headerfootercollection/linktoprevious/methods/1) method. Passing a value of true will cause all types of headers footers to removed from this section if there are any and the headers and footers from the previous section to be displayed instead. Below example shows how to append a document to another document and continue headers and footers from the destination document.
 
@@ -114,7 +114,7 @@ If the source document has multiple sections already all using the same headers 
 
 In some cases, if your source document uses different headers in multiple sections you may need to call the [HeaderFooterCollection.LinkToPrevious](http://www.aspose.com/api/net/words/aspose.words.headerfootercollection/linktoprevious/methods/1) method on each of these sections in order for them to inherit the headers and footers from the destination document. The source document now takes on the headers and footers of the destination document.
 
-### **Stopping Headers and Footers from Continuing from the Destination Document**
+### Stopping Headers and Footers from Continuing from the Destination Document
 
 As described previously a section may be already set to inherit the headers and footers from the previous section. Even a document which has no content in the headers and footers can still have a link to the headers and footers of the previous section. When such a document is appended to another document then the headers and footers from the destination document will carry through to the source document.
 
@@ -122,7 +122,7 @@ To avoid this situation the headers and footers must be unlinked by calling the 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Joining-Appending-UnlinkHeadersFooters-UnlinkHeadersFooters.cs" >}}
 
-### **Removing Headers and Footers from the Source Document**
+### Removing Headers and Footers from the Source Document
 
 Sometimes documents which are being joined are no longer required to display their headers and footers. Removing them can be easily achieved by calling the Section.ClearHeadersFooters method.
 Below example shows how to remove headers and footers from a document before appending it to another document.
@@ -131,9 +131,9 @@ Below example shows how to remove headers and footers from a document before app
 
 As in the previous examples above the headers and footers are unlinked from the previous section to avoid the destination headers and footers being used in place of the removed headers.
 
-## **Controlling How Page Numbering is Handled**
+## Controlling How Page Numbering is Handled
 
-### **Restarting Page Numbering**
+### Restarting Page Numbering
 
 By default combined documents which contain page numbering fields will automatically have the page numbering continued throughout the joined document. For instance, the sample documents when joined together will have continuous page numbering. The page number fields (PAGENUM) will display {1-4} across the pages and total page fields (NUMPAGES) will display {4}. A section contains the option to restart page numbering. In Microsoft Word, this can be specified in the Page Numbering options.
 
@@ -141,7 +141,7 @@ To restart the page numbering at the start of the section the [PageSetup.Restart
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Joining-Appending-RestartPageNumbering-RestartPageNumbering.cs" >}}
 
-### **Retaining Multiple Page Numbering Schemes when using the NUMPAGES Field**
+### Retaining Multiple Page Numbering Schemes when using the NUMPAGES Field
 
 Often when documents containing NUMPAGES fields are appended the desired behaviour is for that field type to continue to display the total page count only for only those newly appended pages, just like how they appeared in the original document. However, the actual behaviour is the opposite and the NUMPAGES field will instead by design display the total number of pages across the entire document.
 
@@ -173,7 +173,7 @@ The algorithm works by inserting a bookmark at the end of the section each time 
 
 It is good to note that this code will still work even if a document has no page numbering restarts. In this case, it will simply change any NUMPAGE field to a PAGEREF field with reference to a bookmark found at the end of the document. This will display the same page numbering as what the NUMPAGES field would but using PAGEREF instead.
 
-## **Controlling How Lists are Handled**
+## Controlling How Lists are Handled
 
 When appending documents which contain lists with linked styles, the chosen [ImportFormatMode](https://apireference.aspose.com/words/net/aspose.words/importformatmode) can make a difference in how the lists behave when the documents are combined. Below example shows how to append a document to another document containing lists retaining source formatting.
 
@@ -185,7 +185,7 @@ The code below provides a general implementation of how to avoid this issue. Any
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Joining-Appending-ListUseDestinationStyles-ListUseDestinationStyles.cs" >}}
 
-## **Common Issues When Appending Documents**
+## Common Issues When Appending Documents
 
 **Question:** I am using a blank document as a template to which further documents are appended. After executing my code the first page of the generated document is a blank page.
 
@@ -214,7 +214,7 @@ To solve this you will need to either remove the calls before appending the docu
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Joining-Appending-UpdatePageLayout-UpdatePageLayout.cs" >}}
 
-## **Append with ImportFormatOptions**
+## Append with ImportFormatOptions
 
 Aspose.Words provides a new overloaded AppendDocument() method into a Document class. It allows specifying additional options that affect the formatting of a result document.
 
@@ -222,7 +222,7 @@ The following code example shows the usage of this method.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Joining-Appending-AppendWithImportFormatOptions-AppendWithImportFormatOptions.cs" >}}
 
-## **Ignore Header and Footer**
+## Ignore Header and Footer
 
 Aspose.Words provides a boolean type ImportFormatOptions.IgnoreHeaderFooter property to include or exclude header and footer while appending documents. The default value is set to true.
 

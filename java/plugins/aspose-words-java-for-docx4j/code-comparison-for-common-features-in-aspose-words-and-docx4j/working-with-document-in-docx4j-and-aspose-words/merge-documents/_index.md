@@ -13,7 +13,7 @@ You can try to merge documents and view the results online at this link:
 
 {{% /alert %}} 
 
-## **Aspose.Words - Merge Documents**
+## Aspose.Words - Merge Documents
 
 To append documents using Aspose.Words, simply invoke the appendDocument() method of Document class and specify the second document to append at end.
 
@@ -25,7 +25,7 @@ Document doc2 = new Document(dataDir + "doc2.doc");
 doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 {{< /highlight >}}
 
-## **docx4j - Merge Documents**
+## docx4j - Merge Documents
 
 This sample demonstrates how the MergeDocx utility can be used to merge docx documents.
 
@@ -94,12 +94,12 @@ public static void main(String[] args) throws Docx4JException {
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/mergedocs/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/mergedocs)

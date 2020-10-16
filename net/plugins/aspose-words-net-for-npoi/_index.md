@@ -33,11 +33,11 @@ This project is helpful for developers who want to compare NPOI with Aspose.Word
     - [Source code overview](#Aspose.Words.NETforNPOI-Sourcecodeoverview)
 - [Sample Code Examples](#Aspose.Words.NETforNPOI-SampleCodeExamples)
 
-## **Getting Started**
+## Getting Started
 
-### **Introduction**
+### Introduction
 
-### **Why Aspose for NPOI HWPF and XWPF?**
+### Why Aspose for NPOI HWPF and XWPF?
 
 The developers looking for file format APIs may need to walk through the features provided by the APIs available on the market. Mostly following factors are considered when choosing an option:
 
@@ -51,13 +51,13 @@ Project Aspose.Words for NPOI (HWPF and XWPF) shows how different tasks can be p
 
 This project is helpful for developers who want to compare NPOI with Aspose.Words OR migrate from NPOI to Aspose.Words.
 
-### **What's NPOI**
+### What's NPOI
 
 NPOI is the .NET version of POI Java project at <http://poi.apache.org/>. POI is an open source project which can help you read/write xls, doc, ppt files.
 
 Read more at <https://npoi.codeplex.com/>
 
-### **What's HWPF and XWPF**
+### What's HWPF and XWPF
 
 **HWPF** is the name of Apache POI port of the Microsoft Word 97(-2007) file format to pure Java. It also provides limited read only support for the older Word 6 and Word 95 file formats. It is still in early development.
 
@@ -67,7 +67,7 @@ Both HWPF and XWPF provides Basis Text Extraction, Specific Text Extraction, Acc
 
 Read more at [poi.apache.org](http://poi.apache.org/)
 
-### **Aspose.Words for .NET**
+### Aspose.Words for .NET
 
 Aspose.Words for .NET is an advanced component and class library for .NET that enables you to perform a wide range of document processing tasks directly within your .NET applications.
 
@@ -75,13 +75,13 @@ Aspose.Words for .NET supports DOC, OOXML, RTF, HTML, OpenDocument, PDF, XPS, EP
 
 Read more at [aspose.com](http://www.aspose.com/.net/word-component.aspx)
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 Aspose.Words for NPOI examples can be tested and run on any system that have Visual Studio 2010 or above installed.
 
-### **Supported Platforms**
+### Supported Platforms
 
 You can use any of the following Visual Studio versions to use test and explore these examples
 
@@ -89,9 +89,9 @@ You can use any of the following Visual Studio versions to use test and explore 
 - Visual Studio 2012
 - Visual Studio 2013
 
-## **Downloading and Installing**
+## Downloading and Installing
 
-### **Downloading**
+### Downloading
 
 You can download latest version for Aspose.Words for .NET from
 
@@ -103,7 +103,7 @@ You can download Aspose for NPOI from one of the following locations
 - [Github ](https://github.com/asposewords/Aspose.Words-for-.NET/tree/master/Plugins/NPOI)
 - [Code.MSDN](https://code.msdn.microsoft.com/More-Code-Examples-of-d19b2e19)
 
-### **Installing**
+### Installing
 
 It is very simple to start testing and exploring these examples, please follow these simple steps
 
@@ -129,9 +129,9 @@ If you have downloaded the release package from Github or Codeplex then each exa
 1. Press F5 to run the project/example.
 1. The output file will be saved in your **Bin -> Debug** folder for each project respectively.
 
-## **Using**
+## Using
 
-### **How to apply Aspose License?**
+### How to apply Aspose License?
 
 This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
@@ -139,9 +139,9 @@ To remove evaluation message and feature limitations, product license should be 
 - Make sure the license file is named as **Aspose.Words.lic**
 - Place **Aspose.Words.lic** file in **Bin/Debug/** folder of your project website e.g. "project website Folder/Bin/Debug/Aspose.Words.lic"
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -153,11 +153,11 @@ You can log any issues or suggestions related to this control using any of the f
 - [Github ](https://github.com/asposewords/Aspose.Words-for-.NET/issues)
 - [Code.MSDN](https://code.msdn.microsoft.com/More-Code-Examples-of-d19b2e19/view/Discussions#content)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Aspose for NPOI is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 
-### **Source Code**
+### Source Code
 
 You can get the latest source code from one of the following locations
 
@@ -165,7 +165,7 @@ You can get the latest source code from one of the following locations
 - [Github ](https://github.com/asposewords/Aspose.Words-for-.NET/tree/master/Plugins/NPOI)
 - [Code.MSDN](https://code.msdn.microsoft.com/More-Code-Examples-of-d19b2e19/view/SourceCode#content)
 
-### **How to configure the source code**
+### How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 
@@ -183,7 +183,7 @@ Please follow these simple steps to get started
    1. Aspose.Words.Examples.2012.sln
    1. Aspose.Words.Examples.2013.sln
 
-### **Source code overview**
+### Source code overview
 
 In the initial version there are following projects create for compassion features
 
@@ -195,7 +195,7 @@ In the initial version there are following projects create for compassion featur
 - 06-ConvertDocumentToImages
 - 07-Create Charts
 
-## **Sample Code Examples**
+## Sample Code Examples
 
 This section includes the following topics
 

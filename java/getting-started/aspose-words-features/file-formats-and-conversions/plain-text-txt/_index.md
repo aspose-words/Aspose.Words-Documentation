@@ -14,7 +14,7 @@ You can check the quality of Aspose.Words conversion and view the results online
 {{% /alert %}} 
 
 
-## **TXT in Aspose.Words**
+## TXT in Aspose.Words
 
 ![todo:image_alt_text](plain-text-txt_1.png)
 

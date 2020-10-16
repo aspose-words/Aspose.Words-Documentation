@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 15.2.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 15.2 Release Notes**
+## Aspose.Words for .NET 15.2 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 116 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -30,7 +30,7 @@ Improved positioning of comment's balloons during rendering
 
 Improved vertical text inside text boxes during rendering
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

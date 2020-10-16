@@ -5,7 +5,7 @@ weight: 10
 url: /java/installing-and-using-aspose-words-java-for-eclipse-maven/
 ---
 
-## **Installing**
+## Installing
 
 **Aspose.Words Java for Eclipse (Maven)** plugin can be easily installed from the Available **Plugin** tab in the Plugin dialog.
 
@@ -17,9 +17,9 @@ url: /java/installing-and-using-aspose-words-java-for-eclipse-maven/
 
 ![todo:image_alt_text](installing-and-using-aspose-words-java-for-eclipse-maven_2.png)
 
-## **Using**
+## Using
 
-### **Aspose.Words Maven Project (wizard)**
+### Aspose.Words Maven Project (wizard)
 
 To create **Maven Project** by wizard for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx):
 
@@ -35,7 +35,7 @@ To create **Maven Project** by wizard for using [Aspose.Words for Java API](htt
 1. The created **Maven Project** is configured to use **Aspose.Words for Java API** and ready to be enhanced as per your Project requirements.<br>
    If you have opted to download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples), you can use **Aspose.Words Code Example (wizard)** for importing needed **Code Examples** of [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API into your project.
 
-### **Aspose.Words Code Example (wizard)**
+### Aspose.Words Code Example (wizard)
 
 **Aspose.Words Code Example wizard** allows you to try out many samples provided for [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API.
 

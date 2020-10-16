@@ -16,7 +16,7 @@ Aspose.Words for JasperReports is the only known solution on the market that mak
 
 {{% /alert %}} 
 
-## **Aspose.Words for JasperReports Resources**
+## Aspose.Words for JasperReports Resources
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 

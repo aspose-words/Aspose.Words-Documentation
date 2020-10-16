@@ -5,7 +5,7 @@ weight: 10
 url: /java/extract-content-in-python/
 ---
 
-## **Aspose.Words - Extract Content**
+## Aspose.Words - Extract Content
 
 **Python Code**
 
@@ -24,7 +24,7 @@ dstDoc = self.generateDocument(doc, extractedNodes)
 dstDoc.save(self.dataDir + "TestFile.Paragraphs Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Extract Content (Aspose.Words)** from any of the below mentioned social coding sites:
 

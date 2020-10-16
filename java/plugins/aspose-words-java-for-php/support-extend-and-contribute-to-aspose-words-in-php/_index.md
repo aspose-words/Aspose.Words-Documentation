@@ -5,7 +5,7 @@ weight: 30
 url: /java/support-extend-and-contribute-to-aspose-words-in-php/
 ---
 
-## **Support**
+## Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -15,11 +15,11 @@ You can log any issues or suggestions related to Aspose.Words Java for PHP usin
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
-## **Extend and Contribute**
+## Extend and Contribute
 
 Aspose.Words Java for PHP is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 
-## **Source Code**
+## Source Code
 
 You can get the latest source code from one of the following locations
 

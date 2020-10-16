@@ -5,7 +5,7 @@ weight: 50
 url: /cpp/licensing/
 ---
 
-## **Evaluate Aspose.Words**
+## Evaluate Aspose.Words
 
 You can easily download Aspose.Words for C++ for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply for the license.
 
@@ -24,38 +24,38 @@ If you want to test Aspose.Words for C++ without the evaluation version limitati
 
 {{% /alert %}} 
 
-## **Applying a License**
+## Applying a License
 
 The license can be applied by providing an explicit path to the .lic file. You can use the [License.SetLicense](https://apireference.aspose.com/cpp/words/class/aspose.words.license/) method to licensing the API.
 
-### **When to Apply a License**
+### When to Apply a License
 
 Follow these simple rules:
 
 - The license only needs to be set once per application domain.
 - You need to set the license before using any other Aspose.Words classes.
 
-### **Apply License using File or Stream Object**
+### Apply License using File or Stream Object
 
 Calling License.SetLicense multiple times is not harmful but simply wastes processor time. If you are developing a Windows application, call License.SetLicense in your startup code, before using Aspose.Words classes.
 
-#### **Loading a License from File**
+#### Loading a License from File
 
 In this example Aspose.Words for C++ attempts to find/set the license from the explicit file path.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Quick-Start-ApplyLicenseFromFile-ApplyLicenseFromFile.cpp" >}}
 
-#### **Loading a License from a Stream Object**
+#### Loading a License from a Stream Object
 
 Initializes a license from a stream
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Quick-Start-ApplyLicenseFromStream-ApplyLicenseFromStream.cpp" >}}
 
-## **You can Change the License File Name**
+## You can Change the License File Name
 
 The license file name does not have to be 'Aspose.Words.CPP.LIC'. You can rename it to anything you like and use that name when setting license in your application.
 
-## **Exception Cannot find license filename**
+## Exception Cannot find license filename
 
 When you purchase and download a license, Aspose website names the license file 'Aspose.Words.LIC'. You download the license file using your browser. Some browsers recognize the license file as XML and append a .xml extension to it so the full name of the file on your computer becomes 'Aspose.Words.lic.XML'.
 
@@ -63,7 +63,7 @@ When Microsoft Windows is configured to hide extensions of known file types (unf
 
 To solve the problem, rename the file to remove the invisible .xml extension. We also recommend you disable the "hide extensions" option in Microsoft Windows
 
-## **Using Multiple Products from Aspose**
+## Using Multiple Products from Aspose
 
 If you use multiple Aspose APIs in your application, for example, Aspose.Words and Aspose.Cells, here are a few useful tips.
 

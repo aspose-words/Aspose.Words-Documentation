@@ -11,7 +11,7 @@ You can use a variety of data sources when performing a mail merge operation, in
 
 This article will describe how to read data from an XML file rather than directly from a database and include XML as the data source to perform a mail merge operation.
 
-## **Advantages of XML As a Data Source**
+## Advantages of XML As a Data Source
 
 XML data sources are very handy for storing data without the overhead of a database. They are great for offline applications where users need to add, edit, and delete data when they cannot connect to a database.
 
@@ -19,7 +19,7 @@ XML data can be a good data source alternative to relational databases, especial
 
 Since XML stores data in plain text format, the storage is platform-independent. Thus, data can be easily exported, imported, or simply moved. XML is popular as a data source because it offers a way to preserve the semantic meaning of data when communicating between different applications.
 
-## **Filling a Merge Template with Data from XML using DataSet**
+## Filling a Merge Template with Data from XML using DataSet
 
 XML is the universal standard for data interchange, and Microsoft Word document formats are the most popular formats for mail merge templates. Therefore, the ability to run a mail merge from an XML file to a Word template document has become a common requirement.
 

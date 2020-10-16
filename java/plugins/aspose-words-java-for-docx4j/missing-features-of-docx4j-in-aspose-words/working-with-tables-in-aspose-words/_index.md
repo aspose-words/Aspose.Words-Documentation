@@ -5,7 +5,7 @@ weight: 20
 url: /java/working-with-tables-in-aspose-words/
 ---
 
-###### **This section includes the following topics:**
+## This section includes the following topics:
 
 - [Autofit Setting for Tables](https://docs.aspose.com/words/java/autofit-setting-for-tables/)
 - [Joining Tables in Document](https://docs.aspose.com/words/java/joining-tables-in-document/)

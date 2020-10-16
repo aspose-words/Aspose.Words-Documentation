@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 17.11](https://www.n
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 102 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -29,7 +29,7 @@ There are 102 improvements and fixes in this regular monthly release. The most 
   Added warnings for unsupported binary raster operations.
   Removed warnings about unsupported metafile records which do not affect the output.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -136,15 +136,15 @@ There are 102 improvements and fixes in this regular monthly release. The most 
 |WORDSNET-8531|Field.Update method return incorrect value for Page field|Regression|
 |WORDSNET-9149|MailMerge.Execute takes very long time to complete|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Supported Dynamic Shape Fill Color Setting for LINQ Reporting Engine**
+### Supported Dynamic Shape Fill Color Setting for LINQ Reporting Engine
 
 The "Setting Text Background Color Dynamically" section of the engine's documentation was renamed to "[Setting Background Color Dynamically](/words/net/template-syntax/#templatesyntax-settingbackgroundcolordynamically)" and updated to describe the change.
 
-### **Added Word2016 Constant into MsWordVersion Enumeration Type**
+### Added Word2016 Constant into MsWordVersion Enumeration Type
 
 Related issue WORDSNET-14771.
 
@@ -163,7 +163,7 @@ It can be passed into the CompatibilityOptions.OptimizeFor method to optimize th
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 {{< /highlight >}}
 
-### **To Set File Name and Extension when Inserting Ole Object using MemoryStream**
+### To Set File Name and Extension when Inserting Ole Object using MemoryStream
 
 Related Issue: WORDSNET-15616
 
@@ -201,7 +201,7 @@ using (Stream stream = new MemoryStream(bs))
 }
 {{< /highlight >}}
 
-### **Changed Behavior of Range.Replace Methods**
+### Changed Behavior of Range.Replace Methods
 
 Related issue WORDSNET-15624
 
@@ -227,7 +227,7 @@ Now headers/footers of a section are processed in this order:
   - Even header
   - Even footer
 
-### **Remove Obsolete Methods in DigitalSignatureUtil**
+### Remove Obsolete Methods in DigitalSignatureUtil
 
 Related issue: WORDSNET-15712
 
@@ -247,7 +247,7 @@ Instead, the methods with SignOptions class should be used. See following headin
 - [Implemented Signing Signature Line in Word Documents](/words/net/aspose-words-for-net-17-8-release-notes/) (17.8 release notes)
 - [Provided API Similar to SignatureSet.AddSignatureLine Method in MS Office](/words/net/aspose-words-for-net-17-10-release-notes/) (17.10 release notes)
 
-### **Metafile Warnings Improved**
+### Metafile Warnings Improved
 
 Related issue: WORDSNET-15969
 
@@ -255,7 +255,7 @@ Related issue: WORDSNET-15969
 - Removed warnings about unsupported metafile records which do not affect the output.
 - Changed type of warnings about unsupported metafile records from DataLoss/UnexpectedContent to more appropriate MinorFormattingLoss.
 
-### **Get Position of Floating Table in Public API**
+### Get Position of Floating Table in Public API
 
 Related issue: WORDSNET-15981 
 
@@ -312,7 +312,7 @@ foreach (Table table in doc.FirstSection.Body.Tables)
 }
 {{< /highlight >}}
 
-### **Added the FieldIf.EvaluateCondition() Method**
+### Added the FieldIf.EvaluateCondition() Method
 
 Related issue: WORDSNET-15903
 

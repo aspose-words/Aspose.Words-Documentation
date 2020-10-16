@@ -5,7 +5,7 @@ weight: 20
 url: /net/insert-comments/
 ---
 
-## **Aspose.Words - Insert Comments**
+## Aspose.Words - Insert Comments
 
 Comments of the document are represented by the Comment class.
 
@@ -22,7 +22,7 @@ comment.FirstParagraph.Runs.Add(new Run(doc, "Comment text."));
 doc.Save("insertedComments.doc");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Insert Comments** form any of the below mentioned social coding sites:
 

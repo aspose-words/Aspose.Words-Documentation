@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 17.7](http://maven.a
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 104 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -28,7 +28,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 - Improved non-breaking space width calculation.
 - Improved Asian text justification logic.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -137,11 +137,11 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-15528|Numeric format is broken after performing mail merge|Regression|
 |WORDSNET-15529|Exception using Reflection in 17.6|Regression|
 
-## **Public API and Backward Incompatble Changes**
+## Public API and Backward Incompatble Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **WORDSNET-14190 - Make the Title of the Generated Documents show up in Title Bar**
+### WORDSNET-14190 - Make the Title of the Generated Documents show up in Title Bar
 
 New property **DisplayDocTitle** was added to PdfSaveOptions to control behavior of how document's title is presented in output PDF document:
 
@@ -160,7 +160,7 @@ public boolean getDisplayDocTitle()
 public void setDisplayDocTitle(boolean value)
 {{< /highlight >}}
 
-### **WORDSNET-15504 -  Shape AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.insertImage Method.**
+### WORDSNET-15504 -  Shape AspectRatioLocked Default Value was Changed for Shapes Inserted through the DocumentBuilder.insertImage Method.
 
 Shape AspectRatioLocked default value was changed for shapes inserted through the DocumentBuilder.insertImage method. Now, to mimic MS Word behavior this value is "true" for ShapeType.Image upon inserting image through the DocumentBuilder or through the Model.
 
@@ -177,6 +177,6 @@ public boolean getAspectRatioLocked()
 public void setAspectRatioLocked(boolean value)
 {{< /highlight >}}
 
-### **WORDSNET-14504 and WORDSNET-14803 - Changed Importing Behavior of Lists**
+### WORDSNET-14504 and WORDSNET-14803 - Changed Importing Behavior of Lists
 
 Previously, list definitions were copied with a new identifier while importing. Now Aspose.Words reuses identical list definitions in the destination. Equality of list definitions in the source and destination is determined by their identifiers. Also Aspose.Words preserves list definition identifiers from the source when equal list definition cannot be found in the destination. This is how MS Word behaves.

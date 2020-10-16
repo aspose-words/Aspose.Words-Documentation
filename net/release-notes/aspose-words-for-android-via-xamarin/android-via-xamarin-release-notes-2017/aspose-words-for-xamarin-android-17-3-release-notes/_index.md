@@ -17,11 +17,11 @@ This version also includes all bug fixes and public API changes made in Aspose.W
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 Aspose.Words for Xamarin.Android is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words you can generate, modify, convert and render documents.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

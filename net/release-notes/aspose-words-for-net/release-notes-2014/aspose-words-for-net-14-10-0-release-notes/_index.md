@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 14.10.0](https://www
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 14.10 Release Notes**
+## Aspose.Words for .NET 14.10 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 97 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -23,7 +23,7 @@ There are 97 improvements and fixes in this regular monthly release. The most n
   Implemented new features and effects in DrawingML rendering 
   Added LoadOptions.WebRequestTimeout property
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

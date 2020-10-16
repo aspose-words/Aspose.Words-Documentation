@@ -5,11 +5,11 @@ weight: 60
 url: /java/aspose-words-for-android-via-java-features/
 ---
 
-## **Aspose.Words for Android via Java Features Overview**
+## Aspose.Words for Android via Java Features Overview
 
 This section provides a comparison of availability of features between Aspose.Words for Java and Aspose.Words for Android via Java.
 
-### **File Formats and Conversions**
+### File Formats and Conversions
 
 |Feature|Description|Aspose.Words for Java|Aspose.Words for Android via Java|
 | :- | :- | :- | :- |
@@ -24,7 +24,7 @@ This section provides a comparison of availability of features between Aspose.Wo
 |Plain Text (TXT)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Digital Publishing (EPUB)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-### **Rendering and Printing**
+### Rendering and Printing
 
 Aspose.Words now provides high fidelity rendering of document pages.
 
@@ -38,7 +38,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 |Print document pages using the Java printing infrastructure.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Update TOC, page numbers and other fields before rendering or printing.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-### **Document Content Features**
+### Document Content Features
 
 Aspose.Words provides a rich object model that consists of over 100 public classes, which allow you to programmatically generate, combine, modify, parse or otherwise examine loaded documents.
 
@@ -65,7 +65,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 |Detect digital signatures in documents.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insert HTML text.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-### **Document Formatting Features**
+### Document Formatting Features
 
 Aspose.Words provides detailed programmatic access to formatting properties of all document elements.
 
@@ -79,7 +79,7 @@ Aspose.Words provides detailed programmatic access to formatting properties of a
 |Access, create and modify document styles.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Access and modify drawing objects including position, size, line and fill properties, image bytes.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-### **Mail Merge Features**
+### Mail Merge Features
 
 You can use Aspose.Words as a reporting solution on its own. Design your reports in Microsoft Word and then have Aspose.Words populate documents with data from various data sources.
 
@@ -98,7 +98,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 |Programmatically create or modify a Microsoft Word mail merge data source for a document. Preserve mail merge settings and data sources.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Retrieve mail merge field names.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-### **Reporting Features**
+### Reporting Features
 
 LINQ Reporting Engine is an advanced reporting tool enabling you to generate documents based upon template documents and data obtained from various sources including databases, XML, JSON, OData, objects of custom types, external documents, and more out of the box.
 

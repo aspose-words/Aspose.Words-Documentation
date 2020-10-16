@@ -13,7 +13,7 @@ This version includes all bug fixes and public API changes made in Aspose.Words 
 
 {{% /alert %}} 
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

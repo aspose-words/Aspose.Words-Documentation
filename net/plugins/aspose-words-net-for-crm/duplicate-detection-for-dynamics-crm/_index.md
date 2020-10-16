@@ -21,7 +21,7 @@ url: /net/duplicate-detection-for-dynamics-crm/
 - [Support](#DuplicateDetectionforDynamicsCRM-Support)
 - [Extend and Contribute](#DuplicateDetectionforDynamicsCRM-ExtendandContribute)
 
-## **Introduction**
+## Introduction
 
 It is necessary to maintain the integrity of your data, duplication of data is always an issue. In Dynamic CRM usually when a document is sent via an email or attached to a letter from a main record, its duplicate is created allocating unnecessary space in the database.In order to resolve this issue we use one of the very interesting feature of Aspose.Words comparison between documents and create an add-on in CRM to remove duplicate documents between records of same entity, between different entities and all records of all entities.
 
@@ -33,9 +33,9 @@ This release supports the following features:
 - Remove duplicates of attachments in multiple records of single entity.
 - Remove duplicates of attachments in multiple entities.
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 In order to install and use Aspose .NET Duplicate Detection for Microsoft Dynamics CRM you need to have one of the following CRM version installed.
 
@@ -44,14 +44,14 @@ In order to install and use Aspose .NET Duplicate Detection for Microsoft Dynami
 
 Please feel free to contact us if you find any issues in installing or using this Add-on.
 
-### **Supported Platforms**
+### Supported Platforms
 
 This addon will work with all version of Microsoft Dynamics CRM:
 
 - Microsoft Dynamics CRM 2013 On-Premises.
 - Microsoft Dynamics CRM 2015 On-Premises.
 
-## **Downloading**
+## Downloading
 
 You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
@@ -65,9 +65,9 @@ You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNetDuplicateDetection2015)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Duplicate-9e6aaba6)
 
-## **Installing or Uninstalling**
+## Installing or Uninstalling
 
-### **Installing Aspose .NET Duplicate Detection**
+### Installing Aspose .NET Duplicate Detection
 
 It is simple to install Aspose .NET Duplicate Detection. Please follow below Instructions:
 
@@ -82,27 +82,27 @@ It is simple to install Aspose .NET Duplicate Detection. Please follow below Ins
 - Click Next and wait for the solution to import.
 - Click close when the solution is imported successfully.
 
-### **Applying License**
+### Applying License
 
 - Copy the license File on the server and copy the path of the file. 
   - Recomended: "C:\Aspose\Aspose.Total.Lic".
 - This Path is used further during workflow configuration. 
   - See section How to Configure Workflow.
 
-### **Uninstalling Aspose .NET Duplicate Detection**
+### Uninstalling Aspose .NET Duplicate Detection
 
 - Go to solution and select "Aspose .NET Duplicate Detection".
 - Press the Delete button.
 
-## **Using**
+## Using
 
 Easily configure and Use Aspose .NET Duplicate Detection for Dynamics CRM by following the instructions [here](https://docs.aspose.com/words/net/using-and-configuring-crm-duplicate-detection/).
 
-## **Video Demo**
+## Video Demo
 
 Please check [the video](https://www.youtube.com/watch?v=vdgmL4v2RYc) below to see the plugin in action.
 
-## **Support**
+## Support
 
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
@@ -112,7 +112,7 @@ You can log any issues or suggestions related to Aspose .NET Duplicate Detection
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Duplicate-9e6aaba6/view/Discussions#content)
 
-## **Extend and Contribute**
+## Extend and Contribute
 
 This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
 Please find the latest Source Code and Code Example [here](https://docs.aspose.com/words/net/extend-and-contribute-to-crm-duplicate-detection/).

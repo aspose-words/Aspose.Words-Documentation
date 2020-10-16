@@ -17,7 +17,7 @@ Almost all properties that deal with object positioning use points as a unit of 
 
 {{% /alert %}} 
 
-## **Images**
+## Images
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
@@ -61,7 +61,7 @@ See the following links in the documentation for further information:
 |Cropping |Yes | |<p>- [ImageData.CropLeft](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropleft) </p><p>- [ImageData.CropRight](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropright) </p><p>- [ImageData.CropTop](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/croptop) </p><p>- [ImageData.CropBottom](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/cropbottom)</p>|
 |Alternative text |Yes | |- **Shape.AltText**|
 
-## **Image Recoloring**
+## Image Recoloring
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -69,7 +69,7 @@ See the following links in the documentation for further information:
 |Contrast |Yes | |- [ImageData.Contrast](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/contrast)|
 |Recolor |Yes | | |
 
-## **Textboxes**
+## Textboxes
 
 See the following link in the documentation for further information:
 
@@ -84,7 +84,7 @@ See the following link in the documentation for further information:
 |Resize To Fit Text |Yes | |- [TextBox.FitShapeToText](https://apireference.aspose.com/words/net/aspose.words.drawing/textbox/properties/fitshapetotext)|
 |Text in Other Shapes |Yes | | |
 
-## **OLE Objects**
+## OLE Objects
 
 OLE Objects represent embedded content in a Microsoft Word document, such as an embedded Excel or Powerpoint document. The OLE object is dynamic and can be edited or updated through Microsoft Word. This feature is fully supported and preserved during document conversion.
 
@@ -108,7 +108,7 @@ See the following links in the documentation for further information:
 |Ole Object Picture |Yes | |- [OleFormat.OleIcon](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/oleicon)|
 |Source Range |Yes | |- [OleFormat.SourceItem](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/sourceitem)|
 
-## **ActiveX Controls**
+## ActiveX Controls
 
 ActiveX Controls are preserved and supported during import. ActiveX is normally imported as a Shape node. Some ActiveX may also have an assosicated field. You currently cannot create or modify existing ActiveX controls in a document. You can however retrieve certain parts of data from controls (mostly parts assosicated with the graphic of the control).
 
@@ -116,7 +116,7 @@ ActiveX Controls are preserved and supported during import. ActiveX is normally 
 | :- | :- | :- | :- |
 |Persistent Properties Storage |Yes | | |
 
-## **Shapes**
+## Shapes
 
 Aspose.Words supports almost all Shape and Image elements. References to external images such as ones on the internet are automatically downloaded as well. All of these elements are imported into Aspose.Words as Shape nodes.
 
@@ -154,7 +154,7 @@ See the following links in the documentation for further information:
 |Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/href)|
 |Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs-old.aspose.com/display/wordsnet/Working+with+Watermark)|
 
-## **WordArt**
+## WordArt
 
 WordArt is imported as a Shape object in Aspose.Words. This class provides properties to extract and modify properties of a WordArt object.
 
@@ -177,7 +177,7 @@ See the following links in the documentation for further information:
 |Align and Justify Text |Yes | |- **Textbox.TextPathAlignment**|
 |WordArt Shape |Yes | | |
 
-## **Horizontal Line Object**
+## Horizontal Line Object
 
 Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a Shape can also represent an image there is a property which returns if this shape is a Horizontal Line Object.
 
@@ -196,7 +196,7 @@ See the following link in the documentation for further information:
 |Hyperlink |Yes | |- **Shape.HRef**|
 |Image |Yes | |- **Shape.HRef**|
 
-## **Position**
+## Position
 
 Aspose.Words supports creating objects with a variety of different positioning settings. Almost all possible settings are supported in the Aspose.Words model
 
@@ -226,7 +226,7 @@ See the following links in the documentation for further information:
 |Allow Overlap |Yes | |- [Shape.AllowOverlap](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/allowoverlap)|
 |Layout in Table Cell |Yes |There is currently no API to access this shape setting. | |
 
-## **Size**
+## Size
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -235,7 +235,7 @@ See the following links in the documentation for further information:
 |Relative Size |Yes | | |
 |Lock Aspect Ratio |Yes | | |
 
-## **Fill**
+## Fill
 
 Using Aspose.Words you can access, modify and remove most fill properties of a shape.
 
@@ -251,7 +251,7 @@ See the following link in the documentation for further information:
 |Pattern Fill |Yes |The raw bytes of the Pattern fill can be extracted only. A new pattern can not be set. |- [Fill.ImageBytes](https://apireference.aspose.com/words/net/aspose.words.drawing/fill/properties/imagebytes)|
 |Picture or Texture Fill |Yes |The raw bytes of the Texture fill can be extracted only. A new texture or image can not be set. |- **Fill.ImageBytes**|
 
-## **Line Style**
+## Line Style
 
 See the following links in the documentation for further information:
 
@@ -269,7 +269,7 @@ See the following links in the documentation for further information:
 |Join Type |Yes | |- [Stroke.JoinStyle](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/joinstyle)|
 |Arrow Settings |Yes | |<p>- [Stroke.StartArrowLength](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/startarrowlength) </p><p>- [Stroke.StartArrowType](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/startarrowtype) </p><p>- [Stroke.EndArrowLength](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/endarrowlength) </p><p>- [Stroke.EndArrowType](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/endarrowtype)</p>|
 
-## **Shadow**
+## Shadow
 
 Most shadow properties are preserved during import. There is currently no API to access shadow data of a graphic object.
 
@@ -279,7 +279,7 @@ This will be added in a future version.
 | :- | :- | :- | :- |
 |Shadow |Yes | | |
 
-## **3D Properties**
+## 3D Properties
 
 Most 3D properties are retained during import. There is currently no API to access or modify these properties on graphic objects.
 

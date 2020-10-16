@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 19.1](https://reposi
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 55 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -33,7 +33,7 @@ There are 55 improvements and fixes in this regular monthly release. The most no
 - Fixed exception which may happen when spans are merged in paragraphs with different directionality.
 - Fixed exception which may happen when span has null shading inside text box
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -93,11 +93,11 @@ There are 55 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17784|UnsupportedOperationException upon loading Doc|Regression|
 |WORDSNET-17956|System.InvalidCastException occurs upon converting DOC to DOCX|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Exposed the Threshold Control for TIFF Binarization**
+### Exposed the Threshold Control for TIFF Binarization
 
 WORDSNET-17819 has now been resolved:
 
@@ -121,7 +121,7 @@ public byte ThresholdForFloydSteinbergDithering
 
 The higher the value, the darker the image.
 
-#### **UC**
+#### UC
 
 {{< highlight csharp >}}
 Document doc = new Document ("inputFileName");

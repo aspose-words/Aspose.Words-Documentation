@@ -5,13 +5,13 @@ weight: 10
 url: /java/add-watermark-in-jython/
 ---
 
-## **Aspose.Words - Add Watermark**
+## Aspose.Words - Add Watermark
 
 To add watermark using **Aspose.Words Java for Jython**. Here you can see sample code.
 
 Error rendering macro 'code' : Invalid value specified for parameter lang
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

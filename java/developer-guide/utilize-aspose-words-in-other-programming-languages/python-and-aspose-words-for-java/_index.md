@@ -5,7 +5,7 @@ weight: 50
 url: /java/python-and-aspose-words-for-java/
 ---
 
-## **Prerequisites**
+## Prerequisites
 
 {{% alert color="primary" %}} 
 
@@ -15,7 +15,7 @@ Download the latest version of Aspose.Words for Java from <http://www.aspose.com
 
 {{% /alert %}} 
 
-## **Hello World!**
+## Hello World!
 
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
@@ -37,7 +37,7 @@ builder.write("Hello world!")
 doc.save("C:\\Temp\\out.doc")
 {{< /highlight >}}
 
-## **Simple Mail Merge**
+## Simple Mail Merge
 
 Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 
@@ -50,15 +50,15 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Word�
 import jpype
 import os.path
 
-#Get path to directory with Aspose.Words.jar 
+### path to directory with Aspose.Words.jar 
 
 jarpath = os.path.join(os.path.abspath("."), "lib")
 
-#Start JVM
+#### JVM
 
 jpype.startJVM(jpype.getDefaultJVMPath(), "-Djava.ext.dirs=%s" % jarpath)
 
-#Create Document type
+##### Document type
 
 Document = jpype.JClass("com.aspose.words.Document")
 
@@ -66,12 +66,12 @@ Document = jpype.JClass("com.aspose.words.Document")
 
 doc = Document ("C:\\Temp\\in.doc")
 
-#Create names and values arrays
+###### names and values arrays
 
 names = ["Name", "Company", "City"]
 values = ["Alexey Noskov", "Aspose", "Auckland"]
 
-#Execute mail merge
+####### mail merge
 
 doc.getMailMerge().execute(names, values)
 
@@ -80,7 +80,7 @@ doc.getMailMerge().execute(names, values)
 doc.save("C:\\Temp\\out.doc")
 {{< /highlight >}}
 
-## **Invoke Static Methods**
+## Invoke Static Methods
 
 Some methods in the Aspose.Words object model are static. For example, there is the **Document.DetectFormat** method that allows you to detect the original format of a file.
 
@@ -110,7 +110,7 @@ else:
 print "Unknown format"
 {{< /highlight >}}
 
-## **Save or Convert a Document**
+## Save or Convert a Document
 
 With Aspose.Words, you can save a document in a variety of formats. For the full list of formats and identifiers see the **SaveFormat** enumeration.
 
@@ -118,7 +118,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 
 {{< highlight csharp >}}
 
-#Save a document in a variety of formats.
+### a document in a variety of formats.
 
 SaveFormat = jpype.JClass("com.aspose.words.SaveFormat")
 doc.save("C:\\Temp\\out.doc", SaveFormat.DOC)
@@ -126,7 +126,7 @@ doc.save("C:\\Temp\\out.html", SaveFormat.HTML)
 doc.save("C:\\Temp\\out.txt ", SaveFormat.TEXT)
 {{< /highlight >}}
 
-## **Mail Merge with Regions**
+## Mail Merge with Regions
 
 First, create a Java class that would return a **ResultSet** object as shown below. Compile it, put it in a jar file, and place it in the “lib” folder inside your application root folder.
 
@@ -180,19 +180,19 @@ Next, write your Python code.
 import jpype
 import os.path
 
-#Get path to directory with Aspose.Words.jar 
+### path to directory with Aspose.Words.jar 
 
 jarpath = os.path.join(os.path.abspath("."), "lib")
 
-#Start JVM
+#### JVM
 
 jpype.startJVM(jpype.getDefaultJVMPath(), "-Djava.ext.dirs=%s" % jarpath)
 
-#Create Document type
+##### Document type
 
 Document = jpype.JClass("com.aspose.words.Document")
 
-#Create RelationSet type
+###### RelationSet type
 
 RelationSet = jpype.JClass("RelationSet")
 
@@ -200,11 +200,11 @@ RelationSet = jpype.JClass("RelationSet")
 
 doc = Document ("C:\\Temp\\in.doc")
 
-#Execute a method of RelationSet: the database query
+###### a method of RelationSet: the database query
 
 myResultSet = RelationSet.execQuery()
 
-#Execute mail merge with regions
+####### mail merge with regions
 
 doc.getMailMerge().executeWithRegions("Users", myResultSet)
 

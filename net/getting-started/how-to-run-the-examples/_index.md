@@ -5,7 +5,7 @@ weight: 110
 url: /net/how-to-run-the-examples/
 ---
 
-## **Software Requirements**
+## Software Requirements
 
 Please make sure you meet the following requirements before downloading and running the examples.
 
@@ -14,7 +14,7 @@ Please make sure you meet the following requirements before downloading and runn
 1. Go to Tools->Options->NuGet Package Manager->Package Sources and make sure that the option **nuget.org** is checked
 1. Examples project uses NuGet Automatic Package Restore feature, therefore, you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/words/net/installation) and manually add a reference to Aspose.Words.dll in the example project.
 
-## **Download from GitHub**
+## Download from GitHub
 
 All examples of Aspose.Words for .NET are hosted on [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET).
 
@@ -30,7 +30,7 @@ All examples of Aspose.Words for .NET are hosted on [GitHub](https://github.com/
 
 Please feel free to reach out using our [Aspose.Words Product Family Forum](https://forum.aspose.com/c/words) if you have any issues setting up or running the examples.
 
-## **Contribute**
+## Contribute
 
 If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.
 

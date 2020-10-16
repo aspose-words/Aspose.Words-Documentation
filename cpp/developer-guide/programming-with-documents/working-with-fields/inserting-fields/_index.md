@@ -5,7 +5,7 @@ weight: 20
 url: /cpp/inserting-fields/
 ---
 
-## **Inserting Fields into a Document**
+## Inserting Fields into a Document
 
 In Aspose.Words the **DocumentBuilder.InsertField** method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
@@ -23,9 +23,9 @@ The same technique is used to insert fields nested within other fields. Below ex
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-InsertNestedFields-InsertNestedFields.cpp" >}}
 
-## **Inserting Fields using DOM**
+## Inserting Fields using DOM
 
-### **Inserting Merge Field into a Document using DOM**
+### Inserting Merge Field into a Document using DOM
 
 MERGEFIELD field in Word document can be represented by the FieldMergeField class. You can use FieldMergeField class to perform the following operations:
 
@@ -39,7 +39,7 @@ For more details, please refer to FieldMergeField Class API reference. Below ex
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cpp" >}}
 
-### **Inserting Mail Merge Address Block field into a Document using DOM**
+### Inserting Mail Merge Address Block field into a Document using DOM
 
 ADDRESSBLOCK field is used to insert a mail merge address block in Word document. ADDRESSBLOCK field in Word document can be represented by the FieldAddressBlock class. You can use FieldAddressBlock class to perform the following operations:
 
@@ -53,7 +53,7 @@ For more details, please refer to FieldAddressBlock Class API reference. Below 
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cpp" >}}
 
-### **Inserting Advance field into a Document without using DocumentBuilder**
+### Inserting Advance field into a Document without using DocumentBuilder
 
 The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. The ADVANCE field in Word document can be represented by the FieldAdvance class. You can use FieldAdvance class to perform the following operations:
 
@@ -65,7 +65,7 @@ For more details, please refer to FieldAdvance Class API reference. Below examp
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-InsertAdvanceFieldWithoutDocumentBuilder-InsertAdvanceFieldWithoutDocumentBuilder.cpp" >}}
 
-### **Inserting ASK field into a Document without using DocumentBuilder**
+### Inserting ASK field into a Document without using DocumentBuilder
 
 ASK field is used to prompt the user for text to assign to a Bookmark in Word document. ASK field in Word document can be represented by the FieldAsk class. You can use FieldAsk class to perform the following operations:
 
@@ -78,7 +78,7 @@ For more details, please refer to [FieldAsk Class API reference](http://www.asp
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-InsertASKFieldWithoutDocumentBuilder-InsertASKFieldWithoutDocumentBuilder.cpp" >}}
 
-### **Inserting AUTHOR field into a Document without using DocumentBuilder**
+### Inserting AUTHOR field into a Document without using DocumentBuilder
 
 AUTHOR field is used to specify the name of Document's author from the Document properties. AUTHOR field in Word document can be represented by the FieldAuthor class. You can use FieldAuthor class to perform the following operations:
 
@@ -88,7 +88,7 @@ For more details, please refer to [FieldAuthor Class API reference](http://www.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cpp" >}}
 
-### **Inserting INCLUDETEXT field into a Document without using DocumentBuilder**
+### Inserting INCLUDETEXT field into a Document without using DocumentBuilder
 
 The INCLUDETEXT field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use FieldIncludeText class to perform the following operations:
 
@@ -99,7 +99,7 @@ For more details, please refer to [FieldIncludeText Class API reference](https
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-InsertIncludeTextFieldWithoutDocumentBuilder-InsertIncludeTextFieldWithoutDocumentBuilder.cpp" >}}
 
-### **Inserting TOA field into a Document without using DocumentBuilder**
+### Inserting TOA field into a Document without using DocumentBuilder
 
 The TOA (*Table of Authorities*) field builds and inserts a table of authorities. The TOA field collects entries marked by TA (*Table of Authorities Entry*) fields. Microsoft Office Word inserts the TOA field when you click *Insert Table of Authorities* in the **Table of Authorities** group on the **References** tab. When you view the TOA field in your document, the syntax looks like this:
 
@@ -109,9 +109,9 @@ Please refer to FieldToa Class API reference. Below example shows how to Add 
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cpp" >}}
 
-## **Inserting Fields using DocumentBuilder**
+## Inserting Fields using DocumentBuilder
 
-### **How to Insert Untyped/Empty Field**
+### How to Insert Untyped/Empty Field
 
 If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in Word document, you can press “Ctrl + F9” key combination. Below code example shows how to insert an empty field in the document.
 

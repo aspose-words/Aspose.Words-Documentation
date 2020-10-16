@@ -11,7 +11,7 @@ Yes, you can now run Aspose.Words for .NET with Mono on Linux or Mac OS to gener
 
 {{% /alert %}} 
 
-#### **Supported Platforms**
+## Supported Platforms
 
 We have successfully tested Aspose.Words for .NET running on Mono in the following configurations:
 
@@ -22,7 +22,7 @@ We have successfully tested Aspose.Words for .NET running on Mono in the followi
 - Ubuntu 11.4 
 - Mac OS X 10.6.4 
 
-#### **Known Issues**
+### Known Issues
 
 Aspose.Words for .NET was initially designed to be used on Windows systems with the .NET Framework. It is a testament to the great work done by the developers working on the Mono project that when we ran Aspose.Words on Mono for the first time, most of the functionality worked straight away.
 
@@ -35,11 +35,11 @@ The table below lists known issues and features that are not available in Aspose
 |Rendering of document pages or shapes to images can produce poor results. |Aspose.Words uses GDI+ to render document pages to images. While this is available on Mono, it seems to work differently with coordinate transformations and the output is often garbled. |N/A |
 |Printing is unavailable. |Aspose.Words for .NET implements printing via the .NET printing infrastructure, which is not available on Mono. |N/A |
 
-#### **Install the mono-locale-extras Package**
+#### Install the mono-locale-extras Package
 
 When running Aspose.Words on openSUSE we found the mono-locale-extras package was not installed by default. We had to install this package manually, otherwise the "CodePage not supported" exception was thrown on some documents.
 
-#### **Install Aspose.Words for use with Mono**
+#### Install Aspose.Words for use with Mono
 
 You do not need to install a special build for use with Mono, just use the same Aspose.Words assembly as for a .NET application, i.e. Aspose.Words for .NET.
 
@@ -47,6 +47,6 @@ Aspose.Words for .NET is distributed as a Windows Installer Package (MSI) and as
 
 Unpack **Aspose.Words.zip** and add a reference to **net2.0/Aspose.Words.dll** to your project. 
 
-#### **Verify the Location of TrueType Fonts**
+#### Verify the Location of TrueType Fonts
 
 In order for Aspose.Words to render documents (for example to PDF or XPS), it needs to know where to find TrueType Fonts (TTF) files. See [How-to: Specify True Type Font Location](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) for more information. 

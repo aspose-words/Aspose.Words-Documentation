@@ -5,7 +5,7 @@ weight: 110
 url: /java/installation/
 ---
 
-## **Installing Aspose.Words for Java from Maven Repository**
+## Installing Aspose.Words for Java from Maven Repository
 
 Aspose hosts all Java APIs on [Maven repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose). You can easily use Aspose.Words for Java API directly in your Maven Projects with simple configurations.
 

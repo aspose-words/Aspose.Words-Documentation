@@ -23,7 +23,7 @@ url: /net/aspose-export-to-image-for-asp-net-mvc/
     - [Source Code](#AsposeExporttoImageforASP.NETMVC-SourceCode)
     - [How to configure source code](#AsposeExporttoImageforASP.NETMVC-Howtoconfiguresourcecode)
 
-## **Introduction**
+## Introduction
 
 Are you facing problems in converting a lengthy web page into single/multiple images (PNG, JPEG,TIFF, or BMP). Here is how [Apose.Words for .NET](http://www.aspose.com/.net/word-component.aspx) will help you achieve this. Aspose.Words for .NET exports the entire content of the web page into a single image or multiple images, as per user choice , in any image format (options available are PNG, JPEG,TIFF,BMP). Users can easily download the exported image(s) and use it as desired. Developers can add this feature of Aspose.Words for .NET to their MVC website projects by performing few simple steps.
 
@@ -39,7 +39,7 @@ This initial version of the module contains following features:
 - Exported document is automatically sent to the browser for downloading.
 - The generated image can then be opened using any image viewing application such as windows photo viewer etc.
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
 In order to install and use export content to images for ASP.NET MVC, you need to have one of the following installed.
 
@@ -53,25 +53,25 @@ This addon will work with ASP.NET MVC 4.5+:
 - Microsoft Visual Studio.
 - ASP.NET MVC 4.5+.
 
-## **Downloading and Installing**
+## Downloading and Installing
 
 You can download Export web page contents to an image for ASP.NET MVC from one of the following locations
 
-### **Downloading**
+### Downloading
 
 - [CodePlex](https://asposewordsnetmvc.codeplex.com/downloads/get/1559922)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.MVC.ExportContentToImagesv1.0/Aspose.MVC.ExportContentToImages-v1.0.zip)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Export-to-Image-for-538cb0ea)
 
-### **Installing**
+### Installing
 
-#### **Test a running demonstration**
+#### Test a running demonstration
 
 - Step 1 – Download ExportContentToImages Project.
 - Step 2 – Open ExportContentToImages Project.
 - Step 3 – Run the project.
 
-#### **Add “Export web page content to an image” feature to an existing MVC project**
+#### Add “Export web page content to an image” feature to an existing MVC project
 
 - Step 1 – Download ExportContentToImages Project and open your existing ASP.NET MVC Solution / Project.
 - Step 2 – Copy “Controllers/ExportToImageController.cs” and paste it in your project “Controllers” folder.
@@ -95,9 +95,9 @@ e.g @{ Html.RenderPartial("~/Views/Shared/AsposeContentToImage.cshtml"); }
     - Step 6.4.3 – Click Ok.
 - Step 7 – Run the project.
 
-## **Using and Video Demo**
+## Using and Video Demo
 
-### **How to apply Aspose License?**
+### How to apply Aspose License?
 
 This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license.
@@ -105,13 +105,13 @@ To remove evaluation message and feature limitations, product license should be 
 - Make sure the license file is named as **Aspose.Words.lic.**
 - Place **Aspose.Words.lic** file in **App_Data** folder of your project directory e.g. "MVC project Root Folder/App_Data/Aspose.Words.lic".
 
-### **Video Demo**
+### Video Demo
 
 Please check [the video](https://youtu.be/CCC96GvkD0M) below to see the module in action.
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -121,9 +121,9 @@ You can log any issues or suggestions related to Aspose.Words.NET for ASP.NET MV
 - [CodePlex](https://asposewordsnetmvc.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/asposewords/Aspose.Words-for-.NET/issues)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
-#### **Source Code**
+#### Source Code
 
 You can download the latest source code at:
 
@@ -131,7 +131,7 @@ You can download the latest source code at:
 - [Github](https://github.com/asposewords/Aspose.Words-for-.NET)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Export-to-Image-for-538cb0ea/view/SourceCode#content)
 
-#### **How to configure source code**
+#### How to configure source code
 
 You need to have the following installed in order to open and extend the source code
 

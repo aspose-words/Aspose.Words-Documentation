@@ -25,7 +25,7 @@ The logic used when a external style sheet is enctounered on ocument load can be
 
 {{% /alert %}} 
 
-## **Style Type**
+## Style Type
 
 Styles are imported from embedded or external CSS style sheets. Each selector is imported as a new Style in the Aspose.Words model. All styles are imported even if they are not actually used within the HTML body.
 
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 |List Style |Planned | |- **StyleType.List**|
 |Table Style |Planned | |<p>- **Table.Style** </p><p>- **TableStyle** </p><p>- **StyleType.Table**</p>|
 
-## **General**
+## General
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -62,14 +62,14 @@ See the following links in the documentation for further information:
 |Run Properties |Yes | |- **Style.Font**|
 |Bullets and Numbering |Yes | |<p>- **Style.List** </p><p>- **Style.ListFormat**</p>|
 
-## **Document Defaults**
+## Document Defaults
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Paragraph Properties |N/A | | |
 |Run Properties |N/A | | |
 
-## **Table Style**
+## Table Style
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

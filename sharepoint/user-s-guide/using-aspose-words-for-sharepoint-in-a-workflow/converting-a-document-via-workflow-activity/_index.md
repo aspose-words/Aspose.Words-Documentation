@@ -7,11 +7,11 @@ url: /sharepoint/converting-a-document-via-workflow-activity/
 
 This article explains how to use SharePoint Designer to create a workflow for converting new documents to PDF and storing the results in another document library.
 
-## **Select Source and Destination Document Libraries**
+## Select Source and Destination Document Libraries
 
 First choose the source and destination document library for converting documents. For this example, we want to convert all new documents in a library called “Incoming Documents” and store the converted documents in a library called “Converted Documents”, placing the result in the “PDF” subfolder. To reproduce this example, create these libraries in a SharePoint site you use for testing. Alternatively, use existing libraries instead of the suggested example libraries. When a workflow is executed, it has the permissions of the user who initiated it. So in order to store the converted documents, users need permission to add and update documents in the destination library.
 
-### **Create a New Workflow**
+### Create a New Workflow
 
 To create a new workflow:
 
@@ -33,7 +33,7 @@ To create a new workflow:
    **Selecting conversion action.**<br>
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_2.png)
 
-### **Configure Action Parameters**
+### Configure Action Parameters
 
 The parameters of the workflow action are similar to the conversion settings available when launching conversion via Aspose.Words from a document library:
 
@@ -52,7 +52,7 @@ The parameters of the workflow action are similar to the conversion settings ava
    **Setting other workflow action parameters.** 
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_4.png)
 
-### **Use Action Output Parameters in Other Actions**
+### Use Action Output Parameters in Other Actions
 
 The conversion action sets three workflow variables on execution:
 
@@ -70,7 +70,7 @@ Add another action using one of the conversion output parameters as an argument.
 
 1. Click **Finish** in the workflow designer window to save the new workflow.<br>
 
-### **Test the New Workflow**<br>
+### Test the New Workflow<br>
 
 Now let us see how it works.
 
@@ -90,6 +90,6 @@ Now let us see how it works.
 
 If a user with insufficient permissions to update the destination library has started the workflow, it still completes successfully, but the failure is logged in the workflow history:
 
-### **An unsuccessful conversion logged in the workflow history.**
+### An unsuccessful conversion logged in the workflow history.
 
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_8.png)

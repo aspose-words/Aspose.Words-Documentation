@@ -13,7 +13,7 @@ Markdown is so popular because it is easy to work with this format, as well as i
 
 Now the functionality for working with the Markdown format is being actively developed to provide you with more opportunities for convenient and comfortable work with documents.
 
-## **Convert a Document to Markdown**
+## Convert a Document to Markdown
 
 To convert a document to Markdown, you just need to load a document in any supported format or create a new one programmatically. Then you need to save the document to Markdown format.
 
@@ -23,11 +23,11 @@ The following code example shows how to convert DOCX to Markdown:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SaveAsMD.java" >}}
 
 
-## **Specify Save Options when Converting to Markdown**
+## Specify Save Options when Converting to Markdown
 
 Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/MarkdownSaveOptions) class to work with advanced options when saving a document to Markdown format. In addition to other inheriting or overloading properties, the [TableContentAlignment](https://apireference.aspose.com/words/java/com.aspose.words/TableContentAlignment) property was added to control the alignment of content in tables when converting a document to Markdown format.
 
-## **Supported Markdown Features**
+## Supported Markdown Features
 
 Aspose.Words currently supports the following Markdown features, which mostly follow the CommonMark specification in the Aspose.Words API and are represented as appropriate styles or direct formatting:
 
@@ -53,7 +53,7 @@ The result of this code example is shown below.
 
 ![markdown-example](Markdown-example.png)
 
-## **Useful Tips**
+## Useful Tips
 
 There are several nuances and interesting cases, having learned which you can work with Markdown files more flexibly and conveniently. For example, there is the ability to use:
 

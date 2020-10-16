@@ -5,27 +5,27 @@ weight: 10
 url: /java/download-and-configure-aspose-words-in-php/
 ---
 
-## **Download Required Libraries**
+## Download Required Libraries
 
 Download required libraries mentioned below. These are the required for executing Aspose.Words Java for PHP examples.
 
 - **Aspose:** [Aspose.Words for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.words-for-java/default.aspx)
 - [PHP/Java Bridge](http://citylan.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip)
 
-## **Download Examples from Social Coding Sites**
+## Download Examples from Social Coding Sites
 
 Following releases of running examples are available to download on below mentioned social coding sites:
 
-### **GitHub**
+### GitHub
 
 - **Aspose.Words Java for PHP Examples** 
   - [Aspose.Words Java for PHP](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_Java_for_PHP)
 
-## **How to configure the source code on Linux Platform**
+## How to configure the source code on Linux Platform
 
 Please follow these simple steps in order to open and extend the source code while using:
 
-## **1. Install Tomcat Server**
+## 1. Install Tomcat Server
 
 To install tomcat server, issue following command on the linux console. This will successfully install tomcat server. 
 
@@ -33,7 +33,7 @@ To install tomcat server, issue following command on the linux console. This wi
 sudo apt-get install tomcat8
 {{< /highlight >}}
 
-## **2. Download and Configure PHP/JavaBridge**
+## 2. Download and Configure PHP/JavaBridge
 
 In order to download the PHP/JavaBridge binaries, issue following command on the linux console. 
 
@@ -68,7 +68,7 @@ After installing php5.5 cgi, restart tomcat8 server and check <http://localhost
 
 If **JAVA_HOME** error is displayed, then open /etc/default/tomcat8 file and uncomment the line that sets the JAVA_HOME. Check <http://localhost:8080/JavaBridge> in browser again, it should come with PHP/JavaBridge Examples page. 
 
-## **3. Configure Aspose.Words Java for PHP Examples**
+## 3. Configure Aspose.Words Java for PHP Examples
 
 Clone, PHP examples by issuing the following commands inside webapps/JavaBridge folder.  
 
@@ -77,7 +77,7 @@ $ git init&nbsp;
 $ git clone [https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_PHP] 
 {{< /highlight >}}
 
-## **How to configure the source code on Windows Platform**
+## How to configure the source code on Windows Platform
 
 Please follow below simple steps to configure PHP/Java Bridge on Windows Platform:
 

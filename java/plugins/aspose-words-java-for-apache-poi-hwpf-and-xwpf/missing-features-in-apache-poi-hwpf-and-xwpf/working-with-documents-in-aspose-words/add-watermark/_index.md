@@ -13,7 +13,7 @@ You can try to add watermark and view the results online at this link:
 
 {{% /alert %}} 
 
-## **Aspose.Words - Add Watermark**
+## Aspose.Words - Add Watermark
 
 Sometimes you need to insert a watermark into a Word document, for instance, if you would like to print a draft document or mark it as confidential.
 
@@ -82,12 +82,12 @@ private static void insertWatermarkIntoHeader(Paragraph watermarkPara, Section s
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithdocument/addwatermark/AsposeWatermarks.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithdocument/addwatermark/AsposeWatermarks.java)

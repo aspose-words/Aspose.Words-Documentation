@@ -18,7 +18,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **General**
+## General
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -44,14 +44,14 @@ See the following links in the documentation for further information:
 |Background |Yes | | |
 |Thumbnail |Planned | | |
 
-## **Embedded Fonts**
+## Embedded Fonts
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embedding Fonts |Yes |Embedded fonts in DOCX are only preserved when saving round-trip back to DOCX. | |
 |Embed Only Non-Standard Fonts |N/A | | |
 
-## **Bibliography**
+## Bibliography
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -59,7 +59,7 @@ See the following links in the documentation for further information:
 |Sources/Citations |Yes | | |
 |Citation Style |Yes | | |
 
-## **Protection**
+## Protection
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -73,7 +73,7 @@ See the following links in the documentation for further information:
 |Protection Ranges |Planned |Currently protected ranges are lost upon import. | |
 |Read Only |Yes | | |
 
-## **Settings**
+## Settings
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

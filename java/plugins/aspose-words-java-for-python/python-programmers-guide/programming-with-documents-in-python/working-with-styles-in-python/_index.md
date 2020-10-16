@@ -5,7 +5,7 @@ weight: 70
 url: /java/working-with-styles-in-python/
 ---
 
-## **Aspose.Words - Extract Content Based On Styles**
+## Aspose.Words - Extract Content Based On Styles
 
 **Python Code**
 
@@ -32,7 +32,7 @@ for run in runs :
     print run.getRange().getText()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Extract Content Based On Styles (Aspose.Words)** from any of the below mentioned social coding sites:
 

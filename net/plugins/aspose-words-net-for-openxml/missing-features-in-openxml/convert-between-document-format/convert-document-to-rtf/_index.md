@@ -14,7 +14,7 @@ Document doc = new Document(FileName);
 doc.Save(FilePath + "Document.Doc2RtfSave Out.rtf");
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](https://asposeopenxml.codeplex.com/releases/view/617779)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)

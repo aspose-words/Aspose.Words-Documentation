@@ -5,13 +5,13 @@ weight: 250
 url: /java/working-with-styles/
 ---
 
-## **How to Extract Content Based on Styles**
+## How to Extract Content Based on Styles
 
 At a simple level, retrieving the content based on styles from a Word document can be useful to identify, list and count paragraphs and runs of text formatted with a specific style. For example, you may need to identify particular kinds of content in the document, such as examples, titles, references, keywords, figure names, and case studies.
 
 To take this a few steps further, this can also be used to leverage the structure of the document, defined by the styles it uses, to re-purpose the document for another output, such as HTML. This is in fact how the Aspose documentation is built, putting Aspose.Words to the test. A tool built using Aspose.Words takes the source Word documents and splits them into topics at certain heading levels. An XML file is produced using Aspose.Words which is used to build the navigation tree you can see on the left. And then Aspose.Words converts each topic into HTML. The solution for retrieving text formatted with specific styles in a Word document is typically economical and straightforward using Aspose.Words.
 
-### **The Solution**
+### The Solution
 
 To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document.
 
@@ -27,7 +27,7 @@ Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph
 
 In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
 
-### **The Code**
+### The Code
 
 The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution:
 
@@ -56,7 +56,7 @@ Below example run queries and display results.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-.java" >}}
 
-### **End Result**
+### End Result
 
 When everything is done, running the sample will display the following output:
 
@@ -65,13 +65,13 @@ When everything is done, running the sample will display the following output:
 
 As you can see, this is a very simple example, showing the number and text of the collected paragraphs and runs in the sample Word document.
 
-## **Insert Style Separator to Put Different Paragraph Styles**
+## Insert Style Separator to Put Different Paragraph Styles
 
 The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph. If you want to some text from the beginning of a particular heading to appear in a Table of Contents but don't want the entire heading in the Table of Contents, you can use this feature. Below code example shows how to insert style separator to put different paragraph styles. 
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-WorkingWithStyle-ParagraphInsertStyleSeparator.java" >}}
 
-## **Copy All Styles from Template**
+## Copy All Styles from Template
 
 There are cases when you want to copy all styles from one document into another. You can use Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
 

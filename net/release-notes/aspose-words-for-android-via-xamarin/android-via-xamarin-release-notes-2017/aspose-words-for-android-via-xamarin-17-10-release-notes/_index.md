@@ -15,7 +15,7 @@ This version also includes all bug fixes and public API changes made in Aspose.W
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - "Don't add extra space for raised/lowered characters" compatibility option is supported.
 - Multiple improvements in RTL and Asian text handling.

@@ -20,7 +20,7 @@ You can insert images from a data source in the report. Image merge fields must 
 ![todo:image_alt_text](merge-fields-for-inserting-images_2.png)
 
 
-### **Related Articles**
+## Related Articles
 
 - [Report Template and Merge Fields](/words/sharepoint/report-template-and-merge-fields/)
 - [Merge Regions](/words/sharepoint/merge-regions/)

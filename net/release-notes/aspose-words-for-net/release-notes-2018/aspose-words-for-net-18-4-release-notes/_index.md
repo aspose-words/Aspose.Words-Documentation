@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 18.4](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 66 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -40,7 +40,7 @@ There are 66 improvements and fixes in this regular monthly release. The most no
 - Fixed comment range highlighting issue when comment spans multiple pages inside a repeated header row of a table
 - Fixed rendering of text in merged cells when row contains hidemark attribute on the cell break and all remaining cells are merged
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -111,11 +111,11 @@ There are 66 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16133|Provide an ability to work with password-protected ODT and OTT file formats|Feature|
 |WORDSNET-16565|UpdateFields caused hidden fields to be shown|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 18.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Ability to Work with Password-Protected ODT and OTT File Formats Added**
+### Ability to Work with Password-Protected ODT and OTT File Formats Added
 
 Related issue: WORDSNET-16133
 
@@ -141,27 +141,27 @@ public OdtSaveOptions(string password)
 public string Password
 {{< /highlight >}}
 
-##### **UC1: Load encrypted ODT document.**
+#### UC1: Load encrypted ODT document.
 
 {{< highlight csharp >}}
 Document doc = new Document(@"\encrypted.odt", new LoadOptions("password"));
 {{< /highlight >}}
 
-##### **UC2: Save ODT document encrypted with a password.**
+##### UC2: Save ODT document encrypted with a password.
 
 {{< highlight csharp >}}
 Document doc = new Document();
 doc.Save(@"\encryped.odt", new OdtSaveOptions("password"));
 {{< /highlight >}}
 
-##### **UC3: Verify ODT document is encrypted.**
+##### UC3: Verify ODT document is encrypted.
 
 {{< highlight csharp >}}
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(@"\encryped.odt");
 Debug.Assert(info.IsEncrypted);
 {{< /highlight >}}
 
-### **Ability to Preserve PaperTray Information in PCL Added**
+### Ability to Preserve PaperTray Information in PCL Added
 
 Related issue: WORDSNET-16391
 
@@ -177,7 +177,7 @@ No additional code is required.
 Please note the value of paper tray is passed from document "as is".
 PCL format supports only 8-bit identifiers for paper tray so make sure this values are correct for PCL printer.
 
-### **Added ShapeBase.IsLayoutInCell property**
+### Added ShapeBase.IsLayoutInCell property
 
 Related issue: WORDSNET-16546
 
@@ -200,7 +200,7 @@ public bool IsLayoutInCell
 
 The property may be helpful for shapes (mainly VML) that are placed into a table cell but are needed to position without binding to the cell.
 
-###### **Usage**
+#### Usage
 
 {{< highlight csharp >}}
 Shape watermark = new Shape(doc, ShapeType.TextPlainText);
@@ -223,7 +223,7 @@ builder.MoveTo(run);
 builder.InsertNode(watermark);
 {{< /highlight >}}
 
-### **Optimization of Vector Graphics Output of Metafile Rendering**
+### Optimization of Vector Graphics Output of Metafile Rendering
 
 Related issues: WORDSNET-16449, WORDSNET-15490
 
@@ -233,6 +233,6 @@ Optimization may affect the visual appearance of metafile vector graphics in vie
 
 Metafile output optimization is controlled by existing FixedPageSaveOptions.OptimizeOutput flag.
 
-### **Obsolete property LoadOptions.WebRequestTimeout was removed**
+### Obsolete property LoadOptions.WebRequestTimeout was removed
 
 ` `Obsolete property WebRequestTimeout was removed from the LoadOptions class. Please use the HtmlLoadOptions.WebRequestTimeout property instead.

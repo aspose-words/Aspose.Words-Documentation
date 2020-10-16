@@ -5,7 +5,7 @@ weight: 10
 url: /net/find-and-replace-text-in-documents/
 ---
 
-## **Aspose.Words - Find and Replace Text in Documents**
+## Aspose.Words - Find and Replace Text in Documents
 
 Use Range.Replace to find or replace a particular string within the current range. It returns the number of replacements made, so it is useful for searching strings without replace. An exception is thrown if a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote.
 
@@ -22,7 +22,7 @@ doc.Range.Replace(new Regex("[s|m]ad"), "bad");
 doc.Save("replacedDocument.doc");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Find and Replace Text in Documents** form any of the below mentioned social coding sites:
 

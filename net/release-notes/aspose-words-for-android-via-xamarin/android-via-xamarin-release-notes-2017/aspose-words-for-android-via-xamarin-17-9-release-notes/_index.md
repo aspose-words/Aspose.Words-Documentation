@@ -15,7 +15,7 @@ This version also includes all bug fixes and public API changes made in Aspose.W
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 Except fixes and improvements from Aspose.Words for .NET the following improvements have been made in this Aspose.Words for Android via Xamarin:
 

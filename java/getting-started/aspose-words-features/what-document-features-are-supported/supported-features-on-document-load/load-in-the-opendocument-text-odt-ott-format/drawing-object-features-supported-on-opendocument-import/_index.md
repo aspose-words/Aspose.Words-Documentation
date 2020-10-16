@@ -19,7 +19,7 @@ Almost all properties that deal with object positioning use points as a unit of 
 
 {{% /alert %}} 
 
-## **Images**
+## Images
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
@@ -65,7 +65,7 @@ See the following links in the documentation for further information:
 |Cropping |Yes | |<p>- **ImageData.CropLeft** </p><p>- **ImageData.CropRight** </p><p>- **ImageData.CropTop** </p><p>- **ImageData.CropBottom**</p>|
 |Alternative text |Planned | |- **Shape.AltText**|
 
-## **Image Recoloring**
+## Image Recoloring
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -73,7 +73,7 @@ See the following links in the documentation for further information:
 |Contrast |Yes | |- **ImageData.Contrast**|
 |Recolor |N/A | | |
 
-## **Textboxes**
+## Textboxes
 
 See the following link in the documentation for further information:
 
@@ -88,7 +88,7 @@ See the following link in the documentation for further information:
 |Resize To Fit Text |Yes | |- **TextBox.FitShapeToText**|
 |Text in Other Shapes |Yes | | |
 
-## **OLE Objects**
+## OLE Objects
 
 Using Aspose.Words OLE Objects from Word documents are exported as images so are imported back as regular images and not OLE Objects.
 
@@ -105,13 +105,13 @@ Support for native embedded objects in ODT during load is currently unsupported 
 |Ole Object Picture |N/A | | |
 |Source Range |N/A | | |
 
-## **ActiveX Controls**
+## ActiveX Controls
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Persistent Properties Storage |N/A | | |
 
-## **Shapes**
+## Shapes
 
 Aspose.Words supports almost all Shape and Image elements. References to external images such as ones on the internet are automatically downloaded as well. All of these elements are imported into Aspose.Words as Shape nodes.
 
@@ -153,7 +153,7 @@ See the following links in the documentation for further information:
 |Hyperlink on Shape |N/A | | |
 |Watermark |N/A | | |
 
-## **WordArt**
+## WordArt
 
 WordArt is imported as a Shape object in Aspose.Words. This class provides properties to extract and modify properties of a WordArt object.
 
@@ -178,7 +178,7 @@ See the following links in the documentation for further information:
 |Align and Justify Text |Planned | |- **Textbox.TextPathAlignment**|
 |WordArt Shape |Planned | | |
 
-## **Horizontal Line Object**
+## Horizontal Line Object
 
 Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a Shape can also represent an image there is a property which returns if this shape is a Horizontal Line Object.
 
@@ -199,7 +199,7 @@ See the following link in the documentation for further information:
 |Hyperlink |N/A | | |
 |Image |N/A | | |
 
-## **Position**
+## Position
 
 Aspose.Words supports creating objects with a variety of different positioning settings. Almost all possible settings are supported in the Aspose.Words model
 
@@ -229,7 +229,7 @@ See the following links in the documentation for further information:
 |Allow Overlap |N/A |When imported from ODT the shape has this property enabled by default. | |
 |Layout in Table Cell |N/A |When imported from ODT the shape has this property enabled by default. | |
 
-## **Size**
+## Size
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -238,7 +238,7 @@ See the following links in the documentation for further information:
 |Relative Size |N/A | | |
 |Lock Aspect Ratio |Planned | | |
 
-## **Fill**
+## Fill
 
 Using Aspose.Words you can access, modify and remove most fill properties of a shape.
 
@@ -254,7 +254,7 @@ See the following link in the documentation for further information:
 |Pattern Fill |Planned |The raw bytes of the Pattern fill can be extracted only. A new pattern can not be set. <br><br>Such pattern fills don't have eqivilants in ODT but can be round-tripped as image. |- **Fill.ImageBytes**|
 |Picture or Texture Fill |Planned |The raw bytes of the Texture fill can be extracted only. A new texture or image can not be set. <br><br>Such pattern fills don't have eqivilants in ODT but can be round-tripped as image. |- **Fill.ImageBytes**|
 
-## **Line Style**
+## Line Style
 
 Some line styles might appear different when imported from ODT due to there being lesser line styles in ODT compared with Microsoft Word.
 
@@ -274,7 +274,7 @@ See the following links in the documentation for further information:
 |Join Type |Yes | |- **Stroke.JoinStyle**|
 |Arrow Settings |Yes |Some arrow types might not be present in ODT and therefore cannot be round-tripped correctly. |<p>- **Stroke.StartArrowLength** </p><p>- **Stroke.StartArrowType** </p><p>- **Stroke.EndArrowLength** </p><p>- **Stroke.EndArrowType**</p>|
 
-## **Shadow**
+## Shadow
 
 Most shadow properties are preserved during import. There is currently no API to access the shadow data of a graphic object.
 
@@ -286,7 +286,7 @@ Shadows options in ODT are simpler so not all properties can be round-tripped fr
 | :- | :- | :- | :- |
 |Shadow |Planned | | |
 
-## **3D Properties**
+## 3D Properties
 
 ODT format does not support 3D features.
 

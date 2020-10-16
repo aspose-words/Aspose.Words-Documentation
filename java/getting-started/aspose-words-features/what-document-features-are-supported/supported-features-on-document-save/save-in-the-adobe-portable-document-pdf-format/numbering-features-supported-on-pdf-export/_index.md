@@ -5,7 +5,7 @@ weight: 70
 url: /java/numbering-features-supported-on-pdf-export/
 ---
 
-## **Numbering Definition**
+## Numbering Definition
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -13,7 +13,7 @@ url: /java/numbering-features-supported-on-pdf-export/
 |Multi Level |Yes | | |
 |Name |Yes | | |
 
-## **Numbering Level**
+## Numbering Level
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

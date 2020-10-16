@@ -5,7 +5,7 @@ weight: 10
 url: /java/copy-bookmarked-text-in-php/
 ---
 
-## **Aspose.Words - Copy Bookmarked Text**
+## Aspose.Words - Copy Bookmarked Text
 
 To copy bookmarked text, see below example in php
 

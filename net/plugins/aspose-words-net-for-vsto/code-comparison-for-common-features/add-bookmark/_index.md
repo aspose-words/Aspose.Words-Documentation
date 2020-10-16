@@ -5,7 +5,7 @@ weight: 70
 url: /net/add-bookmark/
 ---
 
-## **VSTO**
+## VSTO
 
 {{< highlight csharp >}}
 Word.Application wordApp = Application;
@@ -15,7 +15,7 @@ Bookmark firstParagraph = extendedDocument.Controls.AddBookmark(
 	extendedDocument.Paragraphs[1].Range, "FirstParagraph");
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -26,7 +26,7 @@ builder.EndBookmark("MyBookmark");
 doc.Save("Adding Bookmark.doc");
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [Codeplex](http://goo.gl/6ohLvD)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Add.Bookmark.Aspose.Words.zip)

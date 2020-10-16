@@ -21,7 +21,7 @@ url: /net/document-merger-for-dynamics-crm/
   - [Support](#DocumentMergerforDynamicsCRM-Support)
   - [Extend and Contribute](#DocumentMergerforDynamicsCRM-ExtendandContribute)
 
-## **Introduction**
+## Introduction
 
 This Provide functionality to automatically merge two documents into single or creating new document using existing documents.
 Major features of this Addon are:
@@ -30,9 +30,9 @@ Major features of this Addon are:
 - Merge two or more documents in new document.
 - Provided a separate button that will trigger the Dialog automatically.
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 In order to install and use Aspose .NET Document Merger for Microsoft Dynamics CRM you need to have one of the following CRM version installed.
 
@@ -40,13 +40,13 @@ In order to install and use Aspose .NET Document Merger for Microsoft Dynamics C
 
 Please feel free to contact us if you find any issues in installing or using this Add-on.
 
-### **Supported Platforms**
+### Supported Platforms
 
 This addon will work with all version of:
 
 - Microsoft Dynamics CRM 2011.
 
-## **Downloading**
+## Downloading
 
 You can download the latest solution at:
 
@@ -56,9 +56,9 @@ You can download the latest solution at:
 - [Bitbucket](http://goo.gl/EHLHBr)
 - [Code.MSDN](http://goo.gl/Vlaj4q)
 
-## **Installing or Uninstalling**
+## Installing or Uninstalling
 
-### **Installing Aspose .NET Document Merger**
+### Installing Aspose .NET Document Merger
 
 It is simple to install Aspose .NET Document Merger. Please follow below Instructions:
 
@@ -68,7 +68,7 @@ It is simple to install Aspose .NET Document Merger. Please follow below Instruc
 - Click Next and wait for the solution to import.
 - Click close when the solution is imported successfully.
 
-### **Applying License**
+### Applying License
 
 - Copy the license File on the server and copy the path of the file. 
   - Recomended: "C:\Aspose\Aspose.Total.Lic".
@@ -87,12 +87,12 @@ It is simple to install Aspose .NET Document Merger. Please follow below Instruc
 
 - Activate the Process and Close it.
 
-### **Uninstalling Aspose .NET Document Merger**
+### Uninstalling Aspose .NET Document Merger
 
 - Go to solution and select "Aspose .NET Document Merger".
 - Press the Delete button.
 
-## **Using**
+## Using
 
 - Open any contact record and click on "Document Merger" from the top ribbon. 
 
@@ -104,9 +104,9 @@ It is simple to install Aspose .NET Document Merger. Please follow below Instruc
 
 - Merged document will be attached to same contact record, based on the output selected.
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
@@ -118,7 +118,7 @@ You can log any issues or suggestions related to Aspose .NET Document Merger usi
 - [Bitbucket](http://goo.gl/EHLHBr)
 - [Code.MSDN](http://goo.gl/Vlaj4q)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 You can download the latest source code at:
 

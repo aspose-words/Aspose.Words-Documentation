@@ -11,7 +11,7 @@ url: /net/numbering-features-supported-on-flatopc-export/
 
 {{% /alert %}} 
 
-## **Numbering Definition**
+## Numbering Definition
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ url: /net/numbering-features-supported-on-flatopc-export/
 |Multi Level |Yes | | |
 |Name |Yes | | |
 
-## **Numbering Level**
+## Numbering Level
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

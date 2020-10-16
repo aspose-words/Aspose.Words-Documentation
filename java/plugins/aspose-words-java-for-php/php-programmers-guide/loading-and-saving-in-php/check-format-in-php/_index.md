@@ -5,7 +5,7 @@ weight: 10
 url: /java/check-format-in-php/
 ---
 
-## **Aspose.Words - Check Format**
+## Aspose.Words - Check Format
 
 **Php Code**
 

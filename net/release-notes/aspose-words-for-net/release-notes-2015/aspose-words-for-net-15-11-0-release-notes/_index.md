@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 15.11.0](https://www
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 15.11 Release Notes**
+## Aspose.Words for .NET 15.11 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 127 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -23,7 +23,7 @@ There are 127 improvements and fixes in this regular monthly release. The most n
 - Many improvements in rendering of WordArt, gradient fill, SmartArt, DrawingML.
 - Fixes and improvements in all document format conversions.
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

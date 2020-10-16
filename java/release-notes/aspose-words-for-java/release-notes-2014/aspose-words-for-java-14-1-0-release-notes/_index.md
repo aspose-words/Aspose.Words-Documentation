@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 14.1.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 14.1 Release Notes**
+## Aspose.Words for Java 14.1 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 118 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -30,7 +30,7 @@ There are 118 improvements and fixes in this regular monthly release. The most n
 - DrawingML preset shadows rendering implemented
 - Hyperlink fragmentation in PDF resolved
 
-## **All Changes**
+## All Changes
 
 |Key |Summary |Category |
 | :- | :- | :- |

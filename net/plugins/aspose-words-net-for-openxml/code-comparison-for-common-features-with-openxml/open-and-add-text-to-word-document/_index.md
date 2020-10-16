@@ -5,7 +5,7 @@ weight: 30
 url: /net/open-and-add-text-to-word-document/
 ---
 
-### **OpenXML Word**
+## OpenXML Word
 
 Following are the namespace we need to use:
 
@@ -41,7 +41,7 @@ wordprocessingDocument.Close();
 }
 {{< /highlight >}}
 
-### **Aspose.Words**
+### Aspose.Words
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -60,7 +60,7 @@ builder.Write("Insert text");
 doc.Save(File);
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

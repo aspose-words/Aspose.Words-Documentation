@@ -5,7 +5,7 @@ weight: 10
 url: /java/extract-content-in-ruby/
 ---
 
-## **Aspose.Words - Extract Content**
+## Aspose.Words - Extract Content
 
 To extract contents from word document using Aspose.Words Java in Ruby, simply invoke the different methods of ExtractContent module. Below you can see few methods.
 
@@ -90,7 +90,7 @@ def extract_content_between_runs(doc)
 end
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Extract Content (Aspose.Words)** from any of the below mentioned social coding sites:
 

@@ -11,13 +11,13 @@ These page list public API changes that were introduced in Aspose.Words 11.10.0.
 
 {{% /alert %}} 
 
-## **Added an Option to choose Image Compression when Rendering to PDF**
+## Added an Option to choose Image Compression when Rendering to PDF
 
 Aspose.Words 11.10.0 introduces a new save option member to specify the image compression when saving to PDF. Normally images are rendered in the format they appear in the input document, this can often mean a lossless compression format called *Flate compression* is used which provides great quality, but can cause an increase in file size.
 
 You can now use **PdfSaveOptions.ImageCompression** to specify JPEG compression. Use this option in conjunction with the existing **PdfSaveOptions.JpegCompression** option to fully control the level of compression and space saving benefits. 
 
-### **Example**
+### Example
 
 *Exports the content of a node to string in HTML format using default options.*
 
@@ -33,11 +33,11 @@ options.setJpegQuality(50);
 doc.Save(getMyDir() + "Rendering.JpegImageCompression Out.pdf", options);
 {{< /highlight >}}
 
-## **Added Control for how Lists Labels are Exported to HTML**
+## Added Control for how Lists Labels are Exported to HTML
 
 The **HtmlSaveOptions.ExportListLabels** property controls how list labels are exported to HTML.
 
-### **Example**
+### Example
 
 *Exports the content of a node to string in HTML format using default options.*
 
@@ -62,7 +62,7 @@ saveOptions.ExportListLabels = ExportListLabels.BY_HTML_TAGS;
 doc.Save(getMyDir()+ "Document.ExportListLabels HtmlTags Out.html", saveOptions);
 {{< /highlight >}}
 
-## **Full Support for Object.Attribute Syntax for all Merge Field Types**
+## Full Support for Object.Attribute Syntax for all Merge Field Types
 
 The Object.Attribute merge field syntax allows querying any data source and an attribute through the use of one field e.g Customer.Name. This feature was introduced with mustache merge fields in Aspose.Words 11.2.0. Some bug fixes and improvements to this feature means that it is now fully supported on both mustache and regular merge fields.
 
@@ -70,7 +70,7 @@ With the release of Aspose.Words 11.10.0 when executing mail merge, any merge fi
 
 It is suggested to avoid using dots in mail merge field names if you are not indenting to use the Object.Attribute syntax.
 
-## **Rendering OOXML Charts Supported Features**
+## Rendering OOXML Charts Supported Features
 
 Additional features are now supported when rendering OOXML charts to PDF, XPS, image etc.
 
@@ -89,7 +89,7 @@ Additional features are now supported when rendering OOXML charts to PDF, XPS, i
 
 See [OOXML Chart Rendering Supported Features]() for a full list of supported features.
 
-## **Improved Bookmark Export to HTML**
+## Improved Bookmark Export to HTML
 
 Aspose.Words converts bookmarks in word documents as anchor tags (&lt;a&gt;) when saving to HTML. In previous versions of Aspose.Words a bookmark was exported to HTML without the actual text content of the bookmark inbetween e.g **"&lt;a name='BookmarkName'&gt;&lt;/a&gt;&lt;span&gt;Text that is actually inside the bookmark&lt;/span&gt;"**.
 
@@ -106,21 +106,21 @@ Note that because HTML does not allow some tags to be embedded inside anchor tag
 
 For all other cases the bookmark should end as it appears in the word document.
 
-## **Added Resilience to Unexpected Changes in DocumentBuilder Cursor Position**
+## Added Resilience to Unexpected Changes in DocumentBuilder Cursor Position
 
 There are times when DocumentBuilder can be made to point to a node which is no longer part of the document hierarchy, this can happen when the node the builder is pointing to is removed from the document, for example when the builder points to the start of a field and that field is removed from the document through the execution of mail merge. The node that the builder points to is no longer part of the document so if the builder is then used to insert content in the document a **NullPointerException** occurs because the node was removed from the document.
 
 Improvements to the **DocumentBuilder** class will now avoid such scenarios by maintaining a reference to the current node's parent node. In the event the current node is removed the builder recovers by moving to the node's parent.
 
-## **Range.ToDocument Public Member Added**
+## Range.ToDocument Public Member Added
 
 Call **Range.ToDocument** to retrieve a document from a given node's range.
 
-## **Added SvgSaveOptions.ImageSavingCallback Property**
+## Added SvgSaveOptions.ImageSavingCallback Property
 
 This allows the user to control process of saving images during export of documents to SVG format. This property is required when saving to a stream. The semantics is identical to XAML and HTML analogous public callbacks.
 
-## **Custom Properties Changed**
+## Custom Properties Changed
 
 In order to support custom properties with spaces and other characters when exporting to PDF the XML written had to be tweaked. If you read these custom properties using Aspose.Pdf or using any other methods then this must be taken into account.
 

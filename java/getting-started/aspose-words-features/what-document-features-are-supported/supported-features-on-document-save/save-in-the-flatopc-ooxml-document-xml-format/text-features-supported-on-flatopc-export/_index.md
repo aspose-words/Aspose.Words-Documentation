@@ -13,7 +13,7 @@ Text in different languages is fully supported and can be rendered to formats su
 
 {{% /alert %}} 
 
-## **Characters**
+## Characters
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -28,7 +28,7 @@ Text in different languages is fully supported and can be rendered to formats su
 |Symbol|Yes| | |
 |Tab|Yes| | |
 
-## **Breaks**
+## Breaks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -37,7 +37,7 @@ Text in different languages is fully supported and can be rendered to formats su
 |Page Break|Yes| | |
 |Column Break|Yes| | |
 
-## **General Formatting**
+## General Formatting
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,20 +50,20 @@ Text in different languages is fully supported and can be rendered to formats su
 |Border|Yes| | |
 |Shading|Yes| | |
 
-## **Font**
+## Font
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Font|Yes| | |
 
-## **Underline**
+## Underline
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Underline Type|Yes| | |
 |Underline Color|Yes| | |
 
-## **Text Effects**
+## Text Effects
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -81,7 +81,7 @@ Text in different languages is fully supported and can be rendered to formats su
 |Special Hidden|Yes| | |
 |Web Hidden|Yes| | |
 
-## **Character Spacing**
+## Character Spacing
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

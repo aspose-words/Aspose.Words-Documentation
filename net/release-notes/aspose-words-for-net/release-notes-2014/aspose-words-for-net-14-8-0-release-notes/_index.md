@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 14.8.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 14.8 Release Notes**
+## Aspose.Words for .NET 14.8 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -24,7 +24,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
   Improved page layout for additional compatibility modes 
   Improved floater positioning in complex cases
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

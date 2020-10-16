@@ -14,12 +14,12 @@ You can check the quality of Aspose.Words conversion and view the results online
 {{% /alert %}} 
 
 
-## **About PostScript**
+## About PostScript
 
 |![todo:image_alt_text](postscript_1)|Adobe® PostScript® 3™ is the worldwide printing and imaging standard. Used by print service providers, publishers, corporations, and government agencies around the globe, Adobe PostScript 3 gives you the power to print visually rich documents reliably.|
 | :- | :- |
 
-## **PostScript in Aspose.Words**
+## PostScript in Aspose.Words
 
 Any document loaded into Aspose.Words can be converted to PostScript. Aspose.Words uses the same high-fidelity page layout and rendering engine to produce output in all its supported fixed-layout formats PDF, XPS, PostScript, SWF, Html(fixed page version), SVG and image formats.
 

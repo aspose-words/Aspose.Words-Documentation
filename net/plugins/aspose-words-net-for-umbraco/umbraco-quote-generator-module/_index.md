@@ -5,11 +5,11 @@ weight: 30
 url: /net/umbraco-quote-generator-module/
 ---
 
-## **Introduction**
+## Introduction
 
 Aspose .NET Quote Generator for Umbraco is an open source module from Aspose that enable users to generate Quotes in your Umbraco site without requiring any other software. It uses the powerful features of Aspose.Words for .NET to allow you to easily generate quotations.
 
-### **Module Features**
+### Module Features
 
 This initial version of the module is enriched with the following features to make the quote generating process effective, simple and easy to use.
 
@@ -29,7 +29,7 @@ This initial version of the module is enriched with the following features to ma
 - Mail Merge Template is already created and placed in template folder in the package and will be used to export the quotation in a pre-defined MailMerge template.
 - Allow to export quotation to PDF (**.Pdf), MS Word 2003-2007 (**.Doc), Office Open XML WordprocessingML (**.Docx), ODF Text Document (**.Odt), Tiff Image/s (**.Tiff), JPEG Image (**.Jpeg), PNG Image (*.Png).
 
-### **Aspose.Words Features**
+### Aspose.Words Features
 
 - Simple MailMerge
 - Data Table MailMerge
@@ -41,9 +41,9 @@ This initial version of the module is enriched with the following features to ma
 
 ![todo:image_alt_text](umbraco-quote-generator-module_1)
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 In order to setup Aspose .NET Quote Generator for Umbraco module you need to have the following requirements met:
 
@@ -54,13 +54,13 @@ In order to setup Aspose .NET Quote Generator for Umbraco module you need to hav
 
 Please feel free to contact us if you wish to install this module on an older version of Umbraco.
 
-### **Supported Platforms**
+### Supported Platforms
 
 The module is supported on all versions of
 
 - Umbraco running on ASP.NET 4.0
 
-## **Downloading**
+## Downloading
 
 You can download Quote Generator modules from one of the following locations
 
@@ -69,7 +69,7 @@ You can download Quote Generator modules from one of the following locations
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)
 
-## **Installing**
+## Installing
 
 Once downloaded, please follow these steps to install this package into your Umbraco website:
 
@@ -82,17 +82,17 @@ Once downloaded, please follow these steps to install this package into your Umb
 **Note:** You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
 &lt;httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /&gt; 
 
-## **Using**
+## Using
 
 - [Using Umbraco Quote Generator ](https://docs.aspose.com/words/net/using-and-video-demo-for-umbraco-quote-generator/#using)
 
-## **Video Demo**
+## Video Demo
 
 - [Video Demo Umbraco Quote Generator ](https://docs.aspose.com/words/net/using-and-video-demo-for-umbraco-quote-generator/#video-demo)
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -105,18 +105,18 @@ You can log any issues or suggestions related to Aspose.Words .NET for Umbraco M
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Umbraco quote generator module is an open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 
-#### **Source Code**
+#### Source Code
 
 - [CodePlex](https://goo.gl/sdTOKK)
 - [Github](https://goo.gl/qh0Rlw)
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)
 
-#### **How to configure the source code**
+#### How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 

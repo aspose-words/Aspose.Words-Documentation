@@ -5,7 +5,7 @@ weight: 10
 url: /java/extract-content-based-on-styles-in-php/
 ---
 
-## **Aspose.Words - Extract Content Based On Styles**
+## Aspose.Words - Extract Content Based On Styles
 
 **Php Code**
 

@@ -25,7 +25,7 @@ You can try this functionality with our [Free online document splitter](https://
 
 {{% /alert %}}
 
-## **Split a Document Using Different Criteria**
+## Split a Document Using Different Criteria
 
 Aspose.Words allows you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.
 
@@ -46,7 +46,7 @@ You cannot split a document using the [DocumentSplitCriteria](https://apireferen
 
 In this section, we consider only some of the possible split criteria.
 
-### **Split a Document by Headings**
+### Split a Document by Headings
 
 To split a document into chapters by headings, use the **HeadingParagraph** value of the **DocumentSplitCriteria** property.
 
@@ -60,7 +60,7 @@ Please note that for this criteria, Aspose.Words only supports saving to HTML fo
 
 When saving to EPUB, the document is not split into several files, and there will be only one output file.
 
-### **Split a Document by Sections**
+### Split a Document by Sections
 
 Aspose.Words also enables you to use section breaks to split documents and save them to HTML. For this purpose, use **SectionBreak** as the **DocumentSplitCriteria**:
 
@@ -72,7 +72,7 @@ The following code example shows how to split a document into smaller parts by 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SplitDocument-SplitDocumentBySections.cs" >}}
 
-## **Splitting by Pages**
+## Splitting by Pages
 
 You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case a helper class DocumentPageSplitter can do the job.
 
@@ -86,7 +86,7 @@ You cannot use **DocumentPageSplitter** to split single-page documents.
 
 You can see the implementation of the DocumentPageSplitter class on [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/CSharp/Loading-and-Saving/PageSplitter.cs).
 
-### **Split a Document Page by Page**
+### Split a Document Page by Page
 
 Aspose.Words enables you to split a multi-page document page by page.
 
@@ -94,7 +94,7 @@ The following code example shows how to divide a document and save each page a
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SplitDocument-SplitDocumentPageByPage.cs" >}}
 
-### **Split a Document by Page Ranges**
+### Split a Document by Page Ranges
 
 Aspose.Words allows splitting a multi-page document by page ranges. You can split one file into multiple files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
 
@@ -102,13 +102,13 @@ The following code example shows how to split a document into smaller parts by p
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SplitDocument-SplitDocumentByPageRange.cs" >}}
 
-## **Callback Option for Saving a Document**
+## Callback Option for Saving a Document
 
 You can use the [DocumentPartSavingCallback](https://apireference.aspose.com/net/words/aspose.words.saving/htmlsaveoptions/properties/documentpartsavingcallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property allows you to rename output files or even to redirect them into custom streams.
 
 Please note that this callback is not useful when saving to EPUB because all output parts must be saved into a single container – the .epub file. So, stream redirection is not supported, and the effect of renaming is not visible since files are renamed inside the container.
 
-## **Merge the Split Document with Another File**
+## Merge the Split Document with Another File
 
 Aspose.Words enables you to merge the output split document with another document to form a new document. This can be called document merging.
 

@@ -5,7 +5,7 @@ weight: 70
 url: /java/simple-mail-merge-in-php/
 ---
 
-## **Aspose.Words - Simple Mail Merge**
+## Aspose.Words - Simple Mail Merge
 
 To use Mail Merge, simply invoke getMailMerge->execute method.
 

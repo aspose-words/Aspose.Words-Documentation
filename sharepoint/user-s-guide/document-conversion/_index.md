@@ -5,7 +5,7 @@ weight: 20
 url: /sharepoint/document-conversion/
 ---
 
-###### **This section includes the following topics:**
+## This section includes the following topics:
 
 - [Convert One File](/words/sharepoint/convert-one-file/)
 - [Convert All Files in a Folder](/words/sharepoint/convert-all-files-in-a-folder/)

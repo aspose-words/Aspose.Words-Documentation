@@ -11,14 +11,14 @@ This page contains release notes for [Aspose.Words for Java 20.6](https://reposi
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Font.EmphasisMark is exposed to the public.
 - Added a new public property ImportFormatOptions.IgnoreHeaderFooter.
 - MarkdownSaveOptions class is introduced.
 - Provided options to control JSON simple values’ recognition for LINQ Reporting Engine.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |WORDSNET-13983|Add feature to support 'Emphasis Mark' font setting|New Feature|
 | :- | :- | :- |
@@ -126,11 +126,11 @@ This page contains release notes for [Aspose.Words for Java 20.6](https://reposi
 |WORDSNET-6648|Table formatting (horizontal cell merging) lost upon conversion to DOC|Bug|
 |WORDSNET-16221|The table is overlapped after conversion from DOCX to PDF|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
-### **Added a new public class MarkdownSaveOptions**
+### Added a new public class MarkdownSaveOptions
 
 Related issue: WORDSNET-20297
 
@@ -181,7 +181,7 @@ builder.Document.Save("TestDocument.md", saveOptions);
 {{< /highlight >}}
 
 
-### **Added a new public property Font.EmphasisMark**
+### Added a new public property Font.EmphasisMark
 
 Related issue: WORDSNET-13983
 
@@ -246,7 +246,7 @@ document.Save(savePath, saveOptions);
 {{< /highlight >}}
 
 
-### **Added a new public property ImportFormatOptions.IgnoreHeaderFooter**
+### Added a new public property ImportFormatOptions.IgnoreHeaderFooter
 
 Related issue: WORDSNET-19776
 
@@ -276,7 +276,7 @@ importFormatOptions.IgnoreHeaderFooter = false;
 dstDocument.AppendDocument(srcDocument, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 {{< /highlight >}}
 
-### **Added a new public property MarkdownSaveOptions.TableContentAlignment**
+### Added a new public property MarkdownSaveOptions.TableContentAlignment
 
 Related issue: WORDSNET-20425
 
@@ -357,7 +357,7 @@ saveOptions.TableContentAlignment = TableContentAlignment.Auto;
 builder.Document.Save("auto.md", saveOptions);
 {{< /highlight >}}
 
-### **PDF version 1.5 is marked as obsolete**
+### PDF version 1.5 is marked as obsolete
 
 PDF version 1.5 is outdated and marked as obsolete. Please, use the latest PDF version 1.7.
 
@@ -375,7 +375,7 @@ public enum PdfCompliance
 }
 {{< /highlight >}}
 
-### **Provided options to control JSON simple values’ recognition for LINQ Reporting Engine**
+### Provided options to control JSON simple values’ recognition for LINQ Reporting Engine
 
 Issues: WORDSNET-19979, WORDSNET-20488
 

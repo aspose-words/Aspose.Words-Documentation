@@ -19,19 +19,19 @@ You can try this functionality with our [Free online documents unlocker](https:/
 
 {{% /alert %}} 
 
-## **Protecting a Document**
+## Protecting a Document
 
 Use the Document.Protect method to protect a document from changes. This method accepts a ProtectionType parameter and optionally a password by providing one as the second parameter Document.Protect. The following code example demonstrates how to protect a document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-ProtectDocument-ProtectDocument.cs" >}}
 
-## **Unprotecting a Document**
+## Unprotecting a Document
 
 Calling Document.Unprotect unprotects the document even if it has a protection password. The following code example demonstrates how to unprotect any document. Note that the password is not required.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-ProtectDocument-UnProtectDocument.cs" >}}
 
-## **Getting the Protection Type**
+## Getting the Protection Type
 
 You can retrieve the type of document protection by getting the value of the Document.ProtectionType property. The following code example demonstrates how to get a protection type currently set in the document.
 

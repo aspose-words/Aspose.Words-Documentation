@@ -5,11 +5,11 @@ weight: 40
 url: /net/umbraco-export-members-to-word/
 ---
 
-## **Introduction**
+## Introduction
 
 Export Members to Word is an Add-on for Umbraco which allows you to export members from your Umbraco CMS to a Word Document, OpenDocument, PDF and Image formats using [Aspose.Words](http://www.aspose.com/.net/Word-component.aspx). A new node titled **Export Members To Word** appears under Members tree in Umbraco backend after installation where you can simply select members to export and output format to get members in selected output document format.
 
-### **Module Features**
+### Module Features
 
 This initial version of the Add-on have the following features:
 
@@ -28,9 +28,9 @@ This initial version of the Add-on have the following features:
 
 ![todo:image_alt_text](umbraco-export-members-to-word_1)
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 In order to setup this module you need to have the following requirements met:
 
@@ -38,13 +38,13 @@ In order to setup this module you need to have the following requirements met:
 
 Please feel free to contact us if you wish to install this module on other versions of Umbraco.
 
-### **Supported Platforms**
+### Supported Platforms
 
 The module is supported on all versions of
 
 - Umbraco running on ASP.NET 4.0
 
-## **Downloading**
+## Downloading
 
 You can download Export Members to Word Add-on from one of the following locations
 
@@ -52,7 +52,7 @@ You can download Export Members to Word Add-on from one of the following locatio
 - [Github ](https://github.com/asposeWords/Aspose.Words-for-.NET/releases/)
 - [Umbraco Projects ](https://our.umbraco.org/projects/backoffice-extensions/export-umbraco-members-to-word-documents-opendocument-pdf-and-image-formats-using-aspose-words/)
 
-## **Installing**
+## Installing
 
 Once downloaded, please follow these steps to install this package into your Umbraco website:
 
@@ -68,7 +68,7 @@ Once downloaded, please follow these steps to install this package into your Umb
  <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /> 
 {{< /highlight >}}
 
-## **Using**
+## Using
 
 After you have installed the macro it is really simple to start using it on your website:
 
@@ -78,7 +78,7 @@ After you have installed the macro it is really simple to start using it on your
 1. Select your desired output document format and select Members to export. If you wish you Export all members leave member selection or click the check-box in header row.
 1. Click **Export** button at the bottom and you will be prompted to download the exported file.
 
-### **How to apply Aspose License?**
+### How to apply Aspose License?
 
 This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
@@ -86,13 +86,13 @@ To remove evaluation message and feature limitations, product license should be 
 - Make sure the license file is named as **Aspose.Words.lic**
 - Place **Aspose.Words.lic** file in **App_Data** folder of your Umbraco website e.g. "Umbraco Root Folder/App_Data/Aspose.Words.lic"
 
-## **Video Demo**
+## Video Demo
 
 Please check [the video](https://www.youtube.com/watch?v=BoUwTc2bnEI) below to see the module in action.
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -104,11 +104,11 @@ You can log any issues or suggestions related to Aspose.Words .NET for Umbraco M
 - [Github ](https://github.com/asposeWords/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Export-Umbraco-Members-to-bd3b00f1)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Export Members to Word is an open source Add-on and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 
-#### **Source Code**
+#### Source Code
 
 You can get the latest source code from one of the following locations
 
@@ -116,7 +116,7 @@ You can get the latest source code from one of the following locations
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Umbraco)
 - [Code.MSDN](https://code.msdn.microsoft.com/Export-Umbraco-Members-to-bd3b00f1)
 
-#### **How to configure the source code**
+#### How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 

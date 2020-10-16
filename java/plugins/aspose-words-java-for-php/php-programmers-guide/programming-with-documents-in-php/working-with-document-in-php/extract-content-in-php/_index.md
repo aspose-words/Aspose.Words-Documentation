@@ -5,7 +5,7 @@ weight: 10
 url: /java/extract-content-in-php/
 ---
 
-## **Aspose.Words - Extract Content**
+## Aspose.Words - Extract Content
 
 **Php Code**
 

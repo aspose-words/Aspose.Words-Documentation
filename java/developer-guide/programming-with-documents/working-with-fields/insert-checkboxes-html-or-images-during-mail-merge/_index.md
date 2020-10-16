@@ -5,7 +5,7 @@ weight: 40
 url: /java/insert-checkboxes-html-or-images-during-mail-merge/
 ---
 
-## **How to Insert Checkboxes or HTML during Mail Merge**
+## How to Insert Checkboxes or HTML during Mail Merge
 
 One of the important Aspose.Words feature is the reporting (mail merge) engine. The mail merge engine takes a document on input, looks for MERGEFIELD fields in it and replaces them with data obtained from the data source. Normally, simple text and HTML is inserted, but a customer asked if it is possible to generate a document where boolean data values are output as checkbox form fields.
 
@@ -28,7 +28,7 @@ Complete source code of a program that inserts checkboxes and text input form fi
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-mail_merge-InsertCheckBoxesOrHTMLDuringMailMerge-.java" >}}
 
-## **How to Insert Images from a Database**
+## How to Insert Images from a Database
 
 The **MailMerge.FieldMergingCallback** event occurs during mail merge when an image mail merge field is encountered in the document. An image mail merge field is a merge field named Image:MyFieldName. You can respond to this event to return a file name, stream, or an Image object to the mail merge engine so that it is inserted into the document.
 
@@ -36,7 +36,7 @@ The **MailMerge.FieldMergingCallback** property accepts a class implementing the
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-mail_merge-InsertImagesFromADatabase-.java" >}}
 
-## **Setting Image Properties during Mail Merge**
+## Setting Image Properties during Mail Merge
 
 While merging an image merge field, you may sometimes require controlling various image properties, in particular, **WrapType**. Currently, using **ImageFieldMergingArgs** you can only set image width or height properties, respectively. To overcome this issue, Aspose.Words provides **ImageFieldMergingArgs.Shape** property which facilitates to get full control over the image (or any other shape) being inserted.
 

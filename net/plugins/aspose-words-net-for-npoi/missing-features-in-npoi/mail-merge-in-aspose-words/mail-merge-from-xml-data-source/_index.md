@@ -5,7 +5,7 @@ weight: 10
 url: /net/mail-merge-from-xml-data-source/
 ---
 
-## **Aspose.Words - Mail Merge from XML Data Source**
+## Aspose.Words - Mail Merge from XML Data Source
 
 Given the widespread use and support of the XML markup language, the ability to run a mail merge from an XML file to a Word template document has become a common requirement.
 
@@ -29,7 +29,7 @@ doc.MailMerge.Execute(customersDs.Tables["Customer"]);
 doc.Save("TestFile XML Out.doc");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Mail Merge from XML Data Source** form any of the below mentioned social coding sites:
 

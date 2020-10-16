@@ -11,25 +11,25 @@ These page list public API changes that were introduced in Aspose.Words 11.9.0. 
 
 {{% /alert %}} 
 
-#### **Support for SVG Image Format in the Model**
+## Support for SVG Image Format in the Model
 
 Scalable Vector Graphics images can now be inserted into a document using the [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertimage/index) and [ImageData.SetImage](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/methods/setimage) methods. When such an image is inserted it is converted into raster form in the model.
 
 This format is still unsupported when loading HTML or inserting HTML content using [DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml/index).
 
-#### **Support for Locked Fields**
+### Support for Locked Fields
 
 In a Microsoft Word document a field can be locked to restrict the field result being changed when fields are updated. This feature is now supported by Aspose.Words 11.9.0. Calling [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields) or any other method that update fields will not affect fields with this attribute present.
 
 The public API also exposes locked fields through the [Field.IsLocked](https://apireference.aspose.com/words/net/aspose.words.fields/field/properties/islocked) and [FieldStart.IsLocked](https://apireference.aspose.com/words/net/aspose.words.fields/fieldchar/properties/islocked) properties. To lock or unlock an existing field in a document first obtain the FieldStart node and then modify **FieldStart.IsLocked**.
 
-#### **ASK and FILLIN Fields are now Supported**
+#### ASK and FILLIN Fields are now Supported
 
 An interaction with the user for these fields during field update is provided through the [FieldOptions.UserPromptRespondent](https://apireference.aspose.com/words/net/aspose.words.fields/fieldoptions/properties/userpromptrespondent) property. Pass a class implementing the [IFieldUserPromptRespondent](https://apireference.aspose.com/words/net/aspose.words.fields/ifielduserpromptrespondent) interface to this property to provide feedback. By default the value of this property is null which means none of the ASK and FILLIN fields located in the document are updated.
 
 The **IFieldUserPromptRespondent** interface contains only one method named "Respond" which can be implemented in various ways. Normally this method will prompt the user with a question and return the user's response to be used in the field.
 
-#### **Improved Methods of Specifying Image Size during Mail Merge**
+#### Improved Methods of Specifying Image Size during Mail Merge
 
 In Aspose.Words 11.9 the ability of the specifying image size for images inserted during mail merge. It can be accomplished through defining a size in the field code in the template or by using new properties **ImageFieldMergingCallback**.
 

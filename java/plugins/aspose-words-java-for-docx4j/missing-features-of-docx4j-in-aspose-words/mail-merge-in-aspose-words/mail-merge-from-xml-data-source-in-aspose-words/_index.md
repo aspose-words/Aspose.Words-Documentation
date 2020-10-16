@@ -5,7 +5,7 @@ weight: 10
 url: /java/mail-merge-from-xml-data-source-in-aspose-words/
 ---
 
-## **Aspose.Words - Mail Merge from XML Data Source**
+## Aspose.Words - Mail Merge from XML Data Source
 
 Given the widespread use and support of the XML markup language, the ability to run a mail merge from an XML file to a Word template document has become a common requirement.
 
@@ -34,12 +34,12 @@ Document doc = new Document("TestFile.doc");
 doc.getMailMerge().execute(new XmlMailMergeDataTable(xmlData, "customer"));
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/mailmerge/mailmergefromxmldatasource/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/asposefeatures/mailmerge/mailmergefromxmldatasource)

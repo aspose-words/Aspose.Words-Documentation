@@ -5,4 +5,3 @@ weight: 20
 url: /java/release-notes-2019/
 ---
 
-### **Release Notes - 2019**

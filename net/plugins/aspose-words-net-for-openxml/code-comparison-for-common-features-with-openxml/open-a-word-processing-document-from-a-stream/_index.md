@@ -5,7 +5,7 @@ weight: 130
 url: /net/open-a-word-processing-document-from-a-stream/
 ---
 
-## **OpenXML Word**
+## OpenXML Word
 
 The example **OpenAndAddToWordprocessingStream** method shown here can be used to open a Word document from an already open stream and append some text using the Open XML SDK. You can call it by passing a handle to an open stream as the first parameter and the text to add as the second. For example, the following code example opens the file OpenDocumentFromStream.docx in the Public Documents folder and adds text to it.
 Below is the sample code
@@ -29,7 +29,7 @@ private static void OpenAndAddToWordprocessingStream(Stream stream, string txt)
 }
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 Simply pass a stream object that contains a document to the **Document** constructor.
 Below is the sample code
@@ -50,7 +50,7 @@ private static void OpenAndAddToWordprocessingStream(Stream stream, string txt)
 }
 {{< /highlight >}}
 
-## **Download**
+## Download
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

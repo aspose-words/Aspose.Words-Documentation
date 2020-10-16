@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 19.9](https://reposi
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Advanced typography based on HarfBuzz shaper.
 - Provided API to write and modify VBA macros.
@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for Java 19.9](https://reposi
 - Improved rendering of “Sitka Banner”, “Sitka Display”, “Sitka Heading”, “Sitka Small”, “Sitka Subheading”, “Sitka Text” and “Cambria Math” fonts.
 - Implemented OpenType number spacing.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -116,11 +116,11 @@ This page contains release notes for [Aspose.Words for Java 19.9](https://reposi
 |WORDSNET-7478|Loading Aspose assemblies is slow on terminal server|Bug|
 |WORDSNET-7545|System.OutOfMemoryException exception while getting Document.PageCount|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
-### **Simplified working with XML, JSON, and CSV data sources for LINQ Reporting Engine**
+### Simplified working with XML, JSON, and CSV data sources for LINQ Reporting Engine
 
 Issue: WORDSNET-18722
 
@@ -131,7 +131,7 @@ The following sections of the engine's documentation were updated/added to descr
 ["Accessing JSON Data"](/words/java/linq-reporting-engine-api/#linqreportingengineapi-accessingjsondata)
 ["Accessing CSV Data"](/words/java/linq-reporting-engine-api/#linqreportingengineapi-accessingcsvdata)
 
-### **WORDSNET-12655 - Implemented ability to create repeating section structured document tags**
+### WORDSNET-12655 - Implemented ability to create repeating section structured document tags
 
 Now it is possible to create structured document tag nodes of the repeating section and repeating section item types.
 The new item has also been added into the SdtType enumeration type:
@@ -189,7 +189,7 @@ row.AppendChild(authorSdt);
 doc.Save(dir + "Document.docx");
 {{< /highlight >}}
 
-### **WORDSNET-17449 - Implemented SavePictureBullet option for Word 97, which cannot work correctly with PictureBullet data**
+### WORDSNET-17449 - Implemented SavePictureBullet option for Word 97, which cannot work correctly with PictureBullet data
 
 A new public option has been added to the DocSaveOptions class:
 
@@ -216,7 +216,7 @@ so.SavePictureBullet = false;
 doc.Save("out.doc", so);
 {{< /highlight >}}
 
-### **WORDSNET-18210 - Incorrect number formatting in PDF**
+### WORDSNET-18210 - Incorrect number formatting in PDF
 
 New elements added to public enumeration ***Aspose.Words.Shaping.FontFeature.***
 
@@ -251,12 +251,12 @@ LiningFigures,
 OldstyleFigures
 {{< /highlight >}}
 
-### **WORDSNET-18369 - Remove License.IsLicensed property**
+### WORDSNET-18369 - Remove License.IsLicensed property
 
 The License.IsLicensed obsolete property has been removed in order to increase anti-hacking resistance.
 Moreover, this property was useless because of the License.SetLicense(...) throws an exception in case of a wrong license key.
 
-### **WORDSNET-18697 - Provide API to write and modify VBA macros**
+### WORDSNET-18697 - Provide API to write and modify VBA macros
 
 A new public setter has been added to the VbaModule.SourceCode property:
 
@@ -280,7 +280,7 @@ const string newSourceCode = "Test change source code";
 project.Modules[0].SourceCode = newSourceCode;
 {{< /highlight >}}
 
-### **WORDSNET-19103 - Add feature to link CustomDocumentProperty to Bookmark**
+### WORDSNET-19103 - Add feature to link CustomDocumentProperty to Bookmark
 
 A new public method has been added: ***CustomDocumentProperties.AddLinkToContent(string, string)***
 
@@ -313,7 +313,7 @@ public bool IsLinkToContent
 {{< /highlight >}}
 
 
-##### **Use Case. Configuring “Link to content” Custom Property:**
+#### Use Case. Configuring “Link to content” Custom Property:
 
 {{< highlight csharp >}}
 Document doc = new Document(@"test.docx");

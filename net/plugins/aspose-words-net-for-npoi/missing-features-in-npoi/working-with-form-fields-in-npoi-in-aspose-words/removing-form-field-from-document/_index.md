@@ -5,7 +5,7 @@ weight: 20
 url: /net/removing-form-field-from-document/
 ---
 
-## **Aspose.Words - Removing Form Field from Document**
+## Aspose.Words - Removing Form Field from Document
 
 Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a TOC field when saving to HTML.
 A field inserted into the document using DocumentBuilder.InsertField returns a Field object which provides a convenience method to easily remove the field from the document.
@@ -22,7 +22,7 @@ A field inserted into the document using DocumentBuilder.InsertField returns a F
             doc.Save("FormFieldTest.docx");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Removing Form Field from Document** form any of the below mentioned social coding sites:
 

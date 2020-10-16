@@ -5,7 +5,7 @@ weight: 10
 url: /java/extract-comments-from-document/
 ---
 
-## **Aspose.Words - Extract Comments from Document**
+## Aspose.Words - Extract Comments from Document
 
 To illustrate how to extract and remove comments from a document, we will go through the following steps:
 
@@ -37,12 +37,12 @@ for (Comment comment : (Iterable<Comment>) comments)
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithtext/extractcomments/AsposeExtractComments.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithtext/extractcomments/AsposeExtractComments.java)

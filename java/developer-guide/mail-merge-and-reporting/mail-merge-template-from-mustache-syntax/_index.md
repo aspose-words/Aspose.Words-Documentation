@@ -17,7 +17,7 @@ You can also combine mail merge fields with some additional fields using the *fo
 
 <img src="mustache_syntax.png" alt="mustache_syntax" style="width:800px"/>
 
-## **Create a Mustache Template**
+## Create a Mustache Template
 
 The first important point to clarify is that Mustache is not a templating engine. Mustache is another syntax variant which is available for any template in a [load format](https://apireference.aspose.com/words/java/com.aspose.words/LoadFormat) supported by Aspose.Words. Therefore, you can create such a template both programmatically and through an interface, you just need to include certain syntax and comply with the Mustache specification.
 
@@ -37,7 +37,7 @@ As you notice from the example above, in Mustache you need to use curly braces f
 
 {{% /alert %}}
 
-## **Work with Mustache Syntax**
+## Work with Mustache Syntax
 
 Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the [UseNonMergeFields](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#UseNonMergeFields) property and set its value to *True*.
 
@@ -59,7 +59,7 @@ And after applying the mail merge with regions:
 
 <img src="mustache_syntax_2.png" alt="mustache_syntax_result" style="width:300px"/>
 
-## **Use IF Fields to Make a Mail Merge Intelligent**
+## Use IF Fields to Make a Mail Merge Intelligent
 
 Aspose.Words allows you to use mail merge fields and Mustache tags with the IF statement. The IF fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
 

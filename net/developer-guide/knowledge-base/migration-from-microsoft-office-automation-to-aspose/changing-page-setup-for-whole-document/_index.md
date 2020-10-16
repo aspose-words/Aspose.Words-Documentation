@@ -21,7 +21,7 @@ When migrating to Aspose.Words, you can easily achieve the same functionality. T
 
 Page setup is a set of formatting attributes which is stored in each section of a Word document. Microsoft Word Automation’s ActiveDocument.Range.PageSetup is a “shortcut” to set the same page setup for all sections of a document. Aspose.Words only provides access to the page setup of individual sections via the Section.PageSetup property so any document-wide changes to page setup must be applied for all sections.
 
-##### **Example**
+## Example
 
 *Shows how to set paper size for the whole document.* 
 

@@ -5,7 +5,7 @@ weight: 50
 url: /net/load-text-file/
 ---
 
-## **Aspose.Words - Load Text File**
+## Aspose.Words - Load Text File
 
 Aspose.Words allows you to import plain text data the same way as other document formats, by using the Document constructor.
 
@@ -20,7 +20,7 @@ Document doc = new Document("../../data/LoadTxt.txt");
 doc.Save("AsposeLoadTxt_Out.docx");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Load Text File** form any of the below mentioned social coding sites:
 

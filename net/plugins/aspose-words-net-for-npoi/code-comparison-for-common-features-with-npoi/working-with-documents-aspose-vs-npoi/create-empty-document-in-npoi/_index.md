@@ -5,7 +5,7 @@ weight: 30
 url: /net/create-empty-document-in-npoi/
 ---
 
-## **Aspose.Words - Create Empty Document**
+## Aspose.Words - Create Empty Document
 
 Call the Document constructor without parameters to create a new blank document.
 
@@ -19,7 +19,7 @@ Document doc = new Document();
 doc.Save("blank.docx");
 {{< /highlight >}}
 
-## **NPOI HWPF XWPF - Create Empty Document**
+## NPOI HWPF XWPF - Create Empty Document
 
 Below example shows how to create a new document using NPOI XWPF
 
@@ -35,7 +35,7 @@ using (FileStream sw = File.Create("blank.docx"))
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Create Empty Document** from any of the below mentioned social coding sites:
 

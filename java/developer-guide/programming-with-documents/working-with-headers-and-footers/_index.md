@@ -5,7 +5,7 @@ weight: 40
 url: /java/working-with-headers-and-footers/
 ---
 
-## **Create Headers Footers using DocumentBuilder**
+## Create Headers Footers using DocumentBuilder
 
 The following sample code demonstrates how to create headers/footers using DocumentBuilder. Special attention is given to the following issues:
 
@@ -22,7 +22,7 @@ Below example may be a bit complicated, but demonstrates many things that can be
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-HeadersAndFooters-CreateHeadersFootersUsingDocumentBuilder-.java" >}}
 
-## **Remove Footers but Leave Headers Intact**
+## Remove Footers but Leave Headers Intact
 
 Each section in a document can have up to three headers and up to three footers (for first, even and odd pages). If you want to delete all footers in a document you need to loop through all sections and remove every footer node.Below example deletes all footers from all sections, but leaves headers intact.
 

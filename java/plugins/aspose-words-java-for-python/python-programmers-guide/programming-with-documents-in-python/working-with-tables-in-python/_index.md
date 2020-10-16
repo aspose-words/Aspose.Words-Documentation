@@ -5,7 +5,7 @@ weight: 80
 url: /java/working-with-tables-in-python/
 ---
 
-## **Aspose.Words - Auto Fit Tables**
+## Aspose.Words - Auto Fit Tables
 
 **Python Code**
 
@@ -20,7 +20,7 @@ self.autoFitTableToContents()
 self.autoFitTableToFixedColumnWidths()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Auto Fit Tables (Aspose.Words)** from any of the below mentioned social coding sites:
 

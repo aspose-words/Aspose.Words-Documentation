@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for C++ 18.11](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 Support for the following file formats and conversions has been added:
 
@@ -25,7 +25,7 @@ The following features from Aspose.Words for .NET have been added:
 - OfficeMath
 - Mail Merge support
 
-## **Limitations and API Differences**
+## Limitations and API Differences
 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in the future releases.
@@ -35,7 +35,7 @@ The missing features will be added in the future releases.
 - The current release doesn't support Reporting features
 - The current release only supports Microsoft Visual C++ 2015 and Microsoft Visual C++ 2017 platforms.Full List of Issues Covering all Changes in this Release
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

@@ -11,7 +11,7 @@ An endnote or footnote is a note that appears at the bottom of a page that is co
 
 {{% /alert %}} 
 
-## **Footnotes**
+## Footnotes
 
 See the following links in the documentation for further information:
 
@@ -31,7 +31,7 @@ See the following links in the documentation for further information:
 |Starting Value|Yes| | |
 |Placement|Yes| |- [FootnoteOptions.Position](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/position)|
 
-## **Endnotes**
+## Endnotes
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 17.6](http://maven.a
 
 {{% /alert %}}
 
-## **Major Features**
+## Major Features
 
 There are 95 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -30,7 +30,7 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 - Improved rendering of PDF logical structure of Table headers.
 - Character offsets in META_EXTTEXTOUT records are now taken into account while rendering multi-byte encoding metafiles.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -130,11 +130,11 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14939|Duplicate table styles are generated when content control is updated with Html|Regression|
 |WORDSNET-15319|Font size difference in document appending feature after 17.2|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Public Properties ParagraphFormat.AddSpaceBetweenFarEastAndAlpha and ParagraphFormat.AddSpaceBetweenFarEastAndDigit**
+### Public Properties ParagraphFormat.AddSpaceBetweenFarEastAndAlpha and ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 
 WORDSNET-14376 and WORDSNET-14377 are resolved.
 
@@ -155,7 +155,7 @@ public boolean getAddSpaceBetweenFarEastAndDigit()
 public void    setAddSpaceBetweenFarEastAndDigit(boolean value)
 {{< /highlight >}}
 
-### **Added Public Property HtmlLoadOptions.PreferredControlType**
+### Added Public Property HtmlLoadOptions.PreferredControlType
 
 WORDSNET-14669 has been resolved.
 
@@ -191,6 +191,6 @@ lo.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);
 Document doc = new Document("test.html", lo);
 {{< /highlight >}}
 
-### **WORDSNET-15326 - SVG Multithread Processing Issue Resolved**
+### WORDSNET-15326 - SVG Multithread Processing Issue Resolved
 
 Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in multiple threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI\+ used earlier.

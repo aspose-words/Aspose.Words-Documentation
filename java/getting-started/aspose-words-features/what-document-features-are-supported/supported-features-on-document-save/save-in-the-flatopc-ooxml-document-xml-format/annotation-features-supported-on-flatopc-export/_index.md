@@ -11,7 +11,7 @@ url: /java/annotation-features-supported-on-flatopc-export/
 
 {{% /alert %}} 
 
-## **Bookmarks**
+## Bookmarks
 
 All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unique names, that is, no two bookmarks are allowed the same name.
 
@@ -24,7 +24,7 @@ If two bookmarks are given the same name in the model then no errors will occur.
 |Bookmark Name|Yes| | |
 |Bookmark Table Columns|Yes| | |
 
-## **Comments**
+## Comments
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -34,7 +34,7 @@ If two bookmarks are given the same name in the model then no errors will occur.
 |Date|Yes| | |
 |Initial|Yes| | |
 
-## **Tracking Changes**
+## Tracking Changes
 
 You may need to accept tracked changes before saving to different formats or else the deleted revisions will still show up in the output document.
 

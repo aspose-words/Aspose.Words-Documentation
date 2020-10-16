@@ -7,7 +7,7 @@ url: /net/feature-overview/
 
 The tables below summarize and compare the availability of features of Aspose.Words for .NET and provide links to detailed feature descriptions.
 
-## **Supported Platforms**
+## Supported Platforms
 
 The platforms Aspose.Words for .NET can be used with are listed below. If you need support for more platforms, look for the "twin brother" product Aspose.Words for Java.
 
@@ -22,7 +22,7 @@ The platforms Aspose.Words for .NET can be used with are listed below. If you ne
 |[Mono](https://docs.aspose.com/words/net/supported-platforms/#mono)|You can use Aspose.Words for .NET to build applications with Mono.|
 |[Windows Azure](https://docs.aspose.com/words/net/supported-platforms/#windows-azure)|Yes, Aspose.Words for .NET runs on Windows Azure.|
 
-## **File Formats and Conversions**
+## File Formats and Conversions
 
 Many customers worldwide rely on the thorough document import and export features provided by Aspose.Words.
 
@@ -40,7 +40,7 @@ Many customers worldwide rely on the thorough document import and export feature
 |[Digital Publishing EPUB](/words/net/digital-publishing-epub/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Printer Command Language (PCL)](/words/net/printer-command-language-pcl/)|Aspose.Words for .NET provides support to save document to PCL format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-## **Rendering and Printing**
+## Rendering and Printing
 
 Aspose.Words now provides high fidelity rendering of document pages.
 
@@ -56,7 +56,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 |Print document pages using the .NET printing infrastructure.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|{{< emoticons/cross >}}|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Update TOC, page numbers and other fields before rendering or printing.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-## **Document Content Features**
+## Document Content Features
 
 Aspose.Words provides a rich object model that consists of over 100 public classes, which allow you to programmatically generate, combine, modify, parse or otherwise examine loaded documents.
 
@@ -84,7 +84,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 |Insert HTML text.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Extract VBA Macros from Word Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| | | |
 
-## **Document Formatting Features**
+## Document Formatting Features
 
 Aspose.Words provides detailed programmatic access to the formatting properties of all document elements.
 
@@ -98,7 +98,7 @@ Aspose.Words provides detailed programmatic access to the formatting properties 
 |Access, create and modify document styles.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Access and modify drawing objects including position, size, line and fill properties, image bytes.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-## **Mail Merge Features**
+## Mail Merge Features
 
 You can use Aspose.Words as a reporting solution on its own. Design your reports in Microsoft Word and then have Aspose.Words populate documents with data from various data sources.
 
@@ -115,7 +115,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 |Programmatically create or modify a Microsoft Word mail merge data source for a document. Preserve mail merge settings and data sources.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Retrieve mail merge field names.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
-## **Reporting Features**
+## Reporting Features
 
 LINQ Reporting Engine is an advanced reporting tool enabling you to generate documents based upon template documents and data obtained from various sources including databases, XML, JSON, OData, objects of custom CLR types, external documents, and more out of the box.
 

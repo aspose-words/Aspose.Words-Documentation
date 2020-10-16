@@ -19,7 +19,7 @@ The ability to quickly and reliably convert different document formats with a hi
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-Doc2Pdf.cs" >}}
 
-## **Fidelity**
+## Fidelity
 
 One of the main goals of Aspose.Words is to provide high-fidelity conversion between document formats. We use the word “high-fidelity” to describe conversions where the output document retains all content and formatting of the original.
 
@@ -37,11 +37,11 @@ Although all of the converters in Aspose.Words are great, not all of them have t
 |**Aspose.Words converted DOC to ODT. High-fidelity conversion.**|![todo:image_alt_text](high-quality-conversions_4.png)|
 |**Aspose.Words converted DOC to HTML. Not “high-fidelity”, but still very good.**|![todo:image_alt_text](high-quality-conversions_5.png)|
 
-## **Scalability**
+## Scalability
 
 Server-side scalable scenarios are where Aspose.Words is used mainly because of its simple and clean design. Aspose.Words supports multithreading. [Document](https://apireference.aspose.com/words/net/aspose.words/Document) objects are independent of each other and as long as only one thread at a time is allowed to modify a document (a typical requirement for any collection class), multiple threads can be processed any number of documents at the same time.
 
-## **Speed**
+## Speed
 
 Aspose.Words demonstrates high productivity when loading and saving documents. In a test, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds. On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over a line of code that loaded a huge document in a debugger and it was so instantaneous that they could not believe the file was loaded into the Document object. Stepping over a line of code where Aspose.Words loads a big file could be so quick that you might not believe the document was loaded completely.
 

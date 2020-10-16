@@ -11,7 +11,7 @@ Each section in a document can have up to three headers and up to three footers 
 
 {{% /alert %}} 
 
-## **Example**
+## Example
 
 Below example deletes all footers from all sections, but leaves headers intact. You can download the template file of this example from here.
 

@@ -5,7 +5,7 @@ weight: 20
 url: /java/coldfusion-and-aspose-words-for-java/
 ---
 
-## **Prerequisites**
+## Prerequisites
 
 {{% alert color="primary" %}} 
 
@@ -15,7 +15,7 @@ To use Aspose.Words for Java in ColdFusion applications, you simply need to copy
 
 Don’t forget to restart the “ColdFusion Application Server” after putting the new jars into the “lib” folder. 
 
-## **Hello World**
+## Hello World
 
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
@@ -34,7 +34,7 @@ This is a simple application that creates an empty document, inserts some conten
 </html>
 {{< /highlight >}}
 
-## **Simple Mail Merge**
+## Simple Mail Merge
 
 Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 
@@ -54,7 +54,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Word�
 </html>
 {{< /highlight >}}
 
-## **Invoke Static Methods**
+## Invoke Static Methods
 
 Some methods in the Aspose.Words object model are static. For example, there is the **detectFileFormat** method that allows you to detect the original format of a file.
 
@@ -92,7 +92,7 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 </html>
 {{< /highlight >}}
 
-## **Save or Convert a Document**
+## Save or Convert a Document
 
 With Aspose.Words, you can save a document in a variety of formats. For the full list of formats and identifiers see the **SaveFormat** enumeration.
 
@@ -115,7 +115,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 </html>
 {{< /highlight >}}
 
-## **Mail Merge with Regions**
+## Mail Merge with Regions
 
 First, create a Java class that returns a **ResultSet** object as shown below. Compile it, and place in a jar file, and place it in the **“ColdFusion8\wwwroot\WEB-INF\lib”** folder.
 

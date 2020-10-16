@@ -5,7 +5,7 @@ weight: 90
 url: /java/aspose-words-java-for-struts-1-3/
 ---
 
-## **Apache Struts Web Framework**
+## Apache Struts Web Framework
 
 The Apache Struts web framework is a free open-source solution for creating Java web applications.
 
@@ -15,7 +15,7 @@ One way to separate concerns in a software application is to use a Model-View-Co
 
 [Learn more](http://struts.apache.org/birdseye.html)
 
-## **Aspose.Words for Java**
+## Aspose.Words for Java
 
 Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
 applications.
@@ -23,7 +23,7 @@ applications.
 Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
 generate, modify, and convert documents without using Microsoft Word.
 
-## **Aspose.Words Java for Struts 1.3**
+## Aspose.Words Java for Struts 1.3
 
 Aspose.Words Java for Struts 1.3 is simple book store web based application written using Struts 1.3 and Maven.
 
@@ -38,7 +38,7 @@ Aspose.Words Java for Struts 1.3 is simple book store web based application writ
 
 {{% /alert %}} 
 
-## **System Requirements**
+## System Requirements
 
 **Following are the system requirements for Aspose.Words Java for Struts 1.3 web application:**
 
@@ -47,7 +47,7 @@ Aspose.Words Java for Struts 1.3 is simple book store web based application writ
 - Maven 3
 - Aspose.Words component.
 
-## **Supported Platforms**
+## Supported Platforms
 
 **Following are the supported platforms:**
 

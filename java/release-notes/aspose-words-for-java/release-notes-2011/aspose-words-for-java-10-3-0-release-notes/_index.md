@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 10.3.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 10.3 Release Notes**
+## Aspose.Words for Java 10.3 Release Notes
 
 This regular monthly release delivers 140 new features and fixes. 
 
@@ -26,4 +26,4 @@ Some of the highlights are:
   Improvements in document conversions and rendering. 
   All example code in the documentation is updated and fixed for Java. 
   All sample projects are updated and fixed for Java. 
-## **All Fixes**
+## All Fixes

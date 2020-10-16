@@ -5,7 +5,7 @@ weight: 10
 url: /java/check-format-in-jython/
 ---
 
-## **Aspose.Words - Check Format**
+## Aspose.Words - Check Format
 
 To Check File Format using **Aspose.Words Java for Jython**. Here you can see sample code.
 
@@ -65,7 +65,7 @@ if __name__ == '__main__':
     CheckFormat()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

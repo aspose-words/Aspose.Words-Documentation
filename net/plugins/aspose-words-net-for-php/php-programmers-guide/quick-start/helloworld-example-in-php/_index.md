@@ -5,7 +5,7 @@ weight: 40
 url: /net/helloworld-example-in-php/
 ---
 
-## **Aspose.Words - HelloWorld Example**
+## Aspose.Words - HelloWorld Example
 
 Hello World Example
 
@@ -20,7 +20,7 @@ Hello World Example
         $doc->Save($dataDir . "/HelloWorld Out.docx");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **HelloWorld Example (Aspose.Words)** from any of the below mentioned social coding sites:
 

@@ -31,7 +31,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **Numbering Definition**
+## Numbering Definition
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -39,7 +39,7 @@ See the following links in the documentation for further information:
 |Multi Level |Yes | |- [List.IsMultiLevel](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
 |Name |N/A | | |
 
-## **Numbering Level**
+## Numbering Level
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

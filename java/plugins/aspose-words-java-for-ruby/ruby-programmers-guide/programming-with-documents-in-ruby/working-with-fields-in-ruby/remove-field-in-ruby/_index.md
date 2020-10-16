@@ -5,7 +5,7 @@ weight: 20
 url: /java/remove-field-in-ruby/
 ---
 
-## **Aspose.Words - Remove Field**
+## Aspose.Words - Remove Field
 
 **Ruby Code**
 
@@ -23,7 +23,7 @@ doc = Rjb::import('com.aspose.words.Document').new(data_dir + "Field.RemoveField
 
 #ExId:DocumentBuilder_RemoveField
 
-#ExSummary:Removes a field from the document.
+### a field from the document.
 
 field = doc.getRange().getFields().get(0)
 \# Calling this method completely removes the field from the document.
@@ -35,7 +35,7 @@ field.remove()
 doc.save(data_dir + "Field.RemoveField Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Remove Field (Aspose.Words)** from any of the below mentioned social coding sites:
 

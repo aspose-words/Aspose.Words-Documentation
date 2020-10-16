@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 17.4](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 80 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -29,7 +29,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 - Corrupted texture images do not stop the rendering procedure with an exception, a warning is sent instead now.
 - DrawingML Charts rendering improved (rotated and scaled horizontal axis labels).
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 
 |Key|Summary|Category|
@@ -119,7 +119,7 @@ Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Added an Interface to Flexibly Format Field Result**
+### Added an Interface to Flexibly Format Field Result
 
 WORDSNET-14944 has been resolved.
 
@@ -172,7 +172,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 }
 {{< /highlight >}}
 
-### **Added Feature to Set Horizontal and Vertical Resolution of Output Image**
+### Added Feature to Set Horizontal and Vertical Resolution of Output Image
 
 Previously it was one property Resolution that set both vertical and horizontal resolution to the same values.
 Now new public properties HorizontalResolution and VerticalResolution are added into the ImageSaveOptions class:

@@ -11,7 +11,7 @@ This page contains release notes of [Aspose.Words for JasperReports 17.6](https:
 
 {{% /alert %}} 
 
-## **Important note:**
+## Important note:
 
 Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
 
@@ -23,7 +23,7 @@ Starting from release **1.9.0** there are several versions of jar library (neces
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -32,7 +32,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jaspe
 |WORDSJR-218|Cells border and position is changed in output DOCX|Bug |
 |WORDSJR-219|Empty pages are exported in output DOCX|Bug |
 
-## **Configuration Option Changes**
+## Configuration Option Changes
 
 Introduced following configuration options.
 

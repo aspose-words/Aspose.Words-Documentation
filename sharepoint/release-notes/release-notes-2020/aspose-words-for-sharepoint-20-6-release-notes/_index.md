@@ -14,7 +14,7 @@ Starting from Aspose.Words for SharePoint 20.6 support of the SharePoint 2007 wa
 
 {{% /alert %}} 
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |

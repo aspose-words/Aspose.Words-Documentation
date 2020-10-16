@@ -5,7 +5,7 @@ weight: 30
 url: /java/untangle-row-bookmarks-in-jython/
 ---
 
-## **Aspose.Words - Untangle Row Bookmarks**
+## Aspose.Words - Untangle Row Bookmarks
 
 To Untangle Row Bookmarks using **Aspose.Words Java for Jython**. Here you can see sample code.
 
@@ -31,7 +31,7 @@ def untangle_row_bookmarks(self, doc):
             x = x + 1
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download running code from any of the below mentioned social coding sites:
 

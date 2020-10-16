@@ -5,7 +5,7 @@ weight: 60
 url: /net/create-a-word-processing-document/
 ---
 
-### **OpenXML SDK**
+## OpenXML SDK
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -30,7 +30,7 @@ public static void CreateWordprocessingDocument(string filepath)
 }
 {{< /highlight >}}
 
-### **Aspose.Words**
+### Aspose.Words
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -41,7 +41,7 @@ builder.Writeln("Hello World!");
 doc.Save(File);
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

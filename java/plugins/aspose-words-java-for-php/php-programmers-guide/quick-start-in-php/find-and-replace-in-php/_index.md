@@ -5,7 +5,7 @@ weight: 30
 url: /java/find-and-replace-in-php/
 ---
 
-## **Aspose.Words - Find And Replace**
+## Aspose.Words - Find And Replace
 
 To replace text using Aspose.Words Java in php, simply invoke the replace() method.
 

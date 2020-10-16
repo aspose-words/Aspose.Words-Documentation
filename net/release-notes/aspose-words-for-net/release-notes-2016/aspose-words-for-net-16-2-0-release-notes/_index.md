@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 16.2.0](https://www.
 
 {{% /alert %}} 
 
-### **Major Features**
+## Major Features
 
 There are 94 improvements and fixes in this regular monthly release. The most notable are:
 

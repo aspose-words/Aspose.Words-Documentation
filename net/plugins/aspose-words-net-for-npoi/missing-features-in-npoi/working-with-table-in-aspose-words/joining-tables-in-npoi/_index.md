@@ -5,7 +5,7 @@ weight: 20
 url: /net/joining-tables-in-npoi/
 ---
 
-## **Aspose.Words - Joining Tables**
+## Aspose.Words - Joining Tables
 
 A table which is represented in the Aspose.Words Document Object Model is made up of independent rows and cells which makes joining or splitting tables easy.
 
@@ -35,7 +35,7 @@ secondTable.Remove();
 doc.Save("Table.CombineTables Out.doc");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Joining Tables** form any of the below mentioned social coding sites:
 

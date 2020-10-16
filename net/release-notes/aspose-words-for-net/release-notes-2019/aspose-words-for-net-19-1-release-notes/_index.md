@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 19.1](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 48 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -33,7 +33,7 @@ There are 48 improvements and fixes in this regular monthly release. The most no
 - Fixed exception which may happen when spans are merged in paragraphs with different directionality.
 - Fixed exception which may happen when span has null shading inside text box.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -86,11 +86,11 @@ There are 48 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17784|UnsupportedOperationException upon loading Doc|Regression|
 |WORDSNET-17956|System.InvalidCastException occurs upon converting DOC to DOCX|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Different Time Format in DOC and PDF (Added IFieldUpdateCultureSource)**
+### Different Time Format in DOC and PDF (Added IFieldUpdateCultureSource)
 
 WORDSNET-17615 has now been resolved.
 
@@ -167,7 +167,7 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 Customers are now able to specify any culture and any date/time formatting for a particular field based on the specified name.
 
-### **Expose the threshold control for Tiff binarization**
+### Expose the threshold control for Tiff binarization
 
 WORDSNET-17819 has now been resolved:
 
@@ -191,7 +191,7 @@ public byte ThresholdForFloydSteinbergDithering
 
 The higher the value, the darker the image.
 
-#### **UC**
+#### UC
 
 {{< highlight csharp >}}
 Document doc = new Document ("inputFileName");

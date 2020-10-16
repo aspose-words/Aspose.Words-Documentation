@@ -5,7 +5,7 @@ weight: 110
 url: /net/remove-the-headers-and-footers-from-a-word-processing-document/
 ---
 
-## **OpenXML Word**
+## OpenXML Word
 
 To use the sample code , you must install the Open XML SDK 2.5. You must then explicitly reference the following assemblies in your project.
 
@@ -86,7 +86,7 @@ if (docPart.HeaderParts.Count() > 0 ||
 }
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 **Aspose.Words** provide API for header and footer of MS Word document. We can use **Section.HeadersFooters** property to get the collection of header/footer in a section of document. **HeaderFooter** class represents a container for the header or footer text of a section. **HeaderFooter** can contain Paragraph and Table child nodes.
 
@@ -111,7 +111,7 @@ Below is the sample code to remove header and footer from Word Document.
   doc.Save(fileName);
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

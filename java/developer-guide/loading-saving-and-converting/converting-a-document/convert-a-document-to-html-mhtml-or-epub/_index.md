@@ -9,7 +9,7 @@ Documents in HTML and MHTML flow-layout formats are also very popular and can b
 
 EPUB (short for "Electronic Publication") is an HTML-based format commonly used for electronic book distribution. This format is fully supported in Aspose.Words for exporting electronic books that are compatible with most reading devices.
 
-## **Convert a Document**
+## Convert a Document
 
 For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,int\)) method overloads is used. You can save the document to a file or stream and explicitly set the output document save format or define it from the file name extension.
 
@@ -19,7 +19,7 @@ The following example shows how to convert DOCX to HTML with specifying a save f
 
 To convert a document to MHTML or EPUB, use SaveFormat.MHTML or SaveFormat.EPUB respectively.
 
-## **Convert a Document with Round-trip Information**
+## Convert a Document with Round-trip Information
 
 The HTML format does not support many Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportRoundtripInformation) property. Saving the round-trip information allows restoring document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
 
@@ -38,11 +38,11 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-## **Specify Save Options when Conversion to HTML**
+## Specify Save Options when Conversion to HTML
 
 Aspose.Words allows converting a Word document to HTML using default or custom save options. Few examples of custom save options are described below.
 
-### **Specify a Folder for Saving Resources**
+### Specify a Folder for Saving Resources
 
 Using Aspose.Words we can specify a physical folder where all resources, such as images, fonts, and external CSS, are saved when a document is converted to HTML. By default, this is an empty string.
 
@@ -61,7 +61,7 @@ However, there is no individual property for CSS. The behavior of the **FontsFo
 - **ResourceFolder** has lower priority than folders specified via **FontsFolder**, **ImagesFolder**, and **CssStyleSheetFileName**. If the folder specified in the **ResourceFolder** does not exist, it will be created automatically.
 - **ResourceFolderAlias** has a lower priority than **FontsFolderAlias** and **ImagesFolderAlias**. If **ResourceFolderAlias** is empty, the value of the **ResourceFolder** property will be used to create resource URIs. If **ResourceFolderAlias** is set to "." (dot), resource URIs will only contain file names without specifying a path.
 
-### **Export Base64 Encoding Fonts Resources**
+### Export Base64 Encoding Fonts Resources
 
 Aspose.Words provides an ability to specify whether font resources should be embedded into HTML in Base64 encodings. To perform this, use the [ExportFontsAsBase64](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportFontsAsBase64) property – this is an extension of the [ExportFontResources](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportFontResources) property. By default, its value is **false**, and fonts are written into separate files. But if this option is set to **true**, fonts will be embedded into the document's CSS in Base64 encoding. The **ExportFontsAsBase64** property only affects HTML format and does not affect EPUB and MHTML.
 
@@ -69,7 +69,7 @@ The following code example shows how to export Base64-encoded fonts to HTML:
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportFontsAsBase64.java" >}}
 
-## **Specify Save Options when Conversion to EPUB**
+## Specify Save Options when Conversion to EPUB
 
 Aspose.Words allows converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/HtmlSaveOptions) to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
 
@@ -83,6 +83,6 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-## **See Also**
+## See Also
 
 - [How to export round-trip information when saving to HTML](/words/java/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip/).

@@ -5,7 +5,7 @@ weight: 180
 url: /net/remove-section-breaks-from-document/
 ---
 
-### **OpenXML**
+## OpenXML
 
 Below is the code for removing Section Breaks from MS Word Document using OpenXML SDK.
 
@@ -36,7 +36,7 @@ Below is the code for removing Section Breaks from MS Word Document using OpenXM
   }
 {{< /highlight >}}
 
-### **Aspose.Words**
+### Aspose.Words
 
 Below is the code for removing Section Breaks from MS Word Document using Aspose.Words.
 
@@ -60,13 +60,13 @@ Below is the code for removing Section Breaks from MS Word Document using Aspose
    }
 {{< /highlight >}}
 
-### **Download Running Example**
+### Download Running Example
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
 
-### **Download Sample Code**
+### Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/SourceControl/latest#Aspose.Words VS OpenXML/Remove Section Breaks/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML/Remove%20Section%20Breaks)

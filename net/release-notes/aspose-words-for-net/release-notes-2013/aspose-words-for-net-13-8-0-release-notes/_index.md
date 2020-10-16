@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 13.8.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 13.8 Release Notes**
+## Aspose.Words for .NET 13.8 Release Notes
 
-### **What's New**
+### What's New
 
 There are 142 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -25,7 +25,7 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 - Improved table border rendering with conflicting or missing attributes
 
 
-## **All Fixes**
+## All Fixes
 
 |Key|Summary|Category|
 | :- | :- | :- |

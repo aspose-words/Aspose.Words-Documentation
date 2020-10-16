@@ -11,11 +11,11 @@ You can download the used template files in the below examples from [here](https
 
 {{% /alert %}} 
 
-## **Appending Documents Overview**
+## Appending Documents Overview
 
 This topic discusses how to programmatically join and append documents using Aspose.Words. Appending documents is a very common task, one which is fully supported. Using Aspose.Words you can easily append one document to another using just a one-line API call. This topic provides details and code examples on how to append documents and how to further control how the documents are joined. For instance, there are examples that show how to set an appended document to appear on the next page and how to restart the page numbering in the pages that are joined.
 
-### **Key Terms and Sample Documents**
+### Key Terms and Sample Documents
 
 When appending documents the destination document is the base document to which the content from the source document is imported into. These are common terms used frequently in the context of appending and copying content from a document to document. Each sample below shows how to append documents with different options. In these samples, we will be using these two main documents along with a few variants of them in order to demonstrate the different techniques outlined in this article.
 
@@ -28,7 +28,7 @@ The content of the source document is found below. In the code, this also will b
 |![todo:image_alt_text](http://i.imgur.com/YgraK9q.png)|
 | :- |
 
-## **How the AppendDocument Method Works**
+## How the AppendDocument Method Works
 
 It’s useful to take a look at the logic behind the [Document.appendDocument](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/appendDocument\(com.aspose.words.Document,int\)/) method. This will provide some useful background information which helps to:
 
@@ -50,7 +50,7 @@ As suggested above this approach is not limited to just combining documents. It 
 1. Import the node into the destination document. Importing creates a new node that is a copy of the original node, but suitable for insertion into the destination document.
 1. Insert the imported node into the destination document.
 
-## **Common Issues When Appending Documents**
+## Common Issues When Appending Documents
 
 **Question:** I am using a blank document as a template to which further documents are appended. After executing my code the first page of the generated document is a blank page.
 
@@ -79,7 +79,7 @@ To solve this you will need to either remove the calls before appending the docu
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-UpdatePageLayout-1.java" >}}
 
 
-## **Append with ImportFormatOptions**
+## Append with ImportFormatOptions
 
 Aspose.Words provides a new overloaded AppendDocument() method into a Document class. It allows specifying additional options that affect the formatting of a result document.
 
@@ -87,7 +87,7 @@ The following code example shows the usage of this method.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-AppendwithImportFormatOptions-AppendwithImportFormatOptions.java" >}}
 
-## **Ignore Header and Footer**
+## Ignore Header and Footer
 
 Aspose.Words provides a boolean type ImportFormatOptions.IgnoreHeaderFooter property to include or exclude header and footer while appending documents. The default value is set to true.
 

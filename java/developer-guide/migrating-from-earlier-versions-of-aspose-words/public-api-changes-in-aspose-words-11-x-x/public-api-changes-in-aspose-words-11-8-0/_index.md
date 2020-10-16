@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 11.8.0. 
 
 {{% /alert %}} 
 
-## **1. ResourceLoading Callback is Extended to be Called when any External Resources is Loaded**
+## 1. ResourceLoading Callback is Extended to be Called when any External Resources is Loaded
 
 A class implementing [IResourceLoadingCallback]() is used to control how resources such as images or CSS are handled when they need to be downloaded from an external source i.e a network or internet. In previous versions of Aspose.Words this callback only worked when loading a new HTML document. Now this feature has been extended for all formats. 
 
@@ -26,11 +26,11 @@ Also other situations when external resources are used have been included in the
 |**Export to fixed paged formats (PDF, image etc)**|If an image is linked and not stored in the document, it is retrieved during conversion so it can be present in the rendered output. In some situations you may wish to skip this happening in order to speed up conversion times. |
 |**Update of INCLUDEPICTURE fields**|When this field is preserved in the document object model by using the [LoadOptions.PreserveIncludePictureField]() property, this field can be linked to an external path and updating fields could cause loading of external data. |
 
-## **2. Document.ResourceLoadingCallback Property is now Public**
+## 2. Document.ResourceLoadingCallback Property is now Public
 
 A callback that is set using [LoadOptions.ResourceLoadingCallback]() can be removed or changed after the document is loaded by using the [Document.ResourceLoadingCallback]() property.
 
-## **3. Node.ToTxt has been Deprecated and Replaced with Overloads of Node.ToString**
+## 3. Node.ToTxt has been Deprecated and Replaced with Overloads of Node.ToString
 
 The two methods **Node.ToString(SaveFormat)** and **Node.ToString(SaveOptions)** are now used to export the content of a node to string in a specified format. 
 
@@ -38,7 +38,7 @@ The two formats that are currently supported are [SaveFormat.Html]() and [SaveFo
 
 The existing [Node.ToTxt]() method is still available however it is marked as deprecated. Use [Node.ToString]() with **SaveFormat.Txt** instead. 
 
-### **Example**
+### Example
 
 *Exports the content of a node to string in HTML format using default options.*
 
@@ -62,7 +62,7 @@ Node node = doc.getLastSection().getBody().getLastParagraph();
 String nodeAsHtml = node.toString(SaveFormat.HTML);
 {{< /highlight >}}
 
-### **Example**
+### Example
 
 *Exports the content of a node to string in HTML format using custom specified options.*
 
@@ -85,11 +85,11 @@ saveOptions.setExportRelativeFontSize(true);
 String nodeAsHtml = node.toString(saveOptions);
 {{< /highlight >}}
 
-## **4. Added StyleCollection.AddCopy to Allow Copying of Styles**
+## 4. Added StyleCollection.AddCopy to Allow Copying of Styles
 
 This release of Aspose.Words provides functionality to add a copy of one style and copy styles from one document to another. Use the [StyleCollection.AddCopy]() method.
 
-### **Example**
+### Example
 
 *Demonstrates how to copy a style within the same document.*
 
@@ -104,7 +104,7 @@ Style newStyle = doc.getStyles().addCopy(doc.getStyles().get("Heading 1"));
 newStyle.setName("My Heading 1");
 {{< /highlight >}}
 
-### **Example**
+### Example
 
 *Demonstrates how to copy style from one document into a different document.*
 
@@ -118,19 +118,19 @@ srcStyle.getFont().setColor(Color.RED);
 Style newStyle = dstDoc.getStyles().addCopy(srcStyle);
 {{< /highlight >}}
 
-## **5. The Style.Name Property is now Writable**
+## 5. The Style.Name Property is now Writable
 
 It is possible to change the name of an existing style. In previous versions this property was read-only.
 
-## **6. All Node Collections are now Live**
+## 6. All Node Collections are now Live
 
 The [CompositeNode.GetChildNodes]() overload that accepts the "IsLive" parameter is now obsolete (the isLive parameter is ignored) and is replaced with the [CompositeNode.GetChildNodes]() overload that accepts only IsDeep. Since the **IsLive** parameter did not work as expected in previous versions and always returned a live collection there should be no changes in behavior to existing code. Note that this release does contain changes to live collections, see "Added Hot Remove of a Node during Enumeration" in this article.
 
-## **7. Added Typed ToArray Members for all Collections Derived from NodeCollection**
+## 7. Added Typed ToArray Members for all Collections Derived from NodeCollection
 
 Node collections which contain a single type of node e.g [ParagraphCollection]() or [CellCollection]() now include an implementation of **ToArray** which returns a primitive array of nodes corresponding to that node type. For example, calling [ParagraphCollection.ToArray]() returns **Paragraph[]** and calling [CellCollection.ToArray]() returns **Cell[]**. 
 
-### **Example**
+### Example
 
 *Demonstrates typed implementations of ToArray on classes derived from NodeCollection.*
 
@@ -144,7 +144,7 @@ Paragraph[] paras = doc.getFirstSection().getBody().getParagraphs().toArray();
 
 A call to **CompositeNode.GetChildNodes** still returns an array of nodes. For example, **doc.GetChildNodes(NodeType.Paragraph, false).ToArray** still returns **Node[]** (and not **Paragraph[]**). 
 
-## **8. Added "Hot Remove" of a Node during Enumeration**
+## 8. Added "Hot Remove" of a Node during Enumeration
 
 In previous versions of Aspose.Words if a node is removed from a collection while it is being enumerated over then the enumeration exits. With the introduction of Hot Remove, this functionality has changed and now a node can be removed during enumeration and the enumeration will continue as normal. 
 
@@ -156,7 +156,7 @@ If you are using a "deep" search and you remove the current node then the childr
 
 {{% /alert %}} 
 
-### **Example**
+### Example
 
 *Demonstrates how to use "hot remove" to remove a node during enumeration.*
 
@@ -182,13 +182,13 @@ for (Paragraph para : (Iterable<Paragraph>)builder.getDocument().getFirstSection
 
 It was the absence of hot remove that was the original reason for "snapshot" collections. With the introduction of this feature the snapshot functionality of node collections has been deprecated
 
-## **9. "Hot Remove" Limitations**
+## 9. "Hot Remove" Limitations
 
 There is a way to break foreach enumeration (including one case which can throw an exception) by removing a particular combination of nodes from inside a body of an enumeration. If both the the current and the previous node is removed at the same time then the enumeration can break. The definition of "previous" node is not always straightforward because enumeration over the DOM can occur in a non-continuous way. 
 
 The algorithm behind the enumeration visits all nodes of the document (for deep collections) or nodes of one level only (for flat collections) and skips nodes which don't match to a criteria (for example, "non-paragraph" nodes are skipped when [NodeType.Paragraph]() is specified). If the current node is removed during enumeration, it continues from the previously visited node regardless of whether it was skipped or not. If this previous node is removed as well then the enumeration can break as demonstrated in the following code: 
 
-### **Example**
+### Example
 
 *Demonstrates an example breakage of the node collection enumerator.*
 
@@ -217,21 +217,21 @@ In the above code:
 - When there is a flat collection a flat collection (false is passed to **GetChildNodes**) then an **InvalidOperationException** is thrown and the when attempting to visit the fourth paragraph in the collection.
 - When there is a deep collection (true is passed to **GetChildNodes**) then the code above results in no **InvalidOperationException** but the fourth paragraph in the collection is not visited (silent breakage).
 
-## **10. Introduction of HtmlSaveOptions.CssSavingCallback Property and ICssSavingCallback Interface**
+## 10. Introduction of HtmlSaveOptions.CssSavingCallback Property and ICssSavingCallback Interface
 
 This enables control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType]() is set to [CssStyleSheetType.External](). This interface allows control over where the external CSS is saved to, such as a stream.
 
-## **11. Additional MetafileRenderingMode Option Introduced**
+## 11. Additional MetafileRenderingMode Option Introduced
 
 [MetafileRenderingMode.VectorWithFallback]() is used render metafiles as a vector images with an added option of falling back when an unsupported feature is met.
 
-## **12. MetafileRenderingMode.Vector Behavior Changes**
+## 12. MetafileRenderingMode.Vector Behavior Changes
 
 In previous versions the **MetafileRenderingMode** enumeration had two values: **Vector** and **Bitmap**. In 11.8.0 a new option has been introduced: **VectorWithFallback**. In previous versions the **Vector** value implicitly included fallback. however starting with version this functionality has moved to the new **VectorWithFallback** enumeration and **Vector** no longer includes any fallback. 
 
 Therefore any existing customer code which explicitly sets **MetafileRenderingMode** to **Vector** might experience difference in rendered output with this version when compared to older versions if they happen to meet a metafile with unsupported features.
 
-## **13. New Public Member Introduced to Control RTL Language Support on Fields Update.**
+## 13. New Public Member Introduced to Control RTL Language Support on Fields Update.
 
 A new public member to control the feature of RTL support during field update: [FieldOptions.IsBidiTextSupportedOnUpdate](). 
 
@@ -239,17 +239,17 @@ Since there are extra steps involved in the process to properly merge right-to-l
 
 To enable proper handling of right-to-left text during field update and mail merge you should set **FieldOptions.IsBidiTextSupportedOnUpdate** to true before performing field update or mail merge. 
 
-## **14. Improvements to NodeCollection.Clear Running-Time Performance**
+## 14. Improvements to NodeCollection.Clear Running-Time Performance
 
 In earlier versions [NodeCollection.Clear]() required quadratic time to complete (Length of container * Length of collection) because during traversal some nodes are visited but skipped, and in some occasions the same skipped nodes could be visited again. Now it's guaranteed that each node (skipped or removed) is visited no more than once.
 
 The running time of this operation is now linear. 
 
-## **15. Obfuscated Public Member is Fixed**
+## 15. Obfuscated Public Member is Fixed
 
 In Aspose.Words 11.7.0 the PdfSaveOptions member [NumeralFormat]() was mistakenly obfuscated as "**x515e84b3fc4c5959**". This has been fixed in this release. Use the following code to set numeral format:
 
-### **Example**
+### Example
 
 *Demonstrates how to set the numeral format used when saving to PDF.*
 

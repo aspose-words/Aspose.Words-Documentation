@@ -22,7 +22,7 @@ Special attention is given to the following issues:
 
 {{% /alert %}} 
 
-## **Example**
+## Example
 
 Below example shows how to create headers footers using DocumentBuilder.
 

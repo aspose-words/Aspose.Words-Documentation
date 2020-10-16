@@ -7,7 +7,7 @@ url: /net/open-a-word-processing-document-for-read-only-access/
 
 Sometimes you want to open a document to inspect or retrieve some information, and you want to do so in a way that ensures the document remains unchanged. In these instances, you want to open the document for read-only access.
 
-## **OpenXML Words**
+## OpenXML Words
 
 The below sample code shows how you can add some text and attempt to save the changes to show that access is read-only. Once you have access to the body of the main document part, you add text by adding instances of the **Paragraph, Run, and Text** classes. This generates the required **WordprocessingML** markup.
 
@@ -40,7 +40,7 @@ public static void OpenWordprocessingDocumentReadonly(string filepath)
 }
 {{< /highlight >}}
 
-## **Aspose.Words**
+## Aspose.Words
 
 Make the **Document** object having parameter filename and LoadOptions without setting password we cant protect or open document for read-only access . **LoadOptions** is a shortcut to initialize a new instance of this class with the specified password to load an encrypted document. Then initialize the **DocumentBuilder** object which provides methods to insert text, images and other content, specify font, paragraph and section formatting of word document.
 
@@ -60,7 +60,7 @@ private static void OpenWordprocessingDocumentReadonly(string fileName)
 }
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

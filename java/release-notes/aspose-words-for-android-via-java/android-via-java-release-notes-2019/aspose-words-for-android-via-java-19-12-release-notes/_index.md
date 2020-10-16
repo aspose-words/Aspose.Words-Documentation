@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.12](h
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Memory consumption is reduced for graphic data and HTML files processing.
 - Elliptic Curve Digital Signature Algorithm (ECDSA) is supported now.

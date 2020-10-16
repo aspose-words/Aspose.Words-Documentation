@@ -36,7 +36,7 @@ See the following links in the documentation for further information:
 
 {{% /alert %}} 
 
-## **General**
+## General
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -62,14 +62,14 @@ See the following links in the documentation for further information:
 |Background|Yes|A background of a Word document can be a solid color or an image. <br><br>Only solid background is imported. Imported from style="background:xxx" on &lt;body&gt; tag. <br><br>There are plans to support image background through the style-background attribute.|- **Document.BackgroundShape**|
 |Thumbnail|N/A| | |
 
-## **Embedded Fonts**
+## Embedded Fonts
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts|Planned|Currently embedding new fonts into a document is unsupported.| |
 |Access and Use Embedded Fonts|Planned|There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX document can be optionally exported. <br><br>Embedded fonts linked in HTML are currently not read during import.|<p>- **FontInfo**</p><p>- **FontInfo.GetEmbeddedFont**</p>|
 
-## **Bibliography**
+## Bibliography
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -77,7 +77,7 @@ See the following links in the documentation for further information:
 |Sources/Citations|Yes|Sources and citations are preserved during import. <br><br>Inserting new sources is not supported. <br><br>Bibliography sources are not saved to HTML.| |
 |Citation Style|N/A| | |
 
-## **Protection**
+## Protection
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -91,7 +91,7 @@ See the following links in the documentation for further information:
 |Protection Ranges|N/A| | |
 |Read Only|N/A| | |
 
-## **Settings**
+## Settings
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

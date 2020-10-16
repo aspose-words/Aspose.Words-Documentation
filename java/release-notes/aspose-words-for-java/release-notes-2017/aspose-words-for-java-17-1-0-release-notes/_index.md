@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 17.1.0](http://maven
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 80 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -32,7 +32,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 - Fixed positioning issue with Arabic list labels
 - Fixed height issue with LTR list labels in RTL paragraphs
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 
 |Key|Summary|Category|
@@ -119,13 +119,13 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-7959|/slow/ Aspose.Words hangs during rendering DOCX to PDF|Performance|
 |WORDSNET-7962|Aspose.Words hangs on exporting huge encoded text documents to PDF|Performance|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 
 This section lists public API changes that were introduced in Aspose.Words 17.1.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 
-### **SaveOptions.MemoryOptimization Property Added**
+### SaveOptions.MemoryOptimization Property Added
 
 When dealing with very large and complex documents Aspose.Words sometimes had problems during saving resulting in out of memory exceptions, disk swapping and generally failures.
 
@@ -139,7 +139,7 @@ We've introduced an option to optimize memory consumption during these scenarios
 public boolean MemoryOptimization {get;set;}
 {{< /highlight >}}
 
-##### **Usage Example:**
+#### Usage Example:
 
 {{< highlight csharp >}}
 Document doc = new Document("myDoc.docx");
@@ -148,7 +148,7 @@ so.setMemoryOptimization(true);
 doc.save("myFile.pdf", so);
 {{< /highlight >}}
 
-### **FrameFormat Class for getting Frame related Properties of a Paragraph Added**
+### FrameFormat Class for getting Frame related Properties of a Paragraph Added
 
 Available to API users as Paragraph.FrameFormat. This class exposes all frame properties of paragraph in "readonly" mode
 
@@ -163,7 +163,7 @@ public class FrameFormat
 {{< /highlight >}}
 
 
-### **WORDSNET-14405 - TxtSaveOptions.ForcePageBreaks Property Added**
+### WORDSNET-14405 - TxtSaveOptions.ForcePageBreaks Property Added
 
 New public property ForcePageBreaks is added into the TxtSaveOptions class:
 

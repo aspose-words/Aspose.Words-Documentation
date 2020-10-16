@@ -16,7 +16,7 @@ Aspose.Words for SharePoint makes it possible to convert and combine word docume
 
 {{% /alert %}} 
 
-## **Aspose.Words for SharePoint Resources**
+## Aspose.Words for SharePoint Resources
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 

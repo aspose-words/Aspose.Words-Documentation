@@ -11,7 +11,7 @@ These page list public API changes that were introduced in Aspose.Words 14.2.0. 
 
 {{% /alert %}} 
 
-### **Document.AutomaticallyUpdateSyles Added to the Public API**
+## Document.AutomaticallyUpdateSyles Added to the Public API
 
 This option allows to get or set a flag which indicates whether the styles in the document are updated to match the styles in the attached template each time the document is opened in Microsoft Word.
 
@@ -28,7 +28,7 @@ doc.Save("out.docx");
 
 When the document (with this option set) is reopened in Microsoft Word, changes to the styles in the attached template will automatically appear in this document. Also, please note that Aspose.Words does not use this flag to update styles upon document loading.
 
-### **Document.CompatibilityOptions.OptimizeFor Added to the Public API**
+### Document.CompatibilityOptions.OptimizeFor Added to the Public API
 
 This version of Aspose.Words exposes **Document.CompatibilityOptions.OptimizeFor** method and **MsWordVersion** enum which allows to fine-tune Aspose.Words behavior to match particular Microsoft Word version as well as to suppress Microsoft Word compatibility-mode ribbon for Aspose.Words generated documents.
 
@@ -48,7 +48,7 @@ The complete list of Microsoft Word version specific nuances across Aspose.Words
 
 One more important effect is that Aspose.Words no longer explicitly writes CompatibilityMode to document settings unless it was not present in the existing document or was explicitly requested through the usage of **Document.CompatibilityOptions.OptimizeFor** method.
 
-### **Hyphenation Support Added**
+### Hyphenation Support Added
 
 Aspose.Words' layout engine now supports Hyphenation. However, to be able to use this feature, you must register a hyphenation dictionary as follows:
 
@@ -63,14 +63,14 @@ doc.Save(@"C:\Temp\out.pdf");
 
 [This page lists Hunspell spell checker dictionaries](http://archive.services.openoffice.org/pub/mirror/OpenOffice.org/contrib/dictionaries/) that can be used with Aspose.Words
 
-### **Rendering of DrawingML Inner Shadow Effect**
+### Rendering of DrawingML Inner Shadow Effect
 
 Starting from 14.2.0 version, Aspose.Words supports rendering of InnerShadow DrawingML effect. Effect can be rendered in two modes:
 
 1. Simplified: In this case blurred edges are simulated using several layers with different transparency.
 1. Fine: In this case, blur effect is applied to shadow which gives better result but takes much more time to render.
 
-### **DigitalSignatureUtil.LoadSignatures Method Added to the Public API**
+### DigitalSignatureUtil.LoadSignatures Method Added to the Public API
 
 Aspose.Words now supports loading digital signatures from XPS documents. The usage is as follows:
 

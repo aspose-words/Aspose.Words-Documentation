@@ -5,7 +5,7 @@ weight: 30
 url: /sharepoint/features/
 ---
 
-###### **This section includes the following topics:**
+## This section includes the following topics:
 
 - [Multiple Format Support](/words/sharepoint/multiple-format-support/)
 - [Conversion Options](/words/sharepoint/conversion-options/)

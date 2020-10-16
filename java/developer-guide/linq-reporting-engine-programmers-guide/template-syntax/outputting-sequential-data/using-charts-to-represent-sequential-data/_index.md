@@ -67,7 +67,7 @@ In this case, the engine produces a report as follows.
 
 For more examples of templates for typical scenarios involving charts, see “ REF typicalTemplates Appendix C. Typical Templates”.
 
-## **Including Chart Series Dynamically**
+## Including Chart Series Dynamically
 
 For a chart with dynamic data, you can select which series to include into it dynamically based upon conditions. In particular, this feature is useful when you need to restrict access to sensitive data in chart series for some users of your application. To use the feature, do the following steps:
 
@@ -92,7 +92,7 @@ If accessLevel is not equal to zero, the engine produces a report as follows.
 
 ![todo:image_alt_text](total_contract_prices_5.png)
 
-## **Setting Chart Series Colors Dynamically**
+## Setting Chart Series Colors Dynamically
 
 For a chart with dynamic data, you can set colors of chart series dynamically based upon expressions. To use the feature, do the following steps:
 
@@ -117,7 +117,7 @@ In this case, the engine produces a report as follows.
 
 ![todo:image_alt_text](total_contract_prices_7.png)
 
-## **Setting Chart Series Point Colors Dynamically**
+## Setting Chart Series Point Colors Dynamically
 
 For a chart with dynamic data, you can set colors of individual chart series points dynamically based upon expressions. To use the feature, do the following steps:
 
@@ -158,7 +158,7 @@ In this case, the engine produces a report as follows.
 
 ![todo:image_alt_text](total_contract_prices_10.png)
 
-## **Setting Chart Title, Series Names, and Axis Titles Dynamically**
+## Setting Chart Title, Series Names, and Axis Titles Dynamically
 
 You can normally use common expression tags in chart titles, series names, and axis titles, thus forming their contents dynamically. This feature can be used for any chart defined in a template even for the one that is not populated with data dynamically like in the following example.
 

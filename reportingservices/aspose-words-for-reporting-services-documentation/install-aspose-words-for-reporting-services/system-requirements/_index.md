@@ -5,7 +5,7 @@ weight: 10
 url: /reportingservices/system-requirements/
 ---
 
-#### **Requirements for Generating Reports on the Server**
+## Requirements for Generating Reports on the Server
 
 If you want to use Aspose.Words for Reporting Services to generate reports on a server, then you need a computer running one of the following:
 
@@ -24,7 +24,7 @@ Note Aspose.Words for Reporting Services cannot be used with other Microsoft SQL
 
 {{% /alert %}} 
 
-#### **Requirements for Generating Reports in Microsoft Report Viewer**
+## Requirements for Generating Reports in Microsoft Report Viewer
 
 If you want to use Aspose.Words for Reporting Services to generate reports in Microsoft Report Viewer in local mode, then you need to have one of the following:
 
@@ -34,6 +34,6 @@ If you want to use Aspose.Words for Reporting Services to generate reports in Mi
 - Microsoft Report Viewer 2012 
 - Microsoft Report Viewer 2015 
 
-#### **Requirements for Generating Reports at Design Time**
+## Requirements for Generating Reports at Design Time
 
 If you want to generate reports at design time in the report designer, then you need to install the Business Intelligence Development Studio component from the Microsoft SQL Server 2005, 2008, 2012, 2014, 2016, 2017 or 2019 installation.

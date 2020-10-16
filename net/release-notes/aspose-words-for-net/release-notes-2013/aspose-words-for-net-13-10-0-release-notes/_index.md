@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 13.10.0](https://www
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 13.10 Release Notes**
+## Aspose.Words for .NET 13.10 Release Notes
 
-### **What's New**
+### What's New
 
 There are 169 improvements and fixes in this regular monthly release. The most notable are: 
 
@@ -26,7 +26,7 @@ There are 169 improvements and fixes in this regular monthly release. The most n
   Implemented vertical section alignment
 
 
-## **All Fixes**
+## All Fixes
 
 |Key|Summary|Category|
 | :- | :- | :- |

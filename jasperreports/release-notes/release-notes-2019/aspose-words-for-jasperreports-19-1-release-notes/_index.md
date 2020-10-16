@@ -11,7 +11,7 @@ This page contains release notes of [Aspose.Words for JasperReports 19.1](https:
 
 {{% /alert %}} 
 
-## **Important note:**
+## Important note:
 
 Starting from release **1.9.0** there are several versions of JAR library (necessary for better support of older versions of JasperReports):
 
@@ -29,7 +29,7 @@ Please copy **ONLY ONE** JAR library according to the version of installed Jas
 
 .
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key |Summary |Category |
 | :- | :- | :- |
@@ -38,6 +38,6 @@ Please copy **ONLY ONE** JAR library according to the version of installed Jas
 |WORDSJR-253|Force page break when page settings were changed|New feature |
 |WORDSJR-251|Bottom margin is too high|Bug |
 
-## **Configuration Option Changes**
+## Configuration Option Changes
 
 We have added [**Break Table Rows**](/words/jasperreports/break-table-rows/) configuration option in this release.

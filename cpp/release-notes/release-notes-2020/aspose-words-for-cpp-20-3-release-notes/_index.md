@@ -11,11 +11,11 @@ This page contains release notes for [Aspose.Words for C++ 20.3](https://www.nug
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 This is a regular monthly release, we continue to add features from Aspose.Words for .Net.
 
-## **Limitations and API Differences**
+## Limitations and API Differences
 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
@@ -28,7 +28,7 @@ The missing features will be added in future releases.
 - The current release has limited support for database features - C++ does not have a common API for DB like .Net System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -107,11 +107,11 @@ The missing features will be added in future releases.
 |WORDSNET-15353|Image position is changed in output PDF|Bug|
 |WORDSNET-19986|Application hangs when opening HTM file|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.3. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### **Added a new public property SaveOptions.UpdateLastPrintedProperty**
+### Added a new public property SaveOptions.UpdateLastPrintedProperty
 
 Related issue: **WORDSNET-19776**
 
@@ -128,7 +128,7 @@ public bool UpdateLastPrintedProperty
 
 It's true by default for FixedPageSaveOptions.
 
-##### **Use Case:**
+#### Use Case:
 
 **.NET**
 
@@ -140,7 +140,7 @@ doc.Save(pdfPath, saveOptions);
 {{< /highlight >}}
 
 
-### **Added the ImageFieldMergingArgs.Shape property**
+### Added the ImageFieldMergingArgs.Shape property
 
 Reference: **WORDSNET-19568**
 
@@ -189,7 +189,7 @@ private class TestShapeSetFieldMergingCallback : IFieldMergingCallback
 {{< /highlight >}}
 
 
-### **FindReplaceOptions class is extended with new properties**
+### FindReplaceOptions class is extended with new properties
 
 Related issue: WORDSNET-19912.
 
@@ -226,7 +226,7 @@ public bool IgnoreFields
 {{< /highlight >}}
 
 
-##### **Use Case 1. Explains how to ignore text inside delete revisions:**
+#### Use Case 1. Explains how to ignore text inside delete revisions:
 
 **.NET**
 
@@ -261,7 +261,7 @@ Console.WriteLine(doc.GetText());
 {{< /highlight >}}
 
 
-##### **Use Case 2. Explains how to ignore text inside insert revisions:**
+##### Use Case 2. Explains how to ignore text inside insert revisions:
 
 **.NET**
 
@@ -295,7 +295,7 @@ Console.WriteLine(doc.GetText());
 {{< /highlight >}}
 
 
-##### **Use Case 3. Explains how to ignore text inside fields:**
+##### Use Case 3. Explains how to ignore text inside fields:
 
 **.NET**
 

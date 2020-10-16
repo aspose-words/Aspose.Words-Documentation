@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 16.2.0. 
 
 {{% /alert %}} 
 
-### **Fast Extraction of Plain Text from Flow-Format Documents Supported**
+## Fast Extraction of Plain Text from Flow-Format Documents Supported
 
 In order to support such usecases as fast search and indexing of documents, the following static methods were exposed on the Document class:
 
@@ -48,19 +48,19 @@ public class PlaintextDocument
 Presently the speed optimizations are done for DOCX and DOC.
 RTF and WordML will hopefully be added in March 2016 along with further improvements for all flow-formats.
 
-### **Font Substitution Improved**
+### Font Substitution Improved
 
 WORDSNET-5907 has been resolved. Font substitution improved to mimic MS Word in case when font info in the document doesn't contains the PANOSE. Previously, in this case, Aspose.Words used to substitute fonts with FontSettings.DefaultFontName. In case when PANOSE is specified in font info, Aspose.Words still uses FontSettings.DefaultFontName.
 
 Warning is issued with text: "Font '<font_name>' has not been found. Using '<substitution_name>' font instead. Reason: closest match according to font info from the document."
 
-### **Axis Logarithmic Scale Supported during Rendering DML Chart**
+### Axis Logarithmic Scale Supported during Rendering DML Chart
 
 WORDSNET-12130 has been resolved. Starting from 16.2.0 version, Aspose.Words supports axis logarithmic scale upon rendering DML chart.
 
 ![todo:image_alt_text](public-api-changes-in-aspose-words-16-2-0_1)
 
-### **PageSavingCallback Introduced for all Fixed-Page based Save Formats**
+### PageSavingCallback Introduced for all Fixed-Page based Save Formats
 
 WORDSNET-12176 has been resolved. PageSavingCallback allows you to control how separate pages are saved when a document is exported to fixed-page based save formats. You are able to control PageFileName for each separate page. Or you can specify the stream where the document page will be saved using PageStream property.
 
@@ -122,7 +122,7 @@ PageSavingCallback is available for following classes:
 - XamlFixedSaveOptions
 - XpsSaveOptions
 
-### **Ability to Determine if a Run or a Paragraph has Format Changes Added**
+### Ability to Determine if a Run or a Paragraph has Format Changes Added
 
 WORDSNET-12499 has been resolved and the following property is added into the Inline and Paragraph classes:
 
@@ -135,7 +135,7 @@ WORDSNET-12499 has been resolved and the following property is added into the In
 public bool IsFormatRevision { get; }
 {{< /highlight >}}
 
-### **Feature to Get-Set Alt Text Title Property of Shape Added**
+### Feature to Get-Set Alt Text Title Property of Shape Added
 
 WORDSNET-12918 has been resolved. Starting from 16.2.0 version, Aspose.Words starts supporting Alt Text Title.
 

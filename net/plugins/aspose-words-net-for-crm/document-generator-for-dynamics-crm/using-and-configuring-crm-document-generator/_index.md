@@ -5,7 +5,7 @@ weight: 10
 url: /net/using-and-configuring-crm-document-generator/
 ---
 
-### **Create Template using word**
+## Create Template using word
 
 - Open Microsoft Word and Create the Template.
 - For Adding Dynamic fields, in Microsoft Word insert field and select Mail Merge Field. 
@@ -16,7 +16,7 @@ url: /net/using-and-configuring-crm-document-generator/
 
 ![todo:image_alt_text](using-and-configuring-crm-document-generator_2)
 
-### **Upload Template in CRM**
+### Upload Template in CRM
 
 - Once the template is ready upload it in CRM.
 - Navigate to Document Templates and Create New. 
@@ -31,7 +31,7 @@ url: /net/using-and-configuring-crm-document-generator/
 
 Please make sure that the Title of the Attachment contains the extension and name as this name will be used for created documents.
 
-### **Create document in CRM using template**
+### Create document in CRM using template
 
 - Open any contact and click on "Start Dialog" from the top Ribbon. 
 
@@ -49,7 +49,7 @@ Please make sure that the Title of the Attachment contains the extension and nam
 - Press Finish on the next screen.
 - Under Notes of the Contact you would be able to see the generated document.
 
-### **Use single click button to Generate Document**
+### Use single click button to Generate Document
 
 - Open any contact and click on "Document Generator" from the top Ribbon. 
 

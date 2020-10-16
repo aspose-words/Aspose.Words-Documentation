@@ -5,7 +5,7 @@ weight: 10
 url: /java/add-watermark-in-python/
 ---
 
-## **Aspose.Words - Add Watermark**
+## Aspose.Words - Add Watermark
 
 **Python Code**
 
@@ -15,7 +15,7 @@ self.insertWatermarkText(doc, "CONFIDENTIAL")
 doc.save(self.dataDir + "TestFile Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Add Watermark (Aspose.Words)** from any of the below mentioned social coding sites:
 

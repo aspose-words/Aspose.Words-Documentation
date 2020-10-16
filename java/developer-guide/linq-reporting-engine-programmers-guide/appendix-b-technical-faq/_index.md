@@ -11,7 +11,7 @@ This section reveals some technical aspects and implementation details related t
 
 {{% /alert %}} 
 
-## **How is the type of an enumeration item implicitly determined by the engine in template expressions?**
+## How is the type of an enumeration item implicitly determined by the engine in template expressions?
 
 If you do not specify the type of an enumeration item in a foreach statement or lambda function signature within your template explicitly, the type is implicitly determined by the engine from the type of the enumeration as follows:
 

@@ -10,7 +10,7 @@ Once you are happy with your evaluation, you can [purchase a license](http://www
 - **Aspose.Words.SharePoint.License.wsp** – the SharePoint solution package file. The license is packaged as a SharePoint solution to make deployment and retraction across a server farm easy.
 - **readme.txt** – license installation instructions.
 
-### **Installation**
+## Installation
 
 License installation is performed from the server console via **stsadm.exe**. The steps required to install the license are below. The paths are omitted for clarity. You may need to add the actual path to stsadm.exe and/or solution file when executing them.
 

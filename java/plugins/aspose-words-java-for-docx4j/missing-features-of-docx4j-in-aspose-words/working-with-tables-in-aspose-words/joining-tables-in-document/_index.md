@@ -5,7 +5,7 @@ weight: 20
 url: /java/joining-tables-in-document/
 ---
 
-## **Aspose.Words - Joining Tables in Document**
+## Aspose.Words - Joining Tables in Document
 
 A table which is represented in the Aspose.Words Document Object Model is made up of independent rows and cells which makes joining or splitting tables easy.
 
@@ -32,12 +32,12 @@ while (secondTable.hasChildNodes())
 secondTable.remove();
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/tables/joiningtables/AsposeJoiningTables.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/asposefeatures/tables/joiningtables/AsposeJoiningTables.java)

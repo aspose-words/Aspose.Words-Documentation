@@ -5,7 +5,7 @@ weight: 80
 url: /java/insert-table-of-contents-in-document/
 ---
 
-## **Aspose.Words - Insert Table of Contents in Document**
+## Aspose.Words - Insert Table of Contents in Document
 
 Demonstrates how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
@@ -64,7 +64,7 @@ doc1.updateFields();
 doc1.save(dataDir + "AsposeTOCHeadings.doc");
 {{< /highlight >}}
 
-## **Docx4j - Insert Table of Contents in Document**
+## Docx4j - Insert Table of Contents in Document
 
 Below example shows how Table of Contents can be inserted in documents using docx4j library.
 
@@ -120,12 +120,12 @@ public static JAXBElement getWrappedFldChar(FldChar fldchar) {
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/inserttableofcontents/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/inserttableofcontents)

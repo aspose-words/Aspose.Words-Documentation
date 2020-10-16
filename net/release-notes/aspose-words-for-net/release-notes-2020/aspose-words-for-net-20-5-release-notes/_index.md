@@ -11,13 +11,13 @@ This page contains release notes for [Aspose.Words for .NET 20.5](https://www.nu
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - Provided ability to show/hide Grammatical and Spelling errors.
 - New helper class to work with watermark inside document was introduced.
 - Added feature to set compression level for OOXML documents.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -106,11 +106,11 @@ This page contains release notes for [Aspose.Words for .NET 20.5](https://www.nu
 |WORDSNET-14528|Shapes do not render correctly in output HtmlFixed|Bug|
 |WORDSNET-20346|Build project target to Framework 4.6.1 adds netstandard.dll and other facade libs to debug folder|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.5. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### **Added a new public property OoxmlSaveOptions.CompressionLevel**
+### Added a new public property OoxmlSaveOptions.CompressionLevel
 
 Related issue: WORDSNET-20169
 
@@ -172,7 +172,7 @@ doc.Save("out.docx", so);
 {{< /highlight >}}
 
 
-### **Added page layout callback**
+### Added page layout callback
 
 Related issue WORDSNET-19093
 
@@ -306,7 +306,7 @@ public enum PageLayoutEvent
 {{< /highlight >}}
 
 
-### **Added public property CleanupOptions.DuplicateStyle**
+### Added public property CleanupOptions.DuplicateStyle
 
 A new public property DuplicateStyle has been added into the CleanupOptions class:
 
@@ -334,7 +334,7 @@ doc.Cleanup(options);
 doc.Save(outFileName);
 {{< /highlight >}}
 
-### **Added а new public method FontInfo.GetEmbeddedFontAsOpenType()**
+### Added а new public method FontInfo.GetEmbeddedFontAsOpenType()
 
 Related issue: WORDSNET-20249
 
@@ -351,7 +351,7 @@ A new method GetEmbeddedFontAsOpenType() has been added to FontInfo class. It al
 public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 {{< /highlight >}}
 
-### **New helper class to work with Watermark inside document was introduced**
+### New helper class to work with Watermark inside document was introduced
 
 Related issue: WORDSNET-4879.
 
@@ -559,7 +559,7 @@ public class ImageWatermarkOptions
 }
 {{< /highlight >}}
 
-##### **Use Case: Add Text watermark with specific options.**
+#### Use Case: Add Text watermark with specific options.
 
 **.NET**
 
@@ -601,7 +601,7 @@ if (doc.Watermark.Type == WatermarkType.Text)
 {{< /highlight >}}
 
 
-### **New public property Document.ShowGrammaticalErrors has been added**
+### New public property Document.ShowGrammaticalErrors has been added
 
 Related issue: WORDSNET-10404
 
@@ -627,7 +627,7 @@ doc.Save("out.doc");
 {{< /highlight >}}
 
 
-### **New public property Document.ShowSpellingErrors has been added**
+### New public property Document.ShowSpellingErrors has been added
 
 Related issue: WORDSNET-10403
 

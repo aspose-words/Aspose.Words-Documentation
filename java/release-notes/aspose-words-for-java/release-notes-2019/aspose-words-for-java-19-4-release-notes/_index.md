@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 19.4](https://reposi
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 - MailMerge performance improved.
 - Cold startup time improved by 10%.
@@ -35,7 +35,7 @@ This page contains release notes for [Aspose.Words for Java 19.4](https://reposi
 - Improved Keep With Next rule handling for paragraph splits.
 - Improved Keep Lines Together rule handling in presence of floaters.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -108,11 +108,11 @@ This page contains release notes for [Aspose.Words for Java 19.4](https://reposi
 |WORDSNET-11660|Table objects in MS Word are not shown in PDF rendition|Bug|
 |WORDSNET-18202|Problems with NodeImporter using ImportFormatMode KeepSourceFormatting|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 19.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
-### **Added a new ImportFormatOptions class for more flexible control over importing tasks**
+### Added a new ImportFormatOptions class for more flexible control over importing tasks
 
 Related issue:WORDSNET-14397 has now been resolved.
 
@@ -160,7 +160,7 @@ options.SmartStyleBehavior = true;
 builder.InsertDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 {{< /highlight >}}
 
-### **Changes in font resolving while loading HTML (SVG) document**
+### Changes in font resolving while loading HTML (SVG) document
 
 Related issue:WORDSNET-17383 has now been resolved:
 
@@ -193,7 +193,7 @@ Document doc = new Document(MyDir + "myfile.html", lo);
 
 The resulting model will contain 'UnknownFont1' as resolved font name for a paragraph from example. 
 
-### **API to change how text is vertically aligned within the Text Box**
+### API to change how text is vertically aligned within the Text Box
 
 Related issue:WORDSNET-17996 has now been resolved.
 
@@ -223,7 +223,7 @@ shape.TextBox.VerticalAnchor = TextBoxAnchor.Middle;
 
 Saving warnings will be thrown for unsupported formats (WordML) and for incompatible Word versions above 2007 (DOC, DOT).
 
-### **Added public property PdfSaveOptions.AdditionalTextPositioning**
+### Added public property PdfSaveOptions.AdditionalTextPositioning
 
 Related issue: WORDSNET-18027 has now been resolved.
 
@@ -247,7 +247,7 @@ public bool AdditionalTextPositioning
 }
 {{< /highlight >}}
 
-### **Added a new ImportFormatOptions.KeepSourceNumbering option for use in import operations**
+### Added a new ImportFormatOptions.KeepSourceNumbering option for use in import operations
 
 Related issue:WORDSNET-17534 has now been resolved.
 
@@ -295,7 +295,7 @@ foreach (Paragraph srcPara in srcParas)
 dstDoc.Save("output.docx");
 {{< /highlight >}}
 
-### **Added a new ImportFormatOptions.IgnoreTextBoxes option for use in import operations**
+### Added a new ImportFormatOptions.IgnoreTextBoxes option for use in import operations
 
 Related issue:WORDSNET-18202 has now been resolved.
 

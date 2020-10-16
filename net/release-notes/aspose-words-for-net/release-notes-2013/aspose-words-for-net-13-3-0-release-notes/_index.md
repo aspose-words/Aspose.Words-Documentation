@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 13.3.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 13.3 Release Notes**
+## Aspose.Words for .NET 13.3 Release Notes
 
-### **What's New**
+### What's New
 
 There are 97 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -27,7 +27,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 - Improved clipping of text boxes
 - Fixed issue with missing footnotes in complex page layout
 
-## **All Fixes**
+## All Fixes
 
 |Key|Summary|Category|
 | :- | :- | :- |

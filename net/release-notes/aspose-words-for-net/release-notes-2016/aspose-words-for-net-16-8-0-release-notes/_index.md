@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 16.8.0](https://www.
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 68 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -24,7 +24,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 - Hijri/Lunar, Hebrew Calendar Date Field option supported.
 - The analogue of NEXT fields is added to LINQ Reporting Engine.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -97,11 +97,11 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13997|Aspose Words 16.6 UpdateFields() and ExecuteWithRegions() Performance problem|Performance|
 |WORDSNET-14013|Value in calculated textbox is not exported to PDF with Aspose.Words|Regression|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 16.8.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **Added HtmlLoadOptions.SupportVml public property**
+### Added HtmlLoadOptions.SupportVml public property
 
 WORDSNET-6933 is resolved and we have added new public property to HtmlLoadOptions class:
 
@@ -117,7 +117,7 @@ public bool SupportVml
 }
 {{< /highlight >}}
 
-### **Added HtmlSaveOptions.ExportTextBoxAsSvg public property**
+### Added HtmlSaveOptions.ExportTextBoxAsSvg public property
 
 WORDSNET-10041 is resolved and we have added new public property to HtmlSaveOptions class:
 
@@ -137,7 +137,7 @@ public bool ExportTextBoxAsSvg
 }
 {{< /highlight >}}
 
-### **HtmlLoadOptions public class is introduced**
+### HtmlLoadOptions public class is introduced
 
 WORDSNET-6933 is resolved and HtmlLoadOptions class is a subclass of LoadOptions and should be used instead of LoadOptions whenever specific options are needed to be set when loading HTML document.
 Currently HtmlLoadOptions class has two properties:
@@ -177,7 +177,7 @@ htmlLoadOptions.WebRequestTimeout = 1000;
 Document doc = new Document("Test.html", htmlLoadOptions);
 {{< /highlight >}}
 
-### **WORDSNET-13188 Changes in save options of fixed page formats**
+### WORDSNET-13188 Changes in save options of fixed page formats
 
 \1. Now all save option classes of fixed page formats (HtmlFixedSaveOptions, ImageSaveOptions, PdfSaveOptions, PsSaveOptions, SvgSaveOptions, SwfSaveOptions, XamlFixedSaveOptions and XpsSaveOptions) are inherited from the new public abstract class FixedPageSaveOptions.
 
@@ -210,6 +210,6 @@ public int JpegQuality { get; set; }
 
 Jpeg quality was 100 for the XAML and XPS formats in the previous version. Now its default value is 95 to unify with the other formats (except PDF).
 
-### **The analogue of NEXT fields is added to LINQ Reporting Engine**
+### The analogue of NEXT fields is added to LINQ Reporting Engine
 
 The "[Forcing Movement to Next Item within Data Band](https://docs.aspose.com/words/net/template-syntax/#forcing-movement-to-next-item-within-data-band)" section of the engine's documentation was added to describe the change

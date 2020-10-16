@@ -7,7 +7,7 @@ url: /net/specify-layout-options/
 
 Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
 
-## **Formatting Marks**
+## Formatting Marks
 
 Aspose.Words allows to manage formatting marks using the following properties:
 
@@ -22,7 +22,7 @@ In Microsoft Word, these parameters are set using the "File → Options → Disp
 
 ![todo:image_alt_text](specify-layout-options_2.jpg)
 
-## **Comments and Revisions**
+## Comments and Revisions
 
 With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/showcomments) property.
 
@@ -40,7 +40,7 @@ The image below shows how Aspose.Words renders comments and the Delete revisions
 
 ![todo:image_alt_text](specify-layout-options_4.png)
 
-## **Text Shaper for Advanced Typography Rendering**
+## Text Shaper for Advanced Typography Rendering
 
 The [TextShaperFactory](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/textshaperfactory) property enables you to set the text shaping functionality, as well as the OpenType features support.
 

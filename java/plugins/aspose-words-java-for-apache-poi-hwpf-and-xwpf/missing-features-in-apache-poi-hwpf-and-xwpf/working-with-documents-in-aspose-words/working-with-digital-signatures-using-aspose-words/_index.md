@@ -5,7 +5,7 @@ weight: 100
 url: /java/working-with-digital-signatures-using-aspose-words/
 ---
 
-## **Aspose.Words - Working with Digital Signatures**
+## Aspose.Words - Working with Digital Signatures
 
 A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
 
@@ -28,12 +28,12 @@ else
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/asposefeatures/workingwithdocument/workingwithdigitalsignature/AsposeDigitalSignatures.java)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/asposefeatures/workingwithdocument/workingwithdigitalsignature/AsposeDigitalSignatures.java)

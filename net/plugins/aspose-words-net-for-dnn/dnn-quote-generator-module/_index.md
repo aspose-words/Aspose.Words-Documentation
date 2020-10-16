@@ -5,13 +5,13 @@ weight: 10
 url: /net/dnn-quote-generator-module/
 ---
 
-## **Introduction**
+## Introduction
 
 Aspose .NET Quote Generator for DNN is an open source module from Aspose that enable users to generate Quotations in your DNN website without requiring any other software. It uses the powerful features of Aspose.Words for .NET to allow you to easily generate quotations.
 
 This initial version of the module is enriched with the following features to make the quote generating process effective, simple and easy to use.
 
-### **Module Features**
+### Module Features
 
 - Generate quotations with MailMerged template
 - Allow to edit quotation document title, reference #, generating date
@@ -29,7 +29,7 @@ This initial version of the module is enriched with the following features to ma
 - Mail Merge Template is already created and placed in template folder in the package and will be used to export the quotation in a pre-defined MailMerge template.
 - Allow to export quotation to PDF (**.Pdf), MS Word 2003-2007 (**.Doc), Office Open XML WordprocessingML (**.Docx), ODF Text Document (**.Odt), Tiff Image/s (**.Tiff), JPEG Image (**.Jpeg), PNG Image (*.Png).
 
-### **Aspose.Words Features**
+### Aspose.Words Features
 
 - Simple MailMerge
 - Data Table MailMerge
@@ -41,7 +41,7 @@ This initial version of the module is enriched with the following features to ma
 
 ![todo:image_alt_text](dnn-quote-generator-module_1.png)
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
 In order to setup Aspose.Words .NET for DNN modules you need to have the following requirements met:
 
@@ -50,7 +50,7 @@ In order to setup Aspose.Words .NET for DNN modules you need to have the followi
 
 Please feel free to contact us if you wish to install these modules on other versions of DNN.
 
-## **Downloading**
+## Downloading
 
 You can download Quote Generator modules from one of the following locations
 
@@ -58,7 +58,7 @@ You can download Quote Generator modules from one of the following locations
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/DNNQuoteGeneratorModule)
 - [DNN Store](http://store.dnnsoftware.com/home/product-details/aspose-net-dnn-quote-generator-module-using-aspose-words-for-net)
 
-## **Installing**
+## Installing
 
 Once downloaded, please follow these steps to install the module into your DNN website:
 
@@ -70,7 +70,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 
 **Note:** If you get an error while uploading the module this is due to the maxRequestLength limit in your DNN installation’s web.config. Open web.config and update maxRequestLength to 20MB by setting **maxRequestLength=”20480″** and try to upload the module again.
 
-## **Using**
+## Using
 
 After you have installed Aspose .NET Quote Generator Module for DNN Module it is really simple to start using it on your website. Please follow these simple steps to get started
 
@@ -94,7 +94,7 @@ You have successfully added Aspose .NET Quote Generator module to your page. You
 1. Enter Quotation description/details And Terms & Conditions to display
 1. Option either to ‘Clear Form Fields’ OR Select Export File Format’ from List
 
-### **How to apply Aspose License?**
+### How to apply Aspose License?
 
 This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
@@ -102,13 +102,13 @@ To remove evaluation message and feature limitations, product license should be 
 - Make sure the license file is named as **Aspose.Words.lic**
 - Place **Aspose.Words.lic** file in **App_Data** folder of your DNN website e.g. "DNN Root Folder/App_Data/Aspose.Words.lic"
 
-## **Video Demo**
+## Video Demo
 
 Please check [the video](https://www.youtube.com/watch?v=rY2LVNJewbM) below to see the module in action.
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
@@ -120,11 +120,11 @@ You can log any issues or suggestions related to Aspose.Words .NET for DNN Modu
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-DNN-Quote-110ad750/view/Discussions#content)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 Aspose .NET Quote Generator for DNN module is an open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 
-#### **Source Code**
+#### Source Code
 
 You can get the latest source code from one of the following locations
 
@@ -132,7 +132,7 @@ You can get the latest source code from one of the following locations
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
 - [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-DNN-Quote-110ad750)
 
-#### **How to configure the source code**
+#### How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 

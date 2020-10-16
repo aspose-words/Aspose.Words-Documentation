@@ -5,7 +5,7 @@ weight: 40
 url: /net/working-with-documents-in-aspose-words/
 ---
 
-###### **This section includes the following topics:** 
+## This section includes the following topics: 
 
 - [Add Watermark](https://docs.aspose.com/words/net/add-watermark/)
 - [Append Documents](https://docs.aspose.com/words/net/append-documents-html/)

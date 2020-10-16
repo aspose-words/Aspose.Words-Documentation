@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 20.7](https://downlo
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 91 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -20,7 +20,7 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 - RevisionOptions class is extended with new properties.
 - Improved performance of SmartArt cold rendering.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -116,11 +116,11 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-20533|Multi-Threaded Errors with mail merge|Bug|
 |WORDSNET-16907|Incorrect line breaks push some content to the next page in PDF|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### **Added a new public property MailMerge.RetainFirstSectionStart**
+### Added a new public property MailMerge.RetainFirstSectionStart
 
 Related issue: WORDSNET-20480
 
@@ -150,7 +150,7 @@ document.MailMerge.Execute(dataSource);
 {{< /highlight >}}
 
 
-### **Added a new value to public enumeration WarningSource**
+### Added a new value to public enumeration WarningSource
 
 Related issue: WORDSNET-20334
 
@@ -184,7 +184,7 @@ foreach (WarningInfo warningInfo in warnings)
 {{< /highlight >}}
 
 
-### **Added public property MeasurementUnit in RevisionOptions**
+### Added public property MeasurementUnit in RevisionOptions
 
 Related issue: WORDSNET-20487
 
@@ -246,7 +246,7 @@ doc.LayoutOptions.ShowComments = true;
 doc.Save(myDir +"Output.pdf");
 {{< /highlight >}}
 
-### **Added public property RevisionBarsPosition in RevisionOptions**
+### Added public property RevisionBarsPosition in RevisionOptions
 
 Related issue: WORDSNET-20415, WORDSNET-19724
 
@@ -274,7 +274,7 @@ doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Rig
 doc.Save(myDir +"Output.pdf");
 {{< /highlight >}}
 
-### **Added two new nodes to handle multi-section Structured Document Tags**
+### Added two new nodes to handle multi-section Structured Document Tags
 
 Related issue: WORDSNET-15659
 

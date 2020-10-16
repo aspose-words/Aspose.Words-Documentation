@@ -5,7 +5,7 @@ weight: 80
 url: /net/php-and-aspose-words-for-net/
 ---
 
-#### **Prerequisites**
+## Prerequisites
 
 {{% alert color="primary" %}} 
 
@@ -15,7 +15,7 @@ Also See [Using Aspose.Words for .NET via COM Interop](/words/net/use-aspose-wor
 
 {{% /alert %}} 
 
-#### **Hello World!**
+### Hello World!
 
 This is a simple application that creates an empty document, inserts some content and saves it as a Microsoft Word .DOC document.
 
@@ -31,7 +31,7 @@ $doc->Save("C:\\Temp\\out.doc");
 ?>
 {{< /highlight >}}
 
-#### **Simple Mail Merge**
+#### Simple Mail Merge
 
 Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
 
@@ -58,7 +58,7 @@ $rs->Close();
 ?>
 {{< /highlight >}}
 
-#### **Save or Convert a Document**
+#### Save or Convert a Document
 
 With Aspose.Words, you can save a document in a variety of formats. For the full list of formats and identifiers see the SaveFormat enumeration.
 

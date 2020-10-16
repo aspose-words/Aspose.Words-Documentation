@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 20.9](https://downlo
 
 {{% /alert %}} 
 
-## **Major Features**
+## Major Features
 
 There are 82 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -20,7 +20,7 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 - Implemented rendering of metafiles with EMF+ containers.
 - The FormField font formatting API was extended.
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -107,11 +107,11 @@ There are 82 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-3493	|Checkboxes are rendered incorrectly|Bug|
 |WORDSNET-4066	|Incorrect floating table position|Bug|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 20.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
-### **Changed the behavior of the FormField.Font property**
+### Changed the behavior of the FormField.Font property
 
 Related issue: WORDSNET-522
 Changed the behavior of the 'FormField.Font' property.
@@ -126,7 +126,7 @@ doc.Range.FormFields[0].Font.Color = Color.Red;
 doc.Save("out.doc");
 {{< /highlight >}}
 
-### **Deprecated find replace algorithm returned for compatibility reason**
+### Deprecated find replace algorithm returned for compatibility reason
 
 Related issue: WORDSNET-21018
 Following member has been added to FindReplaceOptions class
@@ -141,7 +141,7 @@ Following member has been added to FindReplaceOptions class
 public bool LegacyMode { get; set; }
 {{< /highlight >}}
 
-### **VbaReferenceCollection and related types are exposed publicly**
+### VbaReferenceCollection and related types are exposed publicly
 
 Related issue: WORDSNET-13678
 

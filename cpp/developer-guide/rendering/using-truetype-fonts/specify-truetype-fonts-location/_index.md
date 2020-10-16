@@ -17,7 +17,7 @@ The [FontSourceBase](https://apireference.aspose.com/words/cpp/class/aspose.wor
 
 Implementation details for some classes are explained below.
 
-## **Loading Fonts from System**
+## Loading Fonts from System
 
 There is a special [SystemFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.system_font_source/) class that is always used by default. It represents all TrueType fonts installed on the system. Therefore, it is possible to create a source list with **SystemFontSource** and any other required sources:
 
@@ -27,7 +27,7 @@ A single instance of the **SystemFontSource** class is defined by default in 
 
 Per-document instances are needed only if it is required to use different font sources for different documents, which is a rare case. Using several **FontSettings** instances decreases performance because they do not share the cache.
 
-### **Where Aspose.Words Looks for TrueType Fonts on Windows**
+### Where Aspose.Words Looks for TrueType Fonts on Windows
 
 In most cases, Windows users do not face significant problems with missed fonts or incorrect layouts. Typically, Aspose.Words goes through a document, and when it encounters a font’s link, it successfully fetches the font data from the system folder.
 
@@ -44,21 +44,21 @@ Aspose.Words rendering on a server will typically not work with an ASP.NET appli
 
 {{% /alert %}} 
 
-### **Fonts on Non-Windows Systems**
+### Fonts on Non-Windows Systems
 
 Aspose.Words will look for the fonts in the system font folders. A list of these folders may be seen by the [GetSystemFontFolders](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.system_font_source/#aeb59aa95f063407f5fa92d22ed29a743) method. If no supported fonts are found, Aspose.Words will use the built-in default font Fanwood.ttf.
 
 Since the font metrics of Windows and non-Windows OS are different, Aspose.Words does everything possible to find a similar font and build a layout similar to the original. However, this is not always possible. In these cases, the **FontSettings** class should be used to add custom fonts or substitution rules.
 
-#### **Where Aspose.Words Looks for TrueType Fonts on Linux**
+#### Where Aspose.Words Looks for TrueType Fonts on Linux
 
 Different Linux distributions may store fonts in different folders. Aspose.Words looks for fonts in several locations. By default, Aspose.Words looks for the fonts in all of the following locations: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsThis default behavior will work for most Linux distributions, but it is not guaranteed to work all of the time, in which case you might need to specify the location of true type fonts explicitly. To do this, you need to know where TrueType fonts are installed on your Linux distribution.
 
-#### **Where Aspose.Words Looks for TrueType Fonts on Mac OS X**
+#### Where Aspose.Words Looks for TrueType Fonts on Mac OS X
 
 Aspose.Words looks for fonts in the /Library/Fonts folder, which is the standard location for TrueType fonts on Mac OS X. While this setting will work for you most of the time, you may need to specify your own fonts folders in the case when you need to.
 
-#### **TrueType Fonts on Android**
+#### TrueType Fonts on Android
 
 On Android, fonts workflow is encapsulated in Typeface class.
 There are five types of typefaces, each typeface represents a group of similar font families:
@@ -114,7 +114,7 @@ fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitute
 
 If none of the rules worked, Aspose.Words check the internal replacement table. If the table contains information about a good fit then the font gets replaced. In our case Aspose.Words will select Typeface.SERIF. But if the table doesn’t know anything about the requested font then Aspose.Words picks up a font based on special MS Word rules or the closest distance in Panose space.
 
-#### **TrueType Fonts on .NET Core and Xamarin**
+#### TrueType Fonts on .NET Core and Xamarin
 
 For .NET Core and Xamarin the same rule applies as for Aspose.Words for Java version. By default, all system fonts of the platform on which the application runs are available.
 The list of folders where the search will be performed can be found by calling the method:
@@ -125,11 +125,11 @@ The list of folders where the search will be performed can be found by calling t
 SystemFontSource()->GetAvailableFonts()
 {{< /highlight >}}
 
-## **Loading Fonts from Folder**
+## Loading Fonts from Folder
 
 If the document being processed contains links to fonts that are not on the system, or you don't want to add them to the system folder, or you lack permissions, then the best solution would be to add a folder with your own fonts using the [SetFontsSources](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#a4815c34e68e313bc3f6d8eb7ca6097d6) method. This will allow replacing the system source with a user source. Aspose.Words will no longer look for fonts in the registry or Windows\Font folder and instead only scan for fonts within the specified folder(s). The [GetFontSources](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#ae6f47148d3dec9f25d37791827cf8ab2) method will return the corresponding values.
 
-### **Specifying One or Multiple Font Folders**
+### Specifying One or Multiple Font Folders
 
 The [SetFontsFolder](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#a8bcec110d6e03e87c99810568a2c40dd) and [SetFontsFolders](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#a66a5ccb047523fb9f312dd35ef3aa920) methods are shortcuts to the **SetFontSources** method with one or several [FolderFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.folder_font_source/) instances. These methods are used to indicate where Aspose.Words should look for fonts. If a folder does not exist or is not accessible, Aspose.Words just ignores this folder. If all folders, including sources for the font substitution, were ignored, Aspose.Words will use Fanwood font as a default.
 
@@ -161,7 +161,7 @@ fontSettings->SetFontsFolder(u"C:\\MyFonts\\", true);
 {{< /highlight >}}
 
 
-### **Priority Property**
+### Priority Property
 
 The [Priority](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_source_base/#abba3fb9827af183660bb750252ec78f6) property is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value. For example, there is an old version of the font on the system folder and the customer added a new version of the same font in a custom folder.
 
@@ -171,7 +171,7 @@ The [Priority](https://apireference.aspose.com/words/cpp/class/aspose.words.fon
 System::SharedPtr<FolderFontSource> folderFontSource = System::MakeObject<FolderFontSource>(u"C:\\MyFonts\\", true, 1);
 {{< /highlight >}}
 
-## **Loading Fonts from Stream**
+## Loading Fonts from Stream
 
 Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/#af64ded16125328a45fdaee65f193f748) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) lifetime.
 
@@ -179,7 +179,7 @@ Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/wo
 
 **StreamFontSource** is an alternative to [MemoryFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.memory_font_source/) since it is always possible to load a stream to memory and pass it to **MemoryFontSource**. The difference is that the **MemoryFontSource** is stored in the memory all the time, and the **StreamFontSource** is loaded on demand and disposed of right away. But it may be loaded several times, as described above. In some cases **MemoryFontSource** is preferable, and in others, **StreamFontSource**.
 
-## **Getting a List of Available Fonts**
+## Getting a List of Available Fonts
 
 If you want to get the list of available fonts, which, for example, can be used to render a PDF document, you can use the [GetAvailableFonts](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_source_base/#a9629a582d71e31ca263840460405398f) method, as shown in the following code example. The [PhysicalFontInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.physical_font_info) class specifies information about the physical font available to Aspose.Words font engine:
 

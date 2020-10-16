@@ -5,7 +5,7 @@ weight: 70
 url: /net/change-or-replace-header-and-footer/
 ---
 
-### **OpenXML SDK**
+## OpenXML SDK
 
 {{< highlight csharp >}}
 
@@ -107,7 +107,7 @@ part.Footer = footer1;
 }
 {{< /highlight >}}
 
-### **Aspose.Words**
+### Aspose.Words
 
 {{< highlight csharp >}}
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -136,7 +136,7 @@ public static void ChangeHeader(string documentPath)
 }
 {{< /highlight >}}
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)

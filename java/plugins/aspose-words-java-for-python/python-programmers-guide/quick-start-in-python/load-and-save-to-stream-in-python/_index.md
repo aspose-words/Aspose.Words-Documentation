@@ -5,7 +5,7 @@ weight: 60
 url: /java/load-and-save-to-stream-in-python/
 ---
 
-## **Aspose.Words - Load And Save To Stream**
+## Aspose.Words - Load And Save To Stream
 
 **Python Code**
 
@@ -30,7 +30,7 @@ output.write(dstStream.toByteArray())
 output.close()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Load And Save To Stream (Aspose.Words)** from any of the below mentioned social coding sites:
 

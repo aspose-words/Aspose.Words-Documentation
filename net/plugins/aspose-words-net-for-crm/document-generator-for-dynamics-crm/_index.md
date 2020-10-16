@@ -21,7 +21,7 @@ url: /net/document-generator-for-dynamics-crm/
   - [Support](#DocumentGeneratorforDynamicsCRM-Support)
   - [Extend and Contribute](#DocumentGeneratorforDynamicsCRM-ExtendandContribute)
 
-## **Introduction**
+## Introduction
 
 The Aspose Document Generator is an open-source add-on to be used in Microsoft Dynamic CRM. This add-on is capable of automatically generate a document using a template defined. One-click will generate a document for individual contact based on the template selected. This can be used with all versions of Microsoft Dynamics CRM 2011.
 Major features of this Addon are:
@@ -32,9 +32,9 @@ Major features of this Addon are:
 - Allow users to Add Lookup fields in the templates.
 - Provided a separate button that will trigger the Dialog automatically.
 
-## **System Requirements and Supported Platforms**
+## System Requirements and Supported Platforms
 
-### **System Requirements**
+### System Requirements
 
 In order to install and use Aspose .Net Document Generator for Microsoft Dynamics CRM, you need to have one of the following CRM version installed
 
@@ -43,7 +43,7 @@ In order to install and use Aspose .Net Document Generator for Microsoft Dynamic
 - Microsoft Dynamics CRM Online.
   Please feel free to contact us if you find any issues in installing or using this Add-on.
 
-### **Supported Platforms**
+### Supported Platforms
 
 This addon will work with all version of Microsoft Dynamics CRM:
 
@@ -51,7 +51,7 @@ This addon will work with all version of Microsoft Dynamics CRM:
 - Microsoft Dynamics CRM 2015.
 - Microsoft Dynamics CRM Online.
 
-## **Downloading**
+## Downloading
 
 You can download Aspose .NET Document Generator for CRM from one of the following locations:
 
@@ -61,9 +61,9 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 - [Bitbucket](http://goo.gl/ngjuJg)
 - [Code.MSDN](http://goo.gl/bqPhfr)
 
-## **Installing or Uninstalling**
+## Installing or Uninstalling
 
-### **How to Install**
+### How to Install
 
 - Copy Aspose.Words.dll into CRM installation directory under the CRMWeb/Bin folder.
 - Download the Solution and place it on your hard disk.
@@ -83,7 +83,7 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 
 ![todo:image_alt_text](document-generator-for-dynamics-crm_4)
 
-### **Applying License**
+### Applying License
 
 - Copy the license file on the server and copy the path of the file.
 - Recommended: "C:\Aspose\Aspose.Total.Lic"
@@ -102,7 +102,7 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 
 - Activate the Process and Close it.
 
-### **How to Uninstall**
+### How to Uninstall
 
 - Go To Solution and select Aspose .Net Document Generator. 
 
@@ -112,13 +112,13 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 
 ![todo:image_alt_text](document-generator-for-dynamics-crm_9)
 
-## **Using**
+## Using
 
 Easily configure and Use Aspose .NET Document Generator for Dynamics CRM by following the instructions [here](https://docs.aspose.com/words/net/using-and-configuring-crm-document-generator/).
 
-## **Support, Extend and Contribute**
+## Support, Extend and Contribute
 
-### **Support**
+### Support
 
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
@@ -130,7 +130,7 @@ You can log any issues or suggestions related to Aspose .NET Document Generator 
 - [Bitbucket](http://goo.gl/ngjuJg)
 - [Code.MSDN](http://goo.gl/bqPhfr)
 
-### **Extend and Contribute**
+### Extend and Contribute
 
 You can download the latest source code at:
 

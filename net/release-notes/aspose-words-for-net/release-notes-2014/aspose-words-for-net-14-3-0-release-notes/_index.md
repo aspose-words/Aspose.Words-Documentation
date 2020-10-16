@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for .NET 14.3.0](https://www.
 
 {{% /alert %}} 
 
-## **Aspose.Words for .NET 14.3 Release Notes**
+## Aspose.Words for .NET 14.3 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 88 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -22,7 +22,7 @@ There are 88 improvements and fixes in this regular monthly release. The most no
 - EUDC fonts rendering partially supported
 - “PDF Logical Structure” export reworked, significantly improving memory usage
 
-## **All Changes**
+## All Changes
 
 |Key|Summary|Category|
 | :- | :- | :- |

@@ -17,13 +17,13 @@ There are 3 versions of Windows Metafile:
 
 The existing issue with Windows Metafile is that it is not supported by most non-Word formats, to which documents are usually saved. Therefore, it is required to convert the Metafile format to other raster or vector formats. It is easy to convert Windows Metafile to raster image on .NET by simply passing it to GDI+, but it is not possible on other platforms since even GDI+ does not provide the functionality to extract the vector graphics from Metafile. To solve these issues, Aspose.Words implements its own Windows Metafile player, which is able to play Metafile format both vector and raster graphics on all platforms.
 
-## **Controlling the Aspose.Words Metafile Player**
+## Controlling the Aspose.Words Metafile Player
 
 The [MetafileRenderingOptions](https://apireference.aspose.com/net/words/aspose.words.saving/metafilerenderingoptions) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/net/words/aspose.words.saving/metafilerenderingoptions/properties/renderingmode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/net/words/aspose.words.saving/imagesaveoptions/properties/metafilerenderingoptions) property).
 
 Saving to a bitmap works differently on platforms other than .NET. While .NET GDI+ rendering is a reference that works almost perfect even for the most complex metafile format, on other platforms it may cause issues or not be supported at all.
 
-## **Supporting Raster Operations**
+## Supporting Raster Operations
 
 Raster operations is a complex metafile feature, that currently has limited support. Raster operations are available in WMF and EMF metafile formats. The EMF+ metafile format does not use raster operations directly but can contain EMF parts, embedded WMF or EMF metafiles.
 
@@ -49,7 +49,7 @@ The example shown below demonstrates how Aspose.Words renders a metafile to a bi
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-RenderMetafileToBitmap.cs" >}}
 
-## **Metafile Fallback Settings**
+## Metafile Fallback Settings
 
 Aspose.Words does not support a number of metafile features that are most complex or rare. Users can implement the [IWarningCallBack](https://apireference.aspose.com/net/words/aspose.words/iwarningcallback/methods/index) interface and receive warning messages. If Aspose.Words encounters unsupported features in a metafile, it issues a warning message with [WarningSource](https://apireference.aspose.com/net/words/aspose.words/warningsource).**Metafile**. In this case Aspose.Words may perform fallback to a different type of metafile player. The warning message regarding fallback is also issued.
 

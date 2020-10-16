@@ -5,7 +5,7 @@ weight: 10
 url: /java/add-watermark-in-php/
 ---
 
-## **Aspose.Words - Add Watermark**
+## Aspose.Words - Add Watermark
 
 **Php Code**
 

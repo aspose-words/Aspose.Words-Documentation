@@ -5,7 +5,7 @@ weight: 60
 url: /net/protect-documents/
 ---
 
-## **Aspose.Words - Protect Documents**
+## Aspose.Words - Protect Documents
 
 Use the **Document.Protect(ProtectionType)** method to protect a document from changes. This method accepts a **ProtectionType** parameter and optionally a password by passing one as the second parameter **Document.Protect(ProtectionType, String)**.
 
@@ -27,7 +27,7 @@ doc.Protect(ProtectionType.ReadOnly);
 doc.Save("AsposeProtect.doc", SaveFormat.Doc);
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Protect Documents (Aspose.Words)** form any of the below mentioned social coding sites:
 

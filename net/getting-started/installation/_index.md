@@ -5,13 +5,13 @@ weight: 90
 url: /net/installation/
 ---
 
-## **Installing Aspose.Words for .NET through NuGet**
+## Installing Aspose.Words for .NET through NuGet
 
 NuGet is the easiest way to download and install [Aspose APIs for .NET](https://www.nuget.org/profiles/Aspose). Open Microsoft Visual Studio and NuGet package manager. Search "aspose" to find the desired Aspose API. Click on "Install", the selected API will be downloaded and referenced in your project.
 
 ![todo:image_alt_text](installation_1.png)
 
-### **Install or Update Aspose.Words using the Package Manager Console**
+### Install or Update Aspose.Words using the Package Manager Console
 
 You can follow the steps below to reference the [Aspose.Words API](https://www.nuget.org/packages/Aspose.Words/) using the package manager console:
 
@@ -38,7 +38,7 @@ You should now find that Aspose.Words has successfully been added and referenced
 
 In the package manager console, you can also use the command “**Update-Package Aspose.Words**” and press enter to check for any updates to the Aspose.Words package and install them if present. You can also add the "-prerelease" suffix to update the latest release.
 
-## **Installing Aspose.Words for .NET through Installer**
+## Installing Aspose.Words for .NET through Installer
 
 Aspose.Words for .NET can be installed by direct downloading the MSI installer from the [downloads section](https://downloads.aspose.com/words/net). You must be logged in to download the installer. If you are not already registered then you may signup for free.
 
@@ -56,7 +56,7 @@ Please follow the steps below:
 ![todo:image_alt_text](installation_10.png)<br>
 1. Finally, click OK.
 
-## **Considerations When Running on a Shared Server Environment**
+## Considerations When Running on a Shared Server Environment
 
 All Aspose .NET components are recommended to run with Full Trust permission set. This is because Aspose .NET component sometimes needs to access registry settings and files located in places other than the virtual directory e.g. for reading fonts etc. Furthermore, Aspose.NET components are based on core .NET system classes, some of which also require Full Trust permission to run in some cases.
 

@@ -14,7 +14,7 @@ To ensure Aspose.Words accurately measures the characters and successfully embed
 
 Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the TrueType font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This enables certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
 
-## **Font Manipulation and Performance Issues**
+## Font Manipulation and Performance Issues
 
 All available font manipulation mechanisms are contained in the [FontSettings](https://apireference.aspose.com/java/words/com.aspose.words/FontSettings) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
 
@@ -48,7 +48,7 @@ The custom **FontSettings** have higher priority than the default instance.
 
 {{% /alert %}} 
 
-## **Font Availability and Substitution**
+## Font Availability and Substitution
 
 A text in a document can be formatted with various fonts, such as Arial, Times New Roman, Verdana, and others. When Aspose.Words renders a document, it attempts to select the fonts that are specified in the document.
 
@@ -125,7 +125,7 @@ If **FontInfo** is available, the *FontInfo substitution rule* will always reso
 
 {{% /alert %}} 
 
-## **How to Recognize That the Font Was Replaced**
+## How to Recognize That the Font Was Replaced
 
 Sometimes, it may be unclear why the document layout has changed, or why some font does not look as expected. In such cases, font substitution warnings messages implemented by the [IWarningCallback](https://apireference.aspose.com/java/words/com.aspose.words/IWarningCallback) interface come to rescue. They have the [FontSubstitution](https://apireference.aspose.com/java/words/com.aspose.words/warningtype#FONT_SUBSTITUTION) warning type and the standard description text format, "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: <Reason>", with the following reasons:
 
@@ -136,7 +136,7 @@ Sometimes, it may be unclear why the document layout has changed, or why some fo
 - "default font substitution" – for substitution by default font rule
 - "first available font" – for substitution with first available font
 
-## **Font FallBack Settings from XML**
+## Font FallBack Settings from XML
 
 There are two different mechanisms used in Aspose.Words — Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. The Font fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
 
@@ -200,7 +200,7 @@ In the above code example, the following XML file is used:
 </FontFallbackSettings>
 {{< /highlight >}}
 
-## **Predefined Font FallBack Settings for Google Noto Fonts**
+## Predefined Font FallBack Settings for Google Noto Fonts
 
 Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a [LoadNotoFallbackSettings](https://apireference.aspose.com/java/words/com.aspose.words/fontfallbacksettings#loadNotoFallbackSettings\(\)) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
 
@@ -212,11 +212,11 @@ Only Sans style Noto fonts with regular weight are used in predefined settings.
 
 {{% /alert %}} 
 
-## **Where Aspose.Words Looks for Fonts**
+## Where Aspose.Words Looks for Fonts
 
 Aspose.Words attempts to find TrueType fonts on the file system automatically. Usually, you can rely on the default behavior of Aspose.Words to find the TrueType fonts, but sometimes you need to specify your own folders containing TrueType fonts. The ["Specify TrueType Fonts Location"](https://docs.aspose.com/words/java/specify-truetype-fonts-location/) topic describes how and where Aspose.Words looks for fonts, as well as how to specify your own font locations.
 
-## **Differences in Processing of Font Formats in Aspose.Words and Microsoft Word**
+## Differences in Processing of Font Formats in Aspose.Words and Microsoft Word
 
 There are some differences in the processing of font formats in Aspose.Words and Microsoft Word as shown in the table below:
 
@@ -227,7 +227,7 @@ There are some differences in the processing of font formats in Aspose.Words and
 |OpenType Font Variations|Only named instances are supported. Continuous variations not supported.|Supported for the only default instance. Named instances and continuous variations are not supported.|
 |Type1 fonts|Supported on Windows versions prior to 2013 and on MacOS versions. Support is dropped on Windows versions starting from 2013.|Not supported.|
 
-## **Typical Font-Related Problems and Solutions**
+## Typical Font-Related Problems and Solutions
 
 The table below provides typical problems with rendering documents to PDF and XPS via Aspose.Words, as well as their respective solutions.
 
@@ -239,7 +239,7 @@ The table below provides typical problems with rendering documents to PDF and XP
 |Complex script text, such as Thai or Hebrew, may be displayed inaccurately for some reason, for example, the wrong position for diacritics, inaccurate ligatures.|Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default.|Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/java/words/com.aspose.words/layoutoptions#TextShaperFactory).|
 When copying fonts, keep in mind that most fonts are copyrighted. Locate font licenses beforehand, and verify that they can be freely transferred to another machine.
 
-## **See Also**
+## See Also
 
 - [Google Noto Fonts](https://www.google.com/get/noto/) to download free fonts.
 

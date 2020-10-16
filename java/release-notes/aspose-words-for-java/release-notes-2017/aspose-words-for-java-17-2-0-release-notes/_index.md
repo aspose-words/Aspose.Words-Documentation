@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Java 17.2.0](http://maven
 
 {{% /alert %}}
 
-## **Major Features**
+## Major Features
 
 There are 51 improvements and fixes in this regular monthly release. The most notable are:
 
@@ -22,7 +22,7 @@ There are 51 improvements and fixes in this regular monthly release. The most no
 - Improved control over BiDi text direction elements
 - Non-bidi fields that contain hided bidi whitespaces are properly resolved
 
-## **Full List of Issues Covering all Changes in this Release**
+## Full List of Issues Covering all Changes in this Release
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -78,11 +78,11 @@ There are 51 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-5645|Expose (Height/Width) access to Text Frames|Feature|
 |WORDSNET-6833|OutOfMemoryException occurs during rendering DOCX to PDF|Performance|
 
-## **Public API and Backward Incompatible Changes**
+## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 17.2.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
-### **WORDSNET-14589 and WORDSNET-14590 - Added Public Properties HtmlSaveOptions.ResourceFolder and HtmlSaveOptions.ResourceFolderAlias**
+### WORDSNET-14589 and WORDSNET-14590 - Added Public Properties HtmlSaveOptions.ResourceFolder and HtmlSaveOptions.ResourceFolderAlias
 
 New public properties ResourceFolder and ResourceFolderAlias are added into the HtmlSaveOptions class:
 
@@ -367,7 +367,7 @@ C:\Resouces\Test.calibril.ttf
 C:\Resouces\MyStyleSheet.css
 {{< /highlight >}}
 
-### **WORDSNET-14762 - Added Public Property HtmlSaveOptions.ExportFontsAsBase64.**
+### WORDSNET-14762 - Added Public Property HtmlSaveOptions.ExportFontsAsBase64.
 
 New public property ExportFontsAsBase64 is added into the HtmlSaveOptions class:
 

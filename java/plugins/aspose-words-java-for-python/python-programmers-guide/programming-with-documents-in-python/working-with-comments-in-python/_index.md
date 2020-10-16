@@ -5,7 +5,7 @@ weight: 30
 url: /java/working-with-comments-in-python/
 ---
 
-## **Aspose.Words - Process Comments**
+## Aspose.Words - Process Comments
 
 **Python Code**
 
@@ -16,7 +16,7 @@ doc = Document("data/TestFile.doc")
 comments = doc.getChildNodes(self.nodeType.COMMENT, True).toArray()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Process Comments (Aspose.Words)** form any of the below mentioned social coding sites:
 

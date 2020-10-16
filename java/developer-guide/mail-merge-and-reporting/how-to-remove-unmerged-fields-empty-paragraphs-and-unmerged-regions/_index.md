@@ -5,7 +5,7 @@ weight: 90
 url: /java/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/
 ---
 
-## **How to Remove Unmerged Fields and Empty Paragraphs during Mail Merge**
+## How to Remove Unmerged Fields and Empty Paragraphs during Mail Merge
 
 When merging data into a document you often require control over how unmerged merge fields are removed from a document. For instance you may want to have any leftover merge fields removed, along with any surrounding fields. You may also wish to remove any paragraphs that become empty during mail merge. The [MailMergeCleanupOptions](http://www.aspose.com/api/java/words/com.aspose.words/constants/MailMergeCleanupOptions) property is used along with the [MailMergeCleanupOptions](http://www.aspose.com/api/java/words/com.aspose.words/constants/MailMergeCleanupOptions) enumeration to specify different options on how the mail merge engine deals with such left over merge fields.
 
@@ -21,11 +21,11 @@ Given that the *Amount* field was not merged with any data:
 
 It’s useful to note that if you are merging data using separate data sources then these options should be enabled only on the last execute call. This is so no fields or regions are prematurely removed from the document.
 
-### **Removing Merge Fields**
+### Removing Merge Fields
 
 You can request the mail merge engine to remove any unused mail merge fields automatically during mail merge by applying the MailMergeCleanupOptions.RemoveUnusedFields flag to MailMerge.CleanupOptions.
 
-### **Removing Containing Fields**
+### Removing Containing Fields
 
 Commonly a merge field can be contained within another field such as an IF field or a formula field. Aspose.Words provides an option to remove this outer field when the merge field is merged or removed from the document. To remove such containing fields you can enable the MailMergeCleanupOptions.RemoveContainingFields flag with MailMerge.CleanupOptions.
 This option is used to match the behavior of Microsoft Word during mail merge which always automatically removes outer fields from a field which is merged and leaves only the plain text result.
@@ -36,7 +36,7 @@ Note that this option will only remove a containing field if the field was actua
 
 {{% /alert %}} 
 
-### **Removing Empty Paragraphs**
+### Removing Empty Paragraphs
 
 Sometimes you may need to completely remove paragraphs that contained mail merge fields which became empty during mail merge. For example, the mail merge field could be merged with empty data or the merge field removed because it was unused.
 In either of those two situations the **MailMergeCleanupOptions.RemoveEmptyParagraphs** flag will automatically remove such empty paragraphs from the document during mail merge.
@@ -45,19 +45,19 @@ Following code example shows how to use multiple MailMergeCleanupOptions.
 
 {{< gist "aspose-words" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-RemoveEmptyRegions-1.java" >}}
 
-## **How to Remove Empty Rows with Cleanup Option**
+## How to Remove Empty Rows with Cleanup Option
 
 While working with Mail Merge the empty rows were generally a cause of concern. In order to facilitate our customers, a new option is available now that removes empty rows during the mail merge process. The example below shows how to make use of this option for an improved experience while using MailMerge for Aspose.Words.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-Java-Examples-src-main-java-com-aspose-words-examples-programming_documents-mail_merge-RemoveRowsFromTable-RemoveRowsFromTable.java" >}}
 
-## **How to Remove Unmerged Regions from a Document**
+## How to Remove Unmerged Regions from a Document
 
 In previous versions of Aspose.Words, mail merge regions which have been merged but which contained no data were removed from the document automatically. After upgrading you may find these regions now remain after mail merge is executed. A new feature has now been implemented which allows you to control how unused regions are handled during mail merge through the introduction of the [MailMerge.CleanupOptions](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge) property. This property provides flags to control how the document is created.
 
 By default the removal of unused regions is set to false and if unmerged regions are not removed automatically after upgrading this is the most likely reason why. If you choose to set this property before mail merge is executed then unused regions will be automatically removed.
 
-### **The Solution**
+### The Solution
 
 The [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](http://www.aspose.com/api/java/words/com.aspose.words/constants/MailMergeCleanupOptions) flag can be used to control how unused regions are handled during mail merge.
 
@@ -69,7 +69,7 @@ The following steps are used to demonstrate this:
 1. Enable the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](http://www.aspose.com/api/java/words/com.aspose.words/constants/MailMergeCleanupOptions) flag in [MailMerge.setCleanupOptions(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge)*.
 1. Merge the data with the document using the [MailMerge.executeWithRegions()](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge) method.
 
-### **The Code**
+### The Code
 
 The [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](http://www.aspose.com/api/java/words/com.aspose.words/constants/MailMergeCleanupOptions) flag is enabled before mail merge is executed. This instructs the mail merge engine to remove any regions which are not merged with any data.
 
@@ -81,7 +81,7 @@ The [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](http://www.aspose.com/api/ja
 
 If you are merging data from many data sources by using separate calls to [MailMerge.executeWithRegions()](http://www.aspose.com/api/java/words/com.aspose.words/classes/MailMerge) then you need to make sure that this flag is only enabled with the very last merge. Otherwise all unused regions will be removed from the document before they can be merged.
 
-### **End Result**
+### End Result
 
 All of the regions which contained no data were successfully removed from the document.
 

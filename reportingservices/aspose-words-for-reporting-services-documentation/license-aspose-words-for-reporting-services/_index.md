@@ -13,7 +13,7 @@ The license emailed to you when the order has been paid. The license is a clear 
 
 {{% /alert %}} 
 
-### **Licensing a Server**
+## Licensing a Server
 
 Download the license file and copy it to the C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder on the server.
 Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsoft SQL Server instance you want to license:
@@ -28,7 +28,7 @@ Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsof
 - The default instance directory for Microsoft SQL Server 2017 is MSRS14.MSSQLSERVER
 - The default instance directory for Microsoft SQL Server 2019 is MSRS14.MSSQLSERVER
 
-#### **Licensing Application Development**
+### Licensing Application Development
 
 Add a reference to Aspose.Words for Reporting Services to your project and Aspose.Words.ReportingServices.dll will be automatically copied to the Bin (binary output) folder of your application.
 
@@ -72,15 +72,15 @@ Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.Reporti
 license.SetLicense(myStream)
 {{< /highlight >}}
 
-#### **Deploying a License with Your Application**
+#### Deploying a License with Your Application
 
 Distribute the license file in the same folder as Aspose.Words.ReportingServices.dll.
 
-#### **Licensing Generation of Reports at Design Time**
+#### Licensing Generation of Reports at Design Time
 
 Download the license file and copy it to C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies, where &lt;Version&gt; is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008.
 
-#### **Testing a License**
+#### Testing a License
 
 To test that a license has been installed correctly, export any report as a Microsoft Word document. If the document contains no watermark at the top, the license was activated successfully.
 

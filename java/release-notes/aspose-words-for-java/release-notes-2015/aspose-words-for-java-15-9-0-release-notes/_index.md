@@ -11,9 +11,9 @@ This page contains release notes for [Aspose.Words for Java 15.9.0](http://www.a
 
 {{% /alert %}} 
 
-## **Aspose.Words for Java 15.9 Release Notes**
+## Aspose.Words for Java 15.9 Release Notes
 
-### **Major Features**
+### Major Features
 
 There are 94 improvements and fixes in this regular monthly release. The most notable are:* Creation of EditableRange objects in DocumentBuilder 
 
@@ -23,7 +23,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 - Overlapping problem while rendering of Chinese characters into HTML Fixed format resolved
 - Improvements to DrawmingML Charts rendering 
 
-## **All Changes**
+## All Changes
 
 |Key |Summary |Category |
 | :- | :- | :- |

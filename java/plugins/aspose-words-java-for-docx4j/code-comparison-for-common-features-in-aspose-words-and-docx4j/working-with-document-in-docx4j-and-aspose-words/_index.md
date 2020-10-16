@@ -5,7 +5,7 @@ weight: 10
 url: /java/working-with-document-in-docx4j-and-aspose-words/
 ---
 
-###### **This section includes the following topics:**
+## This section includes the following topics:
 
 - [Accessing Document Properties](https://docs.aspose.com/words/java/accessing-document-properties/)
 - [Add Watermark in Document](https://docs.aspose.com/words/java/add-watermark-in-document/)

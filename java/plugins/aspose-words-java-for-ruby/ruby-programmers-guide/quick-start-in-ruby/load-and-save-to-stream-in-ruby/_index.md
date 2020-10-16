@@ -5,7 +5,7 @@ weight: 60
 url: /java/load-and-save-to-stream-in-ruby/
 ---
 
-## **Aspose.Words - Load And Save To Stream**
+## Aspose.Words - Load And Save To Stream
 
 To load and save a word document to stream using Aspose.Words for Java in Ruby, simply invoke save_to_stream() method of LoadAndSaveToStream module.
 
@@ -32,7 +32,7 @@ output.write(dst_stream.toByteArray())
 output.close()
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Load And Save To Stream (Aspose.Words)** from any of the below mentioned social coding sites:
 

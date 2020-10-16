@@ -14,12 +14,12 @@ You can check the quality of Aspose.Words conversion and view the results online
 {{% /alert %}} 
 
 
-## **About DOC**
+## About DOC
 
 |![todo:image_alt_text](microsoft-word-doc_1.png)|[DOC](https://docs.fileformat.com/word-processing/doc/) is a word processing document file format that became popular because of its use in all versions of Microsoft Word. It is a proprietary binary format developed by Microsoft. [DOC](https://docs.fileformat.com/word-processing/doc/) is not a single format, but a family of formats that evolved with every new Microsoft Word version.|
 | :- | :- |
 
-## **DOC in Aspose.Words**
+## DOC in Aspose.Words
 
 Aspose.Words can read DOC files created by the software listed below. When Aspose.Words writes a DOC file, the same set of software can read it:
 
@@ -27,7 +27,7 @@ Aspose.Words can read DOC files created by the software listed below. When Aspos
 - Microsoft Word for Macintosh 98 to X.
 - Other applications including OpenOffice and AbiWord.
 
-## **Comprehensive Support for DOC**
+## Comprehensive Support for DOC
 
 The DOC format is very complex because it needs to represent modern word processing documents that have richly formatted content and complex layout. There are hundreds of elements, structures and formatting attributes defined in the DOC format. The distinct advantage of Aspose.Words is the great extent to which it supports the DOC format. It is hard or impossible to find the same level of support for many important DOC features elsewhere. Aspose.Words for .NET and Aspose.Words for Java support the DOC format equally well. In addition to all the common DOC features such as paragraphs, tables, styles, lists and fields, Aspose.Words fully supports most of the advanced DOC features:
 

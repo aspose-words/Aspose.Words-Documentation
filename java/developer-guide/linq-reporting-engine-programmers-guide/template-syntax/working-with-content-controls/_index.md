@@ -13,7 +13,7 @@ LINQ Reporting Engine enables you to perform certain operations on content contr
 
 **Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
 
-## **Setting Checkbox Value Dynamically**
+## Setting Checkbox Value Dynamically
 
 You can set checkbox values to either checked or unchecked in your reports dynamically by taking the following steps:
 
@@ -26,7 +26,7 @@ Here, conditional_expression defines a condition upon which the value of the che
 
 While building a report, a conditional expression declared within a check tag is evaluated and the value of its containing checkbox content control is set accordingly. The check tag itself is removed then.
 
-## **Setting Content Control Titles Dynamically**
+## Setting Content Control Titles Dynamically
 
 You can normally use common expression tags in content control titles, thus forming their contents dynamically. For example, given that s is a string value, you can set a content control title from this value dynamically by putting the following expression tag into the title.
 

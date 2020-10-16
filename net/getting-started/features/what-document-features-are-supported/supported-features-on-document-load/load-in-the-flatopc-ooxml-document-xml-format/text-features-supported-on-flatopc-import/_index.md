@@ -15,7 +15,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 
 {{% /alert %}} 
 
-## **Characters**
+## Characters
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -30,7 +30,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 |Symbol|Yes| | |
 |Tab|Yes| |- [ControlChar.Tab](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/tab)|
 
-## **Breaks**
+## Breaks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -39,7 +39,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 |Page Break|Yes| |- [ControlChar.PageBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/pagebreak)|
 |Column Break|Yes| |- [ControlChar.ColumnBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/columnbreak)|
 
-## **General Formatting**
+## General Formatting
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -52,7 +52,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 |Border|Yes| |- [Font.Border](https://apireference.aspose.com/words/net/aspose.words/font/properties/border)|
 |Shading|Yes| |- [Font.Shading](https://apireference.aspose.com/words/net/aspose.words/font/properties/shading)|
 
-## **Font**
+## Font
 
 See the following links in the documentation for further information:
 
@@ -65,7 +65,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Font|Yes| | |
 
-## **Underline**
+## Underline
 
 See the following link in the documentation for further information:
 
@@ -76,7 +76,7 @@ See the following link in the documentation for further information:
 |Underline Type|Yes|The underline property is used to both define if the run is underline and with what type of underline is used.|- **Font.Underline**|
 |Underline Color|Yes| |- [Font.UnderlineColor](https://apireference.aspose.com/words/net/aspose.words/font/properties/underlinecolor)|
 
-## **Text Effects**
+## Text Effects
 
 See the following link in the documentation for further information:
 
@@ -98,7 +98,7 @@ See the following link in the documentation for further information:
 |Special Hidden|Yes| | |
 |Web Hidden|Yes| | |
 
-## **Character Spacing**
+## Character Spacing
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

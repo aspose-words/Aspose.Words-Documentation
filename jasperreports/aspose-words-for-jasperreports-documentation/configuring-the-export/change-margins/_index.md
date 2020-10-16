@@ -13,7 +13,7 @@ Usage: CHANGE_MARGINS=“L; R; T; B”, where L is left, R is right, T is top, B
 
 {{% /alert %}} 
 
-#### **JasperReports**
+## JasperReports
 
 **Java**
 
@@ -26,7 +26,7 @@ exporter.setParameter(AWExporterParameter.CHANGE_MARGINS, ";;;-24pt");
 exporter.exportReport(); 
 {{< /highlight >}}
 
-#### **JasperServer**
+## JasperServer
 
 **XML**
 

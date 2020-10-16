@@ -5,7 +5,7 @@ weight: 10
 url: /java/aspose-words-document-object-model/
 ---
 
-## **Object Model Overview**
+## Object Model Overview
 
 This section describes the main classes of the Aspose.Words Document Object Model (DOM) and its relationships. By using the classes of the Aspose.Words DOM, you can obtain detailed programmatic access to document elements and formatting. The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate and modify content and formatting of a Word document.
 
@@ -22,7 +22,7 @@ This section describes the main classes of the Aspose.Words Document Object Mode
 - All node classes ultimately derive from the [Node](http://www.aspose.com/api/java/words/com.aspose.words/classes/Node) class, which is the basic class in the Aspose.Words Document Object Model.
 - Nodes that can contain other nodes, for example [Section](http://www.aspose.com/api/java/words/com.aspose.words/classes/Section) and [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph), derive from the [CompositeNode](http://www.aspose.com/api/java/words/com.aspose.words/classes/CompositeNode) class, which in turn derives from [Node](http://www.aspose.com/api/java/words/com.aspose.words/classes/Node).
 
-## **Node Classes**
+## Node Classes
 
 When Aspose.Words reads a Word document into memory, objects of different types are created to represent various document elements. Every run of text, paragraph, table, section is a node, and even the document itself is a node. Aspose.Words defines a class for every type of document node.
 
@@ -78,13 +78,13 @@ The following table lists Aspose.Words base node classes that help to form the c
 |[Inline](http://www.aspose.com/api/java/words/com.aspose.words/classes/Inline)|Base class for inline-level nodes that consist of a single run of text with font formatting.|
 |[DocumentBase](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBase)|Abstract base class for a main document and glossary document of a Word document|
 
-### **Distinguish Nodes by NodeType**
+### Distinguish Nodes by NodeType
 
 Although the class of the node is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the NodeType enumeration to simplify some API tasks such as selecting nodes of a specific type.The type of each node can be obtained using the [Node](http://www.aspose.com/api/java/words/com.aspose.words/classes/Node).NodeType property. This property returns a **NodeType** enumeration value. For example, a paragraph node (represented by the [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph) class) returns [NodeType.Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph), a table node (represented by the [Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table) class) returns [NodeType.Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table), and so on. The following example shows how to use the NodeType enumeration.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
-### **Logical Levels in a Document**
+### Logical Levels in a Document
 
 This documentation sometimes refers to a group of node classes as belonging to a "level" in a document, for example "block-level" or "inline-level" (also known as "inline") nodes. The distinction of levels in a document is purely logical and is not explicitly expressed by inheritance or other means in the Aspose.Words DOM.The level of the node is used to describe where in the document tree the node would typically occur. The following table lists the logical node levels, descriptions and the classes that belong to each level.
 
@@ -94,11 +94,11 @@ This documentation sometimes refers to a group of node classes as belonging to a
 |Block level|[Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph), [Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table), [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag), CustomXmlMarkup|Tables and paragraphs are block-level elements and contain other elements.Custom markup nodes can contain nested block-level nodes.|
 |Inline level|[Run](http://www.aspose.com/api/java/words/com.aspose.words/classes/Run), [FormField](http://www.aspose.com/api/java/words/com.aspose.words/classes/FormField), [SpecialChar](http://www.aspose.com/api/java/words/com.aspose.words/classes/SpecialChar), [FieldChar](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldChar), [FieldStart](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldStart), [FieldSeparator](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldSeparator), [FieldEnd](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldEnd), [Shape](http://www.aspose.com/api/java/words/com.aspose.words/classes/Shape), [GroupShape](http://www.aspose.com/api/java/words/com.aspose.words/classes/GroupShape), [Comment](http://www.aspose.com/api/java/words/com.aspose.words/classes/Comment), [Footnote](http://www.aspose.com/api/java/words/com.aspose.words/classes/Footnote), [CommentRangeStart](http://www.aspose.com/api/java/words/com.aspose.words/classes/CommentRangeStart), [CommentRangeEnd](http://www.aspose.com/api/java/words/com.aspose.words/classes/CommentRangeEnd), [SmartTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/SmartTag), [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag), CustomXmlMarkup, [BookmarkStart](http://www.aspose.com/api/java/words/com.aspose.words/classes/BookmarkStart) and [BookmarkEnd](http://www.aspose.com/api/java/words/com.aspose.words/classes/BookmarkEnd).|Inline occur inside a Paragraph and represent the actual content of the document.Footnote, Comment and Shape can contain block-level elements.Custom markup nodes can contain nested inline-level elements|
 
-## **Composition Diagrams**
+## Composition Diagrams
 
 The following diagrams define the "schema" of the Aspose.Words document tree. From the diagrams and descriptions, you can understand which nodes can contain which nodes.
 
-### **Document and Section**
+### Document and Section
 
 |Document and section diagram.| |
 | :- | :- |
@@ -115,7 +115,7 @@ A section contains main text as well as headers and footers for the first, even 
 The text of any story consists of paragraphs and tables, represented by the [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph) and [Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table) objects respectively.
 Additionally, each word document can contain a glossary document. A glossary document stores building blocks, AutoText and AutoCorrect entries. In Aspose.Words this is represented by the **GlossaryDocument** node, which in turn contains [BuildingBlock](http://www.aspose.com/api/java/words/com.aspose.words/classes/BuildingBlock) nodes that represent different types of glossary document entries. Each **BuildingBlock** contains sections which can be inserted, removed and copied in documents.
 
-### **Block-level Nodes**
+### Block-level Nodes
 
 |Block-level nodes diagram.| |
 | :- | :- |
@@ -128,7 +128,7 @@ On the above diagram:
 - **Paragraph** contains zero or more inline elements.
 - **CustomXmlMarkup** and [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag) classes can wrap other block-level nodes.
 
-### **Inline-level Nodes**
+### Inline-level Nodes
 
 |Inline-level nodes diagram.| |
 | :- | :- |
@@ -148,7 +148,7 @@ Shapes in Microsoft Word include Office Art auto shapes, textboxes, images, OLE 
 
 **Footnote** and **Comment** nodes represent the anchor position of a footnote, endnote or comment in the document. Footnotes and comments can have text inside them, therefore **Footnote** and **Comment** nodes in Aspose.Words can contain block-level nodes.
 
-### **Table, Row and Cell**
+### Table, Row and Cell
 
 |Table, row and cell diagram.| |
 | :- | :- |
@@ -160,7 +160,7 @@ On the above diagram:
 - [Cell](http://www.aspose.com/api/java/words/com.aspose.words/classes/Cell) can contain block-level nodes (e.g. **Paragraph** and **Table** ).
 - Rows, cell and block-level elements can be wrapped inside **CustomXmlMarkup** and [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag).
 
-### **About Custom Markup**
+### About Custom Markup
 
 OOXML documents allow users to embed their own custom semantics in the form of Smart Tags, Structured Document Tags (content controls) and Custom XML Markup. In Aspose.Words a Smart Tag is represented by the [SmartTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/SmartTag) class. A Structured Document Tag is represented by the [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag) class and Custom XML Markup is represented by the **CustomXmlMarkup** class. Each class exposes properties which allow you to access the custom data of these markup nodes.
 A way to think about markup nodes in Aspose.Words is that [SmartTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/SmartTag), [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag) and **CustomXmlMarkup** nodes “wrap” content on the same level in the document hierarchy. The content that it wraps can then be found as children of the markup node.
@@ -175,9 +175,9 @@ The different levels a markup node can be found in the document tree are:
 
 On each level markup nodes of the same level can be nested. For example, [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag) at the block-level can contain nested block-level [StructuredDocumentTag](http://www.aspose.com/api/java/words/com.aspose.words/classes/StructuredDocumentTag) and **CustomXmlMarkup** nodes.
 
-## **Document Tree Navigation**
+## Document Tree Navigation
 
-### **Tree Overview**
+### Tree Overview
 
 Aspose.Words represents a document as a tree of nodes. An integral feature of the tree is the ability to navigate between the nodes. This section shows how to explore and navigate the document tree in Aspose.Words. When the sample fax document presented earlier is opened in **DocumentExplorer** (an example project which is available on [Github](https://github.com/aspose-words/Aspose.Words-for-Java) under "ViewersAndVisualizers"), it shows the tree of nodes exactly as it is represented in Aspose.Words:
 
@@ -185,7 +185,7 @@ Aspose.Words represents a document as a tree of nodes. An integral feature of th
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/zVyqndK.png)| |
 
-### **Document Nodes**
+### Document Nodes
 
 The nodes in the tree are said to have relationships between them. A node that contains another node is a parent and the contained node is a child. Children of the same parent are sibling nodes. The [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) node is always the root node.
 
@@ -202,7 +202,7 @@ The UML object diagram below shows several nodes of the fax sample document and 
 | :- | :- |
 |![todo:image_alt_text](http://i.imgur.com/E8q1uSc.png)| |
 
-#### **Parent Node**
+#### Parent Node
 
 Each node has a parent that is specified by the Node.ParentNode property. A node does not have a parent node (Node.ParentNode is null) when a node has just been created and not yet added to the tree, or if it has been removed from the tree. You can remove a node from its parent by calling Node.Remove.
 
@@ -216,13 +216,13 @@ The code sample below shows how to access the parent node.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-document_object_model-AccessParentNode-.java" >}}
 
-#### **Owner Document**
+#### Owner Document
 
 It is important to mention that a node always belongs to a particular document, even if it was just created or has been removed from the tree. The document to which the node belongs is returned by the Node.Document property. A node always belongs to a document, because some vital document-wide structures such as styles and lists are stored in the [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) node. For example, it is not possible to have a [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph) without a [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) because each paragraph has a style assigned to it and the style is defined globally for the document. This rule is enforced when creating any new nodes. For instance, a new [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph) to be added directly to the DOM requires a document object passed to the constructor. This is the document to which the paragraph belongs to. When creating a new paragraph using [DocumentBuilder](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder) the builder always has a Document class linked to it through the [DocumentBuilder.Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder) property. The code sample below shows that when you create any node, it requires a document that will own the node.
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
-#### **Child Nodes**
+#### Child Nodes
 
 The most efficient way to access child nodes of a CompositeNode is via the CompositeNode. FirstChild and CompositeNode. LastChild properties that return the first and last child nodes respectively. If there are no child nodes, a null is returned. [CompositeNode](http://www.aspose.com/api/java/words/com.aspose.words/classes/CompositeNode) also provides the [CompositeNode.ChildNodes](http://www.aspose.com/api/java/words/com.aspose.words/classes/CompositeNode) collection that allows indexed or enumerated access to the children. The [CompositeNode.ChildNodes](http://www.aspose.com/api/java/words/com.aspose.words/classes/CompositeNode) property is a live collection of nodes. It means that whenever the document is changed (nodes removed or inserted), the **CompositeNode.ChildNodes** collection is automatically updated. Node collections are discussed in detail in further topics.If a node has no children, then **CompositeNode.ChildNodes** returns an empty collection. You can check if a **CompositeNode** contains any child nodes using the [CompositeNode.HasChildNodes](http://www.aspose.com/api/java/words/com.aspose.words/classes/compositenode/methods/hasChildNodes\(\)/) property. The code sample below shows how to enumerate immediate children of a CompositeNode using the enumerator provided by the ChildNodes collection.
 
@@ -232,7 +232,7 @@ The code sample below shows how to enumerate immediate children of a CompositeNo
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-EnumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
 
-#### **Sibling Nodes**
+#### Sibling Nodes
 
 You can obtain the node immediately preceding or following a certain node using [Node.PreviousSibling](http://www.aspose.com/api/java/words/com.aspose.words/classes/Node) and [Node.NextSibling](http://www.aspose.com/api/java/words/com.aspose.words/classes/Node), respectively. If a node is the last child of its parent, then the [Node.NextSibling](http://www.aspose.com/api/java/words/com.aspose.words/classes/Node) property is null. Conversely, if the node is a first child of its parent, the Node.PreviousSibling property is null.
 
@@ -242,7 +242,7 @@ The code sample below shows how to efficiently visit all direct and indirect chi
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
 
-#### **Typed Access to Children and Parent**
+#### Typed Access to Children and Parent
 
 So far, we have discussed the properties that return one of the base types Node or CompositeNode. You will have noticed that you might have to cast the values to the concrete class of the node, such as Run or Paragraph. Many casting or explicit conversions between types using the **as** operator is often considered a bad smell in an object oriented code. However, casting is not always bad; sometimes a bit of casting is necessary. We found you cannot completely get away without casting when working with an object model that is a Composite, like the Aspose.Words DOM. To reduce the need for casting, most of the Aspose.Words classes provide properties and collections that allow strictly typed access. There are three basic patterns for typed access:
 
@@ -254,11 +254,11 @@ The code sample below shows how to use typed properties to access nodes of the d
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}
 
-## **Design Patterns in Aspose.Words**
+## Design Patterns in Aspose.Words
 
 For a better understanding of the Aspose.Words object model, the design patterns used in the public interfaces are described here. The links to online descriptions of the patterns are provided where possible, but of course, for the best coverage see the GoF book if this is one of their patterns.
 
-### **Document Object Model is a Composite**
+### Document Object Model is a Composite
 
 General Composite related ideas:
 
@@ -276,7 +276,7 @@ Here is a description of the [Composite pattern](http://en.wikipedia.org/wiki/Co
 - [CompositeNode.ChildNodes](http://www.aspose.com/api/java/words/com.aspose.words/classes/compositenode/methods/getChildNodes\(\)/), [CompositeNode.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) return [NodeCollection](http://www.aspose.com/api/net/words/aspose.words/nodecollection), which is a wrapper that represents a selection of nodes as a live collection.
 - [Document.Sections](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/getSections\(\)/), [Section.HeadersFooters](http://www.aspose.com/api/java/words/com.aspose.words/classes/section/methods/getHeadersFooters\(\)/), [Story.Paragraphs](http://www.aspose.com/api/java/words/com.aspose.words/classes/story/methods/getParagraphs\(\)/) and so on are typed-wrapper collections that derive from [NodeCollection](http://www.aspose.com/api/java/words/com.aspose.words/classes/NodeCollection) and provide typed access to a selection of nodes of a specific type.
 
-### **DocumentBuilder is a Builder for a Composite**
+### DocumentBuilder is a Builder for a Composite
 
 {{% alert color="primary" %}} 
 
@@ -294,17 +294,17 @@ However, there are cases where creating a document element directly is not so st
 
 Although [DocumentBuilder](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder) does not exactly fulfil the intent of the [Builder pattern](http://en.wikipedia.org/wiki/Builder_pattern) (the builder pattern is used to enable the creation of a variety of complex objects from one source object), we still call it Builder because that is what it does.
 
-### **Range is a Facade for a Composite**
+### Range is a Facade for a Composite
 
 A text document with a complex structure and formatting such as a Microsoft Word document is hard to represent in an easy and user-friendly object model. We choose to represent it as a tree of nodes because it gives the users of Aspose.Words what they want - detailed access to the document content in a reasonably familiar environment ( **XmlDocument** -like API) and makes it possible for us to actually do it (unlike an API similar to Microsoft Word Automation that we wanted initially).
 Therefore, you have the tool to examine and modify Word files, but it turns out some operations on "flat text" are quite hard to do with a "tree model". Such seemingly easy things as find and replace, delete a paragraph or a section break can require significant efforts to traverse the tree, split and join tree nodes and so on.
 The [Range](http://www.aspose.com/api/java/words/com.aspose.words/classes/Range) class (although still in its infancy) is designed to hide the "tree look" of the model behind a "flat text" interface. For example, [Range](http://www.aspose.com/api/java/words/com.aspose.words/classes/Range) provides find and replace functionality that can search and replace across different [Run](http://www.aspose.com/api/java/words/com.aspose.words/classes/Run), [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph), [Table](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table) etc nodes and it hides a lot behind the scenes as it has to cut, move and join nodes of the tree as it goes. We think [Range](http://www.aspose.com/api/java/words/com.aspose.words/classes/Range) is clearly a [Façade pattern](http://en.wikipedia.org/wiki/Facade_pattern).
 
-### **More Facades for Various Document Elements**
+### More Facades for Various Document Elements
 
 Bookmark is a Facade that allows you to work with two nodes BookmarkStart and BookmarkEnd as a single entity.
 
-### **DocumentVisitor is a Visitor**
+### DocumentVisitor is a Visitor
 
 The Visitor pattern is famous for its ability to allow the addition of new operations to an existing object model without modifying the model. Just derive from [DocumentVisitor](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentVisitor), override the **VisitXXX** methods such as [DocumentVisitor.VisitParagraphStart](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentvisitor/methods/visitParagraphStart\(com.aspose.words.Paragraph\)/) and [DocumentVisitor.VisitRun](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentvisitor/methods/visitRun\(com.aspose.words.Run\)/) that receive the calls for the desired nodes. Call [Node.Accept](http://www.aspose.com/api/java/words/com.aspose.words/classes/node/methods/accept\(com.aspose.words.DocumentVisitor\)/) on the node from which you want to start enumeration and it will all work. You can even return a value from your **VisitXXX** methods to indicate how the enumeration should continue.
 We also extensively use [DocumentVisitor](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentVisitor) ourselves:

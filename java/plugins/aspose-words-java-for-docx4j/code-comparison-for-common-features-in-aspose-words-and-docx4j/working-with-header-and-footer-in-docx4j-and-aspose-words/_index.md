@@ -5,7 +5,7 @@ weight: 30
 url: /java/working-with-header-and-footer-in-docx4j-and-aspose-words/
 ---
 
-###### **This section includes the following topics:**
+## This section includes the following topics:
 
 - [Insert Footer](https://docs.aspose.com/words/java/insert-footer/)
 - [Insert Header](https://docs.aspose.com/words/java/insert-header/)

@@ -5,7 +5,7 @@ weight: 40
 url: /net/specify-default-fonts/
 ---
 
-## **Aspose.Words - Specify Default Fonts**
+## Aspose.Words - Specify Default Fonts
 
 We have a simple program which takes a word document and converts it to PDF. This is achieved by loading the document into the Aspose.Words document class and calling the Document.save method with a “.pdf” extension.
 
@@ -24,7 +24,7 @@ doc.Save("Rendering.SetDefaultFont_Out.pdf");
 doc.Save("Rendering.SetDefaultFont_Out.xps");
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Specify Default Fonts** form any of the below mentioned social coding sites:
 

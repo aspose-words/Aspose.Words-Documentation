@@ -5,7 +5,7 @@ weight: 100
 url: /java/how-to-run-the-examples/
 ---
 
-## **Download from GitHub**
+## Download from GitHub
 
 All examples of Aspose.Words for Java are hosted on [Github](https://github.com/aspose-words/Aspose.Words-for-Java). You can either clone the repository using your favorite Github client or download the ZIP file from [here](https://github.com/aspose-words/Aspose.Words-for-Java/archive/master.zip).
 
@@ -15,7 +15,7 @@ Extract the contents of ZIP file to any folder on your computer. All the example
 
 The project uses Maven build system. Any modern IDE can easily open or import the project and its dependencies. Below we show you how to use popular IDEs to build and run the examples.
 
-## **IntelliJ IDEA**
+## IntelliJ IDEA
 
 Click on the **File** menu and choose **Open**. Browse to the project folder and select the **pom.xml** file.
 
@@ -25,7 +25,7 @@ It will open the project and download the dependencies automatically. From the P
 
 ![todo:image_alt_text](http://i.imgur.com/pyP6jOr.png)
 
-## **Eclipse**
+## Eclipse
 
 Click on **File** menu and choose **Import**. Select **Maven** - Existing Maven Projects.
 
@@ -39,7 +39,7 @@ It will open the project and download the dependencies automatically. From the P
 
 ![todo:image_alt_text](http://i.imgur.com/Jsr26hZ.png)
 
-## **NetBeans**
+## NetBeans
 
 Click on the **File** menu and choose **Open Project**. Browse to the folder that you cloned or downloaded from GitHub. The icon of **Examples** folder will show that its a Maven project. Select Examples and open it.
 
@@ -49,7 +49,7 @@ It will open the project and download the dependencies automatically. From the P
 
 ![todo:image_alt_text](http://i.imgur.com/kUNojTJ.png)
 
-## **Contribute**
+## Contribute
 
 If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.
 

@@ -5,7 +5,7 @@ weight: 20
 url: /cpp/supported-document-formats/
 ---
 
-## **Supported File Formats**
+## Supported File Formats
 
 The following table indicates the file formats that Aspose.Words for C++ can load.
 

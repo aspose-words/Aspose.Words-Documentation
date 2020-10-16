@@ -5,7 +5,7 @@ weight: 10
 url: /jasperreports/aspose-words-for-jasperreports-documentation/
 ---
 
-###### **This section includes the following topics:** 
+## This section includes the following topics: 
 
 - [Product Overview](/words/jasperreports/product-overview/)
 - [Supported Document Formats](/words/jasperreports/supported-document-formats/)

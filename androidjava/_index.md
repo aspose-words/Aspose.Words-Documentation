@@ -16,7 +16,7 @@ Aspose.Words for Android via Java's ultimate goal is to bring all stunning featu
 
 {{% /alert %}} 
 
-## **Aspose.Words for Android via Java Resources**
+## Aspose.Words for Android via Java Resources
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 

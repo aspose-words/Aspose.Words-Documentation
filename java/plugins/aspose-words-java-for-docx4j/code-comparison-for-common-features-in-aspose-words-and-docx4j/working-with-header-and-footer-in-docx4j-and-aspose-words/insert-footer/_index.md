@@ -5,7 +5,7 @@ weight: 10
 url: /java/insert-footer/
 ---
 
-## **Aspose.Words - Insert Footer**
+## Aspose.Words - Insert Footer
 
 The following sample code demonstrates how to create headers/footers using DocumentBuilder.
 
@@ -33,7 +33,7 @@ builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 builder.write("(C) 2001 Aspose Pty Ltd. All rights reserved.");
 {{< /highlight >}}
 
-## **docx4j - Insert Footer**
+## docx4j - Insert Footer
 
 The following sample code demonstrates how to create headers/footers using docx4j.
 
@@ -134,12 +134,12 @@ public static org.docx4j.wml.P newImage( WordprocessingMLPackage wordMLPackage,
 }
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
-## **Download Sample Code**
+## Download Sample Code
 
 - [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/addfooter/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/addfooter)

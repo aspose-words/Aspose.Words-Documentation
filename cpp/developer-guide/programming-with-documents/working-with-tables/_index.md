@@ -5,5 +5,4 @@ weight: 40
 url: /cpp/working-with-tables/
 ---
 
-### **Articles in this section**
 

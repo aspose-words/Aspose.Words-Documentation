@@ -11,7 +11,7 @@ This page lists public API changes that were introduced in Aspose.Words 14.7.0. 
 
 {{% /alert %}} 
 
-## **ImageColorSpaceExportMode Property Added to PdfSaveOptions Class**
+## ImageColorSpaceExportMode Property Added to PdfSaveOptions Class
 
 Images in PDF document now can be saved in CMYK color space. It is controlled by PdfSaveOptions.ImageColorSpaceExportMode property.
 
@@ -74,7 +74,7 @@ doc.save("MyDocument.pdf", options);
 
 Note that current implementation of CMYK support has some restrictions: JPEG codec is not supported; simple formula for RGB->CMYK conversion is used, no ICC profiles are supported.
 
-## **ShowRevisionMarks, ShowRevisionBars and ShowOriginalRevision Added to Document.LayoutOptions.RevisionOptions Class**
+## ShowRevisionMarks, ShowRevisionBars and ShowOriginalRevision Added to Document.LayoutOptions.RevisionOptions Class
 
 The following three new public members are added to the Document.LayoutOptions.RevisionOptions class
 
@@ -101,7 +101,7 @@ public final boolean getShowOriginalRevision();
 public final void setShowOriginalRevision(boolean value);
 {{< /highlight >}}
 
-## **Priority Property Added to FontSourceBase Class**
+## Priority Property Added to FontSourceBase Class
 
 Priority property has been added to the FontSourceBase class. This property is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value.
 
@@ -115,7 +115,7 @@ FolderFontSource folder2 = new FolderFontSource("Folder2", false, 1);
 FontSettings.setFontsSources(new FontSourceBase[] {folder1, folder2});
 {{< /highlight >}}
 
-## **New Public Values Added for ParagraphAlignment Enumeration**
+## New Public Values Added for ParagraphAlignment Enumeration
 
 The following new public values are added to ParagraphAlignment Enumeration:
 

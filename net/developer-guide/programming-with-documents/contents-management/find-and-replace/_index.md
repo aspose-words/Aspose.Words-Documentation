@@ -30,7 +30,7 @@ The following examples show how to use the aforementioned overloads. The sample 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithEvaluator-MyReplaceEvaluator.cs" >}}
 
-## **How to Find and Highlight Text**
+## How to Find and Highlight Text
 
 This section describes how to programmatically find and highlight a word or a phrase in a document using Aspose.Words. It might seem easy to simply find the string of text in a document and change its formatting, but the main difficulty is that due to formatting, the match string could be spread over several runs of text. Consider the following example. The phrase “Hello World!” if formatted and consists of three different runs: Hello is italic, World is bold, and the exclamation mark is regular text:
 
@@ -52,9 +52,9 @@ The sample code will open a document and find any instance of the text “your d
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-FindAndHighlight-SplitRun.cs" >}}
 
-## **Find and Replace Text using Meta-Characters**
+## Find and Replace Text using Meta-Characters
 
-### **How to Preserve Meta-Characters During Replacement**
+### How to Preserve Meta-Characters During Replacement
 
 If you want to preserve meta-characters beginning with "&" during find and replace process, you can use FindReplaceOptions.PreserveMetaCharacters property. The following code example shows how to find a text and replace it with HTML that has meta-characters.
 
@@ -62,7 +62,7 @@ If you want to preserve meta-characters beginning with "&" during find and repla
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceHtmlTextWithMeta-Characters-ReplaceHtmlFindAndInsertHtml.cs" >}}
 
-### **Replace Text using Meta-Characters**
+### Replace Text using Meta-Characters
 
 Range.Replace method supports breaks in both the search pattern and replacement string. You need to use special meta-characters to specify breaks: **&p** for a paragraph break, **&b** for section break, **&m** for page break and **&l** for a manual line break. the given below code example shows how to replace text that contains paragraph and page break.
 
@@ -72,47 +72,47 @@ The below code example shows how to replace certain paragraph breaks with a new 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-ReplaceTextContaingMetaCharacters.cs" >}}
 
-## **Find and Replace with HTML**
+## Find and Replace with HTML
 
 The following code example shows how to find and replace the text with HTML using evaluator.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-ReplaceWithHtml.cs" >}}
 
-## **Find and Replace in Header and Footer**
+## Find and Replace in Header and Footer
 
-### **ReplaceText In Footer**
+### ReplaceText In Footer
 
 The header and footer sections can be extracted from HeaderFooterCollection and the following code example shows how to find and replace a text string in the footer section of the document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceInHeaderAndFooter-ReplaceTextInFooter.cs" >}}
 
-### **Show Changes for Header and Footer Orders**
+### Show Changes for Header and Footer Orders
 
 The following code example shows the changes for header and footer orders.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceInHeaderAndFooter-ShowChangesForHeaderAndFooterOrders.cs" >}}
 
-## **Find and Replace using Legacy Order**
+## Find and Replace using Legacy Order
 
 Aspose.Words provides the [UseLegacyOrder](https://apireference.aspose.com/net/words/aspose.words.replacing/findreplaceoptions/properties/uselegacyorder) property to find and replace text sequentially from top to bottom considering the text in the text boxes. The following code example demonstrates how to perform find and replace with UseLegacyOrder.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-UsingLegacyOrder-FineReplaceUsingLegacyOrder.cs" >}}
 
-## **Ignore Text during Find and Replace**
+## Ignore Text during Find and Replace
 
-### **Ignore Text Inside Field**
+### Ignore Text Inside Field
 
 Aspose.Words provides the [IgnoreFields](https://apireference.aspose.com/net/words/aspose.words.replacing/findreplaceoptions/properties/ignorefields) in the FindReplaceOptions class indicating either to ignore the text inside fields. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside fields while find and replace.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideFields.cs" >}}
 
-### **Ignore Text Inside Delete Revisions**
+### Ignore Text Inside Delete Revisions
 
 Aspose.Words provides the [IgnoreDeleted](https://apireference.aspose.com/net/words/aspose.words.replacing/findreplaceoptions/properties/ignoredeleted) property in the FindReplaceOptions class indicating either to ignore the text inside delete revisions. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside delete revisions.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideDeleteRevisions.cs" >}}
 
-### **Ignore Text Inside Insert Revisions**
+### Ignore Text Inside Insert Revisions
 
 Aspose.Words provides the [IgnoreInserted](https://apireference.aspose.com/net/words/aspose.words.replacing/findreplaceoptions/properties/IgnoreInserted) property in the FindReplaceOptions class indicating either to ignore the text inside insert revisions. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside insert revisions.
 

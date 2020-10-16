@@ -5,7 +5,7 @@ weight: 20
 url: /java/untangle-row-bookmarks-in-python/
 ---
 
-## **Aspose.Words - Untangle Row Bookmarks**
+## Aspose.Words - Untangle Row Bookmarks
 
 **Python Code**
 
@@ -23,7 +23,7 @@ if doc.getRange().getBookmarks().get("ROW1").getBookmarkEnd() is None:
 doc.save(self.dataDir + "TestDefect1352 Out.doc")
 {{< /highlight >}}
 
-## **Download Running Code**
+## Download Running Code
 
 Download **Untangle Row Bookmarks (Aspose.Words)** from any of the below mentioned social coding sites:
 

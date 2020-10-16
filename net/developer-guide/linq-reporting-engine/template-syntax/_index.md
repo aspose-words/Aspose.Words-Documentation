@@ -34,11 +34,11 @@ Some tags require closing counterparts. A closing tag has the “/” character 
 
 During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine (see “Removing Paragraphs Containing Only Template Syntax Tags” for more information).
 
-## **Composing Expressions**
+## Composing Expressions
 
 Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with several restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
 
-### **Using Lexical Tokens**
+### Using Lexical Tokens
 
 The following table describes lexical tokens that you can use in template expressions and restrictions on these tokens’ usage comparing with C# Language Specification 5.0.
 
@@ -62,7 +62,7 @@ You can use the following identifiers that are not preceded by a member access o
 
 The feature of the omitting of an object identifier while accessing the object’s members is also known as the contextual object member access. See “Using Contextual Object Member Access” for more information.
 
-### **Working with Types**
+### Working with Types
 
 LINQ Reporting Engine enables you to use externally visible types in template expressions. A visible type is a public type with outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
 
@@ -76,7 +76,7 @@ However, you can use the identifier of a visible type in template expressions on
 
 Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See "Appendix A. Enumeration Extension Methods" for the examples.
 
-### **Accessing Type Members**
+### Accessing Type Members
 
 LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
 
@@ -105,7 +105,7 @@ In addition to C# Language features, the engine provides the following extra fea
 - Accessing members of an object without specifying the object’s identifier (see “Using Contextual Object Member Access” for more information)
 - Accessing missing members of an object (see “Accessing Missing Members of Data Objects” for more information)
 
-### **Using Extension Methods**
+### Using Extension Methods
 
 LINQ Reporting Engine enables you to use the following built-in extension methods in template expressions:
 
@@ -114,7 +114,7 @@ LINQ Reporting Engine enables you to use the following built-in extension method
 
 **Note –** Extension methods, other than the built-in ones, can be used only in the form of plain static methods in template expressions.
 
-### **Using Operators**
+### Using Operators
 
 The following table contains predefined and user-defined operators that LINQ Reporting Engine enables you to use in template expressions.
 
@@ -132,7 +132,7 @@ The engine follows operator precedence, associativity, and overload resolution r
 
 Also, the engine enables you to use lifted operators in template expressions. 
 
-### **Using Lambda Functions**
+### Using Lambda Functions
 
 LINQ Reporting Engine enables you to use lambda functions only as arguments of built-in enumeration extension methods in template expressions. See "Appendix A. Enumeration Extension Methods" for more information.
 
@@ -140,11 +140,11 @@ LINQ Reporting Engine enables you to use lambda functions only as arguments of b
 
 You can use both explicit and implicit lambda function signatures in template expressions. If you do not specify the type of a parameter of a lambda function explicitly, the type is determined implicitly by the engine depending on the type of the corresponding enumeration.
 
-### **Working with Traditional Mail Merge Data Sources**
+### Working with Traditional Mail Merge Data Sources
 
 LINQ Reporting Engine enables you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
 
-#### **Working with DataSet objects**
+#### Working with DataSet objects
 
 LINQ Reporting Engine enables you to access DataTable objects contained within a particular DataSet instance by table names using the “.” operator in template expressions. That is, for example, given that ds is a DataSet instance that contains a DataTable named “Persons”, you can access the table using the following syntax.
 
@@ -154,7 +154,7 @@ LINQ Reporting Engine enables you to access DataTable objects contained within a
 
 **Note –** Table names are case-insensitive.
 
-#### **Working with DataTable and DataView Objects**
+#### Working with DataTable and DataView Objects
 
 LINQ Reporting Engine enables you to treat DataTable and DataView objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in foreach tags (see "Outputting Sequential Data" for more information).
 
@@ -164,7 +164,7 @@ Also, you can normally apply enumeration extension methods (see "Appendix A. Enu
   persons.Count()
 {{< /highlight >}}
 
-#### **Working with DataRow and DataRowView Objects**
+#### Working with DataRow and DataRowView Objects
 
 LINQ Reporting Engine enables you to access a data associated with a particular DataRow or DataRowView instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
 
@@ -180,13 +180,13 @@ To determine parent-child relationships for a particular DataTable instance, the
 
 **Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
 
-#### **Working with IDataReader Implementors**
+#### Working with IDataReader Implementors
 
 LINQ Reporting Engine enables you to treat IDataReader implementors as enumerations of IDataRecord implementors in template expressions. That is, you can use IDataReader implementors in template expressions in the same way as DataTable objects. See "Working with DataTable and DataView Objects" for more information.
 
 However, you can not use IDataReader implementors in template expressions in conjunction with enumeration operations that require a caching of enumeration items. Examples of such operations are grouping and sorting. To work around this restriction, use DataTable objects instead.
 
-#### **Working with IDataRecord Implementors**
+#### Working with IDataRecord Implementors
 
 LINQ Reporting Engine enables you to access the field values of a particular IDataRecord implementor by field names using the "." operator in template expressions. To use this feature, one of the following conditions must be met:
 
@@ -201,7 +201,7 @@ The following example shows, how to use this feature. Given that r is an IDataRe
 
 **Note –** Field names are case-insensitive.
 
-## **Outputting Expression Results**
+## Outputting Expression Results
 
 You can output expression results to your reports using expression tags. An expression tag denotes a placeholder for an expression result within a template. While building a report, the corresponding expression is evaluated, and this placeholder is replaced with the formatted result of the expression. 
 
@@ -270,7 +270,7 @@ Given that i is an integer number, you can convert the number to a lower-case Ro
 
 **Note -** In contrast to format strings, additional number and string formats must not be enclosed with double quotes.
 
-## **Outputting Sequential Data**
+## Outputting Sequential Data
 
 You can output a sequence of elements of the same type to your report using a data band. A data band has a body that represents a template for a single element of such a sequence. While building a report, sequence elements are enumerated, and the following procedure takes place for each of the elements:
 
@@ -305,7 +305,7 @@ data_band_body
 <</foreach>>
 {{< /highlight >}}
 
-### **Working with Common Data Bands**
+### Working with Common Data Bands
 
 A common data band is a data band whose body starts and ends within paragraphs that belong to a single story or table cell.
 
@@ -359,7 +359,7 @@ In this case, the engine produces a report as follows.
 3. item3
 {{< /highlight >}}
 
-### **Working with Table-Row Data Bands**
+### Working with Table-Row Data Bands
 
 A table-row data band is a data band which body occupies single or multiple rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
@@ -464,7 +464,7 @@ In this case, the engine produces a report as follows.
 
 For more examples of templates for typical scenarios involving table-row data bands, see “Appendix C. Typical Templates”.
 
-### **Using Extension Methods of Iteration Variables**
+### Using Extension Methods of Iteration Variables
 
 LINQ Reporting Engine provides special extension methods for iteration variables of any type. You can normally use these extension methods in template expressions. The following list describes the extension methods.
 
@@ -502,7 +502,7 @@ In this case, the engine produces a report as follows.
 |2|item2|
 |3|item3|
 
-### **Forcing Movement to Next Item within Data Band**
+### Forcing Movement to Next Item within Data Band
 
 You can instruct the engine to force movement to the next item within a data band using a next tag. This feature is useful in label-print-like scenarios when you need to output data about a fixed number of items in a single table row like in the following example. Given that Clients is a DataTable instance having a field named "Name", you can use the following template to output three client names per table row while outputting names of all clients in a single table.
 
@@ -517,7 +517,7 @@ In this case, the engine produces a report as follows.
 |**E Corp.**|**F & Partners**|**G & Co.** |
 |**H Group**|**I & Sons**|**J Ent.** |
 
-### **Using Charts to Represent Sequential Data**
+### Using Charts to Represent Sequential Data
 
 LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
 
@@ -587,7 +587,7 @@ In this case, the engine produces a report as follows.
 
 For more examples of templates for typical scenarios involving charts, see “Appendix C. Typical Templates”.
 
-#### **Including Chart Series Dynamically**
+#### Including Chart Series Dynamically
 
 For a chart with dynamic data, you can select which series to include into it dynamically based upon conditions. In particular, this feature is useful when you need to restrict access to sensitive data in chart series for some users of your application. To use the feature, do the following steps:
 
@@ -612,7 +612,7 @@ If accessLevel is not equal to zero, the engine produces a report as follows.
 
 ![todo:image_alt_text](graph-5.png)
 
-#### **Setting Chart Series Colors Dynamically**
+#### Setting Chart Series Colors Dynamically
 
 For a chart with dynamic data, you can set colors of chart series dynamically based upon expressions. To use the feature, do the following steps:
 
@@ -637,7 +637,7 @@ In this case, the engine produces a report as follows.
 
 ![todo:image_alt_text](graph-7.png)
 
-#### **Setting Chart Series Point Colors Dynamically**
+#### Setting Chart Series Point Colors Dynamically
 
 For a chart with dynamic data, you can set colors of individual chart series points dynamically based upon expressions. To use the feature, do the following steps:
 
@@ -675,7 +675,7 @@ In this case, the engine produces a report as follows.
 
 ![todo:image_alt_text](pi-graph-2.png)
 
-#### **Setting Chart Title, Series Names, and Axis Titles Dynamically**
+#### Setting Chart Title, Series Names, and Axis Titles Dynamically
 
 You can normally use common expression tags in chart titles, series names, and axis titles, thus forming their contents dynamically. This feature can be used for any chart defined in a template even for the one that is not populated with data dynamically like in the following example.
 
@@ -694,7 +694,7 @@ The following code example demonstrates how to set chart series names dynamicall
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-LINQ-ChartSeries-SetChartSeriesNameDynamically.cs" >}}
 
 
-## **Using Conditional Blocks**
+## Using Conditional Blocks
 
 You can use different document blocks to represent the same data depending on a condition with the help of conditional blocks. A conditional block represents a set of template options, each of which is bound with a conditional expression. At runtime, these conditional expressions are sequentially evaluated, until an expression that returns true is reached. Then, the conditional block is replaced with the corresponding template option populated with data.
 
@@ -713,7 +713,7 @@ default_template_option
 {{< /highlight >}}
 **Note -** A conditional expression must return a Boolean value.
 
-### **Working with Common Conditional Blocks**
+### Working with Common Conditional Blocks
 
 A common conditional block is a conditional block which body starts and ends within paragraphs that belong to a single story or table cell.
 
@@ -745,7 +745,7 @@ You can use data bands within common conditional blocks as well. For example, gi
 <</foreach>><</if>>
 {{< /highlight >}}
 
-### **Working with Table-Row Conditional Blocks**
+### Working with Table-Row Conditional Blocks
 
 A table-row conditional block is a conditional block which body occupies single or multiple rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
@@ -843,7 +843,7 @@ In this case, the engine produces a report as follows.
 
 **Note –** In the previous examples, tag <<if [false]>> is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
 
-## **Inserting Documents Dynamically**
+## Inserting Documents Dynamically
 
 You can insert contents of outer documents to your reports dynamically using doc tags. A doc tag denotes a placeholder within a template for a document to be inserted during runtime. 
 
@@ -876,7 +876,7 @@ When a build switch is used, the engine treats a document being inserted as a te
 - Known external types (see “Setting up Known External Types” for more information)
 
 
-## **Inserting Images Dynamically**
+## Inserting Images Dynamically
 
 You can insert images to your reports dynamically using image tags. To declare a dynamically inserted image within your template, do the following steps:
 
@@ -925,7 +925,7 @@ By default, the engine stretches an image filling a textbox to the size of the t
 {{< /highlight >}}
 **Note –** If the size of the image is greater than the size of the textbox, then the fitSizeLim switch acts like fitHeight or fitWidth. Otherwise, the fitSizeLim switch acts like fitSize.
 
-## **Inserting Bookmarks Dynamically**
+## Inserting Bookmarks Dynamically
 
 You can insert bookmarks to your reports dynamically using bookmark tags. Syntax of a bookmark tag is defined as follows.
 {{< highlight csharp >}}
@@ -937,7 +937,7 @@ Here, bookmark_expression defines the name of a bookmark to be inserted during r
 
 **Note –** A bookmark tag cannot be used within a chart.
 
-## **Inserting Hyperlinks Dynamically**
+## Inserting Hyperlinks Dynamically
 
 You can insert hyperlinks to your reports dynamically using link tags. Syntax of a link tag is defined as follows.
 {{< highlight csharp >}}
@@ -951,13 +951,13 @@ In turn, display_text_expression defines text to be displayed for the hyperlink.
 
 While building a report, uri_or_bookmark_expression and display_text_expression are evaluated and their results are used to construct a hyperlink that replaces the corresponding link tag then. If uri_or_bookmark_expression returns the name of a bookmark in the same document, then the hyperlink navigates to the bookmark. Otherwise, the hyperlink navigates to a corresponding external resource.
 
-## **Working with Content Controls**
+## Working with Content Controls
 
 LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.
 
 **Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
 
-### **Setting Checkbox Values Dynamically**
+### Setting Checkbox Values Dynamically
 
 You can set checkbox values to either checked or unchecked in your reports dynamically by taking the following steps:
 
@@ -970,14 +970,14 @@ Here, conditional_expression defines a condition upon which the value of the che
 
 While building a report, a conditional expression declared within a check tag is evaluated and the value of its containing checkbox content control is set accordingly. The check tag itself is removed then.
 
-### **Setting Content Control Titles Dynamically**
+### Setting Content Control Titles Dynamically
 
 You can normally use common expression tags in content control titles, thus forming their contents dynamically. For example, given that s is a string value, you can set a content control title from this value dynamically by putting the following expression tag into the title.
 {{< highlight csharp >}}
 <<[s]>>
 {{< /highlight >}}
 
-## **Setting Background Color Dynamically**
+## Setting Background Color Dynamically
 
 You can set text background color for document contents dynamically using backColor tags. Syntax of a backColor tag is defined as follows.
 {{< highlight csharp >}}
@@ -1039,7 +1039,7 @@ Also, you can use a backColor tag to set a solid-fill color for a shape dynamica
 
 During runtime, an expression declared within the opening backColor tag is evaluated and the shape’s solid-fill color is set accordingly. The opening and closing backColor tags are removed then.
 
-## **Merging Table Cells Dynamically**
+## Merging Table Cells Dynamically
 
 You can merge table cells with equal textual contents within your reports dynamically using cellMerge tags. The syntax of a cellMerge tag is defined as follows.
 {{< highlight csharp >}}
@@ -1080,7 +1080,7 @@ If value1 and value2 have different values, say “Hello” and “World”, tab
 
 **Note –** A cellMerge tag can be normally used within a table data band.
 
-## **Restarting List Numbering Dynamically**
+## Restarting List Numbering Dynamically
 
 You can restart list numbering within your documents dynamically using restartNum tags. In particular, this feature is useful when working with a nested numbered list within a data band as shown in the following example.
 
@@ -1147,7 +1147,7 @@ John Smith (43 Vogel Street Roslyn Palmerston North 4414)
 **Note –** You can use a restartNum tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “Inserting Documents Dynamically” for more information).
 
 
-## **Using Contextual Object Member Access**
+## Using Contextual Object Member Access
 
 You can make your templates less cumbersome using the contextual object member access feature. This feature enables you to access members of some objects without specifying the objects' identifiers in template expressions. An object to which the feature can be applied is determined depending on a context as follows:
 
@@ -1177,7 +1177,7 @@ Alternatively, you can use the following template involving the contextual objec
 |{{< highlight csharp >}}
  Count: <<[Persons.Count()]>> {{< /highlight >}}| | |
 
-## **Using Variables**
+## Using Variables
 
 LINQ Reporting Engine enables you to use variables in template documents. Variables are useful when you need to calculate an expensive value just once and access it multiple times in a template. Also, calculation of complex values such as running (progressive) totals may require variables, see “Appendix C. Typical Templates” to get an example.
 
