@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words for CPP 20.3 Release Notes
+title: Aspose.Words for C++ 20.3 Release Notes
 type: docs
 weight: 40
 url: /cpp/aspose-words-for-cpp-20-3-release-notes/
