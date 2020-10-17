@@ -1,5 +1,7 @@
 ---
 title: Specify Save Options
+aliases:
+    - /java/working-with-saveoptions/
 type: docs
 weight: 20
 url: /java/specify-save-options/
