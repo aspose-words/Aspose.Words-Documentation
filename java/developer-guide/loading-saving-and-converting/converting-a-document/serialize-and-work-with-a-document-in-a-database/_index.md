@@ -1,5 +1,7 @@
 ---
 title: Serialize and Work with a Document in a Database
+aliases:
+    - /java/converting-a-document-using-advance-features/
 type: docs
 weight: 40
 url: /java/serialize-and-work-with-a-document-in-a-database/

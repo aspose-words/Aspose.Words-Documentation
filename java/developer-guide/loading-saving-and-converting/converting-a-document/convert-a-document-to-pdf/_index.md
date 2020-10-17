@@ -1,5 +1,7 @@
 ---
 title: Convert a Document to PDF
+aliases: 
+    - /java/converting-a-microsoft-word-document-using-save-method/
 type: docs
 weight: 10
 url: /java/convert-a-document-to-pdf/
