@@ -244,7 +244,7 @@ This new LoadOption allows reducing memory usage.
 /// <remarks>
 /// Metafiles (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) is an uncompressed image format and sometimes requires to much RAM to hold and process document.
 /// This option allows to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
-/// Please note - conversion vector graphics to raster decreases quality of the images.
+/// Please note - conversion vector graphics to raster decreases the quality of the images.
 /// </remarks>
 public bool ConvertMetafilesToPng
 {{< /highlight >}}
@@ -323,7 +323,7 @@ public enum FieldIndexFormat
 }
 {{< /highlight >}}
 
-Use case is as simple as:
+The use case is as simple as:
 {{< highlight csharp >}}
 document.FieldOptions.FieldIndexFormat = FieldIndexFormat.Fancy;
 {{< /highlight >}}
@@ -352,7 +352,7 @@ FileFormatInfo info = FileFormatUtil.DetectFileFormat("help.chm");
 
 will return an info instance with the FileFormatInfo.LoadFormat property set to LoadFormat.Chm.
 
-Of all load options only LoadOptions.Encoding currently affects when working with CHM documents. It is useful for loading CHM documents that donot specify the encoding in their HTML topics.
+Of all load options only LoadOptions.Encoding currently affects when working with CHM documents. It is useful for loading CHM documents that do not specify the encoding in their HTML topics.
 LoadOptions.ResourceLoadingCallback is not invoked when loading a CHM document. Aspose.Words expects all referenced resource files to be stored in the CHM document along with topic files. External resource files are not supported.
 
 The use cases for loading CHM documents are as follows:
@@ -579,7 +579,7 @@ If pre-rendered drawing is available then Aspose.Words uses it to render the Sma
 If pre-rendered drawing is missing then Aspose.Words implicitly performs Cold Rendering to render the SmartArt object.
 If pre-rendered drawing is present but incorrect then it is required to perform SmartArt cold rendering explicitly by calling Shape.UpdateSmartArtDrawing() method.
 
-In the first release only the limited number of standard Mircosoft Word SmartArt layouts are supported. Also part of these layouts are supported partially, i.e. the significant nodes and shapes of the diagram are rendered but there may be differences between Microsoft Word and Aspose.Words diagram layout.
+In the first release only a limited number of standard Mircosoft Word SmartArt layouts are supported. Also part of these layouts are supported partially, i.e. the significant nodes and shapes of the diagram are rendered but there may be differences between Microsoft Word and Aspose.Words diagram layout.
 
 List of fully supported layouts:
 
