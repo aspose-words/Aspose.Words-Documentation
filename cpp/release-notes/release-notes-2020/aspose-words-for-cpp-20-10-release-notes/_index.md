@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words for C++ 20.9 Release Notes
+title: Aspose.Words for C++ 20.10 Release Notes
 type: docs
 weight: 7
 url: /cpp/aspose-words-for-cpp-20-10-release-notes/
@@ -748,4 +748,4 @@ The indexer of VbaReferenceCollection is exposed publicly for reading:
 public VbaReference this[int index]
 {{< /highlight >}}
 
-Please find useage examples here [https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)
+Please find usage examples here [https://docs.aspose.com/words/cpp/aspose-words-for-cpp-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)
