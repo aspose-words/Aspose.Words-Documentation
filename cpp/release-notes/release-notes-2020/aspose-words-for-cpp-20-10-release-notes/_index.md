@@ -546,7 +546,7 @@ public sealed class PageRange
 {{< /highlight >}}
 
 Sample use case:
-{{< highlight c++ >}}
+{{< highlight csharp >}}
 // Export even pages to PDF.
 auto pdfOptions = System::MakeObject<PdfSaveOptions>();
 pdfOptions->set_PageSet(PageSet::Even);
