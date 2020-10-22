@@ -216,7 +216,7 @@ To integrate the C# class library of your project with the ADLA account, registe
 
 1. In Visual Studio, right-click the project name and select Register Assembly.
 2. Select the ADLA account name and the database name.
-3. Expand the Managed Dependencies panel and check Aspose.Words as shown on the screenshot below.
+3. Expand the Managed Dependencies panel and check Aspose.Words as shown on the screenshot below.<br />
    <img src="register-assembly.png" alt="register-assembly" style="width:615px"/>
 
 ### Run U-SQL Job in Azure Portal
