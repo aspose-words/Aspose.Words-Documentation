@@ -116,7 +116,7 @@ There are 89 improvements and fixes in this regular monthly release. The most no
 
 ## Public API and Backward Incompatible Changes
 
-This section lists public API changes that were introduced in Aspose.Words 20.9. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
+This section lists public API changes that were introduced in Aspose.Words 20.10. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies existing behavior is especially important and is documented here.
 
 ### Added a new public option LayoutOptions.IgnorePrinterMetrics
 
@@ -124,7 +124,7 @@ Related issue: WORDSNET-20221
 
 Word 2019 ignores the "Use printer metrics to lay out document" compatibility option, though this option is still present in the "Compatibility options for" dialog under Word Options -> Advanced and is still accessible via the Document.Compatibility property in Word VBA. Comparing with previous Word versions, Word 2019 produces a different layout for documents with this compatibility option enabled.
 
-The new default behaviour for Aspose.Words is to ignore the "Use printer metrics to lay out document" compatibility option, while it is still possible to lay out documents as previous Word versions.
+The new default behaviour for Aspose.Words is to ignore the "Use printer metrics to lay out document" compatibility option, while it is still possible to layout documents as previous Word versions.
 
 A new public property IgnorePrinterMetrics has been added to the LayoutOptions class.
 {{< highlight csharp >}}
@@ -340,7 +340,7 @@ FileFormatInfo info = FileFormatUtil.DetectFileFormat("help.chm");
 
 will return an info instance with the FileFormatInfo.LoadFormat property set to LoadFormat.Chm.
 
-Of all load options only LoadOptions.Encoding currently affects when working with CHM documents. It is useful for loading CHM documents that donot specify the encoding in their HTML topics.
+Of all load options only LoadOptions.Encoding currently affects when working with CHM documents. It is useful for loading CHM documents that do not specify the encoding in their HTML topics.
 LoadOptions.ResourceLoadingCallback is not invoked when loading a CHM document. Aspose.Words expects all referenced resource files to be stored in the CHM document along with topic files. External resource files are not supported.
 
 The use cases for loading CHM documents are as follows:
@@ -566,7 +566,7 @@ If pre-rendered drawing is available then Aspose.Words uses it to render the Sma
 If pre-rendered drawing is missing then Aspose.Words implicitly performs Cold Rendering to render the SmartArt object.
 If pre-rendered drawing is present but incorrect then it is required to perform SmartArt cold rendering explicitly by calling Shape.UpdateSmartArtDrawing() method.
 
-In the first release only the limited number of standard Mircosoft Word SmartArt layouts are supported. Also part of these layouts are supported partially, i.e. the significant nodes and shapes of the diagram are rendered but there may be differences between Microsoft Word and Aspose.Words diagram layout.
+In the first release only a limited number of standard Mircosoft Word SmartArt layouts are supported. Also part of these layouts are supported partially, i.e. the significant nodes and shapes of the diagram are rendered but there may be differences between Microsoft Word and Aspose.Words diagram layout.
 
 List of fully supported layouts:
 
@@ -735,4 +735,4 @@ The indexer of VbaReferenceCollection is exposed publicly for reading:
 public VbaReference this[int index]
 {{< /highlight >}}
 
-Please find useage examples here [https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)
+Please find usage examples here [https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)
