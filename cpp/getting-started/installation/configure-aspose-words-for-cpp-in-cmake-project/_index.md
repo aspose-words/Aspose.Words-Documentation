@@ -26,17 +26,11 @@ int main()
 
 Please follow the steps given below to manually configure Aspose.Words for C++ in your CMake.
 
-## Step - 1
+1. Download latest Aspose.Words for C++ package frome [https://downloads.aspose.com/words/cpp/](https://downloads.aspose.com/words/cpp/).
 
-1. Download latest Aspose.Words for C++ package frome [https://downloads.aspose.com/words/cpp](https://downloads.aspose.com/words/cpp).
+2. Copy Aspose.Words.Cpp and CodePorting.Native.Cs2Cpp_api_*.* folders where you have CMakeLists.txt
 
-## Step - 2
-
-1. Copy Aspose.Words.Cpp and CodePorting.Native.Cs2Cpp_api_*.* folders where you have CMakeLists.txt
-
-## Step - 3
-
-1. Add the following lines to you CMakeLists.txt
+3. Add the following lines to you CMakeLists.txt
 {{< highlight cpp >}}
 # find Aspose.Words for C++ package and it's dependencies
 find_package(CodePorting.Native.Cs2Cpp REQUIRED CONFIG PATHS ${CMAKE_CURRENT_SOURCE_DIR} NO_DEFAULT_PATH)
