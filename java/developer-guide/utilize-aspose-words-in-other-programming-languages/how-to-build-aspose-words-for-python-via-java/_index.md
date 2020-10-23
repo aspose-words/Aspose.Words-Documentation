@@ -5,7 +5,7 @@ weight: 60
 url: /java/how-to-build-aspose-words-for-python-via-java/
 ---
 
-In order to create "Aspose Words for Python via Java" package we use [JCC](http://lucene.apache.org/pylucene/jcc/index.html)
+To create "Aspose Words for Python via Java" package we use [JCC](http://lucene.apache.org/pylucene/jcc/index.html)
 
 ## How to build JCC on Windows
 
@@ -44,7 +44,7 @@ JCC-3.0> python .\setup.py install
 Check JCC egg has been installed
 
 {{< highlight csharp >}}
-> ls C:\Python27\Lib\site-packages\JCC-3.0-py2.7-win-amd64.egg
+    > ls C:\Python27\Lib\site-packages\JCC-3.0-py2.7-win-amd64.egg
 {{< /highlight >}}
 
 ## How to build JCC on Ubuntu
@@ -101,7 +101,7 @@ Make sure JCC has been installed
 
 Make sure Java, JCC and wheel are installed.
 
-Then run [create_aspose_words.py](https://docs.aspose.com/download/attachments/61539591/create_aspose_words.py?api=v2) with appropriate arguments
+Then run [create_aspose_words.py](create_aspose_words.py) with appropriate arguments
 
 {{< highlight csharp >}}
 > python .\create_aspose_words.py .\Aspose.Words.jdk16.jar 17.8 aspose_words
@@ -121,7 +121,7 @@ Result *.whl* file will be saved in *.\dist* directory
 1. Download and install [Python](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi). At the moment 2.7 version is used;
 1. Add following path variables to the environment variables list:<br>
 ![todo:image_alt_text](how-to-build-aspose-words-for-python-via-java_2.png)
-1. Then install the .whl package [create_aspose_words.py](https://docs.aspose.com/download/attachments/61539591/create_aspose_words.py?api=v2)<br>
+1. Then install the .whl package [create_aspose_words.py](create_aspose_words.py)<br>
 {{< highlight csharp >}}
 > pip install .\aspose_words-17.8-cp27-none-win_amd64.whl
 {{< /highlight >}}
