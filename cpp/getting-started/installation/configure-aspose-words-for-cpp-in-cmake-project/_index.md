@@ -41,7 +41,7 @@ find_package(Threads REQUIRED)
 target_link_libraries(app PRIVATE Aspose::Words Threads::Threads)
 {{< /highlight >}} 
 
-Now you can build you application with Aspose.Words for C++
+4. Now you can build you application with Aspose.Words for C++
 {{< highlight bash >}}
 cd <path_to_dir_with_CMakeLists.txt>
 cmake -S . -B build -D CMAKE_BUILD_TYPE=Release
