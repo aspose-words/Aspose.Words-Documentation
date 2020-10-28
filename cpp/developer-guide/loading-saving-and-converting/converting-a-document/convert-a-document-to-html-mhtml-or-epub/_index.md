@@ -15,7 +15,7 @@ For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://apire
 
 The following example shows how to convert DOCX to HTML with specifying a save format:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocxToHtml.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocxToHtml.cpp" >}}
 
 To convert a document to MHTML or EPUB, use SaveFormat.Mhtml or SaveFormat.Epub respectively.
 
@@ -30,7 +30,7 @@ The default value is **true** for HTML and **false** for MHTML and EPUB:
 
 The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocumentToHtmlWithRoundtrip.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocumentToHtmlWithRoundtrip.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -52,7 +52,7 @@ In this example, **ResourceFolder** specifies the relative path. This path ref
 
 The following code example shows how to work with these properties:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ExportResourcesUsingHtmlSaveOptions.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ExportResourcesUsingHtmlSaveOptions.cpp" >}}
 
 Using the [ResourceFolderAlias](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#a5e63c4e5f01af50a479b0dc9e85b6bbd) property, we can also specify the name of the folder used to construct URIs of all resources written into an HTML document. This is the simplest way to specify how URIs should be generated for all resource files. The same information can be specified for images and fonts separately via [ImagesFolderAlias](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#a6fefd0650e96b44c91e4a1f8f45fbf0c) and [FontsFolderAlias](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#a0fa12f2fc6073edd9872356c0dfcce53) properties, respectively.
 
@@ -67,7 +67,7 @@ Aspose.Words provides an ability to specify whether font resources should be em
 
 The following code example shows how to export Base64-encoded fonts to HTML:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ExportFontsAsBase64.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ExportFontsAsBase64.cpp" >}}
 
 ## Specify Save Options when Conversion to EPUB
 
@@ -75,7 +75,7 @@ Aspose.Words allows converting a Word document into EPUB format using default or
 
 The following code example shows how to converts a Word document to EPUB with specifying some custom save options:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-ConvertDocumentToEPUB-ConvertDocumentToEPUB.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToEPUB-ConvertDocumentToEPUB.cpp" >}}
 
 {{% alert color="primary" %}} 
 

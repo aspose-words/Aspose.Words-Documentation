@@ -16,7 +16,7 @@ Aspose.Words for C++ is a native class library that enables C++ application de
 
 {{% /alert %}} 
 
-## Aspose.Words for C++ Resources
+Aspose.Words for C++ Resources
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 
@@ -25,7 +25,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Words for C++ Product Page](https://products.aspose.com/words/cpp)
 - [Download Aspose.Words for C++](https://downloads.aspose.com/words/cpp)
 - [Install Aspose.Words for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Words.Cpp/)
-- [Aspose.Words for C++ API Reference Guide](https://apireference.aspose.com/cpp/words)
+- [Aspose.Words for C++ API Reference Guide](https://apireference.aspose.com/words/cpp/)
 - [Download Examples at GitHub Repository](https://github.com/aspose-words/Aspose.words-for-C)
 - [Aspose.Words for C++ Free Support Forum](https://forum.aspose.com/c/words)
 - [Aspose.Words for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)

@@ -29,13 +29,13 @@ Since we are dealing with contents in a folder, the first thing we need to do is
 
 The following code example shows how to get a list of all the files in the folder:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-CheckFormat-GetListOfFilesInFolder.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-CheckFormat-GetListOfFilesInFolder.cpp" >}}
 
 When all the files are collected, the rest of the work is done by the **DetectFileFormat** method, which checks the file format.
 
 The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-CheckFormat-CheckFormatCompatibility.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-CheckFormat-CheckFormatCompatibility.cpp" >}}
 
 The files are moved into appropriate subfolders using the Move method of the File class, from the same System.IO namespace.
 

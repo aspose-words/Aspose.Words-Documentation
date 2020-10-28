@@ -1,6 +1,8 @@
 ---
 title: Work with Word Documents in Qt
 type: docs
+description: "Aspose.Words for C++ can be integrated within Qt to create and manipulate Word documents in Qt applications."
+keywords: "create a document Qt Creator, load a document Qt Creator, use Aspose C++ with Qt creator, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 60
 url: /cpp/work-with-word-documents-in-qt/
 ---
@@ -26,7 +28,7 @@ In order to integrate and use Aspose.Words for C++ library within a Qt Console 
 
 ![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Aspose.Words-lib-files.jpg)
 
-- In order to add paths to lib and include folders, right-click on the project in LHS panel and select *Add Library*.
+- In order to add paths to lib and include folders, right-click on the project in the LHS panel and select *Add Library*.
 
 ![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library.jpg)
 
@@ -54,7 +56,7 @@ In order to integrate and use Aspose.Words for C++ library within a Qt Console 
 
 ## Using Aspose.Words for C++ in Qt Applications within Visual Studio
 
-For developing Qt application using Visual Studio, you require to install [Qt Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools-19123). Once you have the installation, download the latest version of the API from the [downloads](https://downloads.aspose.com/pdf/cpp) section and follow the steps given below:
+For developing a Qt application using Visual Studio, you require to install [Qt Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools-19123). Once you have the installation, download the latest version of the API from the [downloads](https://downloads.aspose.com/pdf/cpp) section and follow the steps given below:
 
 - Download and install [CMake](https://github.com/Kitware/CMake/releases/download/v3.17.1/cmake-3.17.1-win64-x64.msi).
 - Download and unpack [Aspose.Words for C++](https://downloads.aspose.com/words/cpp).
