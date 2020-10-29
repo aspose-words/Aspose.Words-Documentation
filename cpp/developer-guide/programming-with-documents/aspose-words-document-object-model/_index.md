@@ -9,7 +9,7 @@ url: /cpp/aspose-words-document-object-model/
 
 This section describes the main classes of the Aspose.Words Document Object Model (DOM) and its relationships. By using the classes of the Aspose.Words DOM, you can obtain detailed programmatic access to document elements and formatting.
 
-The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, modify content and formatting of a Word document.
+The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, modify the content and formatting of a Word document.
 
 A sample document showing how it appears in Microsoft Word.
 
@@ -19,7 +19,7 @@ The tree of objects is created when the above document is read into the Aspose.W
 
 ![todo:image_alt_text](object_model_overview-2.png)
 
-Document, Section, Paragraph, Table, Shape, Run and all other ellipses on below diagram are Aspose.Words objects that represent elements of a Word document. The objects are organized into a tree. The illustration also shows that the objects in the document tree have various properties.
+The Document, Section, Paragraph, Table, Shape, Run and all other ellipses on the below diagram are Aspose.Words objects that represent elements of a Word document. The objects are organized into a tree. The illustration also shows that the objects in the document tree have various properties.
 
 The document tree in Aspose.Words follows the Composite Design Pattern:
 
@@ -88,7 +88,7 @@ Although the class of the node is sufficient enough to distinguish different nod
 
 The following example shows how to use the NodeType enumeration.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Node-ExNode-UseNodeType.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-UseNodeType.cpp" >}}
 
 ### Logical Levels in a Document
 
@@ -215,7 +215,7 @@ The parent node of the root **Document** node is always null.
 
 The code sample below shows how to access the parent node.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Node-ExNode-GetParentNode.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-GetParentNode.cpp" >}}
 
 #### Owner Document
 
@@ -223,17 +223,17 @@ It is important to mention that a node always belongs to a particular document, 
 
 This is the document to which the paragraph belongs to.When creating a new paragraph using DocumentBuilder the builder always has a Document class linked to it through the DocumentBuilder.Document property. The code sample below shows that when you create any node, it requires a document that will own the node.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Node-ExNode-OwnerDocument.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-OwnerDocument.cpp" >}}
 
 #### Child Nodes
 
 The most efficient way to access child nodes of a CompositeNode is via the CompositeNode.FirstChild and CompositeNode.LastChild properties that return the first and last child nodes respectively. If there are no child nodes, a null is returned.**CompositeNode** also provides the CompositeNode.ChildNodes collection that allows indexed or enumerated access to the children. The **CompositeNode.ChildNodes** property is a live collection of nodes. It means that whenever the document is changed (nodes removed or inserted), the **CompositeNode.ChildNodes** collection is automatically updated. Node collections are discussed in detail in further topics.If a node has no children, then **CompositeNode.ChildNodes** returns an empty collection. You can check if a **CompositeNode** contains any child nodes using the CompositeNode.HasChildNodes property. The code sample below shows how to enumerate immediate children of a CompositeNode using the enumerator provided by the ChildNodes collection.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cpp" >}}
 
 The code sample below shows how to enumerate immediate children of a CompositeNode using indexed access.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Node-ExNode-IndexChildNodes.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-IndexChildNodes.cpp" >}}
 
 #### Sibling Nodes
 
@@ -243,11 +243,11 @@ Note that because the child nodes are internally stored in a single linked list 
 
 The code sample below shows how to efficiently visit all direct and indirect children of a composite node.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Node-ExNode-RecurseAllNodes.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-RecurseAllNodes.cpp" >}}
 
 #### Typed Access to Children and Parent
 
-So far, we have discussed the properties that return one of the base types Node or CompositeNode. You will have noticed that you might have to cast the values to the concrete class of the node, such as Run or Paragraph.Many casting or explicit conversions between types using the **as** operator is often considered a bad smell in an object oriented code. However, casting is not always bad; sometimes a bit of casting is necessary. We found you cannot completely get away without casting when working with an object model that is a Composite, like the Aspose.Words DOM.To reduce the need for casting, most of the Aspose.Words classes provide properties and collections that allow strictly typed access. There are three basic patterns for typed access:
+So far, we have discussed the properties that return one of the base types Node or CompositeNode. You will have noticed that you might have to cast the values to the concrete class of the node, such as Run or Paragraph.Many casting or explicit conversions between types using the **as** operator is often considered a bad smell in an object-oriented code. However, casting is not always bad; sometimes a bit of casting is necessary. We found you cannot completely get away without casting when working with an object model that is a Composite, like the Aspose.Words DOM.To reduce the need for casting, most of the Aspose.Words classes provide properties and collections that allow strictly typed access. There are three basic patterns for typed access:
 
 - A parent node exposes typed **FirstXXX** and **LastXXX** properties. For example, **Document** has Document.FirstSection and Document.LastSection properties. Similarly, Table has Table.FirstRow and Table.LastRow properties and so on.
 - A parent node exposes a typed collection of child nodes, for example Document.Sections, Body.Paragraphs and so on.
@@ -255,7 +255,7 @@ So far, we have discussed the properties that return one of the base types Node 
 
 The code sample below shows how to use typed properties to access nodes of the document tree.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Node-ExNode-TypedAccess.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-TypedAccess.cpp" >}}
 
 ## Design Patterns in Aspose.Words
 
@@ -289,11 +289,11 @@ Generally, it is easy to work the document tree directly, inserting and removing
 
 The code sample below shows how to creates and adds a paragraph node.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Node-ExNode-CreateAndAddParagraphNode.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-CreateAndAddParagraphNode.cpp" >}}
 
 However, there are cases where creating a document element directly is not so straightforward and it is better to have some utility that will do the creation for you. For example to create a Word field several nodes need to be inserted, and you should make sure they are all in an appropriate state: FieldStart, Run for the field code, FieldSeparator, one or more Run nodes for the field result and FieldEnd. Inserting a form field is even more complex; it needs a complete Word field as well as FormField, BookmarkStart and BookmarkEnd nodes.
 
-DocumentBuilder is the tool that makes the process of building a document simpler. There are two groups of methods: to move the cursor to a node where you want to do the building, and to insert something at the cursor. Although **DocumentBuilder** does not exactly fulfill the intent of the Builder pattern (the builder pattern is used to enable the creation of a variety of complex objects from one source object), we still call it Builder because that is what it does.
+DocumentBuilder is a tool that makes the process of building a document simpler. There are two groups of methods: to move the cursor to a node where you want to do the building, and to insert something at the cursor. Although **DocumentBuilder** does not exactly fulfill the intent of the Builder pattern (the builder pattern is used to enable the creation of a variety of complex objects from one source object), we still call it Builder because that is what it does.
 
 ### Range is a Facade for a Composite
 

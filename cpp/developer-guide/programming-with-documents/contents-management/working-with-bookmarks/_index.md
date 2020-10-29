@@ -37,7 +37,7 @@ To delete a bookmark in Microsoft Word:
 1. On the **Insert** menu, click **Bookmark**.
 1. Click the name of the bookmark you want to delete, and then click **Delete**.
 
-To delete both the bookmark and the bookmarked item (such as a block of text or other element), select the item, and then press DELETE.
+To delete both the bookmark and the bookmarked item (such as a block of text or another element), select the item, and then press DELETE.
 
 ## Bookmarks in Aspose.Words
 
@@ -47,25 +47,25 @@ The actions that can be performed with bookmarks using Aspose.Words are the same
 
 Use DocumentBuilder.StartBookmark and DocumentBuilder.EndBookmark to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
-Below example shows how to create a new bookmark.
+The below code example shows how to create a new bookmark.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Bookmarks-CreateBookmark-CreateBookmark.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-CreateBookmark-CreateBookmark.cpp" >}}
 
 ### Obtaining Bookmarks
 
 Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the Node.Range property exposed by any document node that returns a Range object representing the portion of the document contained in this node. Use this object to retrieve a BookmarkCollection and then use the collection indexer to get a specific bookmark.
 
-Below example shows how to obtain bookmarks from a bookmark collection. You can download template file of this example from here.
+The below code example shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Bookmarks-AccessBookmarks-AccessBookmarks.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-AccessBookmarks-AccessBookmarks.cpp" >}}
 
-Below example shows how to get or set bookmark name and text. You can download template file of this example from here.
+The below code example shows how to get or set bookmark name and text. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cpp" >}}
 
-Below example shows how to bookmark a table.
+The below code example shows how to bookmark a table.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Bookmarks-BookmarkTable-BookmarkTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-BookmarkTable-BookmarkTable.cpp" >}}
 
 If you change the name of a bookmark to a name that already exists in the document, no error will be generated and only the first bookmark will be stored when you save the document.
 
@@ -83,4 +83,4 @@ If you need to insert rich content (not just plain text) into a bookmark, you sh
 
 The entire Bookmark (*including the bookmarked content*) can be encapsulated within the True part of the IF field using Aspose.Words. It can be in such a way that the IF field contains a nested Merge Field in the expression (*Left of Operator*) and depending upon the value of Merge Field, the IF field shows or hides the content of Bookmark in Word Document. The following code example demonstrates how to show/ hide bookmarks.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Bookmarks-ShowHideBookmarks-ShowHideBookmarks.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-ShowHideBookmarks-ShowHideBookmarks.cpp" >}}
