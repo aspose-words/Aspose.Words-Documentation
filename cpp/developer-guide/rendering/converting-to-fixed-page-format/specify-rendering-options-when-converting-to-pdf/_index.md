@@ -23,11 +23,11 @@ Currently, you can only save to the PDF/A-1 format, which has serious limitation
 
 {{% /alert %}} 
 
-It is also possible to export fillable forms from a Microsoft Word document into output PDF, which has fillable forms instead of a plain text. Use the [PreserveFormFields](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#a7e90a6e0b1ce2be5db818312a9c15b75) property to save a document as PDF/A with fillable forms. Note that in contrast to Microsoft Word, the PDF format has a limited number of options for editable forms, such as textbox, combobox, and checkbox. Microsoft Word has more types of forms, for example, calendar date picker. Generally, it is not possible to fully imitate Microsoft Word behavior in PDF. Therefore, in some complex cases, PDF output may differ from what you see in Microsoft Word.
+It is also possible to export fillable forms from a Microsoft Word document into output PDF, which has fillable forms instead of plain text. Use the [PreserveFormFields](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#a7e90a6e0b1ce2be5db818312a9c15b75) property to save a document as PDF/A with fillable forms. Note that in contrast to Microsoft Word, the PDF format has a limited number of options for editable forms, such as textbox, combobox, and checkbox. Microsoft Word has more types of forms, for example, calendar date picker. Generally, it is not possible to fully imitate Microsoft Word behavior in PDF. Therefore, in some complex cases, PDF output may differ from what you see in Microsoft Word.
 
 The code example below shows how to save a document as PDF/A with fillable forms with specified Jpeg compression and quality:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-PdfImageComppression.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-PdfImageComppression.cpp" >}}
 
 ## Exporting Document Structure and Custom Properties
 
@@ -37,11 +37,11 @@ PDF logical structure facilities provide a mechanism for incorporating informati
 
 The following example demonstrates how to save a document to PDF format, preserving the document structure:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.cpp" >}}
 
 Aspose.Words also allows you to export document custom properties to PDF, which is demonstrated by the following example:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.cpp" >}}
 
 ## Exporting Outlines from Bookmarks and Headings in Output PDF
 
@@ -49,7 +49,7 @@ If you want to export bookmarks as outlines in output PDF, you can use the [Def
 
 The code example below shows how to export bookmarks from the first header/footer of a section:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.cpp" >}}
 
 The output PDF of this example is shown below:
 
@@ -61,7 +61,7 @@ You can also export headings in the output PDF, using the [HeadingsOutlineLeve
 
 The code example below shows how to export headings with three levels:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.cpp" >}}
 
 The output PDF of this example is depicted below:
 
@@ -81,7 +81,7 @@ Note that it is also possible to set a specific resolution in the [Resolution]
 
 The code example below displays how to change the resolution of images in an output PDF document:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-DownsamplingImages.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-DownsamplingImages.cpp" >}}
 
 Resolution is calculated according to the real image size on the page.
 
@@ -107,11 +107,11 @@ The [EmbedFullFonts](https://apireference.aspose.com/words/cpp/class/aspose.wor
 
 The following example demonstrates how to embed full fonts in the output PDF document:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddAllFonts.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddAllFonts.cpp" >}}
 
 The following example demonstrates how to set Aspose.Words to subset fonts in the output PDF:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -141,7 +141,7 @@ These fonts are replaced with the corresponding core Type 1 fonts, which are pro
 
 The example provided below shows how to set Aspose.Words to avoid embedding core fonts and let the reader substitute them with PDF Type 1 fonts:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-EmbeddingWindowsStandardFonts-AvoidEmbeddingCoreFonts.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-EmbeddingWindowsStandardFonts-AvoidEmbeddingCoreFonts.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -163,7 +163,7 @@ This option can be enabled or disabled by using the [FontEmbeddingMode](https:/
 
 The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.cpp" >}}
 
 This mode is most useful when you wish to view your documents on the same platform, preserving the exact appearance of fonts in the output PDF.
 

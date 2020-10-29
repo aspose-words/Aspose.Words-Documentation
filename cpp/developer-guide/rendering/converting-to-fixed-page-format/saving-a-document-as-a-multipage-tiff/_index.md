@@ -11,7 +11,7 @@ When working with documents, you often need to convert your document to a raster
 
 In Aspose.Words, conversion from DOC to TIFF can be performed with one line of code, by simply passing the “save to” path and the relevant file extension to the [Save](https://apireference.aspose.com/words/cpp/class/aspose.words.document/#a4ba337135cd6c8bed74a268ba60218bd) method. The **Save** method automatically derives the SaveFormat from the file name extension specified in the path. The following example demonstrates how to convert a document to the TIFF format:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFF.cs" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-CSharp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFF.cs" >}}
 
 ## Specifying Additional Options When Rendering TIFF
 
@@ -29,7 +29,7 @@ You often need to specify additional options, which affect the rendering result.
 
 The following example shows how to convert DOC to TIFF with configured options:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFFUsingImageSaveOptions.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFFUsingImageSaveOptions.cpp" >}}
 
 ## Threshold for TIFF Binarization
 
@@ -39,7 +39,7 @@ For image segmentation, Aspose.Words uses the simplest method — thresholding.
 
 The following example shows how to perform TIFF binarization with a specified threshold:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-ImageColorFilters-ExposeThresholdControlForTiffBinarization.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-ImageColorFilters-ExposeThresholdControlForTiffBinarization.cpp" >}}
 
 Below you can compare images on which TIFF binarization was performed at various threshold values:
 

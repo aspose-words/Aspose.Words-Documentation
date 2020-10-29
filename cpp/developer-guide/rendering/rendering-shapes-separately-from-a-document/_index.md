@@ -47,11 +47,11 @@ The shape can be exported in any image format specified in the [SaveFormat](htt
 
 The code example below illustrates rendering a shape to an EMF image separately from document, and saving to disk:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-RenderShape-RenderShapeToDisk.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-RenderShape-RenderShapeToDisk.cpp" >}}
 
 The code example below illustrates rendering a shape to a JPEG image separately from document, and saving to a stream:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-RenderShape-RenderShapeToStream.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-RenderShape-RenderShapeToStream.cpp" >}}
 
 The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
 
@@ -61,7 +61,7 @@ Rendering directly to a **Graphics** object allows you to define your own sett
 
 The example below shows how to render a shape to a .**NET Graphics** object separately from the document and apply rotation to the rendered image:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-RenderShape-RenderShapeToGraphics.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-RenderShape-RenderShapeToGraphics.cpp" >}}
 
 Similarly, to the [RenderToSize](https://apireference.aspose.com/words/cpp/class/aspose.words.document/#ab5d0af3de3dafd4600316e6e39cd3a19) method, the [RenderToSize ](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.node_renderer_base/#a8ebea2220c32c97b40c30e681216aec4)method inherited from the [NodeRendererBase](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.node_renderer_base/) is useful for creating thumbnails of document content. The shape size is specified through the constructor. The **RenderToSize** method accepts the **Graphics** object, the X and Y coordinates of the image position, and the size of the image (width and height) that will be drawn onto the **Graphics** object.
 
@@ -73,7 +73,7 @@ The [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawin
 
 The following example shows how to render a Shape image to a JPEG image separately from the document and save it to the disk:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-RenderShape-RenderShapeImage.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-RenderShape-RenderShapeImage.cpp" >}}
 
 ## Retrieving a Shape Size
 
@@ -81,7 +81,7 @@ The [ShapeRenderer](https://apireference.aspose.com/words/cpp/class/aspose.word
 
 The below example shows how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-RenderShape-FindShapeSizes.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-RenderShape-FindShapeSizes.cpp" >}}
 
 When using the **RenderToSize** or **RenderToScale** methods, the rendered image size is also returned in the [SizeF](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.node_renderer_base/#a7cc8d30b23d0d8649ba8e106ed12a259) object. This can be assigned to a variable and used if necessary.
 

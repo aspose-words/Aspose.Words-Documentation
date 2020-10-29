@@ -34,7 +34,7 @@ Also, Aspose.Words allows you to display revisions in a document. Use the [Revi
 
 You can also have revisions displayed as comments to the content. For this purpose, use the [ShowInBalloons](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.revision_options/#aaa6f9d22f7a8749c9d43f19c68b2ff31) option, as shown in the following code example:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-WorkingWithRevisions-SetShowInBalloons.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithRevisions-SetShowInBalloons.cpp" >}}
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
