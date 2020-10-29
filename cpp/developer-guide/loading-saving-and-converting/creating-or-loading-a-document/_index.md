@@ -15,7 +15,7 @@ We will call the [Document](https://apireference.aspose.com/words/cpp/class/asp
 
 The following code example shows how to create a document using the document builder:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-CreateDocument-CreateDocument.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-CreateDocument-CreateDocument.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -32,11 +32,11 @@ To load an existing document in any of the LoadFormat formats, pass the file n
 
 ### Load from a File
 
-Pass a file name as string to the Document constructor to open an existing document from a file.
+Pass a file name as a string to the Document constructor to open an existing document from a file.
 
 The following code example shows how to open a document from a file:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-LoadAndSaveToDisk-OpenDocument.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToDisk-OpenDocument.cpp" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Loading-and-Saving/Document.doc).
 
@@ -46,7 +46,7 @@ To open a document from a stream, simply pass a stream object that contains the 
 
 The following code example shows how to open a document from a stream:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-LoadAndSaveToStream-OpeningFromStream.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToStream-OpeningFromStream.cpp" >}}
 
 {{% alert color="primary" %}} 
 

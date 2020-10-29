@@ -1,6 +1,8 @@
 ---
 title: Saving a Document
 type: docs
+description: "Aspose.Words enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
+keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /cpp/saving-a-document/
 ---
@@ -13,7 +15,7 @@ Simply use the [Save](https://apireference.aspose.com/words/cpp/class/aspose.wo
 
 The following code example shows how to load and save a document to a file:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-LoadAndSaveToDisk-LoadAndSave.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToDisk-LoadAndSave.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -27,7 +29,7 @@ Pass a stream object to the [Save](https://apireference.aspose.com/words/cpp/cla
 
 The following code example shows how to load and save a document to a stream:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-LoadAndSaveToStream-LoadAndSaveToStream.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToStream-LoadAndSaveToStream.cpp" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Quick-Start/Document.doc).
 
@@ -38,4 +40,4 @@ Aspose.Words supports saving a document into PCL (Printer Command Language). Asp
 
 The following code example shows how to save a document to PCL using save options:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-ConvertDocumentToPCL-ConvertDocumentToPCL.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToPCL-ConvertDocumentToPCL.cpp" >}}

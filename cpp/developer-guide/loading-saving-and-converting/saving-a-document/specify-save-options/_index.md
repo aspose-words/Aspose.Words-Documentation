@@ -1,6 +1,7 @@
 ---
 title: Specify Save Options
 type: docs
+aliases: [/cpp/working-with-saveoptions/]
 weight: 10
 url: /cpp/specify-save-options/
 ---
@@ -9,7 +10,7 @@ When saving a document, you can set some advanced properties. Aspose.Words provi
 
 The following code example shows how to set the save options before saving the document into HTML:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" 
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-SpecifySaveOption-SpecifySaveOption.cpp" >}}
 
 {{% alert color="primary" %}} 
@@ -28,14 +29,14 @@ For example, when saving a document to DOC or DOT format, use the [Password](ht
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" 
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cpp" >}}
 
 When saving a document to ODT format, use the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options#af6c4e23ded0f36d00f63b1bddbaa643c) property of the [OdtSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options) class.
 
 The following code example shows how to load and save OpenDocument encrypted with a password:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" 
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cpp" >}}
 
 Not all formats support encryption and the use of **Password** property.
@@ -46,7 +47,7 @@ Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](http
 
 The following code example shows how to set this property and save the document:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" 
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cpp" >}}
 
 ## Save Black and White Image with One Bit Per Pixel Format
@@ -55,4 +56,4 @@ To control image saving options, the **ImageSaveOptions** class is used. For exa
 
 The following code example shows how to save a black and white image with one bit per pixel format:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Rendering-Printing-ImageColorFilters-SaveImageToOnebitPerPixel.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-ImageColorFilters-SaveImageToOnebitPerPixel.cpp" >}}
