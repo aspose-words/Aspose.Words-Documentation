@@ -52,7 +52,7 @@ To solve the problems described above and to improve the security of web applica
 The following code example shows how to disable external images loading:
 
 **C++**
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 class DisableExternalImagesHandler : public IResourceLoadingCallback
 {
 public:
@@ -78,7 +78,7 @@ disableExternalImagesHandler->set_ResourceLoadingCallback(System::MakeObject<Dis
 The following code example shows how to disable remote resources:
 
 **C++**
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 class DisableRemoteResourcesHandler : public IResourceLoadingCallback
 {
 	static bool IsLocalResource(const System::String& originalUri)
