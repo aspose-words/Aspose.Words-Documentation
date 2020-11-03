@@ -9,7 +9,7 @@ url: /cpp/work-with-document-options-and-settings/
 
 If you need to show the title of the document in the window’s title bar of PDF, PdfSaveOptions.DisplayDocTitle serves this purpose. Set the value of this property to *true* to show the document's title in the window’s title bar. If the value of this property is *false*, the title bar should instead display the name of the PDF file containing the document.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Loading-and-Saving-Doc2Pdf-DisplayDocTitleInWindowTitlebar.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-Doc2Pdf-DisplayDocTitleInWindowTitlebar.cpp" >}}
 
 ## Setting View Options
 
@@ -21,19 +21,19 @@ Microsoft Word 2013 does not write any zoom factor to a document and no longer s
 
 {{% /alert %}} 
 
-The following code example demonstrates how to make sure the document is displayed at 50% zoom when opened in Microsoft Word. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/TestFile.doc).
+The following code example demonstrates how to make sure the document is displayed at 50% zoom when opened in Microsoft Word. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Document/TestFile.doc).
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-SetViewOption-SetViewOption.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SetViewOption-SetViewOption.cpp" >}}
 
 ## Remove Unused Styles and Lists from Document
 
 If you want to remove only unused styles or lists from the document, you can use Document.Cleanup method with CleanupOptions. CleanupOptions class allows us to specify options for document cleaning. The following code example demonstrates how to remove only unused styles from the document. 
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-CleansUnusedStylesandLists-CleansUnusedStylesandLists.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-CleansUnusedStylesandLists-CleansUnusedStylesandLists.cpp" >}}
 
 The following code example demonstrates how to remove duplicate styles from the document using DuplicateStyle property provided under the CleanupOptions class.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-WorkWithCleanupOptions-CleanupDuplicateStyle.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithCleanupOptions-CleanupDuplicateStyle.cpp" >}}
 
 ## Set Lines per Page and Number of Characters per Line
 
@@ -43,7 +43,7 @@ You can also set the number of lines per page for Word document. Please use Page
 
 The following code example demonstrates how to set the number of characters per line and number of lines per page for Word document. 
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentPageSetup-DocumentPageSetup.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentPageSetup-DocumentPageSetup.cpp" >}}
 
 ## Working With Import Format Options
 
@@ -58,7 +58,7 @@ When this option is **disabled**, a source style will be expanded only if it is
 
 For a moment, this option can be used only with a new public method of a DocumentBuilder class as shown in the example given below:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-WorkingWithImportFormatOptions-SmartStyleBehavior.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithImportFormatOptions-SmartStyleBehavior.cpp" >}}
 
 ### Set Keep Source Numbering
 
@@ -66,27 +66,27 @@ When import nodes between different documents there can be a situation when sour
 
 For using this property, a new public method that accepts the new KeepSourceNumbering option was introduced as shown in the following example. 
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-WorkingWithImportFormatOptions-KeepSourceNumbering.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithImportFormatOptions-KeepSourceNumbering.cpp" >}}
 
 ### Set Ignore Text Boxes
 
 When import a text box between different documents, the formatting of the destination document is applied to it. This corresponds to the behavior of the Word. To allow users to choose an appropriate behavior, the IgnoreTextBoxes option was introduced in ImportFormatOptions class. This property indicates whether to ignore formatting in the text boxes of the source-destination during the import and the default value is true.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-WorkingWithImportFormatOptions-IgnoreTextBoxes.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithImportFormatOptions-IgnoreTextBoxes.cpp" >}}
 
 
 ## Allowing to Setup Language Preferences
 
 Displaying the document in MS Word depends on what languages are set in defaults of that document. But what to do, if there are no languages are set in defaults? In this case, Word takes information from '*Set the Office Language Preferences*' dialogue, which for example, can be found under 'File -> Options -> Language' menu in Word 2016. With Aspose.Words, you can set up language preferences using LanguagePreferences class. The following code example demonstrates how to add the Japanese language to the editing languages. 
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cpp" >}}
 
 The following code example demonstrates how to set the Russian language as the default editing language.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-Setuplanguagepreferences-SetRussianAsDefaultEditingLanguage.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-SetRussianAsDefaultEditingLanguage.cpp" >}}
 
 ## Optimize Document to Particular MS Word Version
 
 CompatibilityOptions.OptimizeFor method allows optimizing the document contents as well as default Aspose.Words behavior to a particular version of MS Word. You can use this method to prevent MS Word from displaying the "Compatibility mode" ribbon upon document loading. Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher. The following code example demonstrates how to optimize document contents to MS Word 2016.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-SetCompatibilityOptions-OptimizeFor.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SetCompatibilityOptions-OptimizeFor.cpp" >}}
