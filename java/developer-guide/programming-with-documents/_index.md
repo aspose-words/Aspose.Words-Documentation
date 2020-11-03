@@ -1,11 +1,16 @@
 ---
 title: Programming with Documents
 type: docs
+description: "Use the Aspose.Words Document Object Model classes to programmatically create, modify, and manage documents. Work with document properties, settings, and content, as well as with document appearence through the management of colors, shapes, fonts and other graphics."
 weight: 60
 url: /java/programming-with-documents/
 ---
 
-**This section includes the following topics:**
+This section provides information on how to programmatically create, modify, and manage documents with the Aspose.Words Document Object Model classes. Articles in this section describe a wide range of document manipulation tasks enabling you to work with document properties, settings, content, and its elements.
+
+The visual appearance of documents is another important topic covered in this section that includes articles on working with colors, shapes, fonts, and other graphical elements.
+
+To learn more about Aspose.Words features when programming with documents, select the corresponding article or group of articles:
 
 - [Aspose.Words Document Object Model](/words/java/aspose-words-document-object-model/)
 - [Working with Document](/words/java/working-with-document/)
@@ -49,3 +54,5 @@ url: /java/programming-with-documents/
 - [Working with VBA Macros](/words/java/working-with-vba-macros/)
 - [Working with Digital Signatures](/words/java/working-with-digital-signatures/)
 - [Working with Fonts](/words/java/working-with-fonts/)
+
+For a detailed description of classes, methods, and properties refer to the Aspose.Words for Java API Reference section.
