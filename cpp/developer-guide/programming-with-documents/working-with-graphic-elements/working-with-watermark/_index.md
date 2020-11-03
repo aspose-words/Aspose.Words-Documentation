@@ -1,6 +1,8 @@
 ---
 title: Working with Watermark
 type: docs
+aliases:
+ - /cpp/how-to-add-a-watermark-to-a-document/
 weight: 260
 url: /cpp/working-with-watermark/
 ---

@@ -117,7 +117,7 @@ Form fields are also imported into Aspose.Words as their own special class. The 
 
 ### Fields Supported during Update
 
-Calculation of the following fields is supported in the current version of Aspose.Words:
+The calculation of the following fields is supported in the current version of Aspose.Words:
 
 - = (formula field)
 - ADDRESSBLOCK
@@ -224,8 +224,8 @@ A field in a document can have formatting switches that specify how the resultin
 
 ## How to Rename Merge Fields
 
-Below example shows how to rename merge fields in a Word document. You can download the template file of this example from here.
+The code example given below shows how to rename merge fields in a Word document. You can download the template file of this example from here.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cpp" >}}
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Fields-RenameMergeFields-MergeField.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-RenameMergeFields-MergeField.cpp" >}}
