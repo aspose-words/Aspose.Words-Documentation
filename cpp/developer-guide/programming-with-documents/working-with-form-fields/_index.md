@@ -7,7 +7,7 @@ url: /cpp/working-with-form-fields/
 
 ## Form Fields Overview
 
-A document that contains fill-in blanks (fields) is known as a form. For example, you can create a registration form in Microsoft Word that uses drop-down lists from which users can select entries. Form field is a location where a particular type of data, such as a name or address, is stored. Form fields in Microsoft Word include text input, combobox and checkbox.
+A document that contains fill-in blanks (fields) is known as a form. For example, you can create a registration form in Microsoft Word that uses drop-down lists from which users can select entries. A form field is a location where a particular type of data, such as a name or address, is stored. Form fields in Microsoft Word include text input, Combobox and checkbox.
 
 You can use form fields in your project to "communicate" with your users. For example, you create a document whose content is protected, but only form fields are editable. The users can enter the data in the form fields and submit the document. Your application that uses Aspose.Words can retrieve data from the form fields and process it.
 
@@ -39,20 +39,20 @@ Placing form fields into the document via code is easy. DocumentBuilder has spec
 
 ### Inserting Form Fields
 
-Use DocumentBuilder.InsertTextInput**,** DocumentBuilder.InsertCheckBox or DocumentBuilder.InsertComboBox to insert form fields into a document. Below example shows how to insert a combobox form field into a document.
+Use DocumentBuilder.InsertTextInput**,** DocumentBuilder.InsertCheckBox or DocumentBuilder.InsertComboBox to insert form fields into a document. The code example given below shows how to insert a combobox form field into a document.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cpp" >}}
 
 ### Obtaining Form Fields
 
-A collection of form fields is represented by the FormFieldCollection class that can be retrieved using the Range.FormFields property. This means that you can obtain form fields contained in any document node including the document itself. Below example shows how to get a collection of form fields. You can download the template file of this example from here.
+A collection of form fields is represented by the FormFieldCollection class that can be retrieved using the Range.FormFields property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from here.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.cpp" >}}
 
-You can get a particular form field by its index or name. Below example shows how to access form fields. You can download the template file of this example from here.
+You can get a particular form field by its index or name. The code example given below shows how to access form fields. You can download the template file of this example from here.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cpp" >}}
 
-The FormField properties allow you to work with form field name, type, and result. Below example shows how to work with form field name, type, and result. You can download the template file of this example from here.
+The FormField properties allow you to work with form field name, type, and result. The code example given below shows how to work with form field name, type, and result. You can download the template file of this example from here.
 
-{{< gist "aspose-words" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.cpp" >}}

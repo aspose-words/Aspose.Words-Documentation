@@ -44,7 +44,7 @@ Aspose.Words also enables you to use section breaks to split documents and save 
 
 The following code example shows how to split a document into smaller parts by section breaks (without using the DocumentSplitCriteria property):
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentBySections.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentBySections.cpp" >}}
 
 ## Splitting by Pages
 
@@ -66,7 +66,7 @@ Aspose.Words enables you to split a multi-page document page by page.
 
 The following code example shows how to divide a document and save each page as a separate document:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentPageByPage.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentPageByPage.cpp" >}}
 
 ### Split a Document by Page Ranges
 
@@ -74,7 +74,7 @@ Aspose.Words allows splitting a multi-page document by page ranges. You can spli
 
 The following code example shows how to split a document into smaller parts by page range with specific start and end indexes:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentByPageRange.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentByPageRange.cpp" >}}
 
 ## Merge the Split Document with Another File
 
@@ -82,4 +82,4 @@ Aspose.Words enables you to merge the output split document with another docu
 
 The following code example shows how to merge a split document with another document:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-SplitDocument-MergeSplitDocuments.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SplitDocument-MergeSplitDocuments.cpp" >}}

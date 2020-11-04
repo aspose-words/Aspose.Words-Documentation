@@ -7,7 +7,7 @@ url: /cpp/fields-overview/
 
 ## Fields Overview
 
-Fields in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula or a mail merge field. A field in a Microsoft Word document consists of a field code and a field result. The field code is an instruction about how the field result needs to be updated or calculated. An application that processes a document and encounters a field might have the functionality to interpret the instructions contained in the field code and update the field result with a new value. This is called field update.
+Fields in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula or a mail merge field. A field in a Microsoft Word document consists of a field code and a field result. The field code is an instruction about how the field result needs to be updated or calculated. An application that processes a document and encounters a field might have the functionality to interpret the instructions contained in the field code and update the field result with a new value. This is called a field update.
 
 Usually a field, when inserted in Microsoft Word, already contains an up to date value. For example, if the field is a formula or a page number, it will contain a correct calculated value for the given version of the document. But if you have an application that generates or modifies a document with fields (for example combines two documents or populates with data) then for the document to be useful, all fields should ideally be updated.
 
@@ -18,8 +18,8 @@ A field consists of:
 - The field start and separator nodes are used to encompass the content which makes up the field code (normally as plain text)
 - The field separator and field end encompass the field result. This can be made up of various types of content ranging from runs of text to paragraphs to tables.
 - Some fields may not have a separator which means the entire content makes up the field code.
-- The field code defines the behavior of the field and is comprised of the field identifier and often other parameters such as field name and switches.
-- The field result contains the most recent evaluation of the field. This value is stored in the field result and is what is displayed to the user. Some fields may not have any field result thus will not display anything in the document. Likewise, some fields may not be updated yet therefore will also have no field result.
+- The field code defines the behavior of the field and is comprised of the field identifier and often other parameters such as field names and switches.
+- The field result contains the most recent evaluation of the field. This value is stored in the field result and is what is displayed to the user. Some fields may not have any field results thus will not display anything in the document. Likewise, some fields may not be updated yet therefore will also have no field result.
 
 Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on Github.
 
@@ -28,11 +28,11 @@ Here is a view of how a field is stored in Aspose.Words by using the “*Documen
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
 - All fields in a document are preserved during open/save and conversions.
-- It is possible to update results of some of the most popular fields.
+- It is possible to update the results of some of the most popular fields.
 
 ## Fields in Microsoft Word
 
-Fields in Microsoft Word documents are complex. There are over 50 field types (each needs its own result calculation procedure), formulas and expressions, bookmarks and references, functions and various switches. Fields can also be nested. Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field result or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
+Fields in Microsoft Word documents are complex. There are over 50 field types (each needs its own result calculation procedure), formulas and expressions, bookmarks and references, functions and various switches. Fields can also be nested. Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field results or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
 
 |Field Code|Field Result|
 | :- | :- |
@@ -43,7 +43,7 @@ Fields in Microsoft Word documents are complex. There are over 50 field types (e
 To insert a field in Microsoft Word:
 
 1. Click on the **Insert** menu.
-1. Click on the **Quick Parts** drop down menu
+1. Click on the **Quick Parts** dropdown menu
 1. Select **Field**
 1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.
 
@@ -103,13 +103,13 @@ To remove a field in Microsoft Word:
 
 When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of FieldStart, FieldSeparator and FieldEnd nodes along with the content in between these nodes. If a field does not have a field result then there will be no FieldSeparator node. All of these nodes are always found inline (as children of Paragraph or SmartTag).
 
-The content which makes up the field code is stored as Run nodes between the FieldStart and FieldSeparator. The field result is stored between the FieldSeparator and FieldEnd nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of block level nodes such as Table and Paragraph nodes as well.
+The content which makes up the field code is stored as Run nodes between the FieldStart and FieldSeparator. The field result is stored between the FieldSeparator and FieldEnd nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of block-level nodes such as Table and Paragraph nodes as well.
 
 In Aspose.Words each of the **FieldXXX** nodes derives from FieldChar. This class provides a property to check the type of field represented by the specified node through the FieldChar.FieldType property. For example FieldType.FieldMergeField represents a merge field in the document.
 
 {{% alert color="primary" %}} 
 
-There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a Shape object. This object provides properties to work with the image data normally stored in these fields.
+There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, the LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a Shape object. This object provides properties to work with the image data normally stored in these fields.
 
 Form fields are also imported into Aspose.Words as their own special class. The FormField class represents a form field in a Word document and provides additional methods that are particular to a form field.
 

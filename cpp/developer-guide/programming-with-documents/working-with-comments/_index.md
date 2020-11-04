@@ -39,54 +39,54 @@ To illustrate how to extract and remove comments from a document, we will go thr
 
 The code in this sample is actually quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document using the Document.GetChildNodes method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the Document.GetChildNodes method is set to true: this forces the Document.GetChildNodes to select from all child nodes recursively, rather than only collecting the immediate children.
 
-The Document.GetChildNodes method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. Below example extracts the author name, date&time and text of all comments in the document.
+The Document.GetChildNodes method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. The code example given below extracts the author's name, date&time and text of all comments in the document.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-ProcessComments-ExtractComments.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-ExtractComments.cpp" >}}
 
 After you have selected Comment nodes into a collection, all you have to do is extract the information you need. In this sample, author initials, date, time and the plain text of the comment is combined into one string; you could choose to store it in some other ways instead.
 
-The overloaded method that extracts the Comments from a particular author is almost the same, it just checks the author’s name before adding the info into the array. Below example extracts the author name, date&time and text of the comments by the specified author.
+The overloaded method that extracts the Comments from a particular author is almost the same, it just checks the author’s name before adding the info into the array. The code example given below extracts the author's name, date&time and text of the comments by the specified author.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-ProcessComments-ExtractCommentsByAuthor.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-ExtractCommentsByAuthor.cpp" >}}
 
-If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling NodeCollection.Clear on the comments collection. Below example removes all comments in the document.
+If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling NodeCollection.Clear on the comments collection. The code example given below removes all comments in the document.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-ProcessComments-RemoveComments.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-RemoveComments.cpp" >}}
 
-When you need to selectively remove comments, the process becomes more similar to the code we used for comment extraction. Below example removes comments by the specified author.
+When you need to selectively remove comments, the process becomes more similar to the code we used for comment extraction. The code example given below removes comments by the specified author.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-ProcessComments-RemoveCommentsByAuthor.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-RemoveCommentsByAuthor.cpp" >}}
 
-The main point to highlight here is the use of the for the operator. Unlike the simple extraction, here you want to delete a comment. A suitable trick is to iterate the collection backwards from the last Comment to the first one. The reason for this if you start from the end and move backwards, the index of the preceding items remains unchanged, and you can work your way back to the first item in the collection. The demo-code that illustrates the methods for the comments extraction and removal. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Comments/TestFile.doc).
+The main point to highlight here is the use of the for operator. Unlike the simple extraction, here you want to delete a comment. A suitable trick is to iterate the collection backwards from the last Comment to the first one. The reason for this if you start from the end and move backwards, the index of the preceding items remains unchanged, and you can work your way back to the first item in the collection. The demo-code that illustrates the methods for the comments extraction and removal. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Comments/TestFile.doc).
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-ProcessComments-ProcessComments.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-ProcessComments.cpp" >}}
 
 ## How to Add a Comment
 
-Below example shows how to add a comment to a paragraph in the document.
+The code example given below shows how to add a comment to a paragraph in the document.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-AddComments-AddComments.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AddComments-AddComments.cpp" >}}
 
-Below example shows how to anchor a comment to a region of text.
+The code example given below shows how to anchor a comment to a region of text.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-AnchorComment-AnchorComment.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AnchorComment-AnchorComment.cpp" >}}
 
 ## How to Remove Text between CommentRangeStart and CommentRangeEnd
 
-Below example shows how to remove text between CommentRangeStart and CommentRangeEnd nodes.
+The code example given below shows how to remove text between CommentRangeStart and CommentRangeEnd nodes.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-RemoveRegionText-RemoveRegionText.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-RemoveRegionText-RemoveRegionText.cpp" >}}
 
 ## How to Read Comment's Reply
 
-Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. Below example shows how to iterate through a comment's replies and resolved them.
+Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below shows how to iterate through a comment's replies and resolved them.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cpp" >}}
 
 ## How to Add and Remove Comment's Reply
 
 The Comment.AddReply method adds a reply to this comment. Please note that due to the existing MS Office limitations only 1 level of replies are allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
 
-You can use Comment.RemoveReply method to remove the specified reply to this comment. Following code example shows how to add a reply to comment and remove comment's reply.
+You can use Comment.RemoveReply method to remove the specified reply to this comment. The following code example shows how to add a reply to a comment and remove the comment's reply.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-CommentReply-AddRemoveCommentReply.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-CommentReply-AddRemoveCommentReply.cpp" >}}
