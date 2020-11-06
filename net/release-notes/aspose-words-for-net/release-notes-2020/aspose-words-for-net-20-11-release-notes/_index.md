@@ -228,3 +228,36 @@ Use Case:
  
     doc.Save(dir + "DataPoints.docx");
 {{< /highlight >}}
+
+### Aspose.Words now retains hyperlinks in the output PDF (breaking change)
+Reference: WORDSNET-21281
+
+In the past, we satisfied a customer's request for removing HYPERLINK fields in TOC field result when the MailMergeCleanupOptions.RemoveStaticFields option is specified. However, MS Word retains them, and an ES customer asked us to change Aspose.Words' behaviour accordingly (WORDSNET-21281). We have implemented that in 20.11.
+
+Here is the code snippet for backward compatibility:
+{{< highlight csharp >}}
+    foreach (FieldPageRef field in document.Range.Fields.OfType<FieldPageRef>())
+        field.Unlink();
+ 
+    foreach (FieldHyperlink field in document.Range.Fields.OfType<FieldHyperlink>())
+    {
+        HashSet<Inline> hyperlinkNodes = new HashSet<Inline>();
+        Node resultNode = field.Separator;
+        while (true)
+        {
+            if (resultNode is Inline inline && inline.Font.StyleIdentifier == StyleIdentifier.Hyperlink)
+                hyperlinkNodes.Add(inline);
+ 
+            if (resultNode == field.End)
+                break;
+
+            resultNode = resultNode.NextSibling;
+        }
+ 
+        // Unlink method clears Hyperlink style according to MS Word behaviour.
+        field.Unlink();
+ 
+        foreach (Inline inline in hyperlinkNodes)
+            inline.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
+    }
+{{< /highlight >}}
