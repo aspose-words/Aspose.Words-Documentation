@@ -1,7 +1,7 @@
 ---
 title: Introduction and Creating Tables
 type: docs
-weight: 20
+weight: 10
 url: /cpp/introduction-and-creating-tables/
 ---
 
@@ -121,15 +121,15 @@ In Aspose.Words a table is normally inserted using DocumentBuilder. The followin
 
 Below example shows how to create a simple table using DocumentBuilder with default formatting:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-SimpleTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-SimpleTable.cpp" >}}
 
 Below example shows how to create a formatted table using DocumentBuilder:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-FormattedTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-FormattedTable.cpp" >}}
 
 Below example shows how to insert a nested table using DocumentBuilder:
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-NestedTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-NestedTable.cpp" >}}
 
 ### Inserting a Table Directly into the Document Object Model
 
@@ -139,13 +139,13 @@ Note that you must take into account that the table will initially be completely
 
 Below example shows how to insert a table using the constructors of nodes.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-InsertTableDirectly-InsertTableDirectly.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableDirectly-InsertTableDirectly.cpp" >}}
 
 ### Inserting a Clone of an Existing Table
 
 Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the Table.Clone method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -155,7 +155,7 @@ The same technique can be used to add copies of an existing row to a table.
 
 Below example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-CloneTable-CloneLastRow.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneLastRow.cpp" >}}
 
 If you are looking at creating tables in the document which dynamically grow with each record from your data source, then the above method is not advised.
 Instead, the desired output is achieved more easily by using Mail Merge with Regions. You can learn more about this technique under Mail Merge with Regions Explained.
@@ -164,7 +164,7 @@ Instead, the desired output is achieved more easily by using Mail Merge with Reg
 
 Aspose.Words supports inserting content into a document from an HTML source by using the DocumentBuilder.InsertHtml method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cpp" >}}
 
 ### Comparison of Insertion Techniques
 
@@ -180,7 +180,7 @@ As described in previous articles, Aspose.Words provides several methods for ins
 
 A Table like any other node in Aspose.Words has access to a Range object. Using this object, you can call methods over the entire table range to extract the table as plain text. The Range.Text property is used for this purpose. Below example shows how to print the text range of a table.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-ExtractText.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-ExtractText.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -190,7 +190,7 @@ The same technique is used to extract the content from individual cells of a tab
 
 Below example shows how to print the text range of row and table elements.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-PrintTextRangeOFRowAndTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-PrintTextRangeOFRowAndTable.cpp" >}}
 
 ## Replacing Text in a Table
 
@@ -200,4 +200,4 @@ Normally the replacement of text should be done at the cell level (per cell) or 
 
 Below example shows how to replace all instances of a string of text in a table and cell.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-ReplaceText.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-ReplaceText.cpp" >}}

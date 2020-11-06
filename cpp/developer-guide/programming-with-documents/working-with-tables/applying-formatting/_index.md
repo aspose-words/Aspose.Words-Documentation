@@ -1,7 +1,7 @@
 ---
 title: Applying Formatting
 type: docs
-weight: 10
+weight: 20
 url: /cpp/applying-formatting/
 ---
 
@@ -16,11 +16,11 @@ To apply formatting to a table you can use the properties available on the corre
 
 The following code example shows how to apply an outline border to a table. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-ApplyOutlineBorder.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-ApplyOutlineBorder.cpp" >}}
 
 The following code example shows how to build a table with all borders enabled (grid). You can download the template file of this example from here
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-BuildTableWithBordersEnabled.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-BuildTableWithBordersEnabled.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -34,7 +34,7 @@ Formatting on the row level can be controlled using the RowFormat property of 
 
 The following code example shows how to modify the formatting of a table row. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-ModifyRowFormatting.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-ModifyRowFormatting.cpp" >}}
 
 ### Applying Formatting on the Cell Level
 
@@ -42,11 +42,11 @@ Formatting on the cell level is controlled using the CellFormat property of th
 
 The following code example shows how to modify the formatting of a table cell. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-ModifyCellFormatting.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-ModifyCellFormatting.cpp" >}}
 
 The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-SetCellPadding.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-SetCellPadding.cpp" >}}
 
 ### Specifying Row Heights
 
@@ -66,7 +66,7 @@ The simplest way to set row height is by using DocumentBuilder. Using the approp
 
 The following code example shows how to create a table that contains a single cell and applies row formatting.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-ApplyRowFormatting.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-ApplyRowFormatting.cpp" >}}
 
 ### Applying Borders and Shading
 
@@ -74,7 +74,7 @@ Borders and shading can be applied either table wide using Table.SetBorder, Tabl
 
 The following code example shows how to format a table and cells with different borders and shadings.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-FormatTableAndCellWithDifferentBorders.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-FormatTableAndCellWithDifferentBorders.cpp" >}}
 
 ## Specifying Table and Cell Widths
 
@@ -125,7 +125,7 @@ The appropriate preferred width type and value are set by using the methods of t
 
 Using the Table.PreferredWidth property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). The example below shows how to set a table to auto fit to 50% of the page width.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-AutoFitToPageWidth.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-AutoFitToPageWidth.cpp" >}}
 
 Before you can use preferred widths on a table you must make sure that the table contains at least one row. This is because such table formatting in a Microsoft Word document is stored in the rows of a table.
 
@@ -133,19 +133,19 @@ Before you can use preferred widths on a table you must make sure that the table
 
 Using the CellFormat.PreferredWidth property on a given cell will adjust its preferred width. The following code example shows how to set the different preferred width settings.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-SetPreferredWidthSettings.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-SetPreferredWidthSettings.cpp" >}}
 
 #### Finding Preferred Width Type and Value of a Table or Cell
 
 You can use PreferredWidth.Type and PreferredWidth.Value properties to find the preferred width details of the desired table or cell. Below example shows how to Retrieves the preferred width type of a table cell. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-RetrievePreferredWidthType.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-RetrievePreferredWidthType.cpp" >}}
 
 #### Allowing AutoFit
 
 The Table.AllowAutoFit property enables cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. The following code example shows how to set a table to shrink or grow each cell to accommodate its contents.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-AllowAutoFit.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-AllowAutoFit.cpp" >}}
 
 #### Using Cell Width
 
@@ -187,19 +187,19 @@ Currently, you cannot create new table styles. You can only apply in-built table
 
 In Aspose.Words you can apply a table style by using any of the Table.Style, Table.StyleIdentifier and Table.StyleName properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using Table.StyleOptions property. The TableStyleOptions enumeration allows a bitwise combination of these features. The following code example shows how to build a new table with a table style applied.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyStyle-BuildTableWithStyle.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-BuildTableWithStyle.cpp" >}}
 
 Aspose.Words also provides a method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Test combine formatting with table style and cell style. This method will not override any other formatting that is already applied to the table through a row or cell format.
 
 The following code example shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyStyle-ExpandFormattingOnCellsAndRowFromStyle.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-ExpandFormattingOnCellsAndRowFromStyle.cpp" >}}
 
 ## Get Distance between Table and Surrounding Text
 
 The following code example shows how to get the distance between the table and its surrounding text. 
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-GetDistancebetweenTableSurroundingText.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-GetDistancebetweenTableSurroundingText.cpp" >}}
 
 ## Table Position
 
@@ -207,32 +207,32 @@ The following code example shows how to get the distance between the table and 
 
 If the table's text wrapping is *Around*, you can get the table's horizontal and vertical alignment using Table.RelativeHorizontalAlignment and Table.RelativeVerticalAlignment properties. In other cases, you can get the table's inline alignment using Table.Alignment property. The following code example shows how to get the table's alignment.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-TablePosition-GetTablePosition.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-TablePosition-GetTablePosition.cpp" >}}
 
 ### Get Position of Floating Table
 
 The following code example shows how to get the position of the floating table. 
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-TablePosition-GetFloatingTablePosition.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-TablePosition-GetFloatingTablePosition.cpp" >}}
 
 ### Set Position of Floating Table
 
 The following code example shows how to set the position of the floating table. 
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-TablePosition-SetFloatingTablePosition.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-TablePosition-SetFloatingTablePosition.cpp" >}}
 
 The following code example demonstrates how to set horizontal and vertical positioning of the floating table.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-TablePosition-SetRelativeHorizontalOrVerticalPosition.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-TablePosition-SetRelativeHorizontalOrVerticalPosition.cpp" >}}
 
 ## Working with Alternative Text of Table
 
 The title and description of the table provide alternative text-based representations of the information contained in the table. MS Word allows to set this information (*Right-click the table, click Table Properties, click the Alt Text tab, and then set the title and description of the table*). With Aspose.Words you can achieve this by using Table. Title and Table.Description properties. These properties are meaningful for ISO/IEC 29500 compliant DOCX documents. When saved to pre-ISO/IEC 29500 formats, these properties are ignored. The following code example shows how to set the table's title and description properties.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-SetTableTitleandDescription.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-SetTableTitleandDescription.cpp" >}}
 
 ## Allow Spacing Between Cells
 
 MS Word does not add any additional space between the cells in a table by default. You can find this option in the table's properties in MS Word. You can get or set "Allow spacing between cells" option using Table.AllowCellSpacing property. Below code example shows how to set space between cells.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyFormatting-AllowCellSpacing.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-AllowCellSpacing.cpp" >}}

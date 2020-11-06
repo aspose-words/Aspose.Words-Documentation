@@ -13,19 +13,19 @@ Finding the index of any node involves gathering all child nodes of the element�
 
 Below example shows how to retrieve the index of a table in the document.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveTableIndex.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveTableIndex.cpp" >}}
 
 ### Finding the Index of a Row in a Table
 
 Below example shows how to retrieve the index of a row in a table.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveRowIndex.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveRowIndex.cpp" >}}
 
 ### Finding the Index of a Cell in a Row
 
 Below example shows how to retrieve the index of a cell in a row.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveCellIndex.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveCellIndex.cpp" >}}
 
 ## Working with Columns
 
@@ -41,15 +41,15 @@ In the Aspose.Words Document Object Model a Table node is made up of Row and
 
 You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example demonstrates a facade object for working with a column of a table.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cpp" >}}
 
 Below example shows how to insert a blank column into a table.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-AddRemoveColumn-InsertBlankColumn.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-InsertBlankColumn.cpp" >}}
 
 Below example shows how to remove a column from a table in a document.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-AddRemoveColumn-RemoveColumn.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-RemoveColumn.cpp" >}}
 
 ## Specifying Rows to Repeat on Subsequent Pages as Header Rows
 
@@ -65,7 +65,7 @@ Note that heading rows do not work in nested tables. That is, if you have a tabl
 
 Below example shows how to build a table which includes heading rows that repeat on subsequent pages.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-RepeatRowsOnSubsequentPages-RepeatRowsOnSubsequentPages.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-RepeatRowsOnSubsequentPages-RepeatRowsOnSubsequentPages.cpp" >}}
 
 ## How to Apply Different AutoFit Settings to a Table
 
@@ -79,7 +79,7 @@ As in Microsoft Word, an autofit method is actually a shortcut which applies dif
 
 Below example autofits a table to fit the page width. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/TestFile.doc).
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-AutoFitTableToWindow-AutoFitTableToPageWidth.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AutoFitTableToWindow-AutoFitTableToPageWidth.cpp" >}}
 
 When autofit to the window is applied to a table the following operations are actually being performed behind the scenes:
 
@@ -93,7 +93,7 @@ When autofit to the window is applied to a table the following operations are ac
 
 Below example autofits a table in the document to its contents. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-AutoFitTableToContents-AutoFitTableToContents.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AutoFitTableToContents-AutoFitTableToContents.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -113,7 +113,7 @@ Note that this autofit option clears the preferred widths from the cells just li
 
 Below example disables autofitting and enables fixed widths for the specified table. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cpp" >}}
 
 When a table has auto fit disabled and fixed column widths used instead the following steps are taken:
 
@@ -143,7 +143,7 @@ We will use the table below in our example. By default, it has the properties ab
 
 This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word this can found under Table Properties as the option “Allow Row to break across Pages”. In Aspose.Words this is found under the RowFormat object of a Row as the property RowFormat.AllowBreakAcrossPages. Below example shows how to disable rows breaking across pages for every row in a table. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-RowFormatDisableBreakAcrossPages.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-RowFormatDisableBreakAcrossPages.cpp" >}}
 
 ### Keeping a Table from Breaking across Pages
 
@@ -151,7 +151,7 @@ To stop a table from splitting across the page we need to state that we wish the
 
 In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have ParagraphFormat.KeepWithNext set to true. The exception is the last paragraph in the table which should be set to false. Below example shows how to set a table to stay together on the same page. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-KeepTableTogether.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-KeepTableTogether.cpp" >}}
 
 ## Working with Merged Cells
 
@@ -173,25 +173,25 @@ Sometimes when you load existing document cells in a table will appear merged. H
 
 To check if a cell is part of a sequence of merged cells, we simply check the CellFormat.HorizontalMerge and CellFormat.VerticalMerge properties. Below example prints the horizontal and vertical merge type of a cell. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-MergedCells-CheckCellsMerged.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-CheckCellsMerged.cpp" >}}
 
 ### Merging Cells in a Table
 
 The same technique is used to set the merge behavior on the cells in a table. When building a table with merged cells with DocumentBuilder you need to set the appropriate merge type for each cell. Also, you must remember to clear the merge setting or otherwise all cells in the table will become merged. This can be done by setting the value of the appropriate merge property to CellMerge.None. Below example creates a table with two rows with cells in the first row horizontally merged.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-MergedCells-HorizontalMerge.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-HorizontalMerge.cpp" >}}
 
 Below example creates a table with two columns with cells merged vertically in the first column.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-MergedCells-VerticalMerge.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-VerticalMerge.cpp" >}}
 
 In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over many rows or columns. A method which merges all cells of a table in the specified range of cells.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-MergedCells-MergeCells.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-MergeCells.cpp" >}}
 
 Below example merges the range of cells between the two specified cells. You can download the template file of this example from here.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-MergedCells-MergeCellRange.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-MergeCellRange.cpp" >}}
 
 Depending on the version of the .NET Framework you are using, you may want to further build on this method by turning it into an extension method. In this case, you can then call this method directly on a cell to merge a range of cells e.g cell1.Merge(cell2).
 
@@ -203,9 +203,9 @@ A table in Html has essentially different structure: each row has the same numbe
 
 Use the following code example if CellFormat.HorizontalMerge and CellFormat.VerticalMerge returns an incorrect value. The below example prints the horizontal and vertical merge of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.MergedCells.doc).
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-MergedCells-PrintHorizontalAndVerticalMerged.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-PrintHorizontalAndVerticalMerged.cpp" >}}
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-MergedCells-HorizontalAndVerticalMergeHelperClasses.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-HorizontalAndVerticalMergeHelperClasses.cpp" >}}
 
 ### Convert To Horizontally Merged Cells
 
@@ -213,4 +213,4 @@ In the latest versions of MS Word, the cells are merged horizontally by its widt
 
 The following code example shows the working of the above-mentioned method.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-MergedCells-ConvertToHorizontallyMergedCells.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-ConvertToHorizontallyMergedCells.cpp" >}}

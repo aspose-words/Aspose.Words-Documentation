@@ -1,7 +1,7 @@
 ---
 title: Working with TableStyle
 type: docs
-weight: 10
+weight: 25
 url: /cpp/working-with-tablestyle/
 ---
 
@@ -13,10 +13,10 @@ Aspose.Words provides TableStyle inherited from Style class. The TableStyle 
 
 A table style can be created using the StyleCollection.Add method. The code example given below shows how to create a table style.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyStyle-CreateTableStyle.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-CreateTableStyle.cpp" >}}
 
 ## Defining Conditional Formatting
 
 Conditional formatting can be defined for all possible table area defined under ConditionalStyleType enumeration type. The following code example shows how to define conditional formatting for the header row of the table.
 
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Tables-ApplyStyle-DefineConditionalFormatting.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-DefineConditionalFormatting.cpp" >}}
