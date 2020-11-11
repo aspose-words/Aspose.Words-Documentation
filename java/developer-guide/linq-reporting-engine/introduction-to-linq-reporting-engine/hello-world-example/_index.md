@@ -13,24 +13,8 @@ A "Hello, World" example is traditionally used to introduce features of a progra
 
 Assume, that you have the Sender class defined in your application as follows:
 
-**Java**
 
-{{< highlight csharp >}}
-public class Sender {
-    public Sender(String name, String message) {
-        _name = name;
-        _message = message;
-    }
-    public String getName() {
-        return _name;
-    }
-    public String getMessage() {
-        return _message;
-    }
-    private String _name;
-    private String _message;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-linq-Sender-Sender.java" >}}
 
 To produce a report containing a message of a concrete sender on its behalf, you can use a template document with the following content.
 
@@ -40,15 +24,7 @@ To produce a report containing a message of a concrete sender on its behalf, you
 
 To build a report from the template, you can use the following source code.
 
-**Java**
-
-{{< highlight csharp >}}
-Document doc = new Document(getMyDir() + "temp_HelloWorld.docx");
-Sender sender = new Sender("LINQ Reporting Engine", "Hello World");
-ReportingEngine engine = new ReportingEngine();
-engine.buildReport(doc, sender, "s");
-doc.save(getMyDir() + "out.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-linq-HelloWorld-HelloWorld.java" >}}
 
 After the source code is ran, the template document is populated with the data about the sender, and the document becomes a ready report with the following content.
 

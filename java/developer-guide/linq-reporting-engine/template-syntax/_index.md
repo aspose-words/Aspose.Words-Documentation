@@ -1,7 +1,7 @@
 ---
 title: Template Syntax
 type: docs
-weight: 30
+weight: 80
 url: /java/template-syntax/
 ---
 
