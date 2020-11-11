@@ -1,8 +1,8 @@
 ---
 title: Programming with Documents
 type: docs
-description: "Use the Aspose.Words Document Object Model classes to programmatically create, modify, and manage documents. Work with document properties, settings, and content, as well as with document appearence through the management of colors, shapes, fonts and other graphics."
-weight: 30
+description: "Use the Aspose.Words Document Object Model classes to programmatically create, modify, and manage documents. Work with document properties, settings, and content, as well as with document appearance through the management of colors, shapes, fonts and other graphics."
+weight: 50
 url: /cpp/programming-with-documents/
 ---
 
