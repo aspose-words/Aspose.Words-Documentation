@@ -1,17 +1,19 @@
 ---
 title: Working with Document
 type: docs
+description: "The Document class provides various document properties and methods. You use the Document class as the starting point for whatever you want to perform with Aspose.Words. The Document object can be saved to a file or stream and also sent to a browser."
 weight: 30
 url: /net/working-with-document/
 ---
 
-The Document is a central class in Aspose.Words and represents a document and provides various document properties and methods such as saving or protecting the document.
+The [Document](https://apireference.aspose.com/words/net/aspose.words/document) class is central in Aspose.Words. It represents a document and provides various document properties and methods, such as saving or protecting the document. You use the **Document** class as the starting point for whatever you want to perform with Aspose.Words: create a new document from scratch, open a template for a mail merge, or get different parts from a document.
 
-Whatever you want to perform with Aspose.Words: create a new document from scratch, open a template for mail merge, get different parts from the document - use the **Document** class as your starting point. The **Document** object contains all content and formatting, styles, built-in and custom properties, and the [MailMerge](http://www.aspose.com/api/net/words/aspose.words.mailmerging/MailMerge) object that is used for a mail merge.
+The **Document** object contains all content and formatting, styles, built-in and custom properties, and the [MailMerge](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge) object that is used for a mail merge. **Document** enables you to retrieve text, bookmarks, and form fields for the entire document or separate sections.
 
-The **document** allows you to retrieve text, bookmarks and form fields for the whole document or for separate sections. The **document** contains a collection of the [Section](http://www.aspose.com/api/net/words/aspose.words/section) objects so that you can obtain a particular section or do some manipulations like copying or moving sections. The **document** can be saved at any time to a file or stream and also be sent to a client browser.
+**Document** contains a collection of the [Section](https://apireference.aspose.com/words/net/aspose.words/section) objects enabling you to obtain a particular section or perform some manipulations such as copying or moving sections. The **Document** object can be saved at any time to a file or stream and also sent to a client browser.
 
-**This section includes the following topics:**
+The "Working with Document" section includes the following topics:
+
 - [Document Builder Overview](/words/net/document-builder-overview/)
 - [Work with Document Properties](/words/net/work-with-document-properties/)
 - [Work with Document Options and Settings](/words/net/work-with-document-options-and-settings/)
