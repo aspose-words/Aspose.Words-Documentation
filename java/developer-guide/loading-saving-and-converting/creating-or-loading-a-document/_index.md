@@ -13,7 +13,7 @@ We will call the [Document](https://apireference.aspose.com/words/java/com.aspo
 
 The following code example shows how to create a document using the document builder:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CreateDocument-CreateDocument.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CreateDocument-CreateDocument.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -30,11 +30,11 @@ To load an existing document in any of the [LoadFormat](https://apireference.as
 
 ### Load from a File
 
-Pass a file name as string to the Document constructor to open an existing document from a file.
+Pass a file name as a string to the Document constructor to open an existing document from a file.
 
 The following code example shows how to open a document from a file:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromFile.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromFile.java" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/OpenDocument/Document.doc).
 
@@ -44,7 +44,7 @@ To open a document from a stream, simply pass a stream object that contains the 
 
 The following code example shows how to open a document from a stream:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromStream.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromStream.java" >}}
 
 {{% alert color="primary" %}} 
 

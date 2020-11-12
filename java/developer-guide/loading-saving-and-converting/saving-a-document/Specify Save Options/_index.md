@@ -10,7 +10,7 @@ When saving a document, you can set some advanced properties. Aspose.Words provi
 
 The following code example shows how to set the save options before saving the document into HTML:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifySaveOption-SpecifySaveOption.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifySaveOption-SpecifySaveOption.java" >}}
 
 
 {{% alert color="primary" %}} 
@@ -29,13 +29,13 @@ For example, when saving a document to DOC or DOT format, use the [Password](ht
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithDocSaveOptions-EncryptDocumentWithPassword.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithDocSaveOptions-EncryptDocumentWithPassword.java" >}}
 
 When saving a document to ODT format, use the [Password](https://apireference.aspose.com/words/java/com.aspose.words/odtsaveoptions#Password) property of the [OdtSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/odtsaveoptions) class.
 
 The following code example shows how to load and save OpenDocument encrypted with a password:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadAndSaveEncryptedODT.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadAndSaveEncryptedODT.java" >}}
 
 Not all formats support encryption and the use of **Password** property.
 
@@ -45,7 +45,7 @@ Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](http
 
 The following code example shows how to set this property and save the document:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithOoXML-updateLastSavedTimeProperty.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithOoXML-updateLastSavedTimeProperty.java" >}}
 
 ## Save Black and White Image with One Bit Per Pixel Format
 
@@ -53,4 +53,4 @@ To control image saving options, the **ImageSaveOptions** class is used. For exa
 
 The following code example shows how to save a black and white image with one bit per pixel format:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-ImageColorFilters-SaveImageToOnebitPerPixel.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-ImageColorFilters-SaveImageToOnebitPerPixel.java" >}}

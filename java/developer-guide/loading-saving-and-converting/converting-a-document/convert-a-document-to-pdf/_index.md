@@ -30,7 +30,7 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 
 The following code example shows how to convert a document from DOCX into PDF using the Save method:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-Doc2Pdf.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-Doc2Pdf.java" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertImageToPdf/Template.doc).
 
@@ -48,7 +48,7 @@ Aspose.Words provides the [PdfCompliace ](https://apireference.aspose.com/word
 
 The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions) with compliance to PDF17:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ConversionToPDF17.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ConversionToPDF17.java" >}}
 
 ## Convert an Image to PDF
 
@@ -56,9 +56,9 @@ Converting to PDF is not restricted by Microsoft Word document formats. Any for
 
 The following code example shows how to convert JPEG and TIFF images to PDF:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-ImageToPdf.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-ImageToPdf.java" >}}
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-ConvertImageToPDF.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-ConvertImageToPDF.java" >}}
 
 To make this code work, you need to add references to Aspose.Words, Java.awt.image, and javax.imageio class packages to your project.
 

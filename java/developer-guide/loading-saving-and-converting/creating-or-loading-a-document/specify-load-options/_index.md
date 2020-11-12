@@ -15,7 +15,7 @@ By default Aspose.Words opens documents using Microsoft Word 2019 rules. If you 
 
 The following code example shows how to set the Microsoft Word version with load options:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetMSWordVersion.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetMSWordVersion.java" >}}
 
 ## Set Language Preferences to Change the Appearance
 
@@ -23,7 +23,7 @@ The details of displaying a document in Microsoft Word depend not only on the ap
 
 The following code example shows how to set Japanese as **EditingLanguage**:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
 ## Use WarningCallback to Control Problems While Loading a Document
 
@@ -31,13 +31,13 @@ Some documents may be corrupted, contain invalid entries, or have features not c
 
 The following code example shows the implementation of the **IWarningCallback** interface:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-DocumentLoadingWarningCallback.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-DocumentLoadingWarningCallback.java" >}}
 
 To get information about all problems throughout the load time, use the [WarningCallback](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#WarningCallback) property.
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsWarningCallback.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsWarningCallback.java" >}}
 
 ## Use ResourceLoadingCallback to Control the External Resources Loading
 
@@ -45,21 +45,21 @@ A document may contain external links to images located somewhere on a local dis
 
 The following code example shows the implementation of the [IResourceLoadingCallback](https://apireference.aspose.com/words/java/com.aspose.words/IResourceLoadingCallback) interface:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-HtmlLinkedResourceLoadingCallback.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-HtmlLinkedResourceLoadingCallback.java" >}}
 
 The following code example shows how to use the **ResourceLoadingCallback** property:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsResourceLoadingCallback.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsResourceLoadingCallback.java" >}}
 
 ## Use TempFolder to Avoid a Memory Exception
 
 Aspose.Words supports extremely large documents that have thousands of pages full of rich content. Loading such documents may require much RAM. In the process of loading, Aspose.Words needs even more memory to hold temporary structures used to parse a document.
 
-If you have a problem with Out of Memory exception while loading a document, try to use the [TempFolder](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#TempFolder) property. In this case, Aspose.Words will store some data in temporary files instead of memory, and this can help avoid such an exception.
+If you have a problem with the Out of Memory exception while loading a document, try to use the [TempFolder](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#TempFolder) property. In this case, Aspose.Words will store some data in temporary files instead of memory, and this can help avoid such an exception.
 
 The following code example shows how to set **TempFolder**:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetTempFolder.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetTempFolder.java" >}}
 
 ## Set the Encoding Explicitly
 
@@ -67,7 +67,7 @@ Most modern document formats store their content in Unicode and do not require s
 
 The following code example shows how to set the encoding to override the automatically chosen encoding:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadOptionsEncoding.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadOptionsEncoding.java" >}}
 
 ## Load Encrypted Documents
 
@@ -75,10 +75,10 @@ You can load Word documents encrypted with a password. To do this, use a special
 
 The following code example shows how to load a document encrypted with a password:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenEncryptedDocument.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenEncryptedDocument.java" >}}
 
 If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/words/java/com.aspose.words/FileFormatUtil) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the [IsEncrypted](https://apireference.aspose.com/words/java/com.aspose.words/fileformatinfo#IsEncrypted) property.
 
 The following code example shows how to verify OpenDocument either it is encrypted or not:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-VerifyODTdocument.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-VerifyODTdocument.java" >}}

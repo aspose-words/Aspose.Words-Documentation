@@ -15,7 +15,7 @@ For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://apire
 
 The following example shows how to convert DOCX to HTML with specifying a save format:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocxToHtml.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocxToHtml.java" >}}
 
 To convert a document to MHTML or EPUB, use SaveFormat.MHTML or SaveFormat.EPUB respectively.
 
@@ -30,7 +30,7 @@ The default value is **true** for HTML and **false** for MHTML and EPUB:
 
 The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToHtmlWithRoundtrip.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToHtmlWithRoundtrip.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -52,7 +52,7 @@ In this example, **ResourceFolder** specifies the relative path. This path ref
 
 The following code example shows how to work with these properties:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportResourcesUsingHtmlSaveOptions.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportResourcesUsingHtmlSaveOptions.java" >}}
 
 Using the [ResourceFolderAlias](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ResourceFolderAlias) property, we can also specify the name of the folder used to construct URIs of all resources written into an HTML document. This is the simplest way to specify how URIs should be generated for all resource files. The same information can be specified for images and fonts separately via [ImagesFolderAlias](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ImagesFolderAlias) and [FontsFolderAlias](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#FontsFolderAlias) properties, respectively.
 
@@ -67,7 +67,7 @@ Aspose.Words provides an ability to specify whether font resources should be em
 
 The following code example shows how to export Base64-encoded fonts to HTML:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportFontsAsBase64.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportFontsAsBase64.java" >}}
 
 ## Specify Save Options when Conversion to EPUB
 
@@ -75,7 +75,7 @@ Aspose.Words allows converting a Word document into EPUB format using default or
 
 The following code example shows how to converts a Word document to EPUB with specifying some custom save options:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToEPUB.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToEPUB.java" >}}
 
 {{% alert color="primary" %}} 
 
