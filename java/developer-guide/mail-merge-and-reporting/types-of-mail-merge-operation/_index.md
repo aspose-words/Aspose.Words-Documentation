@@ -92,7 +92,7 @@ If one of these rules is broken, you will get unexpected results or an exception
 
 {{% alert color="primary" %}}
 
-If you do not use mail merge regions, then it will be similar to Microsoft Word mail merge, and the whole document content will be repeated for each record in the data source.
+If you do not use mail merge regions, then it will be similar to the Microsoft Word mail merge, and the whole document content will be repeated for each record in the data source.
 
 {{% /alert %}}
 

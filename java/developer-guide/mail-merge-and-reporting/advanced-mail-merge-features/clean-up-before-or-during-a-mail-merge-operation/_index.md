@@ -39,7 +39,7 @@ You can consider a merge field as unmerged in one of the following conditions:
 
 {{% alert color="primary" %}}
 
-If you are merging data using separate data sources then those removing options will be enabled only with the last call of mail merge execute method.
+If you are merging data using separate data sources then those removing options will be enabled only with the last call of the mail merge execute method.
 
 {{% /alert %}}
 

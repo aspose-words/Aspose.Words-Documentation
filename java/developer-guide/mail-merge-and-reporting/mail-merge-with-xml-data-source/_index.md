@@ -4,7 +4,7 @@ aliases:
   - /java/how-to-mail-merge-from-xml-using-imailmergedatasource/
 type: docs
 description: "Aspose.Words allows you to use a variety of data sources when performing a mail merge operation, including an XML file. The main advantage of using XML is the ability to define a hierarchy directly in the document."
-keywords: "mail merge xml data source Java, Mail Merge Java"
+keywords: "mail merge XML data source Java, Mail Merge Java"
 weight: 30
 url: /java/mail-merge-with-xml-data-source/
 ---
