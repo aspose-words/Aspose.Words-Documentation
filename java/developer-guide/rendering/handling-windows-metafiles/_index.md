@@ -19,7 +19,7 @@ The existing issue with Windows Metafile is that it is not supported by most non
 
 ## Controlling the Aspose.Words Metafile Player
 
-The [MetafileRenderingOptions](https://apireference.aspose.com/java/words/com.aspose.words/MetafileRenderingOptions) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/java/words/com.aspose.words/MetafileRenderingMode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/java/words/com.aspose.words/imagesaveoptions#MetafileRenderingOptions) property).
+The [MetafileRenderingOptions](https://apireference.aspose.com/words/java/com.aspose.words/MetafileRenderingOptions) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/words/java/com.aspose.words/MetafileRenderingMode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#MetafileRenderingOptions) property).
 
 ## Supporting Raster Operations
 
@@ -35,7 +35,7 @@ There are binary and ternary raster operations:
 
 ![todo:image_alt_text](handling-windows-metafiles_2.png)
 
-Raster operations can not be converted to vector graphics directly. Aspose.Words emulates raster operations by partially rasterizing the device surface affected by raster operations. For this purpose, the [EmulateRasterOperations](https://apireference.aspose.com/java/words/com.aspose.words/metafilerenderingoptions#EmulateRasterOperations) property is used.
+Raster operations can not be converted to vector graphics directly. Aspose.Words emulates raster operations by partially rasterizing the device surface affected by raster operations. For this purpose, the [EmulateRasterOperations](https://apireference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions#EmulateRasterOperations) property is used.
 
 {{% alert color="primary" %}} 
 
@@ -45,6 +45,6 @@ While binary raster operations are not currently supported and the limited numbe
 
 The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of the metafile records to vector graphics:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HandleDocumentWarnings-HandleDocumentWarnings.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HandleDocumentWarnings-HandleDocumentWarnings.java" >}}
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderMetafileToBitmap-RenderMetafileToBitmap.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderMetafileToBitmap-RenderMetafileToBitmap.java" >}}
