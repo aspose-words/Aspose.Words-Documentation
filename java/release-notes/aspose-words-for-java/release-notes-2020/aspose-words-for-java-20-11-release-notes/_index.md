@@ -35,8 +35,8 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 |WORDSJAVA-2386 | Different scales of the image watermark. | Bug |
 |WORDSJAVA-2406 | Comment.getDateTime(), DigitalSignature.getSignTime() returns date plus   current time zone | Bug |
 |WORDSJAVA-2471 | JAI + non-Oracle JRE incompatibility: jpegfactory fails with com.sun.\* exception. | Bug |
-|WORDSJAVA-2476 | Rtf can't load ImageData with DiB format. | Bug |
-|WORDSJAVA-2477 | Some tests with Odt fail because of wrong Attribute order in Xml. | Bug |
+|WORDSJAVA-2476 | RTF can't load ImageData with DiB format. | Bug |
+|WORDSJAVA-2477 | Some tests with Odt fail because of wrong Attribute order in XML. | Bug |
 |WORDSJAVA-2478 | TestCultureInfo.testCreateSpecificCultureRandomShortLanguage throws   java.lang.AssertionError | Bug |
 |WORDSJAVA-2479 | TestGoldMhtmlOther.testTimestamp throws java.lang.AssertionError | Bug |
 |WORDSNET-21147	|Expected a value between 0 and 22024 error occurs during Rendering a DOC|Bug|
@@ -58,7 +58,7 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-21209	|Content control does not lock after inserting HTML|Bug|
 |WORDSNET-17381	|Arabic Fonts not rendering correctly in PDF|Bug|
 |WORDSNET-21217	|Some tests failed upon converting|Bug|
-|WORDSNET-11515	|AW layout may not match to MS Word when a font Spacing is negative (condensed)|Bug|
+|WORDSNET-11515	|Aspose.Words layout may not match to MS Word when a font Spacing is negative (condensed)|Bug|
 |WORDSNET-21220	|Empty SDT rendered as a control to PDF leads to incorrect aps tree structure|Bug|
 |WORDSNET-21045	|System.NullReferenceException during DOCX to PDF conversion|Bug|
 |WORDSNET-20203	|Property inheritance issue of chart data labels|Bug|
@@ -94,7 +94,7 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-21150	|Debug.Assert fires in UpdateTableBlockRow method|Bug|
 |WORDSNET-21104	|Hyperlink inserted via ReportingEngine does not navigate to the bookmarked location|Bug|
 |WORDSNET-21195	|System.NullReferenceException occurs upon DOCX to PDF conversion|Bug|
-|WORDSNET-21152	|System.ArgumentException while save DOCX to Html|Bug|
+|WORDSNET-21152	|System.ArgumentException while save DOCX to HTML|Bug|
 |WORDSNET-21233	|Table.InsertAfter throws System.InvalidOperationException|Bug|
 |WORDSNET-20403	|Horizontal Category Axis Text of Chart has Incorrect Angle when Converting to Image|Bug|
 |WORDSNET-21160	|Exception raised when reading CHM file|Bug|
