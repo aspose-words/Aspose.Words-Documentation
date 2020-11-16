@@ -58,14 +58,10 @@ The following code example shows how to convert JPEG and TIFF images to PDF:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ImageToPdf-ConvertImageToPdf.cpp" >}}
 
-
-
-
-
 To make this code work, you need to add references to Aspose.Words and System.Drawing to your project.
 
 ## See Also
 
-- The article [“Rendering"](/words/cpp/rendering/) for more information on the fixed-page and flow-layout formats.
-- The article ["Converting to Fixed-page Format"](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout.
-- The article ["Specify Rendering Options When Converting to PDF"](/words/cpp/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class.
+- The article [“Rendering"](/words/cpp/rendering/) for more information on the fixed-page and flow-layout formats
+- The article ["Converting to Fixed-page Format"](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article ["Specify Rendering Options When Converting to PDF"](/words/cpp/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class

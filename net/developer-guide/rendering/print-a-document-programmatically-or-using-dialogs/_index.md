@@ -27,9 +27,9 @@ Since Aspose.Words can easily convert any document to XPS, you only need to writ
 
 To print a document, Aspose.Words provides an **XpsPrintHelper** class contains a simple Print method, where you just need to specify the following parameters (see more details in the article ["Print Document via XPS API"](/words/net/print-document-via-xps-api/)):
 
-- Document you want to print
-- Printer name
-- Job name (optional)
+- Document you want to print.
+- Printer name.
+- Job name (optional).
 - Boolean value, specifying whether the program should wait until the print job is completed. Therefore, the system will either check whether the document was printed successfully or return immediately after sending the print job. In the last case, it is impossible to identify whether the print job was successful.
 
 Upon encountering any problems submitting or printing the document, the method will throw an exception.
@@ -102,4 +102,4 @@ Aspose.Words reads and caches some fields of **PrinterSettings** to reduce pri
 
 ## See Also
 
-- [Platform Update for Windows Vista](http://msdn.microsoft.com/en-us/library/ee663866\(v=vs.85\).aspx).
+- [Platform Update for Windows Vista](http://msdn.microsoft.com/en-us/library/ee663866\(v=vs.85\).aspx)

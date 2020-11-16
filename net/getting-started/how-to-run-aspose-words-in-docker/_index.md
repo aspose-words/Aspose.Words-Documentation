@@ -11,9 +11,10 @@ In case you are targeting microservices, or if the main technology in your stack
 
 ## Prerequisites
 
-Docker must be installed on your system. For information on how to install Docker on Windows or Mac, refer to the links in the "See Also" section.
+- Docker must be installed on your system. For information on how to install Docker on Windows or Mac, refer to the links in the "See Also" section.
 
-Also, note that Visual Studio 2017, .NET Core 2.2 SDK is used in the example, provided below.
+- Also, note that Visual Studio 2017, .NET Core 2.2 SDK is used in the example, provided below.
+
 
 ## Hello World Application
 
@@ -233,11 +234,11 @@ ENTRYPOINT ["/opt/rh/rh-dotnet21/root/usr/bin/dotnet", "Aspose.Words.Docker.Samp
 
 ## See Also
 
-- [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/).
-- [Install Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/).
-- [Visual Studio 2017, .NET Core 2.2 SDK](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites?tabs=netcore30#prerequisites-to-develop-net-core-apps-with-visual-studio).
-- [Switch to Linux containers](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) option.
-- Install [SkiaSharp.NativeAssets.Linux](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux).
-- Additional information on [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-core-sdk/).
-- Use additional NuGet packages: [SkiaSharp.NativeAssets.Linux](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux), [SkiaSharp.NativeAssets.Linux.NoDependencies](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies), [Goelze.SkiaSharp.NativeAssets.AlpineLinux](https://www.nuget.org/packages/Goelze.SkiaSharp.NativeAssets.AlpineLinux), [Jellyfin.SkiaSharp.NativeAssets.LinuxArm](https://www.nuget.org/packages/Jellyfin.SkiaSharp.NativeAssets.LinuxArm).
-- [RHEL 7 (x64)](https://hub.docker.com/r/kkamberta/dotnet-21-rhel7).
+- [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
+- [Install Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/)
+- [Visual Studio 2017, .NET Core 2.2 SDK](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites?tabs=netcore30#prerequisites-to-develop-net-core-apps-with-visual-studio)
+- [Switch to Linux containers](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) option
+- Install [SkiaSharp.NativeAssets.Linux](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux)
+- Additional information on [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-core-sdk/)
+- Use additional NuGet packages: [SkiaSharp.NativeAssets.Linux](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux), [SkiaSharp.NativeAssets.Linux.NoDependencies](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies), [Goelze.SkiaSharp.NativeAssets.AlpineLinux](https://www.nuget.org/packages/Goelze.SkiaSharp.NativeAssets.AlpineLinux), [Jellyfin.SkiaSharp.NativeAssets.LinuxArm](https://www.nuget.org/packages/Jellyfin.SkiaSharp.NativeAssets.LinuxArm)
+- [RHEL 7 (x64)](https://hub.docker.com/r/kkamberta/dotnet-21-rhel7)

@@ -66,11 +66,11 @@ namespace WebRole
             string dstExtension = DstFormatDropDownList.SelectedValue;
             string dstFileName = Path.GetFileName(postedFile.FileName) + "_Converted." + dstExtension;
             SaveFormat dstFormat = FileFormatUtil.ExtensionToSaveFormat(dstExtension);
-
+    
             // Convert the document and send to the browser.
             Document doc = new Document(postedFile.InputStream);
             doc.Save(Response, dstFileName, ContentDisposition.Inline, SaveOptions.CreateSaveOptions(dstFormat));
-
+    
             // Required. Otherwise DOCX cannot be opened on the client (probably not all data sent
             // or some extra data sent in the response).
             Response.End();
@@ -81,7 +81,7 @@ namespace WebRole
             // will find and activate the license. Aspose.Wods licensing needs to execute only once
             // before any Document instance is created and a static ctor is a good place.
             //
-
+    
             // Aspose.Words.License l = new Aspose.Words.License();
             // l.SetLicense("Aspose.Words.lic");
         }
@@ -108,6 +108,6 @@ The following picture shows the Web Role project running in the Microsoft Azure 
 
 ## See Also
 
-- Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing).
-- Create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure.
-- Modify the [ServiceDefinition.csdef](https://docs.microsoft.com/en-us/azure/cloud-services/schema-csdef-webrole#WebRole) configuration file.
+- Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing)
+- Create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure
+- Modify the [ServiceDefinition.csdef](https://docs.microsoft.com/en-us/azure/cloud-services/schema-csdef-webrole#WebRole) configuration file

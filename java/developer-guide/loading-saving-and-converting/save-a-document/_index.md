@@ -1,8 +1,10 @@
 ---
-title: Saving a Document
+title: Save a Document
+aliases: [/java/saving-a-document/]
 type: docs
+description: "Aspose.Words enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
 weight: 20
-url: /java/saving-a-document/
+url: /java/save-a-document/
 ---
 
 Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save(java.lang.String)) method of the [Document](https://apireference.aspose.com/words/java/com.aspose.words/document) class. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://apireference.aspose.com/words/java/com.aspose.words/SaveFormat) enumeration.

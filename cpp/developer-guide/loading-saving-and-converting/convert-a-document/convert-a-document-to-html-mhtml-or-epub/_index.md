@@ -25,8 +25,8 @@ The HTML format does not support many Microsoft Word features, and if we need to
 
 The default value is **true** for HTML and **false** for MHTML and EPUB:
 
-- When **true**, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements.
-- When **false**, there is no round-trip information to be output into produced files.
+- When **true**, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements
+- When **false**, there is no round-trip information to be output into produced files
 
 The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
 

@@ -28,4 +28,4 @@ It is recommended to use the license file as an embedded resource in your applic
 
 ## See Also
 
-- Update your [Azure Functions tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs#check-your-tools-version) in Visual Studio 2017.
+- Update your [Azure Functions tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs#check-your-tools-version) in Visual Studio 2017

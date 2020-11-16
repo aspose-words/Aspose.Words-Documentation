@@ -1,10 +1,11 @@
 ---
-title: Creating or Loading a Document
+title: Create or Load a Document
 type: docs
+aliases: [/cpp/creating-or-loading-a-document/]
 description: "Aspose.Words for C++ enables you to create a blank document or to load it from a file or stream. This is useful for almost any task performed using Aspose.Words."
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
-url: /cpp/creating-or-loading-a-document/
+url: /cpp/create-or-load-a-document/
 ---
 
 Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#a5fddddb463c824cf3fe353ce1bcd8f52) enumeration.

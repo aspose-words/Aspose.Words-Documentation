@@ -35,8 +35,8 @@ On Windows, Aspose.Words first takes all available fonts from the _%windir%\Fon
 
 If a document contains embedded fonts, Aspose.Words can read relevant font data from the document and use it to create the document’s layout. Documents may also contain links to fonts that are not in the system folders, in which case the following scenarios come to work:
 
-- Users can set up new font sources through the **FontSettings** class.
-- Aspose.Words can try to replace the missed font with a similar one.
+- Users can set up new font sources through the **FontSettings** class
+- Aspose.Words can try to replace the missed font with a similar one
 
 {{% alert color="primary" %}} 
 

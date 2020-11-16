@@ -42,8 +42,8 @@ An attacker could create a series of documents containing embedded links to comm
 
 Based on the length of time the service uses to process the document, the attacker could determine if a given IP/Port combination is filtered by a firewall:
 
-- longer processing time indicates that the TCP SYN packet sent by the server was dropped by a firewall;
-- quick processing time indicates a successful connection has been made.
+- longer processing time indicates that the TCP SYN packet sent by the server was dropped by a firewall
+- quick processing time indicates a successful connection has been made
 
 ## Solutions of Security Issues
 
