@@ -102,8 +102,8 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 
 The [EmbedFullFonts](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#EmbedFullFonts) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
 
-- To embed full fonts into the output PDF document, set **EmbedFullFonts** to true.
-- To subset fonts when saving to PDF, set **EmbedFullFonts** to false.
+- To embed full fonts into the output PDF document, set **EmbedFullFonts** to true
+- To subset fonts when saving to PDF, set **EmbedFullFonts** to false
 
 The following example demonstrates how to embed full fonts in the output PDF document:
 

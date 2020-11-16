@@ -41,18 +41,18 @@ Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://apire
 
 Aspose.Words currently supports the following Markdown features, which mostly follow the CommonMark specification in the Aspose.Words API and are represented as appropriate styles or direct formatting:
 
-* Headings are paragraphs with Heading 1 – Heading 6 styles.
-* Blockquotes are paragraphs with “Quote” in the style name.
-* IndentedCode are paragraphs with "IndentedCode" in the style name.
-* FencedCode are paragraphs with "FencedCode" in the style name.
-* InlineCode are runs with "InlineCode" in the Font style name.
-* Horizontal rules are paragraphs with the HorizontalRule shape.
-* Bold emphasis.
-* Italic emphasis.
-* StrikeThrough formatting.
-* Lists are numbered or bulleted paragraphs.
-* Tables are represented with the Table class.
-* Links are represented as the FieldHyperlink class.
+* Headings are paragraphs with Heading 1 – Heading 6 styles
+* Blockquotes are paragraphs with “Quote” in the style name
+* IndentedCode are paragraphs with "IndentedCode" in the style name
+* FencedCode are paragraphs with "FencedCode" in the style name
+* InlineCode are runs with "InlineCode" in the Font style name
+* Horizontal rules are paragraphs with the HorizontalRule shape
+* Bold emphasis
+* Italic emphasis
+* StrikeThrough formatting
+* Lists are numbered or bulleted paragraphs
+* Tables are represented with the Table class
+* Links are represented as the FieldHyperlink class
 
 The following example shows how to create a document with some styles and save it to Markdown:
 

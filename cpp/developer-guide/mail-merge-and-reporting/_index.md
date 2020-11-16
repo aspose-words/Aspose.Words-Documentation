@@ -13,11 +13,11 @@ A mail merge field is a field that you can insert into a mail merge template to
 
 Aspose.Words takes the standard mail merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices. Here are a few advantages of the Aspose.Words reporting solution:
 
-- Design reports in Microsoft Word using standard mail merge fields.
-- Define regions in the document that are growing, such as detailed order rows.
-- Insert images during a mail merge.
-- Execute any custom logic, control formatting, or insert complex content using mail merge event handlers.
-- Fill in documents with data from any type of data source.
+- Design reports in Microsoft Word using standard mail merge fields
+- Define regions in the document that are growing, such as detailed order rows
+- Insert images during a mail merge
+- Execute any custom logic, control formatting, or insert complex content using mail merge event handlers
+- Fill in documents with data from any type of data source
 
 ## Mechanism and Main Components of a Mail Merge Operation
 
@@ -37,4 +37,4 @@ The merge template contains the main text, which should be the same in all out
 
 ## See Also
 
-- [Work with mail merge templates in Word](https://docs.microsoft.com/en-us/power-platform/admin/work-mail-merge-templates).
+- [Work with mail merge templates in Word](https://docs.microsoft.com/en-us/power-platform/admin/work-mail-merge-templates)

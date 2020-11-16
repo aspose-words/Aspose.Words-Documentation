@@ -64,6 +64,6 @@ To make this code work, you need to add references to Aspose.Words, Java.awt.ima
 
 ## See Also
 
-- The article [“Rendering"](/words/java/rendering/) for more information on the fixed-page and flow-layout formats.
-- The article ["Converting to Fixed-page Format"](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout.
-- The article ["Specify Rendering Options When Converting to PDF"](/words/java/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class.
+- The article [“Rendering"](/words/java/rendering/) for more information on the fixed-page and flow-layout formats
+- The article ["Converting to Fixed-page Format"](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article ["Specify Rendering Options When Converting to PDF"](/words/java/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class

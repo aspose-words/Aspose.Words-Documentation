@@ -25,12 +25,12 @@ Aspose.Words enables you to remove unmerged fields, regions, and paragraphs from
 
 Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://apireference.aspose.com/words/java/com.aspose.words/MailMergeCleanupOptions) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
 
-* Remove empty paragraphs.
-* Remove unused regions.
-* Remove unused fields.
-* Remove containing fields.
-* Remove static fields.
-* Remove empty table rows.
+* Remove empty paragraphs
+* Remove unused regions
+* Remove unused fields
+* Remove containing fields
+* Remove static fields
+* Remove empty table rows
 
 You can consider a merge field as unmerged in one of the following conditions:
 

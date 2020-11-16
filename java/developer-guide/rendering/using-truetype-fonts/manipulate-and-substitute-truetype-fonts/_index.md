@@ -241,6 +241,6 @@ When copying fonts, keep in mind that most fonts are copyrighted. Locate font li
 
 ## See Also
 
-- [Google Noto Fonts](https://www.google.com/get/noto/) to download free fonts.
+- [Google Noto Fonts](https://www.google.com/get/noto/) to download free fonts
 
 

@@ -13,8 +13,8 @@ The problem is that the TrueType fonts listed above are not installed by default
 
 There are two main ways to get TrueType fonts on a Linux system:
 
-- Copy .TTF and .TTC files from a Windows machine onto your Linux machine.
-- Install a TrueType font package, such as *msttcorefonts*.
+- Copy .TTF and .TTC files from a Windows machine onto your Linux machine
+- Install a TrueType font package, such as *msttcorefonts*
 
 ## Copying Fonts from a Windows Machine
 
@@ -39,4 +39,4 @@ After installing the package, Aspose.Words will find these fonts in the folders�
 
 ## See Also
 
-- [Liberation Fonts](https://fedorahosted.org/liberation-fonts/) as an alternative to standard Windows fonts.
+- [Liberation Fonts](https://fedorahosted.org/liberation-fonts/) as an alternative to standard Windows fonts

@@ -34,8 +34,8 @@ The HTML format does not support many Microsoft Word features, and if we need to
 
 The default value is **true** for HTML and **false** for MHTML and EPUB:
 
-- When **true**, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements.
-- When **false**, there is no round-trip information to be output into produced files.
+- When **true**, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements
+- When **false**, there is no round-trip information to be output into produced files
 
 The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
 
@@ -94,4 +94,4 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## See Also
 
-- [How to export round-trip information when saving to HTML](/words/net/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip/).
+- [How to export round-trip information when saving to HTML](/words/net/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip/)

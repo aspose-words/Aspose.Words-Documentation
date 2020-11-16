@@ -55,13 +55,13 @@ namespace AsposeWordsAzureTestApp
             // Create a simple document using DocumentBuilder.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
-
+    
             // Write some text in the document.
             builder.Writeln("Hello Aspose.Words!");
-
+    
             // Write OS we are running on.
             builder.Writeln("You are running on " + System.Environment.OSVersion.VersionString);
-
+    
             // Insert some image into the document.
             builder.InsertImage(@"https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/aspose-logo.png");
             // Now save the created document to PDF and return as a FileContentResult.
@@ -89,7 +89,7 @@ namespace AsposeWordsAzureTestApp
 
 ## See Also
 
-- Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing).
-- Create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure.
-- Install [the latest Azure Functions tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs#check-your-tools-version) to create the project in Visual Studio 2017.
-- Use Visual Studio to [create an Azure Functions Application](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio).
+- Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing)
+- Create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure
+- Install [the latest Azure Functions tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs#check-your-tools-version) to create the project in Visual Studio 2017
+- Use Visual Studio to [create an Azure Functions Application](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio)

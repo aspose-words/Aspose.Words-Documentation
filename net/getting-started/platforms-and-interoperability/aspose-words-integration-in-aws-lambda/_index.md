@@ -258,9 +258,9 @@ To use fonts from the S3 storage, follow the steps below:
 
 ## See Also
 
-1. [AWS Toolkit for Visual Studio](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017).
+- [AWS Toolkit for Visual Studio](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)
 
-2. [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc).
+- [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc)
 
-3. [Noto Fonts](https://www.google.com/get/noto/).
+- [Noto Fonts](https://www.google.com/get/noto/)
 
