@@ -1,6 +1,8 @@
 ---
 title: Join and Append Documents
 type: docs
+aliases: 
+ - /java/joining-and-appending-documents/
 weight: 70
 url: /java/join-and-append-documents/
 ---
