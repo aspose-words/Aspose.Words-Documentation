@@ -1,11 +1,9 @@
 ---
 title: Working with VBA Macros
 type: docs
-weight: 400
+weight: 160
 url: /java/working-with-vba-macros/
 ---
-
-## Overview
 
 Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful programming language that can be used to extend the functionality. Aspose.Words API provides three classes to get access to the VBA project source code:
 

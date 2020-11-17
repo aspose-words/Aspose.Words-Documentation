@@ -1,11 +1,9 @@
 ---
 title: Working with Digital Signatures
 type: docs
-weight: 410
+weight: 170
 url: /java/working-with-digital-signatures/
 ---
-
-## Introduction
 
 A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
 

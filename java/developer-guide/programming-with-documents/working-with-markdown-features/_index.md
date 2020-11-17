@@ -1,7 +1,7 @@
 ---
 title: Working with Markdown Features
 type: docs
-weight: 370
+weight: 180
 url: /java/working-with-markdown-features/
 ---
 
