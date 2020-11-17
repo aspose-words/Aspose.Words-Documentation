@@ -39,6 +39,7 @@ The missing features will be added in future releases.
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSCPP-805|Provide Apose.Words for C++ 32 bit version|New Feature|
+|WORDSCPP-1027|Provide a step by step guide to configure Aspose.Words for C++ in Linux projects|Bug|
 |WORDSCPP-1029 |Check Compatibility of Words & Slides C++ APIs when used in the same Linux Project|Bug|
 |WORDSCPP-1032 |Provide example to convert `System::IO::MemoryStream` to our own type, such as `vector<unsigned char>`|Bug|
 |WORDSNET-10130	|Implement table row wrapping around floaters as MS Word 2013 does|New Feature|
