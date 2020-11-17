@@ -3,6 +3,7 @@ title: Working with Sections
 type: docs
 weight: 30
 url: /java/working-with-sections/
+aliases: [/java/how-to-remove-page-and-section-breaks/]
 ---
 
 This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from several sections copied from multiple template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.

@@ -1,7 +1,7 @@
 ---
 title: Working with Fonts
 type: docs
-weight: 420
+weight: 90
 url: /java/working-with-fonts/
 ---
 

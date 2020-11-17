@@ -1,7 +1,7 @@
 ---
 title: Working with Comments
 type: docs
-weight: 180
+weight: 110
 url: /java/working-with-comments/
 ---
 

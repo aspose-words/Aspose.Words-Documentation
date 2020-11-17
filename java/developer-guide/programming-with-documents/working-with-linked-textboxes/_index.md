@@ -1,7 +1,7 @@
 ---
 title: Working with Linked TextBoxes
 type: docs
-weight: 360
+weight: 100
 url: /java/working-with-linked-textboxes/
 ---
 

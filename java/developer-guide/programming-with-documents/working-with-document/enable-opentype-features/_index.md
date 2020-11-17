@@ -3,6 +3,7 @@ title: Enable OpenType Features
 type: docs
 weight: 100
 url: /java/enable-opentype-features/
+aliases: [/java/how-to-use-opentype-features/]
 ---
 
 
