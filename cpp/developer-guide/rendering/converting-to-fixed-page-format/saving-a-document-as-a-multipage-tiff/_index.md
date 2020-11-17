@@ -1,7 +1,7 @@
 ---
 title: Saving a Document as a Multipage TIFF
 type: docs
-weight: 10
+weight: 40
 url: /cpp/saving-a-document-as-a-multipage-tiff/
 ---
 

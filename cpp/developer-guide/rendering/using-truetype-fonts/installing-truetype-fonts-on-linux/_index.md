@@ -1,8 +1,9 @@
 ---
-title: Installing TrueType Fonts on Linux
+title: Install TrueType Fonts on Linux
 type: docs
-weight: 10
-url: /cpp/installing-truetype-fonts-on-linux/
+weight: 20
+aliases: [/cpp/installing-truetype-fonts-on-linux/]
+url: /cpp/install-truetype-fonts-on-linux/
 ---
 
 Most often, you will use Aspose.Words to convert DOC or DOCX documents to PDF format. If you need to do this on a Linux machine, this topic will help you to learn how to ensure Aspose.Words is rendering your documents with the best accuracy.
@@ -16,7 +17,7 @@ There are two main ways to get TrueType fonts on a Linux system:
 - Copy .TTF and .TTC files from a Windows machine onto your Linux machine
 - Install a TrueType font package, such as *msttcorefonts*
 
-## Copying Fonts from a Windows Machine
+## Copy Fonts from a Windows Machine
 
 An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF and .TTC files from the C:\Windows\Fonts directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way; you just need to specify the location of the fonts using the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) class in Aspose.Words.
 
