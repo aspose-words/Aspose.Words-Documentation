@@ -1,8 +1,10 @@
 ---
 title: Working with Table Styles
 type: docs
+aliases:
+ - /java/working-with-table-styles/
 weight: 50
-url: /java/working-with-table-styles/
+url: /java/working-with-tablestyle/
 ---
 
 {{% alert color="primary" %}} 

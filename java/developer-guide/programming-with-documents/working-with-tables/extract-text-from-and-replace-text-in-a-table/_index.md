@@ -7,9 +7,11 @@ url: /java/extract-text-from-and-replace-text-in-a-table/
 
 ## Extract Plain Text from a Table
 
-A Table like any other node in Aspose.Words has access to a [Range](http://www.aspose.com/api/java/words/com.aspose.words/classes/Range) object. Using this object, you can call methods over the entire table range to extract the table as plain text. The [Range.getText()](http://www.aspose.com/api/java/words/com.aspose.words/classes/range/methods/getText\(\)/) property is used for this purpose. Below example shows how to print the text range of a table.
+A Table like any other node in Aspose.Words has access to a [Range](https://apireference.aspose.com/words/java/com.aspose.words/range) object. Using this object, you can call methods over the entire table range to extract the table as plain text. The [Range.getText()](https://apireference.aspose.com/words/java/com.aspose.words/range#Text) property is used for this purpose. 
 
-{{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-PrintTextRangeOfATable.java" >}}
+The following code example shows how to print the text range of a table.
+
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-PrintTextRangeOfATable.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -17,9 +19,9 @@ The same technique is used to extract the content from individual cells of a tab
 
 {{% /alert %}} 
 
-Below example shows how to print the text range of row and table elements.
+The following code example shows how to print the text range of row and table elements.
 
-{{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-PrintTextRangeOfRowAndTableElements.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-PrintTextRangeOfRowAndTableElements.java" >}}
 
 ## Replace Text in a Table
 
@@ -27,6 +29,6 @@ Using a table’s range object you can replace text within the table. However, t
 
 Normally the replacement of text should be done at the cell level (per cell) or at the paragraph level.
 
-Shows how to replace all instances of string of text in a table and cell.
+Shows how to replace all instances of a string of text in a table and cell.
 
-{{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ReplaceText-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ReplaceText-.java" >}}

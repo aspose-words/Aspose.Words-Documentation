@@ -5,18 +5,14 @@ weight: 60
 url: /java/working-with-tables/
 ---
 
-**This section includes the following topics:** 
+Tables are a common element found in word documents. They allow for large amounts of information to be organized and displayed cleanly in a grid like structure with rows and columns. They are also frequently used as a page layout tool, and a better alternative for displaying tabbed data (with tab stops) as they allow much better control over the design and layout of the content. You can lay out content which is to be kept in a fixed position by using a borderless table. While you would normally have plain text in a table, you can also put other content in cells, such as images or even other tables.
 
-- [Tables Overview](/words/java/tables-overview/)
-- [Creating Tables](/words/java/creating-tables/)
-- [Applying Formatting to Table, Row and Cell](https://docs.aspose.com/words/java/applying-formatting-to-table-row-and-cell/)
-- [Specifying Table and Cell Widths](/words/java/specifying-table-and-cell-widths/)
-- [Working with Table Styles](/words/java/working-with-table-styles/)
-- [Finding the Index of Table Elements](/words/java/finding-the-index-of-table-elements/)
-- [Working with Merged Cells](/words/java/working-with-merged-cells/)
-- [Keeping Tables and Rows from Breaking across Pages](/words/java/keeping-tables-and-rows-from-breaking-across-pages/)
-- [Joining and Splitting Tables](/words/java/joining-and-splitting-tables/)
-- [Extract Text from and Replace Text in a Table](/words/java/extract-text-from-and-replace-text-in-a-table/)
+A table is comprised of elements such as **Cell**, **Row** and **Column**. These are concepts which are common to all tables in general whether they come from a Microsoft Word document or an HTML document. Tables in Aspose.Words are fully supported. You are able to freely edit, change, add and remove tables. Rendering of tables with high fidelity is also supported.
+
+**This section includes the following topics:**
+- [Introduction and Creating Tables](/words/java/introduction-and-creating-tables/)
+- [Applying Formatting](/words/java/applying-formatting/)
+- [Working with TableStyle](/words/java/working-with-tablestyle/)
 - [Working with Columns and Rows](/words/java/working-with-columns-and-rows/)
-- [How to Apply Different AutoFit Settings to a Table](/words/java/how-to-apply-different-autofit-settings-to-a-table/)
-- [How to Build a Table from a DataTable](/words/java/how-to-build-a-table-from-a-datatable/)
+- [Joining and Splitting Tables](/words/java/joining-and-splitting-tables/)
+- [How to Build a Table from a Database](/words/java/how-to-build-a-table-from-a-datatable/)
