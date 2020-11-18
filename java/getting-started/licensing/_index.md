@@ -1,8 +1,9 @@
 ---
-title: License Aspose.Words
+title: Licensing
 type: docs
 weight: 90
-url: /java/license-aspose-words/
+url: /java/licensing/
+aliases: [/java/license-aspose-words/]
 ---
 
 ## Evaluate Aspose.Words
