@@ -18,7 +18,7 @@ The following tables provide implementation details about how Aspose.Words saves
 - [Document Features Supported on DOC Export](/words/net/document-features-supported-on-doc-export)
 - [Drawing Object Features Supported on DOC Export](/words/net/drawing-object-features-supported-on-doc-export)
 - [Field Features Supported on DOC Export](/words/net/field-features-supported-on-doc-export)
-- [Footnotes an Endnote Features Supported on DOC Export](/words/net/footnotes-an-endnote-features-supported-on-doc-export)
+- [Footnotes an Endnote Features Supported on DOC Export](/words/net/footnotes-and-endnote-features-supported-on-doc-export/)
 - [Numbering Features Supported on DOC Export](/words/net/numbering-features-supported-on-doc-export)
 - [Paragraph Features Supported on DOC Export](/words/net/paragraph-features-supported-on-doc-export)
 - [Save Microsoft Word Document 97-2003 Document Format Overview](/words/net/save-microsoft-word-document-97-2003-document-format-overview)

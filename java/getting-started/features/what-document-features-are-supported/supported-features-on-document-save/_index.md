@@ -14,7 +14,6 @@ url: /java/supported-features-on-document-save/
 - [Save in the HTML (.HTML, .XHTML, .MHTML) Format](https://docs.aspose.com/words/java/save-in-the-html-html-xhtml-mhtml-format/)
 - [Save in the IDPF EPUB Document (.EPUB) Format](https://docs.aspose.com/words/java/save-in-the-idpf-epub-document-epub-format/)
 - [Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format](https://docs.aspose.com/words/java/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/)
-- [Save in the Macromedia Flash File (.SWF) Format](https://docs.aspose.com/words/java/save-in-the-macromedia-flash-file-swf-format/)
 - [Save in the Microsoft Word 2003 WordprocessingML (.XML) Format](https://docs.aspose.com/words/java/save-in-the-microsoft-word-2003-wordprocessingml-xml-format/)
 - [Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format](https://docs.aspose.com/words/java/save-in-the-microsoft-word-document-97-2003-document-doc-dot-format/)
 - [Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format](https://docs.aspose.com/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/)

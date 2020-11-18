@@ -12,7 +12,7 @@ url: /java/save-in-the-opendocument-text-odt-ott-format/
 - [Document Features Supported on OpenDocument Export](/words/java/document-features-supported-on-opendocument-export/)
 - [Drawing Object Features Supported on OpenDocument Export](/words/java/drawing-object-features-supported-on-opendocument-export/)
 - [Field Features Supported on OpenDocument Export](/words/java/field-features-supported-on-opendocument-export/)
-- [Footnotes an Endnote Features Supported on OpenDocument Export](/words/java/footnotes-an-endnote-features-supported-on-opendocument-export/)
+- [Footnotes an Endnote Features Supported on OpenDocument Export](/words/java/footnotes-and-endnote-features-supported-on-opendocument-export/)
 - [Numbering Features Supported on OpenDocument Export](/words/java/numbering-features-supported-on-opendocument-export/)
 - [Paragraph Features Supported on OpenDocument Export](/words/java/paragraph-features-supported-on-opendocument-export/)
 - [Save in the OpenDocument Text Format Overview](/words/java/save-in-the-opendocument-text-format-overview/)

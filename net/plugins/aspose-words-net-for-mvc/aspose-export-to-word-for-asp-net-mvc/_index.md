@@ -5,25 +5,6 @@ weight: 30
 url: /net/aspose-export-to-word-for-asp-net-mvc/
 ---
 
-**Contents Summary**
-
-- [Introduction](#AsposeExporttoWordforASP.NETMVC-Introduction)
-- [System Requirements and Supported Platforms](#AsposeExporttoWordforASP.NETMVC-SystemRequirementsandSupportedPlatforms) 
-  - [System Requirements](#AsposeExporttoWordforASP.NETMVC-SystemRequirements)
-  - [Supported Platforms](#AsposeExporttoWordforASP.NETMVC-SupportedPlatforms)
-- [Downloading](#AsposeExporttoWordforASP.NETMVC-Downloading)
-- [Installation and Usage](#AsposeExporttoWordforASP.NETMVC-InstallationandUsage) 
-  - [Test a running demonstration](#AsposeExporttoWordforASP.NETMVC-Testarunningdemonstration)
-  - [Embed “Export to Word” to an Existing Project](ExporttoWord#AsposeExporttoWordforASP.NETMVC-Embed)
-  - [Video Demo](#AsposeExporttoWordforASP.NETMVC-VideoDemo)
-- [Support, Extend and Contribute](#AsposeExporttoWordforASP.NETMVC-Support,ExtendandContribute) 
-  - [Support](#AsposeExporttoWordforASP.NETMVC-Support)
-  - [Extend and Contribute](#AsposeExporttoWordforASP.NETMVC-ExtendandContribute) 
-    - [Source Code](#AsposeExporttoWordforASP.NETMVC-SourceCode)
-    - [How to configure source code](#AsposeExporttoWordforASP.NETMVC-Howtoconfiguresourcecode)
-
-## Introduction
-
 Aspose.Words Export To Word for ASP.NET MVC allows ASP.NET developers to add "Export To Word" feature to their MVC website projects with few steps. Export to Word allows website users to download any webpage into Microsoft Word or Open Office Document. This module demonstrates the powerful document building feature by Aspose.Word.
 
 Major features of this Addon are:

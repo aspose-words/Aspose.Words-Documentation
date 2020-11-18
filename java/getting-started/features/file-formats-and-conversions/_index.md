@@ -15,6 +15,5 @@ url: /java/file-formats-and-conversions/
 - [OpenDocument - ODT](/words/java/opendocument-odt/)
 - [Adobe Portable Document Format - PDF](/words/java/adobe-portable-document-format-pdf/)
 - [XML Paper Specification - XPS](/words/java/xml-paper-specification-xps/)
-- [Macromedia Flash File Format - SWF](/words/java/macromedia-flash-file-format-swf/)
 - [Plain Text - TXT](/words/java/plain-text-txt/)
 - [Digital Publishing EPUB](/words/java/digital-publishing-epub/)

@@ -159,7 +159,7 @@ Documents in DOCX format can contain a special type of graphics called Shape. Th
 |![todo:image_alt_text](aspose-words-document-object-model_7.png)| |
 On the above diagram:* **Table** can have many rows.
 
-- [Row](/pages/createpage.action?spaceKey=wordsnet&title=Row+Class&linkCreation=true&fromPageId=2588704) can have many cells.
+- [Row](https://apireference.aspose.com/net/words/aspose.words.tables/row) can have many cells.
 - **Cell** can contain block-level nodes (e.g. **Paragraph** and **Table** ).
 - Rows, cell and block-level elements can be wrapped inside **CustomXmlMarkup** and **StructuredDocumentTag.**
 
@@ -189,7 +189,7 @@ Aspose.Words represents a document as a tree of nodes. An integral feature of th
 
 ### Document Nodes
 
-The nodes in the tree are said to have relationships between them. A node that contains another node is a *parent* and the contained node is a *child.* Children of the same parent are *sibling* nodes. The [Document](/pages/createpage.action?spaceKey=wordsnet&title=Document+Class&linkCreation=true&fromPageId=2588704) node is always the *root* node.
+The nodes in the tree are said to have relationships between them. A node that contains another node is a *parent* and the contained node is a *child.* Children of the same parent are *sibling* nodes. The [Document](https://apireference.aspose.com/words/net/aspose.words/document) node is always the *root* node.
 
 The nodes that can contain other nodes derive from the CompositeNode class and all nodes ultimately derive from the Node class. The two base classes provide common methods and properties to navigate and modify the tree structure.
 

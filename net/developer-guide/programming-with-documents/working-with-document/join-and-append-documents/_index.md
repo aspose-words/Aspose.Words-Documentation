@@ -3,6 +3,7 @@ title: Join and Append Documents
 type: docs
 weight: 70
 url: /net/join-and-append-documents/
+aliases: [/net/append-documents-html/]
 ---
 
 {{% alert color="primary" %}} 

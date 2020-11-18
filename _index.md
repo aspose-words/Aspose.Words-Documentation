@@ -19,7 +19,7 @@ The following are the links to some useful resources you may need to accomplish 
 
 - [Aspose.Words for .NET Features](/words/net/feature-overview/)
 - [Aspose.Words for .NET Limitations](/words/net/what-document-features-are-supported)
-- [Aspose.Words for .NET Release Notes](/word/snet/aspose-words-for-net)
+- [Aspose.Words for .NET Release Notes](/words/net/release-notes/)
 - [Aspose.Words for .NET Product Page](https://products.aspose.com/words/net)
 - [Download Aspose.Words for .NET](https://downloads.aspose.com/words/net)
 - [Install Aspose.Words for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Words/)
