@@ -1,6 +1,7 @@
 ---
 title: What's new in Aspose.Words for .NET
 type: docs
+description: "Aspose.Words expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 10
 url: /net/what-s-new-in-aspose-words-for-net/
 ---
@@ -8,11 +9,13 @@ url: /net/what-s-new-in-aspose-words-for-net/
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
 
-## Aspose.Words for .NET 20.9, 20.10
+## Aspose.Words for .NET 20.9, 20.10, 20.11
 
 Aspose.Words 20.9 expands control over Macros, as well as improves the quality of converting from PDF to Word document formats.
 
 Aspose.Words 20.10 introduces a new load format and new options for working with rendering features.
+
+Aspose.Words 20.11 enhanced rendering options and improves document display capabilities.
 
 The API is enhanced for more flexible and convenient development.
 
@@ -34,19 +37,30 @@ A new public API has been implemented for exporting specific pages to fixed page
 
 The first version of SmartArt Cold Rendering has been released. Microsoft Word generates and saves the pre-rendered drawing along with SmartArt objects. In most cases, the pre-rendered drawing is rendered well by Aspose.Words and no additional actions required. However, if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case, the SmartArt object itself should be laid-out and rendered. We call this process the SmartArt Cold Rendering, and it is now available in Aspose.Words.
 
+#### New API for Chart Data Points
+
+A new API for chart data points has been implemented. This is mainly due to some properties or methods that have been added or changed within the [ChartDataPointCollection](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapointcollection) and [ChartDataPoint](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint) classes. For example, you will find that the code has been changed to automatically create a data point if it does not exist yet.
+
+#### Basic Support for Legacy Non-Unicode Arabian Encodings
+
+Basic support for legacy non-Unicode Arabian encodings has been implemented. This was done for the legacy Arabic font class dating back to the 1990s that use poorly documented mechanisms and legacy Windows shaping implementations. In general, these are TrueType fonts, however they use undocumented details not defined in the TrueType or OpenType specifications and do not conform to current specifications on how to implement Unicode fonts for the Arabic language.
+
 ### Conversion
 
 PDF import is now faster and more accurate. Footnotes support has been implemented and integrated to the latest version.
 
 ### Other
 
-The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word.
+- The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word.
+- New public properties [SpellingChecked](https://apireference.aspose.com/words/net/aspose.words/document/properties/spellingchecked) and [GrammarChecked](https://apireference.aspose.com/words/net/aspose.words/document/properties/grammarchecked) have been added to indicate if a document has been checked for spelling and grammar, respectively.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 20.9 Release Notes](/words/net/aspose-words-for-net-20-9-release-notes/).
 
 Learn more about [Aspose.Words for .NET 20.10 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-10-release-notes/).
+
+Learn more about [Aspose.Words for .NET 20.11 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-11-release-notes/).
 
 {{% /alert %}}
 
