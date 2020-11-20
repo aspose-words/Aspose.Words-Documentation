@@ -20,7 +20,7 @@ Here is a description how to do this with JasperServer Web Services sample appli
 1. Replace 2 files inside root folder of this app by those from demo\webservices folder in Aspose.Words for JasperReports distribution package. Note: new code fragments are included between lines containing Aspose.Words for JasperReports START and Aspose.Words for JasperReports END
 1. Modify jasperserver/WEB-INF/applicationContext-web-services.xml as described [here](https://docs.aspose.com/words/jasperreports/installation/).
 1. Stop/Start Jasper Server
-1. Run <http://localhost:8080/jasperserver-ws-sample>
+1. Run `localhost:8080/jasperserver-ws-sample`
 1. Browse to Reports, then Samples and then select some report, say "Employees"
 1. In "Export format" drop-down box select "XXX via Aspose.Words", where XXX is desired output format
 1. Press "Run the Report" button
