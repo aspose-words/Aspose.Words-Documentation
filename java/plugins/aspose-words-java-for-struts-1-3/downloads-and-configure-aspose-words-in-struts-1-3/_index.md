@@ -30,7 +30,7 @@ To deploy the .war file just copy it to the running Apache tomcat server web app
 
 After [deploying the web application](/words/java/installation/).
 
-1. Navigate to: <http://localhost:8080/StrutsbookApp/><br>
+1. Navigate to: `localhost:8080/StrutsbookApp/`<br>
    You will come up with the following web page:<br>
 ![todo:image_alt_text](http://i.imgur.com/06vsMoh.jpg)
 1. You can add/edit or delete books from here by selecting from book's list.<br>
