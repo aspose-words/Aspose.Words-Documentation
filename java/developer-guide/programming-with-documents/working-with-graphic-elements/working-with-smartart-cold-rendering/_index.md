@@ -20,7 +20,6 @@ Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
 
 The following code example shows how to update drawings for all diagrams in the document:
 
-**.NET**
 {{< gist "aspose-words-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-UpdateSmartArtDrawing.java" >}}
 
 ## Support for Standard SmartArt Layouts
