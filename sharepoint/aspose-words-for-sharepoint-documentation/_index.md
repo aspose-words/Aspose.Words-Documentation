@@ -3,6 +3,7 @@ title: Aspose.Words for SharePoint Documentation
 type: docs
 weight: 10
 url: /sharepoint/aspose-words-for-sharepoint-documentation/
+aliases: [/sharepoint/aspose-words-for-sharepoint-api-reference/]
 ---
 
 ## This section includes the following topics:
@@ -13,3 +14,4 @@ url: /sharepoint/aspose-words-for-sharepoint-documentation/
 - [Install Aspose.Words for SharePoint](/words/sharepoint/install-aspose-words-for-sharepoint/)
 - [Evaluate Aspose.Words for SharePoint](/words/sharepoint/evaluate-aspose-words-for-sharepoint/)
 - [License Aspose.Words for SharePoint](/words/sharepoint/license-aspose-words-for-sharepoint/)
+
