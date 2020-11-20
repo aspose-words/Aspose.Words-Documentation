@@ -61,6 +61,7 @@ Aspose.Words for .NET supports .NET and Mono frameworks as follows:
 - .NET Core 2.0
 - .NET Core 2.1
 - .NET Core 3.0
+- .NET 5.0
 
 ### Mono Framework
 

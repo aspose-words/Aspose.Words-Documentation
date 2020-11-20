@@ -23,19 +23,19 @@ You can still achieve such operations on columns by iterating through the same c
 
 The following code example demonstrates a facade object for working with a column of a table.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-Column-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-Column-Column.java" >}}
 
 The following code example shows how to insert a blank column into a table.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-InsertABlankColumnIntoATable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-insertABlankColumnIntoATable.java" >}}
 
 The following code example shows how to get the plain text of a table column.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-GetTextOfATableColumn.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-getTextOfATableColum.java" >}}
 
 The following code example shows how to remove a column from a table in a document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-RemoveAColumnFromATable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-removeAColumnFromATable.java" >}}
 
 ## Specifying Rows to Repeat on Subsequent Pages as Header Rows
 
@@ -45,7 +45,7 @@ In Aspose.Words you can apply this setting by using the [RowFormat.getHeadingFor
 
 The following code example shows how to build a table which includes heading rows that repeat on subsequent pages.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows-SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows.java" >}}
 
 ## Adjusting Width for Merged Cells
 
