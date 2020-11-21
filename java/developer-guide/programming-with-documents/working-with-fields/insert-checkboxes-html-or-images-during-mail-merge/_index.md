@@ -26,7 +26,7 @@ This screenshot of Microsoft Word shows the generated document. Note some fields
 
 Complete source code of a program that inserts checkboxes and text input form fields into a document during a mail merge.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-mail_merge-InsertCheckBoxesOrHTMLDuringMailMerge-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-InsertCheckBoxesOrHTMLDuringMailMerge-.java" >}}
 
 ## How to Insert Images from a Database
 
@@ -34,7 +34,7 @@ The **MailMerge.FieldMergingCallback** event occurs during mail merge when an im
 
 The **MailMerge.FieldMergingCallback** property accepts a class implementing the **IFieldMergingCallback** interface. This class defines the method that is called to handle the merging for the image field. The method handler receives an argument of type **ImageFieldMergingArgs**. There are three properties available **ImageFieldMergingArgs.ImageFileName**, **ImageFieldMergingArgs.ImageStream** and **ImageFieldMergingArgs.Image** to specify where the image must be taken. Set only one of these properties. The below example shows how to insert images stored in a database BLOB field into a report.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-mail_merge-InsertImagesFromADatabase-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-InsertImagesFromADatabase-.java" >}}
 
 ## Setting Image Properties during Mail Merge
 
@@ -42,8 +42,6 @@ While merging an image merge field, you may sometimes require controlling variou
 
 The following code example demonstrates how to set various image properties. 
 
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageField-MailMergeImageField.java" >}}
 
-
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageField-MailMergeImageField.java" >}}
-
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageField-FieldMergingHandler.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageField-FieldMergingHandler.java" >}}

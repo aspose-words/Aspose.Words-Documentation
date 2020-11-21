@@ -75,7 +75,7 @@ Merging Cells in a Table in Microsoft Word
 To use the AutoFit feature to automatically size a table in Microsoft Word:
 
 1. Right click anywhere inside the desired table.
-1. Select AutoFit from popup menu. 
+1. Select AutoFit from the popup menu. 
 
 ![todo:image_alt_text](tables-overview_7.png)
 
