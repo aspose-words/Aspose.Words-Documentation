@@ -22,11 +22,11 @@ Aspose.Words API provides several classes responsible for different document ele
 
 To start, you need to create a **DocumentBuilder** and associate it with a **Document** object. Create a new instance of DocumentBuilder by calling its constructor and pass to it a Document object for attachment to the builder. To insert a text, simply pass the string of text you need to insert into the document to the [DocumentBuilder.Write](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#write\(java.lang.String\)) method. The following code example demonstrates how to create a simple document using a document builder.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-CreateSimpleDocument.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-CreateSimpleDocument.java" >}}
 
 Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by DocumentBuilder properties to allow you to access them directly. These are Boolean properties [Font.Bold](https://apireference.aspose.com/words/java/com.aspose.words/font#Bold), [Font.Italic](https://apireference.aspose.com/words/java/com.aspose.words/font#Italic), and [Font.Underline](https://apireference.aspose.com/words/java/com.aspose.words/font#Underline). The code example given below Inserts formatted text using DocumentBuilder:
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontFormatting.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontFormatting.java" >}}
 
 {{% alert color="primary" %}} 
 
