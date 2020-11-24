@@ -1,7 +1,7 @@
 ---
 title: Microsoft Silverlight
 type: docs
-weight: 40
+weight: 70
 url: /net/microsoft-silverlight/
 ---
 
