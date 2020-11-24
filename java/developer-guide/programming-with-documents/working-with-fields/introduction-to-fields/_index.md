@@ -7,7 +7,7 @@ url: /java/introduction-to-fields/
 
 ## Fields Overview
 
-Fields in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula or a mail merge field. A field in a Microsoft Word document consists of a field code and a field result. The field code is an instruction about how the field result needs to be updated or calculated. An application that processes a document and encounters a field might have the functionality to interpret the instructions contained in the field code and update the field result with a new value. This is called field update.
+Fields in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula or a mail merge field. A field in a Microsoft Word document consists of a field code and a field result. The field code is an instruction about how the field result needs to be updated or calculated. An application that processes a document and encounters a field might have the functionality to interpret the instructions contained in the field code and update the field result with a new value. This is called a field update.
 Usually a field, when inserted in Microsoft Word, already contains an up to date value. For example, if the field is a formula or a page number, it will contain a correct calculated value for the given version of the document. But if you have an application that generates or modifies a document with fields (for example combines two documents or populates with data) then for the document to be useful, all fields should ideally be updated.
 
 A field consists of:
@@ -20,20 +20,20 @@ A field consists of:
 - The field code defines the behavior of the field and is comprised of the field identifier and often other parameters such as field name and switches.
 - The field result contains the most recent evaluation of the field. This value is stored in the field result and is what is displayed to the user. Some fields may not have any field result thus will not display anything in the document. Likewise, some fields may not be updated yet therefore will also have no field result.
 
-Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose_Words_NET/tree/master/ViewersAndVisualizers/DocumentExplorer).
+Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
 ![todo:image_alt_text](http://i.imgur.com/gkJvDYs.png)
 
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
 - All fields in a document are preserved during open/save and conversions.
-- It is possible to update results of some of the most popular fields.
+- It is possible to update the results of some of the most popular fields.
 
 ## Fields in Microsoft Word
 
 Fields in Microsoft Word documents are complex. There are over 50 field types (each needs its own result calculation procedure), formulas and expressions, bookmarks and references, functions and various switches. Fields can also be nested.
 
-Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field result or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
+Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field results or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
 
 |Field Code|Field Result|
 | :- | :- |
@@ -44,7 +44,7 @@ Normally when a document is opened, the field result (the value of the field) is
 To insert a field in Microsoft Word:
 
 1. Click on the **Insert** menu.
-1. Click on the **Quick Parts** drop down menu
+1. Click on the **Quick Parts** dropdown menu
 1. Select **Field**
 
 ![todo:image_alt_text](http://i.imgur.com/nTmFqBr.png)
@@ -105,11 +105,11 @@ To remove a field in Microsoft Word:
 
 ## Fields in Aspose.Words
 
-When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of [FieldStart](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldStart), [FieldSeparator](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldSeparator) and [FieldEnd](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldEnd) nodes along with the content in between these nodes. If a field does not have a field result then there will be no FieldSeparator node. All of these nodes are always found inline (as children of Paragraph or SmartTag).
+When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of [FieldStart](https://apireference.aspose.com/words/java/com.aspose.words/FieldStart), [FieldSeparator](https://apireference.aspose.com/words/java/com.aspose.words/FieldSeparator) and [FieldEnd](https://apireference.aspose.com/words/java/com.aspose.words/FieldEnd) nodes along with the content in between these nodes. If a field does not have a field result then there will be no FieldSeparator node. All of these nodes are always found inline (as children of Paragraph or SmartTag).
 
-The content which makes up the field code is stored as [Run](http://www.aspose.com/api/java/words/com.aspose.words/classes/Run) nodes between the FieldStart and FieldSeparator. The field result is stored between the FieldSeparator and FieldEnd nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of block level nodes such as Table and Paragraph nodes as well.
+The content which makes up the field code is stored as [Run](https://apireference.aspose.com/words/java/com.aspose.words/Run) nodes between the FieldStart and FieldSeparator. The field result is stored between the FieldSeparator and FieldEnd nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of block level nodes such as Table and Paragraph nodes as well.
 
-In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldChar). This class provides a property to check the type of field represented by the specified node through the [FieldChar.FieldType](http://www.aspose.com/api/java/words/com.aspose.words/constants/FieldType) property. For example FieldType.FieldMergeField represents a merge field in the document.
+In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://apireference.aspose.com/words/java/com.aspose.words/FieldChar). This class provides a property to check the type of field represented by the specified node through the [FieldChar.FieldType](https://apireference.aspose.com/words/java/com.aspose.words/constants/FieldType) property. For example FieldType.FieldMergeField represents a merge field in the document.
 
 {{% alert color="primary" %}} 
 
@@ -228,4 +228,4 @@ A field in a document can have formatting switches that specify how the resultin
 
 ##### Date and Number Formatting in Fields
 
-When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldOptions) class which allows further control over which culture is used during field update.By default the FieldOptions.FieldUpdateCultureSource property is set to FieldUpdateCultureSource.CurrentThread which formats fields using the current thread culture.This property can be set to FieldUpdateCultureSource.FieldCode so the language set from the field code of the field is used for formatting instead.
+When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](https://apireference.aspose.com/words/java/com.aspose.words/FieldOptions) class which allows further control over which culture is used during field update.By default the FieldOptions.FieldUpdateCultureSource property is set to FieldUpdateCultureSource.CurrentThread which formats fields using the current thread culture.This property can be set to FieldUpdateCultureSource.FieldCode so the language set from the field code of the field is used for formatting instead.

@@ -28,13 +28,13 @@ Aspose.Words supports applying a table style to a table and also reading propert
 
 In Aspose.Words you can apply a table style by using any of the [Table.getStyle()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table/properties/getStyle\(\)/), [Table.setStyleIdentifier(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setStyleIdentifier\(int\)/) and [Table.getStyleName()](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/getStyleName\(\)/) properties. You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using [Table.setStyleOptions(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setStyleOptions\(int\)/) property. The TableStyleOptions enumeration allows a bitwise combination of these features. Below example shows how to build a new table with a table style applied.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-ApplyATableStyle.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-ApplyATableStyle.java" >}}
 
 Aspose.Words also provides a method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Test combine formatting with table style and cell style. This method will not override any other formatting that is already applied to the table through a row or cell format.
 
 Below examples shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-ExpandFormattingFromStylesOnToRowsAndCells.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-ExpandFormattingFromStylesOnToRowsAndCells.java" >}}
 
 ## Using the TableStyle
 
@@ -44,10 +44,10 @@ Aspose.Words provides TableStyle inherited from Style class. The TableStyle 
 
 A table style can be created using the StyleCollection.Add method. The code example given below shows how to create a table style.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-CreateTableStyle.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-CreateTableStyle.java" >}}
 
 ### Defining Conditional Formatting
 
 Conditional formatting can be defined for all possible table area defined under ConditionalStyleType enumeration type. The following code example shows how to define conditional formatting for the header row of the table.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-DefineConditionalFormatting.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-DefineConditionalFormatting.java" >}}

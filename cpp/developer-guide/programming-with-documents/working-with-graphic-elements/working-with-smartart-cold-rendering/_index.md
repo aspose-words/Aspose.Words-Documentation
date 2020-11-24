@@ -3,7 +3,7 @@ title: Working with SmartArt Cold Rendering
 type: docs
 description: "Aspose.Words performs SmartArt Cold Rendering, meaning that it lays out and renders SmartArt objects if the pre-rendered SmartArt drawing is missing or incorrect."
 weight: 55
-url: /java/working-with-smartart-cold-rendering/
+url: /cpp/working-with-smartart-cold-rendering/
 ---
 
 SmartArt graphics are used to quickly and easily create a visual representation of information. You simply choose from a large number of layouts that best suits your situation. This ease of use makes SmartArt graphics quite popular for some purposes.
@@ -16,11 +16,11 @@ Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
 
 * If a pre-rendered drawing is available, Aspose.Words uses it to render the SmartArt object.
 * If pre-rendered drawing is missing, Aspose.Words implicitly performs cold rendering to render the SmartArt object.
-* If a pre-rendered drawing is present but is incorrect, it is required to perform SmartArt cold rendering explicitly by calling [UpdateSmartArtDrawing](https://apireference.aspose.com/words/java/com.aspose.words/shape#updateSmartArtDrawing()) method.
+* If a pre-rendered drawing is present but is incorrect, it is required to perform SmartArt cold rendering explicitly by calling [UpdateSmartArtDrawing](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape#a36a8f917435d6d6ca3d5c18218a4b86d) method.
 
 The following code example shows how to update drawings for all diagrams in the document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-UpdateSmartArtDrawing.java" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Shapes-WorkingWithShapes-UpdateSmartArtDrawing.cpp" >}}
 
 ## Support for Standard SmartArt Layouts
 

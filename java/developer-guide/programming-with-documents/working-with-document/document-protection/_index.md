@@ -19,16 +19,16 @@ Documents protected in Microsoft Word can be easily unprotected even by users wi
 
 Use the Document.Protect method to protect a document from changes. This method accepts a ProtectionType parameter and optionally a password by providing one as the second parameter Document.Protect. The following code example demonstrates how to protect a document.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-ProtectADocument.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-ProtectADocument.java" >}}
 
 ## Unprotecting a Document
 
 Calling Document.Unprotect unprotects the document even if it has a protection password. The following code example demonstrates how to unprotect any document. Note that the password is not required.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-UnprotectADocument.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-UnprotectADocument.java" >}}
 
 ## Getting the Protection Type
 
 You can retrieve the type of document protection by getting the value of the Document.ProtectionType property. The following code example demonstrates how to get a protection type currently set in the document.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-GetTheProtectionType.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-GetTheProtectionType.java" >}}
