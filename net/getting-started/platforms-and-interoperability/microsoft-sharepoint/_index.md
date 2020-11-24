@@ -1,7 +1,7 @@
 ---
 title: Microsoft SharePoint
 type: docs
-weight: 30
+weight: 60
 url: /net/microsoft-sharepoint/
 ---
 
