@@ -28,13 +28,13 @@ Then define Aspose.Words for Java API dependency in your pom.xml as follows:
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-words</artifactId>
-        <version>20.6</version>
+        <version>20.11</version>
         <classifier>jdk17</classifier>
     </dependency>
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-words</artifactId>
-        <version>20.6</version>
+        <version>20.11</version>
         <classifier>javadoc</classifier>
     </dependency>
 </dependencies>
