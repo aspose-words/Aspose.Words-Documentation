@@ -15,25 +15,25 @@ This article outlines how to work with the table of contents field and demonstra
 - Update new or existing TOCs in the document.
 - Specify switches to control the formatting and overall structure f the TOC.
 - How to modify the styles and appearance of the table of contents.
-- How to remove an entire TOC field along with all entries form the document.
+- How to remove an entire TOC field along with all entries from the document.
 
 ### Insert a Table of Contents Programmatically
 
-The [DocumentBuilder.insertTableOfContents(java.lang.String)](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/insertTableOfContents\(java.lang.String\)/) method is called to insert a TOC field into the document at the current position of the DocumentBuilder.
+The [DocumentBuilder.insertTableOfContents(java.lang.String)](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTableOfContents(java.lang.String)) method is called to insert a TOC field into the document at the current position of the DocumentBuilder.
 
-A table of contents in a Word document can be built in a number of ways and formatted using a variety of options. The field switches that you pass to the method control the way the table is built and displayed in your document.
+A table of contents in a Word document can be built in several ways and formatted using a variety of options. The field switches that you pass to the method control the way the table is built and displayed in your document.
 
-The default switches that are used in a TOC inserted in Microsoft Word are **“\o “1-3 \h \z \u”**. Descriptions of these switches as well as a list of supported switches can be found later in the article. You can either use that guide obtain the correct switches or if you already have a document containing the similar TOC that you want you can show field codes (*ALT+F9*) and copy the switches directly from the field.
+The default switches that are used in a TOC inserted in Microsoft Word are **“\o “1-3 \h \z \u”**. Descriptions of these switches as well as a list of supported switches can be found later in the article. You can either use that guide to obtain the correct switches or if you already have a document containing the similar TOC that you want you can show field codes (*ALT+F9*) and copy the switches directly from the field.
 
 The following code example shows how to insert a Table of Contents field into a document.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-.java" >}}
 
 The following code example demonstrates how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsUsingHeadingStyles-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsUsingHeadingStyles-.java" >}}
 
-The code demonstrates the new table of contents is inserted into a blank document. The [DocumentBuilder](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder) class is then used to insert some sample content formatting with the appropriate heading styles which are used to mark the content to be included in the TOC. The next lines then populate the TOC by updating the fields and the page layout of the document.
+The code demonstrates the new table of contents is inserted into a blank document. The [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class is then used to insert some sample content formatting with the appropriate heading styles which are used to mark the content to be included in the TOC. The next lines then populate the TOC by updating the fields and the page layout of the document.
 
 ![todo:image_alt_text](how-to-insert-and-work-with-the-table-of-contents-field_1.png)
 
@@ -43,20 +43,20 @@ Without these calls when the output document is opened you would find that there
 
 Aspose.Words allows you to completely update a TOC with only a few lines of code. This can be done to populate a newly inserted TOC or to update an existing TOC after changes to the document have been made.
 
-The following two methods must be used in order to update the TOC fields in the document:
+The following two methods must be used to update the TOC fields in the document:
 
-1. [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updateFields\(\)/)
-1. [Document.updatePageLayout()](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updatePageLayout\(\)/)
+1. [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/document#updateFields())
+1. [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/document#updatePageLayout())
 
 Please note that these two update methods are required to be called in that order. If reversed the table of contents will be populated but no page numbers will be displayed. Any number of different TOCs can be updated. These methods will automatically update all TOCs found in the document.
 
 The following code example shows how to completely rebuild TOC fields in the document by invoking field updates.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-The first call to [Document.updateFields()](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updateFields\(\)/) will build the TOC, all text entries are populated and the TOC appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”.
+The first call to [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/document#updateFields()) will build the TOC, all text entries are populated and the TOC appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”.
 
-The second call to [Document.updatePageLayout()](http://www.aspose.com/api/java/words/com.aspose.words/classes/document/methods/updatePageLayout\(\)/) will build the layout of the document in memory. This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
+The second call to [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/document#updatePageLayout()) will build the layout of the document in memory. This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
 
 ### Using Switches to Control the Behavior of the Table of Contents
 
@@ -98,13 +98,13 @@ If a switch is not listed here then it is currently unsupported.  All switches 
 
 You can insert a new TC field at the current position of the DocumentBuilder by calling the DocumentBuilder.InsertField method and specifying the field name as “TC” along with any switches that are needed.
 
-The following code example shows how to insert a TC field into the document using [DocumentBuilder](http://www.aspose.com/api/java/words/com.aspose.words/classes/DocumentBuilder).
+The following code example shows how to insert a TC field into the document using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder).
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertTCField-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertTCField-.java" >}}
 
 Often a specific line of text is designated for the TOC and is marked with a TC field.  The easy way to do this in MS Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a TC field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a TC field in the same position as the text. The code is based on the same technique used in the article. The following code example shows how to find and insert a TC field at the text in a document.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-FindAndInsertATCField-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-FindAndInsertATCField-.java" >}}
 
 ## Modify a Table of Contents
 
@@ -116,7 +116,7 @@ Once the appropriate style of the document has been retrieved the formatting for
 
 The following code example changes a formatting property used in the first level TOC style.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-ChangeAFormattingPropertyUsedInFirstLevelTOCStyle.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-ChangeAFormattingPropertyUsedInFirstLevelTOCStyle.java" >}}
 
 It is also useful to note that any direct formatting of a paragraph (defined on the paragraph itself and not in the style) marked to be included in the TOC will be copied over in the entry in the TOC. For example, if the Heading 1 style is used to mark content for the TOC and this style has Bold formatting while the paragraph also has italic formatting directly applied to it. The resulting TOC entry will not be bold as that is part of style formatting however it will be italic as this is directly formatted on the paragraph.
 
@@ -128,7 +128,7 @@ To change how this appears firstly Style.ParagraphFormat must be called to retri
 
 The following code example shows how to modify the position of the right tab stop in TOC related paragraphs.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-ModifyPositionOfRightTabStopInTOC.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-ModifyPositionOfRightTabStopInTOC.java" >}}
 
 ## Removing a Table of Contents from the Document
 
@@ -138,10 +138,10 @@ The code below demonstrates this. The removal of the TOC field is simpler than a
 
 Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The following code example demonstrates how to remove a specified TOC from a document.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-RemoveATableOfContents-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-RemoveATableOfContents-.java" >}}
 
 ## Extract Table of Contents
 
 If you want to extract a table of contents from any Word document, the following code sample can be used.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ExtractTableOfContents-ExtractTableOfContents.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ExtractTableOfContents-ExtractTableOfContents.java" >}}
