@@ -40,3 +40,9 @@ Aspose.Words API provides Shape.HorizontalRuleFormat property to access the pro
 Aspose.Words API provides Shape->InsertOleObjectAsIcon function to insert an embedded or linked OLE object as an icon into the document. This function allows specifying the icon file and the caption. The OLE object type shall be detected using the file extension. The following code example demonstrates how to set insert OLE object as an Icon into the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cpp" >}}
+
+{{% alert color="primary" %}}
+
+Maximum size of the icon must be 32x32 for the correct display.
+
+{{% /alert %}}

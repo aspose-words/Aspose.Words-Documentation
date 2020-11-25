@@ -55,6 +55,12 @@ Aspose.Words API provides Shape.InsertOleObjectAsIcon function to insert an emb
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cs" >}}
 
+{{% alert color="primary" %}}
+
+Maximum size of the icon must be 32x32 for the correct display.
+
+{{% /alert %}}
+
 ## Import Shapes with Math XML as Shapes into DOM
 
 You can use LoadOptions.ConvertShapeToOfficeMath property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office math objects.
