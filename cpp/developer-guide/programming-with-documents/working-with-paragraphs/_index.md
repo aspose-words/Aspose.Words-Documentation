@@ -1,7 +1,7 @@
 ---
 title: Working with Paragraphs
 type: docs
-weight: 110
+weight: 60
 url: /cpp/working-with-paragraphs/
 ---
 

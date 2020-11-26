@@ -1,7 +1,7 @@
 ---
 title: Working With Lists
 type: docs
-weight: 270
+weight: 50
 url: /cpp/working-with-lists/
 ---
 

@@ -3,7 +3,7 @@ title: Working with TextBoxes
 type: docs
 aliases:
  - /cpp/working-with-linked-textboxes/
-weight: 300
+weight: 80
 url: /cpp/working-with-textboxes/
 ---
 

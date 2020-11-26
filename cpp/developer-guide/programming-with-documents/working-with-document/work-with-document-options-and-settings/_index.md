@@ -1,7 +1,7 @@
 ---
 title: Work with Document Options and Settings
 type: docs
-weight: 10
+weight: 30
 url: /cpp/work-with-document-options-and-settings/
 ---
 
