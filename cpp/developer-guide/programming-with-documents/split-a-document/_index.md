@@ -1,7 +1,7 @@
 ---
 title: Split a Document
 type: docs
-weight: 340
+weight: 25
 url: /cpp/split-a-document/
 ---
 

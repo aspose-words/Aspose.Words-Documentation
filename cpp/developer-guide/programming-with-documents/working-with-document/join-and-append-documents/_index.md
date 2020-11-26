@@ -3,7 +3,7 @@ title: Join and Append Documents
 type: docs
 aliases:
  - /cpp/joining-and-appending-documents/
-weight: 110
+weight: 70
 url: /cpp/join-and-append-documents/
 ---
 

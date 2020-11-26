@@ -1,7 +1,7 @@
 ---
 title: Working with Footnote and Endnote
 type: docs
-weight: 80
+weight: 37
 url: /cpp/working-with-footnote-and-endnote/
 ---
 

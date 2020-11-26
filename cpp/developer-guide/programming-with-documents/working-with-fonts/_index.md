@@ -1,7 +1,7 @@
 ---
 title: Working with Fonts
 type: docs
-weight: 330
+weight: 70
 url: /cpp/working-with-fonts/
 ---
 

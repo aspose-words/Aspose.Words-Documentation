@@ -1,7 +1,7 @@
 ---
 title: Working with Columns and Rows
 type: docs
-weight: 40
+weight: 27
 url: /cpp/working-with-columns-and-rows/
 ---
 

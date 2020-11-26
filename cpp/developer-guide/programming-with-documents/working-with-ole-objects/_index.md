@@ -3,7 +3,7 @@ title: Working with Ole Objects
 type: docs
 aliases:
  - /cpp/working-with-ole-objects-and-online-video/
-weight: 160
+weight: 110
 url: /cpp/working-with-ole-objects/
 ---
 
