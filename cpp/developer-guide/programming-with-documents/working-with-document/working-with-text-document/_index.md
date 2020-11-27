@@ -1,7 +1,7 @@
 ---
 title: Working with Text Document
 type: docs
-weight: 30
+weight: 110
 url: /cpp/working-with-text-document/
 ---
 

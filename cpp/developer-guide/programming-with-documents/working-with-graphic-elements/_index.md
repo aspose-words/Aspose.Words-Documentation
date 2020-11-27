@@ -1,7 +1,7 @@
 ---
 title: Working with Graphic Elements
 type: docs
-weight: 150
+weight: 100
 url: /cpp/working-with-graphic-elements/
 ---
 

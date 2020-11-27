@@ -1,7 +1,9 @@
 ---
 title: Specify Save Options
 type: docs
-aliases: [/cpp/working-with-saveoptions/]
+aliases:
+  - /cpp/working-with-saveoptions/
+  - /cpp/working-with-ooxml/
 weight: 10
 url: /cpp/specify-save-options/
 ---

@@ -1,7 +1,7 @@
 ---
 title: Working with Digital Signatures
 type: docs
-weight: 320
+weight: 160
 url: /cpp/working-with-digital-signatures/
 ---
 

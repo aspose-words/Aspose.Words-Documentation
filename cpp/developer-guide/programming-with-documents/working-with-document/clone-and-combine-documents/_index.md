@@ -3,7 +3,7 @@ title: Clone and Combine Documents
 type: docs
 aliases:
  - /cpp/how-to-insert-a-document-into-another-document/
-weight: 200
+weight: 60
 url: /cpp/clone-and-combine-documents/
 ---
 

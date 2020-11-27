@@ -1,7 +1,7 @@
 ---
 title: Working with Web Extensions
 type: docs
-weight: 310
+weight: 40
 url: /cpp/working-with-web-extensions/
 ---
 

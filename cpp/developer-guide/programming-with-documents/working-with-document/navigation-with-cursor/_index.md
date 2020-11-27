@@ -1,7 +1,7 @@
 ---
 title: Navigation with Cursor
 type: docs
-weight: 110
+weight: 100
 url: /cpp/navigation-with-cursor/
 ---
 

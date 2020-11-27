@@ -1,7 +1,7 @@
 ---
 title: Manipulate and Substitute TrueType Fonts
 type: docs
-weight: 20
+weight: 10
 url: /cpp/manipulate-and-substitute-truetype-fonts/
 ---
 
