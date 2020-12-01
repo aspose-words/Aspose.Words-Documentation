@@ -1,7 +1,7 @@
 ---
 title: Known Issues
 type: docs
-weight: 50
+weight: 60
 url: /java/known-issues-in-aspose-words-for-java/
 ---
 
