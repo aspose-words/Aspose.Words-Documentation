@@ -1,7 +1,7 @@
 ---
 title: Working with Digital Signatures
 type: docs
-weight: 210
+weight: 20
 url: /net/working-with-digital-signatures/
 ---
 

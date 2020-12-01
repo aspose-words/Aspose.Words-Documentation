@@ -1,7 +1,7 @@
 ---
 title: Document Protection
 type: docs
-weight: 80
+weight: 10
 url: /net/document-protection/
 ---
 
