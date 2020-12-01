@@ -1,49 +1,66 @@
 ---
 title: Compare Documents
 type: docs
+description: "Aspose.Words for .NET allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 weight: 50
 url: /java/compare-documents/
 aliases: [/java/how-to-compare-two-word-documents/]
 ---
 
-You can use the Document.Compare method to compare two documents to see the difference between them. This method mimics Microsoft Word's Compare feature and produces document differences as a number of edit and format revisions. The main idea is that if we reject all revisions then we get a document that is equal to the original document. On the contrary, if we accept all revisions then we get the final (comparison target) document.
+Comparing documents is a process that identifies changes between two documents and contains the changes as revisions. This process compares any two documents, including versions of one specific document, then the changes between both documents will be shown as revisions in the first document.
 
-**Try Online**
+The comparison method is achieved by comparing words at the character level or at the word level. If a word contains a change of at least one character, in the result, the difference will be displayed as a change of the entire word, not a character. This process of comparison is a usual task in the legal and financial industries.
 
-You can try this functionality and view the results online at this link:
+Instead of manually searching for differences between documents or between different versions of them, you can use Aspose.Words for comparing documents and getting content changes in formatting, header/footer, tables, and more.
 
-<https://products.aspose.app/words/comparison>
+This article explains how to compare documents and how to specify advanced comparing properties.
 
-## Limitations
+## Limitations and Supported File Formats
 
-There are a few general limitations:
+Comparing documents is a very complex feature. There are varied parts of content combination that need to be analyzed to recognize all differences. The reason for this complexity is due to the fact that Aspose.Words aims to get the same comparison results as the Microsoft Word comparison algorithm.
 
-- The document being compared must not have revisions before this method is called.
-- Markup - is limited to SmartTag only. Other markups are ignored completely.
-- Dml - Fallback shapes are compared instead of actual Dml comparison.
+The general limitation for two documents being compared is that they must not have revisions before calling the compare method as this limitation exists in Microsoft Word.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-There is an important note regarding "equal". Actually "equality" means here that the comparison method is not able to represent changes as revisions. In general, it means that both document text and text formatting are the same. But there can be other differences between documents. For example, Word supports only format revisions for styles and we can't represent style insertion/deletion. So documents can have a different set of styles and the Compare method still produces no revisions.
+Note that you can compare any two documents within the [supported file formats](https://docs.aspose.com/words/net/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-The following code example demonstrates the Normal Comparison Case. You can download the template files of the below examples from [here](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/Document.doc).
+## Compare Two Documents
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-NormalComparisonCase.java" >}}
+When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
-The following code example demonstrates how to test that Word Documents are "Equal".
+Aspose.Words allows you to identify documents differences using the [Compare](https://apireference.aspose.com/words/java/com.aspose.words/document#compare(com.aspose.words.Document,java.lang.String,java.util.Date)) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-WordDocumentsAreEqual.java" >}}
+As a result of the comparison, documents can be determined as equal or not equal. The term “equal” documents means that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 
-## Compare Word Documents and Ignore Document Formatting
+The following code example shows how to check if two documents are equal or not:
 
-The CompareOptions class allows us to choose advanced options for document comparison operations. You can ignore document formatting, headers-footers, fields, footnotes, tables, text boxes, comments, and case changes when documents are compared. Set the value of CompareOptions.IgnoreFormatting property to *true* to ignore the document formatting. The headers and footers' contents are ignored when CompareOptions.IgnoreHeadersAndFooters is set to *true*. The following code example demonstrates how to ignore the document's formatting and headers & footers' contents.
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-wordDocumentsAreEqual.java" >}}
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocumentswithCompareOptions-CompareTwoWordDocumentswithCompareOptions.java" >}}
+The following code example shows how to simply apply the Compare method to two documents:
 
-## Set Target Document for Comparison Differences
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-caseWhenDocumentHasRevisions.java" >}}
 
-MS Word has "Show changes in" option in the comparison document dialogue box and the result of the comparison depends on this option. The CompareOptions.Target property serves this purpose. This property specifies which document shall be used as a target during the comparison. For example, this option together with the IgnoreFormatting setting determines which document has to be used as a formatting source for ranges of equal text. ComparisonTargetType enumeration is used to specify the base document which will be used during the comparison. The following code example demonstrates how to set the target document for a comparison of two documents. 
+## Specify Advanced Comparing Properties
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareDocumentWithComparisonTarget-CompareDocumentWithComparisonTarget.java" >}}
+There are many different properties of the [CompareOptions](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions) class which you can apply when you want to compare documents.
+
+For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreHeadersAndFooters), [IgnoreFormatting](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreFormatting), [IgnoreComments](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreComments), and others by setting them to "true".
+
+In addition, Aspose.Words provides the [Granularity](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#Granularity) property with which you can specify whether to track changes by character or by word.
+
+Another common property is a choice in which document to show comparison changes. For example, the “Compare documents dialogue box” in Microsoft Word has the option “Show changes in” – this also affects the comparison results. Aspose.Words provides the [Target](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#Target) property that serves this purpose.
+
+The following code example shows how to set the advanced comparing properties:
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-AdvancedComparingProperties.java" >}}
+
+
+{{% alert color="primary" %}}
+
+You can compare two documents online by using the [Document comparison online](https://products.aspose.app/words/comparison) tool.
+
+Note that the comparison method, described above, is used in this tool to ensure getting equal results. So you will get the same results even by using the online comparison tool or by using the comparison method in Aspose.Words.
+
+{{% /alert %}}
