@@ -1,50 +1,38 @@
 ---
 title: Document Comparison Features
+description: "Aspose.Words allows you to compare two Word documents using files or URLs to these files and show the differences. You can also view your document in a browser."
 type: docs
 weight: 20
 url: /net/document-comparison-features/
 ---
 
-**Table of Contents**
-
-- [Compare Text in Word Documents and Highlight Changes](#DocumentComparisonFeatures-CompareTextinWordDocumentsandHighlightChanges) 
-  - Default.js
-  - Default.aspx.cs
-  - DocumentComparisonUtil.cs
-- [Compare Word Documents from URL](#DocumentComparisonFeatures-CompareWordDocumentsfromURL)
-- [Web-Based Word Document Viewer](#DocumentComparisonFeatures-Web-BasedWordDocumentViewer) 
-  - Default.js
-  - Default.aspx.cs
+In this article, we will take a look at the most popular document comparison features.
 
 ## Compare Text in Word Documents and Highlight Changes
 
-Text comparison is the core feature of Document Comparison project. You can select two documents from the list and it will show you the differences between them. Summary of changes is displayed on top, showing what is added and deleted. Newly added text is formatted in the red-underlined font. Deleted text is formatted in red color and strike-through font settings.
+Text comparison is the core feature of Document Comparison project. You can select two documents from the list and it will show you the differences between them.
 
-**How does it work?**
+Summary of changes is displayed on top, showing what is added and deleted. Newly added text is formatted in the red-underlined font. Deleted text is formatted in red color and strike-through font settings.
 
-**HTML - click on "Compare Documents" button on page**
+### How Document Comparison Works
 
-When you click on the "Compare Documents" button, jQuery method compareDocuments is called.
+Document comparison works as follows:
 
-**jQuery - send AJAX request to the server and show the result**
+1. **HTML**. Click on the "Compare Documents" button on a page to call the jQuery *compareDocuments* method.
+2. **jQuery**. Sends an AJAX request to the server (ASP.NET page) and posts the names of two documents. As a result, it receives the path to the output document and summary, and then displays them on the screen. See *Default.js, compareDocuments()* method in the source code tab.
 
-See **Default.js**, compareDocuments() method in the source code tab. It sends an AJAX request to the server (ASP.NET page) and posts names of the two documents. In the result, it receives the path of the output document and summary and then displays it on screen.
+3.  **ASP.NET Web Method** handles server requests. It calls the utility method to do the actual comparison. It also prepares the summary, number of additions and deletions. Finally, it sends the output document path and summary back to the calling client. See *Default.aspx.cs* tab below.
 
-**ASP.NET web method handles server requests**
+### Compare Documents Using Aspose.Words for .NET
 
-See **Default.aspx.cs** tab below. It calls the utility method to do the actual comparison. It also prepares the summary, number of additions and deletions. And finally, sends the path of output document and the summary back to the calling client.
+The core functionality is implemented in the DocumentComparisonUtil class, see **DocumentComparisonUtil.cs** on the source tab. It uses Aspose.Words for .NET to parse the documents and find the differences between them. We also need to visually show the differences, so a new document is required to contain the highlighted changes.
 
-**Compare documents using Aspose.Words for .NET**
+To create the output document, we load the first document into Aspose.Words. Then go through the list of changes one by one, keep adding the changes to it:
 
-The core functionality is implemented in DocumentComparisonUtil class, see **DocumentComparisonUtil.cs** in source tab. It uses Aspose.Words for .NET to parse the documents and find the differences between them. We also need to visually show the differences, so a new document is required that will contain the highlighted changes.
+- **Newly added text:** It is appended to the existing text and red underline font setting is applied to it.
+- **Deleted text:** It is also appended to the existing text. The red color and strikethrough font are applied to it.
 
-To create the output document, we load the first document in the Aspose.Words. Then go through the list of changes one by one, keep adding the changes to it.
-
-**Newly added text:** It is appended to the existing text and red underline font setting is applied to it.
-
-**Deleted text:** It is also appended to the existing text. The red color and strike-through font is applied to it.
-
-### Default.js
+**Default.js**
 
 {{< highlight csharp >}}
 
@@ -77,7 +65,7 @@ function compareDocuments(document1, document2) {
 }
 {{< /highlight >}}
 
-#### Default.aspx.cs
+** Default.aspx.cs**
 
 {{< highlight csharp >}}
 [WebMethod]
@@ -107,7 +95,7 @@ public static ArrayList CompareDocuments(string document1, string document2)
 }
 {{< /highlight >}}
 
-#### DocumentComparisonUtil.cs
+**DocumentComparisonUtil.cs**
 
 {{< highlight csharp >}}
 
@@ -124,7 +112,7 @@ public void Compare(string document1, string document2, string comparisonDocumen
     DocumentBuilder builder = new DocumentBuilder(docComp);
     doc1.Compare(doc2, "a", DateTime.Now);
     
-	foreach (Revision revision in doc1.Revisions)
+    foreach (Revision revision in doc1.Revisions)
     {
         switch (revision.RevisionType)
         {
@@ -142,39 +130,39 @@ public void Compare(string document1, string document2, string comparisonDocumen
 }
 {{< /highlight >}}
 
-### Compare Word Documents from URL
+## Compare Word Documents using URLs
 
-If you have the web URL of the documents, you can compare them directly, without uploading them. Just specify the URLs and hit the Compare Documents button, it will show you the result after doing the comparison.
+If you have web URLs of the documents, you can compare them directly, without uploading them. Just specify the URLs and hit the Compare Documents button. After comparison, you will see the result.
 
 ![todo:image_alt_text](document-comparison-features_1.jpg)
 
-**How does it work?**
+Behind the scenes, it uses the same process as when comparing files. This is the Aspose.Words.Document class that automatically downloads the document from the web URL if we pass the URL instead of the local file path. See the ["Compare Documents"](https://docs.aspose.com/words/net/compare-documents/) article for details.
 
-Behind the scene, it uses the same process as used in file comparison. It is Aspose.Words.Document class that automatically downloads the document from web URL, if we pass URL instead of the local file path. See [this page](/words/net/working-with-document/#workingwithdocument-howtocomparetwoworddocuments) for details.
+## Web-Based Word Document Viewer
 
-### Web-Based Word Document Viewer
+You can click any document from the list to view it in a browser:
 
-You can click on any document from the list to view it in the browser. The document is rendered in the form of an image. The document name is displayed on top. Page numbers are displayed as links, you can navigate through the pages by clicking on the page number. By default, the viewer will show the first page of the document.
+- The document is rendered as an image
+- The document name is displayed at the top
+- Page numbers are displayed as links, you can navigate through the pages by clicking on the page number
 
-**How does it work?**
+By default, the viewer will show the first page of the document.
 
-**jQuery - send AJAX request to convert Word document to images**
+### How Web-Based Document Viewer Works
 
-When you click on any document, the jQuery method **getDocumentData()** sends an AJAX request to the server for converting the selected documents to images, see **Default.js**. It sends the path of the document as an argument. The server returns two items in result, one is the path of images folder and other is the count of total pages in the document.
+Document web-based document viewer works as follows:
 
-**ASP.NET web method converts the document into images**
+1. **jQuery.** The **getDocumentData()** method sends an AJAX request to the server to convert the selected Word document to images, see **Default.js**. It sends the path to the document as an argument. As a result, teh server returns two items: one is the path to the images folder and the other one is the total number of pages in the document.
+2. **ASP.NET web method** converts the document into images. It loads the selected document using Aspose.Words and saves each page in image format in a loop. It returns the number of pages and the path to the image folder to the calling jQuery method. See **Default.aspx.cs**, **getDocumentData()** method.
+3. **jQuery** renders Word document and page navigation. The calling method in jQuery now has the page count and the folder path. The folder contains images, each image represents a page in the Word document. Now, it is easy to display an image using jQuery and HTML.
 
-See **Default.aspx.cs**, **getDocumentData()** method. It loads the selected document using Aspose.Words and saves each page in image format in a loop. It returns the page count and image folder path to the calling jQuery method.
+### View Documents in Web-based Viewer
 
-**jQuery - render Word document and page navigation**
+By default, there is an image with a white background. Initially, we set the SRC attribute of the IMG tag to the first image. This is done in the **getDocumentData_Success()** method, see **Default.js** in source tab below.
 
-The calling method in jQuery now has the page count and the folder path. The folder contains images, each image represents a page in the Word document. Now, it is easy to display an image using jQuery and HTML.
+For the page numbering, we used Bootstrap navigation bar. In jQuery, we just add new list items LI to the navbar list tag UL in a loop, from 1 to page count. We already have the path of image folder, so we added an A tag as well and set its src to the image. As a result, when you click on the page number in the browser, it will load the image.
 
-By default, there is an image with a white background. Initially, we set the SRC attribute of the IMG tag to the first image. This is done in **getDocumentData_Success()** method, see **Default.js** in source tab below.
-
-For the page numbering, we have used Bootstrap navigation bar. In jQuery, we just add new list items LI to the navbar list tag UL in a loop, from 1 to page count. We already have the path of image folder, so we added an A tag as well and set its src to the image. As a result, when you click on the page number in the browser, it will load the image.
-
-#### Default.js
+**Default.js**
 
 {{< highlight csharp >}}
 // Send document path to server and receive page count and image path
@@ -214,7 +202,7 @@ function getDocumentData_Success(result) {
 
     // Show pagination
     $("#DocumentViewerPagination").removeClass("hidden");
-
+    
     // Add pages in pagination
     for (var iPage = 1 ; iPage <= totalPages ; iPage++) {
         var currentPage = 'setCurrentPage(&quot;' + imageFolder + '/' + (iPage - 1) + '.png' + '&quot;)';
@@ -225,7 +213,7 @@ function getDocumentData_Success(result) {
 }
 {{< /highlight >}}
 
-#### Default.aspx.cs
+**Default.aspx.cs**
 
 {{< highlight csharp >}}
 // Convert the document to images and send page count and folder path to calling method
@@ -240,11 +228,11 @@ public static ArrayList GetDocumentData(string filePath, string sessionID)
 
         // Load the document in Aspose.Words
         Document doc = new Document(filePath);
-
+    
         // Convert the document to images
         ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
         options.PageCount = 1;
-
+    
         // Save each page of the document as image.
         for (int i = 0; i < doc.PageCount; i++)
         {
