@@ -65,7 +65,7 @@ function compareDocuments(document1, document2) {
 }
 {{< /highlight >}}
 
-** Default.aspx.cs**
+**Default.aspx.cs**
 
 {{< highlight csharp >}}
 [WebMethod]
