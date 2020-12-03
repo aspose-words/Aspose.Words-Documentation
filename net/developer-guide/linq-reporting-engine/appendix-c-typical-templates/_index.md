@@ -1,7 +1,7 @@
 ---
-title: Typical Templates
+title: Appendix C. Typical Templates
 type: docs
-weight: 60
+weight: 70
 url: /net/typical-templates/
 ---
 

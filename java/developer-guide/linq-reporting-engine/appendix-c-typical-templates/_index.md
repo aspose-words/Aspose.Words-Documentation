@@ -1,7 +1,7 @@
 ---
 title: Appendix C. Typical Templates
 type: docs
-weight: 70
+weight: 80
 url: /java/appendix-c-typical-templates/
 ---
 
@@ -313,7 +313,7 @@ We provide support for the following clients:
 |{{< highlight csharp >}} I & Sons {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
 |{{< highlight csharp >}} J Ent. {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000</p><p>{{< /highlight >}}|
-   
+
 
 ## Pie Chart Template
 

@@ -2,10 +2,10 @@
 title: Merging Table Cells Dynamically
 type: docs
 weight: 100
-url: /java/merging-table-cells-dynamically/
+url: /net/merging-table-cells-dynamically/
 ---
 
-You can merge table cells with equal textual contents within your reports dynamically using cellMerge tags. Syntax of a cellMerge tag is defined as follows.
+You can merge table cells with equal textual contents within your reports dynamically using cellMerge tags. The syntax of a cellMerge tag is defined as follows.
 {{< highlight csharp >}}
 <<cellMerge -horz>>
 {{< /highlight >}}
@@ -21,8 +21,8 @@ Consider the following template.
 
 |...|...|...|
 | :- | :- | :- |
-|**...**|**&lt;&lt;cellMerge&gt;&gt;&lt;&lt;[value1]&gt;&gt;**|**...**|
-|**...**|**&lt;&lt;cellMerge&gt;&gt;&lt;&lt;[value2]&gt;&gt;**|**...**|
+|**...**|**<<cellMerge>><<[value1]>>**|**...**|
+|**...**|**<<cellMerge>><<[value2]>>**|**...**|
 |**...**|**...**|**...**|
 
 

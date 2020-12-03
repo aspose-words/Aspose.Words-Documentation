@@ -1,7 +1,7 @@
 ---
 title: Appendix A. Enumeration Extension Methods
 type: docs
-weight: 30
+weight: 50
 url: /net/appendix-a-enumeration-extension-methods/
 ---
 

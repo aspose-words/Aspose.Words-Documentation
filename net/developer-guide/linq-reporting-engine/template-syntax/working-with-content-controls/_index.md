@@ -2,14 +2,14 @@
 title: Working with Content Controls
 type: docs
 weight: 140
-url: /java/working-with-content-controls/
+url: /net/working-with-content-controls/
 ---
 
 LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.
 
 **Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
 
-## Setting Checkbox Value Dynamically
+## Setting Checkbox Values Dynamically
 
 You can set checkbox values to either checked or unchecked in your reports dynamically by taking the following steps:
 

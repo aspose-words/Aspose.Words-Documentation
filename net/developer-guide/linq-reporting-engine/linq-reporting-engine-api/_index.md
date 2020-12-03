@@ -1,7 +1,7 @@
 ---
 title: LINQ Reporting Engine API
 type: docs
-weight: 20
+weight: 40
 url: /net/linq-reporting-engine-api/
 ---
 
@@ -718,7 +718,7 @@ Suffix
 Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
 {{< highlight xml >}}
 Prefix
- 
+
 Suffix
 {{< /highlight >}}
 

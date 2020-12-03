@@ -2,7 +2,7 @@
 title: Inserting Images Dynamically
 type: docs
 weight: 60
-url: /java/inserting-images-dynamically/
+url: /net/inserting-images-dynamically/
 ---
 
 You can insert images to your reports dynamically using image tags. To declare a dynamically inserted image within your template, do the following steps:
@@ -18,8 +18,8 @@ You can insert images to your reports dynamically using image tags. To declare a
 The expression declared within an image tag is used by the engine to build an image to be inserted. The expression must return a value of one of the following types:
 
 - A byte array containing an image data
-- An [InputStream](http://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html) instance able to read an image data
-- A [BufferedImage](http://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html) object
+- A [Stream](http://msdn.microsoft.com/en-us/library/system.io.stream\(v=vs.110\).aspx) instance able to read an image data
+- An [Image](http://msdn.microsoft.com/en-us/library/system.drawing.image\(v=vs.110\).aspx) object
 - A string containing an image URI, path, or Base64-encoded image data
 
 While building a report, the following procedure is applied to an image tag:
