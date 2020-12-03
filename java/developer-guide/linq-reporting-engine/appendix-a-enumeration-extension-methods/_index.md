@@ -1,7 +1,7 @@
 ---
 title: Appendix A. Enumeration Extension Methods
 type: docs
-weight: 50
+weight: 60
 url: /java/appendix-a-enumeration-extension-methods/
 ---
 

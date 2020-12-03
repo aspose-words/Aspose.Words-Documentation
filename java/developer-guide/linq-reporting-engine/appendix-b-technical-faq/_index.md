@@ -1,7 +1,7 @@
 ---
 title: Appendix B. Technical FAQ
 type: docs
-weight: 60
+weight: 70
 url: /java/appendix-b-technical-faq/
 ---
 

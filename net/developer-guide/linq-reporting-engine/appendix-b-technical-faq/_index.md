@@ -1,7 +1,7 @@
 ---
 title: Appendix B. Technical FAQ
 type: docs
-weight: 40
+weight: 60
 url: /net/appendix-b-technical-faq/
 ---
 

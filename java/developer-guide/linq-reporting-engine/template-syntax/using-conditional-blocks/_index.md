@@ -13,14 +13,16 @@ A conditional block can have a default template option that is not bound with a 
 
 You can use the following syntax to declare a conditional block.
 
-**&lt;&lt;if [conditional_expression1]&gt;&gt;
+{{< highlight csharp >}}
+<<if [conditional_expression1]>>
 template_option1
-&lt;&lt;elseif [conditional_expression2]&gt;&gt;
+<<elseif [conditional_expression2]>>
 template_option2
 ...
-&lt;&lt;else&gt;&gt;
+<<else>>
 default_template_option
-&lt;&lt;/if&gt;&gt;**
+<</if>>
+{{< /highlight >}}
 
 **Note -** A conditional expression must return a Boolean value.
 
