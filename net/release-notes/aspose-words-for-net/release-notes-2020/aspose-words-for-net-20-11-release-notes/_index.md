@@ -116,48 +116,48 @@ Added a new public property Document.SpellingChecked:
 
 A new public property IgnorePrinterMetrics has been added to the LayoutOptions class.
 {{< highlight csharp >}}
-    /// <summary>
-    /// Returns <b>true</b> if the document has been checked for spelling.
-    /// </summary>
-    /// <remarks>
-    /// To recheck the spelling in the document, set this property to <b>false</b>.
-    /// </remarks>
-    public bool SpellingChecked
-    { 
-        get;
-        set;
-    }
+/// <summary>
+/// Returns <b>true</b> if the document has been checked for spelling.
+/// </summary>
+/// <remarks>
+/// To recheck the spelling in the document, set this property to <b>false</b>.
+/// </remarks>
+public bool SpellingChecked
+{ 
+	get;
+	set;
+}
 {{< /highlight >}}
 
 Added a new public property Document.GrammarChecked:
 {{< highlight csharp >}}
-    /// <summary>
-    /// Returns <b>true</b> if the document has been checked for grammar.
-    /// </summary>
-    /// <remarks>
-    /// To recheck the grammar in the document, set this property to <b>false</b>.
-    /// </remarks>
-    public bool GrammarChecked
-    { 
-        get;
-        set;
-    }
+/// <summary>
+/// Returns <b>true</b> if the document has been checked for grammar.
+/// </summary>
+/// <remarks>
+/// To recheck the grammar in the document, set this property to <b>false</b>.
+/// </remarks>
+public bool GrammarChecked
+{ 
+	get;
+	set;
+}
 {{< /highlight >}}
 
 Use Case:
 {{< highlight csharp >}}
-    Document doc = new Document(fileName);
-    // Verifying if this document has been checked for spelling or grammar.
-    if (doc.SpellingChecked || doc.GrammarChecked)
-    {
-        // The string with spelling errors.
-        doc.FirstSection.Body.FirstParagraph.FirstRun.Text = "The speeling in this documentz is all broked";
-        // Spelling check start. 
-        doc.SpellingChecked = false; 
-        // Grammar check start. 
-        doc.GrammarChecked = false;
-    }
-    doc.Save(outFileName);
+Document doc = new Document(fileName);
+// Verifying if this document has been checked for spelling or grammar.
+if (doc.SpellingChecked || doc.GrammarChecked)
+{
+	// The string with spelling errors.
+	doc.FirstSection.Body.FirstParagraph.FirstRun.Text = "The speeling in this documentz is all broked";
+	// Spelling check start. 
+	doc.SpellingChecked = false; 
+	// Grammar check start. 
+	doc.GrammarChecked = false;
+}
+doc.Save(outFileName);
 {{< /highlight >}}
 
 ### Changes in API of chart data points
@@ -171,62 +171,62 @@ The following changes in chart data points API have been implemented (WORDSNET-1
 - The Add, RemoveAt and Clear methods have been marked as obsolete. The collection contains all data points of series now and there is no need to add points to it. The RemoveAt and Clear methods actually reset the formatting of data point(s) to default values, so the ClearFormat methods can be used instead.
 
 {{< highlight csharp >}}
-    public class ChartDataPointCollection
-    {
-        /// <summary>
-        /// Adds new <see cref="ChartDataPoint"/> at the specified index.
-        /// </summary>
-        [Obsolete("All data points are available in this collection.")]
-        public ChartDataPoint Add(int index);
-  
-        /// <summary>
-        /// Clears format of a <see cref="ChartDataPoint"/> at the specified index.
-        /// </summary>
-        [Obsolete("Use the ChartDataPoint.ClearFormat method instead.")]
-        public void RemoveAt(int index);
-  
-        /// <summary>
-        /// Clears format of all <see cref="ChartDataPoint"/> in this collection.
-        /// </summary>
-        [Obsolete("Use the ClearFormat method instead.")]
-        public void Clear();
-  
-        /// <summary>
-        /// Clears format of all <see cref="ChartDataPoint"/> in this collection.
-        /// </summary>
-        public void ClearFormat();
-    }
+public class ChartDataPointCollection
+{
+	/// <summary>
+	/// Adds new <see cref="ChartDataPoint"/> at the specified index.
+	/// </summary>
+	[Obsolete("All data points are available in this collection.")]
+	public ChartDataPoint Add(int index);
 
-    public class ChartDataPoint
-    {
-        /// <summary>
-        /// Clears format of this data point. The properties are set to the default values defined in the parent series.
-        /// </summary>
-        public void ClearFormat();
-    }
+	/// <summary>
+	/// Clears format of a <see cref="ChartDataPoint"/> at the specified index.
+	/// </summary>
+	[Obsolete("Use the ChartDataPoint.ClearFormat method instead.")]
+	public void RemoveAt(int index);
+
+	/// <summary>
+	/// Clears format of all <see cref="ChartDataPoint"/> in this collection.
+	/// </summary>
+	[Obsolete("Use the ClearFormat method instead.")]
+	public void Clear();
+
+	/// <summary>
+	/// Clears format of all <see cref="ChartDataPoint"/> in this collection.
+	/// </summary>
+	public void ClearFormat();
+}
+
+public class ChartDataPoint
+{
+	/// <summary>
+	/// Clears format of this data point. The properties are set to the default values defined in the parent series.
+	/// </summary>
+	public void ClearFormat();
+}
 {{< /highlight >}}
 
 Use Case:
 {{< highlight csharp >}}
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
-    Chart chart = shape.Chart;
- 
-    // Delete default generated series.
-    chart.Series.Clear();
- 
-    ChartSeries series = chart.Series.Add("Series 1",
-        new string[] { "Category 1", "Category 2", "Category 3" },
-        new double[] { 1, 5, 4 });
- 
-    series.Marker.Symbol = MarkerSymbol.Square;
-    series.Marker.Size = 10;
- 
-    series.DataPoints[1].Marker.Symbol = MarkerSymbol.Circle;
-    series.DataPoints[1].Marker.Size = 15;
- 
-    doc.Save(dir + "DataPoints.docx");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+Chart chart = shape.Chart;
+
+// Delete default generated series.
+chart.Series.Clear();
+
+ChartSeries series = chart.Series.Add("Series 1",
+	new string[] { "Category 1", "Category 2", "Category 3" },
+	new double[] { 1, 5, 4 });
+
+series.Marker.Symbol = MarkerSymbol.Square;
+series.Marker.Size = 10;
+
+series.DataPoints[1].Marker.Symbol = MarkerSymbol.Circle;
+series.DataPoints[1].Marker.Size = 15;
+
+doc.Save(dir + "DataPoints.docx");
 {{< /highlight >}}
 
 ### Aspose.Words now retains hyperlinks in the output PDF (breaking change)
@@ -236,28 +236,28 @@ In the past, we satisfied a customer's request for removing HYPERLINK fields in 
 
 Here is the code snippet for backward compatibility:
 {{< highlight csharp >}}
-    foreach (FieldPageRef field in document.Range.Fields.OfType<FieldPageRef>())
-        field.Unlink();
- 
-    foreach (FieldHyperlink field in document.Range.Fields.OfType<FieldHyperlink>())
-    {
-        HashSet<Inline> hyperlinkNodes = new HashSet<Inline>();
-        Node resultNode = field.Separator;
-        while (true)
-        {
-            if (resultNode is Inline inline && inline.Font.StyleIdentifier == StyleIdentifier.Hyperlink)
-                hyperlinkNodes.Add(inline);
- 
-            if (resultNode == field.End)
-                break;
+foreach (FieldPageRef field in document.Range.Fields.OfType<FieldPageRef>())
+	field.Unlink();
 
-            resultNode = resultNode.NextSibling;
-        }
- 
-        // Unlink method clears Hyperlink style according to MS Word behaviour.
-        field.Unlink();
- 
-        foreach (Inline inline in hyperlinkNodes)
-            inline.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-    }
+foreach (FieldHyperlink field in document.Range.Fields.OfType<FieldHyperlink>())
+{
+	HashSet<Inline> hyperlinkNodes = new HashSet<Inline>();
+	Node resultNode = field.Separator;
+	while (true)
+	{
+		if (resultNode is Inline inline && inline.Font.StyleIdentifier == StyleIdentifier.Hyperlink)
+			hyperlinkNodes.Add(inline);
+
+		if (resultNode == field.End)
+			break;
+
+		resultNode = resultNode.NextSibling;
+	}
+
+	// Unlink method clears Hyperlink style according to MS Word behaviour.
+	field.Unlink();
+
+	foreach (Inline inline in hyperlinkNodes)
+		inline.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
+}
 {{< /highlight >}}
