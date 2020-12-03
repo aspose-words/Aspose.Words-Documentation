@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words for .NET 20.12 Release Notes
 type: docs
-weight: 2
+weight: 1
 url: /net/aspose-words-for-net-20-12-release-notes/
 ---
 
