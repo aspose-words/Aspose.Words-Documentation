@@ -15,7 +15,7 @@ An expression tag has no name and consists of the following elements:
 
 {{< highlight xml >}}
 <<[expression]:"format" -html>>
-{{< highlight xml >}}
+{{< /highlight >}}
 
 If html switch is not present, the result of the corresponding expression is written to a document as a plain text at runtime. Font attributes are derived from the first character of the corresponding tag in this case.
 
@@ -23,13 +23,13 @@ If html switch is present, the expression result is considered to be a HTML bloc
 
 {{< highlight xml >}}
 <<["<b>Bold</b> and <i>italic</i> text"] -html>>
-{{< highlight xml >}}
+{{< /highlight >}}
 
 To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [DecimalFormat](http://docs.oracle.com/javase/7/docs/api/java/text/DecimalFormat.html) or [SimpleDateFormat](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) constructors. That is, for example, given that d is a Date value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
 
 {{< highlight xml >}}
 <<[d]:"yyyy.MM.dd">>
-{{< highlight xml >}}
+{{< /highlight >}}
 
 LINQ Reporting Engine provides several additional number formats that can not be specified using format strings because these formats are missing in standard  REF platform Java libraries. The following table describes these formats.
 
