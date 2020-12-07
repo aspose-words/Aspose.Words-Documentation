@@ -3,6 +3,7 @@ title: Inserting Documents Dynamically
 type: docs
 weight: 50
 url: /net/inserting-documents-dynamically/
+aliases: [/net/template-syntax/#inserting-documents-dynamically]
 ---
 
 You can insert contents of outer documents to your reports dynamically using `doc` tags. A `doc` tag denotes a placeholder within a template for a document to be inserted during runtime. 
@@ -35,6 +36,7 @@ By default, a document being inserted is not checked against template syntax and
 {{< highlight csharp >}}
 <<doc [document_expression] -build>>
 {{< /highlight >}}
+
 When a `build` switch is used, the engine treats a document being inserted as a template that can access the following data available at the scope of a corresponding `doc` tag:
 
 - Data sources

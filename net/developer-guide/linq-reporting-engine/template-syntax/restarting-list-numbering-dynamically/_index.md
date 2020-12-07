@@ -3,6 +3,7 @@ title: Restarting List Numbering Dynamically
 type: docs
 weight: 110
 url: /net/restarting-list-numbering-dynamically/
+aliases: [/net/template-syntax/#restarting-list-numbering-dynamically]
 ---
 
 You can restart list numbering within your documents dynamically using restartNum tags. In particular, this feature is useful when working with a nested numbered list within a data band as shown in the following example.

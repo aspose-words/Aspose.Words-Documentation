@@ -3,6 +3,7 @@ title: Working with Content Controls
 type: docs
 weight: 140
 url: /net/working-with-content-controls/
+aliases: [/net/template-syntax/#working-with-content-controls]
 ---
 
 LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.

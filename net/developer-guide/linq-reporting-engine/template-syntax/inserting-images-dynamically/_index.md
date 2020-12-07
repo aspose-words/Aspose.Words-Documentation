@@ -3,6 +3,7 @@ title: Inserting Images Dynamically
 type: docs
 weight: 60
 url: /net/inserting-images-dynamically/
+aliases: [/net/template-syntax/#inserting-images-dynamically]
 ---
 
 You can insert images to your reports dynamically using image tags. To declare a dynamically inserted image within your template, do the following steps:
