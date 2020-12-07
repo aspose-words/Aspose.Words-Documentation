@@ -40,7 +40,7 @@ The following code example shows how to check if two documents are equal or not:
 
 The following code example shows how to simply apply the Compare method to two documents:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-CSharp-Programming-Documents-Document-CompareDocument-ApplyCompareTwoDocuments.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-CompareDocument-ApplyCompareTwoDocuments.cs" >}}
 
 ## Specify Advanced Comparing Properties
 
@@ -54,7 +54,7 @@ Another common property is a choice in which document to show comparison changes
 
 The following code example shows how to set the advanced comparing properties:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-CSharp-Programming-Documents-Document-CompareDocument-SetAdvancedComparingProperties.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-CompareDocument-SetAdvancedComparingProperties.cs" >}}
 
 {{% alert color="primary" %}}
 
