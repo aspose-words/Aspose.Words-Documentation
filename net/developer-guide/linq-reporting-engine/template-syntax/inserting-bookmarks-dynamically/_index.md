@@ -3,6 +3,7 @@ title: Inserting Bookmarks Dynamically
 type: docs
 weight: 70
 url: /net/inserting-bookmarks-dynamically/
+aliases: [/net/template-syntax/#inserting-bookmarks-dynamically]
 ---
 
 You can insert bookmarks to your reports dynamically using bookmark tags. Syntax of a bookmark tag is defined as follows.

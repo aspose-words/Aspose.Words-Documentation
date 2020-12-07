@@ -7,6 +7,9 @@ aliases:
   - /java/linq-reporting-engine-programmers-guide/
   - /java/about-this-guide/
 url: /java/linq-reporting-engine/
+aliases:
+ - /java/linq-reporting-engine-programmers-guide/
+ - /java/about-this-guide/
 ---
 
 This section provides the information you need to create reports from template documents using the LINQ Reporting Engine. The information is divided into the following sections:

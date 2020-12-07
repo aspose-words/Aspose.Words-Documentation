@@ -3,6 +3,7 @@ title: Outputting Expression Results
 type: docs
 weight: 20
 url: /net/outputting-expression-results/
+aliases: [/net/template-syntax/#outputting-expression-results]
 ---
 
 You can output expression results to your reports using expression tags. An expression tag denotes a placeholder for an expression result within a template. While building a report, the corresponding expression is evaluated, and this placeholder is replaced with the formatted result of the expression. 
@@ -24,7 +25,7 @@ If html switch is present, the expression result is considered to be a HTML bloc
 <<["<b>Bold</b> and <i>italic</i> text"] -html>>
 {{< /highlight >}}
 
-To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [IFormattable.ToString](http://msdn.microsoft.com/en-us/library/system.iformattable.tostring\(v=vs.110\).aspx)[](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)method implementors. That is, for example, given that d is a DateTime value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
+To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [IFormattable.ToString](http://msdn.microsoft.com/en-us/library/system.iformattable.tostring\(v=vs.110\).aspx) method implementors. That is, for example, given that d is a DateTime value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
 {{< highlight xml >}}
 <<[d]:"yyyy.MM.dd">>
 {{< /highlight >}}

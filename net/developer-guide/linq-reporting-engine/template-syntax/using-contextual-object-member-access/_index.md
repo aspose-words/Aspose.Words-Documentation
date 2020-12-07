@@ -3,6 +3,7 @@ title: Using Contextual Object Member Access
 type: docs
 weight: 120
 url: /net/using-contextual-object-member-access/
+aliases: [/net/template-syntax/#using-contextual-object-member-access]
 ---
 
 You can make your templates less cumbersome using the contextual object member access feature. This feature enables you to access members of some objects without specifying the objects' identifiers in template expressions. An object to which the feature can be applied is determined depending on a context as follows:

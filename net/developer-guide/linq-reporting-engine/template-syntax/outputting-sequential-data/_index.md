@@ -3,6 +3,7 @@ title: Outputting Sequential Data
 type: docs
 weight: 30
 url: /net/outputting-sequential-data/
+aliases: [/net/template-syntax/#outputting-sequential-data]
 ---
 
 You can output a sequence of elements of the same type to your report using a data band. A data band has a body that represents a template for a single element of such a sequence. While building a report, sequence elements are enumerated, and the following procedure takes place for each of the elements:
@@ -133,7 +134,7 @@ To populate a document table with a master-detail data, you can use nested table
 
 |Manager/Client|Contract Price|
 | :- | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<[m.Contracts.Sum(**`     `**c => c.Price)]>>**|
+|**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<[m.Contracts.Sum(c => c.Price)]>>**|
 |**<<foreach [c in m.Contracts]>>  <<[c.Clients.Name]>>**|**<<[c.Price]>><</ foreach>><</ foreach>>**|
 |**Total:**|**<<[ds.Contracts.Sum(c =>c.Price)]>>**|
 

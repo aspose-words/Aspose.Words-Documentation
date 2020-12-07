@@ -3,6 +3,7 @@ title: Inserting Hyperlinks Dynamically
 type: docs
 weight: 80
 url: /net/inserting-hyperlinks-dynamically/
+aliases: [/net/template-syntax/#inserting-hyperlinks-dynamically]
 ---
 
 You can insert hyperlinks to your reports dynamically using link tags. Syntax of a link tag is defined as follows.

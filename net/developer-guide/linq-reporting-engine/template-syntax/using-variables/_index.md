@@ -3,6 +3,7 @@ title: Using Variables
 type: docs
 weight: 130
 url: /net/using-variables/
+aliases: [/net/template-syntax/#using-variables]
 ---
 
 LINQ Reporting Engine enables you to use variables in template documents. Variables are useful when you need to calculate an expensive value just once and access it multiple times in a template. Also, calculation of complex values such as running (progressive) totals may require variables, see “Appendix C. Typical Templates” to get an example.
