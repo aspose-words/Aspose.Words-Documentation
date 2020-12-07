@@ -40,40 +40,7 @@ The following code example shows how to check if two documents are equal or not:
 
 The following code example shows how to simply apply the Compare method to two documents:
 
-**.NET**
-{{< highlight csharp >}}
-// The source document doc1
-Document doc1 = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc1);
-builder.Writeln("This is the original document.");
-
-// The target document doc2
-Document doc2 = new Document();
-builder = new DocumentBuilder(doc2);
-builder.Writeln("This is the edited document.");
-
-// If either document has a revision, an exception will be thrown
-if (doc1.Revisions.Count == 0 && doc2.Revisions.Count == 0)
-	doc1.Compare(doc2, "authorName", DateTime.Now);
-
-// If doc1 and doc2 are different, doc1 now has some revisions after the comparison, which can now be viewed and processed
-Assert.AreEqual(2, doc1.Revisions.Count);
-
-foreach (Revision r in doc1.Revisions)
-	{
-		Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
-		Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
-	}
-
-// All the revisions in doc1 are differences between doc1 and doc2, so accepting them on doc1 transforms doc1 into doc2
-doc1.Revisions.AcceptAll();
-
-// doc1, when saved, now resembles doc2
-doc1.Save(ArtifactsDir + "Document.Compare.docx");
-doc1 = new Document(ArtifactsDir + "Document.Compare.docx");
-Assert.AreEqual(0, doc1.Revisions.Count);
-Assert.AreEqual(doc2.GetText().Trim(), doc1.GetText().Trim());
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-CSharp-Programming-Documents-Document-CompareDocument-ApplyCompareTwoDocuments.cs" >}}
 
 ## Specify Advanced Comparing Properties
 
@@ -87,105 +54,7 @@ Another common property is a choice in which document to show comparison changes
 
 The following code example shows how to set the advanced comparing properties:
 
-**.NET**
-{{< highlight csharp >}}
-// Create the original document
-Document docOriginal = new Document();
-DocumentBuilder builder = new DocumentBuilder(docOriginal);
-
-// Insert paragraph text with an endnote
-builder.Writeln("Hello world! This is the first paragraph.");
-builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
-
-// Insert a table
-builder.StartTable();
-builder.InsertCell();
-builder.Write("Original cell 1 text");
-builder.InsertCell();
-builder.Write("Original cell 2 text");
-builder.EndTable();
-
-// Insert a textbox
-Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
-builder.MoveTo(textBox.FirstParagraph);
-builder.Write("Original textbox contents");
-
-// Insert a DATE field
-builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
-builder.InsertField(" DATE ");
-
-// Insert a comment
-Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
-newComment.SetText("Original comment.");
-builder.CurrentParagraph.AppendChild(newComment);
-
-// Insert a header
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-builder.Writeln("Original header contents.");
-
-// Create a clone of our document, which we will edit and later compare to the original
-Document docEdited = (Document)docOriginal.Clone(true);
-Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
-
-// Change the formatting of the first paragraph, change casing of original characters and add text
-firstParagraph.Runs[0].Text = "hello world! this is the first paragraph, after editing.";
-firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1];
-            
-// Edit the footnote
-Footnote footnote = (Footnote)docEdited.GetChild(NodeType.Footnote, 0, true);
-footnote.FirstParagraph.Runs[1].Text = "Edited endnote text.";
-
-// Edit the table
-Table table = (Table)docEdited.GetChild(NodeType.Table, 0, true);
-table.FirstRow.Cells[1].FirstParagraph.Runs[0].Text = "Edited Cell 2 contents";
-
-// Edit the textbox
-textBox = (Shape)docEdited.GetChild(NodeType.Shape, 0, true);
-textBox.FirstParagraph.Runs[0].Text = "Edited textbox contents";
-
-// Edit the DATE field
-FieldDate fieldDate = (FieldDate)docEdited.Range.Fields[0];
-fieldDate.UseLunarCalendar = true;
-
-// Edit the comment
-Comment comment = (Comment)docEdited.GetChild(NodeType.Comment, 0, true);
-comment.FirstParagraph.Runs[0].Text = "Edited comment.";
-
-// Edit the header
-docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text = "Edited header contents.";
-
-// Apply different comapring options
-CompareOptions compareOptions = new CompareOptions();
-compareOptions.IgnoreFormatting = false;
-compareOptions.IgnoreCaseChanges = false;
-compareOptions.IgnoreComments = false;
-compareOptions.IgnoreTables = false;
-compareOptions.IgnoreFields = false;
-compareOptions.IgnoreFootnotes = false;
-compareOptions.IgnoreTextboxes = false;
-compareOptions.IgnoreHeadersAndFooters = false;
-compareOptions.Target = ComparisonTargetType.New;
-
-// compare both documents
-docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
-
-docOriginal = new Document(ArtifactsDir + "Document.CompareOptions.docx");
-
-TestUtil.VerifyFootnote(FootnoteType.Endnote, true, string.Empty, "OriginalEdited endnote text.", (Footnote)docOriginal.GetChild(NodeType.Footnote, 0, true));
-
-// If you set compareOptions to ignore certain types of changes,
-// then revisions done on those types of nodes will not appear in the output document
-// You can tell what kind of node a revision was done on by looking at the NodeType of the revision's parent nodes
-Assert.AreNotEqual(compareOptions.IgnoreFormatting, docOriginal.Revisions.Any(rev => rev.RevisionType == RevisionType.FormatChange));
-Assert.AreNotEqual(compareOptions.IgnoreCaseChanges, docOriginal.Revisions.Any(s => s.ParentNode.GetText().Contains("hello")));
-Assert.AreNotEqual(compareOptions.IgnoreComments, docOriginal.Revisions.Any(rev => HasParentOfType(rev, NodeType.Comment)));
-Assert.AreNotEqual(compareOptions.IgnoreTables, docOriginal.Revisions.Any(rev => HasParentOfType(rev, NodeType.Table)));
-Assert.AreNotEqual(compareOptions.IgnoreFields, docOriginal.Revisions.Any(rev => HasParentOfType(rev, NodeType.FieldStart)));
-Assert.AreNotEqual(compareOptions.IgnoreFootnotes, docOriginal.Revisions.Any(rev => HasParentOfType(rev, NodeType.Footnote)));
-Assert.AreNotEqual(compareOptions.IgnoreTextboxes, docOriginal.Revisions.Any(rev => HasParentOfType(rev, NodeType.Shape)));
-Assert.AreNotEqual(compareOptions.IgnoreHeadersAndFooters, docOriginal.Revisions.Any(rev => HasParentOfType(rev, NodeType.HeaderFooter)));
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-CSharp-Programming-Documents-Document-CompareDocument-SetAdvancedComparingProperties.cs" >}}
 
 {{% alert color="primary" %}}
 

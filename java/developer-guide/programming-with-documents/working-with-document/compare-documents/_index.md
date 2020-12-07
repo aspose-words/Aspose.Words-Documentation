@@ -1,7 +1,7 @@
 ---
 title: Compare Documents
 type: docs
-description: "Aspose.Words for .NET allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
+description: "Aspose.Words for Java allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 weight: 50
 url: /java/compare-documents/
 aliases: [/java/how-to-compare-two-word-documents/]
@@ -23,7 +23,7 @@ The general limitation for two documents being compared is that they must not ha
 
 {{% alert color="primary" %}}
 
-Note that you can compare any two documents within the [supported file formats](https://docs.aspose.com/words/net/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
+Note that you can compare any two documents within the [supported file formats](https://docs.aspose.com/words/java/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
 
 {{% /alert %}}
 
