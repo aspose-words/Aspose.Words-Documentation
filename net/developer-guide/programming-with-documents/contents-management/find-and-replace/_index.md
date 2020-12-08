@@ -27,7 +27,7 @@ Aspose.Words presents the find and replace functionality with the [Aspose.Words.
 
 You can use one of the [Replace](https://apireference.aspose.com/net/words/aspose.words/range/methods/replace/index) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
 
-The following code example shows how to find the string “_CustomerName_” and replace it with the string “James Bond”:
+The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
 {{< highlight csharp >}}
 // Load a Word Docx document by creating an instance of the Document class.
@@ -59,13 +59,13 @@ Use the other [Replace](https://apireference.aspose.com/words/net/aspose.words.r
 The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 
 {{< highlight csharp >}}
-Document doc = **new** Document();
-DocumentBuilder builder = **new** DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("sad mad bad");
 Assert.AreEqual("sad mad bad", doc.GetText().Trim());
 
 // Replaces all occurrences of the words "sad" or "mad" to "bad".
-doc.Range.Replace(**new** Regex("[s|m]ad"), "bad", options);
+doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 
 // Save the Word document.
 doc.Save("Range.ReplaceWithRegex.docx");
