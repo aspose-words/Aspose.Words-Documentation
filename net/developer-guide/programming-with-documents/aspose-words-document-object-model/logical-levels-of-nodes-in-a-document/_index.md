@@ -45,6 +45,7 @@ Block-level nodes represent containers for content and content controls, and can
 Block-level nodes are represented by the following classes:
 
 - [Tables](https://apireference.aspose.com/words/net/aspose.words.tables/table) and [Paragraphs](https://apireference.aspose.com/words/net/aspose.words/paragraph), which are the most important block-level nodes
+- Bookmarks, which occurs both at the block-level and at the inline-level
 - [StructuredDocumentTag](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag), which represent custom markup and can contain both content and content controls
 
 The following diagram shows block-level elements.
