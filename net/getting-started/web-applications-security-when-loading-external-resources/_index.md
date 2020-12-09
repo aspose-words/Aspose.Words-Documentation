@@ -1,7 +1,7 @@
 ---
 title: Web Applications Security When Loading External Resources
 type: docs
-description: "Aspose.Words allows you to load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."
+description: "Aspose.Words for .NET allows you to load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."
 weight: 100
 url: /net/web-applications-security-when-loading-external-resources/
 ---

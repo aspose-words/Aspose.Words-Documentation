@@ -1,6 +1,7 @@
 ---
 title: Converting a Document with Images using Aspose.Words in Azure Functions
 type: docs
+description: "In Aspose.Words for .NET, we solved the problem of converting documents with images to fixed page formats – just make native assets copied properly."
 weight: 20
 url: /net/converting-a-document-with-images-using-aspose-words-in-azure-functions/
 ---
@@ -55,13 +56,13 @@ namespace AsposeWordsAzureTestApp
             // Create a simple document using DocumentBuilder.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
-    
+        
             // Write some text in the document.
             builder.Writeln("Hello Aspose.Words!");
-    
+        
             // Write OS we are running on.
             builder.Writeln("You are running on " + System.Environment.OSVersion.VersionString);
-    
+        
             // Insert some image into the document.
             builder.InsertImage(@"https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/aspose-logo.png");
             // Now save the created document to PDF and return as a FileContentResult.

@@ -1,6 +1,7 @@
 ---
 title: How to Run Aspose.Words in Docker
 type: docs
+description: "Integrate Aspose.Words functionality into your application using Docker regardless of what technology is in your development stack. Learn how to use Aspose .Words in a Docker container."
 weight: 120
 url: /net/how-to-run-aspose-words-in-docker/
 ---
