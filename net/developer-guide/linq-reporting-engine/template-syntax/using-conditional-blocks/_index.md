@@ -6,11 +6,12 @@ url: /net/using-conditional-blocks/
 aliases: [/net/template-syntax/#using-conditional-blocks]
 ---
 
-You can use different document blocks to represent the same data depending on a condition with the help of conditional blocks. A conditional block represents a set of template options, each of which is bound with a conditional expression. At runtime, these conditional expressions are sequentially evaluated, until an expression that returns true is reached. Then, the conditional block is replaced with the corresponding template option populated with data.
+You can use different document blocks to represent the same data depending on a condition with the help of conditional blocks. A *conditional block* represents a set of template options, each of which is bound with a conditional expression. At runtime, these conditional expressions are sequentially evaluated, until an expression that returns `true` is reached. Then, the conditional block is replaced with the corresponding template option populated with data.
 
-A conditional block can have a default template option that is not bound with a conditional expression. At runtime, this template option is used, when none of the conditional expressions return true. If a default template option is missing and none of the conditional expressions return true, then the whole conditional block is removed during runtime.
+A conditional block can have a default template option that is not bound with a conditional expression. At runtime, this template option is used, when none of the conditional expressions return `true`. If a default template option is missing and none of the conditional expressions return `true`, then the whole conditional block is removed during runtime.
 
 You can use the following syntax to declare a conditional block.
+
 {{< highlight csharp >}}
 <<if [conditional_expression1]>>
 template_option1
@@ -21,13 +22,15 @@ template_option2
 default_template_option
 <</if>>
 {{< /highlight >}}
-**Note -** A conditional expression must return a Boolean value.
+
+**Note –** A conditional expression must return a Boolean value.
 
 ## Working with Common Conditional Blocks
 
 A common conditional block is a conditional block which body starts and ends within paragraphs that belong to a single story or table cell.
 
-If a conditional block belongs to a single paragraph, it can be used as a replacement for an expression tag that involves the ternary “?:” operator. For example, given that items is an enumeration, you can use the following template to represent the count of elements in the enumeration.
+If a conditional block belongs to a single paragraph, it can be used as a replacement for an expression tag that involves the ternary “`?:`” operator. For example, given that `items` is an enumeration, you can use the following template to represent the count of elements in the enumeration.
+
 {{< highlight csharp >}}
 You have chosen <<if [!items.Any()]>>no items<<else>><<[items.Count()]>> item(s)<</if>>.
 {{< /highlight >}}
@@ -35,20 +38,31 @@ You have chosen <<if [!items.Any()]>>no items<<else>><<[items.Count()]>> item(s)
 **Note –** A template option of a common conditional block can be composed of multiple paragraphs if needed.
 
 You can normally use common conditional blocks within data bands. For example, given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them and apply different formatting for even and odd elements.
-{{< highlight csharp >}}
-<<foreach [item in items]>><<if [IndexOf() % 2 == 0]>><<[item]>>
-<<else>><<[item]>>
-<</if>><</foreach>>
-{{< /highlight >}}
+
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach [item in items]>>&lt;&lt;if [IndexOf() % 2 == 0]>>&lt;&lt;[item]>><br>
+<span  style="background-color: #ffff00">&lt;&lt;else>>&lt;&lt;[item]>></span><br>
+&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
-{{< highlight text >}}
-item1
-item2
-item3
-{{< /highlight >}}
 
-You can use data bands within common conditional blocks as well. For example, given the previous declaration of items, you can check whether the enumeration contains any elements before outputting their list.
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td>item1<br>
+<span style="background-color: #ffff00">item2</span><br>
+item3</td>
+		</tr>
+	</tbody>
+</table>
+
+You can use data bands within common conditional blocks as well. For example, given the previous declaration of `items`, you can check whether the enumeration contains any elements before outputting their list.
+
 {{< highlight csharp >}}
 <<if [!items.Any()]>>No data.
 <<else>><<foreach [item in items]>><<[item]>>
@@ -72,7 +86,8 @@ A table-row conditional block is a conditional block which body occupies single 
 |**...**|**...**|**... <</if>>**|
 ||||
 
-The following examples in this section are given using client, an instance of the Client class, and clients, an enumeration of instances of the Client class that is defined as follows.
+The following examples in this section are given using `client`, an instance of the `Client` class, and `clients`, an enumeration of instances of the `Client` class that is defined as follows.
+
 {{< highlight csharp >}}
   public class Client
   {
@@ -82,6 +97,7 @@ The following examples in this section are given using client, an instance of th
     ...
   }
 {{< /highlight >}}
+
 Using table-row conditional blocks, you can pick to output a single row among several rows of a single document table depending on a condition like in the following example.
 
 |...|...|...|
@@ -124,7 +140,7 @@ In case when the corresponding enumeration is empty, the engine produces a repor
 | :- | :- | :- |
 |**No data**|||
 
-A special case is a template option inside a single-column table row. In such a case, if you put an opening if, elseif, or else tag and a closing if tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
+A special case is a template option inside a single-column table row. In such a case, if you put an opening `if`, `elseif`, or `else` tag and a closing `if` tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
 |Header|
 | :- |
@@ -138,7 +154,7 @@ In this case, the engine produces a report as follows.
 ||
 |**Footer**|
 
-However, if needed, you can override this behavior making the engine to treat such a template option as a table-row one by specifying a greedy switch like in the following template.
+However, if needed, you can override this behavior making the engine to treat such a template option as a table-row one by specifying a `greedy` switch like in the following template.
 
 |Header|
 | :- |
@@ -151,4 +167,4 @@ In this case, the engine produces a report as follows.
 | :- |
 |**Footer**|
 
-**Note –** In the previous examples, tag <<if [false]>> is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
+**Note –** In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.
