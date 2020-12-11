@@ -40,11 +40,7 @@ To insert a text, pass the string of text you need to insert into the document t
 
 The following code example shows how to create a simple document using a document builder.
 
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Write("Hello, world!");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Quick-Start-HelloWorld-HelloWorld.cs" >}}
 
 ### Specify Document Formatting
 
