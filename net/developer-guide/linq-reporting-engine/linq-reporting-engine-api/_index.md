@@ -7,21 +7,22 @@ url: /net/linq-reporting-engine-api/
 
 {{% alert color="primary" %}} 
 
-Classes of the LINQ Reporting Engine are located within the Aspose.Words.Reporting namespace. The main of the classes is ReportingEngine. All the functionality required to build a report from a template is assembled within the class.
+Classes of the LINQ Reporting Engine are located within the `Aspose.Words.Reporting` namespace. The main of the classes is `ReportingEngine`. All the functionality required to build a report from a template is assembled within the class.
 
 {{% /alert %}} 
 
 ## Building Reports
 
-To build a report from a template, you can use one of the ReportingEngine.BuildReport overloads. The following table describes the parameters of these overloads.
+To build a report from a template, you can use one of the `ReportingEngine.BuildReport` overloads. The following table describes the parameters of these overloads.
 
 |Parameter|Description|
 | :- | :- |
 |document|A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report.|
-|dataSource|An object providing a data to populate the specified template. The object must be of one of the following types:<br>- A traditional mail merge data source (see “Working with Traditional Mail Merge Data Sources” for more information)<br>- An object of a custom visible type (see “Working with Types” for more information)<br>- An XmlDataSource instance (see “Accessing XML Data” for more information)<br>- A JsonDataSource instance (see “Accessing JSON Data” for more information)<br>- A CsvDataSource instance (see “Accessing CSV Data” for more information)|
+|dataSource|An object providing a data to populate the specified template. The object must be of one of the following types:<br>- A traditional mail merge data source (see “Working with Traditional Mail Merge Data Sources” for more information)<br>- An object of a custom visible type (see “Working with Types” for more information)<br>- An `XmlDataSource` instance (see “Accessing XML Data” for more information)<br>- A `JsonDataSource` instance (see “Accessing JSON Data” for more information)<br>- A `CsvDataSource` instance (see “Accessing CSV Data” for more information)|
 |dataSourceName|The identifier of the specified data source object within the specified template. You can omit this identifier, if the template uses the contextual object member access (see “ REF contextual Using Contextual Object Member Access” for more information) when dealing with the data source.|
 
-Given a template to be populated with a data from a DataSet instance that is identified as “ds” within the template, you can use the following code to build the corresponding report.
+Given a template to be populated with a data from a `DataSet` instance that is identified as “ds” within the template, you can use the following code to build the corresponding report.
+
 {{< highlight csharp >}}
     Document doc = ...   // Loading a template document.
     DataSet dataSet = ... // Setting up a data set.
@@ -29,7 +30,8 @@ Given a template to be populated with a data from a DataSet instance that is ide
     engine.BuildReport(doc, dataSet, “ds”);
 {{< /highlight >}}
 
-Given a visible Person class defined in your application and a template to be populated with a data about a single Person instance using the contextual object member access, you can use the following code to build the corresponding report.
+Given a visible `Person` class defined in your application and a template to be populated with a data about a single `Person` instance using the contextual object member access, you can use the following code to build the corresponding report.
+
 {{< highlight csharp >}}
     Document doc = ...   // Loading a template document.
     Person person = ...   // Setting up a person data.
@@ -40,9 +42,9 @@ Given a visible Person class defined in your application and a template to be po
 
 ## Accessing XML Data
 
-To access XML data while building a report, you can use facilities of DataSet to read XML into it and then pass it to the engine as a data source. However, if your scenario does not permit to specify XML schema while loading XML into DataSet, all attributes and text values of XML elements are loaded as strings then. Thus, it becomes impossible, for example, to use arithmetic operations on numbers or to specify custom date-time and numeric formats to output corresponding values, because all of them are treated as strings.
+To access XML data while building a report, you can use facilities of `DataSet` to read XML into it and then pass it to the engine as a data source. However, if your scenario does not permit to specify XML schema while loading XML into `DataSet`, all attributes and text values of XML elements are loaded as strings then. Thus, it becomes impossible, for example, to use arithmetic operations on numbers or to specify custom date-time and numeric formats to output corresponding values, because all of them are treated as strings.
 
-To overcome this limitation, you can pass an XmlDataSource instance to the engine as a data source instead. Even when XML schema is not provided, XmlDataSource is capable to recognize values of the following types by their string representations:
+To overcome this limitation, you can pass an `XmlDataSource` instance to the engine as a data source instead. Even when XML schema is not provided, `XmlDataSource` is capable to recognize values of the following types by their string representations:
 
 - Int32?
 - Int64?
@@ -52,7 +54,7 @@ To overcome this limitation, you can pass an XmlDataSource instance to the engin
 
 **Note –** For recognition of data types to work, string representations of corresponding attributes and text values of XML elements must be formed using invariant culture settings.
 
-In template documents, if a top-level XML element contains only a sequence of elements of the same type, an XmlDataSource instance should be treated in the same way as if it was a DataTable instance (see “Working with DataTable and DataView Objects” for more information) as shown in the following example.
+In template documents, if a top-level XML element contains only a sequence of elements of the same type, an `XmlDataSource` instance should be treated in the same way as if it was a `DataTable` instance (see “Working with DataTable and DataView Objects” for more information) as shown in the following example.
 
 XML
 {{< highlight xml >}}
@@ -100,9 +102,9 @@ Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 Average age: 36
 {{< /highlight >}}
 
-**Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of Birth and Age XML elements are automatically converted to DateTime? and Int32? respectively even in the absence of XML schema.
+**Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of `Birth` and `Age` XML elements are automatically converted to `DateTime?` and `Int32?` respectively even in the absence of XML schema.
 
-If a top-level XML element contains attributes or nested elements of different types, an XmlDataSource instance should be treated in template documents in the same way as if it was a DataRow instance (see “Working with DataRow and DataRowView Objects” for more information) as shown in the following example.
+If a top-level XML element contains attributes or nested elements of different types, an `XmlDataSource` instance should be treated in template documents in the same way as if it was a `DataRow` instance (see “Working with DataRow and DataRowView Objects” for more information) as shown in the following example.
 
 XML
 {{< highlight xml >}}
@@ -254,9 +256,9 @@ Result document
 
 ## Accessing JSON Data
 
-To access JSON data while building a report, you can pass a JsonDataSource instance to the engine as a data source.
+To access JSON data while building a report, you can pass a `JsonDataSource` instance to the engine as a data source.
 
-Using of JsonDataSource enables you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:
+Using of `JsonDataSource` enables you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:
 
 - Int32?
 - Int64?
@@ -267,7 +269,7 @@ Using of JsonDataSource enables you to work with typed values of JSON elements i
 
 **Note –** Working with complex JSON types (objects and arrays) is also supported.
 
-In template documents, if a top-level JSON element is an array or an object having only one property of an array type, a JsonDataSource instance should be treated in the same way as if it was a DataTable instance (see “Working with DataTable and DataView Objects” for more information) as shown in the following example.
+In template documents, if a top-level JSON element is an array or an object having only one property of an array type, a `JsonDataSource` instance should be treated in the same way as if it was a `DataTable` instance (see “Working with DataTable and DataView Objects” for more information) as shown in the following example.
 
 JSON
 {{< highlight json >}}
@@ -339,9 +341,9 @@ Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 Average age: 36
 {{< /highlight >}}
 
-**Note –** Using of the custom date-time format becomes possible, because text values of Birth properties are automatically converted to DateTime?.
+**Note –** Using of the custom date-time format becomes possible, because text values of Birth properties are automatically converted to `DateTime?`.
 
-If a top-level JSON element represents an object, a JsonDataSource instance should be treated in template documents in the same way as if it was a DataRow instance (see “Working with DataRow and DataRowView Objects” for more information). If a top-level JSON object has a single property that is also an object, then this nested object is accessed by the engine instead. To see how it works, consider the following example.
+If a top-level JSON element represents an object, a `JsonDataSource` instance should be treated in template documents in the same way as if it was a `DataRow` instance (see “Working with DataRow and DataRowView Objects” for more information). If a top-level JSON object has a single property that is also an object, then this nested object is accessed by the engine instead. To see how it works, consider the following example.
 
 JSON
 {{< highlight json >}}
@@ -527,7 +529,7 @@ For recognition of JSON simple values (null, boolean, number, integer, and strin
     { prop: "123" }
 {{< /highlight >}}
 
-In the loose mode, the type of prop is determined as an integer, whereas in the strict mode, it is determined as a string.
+In the loose mode, the type of `prop` is determined as an integer, whereas in the strict mode, it is determined as a string.
 
 The loose mode is used by the engine by default to support more typed data representation options. However, in some scenarios, it can be more preferable to disable recognition of numbers and other JSON simple values from strings, for example, when you need to keep leading padding zeros in a string value representing a number. In this case, you can switch to the strict mode as shown in the following code snippet.
 
@@ -564,9 +566,9 @@ In some scenarios, you may need to disable recognition of date-time values at al
 
 ## Accessing CSV Data
 
-To access CSV data while building a report, you can pass a CsvDataSource instance to the engine as a data source.
+To access CSV data while building a report, you can pass a `CsvDataSource` instance to the engine as a data source.
 
-Using of CsvDataSource enables you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, CsvDataSource is capable to recognize values of the following types by their string representations:
+Using of `CsvDataSource` enables you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:
 
 - Int32?
 - Int64?
@@ -576,7 +578,7 @@ Using of CsvDataSource enables you to work with typed values rather than just st
 
 **Note –** For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
 
-In template documents, a CsvDataSource instance should be treated in the same way as if it was a DataTable instance (see “Working with DataTable and DataView Objects” for more information) as shown in the following example.
+In template documents, a `CsvDataSource` instance should be treated in the same way as if it was a DataTable instance (see “Working with DataTable and DataView Objects” for more information) as shown in the following example.
 
 CSV
 {{< highlight csv >}}
@@ -611,9 +613,9 @@ Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 Average age: 36
 {{< /highlight >}}
 
-**Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of Column3 and Column2 are automatically converted to DateTime? and Int32? respectively.
+**Note –** Using of the custom date-time format and the extension method involving arithmetic in the template document becomes possible, because text values of `Column3` and `Column2` are automatically converted to `DateTime?` and `Int32?` respectively.
 
-By default, CsvDataSource uses column names such as “Column1”, “Column2”, and so on, as you can see from the previous example. However, CsvDataSource can be configured to read column names from the first line of CSV data as shown in the following example.
+By default, `CsvDataSource` uses column names such as “Column1”, “Column2”, and so on, as you can see from the previous example. However, `CsvDataSource` can be configured to read column names from the first line of CSV data as shown in the following example.
 
 CSV
 {{< highlight csv >}}
@@ -650,7 +652,7 @@ Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 Average age: 36
 {{< /highlight >}}
 
-Also, you can use CsvDataLoadOptions to customize the following characters playing special roles while loading CSV data:
+Also, you can use `CsvDataLoadOptions` to customize the following characters playing special roles while loading CSV data:
 
 - Value separator (the default is comma)
 - Single-line comment start (the default is sharp)
@@ -659,11 +661,11 @@ Also, you can use CsvDataLoadOptions to customize the following characters playi
 
 ## Setting up Known External Types
 
-LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the ReportingEngine.KnownTypes property. The property represents an unordered set (that is, a collection of unique items) of [Type](http://msdn.microsoft.com/en-us/library/system.type\(v=vs.110\).aspx) objects. Every type in the set must meet requirements declared at “Working with Types”.
+LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the `ReportingEngine.KnownTypes` property. The property represents an unordered set (that is, a collection of unique items) of [Type](http://msdn.microsoft.com/en-us/library/system.type\(v=vs.110\).aspx) objects. Every type in the set must meet requirements declared at “Working with Types”.
 
-**Note –** Aliases of simple types like int, string, and others are known by the engine by default.
+**Note –** Aliases of simple types like `int`, `string`, and others are known by the engine by default.
 
-Consider the following example. Given an ImageUtil class declared at your application and a template accessing a static member of this class, you can use the following code to make the engine be aware of the class before processing the template.
+Consider the following example. Given an `ImageUtil` class declared at your application and a template accessing a static member of this class, you can use the following code to make the engine be aware of the class before processing the template.
 
 {{< highlight csharp >}}
     ReportingEngine engine = new ReportingEngine();
@@ -673,7 +675,7 @@ Consider the following example. Given an ImageUtil class declared at your applic
 
 ## Removing Paragraphs Containing Only Template Syntax Tags
 
-While building a report, some paragraphs containing only template syntax tags can become empty after the tags are removed or replaced with empty values. To remove such paragraphs from the report, you can apply the ReportBuildOptions.RemoveEmptyParagraphs option as shown in the following example.
+While building a report, some paragraphs containing only template syntax tags can become empty after the tags are removed or replaced with empty values. To remove such paragraphs from the report, you can apply the `ReportBuildOptions.RemoveEmptyParagraphs` option as shown in the following example.
 
 {{< highlight csharp >}}
     ReportingEngine engine = new ReportingEngine();
@@ -692,14 +694,14 @@ Prefix
 Suffix
 {{< /highlight >}}
 
-Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
+Result document without `ReportBuildOptions.RemoveEmptyParagraphs` applied
 {{< highlight xml >}}
 Prefix
 
 Suffix
 {{< /highlight >}}
 
-Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
+Result document with `ReportBuildOptions.RemoveEmptyParagraphs` applied
 {{< highlight xml >}}
 Prefix
 Suffix
@@ -715,14 +717,14 @@ Text to be removed
 Suffix
 {{< /highlight >}}
 
-Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
+Result document without `ReportBuildOptions.RemoveEmptyParagraphs` applied
 {{< highlight xml >}}
 Prefix
 
 Suffix
 {{< /highlight >}}
 
-Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
+Result document with `ReportBuildOptions.RemoveEmptyParagraphs` applied
 {{< highlight xml >}}
 Prefix
 Suffix
@@ -730,7 +732,7 @@ Suffix
 
 **Example 3**
 
-**Note –** In this example, persons is assumed to be a data table having a field Name.
+**Note –** In this example, `persons` is assumed to be a data table having a field `Name`.
 
 Template document
 {{< highlight xml >}}
@@ -741,7 +743,7 @@ Prefix
 Suffix
 {{< /highlight >}}
 
-Result document without ReportBuildOptions.RemoveEmptyParagraphs applied
+Result document without `ReportBuildOptions.RemoveEmptyParagraphs` applied
 {{< highlight xml >}}
 Prefix
 
@@ -754,7 +756,7 @@ John Smith
 Suffix
 {{< /highlight >}}
 
-Result document with ReportBuildOptions.RemoveEmptyParagraphs applied
+Result document with `ReportBuildOptions.RemoveEmptyParagraphs` applied
 {{< highlight xml >}}
 Prefix
 John Doe
@@ -767,7 +769,7 @@ Suffix
 
 By default, LINQ Reporting Engine forbids access to missing members of data objects used to build a report in template expressions, since such access is forbidden by [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029). On attempt to use a missing member of a data object, the engine throws an exception then.
 
-But in some scenarios, members of data objects are not exactly known while designing a template. For example, if using a DataSet instance loaded from XML without its schema defined, some of expected data members can be missing.
+But in some scenarios, members of data objects are not exactly known while designing a template. For example, if using a `DataSet` instance loaded from XML without its schema defined, some of expected data members can be missing.
 
 To support such scenarios, the engine provides an option to treat missing members of data objects as null literals. You can enable the option as shown in the following example.
 {{< highlight csharp >}}
@@ -776,18 +778,18 @@ To support such scenarios, the engine provides an option to treat missing member
     engine.BuildReport(...);
 {{< /highlight >}}
 
-Consider the following example. Given that r is a DataRow instance that does not have a field Missing, by default, the following template expression causes the engine to throw an exception while building a report.
+Consider the following example. Given that `r` is a `DataRow` instance that does not have a field `Missing`, by default, the following template expression causes the engine to throw an exception while building a report.
 {{< highlight xml >}}
 <<[r.Missing]>>*
 {{< /highlight >}}
 
-However, if ReportBuildOptions.AllowMissingMembers is applied, the engine treats access to such a field as a null literal, so no exception is thrown and simply no value is written to the report then.
+However, if `ReportBuildOptions.AllowMissingMembers` is applied, the engine treats access to such a field as a null literal, so no exception is thrown and simply no value is written to the report then.
 
 ## Inlining Syntax Error Messages into Templates
 
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
-However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the ReportBuildOptions.InlineErrorMessages option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
+However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.InlineErrorMessages` option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
 
 **Note –** A template syntax error message is written using a bold font to make it more apparent.
 
@@ -797,14 +799,14 @@ Consider the following template.
 <<var [name]>>
 {{< /highlight >}}
 
-By default, such a template causes the engine to throw an exception while building a report. However, when ReportBuildOptions.InlineErrorMessages is applied, no exception is thrown and the report looks as follows then.
+By default, such a template causes the engine to throw an exception while building a report. However, when `ReportBuildOptions.InlineErrorMessages` is applied, no exception is thrown and the report looks as follows then.
 {{< highlight xml >}}
     <<var [name] Error! An assignment operator is expected. >>
 {{< /highlight >}}
 
 **Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
-When ReportBuildOptions.InlineErrorMessages is applied, a Boolean value returned by a ReportingEngine.BuildReport overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
+When `ReportBuildOptions.InlineErrorMessages` is applied, a Boolean value returned by a `ReportingEngine.BuildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
 {{< highlight csharp >}}
     ReportingEngine engine = new ReportingEngine();
     engine.Options |= ReportBuildOptions.InlineErrorMessages;
@@ -818,7 +820,7 @@ When ReportBuildOptions.InlineErrorMessages is applied, a Boolean value returned
     }
 {{< /highlight >}}
 
-**Note –** When ReportBuildOptions.InlineErrorMessages is not applied, ReportingEngine.BuildReport overloads return true if there were no template syntax errors encountered or throw an exception otherwise.
+**Note –** When `ReportBuildOptions.InlineErrorMessages` is not applied, `ReportingEngine.BuildReport` overloads return `true` if there were no template syntax errors encountered or throw an exception otherwise.
 
 
 ## Optimizing Reflection Calls
@@ -827,4 +829,4 @@ LINQ Reporting Engine uses reflection calls while accessing members of custom ex
 
 That is why, the engine provides a strategy minimizing the reflection usage. The strategy is based upon the runtime type generation. That is, the engine generates a proxy type per an external type. The proxy directly calls members of the corresponding external type, the engine to access these members in a uniform way with no reflection involved. The proxy is [lazily initialized](http://en.wikipedia.org/wiki/Lazy_initialization) and reused in further. Thus, the reflection is used only while building the proxy.
 
-Although this strategy can significantly minimize the reflection usage in a long run, it creates a performance overhead of the runtime type generation. So, if you deal with small data collections all the time while building your reports, consider the disabling of the strategy. You can control the enabling of the strategy through the ReportingEngine.UseReflectionOptimization static property. By default, the strategy is enabled.
+Although this strategy can significantly minimize the reflection usage in a long run, it creates a performance overhead of the runtime type generation. So, if you deal with small data collections all the time while building your reports, consider the disabling of the strategy. You can control the enabling of the strategy through the `ReportingEngine.UseReflectionOptimization` static property. By default, the strategy is enabled.

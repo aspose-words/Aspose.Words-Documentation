@@ -14,7 +14,7 @@ A table-row data band is a data band which body occupies single or multiple rows
 |**...**|**...**|**... &lt;&lt;/foreach&gt;&gt;**|
 ||||
 
-The following examples in this section are given using ds, a DataSet instance containing DataTable and DataRelation objects according to the following data model.
+The following examples in this section are given using `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
 ![todo:image_alt_text](working_with_table_row_data_bands.png)
 
@@ -80,7 +80,7 @@ In this case, the engine produces a report as follows.
 |**Tony Anderson**|<p>**E Corp.**</p><p>**F & Partners**</p><p></p>|
 |**July James**|<p>**G & Co.**</p><p>**H Group**</p><p>**I & Sons**</p><p>**J Ent.**</p><p></p>|
 
-A special case is a data band inside a single-column table row. In such a case, if you put opening and closing foreach tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
+A special case is a data band inside a single-column table row. In such a case, if you put opening and closing `foreach` tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
 |Managers|
 | :- |
@@ -92,7 +92,7 @@ In this case, the engine produces a report as follows.
 | :- |
 |**John Smith  Tony Anderson  July James**  |
 
-However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a greedy switch like in the following template.
+However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a `greedy` switch like in the following template.
 
 |Managers|
 | :- |
