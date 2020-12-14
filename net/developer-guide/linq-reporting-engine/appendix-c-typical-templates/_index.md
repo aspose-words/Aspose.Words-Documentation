@@ -9,12 +9,12 @@ url: /net/typical-templates/
 
 Every example given in this article is using one of the following data source objects:
 
-- manager, an instance of the Manager class
-- managers, an enumeration of instances of the Manager class
-- contracts, an enumeration of instances of the Contract class
-- clients, an enumeration of instances of the Client class
+- `manager`, an instance of the `Manager` class
+- `managers`, an enumeration of instances of the `Manager` class
+- `contracts`, an enumeration of instances of the `Contract` class
+- `clients`, an enumeration of instances of the `Client` class
 
-The Manager, Contract, and Client classes are defined as follows.
+The `Manager`, `Contract`, and `Client` classes are defined as follows.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-Manager-Manager.cs" >}}
 
@@ -119,29 +119,39 @@ We provide support for the following clients:
 
 #### Template Example
 
-{{< highlight csharp >}}
 We provide support for the following clients:
-    1. <<foreach [in clients]>><<if [IndexOf() % 2 == 0]>><<[Name]>>
-    2. <<else>><<[Name]>>
-<</if>><</foreach>>
-{{< /highlight >}}
+
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td>1. &lt;&lt;foreach [in clients]>>&lt;&lt;if [IndexOf() % 2 == 0]>>&lt;&lt;[Name]>><br>
+<span  style="background-color: #B5EAAA">2. &lt;&lt;else>>&lt;&lt;[Name]>></span><br>
+&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/LINQ/MulticoloredNumberedList.doc).
 
 #### Report Example
 
-{{< highlight csharp >}}
 We provide support for the following clients:
-    1. A Company
-    2. B Ltd.
-    3. C & D
-    4. E Corp.
-    5. F & Partners
-    6. G & Co.
-    7. H Group
-    8. I & Sons
-    9. J Ent.
-{{< /highlight >}}
+
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td>1. A Company<br>
+<span  style="background-color: #B5EAAA">2. B Ltd.</span><br>
+3. C & D<br>
+<span  style="background-color: #B5EAAA">4. E Corp.</span><br>
+5. F & Partners<br>
+<span  style="background-color: #B5EAAA">6. G & Co.</span><br>
+7. H Group<br>
+<span  style="background-color: #B5EAAA">8. I & Sons</span><br>
+9. J Ent.</td>
+		</tr>
+	</tbody>
+</table>
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-MulticoloredNumberedList-MulticoloredNumberedList.cs" >}}
 

@@ -134,17 +134,17 @@ In this case, the engine produces a report as follows.
 |Manager/Client|Contract Price|
 | :- | :- |
 |**John Smith**|**2300000**|
-|`  `**A Company**|**1200000**|
-|`  `**B Ltd.**|**750000**|
-|`  `**C & D**|**350000**|
+|**A Company**|**1200000**|
+|**B Ltd.**|**750000**|
+|**C & D**|**350000**|
 |**Tony Anderson**|**1200000**|
-|`  `**E Corp.**|**650000**|
-|`  `**F & Partners**|**550000**|
+|**E Corp.**|**650000**|
+|**F & Partners**|**550000**|
 |**July James**|**800000**|
-|`  `**G & Co.**|**350000**|
-|`  `**H Group**|**250000**|
-|`  `**I & Sons**|**100000**|
-|`  `**J Ent.**|**100000**|
+|**G & Co.**|**350000**|
+|**H Group**|**250000**|
+|**I & Sons**|**100000**|
+|**J Ent.**|**100000**|
 |**Total:**|**4300000**|
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.

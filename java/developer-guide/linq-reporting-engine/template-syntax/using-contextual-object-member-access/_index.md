@@ -13,22 +13,46 @@ context as follows:
 
 Obviously, inside a data band body, you can not use the feature to access members of an outer iteration variable or a passed data source object. With the exception of this restriction, you can use both contextual and common object member access syntaxes interchangeably depending on your needs and preferences.
 
-Consider the following example. Given that ds is a DataSet instance containing a DataTable object named “Persons” that has fields named “Name” and “Age”, you can use the following template to list the contents of the table.
+Consider the following example. Given that `ds` is a `DataSet` instance containing a `DataTable` object named “Persons” that has fields named “Name” and “Age”, you can use the following template to list the contents of the table.
 
-|No. |Name |Age |
-| :- | :- | :- |
-|{{< highlight csharp >}}
-<<foreach [in ds.Persons]>><<[p.numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}<<[p.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[p.Age]>><</foreach>>{{< /highlight >}}|
-|{{< highlight csharp >}}
-Count: <<[ds.Persons.count()]>>{{< /highlight >}}| | |
+<table class="ct">
+	<tbody>
+		<tr>
+			<td>No.</td>
+			<td>Name</td>
+			<td>Age</td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [p 
+    in ds.Persons]>>&lt;&lt;[
+  p.numberOf()]>></td>
+			<td>&lt;&lt;[p.Name]>></td>
+			<td>&lt;&lt;[p.Age]>>&lt;&lt;/foreach>></td>
+		</tr>
+		<tr>
+			<td colspan="3">Count: &lt;&lt;[ds.Persons.count()]>></td>
+		</tr>
+	</tbody>
+</table>
 
 Alternatively, you can use the following template involving the contextual object member access syntax to get the same results.
 
-|No. |Name |Age |
-| :- | :- | :- |
-|{{< highlight csharp >}}
-<<foreach [in Persons]>><<[numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
-<<[Name]>>{{< /highlight >}}|{{< highlight csharp >}}
-<<[Age]>><</foreach>>{{< /highlight >}}|
-|{{< highlight csharp >}}
-Count: <<[Persons.count()]>>{{< /highlight >}}| | |
+<table class="iksweb">
+	<tbody>
+		<tr>
+			<td>No.</td>
+			<td>Name</td>
+			<td>Age</td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [
+    in Persons]>>&lt;&lt;[
+  numberOf()]>></td>
+			<td>&lt;&lt;[Name]>></td>
+			<td>&lt;&lt;[Age]>>&lt;&lt;/foreach>></td>
+		</tr>
+		<tr>
+			<td colspan="3">Count: &lt;&lt;[Persons.count()]>></td>
+		</tr>
+	</tbody>
+</table>

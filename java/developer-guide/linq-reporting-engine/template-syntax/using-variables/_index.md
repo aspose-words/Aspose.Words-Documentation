@@ -17,13 +17,13 @@ The following table describes elements of the var tag.
 
 |Element|Optional?|Remarks|
 | :- | :- | :- |
-|**Variable Type**|Yes|<p>You can specify the type of a variable explicitly. This type must be known by the engine (see “ REF knownTypes  \* MERGEFORMAT Setting up Known External Types” for more information).</p><p>If you do not specify the type explicitly, it is determined implicitly by the engine from the specified variable value.</p>|
+|**Variable Type**|Yes|You can specify the type of a variable explicitly. This type must be known by the engine (see “ REF knownTypes  \* MERGEFORMAT Setting up Known External Types” for more information).<br />If you do not specify the type explicitly, it is determined implicitly by the engine from the specified variable value.|
 |**Variable Name**|No|For a new variable, its name must be a unique identifier.|
 |**Assignment Operator**|No| |
 |**Variable Value**|No| |
 
 
-During runtime, a var tag is removed while the value of the corresponding variable is calculated and set appropriately.
+During runtime, a `var` tag is removed while the value of the corresponding variable is calculated and set appropriately.
 
 After a variable is declared in a template, its value can be accessed using the name of the variable as any other identifier. For example, the following template outputs string “Hello!”
 
@@ -31,7 +31,7 @@ After a variable is declared in a template, its value can be accessed using the 
 <<var [s = “Hello!”]>><<[s]>>
 {{< /highlight >}}
 
-You can redefine the value of a variable using a var tag against the name of this variable. For example, the following template outputs string “Hello, World!”
+You can redefine the value of a variable using a `var` tag against the name of this variable. For example, the following template outputs string “Hello, World!”
 
 {{< highlight csharp >}}
 <<var [s = “Hello, ”]>><<[s]>><<var [s = “World!”]>><<[s]>>
@@ -41,4 +41,4 @@ Using of variables has the following restrictions:
 
 - You can not redefine the type of a variable.
 - You can not use the contextual object member access feature against a variable. See “ REF contextual Using Contextual Object Member Access” for more information.
-- Using a var tag, you can not redefine the value of an iteration variable or a data source.
+- Using a `var` tag, you can not redefine the value of an iteration variable or a data source.

@@ -5,15 +5,15 @@ weight: 50
 url: /net/appendix-a-enumeration-extension-methods/
 ---
 
-LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for IEnumerable. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus you can group, sort and perform other sequential data manipulations in template expressions in a familiar way.
+LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for `IEnumerable`. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus you can group, sort and perform other sequential data manipulations in template expressions in a familiar way.
 
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
 
 - Selector stands for a lambda function returning a value and taking an enumeration item as its single argument. See “Using Lambda Functions” for more information.
-- ComparableSelector stands for Selector returning [IComparable](http://msdn.microsoft.com/en-US/library/system.icomparable\(v=vs.110\).aspx).
-- Predicate stands for Selector returning a Boolean value.
+- `ComparableSelector` stands for `Selector` returning [IComparable](http://msdn.microsoft.com/en-US/library/system.icomparable\(v=vs.110\).aspx).
+- `Predicate` stands for `Selector` returning a Boolean value.
 
-Examples in the following table are given using persons and otherPersons, enumerations of instances of the Person class that is defined as follows.
+Examples in the following table are given using persons and `otherPersons`, enumerations of instances of the `Person` class that is defined as follows.
 
 {{< highlight csharp >}}
 public class Person

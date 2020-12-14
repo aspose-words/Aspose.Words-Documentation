@@ -9,7 +9,7 @@ The following table describes lexical tokens that you can use in template expres
 
 |Token|Restrictions|
 | :- | :- |
-|**Keyword**|Only the following tokens are reserved as keywords: true, false, null, new, and in.|
+|**Keyword**|Only the following tokens are reserved as keywords: `true`, `false`, `null`, `new`, and `in`.|
 |**Identifier**|- The feature of keyword escaping through the “@” character is not supported.<br>- Unicode character escapes are not permitted in identifiers.|
 |**Literal**|- 32-bit Unicode character escapes are not supported.<br>- Unsigned integer and decimal literals are not permitted.|
 |**Operator**|See “ REF operators Using Operators.”|

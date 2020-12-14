@@ -28,11 +28,13 @@ While building a report, an expression declared within a `doc` tag is evaluated 
 **Note –** If an expression declared within a `doc` tag returns a stream object, then the stream is closed by the engine as soon as a corresponding document is loaded.
 
 By default, while inserting content of an outer document, the engine applies corresponding styles of a template document. This makes content of a result document look more consistent. However, you can keep source formatting for content being inserted by using a `sourceStyles` switch as shown in the following snippet.
+
 {{< highlight csharp >}}
 <<doc [document_expression] -sourceStyles>>
 {{< /highlight >}}
 
 By default, a document being inserted is not checked against template syntax and is not populated with data. However, you can enable this by using a `build` switch as follows.
+
 {{< highlight csharp >}}
 <<doc [document_expression] -build>>
 {{< /highlight >}}

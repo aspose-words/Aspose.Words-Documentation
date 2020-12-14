@@ -5,63 +5,40 @@ weight: 80
 url: /java/appendix-c-typical-templates/
 ---
 
-{{% alert color="primary" %}} 
-
 This section contains examples of templates for typical scenarios. Every example is given using one of the following data source objects:
 
-- manager, an instance of the Manager class
-- managers, an enumeration of instances of the Manager class
-- contracts, an enumeration of instances of the Contract class
-- clients, an enumeration of instances of the Client class
+- `manager`, an instance of the `Manager` class
+- `managers`, an enumeration of instances of the `Manager` class
+- `contracts`, an enumeration of instances of the `Contract` class
+- `clients`, an enumeration of instances of the `Client` class
 
-The Manager, Contract, and Client classes are defined as follows.
+The `Manager`, `Contract`, and `Client` classes are defined as follows.
+
 {{< highlight java >}}
 public class Manager
 {
-    public String getName() { ... }
-    public int getAge() { ... }
-    public byte[] getPhoto() { ... }
-    public Iterable<Contract> getContracts() { ... }
-    ...
+	public String getName() { ... }
+	public int getAge() { ... }
+	public byte[] getPhoto() { ... }
+	public Iterable<Contract> getContracts() { ... }
+	...
 }
 
 public class Contract
 {
-    public Manager getManager() { ... }
-    public Client getClient() { ... }
-    public float getPrice() { ... }
-    public Date getDate() { ... }
-    ...
+	public Manager getManager() { ... }
+	public Client getClient() { ... }
+	public float getPrice() { ... }
+	public Date getDate() { ... }
+	...
 }
 
 public class Client
 {
-    public String getName() { ... }
-    ...
+	public String getName() { ... }
+	...
 }
 {{< /highlight >}}
-
-This article explains following topics:
-
-- [Single-Row Template](/words/java/appendix-c-typical-templates/)
-- [In-Paragraph List Template](/words/java/appendix-c-typical-templates/)
-- [Bulleted List Template](/words/java/appendix-c-typical-templates/)
-- [Numbered List Template](/words/java/appendix-c-typical-templates/)
-- [Multicolored Numbered List Template](/words/java/appendix-c-typical-templates/)
-- [Common List Template](/words/java/appendix-c-typical-templates/)
-- [In-Table List Template](/words/java/appendix-c-typical-templates/)
-- [In-Table List Template with Running (Progressive) Total](/words/java/appendix-c-typical-templates/)
-- [In-Table List Template with Highlighted Rows](/words/java/appendix-c-typical-templates/)
-- [In-Table List Template with Alternate Content](/words/java/appendix-c-typical-templates/)
-- [Common Master-Detail Template](/words/java/appendix-c-typical-templates/)
-- [In-Table Master-Detail Template](/words/java/appendix-c-typical-templates/)
-- [Pie Chart Template](/words/java/appendix-c-typical-templates/)
-- [Scatter Chart Template](/words/java/appendix-c-typical-templates/)
-- [Bubble Chart Template](/words/java/appendix-c-typical-templates/)
-- [In-Table Template with Filtering, Grouping, and Ordering](/words/java/appendix-c-typical-templates/)
-- [Chart Template with Filtering, Grouping, and Ordering](/words/java/appendix-c-typical-templates/)
-
-{{% /alert %}} 
 
 ## Single-Row Template
 
@@ -141,27 +118,36 @@ We provide support for the following clients:
 
 ### Template Example
 
-{{< highlight csharp >}}
 We provide support for the following clients:
-    1. <<foreach [in clients]>><<if [indexOf() % 2 == 0]>><<[getName()]>>
-    2. <<else>><<[getName()]>>
-<</if>><</foreach>>
-{{< /highlight >}}
+
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td>1. &lt;&lt;foreach [in clients]>>&lt;&lt;if [IndexOf() % 2 == 0]>>&lt;&lt;[Name]>><br>
+<span  style="background-color: #B5EAAA">2. &lt;&lt;else>>&lt;&lt;[Name]>></span><br>
+&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 ### Report Example
 
-{{< highlight csharp >}}
 We provide support for the following clients:
-    1. A Company
-    2. B Ltd.
-    3. C & D
-    4. E Corp.
-    5. F & Partners
-    6. G & Co.
-    7. H Group
-    8. I & Sons
-    9. J Ent.
-{{< /highlight >}}
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td>1. A Company<br>
+<span  style="background-color: #B5EAAA">2. B Ltd.</span><br>
+3. C & D<br>
+<span  style="background-color: #B5EAAA">4. E Corp.</span><br>
+5. F & Partners<br>
+<span  style="background-color: #B5EAAA">6. G & Co.</span><br>
+7. H Group<br>
+<span  style="background-color: #B5EAAA">8. I & Sons</span><br>
+9. J Ent.</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Common List Template
 
@@ -367,7 +353,7 @@ We provide support for the following clients:
 .where(c => c.getDate().getYear() == 115)
 .groupBy(c => c.getManager())
 .orderBy(g => g.key.getName())]>>
-<<[key.getName()]>> {{< /highlight >}} | <<[sum(c => c.getPrice())]>><</foreach>>|
+<<[key.getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[sum(c => c.getPrice())]>><</foreach>> {{< /highlight >}}|
 
 
 **Report Example**
