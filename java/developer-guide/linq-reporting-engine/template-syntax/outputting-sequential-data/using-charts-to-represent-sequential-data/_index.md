@@ -172,6 +172,7 @@ In this case, the engine produces a report as follows.
 
 ![todo:image_alt_text](total_contract_prices_12.png)
 
-**Note** You can normally apply this approach to a chart dynamically populated with data.
+**Note –** You can normally apply this approach to a chart dynamically populated with data.
 
 {{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-linq-ChartSeries-SetChartSeriesNameDynamically.java" >}}
+

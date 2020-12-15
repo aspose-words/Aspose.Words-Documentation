@@ -77,4 +77,4 @@ Given that `i` is an integer number, you can convert the number to a lower-case 
 <<[i]:roman:lower>>
 {{< /highlight >}}
 
-**Note -** In contrast to format strings, additional number and string formats must not be enclosed with double quotes.
+**Note –** In contrast to format strings, additional number and string formats must not be enclosed with double quotes.

@@ -22,8 +22,8 @@ The most common use case of a table-row data band is the building of a document 
 
 |Client|Manager|Contract Price|
 | :- | :- | :- |
-|<p>**&lt;&lt;foreach [**</p><p>**c in ds.Contracts**</p><p>**]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;**</p>|**&lt;&lt;[c.Managers.Name]&gt;&gt;**|<p>**&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/**</p><p>**foreach&gt;&gt;**</p>|
-|**Total:**||<p>**&lt;&lt;[ds**</p><p>**.Contracts**</p><p>**. REF linqSum sum(c =>**</p><p>**c.Price)]&gt;&gt;**</p>|
+|**&lt;&lt;foreach [c in ds.Contracts]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;**|**&lt;&lt;[c.Managers.Name]&gt;&gt;**|**&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
+|**Total:**||**&lt;&lt;[ds.Contracts.sum(c => c.Price)]&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
@@ -44,9 +44,9 @@ To populate a document table with a master-detail data, you can use nested table
 
 |Manager/Client|Contract Price|
 | :- | :- |
-|<p>&lt;&lt;foreach [</p><p>m in ds.Managers</p><p>]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;</p>|<p>&lt;&lt;[m.Contracts. REF linqSum sum(</p><p>c => c.Price)]&gt;&gt;</p>|
-|<p>&lt;&lt;foreach [</p><p>c in m.Contracts</p><p>]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt;</p>|<p>&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/</p><p>foreach&gt;&gt;&lt;&lt;/</p><p>foreach&gt;&gt;</p>|
-|**Total:**|<p>&lt;&lt;[ds</p><p>.Contracts</p><p>. REF linqSum sum(c =></p><p>c.Price)]&gt;&gt;</p>|
+|&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;|&lt;&lt;[m.Contracts.sum(c => c.Price)]&gt;&gt;|
+|&lt;&lt;foreach [c in m.Contracts]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt;|&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/>foreach&gt;&gt;|
+|**Total:**|&lt;&lt;[ds.Contracts.sum(c =>c.Price)]&gt;&gt;|
 
 In this case, the engine produces a report as follows.
 
@@ -106,4 +106,4 @@ In this case, the engine produces a report as follows.
 |**Tony Anderson**|
 |**July James**|
 
-For more examples of templates for typical scenarios involving table-row data bands, see “ REF typicalTemplates Appendix C. Typical Templates”.
+For more examples of templates for typical scenarios involving table-row data bands, see “Appendix C. Typical Templates”.

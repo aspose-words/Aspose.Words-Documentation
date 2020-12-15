@@ -55,7 +55,7 @@ persons.FirstOrDefault(){{< /highlight >}}|
 persons.FirstOrDefault(p => p.Age > 30){{< /highlight >}}|
 |GroupBy(Selector)|{{< highlight csharp >}}
 persons.GroupBy(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
-persons.GroupBy(    p => new    {        Age = p.Age,        Count = p.Children.Count()    }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains. |
+persons.GroupBy(    p => new { Age = p.Age, Count = p.Children.Count() }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains. |
 |Last()|{{< highlight csharp >}}
 persons.Last(){{< /highlight >}}|
 |Last(Predicate)|{{< highlight csharp >}}
@@ -70,20 +70,20 @@ persons.Max(p => p.Age){{< /highlight >}}|
 persons.Min(p => p.Age){{< /highlight >}}|
 |OrderBy(ComparableSelector)|{{< highlight csharp >}}
 persons.OrderBy(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderBy(p => p.Age)    .ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderBy(p => p.Age)    .ThenByDescending(p => p.Name)    .ThenBy(p => p.Children.Count()){{< /highlight >}}This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:- ThenBy(ComparableSelector)- ThenByDescending(ComparableSelector)|
+persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
+persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name).ThenBy(p => p.Children.Count()){{< /highlight >}}This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:- ThenBy(ComparableSelector)- ThenByDescending(ComparableSelector)|
 |OrderByDescending(ComparableSelector)|{{< highlight csharp >}}
 persons.OrderByDescending(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderByDescending(p => p.Age)    .ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderByDescending(p => p.Age)    .ThenByDescending(p => p.Name)    .ThenBy(p => p.Children.Count()){{< /highlight >}}See the previous note. |
+persons.OrderByDescending(p => p.Age).ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
+persons.OrderByDescending(p => p.Age).ThenByDescending(p => p.Name).ThenBy(p => p.Children.Count()){{< /highlight >}}See the previous note. |
 |Single()|{{< highlight csharp >}}
 persons.Single(){{< /highlight >}}|
 |Single(Predicate)|{{< highlight csharp >}}
-persons.Single(    p => p.Name == "John Smith"){{< /highlight >}}|
+persons.Single(p => p.Name == "John Smith"){{< /highlight >}}|
 |SingleOrDefault()|{{< highlight csharp >}}
 persons.SingleOrDefault(){{< /highlight >}}|
 |SingleOrDefault(Predicate)|{{< highlight csharp >}}
-persons.SingleOrDefault(    p => p.Name == "John Smith"){{< /highlight >}}|
+persons.SingleOrDefault(p => p.Name == "John Smith"){{< /highlight >}}|
 |Skip(int)|{{< highlight csharp >}}
 persons.Skip(10){{< /highlight >}}|
 |SkipWhile(Predicate)|{{< highlight csharp >}}

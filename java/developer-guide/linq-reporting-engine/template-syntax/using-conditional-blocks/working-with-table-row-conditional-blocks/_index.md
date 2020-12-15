@@ -36,15 +36,15 @@ Using table-row conditional blocks, you can pick to output a single row among se
 
 |...|...|...|
 | :- | :- | :- |
-|**&lt;&lt;if [client. REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[client. REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[client. REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;**||
-|**&lt;&lt;else&gt;&gt;&lt;&lt;[client. REF getName getName()]&gt;&gt;**|**&lt;&lt;[client. REF getCountry getCountry()]&gt;&gt;**|**&lt;&lt;[client. REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;**|
+|**&lt;&lt;if [client.getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[client.getName()]&gt;&gt;**|**&lt;&lt;[client.getLocalAddress()]&gt;&gt;**||
+|**&lt;&lt;else&gt;&gt;&lt;&lt;[client.getName()]&gt;&gt;**|**&lt;&lt;[client.getCountry()]&gt;&gt;**|**&lt;&lt;[client.getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;**|
 |**...**|**...**|**...**|
 
 You can normally use table-row conditional blocks within data bands to make elements of an enumeration look differently depending on a condition. Consider the following template.
 
-|&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;if [ REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;|&lt;&lt;[ REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;||
+|&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;if [getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[getName()]&gt;&gt;|&lt;&lt;[getLocalAddress()]&gt;&gt;||
 | :- | :- | :- |
-|**&lt;&lt;else&gt;&gt;&lt;&lt;[ REF getName getName()]&gt;&gt;**|**&lt;&lt;[ REF getCountry getCountry()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
+|**&lt;&lt;else&gt;&gt;&lt;&lt;[getName()]&gt;&gt;**|**&lt;&lt;[getCountry()]&gt;&gt;**|**&lt;&lt;[getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
@@ -65,8 +65,8 @@ Also, you can use data bands inside table-row conditional blocks. For example, y
 
 |Client|Country|Local Address|
 | :- | :- | :- |
-|**&lt;&lt;if [!clients. REF linqAny any()]&gt;&gt;No data**|||
-|**&lt;&lt;else&gt;&gt;&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[ REF getCountry  \* MERGEFORMAT getCountry()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/if&gt;&gt;**|
+|**&lt;&lt;if [!clients.any()]&gt;&gt;No data**|||
+|**&lt;&lt;else&gt;&gt;&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;[getName()]&gt;&gt;**|**&lt;&lt;[getCountry()]&gt;&gt;**|**&lt;&lt;[getLocalAddress()]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/if&gt;&gt;**|
 
 In case when the corresponding enumeration is empty, the engine produces a report as follows.
 

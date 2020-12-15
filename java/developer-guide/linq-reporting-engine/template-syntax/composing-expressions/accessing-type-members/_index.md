@@ -5,13 +5,13 @@ weight: 30
 url: /java/accessing-type-members/
 ---
 
-LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “ REF types Working with Types” for more information) in template expressions:
+LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
 
 - Fields
 - Methods
 - Constructors
 
-**Note –** To access a static member of a type in a template expression, the type must be set known for the engine (see “ REF knownTypes Setting up Known External Types” for more information).
+**Note –** To access a static member of a type in a template expression, the type must be set known for the engine (see “Setting up Known External Types” for more information).
 
 A function type member can be used in a template expression only if the following additional requirements are met:
 
@@ -25,5 +25,5 @@ The engine supports the following features when dealing with function members:
 
 In addition to C# Language features, the engine provides the following extra features to simplify type member access:
 
-- Accessing members of an object without specifying the object’s identifier (see “ REF contextual Using Contextual Object Member Access” for more information)
-- Accessing missing members of an object (see “ REF missingMembers Accessing Missing Members of Data Objects” for more information)
+- Accessing members of an object without specifying the object’s identifier (see “Using Contextual Object Member Access” for more information)
+- Accessing missing members of an object (see “Accessing Missing Members of Data Objects” for more information)
