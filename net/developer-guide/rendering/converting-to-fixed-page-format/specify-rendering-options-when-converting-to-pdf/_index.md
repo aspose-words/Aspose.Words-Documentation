@@ -1,5 +1,6 @@
 ---
 title: Specify Rendering Options When Converting to PDF
+description: "Aspose.Words for .NET provides the ability to convert DOC or DOCX to PDF. To change the result of saving a document to PDF format, you need to specify additional options for the PdfSaveOptions class."
 type: docs
 weight: 20
 url: /net/specify-rendering-options-when-converting-to-pdf/

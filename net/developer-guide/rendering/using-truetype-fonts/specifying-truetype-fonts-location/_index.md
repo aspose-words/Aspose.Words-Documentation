@@ -1,5 +1,6 @@
 ---
 title: Specifying TrueType Fonts Location
+description: "Aspose.Words for .NET enables you to specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system or memory."
 type: docs
 weight: 30
 url: /net/specifying-truetype-fonts-location/

@@ -1,5 +1,6 @@
 ---
 title: Specify Layout Options
+description: "Aspose.Words for .NET provides the ability to specify Layout Options for various document layouts."
 type: docs
 weight: 10
 url: /net/specify-layout-options/
