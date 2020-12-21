@@ -9,7 +9,7 @@ url: /net/what-s-new-in-aspose-words-for-net/
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
 
-## Aspose.Words for .NET 20.9, 20.10, 20.11
+## Aspose.Words for .NET 20.9, 20.10, 20.11, 20.12
 
 Aspose.Words 20.9 expands control over Macros, as well as improves the quality of converting from PDF to Word document formats.
 
@@ -17,7 +17,13 @@ Aspose.Words 20.10 introduces a new load format and new options for working with
 
 Aspose.Words 20.11 enhanced rendering options and improves document display capabilities.
 
+Aspose.Words 20.12 has expanded the number of supported platforms – now you can work with the newly released .NET 5.0, as well as improved import of HTML documents, rendering options and the reports generation functionality.
+
 The API is enhanced for more flexible and convenient development.
+
+### Platforms
+
+It has been verified that Aspose.Words for .NET Standard works with the newly released .NET 5.0 from Microsoft.
 
 ### Supported Formats
 
@@ -45,9 +51,23 @@ A new API for chart data points has been implemented. This is mainly due to some
 
 Basic support for legacy non-Unicode Arabian encodings has been implemented. This was done for the legacy Arabic font class dating back to the 1990s that use poorly documented mechanisms and legacy Windows shaping implementations. In general, these are TrueType fonts, however they use undocumented details not defined in the TrueType or OpenType specifications and do not conform to current specifications on how to implement Unicode fonts for the Arabic language.
 
+#### Embedding Fonts with PostScript Outlines into a Document
+
+An ability to embed fonts with PostScript outlines when embedding TrueType fonts in a document upon saving has been added. This option gives more flexibility in case of using non-standard fonts. Note, that even Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+
 ### Conversion
 
+#### PDF Document Import
+
 PDF import is now faster and more accurate. Footnotes support has been implemented and integrated to the latest version.
+
+#### HTML Document Import
+
+HTML import has been modified. Previously, the [MswVersion](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/mswversion) property had no effect when loading documents from HTML and HTML-based formats (for example, MHTML). All documents were loaded as if no MswVersion were specified. This has been changed, and now the HTML reader can load documents differently depending on the MswVersion value.
+
+### Report Generation
+
+A condition evaluation extension point has been introduced. This allows users to implement custom evaluation for the IF and COMPARE fields which are very popular upon creating different types of reports.
 
 ### Other
 
@@ -61,6 +81,8 @@ Learn more about [Aspose.Words for .NET 20.9 Release Notes](/words/net/aspose-w
 Learn more about [Aspose.Words for .NET 20.10 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-10-release-notes/).
 
 Learn more about [Aspose.Words for .NET 20.11 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-11-release-notes/).
+
+Learn more about [Aspose.Words for .NET 20.12 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-12-release-notes/).
 
 {{% /alert %}}
 

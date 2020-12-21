@@ -14,7 +14,7 @@ A table-row data band is a data band which body occupies single or multiple rows
 |**...**|**...**|**... &lt;&lt;/foreach&gt;&gt;**|
 ||||
 
-The following examples in this section are given using ds, a DataSet instance containing DataTable and DataRelation objects according to the following data model.
+The following examples in this section are given using `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
 ![todo:image_alt_text](working_with_table_row_data_bands.png)
 
@@ -22,8 +22,8 @@ The most common use case of a table-row data band is the building of a document 
 
 |Client|Manager|Contract Price|
 | :- | :- | :- |
-|<p>**&lt;&lt;foreach [**</p><p>**c in ds.Contracts**</p><p>**]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;**</p>|**&lt;&lt;[c.Managers.Name]&gt;&gt;**|<p>**&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/**</p><p>**foreach&gt;&gt;**</p>|
-|**Total:**||<p>**&lt;&lt;[ds**</p><p>**.Contracts**</p><p>**. REF linqSum sum(c =>**</p><p>**c.Price)]&gt;&gt;**</p>|
+|**&lt;&lt;foreach [c in ds.Contracts]&gt;&gt;&lt;&lt;[c.Clients.Name]&gt;&gt;**|**&lt;&lt;[c.Managers.Name]&gt;&gt;**|**&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
+|**Total:**||**&lt;&lt;[ds.Contracts.sum(c => c.Price)]&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
@@ -44,9 +44,9 @@ To populate a document table with a master-detail data, you can use nested table
 
 |Manager/Client|Contract Price|
 | :- | :- |
-|<p>&lt;&lt;foreach [</p><p>m in ds.Managers</p><p>]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;</p>|<p>&lt;&lt;[m.Contracts. REF linqSum sum(</p><p>c => c.Price)]&gt;&gt;</p>|
-|<p>&lt;&lt;foreach [</p><p>c in m.Contracts</p><p>]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt;</p>|<p>&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/</p><p>foreach&gt;&gt;&lt;&lt;/</p><p>foreach&gt;&gt;</p>|
-|**Total:**|<p>&lt;&lt;[ds</p><p>.Contracts</p><p>. REF linqSum sum(c =></p><p>c.Price)]&gt;&gt;</p>|
+|&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;|&lt;&lt;[m.Contracts.sum(c => c.Price)]&gt;&gt;|
+|&lt;&lt;foreach [c in m.Contracts]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt;|&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/>foreach&gt;&gt;|
+|**Total:**|&lt;&lt;[ds.Contracts.sum(c =>c.Price)]&gt;&gt;|
 
 In this case, the engine produces a report as follows.
 
@@ -80,7 +80,7 @@ In this case, the engine produces a report as follows.
 |**Tony Anderson**|<p>**E Corp.**</p><p>**F & Partners**</p><p></p>|
 |**July James**|<p>**G & Co.**</p><p>**H Group**</p><p>**I & Sons**</p><p>**J Ent.**</p><p></p>|
 
-A special case is a data band inside a single-column table row. In such a case, if you put opening and closing foreach tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
+A special case is a data band inside a single-column table row. In such a case, if you put opening and closing `foreach` tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
 |Managers|
 | :- |
@@ -92,7 +92,7 @@ In this case, the engine produces a report as follows.
 | :- |
 |**John Smith  Tony Anderson  July James**  |
 
-However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a greedy switch like in the following template.
+However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a `greedy` switch like in the following template.
 
 |Managers|
 | :- |
@@ -106,4 +106,4 @@ In this case, the engine produces a report as follows.
 |**Tony Anderson**|
 |**July James**|
 
-For more examples of templates for typical scenarios involving table-row data bands, see “ REF typicalTemplates Appendix C. Typical Templates”.
+For more examples of templates for typical scenarios involving table-row data bands, see “Appendix C. Typical Templates”.

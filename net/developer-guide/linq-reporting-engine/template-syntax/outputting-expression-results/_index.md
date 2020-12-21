@@ -12,20 +12,22 @@ An expression tag has no name and consists of the following elements:
 
 - An expression enclosed by brackets
 - An optional format string enclosed by double quotes and preceded by the ":" character
-- An optional html switch
+- An optional `html` switch
 
 {{< highlight xml >}}
 <<[expression]:"format" -html>>
 {{< /highlight >}}
 
-If html switch is not present, the result of the corresponding expression is written to a document as a plain text at runtime. Font attributes are derived from the first character of the corresponding tag in this case.
+If `html` switch is not present, the result of the corresponding expression is written to a document as a plain text at runtime. Font attributes are derived from the first character of the corresponding tag in this case.
 
-If html switch is present, the expression result is considered to be a HTML block and is written as such. This feature is useful, when you need to format text parts of an expression result in different ways. For example, the following tag is replaced with a content like "**Bold** and *italic* text" at runtime.
+If `html` switch is present, the expression result is considered to be a HTML block and is written as such. This feature is useful, when you need to format text parts of an expression result in different ways. For example, the following tag is replaced with a content like "**Bold** and *italic* text" at runtime.
+
 {{< highlight xml >}}
 <<["<b>Bold</b> and <i>italic</i> text"] -html>>
 {{< /highlight >}}
 
-To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [IFormattable.ToString](http://msdn.microsoft.com/en-us/library/system.iformattable.tostring\(v=vs.110\).aspx) method implementors. That is, for example, given that d is a DateTime value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
+To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [IFormattable.ToString](http://msdn.microsoft.com/en-us/library/system.iformattable.tostring\(v=vs.110\).aspx) method implementors. That is, for example, given that d is a `DateTime` value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
+
 {{< highlight xml >}}
 <<[d]:"yyyy.MM.dd">>
 {{< /highlight >}}
@@ -42,8 +44,8 @@ LINQ Reporting Engine provides several additional number formats that can not be
 |**hex**|Formats an integer number as hexadecimal (8, 9, A, B, C, D, E, F, 10, 11, ...)|
 |**arabicDash**|Encloses an integer number with dashes (- 1 -, - 2 -, - 3 -, ...)|
 
-
 You can specify one of these additional number formats instead of a format string like in the following example. Given that i is an integer number, you can format the number as an upper-case letter using the following template.
+
 {{< highlight xml >}}
 <<[i]:alphabetic>>
 {{< /highlight >}}
@@ -57,18 +59,22 @@ LINQ Reporting Engine provides several additional string formats that can not be
 |**caps**|Capitalizes a first letter of every word in a string ("The String")|
 |**firstCap**|Capitalizes the first letter of the first word in a string ("The string")|
 
-You can specify one of these additional string formats instead of a format string like in the following example. Given that s is a string, you can capitalize a first letter of every word in the string using the following template.
+You can specify one of these additional string formats instead of a format string like in the following example. Given that `s` is a string, you can capitalize a first letter of every word in the string using the following template.
+
 {{< highlight xml >}}
 <<[s]:caps>>
 {{< /highlight >}}
 
-You can also specify one of the additional string formats together with a format string or an additional number format like in the following examples. Given that d is a DateTime value, you can convert its textual month representation to upper case using the following template.
+You can also specify one of the additional string formats together with a format string or an additional number format like in the following examples. Given that `d` is a `DateTime` value, you can convert its textual month representation to upper case using the following template.
+
 {{< highlight xml >}}
 <<[d]:"MMMM":upper>>
 {{< /highlight >}}
-Given that i is an integer number, you can convert the number to a lower-case Roman numeral using the following template.
+
+Given that `i` is an integer number, you can convert the number to a lower-case Roman numeral using the following template.
+
 {{< highlight xml >}}
 <<[i]:roman:lower>>
 {{< /highlight >}}
 
-**Note -** In contrast to format strings, additional number and string formats must not be enclosed with double quotes.
+**Note –** In contrast to format strings, additional number and string formats must not be enclosed with double quotes.

@@ -29,18 +29,7 @@ You can use one of the [Replace](https://apireference.aspose.com/net/words/aspos
 
 The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
-{{< highlight csharp >}}
-// Load a Word Docx document by creating an instance of the Document class.
-Document doc = new Document(); 
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Hello _CustomerName_,");
-
-// Specify the search string and replace string using the Replace method.
-doc.Range.Replace("_CustomerName_", "James Bond", new FindReplaceOptions());
-
-// Save the result.
-doc.Save("Range.ReplaceSimple.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-ReplaceWithString.cs" >}}
 
 You can notice the difference between the document before applying simple string replacement:
 
@@ -58,18 +47,7 @@ Use the other [Replace](https://apireference.aspose.com/words/net/aspose.words.r
 
 The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("sad mad bad");
-Assert.AreEqual("sad mad bad", doc.GetText().Trim());
-
-// Replaces all occurrences of the words "sad" or "mad" to "bad".
-doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
-
-// Save the Word document.
-doc.Save("Range.ReplaceWithRegex.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithRegex-ReplaceWithRegex.cs" >}}
 
 You can notice the difference between the document before applying string replacement with regular expressions:
 
@@ -91,28 +69,7 @@ Note that the metacharacter **&&** equals to **&**. For example, if you need to 
 
 The following code example shows how to replace text with paragraph and page break:
 
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Font.Name = "Arial";
-builder.Writeln("First section");
-builder.Writeln("  1st paragraph");
-builder.Writeln("  2nd paragraph");
-builder.Writeln("{insert-section}");
-builder.Writeln("Second section");
-builder.Writeln("  1st paragraph");
-
-FindReplaceOptions options = new FindReplaceOptions();
-options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Center;
-
-// Double each paragraph break after word "section", add kind of underline and make it centered.
-int count = doc.Range.Replace("section&p", "section&p----------------------&p", options);
-
-// Insert section break instead of custom text tag.
-count = doc.Range.Replace("{insert-section}", "&b", options);
-dataDir = dataDir + "ReplaceTextContaingMetaCharacters_out.docx";
-doc.Save(dataDir);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-ReplaceTextContaingMetaCharacters.cs" >}}
 
 ## Find and Replace String in Header/Footer of a Document
 
@@ -120,24 +77,7 @@ You can find and replace text in the header/footer section of a Word document us
 
 The following code example shows how to replace the text of the header section in your document:
 
-{{< highlight csharp >}}
-// Access header of the Word document.
-HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
-HeaderFooter header = headersFooters[HeaderFooterType.HeaderPrimary];
-
-// Set options.
-FindReplaceOptions options = new FindReplaceOptions
-{ 
-	MatchCase = false, 
-	FindWholeWordsOnly = false 
-};
-
-// Replace text in the header of the Word document.
-header.Range.Replace("Aspose.Words", "Remove", options);
-
-// Save the Word document.
-doc.Save("HeaderReplace.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceInHeaderAndFooter-ReplaceTextInFooter.cs" >}}
 
 You can notice the difference between the document before applying header string replacement:
 
@@ -178,31 +118,7 @@ Aspose.Words provides many find and replace properties for ignoring text such as
 
 The following code example shows how to ignore text inside delete revisions:
 
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert non-revised text.
-builder.Writeln("Deleted");
-builder.Write("Text");
-
-// Remove first paragraph with tracking revisions.
-doc.StartTrackRevisions("John Doe", DateTime.Now);
-doc.FirstSection.Body.FirstParagraph.Remove();
-doc.StopTrackRevisions();
-
-Regex regex = new Regex("e");
-FindReplaceOptions options = new FindReplaceOptions();
-
-// Replace 'e' in document while ignoring deleted text.
-options.IgnoreDeleted = true;
-doc.Range.Replace(regex, "*", options);
-Assert.AreEqual(doc.GetText().Trim(), "Deleted\rT*xt");
-
-// Replace 'e' in document while not ignoring deleted text.
-options.IgnoreDeleted = false;
-doc.Range.Replace(regex, "*", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideDeleteRevisions.cs" >}}
 
 ## Customize Find and Replace Operation
 
@@ -210,14 +126,7 @@ Aspose.Words provides many different [properties](https://apireference.aspose.co
 
 The following code example shows how to highlight a specific word in your document:
 
-{{< highlight csharp >}}
-// Highlight word "the" with yellow color.
-FindReplaceOptions options = new FindReplaceOptions();
-options.ApplyFont.HighlightColor = Color.Yellow;
-
-// Replace highlighted text.
-doc.Range.Replace("the", "the", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cs" >}}
 
 Aspose.Words allows you to use [IReplacingCallback](https://apireference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
 
@@ -225,103 +134,12 @@ If you need to replace a string with an HTML tag, apply the **IReplacingCallback
 
 The following code example shows how to replace text specified with HTML:
 
-{{< highlight csharp >}}
-public static void ReplaceWithHtml(string dataDir) 
-{ 
-	Document doc = new Document();
-	DocumentBuilder builder = new  DocumentBuilder(doc);
-	builder.Writeln("Hello <CustomerName>,"); 
-	FindReplaceOptions options = new FindReplaceOptions();
-	options.ReplacingCallback = new ReplaceWithHtmlEvaluator(options);
-	doc.Range.Replace(new Regex(@" <CustomerName>,"), String.Empty, options);
-
-	// Save the modified document. 
-	doc.Save(dataDir + "Range.ReplaceWithInsertHtml.doc"); 
-}
-
-private class ReplaceWithHtmlEvaluator : IReplacingCallback 
-{ 
-	internal ReplaceWithHtmlEvaluator (FindReplaceOptions options) 
-	{ 
-		mOptions = options; 
-	} 
-
-	//This simplistic method will only work well when the match starts at the beginning of a run. 
-	ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args) 
-	{ 
-		DocumentBuilder builder = new DocumentBuilder((Document)args.MatchNode.Document);
-		builder.MoveTo(args.MatchNode); 
-	
-		// Replace '<CustomerName>' text with a red bold name.
-		builder.InsertHtml("<b><font color='red'>James Bond, </font></b>"); args.Replacement = ""; 
-		return ReplaceAction.Replace;
-	}
-	
-	private readonly FindReplaceOptions mOptions;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-ReplaceWithHtml.cs" >}}
 
 The following code example shows how to highlight positive numbers with green color and negative numbers with red color:
 
-{{< highlight csharp >}}
-// Replace and Highlight Numbers.
-internal class NumberHighlightCallback : IReplacingCallback
-{
-	public NumberHighlightCallback (FindReplaceOptions opt)
-	{
-		mOpt = opt;
-	}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-NumberHighlightCallback.cs" >}}
 
-	public ReplaceAction Replacing (ReplacingArgs args)
-	{
-		// Let replacement to be the same text.
-		args.Replacement = args.Match.Value;
-	
-		int val = int.Parse(args.Match.Value);
-	
-		// Apply either red or green color depending on the number value sign.
-		mOpt.ApplyFont.Color = (val > 0)
-			? Color.Green
-			: Color.Red;
-	
-		return ReplaceAction.Replace;
-	}
-	
-	private readonly FindReplaceOptions mOpt;
-}
-{{< /highlight >}}
+The following code example shows how to prepend a line number to each line:
 
-The following code example shows how to highlight numbers in text:
-
-{{< highlight csharp >}}
-public void TestLineCounter()
-{
-	// Create a document.
-	Document doc = new Document();
-	DocumentBuilder builder = new DocumentBuilder(doc);
-
-	// Add lines of text.
-	builder.Writeln("This is first line");
-	builder.Writeln("Second line");
-	builder.Writeln("And last line");
-	
-	// Prepend each line with line number.
-	FindReplaceOptions opt = new FindReplaceOptions() {ReplacingCallback = new LineCounterCallback()};
-	doc.Range.Replace(new Regex("[^&p]*&p"), "", opt);
-	
-	doc.Save(@"X:\TestLineCounter.docx");
-}
-
-internal class LineCounterCallback : IReplacingCallback
-{
-	public ReplaceAction Replacing(ReplacingArgs args)
-	{
-		Debug.WriteLine(args.Match.Value);
-
-		args.Replacement = string.Format("{0} {1}", mCounter++,    args.Match.Value);
-		return ReplaceAction.Replace;
-	}
-	
-	private int mCounter = 1;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-LineCounter.cs" >}}

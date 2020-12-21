@@ -42,5 +42,5 @@ When a `build` switch is used, the engine treats a document being inserted as a 
 
 - Data sources
 - Variables
-- A contextual object (see “ REF contextual Using Contextual Object Member Access” for more information)
-- Known external types (see “ REF knownTypes Setting up Known External Types” for more information)
+- A contextual object (see “Using Contextual Object Member Access” for more information)
+- Known external types (see “Setting up Known External Types” for more information)

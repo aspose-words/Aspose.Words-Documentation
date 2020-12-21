@@ -20,7 +20,7 @@ A table-row conditional block is a conditional block which body occupies single 
 |**...**|**...**|**... &lt;&lt;/if&gt;&gt;**|
 ||||
 
-The following examples in this section are given using client, an instance of the Client class, and clients, an enumeration of instances of the Client class that is defined as follows.
+The following examples in this section are given using `client`, an instance of the `Client` class, and `clients`, an enumeration of instances of the `Client` class that is defined as follows.
 
 {{< highlight csharp >}}
 public class Client
@@ -36,15 +36,15 @@ Using table-row conditional blocks, you can pick to output a single row among se
 
 |...|...|...|
 | :- | :- | :- |
-|**&lt;&lt;if [client. REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[client. REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[client. REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;**||
-|**&lt;&lt;else&gt;&gt;&lt;&lt;[client. REF getName getName()]&gt;&gt;**|**&lt;&lt;[client. REF getCountry getCountry()]&gt;&gt;**|**&lt;&lt;[client. REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;**|
+|**&lt;&lt;if [client.getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[client.getName()]&gt;&gt;**|**&lt;&lt;[client.getLocalAddress()]&gt;&gt;**||
+|**&lt;&lt;else&gt;&gt;&lt;&lt;[client.getName()]&gt;&gt;**|**&lt;&lt;[client.getCountry()]&gt;&gt;**|**&lt;&lt;[client.getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;**|
 |**...**|**...**|**...**|
 
 You can normally use table-row conditional blocks within data bands to make elements of an enumeration look differently depending on a condition. Consider the following template.
 
-|&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;if [ REF getCountry  \* MERGEFORMAT getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;|&lt;&lt;[ REF getLocalAddress  \* MERGEFORMAT getLocalAddress()]&gt;&gt;||
+|&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;if [getCountry() == “New Zealand”]&gt;&gt;&lt;&lt;[getName()]&gt;&gt;|&lt;&lt;[getLocalAddress()]&gt;&gt;||
 | :- | :- | :- |
-|**&lt;&lt;else&gt;&gt;&lt;&lt;[ REF getName getName()]&gt;&gt;**|**&lt;&lt;[ REF getCountry getCountry()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
+|**&lt;&lt;else&gt;&gt;&lt;&lt;[getName()]&gt;&gt;**|**&lt;&lt;[getCountry()]&gt;&gt;**|**&lt;&lt;[getLocalAddress()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;**|
 
 In this case, the engine produces a report as follows.
 
@@ -65,8 +65,8 @@ Also, you can use data bands inside table-row conditional blocks. For example, y
 
 |Client|Country|Local Address|
 | :- | :- | :- |
-|**&lt;&lt;if [!clients. REF linqAny any()]&gt;&gt;No data**|||
-|**&lt;&lt;else&gt;&gt;&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;[ REF getName  \* MERGEFORMAT getName()]&gt;&gt;**|**&lt;&lt;[ REF getCountry  \* MERGEFORMAT getCountry()]&gt;&gt;**|**&lt;&lt;[ REF getLocalAddress getLocalAddress()]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/if&gt;&gt;**|
+|**&lt;&lt;if [!clients.any()]&gt;&gt;No data**|||
+|**&lt;&lt;else&gt;&gt;&lt;&lt;foreach [in clients]&gt;&gt;&lt;&lt;[getName()]&gt;&gt;**|**&lt;&lt;[getCountry()]&gt;&gt;**|**&lt;&lt;[getLocalAddress()]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/if&gt;&gt;**|
 
 In case when the corresponding enumeration is empty, the engine produces a report as follows.
 
@@ -74,7 +74,7 @@ In case when the corresponding enumeration is empty, the engine produces a repor
 | :- | :- | :- |
 |**No data**|||
 
-A special case is a template option inside a single-column table row. In such a case, if you put an opening if, elseif, or else tag and a closing if tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
+A special case is a template option inside a single-column table row. In such a case, if you put an opening `if`, `elseif`, or `else` tag and a closing `if` tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
 |Header|
 | :- |
@@ -88,7 +88,7 @@ In this case, the engine produces a report as follows.
 ||
 |**Footer**|
 
-However, if needed, you can override this behavior making the engine to treat such a template option as a table-row one by specifying a greedy switch like in the following template.
+However, if needed, you can override this behavior making the engine to treat such a template option as a table-row one by specifying a `greedy` switch like in the following template.
 
 |Header|
 | :- |
@@ -101,4 +101,4 @@ In this case, the engine produces a report as follows.
 | :- |
 |**Footer**|
 
-**Note –** In the previous examples, tag &lt;&lt;if [false]&gt;&gt; is used for the sake of simplicity; you can use any other Boolean expression instead of just false.
+**Note –** In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.

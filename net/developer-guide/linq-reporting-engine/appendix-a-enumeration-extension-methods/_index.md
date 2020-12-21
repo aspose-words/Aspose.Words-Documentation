@@ -5,15 +5,15 @@ weight: 50
 url: /net/appendix-a-enumeration-extension-methods/
 ---
 
-LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for IEnumerable. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus you can group, sort and perform other sequential data manipulations in template expressions in a familiar way.
+LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for `IEnumerable`. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0\(v=vs.110\).aspx) providing the same signatures and behavior features. Thus you can group, sort and perform other sequential data manipulations in template expressions in a familiar way.
 
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
 
 - Selector stands for a lambda function returning a value and taking an enumeration item as its single argument. See “Using Lambda Functions” for more information.
-- ComparableSelector stands for Selector returning [IComparable](http://msdn.microsoft.com/en-US/library/system.icomparable\(v=vs.110\).aspx).
-- Predicate stands for Selector returning a Boolean value.
+- `ComparableSelector` stands for `Selector` returning [IComparable](http://msdn.microsoft.com/en-US/library/system.icomparable\(v=vs.110\).aspx).
+- `Predicate` stands for `Selector` returning a Boolean value.
 
-Examples in the following table are given using persons and otherPersons, enumerations of instances of the Person class that is defined as follows.
+Examples in the following table are given using persons and `otherPersons`, enumerations of instances of the `Person` class that is defined as follows.
 
 {{< highlight csharp >}}
 public class Person
@@ -55,7 +55,7 @@ persons.FirstOrDefault(){{< /highlight >}}|
 persons.FirstOrDefault(p => p.Age > 30){{< /highlight >}}|
 |GroupBy(Selector)|{{< highlight csharp >}}
 persons.GroupBy(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
-persons.GroupBy(    p => new    {        Age = p.Age,        Count = p.Children.Count()    }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains. |
+persons.GroupBy(    p => new { Age = p.Age, Count = p.Children.Count() }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains. |
 |Last()|{{< highlight csharp >}}
 persons.Last(){{< /highlight >}}|
 |Last(Predicate)|{{< highlight csharp >}}
@@ -70,20 +70,20 @@ persons.Max(p => p.Age){{< /highlight >}}|
 persons.Min(p => p.Age){{< /highlight >}}|
 |OrderBy(ComparableSelector)|{{< highlight csharp >}}
 persons.OrderBy(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderBy(p => p.Age)    .ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderBy(p => p.Age)    .ThenByDescending(p => p.Name)    .ThenBy(p => p.Children.Count()){{< /highlight >}}This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:- ThenBy(ComparableSelector)- ThenByDescending(ComparableSelector)|
+persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
+persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name).ThenBy(p => p.Children.Count()){{< /highlight >}}This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:- ThenBy(ComparableSelector)- ThenByDescending(ComparableSelector)|
 |OrderByDescending(ComparableSelector)|{{< highlight csharp >}}
 persons.OrderByDescending(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderByDescending(p => p.Age)    .ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderByDescending(p => p.Age)    .ThenByDescending(p => p.Name)    .ThenBy(p => p.Children.Count()){{< /highlight >}}See the previous note. |
+persons.OrderByDescending(p => p.Age).ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
+persons.OrderByDescending(p => p.Age).ThenByDescending(p => p.Name).ThenBy(p => p.Children.Count()){{< /highlight >}}See the previous note. |
 |Single()|{{< highlight csharp >}}
 persons.Single(){{< /highlight >}}|
 |Single(Predicate)|{{< highlight csharp >}}
-persons.Single(    p => p.Name == "John Smith"){{< /highlight >}}|
+persons.Single(p => p.Name == "John Smith"){{< /highlight >}}|
 |SingleOrDefault()|{{< highlight csharp >}}
 persons.SingleOrDefault(){{< /highlight >}}|
 |SingleOrDefault(Predicate)|{{< highlight csharp >}}
-persons.SingleOrDefault(    p => p.Name == "John Smith"){{< /highlight >}}|
+persons.SingleOrDefault(p => p.Name == "John Smith"){{< /highlight >}}|
 |Skip(int)|{{< highlight csharp >}}
 persons.Skip(10){{< /highlight >}}|
 |SkipWhile(Predicate)|{{< highlight csharp >}}
