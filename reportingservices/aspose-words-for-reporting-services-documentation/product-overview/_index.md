@@ -16,14 +16,14 @@ Have you ever wished you could export RDL and RDLC reports as OOXML, DOC, RTF an
 
 Aspose.Words for Reporting Services is a unique solution that makes it possible to generate reports into Microsoft Word document formats (and more):
 
-- DOC - Microsoft Word documents
-- OOXML - Office Open XML documents
-- RTF - Rich Text Format documents
-- XML - WordprocessingML documents
-- HTML - Hypertext Markup Language documents
+- DOC – Microsoft Word documents
+- OOXML – Office Open XML documents
+- RTF – Rich Text Format documents
+- XML – WordprocessingML documents
+- HTML – Hypertext Markup Language documents
 - MHTML – Web Archive (MIME HTML) documents
 - ODT – OpenOffice/StarOffice documents
-- TXT - Plain Text documents
+- TXT – Plain Text documents
 - XPS – XML Paper Specification
 - EPUB – Electronic Publications
 
@@ -38,7 +38,7 @@ Aspose.Words for Reporting Services is designed to be used with the following ap
 - Microsoft SQL Server 2017 Reporting Services (64-bit)
 - Microsoft SQL Server 2019 Reporting Services (64-bit)
 - Microsoft Report Viewer 2005/ 2008/ 2010/ 2012/ 2015 (local and remote mode)
-- Microsoft Visual Studio 2005/ 2008/ 2010/ 2012/ 2013/ 2015 Report Designer
+- Microsoft Visual Studio 2008/ 2010/ 2012/ 2013/ 2015/2017/2019 Report Designer
 
 This documentation describes Aspose.Words for Reporting Services' [features](/words/reportingservices/feature-tour/), [installation](/words/reportingservices/install-aspose-words-for-reporting-services/), [evaluation version limitations](/words/reportingservices/evaluation-version-limitations/), [licensing](/words/reportingservices/license-aspose-words-for-reporting-services/) and [configuration](/words/reportingservices/configure-aspose-words-for-reporting-services/).
 
