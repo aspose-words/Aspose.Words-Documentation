@@ -28,7 +28,7 @@ This section describes how to install Aspose.Words for Reporting Services on a c
 
 ## Step 2. Register Aspose.Words for Reporting Services as a rendering extension.
 
-Open `C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config`, where `<Version>` is:
+Open `C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\RSReportDesigner.config`, where `<Version>` is:
 
 - “9.0” for Visual Studio 2008
 - “10.0” for Visual Studio 2010
