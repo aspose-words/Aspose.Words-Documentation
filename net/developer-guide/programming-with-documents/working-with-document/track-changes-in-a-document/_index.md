@@ -1,60 +1,208 @@
 ---
 title: Track Changes in a Document
+description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them."
 type: docs
 weight: 90
 url: /net/track-changes-in-a-document/
 ---
 
-This article outlines how Aspose.Words supports the Track Changes feature of Microsoft Word. The Track Changes feature (also called Reviewing) in Microsoft Word allows you to track changes to content and formatting made by users. When you turn this feature on, all inserted, deleted and modified elements of the document will be visually highlighted with information about who, when and what was changed. The objects that carry the information about what was changed are called "tracking changes" or "revisions".
+The functionality of track changes, also known as reviewing, allows you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.
 
-The Comments feature in Microsoft Word is also related to tracking changes. It allows a user to add a comment to any fragment of text in the document. Note that comments are completely independent of tracking changes.
+When you enable the track changes feature, all inserted, deleted, and modified elements of the document will be visually highlighted with information about by whom, when, and what was changed. Objects that carry the information about what was changed are called “tracking changes”. For example, assume that you want to review a document and make important changes – this may mean that you need to make revisions. Also, you may need to insert comments to discuss some of the changes. That is where tracking changes in documents come in.
 
-## Preserving Comments and Revisions
+This article explains how to manage and track changes created by many reviewers on the same document, as well as the properties for tracking changes.
 
-When you use Aspose.Words to open a Microsoft Word document and then save it, all comments and revisions in the document are preserved.
+{{% alert color="primary" %}}
 
-## Accept Revisions
+Note that the comment feature in Aspose.Words, as well as in Microsoft Word, can be associated with tracking changes. However, remember that comments are completely independent of tracking changes.
 
-The [Document.AcceptAllRevisions](http://www.aspose.com/api/net/words/aspose.words/document/methods/AcceptAllRevisions) method allows you to "accept" all revisions in the document. Calling this method is similar to selecting "Accept All Changes" in Microsoft Word. Aspose.Words will actually delete fragments that were "delete revisions", retain fragments that were "insert revisions" and apply formatting changes. Note that comments are not affected during this operation. In Aspose.Words, you can accept tracking changes of the document by calling the [Document.AcceptAllRevisions ](http://www.aspose.com/api/net/words/aspose.words/document/methods/acceptallrevisions)method. The following code example demonstrates how to accept all tracking changes in the document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/Document.doc).
+{{% /alert %}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AcceptAllRevisions-AcceptAllRevisions.cs" >}}
+## What Is a Revision
 
-You can also check if a document has any tracking changes using the Document.HasRevisions property.
+Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://apireference.aspose.com/words/net/aspose.words/revision) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://apireference.aspose.com/words/net/aspose.words/revisiongroup) class, is a group of sequential revisions that occur in many nodes of a document. Basically, revision is a tool for tracking changes.
 
-## Programmatically Access Revisions
+Revisions are used in the tracking changes feature and within the compare documents feature, where revisions appear as a result of comparison. So, revisions within the tracking changes feature show by whom and what was changed.
 
-There could be insert, delete and formatting change revisions in a Word document. Aspose.Words allows you to programmatically detect certain types of revisions. The IsInsertRevision, IsDeleteRevision, IsMoveFromRevision, and IsMoveToRevision properties available for the [Run](http://www.aspose.com/api/net/words/aspose.words/run) and [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) objects allow you to detect whether this object was inserted, deleted, or moved in Microsoft Word while change tracking was enabled. The [Document.HasRevisions](http://www.aspose.com/api/net/words/aspose.words/document/properties/hasrevisions) property returns true if the document has at least one revision. The [Document.TrackRevisions](http://www.aspose.com/api/net/words/aspose.words/document/properties/trackrevisions) property can be set to true to indicate whether the revision tracking in Microsoft Word will be enabled.
+{{% alert color="primary" %}}
 
-{{% alert color="primary" %}} 
+Note that Microsoft Word does not allow you to view individual revisions, it only allows you to view sequential revisions as a single entity. But Aspose.Words solves this limitation with the **RevisionGroup** class.
 
-Note that this setting does not affect the changes made to the document using Aspose.Words. Changes made to the document using Aspose.Words are never tracked as revisions.
+{{% /alert %}}
 
-{{% /alert %}} 
+Aspose.Words supports different revision types, as well as in Microsoft Word, such as Insertion, Deletion, FormatChange, StyleDefinitionChange, and Moving. All revision types are represented with the [RevisionType](https://apireference.aspose.com/words/net/aspose.words/revisiontype) enumeration.
 
-The following code example demonstrates how to check move from (deleted) and move to (inserted) revisions. 
+{{% alert color="primary" %}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithRevisions-GetRevisionTypes.cs" >}}
+Note that revisions have a result similar to Microsoft Word but Aspose.Words does not detect formatting during tracking changes.
 
-## How to Access the Revised Version of a Document
+{{% /alert %}}
 
-The API provides *RevisionsView* public enumeration which allows specifying whether to work with the original or revised version of a document. The document class provides RevisionsView property which gets or sets enumeration value. The default value is Aspose.Words.RevisionsView.Original. 
+## Start and Stop Tracking Changes
 
-The following code example demonstrates how to use this enumeration and access the revised version.
+Editing a document usually does not count as a revision until you begin tracking it. Aspose.Words allows you to automatically track all changes in your document with simple steps. You can easily start the process of tracking changes by using the [StartTrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/starttrackrevisions/index) method. If you need to stop the process of tracking changes so that any future edits are not considered revisions, you will need to use the [StopTrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/stoptrackrevisions) method.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithRevisions-AccessRevisedVersion.cs" >}}
+{{% alert color="primary" %}}
 
-## Access Revision Group
+Note that the StartTrackingRevisions method does not change the status of the [TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
 
-A revision in Aspose.Words is a change in one document node. A set of sequential revisions of the same type in adjacent document nodes forms a revision group. Similar revision groups are displayed in the "Reviewing Pane" of MS Word. RevisionGroup class represents a group of sequential Revision objects. The following code example demonstrates how to get a revision and its group.
+{{% /alert %}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithRevisions-GetRevisionGroups.cs" >}}
+At the end of the tracking changes process in your document, you will have the ability to even accept all revisions or reject them to revert the document to its original form. This can be achieved by either using the [AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions) or [RejectAll](https://apireference.aspose.com/words/net/aspose.words/revisioncollection/methods/rejectall) method. In addition, you can accept or reject each revision separately by using the [Accept](https://apireference.aspose.com/words/net/aspose.words/revision/methods/accept) or [Reject](https://apireference.aspose.com/words/net/aspose.words/revision/methods/reject) method.
 
-## Programmatically Access Comments
+All changes will be tracked for one iteration from the moment you start the process to the moment you stop it. The connection between different iterations is represented as the following scenario: you complete the tracking process, then make some changes, and start tracking changes again. With this scenario, all changes that you did not accept or reject will be displayed again.
 
-Comments are represented in the document tree as objects of the Comment class. You can add, delete or modify comments programmatically like any other node in Aspose.Words Document Object Model. Comment is a composite node and can contain paragraphs and tables that constitute the text of the comment. The Comment class also provides access to the name and initials of the author of the comment.
+{{% alert color="primary" %}}
 
-## Revision Group Details
+Note that the AcceptAllRevisions method is similar to the “Accept All Changes” in Microsoft Word.
 
-The Revision.Group property in Revision class can be used to get details if the revision belongs to any group. Its value will be null if the revision does not belong to any group. If the revision type is RevisionType.StyleDefinitionChange or if the revision no longer exists in document context (accepted/rejected) then it means that Revision has no group.
+{{% /alert %}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithRevisions-GetRevisionGroupDetails.cs" >}}
+The following code example shows how to work with tracking changes:
+
+{{< highlight csharp >}}
+Document doc = new Document();
+Body body = doc.FirstSection.Body;
+Paragraph para = body.FirstParagraph;
+
+// Add text to the first paragraph, then add two more paragraphs.
+para.AppendChild(new Run(doc, "Paragraph 1. "));
+body.AppendParagraph("Paragraph 2. ");
+body.AppendParagraph("Paragraph 3. ");
+
+// We have three paragraphs, none of which registered as any type of revision
+// If we add/remove any content in the document while tracking revisions,
+// they will be displayed as such in the document and can be accepted/rejected.
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+
+// This paragraph is a revision and will have the according "IsInsertRevision" flag set.
+para = body.AppendParagraph("Paragraph 4. ");
+Assert.True(para.IsInsertRevision);
+
+// Get the document's paragraph collection and remove a paragraph.
+ParagraphCollection paragraphs = body.Paragraphs;
+Assert.AreEqual(4, paragraphs.Count);
+para = paragraphs[2];
+para.Remove();
+
+// Since we are tracking revisions, the paragraph still exists in the document, will have the "IsDeleteRevision" set
+// and will be displayed as a revision in Microsoft Word, until we accept or reject all revisions.
+Assert.AreEqual(4, paragraphs.Count);
+Assert.True(para.IsDeleteRevision);
+
+// The delete revision paragraph is removed once we accept changes.
+doc.AcceptAllRevisions();
+Assert.AreEqual(3, paragraphs.Count);
+Assert.That(para, Is.Empty);
+
+// Stopping the tracking of revisions makes this text appear as normal text.
+// Revisions are not counted when the document is changed.
+doc.StopTrackRevisions();
+
+// Save the document.
+doc.Save(ArtifactsDir + "Document.Revisions.docx");
+{{< /highlight >}}
+
+The following code example shows how revisions are generated when a node is moved within a tracked document:
+
+{{< highlight csharp >}}
+// Generate document contents.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Paragraph 1");
+builder.Writeln("Paragraph 2");
+builder.Writeln("Paragraph 3");
+builder.Writeln("Paragraph 4");
+builder.Writeln("Paragraph 5");
+builder.Writeln("Paragraph 6");
+Body body = doc.FirstSection.Body;
+Console.WriteLine("Paragraph count: {0}", body.Paragraphs.Count);
+
+// Start tracking revisions.
+doc.StartTrackRevisions("Author", new DateTime(2020, 12, 23, 14, 0, 0));
+
+// Generate revisions when moving a node from one location to another.
+Node node = body.Paragraphs[3];
+Node endNode = body.Paragraphs[5].NextSibling;
+Node referenceNode = body.Paragraphs[0];
+while (node != endNode)
+{
+	Node nextNode = node.NextSibling;
+	body.InsertBefore(node, referenceNode);
+	node = nextNode;
+}
+
+// Stop the process of tracking revisions.
+doc.StopTrackRevisions();
+
+// There are 3 additional paragraphs in the move-from range.
+Console.WriteLine("Paragraph count: {0}", body.Paragraphs.Count);
+doc.Save(dir + @"out.docx");
+{{< /highlight >}}
+
+## Manage and Store Changes as Revisions
+
+With the previous tracking changes feature, you can understand which changes were made in your document and who made those changes. While with the [TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions) feature, you force any changes within your document to be stored as revisions.
+
+Aspose.Words allows you to check if a document has a revision or not by using the [HasRevision](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions) property. If you do not need to automatically track the changes in your document through the StartTrackRevisions and StopTrackRevisions methods, then you can use the TrackRevisions property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
+
+The TrackRevisions feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
+
+In addition, Aspose.Words allows you to check if an object was inserted, deleted, or changed formatting using the [IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision), [IsFormatRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isformatrevision), [IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isinsertrevision), [IsMoveFromRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/ismovefromrevision), and [IsMoveToRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/ismovetorevision) properties.
+
+{{% alert color="primary" %}}
+
+Note that there is no connection between the revisions themselves and the TrackRevisions property. In addition, you can accept/reject revisions regardless of the tracking changes feature.
+
+{{% /alert %}}
+
+The following code example shows how to apply different properties with revisions:
+
+{{< highlight csharp >}}
+// Open a blank document.
+Document doc = new Document();
+
+// Insert an inline shape without tracking revisions.
+Assert.False(doc.TrackRevisions);
+Shape shape = new Shape(doc, ShapeType.Cube);
+shape.WrapType = WrapType.Inline;
+shape.Width = 100.0;
+shape.Height = 100.0;
+doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
+
+// Start tracking revisions and then insert another shape.
+doc.StartTrackRevisions("John Doe");
+shape = new Shape(doc, ShapeType.Sun);
+shape.WrapType = WrapType.Inline;
+shape.Width = 100.0;
+shape.Height = 100.0;
+doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
+
+// Get the document's shape collection which includes just the two shapes we added.
+List<Shape> shapes = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().ToList();
+Assert.AreEqual(2, shapes.Count);
+
+// Remove the first shape.
+shapes[0].Remove();
+
+// Because we removed that shape while changes were being tracked, the shape counts as a delete revision.
+Assert.AreEqual(ShapeType.Cube, shapes[0].ShapeType);
+Assert.True(shapes[0].IsDeleteRevision);
+
+// And we inserted another shape while tracking changes, so that shape will count as an insert revision.
+Assert.AreEqual(ShapeType.Sun, shapes[1].ShapeType);
+Assert.True(shapes[1].IsInsertRevision);
+
+// The document has one shape that was moved, but shape move revisions will have two instances of that shape.
+// One will be the shape at its arrival destination and the other will be the shape at its original location.
+List<Shape> nc = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().ToList();
+Assert.AreEqual(2, nc.Count);
+
+// This is the move to revision, also the shape at its arrival destination.
+Assert.False(nc[0].IsMoveFromRevision);
+Assert.True(nc[0].IsMoveToRevision);
+
+// This is the move from revision, which is the shape at its original location.
+Assert.True(nc[1].IsMoveFromRevision);
+Assert.False(nc[1].IsMoveToRevision);
+{{< /highlight >}}
