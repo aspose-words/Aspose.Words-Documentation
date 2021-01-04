@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words for Java 21.1 Release Notes
 type: docs
-weight: 70
+weight: 12
 url: /java/aspose-words-for-java-21-1-release-notes/
 ---
 
