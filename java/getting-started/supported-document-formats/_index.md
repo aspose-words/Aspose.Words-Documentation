@@ -1,7 +1,7 @@
 ---
 title: Supported Document Formats
 type: docs
-description: "Aspose.Words for .NET supports a wide range of formats for loading and saving documents. This allows you to edit source documents in many popular formats, as well as freely convert files from one format to another."
+description: "Aspose.Words for Java supports a wide range of formats for loading and saving documents. This allows you to edit source documents in many popular formats, as well as freely convert files from one format to another."
 weight: 30
 url: /java/supported-document-formats/
 ---
@@ -30,7 +30,7 @@ The following table indicates the input and output file formats supported by Asp
 |OTT|ODF Text Document Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |TXT|Plain Text|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |MD|Markdown Document|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|PDF|Saves the document as PDF (Adobe Portable Document) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|PDF|Saves the document as PDF (Adobe Portable Document) format.| |{{< emoticons/tick >}}| |
 |XPS|Saves the document in the XPS (XML Paper Specification) format.| |{{< emoticons/tick >}}| |
 |XamlFixed|Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document.| |{{< emoticons/tick >}}| |
 |SVG|Saves the document in the SVG (Scalable Vector Graphics) format.| |{{< emoticons/tick >}}| |
