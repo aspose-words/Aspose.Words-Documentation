@@ -1,7 +1,7 @@
 ---
 title: Sample Gallery
 type: docs
-weight: 40
+weight: 80
 url: /reportingservices/sample-gallery/
 ---
 

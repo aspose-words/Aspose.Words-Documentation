@@ -1,11 +1,11 @@
 ---
 title: Install Aspose.Words for Reporting Services
 type: docs
-weight: 50
+weight: 70
 url: /reportingservices/install-aspose-words-for-reporting-services/
 ---
 
-## This section includes the following topics: 
+This section includes the following topics: 
 
 - [System Requirements](/words/reportingservices/system-requirements/)
 - [Installing Using the MSI Installer](/words/reportingservices/installing-using-the-msi-installer/)

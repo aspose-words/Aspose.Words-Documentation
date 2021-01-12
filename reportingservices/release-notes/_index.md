@@ -1,7 +1,7 @@
 ---
 title: Release Notes
 type: docs
-weight: 20
+weight: 40
 url: /reportingservices/release-notes/
 ---
 
