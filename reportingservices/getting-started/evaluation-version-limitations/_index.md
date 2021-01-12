@@ -1,7 +1,7 @@
 ---
 title: Evaluation Version Limitations
 type: docs
-weight: 70
+weight: 60
 url: /reportingservices/evaluation-version-limitations/
 ---
 

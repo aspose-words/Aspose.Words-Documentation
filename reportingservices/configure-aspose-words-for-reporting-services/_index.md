@@ -1,11 +1,11 @@
 ---
 title: Configure Aspose.Words for Reporting Services
 type: docs
-weight: 90
+weight: 20
 url: /reportingservices/configure-aspose-words-for-reporting-services/
 ---
 
-## This section includes the following topics: 
+This section includes the following topics: 
 
 - [Configuration Explained](/words/reportingservices/configuration-explained/)
 - [Document Layout Flow vs. Positioned](/words/reportingservices/document-layout-flow-vs-positioned/)
