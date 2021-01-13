@@ -13,7 +13,7 @@ This article outlines how to work with the table of contents field and demonstra
 
 - How to insert a brand new TOC.
 - Update new or existing TOCs in the document.
-- Specify switches to control the formatting and overall structure f the TOC.
+- Specify switches to control the formatting and overall structure of the TOC.
 - How to modify the styles and appearance of the table of contents.
 - How to remove an entire TOC field along with all entries from the document.
 

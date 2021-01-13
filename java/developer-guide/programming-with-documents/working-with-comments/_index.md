@@ -35,11 +35,11 @@ To illustrate how to extract and remove comments from a document, we will go thr
 1. Open a Word document using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class.
 1. Get all comments from the document into a collection.
 1. To extract comments:
-   1. Go through the collection using the for operator.
+   1. Go through the collection using the for the operator.
    1. Extract and list the author name, date & time and text of all comments.
-   1. Extract and list the author name, date & time and text of comments written by a specific author, in this case the author ‘ks’.
+   1. Extract and list the author name, date & time and text of comments written by a specific author, in this case, the author ‘ks’.
 1. To remove comments:
-   1. Go backwards through the collection using the for operator.
+   1. Go backwards through the collection using the for the operator.
    1. Remove comments.
 1. Save the changes.
 
@@ -51,7 +51,7 @@ As you can see, it contains several Comments from two authors with the initials 
 
 ### The Code
 
-The code in this sample is actually quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method is set to true: this forces the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) to select from all child nodes recursively, rather than only collecting the immediate children.
+The code in this sample is quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method is set to true: this forces the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) to select from all child nodes recursively, rather than only collecting the immediate children.
 
 The [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. The code example given below extracts the author name, date&time and text of all comments in the document.
 
@@ -73,7 +73,7 @@ The main point to highlight here is the use of the for operator. Unlike the simp
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-1.java" >}}
 
-When launched, the sample displays the following results. First it lists all comments by all authors, then it lists comments by the selected author only. Finally, the code removing all comments.
+When launched, the sample displays the following results. First, it lists all comments by all authors, then it lists comments by the selected author only. Finally, the code removing all comments.
 
 |![todo:image_alt_text](http://i.imgur.com/3q61fa2.png)|
 | :- |

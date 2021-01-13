@@ -74,7 +74,7 @@ The following code example shows how to split a document into smaller parts by 
 
 ## Splitting by Pages
 
-You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case a helper class DocumentPageSplitter can do the job.
+You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such a case a helper class DocumentPageSplitter can do the job.
 
 This section describes several use cases of dividing documents by paged using the **DocumentPageSplitter** class. Please note that you can use any output format supported by Aspose.Words.
 

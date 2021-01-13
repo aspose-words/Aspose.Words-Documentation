@@ -31,7 +31,7 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 1. **ParagraphsByStyleName** – This method retrieves an array of those paragraphs in the document that have a specific style name.
 1. **RunsByStyleName** – This method retrieves an array of those runs in the document that have a specific style name.
 
-Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of ParagraphsByStyleName shown in code example given below to find all paragraphs formatted with the specified style.
+Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of ParagraphsByStyleName shown in the code example given below to find all paragraphs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.java" >}}
 
@@ -41,7 +41,7 @@ It’s also worth pointing out that the paragraphs collection does not create an
 
 The implementation of RunsByStyleName is almost the same, although we’re obviously using NodeType.Run to retrieve run nodes. The [Font.getStyle()](https://apireference.aspose.com/words/java/com.aspose.words/font#Style) property of a [Run](https://apireference.aspose.com/words/java/com.aspose.words/Run) object is used to access style information in the **Run** nodes. 
 
-The following code example find all runs formatted with the specified style.
+The following code example finds all runs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-RunsByStyleName.java" >}}
 
@@ -63,15 +63,15 @@ As you can see, this is a very simple example, showing the number and text of th
 
 ## Insert Style Separator to Put Different Paragraph Styles
 
-The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph. If you want to some text from the beginning of a particular heading to appear in a Table of Contents but don't want the entire heading in the Table of Contents, you can use this feature. 
+The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph. If you want some text from the beginning of a particular heading to appear in a Table of Contents but do not want the entire heading in the Table of Contents, you can use this feature. 
 
-The following code example shows how to insert style separator to put different paragraph styles. 
+The following code example shows how to insert a style separator to put different paragraph styles. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-WorkingWithStyle-ParagraphInsertStyleSeparator.java" >}}
 
 ## Copy All Styles from Template
 
-There are cases when you want to copy all styles from one document into another. You can use Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. 
+There are cases when you want to copy all styles from one document into another. You can use the Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. 
 
 The following code example shows how to copy styles from one document into another.
 
