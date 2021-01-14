@@ -24,7 +24,7 @@ The following code example shows how to convert DOCX to Markdown:
 
 ## Specify Save Options when Converting to Markdown
 
-Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/MarkdownSaveOptions) class to work with advanced options when saving a document to Markdown format. In addition to other inheriting or overloading properties, the [TableContentAlignment](https://apireference.aspose.com/words/java/com.aspose.words/TableContentAlignment) property was added to control the alignment of content in tables when converting a document to Markdown format.
+Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/MarkdownSaveOptions) class to work with advanced options when saving a document to Markdown format. In addition to other inheriting or overloading properties, a number of properties that are specific for Markdown format have also been added. For example, the [TableContentAlignment](https://apireference.aspose.com/words/java/com.aspose.words/TableContentAlignment) property to control the alignment of content in tables, or [ImageSavingCallback](https://apireference.aspose.com/words/java/com.aspose.words/markdownsaveoptions#ImageSavingCallback) and [ImagesFolder](https://apireference.aspose.com/words/java/com.aspose.words/markdownsaveoptions#ImagesFolder) to control how images are saved upon converting a document to Markdown format.
 
 ## Supported Markdown Features
 
