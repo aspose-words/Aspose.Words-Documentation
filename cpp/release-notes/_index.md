@@ -10,6 +10,7 @@ This documentation section describes the updates and improvements for each new r
 
 To learn about specific releases, go to the respective platform, year, and definite release version in the navigation tree or using the list below:
 
+- [Release Notes - 2021](https://docs.aspose.com/words/cpp/release-notes-2021/)
 - [Release Notes - 2020](https://docs.aspose.com/words/cpp/release-notes-2020/)
 - [Release Notes - 2019](https://docs.aspose.com/words/cpp/release-notes-2019/)
 - [Release Notes - 2018](https://docs.aspose.com/words/cpp/release-notes-2018/)
