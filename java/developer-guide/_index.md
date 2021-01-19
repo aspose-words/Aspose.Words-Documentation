@@ -1,5 +1,6 @@
 ---
 title: Developer Guide
+description: "Learn Aspose.Words for Java Developer Guide to get more use cases, tips, and technical details."
 type: docs
 weight: 20
 url: /java/developer-guide/

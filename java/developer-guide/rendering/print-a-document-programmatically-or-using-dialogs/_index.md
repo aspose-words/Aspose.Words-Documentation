@@ -1,5 +1,6 @@
 ---
 title: Print a Document Programmatically or Using Dialogs
+description: "Print a document using Aspose.Words for Java API through Settings, Print Preview, and Print progress dialogs."
 type: docs
 weight: 50
 url: /java/print-a-document-programmatically-or-using-dialogs/
