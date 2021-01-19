@@ -58,7 +58,7 @@ By default combined documents which contain page numbering fields will automatic
 
 |![todo:image_alt_text](http://i.imgur.com/NbtxSTZ.png)|
 | :- |
-To restart the page numbering at the start of the section the [PageSetup.getRestartPageNumbering](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#RestartPageNumbering) property must be set to true. The number which this is restarted to is defined by the [PageSetup.getPageStartingNumber](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#PageStartingNumber) property. This property is set to “1” in Microsoft Word and Aspose.Words by default. In this example we will restart the page numbering at the start of the source document. 
+To restart the page numbering at the start of the section the [PageSetup.getRestartPageNumbering](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#RestartPageNumbering) property must be set to true. The number which this is restarted to is defined by the [PageSetup.getPageStartingNumber](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#PageStartingNumber) property. This property is set to “1” in Microsoft Word and Aspose.Words by default. In this example, we will restart the page numbering at the start of the source document. 
 The code example given below shows how to append a document to another document with page numbering restarted.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-RestartPageNumbering-1.java" >}}
@@ -70,7 +70,7 @@ The output shows the page numbering has been restarted where the source document
 
 ### Retaining Multiple Page Numbering Schemes when using the NUMPAGES Field
 
-Often when documents containing NUMPAGES fields are appended the desired behavior is for that field type to continue to display the total page count only for only those newly appended pages, just like how they appeared in the original document. However the actual behavior is the opposite and the NUMPAGES field will instead by design display the total number of pages across the entire document.
+Often when documents containing NUMPAGES fields are appended the desired behavior is for that field type to continue to display the total page count only for only those newly appended pages, just like how they appeared in the original document. However, the actual behavior is the opposite and the NUMPAGES field will instead by design display the total number of pages across the entire document.
 
 In this context, we will refer to each appended document with the page numbering in the first section restarted as a “subdocument”. Since each subdocument has its numbering restarted and therefore its own page numbering scheme, it should have the total pages field numbering reflecting this by only having pages belonging to the sub-document being counted by this field.
 
@@ -98,9 +98,9 @@ The above method also uses a few functions internally. They are provided below. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-GetRemoveField-1.java" >}}
 
-The algorithm works by inserting a bookmark at the end of the section each time it finds a section with restart page numbering. The PAGEREF fields that replace the NUMPAGE fields reference these bookmarks. These fields display the total pages within this subdocument (in between document start, end and sections with page numbering restarts). This will change the page numbering to reference the correct number pages even if the subdocument consists of many sections.
+The algorithm works by inserting a bookmark at the end of the section each time it finds a section with restart page numbering. The PAGEREF fields that replace the NUMPAGE fields reference these bookmarks. These fields display the total pages within this subdocument (in-between document start, end and sections with page numbering restarts). This will change the page numbering to reference the correct number pages even if the subdocument consists of many sections.
 
-It is good to note that this code will still work even if a document has no page numbering restarts. In this case it will simply change any NUMPAGE field to a PAGEREF field with reference to a bookmark found at the end of the document. This will display the same page numbering as what the NUMPAGES field would but using PAGEREF instead. After this code is executed the output of this document now appears correctly. The total page numbering now appears as desired.
+It is good to note that this code will still work even if a document has no page numbering restarts. In this case, it will simply change any NUMPAGE field to a PAGEREF field with reference to a bookmark found at the end of the document. This will display the same page numbering as what the NUMPAGES field would but using PAGEREF instead. After this code is executed the output of this document now appears correctly. The total page numbering now appears as desired.
 
 |![todo:image_alt_text](http://i.imgur.com/iBfItDT.png)|
 | :- |

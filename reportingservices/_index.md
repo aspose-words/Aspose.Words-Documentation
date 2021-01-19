@@ -12,7 +12,7 @@ is_root: true
 
 **Welcome to Aspose.Words for Reporting Services**
 
-Have you ever wished you could export RDL and RDLC reports as OOXML, DOC, RTF and WordprocessingML documents from within Microsoft SQL Server Reporting Services? With Aspose.Words for Reporting Services, you can. Aspose.Words for Reporting Services is a rendering extension aimed at software developers. It supports Microsoft SQL Server 2000, 2005, 2008, 2008 R2, 2012, 2014 and 2016 Reporting Services, as well as in Microsoft Report Viewer 2005, 2008, 2010, 2012 and 2015.
+Have you ever wished you could export RDL and RDLC reports as OOXML, DOC, RTF and WordprocessingML documents from within Microsoft SQL Server Reporting Services? With Aspose.Words for Reporting Services, you can. Aspose.Words for Reporting Services is a rendering extension aimed at software developers. It supports Microsoft SQL Server 2008, 2008 R2, 2012, 2014, 2016, 2017, and 2019 Reporting Services, as well as in Microsoft Report Viewer 2010, 2012, 2015, and Microsoft.ReportingServices.ReportViewerControl of 140.X.X and 150.X.X.
 
 {{% /alert %}} 
 

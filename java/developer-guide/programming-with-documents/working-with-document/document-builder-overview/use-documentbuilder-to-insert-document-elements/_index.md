@@ -9,13 +9,13 @@ url: /java/use-documentbuilder-to-insert-document-elements/
 
 [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) is a powerful class that is associated with a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) and allows dynamic document building from scratch or the addition of new elements to an existing document. It provides methods to insert text, checkbox, ole object, paragraphs, lists, tables, images and other contents, specification of font, paragraph, and section formatting, and other things. [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) complements classes and methods available in the Aspose.Words Document Object Model by simplifying most common document building tasks, such as inserting text, checkbox, ole object, tables, fields and hyperlinks.
 
-Everything that is possible with [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) is also possible when using the classes of the Aspose.Words Document Object Model directly, but using Aspose.Words DOM classes directly usually require more lines of code than using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder).
+Everything possible with [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) is also possible when using the classes of the Aspose.Words Document Object Model directly, but using Aspose.Words DOM classes directly usually require more lines of code than using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder).
 
 [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) has an internal cursor that you can navigate to a different location in a document using various **DocumentBuilder.MoveToXXX** methods such as [DocumentBuilder.moveToDocumentStart](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentStart()) and [DocumentBuilder.moveToField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToField(com.aspose.words.Field,boolean)) .
 
 You can insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using any of **DocumentBuilder.insertXXX** methods such as [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) , [DocumentBuilder.insertHtml](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertHtml(java.lang.String)) and other similar methods.
 
-Aspose.Words API provides several classes responsible for different document elements formatting. Each of the classes encapsulates a number of formatting properties related to a particular document element such as text, paragraph, section, and so on. For example, the [Font](https://apireference.aspose.com/words/java/com.aspose.words/Font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) class represents paragraph formatting properties etc. The objects of these classes are returned by the corresponding **DocumentBuilder** properties (that have the same names as the classes) so you can access them and set the desired formatting during the document build.
+Aspose.Words API provides several classes responsible for different document elements formatting. Each of the classes encapsulates several formatting properties related to a particular document element such as text, paragraph, section, and so on. For example, the [Font](https://apireference.aspose.com/words/java/com.aspose.words/Font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) class represents paragraph formatting properties etc. The objects of these classes are returned by the corresponding **DocumentBuilder** properties (that have the same names as the classes) so you can access them and set the desired formatting during the document build.
 
 To start, you need to create a **DocumentBuilder** and associate it with a **Document** object. Create a new instance of [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) by calling its constructor and pass to it a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object for attachment to the builder. 
 
@@ -51,7 +51,7 @@ The following code example shows how to insert a paragraph into the document.
 
 ### Inserting a Table
 
-The basic algorithm for create a table using DocumentBuilder is simple:
+The basic algorithm to create a table using DocumentBuilder is simple:
 
 1. Start the table using [DocumentBuilder.startTable](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/startTable\(\)/).
 1. Insert a cell using [DocumentBuilder.insertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertCell\(\)/). This automatically starts a new row. If needed, use the [DocumentBuilder.getCellFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/getCellFormat\(\)/) property to specify cell formatting.
@@ -99,7 +99,7 @@ DocumentBuilder provides several overloads of the DocumentBuilder.insertImage (h
 
 #### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to DocumentBuilder.insertImage to insert the image into the document as an inline graphic.The following code example shows how to insert an inline image at the cursor position into a document.
+Pass a single string representing a file that contains the image to DocumentBuilder.insertImage to insert the image into the document as an inline graphic. The following code example shows how to insert an inline image at the cursor position into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertInlineImage-1.java" >}}
 
@@ -168,7 +168,7 @@ You can easily insert an HTML string that contains an HTML fragment or whole HTM
 
 ### Inserting a Hyperlink
 
-Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.insertHyperlink internally calls DocumentBuilder.insertField.The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property. The following code example inserts a hyperlink into a document using DocumentBuilder.
+Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.insertHyperlink internally calls DocumentBuilder.insertField. The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property. The following code example inserts a hyperlink into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-1.java" >}}
 

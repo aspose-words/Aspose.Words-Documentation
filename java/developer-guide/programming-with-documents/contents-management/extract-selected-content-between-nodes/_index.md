@@ -7,17 +7,17 @@ url: /java/extract-selected-content-between-nodes/
 
 ## Extract Content Overview and Code
 
-A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore many different node types to consider when extracting content. For instance, you may want to extract content between:
+A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to be extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore many different node types to consider when extracting content. For instance, you may want to extract content between:
 
 - Two specific paragraphs in the document.
 - Specific runs of text.
-- Different types of fields, for example merge fields.
+- Different types of fields, for example, merge fields.
 - Between the start and end ranges of a bookmark or comment.
-- Different bodies of text contained in separate sections.
+- Different bodies of the text contained in separate sections.
 
-In some situations you may even want to combine the different types of, for example, extract content between a paragraph and field, or between a run and a bookmark.
+In some situations, you may even want to combine the different types of, for example, extract content between a paragraph and field, or between a run and a bookmark.
 
-Often the goal of extracting this content is to duplicate or save it separately into a new document. For example, you may wish to extract content and:
+Often the goal of extracting this content is to duplicate or save it separately into a new document. For example, you may wish to extract the content and:
 
 - Copy it to a separate document.
 - Rendered a specific portion of a document to PDF or an image.
@@ -33,7 +33,7 @@ The general outline of this technique involves:
 1. Passing these nodes to the **ExtractContent** method which is provided below. You must also pass a boolean parameter which states if these nodes that act as markers should be included in the extraction or not.
 1. The method will return a list of cloned (copied nodes) of the content specified to be extracted. You can now use this in any way applicable, for example, creating a new document containing only the selected content.
 
-We will work with this document below in this article. As you can see it contains a variety of content. Also note, the document contains a second section beginning in the middle of the first page. A bookmark and comment are also present in the document but are not visible in the screenshot below.
+We will work with the document below in this article. As you can see it contains a variety of content. Also note, the document contains a second section beginning in the middle of the first page. A bookmark and comment are also present in the document but are not visible in the screenshot below.
 
 |![todo:image_alt_text](http://i.imgur.com/boTK4uH.png)|
 | :- |
@@ -42,7 +42,7 @@ To extract the content from your document you need to call the ExtractContent me
 
 The underlying basis of this method involves finding block-level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block-level then the method is able to simply copy the content on that level and add it to the array.
 
-However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc.
+However, if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc.
 
 Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph.
 
@@ -84,7 +84,7 @@ The code below accomplishes this task. The appropriate paragraphs are extracted 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphs-1.java" >}}
 
 **The Result** 
-The output document which contains the two paragraphs that were extracted.
+The output document contains the two paragraphs that were extracted.
 
 |![todo:image_alt_text](http://i.imgur.com/UJwL3dy.png)|
 | :- |
@@ -107,7 +107,7 @@ You may need to extract the content between paragraphs of the same or different 
 
 The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
 
-In a proper implementation this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document. The code example given below shows how to extract content between paragraphs with specific styles using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphStyles/TestFile.doc).
+In a proper implementation, this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document. The code example given below shows how to extract content between paragraphs with specific styles using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphStyles/TestFile.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphStyles-1.java" >}}
 
@@ -125,7 +125,7 @@ You can extract content between inline nodes such as a Run as well. Runs from di
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenRuns-1.java" >}}
 
 **The Result** 
-The extracted text displayed on the console. 
+The extracted text is displayed on the console. 
 
 ![todo:image_alt_text](http://i.imgur.com/Gxqz8vr.png)
 
@@ -144,9 +144,9 @@ The extracted content between the field and paragraph, without the field and par
 
 ## Extract Content from a Bookmark
 
-In a document the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. The content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document.
+In a document, the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. The content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document.
 
-In our sample document we have one bookmark, named “Bookmark1”. The content of this bookmark is highlighted content in our document:
+In our sample document, we have one bookmark, named “Bookmark1”. The content of this bookmark is highlighted content in our document:
 
 |![todo:image_alt_text](http://i.imgur.com/gUuhhgi.png)|
 | :- |
@@ -198,7 +198,7 @@ Secondly the extracted output with **isInclusive** set to false. The copy contai
 
 ## Extract Content using DocumentVisitor
 
-Aspose.Words can be used not only for creating Microsoft Word documents by building them dynamically or merging templates with data, but also for parsing documents in order to extract separate document elements such as headers, footers, paragraphs, tables, images, and others. Another possible task is to find all text of a specific formatting or style.
+Aspose.Words can be used not only for creating Microsoft Word documents by building them dynamically or merging templates with data, but also for parsing documents in order to extract separate document elements such as headers, footers, paragraphs, tables, images, and others. Another possible task is to find all text of specific formatting or style.
 
 Use the [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) class to implement this usage scenario. This class corresponds to the well-known Visitor design pattern. With [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor), you can define and execute custom operations that require enumeration over the document tree.
 
@@ -214,7 +214,7 @@ These are the steps you should follow to programmatically determine and extract 
 
 [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
-This example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format. The following example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case we create a simple document converter into a text format.
+This example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format. The following example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentUsingDocumentVisitor-.java" >}}
 
@@ -244,8 +244,6 @@ This example saves the document as follows:
 - Uses UTF8 encoding.
 
 The following code example shows how to save a document in TXT format.
-
-**Java**
 
 {{< highlight csharp >}}
 Document doc = new Document(getMyDir() + "Document.doc");

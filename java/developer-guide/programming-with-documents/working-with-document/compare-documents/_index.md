@@ -17,7 +17,7 @@ This article explains how to compare documents and how to specify advanced compa
 
 ## Limitations and Supported File Formats
 
-Comparing documents is a very complex feature. There are varied parts of content combination that need to be analyzed to recognize all differences. The reason for this complexity is due to the fact that Aspose.Words aims to get the same comparison results as the Microsoft Word comparison algorithm.
+Comparing documents is a very complex feature. There are varied parts of content combination that need to be analyzed to recognize all differences. The reason for this complexity is because Aspose.Words aims to get the same comparison results as the Microsoft Word comparison algorithm.
 
 The general limitation for two documents being compared is that they must not have revisions before calling the compare method as this limitation exists in Microsoft Word.
 
@@ -33,7 +33,7 @@ When you compare documents, differences of the latter document from the former s
 
 Aspose.Words allows you to identify documents differences using the [Compare](https://apireference.aspose.com/words/java/com.aspose.words/document#compare(com.aspose.words.Document,java.lang.String,java.util.Date)) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
 
-As a result of the comparison, documents can be determined as equal or not equal. The term “equal” documents means that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
+As a result of the comparison, documents can be determined as equal or not equal. The term “equal” documents mean that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 
 The following code example shows how to check if two documents are equal or not:
 

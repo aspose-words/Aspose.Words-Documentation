@@ -8,6 +8,34 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for .NET 21.1
+
+Aspose.Words 21.1 expands loading and saving options and improves document display capabilities.
+
+### Rendering
+
+A new public option [VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words/tablestyle/properties/verticalalignment) to set table style vertical alignment of cells has been added.
+
+### Conversion
+
+#### Markdown Document Export
+
+A new public property [ImageSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesavingcallback) has been added to control how images are saved upon converting to Markdown format.
+
+#### HTML Document Import
+
+A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/net/aspose.words/htmlloadoptions/properties/ignorenoscriptelements) has been added to ignore `<noscript>` HTML elements upon loading HTML.
+
+### Other
+
+New public methods [StartColumnBookmark](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/startcolumnbookmark) and [EndColumnBookmark](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endcolumnbookmark) have been introduced in the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 21.1 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-1-release-notes/).
+
+{{% /alert %}}
+
 
 ## Aspose.Words for .NET 20.9, 20.10, 20.11, 20.12
 

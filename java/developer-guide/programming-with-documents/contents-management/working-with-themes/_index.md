@@ -7,7 +7,7 @@ url: /java/working-with-themes/
 
 ## How to Manipulate Theme Properties
 
-We have added basic API in Aspose.Words to access document theme properties. For now, this API includes following public objects:
+We have added basic API in Aspose.Words to access document theme properties. For now, this API includes the following public objects:
 
 - Theme
 - ThemeFonts

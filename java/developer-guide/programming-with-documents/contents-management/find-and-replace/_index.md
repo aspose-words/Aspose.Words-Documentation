@@ -19,7 +19,7 @@ Aspose.Words provides two ways to apply the find and replace operation by using 
 1. *Simple string replacement* – to find and replace a specific string with another, you need to specify a search string (alphanumeric characters) that is going to be replaced according to all occurrences with another specified replacement string. Both strings must not contain symbols. Take into account that string comparison can be case-sensitive, or you may be unsure of spelling or have several similar spellings.
 2. *Regular expressions* – to specify a regular expression to find the exact string matches and replace them according to your regular expression. Note that a word is defined as being made up of only alphanumeric characters. If a replacement is executed with only whole words being matched and the input string happens to contain symbols, then no phrases will be found.
 
-In addition, you can use special metacharacters with simple string replacement and regular expressions to specify breaks within the find and replace operation.
+Also, you can use special metacharacters with simple string replacement and regular expressions to specify breaks within the find and replace operation.
 
 Aspose.Words presents the find and replace functionality with the [IReplacingCallBack](https://apireference.aspose.com/words/java/com.aspose.words/ireplacingcallback). You can work with many options during the find and replace process using [FindReplaceOptions](https://apireference.aspose.com/words/java/com.aspose.words/FindReplaceOptions) class.
 
@@ -132,7 +132,7 @@ The following code example shows how to highlight a specific word in your docume
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-CustomizeFindAndReplaceOperation.java" >}}
 
 
-Aspose.Words allows you to use [IReplacingCallback](https://apireference.aspose.com/words/java/com.aspose.words/IReplacingCallback) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
+Aspose.Words allows you to use the [IReplacingCallback](https://apireference.aspose.com/words/java/com.aspose.words/IReplacingCallback) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
 
 If you need to replace a string with an HTML tag, apply the **IReplacingCallback** interface to customize the find and replace operation so the match starts at the beginning of a run with the match node of your document. Let us provide several examples of using **IReplacingCallback**.
 
