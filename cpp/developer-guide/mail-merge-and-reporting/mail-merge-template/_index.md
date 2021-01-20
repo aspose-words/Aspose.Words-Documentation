@@ -1,7 +1,7 @@
 ---
 title: Mail Merge Template
 type: docs
-description: "Aspose.Words provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
+description: "Aspose.Words for C++ provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
 keywords: "create mail merge template с++"
 weight: 10
 url: /cpp/mail-merge-template/

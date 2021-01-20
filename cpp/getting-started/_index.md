@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 type: docs
-description: "Use this introduction to Aspose.Words fundamentals to start realizing the value of Aspose.Words for your business."
+description: "Use this introduction to Aspose.Words for C++ fundamentals to start realizing the value of Aspose.Words for your business."
 weight: 10
 url: /cpp/getting-started/
 ---
