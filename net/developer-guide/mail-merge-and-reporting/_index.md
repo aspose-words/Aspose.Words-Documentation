@@ -3,7 +3,7 @@ title: Mail Merge and Reporting
 aliases:
   - /net/about-mail-merge/
 type: docs
-description: "Mail Merge is a popular feature for quickly creating documents. Aspose.Words takes the standard mail merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices."
+description: "Mail Merge is a popular feature for quickly creating documents. Aspose.Words for .NET takes the standard mail merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices."
 keywords: "how to use mail merge c#"
 weight: 30
 url: /net/mail-merge-and-reporting/

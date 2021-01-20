@@ -3,7 +3,7 @@ title: Clean Up Before or During a Mail Merge Operation
 aliases:
   - /java/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/
 type: docs
-description: "Aspose.Words allows you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation."
+description: "Aspose.Words for Java allows you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation."
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /java/clean-up-before-or-during-mail-merge/
