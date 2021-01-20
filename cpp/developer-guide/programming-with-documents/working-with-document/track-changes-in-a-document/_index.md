@@ -60,84 +60,84 @@ Note that the AcceptAllRevisions method is similar to the â€œAccept All Changesâ
 
 The following code example shows how to work with tracking changes:
 
-{{< highlight csharp >}}
-Document doc = new Document();
-Body body = doc.FirstSection.Body;
-Paragraph para = body.FirstParagraph;
+{{< highlight cpp >}}
+auto doc = MakeObject<Document>();
+SharedPtr<Body> body = doc->get_FirstSection()->get_Body();
+SharedPtr<Paragraph> para = body->get_FirstParagraph();
 
 // Add text to the first paragraph, then add two more paragraphs.
-para.AppendChild(new Run(doc, "Paragraph 1. "));
-body.AppendParagraph("Paragraph 2. ");
-body.AppendParagraph("Paragraph 3. ");
+para->AppendChild(MakeObject<Run>(doc, u"Paragraph 1. "));
+body->AppendParagraph(u"Paragraph 2. ");
+body->AppendParagraph(u"Paragraph 3. ");
 
 // We have three paragraphs, none of which registered as any type of revision
 // If we add/remove any content in the document while tracking revisions,
 // they will be displayed as such in the document and can be accepted/rejected.
-doc.StartTrackRevisions("John Doe", DateTime.Now);
+doc->StartTrackRevisions(u"John Doe", System::DateTime::get_Now());
 
 // This paragraph is a revision and will have the according "IsInsertRevision" flag set.
-para = body.AppendParagraph("Paragraph 4. ");
-Assert.True(para.IsInsertRevision);
+para = body->AppendParagraph(u"Paragraph 4. ");
+ASSERT_TRUE(para->get_IsInsertRevision());
 
 // Get the document's paragraph collection and remove a paragraph.
-ParagraphCollection paragraphs = body.Paragraphs;
-Assert.AreEqual(4, paragraphs.Count);
-para = paragraphs[2];
-para.Remove();
+SharedPtr<ParagraphCollection> paragraphs = body->get_Paragraphs();
+ASSERT_EQ(4, paragraphs->get_Count());
+para = paragraphs->idx_get(2);
+para->Remove();
 
 // Since we are tracking revisions, the paragraph still exists in the document, will have the "IsDeleteRevision" set
 // and will be displayed as a revision in Microsoft Word, until we accept or reject all revisions.
-Assert.AreEqual(4, paragraphs.Count);
-Assert.True(para.IsDeleteRevision);
+ASSERT_EQ(4, paragraphs->get_Count());
+ASSERT_TRUE(para->get_IsDeleteRevision());
 
 // The delete revision paragraph is removed once we accept changes.
-doc.AcceptAllRevisions();
-Assert.AreEqual(3, paragraphs.Count);
-Assert.That(para, Is.Empty);
+doc->AcceptAllRevisions();
+ASSERT_EQ(3, paragraphs->get_Count());
+ASSERT_EQ(0, para->get_Count());
 
 // Stopping the tracking of revisions makes this text appear as normal text.
 // Revisions are not counted when the document is changed.
-doc.StopTrackRevisions();
+doc->StopTrackRevisions();
 
 // Save the document.
-doc.Save(ArtifactsDir + "Document.Revisions.docx");
+doc->Save(ArtifactsDir + u"Document.Revisions.docx");
 {{< /highlight >}}
 
 The following code example shows how revisions are generated when a node is moved within a tracked document:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Generate document contents.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Paragraph 1");
-builder.Writeln("Paragraph 2");
-builder.Writeln("Paragraph 3");
-builder.Writeln("Paragraph 4");
-builder.Writeln("Paragraph 5");
-builder.Writeln("Paragraph 6");
-Body body = doc.FirstSection.Body;
-Console.WriteLine("Paragraph count: {0}", body.Paragraphs.Count);
+auto doc = MakeObject<Document>();
+auto builder = MakeObject<DocumentBuilder>(doc);
+builder->Writeln(u"Paragraph 1");
+builder->Writeln(u"Paragraph 2");
+builder->Writeln(u"Paragraph 3");
+builder->Writeln(u"Paragraph 4");
+builder->Writeln(u"Paragraph 5");
+builder->Writeln(u"Paragraph 6");
+SharedPtr<Body> body = doc->get_FirstSection()->get_Body();
+std::cout << "Paragraph count: " << body->get_Paragraphs()->get_Count() << std::endl;
 
 // Start tracking revisions.
-doc.StartTrackRevisions("Author", new DateTime(2020, 12, 23, 14, 0, 0));
+doc->StartTrackRevisions(u"Author", System::DateTime(2020, 12, 23, 14, 0, 0));
 
 // Generate revisions when moving a node from one location to another.
-Node node = body.Paragraphs[3];
-Node endNode = body.Paragraphs[5].NextSibling;
-Node referenceNode = body.Paragraphs[0];
+SharedPtr<Node> node = body->get_Paragraphs()->idx_get(3);
+SharedPtr<Node> endNode = body->get_Paragraphs()->idx_get(5)->get_NextSibling();
+SharedPtr<Node> referenceNode = body->get_Paragraphs()->idx_get(0);
 while (node != endNode)
 {
-	Node nextNode = node.NextSibling;
-	body.InsertBefore(node, referenceNode);
+	SharedPtr<Node> nextNode = node->get_NextSibling();
+	body->InsertBefore(node, referenceNode);
 	node = nextNode;
 }
 
 // Stop the process of tracking revisions.
-doc.StopTrackRevisions();
+doc->StopTrackRevisions();
 
 // There are 3 additional paragraphs in the move-from range.
-Console.WriteLine("Paragraph count: {0}", body.Paragraphs.Count);
-doc.Save(dir + @"out.docx");
+std::cout << "Paragraph count: " << body->get_Paragraphs()->get_Count() << std::endl;
+doc->Save(ArtifactsDir + u"out.docx");
 {{< /highlight >}}
 
 ## Manage and Store Changes as Revisions
@@ -158,51 +158,51 @@ Note that there is no connection between the revisions themselves and the TrackR
 
 The following code example shows how to apply different properties with revisions:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Open a blank document.
-Document doc = new Document();
+auto doc = MakeObject<Document>();
 
 // Insert an inline shape without tracking revisions.
-Assert.False(doc.TrackRevisions);
-Shape shape = new Shape(doc, ShapeType.Cube);
-shape.WrapType = WrapType.Inline;
-shape.Width = 100.0;
-shape.Height = 100.0;
-doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
+ASSERT_FALSE(doc->get_TrackRevisions());
+auto shape = MakeObject<Shape>(doc, ShapeType::Cube);
+shape->set_WrapType(WrapType::Inline);
+shape->set_Width(100.0);
+shape->set_Height(100.0);
+doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(shape);
 
 // Start tracking revisions and then insert another shape.
-doc.StartTrackRevisions("John Doe");
-shape = new Shape(doc, ShapeType.Sun);
-shape.WrapType = WrapType.Inline;
-shape.Width = 100.0;
-shape.Height = 100.0;
-doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
+doc->StartTrackRevisions(u"John Doe");
+shape = MakeObject<Shape>(doc, ShapeType::Sun);
+shape->set_WrapType(WrapType::Inline);
+shape->set_Width(100.0);
+shape->set_Height(100.0);
+doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(shape);
 
 // Get the document's shape collection which includes just the two shapes we added.
-List<Shape> shapes = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().ToList();
-Assert.AreEqual(2, shapes.Count);
+auto shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_Cast<SharedPtr<Shape>>()->LINQ_ToList();
+ASSERT_EQ(2, shapes->get_Count());
 
 // Remove the first shape.
-shapes[0].Remove();
+shapes->idx_get(0)->Remove();
 
 // Because we removed that shape while changes were being tracked, the shape counts as a delete revision.
-Assert.AreEqual(ShapeType.Cube, shapes[0].ShapeType);
-Assert.True(shapes[0].IsDeleteRevision);
+ASSERT_EQ(ShapeType::Cube, shapes->idx_get(0)->get_ShapeType());
+ASSERT_TRUE(shapes->idx_get(0)->get_IsDeleteRevision());
 
 // And we inserted another shape while tracking changes, so that shape will count as an insert revision.
-Assert.AreEqual(ShapeType.Sun, shapes[1].ShapeType);
-Assert.True(shapes[1].IsInsertRevision);
+ASSERT_EQ(ShapeType::Sun, shapes->idx_get(1)->get_ShapeType());
+ASSERT_TRUE(shapes->idx_get(1)->get_IsInsertRevision());
 
 // The document has one shape that was moved, but shape move revisions will have two instances of that shape.
 // One will be the shape at its arrival destination and the other will be the shape at its original location.
-List<Shape> nc = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().ToList();
-Assert.AreEqual(2, nc.Count);
+auto nc = doc->GetChildNodes(NodeType::Shape, true)->LINQ_Cast<SharedPtr<Shape>>()->LINQ_ToList();
+ASSERT_EQ(2, nc->get_Count());
 
 // This is the move to revision, also the shape at its arrival destination.
-Assert.False(nc[0].IsMoveFromRevision);
-Assert.True(nc[0].IsMoveToRevision);
+ASSERT_FALSE(nc->idx_get(0)->get_IsMoveFromRevision());
+ASSERT_TRUE(nc->idx_get(0)->get_IsMoveToRevision());
 
 // This is the move from revision, which is the shape at its original location.
-Assert.True(nc[1].IsMoveFromRevision);
-Assert.False(nc[1].IsMoveToRevision);
+ASSERT_TRUE(nc->idx_get(1)->get_IsMoveFromRevision());
+ASSERT_FALSE(nc->idx_get(1)->get_IsMoveToRevision());
 {{< /highlight >}}
