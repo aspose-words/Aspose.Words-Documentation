@@ -1,5 +1,6 @@
 ---
 title: Specify Load Options
+description: "Set advanced properties when loading a document using Aspose.Words for Java to obtain more precise control of the process."
 type: docs
 weight: 10
 url: /java/specify-load-options/

@@ -1,5 +1,6 @@
 ---
 title: Rendering Shapes Separately from a Document
+description: "Aspose.Words for Java provides the ability to extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location."
 type: docs
 weight: 40
 url: /java/rendering-shapes-separately-from-a-document/

@@ -1,5 +1,6 @@
 ---
 title: Specify TrueType Fonts Location
+description: "Aspose.Words for Java allows you to specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system, or memory."
 type: docs
 weight: 30
 url: /java/specify-truetype-fonts-location/
