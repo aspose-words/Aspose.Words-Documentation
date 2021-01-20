@@ -4,7 +4,7 @@ aliases:
   - /net/how-to-use-nested-mail-merge-regions/
   - /net/how-to-set-up-relations-for-use-in-nested-mail-merge-with-regions/
 type: docs
-description: "Aspose.Words allows you to perform a mail merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
+description: "Aspose.Words for .NET allows you to perform a mail merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
 keywords: "mail merge with nested regions c#"
 weight: 10
 url: /net/nested-mail-merge-with-regions/

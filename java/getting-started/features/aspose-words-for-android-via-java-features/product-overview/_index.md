@@ -2,7 +2,7 @@
 title: Product Overview
 type: docs
 weight: 60
-url: /java/product-overview/
+url: /java/android-product-overview/
 ---
 
 {{% alert color="primary" %}} 

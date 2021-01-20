@@ -1,7 +1,7 @@
 ---
 title: Working with Document
 type: docs
-description: "The Document class provides various document properties and methods. You use the Document class as the starting point for whatever you want to perform with Aspose.Words. The Document object can be saved to a file or stream and also sent to a browser."
+description: "The Document class provides various document properties and methods. You use the Document class as the starting point for whatever you want to perform with Aspose.Words for .NET. The Document object can be saved to a file or stream and also sent to a browser."
 weight: 30
 url: /net/working-with-document/
 ---
@@ -19,7 +19,7 @@ The "Working with Document" section includes the following topics:
 - [Work with Document Options and Settings](/words/net/work-with-document-options-and-settings/)
 - [Work with Web Extensions](/words/net/work-with-web-extensions/)
 - [Compare Documents](/words/net/compare-documents/)
-- [Clone and Combine Documents](/words/net/clone-and-combine-documents/)
+- [Clone a Document](/words/net/clone-a-document/)
 - [Join and Append Documents](/words/net/join-and-append-documents/)
 - [Document Protection](/words/net/document-protection/)
 - [Track Changes in a Document](/words/net/track-changes-in-a-document/)

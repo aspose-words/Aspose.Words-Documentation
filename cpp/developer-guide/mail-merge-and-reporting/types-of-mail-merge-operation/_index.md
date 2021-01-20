@@ -3,7 +3,7 @@ title: Types of Mail Merge Operation
 type: docs
 aliases:
  - /cpp/how-to-execute-mail-merge/
-description: "Aspose.Words allows you to perform two different types of mail merge operations: simple mail merge and mail merge with regions. Simple mail merge repeats the entire document per each data source record, whereas mail merge with regions repeats only designated regions per record."
+description: "Aspose.Words for C++ allows you to perform two different types of mail merge operations: simple mail merge and mail merge with regions. Simple mail merge repeats the entire document per each data source record, whereas mail merge with regions repeats only designated regions per record."
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /cpp/types-of-mail-merge-operations/

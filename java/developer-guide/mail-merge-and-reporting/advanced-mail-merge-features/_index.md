@@ -3,7 +3,7 @@ title: Advanced Mail Merge Features
 aliases:
   - /java/how-to-use-advanced-mail-merge-features/
 type: docs
-description: "Aspose.Words provides some advanced mail merge features that allow you to perform further mail merge customization. For example, obtaining information about template structure, setting rules, cleaning up after a mail merge operation, and others."
+description: "Aspose.Words for Java provides some advanced mail merge features that allow you to perform further mail merge customization. For example, obtaining information about template structure, setting rules, cleaning up after a mail merge operation, and others."
 keywords: "use advanced mail merge features java, mail merge java"
 weight: 50
 url: /java/advanced-mail-merge-features/

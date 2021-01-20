@@ -1,6 +1,6 @@
 ---
 title: Track Changes in a Document
-description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them."
+description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them using .NET."
 type: docs
 weight: 90
 url: /net/track-changes-in-a-document/
