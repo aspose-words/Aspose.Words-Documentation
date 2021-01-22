@@ -1,124 +1,144 @@
 ---
 title: Find and Replace
 type: docs
-weight: 90
+description: "Aspose.Words for C++ allows you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
+weight: 50
 url: /cpp/find-and-replace/
 ---
 
-## Find and Replace Overview
+You can easily navigate within your document using a keyboard and mouse, but if you have many pages to scroll through, it will take quite a while to find specific text in a long document. It will be more time consuming when you want to replace certain characters or words that you have used in your document. The “Find and replace” functionality enables you to find a sequence of characters in a document and replace it with another sequence of characters.
 
-Use Range.Replace to find or replace a particular string within the current range. It returns the number of replacements made, so it is useful for searching strings without replace. An exception is thrown if a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object and footnote.
+Aspose.Words allows you to find a specific string or regular expression pattern in your document and replace it with an alternative without installing and using additional applications such as Microsoft Word. This will speed up many typing and formatting tasks, potentially saving you hours of work.
 
-The Range.Replace method provides several overloads. Here are the possibilities they provide:
+This article explains how to apply string replacement and regular expressions with the support of metacharacters.
 
-- You can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected. Note that a word is defined as being made up of only alpha-numeric characters. If replace is executed with only whole words only being matched and the input string happens to contain symbols, then no phrases will be found.
-- You can pass a regular expression pattern used to find matches and a string that will replace them. This overload replaces the whole match captured by the regular expression.
-- You can pass a regular expression pattern and an object that implements the IReplacingCallback interface. This sets out a user-defined method, which evaluates replacement at each step, you can also indicate whether the replacement should be done in a forward or backward direction. It is recommended if you are removing nodes during replacement then the replacement should be executed **backward** to avoid any potential issues that may arise when removing nodes during the replacement process. A class implementing the IReplacingCallback interface will define a method IReplacingCallback.Replacing that accepts a ReplacingArgs object providing data for a custom replace operation. The method should return a ReplaceAction enumeration value that specifies what happens to the current match during a replace operation - whether it should be replaced, skipped, or the whole replace operation should be terminated.
+## Ways to Find and Replace
 
-The following examples show how to use the aforementioned overloads. The sample class provides methods, each of which uses a Range.Replace overload:
+Aspose.Words provides two ways to apply the find and replace operation by using the following:
 
-- **Example 1** simply replaces all occurrences of the word "sad" to "bad".
-- **Example 2** replaces all occurrences of the words "sad" or "mad" to "bad".
-- **Example 3** uses a replace evaluator method to concatenate occurrences of words "sad" or "bad" with the counter value that is incremented each time the new occurrence is found.
-- **Example 4** explains how to recognize and use substitutions within replacement patterns.
+1. *Simple string replacement* – to find and replace a specific string with another, you need to specify a search string (alphanumeric characters) that is going to be replaced according to all occurrences with another specified replacement string. Both strings must not contain symbols. Take into account that string comparison can be case-sensitive, or you may be unsure of spelling or have several similar spellings.
+2. *Regular expressions* – to specify a regular expression to find the exact string matches and replace them according to your regular expression. Note that a word is defined as being made up of only alphanumeric characters. If a replacement is executed with only whole words being matched and the input string happens to contain symbols, then no phrases will be found.
 
-### Example 1: Replace One Word with Another
+In addition, you can use special metacharacters with simple string replacement and regular expressions to specify breaks within the find and replace operation.
 
-Shows how to replace all occurrences of the word "sad" to "bad". You can download the template file of this example from here.
+Aspose.Words presents the find and replace functionality with the [Aspose.Words.Replacing](https://apireference.aspose.com/words/cpp/namespace/aspose.words.replacing) namespace. You can work with many options during the find and replace process using [FindReplaceOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options/) class.
+
+### Find and Replace Text using Simple String Replacement
+
+You can use one of the [Replace](https://apireference.aspose.com/words/cpp/class/aspose.words.range#a71d4116d889ba44bb71c34a2887d60e9) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
+
+The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithString-ReplaceWithString.cpp" >}}
 
-### Example 2: Replace Two Similar Words with One Other
+You can notice the difference between the document before applying simple string replacement:
 
-Shows how to replace all occurrences of words "sad" or "mad" to "bad". You can download the template file of this example from here.
+<img src="before-simple-string-replacement.png" alt="before-simple-string-replacement" style="width:600px"/>
+
+And after applying simple string replacement:
+
+<img src="after-simple-string-replacement.png" alt="after-simple-string-replacement" style="width:600px"/>
+
+### Find and Replace Text using Regular Expressions
+
+A regular expression (regex) is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double-word pattern: `([a-zA-Z]+) \1`.
+
+Use the other [Replace](https://apireference.aspose.com/words/cpp/class/aspose.words.range#a0bf64cc2b53bdb1e407c43f6a6e61405) method to search and replace particular character combinations by setting the Regex parameter as the regular expression pattern to find matches.
+
+The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithRegex-ReplaceWithRegex.cpp" >}}
 
-### Example 3: Use a Custom Evaluator
+You can notice the difference between the document before applying string replacement with regular expressions:
 
-Shows how to replace it with a custom evaluator. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Find-Replace/Range.ReplaceWithEvaluator.doc).
+<img src="before-replacement-with-regular-expressions.png" alt="before-replacement-with-regular-expressions" style="width:600px"/>
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithEvaluator-ReplaceWithEvaluator.cpp" >}}
+And after applying string replacement with regular expressions:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithEvaluator-MyReplaceEvaluator.cpp" >}}
+<img src="after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions" style="width:600px"/>
 
-### Example 4: Recognize and Use Substitutions within Replacement Patterns
+### Find and Replace String using Metacharacters
 
-The following code example demonstrates how to recognize and use substitutions within replacement patterns using UseSubstitutions property.
+You can use metacharacters in the search string or the replacement string if a particular text or phrase is composed of multiple paragraphs, sections, or pages. Some of the metacharacters include **&p** for a paragraph break, **&b** for a section break, **&m** for a page break, and **&l** for a line break.
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithRegex-RecognizeAndSubstitutionsWithinReplacementPatterns.cpp" >}}
+{{% alert color="primary" %}}
 
+Note that the metacharacter **&&** equals to **&**. For example, if you need to find text for **&p** that is not a paragraph break, then you can use **&&p**.
 
-## How to Find and Highlight Text
+{{% /alert %}}
 
-This section describes how to programmatically find and highlight a word or a phrase in a document using Aspose.Words. It might seem easy to simply find the string of text in a document and change its formatting, but the main difficulty is that due to formatting, the match string could be spread over several runs of text. Consider the following example. The phrase “Hello World!” if formatted and consists of three different runs: Hello is italic, World is bold, and the exclamation mark is the regular text:
-
-*Hello* **World**!
-
-In addition to formatting, bookmarks in the middle of text will split it into more runs.) The above example is represented in Aspose.Words using the following objects:
-
-- [Run](https://apireference.aspose.com/words/cpp/class/aspose.words.run) ([Run.Text](https://apireference.aspose.com/words/cpp/class/aspose.words.run#a62816f744b09a5afa32061cc826e23c2) = “Hello”, [Font.Italic](https://apireference.aspose.com/words/cpp/class/aspose.words.font#a567e5f51bda576ac68e64ac28c27dd2c) = true)
-- Run (Run.Text = “World”, [Font.Bold](https://apireference.aspose.com/words/cpp/class/aspose.words.font#a321186d0ff687df7328f15fd23444acc) = true)
-- Run (Run.Text = “!”)
-
-This article provides a solution designed to handle the described case – if necessary it collects the word (or phrase) from several runs while skipping non-run nodes.
-
-The following document is used in this sample.
-
-![todo:image_alt_text](http://i.imgur.com/AtdnRmR.png)
-
-### The Code
-
-The sample code will open a document and find any instance of the text “your document”. A replace handler is set up to handle the logic to be applied to each resulting match found. In this case, the resulting runs are split around the text and the resulting runs highlighted. The following code example finds and highlights all instances of a particular word or a phrase in a Word document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Find-Replace/TestFile.doc).
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-FindAndHighlight-FindAndHighlight.cpp" >}}
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-FindAndHighlight-ReplaceEvaluatorFindAndHighlight.cpp" >}}
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-FindAndHighlight-SplitRun.cpp" >}}
-
-### The Result
-
-Each resulting match is highlighted yellow, even those matches that have different formatting and span across multiple runs.
-
-![todo:image_alt_text](http://i.imgur.com/GtyZdQd.png)
-
-## Find and Replace Text using Meta-Characters
-
-### How to Preserve Meta-Characters During Replacement
-
-If you want to preserve meta-characters beginning with "&" during the find and replace process, you can use FindReplaceOptions.PreserveMetaCharacters property. The following code example shows how to find a text and replace it with HTML that has meta-characters.
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceHtmlTextWithMetaCharacters-ReplaceHtmlTextWithMetaCharacters.cpp" >}}
-
-{{< gist "aspose-words-gists" "38845012a35610163a07b547a36d6563" "cpp-Programming-Documents-Find-Replace-ReplaceHtmlTextWithMetaCharacters-ReplaceHtmlFindAndInsertHtml.cpp" >}}
-
-### Replace Text using Meta-Characters
-
-Range.Replace method supports breaks in both the search pattern and a replacement string. You need to use special meta-characters to specify breaks: **&p** for a paragraph break, **&b** for section break, **&m** for page break and **&l** for a manual line break. The following code example shows how to replace text that contains paragraphs and page breaks.
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-MetaCharactersInSearchPattern.cpp" >}}
-
-The following code example shows how to replace certain paragraph breaks with new paragraph break and replace custom text tag with a section break.
+The following code example shows how to replace text with paragraph and page break:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-ReplaceTextContaingMetaCharacters.cpp" >}}
 
-## Ignore Text during Find and Replace
+## Find and Replace String in Header/Footer of a Document
 
-### Ignore Text Inside Field
+You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://apireference.aspose.com/words/cpp/class/aspose.words.header_footer) class.
 
-Aspose.Words provides the [IgnoreFields](https://apireference.aspose.com/cpp/words/class/aspose.words.replacing.find_replace_options/#ad1d6ffd2811f93722fb7c6e7a25ca641) in the FindReplaceOptions class indicating either to ignore the text inside fields. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside fields while find and replace.
+The following code example shows how to replace the text of the header section in your document:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideFields.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceInHeaderAndFooter-ReplaceTextInFooter.cpp" >}}
 
-### Ignore Text Inside Delete Revisions
+You can notice the difference between the document before applying header string replacement:
 
-Aspose.Words provides the [IgnoreDeleted](https://apireference.aspose.com/cpp/words/class/aspose.words.replacing.find_replace_options/#a64bceaeb51010a5242d4264217962883) property in the FindReplaceOptions class indicating either to ignore the text inside delete revisions. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside delete revisions.
+<img src="before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement" style="width:600px"/>
+
+And after applying header string replacement:
+
+<img src="after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement" style="width:600px"/>
+
+The code example to replace the text of the footer section in your document is very similar to the previous header code example. All you need to do is replace the following two lines:
+
+{{< highlight csharp >}}
+auto header = headersFooters->idx_get(HeaderFooterType::HeaderPrimary);
+header->get_Range()->Replace(u"Aspose.Words", u"Remove", options);
+{{< /highlight >}}
+
+With the following:
+
+{{< highlight csharp >}}
+auto footer = headersFooters->idx_get(HeaderFooterType::FooterPrimary);
+footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", u"Copyright (C) Aspose Pty Ltd.", options);
+{{< /highlight >}}
+
+You can notice the difference between the document before applying footer string replacement:
+
+<img src="before-applying-footer-string-replacement.png" alt="before-applying-footer-string-replacement" style="width:600px"/>
+
+And after applying footer string replacement:
+
+<img src="after-applying-footer-string-replacement.png" alt="after-applying-footer-string-replacement" style="width:600px"/>
+
+## Ignore Text During Find and Replace
+
+While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
+
+Aspose.Words provides many find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options), [IgnoreFields](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#ad1d6ffd2811f93722fb7c6e7a25ca641), and [IgnoreInserted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#acab2ad6dcd055c092aa45aca692471d4).
+
+The following code example shows how to ignore text inside delete revisions:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideDeleteRevisions.cpp" >}}
 
-### Ignore Text Inside Insert Revisions
+## Customize Find and Replace Operation
 
-Aspose.Words provides the [IgnoreInserted](https://apireference.aspose.com/cpp/words/class/aspose.words.replacing.find_replace_options/#acab2ad6dcd055c092aa45aca692471d4) property in the FindReplaceOptions class indicating either to ignore the text inside insert revisions. This is a boolean type property and its default value is False. The following code example demonstrates how to ignore text inside insert revisions.
+Aspose.Words provides many different [properties](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/index) to find and replace text such as applying specific format with [ApplyFont](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/applyfont) and [ApplyParagraphFormats](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/applyparagraphformat) properties, using substitutions in replacement patterns with [UseSubstitutions](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/usesubstitutions) property, and others.
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideInsertRevisions.cpp" >}}
+The following code example shows how to highlight a specific word in your document:
+
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cpp" >}}
+
+Aspose.Words allows you to use [IReplacingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.i_replacing_callback/) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
+
+If you need to replace a string with an HTML tag, apply the **IReplacingCallback** interface to customize the find and replace operation so the match starts at the beginning of a run with the match node of your document. Let us provide several examples of using **IReplacingCallback**.
+
+The following code example shows how to replace text specified with HTML:
+
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithHTML-ReplaceWithHtml.cpp" >}}
+
+The following code example shows how to highlight positive numbers with green color and negative numbers with red color:
+
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithHTML-NumberHighlightCallback.cpp" >}}
+
+The following code example shows how to prepend a line number to each line:
+
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithHTML-LineCounter.cpp" >}}
