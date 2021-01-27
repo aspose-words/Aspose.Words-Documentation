@@ -71,15 +71,4 @@ Aspose.Words for C++ is designed to perform equally well, both on server and cli
 
 ## Technical Support
 
-Aspose provides unlimited free technical support for all its products. Support is available to all users, including evaluation.
-
-If you need any assistance regarding Aspose.Words for C++, please visit our [Aspose.Forums](https://forum.aspose.com/c/words). You can create a new topic over Aspose.Words for C++ forums and your post will be answered within a few hours. All the inquiries over forums are replied directly by Aspose.Words for C++ support team.
-
-When expecting a reply in the forums, please allow for time zone differences.
-
-If you have an issue with Aspose.Words for C++, follow these simple steps to make sure it is resolved in the most efficient way:
-
-- Make sure you use the latest version of Aspose.Words for C++ before reporting the issue.
-- When reporting an issue, please include the original document and possibly a code snippet that is able to reproduce the issue. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose.Forums in a private post, as only you and Aspose staff will have access to attached files.
-- In case your files are of larger size, which exceeds the upload limit of the forums, you can upload it to some public file hosting service and share the URL in your post.
-- Please try to report one issue per thread. If you have another issue, report it in a separate thread.
+For more information on Aspose.Words technical support, take a look at the [support page](/words/cpp/technical-support/).
