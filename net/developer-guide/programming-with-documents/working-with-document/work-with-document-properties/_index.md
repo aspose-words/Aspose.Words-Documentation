@@ -105,6 +105,10 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 If you want to share a Word document with other people, you may want to remove personal information such as author name and company. To do this use the [RemovePersonalInformation](https://apireference.aspose.com/words/net/aspose.words/document/properties/removepersonalinformation) property to set the flag indicating that Microsoft Word will remove all user information from comments, revisions, and document properties upon saving the document.
 
+The following code example shows how to remove personal information:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-RemovePersonalInformation.cs" >}}
+
 {{% alert color="primary" %}}
 
 Setting this option does not actually remove personal information while processing a document in Aspose.Words and affects only the Microsoft Word behavior.
