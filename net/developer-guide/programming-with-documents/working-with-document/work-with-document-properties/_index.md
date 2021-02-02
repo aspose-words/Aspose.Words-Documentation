@@ -1,78 +1,112 @@
 ---
 title: Work with Document Properties
+description: "Aspose.Words for .NET allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
 weight: 20
 url: /net/work-with-document-properties/
 ---
 
-Document properties allow some useful information to be stored along with the document. There is a system (built-in) and user-defined (custom) properties. Built-in properties contain such things as document title, author's name, document statistics, and so on. Custom properties are just name-value pairs where the user defines both the name and value. You can use document properties in your document automation project to store some useful info along with the document such as when the document was received/processed/time stamped and so on. 
+Document properties allow storing some useful information about your document. These properties can be divided into two groups:
 
-{{% alert color="primary" %}} 
+* System or built-in that contain values such as document title, author name, document statistics, and others.
+* User-defined or custom, provided as name-value pairs where the user can define both the name and value.
 
-Aspose.Words for .NET directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Words for .NET populates **Application** field with value 'Aspose.Words' and **PDF Producer** field with value 'Aspose.Words for .NET 17.9'. For more details, please check, [what Generator or Producer Name Values are Included in Output Documents upon Save](/words/net/generator-or-producer-name-included-in-output-documents/)
+It is useful to know that information about API and Version Number is directly written to output documents. For example, upon converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for .NET YY.M.N", where *YY.M.N* is the version of Aspose.Words used for conversion. For more details, see ["Generator or Producer Name Included in Output Documents"](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/).
 
-Please note that you cannot instruct Aspose.Words for .NET to change or remove this information from output Documents.
+{{% alert color="primary" %}}
 
-{{% /alert %}} 
+Note that you **cannot direct** Aspose.Words to change or remove this information from output documents.
 
-## Accessing Document Properties in Microsoft Word
+{{% /alert %}}
 
-You can access document properties in Microsoft Word by using the File | Properties menu.
+## Access Document Properties
 
-![todo:image_alt_text](work-with-document-properties_1.png)
+To access document properties in Aspose.Words use:
 
-## Accessing Document Properties in Aspose.Words
+* [BuiltInDocumentProperties](http://www.aspose.com/api/net/words/aspose.words/document/properties/builtindocumentproperties) to obtain built-in properties.
 
-To access document properties in Aspose.Words do the following:
+* [CustomDocumentProperties](http://www.aspose.com/api/net/words/aspose.words/document/properties/customdocumentproperties) to obtain custom properties.
 
-- To obtain built-in document properties, use [Document.BuiltInDocumentProperties](http://www.aspose.com/api/net/words/aspose.words/document/properties/builtindocumentproperties).
-- To obtain custom document properties, use [Document.CustomDocumentProperties](http://www.aspose.com/api/net/words/aspose.words/document/properties/customdocumentproperties).
+**BuiltInDocumentProperties** and **CustomDocumentProperties** are collections of [DocumentProperty](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty) objects. These objects can be obtained through the indexer property by name or by index.
 
-**Document.BuiltInDocumentProperties** returns a [BuiltInDocumentProperties](http://www.aspose.com/api/net/words/aspose.words/document/properties/builtindocumentproperties) object and **Document.CustomDocumentProperties** returns a [CustomDocumentProperties](http://www.aspose.com/api/net/words/aspose.words/document/properties/customdocumentproperties) object. Both objects are collections of the [DocumentProperty](http://www.aspose.com/api/net/words/aspose.words.properties/documentproperty) objects. These objects can be obtained through the indexer property either by name or by index. **BuiltInDocumentProperties** additionally provides access to the document properties via a set of typed properties that return values of the appropriate type. **CustomDocumentProperties** allows adding or removing document properties from the document. The following code example demonstrates how to enumerates through all built-in and custom properties in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/Properties.doc).
+**BuiltInDocumentProperties** additionally provides access to document properties through a set of entered properties that return values of the appropriate type. **CustomDocumentProperties** enable you to add or remove document properties from a document.
+
+The [DocumentProperty](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty) class allows you to get the name, value, and type of a document property. [Value](http://www.aspose.com/api/net/words/aspose.words.properties/documentproperty/properties/value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty/methods/tostring) and **DocumentProperty.**[ToInt](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty/methods/toint), to obtain the value of the appropriate type.
+
+The following code example shows how to enumerate all built-in and custom properties in a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-EnumerateProperties.cs" >}}
 
-The DocumentProperty class allows you to get the name, value, and type of the document property:
+{{% alert color="primary" %}}
 
-- To get the name of a property, use [DocumentProperty.Name](http://www.aspose.com/api/net/words/aspose.words.properties/documentproperty/properties/name).
-- To get the value of a property, use [DocumentProperty.Value](http://www.aspose.com/api/net/words/aspose.words.properties/documentproperty/properties/value). **DocumentProperty.Value** returns an Object, but there is a set of methods allowing you to get the value of the property converted to a particular type.
-- To get the type of a property, use [DocumentProperty.Type](http://www.aspose.com/api/net/words/aspose.words.properties/documentproperty/properties/type). This returns one of the [PropertyType](http://www.aspose.com/api/net/words/aspose.words.properties/propertytype) enumeration values. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods such as [DocumentProperty.ToString](http://www.aspose.com/api/net/words/aspose.words.properties/documentproperty/methods/tostring) and [DocumentProperty.ToInt](http://www.aspose.com/api/net/words/aspose.words.properties/documentproperty/methods/toint) to obtain the value of the appropriate type instead of getting **DocumentProperty.Value**.
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/Properties.doc).
 
-## Updating Built-In Document Properties
+{{% /alert %}}
 
-While Microsoft Word automatically updates some document properties when needed, Aspose.Words never automatically change any properties. For example, Microsoft Word updates the time the document was last printed, last saved, updates statistical properties (word, paragraph, character etc counts). Aspose.Words does not update any properties automatically but provides a method for updating some statistical built-in document properties. Call the [Document.UpdateWordCount](http://www.aspose.com/api/net/words/aspose.words/document/methods/updatewordcount) method to recalculate and update the [BuiltInDocumentProperties.Characters](http://www.aspose.com/api/net/words/aspose.words.properties/builtindocumentproperties/properties/characters) , [BuiltInDocumentProperties.CharactersWithSpaces](http://www.aspose.com/api/net/words/aspose.words.properties/builtindocumentproperties/properties/characterswithspaces) , [BuiltInDocumentProperties.Words](http://www.aspose.com/api/net/words/aspose.words.properties/builtindocumentproperties/properties/words) and [BuiltInDocumentProperties.Paragraphs](http://www.aspose.com/api/net/words/aspose.words.properties/builtindocumentproperties/properties/paragraphs) properties in the **BuiltInDocumentProperties** collection. This will ensure they are synchronized with changes made after the document was opened or created.
+In Microsoft Word, you can access document properties using the “File → Properties” menu.
 
-## Adding or Removing Document Properties
+<img src="work-with-document-properties_1.png" alt="work-with-document-properties_1.png" style="width:400px"/>
 
-You cannot add or remove built-in document properties in Aspose.Words, you can only change their values. To add custom document properties in Aspose.Words, use [CustomDocumentProperties.Add](http://www.aspose.com/api/net/words/aspose.words.properties/customdocumentproperties/methods/add/index) passing the name of the new property and the value of the appropriate type. The method returns the newly created **DocumentProperty** object. The following code example demonstrates how to checks if a custom property with a given name exists in a document and adds few more custom document properties. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/Properties.doc).
+## Add or Remove Document Properties
+
+You cannot add or remove built-in document properties using Aspose.Words. You can only change or update their values.
+
+To add custom document properties with Aspose.Words, use the [Add](http://www.aspose.com/api/net/words/aspose.words.properties/customdocumentproperties/methods/add/index) method, passing the new property name and the value of the appropriate type. The method returns the newly created **DocumentProperty** object.
+
+To remove custom properties, use the [Remove](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/remove) method, passing it the property name to remove, or the [RemoveAt](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/removeat) method to remove the property by index. You can also remove all properties using the [Clear](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/clear) method.
+
+The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomAdd.cs" >}}
 
-To remove custom properties, use DocumentPropertyCollection.Remove passing it the name of the property to remove. The following code example demonstrates how to removes a custom document property.
+{{% alert color="primary" %}}
+
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/Properties.doc).
+
+{{% /alert %}}
+
+The following code example shows how to remove a custom document property:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomRemove.cs" >}}
 
-## Configure Link to Content Property
+## Update Built-In Document Properties
 
-Aspose.Words provides a method **CustomDocumentProperties.AddLinkToContent(string, string)** to create a new linked to content custom document property which returns the newly created property object or null if the [link source](https://apireference.aspose.com/net/words/aspose.words.properties/documentproperty/properties/linksource) is invalid. The following code example demonstrates how to configure the link to a content custom property.
+Aspose.Words does not automatically update document properties, as Microsoft Word does with some properties, but provides a method to update some statistical built-in document properties. Call the [UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount/index) method to recalculate and update the following properties:
+
+* [Characters](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/characters)
+* [CharactersWithSpaces](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/characterswithspaces)
+* [Words](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/words)
+* [Paragraphs](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/paragraphs)
+* [Lines](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/lines)
+
+## Create a New Custom Property Linked to Content
+
+Aspose.Words provides the [AddLinkToContent](https://apireference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/methods/addlinktocontent) method to create a new custom document property linked to content. This property returns the newly created property object or null if the [LinkSource](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty/properties/linksource) is invalid.
+
+The following code example shows how to configure a link to a custom property:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-ConfiguringLinkToContent.cs" >}}
 
-## Removing Personal Information from Document
+## Get Document Variables
 
-If you want to share Word document with other people, you can remove personal information, such as author name and company. You can use the Document.RemovePersonalInformation property to set the flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. 
+You can get a collection of document variables using the [Variables](http://www.aspose.com/api/net/words/aspose.words/document/properties/variables) property. Variable names and values are strings.
 
-Setting this option does not actually remove personal information while a document is processed in Aspose.Words and affects only Microsoft Word behavior.
-
-## Getting Document Variables
-
-You can get a collection of document variables using the [Document.Variables](http://www.aspose.com/api/net/words/aspose.words/document/properties/variables) property. Variable names and values are strings. The following code example demonstrates how to enumerate over document variables. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/Properties.doc).
+The following code example shows how to enumerate document variables:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-GetVariables-GetVariables.cs" >}}
 
-## How to Convert Between Measurement Units
+{{% alert color="primary" %}}
 
-Most of the object properties provided in the Aspose.Words API that represent some measurement (width/height, margins and various distances) accept values in points (1 inch equals 72 points). Sometimes this is not convenient so there is the ConvertUtil class that provides helper functions to convert between various measurement units. It allows converting inches to points, points to inches, pixels to points, and points to pixels. When pixels are converted to points and vice versa, it can be performed at 96 dpi (dots per inch) resolutions or at the specified dpi resolution.
-**ConvertUtil** is very useful when setting different page properties because for instance inches are more usual measurement units than points. The following example demonstrates how to set up the page properties in inches. Below example shows how to specify page properties in inches.
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/Properties.doc).
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-ConvertUtil-UtilityClasses-ConvertBetweenMeasurementUnits.cs" >}}
+{{% /alert %}}
+
+## Remove Personal Information from Document
+
+If you want to share a Word document with other people, you may want to remove personal information such as author name and company. To do this use the [RemovePersonalInformation](https://apireference.aspose.com/words/net/aspose.words/document/properties/removepersonalinformation) property to set the flag indicating that Microsoft Word will remove all user information from comments, revisions, and document properties upon saving the document.
+
+{{% alert color="primary" %}}
+
+Setting this option does not actually remove personal information while processing a document in Aspose.Words and affects only the Microsoft Word behavior.
+
+{{% /alert %}}
