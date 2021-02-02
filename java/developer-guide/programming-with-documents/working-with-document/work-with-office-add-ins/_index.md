@@ -36,11 +36,13 @@ The following code example shows how to get such a list of add-ins:
 
 {{< highlight csharp >}}
 Document doc = new Document("DocumentWithTaskPanes.docx");
-Console.WriteLine("Task panes sources:");
-foreach (TaskPane taskPane in doc.WebExtensionTaskPanes)
+System.out.println("Task panes sources:");
+for (TaskPane taskPane : doc.getWebExtensionTaskPanes())
 	{
-		WebExtensionReference reference = taskPane.WebExtension.Reference;
-		Console.WriteLine($"Provider: \"{reference.Store}\", version: \"{reference.Version}\", catalog identifier: \"{reference.Id}\";");
+		WebExtensionReference reference = taskPane.getWebExtension().getReference();
+		System.out.println("Provider: " + reference.getStore() +
+			", version: " + reference.getVersion() +
+			", catalog identifier: "+ reference.getId() + ";");
 	}
 {{< /highlight >}}
 
