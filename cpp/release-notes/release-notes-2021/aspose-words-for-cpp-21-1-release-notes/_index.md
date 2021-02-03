@@ -37,6 +37,8 @@ The missing features will be added in future releases.
 
 |Key|Summary|Category|
 | :- | :- | :- |
+| WORDSCPP-925 | Memory leak in Aspose.Words for C++ | Bug |
+| WORDSCPP-1038 | Unable to Retrieve the Number of Pages from Word DOC document | Bug |
 | WORDSNET-4987 | Support "cold" rendering of OOXML   SmartArt (Diagrams) | New Feature |
 | WORDSNET-20666 | Add feature to create Move revision | New Feature |
 | WORDSNET-21389 | Add IImageSavingCallback into MarkdownSaveOptions | New Feature |
