@@ -18,7 +18,7 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 - Implemented API to manipulate themed properties of Font object.
 - Added an option to update CreatedTimeProperty upon save.
 - SaveOptions was extended with new CustomTimeZoneInfo option.
-- FindReplaceOptions class was extended with a new useful option.
+- FindReplaceOptions class was extended with a new SmartParagraphBreakReplacement option.
 - Make it possible to load documents from IStream object in COM applications.
 
 ## Full List of Issues Covering all Changes in this Release
@@ -698,7 +698,7 @@ so.CustomTimeZoneInfo = TimeZoneInfo.CreateCustomTimeZone("Auckland", new TimeSp
 doc.Save("output.pdf", so);
 {{< /highlight >}}
 
-Please note this option is available in either .Net framework starting from 3.5 version or .Net Standard framework.
+Please note this option is available in either .Net framework starting from 3.5 version or .Net Standard.
 
 ### The behavior of DocumentBuilder.MoveToParagraph and DocumentBuilder.MoveToCell methods was changed
 
