@@ -26,36 +26,36 @@ The main method is to be able to move the cursor position to a specific node in 
 
 The following code example shows how to move the **DocumentBuilder** to different nodes in a document:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Start a bookmark and add content to it using a DocumentBuilder.
-builder.StartBookmark("MyBookmark");
-builder.Writeln("Bookmark contents.");
-builder.EndBookmark("MyBookmark");
+builder.startBookmark("MyBookmark");
+builder.writeln("Bookmark contents.");
+builder.endBookmark("MyBookmark");
 
 // The node that the DocumentBuilder is currently at is past the boundaries of the bookmark.
-Assert.AreEqual(doc.Range.Bookmarks[0].BookmarkEnd, builder.CurrentParagraph.FirstChild);
+Assert.assertEquals(doc.getRange().getBookmarks().get(0).getBookmarkEnd(), builder.getCurrentParagraph().getFirstChild());
 
 // If we wish to revise the content of our bookmark with the DocumentBuilder, we can move back to it like this.
-builder.MoveToBookmark("MyBookmark");
+builder.moveToBookmark("MyBookmark");
 
 // Now we're located between the bookmark's BookmarkStart and BookmarkEnd nodes, so any text the builder adds will be within it.
-Assert.AreEqual(doc.Range.Bookmarks[0].BookmarkStart, builder.CurrentParagraph.FirstChild);
+Assert.assertEquals(doc.getRange().getBookmarks().get(0).getBookmarkStart(), builder.getCurrentParagraph().getFirstChild());
 
 // We can move the builder to an individual node,
 // which in this case will be the first node of the first paragraph, like this.
-builder.MoveTo(doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false)[0]);
+builder.moveTo(doc.getFirstSection().getBody().getFirstParagraph().getChildNodes(NodeType.ANY, false).get(0));
 
-Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
-Assert.IsTrue(builder.IsAtStartOfParagraph);
+Assert.assertEquals(NodeType.BOOKMARK_START, builder.getCurrentNode().getNodeType());
+Assert.assertTrue(builder.isAtStartOfParagraph());
 
 // A shorter way of moving the very start/end of a document is with these methods.
-builder.MoveToDocumentEnd();
-Assert.IsTrue(builder.IsAtEndOfParagraph);
-builder.MoveToDocumentStart();
-Assert.IsTrue(builder.IsAtStartOfParagraph);
+builder.moveToDocumentEnd();
+Assert.assertTrue(builder.isAtEndOfParagraph());
+builder.moveToDocumentStart();
+Assert.assertTrue(builder.isAtStartOfParagraph());
 {{< /highlight >}}
 
 But besides the basic **MoveTo** method, there are more specific ones.
@@ -66,17 +66,17 @@ You can go to the beginning or  the end of your document using the [MoveToDocume
 
 The following code example shows how to move the cursor position to the beginning or the end of a document:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Load you document.
-Document doc =  new Document(MyDir + "Document.docx");
+Document doc = new Document(getMyDir() + "Document.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 // Move the cursor position to the beginning of your document.
-builder.MoveToDocumentStart();
-builder.Writeln("This is the beginning of the document.");
+builder.moveToDocumentStart();
+builder.writeln("This is the beginning of the document.");
 
 // Move the cursor position to the end of your document.
-builder.MoveToDocumentEnd();
-builder.Writeln("This is the end of the document.");
+builder.moveToDocumentEnd();
+builder.writeln("This is the end of the document.");
 {{< /highlight >}}
 
 ### Navigate With Bookmarks
@@ -85,25 +85,25 @@ You can mark a place that you want to find and move to it again easily. You can 
 
 The following code examples shows how to move a cursor position to a bookmark:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Start a bookmark and add content to it using a DocumentBuilder.
-builder.StartBookmark("MyBookmark");
-builder.Writeln("Bookmark contents.");
-builder.EndBookmark("MyBookmark");
+builder.startBookmark("MyBookmark");
+builder.writeln("Bookmark contents.");
+builder.endBookmark("MyBookmark");
 
 // If we wish to revise the content of our bookmark with the DocumentBuilder, we can move back to it like this.
-builder.MoveToBookmark("MyBookmark");
+builder.moveToBookmark("MyBookmark");
 
 // Now we're located between the bookmark's BookmarkStart and BookmarkEnd nodes, so any text the builder adds will be within it.
-Assert.AreEqual(doc.Range.Bookmarks[0].BookmarkStart, builder.CurrentParagraph.FirstChild);
+Assert.assertEquals(doc.getRange().getBookmarks().get(0).getBookmarkStart(), builder.getCurrentParagraph().getFirstChild());
 
 // We can move the builder to an individual node,
 // which in this case will be the first node of the first paragraph, like this.
-builder.MoveTo(doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false)[0]);
-Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
+builder.moveTo(doc.getFirstSection().getBody().getFirstParagraph().getChildNodes(NodeType.ANY, false).get(0));
+Assert.assertEquals(NodeType.BOOKMARK_START, builder.getCurrentNode().getNodeType());
 {{< /highlight >}}
 
 ### Navigate to Table Cells
@@ -112,17 +112,17 @@ You can move to a table cell by using the [MoveToCell](https://apireference.aspo
 
 The following code example shows how to move a cursor position to a specified table cell:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Tables.docx");
+{{< highlight java >}}
+Document doc = new Document(getMyDir() + "Tables.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Move the builder to row 3, cell 4 of the first table.
-builder.MoveToCell(0, 2, 3, 0);
-builder.Write("\nCell contents added by DocumentBuilder");
-Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+builder.moveToCell(0, 2, 3, 0);
+builder.write("\nCell contents added by DocumentBuilder");
+Table table = (Table)doc.getChild(NodeType.TABLE, 0, true);
 
-Assert.AreEqual(table.Rows[2].Cells[3], builder.CurrentNode.ParentNode.ParentNode);
-Assert.AreEqual("Cell contents added by DocumentBuilderCell 3 contents\a", table.Rows[2].Cells[3].GetText().Trim());
+Assert.assertEquals(table.getRows().get(2).getCells().get(3), builder.getCurrentNode().getParentNode().getParentNode());
+Assert.assertEquals("Cell contents added by DocumentBuilderCell 3 contents\u0007", table.getRows().get(2).getCells().get(3).getText().trim());
 {{< /highlight >}}
 
 ### Navigate to a Field
@@ -131,24 +131,24 @@ You can move to a specific field in your document by using the [MoveToField](htt
 
 The following code example shows how to move the document builder cursor to a specific field:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert a field using the DocumentBuilder and add a run of text after it.
-Field field = builder.InsertField("MERGEFIELD field");
-builder.Write(" Text after the field.");
+Field field = builder.insertField("MERGEFIELD field");
+builder.write(" Text after the field.");
 
 // The builder's cursor is currently at end of the document.
-Assert.Null(builder.CurrentNode);
+Assert.assertNull(builder.getCurrentNode());
 // We can move the builder to a field like this, placing the cursor at immediately after the field.
-builder.MoveToField(field, true);
+builder.moveToField(field, true);
 
 // Note that the cursor is at a place past the FieldEnd node of the field, meaning that we are not actually inside the field.
 // If we wish to move the DocumentBuilder to inside a field,
 // we will need to move it to a field's FieldStart or FieldSeparator node using the DocumentBuilder.MoveTo() method.
-Assert.AreEqual(field.End, builder.CurrentNode.PreviousSibling);
-builder.Write(" Text immediately after the field.");
+Assert.assertEquals(field.getEnd(), builder.getCurrentNode().getPreviousSibling());
+builder.write(" Text immediately after the field.");
 {{< /highlight >}}
 
 ### Navigate to a Header or Footer
@@ -157,29 +157,29 @@ You can move to the beginning of a header or footer by using the [MoveToHeaderFo
 
 The following code example shows how to move document builder cursor to a document header or footer:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Specify that we want headers and footers different for first, even and odd pages.
-builder.PageSetup.DifferentFirstPageHeaderFooter = true;
-builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
+builder.getPageSetup().setDifferentFirstPageHeaderFooter(true);
+builder.getPageSetup().setOddAndEvenPagesHeaderFooter(true);
 
 // Create the headers.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
-builder.Write("Header for the first page");
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
-builder.Write("Header for even pages");
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-builder.Write("Header for all other pages");
+builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
+builder.write("Header for the first page");
+builder.moveToHeaderFooter(HeaderFooterType.HEADER_EVEN);
+builder.write("Header for even pages");
+builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+builder.write("Header for all other pages");
 
 // Create two pages in the document.
-builder.MoveToSection(0);
-builder.Writeln("Page1");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page2");
+builder.moveToSection(0);
+builder.writeln("Page1");
+builder.insertBreak(BreakType.PAGE_BREAK);
+builder.writeln("Page2");
 
-doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
+doc.save(getArtifactsDir() + "DocumentBuilder.HeadersAndFooters.docx");
 {{< /highlight >}}
 
 ### Navigate to a Section or Paragraph
@@ -188,31 +188,31 @@ You can move to a specific section or paragraph by using the [MoveToParagraph](h
 
 The following code example shows how to move to a specific section and a specific paragraph in a document:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Create a blank document and append a section to it, giving it two sections.
 Document doc = new Document();
-doc.AppendChild(new Section(doc));
+doc.appendChild(new Section(doc));
 
 // Move a DocumentBuilder to the second section and add text.
 DocumentBuilder builder = new DocumentBuilder(doc);
-builder.MoveToSection(1);
-builder.Writeln("Text added to the 2nd section.");
+builder.moveToSection(1);
+builder.writeln("Text added to the 2nd section.");
 
 // Create document with paragraphs.
-Document doc = new Document(MyDir + "Paragraphs.docx");
-ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
-Assert.AreEqual(22, paragraphs.Count);
+doc = new Document(getMyDir() + "Paragraphs.docx");
+ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+Assert.assertEquals(22, paragraphs.getCount());
 
 // When we create a DocumentBuilder for a document, its cursor is at the very beginning of the document by default,
 // and any content added by the DocumentBuilder will just be prepended to the document.
-DocumentBuilder builder = new DocumentBuilder(doc);
-Assert.AreEqual(0, paragraphs.IndexOf(builder.CurrentParagraph));
+builder = new DocumentBuilder(doc);
+Assert.assertEquals(0, paragraphs.indexOf(builder.getCurrentParagraph()));
 
 // You can move the cursor to any position in a paragraph.
-builder.MoveToParagraph(0, 14);
-Assert.AreEqual(2, paragraphs.IndexOf(builder.CurrentParagraph)); //ExSkip
-builder.Writeln("This is a new third paragraph. ");
-Assert.AreEqual(3, paragraphs.IndexOf(builder.CurrentParagraph));
-doc = DocumentHelper.SaveOpen(doc);
-Assert.AreEqual("This is a new third paragraph.", doc.FirstSection.Body.Paragraphs[2].GetText().Trim());
+builder.moveToParagraph(0, 14);
+Assert.assertEquals(2, paragraphs.indexOf(builder.getCurrentParagraph())); //ExSkip
+builder.writeln("This is a new third paragraph. ");
+Assert.assertEquals(3, paragraphs.indexOf(builder.getCurrentParagraph()));
+doc = DocumentHelper.saveOpen(doc);
+Assert.assertEquals("This is a new third paragraph.", doc.getFirstSection().getBody().getParagraphs().get(2).getText().trim());
 {{< /highlight >}}
