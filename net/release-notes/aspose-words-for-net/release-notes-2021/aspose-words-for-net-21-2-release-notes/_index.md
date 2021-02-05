@@ -19,7 +19,7 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 - Added an option to update CreatedTimeProperty upon save.
 - SaveOptions was extended with new CustomTimeZoneInfo option.
 - FindReplaceOptions class was extended with a new SmartParagraphBreakReplacement option.
-- Make it possible to load documents from IStream object in COM applications.
+- Provided an ability to load documents from IStreamobjects in COM applications.
 
 ## Full List of Issues Covering all Changes in this Release
 
