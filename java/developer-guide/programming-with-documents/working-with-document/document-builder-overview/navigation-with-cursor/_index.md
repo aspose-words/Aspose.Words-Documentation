@@ -62,7 +62,7 @@ But besides the basic **MoveTo** method, there are more specific ones.
 
 ### Navigate to Beginning or End of a Document
 
-You can go to the beginning or  the end of your document using the [MoveToDocumentStart](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentStart()) and [MoveToDocumentEnd](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentEnd()) methods.
+You can go to the beginning or the end of your document using the [MoveToDocumentStart](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentStart()) and [MoveToDocumentEnd](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentEnd()) methods.
 
 The following code example shows how to move the cursor position to the beginning or the end of a document:
 
