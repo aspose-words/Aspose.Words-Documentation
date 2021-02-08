@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for .NET 21.2](https://www.nu
 There are 86 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented API to manipulate themed properties of Font object.
-- Added an option to update CreatedTimeProperty upon save.
+- Added an option to update CreatedTime property upon saving.
 - SaveOptions was extended with new CustomTimeZoneInfo option.
 - FindReplaceOptions class was extended with a new SmartParagraphBreakReplacement option.
 - Provided an ability to load documents from IStreamobjects in COM applications.
