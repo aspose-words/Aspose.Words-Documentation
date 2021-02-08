@@ -19,7 +19,7 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 - Added an option to update CreatedTime property upon saving.
 - SaveOptions was extended with new CustomTimeZoneInfo option.
 - FindReplaceOptions class was extended with a new SmartParagraphBreakReplacement option.
-- Provided an ability to load documents from IStreamobjects in COM applications.
+- Provided an ability to load documents from IStream objects in COM applications.
 
 ## Full List of Issues Covering all Changes in this Release
 
@@ -121,7 +121,7 @@ This section lists public API changes that were introduced in Aspose.Words 21.2.
 
 Related issue: WORDSNET-20546
 
-The following public method have been added to the ComHelper class:
+The following public method has been added to the ComHelper class:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -140,12 +140,12 @@ var
   RtfString : string;
   StringAdapter : TStreamAdapter;
   StrStream: TStringStream;
- 
+
   CoInitializeEx(nil, COINIT_MULTITHREADED);
- 
+
   RtfString := '{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil Times New Roman;}}{\colortbl ;\red255\green0\blue0;}{\*\generator Riched20 10.0.18362}\viewkind4\uc1\pard\sa200\sl264\slmult1\cf1\b\f0\fs24\lang1036 TEST\par}';
   ComHelper := CreateOleObject('Aspose.Words.ComHelper');
- 
+
   //Important! Rtf string MUST be ascii encoded.
   StrStream := TStringStream.Create(RtfString);
   StringAdapter := TStreamAdapter.Create(StrStream, soOwned);
@@ -187,24 +187,24 @@ Added a new public properties to the Font object:
 /// Gets or sets the theme font in the applied font scheme that is associated with this Font object.
 /// </summary>
 public ThemeFont ThemeFont
- 
+
 /// <summary>
 /// Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127)
 /// in the applied font scheme that is associated with this Font object.
 /// </summary>
 public ThemeFont ThemeFontAscii
- 
+
 /// <summary>
 /// Gets or sets the East Asian theme font in the applied font scheme that is associated with this Font object.
 /// </summary>
 public ThemeFont ThemeFontFarEast
- 
+
 /// <summary>
 /// Gets or sets the theme font used for characters with character codes from 128 through 255
 /// in the applied font scheme that is associated with this Font object.
 /// </summary>
 public ThemeFont ThemeFontOther
- 
+
 /// <summary>
 /// Gets or sets the theme font in the applied font scheme that is associated with this Font object
 /// in a right-to-left language document.
@@ -265,59 +265,59 @@ Document doc = new Document("input.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln();
- 
+
 // Create some style with theme font properties.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
 style.Font.TintAndShade = 0.3;
- 
+
 builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
- 
+
 // Get just inserted run.
 Run run = (Run)((Paragraph)builder.CurrentParagraph.PreviousSibling).FirstChild;
- 
+
 Console.WriteLine("Theme color: {0}", run.Font.ThemeColor);
 Console.WriteLine("Color: {0}\n", run.Font.Color);
- 
+
 Console.WriteLine("TintAndShade: {0:N2}\n", run.Font.TintAndShade);
- 
+
 Console.WriteLine("Theme font: {0}", run.Font.ThemeFont);
 Console.WriteLine("Font: {0}\n", run.Font.Name);
- 
+
 Console.WriteLine("Theme font Ascii: {0}", run.Font.ThemeFontAscii);
 Console.WriteLine("Font Ascii: {0}\n", run.Font.NameAscii);
- 
+
 Console.WriteLine("Theme font Bi: {0}", run.Font.ThemeFontBi);
 Console.WriteLine("Font Bi: {0}\n", run.Font.NameBi);
- 
+
 Console.WriteLine("Theme font EastAsian: {0}", run.Font.ThemeFontFarEast);
 Console.WriteLine("Font EastAsian: {0}\n", run.Font.NameFarEast);
- 
+
 Console.WriteLine("Theme font Other: {0}", run.Font.ThemeFontOther);
 Console.Write("Font Other: {0}", run.Font.NameOther);
- 
+
 /*
 This code example produces the following results:
- 
+
 Theme color: Accent5
 Color: Color [Empty]
- 
+
 TintAndShade: 0.30
- 
+
 Theme font: Major
 Font: Calibri Light
- 
+
 Theme font Ascii: Major
 Font Ascii: Calibri Light
- 
+
 Theme font Bi: Major
 Font Bi: Times New Roman
- 
+
 Theme font EastAsian: Major
 Font EastAsian: Times New Roman
- 
+
 Theme font Other: Major
 Font Other: Calibri Light
 */
@@ -331,81 +331,81 @@ Document doc = new Document();
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
- 
+
 // Check original theme font.
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme font is: {0}\n", font.ThemeFont);
- 
+
 // Apply theme font 'Minor'
 font.ThemeFont = ThemeFont.Minor;
 Console.WriteLine("'Minor' theme font is applied:");
 Console.WriteLine("Theme font: {0}", font.ThemeFont);
 Console.WriteLine("Font: {0}\n", font.Name);
- 
+
 Console.WriteLine("Theme font Ascii: {0}", font.ThemeFontAscii);
 Console.WriteLine("Font Ascii: {0}\n", font.NameAscii);
- 
+
 Console.WriteLine("Theme font Bi: {0}", font.ThemeFontBi);
 Console.WriteLine("Font Bi: {0}\n", font.NameBi);
- 
+
 Console.WriteLine("Theme font EastAsian: {0}", font.ThemeFontFarEast);
 Console.WriteLine("Font EastAsian: {0}\n", font.NameFarEast);
- 
+
 Console.WriteLine("Theme font Other: {0}", font.ThemeFontOther);
 Console.WriteLine("Font Other: {0}\n\n", font.NameOther);
- 
+
 // Set non-theme font.
 font.ThemeFont = ThemeFont.None;
 Console.WriteLine("'None' theme font is applied:");
 Console.WriteLine("Theme font: {0}", font.ThemeFont);
 Console.WriteLine("Font: {0}\n", font.Name);
- 
+
 Console.WriteLine("Theme font Ascii: {0}", font.ThemeFontAscii);
 Console.WriteLine("Font Ascii: {0}\n", font.NameAscii);
- 
+
 Console.WriteLine("Theme font Bi: {0}", font.ThemeFontBi);
 Console.WriteLine("Font Bi: {0}\n", font.NameBi);
- 
+
 Console.WriteLine("Theme font EastAsian: {0}", font.ThemeFontFarEast);
 Console.WriteLine("Font EastAsian: {0}\n", font.NameFarEast);
- 
+
 Console.WriteLine("Theme font Other: {0}", font.ThemeFontOther);
 Console.Write("Font Other: {0}\n", font.NameOther);
 /*
 This code example produces the following results:
- 
+
 Originally the Normal style theme font is: None
- 
+
 'Minor' theme font is applied:
 Theme font: Minor
 Font: Algerian
- 
+
 Theme font Ascii: Minor
 Font Ascii: Algerian
- 
+
 Theme font Bi: Minor
 Font Bi: Andalus
- 
+
 Theme font EastAsian: Minor
 Font EastAsian: Aharoni
- 
+
 Theme font Other: Minor
 Font Other: Algerian
- 
- 
+
+
 'None' theme font is applied:
 Theme font: None
 Font: Algerian
- 
+
 Theme font Ascii: None
 Font Ascii: Algerian
- 
+
 Theme font Bi: None
 Font Bi: Andalus
- 
+
 Theme font EastAsian: None
 Font EastAsian: Aharoni
- 
+
 Theme font Other: None
 Font Other: Algerian
 */
@@ -419,82 +419,82 @@ Document doc = new Document();
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
- 
+
 // Check original theme font.
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme font is: {0}\n", font.ThemeFont);
- 
+
 // Apply theme font 'Minor'
 font.ThemeFont = ThemeFont.Minor;
 Console.WriteLine("'Minor' theme font is applied:");
 Console.WriteLine("Theme font: {0}", font.ThemeFont);
 Console.WriteLine("Font: {0}\n", font.Name);
- 
+
 Console.WriteLine("Theme font Ascii: {0}", font.ThemeFontAscii);
 Console.WriteLine("Font Ascii: {0}\n", font.NameAscii);
- 
+
 Console.WriteLine("Theme font Bi: {0}", font.ThemeFontBi);
 Console.WriteLine("Font Bi: {0}\n", font.NameBi);
- 
+
 Console.WriteLine("Theme font EastAsian: {0}", font.ThemeFontFarEast);
 Console.WriteLine("Font EastAsian: {0}\n", font.NameFarEast);
- 
+
 Console.WriteLine("Theme font Other: {0}", font.ThemeFontOther);
 Console.WriteLine("Font Other: {0}\n\n", font.NameOther);
- 
+
 // Set non-theme font name.
 font.Name = "Arial";
 Console.WriteLine("Non-themed font name is applied:");
 Console.WriteLine("Theme font: {0}", font.ThemeFont);
 Console.WriteLine("Font: {0}\n", font.Name);
- 
+
 Console.WriteLine("Theme font Ascii: {0}", font.ThemeFontAscii);
 Console.WriteLine("Font Ascii: {0}\n", font.NameAscii);
- 
+
 Console.WriteLine("Theme font Bi: {0}", font.ThemeFontBi);
 Console.WriteLine("Font Bi: {0}\n", font.NameBi);
- 
+
 Console.WriteLine("Theme font EastAsian: {0}", font.ThemeFontFarEast);
 Console.WriteLine("Font EastAsian: {0}\n", font.NameFarEast);
- 
+
 Console.WriteLine("Theme font Other: {0}", font.ThemeFontOther);
 Console.Write("Font Other: {0}", font.NameOther);
- 
+
 /*
 This code example produces the following results:
- 
+
 Originally the Normal style theme font is: None
- 
+
 'Minor' theme font is applied:
 Theme font: Minor
 Font: Algerian
- 
+
 Theme font Ascii: Minor
 Font Ascii: Algerian
- 
+
 Theme font Bi: Minor
 Font Bi: Andalus
- 
+
 Theme font EastAsian: Minor
 Font EastAsian: Aharoni
- 
+
 Theme font Other: Minor
 Font Other: Algerian
- 
- 
+
+
 Non-themed font name is applied:
 Theme font: None
 Font: Arial
- 
+
 Theme font Ascii: None
 Font Ascii: Arial
- 
+
 Theme font Bi: None
 Font Bi: Arial
- 
+
 Theme font EastAsian: None
 Font EastAsian: Arial
- 
+
 Theme font Other: None
 Font Other: Arial
 */
@@ -504,17 +504,17 @@ Use Case: Explains how to change non-theme color to the theme color and vice ver
 
 {{< highlight csharp >}}
 Document doc = new Document();
- 
+
 // Check original theme color.
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
- 
+
 // Apply theme color.
 font.ThemeColor = ThemeColor.Accent2;
 Console.WriteLine("'Accent2' theme color is applied:");
 Console.WriteLine("Theme color: {0}", font.ThemeColor);
 Console.WriteLine("RGB color: {0}\n", font.Color);
- 
+
 // Set theme color back to 'None'.
 font.ThemeColor = ThemeColor.None;
 Console.WriteLine("Theme color 'None' is applied:");
@@ -522,13 +522,13 @@ Console.WriteLine("Theme color: {0}", font.ThemeColor);
 Console.WriteLine("RGB color: {0}", font.Color);
 /*
 This code example produces the following results:
- 
+
 Originally the Normal style theme color is: None and RGB color is: Color [Empty]
- 
+
 'Accent2' theme color is applied:
 Theme color: Accent2
 RGB color: Color [Empty]
- 
+
 Theme color 'None' is applied:
 Theme color: None
 RGB color: Color [Empty]
@@ -539,17 +539,17 @@ Use Case: Explains how to change non-theme font name to the themed one and vice 
 
 {{< highlight csharp >}}
 Document doc = new Document();
- 
+
 // Check original theme color.
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
- 
+
 // Apply theme color.
 font.ThemeColor = ThemeColor.Accent2;
 Console.WriteLine("'Accent2' theme color is applied:");
 Console.WriteLine("Theme color: {0}", font.ThemeColor);
 Console.WriteLine("RGB color: {0}\n", font.Color);
- 
+
 // Set simple RGB color.
 font.Color = Color.Blue;
 font.ThemeColor = ThemeColor.None;
@@ -558,13 +558,13 @@ Console.WriteLine("Theme color: {0}", font.ThemeColor);
 Console.WriteLine("RGB color: {0}", font.Color);
 /*
 This code example produces the following results:
- 
+
 Originally the Normal style theme color is: None and RGB color is: Color [Empty]
- 
+
 'Accent2' theme color is applied:
 Theme color: Accent2
 RGB color: Color [Empty]
- 
+
 RGB color is applied:
 Theme color: None
 RGB color: Color [A=255, R=0, G=0, B=255]
@@ -576,16 +576,16 @@ Use Case: Explains how to use Font.TintAndShade property.
 {{< highlight csharp >}}
 Document doc = new Document();
 Font font = doc.Styles["Normal"].Font;
- 
+
 font.ThemeColor = ThemeColor.Accent6;
 font.TintAndShade = -0.25;
- 
+
 Console.WriteLine("TintAndShade is set to {0:N2}", font.TintAndShade);
 Console.WriteLine("Theme color: {0}", font.ThemeColor);
 Console.WriteLine("RGB color: {0}", font.Color);
 /*
 This code example produces the following results:
- 
+
 TintAndShade is set to -0.25
 Theme color: Accent6
 RGB color: Color [Empty]
@@ -616,7 +616,7 @@ Use Case: Explains how to use SmartParagraphBreakReplacement property.
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 // Create two tables with paragraph and inner table in first cell:
 // ┌───────────────────────┐
 // │ TEXT1¶                │
@@ -630,7 +630,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // │ |¶                  | |
 // | └───────────────────┘ │
 // └───────────────────────┘
- 
+
 builder.StartTable();
 builder.InsertCell();
 builder.Write("TEXT1");
@@ -639,7 +639,7 @@ builder.InsertCell();
 builder.EndTable();
 builder.EndTable();
 builder.Writeln();
- 
+
 builder.StartTable();
 builder.InsertCell();
 builder.Write("TEXT2");
@@ -648,28 +648,28 @@ builder.InsertCell();
 builder.EndTable();
 builder.EndTable();
 builder.Writeln();
- 
+
 FindReplaceOptions options = new FindReplaceOptions();
 // When the following option is set to 'true',
 // Aspose.Words will remove paragraph's text completely with its paragraph mark.
 options.SmartParagraphBreakReplacement = true;
 doc.Range.Replace(new Regex(@"TEXT1&p"), "", options);
- 
+
 // But if the option is set to 'false',
 // Aspose.Words will mimic Word and remove only paragraph's text and leaves the paragraph mark intact.
 options.SmartParagraphBreakReplacement = false;
 doc.Range.Replace(new Regex(@"TEXT2&p"), "", options);
- 
+
 doc.Save("out.docx");
- 
+
 // This code example produces the following results:
- 
+
 // ┌───────────────────────┐
 // │ ┌───────────────────┐ │
 // │ |¶                  | |
 // | └───────────────────┘ │
 // └───────────────────────┘
- 
+
 // ┌───────────────────────┐
 // │ ¶                     │
 // │ ┌───────────────────┐ │
@@ -690,10 +690,10 @@ Use Case:
 
 {{< highlight csharp >}}
 Document doc = new Document("DocumentContainingSdtDate.docx");
- 
+
 SaveOptions so = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 so.CustomTimeZoneInfo = TimeZoneInfo.CreateCustomTimeZone("Auckland", new TimeSpan(+13 /* New Zeland - Auckland */, 0, 0), "Auckland", "Auckland");
- 
+
 // SdtType.Date content control value will be adjusted to Auckland timezone regardless of which system local timezone set.
 doc.Save("output.pdf", so);
 {{< /highlight >}}
@@ -724,7 +724,7 @@ Now the methods DocumentBuilder.MoveToParagraph and DocumentBuilder.MoveToCell s
 /// A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of
 /// the paragraph.</param>
 public void MoveToParagraph(int paragraphIndex, int characterIndex);
- 
+
 /// <summary>
 /// Moves the cursor to a table cell in the current section.
 /// </summary>
@@ -748,20 +748,20 @@ Use Case:
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 builder.Writeln("Allows moving to any position in a paragraph.");
- 
+
 builder.MoveToParagraph(0, 14);
 builder.Font.Bold = true;
 builder.Write("the cursor ");
- 
+
 builder.MoveToParagraph(0, -2);
 builder.Font.Italic = true;
 builder.Write(" or cell");
- 
+
 Paragraph paragraph = doc.FirstSection.Body.Paragraphs[0];
 Console.Write(paragraph.GetText()); // Writes: Allows moving the cursor to any position in a paragraph or cell.
- 
+
 doc.Save(dir + "Out.docx");
 {{< /highlight >}}
 
