@@ -36,38 +36,38 @@ You can insert documents while performing find and replace operations. For examp
 
 The following code example shows how to create a handler for the replacing event to use it later in the inserting process:
 
-{{< highlight csharp >}}
-private class InsertDocumentAtReplaceHandler : IReplacingCallback
+{{< highlight java >}}
+private class InsertDocumentAtReplaceHandler implements IReplacingCallback
 {
-	ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)
-	{
-		Document subDoc = new Document(MyDir + "Document.docx");
+    public int replacing(ReplacingArgs args) throws Exception
+    {
+        Document subDoc = new Document(getMyDir() + "Document.docx");
 
-		// Insert a document after the paragraph, containing the match text.
-		Paragraph para = (Paragraph)args.MatchNode.ParentNode;
-		InsertDocument(para, subDoc);
-	
-		// Remove the paragraph with the match text.
-		para.Remove();
-		return ReplaceAction.Skip;
-	}
+        // Insert a document after the paragraph, containing the match text.
+        Paragraph para = (Paragraph)args.getMatchNode().getParentNode();
+        insertDocument(para, subDoc);
+
+        // Remove the paragraph with the match text.
+        para.remove();
+        return ReplaceAction.SKIP;
+    }
 }
 {{< /highlight >}}
 
 The following code example shows how insert content of one document into another during a find and replace operation:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Upload the document.
-Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
+Document mainDoc = new Document(getMyDir() + "Document insertion destination.docx");
 
 // Set find and replace options.
 FindReplaceOptions options = new FindReplaceOptions();
-options.Direction = FindReplaceDirection.Backward;
-options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
+options.setDirection(FindReplaceDirection.BACKWARD);
+options.setReplacingCallback(new InsertDocumentAtReplaceHandler());
 
 // Call the replace method.
-mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
-mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+mainDoc.getRange().replace("\\[MY_DOCUMENT\\]", "", options);
+mainDoc.save(getArtifactsDir() + "InsertDocument.InsertDocumentAtReplace.docx");
 {{< /highlight >}}
 
 ### Insert a Document During Mail Merge Operation
@@ -76,51 +76,51 @@ You can insert a document into a merge field during a mail merge operation. For 
 
 The following code example shows how to create a handler for the merging event to use it later in the inserting process:
 
-{{< highlight csharp >}}
-private class InsertDocumentAtMailMergeHandler : IFieldMergingCallback
+{{< highlight java >}}
+private class InsertDocumentAtMailMergeHandler implements IFieldMergingCallback
 {
-	// This handler makes special processing for the "Document_1" field.
-	// The field value contains the path to load the document. 
-	// We load the document and insert it into the current merge field.
-	void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
-	{
-		if (args.DocumentFieldName == "Document_1")
-		{
-			// Use document builder to navigate to the merge field with the specified name.
-			DocumentBuilder builder = new DocumentBuilder(args.Document);
-			builder.MoveToMergeField(args.DocumentFieldName);
+    // This handler makes special processing for the "Document_1" field.
+    // The field value contains the path to load the document.
+    // We load the document and insert it into the current merge field.
+    public void fieldMerging(FieldMergingArgs args) throws Exception
+    {
+        if ("Document_1".equals(args.getDocumentFieldName()))
+        {
+            // Use document builder to navigate to the merge field with the specified name.
+            DocumentBuilder builder = new DocumentBuilder(args.getDocument());
+            builder.moveToMergeField(args.getDocumentFieldName());
 
-			// The name of the document to load and insert is stored in the field value.
-			Document subDoc = new Document((string)args.FieldValue);
-	
-			// Insert the document.
-			InsertDocument(builder.CurrentParagraph, subDoc);
-	
-			// The paragraph that contained the merge field might be empty now and you probably want to delete it.
-			if (!builder.CurrentParagraph.HasChildNodes)
-				builder.CurrentParagraph.Remove();
-	
-			// Indicate to the mail merge engine that we have inserted what we wanted.
-			args.Text = null;
-		}
-	}
+            // The name of the document to load and insert is stored in the field value.
+            Document subDoc = new Document((String)args.getFieldValue());
+
+            // Insert the document.
+            insertDocument(builder.getCurrentParagraph(), subDoc);
+
+            // The paragraph that contained the merge field might be empty now and you probably want to delete it.
+            if (!builder.getCurrentParagraph().hasChildNodes())
+                builder.getCurrentParagraph().remove();
+
+            // Indicate to the mail merge engine that we have inserted what we wanted.
+            args.setText(null);
+        }
+    }
 }
 {{< /highlight >}}
 
 The following code example shows how to insert a document into the merge field using the created handler:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Open the main document.
-Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
+Document mainDoc = new Document(getMyDir() + "Document insertion destination.docx");
 
 // Add a handler to MergeField event.
-mainDoc.MailMerge.FieldMergingCallback = new InsertDocumentAtMailMergeHandler();
+mainDoc.getMailMerge().setFieldMergingCallback(new InsertDocumentAtMailMergeHandler());
 
 // The main document has a merge field in it called "Document_1".
 // The corresponding data for this field contains fully qualified path to the document
 // that should be inserted to this field.
-mainDoc.MailMerge.Execute(new string[] { "Document_1" }, new object[] { MyDir + "Document.docx" });
-mainDoc.Save(ArtifactsDir + "InsertDocument.InsertAtMailMerge.docx");
+mainDoc.getMailMerge().execute(new String[] { "Document_1" }, new Object[] { getMyDir() + "Document.docx" });
+mainDoc.save(getArtifactsDir() + "InsertDocument.InsertAtMailMerge.docx");
 {{< /highlight >}}
 
 ### Insert a Document at Bookmark
@@ -129,15 +129,15 @@ You can import a text file into a document and insert it right after a bookmark 
 
 The following coding example shows how to insert the contents of one document to a bookmark in another document:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Load a Document.
-Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
-Document docToInsert = new Document(MyDir + "Document.docx");
+Document mainDoc = new Document(getMyDir() + "Document insertion destination.docx");
+Document docToInsert = new Document(getMyDir() + "Document.docx");
 
 // Inset the document at the bookmark.
-Bookmark bookmark = mainDoc.Range.Bookmarks["insertionPlace"];
-InsertDocument(bookmark.BookmarkStart.ParentNode, docToInsert);
-mainDoc.Save(ArtifactsDir + "InsertDocument.InsertAtBookmark.docx");
+Bookmark bookmark = mainDoc.getRange().getBookmarks().get("insertionPlace");
+insertDocument(bookmark.getBookmarkStart().getParentNode(), docToInsert);
+mainDoc.save(getArtifactsDir() + "InsertDocument.InsertAtBookmark.docx");
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
@@ -158,21 +158,21 @@ Note that [AppendChild](https://apireference.aspose.com/words/cpp/class/aspose.w
 
 The following code example shows how to append a document to the end of another document:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // The document that the content will be appended to.
 Document dstDoc = new Document();
-dstDoc.FirstSection.Body.AppendParagraph("Destination document text. ");
+dstDoc.getFirstSection().getBody().appendParagraph("Destination document text. ");
 
 // The document to append.
 Document srcDoc = new Document();
-srcDoc.FirstSection.Body.AppendParagraph("Source document text. ");
+srcDoc.getFirstSection().getBody().appendParagraph("Source document text. ");
 
 // Append the source document to the destination document.
 // Pass format mode to retain the original formatting of the source document when importing it.
-dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
+dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 // Save the document.
-dstDoc.Save(ArtifactsDir + "Document.AppendDocument.docx");
+dstDoc.save(getArtifactsDir() + "Document.AppendDocument.docx");
 {{< /highlight >}}
 
 ## Import and Insert Nodes Manually
@@ -185,57 +185,57 @@ You can also use the [AppendChild](https://apireference.aspose.com/words/cpp/cla
 
 The following code example shows how to insert document content into another document using the **InsertDocument** method:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Upload a Document.
-Document doc = new Document(MyDir + "Document.docx");
+Document doc = new Document(getMyDir() + "Document.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
-builder.MoveToDocumentEnd();
-builder.InsertBreak(BreakType.PageBreak);
+builder.moveToDocumentEnd();
+builder.insertBreak(BreakType.PAGE_BREAK);
 
 // Insert a document using the InsertDocument method.
-Document docToInsert = new Document(MyDir + "Formatted elements.docx");
-builder.InsertDocument(docToInsert, ImportFormatMode.KeepSourceFormatting);
-builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
+Document docToInsert = new Document(getMyDir() + "Formatted elements.docx");
+builder.insertDocument(docToInsert, ImportFormatMode.KEEP_SOURCE_FORMATTING);
+builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.InsertDocument.docx");
 {{< /highlight >}}
 
 The following code example shows how to manually import nodes and insert them after a specific node using the **InsertAfter** method:
 
-{{< highlight csharp >}}
-public void InsertDocument(Node insertionDestination, Document docToInsert)
+{{< highlight java >}}
+public void insertDocument(Node insertionDestination, Document docToInsert)
 {
-	// Make sure that the node is either a paragraph or table.
-	if (insertionDestination.NodeType.Equals(NodeType.Paragraph) || insertionDestination.NodeType.Equals(NodeType.Table))
-	{
-		// We will be inserting into the parent of the destination paragraph.
-		CompositeNode dstStory = insertionDestination.ParentNode;
+    // Make sure that the node is either a paragraph or table.
+    if (((insertionDestination.getNodeType()) == (NodeType.PARAGRAPH)) || ((insertionDestination.getNodeType()) == (NodeType.TABLE)))
+    {
+        // We will be inserting into the parent of the destination paragraph.
+        CompositeNode dstStory = insertionDestination.getParentNode();
 
-		// This object will be translating styles and lists during the import.
-		NodeImporter importer = new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
-	
-		// Loop through all block level nodes in the body of the section
-		foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
-			foreach (Node srcNode in srcSection.Body)
-			{
-				// Let's skip the node if it is a last empty paragraph in a section
-				if (srcNode.NodeType.Equals(NodeType.Paragraph))
-				{
-					Paragraph para = (Paragraph)srcNode;
-					if (para.IsEndOfSection && !para.HasChildNodes)
-						continue;
-				}
-	
-				// This creates a clone of the node, suitable for insertion into the destination document.
-				Node newNode = importer.ImportNode(srcNode, true);
-				
-				// Insert new node after the reference node.
-				dstStory.InsertAfter(newNode, insertionDestination);
-				insertionDestination = newNode;
-			}
-	}
-	else
-	{
-		throw new ArgumentException("The destination node should be either a paragraph or table.");
-	}
+        // This object will be translating styles and lists during the import.
+        NodeImporter importer = new NodeImporter(docToInsert, insertionDestination.getDocument(), ImportFormatMode.KEEP_SOURCE_FORMATTING);
+
+        // Loop through all block level nodes in the body of the section
+        for (Section srcSection : docToInsert.getSections().toArray())
+            for (Node srcNode : srcSection.getBody())
+            {
+                // Let's skip the node if it is a last empty paragraph in a section
+                if (((srcNode.getNodeType()) == (NodeType.PARAGRAPH)))
+                {
+                    Paragraph para = (Paragraph)srcNode;
+                    if (para.isEndOfSection() && !para.hasChildNodes())
+                        continue;
+                }
+
+                // This creates a clone of the node, suitable for insertion into the destination document.
+                Node newNode = importer.importNode(srcNode, true);
+
+                // Insert new node after the reference node.
+                dstStory.insertAfter(newNode, insertionDestination);
+                insertionDestination = newNode;
+            }
+    }
+    else
+    {
+        throw new IllegalArgumentException("The destination node should be either a paragraph or table.");
+    }
 }
 {{< /highlight >}}
 
@@ -261,36 +261,36 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
-{{< highlight csharp >}}
-string dataDir = RunExamples.GetDataDir_JoiningAndAppending();
-string fileName = "TestFile.DestinationList.doc";
+{{< highlight java >}}
+String dataDir = RunExamples.GetDataDir_JoiningAndAppending();
+String fileName = "TestFile.DestinationList.doc";
 
 Document dstDoc = new Document(dataDir + fileName);
 Document srcDoc = new Document(dataDir + "TestFile.Source.doc");
 
 // Set the source document to appear straight after the destination document's content.
-srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.Continuous;
+srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 
 // Restart the page numbering on the start of the source document.
-srcDoc.FirstSection.PageSetup.RestartPageNumbering = true;
-srcDoc.FirstSection.PageSetup.PageStartingNumber = 1;
+srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
+srcDoc.getFirstSection().getPageSetup().setPageStartingNumber(1);
 
 // To ensure this does not happen when the source document has different page setup settings make sure the Settings are
 // identical between the last section of the destination document. If there are further continuous sections tha
-// follow on in the source document then this will need to be Repeated for those sections as well. 
-srcDoc.FirstSection.PageSetup.PageWidth = dstDoc.LastSection.PageSetup.PageWidth;
-srcDoc.FirstSection.PageSetup.PageHeight = dstDoc.LastSection.PageSetup.PageHeight;
-srcDoc.FirstSection.PageSetup.Orientation = dstDoc.LastSection.PageSetup.Orientation;
+// follow on in the source document then this will need to be Repeated for those sections as well.
+srcDoc.getFirstSection().getPageSetup().setPageWidth(dstDoc.getLastSection().getPageSetup().getPageWidth());
+srcDoc.getFirstSection().getPageSetup().setPageHeight(dstDoc.getLastSection().getPageSetup().getPageHeight());
+srcDoc.getFirstSection().getPageSetup().setOrientation(dstDoc.getLastSection().getPageSetup().getOrientation());
 
 // Iterate through all sections in the source document.
-foreach (Paragraph para in srcDoc.GetChildNodes(NodeType.Paragraph, true))
+for (Paragraph para : (Iterable<Paragraph>) srcDoc.getChildNodes(NodeType.PARAGRAPH, true))
 {
-	para.ParagraphFormat.KeepWithNext = true;
+    para.getParagraphFormat().setKeepWithNext(true);
 }
 
-dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
+dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 dataDir = dataDir + RunExamples.GetOutputFilePath(fileName);
-dstDoc.Save(dataDir);
+dstDoc.save(dataDir);
 {{< /highlight >}}
 
 ## Common Problems and Solutions
