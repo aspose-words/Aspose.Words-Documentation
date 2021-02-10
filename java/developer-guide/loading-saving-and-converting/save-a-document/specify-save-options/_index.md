@@ -41,6 +41,24 @@ The following code example shows how to load and save OpenDocument encrypted wit
 
 Not all formats support encryption and the use of **Password** property.
 
+## Update the Document Creation Time
+
+Aspose.Words provides an ability to use the [CreatedTime](https://apireference.aspose.com/words/java/com.aspose.words/BuiltInDocumentProperties#CreatedTime) property to get or set the document creation date in UTC. You can also update this value before saving using the [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateCreatedTimeProperty) option.
+
+The following code example shows how to update the document creation time:
+
+{{< highlight java >}}
+// Create a document.
+Document doc = new Document(docPath);
+
+// Set an option to update the document creation time.
+SaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.UpdateLastPrintedProperty = true;
+
+// Save the document.
+doc.Save(pdfPath, saveOptions);
+{{< /highlight >}}
+
 ## Update Last Saved Property
 
 Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property to gets or sets a value determining whether the [LastSavedTime](https://apireference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#LastSavedTime) property is updated before saving.

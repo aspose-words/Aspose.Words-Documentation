@@ -18,7 +18,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 - Optimized "throws Exception" clauses in public API.
 - Harfbazz improvements, XmlDataSource fixes.
 - Make it possible to load documents from IStream object in COM applications.
-- Added an option to update CreatedTimeProperty upon save.
+- Added an option to update CreatedTime property upon saving.
 - Implemented API to manipulate themed properties of Font object.
 - FindReplaceOptions class was extended with a new useful option.
 
@@ -792,4 +792,5 @@ public bool IsPageNumberOmittingLevelRangeSpecified { get; }
 
 Related issue: WORDSNET-21363
 
-The ["Adding Combobox and Dropdown List Items Dynamically"](/words/net/linq-reporting-engine/) section of the engine's documentation was updated to describe the change.
+The ["Adding Combobox and Dropdown List Items Dynamically"](/words/net/working-with-content-controls/#adding-combobox-and-dropdown-list-items-dynamically) section of the engine's documentation was updated to describe the change.
+
