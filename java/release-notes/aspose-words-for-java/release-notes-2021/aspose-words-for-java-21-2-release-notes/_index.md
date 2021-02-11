@@ -792,5 +792,5 @@ public bool IsPageNumberOmittingLevelRangeSpecified { get; }
 
 Related issue: WORDSNET-21363
 
-The ["Adding Combobox and Dropdown List Items Dynamically"](/words/net/working-with-content-controls/#adding-combobox-and-dropdown-list-items-dynamically) section of the engine's documentation was updated to describe the change.
+The ["Adding Combobox and Dropdown List Items Dynamically"](/words/java/working-with-content-controls/#adding-combobox-and-dropdown-list-items-dynamically) section of the engine's documentation was updated to describe the change.
 

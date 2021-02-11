@@ -61,7 +61,7 @@ doc.Save(pdfPath, saveOptions);
 
 ## Update Last Saved Property
 
-Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property to gets or sets a value determining whether the [LastSavedTime](https://apireference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#LastSavedTime) property is updated before saving.
+Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property to get or set a value determining whether the [LastSavedTime](https://apireference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#LastSavedTime) property is updated before saving.
 
 The following code example shows how to set this property and save the document:
 
