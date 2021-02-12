@@ -1,25 +1,26 @@
 ---
-title: Aspose.Words for .NET 21.2 Release Notes
+title: Aspose.Words for Java 21.2 Release Notes
 type: docs
-weight: 60
-url: /net/aspose-words-for-net-21-2-release-notes/
+weight: 11
+url: /java/aspose-words-for-java-21-2-release-notes/
 ---
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for .NET 21.2](https://www.nuget.org/packages/Aspose.Words/21.2.0).
+This page contains release notes for [Aspose.Words for Java 21.2](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/21.2).
 
 {{% /alert %}} 
 
 ## Major Features
 
-There are 86 improvements and fixes in this regular monthly release. The most notable are:
+There are 97 improvements and fixes in this regular monthly release. The most notable are:
 
-- Implemented API to manipulate themed properties of Font object.
+- Optimized "throws Exception" clauses in public API.
+- Harfbazz improvements, XmlDataSource fixes.
+- Make it possible to load documents from IStream object in COM applications.
 - Added an option to update CreatedTime property upon saving.
-- SaveOptions was extended with new CustomTimeZoneInfo option.
-- FindReplaceOptions class was extended with a new SmartParagraphBreakReplacement option.
-- Provided an ability to load documents from IStream objects in COM applications.
+- Implemented API to manipulate themed properties of Font object.
+- FindReplaceOptions class was extended with a new useful option.
 
 ## Full List of Issues Covering all Changes in this Release
 
@@ -41,6 +42,17 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-2799 | Try to recover damaged documents on import | Enhancement |
 | WORDSNET-1738 | Optimize memory usage during saving DOCX files | Enhancement |
 | WORDSNET-21652 | No generator name is written to XamlFixed/XamlFlow/XamlFlowPack/HtmlFixed   documents | Enhancement |
+| WORDSJAVA-2433 | IllegalStateException while building report with XmlDataSource | Bug |
+| WORDSJAVA-2488 | Unable to merge region from XML data | Bug |
+| WORDSJAVA-2492 | TOC not being updated correctly on Ubuntu | Bug |
+| WORDSJAVA-2500 | Json: nested property with xmlns prefix doesn't read. | Bug |
+| WORDSJAVA-2509 | com.aspose.words.FileCorruptedException upon converting a DOC to HTML   Fixed | Bug |
+| WORDSJAVA-2510 | (HarfBazz) Khmer text with KhmerOS font shapes incorrectly | Bug |
+| WORDSJAVA-2512 | JsonDataSource throws java.lang.NullPointerException | Bug |
+| WORDSJAVA-2513 | (Harfbazz) Buffer.guessSegmentProperties() does nothing | Bug |
+| WORDSJAVA-2515 | Metered.SetMeteredKey Method wrongly reports Data related to Metering | Bug |
+| WORDSJAVA-2522 | Remove spare "throws Exception"clauses from public API | Bug |
+| WORDSJAVA-2525 | Every method Aspose.Words lib now has a throws Exception clause? | Bug |
 | WORDSNET-21635 | Unable to load an ODT file when targeting .NET framework 2.0 | Bug |
 | WORDSNET-21470 | System.NullReferenceException is thrown while saving OfficeMath to String | Bug |
 | WORDSNET-21640 | Hidden runs located in a Structured Document tag cannot be iterated | Bug |
@@ -780,4 +792,5 @@ public bool IsPageNumberOmittingLevelRangeSpecified { get; }
 
 Related issue: WORDSNET-21363
 
-The ["Adding Combobox and Dropdown List Items Dynamically"](/words/net/working-with-content-controls/#adding-combobox-and-dropdown-list-items-dynamically) section of the engine's documentation was updated to describe the change.
+The ["Adding Combobox and Dropdown List Items Dynamically"](/words/java/working-with-content-controls/#adding-combobox-and-dropdown-list-items-dynamically) section of the engine's documentation was updated to describe the change.
+

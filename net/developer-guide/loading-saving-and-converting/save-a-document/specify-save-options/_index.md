@@ -38,9 +38,27 @@ The following code example shows how to load and save OpenDocument encrypted wit
 
 Not all formats support encryption and the use of **Password** property.
 
+## Update the Document Creation Time
+
+Aspose.Words provides an ability to use the [CreatedTime](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/createdtime) property to get or set the document creation date in UTC. You can also update this value before saving using the [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatecreatedtimeproperty) option.
+
+The following code example shows how to update the document creation time:
+
+{{< highlight csharp >}}
+// Create a document.
+Document doc = new Document(docPath);
+
+// Set an option to update the document creation time.
+SaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.UpdateLastPrintedProperty = true;
+
+// Save the document.
+doc.Save(pdfPath, saveOptions);
+{{< /highlight >}}
+
 ## Update Last Saved Property
 
-Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastsavedtimeproperty) property to gets or sets a value determining whether the [LastSavedTime](https://apireference.aspose.com/net/words/aspose.words.properties/builtindocumentproperties/properties/lastsavedtime) property is updated before saving.
+Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastsavedtimeproperty) property to get or set a value determining whether the [LastSavedTime](https://apireference.aspose.com/net/words/aspose.words.properties/builtindocumentproperties/properties/lastsavedtime) property is updated before saving.
 
 The following code example shows how to set this property and save the document:
 

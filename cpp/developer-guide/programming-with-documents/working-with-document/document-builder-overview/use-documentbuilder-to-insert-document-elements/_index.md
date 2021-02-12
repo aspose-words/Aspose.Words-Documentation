@@ -5,35 +5,9 @@ weight: 80
 url: /cpp/use-documentbuilder-to-insert-document-elements/
 ---
 
-{{% alert color="primary" %}} 
-
-This section describes how to use the DocumentBuilder class to easily generate documents or insert rich content and formatting.
-
-{{% /alert %}} 
-
-## DocumentBuilder Overview
-
-DocumentBuilder is a powerful class that is associated with a Document and allows dynamic document building from scratch or the addition of new elements to an existing document. It provides methods to insert text, checkbox, ole object, paragraphs, lists, tables, images and other contents, the specification of font, paragraph, and section formatting, and other things. Using DocumentBuilder is somewhat similar in concept to using the StringBuilder class of the .NET Framework.
-
-DocumentBuilder complements classes and methods available in the Aspose.Words Document Object Model by simplifying most common document building tasks, such as inserting text, checkbox, ole object, tables, fields and hyperlinks.
-
-Everything that is possible with DocumentBuilder is also possible when using the classes of the Aspose.Words Document Object Model directly, but using Aspose.Words DOM classes directly usually require more lines of code than using DocumentBuilder.
-
-DocumentBuilder has an internal cursor that you can navigate to a different location in a document using various **DocumentBuilder.MoveToXXX** methods such as DocumentBuilder.MoveToDocumentStart and DocumentBuilder.MoveToField .
-
-You can insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using any of **DocumentBuilder.InsertXXX** methods such as DocumentBuilder.InsertField , DocumentBuilder.InsertHtml and other similar methods.
-
-Aspose.Words API provides several classes responsible for different document elements’ formatting. Each of the classes encapsulates a number of formatting properties related to a particular document element such as text, paragraph, section, and so on. For example, the Font class represents character formatting properties, the ParagraphFormat class represents paragraph formatting properties etc. The objects of these classes are returned by the corresponding **DocumentBuilder** properties (that have the same names as the classes) so you can access them and set the desired formatting during the document build.
-
-To start, you need to create a **DocumentBuilder** and associate it with a **Document** object. Create a new instance of DocumentBuilder by calling its constructor and pass to it a Document object for attachment to the builder. Below example shows how to create a simple document using a document builder.
-
-{{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Comments-AddComments-CreateSimpleDocumentUsingDocumentBuilder.cpp" >}}
-
-## Inserting Document Elements
-
 The DocumentBuilder is used to modify documents. This article explains and describes how to perform a number of tasks:
 
-### Inserting a String of Text
+## Inserting a String of Text
 
 Simply pass the string of text you need to insert into the document to the DocumentBuilder.Write method. Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, colour, and so on). Some important font attributes are also represented by DocumentBuilder properties to allow you to access them directly. These are Boolean properties Font.Bold, Font.Italic, and Font.Underline.
 
@@ -43,13 +17,13 @@ Below example Inserts formatted text using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-WriteAndFont-WriteAndFont.cpp" >}}
 
-### Inserting a Paragraph
+## Inserting a Paragraph
 
 DocumentBuilder.Writeln inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the DocumentBuilder.Font property and current paragraph formatting is determined by the DocumentBuilder.ParagraphFormat property. Below example shows how to insert a paragraph into the document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cpp" >}}
 
-### Inserting a Table
+## Inserting a Table
 
 The basic algorithm for creating a table using DocumentBuilder is simple:
 
@@ -61,33 +35,33 @@ The basic algorithm for creating a table using DocumentBuilder is simple:
 1. Repeat steps 2 - 5 until the table is complete.
 1. Call DocumentBuilder.EndTable to finish the table building. The appropriate DocumentBuilder table creation methods are described below.
 
-#### Starting a Table
+### Starting a Table
 
 Calling DocumentBuilder.StartTable is the first step in building a table. It can be also called inside a cell, in which case it starts a nested table. The next method to call is DocumentBuilder.InsertCell.
 
-#### Inserting a Cell
+### Inserting a Cell
 
 After you call DocumentBuilder->InsertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder->InsertCell again. Use the DocumentBuilder.CellFormat property to specify cell formatting. It returns a CellFormat object that represents all formatting for a table cell.
 
-#### Ending a Row
+### Ending a Row
 
 Call DocumentBuilder.EndRow to finish the current row. If you call DocumentBuilder->InsertCell immediately after that, then the table continues on a new row.
 
 Use the DocumentBuilder.RowFormat property to specify row formatting. It returns a RowFormat object that represents all formatting for a table row.
 
-#### Ending a Table
+### Ending a Table
 
 Call DocumentBuilder.EndTable to finish the current table. This method should be called only once after DocumentBuilder->EndRow was called. When called, DocumentBuilder.EndTable moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderBuildTable-DocumentBuilderBuildTable.cpp" >}}
 
-### Inserting a Break
+## Inserting a Break
 
 If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example shows how to insert page breaks into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.cpp" >}}
 
-### Inserting an Image
+## Inserting an Image
 
 DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
 
@@ -98,19 +72,19 @@ DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage�
 - Inline or floating at a specific position, for example, DocumentBuilder->InsertImage.
 - Percentage scale or custom size, for example, DocumentBuilder.InsertImage.Furthermore the DocumentBuilder->InsertImage method returns a Shape object that was just created and inserted so you can further modify properties of the Shape.
 
-#### Inserting an Inline Image
+### Inserting an Inline Image
 
 Pass a single string representing a file that contains the image to DocumentBuilder->InsertImage to insert the image into the document as an inline graphics. Below example shows how to insert an inline image at the cursor position into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertInlineImage.cpp" >}}
 
-#### Inserting a Floating (Absolutely Positioned) Image
+### Inserting a Floating (Absolutely Positioned) Image
 
 This example inserts a floating image from a file or URL at a specified position and size.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertFloatingImage.cpp" >}}
 
-### Inserting a Bookmark
+## Inserting a Bookmark
 
 To insert a bookmark into the document, you should do the following:
 
@@ -129,59 +103,59 @@ Below example shows how to insert a bookmark into a document using a document bu
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertBookmark-DocumentBuilderInsertBookmark.cpp" >}}
 
-### Inserting a Form Field
+## Inserting a Form Field
 
 Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: DocumentBuilder.InsertTextInput , DocumentBuilder->InsertCheckBox, and DocumentBuilder.InsertComboBox. Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-#### Inserting a Text Input
+### Inserting a Text Input
 
 DocumentBuilder.InsertTextInput to insert a textbox into the document. Below example shows how to insert a text input form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertTextInputFormField.cpp" >}}
 
-#### Inserting a Check Box
+### Inserting a Check Box
 
 Call DocumentBuilder.InsertCheckBox to insert a checkbox into the document. Below example shows how to insert a checkbox form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertCheckBoxFormField.cpp" >}}
 
-#### Inserting a Combo Box
+### Inserting a Combo Box
 
 Call DocumentBuilder.InsertComboBox to insert a combo box into the document. Below example shows how to insert a combo box form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertComboBoxFormField.cpp" >}}
 
-### Inserting Locale at Field Level
+## Inserting Locale at Field Level
 
 Customers can specify Locale at field level now and can achieve better control. Locale Ids can be associated with each field inside the DocumentBuilder. The examples below illustrate how to make use of this option.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.cpp" >}}
 
-### Inserting a Hyperlink
+## Inserting a Hyperlink
 
 Use DocumentBuilder.InsertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.InsertHyperlink internally calls DocumentBuilder.InsertField.The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property. Below example inserts a hyperlink into a document using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cpp" >}}
 
-### Inserting Ole Object
+## Inserting Ole Object
 
 If you want Ole Object call DocumentBuilder.InsertOleObject. Pass to this method the ProgId explicitly with other parameters. Below example shows how to insert Ole Object into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertOleObject.cpp" >}}
 
-### Set File Name and Extension when Inserting Ole Object
+## Set File Name and Extension when Inserting Ole Object
 
 OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if OLE handler is missing or unknown. OlePackage class allows to access OLE Package properties. Below example shows how to set file name, extension and display name for OLE Package.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.cpp" >}}
 
-### Inserting HTML
+## Inserting HTML
 
 You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder->InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 
-### Insert Horizontal Rule into Document
+## Insert Horizontal Rule into Document
 
 Below code example shows how to insert horizontal rule shape into a document using DocumentBuilder->InsertHorizontalRule method.
 
