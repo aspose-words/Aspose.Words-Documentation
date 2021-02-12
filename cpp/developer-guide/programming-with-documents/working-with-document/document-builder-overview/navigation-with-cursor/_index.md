@@ -26,37 +26,7 @@ The main method is to be able to move the cursor position to a specific node in 
 
 The following code example shows how to move the **DocumentBuilder** to different nodes in a document:
 
-{{< highlight cpp >}}
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Start a bookmark and add content to it using a DocumentBuilder.
-builder->StartBookmark(u"MyBookmark");
-builder->Writeln(u"Bookmark contents.");
-builder->EndBookmark(u"MyBookmark");
-
-// The node that the DocumentBuilder is currently at is past the boundaries of the bookmark.
-ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(0)->get_BookmarkEnd(), builder->get_CurrentParagraph()->get_FirstChild());
-
-// If we wish to revise the content of our bookmark with the DocumentBuilder, we can move back to it like this.
-builder->MoveToBookmark(u"MyBookmark");
-
-// Now we're located between the bookmark's BookmarkStart and BookmarkEnd nodes, so any text the builder adds will be within it.
-ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(0)->get_BookmarkStart(), builder->get_CurrentParagraph()->get_FirstChild());
-
-// We can move the builder to an individual node,
-// which in this case will be the first node of the first paragraph, like this.
-builder->MoveTo(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(NodeType::Any, false)->idx_get(0));
-
-ASSERT_EQ(NodeType::BookmarkStart, builder->get_CurrentNode()->get_NodeType());
-ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
-
-// A shorter way of moving the very start/end of a document is with these methods.
-builder->MoveToDocumentEnd();
-ASSERT_TRUE(builder->get_IsAtEndOfParagraph());
-builder->MoveToDocumentStart();
-ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToNode.cpp" >}}
 
 But besides the basic **MoveTo** method, there are more specific ones.
 
@@ -66,18 +36,7 @@ You can go to the beginning or the end of your document using the [MoveToDocumen
 
 The following code example shows how to move the cursor position to the beginning or the end of a document:
 
-{{< highlight cpp >}}
-// Load you document.
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
-auto builder = MakeObject<DocumentBuilder>(doc);
-// Move the cursor position to the beginning of your document.
-builder->MoveToDocumentStart();
-builder->Writeln(u"This is the beginning of the document.");
-
-// Move the cursor position to the end of your document.
-builder->MoveToDocumentEnd();
-builder->Writeln(u"This is the end of the document.");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToDocumentStartEnd.cpp" >}}
 
 ### Navigate With Bookmarks
 
@@ -85,26 +44,7 @@ You can mark a place that you want to find and move to it again easily. You can 
 
 The following code examples shows how to move a cursor position to a bookmark:
 
-{{< highlight cpp >}}
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Start a bookmark and add content to it using a DocumentBuilder.
-builder->StartBookmark(u"MyBookmark");
-builder->Writeln(u"Bookmark contents.");
-builder->EndBookmark(u"MyBookmark");
-
-// If we wish to revise the content of our bookmark with the DocumentBuilder, we can move back to it like this.
-builder->MoveToBookmark(u"MyBookmark");
-
-// Now we're located between the bookmark's BookmarkStart and BookmarkEnd nodes, so any text the builder adds will be within it.
-ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(0)->get_BookmarkStart(), builder->get_CurrentParagraph()->get_FirstChild());
-
-// We can move the builder to an individual node,
-// which in this case will be the first node of the first paragraph, like this.
-builder->MoveTo(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(NodeType::Any, false)->idx_get(0));
-ASSERT_EQ(NodeType::BookmarkStart, builder->get_CurrentNode()->get_NodeType());
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToBookmark.cpp" >}}
 
 ### Navigate to Table Cells
 
@@ -112,18 +52,7 @@ You can move to a table cell by using the [MoveToCell](https://apireference.aspo
 
 The following code example shows how to move a cursor position to a specified table cell:
 
-{{< highlight cpp >}}
-auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Move the builder to row 3, cell 4 of the first table.
-builder->MoveToCell(0, 2, 3, 0);
-builder->Write(u"\nCell contents added by DocumentBuilder");
-auto table = System::DynamicCast<Tables::Table>(doc->GetChild(NodeType::Table, 0, true));
-
-ASSERT_EQ(table->get_Rows()->idx_get(2)->get_Cells()->idx_get(3), builder->get_CurrentNode()->get_ParentNode()->get_ParentNode());
-ASSERT_EQ(table->get_Rows()->idx_get(2)->get_Cells()->idx_get(2)->GetText().Trim(), u"Cell contents added by DocumentBuilderCell 3 contents\a");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToTableCell.cpp" >}}
 
 ### Navigate to a Field
 
@@ -131,25 +60,7 @@ You can move to a specific field in your document by using the [MoveToField](htt
 
 The following code example shows how to move the document builder cursor to a specific field:
 
-{{< highlight cpp >}}
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Insert a field using the DocumentBuilder and add a run of text after it.
-auto field = builder->InsertField(u"MERGEFIELD field");
-builder->Write(u" Text after the field.");
-
-// The builder's cursor is currently at end of the document.
-ASSERT_EQ(builder->get_CurrentNode(), nullptr);
-// We can move the builder to a field like this, placing the cursor at immediately after the field.
-builder->MoveToField(field, true);
-
-// Note that the cursor is at a place past the FieldEnd node of the field, meaning that we are not actually inside the field.
-// If we wish to move the DocumentBuilder to inside a field,
-// we will need to move it to a field's FieldStart or FieldSeparator node using the DocumentBuilder.MoveTo() method.
-ASSERT_EQ(field->get_End(), builder->get_CurrentNode()->get_PreviousSibling());
-builder->Write(u" Text immediately after the field.");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToMergeField.cpp" >}}
 
 ### Navigate to a Header or Footer
 
@@ -157,30 +68,7 @@ You can move to the beginning of a header or footer by using the [MoveToHeaderFo
 
 The following code example shows how to move document builder cursor to a document header or footer:
 
-{{< highlight csharp >}}
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Specify that we want headers and footers different for first, even and odd pages.
-builder->get_PageSetup()->set_DifferentFirstPageHeaderFooter(true);
-builder->get_PageSetup()->set_OddAndEvenPagesHeaderFooter(true);
-
-// Create the headers.
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderFirst);
-builder->Write(u"Header for the first page");
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderEven);
-builder->Write(u"Header for even pages");
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
-builder->Write(u"Header for all other pages");
-
-// Create two pages in the document.
-builder->MoveToSection(0);
-builder->Writeln(u"Page1");
-builder->InsertBreak(BreakType::PageBreak);
-builder->Writeln(u"Page2");
-
-doc->Save(ArtifactsDir + u"DocumentBuilder.HeadersAndFooters.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderHeadersAndFooters.cpp" >}}
 
 ### Navigate to a Section or Paragraph
 
@@ -188,31 +76,4 @@ You can move to a specific section or paragraph by using the [MoveToParagraph](h
 
 The following code example shows how to move to a specific section and a specific paragraph in a document:
 
-{{< highlight cpp >}}
-// Create a blank document and append a section to it, giving it two sections.
-auto doc = MakeObject<Document>();
-doc->AppendChild(MakeObject<Section>(doc));
-
-// Move a DocumentBuilder to the second section and add text.
-auto builder = MakeObject<DocumentBuilder>(doc);
-builder->MoveToSection(1);
-builder->Writeln(u"Text added to the 2nd section.");
-
-// Create document with paragraphs.
-auto doc = MakeObject<Document>(MyDir + u"Paragraphs.docx");
-auto paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
-ASSERT_EQ(paragraphs->get_Count(), 22);
-
-// When we create a DocumentBuilder for a document, its cursor is at the very beginning of the document by default,
-// and any content added by the DocumentBuilder will just be prepended to the document.
-auto builder = MakeObject<DocumentBuilder>(doc);
-ASSERT_EQ(paragraphs->IndexOf(builder->get_CurrentParagraph()), 0);
-
-// You can move the cursor to any position in a paragraph.
-builder->MoveToParagraph(0, 14);
-ASSERT_EQ(paragraphs->IndexOf(builder->get_CurrentParagraph()), 2);
-builder->Writeln(u"This is a new third paragraph. ");
-ASSERT_EQ(paragraphs->IndexOf(builder->get_CurrentParagraph()), 3);
-doc = DocumentHelper::SaveOpen(doc);
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(2)->GetText().Trim(), u"This is a new third paragraph.");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToSectionParagraph.cpp" >}}

@@ -20,14 +20,7 @@ The most popular conversion from PDF is conversion to Microsoft Word formats suc
 
 The following code example shows how to convert a document from PDF to DOCX:
 
-**.NET**
-{{< highlight csharp >}}
-// Load the document from disk.
-Document doc = new Document(dataDir + "TestDoc.pdf");
-
-// Save the document in DOCX format.
-doc.Save(dataDir + "SavePdf2Docx.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Base conversions-PdfToDocx.cs" >}}
 
 ## Specify Load Options when Importing PDF
 
