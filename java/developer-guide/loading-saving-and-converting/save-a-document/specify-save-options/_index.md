@@ -47,17 +47,7 @@ Aspose.Words provides an ability to use the [CreatedTime](https://apireference.a
 
 The following code example shows how to update the document creation time:
 
-{{< highlight java >}}
-// Create a document.
-Document doc = new Document(docPath);
-
-// Set an option to update the document creation time.
-SaveOptions saveOptions = new PdfSaveOptions();
-saveOptions.UpdateLastPrintedProperty = true;
-
-// Save the document.
-doc.Save(pdfPath, saveOptions);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.java" >}}
 
 ## Update Last Saved Property
 

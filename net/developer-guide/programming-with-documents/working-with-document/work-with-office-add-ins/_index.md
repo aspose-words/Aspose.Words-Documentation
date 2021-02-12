@@ -34,12 +34,4 @@ To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://apir
 
 The following code example shows how to get such a list of add-ins:
 
-{{< highlight csharp >}}
-Document doc = new Document("DocumentWithTaskPanes.docx");
-Console.WriteLine("Task panes sources:");
-foreach (TaskPane taskPane in doc.WebExtensionTaskPanes)
-	{
-		WebExtensionReference reference = taskPane.WebExtension.Reference;
-		Console.WriteLine($"Provider: \"{reference.Store}\", version: \"{reference.Version}\", catalog identifier: \"{reference.Id}\";");
-	}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with WebExtension-GetListOfAddins.cs" >}}

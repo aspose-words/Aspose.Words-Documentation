@@ -14,14 +14,7 @@ As with all conversion examples already described, you need to create a new docu
 
 The following code example shows how to convert PDF to JPEG:
 
-**.NET**
-{{< highlight csharp >}}
-// Load the document from disk.
-Document doc = new Document(dataDir + "TestDoc.pdf");
-
-// Save the document in JPEG format.
-doc.Save(dataDir + "SavePdf2Jpeg.jpeg");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Base conversions-PdfToJpeg.cs" >}}
 
 ## Specify Save Options when Converting to an Image
 
@@ -35,25 +28,4 @@ There are also properties that apply to a certain format, for example, [JpegQual
 
 The following code example shows how to create a preview of the first document page with applying some additional settings:
 
-**.NET**
-{{< highlight csharp >}}
-// Load the document from disk.
-Document doc = new Document(dataDir + "TestDoc.docx");
-
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
-// Set the "PageSet" to "0" to convert only the first page of a document.
-options.PageSet = new PageSet(0);
-
-// Change the image's brightness and contrast.
-// Both are on a 0-1 scale and are at 0.5 by default.
-options.ImageBrightness = 0.3f;
-options.ImageContrast = 0.7f;
-
-// Change the horizontal resolution.
-// The default value for these properties is 96.0, for a resolution of 96dpi.
-options.HorizontalResolution = 72f;
-
-// Save the document in JPEG format.
-doc.Save(dataDir + "SaveDocx2Jpeg.jpeg", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-Working with ImageSaveOptions-GetJpegPageRange.cs" >}}

@@ -44,17 +44,7 @@ Aspose.Words provides an ability to use the [CreatedTime](https://apireference.a
 
 The following code example shows how to update the document creation time:
 
-{{< highlight csharp >}}
-// Create a document.
-Document doc = new Document(docPath);
-
-// Set an option to update the document creation time.
-SaveOptions saveOptions = new PdfSaveOptions();
-saveOptions.UpdateLastPrintedProperty = true;
-
-// Save the document.
-doc.Save(pdfPath, saveOptions);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-Working with PdfSaveOptions-UpdateIfLastPrinted.cs" >}}
 
 ## Update Last Saved Property
 

@@ -34,15 +34,5 @@ To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://apir
 
 The following code example shows how to get such a list of add-ins:
 
-{{< highlight csharp >}}
-Document doc = new Document("DocumentWithTaskPanes.docx");
-System.out.println("Task panes sources:");
-for (TaskPane taskPane : doc.getWebExtensionTaskPanes())
-	{
-		WebExtensionReference reference = taskPane.getWebExtension().getReference();
-		System.out.println("Provider: " + reference.getStore() +
-			", version: " + reference.getVersion() +
-			", catalog identifier: "+ reference.getId() + ";");
-	}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-GetListOfAddins.java" >}}
 

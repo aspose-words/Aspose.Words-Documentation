@@ -34,14 +34,4 @@ To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://apir
 
 The following code example shows how to get such a list of add-ins:
 
-{{< highlight cpp >}}
-auto doc = MakeObject<Document>(u"DocumentWithTaskPanes.docx");
-std::cout << "Task panes sources:\n";
-for (auto taskPane : IterateOver(doc->get_WebExtensionTaskPanes()))
-	{
-		auto reference = taskPane->get_WebExtension()->get_Reference();
-		std::cout << "Provider: \"" << reference->get_Store().ToUtf8String()
-			<< "\", version: \"" << reference->get_Version().ToUtf8String()
-			<< "\", catalog identifier: \"" << reference->get_Id().ToUtf8String() << "\"\n";
-	}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithWebExtension-GetListOfAddins.cpp" >}}
