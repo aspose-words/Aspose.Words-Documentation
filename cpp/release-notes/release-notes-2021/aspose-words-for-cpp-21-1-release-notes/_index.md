@@ -25,13 +25,14 @@ We have added the following features from Aspose.Words for .Net on this regular 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 The missing features will be added in future releases.
 
-- The current release does not support cryptography features - it cannot verify, sign, encrypt or decrypt documents.
-- The current release does not support downloading remote resources from the Internet.
 - The current release does not support Metered license.
-- The current release does not support a multipage TIFF format.
 - The current release does not support LINQ and Reporting features.
-- The current release has limited support for database features - C++ does not have common API for DB like .Net System.Data.
-- The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
+- The current release does not support OpenGL 3D Shapes rendering.
+- The current release does not support advanced typography based on HarfBuzz shaper.
+- The current release does not support loading PDF documents.
+- The current release has limited support for database features - C++ doesn't have common API for DB like .Net System.Data.
+- The current release supports Microsoft Visual C++ version 2017 or higher.
+- The current release supports GCC 6.3 or higher and Clang 3.9.1 or higher on Linux and only for the x86_x64 platform.
 
 ## Full List of Issues Covering all Changes in this Release
 
