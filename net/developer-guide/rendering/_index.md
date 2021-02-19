@@ -22,7 +22,7 @@ The rendering features of Aspose.Words enable you to perform the following:
 
 ## Flow-Layout or Fixed-Layout Document Formats
 
-All the document formats that can be loaded into Aspose.Words are known as “flow-layout” formats. Flow-layout formats include DOC, OOXML, RTF, ODT, and HTML. Documents in these formats consist of various elements such as paragraphs, tables, headers, footers, images, fields and their formatting, for example, bold, italic, font, size. However, the flow-layout formats do not contain information about position where each particular paragraph or character is displayed on a page.
+Most of the document formats that can be loaded into Aspose.Words are known as “flow-layout” formats. Flow-layout formats include DOC, OOXML, RTF, ODT, and HTML. Documents in these formats consist of various elements such as paragraphs, tables, headers, footers, images, fields and their formatting, for example, bold, italic, font, size. However, the flow-layout formats do not contain information about position where each particular paragraph or character is displayed on a page.
 
 In contrast, the “fixed-layout” (also known as "fixed page") formats such as PDF and XPS contain exact positioning information for all document elements. These formats preserve the original appearance of a document after it was laid out into pages, providing higher accuracy of displayed information.
 
