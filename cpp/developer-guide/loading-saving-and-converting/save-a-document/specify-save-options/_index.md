@@ -49,16 +49,8 @@ Aspose.Words provides an ability to use the [CreatedTime](https://apireference.a
 
 The following code example shows how to update the document creation time:
 
-{{< highlight cpp >}}
-auto doc = MakeObject<Document>(docPath);
-
-// Set an option to update the document creation time.
-auto saveOptions = MakeObject<PdfSaveOptions>();
-saveOptions->set_UpdateLastPrintedProperty(true);
-
-// Save the document.
-doc->Save(pdfPath, saveOptions);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
+"cpp-Rendering-Printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.cpp" >}}
 
 ## Update Last Saved Property
 
