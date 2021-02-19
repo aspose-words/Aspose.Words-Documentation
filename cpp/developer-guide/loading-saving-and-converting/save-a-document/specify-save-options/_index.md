@@ -43,6 +43,23 @@ The following code example shows how to load and save OpenDocument encrypted wit
 
 Not all formats support encryption and the use of **Password** property.
 
+## Update the Document Creation Time
+
+Aspose.Words provides an ability to use the [CreatedTime](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties#aefb734a64d1f970f2b8c65a35e07ce89) property to get or set the document creation date in UTC. You can also update this value before saving using the [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#aafd986a59939576b688baf70ae2982b9) option.
+
+The following code example shows how to update the document creation time:
+
+{{< highlight cpp >}}
+auto doc = MakeObject<Document>(docPath);
+
+// Set an option to update the document creation time.
+auto saveOptions = MakeObject<PdfSaveOptions>();
+saveOptions->set_UpdateLastPrintedProperty(true);
+
+// Save the document.
+doc->Save(pdfPath, saveOptions);
+{{< /highlight >}}
+
 ## Update Last Saved Property
 
 Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#a3f8626f9e2fdd5ea38f656ecffea4433) property to gets or sets a value determining whether the [LastSavedTime](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties#a5201173c24c8f03388c23acffee9263b) property is updated before saving.
