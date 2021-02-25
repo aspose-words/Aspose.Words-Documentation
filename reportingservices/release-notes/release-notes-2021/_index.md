@@ -1,6 +1,6 @@
 ---
 title: Release Notes - 2021
 type: docs
-weight: 10
+weight: 5
 url: /reportingservices/release-notes-2021/
 ---
