@@ -10,12 +10,10 @@ This Getting Started provides this introduction to Aspose.Words fundamentals. Fo
 
 To find out more about Aspose.Words, select the appropriate section:
 
-- *"Product Overview"* – provides information about Aspose.Words benefits and technical support.
 - *"Supported Document Formats"* – provides information about supported formats.
 - *"Features"* – provides information on what features are supported when loading or saving a document in various formats.
 - *"Platforms and Interoperability"* – provides information on using Aspose.Words when building applications for other platforms.
-- *"Why not Automation"* – describes the reasons why Aspose components are much better than Microsoft Office Automation.
-- *"Why not Open XML SDK"* – describes the reasons why it might be better to use Aspose products rather than the free Open XML SDK.
+- *"Aspose.Words or Other Solutions"* – describes the reasons why it might be better to use Aspose products rather than other products, for example, Microsoft Office Automation or Open XML SDK.
 - *"System Requirements"* – provides information about system and development environment requirements.
 - *"Licensing"* – provides information on applying a license and using multiple Aspose products.
 - *"Installation"* – provides information on how to install Aspose.Words.
