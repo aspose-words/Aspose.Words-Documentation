@@ -2,7 +2,7 @@
 title: Work with Options and Appearance of Word Documents
 description: "Aspose.Words for .NET allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
-weight: 30
+weight: 120
 url: /net/work-with-document-options-and-settings/
 ---
 
