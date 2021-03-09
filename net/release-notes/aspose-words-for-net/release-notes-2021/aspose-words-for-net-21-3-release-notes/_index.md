@@ -17,7 +17,7 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 
 - ClearQuickStyleGallery method of StyleCollection class was introduced.
 - Extended font API to set Fill properties of text.
-- Added an ability to work with child nodes of StructuredDocumentTagRangeStart.
+- Added an ability to work with child nodes of StructuredDocumentTag range.
 - Fixed issue with nested PDF bookmarks due to merged hidden paragraphs.
 - Supported Select and SelectMany extension methods for LINQ Reporting Engine.
 
