@@ -10,13 +10,13 @@ Structured document tags (SDT or content control) allow to embed customer-define
 
 StructuredDocumentTag can occur in a document in the following places:
 
-- Block-level - Among paragraphs and tables, as a child of a Body, HeaderFooter, Comment, Footnote or a Shape node.
-- Row-level - Among rows in a table, as a child of a Table node.
-- Cell-level - Among cells in a table row, as a child of a Row node.
-- Inline-level - Among inline content inside, as a child of a Paragraph.
+- Block-level – Among paragraphs and tables, as a child of a Body, HeaderFooter, Comment, Footnote or a Shape node.
+- Row-level – Among rows in a table, as a child of a Table node.
+- Cell-level – Among cells in a table row, as a child of a Row node.
+- Inline-level – Among inline content inside, as a child of a Paragraph.
 - Nested inside another StructuredDocumentTag.
 
-Aspose.Words supports the creation of following types of Structured document tags.
+Aspose.Words supports the creation of following types of Structured document tags:
 
 - DropDownList
 - ComboBox 
