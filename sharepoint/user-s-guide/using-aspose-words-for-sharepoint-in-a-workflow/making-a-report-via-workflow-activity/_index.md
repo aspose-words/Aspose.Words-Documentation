@@ -5,7 +5,7 @@ weight: 30
 url: /sharepoint/making-a-report-via-workflow-activity/
 ---
 
-This article walks you through creating a workflow for building a report with parameters. The steps and screenshot are for SharePoint Designer 2007. The steps for SharePoint 2010/2013/2016 are very similar
+This article walks you through creating a workflow for building a report with parameters. The steps and screenshot are for SharePoint Designer 2007. The steps for SharePoint 2010/2013/2016 are very similar:
 
 1. Start SharePoint Designer, open a site and create a new workflow.
 1. Name the workflow and associate it with a document library.<br>
@@ -32,7 +32,7 @@ The report template URL is specified in the activity parameter.<br>
 ![todo:image_alt_text](making-a-report-via-workflow-activity_6.png)<br>
 For example, if the report is expecting two parameters, configure the data collection activity to get two fields. The field names must match the parameter names in the report definition. Here is a fragment of the report definition with parameter description.<br>
 {{< highlight csharp >}}
-  <Parameters>
+    <Parameters>
     <String>
       <Name>@comment</Name>
       <Prompt>This is a test report parameter of type string</Prompt>
@@ -41,7 +41,7 @@ For example, if the report is expecting two parameters, configure the data colle
       <Name>@numericValue</Name>
       <Prompt>This is a test numeric report parameter</Prompt>
     </Int32>
-  </Parameters>
+    </Parameters>
 {{< /highlight >}}<br>
 Configuring the field for the @comment parameter in the data collection activity.<br>
 ![todo:image_alt_text](making-a-report-via-workflow-activity_7.png)<br>
