@@ -5,6 +5,8 @@ weight: 40
 url: /net/working-with-styles-and-themes/
 ---
 
+The [StyleCollection](https://apireference.aspose.com/words/net/aspose.words/stylecollection) class is used to manage built-in and apply user-defined settings to styles.
+
 ## Accessing Styles
 
 You can get a collection of styles defined in the document using the [Document.Styles](http://www.aspose.com/api/net/words/aspose.words/documentbase/properties/styles) property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index. The following code example demonstrates how to get access to the collection of styles defined in the document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/Properties.doc).
