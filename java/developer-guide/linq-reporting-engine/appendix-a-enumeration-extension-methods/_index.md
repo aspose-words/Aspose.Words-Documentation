@@ -76,6 +76,8 @@ public class Person
  persons.orderByDescending(p => p.getAge()){{< /highlight >}}Or {{< highlight csharp >}}
  persons.orderByDescending(p => p.getAge()).thenByDescending(p => p.getName()){{< /highlight >}}Or {{< highlight csharp >}}
  persons.orderByDescending(p => p.getAge()).thenByDescending(p => p.getName())    .thenBy(p => p.getChildren().count()){{< /highlight >}}See the previous note. |
+|select(Selector)|{{< highlight csharp >}}persons.select(p => p.getName()){{< /highlight >}}|
+|selectMany(EnumerationSelector)|{{< highlight csharp >}}persons.selectMany(p => p.getChildren()){{< /highlight >}}|
 |single()|{{< highlight csharp >}}
  persons.single(){{< /highlight >}}|
 |single(Predicate)|{{< highlight csharp >}}

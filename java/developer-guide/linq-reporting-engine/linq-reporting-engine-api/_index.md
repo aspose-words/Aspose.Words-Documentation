@@ -50,7 +50,6 @@ To access XML data while building a report, you can use facilities of `DataSet` 
 
 To overcome this limitation, you can pass an `XmlDataSource` instance to the engine as a data source instead. Even when XML schema is not provided, `XmlDataSource` is capable to recognize values of the following types by their string representations:
 
-- Integer
 - Long
 - Double
 - Boolean
@@ -274,7 +273,6 @@ To access JSON data while building a report, you can pass a `JsonDataSource` ins
 
 Using of `JsonDataSource` enables you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:
 
-- Integer
 - Long
 - Double
 - Boolean
@@ -593,7 +591,6 @@ To access CSV data while building a report, you can pass a `CsvDataSource` insta
 
 Using of `CsvDataSource` enables you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:
 
-- Integer
 - Long
 - Double
 - Boolean

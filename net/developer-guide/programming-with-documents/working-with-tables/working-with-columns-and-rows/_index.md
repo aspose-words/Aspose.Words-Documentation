@@ -77,7 +77,7 @@ As in Microsoft Word, the autofit method is actually a shortcut which applies di
 
 ### AutoFitting a Table to Window
 
-The code example given below demonstrates autofits a table to fit the page width. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/TestFile.doc).
+The code example given below demonstrates autofits a table to fit the page width. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToWindow-AutoFitTableToPageWidth.cs" >}}
 
@@ -91,7 +91,7 @@ When autofit to the window is applied to a table the following operations are ac
 
 ### AutoFitting a Table to Contents
 
-The code example given below demonstrates autofits a table in the document to its contents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/TestFile.doc).
+The code example given below demonstrates autofits a table in the document to its contents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToContents-AutoFitTableToContents.cs" >}}
 
@@ -111,7 +111,7 @@ Note that this autofit option clears the preferred widths from the cells just li
 
 ### Disabling AutoFitting on a Table and Use Fixed Column Widths
 
-The code example given below demonstrates how to disable autofitting and enables fixed widths for the specified table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/TestFile.doc).
+The code example given below demonstrates how to disable autofitting and enables fixed widths for the specified table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cs" >}}
 
@@ -141,7 +141,7 @@ We will use the table below in our example. By default, it has the properties ab
 
 ### Keeping a Row from Breaking across Pages
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://apireference.aspose.com/net/words/aspose.words.tables/rowformat/) object of a [Row](https://apireference.aspose.com/net/words/aspose.words.tables/row) as the property [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/net/words/aspose.words.tables/rowformat/properties/allowbreakacrosspages). The code example given below demonstrates how to disable rows breaking across pages for every row in a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.TableAcrossPage.doc).
+This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://apireference.aspose.com/net/words/aspose.words.tables/rowformat/) object of a [Row](https://apireference.aspose.com/net/words/aspose.words.tables/row) as the property [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/net/words/aspose.words.tables/rowformat/properties/allowbreakacrosspages). The code example given below demonstrates how to disable rows breaking across pages for every row in a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.TableAcrossPagehttps://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-RowFormatDisableBreakAcrossPages.cs" >}}
 
@@ -149,7 +149,7 @@ This involves restricting content inside the cells of a row from being split acr
 
 To stop a table from splitting across the page we need to state that we wish the content contained within the table to stay together. In Microsoft Word, this involves selecting the table and enabling “Keep with Next” under Paragraph Format.
 
-In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/net/words/aspose.words/paragraphformat/properties/keepwithnext) set to true. The exception is the last paragraph in the table which should be set to false. The code example given below demonstrates how to set a table to stay together on the same page. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.TableAcrossPage.doc).
+In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/net/words/aspose.words/paragraphformat/properties/keepwithnext) set to true. The exception is the last paragraph in the table which should be set to false. The code example given below demonstrates how to set a table to stay together on the same page. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-KeepTableTogether.cs" >}}
 
@@ -171,7 +171,7 @@ Sometimes when you load existing document cells in a table will appear merged. H
 
 ### Checking if a Cell is Merged
 
-To check if a cell is part of a sequence of merged cells, we simply check the CellFormat.HorizontalMerge and CellFormat.VerticalMerge properties. Below example prints the horizontal and vertical merge type of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.MergedCells.doc).
+To check if a cell is part of a sequence of merged cells, we simply check the CellFormat.HorizontalMerge and CellFormat.VerticalMerge properties. Below example prints the horizontal and vertical merge type of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-CheckCellsMerged.cs" >}}
 
@@ -189,7 +189,7 @@ In other situations where a builder is not used, such as in an existing table, m
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-MergeCells.cs" >}}
 
-The code example given below demonstrates how to merge the range of cells between the two specified cells. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.Document.doc).
+The code example given below demonstrates how to merge the range of cells between the two specified cells. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-MergeCellRange.cs" >}}
 
@@ -201,7 +201,7 @@ A table in MS Word is a set of independent rows. Each row has a set of cells ind
 
 A table in Html has essentially different structure: each row has the same number of cells and (it's important for the problem) each cell has a width of the corresponding column, the same for all cells of the same column.
 
-Use the following code example if CellFormat.HorizontalMerge and CellFormat.VerticalMerge returns an incorrect value. Below example prints the horizontal and vertical merge of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.MergedCells.doc).
+Use the following code example if CellFormat.HorizontalMerge and CellFormat.VerticalMerge returns an incorrect value. Below example prints the horizontal and vertical merge of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-PrintHorizontalAndVerticalMerged.cs" >}}
 

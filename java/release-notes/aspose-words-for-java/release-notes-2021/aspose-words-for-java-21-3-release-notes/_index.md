@@ -181,13 +181,13 @@ Use Case:
 {{< highlight csharp >}}
 FontSettings settings = new FontSettings();
 settings.SetFontsFolder("bad folder?", false);
- 
+
 FontSourceBase source = settings.GetFontsSources()[0];
 IWarningCallback wc = new CustomWarningCallback();
 source.WarningCallback = wc;
- 
+
 IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
- 
+
 Console.WriteLine((wc as IList<WarningInfo>)[0].Description);
 {{< /highlight >}}
 
@@ -226,28 +226,28 @@ Also, the following new public properties were added into the Fill class:
 /// Gets or sets a Color object that represents the foreground color for the fill.
 /// </summary>
 public Color ForeColor
- 
+
 /// <summary>
 /// Gets or sets a Color object that represents the background color for the fill.
 /// </summary>
 public Color BackColor
- 
+
 /// <summary>
 /// Gets or sets value that is <c>true</c> if the formatting applied to this instance, is visible.
 /// </summary>
 public bool Visible
- 
+
 /// <summary>
 /// Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear).
 /// </summary>
 /// <remarks>This property is the opposite of property <see cref="Opacity"/>.</remarks>
 public double Transparency
- 
+
 /// <summary>
 /// Gets or sets whether the fill rotates with the specified object.
 /// </summary>
 public bool RotateWithObject
- 
+
 /// <summary>
 /// Gets a fill type.
 /// </summary>
@@ -266,27 +266,27 @@ public enum FillType
     /// Solid fill.
     /// </summary>
     Solid = 1,
- 
+
     /// <summary>
     /// Patterned fill.
     /// </summary>
     Patterned = 2,
- 
+     
     /// <summary>
     /// Gradient fill.
     /// </summary>
     Gradient = 3,
- 
+     
     /// <summary>
     /// Textured fill.
     /// </summary>
     Textured = 4,
- 
+     
     /// <summary>
     /// Fill is the same as the background.
     /// </summary>
     Background = 5,
- 
+     
     /// <summary>
     /// Picture fill.
     /// </summary>
@@ -300,10 +300,10 @@ Use Case: Explains how to use Fill object for the Font.
 // Open some document with text effects.
 const string myDir = @"example\";
 Document doc = new Document(myDir + "TextTwoColorGradient.docx");
- 
+
 // Get Fill object for Font of the first Run.
 Fill fill = doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Fill;
- 
+
 // Check Fill properties of the Font.
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("It is{0} visible.", fill.Visible ? "" : " not");
@@ -311,7 +311,7 @@ Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The background color of the fill is: {0}", fill.BackColor);
 Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);
 Console.WriteLine("Note the opacity is opposite to transparency and has value: {0}%", fill.Opacity * 100);
- 
+
 // You can change, for example, the foreground color.
 fill.ForeColor = Color.Yellow;
 // Or even make it invisible.
@@ -323,28 +323,28 @@ Console.WriteLine("\nThe fill is changed:");
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The fill opacity is {0}%", fill.Opacity * 100);
- 
+
 // Let's also change the transparency.
 fill.Transparency = 0.25;
 Console.WriteLine("\nThe fill is changed once again:");
 Console.WriteLine("The fill transparency is {0}%", fill.Transparency * 100);
- 
+
 doc.Save(myDir + "TextTwoColorGradient Out.docx");
 /*
 This code example produces the following results:
- 
+
 The type of the fill is: Gradient
 It is visible.
 The foreground color of the fill is: Color [A=255, R=128, G=0, B=0]
 The background color of the fill is: Color [A=255, R=0, G=0, B=0]
 The fill is transparent at 16%
 Note the opacity is opposite to transparency and has value: 84%
- 
+
 The fill is changed:
 The type of the fill is: Solid
 The foreground color of the fill is: Color [A=255, R=0, G=128, B=0]
 The fill opacity is 100%
- 
+
 The fill is changed once again:
 The fill transparency is 25%
 */
@@ -380,12 +380,12 @@ Use Case: Explains how to work with child nodes of StructuredDocumentTagRangeSta
 {{< highlight csharp >}}
 Document doc = new Document("document-containing-ranged-structured-document-tag");
 StructuredDocumentTagRangeStart tag = (StructuredDocumentTagRangeStart)doc.FirstSection.Body.FirstChild;
- 
+
 Console.WriteLine(tag.ChildNodes.Count);
- 
+
 foreach(Node node in tag.ChildNodes)
     Console.WriteLine(node.NodeType);
- 
+
 foreach(Node node in tag.GetChildNodes(NodeType.Run, true))
     Console.WriteLine(node.GetText());
 {{< /highlight >}}
@@ -397,7 +397,7 @@ Related issue: WORDSNET-21646
 In versions of Aspose.Words prior 21.3, LINQ Reporting Engine treated integer values as 32-bit or 64-bit depending on actual values while loading data from JSON, XML, or CSV. 
 Starting from Aspose.Words 21.3, integer values are always treated as 64-bit in the mentioned scenario. This can be a breaking change in some rare cases.
 
-The following sections of the engine's documentation were updated accordingly (see ["LINQ Reporting Engine"](/words/net/linq-reporting-engine/)):
+The following sections of the engine's documentation were updated accordingly (see ["LINQ Reporting Engine API"](/words/java/linq-reporting-engine-api/)):
 
 "Accessing XML Data"
 "Accessing JSON Data"
@@ -407,10 +407,10 @@ The following sections of the engine's documentation were updated accordingly (s
 
 Related issue: WORDSNET-20554
 
-The "Merging Table Cells Dynamically" section of the engine's documentation was updated to describe the change (see ["LINQ Reporting Engine"](/words/net/linq-reporting-engine/))).
+The ["Merging Table Cells Dynamically"](/words/java/merging-table-cells-dynamically/) section of the engine's documentation was updated to describe the change.
 
 ### Supported Select and SelectMany extension methods for LINQ Reporting Engine
 
 Related issue: WORDSNET-21425 and WORDSNET-17851
 
-The "Appendix A. Enumeration Extension Methods" section of the engine's documentation was updated to describe the change (see ["LINQ Reporting Engine"](/words/net/linq-reporting-engine/))).
+The ["Appendix A. Enumeration Extension Methods"](/words/java/appendix-a-enumeration-extension-methods/) section of the engine's documentation was updated to describe the change.
