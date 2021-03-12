@@ -20,7 +20,7 @@ To explicitly update fields in the whole document, simply call Document.UpdateFi
 
 ### Automatic Update of Page-Related Fields during Rendering
 
-When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields PAGE, PAGEREF found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.If you want to update all other fields in the document, then you need to call **Document.UpdateFields** before rendering the document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Fields/Rendering.doc)
+When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields PAGE, PAGEREF found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.If you want to update all other fields in the document, then you need to call **Document.UpdateFields** before rendering the document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx)
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-UpdateDocFields-UpdateDocFields.cs" >}}
 
@@ -50,7 +50,7 @@ With the implementation of this new engine the general behavior of field update 
 
 In previous versions calling Document.UpdateFields or Range.UpdateFields would update only regular fields such as IF or DOCPROPERTY and not page-layout related fields such as PAGE or NUMPAGES. Newer versions will now update both the regular and page-layout related fields.
 
-When **Document.UpdateFields** or **Range.UpdateFields** is called all fields are updated over the entire document/range. This may involve building the document layout if a page-layout related field like the PAGE field is encountered during the update. Below example shows how to update all fields in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Fields/Rendering.doc).
+When **Document.UpdateFields** or **Range.UpdateFields** is called all fields are updated over the entire document/range. This may involve building the document layout if a page-layout related field like the PAGE field is encountered during the update. Below example shows how to update all fields in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-UpdateDocFields-UpdateDocFields.cs" >}}
 
@@ -86,7 +86,7 @@ As explained earlier, all fields are now updated using Document.UpdateFields. Th
 
 ## Removing a Field
 
-Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a TOC field when saving to HTML. A field inserted into the document using **DocumentBuilder.InsertField** returns a Field object which provides a convenience method to easily remove the field from the document. Below example removes a field from the document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Fields/Field.RemoveField.doc).
+Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a TOC field when saving to HTML. A field inserted into the document using **DocumentBuilder.InsertField** returns a Field object which provides a convenience method to easily remove the field from the document. Below example removes a field from the document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Various%20fields.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-RemoveField-RemoveField.cs" >}}
 
@@ -114,7 +114,7 @@ Below code example shows how to replace the field with its most recent result.
 
 ` `When passing a block level node such as a [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) , be aware that in some cases fields can span across multiple paragraphs. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
 
-` `The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. Below example shows how to convert all fields of a specified type in a document to static text. You can download template file of below examples from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Fields/TestFile.doc).
+` `The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. Below example shows how to convert all fields of a specified type in a document to static text. You can download template file of below examples from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Linked%20fields.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInDocument-ConvertFieldsInDocument.cs" >}}
 

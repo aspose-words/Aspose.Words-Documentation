@@ -18,7 +18,7 @@ To illustrate how easily Aspose.Words handles retrieving content based on styles
 
 At a high level, this will involve:
 
-1. Opening a Word document using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document class.
+1. Opening a Word document using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class.
 1. Getting collections of all paragraphs and all runs in the document.
 1. Selecting only the required paragraphs and runs.
 

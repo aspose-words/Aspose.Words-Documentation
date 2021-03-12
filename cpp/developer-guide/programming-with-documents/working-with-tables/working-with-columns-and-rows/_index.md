@@ -77,7 +77,7 @@ As in Microsoft Word, an autofit method is actually a shortcut which applies dif
 
 ### AutoFitting a Table to Window
 
-Below example autofits a table to fit the page width. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/TestFile.doc).
+Below example autofits a table to fit the page width. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Tables/TestFile.doc).
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AutoFitTableToWindow-AutoFitTableToPageWidth.cpp" >}}
 
@@ -201,7 +201,7 @@ A table in MS Word is a set of independent rows. Each row has a set of cells ind
 
 A table in Html has essentially different structure: each row has the same number of cells and (it's important for the problem) each cell has a width of the corresponding column, the same for all cells of the same column.
 
-Use the following code example if CellFormat.HorizontalMerge and CellFormat.VerticalMerge returns an incorrect value. The below example prints the horizontal and vertical merge of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.MergedCells.doc).
+Use the following code example if CellFormat.HorizontalMerge and CellFormat.VerticalMerge returns an incorrect value. The below example prints the horizontal and vertical merge of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Tables/TestFile.doc).
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-PrintHorizontalAndVerticalMerged.cpp" >}}
 

@@ -116,7 +116,7 @@ The following example demonstrates how to set Aspose.Words to subset fonts in t
 
 {{% alert color="primary" %}} 
 
-You can download the template file for these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering-Printing/Rendering.doc).
+You can download the template file for these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}} 
 
@@ -146,7 +146,7 @@ The example provided below shows how to set Aspose.Words to avoid embedding core
 
 {{% alert color="primary" %}} 
 
-You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering-Printing/Rendering.doc).
+You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}} 
 

@@ -49,7 +49,7 @@ The following code example shows how to generate multiple merged documents durin
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/Data/Mail-Merge).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail%20merge%20destination%20-%20Northwind%20suppliers.docx).
 
 {{% /alert %}}
 

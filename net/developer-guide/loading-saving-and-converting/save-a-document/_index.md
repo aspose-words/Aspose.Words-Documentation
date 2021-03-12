@@ -20,7 +20,7 @@ The following code example shows how to load and save a document to a file:
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Quick-Start/Document.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ The following code example shows how to load and save a document to a stream:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToStream-LoadAndSaveToStream.cs" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Quick-Start/Document.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 ## Sending a Document to a Client Browser
 
@@ -44,7 +44,7 @@ The following code example shows how to send a document to the client browser fr
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Loading-and-Saving/Document.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}} 
 

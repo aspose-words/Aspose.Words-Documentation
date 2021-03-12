@@ -63,15 +63,15 @@ Call DocumentBuilder.InsertComboBox to insert a Combobox into the document. Th
 
 ### Obtaining Form Fields
 
-A collection of form fields is represented by the [FormFieldCollection](http://www.aspose.com/api/net/words/aspose.words.fields/formfieldcollection) class that can be retrieved using the [Range.FormFields](http://www.aspose.com/api/net/words/aspose.words/range/properties/formfields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Fields/FormFields.doc).
+A collection of form fields is represented by the [FormFieldCollection](http://www.aspose.com/api/net/words/aspose.words.fields/formfieldcollection) class that can be retrieved using the [Range.FormFields](http://www.aspose.com/api/net/words/aspose.words/range/properties/formfields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Form%20fields.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.cs" >}}
 
-You can get a particular form field by its index or name. The code example given below shows how to access form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Fields/FormFields.doc).
+You can get a particular form field by its index or name. The code example given below shows how to access form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Form%20fields.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cs" >}}
 
-The FormField properties allow you to work with form field name, type, and result. The code example given below shows how to work with form field name, type, and result. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Fields/FormFields.doc).
+The FormField properties allow you to work with form field name, type, and result. The code example given below shows how to work with form field name, type, and result. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Form%20fields.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.cs" >}}
 

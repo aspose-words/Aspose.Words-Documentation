@@ -15,12 +15,12 @@ If you have worked with Microsoft Word Automation, you probably know that one of
 
 ## Retrieving Plain Text
 
-Use the Range.Text property to retrieve plain, unformatted text of the range. Below example shows how to get a plain, unformatted text of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Ranges/Document.doc).
+Use the Range.Text property to retrieve plain, unformatted text of the range. Below example shows how to get a plain, unformatted text of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Ranges-RangesGetText-RangesGetText.cs" >}}
 
 ## Deleting Text
 
-Range allows the deletion of all characters of the range by calling Range.Delete. Below example shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Ranges/Document.doc).
+Range allows the deletion of all characters of the range by calling Range.Delete. Below example shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Ranges-RangesDeleteText-RangesDeleteText.cs" >}}

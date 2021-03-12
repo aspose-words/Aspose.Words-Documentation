@@ -23,6 +23,6 @@ Use the Range.Text property to retrieve the plain, unformatted text of the range
 
 ## Deleting Text
 
-Range allows the deletion of all characters of the range by calling Range.Delete. The below code example shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Ranges/Document.doc).
+Range allows the deletion of all characters of the range by calling Range.Delete. The below code example shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Ranges/Document.doc).
 
 {{< gist aspose-words-gists "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Ranges-RangesDeleteText-RangesDeleteText.cpp" >}}

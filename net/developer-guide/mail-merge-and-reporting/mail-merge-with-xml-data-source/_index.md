@@ -51,7 +51,7 @@ The following code example shows how to load XML data into DataSet and then use 
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail-Merge/Customers.xml).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail%20merge%20data%20-%20Customers.xml).
 
 {{% /alert %}}
 
