@@ -51,7 +51,7 @@ Each signature can also be individually validated by calling DigitalSignature.Is
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Loading-and-Saving/Document.Signed.docx).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Loading-and-Saving/Test%20File%20(doc).doc).
 
 {{% /alert %}} 
 

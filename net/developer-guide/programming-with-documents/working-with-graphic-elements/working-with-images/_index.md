@@ -38,7 +38,7 @@ All images are stored inside Shape nodes in a Document. To extract all images o
 - Extract image data using the [Shape.ImageData](http://www.aspose.com/api/net/words/aspose.words.drawing/shape/properties/imagedata) property.
 - Save image data to a file.
 
-Below example shows how to extract images from a document and save them as files. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Header%20and%20footer%20types.docx).
+Below example shows how to extract images from a document and save them as files. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Images.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-ExtractImagesToFiles-ExtractImagesToFiles.cs" >}}
 

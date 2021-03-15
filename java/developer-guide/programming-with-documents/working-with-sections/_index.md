@@ -80,7 +80,7 @@ If you want to copy and insert just the main text of a section excluding the sec
 
 ### Deleting Section Content
 
-To delete the main text of a section, use Section.ClearContent. The code example given below shows how to delete main content of a section. You can download the template file of this example from [here]().
+To delete the main text of a section, use Section.ClearContent. The code example given below shows how to delete main content of a section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-DeleteSectionContent-DeleteSectionContent.java" >}}
 
