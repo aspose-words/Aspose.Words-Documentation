@@ -7,6 +7,8 @@ weight: 25
 url: /cpp/working-with-styles-and-themes/
 ---
 
+The [StyleCollection](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection/) class is used to manage built-in and apply user-defined settings to styles.
+
 ## How to Extract Content Based on Styles
 
 At a simple level, retrieving the content based on styles from a Word document can be useful to identify, list and count paragraphs and runs of text formatted with a specific style. For example, you may need to identify particular kinds of content in the document, such as examples, titles, references, keywords, figure names, and case studies.

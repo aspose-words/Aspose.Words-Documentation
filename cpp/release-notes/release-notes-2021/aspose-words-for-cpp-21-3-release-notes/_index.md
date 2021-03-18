@@ -133,18 +133,18 @@ This section lists public API changes that were introduced in Aspose.Words 21.3.
 
 ### Aspose::Words::DigitalSignatures namespace was introduced
 
-Due to refactoring work on Aspose::Words namespaces, DigitalSignature, DigitalSignatureCollection, DigitalSignatureUtil, DigitalSignatureType, CertificateHolder, SignOptions classes were moved to new separate namespace Aspose::Words::DigitalSignatures
-In case of compilation error - please add `using namespace Aspose::Words::DigitalSignatures` and fix corresponding include directives
+Due to refactoring work on Aspose::Words namespaces, DigitalSignature, DigitalSignatureCollection, DigitalSignatureUtil, DigitalSignatureType, CertificateHolder, SignOptions classes were moved to new separate namespace Aspose::Words::DigitalSignatures.
+In case of compilation error – please add `using namespace Aspose::Words::DigitalSignatures` and fix corresponding include directives.
 
 ### Aspose::Words::Vba namespace was introduced
 
 Due to refactoring work on Aspose::Words namespaces, VbaModule, VbaModuleCollection, VbaProject, VbaReference, VbaReferenceCollection, VbaModuleType, VbaReferenceType classes were moved to new separate namespace Aspose::Words::Vba.
-In case of compilation error - please add `using namespace Aspose::Words::Vba` and fix corresponding include directives.
+In case of compilation error – please add `using namespace Aspose::Words::Vba` and fix corresponding include directives.
 
 ### ListFormat class was moved to Aspose::Words::Lists namespace
 
 Due to refactoring work on Aspose::Words namespaces, ListFormat class was moved to the Aspose::Words::Lists namespace.
-In case of compilation error - please add `using namespace Aspose::Words::Lists` and fix corresponding include directives.
+In case of compilation error – please add `using namespace Aspose::Words::Lists` and fix corresponding include directives.
 
 ### Added a new public method ClearQuickStyleGallery()
 
@@ -186,13 +186,13 @@ Use Case:
 {{< highlight csharp >}}
 auto settings = MakeObject<FontSettings>();
 settings->SetFontsFolder(u"bad folder?", false);
- 
+
 auto source = settings->GetFontsSources()->idx_get(0);
 auto wc = MakeObject<CustomWarningCallback>();
 source->set_WarningCallback(wc);
- 
+
 auto fontInfos = source->GetAvailableFonts();
- 
+
 std::cout << wc->idx_gex(0)->get_Description() << '\n';
 {{< /highlight >}}
 
@@ -231,28 +231,28 @@ Also, the following new public properties were added into the Fill class:
 /// Gets or sets a Color object that represents the foreground color for the fill.
 /// </summary>
 public Color ForeColor
- 
+
 /// <summary>
 /// Gets or sets a Color object that represents the background color for the fill.
 /// </summary>
 public Color BackColor
- 
+
 /// <summary>
 /// Gets or sets value that is <c>true</c> if the formatting applied to this instance, is visible.
 /// </summary>
 public bool Visible
- 
+
 /// <summary>
 /// Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear).
 /// </summary>
 /// <remarks>This property is the opposite of property <see cref="Opacity"/>.</remarks>
 public double Transparency
- 
+
 /// <summary>
 /// Gets or sets whether the fill rotates with the specified object.
 /// </summary>
 public bool RotateWithObject
- 
+
 /// <summary>
 /// Gets a fill type.
 /// </summary>
@@ -271,27 +271,27 @@ public enum FillType
     /// Solid fill.
     /// </summary>
     Solid = 1,
- 
+
     /// <summary>
     /// Patterned fill.
     /// </summary>
     Patterned = 2,
- 
+     
     /// <summary>
     /// Gradient fill.
     /// </summary>
     Gradient = 3,
- 
+     
     /// <summary>
     /// Textured fill.
     /// </summary>
     Textured = 4,
- 
+     
     /// <summary>
     /// Fill is the same as the background.
     /// </summary>
     Background = 5,
- 
+     
     /// <summary>
     /// Picture fill.
     /// </summary>
@@ -305,10 +305,10 @@ Use Case: Explains how to use Fill object for the Font.
 // Open some document with text effects.
 String myDir = u"example\\";
 auto doc = MakeObject<Document>(myDir + u"TextTwoColorGradient.docx");
- 
+
 // Get Fill object for Font of the first Run.
 auto fill = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Fill();
- 
+
 // Check Fill properties of the Font.
 std::cout << "The type of the fill is:" << System::ObjectExt::ToString(fill->get_FillType()).ToUtf8String() << '\n';
 std::cout << "It is" << (fill->get_Visible() ? "" : " not") << " visible.\n";
@@ -328,28 +328,28 @@ std::cout << "\nThe fill is changed:\n";
 std::cout << "The type of the fill is:" << System::ObjectExt::ToString(fill->get_FillType()).ToUtf8String() << '\n';
 std::cout << "The foreground color of the fill is: " << System::ObjectExt::ToString(fill->get_ForeColor()).ToUtf8String() << '\n';
 std::cout << "The fill opacity is " << fill->get_Opacity() * 100 << "%\n";
- 
+
 // Let's also change the transparency.
 fill->set_Transparency(0.25);
 std::cout << "\nThe fill is changed once again:\n";
 std::cout << "The fill transparency is " << fill->get_Transparency() * 100 "%\n";
- 
+
 doc.Save(myDir + u"TextTwoColorGradient Out.docx");
 /*
 This code example produces the following results:
- 
+
 The type of the fill is: Gradient
 It is visible.
 The foreground color of the fill is: Color [A=255, R=128, G=0, B=0]
 The background color of the fill is: Color [A=255, R=0, G=0, B=0]
 The fill is transparent at 16%
 Note the opacity is opposite to transparency and has value: 84%
- 
+
 The fill is changed:
 The type of the fill is: Solid
 The foreground color of the fill is: Color [A=255, R=0, G=128, B=0]
 The fill opacity is 100%
- 
+
 The fill is changed once again:
 The fill transparency is 25%
 */
@@ -385,14 +385,14 @@ Use Case: Explains how to work with child nodes of StructuredDocumentTagRangeSta
 {{< highlight cpp >}}
 auto doc = MakeObject<Document>(u"document-containing-ranged-structured-document-tag");
 auto tag = System::DinamicCast<StructuredDocumentTagRangeStart>(doc->get_FirstSection()->get_Body()->get_FirstChild());
- 
+
 std::cout << tag->get_ChildNodes()->get_Count();
- 
+
 for (auto node : System::IterateOver(tag->get_ChildNodes()))
 {
     std::cout << System::ObjectExt::ToString(node->get_NodeType()).ToUtf8String() << '\n';
 }
- 
+
 fore(auto node : System::IterateOver(tag->GetChildNodes(NodeType::Run, true)))
 {
     std::cout << node->GetText().ToUtf8String() << '\n';
