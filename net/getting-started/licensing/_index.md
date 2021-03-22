@@ -1,97 +1,139 @@
 ---
-title: Licensing
+title: Licensing and Subscription
+description: "Aspose.Words for .NET provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs
 weight: 80
 url: /net/licensing/
 ---
 
-## Evaluate Aspose.Words
+Sometimes, in order to study the system better, you want to dive into the code as fast as possible. To make this easier, Aspose.Words provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation.
 
-You can easily download Aspose.Words for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
+{{% alert color="primary" %}}
 
-The evaluation version of Aspose.Words (without a license specified) provides full product functionality, but it inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to several hundred paragraphs.
+Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the ["Purchase Policies and FAQ"](https://purchase.aspose.com/policies) section.
 
-{{% alert color="primary" %}} 
+{{% /alert %}}
 
-If you want to test Aspose.Words without the evaluation version limitations, you can also request a 30-day Temporary License. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license)
+## Free Trial or Temporary License
 
-{{% /alert %}} 
+Aspose.Words is incredible software that developers can try before purchasing.
 
-## Applying a License
+### Free Trial
+
+The evaluation version is the same as the purchased one – the [Trial version](https://downloads.aspose.com/words) simply becomes licensed when you add a few lines of code to apply the license.
+
+The Trial version of Aspose.Words without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to a few hundred paragraphs.
+
+### Temporary License
+
+If you wish to test Aspose.Words without the limitations of the Trial version, you can also request a 30-day Temporary License. For more details, see the ["Get a Temporary License"](https://purchase.aspose.com/temporary-license) page.
+
+## Purchased License
+
+After purchase, you need to apply the license file or include the license file as an embedded resource. This section describes options of how this can be done, and also comments on some common questions.
+
+{{% alert color="primary" %}}
+
+You need to set the license:
+
+* only once per application domain
+
+* before using any other Aspose.Words classes
+
+{{% /alert %}}
+
+### License Applying Options
 
 Licenses can be applied from various locations:
 
-- Explicit path.
-- The folder that contains the Aspose.Words.dll file.
-- The folder that contains the assembly that called Aspose.Words.dll.
-- The folder that contains the entry assembly (your .exe).
-- An embedded resource in the assembly that is called Aspose.Words.dll.
+* Explicit path
+* The folder containing the *Aspose.Words.dll* file
+* The folder containing the assembly that called *Aspose.Words.dll*
+* The folder containing the entry assembly (your *.exe*)
+* An embedded resource in the assembly is called *Aspose.Words.dll*
+* As a Metered License – a new licensing mechanism
 
-When you reference Aspose.Words.dll in the application, the library is copied to your output directory (unless Copy Local in the properties for that entry is set to false). Include the license next to your output .exe and the Aspose.Words.dll at that location.
+When you reference *Aspose.Words.dll* in the application, the library is copied to your output directory (unless *Copy Local* in the properties for that entry is set to false). Often the easiest way to set a license is to place the license file in the same folder as *Aspose.Words.dll* and specify just the filename without the path.
 
-Use the [License.SetLicense](https://apireference.aspose.com/net/words/aspose.words/license/methods/setlicense/index) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as the Aspose.Words.dll and specify just the file name without a path, as shown in the following example.
+{{% alert color="primary" %}}
 
-### When to Apply a License
+Use the [SetLicense](https://apireference.aspose.com/net/words/aspose.words/license/methods/setlicense/index) method to license a component.
 
-Follow these simple rules:
+Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
-- The license only needs to be set once per application domain.
-- You need to set the license before using any other Aspose.Words classes.
+{{% /alert %}}
 
-### Apply License using File or Stream Object
+#### Apply License Using a File or Stream Object
 
-Calling License.SetLicense multiple times is not harmful, but simply wastes processor time.
+The table below shows examples of options for calling SetLicense, depending on the type of your project.
 
-If you are developing a Windows Forms or console application, call License.SetLicense in your startup code, before using Aspose.Words classes.
+| Project Type                         | SetLicense Calling                                           |
+| ------------------------------------ | ------------------------------------------------------------ |
+| Windows Forms or Сonsole application | Call **SetLicense** in your startup code before using Aspose.Words classes |
+| ASP.NET application                  | Call **SetLicense** from the *Global.asax.cs* (*Global.asax.vb*) file, in the protected *Application_Start* method. It is called once when the application starts.<br />Do not call SetLicense from the *Page_Load* methods since it means that the license will be applied every time a web page is loaded. |
+| Class library                        | Call **SetLicense** from the static constructor of your class that uses Aspose.Words.<br />The static constructor will be executed before an instance of your class is created to make sure that Aspose.Words license is properly set. |
 
-When developing an ASP.NET application, you can call License.SetLicense from the Global.asax.cs (Global.asax.vb) file, in the Application_Start protected method. It is called once when the application starts. Do not call License.SetLicense from within Page_Load methods since it means the license will be loaded every time a web page is loaded.
+{{% alert color="primary" %}}
 
-If you are developing a class library, you can call License.SetLicense from a static constructor of your class that uses Aspose.Words. The static constructor will execute before an instance of your class is created making sure Aspose.Words license is properly set.
+Please note that the table above does not describe all possible types of projects.
 
-#### Loading a License from File
+{{% /alert %}}
 
-In this example Aspose.Words attempts to find the license file in the embedded resources or in the assembly folders.
+##### Load a License from a File
+
+Using the [SetLicense](https://apireference.aspose.com/words/net/aspose.words.license/setlicense/methods/1) method, you can try to find the license file in the embedded resources or assembly folders for further use.
+
+The following code example shows how to initialize a license from a folder:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyLicenseFromFile-ApplyLicenseFromFile.cs" >}}
 
+##### Load a License from a Stream Object
 
-#### Loading a License from a Stream Object
-
-Initializes a license from a stream
+The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/net/aspose.words/license/methods/setlicense) method:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyLicenseFromStream-ApplyLicenseFromStream.cs" >}}
 
-### Apply Metered License
+#### Include the License File as an Embedded Resource
 
-Aspose.Words allows developers to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
+A neat way to package a license with your application and make sure it will not be lost is to include it as an embedded resource into one of the assemblies that call Aspose.Words. To include a file as an embedded resource, follow these steps:
 
-A new class [Metered](https://apireference.aspose.com/net/words/aspose.words/metered) has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private keys.
+1. In Visual Studio, include the .lic file into the project using the “**File | Add Existing Item…**” menu.
+2. Select the file in the Solution Explorer and set “**Build Action to Embedded Resource”** in the Properties window.
+3. In your code, invoke **SetLicense** that passes only the short name of the resource file.
+
+#### Apply Metered License
+
+Aspose.Words allows developers to apply a metered key. This is a new licensing mechanism.
+
+The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
+
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/net/words/aspose.words/metered) class specially introduced for this purpose.
+
+The following code example shows how to set metered public and private keys:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyMeteredLicense-ApplyMeteredLicense.cs" >}}
 
-## Including the License File as an Embedded Resource
+{{% alert color="primary" %}}
 
-A neat way of packaging the license with your application and making sure it will not be lost, is to include it as an embedded resource into one of the assemblies that calls Aspose.Words. To include the file as an embedded resource perform the following steps:
+Please note that you must have a stable Internet connection for the correct use of the Metered license, since the Metered mechanism requires the constant interaction with our services for correct calculations. For more details, refer to the [“Metered Licensing FAQ”](https://purchase.aspose.com/faqs/licensing/metered) section.
 
-1. In Visual Studio, include the .lic file into the project using the **File | Add Existing Item...** menu.
-1. Select the file in the Solution Explorer and set **Build Action** **to Embedded Resource** in the **Properties** window.
-1. In your code, invoke [License.SetLicense](https://apireference.aspose.com/net/words/aspose.words/license/methods/setlicense/index) passing only the short name of the resource file.
+{{% /alert %}}
 
-## You can Change the License File Name
+### Changing the License File Name
 
-The license file name does not have to be 'Aspose.Words.LIC'. You can rename it to anything you like and use that name when setting license in your application.
+The license filename does not have to be “Aspose.Words.LIC”. You can rename it to your liking and use that name when setting a license in your application.
 
-## Exception Cannot find license filename
+### “Cannot find license filename” Exception
 
-When you purchase and download a license, Aspose website names the license file 'Aspose.Words.LIC'. You download the license file using your browser. Some browsers recognize the license file as XML and append an .xml extension to it so the full name of the file on your computer becomes 'Aspose.Words.lic.XML'.
+When you purchase and download a license, the Aspose website names the license file *"Aspose.Words.LIC"*. You download the license file using your browser. In this case, some browsers recognize the license file as XML and append the .xml extension to it, so the full file name on your computer becomes *"Aspose.Words.lic.XML"*.
 
-When Microsoft Windows is configured to hide extensions of known file types (unfortunately this is default in most Windows installations), the license file will appear to you as 'Aspose.Words. LIC ' in Windows Explorer. You are likely to think this is the real file name and call [License.SetLicense](https://apireference.aspose.com/net/words/aspose.words/license/methods/setlicense/index) passing it 'Aspose.Words.LIC', but there is no such file, hence the exception.
+When Microsoft Windows is configured to hide extensions for known file types (unfortunately, this is the default in most Windows installations), the license file will appear as *"Aspose.Words. LIC"* in Windows Explorer. You will probably think that this is the real file name and call **SetLicense** passing it *"Aspose.Words.LIC"*, but there is no such file, hence the exception.
 
 To solve the problem, rename the file to remove the invisible .xml extension. We also recommend you disable the "hide extensions" option in Microsoft Windows.
 
-## Using Multiple Products from Aspose
+## Using Multiple Aspose Products
 
-If you use multiple Aspose products in your application, for example Aspose.Words and Aspose.Cells, here are a few useful tips.
+If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are a few useful tips:
 
-- Set the License for each Aspose Product Separately. Even if you have a single license file for all components, for example 'Aspose.Total.lic', you still need to call [License.SetLicense](https://apireference.aspose.com/net/words/aspose.words/license/methods/setlicense/index) separately for each Aspose product you are using in your application.
-- Use Fully Qualified License Class Name. Each Aspose product has a [License](https://apireference.aspose.com/net/words/aspose.words/license) class in its namespace. For example, Aspose.Words has **Aspose.Words.License** and Aspose.Cells has **Aspose.Cells.License** class. Using the fully qualified class name allows you to avoid any confusion about which license is applied to which product.
+* Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
+* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://apireference.aspose.com/words/net/aspose.words/license) and Aspose.Cells has Aspose.Cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
