@@ -13,11 +13,14 @@ The visual appearance of documents is another important topic covered in this se
 To learn more about Aspose.Words features when programming with documents, select the corresponding article or group of articles:
 
 - [Aspose.Words Document Object Model](/words/cpp/aspose-words-document-object-model/)
+- [Document Builder Overview](/words/cpp/document-builder-overview/)
 - [Working with Document](/words/cpp/working-with-document/)
-- [Split a Document](/words/cpp/split-a-document/)
+- [Working with Styles](/words/cpp/working-with-styles-and-themes/)
 - [Working with Sections](/words/cpp/working-with-sections/)
+- [Working with Ranges](/words/cpp/working-with-ranges/)
 - [Working with Headers and Footers](/words/cpp/working-with-headers-and-footers/)
 - [Working with Footnote and Endnote](/words/cpp/working-with-footnote-and-endnote/)
+- [Working with Bookmarks](/words/cpp/working-with-bookmarks/)
 - [Working with Tables](/words/cpp/working-with-tables/)
 - [Working With Lists](/words/cpp/working-with-lists/)
 - [Working with Paragraphs](/words/cpp/working-with-paragraphs/)
@@ -30,7 +33,7 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Form Fields](/words/cpp/working-with-form-fields/)
 - [Contents Management](/words/cpp/contents-management/)
 - [Working with VBA Macros](/words/cpp/working-with-vba-macros/)
-- [Working with Digital Signatures](/words/cpp/working-with-digital-signatures/)
 - [Working with Markdown Features](/words/cpp/working-with-markdown-features/)
+- [Working with Text Document](/words/cpp/working-with-text-document/)
 
 For a detailed description of classes, methods, and properties refer to the Aspose.Words for C++ API Reference section.

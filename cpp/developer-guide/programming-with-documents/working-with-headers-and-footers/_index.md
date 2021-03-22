@@ -37,6 +37,6 @@ Each section in a document can have up to three headers and up to three footers 
 
 ## How to Remove Footers but Leave Headers Intact
 
-The code example given below deletes all footers from all sections, but leaves headers intact. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/HeaderFooter.RemoveFooters.doc).
+The code example given below deletes all footers from all sections, but leaves headers intact. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Document/HeaderFooter.RemoveFooters.doc).
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-RemoveFooters-RemoveFooters.cpp" >}}

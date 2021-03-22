@@ -37,7 +37,7 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Images/TestFile.Watermark.doc). 
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx). 
 
 {{% /alert %}} 
 
@@ -52,17 +52,11 @@ If the watermarks are added using a Shape class object then to remove the waterm
 
 The following code snippets show you how to set the name of the watermark shape and remove it from the document.
 
-
-
 {{< highlight csharp >}}
 
 // Set name to be able to remove it afterwards
 watermark.Name("WaterMark");
 {{< /highlight >}}
-
-
-
-
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-RemoveWatermark-RemoveWatermark.cs" >}}
 

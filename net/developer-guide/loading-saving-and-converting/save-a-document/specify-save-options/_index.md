@@ -14,7 +14,7 @@ The following code example shows how to set the save options before saving the d
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Loading-and-Saving/TestFile%20RenderShape.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}} 
 
@@ -38,9 +38,17 @@ The following code example shows how to load and save OpenDocument encrypted wit
 
 Not all formats support encryption and the use of **Password** property.
 
+## Update the Document Creation Time
+
+Aspose.Words provides an ability to use the [CreatedTime](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/createdtime) property to get or set the document creation date in UTC. You can also update this value before saving using the [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatecreatedtimeproperty) option.
+
+The following code example shows how to update the document creation time:
+
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-Working with PdfSaveOptions-UpdateIfLastPrinted.cs" >}}
+
 ## Update Last Saved Property
 
-Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastsavedtimeproperty) property to gets or sets a value determining whether the [LastSavedTime](https://apireference.aspose.com/net/words/aspose.words.properties/builtindocumentproperties/properties/lastsavedtime) property is updated before saving.
+Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastsavedtimeproperty) property to get or set a value determining whether the [LastSavedTime](https://apireference.aspose.com/net/words/aspose.words.properties/builtindocumentproperties/properties/lastsavedtime) property is updated before saving.
 
 The following code example shows how to set this property and save the document:
 

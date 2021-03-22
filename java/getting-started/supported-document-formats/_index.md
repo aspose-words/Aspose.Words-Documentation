@@ -6,6 +6,12 @@ weight: 30
 url: /java/supported-document-formats/
 ---
 
+{{% alert color="primary" %}}
+
+See the [File Format Wiki](https://docs.fileformat.com/) for more details on each file format.
+
+{{% /alert %}}
+
 The following table indicates the input and output file formats supported by Aspose.Words for Java:
 
 |Format|Description|Load|Save|Remarks|
@@ -26,11 +32,12 @@ The following table indicates the input and output file formats supported by Asp
 |HTML|HTML or XHTML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |MHTML|MHTML (Web archive) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |MOBI|MOBI is an eBook format used by the MobiPocket Reader and Amazon Kindle Readers.|{{< emoticons/tick >}}| | |
+|CHM|CHM (Compiled HTML Help) format.|{{< emoticons/tick >}}| | |
 |ODT|ODF Text Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |OTT|ODF Text Document Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |TXT|Plain Text|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |MD|Markdown Document|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|PDF|Saves the document as PDF (Adobe Portable Document) format.| |{{< emoticons/tick >}}| |
+|PDF|Saves the document as PDF (Adobe Portable Document) format.| {{< emoticons/tick >}} |{{< emoticons/tick >}}| |
 |XPS|Saves the document in the XPS (XML Paper Specification) format.| |{{< emoticons/tick >}}| |
 |XamlFixed|Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document.| |{{< emoticons/tick >}}| |
 |SVG|Saves the document in the SVG (Scalable Vector Graphics) format.| |{{< emoticons/tick >}}| |
@@ -47,7 +54,3 @@ The following table indicates the input and output file formats supported by Asp
 |EMF|Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file.| |{{< emoticons/tick >}}| |
 |JPEG|Renders a page of the document and saves it as a JPEG file.| |{{< emoticons/tick >}}| |
 |GIF|Renders a page of the document and saves it as a GIF file.| |{{< emoticons/tick >}}| |
-
-## See Also
-
-- [File Format Wiki](https://docs.fileformat.com/home/) provides file formats information
