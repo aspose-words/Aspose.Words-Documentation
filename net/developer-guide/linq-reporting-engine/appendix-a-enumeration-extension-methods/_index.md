@@ -76,6 +76,10 @@ persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name).ThenBy(p => p.Children
 persons.OrderByDescending(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
 persons.OrderByDescending(p => p.Age).ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
 persons.OrderByDescending(p => p.Age).ThenByDescending(p => p.Name).ThenBy(p => p.Children.Count()){{< /highlight >}}See the previous note. |
+|Select(Selector)|{{< highlight csharp >}}
+persons.Select(p => p.Name){{< /highlight >}}|
+|SelectMany(EnumerationSelector)|{{< highlight csharp >}}
+persons.SelectMany(p => p.Children){{< /highlight >}}|
 |Single()|{{< highlight csharp >}}
 persons.Single(){{< /highlight >}}|
 |Single(Predicate)|{{< highlight csharp >}}

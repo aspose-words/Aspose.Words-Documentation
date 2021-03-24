@@ -167,7 +167,7 @@ Below example shows how to insert a table using the constructors of nodes.
 
 ### Inserting a Clone of an Existing Table
 
-Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone) method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.SimpleTable.doc).
+Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone) method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cs" >}}
 
@@ -177,7 +177,7 @@ The same technique can be used to add copies of an existing row to a table.
 
 {{% /alert %}} 
 
-Below example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.SimpleTable.doc).
+Below example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-CloneTable-CloneLastRow.cs" >}}
 

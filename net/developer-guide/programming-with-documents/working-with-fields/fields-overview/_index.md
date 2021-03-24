@@ -18,7 +18,7 @@ A field consists of:
 - The field code defines the behavior of the field and is comprised of the field identifier and often other parameters such as field name and switches.
 - The field result contains the most recent evaluation of the field. This value is stored in the field result and is what is displayed to the user. Some fields may not have any field result thus will not display anything in the document. Likewise, some fields may not be updated yet therefore will also have no field result.
 
-Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/CSharp/Viewers-Visualizers/Document-Explorer).
+Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
 ![todo:image_alt_text](fields-overview_2.png)
 
@@ -230,7 +230,9 @@ Using the current culture to format fields allows a system to easily and consist
 
 #### Formatting using the Culture in the Document
 
-On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.The [Document](http://www.aspose.com/api/net/words/aspose.words/document) class provides a [FieldOptions](http://www.aspose.com/api/net/words/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from.
+On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
+
+The [Document](http://www.aspose.com/api/net/words/aspose.words/document) class provides a [FieldOptions](http://www.aspose.com/api/net/words/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}
 
@@ -242,7 +244,7 @@ A field which is inserted using DocumentBuilder.InsertField returns a Field obje
 
 ## How to Rename Merge Fields
 
-Below example shows how to rename merge fields in a Word document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Fields/RenameMergeFields.doc).
+Below example shows how to rename merge fields in a Word document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs" >}}
 

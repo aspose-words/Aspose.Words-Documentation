@@ -8,11 +8,29 @@ url: /java/what-s-new-in-aspose-words-for-java/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 21.1, 21.2
+{{% alert color="primary" %}}
+
+Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures and Aspose.Words.Vba namespaces were introduced and the Aspose.Words.Lists namespace was modified.
+
+In case of a compilation error, please add the appropriate line of code:
+
+{{< highlight java >}}
+import Aspose.Words.DigitalSignatures;
+import Aspose.Words.Vba;
+import Aspose.Words.Lists;
+{{< /highlight >}}
+
+For more information on these changes, see the [Aspose.Words for Java 21.3 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-3-release-notes/) page.
+
+{{% /alert %}}
+
+## Aspose.Words for Java 21.1, 21.2, 21.3
 
 Aspose.Words 21.1 expands loading and saving options and improves document display capabilities.
 
 Aspose.Words 21.2 enhances font properties, improves find and replace options, and expands possibilities when converting documents.
+
+Aspose.Words 21.3 expands rendering and reporting options, and improves interaction with styles and child nodes of the StructuredDocumentTag.
 
 ### Rendering
 
@@ -24,6 +42,10 @@ A new public option [VerticalAlignment](https://apireference.aspose.com/words/ja
 
 A new public API, allowing to manipulate themed properties of Font objects, has been implemented.
 
+#### Setting Fill Formatting of Text
+
+Font API has been extended with the [Fill](https://apireference.aspose.com/words/java/com.aspose.words/Fill) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
+
 ### Conversion
 
 #### Markdown Document Export
@@ -33,6 +55,10 @@ A new public property [ImageSavingCallback](https://apireference.aspose.com/word
 #### HTML Document Import
 
 A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/java/com.aspose.words/htmlloadoptions#IgnoreNoscriptElements) has been added to ignore `<noscript>` HTML elements upon loading HTML.
+
+### Reporting
+
+New extension methods **Select** and **SelectMany** have been added for the LINQ Reporting Engine.
 
 ### Search and Compare
 
@@ -44,11 +70,15 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 * A new public option [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateCreatedTimeProperty) has been added to update the [CreatedTime](https://apireference.aspose.com/words/java/com.aspose.words/BuiltInDocumentProperties#CreatedTime) property of a document upon saving.
 * A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://apireference.aspose.com/words/java/com.aspose.words/SdtType) structured document tag is updated from custom XML.
 * A new public method **OpenIStream** has been added to the **ComHelper** class to load documents from IStream objects in COM applications.
+* A new public method [ClearQuickStyleGallery](https://apireference.aspose.com/words/java/com.aspose.words/stylecollection#clearQuickStyleGallery()) has been added to the [StyleCollection](https://apireference.aspose.com/words/java/com.aspose.words/StyleCollection) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
+* An ability to work with child nodes of the [StructuredDocumentTag](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag) range has been added. New behavior follows the [CompositeNode](https://apireference.aspose.com/words/java/com.aspose.words/CompositeNode) pattern and returns a live collection.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 21.1 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-1-release-notes/).
 
 Learn more about [Aspose.Words for Java 21.2 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-2-release-notes/).
+
+Learn more about [Aspose.Words for Java 21.3 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-3-release-notes/).
 
 {{% /alert %}}

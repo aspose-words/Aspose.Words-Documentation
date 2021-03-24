@@ -1,20 +1,21 @@
 ---
 title: Aspose.Words for .NET
+description: "Aspose.Words for .NET is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
 type: docs
 weight: 10
 url: /net/
 is_root: true
 ---
 
-{{% alert color="primary" %}} 
+<img src="home_1" alt="aspose-words-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
-**![todo:image_alt_text](home_1)**
+**Welcome to Aspose.Words for .NET!**
 
-**Welcome to Aspose.Words for .NET**
+Aspose.Words for .NET is a class library that enables your applications to perform a great range of document processing tasks.
 
-Aspose.Words for .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word®.
+Aspose.Words supports most of the popular document formats such as DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB, and others.
 
-{{% /alert %}} 
+With Aspose.Words for .NET, you can generate, modify, convert, render, and print documents without third-party applications or Office Automation.
 
 **Aspose.Words for .NET Resources**
 

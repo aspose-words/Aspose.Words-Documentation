@@ -27,7 +27,7 @@ You can also check if a document has digital signatures after loading by checkin
 
 {{% /alert %}} 
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Loading-and-Saving/Document.Signed.docx).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Loading-and-Saving/Document.Signed.docx).
 
 
 ### Digital Signatures on Macros (VBA Projects)

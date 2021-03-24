@@ -21,11 +21,11 @@ To apply formatting to a table you can use the properties available on the corre
 
 ![todo:image_alt_text](applying-formatting_2.png)
 
-Below example shows how to apply an outline border to a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.EmptyTable.doc).
+Below example shows how to apply an outline border to a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyOutlineBorder.cs" >}}
 
-Below example shows how to build a table with all borders enabled (grid). You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.EmptyTable.doc)
+Below example shows how to build a table with all borders enabled (grid). You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx)
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-BuildTableWithBordersEnabled.cs" >}}
 
@@ -42,7 +42,7 @@ Formatting on the row level can be controlled using the [RowFormat](http://www.a
 ![todo:image_alt_text](applying-formatting_3.png)
 
 
-Below example shows how to modify the formatting of a table row. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.Document.doc).
+Below example shows how to modify the formatting of a table row. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyRowFormatting.cs" >}}
 
@@ -58,7 +58,7 @@ Formatting on the cell level is controlled using the [CellFormat](http://www.asp
 ![todo:image_alt_text](applying-formatting_5.png)
 
 
-Below example shows how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.Document.doc).
+Below example shows how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyCellFormatting.cs" >}}
 
@@ -164,7 +164,7 @@ Using the [CellFormat.PreferredWidth](http://www.aspose.com/api/net/words/aspose
 
 #### Finding Preferred Width Type and Value of a Table or Cell
 
-You can use [PreferredWidth.Type](http://www.aspose.com/api/net/words/aspose.words.tables/preferredwidth/properties/type) and [PreferredWidth.Value](http://www.aspose.com/api/net/words/aspose.words.tables/preferredwidth/properties/value) properties to find the preferred width details of the desired table or cell. Below example shows how to Retrieves the preferred width type of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.SimpleTable.doc).
+You can use [PreferredWidth.Type](http://www.aspose.com/api/net/words/aspose.words.tables/preferredwidth/properties/type) and [PreferredWidth.Value](http://www.aspose.com/api/net/words/aspose.words.tables/preferredwidth/properties/value) properties to find the preferred width details of the desired table or cell. Below example shows how to Retrieves the preferred width type of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-RetrievePreferredWidthType.cs" >}}
 
@@ -219,7 +219,7 @@ In Aspose.Words you can apply a table style by using any of the Table.Style, Tab
 
 Aspose.Words also provides a method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Test combine formatting with table style and cell style. This method will not override any other formatting that is already applied to the table through a row or cell format.
 
-Below example shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.TableStyle.docx).
+Below example shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyStyle-ExpandFormattingOnCellsAndRowFromStyle.cs" >}}
 

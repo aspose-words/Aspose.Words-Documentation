@@ -2,7 +2,7 @@
 title: Licensing
 type: docs
 weight: 50
-url: /java/licensing/
+url: /java/licensing-android/
 ---
 
 ## Evaluate Aspose.Words

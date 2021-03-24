@@ -56,7 +56,7 @@ You cannot use **DocumentPageSplitter** to split single-page documents.
 
 {{% alert color="primary" %}} 
 
-You can see the implementation of the DocumentPageSplitter class on [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/CSharp/Loading-and-Saving/PageSplitter.cs).
+You can see the implementation of the DocumentPageSplitter class on [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/cpp/Loading-and-Saving/PageSplitter.cpp).
 
 {{% /alert %}} 
 

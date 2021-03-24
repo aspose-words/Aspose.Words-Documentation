@@ -6,6 +6,8 @@ url: /java/working-with-styles/
 aliases: [/java/how-to-extract-content-based-on-styles/]
 ---
 
+The [StyleCollection](https://apireference.aspose.com/words/java/com.aspose.words/StyleCollection) class is used to manage built-in and apply user-defined settings to styles.
+
 ## How to Extract Content Based on Styles
 
 At a simple level, retrieving the content based on styles from a Word document can be useful to identify, list and count paragraphs and runs of text formatted with a specific style. For example, you may need to identify particular kinds of content in the document, such as examples, titles, references, keywords, figure names, and case studies.
@@ -16,7 +18,7 @@ To illustrate how easily Aspose.Words handles retrieving content based on styles
 
 At a high level, this will involve:
 
-1. Opening a Word document using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document class.
+1. Opening a Word document using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class.
 1. Getting collections of all paragraphs and all runs in the document.
 1. Selecting only the required paragraphs and runs.
 

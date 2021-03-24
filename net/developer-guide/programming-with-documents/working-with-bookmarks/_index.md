@@ -59,12 +59,12 @@ The following code example shows how to create a new bookmark.
 
 Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the [Node.Range](http://www.aspose.com/api/net/words/aspose.words/node/properties/range) property exposed by any document node that returns a [Range](http://www.aspose.com/api/net/words/aspose.words/range) object representing the portion of the document contained in this node. Use this object to retrieve a [BookmarkCollection](http://www.aspose.com/api/net/words/aspose.words/BookmarkCollection) and then use the collection indexer to get a specific bookmark.
 
-The following code example shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Bookmarks/Bookmarks.doc).
+The following code example shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Bookmarks.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-AccessBookmarks-AccessBookmarks.cs" >}}
 
 
-The following code example shows how to get or set a bookmark name and text. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Bookmarks/Bookmark.doc).
+The following code example shows how to get or set a bookmark name and text. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Bookmarks.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cs" >}}
 

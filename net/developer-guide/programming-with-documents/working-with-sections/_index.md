@@ -49,7 +49,7 @@ It is possible to change culture for current thread that will cause changing def
 
 {{% /alert %}} 
 
-The code sample below shows how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Sections/Document.doc).
+The code sample below shows how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-SectionsAccessByIndex-SectionsAccessByIndex.cs" >}}
 
@@ -73,13 +73,13 @@ In addition, you can use SectionCollection.Clear to remove all the sections from
 
 ### Adding Section Content
 
-If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below shows how to append content of an existing section. The number of sections in the document remains the same. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Sections/Section.AppendContent.doc).
+If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below shows how to append content of an existing section. The number of sections in the document remains the same.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-AppendSectionContent-AppendSectionContent.cs" >}}
 
 ### Deleting Section Content
 
-To delete the main text of a section, use Section.ClearContent. Below example shows how to delete main content of a section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Sections/Document.doc).
+To delete the main text of a section, use Section.ClearContent. Below example shows how to delete main content of a section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-DeleteSectionContent-DeleteSectionContent.cs" >}}
 
@@ -87,13 +87,13 @@ To delete the headers and footers in a section, call Section.ClearHeadersFooters
 
 ### Cloning a Section
 
-Use the Section.Clone method to create a duplicate of a particular section. Below example shows how to create a duplicate of a particular section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Sections/Document.doc).
+Use the Section.Clone method to create a duplicate of a particular section. Below example shows how to create a duplicate of a particular section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-CloneSection-CloneSection.cs" >}}
 
 ### Copying Sections between Documents
 
-Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](http://www.aspose.com/api/net/words/aspose.words/documentbase/methods/importnode) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. Below example shows how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Sections/Document.doc).
+Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](http://www.aspose.com/api/net/words/aspose.words/documentbase/methods/importnode) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. Below example shows how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-CopySection-CopySection.cs" >}}
 
