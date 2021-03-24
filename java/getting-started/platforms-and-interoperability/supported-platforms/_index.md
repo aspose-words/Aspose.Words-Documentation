@@ -1,7 +1,7 @@
 ---
 title: Supported Platforms
 type: docs
-weight: 30
+weight: 5
 url: /java/supported-platforms/
 aliases: [/java/java/]
 ---

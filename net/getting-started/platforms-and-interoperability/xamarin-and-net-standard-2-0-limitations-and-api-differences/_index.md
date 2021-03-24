@@ -1,7 +1,7 @@
 ---
 title: Xamarin and .NET Standard 2.0 Limitations and API Differences
 type: docs
-weight: 70
+weight: 130
 url: /net/xamarin-and-net-standard-2-0-limitations-and-api-differences/
 ---
 
