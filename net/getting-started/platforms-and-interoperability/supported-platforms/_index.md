@@ -1,7 +1,7 @@
 ---
 title: Supported Platforms
 type: docs
-weight: 20
+weight: 5
 url: /net/supported-platforms/
 ---
 
