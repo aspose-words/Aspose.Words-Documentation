@@ -1,23 +1,23 @@
 ---
-title: WordprocessingML - DOCX and XML
+title: WordprocessingML – DOCX and XML
 type: docs
 weight: 30
 url: /net/wordprocessingml-docx-and-xml/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-You can check the quality of Aspose.Words conversion and view the results online at this link:
+**Try online**
 
-<https://products.aspose.app/words/conversion>
+You can try the conversion functionality and check its quality by using our [Free online converter](https://products.aspose.app/words/conversion) tool.
 
-{{% /alert %}} 
+{{% /alert %}}
 
+<img src="wordprocessingml-docx-and-xml_1.png" alt="wordprocessingml-docx-and-xml_1" align="left" style="width:90px; margin: 0 30px 30px 0"/>
 
-## About Word processingML
+WordprocessingML or WordML is the name of a family of XML-based formats for word processing documents. WordprocessingML is the markup language used by Microsoft Office Word to store its [DOCX](https://docs.fileformat.com/word-processing/docx/) documents.
 
-|![todo:image_alt_text](wordprocessingml-docx-and-xml_1.png)|WordprocessingML or WordML is a name for a family of XML-based formats for word processing documents. <br><br>WordprocessingML was first introduced in Microsoft Word 2003. WordprocessingML was a significant step by Microsoft towards making the document format open. It is plain XML format. <br><br>[Office Open XML](http://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for several specialized XML-based markup languages. WordprocessingML is the markup language used by Microsoft Office Word to store its [DOCX](https://docs.fileformat.com/word-processing/docx/)documents.|
-| :- | :- |
+Office Open XML (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. OOXML is a container format for several specialized XML-based markup languages.
 
 ## WordprocessingML in Aspose.Words
 
