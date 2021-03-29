@@ -19,17 +19,18 @@ WordprocessingML or WordML is the name of a family of XML-based formats for word
 
 Office Open XML (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. OOXML is a container format for several specialized XML-based markup languages.
 
-## WordprocessingML in Aspose.Words
+## WordprocessingML Support in Aspose.Words
 
-This table explains which “versions" of WordprocessingML are supported by Aspose.Words for .NET:
+The following table explains which “versions" of WordprocessingML are supported by Aspose.Words for .NET:
 
 |WordprocessingML “Version”|Applicable Standard/Specification|Supported|
 | :- | :- | :- |
-|Microsoft Word 2003|[Microsoft Word 2003 XML](http://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Yes|
+|Microsoft Word 2003|Microsoft Word 2003 XML|Yes|
 |Microsoft Word 2007|[OOXML ECMA-376](http://www.ecma-international.org/publications/standards/Ecma-376.htm)|Yes|
 |Microsoft Word 2010|OOXML ISO /IEC DIS 29500|Yes|
 |Microsoft Word 2013|DOCX extensions spec [MS-DOCX]<br>Drawing ML extension spec [MS-ODRAWXML]<br>A few elements/attributes from [ISO/IEC 29500-1:2012] which were previously unsupported in Word 2010|Yes|
 |Microsoft Word 2016|DOCX extensions spec [MS-DOCX] <br>Drawing ML extension spec [MS-ODRAWXML] v2017-02-02<br>Elements/attributes from [ISO/IEC 29500-1/4:2012]|Yes|
+|Microsoft Word 2019|**???**|Yes|
 
 OOXML WordprocessingML documents most often come as DOCX files, which are ZIP packages. In addition to DOCX, Aspose.Words also supports loading and saving OOXML in the “plain XML” [FlatOPC](http://blogs.msdn.com/ericwhite/archive/2008/09/29/the-flat-opc-format.aspx) format. 
 
