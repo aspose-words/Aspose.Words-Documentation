@@ -1,85 +1,95 @@
 ---
 title: System Requirements
+description: "Before you start working with Aspose.Words for .NET, ensure that you meet the operating system, platform, frameworks, and environment requirements so the activities on your devices are properly accounted for."
 type: docs
 weight: 70
 url: /net/system-requirements/
 ---
 
-## Overview
-
-Aspose.Words for .NET does not require Microsoft Word to be installed. Aspose.Words itself is a Microsoft Word document creation, conversion, page layout and rendering engine.
+Aspose.Words for .NET does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converticg, and rendering of documents in various formats, including Microsoft Word document formats.
 
 ## Supported Operating Systems
 
-Aspose.Words for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed including, but not limited to:
+Aspose.Words for .NET supports any 64-bit or 86-bit operating system where .NET framework, Mono or .NET Core is installed, including but not limited to the versions listed in the following table.
 
-### Windows
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:400px">Operating System</td>
+			<td style="font-weight: bold; width:400px">Versions</td>
+		</tr>
+  <tr>
+			<td>Microsoft Windows</td>
+			<td><ul><li>Windows 2003 Server (x64, x86)</li><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows XP (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
+		</tr>
+  <tr>
+			<td>Linux</td>
+			<td><ul><li>Ubuntu</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
+		</tr>
+  <tr>
+			<td>macOS</td>
+			<td><ul><li>macOS version 10.9 (Mavericks) and later</li></ul></td>
+		</tr>
+  <tr>
+			<td>Mobile</td>
+			<td><ul><li>Android</li><li>iOS</li></ul></td>
+		</tr>
+</table>
 
-- Microsoft Windows 2003 Server ( x64, x86)
-- Microsoft Windows 2008 Server ( x64, x86)
-- Microsoft Windows 2012 Server ( x64, x86)
-- Microsoft Windows 2012 R2 Server ( x64, x86)
-- Microsoft Windows 2016 Server ( x64, x86)
-- Microsoft Windows 2019 Server ( x64, x86)
-- Microsoft Windows Vista ( x64, x86)
-- Microsoft Windows XP ( x64, x86)
-- Microsoft Windows 7 ( x64, x86)
-- Microsoft Windows 8, 8.1 ( x64, x86)
-- Microsoft Windows 10 ( x64, x86)
-- Microsoft Azure
+## Supported Cloud Platforms
 
-### Linux
+Aspose.Words for .NET also supports cloud platforms, including but not limited to the solutions listed in the following table.
 
-- Linux (Ubuntu, OpenSUSE, CentOS and others)
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:800px">Cloud platforms</td>
+		</tr>
+  <tr>
+			<td><ul><li>Amazon Web Services</li><li>Microsoft Azure</li></ul></td>
+			</tr>
+</table>
 
-### Mac
+{{% alert color="primary" %}}
 
-- Mac OS X
+Note that the list above can be extended with other cloud solutions, provided these solutions are supported by .NET Core or .NET Framework.
 
-## Supported Frameworks
+{{% /alert %}}
 
-Aspose.Words for .NET supports .NET and Mono frameworks as follows:
+## Supported Frameworks, Specifications, and Implementations
 
-### .NET Frameworks
+Aspose.Words for .NET supports .NET and Mono frameworks listed in the following table.
 
-- .NET Framework 2.0
-- .NET Framework 3.5
-- .NET Framework 4.0
-- .NET Framework 4.0_ClientProfile
-- .NET Framework 4.5.0
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6.0
-- .NET Framework 4.6.2
-- .NET Framework 4.5.0
-- .NET Framework 4.5.1
-- .NET Framework 4.6.0
-- .NET Framework 4.6.2
-- .NET Framework 4.7
-- .NET Framework 4.7.2
-- .NET Framework 4.8
-- .NET Standard 2.0 
-- .NET Core 2.0
-- .NET Core 2.1
-- .NET Core 3.0
-- .NET 5.0
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:800px">Frameworks</td>
+		</tr>
+	</tr>
+  <tr>
+			<td><ul><li>.NET Framework 2.0</li><li>.NET Framework 3.5</li><li>.NET Framework 4.0</li><li>.NET Framework 4.0_ClientProfile</li><li>.NET Framework 4.5.0</li><li>.NET Framework 4.5.1</li><li>.NET Framework 4.5.2</li><li>.NET Framework 4.6.0</li><li>.NET Framework 4.6.2</li><li>.NET Framework 4.7</li><li>.NET Framework 4.7.2</li><li>.NET Framework 4.8</li><li>Mono 2.6.7 and later</li></ul></td>
+		</tr>
+</table>
 
-### Mono Framework
+Aspose.Words for .NET also supports .NET Standard 2.0 specification and its implementations listed in the following table.
 
-- Mono 2.6.7 or later
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:400px">Specification</td>
+			<td style="font-weight: bold; width:400px">Implementations</td>
+		</tr>
+  <tr>
+			<td>.NET Standard 2.0</td>
+			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 3.0</li><li>.NET 5.0</li></ul></td>
+			</tr>
+</table>
 
-## Development Environments
+## Development Environment
 
-Aspose.Words for .NET can be used to develop applications in any development environment that targets the .NET platform, but the following environments are explicitly supported:
+Aspose.Words for .NET can be used to develop applications in any development environment targeting the .NET platform, but the environments listed in the following table are explicitly supported:
 
-- Microsoft Visual Studio 2010
-- Microsoft Visual Studio 2011
-- Microsoft Visual Studio 2012
-- Microsoft Visual Studio 2013
-- Microsoft Visual Studio 2015
-- Microsoft Visual Studio 2017
-- Microsoft Visual Studio 2019
-- Xamarin.Android
-- Xamarin.IOS
-- Xamarin.Mac
-- MonoDevelop 2.4 and later
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:800px">Development environments</td>
+		</tr>
+  <tr>
+			<td><ul><li>Microsoft Visual Studio 2010</li><li>Microsoft Visual Studio 2011</li><li>Microsoft Visual Studio 2012</li><li>Microsoft Visual Studio 2013</li><li>Microsoft Visual Studio 2015</li><li>Microsoft Visual Studio 2017</li><li>Microsoft Visual Studio 2019</li><li>Xamarin.Mac</li><li>Xamarin.Android</li><li>Xamarin.iOS</li><li>MonoDevelop 2.4 and later</li></ul></td>
+			</tr>
+</table>
