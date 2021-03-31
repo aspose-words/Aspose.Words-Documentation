@@ -6,11 +6,11 @@ weight: 70
 url: /net/system-requirements/
 ---
 
-Aspose.Words for .NET does not require any **<u>third party product such as</u>** Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converticg, and rendering of documents in various formats, including Microsoft Word document formats.
+Aspose.Words for .NET does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converticg, and rendering of documents in various formats, including Microsoft Word document formats.
 
 ## Supported Operating Systems
 
-Aspose.Words for .NET supports any 64-bit or 86-bit operating system where .NET framework, Mono or .NET Core is installed, **<u>including but not limited to the versions listed in the following table.</u>**
+Aspose.Words for .NET supports any 64-bit or 86-bit operating system where .NET framework, Mono or .NET Core is installed, including but not limited to the versions listed in the following table.
 
 <table>  
 	<tr>
@@ -19,7 +19,7 @@ Aspose.Words for .NET supports any 64-bit or 86-bit operating system where .NET 
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Windows 2003 Server (x64, x86)</li><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
+			<td><ul><li>Windows 2003 Server (x64, x86)</li><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows XP (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
 		</tr>
   <tr>
 			<td>Linux</td>
@@ -50,7 +50,7 @@ Aspose.Words for .NET also supports cloud platforms, including but not limited t
 
 {{% alert color="primary" %}}
 
-Note that the list above can be extended with other cloud solutions, provided that these solutions are supported by .NET Core or .NET Framework.
+Note that the list above can be extended with other cloud solutions, provided these solutions are supported by .NET Core or .NET Framework.
 
 {{% /alert %}}
 
