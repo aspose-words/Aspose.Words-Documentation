@@ -240,7 +240,7 @@ The fill transparency is 0%
 
 Related issue: WORDSNET-21246
 
-The constructors for StructuredDocumentTagRangeStart and StructuredDocumentTagRangeEnd classes have been published. Now the instances of these classes can be created manually.
+The constructors for StructuredDocumentTagRangeStart and StructuredDocumentTagRangeEnd classes have been made public. Now the instances of these classes can be created manually.
 
 {{< highlight csharp >}}
 /// <summary>
