@@ -1,50 +1,46 @@
 ---
 title: Installation
+description: "Install Aspose.Words for C++ using Manage NuGet Packages or Package Manager Console, as well as manual installer."
 type: docs
 weight: 40
 url: /cpp/installation/
 ---
 
-## Installing Aspose.Words for C++
+Make sure your machine meets the [system requirements](https://docs.aspose.com/words/cpp/system-requirements/) before you begin.
 
-### Manual Installation
+This article explains how to instal Aspose.Words for C++ on your computer.
 
-You can download [Aspose.Words for C++](https://www.nuget.org/packages/Aspose.Words.Cpp/) from NuGet Gallery, by clicking the "Manual download" link in the Info Section. Offline API Documentation can also be found in the downloaded ZIP package.
+## Install or Update Aspose.Words for C++ using Manage NuGet Packages
 
-Please perform the following steps in order to use Aspose.Words for C++ in your applications:
+NuGet is the easiest way to download and install [Aspose.Words for C++](https://www.nuget.org/packages/Aspose.Words.Cpp) APIs. To do this, follow these steps:
 
-1. [Download](https://www.nuget.org/packages/Aspose.Words.Cpp/) the latest files.
-1. Unzip the folder to the production environment.
-1. To use Aspose.Words for C++, reference Include and lib folders in your project.
+1. Open *Microsoft Visual Studio* and *Manage NuGet Packages*
+2. Search "aspose" or "aspose.words" to find the desired Aspose API<br>
+   <img src="aspose-words-nuget.PNG" alt="aspose-words-nuget" style="width:800px"/>
+3. Click "Install"
 
-### Using NuGet Package Manager
+The selected API will be downloaded and referenced in your project.
 
-1. In NuGet Package Manager, search for Aspose.Words. 
-   1. Here is the [Link to NuGet Package Aspose.Words.Cpp](https://www.nuget.org/packages/Aspose.Words.Cpp).
-1. It will list the API as Aspose.Words.Cpp.
-1. Press the Add button to install the package 
+You can also update Aspose.Words for C++ to the desired version using *Manage NuGet Packages*.
 
-## System Requirements
+## Install or Update Aspose.Words using Package Manager Console
 
-### Operating Systems
+You can also install or update Aspose.Words for .NET APIs using the *Package Manager Console*. To do this, follow these steps:
 
-Aspose.Words for C++ is a native library. Aspose.Words for C++ supports 64-bit operating systems, but not limited to:
+1. Open *Microsoft Visual Studio* and *Package Manager Console* from the menu to open package manager console
+2. Type the command `Install-Package Aspose.Words.Cpp -Version 21.3.0` and press Enter to install the latest full release into your application
+3. Once downloaded, you will see confirmation messages<br>
+   {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula), it is recommended to read the license referenced in the URL.{{% /alert %}}
+4. Now you may find that Aspose.Words has been successfully added and referenced in your application for you.
 
-- Microsoft Windows desktop (Vista, 7, 8, 10) and server operating systems (2003, 2008, 2012), etc.
-- Linux x86_x64 Architecture
+In *Package Manager Console*, you can also use the `Update-Package Aspose.Words.Cpp` command to check for updates to the Aspose.Words package and install them if present.
 
-### Development Environments
+## Install Aspose.Words for C++ Manually
 
-You can use Aspose.Words for C++ to develop applications in any development environment that supports C++, but the following environments are explicitly supported:
+You can download [Aspose.Words for C++ from NuGet Gallery](https://www.nuget.org/packages/Aspose.Words.Cpp/) by clicking the "Manual download" link in the Info Section. Offline API Documentation can also be found in the downloaded ZIP package.
 
-- Microsoft Visual C++ version 2017 or higher
-- GCC 6.3 or higher
-- Clang 3.9.1 or higher
+To use Aspose.Words for C++ in your applications, follow these steps:
 
-{{% alert color="primary" %}} 
-While using Visual Studio 2017, you may also need to install Visual C++ Redistributable from here: https://aka.ms/vs/16/release/vc_redist.x64.exe
-{{% /alert %}} 
-
-## See also
-
-- [Configure Aspose.Words for C++ in Visual Studio 2019](/words/cpp/configure-aspose-words-for-cpp-in-visual-studio-2019/)
+1. Download the latest files
+2. Unzip the folder into a production environment
+3. To use Aspose.Words for C++, refer to the Include and lib folders in your project

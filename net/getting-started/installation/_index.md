@@ -1,68 +1,77 @@
 ---
 title: Installation
+description: "Install Aspose.Words for .NET using Visual Studio tools such as Manage NuGet Packages or Package Manager Console and the MSI installer. Use the Full Trust permission set."
 type: docs
 weight: 90
 url: /net/installation/
 ---
 
-## Installing Aspose.Words for .NET through NuGet
+Make sure your machine meets the [system requirements](https://docs.aspose.com/words/net/system-requirements/) before you begin.
 
-NuGet is the easiest way to download and install [Aspose APIs for .NET](https://www.nuget.org/profiles/Aspose). Open Microsoft Visual Studio and NuGet package manager. Search "aspose" to find the desired Aspose API. Click on "Install", the selected API will be downloaded and referenced in your project.
+This article explains how to instal Aspose.Words for .NET on your computer.
 
-![todo:image_alt_text](installation_1.png)
+## Install or Update Aspose.Words for .NET using Manage NuGet Packages
 
-### Install or Update Aspose.Words using the Package Manager Console
+NuGet is the easiest way to download and install [Aspose.Words for .NET](https://www.nuget.org/packages/Aspose.Words/) APIs. To do this, follow these steps:
 
-You can follow the steps below to reference the [Aspose.Words API](https://www.nuget.org/packages/Aspose.Words/) using the package manager console:
+1. Open *Microsoft Visual Studio* and *Manage NuGet Packages*
+2. Search "aspose" or "aspose.words" to find the desired Aspose API<br>
+   <img src="aspose-words-nuget.PNG" alt="aspose-words-nuget" style="width:800px"/>
+3. Click "Install"
 
-1. Open your solution/project in Visual Studio.
-1. Select Tools -> Library Package Manager -> Package Manager Console from the menu to open package manager console.
+The selected API will be downloaded and referenced in your project.
 
-![todo:image_alt_text](installation_2.jpg)
+You can also update Aspose.Words for .NET to the desired version using *Manage NuGet Packages*.
 
-Type the command “**Install-Package Aspose.Words**” and press enter to install the latest full release into your application. Alternatively, you can add the "**-prerelease**" suffix to the command in order to specify that the latest release including hotfixes is to be installed as well.
+## Install or Update Aspose.Words using Package Manager Console
 
-![todo:image_alt_text](installation_3.jpg)
+You can also install or update Aspose.Words for .NET APIs using the *Package Manager Console*. To do this, follow these steps:
 
-You will see the "Downloading Aspose.Words..." tip appears down the bottom left of the window indicating that the download processes. 
+1. Open *Microsoft Visual Studio* and *Package Manager Console* from the menu to open package manager console<br>
+   <img src="aspose-words-nuget-update.PNG" alt="aspose-words-nuget-update" style="width:600px"/>
+2. Type the command `Install-Package Aspose.Words` and press Enter to install the latest full release into your application<br>
+   {{% alert color="primary" %}}In addition, you can add the `-prerelease` suffix to the command to specify that the latest release, including hotfixes, should also be installed.{{% /alert %}}
+   <img src="aspose-words-nuget-update-2.png" alt="aspose-words-nuget-update-2" style="width:600px"/>
+3. Once downloaded, you will see the following confirmation messages<br>
+   {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula), it is recommended to read the license referenced in the URL.{{% /alert %}}
+   <img src="aspose-words-nuget-istalled.png" alt="aspose-words-nuget-istalled" style="width:600px"/>
+4. Now you may find that Aspose.Words has been successfully added and referenced in your application for you<br>
+   <img src="aspose-words-nuget-references.png" alt="aspose-words-nuget-references" style="width:400px"/>
 
-![todo:image_alt_text](installation_4.jpg)
 
-Once downloaded you will see the following confirmation messages. If you are not familiar with the [Aspose EULA](http://www.aspose.com/corporate/purchase/end-user-license-agreement.aspx) then it is a good idea to read the license referenced in the URL. 
 
-![todo:image_alt_text](installation_5.jpg)
+In *Package Manager Console*, you can also use the `Update-Package Aspose.Words` command to check for updates to the Aspose.Words package and install them if present. You can also add the `-prerelease` suffix to update the latest release.
 
-You should now find that Aspose.Words has successfully been added and referenced in your application for you.
+## Install Aspose.Words for .NET using Installer
 
-![todo:image_alt_text](installation11.png)
+Aspose.Words for .NET can be installed by direct downloading the MSI installer from the [downloads section](https://downloads.aspose.com/words).
 
-In the package manager console, you can also use the command “**Update-Package Aspose.Words**” and press enter to check for any updates to the Aspose.Words package and install them if present. You can also add the "-prerelease" suffix to update the latest release.
+{{% alert color="primary" %}}
 
-## Installing Aspose.Words for .NET through Installer
+You must be logged in to download the installer. If you are not registered yet, you can may sign up for free.
 
-Aspose.Words for .NET can be installed by direct downloading the MSI installer from the [downloads section](https://downloads.aspose.com/words/net). You must be logged in to download the installer. If you are not already registered then you may signup for free.
+{{% /alert %}}
 
-Please follow the steps below:
+To Install Aspose.Words for .NET, follow these steps:
 
-1. Download **Aspose.Words_{LatestVersion}.msi** from the [downloads section](https://downloads.aspose.com/words/net).
-1. Doble-click the downloaded file. The setup wizard shall start. Follow the setup wizard instructions. When the setup wizard shall finish the installation, the required files shall be available in the folder at the provided folder path.<br>
-![todo:image_alt_text](installation_6.png)<br>
-![todo:image_alt_text](installation_7.jpg)<br>
-![todo:image_alt_text](installation_8.jpg)<br>
-![todo:image_alt_text](installation_9.jpg)<br>
-1. Open your solution/project in Visual Studio.
-1. Right-click on your project in solution explorer and add the reference to the installed assemblies.
-1. Aspose.Words for .NET installed assemblies shall appear in extensions under Assemblies section. Select your required DLL component.<br>
-![todo:image_alt_text](installation_10.png)<br>
-1. Finally, click OK.
+1. Download Aspose.Words_{LatestVersion}.msi from the [downloads section](https://downloads.aspose.com/words)
+2. Doble-click the downloaded file, thereby starting the setup wizard, follow the setup wizard instructions<br>
+   <img src="aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
+3. When the setup wizard completes the installation, the required files will be available in the folder at the provided folder path<br>
+   <img src="aspose-words-setup-4.jpg" alt="aspose-words-setup-4" style="width:500px"/>
+4. Open your solution/project in Visual Studio
+5. Right-click your project in *Solution Explorer* and add the reference to installed assemblies
+6. Aspose.Words for .NET installed assemblies will appear in extensions under the Assemblies section – just select the required DLL component<br>
+   <img src="aspose-words-setup-5.png" alt="aspose-words-setup-5" style="width:800px"/>
+7. Finally, click OK
 
-## Considerations When Running on a Shared Server Environment
+## Considerations When Running in a Shared Server Environment
 
-All Aspose .NET components are recommended to run with Full Trust permission set. This is because Aspose .NET component sometimes needs to access registry settings and files located in places other than the virtual directory e.g. for reading fonts etc. Furthermore, Aspose.NET components are based on core .NET system classes, some of which also require Full Trust permission to run in some cases.
+All Aspose .NET components are recommended to run with the *Full Trust* permission set. This is because Aspose .NET component sometimes needs access to registry settings and files located in places other than the virtual directory, such as reading fonts. Furthermore, Aspose.NET components are based on core .NET system classes, some of which also require *Full Trust* permission to run in some cases.
 
-Internet Service Providers hosting multiple applications from different companies mostly enforce Medium Trust security level. In the case of .NET 2.0, such a security level may set the following constraints which could affect the ability of Aspose.Words to perform properly.
+Internet Service Providers hosting multiple applications from different companies mostly enforce *Medium Trust* security level. In the case of .NET 2.0, such a security level may impose the following constraints, which may affect the ability of Aspose.Words to perform properly:
 
-- **RegistryPermission** is not available. This means you cannot access the registry, which is required to enumerate installed fonts when rendering documents.
-- **FileIOPermission** is restricted. This means you can only access files in your application’s virtual directory hierarchy. This potentially means fonts cannot be read during export.
+- **RegistryPermission** is not available. This means that you cannot access the registry, which is required to enumerate installed fonts when rendering documents.
+- **FileIOPermission** is restricted. This means that you can only access files in your application’s virtual directory hierarchy. This also potentially means fonts cannot be read during export.
 
-For these reasons specified above, it is recommended that Aspose.Words is run on Full Trust permissions. You may find that some features of the library will work when performing different tasks in Medium trust while some won't (rendering for example) which may due to calls to GDI+ image processing.
+For these reasons specified above, it is recommended to run Aspose.Words with Full Trust permissions. You may find that some of library features will work when performing different tasks with Medium trust, and some will not, for example, rendering. This can be related to GDI+ image processing calls.
