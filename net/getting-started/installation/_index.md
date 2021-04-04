@@ -14,10 +14,10 @@ This article explains how to instal Aspose.Words for .NET on your computer.
 
 NuGet is the easiest way to download and install [Aspose.Words for .NET](https://www.nuget.org/packages/Aspose.Words/) APIs. To do this, follow these steps:
 
-1. Open *Microsoft Visual Studio* and *Manage NuGet Packages*
-2. Search "aspose" or "aspose.words" to find the desired Aspose API<br>
+1. Open *Microsoft Visual Studio* and *Manage NuGet Packages* from the menu to open package manager
+2. Search for "aspose" or "aspose.words" to find the desired Aspose API<br>
    <img src="aspose-words-nuget.PNG" alt="aspose-words-nuget" style="width:800px"/>
-3. Click "Install"
+3. Select the desired Aspose API and click "Install"
 
 The selected API will be downloaded and referenced in your project.
 
@@ -30,11 +30,11 @@ You can also install or update Aspose.Words for .NET APIs using the *Package Man
 1. Open *Microsoft Visual Studio* and *Package Manager Console* from the menu to open package manager console<br>
    <img src="aspose-words-nuget-update.PNG" alt="aspose-words-nuget-update" style="width:600px"/>
 2. Type the command `Install-Package Aspose.Words` and press Enter to install the latest full release into your application<br>
+   <img src="aspose-words-nuget-update-2.png" alt="aspose-words-nuget-update-2" style="width:600px"/><br>
    {{% alert color="primary" %}}In addition, you can add the `-prerelease` suffix to the command to specify that the latest release, including hotfixes, should also be installed.{{% /alert %}}
-   <img src="aspose-words-nuget-update-2.png" alt="aspose-words-nuget-update-2" style="width:600px"/>
-3. Once downloaded, you will see the following confirmation messages<br>
+3. Once downloaded, you will see confirmation messages<br>
+   <img src="aspose-words-nuget-istalled.png" alt="aspose-words-nuget-istalled" style="width:600px"/><br>
    {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula), it is recommended to read the license referenced in the URL.{{% /alert %}}
-   <img src="aspose-words-nuget-istalled.png" alt="aspose-words-nuget-istalled" style="width:600px"/>
 4. Now you may find that Aspose.Words has been successfully added and referenced in your application for you<br>
    <img src="aspose-words-nuget-references.png" alt="aspose-words-nuget-references" style="width:400px"/>
 
