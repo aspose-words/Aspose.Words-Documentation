@@ -3,21 +3,17 @@ title: Supported Features on Document Save
 type: docs
 weight: 30
 url: /net/supported-features-on-document-save/
+aliases: [/net/document-saving-overview/]
 ---
 
-**This section includes the following topics:** 
+Aspose.Words has some of the most advanced conversion support of the common word processing formats.
 
-- [Document Saving Overview](/words/net/document-saving-overview)
-- [Export to a Printing Device](/words/net/export-to-a-printing-device)
-- [Save in the Adobe Portable Document (.PDF) Format](/words/net/save-in-the-adobe-portable-document-pdf-format/)
-- [Save in the FlatOPC OOXML Document (.XML) Format](/words/net/save-in-the-flatopc-ooxml-document-xml-format/)
-- [Save in the HTML (.HTML, .XHTML, .MHTML) Format](/words/net/save-in-the-html-html-xhtml-mhtml-format/)
-- [Save in the IDPF EPUB Document (.EPUB) Format](/words/net/save-in-the-idpf-epub-document-epub-format/)
-- [Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format](/words/net/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/)
-- [Save in the Microsoft Word 2003 WordprocessingML (.XML) Format](/words/net/save-in-the-microsoft-word-2003-wordprocessingml-xml-format/)
-- [Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format](/words/net/save-in-the-microsoft-word-document-97-2003-document-doc-dot-format/)
-- [Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format](/words/net/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/)
-- [Save in the Open XML Paper Specification (.XPS) Format](/words/net/save-in-the-open-xml-paper-specification-xps-format/)
-- [Save in the OpenDocument Text (.ODT, .OTT) Format](/words/net/save-in-the-opendocument-text-odt-ott-format/)
-- [Save in the Plain Text (.TXT) Format](/words/net/save-in-the-plain-text-txt-format/)
-- [Save in the Rich Text Format 1.9 (.RTF) Format](/words/net/save-in-the-rich-text-format-1-9-rtf-format/)
+All imported documents loaded into Aspose.Words can be exported to any other supported format. Features are preserved during conversion. Conversion between formats gives some of the best conversion results out there. 
+
+To save a document simply use the [Document.Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) method and specify the file extension or [SaveFormat](https://apireference.aspose.com/words/net/aspose.words/saveformat) type to convert the document to the specified format.
+
+There are also many save options available to control how documents are exported to a format. For example, there is a save option to choose compliance when exporting to Open Office XML formats, or to choose the page range to export when rendering to fixed page formats such as PDF, XPS, Image etc. Each export format type has its own save option class, for instance PDF has the [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/PdfSaveOptions) class, and HTML has the [HtmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/HtmlSaveOptions) class and so forth.
+
+Aspose.Words can convert a document of any size as long as there is sufficient working memory to complete the operation. Additionally, if available memory is low, you can choose a temporary folder during export to DOC or DOCX format. This allows resources during conversion to be stored temporarily to disk. These files are removed after conversion is complete. This allows large documents to be saved even when there is not much memory available.
+
+The following pages describe how each Microsoft Word feature is handled and the current level of support during the saving of a document to the chosen format. 
