@@ -2,8 +2,9 @@
 title: Work with Options and Appearance of Word Documents
 description: "Aspose.Words for .NET allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
-weight: 30
-url: /net/work-with-document-options-and-settings/
+weight: 120
+url: /net/work-with-word-document-options-and-appearance/
+aliases: [/net/work-with-document-options-and-settings/]
 ---
 
 Sometimes you may need to change the appearance of a document, for example, set language preferences or the number of lines per page.Aspose.Words provides the ability to control how the document will be displayed, as well as some additional options. This article describes such possibilities.
@@ -18,7 +19,7 @@ The following code example shows how to ensure that a document is displayed at 5
 
 {{% alert color="primary" %}}
 
-You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Document/TestFile.doc).
+You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 

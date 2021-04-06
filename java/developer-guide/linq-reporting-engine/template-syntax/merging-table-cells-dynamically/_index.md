@@ -8,10 +8,16 @@ url: /java/merging-table-cells-dynamically/
 You can merge table cells with equal textual contents within your reports dynamically using `cellMerge` tags. Syntax of a `cellMerge` tag is defined as follows.
 
 {{< highlight csharp >}}
-<<cellMerge -horz>>
+<<cellMerge>>
 {{< /highlight >}}
 
-A `horz` switch is optional. If the switch is present, it denotes a cell merging operation in a horizontal direction. If the switch is missing, it means that a cell merging operation is to be performed in a vertical direction (the default).
+By default, a cellMerge tag causes a cell merging operation only in a vertical direction during runtime. However, you can alter this behavior in the following ways:
+
+- To merge cells only in a horizontal direction, use the horz switch as follows.
+{{< highlight csharp >}}<<cellMerge -horz>>{{< /highlight >}}
+
+- To merge cells in both – vertical and horizontal – directions, use the both switch as follows.
+{{< highlight csharp >}}<<cellMerge -both>>{{< /highlight >}}
 
 For two or more successive table cells to be merged dynamically in either direction by the engine, the following requirements must be met:
 

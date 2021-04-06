@@ -6,6 +6,12 @@ weight: 20
 url: /net/supported-document-formats/
 ---
 
+{{% alert color="primary" %}}
+
+See the [File Format Wiki](https://docs.fileformat.com/) for more details on each file format.
+
+{{% /alert %}}
+
 The following table indicates the input and output file formats supported by Aspose.Words for .NET:
 
 |Format|Description|Load|Save|Remarks|
@@ -48,7 +54,3 @@ The following table indicates the input and output file formats supported by Asp
 |EMF|Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file.| |{{< emoticons/tick >}}| |
 |JPEG|Renders a page of the document and saves it as a JPEG file.| |{{< emoticons/tick >}}| |
 |GIF|Renders a page of the document and saves it as a GIF file.| |{{< emoticons/tick >}}| |
-
-## See Also
-
-- [File Format Wiki](https://docs.fileformat.com/) provides file formats information

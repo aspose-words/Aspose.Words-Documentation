@@ -2,7 +2,7 @@
 title: Work with Document Properties
 description: "Aspose.Words for C++ allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
-weight: 20
+weight: 10
 url: /cpp/work-with-document-properties/
 ---
 

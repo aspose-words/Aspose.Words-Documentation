@@ -1,43 +1,48 @@
 ---
 title: Installation
+description: "Install Aspose.Words for Java from Maven repository. Define the Aspose.Words for Java dependency in your pom.xml"
 type: docs
 weight: 110
 url: /java/installation/
 ---
 
-## Installing Aspose.Words for Java from Maven Repository
+Make sure your machine meets the [system requirements](https://docs.aspose.com/words/java/system-requirements/) before you begin.
 
-Aspose hosts all Java APIs on [Maven repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose). You can easily use Aspose.Words for Java API directly in your Maven Projects with simple configurations.
+This article explains how to instal Aspose.Words for Java on your computer.
 
-First, you need to specify Aspose Maven Repository configuration/location in your Maven pom.xml as below:
+## Install Aspose.Words for Java from Maven Repository
 
-{{< highlight csharp >}}
-<repositories>
-    <repository>
-        <id>AsposeJavaAPI</id>
-        <name>Aspose Java API</name>
-        <url>https://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-{{< /highlight >}}
+Aspose hosts all Java APIs in [Maven repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words). You can easily use Aspose.Words for Java API directly in your Maven Projects with simple configurations:
 
-Then define Aspose.Words for Java API dependency in your pom.xml as follows:
+1. First, you need to specify Aspose Maven Repository configuration/location in your Maven pom.xml as shown below:
+	{{< highlight csharp >}}
+	<repositories>
+		<repository>
+			<id>AsposeJavaAPI</id>
+			<name>Aspose Java API</name>
+			<url>https://repository.aspose.com/repo/</url>
+		</repository>
+	</repositories>
+	{{< /highlight >}}
+2. Then, define the Aspose.Words for Java API dependency in your pom.xml as follows:
+	{{< highlight csharp >}}
+	<dependencies>
+		<dependency>
+			<groupId>com.aspose</groupId>
+			<artifactId>aspose-words</artifactId>
+			<version>20.11</version>
+			<classifier>jdk17</classifier>
+		</dependency>
+		<dependency>
+			<groupId>com.aspose</groupId>
+			<artifactId>aspose-words</artifactId>
+			<version>20.11</version>
+			<classifier>javadoc</classifier>
+		</dependency>
+	</dependencies>
+	{{< /highlight >}}
+3. Congratulations! You have successfully defined the Aspose.Words for Java dependency in your Maven project.
 
-{{< highlight csharp >}}
-<dependencies>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-words</artifactId>
-        <version>20.11</version>
-        <classifier>jdk17</classifier>
-    </dependency>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-words</artifactId>
-        <version>20.11</version>
-        <classifier>javadoc</classifier>
-    </dependency>
-</dependencies>
-{{< /highlight >}}
+## See Also
 
-Congratulations! You have successfully defined the Aspose.Words for Java Maven dependency in your Maven project.
+* [Download Aspose.Words from Maven](https://downloads.aspose.com/words/java)

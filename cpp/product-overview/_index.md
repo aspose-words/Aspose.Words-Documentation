@@ -26,6 +26,10 @@ Using Aspose.Words for C++ in your project gives you the following benefits:
 * Performance and scalability
 * Minimal learning curve
 
+The following diagram shows the main features of Aspose.Words for С++ and how they relate to each other.
+
+<img src="aspose_words-product-features-overview.png" alt="aspose_words-product-features-overview" style="width:800px"/>
+
 ### Rich Set of Features
 
 Aspose.Words for C++ features can be divided into four main areas.
