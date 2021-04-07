@@ -34,9 +34,19 @@ One of the main goals of Aspose.Words is to provide high-fidelity conversion bet
 
 Modern word processing document formats are complex and include hundreds of features. Sometimes, when a vendor claims that their solution supports a particular document format – it means only the basic features of the format are supported. For example, Microsoft Word documents have advanced features such as footnotes, text boxes, auto shapes, OLE objects, fields, and advanced formatting attributes. Many of these elements are often ignored in document processing libraries, but not in Aspose.Words.
 
+### Greater Extent of Format Support
+
+The indisputable advantage of Aspose.Words is the great extent of support for most of the well-known formats. It is hard or impossible to find the same level of support for many important features elsewhere.
+
+When purchasing a solution supporting a particular format, find out about the level at which the features of this format are supported. To test, create a complex file and run it through the proposed solution. You will often find that many document elements and formatting will be lost. For example, for the DOC format, shapes, textboxes, fields, columns, OLE objects, revisions, right-to-left text usually suffer.
+
 Aspose.Words Document Object Model (DOM) was designed with Microsoft Word document formats in mind. Therefore, our level of support for those formats, such as DOC, DOCX, RTF, or WordprocessingML, is unprecedented. Conversion in any direction between these formats is high-fidelity.
 
-Below are examples of conversions from DOC to some formats.
+When running a complex document through Aspose.Words, enjoy the unmatched completeness of format implementation.
+
+### Conversion Examples between Popular Formats
+
+Below are examples of conversions between some popular formats. You can evaluate how accurately Aspose.Words copes with the task.
 
 ---
 
@@ -50,11 +60,43 @@ Below are examples of conversions from DOC to some formats.
 
 <img src="high-quality-conversions_1.png" alt="high-quality-conversions_1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_3.png" alt="high-quality-conversions_3" style="width:500px; vertical-align: top"/>
 
+<img src="adobe-portable-document-format-pdf_2.png" alt="adobe-portable-document-format-pdf_2" style="width:500px; vertical-align: top"/> <img src="adobe-portable-document-format-pdf_3.png" alt="adobe-portable-document-format-pdf_3" style="width:500px; vertical-align: top"/>
+
 ---
 
 *DOC to ODT – high-fidelity conversion:*
 
 <img src="high-quality-conversions_1.png" alt="high-quality-conversions_1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_4.png" alt="high-quality-conversions_4" style="width:500px; vertical-align: top"/>
+
+---
+
+*DOC to XPS – high-fidelity conversion:*
+
+<img src="xml-paper-specification-xps_2.png" alt="xml-paper-specification-xps_2" style="width:500px; vertical-align: top"/> <img src="xml-paper-specification-xps_3.png" alt="xml-paper-specification-xps_3" style="width:500px; vertical-align: top"/>
+
+---
+
+*DOC to PostScript – high-fidelity conversion:*
+
+<img src="postscript_2.png" alt="postscript_2" style="width:500px; vertical-align: top"/> <img src="postscript_3.png" alt="postscript_2" style="width:500px; vertical-align: top"/>
+
+---
+
+*DOC to JPEG – high-fidelity conversion:*
+
+<img src="image-formats-tiff-png-bmp-emf-jpeg-gif_9.png" alt="image-formats-tiff-png-bmp-emf-jpeg-gif_9" style="width:1000px; vertical-align: top"/>
+
+---
+
+*DOC to GIF – high-fidelity conversion:*
+
+<img src="image-formats-tiff-png-bmp-emf-jpeg-gif_11.png" alt="image-formats-tiff-png-bmp-emf-jpeg-gif_11" style="width:1000px; vertical-align: top"/>
+
+---
+
+*RTF to TXT – high-fidelity conversion:*
+
+<img src="plain-text-txt_2.png" alt="plain-text-txt_2" style="width:500px; vertical-align: top"/> <img src="plain-text-txt_3.png" alt="plain-text-txt_3" style="width:500px; vertical-align: top"/>
 
 ---
 
@@ -75,6 +117,8 @@ Below is an example of conversions from DOC to HTML.
 DOC to HTML – high-fidelity conversion:
 
 <img src="high-quality-conversions_1.png" alt="high-quality-conversions_1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_5.png" alt="high-quality-conversions_5" style="width:500px; vertical-align: top"/>
+
+<img src="html-xhtml-and-mhtml_4.png" alt="html-xhtml-and-mhtml_4" style="width:500px; vertical-align: top"/> <img src="html-xhtml-and-mhtml_5.png" alt="html-xhtml-and-mhtml_5" style="width:500px; vertical-align: top"/>
 
 ---
 
