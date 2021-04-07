@@ -17,7 +17,7 @@ To find out more about Aspose.Words, select the appropriate section:
 - *"Why not Automation"* – describes the reasons why Aspose components are much better than Microsoft Office Automation.
 - *"Why not Open XML SDK"* – describes the reasons why it might be better to use Aspose products rather than the free Open XML SDK.
 - *"System Requirements"* – provides information about system and development environment requirements.
-- *"Licensing"* – provides information on applying a license and using multiple Aspose products.
+- *"Licensing and Subscription"* – provides information on applying a license and using multiple Aspose products.
 - *"Installation"* – provides information on how to install Aspose.Words.
 - *"Web Applications Security When Loading External Resources"* – describes common security issues and their solutions  when loading external resources.
 - *"How to Run the Examples"* – describes how to download and run the examples and what software requirements must be met.

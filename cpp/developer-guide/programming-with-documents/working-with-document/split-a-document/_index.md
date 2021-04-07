@@ -1,5 +1,6 @@
 ---
 title: Split a Document
+description: "Aspose.Words for C++ allows you to split a document into several files. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
 type: docs
 weight: 75
 url: /cpp/split-a-document/
