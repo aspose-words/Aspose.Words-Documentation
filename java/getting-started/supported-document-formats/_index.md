@@ -16,9 +16,9 @@ The following table indicates the input and output file formats supported by Asp
 
 |Format|Description|Load|Save|Remarks|
 | :- | :- | :- | :- | :- |
-|DOC|Microsoft Word 97 - 2007 Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|DOT|Microsoft Word 97 - 2007 Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|DocPreWord60|The document is in the Word 6 or Word 95 format. Aspose.Words does not currently support loading such documents.|{{< emoticons/tick >}}| | |
+|DOC|Microsoft Word 97 – 2007 Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|DOT|Microsoft Word 97 – 2007 Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|DocPreWord60|The document is in the Word 6 or Word 95 format.|{{< emoticons/tick >}}| | |
 |DOCX|Office Open XML WordprocessingML Document (macro-free).|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |DOCM|Office Open XML WordprocessingML Macro-Enabled Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |DOTX|Office Open XML WordprocessingML Template (macro-free).|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |

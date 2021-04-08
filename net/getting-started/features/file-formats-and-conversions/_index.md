@@ -4,7 +4,20 @@ description: "With Aspose.Words for .NET, you can quickly and reliably convert d
 type: docs
 weight: 30
 url: /net/file-formats-and-conversions/
-aliases: [/net/high-quality-conversions/]
+aliases:
+ - /net/high-quality-conversions/
+ - /net/xml-paper-specification-xps/
+ - /net/wordprocessingml-docx-and-xml/
+ - /net/rich-text-format-rtf/
+ - /net/printer-command-language-pcl/
+ - /net/postscript/
+ - /net/plain-text-txt/
+ - /net/opendocument-odt/
+ - /net/microsoft-word-doc/
+ - /net/image-formats-tiff-png-bmp-emf-jpeg-gif/
+ - /net/html-xhtml-and-mhtml/
+ - /net/digital-publishing-epub/
+ - /net/adobe-portable-document-format-pdf/
 ---
 
 {{% alert color="primary" %}}
@@ -130,7 +143,7 @@ Scalable server-side scenarios use Aspose.Words mainly because of its simple and
 
 Aspose.Words demonstrates high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 
-On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the Document object.
+On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the **Document** object.
 
 The following code example shows how you can load and save such a large document if you want to:
 
