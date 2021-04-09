@@ -18,7 +18,8 @@ There are 102 improvements and fixes in this regular monthly release. The most n
 - Added an ability to remove unused BuiltIn Styles.
 - The Fill class was extended with a functionality for processing solid fills.
 - Public API of Structured Document Tag range was extended.
-- Advanced typography supported when saving to images on .NET and .NET Standard.
+- Document.getRange().replace() bulk bug fixing and improvement.
+- JavaDoc documentation update and bug fixes.
 
 ## Full List of Issues Covering all Changes in this Release
 
