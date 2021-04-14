@@ -10,7 +10,7 @@ This page describes the most interesting new Aspose.Words features introduced in
 
 {{% alert color="primary" %}}
 
-Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures and Aspose.Words.Vba namespaces were introduced and the Aspose.Words.Lists namespace was modified.
+Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures, Aspose.Words.Vba, Aspose.Words.Comparing, and Aspose.Words.Notes namespaces were introduced and the Aspose.Words.Lists and Aspose.Words.Loading namespaces were modified.
 
 In case of a compilation error, please add the appropriate line of code:
 
@@ -18,19 +18,24 @@ In case of a compilation error, please add the appropriate line of code:
 using Aspose.Words.DigitalSignatures;
 using Aspose.Words.Vba;
 using Aspose.Words.Lists;
+using Aspose.Words.Comparing;
+using Aspose.Words.Notes;
+using Aspose.Words.Loading;
 {{< /highlight >}}
 
-For more information on these changes, see the [Aspose.Words for .NET 21.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-3-release-notes/) page.
+For more information on these changes, see the [Aspose.Words for .NET 21.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-3-release-notes/)  and [Aspose.Words for .NET 21.4 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-4-release-notes/) pages.
 
 {{% /alert %}}
 
-## Aspose.Words for .NET 21.1, 21.2, 21.3
+## Aspose.Words for .NET 21.1, 21.2, 21.3, 21.4
 
 Aspose.Words 21.1 expands loading and saving options and improves document display capabilities.
 
 Aspose.Words 21.2 enhances font properties, improves find and replace options, and expands possibilities when converting documents.
 
 Aspose.Words 21.3 expands rendering and reporting options, and improves interaction with styles and child nodes of the StructuredDocumentTag.
+
+Aspose.Words 21.4 improves rendering and conversion features, and enhances the ability to work with a ranged structured document tag.
 
 ### Rendering
 
@@ -46,6 +51,14 @@ A new public API, allowing to manipulate themed properties of Font objects, has 
 
 Font API has been extended with the [Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/fill) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
 
+#### Convert Any Fill to Solid
+
+A new method [Solid](https://apireference.aspose.com/words/net/aspose.words.drawing/fill/methods/solid) has been added to the [Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/fill) class for processing solid fills.
+
+#### Support for Advanced Typography
+
+Support for advanced typography when saving to image formats with GDI+ or SkiaSharp, for example, on all .NET platforms and .NET Standard, has been implemented.
+
 ### Conversion
 
 #### Markdown Document Export
@@ -55,6 +68,10 @@ A new public property [ImageSavingCallback](https://apireference.aspose.com/word
 #### HTML Document Import
 
 A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/net/aspose.words/htmlloadoptions/properties/ignorenoscriptelements) has been added to ignore `<noscript>` HTML elements upon loading HTML.
+
+#### Clean Up Unused Information from a Document
+
+A new public property [UnusedBuiltinStyles](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions/properties/unusedbuiltinstyles) has been added to the [CleanupOptions](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
 
 ### Reporting
 
@@ -72,6 +89,7 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 * A new public method [OpenIStream](https://apireference.aspose.com/words/net/aspose.words/comhelper/methods/openistream) has been added to the [ComHelper](https://apireference.aspose.com/words/net/aspose.words/comhelper) class to load documents from IStream objects in COM applications.
 * A new public method [ClearQuickStyleGallery](https://apireference.aspose.com/words/net/aspose.words/stylecollection/methods/clearquickstylegallery) has been added to the [StyleCollection](https://apireference.aspose.com/words/net/aspose.words/stylecollection) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
 * An ability to work with child nodes of the [StructuredDocumentTag](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag) range has been added. New behavior follows the [CompositeNode](https://apireference.aspose.com/words/net/aspose.words/compositenode) pattern and returns a live collection.
+* The ability to create instances of the [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttagrangestart) and [StructuredDocumentTagRangeEnd](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttagrangeend) classes manually has been added.
 
 {{% alert color="primary" %}}
 
@@ -80,6 +98,8 @@ Learn more about [Aspose.Words for .NET 21.1 Release Notes](https://docs.aspose.
 Learn more about [Aspose.Words for .NET 21.2 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-2-release-notes/).
 
 Learn more about [Aspose.Words for .NET 21.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-3-release-notes/).
+
+Learn more about [Aspose.Words for .NET 21.4 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-4-release-notes/).
 
 {{% /alert %}}
 
