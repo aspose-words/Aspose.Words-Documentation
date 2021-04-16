@@ -11,7 +11,7 @@ Sometimes you may need to change the appearance of a document, for example, set 
 
 ## Set Document Display Options
 
-You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://apireference.aspose.com/words/java/com.aspose.words/ViewOptions) class. For example, you can set a document zoom value using the [ZoomPercent]([getZoomPercent](https://apireference.aspose.com/words/java/com.aspose.words/viewoptions#ZoomPercent)) property, or the view mode using the [ViewType](https://apireference.aspose.com/words/java/com.aspose.words/viewoptions#ViewType) property.
+You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://apireference.aspose.com/words/java/com.aspose.words/ViewOptions) class. For example, you can set a document zoom value using the [ZoomPercent](https://apireference.aspose.com/words/java/com.aspose.words/viewoptions#ZoomPercent)) property, or the view mode using the [ViewType](https://apireference.aspose.com/words/java/com.aspose.words/viewoptions#ViewType) property.
 
 The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
