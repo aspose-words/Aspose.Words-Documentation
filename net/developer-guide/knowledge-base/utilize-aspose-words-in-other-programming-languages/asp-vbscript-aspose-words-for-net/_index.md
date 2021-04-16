@@ -54,8 +54,8 @@ This is a simple ASP application that gathers user’s first name and last name 
  
         'Save the document to the stream.
         'We use an overloaded version of the Save method: Document.Save(object, SaveFormat)
-        'SaveFormat.Doc = 1
-        doc.Save_4 stream, 1
+        'SaveFormat.Doc = 10
+        doc.Save_4 (stream) , 10
  
         Response.Clear
  
