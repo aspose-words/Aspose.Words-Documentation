@@ -82,8 +82,36 @@ Once created, you are able to access the object’s methods and properties, as i
 
 **VBScript:**
 {{< highlight csharp >}}
+Dim lic
+Set lic = CreateObject("Aspose.Words.License")
+lic.SetLicense("Aspose.Words.NET.lic")
+
+Dim helper
+Set helper = CreateObject("Aspose.Words.ComHelper")
+
 Dim doc
-Set doc = helper.Open("C:\my.doc")
+Set doc = helper.Open("in.docx")
+
+doc.Save "out.pdf"
+
+Dim saveFormatPdf : saveFormatPdf = 40
+Dim filePath : filePath = "out2.pdf"
+doc.Save_2 filePath, saveFormatPdf
+
+Dim opt
+Set opt = CreateObject("Aspose.Words.Saving.PdfSaveOptions")
+opt.SaveFormat = 40
+
+doc.Save_3 "out3.pdf", (opt)
+
+Dim stream 
+Set stream = CreateObject("System.IO.MemoryStream") 
+
+doc.Save_4 (stream) , 40
+
+Wscript.Echo "Test = " & stream.Length
+
+MsgBox "End"
 {{< /highlight >}}
 
 Some methods have overloads and they will be exposed by COM Interop with a numeric suffix added to them, except for the very first method that stays unchanged. For example, Document.Save method overloads become Document.Save, Document.Save_2, Document.Save_3, and so on. 
