@@ -126,7 +126,7 @@ Set stream = CreateObject("System.IO.MemoryStream")
 
 doc.Save_4 (stream) , 40
 
-Wscript.Echo "Test = " & stream.Length
+Wscript.Echo "Stream length = " & stream.Length
 
 MsgBox "End"
 {{< /highlight >}}
