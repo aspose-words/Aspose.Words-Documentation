@@ -74,6 +74,8 @@ The creation of a .NET object is similar to creation of a normal COM object:
 
 **VBScript:**
 {{< highlight csharp >}}
+'Tested with vbscript version 5.8.16384
+
 Dim helper
 Set helper = CreateObject("Aspose.Words.ComHelper")
 {{< /highlight >}}
@@ -82,6 +84,16 @@ Once created, you are able to access the object’s methods and properties, as i
 
 **VBScript:**
 {{< highlight csharp >}}
+'Tested with vbscript version 5.8.16384
+
+'Get vbscript engine version
+Call WScript.Echo ( _ 
+        Join(Array( _ 
+            ScriptEngine, ScriptEngineMajorVersion, ScriptEngineMinorVersion, ScriptEngineBuildVersion _ 
+        ), ".") _ 
+    )
+
+'Set license
 Dim lic
 Set lic = CreateObject("Aspose.Words.License")
 lic.SetLicense("Aspose.Words.NET.lic")
@@ -89,21 +101,26 @@ lic.SetLicense("Aspose.Words.NET.lic")
 Dim helper
 Set helper = CreateObject("Aspose.Words.ComHelper")
 
+'Open document
 Dim doc
 Set doc = helper.Open("in.docx")
 
+'Save to PDF - first overload
 doc.Save "out.pdf"
 
+'Save to PDF - second overload
 Dim saveFormatPdf : saveFormatPdf = 40
 Dim filePath : filePath = "out2.pdf"
 doc.Save_2 filePath, saveFormatPdf
 
+'Save to PDF - third overload
 Dim opt
 Set opt = CreateObject("Aspose.Words.Saving.PdfSaveOptions")
 opt.SaveFormat = 40
 
 doc.Save_3 "out3.pdf", (opt)
 
+'Save to stream - fourth overload
 Dim stream 
 Set stream = CreateObject("System.IO.MemoryStream") 
 
