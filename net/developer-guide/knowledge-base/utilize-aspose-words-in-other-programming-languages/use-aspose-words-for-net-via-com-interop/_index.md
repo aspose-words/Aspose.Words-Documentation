@@ -74,7 +74,7 @@ The creation of a .NET object is similar to creation of a normal COM object:
 
 **VBScript:**
 {{< highlight csharp >}}
-'Tested with vbscript version 5.8.16384
+'Tested with vbscript engine version 5.8.16384
 
 Dim helper
 Set helper = CreateObject("Aspose.Words.ComHelper")
@@ -84,7 +84,7 @@ Once created, you are able to access the object’s methods and properties, as i
 
 **VBScript:**
 {{< highlight csharp >}}
-'Tested with vbscript version 5.8.16384
+'Tested with vbscript engine version 5.8.16384
 
 'Get vbscript engine version
 Call WScript.Echo ( _ 
