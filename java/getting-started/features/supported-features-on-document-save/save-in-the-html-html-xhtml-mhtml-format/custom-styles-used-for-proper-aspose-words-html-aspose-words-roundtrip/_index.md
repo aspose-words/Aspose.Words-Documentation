@@ -1,7 +1,7 @@
 ---
 title: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip
 type: docs
-weight: 40
+weight: 140
 url: /java/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip/
 ---
 
