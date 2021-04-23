@@ -4,7 +4,9 @@ description: "With Aspose.Words for Java you can create, modify, convert, render
 type: docs
 weight: 5
 url: /java/product-overview/
-aliases: [/java/overview-of-aspose-words-in-java/]
+aliases:
+ - /java/overview-of-aspose-words-in-java/
+ - /java/introducing-aspose-words-for-java/
 ---
 
 <img src="home_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
