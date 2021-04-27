@@ -29,8 +29,8 @@ Note that PNG is a lossless compression format, so there is no degregration of i
 
 There is a load option avalible to control whether external images are downloaded, left as link only or the bytes of the image data are provided by the user through the use of the IResourceLoadingCallback. You can also set the BaseUri path of the document being loaded so relative resources can be correctly imported. "px" measurement unit is currently imported as if resolution is 96dpi. There will be a load option to control this in the future. See the following links in the documentation for further information:
 
-- [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/isimage)
-- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
+- [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isimage)
+- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/baseuri)
 - [Shape.ImageData](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata)
 - [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
 - [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)

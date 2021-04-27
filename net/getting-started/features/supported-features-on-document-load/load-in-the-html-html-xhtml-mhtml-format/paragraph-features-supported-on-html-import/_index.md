@@ -26,7 +26,7 @@ See the following links in the documentation for further information:
 - [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/)
 - [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph)
 - [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat)
-- [LoadOptions.ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/resourceloadingcallback)
+- [LoadOptions.ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/resourceloadingcallback)
 
 {{% /alert %}} 
 

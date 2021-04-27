@@ -27,7 +27,7 @@ You can control the way of handling leading and trailing spaces during loading T
 
 ## Detect Document Text Direction
 
-Aspose.Words provides [DocumentDirection ](https://apireference.aspose.com/net/words/aspose.words/txtloadoptions/properties/documentdirection)property in TxtLoadOptions class to detect the text direction (RTL / LTR) in the document. This property sets or gets document text directions provided in [DocumentDirection](https://apireference.aspose.com/net/words/aspose.words/documentdirection) enumeration. The default value is left to right.
+Aspose.Words provides [DocumentDirection ](https://apireference.aspose.com/words/net/aspose.words.loading/txtloadoptions/properties/documentdirection)property in TxtLoadOptions class to detect the text direction (RTL / LTR) in the document. This property sets or gets document text directions provided in [DocumentDirection](https://apireference.aspose.com/words/net/aspose.words.loading/documentdirection) enumeration. The default value is left to right.
 
 The following code example demonstrates how to detect text direction of the document while importing TXT file.
 

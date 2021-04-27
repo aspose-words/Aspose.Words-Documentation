@@ -16,7 +16,7 @@ An endnote or footnote is a note that appears at the bottom of a page that is co
 
 See the following links in the documentation for further information:
 
-- [Footnote](https://apireference.aspose.com/words/net/aspose.words/footnote)
+- [Footnote](https://apireference.aspose.com/words/net/aspose.words.notes/footnote)
 - [Document.FootnoteOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/footnoteoptions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -30,7 +30,7 @@ See the following links in the documentation for further information:
 |Number Format|Yes| | |
 |Restart Location|Yes| | |
 |Starting Value|Yes| | |
-|Placement|Yes| |- [FootnoteOptions.Position](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/position)|
+|Placement|Yes| |- [FootnoteOptions.Position](https://apireference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/position)|
 
 ## Endnotes
 
@@ -42,8 +42,8 @@ See the following links in the documentation for further information:
 |Continuation Separator Mark|Yes| | |
 |Document Wide Properties|Yes| | |
 |Section Wide Properties|Yes| | |
-|Number Format|Yes| |- [FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/numberstyle)|
-|Restart Location|Yes| |- [FootnoteOptions.RestartRule](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/restartrule)|
-|Starting Value|Yes| |- [FootnoteOptions.StartNumber](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/startnumber)|
+|Number Format|Yes| |- [FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/numberstyle)|
+|Restart Location|Yes| |- [FootnoteOptions.RestartRule](https://apireference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/restartrule)|
+|Starting Value|Yes| |- [FootnoteOptions.StartNumber](https://apireference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/startnumber)|
 |Placement|Yes| | |
 

@@ -39,7 +39,7 @@ See the following links in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Attached Template |N/A | | |
-|Built-In Properties |Yes |All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated. <br><br>Title, Keywords, Description properties are imported from meta tags in HTML. Other built-in properties stored in custom tags are currently not imported. |<p>- [Document.BuiltInDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties) </p><p>- [Document.UpdatePageLayout](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatepagelayout) </p><p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatewordcount)</p>|
+|Built-In Properties |Yes |All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated. <br><br>Title, Keywords, Description properties are imported from meta tags in HTML. Other built-in properties stored in custom tags are currently not imported. |<p>- [Document.BuiltInDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties) </p><p>- [Document.UpdatePageLayout](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatepagelayout) </p><p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)</p>|
 |Custom Properties |Planned |Custom Document Properties can be created, accessed and modified through the API. <br><br>Currently Custom Document properties or Built-in properties other than Title, Keywords or Description or are not imported from HTML. |- [Document.CustomDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/customdocumentproperties)|
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |N/A | | |
@@ -57,7 +57,7 @@ See the following links in the documentation for further information:
 |Variables |N/A | | |
 |VBA Project (Macro) |N/A | | |
 |VBA Project Digital Signature |N/A | | |
-|Background |Yes |A background of a Word document can be a solid color or an image. <br><br>Only solid background is imported. Imported from style="background:xxx" on &lt;body&gt; tag. <br><br>There are plans to support image background through the style-background attribute. |- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/document/properties/backgroundshape)|
+|Background |Yes |A background of a Word document can be a solid color or an image. <br><br>Only solid background is imported. Imported from style="background:xxx" on &lt;body&gt; tag. <br><br>There are plans to support image background through the style-background attribute. |- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
 |Thumbnail |N/A | | |
 
 ## Embedded Fonts

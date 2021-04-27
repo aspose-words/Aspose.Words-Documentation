@@ -67,7 +67,7 @@ The different section breaks types are imported from &lt;br&gt; tag which contai
 See the following links in the documentation for further information:
 
 - [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
-- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertbreak)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -93,7 +93,7 @@ Paper size and margins are imported from size and margin attributes on each sect
 
 See the following links in the documentation for further information:
 
-- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/html)
+- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup)
 - [PageSetup.LeftMargin](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/leftmargin)
 - [PageSetup.FooterDistance](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/footerdistance)
 - [PageSetup.Gutter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/gutter)

@@ -24,7 +24,7 @@ Aspose.Words automatically converts the formats found in the third item if such 
 Note that PNG is a lossless compression format, so there is no degregration of image quality using the above techniques. If you are using Aspose.Words for Java you may need to ensure that you have the appropriate JAI image libraries installed in order for Aspose.Words to convert GIF, TIFF and BMP formats to PNG. If the required functionality is missing you may recieve a "Image type not supported" exception. See the following links in the documentation for further information:
 
 - [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isimage)
-- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
+- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/baseuri)
 - **Shape.ImageData**
 - [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
 - [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)
