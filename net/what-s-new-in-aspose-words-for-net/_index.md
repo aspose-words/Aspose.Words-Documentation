@@ -67,7 +67,7 @@ A new public property [ImageSavingCallback](https://apireference.aspose.com/word
 
 #### HTML Document Import
 
-A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/net/aspose.words/htmlloadoptions/properties/ignorenoscriptelements) has been added to ignore `<noscript>` HTML elements upon loading HTML.
+A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/properties/ignorenoscriptelements) has been added to ignore `<noscript>` HTML elements upon loading HTML.
 
 #### Clean Up Unused Information from a Document
 
@@ -158,7 +158,7 @@ PDF import is now faster and more accurate. Footnotes support has been implement
 
 #### HTML Document Import
 
-HTML import has been modified. Previously, the [MswVersion](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/mswversion) property had no effect when loading documents from HTML and HTML-based formats (for example, MHTML). All documents were loaded as if no MswVersion were specified. This has been changed, and now the HTML reader can load documents differently depending on the MswVersion value.
+HTML import has been modified. Previously, the [MswVersion](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/mswversion) property had no effect when loading documents from HTML and HTML-based formats (for example, MHTML). All documents were loaded as if no MswVersion were specified. This has been changed, and now the HTML reader can load documents differently depending on the MswVersion value.
 
 ### Report Generation
 
@@ -166,7 +166,7 @@ A condition evaluation extension point has been introduced. This allows users to
 
 ### Other
 
-- The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word.
+- The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words.vba/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word.
 - New public properties [SpellingChecked](https://apireference.aspose.com/words/net/aspose.words/document/properties/spellingchecked) and [GrammarChecked](https://apireference.aspose.com/words/net/aspose.words/document/properties/grammarchecked) have been added to indicate if a document has been checked for spelling and grammar, respectively.
 
 {{% alert color="primary" %}}
@@ -242,7 +242,7 @@ SmartArt Cold Rendering has become even better – the processing of hyperlinks 
 - Two new nodes have been introduced to handle multi-section structured document tags. These structured document tags are now supported upon import/export.
 - A new public property [RetainFirstSectionStart](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/retainfirstsectionstart) has been added to get or set a value that indicates whether the [SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to Microsoft Word behavior.
 - Markdown ‘Inline Images’ feature has been implemented to make our Markdown support even better.
-- The [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words/pdfloadoptions/properties/skippdfimages) flag has been added to the [PdfLoadOptions](https://apireference.aspose.com/words/net/aspose.words/pdfloadoptions) class to indicate whether images must be skipped when loading a PDF document.
+- The [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/skippdfimages) flag has been added to the [PdfLoadOptions](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions) class to indicate whether images must be skipped when loading a PDF document.
 - Support for SVG images embedded using data URLs upon HTML import has been implemented.
 
 {{% alert color="primary" %}} 
@@ -303,7 +303,7 @@ Using the *InterpolateImages* property is relevant if the resolution of a sour
 Search and compare options are extended:
 
 - The functionality of the *FindReplaceOptions* class becomes more flexible to serve your needs. It is now possible to ignore text inside revisions and fields. You can also enable the use of substitutions in the replacement pattern via the [UseSubstitutions](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/usesubstitutions) property – this makes easy to use part or whole match when replacing.
-- The [Granularity](https://apireference.aspose.com/words/net/aspose.words/compareoptions/properties/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature allows you to specify the exact granularity of changes to track when comparing two documents.
+- The [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature allows you to specify the exact granularity of changes to track when comparing two documents.
 
 ### Other
 

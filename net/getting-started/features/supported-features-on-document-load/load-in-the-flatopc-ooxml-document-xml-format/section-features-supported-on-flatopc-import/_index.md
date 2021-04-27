@@ -30,7 +30,7 @@ See the following links in the documentation for further information:
 - [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/properties/headersfooters)
 - [PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/differentfirstpageheaderfooter)
 - **PageSetup.OddAndEvenPageHeaderFooter**
-- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words/headerfootercollection/properties/linktoprevious)
+- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words.headerfootercollection/linktoprevious/methods/1)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

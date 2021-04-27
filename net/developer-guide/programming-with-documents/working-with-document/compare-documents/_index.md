@@ -14,6 +14,16 @@ Instead of manually searching for differences between documents or between diffe
 
 This article explains how to compare documents and how to specify the advanced comparing properties.
 
+{{% alert color="primary" %}}
+
+**Try online**
+
+You can compare two documents online by using the [Document comparison online](https://products.aspose.app/words/comparison) tool.
+
+Note that the comparison method, described below, is used in this tool to ensure getting equal results. So you will get the same results even by using the online comparison tool or by using the comparison method in Aspose.Words.
+
+{{% /alert %}}
+
 ## Limitations and Supported File Formats
 
 Comparing documents is a very complex feature. There are varied parts of content combination that need to be analyzed to recognize all differences. The reason for this complexity is due to the fact that Aspose.Words aims to get the same comparison results as the Microsoft Word comparison algorithm.
@@ -44,22 +54,14 @@ The following code example shows how to simply apply the Compare method to two d
 
 ## Specify Advanced Comparing Properties
 
-There are many different properties of the [CompareOptions](https://apireference.aspose.com/words/net/aspose.words/compareoptions/properties/index) class which you can apply when you want to compare documents.
+There are many different properties of the [CompareOptions](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions) class which you can apply when you want to compare documents.
 
-For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/net/aspose.words/compareoptions/properties/ignoreheadersandfooters), [IgnoreFormatting](https://apireference.aspose.com/words/net/aspose.words/compareoptions/properties/ignoreformatting), [IgnoreComments](https://apireference.aspose.com/words/net/aspose.words/compareoptions/properties/ignorecomments), and others by setting them to "true".
+For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignoreheadersandfooters), [IgnoreFormatting](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignoreformatting), [IgnoreComments](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignorecomments), and others by setting them to "true".
 
-In addition, Aspose.Words provides the [Granularity](https://apireference.aspose.com/words/net/aspose.words/compareoptions/properties/granularity) property with which you can specify whether to track changes by character or by word.
+In addition, Aspose.Words provides the [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/granularity) property with which you can specify whether to track changes by character or by word.
 
-Another common property is a choice in which document to show comparison changes. For example, the “Compare documents dialogue box” in Microsoft Word has the option “Show changes in” – this also affects the comparison results. Aspose.Words provides the [Target](https://apireference.aspose.com/words/net/aspose.words/compareoptions/properties/target) property that serves this purpose.
+Another common property is a choice in which document to show comparison changes. For example, the “Compare documents dialogue box” in Microsoft Word has the option “Show changes in” – this also affects the comparison results. Aspose.Words provides the [Target](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/target) property that serves this purpose.
 
 The following code example shows how to set the advanced comparing properties:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-CompareDocument-SetAdvancedComparingProperties.cs" >}}
-
-{{% alert color="primary" %}}
-
-You can compare two documents online by using the [Document comparison online](https://products.aspose.app/words/comparison) tool.
-
-Note that the comparison method, described above, is used in this tool to ensure getting equal results. So you will get the same results even by using the online comparison tool or by using the comparison method in Aspose.Words.
-
-{{% /alert %}}

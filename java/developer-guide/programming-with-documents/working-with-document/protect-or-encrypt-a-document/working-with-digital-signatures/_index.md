@@ -21,7 +21,7 @@ The code above uses the [FileFormatUtil.detectFileFormat](https://apireference.a
 
 {{% alert color="primary" %}} 
 
-You can also check if a document has digital signatures after loading by checking the Count property of the[DigitalSignaturescollection](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection).
+You can also check if a document has digital signatures after loading by checking the Count property of the [DigitalSignaturescollection](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection).
 
 {{% /alert %}} 
 

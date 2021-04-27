@@ -26,9 +26,9 @@ Lists can also appear in HTML as ordinary paragraphs, which apperance-wise are i
 
 See the following links in the documentation for further information:
 
-- [Paragraph.IsListItem](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/islistitem)
-- [Paragraph.ListFormat](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/listformat)
-- [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/listlabel)
+- [Paragraph.IsListItem](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/islistitem)
+- [Paragraph.ListFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/listformat)
+- [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/listlabel)
 - [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/listlevels)
 
 {{% /alert %}} 

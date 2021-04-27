@@ -33,7 +33,7 @@ The logic used when a external style sheet is enctounered on ocument load can be
 
 See the following links in the documentation for further information:
 
-- [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/document/properties/styles)
+- [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/styles)
 - [Style](https://apireference.aspose.com/words/net/aspose.words/style)
 - [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
 - [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback)
