@@ -1,46 +1,43 @@
 ---
 title: Annotation Features Supported on DOCX Import
+description: ""
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-docx-import/
 ---
 
-{{% alert color="primary" %}} 
+Annonations allow the user to add extra information to the document normally for use in review or collaboration. Annonation functions are supported by Aspose.Words as described in this article.
 
-Annonations allow the user to add extra information to the document normally for use in review or collaboration.
+{{% alert color="primary" %}}
 
-These features are supported by Aspose.Words.
-
-[Jump to this location in the export section](/words/net/annotation-features-supported-on-docx-export/)
+See also the article ["Annotation Features Supported on DOCX Export"](/words/net/annotation-features-supported-on-docx-export/) in the saving section.
 
 {{% /alert %}} 
 
 ## Bookmarks
 
-Bookmarks are imported as BookmarkStart and BookmarkEnd nodes. In Microsoft Word document formats a bookmark range can span over long amoutns of content, including over different paragraphs and even tables. 
+|Feature|Comment|Supported|Supported Formats|Aspose.Words public API|
+| :- | :- | :- | -- | -- |
+|Bookmark Start | Designates the start of a bookmark region in the document | Yes | ...<br />Microsoft Word Document 97-2003 formats: .DOC, .DOT<br />Open Office XML 2007 and 2010 formats: .DOCX, .DOTX, .DOCM, .DOTM<br />... |[BookmarkStart](https://apireference.aspose.com/words/net/aspose.words/bookmarkstart)|
+|Bookmark End | Designates the end of a bookmark region in the document | Yes | ...<br />Microsoft Word Document 97-2003 formats: .DOC, .DOT<br />Open Office XML 2007 and 2010 formats: .DOCX, .DOTX, .DOCM, .DOTM<br />... |[BookmarkEnd](https://apireference.aspose.com/words/net/aspose.words/bookmarkend)|
+|Bookmark Name | Defines the name of a bookmark | Yes | ...<br />Microsoft Word Document 97-2003 formats: .DOC, .DOT<br />Open Office XML 2007 and 2010 formats: .DOCX, .DOTX, .DOCM, .DOTM<br />... |[Name](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
+|Bookmark Text | Defines text content of a bookmark | Yes | ...<br />Microsoft Word Document 97-2003 formats: .DOC, .DOT<br />Open Office XML 2007 and 2010 formats: .DOCX, .DOTX, .DOCM, .DOTM<br />... |[<br/>Text](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/text)|
+|Bookmark Table Columns | Allows to get information about table column associated with a bookmark | Yes | ...<br />Microsoft Word Document 97-2003 formats: .DOC, .DOT<br />Open Office XML 2007 and 2010 formats: .DOCX, .DOTX, .DOCM, .DOTM<br />... | [FirstColumn](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/firstcolumn)<br />[IsColumn](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/iscolumn)<br />[LastColumn](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/lastcolumn) |
 
-In Aspose.Words the BookmarkStart node designates where the start of the bookmarked region begins in the document. Likewise, the BookmarkEnd node designates where the end of the bookmark region closes.
+Bookmarks are imported into a document as the **BookmarkStart** and **BookmarkEnd** nodes. Bookmark nodes are represented as inline nodes (children of a paragraph).
 
-You can access the bookmark as a "single entity" by using the Bookmark façade. You can add and remove bookmarks from a document and also set and get the text of the bookmark content.
+The Aspose.Words model is based on Microsoft Word document formats. In these formats, bookmark names must be unique. The Aspose.Words model allows bookmarks with the same name, but all duplicates are automatically removed on export. Note that duplicate bookmarks can occur when you accentitly create a bookmark with the same name, or when documents containing the same bookmark are joined together using the AppendDocument or InsertDocument methods.
 
-Bookmark nodes are represented as inline nodes (child of a paragraph). Some bookmarks markers in Word documents are at different levels of the document hierarchy than just inline. This means when they are imported into Aspose.Words they are translated to the cloesest inline position.
+In Microsoft Word document formats, a bookmark range can span a over long amoutns of content, including various paragraphs and even tables. Thus, some bookmark markers in Word documents are at different levels of the document hierarchy than just inline. This means that when they are imported into Aspose.Words, they are translated to the cloesest inline position. This is usually not a problem, but some bookmarks in tables may appear differently when imported.
 
-This normally causes no problems but some bookmarks on tables can appear differently when imported.
+You can access a bookmark as a "single object" using the Bookmark facade. While working with bookmarks, you can add and remove them from a document, as well as set and get the text of the bookmark content.
 
-The Aspose.Words model is based on Word document formats. In these formats bookmark names must be unique. The model will allow bookmarks with the same name, however all duplicates are removed automatically during export. Note that duplicate bookmarks can happen when you accentitly create a bookmark with the same name, or when documents that contain the same bookmark are joined together using the AppendDocument or InsertDocument methods.
-
-See the following links in the documentation for further information:
+Useful links:
 
 - [Working with Bookmarks](/words/net/working-with-bookmarks/)
 - [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
 - [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark)
 
-|**Feature**|**Supported**|**Comment**|**See Also**|
-| :- | :- | :- | :- |
-|Bookmark Start |Yes | |- [BookmarkStart](https://apireference.aspose.com/words/net/aspose.words/bookmarkstart)|
-|Bookmark End |Yes | |- [BookmarkEnd](https://apireference.aspose.com/words/net/aspose.words/bookmarkend)|
-|Bookmark Name |Yes | |- [Bookmark.Name](https://apireference.aspose.com/words/net/aspose.words/bookmark.name)|
-|Bookmark Table Columns |Yes | | |
 
 ## Comments
 
@@ -115,4 +112,3 @@ See the following links in the documentation for further information:
 |Cell Properties Change |Yes | | |
 |Row Properties Change |Yes | | |
 |RSIDs Session Identifiers |Yes | | |
-

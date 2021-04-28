@@ -22,10 +22,21 @@ You load a document into the Document Object Model by using the constructor of t
 
 ## Section Guide
 
-The tables in the following topics show which features of Microsoft Word documents are supported when you save a document using Aspose.Words in a particular format.
+The tables in the following topics show which features of Microsoft Word documents are supported when loading a document in a particular format using Aspose.Words.
 
-The Supported column contains the following values:
+The *Supported* column in these tables contains the following values:
 
-- **Yes** – The feature is supported. Content and formatting will be preserved. Comments provide further information about the feature and how it is implemented in Aspose.Words. If there are any limitations they will be also stated in that column.
-- **Planned** – The feature will be supported in future versions of Aspose.Words. Content or formatting related to this feature will be lost in the current version.
-- **N/A (Not Applicable)** – The feature is not supported because there is no corresponding feature in the output format. Some content or formatting will be lost. The feature is not likely to be supported in the future.
+- **Yes** – the feature is supported. Content and formatting will be preserved. Comments provide further information about the feature and how it is implemented in Aspose.Words. If there are any limitations they will be also stated in that column.
+- **Planned** – the feature will be supported in future versions of Aspose.Words. Content or formatting related to this feature will be lost in the current version.
+- **N/A (Not Applicable)** – the feature is not supported because there is no corresponding feature in the output format. Some content or formatting will be lost. The feature is not likely to be supported in the future.
+
+The *Supported Formats* column in these tables contains the following values:
+
+- **FlatOPC OOXML document formats** – include FlatOpc, FlatOpcMacroEnabled, FlatOpcTemplate, FlatOpcTemplateMacroEnabled formats
+- **HTML formats** – include .HTML, .XHTML, .MHTML
+- **Microsoft Word 2003 WordprocessingML formats** – include .XML
+- **Microsoft Word document 97-2003 formats** – include .DOC, .DOT
+- **Open Office XML 2007 and 2010 formats** – include .DOCX, .DOTX, .DOCM, .DOTM
+- **OpenDocument Text formats** – include .ODT, .OTT
+- **Plain Text formats** – include .TXT
+- **Rich Text 1.9 formats** – include .RTF
