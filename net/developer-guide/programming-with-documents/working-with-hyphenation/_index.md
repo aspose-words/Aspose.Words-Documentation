@@ -60,7 +60,7 @@ doc.Save(dataDir);
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering-Printing/TestFile RenderShape.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
@@ -81,7 +81,7 @@ doc.Save(dataDir);
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering-Printing/TestFile RenderShape.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
@@ -117,7 +117,7 @@ class Program
 	static void Main(string[] args)
 	{
 		Aspose.Words.License l = new License();
-		l.SetLicense(@"X:\awnet\TestData\Licenses\Aspose.Total.NET.lic");
+		l.SetLicense("Aspose.Total.NET.lic");
 
 		try
 		{
