@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words for Reporting Services 21.5 Release Notes
 type: docs
-weight: 11
+weight: 9
 url: /reportingservices/aspose-words-for-reporting-services-21-5-release-notes/
 ---
 
