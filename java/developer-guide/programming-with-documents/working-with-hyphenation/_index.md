@@ -45,17 +45,17 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_RenderingAndPrinting();
+String dataDir = RunExamples.getDataDir_RenderingAndPrinting();
 
 // Load the documents which store the shapes we want to render.
 Document doc = new Document(dataDir + "TestFile RenderShape.doc");
-Hyphenation.RegisterDictionary("en-US", dataDir + @"hyph_en_US.dic");
-Hyphenation.RegisterDictionary("de-CH", dataDir + @"hyph_de_CH.dic");
+Hyphenation.registerDictionary("en-US", dataDir + "hyph_en_US.dic");
+Hyphenation.registerDictionary("de-CH", dataDir + "hyph_de_CH.dic");
 
 dataDir = dataDir + "HyphenateWordsOfLanguages_out.pdf";
-doc.Save(dataDir);
+doc.save(dataDir);
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
@@ -66,17 +66,17 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_RenderingAndPrinting();
+String dataDir = RunExamples.getDataDir_RenderingAndPrinting();
 
 // Load the documents which store the shapes we want to render.
 Document doc = new Document(dataDir + "TestFile RenderShape.doc");
-Stream stream = File.OpenRead(dataDir + @"hyph_de_CH.dic");
-Hyphenation.RegisterDictionary("de-CH", stream);
+InputStream stream = new FileInputStream(dataDir + "hyph_de_CH.dic");
+Hyphenation.registerDictionary("de-CH", stream);
 
 dataDir = dataDir + "LoadHyphenationDictionaryForLanguage_out.pdf";
-doc.Save(dataDir);
+doc.save(dataDir);
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
@@ -89,55 +89,55 @@ As an alternative to pre-registering hyphenation dictionaries, it is possible to
 
 The following code example shows how to implement the **IHyphenationCallback** interface:
 
-{{< highlight csharp >}}
-internal class CustomHyphenationCallback : IHyphenationCallback
+{{< highlight java >}}
+static class CustomHyphenationCallback implements IHyphenationCallback
 {
-	public void RequestDictionary(string language)
-	{
-		string dictionaryFolder = @"C:\HyphenationDictionaries";
-		string dictionaryFullFileName;
-		switch (language)
-		{
-			case "en-US":
-				dictionaryFullFileName = Path.Combine(dictionaryFolder, "hyph_en_US.dic");
-				break;
-			case "de-CH":
-				dictionaryFullFileName = Path.Combine(dictionaryFolder, "hyph_de_CH.dic");
-				break;
-			default:
-				throw new Exception($"Missing hyphenation dictionary for {language}.");
-		}
-		// Register dictionary for requested language.
-		Hyphenation.RegisterDictionary(language, dictionaryFullFileName);
-	}
+    public void requestDictionary(String language) throws Exception
+    {
+        String dictionaryFolder = "C:\\HyphenationDictionaries";
+        String dictionaryFullFileName;
+        switch (language)
+        {
+            case "en-US":
+                dictionaryFullFileName = new File(dictionaryFolder, "hyph_en_US.dic").getPath();
+                break;
+            case "de-CH":
+                dictionaryFullFileName = new File(dictionaryFolder, "hyph_de_CH.dic").getPath();
+                break;
+            default:
+                throw new Exception("Missing hyphenation dictionary for " + language);
+        }
+        // Register dictionary for requested language.
+        Hyphenation.registerDictionary(language, dictionaryFullFileName);
+    }
 }
 
-class Program
+public class Program
 {
-	static void Main(string[] args)
-	{
-		Aspose.Words.License l = new License();
-		l.SetLicense("Aspose.Total.NET.lic");
+    void main(String[] args) throws Exception
+    {
+        License l = new License();
+        l.setLicense("Aspose.Total.Java.lic");
 
-		try
-		{
-			// Register hyphenation callback.
-			Hyphenation.Callback = new CustomHyphenationCallback();
-	 
-			Document document = new Document(@"C:\Documents\TestDoc.docx");
-			document.Save(@"C:\Output\TestOut.pdf");
-		}
-		catch (Exception e) when (e.Message.StartsWith("Missing hyphenation dictionary"))
-		{
-			Console.WriteLine(e.Message);
-		}
-		finally
-		{
-			Hyphenation.Callback = null;
-		}
-	
-		Console.ReadLine();
-	}
+        try
+        {
+            // Register hyphenation callback.
+            Hyphenation.setCallback(new CustomHyphenationCallback());
+
+            Document document = new Document("C:\\Documents\\TestDoc.docx");
+            document.save("C:\\Output\\TestOut.pdf");
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+        finally
+        {
+            Hyphenation.setCallback(null);
+        }
+
+        System.in.read();
+    }
 }
 {{< /highlight >}}
 
