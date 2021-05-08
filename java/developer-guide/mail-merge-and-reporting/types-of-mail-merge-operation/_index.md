@@ -15,6 +15,12 @@ The most common example of using simple mail merge is when you want to send a do
 
 The main difference between both merge operations is that simple mail merge (without regions) repeats the entire document per each data source record, whereas mail merge with regions repeats only designated regions per record. You can think of a simple mail merge operation as a particular case of merge with regions where the only region is the whole document.
 
+{{% alert color="primary" %}}
+
+The [MailMerge](https://apireference.aspose.com/words/java/com.aspose.words/MailMerge) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
+
+{{% /alert %}}
+
 ## Simple Mail Merge Operation
 
 A simple mail merge is used to fill the mail merge fields inside your template with the required data from your data source (single table representation). So it is similar to the classic mail merge in Microsoft Word.
