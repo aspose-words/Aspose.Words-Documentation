@@ -150,6 +150,9 @@ A new value is added to the public enumeration StyleIdentifier:
 {{< highlight csharp >}}
 /// <summary>
 /// The Smart Link style.
+/// </summary>
+SmartLink = 371
+{{< /highlight >}}
 
 Related issue: WORDSNET-22032
 
