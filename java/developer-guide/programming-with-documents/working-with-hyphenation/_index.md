@@ -45,18 +45,7 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
-{{< highlight java >}}
-// The path to the documents directory.
-String dataDir = RunExamples.getDataDir_RenderingAndPrinting();
-
-// Load the documents which store the shapes we want to render.
-Document doc = new Document(dataDir + "TestFile RenderShape.doc");
-Hyphenation.registerDictionary("en-US", dataDir + "hyph_en_US.dic");
-Hyphenation.registerDictionary("de-CH", dataDir + "hyph_de_CH.dic");
-
-dataDir = dataDir + "HyphenateWordsOfLanguages_out.pdf";
-doc.save(dataDir);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -66,18 +55,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
-{{< highlight java >}}
-// The path to the documents directory.
-String dataDir = RunExamples.getDataDir_RenderingAndPrinting();
-
-// Load the documents which store the shapes we want to render.
-Document doc = new Document(dataDir + "TestFile RenderShape.doc");
-InputStream stream = new FileInputStream(dataDir + "hyph_de_CH.dic");
-Hyphenation.registerDictionary("de-CH", stream);
-
-dataDir = dataDir + "LoadHyphenationDictionaryForLanguage_out.pdf";
-doc.save(dataDir);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -89,57 +67,7 @@ As an alternative to pre-registering hyphenation dictionaries, it is possible to
 
 The following code example shows how to implement the **IHyphenationCallback** interface:
 
-{{< highlight java >}}
-static class CustomHyphenationCallback implements IHyphenationCallback
-{
-    public void requestDictionary(String language) throws Exception
-    {
-        String dictionaryFolder = "C:\\HyphenationDictionaries";
-        String dictionaryFullFileName;
-        switch (language)
-        {
-            case "en-US":
-                dictionaryFullFileName = new File(dictionaryFolder, "hyph_en_US.dic").getPath();
-                break;
-            case "de-CH":
-                dictionaryFullFileName = new File(dictionaryFolder, "hyph_de_CH.dic").getPath();
-                break;
-            default:
-                throw new Exception("Missing hyphenation dictionary for " + language);
-        }
-        // Register dictionary for requested language.
-        Hyphenation.registerDictionary(language, dictionaryFullFileName);
-    }
-}
-
-public class Program
-{
-    void main(String[] args) throws Exception
-    {
-        License l = new License();
-        l.setLicense("Aspose.Total.Java.lic");
-
-        try
-        {
-            // Register hyphenation callback.
-            Hyphenation.setCallback(new CustomHyphenationCallback());
-
-            Document document = new Document("C:\\Documents\\TestDoc.docx");
-            document.save("C:\\Output\\TestOut.pdf");
-        }
-        catch (Exception e)
-        {
-            System.out.println(e.getMessage());
-        }
-        finally
-        {
-            Hyphenation.setCallback(null);
-        }
-
-        System.in.read();
-    }
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-HyphenationCallback.java" >}}
 
 ## Impact of Hyphenation on Layout
 

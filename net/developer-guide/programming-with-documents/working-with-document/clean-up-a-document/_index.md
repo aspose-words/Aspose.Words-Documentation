@@ -20,30 +20,7 @@ You can use the [UnusedLists](https://apireference.aspose.com/words/net/aspose.w
 
 The following code example shows how to remove only unused styles from a document:
 
-{{< highlight csharp >}}
-Document doc = new Document(dataDir + "Document.docx");
-
-CleanupOptions cleanupOptions = new CleanupOptions();
-cleanupoptions.UnusedLists = false;
-cleanupoptions.UnusedStyles = true;
-
-// Count of styles before Cleanup.
-Console.WriteLine(doc.Styles.Count);
-
-// Count of lists before Cleanup.
-Console.WriteLine(doc.Lists.Count);
-
-// Cleans unused styles and lists from the document depending on given CleanupOptions.
-doc.Cleanup(cleanupOptions);
-
-// Count of styles after Cleanup was decreased.
-Console.WriteLine(doc.Styles.Count);
-
-// Count of lists after Cleanup is the same.
-Console.WriteLine(doc.Lists.Count);
-
-doc.Save(dataDir + "Document.Cleanup_out.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with document options and settings-CleanupUnusedStylesandLists.cs" >}}
 
 ## Remove Duplicate Information from a Document
 
@@ -51,20 +28,4 @@ You can also use the [DuplicateStyle](https://apireference.aspose.com/words/net/
 
 The following code example shows how to remove duplicate styles from a document:
 
-{{< highlight csharp >}}
-Document doc = new Document(dataDir + "Document.docx");
-
-CleanupOptions options = new CleanupOptions();
-options.DuplicateStyle = true;
-
-// Count of styles before Cleanup.
-Console.WriteLine(doc.Styles.Count);
-
-// Cleans duplicate styles from the document.
-doc.Cleanup(options);
-
-// Count of styles after Cleanup was decreased.
-Console.WriteLine(doc.Styles.Count);
-
-doc.Save(dataDir + "Document.CleanupDuplicateStyle_out.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with document options and settings-CleanupDuplicateStyle.cs" >}}

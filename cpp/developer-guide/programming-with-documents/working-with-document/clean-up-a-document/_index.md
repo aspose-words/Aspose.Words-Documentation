@@ -20,31 +20,7 @@ You can use the [UnusedLists](https://apireference.aspose.com/words/cpp/class/as
 
 The following code example shows how to remove only unused styles from a document:
 
-{{< highlight csharp >}}
-System::SharedPtr<Document> doc = System::MakeObject<Document>(inputDataDir + u"Document.docx");
-
-System::SharedPtr<CleanupOptions> cleanupoptions = System::MakeObject<CleanupOptions>();
-cleanupoptions->set_UnusedLists(false);
-cleanupoptions->set_UnusedStyles(true);
-
-// Count of styles before Cleanup.
-std::cout << doc->get_Styles()->get_Count() << std::endl;
-
-// Count of lists before Cleanup.
-std::cout << doc->get_Lists()->get_Count() << std::endl;
-
-// Cleans unused styles and lists from the document depending on given CleanupOptions.
-doc->Cleanup(cleanupoptions);
-
-// Count of styles after Cleanup was decreased.
-std::cout << doc->get_Styles()->get_Count() << std::endl;
-
-// Count of lists after Cleanup is the same.
-std::cout << doc->get_Lists()->get_Count() << std::endl;
-
-System::String outputPath = outputDataDir + u"CleansUnusedStyles.docx";
-doc->Save(outputPath);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Document-Working with document options and settings-CleanupUnusedStylesandLists.h" >}}
 
 ## Remove Duplicate Information from a Document
 
@@ -52,21 +28,4 @@ You can also use the [DuplicateStyle](https://apireference.aspose.com/words/cpp/
 
 The following code example shows how to remove duplicate styles from a document:
 
-{{< highlight csharp >}}
-System::SharedPtr<Document> doc = System::MakeObject<Document>(inputDataDir + u"Document.docx");
-
-System::SharedPtr<CleanupOptions> options = System::MakeObject<CleanupOptions>();
-options->set_DuplicateStyle(true);
-
-// Count of styles before Cleanup.
-std::cout << doc->get_Styles()->get_Count() << std::endl;
-
-// Cleans duplicate styles from the document.
-doc->Cleanup(options);
-
-// Count of styles after Cleanup was decreased.
-std::cout << doc->get_Styles()->get_Count() << std::endl;
-
-System::String outputPath = outputDataDir + u"CleanupDuplicateStyle_out.docx";
-doc->Save(outputPath);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Document-Working with document options and settings-CleanupDuplicateStyle.h" >}}
