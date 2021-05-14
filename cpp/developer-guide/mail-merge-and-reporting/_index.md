@@ -19,6 +19,12 @@ Aspose.Words takes the standard mail merge functionality and advances it many st
 - Execute any custom logic, control formatting, or insert complex content using mail merge event handlers
 - Fill in documents with data from any type of data source
 
+{{% alert color="primary" %}}
+
+The [Aspose.Words.MailMerging](https://apireference.aspose.com/words/cpp/namespace/aspose.words.mail_merging/) namespace is used to work with mail merging.
+
+{{% /alert %}}
+
 ## Mechanism and Main Components of a Mail Merge Operation
 
 Aspose.Words provides the ability to load documents in various [supported formats](https://apireference.aspose.com/words/cpp/namespace/aspose.words#a5fddddb463c824cf3fe353ce1bcd8f52) and then allows users to perform a mail merge operation.

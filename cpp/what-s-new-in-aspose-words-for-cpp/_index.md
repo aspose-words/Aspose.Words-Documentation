@@ -27,6 +27,27 @@ For more information on these changes, see the [Aspose.Words for C++ 21.3 Releas
 
 {{% /alert %}}
 
+## Aspose.Words for C++ 21.5
+
+Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
+
+The API is enhanced for more flexible and convenient development.
+
+### Mail Merge and Reporting
+
+A new property [RestartListsAtEachSection](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#ab911c61cee7a99ff6df2ad14fafde2d5) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
+
+### Other
+
+- New methods [SetCheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#a9442102849b146594a697f01545b3eca) and [SetUncheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#a94069a23b2c358fa7d64eb092aebc826) have been added to set checked and unchecked symbols for your favorite structured document tags.
+- The equations created with EQ fields are now supported upon converting to all HTML-based formats.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 21.5 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for C++ 21.1, 21.2, 21.3, 21.4
 
 Aspose.Words 21.1 expands loading and saving options and improves document display capabilities.
