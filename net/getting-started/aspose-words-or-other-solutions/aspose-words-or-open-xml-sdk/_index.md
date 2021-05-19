@@ -30,7 +30,7 @@ In the following sections, we will take a closer look at some of the features an
 
 ### Security
 
-Aspose.Words software can be considered more secure compared to Open XML SDK as it is developed in a governed condition of the employees having excellent experience in this specific area.
+Aspose.Words software can be considered more secure compared to Open XML SDK as it is developed in a governed condition that our employees having excellent experience in this specific area abide.
 
 ### Stability
 
