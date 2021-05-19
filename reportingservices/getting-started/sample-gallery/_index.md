@@ -13,39 +13,28 @@ Most of the reports shown here come from the AdventureWorks database. AdventureW
 
 {{% /alert %}} 
 
-**Company Sales: RTF, matrix (grows vertically and horizontally), background image.** 
+**Company Sales: RTF, matrix (grows vertically and horizontally), background image.**
 
-![todo:image_alt_text](sample-gallery_1.png)
+<img src="sample-gallery_1.png" alt="sample-gallery_1" style="width:800px"/>
 
-
-
-
-**Employee Sales Summary: DOC, charts, images, textboxes, tables.** 
+**Employee Sales Summary: DOC, charts, images, textboxes, tables.**
 
 ![todo:image_alt_text](sample-gallery_2.png)
 
-
-
-**Product Catalog: DOC, title page, images, headers, footers, rectangles, lines, subreports.** 
+**Product Catalog: DOC, title page, images, headers, footers, rectangles, lines, subreports.**
 
 ![todo:image_alt_text](sample-gallery_3.png)
 
 ![todo:image_alt_text](sample-gallery_4.png)
 
-
-
-**Product Line Sales: DOC, charts, subreports, images, lists.** 
+**Product Line Sales: DOC, charts, subreports, images, lists.**
 
 ![todo:image_alt_text](sample-gallery_5.png)
 
-
-
-**Sales Order Detail: WordML, tables, styles, rectangles, textboxes, images.** 
+**Sales Order Detail: WordML, tables, styles, rectangles, textboxes, images.**
 
 ![todo:image_alt_text](sample-gallery_6.png)
 
-
-
-**Third Party Controls: OOXML, textboxes, Dundas Chart for Reporting Services in the report.** 
+**Third Party Controls: OOXML, textboxes, Dundas Chart for Reporting Services in the report.**
 
 ![todo:image_alt_text](sample-gallery_7.png)
