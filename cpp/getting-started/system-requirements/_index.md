@@ -6,25 +6,62 @@ weight: 33
 url: /cpp/system-requirements/
 ---
 
-Aspose.Words for .NET does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converting, and rendering of documents in various formats, including Microsoft Word document formats.
+Aspose.Words for C++ does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converticg, and rendering of documents in various formats, including Microsoft Word document formats.
 
 ## Supported Operating Systems
 
-Aspose.Words for C++ is a native library. Aspose.Words for C++ supports 64-bit operating systems, but not limited to:
+Aspose.Words for C++ supports the following 64-bit or 32-bit operating system and platforms:
 
-- Microsoft Windows desktop (Vista, 7, 8, 10) and server operating systems (2003, 2008, 2012), etc
-- Linux x86_x64 Architecture
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:400px">Operating System</td>
+			<td style="font-weight: bold; width:400px">Versions</td>
+		</tr>
+  <tr>
+			<td>Microsoft Windows</td>
+			<td><ul><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
+		</tr>
+  <tr>
+			<td>Linux</td>
+			<td><ul><li>Ubuntu 16.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
+		</tr>
+</table>
 
 ## Development Environment
 
-You can use Aspose.Words for C++ to develop applications in any development environment that supports C++, but the following environments are explicitly supported:
+You can use Aspose.Words for C++ when developing applications for Windows or Linux.
 
-- Microsoft Visual C++ version 2017 or higher
-- GCC 6.3 or higher
-- Clang 3.9.1 or higher
+### Windows
 
-{{% alert color="primary" %}}
+Aspose.Words for C++ can be used to develop applications in any development environment which supports [Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), but the environments listed in the following table are explicitly supported:
 
-While using Visual Studio 2017, you may also need to install [Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe).
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:800px">Development environments</td>
+		</tr>
+  <tr>
+			<td><ul><li>Microsoft Visual Studio 2017 (Only release configuration)</li><li>Microsoft Visual Studio 2019</li></ul></td>
+			</tr>
+</table>
 
-{{% /alert %}}
+### Linux
+
+Aspose.Words for C++ can be used to develop application in any development environment which support [C++14 language standard](https://en.cppreference.com/w/cpp/compiler_support), but the following compilers are explicitly supported:
+
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:800px">Compilers</td>
+		</tr>
+  <tr>
+			<td><ul><li>GCC 6.3.0 or later</li><li>Clang 3.9.1 or later</li></ul></td>
+			</tr>
+</table>
+
+### Additional Dependency on Linux
+
+Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) binaries, both dynamic library and tool. Please install it before using:
+
+1. Installing fontconfig on Ubuntu or Debian</br>
+`sudo apt install libfontconfig fontconfig`
+2. Installing fontconfig on Fedora or CentOs</br>
+   `sudo yum install fontconfig`

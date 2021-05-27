@@ -25,6 +25,7 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Tables](/words/net/working-with-tables/)
 - [Working with Lists](/words/net/working-with-lists/)
 - [Working with Paragraphs](/words/net/working-with-paragraphs/)
+- [Working with Hyphenation](https://docs.aspose.com/words/net/working-with-hyphenation/)
 - [Working with Fonts](/words/net/working-with-fonts/)
 - [Enable OpenType Features](/words/net/enable-opentype-features/)
 - [Working with TextBoxes](/words/net/working-with-textboxes/)
