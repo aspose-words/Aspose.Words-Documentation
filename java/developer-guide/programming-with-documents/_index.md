@@ -25,6 +25,7 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Tables](/words/java/working-with-tables/)
 - [Working with Lists](/words/java/working-with-lists/)
 - [Working with Paragraphs](/words/java/working-with-paragraphs/)
+- [Working with Hyphenation](https://docs.aspose.com/words/java/working-with-hyphenation/)
 - [Working with Fonts](/words/java/working-with-fonts/)
 - [Enable OpenType Features](/words/java/enable-opentype-features/)
 - [Working with Linked TextBoxes](/words/java/working-with-linked-textboxes/)
