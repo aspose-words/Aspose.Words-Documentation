@@ -31,7 +31,7 @@ The code above uses the [FileFormatUtil.DetectFileFormat](https://apireference.a
 
 {{% alert color="primary" %}} 
 
-You can also check if a document has digital signatures after loading by checking the Count property of the [Document.DigitalSignatures collection](https://apireference.aspose.com/words/net/aspose.words/digitalsignaturecollection).
+You can also check if a document has digital signatures after loading by checking the Count property of the [Document.DigitalSignatures collection](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection).
 
 {{% /alert %}} 
 
@@ -55,7 +55,7 @@ The .NET framework provides numerous ways in which to load a certificate. These 
 
 A document can have multiple digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
 
-The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/net/aspose.words/digitalsignaturecollection/properties/isvalid) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
+The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/properties/isvalid) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
 
 Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
 

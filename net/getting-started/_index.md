@@ -15,8 +15,9 @@ To find out more about Aspose.Words, select the appropriate section:
 - *"Platforms and Interoperability"* – provides information on using Aspose.Words when building applications for other platforms
 - *"Aspose.Words or Other Solutions"* – describes the reasons why it might be better to use Aspose products rather than other products, for example, Microsoft Office Automation or Open XML SDK
 - *"System Requirements"* – provides information about system and development environment requirements
-- *"Licensing"* – provides information on applying a license and using multiple Aspose products
+- *"Licensing and Subscription"* – provides information on applying a license and using multiple Aspose products
 - *"Installation"* – provides information on how to install Aspose.Words
 - *"Web Applications Security When Loading External Resources"* – describes common security issues and their solutions  when loading external resources
 - *"How to Run the Examples"* – describes how to download and run the examples and what software requirements must be met
 - *"How to Run Aspose.Words in Docker"* – provides information on how to utilize Aspose.Words in a Docker container
+

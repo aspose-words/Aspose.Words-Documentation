@@ -40,8 +40,8 @@ Online video can be inserted in MS Word from Insert tab > Online Video. You can 
 
 Simple insertion of online video from the following resources is supported:
 
-– <https://www.youtube.com/> 
-– <https://vimeo.com/>
+* <https://www.youtube.com/>
+* <https://vimeo.com/>
 
 The second overload works with all other video resources and takes embed Html code as a parameter:
 

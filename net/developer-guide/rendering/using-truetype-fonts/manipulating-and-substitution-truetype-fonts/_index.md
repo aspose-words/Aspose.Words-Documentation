@@ -1,5 +1,5 @@
 ---
-title: Manipulating and Substitution TrueType Fonts
+title: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words for .NET can embed the correct TrueType fonts into the resulting document to ensure that it displays accurately. If a font or a specific character is not available, Aspose.Words searches for a suitable font replacement or uses the Font fallback mechanism."
 type: docs
 weight: 10
@@ -225,9 +225,10 @@ The table below provides typical problems with rendering documents to PDF and XP
 |Symptom|Problem|Solution|
 | :- | :- | :- |
 |The layout and fonts in the output document are different from the original.|Font may not be available, or the font format is supported by Microsoft Word but not supported by Aspose.Words.|<p>Aspose.Words will perform font substitution. To check if the font is missing:</p><p>- In Microsoft Word open the "Font Substitution" dialog box (File → Options → Advanced → Font Substitution).</p><p>- In Aspose.Words use the Font substitution warnings (for details, see the "How to Recognize That the Font Was Replaced" section).</p>|
-||In APS.NET, there is no access to the system fonts folder in medium trust. |Users have to store fonts in their own folder.|
+||In ASP.NET, there is no access to the system fonts folder in medium trust. |Users have to store fonts in their own folder.|
 |Font fallback is not working on non-windows platforms. Unicode characters are replaced with .notdef glyph. This is usually a box or question glyph.|Microsoft Office fallback settings are selected by default, and Microsoft Office fonts are not available.|Users have to install Microsoft Office fonts or alter fallback settings.|
 |Complex script text, such as Thai or Hebrew, may be displayed inaccurately for some reason, for example, wrong position for diacritics, inaccurate ligatures.|Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default.|Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/textshaperfactory).|
+
 When copying fonts, keep in mind that most fonts are copyrighted. Locate font licences beforehand, and verify that they can be freely transferred to another machine.
 
 ## See Also

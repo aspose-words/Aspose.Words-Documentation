@@ -6,11 +6,11 @@ weight: 80
 url: /java/system-requirements/
 ---
 
-Aspose.Words for Java does not require third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converticg, and rendering of documents in various formats, including Microsoft Word document formats.
+Aspose.Words for Java does not require third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converting, and rendering of documents in various formats, including Microsoft Word document formats.
 
 ## Supported Operating Systems
 
-Aspose.Words for Java supports any 64-bit or 86-bit operating system that runs the Java runtime, including but not limited to the versions listed in the following table.
+Any Operating System that can run the Java Runtime Environment (JRE) can run Aspose.Words for Java. The following table lists most, but not all, supported Operating Systems.
 
 <table>  
 	<tr>
@@ -37,41 +37,24 @@ Aspose.Words for Java supports any 64-bit or 86-bit operating system that runs 
 
 ## Supported Cloud Platforms
 
-Aspose.Words for Java also supports cloud platforms, including but not limited to the solutions listed in the following table.
-
-<table>  
-	<tr>
-			<td style="font-weight: bold; width:800px">Cloud platforms</td>
-		</tr>
-  <tr>
-			<td><ul><li>Amazon Web Services</li><li>Microsoft Azure</li></ul></td>
-			</tr>
-</table>
-
-{{% alert color="primary" %}}
-
-Note that the list above can be extended with other cloud solutions, provided that these solutions support Java.
-
-{{% /alert %}}
+Aspose.Words for Java supports any cloud platforms that can run Java applications. 
 
 ## Supported Java Versions
 
-Aspose.Words for Java supports the Java versions listed in the following table.
+Aspose.Words for Java supports Java 7 and newer. If you are forced to use Java 6, we still release a separate JAR for Java 6.
 
-<table>  
-	<tr>
-			<td style="font-weight: bold; width:800px">Cloud platforms</td>
-		</tr>
-  <tr>
-			<td><ul><li>J2SE 6.0 (1.6)</li><li>J2SE 7.0 (1.7)</li><li>J2SE 8.0 (1.8)</li><li>and versions above (for example, Java 10)</li></ul></td>
-			</tr>
-</table>
 
-## Additional Dependencies
+## Optional Dependencies
 
-Aspose.Words for Java depends on the [Java Advanced Imaging (JAI) package](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-client-419417.html) from Oracle in order to process some image formats such as TIFF.
+As we stated above, Aspose.Words for Java requires *only* the Java Runtime Environment, and you do not need to install any additional libraries.
 
-### Install Native JAI and ImageIO on Windows
+However, sometimes there are situations where you might need to add third-party libraries:
+
+- JogAmp JOGL library for hardware accelerated OpenGL rendering. The library is included in the aspose-words POM file as an external dependency. You can edit the POM file to preserve JOGL jars required for your platform only. Or you can remove the dependency if you do not need hardware accelerated OpenGL rendering.
+- Harfbuzz font engine. It is already included in JRE 9 and newer. If you are using JRE 8 or older, you can use the shaping-harfbuzz-plugin dependency in our POM file. Otherwise, you can remove the dependency.
+- Java Advanced Imaging (JAI) to support TIFF images. TIFF images are not supported by Java 8 and older. For TIFF support in old Java environments, Aspose.Words for Java depends on the [Java Advanced Imaging (JAI) package](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-client-419417.html) from Oracle. We will describe how to  install JAI below.
+
+### How to Install JAI on Windows
 
 Follow these steps to install native JAI and ImageIO on Windows:
 
@@ -82,7 +65,7 @@ Follow these steps to install native JAI and ImageIO on Windows:
    At the time of writing, only the 32-bit version of the installer is available, so if you use a JDK you need to download [jai_imageio-1_1-lib-windows-i586-jdk.exe](http://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jdk.exe) and if you use a JRE you need to download [jai_imageio-1_1-lib-windows-i586-jre.exe](http://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jre.exe)
 1. Run the installer and point it to the directory where JDK/JRE is installed.
 
-### Install Native JAI and ImageIO on Linux
+### How to Install JAI on Linux
 
 Follow these steps to install native JAI and ImageIO on Linux:
 
@@ -121,8 +104,8 @@ Follow these steps to install native JAI and ImageIO on Linux:
    rm -r /tmp/jai_imageio-1_1
    {{< /highlight >}}
 
-### Folder for Temporary Files
+## Folder for Temporary Files
 
 Aspose.Words for Java uses a temporary directory on your computer, which is specified via `java.io.tmpdir` system property. Aspose.Words for Java writes temporary files and then removes these files as soon as rendering is completed.
 
-`java.io.tmpdir` is a standard Java system property that is also used by disk-based storage policies. It determines where the JVM writes temporary files. 
+`java.io.tmpdir` is a standard Java system property that is also used by disk-based storage policies. It determines where the JVM writes temporary files.

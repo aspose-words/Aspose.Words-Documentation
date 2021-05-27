@@ -10,7 +10,7 @@ This page describes the most interesting new Aspose.Words features introduced in
 
 {{% alert color="primary" %}}
 
-Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures and Aspose.Words.Vba namespaces were introduced and the Aspose.Words.Lists namespace was modified.
+Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures, Aspose.Words.Vba, Aspose.Words.Comparing, and Aspose.Words.Notes namespaces were introduced and the Aspose.Words.Lists and Aspose.Words.Loading namespaces were modified.
 
 In case of a compilation error, please add the appropriate line of code:
 
@@ -18,19 +18,46 @@ In case of a compilation error, please add the appropriate line of code:
 using Aspose.Words.DigitalSignatures;
 using Aspose.Words.Vba;
 using Aspose.Words.Lists;
+using Aspose.Words.Comparing;
+using Aspose.Words.Notes;
+using Aspose.Words.Loading;
 {{< /highlight >}}
 
-For more information on these changes, see the [Aspose.Words for .NET 21.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-3-release-notes/) page.
+For more information on these changes, see the [Aspose.Words for .NET 21.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-3-release-notes/)  and [Aspose.Words for .NET 21.4 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-4-release-notes/) pages.
 
 {{% /alert %}}
 
-## Aspose.Words for .NET 21.1, 21.2, 21.3
+## Aspose.Words for .NET 21.5
+
+Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
+
+The API is enhanced for more flexible and convenient development.
+
+### Mail Merge and Reporting
+
+A new property [RestartListsAtEachSection](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/restartlistsateachsection) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
+
+### Other
+
+* New methods [SetCheckedSymbol](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/methods/setcheckedsymbol) and [SetUncheckedSymbol](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/methods/setuncheckedsymbol) have been added to set checked and unchecked symbols for your favorite structured document tags.
+* The equations created with EQ fields are now supported upon converting to all HTML-based formats.
+* Using Aspose.Words for .NET via COM Interop has been checked and the documentation has been modified according to the latest version of the VBScript engine.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 21.5 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-5-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words for .NET 21.1, 21.2, 21.3, 21.4
 
 Aspose.Words 21.1 expands loading and saving options and improves document display capabilities.
 
 Aspose.Words 21.2 enhances font properties, improves find and replace options, and expands possibilities when converting documents.
 
 Aspose.Words 21.3 expands rendering and reporting options, and improves interaction with styles and child nodes of the StructuredDocumentTag.
+
+Aspose.Words 21.4 improves rendering and conversion features, and enhances the ability to work with a ranged structured document tag.
 
 ### Rendering
 
@@ -46,6 +73,14 @@ A new public API, allowing to manipulate themed properties of Font objects, has 
 
 Font API has been extended with the [Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/fill) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
 
+#### Convert Any Fill to Solid
+
+A new method [Solid](https://apireference.aspose.com/words/net/aspose.words.drawing/fill/methods/solid) has been added to the [Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/fill) class for processing solid fills.
+
+#### Support for Advanced Typography
+
+Support for advanced typography when saving to image formats with GDI+ or SkiaSharp, for example, on all .NET platforms and .NET Standard, has been implemented.
+
 ### Conversion
 
 #### Markdown Document Export
@@ -54,7 +89,11 @@ A new public property [ImageSavingCallback](https://apireference.aspose.com/word
 
 #### HTML Document Import
 
-A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/net/aspose.words/htmlloadoptions/properties/ignorenoscriptelements) has been added to ignore `<noscript>` HTML elements upon loading HTML.
+A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/properties/ignorenoscriptelements) has been added to ignore `<noscript>` HTML elements upon loading HTML.
+
+#### Clean Up Unused Information from a Document
+
+A new public property [UnusedBuiltinStyles](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions/properties/unusedbuiltinstyles) has been added to the [CleanupOptions](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
 
 ### Reporting
 
@@ -72,6 +111,7 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 * A new public method [OpenIStream](https://apireference.aspose.com/words/net/aspose.words/comhelper/methods/openistream) has been added to the [ComHelper](https://apireference.aspose.com/words/net/aspose.words/comhelper) class to load documents from IStream objects in COM applications.
 * A new public method [ClearQuickStyleGallery](https://apireference.aspose.com/words/net/aspose.words/stylecollection/methods/clearquickstylegallery) has been added to the [StyleCollection](https://apireference.aspose.com/words/net/aspose.words/stylecollection) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
 * An ability to work with child nodes of the [StructuredDocumentTag](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag) range has been added. New behavior follows the [CompositeNode](https://apireference.aspose.com/words/net/aspose.words/compositenode) pattern and returns a live collection.
+* The ability to create instances of the [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttagrangestart) and [StructuredDocumentTagRangeEnd](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttagrangeend) classes manually has been added.
 
 {{% alert color="primary" %}}
 
@@ -80,6 +120,8 @@ Learn more about [Aspose.Words for .NET 21.1 Release Notes](https://docs.aspose.
 Learn more about [Aspose.Words for .NET 21.2 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-2-release-notes/).
 
 Learn more about [Aspose.Words for .NET 21.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-3-release-notes/).
+
+Learn more about [Aspose.Words for .NET 21.4 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-4-release-notes/).
 
 {{% /alert %}}
 
@@ -138,7 +180,7 @@ PDF import is now faster and more accurate. Footnotes support has been implement
 
 #### HTML Document Import
 
-HTML import has been modified. Previously, the [MswVersion](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/mswversion) property had no effect when loading documents from HTML and HTML-based formats (for example, MHTML). All documents were loaded as if no MswVersion were specified. This has been changed, and now the HTML reader can load documents differently depending on the MswVersion value.
+HTML import has been modified. Previously, the [MswVersion](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/mswversion) property had no effect when loading documents from HTML and HTML-based formats (for example, MHTML). All documents were loaded as if no MswVersion were specified. This has been changed, and now the HTML reader can load documents differently depending on the MswVersion value.
 
 ### Report Generation
 
@@ -146,7 +188,7 @@ A condition evaluation extension point has been introduced. This allows users to
 
 ### Other
 
-- The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word.
+- The [VbaReferenceCollection](https://apireference.aspose.com/words/net/aspose.words.vba/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word.
 - New public properties [SpellingChecked](https://apireference.aspose.com/words/net/aspose.words/document/properties/spellingchecked) and [GrammarChecked](https://apireference.aspose.com/words/net/aspose.words/document/properties/grammarchecked) have been added to indicate if a document has been checked for spelling and grammar, respectively.
 
 {{% alert color="primary" %}}
@@ -222,7 +264,7 @@ SmartArt Cold Rendering has become even better – the processing of hyperlinks 
 - Two new nodes have been introduced to handle multi-section structured document tags. These structured document tags are now supported upon import/export.
 - A new public property [RetainFirstSectionStart](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/retainfirstsectionstart) has been added to get or set a value that indicates whether the [SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to Microsoft Word behavior.
 - Markdown ‘Inline Images’ feature has been implemented to make our Markdown support even better.
-- The [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words/pdfloadoptions/properties/skippdfimages) flag has been added to the [PdfLoadOptions](https://apireference.aspose.com/words/net/aspose.words/pdfloadoptions) class to indicate whether images must be skipped when loading a PDF document.
+- The [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/skippdfimages) flag has been added to the [PdfLoadOptions](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions) class to indicate whether images must be skipped when loading a PDF document.
 - Support for SVG images embedded using data URLs upon HTML import has been implemented.
 
 {{% alert color="primary" %}} 
@@ -283,7 +325,7 @@ Using the *InterpolateImages* property is relevant if the resolution of a sour
 Search and compare options are extended:
 
 - The functionality of the *FindReplaceOptions* class becomes more flexible to serve your needs. It is now possible to ignore text inside revisions and fields. You can also enable the use of substitutions in the replacement pattern via the [UseSubstitutions](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/usesubstitutions) property – this makes easy to use part or whole match when replacing.
-- The [Granularity](https://apireference.aspose.com/words/net/aspose.words/compareoptions/properties/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature allows you to specify the exact granularity of changes to track when comparing two documents.
+- The [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature allows you to specify the exact granularity of changes to track when comparing two documents.
 
 ### Other
 

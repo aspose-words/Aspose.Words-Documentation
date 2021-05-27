@@ -43,7 +43,7 @@ A generated PDF document can be signed during saving. Currently only PDF documen
 
 ### Access and Verify Digital Signatures
 
-The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signature_collection/#abac52a9b54b140ab7ee3404f13a85eaf) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
+The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#a0cb3409a8652d194706c402493946ba5) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
 
 Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. 
 

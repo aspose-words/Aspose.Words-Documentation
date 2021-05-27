@@ -21,6 +21,6 @@ The current section describes popular conversions, as well as ideas for working 
 
 **Try online**
 
-You can try this functionality with our [Free online converter](https://products.aspose.app/words/conversion).
+You can try the conversion functionality by using our [Free online converter](https://products.aspose.app/words/conversion) tool.
 
 {{% /alert %}}
