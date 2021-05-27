@@ -45,43 +45,38 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
-{{< highlight csharp >}}
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_RenderingAndPrinting();
-
+{{< highlight cpp >}}
 // Load the documents which store the shapes we want to render.
-Document doc = new Document(dataDir + "TestFile RenderShape.doc");
-Hyphenation.RegisterDictionary("en-US", dataDir + @"hyph_en_US.dic");
-Hyphenation.RegisterDictionary("de-CH", dataDir + @"hyph_de_CH.dic");
+auto doc = MakeObject<Document>(u"German text.docx");
 
-dataDir = dataDir + "HyphenateWordsOfLanguages_out.pdf";
-doc.Save(dataDir);
+Hyphenation::RegisterDictionary(u"en-US", MyDir + u"hyph_en_US.dic");
+Hyphenation::RegisterDictionary(u"de-CH", MyDir + u"hyph_de_CH.dic");
+
+doc->Save(u"WorkingWithHyphenation.HyphenateWordsOfLanguages.pdf");
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Rendering.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/German%20text.docx)
 
 {{% /alert %}}
 
 The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
 {{< highlight csharp >}}
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_RenderingAndPrinting();
 
 // Load the documents which store the shapes we want to render.
-Document doc = new Document(dataDir + "TestFile RenderShape.doc");
-Stream stream = File.OpenRead(dataDir + @"hyph_de_CH.dic");
-Hyphenation.RegisterDictionary("de-CH", stream);
+auto doc = MakeObject<Document>(u"German text.docx");
 
-dataDir = dataDir + "LoadHyphenationDictionaryForLanguage_out.pdf";
-doc.Save(dataDir);
+auto stream = System::IO::File::OpenRead(u"hyph_de_CH.dic");
+Hyphenation::RegisterDictionary(u"de-CH", stream);
+
+doc->Save(ArtifactsDir + u"WorkingWithHyphenation.LoadHyphenationDictionaryForLanguage.pdf");
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Rendering.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/German%20text.docx)
 
 {{% /alert %}}
 
@@ -89,55 +84,48 @@ As an alternative to pre-registering hyphenation dictionaries, it is possible to
 
 The following code example shows how to implement the **IHyphenationCallback** interface:
 
-{{< highlight csharp >}}
-internal class CustomHyphenationCallback : IHyphenationCallback
+{{< highlight cpp >}}
+class CustomHyphenationCallback : public IHyphenationCallback
 {
-	public void RequestDictionary(string language)
-	{
-		string dictionaryFolder = @"C:\HyphenationDictionaries";
-		string dictionaryFullFileName;
-		switch (language)
-		{
-			case "en-US":
-				dictionaryFullFileName = Path.Combine(dictionaryFolder, "hyph_en_US.dic");
-				break;
-			case "de-CH":
-				dictionaryFullFileName = Path.Combine(dictionaryFolder, "hyph_de_CH.dic");
-				break;
-			default:
-				throw new Exception($"Missing hyphenation dictionary for {language}.");
-		}
-		// Register dictionary for requested language.
-		Hyphenation.RegisterDictionary(language, dictionaryFullFileName);
-	}
-}
+public:
+    void RequestDictionary(String language) override
+    {
+        String dictionaryFolder = u"C:\\HyphenationDictionaries";
+        String dictionaryFullFileName;
+        if (language == u"en-US")
+        {
+            dictionaryFullFileName = System::IO::Path::Combine(dictionaryFolder, u"hyph_en_US.dic");
+        }
+        else if (language == u"de-CH")
+        {
+            dictionaryFullFileName = System::IO::Path::Combine(dictionaryFolder, u"hyph_de_CH.dic");
+        }
+        else
+        {
+            throw System::Exception(String::Format(u"Missing hyphenation dictionary for {0}.", language));
+        }
+        // Register dictionary for requested language.
+        Hyphenation::RegisterDictionary(language, dictionaryFullFileName);
+    }
+};
 
-class Program
+void HyphenationCallback()
 {
-	static void Main(string[] args)
-	{
-		Aspose.Words.License l = new License();
-		l.SetLicense("Aspose.Total.NET.lic");
+    try
+    {
+    	// Register hyphenation callback.
+        Hyphenation::set_Callback(MakeObject<WorkingWithHyphenation::CustomHyphenationCallback>());
 
-		try
-		{
-			// Register hyphenation callback.
-			Hyphenation.Callback = new CustomHyphenationCallback();
-	 
-			Document document = new Document(@"C:\Documents\TestDoc.docx");
-			document.Save(@"C:\Output\TestOut.pdf");
-		}
-		catch (Exception e) when (e.Message.StartsWith("Missing hyphenation dictionary"))
-		{
-			Console.WriteLine(e.Message);
-		}
-		finally
-		{
-			Hyphenation.Callback = null;
-		}
-	
-		Console.ReadLine();
-	}
+        auto document = MakeObject<Document>(u"German text.docx");
+        document->Save(u"WorkingWithHyphenation.HyphenationCallback.pdf");
+    }
+    catch (System::Exception& e)
+    {
+    	ASSERT_TRUE(e->get_Message().StartsWith(u"Missing hyphenation dictionary"));
+    	std::cout << e->get_Message() << std::endl;
+    }
+
+	Hyphenation::set_Callback(nullptr);
 }
 {{< /highlight >}}
 
