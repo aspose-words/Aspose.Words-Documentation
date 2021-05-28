@@ -41,6 +41,12 @@ You need to set the license:
 
 {{% /alert %}}
 
+{{% alert color="primary" %}}
+
+You can find pricing information on the [“Pricing Information”](https://purchase.aspose.com/pricing/words/family) page.
+
+{{% /alert %}}
+
 ### License Applying Options
 
 Licenses can be applied from various locations:
