@@ -4,6 +4,7 @@ type: docs
 description: "Aspose.Words for Java provides free technical support available to all users. Please report your question, issue, or feature request using Aspose Free Support Forum."
 weight: 80
 url: /java/technical-support/
+aliases: [/java/known-issues-in-aspose-words-for-java/]
 ---
 
 Aspose provides unlimited free technical support for all of its products. Support is available to all users, including evaluation. The main avenue of support is [Aspose.Forums](https://forum.aspose.com/).

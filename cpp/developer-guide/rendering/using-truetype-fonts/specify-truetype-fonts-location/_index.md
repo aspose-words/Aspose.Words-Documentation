@@ -1,5 +1,6 @@
 ---
 title: Specify TrueType Fonts Location
+description: "Aspose.Words for C++ enables you to specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system or memory."
 type: docs
 weight: 30
 url: /cpp/specify-truetype-fonts-location/

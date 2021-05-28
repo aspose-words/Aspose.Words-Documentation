@@ -10,7 +10,7 @@ This page describes the most interesting new Aspose.Words features introduced in
 
 {{% alert color="primary" %}}
 
-Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures and Aspose.Words.Vba namespaces were introduced and the Aspose.Words.Lists namespace was modified.
+Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures, Aspose.Words.Vba, Aspose.Words.Comparing, and Aspose.Words.Notes namespaces were introduced and the Aspose.Words.Lists and Aspose.Words.Loading namespaces were modified.
 
 In case of a compilation error, please add the appropriate line of code:
 
@@ -18,19 +18,45 @@ In case of a compilation error, please add the appropriate line of code:
 #include <Aspose.Words.Cpp/Model/Model/Document/DigitalSignatures/CertificateHolder.h>
 #include <Aspose.Words.Cpp/Model/Model/Document/Vba/CertificateHolder.h>
 #include <Aspose.Words.Cpp/Model/Model/Document/Lists/CertificateHolder.h>
+#include <Aspose.Words.Cpp/Model/Model/Document/Comparing/CertificateHolder.h>
+#include <Aspose.Words.Cpp/Model/Model/Document/Notes/CertificateHolder.h>
+#include <Aspose.Words.Cpp/Model/Model/Document/Loading/CertificateHolder.h>
 {{< /highlight >}}
 
-For more information on these changes, see the [Aspose.Words for C++ 21.3 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-3-release-notes/) page.
+For more information on these changes, see the [Aspose.Words for C++ 21.3 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-3-release-notes/) and [Aspose.Words for C++ 21.4 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-4-release-notes/) pages.
 
 {{% /alert %}}
 
-## Aspose.Words for C++ 21.1, 21.2, 21.3
+## Aspose.Words for C++ 21.5
+
+Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
+
+The API is enhanced for more flexible and convenient development.
+
+### Mail Merge and Reporting
+
+A new property [RestartListsAtEachSection](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#ab911c61cee7a99ff6df2ad14fafde2d5) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
+
+### Other
+
+- New methods [SetCheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#a9442102849b146594a697f01545b3eca) and [SetUncheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#a94069a23b2c358fa7d64eb092aebc826) have been added to set checked and unchecked symbols for your favorite structured document tags.
+- The equations created with EQ fields are now supported upon converting to all HTML-based formats.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 21.5 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-5-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words for C++ 21.1, 21.2, 21.3, 21.4
 
 Aspose.Words 21.1 expands loading and saving options and improves document display capabilities.
 
 Aspose.Words 21.2 enhances font properties, improves find and replace options, and expands possibilities when converting documents.
 
 Aspose.Words 21.3 expands rendering and reporting options, and improves interaction with styles and child nodes of the StructuredDocumentTag.
+
+Aspose.Words 21.4 improves rendering and conversion features, and enhances the ability to work with a ranged structured document tag.
 
 ### Rendering
 
@@ -46,6 +72,10 @@ A new public API, allowing to manipulate themed properties of Font objects, has 
 
 Font API has been extended with the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill/) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
 
+#### Convert Any Fill to Solid
+
+A new method [Solid](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill#a3c8a8ee9ee0cb2fb9b97a822cba24973) has been added to the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class for processing solid fills.
+
 ### Conversion
 
 #### Markdown Document Export
@@ -55,6 +85,10 @@ A new public property [ImageSavingCallback](https://apireference.aspose.com/word
 #### HTML Document Import
 
 A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/cpp/class/aspose.words.html_load_options#ae2eb814d66e990aa09489620b7afafd7) has been added to ignore `<noscript>` HTML elements upon loading HTML.
+
+#### Clean Up Unused Information from a Document
+
+A new public property [UnusedBuiltinStyles](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options#a9b18ace3a72ea17cd6e277853a899138) has been added to the [CleanupOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
 
 ### Search and Compare
 
@@ -67,6 +101,7 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 * A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://apireference.aspose.com/words/cpp/namespace/aspose.words.markup#a857aa9a59398c85d6ad07f20c4123ae7ae4ef5c80fe94d0cad53a95d50691a0c7) structured document tag is updated from custom XML.
 * A new public method [ClearQuickStyleGallery](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection#a17bfca9aaa5850621c7d226efc242ed8) has been added to the [StyleCollection](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection/) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
 * An ability to work with child nodes of the [StructuredDocumentTag](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag/) range has been added. New behavior follows the [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node/) pattern and returns a live collection.
+* The ability to create instances of the [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start/) and [StructuredDocumentTagRangeEnd](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_end/) classes manually has been added.
 
 {{% alert color="primary" %}}
 
@@ -75,5 +110,7 @@ Learn more about [Aspose.Words for C++ 21.1 Release Notes](https://docs.aspose.c
 Learn more about [Aspose.Words for C++ 21.2 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-2-release-notes/).
 
 Learn more about [Aspose.Words for C++ 21.3 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-3-release-notes/).
+
+Learn more about [Aspose.Words for C++ 21.3 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-4-release-notes/).
 
 {{% /alert %}}

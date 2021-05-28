@@ -81,8 +81,8 @@ You can clear the contents of a content control with displaying a placeholder. S
 
 The StructuredDocumentTag.Color property allows you to get or set the color of content control. The color affects content control in two situations:
 
-\1) MS Word highlights the background of the content control when the mouse moves over the content control. This helps to identify the content control. The color of highlighting is a bit "softer" than the *Color*. For example, MS Word highlights the background with the pink color, when *Color* is Red.
-\2) When you interact (editing, picking etc) with the content control, the border of content control is colored with the *Color*.
+1. MS Word highlights the background of the content control when the mouse moves over the content control. This helps to identify the content control. The color of highlighting is a bit "softer" than the *Color*. For example, MS Word highlights the background with the pink color, when *Color* is Red.
+2. When you interact (editing, picking etc) with the content control, the border of content control is colored with the *Color*.
 
 The following code example demonstrates how to change the color of content control. 
 

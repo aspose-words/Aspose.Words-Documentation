@@ -2,7 +2,8 @@
 title: Working with Table of Contents
 type: docs
 weight: 50
-url: /java/how-to-insert-and-work-with-the-table-of-contents-field/
+url: /java/working-with-table-of-contents/
+aliases: [/java/how-to-insert-and-work-with-the-table-of-contents-field/]
 ---
 
 ## Insert and Work with the Table of Contents Field

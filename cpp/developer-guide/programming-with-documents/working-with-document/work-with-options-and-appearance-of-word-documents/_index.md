@@ -3,7 +3,8 @@ title: Work with Options and Appearance of Word Documents
 description: "Aspose.Words for C++ allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 110
-url: /cpp/work-with-document-options-and-settings/
+url: /cpp/work-with-word-document-options-and-appearance/
+aliases: [/cpp/work-with-document-options-and-settings/]
 ---
 
 Sometimes you may need to change the appearance of a document, for example, set language preferences or the number of lines per page.Aspose.Words provides the ability to control how the document will be displayed, as well as some additional options. This article describes such possibilities.
@@ -46,7 +47,7 @@ The following code example shows how to set the number of characters per line an
 
 Displaying a document in Microsoft Word depends on which languages are set as defaults for this document. If no languages are set in defaults, Microsoft Word takes information from the "Set Office Language Preferences" dialog box, which, for example, can be found under "File → Options → Language" in Microsoft Word 2019.
 
-With Aspose.Words, you can also set up language preferences using the [LanguagePreferences](https://apireference.aspose.com/words/cpp/class/aspose.words.language_preferences/) class. Also note that for the correct display of your document it is necessary to set the Microsoft Word version that the document loading process should match – this can be done using the [MswVersion](https://apireference.aspose.com/words/cpp/class/aspose.words.load_options#abe0a652f400b8d6ba1fef5466d25f6a4) property.
+With Aspose.Words, you can also set up language preferences using the [LanguagePreferences](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.language_preferences/) class. Also note that for the correct display of your document it is necessary to set the Microsoft Word version that the document loading process should match – this can be done using the [MswVersion](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options#a4a35a3b868f2b012e17397b0e2f7727b) property.
 
 {{% alert color="primary" %}}
 

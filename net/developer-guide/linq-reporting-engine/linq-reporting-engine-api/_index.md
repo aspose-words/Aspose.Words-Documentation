@@ -80,7 +80,7 @@ Template document
 {{< highlight xml >}}
 <<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
 <</foreach>>
-Average age: <<[persons.average(p => p.Age)]>>
+Average age: <<[persons.Average(p => p.Age)]>>
 {{< /highlight >}}
 
 Source code
@@ -318,7 +318,7 @@ Template document
 {{< highlight xml >}}
 <<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
 <</foreach>>
-Average age: <<[persons.average(p => p.Age)]>>
+Average age: <<[persons.Average(p => p.Age)]>>
 {{< /highlight >}}
 
 Source code
@@ -589,7 +589,7 @@ Template document
 <<foreach [in persons]>>Name: <<[Column1]>>, Age: <<[Column2]>>, Date of Birth: <<[Column3]:"dd.MM.yyyy">>
 <</foreach>>
     
-Average age: <<[persons.average(p => p.Column2)]>>
+Average age: <<[persons.Average(p => p.Column2)]>>
 {{< /highlight >}}
 
 Source code
@@ -627,7 +627,7 @@ Template document
 <<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
 <</foreach>>
     
-Average age: <<[persons.average(p => p.Age)]>>
+Average age: <<[persons.Average(p => p.Age)]>>
 {{< /highlight >}}
 
 Source code
