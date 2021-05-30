@@ -53,7 +53,7 @@ With Aspose.Words for .NET, you can generate, modify, convert, render, and print
 			<ul>
 				<li><a href="https://docs.aspose.com/words/net/how-to-run-the-examples/">How to Run the Examples</a></li>
 				<li><a href="https://docs.aspose.com/words/net/how-to-run-aspose-words-in-docker/">How to Run Aspose.Words in Docker</a></li>
-				<li><a href="https://docs.aspose.com/words/net/web-applications-security-when-loading-external-resources/">Web Applications Security When Loading External Resources</a></li>
+				<li><a href="https://docs.aspose.com/words/net/security/">Security Notes</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">

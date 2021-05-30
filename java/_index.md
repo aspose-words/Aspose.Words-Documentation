@@ -52,7 +52,7 @@ With Aspose.Words for Java, you can generate, modify, convert, render, and print
 			<p>LEARN</p>
 			<ul>
 				<li><a href="https://docs.aspose.com/words/java/how-to-run-the-examples/">How to Run the Examples</a></li>
-				<li><a href="https://docs.aspose.com/words/java/web-applications-security-when-loading-external-resources/">Web Applications Security When Loading External Resources</a></li>
+				<li><a href="https://docs.aspose.com/words/java/security/">Security Notes</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">

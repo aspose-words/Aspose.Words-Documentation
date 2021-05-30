@@ -52,7 +52,7 @@ With Aspose.Words for C++, you can generate, modify, convert, and render documen
 			<p>LEARN</p>
 			<ul>
 				<li><a href="https://docs.aspose.com/words/cpp/how-to-run-the-examples/">How to Run the Examples</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/web-applications-security-when-loading-external-resources/">Web Applications Security When Loading External Resources</a></li>
+				<li><a href="https://docs.aspose.com/words/cpp/security/">Security Notes</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
