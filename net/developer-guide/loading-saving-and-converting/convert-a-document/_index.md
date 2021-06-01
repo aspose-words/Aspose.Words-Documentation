@@ -106,7 +106,7 @@ The current section describes popular conversions, as well as ideas for working 
 			<ul>
 				<li><a href="https://docs.aspose.com/words/net/serialize-and-work-with-a-document-in-a-database/">Serialize and Work with a Document in a Database</a></li>
 			</ul>
-		<h2>Other examples</h2>
+		<h2>Other Examples</h2>
 			<ul>
 				<li><a href="http://localhost:1313/words/net/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
 				<li>Convert DOCX to DOC</li>
