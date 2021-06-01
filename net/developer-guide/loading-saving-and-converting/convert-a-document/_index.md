@@ -23,7 +23,7 @@ You can try the conversion functionality by using our [Free online converter](ht
 
 {{% /alert %}}
 
-The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are several hundred of them due to the large number of formats supported by Aspose.Words.
+The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are several hundred of them due to the large number of [formats supported by Aspose.Words for .NET](https://docs.aspose.com/words/net/supported-document-formats/).
 
 <div class="row">
 	<div class="col-md-4">
@@ -46,12 +46,11 @@ The current section describes popular conversions, as well as ideas for working 
 				<li>Convert MHT (MHTML) to PDF</li>
 				<li>and others</li>
 			</ul>
-		<h2>Convert Other Document Formats  to PDF</h2>
+		<h2>Convert Other Formats  to PDF</h2>
 			<ul>
 				<li>Convert RTF to PDF</li>
 				<li>Convert ODT to PDF</li>
 				<li>Convert TXT to PDF</li>
-				<li>Convert XML to PDF</li>
 				<li>Convert Mobi to PDF</li>
 				<li>and others</li>
 			</ul>
@@ -59,53 +58,57 @@ The current section describes popular conversions, as well as ideas for working 
 	<div class="col-md-4">
 		<h2>Convert PDF to Word</h2>
 			<ul>
-				<li>Convert PDF to DOC</li>
 				<li><a href="https://docs.aspose.com/words/net/convert-pdf-to-other-document-formats/">Convert PDF to DOCX</a></li>
+        <li>Convert PDF to DOC</li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert PDF to Image</h2>
 			<ul>
-				<li>Convert PDF to SVG</li>
 				<li><a href="http://localhost:1313/words/net/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
+        <li>Convert PDF to SVG</li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert PDF to Web Formats</h2>
+			<ul>
+        <li>Convert PDF to Markdown</li>
+				<li>Convert PDF to HTML</li>
+				<li>Convert PDF to EPUB</li>
+				<li>and others</li>
+			</ul>
+		<h2>Convert PDF to Other Formats</h2>
 			<ul>
 				<li>Convert PDF to RTF</li>
 				<li>Convert PDF to XPS</li>
 				<li>and others</li>
 			</ul>
-		<h2>Convert PDF to Other Document Formats</h2>
-			<ul>
-				<li>Convert PDF to Markdown</li>
-				<li>Convert PDF to HTML</li>
-				<li>Convert PDF to EPUB</li>
-				<li>and others</li>
-			</ul>
 	</div>
-  <div class="col-md-4">
-		<h2>Convert a Document to HTML</h2>
-			<ul>
-				<li><a href="http://localhost:1313/words/net/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
-				<li><a href="http://localhost:1313/words/net/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
-				<li>Convert Markdown to HTML</li>
-				<li>Convert HTML to Markdown</li>
-				<li><a href="http://localhost:1313/words/net/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
-				<li>Convert Mobi to EPUB</li>
-				<li>and others</li>
-			</ul>
+	<div class="col-md-4">
 		<h2>Convert a Document to an Image</h2>
 			<ul>
 				<li><a href="http://localhost:1313/words/net/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
 				<li><a href="http://localhost:1313/words/net/convert-an-image-to-pdf/#convert-tiff-to-pdf">Convert DOCX to JPG</a></li>
 				<li>and others</li>
 			</ul>
-		<h2>Store, Read and Delete a Document in a Database</h2>
+		<h2>Convert a Document to Markdown</h2>
+			<ul>
+				<li><a href="http://localhost:1313/words/net/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
+				<li>Convert HTML to Markdown</li>
+				<li>and others</li>
+			</ul>
+		<h2>Convert a Document to HTML</h2>
+			<ul>
+				<li><a href="http://localhost:1313/words/net/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
+				<li>Convert Markdown to HTML</li>
+				<li>Convert Mobi to EPUB</li>
+				<li>and others</li>
+			</ul>
+		<h2>Work a Document in a Database</h2>
 			<ul>
 				<li><a href="https://docs.aspose.com/words/net/serialize-and-work-with-a-document-in-a-database/">Serialize and Work with a Document in a Database</a></li>
 			</ul>
 		<h2>Other examples</h2>
 			<ul>
+				<li><a href="http://localhost:1313/words/net/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
 				<li>Convert DOCX to DOC</li>
 				<li>Convert HTML to Word</li>
 				<li>and others</li>
