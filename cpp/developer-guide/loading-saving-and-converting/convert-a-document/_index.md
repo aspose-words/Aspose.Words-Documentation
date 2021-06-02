@@ -27,7 +27,7 @@ The current section describes popular conversions, as well as ideas for working 
 
 {{% alert color="primary" %}}
 
-Please note that below are the most popular conversion pairs, and not every pair has a link to the definite page. This is because our articles do not have examples for every pair of conversions – almost all conversions are pretty uniform. Make sure of this by studying the articles in the current section.
+Please note that below are the most popular conversion combinations, and not every combination is linked to the definite page. This is the case because our articles do not have examples for every pair of conversions – almost all conversions are pretty similar. Make sure of this by studying the articles in the current section.
 
 {{% /alert %}}
 
