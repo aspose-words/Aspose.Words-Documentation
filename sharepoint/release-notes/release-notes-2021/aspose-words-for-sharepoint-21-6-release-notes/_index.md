@@ -1,7 +1,7 @@
 ﻿---
-title: Aspose.Words for SharePoint 21.3 Release Notes
+title: Aspose.Words for SharePoint 21.6 Release Notes
 type: docs
-weight: 80
+weight: 70
 url: /sharepoint/aspose-words-for-sharepoint-21-6-release-notes/
 ---
 
