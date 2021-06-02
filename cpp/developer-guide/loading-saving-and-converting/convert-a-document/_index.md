@@ -15,4 +15,78 @@ Almost any task that you want to perform with Aspose.Words involves loading or s
 1. Load your document into a [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/) object using one of its constructors.
 1. Invoke one of the [Save](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_output_parameters/) methods on the **Document** object and specify the desired output format.
 
-The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving.
+{{% alert color="primary" %}}
+
+**Try online**
+
+You can try the conversion functionality by using our [Free online converter](https://products.aspose.app/words/conversion) tool.
+
+{{% /alert %}}
+
+The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are several hundred of them due to the large number of [formats supported by Aspose.Words for C++](https://docs.aspose.com/words/cpp/supported-document-formats/).
+
+{{% alert color="primary" %}}
+
+Please note that below are the most popular conversion combinations, and not every combination is linked to the definite page. This is the case because our articles do not have examples for every pair of conversions – almost all conversions are pretty similar. Make sure of this by studying the articles in the current section.
+
+{{% /alert %}}
+
+<div class="row">
+	<div class="col-md-6">
+		<h2>Convert Word to PDF</h2>
+			<ul>
+				<li><a href="https://docs.aspose.com/words/cpp/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
+				<li><a href="https://docs.aspose.com/words/cpp/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
+				<li>and others</li>
+			</ul>
+		<h2>Convert Image to PDF</h2>
+			<ul>
+				<li><a href="https://docs.aspose.com/words/cpp/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
+				<li><a href="https://docs.aspose.com/words/cpp/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
+				<li>and others</li>
+			</ul>
+		<h2>Convert Web Formats to PDF</h2>
+			<ul>
+				<li>Convert Markdown to PDF</li>
+				<li>Convert HTML to PDF</li>
+				<li>Convert MHT (MHTML) to PDF</li>
+				<li>and others</li>
+			</ul>
+		<h2>Convert Other Formats  to PDF</h2>
+			<ul>
+				<li>Convert RTF to PDF</li>
+				<li>Convert ODT to PDF</li>
+				<li>Convert TXT to PDF</li>
+				<li>Convert Mobi to PDF</li>
+				<li>and others</li>
+			</ul>
+	</div>
+	<div class="col-md-6">
+		<h2>Convert a Document to an Image</h2>
+			<ul>
+				<li><a href="https://docs.aspose.com/words/cpp/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
+				<li>Convert DOC to PNG</li>
+				<li>and others</li>
+			</ul>
+		<h2>Convert a Document to Markdown</h2>
+			<ul>
+				<li><a href="https://docs.aspose.com/words/cpp/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
+				<li>Convert HTML to Markdown</li>
+				<li>and others</li>
+			</ul>
+		<h2>Convert a Document to HTML</h2>
+			<ul>
+				<li><a href="https://docs.aspose.com/words/cpp/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
+				<li>Convert Markdown to HTML</li>
+				<li>Convert Mobi to EPUB</li>
+				<li>and others</li>
+			</ul>
+		<h2>Other Examples</h2>
+			<ul>
+				<li><a href="https://docs.aspose.com/words/cpp/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
+				<li>Convert DOCX to DOC</li>
+				<li>Convert HTML to Word</li>
+				<li>and others</li>
+			</ul>
+	</div>
+</div>

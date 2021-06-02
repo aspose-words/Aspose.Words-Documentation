@@ -12,9 +12,16 @@ Sometimes it is required to get an image instead of documents in other formats, 
 
 As with all conversion examples already described, you need to create a new document or load an existing one in any supported format, make the necessary changes, and save it in any available image format, for example, JPEG, PNG, or BMP.
 
-The following code example shows how to convert PDF to JPEG:
+The following code example shows how to convert DOCX to JPEG:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ImageToPdf-ConvertPdfToImage.cpp" >}}
+{{< highlight cpp >}}
+// Load the document from disk.
+System::SharedPtr<Document> doc = System::MakeObject<Document>(inputDataDir + u"TestDoc.docx");
+
+System::String outputPath = outputDataDir + u"SaveDocx2Jpeg.jpeg";
+// Save the document in JPEG format.
+doc->Save(outputPath);
+{{< /highlight >}}
 
 ## Specify Save Options when Converting to an Image
 
