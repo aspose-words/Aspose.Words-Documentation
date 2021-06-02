@@ -36,7 +36,7 @@ Creating a page layout can be a costly procedure, both in terms of speed and mem
 
 Due to the aforementioned reasons, Aspose.Words will create a page layout only when it is necessary. A typical reason for this would be a request to render document pages or to obtain a field value that depends on information available in page layout. A less obvious reason could be exporting a document to HTML. Even though HTML is not a fixed-page format and it does not describe geometry of the content objects, it still supports images. Such images may be in the form of shapes created in Microsoft Word with a text inside them. For example, a chart with axis labels can be exported into HTML as an image, but before this can be done Aspose.Words needs to render that image, and hence needs to know where to display the label. See the chart example below:
 
-![todo:image_alt_text](converting-to-fixed-page-format_1.png)
+<img src="converting-to-fixed-page-format_1.png" alt="converting-to-fixed-page-format_1" style="width:800px"/>
 
 ### Non-Geometric Properties
 
@@ -44,7 +44,7 @@ In addition to handling geometric information, a page layout is also responsible
 
 Page layout computes where the text will appear and what content will be rendered behind it, enabling color calculation. There are other specific calculations performed by the page layout. For instance, a horizontal border in a table depends on whether a table row is last in a column of text, and whether it is broken across columns. If a row is rendered last in a column, the bottom border is used instead of horizontal.
 
-![todo:image_alt_text](converting-to-fixed-page-format_2.png)
+<img src="converting-to-fixed-page-format_2.png" alt="converting-to-fixed-page-format_2" style="width:600px"/>
 
 In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the [UpdatePageLayout](https://apireference.aspose.com/net/words/aspose.words/document/methods/updatepagelayout) method, provided by the [Document](https://apireference.aspose.com/net/words/aspose.words/document) class. If a page layout does not exist, but there is need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exist, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the UpdatePageLayout method, in order to ensure that the page layout is up to date with the document model.
 

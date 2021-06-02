@@ -17,11 +17,11 @@ Aspose.Words allows to manage formatting marks using the following properties:
 
 The page depicted in the example below contains three paragraphs. The second one is hidden. A user can change the **ShowHiddenText** option to display this hidden text on the page. Also, each paragraph has a paragraph mark at the end. The paragraph mark usually is not visible unless the **ShowParagraphMarks** property is set to render it.
 
-![todo:image_alt_text](specify-layout-options_1.png)
+<img src="specify-layout-options_1.png" alt="specify-layout-options_1" style="width:650px"/>
 
 In Microsoft Word, these parameters are set using the "File → Options → Display" dialog box as follows:
 
-![todo:image_alt_text](specify-layout-options_2.jpg)
+<img src="specify-layout-options_2.jpg" alt="specify-layout-options_2" style="width:650px"/>
 
 ## Comments and Revisions
 
@@ -29,7 +29,7 @@ With Aspose.Words, you can render document comments that will look the same as i
 
 In Microsoft Word, this parameter is set using the "Track Changes Options" dialog box, as shown below:
 
-![todo:image_alt_text](specify-layout-options_3.jpg)
+<img src="specify-layout-options_3.jpg" alt="specify-layout-options_3" style="width:350px"/>
 
 Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/revisionoptions) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/net/words/aspose.words.layout/revisionoptions) class.
 
@@ -39,7 +39,7 @@ You can also have revisions displayed as comments to the content. For this purpo
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
-![todo:image_alt_text](specify-layout-options_4.png)
+<img src="specify-layout-options_4.png" alt="specify-layout-options_4" style="width:650px"/>
 
 ## Text Shaper for Advanced Typography Rendering
 
