@@ -612,9 +612,9 @@ InkML Structural Element:
 - *traceGroup*
 	Any content other than *trace* and *traceGroup* is ignored and not persisted.
 - *brushProperty*
-	*rasterOp* A value that defines how the colors of the pen and background interact. Is ignored. 
-	*antiAliased* A value that indicates if the drawn ink is anti-aliased. Is ignored.
-	*fitToCurve* A value that indicates if the ink is rendered as a series of curves versus as lines between pen sample points. Is ignored. 
+	- *rasterOp* A value that defines how the colors of the pen and background interact. Is ignored. 
+	- *antiAliased* A value that indicates if the drawn ink is anti-aliased. Is ignored.
+	- *fitToCurve* A value that indicates if the ink is rendered as a series of curves versus as lines between pen sample points. Is ignored. 
 - *annotationXML*
 	Is ignored and not persisted.
 
