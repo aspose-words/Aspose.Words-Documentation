@@ -566,7 +566,7 @@ doc.Save("MarkerFormatting.docx");
 
 ### Implemented Rendering of OOXML Ink (InkML subset)
 
-OOXML Ink content is specified by a subset of syntax and semantics for the Ink Markup Language (see ["InkML specification"](https://www.w3.org/TR/InkML/)). The details of the subset are described in "2.1.4 Ink Content Part" of OOXML specification.
+OOXML Ink content is specified by a subset of syntax and semantics for the Ink Markup Language (see ["InkML specification"](https://www.w3.org/TR/InkML/)). The details of the subset are described in ["2.1.4 Ink Content Part"](https://docs.microsoft.com/en-us/openspecs/office_standards/ms-odrawxml/096dacae-0d2c-4861-bc4d-c8e4c6405ad3) of OOXML specification.
 
 Prior to this version Aspose.Words could render only fallback shapes for OOXML Ink objects, i.e. InkML was not actually processed and a simple prerendered image was used instead. And now OOXML ink content part can be rendered directly ("cold" rendering).
 
