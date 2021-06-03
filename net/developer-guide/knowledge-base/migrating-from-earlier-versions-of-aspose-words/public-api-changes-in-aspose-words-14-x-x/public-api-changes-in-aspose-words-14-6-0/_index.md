@@ -58,7 +58,7 @@ Document doc = new Document(MyDir + "input.docx");
 doc.Save("out.pdf");
 {{< /highlight >}}
 
-### CustomPropertiesExport Property Added to PdfSaveOptions
+## CustomPropertiesExport Property Added to PdfSaveOptions
 
 Previously, there was an option (ExportCustomPropertiesAsMetadata) to control how document's custom properties were exported to Pdf document. Now, this property is obsolete, instead the following new property is added:
 
@@ -100,7 +100,7 @@ options.CustomPropertiesExport=PdfCustomPropertiesExport.Metadata;
 doc.Save("MyDocument.pdf", options);
 {{< /highlight >}}
 
-### Footnote and Endnote References now can be Rendered as Hyperlinks into Output PDF
+## Footnote and Endnote References now can be Rendered as Hyperlinks into Output PDF
 
 Footnote/endnote references PDF rendering is now controlled by **PdfSaveOptions.CreateNoteHyperlinks** property. If it is set to true then footnote/endnote references in main text story are rendered into active hyperlinks. When clicked, the hyperlink will lead to the corresponding footnote/endnote. The default value is false.
 
@@ -114,7 +114,7 @@ options.CreateNoteHyperlinks = true;
 doc.Save(MyDir +"MyDocument.pdf", options);
 {{< /highlight >}}
 
-### Insertion of HTML Fragments With Formatting Specified in DocumentBuilder Supported
+## Insertion of HTML Fragments With Formatting Specified in DocumentBuilder Supported
 
 The InsertHtml method of the DocumentBuilder class now allows users to choose what formatting will be used as a base for inserted HTML fragments. A new overloaded version of InsertHtml has been added, whose argument useBuilderFormatting controls this behavior.
 
@@ -137,7 +137,7 @@ builder.InsertHtml("<p style='color:red'><b>Text</b></p>", useBuilderFormatting)
 
 In this example, if useBuilderFormatting is false, the inserted paragraph will have no left indent and will use the 'Times New Roman' 12pt font, which is the default HTML font and indent. If useBuilderFormatting is true, the inserted paragraph will be indented by 1 inch (72 points) and will use the 'Arial' 24pt font, as specified in DocumentBuilder. However, in both cases the inserted text will be bold and red, as specified in the HTML fragment.
 
-### Automatically Tracking Programmatically Made Revision Changes on Document Supported
+## Automatically Tracking Programmatically Made Revision Changes on Document Supported
 
 Following public methods were added to start/stop automatic revision tracking. 
 
@@ -181,6 +181,6 @@ builder.Writeln("let's start it all over");
   // this is not marked because tracking has been stopped.
 {{< /highlight >}}
 
-### Run.Font.Name Returns NameFarEast in Case of Chinese Text
+## Run.Font.Name Returns NameFarEast in Case of Chinese Text
 
 Previously, we always returned NameAscii attribute value for public Run.Font.Name property getter. Now, the behavior is slightly changed. If source run has FarEast character category then Run.Font.Name returns NameFarEast attribute value like Microsoft Word does.
