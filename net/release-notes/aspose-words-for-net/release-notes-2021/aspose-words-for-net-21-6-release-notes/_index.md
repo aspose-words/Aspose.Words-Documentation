@@ -132,7 +132,6 @@ This section lists public API changes that were introduced in Aspose.Words 21.6.
 ### Added a new LayoutEntityType and new values for the Kind property within the LayoutEnumerator class
 
 A new value *Note* has been added to the public enum LayoutEntityType:
-
 {{< highlight csharp >}}
 public enum LayoutEntityType
 {
@@ -192,7 +191,6 @@ if (en.Type == LayoutEntityType.Footnote)
 
 New Kind enum values for the LayoutEnumerator class
 8 new Kind enum values have been added for the LayoutEnumerator class:
-
 {{< highlight csharp >}}
 "FOOTNOTES"
 "ENDNOTES"
@@ -247,7 +245,6 @@ while(en.MoveNext());
 Related issue: WORDSNET-22082
 
 Added a new public property CustomXmlPart.DataChecksum:
-
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies a cyclic redundancy check (CRC) checksum of the <see cref="Data"/> content.
@@ -277,7 +274,6 @@ Console.WriteLine(sdt.XmlMapping.CustomXmlPart.DataChecksum);
 Related issues: WORDSNET-22177, WORDSNET-17760.
 
 A new layout option is added to control Aspose.Words behavior when computing page numbers in a continuous section that restarts page numbering:
-
 {{< highlight csharp >}}
 namespace Aspose.Words.Layout
 {
@@ -335,7 +331,6 @@ Note: It is required to rebuild the document page layout (via Document.UpdatePag
 Related issue: WORDSNET-12275
 
 Properties of the new ChartFormat type have been added to the ChartSeries, ChartDataPoint and ChartMarker classes.
-
 {{< highlight csharp >}}
 public class ChartSeries
 {
@@ -379,7 +374,6 @@ public class ChartFormat
 {{< /highlight >}}
 
 Also aliases to some existing properties have been added to the Stroke class: ForeColor, BackColor, Visible and Transparency. The original Color, Color2, On and Opacity properties will be made obsolete in a future version of Aspose.Words.
-
 {{< highlight csharp >}}
 public class Stroke
 {
@@ -571,7 +565,6 @@ OOXML Ink content is specified by a subset of syntax and semantics for the Ink M
 Prior to this version Aspose.Words could render only fallback shapes for OOXML Ink objects, i.e. InkML was not actually processed and a simple prerendered image was used instead. And now OOXML ink content part can be rendered directly ("cold" rendering).
 
 To control the mode of Ink rendering a new public property SaveOptions.ImlRenderingMode was introduced and the corresponding enum was added:
-
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a value determining how ink (InkML) objects are rendered.
@@ -626,7 +619,6 @@ If the rendering result is unsatisfactory, please use the fallback mode to get a
 Related issue: WORDSNET-22103
 
 The following new public property was added into the ImportFormatOptions class:
-
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists.
@@ -652,21 +644,24 @@ dstDoc.Save("out.docx");
 Related issue: WORDSNET-22002
 
 A new Fill.PresetTextured() public method has been added:
-
 {{< highlight csharp >}}
 /// <summary>
 /// Sets the fill to a preset texture.
 /// <param name="presetTexture"><see cref="Drawing.PresetTexture"/></param>
 /// </summary>
 public void PresetTextured(PresetTexture presetTexture)
-A new Fill.PresetTexture public property has been added:
+{{< /highlight >}}
 
+A new Fill.PresetTexture public property has been added:
+{{< highlight csharp >}}
 /// <summary>
 /// Gets a <see cref="Drawing.PresetTexture"/> for the fill.
 /// </summary>
 public PresetTexture PresetTexture{ get; }
-A new public enum has been introduced:
+{{< /highlight >}}
 
+A new public enum has been introduced:
+{{< highlight csharp >}}
 /// <summary>
 /// Specifies texture to be used to fill a shape.
 /// </summary>
@@ -674,7 +669,6 @@ public enum PresetTexture
 {{< /highlight >}}
 
 Use Case: Explains how to get and apply a texture to a fill
-
 {{< highlight csharp >}}
 // Open some document with a shape.
 Document doc = new Document("DocWithShape.docx");
@@ -696,7 +690,6 @@ doc.Save("BrownMarble.docx");
 Related issue: WORDSNET-22090
 
 The following new public property was added into the TxtSaveOptions class:
-
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets an integer value that specifies the maximum number of characters per one line.
