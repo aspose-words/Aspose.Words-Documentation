@@ -606,11 +606,6 @@ public enum ImlRenderingMode
 In addition to limitations described in ["2.1.4 Ink Content Part"](https://docs.microsoft.com/en-us/openspecs/office_standards/ms-odrawxml/096dacae-0d2c-4861-bc4d-c8e4c6405ad3) of OOXML specification, the first version of InkML cold rendering has the following limitations:
 
 InkML Structural Element: 
-
-- *channel*  - The *name* attribute can be any string, but strings other than the following strings are ignored: X, Y, F.
-The units attribute can be any string, but any value other than the following value is ignored: dev, in, cm 
-
-InkML Structural Element: 
 - *channel* 
 	The *name* attribute can be any string, but strings other than the following strings are ignored: X, Y, F. 
 	The *units* attribute can be any string, but any value other than the following value is ignored: dev, in, cm
