@@ -604,23 +604,24 @@ public enum ImlRenderingMode
 {{< /highlight >}}
 
 In addition to limitations described in ["2.1.4 Ink Content Part"](https://docs.microsoft.com/en-us/openspecs/office_standards/ms-odrawxml/096dacae-0d2c-4861-bc4d-c8e4c6405ad3) of OOXML specification, the first version of InkML cold rendering has the following limitations:
-| InkML Structural Element | Level of Support |
-| :- | :- |
-| *channel* | The *name* attribute can be any string, but strings other than the following strings are ignored: X, Y, F. 
-The *units* attribute can be any string, but any value other than the following value is ignored: dev, in, cm |
-| *traceGroup* | Any content other than *trace* and *traceGroup* is ignored and not persisted. |
-| *brushProperty* | *rasterOp* 
-A value that defines how the colors of the pen and background interact. 
-Is ignored. 
 
-*antiAliased* 
-A value that indicates if the drawn ink is anti-aliased. 
-Is ignored.
+InkML Structural Element: 
 
-*fitToCurve* 
-A value that indicates if the ink is rendered as a series of curves versus as lines between pen sample points. 
-Is ignored. |
-| *annotationXML* | Is ignored and not persisted. |
+- *channel*  - The *name* attribute can be any string, but strings other than the following strings are ignored: X, Y, F.
+The units attribute can be any string, but any value other than the following value is ignored: dev, in, cm 
+
+InkML Structural Element: 
+- *channel* 
+	The *name* attribute can be any string, but strings other than the following strings are ignored: X, Y, F. 
+	The *units* attribute can be any string, but any value other than the following value is ignored: dev, in, cm
+- *traceGroup*
+	Any content other than *trace* and *traceGroup* is ignored and not persisted.
+- *brushProperty*
+	*rasterOp* A value that defines how the colors of the pen and background interact. Is ignored. 
+	*antiAliased* A value that indicates if the drawn ink is anti-aliased. Is ignored.
+	*fitToCurve* A value that indicates if the ink is rendered as a series of curves versus as lines between pen sample points. Is ignored. 
+- *annotationXML*
+	Is ignored and not persisted.
 
 Due to the limitations described above the Aspose.Words output may not exactly match the MS Word output in some cases.
 If the rendering result is unsatisfactory, please use the fallback mode to get a result similar to previous versions of Aspose.Words.
