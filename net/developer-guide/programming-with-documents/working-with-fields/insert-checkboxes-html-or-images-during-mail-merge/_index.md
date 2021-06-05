@@ -18,11 +18,11 @@ Other interesting examples of extending standard mail merge using event handlers
 
 This screenshot of Microsoft Word shows a template document with the merge fields: 
 
-![todo:image_alt_text](insert-checkboxes-html-or-images-during-mail-merge_1.jpeg)
+![insert-checkboxes-or-images-mail-merge-aspose-words](insert-checkboxes-html-or-images-during-mail-merge_1.png)
 
 This screenshot of Microsoft Word shows the generated document. Note some fields were replaced with simple text, some fields were replaced with checkbox form fields and the Subject field was replaced with a text input form field.
 
-![todo:image_alt_text](insert-checkboxes-html-or-images-during-mail-merge_2.png)
+![insert-checkboxes-html-or-images-mail-merge-aspose-words](insert-checkboxes-html-or-images-during-mail-merge_2.png)
 
 Complete source code of a program that inserts checkboxes and text input form fields into a document during a mail merge.
 
