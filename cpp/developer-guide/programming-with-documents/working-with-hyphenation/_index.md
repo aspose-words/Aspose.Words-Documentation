@@ -45,15 +45,7 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
-{{< highlight cpp >}}
-// Load the documents which store the shapes we want to render.
-auto doc = MakeObject<Document>(u"German text.docx");
-
-Hyphenation::RegisterDictionary(u"en-US", MyDir + u"hyph_en_US.dic");
-Hyphenation::RegisterDictionary(u"de-CH", MyDir + u"hyph_de_CH.dic");
-
-doc->Save(u"WorkingWithHyphenation.HyphenateWordsOfLanguages.pdf");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Hyphenation-HyphenateWordsOfLanguages.h" >}}
 
 {{% alert color="primary" %}}
 
@@ -63,16 +55,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
-{{< highlight csharp >}}
-
-// Load the documents which store the shapes we want to render.
-auto doc = MakeObject<Document>(u"German text.docx");
-
-auto stream = System::IO::File::OpenRead(u"hyph_de_CH.dic");
-Hyphenation::RegisterDictionary(u"de-CH", stream);
-
-doc->Save(ArtifactsDir + u"WorkingWithHyphenation.LoadHyphenationDictionaryForLanguage.pdf");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Hyphenation-LoadHyphenationDictionaryForLanguage.h" >}}
 
 {{% alert color="primary" %}}
 
@@ -84,50 +67,7 @@ As an alternative to pre-registering hyphenation dictionaries, it is possible to
 
 The following code example shows how to implement the **IHyphenationCallback** interface:
 
-{{< highlight cpp >}}
-class CustomHyphenationCallback : public IHyphenationCallback
-{
-public:
-    void RequestDictionary(String language) override
-    {
-        String dictionaryFolder = u"C:\\HyphenationDictionaries";
-        String dictionaryFullFileName;
-        if (language == u"en-US")
-        {
-            dictionaryFullFileName = System::IO::Path::Combine(dictionaryFolder, u"hyph_en_US.dic");
-        }
-        else if (language == u"de-CH")
-        {
-            dictionaryFullFileName = System::IO::Path::Combine(dictionaryFolder, u"hyph_de_CH.dic");
-        }
-        else
-        {
-            throw System::Exception(String::Format(u"Missing hyphenation dictionary for {0}.", language));
-        }
-        // Register dictionary for requested language.
-        Hyphenation::RegisterDictionary(language, dictionaryFullFileName);
-    }
-};
-
-void HyphenationCallback()
-{
-    try
-    {
-    	// Register hyphenation callback.
-        Hyphenation::set_Callback(MakeObject<WorkingWithHyphenation::CustomHyphenationCallback>());
-
-        auto document = MakeObject<Document>(u"German text.docx");
-        document->Save(u"WorkingWithHyphenation.HyphenationCallback.pdf");
-    }
-    catch (System::Exception& e)
-    {
-    	ASSERT_TRUE(e->get_Message().StartsWith(u"Missing hyphenation dictionary"));
-    	std::cout << e->get_Message() << std::endl;
-    }
-
-	Hyphenation::set_Callback(nullptr);
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Hyphenation-CustomHyphenation.h" >}}
 
 ## Impact of Hyphenation on Layout
 

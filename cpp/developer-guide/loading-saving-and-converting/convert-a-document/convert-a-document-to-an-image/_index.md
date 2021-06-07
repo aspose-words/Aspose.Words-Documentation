@@ -14,14 +14,7 @@ As with all conversion examples already described, you need to create a new docu
 
 The following code example shows how to convert DOCX to JPEG:
 
-{{< highlight cpp >}}
-// Load the document from disk.
-System::SharedPtr<Document> doc = System::MakeObject<Document>(inputDataDir + u"TestDoc.docx");
-
-System::String outputPath = outputDataDir + u"SaveDocx2Jpeg.jpeg";
-// Save the document in JPEG format.
-doc->Save(outputPath);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-File Formats and Conversions-Base conversions-DocxToJpeg.h" >}}
 
 ## Specify Save Options when Converting to an Image
 

@@ -14,13 +14,7 @@ As with all conversion examples already described, you need to create a new docu
 
 The following code example shows how to convert DOCX to JPEG:
 
-{{< highlight java >}}
-// Load the document from disk.
-Document doc = new Document(dataDir + "TestDoc.docx");
-
-// Save the document in JPEG format.
-doc.save(dataDir + "SaveDocx2Jpeg.jpeg");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToImage-ConvertDocxToJpeg.java" >}}
 
 ## Specify Save Options when Converting to an Image
 
