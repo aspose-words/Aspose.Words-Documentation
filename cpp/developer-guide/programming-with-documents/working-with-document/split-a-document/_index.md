@@ -79,7 +79,7 @@ Aspose.Words enables you to split a multi-page document page by page.
 
 The following code example shows how to divide a document and save each page as a separate document:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentPageByPage.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Split Documents-Split document-SplitDocumentPageByPage.h" >}}
 
 ### Split a Document by Page Ranges
 
@@ -87,7 +87,7 @@ Aspose.Words allows splitting a multi-page document by page ranges. You can spli
 
 The following code example shows how to split a document into smaller parts by page range with specific start and end indexes:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentByPageRange.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Split Documents-Split document-SplitDocumentByPageRange.h" >}}
 
 ## Merge the Split Document with Another File
 
