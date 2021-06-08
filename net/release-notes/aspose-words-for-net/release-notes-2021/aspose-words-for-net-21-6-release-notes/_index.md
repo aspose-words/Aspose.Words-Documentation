@@ -152,17 +152,17 @@ Use Case:
 {{< highlight csharp >}}
 Document doc = new Document("SomeDocument.docx")
 LayoutEnumerator en = new LayoutEnumerator(doc);
- 
+
 // We start from the first page.
 Debug.Assert(en.Type == LayoutEntityType.Page);
- 
+
 // Move to the first column on the page.
 en.MoveFirstChild();
 Debug.Assert(en.Type == LayoutEntityType.Column);
- 
+
 // Move to the first child in the column.
 en.MoveFirstChild();
- 
+
 do
 {
   // Iterate to a footnote container.
@@ -170,7 +170,7 @@ do
    break;
 }
 while(en.MoveNext());
- 
+
 // If the footnote container exists in the column, we will process notes.
 if (en.Type == LayoutEntityType.Footnote)
 {
@@ -189,7 +189,8 @@ if (en.Type == LayoutEntityType.Footnote)
 }
 {{< /highlight >}}
 
-New Kind enum values for the LayoutEnumerator class
+### New Kind enum values for the LayoutEnumerator class
+
 8 new Kind enum values have been added for the LayoutEnumerator class:
 {{< highlight csharp >}}
 "FOOTNOTES"
@@ -208,29 +209,29 @@ Use Case:
 {{< highlight csharp >}}
 Document doc = new Document("SomeDocument.docx")
 LayoutEnumerator en = new LayoutEnumerator(doc);
- 
+
 // We start from the first page.
 Debug.Assert(en.Type == LayoutEntityType.Page);
- 
+
 // Move to the first column on the page.
 en.MoveFirstChild();
 Debug.Assert(en.Type == LayoutEntityType.Column);
- 
+
 // Move to the first child in the column.
 en.MoveFirstChild();
- 
+
 do
 {
    if (en.Type == LayoutEntityType.NoteSeparator && en.Kind == "FOOTNOTESEPARATOR")
    {
       // Do something.
    }
- 
+
    if (en.Type == LayoutEntityType.NoteSeparator && en.Kind == "FOOTNOTECONTINUATIONSEPARATOR")
    {
       // Do something.
    }
- 
+
    if (en.Type == LayoutEntityType.NoteSeparator && en.Kind == "FOOTNOTECONTINUATIONNOTICE")
    {
       // Do something.
@@ -260,7 +261,7 @@ Document doc = new Document("Document.docx");
 StructuredDocumentTag sdt = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
 Console.WriteLine(sdt.XmlMapping.CustomXmlPart.DataChecksum);
 Document doc = new Document();
- 
+
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 doc.FirstSection.Body.Insert(sdt, null, false);
              
@@ -339,7 +340,7 @@ public class ChartSeries
     /// </summary>
     public ChartFormat Format { get; }
 }
- 
+
 public class ChartDataPoint
 {
     /// <summary>
@@ -347,7 +348,7 @@ public class ChartDataPoint
     /// </summary>
     public ChartFormat Format { get; }
 }
- 
+
 public class ChartMarker
 {
     /// <summary>
@@ -355,7 +356,7 @@ public class ChartMarker
     /// </summary>
     public ChartFormat Format { get; }
 }
- 
+
 /// <summary>
 /// Represents the formatting of a chart element.
 /// </summary>
@@ -365,7 +366,7 @@ public class ChartFormat
     /// Gets fill formatting for the parent chart element.
     /// </summary>
     public Fill Fill { get; }
- 
+
     /// <summary>
     /// Gets line formatting for the parent chart element.
     /// </summary>
@@ -381,17 +382,17 @@ public class Stroke
     /// Gets or sets the foreground color of the stroke.
     /// </summary>
     public Color ForeColor { get; set; }
- 
+
     /// <summary>
     /// Gets or sets the background color of the stroke.
     /// </summary>
     public Color BackColor { get; set; }
- 
+     
     /// <summary>
     /// Gets or sets a flag indicating whether the stroke is visible.
     /// </summary>
     public bool Visible { get; set; }
- 
+     
     /// <summary>
     /// Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke.
     /// </summary>
@@ -406,28 +407,28 @@ Use Case: Explains how to set series color
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
- 
+
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
- 
+
 // Delete default generated series.
 seriesColl.Clear();
- 
+
 // Create category names array.
 string[] categories = new string[] { "AW Category 1", "AW Category 2" };
- 
+
 // Adding new series. Value and category arrays must be the same size.
 ChartSeries series1 = seriesColl.Add("AW Series 1", categories, new double[] { 1, 2 });
 ChartSeries series2 = seriesColl.Add("AW Series 2", categories, new double[] { 3, 4 });
 ChartSeries series3 = seriesColl.Add("AW Series 3", categories, new double[] { 5, 6 });
- 
+
 // Set series color.
 series1.Format.Fill.ForeColor = Color.Red;
 series2.Format.Fill.ForeColor = Color.Yellow;
 series3.Format.Fill.ForeColor = Color.Blue;
- 
+
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
@@ -435,23 +436,23 @@ Use Case: Explains how to set individual formatting for categories of a column c
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
- 
+
 // Delete default generated series.
 chart.Series.Clear();
- 
+
 // Adding new series.
 ChartSeries series = chart.Series.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2", "AW Category 3", "AW Category 4" }, new double[] { 1, 2, 3, 4 });
- 
+
 // Set column formatting.
 ChartDataPointCollection dataPoints = series.DataPoints;
 dataPoints[0].Format.Fill.PresetTextured(PresetTexture.Denim);
 dataPoints[1].Format.Fill.ForeColor = Color.Red;
 dataPoints[2].Format.Fill.ForeColor = Color.Yellow;
 dataPoints[3].Format.Fill.ForeColor = Color.Blue;
- 
+
 doc.Save("IndividualColumnFormatting.docx");
 {{< /highlight >}}
 
@@ -459,25 +460,25 @@ Use Case: Explains how to set line color and weight
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
- 
+
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
- 
+
 // Delete default generated series.
 seriesColl.Clear();
- 
+
 // Adding new series.
 ChartSeries series1 = seriesColl.Add("AW Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 ChartSeries series2 = seriesColl.Add("AW Series 2", new double[] { 0.5, 1.5, 2.5 }, new double[] { 3, 1, 2 });
- 
+
 // Set series color.
 series1.Format.Stroke.ForeColor = Color.Red;
 series1.Format.Stroke.Weight = 5;
 series2.Format.Stroke.ForeColor = Color.LightGreen;
 series2.Format.Stroke.Weight = 5;
- 
+
 doc.Save("LineColorAndWeight.docx");
 {{< /highlight >}}
 
@@ -485,23 +486,23 @@ Use Case: Explains how to set line segment colors
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 Chart chart = shape.Chart;
- 
+
 // Delete default generated series.
 chart.Series.Clear();
- 
+
 // Adding new series.
 ChartSeries series = chart.Series.Add("AW Series 1", new double[] { 0.7, 1.8, 2.6, 3.5 }, new double[] { 2.7, 3.2, 0.8, 0.1 });
 series.Format.Stroke.Weight = 4;
- 
+
 // Set line colors.
 ChartDataPointCollection dataPoints = series.DataPoints;
 dataPoints[1].Format.Stroke.ForeColor = Color.Red;
 dataPoints[2].Format.Stroke.ForeColor = Color.Yellow;
 dataPoints[3].Format.Stroke.ForeColor = Color.Blue;
- 
+
 doc.Save("LineSegmentColor.docx");
 {{< /highlight >}}
 
@@ -509,22 +510,22 @@ Use Case: Explains how to set Pie chart colors
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 Shape shape = builder.InsertChart(ChartType.Pie, 432, 252);
 Chart chart = shape.Chart;
- 
+
 // Delete default generated series.
 chart.Series.Clear();
- 
+
 // Adding new series.
 ChartSeries series = chart.Series.Add("Series 1", new string[] { "Category1", "Category2", "Category3" }, new double[] { 2.7, 3.2, 0.8 });
- 
+
 // Set data point color.
 ChartDataPointCollection dataPoints = series.DataPoints;
 dataPoints[0].Format.Fill.ForeColor = Color.Red;
 dataPoints[1].Format.Fill.ForeColor = Color.Yellow;
 dataPoints[2].Format.Fill.ForeColor = Color.Green;
- 
+
 doc.Save("PieColor.docx");
 {{< /highlight >}}
 
@@ -532,16 +533,16 @@ Use Case: Explains how to set marker formatting
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
- 
+
 // Delete default generated series.
 chart.Series.Clear();
- 
+
 // Adding new series.
 ChartSeries series = chart.Series.Add("AW Series 1", new double[] { 0.7, 1.8, 2.6, 3.9 }, new double[] { 2.7, 3.2, 0.8, 1.7 });
- 
+
 // Set marker formatting.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
@@ -554,7 +555,7 @@ dataPoints[2].Marker.Format.Fill.PresetTextured(PresetTexture.GreenMarble);
 dataPoints[2].Marker.Format.Stroke.ForeColor = Color.Yellow;
 dataPoints[3].Marker.Format.Fill.PresetTextured(PresetTexture.Oak);
 dataPoints[3].Marker.Format.Stroke.ForeColor = Color.Yellow;
- 
+
 doc.Save("MarkerFormatting.docx");
 {{< /highlight >}}
 
@@ -631,11 +632,11 @@ Use Case: Explains how to merge pasted lists with surrounding lists when adding 
 {{< highlight csharp >}}
 Document srcDoc = new Document("src.docx");
 Document dstDoc = new Document("dst.docx");
- 
+
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.MergePastedLists = true;
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
- 
+
 dstDoc.Save("out.docx");
 {{< /highlight >}}
 
@@ -672,16 +673,16 @@ Use Case: Explains how to get and apply a texture to a fill
 {{< highlight csharp >}}
 // Open some document with a shape.
 Document doc = new Document("DocWithShape.docx");
- 
+
 // Get Fill object for the first shape.
 Fill fill = doc.FirstSection.Body.Shapes[0].Fill;
- 
+
 // Check Fill PresetTexture value.
 Console.WriteLine("PresetTexture value is: {0}", fill.PresetTexture);
- 
+
 // Apply BrownMarble texture to the shape fill.
 fill.PresetTextured(PresetTexture.BrownMarble);
- 
+
 doc.Save("BrownMarble.docx");
 {{< /highlight >}}
 
@@ -701,10 +702,10 @@ public int MaxCharactersPerLine { get; set; }
 Use Case: Explains how to limit maximum characters per line in output document of TXT format:
 {{< highlight csharp >}}
 Document doc = new Document("input.docx");
- 
+
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 // Set 60 characters as maximum allowed per one line.
 saveOptions.MaxCharactersPerLine = 60;
- 
+
 doc.Save("out.txt", saveOptions);
 {{< /highlight >}}
