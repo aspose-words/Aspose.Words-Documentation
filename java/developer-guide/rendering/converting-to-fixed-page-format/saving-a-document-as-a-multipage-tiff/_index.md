@@ -44,4 +44,4 @@ The following example shows how to perform TIFF binarization with a specified t
 
 Below you can compare images on which TIFF binarization was performed at various threshold values:
 
-![todo:image_alt_text](saving-a-document-as-a-multipage-tiff_1.jpg)
+![saving-a-document-as-a-multipage-tiff-aspose-words-java](saving-a-document-as-a-multipage-tiff_1.jpg)

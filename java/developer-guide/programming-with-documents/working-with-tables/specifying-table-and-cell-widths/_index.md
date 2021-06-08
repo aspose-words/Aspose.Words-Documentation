@@ -30,7 +30,7 @@ A preferred cell is recommended rather than the width in most cases. Cell prefer
 
 The desired width of a table or individual cells is defined through the preferred width property. That is a preferred width can be specified on individual cells or to the table as a whole. This is the size that the element strives to fit to. In some cases it may not be possible to fit to this exact width, but the real width will come close to this value on most occasions.
 
-![todo:image_alt_text](specifying-table-and-cell-widths_1.png)
+![use-preffered-widths-aspose-words-java](specifying-table-and-cell-widths_1.png)
 
 The preferred width property can be expressed in one of several different ways:
 
@@ -41,7 +41,7 @@ The preferred width property can be expressed in one of several different ways:
 |Auto|This is the same as having no preferred width set. In this case size of the element is calculated using one of the other elements belonging to the table which does have a size set.|
 An example of how these are applied to a real table in a document can be seen in the diagram below. 
 
-![todo:image_alt_text](specifying-table-and-cell-widths_2.png)
+![use-preffered-widths-example-aspose-words-java](specifying-table-and-cell-widths_2.png)
 
 The table can be described as being fitted to 100% of the available space on the page. In this case this means the table will try to take up the space between the left and right page margins.
 

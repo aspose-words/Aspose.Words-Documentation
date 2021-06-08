@@ -45,7 +45,7 @@ To illustrate how to extract and remove comments from a document, we will go thr
 
 We’re going to use the following Word document for this exercise:
 
-|![todo:image_alt_text](http://i.imgur.com/Tp1usVp.png)|
+|![extract-remove-comments-aspose-words-java-1](http://i.imgur.com/Tp1usVp.png)|
 | :- |
 As you can see, it contains several Comments from two authors with the initials “pm” and “ks”.
 
@@ -75,11 +75,11 @@ The main point to highlight here is the use of the for operator. Unlike the simp
 
 When launched, the sample displays the following results. First, it lists all comments by all authors, then it lists comments by the selected author only. Finally, the code removing all comments.
 
-|![todo:image_alt_text](http://i.imgur.com/3q61fa2.png)|
+|![extract-remove-comments-aspose-words-java-2](http://i.imgur.com/3q61fa2.png)|
 | :- |
 The output Word document has now comments removed from it:
 
-|![todo:image_alt_text](http://i.imgur.com/2pvC9jC.png)|
+|![extract-remove-comments-aspose-words-java-3](http://i.imgur.com/2pvC9jC.png)|
 | :- |
 
 ## How to Add a Comment

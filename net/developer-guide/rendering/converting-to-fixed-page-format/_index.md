@@ -36,7 +36,7 @@ Creating a page layout can be a costly procedure, both in terms of speed and mem
 
 Due to the aforementioned reasons, Aspose.Words will create a page layout only when it is necessary. A typical reason for this would be a request to render document pages or to obtain a field value that depends on information available in page layout. A less obvious reason could be exporting a document to HTML. Even though HTML is not a fixed-page format and it does not describe geometry of the content objects, it still supports images. Such images may be in the form of shapes created in Microsoft Word with a text inside them. For example, a chart with axis labels can be exported into HTML as an image, but before this can be done Aspose.Words needs to render that image, and hence needs to know where to display the label. See the chart example below:
 
-![converting-to-fixed-page-format_1](converting-to-fixed-page-format_1.png)
+<img src="converting-to-fixed-page-format_1.png" alt="converting-to-fixed-page-format_1" style="width:800px"/>
 
 ### Non-Geometric Properties
 

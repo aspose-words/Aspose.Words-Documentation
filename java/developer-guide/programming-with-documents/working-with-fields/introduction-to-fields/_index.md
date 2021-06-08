@@ -12,7 +12,7 @@ Usually a field, when inserted in Microsoft Word, already contains an up to date
 
 A field consists of:
 
-![todo:image_alt_text](http://i.imgur.com/TX8zODE.png)
+![fields-aspose-words-java](http://i.imgur.com/TX8zODE.png)
 
 - The field start and separator nodes are used to encompass the content which makes up the field code (normally as plain text)
 - The field separator and field end encompass the field result. This can be made up of various types of content ranging from runs of text to paragraphs to tables.
@@ -22,7 +22,7 @@ A field consists of:
 
 Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
-![todo:image_alt_text](http://i.imgur.com/gkJvDYs.png)
+![document-explorer-aspose-words-java](http://i.imgur.com/gkJvDYs.png)
 
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
@@ -37,7 +37,7 @@ Normally when a document is opened, the field result (the value of the field) is
 
 |Field Code|Field Result|
 | :- | :- |
-|![todo:image_alt_text](http://i.imgur.com/MG6nnnG.png)|![todo:image_alt_text](http://i.imgur.com/gB25PZg.png)|
+|![fields-display-aspose-words-java](http://i.imgur.com/MG6nnnG.png)|![todo:image_alt_text](http://i.imgur.com/gB25PZg.png)|
 
 ### Inserting Fields in Microsoft Word
 
@@ -47,24 +47,24 @@ To insert a field in Microsoft Word:
 1. Click on the **Quick Parts** dropdown menu
 1. Select **Field**
 
-![todo:image_alt_text](http://i.imgur.com/nTmFqBr.png)
+![insert-fields-aspose-words-java](http://i.imgur.com/nTmFqBr.png)
 
 1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field. 
 
-![todo:image_alt_text](http://i.imgur.com/1eHKt6s.png)
+![field-settings-aspose-words-java-1](http://i.imgur.com/1eHKt6s.png)
 
 1. Additionally you can press the **Field Codes** button which allows you to directly write out the field code. 
 
-![todo:image_alt_text](http://i.imgur.com/v5SqztX.png)
+![field-settings-aspose-words-java-2](http://i.imgur.com/v5SqztX.png)
 
 1. Switches can also be inserted by using the **Options** button 
 
-![todo:image_alt_text](http://i.imgur.com/eMOJnvh.png)
+![field-settings-aspose-words-java-3](http://i.imgur.com/eMOJnvh.png)
 
 1. Using either method, fill in the desired fields with the appropriate information then press **Ok**.
 1. The field is inserted into the document at the current cursor position. 
 
-![todo:image_alt_text](http://i.imgur.com/317vOmW.png)
+![field-settings-aspose-words-java-4](http://i.imgur.com/317vOmW.png)
 
 ### Updating Fields in Microsoft Word
 
