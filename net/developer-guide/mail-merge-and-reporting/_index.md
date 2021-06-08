@@ -65,11 +65,11 @@ A merged document is the result of the mail merge operation when you merge the
 
 The following image shows an example of the merge template with merged fields before performing the mail merge operation.
 
-![todo:image_alt_text](mail-merge-and-reporting_1.jpg)
+![mail-merge-and-reporting-fields-aspose-words-net](mail-merge-and-reporting_1.jpg)
 
 The following image shows an example of the output merged document as a result of performing the mail merge operation.
 
-![todo:image_alt_text](mail-merge-and-reporting_2.jpg)
+![mail-merge-and-reporting-result-aspose-words-net](mail-merge-and-reporting_2.jpg)
 
 ## See Also
 

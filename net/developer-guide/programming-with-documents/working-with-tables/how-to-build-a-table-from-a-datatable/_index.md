@@ -30,7 +30,7 @@ Note that the preferred way of inserting data from a **DataTable** into a docume
 
 The following data in our **DataTable** is used in this example: 
 
-![todo:image_alt_text](how-to-build-a-table-from-a-datatable_1.png)
+![how-to-build-a-table-from-a-datatable-aspose-words-net](how-to-build-a-table-from-a-datatable_1.png)
 
 ## The Code
 

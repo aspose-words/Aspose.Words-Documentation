@@ -17,7 +17,7 @@ Below examples shows how to insert column chart.
 
 The code produces the following result:
 
-![todo:image_alt_text](working-with-charts_1.png)
+![create-column-chart-aspose-words-net](working-with-charts_1.png)
 
 
 There are four different overloads for series Add method, which was exposed to cover all possible variants of data sources for all chart types:
@@ -26,7 +26,7 @@ There are four different overloads for series Add method, which was exposed to c
 
 The code produces the following result:
 
-![todo:image_alt_text](working-with-charts_2.png)
+![create-column-chart-from-datasource-aspose-words-net](working-with-charts_2.png)
 
 ### How to Insert Scatter Chart
 
@@ -36,7 +36,7 @@ Below example shows how to insert a scatter chart.
 
 The code produces the following result:
 
-![todo:image_alt_text](working-with-charts_3.png)
+![scatter-chart-aspose-words-net](working-with-charts_3.png)
 
 ### How to Insert Area Chart
 
@@ -46,7 +46,7 @@ Below example shows how to insert an area chart.
 
 The code produces the following result:
 
-![todo:image_alt_text](working-with-charts_4.png)
+![area-chart-aspose-words-net](working-with-charts_4.png)
 
 ### How to Insert Bubble Chart
 
@@ -56,7 +56,7 @@ Below example shows how to insert a bubble chart.
 
 The code produces the following result:
 
-![todo:image_alt_text](working-with-charts_5.png)
+![bubble-chart-aspose-words-net](working-with-charts_5.png)
 
 ## Working with Charts through Shape.Chart Object
 
@@ -66,7 +66,7 @@ Once the chart was inserted and filled with data, you are able to change its app
 
 The code generates the followings results:
 
-![todo:image_alt_text](working-with-charts_6.png)
+![line-chart-aspose-words-net](working-with-charts_6.png)
 
 ## How to Work with ChartSeriesCollection of Chart
 
@@ -84,14 +84,14 @@ Here is how to work with a particular series.
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-charts_7.png)
+![line-chart-chartseries-aspose-words-net](working-with-charts_7.png)
 
 
 All single ChartSeries have default ChartDataPoint options, please try using the following code to change them:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
-![todo:image_alt_text](working-with-charts_8.png)
+![line-chart-chartdatapoint-aspose-words-net](working-with-charts_8.png)
 
 ## How to Work with Single ChartDataPoint of a ChartSeries
 
@@ -101,7 +101,7 @@ Using ChartDataPoint you are able to customize the formatting of a single data p
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-charts_9.png)
+![line-chart-datapoint-aspose-words-net](working-with-charts_9.png)
 
 ## How to Work with ChartDataLabel of a Single ChartSeries
 
@@ -111,7 +111,7 @@ Using ChartDataLabel you are able to specify the formatting of a single data lab
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-charts_10.png)
+![bar-chart-aspose-words-net](working-with-charts_10.png)
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
@@ -121,7 +121,7 @@ The ChartDataLabelCollection class defines properties which can be used to set d
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-charts_11.png)
+![pie-chart-aspose-words-net](working-with-charts_11.png)
 
 ## How to Format Number of Chart Data Label
 
