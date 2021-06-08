@@ -8,7 +8,7 @@ url: /java/split-a-document/
 
 *Splitting* or *split a document* is the process of breaking a large document into a greater number of smaller files. There are various reasons to split a file. For example, you only need some pages from a specific document and not the entire one. Or for privacy reasons, you want to share only some parts of a document with others. With the splitting feature, you can get only the required parts of the document and do the necessary actions with them, for example, to mark up, save, or send.
 
-Aspose.Words provides you with an efficient way to split one document into multiple documents by headings or sections. You can also split a document by pages or by page ranges which can be achieved by using **DocumentPageSplitter** helper class. Both splitting options will be described in this article.
+Aspose.Words provides you with an efficient way to split one document into multiple documents by headings or sections. You can also split a document by pages or by page ranges. Both splitting options will be described in this article.
 
 To split a document into smaller files using Aspose.Words, you need to follow these steps:
 
@@ -75,17 +75,21 @@ The following code example shows how to split a document into smaller parts by 
 
 ## Splitting by Pages
 
-You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such a case a helper class DocumentPageSplitter can do the job.
+You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/java/com.aspose.words/document#extractPages(int,int)) method can do the job.
 
-This section describes several use cases of dividing documents by paged using the **DocumentPageSplitter** class. Please note that you can use any output format supported by Aspose.Words.
+This section describes several use cases of dividing documents by paged using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class and the **ExtractPages** method.
 
 {{% alert color="primary" %}} 
 
-You cannot use **DocumentPageSplitter** to split single-page documents.
+You can use any [output format supported by Aspose.Words](https://docs.aspose.com/words/java/supported-document-formats/).
 
 {{% /alert %}} 
 
-You can see the implementation of the DocumentPageSplitter class on [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/java/com/aspose/words/examples/loading_saving/PageSplitter.java).
+{{% alert color="primary" %}}
+
+Due to the many nuances appearing while reducing the number of pages, a full match with the Microsoft Word layout is quite a complicated task. Therefore, depending on the document complexity, there may be slight differences in the resulting document layout from the original document.
+
+{{% /alert %}}
 
 ### Split a Document Page by Page
 

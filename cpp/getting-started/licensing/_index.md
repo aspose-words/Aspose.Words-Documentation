@@ -77,44 +77,13 @@ Using the [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.wo
 
 The following code example shows how to initialize a license from a folder:
 
-{{< highlight csharp >}}
-auto license = MakeObject<License>();
-
-// This line attempts to set a license from several locations relative to the executable and Aspose.Words.dll.
-// You can also use the additional overload to load a license from a stream, this is useful for instance when the
-// license is stored as an embedded resource
-try
-{
-	license->SetLicense(u"Aspose.Words.Cpp.lic");
-	std::cout << "License set successfully." << std::endl;
-}
-catch (System::Exception& e)
-{
-	// We do not ship any license with this example, visit the Aspose site to obtain either a temporary or permanent license.
-	std::cout << "There was an error setting the license: " << e->get_Message().ToUtf8String() << std::endl;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-ApplyLicenseFromFile.h" >}}
 
 ##### Load a License from a Stream Object
 
 The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#a652961d209c7ab08dfec68c2a5d3fd4f) method:
 
-{{< highlight csharp >}}
-auto license = System::MakeObject<License>();
-
-try
-{
-	// Initializes a license from a stream
-	auto stream = System::MakeObject<System::IO::MemoryStream>(System::IO::File::ReadAllBytes(u"Aspose.Words.Cpp.lic"));
-	license->SetLicense(stream);
-	std::cout << "License set successfully." << std::endl;
-}
-catch (System::Exception& e)
-{
-	// We do not ship any license with this example, visit the Aspose site to obtain either a temporary or permanent license.
-	std::cout << "There was an error setting the license: " << e->get_Message().ToUtf8String() << std::endl;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-ApplyLicenseFromStream.h" >}}
 
 #### Include the License File as an Embedded Resource
 
@@ -142,29 +111,7 @@ You can read about how to work with resource files on the [”Working with Resou
 
 The following code example shows how to initialize a license from an embedded resource using [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#a652961d209c7ab08dfec68c2a5d3fd4f) method:
 
-{{< highlight csharp >}}
-auto hResource = FindResource(nullptr, MAKEINTRESOURCEA(IDR_ASPOSE_WORDS_LIC), RT_RCDATA);
-auto hMemory = LoadResource(nullptr, hResource);
-
-auto size = SizeofResource(nullptr, hResource);
-auto ptr = LockResource(hMemory);
-
-auto licResource = System::MakeArray<uint8_t>(size);
-std::copy_n(static_cast<const uint8_t*>(ptr), size, licResource->begin());
-FreeResource(hMemory);
-
-auto license = System::MakeObject<License>();
-
-try
-{
-	license->SetLicense(MakeObject<System::IO::MemoryStream>(licResource));
-	std::cout << "License set successfully." << std::endl;
-}
-catch (System::Exception& e)
-{
-	std::cout << (String(u"\nThere was an error setting the license: ") + e->get_Message()) << std::endl;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-LicenseFromEmbeddedResourceWindows.h" >}}
 
 ##### Linux
 
@@ -178,44 +125,7 @@ For more information, see [”Embedding resources in executable using GCC”](ht
 
 The following code code example shows how to initialize a license from an embedded resource using [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#a652961d209c7ab08dfec68c2a5d3fd4f) method:
 
-{{< highlight csharp >}}
-#include <cstdint>
-
-// a file named Aspose.Words.lic is 'imported' into an object file 
-// using the following command:
-//
-//      ld -r -b binary -o aspose.words.lic.o Aspose.Words.lic
-//
-// That creates an object file named "aspose.words.lic.o" with the following 
-// symbols:
-//
-//      _binary_aspose_words_lic_start
-//      _binary_aspose_words_lic_end
-//      _binary_aspose_words_lic_size
-//
-// Note that the symbols are addresses 
-
-extern uint8_t _binary_aspose_words_lic_start[];
-extern uint8_t _binary_aspose_words_lic_end[];
-extern uint8_t _binary_aspose_words_lic_size[];
-
-std::ptrdiff_t size = &_binary_aspose_words_lic_end - &_binary_aspose_words_lic_start;
-
-auto licResource = System::MakeArray<uint8_t>(size);
-std::copy(_binary_aspose_words_lic_start, _binary_aspose_words_lic_end, licResource->begin());
-
-auto license = MakeObject<License>();
-
-try
-{
-	license->SetLicense(MakeObject<System::IO::MemoryStream>(licResource));
-	std::cout << "License set successfully." << std::endl;
-}
-catch (System::Exception& e)
-{
-	std::cout << (String(u"\nThere was an error setting the license: ") + e->get_Message()) << std::endl;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-LicenseFromEmbeddedResourceLinux.h" >}}
 
 ### Changing the License File Name
 

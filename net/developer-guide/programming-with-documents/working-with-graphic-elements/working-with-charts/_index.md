@@ -176,3 +176,68 @@ If you want to set a text alignment for multi-line labels, you can simply achiev
 MS Word aligns Chart Label to the centre by default.
 
 {{% /alert %}}
+
+## How to Set Fill and Stroke Formatting
+
+Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the ChartFormat type in the ChartSeries, ChartDataPoint, and ChartMarker classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
+
+The following code example shows how to set series color:
+
+{{< highlight csharp >}}
+
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+Chart chart = shape.Chart;
+ChartSeriesCollection seriesColl = chart.Series;
+
+// Delete default generated series.
+seriesColl.Clear();
+
+// Create category names array.
+string[] categories = new string[] { "AW Category 1", "AW Category 2" };
+
+// Adding new series. Value and category arrays must be the same size.
+ChartSeries series1 = seriesColl.Add("AW Series 1", categories, new double[] { 1, 2 });
+ChartSeries series2 = seriesColl.Add("AW Series 2", categories, new double[] { 3, 4 });
+ChartSeries series3 = seriesColl.Add("AW Series 3", categories, new double[] { 5, 6 });
+
+// Set series color.
+series1.Format.Fill.ForeColor = Color.Red;
+series2.Format.Fill.ForeColor = Color.Yellow;
+series3.Format.Fill.ForeColor = Color.Blue;
+
+doc.Save(dir + "ColumnColor.docx");
+{{< /highlight >}}
+
+The following code example shows how to set line color and weight:
+
+{{< highlight csharp >}}
+
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+Chart chart = shape.Chart;
+ChartSeriesCollection seriesColl = chart.Series;
+
+// Delete default generated series.
+seriesColl.Clear();
+
+// Adding new series.
+ChartSeries series1 = seriesColl.Add("AW Series 1", new double[] { 0.7, 1.8, 2.6 },
+	new double[] { 2.7, 3.2, 0.8 });
+ChartSeries series2 = seriesColl.Add("AW Series 2", new double[] { 0.5, 1.5, 2.5 },
+	new double[] { 3, 1, 2 });
+
+// Set series color.
+series1.Format.Stroke.ForeColor = Color.Red;
+series1.Format.Stroke.Weight = 5;
+series2.Format.Stroke.ForeColor = Color.LightGreen;
+series2.Format.Stroke.Weight = 5;
+
+doc.Save(dir + "LineColorAndWeight.docx");
+{{< /highlight >}}
