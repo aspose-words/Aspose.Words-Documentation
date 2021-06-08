@@ -39,7 +39,7 @@ You can also have revisions displayed as comments to the content. For this purpo
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
-![comments_and_revisions_example_aspose_words_java](specify-layout-options_2.png)
+<img src="specify-layout-options_2.png" alt="comments_and_revisions_example_aspose_words_java" style="width:800px"/>
 
 ## Text Shaper for Advanced Typography Rendering
 

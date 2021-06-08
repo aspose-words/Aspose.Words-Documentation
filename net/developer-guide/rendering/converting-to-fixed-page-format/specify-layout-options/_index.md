@@ -43,7 +43,7 @@ The following code example shows how to customize revisions display:
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
-![specify-layout-options_3](specify-layout-options_4.png)
+<img src="specify-layout-options_4.png" alt="comments_and_revisions_example_aspose_words_net" style="width:800px"/>
 
 ## Text Shaper for Advanced Typography Rendering
 
