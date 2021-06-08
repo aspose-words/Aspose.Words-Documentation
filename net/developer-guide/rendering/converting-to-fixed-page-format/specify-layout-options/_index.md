@@ -39,7 +39,7 @@ You can also have revisions displayed as comments to the content. For this purpo
 
 The following code example shows how to customize revisions display:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithRevisions-SetShowInBalloons.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-ShowRevisionsInBalloons.cs" >}}
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
