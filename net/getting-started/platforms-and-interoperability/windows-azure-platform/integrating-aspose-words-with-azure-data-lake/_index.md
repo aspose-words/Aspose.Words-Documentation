@@ -218,7 +218,7 @@ To integrate the C# class library of your project with the ADLA account, registe
 2. Select the ADLA account name and the database name.
 3. Expand the Managed Dependencies panel and check Aspose.Words as shown on the screenshot below.
 
-<img src="register-assembly.png" alt="register-assembly" style="width:615px"/>
+<img src="register-assembly.png" alt="register-assembly-aspose-words-net" style="width:615px"/>
 
 ### Run U-SQL Job in Azure Portal
 
@@ -246,11 +246,11 @@ Make sure that names with special characters, such as dot in Aspose.Words, are e
 
 Locate the file in the output folder on your ADLS and download it.
 
-<img src="locate-file-in-output-folder-adls.png" alt="locate-file-in-output-folder-adls" style="width:615px"/>
+<img src="locate-file-in-output-folder-adls.png" alt="locate-file-in-output-folder-adls-aspose-words-net" style="width:615px"/>
 
 The following screenshot shows how the output document looks after executing the application.
 
-<img src="run-u-sql-job-in-azure.png" alt="run-u-sql-job-in-azure" style="width:615px"/>
+<img src="run-u-sql-job-in-azure.png" alt="run-u-sql-job-in-azure-aspose-words-net" style="width:615px"/>
 
 ## See Also
 

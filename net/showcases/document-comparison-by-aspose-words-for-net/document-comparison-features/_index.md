@@ -134,7 +134,7 @@ public void Compare(string document1, string document2, string comparisonDocumen
 
 If you have web URLs of the documents, you can compare them directly, without uploading them. Just specify the URLs and hit the Compare Documents button. After comparison, you will see the result.
 
-![todo:image_alt_text](document-comparison-features_1.jpg)
+![document-comparison-features-aspose-words-net](document-comparison-features_1.jpg)
 
 Behind the scenes, it uses the same process as when comparing files. This is the Aspose.Words.Document class that automatically downloads the document from the web URL if we pass the URL instead of the local file path. See the ["Compare Documents"](https://docs.aspose.com/words/net/compare-documents/) article for details.
 

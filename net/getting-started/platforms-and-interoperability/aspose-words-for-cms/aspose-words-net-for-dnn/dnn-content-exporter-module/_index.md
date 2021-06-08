@@ -7,7 +7,7 @@ url: /net/dnn-content-exporter-module/
 
 Advance DNN Content Exporter Module using [Aspose.Words for .NET](http://www.aspose.com/word-component-suite.aspx) allow users to export online contents into a Word Document, OpenDocument, PDF and Image formats (Jpeg, Png, Tiff) from selected DNN Skin Pane or Full Page using Aspose.Words and send output file to browser for Open/Download to local system.
 
-![dnn-content-exporter-module_1](dnn-content-exporter-module_1.png)
+![dnn-content-exporter-module-aspose-words-net-1](dnn-content-exporter-module_1.png)
 
 Based on customer feedback we have added much requested Selected Content Pane and other export types features in this release. This new release of the module comes with the following exciting features:
 
@@ -59,10 +59,7 @@ After you have installed the Aspose .NET Advance DNN Content Exporter, it is rea
 
 1. Make sure you are logged-in to DNN with a Host or Admin level account.
 1. Navigate to the page where you want to add the Export module.
-1. Select **Modules** followed by **Add New Module** from the top ribbon. 
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Processing-Document-and-PDF-Exporter-for-DNN-Add-module-to-page.png)
-
+1. Select **Modules** followed by **Add New Module** from the top ribbon.
 1. From the list, select ‘Aspose .NET Advance DNN Content Exporter Module’ and drag it into position.
 
 You have successfully added Aspose .NET Advance DNN Content Exporter module to your page. 
