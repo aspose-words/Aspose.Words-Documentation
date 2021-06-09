@@ -213,10 +213,10 @@ Use Case:
 {{< highlight csharp >}}
 Document docA = TestUtil.Open(DocumentAPath);
 Document docB = TestUtil.Open(DocumentBPath);
- 
+
 CompareOptions compareOptions = new CompareOptions();
 compareOptions.IgnoreDmlUniqueId = true;
- 
+
 docA.Compare(docB, "vs", DateTime.Now, compareOptions);
 {{< /highlight >}}
 
@@ -241,7 +241,7 @@ Use Case:
 {{< highlight csharp >}}
 LoadOptions lo = new LoadOptions();
 lo.ConvertMetafilesToPng = true;
- 
+
 Document doc = new Document(fielName, lo);
 {{< /highlight >}}
 
@@ -266,11 +266,11 @@ public XmlMapping XmlMapping
 Use Case:
 {{< highlight csharp >}}
 Document doc = new Document(fileName);
- 
+
 StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true);
- 
+
 sdtRangeStart.XmlMapping.SetMapping(doc.CustomXmlParts[0], "/Root/Element", null);
- 
+
 doc.Save(outFileName);
 {{< /highlight >}}
 
@@ -468,7 +468,7 @@ public sealed class PageSet
     /// Gets a set with all the pages of the document in their original order.
     /// </summary>
     public static PageSet All { get;}
- 
+
     /// <summary>
     /// Gets a set with all the even pages of the document in their original order.
     /// </summary>
@@ -476,7 +476,7 @@ public sealed class PageSet
     /// Even pages have odd indices since page indices are zero-based.
     /// </remarks>
     public static PageSet Even { get;}
- 
+     
     /// <summary>
     /// Gets a set with all the odd pages of the document in their original order.
     /// </summary>
@@ -484,7 +484,7 @@ public sealed class PageSet
     /// Odd pages have even indices since page indices are zero-based.
     /// </remarks>
     public static PageSet Odd { get; }
- 
+     
     /// <summary>
     /// Creates a page set based on exact page indices.
     /// </summary>
@@ -494,7 +494,7 @@ public sealed class PageSet
     /// <see cref="int.MaxValue"/> means the last page in the document.
     /// </remarks>
     public PageSet(params int[] pages);
- 
+     
     /// <summary>
     /// Creates a page set based on ranges.
     /// </summary>
@@ -539,7 +539,7 @@ Sample use case:
 PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.PageSet = PageSet.Even;
 doc.Save("out.pdf", pdfOptions);
- 
+
 // Export various page ranges to multipage TIFF image.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Tiff);
 PageSet pageSet = new PageSet(
@@ -548,10 +548,10 @@ PageSet pageSet = new PageSet(
     new PageRange(1, 3),
     new PageRange(2, 5),
     new PageRange(1, 1));
- 
+
 imageOptions.PageSet = pageSet;
 doc.Save("out.tiff", imageOptions);
- 
+
 // Export exact pages to XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 xpsOptions.PageSet = new PageSet(0, 1, 2, 5, 1, 3, 2, 3);
@@ -657,10 +657,10 @@ Here are example pictures of Aspose.Words Cold Rendering of some standard layout
 
 ||Aspose.Words|Microsoft Word|
 | :- | :- | :- |
-|Basic Process	|<img src="BasicProcess Aspose.png" alt="BasicProcess Aspose"/>|<img src="BasicProcess Word.png" alt="BasicProcess Word"/>|
-|Circular Bending Process	|<img src="CircularBendingProcess Aspose.png" alt="CircularBendingProcess Aspose"/>|<img src="CircularBendingProcess Word.png" alt="CircularBendingProcess Word"/>|
-|Repeating Bending Process	|<img src="RepeatingBendingProcess Aspose.png" alt="RepeatingBendingProcess Aspose"/>|<img src="RepeatingBendingProcess Word.png" alt="RepeatingBendingProcess Word"/>|
-|Trapezoid List	|<img src="TrapezoidList Aspose.png" alt="TrapezoidList Aspose"/>|<img src="TrapezoidList Word.png" alt="TrapezoidList Word"/>|
+|Basic Process	|<img src="BasicProcess Aspose.png" alt="BasicProcess Aspose Words"/>|<img src="BasicProcess Word.png" alt="BasicProcess Word"/>|
+|Circular Bending Process	|<img src="CircularBendingProcess Aspose.png" alt="CircularBendingProcess Aspose Words"/>|<img src="CircularBendingProcess Word.png" alt="CircularBendingProcess Word"/>|
+|Repeating Bending Process	|<img src="RepeatingBendingProcess Aspose.png" alt="RepeatingBendingProcess Aspose Words"/>|<img src="RepeatingBendingProcess Word.png" alt="RepeatingBendingProcess Word"/>|
+|Trapezoid List	|<img src="TrapezoidList Aspose.png" alt="TrapezoidList Aspose Words"/>|<img src="TrapezoidList Word.png" alt="TrapezoidList Word"/>|
 
 
 ### Signatures of DocumentBuilder.InsertOleObject methods changed to accept Syste.IO.Stream instead of System.Drawing.Image

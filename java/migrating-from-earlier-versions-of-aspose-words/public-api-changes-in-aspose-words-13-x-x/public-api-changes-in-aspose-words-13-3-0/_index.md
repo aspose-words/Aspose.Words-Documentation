@@ -24,7 +24,7 @@ The following public API members were introduced:
 - **HtmlFixedSaveOptions** – Save options class added for the new rendering format.
 - **IResourceSavingCallback** and **ResourceSavingArgs** members. A class implementing IResourceSavingCallback is used to control saving external resources (images, fonts, css) upon rendering document to fixed HTML or SVG format. This callback is used for all rendering formats which require saving external resources.
 
-![todo:image_alt_text](public-api-changes-in-aspose-words-13-3-0_1.jpg)
+![public-api-changes-in-aspose-words-13-3-0](public-api-changes-in-aspose-words-13-3-0_1.jpg)
 
 ## Exposed Properties on Shape to Detect 3D and Shadow Effects
 

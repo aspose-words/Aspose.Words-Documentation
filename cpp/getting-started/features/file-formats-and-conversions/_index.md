@@ -53,19 +53,19 @@ Below are examples of conversions between some popular formats. You can evaluate
 
 *DOC to RTF – high-fidelity conversion:*
 
-<img src="high-quality-conversions_1.png" alt="high-quality-conversions_1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_2.png" alt="high-quality-conversions_2" style="width:500px; vertical-align: top"/>
+<img src="high-quality-conversions_1.png" alt="doc-to-rtf-aspose-words-cpp-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_2.png" alt="doc-to-rtf-aspose-words-cpp-2" style="width:500px; vertical-align: top"/>
 
 ---
 
 *DOC to PDF – high-fidelity conversion:*
 
-<img src="high-quality-conversions_1.png" alt="high-quality-conversions_1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_3.png" alt="high-quality-conversions_3" style="width:500px; vertical-align: top"/>
+<img src="high-quality-conversions_1.png" alt="doc-to-pdf-aspose-words-cpp-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_3.png" alt="doc-to-pdf-aspose-words-cpp-2" style="width:500px; vertical-align: top"/>
 
 ---
 
 *DOC to ODT – high-fidelity conversion:*
 
-<img src="high-quality-conversions_1.png" alt="high-quality-conversions_1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_4.png" alt="high-quality-conversions_4" style="width:500px; vertical-align: top"/>
+<img src="high-quality-conversions_1.png" alt="doc-to-odt-aspose-words-cpp-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_4.png" alt="doc-to-odt-aspose-words-cpp-2" style="width:500px; vertical-align: top"/>
 
 ---
 
@@ -77,13 +77,13 @@ Below are examples of conversions between some popular formats. You can evaluate
 
 *DOC to JPEG – high-fidelity conversion:*
 
-<img src="image-formats-tiff-png-bmp-emf-jpeg-gif_9.png" alt="image-formats-tiff-png-bmp-emf-jpeg-gif_9" style="width:1000px; vertical-align: top"/>
+<img src="image-formats-tiff-png-bmp-emf-jpeg-gif_9.png" alt="doc-to-jpeg-aspose-words-cpp-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
 *RTF to TXT – high-fidelity conversion:*
 
-<img src="plain-text-txt_2.png" alt="plain-text-txt_2" style="width:500px; vertical-align: top"/> <img src="plain-text-txt_3.png" alt="plain-text-txt_3" style="width:500px; vertical-align: top"/>
+<img src="plain-text-txt_2.png" alt="rtf-to-txt-aspose-words-cpp-1" style="width:500px; vertical-align: top"/> <img src="plain-text-txt_3.png" alt="rtf-to-txt-aspose-words-cpp-2" style="width:500px; vertical-align: top"/>
 
 ---
 
@@ -103,7 +103,7 @@ Below is an example of conversions from DOC to HTML.
 
 DOC to HTML – high-fidelity conversion:
 
-<img src="high-quality-conversions_1.png" alt="high-quality-conversions_1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_5.png" alt="high-quality-conversions_5" style="width:500px; vertical-align: top"/>
+<img src="high-quality-conversions_1.png" alt="doc-to-html-aspose-words-cpp-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_5.png" alt="doc-to-html-aspose-words-cpp-2" style="width:500px; vertical-align: top"/>
 
 ---
 

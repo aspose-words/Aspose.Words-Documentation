@@ -24,7 +24,7 @@ At a high level, this will involve:
 
 Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document. 
 
-![todo:image_alt_text](working-with-styles_1.png)
+![working-with-styles-aspose-words-java-1](working-with-styles_1.png)
 
 In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
 
@@ -59,7 +59,7 @@ The following code example run queries and display results.
 
 When everything is done, running the sample will display the following output:
 
-![todo:image_alt_text](working-with-styles_2.png)
+![working-with-styles-aspose-words-java-2](working-with-styles_2.png)
 
 As you can see, this is a very simple example, showing the number and text of the collected paragraphs and runs in the sample Word document.
 

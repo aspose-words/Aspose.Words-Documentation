@@ -11,7 +11,7 @@ By default Aspose.Words inserts a new table using “**AutoFit to Window”**. T
 
 As in Microsoft Word, an autofit method is actually a shortcut which applies different properties to the table all at once. These properties are actually what give the table the observed behavior. We will discuss these properties for each autofit option. We will use the following table and apply the different auto fit settings as a demonstration:
 
-![todo:image_alt_text](how-to-apply-different-autofit-settings-to-a-table_1.png)
+![apply-different-autofit-settings-to-a-table-aspose-words-java](how-to-apply-different-autofit-settings-to-a-table_1.png)
 
 ## AutoFitting a Table to Window
 
@@ -21,7 +21,7 @@ The following code example autofits a table to fit the page width.
 
 The result after this operation is a table which is lengthened to fit the width of the page is shown below.
 
-![todo:image_alt_text](how-to-apply-different-autofit-settings-to-a-table_2.png)
+![autofit-table-aspose-words-java](how-to-apply-different-autofit-settings-to-a-table_2.png)
 
 {{% alert color="primary" %}} 
 
@@ -43,7 +43,7 @@ The following code example autofits a table in the document to its contents.
 
 The result of the above code causes the table to automatically resize each column to its contents.
 
-![todo:image_alt_text](how-to-apply-different-autofit-settings-to-a-table_3.png)
+![resize-column-autofit-settings-aspose-words-java](how-to-apply-different-autofit-settings-to-a-table_3.png)
 
 When a table is an auto fitted to contents the following steps are actually undertaken behind the scenes:
 
@@ -67,7 +67,7 @@ The following code example disables autofitting and enables fixed widths for the
 
 The result of disabling autofit and using fixed widths for the column sizes is shown below.
 
-![todo:image_alt_text](how-to-apply-different-autofit-settings-to-a-table_4.png)
+![disable-autofit-settings-to-a-table-aspose-words-java](how-to-apply-different-autofit-settings-to-a-table_4.png)
 
 When a table has auto fit disabled and fixed column widths used instead the following steps are taken:
 

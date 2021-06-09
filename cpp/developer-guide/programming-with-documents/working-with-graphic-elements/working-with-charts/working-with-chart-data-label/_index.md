@@ -20,4 +20,4 @@ The code example given below shows how to work with the data label. 
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-chart-data-label_1.png)
+![work-with-chart-data-lable-aspose-words-cpp-1](working-with-chart-data-label_1.png)

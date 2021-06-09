@@ -101,15 +101,15 @@ In Aspose.Words a table is normally inserted using DocumentBuilder. The followin
 
 |Operation|Description|Table State|
 | :- | :- | :- |
-|**DocumentBuilder.StartTable**|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![todo:image_alt_text](introduction-and-creating-tables_1.png)|
-|**DocumentBuilder.InsertCell**|Inserts a new row and cell into the table.|![todo:image_alt_text](introduction-and-creating-tables_2.png)|
-|**DocumentBuilder.Writeln**|Writes some text into the current cell.|![todo:image_alt_text](introduction-and-creating-tables_3.png)|
-|**DocumentBuilder.InsertCell**|Appends a new cell at the end of the current row.|![todo:image_alt_text](introduction-and-creating-tables_4.png)|
-|**DocumentBuilder.Writeln**|Writes some text into the current cell (now the second cell).|![todo:image_alt_text](introduction-and-creating-tables_5.png)|
-|**DocumentBuilder.EndRow**|Instructs the builder to end the current row and to begin a new row with the next call to **DocumentBuilder.InsertCell** .|![todo:image_alt_text](introduction-and-creating-tables_6.png)|
-|**DocumentBuilder.InsertCell**|Creates a new row and inserts a new cell.|![todo:image_alt_text](introduction-and-creating-tables_7.png)|
-|**DocumentBuilder.Writeln**|Inserts some text into the first cell of the second row.|![todo:image_alt_text](introduction-and-creating-tables_8.png)|
-|**DocumentBuilder.EndTable**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![todo:image_alt_text](introduction-and-creating-tables_9.png)|
+|**DocumentBuilder.StartTable**|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![create-table-aspose-words-net](introduction-and-creating-tables_1.png)|
+|**DocumentBuilder.InsertCell**|Inserts a new row and cell into the table.|![insert-cell-table-aspose-words-net](introduction-and-creating-tables_2.png)|
+|**DocumentBuilder.Writeln**|Writes some text into the current cell.|![fill-in-table-cell-aspose-words-net](introduction-and-creating-tables_3.png)|
+|**DocumentBuilder.InsertCell**|Appends a new cell at the end of the current row.|![append-cell-table-aspose-words-net](introduction-and-creating-tables_4.png)|
+|**DocumentBuilder.Writeln**|Writes some text into the current cell (now the second cell).|![fill-in-cell-aspose-words-net](introduction-and-creating-tables_5.png)|
+|**DocumentBuilder.EndRow**|Instructs the builder to end the current row and to begin a new row with the next call to **DocumentBuilder.InsertCell** .|![modify-table-aspose-words-net](introduction-and-creating-tables_6.png)|
+|**DocumentBuilder.InsertCell**|Creates a new row and inserts a new cell.|![create-row-table-aspose-words-net](introduction-and-creating-tables_7.png)|
+|**DocumentBuilder.Writeln**|Inserts some text into the first cell of the second row.|![fill-in-row-table-aspose-words-net](introduction-and-creating-tables_8.png)|
+|**DocumentBuilder.EndTable**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![finish-creating-table-aspose-words-net](introduction-and-creating-tables_9.png)|
 
 ### Algorithm for Creating a Table
 

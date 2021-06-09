@@ -7,7 +7,7 @@ url: /java/export-to-word-plugin-for-dotcms/
 
 Export to Word Plugin for dotCMS allow users to export online content into Word Processing document using [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx). It dynamically exports the content of the Web page to a Word Processing document and then automatically downloads the file to the disk location selected by the user in just couple of seconds. The generated Word processing document can then be opened using any Word Processing Application such as Microsoft Word or Apache OpenOffice etc.
 
-![todo:image_alt_text](http://i.imgur.com/aqlE55d.png)
+![export-word-plugin-dotcms-aspose-words-java](http://i.imgur.com/aqlE55d.png)
 
 ## Supported Platforms
 
@@ -31,7 +31,7 @@ Once downloaded, please follow these steps to install the plugin into your dotCM
 
 1. Log into your site as either admin or another super-user level account.
 1. Go to the dotCMS Dynamic Plugin portlet under the System tab and click on the "Upload Plugin" button and then choose the AsposeDotCMSExportToWord JAR file.<br>
-![todo:image_alt_text](http://i.imgur.com/7dhmMs3.png)<br>
+![install-plugin-dotcms-aspose-words-java](http://i.imgur.com/7dhmMs3.png)<br>
 OR<br>
 Copy the AsposeDotCMSExportToWord JAR file inside the Felix OSGI container (dotCMS/felix/load).
 1. Please add the following 2 exported packages either by changing the file: dotCMS/WEB-INF/felix/osgi-extra.conf or using the dotCMS UI (System -> Dynamic Plugins -> Exported Packages).<br>
@@ -43,7 +43,7 @@ Copy the AsposeDotCMSExportToWord JAR file inside the Felix OSGI container (dot
    1. Press the Save Packages button.<br>
    Important: Selecting Save Packages will restart the OSGI framework. 
 
-![todo:image_alt_text](http://i.imgur.com/8fOyDLN.png)
+![add-packages-aspose-words-java](http://i.imgur.com/8fOyDLN.png)
 
 ## Using
 

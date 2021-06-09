@@ -7,13 +7,9 @@ url: /net/dnn-word-import-module/
 
 Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice. This module demonstrates the powerful import feature provided by [Aspose.Word](http://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control, Content Pane selection and **Import from Word** button on the page where the module is added. When clicking on the button, the document contents are displayed on the screen immediately.
 
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Import-for-DNN-Module1.png)
-
 ## Module Features
 
 Based on customer feedback we have added Content Pane import feature in this release. Now the imported content can be displayed in any selected pane on the page.
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Import-for-DNN-Module-Content-Pane-Selection.png)
 
 ## System Requirements and Supported Platforms
 
@@ -63,10 +59,7 @@ After you have installed Aspose .NET Word Import for DNN module it is really sim
 
 1. Make sure you are logged-in to DNN as Host or Admin level account
 1. Navigate to the page where you want to add the Import module
-1. Select **Modules** -> **Add New Module** from the top Ribbon 
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Import-for-DNN-Module-add-module-to-page.png)
-
+1. Select **Modules** -> **Add New Module** from the top Ribbon
 1. From the list select **Aspose .NET Word Import for DNN** and drag it to a place of your choice on the page.
 
 You have successfully added Aspose .NET Word Import for DNN module to your page. A file browse and a button titled **Import from Word** will now appear on the page along with Content Pane selection dropdown. Anyone can simply select a Word file and click on **Import from Word** button to list the content of the selected document on the page.

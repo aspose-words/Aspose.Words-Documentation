@@ -151,10 +151,6 @@ The customer expected the behavior to match MS Word 2016.
 
 The difference is in handling how hideMark element in a table cell influences the cell height. In fact, the behavior that the customer complains about was introduced intentionally per several other JIRA issues submitted for other customers earlier.
 
-Below is side-by-side appearance of the same test document  in MS Word 2013 and MS Word 2016: 
-
-![todo:image_alt_text](https://auckland.dynabic.com/wiki/download/attachments/26607890/17619_14076SideBySide.png?version=1&modificationDate=1541739920000)
-
 
 Because of different hideMark handling, the cell height is different for a number of cases when invisible contents are present in the cell.
 
@@ -169,10 +165,6 @@ The changes may be perceived as a breakage by customers still using MS Word vers
 Aspose.Words behavior was changed to match MS Word 2016 for some situations with continuous and "new column" section breaks. The changes affect conversion to fixed-page formats. The behavior changed for computing page numbers and for providing of an empty facing page when adjacent pages have the same oddity.
 
 It turned out that some of the implemented logic is different between MS Word 2016 and MS Word 2013. Because of that, the changes may look like a breakage if a user expects Aspose.Words behavior to match MS Word 2013 or an earlier version.
-
-An example of different behavior is below. 
-
-![todo:image_alt_text](https://auckland.dynabic.com/wiki/download/attachments/26608076/17760MSWordDifference.png?version=1&modificationDate=1542261714000)
 
 
 ### Added WMF Fonts Scaling According to Metafile Size on the Page and Public Option to Control it

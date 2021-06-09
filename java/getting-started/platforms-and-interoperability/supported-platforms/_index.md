@@ -20,6 +20,4 @@ Aspose.Words for Java is provided as a ZIP download and contains the following:
 - Demo projects
 - Aspose.Words Documentation in HTML format
 
-| ![todo:image_alt_text](java_1.png)                           |
-| :----------------------------------------------------------- |
-| **Figure: Developing a Java application with Aspose.Words for Java.** |
+![supported-platforms-aspose-words-java](java_1.png)

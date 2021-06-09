@@ -33,8 +33,6 @@ When migrating to Aspose.Words you will find that this task above is very easy t
 
 This method copies the sections from the source document to the destination document. This removes any need to insert any section breaks which is required in automation. Also note that you can control how the documents appear joined together i.e continuous or on a new page by using the [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) property of the appropriate [Section](https://apireference.aspose.com/words/net/aspose.words/section) object.
 
-## Example
-
 *Shows how to join multiple documents together.*
 
 **C#**
@@ -54,7 +52,7 @@ for (int i = 1; i <= recordCount; i++)
 
     // Append the source document at the end of the destination document.
     doc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles);
-
+    
     // In automation you were required to insert a new section break at this point, however in Aspose.Words we
     // don't need to do anything here as the appended document is imported as separate sectons already.
     // If this is the second document or above being appended then unlink all headers footers in this section

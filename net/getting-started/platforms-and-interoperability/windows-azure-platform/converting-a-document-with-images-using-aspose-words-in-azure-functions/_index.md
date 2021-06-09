@@ -79,11 +79,11 @@ namespace AsposeWordsAzureTestApp
 }
 {{< /highlight >}}<br>
 1. Run the code in Visual Studio to test it. The result will be displayed in the console output.<br>
-![todo:image_alt_text](converting-a-document-with-images-using-aspose-words-in-azure-functions_1.png)
+<img src="converting-a-document-with-images-using-aspose-words-in-azure-functions_1.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_1" style="width:800px"/>
 1. Copy URL from the console output to your favorite browser to get the output document, which should look as follows:<br>
-![todo:image_alt_text](converting-a-document-with-images-using-aspose-words-in-azure-functions_2.png)
+<img src="converting-a-document-with-images-using-aspose-words-in-azure-functions_2.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_2" style="width:800px"/>
 1. Now, if you [deploy the created function to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure), the image will not be rendered because of the problem stated at the beginning of this article. The output is shown below:<br>
-![todo:image_alt_text](converting-a-document-with-images-using-aspose-words-in-azure-functions_3.png)
+<img src="converting-a-document-with-images-using-aspose-words-in-azure-functions_3.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_3" style="width:800px"/>
 1. Open the .csproj file in Notepad and add the following section to it:<br>
 {{< highlight csharp >}}<Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish"> <br> <ItemGroup> <br> <NativeAssetToCopy<br> Include="$(PublishDir)runtimes\win-x86\native\libSkiaSharp.dll" /> <br> </ItemGroup> <br> <Copy SourceFiles="@(NativeAssetToCopy)" <br> DestinationFolder="$(PublishDir)bin" /> <br> </Target> {{< /highlight >}}<br>
 1. Publish your project again and verify that the image is now present in the generated output.

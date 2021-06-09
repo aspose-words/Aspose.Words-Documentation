@@ -18,12 +18,11 @@ This regular monthly release delivers 140 new features and fixes.
 Some of the highlights are: 
 
 - AutoShapes (both VML and DrawingML) are rendered to images when converting to HTML and EPUB.
-  EMF and WMF metafiles are rendered to images when converting to HTML and EPUB. 
-  Rendering of document pages to PNG, JPEG and BMP is supported. 
-  Mergefield date formatting is fixed. 
-  Framesets are supported in DOCX and WordML 2003. 
-  Added options to customize UI of the Aspose.Words Flash Document Viewer. 
-  Improvements in document conversions and rendering. 
-  All example code in the documentation is updated and fixed for Java. 
-  All sample projects are updated and fixed for Java. 
-## All Fixes
+- EMF and WMF metafiles are rendered to images when converting to HTML and EPUB.
+- Rendering of document pages to PNG, JPEG and BMP is supported.
+- Mergefield date formatting is fixed.
+- Framesets are supported in DOCX and WordML 2003.
+- Added options to customize UI of the Aspose.Words Flash Document Viewer.
+- Improvements in document conversions and rendering.
+- All example code in the documentation is updated and fixed for Java.
+- All sample projects are updated and fixed for Java.

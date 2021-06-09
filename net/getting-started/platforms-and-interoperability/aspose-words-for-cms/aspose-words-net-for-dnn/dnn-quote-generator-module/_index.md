@@ -37,7 +37,7 @@ This initial version of the module is enriched with the following features to ma
 - Save document to *.Pdf, *.Doc, *.Docx, *.Odt, *.Tiff, *.Jpeg, *.Png File Format
 - License Verification & Embed     
 
-![todo:image_alt_text](dnn-quote-generator-module_1.png)
+![dnn-quote-generator-module_1](dnn-quote-generator-module_1.png)
 
 ## System Requirements and Supported Platforms
 
@@ -76,11 +76,6 @@ After you have installed Aspose .NET Quote Generator Module for DNN Module it is
 1. Navigate to the page where you want to add the Import module
 1. Select **Modules** -> **Add New Module** from the top Ribbon
 1. From the list select **Aspose Quote Generator** and drag it to a place of your choice on the page
-
-
-
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Import-for-DNN-Module-add-module-to-page.png)
 
 You have successfully added Aspose .NET Quote Generator module to your page. You will be presented with input form to get started
 

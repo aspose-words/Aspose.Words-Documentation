@@ -32,13 +32,13 @@ After [deploying the web application](/words/java/installation/).
 
 1. Navigate to: `localhost:8080/StrutsbookApp/`<br>
    You will come up with the following web page:<br>
-![todo:image_alt_text](http://i.imgur.com/06vsMoh.jpg)
+![build-aspose-words-java-for-struts-1](http://i.imgur.com/06vsMoh.jpg)
 1. You can add/edit or delete books from here by selecting from book's list.<br>
    Click on "AddBook" button, which will show you the below web page:<br>
-![todo:image_alt_text](http://i.imgur.com/147iCaY.jpg)
+![build-aspose-words-java-for-struts-2](http://i.imgur.com/147iCaY.jpg)
 1. Add a new book name and Click "SaveBook", you will be navigated to the main book's list page as below:<br>
-![todo:image_alt_text](http://i.imgur.com/F9khPht.jpg)
+![build-aspose-words-java-for-struts-3](http://i.imgur.com/F9khPht.jpg)
 1. Click on "ExportToWord" button on the right bottom to export / save the Book's list to MS-Word document file:<br>
-![todo:image_alt_text](http://i.imgur.com/zvPhfFu.jpg)
+![build-aspose-words-java-for-struts-4](http://i.imgur.com/zvPhfFu.jpg)
 1. Below screen shows the saved /exported MS-Word document:<br>
-![todo:image_alt_text](http://i.imgur.com/NC6UgFu.jpg)
+![build-aspose-words-java-for-struts-5](http://i.imgur.com/NC6UgFu.jpg)

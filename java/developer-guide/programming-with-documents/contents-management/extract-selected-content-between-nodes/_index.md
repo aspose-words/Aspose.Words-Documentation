@@ -35,7 +35,7 @@ The general outline of this technique involves:
 
 We will work with the document below in this article. As you can see it contains a variety of content. Also note, the document contains a second section beginning in the middle of the first page. A bookmark and comment are also present in the document but are not visible in the screenshot below.
 
-|![todo:image_alt_text](http://i.imgur.com/boTK4uH.png)|
+|![extract-content-aspose-words-java](http://i.imgur.com/boTK4uH.png)|
 | :- |
 
 To extract the content from your document you need to call the ExtractContent method below and pass the appropriate parameters.
@@ -86,7 +86,7 @@ The code below accomplishes this task. The appropriate paragraphs are extracted 
 **The Result** 
 The output document contains the two paragraphs that were extracted.
 
-|![todo:image_alt_text](http://i.imgur.com/UJwL3dy.png)|
+|![extract-content-result-aspose-words-java](http://i.imgur.com/UJwL3dy.png)|
 | :- |
 
 ## Extract Content Between Different Types of Nodes
@@ -98,7 +98,7 @@ We can extract content between any combinations of block-level or inline nodes. 
 **The Result** 
 The content between the paragraph and table has been duplicated below is the result.
 
-|![todo:image_alt_text](http://i.imgur.com/5XZeaRn.png)|
+|![extract-content-between-paragraphs-aspose-words-java](http://i.imgur.com/5XZeaRn.png)|
 | :- |
 
 ## Extract Content Between Paragraphs Based on Style
@@ -115,7 +115,7 @@ In a proper implementation, this should be run in a loop to extract content betw
 
 Below is the result of the previous operation.
 
-|![todo:image_alt_text](http://i.imgur.com/9hxAA2D.png)|
+|![extract-content-between-paragraph-style-aspose-words-java](http://i.imgur.com/9hxAA2D.png)|
 | :- |
 
 ## Extract Content Between Specific Runs
@@ -127,7 +127,7 @@ You can extract content between inline nodes such as a Run as well. Runs from di
 **The Result** 
 The extracted text is displayed on the console. 
 
-![todo:image_alt_text](http://i.imgur.com/Gxqz8vr.png)
+![extract-content-between-runs-aspose-words-java](http://i.imgur.com/Gxqz8vr.png)
 
 ## Extract Content using a Field
 
@@ -140,7 +140,7 @@ In our case let’s set the last parameter passed to the **ExtractContent** meth
 **The Result** 
 The extracted content between the field and paragraph, without the field and paragraph marker nodes rendered to PDF.
 
-![todo:image_alt_text](http://i.imgur.com/tr0SVcs.png)
+![extract-content-using-field-aspose-words-java](http://i.imgur.com/tr0SVcs.png)
 
 ## Extract Content from a Bookmark
 
@@ -148,7 +148,7 @@ In a document, the content that is defined within a bookmark is encapsulated by 
 
 In our sample document, we have one bookmark, named “Bookmark1”. The content of this bookmark is highlighted content in our document:
 
-|![todo:image_alt_text](http://i.imgur.com/gUuhhgi.png)|
+|![extract-content-from-bookmark-aspose-words-java-1](http://i.imgur.com/gUuhhgi.png)|
 | :- |
 
 
@@ -160,12 +160,12 @@ We will extract this content into a new document using the code below. The **IsI
 
 The extracted output with the IsInclusive parameter set to true. The copy will retain the bookmark as well.
 
-|![todo:image_alt_text](http://i.imgur.com/i9D3ei3.png)|
+|![extract-content-from-bookmark-aspose-words-java-2](http://i.imgur.com/i9D3ei3.png)|
 | :- |
 
 The extracted output with the **IsInclusive** parameter set to false. The copy contains the content but without the bookmark.
 
-|![todo:image_alt_text](http://i.imgur.com/BhAC3DL.png)|
+|![extract-content-from-bookmark-aspose-words-java-3](http://i.imgur.com/BhAC3DL.png)|
 | :- |
 
 ## Extract Content from a Comment
@@ -176,7 +176,7 @@ The **Comment** node itself is an [InlineStory](https://apireference.aspose.com/
 
 In our document we have one comment. Let’s display it by showing markup in the Review tab:
 
-|![todo:image_alt_text](http://i.imgur.com/GlvTiwJ.png)| |
+|![extract-content-from-comment-aspose-words-java-1](http://i.imgur.com/GlvTiwJ.png)| |
 | :- | :- |
 The comment encapsulates the heading, first paragraph and the table in the second section. Let’s extract this comment into a new document. The **IsInclusive** option dictates if the comment itself is kept or discarded. The code to do this is below. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenCommentRange/TestFile.doc).
 
@@ -187,7 +187,7 @@ The comment encapsulates the heading, first paragraph and the table in the secon
 
 Firstly the extracted output with the IsInclusive parameter set to true. The copy will contain the comment as well.
 
-![todo:image_alt_text](http://i.imgur.com/1co8C2k.png)
+![extract-content-from-comment-aspose-words-java-2](http://i.imgur.com/1co8C2k.png)
 
 
 

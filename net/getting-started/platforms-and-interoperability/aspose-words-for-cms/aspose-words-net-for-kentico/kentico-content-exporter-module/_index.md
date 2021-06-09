@@ -18,8 +18,6 @@ This initial version of the web part provides a number of great features, includ
 - The generated Word processing document can then be opened using any Word Processing Application such as Microsoft Word or Apache OpenOffice etc.
 - The generated PDF document can be opened using any PDF viewer or reader.
 
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/Aspose-.NET-Word-Processing-and-PDF-Document-Exporter-for-Kentico.png)
-
 ### System Requirements and Supported Platforms
 
 #### System Requirements
@@ -125,7 +123,7 @@ After you have installed the Aspose .NET Word Processing and PDF Document Export
 
 Please check [Using and configuring web parts](https://docs.kentico.com/display/K8/Using+and+configuring+web+parts) for more details. 
 
-|![todo:image_alt_text](kentico-content-exporter-module_1)|![todo:image_alt_text](kentico-content-exporter-module_2)|![todo:image_alt_text](kentico-content-exporter-module_3)|
+|![kentico-content-exporter-module_1](kentico-content-exporter-module_1)|![kentico-content-exporter-module_2](kentico-content-exporter-module_2)|![kentico-content-exporter-module_3](kentico-content-exporter-module_3)|
 | :- | :- | :- |
 
 You have successfully added Aspose .NET Word Processing and PDF Document Exporter for Kentico web part to your page. Two buttons, **Export to Word** and **Export to Pdf** will now appear on the page. Anyone can simply click on either of these buttons and export the content of the page into a Word Processing or PDF document.

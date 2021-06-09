@@ -14,12 +14,12 @@ Aspose.Words provides a rich API to retrieve and apply formatting to a table. Yo
 
 To apply formatting to a table you can use the properties available on the corresponding Table node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below. 
 
-![todo:image_alt_text](applying-formatting_1.png)
+![formattin-features-table-level-aspose-words-net](applying-formatting_1.png)
 
 
 
 
-![todo:image_alt_text](applying-formatting_2.png)
+![formatting-table-options-aspose-words-net](applying-formatting_2.png)
 
 Below example shows how to apply an outline border to a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
@@ -39,7 +39,7 @@ Note that before you apply table properties there must be at least one row prese
 
 Formatting on the row level can be controlled using the [RowFormat](http://www.aspose.com/api/net/words/aspose.words.tables/row/properties/rowformat) property of the Row. 
 
-![todo:image_alt_text](applying-formatting_3.png)
+![formatting-row-level-aspose-words-net](applying-formatting_3.png)
 
 
 Below example shows how to modify the formatting of a table row. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
@@ -50,12 +50,12 @@ Below example shows how to modify the formatting of a table row. You can downloa
 
 Formatting on the cell level is controlled using the [CellFormat](http://www.aspose.com/api/net/words/aspose.words.tables/cell/properties/cellformat) property of the Cell. 
 
-![todo:image_alt_text](applying-formatting_4.png)
+![formatting-cell-level-aspose-words-net](applying-formatting_4.png)
 
 
 
 
-![todo:image_alt_text](applying-formatting_5.png)
+![auto-formatting-cell-level-aspose-words-net](applying-formatting_5.png)
 
 
 Below example shows how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
@@ -85,12 +85,12 @@ Below example shows how to create a table that contains a single cell and apply 
 
 Borders and shading can be applied either table wide using Table.SetBorder, Table.SetBorders and Table.SetShading or to particular cells only by using CellFormat.Borders and CellFormat.Shading. Additionally, borders can be set on a row by using RowFormat.Borders, however, shading cannot be applied in this way. 
 
-![todo:image_alt_text](applying-formatting_6.png)
+![formatting-border-line-aspose-words-net](applying-formatting_6.png)
 
 
 
 
-![todo:image_alt_text](applying-formatting_7.png)
+![formatting-cell-color-aspose-words-net](applying-formatting_7.png)
 
 
 The following code example shows how to format a table and cell with different borders and shadings.
@@ -122,7 +122,7 @@ The preferred cell is recommended rather than the width in most cases. Cell pref
 
 The desired width of a table or individual cells is defined through the preferred width property. That is a preferred width can be specified on individual cells or to the table as a whole. This is the size that the element strives to fit. In some cases, it may not be possible to fit this exact width, but the real width will come close to this value on most occasions. 
 
-![todo:image_alt_text](applying-formatting_8.png)
+![formatting-table-properties-aspose-words-net](applying-formatting_8.png)
 
 The preferred width property can be expressed in one of several different ways:
 
@@ -209,7 +209,7 @@ Aspose.Words supports applying a table style to a table and also reading propert
 
 Currently, you cannot create new table styles. You can only apply in-built table styles or custom table styles which already exist in the document to a table. 
 
-![todo:image_alt_text](applying-formatting_10.png)
+![formatting-table-style-aspose-words-net](applying-formatting_10.png)
 
 ### Applying a Table Style
 

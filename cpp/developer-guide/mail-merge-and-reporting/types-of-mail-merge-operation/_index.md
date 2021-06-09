@@ -39,9 +39,9 @@ The following code example shows how to execute a simple mail merge operation us
 
 You can notice the difference between the document before executing simple mail merge:
 
-<img src="execute_simple_mail_merge_1.png" alt="simple_mail_merge_template" style="width:300px"/>
+<img src="execute_simple_mail_merge_1.png" alt="simple_mail_merge_template-aspose-words-cpp" style="width:300px"/>
 
 And after executing simple mail merge:
 
-<img src="execute_simple_mail_merge_2.png" alt="execute_simple_mail_merge" style="width:300px"/>
+<img src="execute_simple_mail_merge_2.png" alt="execute_simple_mail_merge-aspose-words-cpp" style="width:300px"/>
 

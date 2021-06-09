@@ -59,10 +59,7 @@ After you have installed Aspose .NET Export Users and Roles to Word for DNN Modu
 
 1. Make sure you are logged-in to DNN as Host or Admin level account
 1. Navigate to the page where you want to add the Import module
-1. Select **Modules** -> **Add New Module** from the top Ribbon 
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Import-for-DNN-Module-add-module-to-page.png)
-
+1. Select **Modules** -> **Add New Module** from the top Ribbon
 1. From the list select **Aspose Export Users and Roles to Word** and drag it to a place of your choice on the page.
 
 You have successfully added Aspose .NET Export Users and Roles to Word module to your page. A list of DNN Users in Grid along with their Roles and a button titled **Export** and drop down for **Export Formats** will now appear on the page. You can choose Export Type from drop down and click on **Export** button to export selected users to a word document.

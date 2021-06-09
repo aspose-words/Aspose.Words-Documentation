@@ -20,14 +20,14 @@ Here is how to work with a particular series.
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-chartseries_1.png)
+![work-with-chartseries-aspose-words-cpp-1](working-with-chartseries_1.png)
 
 
 All single ChartSeries have default ChartDataPoint options, please try using the following code to change them:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cpp" >}}
 
-![todo:image_alt_text](working-with-chartseries_2.png)
+![work-with-chartseries-aspose-words-cpp-2](working-with-chartseries_2.png)
 
 ## How to Work with Single ChartDataPoint of a ChartSeries
 
@@ -35,4 +35,4 @@ Using ChartDataPoint you can customize the formatting of a single data point of 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cpp" >}}
 
-![todo:image_alt_text](working-with-chartseries_3.png)
+![work-with-chartseries-aspose-words-cpp-3](working-with-chartseries_3.png)

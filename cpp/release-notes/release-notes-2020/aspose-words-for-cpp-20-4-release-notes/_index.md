@@ -279,9 +279,7 @@ co.Granularity = Granularity.CharLevel;
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, co);
 {{< /highlight >}}
 
-### Sample output
 
-![todo:image_alt_text](https://auckland.dynabic.com/wiki/download/attachments/41386312/20043.png?version=1&modificationDate=1585804110000)
 
 ### Added feature to set positioning of floating table (HorizontalAnchor and VerticalAnchor)
 

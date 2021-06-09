@@ -11,7 +11,7 @@ Make sure to take advantage of the free Aspose.Words for Android via Java evalua
 
 The evaluation and the paid versions of Aspose.Words for Android via Java use the same download. Simply [download Aspose.Words for Android via Java](https://downloads.aspose.com/words/androidjava) from the download page, [install it](/words/java/installation/) and it works in evaluation mode. Evaluation mode inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to several hundred paragraphs. When you have bought a license, simply reference the license in the code to apply it. If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license).
 
-![todo:image_alt_text](licensing_1.png)
+![licensing-aspose-words-android](licensing_1.png)
 
 ## Applying a License
 

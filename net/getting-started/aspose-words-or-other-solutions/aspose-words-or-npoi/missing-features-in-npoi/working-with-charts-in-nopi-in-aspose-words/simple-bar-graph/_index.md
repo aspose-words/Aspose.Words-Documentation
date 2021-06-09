@@ -32,7 +32,7 @@ doc.Save("SimpleBarGraph.doc");
 
 ## Download Running Code
 
-- [Codeplex](https://asposewordsnpoi.codeplex.com/SourceControl/latest#Missing Features of NPOI HWPF and XWPF/Aspose.Words/09-WorkingWithGraphs/09.01-SimpleBarGraph/)
+- [Codeplex](https://archive.codeplex.com/?p=asposewordsnpoi)
 - [Github](https://github.com/asposewords/Aspose.Words-for-.NET/releases/download/Aspose.WordsFeaturesmissinginNPOIv1.2/09.01-SimpleBarGraph.zip)
 - [Code.MSDN](https://code.msdn.microsoft.com/More-Code-Examples-of-d19b2e19/view/SourceCode#content)
 

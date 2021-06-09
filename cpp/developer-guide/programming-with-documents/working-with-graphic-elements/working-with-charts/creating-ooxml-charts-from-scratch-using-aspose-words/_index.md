@@ -9,7 +9,7 @@ url: /cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
 
 Aspose.Words provides the InsertChart method which was added into the DocumentBuilder class. So, let's see how to insert a simple column chart into the document using DocumentBuilder->InsertChart method:
 
-### How to Insert Column chart.
+### How to Insert Column chart
 
 The code example given below shows how to insert a column chart.
 
@@ -17,22 +17,18 @@ The code example given below shows how to insert a column chart.
 
 The code produces the following result:
 
-![todo:image_alt_text](http://i.imgur.com/nWkr86s.png)
+![insert-column-chart-aspose-words-cpp-1](http://i.imgur.com/nWkr86s.png)
 
 There are four different overloads for series Add method, which was exposed to cover all possible variants of data sources for all chart types:
 
-
-
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-CreateColumnChart-InsertColumnChart.cpp" >}}
-
-
 
 The code produces the following result:
 
-![todo:image_alt_text](http://i.imgur.com/U7ylb6t.png)
+![insert-column-chart-aspose-words-cpp-2](http://i.imgur.com/U7ylb6t.png)
 
 
-### How to InsertScatterChart.
+### How to InsertScatterChart
 
 The code example given below shows how to insert a scatter chart.
 
@@ -40,10 +36,10 @@ The code example given below shows how to insert a scatter chart.
 
 The code produces the following result:
 
-![todo:image_alt_text](http://i.imgur.com/35LAqIe.png)
+![insert-scatter-chart-aspose-words-cpp-1](http://i.imgur.com/35LAqIe.png)
 
 
-### How to Insert Area Chart.
+### How to Insert Area Chart
 
 The code example given below shows how to insert an area chart.
 
@@ -51,10 +47,10 @@ The code example given below shows how to insert an area chart.
 
 The code produces the following result:
 
-![todo:image_alt_text](http://i.imgur.com/wUxVamC.png)
+![insert-area-chart-aspose-words-cpp-1](http://i.imgur.com/wUxVamC.png)
 
 
-### How to Insert Bubble Chart.
+### How to Insert Bubble Chart
 
 The code example given below shows how to insert a bubble chart.
 
@@ -62,7 +58,7 @@ The code example given below shows how to insert a bubble chart.
 
 The code produces the following result:
 
-![todo:image_alt_text](creating-ooxml-charts-from-scratch-using-aspose-words_1.png)
+![insert-bubble-chart-aspose-words-cpp-1](creating-ooxml-charts-from-scratch-using-aspose-words_1.png)
 
 
 

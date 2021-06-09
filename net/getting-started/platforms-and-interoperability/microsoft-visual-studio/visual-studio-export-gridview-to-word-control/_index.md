@@ -22,7 +22,7 @@ This initial version of the control provides the following features:
 - Option to save each exported document on server at configurable disk path
 - Option to export current page or all pages when paging is enabled 
 
-![todo:image_alt_text](visual-studio-export-gridview-to-word-control_1.png)
+![visual-studio-export-gridview-to-word-control-aspose-words-net-2](visual-studio-export-gridview-to-word-control_1.png)
 
 This control allows you to export GridView in the following different file formats.
 
@@ -94,7 +94,7 @@ On the Tools menu, click Choose Toolbox Items.
 
 When you open an aspx or ascx control in the left side Toolbox you will see ExportGridViewToWord under General Tab
 
-![todo:image_alt_text](visual-studio-export-gridview-to-word-control_2.png)
+![visual-studio-export-gridview-to-word-contro-aspose-words-net-3](visual-studio-export-gridview-to-word-control_2.png)
 
 ## Using
 

@@ -58,7 +58,7 @@ The following example shows how to create a document with some styles and save i
 
 The result of this code example is shown below.
 
-![markdown-example](Markdown-example.png)
+![markdown-example-aspose-words-cpp](Markdown-example.png)
 
 ## Useful Tips
 

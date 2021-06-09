@@ -42,11 +42,11 @@ The diagrams below outline the old API members and their corresponding new API m
 
 **Document Constructors, Load and Save Members** 
 
-![todo:image_alt_text](how-to-migrate-to-aspose-words-10-0-or-higher_1.png)
+![how-to-migrate-to-aspose-words-10-0-or-higher-1](how-to-migrate-to-aspose-words-10-0-or-higher_1.png)
 
 **Events, Delegates and Argument Members** 
 
-![todo:image_alt_text](how-to-migrate-to-aspose-words-10-0-or-higher_2.png)
+![how-to-migrate-to-aspose-words-10-0-or-higher-2](how-to-migrate-to-aspose-words-10-0-or-higher_2.png)
 
 ## Code Examples
 
@@ -178,7 +178,7 @@ public void insertDocumentAtMailMerge() throws Exception
 
     // Add a handler to MergeField event
     mainDoc.getMailMerge().setFieldMergingCallback(new InsertDocumentAtMailMergeHandler());
-
+    
     // The main document has a merge field in it called "Document_1".
     // The corresponding data for this field contains fully qualified path to the document
     // that should be inserted to this field.
@@ -204,14 +204,14 @@ private class InsertDocumentAtMailMergeHandler implements IFieldMergingCallback
 
             // The name of the document to load and insert is stored in the field value.
             Document subDoc = new Document((String)e.getFieldValue());
-
+    
             // Insert the document.
             insertDocument(builder.getCurrentParagraph(), subDoc);
-
+    
             // The paragraph that contained the merge field might be empty now and you probably want to delete it.
             if (!builder.getCurrentParagraph().hasChildNodes())
                 builder.getCurrentParagraph().remove();
-
+    
             // Indicate to the mail merge engine that we have inserted what we wanted.
             e.setText(null);
         }
@@ -300,11 +300,11 @@ public void testNodeChangingInDocument() throws Exception
 
     // Set up and pass the object which implements the handler methods.
     doc.setNodeChangingCallback(new HandleNodeChanging_FontChanger());
-
+    
     // Insert sample HTML content
     builder.insertHtml("<p>Hello World</p>");
     doc.save(getMyDir() + "Document.FontChanger Out.doc");
-
+    
     // Check that the inserted content has the correct formatting
     Run run = (Run)doc.getChild(NodeType.RUN, 0, true);
     Assert.assertEquals(run.getFont().getSize(), 24.0);

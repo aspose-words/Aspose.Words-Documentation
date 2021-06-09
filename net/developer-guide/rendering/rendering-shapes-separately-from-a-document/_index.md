@@ -16,15 +16,15 @@ All the content in a document drawing layer is represented by the [Shape](http:
 
 A simple image is represented by a **Shape** node of [ShapeType.Image](http://www.aspose.com/api/net/words/aspose.words.drawing/shapetype). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.ImageData](http://www.aspose.com/api/net/words/aspose.words.drawing/shape/properties/imagedata) property. On the other hand, a shape can also be made up of many child nodes. For instance, a text box shape, which is represented by the [ShapeType.TextBox](https://apireference.aspose.com/net/words/aspose.words.drawing/shapetype) property, can be made up of many nodes, such as [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) and [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table). Most shapes can include the **Paragraph** and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the **Paragraph,** but “floating” anywhere in the document page.
 
-![todo:image_alt_text](rendering-shapes-separately-from-a-document_1.png)
+![rendering-shapes-separately-from-a-document_1](rendering-shapes-separately-from-a-document_1.png)
 
 A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting multiple objects and clicking “Group” in the right-click menu.
 
-![todo:image_alt_text](rendering-shapes-separately-from-a-document_2.png)
+![rendering-shapes-separately-from-a-document_2](rendering-shapes-separately-from-a-document_2.png)
 
 In Aspose.Words, these groups of shapes are represented by the [GroupShape](https://apireference.aspose.com/net/words/aspose.words.drawing/groupshape) node. These can also be invoked in the same way to render the entire group to image.
 
-![todo:image_alt_text](rendering-shapes-separately-from-a-document_3.png)
+![rendering-shapes-separately-from-a-document_3](rendering-shapes-separately-from-a-document_3.png)
 
 The DOCX format can contain special types of images, such as diagrams or charts. These shapes are also represented through the **Shape** node in Aspose.Words, which also provides a similar method for rendering them as images. By design, a shape cannot contain another shape as a child, unless that shape is an image (**ShapeType.Image**). For example, Microsoft Word does not allow you to insert a text box inside another text box.
 

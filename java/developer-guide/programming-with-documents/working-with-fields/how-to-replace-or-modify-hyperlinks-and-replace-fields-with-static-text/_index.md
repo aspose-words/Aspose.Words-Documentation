@@ -27,11 +27,11 @@ The process of converting fields to static text involves extracting the field re
 
 For example, the diagram below shows how an “IF” field is stored in a document. The text is encompassed by the special field nodes [FieldStart](https://apireference.aspose.com/words/java/com.aspose.words/FieldStart) and [FieldEnd](https://apireference.aspose.com/words/java/com.aspose.words/FieldEnd). The [FieldSeparator](https://apireference.aspose.com/words/java/com.aspose.words/FieldSeparator) node separates the text inside the field into the field code and field result. The field code is what defines the general behavior of the field while the field result stores the most recent result when this field is updated by either by Microsoft Word or Aspose.Words. The field result is what is stored in the field and displayed in the document when viewed.
 
-|![todo:image_alt_text](http://i.imgur.com/ljLbMm0.png)|
+|![fields-aspose-words-java-1](http://i.imgur.com/ljLbMm0.png)|
 | :- |
 The structure can also be seen below in hierarchical form using the demo project *“DocumentExplorer”* , which ships with the **Aspose.Words** installer.
 
-|![todo:image_alt_text](http://i.imgur.com/Mn0nxv0.png)|
+|![fields-aspose-words-java-2](http://i.imgur.com/Mn0nxv0.png)|
 | :- |
 As described in the process above, to convert the field to static text all nodes between the **FieldStart** and **FieldSeparator** inclusive, and also the **FieldEnd** node must be removed. Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across multiple pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
 

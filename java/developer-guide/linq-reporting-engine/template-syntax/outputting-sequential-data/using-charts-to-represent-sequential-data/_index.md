@@ -59,11 +59,11 @@ public float  REF getPrice getPrice()  REF getterBody { ... }
 
 Given that `managers` is an enumeration of `Manager` instances, you can use the following template to represent total contract prices achieved by managers in a column chart.
 
-![todo:image_alt_text](total_contract_prices_1.png)
+![total_contract_prices_aspose_words_java_1](total_contract_prices_1.png)
 
 In this case, the engine produces a report as follows.
 
-![todo:image_alt_text](total_contract_prices_2.png)
+![total_contract_prices_aspose_words_java_2](total_contract_prices_2.png)
 
 For more examples of templates for typical scenarios involving charts, see “ REF typicalTemplates Appendix C. Typical Templates”.
 
@@ -83,15 +83,15 @@ During runtime, series with `removeif` tags, for which conditional expressions r
 
 Consider the following example. Given the previous definition of `managers` and that `accessLevel` is an integer value representing an access level of a user, you can use the following chart template to make numbers of contracts be available for all users whereas financial contract data be available only for users having an access level of zero.
 
-![todo:image_alt_text](total_contract_prices_3.png)
+![total_contract_prices_aspose_words_java_3](total_contract_prices_3.png)
 
 If `accessLevel` is equal to zero, the engine produces a report as follows.
 
-![todo:image_alt_text](total_contract_prices_4.png)
+![total_contract_prices_aspose_words_java_4](total_contract_prices_4.png)
 
 If `accessLevel` is not equal to zero, the engine produces a report as follows.
 
-![todo:image_alt_text](total_contract_prices_5.png)
+![total_contract_prices_aspose_words_java_5](total_contract_prices_5.png)
 
 ## Setting Chart Series Colors Dynamically
 
@@ -114,11 +114,11 @@ During runtime, expressions declared within `seriesColor` tags are evaluated and
 
 Consider the following example. Given the previous definition of `managers` and that `color1` and `color2` are color values of supported types, you can use the following chart template to set its series colors dynamically.
 
-![todo:image_alt_text](total_contract_prices_6.png)
+![total_contract_prices_aspose_words_java_6](total_contract_prices_6.png)
 
 In this case, the engine produces a report as follows.
 
-![todo:image_alt_text](total_contract_prices_7.png)
+![total_contract_prices_aspose_words_java_7](total_contract_prices_7.png)
 
 ## Setting Chart Series Point Colors Dynamically
 
@@ -150,15 +150,15 @@ public Color  REF getColor getColor()  REF getterBody { ... }
 
 Given that `items` is an enumeration of `ColoredItem` instances, you can use the following chart template to set its series point colors dynamically.
 
-![todo:image_alt_text](total_contract_prices_8.png)
+![total_contract_prices_aspose_words_java_8](total_contract_prices_8.png)
 
 The series name for the template chart is defined as follows.
 
-![todo:image_alt_text](total_contract_prices_9.png)
+![total_contract_prices_aspose_words_java_9](total_contract_prices_9.png)
 
 In this case, the engine produces a report as follows.
 
-![todo:image_alt_text](total_contract_prices_10.png)
+![total_contract_prices_aspose_words_java_10](total_contract_prices_10.png)
 
 ## Setting Chart Title, Series Names, and Axis Titles Dynamically
 
@@ -166,11 +166,11 @@ You can normally use common expression tags in chart titles, series names, and a
 
 Given that `chartTitle`, `seriesName`, and `axisName` are strings taking values “Chart Title”, “Series Name”, and “Axis Title” respectively, you can use the following chart template to set the chart’s title, series name, and axis title dynamically.
 
-![todo:image_alt_text](total_contract_prices_11.png)
+![total_contract_prices_aspose_words_java_11](total_contract_prices_11.png)
 
 In this case, the engine produces a report as follows.
 
-![todo:image_alt_text](total_contract_prices_12.png)
+![total_contract_prices_aspose_words_java_12](total_contract_prices_12.png)
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 

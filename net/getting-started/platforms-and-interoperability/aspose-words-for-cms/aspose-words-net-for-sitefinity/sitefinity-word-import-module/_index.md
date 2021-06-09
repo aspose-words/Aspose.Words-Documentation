@@ -9,8 +9,6 @@ url: /net/sitefinity-word-import-module/
 
 Sitefinity Word Import is an open source add-on from [Aspose](http://www.aspose.com/) that allow developers to get/read contents of any Word processing document without requiring any other software such as Microsoft Word or OpenOffice. This add-on demonstrates the powerful import feature provided by [Aspose.Word](http://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control and **Import from Word** button on the page where the add-on is added. When clicking on the button, the document contents are fetched from the file and displayed on the screen immediately.
 
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/Aspose-.NET-Word-Import-for-Sitefinity.png)
-
 ### System Requirements and Supported Platforms
 
 #### System Requirements
@@ -118,9 +116,7 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
       Import Word Processing Documents to Sitefinity using Aspose .NET Word Import for Sitefinity
    1. You may leave all other fields as they are.
 1. When finished, click **Save changes**.
-   The widget is registered in the toolbox and can be used in Sitefinity. The settings are also shown in the picture below 
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/How-to-register-Aspose-.NET-Word-Import-for-Sitefinity.png)
+   The widget is registered in the toolbox and can be used in Sitefinity.
 
 ### Using and Video Demo
 
@@ -130,9 +126,7 @@ After you have installed and configured the Aspose .NET Word Import for Sitefini
 
 1. Make sure you are logged-in to Sitefinity with an Administrator level account.
 1. Navigate to the page where you want to add the Sitefinity Word Import add-on. Make sure the page is opened in edit mode.
-1. From the **Drag Widgets** menu on the right, select **Aspose Word Import** and drag it into position. 
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/Using-Sitefinity-Word-Import-Add-on.png)
+1. From the **Drag Widgets** menu on the right, select **Aspose Word Import** and drag it into position.
 
 
 You have successfully added Aspose .NET Word Import for Sitefinity add-on to your page. A file browse and a button titled **Import from Word** will now appear on the page. Anyone can simply select any Word processing document and click on Import from Word button to see the content of the selected document on the page.

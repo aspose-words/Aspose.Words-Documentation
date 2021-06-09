@@ -10,7 +10,7 @@ Usually a field, when inserted in Microsoft Word, already contains an up to date
 
 A field consists of:
 
-![todo:image_alt_text](fields-overview_1.png)
+![fields-aspose-words](fields-overview_1.png)
 
 - The field start and separator nodes are used to encompass the content which makes up the field code (normally as plain text)
 - The field separator and field end encompass the field result. This can be made up of various types of content ranging from runs of text to paragraphs to tables.
@@ -20,7 +20,7 @@ A field consists of:
 
 Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
-![todo:image_alt_text](fields-overview_2.png)
+![document-explorer-aspose-words](fields-overview_2.png)
 
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
@@ -33,7 +33,7 @@ Fields in Microsoft Word documents are complex. There are over 50 field types (e
 
 |Field Code|Field Result|
 | :- | :- |
-|![todo:image_alt_text](fields-overview_3.png)|![todo:image_alt_text](fields-overview_4.png)|
+|![field-code-result-aspose-words](fields-overview_3.png)|![todo:image_alt_text](fields-overview_4.png)|
 
 ### Inserting Fields in Microsoft Word
 
@@ -43,14 +43,14 @@ To insert a field in Microsoft Word:
 1. Click on the **Quick Parts** drop down menu
 1. Select **Field**
 1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.<br>
-![todo:image_alt_text](fields-overview_5.png)
+![field-edit-aspose-words](fields-overview_5.png)
 1. Additionally you can press the **Field Codes** button which allows you to directly write out the field code.<br>
-![todo:image_alt_text](fields-overview_6.png)
+![field-properties-aspose-words](fields-overview_6.png)
 1. Switches can also be inserted by using the **Options** button<br>
-![todo:image_alt_text](fields-overview_7.png)
+![field-options-aspose-words](fields-overview_7.png)
 1. Using either method, fill in the desired fields with the appropriate information then press **Ok**.
 1. The field is inserted into the document at the current cursor position.<br>
-![todo:image_alt_text](fields-overview_8.png)
+![insert-field-aspose-words](fields-overview_8.png)
 
 ### Updating Fields in Microsoft Word
 
@@ -145,11 +145,11 @@ Calculation of the following fields is supported in the current version of Aspos
 Aspose.Words follows the way Microsoft Word processes fields and as a result it correctly handles:
 
 - Nested fields
-  : IF { =OR({ COMPARE { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"
+  `: IF { =OR({ COMPARE { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
 - Field argument can be a result of a nested field.
 - Fields can be nested within a field code as well as in the field result.
 - Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
-  MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e
+  `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
 - Fields that span across multiple paragraphs.
 
 #### Formula Fields
@@ -157,13 +157,13 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 Aspose.Words provides a very serious implementation of the formula engine and supports the following:
 
 - Arithmetic and logical operators:
-  =(54+4*(6-77)-(5))+(-6-5)/4/5
+  `=(54+4*(6-77)-(5))+(-6-5)/4/5`
 - Functions:
-  =ABS(-01.4)+2.645/(5.6^3.5)+776457 \\\# "#,##0"
-- References to bookmarks
-  : =IF(C>4, 5,ABS(A)*.76) +3.85
+  `=ABS(-01.4)+2.645/(5.6^3.5)+776457 \\\# "#,##0"`
+- References to bookmarks:
+  `=IF(C>4, 5,ABS(A)*.76) +3.85`
 - Number formatting switches:
-  =00000000 \\\# "$#,##0.00;($#,##0.00)"
+  `=00000000 \\\# "$#,##0.00;($#,##0.00)"`
 
 The following functions in expressions are supported: ABS, AND, AVERAGE, COUNT, DEFINED, FALSE, IF, INT, MAX, MIN, MOD, NOT, OR, PRODUCT, ROUND, SIGN, SUM, TRUE.
 
@@ -171,18 +171,18 @@ The following functions in expressions are supported: ABS, AND, AVERAGE, COUNT, 
 
 Just some of the IF expressions that Aspose.Words can easily calculate should give you an idea of how powerful this feature is:
 
-- IF 3 > 5.7^4+MAX(4,3) True False
-- IF "abcd" > "abc" True False
-- IF "?ab*" = "1abdsg" True False
-- IF 4 = "2*2" True False
-- COMPARE 3+5/34 < 4.6/3/2
+- `IF 3 > 5.7^4+MAX(4,3) True False`
+- `IF "abcd" > "abc" True False`
+- `IF "?ab*" = "1abdsg" True False`
+- `IF 4 = "2*2" True False`
+- `COMPARE 3+5/34 < 4.6/3/2`
 
 #### DATE and TIME Fields
 
 Aspose.Words supports all date and time formatting switches available in Microsoft Word, some examples are:
 
-- DATE @ "d-MMM-yy"
-- DATE @ "d/MM/yyyy h:mm am/pm
+- `DATE @ "d-MMM-yy"`
+- `DATE @ "d/MM/yyyy h:mm am/pm`
 
 #### Mail Merge Fields
 
@@ -191,13 +191,13 @@ Aspose.Words imposes no limit on the complexity of mail merge fields in your doc
 Some examples of mail merge fields that Aspose.Words supports:
 
 - Mail merge field switches:
-  MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "
+  `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
 - Nested merge fields in a formula:
-  IF { MERGEFIELD Value1 } >= { MERGEFIELD Value2 } True False
+  `IF { MERGEFIELD Value1 } >= { MERGEFIELD Value2 } True False`
 - Calculate the name of the merge field at runtime:
-  MERGEFIELD { IF { MERGEFIELD Value1 } >= { MERGEFIELD Value2 } FirstName"LastName" }
+  `MERGEFIELD { IF { MERGEFIELD Value1 } >= { MERGEFIELD Value2 } FirstName"LastName" }`
 - Conditional move to next record in the data source:
-  NEXTIF { MERGEFIELD Value1 } <= { =IF(-2.45 >= 6*{ MERGEFIELD Value2 }, 2, -.45) }
+  `NEXTIF { MERGEFIELD Value1 } <= { =IF(-2.45 >= 6*{ MERGEFIELD Value2 }, 2, -.45) }`
 
 #### Format Switches
 
