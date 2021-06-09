@@ -27,11 +27,33 @@ For more information on these changes, see the [Aspose.Words for .NET 21.3 Relea
 
 {{% /alert %}}
 
-## Aspose.Words for .NET 21.5
+## Aspose.Words for .NET 21.5, 21.6
 
 Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
 
+Aspose.Words 21.6 enhances formatting and filling options and also improves document display capabilities.
+
 The API is enhanced for more flexible and convenient development.
+
+### Rendering
+
+#### Setting Charts Fill and Stroke Formatting
+
+An ability to set fill and stroke formatting for chart series, data points, and markers has been implemented. Using the provided options, you can easily customize any of the charts as you wish.
+
+#### Control the Fill Texture of Any Object
+
+A new public method [PresetTextured](https://apireference.aspose.com/words/net/aspose.words.drawing/fill/methods/presettextured) has been added to the [Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/fill) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
+
+#### Rendering of OOXML Ink
+
+Rendering of OOXML Ink (InkML subset) has been implemented. A new public property [ImlRenderingMode](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/imlrenderingmode) and a new enumeration [ImlRenderingMode](https://apireference.aspose.com/words/net/aspose.words.saving/imlrenderingmode) have been added to control the mode of Ink rendering.
+
+Prior to this version, Aspose.Words could only render fallback shapes for OOXML Ink objects, i.e. InkML was not actually processed and a simple pre-rendered image was used instead. And now OOXML Ink content part can be rendered directly.
+
+#### Control the Maximum Number of Characters per Line
+
+A new public property [MaxCharactersPerLine](https://apireference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/properties/maxcharactersperline) has been introduced to control the maximum number of characters per line in the output document of TXT format.
 
 ### Mail Merge and Reporting
 
@@ -42,10 +64,13 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 * New methods [SetCheckedSymbol](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/methods/setcheckedsymbol) and [SetUncheckedSymbol](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/methods/setuncheckedsymbol) have been added to set checked and unchecked symbols for your favorite structured document tags.
 * The equations created with EQ fields are now supported upon converting to all HTML-based formats.
 * Using Aspose.Words for .NET via COM Interop has been checked and the documentation has been modified according to the latest version of the VBScript engine.
+* A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 21.5 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-5-release-notes/).
+
+Learn more about [Aspose.Words for .NET 21.6 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-6-release-notes/).
 
 {{% /alert %}}
 
