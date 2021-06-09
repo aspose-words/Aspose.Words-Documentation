@@ -25,7 +25,7 @@ The document tree in Aspose.Words follows the Composite Design Pattern:
 
 The diagram provided below shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
 
-<img src="aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
+<img src="aspose-words-dom.png" alt="aspose-words-dom-aspose-words-cpp" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
@@ -35,11 +35,11 @@ The Aspose.Words DOM also contains the non-node classes, such as [Style](https:/
 
 Let's look at an example. The following image shows a Microsoft Word document with different types of content.
 
-<img src="document-example.png" alt="document-example" style="width:700px"/>
+<img src="document-example.png" alt="document-example-aspose-words-cpp" style="width:700px"/>
 
 When reading the above document into the Aspose.Words DOM, the tree of objects is created, as shown in the schema below.
 
-<img src="document-example-dom.png" alt="document-example-dom" style="width:700px"/>
+<img src="document-example-dom.png" alt="document-example-dom-aspose-words-cpp" style="width:700px"/>
 
 [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document), [Section](https://apireference.aspose.com/words/cpp/class/aspose.words.section), [Paragraph](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph), [Table](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table/), [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape), [Run](https://apireference.aspose.com/words/cpp/class/aspose.words.run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
@@ -59,7 +59,7 @@ Aspose.Words represents a document as a node tree, which enables you to navigate
 
 When you open the sample document, presented earlier, in the Document Explorer, the node tree appears exactly as it is represented in Aspose.Words.
 
-<img src="document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
+<img src="document-in-document-explorer.png" alt="document-in-document-explorer-aspose-words-cpp" style="width:680px"/>
 
 ### Document Nodes Relationships
 
@@ -73,7 +73,7 @@ The nodes that can contain other nodes derive from the [CompositeNode](https://a
 
 The following UML object diagram shows several nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
-<img src="document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
+<img src="document-nodes-relationships.png" alt="document-nodes-relationships-aspose-words-cpp" style="width:370px"/>
 
 #### Document is Node Owner
 

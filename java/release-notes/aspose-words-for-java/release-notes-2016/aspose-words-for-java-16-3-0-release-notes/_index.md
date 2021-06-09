@@ -153,7 +153,7 @@ Also, now it is possible to pass SaveFormat.Svg into ImageSaveOptions, so Office
 
 Starting from 16.3.0 Version, Aspose.Words supports AspectRatioLocked property of Shape. 
 
-![todo:image_alt_text](aspose-words-for-java-16-3-0-release-notes_1.png)
+![aspose-words-for-java-16-3-0-release-notes](aspose-words-for-java-16-3-0-release-notes_1.png)
 
 {{< highlight csharp >}}
 Shape shape = (Shape)doc.GetChild(NodeType.SHAPE, 0, true);

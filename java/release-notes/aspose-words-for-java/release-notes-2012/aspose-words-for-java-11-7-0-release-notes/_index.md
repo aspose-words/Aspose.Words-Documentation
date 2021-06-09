@@ -11,97 +11,442 @@ This page contains release notes for [Aspose.Words for Java 11.7.0](http://www.a
 
 {{% /alert %}} 
 
-There are 212 improvements and fixes in this regular monthly release. The most notable are: 
+There are 212 improvements and fixes in this regular monthly release. The most notable are:
 
-{{< highlight csharp >}}
-Page BorderArt rendering implemented;Supported rendering of EMF metafiles embedded in WMF metafiles (special metafiles format);Improved printing speed;Improved font substitution according to default registry values;Fixed a problem with incorrect image rotation in PDF export;Fixed page size detection while printing;Fixed problem with CMYK images being not rendered;Fixed rendering problem with gradient "from center" fill in WordArt shapes;Fixed rendering problem with super-scripted underlined text.
-{{< /highlight >}}
+- Page BorderArt rendering implemented;Supported rendering of EMF metafiles embedded in WMF metafiles (special metafiles format);Improved printing speed;
+- Improved font substitution according to default registry values;
+- Fixed a problem with incorrect image rotation in PDF export;Fixed page size detection while printing;
+- Fixed problem with CMYK images being not rendered;
+- Fixed rendering problem with gradient "from center" fill in WordArt shapes;
+- Fixed rendering problem with super-scripted underlined text.
 
+## New features 
 
-New features 
+WORDSNET-1980 /rtl/ Support RTL layout and rendering
 
-WORDSNET-1980/rtl/ Support RTL layout and
-renderingWORDSNET-2041Consider adding LoadOptions to control how HTML is importedWORDSNET-2054Support loading special symbols for dates, times, numbers etc
-in DOCWORDSNET-3820Support extraction of the caption from an embedded object
-displaying as an iconWORDSNET-3848Page border is missing or wrongWORDSNET-3928Add possibility to insert complex (RTL and LTR) text during
-mailmerge.WORDSNET-3956INCLUDEPICTURE is not properly loaded during layout or
-renderingWORDSNET-4112INCLUDEPICTURE field updates incorrectly after UpdateField.WORDSNET-4122Fullscale calculation of bounding box of a shape canvasWORDSNET-4352Picture shapes are not retained upon rendering.WORDSNET-4433/:5/ Decimal TabStops within Cell are ignored upon rendering.WORDSNET-4564INCLUDEPICTURE Field does not show up in out document.WORDSNET-5372Create a video which shows how to build a table from scratchWORDSNET-5550/hidden/ Support hidden table rows and cells in LayoutWORDSNET-5769Support horizontal alignment on image when exporting to HTMLWORDSNET-6050Implement Load and Save warnings for DOC formatWORDSNET-6140INCLUDEPICTURE field cannot be inserted and updatedWORDSNET-6424Consider exposing original filenames of OLE1 objects in the
-APIWORDSNET-6428Floating table causes duplicate on next pageWORDSNET-6447InsertField("INCLUDEPICTURE...") is not workingWORDSNET-6536Consider retaining duplicate Bookmarks during savingWORDSNET-6656MERGEFIELD inside INCLUDEPICTURE does not workWORDSNET-6661Support numeral configuration 
+WORDSNET-2041 Consider adding LoadOptions to control how HTML is imported
 
-Enhancements 
+WORDSNET-2054 Support loading special symbols for dates, times, numbers etc
+in DOCWORDSNET-3820. Support extraction of the caption from an embedded object
+displaying as an icon.
 
-WORDSJAVA-381Compound lines are not rendered
-to graphics in JavaWORDSJAVA-435WordArt with italic style has inexact angle.WORDSJAVA-481WORDSJAVA-478 Generate Manifest from the build scriptWORDSJAVA-564Image doesn't stretch to shape sizeWORDSJAVA-569Better support of pictures with
-BufferedImage.TYPE_USHORT_555_RGB type.WORDSJAVA-612GdiRenderer refactoryWORDSJAVA-613Manual lifting of AsposeWordsPrintDocument and TestPrintWORDSNET-1803Remove "LayoutAdapter" and convert Aspose.Layout to
-APS directlyWORDSNET-2274/table grid/ Hidden content is visible in output PDF/Image.WORDSNET-2606Vertical alignment of text in one row is incorrectWORDSNET-2915Part of content was moved to the next page during renderingWORDSNET-3192/later/ Inline tables overlap each other upon rendering.WORDSNET-3284/wrap/ Frame overlaps part of content during rendering.WORDSNET-3733Hidden table row becomes visible when open/save the document
-in DOCX format.WORDSNET-3837Layout selects wrong font name based on character classWORDSNET-3842Incorrect text box internal clippingWORDSNET-3843Row height is wrongWORDSNET-3853Pictures are improperly scaledWORDSNET-3856Section properties are wrongWORDSNET-3947The output PDF has less pages than the input document.WORDSNET-3992invisible character is visible after convertign to PDF or XPS.WORDSNET-4029pdf conversion replace Helvetica font with TimesNewRoman one
-instead of ArialWORDSNET-4501Part of content was moved to the next page upon rendering.WORDSNET-4594Table inside TextBox is cut off during rendering.WORDSNET-4747Endnote is lost during rendering.WORDSNET-4767Extra pages are added during rendering.WORDSNET-4953Image is moved to previous page and truncated upon rendering.WORDSNET-5320Fix locale readingWORDSNET-5432There are fewer pages in the document after rendering.WORDSNET-5443Text box is rendered at incorrect page location.WORDSNET-5454Text box is placed incorrectly on page while rendering.WORDSNET-5456Text is shifted down while rendering.WORDSNET-5469Table inside textbox is cut-off during rendering.WORDSNET-5502Odd and even footers are interchanged upon rendering.WORDSNET-5635RowFormat.AllowBreakAcrossPages is not working on rendering to
-PDFWORDSNET-5766On DOCX to PDF conversion, Table at the end of page is
-truncatedWORDSNET-6008While converting dot to doc, text layout disturbed.WORDSNET-6045Support EMF metafile embedded to WMF metafilesWORDSNET-6090TOC entries are not clickable in PDFWORDSNET-6287Alternative text of signature line disappears when document is
-opened and savedWORDSNET-6325Extra empty space at the left side of commentsWORDSNET-6345DrawingML is rendering incorrectly in PDFWORDSNET-6509Shape in WordML document becomes invisible when saving to any
-formatWORDSNET-6557DrawingML inside SDT is crossed when rendering to fixed page
-formatsWORDSNET-6634MS Word 2010 opens output doc file in protected view.WORDSNET-6651Aspose output Pdf file is not opening correctly in syncfusion
-PdfViewerWORDSNET-6677Docx to HTML conversion issue with border line of the
-autoshapeWORDSNET-6681Improve font substitution according to default registy values.WORDSNET-6687Doc to Pdf conversion with border lineWORDSNET-6720WORDSNET-6600 Border.LineStyle is set to Solid without
-'border-style' CSS attribute on Html readingWORDSNET-6727Textbox with automatic font color text is not being rendered
-properlyWORDSNET-6730/DrawingML textbox/ Range.Replace do not work for text frameWORDSNET-6775Code review requestWORDSNET-6784Rtf to Doc conversion Page Setup Margin Gutter issueWORDSNET-6802AW merge format algorithm behaves not like its MS counterpartWORDSNET-6816Blank pages are lost during rendering to PDF 
+WORDSNET-3848 Page border is missing or wrong.
 
-Performance 
+WORDSNET-3928 Add possibility to insert complex (RTL and LTR) text during
+mailmerge.
 
-WORDSNET-3798Consider trying to speed up
-printing performance vs automation and VBA macro
+WORDSNET-3956 INCLUDEPICTURE is not properly loaded during layout or
+rendering
 
-Exceptions 
+WORDSNET-4112 INCLUDEPICTURE field updates incorrectly after UpdateField.
 
-WORDSJAVA-605NullReferenceException occurs
-when rendering Shape to HTMLWORDSNET-5684NullReferenceException: When UpdateFileds is called after
-UpdatePageLayoutWORDSNET-5997ArgumentNullException on MailMerge.Execute on Nested
-MergeFieldsWORDSNET-6295InvalidCastException occurs when calling UpdateFieldsWORDSNET-6394NullReferenceException occurs during rendering to fixed page
-formatsWORDSNET-6468Aspose.Words.FileCorruptedException occurs upon loading DOCXWORDSNET-6505Aspose.Words.FileCorruptedException occurs upon loading DOCXWORDSNET-6549NullReferenceException when rendering DOCX file to a PDFWORDSNET-6558NullReferenceException occurs when rendering a textboxWORDSNET-6621Aspose.Words.FileCorruptedException occurs while loading DOC
-document with comments.WORDSNET-6640Exception on calling UpdateFields methodWORDSNET-6671Exception thrown while Doc to Pdf conversionWORDSNET-6744Exception while converting Docx to PDFWORDSNET-6759OutOfMemoryException occurs during loading DOCWORDSNET-6779Exception when updating fields in documentWORDSNET-6793NullReferenceException occurs during converting to DOC 
-Bugs 
+WORDSNET-4122 Fullscale calculation of bounding box of a shape canvasWORDSNET-4352Picture shapes are not retained upon rendering.
 
-WORDSJAVA-410Image is sized incorrectly when
-rendering to graphicsWORDSJAVA-486Some textures disappearWORDSJAVA-492Inexact asian text wrapping inside textboxes.WORDSJAVA-493Circle Vml shape rendered incorrectly.WORDSJAVA-513incorrect "saturation" of lines and texturesWORDSJAVA-534Improve hatch brushes for Gdi render.WORDSJAVA-559Tiff image is invisible(Aspose.Words for java)WORDSJAVA-598Metafile texture doesn't stretched to a shape size when Wrap
-Mode == ClampWORDSJAVA-607Find and remove the code that prints any message(s) from
-production - keep it in test code only.WORDSNET-1868Images are not displayed after converting WML to DOC.WORDSNET-3008Winding checkboxes are not recognized upon rendering.WORDSNET-3562Table disappears after save to PDF.WORDSNET-3869Shape sizes are changed after open/save ODT document.WORDSNET-4121List formatting shows through in TOC entries after updatingWORDSNET-4407numbers of items in TOC are bold after updating fields.WORDSNET-4438LTR text does not look as expected upon main merge RTL merge
-fields.WORDSNET-4476"Unknown file format" when open zero length file.WORDSNET-4508Default field name is used as field result during rendering of
-fields in the headerWORDSNET-4573/horizontal alignment/ TextBox shapes are rendered as
-transparent squares and are not visible upon converting to HTMLWORDSNET-4873BuiltInDocumentProperties.CreatedTime and other DateTime
-properties must return date in UTC.WORDSNET-4928Rtf Reader handles context of table properties incorrectlyWORDSNET-4939Table looks incorrect after converting MHTML to other formats.WORDSNET-4971Super-scripted text is not properly underlined upon rendering.WORDSNET-4999Format of TOC item is changed after UpdateFields.WORDSNET-5162Formatting of TOC items is incorrect after updating fields.WORDSNET-5185Aspose.Words eats all memory and hangs upon executing mail
-merge.WORDSNET-5187Paragraph text color is changed after converting to RTFWORDSNET-5307Watermark disappears after open/save DOCX document.WORDSNET-5403Style of TOC is changed after UpdateFields.WORDSNET-5417Document pages are rendered out of orderWORDSNET-5452Odd and even headers are not rendered properly.WORDSNET-5483Page numbering is incorrect after rendering.WORDSNET-5496Incorrect page numbering i.e. 97,98,99,101,102; Number 100 is
-skippedWORDSNET-5497Code of XE field is shown in TOC after updating fields.WORDSNET-5517TOC is incorrectly updated by Aspose.Words if it is insertedt
-in heading paragraphWORDSNET-5524Blank page is missed upon rendering document.WORDSNET-5538Z-index on VML shapes isn't preserved during docx->docx
-conversion.WORDSNET-5552Table disappears during renderingWORDSNET-5592TextBox incorrectly positioned upon DOCX to HTML conversionWORDSNET-5601Font is changed during MailMerge.WORDSNET-5666Setting Table style margin-left does not change table indent
-from left in DOC/DOCXWORDSNET-5672List numbering color/style for TOC entries was changed on
-UpdateFieldsWORDSNET-5829Bidi not working when document save to PDFWORDSNET-5860Emf+ Dual // OfficeMath equation in Word Ole object is
-corrupted in PDFWORDSNET-5891/horizontal alignment/ DOCX to HTML conversion issues with
-textboxesWORDSNET-5941Mail Merge Font problemWORDSNET-5949unexplainable tabstop (occurs in doc and docx).WORDSNET-5950wrong format in TOC (occurs only in docx)WORDSNET-5958Unicode characters LTR and RTL are ignored on HTML exportWORDSNET-5964While converting odt to pdf format, each section rendered on
-individual page.WORDSNET-6000While converting doc to rtf, improper font charset to RTF.WORDSNET-6012Document.Print skips printing the second pageWORDSNET-6025/hideMark/ Output PDF has one more page than the input DOCXWORDSNET-6069Calling UpdateFields after
-DocumentBuilder.InsertTableOfContents generates incorrect TOCWORDSNET-6088TOC sub heading text aligned incorrectly after Open/Save in
-DOC format.WORDSNET-6092Docx to PDF conversion issueWORDSNET-6109Windings Symbol is lost during rendering to fixed formatsWORDSNET-6132UpdateFields calculates TOC page numbers incorrectlyWORDSNET-6150Calling UpdateFields twice corrupts TO?/SEQ fieldsWORDSNET-6152Text Alignment issue while convering html to docxWORDSNET-6166Aspose.Words generates 20 pages when rendering a 2 page DOCX
-to fixed formatsWORDSNET-6182Incorrect parameter is passed to IMailMergeDataSource when
-using new Object.Attribute sytnaxWORDSNET-6183Shape borders are rendering incorrectly in HTMLWORDSNET-6184Table in DOC is rendering many times in PDF/TiffWORDSNET-6223MergeFields inside header don't show values in PDFWORDSNET-6270Horizontally Flipped DrawingML image is rendering incorrectly
-in PDFWORDSNET-6275Extra blank page problem occurs while converting doc to Pdf
-Format.WORDSNET-6311REF field with CardText or Number formatting switches is
-updated incorrectlyWORDSNET-6352A table with too many columns cannot be opened when saving to
-Word formatsWORDSNET-6399Extra empty page is added to the PDF document after conversion
-from Doc fileWORDSNET-6401WordArt shape fill is distorted while rendering path gradient
-shape.WORDSNET-6467Appending documents into empty (new Document()) stretches the
-contents of one page into multiple pagesWORDSNET-6478UICompat97To2003 is not set for rtf filesWORDSNET-6518LoadOptions object shouldn't be changed during openingWORDSNET-6525Unable to access PRINT field in the Doc fileWORDSNET-6530Transparency of PNG image is disturbed when rendering to PDFWORDSNET-6551Incorrect Page numbering in the TOC when calling UpdateFieldsWORDSNET-6580Custom style in RTF document resulting formatting issueWORDSNET-6587Docx to Pdf conversion issue with page breakWORDSNET-6601MHTML document loses table background color while rendering to
-PDFWORDSNET-6632Problem with Image size when covert from DOC, DOCX, WML to RTFWORDSNET-6644Image flips upon rendering DOCX document to PDFWORDSNET-6649Run.Font.Bidi is lost when converting to ODT formatWORDSNET-6657Shape is displaying at the wrong page side in ODTWORDSNET-6658Paragraph alignment is reversed during converting doc to odtWORDSNET-6674Mergefield value splits into two Runs with different FontsWORDSNET-6676Compatibly options "Don't add leading (extra space)
-between rows of text" processed incorrectlyWORDSNET-6678Add support for "Don't expand character spaces on a line
-that ends with SHIFT-RETURN" optionWORDSNET-6698Left/Right cellpadding of RTF dcoument are changed after
-conversionWORDSNET-6699RTF document loses table format upon conversionWORDSNET-6702TOC is updating incorrectlyWORDSNET-6714Setting the font hidden doesn't hide Row in DOCXWORDSNET-6722Bullet style is not being rendered correctlyWORDSNET-6723ParagraphFormat.SpaceAfter is not preserved during loading ODTWORDSNET-6724Shape is overlapping the Table contentWORDSNET-6728Shape is rendering as red cross symbol in PDFWORDSNET-6729Setting the font hidden doesn't hide DrawingML in DOCXWORDSNET-6732Docx to Pdf conversion issue while mail mergeWORDSNET-6733Document is rendered out of page bounds during printingWORDSNET-6734Docx to Pdf conversion issue, images are rotated in output pdf
-fileWORDSNET-6735Content is clipped because of incorrect column height
-calculation.WORDSNET-6737Tables and shapes are shifted while rendering.WORDSNET-6738Textbox in DOCX converted to HTML as empty imageWORDSNET-6740Investigate why mail merge regions' data is not visible in PDFWORDSNET-6742Table background color fades while converting DOC to HTMLWORDSNET-6754Bug with ExtractContent code can't extract text in table cellWORDSNET-6755Shape wrap type is lost during loading OTT into DOMWORDSNET-6769RTF to Doc conversion issue with line spacing valueWORDSNET-6806Calling UpdateFields after InsertTableOfContents calculates
-Cell's width incorrectly 
+WORDSNET-4433 /:5/ Decimal TabStops within Cell are ignored upon rendering.
 
-Regressions 
+WORDSNET-4564 INCLUDEPICTURE Field does not show up in out document.
 
-WORDSJAVA-611Font Substitution is broken by
-UnicodeString refactoryWORDSNET-5321Aspose.Words treats numbers as string upon mail merge.WORDSNET-6564\html autodetect\ "table" tag causes Aspose.Words
-not to detect HTMLWORDSNET-6689NullReferenceException occurs when rendering GroupShape to
-HTMLWORDSNET-6701NullReferenceException occurs during exporting Shape to HTMLWORDSNET-6710/DrawingML textbox/ Unable to access SDT nodes from inside
-DrawingMLWORDSNET-6739Printing speed has slowed down in Aspose.Words for .NET 11.5
-and higher 
+WORDSNET-5372 Create a video which shows how to build a table from scratch.
+
+WORDSNET-5550 /hidden/ Support hidden table rows and cells in Layout.
+
+WORDSNET-5769 Support horizontal alignment on image when exporting to HTML.
+
+WORDSNET-6050 Implement Load and Save warnings for DOC format.
+
+WORDSNET-6140 INCLUDEPICTURE field cannot be inserted and updated.
+
+WORDSNET-6424 Consider exposing original filenames of OLE1 objects in the API.
+
+WORDSNET-6428 Floating table causes duplicate on next page.
+
+WORDSNET-6447 InsertField("INCLUDEPICTURE...") is not working.
+
+WORDSNET-6536 Consider retaining duplicate Bookmarks during saving.
+
+WORDSNET-6656 MERGEFIELD inside INCLUDEPICTURE does not work.
+
+WORDSNET-6661 Support numeral configuration.
+
+## Enhancements 
+
+WORDSJAVA-381 Compound lines are not rendered to graphics in Java.
+
+WORDSJAVA-435 WordArt with italic style has inexact angle.
+
+WORDSJAVA-481
+
+WORDSJAVA-478 Generate Manifest from the build script.
+
+WORDSJAVA-564 Image doesn't stretch to shape size.
+
+WORDSJAVA-569 Better support of pictures with BufferedImage.TYPE_USHORT_555_RGB type.
+
+WORDSJAVA-612 GdiRenderer refactory.
+
+WORDSJAVA-613 Manual lifting of AsposeWordsPrintDocument and TestPrint.
+
+WORDSNET-1803 Remove "LayoutAdapter" and convert Aspose.Layout to APS directly.
+
+WORDSNET-2274 /table grid/ Hidden content is visible in output PDF/Image.
+
+WORDSNET-2606 Vertical alignment of text in one row is incorrect.
+
+WORDSNET-2915 Part of content was moved to the next page during rendering.
+
+WORDSNET-3192 /later/ Inline tables overlap each other upon rendering.
+
+WORDSNET-3284 /wrap/ Frame overlaps part of content during rendering.
+
+WORDSNET-3733 Hidden table row becomes visible when open/save the document
+in DOCX format.
+
+WORDSNET-3837 Layout selects wrong font name based on character class.
+
+WORDSNET-3842 Incorrect text box internal clipping.
+
+WORDSNET-3843 Row height is wrongWORDSNET-3853Pictures are improperly scaled.
+
+WORDSNET-3856 Section properties are wrong.
+
+WORDSNET-3947 The output PDF has less pages than the input document.
+
+WORDSNET-3992 Invisible character is visible after convertign to PDF or XPS.
+
+WORDSNET-4029 pdf conversion replace Helvetica font with TimesNewRoman one instead of Arial.
+
+WORDSNET-4501 Part of content was moved to the next page upon rendering.
+
+WORDSNET-4594 Table inside TextBox is cut off during rendering.
+
+WORDSNET-4747 Endnote is lost during rendering.
+
+WORDSNET-4767 Extra pages are added during rendering.
+
+WORDSNET-4953 Image is moved to previous page and truncated upon rendering.
+
+WORDSNET-5320 Fix locale readingWORDSNET-5432There are fewer pages in the document after rendering.
+
+WORDSNET-5443 Text box is rendered at incorrect page location.
+
+WORDSNET-5454 Text box is placed incorrectly on page while rendering.
+
+WORDSNET-5456 Text is shifted down while rendering.
+
+WORDSNET-5469 Table inside textbox is cut-off during rendering.
+
+WORDSNET-5502 Odd and even footers are interchanged upon rendering.
+
+WORDSNET-5635 RowFormat.AllowBreakAcrossPages is not working on rendering to PDF.
+
+WORDSNET-5766 On DOCX to PDF conversion, Table at the end of page is truncated.
+
+WORDSNET-6008 While converting dot to doc, text layout disturbed.
+
+WORDSNET-6045 Support EMF metafile embedded to WMF metafiles.
+
+WORDSNET-6090 TOC entries are not clickable in PDF.
+
+WORDSNET-6287 Alternative text of signature line disappears when document is opened and saved.
+
+WORDSNET-6325 Extra empty space at the left side of comments.
+
+WORDSNET-6345 DrawingML is rendering incorrectly in PDF.
+
+WORDSNET-6509 Shape in WordML document becomes invisible when saving to any format.
+
+WORDSNET-6557 DrawingML inside SDT is crossed when rendering to fixed page formats.
+
+WORDSNET-6634 MS Word 2010 opens output doc file in protected view.
+
+WORDSNET-6651 Aspose output Pdf file is not opening correctly in syncfusion PdfViewer.
+
+WORDSNET-6677 Docx to HTML conversion issue with border line of the autoshape.
+
+WORDSNET-6681 Improve font substitution according to default registy values.
+
+WORDSNET-6687 Doc to Pdf conversion with border line.
+
+WORDSNET-6720 WORDSNET-6600 Border.LineStyle is set to Solid without 'border-style' CSS attribute on Html reading.
+
+WORDSNET-6727 Textbox with automatic font color text is not being rendered properly.
+
+WORDSNET-6730 /DrawingML textbox/ Range.Replace do not work for text frame.
+
+WORDSNET-6775 Code review request.
+
+WORDSNET-6784 Rtf to Doc conversion Page Setup Margin Gutter issue.
+
+WORDSNET-6802 AW merge format algorithm behaves not like its MS counterpart.
+
+WORDSNET-6816 Blank pages are lost during rendering to PDF.
+
+## Performance 
+
+WORDSNET-3798 Consider trying to speed up printing performance vs automation and VBA macro
+
+## Exceptions 
+
+WORDSJAVA-605 NullReferenceException occurs when rendering Shape to HTML.
+
+WORDSNET-5684 NullReferenceException: When UpdateFileds is called after UpdatePageLayout.
+
+WORDSNET-5997 ArgumentNullException on MailMerge.Execute on Nested ergeFields.
+
+WORDSNET-6295 InvalidCastException occurs when calling UpdateFields.
+
+WORDSNET-6394 NullReferenceException occurs during rendering to fixed page formats.
+
+WORDSNET-6468 Aspose.Words.FileCorruptedException occurs upon loading DOCX.
+
+WORDSNET-6505 Aspose.Words.FileCorruptedException occurs upon loading DOCX.
+
+WORDSNET-6549 NullReferenceException when rendering DOCX file to a PDF.
+
+WORDSNET-6558 NullReferenceException occurs when rendering a textbox.
+
+WORDSNET-6621 Aspose.Words.FileCorruptedException occurs while loading DOC document with comments.
+
+WORDSNET-6640 Exception on calling UpdateFields method.
+
+WORDSNET-6671 Exception thrown while Doc to Pdf conversion.
+
+WORDSNET-6744 Exception while converting Docx to PDF.
+
+WORDSNET-6759 OutOfMemoryException occurs during loading DOC.
+
+WORDSNET-6779 Exception when updating fields in document.
+
+WORDSNET-6793 NullReferenceException occurs during converting to DOC.
+
+## Bugs 
+
+WORDSJAVA-410 Image is sized incorrectly when rendering to graphics.
+
+WORDSJAVA-486 Some textures disappear.
+
+WORDSJAVA-492 Inexact asian text wrapping inside textboxes.
+
+WORDSJAVA-493 Circle Vml shape rendered incorrectly.
+
+WORDSJAVA-513 Incorrect "saturation" of lines and textures.
+
+WORDSJAVA-534 Improve hatch brushes for Gdi render.
+
+WORDSJAVA-559 Tiff image is invisible (Aspose.Words for java).
+
+WORDSJAVA-598 Metafile texture doesn't stretched to a shape size when Wrap Mode == ClampWORDSJAVA-607Find and remove the code that prints any message(s) from production - keep it in test code only.
+
+WORDSNET-1868 Images are not displayed after converting WML to DOC.
+
+WORDSNET-3008 Winding checkboxes are not recognized upon rendering.
+
+WORDSNET-3562 Table disappears after save to PDF.
+
+WORDSNET-3869 Shape sizes are changed after open/save ODT document.
+
+WORDSNET-4121 List formatting shows through in TOC entries after updating.
+
+WORDSNET-4407 Numbers of items in TOC are bold after updating fields.
+
+WORDSNET-4438 LTR text does not look as expected upon main merge RTL merge ields.
+
+WORDSNET-4476 "Unknown file format" when open zero length file.
+
+WORDSNET-4508 Default field name is used as field result during rendering of fields in the header.
+
+WORDSNET-4573 /horizontal alignment/ TextBox shapes are rendered as transparent squares and are not visible upon converting to HTML.
+
+WORDSNET-4873 BuiltInDocumentProperties.CreatedTime and other DateTime properties must return date in UTC.
+
+WORDSNET-4928 Rtf Reader handles context of table properties incorrectly.
+
+WORDSNET-4939 Table looks incorrect after converting MHTML to other formats.
+
+WORDSNET-4971 Super-scripted text is not properly underlined upon rendering.
+
+WORDSNET-4999 Format of TOC item is changed after UpdateFields.
+
+WORDSNET-5162 Formatting of TOC items is incorrect after updating fields.
+
+WORDSNET-5185 Aspose.Words eats all memory and hangs upon executing mail merge.
+
+WORDSNET-5187 Paragraph text color is changed after converting to RTF.
+
+WORDSNET-5307 Watermark disappears after open/save DOCX document.
+
+WORDSNET-5403 Style of TOC is changed after UpdateFields.
+
+WORDSNET-5417 Document pages are rendered out of order.
+
+WORDSNET-5452 Odd and even headers are not rendered properly.
+
+WORDSNET-5483 Page numbering is incorrect after rendering.
+
+WORDSNET-5496 Incorrect page numbering i.e. 97,98,99,101,102; Number 100 is skipped.
+
+WORDSNET-5497 Code of XE field is shown in TOC after updating fields.
+
+WORDSNET-5517 TOC is incorrectly updated by Aspose.Words if it is insertedt in heading paragraph.
+
+WORDSNET-5524 Blank page is missed upon rendering document.
+
+WORDSNET-5538 Z-index on VML shapes isn't preserved during docx->docx conversion.
+
+WORDSNET-5552 Table disappears during rendering.
+
+WORDSNET-5592 TextBox incorrectly positioned upon DOCX to HTML conversion.
+
+WORDSNET-5601 Font is changed during MailMerge.
+
+WORDSNET-5666 Setting Table style margin-left does not change table indent from left in DOC/DOCX.
+
+WORDSNET-5672 List numbering color/style for TOC entries was changed on UpdateFields.
+
+WORDSNET-5829 Bidi not working when document save to PDF.
+
+WORDSNET-5860 Emf+ Dual // OfficeMath equation in Word Ole object is corrupted in PDF.
+
+WORDSNET-5891 /horizontal alignment/ DOCX to HTML conversion issues with textboxes.
+
+WORDSNET-5941 Mail Merge Font problemWORDSNET-5949unexplainable tabstop (occurs in doc and docx).
+
+WORDSNET-5950 Wrong format in TOC (occurs only in docx).
+
+WORDSNET-5958 Unicode characters LTR and RTL are ignored on HTML export.
+
+WORDSNET-5964 While converting odt to pdf format, each section rendered on individual page.
+
+WORDSNET-6000 While converting doc to rtf, improper font charset to RTF.
+
+WORDSNET-6012 Document.Print skips printing the second page.
+
+WORDSNET-6025 /hideMark/ Output PDF has one more page than the input DOCX.
+
+WORDSNET-6069 Calling UpdateFields after DocumentBuilder.InsertTableOfContents generates incorrect TOC.
+
+WORDSNET-6088 TOC sub heading text aligned incorrectly after Open/Save in DOC format.
+
+WORDSNET-6092 Docx to PDF conversion issue.
+
+WORDSNET-6109 Windings Symbol is lost during rendering to fixed formats.
+
+WORDSNET-6132 UpdateFields calculates TOC page numbers incorrectly.
+
+WORDSNET-6150 Calling UpdateFields twice corrupts TO?/SEQ fields.
+
+WORDSNET-6152 Text Alignment issue while convering html to docx.
+
+WORDSNET-6166 Aspose.Words generates 20 pages when rendering a 2 page DOCX to fixed formats.
+
+WORDSNET-6182 Incorrect parameter is passed to IMailMergeDataSource when using new Object.Attribute sytnax.
+
+WORDSNET-6183 Shape borders are rendering incorrectly in HTML.
+
+WORDSNET-6184 Table in DOC is rendering many times in PDF/Tiff.
+
+WORDSNET-6223 MergeFields inside header don't show values in PDF.
+
+WORDSNET-6270 Horizontally Flipped DrawingML image is rendering incorrectly in PDF.
+
+WORDSNET-6275 Extra blank page problem occurs while converting doc to Pdf Format.
+
+WORDSNET-6311 REF field with CardText or Number formatting switches is updated incorrectly.
+
+WORDSNET-6352 A table with too many columns cannot be opened when saving to Word formats.
+
+WORDSNET-6399 Extra empty page is added to the PDF document after conversion from Doc file.
+
+WORDSNET-6401 WordArt shape fill is distorted while rendering path gradient shape.
+
+WORDSNET-6467 Appending documents into empty (new Document()) stretches the contents of one page into multiple pages.
+
+WORDSNET-6478 UICompat97To2003 is not set for rtf files.
+
+WORDSNET-6518 LoadOptions object shouldn't be changed during opening.
+
+WORDSNET-6525 Unable to access PRINT field in the Doc file.
+
+WORDSNET-6530 Transparency of PNG image is disturbed when rendering to PDF.
+
+WORDSNET-6551 Incorrect Page numbering in the TOC when calling UpdateFields.
+
+WORDSNET-6580 Custom style in RTF document resulting formatting issue.
+
+WORDSNET-6587 Docx to Pdf conversion issue with page break.
+
+WORDSNET-6601 MHTML document loses table background color while rendering to PDF.
+
+WORDSNET-6632 Problem with Image size when covert from DOC, DOCX, WML to RTF.
+
+WORDSNET-6644 Image flips upon rendering DOCX document to PDF.
+
+WORDSNET-6649 Run.Font.Bidi is lost when converting to ODT format.
+
+WORDSNET-6657 Shape is displaying at the wrong page side in ODT.
+
+WORDSNET-6658 Paragraph alignment is reversed during converting doc to odt.
+
+WORDSNET-6674 Mergefield value splits into two Runs with different Fonts.
+
+WORDSNET-6676 Compatibly options "Don't add leading (extra space) between rows of text" processed incorrectly.
+
+WORDSNET-6678 Add support for "Don't expand character spaces on a line that ends with SHIFT-RETURN" option.
+
+WORDSNET-6698 Left/Right cellpadding of RTF dcoument are changed after conversion.
+
+WORDSNET-6699 RTF document loses table format upon conversion.
+
+WORDSNET-6702 TOC is updating incorrectly.
+
+WORDSNET-6714 Setting the font hidden doesn't hide Row in DOCX.
+
+WORDSNET-6722 Bullet style is not being rendered correctly.
+
+WORDSNET-6723 ParagraphFormat.SpaceAfter is not preserved during loading ODT.
+
+WORDSNET-6724 Shape is overlapping the Table content.
+
+WORDSNET-6728 Shape is rendering as red cross symbol in PDF.
+
+WORDSNET-6729 Setting the font hidden doesn't hide DrawingML in DOCX.
+
+WORDSNET-6732 Docx to Pdf conversion issue while mail merge.
+
+WORDSNET-6733 Document is rendered out of page bounds during printing.
+
+WORDSNET-6734 Docx to Pdf conversion issue, images are rotated in output pdf file.
+
+WORDSNET-6735 Content is clipped because of incorrect column height calculation.
+
+WORDSNET-6737 Tables and shapes are shifted while rendering.
+
+WORDSNET-6738 Textbox in DOCX converted to HTML as empty image.
+
+WORDSNET-6740 Investigate why mail merge regions' data is not visible in PDF.
+
+WORDSNET-6742 Table background color fades while converting DOC to HTML.
+
+WORDSNET-6754 Bug with ExtractContent code can't extract text in table cell.
+
+WORDSNET-6755 Shape wrap type is lost during loading OTT into DOM.
+
+WORDSNET-6769 RTF to Doc conversion issue with line spacing value.
+
+WORDSNET-6806 Calling UpdateFields after InsertTableOfContents calculates Cell's width incorrectly.
+
+## Regressions 
+
+WORDSJAVA-611 Font Substitution is broken by UnicodeString refactory.
+
+WORDSNET-5321 Aspose.Words treats numbers as string upon mail merge.
+
+WORDSNET-6564 \html autodetect\ "table" tag causes Aspose.Words not to detect HTML.
+
+WORDSNET-6689 NullReferenceException occurs when rendering GroupShape to HTML.
+
+WORDSNET-6701 NullReferenceException occurs during exporting Shape to HTML.
+
+WORDSNET-6710 /DrawingML textbox/ Unable to access SDT nodes from inside DrawingML.
+
+WORDSNET-6739 Printing speed has slowed down in Aspose.Words for .NET 11.5 and higher. 

@@ -39,6 +39,6 @@ In Aspose.Words 11.9 the ability of the specifying image size for images inserte
 
 The following demonstrates how to set the size for the merged image by modifying the template and adding extra parameters to the field code of the field:
 
-![todo:image_alt_text](public-api-changes-in-aspose-words-11-9-0_1.png)
+![public-api-changes-in-aspose-words-11-9-0-1](public-api-changes-in-aspose-words-11-9-0_1.png)
 
 The same functionality can also be achieved in the API by using **ImageFieldMergingCallback**. The **ImageFieldMergingArgs.ImageHeight** and **ImageFieldMergingArgs.ImageWidth** properties are used to set the image size.

@@ -218,7 +218,7 @@ Limitations:
 
 WORDSNET-13428 has been resolved. Starting from 16.6.0 Version, Aspose.Words supports an empty values in chart data series and categories upon creating. For example, you are going to create the chart with the following data:
 
-![todo:image_alt_text](aspose-words-for-java-16-6-0-release-notes_1.png)
+![aspose-words-for-java-16-6-0-release-notes-1](aspose-words-for-java-16-6-0-release-notes_1.png)
 
 
 In this case you have to use the code provided below:
@@ -244,7 +244,7 @@ seriesColl.add("AW Series 3", categories, new double[] { Double.NaN, 4, 5, Doubl
 
 The resulted chart looks like this:
 
-![todo:image_alt_text](aspose-words-for-java-16-6-0-release-notes_2.png)
+![aspose-words-for-java-16-6-0-release-notes-2](aspose-words-for-java-16-6-0-release-notes_2.png)
 
 ### Added MailMergeRegionInfo.Level Property
 
