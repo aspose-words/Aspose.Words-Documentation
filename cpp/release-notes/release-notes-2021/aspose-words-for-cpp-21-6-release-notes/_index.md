@@ -38,7 +38,7 @@ The missing features will be added in future releases.
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| WORDSNET-21647 | DOCX to PDF: Content displacement   occurs | New Feature |
+| WORDSNET-21647 | DOCX to PDF: Content displacement occurs | New Feature |
 | WORDSNET-12748 | Provide API to change Color of Category Series of Chart | New Feature |
 | WORDSNET-13907 | Support rendering DrawingML InkML ContentPart | New Feature |
 | WORDSNET-12275 | Add feature to change the color of ChartSeries | New Feature |
@@ -132,7 +132,6 @@ The missing features will be added in future releases.
 | WORDSNET-16691 | Printer metrics is rendered improperly | Bug |
 | WORDSNET-17724 | DOCX to PDF conversion issue with table rendering | Bug |
 | WORDSNET-17769 | Converting DOCX to PDF overlaps the tables | Bug |
-| WORDSNET-21482 | LayoutCollector fails on .NET Standard | Bug |
 
 ## Public API and Backward Incompatible Changes
 
@@ -158,41 +157,43 @@ public enum LayoutEntityType
 This will help users iterate over notes inside footnotes/endnotes containers.
 
 Use Case:
-{{< highlight csharp >}}
-Document doc = new Document("SomeDocument.docx")
-LayoutEnumerator en = new LayoutEnumerator(doc);
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>(u"SomeDocument.docx")
+auto en = System::MakeObject<LayoutEnumerator>(doc);
 
 // We start from the first page.
-Debug.Assert(en.Type == LayoutEntityType.Page);
+assert(en->get_Type() == LayoutEntityType::Page);
 
 // Move to the first column on the page.
-en.MoveFirstChild();
-Debug.Assert(en.Type == LayoutEntityType.Column);
+en->MoveFirstChild();
+assert(en->get_Type() == LayoutEntityType::Column);
 
 // Move to the first child in the column.
-en.MoveFirstChild();
+en->MoveFirstChild();
 
 do
 {
   // Iterate to a footnote container.
-  if (en.Type == LayoutEntityType.Footnote)
-   break;
+  if (en->get_Type() == LayoutEntityType::Footnote)
+  {
+    break;
+  }
 }
-while(en.MoveNext());
+while(en->MoveNext());
 
 // If the footnote container exists in the column, we will process notes.
-if (en.Type == LayoutEntityType.Footnote)
+if (en->get_Type() == LayoutEntityType::Footnote)
 {
   // Move to the first note in the footnote container.
-  if (en.MoveFirstChild())
+  if (en->MoveFirstChild())
   {
     do
     {
      // Move over notes inside the footnote container.
-     Debug.Assert(en.Type == LayoutEntityType.Note);
+     assert(en->get_Type() == LayoutEntityType::Note);
      // Do something.
     }
-    while (en.MoveNext());
+    while (en->MoveNext());
    }
  }
 }
@@ -215,38 +216,38 @@ if (en.Type == LayoutEntityType.Footnote)
 The most useful values are the kinds that allow to unambiguously determine what type of separator you are working with. This is true because for all kinds of separators the LayoutEntityType is LayoutEntityType.NoteSeparator.
 
 Use Case:
-{{< highlight csharp >}}
-Document doc = new Document("SomeDocument.docx")
-LayoutEnumerator en = new LayoutEnumerator(doc);
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>(u"SomeDocument.docx")
+auto en = System::MakeObject<LayoutEnumerator>(doc);
 
 // We start from the first page.
-Debug.Assert(en.Type == LayoutEntityType.Page);
+assert(en->get_Type() == LayoutEntityType::Page);
 
 // Move to the first column on the page.
-en.MoveFirstChild();
-Debug.Assert(en.Type == LayoutEntityType.Column);
+en->MoveFirstChild();
+assert(en->get_Type() == LayoutEntityType::Column);
 
 // Move to the first child in the column.
 en.MoveFirstChild();
 
 do
 {
-   if (en.Type == LayoutEntityType.NoteSeparator && en.Kind == "FOOTNOTESEPARATOR")
+   if (en->get_Type() == LayoutEntityType::NoteSeparator && en->get_Kind() == u"FOOTNOTESEPARATOR")
    {
       // Do something.
    }
 
-   if (en.Type == LayoutEntityType.NoteSeparator && en.Kind == "FOOTNOTECONTINUATIONSEPARATOR")
+   if (en->get_Type() == LayoutEntityType::NoteSeparator && en->get_Kind() == u"FOOTNOTECONTINUATIONSEPARATOR")
    {
       // Do something.
    }
 
-   if (en.Type == LayoutEntityType.NoteSeparator && en.Kind == "FOOTNOTECONTINUATIONNOTICE")
+   if (en->get_Type() == LayoutEntityType::NoteSeparator && en->get_Kind() == u"FOOTNOTECONTINUATIONNOTICE")
    {
       // Do something.
    }
 }
-while(en.MoveNext());
+while(en->MoveNext());
 }
 {{< /highlight >}}
 
@@ -265,18 +266,18 @@ public long DataChecksum
 It's readonly. It is numeric representation of the storeItemChecksum element. The checksum is computed using the data of the corresponding custom XML data part.
 
 Use Case:
-{{< highlight csharp >}}
-Document doc = new Document("Document.docx");
-StructuredDocumentTag sdt = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
-Console.WriteLine(sdt.XmlMapping.CustomXmlPart.DataChecksum);
-Document doc = new Document();
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>(u"Document.docx");
+auto sdt = System::StaticCast<StructuredDocumentTag>(doc->get_GetChild(NodeType::StructuredDocumentTag, 0, true));
+std::cout << sdt->get_XmlMapping()->get_CustomXmlPart()->get_DataChecksum() << '\n';
+auto doc = System::MakeObject<Document>();
 
-StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
-doc.FirstSection.Body.Insert(sdt, null, false);
+auto sdt = System::MakeObject<StructuredDocumentTag>(doc, SdtType::RichText, MarkupLevel::Block);
+doc->get_FirstSection()->get_Body()->Insert(sdt, nullptr, false);
              
-sdt.XmlMapping.SetMapping(doc.CustomXmlParts.Add("C8FFD3B6-7EF8-4963-895B-3565F68A03E7",
-    "<root><text>test</text></root>"), "/root/text", "");
-Console.WriteLine(sdt.XmlMapping.CustomXmlPart.DataChecksum);
+sdt->get_XmlMapping()->SetMapping(doc->get_CustomXmlParts()->Add(u"C8FFD3B6-7EF8-4963-895B-3565F68A03E7",
+    u"<root><text>test</text></root>"), u"/root/text", u"");
+std::cout << sdt->get_XmlMapping()->get_CustomXmlPart()->get_DataChecksum() << '\n';
 {{< /highlight >}}
 
 ### A new Document.LayoutOption is added to control page numbering in a continuous section
@@ -328,10 +329,10 @@ namespace Aspose.Words.Layout
 After the changes, the default Aspose.Words behavior matches the current MS Word version (2019).
 The older behavior implemented per WORDSNET-17760 is still avaialable via the introduced option:
 
-{{< highlight csharp >}}
-Document doc = new Document("input.docx");
-doc.LayoutOptions.ContinuousSectionPageNumberingRestart = ContinuosSectionRestart.FromNewPageOnly;
-doc.Save("out.pdf");
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>(u"input.docx");
+doc->get_LayoutOptions()->set_ContinuousSectionPageNumberingRestart(ContinuosSectionRestart::FromNewPageOnly);
+doc->Save(u"out.pdf");
 {{< /highlight >}}
 
 Note: It is required to rebuild the document page layout (via Document.UpdatePageLayout() method) after changing the Document.LayoutOptions values.
@@ -413,159 +414,166 @@ public class Stroke
 {{< /highlight >}}
 
 Use Case: Explains how to set series color
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
-Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+auto shape = builder->InsertChart(ChartType::Column, 432, 252);
 
-Chart chart = shape.Chart;
-ChartSeriesCollection seriesColl = chart.Series;
+auto chart = shape->get_Chart();
+auto seriesColl = chart->get_Series();
 
 // Delete default generated series.
-seriesColl.Clear();
+seriesColl->Clear();
 
 // Create category names array.
-string[] categories = new string[] { "AW Category 1", "AW Category 2" };
+auto categories = System::MakeArray<System::String>({ u"AW Category 1", u"AW Category 2" });
 
 // Adding new series. Value and category arrays must be the same size.
-ChartSeries series1 = seriesColl.Add("AW Series 1", categories, new double[] { 1, 2 });
-ChartSeries series2 = seriesColl.Add("AW Series 2", categories, new double[] { 3, 4 });
-ChartSeries series3 = seriesColl.Add("AW Series 3", categories, new double[] { 5, 6 });
+auto series1 = seriesColl->Add(u"AW Series 1", categories, System::MakeArray<double>({ 1, 2 }));
+auto series2 = seriesColl->Add(u"AW Series 2", categories, System::MakeArray<double>({ 3, 4 }));
+auto series3 = seriesColl->Add(u"AW Series 3", categories, System::MakeArray<double>({ 5, 6 }));
 
 // Set series color.
-series1.Format.Fill.ForeColor = Color.Red;
-series2.Format.Fill.ForeColor = Color.Yellow;
-series3.Format.Fill.ForeColor = Color.Blue;
+series1->get_Format()->get_Fill()->set_ForeColor(Color::get_Red());
+series2->get_Format()->get_Fill()->set_ForeColor(Color::get_Yellow());
+series3->get_Format()->get_Fill()->set_ForeColor(Color::get_Blue());
 
-doc.Save("ColumnColor.docx");
+doc->Save(u"ColumnColor.docx");
 {{< /highlight >}}
 
 Use Case: Explains how to set individual formatting for categories of a column chart
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
-Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-Chart chart = shape.Chart;
+auto shape = builder->InsertChart(ChartType::Column, 432, 252);
+
+auto chart = shape->get_Chart();
 
 // Delete default generated series.
-chart.Series.Clear();
+chart->get_Series()->Clear();
 
 // Adding new series.
-ChartSeries series = chart.Series.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2", "AW Category 3", "AW Category 4" }, new double[] { 1, 2, 3, 4 });
+auto series = chart->get_Series->Add(u"AW Series 1", 
+    System::MakeArray<System::String>({ u"AW Category 1", u"AW Category 2", u"AW Category 3", u"AW Category 4" }), 
+    System::MakeArray<double>({ 1, 2, 3, 4 }));
 
 // Set column formatting.
-ChartDataPointCollection dataPoints = series.DataPoints;
-dataPoints[0].Format.Fill.PresetTextured(PresetTexture.Denim);
-dataPoints[1].Format.Fill.ForeColor = Color.Red;
-dataPoints[2].Format.Fill.ForeColor = Color.Yellow;
-dataPoints[3].Format.Fill.ForeColor = Color.Blue;
+auto dataPoints = series->get_DataPoints();
+dataPoints->idx_get(0)->get_Format()->get_Fill()->PresetTextured(PresetTexture::Denim);
+dataPoints->idx_get(1)->get_Format()->get_Fill()->set_ForeColor(Color::get_Red());
+dataPoints->idx_get(2)->get_Format()->get_Fill()->set_ForeColor(Color::get_Yellow());
+dataPoints->idx_get(3)->get_Format()->get_Fill()->set_ForeColor(Color::get_Blue());
 
-doc.Save("IndividualColumnFormatting.docx");
+doc->Save("IndividualColumnFormatting.docx");
 {{< /highlight >}}
 
 Use Case: Explains how to set line color and weight
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
-Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+auto shape = builder->InsertChart(ChartType::Column, 432, 252);
 
-Chart chart = shape.Chart;
-ChartSeriesCollection seriesColl = chart.Series;
+auto chart = shape->get_Chart();
+auto seriesColl = chart->get_Series();
 
 // Delete default generated series.
-seriesColl.Clear();
+seriesColl->Clear();
 
 // Adding new series.
-ChartSeries series1 = seriesColl.Add("AW Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
-ChartSeries series2 = seriesColl.Add("AW Series 2", new double[] { 0.5, 1.5, 2.5 }, new double[] { 3, 1, 2 });
+auto series1 = seriesColl->Add(u"AW Series 1", System::MakeArray<double>({ 0.7, 1.8, 2.6 }), System::MakeArray<double>({ 2.7, 3.2, 0.8 }));
+auto series2 = seriesColl->Add(u"AW Series 2", System::MakeArray<double>({ 0.5, 1.5, 2.5 }), System::MakeArray<double>({ 3, 1, 2 }));
 
 // Set series color.
-series1.Format.Stroke.ForeColor = Color.Red;
-series1.Format.Stroke.Weight = 5;
-series2.Format.Stroke.ForeColor = Color.LightGreen;
-series2.Format.Stroke.Weight = 5;
+series1->get_Format()->get_Stroke()->set_ForeColor(Color::get_Red());
+series1->get_Format()->get_Stroke()->set_Weight(5);
+series2->get_Format()->get_Stroke()->set_ForeColor(Color::get_LightGreen());
+series2->get_Format()->get_Stroke()->set_Weight(5);
 
-doc.Save("LineColorAndWeight.docx");
+doc->Save("LineColorAndWeight.docx");
 {{< /highlight >}}
 
 Use Case: Explains how to set line segment colors
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
-Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
-Chart chart = shape.Chart;
+auto shape = builder->InsertChart(ChartType::Column, 432, 252);
+
+auto chart = shape->get_Chart();
 
 // Delete default generated series.
-chart.Series.Clear();
+chart->get_Series()->Clear();
 
 // Adding new series.
-ChartSeries series = chart.Series.Add("AW Series 1", new double[] { 0.7, 1.8, 2.6, 3.5 }, new double[] { 2.7, 3.2, 0.8, 0.1 });
-series.Format.Stroke.Weight = 4;
+auto series = chart->get_Series()->Add(u"AW Series 1", System::MakeArray<double>({ 0.7, 1.8, 2.6, 3.5 }), System::MakeArray<double>({ 2.7, 3.2, 0.8, 0.1 }));
+series->get_Format()->get_Stroke()->set_Weight(4);
 
 // Set line colors.
-ChartDataPointCollection dataPoints = series.DataPoints;
-dataPoints[1].Format.Stroke.ForeColor = Color.Red;
-dataPoints[2].Format.Stroke.ForeColor = Color.Yellow;
-dataPoints[3].Format.Stroke.ForeColor = Color.Blue;
+auto dataPoints = series->get_DataPoints();
+dataPoints->idx_get(1)->get_Format()->get_Stroke()->set_ForeColor(Color::get_Red());
+dataPoints->idx_get(2)->get_Format()->get_Stroke()->set_ForeColor(Color::get_Yellow());
+dataPoints->idx_get(3)->get_Format()->get_Stroke()->set_ForeColor(Color::get_Blue());
 
-doc.Save("LineSegmentColor.docx");
+doc->get_Save(u"LineSegmentColor.docx");
 {{< /highlight >}}
 
 Use Case: Explains how to set Pie chart colors
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
-Shape shape = builder.InsertChart(ChartType.Pie, 432, 252);
-Chart chart = shape.Chart;
+auto shape = builder->InsertChart(ChartType::Column, 432, 252);
+
+auto chart = shape->get_Chart();
 
 // Delete default generated series.
-chart.Series.Clear();
+chart->get_Series()->Clear();
 
 // Adding new series.
-ChartSeries series = chart.Series.Add("Series 1", new string[] { "Category1", "Category2", "Category3" }, new double[] { 2.7, 3.2, 0.8 });
+auto series = chart->get_Series()->Add(u"Series 1", System::MakeArray<System::String>({ "Category1", "Category2", "Category3" }), System::MakeArray<double>({ 2.7, 3.2, 0.8 }));
 
 // Set data point color.
-ChartDataPointCollection dataPoints = series.DataPoints;
-dataPoints[0].Format.Fill.ForeColor = Color.Red;
-dataPoints[1].Format.Fill.ForeColor = Color.Yellow;
-dataPoints[2].Format.Fill.ForeColor = Color.Green;
+auto dataPoints = series->get_DataPoints();
+dataPoints->idx_get(0)->get_Format()->get_Fill()->set_ForeColor(Color::get_Red());
+dataPoints->idx_get(1)->get_Format()->get_Fill()->set_ForeColor(Color::get_Yellow());
+dataPoints->idx_get(2)->get_Format()->get_Fill()->set_ForeColor(Color::get_Green());
 
-doc.Save("PieColor.docx");
+doc->Save(u"PieColor.docx");
 {{< /highlight >}}
 
 Use Case: Explains how to set marker formatting
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
-Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
-Chart chart = shape.Chart;
+auto shape = builder->InsertChart(ChartType::Column, 432, 252);
+
+auto chart = shape->get_Chart();
 
 // Delete default generated series.
-chart.Series.Clear();
+chart->get_Series()->Clear();
 
 // Adding new series.
-ChartSeries series = chart.Series.Add("AW Series 1", new double[] { 0.7, 1.8, 2.6, 3.9 }, new double[] { 2.7, 3.2, 0.8, 1.7 });
+auto series = chart->get_Series()->Add(u"AW Series 1", System::MakeArray<double>({ 0.7, 1.8, 2.6, 3.9 }), System::MakeArray<double>({ 2.7, 3.2, 0.8, 1.7 }));
 
 // Set marker formatting.
-series.Marker.Size = 40;
-series.Marker.Symbol = MarkerSymbol.Square;
-ChartDataPointCollection dataPoints = series.DataPoints;
-dataPoints[0].Marker.Format.Fill.PresetTextured(PresetTexture.Denim);
-dataPoints[0].Marker.Format.Stroke.ForeColor = Color.Yellow;
-dataPoints[1].Marker.Format.Fill.PresetTextured(PresetTexture.WaterDroplets);
-dataPoints[1].Marker.Format.Stroke.ForeColor = Color.Yellow;
-dataPoints[2].Marker.Format.Fill.PresetTextured(PresetTexture.GreenMarble);
-dataPoints[2].Marker.Format.Stroke.ForeColor = Color.Yellow;
-dataPoints[3].Marker.Format.Fill.PresetTextured(PresetTexture.Oak);
-dataPoints[3].Marker.Format.Stroke.ForeColor = Color.Yellow;
+series->get_Marker()->set_Size(40);
+series->get_Marker()->set_Symbol(MarkerSymbol::Square);
+auto dataPoints = series->DataPoints();
 
-doc.Save("MarkerFormatting.docx");
+dataPoints->idx_get(0)->get_Marker()->get_Format()->get_Fill()->PresetTextured(PresetTexture::Denim);
+dataPoints->idx_get(0)->get_Marker()->get_Format()->get_Stroke()->set_ForeColor(Color::get_Yellow());
+dataPoints->idx_get(1)->get_Marker()->get_Format()->get_Fill()->PresetTextured(PresetTexture::WaterDroplets);
+dataPoints->idx_get(1)->get_Marker()->get_Format()->get_Stroke()->set_ForeColor(Color::get_Yellow());
+dataPoints->idx_get(2)->get_Marker()->get_Format()->get_Fill()->PresetTextured(PresetTexture::GreenMarble);
+dataPoints->idx_get(2)->get_Marker()->get_Format()->get_Stroke()->set_ForeColor(Color::get_Yellow());
+dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Fill()->PresetTextured(PresetTexture::Oak);
+dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_ForeColor(Color::get_Yellow());
+
+doc->Save(u"MarkerFormatting.docx");
 {{< /highlight >}}
 
 ### Implemented Rendering of OOXML Ink (InkML subset)
@@ -638,15 +646,15 @@ public bool MergePastedLists
 {{< /highlight >}}
 
 Use Case: Explains how to merge pasted lists with surrounding lists when adding one document to another
-{{< highlight csharp >}}
-Document srcDoc = new Document("src.docx");
-Document dstDoc = new Document("dst.docx");
+{{< highlight cpp >}}
+auto srcDoc = System::MakeObject<Document>(u"src.docx");
+auto dstDoc = System::MakeObject<Document>(u"dst.docx");
 
-ImportFormatOptions importFormatOptions = new ImportFormatOptions();
-importFormatOptions.MergePastedLists = true;
-dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
+auto importFormatOptions = System::MakeObject<ImportFormatOptions>();
+importFormatOptions->set_MergePastedLists(true);
+dstDoc->AppendDocument(srcDoc, ImportFormatMode::UseDestinationStyles, importFormatOptions);
 
-dstDoc.Save("out.docx");
+dstDoc->Save(u"out.docx");
 {{< /highlight >}}
 
 ### Public API for working with textures has been introduced
@@ -679,20 +687,20 @@ public enum PresetTexture
 {{< /highlight >}}
 
 Use Case: Explains how to get and apply a texture to a fill
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Open some document with a shape.
-Document doc = new Document("DocWithShape.docx");
+auto doc = System::MakeObject<Document>(u"DocWithShape.docx");
 
 // Get Fill object for the first shape.
-Fill fill = doc.FirstSection.Body.Shapes[0].Fill;
+auto fill = doc->get_FirstSection()->get_Body()->get_Shapes()->idx_get(0)->get_Fill();
 
 // Check Fill PresetTexture value.
-Console.WriteLine("PresetTexture value is: {0}", fill.PresetTexture);
+std::cout << "PresetTexture value is: " << System::ObjectExt::ToString(fill->get_PresetTexture()).ToUtf8String() << '\n';
 
 // Apply BrownMarble texture to the shape fill.
-fill.PresetTextured(PresetTexture.BrownMarble);
+fill->PresetTextured(PresetTexture::BrownMarble);
 
-doc.Save("BrownMarble.docx");
+doc->Save(u"BrownMarble.docx");
 {{< /highlight >}}
 
 ### TxtSaveOptions.MaxCharactersPerLine property was introduced
@@ -709,12 +717,12 @@ public int MaxCharactersPerLine { get; set; }
 {{< /highlight >}}
 
 Use Case: Explains how to limit maximum characters per line in output document of TXT format:
-{{< highlight csharp >}}
-Document doc = new Document("input.docx");
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>(u"input.docx");
 
-TxtSaveOptions saveOptions = new TxtSaveOptions();
+auto saveOptions = System::MakeObject<TxtSaveOptions>();
 // Set 60 characters as maximum allowed per one line.
-saveOptions.MaxCharactersPerLine = 60;
+saveOptions->set_MaxCharactersPerLine(60);
 
-doc.Save("out.txt", saveOptions);
+doc->Save("out.txt", saveOptions);
 {{< /highlight >}}
