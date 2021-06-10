@@ -1,7 +1,7 @@
 ---
 title: Missing Features in OpenXML
 type: docs
-weight: 20
+weight: 60
 url: /net/missing-features-in-openxml/
 ---
 
