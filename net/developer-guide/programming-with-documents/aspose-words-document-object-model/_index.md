@@ -35,11 +35,11 @@ The Aspose.Words DOM also contains the non-node classes, such as [Style](https:/
 
 Let's look at an example. The following image shows a Microsoft Word document with different types of content.
 
-<img src="document-example.png" alt="document-example" style="width:700px"/>
+<img src="document-example.png" alt="document-example-aspose-words" style="width:700px"/>
 
 When reading the above document into the Aspose.Words DOM, the tree of objects is created, as shown in the schema below.
 
-<img src="document-example-dom.png" alt="document-example-dom" style="width:700px"/>
+<img src="document-example-dom.png" alt="dom-aspose-words" style="width:700px"/>
 
 [Document](http://www.aspose.com/api/net/words/aspose.words/document), [Section](http://www.aspose.com/api/net/words/aspose.words/section), [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph), [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table), [Shape](http://www.aspose.com/api/net/words/aspose.words.drawing/shape), [Run](http://www.aspose.com/api/net/words/aspose.words/run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
@@ -79,7 +79,7 @@ The nodes that can contain other nodes derive from the [CompositeNode](https://a
 
 The following UML object diagram shows several nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
-<img src="document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
+<img src="document-nodes-relationships.png" alt="document-nodes-relationships-aspose-words" style="width:370px"/>
 
 #### Document is Node Owner
 

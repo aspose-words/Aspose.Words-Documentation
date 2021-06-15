@@ -59,15 +59,13 @@ You can download the latest solution at:
 - Open Aspose.Words Metadata Cleaner.dll.config in notepad and go to the value section of AsposeLicense.
 - Set the location of the license. 
 
-![todo:image_alt_text](metadata-cleaner-for-outlook_1)
+![metadata-cleaner-for-outlook_1](metadata-cleaner-for-outlook_1)
 
 - Save the notepad file and re-start Outlook.
 
 ### Uninstalling Aspose.Words Metadata Cleaner
 
 - Uninstall the add-on from Control Panel >> Uninstall the program. 
-
-![todo:image_alt_text](/download/thumbnails/2596237/1912245038)
 
 ## Using
 
@@ -76,11 +74,7 @@ You can download the latest solution at:
 - Fill the required information of the email.
 - Click send Button 
 
-![todo:image_alt_text](/download/thumbnails/2596237/1789678006)
-
 To Enable/Disable the plugin, in New Email window, Click Enable/Disable Aspose.Words metadata Cleaner from Aspose Menu on the top.
-
-![todo:image_alt_text](/download/thumbnails/2596237/1011171143)
 
 ## Video Demo
 

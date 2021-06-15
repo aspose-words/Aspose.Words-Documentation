@@ -23,7 +23,7 @@ This initial version of the control provides the following features:
 - Option to export current page or all pages when paging is enabled using DataPager.
 - Option to limit maximum exportable records while exporting all data in ListView.
 
-![todo:image_alt_text](visual-studio-export-listview-to-word-control_1.png)
+![visual-studio-export-listview-to-word-control-aspose-words-net](visual-studio-export-listview-to-word-control_1.png)
 
 This control allows you to export ListView in the following different file formats.
 

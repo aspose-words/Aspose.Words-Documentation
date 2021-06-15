@@ -33,11 +33,11 @@ The following code example shows how to find the string “_CustomerName_” and
 
 You can notice the difference between the document before applying simple string replacement:
 
-<img src="before-simple-string-replacement.png" alt="before-simple-string-replacement" style="width:600px"/>
+<img src="before-simple-string-replacement.png" alt="before-simple-string-replacement-aspose-words-java" style="width:600px"/>
 
 And after applying simple string replacement:
 
-<img src="after-simple-string-replacement.png" alt="after-simple-string-replacement" style="width:600px"/>
+<img src="after-simple-string-replacement.png" alt="after-simple-string-replacement-aspose-words-java" style="width:600px"/>
 
 ### Find and Replace Text using Regular Expressions
 
@@ -53,11 +53,11 @@ The following code example shows how to replace strings that match a regular exp
 
 You can notice the difference between the document before applying string replacement with regular expressions:
 
-<img src="before-replacement-with-regular-expressions.png" alt="before-replacement-with-regular-expressions" style="width:600px"/>
+<img src="before-replacement-with-regular-expressions.png" alt="before-replacement-with-regular-expressions-aspose-words-java" style="width:600px"/>
 
 And after applying string replacement with regular expressions:
 
-<img src="after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions" style="width:600px"/>
+<img src="after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions-aspose-words-java" style="width:600px"/>
 
 ### Find and Replace String using Metacharacters
 
@@ -85,11 +85,11 @@ The following code example shows how to replace the text of the header section i
 
 You can notice the difference between the document before applying header string replacement:
 
-<img src="before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement" style="width:600px"/>
+<img src="before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
 
 And after applying header string replacement:
 
-<img src="after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement" style="width:600px"/>
+<img src="after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
 
 The code example to replace the text of the footer section in your document is very similar to the previous header code example. All you need to do is replace the following two lines:
 
@@ -105,11 +105,11 @@ With the following:
 
 You can notice the difference between the document before applying footer string replacement:
 
-<img src="before-applying-footer-string-replacement.png" alt="before-applying-footer-string-replacement" style="width:600px"/>
+<img src="before-applying-footer-string-replacement.png" alt="before-applying-footer-string-replacement-aspose-words-java" style="width:600px"/>
 
 And after applying footer string replacement:
 
-<img src="after-applying-footer-string-replacement.png" alt="after-applying-footer-string-replacement" style="width:600px"/>
+<img src="after-applying-footer-string-replacement.png" alt="after-applying-footer-string-replacement-aspose-words-java" style="width:600px"/>
 
 ## Ignore Text During Find and Replace
 

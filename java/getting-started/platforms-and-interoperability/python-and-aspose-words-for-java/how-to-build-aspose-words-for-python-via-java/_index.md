@@ -17,7 +17,7 @@ Download and install [Python](https://www.python.org/ftp/python/2.7.14/python-2
 
 Make sure Java's and Python's paths are on the environment variables list
 
-![todo:image_alt_text](how-to-build-aspose-words-for-python-via-java_1.png)
+![how-to-build-aspose-words-for-python-via-java-1](how-to-build-aspose-words-for-python-via-java_1.png)
 
 Install wheel
 
@@ -120,7 +120,7 @@ Result *.whl* file will be saved in *.\dist* directory
 1. Download and install [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html). We use JRE x64 version because our .whl was built for Windows x64;
 1. Download and install [Python](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi). At the moment 2.7 version is used;
 1. Add following path variables to the environment variables list:<br>
-![todo:image_alt_text](how-to-build-aspose-words-for-python-via-java_2.png)
+![how-to-build-aspose-words-for-python-via-java-2](how-to-build-aspose-words-for-python-via-java_2.png)
 1. Then install the .whl package [create_aspose_words.py](create_aspose_words.py)<br>
 {{< highlight csharp >}}
 > pip install .\aspose_words-17.8-cp27-none-win_amd64.whl

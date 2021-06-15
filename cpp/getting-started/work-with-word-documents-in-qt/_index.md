@@ -18,40 +18,40 @@ In order to integrate and use Aspose.Words for C++ library within a Qt Console 
 
 - Open Qt Creator and create a new *Qt Console Application*.
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-Console-Application.jpg)
+![aspose-words-cpp-in-qt-1](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-Console-Application.jpg)
 
 - Select the QMake option from the *Build System* dropdown.
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-Console-Application-QMake.jpg)
+![aspose-words-cpp-in-qt-2](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-Console-Application-QMake.jpg)
 
 - Select the appropriate kit and finish the wizard.
 - Copy *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp_vc14_20.3* folders from the extracted package of Aspose.Words for C++ into the root of the project.
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Aspose.Words-lib-files.jpg)
+![aspose-words-cpp-in-qt-3](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Aspose.Words-lib-files.jpg)
 
 - In order to add paths to lib and include folders, right-click on the project in the LHS panel and select *Add Library*.
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library.jpg)
+![aspose-words-cpp-in-qt-4](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library.jpg)
 
 - Select the External Library option and browse paths to include and lib folders one by one.
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library-2.jpg)
+![aspose-words-cpp-in-qt-5](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library-2.jpg)
 
 - Once done, your .pro project file will contain the following entries:
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-PRO-File-1024x372.png)
+![aspose-words-cpp-in-qt-6](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-PRO-File-1024x372.png)
 
 - Build the application and you are done with the integration.
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library.jpg)
+![aspose-words-cpp-in-qt-7](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library.jpg)
 
 - Select the External Library option and browse paths to include and lib folders one by one.
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library-2.jpg)
+![aspose-words-cpp-in-qt-8](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library-2.jpg)
 
 - Once done, your .pro project file will contain the following entries:
 
-![todo:image_alt_text](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-PRO-File-1024x372.png)
+![aspose-words-cpp-in-qt-9](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-PRO-File-1024x372.png)
 
 - Build the application and you are done with the integration.
 
@@ -84,8 +84,6 @@ file(TO_NATIVE_PATH "${CodePorting.Native.Cs2Cpp_DIR}/lib" CodePorting.Native.Cs
 file(TO_NATIVE_PATH "${Qt5_DIR}/../../../bin" Qt5_DLL_PATH)
 set_target_properties(Qt_AsposeWords_CMake PROPERTIES VS_DEBUGGER_ENVIRONMENT "PATH=${Aspose.Words.Cpp_DLL_PATH}\\$<CONFIG>;${CodePorting.Native.Cs2Cpp_DLL_PATH};${Qt5_DLL_PATH};$(Path)")
 {{< /highlight >}}
-
-
 
 - Open *Command Prompt* and *cd* to the project folder.
 - Run the following command by replacing *<path-to-qt5>* with the path to *Qt5Config.cmake* file (i.e. C:\QT\5.14.2\msvc2017_64\lib\cmake\Qt5).

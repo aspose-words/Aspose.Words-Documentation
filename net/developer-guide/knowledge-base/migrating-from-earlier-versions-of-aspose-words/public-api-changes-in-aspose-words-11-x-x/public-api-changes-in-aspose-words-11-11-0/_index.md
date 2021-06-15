@@ -39,7 +39,7 @@ Aspose.Words 11.10.0 now supports reading custom style applied to hyperlinks (st
 
 Aspose.Words now reads and interprets the polygon wrapping points for images which is the basis of what makes tight or through wrapped images to be positioned very tightly against text. The result when converting using Aspose.Words is text wrapping that is rendered identical to how Microsoft Word renders it. Aspose.Words now supports all wrapping types when rendering to fixed page formats.
 
-![todo:image_alt_text](public-api-changes-in-aspose-words-11-11-0_1.jpg)
+![public-api-changes-in-aspose-words-11-11-0_1](public-api-changes-in-aspose-words-11-11-0_1.jpg)
 
 ### Widths Preserved for Merged Cells when Exporting to HTML
 

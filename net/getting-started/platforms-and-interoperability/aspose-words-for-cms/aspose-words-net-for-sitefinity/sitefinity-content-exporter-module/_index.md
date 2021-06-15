@@ -116,9 +116,7 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
       Export online content into Microsoft Word or PDF document using Aspose.Words
    1. You may leave all other fields as they are.
 1. When finished, click **Save changes**.
-   The widget is registered in the toolbox and can be used in Sitefinity. The settings are also shown in the picture below 
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/05/Registering-Aspose-Sitefinity-Content-Export-Add-on-in-Sitefinity.png)
+   The widget is registered in the toolbox and can be used in Sitefinity.
 
 ### Using and Video Demo
 
@@ -129,10 +127,6 @@ After you have installed and configured the Aspose Sitefinity Content Export add
 1. Make sure you are logged-in to Sitefinity with an Administrator level account.
 1. Navigate to the page where you want to add the Export add-on. Make sure the page is opened in edit mode.
 1. From the **Drag Widgets** menu on the right, select Aspose Content Export and drag it into position.
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/05/using-Sitefinity-content-export-addon.png)
-
-
 
 You have successfully added Aspose Sitefinity Content Export to your page. Two buttons, **Export to Word** and **Export to Pdf**, now appear on the page. Anyone can simply click a buttons and export the content of the page into a Microsoft Word or PDF document.
 

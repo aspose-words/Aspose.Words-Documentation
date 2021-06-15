@@ -43,21 +43,21 @@ The diagrams below outline the old API members and their corresponding new API m
 
 **Document Constructors, Load and Save Members** 
 
-![todo:image_alt_text](how-to-migrate-to-aspose-words-9-2-or-higher_1.png)
+![how-to-migrate-to-aspose-words-9-2-or-higher_1](how-to-migrate-to-aspose-words-9-2-or-higher_1.png)
 
 
 
 
-![todo:image_alt_text](how-to-migrate-to-aspose-words-9-2-or-higher_2.png)
+![how-to-migrate-to-aspose-words-9-2-or-higher_2](how-to-migrate-to-aspose-words-9-2-or-higher_2.png)
 
 **Events, Delegates and Argument Members** 
 
-![todo:image_alt_text](how-to-migrate-to-aspose-words-9-2-or-higher_3.png)
+![how-to-migrate-to-aspose-words-9-2-or-higher_3](how-to-migrate-to-aspose-words-9-2-or-higher_3.png)
 
 
 
 
-![todo:image_alt_text](how-to-migrate-to-aspose-words-9-2-or-higher_4.png)
+![how-to-migrate-to-aspose-words-9-2-or-higher_4](how-to-migrate-to-aspose-words-9-2-or-higher_4.png)
 
 #### Code Examples
 
@@ -291,7 +291,7 @@ docStream.Seek(0, SeekOrigin.Begin);
 // Render the third page only and set the jpeg quality to 80%
 
 // In this case we need to pass the desired SaveFormat to the ImageSaveOptions constructor
- 
+
 // to signal what type of image to save as.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 imageOptions.PageIndex = 2;
@@ -397,7 +397,7 @@ public void InsertDocumentAtMailMerge()
 
     // Add a handler to MergeField event
     mainDoc.MailMerge.FieldMergingCallback = new InsertDocumentAtMailMergeHandler();
-
+    
     // The main document has a merge field in it called "Document_1".
     // The corresponding data for this field contains fully qualified path to the document
     // that should be inserted to this field.
@@ -423,14 +423,14 @@ private class InsertDocumentAtMailMergeHandler : IFieldMergingCallback
 
             // The name of the document to load and insert is stored in the field value.
             Document subDoc = new Document((string)e.FieldValue);
-
+    
             // Insert the document.
             InsertDocument(builder.CurrentParagraph, subDoc);
-
+    
             // The paragraph that contained the merge field might be empty now and you probably want to delete it.
             if (!builder.CurrentParagraph.HasChildNodes)
                 builder.CurrentParagraph.Remove();
-
+    
             // Indicate to the mail merge engine that we have inserted what we wanted.
             e.Text = null;
         }
@@ -556,7 +556,7 @@ public void SaveHtmlExportFonts()
     // Set the option to export font resources.
     HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Mhtml);
     options.ExportFontResources = true;
-
+    
     // Create and pass the object which implements the handler methods.
     options.FontSavingCallback = new HandleFontSaving();
     doc.Save(MyDir + "Document.SaveWithFontsExport Out.html", options);
@@ -659,11 +659,11 @@ public void TestNodeChangingInDocument()
 
     // Set up and pass the object which implements the handler methods.
     doc.NodeChangingCallback = new HandleNodeChanging_FontChanger();
-
+    
     // Insert sample HTML content
     builder.InsertHtml("<p>Hello World</p>");
     doc.Save(MyDir + "Document.FontChanger Out.doc");
-
+    
     // Check that the inserted content has the correct formatting
     Run run = (Run)doc.GetChild(NodeType.Run, 0, true);
     Assert.AreEqual(24.0, run.Font.Size);

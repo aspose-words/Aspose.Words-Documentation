@@ -12,7 +12,7 @@ Aspose.Words provides two solutions for automatic filling template documents wit
 
 As well as the most of Aspose.Words features, Mail Merge mimics the Microsoft Word feature with the same name. Therefore, a typical mail merge template consists of common document content, merge fields to be replaced with data, and fields of other types supported by Microsoft Word defining additional logic for building a result document. For example, a mail merge template for an order could look as follows.
 
-<img src="mail-merge-features.jpg" alt="mail-merge-features" style="width:850px"/>
+<img src="mail-merge-features.jpg" alt="mail-merge-features-aspose-words-net" style="width:850px"/>
 
 Key features provided by Mail Merge are as follows:
 
@@ -29,7 +29,7 @@ Overall, Mail Merge is a good way to go if you are never going to use features b
 
 In contrast to Mail Merge, the concept of LINQ Reporting Engine was born within Aspose.Words and is not tied with any Microsoft Word legacy. The engine uses its own [template syntax](https://docs.aspose.com/words/net/template-syntax/) based on plain-text tags, which can be one of the reasons to switch to its usage if working with Microsoft Word fields is too complex for you or your users creating templates. For example, an alternative LINQ Reporting Engine template for an order looks as follows.
 
-<img src="linq-features.jpg" alt="linq-features" style="width:850px"/>
+<img src="linq-features.jpg" alt="linq-features-aspose-words-net" style="width:850px"/>
 
 However, the major advantage of the engine is its out-of-the-box support of many features missing in Mail Merge. The following are the key ones:
 

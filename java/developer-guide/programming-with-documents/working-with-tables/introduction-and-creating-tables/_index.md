@@ -12,11 +12,11 @@ Tables are a common element found in word documents. They allow for large amount
 
 You can lay out content which is to be kept in a fixed position by using a borderless table. While you would normally have plain text in a table, you can also put other content in cells, such as images or even other tables. This is a common example of a table found in a Microsoft Word document:
 
-![todo:image_alt_text](tables-overview_1.png)
+![tables-overview-aspose-words-java-1](tables-overview_1.png)
 
 A table is comprised of elements such as **Cell**, **Row** and **Column**. These are concepts which are common to all tables in general whether they come from a Microsoft Word document or an HTML document.
 
-![todo:image_alt_text](tables-overview_2.png)
+![tables-overview-aspose-words-java-2](tables-overview_2.png)
 
 Tables in Aspose.Words are fully supported. You are able to freely edit, change, add and remove tables. Rendering of tables with high fidelity is also supported.
 
@@ -38,11 +38,11 @@ To insert a table in Microsoft Word 2007 and later:
 1. Choose the Tables drop down menu.
 1. Select Insert Table. 
 
-![todo:image_alt_text](tables-overview_3.png)
+![tables-overview-aspose-words-java-3](tables-overview_3.png)
 
 1. Fill in the appropriate values and press Ok to insert the table. 
 
-![todo:image_alt_text](tables-overview_4.png)
+![tables-overview-aspose-words-java-4](tables-overview_4.png)
 
 ### Removing a Table or Table Elements in Microsoft Word
 
@@ -60,7 +60,7 @@ To remove a table or individual table elements in Microsoft Word 2007 and later:
 1. Click the Delete drop down menu.
 1. Choose the menu item of the element you want to delete. For instance choosing Delete Table will remove the entire table from the document. 
 
-![todo:image_alt_text](tables-overview_5.png)
+![tables-overview-aspose-words-java-5](tables-overview_5.png)
 
 Merging Cells in a Table in Microsoft Word
 
@@ -68,7 +68,7 @@ Merging Cells in a Table in Microsoft Word
 1. Right click on the selection.
 1. Select Merge Cells from the popup menu. 
 
-![todo:image_alt_text](tables-overview_6.png)
+![tables-overview-aspose-words-java-6](tables-overview_6.png)
 
 ### Using the AutoFit feature in Microsoft Word
 
@@ -77,11 +77,11 @@ To use the AutoFit feature to automatically size a table in Microsoft Word:
 1. Right click anywhere inside the desired table.
 1. Select AutoFit from the popup menu. 
 
-![todo:image_alt_text](tables-overview_7.png)
+![tables-overview-aspose-words-java-7](tables-overview_7.png)
 
 1. Select the desired autofit option 
 
-![todo:image_alt_text](tables-overview_8.png)
+![tables-overview-aspose-words-java-8](tables-overview_8.png)
 
 1. AutoFit to Contents fits the table around content.
 1. AutoFit to Window resizes the table so it fills the available page width between the left and right margins.
@@ -133,15 +133,15 @@ In Aspose.Words a table is normally inserted using DocumentBuilder. The followin
 
 |Operation|Description|Table State|
 | :- | :- | :- |
-|**DocumentBuilder.StartTable**|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![todo:image_alt_text](introduction-and-creating-tables_1.png)|
-|**DocumentBuilder.InsertCell**|Inserts a new row and cell into the table.|![todo:image_alt_text](introduction-and-creating-tables_2.png)|
-|**DocumentBuilder.Writeln**|Writes some text into the current cell.|![todo:image_alt_text](introduction-and-creating-tables_3.png)|
-|**DocumentBuilder.InsertCell**|Appends a new cell at the end of the current row.|![todo:image_alt_text](introduction-and-creating-tables_4.png)|
-|**DocumentBuilder.Writeln**|Writes some text into the current cell (now the second cell).|![todo:image_alt_text](introduction-and-creating-tables_5.png)|
-|**DocumentBuilder.EndRow**|Instructs the builder to end the current row and to begin a new row with the next call to **DocumentBuilder.InsertCell** .|![todo:image_alt_text](introduction-and-creating-tables_6.png)|
-|**DocumentBuilder.InsertCell**|Creates a new row and inserts a new cell.|![todo:image_alt_text](introduction-and-creating-tables_7.png)|
-|**DocumentBuilder.Writeln**|Inserts some text into the first cell of the second row.|![todo:image_alt_text](introduction-and-creating-tables_8.png)|
-|**DocumentBuilder.EndTable**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![todo:image_alt_text](introduction-and-creating-tables_9.png)|
+|**DocumentBuilder.StartTable**|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![create-tables-aspose-words-java](introduction-and-creating-tables_1.png)|
+|**DocumentBuilder.InsertCell**|Inserts a new row and cell into the table.|![insert-cell-aspose-words-java](introduction-and-creating-tables_2.png)|
+|**DocumentBuilder.Writeln**|Writes some text into the current cell.|![write-text-into-tablescell-aspose-words-java](introduction-and-creating-tables_3.png)|
+|**DocumentBuilder.InsertCell**|Appends a new cell at the end of the current row.|![append-cell-aspose-words-java](introduction-and-creating-tables_4.png)|
+|**DocumentBuilder.Writeln**|Writes some text into the current cell (now the second cell).|![write-text-into-cell-aspose-words-java](introduction-and-creating-tables_5.png)|
+|**DocumentBuilder.EndRow**|Instructs the builder to end the current row and to begin a new row with the next call to **DocumentBuilder.InsertCell** .|![insert-cell-aspose-words-java](introduction-and-creating-tables_6.png)|
+|**DocumentBuilder.InsertCell**|Creates a new row and inserts a new cell.|![create-row-aspose-words-java](introduction-and-creating-tables_7.png)|
+|**DocumentBuilder.Writeln**|Inserts some text into the first cell of the second row.|![insert-text-aspose-words-java](introduction-and-creating-tables_8.png)|
+|**DocumentBuilder.EndTable**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![finish-creating-table-aspose-words-java](introduction-and-creating-tables_9.png)|
 
 ### Algorithm for Creating a Table
 

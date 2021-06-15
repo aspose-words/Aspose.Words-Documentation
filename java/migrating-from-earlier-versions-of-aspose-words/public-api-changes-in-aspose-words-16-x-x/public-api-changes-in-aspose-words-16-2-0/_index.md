@@ -143,7 +143,7 @@ public boolean getIsFormatRevision()
 
 WORDSNET-12918 has been resolved. Starting from 16.2.0 version, Aspose.Words starts supporting Alt Text Title.
 
-![todo:image_alt_text](public-api-changes-in-aspose-words-16-2-0_2.png)
+![public-api-changes-in-aspose-words-16-2-0](public-api-changes-in-aspose-words-16-2-0_2.png)
 
 
 In case of older format conversion MS Word formats following string "Title: titleText - Description: descText", if there is no description "Title: titleText", if there is no title then just "descText". Aspose.Words does the same now. And you can also get/set shape title like this: 

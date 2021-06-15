@@ -18,7 +18,7 @@ A Word document consists of one or more sections, represented by the [Section](h
 
 [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) and [Section](http://www.aspose.com/api/words/cpp/class/aspose.words.section) level nodes have the structure as shown in the following diagram.
 
-<img src="document-and-section-level.png" alt="document-and-section-level" style="width:700px"/>
+<img src="document-and-section-level.png" alt="document-and-section-level-aspose-words-cpp" style="width:700px"/>
 
 A section contains the main text, as well as headers and footers for the first, even, and odd pages. These different “flows” of text are called *stories*.
 
@@ -50,7 +50,7 @@ Block-level nodes are represented by the following classes:
 
 The following diagram shows the block-level elements.
 
-<img src="block-level.png" alt="block-level" style="width:550px"/>
+<img src="block-level.png" alt="block-level-aspose-words-cpp" style="width:550px"/>
 
 ## Inline Logical Level
 
@@ -72,7 +72,7 @@ Inline-level elements are represented by the following classes:
 
 The following diagram shows the inline-level nodes structure.
 
-<img src="inline-level.png" alt="inline-level" style="width:785px"/>
+<img src="inline-level.png" alt="inline-level-aspose-words-cpp" style="width:785px"/>
 
 {{% alert color="primary" %}}
 
@@ -98,4 +98,4 @@ The table consists of nodes of rows and cells. Table elements are represented by
 
 The following diagram shows the node structures of the Table, Row, and Cell levels.
 
-<img src="table-row-cell.png" alt="table-row-cell" style="width:910px"/>
+<img src="table-row-cell.png" alt="table-row-cell-aspose-words-cpp" style="width:910px"/>

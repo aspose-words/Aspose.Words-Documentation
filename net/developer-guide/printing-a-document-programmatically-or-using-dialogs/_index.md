@@ -85,7 +85,7 @@ As in the previous section, Aspose.Words implements the **MultipagePrintDocumen
 
 The result of this code example is shown below:
 
-![todo:image_alt_text](print-a-document-programmatically-or-using-dialogs_1.png)
+![print-a-document-programmatically-or-using-dialogs-aspose-words-net](print-a-document-programmatically-or-using-dialogs_1.png)
 
 ## Hiding the Print Progress Dialog When Printing a Document
 

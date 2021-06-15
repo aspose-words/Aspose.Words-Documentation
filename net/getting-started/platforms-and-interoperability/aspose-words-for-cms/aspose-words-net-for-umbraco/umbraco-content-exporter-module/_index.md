@@ -7,19 +7,11 @@ url: /net/umbraco-content-exporter-module/
 
 ## Export to Word
 
-Umbraco’s Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds. 
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/01/Export-to-word.png)
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/01/Export-to-word-generated-output.png)
+Umbraco’s Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds.
 
 ## Export to PDF
 
-The Umbraco **Export to Pdf** macro allows users to export online content to a PDF document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This macro makes it very easy and simple to have an offline copy of your favorite online content for sharing and printing etc. in the popular PDF format. It adds a simple **Export to Pdf** button at any desired location on the page and clicking it exports the content of the page to a PDF document and automatically downloads the file to the location selected by the user in just couple of seconds. 
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/01/Export-to-pdf1.png)
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/01/Export-to-pdf-generated-output1.png)
+The Umbraco **Export to Pdf** macro allows users to export online content to a PDF document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This macro makes it very easy and simple to have an offline copy of your favorite online content for sharing and printing etc. in the popular PDF format. It adds a simple **Export to Pdf** button at any desired location on the page and clicking it exports the content of the page to a PDF document and automatically downloads the file to the location selected by the user in just couple of seconds.
 
 ## System Requirements and Supported Platforms
 
@@ -78,8 +70,6 @@ After you have installed the Export to Word macro it is really simple to start u
 1. From **Choose a macro**, select the recently installed Export to Word using Aspose.Words macro and click **OK**.
    Please check the screenshot below for details.
 
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/01/how-to-use-export-to-word-macro.png)
-
 You have successfully added Export to Word to the template. A button titled **Export to Word** will now appear on all pages created using this template. Anyone can simply click the button and export the content of the page into a Word document.
 
 ### Using the Export to Pdf Macro
@@ -93,8 +83,6 @@ After you have installed the Export to Pdf macro it is really simple to start us
 1. Click **Insert Macro** on the top ribbon.
 1. From **Choose a macro**, select the recently installed Export to Pdf using Aspose.Words macro and click **OK**.
    Please check the screenshot below for details.
-
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/01/how-to-use-export-to-pdf-macro.png)
 
 You have successfully added Export to Pdf to the template. A button titled **Export to Pdf** now appears on all pages created using this template. Anyone can simply click the button and export the content of the page into a PDF document.
 

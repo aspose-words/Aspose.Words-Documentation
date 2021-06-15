@@ -1,7 +1,7 @@
 ---
 title: Code Comparison for common features with OpenXML
 type: docs
-weight: 10
+weight: 50
 url: /net/code-comparison-for-common-features-with-openxml/
 ---
 

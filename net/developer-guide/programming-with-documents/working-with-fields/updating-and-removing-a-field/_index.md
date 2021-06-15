@@ -96,11 +96,11 @@ This is often required when you wish to save your document as a static copy, for
 
 For example, the diagram below shows how an “IF” field is stored in a document. The text is encompassed by the special field nodes [FieldStart](http://www.aspose.com/api/net/words/aspose.words.fields/fieldstart) and [FieldEnd](http://www.aspose.com/api/net/words/aspose.words.fields/fieldend). The [FieldSeparator](http://www.aspose.com/api/net/words/aspose.words.fields/fieldseparator) node separates the text inside the field into the field code and field result. The field code is what defines the general behavior of the field while the field result stores the most recent result when this field is updated by either by Microsoft Word or Aspose.Words. The field result is what is stored in the field and displayed in the document when viewed. 
 
-![todo:image_alt_text](updating-and-removing-a-field_1.png)
+![update-remove-a-field-aspose-words](updating-and-removing-a-field_1.png)
 
 The structure can also be seen below in hierarchical form using the [demo project *“DocumentExplorer”*](https://github.com/aspose-words/Aspose.Words-for-.NET)*.*
 
-![todo:image_alt_text](updating-and-removing-a-field_2.png)
+![update-remove-a-field-aspose-words-2](updating-and-removing-a-field_2.png)
 
 Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across multiple pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
 

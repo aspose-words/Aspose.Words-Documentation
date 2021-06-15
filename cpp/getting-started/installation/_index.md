@@ -16,7 +16,7 @@ NuGet is the easiest way to download and install [Aspose.Words for C++](https://
 
 1. Open *Microsoft Visual Studio* and *Manage NuGet Packages* from the menu to open package manager
 2. Search for "aspose" or "aspose.words" to find the desired Aspose API<br>
-   <img src="aspose-words-nuget.PNG" alt="aspose-words-nuget" style="width:800px"/>
+   <img src="aspose-words-nuget.PNG" alt="aspose-words-cpp-nuget" style="width:800px"/>
 3. Select the desired Aspose API and click "Install"
 
 The selected API will be downloaded and referenced in your project.

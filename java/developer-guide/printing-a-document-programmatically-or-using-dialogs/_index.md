@@ -31,4 +31,4 @@ You can download an example of using the **MultipagePrintDocument** class from [
 
 The result of this code example is shown below:
 
-![print_several_pages_on_one_sheet](print_several_pages_on_one_sheet.png)
+![print_several_pages_on_one_sheet_aspose_words_java](print_several_pages_on_one_sheet.png)

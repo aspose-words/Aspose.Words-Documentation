@@ -21,7 +21,7 @@ This initial version of the control provides the following features:
 - Option to add custom heading on top of the exported document
 - Option to save each exported document on server at configurable disk path.
 
-![todo:image_alt_text](visual-studio-export-repeater-to-word-control_1.png)
+![visual-studio-export-repeater-to-word-control-aspose-words-net](visual-studio-export-repeater-to-word-control_1.png)
 
 This control allows you to export Repeater in the following different file formats.
 

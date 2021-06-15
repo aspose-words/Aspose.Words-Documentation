@@ -34,7 +34,7 @@ Aspose.Words software can be considered more secure compared to Open XML SDK as 
 
 ### Stability
 
-Aspose components are thoroughly tested.Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
+Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
 
 ### Scalability and Minimal Learning Curve
 

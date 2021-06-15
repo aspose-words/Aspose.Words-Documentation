@@ -54,7 +54,7 @@ The code example below shows how to export bookmarks from the first header/foote
 
 The output PDF of this example is shown below:
 
-![todo:image_alt_text](specify-rendering-options-when-converting-to-pdf_1.png)
+![specify-rendering-options-aspose-words-cpp-1](specify-rendering-options-when-converting-to-pdf_1.png)
 
 When **HeaderFooterBookmarksExportMode** is set to First and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
@@ -66,7 +66,7 @@ The code example below shows how to export headings with three levels:
 
 The output PDF of this example is depicted below:
 
-![todo:image_alt_text](specify-rendering-options-when-converting-to-pdf_2.png)
+![specify-rendering-options-aspose-words-cpp-2](specify-rendering-options-when-converting-to-pdf_2.png)
 
 {{% alert color="primary" %}} 
 

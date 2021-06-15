@@ -97,7 +97,7 @@ A table-row data band is a data band which body occupies single or multiple rows
 
 The following examples in this section are given using `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
-![todo:image_alt_text](manager-contract-client.png)
+![table-row-data-bands-aspose-words-net](manager-contract-client.png)
 
 The most common use case of a table-row data band is the building of a document table that represents a list of items. You can use a template like the following one to achieve this.
 
@@ -251,11 +251,11 @@ Consider the following example. Assume that you have the `Manager` and `Contract
 
 Given that `managers` is an enumeration of `Manager` instances, you can use the following template to represent total contract prices achieved by managers in a column chart.
 
-![todo:image_alt_text](graph-1.png)
+![charts-to-represent-data-aspose-words-net](graph-1.png)
 
 In this case, the engine produces a report as follows.
 
-![todo:image_alt_text](graph-2.png)
+![charts-result-aspose-words-net](graph-2.png)
 
 For more examples of templates for typical scenarios involving charts, see “Appendix C. Typical Templates”.
 
@@ -274,15 +274,15 @@ During runtime, series with `removeif` tags, for which conditional expressions r
 
 Consider the following example. Given the previous definition of `managers` and that `accessLevel` is an integer value representing an access level of a user, you can use the following chart template to make numbers of contracts be available for all users whereas financial contract data be available only for users having an access level of zero.
 
-![todo:image_alt_text](graph-3.png)
+![chart-series-dynamically-aspose-words-net-1](graph-3.png)
 
 If `accessLevel` is equal to zero, the engine produces a report as follows.
 
-![todo:image_alt_text](graph-4.png)
+![chart-series-dynamically-aspose-words-net-2](graph-4.png)
 
 If `accessLevel` is not equal to zero, the engine produces a report as follows.
 
-![todo:image_alt_text](graph-5.png)
+![chart-series-dynamically-aspose-words-net-3](graph-5.png)
 
 ### Setting Chart Series Colors Dynamically
 
@@ -302,11 +302,11 @@ During runtime, expressions declared within `seriesColor` tags are evaluated and
 
 Consider the following example. Given the previous definition of `managers` and that `color1` and `color2` are color values of supported types, you can use the following chart template to set its series colors dynamically.
 
-![todo:image_alt_text](graph-6.png)
+![chart-series-colors-dynamically-aspose-words-net-1](graph-6.png)
 
 In this case, the engine produces a report as follows.
 
-![todo:image_alt_text](graph-7.png)
+![chart-series-colors-dynamically-aspose-words-net-2](graph-7.png)
 
 ### Setting Chart Series Point Colors Dynamically
 
@@ -337,15 +337,15 @@ Consider the following example. Assume that you have the `ColoredItem` class def
 
 Given that `items` is an enumeration of `ColoredItem` instances, you can use the following chart template to set its series point colors dynamically.
 
-![todo:image_alt_text](pi-graph.png)
+![chart-series-point-colors-dynamically-aspose-words-net-1](pi-graph.png)
 
 The series name for the template chart is defined as follows.
 
-![todo:image_alt_text](sheet-1.png)
+![chart-series-point-colors-dynamically-data-aspose-words-net](sheet-1.png)
 
 In this case, the engine produces a report as follows.
 
-![todo:image_alt_text](pi-graph-2.png)
+![chart-series-point-colors-dynamically-aspose-words-net-2](pi-graph-2.png)
 
 ### Setting Chart Title, Series Names, and Axis Titles Dynamically
 
@@ -353,11 +353,11 @@ You can normally use common expression tags in chart titles, series names, and a
 
 Given that `chartTitle`, `seriesName`, and `axisName` are strings taking values “Chart Title”, “Series Name”, and “Axis Title” respectively, you can use the following chart template to set the chart’s title, series name, and axis title dynamically.
 
-![todo:image_alt_text](graph-8.png)
+![charts-series-title-name-text-dynamically-aspose-words-net-1](graph-8.png)
 
 In this case, the engine produces a report as follows.
 
-![todo:image_alt_text](graph-9.png)
+![charts-series-title-name-text-dynamically-aspose-words-net-2](graph-9.png)
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 

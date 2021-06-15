@@ -59,7 +59,7 @@ protected void onCreate(Bundle savedInstanceState)
 
     // load AW manually
     AsposeWordsApplication awapp = new AsposeWordsApplication();
-
+    
     // this context AW uses to find assets/ folder which contains the second part of the library.
     awapp.loadLibs(getApplicationContext()); 
     if (!checkIfAWSetUpCorrectly())
@@ -101,7 +101,7 @@ To use Aspose.Words for Android via Java in test projects, the same approach c
 
 In IDE it might be necessary to indicate AsposeWordsTestRunner in the configuration window as follows:
 
-![todo:image_alt_text](install-aspose-words-for-android-via-java_1.png)
+![install-aspose-words-for-android-via-java-1](install-aspose-words-for-android-via-java_1.png)
 
 - Or to initiate the load of .apk using the getTargetContext() method.
 
@@ -118,7 +118,7 @@ public void onStart() {
 
 1. Download the newest version of [Aspose.Words for Android via Java](https://repository.aspose.com/repo/com/aspose/aspose-words/)
 1. Copy aspose-words-18.3-android.via.java.jar into your project’s *libs/*folder
-![todo:image_alt_text](install-aspose-words-for-android-via-java_2.jpg)
+![install-aspose-words-for-android-via-java-2](install-aspose-words-for-android-via-java_2.jpg)
 
 ### Install Aspose.Words for Android via Java from Maven Repository
 
@@ -147,21 +147,21 @@ This article gives you an idea of getting started with Aspose.Words for Android 
 1. Download and the [Android Studio](https://developer.android.com/studio/index.html) and install it to any location.
 1. Run the Android Studio.
 1. Create a new Android Application Project.<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_3.jpg)<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_4.png)<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_5.jpg)<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_6.jpg)<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_7.jpg)<br>
+![install-aspose-words-for-android-via-java-3](install-aspose-words-for-android-via-java_3.jpg)<br>
+![install-aspose-words-for-android-via-java-4](install-aspose-words-for-android-via-java_4.png)<br>
+![install-aspose-words-for-android-via-java-5](install-aspose-words-for-android-via-java_5.jpg)<br>
+![install-aspose-words-for-android-via-java-6](install-aspose-words-for-android-via-java_6.jpg)<br>
+![install-aspose-words-for-android-via-java-7](install-aspose-words-for-android-via-java_7.jpg)<br>
 1. Copy aspose-words-17.5-android.via.java.jar into your project’s libs/folder<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_8.jpg)
+![install-aspose-words-for-android-via-java-8](install-aspose-words-for-android-via-java_8.jpg)
 1. Select Project Section (from the file menu and click on the Dependencies tab.
    1. Click on the "+" button, select the file dependency option.
    1. Select Aspose.Words library from libs folder and click on OK.<br>
-   ![todo:image_alt_text](install-aspose-words-for-android-via-java_9.png)
+   ![install-aspose-words-for-android-via-java-9](install-aspose-words-for-android-via-java_9.png)
 1. Sync the project with Gradle files if needed<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_10.png)
+![install-aspose-words-for-android-via-java-10](install-aspose-words-for-android-via-java_10.png)
 1. In order to access the SDcard special permissions must be added. Click on the AndroidManifest.xml file and choose the XML view. Add the following line to the file <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_11.jpg)
+![install-aspose-words-for-android-via-java-11](install-aspose-words-for-android-via-java_11.jpg)
 1. Navigate back to the code section of the app and add the following imports:<br>
 {{< highlight csharp >}}
 import java.io.File;
@@ -186,14 +186,14 @@ catch (Exception e)
 }
 {{< /highlight >}}<br>
 The full code should look like this:<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_12.png)
+![install-aspose-words-for-android-via-java-12](install-aspose-words-for-android-via-java_12.png)
 1. Now run the application again. This time the Aspose.Words code will run in the background and generate a document that is saved to the SDcard.<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_13.jpg)
+![install-aspose-words-for-android-via-java-13](install-aspose-words-for-android-via-java_13.jpg)
 1. To view the created document navigate to the Tools menu then choose Android and choose Android Device Monitor<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_14.jpg)<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_15.jpg)
+![install-aspose-words-for-android-via-java-14](install-aspose-words-for-android-via-java_14.jpg)<br>
+![install-aspose-words-for-android-via-java-15](install-aspose-words-for-android-via-java_15.jpg)
 1. Use the default viewer to open the document. The output generated by the app with just a few lines of code looks like this:<br>
-![todo:image_alt_text](install-aspose-words-for-android-via-java_16.jpg)
+![install-aspose-words-for-android-via-java-16](install-aspose-words-for-android-via-java_16.jpg)
 
 ## Versioning
 

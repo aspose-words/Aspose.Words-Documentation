@@ -13,7 +13,7 @@ In both Word documents and in the Aspose.Words Document Object Model, there is n
 - Vertically, the cells of each row can have different widths.
 - It is possible to join tables with differing row formats and cell counts. 
 
-![todo:image_alt_text](working-with-columns-and-rows_1.png)
+![work-with-columns-aspose-words-java](working-with-columns-and-rows_1.png)
 
 
 

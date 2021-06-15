@@ -15,7 +15,7 @@ You can download the complete source code of the SilverlightViewer sample [here]
 
 *Aspose.Words for .NET* is a document processing library by Aspose and provides document conversion to the XPS format. *Aspose.Words* supports all modern Word documents formats available today including Word 97-2003, Word 2007, WordML and OOXML. Conversion of OpenDocument (ODT), Rich Text Format (RTF) and HTML documents is supported as well. 
 
-![todo:image_alt_text](display-word-documents-in-silverlight_1.png)
+![display-word-documents-in-silverlight-aspose-words-net](display-word-documents-in-silverlight_1.png)
 
 ## Online Demo
 

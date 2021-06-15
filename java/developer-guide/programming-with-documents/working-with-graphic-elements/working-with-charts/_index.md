@@ -18,7 +18,7 @@ The new insertChart method was added into the [DocumentBuilder](https://apirefe
 
 The code produces the following result:
 
-|![todo:image_alt_text](http://i.imgur.com/nWkr86s.png)|
+|![column-chart-aspose-words-java-1](http://i.imgur.com/nWkr86s.png)|
 | :- |
 There are four different overloads for the series Add method, which were exposed to cover all possible variants of data sources for all chart types:
 
@@ -26,7 +26,7 @@ There are four different overloads for the series Add method, which were exposed
 
 The code produces the following result:
 
-|![todo:image_alt_text](http://i.imgur.com/U7ylb6t.png)|
+|![column-chart-aspose-words-java-2](http://i.imgur.com/U7ylb6t.png)|
 | :- |
 
 ### How to insert Scatter chart
@@ -35,7 +35,7 @@ The code produces the following result:
 
 The code produces the following result:
 
-|![todo:image_alt_text](http://i.imgur.com/35LAqIe.png)|
+|![scutter-chart-aspose-words-java](http://i.imgur.com/35LAqIe.png)|
 | :- |
 
 ### How to insert Area chart
@@ -44,7 +44,7 @@ The code produces the following result:
 
 The code produces the following result:
 
-|![todo:image_alt_text](http://i.imgur.com/wUxVamC.png)|
+|![area-chart-aspose-words-java](http://i.imgur.com/wUxVamC.png)|
 | :- |
 
 ### How to insert Bubble chart
@@ -53,7 +53,7 @@ The code produces the following result:
 
 The code produces the following result:
 
-|![todo:image_alt_text](http://i.imgur.com/fZTtwpH.png)|
+|![bubble-chart-aspose-words-java](http://i.imgur.com/fZTtwpH.png)|
 | :- |
 
 ## Working with Charts through Shape.Chart Object
@@ -64,7 +64,7 @@ Once the chart was inserted and filled with data, you are able to change its app
 
 The code generates the followings results:
 
-![todo:image_alt_text](working-with-charts_1.png)
+![line-chart-aspose-words-java-1](working-with-charts_1.png)
 
 ## How to Work with ChartSeriesCollection of Chart
 
@@ -82,13 +82,13 @@ Here is how to work with a particular series.
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-charts_2.png)
+![line-chart-aspose-words-java-2](working-with-charts_2.png)
 
 All single [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartSeries) have default [ChartDataPoint](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartDataPoint) options, please try using the following code to change them:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-ChangeDefaultChartDataPointOptions.java" >}}
 
-![todo:image_alt_text](working-with-charts_3.png)
+![line-chart-aspose-words-java3](working-with-charts_3.png)
 
 ## How to Work with Single ChartDataPoint of a ChartSeries
 
@@ -98,7 +98,7 @@ Using ChartDataPoint you are able to customize the formatting of a single data p
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-charts_4.png)
+![line-chart-aspose-words-java-4](working-with-charts_4.png)
 
 ## How to Work with ChartDataLabel of a Single ChartSeries
 
@@ -108,7 +108,7 @@ Using ChartDataLabel you are able to specify the formatting of a single data lab
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-charts_5.png)
+![bar-chart-aspose-words-java](working-with-charts_5.png)
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
@@ -118,7 +118,7 @@ The ChartDataLabelCollection class defines properties which can be used to set 
 
 Please see the result below:
 
-![todo:image_alt_text](working-with-charts_6.png)
+![pie-chart-aspose-words-java](working-with-charts_6.png)
 
 ## How to Format Number of Chart Data Label
 

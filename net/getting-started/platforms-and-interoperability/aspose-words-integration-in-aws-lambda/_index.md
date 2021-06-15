@@ -52,7 +52,7 @@ To see how Aspose.Words works in AWS Lambda, follow the steps below:
    {{< /highlight >}}
 
 4. Deploy the created function and run it either from Visual Studio or from Amazon Console. The following screenshot shows the output PDF document.
-   ![aspose-words-integration-in-aws-lambda](aspose-words-integration-in-aws-lambda-1.png)
+   <img src="aspose-words-integration-in-aws-lambda-1.png" alt="aspose-words-integration-in-aws-lambda" style="width:800px"/>
 
 You might notice two strange things:
 
@@ -254,7 +254,7 @@ To use fonts from the S3 storage, follow the steps below:
    {{< /highlight >}}
 
 3. As a result, you will receive the output PDF document created by the function, as shown in the screenshot below. Notice the image is displayed properly and the correct font is used.
-   ![aspose-words-integration-in-aws-lambda](aspose-words-integration-in-aws-lambda-2.png)
+   <img src="aspose-words-integration-in-aws-lambda-2.png" alt="aspose-words-integration-in-aws-lambda-2" style="width:800px"/>
 
 ## See Also
 
