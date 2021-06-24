@@ -156,6 +156,14 @@ Average age: 36
 
 However, if your scenario requires an internal object for a root XML element to be always generated while loading data to `XmlDataSource`, you can force this as shown in the following code snippet.
 
+{{< highlight csharp >}}
+XmlDataLoadOptions options = new XmlDataLoadOptions();
+options.setAlwaysGenerateRootObject(true);
+XmlDataSource dataSource = new XmlDataSource(..., options);
+{{< /highlight >}}
+
+The following example sums up typical scenarios involving nested complex-type XML elements.
+
 XML
 {{< highlight csharp >}}
 <Managers>
@@ -610,7 +618,7 @@ Using of `CsvDataSource` enables you to work with typed values rather than just 
 
 **Note –** For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
 
-In template documents, a `CsvDataSource` instance should be treated in the same way as if it was a `DataTable` instance (see “Working with DataTable Objects” for more information) as shown in the following example.
+In template documents, a `CsvDataSource` instance should be treated as a sequence of objects having corresponding fields as shown in the following example.
 
 CSV
 
@@ -690,7 +698,7 @@ Name: John Smith, Age: 51, Date of Birth: 08.03.1968
 Average age: 36
 {{< /highlight >}}
 
-Also, you can use CsvDataLoadOptions to customize the following characters playing special roles while loading CSV data:
+Also, you can use `CsvDataLoadOptions` to customize the following characters playing special roles while loading CSV data:
 
 - Value separator (the default is comma)
 - Single-line comment start (the default is sharp)

@@ -2,7 +2,8 @@
 title: Aspose.Words for C++ 21.6 Release Notes
 type: docs
 weight: 40
-url: /net/aspose-words-for-cpp-21-6-release-notes/
+url: /cpp/aspose-words-for-cpp-21-6-release-notes/
+aliases: [/net/aspose-words-for-cpp-21-6-release-notes/]
 ---
 
 {{% alert color="primary" %}} 

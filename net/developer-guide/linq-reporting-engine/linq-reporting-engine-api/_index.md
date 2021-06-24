@@ -433,7 +433,7 @@ However, if your scenario requires an internal object for a root JSON element to
 
 {{< highlight csharp >}}
 JsonDataLoadOptions options = new JsonDataLoadOptions();
-options.SimpleValueParseMode = JsonSimpleValueParseMode.STRICT;
+options.AlwaysGenerateRootObject = true;
 JsonDataSource dataSource = new JsonDataSource(..., options);
 {{< /highlight >}}
 
@@ -622,7 +622,7 @@ Using of `CsvDataSource` enables you to work with typed values rather than just 
 
 **Note –** For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
 
-In template documents, a `CsvDataSource` instance should be treated in the same way as if it was a DataTable instance (see “Working with DataTable and DataView Objects” for more information) as shown in the following example.
+In template documents, a`CsvDataSource` instance should be treated as a sequence of objects having corresponding fields as shown in the following example.
 
 CSV
 
@@ -637,7 +637,7 @@ Template document
 {{< highlight xml >}}
 <<foreach [in persons]>>Name: <<[Column1]>>, Age: <<[Column2]>>, Date of Birth: <<[Column3]:"dd.MM.yyyy">>
 <</foreach>>
-    
+
 Average age: <<[persons.Average(p => p.Column2)]>>
 {{< /highlight >}}
 
@@ -677,7 +677,7 @@ Template document
 {{< highlight xml >}}
 <<foreach [in persons]>>Name: <<[Name]>>, Age: <<[Age]>>, Date of Birth: <<[Birth]:"dd.MM.yyyy">>
 <</foreach>>
-    
+
 Average age: <<[persons.Average(p => p.Age)]>>
 {{< /highlight >}}
 
