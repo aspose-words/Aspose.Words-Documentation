@@ -8,6 +8,8 @@ url: /cpp/specify-layout-options/
 
 Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
 
+For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#a675c730b5e1aea7d8a04ba72dbf58e47) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#ac05ecf0417eab5300de5ae1f371f64ad) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) class page.
+
 ## Formatting Marks
 
 Aspose.Words allows to manage formatting marks using the following properties:
@@ -33,9 +35,11 @@ In Microsoft Word, this parameter is set using the "Track Changes Options" dialo
 
 Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#a215ac992ec983b4a7260283493fc737d) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.revision_options/) class.
 
-You can also have revisions displayed as comments to the content. For this purpose, use the [ShowInBalloons](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.revision_options/#aaa6f9d22f7a8749c9d43f19c68b2ff31) option, as shown in the following code example:
+You can also have revisions displayed as comments to the content. For this purpose, use the [CommentDisplayMode](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#a92a27e9967ab96ff2f77a5f95eec63cc) property and [ShowInBalloons](https://apireference.aspose.com/words/cpp/namespace/aspose.words.layout#a0dac57256ea711f08cf088514f19acb7) value.
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithRevisions-SetShowInBalloons.cpp" >}}
+The following code example shows how to customize revisions display:
+
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithRevisionOptions-SetShowInBalloons.cpp" >}}
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 

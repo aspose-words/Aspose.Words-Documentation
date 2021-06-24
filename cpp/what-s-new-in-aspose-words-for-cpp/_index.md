@@ -27,11 +27,33 @@ For more information on these changes, see the [Aspose.Words for C++ 21.3 Releas
 
 {{% /alert %}}
 
-## Aspose.Words for C++ 21.5
+## Aspose.Words for C++ 21.5, 21.6
 
 Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
 
+Aspose.Words 21.6 enhances formatting and filling options and also improves document display capabilities.
+
 The API is enhanced for more flexible and convenient development.
+
+### Rendering
+
+#### Setting Charts Fill and Stroke Formatting
+
+An ability to set fill and stroke formatting for chart series, data points, and markers has been implemented. Using the provided options, you can easily customize any of the charts as you wish.
+
+#### Control the Fill Texture of Any Object
+
+A new public method [PresetTextured](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill#a74152b001471731f5a6d5a30724258ac) has been added to the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
+
+#### Rendering of OOXML Ink
+
+Rendering of OOXML Ink (InkML subset) has been implemented. A new public property [ImlRenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#a4032bbd708177dd64e3ba455a509e470) and a new enumeration [ImlRenderingMode](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#a691fc0aab565731c98883e52fe55cc7b) have been added to control the mode of Ink rendering.
+
+Prior to this version, Aspose.Words could only render fallback shapes for OOXML Ink objects, i.e. InkML was not actually processed and a simple pre-rendered image was used instead. And now OOXML Ink content part can be rendered directly.
+
+#### Control the Maximum Number of Characters per Line
+
+A new public property [MaxCharactersPerLine](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.txt_save_options#a870121f70e98c000b036e9a5f8456ea6) has been introduced to control the maximum number of characters per line in the output document of TXT format.
 
 ### Mail Merge and Reporting
 
@@ -41,10 +63,13 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 
 - New methods [SetCheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#a9442102849b146594a697f01545b3eca) and [SetUncheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#a94069a23b2c358fa7d64eb092aebc826) have been added to set checked and unchecked symbols for your favorite structured document tags.
 - The equations created with EQ fields are now supported upon converting to all HTML-based formats.
+- A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#a675c730b5e1aea7d8a04ba72dbf58e47) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 21.5 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-5-release-notes/).
+
+Learn more about [Aspose.Words for C++ 21.6 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-6-release-notes/).
 
 {{% /alert %}}
 
