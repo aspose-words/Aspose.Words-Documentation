@@ -15,7 +15,7 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 - Rendering documents to PDF
 - Rendering documents to Image (This feature is included, however, we are still working on its improvement, so please note that it is in beta state)
 - Loading and saving HTML documents
-- Loading and saving EPUB documents
+- Saving EPUB documents
 - Loading and saving MHTML documents
 - Loading MOBI documents
 - Saving documents in XamlFlow and XamlFixed formats

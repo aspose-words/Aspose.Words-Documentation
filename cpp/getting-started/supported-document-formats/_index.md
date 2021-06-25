@@ -30,7 +30,7 @@ The following table indicates the file formats supported by Aspose.Words for C++
 |FlatOpcTemplateMacroEnabled|Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[RTF](https://docs.fileformat.com/word-processing/rtf/)|RTF format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |WordML|Microsoft Word 2003 WordprocessingML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[PDF](https://docs.fileformat.com/pdf/) |Saves the document as PDF (Adobe Portable [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/)) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[PDF](https://docs.fileformat.com/pdf/) |Saves the document as PDF (Adobe Portable [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/)) format.||{{< emoticons/tick >}}| |
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Saves the document in the XPS (XML Paper Specification) format.| |{{< emoticons/tick >}}| |
 |XamlFixed| Saves the document in the Extensible Application Markup Language (XAML) package format.| |{{< emoticons/tick >}}| |
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Saves the document in the SVG (Scalable Vector Graphics) format.| |{{< emoticons/tick >}}| |
