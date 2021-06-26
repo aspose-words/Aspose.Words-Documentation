@@ -42,13 +42,15 @@ builder.Writeln("This text will be Bold");{{< /highlight >}} ||
 |{{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
-// Make the text Italic.builder.Font.Italic = true;
+// Make the text Italic.
+builder.Font.Italic = true;
 builder.Writeln("This text will be Italic");{{< /highlight >}} ||
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
-// Make the text Strikethrough.builder.Font.Strikethrough = true;
+// Make the text Strikethrough.
+builder.Font.Strikethrough = true;
 builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
 
 We use a character style with a name that starts from the word `InlineCode`, followed by an optional dot `(.)` and a number of backticks ```(`)``` for the InlineCode feature. If a number of backticks is missed, then one backtick will be used by default.
@@ -69,11 +71,12 @@ Style inlineCode3BackTicks = doc.Style.Add(StyleType.Character, "InlineCode.3");
 builder.Font.Style = inlineCode3BackTicks;
 builder.Writeln("Text with InlineCode style with 3 backtick");{{< /highlight >}} ||
 | **Autolink**<br />`<scheme://domain.com>`<br />
-`<email@domain.com`> | The [FieldHyperlink](https://apireference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
+`<email@domain.com>` | The [FieldHyperlink](https://apireference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
-// Insert hyperlink.builder.InsertHyperlink("https://www.aspose.com", "https://www.aspose.com", false);
+// Insert hyperlink.
+builder.InsertHyperlink("https://www.aspose.com", "https://www.aspose.com", false);
 builder.InsertHyperlink("email@aspose.com", "mailto:email@aspose.com", false);{{< /highlight >}} ||
 | **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://apireference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
@@ -85,7 +88,8 @@ builder.InsertHyperlink("Aspose", "https://www.aspose.com", false);{{< /highligh
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
-// Insert image.Shape shape = new Shape(builder.Document, ShapeType.Image);
+// Insert image.
+Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = "/attachment/1456/pic001.png";
 shape.ImageData.Title = "title";
