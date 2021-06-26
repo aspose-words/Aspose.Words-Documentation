@@ -68,7 +68,8 @@ builder.Writeln("Text with InlineCode style with 1 backtick");
 Style inlineCode3BackTicks = doc.Style.Add(StyleType.Character, "InlineCode.3");
 builder.Font.Style = inlineCode3BackTicks;
 builder.Writeln("Text with InlineCode style with 3 backtick");{{< /highlight >}} ||
-| **Autolink**<br />`<scheme://domain.com><email@domain.com`> | The [FieldHyperlink](https://apireference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
+| **Autolink**<br />`<scheme://domain.com>`<br />
+`<email@domain.com`> | The [FieldHyperlink](https://apireference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
@@ -78,7 +79,8 @@ builder.InsertHyperlink("email@aspose.com", "mailto:email@aspose.com", false);{{
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
-// Insert hyperlink.builder.InsertHyperlink("Aspose", "https://www.aspose.com", false);{{< /highlight >}} ||
+// Insert hyperlink.
+builder.InsertHyperlink("Aspose", "https://www.aspose.com", false);{{< /highlight >}} ||
 | **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape) class. |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
