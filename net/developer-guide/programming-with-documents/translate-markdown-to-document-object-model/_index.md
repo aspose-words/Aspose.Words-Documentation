@@ -36,7 +36,8 @@ We use [Font](https://apireference.aspose.com/words/net/aspose.words/font) forma
 |{{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
-// Make the text Bold.builder.Font.Bold = true;
+// Make the text Bold.
+builder.Font.Bold = true;
 builder.Writeln("This text will be Bold");{{< /highlight >}} ||
 | **Italic**<br />`*italic text*` | `Font.Italic = true` |
 |{{< highlight csharp >}}// Use a document builder to add content to the document.
@@ -243,3 +244,8 @@ builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
 builder.Writeln("d");{{< /highlight >}} |                                                              |
+
+## See Also
+
+* ["Working with Markdown Features"](https://docs.aspose.com/words/net/working-with-markdown-features/)
+

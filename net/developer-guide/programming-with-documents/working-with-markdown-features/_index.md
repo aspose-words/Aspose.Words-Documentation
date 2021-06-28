@@ -1,5 +1,6 @@
 ---
 title: Working with Markdown Features
+description: "Learn how to implement Markdown features using Aspose.Words for .NET. All the features are represented as corresponding styles or direct formatting."
 type: docs
 weight: 210
 url: /net/working-with-markdown-features/
@@ -20,6 +21,12 @@ The Markdown feature implementation mostly follows the CommonMark specification
 - Quotes are paragraphs with "Quote" in the style name. 
 - HorizontalRule is a paragraph with HorizontalRule shape.
 
+{{% alert color="primary" %}}
+
+There are nuances of translating Markdown to the Aspose.Words Document Object Model (DOM), described in the article ["Translate Markdown to Document Object Model (DOM)"](https://docs.aspose.com/words/net/translate-markdown-to-document-object-model/).
+
+{{% /alert %}}
+
 ## Markdown Document with Emphases
 
 This section demonstrates you how to produce a markdown document with emphases as given below:
@@ -27,7 +34,7 @@ This section demonstrates you how to produce a markdown document with emphases a
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
 You can write **bold** or *italic* text. 
-You can also write ***BoldItalic***text.
+You can also write ***BoldItalic*** text.
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
@@ -40,13 +47,13 @@ This section demonstrates you how to produce a markdown document with headings a
 
 {{< highlight csharp >}}
 The following produces headings:
-\# Heading1
-\## Heading2
-\### Heading3
-\#### Heading4
-\##### Heading5
-\###### Heading6
-\# **Bold Heading1**
+# Heading1
+## Heading2
+### Heading3
+#### Heading4
+##### Heading5
+###### Heading6
+# **Bold Heading1**
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
@@ -59,15 +66,16 @@ This section demonstrates you how to produce a markdown document with block quot
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
-\>*Lorem*
-\>*ipsum*
-The quotes can be of any level and can be nested:
-\>>>Quote level 3
-\>>>>Nested quote level 4
-\>
-\>*Back to first level*
-\> ### Headings are allowed inside Quotes
-{{< /highlight >}}
+>*Lorem*
+>*ipsum*
+>The quotes can be of any level and can be nested:
+>>>Quote level 3
+>>>
+>>>>Nested quote level 4
+>
+>*Back to first level*
+>### Headings are allowed inside Quotes
+>{{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
 
@@ -79,7 +87,7 @@ This section demonstrates you how to produce a markdown document with Horizontal
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
-\-----
+-----
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
