@@ -39,9 +39,3 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 - No support for downloading remote resources from the Internet
 - Limited and unstable support for Rendering features
 - No support for Reporting features
-
-## Supported Platforms
-
-Aspose.Words for C++ supports the following platform:
-
-- Microsoft Visual C++ version 2015 or higher and only for the x64 platform
