@@ -1,7 +1,7 @@
 ---
 title: Protect or Encrypt a Document
 type: docs
-weight: 20
+weight: 21
 url: /java/protect-or-encrypt-a-document/
 ---
 
