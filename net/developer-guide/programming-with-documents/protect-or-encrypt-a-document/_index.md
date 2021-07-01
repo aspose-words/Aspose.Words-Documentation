@@ -1,7 +1,7 @@
 ---
 title: Protect or Encrypt a Document
 type: docs
-weight: 30
+weight: 35
 url: /net/protect-or-encrypt-a-document/
 ---
 

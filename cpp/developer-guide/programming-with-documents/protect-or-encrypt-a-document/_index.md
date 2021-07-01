@@ -1,7 +1,7 @@
 ---
 title: Protect or Encrypt a Document
 type: docs
-weight: 20
+weight: 22
 url: /cpp/protect-or-encrypt-a-document/
 ---
 
