@@ -130,7 +130,7 @@ Related issue: WORDSNET-22397
 A new public property IsDecorative has been added to ShapeBase class.
 {{< highlight csharp >}}
 /// <summary>
-/// Gets or sets the flag that specifies whether the shape is decorative in the document.
+/// Gets or sets the flag that specifies whether the shape is decorative.
 /// </summary>
 /// <remarks>
 /// Note that shape having not empty <see cref="ShapeBase.AlternativeText"/> cannot be decorative.
@@ -148,7 +148,7 @@ shape.IsDecorative = true;
 doc.Save("output.docx");
 {{< /highlight >}}
 
-### Added saving to PDFA-2
+### Implemented rendering to PDF/A-2 format
 
 New values added to PdfCompliance enum.
 {{< highlight csharp >}}
@@ -177,7 +177,7 @@ public enum PdfCompliance
 
 PDF/A-2 is based on PDF-1.7 format and removes significant limitation of PDF/A-1 like prohibited transparency and prohibited object compression.
 
-There are only PDF/A-2a and PDF/A-2u conformance levels and there are not PDF/A-2b because AW regular output already conforms to PDF/A-2u level which is more strict than PDF/A-2b.
+There are only PDF/A-2a and PDF/A-2u conformance levels and there are not PDF/A-2b because Aspose.Words regular output already conforms to PDF/A-2u level which is more strict than PDF/A-2b.
 
 Please note that PDF/A-2 standard adds two new requirements to the content of the document in addition to the requirements of PDF/A-1:
 1. Both PDF/A-2a and PDF/A-2u standards prohibits the usage of .notdef glyph
@@ -400,7 +400,9 @@ builder.InsertHtml(html, HtmlInsertOptions.UseBuilderFormatting);
 {{< /highlight >}}
 
 Use Case:
-When DocumentBuilder.InsertHtml inserts a HTML fragment that ends with a block-level HTML element (for example, a paragraph or a list), it normally closes that block-level element and inserts a paragraph break. As a result, a new empty paragraph appears after inserted document. This behavior may be undesired when HTML fragments are inserted into a template document. For example, consider the following mail merge scenario. The source
+When DocumentBuilder.InsertHtml inserts a HTML fragment that ends with a block-level HTML element (for example, a paragraph or a list), it normally closes that block-level element and inserts a paragraph break. 
+As a result, a new empty paragraph appears after inserted document. This behavior may be undesired when HTML fragments are inserted into a template document. 
+For example, consider the following mail merge scenario.
 {{< highlight csharp >}}
 // Default behavior.
 builder.MoveToMergeField("NAME");
@@ -475,9 +477,7 @@ A new public enum has been introduced:
 public enum PatternType
 {{< /highlight >}}
 
-Customers may now get and apply a pattern to a fill:
-
-Use Case:
+Use Case: Explains how to get and apply a pattern to a fill.
 {{< highlight csharp >}}
 // Open some document with a shape.
 Document doc = new Document("DocWithShape.docx");
