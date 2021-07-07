@@ -141,10 +141,10 @@ public bool IsDecorative { get; set; }
 Use Case: Explains how to use IsDecorative property.
 {{< highlight csharp >}}
 Document doc = new Document("input.docx");
- 
+
 Shape shape = doc.FirstSection.Body.Shapes[0];
 shape.IsDecorative = true;
- 
+
 doc.Save("output.docx");
 {{< /highlight >}}
 
@@ -175,7 +175,7 @@ public enum PdfCompliance
 }
 {{< /highlight >}}
 
-PDF/A-2 is based on PDF-1.7 format and removes significant limitation of PDF/A-1 like prohibited transparency and prohibited object compression.
+PDF/A-2 is based on PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
 
 There are only PDF/A-2a and PDF/A-2u conformance levels and there are not PDF/A-2b because Aspose.Words regular output already conforms to PDF/A-2u level which is more strict than PDF/A-2b.
 
@@ -200,7 +200,7 @@ public class PdfSaveOptions
         /// <para>This value is ignored when saving to PDF/A compliance because editable forms are prohibited.</para>
         /// </remarks>
         public bool PreserveFormFields;
- 
+
         /// <summary>
         /// Gets or sets a value determining the way <see cref="Document.CustomDocumentProperties"/> are exported to PDF file.
         /// </summary>
@@ -209,7 +209,7 @@ public class PdfSaveOptions
         /// <para><see cref="PdfCustomPropertiesExport.Metadata"/> value is not supported when saving to PDF/A.</para>
         /// </remarks>
         public PdfCustomPropertiesExport CustomPropertiesExport;
- 
+     
         /// <summary>
         /// Gets or sets a value determining whether hyperlinks in the output Pdf document
         /// are forced to be opened in a new window (or tab) of a browser.
@@ -218,7 +218,7 @@ public class PdfSaveOptions
         ...
         /// <para>Settings this value to <c>true</c> is not allowed when saving to PDF/A because JavaScript actions are prohibited.</para>
         /// </remarks>
- 
+     
         public bool OpenHyperlinksInNewWindow;
         /// <summary>
         /// Specifies how the color space will be selected for the images in PDF document.
@@ -228,7 +228,7 @@ public class PdfSaveOptions
         /// <para><see cref="PdfImageColorSpaceExportMode.SimpleCmyk"/> value is not supported when saving to PDF/A.</para>
         /// </remarks>
         public PdfImageColorSpaceExportMode ImageColorSpaceExportMode;
- 
+     
         /// <summary>
         /// A flag indicating whether image interpolation shall be performed by a conforming reader.
         /// When <c>false</c> is specified, the flag is not written to the output document and
@@ -257,7 +257,7 @@ namespace Aspose.Words
     public class Document
     {
         ...
- 
+
         /// <summary>
         /// Returns a <see cref="Frameset"/> instance if this document represents a frames page.
         /// </summary>
@@ -267,7 +267,7 @@ namespace Aspose.Words
         public Frameset Frameset { get; }
     }
 }
- 
+
 namespace Aspose.Words.Framesets
 {
     /// <summary>
@@ -283,19 +283,19 @@ namespace Aspose.Words.Framesets
         /// Gets or sets the web page URL or document file name to display in this frame.
         /// </summary>
         public string FrameDefaultUrl { get; set; }
- 
+
         /// <summary>
         /// Gets or sets a value indicating whether the web page or document file name specified in the
         /// <see cref="FrameDefaultUrl"/> property is an external resource the frame is linked with.
         /// </summary>
         public bool IsFrameLinkToFile { get; set; }
- 
+     
         /// <summary>
         /// Gets the collection of child frames and frames pages.
         /// </summary>
         public FramesetCollection ChildFramesets { get; }
     }
- 
+     
     /// <summary>
     /// Represents a collection of instances of the <see cref="Frameset"/> class.
     /// </summary>
@@ -305,7 +305,7 @@ namespace Aspose.Words.Framesets
         /// Gets the number of frames/frames pages contained in the collection.
         /// </summary>
         public int Count { get; }
- 
+     
         /// <summary>
         /// Gets a frame or frames page at the specified index.
         /// </summary>
@@ -317,10 +317,10 @@ namespace Aspose.Words.Framesets
 Use Case:
 {{< highlight csharp >}}
 Document doc = new Document("input.docx");
- 
+
 doc.Frameset.ChildFramesets[0].FrameDefaultUrl = "http://aspose.com";
 doc.Frameset.ChildFramesets[0].IsFrameLinkToFile = true;
- 
+
 doc.Save("output.docx");
 {{< /highlight >}}
 
@@ -353,7 +353,7 @@ public enum HtmlInsertOptions
     /// Use the default options when inserting HTML.
     /// </summary>
     None = 0,
- 
+
     /// <summary>
     /// Use font and paragraph formatting specified in <see cref="DocumentBuilder"/> as base formatting for text
     /// inserted from HTML.
@@ -369,7 +369,7 @@ public enum HtmlInsertOptions
     /// </para>
     /// </remarks>
     UseBuilderFormatting = 1,
- 
+     
     /// <summary>
     /// Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element.
     /// </summary>
@@ -389,11 +389,11 @@ The old DocumentBuilder.InsertHtml overloads are now aliases for the new overloa
 builder.InsertHtml(html);
 // Is equivalent to:
 builder.InsertHtml(html, HtmlInsertOptions.None);
- 
+
 builder.InsertHtml(html, false);
 // Is equivalent to:
 builder.InsertHtml(html, HtmlInsertOptions.None);
- 
+
 builder.InsertHtml(html, true);
 // Is equivalent to:
 builder.InsertHtml(html, HtmlInsertOptions.UseBuilderFormatting);
@@ -455,7 +455,7 @@ The following new public methods were added into the Fill class:
 /// <param name="patternType"><see cref="Drawing.PatternType"/></param>
 /// </summary>
 public void Patterned(PatternType patternType)
- 
+
 /// <summary>
 /// Sets the specified fill to a pattern.
 /// <param name="patternType"><see cref="Drawing.PatternType"/></param>
@@ -481,15 +481,15 @@ Use Case: Explains how to get and apply a pattern to a fill.
 {{< highlight csharp >}}
 // Open some document with a shape.
 Document doc = new Document("DocWithShape.docx");
- 
+
 // Get Fill object for the first shape.
 Fill fill = doc.FirstSection.Body.Shapes[0].Fill;
- 
+
 // Check Fill Pattern value.
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
- 
+
 // Apply DiagonalBrick pattern to the shape fill.
 fill.Patterned(PatternType.DiagonalBrick);
- 
+
 doc.Save("DiagonalBrick.docx");
 {{< /highlight >}}
