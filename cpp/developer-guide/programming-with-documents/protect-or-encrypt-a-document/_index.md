@@ -18,14 +18,20 @@ Aspose.Words currently provides the document features listed in the table below.
 
 | Aspose.Words protection feature | Corresponding child article    | Corresponding MS Word feature                                |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Read-Only                       | “Open a Document Read-Only”    | Always Open Read-Only (File → Info → Protect Document)       |
-| Encrypt a Document              | “Encrypt a Document”           | Encrypt with Password (File → Info → Protect Document)<br />Duplicate feature: "Password to open" (Save As → Tools → General Options → Password) |
-| Restrict Editing                | “Restrict Document Editing”    | Restrict Editing (File – Info – Protect Document)<br />Duplicate feature: "Password to modify" (Save As → Tools → General Options → Password) |
+| Read-Only                       | “Open a Document Read-Only”    | Always Open Read-Only (File → Info → Protect Document)<br />Alternative feature: "Password to modify" (Save As → Tools → General Options → Password) |
+| Encrypt a Document              | “Encrypt a Document”           | Encrypt with Password (File → Info → Protect Document)<br />Alternative feature: "Password to open" (Save As → Tools → General Options → Password) |
+| Restrict Editing                | “Restrict Document Editing”    | Restrict Editing (File – Info – Protect Document)<br />Alternative feature: "Restrict Editing" (Review → Protect → Restrict Editing) |
 | Digital Signatures              | “Work with Digital Signatures” | Add a Digital Signature (File → Info → Protect Document)     |
 
 {{% alert color="primary" %}}
 
 Note that Aspose.Words does not support both Microsoft Word features “Mark as Final” and “Restrict Access”.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+Note that the exact names of features and the paths to them in Microsoft Word may differ depending on the version, we try to provide users with the latest data.
 
 {{% /alert %}}
 
