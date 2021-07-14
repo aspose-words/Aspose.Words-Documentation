@@ -1,19 +1,19 @@
 ---
-title: Aspose.Words for .NET 21.7 Release Notes
+title: Aspose.Words for Java 21.7 Release Notes
 type: docs
-weight: 35
-url: /net/aspose-words-for-net-21-7-release-notes/
+weight: 6
+url: /java/aspose-words-for-java-21-7-release-notes/
 ---
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for .NET 21.7](https://www.nuget.org/packages/Aspose.Words/21.7.0).
+This page contains release notes for [Aspose.Words for Java 21.7](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/21.7).
 
 {{% /alert %}} 
 
 ## Major Features
 
-There are 93 improvements and fixes in this regular monthly release. The most notable are:
+There are 94 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented rendering to PDF/A-2 format.
 - Added an ability to work with Framesets.
@@ -47,6 +47,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-22397 | How to use "Mark as decorative" IsDecorative property | Enhancement |
 | WORDSNET-22255 | About Data Source Name in ReportingEngine.BuildReport Method | Enhancement |
 | WORDSNET-17726 | Notify user when he tries to load MOBI document but the document is AZW3 | Enhancement |
+| WORDSJAVA-2619 | Fix standard system colours in Java | Bug |
 | WORDSNET-21259 | Unwanted spaces are added after conversion from DOCX>HTML>DOCX | Bug |
 | WORDSNET-22312 | NullReferenceException when save attached document as PDF | Bug |
 | WORDSNET-22263 | ReportingEngine.BuildReport throws System.InvalidCastException | Bug |

@@ -27,11 +27,13 @@ For more information on these changes, see the [Aspose.Words for .NET 21.3 Relea
 
 {{% /alert %}}
 
-## Aspose.Words for .NET 21.5, 21.6
+## Aspose.Words for .NET 21.5, 21.6, 21.7
 
 Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
 
 Aspose.Words 21.6 enhances formatting and filling options and also improves document display capabilities.
+
+Aspose.Words 21.7 expands rendering and conversion options, as well as provides an ability to work with framesets.
 
 The API is enhanced for more flexible and convenient development.
 
@@ -55,6 +57,18 @@ Prior to this version, Aspose.Words could only render fallback shapes for OOXML 
 
 A new public property [MaxCharactersPerLine](https://apireference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/properties/maxcharactersperline) has been introduced to control the maximum number of characters per line in the output document of TXT format.
 
+#### Rendering to PDF/A-2
+
+Rendering to PDF/A-2 format has been implemented by adding new values to the [PdfCompliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) enumeration. PDF/A-2 is based on the PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
+
+#### Work with Patterns
+
+A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://apireference.aspose.com/words/net/aspose.words.drawing/fill/methods/patterned/index) method with two overloads and the [Pattern](https://apireference.aspose.com/words/net/aspose.words.drawing/fill/properties/pattern) property have been added to the [Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/fill) class and the [PatternType](https://apireference.aspose.com/words/net/aspose.words.drawing/patterntype) enumeration has been added to the [Drawing](https://apireference.aspose.com/words/net/aspose.words.drawing) namespace.
+
+### Conversion
+
+A new overload of the [InsertHtml](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/inserthtml/methods/1) method with extended options has been implemented to make this operation more flexible.
+
 ### Mail Merge and Reporting
 
 A new property [RestartListsAtEachSection](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/restartlistsateachsection) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
@@ -65,12 +79,15 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 * The equations created with EQ fields are now supported upon converting to all HTML-based formats.
 * Using Aspose.Words for .NET via COM Interop has been checked and the documentation has been modified according to the latest version of the VBScript engine.
 * A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
+* An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 21.5 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-5-release-notes/).
 
 Learn more about [Aspose.Words for .NET 21.6 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-6-release-notes/).
+
+Learn more about [Aspose.Words for .NET 21.7 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-7-release-notes/).
 
 {{% /alert %}}
 
