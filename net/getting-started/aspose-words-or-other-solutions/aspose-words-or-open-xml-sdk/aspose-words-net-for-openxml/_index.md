@@ -14,7 +14,7 @@ If you are a .NET developer looking for faster,easy and light-weight file format
 
 ## System Requirements and Supported Platforms
 
-### System Requirements
+### Development Environment
 
 One or more of the following editions of Visual Studio Tools for Office:
 
@@ -23,16 +23,16 @@ One or more of the following editions of Visual Studio Tools for Office:
 - Visual Studio 2008 Professional Edition
 - Visual Studio 2008 Team Suite Edition
 - One version of Microsoft Office:
-- Microsoft Office Professional 2003 SP1
-- 2007 Microsoft Office system
+  - Microsoft Office Professional 2003 SP1
+  - 2007 Microsoft Office system
 
 ### Supported Operating Systems
 
-Windows 2000; Windows Server 2003; Windows Vista; Windows XP
+You can find the information on supported operating systems in the "Supported Operating Systems" section of the ["System Requirements"](https://docs.aspose.com/words/net/system-requirements/) article.
 
-### .NET Framework versions supported
+### Supported Frameworks
 
-- only .NET framework 2.0 or greater.
+You can find the information on supported operating systems in the "Supported Frameworks, Specifications, and Implementations" section of the ["System Requirements"](https://docs.aspose.com/words/net/system-requirements/) article.
 
 ## Downloading
 
