@@ -1,18 +1,18 @@
 ---
-title: Aspose.Words for OpenXML
+title: How to Use Aspose.Words for OpenXML
+description: "Learn how to download and install Aspose.Words for .NET and what prerequisites have to be met to work with OpenXML."
 type: docs
 weight: 40
 url: /net/aspose-words-net-for-openxml/
 ---
 
-The developers looking for file format libraries may need to walk through the features provided by the libraries available on the market. Mainly, two factors are considered when choosing an option:
+If you choose to use Aspose.Words, you need to make sure that all prerequisites are met. After that, you will need to download and install Aspose.Words for .NET.
 
-- Features
-- Efforts required to use the library
+You can learn more about the requirements and further steps on this page.
 
-If you are a .NET developer looking for faster,easy and light-weight file format library to process files, you may need to compare VSTO(Visual Studio tool for Office) with Aspose. In this case, this project will help you to compare features and code in both libraries.
+## Check Requirements and Prerequisites
 
-## System Requirements and Supported Platforms
+This section lists the environment and system requirements.
 
 ### Development Environment
 
@@ -34,25 +34,29 @@ You can find the information on supported operating systems in the "Supported Op
 
 You can find the information on supported operating systems in the "Supported Frameworks, Specifications, and Implementations" section of the ["System Requirements"](https://docs.aspose.com/words/net/system-requirements/) article.
 
-## Downloading
+## Download and Install the Latest Aspose.Words
 
-You can download the latest code at:
+To start the project, you need to download and install the latest version of Aspose.Words for .NET.
 
+### Downloading
+
+You can download the latest Aspose.Words code at:
+
+- [Aspose](https://products.aspose.com/words/net/)
+- [Nuget](https://www.nuget.org/packages/Aspose.Words/)
 - [Codeplex](http://goo.gl/x6gdD4)
+
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/Missing-Features-in-6a2c882b)
 
-## Installing
+### Installing
 
-To open the project you need to download and install the latest version of Aspose.Words for .NET from [here](http://www.aspose.com/.net/word-component.aspx) and include it in the project.
+You can find the information on how to install Aspose.Words for .NET on the ["Installation"](https://docs.aspose.com/words/net/installation/) page.
 
-## Support, Extend and Contribute
+## Support
 
-### Support
+We offer free support. Anyone who uses our product, whether they have bought it or are using an evaluation, deserves our full attention and respect.
 
-We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
-
-You can log any issues or suggestions related to Aspose .NET for OpenXML using any of the following platforms:
+You can log any issues or suggestions related to Aspose.Words for .NET for OpenXML using any of the following platforms:
 
 - [Codeplex](http://goo.gl/LD4ZPz)
 - [Github](http://goo.gl/UHkCJe)
@@ -60,11 +64,11 @@ You can log any issues or suggestions related to Aspose .NET for OpenXML using a
 - [Bitbucket](http://goo.gl/1Eo1DQ)
 - [Code.MSDN](https://code.msdn.microsoft.com/Missing-Features-in-6a2c882b)
 
-### Extend and Contribute
+## Extend and Contribute
 
 Comparison code for Aspose.Words for .Net and OpenXML source code is available on major social coding websites listed below.Developers are encouraged to download the source code to migrate from OpenXML to Aspose.Words as per their requirements.
 
-### Source Code
+### Download Source Code
 
 You can get the latest source code from one of the following locations.
 
@@ -72,7 +76,7 @@ You can get the latest source code from one of the following locations.
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/Missing-Features-in-6a2c882b)
 
-### How to configure the source code
+### Configure the source code
 
 Please follow these simple steps to get started
 
