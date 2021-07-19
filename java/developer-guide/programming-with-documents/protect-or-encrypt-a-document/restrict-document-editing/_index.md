@@ -49,30 +49,30 @@ In Microsoft Word, you can restrict editing in a similar way using both:
 
 The following code example shows how to add password protection to your document:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Create a new document and protect it with a password.
 Document doc = new Document();
 
 // Apply Document Protection.
-doc.Protect(ProtectionType.NoProtection, "password");
+doc.protect(ProtectionType.NO_PROTECTION, "password");
 
 // Save the document.
-doc.Save(ArtifactsDir + "Document.Protect.docx");
+doc.save(getArtifactsDir() + "Document.Protect.docx");
 {{< /highlight >}}
 
 The following code example shows how to restrict editing in a document so only editing in form fields is possible:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Insert two sections with some text.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Text added to a document.");
+builder.writeln("Text added to a document.");
 
 // A document protection only works when document protection is turned and only editing in form fields is allowed.
-doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
+doc.protect(ProtectionType.ALLOW_ONLY_FORM_FIELDS, "password");
 
 // Save the protected document.
-doc.Save(ArtifactsDir + "Test.docx");
+doc.save(getArtifactsDir() + "Test.docx");
 {{< /highlight >}}
 
 ## Remove Document Protection
@@ -81,21 +81,21 @@ Aspose.Words allows you to remove protection from a document with simple and dir
 
 The following code example shows how to remove protection from your document:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Create a new document and protect it with a password.
 Document doc = new Document();
 
 // Add text.
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
-builder.Writeln("Text added to a document.");
+builder.writeln("Text added to a document.");
 
 // Documents can have protection removed either with no password, or with the correct password.
-doc.Unprotect();
-doc.Protect(ProtectionType.ReadOnly, "newPassword");
-doc.Unprotect("newPassword");
+doc.unprotect();
+doc.protect(ProtectionType.READ_ONLY, "newPassword");
+doc.unprotect("newPassword");
 
 // Save the document.
-doc.Save(ArtifactsDir + "Document.UnProtect.docx");
+doc.save(getArtifactsDir() + "Document.UnProtect.docx");
 {{< /highlight >}}
 
 ## Specify Unrestricted Editable Regions
@@ -106,50 +106,50 @@ Aspose.Words allows you to mark the parts that can be changed in your document u
 
 The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Upload a document and make it as read-only.
-Document doc = new Document(MyDir + "Document.docx");
+Document doc = new Document(getMyDir() + "Document.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
-doc.Protect(ProtectionType.ReadOnly, "MyPassword");
-builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " + "we cannot edit this paragraph without the password.");
+doc.protect(ProtectionType.READ_ONLY, "MyPassword");
+builder.writeln("Hello world! Since we have set the document's protection level to read-only, " + "we cannot edit this paragraph without the password.");
 
 // Start an editable range.
-EditableRangeStart edRangeStart = builder.StartEditableRange();
+EditableRangeStart edRangeStart = builder.startEditableRange();
 
 // An EditableRange object is created for the EditableRangeStart that we just made.
-EditableRange editableRange = edRange1Start.EditableRange;
+EditableRange editableRange = edRangeStart.getEditableRange();
 
 // Put something inside the editable range.
-builder.Writeln("Paragraph inside first editable range");
+builder.writeln("Paragraph inside first editable range");
 
 // An editable range is well-formed if it has a start and an end.
-EditableRangeEnd edRangeEnd = builder.EndEditableRange();
+EditableRangeEnd edRangeEnd = builder.endEditableRange();
 
 // Save your document.
-builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
-doc.Save(ArtifactsDir + "EditableRange.docx");
+builder.writeln("This paragraph is outside any editable ranges, and cannot be edited.");
+doc.save(getArtifactsDir() + "EditableRange.docx");
 {{< /highlight >}}
 
 You can also choose different document editing restrictions for different sections.
 
 The following code example shows how to add a restriction for the entire document, and then remove the restriction for one of the sections:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Insert two sections with some text.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Section 1. Unprotected.");
-builder.InsertBreak(BreakType.SectionBreakContinuous);
-builder.Writeln("Section 2. Protected.");
+builder.writeln("Section 1. Unprotected.");
+builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
+builder.writeln("Section 2. Protected.");
 
 // Section protection only works when document protection is turned and only editing in form fields is allowed.
-doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
+doc.protect(ProtectionType.ALLOW_ONLY_FORM_FIELDS, "password");
 
 // By default, all sections are protected, but we can selectively turn protection off.
-doc.Sections[0].ProtectedForForms = false;
-doc.Save(ArtifactsDir + "Section.Protect.docx");
+doc.getSections().get(0).setProtectedForForms(false);
+doc.save(getArtifactsDir() + "Section.Protect.docx");
 
-doc = new Document(ArtifactsDir + "Section.Protect.docx");
-Assert.False(doc.Sections[0].ProtectedForForms);
-Assert.True(doc.Sections[1].ProtectedForForms);
+doc = new Document(getArtifactsDir() + "Section.Protect.docx");
+Assert.assertFalse(doc.getSections().get(0).getProtectedForForms());
+Assert.assertTrue(doc.getSections().get(1).getProtectedForForms());
 {{< /highlight >}}

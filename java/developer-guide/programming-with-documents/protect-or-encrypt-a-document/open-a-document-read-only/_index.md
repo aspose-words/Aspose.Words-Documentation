@@ -54,23 +54,23 @@ If you need to check if a document has a write protection password that restrict
 
 The following code example shows how to make a document read-only:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Create a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Add text.
-builder.Write("Open document as read-only");
+builder.write("Open document as read-only");
 
 // Enter a password that's up to 15 characters long.
-doc.WriteProtection.SetPassword("MyPassword");
+doc.getWriteProtection().setPassword("MyPassword");
 
 // Make the document as read-only.
-doc.WriteProtection.ReadOnlyRecommended = true;
+doc.getWriteProtection().setReadOnlyRecommended(true);
 
 // Apply write protection as read-only.
-doc.Protect(ProtectionType.ReadOnly); 
-doc.Save(ArtifactsDir + "Properties.ReadOnlyRecommended.docx");
+doc.protect(ProtectionType.READ_ONLY);
+doc.save(getArtifactsDir() + "Properties.ReadOnlyRecommended.docx");
 {{< /highlight >}}
 
 ## Remove Read-Only Restriction
@@ -79,18 +79,18 @@ If you do not want a user to open your document as read-only, you can simply set
 
 The following code example shows how to remove read-only access for a document:
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 // Create a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Enter a password that's up to 15 characters long.
-doc.WriteProtection.SetPassword("MyPassword");
+doc.getWriteProtection().setPassword("MyPassword");
 
 // Remove the read-only option.
-doc.WriteProtection.ReadOnlyRecommended = false;
+doc.getWriteProtection().setReadOnlyRecommended(false);
 
 // Apply write protection without any protection.
-doc.Protect(ProtectionType.NoProtection); 
-doc.Save(ArtifactsDir + "Properties.RemoveReadOnly.docx");
+doc.protect(ProtectionType.NO_PROTECTION);
+doc.save(getArtifactsDir() + "Properties.RemoveReadOnly.docx");
 {{< /highlight >}}
