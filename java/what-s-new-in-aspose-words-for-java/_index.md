@@ -63,7 +63,7 @@ Rendering to PDF/A-2 format has been implemented by adding new values to the [Pd
 
 #### Work with Patterns
 
-A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://apireference.aspose.com/words/java/com.aspose.words/fill#patterned(int)) method with two overloads and the [Pattern](https://apireference.aspose.com/words/java/com.aspose.words/fill#Pattern) property have been added to the [Fill](https://apireference.aspose.com/words/java/com.aspose.words/Fill) class and the [PatternType](https://apireference.aspose.com/words/java/com.aspose.words/PatternType) enumeration.
+A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://apireference.aspose.com/words/java/com.aspose.words/fill#patterned(int)) method with two overloads and the [Pattern](https://apireference.aspose.com/words/java/com.aspose.words/fill#Pattern) property have been added to the [Fill](https://apireference.aspose.com/words/java/com.aspose.words/Fill) class and the [PatternType](https://apireference.aspose.com/words/java/com.aspose.words/PatternType) enumeration has been added to the Constants.
 
 ### Conversion
 
