@@ -20,7 +20,9 @@ Some examples of using **PdfSaveOptions** are provided below.
 
 {{% alert color="primary" %}} 
 
-Currently, you can only save to the PDF/A-1 format, which has serious limitations, for example, transparency and some compression options are prohibited. With the PDF/A-1 format, an output file size is larger than a regular PDF file size. However, there are plans to implement saving to PDF/A-2 in the foreseeable future, which will remove these limitations.
+Currently, you can save to PDF/A-1 and PDF/A-2 formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
+
+[PdfCompliance.PdfA1a](https://apireference.aspose.com/words/java/com.aspose.words/PdfCompliance#PDF_17) and [PdfCompliance.PdfA1b](https://apireference.aspose.com/words/java/com.aspose.words/PdfCompliance#PDF_17) are marked as obsolete.
 
 {{% /alert %}} 
 
