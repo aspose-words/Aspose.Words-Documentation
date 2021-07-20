@@ -54,23 +54,23 @@ If you need to check if a document has a write protection password that restrict
 
 The following code example shows how to make a document read-only:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
 // Add text.
-builder.Write("Open document as read-only");
+builder->Write(u"Open document as read-only");
 
 // Enter a password that's up to 15 characters long.
-doc.WriteProtection.SetPassword("MyPassword");
+doc->get_WriteProtection()->SetPassword(u"MyPassword");
 
 // Make the document as read-only.
-doc.WriteProtection.ReadOnlyRecommended = true;
+doc->get_WriteProtection()->set_ReadOnlyRecommended(true);
 
 // Apply write protection as read-only.
-doc.Protect(ProtectionType.ReadOnly); 
-doc.Save(ArtifactsDir + "Properties.ReadOnlyRecommended.docx");
+doc->Protect(ProtectionType::ReadOnly); 
+doc->Save(ArtifactsDir + u"Properties.ReadOnlyRecommended.docx");
 {{< /highlight >}}
 
 ## Remove Read-Only Restriction
@@ -79,18 +79,18 @@ If you do not want a user to open your document as read-only, you can simply set
 
 The following code example shows how to remove read-only access for a document:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
 // Enter a password that's up to 15 characters long.
-doc.WriteProtection.SetPassword("MyPassword");
+doc->get_WriteProtection()->SetPassword(u"MyPassword");
 
 // Remove the read-only option.
-doc.WriteProtection.ReadOnlyRecommended = false;
+doc->get_WriteProtection()->set_ReadOnlyRecommended(false);
 
 // Apply write protection without any protection.
-doc.Protect(ProtectionType.NoProtection); 
-doc.Save(ArtifactsDir + "Properties.RemoveReadOnly.docx");
+doc->Protect(ProtectionType::NoProtection); 
+doc->Save(ArtifactsDir + u"Properties.RemoveReadOnly.docx");
 {{< /highlight >}}
