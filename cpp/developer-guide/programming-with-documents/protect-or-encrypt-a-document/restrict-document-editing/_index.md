@@ -49,30 +49,30 @@ In Microsoft Word, you can restrict editing in a similar way using both:
 
 The following code example shows how to add password protection to your document:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Create a new document and protect it with a password.
-Document doc = new Document();
+auto doc = System::MakeObject<Document>();
 
 // Apply Document Protection.
-doc.Protect(ProtectionType.NoProtection, "password");
+doc->Protect(ProtectionType::NoProtection, u"password");
 
 // Save the document.
-doc.Save(ArtifactsDir + "Document.Protect.docx");
+doc->Save(ArtifactsDir + u"Document.Protect.docx");
 {{< /highlight >}}
 
 The following code example shows how to restrict editing in a document so only editing in form fields is possible:
 
 {{< highlight csharp >}}
 // Insert two sections with some text.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Text added to a document.");
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
+builder->Writeln(u"Text added to a document.");
 
 // A document protection only works when document protection is turned and only editing in form fields is allowed.
-doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
+doc->Protect(ProtectionType::AllowOnlyFormFields, u"password");
 
 // Save the protected document.
-doc.Save(ArtifactsDir + "Test.docx");
+doc->Save(ArtifactsDir + u"Test.docx");
 {{< /highlight >}}
 
 ## Remove Document Protection
@@ -81,21 +81,21 @@ Aspose.Words allows you to remove protection from a document with simple and dir
 
 The following code example shows how to remove protection from your document:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Create a new document and protect it with a password.
-Document doc = new Document();
+auto doc = System::MakeObject<Document>();
 
 // Add text.
-DocumentBuilder builder = new DocumentBuilder(protectedDoc);
-builder.Writeln("Text added to a document.");
+auto builder = System::MakeObject<DocumentBuilder>(protectedDoc);
+builder->Writeln(u"Text added to a document.");
 
 // Documents can have protection removed either with no password, or with the correct password.
-doc.Unprotect();
-doc.Protect(ProtectionType.ReadOnly, "newPassword");
-doc.Unprotect("newPassword");
+doc->Unprotect();
+doc->Protect(ProtectionType::ReadOnly, u"newPassword");
+doc->Unprotect(u"newPassword");
 
 // Save the document.
-doc.Save(ArtifactsDir + "Document.UnProtect.docx");
+doc->Save(ArtifactsDir + u"Document.UnProtect.docx");
 {{< /highlight >}}
 
 ## Specify Unrestricted Editable Regions
@@ -106,50 +106,50 @@ Aspose.Words allows you to mark the parts that can be changed in your document u
 
 The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Upload a document and make it as read-only.
-Document doc = new Document(MyDir + "Document.docx");
-DocumentBuilder builder = new DocumentBuilder(doc);
-doc.Protect(ProtectionType.ReadOnly, "MyPassword");
-builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " + "we cannot edit this paragraph without the password.");
+auto doc = System::MakeObject<Document>(MyDir + u"Document.docx");
+auto builder = System::MakeObject<DocumentBuilder>(doc);
+doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
+builder->Writeln(u"Hello world! Since we have set the document's protection level to read-only, we cannot edit this paragraph without the password.");
 
 // Start an editable range.
-EditableRangeStart edRangeStart = builder.StartEditableRange();
+auto edRangeStart = builder->StartEditableRange();
 
 // An EditableRange object is created for the EditableRangeStart that we just made.
-EditableRange editableRange = edRange1Start.EditableRange;
+auto editableRange = edRange1Start->get_EditableRange();
 
 // Put something inside the editable range.
-builder.Writeln("Paragraph inside first editable range");
+builder->Writeln(u"Paragraph inside first editable range");
 
 // An editable range is well-formed if it has a start and an end.
-EditableRangeEnd edRangeEnd = builder.EndEditableRange();
+auto edRangeEnd = builder->EndEditableRange();
 
 // Save your document.
-builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
-doc.Save(ArtifactsDir + "EditableRange.docx");
+builder->Writeln(u"This paragraph is outside any editable ranges, and cannot be edited.");
+doc->Save(ArtifactsDir + u"EditableRange.docx");
 {{< /highlight >}}
 
 You can also choose different document editing restrictions for different sections.
 
 The following code example shows how to add a restriction for the entire document, and then remove the restriction for one of the sections:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Insert two sections with some text.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Section 1. Unprotected.");
-builder.InsertBreak(BreakType.SectionBreakContinuous);
-builder.Writeln("Section 2. Protected.");
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
+builder->Writeln(u"Section 1. Unprotected.");
+builder->InsertBreak(BreakType::SectionBreakContinuous);
+builder->Writeln(u"Section 2. Protected.");
 
 // Section protection only works when document protection is turned and only editing in form fields is allowed.
-doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
+doc->Protect(ProtectionType::AllowOnlyFormFields, u"password");
 
 // By default, all sections are protected, but we can selectively turn protection off.
-doc.Sections[0].ProtectedForForms = false;
-doc.Save(ArtifactsDir + "Section.Protect.docx");
+doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);
+doc->Save(ArtifactsDir + u"Section.Protect.docx");
 
-doc = new Document(ArtifactsDir + "Section.Protect.docx");
-Assert.False(doc.Sections[0].ProtectedForForms);
-Assert.True(doc.Sections[1].ProtectedForForms);
+doc = System::MakeObject<Document>(ArtifactsDir + u"Section.Protect.docx");
+ASSERT_FALSE(doc->get_Sections()->idx_get(0)->get_ProtectedForForms());
+ASSERT_TRUE(doc->get_Sections()->idx_get(1)->get_ProtectedForForms());
 {{< /highlight >}}
