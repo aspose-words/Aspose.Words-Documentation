@@ -1,10 +1,10 @@
 ---
 title: Open a Document Read-Only
-description: "Aspose.Words for .NET allows you to make your document read-only so that the content can be copied or read, but not modified."
+description: "Aspose.Words for С++ allows you to make your document read-only so that the content can be copied or read, but not modified."
 type: docs
 weight: 10
-url: /net/open-a-document-read-only/
-aliases: [/net/document-protection/]
+url: /cpp/open-a-document-read-only/
+aliases: [/cpp/document-protection/]
 ---
 
 Sometimes, you may have a document that needs a review, but you do not want reviewers to randomly modify your content. Aspose.Words allows you to make the permission of your document read-only so that the content can be copied or read, but not modified. This will prevent content from being removed or added to your document.
@@ -19,11 +19,11 @@ This article explains how to make a document read-only.
 
 ## Make a Document Read-Only
 
-Aspose.Words has the public class [WriteProtection](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection) that specifies write protection settings for a document. You do not create instances of this class directly.
+Aspose.Words has the public class [WriteProtection](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection) that specifies write protection settings for a document. You do not create instances of this class directly.
 
 Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
-Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/readonlyrecommended) property and the [SetPassword](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/methods/setpassword) method.
+Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#get_readonlyrecommended_const) property and the [SetPassword](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#setpassword_string) method.
 
 {{% alert color="primary" %}}
 
@@ -36,7 +36,7 @@ In Microsoft Word, you can create a Read-Only document in a similar way using bo
 
 {{% alert color="primary" %}}
 
-Users can also restrict document editing by selecting [ProtectionType](https://apireference.aspose.com/words/net/aspose.words/protectiontype) as **ReadOnly**, but this is another feature that provides more advanced protection capabilities. There is such a function in Microsoft Word, respectively, it is implemented in Aspose.Words.
+Users can also restrict document editing by selecting [ProtectionType](https://apireference.aspose.com/words/cpp/namespace/aspose.words#protectiontype) as **ReadOnly**, but this is another feature that provides more advanced protection capabilities. There is such a function in Microsoft Word, respectively, it is implemented in Aspose.Words.
 
 **ProtectionType** will be described in detail in one of the following articles – “Restrict Document Editing”.
 
@@ -50,27 +50,27 @@ Note that the password being set is just a property in a document that can be re
 
 {{% /alert %}}
 
-If you need to check if a document has a write protection password that restricts it from editing, you can use the [IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/iswriteprotected) property.
+If you need to check if a document has a write protection password that restricts it from editing, you can use the [IsWriteProtected](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#get_iswriteprotected) property.
 
 The following code example shows how to make a document read-only:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
 // Add text.
-builder.Write("Open document as read-only");
+builder->Write(u"Open document as read-only");
 
 // Enter a password that's up to 15 characters long.
-doc.WriteProtection.SetPassword("MyPassword");
+doc->get_WriteProtection()->SetPassword(u"MyPassword");
 
 // Make the document as read-only.
-doc.WriteProtection.ReadOnlyRecommended = true;
+doc->get_WriteProtection()->set_ReadOnlyRecommended(true);
 
 // Apply write protection as read-only.
-doc.Protect(ProtectionType.ReadOnly); 
-doc.Save(ArtifactsDir + "Properties.ReadOnlyRecommended.docx");
+doc->Protect(ProtectionType::ReadOnly); 
+doc->Save(ArtifactsDir + u"Properties.ReadOnlyRecommended.docx");
 {{< /highlight >}}
 
 ## Remove Read-Only Restriction
@@ -79,18 +79,18 @@ If you do not want a user to open your document as read-only, you can simply set
 
 The following code example shows how to remove read-only access for a document:
 
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
 
 // Enter a password that's up to 15 characters long.
-doc.WriteProtection.SetPassword("MyPassword");
+doc->get_WriteProtection()->SetPassword(u"MyPassword");
 
 // Remove the read-only option.
-doc.WriteProtection.ReadOnlyRecommended = false;
+doc->get_WriteProtection()->set_ReadOnlyRecommended(false);
 
 // Apply write protection without any protection.
-doc.Protect(ProtectionType.NoProtection); 
-doc.Save(ArtifactsDir + "Properties.RemoveReadOnly.docx");
+doc->Protect(ProtectionType::NoProtection); 
+doc->Save(ArtifactsDir + u"Properties.RemoveReadOnly.docx");
 {{< /highlight >}}
