@@ -14,21 +14,23 @@ Aspose.Words layout engine imitates the way the Microsoft Word’s page layout e
 
 Some examples of using **PdfSaveOptions** are provided below.
 
-## Creating a PDF/A Document with Fillable Forms
-
-PDF/A is an ISO-standardized version of PDF specialized for use in the archiving and long-term preservation of electronic documents. To specify a PDF standards compliance level, use the [Compliance](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions/properties/compliance) property. Due to preservation specifics, PDF/A document must embed all fonts and prohibit encryption. 
-
 {{% alert color="primary" %}} 
 
-Currently, you can save to PDF/A-1 and PDF/A-2 formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
+Currently, you can also save to PDF/A-1 and PDF/A-2 formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
 [PdfCompliance.PdfA1a](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) and [PdfCompliance.PdfA1b](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) are marked as obsolete.
 
+For more information on PDF/A, see the next article, "Learn Features of Conversion to PDF/A".
+
 {{% /alert %}} 
 
-It is also possible to export fillable forms from a Microsoft Word document into output PDF, which has fillable forms instead of a plain text. Use the [PreserveFormFields](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions/properties/preserveformfields) property to save a document as PDF/A with fillable forms. Note that in contrast to Microsoft Word, the PDF format has a limited number of options for editable forms, such as textbox, combobox, and checkbox. Microsoft Word has more types of forms, for example, calendar date picker. Generally, it is not possible to fully imitate Microsoft Word behavior in PDF. Therefore, in some complex cases, PDF output may differ from what you see in Microsoft Word.
+## Creating a PDF Document with Fillable Forms
 
-The code example below shows how to save a document as PDF/A with fillable forms with specified Jpeg compression and quality:
+It is also possible to export fillable forms from a Microsoft Word document into output PDF, which has fillable forms instead of a plain text. Use the [PreserveFormFields](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions/properties/preserveformfields) property to save a document as PDF with fillable forms.
+
+Note that in contrast to Microsoft Word, the PDF format has a limited number of options for editable forms, such as textbox, combobox, and checkbox. Microsoft Word has more types of forms, for example, calendar date picker. Generally, it is not possible to fully imitate Microsoft Word behavior in PDF. Therefore, in some complex cases, PDF output may differ from what you see in Microsoft Word.
+
+The code example below shows how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-PdfImageComppression.cs" >}}
 
