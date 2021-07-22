@@ -54,24 +54,7 @@ If you need to check if a document has a write protection password that restrict
 
 The following code example shows how to make a document read-only:
 
-{{< highlight csharp >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Add text.
-builder.Write("Open document as read-only");
-
-// Enter a password that's up to 15 characters long.
-doc.WriteProtection.SetPassword("MyPassword");
-
-// Make the document as read-only.
-doc.WriteProtection.ReadOnlyRecommended = true;
-
-// Apply write protection as read-only.
-doc.Protect(ProtectionType.ReadOnly); 
-doc.Save(ArtifactsDir + "Properties.ReadOnlyRecommended.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-ReadOnlyProtection.cs" >}}
 
 ## Remove Read-Only Restriction
 
@@ -79,18 +62,4 @@ If you do not want a user to open your document as read-only, you can simply set
 
 The following code example shows how to remove read-only access for a document:
 
-{{< highlight csharp >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Enter a password that's up to 15 characters long.
-doc.WriteProtection.SetPassword("MyPassword");
-
-// Remove the read-only option.
-doc.WriteProtection.ReadOnlyRecommended = false;
-
-// Apply write protection without any protection.
-doc.Protect(ProtectionType.NoProtection); 
-doc.Save(ArtifactsDir + "Properties.RemoveReadOnly.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-RemoveReadOnlyRestriction.cs" >}}

@@ -54,24 +54,7 @@ If you need to check if a document has a write protection password that restrict
 
 The following code example shows how to make a document read-only:
 
-{{< highlight java >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Add text.
-builder.write("Open document as read-only");
-
-// Enter a password that's up to 15 characters long.
-doc.getWriteProtection().setPassword("MyPassword");
-
-// Make the document as read-only.
-doc.getWriteProtection().setReadOnlyRecommended(true);
-
-// Apply write protection as read-only.
-doc.protect(ProtectionType.READ_ONLY);
-doc.save(getArtifactsDir() + "Properties.ReadOnlyRecommended.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-ReadOnlyProtection.java" >}}
 
 ## Remove Read-Only Restriction
 
@@ -79,18 +62,4 @@ If you do not want a user to open your document as read-only, you can simply set
 
 The following code example shows how to remove read-only access for a document:
 
-{{< highlight java >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Enter a password that's up to 15 characters long.
-doc.getWriteProtection().setPassword("MyPassword");
-
-// Remove the read-only option.
-doc.getWriteProtection().setReadOnlyRecommended(false);
-
-// Apply write protection without any protection.
-doc.protect(ProtectionType.NO_PROTECTION);
-doc.save(getArtifactsDir() + "Properties.RemoveReadOnly.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveReadOnlyRestriction.java" >}}
