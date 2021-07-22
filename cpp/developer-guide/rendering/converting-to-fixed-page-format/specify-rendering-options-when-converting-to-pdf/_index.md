@@ -32,7 +32,7 @@ Note that in contrast to Microsoft Word, the PDF format has a limited number of 
 
 The code example below shows how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-PdfImageComppression.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-File Formats and Conversions-Save Options-Working with PdfSaveOptions-PdfImageComppression.h" >}}
 
 ## Exporting Document Structure and Custom Properties
 

@@ -32,7 +32,7 @@ Note that in contrast to Microsoft Word, the PDF format has a limited number of 
 
 The code example below shows how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageComppression.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageCompression.java" >}}
 
 ## Exporting Document Structure and Custom Properties
 
