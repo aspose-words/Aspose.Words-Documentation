@@ -2,7 +2,7 @@
 title: Translate Markdown to Document Object Model (DOM)
 type: docs
 description: "Aspose.Words for .NET allows to tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
-weight: 15
+weight: 13
 url: /net/translate-markdown-to-document-object-model/
 ---
 
@@ -37,7 +37,7 @@ We use [Font](https://apireference.aspose.com/words/net/aspose.words/font) forma
 | **Italic**<br />`*italic text*` | `Font.Italic = true` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} ||
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming_with_Documents-Working_with_Markdown-StrikeThrough.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Strikethrough.cs" >}} ||
 
 We use a character style with a name that starts from the word `InlineCode`, followed by an optional dot `(.)` and a number of backticks ```(`)``` for the InlineCode feature. If a number of backticks is missed, then one backtick will be used by default.
 
