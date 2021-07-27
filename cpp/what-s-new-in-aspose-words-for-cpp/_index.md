@@ -27,11 +27,13 @@ For more information on these changes, see the [Aspose.Words for C++ 21.3 Releas
 
 {{% /alert %}}
 
-## Aspose.Words for C++ 21.5, 21.6
+## Aspose.Words for C++ 21.5, 21.6, 21.7
 
 Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
 
 Aspose.Words 21.6 enhances formatting and filling options and also improves document display capabilities.
+
+Aspose.Words 21.7 expands rendering and conversion options, as well as provides an ability to work with framesets.
 
 The API is enhanced for more flexible and convenient development.
 
@@ -55,6 +57,20 @@ Prior to this version, Aspose.Words could only render fallback shapes for OOXML 
 
 A new public property [MaxCharactersPerLine](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.txt_save_options#a870121f70e98c000b036e9a5f8456ea6) has been introduced to control the maximum number of characters per line in the output document of TXT format.
 
+#### Rendering to PDF/A-2
+
+Rendering to PDF/A-2 format has been implemented by adding new values to the [PdfCompliance](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration. PDF/A-2 is based on the PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
+
+#### Work with Patterns
+
+A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill#patterned_patterntype) method with two overloads and the [Pattern](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill#get_pattern) property have been added to the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class and the [PatternType](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing#patterntype) enumeration has been added to the [Drawing](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing) namespace.
+
+### Conversion
+
+A new overload of the [InsertHtml](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#inserthtml_string_htmlinsertoptions) method with extended options has been implemented to make this operation more flexible.
+
+
+
 ### Mail Merge and Reporting
 
 A new property [RestartListsAtEachSection](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#ab911c61cee7a99ff6df2ad14fafde2d5) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
@@ -64,12 +80,15 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 - New methods [SetCheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#a9442102849b146594a697f01545b3eca) and [SetUncheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#a94069a23b2c358fa7d64eb092aebc826) have been added to set checked and unchecked symbols for your favorite structured document tags.
 - The equations created with EQ fields are now supported upon converting to all HTML-based formats.
 - A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#a675c730b5e1aea7d8a04ba72dbf58e47) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
+- An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 21.5 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-5-release-notes/).
 
 Learn more about [Aspose.Words for C++ 21.6 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-6-release-notes/).
+
+Learn more about [Aspose.Words for C++ 21.7 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-7-release-notes/).
 
 {{% /alert %}}
 
