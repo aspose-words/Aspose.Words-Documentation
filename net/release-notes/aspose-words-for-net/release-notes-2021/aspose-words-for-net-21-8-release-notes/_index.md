@@ -72,7 +72,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-22319 | Headers and Footers are lost after DOCX to ODT conversion | Bug |
 | WORDSNET-22452 | System.NullReferenceException occurs upon DOCX to TIFF conversion | Bug |
 | WORDSNET-22450 | Aspose gives FileCorruptedException for RTF but Microsoft Word opens fine | Bug |
-| WORDSNET-22147 | DOCX to PDF/a: Empty <P> tag without content | Bug |
+| WORDSNET-22147 | DOCX to PDF/a: Empty P tag without content | Bug |
 | WORDSNET-22385 | Document.UpdateFields throws System.Exception | Bug |
 | WORDSNET-22327 | Image width is decreased after saving document to ODT | Bug |
 | WORDSNET-22298 | Linked text box in source document corrupts NodeImporter result in destintation document | Bug |
@@ -193,4 +193,31 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
         // Do something on field updated.
     }
 }
+{{< /highlight >}}
+
+### Added new public property SaveOptions.FlatOpcXmlMappingOnly
+
+Related issue: WORDSNET-22507
+
+New public option has been implemented.
+{{< highlight csharp >}}
+/// <summary>
+/// Gets or sets value determining which document formats are allowed to be mapped by <see cref="StructuredDocumentTag.XmlMapping"/>.
+/// By default only <see cref="LoadFormat.FlatOpc"/> document format is allowed to be mapped.
+/// </summary>
+public bool FlatOpcXmlMappingOnly { get; set; }
+{{< /highlight >}}
+
+By default Word allows to bind structured document tag to FlatOpc documents only. This option allows to control this behavoir and lets bind documents in any format.
+
+Use case:
+{{< highlight csharp >}}
+Document doc = new Document("filename");  // a document containing SDT mapped to document in, for example, HTML format.
+
+doc.Save("doc1.pdf");   // default behavoir, SDT will contain raw HTML text.
+ 
+SaveOptions so = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
+so.FlatOpcXmlMappingOnly = false;
+
+doc.Save("doc2.pdf");   // mapped HTML will parsed and resulting document will be inserted into SDT content.
 {{< /highlight >}}
