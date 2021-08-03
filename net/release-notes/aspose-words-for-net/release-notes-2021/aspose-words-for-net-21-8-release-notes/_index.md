@@ -57,7 +57,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-20938 | Empty list paragraph moved to second page | Bug |
 | WORDSNET-22410 | Language of text changes after re-saving a DOCX document | Bug |
 | WORDSNET-22414 | "Pie" and "Doughnut" charts with "Explosion" are rendered incorrectly after converting to PDF | Bug |
-| WORDSNET-22417 | Range.Replace with multiline Regex to detect data in word files | Bug |
+| WORDSNET-22417 | Range.Replace with multi-line Regex to detect data in word files | Bug |
 | WORDSNET-21925 | DOCX to HTML Image inside the table cells is not up to the original document | Bug |
 | WORDSNET-22421 | Document.UpdateFields method throws System.ArgumentException | Bug |
 | WORDSNET-22254 | Revisions.AcceptAll does not accept revisions correctly | Bug |
@@ -75,7 +75,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-22147 | DOCX to PDF/a: Empty P tag without content | Bug |
 | WORDSNET-22385 | Document.UpdateFields throws System.Exception | Bug |
 | WORDSNET-22327 | Image width is decreased after saving document to ODT | Bug |
-| WORDSNET-22298 | Linked text box in source document corrupts NodeImporter result in destintation document | Bug |
+| WORDSNET-22298 | Linked text box in source document corrupts NodeImporter result in destination document | Bug |
 | WORDSNET-21588 | IReplacingCallback is never executed | Bug |
 | WORDSNET-22456 | "IsShowingPlaceholderText" property is wrong | Bug |
 | WORDSNET-22313 | FileCorruptedException when loading a document | Bug |
@@ -108,9 +108,9 @@ Introduced ability to insert a GIF image into the model using "DocumentBuilder.I
 
 Limitations:
 
-- Access to the image bytes causes convertion GIF to PNG;
+- Access to the image bytes causes conversion GIF to PNG;
 
-- Saving to formats differ from the DOCX, DOTX, DOCM, DOTM, FOPC causes convertion GIF to PNG;
+- Saving to formats differ from the DOCX, DOTX, DOCM, DOTM, FOPC causes conversion GIF to PNG;
 
 - DocumentBuilder must be optimized to Word 2007 or higher (Word 2007 is default option).
 
@@ -209,15 +209,15 @@ public bool FlatOpcXmlMappingOnly { get; set; }
 {{< /highlight >}}
 
 By default MS Word allows to bind structured document tags to FlatOpc documents only. 
-This option allows to control this behavoir and bind documents in any format.
+This option allows to control this behavior and bind documents in any format.
 
 Use case:
 {{< highlight csharp >}}
-Document doc = new Document("filename"); // a document containing SDT mapped to document, for example, in HTML format.
-doc.Save("out_1.pdf"); // default behavoir - SDT will contain raw HTML text.
+Document doc = new Document("filename"); // a document containing SDT mapped to document, for example, in HTML format
+doc.Save("out_1.pdf"); // the default behavior - SDT will contain raw HTML text
  
 SaveOptions so = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 so.FlatOpcXmlMappingOnly = false;
 
-doc.Save("out_2.pdf", so); // mapped HTML will be parsed and resulting document is inserted into SDT content.
+doc.Save("out_2.pdf", so); // mapped HTML will be parsed and resulting document is inserted into SDT content
 {{< /highlight >}}
