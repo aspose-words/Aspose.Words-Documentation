@@ -199,7 +199,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
 
 Related issue: WORDSNET-22507
 
-New public option has been implemented.
+New public FlatOpcXmlMappingOnly option has been implemented.
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets value determining which document formats are allowed to be mapped by <see cref="StructuredDocumentTag.XmlMapping"/>.
@@ -208,16 +208,16 @@ New public option has been implemented.
 public bool FlatOpcXmlMappingOnly { get; set; }
 {{< /highlight >}}
 
-By default Word allows to bind structured document tag to FlatOpc documents only. This option allows to control this behavoir and lets bind documents in any format.
+By default MS Word allows to bind structured document tags to FlatOpc documents only. 
+This option allows to control this behavoir and bind documents in any format.
 
 Use case:
 {{< highlight csharp >}}
-Document doc = new Document("filename");  // a document containing SDT mapped to document in, for example, HTML format.
-
-doc.Save("doc1.pdf");   // default behavoir, SDT will contain raw HTML text.
+Document doc = new Document("filename"); // a document containing SDT mapped to document, for example, in HTML format.
+doc.Save("out_1.pdf"); // default behavoir - SDT will contain raw HTML text.
  
 SaveOptions so = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 so.FlatOpcXmlMappingOnly = false;
 
-doc.Save("doc2.pdf");   // mapped HTML will parsed and resulting document will be inserted into SDT content.
+doc.Save("out_2.pdf", so); // mapped HTML will be parsed and resulting document is inserted into SDT content.
 {{< /highlight >}}
