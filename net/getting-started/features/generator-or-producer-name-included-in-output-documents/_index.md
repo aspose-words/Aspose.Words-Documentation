@@ -13,7 +13,7 @@ Here *YY* is the last two digits of the release year, *M* or *MM* is the release
 
 {{% alert color="primary" %}}
 
-Note that you cannot instruct Aspose.Words to change or remove this information from output documents.
+Note that you can instruct Aspose.Words to remove this information from output documents.
 
 {{% /alert %}}
 
