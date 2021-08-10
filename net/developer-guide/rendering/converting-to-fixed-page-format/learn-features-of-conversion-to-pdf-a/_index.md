@@ -80,7 +80,7 @@ The specification tells us the following:
 
 ### Natural language specification
 
-Text language is specified in Microsoft Word documents. Aspose.Words exports the specified language with the Lang attribute attached to a marked-content sequence or a Span tag in the output PDF. Generally there are no language issues when text is entered by the user via Microsoft Word. But there is a possibility that the language may be inaccurate if the text is generated automatically.
+Text language is specified in Microsoft Word documents. Aspose.Words exports the specified language to an output PDF with the *Lang* attribute attached to a marked-content sequence or a Span tag using the [ExportLanguageToSpanTag](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportlanguagetospantag) property. Generally there are no language issues when text is entered by the user via Microsoft Word. But there is a possibility that the language may be inaccurate if the text is generated automatically.
 
 Users should ensure that the language is specified correctly in either the source Word document or the output PDF document.
 

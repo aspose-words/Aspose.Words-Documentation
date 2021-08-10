@@ -33,67 +33,24 @@ We use [Font](https://apireference.aspose.com/words/java/com.aspose.words/Font) 
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |
 | **Bold**<br />`**bold text**` | `Font.Bold = true` |
-|{{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Make the text Bold.
-builder.getFont().setBold(true);
-builder.writeln("This text will be Bold");{{< /highlight >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}} ||
 | **Italic**<br />`*italic text*` | `Font.Italic = true` |
-|{{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Make the text Italic.
-builder.getFont().setItalic(true);
-builder.writeln("This text will be Italic");{{< /highlight >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}} ||
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Make the text Strikethrough.
-builder.getFont().setStrikeThrough(true);
-builder.writeln("This text will be Strikethrough");{{< /highlight >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}} ||
 
 We use a character style with a name that starts from the word `InlineCode`, followed by an optional dot `(.)` and a number of backticks ```(`)``` for the InlineCode feature. If a number of backticks is missed, then one backtick will be used by default.
 
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |
 | **InlineCode**<br />`**inline code**` | `Font.StyleName = “InlineCode[.][N]”` |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Number of backticks is missed, one backtick will be used by default.
-Style inlineCode1BackTicks = doc.getStyles().add(StyleType.CHARACTER, "InlineCode");
-builder.getFont().setStyle(inlineCode1BackTicks);
-builder.writeln("Text with InlineCode style with 1 backtick");
-
-// There will be 3 backticks.
-Style inlineCode3BackTicks = doc.getStyles().add(StyleType.CHARACTER, "InlineCode.3");
-builder.getFont().setStyle(inlineCode3BackTicks);
-builder.writeln("Text with InlineCode style with 3 backtick");{{< /highlight >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}} ||
 | **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://apireference.aspose.com/words/java/com.aspose.words/FieldHyperlink) class. |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Insert hyperlink.
-builder.insertHyperlink("https://www.aspose.com", "https://www.aspose.com", false);
-builder.insertHyperlink("email@aspose.com", "mailto:email@aspose.com", false);{{< /highlight >}} ||
+|  {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} ||
 | **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://apireference.aspose.com/words/java/com.aspose.words/FieldHyperlink) class. |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Insert hyperlink.
-builder.insertHyperlink("Aspose", "https://www.aspose.com", false);{{< /highlight >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} ||
 | **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://apireference.aspose.com/words/java/com.aspose.words/Shape) class. |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Insert image.
-Shape shape = new Shape(builder.getDocument(), ShapeType.IMAGE);
-shape.setWrapType(WrapType.INLINE);
-shape.getImageData().setSourceFullName("/attachment/1456/pic001.png");
-shape.getImageData().setTitle("title");
-builder.insertNode(shape);{{< /highlight >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} ||
 
 ## Container Blocks
 
@@ -106,73 +63,19 @@ The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule**<br />`-----`                              | This is a simple paragraph with a corresponding HorizontalRule shape:<br />`DocumentBuilder.InsertHorizontalRule()` |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Insert horizontal rule.
-builder.insertHorizontalRule();{{< /highlight >}} |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}} |                                                              |
 | **ATX Heading**<br />`# H1, ## H2, ### H3…`                  | `ParagraphFormat.StyleName = “Heading N”`, where (1<= N <= 9).<br />This is translated into a built-in style and should be exactly of the specified pattern (no suffixes or prefixes are allowed).<br />Otherwise, it will be just a regular paragraph with a corresponding style. |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// By default Heading styles in Word may have Bold and Italic formatting.
-//If we do not want to be emphasized, set these properties explicitly to false.
-builder.getFont().setBold(false);
-builder.getFont().setItalic(false);
-
-builder.getParagraphFormat().setStyleName("Heading 1");
-builder.writeln("This is an H1 tag");{{< /highlight >}} |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}} |                                                              |
 | **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, based on `“Heading N”` style.<br />If (N >= 2), then `“Heading 2”` will be used, otherwise `“Heading 1”`.<br />Any suffix is allowed, but Aspose.Words importer uses numbers “1” and “2” respectively. |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-builder.getParagraphFormat().setStyleName("Heading 1");
-builder.writeln("This is an H1 tag");
-
-// Reset styles from the previous paragraph to not combine styles between paragraphs.
-builder.getFont().setBold(false);
-builder.getFont().setItalic(false);
-
-Style setexHeading1 = doc.getStyles().add(StyleType.PARAGRAPH, "SetexHeading1");
-builder.getParagraphFormat().setStyle(setexHeading1);
-doc.getStyles().get("SetexHeading1").setBaseStyleName("Heading 1");
-builder.writeln("Setex Heading level 1");
-
-builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 3"));
-builder.writeln("This is an H3 tag");
-
-// Reset styles from the previous paragraph to not combine styles between paragraphs.
-builder.getFont().setBold(false);
-builder.getFont().setItalic(false);
-
-Style setexHeading2 = doc.getStyles().add(StyleType.PARAGRAPH, "SetexHeading2");
-builder.getParagraphFormat().setStyle(setexHeading2);
-doc.getStyles().get("SetexHeading2").setBaseStyleName("Heading 3");
-
-// Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.writeln("Setex Heading level 2");{{< /highlight >}} |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}} |                                                              |
 | **Indented Code**                                            | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`    |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-Style indentedCode = doc.getStyles().add(StyleType.PARAGRAPH, "IndentedCode");
-builder.getParagraphFormat().setStyle(indentedCode);
-builder.writeln("This is an indented code");{{< /highlight >}} |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}} |                                                              |
 | **Fenced Code**<br />{{< highlight java >}}``` java
 if ()
 then
 else
 ```{{< /highlight >}} | `ParagraphFormat.StyleName = “FencedCode[.][info string]”`<br />The `[.]` and `[info string]` are optional. |
-|   {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-Style fencedCode = doc.getStyles().add(StyleType.PARAGRAPH, "FencedCode");
-builder.getParagraphFormat().setStyle(fencedCode);
-builder.writeln("This is an fenced code");
-
-Style fencedCodeWithInfo = doc.getStyles().add(StyleType.PARAGRAPH, "FencedCode.C#");
-builder.getParagraphFormat().setStyle(fencedCodeWithInfo);
-builder.writeln("This is a fenced code with info string");{{< /highlight >}}   |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}}  |                                                              |
 
 ### Complex Containers
 
@@ -181,47 +84,11 @@ The table below shows examples of using Markdown Complex Containers in Aspose.Wo
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote`             | `ParagraphFormat.StyleName = “Quote[some suffix]”`<br />The suffix in style name is optional, but Aspose.Words importer uses the ordered numbers 1, 2, 3, …. in case of nested quotes.<br />The nesting is defined via the inherited styles. |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// By default a document stores blockquote style for the first level.
-builder.getParagraphFormat().setStyleName("Quote");
-builder.writeln("Blockquote");
-
-// Create styles for nested levels through style inheritance.
-Style quoteLevel2 = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
-builder.getParagraphFormat().setStyle(quoteLevel2);
-doc.getStyles().get("Quote1").setBaseStyleName("Quote");
-builder.writeln("1. Nested blockquote");{{< /highlight >}} |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |                                                              |
 | **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	`   - Item 2a`<br />	`   - Item 2b` | Bulleted lists are represented using paragraph numbering:<br />`ListFormat.ApplyBulletDefault()`<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `‘-’`, `‘+’` or `‘*’` respectively. |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-builder.getListFormat().applyBulletDefault();
-builder.getListFormat().getList().getListLevels().get(0).setNumberFormat("-");
-
-builder.writeln("Item 1");
-builder.writeln("Item 2");
-
-builder.getListFormat().listIndent();
-
-builder.writeln("Item 2a");
-builder.writeln("Item 2b");{{< /highlight >}} |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |                                                              |
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />`ListFormat.ApplyNumberDefault()`<br />There can be 2 number format markers: ‘.’ and ‘)’. The default marker is ‘.’. |
-| {{< highlight java >}}Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.getListFormat().applyBulletDefault();
-builder.getListFormat().getList().getListLevels().get(0).setNumberFormat(MessageFormat.format("{0}.", (char)0));
-builder.getListFormat().getList().getListLevels().get(1).setNumberFormat(MessageFormat.format("{0}.", (char)1));
-
-builder.writeln("Item 1");
-builder.writeln("Item 2");
-
-builder.getListFormat().listIndent();
-
-builder.writeln("Item 2a");
-builder.writeln("Item 2b");{{< /highlight >}} |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |                                                              |
 
 ### Tables
 
@@ -230,20 +97,7 @@ Aspose.Words also allows to translate tables into DOM, as shown below:
 | Markdown feature                         | Aspose.Words                                                 |
 | ---------------------------------------- | ------------------------------------------------------------ |
 | `Table`<br />`a|b`<br />`-|-`<br />`c|d` | [Table](https://apireference.aspose.com/words/java/com.aspose.words/Table), [Row](https://apireference.aspose.com/words/java/com.aspose.words/Row) and [Cell](https://apireference.aspose.com/words/java/com.aspose.words/Cell) classes. |
-| {{< highlight java >}}// Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Add the first row.
-builder.insertCell();
-builder.writeln("a");
-builder.insertCell();
-builder.writeln("b");
-
-// Add the second row.
-builder.insertCell();
-builder.writeln("c");
-builder.insertCell();
-builder.writeln("d");{{< /highlight >}} |                                                              |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Table.java" >}} |                                                              |
 
 ## See Also
 
