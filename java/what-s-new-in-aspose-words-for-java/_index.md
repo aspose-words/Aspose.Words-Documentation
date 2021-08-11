@@ -27,13 +27,15 @@ For more information on these changes, see the [Aspose.Words for Java 21.3 Relea
 
 {{% /alert %}}
 
-## Aspose.Words for Java 21.5, 21.6, 21.7
+## Aspose.Words for Java 21.5, 21.6, 21.7, 21.8
 
 Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
 
 Aspose.Words 21.6 enhances formatting and filling options and also improves document display capabilities.
 
 Aspose.Words 21.7 expands rendering and conversion options, as well as provides an ability to work with framesets.
+
+Aspose.Words 21.8 improves rendering and language export features, and enhances the ability to work with field update callback.
 
 The API is enhanced for more flexible and convenient development.
 
@@ -65,6 +67,10 @@ Rendering to PDF/A-2 format has been implemented by adding new values to the [Pd
 
 A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://apireference.aspose.com/words/java/com.aspose.words/fill#patterned(int)) method with two overloads and the [Pattern](https://apireference.aspose.com/words/java/com.aspose.words/fill#Pattern) property have been added to the [Fill](https://apireference.aspose.com/words/java/com.aspose.words/Fill) class and the [PatternType](https://apireference.aspose.com/words/java/com.aspose.words/PatternType) enumeration has been added to the Constants.
 
+#### Insert GIF into the Document Model
+
+The ability to insert a GIF image into the document model using the [InsertImage](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertImage(byte[])) method has been introduced. Please note that saving a document to a format different from DOCX, DOTX, DOCM, DOTM, FOPC causes the conversion of GIF images to PNG.
+
 ### Conversion
 
 A new overload of the [InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertHtml(java.lang.String,int)) method with extended options has been implemented to make this operation more flexible.
@@ -79,6 +85,8 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 - The equations created with EQ fields are now supported upon converting to all HTML-based formats.
 - A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/java/com.aspose.words/layoutoptions#ContinuousSectionPageNumberingRestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 - An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
+- A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#ExportLanguageToSpanTag) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
+- A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}
 
@@ -87,6 +95,8 @@ Learn more about [Aspose.Words for Java 21.5 Release Notes](https://docs.aspose.
 Learn more about [Aspose.Words for Java 21.6 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-6-release-notes/).
 
 Learn more about [Aspose.Words for Java 21.7 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-7-release-notes/).
+
+Learn more about [Aspose.Words for Java 21.8 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-8-release-notes/).
 
 {{% /alert %}}
 
