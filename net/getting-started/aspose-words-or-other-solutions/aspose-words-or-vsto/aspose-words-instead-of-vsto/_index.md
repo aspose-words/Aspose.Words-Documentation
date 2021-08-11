@@ -48,7 +48,7 @@ After learning the ["Installation"](https://docs.aspose.com/words/net/installati
 
 Explore the ["Getting Started"](https://docs.aspose.com/words/net/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](https://docs.aspose.com/words/net/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some complex use cases can be implemented using VSTO, but much more regular tasks are easier and faster to implement using Aspose.Words.
+Some complex use cases can be implemented using VSTO, but many of the more regular tasks are easier and faster to implement using Aspose.Words.
 
 Aspose.Words also provides source code examples for features missing in VSTO. You can find:
 
