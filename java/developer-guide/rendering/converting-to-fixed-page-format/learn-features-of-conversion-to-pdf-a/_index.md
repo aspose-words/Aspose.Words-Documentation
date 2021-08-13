@@ -1,6 +1,6 @@
 ---
 title: Learn Features of Conversion to PDF/A
-description: "Aspose.Words for Java allows users to convert to PDF/A-1 and PDF/A-2. There are a few problems when converting to PDF/A documents, and Aspose.Words for .NET solves them."
+description: "Aspose.Words for Java allows users to convert to PDF/A-1 and PDF/A-2. There are a few problems when converting to PDF/A documents, and Aspose.Words for Java solves them."
 type: docs
 weight: 25
 url: /java/learn-features-of-conversion-to-pdf-a/
@@ -58,6 +58,18 @@ Both strong and weak structures are valid for PDF/A. Microsoft Word documents ha
 
 To ensure correct output, users have to ensure that the source document content is properly organized and outline levels are correctly specified for paragraphs. Otherwise, the user should verify and fix the structure of the output PDF document.
 
+In Microsoft Word default "Heading X" styles could be used to set the outline level:
+
+<img src="MWHeading1-2.png" alt="MWHeading1-2" style="width:800px"/>
+
+In addition, the outline level could be checked or changed in the "Paragraph" window:
+
+<img src="MWOutlineLevel.png" alt="MWOutlineLevel" style="width:800px"/>
+
+In Acrobat the document structure could be checked or changed in the "Tags" pane:
+
+<img src="AcrobatTagsPane.png" alt="AcrobatTagsPane" style="width:800px"/>
+
 ### Marking the Content as an Artifact
 
 At the moment, Aspose.Words marks page headers and footers, note separators, repeated table header cells, and decorative images as artifacts.
@@ -70,6 +82,18 @@ Note that this list may be updated in the future.
 
 If a document contains any other content that should be marked as an artifact, or if any of the artifacted content is a real content, customers should fix that in the output PDF.
 
+For example, shapes could be marked as decorative in Microsoft Word, so they will be exported to PDF as an artifact:
+
+<img src="MWDecorativeShape.png" alt="MWDecorativeShape" style="width:800px"/>
+
+You can mark shape as an artifact in the output PDF:
+
+<img src="AcrobatMarkAsArtifactDeleteEmptyTag.png" alt="AcrobatMarkAsArtifactDeleteEmptyTag" style="width:800px"/>
+
+Also, you can switch text in a header from the artifact to real content in the output PDF:
+
+<img src="AcrobatSwitchTextInHeader.png" alt="AcrobatSwitchTextInHeader" style="width:800px"/>
+
 The specification tells us the following:
 
 > The graphics objects in a document can be divided into two classes:
@@ -80,9 +104,18 @@ The specification tells us the following:
 
 ### Natural language specification
 
-Text language is specified in Microsoft Word documents. Aspose.Words exports the specified language with the Lang attribute attached to a marked-content sequence or a Span tag in the output PDF. Generally there are no language issues when text is entered by the user via Microsoft Word. But there is a possibility that the language may be inaccurate if the text is generated automatically.
+Text language is specified in Microsoft Word documents. Aspose.Words exports the specified language to an output PDF with the *Lang* attribute attached to a marked-content sequence or a Span tag – it is controlled by the [ExportLanguageToSpanTag](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#ExportLanguageToSpanTag) property. Generally there are no language issues when text is entered by the user via Microsoft Word. But there is a possibility that the language may be inaccurate if the text is generated automatically.
 
-Users should ensure that the language is specified correctly in either the source Word document or the output PDF document.
+Users should ensure that the language is specified correctly in either:
+
+* The source Word document:
+
+  <img src="MWLanguage.png" alt="MWLanguage" style="width:800px"/>
+
+  OR
+* The output PDF document:
+
+  <img src="AcrobatCheckChangeLanguage.png" alt="AcrobatCheckChangeLanguage" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -94,7 +127,21 @@ The specification tells us the following:
 
 Microsoft Word documents allow users to add alternate text to images, shapes, and tables. Aspose.Words exports such an alternate text to the output PDF.
 
-Users should ensure that all elements have an alternate text in either the source Word document or the output PDF document.
+Users should ensure that all elements have an alternate text in either:
+
+* The source Word document:
+
+  <img src="MWTableAltText.png" alt="MWTableAltText" style="width:800px"/>
+
+  <img src="MWShapeAltText.png" alt="MWShapeAltText" style="width:800px"/>
+  
+  OR
+
+* The output PDF document:
+
+  <img src="AcrobatTableAltText.png" alt="AcrobatTableAltText" style="width:800px"/>
+
+  <img src="AcrobatShapeAltText.png" alt="AcrobatShapeAltText" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -104,7 +151,9 @@ The specification tells us the following:
 
 ### Replacement text
 
-Microsoft Word document does not allow users to set replacement text. So this needs to be verified and fixed in the output PDF.
+Microsoft Word document does not allow users to set replacement text. So this needs to be verified and fixed in the output PDF:
+
+<img src="AcrobatReplacementText.png" alt="AcrobatReplacementText" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -112,7 +161,9 @@ The specification tells us the following:
 
 ### Abbreviations and Acronyms Expansions
 
-Microsoft Word document does not allow users to set abbreviations and acronyms expansions. So this needs to be verified and fixed in the output PDF.
+Microsoft Word document does not allow users to set abbreviations and acronyms expansions. So this needs to be verified and fixed in the output PDF:
+
+<img src="AcrobatSplitAddExpansionText.png" alt="AcrobatSplitAddExpansionText" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -142,7 +193,17 @@ The specification tells us the following:
 
 The usage of the `.notdef` glyph is prohibited. The `.notdef` glyph will appear if a document contains characters which are not present in the selected font and which also cannot be resolved via the Font Fallback mechanism.
 
-Users should remove or replace these characters in either the source Word document or the output PDF document.
+Users should remove or replace these characters in either:
+
+* The source Word document:
+
+  <img src="MWNotdefGlyph.png" alt="MWNotdefGlyph" style="width:800px"/>
+
+  OR
+
+* The output PDF document using the "Edit PDF" tool:
+
+  <img src="AcrobatRemoveNotdefGlyph-EditPdfTool.png" alt="AcrobatRemoveNotdefGlyph-EditPdfTool" style="width:800px"/>
 
 {{% alert color="primary" %}}
 
@@ -160,7 +221,17 @@ The current requirement is Level A conformance only.
 
 Private Use Area (PUA) characters appear mostly for Windows symbolic fonts like "Symbol", "Wingdings", "Webdings", and others. Microsoft Word formats do not provide an option to store actual text for characters.
 
-Users should replace the symbolic font with a Unicode one in the source Word document or add an ActualText entry to the problematic characters in the output PDF document.
+Users should:
+
+* Replace the symbolic font with a Unicode one in the source Word document:
+
+  <img src="MWInsertSymbol.png" alt="MWInsertSymbol" style="width:800px"/>
+
+  OR
+
+* Add an ActualText entry to the problematic characters in the output PDF document:
+
+  <img src="AcrobatSpanTagActualText.png" alt="AcrobatSpanTagActualText" style="width:800px"/>
 
 {{% alert color="primary" %}}
 

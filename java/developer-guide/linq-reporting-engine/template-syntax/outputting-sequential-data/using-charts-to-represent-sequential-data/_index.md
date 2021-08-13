@@ -174,5 +174,5 @@ In this case, the engine produces a report as follows.
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-linq-ChartSeries-SetChartSeriesNameDynamically.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-linq-ChartSeries-SetChartSeriesNameDynamically.java" >}}
 

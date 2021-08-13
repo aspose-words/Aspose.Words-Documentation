@@ -1,15 +1,15 @@
 ---
-title: How to Use Aspose.Words Instead of OpenXML SDK
-description: "Learn how to download and install Aspose.Words for .NET and what prerequisites have to be met to work with OpenXML."
+title: How to Use Aspose.Words Instead of Open XML SDK
+description: "Learn how to download and install Aspose.Words for .NET and what prerequisites have to be met to work with Aspose.Words instead of Open XML."
 type: docs
 weight: 40
 url: /net/aspose-words-instead-of-openxml-sdk/
 aliases: [/net/aspose-words-net-for-openxml/]
 ---
 
-When a user needs to create, modify, and manage documents programmatically, it is always important to choose the right tool that fits the particular document development needs. This article and code examples aim to help developers make the right decision by comparing Aspose.Words and Open XML SDK.
+When a user needs to create, modify, and manage documents programmatically, it is always important to choose the right tool that fits the particular document development needs. This article aims to help developers make the right decision by comparing Aspose.Words and Open XML SDK.
 
-It is worth noting once again that Aspose.Words and the OpenXML SDK can do similar things, but Aspose.Words' functionality is much broader and is not limited to creating only OOXML documents.
+It is worth noting once again that Aspose.Words and the Open XML SDK can do similar things, but Aspose.Words' functionality is much broader and is not limited to creating only OOXML documents.
 
 You can learn more about the requirements and further steps on this page.
 
@@ -47,11 +47,11 @@ After learning the ["Installation"](https://docs.aspose.com/words/net/installati
 
 Explore the ["Getting Started"](https://docs.aspose.com/words/net/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](https://docs.aspose.com/words/net/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some simple use cases can be implemented using the free OpenXML SDK, but much more complex use cases are easier and faster to implement using Aspose.Words. There are several use cases where OpenXML SDK implementation is complex or requires strong file format knowledge.
+Some simple use cases can be implemented using the free Open XML SDK, but much more complex use cases are easier and faster to implement using Aspose.Words. There are several use cases where Open XML SDK implementation is complex or requires strong file format knowledge.
 
-Aspose.Words also provides source code examples for features missing in OpenXML SDK. You can find:
+Aspose.Words also provides source code examples for features missing in Open XML SDK. You can find:
 
-* A list of such features on the ["Missing Features of OpenXML SDK Words"](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1) page
+* A list of such features on the ["Missing Features of Open XML SDK Words"](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1) page
 * Aspose.Words source code examples in the [GitHub repository](https://github.com/asposemarketplace/Aspose_for_OpenXML)
 
 ## Technical Support
