@@ -14,7 +14,9 @@ aliases:
  - /java/joining-documents-with-headers-and-footers/
 ---
 
-Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature. The insert operation allows you to insert the content of previously created documents into a new or existing one.
+Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
+
+The insert operation allows you to insert the content of previously created documents into a new or existing one.
 
 In turn, the append feature allows you to add a document only at the end of another document.
 
