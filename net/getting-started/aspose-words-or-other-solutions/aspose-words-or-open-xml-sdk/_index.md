@@ -26,6 +26,12 @@ It is worth noting that some tasks can be achieved with the Open XML SDK, but ca
 * Convert documents between many popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
 * And others
 
+{{% alert color="primary" %}}
+
+Explore [the source code examples of Aspose.Words for .NET features in comparison with the OpenXML SDK](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2). To use these source code examples, you will need to reference Aspose.Words for .NET in your project.
+
+{{% /alert %}}
+
 In the following sections, we will take a closer look at some of the features and abilities provided by Aspose.Words.
 
 ### Security
