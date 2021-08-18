@@ -32,7 +32,7 @@ Explore [the source code examples of Aspose.Words for .NET features in compariso
 
 {{% /alert %}}
 
-In the following sections, we will take a closer look at some of the features and abilities provided by Aspose.Words.
+In the following sections and articles, we will take a closer look at some of the features and abilities provided by Aspose.Words.
 
 ### Security
 

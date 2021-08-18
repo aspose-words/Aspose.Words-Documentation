@@ -9,15 +9,13 @@ aliases: [/net/aspose-words-net-for-npoi/]
 
 Sometimes we get the following question: why should we use Aspose products rather than the NPOI? This question is easy to answer: features and functionality.
 
-NPOI (NET version of POI Java project) is an open source project that can help you read or write files in Microsoft Office formats.
-
-As part of the current comparison, consider the following NPOI components –  HWPF and XWP:
+NPOI (NET version of POI Java project) is an open source project that can help you read or write files in Microsoft Office formats. As part of the current comparison, consider the following NPOI components –  HWPF and XWP:
 
 - HWPF provides reading and writing of Microsoft Word 97 file formats and limited support for reading Word 6 and Word 95 file formats
 
 - XWPF provides reading and writing of Word 2007 file formats
 
-Both HWPF and XWPF provides Basis Text Extraction, Specific Text Extraction, Access of Header & Footers and Changing Text features. While HWPF and XWPF provide similar functionality, they currently do not have a common interface. It has a fairly stable core API providing read or write access to the main parts of .DOCX files, but it is not complete.
+Both HWPF and XWPF provides Basis Text Extraction, Specific Text Extraction, Access of Header & Footers, and Changing Text features. While HWPF and XWPF provide similar functionality, they currently do not have a common interface. It has a fairly stable core API providing read or write access to the main parts of .DOCX files, but it is not complete.
 
 Aspose.Words is a very useful document processing library that provides great support for all Microsoft Word and other document formats. With Aspose.Words you can view, generate, modify, convert, render, and print documents without using Microsoft Word.
 
@@ -39,7 +37,7 @@ This plugin uses the evaluation version of Aspose.Words. When you are happy with
 
 {{% /alert %}}
 
-In the following sections, we will take a closer look at some of the features and abilities provided by Aspose.Words.
+In the following sections and articles, we will take a closer look at some of the features and abilities provided by Aspose.Words.
 
 ### Stability
 
