@@ -44,15 +44,15 @@ Consider the following example. Assume that you have the `Manager` and `Contract
 {{< highlight csharp >}}
 public class Manager
 {
-	public String getName getName() { ... }
-	public Iterable<Contract> getContracts() { ... }
-	...
+public String getName getName() { ... }
+public Iterable<Contract> getContracts() { ... }
+...
 }
 
 public class Contract
 {
-	public float getPrice() { ... }
-	...
+public float getPrice() { ... }
+...
 }
 {{< /highlight >}}
 
@@ -140,10 +140,10 @@ Consider the following example. Assume that you have the `ColoredItem` class def
 {{< highlight csharp >}}
 public class ColoredItem
 {
-	public String getName() { ... }
-	public float getPrice() { ... }
-	public Color getColor() { ... }
-	...
+public String getName() { ... }
+public float getPrice() { ... }
+public Color getColor() { ... }
+...
 }
 {{< /highlight >}}
 
