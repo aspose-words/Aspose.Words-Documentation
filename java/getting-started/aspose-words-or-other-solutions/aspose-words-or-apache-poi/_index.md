@@ -1,33 +1,72 @@
 ---
-title: Aspose.Words or Apache POI - HWPF and XWPF
+title: Aspose.Words or Apache POI
+description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words allows to perform a large number of tasks with documents faster and more conveniently than POI."
 type: docs
 weight: 30
-url: /java/aspose-words-java-for-apache-poi-hwpf-and-xwpf/
+url: /java/aspose-words-java-for-apache-poi/
+aliases: [/java/aspose-words-java-for-apache-poi-hwpf-and-xwpf/]
 ---
 
-## Apache POI - HWPF and XWPF
+Sometimes we get the following question: why should we use Aspose products rather than the Apache POI? This question is easy to answer: features and functionality.
 
-**HWPF** is the name of Apache POI port of the Microsoft Word 97(-2007) file format to pure Java. It also provides limited read only support for the older Word 6 and Word 95 file formats. It is still in early development.
+Apache POI is a project that can help you read or write files in Microsoft Office formats. As part of the current comparison, consider the following POI components – HWPF and XWPF:
 
-**XWPF** is partner to HWPF for the new Word 2007 .docx format is *XWPF*. Whilst HWPF and XWPF provide similar features, there is not a common interface across the two of them at this time. It has a fairly stable core API, providing read and write access to the main parts of a Word .docx file, but it isn't complete.
+- HWPF provides reading and writing of Microsoft Word 97 file formats and limited support for reading Word 6 and Word 95 file formats
+- XWPF provides reading and writing of Word 2007 file formats
 
-Both HWPF and XWPF provides Basis Text Extraction, Specific Text Extraction, Access of Header & Footers and Changing Text features.
+Both HWPF and XWPF provides Basis Text Extraction, Specific Text Extraction, Access of Header & Footers, and Changing Text features. While HWPF and XWPF provide similar functionality, they currently do not have a common interface. It has a fairly stable core API providing read or write access to the main parts of .DOCX files, but it is not complete.
 
-Read more at [poi.apache.org](http://poi.apache.org/)
+Aspose.Words is a very useful document processing library that provides great support for all Microsoft Word and other document formats. With Aspose.Words you can view, generate, modify, convert, render, and print documents without using Microsoft Word.
 
-## Aspose.Words for Java
+In this article, we will look at when it makes sense for you to prefer Aspose.Words.
 
-Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
+## Why not Apache POI
 
-Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can generate, modify, and convert documents without using Microsoft Word.
+It is worth noting that some tasks can be achieved with Aspose.Words, but cannot be accomplished with Apache POI. For example, if you need to perform a mail merge operation and then modify the result document, then you cannot use only Apache POI, you also need Microsoft Word. The point is that the merge results are not directly stored in a .DOCX file, and POI can only receive data that was stored in the .DOCX file. That is, you will need to complete the mail merge in Word, save the result to a .DOCX file, and then modify this file.
 
-Read more at [aspose.com](http://www.aspose.com/java/word-component.aspx)
+You can compare Apache POI with Aspose. To do this, we suggest that you familiarize yourself with the [Aspose.Words for POI project (HWPF and XWPF)](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0) – it shows how different tasks can be done using the Aspose.Words for Java API versus Apache POI. The project also covers features for working with text documents that are only available in Aspose.Words, but not in Apache POI.
+
+This project is also useful for developers looking to migrate from Apache POI to Aspose.Words.
+
+{{% alert color="primary" %}}
+
+The project uses the evaluation version of Aspose.Words. When you are happy with your evaluation, you can purchase a license from the [Aspose website](https://purchase.aspose.com/buy). To remove the evaluation message and feature limitations, you must apply a product license. After purchasing the product, you will receive a license file. Please follow the instructions in the ["Licensing and Subscription"](https://docs.aspose.com/words/java/licensing/) article to do this.
+
+{{% /alert %}}
+
+In the following sections and articles, we will take a closer look at some of the features and abilities provided by Aspose.Words.
+
+
+
+## See Also
+
+- [More about Apache POI](http://poi.apache.org/)
+
+
+
+
+
+
 
 ## Aspose.Words Java for Apache POI - HWPF and XWPF
 
 Project Aspose.Words for Apache POI - HWPF and XWPF shows how different tasks can be performed using Aspose.Words Java APIs in comparison with Apache POI HWPF and XWPF. The project also covers the features that are only available in Aspose.Words APIs but not in Apache POI HWPF and XWPF for dealing with word processing documents.
 
 This project is helpful for developers who want to compare Apache POI HWPF and XWPF with Aspose.Words OR migrate from Apache POI HWPF and XWPF to Aspose.Words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## System Requirements and Supported Platforms
 
