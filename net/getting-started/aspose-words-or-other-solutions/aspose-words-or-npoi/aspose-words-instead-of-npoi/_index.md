@@ -66,4 +66,4 @@ For more information on Aspose.Words technical support, take a look at the [supp
 
 ## Extend and Contribute
 
-Aspose for NPOI is open source and its source code is available on [our GitHub](https://purchase.aspose.com/buy). Developers are encouraged to download the source code and extend the functionality as per their own requirements.
+Aspose for NPOI is open source and its source code is available on [our GitHub](https://github.com/asposewords/Aspose.Words-for-.NET/tree/master/Plugins/NPOI). Developers are encouraged to download the source code and extend the functionality as per their own requirements.
