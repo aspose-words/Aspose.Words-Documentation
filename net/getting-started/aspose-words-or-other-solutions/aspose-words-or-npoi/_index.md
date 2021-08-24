@@ -9,7 +9,7 @@ aliases: [/net/aspose-words-net-for-npoi/]
 
 Sometimes we get the following question: why should we use Aspose products rather than the NPOI? This question is easy to answer: features and functionality.
 
-NPOI (NET version of POI Java project) is an open source project that can help you read or write files in Microsoft Office formats. As part of the current comparison, consider the following NPOI components –  HWPF and XWP:
+NPOI (NET version of POI Java project) is an open source project that can help you read or write files in Microsoft Office formats. As part of the current comparison, consider the following NPOI components –  HWPF and XWPF:
 
 - HWPF provides reading and writing of Microsoft Word 97 file formats and limited support for reading Word 6 and Word 95 file formats
 
