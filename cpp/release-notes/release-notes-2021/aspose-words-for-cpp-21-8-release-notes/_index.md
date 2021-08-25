@@ -13,6 +13,23 @@ This page contains release notes for [Aspose.Words for C++ 21.8](https://www.nug
 
 ## Major Features
 
+Starting from this release, we are beginning to publish the macOS version of Aspose.Words for C++.
+The minimum requirements for macOS version are the following:
+
+- A 64-bit Intel Mac with Big Sur or later (11.5+)
+- Xcode
+- Clang and libc++ (which are shipped by default with Xcode).
+
+Examples are depend on the following libraries:
+- [fontconfig](https://formulae.brew.sh/formula/fontconfig)
+- [mesa-glu](https://formulae.brew.sh/formula/mesa-glu)
+
+We can lower macOS version requirements on request in the next releases.
+
+It is the first version for macOS, so there may be artifacts and differences in behavior from both the Windows version of Aspose.Words for C++ and Aspose.Words for .NET. We continue to work on improving the product and adding features from .NET
+
+### Added support for macOS platfrom
+
 We have added the following features from Aspose.Words for .Net on this regular monthly release:
 
 - Added an ability to insert GIF images into the document.
@@ -36,6 +53,7 @@ The missing features will be added in future releases.
 
 |Key|Summary|Category|
 | :- | :- | :- |
+| WORDSCPP-735 | Add support for MacOS | New Feature |
 | WORDSNET-20059 | Provide API to move cursor to any position (character etc) inside a Paragraph | New Feature |
 | WORDSNET-19311 | Add support for HSL colors in HTML documents | New Feature |
 | WORDSNET-19381 | Add context to exceptions thrown while evaluating expressions for LINQ Reporting Engine | New Feature |

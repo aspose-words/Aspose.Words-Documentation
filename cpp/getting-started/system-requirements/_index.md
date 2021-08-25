@@ -25,6 +25,11 @@ Aspose.Words for C++ supports the following 64-bit or 32-bit operating system an
 			<td>Linux</td>
 			<td><ul><li>Ubuntu 16.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
 		</tr>
+
+  <tr>
+			<td>macOS</td>
+			<td><ul><li>A 64-bit Intel Mac with Big Sur or later (11.5+)</li></ul></td>
+		</tr>
 </table>
 
 ## Development Environment
@@ -59,9 +64,29 @@ Aspose.Words for C++ can be used to develop application in any development envir
 
 ### Additional Dependency on Linux
 
-Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) binaries, both dynamic library and tool. Please install it before using:
+Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) binaries and [mesa-glu](https://cgit.freedesktop.org/mesa/glu) binaries, both dynamic library and tool. Please install it before using:
 
-1. Installing fontconfig on Ubuntu or Debian</br>
-`sudo apt install libfontconfig fontconfig`
-2. Installing fontconfig on Fedora or CentOs</br>
-   `sudo yum install fontconfig`
+1. Installing fontconfig and mesa-glu on Ubuntu or Debian</br>
+`sudo apt install libfontconfig fontconfig libglu1-mesa`
+2. Installing fontconfig and mesa-glu on Fedora or CentOs</br>
+   `sudo yum install fontconfig mesa-libGLU`
+
+### macOS
+
+Aspose.Words for C++ can be used to develop application in the flowwing development environments:
+
+<table>  
+	<tr>
+			<td style="font-weight: bold; width:800px">Development environments</td>
+		</tr>
+  <tr>
+			<td><ul><li>Xcode 12.5.1 or later</li><li>Clang and libc++ (which are shipped by default with Xcode)</li></ul></td>
+			</tr>
+</table>
+
+### Additional Dependency on macOS
+
+Aspose.Words for C++ on macOS depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) and [mesa-glu](https://cgit.freedesktop.org/mesa/glu) binaries, both dynamic library and tool binaries, both dynamic library and tool. Please install it before using:
+
+Installing fontconfig and mesa-glu on macOS with [homebrew](https://brew.sh)</br>
+`brew install fontconfig mesa-glu`
