@@ -4,7 +4,32 @@ description: "Aspose.Words for Java allows to perform some operations with docum
 type: docs
 weight: 20
 url: /java/missing-features-in-apache-poi/
-aliases: [/java/missing-features-in-apache-poi-hwpf-and-xwpf/]
+aliases:
+  - /java/missing-features-in-apache-poi-hwpf-and-xwpf/
+  - /java/working-with-documents-in-aspose-words/
+  - /java/check-format-compatibility/
+  - /java/clone-documents/
+  - /java/insert-barcode-on-each-page/
+  - /java/protect-documents/
+  - /java/working-with-bookmarks-in-aspose-words/
+  - /java/working-with-digital-signatures-using-aspose-words/
+  - /java/working-with-text-in-aspose-words/
+  - /java/extract-comments-from-document/
+  - /java/remove-comments-from-document/
+  - /java/specify-default-fonts/
+  - /java/insert-comments-in-document/
+  - /java/working-with-tables-using-aspose-words/
+  - /java/joining-tables/
+  - /java/split-tables/
+  - /java/mail-merge-using-aspose-words/
+  - /java/mail-merge-from-xml-data-source/
+  - /java/more-examples-for-aspose-words/
+  - /java/moving-the-cursor-of-document/
+  - /java/set-page-borders/
+  - /java/using-control-characters/
+  - /java/working-with-fields-using-aspose-words/
+  - /java/insert-fields-in-documents/
+  - /java/remove-fields-from-document/
 ---
 
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than Apache POI. But there are also operations that are not provided by Apache POI (HWPF and XWPF). You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.
