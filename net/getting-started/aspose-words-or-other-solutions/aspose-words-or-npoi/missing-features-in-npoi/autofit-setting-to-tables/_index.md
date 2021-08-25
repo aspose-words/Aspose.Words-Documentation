@@ -1,6 +1,6 @@
 ---
 title: Autofit Setting to Tables
-description: "Aspose.Words for .NET allows to convert Word document to TIFF. NPOI does not provide an opportunity to work with formats other than Word."
+description: "Aspose.Words for .NET allows to autofit settings to tables. NPOI does not provide an opportunity to autofit settings to tables."
 type: docs
 weight: 100
 url: /net/autofit-setting-to-tables/
@@ -33,4 +33,4 @@ doc.Save("TestFile.AutoFitToWindow Out.doc");
 
 See also:
 
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.Words_Features_Missing_in_NPOI_v_1.0/Autofit.Setting.to.Tables.Aspose.Words.zip) fo running code
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.Words_Features_Missing_in_NPOI_v_1.0/Autofit.Setting.to.Tables.Aspose.Words.zip) for running code

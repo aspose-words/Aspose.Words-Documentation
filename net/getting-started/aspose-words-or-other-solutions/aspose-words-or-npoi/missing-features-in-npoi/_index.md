@@ -46,7 +46,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 | Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/net/rendering/) section |
 | Join multiple documents, including combine formatting of documents when importing content | The [“Insert and Append Documents”](https://docs.aspose.com/words/net/insert-and-append-documents/) article |
 | Find and Replace                                             | The [“Find and Replace”](https://docs.aspose.com/words/net/find-and-replace/) article |
-| Track changes in documents                                   | [Track Changes in a Document](https://docs.aspose.com/words/net/track-changes-in-a-document/) |
+| Track changes in documents                                   | The ["Track Changes in a Document"](https://docs.aspose.com/words/net/track-changes-in-a-document/) article |
 | Protect or encrypt a document in a variety of ways           | The ["Protect or Encrypt a Document"](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) section |
 | Manipulate tables                                            | The [“Working with Tables”](https://docs.aspose.com/words/net/working-with-tables/) section |
 | Manipulate form fields                                       | The [“Working with Form Fields”](https://docs.aspose.com/words/net/working-with-form-fields/) article |
