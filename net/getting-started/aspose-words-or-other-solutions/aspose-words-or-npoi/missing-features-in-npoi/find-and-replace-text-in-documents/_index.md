@@ -2,7 +2,6 @@
 title: Find and Replace Text in Documents
 description: "Aspose.Words for .NET allows to find and replace text or strings. NPOI does not provide an opportunity to find and replace."
 type: docs
-type: docs
 weight: 70
 url: /net/find-and-replace-text-in-documents/
 aliases: [/net/using-find-and-replace-in-npoi/]
