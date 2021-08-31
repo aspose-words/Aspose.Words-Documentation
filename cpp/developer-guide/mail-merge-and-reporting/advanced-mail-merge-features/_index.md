@@ -27,7 +27,7 @@ You can implement the [Next](https://apireference.aspose.com/words/cpp/class/asp
 
 ### Implement NextIf and SkipIf Fields to Compare Two Expressions
 
-You can use either [NextIf](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_next_if/) field or [SkipIf](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_skip_if/) field if you want to compare two expressions ([right]https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_if#a5f0ff4c658c480c7dba88dd62572c3bd) and [left](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_if#a005b5114502f9a52d07774b2114da86f) expressions) by some [operator](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_skip_if#a2b683e29e9aa3fc6d576123440c077fc).
+You can use either [NextIf](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_next_if/) field or [SkipIf](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_skip_if/) field if you want to compare two expressions ([right]https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_if#a5f0ff4c658c480c7dba88dd62572c3bd) and [left](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_if#get_leftexpression) expressions) by some [operator](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_skip_if#get_comparisonoperator).
 
 **NextIf** field has the same functionality as **Next** field, but it skips to the next row only if the condition is met. You can add **SkipIf** field to your template to exclude records that meet a certain criterion from a mail merge. The following table shows the main difference between NextIf and SkipIf:
 
@@ -42,7 +42,7 @@ Aspose.Words allows you to gather different information in your template through
 
 ### Get Merge Field Names
 
-You can come across a scenario where you will want to merge data with merge fields that are created by others, and in this case, you will not be sure about the exact names of merge fields. So, to achieve the mail merge purpose, first, you will need to read and display the names of all merge fields. Aspose.Words allows you to get a collection of merge field names using the [GetFieldNames](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#a712a18f29c05b10bf814e378e53069cb) method.
+You can come across a scenario where you will want to merge data with merge fields that are created by others, and in this case, you will not be sure about the exact names of merge fields. So, to achieve the mail merge purpose, first, you will need to read and display the names of all merge fields. Aspose.Words allows you to get a collection of merge field names using the [GetFieldNames](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#getfieldnames) method.
 
 The following code example shows how to get names of all merge fields in the template:
 
@@ -50,7 +50,7 @@ The following code example shows how to get names of all merge fields in the tem
 
 ### Get Information About Merge Regions
 
-You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#a59c9ba194d4e0820fe7f75d8c16aa03d) method. You can use the properties and methods of the [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info/) class.The following code example shows how to get merge regions hierarchy:
+You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#getregionshierarchy) method. You can use the properties and methods of the [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info/) class.The following code example shows how to get merge regions hierarchy:
 
 {{< highlight csharp >}}
 
@@ -67,8 +67,8 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Add Mapped Fields
 
-Aspose.Words allows you to automatically map names of fields in your data source and names of mail merge fields in the template using the [MappedDataFields](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#a38cc44dd44aebe4c2b794b4899b7fb28) property. For example, if you have a field name called "Last Name" in your template, and in your data source you have the field name "Last Name" or another variation such as "Last_Name" or "LastName", then the field in the data source will automatically map to the corresponding mapped field. If a merge template is to be merged with many data sources, mapped fields make it unnecessary to reenter the fields into the template to agree with the field names in the database.
+Aspose.Words allows you to automatically map names of fields in your data source and names of mail merge fields in the template using the [MappedDataFields](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#get_mappeddatafields) property. For example, if you have a field name called "Last Name" in your template, and in your data source you have the field name "Last Name" or another variation such as "Last_Name" or "LastName", then the field in the data source will automatically map to the corresponding mapped field. If a merge template is to be merged with many data sources, mapped fields make it unnecessary to reenter the fields into the template to agree with the field names in the database.
 
-The following code example shows how to add a mapped field using the [Add](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mapped_data_field_collection#a152d2b5d7b3d6cbbe4b084eddfd560e0) method when a merge field in a template and a data field in a data source have different names:
+The following code example shows how to add a mapped field using the [Add](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mapped_data_field_collection#add_string_string) method when a merge field in a template and a data field in a data source have different names:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-GetFieldNames-MappedDataFields.cpp" >}}
