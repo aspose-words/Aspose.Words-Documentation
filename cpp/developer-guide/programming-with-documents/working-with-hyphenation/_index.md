@@ -63,7 +63,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-As an alternative to pre-registering hyphenation dictionaries, it is possible to register only required hyphenation dictionaries “by request”. To achieve that, implement the [IHyphenationCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.i_hyphenation_callback/) interface and use the static callback [Callback](https://apireference.aspose.com/words/cpp/class/aspose.words.hyphenation#a3408d36eccae2d42f30da1d7c8bc7b4f).
+As an alternative to pre-registering hyphenation dictionaries, it is possible to register only required hyphenation dictionaries “by request”. To achieve that, implement the [IHyphenationCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.i_hyphenation_callback/) interface and use the static callback [Callback](https://apireference.aspose.com/words/cpp/class/aspose.words.hyphenation#get_callback).
 
 The following code example shows how to implement the **IHyphenationCallback** interface:
 

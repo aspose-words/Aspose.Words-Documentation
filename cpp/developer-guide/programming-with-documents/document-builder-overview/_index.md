@@ -18,7 +18,7 @@ Operations that are possible with **DocumentBuilder** are also possible when usi
 
 ## Document Navigation
 
-Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a883df72569ee5de6693962198ce8a93f) and [MoveToField](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#aa2e587f5c35b83512d4355efafc97300). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#aa0b9dd3748df2c69851f3d89670ecc95), [Writeln](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a4d0e7fad77490a3d8b317c4159001ee9), [InsertBreak](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a571c26886e30a740fc710e99daaed446), and others.
+Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetodocumentstart) and [MoveToField](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetofield_field_bool). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#write_string), [Writeln](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#writeln), [InsertBreak](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertbreak_breaktype), and others.
 
 The following code example shows how to navigate to a bookmark:
 
@@ -28,7 +28,7 @@ The following code example shows how to navigate to a bookmark:
 
 Aspose.Words API provides several classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
 
-You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a09e64cedb9555e7c5ce2f8bcfb8f06bb), [InsertHtml](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a72276df1da6f0ecae7b1ec3ff09df0b0), and similar methods.
+You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertfield_fieldtype_bool), [InsertHtml](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#inserthtml_string), and similar methods.
 
 Let's see how to create a simple document using the **DocumentBuilder**.
 
@@ -44,7 +44,7 @@ The following code example shows how to create a simple document using a documen
 
 ### Specify Document Formatting
 
-The [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a7cfacc6f877e188ccc22bb9692c8e3df) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#aa11845e9df34409420154b5c1e872a01), [Font.Italic](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#aff6212cdd69724c6b791ec0c39af384c), and [Font.Underline](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a572d304e8d4cede9f7687013926effe8) boolean properties.
+The [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_bold), [Font.Italic](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_italic), and [Font.Underline](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_underline) boolean properties.
 
 The following code example shows how to insert a formatted text using **DocumentBuilder**:
 
@@ -52,10 +52,10 @@ The following code example shows how to insert a formatted text using **Document
 
 {{% alert color="primary" %}} 
 
-- [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a7cfacc6f877e188ccc22bb9692c8e3df) specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
+- [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_font) specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
 - [ParagraphFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph_format) specifies the paragraph formatting for the current and all paragraphs to be inserted.
 - [PageSetup](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup) specifies the page and section properties for the current section and the entire section that will be inserted.
-- [CellFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#ab16bffdc0b0ae4f09a4b76d1b68ad5ec) and [RowFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#aa3aee68dcb1628b8916b62f05c29dd9e) specify formatting properties that will be applied to table cells and rows from the current position in the document onwards.
+- [CellFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_cellformat) and [RowFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_rowformat) specify formatting properties that will be applied to table cells and rows from the current position in the document onwards.
 
 In this situation, "current" means the position, paragraph, section, cell, or row in which the cursor is.
 

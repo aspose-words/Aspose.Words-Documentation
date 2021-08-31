@@ -14,7 +14,9 @@ aliases:
  - /java/joining-documents-with-headers-and-footers/
 ---
 
-Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature. The insert operation allows you to insert the content of previously created documents into a new or existing one.
+Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
+
+The insert operation allows you to insert the content of previously created documents into a new or existing one.
 
 In turn, the append feature allows you to add a document only at the end of another document.
 
@@ -121,11 +123,3 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-DifferentPageSetup-DifferentPageSetup.java" >}}
-
-## Common Problems and Solutions
-
-The table below provides typical problems when performing append or insert operation via Aspose.Words, as well as their respective solutions.
-
-| Symptom                                                 | Problem                                                      | Solution                                                     |
-| ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| The appended document does not appear on the same page. | The append result appears on a separate page because of a difference in PageSetup settings for the sections where the documents are appended together. | Make identical PageSetup settings for the sections where the documents are appended together. |

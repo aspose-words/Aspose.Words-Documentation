@@ -1,54 +1,63 @@
 ---
-title: Missing Features in NPOI
+title: Aspose.Words Features Missing in NPOI
+description: "Aspose.Words for .NET allows to perform some operations with documents faster and more conveniently than NPOI. In addition, there are operations that are not supported by NPOI."
 type: docs
 weight: 20
 url: /net/missing-features-in-npoi/
+aliases:
+  - /net/mail-merge-in-aspose-words/
+  - /net/mail-merge-from-xml-data-source/
+  - /net/more-examples-in-aspose-words/
+  - /net/moving-the-cursor-in-npoi/
+  - /net/set-page-borders/
+  - /net/using-control-characters-in-npoi/
+  - /net/working-with-charts-in-nopi-in-aspose-words/
+  - /net/simple-bar-graph/
+  - /net/working-with-documents-in-aspose-words/
+  - /net/append-documents-html/
+  - /net/check-format-compatibility-in-npoi/
+  - /net/clone-documents/
+  - /net/load-text-file/
+  - /net/protect-documents/
+  - /net/track-changes-in-documents/
+  - /net/working-with-digital-signatures-in-npoi/
+  - /net/working-with-form-fields-in-npoi-in-aspose-words/
+  - /net/insert-form-field-in-document/
+  - /net/removing-form-field-from-document/
+  - /net/working-with-images-in-nopi-in-aspose-words/
+  - /net/working-with-ranges-in-npoi-in-aspose-words/
+  - /net/access-ranges-in-document/
+  - /net/delete-ranges/
+  - /net/working-with-table-in-aspose-words/
+  - /net/joining-tables-in-npoi/
+  - /net/split-tables-in-npoi/
+  - /net/working-with-text-in-aspose-words/
+  - /net/insert-comments/
 ---
 
-This section shows the features that are only available in Aspose.Words and not in NPOI (HWPF and XWPF).
+As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than NPOI. But there are also operations that are not provided by NPOI (HWPF and XWPF). You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.
 
-It is very helpful for developers who want to migrate from NPOI to Aspose.Words.
+The following table contains some of the popular features supported by Aspose.Words and missed in NPOI (HWPF and XWPF):
 
-This includes following abundant features of Aspose.Words as compared to NPOI:
+| Aspose.Words feature                                         | Corresponding documentation article or section               |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Loading and saving documents in formats other than Microsoft Word.<br/>As a result, you can perform conversion between all popular document formats. For example, Word to PDF, HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The ["Create or Load a Document"](https://docs.aspose.com/words/net/create-or-load-a-document/) section<br />The ["Save a Document"](https://docs.aspose.com/words/net/save-a-document/) section<br />The [“Convert a Document”](https://docs.aspose.com/words/net/convert-a-document/) section |
+| Mail Merge                                                   | The [”Mail Merge and Reporting”](https://docs.aspose.com/words/net/mail-merge-and-reporting/) section |
+| Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/net/rendering/) section |
+| Join multiple documents, including combine formatting of documents when importing content | The [“Insert and Append Documents”](https://docs.aspose.com/words/net/insert-and-append-documents/) article |
+| Find and Replace                                             | The [“Find and Replace”](https://docs.aspose.com/words/net/find-and-replace/) article |
+| Track changes in documents                                   | The ["Track Changes in a Document"](https://docs.aspose.com/words/net/track-changes-in-a-document/) article |
+| Protect or encrypt a document in a variety of ways           | The ["Protect or Encrypt a Document"](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) section |
+| Manipulate tables                                            | The [“Working with Tables”](https://docs.aspose.com/words/net/working-with-tables/) section |
+| Manipulate form fields                                       | The [“Working with Form Fields”](https://docs.aspose.com/words/net/working-with-form-fields/) article |
+| Manipulate graphic elements such as images, charts, watermark, and others | The ["Working with Graphic Elements"](https://docs.aspose.com/words/net/working-with-graphic-elements/) section |
 
-- [Mail Merge in Aspose.Words](https://docs.aspose.com/words/net/mail-merge-in-aspose-words/)
-  - [Mail Merge from XML Data Source](https://docs.aspose.com/words/net/mail-merge-from-xml-data-source/)
-- [More Examples in Aspose.Words](https://docs.aspose.com/words/net/more-examples-in-aspose-words/)
-  - [Insert Picture in Document](https://docs.aspose.com/words/net/insert-picture-in-document/)
-  - [Moving the Cursor in NPOI](https://docs.aspose.com/words/net/moving-the-cursor-in-npoi/)
-  - [Set Page Borders](https://docs.aspose.com/words/net/set-page-borders/)
-  - [Using Control Characters in NPOI](https://docs.aspose.com/words/net/using-control-characters-in-npoi/)
-  - [Using Find and Replace in NPOI](https://docs.aspose.com/words/net/using-find-and-replace-in-npoi/)
-- [Working with Charts in NOPI in Aspose.Words](https://docs.aspose.com/words/net/working-with-charts-in-nopi-in-aspose-words/)
-  - [Simple Bar Graph](https://docs.aspose.com/words/net/simple-bar-graph/)
-- [Working with Documents in Aspose.Words](https://docs.aspose.com/words/net/working-with-documents-in-aspose-words/)
-  - [Add Watermark](https://docs.aspose.com/words/net/add-watermark/)
-  - [Append Documents](https://docs.aspose.com/words/net/append-documents-html/)
-  - [Check Format Compatibility in NPOI](https://docs.aspose.com/words/net/check-format-compatibility-in-npoi/)
-  - [Clone Documents](https://docs.aspose.com/words/net/clone-documents/)
-  - [Load Text File](https://docs.aspose.com/words/net/load-text-file/)
-  - [Protect Documents](https://docs.aspose.com/words/net/protect-documents/)
-  - [Track Changes in Documents](https://docs.aspose.com/words/net/track-changes-in-documents/)
-  - [Working with Bookmarks in NPOI](https://docs.aspose.com/words/net/working-with-bookmarks-in-npoi/)
-  - [Working with Digital Signatures in NPOI](https://docs.aspose.com/words/net/working-with-digital-signatures-in-npoi/)
-- [Working With Form Fields in NPOI in Aspose.Words](https://docs.aspose.com/words/net/working-with-form-fields-in-npoi-in-aspose-words/)
-  - [Insert Form Field in Document](https://docs.aspose.com/words/net/insert-form-field-in-document/)
-  - [Removing Form Field from Document](https://docs.aspose.com/words/net/removing-form-field-from-document/)
-- [Working with Images in NOPI in Aspose.Words](https://docs.aspose.com/words/net/working-with-images-in-nopi-in-aspose-words/)
-  - [Convert Word Document to PNG](https://docs.aspose.com/words/net/convert-word-document-to-png/)
-  - [Convert Word Document to TIFF](https://docs.aspose.com/words/net/convert-word-document-to-tiff/)
-  - [Resize Image in Word Document](https://docs.aspose.com/words/net/resize-image-in-word-document/)
-- [Working With Ranges in NPOI in Aspose.Words](https://docs.aspose.com/words/net/working-with-ranges-in-npoi-in-aspose-words/)
-  - [Access Ranges in Document](https://docs.aspose.com/words/net/access-ranges-in-document/)
-  - [Delete Ranges](https://docs.aspose.com/words/net/delete-ranges/)
-- [Working with Table in Aspose.Words](https://docs.aspose.com/words/net/working-with-table-in-aspose-words/)
-  - [Autofit Setting to Tables](https://docs.aspose.com/words/net/autofit-setting-to-tables/)
-  - [Joining Tables in NPOI](https://docs.aspose.com/words/net/joining-tables-in-npoi/)
-  - [Split Tables in NPOI](https://docs.aspose.com/words/net/split-tables-in-npoi/)
-- [Working with Text in Aspose.Words](https://docs.aspose.com/words/net/working-with-text-in-aspose-words/)
-  - [Find and Replace Text in Documents](https://docs.aspose.com/words/net/find-and-replace-text-in-documents/)
-  - [Insert Comments](https://docs.aspose.com/words/net/insert-comments/)
-  - [Insert Hyperlink](https://docs.aspose.com/words/net/insert-hyperlink/)
-  - [Specify Default Fonts](https://docs.aspose.com/words/net/specify-default-fonts/)
+The table is not complete, so you can check [our documentation](https://docs.aspose.com/words/net/) for the feature you are interested in.
 
-**Note:** Many more examples are yet to be available soon.
+In the child articles, we also provide a few examples of how various popular features can be implemented using Aspose.Words.
+
+{{% alert color="primary" %}}
+
+It is also very helpful for developers who want to migrate from NPOI to Aspose.Words.
+
+{{% /alert %}}

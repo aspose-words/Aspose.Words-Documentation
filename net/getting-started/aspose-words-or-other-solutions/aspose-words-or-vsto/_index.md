@@ -21,6 +21,12 @@ If you need to complete some non-standard or unpopular document-related task, th
 
 If your document-related tasks are popular, it is highly likely that Aspose.Words provides you with an API for creating an effective and quick solution. It is worth noting that with Aspose.Words you can handle some pretty tricky and complex situations because it provides really powerful and comprehensive tools. This way you save time and do not reinvent the wheel.
 
+{{% alert color="primary" %}}
+
+Explore [the source code examples of Aspose.Words for .NET features in comparison with VSTO](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1). To use these source code examples, you will need to reference Aspose.Words for .NET in your project.
+
+{{% /alert %}}
+
 ### Stability
 
 Aspose.Words is thoroughly tested and packaged in a single DLL without requiring any additional parts to be installed to work.

@@ -57,7 +57,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 
 1. Aspose.Words tries to find a font among the available font sources with an exact font name.
 1. Aspose.Words tries to find the required font among the fonts embedded in the original document. Some document formats such as DOCX can contain embedded fonts.
-1. If Aspose.Words is unable to locate the required font with the exact name match, and the [AltName](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_info/#a48ee3b8efec37eced5842ac14b5ddb6b) property defined for this font, then Aspose.Words will find the font defined with **AltName** from the [FontInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_info) class, which specifies the font information.
+1. If Aspose.Words is unable to locate the required font with the exact name match, and the [AltName](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_info/#get_altname_const) property defined for this font, then Aspose.Words will find the font defined with **AltName** from the [FontInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_info) class, which specifies the font information.
 1. If Aspose.Words is unable to locate the defined font, and **AltName** is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
    1. Aspose.Words will attempt to apply OS font settings, if they are available, by using the FontConfig utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.<br>
       Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the FontConfig utility is disabled. You can enable it as follows:<br>
@@ -102,7 +102,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
       fontSettings->get_SubstitutionSettings()->get_FontInfoSubstitution()->set_Enabled(false);
       {{< /highlight >}}
       If **FontInfo** is not available for the missing font, then the process stops.
-   1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.default_font_substitution_rule/#affd97596e9f274a25b84126fbd7b37ec) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
+   1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.default_font_substitution_rule/#get_defaultfontname) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
       **C++**<br>
       {{< highlight cpp >}}
       fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution()->set_Enabled(false);
@@ -128,9 +128,9 @@ If **FontInfo** is available, the *FontInfo substitution rule* will always reso
 
 ## How to Recognize That the Font Was Replaced
 
-Sometimes, it may be unclear why the document layout has changed, or why some font does not look as expected. In such cases, font substitution warnings messages implemented by the IWarningCallback interface come to rescue. They have the [FontSubstitution](https://apireference.aspose.com/words/cpp/namespace/aspose.words#a1c629c0b794b98e0d49bcaf2746f58d9) warning type and the standard description text format, "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: <Reason>", with the following reasons:
+Sometimes, it may be unclear why the document layout has changed, or why some font does not look as expected. In such cases, font substitution warnings messages implemented by the IWarningCallback interface come to rescue. They have the [FontSubstitution](https://apireference.aspose.com/words/cpp/namespace/aspose.words#warningtype) warning type and the standard description text format, "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: <Reason>", with the following reasons:
 
-- "alternative name from the document" – for substitution by [AltName](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_info/#a48ee3b8efec37eced5842ac14b5ddb6b)
+- "alternative name from the document" – for substitution by [AltName](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_info/#get_altname_const)
 - "fontconfig substitution" – for substitution by font config rule
 - "table substitution" – for substitution by table rule
 - "font info substitution" – for substitution by font info rule
@@ -141,7 +141,7 @@ Sometimes, it may be unclear why the document layout has changed, or why some fo
 
 There are two different mechanisms used in Aspose.Words — Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. The Font fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
 
-There is a [BuildAutomatic](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/#afefd6587aa38d4644ae4095d1babf103) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/) class. This class specifies settings of the font fallback mechanism. You can get an instance of the **FontFallbackSettings** class as follows:
+There is a [BuildAutomatic](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/#buildautomatic) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/) class. This class specifies settings of the font fallback mechanism. You can get an instance of the **FontFallbackSettings** class as follows:
 
 **C++**
 
@@ -203,7 +203,7 @@ In the above code example, the following XML file is used:
 
 ## Predefined Font FallBack Settings for Google Noto Fonts
 
-Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a [LoadNotoFallbackSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/#a5b8a35a3bc12d26d315142d753b7e8b1) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
+Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a [LoadNotoFallbackSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/#loadnotofallbacksettings) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithFontSettings-SetPredefinedFontFallbackSettings.cpp" >}}
 
@@ -227,19 +227,6 @@ There are some differences in the processing of font formats in Aspose.Words and
 |OpenType fonts with PostScript outlines|Supported for most scenarios. Embedding to fixed-page formats such as PDF and XPS are not supported. The text is replaced with bitmap images.|Supported for most scenarios, including embedding to fixed-page formats. Parsing of glyph data, required for rendering WordArt/3D text effects, and SVG font embedding is not supported.|
 |OpenType Font Variations|Only named instances are supported. Continuous variations not supported.|Supported for the only default instance. Named instances and continuous variations are not supported.|
 |Type1 fonts|Supported on Windows versions prior to 2013 and on MacOS versions. Support is dropped on Windows versions starting from 2013.|Not supported.|
-
-## Typical Font-Related Problems and Solutions
-
-The table below provides typical problems with rendering documents to PDF and XPS via Aspose.Words, as well as their respective solutions.
-
-|Symptom|Problem|Solution|
-| :- | :- | :- |
-|The layout and fonts in the output document are different from the original.|The font may not be available, or the font format is supported by Microsoft Word but not supported by Aspose.Words.|<p>Aspose.Words will perform font substitution. To check if the font is missing:</p><p>- In Microsoft Word open the "Font Substitution" dialog box (File → Options → Advanced → Font Substitution).</p><p>- In Aspose.Words use the Font substitution warnings (for details, see the "How to Recognize That the Font Was Replaced" section).</p>|
-||In ASP.NET, there is no access to the system fonts folder in medium trust. |Users have to store fonts in their own folder.|
-|Font fallback is not working on non-windows platforms. Unicode characters are replaced with .notdef glyph. This is usually a box or question glyph.|Microsoft Office fallback settings are selected by default, and Microsoft Office fonts are not available.|Users have to install Microsoft Office fonts or alter fallback settings.|
-|Complex script text, such as Thai or Hebrew, may be displayed inaccurately for some reason, for example, the wrong position for diacritics, inaccurate ligatures.|Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default.|Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#a73bf6b5c10e1e6208e10110bbd6fed2e).|
-
-When copying fonts, keep in mind that most fonts are copyrighted. Locate font licenses beforehand, and verify that they can be freely transferred to another machine.
 
 ## See Also
 

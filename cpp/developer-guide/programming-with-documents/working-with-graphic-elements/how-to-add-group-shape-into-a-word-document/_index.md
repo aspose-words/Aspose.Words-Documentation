@@ -7,7 +7,7 @@ url: /cpp/how-to-add-group-shape-into-a-word-document/
 
 {{% alert color="primary" %}} 
 
-Below are some of the Shape types supported in Aspose.Words. For complete list, please visit [ShapeType](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing#a497d548e329ebb218fbc1754e4c74bcc)
+Below are some of the Shape types supported in Aspose.Words. For complete list, please visit [ShapeType](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing#shapetype)
 
 - Rectangle
 - RoundRectangle

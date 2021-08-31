@@ -11,7 +11,7 @@ Aspose.Words allows you to apply different cleaning and removing options such as
 
 ## Delete Merged Fields
 
-When you are using some long template that is created by someone else, you may want to delete all the merge fields that already exist in that template before performing a mail merge operation. You can use the [DeleteFields](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#a9ad8152d72088e00cc8bc3f20f6c1744) method if you want to delete all merge fields from a document without executing a mail merge operation. This method is not affected by any removing options of the [CleanupOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#a4ada94f1e87aa5c5fc018fbf5914d7ce) property and executing it only removes merged fields, not any containing fields or empty paragraphs.
+When you are using some long template that is created by someone else, you may want to delete all the merge fields that already exist in that template before performing a mail merge operation. You can use the [DeleteFields](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#deletefields) method if you want to delete all merge fields from a document without executing a mail merge operation. This method is not affected by any removing options of the [CleanupOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#get_cleanupoptions_const) property and executing it only removes merged fields, not any containing fields or empty paragraphs.
 
 The following code example shows how to delete all merge fields from your template without executing a mail merge operation:
 
@@ -21,7 +21,7 @@ The following code example shows how to delete all merge fields from your templa
 
 Aspose.Words enables you to remove unmerged fields, regions, and paragraphs from a template during a mail merge operation using removing options.
 
-Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://apireference.aspose.com/words/cpp/namespace/aspose.words.mail_merging#a553422eee2f476b78f308c506fdae067) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
+Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://apireference.aspose.com/words/cpp/namespace/aspose.words.mail_merging#mailmergecleanupoptions) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
 
 * Remove empty paragraphs
 * Remove unused regions

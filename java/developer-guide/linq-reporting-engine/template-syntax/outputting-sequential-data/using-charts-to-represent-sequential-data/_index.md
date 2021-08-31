@@ -44,16 +44,15 @@ Consider the following example. Assume that you have the `Manager` and `Contract
 {{< highlight csharp >}}
 public class Manager
 {
-public String  REF getName getName()  REF getterBody { ... }
-public  REF enumeration Iterable&lt;Contract&gt;  REF getContracts getContracts()  REF getterBody { ... }
-
-...
+   public String getName getName() { ... }
+   public Iterable<Contract> getContracts() { ... }
+   ...
 }
 
 public class Contract
 {
-public float  REF getPrice getPrice()  REF getterBody { ... }
-...
+   public float getPrice() { ... }
+   ...
 }
 {{< /highlight >}}
 
@@ -141,10 +140,10 @@ Consider the following example. Assume that you have the `ColoredItem` class def
 {{< highlight csharp >}}
 public class ColoredItem
 {
-public String  REF getName getName()  REF getterBody { ... }
-public float  REF getPrice getPrice()  REF getterBody { ... }
-public Color  REF getColor getColor()  REF getterBody { ... }
-...
+   public String getName() { ... }
+   public float getPrice() { ... }
+   public Color getColor() { ... }
+   ...
 }
 {{< /highlight >}}
 
@@ -174,5 +173,5 @@ In this case, the engine produces a report as follows.
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 
-{{< gist "aspose-com-gists" "aa75ee5112aca57022c741270ff8cbc4" "Examples-src-main-java-com-aspose-words-examples-linq-ChartSeries-SetChartSeriesNameDynamically.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-linq-ChartSeries-SetChartSeriesNameDynamically.java" >}}
 
