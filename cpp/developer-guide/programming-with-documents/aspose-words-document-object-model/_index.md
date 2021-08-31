@@ -45,9 +45,9 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 ### Get a Node Type
 
-Although the [Node](https://apireference.aspose.com/words/cpp/class/aspose.words.node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/cpp/namespace/aspose.words#a344de11ed54cf046eea1f8954a396379afeaf0a320c3d678ad30dd179b7d21584) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
+Although the [Node](https://apireference.aspose.com/words/cpp/class/aspose.words.node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/cpp/namespace/aspose.words#nodetype95paragraph) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
-The type of each node can be obtained using the [NodeType](https://apireference.aspose.com/words/cpp/class/aspose.words.node#a7f80e8d96b7a072fca14157b25ae025e) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
+The type of each node can be obtained using the [NodeType](https://apireference.aspose.com/words/cpp/class/aspose.words.node#get_nodetype_const) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
 
 The following example shows how to get a node type using the **NodeType** enumeration:
 
@@ -85,7 +85,7 @@ The [Node.Document]https://apireference.aspose.com/words/cpp/class/aspose.words.
 
 {{% /alert %}}
 
-When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a25edb10fb6a2ace8bb32e015a28976a9) property.
+When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_document_const) property.
 
 The following code example shows that when creating any node, a document that will own the node is always defined:
 
@@ -93,23 +93,23 @@ The following code example shows that when creating any node, a document that wi
 
 #### Parent Node
 
-Each node has a parent specified by the [ParentNode](https://apireference.aspose.com/words/cpp/class/aspose.words.node#aa57efaf56855239b19affd7d3862331a) property. A node has no parent node, that is, **ParentNode** is null, in the following cases:
+Each node has a parent specified by the [ParentNode](https://apireference.aspose.com/words/cpp/class/aspose.words.node#get_parentnode) property. A node has no parent node, that is, **ParentNode** is null, in the following cases:
 
 - The node has just been created and has not yet been added to the tree.
 - The node has been removed from the tree.
 - This is the root **Document** node which always has a null parent node.
 
-You can remove a node from its parent by calling the [Remove](https://apireference.aspose.com/words/cpp/class/aspose.words.node#a75a9cc0fda5ec9c8aaa1c4910af8f28c) method.The following code example shows how to access the parent node:
+You can remove a node from its parent by calling the [Remove](https://apireference.aspose.com/words/cpp/class/aspose.words.node#remove) method.The following code example shows how to access the parent node:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-GetParentNode.cpp" >}}
 
 #### Child Nodes
 
-The most efficient way to access child nodes of a [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node) is via the [FirstChild](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#a1c5a97dd08796b6313df330c1cfbbaa6) and [LastChild](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#a7a945bbf5d18f828e0474a29c4de68f3) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
+The most efficient way to access child nodes of a [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node) is via the [FirstChild](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#get_firstchild_const) and [LastChild](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#get_lastchild_const) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
 
-**CompositeNode** also provides the [ChildNodes](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#a5a0355cb3ff650a500136591eec61f64) collection enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
+**CompositeNode** also provides the [ChildNodes](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#getchildnodes_nodetype_bool) collection enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
 
-If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#a4b939686e9a6a245a31cf392d202316d) property.
+If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#get_haschildnodes) property.
 
 The following code example shows how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
 
@@ -121,7 +121,7 @@ The following code example shows how to enumerate immediate child nodes of a Com
 
 #### Sibling Nodes
 
-You can obtain the node that immediately precedes or follows a particular node using the [PreviousSibling](https://apireference.aspose.com/words/cpp/class/aspose.words.node#a3efe4b6a104236249001b9387b6d0dc9) and [NextSibling](https://apireference.aspose.com/words/cpp/class/aspose.words.node#a8067faf92dd3e744efdb02b64fc953ff) properties, respectively. If a node is the last child of its parent, then the **NextSibling** property is *null*. Conversely, if the node is the first child of its parent, the **PreviousSibling** property is *null*.
+You can obtain the node that immediately precedes or follows a particular node using the [PreviousSibling](https://apireference.aspose.com/words/cpp/class/aspose.words.node#get_previoussibling) and [NextSibling](https://apireference.aspose.com/words/cpp/class/aspose.words.node#get_nextsibling) properties, respectively. If a node is the last child of its parent, then the **NextSibling** property is *null*. Conversely, if the node is the first child of its parent, the **PreviousSibling** property is *null*.
 
 The following code example shows how to efficiently visit all direct and indirect child nodes of a composite node:
 
@@ -133,11 +133,11 @@ So far, we have discussed the properties that return one of the base types – *
 
 To reduce the need for casting, most Aspose.Words classes provide properties and collections that provide strongly-typed access. There are three basic patterns of typed access:
 
-- A parent node exposes typed **FirstXXX** and **LastXXX** properties. For example, the **Document** has [FirstSection](https://apireference.aspose.com/words/cpp/class/aspose.words.document#a044d3a1e5d9fda27584bcfe2f705f3c9) and [LastSection](https://apireference.aspose.com/words/cpp/class/aspose.words.document#a511657b8d94e9772d7e54c673766ca6e) properties. Similarly, **Table** has properties such as [FirstRow](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table#a23ac8deb884a430e8eee7d6ca1928251), [LastRow](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table#a9c4abb95dba64fb0085d4d696e4f963e), and others.
-- A parent node exposes a typed collection of child nodes, such as [Document.Sections](https://apireference.aspose.com/words/cpp/class/aspose.words.document#ab9f72b25508f474a5ff2d9fd35287e6a), [Body.Paragraphs](https://apireference.aspose.com/words/cpp/class/aspose.words.story#a6139f2f08679e114163bf35adc4767e6), and others.
-- A child node provides typed access to its parent, such as [Run.ParentParagraph](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#a4c6c80a822f6b06c505ae56e3aba9af4), [Paragraph.ParentSection](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph#a0c85d0dfb9c34f51f01c3a87224ea872), and others.
+- A parent node exposes typed **FirstXXX** and **LastXXX** properties. For example, the **Document** has [FirstSection](https://apireference.aspose.com/words/cpp/class/aspose.words.document#get_firstsection) and [LastSection](https://apireference.aspose.com/words/cpp/class/aspose.words.document#get_lastsection) properties. Similarly, **Table** has properties such as [FirstRow](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table#get_firstrow), [LastRow](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table#get_lastrow), and others.
+- A parent node exposes a typed collection of child nodes, such as [Document.Sections](https://apireference.aspose.com/words/cpp/class/aspose.words.document#get_sections), [Body.Paragraphs](https://apireference.aspose.com/words/cpp/class/aspose.words.story#get_paragraphs), and others.
+- A child node provides typed access to its parent, such as [Run.ParentParagraph](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#get_parentparagraph), [Paragraph.ParentSection](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph#get_parentsection), and others.
 
-Typed properties are merely useful shortcuts that sometimes provide easier access than generic properties inherited from [Node.ParentNode](https://apireference.aspose.com/words/cpp/class/aspose.words.node#aa57efaf56855239b19affd7d3862331a) and [CompositeNode.FirstChild](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#a1c5a97dd08796b6313df330c1cfbbaa6).
+Typed properties are merely useful shortcuts that sometimes provide easier access than generic properties inherited from [Node.ParentNode](https://apireference.aspose.com/words/cpp/class/aspose.words.node#get_parentnode) and [CompositeNode.FirstChild](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#get_firstchild_const).
 
 The following code example shows how to use typed properties to access nodes of the document tree:
 

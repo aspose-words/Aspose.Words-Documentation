@@ -30,7 +30,7 @@ You can try this functionality with our [Free online document splitter](https://
 
 Aspose.Words allows you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.
 
-You can specify criteria using the [DocumentSplitCriteria](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving/#a21c39143a76e997332687767db80fc07) enumeration. So you can divide a document into chapters using one of the following criteria or combine more than one criteria together:
+You can specify criteria using the [DocumentSplitCriteria](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving/#documentsplitcriteria) enumeration. So you can divide a document into chapters using one of the following criteria or combine more than one criteria together:
 
 - heading paragraph,
 - section break,
@@ -41,7 +41,7 @@ When saving the output to HTML, Aspose.Words save each individual chapter as a s
 
 {{% alert color="primary" %}} 
 
-You cannot split a document using the [DocumentSplitCriteria](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving/#a21c39143a76e997332687767db80fc07) property when saving to MHTML format.
+You cannot split a document using the [DocumentSplitCriteria](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving/#documentsplitcriteria) property when saving to MHTML format.
 
 {{% /alert %}} 
 
@@ -57,7 +57,7 @@ The following code example shows how to split a document into smaller parts by 
 
 ## Splitting by Pages
 
-You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/cpp/class/aspose.words.document#a99bb28aef2d4a58866979eeb2d60febd) method can do the job.
+You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/cpp/class/aspose.words.document#extractpages_int_int) method can do the job.
 
 This section describes several use cases of dividing documents by paged using the [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) class and the **ExtractPages** method.
 

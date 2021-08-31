@@ -105,7 +105,7 @@ This is because Microsoft Office fallback settings are selected by default, and 
 
 **Q: Why might complex script text, such as Thai or Hebrew, be displayed inaccurately for some reason, such as the wrong position for diacritics or inaccurate ligatures?**
 
-Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#a73bf6b5c10e1e6208e10110bbd6fed2e).
+Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_textshaperfactory_const).
 
 ------
 

@@ -19,11 +19,11 @@ Due to this, if you process documents uploaded to a server this could potentiall
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-DetectDocumentSignatures-DetectDocumentSignatures.cpp" >}}
 
-The code above uses the [FileFormatUtil.DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util/#a40672aef78025e28055af0d6dafd1eef) method to detect if a document contains digital signatures without loading the document first. This provides an efficient and safe way to check a document for signatures before processing them. When executed, the method returns a [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info) object which provides the property [FileFormatInfo.HasDigitalSignature](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info/#abb1a4f2b76f47560ca8da3cca1c769e0). This property returns true if the document contains one or more digital signatures. It’s important to note that this method does not validate the signatures, it only determines if signatures are present. Validating digital signatures is covered in the next section.
+The code above uses the [FileFormatUtil.DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util/#detectfileformat_string) method to detect if a document contains digital signatures without loading the document first. This provides an efficient and safe way to check a document for signatures before processing them. When executed, the method returns a [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info) object which provides the property [FileFormatInfo.HasDigitalSignature](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info/#get_hasdigitalsignature_const). This property returns true if the document contains one or more digital signatures. It’s important to note that this method does not validate the signatures, it only determines if signatures are present. Validating digital signatures is covered in the next section.
 
 {{% alert color="primary" %}} 
 
-You can also check if a document has digital signatures after loading by checking the Count property of the [Document.DigitalSignatures collection](https://apireference.aspose.com/words/cpp/class/aspose.words.document/#a4f334813c4a56cc2b203507aeff7cf0b).
+You can also check if a document has digital signatures after loading by checking the Count property of the [Document.DigitalSignatures collection](https://apireference.aspose.com/words/cpp/class/aspose.words.document/#get_digitalsignatures_const).
 
 {{% /alert %}} 
 
@@ -43,7 +43,7 @@ A generated PDF document can be signed during saving. Currently only PDF documen
 
 ### Access and Verify Digital Signatures
 
-The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#a0cb3409a8652d194706c402493946ba5) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
+The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_isvalid) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
 
 Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. 
 

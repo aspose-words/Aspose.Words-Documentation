@@ -25,7 +25,7 @@ Aspose.Words presents the find and replace functionality with the [Aspose.Words.
 
 ### Find and Replace Text using Simple String Replacement
 
-You can use one of the [Replace](https://apireference.aspose.com/words/cpp/class/aspose.words.range#a71d4116d889ba44bb71c34a2887d60e9) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
+You can use one of the [Replace](https://apireference.aspose.com/words/cpp/class/aspose.words.range#replace_regex_string) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
 
 The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
@@ -43,7 +43,7 @@ And after applying simple string replacement:
 
 A regular expression (regex) is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double-word pattern: `([a-zA-Z]+) \1`.
 
-Use the other [Replace](https://apireference.aspose.com/words/cpp/class/aspose.words.range#a0bf64cc2b53bdb1e407c43f6a6e61405) method to search and replace particular character combinations by setting the Regex parameter as the regular expression pattern to find matches.
+Use the other [Replace](https://apireference.aspose.com/words/cpp/class/aspose.words.range#replace_regex_string) method to search and replace particular character combinations by setting the Regex parameter as the regular expression pattern to find matches.
 
 The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 
@@ -113,7 +113,7 @@ And after applying footer string replacement:
 
 While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
 
-Aspose.Words provides many find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options), [IgnoreFields](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#ad1d6ffd2811f93722fb7c6e7a25ca641), and [IgnoreInserted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#acab2ad6dcd055c092aa45aca692471d4).
+Aspose.Words provides many find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options), [IgnoreFields](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefields_const), and [IgnoreInserted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignoreinserted_const).
 
 The following code example shows how to ignore text inside delete revisions:
 
