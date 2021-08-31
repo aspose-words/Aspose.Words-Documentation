@@ -174,3 +174,30 @@ for (int page = 0; page < pageCount; page++)
     extractedPage->Save(ArtifactsDir + String::Format(u"SplitDocument.PageByPage_{0}.docx", page + 1));
 }
 {{< /highlight >}}
+
+------
+
+**Q: How to open an encrypted** **document?**
+
+You can try to open an encrypted document without a password, which should lead to an exception.
+
+The following code example shows how to open an encrypted document with a password:
+
+{{< highlight csharp >}}
+// Create a document.
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
+builder->Write(u"Hello world!");
+
+//OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
+auto options = System::MakeObject<OoxmlSaveOptions>(SaveFormat::Docx);
+
+// Set a password with which the document will be encrypted, and which will be required to open it.
+options->set_Password(u"MyPassword");
+doc->Save(u"OoxmlSaveOptions.SaveAsDocx.docx", options);
+
+// Open the encrypted document by passing the correct password in a LoadOptions object.
+doc = System::MakeObject<Document>(u"OoxmlSaveOptions.Password.docx", System::MakeObject<LoadOptions>(u"MyPassword"));
+
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
+{{< /highlight >}}
