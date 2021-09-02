@@ -12,7 +12,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 
 | Aspose.Words feature                                         | Corresponding documentation article or section               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Convert between Different Document Formats. For example, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The [“Convert a Document”](https://docs.aspose.com/words/java/convert-a-document/) section |
+| Convert between different document formats. For example, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The [“Convert a Document”](https://docs.aspose.com/words/java/convert-a-document/) section |
 | Mail Merge                                                   | The [”Mail Merge and Reporting”](https://docs.aspose.com/words/java/mail-merge-and-reporting/) section |
 | Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/java/rendering/) section |
 | Print a document                                             | The [”Printing a Document Programmatically or Using Dialogs”](https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/) article |
@@ -22,6 +22,5 @@ The following table contains some of the popular features supported by Aspose.Wo
 | Manage a Table of Content (TOC)                              | The [“Working with Table of Contents”](https://docs.aspose.com/words/java/working-with-table-of-contents/) article |
 | Manipulate form fields                                       | The [“Working with Form Fields”](https://docs.aspose.com/words/java/working-with-form-fields/) article |
 | Manipulate tables                                            | The [“Working with Tables”](https://docs.aspose.com/words/java/working-with-tables/) section |
-| And others                                                   |                                                              |
 
 The table is not complete, so you can check [our documentation](https://docs.aspose.com/words/java/) for the feature you are interested in.

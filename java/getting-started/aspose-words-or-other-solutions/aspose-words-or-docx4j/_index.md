@@ -1,130 +1,43 @@
 ---
-title: Aspose.Words or docx4j
+title: Aspose.Words or Docx4j
+description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words allows to perform a large number of tasks with documents faster and more conveniently than docx4j."
 type: docs
-weight: 40
+weight: 25
 url: /java/aspose-words-java-for-docx4j/
 ---
 
-## docx4j
+Sometimes we get the following question: why should we use Aspose products rather than the docx4j? This question is easy to answer: features and functionality.
 
-docx4j is an open source (ASLv2) Java library for creating and manipulating Microsoft Open XML Word docx files.
-It is similar to Microsoft’s OpenXML SDK, but for Java. docx4j uses JAXB to create the in-memory object representation.
-You’ll need to take the time to understand JAXB, and the Open XML file structure.
+Docx4j is an open source (ASLv2) Java library for creating and manipulating documents in Microsoft Open XML Word formats. It is similar to Microsoft Open XML SDK for Java. Docx4j uses JAXB to create an in-memory object representation, and it will take you a while to understand JAXB and the Open XML file structure.
 
-Read more at [docx4java.org](http://www.docx4java.org/trac/docx4j)
+Aspose.Words is a very useful document processing library that provides great support for all Microsoft Word and other document formats. With Aspose.Words you can view, generate, modify, convert, render, and print documents without using Microsoft Word.
 
-## Aspose.Words for Java
+In this article, we will look at when it makes sense for you to prefer Aspose.Words.
 
-Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
+## Why not docx4j
 
-Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can generate, modify, and convert documents without using Microsoft Word.
+It is worth noting that some tasks can be achieved with Aspose.Words, but cannot be accomplished with docx4j.
 
-Read more at [aspose.com](http://www.aspose.com/java/word-component.aspx)
+You can compare docx4j with Aspose. To do this, we suggest that you familiarize yourself with the [Aspose.Words Java for Docx4j](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0) – it shows how different tasks can be done using the Aspose.Words for Java API versus docx4j. The project also covers features for working with text documents that are only available in Aspose.Words, but not in docx4j.
 
-## Aspose.Words Java for docx4j
+This project is also useful for developers looking to migrate from docx4j to Aspose.Words.
 
-Project Aspose.Words for docx4j shows how different tasks can be performed using Aspose.Words Java APIs in comparison with docx4j. The project also covers the features that are only available in Aspose.Words APIs but not in docx4j for dealing with word processing documents.
+In the following sections and articles, we will take a closer look at some of the features and abilities provided by Aspose.Words.
 
-This project is helpful for developers who want to compare docx4j with Aspose.Words OR migrate from docx4j to Aspose.Words.
+### Stability
 
-## System Requirements and Supported Platforms
+Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
 
-### System Requirements
+### Scalability and Speed
 
-Following are the system requirements to execute Aspose.Words Java for docx4j:
+Aspose components are highly scalable and lightning fast. They are a true Java solution and perform flawlessly on either a single server powering a single application or a load balanced web farm powering an enterprise application.
 
-- Java 1.4 or above installed.
-- Downloaded Aspose.Words component.
-- Downloaded docx4j libraries.
+### Features
 
-### Supported Platforms
+Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Following are the supported platforms:
+Aspose components provide many powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/java/?gclid=EAIaIQobChMI3-HX4PDI8gIVDKxoCh2CKwMnEAEYASAAEgJTm_D_BwE) offers a feature that allows developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](https://docs.aspose.com/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
-- Aspose.Words 14.10.0 or above.
-- docx4j 3.1.0 or above libraries.
-- Java IDE (Eclipse, NetBeans, IntelliJ, ...).
+## See Also
 
-## Downloading
-
-Following releases of running examples are available to download on all of the below mentioned social coding sites:
-
-### CodePlex
-
-- [Aspose.Words Java for Docx4j - v 1.0](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
-
-### GitHub
-
-- [Aspose.Words Java for Docx4j - v 1.0](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
-
-To configure **Aspose.Words for Java API**, include the Aspose repository URL and Aspose.Words for Java API maven dependency in your **pom.xml** as following:
-
-### Aspose Maven Repository
-
-{{< highlight csharp >}}
-<repositories>
-    <repository>
-        <id>aspose-maven-repository</id>
-        <name>Aspose Maven Repository</name>
-        <url>http://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-{{< /highlight >}}
-
-### Aspose.Words for Java Maven Dependency
-
-{{< highlight csharp >}}
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>15.6.0</version>
-    <classifier>jdk16</classifier>
-</dependency>
-{{< /highlight >}}
-
-**Note:** Please use the available latest version of the Aspose API.
-
-## Support, Extend and Contribute
-
-### Support
-
-From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
-
-This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
-
-You can log any issues or suggestions related to Aspose.Words Java for Docx4j using any of the following platforms:
-
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/workitem/list/basic)
-- [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
-
-### Extend and Contribute
-
-Aspose.Words Java for Docx4j is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
-
-### Source Code
-
-You can get the latest source code from one of the following locations
-
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest)
-- [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j)
-
-### How to configure the source code
-
-Please follow these simple steps in order to open and extend the source code while using:
-
-#### Eclipse IDE
-
-1. Download/Clone the source code.
-1. Open Eclipse and Choose **File** > **Import...**
-1. Select **General** > **Existing Projects into Workspace**.
-1. Browse to **select root directory** of the latest source code that you have downloaded.
-1. Click **Finish** to successfully import the downloaded project.
-
-#### NetBeans IDE
-
-1. Download/Clone the source code.
-1. Open NetBeans and Choose **File** > **New Project...**
-1. In **Choose Project** tab: Select **Java** > **Java Project with Existing Sources**.
-1. In **Name and Location** tab: Provide your desired **Project Name** and **Project Folder**.
-1. In **Existing Sources** tab: Click **Add Folder...** and browse to select root directory of the latest source code that you have downloaded.
-1. Click **Finish** to successfully create the downloaded project.
+* [More about docx4j](https://www.docx4java.org/trac/docx4j)
