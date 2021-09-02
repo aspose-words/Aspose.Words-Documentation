@@ -30,7 +30,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21742 | Add feature to export language in Tag tab of object properties   (ExportDocumentStructure) | New Feature |
 | WORDSNET-17842 | Set Language in PDF Tag Properties | New Feature |
 | WORDSNET-18006 | Widow/orphan rule not respected in the PDF output | New Feature |
-| WORDSNET-22576 | Unable to SetLicense on Xamarin.iOS when   using SDK Linking | Enhancement \\ |
+| WORDSNET-22576 | Unable to SetLicense on Xamarin.iOS when   using SDK Linking | Enhancement |
 | WORDSNET-15320 | Document's comment is lost after comparing documents | Bug |
 | WORDSNET-22614 | The indentation of the equation changed after converting a Docx to PDF | Bug |
 | WORDSNET-22632 | Find and Replace does not work with delete revisions | Bug |
@@ -154,10 +154,10 @@ A new public static method 'GetEffectiveValue()' has been added to the 'ListLeve
 /// </exception>
 /// <exception cref="ArgumentOutOfRangeException">index is out of range.</exception>
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, string customNumberStyleFormat);
-{{< highlight csharp >}}
+{{< /highlight >}}
 
 Use Case: Explains how to get the string representation of the ListLevel object for the specified index of the list item.
 {{< highlight csharp >}}
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, "001, 002, 003, ..."));
-{{< highlight csharp >}}
+{{< /highlight >}}
