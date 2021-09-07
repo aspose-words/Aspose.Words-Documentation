@@ -15,6 +15,7 @@ This page contains release notes for [Aspose.Words for Java 21.9](https://reposi
 
 There are 87 improvements and fixes in this regular monthly release. The most notable are:
 
+- License checking is updated to tolerate "suspicious" complex environments.
 - Added an ability to get CustomNumberStyleFormat of ListLevel.
 - Make it possible to get the string representation of the ListLevel object for the specified index.
 - Implemented export of triangular gradients into PDF in native (vector) form.
