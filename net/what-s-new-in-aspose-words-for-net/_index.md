@@ -27,6 +27,21 @@ For more information on these changes, see the [Aspose.Words for .NET 21.3 Relea
 
 {{% /alert %}}
 
+## Aspose.Words for .NET 21.9
+
+Aspose.Words 21.9 expands the list-level formatting control.
+
+The API is enhanced for more flexible and convenient development:
+
+* An ability to get the [CustomNumberStyleFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/customnumberstyleformat) property of the [ListLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel) object has been added.
+* A possibility to get the string representation of the [ListLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel) object for a specified index using the [GetEffectiveValue](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/methods/geteffectivevalue) method has been added.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 21.9 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 21.5, 21.6, 21.7, 21.8
 
 Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
