@@ -33,6 +33,10 @@ Below example shows how to build a multilevel list.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetMultilevelListFormatting.cs" >}}
 
+## Specify Formatting for a List Level
+
+List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel) class to control the formatting of individual levels of a list.
+
 ## How to Restart List for each Section
 
 You can restart a list for each section using List.IsRestartAtEachSection property. Note that this option is supported only in RTF, DOC and DOCX document formats. This option will be written to DOCX only if OoxmlCompliance is higher then Ecma376. Following code example shows how to create a list and restart it for each section. 
