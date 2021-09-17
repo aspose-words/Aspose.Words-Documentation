@@ -69,7 +69,7 @@ Calling **SetLicense** multiple times is not harmful, it just wastes processor t
 
 #### Apply License Using a File or Stream Object
 
-When developing your application, call SetLicense in your startup code before using Aspose.Words classes.
+When developing your application, call **SetLicense** in your startup code before using Aspose.Words classes.
 
 ##### Load a License from a File
 

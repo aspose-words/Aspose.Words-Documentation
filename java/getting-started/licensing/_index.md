@@ -77,7 +77,13 @@ Calling **SetLicense** multiple times is not harmful, it just wastes processor t
 
 #### Apply License Using a File or Stream Object
 
-When developing a class library, you can call SetLicense from the static constructor of your class that uses Aspose.Words. The static constructor will be executed prior to instantiating your class to ensure that the Aspose.Words license is installed correctly.
+{{% alert color="primary" %}}
+
+Call **SetLicense** in your startup code before using Aspose.Words classes.
+
+{{% /alert %}}
+
+When developing a class library, you can call **SetLicense** from the static constructor of your class that uses Aspose.Words. The static constructor will be executed prior to instantiating your class to ensure that the Aspose.Words license is installed correctly.
 
 ##### Load a License from a File
 
