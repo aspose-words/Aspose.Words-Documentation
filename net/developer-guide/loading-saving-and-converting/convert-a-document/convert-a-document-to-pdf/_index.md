@@ -55,16 +55,12 @@ Converting to PDF is not restricted by Microsoft Word document formats. Any for
 
 The following code example shows how to convert JPEG and TIFF images to PDF:
 
-**.NET**
-
 {{< highlight csharp >}}
 
 // Convert image in a specified format to PDF.
 ConvertImageToPdf(dataDir + "Test.jpg", dataDir + "TestJpg_out.pdf");
 ConvertImageToPdf(dataDir + "Test.tiff", dataDir + "TestTif_out.pdf");
 {{< /highlight >}}
-
-**.NET**
 
 {{< highlight csharp >}}
 public void ConvertImageToPdf(string inputFileName, string outputFileName)
