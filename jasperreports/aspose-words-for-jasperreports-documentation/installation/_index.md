@@ -49,7 +49,7 @@ Stop JasperReports Server. It is recommended also to clean **<InstallDir>\apache
 
 **Step 1**
 
-Before <[util:map](http://utilmap) id="exporterConfigMap"> item, add the following new exporter properties to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file.
+Before <util:map id="exporterConfigMap"> item, add the following new exporter properties to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file.
 
 Following properties - <property name="iconSrc" ... /> are only applied to JasperReports Server 3.x and 4.x, these properties are not required for JasperReports Server 5.x, 6.x and 7.x.
 
