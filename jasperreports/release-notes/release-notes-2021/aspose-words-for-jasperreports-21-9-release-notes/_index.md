@@ -30,3 +30,4 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJR-311|Upgrade to the latest version of [Aspose.Words for Java (21.9)](https://docs.aspose.com/words/java/aspose-words-for-java-21-9-release-notes/)|New feature|
+|WORDSJR-309|Runtime exception thrown when setting PAGE_MARGINS |Bug|
