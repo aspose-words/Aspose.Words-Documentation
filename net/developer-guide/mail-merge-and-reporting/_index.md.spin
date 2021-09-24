@@ -27,7 +27,7 @@ The [Aspose.Words.MailMerging](https://apireference.aspose.com/words/net/aspose.
 
 {{% /alert %}}
 
-## Mechanism and Main Components of a Mail Merge Operation {#mechanism-and-main-components-of-a-mail-merge-operation}
+## Mechanism and {Main Components|Components} of {Mail Merge|a Mail Merge Operation} {#mechanism-and-main-components-of-a-mail-merge-operation}
 
 Aspose.Words provides the ability to load documents in various [supported formats](https://apireference.aspose.com/words/net/aspose.words/loadformat) and then allows users to perform a mail merge operation.
 
@@ -35,7 +35,7 @@ Usually, a loaded document allows you to store merge fields, for example, a doc
 
 The mail merge operation will merge your *mail merge template* and your *data source* to generate individual *merged documents*.
 
-## What is a Mail Merge Template {#what-is-a-mail-merge-template}
+## What is a {Mail Merge Template|Merge Template} {#what-is-a-mail-merge-template}
 
 The goal of applying a mail merge operation using a merge template is to simplify the process of creating a document.
 
@@ -43,7 +43,7 @@ There are several ways to create and design a merge template. You can use Micro
 
 The merge template contains the main text, which should be the same in all output documents after you perform the mail merge operation. You can use any format for your template if there is an ability to add merge fields to it. All merge fields within your template will be filled in from your data source during the mail merge operation.
 
-## Data Source Types for a Mail Merge Operation {#data-source-types-for-a-mail-merge-operation}
+## {Data Sources|Data Source Types} for {a Mail Merge Operation|Mail Merge} {#data-source-types-for-a-mail-merge-operation}
 
 Aspose.Words mail merge accepts various data sources. This can be either a DataTable, DataView, DataSet, IDataReader, an array of values supported by ADO .NET, or custom data sources represented by [IMailMergeDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource) implementations.
 
@@ -59,7 +59,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](htt
 
 {{% /alert %}} 
 
-## Merged Documents of a Mail Merge Operation {#merged-documents-of-a-mail-merge-operation}
+## {Merged Documents|Result} of a Mail Merge Operation {#merged-documents-of-a-mail-merge-operation}
 
 A merged document is the result of the mail merge operation when you merge the template with the data source. All merge fields within the merged document are replaced with actual data from your data source.
 

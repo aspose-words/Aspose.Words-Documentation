@@ -20,7 +20,7 @@ Note that the number of pages in a document affects the conversion time.
 
 {{% /alert %}} 
 
-### Convert {DOCX or DOC|DOC or DOCX|} to PDF {#converting-doc-or-docx-to-pdf}
+### Convert {DOCX or DOC|DOC or DOCX} to PDF {#converting-doc-or-docx-to-pdf}
 
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
