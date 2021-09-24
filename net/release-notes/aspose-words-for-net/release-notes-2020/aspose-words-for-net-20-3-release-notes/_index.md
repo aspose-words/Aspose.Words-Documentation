@@ -320,7 +320,7 @@ Starting with Aspose.Words 20.3 Xamarin support is changed. In earlier versions,
 
 Related issue: WORDSNET-19999.
 
-The following obsolete property of [DigitalSignature](https://apireference.aspose.com/net/words/aspose.words/digitalsignature) class was removed:
+The following obsolete property of **DigitalSignature** class was removed:
 
 **.NET**
 
