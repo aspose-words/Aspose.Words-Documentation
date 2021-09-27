@@ -11,7 +11,7 @@ Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful 
 
 - The [VBAProject](https://apireference.aspose.com/words/net/aspose.words.vba/vbaproject) class provides access to VBA project information
 - The [VBAModuleCollection](https://apireference.aspose.com/slides/net/aspose.slides.vba/vbamodulecollection) class returns the collection of VBA project modules
-- The [VbaModule](https://apireference.aspose.com/words/net/aspose.words/vbamodule) class provides access to the VBA project module
+- The [VbaModule](https://apireference.aspose.com/words/net/aspose.words.vba/vbamodule) class provides access to the VBA project module
 - The [VbaModuleType](https://apireference.aspose.com/cells/net/aspose.cells.vba/vbamoduletype) enumeration defines the types of a model in a VBA project. The module can be a procedural module, document module, class module, or designer module
 
 ## Creating a VBA Project
@@ -34,13 +34,13 @@ The following code example demonstrates how to modify VBA Macros using the VbaMo
 
 ## Clone VBA Project
 
-The following code example demonstrates how to clone the VBA Project using the [VbaProject.Clone](https://apireference.aspose.com/words/net/aspose.words/vbaproject/methods/clone) property which creates a copy of the existing project. 
+The following code example demonstrates how to clone the VBA Project using the [VbaProject.Clone](https://apireference.aspose.com/words/net/aspose.words.vba/vbaproject/methods/clone) property which creates a copy of the existing project. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaProject.cs" >}}
 
 ## Clone VBA Module
 
-The following code example demonstrates how to clone the VBA Module using the [VbaModule.Clone](https://apireference.aspose.com/words/net/aspose.words/vbamodule/methods/clone) property which creates a copy of the existing project. 
+The following code example demonstrates how to clone the VBA Module using the [VbaModule.Clone](https://apireference.aspose.com/words/net/aspose.words.vba/vbamodule/methods/clone) property which creates a copy of the existing project. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaModule.cs" >}}
 
