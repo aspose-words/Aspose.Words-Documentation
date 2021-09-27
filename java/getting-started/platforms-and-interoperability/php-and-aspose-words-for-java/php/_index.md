@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words Java For PHP in More Details
 type: docs
-weight: 60
+weight: 5
 url: /java/aspose-words-java-for-php/
 ---
 

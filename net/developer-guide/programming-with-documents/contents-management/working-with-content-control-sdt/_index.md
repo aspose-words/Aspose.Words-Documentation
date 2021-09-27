@@ -39,8 +39,6 @@ The following code example demonstrates how to create content control of the ty
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-ComboBoxContentControl-ComboBoxContentControl.cs" >}}
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-ComboBoxContentControl-ComboBoxContentControl.cs" >}}
-
 ## How to update Content Controls
 
 This section explains how to update the values of SDT or content control programmatically. The following code example demonstrates how to set the current state of the checkbox. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Structured%20document%20tags.docx).

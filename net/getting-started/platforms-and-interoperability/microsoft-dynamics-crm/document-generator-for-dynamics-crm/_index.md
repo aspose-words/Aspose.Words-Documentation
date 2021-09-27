@@ -51,19 +51,19 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 - Download the Solution and place it on your hard disk.
 - Open CRM and go to Import Solution. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_1)
+![document-generator-for-dynamics-crm-1](1)
 
 - Click Browse and select the downloaded file and click next. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_2)
+![document-generator-for-dynamics-crm-2](2)
 
 - Click Next and Activate any process within the solution. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_3)
+![document-generator-for-dynamics-crm-3](3)
 
 - Click the close button when the solution import is successful. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_4)
+![document-generator-for-dynamics-crm-4](4)
 
 ### Applying License
 
@@ -72,15 +72,15 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 - Open CRM and Navigate to Processes.
 - Open "Aspose .NET Document Generator" and deactivate it. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_5)
+![document-generator-for-dynamics-crm-5](5)
 
 - Scroll Down to the "Create Document From Template" Step and Click View Properties. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_6)
+![document-generator-for-dynamics-crm-6](6)
 
 - Add the Path of License File. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_7)
+![document-generator-for-dynamics-crm-7](7)
 
 - Activate the Process and Close it.
 
@@ -88,11 +88,11 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 
 - Go To Solution and select Aspose .Net Document Generator. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_8)
+![document-generator-for-dynamics-crm-8](8)
 
 - Click Ok on the next screen. 
 
-![todo:image_alt_text](document-generator-for-dynamics-crm_9)
+![document-generator-for-dynamics-crm-9](9)
 
 ## Using
 
