@@ -320,7 +320,7 @@ Starting with Aspose.Words 20.3 Xamarin support is changed. In earlier versions,
 
 Related issue: WORDSNET-19999.
 
-The following obsolete property of **DigitalSignature** class was removed:
+The following obsolete property of [DigitalSignature](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures) class was removed:
 
 **.NET**
 
@@ -334,10 +334,10 @@ public X509CertificateSystem Certificate
 
 
 
-Please use the following property instead: **CertificateHolder.Certificate**
+Please use the following property instead: [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder).[Certificate](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/properties/certificate)
 
 -----
-The following obsolete method of **CertificateHolder** class was removed:
+The following obsolete method of [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder) class was removed:
 
 **.NET**
 
