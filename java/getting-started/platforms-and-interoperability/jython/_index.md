@@ -3,6 +3,7 @@ title: Jython
 type: docs
 weight: 55
 url: /java/aspose-words-java-for-jython/
+aliases: [/java/jython-programmers-guide/]
 ---
 
 ## What is Jython?
