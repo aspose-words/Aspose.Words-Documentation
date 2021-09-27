@@ -52,7 +52,7 @@ The example shown below demonstrates how Aspose.Words renders a metafile to a bi
 
 ## Metafile Fallback Settings
 
-Aspose.Words does not support a number of metafile features that are most complex or rare. Users can implement the [IWarningCallBack](https://apireference.aspose.com/words/cpp/class/aspose.words.load_options/#FIX-ME) interface and receive warning messages. If Aspose.Words encounters unsupported features in a metafile, it issues a warning message with [WarningSource](https://apireference.aspose.com/words/cpp/class/aspose.words.warning_info/#get_source_const).**Metafile**. In this case Aspose.Words may perform fallback to a different type of metafile player. The warning message regarding fallback is also issued.
+Aspose.Words does not support a number of metafile features that are most complex or rare. Users can implement the [IWarningCallBack](https://apireference.aspose.com/words/cpp/class/aspose.words.i_warning_callback) interface and receive warning messages. If Aspose.Words encounters unsupported features in a metafile, it issues a warning message with [WarningSource](https://apireference.aspose.com/words/cpp/class/aspose.words.warning_info/#get_source_const).**Metafile**. In this case Aspose.Words may perform fallback to a different type of metafile player. The warning message regarding fallback is also issued.
 
 Firstly, Aspose.Words performs fallback from the vector metafile player to raster, which is controlled by the [RenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/#get_renderingmode_const) property. If the fallback feature is disabled, Aspose.Words tries to render some substitution graphics instead of the features that are not supported.
 
