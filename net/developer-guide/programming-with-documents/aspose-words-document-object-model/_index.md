@@ -10,11 +10,11 @@ The Aspose.Words Document Object Model (DOM) is an in-memory representation of a
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
-## Create a Document Objects Tree
+## Create a Document Objects Tree {#create-a-document-objects-tree}
 
 When a document is read into the Aspose.Words DOM, then an object tree is built and different types of elements of the source document have their own DOM tree objects with various properties.
 
-### Build Document Nodes Tree
+### Build Document Nodes Tree {#build-document-nodes-tree}
 
 When Aspose.Words reads a Word document into memory, it creates objects of different types that represent various document elements. Every run of a text, paragraph, table, or a section is a node, and even the document itself is a node. Aspose.Words defines a class for every document node type.
 
@@ -43,7 +43,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 [Document](http://www.aspose.com/api/net/words/aspose.words/document), [Section](http://www.aspose.com/api/net/words/aspose.words/section), [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph), [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table), [Shape](http://www.aspose.com/api/net/words/aspose.words.drawing/shape), [Run](http://www.aspose.com/api/net/words/aspose.words/run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
-### Get a Node Type
+### Get a Node Type {#get-a-node-type}
 
 Although the [Node](https://apireference.aspose.com/net/words/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/net/words/aspose.words/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
@@ -53,7 +53,7 @@ The following example shows how to get a node type using the **NodeType** enumer
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-UseNodeType.cs" >}}
 
-## Document Tree Navigation
+## Document Tree Navigation {#document-tree-navigation}
 
 Aspose.Words represents a document as a node tree, which enables you to navigate between nodes. This section describes how to explore and navigate the document tree in Aspose.Words.
 
@@ -63,11 +63,11 @@ When you open the sample document, presented earlier, in the Document Explorer, 
 
 {{% alert color="primary" %}}
 
-You can learn the sample project "Document Explorer" on the [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/CSharp/Viewers-Visualizers).
+You can learn the sample project "Document Explorer" on the [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples).
 
 {{% /alert %}}
 
-### Document Nodes Relationships
+### Document Nodes Relationships {#document-nodes-relationships}
 
 The nodes in the tree have relationships between them:
 
@@ -133,7 +133,7 @@ The following code example shows how to efficiently visit all direct and indirec
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-RecurseAllNodes.cs" >}}
 
-### Typed Access to Child and Parent Nodes
+### Typed Access to Child and Parent Nodes {#typed-access-to-child-and-parent-nodes}
 
 So far, we have discussed the properties that return one of the base types – **Node** or **CompositeNode**. But sometimes there are situations where you might need to cast values to a specific node class, such as **Run** or **Paragraph**. That is, you cannot completely get away from casting when working with the Aspose.Words DOM, which is composite.
 

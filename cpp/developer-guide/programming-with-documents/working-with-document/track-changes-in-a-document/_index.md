@@ -30,7 +30,7 @@ Note that Microsoft Word does not allow you to view individual revisions, it onl
 
 {{% /alert %}}
 
-Aspose.Words supports different revision types, as well as in Microsoft Word, such as Insertion, Deletion, FormatChange, StyleDefinitionChange, and Moving. All revision types are represented with the [RevisionType](https://apireference.aspose.com/words/cpp/namespace/aspose.words#a43309065c8be1f20fae8bd689084cc2b) enumeration.
+Aspose.Words supports different revision types, as well as in Microsoft Word, such as Insertion, Deletion, FormatChange, StyleDefinitionChange, and Moving. All revision types are represented with the [RevisionType](https://apireference.aspose.com/words/cpp/namespace/aspose.words#revisiontype) enumeration.
 
 {{% alert color="primary" %}}
 
@@ -40,15 +40,15 @@ Note that revisions have a result similar to Microsoft Word but Aspose.Words doe
 
 ## Start and Stop Tracking Changes
 
-Editing a document usually does not count as a revision until you begin tracking it. Aspose.Words allows you to automatically track all changes in your document with simple steps. You can easily start the process of tracking changes by using the [StartTrackRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#a061d1158179354c8a22c3664a4fbf513) method. If you need to stop the process of tracking changes so that any future edits are not considered revisions, you will need to use the [StopTrackRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#ae56038652fb479eb9cd7f5917655f9f7) method.
+Editing a document usually does not count as a revision until you begin tracking it. Aspose.Words allows you to automatically track all changes in your document with simple steps. You can easily start the process of tracking changes by using the [StartTrackRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#starttrackrevisions_string) method. If you need to stop the process of tracking changes so that any future edits are not considered revisions, you will need to use the [StopTrackRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#stoptrackrevisions) method.
 
 {{% alert color="primary" %}}
 
-Note that the StartTrackingRevisions method does not change the status of the [TrackRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#ab18436f335cff354e30a1570e6f7cd64) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
+Note that the StartTrackingRevisions method does not change the status of the [TrackRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#set_trackrevisions) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
 
 {{% /alert %}}
 
-At the end of the tracking changes process in your document, you will have the ability to even accept all revisions or reject them to revert the document to its original form. This can be achieved by either using the [AcceptAllRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#ae5d108969c269eb7f2f5da4d6669eec3) or [RejectAll](https://apireference.aspose.com/words/cpp/class/aspose.words.revision_collection#ade063e90e8632c54d0fb6b7c398fecd0) method. In addition, you can accept or reject each revision separately by using the [Accept](https://apireference.aspose.com/words/cpp/class/aspose.words.revision#a7b7ab08e3ed29d366c720286b2f882f6) or [Reject](https://apireference.aspose.com/words/cpp/class/aspose.words.revision#a4ccb1d9e69a3fb2783da8f8d737151ca) method.
+At the end of the tracking changes process in your document, you will have the ability to even accept all revisions or reject them to revert the document to its original form. This can be achieved by either using the [AcceptAllRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#acceptallrevisions) or [RejectAll](https://apireference.aspose.com/words/cpp/class/aspose.words.revision_collection#rejectall) method. In addition, you can accept or reject each revision separately by using the [Accept](https://apireference.aspose.com/words/cpp/class/aspose.words.revision#accept) or [Reject](https://apireference.aspose.com/words/cpp/class/aspose.words.revision#reject) method.
 
 All changes will be tracked for one iteration from the moment you start the process to the moment you stop it. The connection between different iterations is represented as the following scenario: you complete the tracking process, then make some changes, and start tracking changes again. With this scenario, all changes that you did not accept or reject will be displayed again.
 
@@ -68,13 +68,13 @@ The following code example shows how revisions are generated when a node is move
 
 ## Manage and Store Changes as Revisions
 
-With the previous tracking changes feature, you can understand which changes were made in your document and who made those changes. While with the [TrackRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#ab658ac44514c4e24e5e6cfe142648b85) feature, you force any changes within your document to be stored as revisions.
+With the previous tracking changes feature, you can understand which changes were made in your document and who made those changes. While with the [TrackRevisions](https://apireference.aspose.com/words/cpp/class/aspose.words.document#get_trackrevisions) feature, you force any changes within your document to be stored as revisions.
 
-Aspose.Words allows you to check if a document has a revision or not by using the [HasRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.document#a338b823b285cdb10a412c1c6253d9581) property. If you do not need to automatically track the changes in your document through the StartTrackRevisions and StopTrackRevisions methods, then you can use the TrackRevisions property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
+Aspose.Words allows you to check if a document has a revision or not by using the [HasRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.document#get_hasrevisions) property. If you do not need to automatically track the changes in your document through the StartTrackRevisions and StopTrackRevisions methods, then you can use the TrackRevisions property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
 
 The TrackRevisions feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
 
-In addition, Aspose.Words allows you to check if an object was inserted, deleted, or changed formatting using the [IsDeleteRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#ad0beb416cfbf3364084abe0f4953449d), [IsFormatRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#a0f5429ed420b09883de9df99220f5f91), [IsInsertRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#a79d947ed19ffc663dd04cc94dc661ad2), [IsMoveFromRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#a0f5429ed420b09883de9df99220f5f91), and [IsMoveToRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#a11ebb4b8566fe5952a5d671445aa33a4) properties.
+In addition, Aspose.Words allows you to check if an object was inserted, deleted, or changed formatting using the [IsDeleteRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#get_isdeleterevision), [IsFormatRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#get_isformatrevision), [IsInsertRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#get_isinsertrevision), [IsMoveFromRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#get_isformatrevision), and [IsMoveToRevision](https://apireference.aspose.com/words/cpp/class/aspose.words.inline#get_ismovetorevision) properties.
 
 {{% alert color="primary" %}}
 

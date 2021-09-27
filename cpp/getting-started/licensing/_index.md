@@ -61,7 +61,7 @@ Often the easiest way to set a license is to place the license file in the same 
 
 {{% alert color="primary" %}}
 
-Use the [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#a652961d209c7ab08dfec68c2a5d3fd4f) method to license a component.
+Use the [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method to license a component.
 
 Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
@@ -69,11 +69,11 @@ Calling **SetLicense** multiple times is not harmful, it just wastes processor t
 
 #### Apply License Using a File or Stream Object
 
-When developing your application, call SetLicense in your startup code before using Aspose.Words classes.
+When developing your application, call **SetLicense** in your startup code before using Aspose.Words classes.
 
 ##### Load a License from a File
 
-Using the [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#aa5cad7b79177e582eb6dcb4d72d55907) method, you can try to find the license file in the embedded resources or assembly folders for further use.
+Using the [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method, you can try to find the license file in the embedded resources or assembly folders for further use.
 
 The following code example shows how to initialize a license from a folder:
 
@@ -81,7 +81,7 @@ The following code example shows how to initialize a license from a folder:
 
 ##### Load a License from a Stream Object
 
-The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#a652961d209c7ab08dfec68c2a5d3fd4f) method:
+The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-ApplyLicenseFromStream.h" >}}
 
@@ -109,7 +109,7 @@ You can read about how to work with resource files on the [”Working with Resou
 
 {{% /alert %}}
 
-The following code example shows how to initialize a license from an embedded resource using [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#a652961d209c7ab08dfec68c2a5d3fd4f) method:
+The following code example shows how to initialize a license from an embedded resource using [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-LicenseFromEmbeddedResourceWindows.h" >}}
 
@@ -123,7 +123,7 @@ For more information, see [”Embedding resources in executable using GCC”](ht
 
 {{% /alert %}}
 
-The following code code example shows how to initialize a license from an embedded resource using [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#a652961d209c7ab08dfec68c2a5d3fd4f) method:
+The following code code example shows how to initialize a license from an embedded resource using [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-LicenseFromEmbeddedResourceLinux.h" >}}
 

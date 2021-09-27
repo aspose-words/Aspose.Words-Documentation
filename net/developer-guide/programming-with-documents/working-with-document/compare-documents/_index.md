@@ -24,7 +24,7 @@ Note that the comparison method, described below, is used in this tool to ensure
 
 {{% /alert %}}
 
-## Limitations and Supported File Formats
+## Limitations and Supported File Formats {#limitations-and-supported-file-formats}
 
 Comparing documents is a very complex feature. There are varied parts of content combination that need to be analyzed to recognize all differences. The reason for this complexity is due to the fact that Aspose.Words aims to get the same comparison results as the Microsoft Word comparison algorithm.
 
@@ -36,7 +36,7 @@ Note that you can compare any two documents within the [supported file formats](
 
 {{% /alert %}}
 
-## Compare Two Documents
+## Compare Two Documents {#compare-two-documents}
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
@@ -52,7 +52,7 @@ The following code example shows how to simply apply the Compare method to two d
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-CompareDocument-ApplyCompareTwoDocuments.cs" >}}
 
-## Specify Advanced Comparing Properties
+## Specify Advanced Comparing Properties {#specify-advanced-comparing-properties}
 
 There are many different properties of the [CompareOptions](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions) class which you can apply when you want to compare documents.
 

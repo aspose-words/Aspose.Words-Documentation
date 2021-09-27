@@ -8,7 +8,7 @@ weight: 10
 url: /cpp/create-or-load-a-document/
 ---
 
-Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#a5fddddb463c824cf3fe353ce1bcd8f52) enumeration.
+Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) enumeration.
 
 ## Create a New Document
 
@@ -23,7 +23,7 @@ The following code example shows how to create a document using the document bui
 Note the default values:
 
 - A blank document contains one section with default parameters, one empty paragraph, some document styles. Actually this document is the same as the result of creating the “New document” in Microsoft Word.
-- The document paper size is [PaperSize](https://apireference.aspose.com/words/cpp/namespace/aspose.words/#a1a2f6b44133c9bd897dabca36c39ba25).**Letter**.
+- The document paper size is [PaperSize](https://apireference.aspose.com/words/cpp/namespace/aspose.words/#papersize).**Letter**.
 
 {{% /alert %}} 
 

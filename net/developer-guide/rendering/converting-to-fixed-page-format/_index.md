@@ -68,7 +68,7 @@ When creating a layout, it is also possible to set up [LayoutOptions](https://a
 
 After the page layout is built and the geometry of objects and their position on the page are calculated, the document can be saved in a fixed-page format supported by Aspose.Words. When saving documents to fixed-page formats, the rendering options common to all of these formats can be used. They allow to control:
 
-- The number and range of pages contained in the output document ([PageIndex](https://apireference.aspose.com/net/words/aspose.words.saving/fixedpagesaveoptions/properties/pageindex), [PageCount](https://apireference.aspose.com/net/words/aspose.words.saving/fixedpagesaveoptions/properties/pagecount)).
+- The number and range of pages contained in the output document ([PageIndex](#), [PageCount](#)).
 - Progress of page-by-page document saving ([PageSavingCallback](https://apireference.aspose.com/net/words/aspose.words.saving/fixedpagesaveoptions/properties/pagesavingcallback)).
 - A set of characters that are used to numbers rendering ([NumeralFormat](https://apireference.aspose.com/net/words/aspose.words.saving/fixedpagesaveoptions/properties/numeralformat)).
 - A metafile player ([MetafileRenderingOptions](https://apireference.aspose.com/net/words/aspose.words.saving/fixedpagesaveoptions/properties/metafilerenderingoptions)). For more details, see the ["Handling Windows Metafiles"](/words/net/handling-windows-metafiles/) article.

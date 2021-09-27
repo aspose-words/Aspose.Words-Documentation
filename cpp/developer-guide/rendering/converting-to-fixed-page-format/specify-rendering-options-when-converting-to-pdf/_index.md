@@ -26,7 +26,7 @@ For more information on PDF/A, see the next article, "Learn Features of Conversi
 
 ## Creating a PDF Document with Fillable Forms
 
-It is also possible to export fillable forms from a Microsoft Word document into output PDF, which has fillable forms instead of plain text. Use the [PreserveFormFields](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#a7e90a6e0b1ce2be5db818312a9c15b75) property to save a document as PDF with fillable forms.
+It is also possible to export fillable forms from a Microsoft Word document into output PDF, which has fillable forms instead of plain text. Use the [PreserveFormFields](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_preserveformfields_const) property to save a document as PDF with fillable forms.
 
 Note that in contrast to Microsoft Word, the PDF format has a limited number of options for editable forms, such as textbox, combobox, and checkbox. Microsoft Word has more types of forms, for example, calendar date picker. Generally, it is not possible to fully imitate Microsoft Word behavior in PDF. Therefore, in some complex cases, PDF output may differ from what you see in Microsoft Word.
 
@@ -36,7 +36,7 @@ The code example below shows how to save a document as PDF with fillable forms w
 
 ## Exporting Document Structure and Custom Properties
 
-The [ExportDocumentStructure](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#a4bfcc7a15d787af4d4569b6959f368df) property enables you to export document structure to PDF output.
+The [ExportDocumentStructure](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#set_exportdocumentstructure) property enables you to export document structure to PDF output.
 
 PDF logical structure facilities provide a mechanism for incorporating information, regarding the document content structure, into a PDF file. Aspose.Words preserves information about the structure from a Microsoft Word document, such as paragraphs, lists, tables, footnotes/endnotes, etc.
 
@@ -50,7 +50,7 @@ Aspose.Words also allows you to export document custom properties to PDF, which 
 
 ## Exporting Outlines from Bookmarks and Headings in Output PDF
 
-If you want to export bookmarks as outlines in output PDF, you can use the [DefaultBookmarksOutlineLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#a8b96d843748e0218d6b71959bbdaa4a4) property. This property specifies the default level in the document outline, at which Microsoft Word bookmarks are displayed. If the document contains bookmarks in the header/footer of the document, you can set the [HeaderFooterBookmarksExportMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#adb4a267a672fa754ce4f57aa683e39ad) property to [First](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#a24b3cd09d916c9e27a5793d9e7829cd5) or [All](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#a24b3cd09d916c9e27a5793d9e7829cd5) in order to specify how they are exported in output PDF. The bookmarks in headers/footers are not exported when the value of **HeaderFooterBookmarksExportMode** is [None](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#a24b3cd09d916c9e27a5793d9e7829cd5).
+If you want to export bookmarks as outlines in output PDF, you can use the [DefaultBookmarksOutlineLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#get_defaultbookmarksoutlinelevel_const) property. This property specifies the default level in the document outline, at which Microsoft Word bookmarks are displayed. If the document contains bookmarks in the header/footer of the document, you can set the [HeaderFooterBookmarksExportMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_headerfooterbookmarksexportmode_const) property to [First](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#headerfooterbookmarksexportmode) or [All](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#headerfooterbookmarksexportmode) in order to specify how they are exported in output PDF. The bookmarks in headers/footers are not exported when the value of **HeaderFooterBookmarksExportMode** is [None](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#headerfooterbookmarksexportmode).
 
 The code example below shows how to export bookmarks from the first header/footer of a section:
 
@@ -62,7 +62,7 @@ The output PDF of this example is shown below:
 
 When **HeaderFooterBookmarksExportMode** is set to First and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
-You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#aa71b3e23c94276d437c16dc602fdb1e1) property. This property specifies how many levels of headings are included in the document outline.
+You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#get_headingsoutlinelevels_const) property. This property specifies how many levels of headings are included in the document outline.
 
 The code example below shows how to export headings with three levels:
 
@@ -80,9 +80,9 @@ A bookmark or heading navigation may have different appearances in various PDF v
 
 ## Downsampling Images to Reduce Document Size
 
-Aspose.Words provides an ability to downsample images in order to reduce the output PDF size, using the [DownsampleOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#a82ed43992bdc2ab22961e13e6e935e7d) property. Downsampling is enabled by default in the [DownsampleImages](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.downsample_options/#a5eb55013f3452e77b50489fc37ce98fb) property.
+Aspose.Words provides an ability to downsample images in order to reduce the output PDF size, using the [DownsampleOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_downsampleoptions_const) property. Downsampling is enabled by default in the [DownsampleImages](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.downsample_options/#get_downsampleimages_const) property.
 
-Note that it is also possible to set a specific resolution in the [Resolution](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.downsample_options/#a2cb01cd651eb4e532328b9a0c7f43d9b) property, or a resolution threshold in the [ResolutionThreshold](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.downsample_options/#ad9c2ecd5f6d2b14552922ae8ac3c07b4) property. In the second case, if the image resolution is less than the threshold value, then downsampling will not apply.
+Note that it is also possible to set a specific resolution in the [Resolution](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.downsample_options/#get_resolution_const) property, or a resolution threshold in the [ResolutionThreshold](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.downsample_options/#get_resolutionthreshold_const) property. In the second case, if the image resolution is less than the threshold value, then downsampling will not apply.
 
 The code example below displays how to change the resolution of images in an output PDF document:
 
@@ -105,7 +105,7 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 
 ### Embedding Full Fonts in PDF
 
-The [EmbedFullFonts](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#aa911cddaf91902cc7180a84cf49201f4) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
+The [EmbedFullFonts](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_embedfullfonts_const) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
 
 - To embed full fonts into the output PDF document, set **EmbedFullFonts** to true
 - To subset fonts when saving to PDF, set **EmbedFullFonts** to false
@@ -131,7 +131,7 @@ Core fonts and Windows Standard fonts are the “standard” sets of fonts, whic
 Aspose.Words provides options to choose how fonts are exported to PDF. You can choose either to embed core and standard fonts into the output PDF or to skip embedding them and use standard core PDF fonts or system fonts on the target machine instead. Using either one of these options normally results in significant file size reduction for PDF documents generated by Aspose.Words.
 
 - Since these options are mutually exclusive, you should choose only one at a time.
-- When saving with PDF/A-1 compliance, all used fonts must be embedded with the PDF document. When saving with this compliance, the [UseCoreFonts](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#a1e2126d21eb42f4d4a0826dbdc6abe66) property must be set to false and the [FontEmbeddingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#aa7577805edf61fb5f1f2526b18594d40) property must be set to [EmbedAll](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#a08e6dd433e784bcb48931630fb5c93e8a3553878b29ddfc98573be93015929a81)[.](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/usecorefonts)
+- When saving with PDF/A-1 compliance, all used fonts must be embedded with the PDF document. When saving with this compliance, the [UseCoreFonts](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_usecorefonts_const) property must be set to false and the [FontEmbeddingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#set_fontembeddingmode) property must be set to [EmbedAll](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall)[.](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/usecorefonts)
 
 ### Embedding Core Fonts
 
@@ -164,7 +164,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 ### Embedding System Fonts
 
-This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#a12a0db648e2e2065e8c7aeb436c95e98)[ ](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedstandardwindowsfonts)property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#a08e6dd433e784bcb48931630fb5c93e8a3553878b29ddfc98573be93015929a81), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#a08e6dd433e784bcb48931630fb5c93e8a3553878b29ddfc98573be93015929a81), Aspose.Words do not embed any fonts.
+This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_fontembeddingmode_const)[ ](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedstandardwindowsfonts)property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall), Aspose.Words do not embed any fonts.
 
 The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 

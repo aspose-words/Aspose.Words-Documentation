@@ -105,7 +105,7 @@ This is because Microsoft Office fallback settings are selected by default, and 
 
 **Q: Why might complex script text, such as Thai or Hebrew, be displayed inaccurately for some reason, such as the wrong position for diacritics or inaccurate ligatures?**
 
-Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#a73bf6b5c10e1e6208e10110bbd6fed2e).
+Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_textshaperfactory_const).
 
 ------
 
@@ -173,4 +173,31 @@ for (int page = 0; page < pageCount; page++)
     SharedPtr<Document> extractedPage = doc->ExtractPages(page, 1);
     extractedPage->Save(ArtifactsDir + String::Format(u"SplitDocument.PageByPage_{0}.docx", page + 1));
 }
+{{< /highlight >}}
+
+------
+
+**Q: How to open an encrypted** **document?**
+
+You can try to open an encrypted document without a password, which should lead to an exception.
+
+The following code example shows how to open an encrypted document with a password:
+
+{{< highlight csharp >}}
+// Create a document.
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
+builder->Write(u"Hello world!");
+
+//OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
+auto options = System::MakeObject<OoxmlSaveOptions>(SaveFormat::Docx);
+
+// Set a password with which the document will be encrypted, and which will be required to open it.
+options->set_Password(u"MyPassword");
+doc->Save(u"OoxmlSaveOptions.SaveAsDocx.docx", options);
+
+// Open the encrypted document by passing the correct password in a LoadOptions object.
+doc = System::MakeObject<Document>(u"OoxmlSaveOptions.Password.docx", System::MakeObject<LoadOptions>(u"MyPassword"));
+
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 {{< /highlight >}}

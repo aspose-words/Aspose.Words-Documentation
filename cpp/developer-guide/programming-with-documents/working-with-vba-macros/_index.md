@@ -9,9 +9,9 @@ url: /cpp/working-with-vba-macros/
 
 Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful programming language that can be used to extend the functionality. Aspose.Words API provides three classes to get access to the VBA project source code:
 
-- The [VBAProject](https://apireference.aspose.com/cpp/words/class/aspose.words.vba_project/) class provides access to VBA project information
-- The [VBAModulesCollection](https://apireference.aspose.com/cpp/words/class/aspose.words.vba_module_collection/) class returns the collection of VBA project modules
-- The [VbaModule](https://apireference.aspose.com/cpp/words/class/aspose.words.vba_module/) class provides access to the VBA project module
+- The [VBAProject](https://apireference.aspose.com/words/cpp/class/aspose.words.vba.vba_project) class provides access to VBA project information
+- The [VBAModulesCollection](https://apireference.aspose.com/words/cpp/class/aspose.words.vba.vba_module_collection) class returns the collection of VBA project modules
+- The [VbaModule](https://apireference.aspose.com/words/cpp/class/aspose.words.vba.vba_module) class provides access to the VBA project module
 
 ## Creating a VBA Project
 

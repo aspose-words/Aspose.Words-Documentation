@@ -71,19 +71,7 @@ Calling **SetLicense** multiple times is not harmful, it just wastes processor t
 
 #### Apply License Using a File or Stream Object
 
-The table below shows examples of options for calling SetLicense, depending on the type of your project.
-
-| Project Type                         | SetLicense Calling                                           |
-| ------------------------------------ | ------------------------------------------------------------ |
-| Windows Forms or Сonsole application | Call **SetLicense** in your startup code before using Aspose.Words classes |
-| ASP.NET application                  | Call **SetLicense** from the *Global.asax.cs* (*Global.asax.vb*) file, in the protected *Application_Start* method. It is called once when the application starts.<br />Do not call SetLicense from the *Page_Load* methods since it means that the license will be applied every time a web page is loaded. |
-| Class library                        | Call **SetLicense** from the static constructor of your class that uses Aspose.Words.<br />The static constructor will be executed before an instance of your class is created to make sure that Aspose.Words license is properly set. |
-
-{{% alert color="primary" %}}
-
-Please note that the table above does not describe all possible types of projects.
-
-{{% /alert %}}
+When developing your application, call **SetLicense** in your startup code before using Aspose.Words classes.
 
 ##### Load a License from a File
 
