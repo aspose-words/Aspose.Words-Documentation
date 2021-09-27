@@ -222,7 +222,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
 saveOptions.setExportFontResources(true);
 saveOptions.setResourceFolder("C:\Resources");
-saveOptions.setResourceFolderAlias("http://example.com/resources");
+saveOptions.setResourceFolderAlias("path_to_resources");
 doc.save("C:\Test.html", saveOptions);
 {{< /highlight >}}
 
@@ -235,7 +235,7 @@ C:\Resources\Test.calibril.ttf
 C:\Resources\Test.css
 {{< /highlight >}}
 
-In this scenario "<http://example.com/resources>" alias is used to construct URIs of all resources.
+In this scenario "path_to_resources" alias is used to construct URIs of all resources.
 
 5.
 
@@ -244,7 +244,7 @@ Document doc = new Document("C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.setCssStyleSheetType(CssStyleSheetType.External);
 saveOptions.setExportFontResources(true);
-saveOptions.setResourceFolderAlias("http://example.com/resources");
+saveOptions.setResourceFolderAlias("path_to_resources");
 doc.aave("C:\Test.html", saveOptions);
 {{< /highlight >}}
 
@@ -257,7 +257,7 @@ C:\Test.calibril.ttf
 C:\Test.css
 {{< /highlight >}}
 
-In this scenario "<http://example.com/resources>" alias is used to construct URIs of all resources.
+In this scenario "path_to_resources" alias is used to construct URIs of all resources.
 
 6.
 
