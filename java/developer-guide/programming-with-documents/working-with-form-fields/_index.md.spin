@@ -31,7 +31,7 @@ Use the **Forms** toolbar to insert form fields. To display the **Forms** toolba
 
 {{% alert color="primary" %}} 
 
-**Note:** before you can make a form available to users, you must protect it by clicking **Protect Form** on the **Forms** toolbar. Protection {allows|enables} users to fill in the form but prevents them from changing the form's layout and its standard elements. When you want to go back to writing or modifying the form, click **Protect Form** again to unprotect the form.
+**Note:** before you can make a form available to users, you must protect it by clicking **Protect Form** on the **Forms** toolbar. Protection allows users to fill in the form but prevents them from changing the form's layout and its standard elements. When you want to go back to writing or modifying the form, click **Protect Form** again to unprotect the form.
 
 {{% /alert %}}
 
@@ -45,38 +45,38 @@ Placing form fields into the document via code is easy. DocumentBuilder has spec
 
 ### Inserting Form Fields
 
-Use [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int))**,** [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCheckBox(java.lang.String,boolean,boolean,int)) or DocumentBuilder.insertComboBox (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertComboBox(java.lang.String,java.lang.String[],int)) to insert form fields into a document. Below example {shows|demonstrates} how to insert a combobox form field into a document.
+Use [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int))**,** [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCheckBox(java.lang.String,boolean,boolean,int)) or DocumentBuilder.insertComboBox (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertComboBox(java.lang.String,java.lang.String[],int)) to insert form fields into a document. Below example shows how to insert a combobox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFormFields-1.java" >}}
 
 #### Inserting a Text Input
 
-DocumentBuilder.InsertTextInput to insert a textbox into the document. The code example given below {shows|demonstrates} how to insert a text input form field into a document.
+DocumentBuilder.InsertTextInput to insert a textbox into the document. The code example given below shows how to insert a text input form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
 #### Inserting a Check Box
 
-Call DocumentBuilder.InsertCheckBox to insert a checkbox into the document. The code example given below {shows|demonstrates} how to insert a checkbox form field into a document.
+Call DocumentBuilder.InsertCheckBox to insert a checkbox into the document. The code example given below demonstrates how to insert a checkbox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
 #### Inserting a Combo Box
 
-Call DocumentBuilder.InsertComboBox to insert a Combobox into the document. The code example given below {shows|demonstrates} how to insert a Combobox form field into a document.
+Call DocumentBuilder.InsertComboBox to insert a Combobox into the document. The code example given below demonstrates how to insert a Combobox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
 ### Obtaining Form Fields
 
-A collection of form fields is represented by the [FormFieldCollection](https://apireference.aspose.com/words//java/com.aspose.words/formfieldcollection) class that can be retrieved using the [Range.getFormFields](https://apireference.aspose.com/words/java/com.aspose.words/range#FormFields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below {shows|demonstrates} how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsGetFormFieldsCollection/FormFields.doc).
+A collection of form fields is represented by the [FormFieldCollection](https://apireference.aspose.com/words//java/com.aspose.words/formfieldcollection) class that can be retrieved using the [Range.getFormFields](https://apireference.aspose.com/words/java/com.aspose.words/range#FormFields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below demonstrates how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsGetFormFieldsCollection/FormFields.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetFormFieldsCollection-1.java" >}}
 
-You can get a particular form field by its index or name. The code example given below {shows|demonstrates} how to access form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsGetByName/FormFields.doc).
+You can get a particular form field by its index or name. The code example given below shows how to access form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsGetByName/FormFields.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetByName-1.java" >}}
 
-The FormField properties allow you to work with form field name, type, and result. The code example given below {shows|demonstrates} how to work with the form field name, type, and result. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties/FormFields.doc).
+The FormField properties allow you to work with form field name, type, and result. The code example given below shows how to work with the form field name, type, and result. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties/FormFields.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsWorkWithProperties-1.java" >}}

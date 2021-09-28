@@ -9,6 +9,6 @@ The [MailMerge](https://apireference.aspose.com/words/java/com.aspose.words/mail
 
 The **fieldMerging(FieldMergingArgs)** event occurs during mail merge when a simple mail merge field is encountered in the document. This gives further control over the mail merge and you can perform any actions when the event occurs. This method is wrapped in a class that implements the [IFieldMergingCallBack](https://apireference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback) interface and accepts a [FieldMergingArgs](https://apireference.aspose.com/words//java/com.aspose.words/fieldmergingargs) object that provides data for the corresponding event.
 
-The code example given below {demonstrates|shows} how to implement custom logic in the MergeField event to apply cell formatting.
+The code example given below demonstrates how to implement custom logic in the MergeField event to apply cell formatting.
 
 {{< gist "aspose-words-gists" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomFormattingDuringMailMerge-.java" >}}

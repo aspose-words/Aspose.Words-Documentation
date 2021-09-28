@@ -46,7 +46,7 @@ After learning the ["Installation"](https://docs.aspose.com/words/java/installat
 
 Explore the ["Getting Started"](https://docs.aspose.com/words/java/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](https://docs.aspose.com/words/java/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some simple use cases can be implemented using the free Open XML SDK, but much more complex use cases are easier and faster to implement using Aspose.Words. There are {several|multiple|a few|many|numerous} use cases where Open XML SDK implementation is complex or requires strong file format knowledge.
+Some simple use cases can be implemented using the free Open XML SDK, but much more complex use cases are easier and faster to implement using Aspose.Words. There are numerous use cases where Open XML SDK implementation is complex or requires strong file format knowledge.
 
 ## Technical Support
 

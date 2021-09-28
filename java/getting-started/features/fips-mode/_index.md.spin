@@ -1,12 +1,12 @@
 ﻿---
 title: FIPS Mode
-description: "Aspose.Words for Java uses {several|multiple|a few|many|numerous} cryptography and hash algorithms when processing documents to comply with FIPS standards."
+description: "Aspose.Words for Java uses many cryptography and hash algorithms when processing documents to comply with FIPS standards."
 type: docs
 weight: 80
 url: /java/fips-mode/
 ---
 
-Aspose.Words uses {several|multiple|a few|many|numerous} cryptography and hash algorithms when processing documents and this article describes how it is related to the FIPS standards.
+Aspose.Words uses several cryptography and hash algorithms when processing documents and this article describes how it is related to the FIPS standards.
 
 Federal Information Processing Standards (FIPS) are a set of openly published standards developed by the United States federal government to establish requirements for various purposes, such as ensuring computer security and interoperability.
 
@@ -20,7 +20,7 @@ Aspose.Words for .NET uses the general Bouncy Castle version without support for
 
 ## FIPS Mode Activation
 
-Starting from the version 18.10 Aspose.Words {allows|enables} to work in two modes: General and FIPS.
+Starting from the version 18.10 Aspose.Words allows to work in two modes: General and FIPS.
 
 By default Aspose.Words works in the General mode, so there are no restrictions on the use of algorithms and keys in this case.
 

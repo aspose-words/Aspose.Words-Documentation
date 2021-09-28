@@ -72,7 +72,7 @@ All other font formatting is imported from standard CCS attributes on the "style
 
 &lt;pre&gt; tag is imported as text formatted with "Courier New" font.
 
-There is an option to control how size is exported. Font can be exported as points or as em units. This {allows|enables} fonts to be resized automatically by browsers by increasing or decreasing font size.
+There is an option to control how size is exported. Font can be exported as points or as em units. This enables fonts to be resized automatically by browsers by increasing or decreasing font size.
 
 See the following links in the documentation for further information:
 

@@ -306,7 +306,7 @@ public class FontFallbackSettings
 	/// <remarks>
 	/// This method may produce non-optimal fallback settings. Fonts are checked by <a href="https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur">
 	/// Unicode Character Range</a> fields and not by the actual glyphs presence. Also Unicode ranges are checked individually
-	/// and {several|multiple|a few|many|numerous} ranges related to single language/script may use different fallback fonts.
+	/// and several ranges related to single language/script may use different fallback fonts.
 	/// </remarks>
 	public void BuildAutomatic();
 }
@@ -440,7 +440,7 @@ target.copyStylesFromTemplate(templateFileName);
 
 WORDSNET-17328 has now been resolved.
 
-A customer requested the ability to insert untyped/empty fields ({}) just like MS Word {allows|enables} doing so. By the moment AW threw System.InvalidOperationException when attempting to insert **FieldType.FieldNone** (which was the way the customer tried to insert an untyped field):
+A customer requested the ability to insert untyped/empty fields ({}) just like MS Word allows doing so. By the moment AW threw System.InvalidOperationException when attempting to insert **FieldType.FieldNone** (which was the way the customer tried to insert an untyped field):
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -477,7 +477,7 @@ New public property ***AllowCellSpacing*** was added into the Table class:
 public boolean AllowCellSpacing
 {{< /highlight >}}
 
-This property {allows|enables} to control spacing between cells.
+This property allows to control spacing between cells.
 Setting this property to ***false*** will completely remove spacing between cells
 
 UC:

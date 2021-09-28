@@ -16,38 +16,38 @@ Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful 
 
 ## Creating a VBA Project
 
-Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose.com/net/words/aspose.words/document/properties/vbaproject) property to get or set VbaProject in the document. The following code example {demonstrates|shows} how to create a VBA project and VBA Module along with basic properties e.g. Name and Type. 
+Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose.com/net/words/aspose.words/document/properties/vbaproject) property to get or set VbaProject in the document. The following code example shows how to create a VBA project and VBA Module along with basic properties e.g. Name and Type. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-CreateVbaProject.cs" >}}
 
 ## Read Macros
 
-The following code example {demonstrates|shows} how to read VBA Macros from the document.
+The following code example demonstrates how to read VBA Macros from the document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-ReadVbaMacros.cs" >}}
 
 ## Write or Modify Macros
 
-The following code example {demonstrates|shows} how to modify VBA Macros using the VbaModule.SourceCode property.
+The following code example demonstrates how to modify VBA Macros using the VbaModule.SourceCode property.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-ModifyVbaMacros.cs" >}}
 
 ## Clone VBA Project
 
-The following code example {demonstrates|shows} how to clone the VBA Project using the [VbaProject.Clone](https://apireference.aspose.com/words/net/aspose.words.vba/vbaproject/methods/clone) property which creates a copy of the existing project. 
+The following code example demonstrates how to clone the VBA Project using the [VbaProject.Clone](https://apireference.aspose.com/words/net/aspose.words.vba/vbaproject/methods/clone) property which creates a copy of the existing project. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaProject.cs" >}}
 
 ## Clone VBA Module
 
-The following code example {demonstrates|shows} how to clone the VBA Module using the [VbaModule.Clone](https://apireference.aspose.com/words/net/aspose.words.vba/vbamodule/methods/clone) property which creates a copy of the existing project. 
+The following code example demonstrates how to clone the VBA Module using the [VbaModule.Clone](https://apireference.aspose.com/words/net/aspose.words.vba/vbamodule/methods/clone) property which creates a copy of the existing project. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaModule.cs" >}}
 
 ## Working with the VBA Project References
 
 Aspose.Words API provides VbaReferenceCollection class to work with VBA Project References representing a collection of VBA project references. 
-The following code example {demonstrates|shows} how to remove some references from the collection of references from a VBA project. 
+The following code example demonstrates how to remove some references from the collection of references from a VBA project. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaReferenceCollection-RemoveReferenceFromCollectionOfReferences.cs" >}}
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaReferenceCollection-GetLibIdAndReferencePath.cs" >}}

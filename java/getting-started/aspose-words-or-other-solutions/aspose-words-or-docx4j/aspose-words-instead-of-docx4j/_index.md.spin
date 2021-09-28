@@ -8,7 +8,7 @@ url: /java/aspose-words-instead-of-docx4j/
 
 When a user needs to programmatically create, modify, and manage documents, it is always important to choose the right tool that suits the specific document development needs. This article aims to help developers make the right decision when comparing Aspose.Words and docx4j.
 
-It is worth noting again that Aspose.Words for Java {enables|allows} you to perform a wide variety of document processing tasks directly in your Java applications. With Aspose.Words, you can create, modify, convert, display, and print documents without using Microsoft Word.
+It is worth noting again that Aspose.Words for Java allows you to perform a wide variety of document processing tasks directly in your Java applications. With Aspose.Words, you can create, modify, convert, display, and print documents without using Microsoft Word.
 
 You can read more about the requirements and next steps on this page.
 
@@ -45,7 +45,7 @@ After learning the [“Installation”](https://docs.aspose.com/words/java/insta
 
 Explore the [“Getting Started”](https://docs.aspose.com/words/java/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the [“Developer Guide”](https://docs.aspose.com/words/java/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some use cases can be implemented using docx4j, but {many|multiple|several|a few|numerous} of the more regular tasks are easier and faster to implement using Aspose.Words.
+Some use cases can be implemented using docx4j, but multiple of the more regular tasks are easier and faster to implement using Aspose.Words.
 
 Aspose.Words provides source code examples for features missing in docx4j in the [“Missing Features of Docx4j”](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0) section.
 

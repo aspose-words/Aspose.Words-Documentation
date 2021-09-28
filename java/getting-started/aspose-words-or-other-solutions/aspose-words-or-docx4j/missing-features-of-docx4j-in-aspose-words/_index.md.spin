@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words Features Missing in Docx4j
-description: "Aspose.Words for Java {allows|enables} to perform some operations with documents faster and more conveniently than docx4j. In addition, there are operations that are not supported by docx4j."
+description: "Aspose.Words for Java allows to perform some operations with documents faster and more conveniently than docx4j. In addition, there are operations that are not supported by docx4j."
 type: docs
 weight: 20
 url: /java/missing-features-of-docx4j-in-aspose-words/
@@ -31,14 +31,14 @@ The following table contains some of the popular features supported by Aspose.Wo
 | Convert between different document formats. For example, Word to PDF, HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The [“Convert a Document”](https://docs.aspose.com/words/java/convert-a-document/) section |
 | Mail Merge                                                   | The [”Mail Merge and Reporting”](https://docs.aspose.com/words/java/mail-merge-and-reporting/) section |
 | Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/java/rendering/) section |
-| Join {multiple|several|a few|many|numerous} documents, including combine formatting of documents when importing content | The [“Insert and Append Documents”](https://docs.aspose.com/words/java/insert-and-append-documents/) article |
+| Join many documents, including combine formatting of documents when importing content | The [“Insert and Append Documents”](https://docs.aspose.com/words/java/insert-and-append-documents/) article |
 | Find and Replace                                             | The [“Find and Replace”](https://docs.aspose.com/words/java/find-and-replace/) article |
 | Manipulate tables                                            | The [“Working with Tables”](https://docs.aspose.com/words/java/working-with-tables/) section |
 | Manipulate form fields                                       | The [“Working with Form Fields”](https://docs.aspose.com/words/java/working-with-form-fields/) article |
 
 The table is not complete, so you can check [our documentation](https://docs.aspose.com/words/java/) for the feature you are interested in.
 
-In the child articles, we also provide {a few|multiple|several|many|numerous} examples of how various popular features can be implemented using Aspose.Words.
+In the child articles, we also provide several examples of how various popular features can be implemented using Aspose.Words.
 
 {{% alert color="primary" %}}
 

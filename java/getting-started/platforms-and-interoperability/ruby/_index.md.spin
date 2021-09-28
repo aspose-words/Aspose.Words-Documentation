@@ -13,7 +13,7 @@ Swing application, Ruby (and Rjb) doesn't consider JVM's native threads handling
 
 ## Aspose.Words for Java
 
-Aspose.Words for Java is an advanced class library for Java that {enables|allows} you to perform a great range of document processing tasks directly within your Java
+Aspose.Words for Java is an advanced class library for Java that allows you to perform a great range of document processing tasks directly within your Java
 applications.
 
 Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
@@ -21,7 +21,7 @@ generate, modify, and convert documents without using Microsoft Word.
 
 ## Aspose.Words Java for Ruby
 
-Project Aspose.Words Java for Ruby {shows|demonstrates} how different tasks can be performed using Aspose.Words Java APIs in Ruby. This project is aimed to provide useful examples for
+Project Aspose.Words Java for Ruby demonstrates how different tasks can be performed using Aspose.Words Java APIs in Ruby. This project is aimed to provide useful examples for
 Ruby developers who want to utilize Aspose.Words for Java in their Ruby Projects using Rjb (Ruby Java Bridge).
 
 ## System Requirements and Supported Platforms

@@ -1,7 +1,7 @@
 ﻿---
 title: Clone a Document
 type: docs
-description: “Aspose.Words for .NET {allows|enables} you to clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned.”
+description: “Aspose.Words for .NET allows you to clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned.”
 weight: 60
 url: /net/clone-a-document/
 ---
@@ -12,15 +12,15 @@ This article will explain the main use cases of cloning a document and how to cr
 
 ## Operations with Cloning Documents
 
-The clone operation {allows|enables} you to make the process of creating documents faster as you will not need to load and parse a document from a file every time.
+The clone operation enables you to make the process of creating documents faster as you will not need to load and parse a document from a file every time.
 
 After creating a clone of your document, you will be able to edit it and perform different operations on it, for example, compare it with the original document, append or insert it into another document. You can also modify cloned elements or their content before inserting them into another document.
 
 ## Creating a Document Clone
 
-Aspose.Words {allows|enables} you to clone a document using the [Clone](https://apireference.aspose.com/words/net/aspose.words/document/methods/clone) method that performs a deep copy of the document and returns it. In other words, it will get a full copy of the DOM. The Clone method speeds up the documents generation, and you only need one line of code to get a copy of your document.
+Aspose.Words enables you to clone a document using the [Clone](https://apireference.aspose.com/words/net/aspose.words/document/methods/clone) method that performs a deep copy of the document and returns it. In other words, it will get a full copy of the DOM. The Clone method speeds up the documents generation, and you only need one line of code to get a copy of your document.
 
-Cloning produces a new document with the same contents as the original, but with a unique copy of each of the original document's [nodes](https://apireference.aspose.com/words/net/aspose.words/node). You can also apply the clone operation to a document node by using the node [Clone](https://apireference.aspose.com/words/net/aspose.words/node/methods/clone) method, which {allows|enables} you to duplicate composite document nodes with and without their child nodes.
+Cloning produces a new document with the same contents as the original, but with a unique copy of each of the original document's [nodes](https://apireference.aspose.com/words/net/aspose.words/node). You can also apply the clone operation to a document node by using the node [Clone](https://apireference.aspose.com/words/net/aspose.words/node/methods/clone) method, which allows you to duplicate composite document nodes with and without their child nodes.
 
 {{% alert color="primary" %}}
 
@@ -28,7 +28,7 @@ Note that when applying the cloning method all document properties will be clone
 
 {{% /alert %}}
 
-The following code example {shows|demonstrates} how to clone a document and create a duplicate of a section in that document:
+The following code example shows how to clone a document and create a duplicate of a section in that document:
 
 {{< highlight csharp >}}
 // Create a document.
@@ -45,7 +45,7 @@ builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 2");
 
-// This {shows|demonstrates} what is in the document originally. The document has two sections.
+// This demonstrates what is in the document originally. The document has two sections.
 Assert.AreEqual("Section 1\x000cSection 2", clone.GetText().Trim());
 
 // Duplicate the last section and append the copy to the end of the document.

@@ -6,7 +6,7 @@ description: "Learn an explanation and examples of Aspose.Words for Java classes
 url: /java/api-reference/
 ---
 
-Aspose.Words for Java is a class library that {enables|allows} your applications to perform a great range of document processing tasks. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word, that is, Microsoft Word is not required in order to use Aspose.Words.
+Aspose.Words for Java is a class library that allows your applications to perform a great range of document processing tasks. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word, that is, Microsoft Word is not required in order to use Aspose.Words.
 
 Aspose.Words for Java is written completely in Java. 
 

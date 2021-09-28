@@ -38,7 +38,7 @@ There are 104 improvements and fixes in this regular monthly release. The most n
 |WORDSJAVA-1601|DOCX to PDF conversion file size issue|Bug|
 |WORDSJAVA-1613|DOCX to JPEG conversion generates empty output|Bug|
 |WORDSJAVA-1622|Image lost in HTML to DOC conversion|Bug|
-|WORDSJAVA-1624|Output DOC {shows|demonstrates} warning message in MS Word|Bug|
+|WORDSJAVA-1624|Output DOC shows warning message in MS Word|Bug|
 |WORDSJAVA-1631|Rendering diagram with negative width, offset and breakpoints.|Bug|
 |WORDSJAVA-1618|Spaces lost while rendering bold Gabriola font.|Enhancement|
 |WORDSJAVA-1619|Aspose.Words 17.6 Saved Document is broken after Digital signing|Enhancement|

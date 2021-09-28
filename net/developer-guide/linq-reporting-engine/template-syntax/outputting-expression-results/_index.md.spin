@@ -32,7 +32,7 @@ To format a numeric or date-time expression result, you can specify a format str
 <<[d]:"yyyy.MM.dd">>
 {{< /highlight >}}
 
-LINQ Reporting Engine provides {several|multiple|a few|many|numerous} additional number formats that can not be specified using format strings because these formats are missing in standard .Net libraries. The following table describes these formats.
+LINQ Reporting Engine provides multiple additional number formats that can not be specified using format strings because these formats are missing in standard .Net libraries. The following table describes these formats.
 
 |Number Format|Description|
 | :- | :- |
@@ -50,7 +50,7 @@ You can specify one of these additional number formats instead of a format strin
 <<[i]:alphabetic>>
 {{< /highlight >}}
 
-LINQ Reporting Engine provides {several|multiple|a few|many|numerous} additional string formats that can not be specified using format strings because these formats are missing in standard .Net libraries. The following table describes these formats.
+LINQ Reporting Engine provides many additional string formats that can not be specified using format strings because these formats are missing in standard .Net libraries. The following table describes these formats.
 
 |String Format|Description|
 | :- | :- |

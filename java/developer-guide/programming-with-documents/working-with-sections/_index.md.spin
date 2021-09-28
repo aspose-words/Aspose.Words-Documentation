@@ -6,7 +6,7 @@ url: /java/working-with-sections/
 aliases: [/java/how-to-remove-page-and-section-breaks/]
 ---
 
-This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from {several|multiple|a few|many|numerous} sections copied from {multiple|several|a few|many|numerous} template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
+This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from multiple sections copied from numerous template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
 
 A Word document can contain one or more sections. At the end of the section, there is a section break that separates one section from the next in a document. Each section has its own set of properties that specify page size, orientation, margins, the number of text columns, headers and footers and so on.
 
@@ -50,23 +50,23 @@ It is possible to change the culture for the current thread that will cause chan
 
 {{% /alert %}} 
 
-The code sample below {shows|demonstrates} how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Document/Document.doc).
+The code sample below shows how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Document/Document.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-SectionsAccessByIndex-SectionsAccessByIndex.java" >}}
 
 ### Adding a Section
 
-The Document object provides the section collection that can be accessed by using Document.Sections. This returns a SectionCollection object containing the document’s sections. You can then use the SectionCollection.Add method on this object to add a section to the end of the document. The code sample below {shows|demonstrates} how to add a section to the end of the document.
+The Document object provides the section collection that can be accessed by using Document.Sections. This returns a SectionCollection object containing the document’s sections. You can then use the SectionCollection.Add method on this object to add a section to the end of the document. The code sample below shows how to add a section to the end of the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-AddSection-AddSection.java" >}}
 
 ### Deleting a Section
 
-In the same way as discussed above, the document’s sections are retrieved by using Document.Sections. You can then use SectionCollection.Remove to remove a specified section or SectionCollection.RemoveAt to remove a section at the specified index. The code sample below {shows|demonstrates} how to remove a section at the specified index.
+In the same way as discussed above, the document’s sections are retrieved by using Document.Sections. You can then use SectionCollection.Remove to remove a specified section or SectionCollection.RemoveAt to remove a section at the specified index. The code sample below demonstrates how to remove a section at the specified index.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-DeleteSection-DeleteSection.java" >}}
 
-The code sample below {shows|demonstrates} how to remove all sections from a document.
+The code sample below demonstrates how to remove all sections from a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-DeleteAllSections-DeleteAllSections.java" >}}
 
@@ -74,13 +74,13 @@ In addition, you can use SectionCollection.Clear to remove all the sections from
 
 ### Adding Section Content
 
-If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below {shows|demonstrates} how to append the content of an existing section. The number of sections in the document remains the same. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Section.AppendContent.doc).
+If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below shows how to append the content of an existing section. The number of sections in the document remains the same. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Section.AppendContent.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-AppendSectionContent-AppendSectionContent.java" >}}
 
 ### Deleting Section Content
 
-To delete the main text of a section, use Section.ClearContent. The code example given below {shows|demonstrates} how to delete main content of a section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc).
+To delete the main text of a section, use Section.ClearContent. The code example given below demonstrates how to delete main content of a section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-DeleteSectionContent-DeleteSectionContent.java" >}}
 
@@ -88,13 +88,13 @@ To delete the headers and footers in a section, call Section.ClearHeadersFooters
 
 ### Cloning a Section
 
-Use the Section.Clone method to create a duplicate of a particular section. The code example given below {shows|demonstrates} how to create a duplicate of a particular section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc).
+Use the Section.Clone method to create a duplicate of a particular section. The code example given below shows how to create a duplicate of a particular section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-CloneSection-CloneSection.java" >}}
 
 ### Copying Sections between Documents
 
-Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](https://apireference.aspose.com/words/java/com.aspose.words/documentbase#importNode(com.aspose.words.Node,boolean)) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. The code example given below {shows|demonstrates} how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc).
+Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](https://apireference.aspose.com/words/java/com.aspose.words/documentbase#importNode(com.aspose.words.Node,boolean)) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. The code example given below demonstrates how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-CopySection-CopySection.java" >}}
 
@@ -106,23 +106,23 @@ Sometimes it is necessary to avoid section breaks in the destination document. I
 
 ## Inserting a Break
 
-If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. The code example given below {shows|demonstrates} how to insert page breaks into a document.
+If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. The code example given below demonstrates how to insert page breaks into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.java" >}}
 
 ## How to Remove Page and Section Breaks
 
-A document often consists of {several|multiple|a few|many|numerous} sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
+A document often consists of a few sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
 
-In most cases it is convenient to have a structured document, but sometimes {multiple|several|a few|many|numerous} sections and user-defined page breaks are redundant and it may become necessary to remove them. For example after appending {multiple|several|a few|many|numerous} documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
+In most cases it is convenient to have a structured document, but sometimes several sections and user-defined page breaks are redundant and it may become necessary to remove them. For example after appending several documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
 
-An explicit page break can be caused by {many|multiple|several|a few|numerous} different things in a document:
+An explicit page break can be caused by numerous different things in a document:
 
 - A page breaks character. This is represented in a document by the page break character ControlChar.PageBreakChar.
 - A Section which is set to begin on a new page (by the section’s PageSetup.SectionStart to SectionStart.NewPage).
 - A Paragraph with ParagraphFormat.PageBreakBefore set. This forces a page break before the paragraph.
 
-This sample {shows|demonstrates} how to remove page and section breaks from the document using Aspose.Words.
+This sample demonstrates how to remove page and section breaks from the document using Aspose.Words.
 
 ### Solution
 
@@ -141,7 +141,7 @@ It contains one-page break and one section break. The section break separates th
 
 ### Removing Page Breaks
 
-Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://apireference.aspose.com/words/java/com.aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even {multiple|several|a few|many|numerous} page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
+Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://apireference.aspose.com/words/java/com.aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even many page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
 
 The code example given below removes all page breaks from the document.
 
@@ -169,6 +169,6 @@ Starting from the last section the content of each previous section is copied ov
 
 ## Page Setup and Section Formatting
 
-Page setup and section properties are encapsulated in the PageSetup object that is returned by the DocumentBuilder.PageSetup property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties. The code example given below {shows|demonstrates} how to set such properties as page size and orientation for the current section.
+Page setup and section properties are encapsulated in the PageSetup object that is returned by the DocumentBuilder.PageSetup property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties. The code example given below demonstrates how to set such properties as page size and orientation for the current section.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetPageSetupAndSectionFormatting-DocumentBuilderSetPageSetupAndSectionFormatting.java" >}}

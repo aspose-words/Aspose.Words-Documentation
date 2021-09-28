@@ -90,7 +90,7 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Absolute Position |Yes | |- **TabStop.Position**|
-|Relative Position |Yes |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This {allows|enables} tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. |- **AbsolutePositionTab**|
+|Relative Position |Yes |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This enables tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. |- **AbsolutePositionTab**|
 |Alignment: Left, Center, Right, Decimal, Bar |Yes | |- **TabStop.Alignment**|
 |Leader |Yes | |- **TabStop.Leader**|
 

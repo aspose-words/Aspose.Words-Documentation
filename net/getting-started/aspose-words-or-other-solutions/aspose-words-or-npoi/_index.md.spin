@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words or NPOI
-description: "Aspose.Words for .NET is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words {allows|enables} to perform a large number of tasks with documents faster and more conveniently than NPOI."
+description: "Aspose.Words for .NET is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words allows to perform a large number of tasks with documents faster and more conveniently than NPOI."
 type: docs
 weight: 40
 url: /net/aspose-words-or-npoi/
@@ -25,7 +25,7 @@ In this article, we will look at when it makes sense for you to prefer Aspose.Wo
 
 It is worth noting that some tasks can be achieved with Aspose.Words, but cannot be accomplished with NPOI. For example, if you need to perform a mail merge operation and then modify the result document, then you cannot use only NPOI, you also need Microsoft Word. The point is that the merge results are not directly stored in a .DOCX file, and NPOI can only receive data that was stored in the .DOCX file. That is, you will need to complete the mail merge in Word, save the result to a .DOCX file, and then modify this file.
 
-You can compare NPOI with Aspose. To do this, we suggest that you familiarize yourself with the Aspose.Words for NPOI project (HWPF and XWPF) – it {shows|demonstrates} how different tasks can be done using the Aspose.Words for .NET API versus NPOI. The project also covers features for working with text documents that are only available in Aspose.Words, but not in NPOI.
+You can compare NPOI with Aspose. To do this, we suggest that you familiarize yourself with the Aspose.Words for NPOI project (HWPF and XWPF) – it demonstrates how different tasks can be done using the Aspose.Words for .NET API versus NPOI. The project also covers features for working with text documents that are only available in Aspose.Words, but not in NPOI.
 
 This project is also useful for developers looking to migrate from NPOI to Aspose.Words.
 
@@ -41,7 +41,7 @@ In the following sections and articles, we will take a closer look at some of th
 
 ### Stability
 
-Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This {allows|enables} not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
+Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This enables not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
 
 ### Scalability and Speed
 
@@ -51,7 +51,7 @@ Aspose components are highly scalable and lightning fast. They are a true .NET s
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Aspose components provide {many|multiple|several|a few|numerous} powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/net) offers a feature that {allows|enables} developers to populate a Word mail merge document directly from any .NET data object. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Aspose components provide several powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/net) offers a feature that allows developers to populate a Word mail merge document directly from any .NET data object. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 ## See Also
 

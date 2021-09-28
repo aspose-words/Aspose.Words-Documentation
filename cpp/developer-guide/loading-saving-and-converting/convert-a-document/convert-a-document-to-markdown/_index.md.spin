@@ -17,7 +17,7 @@ Now the functionality for working with the Markdown format is being actively dev
 
 To convert a document to Markdown, you just need to load a document in any supported format or create a new one programmatically. Then you need to save the document to Markdown format.
 
-The following code example {shows|demonstrates} how to convert DOCX to Markdown:
+The following code example shows how to convert DOCX to Markdown:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cpp" >}}
 
@@ -27,7 +27,7 @@ Specifying a folder via **ImagesFolder** is also useful if you save a document t
 
 If the specified **ImagesFolder** does not exist, it will be created automatically.
 
-The following code example {shows|demonstrates} how to specify a folder for images when saving a document to a stream:
+The following code example shows how to specify a folder for images when saving a document to a stream:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToMarkdown-SetImagesFolder.cpp" >}}
 
@@ -52,7 +52,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 * Tables are represented with the Table class
 * Links are represented as the FieldHyperlink class
 
-The following example {shows|demonstrates} how to create a document with some styles and save it to Markdown:
+The following example demonstrates how to create a document with some styles and save it to Markdown:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.cpp" >}}
 
@@ -62,7 +62,7 @@ The result of this code example is shown below.
 
 ## Useful Tips
 
-There are {several|multiple|a few|many|numerous} nuances and interesting cases, having learned which you can work with Markdown files more flexibly and conveniently. For example, there is the ability to use:
+There are multiple nuances and interesting cases, having learned which you can work with Markdown files more flexibly and conveniently. For example, there is the ability to use:
 
-* SetextHeading that {allows|enables} you to create multi-line headings in Markdown, while regular headings in Markdown can only be single-line. SetextHeading is based on a "Heading N" style, and its level can only be 1 or 2. If N in "Heading N" is greater than or equal to 2, then the corresponding SetextHeading is based on "Heading 2", otherwise on "Heading 1".
+* SetextHeading that enables you to create multi-line headings in Markdown, while regular headings in Markdown can only be single-line. SetextHeading is based on a "Heading N" style, and its level can only be 1 or 2. If N in "Heading N" is greater than or equal to 2, then the corresponding SetextHeading is based on "Heading 2", otherwise on "Heading 1".
 * Different markers for the first level of bulleted lists ("-", "+" or "*", the default marker is “-”.) and different types of numbering for ordered lists ("." or ")", the default marker is ".").

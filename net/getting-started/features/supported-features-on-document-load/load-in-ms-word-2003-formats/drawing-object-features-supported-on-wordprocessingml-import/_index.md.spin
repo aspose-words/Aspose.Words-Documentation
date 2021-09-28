@@ -7,7 +7,7 @@ url: /net/drawing-object-features-supported-on-wordprocessingml-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports {many|multiple|several|a few|numerous} types of drawing entities on document load.
+Aspose.Words supports a few types of drawing entities on document load.
 
 Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior.
 
@@ -21,7 +21,7 @@ Almost all properties that deal with object positioning use points as a unit of 
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
-All of the following image types listed in the table below this overview are supported. When a document contains {multiple|several|a few|many|numerous} references to the same image from an from an external address (e.g the internet) then the image is only downloaded once.
+All of the following image types listed in the table below this overview are supported. When a document contains numerous references to the same image from an from an external address (e.g the internet) then the image is only downloaded once.
 
 It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of image from the Aspose.Words point-of-view.
 
@@ -99,7 +99,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Linked |Yes |Note that Aspose.Words cannot update an OLE link. However you can modify a link only OLE object to point to a new location which can provide a partial way of changing OLE objects. <br><br>When such a document is saved and opened in Microsoft Word it will detect the change in link and prompt the user to update the linked object. This results in the linked object appearing in the document. <br><br>Such a tecnhique will only work for Word formats and if the document is opened in an editor which {allows|enables} to update OLE objects (such as Microsoft Word). If the link is changed and the document to a different format such as PDF then the original content will still appear in the output. |<p>- [OleFormat.IsLink](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/islink) </p><p>- [OleFormat.SourceFullName](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/sourcefullname)</p>|
+|Linked |Yes |Note that Aspose.Words cannot update an OLE link. However you can modify a link only OLE object to point to a new location which can provide a partial way of changing OLE objects. <br><br>When such a document is saved and opened in Microsoft Word it will detect the change in link and prompt the user to update the linked object. This results in the linked object appearing in the document. <br><br>Such a tecnhique will only work for Word formats and if the document is opened in an editor which enables to update OLE objects (such as Microsoft Word). If the link is changed and the document to a different format such as PDF then the original content will still appear in the output. |<p>- [OleFormat.IsLink](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/islink) </p><p>- [OleFormat.SourceFullName](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/sourcefullname)</p>|
 |Embedded |Yes | | |
 |Draw Aspect |Yes | | |
 |Auto Update |Yes | |- [OleFormat.AutoUpdate](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/autoupdate)|
@@ -152,7 +152,7 @@ See the following links in the documentation for further information:
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/href)|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This {allows|enables} the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs-old.aspose.com/display/wordsnet/Working+with+Watermark)|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs-old.aspose.com/display/wordsnet/Working+with+Watermark)|
 
 ## WordArt
 

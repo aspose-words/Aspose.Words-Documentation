@@ -11,8 +11,8 @@ Sitefinity is a modern ASP.NET based web Content Management System (CMS), delive
 
 ## Aspose.Words for .NET
 
-Aspose.Words for .NET is an advanced class library for .NET that {enables|allows} you to perform a wide range of operations over various word processing formats including MS Word and OpenOffice document within your .NET applications.
+Aspose.Words for .NET is an advanced class library for .NET that allows you to perform a wide range of operations over various word processing formats including MS Word and OpenOffice document within your .NET applications.
 
 With Aspose.Words you can generate, modify, convert, render and print word documents without using Microsoft Word.
 
-Aspose.Words for .NET supports DOC, DOCX, OpenOffice and {many|multiple|several|a few|numerous} other formats.
+Aspose.Words for .NET supports DOC, DOCX, OpenOffice and multiple other formats.

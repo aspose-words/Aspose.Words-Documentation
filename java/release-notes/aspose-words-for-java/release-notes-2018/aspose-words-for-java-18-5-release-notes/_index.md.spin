@@ -24,7 +24,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 - Fixed breaking of floating table row in compatibility mode
 - Fixed issue with floating frame pushed from the page because of invalid wrap point
 - Implemented support for "distribute space" and "distribute letter" types of alignment when rendering Ruby objects
-- Improved rendering of a Doughnut DrawingML Chart with {multiple|several|a few|many|numerous} series
+- Improved rendering of a Doughnut DrawingML Chart with numerous series
 - Improved rendering of DrawingML Charts data labels with the direct layout and a layout specified in the extension properties
 - Fixed a problem with metafile rendering when glyph offsets were wrongly read for EMF_EXTTEXTOUT record with glyph indices
 - Fixed a problem with processing of control character (U+0019) in the text when rendering
@@ -89,7 +89,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-7737|Paragraph line spacing is improperly calculated upon rendering document with frame|Bug|
 |WORDSNET-6537|Document.HasMacros returns incorrect value|Bug|
 |WORDSNET-6172|Header text cut off from left side while converting doc to Pdf, XPS, Tiff|Bug|
-|WORDSNET-6038|Width of Page Borders is not the same across {multiple|several|a few|many|numerous} pages|Bug|
+|WORDSNET-6038|Width of Page Borders is not the same across numerous pages|Bug|
 |WORDSNET-5447|Shape is rendered with flipped dimensions|Bug|
 |WORDSNET-5212|Non-ASCII character is stripped from the root in the navigation pane when exporting to EPUB|Bug|
 |WORDSNET-10536|Left indentation of Table is increased by few points in PDF|Bug|
@@ -120,7 +120,7 @@ This section lists public API changes that were introduced in Aspose.Words 18.5.
 
 ### Added Public Property StructuredDocumentTag.Color
 
-This property {allows|enables} to control the ***Color*** of a content control.
+This property enables to control the ***Color*** of a content control.
 
 {{< highlight csharp >}}
 /// <summary>

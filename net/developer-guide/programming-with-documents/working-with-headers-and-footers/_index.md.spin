@@ -9,7 +9,7 @@ url: /net/working-with-headers-and-footers/
 
 {{% alert color="primary" %}} 
 
-The following sample code {demonstrates|shows} how to create headers/footers using DocumentBuilder..
+The following sample code demonstrates how to create headers/footers using DocumentBuilder..
 
 Special attention is given to the following issues:
 
@@ -24,7 +24,7 @@ Special attention is given to the following issues:
 
 {{% /alert %}} 
 
-Below example {shows|demonstrates} how to create headers footers using DocumentBuilder.
+Below example demonstrates how to create headers footers using DocumentBuilder.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-CreateHeaderFooterUsingDocBuilder-CreateHeaderFooterUsingDocBuilder.cs" >}}
 

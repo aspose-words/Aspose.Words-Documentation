@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.Words for Java 19.8](https://reposi
 - API Examples are fully updated and improved.
 - Aspose.Words for Java is tested on Java 12.
 - Simplified TIFFImageWriter is used when external TIFF image libs (JAI, etc.) are not available.
-- Implemented an option that {allows|enables} specifying whether to work with the original or revised version of a document.
+- Implemented an option that allows specifying whether to work with the original or revised version of a document.
 - Implemented API to define default options for data labels of chart series.
 - Fixed rendering of diagonal borders is vertically merged cells.
 - Fixed issue when "keep with next" is applied to the last paragraph in a table cell.

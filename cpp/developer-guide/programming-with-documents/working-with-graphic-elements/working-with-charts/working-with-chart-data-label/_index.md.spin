@@ -7,14 +7,14 @@ url: /cpp/working-with-chart-data-label/
 
 ## How to Format Number of Chart Data Label
 
-Using ChartDataLabel.NumberFormat you can specify number formatting of a single data label of the chart. The code example given below {shows|demonstrates} how to format a number of the data label. 
+Using ChartDataLabel.NumberFormat you can specify number formatting of a single data label of the chart. The code example given below shows how to format a number of the data label. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-ChartNumberFormat-FormatNumberofDataLabel.cpp" >}}
 
 
 ## How to Work With Chart Data Label
 
-The code example given below {shows|demonstrates} how to work with the data label. 
+The code example given below demonstrates how to work with the data label. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cpp" >}}
 

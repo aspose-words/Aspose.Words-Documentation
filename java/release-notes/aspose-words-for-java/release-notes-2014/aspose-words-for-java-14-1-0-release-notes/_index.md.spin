@@ -53,12 +53,12 @@ There are 118 improvements and fixes in this regular monthly release. The most n
 |WORDSJAVA-837 |OfficeCrypto to support Sha512 hasher |Feature |
 |WORDSNET-3025 |Some characters are not displayed during inserting. |Bug |
 |WORDSNET-4522 |STYLEREF field in header/footer is improperly updated upon rendering |Bug |
-|WORDSNET-5388 |STYLEREF field {shows|demonstrates} error "Error! No text of specified style in document." in the output PDF document. |Bug |
+|WORDSNET-5388 |STYLEREF field demonstrates error "Error! No text of specified style in document." in the output PDF document. |Bug |
 |WORDSNET-6452 |Doc to PDF conversion issue with fields in page header |Bug |
 |WORDSNET-7519 |OL element should not be nested within element OL in Html |Bug |
 |WORDSNET-7532 |Docx to RTF conversion issue with font size. |Bug |
 |WORDSNET-7690 |/cjk line spacing/Incorrect LineSpacing results in an incorrect number of pages |Bug |
-|WORDSNET-8561 |TOC hyperlinks and superscript hyperlinks split into {multiple|several|a few|many|numerous} fragments in output PDF |Bug |
+|WORDSNET-8561 |TOC hyperlinks and superscript hyperlinks split into multiple fragments in output PDF |Bug |
 |WORDSNET-8623 |/asian baseline/ Empty page is inserted after conversion from Doc to PDF |Bug |
 |WORDSNET-8637 |Images are placed incorrectly after RTF-HTML-DOCX round-trip |Bug |
 |WORDSNET-8638 |Font size of table text gets smaller after export to HTML |Bug |

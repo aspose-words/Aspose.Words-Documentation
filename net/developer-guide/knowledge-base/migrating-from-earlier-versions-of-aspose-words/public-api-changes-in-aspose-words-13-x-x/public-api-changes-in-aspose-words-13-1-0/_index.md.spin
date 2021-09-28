@@ -57,7 +57,7 @@ field.Update()
 
 ### Added FieldCollection to Range
 
-We have implemented a **FieldCollection** class that is very similar to **BookmarkCollection**. The **Range.Fields** property now {allows|enables} to access all fields based on field starts within a node's range.
+We have implemented a **FieldCollection** class that is very similar to **BookmarkCollection**. The **Range.Fields** property now allows to access all fields based on field starts within a node's range.
 
 #### Example
 
@@ -86,11 +86,11 @@ Console.WriteLine(field.Type)
 
 To make things better and easier for both our developers and the users of Aspose.Words, we have decided to dismiss support for the .NET Framework 1.1 from the Aspose.Words for .NET product. This means starting from this release we no longer ship the special DLLs targeting the .NET Framework 1.1 with Aspose.Words for .NET.
 
-The NET Framework 1.1 is outdated and we expect very few users to develop applications that exclusively rely on this version of .NET. However we do hope this doesn’t provide any interruption to users. This was no easy decision, and hopefully one that is seen as a step forward and not backward. This is for {several|multiple|a few|many|numerous} reasons:
+The NET Framework 1.1 is outdated and we expect very few users to develop applications that exclusively rely on this version of .NET. However we do hope this doesn’t provide any interruption to users. This was no easy decision, and hopefully one that is seen as a step forward and not backward. This is for several reasons:
 
 - There are features that we need to implement which are incompatible or difficult to get working with the 1.1 version of the .NET Framework. Without support for 1.1 we can more easily stream line new features into our component.
 - We can begin using features exclusively found in the .NET Framework 2.0 and above in the Aspose.Words code. This means useful features such as generics that we previously off limits to enable continued support of .NET 1.1 can now be used in our code. The benefits of this get passed onto you as these features will improve performance in the Aspose.Words component even further. Expect to see these improvements in the next few versions of Aspose.Words.
-- Since Aspose.Words for .NET is auto-ported to Java {many|multiple|several|a few|numerous} performance benefits will extend to Aspose.Words for Java as well.
+- Since Aspose.Words for .NET is auto-ported to Java several performance benefits will extend to Aspose.Words for Java as well.
 
 ### INCLUDETEXT Fields Supports HTTP Protocol
 

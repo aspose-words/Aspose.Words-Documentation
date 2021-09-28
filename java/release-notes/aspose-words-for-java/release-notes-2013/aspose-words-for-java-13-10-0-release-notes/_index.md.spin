@@ -53,7 +53,7 @@ There are 177 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-5632 |TabStop/TabLeaders rendering incorrectly in PDF,XPS |Bug |
 |WORDSNET-5659 |Number -1 appears before the bullet list after rendering to PDF |Bug |
 |WORDSNET-5757 |HTML to Doc conversion; &lt;TD style="TEXT-ALIGN: center; is not working. align="center" is working |Bug |
-|WORDSNET-5993 |UpdateFields splits a single Run of text in Date field into {many|multiple|several|a few|numerous} Runs |Bug |
+|WORDSNET-5993 |UpdateFields splits a single Run of text in Date field into numerous Runs |Bug |
 |WORDSNET-6042 |JoinRunsWithSameFormatting does not seem to be working |Bug |
 |WORDSNET-6083 |Table tag > Style > background attribute does not support when converting HTML to DOC. |Bug |
 |WORDSNET-6148 |StructuredDocumentTag text is changed during open/save docx file. |Bug |
@@ -156,7 +156,7 @@ There are 177 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9036 |Exception is thrown while loading html file. |Enhancement |
 |WORDSNET-9049 |Floating shape is rendered on the wrong page |Enhancement |
 |WORDSNET-9148 |Shape is rendered twice. |Enhancement |
-|WORDSNET-9182 |A DrawingML is repeated {many|multiple|several|a few|numerous} times in PDF |Enhancement |
+|WORDSNET-9182 |A DrawingML is repeated numerous times in PDF |Enhancement |
 |WORDSNET-6070 |Aspose.Words.FileCorruptedException occur while loading mht file. |Exception |
 |WORDSNET-8114 |Document.Save throws System.InvalidCastException on re-saving Docx |Exception |
 |WORDSNET-8259 |Aspose.Words.FileCorruptedException occurs when loading MHT file |Exception |

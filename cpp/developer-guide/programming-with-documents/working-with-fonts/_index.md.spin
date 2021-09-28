@@ -15,7 +15,7 @@ The LineSpacing property was introduced in the Font class to obtain this value a
 
 ## Font Formatting
 
-Current font formatting is represented by a Font object returned by the DocumentBuilder.Font property. The Font class contains a wide variety of font properties possible in Microsoft Word. The below example {shows|demonstrates} how to set font formatting.
+Current font formatting is represented by a Font object returned by the DocumentBuilder.Font property. The Font class contains a wide variety of font properties possible in Microsoft Word. The below example demonstrates how to set font formatting.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetFontFormatting.cpp" >}}
 
@@ -23,6 +23,6 @@ Fill properties now are also available for fonts to set fill formatting of text.
 
 ## Font EmphasisMark
 
-The Font class provides EmphasisMark property to get or set EmphasisMark enumeration values to be applied in the formatting. The code example given below {demonstrates|shows} how to set EphasisMark property.
+The Font class provides EmphasisMark property to get or set EmphasisMark enumeration values to be applied in the formatting. The code example given below shows how to set EphasisMark property.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-SetFontEmphasisMark.cpp" >}}

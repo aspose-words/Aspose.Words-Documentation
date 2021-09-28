@@ -13,18 +13,18 @@ Finding the index of any node involves gathering all child nodes of the elementâ
 
 ## Finding the Index of Table in a Document
 
-The following code example {shows|demonstrates} how to retrieve the index of a table in the document.
+The following code example shows how to retrieve the index of a table in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-FindIndexOfTableElements-FindIndexOfTableInADocument.java" >}}
 
 ### Finding the Index of a Row in a Table
 
-The following code example {shows|demonstrates} how to retrieve the index of a row in a table.
+The following code example demonstrates how to retrieve the index of a row in a table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-FindIndexOfTableElements-FindIndexOfARowInATable.java" >}}
 
 ### Finding the Index of a Cell in a Row
 
-The following code example {shows|demonstrates} how to retrieve the index of a cell in a row.
+The following code example shows how to retrieve the index of a cell in a row.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-FindIndexOfTableElements-FindIndexOfACellInARow.java" >}}

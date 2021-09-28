@@ -1,6 +1,6 @@
 ﻿---
 title: Learn Features of Conversion to PDF/A
-description: "Aspose.Words for С++ {allows|enables} users to convert to PDF/A-1 and PDF/A-2. There are {a few|multiple|several|many|numerous} problems when converting to PDF/A documents, and Aspose.Words for С++ solves them."
+description: "Aspose.Words for С++ allows users to convert to PDF/A-1 and PDF/A-2. There are several problems when converting to PDF/A documents, and Aspose.Words for С++ solves them."
 type: docs
 weight: 35
 url: /cpp/learn-features-of-conversion-to-pdf-a/
@@ -8,9 +8,9 @@ url: /cpp/learn-features-of-conversion-to-pdf-a/
 
 PDF is a fixed page format that is very popular among users and is widely supported by various applications, as a PDF document looks the same on any device. For this reason, converting to PDF is an important feature of Aspose.Words.
 
-PDF is a complex format by itself, as it has a specific file structure, graphical model, font embedding, and some complex output functionality such as document structure tags, encryption, digital signatures, and editable forms. In addition, converting a document to PDF requires {several|multiple|a few|many|numerous} calculation stages, which are complex and time-consuming.
+PDF is a complex format by itself, as it has a specific file structure, graphical model, font embedding, and some complex output functionality such as document structure tags, encryption, digital signatures, and editable forms. In addition, converting a document to PDF requires many calculation stages, which are complex and time-consuming.
 
-Aspose.Words now {allows|enables} users to work with PDF/A-1 and PDF/A-2 formats:
+Aspose.Words now allows users to work with PDF/A-1 and PDF/A-2 formats:
 
 * PDF/A-1 has serious limitations such as transparency and some compression options are prohibited
 
@@ -22,7 +22,7 @@ In this article, we will consider the main problems that may arise when working 
 
 ## Complexity of Working with PDF/A
 
-PDF/A format imposes {several|multiple|a few|many|numerous} requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A conformant document.
+PDF/A format imposes a few requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A conformant document.
 
 Basic requirements are for the structure or fonts of a PDF/A document, which we will consider in the following sections.
 
@@ -50,7 +50,7 @@ The specification tells us the following:
 
 > The block-level structure may follow one of two principal paradigms:
 >
-> * Strongly structured. The grouping elements nest to as {many|multiple|several|a few|numerous} levels as necessary to reflect the organization of the material into articles, sections, subsections, and so on. At each level, the children of the grouping element should consist of a heading (H), one or more paragraphs (P) for content at that level, and perhaps one or more additional grouping elements for nested subsections.
+> * Strongly structured. The grouping elements nest to as numerous levels as necessary to reflect the organization of the material into articles, sections, subsections, and so on. At each level, the children of the grouping element should consist of a heading (H), one or more paragraphs (P) for content at that level, and perhaps one or more additional grouping elements for nested subsections.
 >
 > * Weakly structured. The document is relatively flat, having perhaps only one or two levels of grouping elements, with all the headings, paragraphs, and other BLSEs as their immediate children. In this case, the organization of the material is not reflected in the logical structure; however, it may be expressed by the use of headings with specific levels (H1–H6).
 

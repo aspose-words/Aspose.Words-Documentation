@@ -110,7 +110,7 @@ The missing features will be added in future releases.
 |WORDSNET-13190|Chinese text moves to next line after conversion from DOCX to PDF|Bug|
 |WORDSNET-9076|Empty spaces appear after conversion from DOC to HTML|Bug|
 |WORDSNET-13414|Table's rows are moved to previous page in output PDF|Bug|
-|WORDSNET-13488|Google translate {shows|demonstrates} different result for Aspose.Words generated PDF content|Bug|
+|WORDSNET-13488|Google translate demonstrates different result for Aspose.Words generated PDF content|Bug|
 |WORDSNET-13053|Chinese text moves to next lines at each page of TIFF/PDF|Bug|
 |WORDSNET-12697|Cell's text is truncated after saving DOCX to PDF|Bug|
 |WORDSNET-12420|DOC to PDF conversion issue with image rendering|Bug|
@@ -148,7 +148,7 @@ public class TaskPane
     /// </summary>
     public bool IsLocked { get; set; }
     /// <summary>
-    /// Specifies whether the task pane {shows|demonstrates} as visible by default when the document opens.
+    /// Specifies whether the task pane shows as visible by default when the document opens.
     /// </summary>
     public bool IsVisible { get; set; }
     /// <summary>
@@ -457,7 +457,7 @@ public HorizontalRuleFormat HorizontalRuleFormat
 {{< /highlight >}}
 
 **Added new public class HorizontalRuleFormat** 
-HorizontalRuleFormat class {allows|enables} to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
+HorizontalRuleFormat class allows to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
 
 {{< highlight csharp >}}
 /// <summary>

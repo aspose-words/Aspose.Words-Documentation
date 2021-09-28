@@ -27,7 +27,7 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 - Improved output image quality when rendering metafiles with raster operations set
 - Fixed handling of glyphs without outlines when parsing glyph data while rendering
 - Fixed a bug with a glow effect, if the specified glow size is less than 10
-- Fixed {several|multiple|a few|many|numerous} problems in DrawingML Charts rendering: incorrect default axis color, bug with the date format for axis values, bug with rendering of the trend line with unsorted x-values
+- Fixed numerous problems in DrawingML Charts rendering: incorrect default axis color, bug with the date format for axis values, bug with rendering of the trend line with unsorted x-values
 - Improved rendering of the mathematical element "Apostrophe" of the MathML object 
 - Improved justification of Asian texts
 - Improved rendering of revisions in balloons
@@ -155,7 +155,7 @@ public static boolean AnnotationsAtBlockLevelAsDefault { get; set; }
 {{< /highlight >}}
 
 Now code that uses Aspose.Words should consider that not only composite nodes may appear on the block/cell/row level, for example, as children of the Body, Table, Row, Cell nodes.
-Setting the AnnotationsAtBlockLevelAsDefault property to **false** {allows|enables} temporarily prevent possible issues with the existing code. But please note that the property may become obsolete in the further versions of the software.
+Setting the AnnotationsAtBlockLevelAsDefault property to **false** allows temporarily prevent possible issues with the existing code. But please note that the property may become obsolete in the further versions of the software.
 
 #### UC to open a document in the inline-bookmarks mode
 

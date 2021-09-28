@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.Words for Java 19.5](https://reposi
 - Docx-to-Pdf Performance optimization: warm tests time improved from 2 to 10 times depending on the application.
 - Mailmerge performance is raised up to 50% for tasks of particular types.
 - Removed obsolete properties and methods related to font substitution settings in FontSettings class.
-- Implemented StreamFontSource class which {allows|enables} loading fonts from a stream.
+- Implemented StreamFontSource class which allows loading fonts from a stream.
 - Implemented TOC to logical structure export when rendering PDF.
 - Implemented proper rendering of embedded fonts in PDF when different font subsets have the same internal name.
 - Text in the format "x...." in the string values of the series category of DrawingML chart is now rendered as a string corresponding to the specified character code.
@@ -141,7 +141,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, I
 
 
 
-It {allows|enables} to specify an additional options that affect the formatting of a result document.
+It allows to specify an additional options that affect the formatting of a result document.
 
 See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for Java 19.4 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-19-4-release-notes/).
 
@@ -167,13 +167,13 @@ Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
 {{< highlight csharp >}}
 /// <summary>
-/// True if this paragraph break is a Style Separator. A style separator {allows|enables} one
+/// True if this paragraph break is a Style Separator. A style separator enables one
 /// paragraph to consist of parts that have different paragraph styles.
 /// </summary>
 public bool BreakIsStyleSeparator
 {{< /highlight >}}
 
-It {allows|enables} to identify Style Separator Paragraph.
+It enables to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -251,7 +251,7 @@ Assert.AreEqual("1)", fields[5].DisplayResult);
 
 Related issue: WORDSNET-16739
 
-Added new StreamFontSource class which {allows|enables} loading fonts from the stream:
+Added new StreamFontSource class which enables loading fonts from the stream:
 
 
 
@@ -263,11 +263,11 @@ Added new StreamFontSource class which {allows|enables} loading fonts from the s
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called {several|multiple|a few|many|numerous} times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called multiple times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
-    /// <para><see cref="StreamFontSource"/> may be useful because it {allows|enables} to load the font data only when it is required
+    /// <para><see cref="StreamFontSource"/> may be useful because it allows to load the font data only when it is required
     /// and not to store it in the memory for the <see cref="FontSettings"/> lifetime.</para>
     /// </remarks>
     public abstract class StreamFontSource : FontSourceBase, IFontData
@@ -354,7 +354,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 Font runFont = runs[1].Font;
 
-// One run might have {several|multiple|a few|many|numerous} Dml text effects applied.
+// One run might have a few Dml text effects applied.
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Effect3D));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Reflection));

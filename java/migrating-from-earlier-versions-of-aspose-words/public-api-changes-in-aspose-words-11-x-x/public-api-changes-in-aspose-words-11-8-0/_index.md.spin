@@ -19,7 +19,7 @@ Also other situations when external resources are used have been included in the
 
 |Scenario|Comments|
 | :- | :- |
-|[DocumentBuilder.InsertImage]()|This method {allows|enables} you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
+|[DocumentBuilder.InsertImage]()|This method enables you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
 |[DocumentBuilder.InsertHtml]()|This method parses an HTML snippet into the document at the current cursor. As with **DocumentBuilder.InsertImage** this snippet can contain links to external resources. |
 |[ImageData.SetImage]()|Use a **ResourceLoadingCallback** to allow inserting images from a Base64 string source. |
 |[ImageData.ToStream]()|If the user requests a linked image to be converted to stream then it is downloaded from the external source and returned to the user. Add a callback here to control how this download occurs. |
@@ -74,7 +74,7 @@ Document doc = new Document(getMyDir() + "Document.doc");
 // Extract the last paragraph in the document to convert to HTML.
 Node node = doc.getLastSection().getBody().getLastParagraph();
 
-// Create an instance of HtmlSaveOptions and set {a few|multiple|several|many|numerous} options.
+// Create an instance of HtmlSaveOptions and set multiple options.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.setExportHeadersFootersMode(ExportHeadersFootersMode.PER_SECTION);
 saveOptions.setExportRelativeFontSize(true);
@@ -169,7 +169,7 @@ builder.writeln("The second paragraph");
 builder.writeln("The third paragraph");
 builder.writeln("The fourth paragraph");
 
-// Hot remove {allows|enables} a node to be removed from a live collection and have the enumeration continue.
+// Hot remove enables a node to be removed from a live collection and have the enumeration continue.
 for (Paragraph para : (Iterable<Paragraph>)builder.getDocument().getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true))
 {
      if (para.getRange().getText().contains("third"))
@@ -219,7 +219,7 @@ In the above code:
 
 ## 10. Introduction of HtmlSaveOptions.CssSavingCallback Property and ICssSavingCallback Interface
 
-This {enables|allows} control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType]() is set to [CssStyleSheetType.External](). This interface {allows|enables} control over where the external CSS is saved to, such as a stream.
+This enables control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType]() is set to [CssStyleSheetType.External](). This interface enables control over where the external CSS is saved to, such as a stream.
 
 ## 11. Additional MetafileRenderingMode Option Introduced
 

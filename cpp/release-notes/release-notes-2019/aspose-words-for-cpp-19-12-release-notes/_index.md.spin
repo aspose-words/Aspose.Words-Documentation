@@ -306,7 +306,7 @@ public enum PdfCompliance
 
 
 
-The property {allows|enables} specifying PDF format for the output document. Example:
+The property enables specifying PDF format for the output document. Example:
 
 {{< highlight csharp >}}
 Document originalDoc = new Document(@"C:\PathToSource\Document.docx");

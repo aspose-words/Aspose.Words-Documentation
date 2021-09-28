@@ -14,7 +14,7 @@ Using Aspose.Words you can interact with footnotes and endnotes and access or mo
 
 Footnotes and endnote markers are imported as hyperlinks. The content of these is separated at the bottom of the section with a horizontal rule.
 
-There is a sample project which {demonstrates|shows} how to convert this type of footnote import into proper footnotes again.
+There is a sample project which shows how to convert this type of footnote import into proper footnotes again.
 
 {{% /alert %}} 
 
@@ -22,7 +22,7 @@ There is a sample project which {demonstrates|shows} how to convert this type of
 
 Footnotes and endnote markers are imported as hyperlinks. The content of these is separated at the bottom of the section with a horizontal rule.
 
-There is a sample project which {demonstrates|shows} how to convert this type of footnote import into proper footnotes again.
+There is a sample project which shows how to convert this type of footnote import into proper footnotes again.
 
 See the following links in the documentation for further information:
 

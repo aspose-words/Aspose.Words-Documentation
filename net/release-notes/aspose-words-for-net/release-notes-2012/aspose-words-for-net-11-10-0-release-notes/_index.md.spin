@@ -41,7 +41,7 @@ There are 157 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-5589|DOTX to DOT: DrawingML picture is not converting to Shape object|Bug|
 |WORDSNET-5724|css drop while converting html to png/tiff|Bug|
 |WORDSNET-5970|While converting doc to mhtml, bullet points behaves like symbol and Times New Roman spaces.|Bug|
-|WORDSNET-6188|There should be at least {a few|multiple|several|many|numerous} pages of content before truncation in evaluation mode|Bug|
+|WORDSNET-6188|There should be at least numerous pages of content before truncation in evaluation mode|Bug|
 |WORDSNET-6274|Section break (Continues) in ODT is rendering as a Page Break in PDF|Bug|
 |WORDSNET-6893|Docx to EPUB conversion issue, bullets displayed as question marks in output EPUB|Bug|
 |WORDSNET-6991|UpdateFields calculates QUOTE field value incorrectly|Bug|
@@ -109,7 +109,7 @@ There are 157 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-7346|FieldChar.IsLocked Property do not work for Doc file format.|Bug|
 |WORDSNET-4606|/text wrap:5/ Position of shapes is incorrect during rendering|Enhancement|
 |WORDSNET-4860|/anchor push:20/ Support floater anchor push algorithm.|Enhancement|
-|WORDSNET-6094|List with {multiple|several|a few|many|numerous} levels is not converted correctly to HTML|Enhancement|
+|WORDSNET-6094|List with many levels is not converted correctly to HTML|Enhancement|
 |WORDSNET-6493|Docx to HTML conversion issue with text position after Bullet symbols|Enhancement|
 |WORDSNET-6647|Table cell widths calculation wrong for fixed preferred width tables.|Enhancement|
 |WORDSNET-6776|WORDSNET-6968 Support fixed maximum and minimum values of axis|Enhancement|

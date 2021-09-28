@@ -68,8 +68,8 @@ A table from any document loaded into Aspose.Words is imported as a Table node. 
 
 A **Table** node does not contain any real content - instead it is a container for other such nodes which make up the content:
 
-- A Table contains {many|multiple|several|a few|numerous} Row nodes. A Table exposes all the normal members of a node which {allows|enables} you to freely move, modify and remove the table in the document.
-- A Row represents a single row of a table and contains {many|multiple|several|a few|numerous} Cell nodes. Additionally, a Row provides members which define how a row is displayed, for example, the height and alignment.
+- A Table contains many Row nodes. A Table exposes all the normal members of a node which enables you to freely move, modify and remove the table in the document.
+- A Row represents a single row of a table and contains many Cell nodes. Additionally, a Row provides members which define how a row is displayed, for example, the height and alignment.
 - A Cell is what contains the true content seen in a table and is made up of Paragraph and other block-level nodes. Additionally, cells can contain further nested tables.
 
 This relationship is best represented by inspecting the structure of a **Table** node in a document through the use of **DocumentExplorer** .
@@ -80,7 +80,7 @@ You should also notice the table is succeeded with an empty paragraph. It is a r
 
 ## Creating Tables
 
-Aspose.Words provides {several|multiple|a few|many|numerous} different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
+Aspose.Words provides multiple different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
 
 |Table Property|Default in Aspose.Words|
 | :- | :- |
@@ -119,15 +119,15 @@ In Aspose.Words a table is normally inserted using DocumentBuilder. The followin
 |**DocumentBuilder.Writeln**|Inserts some text into the first cell of the second row.| |
 |**DocumentBuilder.EndTable**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.| |
 
-Below example {shows|demonstrates} how to create a simple table using DocumentBuilder with default formatting:
+Below example shows how to create a simple table using DocumentBuilder with default formatting:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-SimpleTable.cpp" >}}
 
-Below example {shows|demonstrates} how to create a formatted table using DocumentBuilder:
+Below example shows how to create a formatted table using DocumentBuilder:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-FormattedTable.cpp" >}}
 
-Below example {shows|demonstrates} how to insert a nested table using DocumentBuilder:
+Below example shows how to insert a nested table using DocumentBuilder:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-NestedTable.cpp" >}}
 
@@ -137,13 +137,13 @@ You can insert tables directly into the DOM at a particular node position. The s
 
 Note that you must take into account that the table will initially be completely empty (i.e contains no child rows yet). In order to build the table, you will first need to add the appropriate child nodes.
 
-Below example {shows|demonstrates} how to insert a table using the constructors of nodes.
+Below example shows how to insert a table using the constructors of nodes.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableDirectly-InsertTableDirectly.cpp" >}}
 
 ### Inserting a Clone of an Existing Table
 
-Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the Table.Clone method. Below example {shows|demonstrates} how to insert a table using the constructors of nodes. You can download the template file of this example from here.
+Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the Table.Clone method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cpp" >}}
 
@@ -153,7 +153,7 @@ The same technique can be used to add copies of an existing row to a table.
 
 {{% /alert %}} 
 
-Below example {shows|demonstrates} how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from here.
+Below example demonstrates how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneLastRow.cpp" >}}
 
@@ -162,23 +162,23 @@ Instead, the desired output is achieved more easily by using Mail Merge with Reg
 
 ### Inserting a Table from HTML
 
-Aspose.Words supports inserting content into a document from an HTML source by using the DocumentBuilder.InsertHtml method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example {shows|demonstrates} how to insert a table in a document from a string containing HTML tags.
+Aspose.Words supports inserting content into a document from an HTML source by using the DocumentBuilder.InsertHtml method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cpp" >}}
 
 ### Comparison of Insertion Techniques
 
-As described in previous articles, Aspose.Words provides {several|multiple|a few|many|numerous} methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
+As described in previous articles, Aspose.Words provides multiple methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
-|DocumentBuilder (DocumentBuilder.StartTable)|The standard method of inserting tables and other document content.|Sometimes hard to create {many|multiple|several|a few|numerous} varieties of tables at the same time with the same instance of the builder.|
+|DocumentBuilder (DocumentBuilder.StartTable)|The standard method of inserting tables and other document content.|Sometimes hard to create several varieties of tables at the same time with the same instance of the builder.|
 |Table([Table](http://www.aspose.com/api/net/words/aspose.words.tables/table))| Fits in better with surrounding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|The table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
 |Cloning (Table.Clone)|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
 
 ## Extracting Plain Text from a Table
 
-A Table like any other node in Aspose.Words has access to a Range object. Using this object, you can call methods over the entire table range to extract the table as plain text. The Range.Text property is used for this purpose. Below example {shows|demonstrates} how to print the text range of a table.
+A Table like any other node in Aspose.Words has access to a Range object. Using this object, you can call methods over the entire table range to extract the table as plain text. The Range.Text property is used for this purpose. Below example shows how to print the text range of a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-ExtractText.cpp" >}}
 
@@ -188,16 +188,16 @@ The same technique is used to extract the content from individual cells of a tab
 
 {{% /alert %}} 
 
-Below example {shows|demonstrates} how to print the text range of row and table elements.
+Below example shows how to print the text range of row and table elements.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-PrintTextRangeOFRowAndTable.cpp" >}}
 
 ## Replacing Text in a Table
 
-Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across {multiple|several|a few|many|numerous} nodes, such as paragraphs or cells, then an exception is thrown.
+Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across multiple nodes, such as paragraphs or cells, then an exception is thrown.
 
 Normally the replacement of text should be done at the cell level (per cell) or at the paragraph level.
 
-Below example {shows|demonstrates} how to replace all instances of a string of text in a table and cell.
+Below example demonstrates how to replace all instances of a string of text in a table and cell.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-ReplaceText.cpp" >}}

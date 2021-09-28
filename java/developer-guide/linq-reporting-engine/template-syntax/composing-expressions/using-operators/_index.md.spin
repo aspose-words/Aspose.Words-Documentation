@@ -5,7 +5,7 @@ weight: 50
 url: /java/using-operators/
 ---
 
-The following table contains predefined operators that LINQ Reporting Engine {enables|allows} you to use in template expressions.
+The following table contains predefined operators that LINQ Reporting Engine allows you to use in template expressions.
 
 <table class="using operators">
 	<tbody>
@@ -33,4 +33,4 @@ The engine follows operator precedence, associativity, and overload resolution r
 - String equality and inequality check operators test string contents, rather than string references.
 - Whereas the object initializer syntax is supported (including objects of anonymous types), the collection initializer syntax is not.
 
-Also, the engine {enables|allows} you to use lifted operators in template expressions. In Java, operands of lifted operators are represented by primitive type class wrappers like `Integer`, `Double`, and others, in contrast to nullable types in C#. That is, for example, given that variables a and b are of the `Integer` type and the value of a is `null`, expression "a + b" is evaluated to `null` by the engine, whereas it throws an exception in Java during runtime.
+Also, the engine allows you to use lifted operators in template expressions. In Java, operands of lifted operators are represented by primitive type class wrappers like `Integer`, `Double`, and others, in contrast to nullable types in C#. That is, for example, given that variables a and b are of the `Integer` type and the value of a is `null`, expression "a + b" is evaluated to `null` by the engine, whereas it throws an exception in Java during runtime.

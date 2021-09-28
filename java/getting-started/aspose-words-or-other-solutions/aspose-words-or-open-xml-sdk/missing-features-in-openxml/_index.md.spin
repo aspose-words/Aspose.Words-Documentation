@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words Features Missing in Open XML SDK
-description: "Aspose.Words for Java {allows|enables} to perform some operations with documents faster and more conveniently than Open XML SDK. In addition, there are operations that are not supported by OpenXML."
+description: "Aspose.Words for Java enables to perform some operations with documents faster and more conveniently than Open XML SDK. In addition, there are operations that are not supported by OpenXML."
 type: docs
 weight: 20
 url: /java/missing-features-in-openxml/
@@ -16,7 +16,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 | Mail Merge                                                   | The [”Mail Merge and Reporting”](https://docs.aspose.com/words/java/mail-merge-and-reporting/) section |
 | Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/java/rendering/) section |
 | Print a document                                             | The [”Printing a Document Programmatically or Using Dialogs”](https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/) article |
-| Join {multiple|several|a few|many|numerous} documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](https://docs.aspose.com/words/java/insert-and-append-documents/) article |
+| Join a few documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](https://docs.aspose.com/words/java/insert-and-append-documents/) article |
 | Find and Replace                                             | The [“Find and Replace”](https://docs.aspose.com/words/java/find-and-replace/) article |
 | Updating fields                                              | The [“Working with Fields”](https://docs.aspose.com/words/java/working-with-fields/) section |
 | Manage a Table of Content (TOC)                              | The [“Working with Table of Contents”](https://docs.aspose.com/words/java/working-with-table-of-contents/) article |

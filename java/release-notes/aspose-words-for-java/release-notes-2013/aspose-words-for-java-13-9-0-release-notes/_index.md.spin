@@ -40,7 +40,7 @@ There are 115 improvements and fixes in this regular monthly release. The most n
 |WORDSJAVA-773 |Wmf image is filled by black background. |Enhancement |
 |WORDSJAVA-781 |Publically set TableName in com.aspose.words.DataTable |Enhancement |
 |WORDSJAVA-750 |java.lang.reflect.InvocationTargetException occurs when rendering Docx to Pdf |Exception |
-|WORDSJAVA-769 |NullPointerException occurs when saving doc as pdf in {multiple|several|a few|many|numerous} threads |Exception |
+|WORDSJAVA-769 |NullPointerException occurs when saving doc as pdf in multiple threads |Exception |
 |WORDSJAVA-715 |Generation of very big doc on Java 6 is slower than on Java 5 |Performance |
 |WORDSJAVA-768 |Corrupt JPEG data: premature end of data segment error occurs during saving to HTML_FIXED |Performance |
 |WORDSNET-5448 |Content inside the text box is trimmed. |Bug |

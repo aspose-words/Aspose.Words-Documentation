@@ -9,9 +9,9 @@ url: /java/document-features-supported-on-epub-export/
 
 Note that not all Microsoft Word document features are avlaible in HTML format and some features may be lost or converted to image.
 
-If you are looking for a way to easily store documents in a database then it is suggested to use the WordML or FlatOPC format. Both formats are fully XML based making them easy to store into a database but they are native word formats which {allows|enables} you to preserve full fidelty of Microsoft Word features such as WordArt, Textboxex etc.
+If you are looking for a way to easily store documents in a database then it is suggested to use the WordML or FlatOPC format. Both formats are fully XML based making them easy to store into a database but they are native word formats which enables you to preserve full fidelty of Microsoft Word features such as WordArt, Textboxex etc.
 
-Aspose.Words saves any loaded document that to valid HTML 4.0 or XHTML 1.0 specifcations. EPUB documents are exported as EPUB 2.0. There are plans to support HTML 5 and EPUB 3.0 specification as well. There are also {numerous|multiple|several|a few|many} save options avaliable to control a document is exported to HTML. Here a some examples of what you can do:
+Aspose.Words saves any loaded document that to valid HTML 4.0 or XHTML 1.0 specifcations. EPUB documents are exported as EPUB 2.0. There are plans to support HTML 5 and EPUB 3.0 specification as well. There are also numerous save options avaliable to control a document is exported to HTML. Here a some examples of what you can do:
 
 Control the CSS style sheet type
 
@@ -26,7 +26,7 @@ Some features which are unsupported in HTML are exported as image. It is the Asp
 
 You can also choose to create your own HTML writer for your own custom needs by building off the Aspose.Words rich DOM. Using the DocumentVisitor you can visit each node and build the HTML node by node.
 
-Currently most of the special Microsoft "Mso" attributes, which are normally added by Microsoft Word to HTML output to make it round-trip capable back to Word formats, are not written during export to HTML or MHTML. This makes the HTML produced by Aspose.Words much cleaner than the output produced by Microsoft Word which is often bloated with these {many|multiple|several|a few|numerous} round-trip based attributes.
+Currently most of the special Microsoft "Mso" attributes, which are normally added by Microsoft Word to HTML output to make it round-trip capable back to Word formats, are not written during export to HTML or MHTML. This makes the HTML produced by Aspose.Words much cleaner than the output produced by Microsoft Word which is often bloated with these several round-trip based attributes.
 
 In the future we will add full support for these in import and allow an option to export control if these attributes are written at all during export.
 
