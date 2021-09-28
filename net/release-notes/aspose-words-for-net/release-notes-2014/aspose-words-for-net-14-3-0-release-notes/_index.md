@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 14.3.0 Release Notes
 type: docs
 weight: 80
@@ -37,7 +37,7 @@ There are 88 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-9176|CSS selectors do not work for &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt; elements|Bug|
 |WORDSNET-9191|Chart Legend/Series do not render correctly in output Pdf file|Bug|
 |WORDSNET-9254|Data labels with best fit position are rendering at incorrect places in Chart|Bug|
-|WORDSNET-9315|Offset of the hyperlink text line is off by a few pixels in output Pdf|Bug|
+|WORDSNET-9315|Offset of the hyperlink text line is off by numerous pixels in output Pdf|Bug|
 |WORDSNET-9369|Hyperlinks split into multiple fragments/links in output PDF|Bug|
 |WORDSNET-9474|Document.UpdateFields does not update SUM formula field|Bug|
 |WORDSNET-9492|Paragraph's first line indent increases when exported to HTML|Bug|

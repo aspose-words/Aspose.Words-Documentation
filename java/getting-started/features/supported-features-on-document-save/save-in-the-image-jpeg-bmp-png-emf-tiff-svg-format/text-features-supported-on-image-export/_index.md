@@ -1,4 +1,4 @@
----
+﻿---
 title: Text Features Supported on Image Export
 type: docs
 weight: 130

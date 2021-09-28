@@ -1,4 +1,4 @@
----
+﻿---
 title: Remove Breaks in PHP
 type: docs
 weight: 35

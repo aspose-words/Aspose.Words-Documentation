@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Android via Java 18.2 Release Notes
 type: docs
 weight: 70

@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to an Image
 type: docs
 description: “Aspose.Words for C++ allows you to convert a document to any supported image format, such as JPEG or PNG, to create a document preview or create a document "scan" to send an invoice.”
@@ -26,7 +26,7 @@ It is also possible to control the output image quality and pixel format using t
 
 There are also properties that apply to a certain format, for example, [JpegQuality](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.image_save_options#get_jpegquality) or [TiffCompression](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.image_save_options#get_tiffcompression_const).
 
-The following code example shows how to create a preview of the first document page with applying some additional settings:
+The following code example demonstrates how to create a preview of the first document page with applying some additional settings:
 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertWordDocument-ConvertDocumentToImage.cpp" >}}

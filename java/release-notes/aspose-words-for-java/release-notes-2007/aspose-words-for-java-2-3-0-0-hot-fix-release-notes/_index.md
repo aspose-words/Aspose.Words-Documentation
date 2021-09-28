@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 2.3.0.0 Hot Fix Release Notes
 type: docs
 weight: 10
@@ -29,4 +29,4 @@ The highlight of this release is:
 
 · Support of CSS shorthand attributes in HTML import. The very populat "font", "margins", "padding", "background", “border” attributes are now supported.
 
-· The size of generated files is optimized - if the same image occurs multiple times in the document it is written to DOC and HTML files only once.
+· The size of generated files is optimized - if the same image occurs several times in the document it is written to DOC and HTML files only once.

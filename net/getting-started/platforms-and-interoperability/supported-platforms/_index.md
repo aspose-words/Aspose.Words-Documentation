@@ -1,4 +1,4 @@
----
+﻿---
 title: Supported Platforms
 type: docs
 weight: 5

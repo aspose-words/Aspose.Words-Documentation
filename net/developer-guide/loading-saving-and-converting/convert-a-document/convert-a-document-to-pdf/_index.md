@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to PDF
 description: "Aspose.Words for .NET allows you to convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."
 type: docs
@@ -8,9 +8,9 @@ url: /net/convert-a-document-to-pdf/
 
 The ability to easily and reliably convert documents from one format to another is a key feature of Aspose.Words. One of the most popular formats for converting is PDF – a fixed-layout format, which preserves the original appearance of a document during its rendering on various platforms. The “rendering” term is used in Aspose.Words to describe the process of converting a document into a file format that is paginated or has the concept of pages.
 
-## Convert a Word Document to PDF {#convert-a-word-document-to-pdf}
+## Convert Word File to PDF {#convert-a-word-document-to-pdf}
 
-Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
+Conversion from Word to PDF is a rather complex process that requires multiple stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
 
 With Aspose.Words you can programmatically convert a document from Word formats, such as DOC or DOCX, to PDF without using Microsoft Office. This article explains how to perform this conversion.
 
@@ -20,7 +20,7 @@ Note that the number of pages in a document affects the conversion time.
 
 {{% /alert %}} 
 
-### Converting DOC or DOCX to PDF {#converting-doc-or-docx-to-pdf}
+### Convert DOCX or DOC to PDF {#converting-doc-or-docx-to-pdf}
 
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
@@ -41,19 +41,21 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 {{% /alert %}} 
 
-### Converting to Various PDF Standards {#converting-to-various-pdf-standards}
+### Convert to Different PDF Standards {#converting-to-various-pdf-standards}
 
 Aspose.Words provides the [PdfCompliace ](https://apireference.aspose.com/net/words/aspose.words.saving/pdfcompliance)enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 
-The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions) with compliance to PDF17:
+The following code example shows how to convert a document to PDF 1.7 using [PdfSaveOptions](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions) with compliance to PDF17:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ConversionToPDF17.cs" >}}
 
-## Convert an Image to PDF {#convert-an-image-to-pdf}
+## Convert Images to PDF {#convert-an-image-to-pdf}
 
 Converting to PDF is not restricted by Microsoft Word document formats. Any format supported by Aspose.Words, including programmatically created, can also be converted to PDF. For example, we can convert single-page images, such as JPEG, PNG, BMP, EMF, or WMF, as well as multi-page images, such as TIFF and GIF, to PDF.
 
 The following code example shows how to convert JPEG and TIFF images to PDF:
+
+**.NET**
 
 {{< highlight csharp >}}
 
@@ -61,6 +63,8 @@ The following code example shows how to convert JPEG and TIFF images to PDF:
 ConvertImageToPdf(dataDir + "Test.jpg", dataDir + "TestJpg_out.pdf");
 ConvertImageToPdf(dataDir + "Test.tiff", dataDir + "TestTif_out.pdf");
 {{< /highlight >}}
+
+**.NET**
 
 {{< highlight csharp >}}
 public void ConvertImageToPdf(string inputFileName, string outputFileName)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Create New Document
 type: docs
 weight: 50
@@ -24,13 +24,13 @@ builder.writeln("Aspose Sample Content for Word file.");
 
 // Save the document in DOCX format. The format to save as is inferred from the extension of the file name.
 
-// Aspose.Words supports saving any document in many more formats.
+// Aspose.Words supports saving any document in numerous more formats.
 doc.save("Aspose_NewDoc.docx",SaveFormat.DOCX);
 {{< /highlight >}}
 
 ## docx4j - Create New Document
 
-Creates a WordprocessingML document from scratch and show several different ways of adding basic content.
+Creates a WordprocessingML document from scratch and show multiple different ways of adding basic content.
 
 **Java**
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Serialize and Work with a Document in a Database
 description: "Aspose.Words for Java allows you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."
 aliases:
@@ -37,9 +37,9 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## Store, Read and Delete a Document in a Database
 
-This section shows how to save a document in a database and then load it back into a Document object for working with it. For simplicity, the file name is the key used to store and fetch documents from the database. The database contains two columns. The first column “FileName” is stored as a String and is used to identify documents. The second column “FileContent” is stored as a BLOB object which stores the document object in the byte form.
+This section demonstrates how to save a document in a database and then load it back into a Document object for working with it. For simplicity, the file name is the key used to store and fetch documents from the database. The database contains two columns. The first column “FileName” is stored as a String and is used to identify documents. The second column “FileContent” is stored as a BLOB object which stores the document object in the byte form.
 
-The following code example shows how to set up a connection to a database and execute commands:
+The following code example demonstrates how to set up a connection to a database and execute commands:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenDatabaseConnection.java" >}}
 

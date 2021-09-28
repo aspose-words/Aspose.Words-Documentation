@@ -1,4 +1,4 @@
----
+﻿---
 title: Template Syntax
 type: docs
 weight: 20

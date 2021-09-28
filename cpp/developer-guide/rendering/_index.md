@@ -1,4 +1,4 @@
----
+﻿---
 title: Rendering
 description: "Use Aspose.Words for C++ rendering feature to format a flow-layout document into pages and convert such a document or selected pages to other documents (PDF, HTML, XPS, etc.) or images (TIFF, PNG, SVG, etc.) formats for viewing, further conversions, or printing."
 type: docs

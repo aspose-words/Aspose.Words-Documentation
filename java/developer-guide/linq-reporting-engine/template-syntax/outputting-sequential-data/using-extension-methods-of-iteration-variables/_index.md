@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Extension Methods of Iteration Variables
 type: docs
 weight: 30

@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserting Fields
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}} 
 
-The code example given below shows how to Inserts a merge field into a document using DocumentBuilder.
+The code example given below demonstrates how to Inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertField-InsertField.cpp" >}}
 
@@ -35,7 +35,7 @@ MERGEFIELD field in Word document can be represented by the FieldMergeField clas
 - Specify the text to be inserted after the merge field if the field is not blank
 - Specify the text to be inserted before the merge field if the field is not blank.
 
-For more details, please refer to FieldMergeField Class API reference. The code example given below shows how to add a Merge Field using DOM to a paragraph in the document.
+For more details, please refer to FieldMergeField Class API reference. The code example given below demonstrates how to add a Merge Field using DOM to a paragraph in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cpp" >}}
 
@@ -92,7 +92,7 @@ AUTHOR field is used to specify the name of the Document's author from the Docum
 
 - Specify the document author's name.
 
-For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAuthor+Class). The code example given below shows how to Add an AUTHOR Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAuthor+Class). The code example given below demonstrates how to Add an AUTHOR Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cpp" >}}
 
@@ -115,7 +115,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 { TOA [Switches ] }
 
-Please refer to FieldToa Class API reference. The code example given below shows how to Add a TOA field using DOM to a Paragraph in Document. 
+Please refer to FieldToa Class API reference. The code example given below demonstrates how to Add a TOA field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -123,6 +123,6 @@ Please refer to FieldToa Class API reference. The code example given below sh
 
 ### How to Insert Untyped/Empty Field
 
-If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. The code example given below shows how to insert an empty field in the document.
+If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. The code example given below demonstrates how to insert an empty field in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cpp" >}}

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Bookmarks
 type: docs
 weight: 86
@@ -11,7 +11,7 @@ With Aspose.Words, you can use bookmarks in reports or documents to insert some 
 
 ## Bookmarks in Microsoft Word
 
-In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of several letters and digits.
+In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of numerous letters and digits.
 
 ### Inserting a Bookmark in Microsoft Word
 
@@ -59,7 +59,7 @@ The following code example shows how to create a new bookmark.
 
 Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the [Node.Range](http://www.aspose.com/api/net/words/aspose.words/node/properties/range) property exposed by any document node that returns a [Range](http://www.aspose.com/api/net/words/aspose.words/range) object representing the portion of the document contained in this node. Use this object to retrieve a [BookmarkCollection](http://www.aspose.com/api/net/words/aspose.words/BookmarkCollection) and then use the collection indexer to get a specific bookmark.
 
-The following code example shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Bookmarks.docx).
+The following code example demonstrates how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Bookmarks.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-AccessBookmarks-AccessBookmarks.cs" >}}
 
@@ -77,7 +77,7 @@ If you change the name of a bookmark to a name that already exists in the docume
 
 Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
 
-The following code example demonstrates how to access columns of the bookmarked table.
+The following code example shows how to access columns of the bookmarked table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkTable-BookmarkTableColumns.cs" >}}
 

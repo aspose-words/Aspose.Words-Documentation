@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Styles
 aliases:
   - /cpp/working-with-styles/
@@ -13,7 +13,7 @@ The [StyleCollection](https://apireference.aspose.com/words/cpp/class/aspose.wor
 
 At a simple level, retrieving the content based on styles from a Word document can be useful to identify, list and count paragraphs and runs of text formatted with a specific style. For example, you may need to identify particular kinds of content in the document, such as examples, titles, references, keywords, figure names, and case studies.
 
-To take this a few steps further, this can also be used to leverage the structure of the document, defined by the styles it uses, to re-purpose the document for another output, such as HTML. This is in fact how the Aspose documentation is built, putting Aspose.Words to the test. A tool built using Aspose.Words takes the source Word documents and splits them into topics at certain heading levels. An XML file is produced using Aspose.Words which is used to build the navigation tree you can see on the left. And then Aspose.Words converts each topic into HTML.
+To take this many steps further, this can also be used to leverage the structure of the document, defined by the styles it uses, to re-purpose the document for another output, such as HTML. This is in fact how the Aspose documentation is built, putting Aspose.Words to the test. A tool built using Aspose.Words takes the source Word documents and splits them into topics at certain heading levels. An XML file is produced using Aspose.Words which is used to build the navigation tree you can see on the left. And then Aspose.Words converts each topic into HTML.
 
 The solution for retrieving text formatted with specific styles in a Word document is typically economical and straightforward using Aspose.Words.
 
@@ -27,7 +27,7 @@ To illustrate how easily Aspose.Words handles retrieving content based on styles
 ![working-with-styles-aspose-words-cpp-1](working-with-styles_1.png)
 
 
-In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
+In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the many instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
 
 ### The Code
 
@@ -63,7 +63,7 @@ As you can see, this is a very simple example, showing the number and text of th
 
 ## How-to Insert and Work with the Table of Contents Field
 
-Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just a few lines of code. This article outlines how to work with the table of contents field and demonstrates:
+Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just multiple lines of code. This article outlines how to work with the table of contents field and demonstrates:
 
 - How to insert a brand new TOC
 - Update new or existing TOCs in the document.
@@ -95,7 +95,7 @@ Using the Style class retrieved for the particular TOC level you want to modify,
 
 ### Removing a Table of Contents from the Document
 
-A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the TOC field. The code below demonstrates this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the FieldEnd node is of type FieldType.FieldTOC which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field. Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The below code example demonstrates how to remove a specified TOC from a document. You can download the template file of this example from here.
+A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the TOC field. The code below shows this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the FieldEnd node is of type FieldType.FieldTOC which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field. Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The below code example shows how to remove a specified TOC from a document. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-RemoveTOCFromDocument-RemoveTOCFromDocument.cpp" >}}
 

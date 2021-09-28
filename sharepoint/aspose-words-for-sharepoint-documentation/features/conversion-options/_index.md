@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversion Options
 type: docs
 weight: 20
@@ -11,7 +11,7 @@ Aspose.Words for SharePoint offers a number of flexible options for converting d
 
 ### File concatenation
 
-If you select a folder or multiple files for conversion, you can select the **Combine Files** option to combine files in different formats into a single document. You can set the order in which the source files are placed in the combined document.
+If you select a folder or numerous files for conversion, you can select the **Combine Files** option to combine files in different formats into a single document. You can set the order in which the source files are placed in the combined document.
 
 ### Convert files in SubFolders
 
@@ -23,7 +23,7 @@ Once you have selected a destination folder, use this option to save it so that 
 
 ### Overwrite existing files in the destination folder
 
-The destination folder you have selected may already contain some of the files you want to convert. This option allows you to skip conversion for such files and process only files which are not found in the destination folder.
+The destination folder you have selected may already contain some of the files you want to convert. This option enables you to skip conversion for such files and process only files which are not found in the destination folder.
 
 ### Browse for destination folder
 

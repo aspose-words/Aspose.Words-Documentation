@@ -1,4 +1,4 @@
----
+﻿---
 title: Saving a Document as a Multipage TIFF
 description: "Aspose.Words for Java allows you to convert a document to a raster image, which is discussed on the example of the TIFF format. To determine how TIFF is displayed you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
@@ -38,7 +38,7 @@ A TIFF image can be saved in 1bpp b/w format by setting the [PixelFormat](https
 
 For image segmentation, Aspose.Words uses the simplest method — thresholding. This method converts a gray-scale TIFF image into a binary image, using a threshold value. Therefore, when a document needs to be converted to the TIFF file format, it is possible to get or set the threshold for TIFF binarization via the [ThresholdForFloydSteinbergDithering](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#ThresholdForFloydSteinbergDithering) property. The default value for this property is set to 128, and the higher this value, the darker the image.
 
-The following example shows how to perform TIFF binarization with a specified threshold:
+The following example demonstrates how to perform TIFF binarization with a specified threshold:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-ImageColorFilters-ExposeThresholdControlForTiffBinarization.java" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 13.1.0 Release Notes
 type: docs
 weight: 100

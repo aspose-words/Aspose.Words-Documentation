@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Tables in Ruby
 type: docs
 weight: 80

@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 13.12.0
 type: docs
 weight: 120
@@ -29,7 +29,7 @@ A new enumeration value of FirstPageHeaderFooterPerSection has been added to Htm
 
 Starting from 13.12.0 version Aspose.Words supports rendering DrawingML glow effect. The glow effect can be rendered in one of three modes:
 
-- Simplified (default) - Soft edges are simulated using several layers with different transparency, which gives acceptable result with higher performance than in Fine mode.
+- Simplified (default) - Soft edges are simulated using numerous layers with different transparency, which gives acceptable result with higher performance than in Fine mode.
 - Fine - Blur filter is applied, which gives the same result as MS Word, but with lower performance because of complexity of convolution filter.
 - None - In this mode no DrawingML effects are rendered.
 
@@ -39,7 +39,7 @@ The different modes can be set using new property: **SaveOptions.DmlEffectsRende
 
 Starting from 13.12.0 version Aspose.Words supports rendering of outer shadow DrawingML effect. Effect can be rendered in two modes:
 
-1. Simplified (blured edges are simulated using several layers with different transparency).
+1. Simplified (blured edges are simulated using multiple layers with different transparency).
 1. Fine (Blur is applied to shadow, gives better result, but takes much more time to render).
 
 ### ResourceFileUri Property Added to ResourceSavingArgs
@@ -51,11 +51,11 @@ The properties **HtmlFixedSaveOptions.ResourcesFolderAlias** and **SvgSaveOption
 - It is impossible to provide different aliases for individual resource files.
 - Generated URIs have the form "alias/filename", which is fixed. For example, it is impossible to change the order of the alias and the file name or remove the slash character that separates them.
 
-The new property **ResourceSavingArgs.ResourceFileUri** does not have the limitations of resource aliases and allows more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.
+The new property **ResourceSavingArgs.ResourceFileUri** does not have the limitations of resource aliases and enables more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.
 
 ### SaveOptions.DmlRenderingMode Introduced
 
-Within a separate fix a new option SaveOptions.DmlRenderingMode was introduced. It allows users to control how DrawingML shapes are rendered to fixed page formats. It has two possible values:
+Within a separate fix a new option SaveOptions.DmlRenderingMode was introduced. It enables users to control how DrawingML shapes are rendered to fixed page formats. It has two possible values:
 
 1. Fallback (default mode) - Aspose.Words checks whether DrawingML has fallback shape and if so, renders fallback shape. This is behavior of earlier versions of Aspose.Words, so users will not see any difference in their documents.
 1. DrawingML - In this mode Aspose.Words ignores fallback shape and renders the DrawingML itself. 

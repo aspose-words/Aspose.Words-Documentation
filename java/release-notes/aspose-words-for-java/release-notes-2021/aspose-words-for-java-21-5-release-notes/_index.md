@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 21.5 Release Notes
 type: docs
 weight: 8
@@ -132,7 +132,7 @@ There are 112 improvements and fixes in this regular monthly release. The most n
 | WORDSNET-4585 | SYMBOL field is not properly rendered. | Bug |
 | WORDSNET-14734 | Incorrect Bold Run attribute after GetExpandedRunPr() | Bug |
 | WORDSNET-14372 | An extra list item appears in a document imported from HTML | Bug |
-| WORDSNET-20911 | Word2013 and Word2019 shows document differently | Bug |
+| WORDSNET-20911 | Word2013 and Word2019 demonstrates document differently | Bug |
 | WORDSNET-3389 | Range comment around a shape not preserved during open/save | Bug |
 | WORDSNET-19407 | List item's indent is incorrect after roundtrip DOCX-HTML-DOCX | Bug |
 | WORDSNET-6412 | NodeCopier does not handle section break correctly | Bug |

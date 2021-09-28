@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Digital Signatures
 type: docs
 weight: 30
@@ -31,7 +31,7 @@ Digital signatures on macros cannot be accessed or signed. This is because Aspos
 
 ## Create Digitally Signed PDF Documents
 
-A generated PDF document can be signed during saving. Currently, only PDF documents can be signed in the same way. Other formats are to be supported in future versions. A certificate needs to be loaded from a source i.e. from a disk or from a certificate store and passed to a new instance of the X509Certificate2 class. This object is wrapped into an instance of the PdfDigitalSignatureDetails class along with other details used in the signature. This is passed to the PdfSaveOptions class which will use this to sign the output document when rendering to PDF. The code sample below shows how to sign a generated PDF document using Aspose.Words.
+A generated PDF document can be signed during saving. Currently, only PDF documents can be signed in the same way. Other formats are to be supported in future versions. A certificate needs to be loaded from a source i.e. from a disk or from a certificate store and passed to a new instance of the X509Certificate2 class. This object is wrapped into an instance of the PdfDigitalSignatureDetails class along with other details used in the signature. This is passed to the PdfSaveOptions class which will use this to sign the output document when rendering to PDF. The code sample below demonstrates how to sign a generated PDF document using Aspose.Words.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-DigitallySignedPdf-DetectDocumentSignatures.java" >}}
 
@@ -54,7 +54,7 @@ The most important property to check with digital signatures is the validity of 
 
 DigitalSignatureUtil class provides methods for signing the document. DigitalSignatureUtil.sign method signs source document using given CertificateHolder with a digital signature and writes signed document to the destination stream. 
 
-The following code example shows how to sign a simple document. 
+The following code example demonstrates how to sign a simple document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SimpleDocumentSigning.java" >}}
 
@@ -68,18 +68,18 @@ You can sign a source document using the given CertificateHolder and SignOptions
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-CreatingAndSigningNewSignatureLine.java" >}}
 
-The following code example shows how to modify an existing signature line and sign a document. 
+The following code example demonstrates how to modify an existing signature line and sign a document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SigningExistingSignatureLine.java" >}}
 
 ### Signing Word Document using Signature Provider Identifier
 
-The code example given below shows how to sign a Word document using the signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of {00000000-0000-0000-0000-000000000000} for its default signature provider.
+The code example given below demonstrates how to sign a Word document using the signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of 00000000-0000-0000-0000-000000000000 for its default signature provider.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SetSignatureProviderID.java" >}}
 
 ### Create New Signature Line Sign Word Document using Provider Identifier
 
-The following code example shows how to create a signature line and sign a Word document using a signature provider identifier.
+The following code example demonstrates how to create a signature line and sign a Word document using a signature provider identifier.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-CreateNewSignatureLineAndSetProviderID.java" >}}

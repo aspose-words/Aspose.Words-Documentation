@@ -1,4 +1,4 @@
----
+﻿---
 title: Visual Studio Export Repeater To Word Control
 type: docs
 weight: 30

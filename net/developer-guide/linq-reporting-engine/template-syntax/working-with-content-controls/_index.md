@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Content Controls
 type: docs
 weight: 140
@@ -6,7 +6,7 @@ url: /net/working-with-content-controls/
 aliases: [/net/template-syntax/#working-with-content-controls]
 ---
 
-LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.
+LINQ Reporting Engine allows you to perform certain operations on content controls dynamically while building a report.
 
 **Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
 
@@ -43,7 +43,7 @@ In turn, `display_name_expression` defines a display name of the combobox or dro
 
 While building a report, `value_expression` and `display_name_expression` are evaluated and a corresponding combobox or dropdown list item is added. A declaring item tag is removed then.
 
-A single `item` tag causes addition of a single combobox or dropdown list item during runtime. You can add multiple combobox or dropdown list items using multiple `item` tags as shown in the following snippet.
+A single `item` tag causes addition of a single combobox or dropdown list item during runtime. You can add several combobox or dropdown list items using a few `item` tags as shown in the following snippet.
 
 {{< highlight csharp >}}
 <<item ...>><<item ...>>

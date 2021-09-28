@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 11.8.0
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ Also other situations when external resources are used have been included in the
 
 |Scenario|Comments|
 | :- | :- |
-|[DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3)|This method allows you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
+|[DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3)|This method enables you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
 |[DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml)|This method parses an HTML snippet into the document at the current cursor. As with **DocumentBuilder.InsertImage** this snippet can contain links to external resources. |
 |[ImageData.SetImage](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/methods/setimage)|Use a **ResourceLoadingCallback** to allow inserting images from a Base64 string source. |
 |[ImageData.ToStream](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/methods/tostream)|If the user requests a linked image to be converted to stream then it is downloaded from the external source and returned to the user. Add a callback here to control how this download occurs. |
@@ -105,7 +105,7 @@ string nodeAsHtml = node.ToString(saveOptions);
 Dim doc As New Document(MyDir & "Document.doc")
 ' Extract the last paragraph in the document to convert to HTML.
 Dim node As Node = doc.LastSection.Body.LastParagraph
-' Create an instance of HtmlSaveOptions and set a few options.
+' Create an instance of HtmlSaveOptions and set numerous options.
 Dim saveOptions As New HtmlSaveOptions()
 saveOptions.ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection
 saveOptions.ExportRelativeFontSize = True

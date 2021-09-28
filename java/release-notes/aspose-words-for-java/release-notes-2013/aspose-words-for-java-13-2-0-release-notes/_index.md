@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 13.2.0 Release Notes
 type: docs
 weight: 100
@@ -89,7 +89,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSNET-7681 |DOCX produced by Aspose.Words cannot be opened in MS Word. |Bug |
 |WORDSNET-7691 |Question marks after list label in HTML |Bug |
 |WORDSNET-7698 |Font size of superscript character is not preserved during DOCX to HTML to DOCX roundtrip |Bug |
-|WORDSNET-7699 |PDF page is spilling over to the next page after appending multiple documents |Bug |
+|WORDSNET-7699 |PDF page is spilling over to the next page after appending many documents |Bug |
 |WORDSNET-7706 |Paragraph/Text Border is missing when saved to PDF, TIFF, XPS |Bug |
 |WORDSNET-7709 |Quotes are lost after import of an MHTML document |Bug |
 |WORDSNET-7712 |Shapes in TIFF become distorted |Bug |

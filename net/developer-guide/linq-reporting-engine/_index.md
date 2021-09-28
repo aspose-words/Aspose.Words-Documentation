@@ -1,4 +1,4 @@
----
+﻿---
 title: LINQ Reporting Engine
 description: "Aspose.Words for .NET provides the ability to create reports from template documents using the LINQ Reporting Engine. Learn more about the supported features."
 type: docs

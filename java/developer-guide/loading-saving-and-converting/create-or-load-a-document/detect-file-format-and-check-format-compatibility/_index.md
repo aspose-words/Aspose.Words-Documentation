@@ -1,6 +1,6 @@
----
+﻿---
 title: Detect File Format and Check Format Compatibility
-description: "Aspose.Words for Java allows you to obtain information about the document format before opening it to avoid an exception if you are not sure what the actual content of the file is."
+description: "Aspose.Words for Java enables you to obtain information about the document format before opening it to avoid an exception if you are not sure what the actual content of the file is."
 type: docs
 weight: 20
 url: /java/detect-file-format-and-check-format-compatibility/
@@ -14,7 +14,7 @@ Aspose.Words provides an ability to obtain information about the file type in or
 
 When you are dealing with multiple documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
-If you attempt to load a file into a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [DetectFileFormat](https://apireference.aspose.com/words/java/com.aspose.words/fileformatutil#detectFileFormat\(java.lang.String\)) method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://apireference.aspose.com/words/java/com.aspose.words/FileFormatInfo) object that contains the detected information about the file type.
+If you attempt to load a file into a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [DetectFileFormat](https://apireference.aspose.com/words/java/com.aspose.words/fileformatutil#detectFileFormat\(java.lang.String\)) method that enables us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://apireference.aspose.com/words/java/com.aspose.words/FileFormatInfo) object that contains the detected information about the file type.
 
 {{% alert color="primary" %}} 
 

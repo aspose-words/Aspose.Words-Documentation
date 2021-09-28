@@ -1,6 +1,6 @@
----
+﻿---
 title: Convert a Document to MHTML and Send It by Email
-description: "Aspose.Words for C++ allows you to convert a document from almost any format to the MHTML format and send the result document by e-mail."
+description: "Aspose.Words for C++ enables you to convert a document from almost any format to the MHTML format and send the result document by e-mail."
 type: docs
 weight: 30
 url: /cpp/convert-a-document-to-mhtml-and-send-it-by-email/

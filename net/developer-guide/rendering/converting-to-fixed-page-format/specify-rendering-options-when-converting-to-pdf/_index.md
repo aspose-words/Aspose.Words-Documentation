@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Rendering Options When Converting to PDF
 description: "Aspose.Words for .NET provides the ability to convert DOC or DOCX to PDF. To change the result of saving a document to PDF format, you need to specify additional options for the PdfSaveOptions class."
 type: docs
@@ -30,7 +30,7 @@ It is also possible to export fillable forms from a Microsoft Word document into
 
 Note that in contrast to Microsoft Word, the PDF format has a limited number of options for editable forms, such as textbox, combobox, and checkbox. Microsoft Word has more types of forms, for example, calendar date picker. Generally, it is not possible to fully imitate Microsoft Word behavior in PDF. Therefore, in some complex cases, PDF output may differ from what you see in Microsoft Word.
 
-The code example below shows how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
+The code example below demonstrates how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-Working with PdfSaveOptions-PdfImageCompression.cs" >}}
 
@@ -40,11 +40,11 @@ The [ExportDocumentStructure](https://apireference.aspose.com/net/words/aspose.w
 
 PDF logical structure facilities provide a mechanism for incorporating information, regarding the document content structure, into a PDF file. Aspose.Words preserves information about the structure from a Microsoft Word document, such as paragraphs, lists, tables, footnotes/endnotes, etc.
 
-The following example demonstrates how to save a document to PDF format, preserving the document structure:
+The following example shows how to save a document to PDF format, preserving the document structure:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.cs" >}}
 
-Aspose.Words also allows you to export document custom properties to PDF, which is demonstrated by the following example:
+Aspose.Words also enables you to export document custom properties to PDF, which is demonstrated by the following example:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.cs" >}}
 
@@ -62,9 +62,9 @@ The output PDF of this example is shown below:
 
 When **HeaderFooterBookmarksExportMode** is set to [First](https://apireference.aspose.com/net/words/aspose.words.saving/headerfooterbookmarksexportmode) and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
-You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/net/words/aspose.words.saving/outlineoptions/properties/headingsoutlinelevels) property. This property specifies how many levels of headings are included in the document outline.
+You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/net/words/aspose.words.saving/outlineoptions/properties/headingsoutlinelevels) property. This property specifies how a few levels of headings are included in the document outline.
 
-The code example below shows how to export headings with three levels:
+The code example below demonstrates how to export headings with three levels:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.cs" >}}
 
@@ -92,7 +92,7 @@ Resolution is calculated according to the real image size on the page.
 
 ## Embedding Fonts in Adobe PDF Format
 
-Aspose.Words also enables you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section ["Using TrueType Fonts"](/words/net/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
+Aspose.Words also allows you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section ["Using TrueType Fonts"](/words/net/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
 
 ### When to Use Full Fonts and When to Subset
 
@@ -101,16 +101,16 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 |Embed Fonts Mode|Advantages|Disadvantages|
 | :- | :- | :- |
 |Full|Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
-|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If multiple PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
+|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If several PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
 
 ### Embedding Full Fonts in PDF
 
-The [EmbedFullFonts](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedfullfonts) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
+The [EmbedFullFonts](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedfullfonts) property allows you to specify how Aspose.Words embeds fonts into an output PDF document.
 
 - To embed full fonts into the output PDF document, set **EmbedFullFonts** to true
 - To subset fonts when saving to PDF, set **EmbedFullFonts** to false
 
-The following example demonstrates how to embed full fonts in the output PDF document:
+The following example shows how to embed full fonts in the output PDF document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddAllFonts.cs" >}}
 
@@ -166,7 +166,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions/properties/fontembeddingmode)[ ](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedstandardwindowsfonts)property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/net/words/aspose.words.saving/pdffontembeddingmode), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/net/words/aspose.words.saving/pdffontembeddingmode), Aspose.Words do not embed any fonts.
 
-The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
+The example below demonstrates how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.cs" >}}
 

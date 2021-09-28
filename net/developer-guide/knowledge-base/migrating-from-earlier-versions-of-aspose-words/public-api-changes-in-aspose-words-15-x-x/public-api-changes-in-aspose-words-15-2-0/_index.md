@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 15.2.0
 type: docs
 weight: 20

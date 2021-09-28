@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Chart Data Label
 type: docs
 weight: 30
@@ -14,7 +14,7 @@ Using ChartDataLabel.NumberFormat you can specify number formatting of a single 
 
 ## How to Work With Chart Data Label
 
-The code example given below shows how to work with the data label. 
+The code example given below demonstrates how to work with the data label. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cpp" >}}
 

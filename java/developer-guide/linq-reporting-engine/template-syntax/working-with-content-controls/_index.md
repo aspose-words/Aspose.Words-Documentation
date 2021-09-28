@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Content Controls
 type: docs
 weight: 140
@@ -43,7 +43,7 @@ In turn, `display_name_expression` defines a display name of the combobox or dro
 
 While building a report, `value_expression` and `display_name_expression` are evaluated and a corresponding combobox or dropdown list item is added. A declaring `item` tag is removed then.
 
-A single `item` tag causes addition of a single combobox or dropdown list item during runtime. You can add multiple combobox or dropdown list items using multiple `item` tags as shown in the following snippet.
+A single `item` tag causes addition of a single combobox or dropdown list item during runtime. You can add a few combobox or dropdown list items using a few `item` tags as shown in the following snippet.
 
 {{< highlight csharp >}}
 <<item ...>><<item ...>>

@@ -1,4 +1,4 @@
----
+﻿---
 title: Licensing and Subscription
 description: "Aspose.Words for Java provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs
@@ -21,7 +21,7 @@ Aspose.Words is incredible software that developers can try before purchasing. Y
 
 ### Free Trial
 
-The evaluation version is the same as the purchased one – the Trial version simply becomes licensed when you add a few lines of code to apply the license.
+The evaluation version is the same as the purchased one – the Trial version simply becomes licensed when you add numerous lines of code to apply the license.
 
 The Trial version of Aspose.Words for Java and Aspose.Words for Android via Java without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to a few hundred paragraphs.
 
@@ -71,7 +71,7 @@ Often the easiest way to set a license is to place the license file in the same 
 
 Use the [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.io.InputStream)) method to license a component.
 
-Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
+Calling **SetLicense** several times is not harmful, it just wastes processor time.
 
 {{% /alert %}}
 
@@ -89,7 +89,7 @@ When developing a class library, you can call **SetLicense** from the static con
 
 Using the [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.lang.String)) method, you can try to find the license file in the embedded resources or folder that contain the JARs of your application for further use.
 
-The following code example shows how to initialize a license from a folder:
+The following code example demonstrates how to initialize a license from a folder:
 
 {{< highlight csharp >}}
 com.aspose.words.License license = new com.aspose.words.License();
@@ -98,7 +98,7 @@ license.setLicense("Aspose.Words.Java.lic");
 
 ##### Load a License from a Stream Object
 
-The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.io.InputStream)) method:
+The following code example demonstrates how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.io.InputStream)) method:
 
 {{< highlight csharp >}}
 com.aspose.words.License license = new com.aspose.words.License();
@@ -124,7 +124,7 @@ The new licensing mechanism will be used along with the existing licensing metho
 
 After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/java/words/com.aspose.words/Metered) class specially introduced for this purpose.
 
-The following code example shows how to set metered public and private keys:
+The following code example demonstrates how to set metered public and private keys:
 
 {{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-quickstart-ApplyMeteredLicense-ApplyMeteredLicense.java" >}}
 
@@ -150,7 +150,7 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 
 ## Using Multiple Aspose Products
 
-If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are a few useful tips:
+If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are several useful tips:
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
-* Use the Fully Qualified License Class Name. Each Aspose product has a License class in its own namespace. For example, Aspose.Words has **com.aspose.words.License** and Aspose.Cells has com.aspose.cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+* Use the Fully Qualified License Class Name. Each Aspose product has a License class in its own namespace. For example, Aspose.Words has **com.aspose.words.License** and Aspose.Cells has com.aspose.cells.License class. Using the fully qualified class name enables you to avoid confusion as to which license applies to which product.

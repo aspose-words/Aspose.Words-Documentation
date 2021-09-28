@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 19.5 Release Notes
 type: docs
 weight: 80
@@ -140,7 +140,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, I
 
 
 
-It allows to specify an additional options that affect the formatting of a result document.
+It enables to specify an additional options that affect the formatting of a result document.
 
 See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for .NET 19.4 Release Notes](/words/net/aspose-words-for-net-19-4-release-notes/).
 
@@ -266,11 +266,11 @@ Added new StreamFontSource class which allows loading fonts from the stream:
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called several times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called multiple times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
-    /// <para><see cref="StreamFontSource"/> may be useful because it allows to load the font data only when it is required
+    /// <para><see cref="StreamFontSource"/> may be useful because it enables to load the font data only when it is required
     /// and not to store it in the memory for the <see cref="FontSettings"/> lifetime.</para>
     /// </remarks>
     public abstract class StreamFontSource : FontSourceBase, IFontData

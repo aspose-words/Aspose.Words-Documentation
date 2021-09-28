@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Save Options
 description: "Aspose.Words for .NET enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
 type: docs
@@ -32,7 +32,7 @@ The following code example shows how to set a password to encrypt a document usi
 
 When saving a document to Odt format, use the [Password](https://apireference.aspose.com/net/words/aspose.words.saving/odtsaveoptions/properties/password) property of the [OdtSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/odtsaveoptions) class.
 
-The following code example shows how to load and save OpenDocument encrypted with a password:
+The following code example demonstrates how to load and save OpenDocument encrypted with a password:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cs" >}}
 

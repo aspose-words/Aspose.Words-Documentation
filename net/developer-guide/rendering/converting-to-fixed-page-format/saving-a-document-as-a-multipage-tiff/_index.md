@@ -1,6 +1,6 @@
----
+﻿---
 title: Saving a Document as a Multipage TIFF
-description: "Aspose.Words for .NET enables you to convert a document to a multi-page TIFF. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."
+description: "Aspose.Words for .NET allows you to convert a document to a multi-page TIFF. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
 weight: 30
 url: /net/saving-a-document-as-a-multipage-tiff/
@@ -10,7 +10,7 @@ When working with documents, you often need to convert your document to a raster
 
 ## Converting DOC to Multi-Page TIFF
 
-In Aspose.Words, conversion from DOC to TIFF can be performed with one line of code, by simply passing the “save to” path and the relevant file extension to the [Save](https://apireference.aspose.com/net/words/aspose.words/document/methods/save/index) method. The **Save** method automatically derives the SaveFormat from the file name extension specified in the path. The following example demonstrates how to convert a document to the TIFF format:
+In Aspose.Words, conversion from DOC to TIFF can be performed with one line of code, by simply passing the “save to” path and the relevant file extension to the [Save](https://apireference.aspose.com/net/words/aspose.words/document/methods/save/index) method. The **Save** method automatically derives the SaveFormat from the file name extension specified in the path. The following example shows how to convert a document to the TIFF format:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFF.cs" >}}
 
@@ -28,7 +28,7 @@ You often need to specify additional options, which affect the rendering result.
 - Windows metafiles handling by Aspose.Words ([MetafileRenderingOptions](https://apireference.aspose.com/net/words/aspose.words.saving/imagesaveoptions/properties/metafilerenderingoptions), [UseGdiEmfRenderer](https://apireference.aspose.com/net/words/aspose.words.saving/imagesaveoptions/properties/usegdiemfrenderer))
 - Additional options that you can see in the **ImageSaveOptions** class
 
-The following example shows how to convert DOC to TIFF with configured options:
+The following example demonstrates how to convert DOC to TIFF with configured options:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFFUsingImageSaveOptions.cs" >}}
 

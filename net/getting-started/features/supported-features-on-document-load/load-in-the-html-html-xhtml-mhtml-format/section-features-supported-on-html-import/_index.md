@@ -1,4 +1,4 @@
----
+﻿---
 title: Section Features Supported on HTML Import
 type: docs
 weight: 100

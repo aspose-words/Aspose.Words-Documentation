@@ -1,4 +1,4 @@
----
+﻿---
 title: Protect Documents and Parts of Documents
 type: docs
 weight: 120

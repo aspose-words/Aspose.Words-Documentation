@@ -1,4 +1,4 @@
----
+﻿---
 title: Save a Document
 aliases: [/java/saving-a-document/]
 type: docs
@@ -37,6 +37,6 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 Aspose.Words supports saving a document into PCL (Printer Command Language). Aspose.Words can save documents into PCL 6 (PCL 6 Enhanced or PCL XL) format. The PclSaveOptions class can be used to specify additional options when saving a document into the PCL format.
 
-The following code example shows how to save a document to PCL using save options:
+The following code example demonstrates how to save a document to PCL using save options:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToPCL-ConvertDocumentToPCL.java" >}}

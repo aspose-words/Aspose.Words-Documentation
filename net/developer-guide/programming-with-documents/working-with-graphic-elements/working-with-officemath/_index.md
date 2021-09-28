@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with OfficeMath
 type: docs
 weight: 30

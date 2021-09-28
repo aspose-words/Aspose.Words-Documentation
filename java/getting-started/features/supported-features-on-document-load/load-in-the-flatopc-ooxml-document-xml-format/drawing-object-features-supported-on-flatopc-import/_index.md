@@ -1,4 +1,4 @@
----
+﻿---
 title: Drawing Object Features Supported on FlatOPC Import
 type: docs
 weight: 40
@@ -7,7 +7,7 @@ url: /java/drawing-object-features-supported-on-flatopc-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports many types of drawing entities on document load.
+Aspose.Words supports several types of drawing entities on document load.
 
 Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behaviour.
 
@@ -160,7 +160,7 @@ See the following links in the documentation for further information:
 |Charts (VML)|Yes|Currently, there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart.| |
 |Shape Customizations|Yes| | |
 |Hyperlink on Shape|Yes| |- **Shape.HRef**|
-|Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded.|- [How to Add a Watermark to a Document](/words/java/how-to-add-a-watermark-to-a-document/)|
+|Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded.|- [How to Add a Watermark to a Document](/words/java/how-to-add-a-watermark-to-a-document/)|
 
 ## WordArt
 

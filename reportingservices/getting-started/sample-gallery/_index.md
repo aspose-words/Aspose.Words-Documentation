@@ -1,4 +1,4 @@
----
+﻿---
 title: Sample Gallery
 type: docs
 weight: 80

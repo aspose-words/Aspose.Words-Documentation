@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 13.8.0 Release Notes
 type: docs
 weight: 30
@@ -46,7 +46,7 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-6263|Incorrect text font occurs while simple merge field execute (merge field within page footer).|Bug|
 |WORDSNET-6272|Incorrect DrawingML image layout while rendering.|Bug|
 |WORDSNET-6348|Surrogate characters are not visible in Docx format.|Bug|
-|WORDSNET-6407|RTF to PDF conversion same page duplicated many times|Bug|
+|WORDSNET-6407|RTF to PDF conversion same page duplicated several times|Bug|
 |WORDSNET-6429|Output PDF/TIFF/XPS has one more page than the input DOC|Bug|
 |WORDSNET-6539|One line Paragraph is rendering into two lines of text|Bug|
 |WORDSNET-6604|Paragraph's first line is hanging incorrectly to the left|Bug|
@@ -151,7 +151,7 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-1960|Add an option to resample images to size and resolution before writing to PDF|Feature|
 |WORDSNET-2304|Consider adding an ability to remove style from the document.|Feature|
 |WORDSNET-3995|Support rendering document to PostScript|Feature|
-|WORDSNET-4252|Consider adding a property to Style class which shows if a Style is part of the Quick Styles gallery in a document|Feature|
+|WORDSNET-4252|Consider adding a property to Style class which demonstrates if a Style is part of the Quick Styles gallery in a document|Feature|
 |WORDSNET-4726|/protection ranges/ permStart/permEnd tags are lost during open/save DOCX and WML|Feature|
 |WORDSNET-5998|Consider public API for removal of External Custom XML Schema References|Feature|
 |WORDSNET-6196|Support German numbering localization|Feature|

@@ -1,4 +1,4 @@
----
+﻿---
 title: Integrate with Microsoft Report Viewer in Local Mode
 type: docs
 weight: 40

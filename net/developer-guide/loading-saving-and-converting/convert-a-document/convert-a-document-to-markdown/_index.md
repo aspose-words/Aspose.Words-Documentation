@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to Markdown
 type: docs
 description: “Aspose.Words for .NET provides the ability to convert a document in any supported load format to Markdown and vice versa – Aspose.Words also supports most popular save formats. Markdown is easy to work with and can be converted to other formats quite simply.”
@@ -28,7 +28,7 @@ Specifying a folder via **ImagesFolder** is also useful if you save a document t
 
 If the specified **ImagesFolder** does not exist, it will be created automatically.
 
-The following code example shows how to specify a folder for images when saving a document to a stream:
+The following code example demonstrates how to specify a folder for images when saving a document to a stream:
 
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SetImagesFolder.cs" >}}
@@ -65,7 +65,7 @@ The result of this code example is shown below.
 
 ## Useful Tips
 
-There are several nuances and interesting cases, having learned which you can work with Markdown files more flexibly and conveniently. For example, there is the ability to use:
+There are a few nuances and interesting cases, having learned which you can work with Markdown files more flexibly and conveniently. For example, there is the ability to use:
 
-* SetextHeading that allows you to create multi-line headings in Markdown, while regular headings in Markdown can only be single-line. SetextHeading is based on a "Heading N" style, and its level can only be 1 or 2. If N in "Heading N" is greater than or equal to 2, then the corresponding SetextHeading is based on "Heading 2", otherwise on "Heading 1".
+* SetextHeading that enables you to create multi-line headings in Markdown, while regular headings in Markdown can only be single-line. SetextHeading is based on a "Heading N" style, and its level can only be 1 or 2. If N in "Heading N" is greater than or equal to 2, then the corresponding SetextHeading is based on "Heading 2", otherwise on "Heading 1".
 * Different markers for the first level of bulleted lists ("-", "+" or "*", the default marker is “-”.) and different types of numbering for ordered lists ("." or ")", the default marker is ".").

@@ -1,4 +1,4 @@
----
+﻿---
 title: Table Features Supported on DOCX Import
 type: docs
 weight: 120

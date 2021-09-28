@@ -1,4 +1,4 @@
----
+﻿---
 title: Section Features Supported on Image Export
 type: docs
 weight: 100

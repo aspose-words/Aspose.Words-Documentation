@@ -1,16 +1,16 @@
----
+﻿---
 title: Nested Mail Merge with Regions
 aliases:
   - /net/how-to-use-nested-mail-merge-regions/
   - /net/how-to-set-up-relations-for-use-in-nested-mail-merge-with-regions/
 type: docs
-description: "Aspose.Words for .NET allows you to perform a mail merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
+description: "Aspose.Words for .NET allows you to perform a mail merge operation with nested regions. Nested merge is a feature that allows you to merge hierarchical data from your data source into your merge template."
 keywords: "mail merge with nested regions c#"
 weight: 10
 url: /net/nested-mail-merge-with-regions/
 ---
 
-In some scenarios, you may need to use nested mail merge with regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).
+In some scenarios, you may need to use nested mail merge with regions. Nested merge is a feature that allows you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).
 
 Aspose.Words allows you to perform a mail merge operation with nested regions. You can use this feature if you have a data source that is organized into a tree-like structure and you want to execute a mail merge operation to populate a template with hierarchical data.
 
@@ -24,7 +24,7 @@ Nested mail merge is relevant only when performing a mail merge with regions.
 
 The mail merge region is called nested if you have two or more mail merge regions where one of them is inside the other in a hierarchical form. Note that each region contains data from one table.
 
-The most common example of a nested mail merge is an order that contains multiple items where you need to link multiple data tables and present the information in a template.
+The most common example of a nested mail merge is an order that contains numerous items where you need to link a few data tables and present the information in a template.
 
 The picture below shows two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
 
@@ -34,7 +34,7 @@ The picture below shows two nested regions where the *Order* mail merge region i
 
 The data to be merged into a template can come from various sources, mainly relational databases or XML documents. In our example, we are going to use an XML file to store our data and load it directly into the **DataSet**.
 
-Aspose.Words allows you to process mail merge with nested regions using the data relationships specified in the **DataSet**. When the **DataSet** object loads XML, it either uses the provided schema or infers it from the structure of the XML itself to accomplish this. From this structure, it creates relationships between tables where necessary.
+Aspose.Words enables you to process mail merge with nested regions using the data relationships specified in the **DataSet**. When the **DataSet** object loads XML, it either uses the provided schema or infers it from the structure of the XML itself to accomplish this. From this structure, it creates relationships between tables where necessary.
 
 The image below shows how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
 
@@ -72,7 +72,7 @@ The following code example shows how to establish a DataRelation between a custo
 
 Implement the [IMailMergeDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource) interface to create relationships in the parent-child structure of your custom data source. Use the [GetChildDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/methods/getchilddatasource) method to return the relevant child data of a current parent record.
 
-The following example shows how to create data relations using **GetChildDataSource**:
+The following example demonstrates how to create data relations using **GetChildDataSource**:
 
 **.NET**
 {{< highlight csharp >}}

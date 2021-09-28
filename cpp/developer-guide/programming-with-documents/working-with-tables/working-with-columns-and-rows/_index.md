@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Columns and Rows
 type: docs
 weight: 27
@@ -11,13 +11,13 @@ Finding the index of any node involves gathering all child nodes of the element�
 
 ### Finding the Index of Table in a Document
 
-Below example shows how to retrieve the index of a table in the document.
+Below example demonstrates how to retrieve the index of a table in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveTableIndex.cpp" >}}
 
 ### Finding the Index of a Row in a Table
 
-Below example shows how to retrieve the index of a row in a table.
+Below example demonstrates how to retrieve the index of a row in a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveRowIndex.cpp" >}}
 
@@ -39,7 +39,7 @@ Any operations that are performed on columns in Microsoft Word are in actual fac
 
 In the Aspose.Words Document Object Model a Table node is made up of Row and then Cell nodes. There is also no native support for columns.
 
-You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example demonstrates a facade object for working with a column of a table.
+You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example shows a facade object for working with a column of a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cpp" >}}
 
@@ -53,9 +53,9 @@ Below example shows how to remove a column from a table in a document.
 
 ## Specifying Rows to Repeat on Subsequent Pages as Header Rows
 
-In Microsoft Word this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or many rows in a table.
+In Microsoft Word this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or numerous rows in a table.
 
-In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
+In the case of a single header row, it must be the first row in the table. In addition when many header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
 
 {{% alert color="primary" %}} 
 
@@ -63,7 +63,7 @@ Note that heading rows do not work in nested tables. That is, if you have a tabl
 
 {{% /alert %}} 
 
-Below example shows how to build a table which includes heading rows that repeat on subsequent pages.
+Below example demonstrates how to build a table which includes heading rows that repeat on subsequent pages.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-RepeatRowsOnSubsequentPages-RepeatRowsOnSubsequentPages.cpp" >}}
 
@@ -111,7 +111,7 @@ Note that this autofit option clears the preferred widths from the cells just li
 
 ### Disabling AutoFitting on a Table and Use Fixed Column Widths
 
-Below example disables autofitting and enables fixed widths for the specified table. You can download the template file of this example from here.
+Below example disables autofitting and allows fixed widths for the specified table. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cpp" >}}
 
@@ -155,7 +155,7 @@ In Aspose.Words the technique is the same. Each paragraph inside the cells of th
 
 ## Working with Merged Cells
 
-In a table, several cells can be merged together into a single cell. This is useful when certain rows require a title or large blocks of text which span across the width of the table. This can only be achieved by merging some of the cells in the table into a single cell. Aspose.Words supports merged cells when working with all input formats including when importing HTML content.
+In a table, many cells can be merged together into a single cell. This is useful when certain rows require a title or large blocks of text which span across the width of the table. This can only be achieved by merging some of the cells in the table into a single cell. Aspose.Words supports merged cells when working with all input formats including when importing HTML content.
 
 ### Merged Cells in Aspose.Words
 
@@ -185,7 +185,7 @@ Below example creates a table with two columns with cells merged vertically in t
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-VerticalMerge.cpp" >}}
 
-In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over many rows or columns. A method which merges all cells of a table in the specified range of cells.
+In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over a few rows or columns. A method which merges all cells of a table in the specified range of cells.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-MergeCells.cpp" >}}
 
@@ -211,6 +211,6 @@ Use the following code example if CellFormat.HorizontalMerge and CellFormat.Vert
 
 In the latest versions of MS Word, the cells are merged horizontally by its width. Whereas, the merge flags were used in the older technique,  like Cell.CellFormat.HorizontalMerge. The merge flags are not used when cells are horizontally merged by their width and it is also not possible to detect which cells are merged. Aspose.Words provides ConvertToHorizontallyMergedCells method to convert cells which are horizontally merged by its width to the cell horizontally merged by flags. It simply transforms the table and adds new cells when needed.
 
-The following code example shows the working of the above-mentioned method.
+The following code example demonstrates the working of the above-mentioned method.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-ConvertToHorizontallyMergedCells.cpp" >}}

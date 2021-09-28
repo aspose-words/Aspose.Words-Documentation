@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Styles
 type: docs
 weight: 23
@@ -26,7 +26,7 @@ Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph
 
 ![working-with-styles-aspose-words-java-1](working-with-styles_1.png)
 
-In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
+In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the a few instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
 
 The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution:
 

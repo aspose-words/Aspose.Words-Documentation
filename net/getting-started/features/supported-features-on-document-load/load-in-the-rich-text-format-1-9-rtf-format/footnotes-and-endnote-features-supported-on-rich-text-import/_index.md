@@ -1,4 +1,4 @@
----
+﻿---
 title: Footnotes and Endnote Features Supported on Rich Text Import
 type: docs
 weight: 60

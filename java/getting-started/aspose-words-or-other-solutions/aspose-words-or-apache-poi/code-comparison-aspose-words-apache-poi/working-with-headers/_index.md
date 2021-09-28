@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Headers
 type: docs
 weight: 40
@@ -7,7 +7,7 @@ url: /java/working-with-headers/
 
 ## Aspose.Words - Working with Headers
 
-The following sample code demonstrates how to create headers/footers using DocumentBuilder.
+The following sample code shows how to create headers/footers using DocumentBuilder.
 
 **Java**
 

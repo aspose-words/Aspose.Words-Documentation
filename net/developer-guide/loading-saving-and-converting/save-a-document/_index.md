@@ -1,4 +1,4 @@
----
+﻿---
 title: "Save a Document"
 aliases: [/net/saving-a-document/]
 type: docs
@@ -34,11 +34,11 @@ The following code example shows how to load and save a document to a stream:
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
-## Sending a Document to a Client Browser {#sending-a-document-to-a-client-browser}
+## Send a Document to a Browser {#sending-a-document-to-a-client-browser}
 
 In order to send a document to a client browser, use a special overload that takes four parameters: file name, save format, save type, and an ASP .NET HttpResponse object. The way the document will be presented to the user is represented by the [ContentDisposition](https://apireference.aspose.com/net/words/aspose.words/contentdisposition) enumeration, which determines whether the document sent to the browser will provide an option to open itself directly in the browser or in the application associated with the file extension.
 
-The following code example shows how to send a document to the client browser from an ASP.NET code:
+The following code example demonstrates how to send a document to the client browser from an ASP.NET code:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SendToClientBrowser-SendToClientBrowser.cs" >}}
 

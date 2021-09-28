@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for C++ 21.9 Release Notes
 type: docs
 weight: 25
@@ -56,7 +56,7 @@ The missing features will be added in future releases.
 | WORDSNET-22516 | Text/row moved to the previous page in converted PDF | Bug |
 | WORDSNET-22466 | Insert Image Exif orientation ignored | Bug |
 | WORDSNET-22613 | Empty page returns when split document on pages using ExtractPages | Bug |
-| WORDSNET-13652 | InsertDocument splits one content control into multiple when document   have section break | Bug |
+| WORDSNET-13652 | InsertDocument splits one content control into a few when document   have section break | Bug |
 | WORDSNET-22547 | VbaModuleCollection.Remove does not remove VBA module from document | Bug |
 | WORDSNET-22560 | VBA Code is lost after modifying source code | Bug |
 | WORDSNET-22541 | VbaProject&nbsp; is removed after   copying modules to existing VbaProject | Bug |

@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Outlook
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ url: /net/aspose-words-net-for-outlook/
 
 Aspose.Words for .NET is an advanced class library for .NET that enables you to perform a wide range of document processing tasks directly within your .NET applications.
 With Aspose.Words you can generate, modify, convert, render and print documents without using Microsoft Word.
-Aspose.Words for .NET supports DOC, OOXML, RTF, HTML, OpenDocument, PDF, XPS, EPUB and many other formats.
+Aspose.Words for .NET supports DOC, OOXML, RTF, HTML, OpenDocument, PDF, XPS, EPUB and numerous other formats.
 
 ## Aspose.Words for Outlook
 

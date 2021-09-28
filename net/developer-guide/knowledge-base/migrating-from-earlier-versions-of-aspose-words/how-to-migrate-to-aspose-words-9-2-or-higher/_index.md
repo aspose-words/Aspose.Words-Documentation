@@ -1,4 +1,4 @@
----
+﻿---
 title: How to  Migrate to Aspose.Words 9.2 or Higher
 type: docs
 weight: 20
@@ -39,7 +39,7 @@ These types of errors indicate that you are still using members from the old API
 
 #### Quick Reference Guide
 
-The diagrams below outline the old API members and their corresponding new API members, and are grouped in relation to their function. This allows for quick reference when code needs to be changed. The gray box below the new members states what changes have happened and why they occurred. Example implementations of the new code members can be found following the diagrams.
+The diagrams below outline the old API members and their corresponding new API members, and are grouped in relation to their function. This enables for quick reference when code needs to be changed. The gray box below the new members states what changes have happened and why they occurred. Example implementations of the new code members can be found following the diagrams.
 
 **Document Constructors, Load and Save Members** 
 
@@ -369,7 +369,7 @@ The options defined in the **Document.SaveOptions** property from previous versi
 
 The names of the properties have also been simplified in the move towards using the Unified Framework pattern. 
 
-There are also new members in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) to specify multiple font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) article. 
+There are also new members in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) to specify a few font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) article. 
 
 ##### Replacing Events and Delegates with Callbacks and Interfaces
 
@@ -739,7 +739,7 @@ End Class
 
 #### Demonstration Videos
 
-Additionally, a few short videos providing a visual walk through of how to change some code members are available to download from the resources page [here](http://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1242.aspx). These videos show how to:
+Additionally, several short videos providing a visual walk through of how to change some code members are available to download from the resources page [here](http://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1242.aspx). These videos show how to:
 
 - Change the old **MailMerge.MergeField** event and the **MergeFieldEventHanlder** delegate to the new [MailMerge.FieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/fieldmergingcallback) property and [IFieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/ifieldmergingcallback) interface. 
 - Change the old **Document.SaveOptions** property to use the new **HtmlSaveOptions** class. 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Outputting Sequential Data
 type: docs
 weight: 30

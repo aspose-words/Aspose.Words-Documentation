@@ -1,4 +1,4 @@
----
+﻿---
 title: Use DocumentBuilder to Insert Document Elements
 type: docs
 weight: 80
@@ -57,13 +57,13 @@ Call DocumentBuilder.EndTable to finish the current table. This method should 
 
 ## Inserting a Break
 
-If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example shows how to insert page breaks into a document.
+If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example demonstrates how to insert page breaks into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.cpp" >}}
 
 ## Inserting an Image
 
-DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
+DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage method that enables you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter DocumentBuilder->InsertImage.
 - From a stream by passing a Stream parameter DocumentBuilder->InsertImage.
@@ -99,7 +99,7 @@ Badly formed bookmarks or bookmarks with duplicate names will be ignored when th
 
 {{% /alert %}} 
 
-Below example shows how to insert a bookmark into a document using a document builder.
+Below example demonstrates how to insert a bookmark into a document using a document builder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertBookmark-DocumentBuilderInsertBookmark.cpp" >}}
 
@@ -109,7 +109,7 @@ Form fields are a particular case of Word fields that allows "interaction" with 
 
 ### Inserting a Text Input
 
-DocumentBuilder.InsertTextInput to insert a textbox into the document. Below example shows how to insert a text input form field into a document.
+DocumentBuilder.InsertTextInput to insert a textbox into the document. Below example demonstrates how to insert a text input form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertTextInputFormField.cpp" >}}
 
@@ -121,7 +121,7 @@ Call DocumentBuilder.InsertCheckBox to insert a checkbox into the document. Be
 
 ### Inserting a Combo Box
 
-Call DocumentBuilder.InsertComboBox to insert a combo box into the document. Below example shows how to insert a combo box form field into a document.
+Call DocumentBuilder.InsertComboBox to insert a combo box into the document. Below example demonstrates how to insert a combo box form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertComboBoxFormField.cpp" >}}
 
@@ -145,13 +145,13 @@ If you want Ole Object call DocumentBuilder.InsertOleObject. Pass to this metho
 
 ## Set File Name and Extension when Inserting Ole Object
 
-OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if OLE handler is missing or unknown. OlePackage class allows to access OLE Package properties. Below example shows how to set file name, extension and display name for OLE Package.
+OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if OLE handler is missing or unknown. OlePackage class allows to access OLE Package properties. Below example demonstrates how to set file name, extension and display name for OLE Package.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.cpp" >}}
 
 ## Inserting HTML
 
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder->InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
+You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder->InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example demonstrates inserts HTML into a document using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

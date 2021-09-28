@@ -1,4 +1,4 @@
----
+﻿---
 title: Navigation with Cursor
 description: "Aspsoe.Words for Java allows you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
 type: docs
@@ -8,7 +8,7 @@ url: /java/navigation-with-cursor/
 
 While working with a document, even if it is a short or long one, you will need to navigate through your document. Navigation with a virtual cursor represents the ability to navigate between different nodes in a document.
 
-Within a short document, moving around in a document is simple as you can move the insertion point even by using the keyboard's arrow keys or by clicking the mouse to locate the insertion point wherever you want. But once you have a large document that has many pages, these basic techniques will be insufficient.
+Within a short document, moving around in a document is simple as you can move the insertion point even by using the keyboard's arrow keys or by clicking the mouse to locate the insertion point wherever you want. But once you have a large document that has several pages, these basic techniques will be insufficient.
 
 This article explains how to move around in a document and navigate with a virtual cursor to different parts of it.
 
@@ -20,7 +20,7 @@ Any insert operations you perform using the [DocumentBuilder](https://apireferen
 
 ## Navigating Methods in a Document
 
-When you are editing text, it is important to know how to navigate your document and where exactly to move in it. Aspose.Words allows you to move around in a document and navigate to its different sections and parts – this is similar to the functionality of the Navigation Pane in Microsoft Word to go to a page or heading in a Word document without scrolling.
+When you are editing text, it is important to know how to navigate your document and where exactly to move in it. Aspose.Words enables you to move around in a document and navigate to its different sections and parts – this is similar to the functionality of the Navigation Pane in Microsoft Word to go to a page or heading in a Word document without scrolling.
 
 The main method is to be able to move the cursor position to a specific node in your document, you can achieve this by using the [MoveTo](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveTo(com.aspose.words.Node)) method.
 
@@ -34,7 +34,7 @@ But besides the basic **MoveTo** method, there are more specific ones.
 
 You can go to the beginning or the end of your document using the [MoveToDocumentStart](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentStart()) and [MoveToDocumentEnd](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentEnd()) methods.
 
-The following code example shows how to move the cursor position to the beginning or the end of a document:
+The following code example demonstrates how to move the cursor position to the beginning or the end of a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
@@ -58,7 +58,7 @@ The following code example shows how to move a cursor position to a specified ta
 
 You can move to a specific field in your document by using the [MoveToField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToField(com.aspose.words.Field,boolean)) method. In addition, you can move to a specific merge field by using the [MoveToMergeField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToMergeField(java.lang.String)) method.
 
-The following code example shows how to move the document builder cursor to a specific field:
+The following code example demonstrates how to move the document builder cursor to a specific field:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

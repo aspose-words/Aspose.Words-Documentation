@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Watermark
 type: docs
 aliases:
@@ -15,7 +15,7 @@ In Microsoft Word, a watermark can easily be inserted in a document using the In
 
 ### Add Text Watermark
 
-The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.text_watermark_options/) using the SetText method.
+The following code example shows how to insert a text watermark in a document by defining [TextWatermarkOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.text_watermark_options/) using the SetText method.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.cpp" >}}
 

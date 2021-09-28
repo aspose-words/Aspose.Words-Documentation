@@ -1,4 +1,4 @@
----
+﻿---
 title: Developer Guide
 description: "This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Words for C++ features, achieve a certain document appearance, or make a use case possible."
 type: docs

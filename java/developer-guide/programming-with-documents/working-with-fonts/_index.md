@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Fonts
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ The LineSpacing property was introduced in the Font class to obtain this value a
 
 ## Font Formatting
 
-Current font formatting is represented by a Font object returned by the DocumentBuilder.Font property. The Font class contains a wide variety of font properties possible in Microsoft Word. The below example shows how to set font formatting.
+Current font formatting is represented by a Font object returned by the DocumentBuilder.Font property. The Font class contains a wide variety of font properties possible in Microsoft Word. The below example demonstrates how to set font formatting.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontFormatting.java" >}}
 
@@ -23,6 +23,6 @@ Fill properties now are also available for fonts to set fill formatting of text.
 
 ## Font EmphasisMark
 
-The Font class provides EmphasisMark property to get or set EmphasisMark enumeration values to be applied in the formatting. The code example given below demonstrates how to set the EphasisMark property.
+The Font class provides EmphasisMark property to get or set EmphasisMark enumeration values to be applied in the formatting. The code example given below shows how to set the EphasisMark property.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontEmphasisMark.java" >}}

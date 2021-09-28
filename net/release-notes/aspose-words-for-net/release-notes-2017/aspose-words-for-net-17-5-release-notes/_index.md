@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 17.5 Release Notes
 type: docs
 weight: 80
@@ -20,7 +20,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 - API to bind SDT to CustomXML properties is provided.
 - Implemented support for ShapeLayoutLikeWW8 compatibility option.
 - Improved calculation of width of spaces in Asian text.
-- Improved text wrapping for lines consisting of many tabs.
+- Improved text wrapping for lines consisting of a few tabs.
 - Improved layout of multi-column sections when column ends with page break followed by paragraph break.
 - A low resolution text rendering to images improved.
 - Underlined text in EMF+ images are now rendered into fixed page formats.

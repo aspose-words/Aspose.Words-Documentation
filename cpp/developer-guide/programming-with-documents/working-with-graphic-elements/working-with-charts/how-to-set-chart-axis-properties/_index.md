@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Set Chart Axis Properties
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /cpp/how-to-set-chart-axis-properties/
 ## How to Set Chart Axis Properties
 
 If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis/), [AxisDisplayUnit](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit/), and [AxisScaling](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling/) classes. 
-The following code example shows how to define X and Y-axis properties.
+The following code example demonstrates how to define X and Y-axis properties.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cpp" >}}
 
@@ -20,7 +20,7 @@ The following code example shows how to set date/time values to axis properties.
 
 ### How to Format Number Value of Axis
 
-The following code example shows how to change the format of numbers on the value axis.
+The following code example demonstrates how to change the format of numbers on the value axis.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-SetNumberFormatForAxis.cpp" >}}
 

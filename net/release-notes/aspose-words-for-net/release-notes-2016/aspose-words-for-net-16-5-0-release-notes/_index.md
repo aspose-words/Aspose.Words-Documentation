@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 16.5.0 Release Notes
 type: docs
 weight: 70
@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for .NET 16.5.0](https://www.
 There are 72 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved reflow performance for large paragraphs.
-- Added explicit support of multiple data sources to LINQ Reporting Engine.
+- Added explicit support of numerous data sources to LINQ Reporting Engine.
 - SVG output with IE compatibility improved.
 - Improved widow/orphan handling for tables.
 - Improved asian text line breaking.
@@ -38,7 +38,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13134|Google Chrome error: Duplicate headers received from server|Bug|
 |WORDSNET-13137|Div is not imported into Aspose.Words DOM|Bug|
 |WORDSNET-13169|Specifying new values to ComparisonOperator, LeftExpression or RightExpression of FieldIf cause lose of Tables and other formatting|Bug|
-|WORDSNET-13282|{{SHAPE <br>* MERGEFORMAT }} is overlapped after re-saving Rtf.|Bug|
+|WORDSNET-13282|SHAPE <br>* MERGEFORMAT  is overlapped after re-saving Rtf.|Bug|
 |WORDSNET-13357|Japanese text wraps to next line after English word in output Pdf|Bug|
 |WORDSNET-13365|Hyperlink text should not wrap to the next line|Bug|
 |WORDSNET-13372|A Page's content is splitting into two pages during rendering|Bug|
@@ -95,7 +95,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-12492|Allow creation of bookmarks over 40 chars long when the target document is PDF|Feature|
 |WORDSNET-13014|Add a special mode to Aspose.Words optimized for high-performance text extraction|Feature|
 |WORDSNET-13325|PageSetup.SuppressEndnotes does not work when saving to PDF|Feature|
-|WORDSNET-13538|Provide ReportingEngine.buildReport overload that accepts multiple data source objects|Feature|
+|WORDSNET-13538|Provide ReportingEngine.buildReport overload that accepts many data source objects|Feature|
 |WORDSNET-13418|Optimize line wrapping performance|Performance|
 |WORDSNET-13514|It takes long to save a document to PDF|Performance|
 |WORDSNET-13577|Certain images don't show up in the printed version of the generated report|Regression|
@@ -114,7 +114,7 @@ The following overload has been added to the ReportingEngine class:
 /// </summary>
 /// <remarks>
 /// <para>
-/// Using this overload you can reference multiple data source objects and their members in the template.
+/// Using this overload you can reference a few data source objects and their members in the template.
 /// The name of the first data source can be omitted (i.e. be an empty string or null) if you are going to
 /// reference the data source's members but not the data source object itself. Names of the other data sources
 /// must be specified and unique.
@@ -130,4 +130,4 @@ The following overload has been added to the ReportingEngine class:
 public void BuildReport(Document document, object[] dataSources, string[] dataSourceNames)
 {{< /highlight >}}
 
-It allows using multiple data source objects while building a report.
+It enables using several data source objects while building a report.

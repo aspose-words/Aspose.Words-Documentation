@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 16.1.0
 type: docs
 weight: 10
@@ -296,7 +296,7 @@ public class MailMergeRegionInfo
 }
 {{< /highlight >}}
 
-Following code example shows how to extract full hierarchy of regions available in the document.
+Following code example demonstrates how to extract full hierarchy of regions available in the document.
 
 **C#**
 
@@ -371,7 +371,7 @@ FontSettings properties added to Document class
 /// Gets or sets document font settings.
 /// </summary>
 /// <remarks>
-/// <para>This property allows to specify font settings per document. If set to null, default static font settings
+/// <para>This property enables to specify font settings per document. If set to null, default static font settings
 /// <see cref="Aspose.Words.Fonts.FontSettings.DefaultInstance"/> will be used.</para>
 ///
 /// <para>The default value is null.</para>
@@ -697,7 +697,7 @@ namespace Aspose.Words.Fields
 }
 {{< /highlight >}}
 
-Following code snippet shows how to use FieldBuilder.
+Following code snippet demonstrates how to use FieldBuilder.
 
 **C#**
 

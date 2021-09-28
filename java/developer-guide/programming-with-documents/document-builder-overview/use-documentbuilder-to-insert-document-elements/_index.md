@@ -1,4 +1,4 @@
----
+﻿---
 title: Use DocumentBuilder to Insert Document Elements
 type: docs
 weight: 10
@@ -55,14 +55,14 @@ Call DocumentBuilder.endRow to finish the current row. If you call DocumentBuild
 
 ### Ending a Table
 
-Call DocumentBuilder.endTable to finish the current table. This method should be called only once after DocumentBuilder.endRow was called. When called, DocumentBuilder.endTable moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
+Call DocumentBuilder.endTable to finish the current table. This method should be called only once after DocumentBuilder.endRow was called. When called, DocumentBuilder.endTable moves the cursor out of the current cell to a position just after the table. The following example shows how to build a formatted table that contains 2 rows and 2 columns.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderBuildTable-1.java" >}}
 
 ## Inserting a Break
 
 If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.insertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. 
-The following code example shows how to insert page breaks into a document.
+The following code example demonstrates how to insert page breaks into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-1.java" >}}
 
@@ -114,7 +114,7 @@ The following code example inserts a merge field into a document using DocumentB
 
 ## Inserting a Form Field
 
-Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, Combobox and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertTextInput\(java.lang.String,int,java.lang.String,java.lang.String,int\)/) , [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertCheckBox\(java.lang.String,boolean,boolean,int\)/), and {{DocumentBuilder.insertComboBox}} (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertComboBox(java.lang.String,java.lang.String\[\],int)/). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
+Form fields are a particular case of Word fields that enables "interaction" with the user. Form fields in Microsoft Word include textbox, Combobox and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertTextInput\(java.lang.String,int,java.lang.String,java.lang.String,int\)/) , [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertCheckBox\(java.lang.String,boolean,boolean,int\)/), and DocumentBuilder.insertComboBox (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertComboBox(java.lang.String,java.lang.String\[\],int)/). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ### Inserting a Text Input
 
@@ -124,13 +124,13 @@ DocumentBuilder.insertTextInput to insert a textbox into the document. The follo
 
 ### Inserting a CheckBox
 
-Call DocumentBuilder.insertCheckBox to insert a checkbox into the document. The following code example shows how to insert a checkbox form field into a document.
+Call DocumentBuilder.insertCheckBox to insert a checkbox into the document. The following code example demonstrates how to insert a checkbox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-1.java" >}}
 
 ### Inserting a Combo Box
 
-Call DocumentBuilder.insertComboBox to insert a combo box into the document. The following code example shows how to insert a combo box form field into a document.
+Call DocumentBuilder.insertComboBox to insert a combo box into the document. The following code example demonstrates how to insert a combo box form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-1.java" >}}
 
@@ -142,7 +142,7 @@ Customers can specify Locale at field level now and can achieve better control. 
 
 ## Inserting HTML
 
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.insertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. The following code example shows inserts HTML into a document using DocumentBuilder.
+You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.insertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. The following code example demonstrates inserts HTML into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-1.java" >}}
 
@@ -178,7 +178,7 @@ The following code example demonstrates how to get OLE Object raw data using Ol
 
 ## Insert Horizontal Rule into Document
 
-The following code example shows how to insert horizontal rule shape into a document using DocumentBuilder.InsertHorizontalRule method.
+The following code example demonstrates how to insert horizontal rule shape into a document using DocumentBuilder.InsertHorizontalRule method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.java" >}}
 
@@ -186,7 +186,7 @@ The following code example shows how to insert horizontal rule shape into a docu
 
 ### Inserting Inline and Free-floating Shapes
 
-You can insert an inline shape with a specified type and size and a free-floating shape with the specified position, size and text wrap type into a document using DocumentBuilder.InsertShape method. The DocumentBuilder.InsertShape method allows to insert DML shape into the document model. The document must be saved in the format, which support DML shapes, otherwise such nodes will be converted to VML shape, while document saving. The following code example shows how to insert these types of shapes into the document.
+You can insert an inline shape with a specified type and size and a free-floating shape with the specified position, size and text wrap type into a document using DocumentBuilder.InsertShape method. The DocumentBuilder.InsertShape method allows to insert DML shape into the document model. The document must be saved in the format, which support DML shapes, otherwise such nodes will be converted to VML shape, while document saving. The following code example demonstrates how to insert these types of shapes into the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Installation
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Aspose.Words for JasperReports works with JasperReports and JasperServer. This a
 
 To use Aspose.Words for JasperReports from your application, you should copy a single appropriate **.jar** file from the \lib folder of **Aspose.Words.JasperReports-xx.x.zip** to the JasperReports\lib directory or to a library folder of your application. After that, you can access the exporters programmatically.
 
-Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
+Starting from release **1.9.0** there are a few versions of jar library (necessary for better support of older versions of JasperReports):
 
 - for JasperReports 6.5.0 ... 6.11.0 (**aspose.words.jasperreports-7.1.0-7.5.0.jar**)
 - for JasperReports 6.4.2 ... 6.4.21 (**aspose.words.jasperreports-6.4.2-6.4.3.jar**)
@@ -24,7 +24,7 @@ Starting from release **1.9.0** there are several versions of jar library (nec
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
 
-The following example shows typical code needed to export a report to a DOC file using Aspose.Words for JasperReports. More examples can be found in the demo reports included in the product download.
+The following example demonstrates typical code needed to export a report to a DOC file using Aspose.Words for JasperReports. More examples can be found in the demo reports included in the product download.
 
 **Java**
 

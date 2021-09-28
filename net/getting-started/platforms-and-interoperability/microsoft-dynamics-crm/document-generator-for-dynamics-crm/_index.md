@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Generator for Dynamics CRM
 type: docs
 weight: 20

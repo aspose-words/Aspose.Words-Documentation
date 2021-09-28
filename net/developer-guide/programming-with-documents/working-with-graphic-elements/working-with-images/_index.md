@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Images
 type: docs
 weight: 40
@@ -7,7 +7,7 @@ url: /net/working-with-images/
 
 ## Inserting an Image
 
-DocumentBuilder provides several overloads of the [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/1) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
+DocumentBuilder provides many overloads of the [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/1) method that enables you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/2).
 - From a stream by passing a Stream parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3).
@@ -72,6 +72,6 @@ The cropping of an image usually refers to the removal of the unwanted outer p
 
 ## Saving Images as WMF
 
-Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example demonstrates how to save images as WMF with RTF save options.
+Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example shows how to save images as WMF with RTF save options.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.cs" >}}

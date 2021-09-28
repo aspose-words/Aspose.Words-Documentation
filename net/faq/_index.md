@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 type: docs
 description: "Aspose.Words for .NET answers the most frequently asked questions. Learn this page to quickly solve your problem on general questions or specific topics."
@@ -50,7 +50,7 @@ You can see the complete list of supported formats on the ["Supported Document F
 
 **Q: How can I try Aspose.Words free?**
 
-You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to a few hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
+You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to numerous hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
 
 See the ["Licensing and Subscription"](https://docs.aspose.com/words/net/licensing/) page for more information.
 
@@ -181,7 +181,7 @@ You can find more detailed information about converting a document in the [“Co
 
 It is very easy, just load a document to the model and save it to any supported format.
 
-The following code example shows the process of converting a PDF file to DOC:
+The following code example demonstrates the process of converting a PDF file to DOC:
 
 {{< highlight csharp >}}
 // Open the source PDF document
@@ -217,9 +217,9 @@ You can find more detailed information about programming with documents in the [
 
 **Q: How to split a document page by page?**
 
-Aspose.Words enables you to split a multi-page document page by page.
+Aspose.Words allows you to split a multi-page document page by page.
 
-The following code example shows how to divide a document and save each page as a separate document:
+The following code example demonstrates how to divide a document and save each page as a separate document:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Big document.docx");
@@ -267,7 +267,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 Just two lines of code.
 
-The following code example shows how to print a document in two ways:
+The following code example demonstrates how to print a document in two ways:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "PrintMe.docx");
@@ -288,7 +288,7 @@ doc.Print(myPrinter);
 
 Just load PDF to the Aspose.Words document model and make changes.
 
-The following code example shows how to edit a document:
+The following code example demonstrates how to edit a document:
 
 {{< highlight csharp >}}
 // Open the source PDF document

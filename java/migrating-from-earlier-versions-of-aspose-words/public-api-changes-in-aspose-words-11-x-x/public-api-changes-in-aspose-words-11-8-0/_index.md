@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 11.8.0
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ Also other situations when external resources are used have been included in the
 
 |Scenario|Comments|
 | :- | :- |
-|[DocumentBuilder.InsertImage]()|This method allows you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
+|[DocumentBuilder.InsertImage]()|This method enables you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
 |[DocumentBuilder.InsertHtml]()|This method parses an HTML snippet into the document at the current cursor. As with **DocumentBuilder.InsertImage** this snippet can contain links to external resources. |
 |[ImageData.SetImage]()|Use a **ResourceLoadingCallback** to allow inserting images from a Base64 string source. |
 |[ImageData.ToStream]()|If the user requests a linked image to be converted to stream then it is downloaded from the external source and returned to the user. Add a callback here to control how this download occurs. |
@@ -219,7 +219,7 @@ In the above code:
 
 ## 10. Introduction of HtmlSaveOptions.CssSavingCallback Property and ICssSavingCallback Interface
 
-This enables control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType]() is set to [CssStyleSheetType.External](). This interface allows control over where the external CSS is saved to, such as a stream.
+This allows control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType]() is set to [CssStyleSheetType.External](). This interface enables control over where the external CSS is saved to, such as a stream.
 
 ## 11. Additional MetafileRenderingMode Option Introduced
 

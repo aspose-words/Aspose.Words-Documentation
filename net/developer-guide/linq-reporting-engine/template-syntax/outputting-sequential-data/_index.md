@@ -1,4 +1,4 @@
----
+﻿---
 title: Outputting Sequential Data
 type: docs
 weight: 30
@@ -86,7 +86,7 @@ In this case, the engine produces a report as follows.
 
 ## Working with Table-Row Data Bands
 
-A table-row data band is a data band which body occupies single or multiple rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
+A table-row data band is a data band which body occupies single or numerous rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
 ||||
 | :- | :- | :- |
@@ -204,7 +204,7 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 {{< /highlight >}}
 	- For a scatter or bubble chart, you can go one of the following ways: 
 		- To use the same x-value expression for all chart series, add a single `x` tag to the chart title after the corresponding `foreach` tag.
-		- To use different x-value expressions for every chart series, add multiple `x` tags to chart series’ names – one for each chart series.
+		- To use different x-value expressions for every chart series, add many `x` tags to chart series’ names – one for each chart series.
 	An x-value expression for a scatter or bubble chart must return a numeric value.
 	- For a chart of another type, add a single `x` tag to the chart title after the corresponding `foreach` tag. In this case, an x-value expression must return a numeric, date, or string value.
 7. For a chart of any type, add `y` tags to chart series’ names as follows.

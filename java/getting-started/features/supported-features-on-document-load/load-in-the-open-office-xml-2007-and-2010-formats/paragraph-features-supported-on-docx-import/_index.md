@@ -1,4 +1,4 @@
----
+﻿---
 title: Paragraph Features Supported on DOCX Import
 type: docs
 weight: 80

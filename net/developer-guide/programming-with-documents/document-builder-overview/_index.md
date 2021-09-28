@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Builder Overview
 type: docs
 description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with .NET."
@@ -6,7 +6,7 @@ weight: 20
 url: /net/document-builder-overview/
 ---
 
-[DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/net/aspose.words/document) and enables you to build dynamic documents from scratch or add new elements to an existing one.
+[DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/net/aspose.words/document) and allows you to build dynamic documents from scratch or add new elements to an existing one.
 
 **DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
 
@@ -20,7 +20,7 @@ Operations that are possible with **DocumentBuilder** are also possible when usi
 
 Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetodocumentstart) and [MoveToField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetofield). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/write), [Writeln](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/writeln/index), [InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak), and others. See the following article "Navigation with Cursor" to learn more about the virtual cursor.
 
-The following code example shows how to navigate to a bookmark:
+The following code example demonstrates how to navigate to a bookmark:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToBookmarkEnd.cs" >}}
 
@@ -38,7 +38,7 @@ To start, you need to create a **DocumentBuilder** and associate it with a **Doc
 
 To insert a text, pass the string of text you need to insert into the document to the **Write** method.
 
-The following code example shows how to create a simple document using a document builder.
+The following code example demonstrates how to create a simple document using a document builder.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Quick-Start-HelloWorld-HelloWorld.cs" >}}
 

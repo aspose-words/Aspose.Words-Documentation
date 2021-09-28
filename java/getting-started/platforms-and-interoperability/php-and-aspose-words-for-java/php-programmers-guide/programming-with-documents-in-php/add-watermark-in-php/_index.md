@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Watermark in PHP
 type: docs
 weight: 60

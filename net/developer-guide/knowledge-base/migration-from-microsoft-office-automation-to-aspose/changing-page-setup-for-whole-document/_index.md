@@ -1,4 +1,4 @@
----
+﻿---
 title: Changing Page Setup for Whole Document
 type: docs
 weight: 10

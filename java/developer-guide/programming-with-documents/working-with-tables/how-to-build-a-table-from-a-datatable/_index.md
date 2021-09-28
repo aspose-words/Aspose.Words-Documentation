@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Build a Table from a DataTable
 type: docs
 weight: 130

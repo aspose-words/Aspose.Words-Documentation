@@ -1,6 +1,6 @@
----
+﻿---
 title: Convert a Document to MHTML and Send It by Email
-description: "Aspose.Words for Java allows you to convert any document to the MHTML format and then send it by e-mail using one more Aspose family product."
+description: "Aspose.Words for Java enables you to convert any document to the MHTML format and then send it by e-mail using one more Aspose family product."
 type: docs
 weight: 30
 url: /java/convert-a-document-to-mhtml-and-send-it-by-email/

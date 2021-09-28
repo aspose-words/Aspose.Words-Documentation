@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Office Add-ins
 description: "Aspose.Words for .NET provides various classes for working with Office Add-ins. You can add Task Pane via web extension and customize the pane and extension properties."
 type: docs
@@ -16,7 +16,7 @@ WebExtensions namespace can be conditionally divided into:
 
 ## Using Task Panes
 
-The task panes are interface surfaces that are displayed on the right side of the window in Microsoft Word. Task pane allows users to access interface controls that can run code to modify documents.
+The task panes are interface surfaces that are displayed on the right side of the window in Microsoft Word. Task pane enables users to access interface controls that can run code to modify documents.
 
 For example, using Aspose.Words API, you can add a task pane add-in and customize its appearance.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: HTML Export Images Folder
 type: docs
 weight: 100
