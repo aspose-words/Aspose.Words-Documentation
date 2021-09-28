@@ -1,11 +1,11 @@
----
+﻿---
 title: Accessing Type Members
 type: docs
 weight: 30
 url: /java/accessing-type-members/
 ---
 
-LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
+LINQ Reporting Engine {enables|allows} you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
 
 - Fields
 - Methods

@@ -1,4 +1,4 @@
----
+﻿---
 title: Paragraph Features Supported on FlatOPC Import
 type: docs
 weight: 90
@@ -76,7 +76,7 @@ All features of tab stops are supported in Aspose.Words except for relative tab 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Absolute Position|Yes| |- [TabStop.Position](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/position)|
-|Relative Position|Yes|A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned.|- [AbsolutePositionTab](https://apireference.aspose.com/words/net/aspose.words/absolutepositiontab)|
+|Relative Position|Yes|A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This {allows|enables} tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned.|- [AbsolutePositionTab](https://apireference.aspose.com/words/net/aspose.words/absolutepositiontab)|
 |Alignment: Left, Center, Right, Decimal, Bar|Yes| |- [TabStop.Alignment](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/alignment)|
 |Leader|Yes| |- [TabStop.Leader](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/leader)|
 

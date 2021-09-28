@@ -413,7 +413,7 @@ target.CopyStylesFromTemplate(templateFileName);
 
 WORDSNET-17328 has now been resolved.
 
-A customer requested the ability to insert untyped/empty fields ({}) just like MS Word allows doing so. By the moment AW threw System.InvalidOperationException when attempting to insert **FieldType.FieldNone** (which was the way the customer tried to insert an untyped field):
+A customer requested the ability to insert untyped/empty fields ({}) just like MS Word {allows|enables} doing so. By the moment AW threw System.InvalidOperationException when attempting to insert **FieldType.FieldNone** (which was the way the customer tried to insert an untyped field):
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -450,7 +450,7 @@ New public property ***AllowCellSpacing*** was added into the Table class:
 public bool AllowCellSpacing
 {{< /highlight >}}
 
-This property allows to control spacing between cells.
+This property {allows|enables} to control spacing between cells.
 Setting this property to ***false*** will completelly remove spacing between cells
 
 UC:

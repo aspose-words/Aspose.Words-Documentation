@@ -15,7 +15,7 @@ An explicit page break can be caused by {many|multiple|several|a few|numerous} d
 - A Section which is set to begin on a new page (by the section’s PageSetup.SectionStart to SectionStart.NewPage).
 - A Paragraph with ParagraphFormat.PageBreakBefore set. This forces a page break before the paragraph.
 
-This sample shows how to remove page and section breaks from the document using Aspose.Words.
+This sample {shows|demonstrates} how to remove page and section breaks from the document using Aspose.Words.
 
 To remove page and section breaks from a document you should follow the steps below:
 

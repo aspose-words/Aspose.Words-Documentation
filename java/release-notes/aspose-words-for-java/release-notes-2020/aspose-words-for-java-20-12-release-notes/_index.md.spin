@@ -248,7 +248,7 @@ Document doc = new Document("in.html", loadOptions);
 
 Related issue: WORDSNET-20913
 
-We have implemented extension point for condition evaluation. This allows users to implement custom evaluation for the IF and COMPARE fields.
+We have implemented extension point for condition evaluation. This {allows|enables} users to implement custom evaluation for the IF and COMPARE fields.
 
 {{< highlight csharp >}}
 /// <summary>
@@ -302,7 +302,7 @@ public sealed class ComparisonEvaluationResult
 }
 
 /// <summary>
-/// When implemented allows to override default comparison expressions evaluation for the <see cref="FieldIf"/> and <see cref="FieldCompare"/> fields.
+/// When implemented {allows|enables} to override default comparison expressions evaluation for the <see cref="FieldIf"/> and <see cref="FieldCompare"/> fields.
 /// </summary>
 /// <seealso cref="FieldOptions.ComparisonExpressionEvaluator"/>
 public interface IComparisonExpressionEvaluator

@@ -13,7 +13,7 @@ To ensure Aspose.Words accurately measures the characters and successfully embed
 1. Aspose.Words should be able to find and access TrueType font files on the system.
 1. There must be sufficient TrueType fonts available to Aspose.Words, preferably with the same font family names as the ones used in the document.
 
-Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the TrueType font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This enables certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
+Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the TrueType font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This {enables|allows} certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
 
 ## Font Manipulation and Performance Issues
 
@@ -27,7 +27,7 @@ Fonts are parsed in {several|multiple|a few|many|numerous} steps:
 
 When Aspose.Words encounters a font in the document for the first time, it attempts to obtain basic font information, such as the font full name, family name, version, style, from the font files located in each font source. After all the fonts are retrieved, Aspose.Words uses these details to find the required font data or a suitable replacement for the requested font.
 
-Since the procedure described above is time-consuming, it may negatively affect application performance at its first launch. However, each instance of **FontSettings** has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the **FontSettings** class between different documents, which allows you to speed up the loading of the documents. The following example demonstrates this:
+Since the procedure described above is time-consuming, it may negatively affect application performance at its first launch. However, each instance of **FontSettings** has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the **FontSettings** class between different documents, which {allows|enables} you to speed up the loading of the documents. The following example {demonstrates|shows} this:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSettings-FontSettingsWithLoadOption.cs" >}}
 

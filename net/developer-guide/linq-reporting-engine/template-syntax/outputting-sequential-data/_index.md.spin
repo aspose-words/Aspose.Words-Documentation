@@ -67,7 +67,7 @@ When the body of a common data band starts and ends within different paragraphs,
 |{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
 |{{< highlight csharp >}} prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶¶item1¶¶item2¶¶item3¶¶suffix{{< /highlight >}}|
 
-While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
+While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact {enables|allows} you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
 
 **Note –** “1. ” in the template stands for a numbered list label.
 
@@ -191,7 +191,7 @@ For more examples of templates for typical scenarios involving table-row data ba
 
 ## Using Charts to Represent Sequential Data
 
-LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
+LINQ Reporting Engine {enables|allows} you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
 
 1. Add a chart to your template at the place where you want it to appear in a result document.
 1. Configure the appearance of the chart.
@@ -361,7 +361,7 @@ In this case, the engine produces a report as follows.
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 
-The following code example demonstrates how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
+The following code example {demonstrates|shows} how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-LINQ-ChartSeries-SetChartSeriesNameDynamically.cs" >}}
 

@@ -6,7 +6,7 @@ url: /net/working-with-content-controls/
 aliases: [/net/template-syntax/#working-with-content-controls]
 ---
 
-LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.
+LINQ Reporting Engine {enables|allows} you to perform certain operations on content controls dynamically while building a report.
 
 **Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
 

@@ -5,7 +5,7 @@ weight: 120
 url: /java/using-contextual-object-member-access/
 ---
 
-You can make your templates less cumbersome using the contextual object member access feature. This feature enables you to access members of some objects without specifying the objects' identifiers in template expressions. An object to which the feature can be applied is determined depending on a 
+You can make your templates less cumbersome using the contextual object member access feature. This feature {enables|allows} you to access members of some objects without specifying the objects' identifiers in template expressions. An object to which the feature can be applied is determined depending on a 
 context as follows:
 
 - Inside a data band body, the object is resolved to the innermost iteration variable.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 21.3 Release Notes
 type: docs
 weight: 55
@@ -368,7 +368,7 @@ The following public method have been added to the StructuredDocumentTagRangeSta
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 {{< /highlight >}}
 
-These changes allows to enumerate child nodes of ranged structured document tag. 
+These changes {allows|enables} to enumerate child nodes of ranged structured document tag. 
 For customer convenience feature follows CompositeNode pattern and returns live collection.
 
 Use Case: Explains how to work with child nodes of StructuredDocumentTagRangeStart

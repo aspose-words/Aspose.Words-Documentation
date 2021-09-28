@@ -1,12 +1,12 @@
----
+﻿---
 title: Web Applications Security When Loading External Resources
 type: docs
-description: "Aspose.Words for C++ allows you to load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."
+description: "Aspose.Words for C++ {allows|enables} you to load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."
 weight: 50
 url: /cpp/web-applications-security-when-loading-external-resources/
 ---
 
-By default, Aspose.Words for C++ can load remote resources such as images, CSS styles, or external HTML documents when importing documents or inserting images using the DocumentBuilder. This behavior allows you to process your documents in full detail but can be a reason of some security risks if the library is a part of a web application.
+By default, Aspose.Words for C++ can load remote resources such as images, CSS styles, or external HTML documents when importing documents or inserting images using the DocumentBuilder. This behavior {allows|enables} you to process your documents in full detail but can be a reason of some security risks if the library is a part of a web application.
 
 In this article, we take a look at common security issues that can arise when loading external resources and provide recommendations on how to avoid such problems.
 
@@ -49,7 +49,7 @@ Based on the length of time the service uses to process the document, the attack
 
 To solve the problems described above and to improve the security of web applications, you can control or disable loading of external resources using [IResourceLoadingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.i_resource_loading_callback).
 
-The following code example shows how to disable external images loading:
+The following code example {shows|demonstrates} how to disable external images loading:
 
 **C++**
 {{< highlight cpp >}}
@@ -75,7 +75,7 @@ disableExternalImagesHandler->set_ResourceLoadingCallback(System::MakeObject<Dis
 }
 {{< /highlight >}}
 
-The following code example shows how to disable remote resources:
+The following code example {shows|demonstrates} how to disable remote resources:
 
 **C++**
 {{< highlight cpp >}}

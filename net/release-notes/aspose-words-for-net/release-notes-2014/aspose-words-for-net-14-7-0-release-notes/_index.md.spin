@@ -75,7 +75,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9729|Style margin-left does not work with -ive value while exporting document to Docx|Bug|
 |WORDSNET-9820|Text decoration imported from HTML is applied to floating elements|Bug|
 |WORDSNET-9821|Formatting of list labels is imported from HTML incorrectly|Bug|
-|WORDSNET-9953|Field in footer of document shows error in output Pdf|Bug|
+|WORDSNET-9953|Field in footer of document {shows|demonstrates} error in output Pdf|Bug|
 |WORDSNET-10236|/header truncated/ A Table in header is truncated when converting to Pdf|Enhancement|
 |WORDSNET-10316|Converting Word to Pdf issue with RTL text|Enhancement|
 |WORDSNET-10329|Provide an option to choose the formatting inside HTML or of DocumentBuiler|Enhancement|

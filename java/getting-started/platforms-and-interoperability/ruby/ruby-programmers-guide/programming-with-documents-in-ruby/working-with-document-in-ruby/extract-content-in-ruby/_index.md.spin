@@ -1,4 +1,4 @@
----
+﻿---
 title: Extract Content in Ruby
 type: docs
 weight: 10

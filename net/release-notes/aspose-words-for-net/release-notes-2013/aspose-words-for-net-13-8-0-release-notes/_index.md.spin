@@ -151,7 +151,7 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-1960|Add an option to resample images to size and resolution before writing to PDF|Feature|
 |WORDSNET-2304|Consider adding an ability to remove style from the document.|Feature|
 |WORDSNET-3995|Support rendering document to PostScript|Feature|
-|WORDSNET-4252|Consider adding a property to Style class which shows if a Style is part of the Quick Styles gallery in a document|Feature|
+|WORDSNET-4252|Consider adding a property to Style class which {shows|demonstrates} if a Style is part of the Quick Styles gallery in a document|Feature|
 |WORDSNET-4726|/protection ranges/ permStart/permEnd tags are lost during open/save DOCX and WML|Feature|
 |WORDSNET-5998|Consider public API for removal of External Custom XML Schema References|Feature|
 |WORDSNET-6196|Support German numbering localization|Feature|

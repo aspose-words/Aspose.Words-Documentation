@@ -6,7 +6,7 @@ weight: 55
 url: /java/print-a-document-programmatically-or-using-dialogs/
 ---
 
-This article describes how to print a word processing document using Aspose.Words API. It also demonstrates the methods of printing a document with Settings, Print Preview, and Print progress dialogs.
+This article describes how to print a word processing document using Aspose.Words API. It also {demonstrates|shows} the methods of printing a document with Settings, Print Preview, and Print progress dialogs.
 
 ## Printing a Document with Settings and Print Preview Dialogs
 
@@ -14,7 +14,7 @@ When working with documents, it is often required to print them to a selected pr
 
 The Aspose.Words has no built-in dialogs or forms but implements the [AsposeWordsPrintDocument](https://apireference.aspose.com/words/java/com.aspose.words/AsposeWordsPrintDocument) class overrides both java.awt.print.Printable and java.awt.print.Pageable.
 
-The following example shows how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
+The following example {shows|demonstrates} how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-DocumentPreviewAndPrint-PrintDialog.java" >}}
 

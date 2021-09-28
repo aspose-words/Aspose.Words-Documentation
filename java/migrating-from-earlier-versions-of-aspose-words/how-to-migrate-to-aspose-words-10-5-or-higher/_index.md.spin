@@ -15,7 +15,7 @@ This article describes the changes in the new API and how to easily fix your cod
 
 ## New Defaults when Creating Tables
 
-The new API boasts impressive new features with working for tables as well as some changes to the defaults used when creating new tables. These changes bring how a default table is constructed more in line with how Microsoft Word behaves. This allows for a more easily migration for new users, but may break the layout of tables built in existing code.
+The new API boasts impressive new features with working for tables as well as some changes to the defaults used when creating new tables. These changes bring how a default table is constructed more in line with how Microsoft Word behaves. This {allows|enables} for a more easily migration for new users, but may break the layout of tables built in existing code.
 
 |Member |Default in 10.4 and Earlier |Default in 10.5 and Later |Comments |
 | :- | :- | :- | :- |
@@ -35,7 +35,7 @@ The main differences in the new version that will cause the behavior or appearan
 
 Most tables that are generated programmatically will be affected by the changes to the new table API. In the newer version of Aspose.Words you will find that the table takes up much more horizontal space compared with previous versions by stretching to the width of the page. 
 
-Aspose.Words now by default auto fits a table to the page width and enables allow auto fitting to contents. Both of these properties together ignore any fixed column widths that are set by code. In previous versions tables would use this property to specify the width of each cell. If this property was not set (a value of 0.0) then a fixed width of 72 points was used. 
+Aspose.Words now by default auto fits a table to the page width and {enables|allows} allow auto fitting to contents. Both of these properties together ignore any fixed column widths that are set by code. In previous versions tables would use this property to specify the width of each cell. If this property was not set (a value of 0.0) then a fixed width of 72 points was used. 
 
 To fix your code so that fixed widths are used as in previous versions, you need to specify that you want to use fixed column widths by calling the **Table.AutoFit** method with the **AutoFitBehavior.FixedColumnWidths** enumeration. This will build the table based off the widths set on each cell instead of fitting the table to the window. 
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Supported Platforms
 type: docs
 weight: 5
@@ -27,7 +27,7 @@ Xamarin.iOS makes it possible to do native iOS development in C#, with either Vi
 
 ## Xamarin.Mac
 
-Xamarin.Mac gives C# developers the ability to build fully native Cocoa apps for Mac OS X and allows for native apps that can be put into the Mac App Store. You can use Aspose.Words API to perform a wide range of Word document processing tasks directly within your native Mac applications.
+Xamarin.Mac gives C# developers the ability to build fully native Cocoa apps for Mac OS X and {allows|enables} for native apps that can be put into the Mac App Store. You can use Aspose.Words API to perform a wide range of Word document processing tasks directly within your native Mac applications.
 
 ## COM
 
@@ -47,7 +47,7 @@ How about creating an application that generates DOC files, or maybe converts DO
 
 ## Windows Azure
 
-The Windows Azure Platform (Azure) is an internet-scale cloud services platform hosted in Microsoft data centers. Azure enables developers to quickly and easily create applications running in the cloud using their skills with the .NET Framework. Applications running in Windows Azure essentially run inside 64-bit virtual machines running Microsoft Server 2008. Each virtual machine provides .NET Framework 3.5 and can provide an ASP.NET environment.
+The Windows Azure Platform (Azure) is an internet-scale cloud services platform hosted in Microsoft data centers. Azure {enables|allows} developers to quickly and easily create applications running in the cloud using their skills with the .NET Framework. Applications running in Windows Azure essentially run inside 64-bit virtual machines running Microsoft Server 2008. Each virtual machine provides .NET Framework 3.5 and can provide an ASP.NET environment.
 
 **Why Aspose.Words in Azure?**
 

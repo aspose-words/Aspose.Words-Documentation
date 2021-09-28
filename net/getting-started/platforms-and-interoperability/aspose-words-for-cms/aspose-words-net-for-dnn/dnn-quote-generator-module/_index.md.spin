@@ -1,4 +1,4 @@
----
+﻿---
 title: DNN Quote Generator Module
 type: docs
 weight: 10

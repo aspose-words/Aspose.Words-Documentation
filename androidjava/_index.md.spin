@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Android via Java
 type: docs
 weight: 10
@@ -12,7 +12,7 @@ is_root: true
 
 **Welcome to Aspose.Words for Android via Java**
 
-Aspose.Words for Android via Java's ultimate goal is to bring all stunning features of Aspose.Words for Java to the Android platform that makes it possible to do native Android development in Java, with either Android Studio or any IDE that supports Android development. Aspose.Words for Android via Java is a class library that enables your native Android applications to perform a great range of document processing tasks. Aspose.Words for Android via Java supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words for Android via Java you can generate, modify, convert and render documents.
+Aspose.Words for Android via Java's ultimate goal is to bring all stunning features of Aspose.Words for Java to the Android platform that makes it possible to do native Android development in Java, with either Android Studio or any IDE that supports Android development. Aspose.Words for Android via Java is a class library that {enables|allows} your native Android applications to perform a great range of document processing tasks. Aspose.Words for Android via Java supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words for Android via Java you can generate, modify, convert and render documents.
 
 {{% /alert %}} 
 

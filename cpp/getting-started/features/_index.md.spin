@@ -1,4 +1,4 @@
----
+﻿---
 title: Features
 description: "Aspose.Words for C++ provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
@@ -11,7 +11,7 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 
 ## Major Features
 
-- Layout Engine (the module that allows building page by page model of a document)
+- Layout Engine (the module that {allows|enables} building page by page model of a document)
 - Rendering documents to PDF
 - Rendering documents to Image (This feature is included, however, we are still working on its improvement, so please note that it is in beta state)
 - Loading and saving HTML documents

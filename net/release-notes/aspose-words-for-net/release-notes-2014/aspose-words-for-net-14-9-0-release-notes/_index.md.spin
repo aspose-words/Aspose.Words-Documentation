@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 14.9.0 Release Notes
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ This page contains release notes for [Aspose.Words for .NET 14.9.0](https://www.
 
 There are 111 improvements and fixes in this regular monthly release. The most notable are:
 
-- New reporting engine that allows to use LINQ Method Syntax in report templates
+- New reporting engine that {allows|enables} to use LINQ Method Syntax in report templates
   Databinding for image SDTs is supported
   DrawingML is now a composite node (breaking change to the public API)
   DrawingML supports linked textboxes

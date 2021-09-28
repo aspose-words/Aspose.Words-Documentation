@@ -1,4 +1,4 @@
----
+﻿---
 title: Extract Content in Python
 type: docs
 weight: 50

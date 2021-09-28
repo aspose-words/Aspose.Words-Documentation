@@ -17,7 +17,7 @@ You need a template document before you can generate a report. A template is a M
 
 ![todo:image_alt_text](report-template-and-merge-fields_2.png)
 
-Now you have a new merge field placed in your document. Microsoft Word shows it like this: 
+Now you have a new merge field placed in your document. Microsoft Word {shows|demonstrates} it like this: 
 
 **A merge field in a document**
 

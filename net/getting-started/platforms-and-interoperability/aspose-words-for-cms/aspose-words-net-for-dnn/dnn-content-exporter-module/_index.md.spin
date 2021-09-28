@@ -1,4 +1,4 @@
----
+﻿---
 title: DNN Content Exporter Module
 type: docs
 weight: 20
@@ -14,7 +14,7 @@ Based on customer feedback we have added much requested Selected Content Pane an
 ## Module Features
 
 - Allow Full Page Contents Export
-- Option to select DNN Pane before exporting the content allows you to export only relevant area instead of exporting the whole page.
+- Option to select DNN Pane before exporting the content {allows|enables} you to export only relevant area instead of exporting the whole page.
 - Option to select Output formats provided by Aspose.Words for .NET API.
 - Custom CSS classes for Buttons and Dropdown to give the module look and feel of your skin via module settings.
 - Option to preselect selection area via module settings.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Annotation Features Supported on Rich Text Export
 type: docs
 weight: 10

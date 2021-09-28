@@ -21,19 +21,19 @@ Any operations that are performed on columns in Microsoft Word are in actual fac
 
 You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table.
 
-The following code example demonstrates a facade object for working with a column of a table.
+The following code example {demonstrates|shows} a facade object for working with a column of a table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-Column-Column.java" >}}
 
-The following code example shows how to insert a blank column into a table.
+The following code example {shows|demonstrates} how to insert a blank column into a table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-insertABlankColumnIntoATable.java" >}}
 
-The following code example shows how to get the plain text of a table column.
+The following code example {shows|demonstrates} how to get the plain text of a table column.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-getTextOfATableColum.java" >}}
 
-The following code example shows how to remove a column from a table in a document.
+The following code example {shows|demonstrates} how to remove a column from a table in a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-removeAColumnFromATable.java" >}}
 
@@ -43,12 +43,12 @@ A table can specify certain starting rows of a table to be used as header rows. 
 
 In Aspose.Words you can apply this setting by using the [RowFormat.getHeadingFormat()](https://apireference.aspose.com/words//java/com.aspose.words/rowformat) property. Note that heading rows do not work in nested tables. That is, if you have a table within another table then this setting will have no effect. This is a limitation of Microsoft Word which does not allow this and not of Aspose.Words. 
 
-The following code example shows how to build a table which includes heading rows that repeat on subsequent pages.
+The following code example {shows|demonstrates} how to build a table which includes heading rows that repeat on subsequent pages.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows-SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows.java" >}}
 
 ## Adjusting Width for Merged Cells
 
-Using Aspose.Words, there is a possibility to lose the merged cells in the document while adjusting the column width when having some merged cells. So if you require to retain the merged cells at it is while adjusting column width using Aspose.Words API, the following code example demonstrates how to adjust cell width when some of the cells are merged. It is important to note that when cells are vertically merged, the display areas of the merged cells are combined. The combined area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
+Using Aspose.Words, there is a possibility to lose the merged cells in the document while adjusting the column width when having some merged cells. So if you require to retain the merged cells at it is while adjusting column width using Aspose.Words API, the following code example {demonstrates|shows} how to adjust cell width when some of the cells are merged. It is important to note that when cells are vertically merged, the display areas of the merged cells are combined. The combined area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-AdjustCellsWidth-AdjustCellsWidth.java" >}}

@@ -13,7 +13,7 @@ Does your organization have a corporate document repository on Windows SharePoin
 
 ## Overview
 
-Aspose.Words for SharePoint will help you distribute corporate knowledge by allowing developers to convert files held within SharePoint into the formats your users need them in. Aspose.Words for SharePoint is a unique solution that enables you to
+Aspose.Words for SharePoint will help you distribute corporate knowledge by allowing developers to convert files held within SharePoint into the formats your users need them in. Aspose.Words for SharePoint is a unique solution that {enables|allows} you to
 
 - Perform high-fidelity document conversion to {multiple|several|a few|many|numerous} formats.
 - Generate reports based on a Microsoft Word template document and an external data source.

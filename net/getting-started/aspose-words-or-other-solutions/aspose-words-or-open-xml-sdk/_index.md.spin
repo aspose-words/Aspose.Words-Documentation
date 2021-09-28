@@ -40,11 +40,11 @@ Aspose.Words software can be considered more secure compared to Open XML SDK as 
 
 ### Stability
 
-Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
+Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This {allows|enables} not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
 
 ### Scalability and Minimal Learning Curve
 
-Being XML-based, Office Open XML is heralded as an enabling technology. It is true that Office Open XML makes it possible to build document processing and generating applications using only XML classes, without relying on third-party libraries such as Aspose.Words. OOXML documents are essentially zipped XML files, and the Open XML SDK is a collection of classes that allows you to work with the content of OOXML documents in a strongly typed way. That is, instead of unzipping a file to extract XML, loading that XML into the DOM tree, and working with the XML elements and attributes directly, Open XML SDK provides classes to do this.
+Being XML-based, Office Open XML is heralded as an enabling technology. It is true that Office Open XML makes it possible to build document processing and generating applications using only XML classes, without relying on third-party libraries such as Aspose.Words. OOXML documents are essentially zipped XML files, and the Open XML SDK is a collection of classes that {allows|enables} you to work with the content of OOXML documents in a strongly typed way. That is, instead of unzipping a file to extract XML, loading that XML into the DOM tree, and working with the XML elements and attributes directly, Open XML SDK provides classes to do this.
 
 However, the OOXML specification is {several|multiple|a few|many|numerous} thousand pages long. Being open and standard does not mean being simple. To properly process or generate OOXML documents one must invest in learning the format well. Thus, working with the Open XML SDK requires at least a basic knowledge of the Open XML Specification, which can take a long time to learn.
 

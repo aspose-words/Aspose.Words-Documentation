@@ -1,7 +1,7 @@
----
+﻿---
 title: Translate Markdown to Document Object Model (DOM)
 type: docs
-description: "Aspose.Words for .NET allows to tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
+description: "Aspose.Words for .NET {allows|enables} to tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
 weight: 13
 url: /net/translate-markdown-to-document-object-model/
 ---
@@ -16,7 +16,7 @@ This article explains how the various markdown features can be translated into A
 
 The main difficulty of this mechanism is not only to translate Markdown to DOM, but also to do the reverse transformation – to save the document back to Markdown format with minimal loss. There are elements, such as multilevel quotes, for which the reverse transformation is not trivial.
 
-Our translation engine allows users not only to work with complex elements in an existing Markdown document, but also to create their own document in Markdown format with the original structure from scratch. To create various elements, you need to use styles with specific names according to certain rules described later in this article. Such styles can be created programmatically.
+Our translation engine {allows|enables} users not only to work with complex elements in an existing Markdown document, but also to create their own document in Markdown format with the original structure from scratch. To create various elements, you need to use styles with specific names according to certain rules described later in this article. Such styles can be created programmatically.
 
 ## Common Translation Principles
 
@@ -63,7 +63,7 @@ A document is a sequence of container blocks such as headings, paragraphs, lists
 
 ### Leaf Blocks
 
-The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
+The table below {shows|demonstrates} examples of using Markdown Leaf blocks in Aspose.Words:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -111,7 +111,7 @@ else
 
 ### Complex Containers
 
-The table below shows examples of using Markdown Complex Containers in Aspose.Words:
+The table below {shows|demonstrates} examples of using Markdown Complex Containers in Aspose.Words:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -135,7 +135,7 @@ builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
 
 ### Tables
 
-Aspose.Words also allows to translate tables into DOM, as shown below:
+Aspose.Words also {allows|enables} to translate tables into DOM, as shown below:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |

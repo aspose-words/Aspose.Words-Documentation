@@ -17,6 +17,6 @@ Text shaping is only performed when exporting to PDF or XPS formats.
 
 In a typical application single instance of a text shaper factory is shared among all document instances. Whenever text shaper is created a font file is accessed. Parsing a font file is an expensive operation thus caching is recommended. Aspose.Words implements BasicTextShaperCache class which wraps text shaper factory implementation and caches text shaper instances returned by the wrapped factory.
 
-The following code example shows you how to turn on support of OpenType features.
+The following code example {shows|demonstrates} you how to turn on support of OpenType features.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-OpenType-OpenTypeFeatures-OpenTypeFeatures.cs" >}}

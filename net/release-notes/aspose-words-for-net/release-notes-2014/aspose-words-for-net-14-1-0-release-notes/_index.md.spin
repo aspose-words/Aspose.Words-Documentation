@@ -36,7 +36,7 @@ There are 101 improvements and fixes in this regular monthly release. The most n
 | :- | :- | :- |
 |WORDSNET-3025|Some characters are not displayed during inserting.|Bug|
 |WORDSNET-4522|STYLEREF field in header/footer is improperly updated upon rendering|Bug|
-|WORDSNET-5388|STYLEREF field shows error "Error! No text of specified style in document." in the output PDF document.|Bug|
+|WORDSNET-5388|STYLEREF field {shows|demonstrates} error "Error! No text of specified style in document." in the output PDF document.|Bug|
 |WORDSNET-6452|Doc to PDF conversion issue with fields in page header|Bug|
 |WORDSNET-7519|OL element should not be nested within element OL in Html|Bug|
 |WORDSNET-7532|Docx to RTF conversion issue with font size.|Bug|

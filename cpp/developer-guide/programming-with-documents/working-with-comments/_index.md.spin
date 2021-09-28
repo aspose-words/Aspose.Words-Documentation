@@ -63,23 +63,23 @@ The main point to highlight here is the use of the for operator. Unlike the simp
 
 ## How to Add a Comment
 
-The code example given below shows how to add a comment to a paragraph in the document.
+The code example given below {shows|demonstrates} how to add a comment to a paragraph in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AddComments-AddComments.cpp" >}}
 
-The code example given below shows how to anchor a comment to a region of text.
+The code example given below {shows|demonstrates} how to anchor a comment to a region of text.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AnchorComment-AnchorComment.cpp" >}}
 
 ## How to Remove Text between CommentRangeStart and CommentRangeEnd
 
-The code example given below shows how to remove text between CommentRangeStart and CommentRangeEnd nodes.
+The code example given below {shows|demonstrates} how to remove text between CommentRangeStart and CommentRangeEnd nodes.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-RemoveRegionText-RemoveRegionText.cpp" >}}
 
 ## How to Read Comment's Reply
 
-Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below shows how to iterate through a comment's replies and resolved them.
+Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below {shows|demonstrates} how to iterate through a comment's replies and resolved them.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cpp" >}}
 
@@ -87,6 +87,6 @@ Comment.Replies property returns a collection of Comment objects that are immedi
 
 The Comment.AddReply method adds a reply to this comment. Please note that due to the existing MS Office limitations only 1 level of replies are allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
 
-You can use Comment.RemoveReply method to remove the specified reply to this comment. The following code example shows how to add a reply to a comment and remove the comment's reply.
+You can use Comment.RemoveReply method to remove the specified reply to this comment. The following code example {shows|demonstrates} how to add a reply to a comment and remove the comment's reply.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-CommentReply-AddRemoveCommentReply.cpp" >}}

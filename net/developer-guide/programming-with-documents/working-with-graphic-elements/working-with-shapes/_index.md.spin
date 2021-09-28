@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Shapes
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ This topic discusses how to work programmatically with shapes using Aspose.Words
 
 ## Inserting Shapes Using Document Builder
 
-You can insert inline shape with specified type and size and free-floating shape with the specified position, size and text wrap type into a document using DocumentBuilder.InsertShape method. The DocumentBuilder.InsertShape method allows inserting DML shape into the document model. The document must be saved in the format, which supports DML shapes, otherwise, such nodes will be converted to VML shape, while document saving. The following code example shows how to insert these types of shapes into the document.
+You can insert inline shape with specified type and size and free-floating shape with the specified position, size and text wrap type into a document using DocumentBuilder.InsertShape method. The DocumentBuilder.InsertShape method {allows|enables} inserting DML shape into the document model. The document must be saved in the format, which supports DML shapes, otherwise, such nodes will be converted to VML shape, while document saving. The following code example {shows|demonstrates} how to insert these types of shapes into the document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.cs" >}}
 
@@ -23,7 +23,7 @@ You can insert inline shape with specified type and size and free-floating shape
 
 ## Create Snip Corner Rectangle
 
-You can create a snip corner rectangle using Aspose.Words. The shape types are SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,  TopCornersOneRoundedOneSnipped,  SingleCornerRounded,  TopCornersRounded,  and DiagonalCornersRounded. The DML shape is created using DocumentBuilder.InsertShape method with these shape types. These types cannot be used to create VML shapes. Attempt to create shape by using the public constructor of the "Shape" class raises the "NotSupportedException" exception. The following code example shows how to insert these type of shapes into the document.
+You can create a snip corner rectangle using Aspose.Words. The shape types are SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,  TopCornersOneRoundedOneSnipped,  SingleCornerRounded,  TopCornersRounded,  and DiagonalCornersRounded. The DML shape is created using DocumentBuilder.InsertShape method with these shape types. These types cannot be used to create VML shapes. Attempt to create shape by using the public constructor of the "Shape" class raises the "NotSupportedException" exception. The following code example {shows|demonstrates} how to insert these type of shapes into the document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-AddCornersSnipped.cs" >}}
 
@@ -41,17 +41,17 @@ You can create a snip corner rectangle using Aspose.Words. The shape types are S
 
 ## Insert Horizontal Rule into Document
 
-The code example given below demonstrates how to insert horizontal rule shape into a document using DocumentBuilder.InsertHorizontalRule method.
+The code example given below {demonstrates|shows} how to insert horizontal rule shape into a document using DocumentBuilder.InsertHorizontalRule method.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cs" >}}
 
-Aspose.Words API provides Shape.HorizontalRuleFormat property to access the properties of the horizontal rule shape. The HorizontalRuleFormat class exposes basic properties like Height, Color, NoShade etc. for the formatting of a horizontal rule. The following code example demonstrates how to set HorizontalRuleFormat.
+Aspose.Words API provides Shape.HorizontalRuleFormat property to access the properties of the horizontal rule shape. The HorizontalRuleFormat class exposes basic properties like Height, Color, NoShade etc. for the formatting of a horizontal rule. The following code example {demonstrates|shows} how to set HorizontalRuleFormat.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderHorizontalRule-DocumentBuilderHorizontalRuleFormat.cs" >}}
 
 ## Insert OLE Object as an Icon
 
-Aspose.Words API provides Shape.InsertOleObjectAsIcon function to insert an embedded or linked OLE object as an icon into the document. This function allows specifying the icon file and the caption. The OLE object type shall be detected using the file extension. The following code example demonstrates how to set insert OLE object as an Icon into the document.
+Aspose.Words API provides Shape.InsertOleObjectAsIcon function to insert an embedded or linked OLE object as an icon into the document. This function {allows|enables} specifying the icon file and the caption. The OLE object type shall be detected using the file extension. The following code example {demonstrates|shows} how to set insert OLE object as an Icon into the document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cs" >}}
 

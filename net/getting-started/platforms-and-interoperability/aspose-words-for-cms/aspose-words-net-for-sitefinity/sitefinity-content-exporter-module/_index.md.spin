@@ -1,4 +1,4 @@
----
+﻿---
 title: Sitefinity Content Exporter Module
 type: docs
 weight: 10
@@ -7,7 +7,7 @@ url: /net/sitefinity-content-exporter-module/
 
 ## Getting Started
 
-The Aspose Sitefinity Content Export add-on allows users to export online content into Microsoft Word or Adobe Acrobat PDF documents using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This add-on makes it very simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Microsoft Word DOC/DOCX or PDF format. It adds a simple **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking the button dynamically exports the content of the page into Microsoft Word or PDF document. The exported file is then automatically presented for downloading to any disk location selected by the user in just couple of seconds.
+The Aspose Sitefinity Content Export add-on {allows|enables} users to export online content into Microsoft Word or Adobe Acrobat PDF documents using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This add-on makes it very simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Microsoft Word DOC/DOCX or PDF format. It adds a simple **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking the button dynamically exports the content of the page into Microsoft Word or PDF document. The exported file is then automatically presented for downloading to any disk location selected by the user in just couple of seconds.
 
 ## System Requirements and Supported Platforms
 

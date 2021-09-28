@@ -7,7 +7,7 @@ url: /net/aspose-words-or-microsoft-office-automation/
 aliases: [/net/why-not-automation/]
 ---
 
-Often, users need not only to do some single operation with a document, for example, to convert it from one format to another, but also to complete a full cycle of work with this document, dictated by some workflow. In this case, a tool is required that provides powerful functionality for working with documents in popular formats and allows users to solve a wide range of applied problems.
+Often, users need not only to do some single operation with a document, for example, to convert it from one format to another, but also to complete a full cycle of work with this document, dictated by some workflow. In this case, a tool is required that provides powerful functionality for working with documents in popular formats and {allows|enables} users to solve a wide range of applied problems.
 
 When choosing a specific solution, users compare products and evaluate the benefits. There are often times when the choice is between Aspose and Microsoft Office Automation. Therefore, here at Aspose.Words, we often hear two questions: 
 
@@ -56,7 +56,7 @@ Aspose components are utilized only by .NET applications and there is no portion
 
 The following is a direct quote from the above referenced Microsoft article:
 
-> “Office 2000, Office XP, Office 2003, and Office 2007 use Microsoft Windows Installer (MSI) technology to make installation and self-repair easier for an end user. MSI introduces the concept of "install on first use." This allows features to be dynamically installed or configured at run time for the system, or more often for a particular user. In a server-side environment, this both slows down performance and increases the likelihood that a dialog box may appear that asks the user to approve the installation or to provide an installation disk. Although this is designed to increase the resiliency of Office as an end-user product, Office's implementation of MSI capabilities is counterproductive in a server-side environment. Furthermore, the stability of Office in general cannot be assured when Office is run server-side because it has not been designed or tested for this type of use. Using Office as a service component on a network server may reduce the stability of that computer, and therefore may reduce the stability of your whole network."
+> “Office 2000, Office XP, Office 2003, and Office 2007 use Microsoft Windows Installer (MSI) technology to make installation and self-repair easier for an end user. MSI introduces the concept of "install on first use." This {allows|enables} features to be dynamically installed or configured at run time for the system, or more often for a particular user. In a server-side environment, this both slows down performance and increases the likelihood that a dialog box may appear that asks the user to approve the installation or to provide an installation disk. Although this is designed to increase the resiliency of Office as an end-user product, Office's implementation of MSI capabilities is counterproductive in a server-side environment. Furthermore, the stability of Office in general cannot be assured when Office is run server-side because it has not been designed or tested for this type of use. Using Office as a service component on a network server may reduce the stability of that computer, and therefore may reduce the stability of your whole network."
 
 ### Scalability and Speed
 
@@ -80,7 +80,7 @@ All the Aspose components offer a risk-free, no-obligation [evaluation version](
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Unlike Office Automation, Aspose components provide {many|multiple|several|a few|numerous} powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/net) offers a feature that allows developers to populate a Word mail merge document directly from any .NET data object. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Unlike Office Automation, Aspose components provide {many|multiple|several|a few|numerous} powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/net) offers a feature that {allows|enables} developers to populate a Word mail merge document directly from any .NET data object. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 The best part of purchasing an Aspose component or a component suite is accessing our development teams. Our development teams realize that if there is a feature that your company needs, more than likely other companies will need it as well. While not every feature request can be added, our teams try to be very open-minded and flexible when providing assistance. That mindset has made Aspose components as powerful as they are. However, if there are additional features that you need from Office Automation objects, your chances of having them added are very low.
 

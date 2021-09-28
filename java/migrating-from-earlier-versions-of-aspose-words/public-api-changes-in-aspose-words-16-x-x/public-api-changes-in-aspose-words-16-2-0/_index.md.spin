@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 16.2.0
 type: docs
 weight: 20
@@ -62,7 +62,7 @@ WORDSNET-12130 has been resolved. Starting from 16.2.0 version, Aspose.Words sup
 
 ## PageSavingCallback Introduced for all Fixed-Page based Save Formats
 
-WORDSNET-12176 has been resolved. PageSavingCallback allows you to control how separate pages are saved when a document is exported to fixed-page based save formats. You are able to control PageFileName for each separate page. Or you can specify the stream where the document page will be saved using PageStream property.
+WORDSNET-12176 has been resolved. PageSavingCallback {allows|enables} you to control how separate pages are saved when a document is exported to fixed-page based save formats. You are able to control PageFileName for each separate page. Or you can specify the stream where the document page will be saved using PageStream property.
 
 **Java**
 

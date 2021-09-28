@@ -34,7 +34,7 @@ doc.save(dataDir + "Aspose_NewDoc.docx",SaveFormat.DOCX);
 
 ## Apache POI HWPF XWPF - Create New Document
 
-The code example given below shows how to create a new document using Apache POI XWPF.
+The code example given below {shows|demonstrates} how to create a new document using Apache POI XWPF.
 
 **Java**
 

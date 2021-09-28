@@ -65,9 +65,9 @@ As you can see, this is a very simple example, showing the number and text of th
 
 ## Insert Style Separator to Put Different Paragraph Styles
 
-The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph. If you want some text from the beginning of a particular heading to appear in a Table of Contents but do not want the entire heading in the Table of Contents, you can use this feature. 
+The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature {allows|enables} for two different paragraph styles used in one logical printed paragraph. If you want some text from the beginning of a particular heading to appear in a Table of Contents but do not want the entire heading in the Table of Contents, you can use this feature. 
 
-The following code example shows how to insert a style separator to put different paragraph styles. 
+The following code example {shows|demonstrates} how to insert a style separator to put different paragraph styles. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-WorkingWithStyle-ParagraphInsertStyleSeparator.java" >}}
 
@@ -75,7 +75,7 @@ The following code example shows how to insert a style separator to put differen
 
 There are cases when you want to copy all styles from one document into another. You can use the Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. 
 
-The following code example shows how to copy styles from one document into another.
+The following code example {shows|demonstrates} how to copy styles from one document into another.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-WorkingWithStyle-CopyStylesFromDocument.java" >}}
 

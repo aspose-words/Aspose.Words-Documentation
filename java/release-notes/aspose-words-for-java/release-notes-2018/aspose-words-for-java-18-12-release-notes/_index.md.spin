@@ -132,7 +132,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-17789|An exception raises while saving the document to the Strict Open XML format|Exception|
 |WORDSNET-17637|Document.UpdatePageLayout method throws System.NullReferenceException|Exception|
 |WORDSNET-1450|There is no rotation when open the document in the below version of 2003|Feature|
-|WORDSNET-5396|Create a demo which allows the user to upload a document and convert it to any supported format|Feature|
+|WORDSNET-5396|Create a demo which {allows|enables} the user to upload a document and convert it to any supported format|Feature|
 |WORDSNET-9197|Release Aspose.Words for C++|Feature|
 |WORDSNET-1188|Difficulties when accessing field names returned by MailMerge.GetFieldNames|Feature|
 |WORDSNET-1289|Support page number field formatting in Model|Feature|

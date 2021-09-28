@@ -1,7 +1,7 @@
 ﻿---
 title: Mail Merge and Reporting
 type: docs
-description: "Mail Merge is a popular feature for quickly creating documents. Aspose.Words for C++ takes the standard mail merge functionality and advances it {many|multiple|several|a few|numerous} steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices."
+description: "Mail Merge is a popular feature for quickly creating documents. Aspose.Words for C++ takes the standard mail merge functionality and advances it {many|multiple|several|a few|numerous} steps ahead, turning it into a full-fledged reporting solution that {allows|enables} you to create even more complex documents such as reports, catalogs, inventories, and invoices."
 keywords: "how to use mail merge c++"
 weight: 30
 url: /cpp/mail-merge-and-reporting/
@@ -11,7 +11,7 @@ Mail Merge is a popular feature for quickly and easily creating documents such 
 
 A mail merge field is a field that you can insert into a mail merge template to include specific values from a data source record in output documents. For example, you can insert a merge field in an email template so that the greeting will have the recipient’s first name rather than a generic “Hello!”. Aspose.Words places data from an external source, such as a database or file, into these fields and formats them. The resulting document is saved in the specified folder.
 
-Aspose.Words takes the standard mail merge functionality and advances it {many|multiple|several|a few|numerous} steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices. Here are {a few|multiple|several|many|numerous} advantages of the Aspose.Words reporting solution:
+Aspose.Words takes the standard mail merge functionality and advances it {many|multiple|several|a few|numerous} steps ahead, turning it into a full-fledged reporting solution that {allows|enables} you to create even more complex documents such as reports, catalogs, inventories, and invoices. Here are {a few|multiple|several|many|numerous} advantages of the Aspose.Words reporting solution:
 
 - Design reports in Microsoft Word using standard mail merge fields
 - Define regions in the document that are growing, such as detailed order rows
@@ -27,9 +27,9 @@ The [Aspose.Words.MailMerging](https://apireference.aspose.com/words/cpp/namespa
 
 ## Mechanism and Main Components of a Mail Merge Operation
 
-Aspose.Words provides the ability to load documents in various [supported formats](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) and then allows users to perform a mail merge operation.
+Aspose.Words provides the ability to load documents in various [supported formats](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) and then {allows|enables} users to perform a mail merge operation.
 
-Usually, a loaded document allows you to store merge fields, for example, a document in DOCX format. But there are formats that do not store such fields, for example, TXT. If Aspose.Words supports loading such file formats, you can add the merge fields directly to the document model, save the document in a convenient [supported format](https://apireference.aspose.com/words/cpp/namespace/aspose.words#a115f4c887d1fbaa2cbe273d422f7e847), and perform the mail merge operation.
+Usually, a loaded document {allows|enables} you to store merge fields, for example, a document in DOCX format. But there are formats that do not store such fields, for example, TXT. If Aspose.Words supports loading such file formats, you can add the merge fields directly to the document model, save the document in a convenient [supported format](https://apireference.aspose.com/words/cpp/namespace/aspose.words#a115f4c887d1fbaa2cbe273d422f7e847), and perform the mail merge operation.
 
 The mail merge operation will merge your *mail merge template* and your *data source* to generate individual *merged documents*.
 

@@ -13,7 +13,7 @@ If you are looking for a faster, simpler, and lighter file format library to pro
 
 VSTO, or Visual Studio Tools for Office, or Microsoft Visual Studio Tools, is used by developers to write code that connects Microsoft Office Word, Excel, and Outlook applications.
 
-Aspose.Words for .NET is an advanced class library for .NET that enables you to perform a wide variety of document processing tasks directly within your .NET applications. With Aspose.Words you can create, modify, convert, display, and print documents without using Microsoft Word.
+Aspose.Words for .NET is an advanced class library for .NET that {enables|allows} you to perform a wide variety of document processing tasks directly within your .NET applications. With Aspose.Words you can create, modify, convert, display, and print documents without using Microsoft Word.
 
 ## Why not VSTO
 

@@ -103,7 +103,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Linked|Yes|Note that Aspose.Words cannot update an OLE link. However, you can modify a link only OLE object to point to a new location which can provide a partial way of changing OLE objects. <br><br>When such a document is saved and opened in Microsoft Word it will detect the change in the link and prompt the user to update the linked object. This results in the linked object appearing in the document. <br><br>Such a technique will only work for Word formats and if the document is opened in an editor which allows updating OLE objects (such as Microsoft Word). If the link is changed and the document to a different format such as PDF then the original content will still appear in the output.|<p>- **OleFormat.IsLink**</p><p>- **OleFormat.SourceFullName**</p>|
+|Linked|Yes|Note that Aspose.Words cannot update an OLE link. However, you can modify a link only OLE object to point to a new location which can provide a partial way of changing OLE objects. <br><br>When such a document is saved and opened in Microsoft Word it will detect the change in the link and prompt the user to update the linked object. This results in the linked object appearing in the document. <br><br>Such a technique will only work for Word formats and if the document is opened in an editor which {allows|enables} updating OLE objects (such as Microsoft Word). If the link is changed and the document to a different format such as PDF then the original content will still appear in the output.|<p>- **OleFormat.IsLink**</p><p>- **OleFormat.SourceFullName**</p>|
 |Embedded|Yes| | |
 |Draw Aspect|Yes| | |
 |Auto Update|Yes| |- **OleFormat.AutoUpdate**|
@@ -160,7 +160,7 @@ See the following links in the documentation for further information:
 |Charts (VML)|Yes|Currently, there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart.| |
 |Shape Customizations|Yes| | |
 |Hyperlink on Shape|Yes| |- **Shape.HRef**|
-|Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded.|- [How to Add a Watermark to a Document](/words/java/how-to-add-a-watermark-to-a-document/)|
+|Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This {allows|enables} the watermark to appear behind all content and as faded.|- [How to Add a Watermark to a Document](/words/java/how-to-add-a-watermark-to-a-document/)|
 
 ## WordArt
 

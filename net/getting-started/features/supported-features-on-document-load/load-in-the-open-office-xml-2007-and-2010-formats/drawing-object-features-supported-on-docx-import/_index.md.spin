@@ -103,7 +103,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Linked |Yes |Note that Aspose.Words cannot update an OLE link. However you can modify a link only OLE object to point to a new location which can provide a partial way of changing OLE objects. <br><br>When such a document is saved and opened in Microsoft Word it will detect the change in link and prompt the user to update the linked object. This results in the linked object appearing in the document. <br><br>Such a tecnhique will only work for Word formats and if the document is opened in an editor which allows to update OLE objects (such as Microsoft Word). If the link is changed and the document to a different format such as PDF then the original content will still appear in the output. |<p>- [OleFormat.IsLink](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/islink) </p><p>- [OleFormat.SourceFullName](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/sourcefullname)</p>|
+|Linked |Yes |Note that Aspose.Words cannot update an OLE link. However you can modify a link only OLE object to point to a new location which can provide a partial way of changing OLE objects. <br><br>When such a document is saved and opened in Microsoft Word it will detect the change in link and prompt the user to update the linked object. This results in the linked object appearing in the document. <br><br>Such a tecnhique will only work for Word formats and if the document is opened in an editor which {allows|enables} to update OLE objects (such as Microsoft Word). If the link is changed and the document to a different format such as PDF then the original content will still appear in the output. |<p>- [OleFormat.IsLink](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/islink) </p><p>- [OleFormat.SourceFullName](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/sourcefullname)</p>|
 |Embedded |Yes | | |
 |Draw Aspect |Yes | | |
 |Auto Update |Yes | |- [OleFormat.AutoUpdate](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/autoupdate)|
@@ -160,7 +160,7 @@ See the following links in the documentation for further information:
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/href)|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs.aspose.com/words/net/working-with-watermark/)|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This {allows|enables} the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs.aspose.com/words/net/working-with-watermark/)|
 
 ## WordArt
 

@@ -46,7 +46,7 @@ WORDSNET-4433 /:5/ Decimal TabStops within Cell are ignored upon rendering.
 
 WORDSNET-4564 INCLUDEPICTURE Field does not show up in out document.
 
-WORDSNET-5372 Create a video which shows how to build a table from scratch.
+WORDSNET-5372 Create a video which {shows|demonstrates} how to build a table from scratch.
 
 WORDSNET-5550 /hidden/ Support hidden table rows and cells in Layout.
 
@@ -245,7 +245,7 @@ WORDSNET-3562 Table disappears after save to PDF.
 
 WORDSNET-3869 Shape sizes are changed after open/save ODT document.
 
-WORDSNET-4121 List formatting shows through in TOC entries after updating.
+WORDSNET-4121 List formatting {shows|demonstrates} through in TOC entries after updating.
 
 WORDSNET-4407 Numbers of items in TOC are bold after updating fields.
 

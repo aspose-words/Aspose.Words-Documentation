@@ -828,7 +828,7 @@ public TxtTrailingSpacesOptions TrailingSpacesOptions
 public TxtLeadingSpacesOptions LeadingSpacesOptions
 {{< /highlight >}}
 
-These properties allows to control  the way of handling leading and trailing spaces during loading txt file.
+These properties {allows|enables} to control  the way of handling leading and trailing spaces during loading txt file.
 
 Leading spaces could be trimmed, preserved or converted to indent (*Please see **TxtLeadingSpacesOptions*** *enum*).
 Trailing spaces could be trimmed or preserved.

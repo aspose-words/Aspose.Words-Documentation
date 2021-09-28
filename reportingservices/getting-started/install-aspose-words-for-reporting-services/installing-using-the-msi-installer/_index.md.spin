@@ -1,4 +1,4 @@
----
+﻿---
 title: Installing Using the MSI Installer
 type: docs
 weight: 20

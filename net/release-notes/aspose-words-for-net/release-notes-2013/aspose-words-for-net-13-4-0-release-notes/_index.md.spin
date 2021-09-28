@@ -26,7 +26,7 @@ This page contains release notes for [Aspose.Words for .NET 13.4.0](https://www.
 - Fixed positioning of a table broken across pages when it has repeated header rows
 - Improved table row wrapping around floaters
 - Fixed issue with Arabic-Indic numerals inside SDT
-- Aspose.Words allows to write OOXML documents that do not cause Compatibility Mode when opened in MS Word 2010-2013 
+- Aspose.Words {allows|enables} to write OOXML documents that do not cause Compatibility Mode when opened in MS Word 2010-2013 
 
 ## All Fixes
 

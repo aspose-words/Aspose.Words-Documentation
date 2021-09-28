@@ -1,6 +1,6 @@
 ﻿---
 title: Learn Features of Conversion to PDF/A
-description: "Aspose.Words for С++ allows users to convert to PDF/A-1 and PDF/A-2. There are {a few|multiple|several|many|numerous} problems when converting to PDF/A documents, and Aspose.Words for С++ solves them."
+description: "Aspose.Words for С++ {allows|enables} users to convert to PDF/A-1 and PDF/A-2. There are {a few|multiple|several|many|numerous} problems when converting to PDF/A documents, and Aspose.Words for С++ solves them."
 type: docs
 weight: 35
 url: /cpp/learn-features-of-conversion-to-pdf-a/
@@ -10,7 +10,7 @@ PDF is a fixed page format that is very popular among users and is widely suppor
 
 PDF is a complex format by itself, as it has a specific file structure, graphical model, font embedding, and some complex output functionality such as document structure tags, encryption, digital signatures, and editable forms. In addition, converting a document to PDF requires {several|multiple|a few|many|numerous} calculation stages, which are complex and time-consuming.
 
-Aspose.Words now allows users to work with PDF/A-1 and PDF/A-2 formats:
+Aspose.Words now {allows|enables} users to work with PDF/A-1 and PDF/A-2 formats:
 
 * PDF/A-1 has serious limitations such as transparency and some compression options are prohibited
 

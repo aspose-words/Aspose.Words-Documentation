@@ -141,4 +141,4 @@ The following overload has been added to the ReportingEngine class:
 public void BuildReport(Document document, object[] dataSources, string[] dataSourceNames)
 {{< /highlight >}}
 
-It allows using {multiple|several|a few|many|numerous} data source objects while building a report.
+It {allows|enables} using {multiple|several|a few|many|numerous} data source objects while building a report.

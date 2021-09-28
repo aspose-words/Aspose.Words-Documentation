@@ -354,7 +354,7 @@ doc.Save(outFileName);
 
 Related issue: WORDSNET-20249
 
-A new method GetEmbeddedFontAsOpenType() has been added to FontInfo class. It allows to convert embedded fonts in Embedded OpenType format (which comes from .doc documents) to OpenType.
+A new method GetEmbeddedFontAsOpenType() has been added to FontInfo class. It {allows|enables} to convert embedded fonts in Embedded OpenType format (which comes from .doc documents) to OpenType.
 
 **.NET**
 
@@ -382,7 +382,7 @@ The new property Watermark has been added to the Document class.
 public Watermark Watermark { get; }
 {{< /highlight >}}
 
-The new Watermark class allows to add/remove watermark from the document. A watermark can be created from text or from an image.
+The new Watermark class {allows|enables} to add/remove watermark from the document. A watermark can be created from text or from an image.
 
 **.NET**
 

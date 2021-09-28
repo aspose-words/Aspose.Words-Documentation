@@ -1,11 +1,11 @@
----
+﻿---
 title: Working with DataTable Row Objects
 type: docs
 weight: 30
 url: /java/working-with-datatable-row-objects/
 ---
 
-LINQ Reporting Engine enables you to access a data associated with a particular `DataTable` row instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
+LINQ Reporting Engine {enables|allows} you to access a data associated with a particular `DataTable` row instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
 
 |Data Kind|Identifier|Examples of Template Expressions|
 | :- | :- | :- |

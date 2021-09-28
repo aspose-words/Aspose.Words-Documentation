@@ -1,4 +1,4 @@
----
+﻿---
 title: Text Features Supported on DOC Export
 type: docs
 weight: 130

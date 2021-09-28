@@ -66,7 +66,7 @@ During installation, the Aspose.Words.tlb (COM type library) is copied to your c
 
 - For .NET Framework 2.0, 3.0, 3.5 and 4.0 to **&lt;installdir&gt;\bin\net2.0**
 
-If your programming language (for example Visual Basic or Delphi) allows you to reference a COM type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser. 
+If your programming language (for example Visual Basic or Delphi) {allows|enables} you to reference a COM type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser. 
 
 #### Creating COM Objects
 

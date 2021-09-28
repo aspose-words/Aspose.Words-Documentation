@@ -204,7 +204,7 @@ doc.Save("TopCornersSnipped.docx", so);
 WORDSNET-16985 has been resolved.
 
 By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
-Now was added a new option to HtmlSaveOptions. This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
+Now was added a new option to HtmlSaveOptions. This option {enables|allows} an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
 
 {{< highlight csharp >}}
 public bool ExportCidUrlsForMhtmlResources { get; set; }
@@ -328,7 +328,7 @@ New public property ***RecognizeUtf8Text*** was added into the RtfLoadOptions cl
 public bool RecognizeUtf8Text
 {{< /highlight >}}
 
-This property allows to detect UTF-8 encoded characters and preserve them during import.
+This property {allows|enables} to detect UTF-8 encoded characters and preserve them during import.
 
 UC:
 

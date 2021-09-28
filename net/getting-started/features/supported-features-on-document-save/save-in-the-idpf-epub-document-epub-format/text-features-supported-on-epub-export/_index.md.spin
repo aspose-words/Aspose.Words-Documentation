@@ -65,7 +65,7 @@ Bold and italics is exported as font-weight:bold and font-style:italics on style
 
 There is plans to make an option to export these as simple &lt;b&gt;, &lt;i&gt; tags.
 
-There is an option to control how size is exported. Font can be exported as points or as em units. This allows fonts to be resized automatically by browsers by increasing or decreasing font size.
+There is an option to control how size is exported. Font can be exported as points or as em units. This {allows|enables} fonts to be resized automatically by browsers by increasing or decreasing font size.
 
 Currently images are not exported in the same relative way. This means that images will not resize when the "Increase Text/Decrease Text" buttons are pressed. These buttons are common in browsers and eReaders.
 

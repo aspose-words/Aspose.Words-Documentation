@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 17.4 Release Notes
 type: docs
 weight: 90

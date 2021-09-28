@@ -6,7 +6,7 @@ weight: 10
 url: /java/specify-load-options/
 ---
 
-When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/LoadOptions) class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/PdfLoadOptions) for loading to PDF format or [TxtLoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/TxtLoadOptions) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.
+When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/LoadOptions) class, which {allows|enables} more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/PdfLoadOptions) for loading to PDF format or [TxtLoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/TxtLoadOptions) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.
 
 ## Set Microsoft Word Version to Change the Appearance
 
@@ -14,7 +14,7 @@ Different versions of the Microsoft Word application can display documents in di
 
 By default Aspose.Words opens documents using Microsoft Word 2019 rules. If you need to to make document loading appear as it would happen in one of the previous Microsoft Word application versions, you should explicitly specify the desired version using the [MswVersion](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#MswVersion) property of the **LoadOptions** class.
 
-The following code example shows how to set the Microsoft Word version with load options:
+The following code example {shows|demonstrates} how to set the Microsoft Word version with load options:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetMSWordVersion.java" >}}
 
@@ -30,7 +30,7 @@ The following code example shows how to set Japanese as **EditingLanguage**:
 
 Some documents may be corrupted, contain invalid entries, or have features not currently supported by Aspose.Words. If you want to know about problems that occurred while loading a document, Aspose.Words provides the [IWarningCallback](https://apireference.aspose.com/words/java/com.aspose.words/IWarningCallback) interface.
 
-The following code example shows the implementation of the **IWarningCallback** interface:
+The following code example {shows|demonstrates} the implementation of the **IWarningCallback** interface:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-DocumentLoadingWarningCallback.java" >}}
 
@@ -42,9 +42,9 @@ The following code example shows how to use this property:
 
 ## Use ResourceLoadingCallback to Control the External Resources Loading
 
-A document may contain external links to images located somewhere on a local disk, network, or Internet. Aspose.Words automatically loads such images into a document, but there are situations when this process needs to be controlled. For example, to decide whether we really need to load a certain image or perhaps skip it. The [ResourceLoadingCallback](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#ResourceLoadingCallback) load option allows you to control this.
+A document may contain external links to images located somewhere on a local disk, network, or Internet. Aspose.Words automatically loads such images into a document, but there are situations when this process needs to be controlled. For example, to decide whether we really need to load a certain image or perhaps skip it. The [ResourceLoadingCallback](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#ResourceLoadingCallback) load option {allows|enables} you to control this.
 
-The following code example shows the implementation of the [IResourceLoadingCallback](https://apireference.aspose.com/words/java/com.aspose.words/IResourceLoadingCallback) interface:
+The following code example {shows|demonstrates} the implementation of the [IResourceLoadingCallback](https://apireference.aspose.com/words/java/com.aspose.words/IResourceLoadingCallback) interface:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-HtmlLinkedResourceLoadingCallback.java" >}}
 
@@ -74,12 +74,12 @@ The following code example shows how to set the encoding to override the automa
 
 You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/LoadOptions) object. This object contains the [Password](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#Password) property, which specifies the password string.
 
-The following code example shows how to load a document encrypted with a password:
+The following code example {shows|demonstrates} how to load a document encrypted with a password:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenEncryptedDocument.java" >}}
 
 If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/words/java/com.aspose.words/FileFormatUtil) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the [IsEncrypted](https://apireference.aspose.com/words/java/com.aspose.words/fileformatinfo#IsEncrypted) property.
 
-The following code example shows how to verify OpenDocument either it is encrypted or not:
+The following code example {shows|demonstrates} how to verify OpenDocument either it is encrypted or not:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-VerifyODTdocument.java" >}}

@@ -84,23 +84,23 @@ The output Word document has now comments removed from it:
 
 ## How to Add a Comment
 
-The following code example shows how to add a comment to a paragraph in the document.
+The following code example {shows|demonstrates} how to add a comment to a paragraph in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddComments-1.java" >}}
 
-The following example shows how to anchor a comment to a region of text.
+The following example {shows|demonstrates} how to anchor a comment to a region of text.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AnchorComment-1.java" >}}
 
 ## How to Remove Text between CommentRangeStart and CommentRangeEnd
 
-The following code example demonstrates how to remove text between CommentRangeStart and CommentRangeEnd nodes.
+The following code example {demonstrates|shows} how to remove text between CommentRangeStart and CommentRangeEnd nodes.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-RemoveCommentRegionText.java.java" >}}
 
 ## How to Read Comment Reply
 
-Aspose.Words support to read the reply of a Comment. Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below shows how to iterate through a collection of comment replies and resolved them.
+Aspose.Words support to read the reply of a Comment. Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below {shows|demonstrates} how to iterate through a collection of comment replies and resolved them.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-CommentResolvedandReplies.java" >}}
 
@@ -108,6 +108,6 @@ Aspose.Words support to read the reply of a Comment. Comment.Replies property re
 
 The Comment.addReply method adds a reply to this comment. Please note that due to the existing MS Office limitations only one (1) level of replies is allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
 
-You can use the Comment.removeReply method to remove the specified reply to this comment. The following code example shows how to add a reply to a comment and remove a comment's reply.
+You can use the Comment.removeReply method to remove the specified reply to this comment. The following code example {shows|demonstrates} how to add a reply to a comment and remove a comment's reply.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddRemoveCommentReply-AddRemoveCommentReply.java" >}}

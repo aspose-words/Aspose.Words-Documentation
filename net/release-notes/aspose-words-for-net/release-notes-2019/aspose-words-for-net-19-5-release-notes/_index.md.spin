@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.Words for .NET 19.5](https://www.nu
 - Added feature to get font leading (line spacing).
 - Added Field.DisplayResult property to obtain a fake result. 
 - Provide a method to check if a particular DML text effect is applied.
-- Implemented StreamFontSource class which allows loading fonts from the stream.
+- Implemented StreamFontSource class which {allows|enables} loading fonts from the stream.
 - Implemented TOC to logical structure export when rendering PDF.
 - Implemented proper rendering of embedded fonts in PDF when different font subsets have the same internal name.
 - Text in the format "x...." in the string values of the series category of DrawingML chart is now rendered as a string corresponding to the specified character code.
@@ -140,7 +140,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, I
 
 
 
-It allows to specify an additional options that affect the formatting of a result document.
+It {allows|enables} to specify an additional options that affect the formatting of a result document.
 
 See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for .NET 19.4 Release Notes](/words/net/aspose-words-for-net-19-4-release-notes/).
 
@@ -166,7 +166,7 @@ Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
 {{< highlight html >}}
 /// <summary>
-/// True if this paragraph break is a Style Separator. A style separator allows one
+/// True if this paragraph break is a Style Separator. A style separator {allows|enables} one
 /// paragraph to consist of parts that have different paragraph styles.
 /// </summary>
 public bool BreakIsStyleSeparator
@@ -176,7 +176,7 @@ public bool BreakIsStyleSeparator
 
 
 
-It allows to identify Style Separator Paragraph.
+It {allows|enables} to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -254,7 +254,7 @@ Assert.AreEqual("1)", fields[5].DisplayResult);
 
 Related issue: WORDSNET-16739
 
-Added new StreamFontSource class which allows loading fonts from the stream:
+Added new StreamFontSource class which {allows|enables} loading fonts from the stream:
 
 
 
@@ -270,7 +270,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
-    /// <para><see cref="StreamFontSource"/> may be useful because it allows to load the font data only when it is required
+    /// <para><see cref="StreamFontSource"/> may be useful because it {allows|enables} to load the font data only when it is required
     /// and not to store it in the memory for the <see cref="FontSettings"/> lifetime.</para>
     /// </remarks>
     public abstract class StreamFontSource : FontSourceBase, IFontData

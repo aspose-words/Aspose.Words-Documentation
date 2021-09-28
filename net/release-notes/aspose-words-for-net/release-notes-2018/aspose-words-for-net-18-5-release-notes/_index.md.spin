@@ -112,7 +112,7 @@ This section lists public API changes that were introduced in Aspose.Words 18.5.
 
 ### Added Public Property StructuredDocumentTag.Color
 
-This property allows to control the ***Color*** of a content control.
+This property {allows|enables} to control the ***Color*** of a content control.
 
 {{< highlight csharp >}}
 /// <summary>

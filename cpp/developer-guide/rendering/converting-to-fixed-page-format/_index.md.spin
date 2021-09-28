@@ -1,6 +1,6 @@
 ﻿---
 title: Converting to Fixed-page Format
-description: "Aspose.Words for C++ implements its own page layout engine to describe the geometry and position of objects on document pages. This allows you to save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats."
+description: "Aspose.Words for C++ implements its own page layout engine to describe the geometry and position of objects on document pages. This {allows|enables} you to save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats."
 type: docs
 weight: 10
 url: /cpp/converting-to-fixed-page-format/
@@ -12,7 +12,7 @@ Aspose.Words implements its own page layout engine. Prior to delving into its sp
 
 Various document viewing or publishing applications allow users to open (Adobe Acrobat, XPS Viewer) and sometimes edit (Adobe InDesign) documents of specific formats. These applications typically produce so-called "fixed-page" format documents. Such a document format describes precisely where a document’s content is placed on every page. Internally, the PDF or XPS format contains a description of every page, as well as drawing instructions, specifying the layout of the content on the page. This is similar to image formats, describing where the content is shown either in raster or vector form.
 
-In contrast, some text editing applications do not support the viewing of a document’s pages. For instance, Microsoft Notepad supports very few functions other than simply displaying, editing and printing text. The important observation here is that such applications can neither show pages of the document nor tell a user how {many|multiple|several|a few|numerous} of them would be printed, only allowing to view the document content. The document can be saved in plain text format and can be opened by {many|multiple|several|a few|numerous} other applications. Using an application that allows viewing binary content of an arbitrary file one can see what is stored in the document file – it is just plain text, there is nothing else in it.
+In contrast, some text editing applications do not support the viewing of a document’s pages. For instance, Microsoft Notepad supports very few functions other than simply displaying, editing and printing text. The important observation here is that such applications can neither show pages of the document nor tell a user how {many|multiple|several|a few|numerous} of them would be printed, only allowing to view the document content. The document can be saved in plain text format and can be opened by {many|multiple|several|a few|numerous} other applications. Using an application that {allows|enables} viewing binary content of an arbitrary file one can see what is stored in the document file – it is just plain text, there is nothing else in it.
 
 Slightly more sophisticated text-editing applications, such as Microsoft WordPad, save the document in Rich Text Format (RTF), which supports more formatting functions, such as insertion of images, character formatting, paragraph margins, and spacing. However, the RTF format also contains only the document’s content, having no information about pages.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Common Data Bands
 type: docs
 weight: 10
@@ -30,7 +30,7 @@ When the body of a common data band starts and ends within different paragraphs,
 |{{< highlight csharp >}}prefix¶<<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|prefix¶<br>item1¶<br>item2¶<br>item3¶<br>suffix|
 |{{< highlight csharp >}}prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix{{< /highlight >}}|prefix¶<br>item1¶<br>item2¶<br>item3¶<br>suffix|
 |{{< highlight csharp >}}prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix{{< /highlight >}}|prefix¶<br>¶<br>item1¶<br>¶<br>item2¶<br>¶<br>item3¶<br>¶<br>suffix|
-While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
+While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact {enables|allows} you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
 
 **Note –** “1. ” in the template stands for a numbered list label.
 

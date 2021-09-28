@@ -35,7 +35,7 @@ With Aspose.Words you can convert documents from any supported load format to an
 1. Load a document from a file or stream
 2. Save it to any supported format
 
-The following code example shows how to convert a document:
+The following code example {shows|demonstrates} how to convert a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-Doc2Pdf.cs" >}}
 
@@ -141,10 +141,10 @@ Scalable server-side scenarios use Aspose.Words mainly because of its simple and
 
 ## High Performance
 
-Aspose.Words demonstrates high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
+Aspose.Words {demonstrates|shows} high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 
 On {several|multiple|a few|many|numerous} occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the **Document** object.
 
-The following code example shows how you can load and save such a large document if you want to:
+The following code example {shows|demonstrates} how you can load and save such a large document if you want to:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToDisk-LoadAndSave.cs" >}}

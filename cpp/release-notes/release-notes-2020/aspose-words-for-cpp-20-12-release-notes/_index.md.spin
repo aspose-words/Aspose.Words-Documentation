@@ -251,7 +251,7 @@ auto doc = MakeObject<Document>(u"in.html", loadOptions);
 
 Related issue: WORDSNET-20913
 
-We have implemented extension point for condition evaluation. This allows users to implement custom evaluation for the IF and COMPARE fields.
+We have implemented extension point for condition evaluation. This {allows|enables} users to implement custom evaluation for the IF and COMPARE fields.
 
 {{< highlight cpp >}}
 /// The comparison expression.
@@ -287,7 +287,7 @@ public:
 
 
 /// \interface IComparisonExpressionEvaluator
-/// When implemented, allows to override default comparison expressions evaluation for the <see cref="Aspose::Words::Fields::FieldIf">FieldIf</see> and <see cref="Aspose::Words::Fields::FieldCompare">FieldCompare</see> fields.
+/// When implemented, {allows|enables} to override default comparison expressions evaluation for the <see cref="Aspose::Words::Fields::FieldIf">FieldIf</see> and <see cref="Aspose::Words::Fields::FieldCompare">FieldCompare</see> fields.
 /// 
 /// @sa Aspose::Words::Fields::FieldOptions::get_ComparisonExpressionEvaluator
 class IComparisonExpressionEvaluator : public Object

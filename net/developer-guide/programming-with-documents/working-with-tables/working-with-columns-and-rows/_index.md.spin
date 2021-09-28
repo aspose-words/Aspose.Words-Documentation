@@ -11,7 +11,7 @@ Finding the index of any node involves gathering all child nodes of the element�
 
 ### Finding the Index of Table in a Document
 
-The code example given below demonstrates how to retrieve the index of a table in the document.
+The code example given below {demonstrates|shows} how to retrieve the index of a table in the document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveTableIndex.cs" >}}
 
@@ -23,7 +23,7 @@ The code example given below demonstrates how to retrieve the index of a row in
 
 ### Finding the Index of a Cell in a Row
 
-The code example given below demonstrates how to retrieve the index of a cell in a row.
+The code example given below {demonstrates|shows} how to retrieve the index of a cell in a row.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveCellIndex.cs" >}}
 
@@ -39,7 +39,7 @@ Any operations that are performed on columns in Microsoft Word are in actual fac
 
 In the Aspose.Words Document Object Model a [Table](https://apireference.aspose.com/net/words/aspose.words.tables/table) node is made up of [Row](https://apireference.aspose.com/net/words/aspose.words.tables/row) and then [Cell](https://apireference.aspose.com/net/words/aspose.words.tables/cell) nodes. There is also no native support for columns.
 
-You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example demonstrates a facade object for working with a column of a table.
+You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example {demonstrates|shows} a facade object for working with a column of a table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cs" >}}
 
@@ -47,7 +47,7 @@ The code example given below demonstrates how to insert a blank column into a t
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-InsertBlankColumn.cs" >}}
 
-Below example shows how to remove a column from a table in a document.
+Below example {shows|demonstrates} how to remove a column from a table in a document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-RemoveColumn.cs" >}}
 
@@ -111,7 +111,7 @@ Note that this autofit option clears the preferred widths from the cells just li
 
 ### Disabling AutoFitting on a Table and Use Fixed Column Widths
 
-The code example given below demonstrates how to disable autofitting and enables fixed widths for the specified table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+The code example given below {demonstrates|shows} how to disable autofitting and {enables|allows} fixed widths for the specified table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cs" >}}
 
@@ -177,11 +177,11 @@ To check if a cell is part of a sequence of merged cells, we simply check the Ce
 
 ### Merging Cells in a Table
 
-The same technique is used to set the merge behavior on the cells in a table. When building a table with merged cells with DocumentBuilder you need to set the appropriate merge type for each cell. Also, you must remember to clear the merge setting or otherwise all cells in the table will become merged. This can be done by setting the value of the appropriate merge property to CellMerge.None. The code example given below demonstrates how to create a table with two rows with cells in the first row horizontally merged.
+The same technique is used to set the merge behavior on the cells in a table. When building a table with merged cells with DocumentBuilder you need to set the appropriate merge type for each cell. Also, you must remember to clear the merge setting or otherwise all cells in the table will become merged. This can be done by setting the value of the appropriate merge property to CellMerge.None. The code example given below {demonstrates|shows} how to create a table with two rows with cells in the first row horizontally merged.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-HorizontalMerge.cs" >}}
 
-The code example given below demonstrates how to create a table with two columns with cells merged vertically in the first column.
+The code example given below {demonstrates|shows} how to create a table with two columns with cells merged vertically in the first column.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-VerticalMerge.cs" >}}
 
@@ -189,7 +189,7 @@ In other situations where a builder is not used, such as in an existing table, m
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-MergeCells.cs" >}}
 
-The code example given below demonstrates how to merge the range of cells between the two specified cells. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
+The code example given below {demonstrates|shows} how to merge the range of cells between the two specified cells. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-MergeCellRange.cs" >}}
 
@@ -211,6 +211,6 @@ Use the following code example if CellFormat.HorizontalMerge and CellFormat.Vert
 
 In the latest versions of MS Word, the cells are merged horizontally by its width. Whereas, the merge flags were used in the older technique,  like Cell.CellFormat.HorizontalMerge. The merge flags are not used when cells are horizontally merged by their width and it is also not possible to detect which cells are merged. Aspose.Words provides ConvertToHorizontallyMergedCells method to convert cells which are horizontally merged by its width to the cell horizontally merged by flags. It simply transforms the table and adds new cells when needed.
 
-The following code example shows the working of the above-mentioned method.
+The following code example {shows|demonstrates} the working of the above-mentioned method.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-ConvertToHorizontallyMergedCells.cs" >}}

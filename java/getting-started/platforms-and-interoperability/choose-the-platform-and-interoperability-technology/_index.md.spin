@@ -7,7 +7,7 @@ url: /java/choose-the-platform-and-interoperability-technology/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words is available as two distinct products Aspose.Words for .NET and Aspose.Words for Java. It can be said that Aspose.Words “natively” supports:
+Aspose.Words is a class library that {enables|allows} your applications to perform a great range of document processing tasks. Aspose.Words is available as two distinct products Aspose.Words for .NET and Aspose.Words for Java. It can be said that Aspose.Words “natively” supports:
 
 - The .NET Framework and all programming languages targeting the .NET platform, such as C# or VB.NET. 
 - The Java platform and the Java programming language. 

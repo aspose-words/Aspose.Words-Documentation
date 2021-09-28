@@ -181,7 +181,7 @@ This is now the same as the corresponding option in Word.
 
 Related issue:WORDSNET-17778 has now been resolved.
 
-The following public class is introduced that allows to specify how list levels are indented when exporting to a plain text format:
+The following public class is introduced that {allows|enables} to specify how list levels are indented when exporting to a plain text format:
 
 
 
@@ -288,7 +288,7 @@ public TextBoxAnchor VerticalAnchor
 
 
 
-The property allows to specify text anchor within the shape(Top, Middle, Bottom).
+The property {allows|enables} to specify text anchor within the shape(Top, Middle, Bottom).
 
 
 
@@ -328,7 +328,7 @@ public ParagraphAlignment TickLabelAlignment
 
 
 
-When axis tick labels are multi-line, MS Word aligns them to the center by default. The property allows for changing this behaviour.
+When axis tick labels are multi-line, MS Word aligns them to the center by default. The property {allows|enables} for changing this behaviour.
 
 #### UseCase:
 

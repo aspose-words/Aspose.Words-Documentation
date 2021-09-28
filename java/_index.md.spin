@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words for Java
-description: "Aspose.Words for Java is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
+description: "Aspose.Words for Java is a class library that {enables|allows} your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
 type: docs
 weight: 10
 url: /java/
@@ -11,7 +11,7 @@ is_root: true
 
 **Welcome to Aspose.Words for Java!**
 
-Aspose.Words for Java is a class library that enables your applications to perform a great range of document processing tasks.
+Aspose.Words for Java is a class library that {enables|allows} your applications to perform a great range of document processing tasks.
 
 Aspose.Words supports most of the popular document formats such as DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB, and others.
 

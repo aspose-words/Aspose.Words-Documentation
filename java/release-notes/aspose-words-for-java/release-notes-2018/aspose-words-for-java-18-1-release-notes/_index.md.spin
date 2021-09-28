@@ -137,7 +137,7 @@ public boolean Hidden
 }
 {{< /highlight >}}
 
-The property allows hiding/showing and getting visibility state of an axis of a chart.
+The property {allows|enables} hiding/showing and getting visibility state of an axis of a chart.
 
 #### UC to create a chart and hide its Y axis
 

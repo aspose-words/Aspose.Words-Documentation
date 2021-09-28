@@ -278,7 +278,7 @@ Contracts:
 
 To access JSON data while building a report, you can pass a `JsonDataSource` instance to the engine as a data source.
 
-Using of `JsonDataSource` enables you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:
+Using of `JsonDataSource` {enables|allows} you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:
 
 - Int64?
 - Double?
@@ -616,7 +616,7 @@ In some scenarios, you may need to disable recognition of date-time values at al
 
 To access CSV data while building a report, you can pass a `CsvDataSource` instance to the engine as a data source.
 
-Using of `CsvDataSource` enables you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:
+Using of `CsvDataSource` {enables|allows} you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:
 
 - Int64?
 - Double?
@@ -852,7 +852,7 @@ However, if `ReportBuildOptions.AllowMissingMembers` is applied, the engine trea
 
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
-However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.InlineErrorMessages` option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
+However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.InlineErrorMessages` option that {enables|allows} inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
 
 **Note –** A template syntax error message is written using a bold font to make it more apparent.
 
@@ -870,7 +870,7 @@ By default, such a template causes the engine to throw an exception while buildi
 
 **Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
-When `ReportBuildOptions.InlineErrorMessages` is applied, a Boolean value returned by a `ReportingEngine.BuildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
+When `ReportBuildOptions.InlineErrorMessages` is applied, a Boolean value returned by a `ReportingEngine.BuildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This {enables|allows} you to process reports which building succeeded or failed differently as shown in the following code snippet.
 
 {{< highlight csharp >}}
 ReportingEngine engine = new ReportingEngine();

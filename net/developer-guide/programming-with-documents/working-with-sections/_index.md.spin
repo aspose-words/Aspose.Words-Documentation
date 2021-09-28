@@ -49,23 +49,23 @@ It is possible to change culture for current thread that will cause changing def
 
 {{% /alert %}} 
 
-The code sample below shows how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+The code sample below {shows|demonstrates} how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-SectionsAccessByIndex-SectionsAccessByIndex.cs" >}}
 
 ### Adding a Section
 
-The Document object provides the section collection that can be accessed by using Document.Sections. This returns a SectionCollection object containing the document’s sections. You can then use the SectionCollection.Add method on this object to add a section to the end of the document. The code sample below shows how to add a section to the end of the document.
+The Document object provides the section collection that can be accessed by using Document.Sections. This returns a SectionCollection object containing the document’s sections. You can then use the SectionCollection.Add method on this object to add a section to the end of the document. The code sample below {shows|demonstrates} how to add a section to the end of the document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-AddDeleteSection-AddSection.cs" >}}
 
 ### Deleting a Section
 
-In the same way as discussed above, the document’s sections are retrieved by using Document.Sections. You can then use SectionCollection.Remove to remove a specified section or SectionCollection.RemoveAt to remove a section at the specified index. The code sample below shows how to remove a section at the specified index.
+In the same way as discussed above, the document’s sections are retrieved by using Document.Sections. You can then use SectionCollection.Remove to remove a specified section or SectionCollection.RemoveAt to remove a section at the specified index. The code sample below {shows|demonstrates} how to remove a section at the specified index.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-AddDeleteSection-DeleteSection.cs" >}}
 
-The code sample below shows how to remove all sections from a document.
+The code sample below {shows|demonstrates} how to remove all sections from a document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-AddDeleteSection-DeleteAllSections.cs" >}}
 
@@ -73,13 +73,13 @@ In addition, you can use SectionCollection.Clear to remove all the sections from
 
 ### Adding Section Content
 
-If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below shows how to append content of an existing section. The number of sections in the document remains the same.
+If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below {shows|demonstrates} how to append content of an existing section. The number of sections in the document remains the same.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-AppendSectionContent-AppendSectionContent.cs" >}}
 
 ### Deleting Section Content
 
-To delete the main text of a section, use Section.ClearContent. Below example shows how to delete main content of a section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+To delete the main text of a section, use Section.ClearContent. Below example {shows|demonstrates} how to delete main content of a section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-DeleteSectionContent-DeleteSectionContent.cs" >}}
 
@@ -87,13 +87,13 @@ To delete the headers and footers in a section, call Section.ClearHeadersFooters
 
 ### Cloning a Section
 
-Use the Section.Clone method to create a duplicate of a particular section. Below example shows how to create a duplicate of a particular section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+Use the Section.Clone method to create a duplicate of a particular section. Below example {shows|demonstrates} how to create a duplicate of a particular section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-CloneSection-CloneSection.cs" >}}
 
 ### Copying Sections between Documents
 
-Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](http://www.aspose.com/api/net/words/aspose.words/documentbase/methods/importnode) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. Below example shows how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](http://www.aspose.com/api/net/words/aspose.words/documentbase/methods/importnode) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. Below example {shows|demonstrates} how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-CopySection-CopySection.cs" >}}
 
@@ -105,7 +105,7 @@ Sometimes it is necessary to avoid section breaks in the destination document. I
 
 ## Inserting a Break
 
-If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example shows how to insert page breaks into a document.
+If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example {shows|demonstrates} how to insert page breaks into a document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.cs" >}}
 
@@ -121,7 +121,7 @@ An explicit page break can be caused by {many|multiple|several|a few|numerous} d
 - A Section which is set to begin on a new page (by the section’s PageSetup.SectionStart to SectionStart.NewPage).
 - A Paragraph with ParagraphFormat.PageBreakBefore set. This forces a page break before the paragraph.
 
-This sample shows how to remove page and section breaks from the document using Aspose.Words.
+This sample {shows|demonstrates} how to remove page and section breaks from the document using Aspose.Words.
 
 ### Solution
 
@@ -168,6 +168,6 @@ Starting from the last section the content of each previous section is copied ov
 
 ## Page Setup and Section Formatting
 
-Page setup and section properties are encapsulated in the PageSetup object that is returned by the DocumentBuilder.PageSetup property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties. Below example shows how to set such properties as page size and orientation for the current section.
+Page setup and section properties are encapsulated in the PageSetup object that is returned by the DocumentBuilder.PageSetup property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties. Below example {shows|demonstrates} how to set such properties as page size and orientation for the current section.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetPageSetupAndSectionFormatting.cs" >}}

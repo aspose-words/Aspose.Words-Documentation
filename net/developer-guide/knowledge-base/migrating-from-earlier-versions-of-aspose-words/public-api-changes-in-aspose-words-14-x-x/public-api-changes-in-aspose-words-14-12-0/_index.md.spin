@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 14.12.0
 type: docs
 weight: 120
@@ -96,7 +96,7 @@ To remove the margin declaration, set PageHorizontalAlignment to HtmlFixedPageHo
 /// The default value is true.</summary>
 /// <remarks>
 /// <para>This property is used only when loading plain text documents.</para>
-/// <para> If set to true,  lists recognition algorithm allows list numbers to end with either dot or whitespace character.</para>
+/// <para> If set to true,  lists recognition algorithm {allows|enables} list numbers to end with either dot or whitespace character.</para>
 /// <para>If this option is set to false then the list item is only recognized as such if the leading number is ending with dot "." symbol.</para>
 /// </remarks>
 public bool AllowTrailingWhitespaceForListItems
@@ -111,7 +111,7 @@ public bool AllowTrailingWhitespaceForListItems
 **KeepDifferentStyles**
 
 {{< highlight csharp >}}
-/// <p>Using <b>KeepDifferentStyles</b> option allows to reuse destination styles
+/// <p>Using <b>KeepDifferentStyles</b> option {allows|enables} to reuse destination styles
 /// if the formatting they provide is identical to the styles in the source document.
 /// If the style in destination document is different from the source then it is imported.</p>
 KeepDifferentStyles

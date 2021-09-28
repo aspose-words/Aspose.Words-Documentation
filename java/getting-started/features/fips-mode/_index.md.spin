@@ -20,7 +20,7 @@ Aspose.Words for .NET uses the general Bouncy Castle version without support for
 
 ## FIPS Mode Activation
 
-Starting from the version 18.10 Aspose.Words allows to work in two modes: General and FIPS.
+Starting from the version 18.10 Aspose.Words {allows|enables} to work in two modes: General and FIPS.
 
 By default Aspose.Words works in the General mode, so there are no restrictions on the use of algorithms and keys in this case.
 

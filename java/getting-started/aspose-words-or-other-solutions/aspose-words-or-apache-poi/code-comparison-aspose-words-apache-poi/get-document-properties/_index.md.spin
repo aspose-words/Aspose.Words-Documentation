@@ -1,4 +1,4 @@
----
+﻿---
 title: Get Document Properties
 type: docs
 weight: 40

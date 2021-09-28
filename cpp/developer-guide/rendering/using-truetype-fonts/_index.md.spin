@@ -1,4 +1,4 @@
----
+﻿---
 title: Using TrueType Fonts
 description: "Aspose.Words for C++ can find the right font or its suitable replacement for correct document rendering. This ensures that the difference between the displayed document and the original is minimal when there is not enough information about a font."
 type: docs

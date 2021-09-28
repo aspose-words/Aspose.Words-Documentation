@@ -61,7 +61,7 @@ license.setLicense(inputStream);
 
 ### Apply Metered License
 
-Aspose.Words allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing.
+Aspose.Words {allows|enables} developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing.
 
 **Java**
 
@@ -98,7 +98,7 @@ If you use {several|multiple|a few|many|numerous} Aspose products in an applicat
 - Set the license for each Aspose product separately.
   Even if you have a single license file for all components, for example 'Aspose.Total.Android.Java.lic', you still need to call the License.SetLicense method separately for each Aspose product.
 - Use fully qualified License class name.
-  Each Aspose product has a License class in its namespace. For example, Aspose.Words has com.aspose.words.License and Aspose.Cells has com.aspose.cells.License class. Using the fullyqualified class name allows you to avoid any confusion about which license is applied to which product.
+  Each Aspose product has a License class in its namespace. For example, Aspose.Words has com.aspose.words.License and Aspose.Cells has com.aspose.cells.License class. Using the fullyqualified class name {allows|enables} you to avoid any confusion about which license is applied to which product.
 
 ## Exception - Cannot find license filename
 

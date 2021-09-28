@@ -39,7 +39,7 @@ These types of errors indicate that you are still using members from the old API
 
 #### Quick Reference Guide
 
-The diagrams below outline the old API members and their corresponding new API members, and are grouped in relation to their function. This allows for quick reference when code needs to be changed. The gray box below the new members states what changes have happened and why they occurred. Example implementations of the new code members can be found following the diagrams.
+The diagrams below outline the old API members and their corresponding new API members, and are grouped in relation to their function. This {allows|enables} for quick reference when code needs to be changed. The gray box below the new members states what changes have happened and why they occurred. Example implementations of the new code members can be found following the diagrams.
 
 **Document Constructors, Load and Save Members** 
 

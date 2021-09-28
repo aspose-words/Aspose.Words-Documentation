@@ -57,7 +57,7 @@ field.Update()
 
 ### Added FieldCollection to Range
 
-We have implemented a **FieldCollection** class that is very similar to **BookmarkCollection**. The **Range.Fields** property now allows to access all fields based on field starts within a node's range.
+We have implemented a **FieldCollection** class that is very similar to **BookmarkCollection**. The **Range.Fields** property now {allows|enables} to access all fields based on field starts within a node's range.
 
 #### Example
 

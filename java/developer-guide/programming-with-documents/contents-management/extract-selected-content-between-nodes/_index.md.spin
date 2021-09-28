@@ -77,9 +77,9 @@ These helper methods below are internally called by the main extraction method. 
 
 ## Extract Content Between Paragraphs
 
-This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7th and 11th paragraphs.
+This {demonstrates|shows} how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7th and 11th paragraphs.
 
-The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.getChild](https://apireference.aspose.com/words/java/com.aspose.words/compositenode#getChild(int,int,boolean)) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document. The code example given below shows how to extract the content between specific paragraphs using the ExtractContent method above. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphs/TestFile.doc).
+The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.getChild](https://apireference.aspose.com/words/java/com.aspose.words/compositenode#getChild(int,int,boolean)) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document. The code example given below {shows|demonstrates} how to extract the content between specific paragraphs using the ExtractContent method above. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphs/TestFile.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphs-1.java" >}}
 
@@ -91,7 +91,7 @@ The output document contains the two paragraphs that were extracted.
 
 ## Extract Content Between Different Types of Nodes
 
-We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.getFirstParagraph](https://apireference.aspose.com/words/java/com.aspose.words/body#FirstParagraph) and [CompositeNode.getChild](https://apireference.aspose.com/words/java/com.aspose.words/compositenode#getChild(int,int,boolean)) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original. The code example given below shows how to extract the content between a paragraph and table using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBlockLevelNodes/TestFile.doc).
+We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.getFirstParagraph](https://apireference.aspose.com/words/java/com.aspose.words/body#FirstParagraph) and [CompositeNode.getChild](https://apireference.aspose.com/words/java/com.aspose.words/compositenode#getChild(int,int,boolean)) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original. The code example given below {shows|demonstrates} how to extract the content between a paragraph and table using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBlockLevelNodes/TestFile.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenBlockLevelNodes-1.java" >}}
 
@@ -105,9 +105,9 @@ The content between the paragraph and table has been duplicated below is the res
 
 You may need to extract the content between paragraphs of the same or different style, such as between paragraphs marked with heading styles.
 
-The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
+The code below {shows|demonstrates} how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
 
-In a proper implementation, this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document. The code example given below shows how to extract content between paragraphs with specific styles using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphStyles/TestFile.doc).
+In a proper implementation, this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document. The code example given below {shows|demonstrates} how to extract content between paragraphs with specific styles using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphStyles/TestFile.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphStyles-1.java" >}}
 
@@ -120,7 +120,7 @@ Below is the result of the previous operation.
 
 ## Extract Content Between Specific Runs
 
-You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below shows how to extract specific text in-between the same **Paragraph** node. The code example given below shows how to extract content between specific runs of the same paragraph using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenRuns/TestFile.doc).
+You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below {shows|demonstrates} how to extract specific text in-between the same **Paragraph** node. The code example given below {shows|demonstrates} how to extract content between specific runs of the same paragraph using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenRuns/TestFile.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenRuns-1.java" >}}
 
@@ -133,7 +133,7 @@ The extracted text is displayed on the console.
 
 To use a field as a marker, the FieldStart node should be passed. The last parameter to the ExtractContent method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.moveToMergeField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder) class. This will return the **FieldStart** node from the name of the merge field passed to it. We will then
 
-In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF. The code example given below shows how to extract content between a specific field and paragraph in the document using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentUsingField/TestFile.doc).
+In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF. The code example given below {shows|demonstrates} how to extract content between a specific field and paragraph in the document using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentUsingField/TestFile.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentUsingField-1.java" >}}
 
@@ -152,7 +152,7 @@ In our sample document, we have one bookmark, named “Bookmark1”. The content
 | :- |
 
 
-We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark. The code example given below shows how to extract the content referenced a bookmark using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBookmarks/TestFile.doc).
+We will extract this content into a new document using the code below. The **IsInclusive** parameter option {shows|demonstrates} how to retain or discard the bookmark. The code example given below {shows|demonstrates} how to extract the content referenced a bookmark using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBookmarks/TestFile.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenBookmarks-1.java" >}}
 
@@ -214,7 +214,7 @@ These are the steps you should follow to programmatically determine and extract 
 
 [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
-This example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format. The following example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format.
+This example {shows|demonstrates} how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format. The following example {shows|demonstrates} how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentUsingDocumentVisitor-.java" >}}
 
@@ -231,7 +231,7 @@ The ways to retrieve text from the document are:
 
 A Word document can contains control characters that designate special elements such as field, end of the cell, end of section etc. The full list of possible Word control characters is defined in the ControlChar class. The Node.GetText method returns text with all of the control character characters present in the node.
 
-Calling ToString returns the plain text representation of the document only without control characters. For further information on exporting as plain text see **Using SaveFormat.Text**. The following code example shows the difference between calling the GetText and ToString methods on a node.
+Calling ToString returns the plain text representation of the document only without control characters. For further information on exporting as plain text see **Using SaveFormat.Text**. The following code example {shows|demonstrates} the difference between calling the GetText and ToString methods on a node.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractTextOnly-1.java" >}}
 
@@ -243,7 +243,7 @@ This example saves the document as follows:
 - Replaces end of paragraph [ControlChar.Cr](https://apireference.aspose.com/words/java/com.aspose.words/ControlChar) characters with [ControlChar.CrLf](https://apireference.aspose.com/words/java/com.aspose.words/ControlChar) combinations.
 - Uses UTF8 encoding.
 
-The following code example shows how to save a document in TXT format.
+The following code example {shows|demonstrates} how to save a document in TXT format.
 
 {{< highlight csharp >}}
 Document doc = new Document(getMyDir() + "Document.doc");

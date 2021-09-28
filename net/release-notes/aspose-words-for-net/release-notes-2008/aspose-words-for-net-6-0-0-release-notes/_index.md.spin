@@ -28,7 +28,7 @@ The main theme of Aspose.Words for .NET 6.0 is the Rendering Engine that finally
 
 Word® documents do not contain information about where each page starts and ends and where on the page each element is located. Such documents are called “flow-layout” documents. The task of the Rendering Engine is to take a “flow-layout” document and allocate content into pages to create a “fixed-page” document.
 
-The Aspose.Words Rendering Engine has been designed to format a document into pages with high fidelity to how Microsoft Word would have done it. When pagination is complete, Aspose.Words can render the output into a variety of the “fixed-page” formats. At the moment this includes PDF, printing and imaging. This architecture allows you to convert a document to PDF, print, image or render to a browser and the page will look exactly the same everywhere.
+The Aspose.Words Rendering Engine has been designed to format a document into pages with high fidelity to how Microsoft Word would have done it. When pagination is complete, Aspose.Words can render the output into a variety of the “fixed-page” formats. At the moment this includes PDF, printing and imaging. This architecture {allows|enables} you to convert a document to PDF, print, image or render to a browser and the page will look exactly the same everywhere.
 
 Our work never ends. Although this is version 6.0 for Aspose.Words, it is only “version 1.0” for the Rendering Engine. The list of document features that are rendered well is great, but we are of course to ship more versions that will render documents even better.
 

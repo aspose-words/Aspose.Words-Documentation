@@ -1,4 +1,4 @@
----
+﻿---
 title: Linking Report Template with Report Definition
 type: docs
 weight: 60

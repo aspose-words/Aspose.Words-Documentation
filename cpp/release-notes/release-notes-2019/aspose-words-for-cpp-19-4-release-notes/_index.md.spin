@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for CPP 19.4 Release Notes
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ This page contains release notes for [Aspose.Words for C++ 19.4](https://www.nug
 
 This is the third release of Aspose.Words for C++, it took some time to prepare this release since it includes some major features, we are happy to present to you, like Layout Engine, Updating all fields, support HTML and PDF formats. Here is the list of features included since the previous release of Aspose.Words for C++:
 
-- Layout Engine (the module that allows building page by page model of a document).
+- Layout Engine (the module that {allows|enables} building page by page model of a document).
 - Rendering document to PDF.
 - Rendering document to Image (This feature is included, however, we are still working on its improvement, so note it is in beta state).
 - Loading and saving HTML documents.

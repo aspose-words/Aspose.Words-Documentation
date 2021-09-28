@@ -534,7 +534,7 @@ public enum ConditionalStyleType
 
 
 
-The StyleCollection.Add method allows the creation of table styles now.
+The StyleCollection.Add method {allows|enables} the creation of table styles now.
 
 **UseCase to create a table style:**
 

@@ -19,7 +19,7 @@ There are 138 improvements and fixes in this regular monthly release. The most n
 
 - Update of the INDEX field is supported by the field update engine.
 - The HTML parser inside Aspose.Words now conforms to the HTML 5 Specification.
-- New public Paragraph.GetEffectiveTabs() method now allows to get fully resolved tabstops.
+- New public Paragraph.GetEffectiveTabs() method now {allows|enables} to get fully resolved tabstops.
 - Multiple pages setup options are added to the public API and roundtrip for DOC/RTF/DOCX/WML is supported.
 - Implemented booklet rendering and printing according to {multiple|several|a few|many|numerous} pages setup.
 - Supported MS Word 2010 text effects (e.g. shadows, outlines, 3d-looks etc.) roundtrip for DOCX.

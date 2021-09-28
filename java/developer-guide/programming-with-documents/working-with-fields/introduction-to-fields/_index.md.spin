@@ -49,11 +49,11 @@ To insert a field in Microsoft Word:
 
 ![insert-fields-aspose-words-java](http://i.imgur.com/nTmFqBr.png)
 
-1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field. 
+1. You are presented with a screen which {allows|enables} you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field. 
 
 ![field-settings-aspose-words-java-1](http://i.imgur.com/1eHKt6s.png)
 
-1. Additionally you can press the **Field Codes** button which allows you to directly write out the field code. 
+1. Additionally you can press the **Field Codes** button which {allows|enables} you to directly write out the field code. 
 
 ![field-settings-aspose-words-java-2](http://i.imgur.com/v5SqztX.png)
 
@@ -228,4 +228,4 @@ A field in a document can have formatting switches that specify how the resultin
 
 ##### Date and Number Formatting in Fields
 
-When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](https://apireference.aspose.com/words/java/com.aspose.words/FieldOptions) class which allows further control over which culture is used during field update.By default the FieldOptions.FieldUpdateCultureSource property is set to FieldUpdateCultureSource.CurrentThread which formats fields using the current thread culture.This property can be set to FieldUpdateCultureSource.FieldCode so the language set from the field code of the field is used for formatting instead.
+When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](https://apireference.aspose.com/words/java/com.aspose.words/FieldOptions) class which {allows|enables} further control over which culture is used during field update.By default the FieldOptions.FieldUpdateCultureSource property is set to FieldUpdateCultureSource.CurrentThread which formats fields using the current thread culture.This property can be set to FieldUpdateCultureSource.FieldCode so the language set from the field code of the field is used for formatting instead.

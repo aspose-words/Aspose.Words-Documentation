@@ -23,7 +23,7 @@ Licenses issued prior to 22nd of January 2005 are no longer supported. If you up
 
 #### IDocumentVisitor Redesigned
 
-IDocumentVisitor was a visitor interface that allowed forward-only enumeration over document content. Since the new document object model available in Aspose.Words 3.0 introduces {many|multiple|several|a few|numerous} new classes and allows detailed programmatic access to document elements, the visitor interface was completely redesigned.
+IDocumentVisitor was a visitor interface that allowed forward-only enumeration over document content. Since the new document object model available in Aspose.Words 3.0 introduces {many|multiple|several|a few|numerous} new classes and {allows|enables} detailed programmatic access to document elements, the visitor interface was completely redesigned.
 
 The **IDocumentVisitor** interface was replaced by the [DocumentVisitor](https://apireference.aspose.com/words/net/aspose.words/documentvisitor) class. If you had an implementation of **IDocumentVisitor** , you need to change your class to derive from **DocumentVisitor** and update the names and signatures of the methods. 
 
@@ -41,7 +41,7 @@ Starting with Aspose.Words 3.0, before any node from another document can be ins
 
 ##### Example
 
-*This fragment shows how to insert a section from another document in Aspose.Words 3.0 or higher.* 
+*This fragment {shows|demonstrates} how to insert a section from another document in Aspose.Words 3.0 or higher.* 
 
 **C#**
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Build a Table from a DataTable
 type: docs
 weight: 130
@@ -7,7 +7,7 @@ url: /java/how-to-build-a-table-from-a-datatable/
 
 Often your application will pull data from a database and store it in the form of a **DataTable**. You may wish to easily insert this data into your document as a new table and quickly apply formatting to the whole table.
 
-Using Aspose.Words this task is very simple to achieve. The code presented in this article demonstrates how to do this.
+Using Aspose.Words this task is very simple to achieve. The code presented in this article {demonstrates|shows} how to do this.
 
 {{% alert color="primary" %}} 
 
@@ -30,7 +30,7 @@ To build a table in a document from the data found in a DataTable:
 
 ![build-a-table-from-a-datatable-aspose-words-java-1](how-to-build-a-table-from-a-datatable_1.png)
 
-The following code demonstrates how to achieve this in Aspose.Words. The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder’s current position and formatting. 
+The following code {demonstrates|shows} how to achieve this in Aspose.Words. The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder’s current position and formatting. 
 
 The following code example provides a method to import data from the DataTable and insert it into a new table using the DocumentBuilder.
 
@@ -38,7 +38,7 @@ The following code example provides a method to import data from the DataTable a
 
 The method can then be easily called using your **DocumentBuilder** and data.
 
-The following code example shows how to import the data from a DataTable and insert it into a new table in the document.
+The following code example {shows|demonstrates} how to import the data from a DataTable and insert it into a new table in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-.java" >}}
 

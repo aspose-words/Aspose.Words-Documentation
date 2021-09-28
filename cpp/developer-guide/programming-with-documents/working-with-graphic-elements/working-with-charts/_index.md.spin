@@ -9,7 +9,7 @@ url: /cpp/working-with-charts/
 
 Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the ChartFormat type in the ChartSeries, ChartDataPoint, and ChartMarker classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
 
-The following code example shows how to set series color:
+The following code example {shows|demonstrates} how to set series color:
 
 {{< highlight cpp >}}
 auto doc = System::MakeObject<Document>();
@@ -39,7 +39,7 @@ series3->get_Format()->get_Fill()->set_ForeColor(Color::get_Blue());
 doc->Save(u"ColumnColor.docx");
 {{< /highlight >}}
 
-The following code example shows how to set line color and weight:
+The following code example {shows|demonstrates} how to set line color and weight:
 
 {{< highlight cpp >}}
 auto doc = System::MakeObject<Document>();

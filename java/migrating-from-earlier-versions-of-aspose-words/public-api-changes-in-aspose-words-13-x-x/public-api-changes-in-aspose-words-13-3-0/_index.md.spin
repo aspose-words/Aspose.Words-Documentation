@@ -13,7 +13,7 @@ These page list public API changes that were introduced in Aspose.Words 13.3.0. 
 
 ## New HtmlFixed Save Format Introduced
 
-Save any document to fixed HTML based format. All elements in this output are absolutely positioned that allows displaying document in browser exactly as it looks in Microsoft Word.
+Save any document to fixed HTML based format. All elements in this output are absolutely positioned that {allows|enables} displaying document in browser exactly as it looks in Microsoft Word.
 
 - Text is rendered as absolutely positioned spans. Fonts are exported as subsets in Woff (Web Open Font Format) and can be either embedded or stored as external resources.
 - Vector graphics are rendered as embedded SVG images.
@@ -46,7 +46,7 @@ This behavior applies to the following MailMerge methods:
 
 ## Mail Merge Regions with an Empty Name are now Merged
 
-In previous versions a merge field with an empty string as a table name would be merged i.e **TableStart:**. This behavior was changed in recent versions as only region names with at least one character would be merged. This fix allows regions with empty table names to be merged once again.
+In previous versions a merge field with an empty string as a table name would be merged i.e **TableStart:**. This behavior was changed in recent versions as only region names with at least one character would be merged. This fix {allows|enables} regions with empty table names to be merged once again.
 
 ## Non-standard Quotation Marks are Recognized in Fields
 

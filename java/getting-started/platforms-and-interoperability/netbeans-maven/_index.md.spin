@@ -1,4 +1,4 @@
----
+﻿---
 title: NetBeans - Maven
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ The NetBeans Team actively support the product and seek feature suggestions from
 
 ## Aspose.Words for Java
 
-[Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
+[Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that {enables|allows} you to perform a great range of document processing tasks directly within your Java
 applications.
 
 [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can

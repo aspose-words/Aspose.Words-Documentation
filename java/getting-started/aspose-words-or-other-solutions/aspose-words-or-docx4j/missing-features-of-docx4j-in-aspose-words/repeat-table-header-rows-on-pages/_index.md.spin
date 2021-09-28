@@ -1,6 +1,6 @@
 ﻿---
 title: Repeat Table Header Rows on Pages
-description: "Aspose.Words for Java allows to repeat a header row of a table on every page. Docx4j does not provide an opportunity to work with a header row."
+description: "Aspose.Words for Java {allows|enables} to repeat a header row of a table on every page. Docx4j does not provide an opportunity to work with a header row."
 type: docs
 weight: 10
 url: /java/repeat-table-header-rows-on-pages/
@@ -14,7 +14,7 @@ See more details in the [“Working with Columns and Rows”](https://docs.aspos
 
 A table can specify certain starting table rows to be used as header rows. This means that if the table spans over {many|multiple|several|a few|numerous} pages, these rows will be repeated at the top of the table for each page. In Aspose.Words, you can apply this setting by using the [HeadingFormat](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeadingFormat) property.
 
-The following code example shows how to build a table with rows that repeat on every page:
+The following code example {shows|demonstrates} how to build a table with rows that repeat on every page:
 
 {{< highlight csharp >}}
 Document doc = new Document();

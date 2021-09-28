@@ -58,7 +58,7 @@ The cells in the above table can be described as such:
 
 Using the [Table.setPreferredWidth(com.aspose.words.PreferredWidth)](https://apireference.aspose.com/words/java/com.aspose.words/table#PreferredWidth) property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). 
 
-The following code example shows how to set a table to auto fit to 50% of the page width.
+The following code example {shows|demonstrates} how to set a table to auto fit to 50% of the page width.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyAPreferredWidthOnATable-SpecifyAPreferredWidthOnATable.java" >}}
 
@@ -70,21 +70,21 @@ Before you can use preferred widths on a table you must make sure that the table
 
 #### Specifying Preferred Width on a Cell
 
-Using the [CellFormat.setPreferredWidth(com.aspose.words.PreferredWidth)](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#PreferredWidth) property on a given cell will adjust its preferred width. Below example shows how to set the different preferred width settings.
+Using the [CellFormat.setPreferredWidth(com.aspose.words.PreferredWidth)](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#PreferredWidth) property on a given cell will adjust its preferred width. Below example {shows|demonstrates} how to set the different preferred width settings.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyPreferredWidthOnACell-SpecifyPreferredWidthOnACell.java" >}}
 
 #### Finding Preferred Width Type and Value of a Table or Cell
 
-You can use the [PreferredWidth.getType()](https://apireference.aspose.com/words/java/com.aspose.words/preferredwidth#Type) and [PreferredWidth.getValue()](https://apireference.aspose.com/words/java/com.aspose.words/preferredwidth#Value) properties to find the preferred width details of the desired table or cell. Below example shows how to retrieves the preferred width type of a table cell.
+You can use the [PreferredWidth.getType()](https://apireference.aspose.com/words/java/com.aspose.words/preferredwidth#Type) and [PreferredWidth.getValue()](https://apireference.aspose.com/words/java/com.aspose.words/preferredwidth#Value) properties to find the preferred width details of the desired table or cell. Below example {shows|demonstrates} how to retrieves the preferred width type of a table cell.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyPreferredWidthOnACell-FindPreferredWidthTypeAndValueOfATableOrCell.java" >}}
 
 #### Allowing AutoFit
 
-The [Table.setAllowAutoFit(boolean)](https://apireference.aspose.com/words/java/com.aspose.words/table#AllowAutoFit) property enables cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. 
+The [Table.setAllowAutoFit(boolean)](https://apireference.aspose.com/words/java/com.aspose.words/table#AllowAutoFit) property {enables|allows} cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. 
 
-The following code example shows how to set a table to shrink or grow each cell to accommodate its contents.
+The following code example {shows|demonstrates} how to set a table to shrink or grow each cell to accommodate its contents.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyPreferredWidthOnACell-AllowAutoFit.java" >}}
 

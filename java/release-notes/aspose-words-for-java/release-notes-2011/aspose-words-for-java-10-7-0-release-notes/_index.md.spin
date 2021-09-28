@@ -272,7 +272,7 @@ WORDSNET-5237
 Export {multiple|several|a few|many|numerous} authors as a separate tags in ePub
 
 WORDSNET-5254
-Word Pad on Windows XP shows some characters improperly.
+Word Pad on Windows XP {shows|demonstrates} some characters improperly.
 
 WORDSNET-5271
 Footnote mark is improperly rendered.

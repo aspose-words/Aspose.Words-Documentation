@@ -1,6 +1,6 @@
 ﻿---
 title: Add a Watermark
-description: "Aspose.Words for Java allows to add a watermark into a document. Apache POI does not provide an opportunity to add a watermark."
+description: "Aspose.Words for Java {allows|enables} to add a watermark into a document. Apache POI does not provide an opportunity to add a watermark."
 type: docs
 weight: 20
 url: /java/add-watermark/
@@ -26,7 +26,7 @@ In Microsoft Word, you can quickly insert a watermark using the Insert Watermark
 
 While in Aspose.Words there is no single “Insert Watermark” command like in Microsoft Word, it is very easy to insert any shape or image into a header or footer and thus create a watermark of any imaginable type.
 
-The following code example shows how to work with watermarks using Aspose.Words:
+The following code example {shows|demonstrates} how to work with watermarks using Aspose.Words:
 
 {{< highlight java >}}
 private static void insertWatermarkText(Document doc, String watermarkText) throws Exception

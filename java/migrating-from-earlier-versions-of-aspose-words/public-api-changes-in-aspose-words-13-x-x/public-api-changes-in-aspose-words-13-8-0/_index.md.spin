@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 13.8.0
 type: docs
 weight: 80
@@ -23,9 +23,9 @@ In addition **MailMergeCleanupOptions.RemoveEmptyParagraphs** and **MailMergeCle
 
 ## MetafileRenderingMode added to ImageSaveOptions
 
-This member allows the user to select between Aspose.Words and GDI+ metafile rendering engines. 
+This member {allows|enables} the user to select between Aspose.Words and GDI+ metafile rendering engines. 
 
-When **MetafileRenderingMode.Vector** is specified, Aspose.Words renders metafile to vector graphics using own metafile rendering engine first and then renders vector graphics to the image. When **MetafileRenderingMode.Bitmap** is specified, Aspose.Words renders metafile directly to the image using GDI+ metafile rendering engine. **MetafileRenderingMode.Bitmap** is the default value and should be used in most cases. **MetafileRenderingMode.Vector** allows to achieve more consistent text rendering on low resolutions.
+When **MetafileRenderingMode.Vector** is specified, Aspose.Words renders metafile to vector graphics using own metafile rendering engine first and then renders vector graphics to the image. When **MetafileRenderingMode.Bitmap** is specified, Aspose.Words renders metafile directly to the image using GDI+ metafile rendering engine. **MetafileRenderingMode.Bitmap** is the default value and should be used in most cases. **MetafileRenderingMode.Vector** {allows|enables} to achieve more consistent text rendering on low resolutions.
 
 ## PostScript Save Format Introduced
 

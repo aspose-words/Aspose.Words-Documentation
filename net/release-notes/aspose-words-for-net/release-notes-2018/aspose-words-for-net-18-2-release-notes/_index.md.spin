@@ -161,7 +161,7 @@ The following public method has been added into the **DocumentBuilder** class:
 /// Inserts style separator into the document.
 /// </summary>
 /// <remarks>
-/// This method allows to apply different paragraph styles to two different parts of a text line.
+/// This method {allows|enables} to apply different paragraph styles to two different parts of a text line.
 /// </remarks>
 public void InsertStyleSeparator()
 {{< /highlight >}}

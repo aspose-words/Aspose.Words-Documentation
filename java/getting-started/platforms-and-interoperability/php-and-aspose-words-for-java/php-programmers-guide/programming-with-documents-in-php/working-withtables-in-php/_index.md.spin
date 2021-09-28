@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Tables in PHP
 type: docs
 weight: 80
@@ -87,7 +87,7 @@ public static function autoFitTableToFixedColumnWidths($dataDir) {
 //ExFor:Table.AutoFit
 //ExFor:AutoFitBehavior
 //ExId:DisableAutoFitAndUseFixedWidths
-//ExSummary:Disables autofitting and enables fixed widths for the specified table.
+//ExSummary:Disables autofitting and {enables|allows} fixed widths for the specified table.
 
 // Open the document
 $doc = new Java("com.aspose.words.Document", $dataDir . "TestFile.doc");
