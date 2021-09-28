@@ -51,9 +51,9 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-9864|Heading text gets bold after being written into a template document|Bug|
 |WORDSNET-9879|Unexpected Y position is returned by LayoutEnumerator|Bug|
 |WORDSNET-9885|STYLEREF fields in Header/Footer display error messages when saving to PDF|Bug|
-|WORDSNET-9892|Arabic character < emoticons/cross > is missing from word ??????? in PDF|Bug|
+|WORDSNET-9892|Arabic character {{< emoticons/cross >}} is missing from word ??????? in PDF|Bug|
 |WORDSNET-9895|Objects filled with pattern disapear after transparent Glyphs in PDF.|Bug|
-|WORDSNET-9896|Document is rendered in several pages when use special font character|Bug|
+|WORDSNET-9896|Document is rendered in {multiple|several|a few|many|numerous} pages when use special font character|Bug|
 |WORDSNET-9898|An HTML part of an MHTML document is imported using the Windows-1252 encoding instead of UTF-8|Bug|
 |WORDSNET-9911|Opening and saving word document causes a bullet list to become a number list|Bug|
 |WORDSNET-9948|Table header does not render correctly in Pdf file|Bug|
@@ -104,7 +104,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-9845|Altchunk contents are not preserved during open/save Docx|Feature|
 |WORDSNET-9941|Add feature to import Building Blocks from one document to another|Feature|
 |WORDSNET-9942|Background of DrawingML is not preserved in PDF|Feature|
-|WORDSNET-9688|EpubCheck throws a few errors upon validating Aspose.Words generated Epub|Regression|
+|WORDSNET-9688|EpubCheck throws {many|multiple|several|a few|numerous} errors upon validating Aspose.Words generated Epub|Regression|
 |WORDSNET-9884|Tables are not handled properly by Aspose 14.2.0|Regression|
 |WORDSNET-9913|Importing one document to another using ImportFormatMode.UseDestinationStyles causes issue with list style|Regression|
 |WORDSNET-9960|Aspose.Words.FileCorruptedException occurs when loading a DOTX|Regression|

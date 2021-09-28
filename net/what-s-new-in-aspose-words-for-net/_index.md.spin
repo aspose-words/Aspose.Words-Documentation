@@ -101,8 +101,8 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 * Using Aspose.Words for .NET via COM Interop has been checked and the documentation has been modified according to the latest version of the VBScript engine.
 * A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 * An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
-* A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportlanguagetospantag) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
-* A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
+* A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportlanguagetospantag) has been added. This option {allows|enables} users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
+* A new public field updating callback has been implemented. This {allows|enables} you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}
 
@@ -251,7 +251,7 @@ HTML import has been modified. Previously, the [MswVersion](https://apireference
 
 ### Report Generation
 
-A condition evaluation extension point has been introduced. This enables users to implement custom evaluation for the IF and COMPARE fields which are very popular upon creating different types of reports.
+A condition evaluation extension point has been introduced. This {allows|enables} users to implement custom evaluation for the IF and COMPARE fields which are very popular upon creating different types of reports.
 
 ### Other
 
@@ -298,7 +298,7 @@ A new public class [MarkdownSaveOptions](https://apireference.aspose.com/words/
 
 #### Layout Callback to Interrupt the Layout Building
 
-The long-awaited layout callback has been implemented and made available to the public. The [IPageLayoutCallback](https://apireference.aspose.com/words/net/aspose.words.layout/ipagelayoutcallback) interface allows your application to interrupt the process of layout building for the entire document and render only the part already built.
+The long-awaited layout callback has been implemented and made available to the public. The [IPageLayoutCallback](https://apireference.aspose.com/words/net/aspose.words.layout/ipagelayoutcallback) interface {allows|enables} your application to interrupt the process of layout building for the entire document and render only the part already built.
 
 #### Formatting Options
 
@@ -392,7 +392,7 @@ Using the *InterpolateImages* property is relevant if the resolution of a sour
 Search and compare options are extended:
 
 - The functionality of the *FindReplaceOptions* class becomes more flexible to serve your needs. It is now possible to ignore text inside revisions and fields. You can also enable the use of substitutions in the replacement pattern via the [UseSubstitutions](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/usesubstitutions) property – this makes easy to use part or whole match when replacing.
-- The [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature enables you to specify the exact granularity of changes to track when comparing two documents.
+- The [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature {allows|enables} you to specify the exact granularity of changes to track when comparing two documents.
 
 ### Other
 

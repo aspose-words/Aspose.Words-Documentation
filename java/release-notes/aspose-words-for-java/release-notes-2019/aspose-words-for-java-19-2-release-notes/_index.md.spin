@@ -156,8 +156,8 @@ Now font fetching process is:
 
 Here are some details about the particular changes:
 
-- Font Substitutes mechanism is replaced with table font substitution rule. Previously Font Substitutes mechanism was not a part of font substitution process. Fonts selected via Font Substitutes was considered properly resolved. Now table substitution rule is a regular part of font substitution process. This implies that table substitution rule is not used now in several cases where Font Substitutes previously was used. In particular table substitution is not used now when performing font fallback and checking default font substitution rule. Customers could setup suitable fallback table viaFontSettings.FallbackSettings.
-- To better fit MS Word behavior, several well-known font aliases used unconditionally by MS Word are removed from default Windows font substitution table. Now Aspose.Words checks them before performing font substitution.
+- Font Substitutes mechanism is replaced with table font substitution rule. Previously Font Substitutes mechanism was not a part of font substitution process. Fonts selected via Font Substitutes was considered properly resolved. Now table substitution rule is a regular part of font substitution process. This implies that table substitution rule is not used now in {several|multiple|a few|many|numerous} cases where Font Substitutes previously was used. In particular table substitution is not used now when performing font fallback and checking default font substitution rule. Customers could setup suitable fallback table viaFontSettings.FallbackSettings.
+- To better fit MS Word behavior, {several|multiple|a few|many|numerous} well-known font aliases used unconditionally by MS Word are removed from default Windows font substitution table. Now Aspose.Words checks them before performing font substitution.
 - Added new feature to use thefontconfigutility to get the substitution fonts. fontconfig is designed to provide system-wide font configuration, customization and application access on Linux (and other Unix-like) systems.
 - Font substitution warnings messages are changed. Now they are in format "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: <Reason>." with reasons:
   - "alternative name from the document" for substitution by FontInfo.AltName
@@ -196,7 +196,7 @@ public class FontSettings
 /// </summary>
 /// <remarks>
 /// <para>
-/// Font substitution process consists of several rules which are checked one by one in specific order.
+/// Font substitution process consists of {several|multiple|a few|many|numerous} rules which are checked one by one in specific order.
 /// If the first rule can't resolve the font then second rule is checked and so on.</para>
 /// <para>The order of the rules is following:
 /// 1. Font config substitution rule (disabled by default)

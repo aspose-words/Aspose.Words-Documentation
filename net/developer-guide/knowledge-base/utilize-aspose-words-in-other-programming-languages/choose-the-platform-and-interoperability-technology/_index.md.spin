@@ -7,12 +7,12 @@ url: /net/choose-the-platform-and-interoperability-technology/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words is available as two distinct products Aspose.Words for .NET and Aspose.Words for Java. It can be said that Aspose.Words “natively” supports:
+Aspose.Words is a class library that {enables|allows} your applications to perform a great range of document processing tasks. Aspose.Words is available as two distinct products Aspose.Words for .NET and Aspose.Words for Java. It can be said that Aspose.Words “natively” supports:
 
 - The .NET Framework and all programming languages targeting the .NET platform, such as C# or VB.NET. 
 - The Java platform and the Java programming language. 
 
-But it is also possible to use Aspose.Words from many programming languages, including: ASP, C++, ColdFusion, Delphi, JavaScript, Perl, PHP, PowerBuilder, Python, VBScript etc. 
+But it is also possible to use Aspose.Words from {many|multiple|several|a few|numerous} programming languages, including: ASP, C++, ColdFusion, Delphi, JavaScript, Perl, PHP, PowerBuilder, Python, VBScript etc. 
 
 This section contains articles and examples that show how to use Aspose.Words in different programming languages and covers the following topics: 
 
@@ -21,7 +21,7 @@ This section contains articles and examples that show how to use Aspose.Words in
 - How to generate a report using Aspose.Words mail merge. 
 - How to convert a document into a different format, use enumerated values. 
 
-If you follow the principles outlined in this section, you will be able to employ several of the features of Aspose.Words in your projects. 
+If you follow the principles outlined in this section, you will be able to employ {many|multiple|several|a few|numerous} of the features of Aspose.Words in your projects. 
 
 There are two versions of the Aspose.Words class library: 
 

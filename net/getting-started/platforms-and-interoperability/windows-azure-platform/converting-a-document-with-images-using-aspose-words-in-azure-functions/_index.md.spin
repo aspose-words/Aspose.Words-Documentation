@@ -19,7 +19,7 @@ In order to resolve the problem, you can add the following section in the .cspro
 </Target>
 {{< /highlight >}}
 
-The following example demonstrates how to use Aspose.Words in Azure Function with the details on how to add the code above.
+The following example {shows|demonstrates} how to use Aspose.Words in Azure Function with the details on how to add the code above.
 
 ## Prerequisites
 

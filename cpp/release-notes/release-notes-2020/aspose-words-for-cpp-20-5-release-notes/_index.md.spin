@@ -58,7 +58,7 @@ The missing features will be added in future releases.
 |WORDSNET-18923|Paragraph shading is stretched up to TextBox bottom|Bug|
 |WORDSNET-20211|DOCX is corrupted after re-saving it|Bug|
 |WORDSNET-20212|Range.Replace does not replace the numbers|Bug|
-|WORDSNET-20353|ArgumentOutOfRangeException is thrown while exporting document with a few numbered paragraphs inside a cell into Markdown|Bug|
+|WORDSNET-20353|ArgumentOutOfRangeException is thrown while exporting document with {multiple|several|a few|many|numerous} numbered paragraphs inside a cell into Markdown|Bug|
 |WORDSNET-19920|Document.UpdateFields does not update Index entries under the Swedish language|Bug|
 |WORDSNET-13133|TXT to PDF conversion issue with Thai Characters|Bug|
 |WORDSNET-20219|Extra data points appear in the chart in the output PDF|Bug|
@@ -299,13 +299,13 @@ public enum PageLayoutEvent
     ReflowFinished,
     /// <summary>
     /// Reflow of the page has started.
-    /// Note that page may reflow a few times and that reflow may restart before it is finished.
+    /// Note that page may reflow {multiple|several|a few|many|numerous} times and that reflow may restart before it is finished.
     /// <seealso cref="PageLayoutCallbackArgs.PageIndex"/>
     /// </summary>
     PartReflowStarted,
     /// <summary>
     /// Reflow of the page has finished.
-    /// Note that page may reflow numerous times and that reflow may restart before it is finished.
+    /// Note that page may reflow {multiple|several|a few|many|numerous} times and that reflow may restart before it is finished.
     /// <seealso cref="PageLayoutCallbackArgs.PageIndex"/>
     /// </summary>
     PartReflowFinished,
@@ -353,7 +353,7 @@ doc.Save(outFileName);
 
 Related issue: WORDSNET-20249
 
-A new method GetEmbeddedFontAsOpenType() has been added to FontInfo class. It enables to convert embedded fonts in Embedded OpenType format (which comes from .doc documents) to OpenType.
+A new method GetEmbeddedFontAsOpenType() has been added to FontInfo class. It {allows|enables} to convert embedded fonts in Embedded OpenType format (which comes from .doc documents) to OpenType.
 
 **.NET**
 
@@ -381,7 +381,7 @@ The new property Watermark has been added to the Document class.
 public Watermark Watermark { get; }
 {{< /highlight >}}
 
-The new Watermark class allows adding/removing the watermark from the document. A watermark can be created from a text or from an image.
+The new Watermark class {allows|enables} adding/removing the watermark from the document. A watermark can be created from a text or from an image.
 
 **.NET**
 

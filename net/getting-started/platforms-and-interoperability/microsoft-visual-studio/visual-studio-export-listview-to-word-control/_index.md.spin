@@ -5,7 +5,7 @@ weight: 20
 url: /net/visual-studio-export-listview-to-word-control/
 ---
 
-Export ListView To Word Control is an ASP.NET server control which enables exporting contents of ListView into Word Processing document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** button on top of the ListView control. Clicking the button dynamically exports the content of the ListView control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
+Export ListView To Word Control is an ASP.NET server control which {allows|enables} exporting contents of ListView into Word Processing document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** button on top of the ListView control. Clicking the button dynamically exports the content of the ListView control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
 
 ## Module Features
 
@@ -25,7 +25,7 @@ This initial version of the control provides the following features:
 
 ![visual-studio-export-listview-to-word-control-aspose-words-net](visual-studio-export-listview-to-word-control_1.png)
 
-This control allows you to export ListView in the following different file formats.
+This control {allows|enables} you to export ListView in the following different file formats.
 
 1. Export ListView to Word Document.
 1. Export ListView to Doc

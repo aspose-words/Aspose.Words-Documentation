@@ -236,14 +236,14 @@ docA.Compare(docB, "vs", DateTime.Now, compareOptions);
 
 Related issue: WORDSNET-20809
 
-This new LoadOption enables reducing memory usage.
+This new LoadOption {allows|enables} reducing memory usage.
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets whether to convert metafile (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) images to <see cref="FileFormat.Png" /> image format.
 /// </summary>
 /// <remarks>
 /// Metafiles (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) is an uncompressed image format and sometimes requires to much RAM to hold and process document.
-/// This option allows to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
+/// This option {allows|enables} to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
 /// Please note - conversion vector graphics to raster decreases the quality of the images.
 /// </remarks>
 public bool ConvertMetafilesToPng
@@ -383,7 +383,7 @@ New public property 'ImagesFolder' has been added to the 'MarkdownSaveOptions' c
 /// <para>
 /// When you save a <see cref="Document"/> in <see cref="Words.SaveFormat.Markdown"/> format,
 /// Aspose.Words needs to save all images embedded in the document as standalone files.
-/// <see cref="ImagesFolder"/> allows you to specify where the images will be saved.
+/// <see cref="ImagesFolder"/> {allows|enables} you to specify where the images will be saved.
 /// </para>
 /// <para>
 /// If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in

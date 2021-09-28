@@ -4,15 +4,15 @@ aliases:
   - /net/how-to-use-nested-mail-merge-regions/
   - /net/how-to-set-up-relations-for-use-in-nested-mail-merge-with-regions/
 type: docs
-description: "Aspose.Words for .NET allows you to perform a mail merge operation with nested regions. Nested merge is a feature that allows you to merge hierarchical data from your data source into your merge template."
+description: "Aspose.Words for .NET {allows|enables} you to perform a mail merge operation with nested regions. Nested merge is a feature that {enables|allows} you to merge hierarchical data from your data source into your merge template."
 keywords: "mail merge with nested regions c#"
 weight: 10
 url: /net/nested-mail-merge-with-regions/
 ---
 
-In some scenarios, you may need to use nested mail merge with regions. Nested merge is a feature that allows you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).
+In some scenarios, you may need to use nested mail merge with regions. Nested merge is a feature that {enables|allows} you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).
 
-Aspose.Words allows you to perform a mail merge operation with nested regions. You can use this feature if you have a data source that is organized into a tree-like structure and you want to execute a mail merge operation to populate a template with hierarchical data.
+Aspose.Words {allows|enables} you to perform a mail merge operation with nested regions. You can use this feature if you have a data source that is organized into a tree-like structure and you want to execute a mail merge operation to populate a template with hierarchical data.
 
 {{% alert color="primary" %}}
 
@@ -24,9 +24,9 @@ Nested mail merge is relevant only when performing a mail merge with regions.
 
 The mail merge region is called nested if you have two or more mail merge regions where one of them is inside the other in a hierarchical form. Note that each region contains data from one table.
 
-The most common example of a nested mail merge is an order that contains numerous items where you need to link a few data tables and present the information in a template.
+The most common example of a nested mail merge is an order that contains {multiple|several|a few|many|numerous} items where you need to link {multiple|several|a few|many|numerous} data tables and present the information in a template.
 
-The picture below demonstrates two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
+The picture below {shows|demonstrates} two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
 
 <img src="nested_mail_merge_with_regions_1.png" alt="nested_mail_merge_with_regions" style="width:650px"/>
 
@@ -34,15 +34,15 @@ The picture below demonstrates two nested regions where the *Order* mail merge r
 
 The data to be merged into a template can come from various sources, mainly relational databases or XML documents. In our example, we are going to use an XML file to store our data and load it directly into the **DataSet**.
 
-Aspose.Words enables you to process mail merge with nested regions using the data relationships specified in the **DataSet**. When the **DataSet** object loads XML, it either uses the provided schema or infers it from the structure of the XML itself to accomplish this. From this structure, it creates relationships between tables where necessary.
+Aspose.Words {allows|enables} you to process mail merge with nested regions using the data relationships specified in the **DataSet**. When the **DataSet** object loads XML, it either uses the provided schema or infers it from the structure of the XML itself to accomplish this. From this structure, it creates relationships between tables where necessary.
 
-The image below shows how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
+The image below {shows|demonstrates} how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
 
 <img src="nested_mail_merge_with_regions_2.png" alt="mail_merge_with_nested_regions" style="width:650px"/>
 
 As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order’s related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting mail merge with regions in the template must match the data relationships between the tables in the data source.
 
-The following code example demonstrates how to generate an invoice using nested mail merge with regions:
+The following code example {shows|demonstrates} how to generate an invoice using nested mail merge with regions:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-NestedMailMerge-NestedMailMerge.cs" >}}
 
@@ -64,7 +64,7 @@ If mail merge is not working as expected, then you may need to restructure your 
 
 A DataSet that has related data tables will use the **DataRelation** object to represent the parent-child relationship between the tables.
 
-The following code example shows how to establish a DataRelation between a customer’s table and an order’s table by using a DataRelation object:
+The following code example {shows|demonstrates} how to establish a DataRelation between a customer’s table and an order’s table by using a DataRelation object:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ApplyCustomLogicToEmptyRegions-DisableForeignKeyConstraints.cs" >}}
 
@@ -72,7 +72,7 @@ The following code example shows how to establish a DataRelation between a custo
 
 Implement the [IMailMergeDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource) interface to create relationships in the parent-child structure of your custom data source. Use the [GetChildDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/methods/getchilddatasource) method to return the relevant child data of a current parent record.
 
-The following example demonstrates how to create data relations using **GetChildDataSource**:
+The following example {shows|demonstrates} how to create data relations using **GetChildDataSource**:
 
 **.NET**
 {{< highlight csharp >}}

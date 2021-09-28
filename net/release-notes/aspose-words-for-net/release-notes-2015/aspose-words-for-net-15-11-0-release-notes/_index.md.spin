@@ -139,14 +139,14 @@ There are 127 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-11871|DocumentBuilder.InsertCheckBox inserts check box with incorrect default value|Feature|
 |WORDSNET-12298|UpdateFields should support XPath Expression in INCLUDETEXT field|Feature|
 |WORDSNET-12531|Replace underscore with space in bookmark name when it is exported to Pdf|Feature|
-|WORDSNET-12559|Need support for ruby with many base and top parts and each part having its own formatting.|Feature|
+|WORDSNET-12559|Need support for ruby with {multiple|several|a few|many|numerous} base and top parts and each part having its own formatting.|Feature|
 |WORDSNET-12561|ReportingEngine.buildReport throws exception if child method on a missing object is called|Feature|
 |WORDSNET-12562|ReportingEngine.buildReport throws exception if a missing collection is used in foreach|Feature|
 |WORDSNET-12567|Text effect is lost after saving Docx to Pdf|Feature|
 |WORDSNET-12661|Add an option in PdfSaveOptions not to update fields|Feature|
 |WORDSNET-2095|Outline level headings are imported incorrectly|Feature|
 |WORDSNET-3400|ODF Plugfest 20100415. Numbering is lost during ODT to ODT conversion.|Feature|
-|WORDSNET-4102|STYLEREF field demonstrates error “Error! No text of specified style in document.” in the output PDF document.|Feature|
+|WORDSNET-4102|STYLEREF field {shows|demonstrates} error “Error! No text of specified style in document.” in the output PDF document.|Feature|
 |WORDSNET-4292|Consider adding properties to retrieve the document defaults|Feature|
 |WORDSNET-5560|Support style autoupdate|Feature|
 |WORDSNET-7140|/margins rotated text box/ Wrong textbox size is calculated|Feature|

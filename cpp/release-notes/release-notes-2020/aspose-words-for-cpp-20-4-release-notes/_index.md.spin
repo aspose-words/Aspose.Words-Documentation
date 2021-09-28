@@ -54,7 +54,7 @@ The missing features will be added in future releases.
 |WORDSCPP-939|Dynamically Loading Words DLL Crashes the App with Access violation Exception|Bug|
 |WORDSNET-8841|Aspose.Words.Document does not load RTF contents correctly|Bug|
 |WORDSNET-11627|Aspose.Words.FileCorruptedException is thrown while loading DOCX file|Bug|
-|WORDSNET-8712|Add an example which shows how to add PDF encryption without any user password|Bug|
+|WORDSNET-8712|Add an example which {demonstrates|shows} how to add PDF encryption without any user password|Bug|
 |WORDSNET-19675|The angle unit is missing in the parameter of rotate() CSS functions|Bug|
 |WORDSNET-20150|Document.Compare throws System.ArgumentOutOfRangeException|Bug|
 |WORDSNET-20147|Conversion to PDF fails with InvalidCastException: OfficeMath to type Paragraph|Bug|
@@ -351,7 +351,7 @@ Added image interpolation option for PDF rendering which can be specified by Pdf
 /// <remarks>
 /// <para>
 /// When the resolution of a source image is significantly lower than that of the output device,
-/// each source sample covers many device pixels. As a result, images can appear jaggy or blocky.
+/// each source sample covers {many|multiple|several|a few|numerous} device pixels. As a result, images can appear jaggy or blocky.
 /// These visual artifacts can be reduced by applying an image interpolation algorithm during rendering.
 /// Instead of painting all pixels covered by a source sample with the same color, image interpolation
 /// attempts to produce a smooth transition between adjacent sample values.
@@ -379,7 +379,7 @@ doc.Save(pdfPath, saveOptions);
 
 ### Added public property LoadOptions.TempFolder
 
-This property allows using temporary files when reading a document.
+This property {allows|enables} using temporary files when reading a document.
 
 **.NET**
 

@@ -7,7 +7,7 @@ url: /net/working-with-images/
 
 ## Inserting an Image
 
-DocumentBuilder provides numerous overloads of the [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/1) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
+DocumentBuilder provides {several|multiple|a few|many|numerous} overloads of the [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/1) method that {allows|enables} you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/2).
 - From a stream by passing a Stream parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3).
@@ -18,7 +18,7 @@ DocumentBuilder provides numerous overloads of the [DocumentBuilder.InsertImage
 
 ### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to DocumentBuilder.InsertImage to insert the image into the document as an inline graphic. Below example shows how to insert an inline image at the cursor position into a document.
+Pass a single string representing a file that contains the image to DocumentBuilder.InsertImage to insert the image into the document as an inline graphic. Below example {shows|demonstrates} how to insert an inline image at the cursor position into a document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertInlineImage.cs" >}}
 
@@ -38,13 +38,13 @@ All images are stored inside Shape nodes in a Document. To extract all images o
 - Extract image data using the [Shape.ImageData](http://www.aspose.com/api/net/words/aspose.words.drawing/shape/properties/imagedata) property.
 - Save image data to a file.
 
-Below example demonstrates how to extract images from a document and save them as files. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Images.docx).
+Below example {shows|demonstrates} how to extract images from a document and save them as files. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Images.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-ExtractImagesToFiles-ExtractImagesToFiles.cs" >}}
 
 ## How to Insert Barcode on each Page of a Document
 
-This example shows you to add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use **DocumentBuilder.MoveToSection**, **DocumentBuilder.MoveToHeaderFooter** and **DocumentBuilder.InsertImage** methods to move to any section or headers/footers and insert the barcode images as you can see in the following code. The following code example Inserts a barcode image on each page of a document.
+This example {demonstrates|shows} you to add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use **DocumentBuilder.MoveToSection**, **DocumentBuilder.MoveToHeaderFooter** and **DocumentBuilder.InsertImage** methods to move to any section or headers/footers and insert the barcode images as you can see in the following code. The following code example Inserts a barcode image on each page of a document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-InsertBarcodeImage-InsertBarcodeImage.cs" >}}
 
@@ -58,7 +58,7 @@ The aspect ratio of a geometric shape is the ratio of its sizes in different dim
 
 ## How to Get Actual Bounds of Shape in Points
 
-If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using NodeRendererBase.BoundsInPoints property. The following code example demonstrates how to use this property.
+If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using NodeRendererBase.BoundsInPoints property. The following code example {demonstrates|shows} how to use this property.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.cs" >}}
 
@@ -72,6 +72,6 @@ The cropping of an image usually refers to the removal of the unwanted outer p
 
 ## Saving Images as WMF
 
-Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example demonstrates how to save images as WMF with RTF save options.
+Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example {demonstrates|shows} how to save images as WMF with RTF save options.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.cs" >}}

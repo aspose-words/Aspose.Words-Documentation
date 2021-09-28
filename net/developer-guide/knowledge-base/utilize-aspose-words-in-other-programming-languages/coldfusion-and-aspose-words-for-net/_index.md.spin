@@ -23,7 +23,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 <html>
 <head><title>Execute Simple Mail</title></head>
 <body>
-    <b>This example demonstrates how to execute simple mail merge using Aspose.Words</b>
+    <b>This example {shows|demonstrates} how to execute simple mail merge using Aspose.Words</b>
     <cfset assemblyPath="C:\Program Files\Aspose\Aspose.Words\Bin\net2.0\Aspose.Words.dll">
     <cfset doc=CreateObject(".NET", "Aspose.Words.Document", assemblyPath).Init("C:\Temp\in.doc")>
     <cfset names=["FullName", "Company", "City"]>
@@ -36,7 +36,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 
 #### Invoke Static Methods
 
-Some methods in the Aspose.Words object model are static. For example, there is the FileFormatUtil.DetectFileFormat method that allows you to detect the original format of a file.
+Some methods in the Aspose.Words object model are static. For example, there is the FileFormatUtil.DetectFileFormat method that {allows|enables} you to detect the original format of a file.
 
 **ColdFusion**
 
@@ -44,7 +44,7 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 <html>
 <head><title>Invoke Static Methods</title></head>
 <body>
-    <b>This example demonstrates how to detect the original format of a file using Aspose.Words</b><br />
+    <b>This example {shows|demonstrates} how to detect the original format of a file using Aspose.Words</b><br />
     <cfset assemblyPath="C:\Program Files\Aspose\Aspose.Words\Bin\net2.0\Aspose.Words.dll">
 <cfset formatUtil=CreateObject(".NET", "Aspose.Words.FileFormatUtil", assemblyPath)>
 <cfset info=formatUtil.DetectFileFormat("C:\Temp\out.doc")>
@@ -65,7 +65,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 <html>
 <head><title>Save or Convert a Document</title></head>
 <body>
-    <b>This example shows how to convert a document to various formats using Aspose.Words</b>
+    <b>This example {shows|demonstrates} how to convert a document to various formats using Aspose.Words</b>
     <cfset assemblyPath="C:\Program Files\Aspose\Aspose.Words\Bin\net2.0\Aspose.Words.dll">
     <cfset doc=CreateObject(".NET", "Aspose.Words.Document", assemblyPath).Init("C:\Temp\in.doc")>
     <cfset saveFormat=CreateObject(".NET", "Aspose.Words.SaveFormat", assemblyPath)>
@@ -93,7 +93,7 @@ You can use Document.AppendDocument method to append one document to another.
 <html>
 <head><title>Merge documents</title></head>
 <body>
-    <b>This example shows how to append one docuemnt to another using Aspose.Words</b>
+    <b>This example {shows|demonstrates} how to append one docuemnt to another using Aspose.Words</b>
     <cfset assemblyPath="C:\Program Files\Aspose\Aspose.Words\Bin\net2.0\Aspose.Words.dll">
     <cfset dstDoc=CreateObject(".NET", "Aspose.Words.Document", assemblyPath).Init("C:\Temp\doc1.doc")>
     <cfset srcDoc=CreateObject(".NET", "Aspose.Words.Document", assemblyPath).Init("C:\Temp\doc2.doc")>

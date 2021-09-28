@@ -18,12 +18,12 @@ TextBox class provides IsValidLinkTarget method in order to check whether the 
 
 ### Check TextBox Sequence
 
-The following code snippets demonstrates how to check if shape.TextBox is a Head, a Tail or a Middle of the sequence:
+The following code snippets {shows|demonstrates} how to check if shape.TextBox is a Head, a Tail or a Middle of the sequence:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-CheckSequence.java" >}}
 
 ### Break a Link
 
-The following code snippet shows how to break a link for a shape.TextBox:
+The following code snippet {shows|demonstrates} how to break a link for a shape.TextBox:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-BreakALink.java" >}}

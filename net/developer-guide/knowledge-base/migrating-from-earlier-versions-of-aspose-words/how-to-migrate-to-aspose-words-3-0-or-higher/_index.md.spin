@@ -23,7 +23,7 @@ Licenses issued prior to 22nd of January 2005 are no longer supported. If you up
 
 #### IDocumentVisitor Redesigned
 
-IDocumentVisitor was a visitor interface that allowed forward-only enumeration over document content. Since the new document object model available in Aspose.Words 3.0 introduces a few new classes and allows detailed programmatic access to document elements, the visitor interface was completely redesigned.
+IDocumentVisitor was a visitor interface that allowed forward-only enumeration over document content. Since the new document object model available in Aspose.Words 3.0 introduces {many|multiple|several|a few|numerous} new classes and {allows|enables} detailed programmatic access to document elements, the visitor interface was completely redesigned.
 
 The **IDocumentVisitor** interface was replaced by the [DocumentVisitor](https://apireference.aspose.com/words/net/aspose.words/documentvisitor) class. If you had an implementation of **IDocumentVisitor** , you need to change your class to derive from **DocumentVisitor** and update the names and signatures of the methods. 
 
@@ -41,7 +41,7 @@ Starting with Aspose.Words 3.0, before any node from another document can be ins
 
 ##### Example
 
-*This fragment shows how to insert a section from another document in Aspose.Words 3.0 or higher.* 
+*This fragment {shows|demonstrates} how to insert a section from another document in Aspose.Words 3.0 or higher.* 
 
 **C#**
 
@@ -63,7 +63,7 @@ dstDoc.Sections.Add(newSection)
 
 In Aspose.Words 2.x there were two methods:
 
-- **MailMerge.GetFieldNames** - this method returned only simple field names, stripping any special field prefixes, for example field name "Image:MyImageField" was returned as "MyImageField". Also, this method did not return duplicate field names, that is if "MyField" was encountered in the document several times, it was returned only once by **MailMerge.GetFieldNames** . 
+- **MailMerge.GetFieldNames** - this method returned only simple field names, stripping any special field prefixes, for example field name "Image:MyImageField" was returned as "MyImageField". Also, this method did not return duplicate field names, that is if "MyField" was encountered in the document {several|multiple|a few|many|numerous} times, it was returned only once by **MailMerge.GetFieldNames** . 
 - **MailMerge.GetFieldNamesEx** - this method returned field names without stripping the prefixes and also did not eliminate duplicates. It was added in recent versions of Aspose.Words when the special fields like image fields were introduced. 
 
 Starting with Aspose.Words 3.0, the original **MailMerge.GetFieldNames** was removed and **MailMerge.GetFieldNamesEx** was renamed as [MailMerge.GetFieldNames](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/getfieldnames) . Therefore, there is now only one method **MailMerge.GetFieldNames** and it returns field names without stripping or eliminating duplicates. 

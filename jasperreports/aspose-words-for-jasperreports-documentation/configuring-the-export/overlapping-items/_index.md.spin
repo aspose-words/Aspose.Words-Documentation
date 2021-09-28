@@ -17,7 +17,7 @@ In flow layout, overlapping items cannot be converted preserving their original 
 - **Truncate** - Overlapping parts are truncated.
 - **Push** - Overlapping items are pushed in appropriate directions.
 
-The second method enables the preservation of the original position of report items and does not affect surrounding contents. However, it may corrupt the item’s appearance. If you are not satisfied with the AsIs method, you can try Truncate method or the Push method.
+The second method {allows|enables} the preservation of the original position of report items and does not affect surrounding contents. However, it may corrupt the item’s appearance. If you are not satisfied with the AsIs method, you can try Truncate method or the Push method.
 
 **JasperReports:**
 

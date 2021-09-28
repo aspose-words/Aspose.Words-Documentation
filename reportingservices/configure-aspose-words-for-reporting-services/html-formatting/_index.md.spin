@@ -26,7 +26,7 @@ Some of this text is **bold** and other text is *italic*.
 - The formatting is not visible at design time (in Report Builder, Report Manager etc). Instead, you will see the HTML text as is. 
 - Aspose.Words for Reporting Services is the only rendering extension able to understand and properly format HTML code in textboxes. 
 - Since the text is contained in textboxes, all the corresponding restrictions apply. For example, you cannot have form fields within a textbox. 
-- If HTML text is spread over several pages, most likely it will be exported as plain text. 
+- If HTML text is spread over {multiple|several|a few|many|numerous} pages, most likely it will be exported as plain text. 
 
 To instruct the renderer to parse HTML formatting in textboxes, add the following lines to the *&lt;Extension&gt;* element corresponding to a particular renderer: 
 

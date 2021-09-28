@@ -28,7 +28,7 @@ This normally causes no problems but some bookmarks on tables can appear differe
 
 ### Comments
 
-A comment in a document is imported as a Comment node in the Aspose.Words DOM. The range of a comment can span over various parts of the document text, including over multiple paragraphs and tables. In Aspose.Words this range is represented by the following nodes:
+A comment in a document is imported as a Comment node in the Aspose.Words DOM. The range of a comment can span over various parts of the document text, including over {many|multiple|several|a few|numerous} paragraphs and tables. In Aspose.Words this range is represented by the following nodes:
 
 - Comment
 - CommentRangeStart

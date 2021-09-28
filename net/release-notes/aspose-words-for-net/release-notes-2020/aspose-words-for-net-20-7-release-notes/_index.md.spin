@@ -112,7 +112,7 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16933|Content of text boxes missing in PDF|Bug|
 |WORDSNET-20529|Image is rotated after DOCX to HtmlFixed conversion|Bug|
 |WORDSNET-16771|DOCX to PDF conversion issue with image position|Bug|
-|WORDSNET-19403|After conversion to PDF, an image is moved several inches down|Bug|
+|WORDSNET-19403|After conversion to PDF, an image is moved {a few|multiple|several|many|numerous} inches down|Bug|
 |WORDSNET-20533|Multi-Threaded Errors with mail merge|Bug|
 |WORDSNET-16907|Incorrect line breaks push some content to the next page in PDF|Bug|
 

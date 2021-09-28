@@ -66,7 +66,7 @@ doc1.save(dataDir + "AsposeTOCHeadings.doc");
 
 ## Docx4j - Insert Table of Contents in Document
 
-Below example shows how Table of Contents can be inserted in documents using docx4j library.
+Below example {shows|demonstrates} how Table of Contents can be inserted in documents using docx4j library.
 
 **Java**
 

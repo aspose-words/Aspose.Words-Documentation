@@ -140,7 +140,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSNET-8209 |AcceptAllRevisions throws NullReferenceException |Exception |
 |WORDSNET-8277 |Aspose.Words.FileCorruptedException occurs when loading RTF file |Exception |
 |WORDSNET-8341 |Aspose.Words.FileCorruptedException while loading Docx |Exception |
-|WORDSNET-8351 |System.InvalidCastException occurs when rendering a DOCX a few times in a loop |Exception |
+|WORDSNET-8351 |System.InvalidCastException occurs when rendering a DOCX {many|multiple|several|a few|numerous} times in a loop |Exception |
 |WORDSNET-8394 |Aspose.Words.FileCorruptedException occurs when loading DOC file |Exception |
 |WORDSNET-8395 |System.ArgumentException is thrown when rendering a DrawingML to PNG/TIFF |Exception |
 |WORDSNET-8422 |System.ArgumentOutOfRangeException occurs during saving to XAML |Exception |

@@ -1,6 +1,6 @@
 ﻿---
 title: Work with Options and Appearance of Word Documents
-description: "Aspose.Words for C++ enables you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
+description: "Aspose.Words for C++ {allows|enables} you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 110
 url: /cpp/work-with-word-document-options-and-appearance/
@@ -13,7 +13,7 @@ Sometimes you may need to change the appearance of a document, for example, set 
 
 You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.view_options) class. For example, you can set a document zoom value using the [ZoomPercent](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.view_options#get_zoompercent_const) property, or the view mode using the [ViewType](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.view_options#get_viewtype_const) property.
 
-The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
+The following code example {shows|demonstrates} how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SetViewOption-SetViewOption.cpp" >}}
 
@@ -39,7 +39,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 {{% /alert %}}
 
-The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
+The following code example {shows|demonstrates} how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentPageSetup-DocumentPageSetup.cpp" >}}
 
@@ -55,18 +55,18 @@ If your Aspose.Words generated document does not look as expected, check the **L
 
 {{% /alert %}}
 
-The following code example shows how to add Japanese to editing languages:
+The following code example {shows|demonstrates} how to add Japanese to editing languages:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cpp" >}}
 
-The following code example demonstrates how to set Russian as the default editing language:
+The following code example {shows|demonstrates} how to set Russian as the default editing language:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-SetRussianAsDefaultEditingLanguage.cpp" >}}
 
 ## Optimize a Document for a Particular Word Version
 
-The [OptimizeFor](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.compatibility_options#optimizefor_mswordversion) method enables optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.
+The [OptimizeFor](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.compatibility_options#optimizefor_mswordversion) method {allows|enables} optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.
 
-The following code example shows how to optimize document content for Microsoft Word 2016:
+The following code example {shows|demonstrates} how to optimize document content for Microsoft Word 2016:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SetCompatibilityOptions-OptimizeFor.cpp" >}}

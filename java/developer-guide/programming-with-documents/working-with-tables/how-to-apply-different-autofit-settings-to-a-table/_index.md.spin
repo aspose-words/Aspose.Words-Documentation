@@ -61,7 +61,7 @@ Note that this autofit option clears the preferred widths from the cells just li
 
 ### Disabling AutoFitting on a Table and Use Fixed Column Widths
 
-The following code example disables autofitting and allows fixed widths for the specified table.
+The following code example disables autofitting and {enables|allows} fixed widths for the specified table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-DisablingAutoFittingOnATableAndUseFixedColumnWidths.java" >}}
 

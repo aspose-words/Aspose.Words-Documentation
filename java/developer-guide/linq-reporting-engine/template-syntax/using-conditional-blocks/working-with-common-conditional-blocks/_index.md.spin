@@ -14,7 +14,7 @@ You have chosen <<if [!items.any()]>>no
 items<<else>><<[items.count()]>> item(s)<</if>>.
 {{< /highlight >}}
 
-**Note –** A template option of a common conditional block can be composed of numerous paragraphs, if needed.
+**Note –** A template option of a common conditional block can be composed of {multiple|several|a few|many|numerous} paragraphs, if needed.
 
 You can normally use common conditional blocks within data bands. For example, given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them and apply different formatting for even and odd elements.
 

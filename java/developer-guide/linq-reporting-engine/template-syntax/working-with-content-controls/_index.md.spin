@@ -5,7 +5,7 @@ weight: 140
 url: /java/working-with-content-controls/
 ---
 
-LINQ Reporting Engine allows you to perform certain operations on content controls dynamically while building a report.
+LINQ Reporting Engine {enables|allows} you to perform certain operations on content controls dynamically while building a report.
 
 **Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
 
@@ -43,7 +43,7 @@ In turn, `display_name_expression` defines a display name of the combobox or dro
 
 While building a report, `value_expression` and `display_name_expression` are evaluated and a corresponding combobox or dropdown list item is added. A declaring `item` tag is removed then.
 
-A single `item` tag causes addition of a single combobox or dropdown list item during runtime. You can add a few combobox or dropdown list items using numerous `item` tags as shown in the following snippet.
+A single `item` tag causes addition of a single combobox or dropdown list item during runtime. You can add {multiple|several|a few|many|numerous} combobox or dropdown list items using {multiple|several|a few|many|numerous} `item` tags as shown in the following snippet.
 
 {{< highlight csharp >}}
 <<item ...>><<item ...>>

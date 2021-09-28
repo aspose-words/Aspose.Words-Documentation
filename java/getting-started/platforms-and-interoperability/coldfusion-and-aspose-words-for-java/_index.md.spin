@@ -25,7 +25,7 @@ This is a simple application that creates an empty document, inserts some conten
 <html>
 <head><title>Hello World!</title></head>
 <body>
-    <b>This example shows how to create a simple MS Word document using Aspose.Words</b>
+    <b>This example {shows|demonstrates} how to create a simple MS Word document using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init()>
     <cfset builder=CreateObject("java", "com.aspose.words.DocumentBuilder").init(doc)>
     <cfset builder.write("Hello World!!!")>
@@ -44,7 +44,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 <html>
 <head><title>Simple Mail Merge</title></head>
 <body>
-    <b>This example shows how to execute simple mail merge using Aspose.Words</b>
+    <b>This example {shows|demonstrates} how to execute simple mail merge using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset names=["FullName", "Company", "City"]>
     <cfset values=["Alexey Noskov", "Aspose", "Auckland"]>
@@ -56,7 +56,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 
 ## Invoke Static Methods
 
-Some methods in the Aspose.Words object model are static. For example, there is the **detectFileFormat** method that allows you to detect the original format of a file.
+Some methods in the Aspose.Words object model are static. For example, there is the **detectFileFormat** method that {allows|enables} you to detect the original format of a file.
 
 **ColdFusion**
 
@@ -64,7 +64,7 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 <html>
 <head><title>Invoke Static Methods</title></head>
 <body>
-    <b>This example shows how to detect the original format of a file using Aspose.Words</b><br />
+    <b>This example {shows|demonstrates} how to detect the original format of a file using Aspose.Words</b><br />
     <cfset doc=CreateObject("java", "com.aspose.words.Document")>
     <cfset format=doc.detectFileFormat("C:\Temp\out.doc")>
     <span>The original format of the file is </span>
@@ -102,7 +102,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 <html>
 <head><title>Save or Convert a Document</title></head>
 <body>
-    <b>This example demonstrates how to convert a document to various formats using Aspose.Words</b>
+    <b>This example {shows|demonstrates} how to convert a document to various formats using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset saveFormat=CreateObject("java", "com.aspose.words.SaveFormat")>
     <cfset doc.save("C:\Temp\out.doc", saveFormat.DOC)>
@@ -175,7 +175,7 @@ Next we write the ColdFusion code to execute mail merge and save the document to
 <html>
 <head><title>Mail Merge with Regions</title></head>
 <body>
-    <b>This example demonstrates how to execute mail merge with regions using Aspose.Words</b>
+    <b>This example {shows|demonstrates} how to execute mail merge with regions using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset myQueryResult=CreateObject("java", "RelationSet").init()>
     <cfset myResultSet=myQueryResult.execQuery()>

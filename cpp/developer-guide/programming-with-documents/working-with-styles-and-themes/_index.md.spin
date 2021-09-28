@@ -13,7 +13,7 @@ The [StyleCollection](https://apireference.aspose.com/words/cpp/class/aspose.wor
 
 At a simple level, retrieving the content based on styles from a Word document can be useful to identify, list and count paragraphs and runs of text formatted with a specific style. For example, you may need to identify particular kinds of content in the document, such as examples, titles, references, keywords, figure names, and case studies.
 
-To take this numerous steps further, this can also be used to leverage the structure of the document, defined by the styles it uses, to re-purpose the document for another output, such as HTML. This is in fact how the Aspose documentation is built, putting Aspose.Words to the test. A tool built using Aspose.Words takes the source Word documents and splits them into topics at certain heading levels. An XML file is produced using Aspose.Words which is used to build the navigation tree you can see on the left. And then Aspose.Words converts each topic into HTML.
+To take this {a few|multiple|several|many|numerous} steps further, this can also be used to leverage the structure of the document, defined by the styles it uses, to re-purpose the document for another output, such as HTML. This is in fact how the Aspose documentation is built, putting Aspose.Words to the test. A tool built using Aspose.Words takes the source Word documents and splits them into topics at certain heading levels. An XML file is produced using Aspose.Words which is used to build the navigation tree you can see on the left. And then Aspose.Words converts each topic into HTML.
 
 The solution for retrieving text formatted with specific styles in a Word document is typically economical and straightforward using Aspose.Words.
 
@@ -27,7 +27,7 @@ To illustrate how easily Aspose.Words handles retrieving content based on styles
 ![working-with-styles-aspose-words-cpp-1](working-with-styles_1.png)
 
 
-In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the a few instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
+In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the {several|multiple|a few|many|numerous} instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
 
 ### The Code
 
@@ -63,7 +63,7 @@ As you can see, this is a very simple example, showing the number and text of th
 
 ## How-to Insert and Work with the Table of Contents Field
 
-Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just multiple lines of code. This article outlines how to work with the table of contents field and demonstrates:
+Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just {a few|multiple|several|many|numerous} lines of code. This article outlines how to work with the table of contents field and demonstrates:
 
 - How to insert a brand new TOC
 - Update new or existing TOCs in the document.
@@ -73,7 +73,7 @@ Often you will work with documents containing a table of contents (TOC). Using A
 
 ### Insert TC Fields
 
-Often a specific line of text is designated for the TOC and is marked with a TC field.  The easy way to do this in MS Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a TC field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a TC field in the same position as the text. The code is based on the same technique used in the article. Below example demonstrates how to find and insert a TC field at the text in a document.
+Often a specific line of text is designated for the TOC and is marked with a TC field.  The easy way to do this in MS Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a TC field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a TC field in the same position as the text. The code is based on the same technique used in the article. Below example {shows|demonstrates} how to find and insert a TC field at the text in a document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertTCFieldsAtText-DocumentBuilderInsertTCFieldsAtText.cpp" >}}
 
@@ -89,24 +89,24 @@ The formatting of entries in the TOC does not use the original styles of the mar
 
 It is also useful to note that any direct formatting of a paragraph (defined on the paragraph itself and not in the style) marked to be included the TOC will be copied over in the entry in the TOC. For example, if the Heading 1 style is used to mark content for the TOC and this style has Bold formatting while the paragraph also has italic formatting directly applied to it. The resulting TOC entry will not be bold as that is part of style formatting however it will be italic as this is directly formatted on the paragraph. You can also control the formatting of the separators used between each entry and the page number. By default, this is a dotted line that is spread across to the page numbering using a tab character and a right tab stop lined up close to the right margin.
 
-Using the Style class retrieved for the particular TOC level you want to modify, you can also modify how these appear in the document. To change how this appears firstly Style.ParagraphFormat must be called to retrieve the paragraph formatting for the style. From this, the tab stops can be retrieved by calling ParagraphFormat.TabStops and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed altogether. The below code example demonstrates how to modify the position of the right tab stop in TOC related paragraphs. You can download the template file of this example from here.
+Using the Style class retrieved for the particular TOC level you want to modify, you can also modify how these appear in the document. To change how this appears firstly Style.ParagraphFormat must be called to retrieve the paragraph formatting for the style. From this, the tab stops can be retrieved by calling ParagraphFormat.TabStops and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed altogether. The below code example {shows|demonstrates} how to modify the position of the right tab stop in TOC related paragraphs. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ChangeTOCTabStops-ChangeTOCTabStops.cpp" >}}
 
 ### Removing a Table of Contents from the Document
 
-A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the TOC field. The code below demonstrates this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the FieldEnd node is of type FieldType.FieldTOC which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field. Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The below code example demonstrates how to remove a specified TOC from a document. You can download the template file of this example from here.
+A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the TOC field. The code below {demonstrates|shows} this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the FieldEnd node is of type FieldType.FieldTOC which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field. Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The below code example {demonstrates|shows} how to remove a specified TOC from a document. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-RemoveTOCFromDocument-RemoveTOCFromDocument.cpp" >}}
 
 ## Insert Style Separator to Put Different Paragraph Styles
 
-The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature enables for two different paragraph styles used in one logical printed paragraph. If you want to some text from the beginning of a particular heading to appear in a Table of Contents but don't want the entire heading in the Table of Contents, you can use this feature. The below code example demonstrates how to insert a style separator to put different paragraph styles. 
+The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature {allows|enables} for two different paragraph styles used in one logical printed paragraph. If you want to some text from the beginning of a particular heading to appear in a Table of Contents but don't want the entire heading in the Table of Contents, you can use this feature. The below code example {shows|demonstrates} how to insert a style separator to put different paragraph styles. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-InsertStyleSeparator-ParagraphInsertStyleSeparator.cpp" >}}
 
 ## Copy All Styles from Template
 
-There are cases when you want to copy all styles from one document into another. You can use the Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. The below code example demonstrates how to copy styles from one document into another.
+There are cases when you want to copy all styles from one document into another. You can use the Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. The below code example {shows|demonstrates} how to copy styles from one document into another.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-CopyStyles-CopyStylesFromDocument.cpp" >}}

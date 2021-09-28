@@ -24,11 +24,11 @@ There are 96 improvements and fixes in this regular monthly release. The most no
 - Fixed a bug with rendering of minor tick marks and clipping the rightmost bar of DrawingML charts.
 - Fixed a bug with rendering data labels for points, located on the border of the DrawingML chart plot area.
 - Implemented support for RTL comments rendering, e.g. Arabic.
-- Improved hyphenation logic for numerous cases.
+- Improved hyphenation logic for {multiple|several|a few|many|numerous} cases.
 - Improved page numbering for sections starting in new columns.
 - Improved table row alignment.
 - Improved tab stop calculations with paragraph indents.
-- Improved table breaking logic for multiple complex cases.
+- Improved table breaking logic for {numerous|multiple|several|a few|many} complex cases.
 - Improved handling of character compression within mixed ltr/rtl text.
 - Fixed exception in rare case when field update causes line to contain only zero length spans.
 - Fixed exception in rare case when floating object is pushed beyond empty column.
@@ -118,7 +118,7 @@ There are 96 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-17789|An exception raises while saving the document to the Strict Open XML format|Exception|
 |WORDSNET-17637|Document.UpdatePageLayout method throws System.NullReferenceException|Exception|
 |WORDSNET-1450|There is no rotation when open the document in the below version of 2003|Feature|
-|WORDSNET-5396|Create a demo which allows the user to upload a document and convert it to any supported format|Feature|
+|WORDSNET-5396|Create a demo which {allows|enables} the user to upload a document and convert it to any supported format|Feature|
 |WORDSNET-9197|Release Aspose.Words for C++|Feature|
 |WORDSNET-1188|Difficulties when accessing field names returned by MailMerge.GetFieldNames|Feature|
 |WORDSNET-1289|Support page number field formatting in Model|Feature|
@@ -149,7 +149,7 @@ Upon analysis it turned out that Aspose.Words output matches MS Word behavior fo
 
 The customer expected the behavior to match MS Word 2016.
 
-The difference is in handling how hideMark element in a table cell influences the cell height. In fact, the behavior that the customer complains about was introduced intentionally per several other JIRA issues submitted for other customers earlier.
+The difference is in handling how hideMark element in a table cell influences the cell height. In fact, the behavior that the customer complains about was introduced intentionally per {several|multiple|a few|many|numerous} other JIRA issues submitted for other customers earlier.
 
 
 Because of different hideMark handling, the cell height is different for a number of cases when invisible contents are present in the cell.

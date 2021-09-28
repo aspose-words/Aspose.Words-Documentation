@@ -59,7 +59,7 @@ Indexed 1bpp bitmap with alpha is corrupted while saving to
 PDF
 
 WORDSNET-1675
-Allow a few paragraphs in endnote text in layout
+Allow {multiple|several|a few|many|numerous} paragraphs in endnote text in layout
 
 WORDSNET-2030
 Support rendering of all MS Word gradient fills in PDF.
@@ -269,10 +269,10 @@ WordArt looks incorrect after converting RTF document to other
 flow formats.
 
 WORDSNET-5237
-Export multiple authors as a separate tags in ePub
+Export {multiple|several|a few|many|numerous} authors as a separate tags in ePub
 
 WORDSNET-5254
-Word Pad on Windows XP demonstrates some characters improperly.
+Word Pad on Windows XP {shows|demonstrates} some characters improperly.
 
 WORDSNET-5271
 Footnote mark is improperly rendered.

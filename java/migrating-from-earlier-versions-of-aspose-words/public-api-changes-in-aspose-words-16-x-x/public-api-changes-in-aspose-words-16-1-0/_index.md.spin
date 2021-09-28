@@ -92,7 +92,7 @@ public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions);
 public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions, RelativeHorizontalPosition horzPos, double left, RelativeVerticalPosition vertPos, double top, WrapType wrapType);
 {{< /highlight >}}
 
-Following code example demonstrates how to insert signature line.
+Following code example {shows|demonstrates} how to insert signature line.
 
 **Java**
 
@@ -180,7 +180,7 @@ public boolean isSigned()
 public boolean isValid()
 {{< /highlight >}}
 
-Following code example shows how to use SignatureLine's properties.
+Following code example {shows|demonstrates} how to use SignatureLine's properties.
 
 **Java**
 
@@ -229,7 +229,7 @@ public boolean getHyphenateCaps()
 public void setHyphenateCaps(boolean value)
 {{< /highlight >}}
 
-Following code example shows how to use HyphenationOptions's properties. 
+Following code example {shows|demonstrates} how to use HyphenationOptions's properties. 
 
 **Java**
 
@@ -293,7 +293,7 @@ public class MailMergeRegionInfo
 }
 {{< /highlight >}}
 
-Following code example demonstrates how to extract full hierarchy of regions available in the document.
+Following code example {shows|demonstrates} how to extract full hierarchy of regions available in the document.
 
 **Java**
 
@@ -357,7 +357,7 @@ FontSettings properties added to Document class
 {{< highlight csharp >}}
 /** 
  Gets or sets document font settings.
- <p>This property allows to specify font settings per document. If set to null, default static font settings
+ <p>This property {allows|enables} to specify font settings per document. If set to null, default static font settings
  <see cref="Aspose.Words.Fonts.FontSettings.DefaultInstance"/> will be used.</p>
  <p>The default value is null.</p>
 */
@@ -451,7 +451,7 @@ public void setPreserveUnusedTags(boolean value)
 
 ## A New Feature Added to Control Global Mail Merge Events
 
-We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This allows to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
+We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This {allows|enables} to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
 
 **Java**
 
@@ -656,7 +656,7 @@ public class FieldArgumentBuilder
 }
 {{< /highlight >}}
 
-Following code snippet demonstrates how to use FieldBuilder.
+Following code snippet {shows|demonstrates} how to use FieldBuilder.
 
 **Java**
 

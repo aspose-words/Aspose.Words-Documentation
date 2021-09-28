@@ -89,7 +89,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSNET-7681 |DOCX produced by Aspose.Words cannot be opened in MS Word. |Bug |
 |WORDSNET-7691 |Question marks after list label in HTML |Bug |
 |WORDSNET-7698 |Font size of superscript character is not preserved during DOCX to HTML to DOCX roundtrip |Bug |
-|WORDSNET-7699 |PDF page is spilling over to the next page after appending several documents |Bug |
+|WORDSNET-7699 |PDF page is spilling over to the next page after appending {multiple|several|a few|many|numerous} documents |Bug |
 |WORDSNET-7706 |Paragraph/Text Border is missing when saved to PDF, TIFF, XPS |Bug |
 |WORDSNET-7709 |Quotes are lost after import of an MHTML document |Bug |
 |WORDSNET-7712 |Shapes in TIFF become distorted |Bug |
@@ -182,8 +182,8 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSNET-7710 |Aspose.Words renders more Pages than in original Docuement |Feature |
 |WORDSNET-7728 |Create samples for the new access to page layout feature |Feature |
 |WORDSNET-7729 |Touch up PageSplitter sample |Feature |
-|WORDSNET-7730 |Create a sample which demonstrates how to get page numbers of every node in a document |Feature |
-|WORDSNET-7731 |Create a sample which demonstrates LayoutEnumerator |Feature |
+|WORDSNET-7730 |Create a sample which {demonstrates|shows} how to get page numbers of every node in a document |Feature |
+|WORDSNET-7731 |Create a sample which {demonstrates|shows} LayoutEnumerator |Feature |
 |WORDSNET-7732 |Create a sample to add a image to every page without using the header or footer |Feature |
 |WORDSNET-7760 |/revision marks/ Support revisions in list numbers |Feature |
 |WORDSNET-7772 |Create a basic wrapper for LayoutEnumerator which provides a object model API |Feature |

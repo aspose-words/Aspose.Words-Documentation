@@ -5,7 +5,7 @@ weight: 20
 url: /java/working-with-table-row-conditional-blocks/
 ---
 
-A table-row conditional block is a conditional block which body occupies single or numerous rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
+A table-row conditional block is a conditional block which body occupies single or {multiple|several|a few|many|numerous} rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
 **Note –** Table rows occupied by different template options in the following template are highlighted with different colors.
 
@@ -32,7 +32,7 @@ public String  REF getLocalAddress getLocalAddress()  REF getterBody { ... }
 }
 {{< /highlight >}}
 
-Using table-row conditional blocks, you can pick to output a single row among numerous rows of a single document table depending on a condition like in the following example.
+Using table-row conditional blocks, you can pick to output a single row among {several|multiple|a few|many|numerous} rows of a single document table depending on a condition like in the following example.
 
 |...|...|...|
 | :- | :- | :- |

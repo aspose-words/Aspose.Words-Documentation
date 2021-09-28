@@ -51,7 +51,7 @@ WORDSNET-6256 /rtl/ Support list labels in RTL paragraphs.
 
 WORDSNET-6288
 
-WORDSNET-5311 Create an article which shows how to receive warnings when a font is substituted.
+WORDSNET-5311 Create an article which {demonstrates|shows} how to receive warnings when a font is substituted.
 
 WORDSNET-6353 Test Aspose.Words with Visual Studio 2011.
 
@@ -93,7 +93,7 @@ WORDSNET-5078 /anchor push:20/ Support floater anchor push algorithm (scenario 2
 
 WORDSNET-5779 SDTs combo box, SelectedItem doesn't show up.
 
-WORDSNET-6013 Create an article and code sample which demonstrates how to specify default substitution font that is used upon rendering.
+WORDSNET-6013 Create an article and code sample which {demonstrates|shows} how to specify default substitution font that is used upon rendering.
 
 WORDSNET-6167 Image quality problem with Doc format when use builder.InsertImage.
 

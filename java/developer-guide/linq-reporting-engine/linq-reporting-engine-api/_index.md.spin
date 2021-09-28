@@ -279,7 +279,7 @@ Contracts:
 
 To access JSON data while building a report, you can pass a `JsonDataSource` instance to the engine as a data source.
 
-Using of `JsonDataSource` allows you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:
+Using of `JsonDataSource` {enables|allows} you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:
 
 - Long
 - Double
@@ -582,7 +582,7 @@ JsonDataSource dataSource = new JsonDataSource(..., options);
 
 **Note –** Parsing of date-time values does not depend on whether the loose or strict mode is used.
 
-Recognition of date-time values is a special case, because [JSON specification](https://www.json.org) does not define a format for their representation. So, by default, while parsing date-time values from strings, the engine tries numerous formats in the following order:
+Recognition of date-time values is a special case, because [JSON specification](https://www.json.org) does not define a format for their representation. So, by default, while parsing date-time values from strings, the engine tries {several|multiple|a few|many|numerous} formats in the following order:
 
 1. [The ISO-8601 format](https://en.wikipedia.org/wiki/ISO_8601) (for values like "2015-03-02T13:56:04Z")
 1. [The Microsoft® JSON date-time format](https://docs.microsoft.com/en-us/previous-versions/dotnet/articles/bb299886\(v=msdn.10\)#from-javascript-literals-to-json) (for values like "/Date(1224043200000)/")
@@ -590,7 +590,7 @@ Recognition of date-time values is a special case, because [JSON specification](
 1. All date-time formats supported for the English USA culture
 1. All date-time formats supported for the English New Zealand culture
 
-Although this approach is quite flexible, in some scenarios, you may need to restrict strings to be recognized as date-time values. You can achieve this by specifying one or numerous exact formats in the context of the current culture to be used while parsing date-time values from strings as shown in the following example.
+Although this approach is quite flexible, in some scenarios, you may need to restrict strings to be recognized as date-time values. You can achieve this by specifying one or {several|multiple|a few|many|numerous} exact formats in the context of the current culture to be used while parsing date-time values from strings as shown in the following example.
 
 {{< highlight java >}}
 ArrayList<String> formats = new ArrayList();
@@ -612,7 +612,7 @@ In some scenarios, you may need to disable recognition of date-time values at al
 
 To access CSV data while building a report, you can pass a `CsvDataSource` instance to the engine as a data source.
 
-Using of `CsvDataSource` allows you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:
+Using of `CsvDataSource` {enables|allows} you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:
 
 - Long
 - Double
@@ -847,7 +847,7 @@ However, if `ReportBuildOptions.ALLOW_MISSING_MEMBERS` is applied, the engine tr
 
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
-However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.INLINE_ERROR_MESSAGES` option that allows inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
+However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.INLINE_ERROR_MESSAGES` option that {enables|allows} inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
 
 **Note –** A template syntax error message is written using a bold font to make it more apparent.
 
@@ -865,7 +865,7 @@ By default, such a template causes the engine to throw an exception while buildi
 
 **Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
-When `ReportBuildOptions.INLINE_ERROR_MESSAGES` is applied, a Boolean value returned by a `ReportingEngine.buildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
+When `ReportBuildOptions.INLINE_ERROR_MESSAGES` is applied, a Boolean value returned by a `ReportingEngine.buildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This {enables|allows} you to process reports which building succeeded or failed differently as shown in the following code snippet.
 
 {{< highlight java >}}
 ReportingEngine engine = new ReportingEngine();

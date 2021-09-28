@@ -107,7 +107,7 @@ There are 109 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-12461|Enhancement in Document.Compare (when a lot of contents are changed)|Enhancement|
 |WORDSNET-14160|Reduce number of &lt;span&gt; in HtmlFixed|Enhancement|
 |WORDSNET-14196|Table top row is missing when DOCX converted to PDF|Enhancement|
-|WORDSNET-5582|Consider filling several regions with the same name.|Enhancement|
+|WORDSNET-5582|Consider filling {multiple|several|a few|many|numerous} regions with the same name.|Enhancement|
 |WORDSNET-8396|Multi-paragraph DocVariable do not render correctly in output Pdf|Enhancement|
 |WORDSNET-13297|System.InvalidOperationException occurs when saving DOCX to DOCX|Exception|
 |WORDSNET-13556|Exception is thrown in VmlShapeReader while reading VML shape|Exception|

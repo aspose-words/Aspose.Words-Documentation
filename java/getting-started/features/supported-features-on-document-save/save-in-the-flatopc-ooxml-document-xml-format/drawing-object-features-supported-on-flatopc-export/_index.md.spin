@@ -105,7 +105,7 @@ Implementing the conversion of this new ActiveX format to the legacy format is v
 |Charts (VML)|Yes| | |
 |Shape Customizations|Yes| | |
 |Hyperlink on Shape|Yes| | |
-|Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded.| |
+|Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This {allows|enables} the watermark to appear behind all content and as faded.| |
 
 ## WordArt
 

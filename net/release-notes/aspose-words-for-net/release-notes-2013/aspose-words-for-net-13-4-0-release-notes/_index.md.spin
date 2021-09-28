@@ -26,7 +26,7 @@ This page contains release notes for [Aspose.Words for .NET 13.4.0](https://www.
 - Fixed positioning of a table broken across pages when it has repeated header rows
 - Improved table row wrapping around floaters
 - Fixed issue with Arabic-Indic numerals inside SDT
-- Aspose.Words allows to write OOXML documents that do not cause Compatibility Mode when opened in MS Word 2010-2013 
+- Aspose.Words {allows|enables} to write OOXML documents that do not cause Compatibility Mode when opened in MS Word 2010-2013 
 
 ## All Fixes
 
@@ -105,7 +105,7 @@ This page contains release notes for [Aspose.Words for .NET 13.4.0](https://www.
 |WORDSNET-5697|/page vertical alignment/document to pdf conversion, image lose its postion|Enhancement|
 |WORDSNET-5754|while converting doc to pdf, image properties not available|Enhancement|
 |WORDSNET-5756|Pdf page count is greater than input Word document, after converting doc to Pdf|Enhancement|
-|WORDSNET-5784|document to pdf conversion, creating numerous tables|Enhancement|
+|WORDSNET-5784|document to pdf conversion, creating {multiple|several|a few|many|numerous} tables|Enhancement|
 |WORDSNET-5830|DOC to PDF conversion issue; All pages not exported to PDF|Enhancement|
 |WORDSNET-5831|Document text out of position, While saving Word document in Pdf format|Enhancement|
 |WORDSNET-5842|While doc to Pdf, footer image render incorrectly.|Enhancement|

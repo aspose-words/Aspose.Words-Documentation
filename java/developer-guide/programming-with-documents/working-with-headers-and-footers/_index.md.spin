@@ -9,7 +9,7 @@ url: /java/working-with-headers-and-footers/
 
 {{% alert color="primary" %}} 
 
-The following sample code demonstrates how to create headers/footers using DocumentBuilder.
+The following sample code {demonstrates|shows} how to create headers/footers using DocumentBuilder.
 
 Special attention is given to the following issues:
 
@@ -24,7 +24,7 @@ Special attention is given to the following issues:
 
 {{% /alert %}} 
 
-The code example given below demonstrates how to create headers footers using DocumentBuilder.
+The code example given below {shows|demonstrates} how to create headers footers using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-HeadersAndFooters-CreateHeadersFootersUsingDocumentBuilder-CreateHeadersFootersUsingDocumentBuilder.java" >}}
 

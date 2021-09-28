@@ -7,7 +7,7 @@ url: /sharepoint/multiple-format-support/
 
 ## Multiple Format Support
 
-With Aspose.Words for SharePoint installed you can convert documents right from your SharePoint document library between several popular office document formats. Most of the conversions are done with high fidelity. Currently Aspose.Words for SharePoint supports the following input formats:
+With Aspose.Words for SharePoint installed you can convert documents right from your SharePoint document library between {many|multiple|several|a few|numerous} popular office document formats. Most of the conversions are done with high fidelity. Currently Aspose.Words for SharePoint supports the following input formats:
 
 - DOCX - Office Open XML
 - DOTX - Office Open XML WordprocessingML Template (macro-free)

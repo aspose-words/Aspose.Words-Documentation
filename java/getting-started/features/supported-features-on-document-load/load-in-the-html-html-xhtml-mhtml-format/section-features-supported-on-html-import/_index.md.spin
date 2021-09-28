@@ -7,7 +7,7 @@ url: /java/section-features-supported-on-html-import/
 
 {{% alert color="primary" %}} 
 
-Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This allows for example different parts of the document to completely different page sizes or page orientations.
+Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This {allows|enables} for example different parts of the document to completely different page sizes or page orientations.
 
 A section is represented as a Section node in the Aspose.Words model.
 

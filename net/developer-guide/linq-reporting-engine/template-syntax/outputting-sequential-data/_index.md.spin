@@ -61,13 +61,13 @@ When the body of a common data band starts and ends within different paragraphs,
 
 | Template | Report |
 | :-   | :-   |
-|< highlight csharp > prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix< /highlight >|< highlight csharp > prefix item1¶item2¶item3¶suffix< /highlight >|
-|< highlight csharp > prefix<<foreach [item in items]>>¶<<[item]>><</foreach>> suffix< /highlight >|< highlight csharp > prefix¶item1¶item2¶item3 suffix< /highlight >|
-|< highlight csharp > prefix¶<<foreach [item in items]>><<[item]>>¶<</foreach>>suffix< /highlight >|< highlight csharp > prefix¶item1¶item2¶item3¶suffix< /highlight >|
-|< highlight csharp > prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix< /highlight >|< highlight csharp > prefix¶item1¶item2¶item3¶suffix< /highlight >|
-|< highlight csharp > prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix< /highlight >|< highlight csharp > prefix¶¶item1¶¶item2¶¶item3¶¶suffix< /highlight >|
+|{{< highlight csharp >}} prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix item1¶item2¶item3¶suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<<[item]>><</foreach>> suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3 suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix¶<<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶¶item1¶¶item2¶¶item3¶¶suffix{{< /highlight >}}|
 
-While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
+While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact {enables|allows} you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
 
 **Note –** “1. ” in the template stands for a numbered list label.
 
@@ -86,7 +86,7 @@ In this case, the engine produces a report as follows.
 
 ## Working with Table-Row Data Bands
 
-A table-row data band is a data band which body occupies single or several rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
+A table-row data band is a data band which body occupies single or {multiple|several|a few|many|numerous} rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
 ||||
 | :- | :- | :- |
@@ -191,7 +191,7 @@ For more examples of templates for typical scenarios involving table-row data ba
 
 ## Using Charts to Represent Sequential Data
 
-LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
+LINQ Reporting Engine {enables|allows} you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
 
 1. Add a chart to your template at the place where you want it to appear in a result document.
 1. Configure the appearance of the chart.
@@ -204,7 +204,7 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 {{< /highlight >}}
 	- For a scatter or bubble chart, you can go one of the following ways: 
 		- To use the same x-value expression for all chart series, add a single `x` tag to the chart title after the corresponding `foreach` tag.
-		- To use different x-value expressions for every chart series, add several `x` tags to chart series’ names – one for each chart series.
+		- To use different x-value expressions for every chart series, add {multiple|several|a few|many|numerous} `x` tags to chart series’ names – one for each chart series.
 	An x-value expression for a scatter or bubble chart must return a numeric value.
 	- For a chart of another type, add a single `x` tag to the chart title after the corresponding `foreach` tag. In this case, an x-value expression must return a numeric, date, or string value.
 7. For a chart of any type, add `y` tags to chart series’ names as follows.
@@ -361,7 +361,7 @@ In this case, the engine produces a report as follows.
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 
-The following code example shows how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
+The following code example {demonstrates|shows} how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-LINQ-ChartSeries-SetChartSeriesNameDynamically.cs" >}}
 
@@ -392,9 +392,9 @@ Returns the one-based index of a sequence item that is represented by the corres
 
 |No.|Item|
 | :- | :- |
-|< highlight csharp >
- <<foreach [itemin items]>><<[item.NumberOf()]>>< /highlight >|< highlight csharp >
- <<[item]>><</foreach>>< /highlight >|
+|{{< highlight csharp >}}
+ <<foreach [itemin items]>><<[item.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
+ <<[item]>><</foreach>>{{< /highlight >}}|
 In this case, the engine produces a report as follows.
 
 | No.  | Item  |
