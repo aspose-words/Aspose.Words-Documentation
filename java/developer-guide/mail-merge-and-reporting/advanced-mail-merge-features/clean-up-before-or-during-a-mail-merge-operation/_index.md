@@ -9,19 +9,19 @@ weight: 10
 url: /java/clean-up-before-or-during-mail-merge/
 ---
 
-Aspose.Words enables you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation. This section will explain how to delete merged fields and how to set up a removing option.
+Aspose.Words allows you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation. This section will explain how to delete merged fields and how to set up a removing option.
 
 ## Delete Merged Fields
 
 When you are using some long template that is created by someone else, you may want to delete all the merge fields that already exist in that template before performing a mail merge operation. You can use the [DeleteFields](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#deleteFields()) method if you want to delete all merge fields from a document without executing a mail merge operation. This method is not affected by any removing options of the [CleanupOptions](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#CleanupOptions) property and executing it only removes merged fields, not any containing fields or empty paragraphs.
 
-The following code example demonstrates how to delete all merge fields from your template without executing a mail merge operation:
+The following code example shows how to delete all merge fields from your template without executing a mail merge operation:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-GetFieldNames-DeleteFields.java" >}}
 
 ## Set Up a Removing Option
 
-Aspose.Words allows you to remove unmerged fields, regions, and paragraphs from a template during a mail merge operation using removing options.
+Aspose.Words enables you to remove unmerged fields, regions, and paragraphs from a template during a mail merge operation using removing options.
 
 Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://apireference.aspose.com/words/java/com.aspose.words/MailMergeCleanupOptions) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
 
@@ -66,7 +66,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 In previous versions of Aspose.Words, empty mail merge regions were removed from the document automatically during the mail merge operation. With the latest version of Aspose.words, empty mail merge regions remain after the mail merge operation by default. However, you can use the **RemoveUnusedRegions** option to remove the unused mail merge regions during the mail merge operation. For example, you can merge a document with an empty data source containing no data tables that lead to unused regions in the document.
 
-The following code example demonstrates how to remove the unused merge regions:
+The following code example shows how to remove the unused merge regions:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveUnmergedRegions.java" >}}
 
@@ -100,6 +100,6 @@ The following code example demonstrates how to remove fields that contain merge 
 
 Aspose.Words enables you to remove empty table rows by assigning the **RemoveEmptyTableRows** flag to **CleanupOptions**. This option will remove table rows that contain empty merge fields.
 
-The following code example shows how to remove empty table rows that contain mail merge regions from a document:
+The following code example demonstrates how to remove empty table rows that contain mail merge regions from a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveEmptyTableRows.java" >}}

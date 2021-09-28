@@ -6,9 +6,9 @@ weight: 85
 url: /java/find-and-replace/
 ---
 
-You can easily navigate within your document using a keyboard and mouse, but if you have multiple pages to scroll through, it will take quite a while to find specific text in a long document. It will be more time consuming when you want to replace certain characters or words that you have used in your document. The “Find and replace” functionality enables you to find a sequence of characters in a document and replace it with another sequence of characters.
+You can easily navigate within your document using a keyboard and mouse, but if you have a few pages to scroll through, it will take quite a while to find specific text in a long document. It will be more time consuming when you want to replace certain characters or words that you have used in your document. The “Find and replace” functionality enables you to find a sequence of characters in a document and replace it with another sequence of characters.
 
-Aspose.Words enables you to find a specific string or regular expression pattern in your document and replace it with an alternative without installing and using additional applications such as Microsoft Word. This will speed up several typing and formatting tasks, potentially saving you hours of work.
+Aspose.Words enables you to find a specific string or regular expression pattern in your document and replace it with an alternative without installing and using additional applications such as Microsoft Word. This will speed up a few typing and formatting tasks, potentially saving you hours of work.
 
 This article explains how to apply string replacement and regular expressions with the support of metacharacters.
 
@@ -16,7 +16,7 @@ This article explains how to apply string replacement and regular expressions wi
 
 Aspose.Words provides two ways to apply the find and replace operation by using the following:
 
-1. *Simple string replacement* – to find and replace a specific string with another, you need to specify a search string (alphanumeric characters) that is going to be replaced according to all occurrences with another specified replacement string. Both strings must not contain symbols. Take into account that string comparison can be case-sensitive, or you may be unsure of spelling or have several similar spellings.
+1. *Simple string replacement* – to find and replace a specific string with another, you need to specify a search string (alphanumeric characters) that is going to be replaced according to all occurrences with another specified replacement string. Both strings must not contain symbols. Take into account that string comparison can be case-sensitive, or you may be unsure of spelling or have multiple similar spellings.
 2. *Regular expressions* – to specify a regular expression to find the exact string matches and replace them according to your regular expression. Note that a word is defined as being made up of only alphanumeric characters. If a replacement is executed with only whole words being matched and the input string happens to contain symbols, then no phrases will be found.
 
 Also, you can use special metacharacters with simple string replacement and regular expressions to specify breaks within the find and replace operation.
@@ -61,7 +61,7 @@ And after applying string replacement with regular expressions:
 
 ### Find and Replace String using Metacharacters
 
-You can use metacharacters in the search string or the replacement string if a particular text or phrase is composed of numerous paragraphs, sections, or pages. Some of the metacharacters include **&p** for a paragraph break, **&b** for a section break, **&m** for a page break, and **&l** for a line break.
+You can use metacharacters in the search string or the replacement string if a particular text or phrase is composed of multiple paragraphs, sections, or pages. Some of the metacharacters include **&p** for a paragraph break, **&b** for a section break, **&m** for a page break, and **&l** for a line break.
 
 {{% alert color="primary" %}}
 
@@ -78,7 +78,7 @@ The following code example demonstrates how to replace text with paragraph and p
 
 You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/HeaderFooter) class.
 
-The following code example demonstrates how to replace the text of the header section in your document:
+The following code example shows how to replace the text of the header section in your document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInHeader.java" >}}
 
@@ -117,7 +117,7 @@ While applying the find and replace operation, you can ignore certain segments o
 
 Aspose.Words provides many find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreDeleted), [IgnoreFields](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreFields), and [IgnoreInserted](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreInserted).
 
-The following code example shows how to ignore text inside delete revisions:
+The following code example demonstrates how to ignore text inside delete revisions:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-IgnoreText-IgnoreTextInsideDeleteRevisions.java" >}}
 
@@ -125,7 +125,7 @@ The following code example shows how to ignore text inside delete revisions:
 
 ## Customize Find and Replace Operation
 
-Aspose.Words provides a few different [properties](https://apireference.aspose.com/words/java/com.aspose.words/FindReplaceOptions) to find and replace text such as applying specific format with [ApplyFont](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#ApplyFont) and [ApplyParagraphFormats](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#ApplyParagraphFormat) properties, using substitutions in replacement patterns with [UseSubstitutions](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#UseSubstitutions) property, and others.
+Aspose.Words provides many different [properties](https://apireference.aspose.com/words/java/com.aspose.words/FindReplaceOptions) to find and replace text such as applying specific format with [ApplyFont](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#ApplyFont) and [ApplyParagraphFormats](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#ApplyParagraphFormat) properties, using substitutions in replacement patterns with [UseSubstitutions](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#UseSubstitutions) property, and others.
 
 The following code example demonstrates how to highlight a specific word in your document:
 
@@ -136,12 +136,12 @@ Aspose.Words enables you to use the [IReplacingCallback](https://apireference.as
 
 If you need to replace a string with an HTML tag, apply the **IReplacingCallback** interface to customize the find and replace operation so the match starts at the beginning of a run with the match node of your document. Let us provide several examples of using **IReplacingCallback**.
 
-The following code example shows how to replace text specified with HTML:
+The following code example demonstrates how to replace text specified with HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceWithHtml.java" >}}
 
 
-The following code example demonstrates how to highlight positive numbers with green color and negative numbers with red color:
+The following code example shows how to highlight positive numbers with green color and negative numbers with red color:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-NumberHighlightCallback.java" >}}
 

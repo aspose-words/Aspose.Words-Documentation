@@ -201,7 +201,7 @@ These fields are all exported as plain text.
 | :- | :- | :- | :- |
 |Text|Yes| | |
 |Hyperlinked Shape or Image|Yes|In ODT format a hyperlink can only be applied to an image and not a shape.| |
-|Hyperlink across Multiple Paragraphs|Yes|Exported as formatted text as ODT does not allow hyperlinks consisting of multiple paragraphs.| |
+|Hyperlink across Multiple Paragraphs|Yes|Exported as formatted text as ODT does not allow hyperlinks consisting of several paragraphs.| |
 |Hyperlink to a Local Bookmark|Yes| | |
 |Hyperlink to an External Resource|Yes| | |
 |Screen Tip|N/A| | |

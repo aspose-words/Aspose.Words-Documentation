@@ -74,7 +74,7 @@ Document doc = new Document(getMyDir() + "Document.doc");
 // Extract the last paragraph in the document to convert to HTML.
 Node node = doc.getLastSection().getBody().getLastParagraph();
 
-// Create an instance of HtmlSaveOptions and set numerous options.
+// Create an instance of HtmlSaveOptions and set a few options.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.setExportHeadersFootersMode(ExportHeadersFootersMode.PER_SECTION);
 saveOptions.setExportRelativeFontSize(true);
@@ -219,7 +219,7 @@ In the above code:
 
 ## 10. Introduction of HtmlSaveOptions.CssSavingCallback Property and ICssSavingCallback Interface
 
-This enables control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType]() is set to [CssStyleSheetType.External](). This interface allows control over where the external CSS is saved to, such as a stream.
+This allows control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType]() is set to [CssStyleSheetType.External](). This interface enables control over where the external CSS is saved to, such as a stream.
 
 ## 11. Additional MetafileRenderingMode Option Introduced
 

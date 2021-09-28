@@ -13,7 +13,7 @@ Most of the tasks you need to perform with Aspose.Words involve saving a documen
 
 Simply use the [Save](https://apireference.aspose.com/words/cpp/class/aspose.words.document#save_stream_saveformat) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
 
-The following code example shows how to load and save a document to a file:
+The following code example demonstrates how to load and save a document to a file:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToDisk-LoadAndSave.cpp" >}}
 
@@ -38,6 +38,6 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 Aspose.Words supports saving a document into PCL (Printer Command Language). Aspose.Words can save documents into PCL 6 (PCL 6 Enhanced or PCL XL) format. The PclSaveOptions class can be used to specify additional options when saving a document into the PCL format.
 
-The following code example demonstrates how to save a document to PCL using save options:
+The following code example shows how to save a document to PCL using save options:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToPCL-ConvertDocumentToPCL.cpp" >}}

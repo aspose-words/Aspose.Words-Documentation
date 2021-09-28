@@ -1,6 +1,6 @@
 ﻿---
 title: Convert a Document to HTML, MHTML or EPUB
-description: "Aspose.Words for C++ allows you to convert a document from almost any format to HTML or MHTML, as well as to EPUB format. You can also specify save options for managing the output document."
+description: "Aspose.Words for C++ enables you to convert a document from almost any format to HTML or MHTML, as well as to EPUB format. You can also specify save options for managing the output document."
 type: docs
 weight: 20
 url: /cpp/convert-a-document-to-html-mhtml-or-epub/
@@ -72,9 +72,9 @@ The following code example demonstrates how to export Base64-encoded fonts to HT
 
 ## Specify Save Options when Conversion to EPUB
 
-Aspose.Words enables converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options) to the Save method.
+Aspose.Words allows converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options) to the Save method.
 
-The following code example demonstrates how to converts a Word document to EPUB with specifying some custom save options:
+The following code example shows how to converts a Word document to EPUB with specifying some custom save options:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToEPUB-ConvertDocumentToEPUB.cpp" >}}
 

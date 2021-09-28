@@ -94,7 +94,7 @@ To remove the margin declaration, set PageHorizontalAlignment to HtmlFixedPageHo
  Allows to specify how numbered list items are recognized when document is imported from plain text format.
  The default value is true.
  <p>This property is used only when loading plain text documents.</p>
- <p> If set to true,  lists recognition algorithm enables list numbers to end with either dot or whitespace character.</p>
+ <p> If set to true,  lists recognition algorithm allows list numbers to end with either dot or whitespace character.</p>
  <p>If this option is set to false then the list item is only recognized as such if the leading number is ending with dot "." symbol.</p>
 */
 public final boolean getAllowTrailingWhitespaceForListItems()

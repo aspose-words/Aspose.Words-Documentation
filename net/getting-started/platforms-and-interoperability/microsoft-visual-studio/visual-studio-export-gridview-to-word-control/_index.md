@@ -24,7 +24,7 @@ This initial version of the control provides the following features:
 
 ![visual-studio-export-gridview-to-word-control-aspose-words-net-2](visual-studio-export-gridview-to-word-control_1.png)
 
-This control enables you to export GridView in the following different file formats.
+This control allows you to export GridView in the following different file formats.
 
 1. Export GridView to Word Document.
 1. Export GridView to Doc

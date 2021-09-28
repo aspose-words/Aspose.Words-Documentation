@@ -13,7 +13,7 @@ With Aspose.Words, you can use bookmarks in reports or documents to insert some 
 
 ## Bookmarks in Microsoft Word
 
-In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of a few letters and digits.
+In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of many letters and digits.
 
 ### Inserting a Bookmark in Microsoft Word
 
@@ -55,11 +55,11 @@ The below code example demonstrates how to create a new bookmark.
 
 Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the Node.Range property exposed by any document node that returns a Range object representing the portion of the document contained in this node. Use this object to retrieve a BookmarkCollection and then use the collection indexer to get a specific bookmark.
 
-The below code example shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from here.
+The below code example demonstrates how to obtain bookmarks from a bookmark collection. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-AccessBookmarks-AccessBookmarks.cpp" >}}
 
-The below code example demonstrates how to get or set bookmark name and text. You can download the template file of this example from here.
+The below code example shows how to get or set bookmark name and text. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cpp" >}}
 

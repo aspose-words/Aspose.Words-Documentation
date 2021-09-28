@@ -6,7 +6,7 @@ weight: 90
 url: /net/track-changes-in-a-document/
 ---
 
-The functionality of track changes, also known as reviewing, allows you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.
+The functionality of track changes, also known as reviewing, enables you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.
 
 When you enable the track changes feature, all inserted, deleted, and modified elements of the document will be visually highlighted with information about by whom, when, and what was changed. Objects that carry the information about what was changed are called “tracking changes”. For example, assume that you want to review a document and make important changes – this may mean that you need to make revisions. Also, you may need to insert comments to discuss some of the changes. That is where tracking changes in documents come in.
 
@@ -62,7 +62,7 @@ The following code example shows how to work with tracking changes:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-AcceptAllRevisions.cs" >}}
 
-The following code example shows how revisions are generated when a node is moved within a tracked document:
+The following code example demonstrates how revisions are generated when a node is moved within a tracked document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-MoveNodeInTrackedDocument.cs" >}}
 
@@ -70,11 +70,11 @@ The following code example shows how revisions are generated when a node is move
 
 With the previous tracking changes feature, you can understand which changes were made in your document and who made those changes. While with the [TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions) feature, you force any changes within your document to be stored as revisions.
 
-Aspose.Words enables you to check if a document has a revision or not by using the [HasRevision](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions) property. If you do not need to automatically track the changes in your document through the StartTrackRevisions and StopTrackRevisions methods, then you can use the TrackRevisions property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
+Aspose.Words allows you to check if a document has a revision or not by using the [HasRevision](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions) property. If you do not need to automatically track the changes in your document through the StartTrackRevisions and StopTrackRevisions methods, then you can use the TrackRevisions property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
 
 The TrackRevisions feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
 
-In addition, Aspose.Words allows you to check if an object was inserted, deleted, or changed formatting using the [IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision), [IsFormatRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isformatrevision), [IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isinsertrevision), [IsMoveFromRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/ismovefromrevision), and [IsMoveToRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/ismovetorevision) properties.
+In addition, Aspose.Words enables you to check if an object was inserted, deleted, or changed formatting using the [IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision), [IsFormatRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isformatrevision), [IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isinsertrevision), [IsMoveFromRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/ismovefromrevision), and [IsMoveToRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/ismovetorevision) properties.
 
 {{% alert color="primary" %}}
 
@@ -82,6 +82,6 @@ Note that there is no connection between the revisions themselves and the TrackR
 
 {{% /alert %}}
 
-The following code example shows how to apply different properties with revisions:
+The following code example demonstrates how to apply different properties with revisions:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-ShapeRevision.cs" >}}

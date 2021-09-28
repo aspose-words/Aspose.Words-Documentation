@@ -140,7 +140,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, I
 
 
 
-It allows to specify an additional options that affect the formatting of a result document.
+It enables to specify an additional options that affect the formatting of a result document.
 
 See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for .NET 19.4 Release Notes](/words/net/aspose-words-for-net-19-4-release-notes/).
 
@@ -166,7 +166,7 @@ Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
 {{< highlight html >}}
 /// <summary>
-/// True if this paragraph break is a Style Separator. A style separator enables one
+/// True if this paragraph break is a Style Separator. A style separator allows one
 /// paragraph to consist of parts that have different paragraph styles.
 /// </summary>
 public bool BreakIsStyleSeparator
@@ -176,7 +176,7 @@ public bool BreakIsStyleSeparator
 
 
 
-It enables to identify Style Separator Paragraph.
+It allows to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -266,7 +266,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called several times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called multiple times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
@@ -356,7 +356,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 Font runFont = runs[1].Font;
 
-// One run might have many Dml text effects applied.
+// One run might have several Dml text effects applied.
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Effect3D));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Reflection));

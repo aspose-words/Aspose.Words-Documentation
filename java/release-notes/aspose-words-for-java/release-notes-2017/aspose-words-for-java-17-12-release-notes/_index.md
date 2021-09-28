@@ -252,7 +252,7 @@ public class ChartAxis
     /// </remarks>
     public AxisTimeUnit BaseTimeUnit { get; set; }
     /// <summary>
-    /// Returns a ChartNumberFormat object that enables defining number formats for the axis.
+    /// Returns a ChartNumberFormat object that allows defining number formats for the axis.
     /// </summary>
     public ChartNumberFormat NumberFormat { get; }
     /// <summary>

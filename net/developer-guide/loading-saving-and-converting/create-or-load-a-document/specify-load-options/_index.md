@@ -42,9 +42,9 @@ The following code example shows how to use this property:
 
 ## Use ResourceLoadingCallback to Control the External Resources Loading
 
-A document may contain external links to images located somewhere on a local disk, network, or Internet. Aspose.Words automatically loads such images into a document, but there are situations when this process needs to be controlled. For example, to decide whether we really need to load a certain image or perhaps skip it. The [ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/resourceloadingcallback) load option enables you to control this.
+A document may contain external links to images located somewhere on a local disk, network, or Internet. Aspose.Words automatically loads such images into a document, but there are situations when this process needs to be controlled. For example, to decide whether we really need to load a certain image or perhaps skip it. The [ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/resourceloadingcallback) load option allows you to control this.
 
-The following code example shows the implementation of the [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback) interface:
+The following code example demonstrates the implementation of the [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback) interface:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-HtmlLinkedResourceLoadingCallback.cs" >}}
 
@@ -74,7 +74,7 @@ The following code example shows how to set the encoding to override the automa
 
 You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions) object. This object contains the [Password](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/password) property, which specifies the password string.
 
-The following code example shows how to load a document encrypted with a password:
+The following code example demonstrates how to load a document encrypted with a password:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-OpenEncryptedDocument-OpenEncryptedDocument.cs" >}}
 

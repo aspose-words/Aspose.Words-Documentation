@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words or Microsoft Office Automation
-description: "When choosing between Aspose.Words for Java and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in many ways."
+description: "When choosing between Aspose.Words for Java and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in numerous ways."
 type: docs
 weight: 10
 url: /java/aspose-words-or-microsoft-office-automation/
@@ -22,13 +22,13 @@ The shortest answer we could give to the second question is that the main reason
 
 Aspose components have been thoroughly tested.
 
-Aspose components are used by companies such as IBM, Hilton, Reader’s Digest, Bank of America, and multiple more.
+Aspose components are used by companies such as IBM, Hilton, Reader’s Digest, Bank of America, and many more.
 
 {{% /alert %}}
 
 ## Why not Automation
 
-There are numerous reasons why Aspose.Words components are a better alternative to automation:
+There are many reasons why Aspose.Words components are a better alternative to automation:
 
 - Security
 - Stability
@@ -46,7 +46,7 @@ Aspose components were built with the goal of allowing developers to create, man
 
 The following is a direct quote from the above-referenced Microsoft article:
 
-> “Office applications were never intended for server-side use. Therefore, Office applications do not take into consideration the security problems that distributed components face. Office does not authenticate incoming requests. Office also does not protect you from unintentionally running macros, or from starting another server that might run macros, from your server-side code. Do not open files that are uploaded to the server from an anonymous Web site. Based on the security settings that were last set, the server can run macros under an Administrator or System context with full privileges and can therefore compromise your network. Additionally, Office uses several client-side components (such as Simple MAPI, WinInet, and MSDAIPP) that can cache client authentication information to speed processing. If Office is being automated server-side, one instance may service more than one client. If authentication information has been cached for that session, one client can use the cached credentials of another client. Therefore, the client may gain non-granted access permissions by impersonating other users."
+> “Office applications were never intended for server-side use. Therefore, Office applications do not take into consideration the security problems that distributed components face. Office does not authenticate incoming requests. Office also does not protect you from unintentionally running macros, or from starting another server that might run macros, from your server-side code. Do not open files that are uploaded to the server from an anonymous Web site. Based on the security settings that were last set, the server can run macros under an Administrator or System context with full privileges and can therefore compromise your network. Additionally, Office uses a few client-side components (such as Simple MAPI, WinInet, and MSDAIPP) that can cache client authentication information to speed processing. If Office is being automated server-side, one instance may service more than one client. If authentication information has been cached for that session, one client can use the cached credentials of another client. Therefore, the client may gain non-granted access permissions by impersonating other users."
 
 ### Stability
 
@@ -56,7 +56,7 @@ Aspose components require only the Java Runtime Environment and there is no port
 
 The following is a direct quote from the above referenced Microsoft article:
 
-> “Office 2000, Office XP, Office 2003, and Office 2007 use Microsoft Windows Installer (MSI) technology to make installation and self-repair easier for an end user. MSI introduces the concept of "install on first use." This allows features to be dynamically installed or configured at run time for the system, or more often for a particular user. In a server-side environment, this both slows down performance and increases the likelihood that a dialog box may appear that asks the user to approve the installation or to provide an installation disk. Although this is designed to increase the resiliency of Office as an end-user product, Office's implementation of MSI capabilities is counterproductive in a server-side environment. Furthermore, the stability of Office in general cannot be assured when Office is run server-side because it has not been designed or tested for this type of use. Using Office as a service component on a network server may reduce the stability of that computer, and therefore may reduce the stability of your whole network."
+> “Office 2000, Office XP, Office 2003, and Office 2007 use Microsoft Windows Installer (MSI) technology to make installation and self-repair easier for an end user. MSI introduces the concept of "install on first use." This enables features to be dynamically installed or configured at run time for the system, or more often for a particular user. In a server-side environment, this both slows down performance and increases the likelihood that a dialog box may appear that asks the user to approve the installation or to provide an installation disk. Although this is designed to increase the resiliency of Office as an end-user product, Office's implementation of MSI capabilities is counterproductive in a server-side environment. Furthermore, the stability of Office in general cannot be assured when Office is run server-side because it has not been designed or tested for this type of use. Using Office as a service component on a network server may reduce the stability of that computer, and therefore may reduce the stability of your whole network."
 
 ### Scalability and Speed
 
@@ -80,7 +80,7 @@ All the Aspose components offer a risk-free, no-obligation [evaluation version](
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Unlike Office Automation, Aspose components provide multiple powerful time-saving functions. For example, Aspose.Words offers a feature that allows developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](https://docs.aspose.com/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Unlike Office Automation, Aspose components provide many powerful time-saving functions. For example, Aspose.Words offers a feature that enables developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](https://docs.aspose.com/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 The best part of purchasing an Aspose component or a component suite is accessing our development teams. Our development teams realize that if there is a feature that your company needs, more than likely other companies will need it as well. While not every feature request can be added, our teams try to be very open-minded and flexible when providing assistance. That mindset has made Aspose components as powerful as they are. However, if there are additional features that you need from Office Automation objects, your chances of having them added are very low.
 

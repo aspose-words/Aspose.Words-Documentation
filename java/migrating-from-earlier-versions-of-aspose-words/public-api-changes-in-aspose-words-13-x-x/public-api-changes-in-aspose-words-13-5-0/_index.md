@@ -41,11 +41,11 @@ The algorithm used in previous versions of Aspose.Words to load plain text files
 
 ## PageSetup.MultiplePages and PageSetup.SheetsPerBooklet Added to PageSetup
 
-The **PageSetup.MultiplePages** and **PageSetup.SheetsPerBooklet** properties have been added to PageSetup to allow specifying Book Fold a few page options.
+The **PageSetup.MultiplePages** and **PageSetup.SheetsPerBooklet** properties have been added to PageSetup to allow specifying Book Fold numerous page options.
 
 Possible MultiplePagesType:
 
-- Normal - Normal printing, no several pages specified.
+- Normal - Normal printing, no a few pages specified.
 - MirrorMargins - Swaps left and right margins on facing pages.
 - TwoPagesPerSheet - Prints two pages per sheet.
 - BookFoldPrinting - Specifies whether to print the document as a book fold.

@@ -93,7 +93,7 @@ There are 103 improvements and fixes in this regular monthly release. The most 
 |WORDSNET-3697 |Footnote is positioned incorrectly during rendering. |Enhancement |
 |WORDSNET-4662 |Picture switches does not work as expected in Dutch culture. |Enhancement |
 |WORDSNET-9839 |Unicode supplemental characters are not preserved during open/save a DOC |Enhancement |
-|WORDSNET-10697 |"There are too numerous styles in the document" error occurs during appending documents |Exception |
+|WORDSNET-10697 |"There are too many styles in the document" error occurs during appending documents |Exception |
 |WORDSNET-11006 |DocumentBuilder.InsertHtml throws System.ArgumentNullException |Exception |
 |WORDSNET-11025 |DocumentBuilder insertHtml h1 tag causes System.FormatException |Exception |
 |WORDSNET-11053 |Aspose.Words.FileCorruptedException occurs when loading a DOC file |Exception |

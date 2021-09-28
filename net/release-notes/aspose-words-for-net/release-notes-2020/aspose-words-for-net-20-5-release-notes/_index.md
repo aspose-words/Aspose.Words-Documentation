@@ -290,7 +290,7 @@ public enum PageLayoutEvent
     PartReflowStarted,
     /// <summary>
     /// Reflow of the page has finished.
-    /// Note that page may reflow several times and that reflow may restart before it is finished.
+    /// Note that page may reflow numerous times and that reflow may restart before it is finished.
     /// <seealso cref="PageLayoutCallbackArgs.PageIndex"/>
     /// </summary>
     PartReflowFinished,

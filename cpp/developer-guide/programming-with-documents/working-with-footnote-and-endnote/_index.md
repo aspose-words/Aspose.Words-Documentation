@@ -7,7 +7,7 @@ url: /cpp/working-with-footnote-and-endnote/
 
 ## Insert Endnote and Set Numbering Options
 
-If you want to insert a footnote or endnote in a Word document, please use DocumentBuilder.InsertFootnote method. This method inserts a footnote or endnote into the document. EndnoteOptions and FootnoteOptions classes represent numbering options for footnote and endnote. The following code example demonstrates how to insert an endnote into the document and set its numbering options. 
+If you want to insert a footnote or endnote in a Word document, please use DocumentBuilder.InsertFootnote method. This method inserts a footnote or endnote into the document. EndnoteOptions and FootnoteOptions classes represent numbering options for footnote and endnote. The following code example shows how to insert an endnote into the document and set its numbering options. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithFootnote-SetEndnoteOptions.cpp" >}}
 

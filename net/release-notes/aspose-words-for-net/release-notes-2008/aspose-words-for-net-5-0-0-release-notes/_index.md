@@ -58,7 +58,7 @@ Although the degree of Aspose.Words conformance to OOXML is high, not all OOXML 
 
 By having a major version change we indicate there are some breaking changes in the API.
 
-The changes are not likely to affect several users. Even if you cannot recompile your project because of a change, it is very easy to update your code because all changes are cosmetic, although they had to be done.
+The changes are not likely to affect a few users. Even if you cannot recompile your project because of a change, it is very easy to update your code because all changes are cosmetic, although they had to be done.
 
 The breaking changes in Aspose.Words for .NET 5.0.0 are:
 

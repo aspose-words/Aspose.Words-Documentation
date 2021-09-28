@@ -50,7 +50,7 @@ In previous versions a merge field with an empty string as a table name would be
 
 ## Non-standard Quotation Marks are Recognized in Fields
 
-Microsoft Word recognizes quotation marks in fields from several Unicode characters: U+0022 (standard), U+00AB, U+00BB, U+201C, U+201D, U+201E, U+201E. Aspose.Words previously only recognized the standard quotation marks, however with this release it now recongizes all of the listed characters.
+Microsoft Word recognizes quotation marks in fields from a few Unicode characters: U+0022 (standard), U+00AB, U+00BB, U+201C, U+201D, U+201E, U+201E. Aspose.Words previously only recognized the standard quotation marks, however with this release it now recongizes all of the listed characters.
 
 ## Partial Support of 3D Chart Rendering
 

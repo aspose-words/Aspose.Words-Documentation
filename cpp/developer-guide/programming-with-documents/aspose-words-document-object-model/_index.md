@@ -55,7 +55,7 @@ The following example demonstrates how to get a node type using the **NodeType**
 
 ## Document Tree Navigation
 
-Aspose.Words represents a document as a node tree, which enables you to navigate between nodes. This section describes how to explore and navigate the document tree in Aspose.Words.
+Aspose.Words represents a document as a node tree, which allows you to navigate between nodes. This section describes how to explore and navigate the document tree in Aspose.Words.
 
 When you open the sample document, presented earlier, in the Document Explorer, the node tree appears exactly as it is represented in Aspose.Words.
 
@@ -71,7 +71,7 @@ The nodes in the tree have relationships between them:
 
 The nodes that can contain other nodes derive from the [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node) class, and all nodes ultimately derive from the [Node](https://apireference.aspose.com/words/cpp/class/aspose.words.node) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
 
-The following UML object diagram shows multiple nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
+The following UML object diagram demonstrates multiple nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
 <img src="document-nodes-relationships.png" alt="document-nodes-relationships-aspose-words-cpp" style="width:370px"/>
 
@@ -87,7 +87,7 @@ The [Node.Document]https://apireference.aspose.com/words/cpp/class/aspose.words.
 
 When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_document_const) property.
 
-The following code example shows that when creating any node, a document that will own the node is always defined:
+The following code example demonstrates that when creating any node, a document that will own the node is always defined:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-OwnerDocument.cpp" >}}
 
@@ -111,7 +111,7 @@ The most efficient way to access child nodes of a [CompositeNode](https://apiref
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#get_haschildnodes) property.
 
-The following code example demonstrates how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
+The following code example shows how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cpp" >}}
 
@@ -123,7 +123,7 @@ The following code example demonstrates how to enumerate immediate child nodes o
 
 You can obtain the node that immediately precedes or follows a particular node using the [PreviousSibling](https://apireference.aspose.com/words/cpp/class/aspose.words.node#get_previoussibling) and [NextSibling](https://apireference.aspose.com/words/cpp/class/aspose.words.node#get_nextsibling) properties, respectively. If a node is the last child of its parent, then the **NextSibling** property is *null*. Conversely, if the node is the first child of its parent, the **PreviousSibling** property is *null*.
 
-The following code example demonstrates how to efficiently visit all direct and indirect child nodes of a composite node:
+The following code example shows how to efficiently visit all direct and indirect child nodes of a composite node:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-RecurseAllNodes.cpp" >}}
 
@@ -139,6 +139,6 @@ To reduce the need for casting, most Aspose.Words classes provide properties and
 
 Typed properties are merely useful shortcuts that sometimes provide easier access than generic properties inherited from [Node.ParentNode](https://apireference.aspose.com/words/cpp/class/aspose.words.node#get_parentnode) and [CompositeNode.FirstChild](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#get_firstchild_const).
 
-The following code example shows how to use typed properties to access nodes of the document tree:
+The following code example demonstrates how to use typed properties to access nodes of the document tree:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-TypedAccess.cpp" >}}

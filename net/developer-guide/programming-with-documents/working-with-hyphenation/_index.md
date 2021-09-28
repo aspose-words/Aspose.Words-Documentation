@@ -53,7 +53,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
+The following code example demonstrates how to load hyphenation dictionaries for the specified language from a stream:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Hyphenation-LoadHyphenationDictionaryForLanguage.cs" >}}
 

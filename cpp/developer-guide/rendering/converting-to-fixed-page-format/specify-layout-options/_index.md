@@ -33,7 +33,7 @@ In Microsoft Word, this parameter is set using the "Track Changes Options" dialo
 
 ![specify-layout-options-aspose-words-cpp-3](specify-layout-options_4.png)
 
-Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_revisionoptions_const) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.revision_options/) class.
+Also, Aspose.Words enables you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_revisionoptions_const) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.revision_options/) class.
 
 You can also have revisions displayed as comments to the content. For this purpose, use the [CommentDisplayMode](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#set_commentdisplaymode) property and [ShowInBalloons](https://apireference.aspose.com/words/cpp/namespace/aspose.words.layout#commentdisplaymode) value.
 
@@ -41,7 +41,7 @@ The following code example shows how to customize revisions display:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithRevisionOptions-SetShowInBalloons.cpp" >}}
 
-The image below shows how Aspose.Words renders comments and the Delete revisions:
+The image below demonstrates how Aspose.Words renders comments and the Delete revisions:
 
 <img src="specify-layout-options_2.png" alt="comments_and_revisions_example_aspose_words_cpp" style="width:800px"/>
 

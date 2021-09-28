@@ -28,7 +28,7 @@ There are 60+ improvements and fixes in this regular monthly release. The most n
 - Vertical axis of 3DArea Chart scaling fixed.
 - MS Word 2016 approach for rendering of DrawingML Charts axis labels implemented; (Labels are rotated to fit the chart).
 - Fixed rendering of Legend markers for 3D-LineChart.
-- Improved rendering of composite (with many series) charts.
+- Improved rendering of composite (with numerous series) charts.
 - Chart title with ManualLayout rendering fixed.
 
 'Aspose.Words for Android via Java' 18.1 also includes the current 'Aspose.Words for Java' features. See the full list of changes in [Aspose.Words for Java 18.1 Release Notes](/words/java/aspose-words-for-java-18-1-release-notes/).

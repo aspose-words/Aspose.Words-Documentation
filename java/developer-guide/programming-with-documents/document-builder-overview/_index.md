@@ -6,9 +6,9 @@ weight: 15
 url: /java/document-builder-overview/
 ---
 
-[DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/java/com.aspose.words/document) and allows you to build dynamic documents from scratch or add new elements to an existing one.
+[DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/java/com.aspose.words/document) and enables you to build dynamic documents from scratch or add new elements to an existing one.
 
-**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
+**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It enables you to specify fonts, paragraph or section formatting, and perform other operations.
 
 ## Document Builder or Aspose.Words DOM
 
@@ -38,7 +38,7 @@ To start, you need to create a **DocumentBuilder** and associate it with a **Doc
 
 To insert a text, pass the string of text you need to insert into the document to the **Write** method.
 
-The following code example shows how to create a simple document using a document builder.
+The following code example demonstrates how to create a simple document using a document builder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-quickstart-HelloWorld-CreateNewDocument.java" >}}
 

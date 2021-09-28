@@ -23,7 +23,7 @@ The code example given below demonstrates how to retrieve the index of a row in
 
 ### Finding the Index of a Cell in a Row
 
-The code example given below demonstrates how to retrieve the index of a cell in a row.
+The code example given below shows how to retrieve the index of a cell in a row.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveCellIndex.cs" >}}
 
@@ -47,13 +47,13 @@ The code example given below demonstrates how to insert a blank column into a t
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-InsertBlankColumn.cs" >}}
 
-Below example shows how to remove a column from a table in a document.
+Below example demonstrates how to remove a column from a table in a document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-RemoveColumn.cs" >}}
 
 ## Specifying Rows to Repeat on Subsequent Pages as Header Rows
 
-In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or several rows in a table.
+In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or many rows in a table.
 
 In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
 
@@ -111,7 +111,7 @@ Note that this autofit option clears the preferred widths from the cells just li
 
 ### Disabling AutoFitting on a Table and Use Fixed Column Widths
 
-The code example given below shows how to disable autofitting and enables fixed widths for the specified table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+The code example given below demonstrates how to disable autofitting and enables fixed widths for the specified table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cs" >}}
 
@@ -155,7 +155,7 @@ In Aspose.Words the technique is the same. Each paragraph inside the cells of th
 
 ## Working with Merged Cells
 
-In a table, multiple cells can be merged together into a single cell. This is useful when certain rows require a title or large blocks of text which span across the width of the table. This can only be achieved by merging some of the cells in the table into a single cell. Aspose.Words supports merged cells when working with all input formats including when importing HTML content.
+In a table, several cells can be merged together into a single cell. This is useful when certain rows require a title or large blocks of text which span across the width of the table. This can only be achieved by merging some of the cells in the table into a single cell. Aspose.Words supports merged cells when working with all input formats including when importing HTML content.
 
 ### Merged Cells in Aspose.Words
 
@@ -185,11 +185,11 @@ The code example given below demonstrates how to create a table with two column
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-VerticalMerge.cs" >}}
 
-In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over several rows or columns. A method which merges all cells of a table in the specified range of cells.
+In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over a few rows or columns. A method which merges all cells of a table in the specified range of cells.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-MergeCells.cs" >}}
 
-The code example given below demonstrates how to merge the range of cells between the two specified cells. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
+The code example given below shows how to merge the range of cells between the two specified cells. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-MergeCellRange.cs" >}}
 

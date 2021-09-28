@@ -7,7 +7,7 @@ url: /net/document-features-supported-on-image-export/
 
 {{% alert color="primary" %}} 
 
-The Aspose.Words rendering engine can render entire documents or certain pages of any document loaded into multiple different rendered formats.
+The Aspose.Words rendering engine can render entire documents or certain pages of any document loaded into a few different rendered formats.
 
 These formats are:
 
@@ -20,7 +20,7 @@ You can also render Shape nodes separatly from the document to image or a Graphi
 
 Aspose.Words renders these documents with high fidelity and most document features are supported.
 
-There are save options to control how the document is rendered. There are often many special save options for each image format. For example there are options to:
+There are save options to control how the document is rendered. There are often several special save options for each image format. For example there are options to:
 
 - Specify the brightness, contrast and color mode for the rendered output.
 - Specify the page or page range to render.

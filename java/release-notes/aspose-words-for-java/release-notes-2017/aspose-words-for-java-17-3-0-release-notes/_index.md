@@ -103,7 +103,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14745|Provide ability to specify locale at Field level|[Feature]()|
 |WORDSNET-14956|Implement reading of themes for RTF format.|Feature|
 |WORDSNET-8969|Support of MS Word 2013 documents (WORDSNET-7741 and WORDSNET-7964)|Feature|
-|WORDSNET-9943|/table grid/ Cell's content is rendering a few inches to the right in PDF|Feature|
+|WORDSNET-9943|/table grid/ Cell's content is rendering many inches to the right in PDF|Feature|
 |WORDSNET-14454|LeftIndent and FirstLineIndent are lost in output Docx|Regression|
 
 ## Public API and Backward Incompatible Changes
@@ -218,7 +218,7 @@ Mimic MS Word VBA behavior:
 
 ### WORDSNET-14745 - Provided Ability to Specify Locale at Field Level
 
-As per customer's request, we have added a property that enables to get/set field's locale:
+As per customer's request, we have added a property that allows to get/set field's locale:
 
 {{< highlight csharp >}}
 /**

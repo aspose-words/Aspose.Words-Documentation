@@ -242,7 +242,7 @@ Also added corresponding public enums:
 /// <remarks>
 /// Specifies a theme font type which can be referenced as a theme font within the parent object properties.
 /// This theme font is a reference to one of the predefined theme fonts, located in the document's
-/// Theme part, which allows for font information to be set centrally in the document.
+/// Theme part, which enables for font information to be set centrally in the document.
 /// </remarks>
 public enum ThemeFont
 {{< /highlight >}}
@@ -738,7 +738,7 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex);
 /// <param name="rowIndex">The index of the row in the table.</param>
 /// <param name="columnIndex">The index of the column in the table.</param>
 /// <param name="characterIndex">The index of the character inside the cell.
-/// A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of
+/// A negative value enables you to specify a position from the end of the cell. Use -1 to move to the end of
 /// the cell.</param>
 public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)
 {{< /highlight >}}

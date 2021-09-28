@@ -13,7 +13,7 @@ Comments of the document are represented by the [Comment](http://www.aspose.com/
 
 ## How to Extract or Remove Comments
 
-Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are multiple reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
+Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are numerous reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
 
 In this sample we are going to look at some simple methods for both gathering information from the comments within a document and for removing comments from a document. Specifically we'll cover how to:
 
@@ -71,7 +71,7 @@ The main point to highlight here is the use of the for operator. Unlike the simp
 
 ## How to Add a Comment
 
-Below example demonstrates how to add a comment to a paragraph in the document.
+Below example shows how to add a comment to a paragraph in the document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-AddComments-AddComments.cs" >}}
 

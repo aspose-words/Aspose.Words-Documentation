@@ -13,7 +13,7 @@ This release supports the following features:
 
 - Remove duplicates of attachments in single record.
 - Remove duplicates of attachments in many records of single entity.
-- Remove duplicates of attachments in several entities.
+- Remove duplicates of attachments in multiple entities.
 
 ## System Requirements and Supported Platforms
 

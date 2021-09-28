@@ -43,7 +43,7 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 ## Loading Hyphenation Dictionaries
 
-To use the hyphenation feature, first register a hyphenation dictionary.The following code example demonstrates how to load hyphenation dictionaries for the specified languages from a file:
+To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
 
@@ -53,7 +53,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
+The following code example demonstrates how to load hyphenation dictionaries for the specified language from a stream:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 

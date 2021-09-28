@@ -7,7 +7,7 @@ url: /cpp/inserting-fields/
 
 ## Inserting Fields into a Document
 
-In Aspose.Words the **DocumentBuilder.InsertField** method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and enables the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
+In Aspose.Words the **DocumentBuilder.InsertField** method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
 {{% alert color="primary" %}} 
 
@@ -15,11 +15,11 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}} 
 
-The code example given below shows how to Inserts a merge field into a document using DocumentBuilder.
+The code example given below demonstrates how to Inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertField-InsertField.cpp" >}}
 
-The same technique is used to insert fields nested within other fields. The code example given below shows how to insert fields nested within another field using DocumentBuilder.
+The same technique is used to insert fields nested within other fields. The code example given below demonstrates how to insert fields nested within another field using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertNestedFields-InsertNestedFields.cpp" >}}
 
@@ -123,6 +123,6 @@ Please refer to FieldToa Class API reference. The code example given below de
 
 ### How to Insert Untyped/Empty Field
 
-If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. The code example given below shows how to insert an empty field in the document.
+If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. The code example given below demonstrates how to insert an empty field in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cpp" >}}

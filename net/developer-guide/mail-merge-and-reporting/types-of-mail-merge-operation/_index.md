@@ -33,7 +33,7 @@ The main limitation of using this type is the whole document content will be rep
 
 Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute methods](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/execute/index) that accept various data objects as the data source.
 
-The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/execute/methods/5) method:
+The following code example demonstrates how to execute a simple mail merge operation using one of the [Execute](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/execute/methods/5) method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-SimpleMailMerge-SimpleMailMergeExecuteArray.cs" >}}
 
@@ -47,9 +47,9 @@ And after executing simple mail merge:
 
 ### How to Create Multiple Merged Documents
 
-In Aspose.Words, the standard mail merge operation fills only a single document with content from your data source. So, you will need to execute the mail merge operation many times to create numerous merged documents as an output.
+In Aspose.Words, the standard mail merge operation fills only a single document with content from your data source. So, you will need to execute the mail merge operation numerous times to create a few merged documents as an output.
 
-The following code example demonstrates how to generate multiple merged documents during a mail merge operation:
+The following code example shows how to generate multiple merged documents during a mail merge operation:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ProduceMultipleDocuments-ProduceMultipleDocuments.cs" >}}
 
@@ -75,7 +75,7 @@ As a first step, we need to create the DataSet to pass it later as an input para
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-CreateDataSet.cs" >}}
 
-The following code example demonstrates how to execute mail merge with regions using the [ExecuteWithRegions(DataSet)](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/executewithregions/methods/2) method:
+The following code example shows how to execute mail merge with regions using the [ExecuteWithRegions(DataSet)](https://apireference.aspose.com/words/net/aspose.words.mailmerging.mailmerge/executewithregions/methods/2) method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-MailMergeWithRegions.cs" >}}
 

@@ -33,7 +33,7 @@ Using Aspose.Words for Java in your project gives you the following benefits:
 * Independence from third-party applications
 * Minimal learning curve
 
-The following diagram demonstrates the main features of Aspose.Words for Java and how they relate to each other.
+The following diagram shows the main features of Aspose.Words for Java and how they relate to each other.
 
 <img src="aspose_words-product-features-overview.png" alt="aspose_words-java-product-features-overview" style="width:800px"/>
 
@@ -45,7 +45,7 @@ Aspose.Words for Java features can be divided into four main areas.
 
 The ability to easily and reliably convert documents is one of the main features of Aspose.Words.
 
-Comprehensive [document import and export](https://docs.aspose.com/words/java/loading-saving-and-converting/) with [over 35 supported file formats](https://docs.aspose.com/words/java/supported-document-formats/) allows users to convert documents from [one popular format](https://apireference.aspose.com/words/java/com.aspose.words/LoadFormat) to [another](https://apireference.aspose.com/words/java/com.aspose.words/SaveFormat), for example, from DOCX to PDF, JPEG, or Markdown.
+Comprehensive [document import and export](https://docs.aspose.com/words/java/loading-saving-and-converting/) with [over 35 supported file formats](https://docs.aspose.com/words/java/supported-document-formats/) enables users to convert documents from [one popular format](https://apireference.aspose.com/words/java/com.aspose.words/LoadFormat) to [another](https://apireference.aspose.com/words/java/com.aspose.words/SaveFormat), for example, from DOCX to PDF, JPEG, or Markdown.
 
 #### Document Object Model (DOM)
 

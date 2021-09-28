@@ -30,7 +30,7 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update Fields having Dirty Attribute
 
-The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use LoadOptions.UpdateDirtyFields property to specify whether to update the fields with the dirty attribute. When the value of LoadOptions.UpdateDirtyFields is set to *true*, all fields having *true* value for Field.IsDirty or FieldChar.IsDirty property are updated on document load. Following example shows how to update fields having dirty attribute. 
+The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use LoadOptions.UpdateDirtyFields property to specify whether to update the fields with the dirty attribute. When the value of LoadOptions.UpdateDirtyFields is set to *true*, all fields having *true* value for Field.IsDirty or FieldChar.IsDirty property are updated on document load. Following example demonstrates how to update fields having dirty attribute. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadOptionsUpdateDirtyFields.cs" >}}
 
@@ -68,7 +68,7 @@ In previous versions a call to Document.UpdatePageLayout was required in order t
 
 **Document.UpdatePageLayout** is still used to build or rebuild the document layout when a document is to be rendered. When this method is called or a document is rendered (i.e. saved to PDF, XPS, printed etc.) the document layout is built. In previous versions this process would update all page-layout related fields, however in the current version these fields are automatically updated only in the headers and footers of the document.
 
-These changes to how fields are updated upon document layout are required and match how Microsoft Word updates fields. This now enables a document to be rendered without any fields in the main body being updated which is how fields are evaluated in Microsoft Word.
+These changes to how fields are updated upon document layout are required and match how Microsoft Word updates fields. This now allows a document to be rendered without any fields in the main body being updated which is how fields are evaluated in Microsoft Word.
 
 If the old functionality of updating page-related fields in the entire document when rendering is desired then an explicit call to **Document.UpdateFields** is required before saving the document.
 
@@ -80,7 +80,7 @@ As with **Document.UpdateFields** this may invoke the document layout to be buil
 
 ### Rebuilding TOC Fields No Longer Requires UpdatePageLayout to be Called
 
-As explained earlier, all fields are now updated using Document.UpdateFields. This now means a more concise and clearer way to update the fields in a document. This also means in situations such as updating a TOC field you no longer require any call to Document.UpdatePageLayout. All work is handled within the Document.UpdateFields call. Below examples demonstrates how to completely rebuild TOC fields in the document by invoking field update.
+As explained earlier, all fields are now updated using Document.UpdateFields. This now means a more concise and clearer way to update the fields in a document. This also means in situations such as updating a TOC field you no longer require any call to Document.UpdatePageLayout. All work is handled within the Document.UpdateFields call. Below examples shows how to completely rebuild TOC fields in the document by invoking field update.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
 
@@ -112,13 +112,13 @@ The ConvertFieldsToStaticText method accepts two parameters, a CompositeNode and
 
 For example you can pass a Document object and convert the fields of the specified type from the entire document to static text, or you could pass the [Body](http://www.aspose.com/api/net/words/aspose.words/body) object of a section and convert only fields found within that body.
 
-When passing a block level node such as a [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) , be aware that in some cases fields can span across several paragraphs. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
+When passing a block level node such as a [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) , be aware that in some cases fields can span across many paragraphs. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
 
-The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. Below example shows how to convert all fields of a specified type in a document to static text. You can download template file of below examples from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Linked%20fields.docx).
+The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. Below example demonstrates how to convert all fields of a specified type in a document to static text. You can download template file of below examples from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Linked%20fields.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInDocument-ConvertFieldsInDocument.cs" >}}
 
-Below example shows how to convert all fields of a specified type in a body of a document to static text.
+Below example demonstrates how to convert all fields of a specified type in a body of a document to static text.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInBody-ConvertFieldsInBody.cs" >}}
 

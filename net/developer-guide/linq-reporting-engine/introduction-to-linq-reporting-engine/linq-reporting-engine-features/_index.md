@@ -5,7 +5,7 @@ weight: 20
 url: /net/linq-reporting-engine-features/
 ---
 
-LINQ Reporting Engine allows you to build reports in a similar way as Aspose.Words Mail Merge does. The engine provides the API that enables you to populate template documents with data that comes from various sources.
+LINQ Reporting Engine enables you to build reports in a similar way as Aspose.Words Mail Merge does. The engine provides the API that enables you to populate template documents with data that comes from various sources.
 
 In contrast to Aspose.Words Mail Merge, LINQ Reporting Engine works with templates based on tags that you can form using just plain text. These tags define expressions and their roles during a report building process. Then, while building a report, the following procedure takes place:
 

@@ -102,7 +102,7 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 * A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 * An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
 * A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportlanguagetospantag) has been added. This option enables users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
-* A new public field updating callback has been implemented. This enables you to have your own custom methods called during field update.
+* A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}
 
@@ -298,7 +298,7 @@ A new public class [MarkdownSaveOptions](https://apireference.aspose.com/words/
 
 #### Layout Callback to Interrupt the Layout Building
 
-The long-awaited layout callback has been implemented and made available to the public. The [IPageLayoutCallback](https://apireference.aspose.com/words/net/aspose.words.layout/ipagelayoutcallback) interface allows your application to interrupt the process of layout building for the entire document and render only the part already built.
+The long-awaited layout callback has been implemented and made available to the public. The [IPageLayoutCallback](https://apireference.aspose.com/words/net/aspose.words.layout/ipagelayoutcallback) interface enables your application to interrupt the process of layout building for the entire document and render only the part already built.
 
 #### Formatting Options
 

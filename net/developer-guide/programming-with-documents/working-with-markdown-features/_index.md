@@ -29,7 +29,7 @@ There are nuances of translating Markdown to the Aspose.Words Document Object Mo
 
 ## Markdown Document with Emphases
 
-This section demonstrates you how to produce a markdown document with emphases as given below:
+This section shows you how to produce a markdown document with emphases as given below:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -83,7 +83,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Horizontal Rule
 
-This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
+This section shows you how to produce a markdown document with Horizontal Rule as given below:
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
@@ -110,6 +110,6 @@ The following code example demonstrated how to specify various Markdown save opt
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides [TableContentAlignment](http://docs.aspose.com) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides [TableContentAlignment](http://docs.aspose.com) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example shows how to align content inside the table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}

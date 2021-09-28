@@ -43,7 +43,7 @@ Aspose.Words allows you to customize your template through numerous properties. 
 
 You can specify the image properties using the [ImageFieldMergingArgs](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.image_field_merging_args/) class.
 
-The following code example demonstrates how to specify the image file name and image size:
+The following code example shows how to specify the image file name and image size:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeFormFields-ImageFieldMerging.cpp" >}}
 

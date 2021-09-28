@@ -71,7 +71,7 @@ The following code example demonstrates how to use control characters.
 
 ## Binding Content Control to Custom XML Parts
 
-You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example demonstrates how to bind content control to custom XML parts. 
+You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example shows how to bind content control to custom XML parts. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-structureddocumenttag-BindSDTtoCustomXmlPart.java" >}}
 

@@ -7,7 +7,7 @@ url: /net/joining-documents-together/
 
 {{% alert color="primary" %}} 
 
-A common task of document processing is to join many small documents together to create a complete document.
+A common task of document processing is to join several small documents together to create a complete document.
 
 {{% /alert %}} 
 
@@ -33,7 +33,7 @@ When migrating to Aspose.Words you will find that this task above is very easy t
 
 This method copies the sections from the source document to the destination document. This removes any need to insert any section breaks which is required in automation. Also note that you can control how the documents appear joined together i.e continuous or on a new page by using the [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) property of the appropriate [Section](https://apireference.aspose.com/words/net/aspose.words/section) object.
 
-*Shows how to join many documents together.*
+*Shows how to join a few documents together.*
 
 **C#**
 

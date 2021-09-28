@@ -43,7 +43,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 * Tables are represented with the Table class
 * Links are represented as the FieldHyperlink class
 
-The following example shows how to create a document with some styles and save it to Markdown:
+The following example demonstrates how to create a document with some styles and save it to Markdown:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.java" >}}
 

@@ -61,7 +61,7 @@ Japanese OTF fonts overlapping characters problem in rendered images fixed
 |WORDSNET-11395 |Textboxes are incorrectly converted to images in MHTML |Bug |
 |WORDSNET-11569 |HTML multilevel list is improperly imported when list item is empty. |Bug |
 |WORDSNET-11629 |Html to Word document conversion issue with Svg |Bug |
-|WORDSNET-11688 |/negative page margins/ Content missing and many pages are produced in PDF |Bug |
+|WORDSNET-11688 |/negative page margins/ Content missing and numerous pages are produced in PDF |Bug |
 |WORDSNET-11701 |Editable SDT is no longer editable in generaed DOCX |Bug |
 |WORDSNET-11857 |Docx to Pdf conversion issue with multi lines Chinese text |Bug |
 |WORDSNET-11881 |Font size is changed after conversion from RTF to Docx |Bug |

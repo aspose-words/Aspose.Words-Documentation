@@ -24,7 +24,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| WORDSNET-17101 | Optimize the PDF output size for document with several gradient filled   shapes | New Feature |
+| WORDSNET-17101 | Optimize the PDF output size for document with numerous gradient filled   shapes | New Feature |
 | WORDSNET-22577 | Add feature to read custom properties from PDF | New Feature |
 | WORDSNET-22603 | Add the ability to apply 3D effects to the image | New Feature |
 | WORDSNET-21742 | Add feature to export language in Tag tab of object properties   (ExportDocumentStructure) | New Feature |
@@ -44,7 +44,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-22516 | Text/row moved to the previous page in converted PDF | Bug |
 | WORDSNET-22466 | Insert Image Exif orientation ignored | Bug |
 | WORDSNET-22613 | Empty page returns when split document on pages using ExtractPages | Bug |
-| WORDSNET-13652 | InsertDocument splits one content control into multiple when document   have section break | Bug |
+| WORDSNET-13652 | InsertDocument splits one content control into a few when document   have section break | Bug |
 | WORDSNET-22547 | VbaModuleCollection.Remove does not remove VBA module from document | Bug |
 | WORDSNET-22560 | VBA Code is lost after modifying source code | Bug |
 | WORDSNET-22541 | VbaProject&nbsp; is removed after   copying modules to existing VbaProject | Bug |

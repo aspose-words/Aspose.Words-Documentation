@@ -23,7 +23,7 @@ The data source includes two records for the **StoreDetails** region but purpose
 
 ![merged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions_2.png)
 
-As noted on the image you can see that the **ContactDetails** region for the second record and **Suppliers** regions have been automatically removed by the mail merge engine as they have no data. However, there are numerous issues that make this output document look incomplete:
+As noted on the image you can see that the **ContactDetails** region for the second record and **Suppliers** regions have been automatically removed by the mail merge engine as they have no data. However, there are several issues that make this output document look incomplete:
 
 - The **ContactDetails** region still leaves a paragraph with the text “Contact Details”.
 - In the same case there is no indication that there are no phone numbers, only a blank space which could lead to confusion.
@@ -41,17 +41,17 @@ We can then take advantage of the **MailMerge.FieldMergingCallback** property as
 
 This code within the handler class is the only class you will need to modify in order to control the logic applied to unmerged regions. The other code in this sample can be reused without modification in any project.
 
-This sample project shows this technique. It involves the following steps:
+This sample project demonstrates this technique. It involves the following steps:
 
 1. Execute mail merge on the document using your data source. The **MailMergeCleanupOptions.RemoveUnusedRegions** flag is disabled for now we want the regions to remain so we can handle them manually. Any regions without data will be left unmerged in the document.
 1. Call the **ExecuteCustomLogicOnEmptyRegions** method. This method is provided in this sample. It performs actions which allow the specified handler to be called for each unmerged region. This method is reusable and can be copied unaltered to any project which requires it (along with any dependent methods).This method executes the following steps:
    1. Sets the handler specified by the user to the **MailMerge.FieldMergingCallback** property.
    1. Calls the **CreateDataSourceFromDocumentRegions** method which accepts the user’s **Document** and **ArrayList** containing regions names. This method will create a dummy data source containing tables for each unmerged region in the document.
-   1. Executes mail merge on the document using the dummy data source. When mail merge is executed with this data source it allows the user-specified handler to be called for each unmerge region and the custom logic applied
+   1. Executes mail merge on the document using the dummy data source. When mail merge is executed with this data source it enables the user-specified handler to be called for each unmerge region and the custom logic applied
 
 **The Code**
 
-The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts numerous parameters:
+The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts a few parameters:
 
 1. The [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) object containing unmerged regions which are to be handled by the passed handler.
 1. The handler class which defines the logic to apply to unmerged regions. This handler must implement the [IFieldMergingCallback](http://www.aspose.com/api/java/words/com.aspose.words/interfaces/IFieldMergingCallback) interface.
@@ -77,7 +77,7 @@ Defines the method used to manually handle unmerged regions.
 
 This method involves finding all unmerged regions in the document. This is accomplished using the **MailMerge.GetFieldNames** method. This method returns all merge fields in the document, including the region start and end markers (represented by merge fields with the prefix *TableStart* or *TableEnd*).
 
-When a TableStart merge field is encountered this is added as a new **DataTable** to the **DataSet**. Since a region may appear more than once (for example because it is a nested region where the parent region has been merged with several records), the table is only created and added if it does not already exist in the **DataSet**.
+When a TableStart merge field is encountered this is added as a new **DataTable** to the **DataSet**. Since a region may appear more than once (for example because it is a nested region where the parent region has been merged with many records), the table is only created and added if it does not already exist in the **DataSet**.
 
 When an appropriate region start has been found and added to the database, the next field (which corresponds to the first field in the region) is added to the **DataTable**. Only the first field is required to be added for each field in the region to be merged and passed to the handler.
 
@@ -128,7 +128,7 @@ The resulting document after the code above has been executed is shown below. Th
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java-3](how-to-apply-custom-logic-to-unmerged-regions_4.png)
 
 
-As another example, we can insert the code below in place of the code originally handling the **SuppliersRegion** . This will display a message within the table and merge the cells instead of removing the table from the document. Since the region resides within a table with multiple cells, it looks nicer to have the cells of the table merged together and the message centered.
+As another example, we can insert the code below in place of the code originally handling the **SuppliersRegion** . This will display a message within the table and merge the cells instead of removing the table from the document. Since the region resides within a table with many cells, it looks nicer to have the cells of the table merged together and the message centered.
 
 **Example**
 

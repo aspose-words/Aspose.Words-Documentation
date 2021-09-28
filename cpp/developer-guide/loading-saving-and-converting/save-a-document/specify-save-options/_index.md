@@ -34,7 +34,7 @@ The following code example demonstrates how to set a password to encrypt a docum
 
 When saving a document to ODT format, use the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options#get_password_const) property of the [OdtSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options) class.
 
-The following code example demonstrates how to load and save OpenDocument encrypted with a password:
+The following code example shows how to load and save OpenDocument encrypted with a password:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cpp" >}}
@@ -54,7 +54,7 @@ The following code example shows how to update the document creation time:
 
 Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#set_updatelastsavedtimeproperty) property to gets or sets a value determining whether the [LastSavedTime](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties#get_lastsavedtime) property is updated before saving.
 
-The following code example shows how to set this property and save the document:
+The following code example demonstrates how to set this property and save the document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cpp" >}}
@@ -63,6 +63,6 @@ The following code example shows how to set this property and save the document
 
 To control image saving options, the **ImageSaveOptions** class is used. For example, you can use the [PixelFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.image_save_options#set_pixelformat) property to set the pixel format for the generated images. Please note that the pixel format of the output image may differ from the set value because of the work of GDI+.
 
-The following code example shows how to save a black and white image with one bit per pixel format:
+The following code example demonstrates how to save a black and white image with one bit per pixel format:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-ImageColorFilters-SaveImageToOnebitPerPixel.cpp" >}}

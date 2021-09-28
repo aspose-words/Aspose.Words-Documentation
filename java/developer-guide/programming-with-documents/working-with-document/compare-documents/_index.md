@@ -45,7 +45,7 @@ Aspose.Words allows you to identify documents differences using the [Compare](ht
 
 As a result of the comparison, documents can be determined as equal or not equal. The term “equal” documents mean that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 
-The following code example shows how to check if two documents are equal or not:
+The following code example demonstrates how to check if two documents are equal or not:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-wordDocumentsAreEqual.java" >}}
 
@@ -55,13 +55,13 @@ The following code example shows how to simply apply the Compare method to two d
 
 ## Specify Advanced Comparing Properties
 
-There are numerous different properties of the [CompareOptions](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions) class which you can apply when you want to compare documents.
+There are many different properties of the [CompareOptions](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions) class which you can apply when you want to compare documents.
 
-For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreHeadersAndFooters), [IgnoreFormatting](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreFormatting), [IgnoreComments](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreComments), and others by setting them to "true".
+For example, Aspose.Words enables you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreHeadersAndFooters), [IgnoreFormatting](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreFormatting), [IgnoreComments](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreComments), and others by setting them to "true".
 
 In addition, Aspose.Words provides the [Granularity](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#Granularity) property with which you can specify whether to track changes by character or by word.
 
 Another common property is a choice in which document to show comparison changes. For example, the “Compare documents dialogue box” in Microsoft Word has the option “Show changes in” – this also affects the comparison results. Aspose.Words provides the [Target](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions#Target) property that serves this purpose.
 
-The following code example demonstrates how to set the advanced comparing properties:
+The following code example shows how to set the advanced comparing properties:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-AdvancedComparingProperties.java" >}}

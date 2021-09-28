@@ -4,7 +4,7 @@ aliases:
   - /java/nested-mail-merge-regions//
   - /java/how-to-set-up-relations-for-use-in-nested-mail-merge-with-regions/
 type: docs
-description: "Aspose.Words for Java enables you to perform a mail merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
+description: "Aspose.Words for Java allows you to perform a mail merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
 url: /java/nested-mail-merge-with-regions/
@@ -24,9 +24,9 @@ Nested mail merge is relevant only when performing a mail merge with regions.
 
 The mail merge region is called nested if you have two or more mail merge regions where one of them is inside the other in a hierarchical form. Note that each region contains data from one table.
 
-The most common example of a nested mail merge is an order that contains a few items where you need to link a few data tables and present the information in a template.
+The most common example of a nested mail merge is an order that contains multiple items where you need to link multiple data tables and present the information in a template.
 
-The picture below demonstrates two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
+The picture below shows two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
 
 <img src="nested_mail_merge_with_regions_1.png" alt="nested_mail_merge_with_regions_aspose_words_java" style="width:650px"/>
 
@@ -36,7 +36,7 @@ The data to be merged into a template can come from various sources, mainly rela
 
 Aspose.Words enables you to process mail merge with nested regions using the data relationships specified in the **DataSet**. When the **DataSet** object loads XML, it either uses the provided schema or infers it from the structure of the XML itself to accomplish this. From this structure, it creates relationships between tables where necessary.
 
-The image below demonstrates how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
+The image below shows how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
 
 <img src="nested_mail_merge_with_regions_2.png" alt="mail_merge_with_nested_regions_aspose_words_java" style="width:650px"/>
 
@@ -62,7 +62,7 @@ If mail merge is not working as expected, then you may need to restructure your 
 
 A DataSet that has related data tables will use the **DataRelation** object to represent the parent-child relationship between the tables.
 
-The following code example shows how to establish a DataRelation between a customer’s table and an order’s table by using a DataRelation object:
+The following code example demonstrates how to establish a DataRelation between a customer’s table and an order’s table by using a DataRelation object:
 {{< highlight java >}}
 dataSet.getRelations().add(new DataRelation("OrderToItem", orderTable.getColumns().get("Order_Id"), itemTable.getColumns().get("Order_Id"), false));
 {{< /highlight >}}

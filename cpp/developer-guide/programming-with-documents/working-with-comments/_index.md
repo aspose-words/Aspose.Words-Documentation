@@ -13,7 +13,7 @@ Comments of the document are represented by the Comment class. Use CommentRangeS
 
 ## How to Extract or Remove Comments
 
-Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are many reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
+Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are multiple reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
 
 In this sample, we are going to look at some simple methods for both gathering information from the comments within a document and for removing comments from a document. Specifically, we'll cover how to:
 
@@ -63,7 +63,7 @@ The main point to highlight here is the use of the for operator. Unlike the simp
 
 ## How to Add a Comment
 
-The code example given below demonstrates how to add a comment to a paragraph in the document.
+The code example given below shows how to add a comment to a paragraph in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AddComments-AddComments.cpp" >}}
 
@@ -87,6 +87,6 @@ Comment.Replies property returns a collection of Comment objects that are immedi
 
 The Comment.AddReply method adds a reply to this comment. Please note that due to the existing MS Office limitations only 1 level of replies are allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
 
-You can use Comment.RemoveReply method to remove the specified reply to this comment. The following code example demonstrates how to add a reply to a comment and remove the comment's reply.
+You can use Comment.RemoveReply method to remove the specified reply to this comment. The following code example shows how to add a reply to a comment and remove the comment's reply.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-CommentReply-AddRemoveCommentReply.cpp" >}}

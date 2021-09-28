@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for Reporting Services 3.1.2]
 
 {{% /alert %}} 
 
-This is a minor release containing multiple fixes of issues reported by our customers.
+This is a minor release containing several fixes of issues reported by our customers.
 
 - NullReferenceException thrown for some reports that contain hidden items.
 - Not all of table cell text fir on the page.

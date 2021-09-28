@@ -12,9 +12,9 @@ Aspose.Words provides an ability to obtain information about the file type in or
 
 ## Detect File Format without an Exception
 
-When you are dealing with several documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
+When you are dealing with numerous documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
-If you attempt to load a file into a [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util/#detectfileformat_stream) method that enables us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info/) object that contains the detected information about the file type.
+If you attempt to load a file into a [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util/#detectfileformat_stream) method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info/) object that contains the detected information about the file type.
 
 {{% alert color="primary" %}} 
 
@@ -34,7 +34,7 @@ The following code example shows how to get a list of all the files in the folde
 
 When all the files are collected, the rest of the work is done by the **DetectFileFormat** method, which checks the file format.
 
-The following code example demonstrates how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
+The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-CheckFormat-CheckFormatCompatibility.cpp" >}}
 

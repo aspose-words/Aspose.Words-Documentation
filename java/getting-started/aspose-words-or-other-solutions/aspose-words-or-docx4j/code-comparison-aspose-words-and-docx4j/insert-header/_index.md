@@ -35,7 +35,7 @@ builder.write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 
 ## docx4j - Insert Header
 
-The following sample code demonstrates how to create headers/footers using docx4j.
+The following sample code shows how to create headers/footers using docx4j.
 
 **Java**
 

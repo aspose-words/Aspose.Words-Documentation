@@ -1,6 +1,6 @@
 ﻿---
 title: Serialize and Work with a Document in a Database
-description: "Aspose.Words for Java enables you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."
+description: "Aspose.Words for Java allows you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."
 aliases:
     - /java/converting-a-document-using-advance-features/
 type: docs
@@ -29,7 +29,7 @@ The selected save format is important to ensure the highest fidelity is retained
 
 {{% /alert %}} 
 
-The example below demonstrates how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
+The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToByte-ConvertDocumentToByte.java" >}}
 

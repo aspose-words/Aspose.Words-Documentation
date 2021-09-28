@@ -236,14 +236,14 @@ docA.Compare(docB, "vs", DateTime.Now, compareOptions);
 
 Related issue: WORDSNET-20809
 
-This new LoadOption allows reducing memory usage.
+This new LoadOption enables reducing memory usage.
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets whether to convert metafile (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) images to <see cref="FileFormat.Png" /> image format.
 /// </summary>
 /// <remarks>
 /// Metafiles (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) is an uncompressed image format and sometimes requires to much RAM to hold and process document.
-/// This option enables to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
+/// This option allows to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
 /// Please note - conversion vector graphics to raster decreases the quality of the images.
 /// </remarks>
 public bool ConvertMetafilesToPng

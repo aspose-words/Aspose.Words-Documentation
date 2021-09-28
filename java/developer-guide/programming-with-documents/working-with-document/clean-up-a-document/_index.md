@@ -26,6 +26,6 @@ The following code example demonstrates how to remove only unused styles from a 
 
 You can also use the [DuplicateStyle](https://apireference.aspose.com/words/java/com.aspose.words/cleanupoptions#DuplicateStyle) property to substitute all duplicate styles with the original one and remove duplicates from a document.
 
-The following code example demonstrates how to remove duplicate styles from a document:
+The following code example shows how to remove duplicate styles from a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CleanupDuplicateStyle.java" >}}

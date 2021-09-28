@@ -33,7 +33,7 @@ The Aspose.Words DOM also contains the non-node classes, such as [Style](https:/
 
 {{% /alert %}}
 
-Let's look at an example. The following image shows a Microsoft Word document with different types of content.
+Let's look at an example. The following image demonstrates a Microsoft Word document with different types of content.
 
 <img src="document-example.png" alt="document-example" style="width:700px"/>
 
@@ -77,7 +77,7 @@ The nodes in the tree have relationships between them:
 
 The nodes that can contain other nodes derive from the [CompositeNode](https://apireference.aspose.com/words/java/com.aspose.words/compositenode) class, and all nodes ultimately derive from the [Node](https://apireference.aspose.com/words/java/com.aspose.words/node) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
 
-The following UML object diagram demonstrates many nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
+The following UML object diagram demonstrates multiple nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
 <img src="document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
 
@@ -93,7 +93,7 @@ The [Node.Document](https://apireference.aspose.com/words/java/com.aspose.words/
 
 When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#Document) property.
 
-The following code example shows that when creating any node, a document that will own the node is always defined:
+The following code example demonstrates that when creating any node, a document that will own the node is always defined:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
@@ -117,7 +117,7 @@ The most efficient way to access child nodes of a [CompositeNode](https://apiref
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/compositenode#HasChildNodes) property.
 
-The following code example demonstrates how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
+The following code example shows how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
 

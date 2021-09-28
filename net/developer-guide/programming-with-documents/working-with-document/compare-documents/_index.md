@@ -40,7 +40,7 @@ Note that you can compare any two documents within the [supported file formats](
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
-Aspose.Words enables you to identify documents differences using the [Compare](https://apireference.aspose.com/words/net/aspose.words/document/methods/compare/index) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
+Aspose.Words enables you to identify documents differences using the [Compare](https://apireference.aspose.com/words/net/aspose.words/document/methods/compare/index) method – this is similar to the Microsoft Word document compare feature. It enables you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
 
 As a result of comparison, documents can be determined as equal or not equal. The term “equal” documents means that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 
@@ -52,7 +52,7 @@ The following code example shows how to simply apply the Compare method to two d
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-CompareDocument-ApplyCompareTwoDocuments.cs" >}}
 
-## Specify Advanced Comparing Properties {#specify-advanced-comparing-properties}
+## Specify Advanced Comparison Options {#specify-advanced-comparing-properties}
 
 There are multiple different properties of the [CompareOptions](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions) class which you can apply when you want to compare documents.
 

@@ -8,7 +8,7 @@ url: /net/aspose-words-instead-of-npoi
 
 When a user needs to programmatically create, modify, and manage documents, it is always important to choose the right tool that suits the specific document development needs. This article aims to help developers make the right decision when comparing Aspose.Words and NPOI.
 
-It is worth noting again that Aspose.Words for .NET enables you to perform a wide variety of document processing tasks directly in your .NET applications. With Aspose.Words, you can create, modify, convert, display, and print documents without using Microsoft Word.
+It is worth noting again that Aspose.Words for .NET allows you to perform a wide variety of document processing tasks directly in your .NET applications. With Aspose.Words, you can create, modify, convert, display, and print documents without using Microsoft Word.
 
 You can read more about the requirements and next steps on this page.
 
@@ -45,7 +45,7 @@ After learning the ["Installation"](https://docs.aspose.com/words/net/installati
 
 Explore the ["Getting Started"](https://docs.aspose.com/words/net/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](https://docs.aspose.com/words/net/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some use cases can be implemented using NPOI, but multiple of the more regular tasks are easier and faster to implement using Aspose.Words.
+Some use cases can be implemented using NPOI, but numerous of the more regular tasks are easier and faster to implement using Aspose.Words.
 
 Aspose.Words provides source code examples for features missing in NPOI on the ["Features missing in NPOI"](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2) page.
 

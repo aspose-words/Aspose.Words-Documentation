@@ -8,7 +8,7 @@ weight: 10
 url: /cpp/create-or-load-a-document/
 ---
 
-Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has a few overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) enumeration.
+Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has multiple overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) enumeration.
 
 ## Create a New Document
 
@@ -35,7 +35,7 @@ To load an existing document in any of the LoadFormat formats, pass the file n
 
 Pass a file name as a string to the Document constructor to open an existing document from a file.
 
-The following code example shows how to open a document from a file:
+The following code example demonstrates how to open a document from a file:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToDisk-OpenDocument.cpp" >}}
 

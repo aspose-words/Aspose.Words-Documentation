@@ -21,13 +21,13 @@ Aspose.Words API provides Document.VbaProject property to get or set VbaProjec
 
 ## Read Macros
 
-The following code example shows how to read VBA Macros from the document.
+The following code example demonstrates how to read VBA Macros from the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithVbaMacros-ReadVbaMacros.cpp" >}}
 
 ## Write or Modify Macros
 
-The following code example demonstrates how to modify VBA Macros using the VbaModule.SourceCode property.
+The following code example shows how to modify VBA Macros using the VbaModule.SourceCode property.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithVbaMacros-ModifyVbaMacros.cpp" >}}
 

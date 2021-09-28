@@ -78,7 +78,7 @@ Assert.assertTrue(info.isEncrypted());
 
 When we have made sure that a document is encrypted, we can try to open this document without a password, which should lead to an exception.
 
-The following code example shows how to try opening an encrypted document without a password:
+The following code example demonstrates how to try opening an encrypted document without a password:
 
 {{< highlight java >}}
 // Create a document.

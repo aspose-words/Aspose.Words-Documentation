@@ -21,7 +21,7 @@ To apply formatting to a table you can use the properties available on the corre
 
 ![formatting-table-options-aspose-words-net](applying-formatting_2.png)
 
-Below example demonstrates how to apply an outline border to a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+Below example shows how to apply an outline border to a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyOutlineBorder.cs" >}}
 
@@ -58,7 +58,7 @@ Formatting on the cell level is controlled using the [CellFormat](http://www.asp
 ![auto-formatting-cell-level-aspose-words-net](applying-formatting_5.png)
 
 
-Below example shows how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+Below example demonstrates how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyCellFormatting.cs" >}}
 
@@ -68,7 +68,7 @@ The following code example shows how to set the amount of space (in points) to a
 
 ### Specifying Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which enables for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](http://www.aspose.com/api/net/words/aspose.words.tables/rowformat/properties/height) and [RowFormat.HeightRule](http://www.aspose.com/api/net/words/aspose.words.tables/rowformat/properties/heightrule) properties of the given [Row](http://www.aspose.com/api/net/words/aspose.words.tables/row/properties/index).
+The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](http://www.aspose.com/api/net/words/aspose.words.tables/rowformat/properties/height) and [RowFormat.HeightRule](http://www.aspose.com/api/net/words/aspose.words.tables/rowformat/properties/heightrule) properties of the given [Row](http://www.aspose.com/api/net/words/aspose.words.tables/row/properties/index).
 
 |HeightRule Value|Description|
 | :- | :- |
@@ -93,13 +93,13 @@ Borders and shading can be applied either table wide using Table.SetBorder, Tabl
 ![formatting-cell-color-aspose-words-net](applying-formatting_7.png)
 
 
-The following code example shows how to format a table and cell with different borders and shadings.
+The following code example demonstrates how to format a table and cell with different borders and shadings.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-FormatTableAndCellWithDifferentBorders.cs" >}}
 
 ## Specifying Table and Cell Widths
 
-A table in a Microsoft word document provides several different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information which will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
+A table in a Microsoft word document provides many different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information which will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
 
 ### Different Widths on Table
 
@@ -124,7 +124,7 @@ The desired width of a table or individual cells is defined through the preferre
 
 ![formatting-table-properties-aspose-words-net](applying-formatting_8.png)
 
-The preferred width property can be expressed in one of multiple different ways:
+The preferred width property can be expressed in one of a few different ways:
 
 |Width Type|Behavior|
 | :- | :- |
@@ -150,7 +150,7 @@ The appropriate preferred width type and value is set by using the methods of th
 
 #### Specifying a Preferred Width on a Table in Aspose.Words
 
-Using the [Table.PreferredWidth](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/preferredwidth) property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). The code example given below shows how to set a table to auto fit to 50% of the page width.
+Using the [Table.PreferredWidth](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/preferredwidth) property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). The code example given below demonstrates how to set a table to auto fit to 50% of the page width.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AutoFitToPageWidth.cs" >}}
 
@@ -170,7 +170,7 @@ You can use [PreferredWidth.Type](http://www.aspose.com/api/net/words/aspose.wo
 
 #### Allowing AutoFit
 
-The [Table.AllowAutoFit](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/allowautofit) property allows cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. Below example shows how to set a table to shrink or grow each cell to accommodate its contents.
+The [Table.AllowAutoFit](http://www.aspose.com/api/net/words/aspose.words.tables/table/properties/allowautofit) property allows cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. Below example demonstrates how to set a table to shrink or grow each cell to accommodate its contents.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AllowAutoFit.cs" >}}
 
@@ -199,7 +199,7 @@ While creating a fixed table layout, specify the cell width. A cell without widt
 
 ## Working with Table Styles
 
-A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment and font can be set in a table style and applied to numerous tables for a consistent appearance.
+A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment and font can be set in a table style and applied to multiple tables for a consistent appearance.
 
 Aspose.Words supports applying a table style to a table and also reading properties of any table style. Table styles are preserved during loading and saving in the following ways:
 
@@ -219,7 +219,7 @@ In Aspose.Words you can apply a table style by using any of the Table.Style, Tab
 
 Aspose.Words also provides a method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Test combine formatting with table style and cell style. This method will not override any other formatting that is already applied to the table through a row or cell format.
 
-Below example demonstrates how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+Below example shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyStyle-ExpandFormattingOnCellsAndRowFromStyle.cs" >}}
 
@@ -252,13 +252,13 @@ Aspose.Words API provides the following properties to set the position of the fl
 - [RelativeVerticalAlignment](https://apireference.aspose.com/net/words/aspose.words.tables/table/properties/relativeverticalalignment)
 - [AbsoluteVerticalDistance](https://apireference.aspose.com/net/words/aspose.words.tables/table/properties/absoluteverticaldistance).
 
-The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example shows how to set the position of the floating table. 
+The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-TablePosition-SetFloatingTablePosition.cs" >}}
 
 ## Working with Alternative Text of Table
 
-The title and description of the table provide alternative text-based representations of the information contained in the table. MS Word allows setting this information (*Right-click the table, click Table Properties, click the Alt Text tab, and then set the title and description of the table*). With Aspose.Words you can achieve this by using Table.Title and Table.Description properties. These properties are meaningful for ISO/IEC 29500 compliant DOCX documents. When saved to pre-ISO/IEC 29500 formats, these properties are ignored. The following code example demonstrates how to set the table's title and description properties.
+The title and description of the table provide alternative text-based representations of the information contained in the table. MS Word enables setting this information (*Right-click the table, click Table Properties, click the Alt Text tab, and then set the title and description of the table*). With Aspose.Words you can achieve this by using Table.Title and Table.Description properties. These properties are meaningful for ISO/IEC 29500 compliant DOCX documents. When saved to pre-ISO/IEC 29500 formats, these properties are ignored. The following code example shows how to set the table's title and description properties.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-SetTableTitleandDescription.cs" >}}
 

@@ -13,13 +13,13 @@ Aspose.Words enables you to apply different cleaning and removing options such a
 
 When you are using some long template that is created by someone else, you may want to delete all the merge fields that already exist in that template before performing a mail merge operation. You can use the [DeleteFields](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#deletefields) method if you want to delete all merge fields from a document without executing a mail merge operation. This method is not affected by any removing options of the [CleanupOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#get_cleanupoptions_const) property and executing it only removes merged fields, not any containing fields or empty paragraphs.
 
-The following code example demonstrates how to delete all merge fields from your template without executing a mail merge operation:
+The following code example shows how to delete all merge fields from your template without executing a mail merge operation:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-DeleteFields.cs" >}}
 
 ## Set Up a Removing Option
 
-Aspose.Words enables you to remove unmerged fields, regions, and paragraphs from a template during a mail merge operation using removing options.
+Aspose.Words allows you to remove unmerged fields, regions, and paragraphs from a template during a mail merge operation using removing options.
 
 Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://apireference.aspose.com/words/cpp/namespace/aspose.words.mail_merging#mailmergecleanupoptions) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
 
@@ -62,7 +62,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Remove Unused Fields
 
-Aspose.Words enables you to remove any unused mail merge fields by assigning the **RemoveUnusedFields** flag to **CleanupOptions**. This option will remove merge fields that don't have the corresponding data in the data source.
+Aspose.Words allows you to remove any unused mail merge fields by assigning the **RemoveUnusedFields** flag to **CleanupOptions**. This option will remove merge fields that don't have the corresponding data in the data source.
 
 The following code example shows how to remove any unused merge fields from a document automatically during a mail merge operation:
 

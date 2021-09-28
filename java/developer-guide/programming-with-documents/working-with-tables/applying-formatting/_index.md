@@ -29,7 +29,7 @@ The following code example demonstrates how to apply an outline border to a tabl
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-ApplyOutlineBorderToATable.java" >}}
 
-The following code example shows how to build a table with all borders enabled (grid).
+The following code example demonstrates how to build a table with all borders enabled (grid).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-BuildATableWithAllBordersEnabled.java" >}}
 
@@ -53,17 +53,17 @@ Formatting on the cell level is controlled using the [CellFormat](https://apiref
 
 ![apply-auto-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell_5.png)
 
-The following code example demonstrates how to modify the formatting of a table cell.
+The following code example shows how to modify the formatting of a table cell.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheCellLevel-.java" >}}
 
-The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
+The following code example demonstrates how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SetCellPadding.java" >}}
 
 ## Specifying Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height) and [RowFormat.HeightRule](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeightRule) properties of the given [Row](https://apireference.aspose.com/words/java/com.aspose.words/row).
+The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which enables for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height) and [RowFormat.HeightRule](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeightRule) properties of the given [Row](https://apireference.aspose.com/words/java/com.aspose.words/row).
 
 |HeightRule Value|Description|
 | :- | :- |
@@ -104,13 +104,13 @@ The following code example demonstrates how to get the distance between the tabl
 
 ### How to Get the Table's Alignment
 
-If the table's text wrapping is *Around*, you can get the table's horizontal and vertical alignment using Table.getRelativeHorizontalAlignment() and Table.getRelativeVerticalAlignment() properties. In other cases, you can get a table's inline alignment using Table.getAlignment() property. Below example shows how to get the table's alignment.
+If the table's text wrapping is *Around*, you can get the table's horizontal and vertical alignment using Table.getRelativeHorizontalAlignment() and Table.getRelativeVerticalAlignment() properties. In other cases, you can get a table's inline alignment using Table.getAlignment() property. Below example demonstrates how to get the table's alignment.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetTablePosition.java" >}}
 
 ### Get Position of Floating Table
 
-The following code example demonstrates how to get the position of the floating table. 
+The following code example shows how to get the position of the floating table. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetFloatingTablePosition.java" >}}
 
@@ -123,7 +123,7 @@ Aspose.Words API provides the following properties to set the position of the fl
 - [RelativeVerticalAlignment](https://apireference.aspose.com/words/java/com.aspose.words/table#RelativeVerticalAlignment)
 - [AbsoluteVerticalDistance](https://apireference.aspose.com/words/java/com.aspose.words/table#AbsoluteVerticalDistance).
 
-The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example shows how to set the position of the floating table. 
+The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-SetFloatingTablePosition.java" >}}
 

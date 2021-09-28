@@ -29,7 +29,7 @@ The default value is **true** for HTML and **false** for MHTML and EPUB:
 - When **true**, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements
 - When **false**, there is no round-trip information to be output into produced files
 
-The following code example demonstrates how to export round-trip information when converting a document from DOCX into HTML:
+The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToHtmlWithRoundtrip.java" >}}
 
@@ -41,7 +41,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## Specify Save Options when Conversion to HTML
 
-Aspose.Words allows converting a Word document to HTML using default or custom save options. Few examples of custom save options are described below.
+Aspose.Words enables converting a Word document to HTML using default or custom save options. Few examples of custom save options are described below.
 
 ### Specify a Folder for Saving Resources
 
@@ -66,13 +66,13 @@ However, there is no individual property for CSS. The behavior of the **FontsFo
 
 Aspose.Words provides an ability to specify whether font resources should be embedded into HTML in Base64 encodings. To perform this, use the [ExportFontsAsBase64](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportFontsAsBase64) property – this is an extension of the [ExportFontResources](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportFontResources) property. By default, its value is **false**, and fonts are written into separate files. But if this option is set to **true**, fonts will be embedded into the document's CSS in Base64 encoding. The **ExportFontsAsBase64** property only affects HTML format and does not affect EPUB and MHTML.
 
-The following code example demonstrates how to export Base64-encoded fonts to HTML:
+The following code example shows how to export Base64-encoded fonts to HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportFontsAsBase64.java" >}}
 
 ## Specify Save Options when Conversion to EPUB
 
-Aspose.Words enables converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/HtmlSaveOptions) to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
+Aspose.Words allows converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/HtmlSaveOptions) to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
 
 The following code example demonstrates how to converts a Word document to EPUB with specifying some custom save options:
 

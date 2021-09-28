@@ -36,15 +36,15 @@ The code example below demonstrates how to save a document as PDF with fillable 
 
 ## Exporting Document Structure and Custom Properties
 
-The [ExportDocumentStructure](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#set_exportdocumentstructure) property enables you to export document structure to PDF output.
+The [ExportDocumentStructure](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#set_exportdocumentstructure) property allows you to export document structure to PDF output.
 
 PDF logical structure facilities provide a mechanism for incorporating information, regarding the document content structure, into a PDF file. Aspose.Words preserves information about the structure from a Microsoft Word document, such as paragraphs, lists, tables, footnotes/endnotes, etc.
 
-The following example shows how to save a document to PDF format, preserving the document structure:
+The following example demonstrates how to save a document to PDF format, preserving the document structure:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.cpp" >}}
 
-Aspose.Words also enables you to export document custom properties to PDF, which is demonstrated by the following example:
+Aspose.Words also allows you to export document custom properties to PDF, which is demonstrated by the following example:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.cpp" >}}
 
@@ -62,7 +62,7 @@ The output PDF of this example is shown below:
 
 When **HeaderFooterBookmarksExportMode** is set to First and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
-You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#get_headingsoutlinelevels_const) property. This property specifies how several levels of headings are included in the document outline.
+You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#get_headingsoutlinelevels_const) property. This property specifies how numerous levels of headings are included in the document outline.
 
 The code example below demonstrates how to export headings with three levels:
 
@@ -101,16 +101,16 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 |Embed Fonts Mode|Advantages|Disadvantages|
 | :- | :- | :- |
 |Full|Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
-|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If a few PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing numerous unnecessary subsets.</p>|
+|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If several PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing numerous unnecessary subsets.</p>|
 
 ### Embedding Full Fonts in PDF
 
-The [EmbedFullFonts](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_embedfullfonts_const) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
+The [EmbedFullFonts](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_embedfullfonts_const) property allows you to specify how Aspose.Words embeds fonts into an output PDF document.
 
 - To embed full fonts into the output PDF document, set **EmbedFullFonts** to true
 - To subset fonts when saving to PDF, set **EmbedFullFonts** to false
 
-The following example demonstrates how to embed full fonts in the output PDF document:
+The following example shows how to embed full fonts in the output PDF document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddAllFonts.cpp" >}}
 
@@ -144,7 +144,7 @@ The option to embed Core fonts can be enabled or disabled by using the UseCoreF
 
 These fonts are replaced with the corresponding core Type 1 fonts, which are provided by a reader when the PDF is opened.
 
-The example provided below shows how to set Aspose.Words to avoid embedding core fonts and let the reader substitute them with PDF Type 1 fonts:
+The example provided below demonstrates how to set Aspose.Words to avoid embedding core fonts and let the reader substitute them with PDF Type 1 fonts:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-EmbeddingWindowsStandardFonts-AvoidEmbeddingCoreFonts.cpp" >}}
 
@@ -166,7 +166,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_fontembeddingmode_const)[ ](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedstandardwindowsfonts)property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall), Aspose.Words do not embed any fonts.
 
-The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
+The example below demonstrates how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.cpp" >}}
 

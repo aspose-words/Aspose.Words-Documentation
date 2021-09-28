@@ -137,7 +137,7 @@ public class TaskPane
     /// </summary>
     public bool IsLocked { get; set; }
     /// <summary>
-    /// Specifies whether the task pane shows as visible by default when the document opens.
+    /// Specifies whether the task pane demonstrates as visible by default when the document opens.
     /// </summary>
     public bool IsVisible { get; set; }
     /// <summary>

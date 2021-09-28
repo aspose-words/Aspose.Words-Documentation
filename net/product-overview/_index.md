@@ -26,7 +26,7 @@ Using Aspose.Words for .NET in your project gives you the following benefits:
 - Performance and scalability
 - Minimal learning curve
 
-The following diagram demonstrates the main features of Aspose.Words for .NET and how they relate to each other.
+The following diagram shows the main features of Aspose.Words for .NET and how they relate to each other.
 
 <img src="aspose_words-product-features-overview.png" alt="aspose_words-product-features-overview" style="width:800px"/>
 
@@ -38,7 +38,7 @@ Aspose.Words for .NET features can be divided into four main areas.
 
 The ability to easily and reliably convert documents is one of the main features of Aspose.Words.
 
-Comprehensive [document import and export](https://docs.aspose.com/words/net/loading-saving-and-converting/) with [over 35 supported file formats](https://docs.aspose.com/words/net/supported-document-formats/) enables users to convert documents from [one popular format](https://apireference.aspose.com/words/net/aspose.words/loadformat) to [another](https://apireference.aspose.com/words/net/aspose.words/saveformat), for example, from DOCX to PDF, JPEG, or Markdown, or from PDF to various Word formats.
+Comprehensive [document import and export](https://docs.aspose.com/words/net/loading-saving-and-converting/) with [over 35 supported file formats](https://docs.aspose.com/words/net/supported-document-formats/) allows users to convert documents from [one popular format](https://apireference.aspose.com/words/net/aspose.words/loadformat) to [another](https://apireference.aspose.com/words/net/aspose.words/saveformat), for example, from DOCX to PDF, JPEG, or Markdown, or from PDF to various Word formats.
 
 #### Document Object Model (DOM)
 
@@ -82,7 +82,7 @@ Although there are over 150 public classes and enumerations in Aspose.Words, the
 - Borrow best practices from the .NET Framework Design Guidelines
 - Provide a balance of ease of use and detailed manipulation of document elements
 
-Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of numerous classes, methods, and properties familiar.
+Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of a few classes, methods, and properties familiar.
 
 [Document](https://apireference.aspose.com/words/net/aspose.words/document), [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph), [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark), [Range](https://apireference.aspose.com/words/net/aspose.words/range), [Section.PageSetup](https://apireference.aspose.com/words/net/aspose.words/section/properties/pagesetup) and [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) are some of the Aspose.Words classes. At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents a document as a tree of objects, more like an XML DOM tree. If you have worked with any XML DOM library, you will find it is easy to understand and work with Aspose.Words.
 

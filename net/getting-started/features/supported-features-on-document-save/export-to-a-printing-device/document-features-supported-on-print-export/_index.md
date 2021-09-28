@@ -20,7 +20,7 @@ You can also render Shape nodes separately from the document to an image or a Gr
 
 Aspose.Words renders these documents with high fidelity and most document features are supported.
 
-There are save options to control how the document is rendered. There are often many special save options for each image format. For example there are options to:
+There are save options to control how the document is rendered. There are often numerous special save options for each image format. For example there are options to:
 
 - Specify the brightness, contrast and color mode for the rendered output.
 - Specify the page or page range to render.

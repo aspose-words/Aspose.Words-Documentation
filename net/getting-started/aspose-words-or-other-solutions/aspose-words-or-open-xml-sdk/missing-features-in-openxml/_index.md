@@ -42,7 +42,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 | Mail Merge                                                   | The [”Mail Merge and Reporting”](https://docs.aspose.com/words/net/mail-merge-and-reporting/) section |
 | Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/net/rendering/) section |
 | Print a document                                             | The [”Printing a Document Programmatically or Using Dialogs”](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) article |
-| Join multiple documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](https://docs.aspose.com/words/net/insert-and-append-documents/) article |
+| Join several documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](https://docs.aspose.com/words/net/insert-and-append-documents/) article |
 | Find and Replace                                             | The [“Find and Replace”](https://docs.aspose.com/words/net/find-and-replace/) article |
 | Updating fields                                              | The [“Working with Fields”](https://docs.aspose.com/words/net/working-with-fields/) section |
 | Manage a Table of Content (TOC)                              | The [“Working with Table of Contents”](https://docs.aspose.com/words/net/working-with-table-of-contents/) article |

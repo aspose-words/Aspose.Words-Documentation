@@ -37,6 +37,6 @@ The following code example shows how to modify VBA Macros from the document usin
 
 ## Clone VBA Module
 
-` `The following code example demonstrates how to clone the VBA Module using the [VbaModule.Clone](https://apireference.aspose.com/words/java/com.aspose.words/vbaproject#deepClone()) property which creates a copy of the existing project. 
+` `The following code example shows how to clone the VBA Module using the [VbaModule.Clone](https://apireference.aspose.com/words/java/com.aspose.words/vbaproject#deepClone()) property which creates a copy of the existing project. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaModule.java" >}}

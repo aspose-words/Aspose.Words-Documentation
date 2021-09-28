@@ -26,11 +26,11 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 - Fixed a bug with rendering of minor tick marks and clipping the rightmost bar of DrawingML charts.
 - Fixed a bug with rendering data labels for points, located on the border of the DrawingML chart plot area.
 - Implemented support for RTL comments rendering, e.g. Arabic.
-- Improved hyphenation logic for several cases.
+- Improved hyphenation logic for numerous cases.
 - Improved page numbering for sections starting in new columns.
 - Improved table row alignment.
 - Improved tab stop calculations with paragraph indents.
-- Improved table breaking logic for many complex cases.
+- Improved table breaking logic for a few complex cases.
 - Improved handling of character compression within mixed ltr/rtl text.
 - Fixed exception in rare case when field update causes line to contain only zero length spans.
 - Fixed exception in rare case when floating object is pushed beyond empty column.
@@ -45,7 +45,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 |WORDSJAVA-1936|Image not visible in exported HTML|Bug|
 |WORDSJAVA-1939|Native Windows dll loading problem|Bug|
 |WORDSJAVA-1940|Inverted image fill while saving document to PDF.|Bug|
-|WORDSJAVA-1943|MailMergeWithRegions not working when DataRelation has numerous columns|Bug|
+|WORDSJAVA-1943|MailMergeWithRegions not working when DataRelation has several columns|Bug|
 |WORDSJAVA-1906|A method with Ref parameter is absent in Javadoc.|Enhancement|
 |WORDSJAVA-1853|Check compatibility of release jar bytecode with the new Java RE 11.|Feature|
 |WORDSJAVA-1875|Optional graphics libraries and plugins: test presence, print advice how to install absent ones.|Feature|

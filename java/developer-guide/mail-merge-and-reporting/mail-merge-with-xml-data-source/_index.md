@@ -25,7 +25,7 @@ Since XML stores data in plain text format, the storage is platform-independent.
 
 XML is the universal standard for data interchange, and Microsoft Word document formats are the most popular formats for mail merge templates. Therefore, the ability to run a mail merge from an XML file to a Word template document has become a common requirement.
 
-Microsoft Word does not provide a direct method to work with XML data as a data source for a mail merge operation, while Aspose.Words allows you to perform a mail merge operation with data from an XML data source. Note that the structure of the XML document can also be varied and the data will still be read correctly. This enables different types of XML documents to be merged easily.
+Microsoft Word does not provide a direct method to work with XML data as a data source for a mail merge operation, while Aspose.Words allows you to perform a mail merge operation with data from an XML data source. Note that the structure of the XML document can also be varied and the data will still be read correctly. This allows different types of XML documents to be merged easily.
 
 Use the ReadXML method to read the XML schema and data into the DataSet object. This object is then used as a data source for a mail merge.
 

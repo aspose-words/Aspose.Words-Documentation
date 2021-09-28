@@ -16,7 +16,7 @@ A field is represented in the document model as:
 - FieldStart node.
 - Run node(s) (represents the field code).
 - FieldSeparator node.
-- Other nodes (represents the field result) such as runs, shapes. A field can span across many different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
+- Other nodes (represents the field result) such as runs, shapes. A field can span across a few different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
 - FieldEnd node.
 
 We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which enables you to get this facade from any field the document.
@@ -160,11 +160,11 @@ See the following links in the documentation for further information:
 |PageRef |Yes |This field is supported during field update. <br><br>By default in Microsoft Word references re updated as letters. Currently in Aspose.Words these references are updated as digits. <br><br>Hyperlinking, numeric format and paragraph position options are all supported during update. | |
 |Quote |Yes |This field is updated and the appropriate symbol is inserted during field update. | |
 |Ref |Yes |This field is supported during field update. <br><br>Only some switches such as hyperlink and relative position are supported during field update. Support for the other options will be added in future versions. | |
-|StyleRef |Yes |This field is supported during field update. <br><br>Only multiple switches are supported during field update. Support for the other options will be added in future versions. | |
+|StyleRef |Yes |This field is supported during field update. <br><br>Only many switches are supported during field update. Support for the other options will be added in future versions. | |
 
 ## Mail Merge
 
-The mail merge engine enables you to quickly merge a variety of data into a document. You can merge simple data using simple mail merge as well as complex relational data from a database using merge regions. Both are easy to achieve using Aspose.Words. 
+The mail merge engine allows you to quickly merge a variety of data into a document. You can merge simple data using simple mail merge as well as complex relational data from a database using merge regions. Both are easy to achieve using Aspose.Words. 
 
 Aspose.Words fully supports all of the mail merge features and fields with the exception of the following fields:
 

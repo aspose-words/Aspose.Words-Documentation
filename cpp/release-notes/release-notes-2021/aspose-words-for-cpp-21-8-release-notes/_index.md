@@ -241,8 +241,8 @@ New public FlatOpcXmlMappingOnly option has been implemented.
 public bool FlatOpcXmlMappingOnly { get; set; }
 {{< /highlight >}}
 
-By default MS Word enables to bind structured document tags to FlatOpc documents only. 
-This option enables to control this behavior and bind documents in any format.
+By default MS Word allows to bind structured document tags to FlatOpc documents only. 
+This option allows to control this behavior and bind documents in any format.
 
 Use case:
 {{< highlight cpp >}}

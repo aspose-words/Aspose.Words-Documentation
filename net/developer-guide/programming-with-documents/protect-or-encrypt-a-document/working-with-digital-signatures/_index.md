@@ -53,11 +53,11 @@ The .NET framework provides multiple ways in which to load a certificate. These 
 
 ### Access and Verify Digital Signatures
 
-A document can have multiple digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
+A document can have many digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
 
 The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/properties/isvalid) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
 
-Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for a few reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
+Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for numerous reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below demonstrates how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-AccessAndVerifySignature-AccessAndVerifySignature.cs" >}}
 
@@ -69,17 +69,17 @@ Below example shows how to sign simple document. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SimpleDocumentSigning.cs" >}}
 
-Below example shows how to sign encrypted document. 
+Below example demonstrates how to sign encrypted document. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SigningEncryptedDocument.cs" >}}
 
 ### Signing Word document with Signature Line
 
-You can sign source document using given CertificateHolder and SignOptions with digital signature and writes signed document to destination file. Using SignOptions class you can specify options for document signing. Below example shows how to create new signature line and sign document. 
+You can sign source document using given CertificateHolder and SignOptions with digital signature and writes signed document to destination file. Using SignOptions class you can specify options for document signing. Below example demonstrates how to create new signature line and sign document. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-CreatingAndSigningNewSignatureLine.cs" >}}
 
-Below example shows how to modify existing signature line and sign document. 
+Below example demonstrates how to modify existing signature line and sign document. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SigningExistingSignatureLine.cs" >}}
 
@@ -91,6 +91,6 @@ Below example demonstrates how to sign Word document using signature provider id
 
 ### Create New Signature Line Sign Word Document using Provider Identifier
 
-Below example shows how to create signature line and sign Word document using signature provider identifier.
+Below example demonstrates how to create signature line and sign Word document using signature provider identifier.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-CreateNewSignatureLineAndSetProviderID.cs" >}}

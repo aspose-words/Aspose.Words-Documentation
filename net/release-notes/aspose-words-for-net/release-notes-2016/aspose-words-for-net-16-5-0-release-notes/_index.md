@@ -95,7 +95,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-12492|Allow creation of bookmarks over 40 chars long when the target document is PDF|Feature|
 |WORDSNET-13014|Add a special mode to Aspose.Words optimized for high-performance text extraction|Feature|
 |WORDSNET-13325|PageSetup.SuppressEndnotes does not work when saving to PDF|Feature|
-|WORDSNET-13538|Provide ReportingEngine.buildReport overload that accepts a few data source objects|Feature|
+|WORDSNET-13538|Provide ReportingEngine.buildReport overload that accepts many data source objects|Feature|
 |WORDSNET-13418|Optimize line wrapping performance|Performance|
 |WORDSNET-13514|It takes long to save a document to PDF|Performance|
 |WORDSNET-13577|Certain images don't show up in the printed version of the generated report|Regression|
@@ -130,4 +130,4 @@ The following overload has been added to the ReportingEngine class:
 public void BuildReport(Document document, object[] dataSources, string[] dataSourceNames)
 {{< /highlight >}}
 
-It enables using many data source objects while building a report.
+It enables using several data source objects while building a report.

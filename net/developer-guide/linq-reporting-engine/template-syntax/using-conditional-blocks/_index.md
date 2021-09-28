@@ -35,7 +35,7 @@ If a conditional block belongs to a single paragraph, it can be used as a replac
 You have chosen <<if [!items.Any()]>>no items<<else>><<[items.Count()]>> item(s)<</if>>.
 {{< /highlight >}}
 
-**Note –** A template option of a common conditional block can be composed of numerous paragraphs if needed.
+**Note –** A template option of a common conditional block can be composed of a few paragraphs if needed.
 
 You can normally use common conditional blocks within data bands. For example, given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them and apply different formatting for even and odd elements.
 
@@ -98,7 +98,7 @@ The following examples in this section are given using `client`, an instance of 
   }
 {{< /highlight >}}
 
-Using table-row conditional blocks, you can pick to output a single row among several rows of a single document table depending on a condition like in the following example.
+Using table-row conditional blocks, you can pick to output a single row among a few rows of a single document table depending on a condition like in the following example.
 
 |...|...|...|
 | :- | :- | :- |

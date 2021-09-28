@@ -51,7 +51,7 @@ To see how Aspose.Words works in AWS Lambda, follow the steps below:
    } 
    {{< /highlight >}}
 
-4. Deploy the created function and run it either from Visual Studio or from Amazon Console. The following screenshot demonstrates the output PDF document.
+4. Deploy the created function and run it either from Visual Studio or from Amazon Console. The following screenshot shows the output PDF document.
    <img src="aspose-words-integration-in-aws-lambda-1.png" alt="aspose-words-integration-in-aws-lambda" style="width:800px"/>
 
 You might notice two strange things:
@@ -71,7 +71,7 @@ For demonstration purposes, the Noto Sans fonts set is used.
 
 To use fonts from the S3 storage, follow the steps below:
 
-1. Create a “Fonts” folder in your S3 bucket and upload the fonts there. The following code shows a [StreamFontSource](https://apireference.aspose.com/words/net/aspose.words.fonts/streamfontsource) implementation used to read one font from S3 storage:<br>< highlight csharp >
+1. Create a “Fonts” folder in your S3 bucket and upload the fonts there. The following code {shows|demonstrates} a [StreamFontSource](https://apireference.aspose.com/words/net/aspose.words.fonts/streamfontsource) implementation used to read one font from S3 storage:<br>{{< highlight csharp >}}
    internal class S3FontSource : StreamFontSource
    {
        public S3FontSource(IAmazonS3 client, string bucketName, string key)

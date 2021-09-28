@@ -92,7 +92,7 @@ public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions);
 public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions, RelativeHorizontalPosition horzPos, double left, RelativeVerticalPosition vertPos, double top, WrapType wrapType);
 {{< /highlight >}}
 
-Following code example demonstrates how to insert signature line.
+Following code example shows how to insert signature line.
 
 **Java**
 
@@ -180,7 +180,7 @@ public boolean isSigned()
 public boolean isValid()
 {{< /highlight >}}
 
-Following code example demonstrates how to use SignatureLine's properties.
+Following code example shows how to use SignatureLine's properties.
 
 **Java**
 

@@ -7,7 +7,7 @@ url: /java/drawing-object-features-supported-on-html-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports a few types of drawing entities on document load.
+Aspose.Words supports numerous types of drawing entities on document load.
 
 Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behaviour.
 
@@ -31,7 +31,7 @@ You can also set the BaseUri path of the document being loaded so relative resou
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
-All of the following image types listed in the table below this overview are supported. When a document contains a few references to the same image from an external address (e.g the internet) then the image is only downloaded once.
+All of the following image types listed in the table below this overview are supported. When a document contains many references to the same image from an external address (e.g the internet) then the image is only downloaded once.
 
 It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of image from the Aspose.Words point-of-view.
 

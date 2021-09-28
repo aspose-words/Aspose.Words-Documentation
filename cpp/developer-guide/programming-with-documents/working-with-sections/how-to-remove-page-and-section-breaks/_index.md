@@ -5,17 +5,17 @@ weight: 210
 url: /cpp/how-to-remove-page-and-section-breaks/
 ---
 
-A document often consists of multiple sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
+A document often consists of several sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
 
-In most cases it is convenient to have a structured document, but sometimes many sections and user-defined page breaks are redundant and it may become necessary to remove them. For example, after appending a few documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
+In most cases it is convenient to have a structured document, but sometimes a few sections and user-defined page breaks are redundant and it may become necessary to remove them. For example, after appending many documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
 
-An explicit page break can be caused by several different things in a document:
+An explicit page break can be caused by many different things in a document:
 
 - A page breaks character. This is represented in a document by the page break character ControlChar.PageBreakChar.
 - A Section which is set to begin on a new page (by the section’s PageSetup.SectionStart to SectionStart.NewPage).
 - A Paragraph with ParagraphFormat.PageBreakBefore set. This forces a page break before the paragraph.
 
-This sample shows how to remove page and section breaks from the document using Aspose.Words.
+This sample demonstrates how to remove page and section breaks from the document using Aspose.Words.
 
 To remove page and section breaks from a document you should follow the steps below:
 
