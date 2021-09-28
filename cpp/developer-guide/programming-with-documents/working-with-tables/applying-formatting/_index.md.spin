@@ -1,4 +1,4 @@
----
+﻿---
 title: Applying Formatting
 type: docs
 weight: 20
@@ -78,11 +78,11 @@ The following code example shows how to format a table and cells with different
 
 ## Specifying Table and Cell Widths
 
-A table in a Microsoft word document provides several different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information that will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
+A table in a Microsoft word document provides {several|multiple|a few|many|numerous} different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information that will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
 
 ### Different Widths on Table
 
-Table elements present several different properties that can affect how the widths of the overall table, as well as individual cells, are calculated. These are explained in detail in this article.
+Table elements present {several|multiple|a few|many|numerous} different properties that can affect how the widths of the overall table, as well as individual cells, are calculated. These are explained in detail in this article.
 
 - Preferred width on the table.
 - Preferred width on individual cells.
@@ -93,7 +93,7 @@ Table elements present several different properties that can affect how the widt
 
 All of the properties and techniques that are described in this article all link back to how tables work in Microsoft Word. Therefore in most cases, if you are building your table programmatically but are finding it hard to create the desired table you can instead try visually creating it in Microsoft Word first and then simply copy the formatting values to your application. 
 
-The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on many things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
+The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on {many|multiple|several|a few|numerous} things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
 
 {{% /alert %}} 
 
@@ -101,7 +101,7 @@ The preferred cell is recommended rather than the width in most cases. Cell pref
 
 The desired width of a table or individual cells is defined through the preferred width property. That is a preferred width can be specified on individual cells or to the table as a whole. This is the size that the element strives to fit. In some cases, it may not be possible to fit this exact width, but the real width will come close to this value on most occasions.
 
-The preferred width property can be expressed in one of several different ways:
+The preferred width property can be expressed in one of {several|multiple|a few|many|numerous} different ways:
 
 |Width Type|Behavior|
 | :- | :- |
@@ -173,7 +173,7 @@ While creating a fixed table layout, specify the cell width. A cell without widt
 
 ## Working with Table Styles
 
-A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to many tables for a consistent appearance.
+A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to {many|multiple|several|a few|numerous} tables for a consistent appearance.
 
 Aspose.Words supports applying a table style to a table and also reading properties of any table style. Table styles are preserved during loading and saving in the following ways:
 

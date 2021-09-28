@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to HTML, MHTML or EPUB
 description: "Use Aspose.Words for Java to convert documents from Word or any other supported formats to HTML, MHTML, or EPUB."
 type: docs
@@ -22,7 +22,7 @@ To convert a document to MHTML or EPUB, use SaveFormat.MHTML or SaveFormat.EPUB 
 
 ## Convert a Document with Round-trip Information
 
-The HTML format does not support many Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportRoundtripInformation) property. Saving the round-trip information allows restoring document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
+The HTML format does not support {many|multiple|several|a few|numerous} Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportRoundtripInformation) property. Saving the round-trip information allows restoring document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
 
 The default value is **true** for HTML and **false** for MHTML and EPUB:
 

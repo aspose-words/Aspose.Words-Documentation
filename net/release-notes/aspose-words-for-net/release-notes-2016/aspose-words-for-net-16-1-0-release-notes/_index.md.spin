@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 16.1.0 Release Notes
 type: docs
 weight: 110
@@ -17,7 +17,7 @@ This page contains release notes for [Aspose.Words for .NET 16.1.0](http://www.a
 
 There are 133 improvements and fixes in this regular monthly release. The most notable are:
 
-- Implemented auto-fit table grid calculation for several classes of tables
+- Implemented auto-fit table grid calculation for {several|multiple|a few|many|numerous} classes of tables
 - EMF+ images now can be rendered without the GDI+ 
 - Comments rendering improved
 - Word 6.0 binary DOC files are supported now

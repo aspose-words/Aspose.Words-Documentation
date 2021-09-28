@@ -1,4 +1,4 @@
----
+﻿---
 title: Introduction to Fields
 type: docs
 weight: 10
@@ -164,7 +164,7 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 - Fields can be nested within a field code as well as in the field result.
 - Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- Fields that span across multiple paragraphs.
+- Fields that span across {multiple|several|a few|many|numerous} paragraphs.
 
 #### Formula Fields
 

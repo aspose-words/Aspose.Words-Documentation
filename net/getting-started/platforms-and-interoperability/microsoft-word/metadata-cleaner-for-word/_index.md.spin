@@ -1,15 +1,15 @@
----
+﻿---
 title: Metadata Cleaner for Word
 type: docs
 weight: 10
 url: /net/metadata-cleaner-for-word/
 ---
 
-Aspose.Words Metadata Cleaner is a metadata removal tool which protects organizations from accidental information and metadata leaks. Unintentional leaks have the potential to embarrass or negatively impact a company’s financial well-being. Aspose.Words Metadata Cleaner that will allow you to select the document and clean it. It will allow you to clean all Built-in and Custom properties from these files. You can select multiple files and clean them simultaneously in one click. Extract it on your machine and run it directly without installing.
+Aspose.Words Metadata Cleaner is a metadata removal tool which protects organizations from accidental information and metadata leaks. Unintentional leaks have the potential to embarrass or negatively impact a company’s financial well-being. Aspose.Words Metadata Cleaner that will allow you to select the document and clean it. It will allow you to clean all Built-in and Custom properties from these files. You can select {multiple|several|a few|many|numerous} files and clean them simultaneously in one click. Extract it on your machine and run it directly without installing.
 
 Major features of this tool are:
 
-- Allow you to select multiple files.
+- Allow you to select {multiple|several|a few|many|numerous} files.
 - Remove all Built-in Properties from word documents and OpenOffice documents.
 - Remove all custom Properties from word document and OpenOffice documents.
 - Show the status of all files.
@@ -52,7 +52,7 @@ You can download the latest solution at:
 
 - Click on Browse Files to select Word Documents.
 - It will allow you to select doc, docx, dot, docm, dotx, dotm, rtf, odt, ott and you can select any **.** file.
-- You can select multiple files as well.
+- You can select {multiple|several|a few|many|numerous} files as well.
 - Once the files are selected the files count will be changed.
 - Click the Clean button to clean metadata from these files.
 - Once the processing is complete, it will show a statistics of total cleaned files.

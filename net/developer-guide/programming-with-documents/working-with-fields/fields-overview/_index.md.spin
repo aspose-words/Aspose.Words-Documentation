@@ -1,4 +1,4 @@
----
+﻿---
 title: Fields Overview
 type: docs
 weight: 10
@@ -150,7 +150,7 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 - Fields can be nested within a field code as well as in the field result.
 - Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- Fields that span across multiple paragraphs.
+- Fields that span across {multiple|several|a few|many|numerous} paragraphs.
 
 #### Formula Fields
 
@@ -230,7 +230,7 @@ Using the current culture to format fields allows a system to easily and consist
 
 #### Formatting using the Culture in the Document
 
-On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
+On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of {many|multiple|several|a few|numerous} different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
 
 The [Document](http://www.aspose.com/api/net/words/aspose.words/document) class provides a [FieldOptions](http://www.aspose.com/api/net/words/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from.
 

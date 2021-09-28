@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify TrueType Fonts Location
 description: "Aspose.Words for Java allows you to specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system, or memory."
 type: docs
@@ -8,7 +8,7 @@ url: /java/specify-truetype-fonts-location/
 
 This topic describes the default behavior of Aspose.Words when it looks for TrueType fonts, including operating system specific differences, and demonstrates how to specify user font sources.
 
-The [FontSourceBase](https://apireference.aspose.com/words/java/com.aspose.words/FontSourceBase) class is used to specify various font sources. There are several implementations of the **FontSourceBase** class:
+The [FontSourceBase](https://apireference.aspose.com/words/java/com.aspose.words/FontSourceBase) class is used to specify various font sources. There are {several|multiple|a few|many|numerous} implementations of the **FontSourceBase** class:
 
 - [SystemFontSource](https://apireference.aspose.com/words/java/com.aspose.words/SystemFontSource)
 - [FolderFontSource](https://apireference.aspose.com/words/java/com.aspose.words/FolderFontSource)
@@ -47,7 +47,7 @@ Since the font metrics of Windows and non-Windows OS are different, Aspose.Words
 
 #### Where Aspose.Words Looks for TrueType Fonts on Linux
 
-Different Linux distributions may store fonts in different folders. Aspose.Words looks for fonts in several locations. By default, Aspose.Words looks for the fonts in all of the following locations: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsThis default behavior will work for most Linux distributions, but it is not guaranteed to work all of the time, in which case you might need to specify the location of true type fonts explicitly. To do this, you need to know where TrueType fonts are installed on your Linux distribution.
+Different Linux distributions may store fonts in different folders. Aspose.Words looks for fonts in {several|multiple|a few|many|numerous} locations. By default, Aspose.Words looks for the fonts in all of the following locations: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsThis default behavior will work for most Linux distributions, but it is not guaranteed to work all of the time, in which case you might need to specify the location of true type fonts explicitly. To do this, you need to know where TrueType fonts are installed on your Linux distribution.
 
 #### Where Aspose.Words Looks for TrueType Fonts on Mac OS X
 
@@ -138,7 +138,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-An extra Boolean parameter controls whether fonts are scanned recursively through all folders, hence scanning all child folders of a specified folder. The following example demonstrates how to set Aspose.Words to look in multiple folders for TrueType fonts when rendering or embedding fonts:
+An extra Boolean parameter controls whether fonts are scanned recursively through all folders, hence scanning all child folders of a specified folder. The following example demonstrates how to set Aspose.Words to look in {multiple|several|a few|many|numerous} folders for TrueType fonts when rendering or embedding fonts:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetMultipleFontsFolder.java" >}}
 
@@ -167,11 +167,11 @@ The [Priority](https://apireference.aspose.com/net/words/aspose.words.fonts/fon
 
 ## Loading Fonts from Stream
 
-Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/java/com.aspose.words/StreamFontSource) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/java/com.aspose.words/streamfontsource#openFontDataStream\(\)) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the FontSettings lifetime.
+Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/java/com.aspose.words/StreamFontSource) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/java/com.aspose.words/streamfontsource#openFontDataStream\(\)) method. The **OpenFontDataStream** method could be called {several|multiple|a few|many|numerous} times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the FontSettings lifetime.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-CSharp-Rendering-Printing-ResourceSteamFontSourceExample-ResourceSteamFontSourceExample.cs" >}}
 
-**StreamFontSource** is an alternative to [MemoryFontSource](https://apireference.aspose.com/words/java/com.aspose.words/MemoryFontSource) since it is always possible to load a stream to memory and pass it to **MemoryFontSource**. The difference is that the **MemoryFontSource** is stored in the memory all the time, and the **StreamFontSource** is loaded on demand and disposed of right away. But it may be loaded several times, as described above. In some cases **MemoryFontSource** is preferable, and in others, **StreamFontSource**.
+**StreamFontSource** is an alternative to [MemoryFontSource](https://apireference.aspose.com/words/java/com.aspose.words/MemoryFontSource) since it is always possible to load a stream to memory and pass it to **MemoryFontSource**. The difference is that the **MemoryFontSource** is stored in the memory all the time, and the **StreamFontSource** is loaded on demand and disposed of right away. But it may be loaded {several|multiple|a few|many|numerous} times, as described above. In some cases **MemoryFontSource** is preferable, and in others, **StreamFontSource**.
 
 ## Getting a List of Available Fonts
 

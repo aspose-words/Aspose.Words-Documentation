@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Load Options
 description: "Set advanced properties when loading a document using Aspose.Words for Java to obtain more precise control of the process."
 type: docs
@@ -64,7 +64,7 @@ The following code example shows how to set **TempFolder**:
 
 ## Set the Encoding Explicitly
 
-Most modern document formats store their content in Unicode and do not require special handling. On the other hand, there are still many documents that use some pre-Unicode encoding and sometimes either miss encoding information or do not even support encoding information by nature. Aspose.Words tries to automatically detect the appropriate encoding by default, but in a rare case you may need to use an encoding different from the one detected by our encoding recognition algorithm. In this case, use the [Encoding](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#Encoding) property to get or set the encoding.
+Most modern document formats store their content in Unicode and do not require special handling. On the other hand, there are still {many|multiple|several|a few|numerous} documents that use some pre-Unicode encoding and sometimes either miss encoding information or do not even support encoding information by nature. Aspose.Words tries to automatically detect the appropriate encoding by default, but in a rare case you may need to use an encoding different from the one detected by our encoding recognition algorithm. In this case, use the [Encoding](https://apireference.aspose.com/words/java/com.aspose.words/loadoptions#Encoding) property to get or set the encoding.
 
 The following code example shows how to set the encoding to override the automatically chosen encoding:
 

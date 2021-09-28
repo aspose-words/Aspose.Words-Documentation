@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 13.4.0 Release Notes
 type: docs
 weight: 80
@@ -128,7 +128,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSNET-5697 |/page vertical alignment/document to pdf conversion, image lose its postion |Enhancement |
 |WORDSNET-5754 |while converting doc to pdf, image properties not available |Enhancement |
 |WORDSNET-5756 |Pdf page count is greater than input Word document, after converting doc to Pdf |Enhancement |
-|WORDSNET-5784 |document to pdf conversion, creating multiple tables |Enhancement |
+|WORDSNET-5784 |document to pdf conversion, creating {multiple|several|a few|many|numerous} tables |Enhancement |
 |WORDSNET-5830 |DOC to PDF conversion issue; All pages not exported to PDF |Enhancement |
 |WORDSNET-5831 |Document text out of position, While saving Word document in Pdf format |Enhancement |
 |WORDSNET-5842 |While doc to Pdf, footer image render incorrectly. |Enhancement |

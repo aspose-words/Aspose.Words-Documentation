@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 19.5 Release Notes
 type: docs
 weight: 80
@@ -263,7 +263,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called several times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called {several|multiple|a few|many|numerous} times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
@@ -354,7 +354,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 Font runFont = runs[1].Font;
 
-// One run might have several Dml text effects applied.
+// One run might have {several|multiple|a few|many|numerous} Dml text effects applied.
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Effect3D));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Reflection));

@@ -1,4 +1,4 @@
----
+﻿---
 title: Use DocumentBuilder to Insert Document Elements
 type: docs
 weight: 10
@@ -68,7 +68,7 @@ The following code example shows how to insert page breaks into a document.
 
 ## Inserting an Image
 
-DocumentBuilder provides several overloads of the DocumentBuilder.insertImage (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertImage(byte\[\])/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.insertImage method can use images from different sources:
+DocumentBuilder provides {several|multiple|a few|many|numerous} overloads of the DocumentBuilder.insertImage (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertImage(byte\[\])/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.insertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter DocumentBuilder.insertImage (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertImage(byte\[\],double,double)/).
 - From a stream by passing a Stream parameter [DocumentBuilder.insertImage](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder/methods/insertImage\(java.awt.image.BufferedImage\)/).

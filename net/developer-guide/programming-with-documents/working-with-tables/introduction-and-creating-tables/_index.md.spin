@@ -1,4 +1,4 @@
----
+﻿---
 title: Introduction and Creating Tables
 type: docs
 weight: 10
@@ -61,8 +61,8 @@ A table from any document loaded into Aspose.Words is imported as a Table node. 
 
 A **Table** node does not contain any real content - instead it is a container for other such nodes which make up the content:
 
-- A Table contains many Row nodes. A Table exposes all the normal members of a node which allows you to freely move, modify and remove the table in the document.
-- A Row represents a single row of a table and contains many Cell nodes. Additionally a Row provides members which define how a row is displayed, for example the height and alignment.
+- A Table contains {many|multiple|several|a few|numerous} Row nodes. A Table exposes all the normal members of a node which allows you to freely move, modify and remove the table in the document.
+- A Row represents a single row of a table and contains {many|multiple|several|a few|numerous} Cell nodes. Additionally a Row provides members which define how a row is displayed, for example the height and alignment.
 - A Cell is what contains the true content seen in a table and is made up of Paragraph and other block level nodes. Additionally cells can contain further nested tables.
 
 This relationship is best represented by inspecting the structure of a **Table** node in a document through the use of **DocumentExplorer** .
@@ -73,7 +73,7 @@ You should also notice table is succeeded with an empty paragraph. It is a requi
 
 ## Creating Tables
 
-Aspose.Words provides several different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
+Aspose.Words provides {several|multiple|a few|many|numerous} different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
 
 |Table Property|Default in Aspose.Words|
 | :- | :- |
@@ -192,11 +192,11 @@ Aspose.Words supports inserting content into a document from an HTML source by u
 
 ### Comparison of Insertion Techniques
 
-As described in previous articles, Aspose.Words provides several methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
+As described in previous articles, Aspose.Words provides {several|multiple|a few|many|numerous} methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
-|DocumentBuilder ([DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable))|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
+|DocumentBuilder ([DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable))|Standard method of inserting tables and other document content.|Sometimes hard to create {many|multiple|several|a few|numerous} varieties of tables at the same time with the same instance of the builder.|
 |Table( [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
 |Cloning ([Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
 |From an HTML source. ([DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
@@ -219,7 +219,7 @@ Below example shows how to print the text range of row and table elements.
 
 ## Replacing Text in a Table
 
-Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across multiple nodes, such as paragraphs or cells, then an exception is thrown.
+Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across {multiple|several|a few|many|numerous} nodes, such as paragraphs or cells, then an exception is thrown.
 
 Normally the replacement of text should be done at the cell level (per cell) or at the paragraph level.
 

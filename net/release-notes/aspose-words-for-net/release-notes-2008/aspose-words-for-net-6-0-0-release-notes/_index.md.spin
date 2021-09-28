@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 6.0.0 Release Notes
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ The Aspose.Words Rendering Engine has been designed to format a document into pa
 
 Our work never ends. Although this is version 6.0 for Aspose.Words, it is only “version 1.0” for the Rendering Engine. The list of document features that are rendered well is great, but we are of course to ship more versions that will render documents even better.
 
-I would like to thank the team who worked on the engine painstakingly trying to recreate the many quirks of Microsoft Word’s page layout behavior.I would also like to thank all customers who have been waiting for this feature for 5 years!
+I would like to thank the team who worked on the engine painstakingly trying to recreate the {many|multiple|several|a few|numerous} quirks of Microsoft Word’s page layout behavior.I would also like to thank all customers who have been waiting for this feature for 5 years!
 
 ## Direct Conversion to PDF
 
@@ -53,7 +53,7 @@ The legacy conversion that requires Aspose.Words and Aspose.Pdf is still availab
 
 ## Printing and Imaging
 
-Being able to print Word® documents in any server or client application without utilizing Microsoft Word® has been a dream for many and for long. Aspose.Words for .NET 6.0 makes it possible. 
+Being able to print Word® documents in any server or client application without utilizing Microsoft Word® has been a dream for {many|multiple|several|a few|numerous} and for long. Aspose.Words for .NET 6.0 makes it possible. 
 
 The same document Rendering Engine can output to a .NET Graphics object and it opens endless prospects for Aspose.Words customers:
 
@@ -76,7 +76,7 @@ To benefit from this feature all you need to do is download and use the latest A
 
 MHTML is a “single file web page” format. MHTML is a way to save HTML with all related images and other resources into a single file.
 
-Saving documents as MHTML has been available in Aspose.Words for several months already and the ability to load MHTML files is a logical next step.
+Saving documents as MHTML has been available in Aspose.Words for {several|multiple|a few|many|numerous} months already and the ability to load MHTML files is a logical next step.
 
 Loading and saving documents as MHTML is fully integrated in Aspose.Words. Use constructors to load a file in any format and to save in any format. Also see the and enumerations.
 

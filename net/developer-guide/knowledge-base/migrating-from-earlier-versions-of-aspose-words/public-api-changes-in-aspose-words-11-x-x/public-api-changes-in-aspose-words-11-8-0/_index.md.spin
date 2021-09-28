@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 11.8.0
 type: docs
 weight: 10
@@ -88,7 +88,7 @@ Document doc = new Document(MyDir + "Document.doc");
 // Extract the last paragraph in the document to convert to HTML.
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Create an instance of HtmlSaveOptions and set a few options.
+// Create an instance of HtmlSaveOptions and set {a few|multiple|several|many|numerous} options.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection;
 saveOptions.ExportRelativeFontSize = true;
@@ -105,7 +105,7 @@ string nodeAsHtml = node.ToString(saveOptions);
 Dim doc As New Document(MyDir & "Document.doc")
 ' Extract the last paragraph in the document to convert to HTML.
 Dim node As Node = doc.LastSection.Body.LastParagraph
-' Create an instance of HtmlSaveOptions and set a few options.
+' Create an instance of HtmlSaveOptions and set {a few|multiple|several|many|numerous} options.
 Dim saveOptions As New HtmlSaveOptions()
 saveOptions.ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection
 saveOptions.ExportRelativeFontSize = True

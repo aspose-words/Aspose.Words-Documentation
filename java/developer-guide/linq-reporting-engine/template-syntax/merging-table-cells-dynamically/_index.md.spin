@@ -1,4 +1,4 @@
----
+﻿---
 title: Merging Table Cells Dynamically
 type: docs
 weight: 100
@@ -78,7 +78,7 @@ public class InvoiceItem
 }
 {{< /highlight >}}
 
-Given that `invoices` is an enumeration of Invoice instances, you could use the following template to output information on several invoices in one table.
+Given that `invoices` is an enumeration of Invoice instances, you could use the following template to output information on {several|multiple|a few|many|numerous} invoices in one table.
 
 | #                                                            | Ware                                | Pack                   | Quantity                                           |
 | ------------------------------------------------------------ | ----------------------------------- | ---------------------- | -------------------------------------------------- |

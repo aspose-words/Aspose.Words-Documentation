@@ -1,4 +1,4 @@
----
+﻿---
 title: Composing Expressions
 type: docs
 weight: 10
@@ -6,7 +6,7 @@ url: /net/composing-expressions/
 aliases: [/net/template-syntax/#composing-expressions]
 ---
 
-Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with several restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
+Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with {several|multiple|a few|many|numerous} restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
 
 ## Using Lexical Tokens
 
@@ -44,7 +44,7 @@ However, you can use the identifier of a visible type in template expressions on
 
 **Note –** Whereas using generic types' identifiers is forbidden in template expressions, you can use identifiers of nullable types in the shorthand "`T?`" form.
 
-Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See "Appendix A. Enumeration Extension Methods" for the examples.
+Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by {multiple|several|a few|many|numerous} keys. See "Appendix A. Enumeration Extension Methods" for the examples.
 
 ## Accessing Type Members
 
@@ -163,7 +163,7 @@ LINQ Reporting Engine enables you to access a data associated with a particular 
 
 To determine parent-child relationships for a particular `DataTable` instance, the engine uses [DataRelation](http://msdn.microsoft.com/en-us/library/system.data.datarelation\(v=vs.110\).aspx) objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
 
-**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
+**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with {multiple|several|a few|many|numerous} relations to the same table.
 
 ### Working with IDataReader Implementors
 

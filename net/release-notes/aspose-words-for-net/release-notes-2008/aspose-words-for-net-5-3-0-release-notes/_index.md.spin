@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 5.3.0 Release Notes
 type: docs
 weight: 20
@@ -29,7 +29,7 @@ Document doc = new Document(@"C:\MyFile.odt");doc.Save(@"C:\MyFile Out.docx");
 
 Note: Loading OpenDocument is in Beta at the moment. We hope it will come out of Beta in the next Aspose.Words for .NET release.
 
-We hope that the Adobe Buzzword team will be happy since they've been the primary push for ODT support in Aspose.Words. It is interesting to note that ODT to/from Microsoft Word documents conversion is far from trivial because of the many fundamental differences between the document structures. At the moment the set of ODT features supported by Aspose.Words is limited to features found in Buzzword.
+We hope that the Adobe Buzzword team will be happy since they've been the primary push for ODT support in Aspose.Words. It is interesting to note that ODT to/from Microsoft Word documents conversion is far from trivial because of the {many|multiple|several|a few|numerous} fundamental differences between the document structures. At the moment the set of ODT features supported by Aspose.Words is limited to features found in Buzzword.
 
 
 
@@ -59,7 +59,7 @@ If you are creating an application in classical ASP using VBScript or in PHP, th
 
 
 
-Aspose.Words is available only in two versions: Aspose.Words for .NET and Aspose.Words for Java, but nevertherless, you can use it from many other programming languages. We have reworked the section in our documentation and included more examples in different languages.
+Aspose.Words is available only in two versions: Aspose.Words for .NET and Aspose.Words for Java, but nevertherless, you can use it from {many|multiple|several|a few|numerous} other programming languages. We have reworked the section in our documentation and included more examples in different languages.
 
 
 

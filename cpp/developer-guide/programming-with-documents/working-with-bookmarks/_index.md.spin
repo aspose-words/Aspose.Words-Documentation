@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Bookmarks
 type: docs
 weight: 39
@@ -13,7 +13,7 @@ With Aspose.Words, you can use bookmarks in reports or documents to insert some 
 
 ## Bookmarks in Microsoft Word
 
-In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of several letters and digits.
+In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of {several|multiple|a few|many|numerous} letters and digits.
 
 ### Inserting a Bookmark in Microsoft Word
 

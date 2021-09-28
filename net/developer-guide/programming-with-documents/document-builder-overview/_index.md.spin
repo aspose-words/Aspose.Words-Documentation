@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Builder Overview
 type: docs
 description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with .NET."
@@ -26,7 +26,7 @@ The following code example shows how to navigate to a bookmark:
 
 ## Document Building and Modifying
 
-Aspose.Words API provides several classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/net/aspose.words/font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
+Aspose.Words API provides {several|multiple|a few|many|numerous} classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/net/aspose.words/font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
 
 You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertfield/index), [InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml/index), and similar methods.
 

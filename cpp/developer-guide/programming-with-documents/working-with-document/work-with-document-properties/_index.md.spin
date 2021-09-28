@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Document Properties
 description: "Aspose.Words for C++ allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
@@ -55,7 +55,7 @@ To add custom document properties with Aspose.Words, use the [Add](https://apire
 
 To remove custom properties, use the [Remove](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property_collection#remove_string) method, passing it the property name to remove, or the [RemoveAt](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property_collection#removeat_int) method to remove the property by index. You can also remove all properties using the [Clear](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property_collection#clear) method.
 
-The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
+The following code example checks whether a custom property with a given name exists in a document and adds {a few|multiple|several|many|numerous} more custom document properties:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocProperties-CustomAdd.cpp" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 18.8 Release Notes
 type: docs
 weight: 50
@@ -72,7 +72,7 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16915|Incorrect rendering of the OMath if FirstLineIndent is specified, after converting to PDF|Bug|
 |WORDSNET-16919|Problem of incorrect Revisions Count after Comparing documents|Bug|
 |WORDSNET-16930|CSS border style is not applied to image in output PDF/DOCX|Bug|
-|WORDSNET-16946|Content is rendered on multiple pages in HtmlFixed/PNG|Bug|
+|WORDSNET-16946|Content is rendered on {multiple|several|a few|many|numerous} pages in HtmlFixed/PNG|Bug|
 |WORDSNET-16979|Distance between symbols not preserved in PDF|Bug|
 |WORDSNET-16982|Borders of some SmartArt elements not preserved in PDF|Bug|
 |WORDSNET-16995|LayoutCollector.GetStartPageIndex returns wrong page number|Bug|

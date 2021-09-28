@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 type: docs
 description: "Aspose.Words for .NET answers the most frequently asked questions. Learn this page to quickly solve your problem on general questions or specific topics."
@@ -50,7 +50,7 @@ You can see the complete list of supported formats on the ["Supported Document F
 
 **Q: How can I try Aspose.Words free?**
 
-You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to a few hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
+You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to {a few|multiple|several|many|numerous} hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
 
 See the ["Licensing and Subscription"](https://docs.aspose.com/words/net/licensing/) page for more information.
 

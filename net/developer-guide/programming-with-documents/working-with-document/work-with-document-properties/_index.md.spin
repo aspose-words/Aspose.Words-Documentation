@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Document Properties
 description: "Aspose.Words for .NET allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
@@ -55,7 +55,7 @@ To add custom document properties with Aspose.Words, use the [Add](http://www.as
 
 To remove custom properties, use the [Remove](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/remove) method, passing it the property name to remove, or the [RemoveAt](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/removeat) method to remove the property by index. You can also remove all properties using the [Clear](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/clear) method.
 
-The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
+The following code example checks whether a custom property with a given name exists in a document and adds {a few|multiple|several|many|numerous} more custom document properties:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomAdd.cs" >}}
 

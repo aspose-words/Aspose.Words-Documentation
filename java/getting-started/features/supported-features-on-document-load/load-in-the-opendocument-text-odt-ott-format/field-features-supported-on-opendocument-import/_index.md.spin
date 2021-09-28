@@ -1,4 +1,4 @@
----
+﻿---
 title: Field Features Supported on OpenDocument Import
 type: docs
 weight: 50
@@ -16,7 +16,7 @@ A field is represented in the document model as:
 - FieldStart node.
 - Run node(s) (represents the field code).
 - FieldSeparator node.
-- Other nodes (represents the field result) such as runs, shapes. A field can span across many different types of content. A field result can consist of other block-level nodes such as Table or Paragraph.
+- Other nodes (represents the field result) such as runs, shapes. A field can span across {many|multiple|several|a few|numerous} different types of content. A field result can consist of other block-level nodes such as Table or Paragraph.
 - FieldEnd node.
 
 We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which allows you to get this facade from any field the document.
@@ -243,7 +243,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Text |Yes | | |
 |Hyperlinked Shape or Image |Yes | | |
-|Hyperlink across Multiple Paragraphs |N/A |ODT doesn't support having hyperlinks across multiple paragraphs. | |
+|Hyperlink across Multiple Paragraphs |N/A |ODT doesn't support having hyperlinks across {multiple|several|a few|many|numerous} paragraphs. | |
 |Hyperlink to a Local Bookmark |Yes | | |
 |Hyperlink to an External Resource |Yes | | |
 |Screen Tip |N/A | | |

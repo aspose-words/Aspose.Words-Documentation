@@ -1,4 +1,4 @@
----
+﻿---
 title: Compare Documents
 type: docs
 description: "Aspose.Words for C++ allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
@@ -54,7 +54,7 @@ The following code example shows how to simply apply the Compare method to two d
 
 ## Specify Advanced Comparing Properties
 
-There are many different properties of the [CompareOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options) class which you can apply when you want to compare documents.
+There are {many|multiple|several|a few|numerous} different properties of the [CompareOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options) class which you can apply when you want to compare documents.
 
 For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignoreheadersandfooters_const), [IgnoreFormatting](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignoreformatting_const), [IgnoreComments](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignorecomments_const), and others by setting them to "true".
 

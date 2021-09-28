@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 21.2 Release Notes
 type: docs
 weight: 11
@@ -90,7 +90,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21006 | ReportingEngine.BuildReport could not create the bitmap - lack of system   resources - FileFormat=0 | Bug |
 | WORDSNET-21473 | DOCX to PDF conversion issue with accessibility check for alternative   text | Bug |
 | WORDSNET-20982 | Artifact issue while converting DOCX to PDF | Bug |
-| WORDSNET-21305 | IChar solution allocates too many class instances | Bug |
+| WORDSNET-21305 | IChar solution allocates too {many|multiple|several|a few|numerous} class instances | Bug |
 | WORDSNET-21306 | DOCX to PDF conversion: a part of first page is pushed to second page   after conversion | Bug |
 | WORDSNET-21307 | Messed up headers after extract page | Bug |
 | WORDSNET-21617 | Track changes - Bookmarks not being generated for Headings during Word to   PDF conversion | Bug |

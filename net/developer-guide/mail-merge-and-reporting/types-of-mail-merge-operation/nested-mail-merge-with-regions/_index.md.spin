@@ -1,4 +1,4 @@
----
+﻿---
 title: Nested Mail Merge with Regions
 aliases:
   - /net/how-to-use-nested-mail-merge-regions/
@@ -24,7 +24,7 @@ Nested mail merge is relevant only when performing a mail merge with regions.
 
 The mail merge region is called nested if you have two or more mail merge regions where one of them is inside the other in a hierarchical form. Note that each region contains data from one table.
 
-The most common example of a nested mail merge is an order that contains multiple items where you need to link multiple data tables and present the information in a template.
+The most common example of a nested mail merge is an order that contains {multiple|several|a few|many|numerous} items where you need to link {multiple|several|a few|many|numerous} data tables and present the information in a template.
 
 The picture below shows two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
 

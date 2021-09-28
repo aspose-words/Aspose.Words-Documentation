@@ -1,4 +1,4 @@
----
+﻿---
 title: Logical Levels of Nodes in a Document
 type: docs
 description: "In Aspose.Words for .NET documentation mentioned logical levels of nodes – block level, inline level, or row level. The node level is used to describe the location in the document tree where the node is typically occur."

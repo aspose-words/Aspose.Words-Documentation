@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to PDF
 description: "Aspose.Words for Java allows you to convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms."
 aliases: 
@@ -12,7 +12,7 @@ The ability to easily and reliably convert documents from one format to another 
 
 ## Convert a Word Document to PDF
 
-Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
+Conversion from Word to PDF is a rather complex process that requires {several|multiple|a few|many|numerous} stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
 
 With Aspose.Words you can programmatically convert a document from DOC or DOCX format to PDF without using Microsoft Office. This article explains how to perform this conversion.
 

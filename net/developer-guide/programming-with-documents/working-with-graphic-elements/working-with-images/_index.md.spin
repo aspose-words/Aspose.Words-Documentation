@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Images
 type: docs
 weight: 40
@@ -7,7 +7,7 @@ url: /net/working-with-images/
 
 ## Inserting an Image
 
-DocumentBuilder provides several overloads of the [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/1) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
+DocumentBuilder provides {several|multiple|a few|many|numerous} overloads of the [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/1) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/2).
 - From a stream by passing a Stream parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3).

@@ -1,4 +1,4 @@
----
+﻿---
 title: Use DocumentBuilder to Insert Document Elements
 type: docs
 weight: 80
@@ -63,7 +63,7 @@ If you want to explicitly start a new line, paragraph, column, section, or page,
 
 ## Inserting an Image
 
-DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
+DocumentBuilder provides {several|multiple|a few|many|numerous} overloads of the DocumentBuilder->InsertImage method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter DocumentBuilder->InsertImage.
 - From a stream by passing a Stream parameter DocumentBuilder->InsertImage.

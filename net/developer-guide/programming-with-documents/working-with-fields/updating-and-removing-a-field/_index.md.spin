@@ -1,4 +1,4 @@
----
+﻿---
 title: Updating and Removing a Field
 type: docs
 weight: 30
@@ -102,7 +102,7 @@ The structure can also be seen below in hierarchical form using the [demo proje
 
 ![update-remove-a-field-aspose-words-2](updating-and-removing-a-field_2.png)
 
-Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across multiple pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
+Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across {multiple|several|a few|many|numerous} pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
 
 Below code example shows how to replace the field with its most recent result.
 
@@ -112,7 +112,7 @@ The ConvertFieldsToStaticText method accepts two parameters, a CompositeNode and
 
 For example you can pass a Document object and convert the fields of the specified type from the entire document to static text, or you could pass the [Body](http://www.aspose.com/api/net/words/aspose.words/body) object of a section and convert only fields found within that body.
 
-When passing a block level node such as a [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) , be aware that in some cases fields can span across multiple paragraphs. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
+When passing a block level node such as a [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) , be aware that in some cases fields can span across {multiple|several|a few|many|numerous} paragraphs. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
 
 The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. Below example shows how to convert all fields of a specified type in a document to static text. You can download template file of below examples from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Linked%20fields.docx).
 

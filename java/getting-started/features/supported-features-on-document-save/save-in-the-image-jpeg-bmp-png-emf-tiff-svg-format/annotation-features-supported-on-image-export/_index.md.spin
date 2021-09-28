@@ -1,4 +1,4 @@
----
+﻿---
 title: Annotation Features Supported on Image Export
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ url: /java/annotation-features-supported-on-image-export/
 
 Comments are exported to rendered formats.
 
-In version 1.0 of comments rendering long or many comments are not truncated.
+In version 1.0 of comments rendering long or {many|multiple|several|a few|numerous} comments are not truncated.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

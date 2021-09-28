@@ -1,4 +1,4 @@
----
+﻿---
 title: Product Overview
 description: "With Aspose.Words for .NET you can create, modify, convert, render, and print documents without relying on third-party applications. Aspose.Words is a cross-platform class library."
 type: docs
@@ -82,7 +82,7 @@ Although there are over 150 public classes and enumerations in Aspose.Words, the
 - Borrow best practices from the .NET Framework Design Guidelines
 - Provide a balance of ease of use and detailed manipulation of document elements
 
-Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of many classes, methods, and properties familiar.
+Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of {many|multiple|several|a few|numerous} classes, methods, and properties familiar.
 
 [Document](https://apireference.aspose.com/words/net/aspose.words/document), [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph), [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark), [Range](https://apireference.aspose.com/words/net/aspose.words/range), [Section.PageSetup](https://apireference.aspose.com/words/net/aspose.words/section/properties/pagesetup) and [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) are some of the Aspose.Words classes. At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents a document as a tree of objects, more like an XML DOM tree. If you have worked with any XML DOM library, you will find it is easy to understand and work with Aspose.Words.
 

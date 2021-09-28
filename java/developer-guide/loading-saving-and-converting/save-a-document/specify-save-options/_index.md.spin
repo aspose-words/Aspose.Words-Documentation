@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Save Options
 description: "Set advanced properties when saving a document using Aspose.Words for Java to provide more precise control over the process."
 aliases:
@@ -21,7 +21,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-The article describes a few properties you can control when saving a document.
+The article describes {a few|multiple|several|many|numerous} properties you can control when saving a document.
 
 ## Encrypt a Document With a Password
 

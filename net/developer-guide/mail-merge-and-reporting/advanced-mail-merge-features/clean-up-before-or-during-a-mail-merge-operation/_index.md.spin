@@ -1,4 +1,4 @@
----
+﻿---
 title: Clean Up Before or During a Mail Merge Operation
 aliases:
   - /net/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/
@@ -76,7 +76,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-**Note:** This option will remove any mail merge region in the document which is not found in the current data source. If you are merging data from many data sources by using separate calls of [ExecuteWithRegions](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/executewithregions/index) then you need to make sure that this option is enabled only with the very last merge operation. Otherwise, all unused mail merge regions will be removed from the document before they can be merged.
+**Note:** This option will remove any mail merge region in the document which is not found in the current data source. If you are merging data from {many|multiple|several|a few|numerous} data sources by using separate calls of [ExecuteWithRegions](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/executewithregions/index) then you need to make sure that this option is enabled only with the very last merge operation. Otherwise, all unused mail merge regions will be removed from the document before they can be merged.
 
 ### Remove Unused Fields
 

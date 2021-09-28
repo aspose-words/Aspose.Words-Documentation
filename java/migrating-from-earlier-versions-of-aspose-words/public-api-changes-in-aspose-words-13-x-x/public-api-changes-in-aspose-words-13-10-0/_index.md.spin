@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 13.10.0
 type: docs
 weight: 100
@@ -57,7 +57,7 @@ A new API member has been added to allow specifying the author's name to use whe
 
 ## DocumentBuilder.MoveToMergeField() now considers CurrentNode
 
-We have slightly changed the behavior of DocumentBuilder.MoveToMergeField() so that it now searches from the current node onwards and, unless the field is found, continues from the start of the document so the entire document is searched. This was implemented so the DocumentBuilder can properly move to each field in a document which contains many fields with the same name.
+We have slightly changed the behavior of DocumentBuilder.MoveToMergeField() so that it now searches from the current node onwards and, unless the field is found, continues from the start of the document so the entire document is searched. This was implemented so the DocumentBuilder can properly move to each field in a document which contains {many|multiple|several|a few|numerous} fields with the same name.
 
 ## Rendering to PDFA-1a Supported
 

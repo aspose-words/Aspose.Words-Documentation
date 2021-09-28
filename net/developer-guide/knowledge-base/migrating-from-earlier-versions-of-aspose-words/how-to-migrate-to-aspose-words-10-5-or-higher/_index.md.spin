@@ -1,4 +1,4 @@
----
+﻿---
 title: How to  Migrate to Aspose.Words 10.5 or Higher
 type: docs
 weight: 10
@@ -7,7 +7,7 @@ url: /net/how-to-migrate-to-aspose-words-10-5-or-higher/
 
 {{% alert color="primary" %}} 
 
-Starting in Aspose.Words 10.5 many new features and properties were made available to tables in the API. These changes also affect the defaults used when creating a new table. As such, this may cause existing code which produces tables in your application to “break”. This can result in the appearance of tables to be different when compared with previous versions.
+Starting in Aspose.Words 10.5 {many|multiple|several|a few|numerous} new features and properties were made available to tables in the API. These changes also affect the defaults used when creating a new table. As such, this may cause existing code which produces tables in your application to “break”. This can result in the appearance of tables to be different when compared with previous versions.
 
 This article describes the changes in the new API and how to easily fix your code so that tables produced by existing code appear as expected. 
 

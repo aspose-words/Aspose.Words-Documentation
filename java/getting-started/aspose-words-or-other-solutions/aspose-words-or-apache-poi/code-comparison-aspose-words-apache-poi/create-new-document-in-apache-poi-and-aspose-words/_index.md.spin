@@ -1,4 +1,4 @@
----
+﻿---
 title: Create New Document in Apache POI and Aspose.Words
 type: docs
 weight: 35
@@ -28,7 +28,7 @@ builder.setBold(true);
 builder.writeln("Aspose Sample Content for Word file.");
  
 // Save the document in DOCX format. The format to save as is inferred from the extension of the file name.
-// Aspose.Words supports saving any document in many more formats.
+// Aspose.Words supports saving any document in {many|multiple|several|a few|numerous} more formats.
 doc.save(dataDir + "Aspose_NewDoc.docx",SaveFormat.DOCX);
 {{< /highlight >}}
 

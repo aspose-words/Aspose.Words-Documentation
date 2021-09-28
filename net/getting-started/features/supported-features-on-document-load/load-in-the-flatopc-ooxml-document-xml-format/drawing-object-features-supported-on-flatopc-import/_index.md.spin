@@ -1,4 +1,4 @@
----
+﻿---
 title: Drawing Object Features Supported on FlatOPC Import
 type: docs
 weight: 40
@@ -7,13 +7,13 @@ url: /net/drawing-object-features-supported-on-flatopc-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports many types of drawing entities on document load. Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior. Using Aspose.Words you can create and modify different types of graphic objects. Almost all properties that deal with object positioning use points as a unit of measurment. There is a class to help work with points by converting different types of units to and from points e.g pixel to point, point to inch.
+Aspose.Words supports {many|multiple|several|a few|numerous} types of drawing entities on document load. Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior. Using Aspose.Words you can create and modify different types of graphic objects. Almost all properties that deal with object positioning use points as a unit of measurment. There is a class to help work with points by converting different types of units to and from points e.g pixel to point, point to inch.
 
 {{% /alert %}} 
 
 ## Images
 
-You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property. All of the following image types listed in the table below this overview are supported. When a document contains multiple references to the same image from an from an external address (e.g the internet) then the image is only downloaded once. It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of image from the Aspose.Words point-of-view.
+You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property. All of the following image types listed in the table below this overview are supported. When a document contains {multiple|several|a few|many|numerous} references to the same image from an from an external address (e.g the internet) then the image is only downloaded once. It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of image from the Aspose.Words point-of-view.
 
 - Microsoft Word Native (which can be stored directly in model without any changes). These are the JPEG, PNG, and PICT formats and are left untouched during insertion.
 - Windows Metafiles (can also be stored directly in the model). These are the EMF and WMF vector formats and are left untouched during insertion.

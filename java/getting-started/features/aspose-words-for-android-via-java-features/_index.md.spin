@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Android via Java Features
 type: docs
 weight: 90
@@ -13,7 +13,7 @@ This section provides a comparison of availability of features between Aspose.Wo
 
 |Feature|Description|Aspose.Words for Java|Aspose.Words for Android via Java|
 | :- | :- | :- | :- |
-|High-Quality Conversions|Quickly and reliably, convert between several popular document formats.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|High-Quality Conversions|Quickly and reliably, convert between {several|multiple|a few|many|numerous} popular document formats.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Word (DOC)|The fastest and most complete DOC format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |WordprocessingML (DOCX, XML)|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rich Text Format (RTF)|Comprehensive support of the RTF format to interact with a variety of applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -108,7 +108,7 @@ LINQ Reporting Engine is an advanced reporting tool enabling you to generate doc
 |Support of repeatable and conditional document blocks (loops and conditions) for tables, lists, and common content|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Support of dynamically generated charts and images|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Support of insertion of outer documents and HTML blocks into a document|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Support of multiple data sources (including of different types) for generation of a single document|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Support of {multiple|several|a few|many|numerous} data sources (including of different types) for generation of a single document|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Built-in support of data relations (master-detail)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Comprehensive support of various data manipulations such as grouping, sorting, filtering, and others directly in templates|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |WYSIWYG: A generated document retains the same formatting of its elements as a corresponding template has|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 6.2.0 Release Notes
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Performance improvements in the rendering engine!
 
 Convert bigger documents much faster to PDF, images and printing! 
 
-Plus many other fixes and enhancements.
+Plus {many|multiple|several|a few|numerous} other fixes and enhancements.
 
 
 

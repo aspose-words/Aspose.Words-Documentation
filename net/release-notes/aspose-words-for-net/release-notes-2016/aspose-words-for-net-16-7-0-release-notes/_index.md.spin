@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 16.7.0 Release Notes
 type: docs
 weight: 50
@@ -350,7 +350,7 @@ continues to work with old code and will be switched to new code eventually.
 
 ### WORDSNET-4285 - SKIPIF field supported
 
-This feature has been requested by a few customers and we have it implemented now. SKIPIF field is now updated during mail merge.
+This feature has been requested by {a few|multiple|several|many|numerous} customers and we have it implemented now. SKIPIF field is now updated during mail merge.
 
 ### WORDSNET-6205 Added Support for MathML in HTML Export
 

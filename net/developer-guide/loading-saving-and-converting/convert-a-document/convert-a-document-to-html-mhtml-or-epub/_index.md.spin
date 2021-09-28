@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to HTML, MHTML or EPUB
 description: "Aspose.Words for .NET allows you to convert a document from almost any format to HTML or MHTML, as well as to EPUB format. You can also specify save options for managing the output document."
 type: docs
@@ -31,7 +31,7 @@ To convert a document to MHTML or EPUB, use SaveFormat.Mhtml or SaveFormat.Epub 
 
 ## Convert a Document with Round-trip Information
 
-The HTML format does not support many Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/net/words/aspose.words.saving/htmlsaveoptions/properties/exportroundtripinformation) property. Saving the round-trip information allows to restore document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
+The HTML format does not support {many|multiple|several|a few|numerous} Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/net/words/aspose.words.saving/htmlsaveoptions/properties/exportroundtripinformation) property. Saving the round-trip information allows to restore document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
 
 The default value is **true** for HTML and **false** for MHTML and EPUB:
 

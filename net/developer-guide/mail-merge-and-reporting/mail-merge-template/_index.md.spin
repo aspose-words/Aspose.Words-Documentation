@@ -1,4 +1,4 @@
----
+﻿---
 title: Mail Merge Template
 type: docs
 description: "Aspose.Words for .NET provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
@@ -37,7 +37,7 @@ The picture below shows the created template:
 
 ## Customize a Mail Merge Template Properties
 
-Aspose.Words allows you to customize your template through many properties. Template customization will be described below through an example of customizing some properties of images and text.
+Aspose.Words allows you to customize your template through {many|multiple|several|a few|numerous} properties. Template customization will be described below through an example of customizing some properties of images and text.
 
 ### Customize Image Properties
 

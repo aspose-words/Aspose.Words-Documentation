@@ -1,4 +1,4 @@
----
+﻿---
 title: Numbering Features Supported on HTML Import
 type: docs
 weight: 70
@@ -7,7 +7,7 @@ url: /java/numbering-features-supported-on-html-import/
 
 {{% alert color="primary" %}} 
 
-A list used in a document is actually made up of many complex parts. List and their properties are fully supported by Aspose.Words.
+A list used in a document is actually made up of {many|multiple|several|a few|numerous} complex parts. List and their properties are fully supported by Aspose.Words.
 
 There are two main types of lists:
 

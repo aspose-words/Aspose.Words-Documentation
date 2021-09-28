@@ -1,4 +1,4 @@
----
+﻿---
 title: Advanced Mail Merge Features
 aliases:
   - /net/how-to-use-advanced-mail-merge-features/
@@ -11,11 +11,11 @@ url: /net/advanced-mail-merge-features/
 
 Aspose.Words provides some additional mail merge properties and methods that allow you to perform further customization of the mail merge process either in simple mail merge or mail merge with regions.
 
-Advanced mail merge features include, but are not limited to, obtaining information about template structure before performing a mail merge operation, setting rules for a mail merge operation, and cleaning up during a mail merge operation. This article will cover only a few properties and examples to show you how to use advanced features.
+Advanced mail merge features include, but are not limited to, obtaining information about template structure before performing a mail merge operation, setting rules for a mail merge operation, and cleaning up during a mail merge operation. This article will cover only {a few|multiple|several|many|numerous} properties and examples to show you how to use advanced features.
 
 ## Set Rules for Mail Merge Operations
 
-Adding rules to your template allows you to make the workflow process more effective and flexible. Using mail merge rules, you can set up content that can be changed quickly and avoid the need to generate multiple documents.
+Adding rules to your template allows you to make the workflow process more effective and flexible. Using mail merge rules, you can set up content that can be changed quickly and avoid the need to generate {multiple|several|a few|many|numerous} documents.
 
 Aspose.Words allows you to customize the mail merge based on rules that run when you perform the mail merge operation and control merging information. For example, when you create an email or a letter to send to all of your customers. You can set up a rule so that the letter could contain various data based on the different values in certain fields of your data source.
 
@@ -23,7 +23,7 @@ Take a look at some mail merge rules that you can implement.
 
 ### Implement Next field to Merge Data Records in Current Document
 
-You can implement the [Next](https://apireference.aspose.com/words/net/aspose.words.fields/fieldnext) field to merge the next data record into the current resulting merged document, instead of starting a new merged document. It is used to display multiple records in one document.
+You can implement the [Next](https://apireference.aspose.com/words/net/aspose.words.fields/fieldnext) field to merge the next data record into the current resulting merged document, instead of starting a new merged document. It is used to display {multiple|several|a few|many|numerous} records in one document.
 
 ### Implement NextIf and SkipIf Fields to Compare Two Expressions
 
@@ -56,7 +56,7 @@ fieldNextIf.ComparisonOperator = "=";
 
 ## Obtain Information About Template Structure
 
-Aspose.Words allows you to gather different information in your template through many methods. For example, you may need to get the names of some merge fields or the hierarchy of regions in your template. Now we will explain the possible variants to obtain some specific information from your template.
+Aspose.Words allows you to gather different information in your template through {many|multiple|several|a few|numerous} methods. For example, you may need to get the names of some merge fields or the hierarchy of regions in your template. Now we will explain the possible variants to obtain some specific information from your template.
 
 ### Get Merge Field Names
 
@@ -89,7 +89,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Add Mapped Fields
 
-Aspose.Words allows you to automatically map names of fields in your data source and names of mail merge fields in the template using the [MappedDataFields](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/mappeddatafields) property. For example, if you have a field name called "Last Name" in your template, and in your data source you have the field name "Last Name" or another variation such as "Last_Name" or "LastName", then the field in the data source will automatically map to the corresponding mapped field. If a merge template is to be merged with many data sources, mapped fields make it unnecessary to reenter the fields into the template to agree with the field names in the database.
+Aspose.Words allows you to automatically map names of fields in your data source and names of mail merge fields in the template using the [MappedDataFields](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/mappeddatafields) property. For example, if you have a field name called "Last Name" in your template, and in your data source you have the field name "Last Name" or another variation such as "Last_Name" or "LastName", then the field in the data source will automatically map to the corresponding mapped field. If a merge template is to be merged with {many|multiple|several|a few|numerous} data sources, mapped fields make it unnecessary to reenter the fields into the template to agree with the field names in the database.
 
 The following code example shows how to add a mapped field using the [Add](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mappeddatafieldcollection/methods/add) method when a merge field in a template and a data field in a data source have different names:
 

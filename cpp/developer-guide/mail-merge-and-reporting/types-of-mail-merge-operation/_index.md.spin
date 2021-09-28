@@ -1,4 +1,4 @@
----
+﻿---
 title: Types of Mail Merge Operation
 type: docs
 aliases:
@@ -9,7 +9,7 @@ weight: 20
 url: /cpp/types-of-mail-merge-operations/
 ---
 
-The main idea of mail merge is to automatically create a document or multiple documents based on your template and data fetched from your data source. Aspose.Words allows you to perform two different types of mail merge operations: simple mail merge and mail merge with regions.
+The main idea of mail merge is to automatically create a document or {multiple|several|a few|many|numerous} documents based on your template and data fetched from your data source. Aspose.Words allows you to perform two different types of mail merge operations: simple mail merge and mail merge with regions.
 
 The most common example of using simple mail merge is when you want to send a document for different clients by including their names at the beginning of the document. To do this, you need to create merge fields such as *First Name* and *Last Name* in your template, and then fill them in with data from your data source. Whereas the most common example of using mail merge with regions is when you want to send a document that includes specific orders with the list of all items within each order. To do this, you will need to create merge regions inside your template – own region for each order, in order to fill it with all required data for the items.
 

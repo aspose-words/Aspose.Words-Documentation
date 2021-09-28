@@ -1,4 +1,4 @@
----
+﻿---
 title: Navigation with Cursor
 description: "Aspsoe.Words for Java allows you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
 type: docs
@@ -8,7 +8,7 @@ url: /java/navigation-with-cursor/
 
 While working with a document, even if it is a short or long one, you will need to navigate through your document. Navigation with a virtual cursor represents the ability to navigate between different nodes in a document.
 
-Within a short document, moving around in a document is simple as you can move the insertion point even by using the keyboard's arrow keys or by clicking the mouse to locate the insertion point wherever you want. But once you have a large document that has many pages, these basic techniques will be insufficient.
+Within a short document, moving around in a document is simple as you can move the insertion point even by using the keyboard's arrow keys or by clicking the mouse to locate the insertion point wherever you want. But once you have a large document that has {many|multiple|several|a few|numerous} pages, these basic techniques will be insufficient.
 
 This article explains how to move around in a document and navigate with a virtual cursor to different parts of it.
 
@@ -40,7 +40,7 @@ The following code example shows how to move the cursor position to the beginnin
 
 ### Navigate With Bookmarks
 
-You can mark a place that you want to find and move to it again easily. You can insert as many bookmarks into your document as you want, and then navigate through them by identifying the bookmarks with unique names. You can move to a bookmark by using the [MoveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToBookmark(java.lang.String,boolean,boolean)) method.
+You can mark a place that you want to find and move to it again easily. You can insert as {many|multiple|several|a few|numerous} bookmarks into your document as you want, and then navigate through them by identifying the bookmarks with unique names. You can move to a bookmark by using the [MoveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToBookmark(java.lang.String,boolean,boolean)) method.
 
 The following code examples shows how to move a cursor position to a bookmark:
 

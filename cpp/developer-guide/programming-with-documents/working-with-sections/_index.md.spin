@@ -1,11 +1,11 @@
----
+﻿---
 title: Working with Sections
 type: docs
 weight: 30
 url: /cpp/working-with-sections/
 ---
 
-This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from several sections copied from multiple template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
+This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from {several|multiple|a few|many|numerous} sections copied from {multiple|several|a few|many|numerous} template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
 
 A Word document can contain one or more sections. At the end of the section, there is a section break that separates one section from the next in a document. Each section has its own set of properties that specify page size, orientation, margins, the number of text columns, headers and footers and so on.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Use Aspose.Words Instead of Docx4j
 description: "Learn how to download and install Aspose.Words for Java and what prerequisites have to be met to work with Aspose.Words instead of docx4j."
 type: docs
@@ -45,7 +45,7 @@ After learning the [“Installation”](https://docs.aspose.com/words/java/insta
 
 Explore the [“Getting Started”](https://docs.aspose.com/words/java/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the [“Developer Guide”](https://docs.aspose.com/words/java/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some use cases can be implemented using docx4j, but many of the more regular tasks are easier and faster to implement using Aspose.Words.
+Some use cases can be implemented using docx4j, but {many|multiple|several|a few|numerous} of the more regular tasks are easier and faster to implement using Aspose.Words.
 
 Aspose.Words provides source code examples for features missing in docx4j in the [“Missing Features of Docx4j”](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0) section.
 

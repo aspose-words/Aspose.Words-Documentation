@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Reporting Services 2.3.0.0 Release Notes
 type: docs
 weight: 10
@@ -21,4 +21,4 @@ As usual, all issues reported by the users since the previous official release h
   Product documentation reworked and updated 
 - NullReferenceException thrown for some reports
   Order of matrix columns is reversed in some rare cases
-  Extra space appear in some documents with tables spread over multiple pages 
+  Extra space appear in some documents with tables spread over {multiple|several|a few|many|numerous} pages 

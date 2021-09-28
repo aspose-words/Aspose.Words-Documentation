@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 19.3 Release Notes
 type: docs
 weight: 100
@@ -195,13 +195,13 @@ public class TxtListIndentation
 
 
 
-It has two public properties for specifying how many and which character to use for indentation of list levels:
+It has two public properties for specifying how {many|multiple|several|a few|numerous} and which character to use for indentation of list levels:
 
 
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets or sets how many <see cref="Character"/> to use as indentation per one list level.
+/// Gets or sets how {many|multiple|several|a few|numerous} <see cref="Character"/> to use as indentation per one list level.
 /// The default value is 0, that means no indentation.
 /// </summary>
 public int Count
@@ -222,7 +222,7 @@ At last, a new option is added to the TxtSaveOptions class:
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels.
+/// Gets a ListIndentation object that specifies how {many|multiple|several|a few|numerous} and which character to use for indentation of list levels.
 /// By default it is zero count of character '\0', that means no indentation.
 /// </summary>
 public TxtListIndentation ListIndentation

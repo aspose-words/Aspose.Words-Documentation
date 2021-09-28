@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 14.2.0
 type: docs
 weight: 20
@@ -67,7 +67,7 @@ doc.Save(@"C:\Temp\out.pdf");
 
 Starting from 14.2.0 version, Aspose.Words supports rendering of InnerShadow DrawingML effect. Effect can be rendered in two modes:
 
-1. Simplified: In this case blurred edges are simulated using several layers with different transparency.
+1. Simplified: In this case blurred edges are simulated using {several|multiple|a few|many|numerous} layers with different transparency.
 1. Fine: In this case, blur effect is applied to shadow which gives better result but takes much more time to render.
 
 ## DigitalSignatureUtil.LoadSignatures Method Added to the Public API

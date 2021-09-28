@@ -1,4 +1,4 @@
----
+﻿---
 title: Field Features Supported on FlatOPC Import
 type: docs
 weight: 50
@@ -14,7 +14,7 @@ Aspose.Words supports almost all common field types and can peform field update 
 - FieldStart node.
 - Run node(s) (represents the field code).
 - FieldSeparator node.
-- Other nodes (represents the field result) such as runs, shapes. A field can span across many different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
+- Other nodes (represents the field result) such as runs, shapes. A field can span across {many|multiple|several|a few|numerous} different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
 - FieldEnd node.
 
 We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which allows you to get this facade from any field the document. Using Aspose.Words you can insert new fields, as well as find and modify existing fields. You can also remove fields. You can also find the field code and field result of any field. Currently to work with a field you need to iterate through the different field nodes above. Sometime soon we will release the Field API which will provide an API to achieve such operations much more easily. Fields with custom field codes or field results (modified manually in the document to appear different) are retained during import and export. However if you invoke field update, these might be replaced with the proper field content.
@@ -144,7 +144,7 @@ Form fields are fully supported by Aspose.Words. See the following links in the
 |PageRef|Yes|This field is supported during field update. <br><br>By default in Microsoft Word references re updated as letters. Currently in Aspose.Words these references are updated as digits. <br><br>Hyperlinking, numeric format and paragraph position options are all supported during update.| |
 |Quote|Yes|This field is updated and the appropriate symbol is inserted during field update.| |
 |Ref|Yes|This field is supported during field update. <br><br>Only some switches such as hyperlink and relative position are supported during field update. Support for the other options will be added in future versions.| |
-|StyleRef|Yes|This field is supported during field update. <br><br>Only a few switches are supported during field update. Support for the other options will be added in future versions.| |
+|StyleRef|Yes|This field is supported during field update. <br><br>Only {a few|multiple|several|many|numerous} switches are supported during field update. Support for the other options will be added in future versions.| |
 
 ## Mail Merge
 

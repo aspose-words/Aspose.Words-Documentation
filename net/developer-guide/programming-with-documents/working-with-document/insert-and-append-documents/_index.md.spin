@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert and Append Documents
 description: "Aspose.Words for .NET allows you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
 type: docs
@@ -7,7 +7,7 @@ url: /net/insert-and-append-documents/
 aliases: [/net/join-and-append-documents/]
 ---
 
-Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
+Sometimes it is required to combine {several|multiple|a few|many|numerous} documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
 
 The insert operation allows you to insert the content of previously created documents into a new or existing one.
 
@@ -59,7 +59,7 @@ The following coding example shows how to insert the contents of one document to
 
 {{% alert color="primary" %}} 
 
-Note that the bookmark should not enclose multiple paragraphs or text that you want them to appear in your final resulting document.
+Note that the bookmark should not enclose {multiple|several|a few|many|numerous} paragraphs or text that you want them to appear in your final resulting document.
 
 {{% /alert %}} 
 

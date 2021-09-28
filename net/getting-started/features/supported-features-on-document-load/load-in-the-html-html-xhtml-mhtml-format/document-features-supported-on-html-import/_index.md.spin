@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on HTML Import
 type: docs
 weight: 30
@@ -11,13 +11,13 @@ Aspose.Words supports importing and exporting HTML based documents. You can load
 
 The Aspose.Words HTML engine is resilient and can properly import simple and complex HTML even if there are problems with it, resolving any malformed structure, parts and ignoring any unsupported tags. Most common native HTML tags and CSS formatting are supported during import. The input HTML can skip tags and still be imported well e.g you can miss out &lt;p&gt; or &lt;span&gt; tags and the text content is still imported properly.
 
-Note that Aspose.Words works with Word documents, therefore not all HTML features are supported during import and export. Not all HTML attributes may be imported as they do not have Microsoft Word equivalents. Also during export some document features may not be included as they cannot be represented in HTML properly. There may be many "N/A" values in this list for these reasons however Aspose.Words strives to support all HTML features possible.
+Note that Aspose.Words works with Word documents, therefore not all HTML features are supported during import and export. Not all HTML attributes may be imported as they do not have Microsoft Word equivalents. Also during export some document features may not be included as they cannot be represented in HTML properly. There may be {many|multiple|several|a few|numerous} "N/A" values in this list for these reasons however Aspose.Words strives to support all HTML features possible.
 
 Normally elements or attributes that do not have an eqivilant feature in a Microsoft Word document are ignored during import.
 
 You can set the BaseUri path of the document being loaded so relative resources can be correctly imported.
 
-Aspose.Words supports most CSS 1 and CCS 2 properties that have an eqivilant use in Word documents. Note that multiple classes on a single class attribute is currently not supported during import.
+Aspose.Words supports most CSS 1 and CCS 2 properties that have an eqivilant use in Word documents. Note that {multiple|several|a few|many|numerous} classes on a single class attribute is currently not supported during import.
 
 The HTML produced by Aspose.Words conforms to HTML 4.0 or XHTML 1.0 Transitional specifications. Multiparts/mixed content is supported in HTML during load. You can choose the encoding used during import from and export to HTML based formats. During load you can choose to auto detect the encoding.
 

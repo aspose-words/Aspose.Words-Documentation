@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 11.8.0
 type: docs
 weight: 10
@@ -74,7 +74,7 @@ Document doc = new Document(getMyDir() + "Document.doc");
 // Extract the last paragraph in the document to convert to HTML.
 Node node = doc.getLastSection().getBody().getLastParagraph();
 
-// Create an instance of HtmlSaveOptions and set a few options.
+// Create an instance of HtmlSaveOptions and set {a few|multiple|several|many|numerous} options.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.setExportHeadersFootersMode(ExportHeadersFootersMode.PER_SECTION);
 saveOptions.setExportRelativeFontSize(true);

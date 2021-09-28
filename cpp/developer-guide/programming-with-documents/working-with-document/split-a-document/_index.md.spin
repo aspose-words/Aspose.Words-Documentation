@@ -1,6 +1,6 @@
----
+﻿---
 title: Split a Document
-description: "Aspose.Words for C++ allows you to split a document into several files. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
+description: "Aspose.Words for C++ allows you to split a document into {several|multiple|a few|many|numerous} files. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
 type: docs
 weight: 75
 url: /cpp/split-a-document/
@@ -8,7 +8,7 @@ url: /cpp/split-a-document/
 
 *Splitting* or *split a document* is the process of breaking a large document into a greater number of smaller files. There are various reasons to split a file. For example, you only need some pages from a specific document and not the entire one. Or for privacy reasons, you want to share only some parts of a document with others. With the splitting feature, you can get only the required parts of the document and do the necessary actions with them, for example, to mark up, save, or send.
 
-Aspose.Words provides you with an efficient way to split one document into multiple documents by headings or sections. You can also split a document by pages or by page ranges. Both splitting options will be described in this article.
+Aspose.Words provides you with an efficient way to split one document into {multiple|several|a few|many|numerous} documents by headings or sections. You can also split a document by pages or by page ranges. Both splitting options will be described in this article.
 
 To split a document into smaller files using Aspose.Words, you need to follow these steps:
 
@@ -37,7 +37,7 @@ You can specify criteria using the [DocumentSplitCriteria](https://apireference
 - column break,
 - page break.
 
-When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into multiple HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
+When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into {multiple|several|a few|many|numerous} HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
 
 {{% alert color="primary" %}} 
 
@@ -59,7 +59,7 @@ The following code example shows how to split a document into smaller parts by 
 
 You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/cpp/class/aspose.words.document#extractpages_int_int) method can do the job.
 
-This section describes several use cases of dividing documents by paged using the [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) class and the **ExtractPages** method.
+This section describes {several|multiple|a few|many|numerous} use cases of dividing documents by paged using the [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) class and the **ExtractPages** method.
 
 {{% alert color="primary" %}}
 
@@ -69,7 +69,7 @@ You can use any [output format supported by Aspose.Words](https://docs.aspose.co
 
 {{% alert color="primary" %}}
 
-Due to the many nuances appearing while reducing the number of pages, a full match with the Microsoft Word layout is quite a complicated task. Therefore, depending on the document complexity, there may be slight differences in the resulting document layout from the original document.
+Due to the {many|multiple|several|a few|numerous} nuances appearing while reducing the number of pages, a full match with the Microsoft Word layout is quite a complicated task. Therefore, depending on the document complexity, there may be slight differences in the resulting document layout from the original document.
 
 {{% /alert %}}
 
@@ -83,7 +83,7 @@ The following code example shows how to divide a document and save each page a
 
 ### Split a Document by Page Ranges
 
-Aspose.Words allows splitting a multi-page document by page ranges. You can split one file into multiple files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
+Aspose.Words allows splitting a multi-page document by page ranges. You can split one file into {multiple|several|a few|many|numerous} files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
 
 The following code example shows how to split a document into smaller parts by page range with specific start and end indexes:
 

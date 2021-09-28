@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Sections
 type: docs
 weight: 30
@@ -6,7 +6,7 @@ url: /java/working-with-sections/
 aliases: [/java/how-to-remove-page-and-section-breaks/]
 ---
 
-This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from several sections copied from multiple template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
+This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from {several|multiple|a few|many|numerous} sections copied from {multiple|several|a few|many|numerous} template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
 
 A Word document can contain one or more sections. At the end of the section, there is a section break that separates one section from the next in a document. Each section has its own set of properties that specify page size, orientation, margins, the number of text columns, headers and footers and so on.
 
@@ -112,11 +112,11 @@ If you want to explicitly start a new line, paragraph, column, section, or page,
 
 ## How to Remove Page and Section Breaks
 
-A document often consists of several sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
+A document often consists of {several|multiple|a few|many|numerous} sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
 
-In most cases it is convenient to have a structured document, but sometimes multiple sections and user-defined page breaks are redundant and it may become necessary to remove them. For example after appending multiple documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
+In most cases it is convenient to have a structured document, but sometimes {multiple|several|a few|many|numerous} sections and user-defined page breaks are redundant and it may become necessary to remove them. For example after appending {multiple|several|a few|many|numerous} documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
 
-An explicit page break can be caused by many different things in a document:
+An explicit page break can be caused by {many|multiple|several|a few|numerous} different things in a document:
 
 - A page breaks character. This is represented in a document by the page break character ControlChar.PageBreakChar.
 - A Section which is set to begin on a new page (by the section’s PageSetup.SectionStart to SectionStart.NewPage).
@@ -141,7 +141,7 @@ It contains one-page break and one section break. The section break separates th
 
 ### Removing Page Breaks
 
-Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://apireference.aspose.com/words/java/com.aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even multiple page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
+Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://apireference.aspose.com/words/java/com.aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even {multiple|several|a few|many|numerous} page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
 
 The code example given below removes all page breaks from the document.
 

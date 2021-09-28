@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 15.1.0
 type: docs
 weight: 10
@@ -79,7 +79,7 @@ Oracle currently supports jdk 1.6, 1.7 and 1.8. Open support of jdk 1.6 is close
 
 ### JDK 1.6-1.7-1.8 Small Differences.
 
-Byte code of 1.6, 1.7 and 1.8 is very close. There is no global difference like in 1.4 vs 1.5 vs 1.6. Few language constructs are added in 1.7 and 1.8. Few libraries are updated/bug fixed. Few fonts are rendered differently. Few image formats are rendered differently too due to updated codecs. There are many hidden changes like JVM optimization.
+Byte code of 1.6, 1.7 and 1.8 is very close. There is no global difference like in 1.4 vs 1.5 vs 1.6. Few language constructs are added in 1.7 and 1.8. Few libraries are updated/bug fixed. Few fonts are rendered differently. Few image formats are rendered differently too due to updated codecs. There are {many|multiple|several|a few|numerous} hidden changes like JVM optimization.
 
 As a result, we do not need in different JARs for JDK 1.6, 1.7, 1.8 as it was for JDK 1.4, 1.5 and 1.6. The single JDK 1.6 jar is enough for all current java versions.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on DOCX Import
 type: docs
 weight: 30
@@ -7,7 +7,7 @@ url: /net/document-features-supported-on-docx-import/
 
 {{% alert color="primary" %}} 
 
-Office Open XML (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for several specialized XML-based markup languages. WordprocessingML is the markup language used by Microsoft Office Word to store its DOCX documents.
+Office Open XML (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for {several|multiple|a few|many|numerous} specialized XML-based markup languages. WordprocessingML is the markup language used by Microsoft Office Word to store its DOCX documents.
 
 Aspose.Words supports all major OOXML versions:
 

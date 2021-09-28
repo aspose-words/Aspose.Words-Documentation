@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Columns and Rows
 type: docs
 weight: 110
@@ -39,7 +39,7 @@ The following code example shows how to remove a column from a table in a docume
 
 ## Specifying Rows to Repeat on Subsequent Pages as Header Rows
 
-A table can specify certain starting rows of a table to be used as header rows. This means if the table spans over many pages, these rows will be repeated at the top of the table for each page. In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”* . Using this option you can choose to repeat only a single row or many rows in a table. In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page.
+A table can specify certain starting rows of a table to be used as header rows. This means if the table spans over {many|multiple|several|a few|numerous} pages, these rows will be repeated at the top of the table for each page. In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”* . Using this option you can choose to repeat only a single row or {many|multiple|several|a few|numerous} rows in a table. In the case of a single header row, it must be the first row in the table. In addition when {multiple|several|a few|many|numerous} header rows are used then the header row each of these rows must be consecutive and these rows must be on one page.
 
 In Aspose.Words you can apply this setting by using the [RowFormat.getHeadingFormat()](https://apireference.aspose.com/words//java/com.aspose.words/rowformat) property. Note that heading rows do not work in nested tables. That is, if you have a table within another table then this setting will have no effect. This is a limitation of Microsoft Word which does not allow this and not of Aspose.Words. 
 

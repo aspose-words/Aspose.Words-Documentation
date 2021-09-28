@@ -1,4 +1,4 @@
----
+﻿---
 title: Installing and Using Aspose.Words for NetBeans - Maven
 type: docs
 weight: 10
@@ -37,7 +37,7 @@ To create **Maven Project** by wizard for using [Aspose.Words for Java API](htt
 
 ### Aspose.Words Code Example (wizard)
 
-**Aspose.Words Code Example wizard** allows you to try out many samples provided for [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API.
+**Aspose.Words Code Example wizard** allows you to try out {many|multiple|several|a few|numerous} samples provided for [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) API.
 
 {{% alert color="primary" %}} 
 

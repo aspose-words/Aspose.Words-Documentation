@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 13.12.0
 type: docs
 weight: 120
@@ -29,7 +29,7 @@ A new enumeration value of FirstPageHeaderFooterPerSection has been added to Htm
 
 Starting from 13.12.0 version Aspose.Words supports rendering DrawingML glow effect. The glow effect can be rendered in one of three modes:
 
-- Simplified (default) - Soft edges are simulated using several layers with different transparency, which gives acceptable result with higher performance than in Fine mode.
+- Simplified (default) - Soft edges are simulated using {several|multiple|a few|many|numerous} layers with different transparency, which gives acceptable result with higher performance than in Fine mode.
 - Fine - Blur filter is applied, which gives the same result as MS Word, but with lower performance because of complexity of convolution filter.
 - None - In this mode no DrawingML effects are rendered.
 
@@ -39,7 +39,7 @@ The different modes can be set using new property: **SaveOptions.DmlEffectsRende
 
 Starting from 13.12.0 version Aspose.Words supports rendering of outer shadow DrawingML effect. Effect can be rendered in two modes:
 
-1. Simplified (blured edges are simulated using several layers with different transparency).
+1. Simplified (blured edges are simulated using {several|multiple|a few|many|numerous} layers with different transparency).
 1. Fine (Blur is applied to shadow, gives better result, but takes much more time to render).
 
 ## ResourceFileUri Property Added to ResourceSavingArgs

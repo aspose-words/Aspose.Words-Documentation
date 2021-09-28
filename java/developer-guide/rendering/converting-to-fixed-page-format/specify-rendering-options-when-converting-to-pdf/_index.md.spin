@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Rendering Options When Converting to PDF
 description: "Aspose.Words for Java provides the ability to convert DOC or DOCX to PDF. To change the result of saving a document to PDF format, you need to specify additional options for the PdfSaveOptions class."
 type: docs
@@ -62,7 +62,7 @@ The output PDF of this example is shown below:
 
 When **HeaderFooterBookmarksExportMode** is set to [First](https://apireference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode#FIRST) and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
-You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/java/com.aspose.words/outlineoptions#HeadingsOutlineLevels) property. This property specifies how many levels of headings are included in the document outline.
+You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/java/com.aspose.words/outlineoptions#HeadingsOutlineLevels) property. This property specifies how {many|multiple|several|a few|numerous} levels of headings are included in the document outline.
 
 The code example below shows how to export headings with three levels:
 
@@ -101,7 +101,7 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 |Embed Fonts Mode|Advantages|Disadvantages|
 | :- | :- | :- |
 |Full|Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
-|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If multiple PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
+|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If {multiple|several|a few|many|numerous} PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing {many|multiple|several|a few|numerous} unnecessary subsets.</p>|
 
 ### Embedding Full Fonts in PDF
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Digital Signatures
 type: docs
 weight: 40
@@ -49,15 +49,15 @@ A certificate needs to be loaded from a source i.e. from disk or from a certific
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-DigitallySignedPdf-DigitallySignedPdf.cs" >}}
 
-The .NET framework provides numerous ways in which to load a certificate. These details are out of the scope of this article, however further information on this can be found on the MSDN page [here](http://msdn.microsoft.com/en-us/library/system.security.cryptography.x509certificates.x509certificate2.aspx).
+The .NET framework provides {numerous|multiple|several|a few|many} ways in which to load a certificate. These details are out of the scope of this article, however further information on this can be found on the MSDN page [here](http://msdn.microsoft.com/en-us/library/system.security.cryptography.x509certificates.x509certificate2.aspx).
 
 ### Access and Verify Digital Signatures
 
-A document can have multiple digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
+A document can have {multiple|several|a few|many|numerous} digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
 
 The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/properties/isvalid) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
 
-Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
+Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for {several|multiple|a few|many|numerous} reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-AccessAndVerifySignature-AccessAndVerifySignature.cs" >}}
 

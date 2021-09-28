@@ -1,4 +1,4 @@
----
+﻿---
 title: High Fidelity to the Report Design
 type: docs
 weight: 50
@@ -30,7 +30,7 @@ The benefit of exporting reports in the Flow Layout is that you can open such do
 
 The *Positioned Layout* produces reports with the most accurate conversion of RDL to Microsoft Word documents. Tables and matrices from the report are exported as Microsoft Word tables, while some elements are exported as positioned textboxes.
 
-The benefit of the Positioned Layout is the high quality of the RDL to Microsoft Word conversion. The drawback is that it might be harder to edit a generated report in Microsoft Word because of the many positioned objects it might contain. 
+The benefit of the Positioned Layout is the high quality of the RDL to Microsoft Word conversion. The drawback is that it might be harder to edit a generated report in Microsoft Word because of the {many|multiple|several|a few|numerous} positioned objects it might contain. 
 
 ## High Fidelity
 

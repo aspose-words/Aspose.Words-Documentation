@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 14.10 Release Notes
 type: docs
 weight: 20
@@ -38,7 +38,7 @@ There are 106 improvements and fixes in this regular monthly release. The most 
 |WORDSJAVA-920 |Small scaled revision markup differs from MS Word one. |Regression |
 |WORDSNET-10037 |HTML to Doc/Docx/XPS conversion issue with image/Shape rendering |Bug |
 |WORDSNET-10047 |FILENAME filed does not appear in output Pdf file |Bug |
-|WORDSNET-10200 |Issue with MailMerge.ExecuteWithRegions when used with multiple same tables |Bug |
+|WORDSNET-10200 |Issue with MailMerge.ExecuteWithRegions when used with {multiple|several|a few|many|numerous} same tables |Bug |
 |WORDSNET-10223 |Contents are missing after conversion from HTML to Doc/Docx/XPS |Bug |
 |WORDSNET-10231 |Extra line appears after conversion from Docx to PNG/XPS/PDF (fixed file format) |Bug |
 |WORDSNET-10264 |The mail merge region (inside the IF statement) won't populate the merge field |Bug |
@@ -74,7 +74,7 @@ There are 106 improvements and fixes in this regular monthly release. The most 
 |WORDSNET-9923 |Chinese letter is changed after conversion form RTF to Pdf |Bug |
 |WORDSNET-10064 |Tables are truncated from the end of PDF pages |Enhancement |
 |WORDSNET-10125 |Logos are misplaced after MHTML to PDF or any other format |Enhancement |
-|WORDSNET-10274 |A Table moves down to the page which causes a few more layout issues in PDF |Enhancement |
+|WORDSNET-10274 |A Table moves down to the page which causes {a few|multiple|several|many|numerous} more layout issues in PDF |Enhancement |
 |WORDSNET-10436 |A Page Break is not preserved during open/save a DOCX |Enhancement |
 |WORDSNET-10509 |A table is rendered at the end of previous page in PDF |Enhancement |
 |WORDSNET-10592 |ParagraphFormat.KeepWithNext = true does not work |Enhancement |
@@ -114,7 +114,7 @@ There are 106 improvements and fixes in this regular monthly release. The most 
 |WORDSNET-10866 |Document.Save throws System.NullReferenceException |Exception |
 |WORDSNET-10878 |System.InvalidOperationException when saving a DOCX |Exception |
 |WORDSNET-5898 |Exception on unsupported image during Mhtml import |Exception |
-|WORDSNET-9927 |Mail merge with regions do not work when multiple TableStart/TableEnd exists in one Paragraph |Exception |
+|WORDSNET-9927 |Mail merge with regions do not work when {multiple|several|a few|many|numerous} TableStart/TableEnd exists in one Paragraph |Exception |
 |WORDSNET-10451 |Document.UpdateFields does not update the formula fields |Feature |
 |WORDSNET-10519 |UpdateFields does not insert text from a like styled paragraph - STYLEREF |Feature |
 |WORDSNET-10620 |Add feature to support field switches in mustache syntax |Feature |

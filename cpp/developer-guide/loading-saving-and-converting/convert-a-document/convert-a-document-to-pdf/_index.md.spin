@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to PDF
 description: "Aspose.Words for C++ allows you to convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."
 type: docs
@@ -10,7 +10,7 @@ The ability to easily and reliably convert documents from one format to another 
 
 ## Convert a Word Document to PDF
 
-Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
+Conversion from Word to PDF is a rather complex process that requires {several|multiple|a few|many|numerous} stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
 
 With Aspose.Words you can programmatically convert a document from DOC or DOCX format to PDF without using Microsoft Office. This article explains how to perform this conversion.
 

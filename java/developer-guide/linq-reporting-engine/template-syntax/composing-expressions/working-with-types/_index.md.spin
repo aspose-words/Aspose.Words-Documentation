@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Types
 type: docs
 weight: 20
@@ -13,4 +13,4 @@ However, you can use the identifier of a visible type in template expressions on
 - The type does not represent an array.
 - The type identifier does not contain generic type arguments.
 
-Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See “Appendix A. Enumeration Extension Methods” for the examples.
+Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by {multiple|several|a few|many|numerous} keys. See “Appendix A. Enumeration Extension Methods” for the examples.

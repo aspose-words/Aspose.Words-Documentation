@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Extract Selected Content Between Nodes in a Document
 type: docs
 weight: 140
@@ -8,7 +8,7 @@ url: /cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## Extract Content Overview and Code
 
-A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore many different node types to consider when extracting content. For instance, you may want to extract content between:
+A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are {many|multiple|several|a few|numerous} possible situations and therefore {many|multiple|several|a few|numerous} different node types to consider when extracting content. For instance, you may want to extract content between:
 
 - Two specific paragraphs in the document.
 - Specific runs of text.
@@ -22,10 +22,10 @@ Often the goal of extracting this content is to duplicate or save it separately 
 
 - Copy it to a separate document.
 - Rendered a specific portion of a document to PDF or an image.
-- Duplicate the content in the document many times.
+- Duplicate the content in the document {many|multiple|several|a few|numerous} times.
 - Work with this content separate from the rest of the document.
 
-This is easy to achieve using Aspose.Words and the code implementation below. This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just a few demonstrations of the many possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words).
+This is easy to achieve using Aspose.Words and the code implementation below. This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just {a few|multiple|several|many|numerous} demonstrations of the {many|multiple|several|a few|numerous} possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words).
 
 ### The Solution
 
@@ -57,7 +57,7 @@ The implementation of the **ExtractContent** method is found below. This metho
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Common-CommonExtractContent.cpp" >}}
 
-We will also define a custom method to easily generate a document from extracted nodes. This method is used in many of the scenarios below and simply creates a new document and imports the extracted content into it. The following method takes a list of nodes and inserts them into a new document.
+We will also define a custom method to easily generate a document from extracted nodes. This method is used in {many|multiple|several|a few|numerous} of the scenarios below and simply creates a new document and imports the extracted content into it. The following method takes a list of nodes and inserts them into a new document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Common-CommonGenerateDocument.cpp" >}}
 
