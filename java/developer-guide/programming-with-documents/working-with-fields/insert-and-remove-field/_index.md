@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert and Remove Field
 type: docs
 weight: 30
@@ -19,13 +19,13 @@ The following code example shows how to Inserts a merge field into a document us
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-1.java" >}}
 
-The same technique is used to insert fields nested within other fields. The following code example demonstrates how to insert fields nested within another field using DocumentBuilder.
+The same technique is used to insert fields nested within other fields. The following code example shows how to insert fields nested within another field using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-1.java" >}}
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example shows how to get names of all merge fields in a document.
+A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example demonstrates how to get names of all merge fields in a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-1.java" >}}
 
@@ -95,7 +95,7 @@ AUTHOR field is used to specify the name of Document's author from the Document 
 - Specify the document author's name.
   For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldAuthor).
 
-Below example shows how to Add a AUTHOR Field using DOM to a Paragraph in Document.
+Below example demonstrates how to Add a AUTHOR Field using DOM to a Paragraph in Document.
 
 **Java**
 
@@ -137,7 +137,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 { TOA [Switches ] }
 
-Please refer to [FieldToa Class API reference](https://apireference.aspose.com/java/words/com.aspose.words/FieldToa). The following code example shows how to Add a TOA field using DOM to a Paragraph in Document.
+Please refer to [FieldToa Class API reference](https://apireference.aspose.com/java/words/com.aspose.words/FieldToa). The following code example demonstrates how to Add a TOA field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAFieldWithoutDocumentBuilder.java" >}}
 
@@ -150,7 +150,7 @@ Sometimes it is necessary to remove a field from the document. This may occur wh
 
 ## How to Apply Custom Formatting to Field Result
 
-Aspose.Words provides API for custom formatting of field's result. You can implement IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. Following code example shows how to apply custom formatting for field's result.
+Aspose.Words provides API for custom formatting of field's result. You can implement IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. Following code example demonstrates how to apply custom formatting for field's result.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormatFieldResult-FormatFieldResult.java" >}}
 
@@ -168,13 +168,13 @@ If you want to evaluate IF condition after mail merge, you can use FieldIf.Evalu
 
 If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. 
 
-The code example shows how to insert empty field in the document.
+The code example demonstrates how to insert empty field in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
 ### Insert Compare Field in Word Document
 
-COMPARE field compares two values and returns the numeric value 1 if the comparison is true or 0 if the comparison is false. The following example shows how to add COMPARE fields by using DocumentBuilder to a Word Document:
+COMPARE field compares two values and returns the numeric value 1 if the comparison is true or 0 if the comparison is false. The following example demonstrates how to add COMPARE fields by using DocumentBuilder to a Word Document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 

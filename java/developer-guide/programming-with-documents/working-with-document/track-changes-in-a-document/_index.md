@@ -1,4 +1,4 @@
----
+﻿---
 title: Track Changes in a Document
 description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them using Java."
 type: docs
@@ -6,11 +6,11 @@ weight: 90
 url: /java/track-changes-in-a-document/
 ---
 
-The functionality of track changes, also known as reviewing, allows you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.
+The functionality of track changes, also known as reviewing, enables you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.
 
 When you enable the track changes feature, all inserted, deleted, and modified elements of the document will be visually highlighted with information about by whom, when, and what was changed. Objects that carry information about what was changed are called “tracking changes”. For example, assume that you want to review a document and make important changes – this may mean that you need to make revisions. Also, you may need to insert comments to discuss some of the changes. That is where tracking changes in documents come in.
 
-This article explains how to manage and track changes created by many reviewers on the same document, as well as the properties for tracking changes.
+This article explains how to manage and track changes created by a few reviewers on the same document, as well as the properties for tracking changes.
 
 {{% alert color="primary" %}}
 
@@ -20,9 +20,9 @@ Note that the comment feature in Aspose.Words, as well as in Microsoft Word, can
 
 ## What Is a Revision
 
-Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://apireference.aspose.com/words/java/com.aspose.words/revision) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://apireference.aspose.com/words/java/com.aspose.words/revisiongroup) class, is a group of sequential revisions that occur in many nodes of a document. Revision is a tool for tracking changes.
+Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://apireference.aspose.com/words/java/com.aspose.words/revision) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://apireference.aspose.com/words/java/com.aspose.words/revisiongroup) class, is a group of sequential revisions that occur in a few nodes of a document. Revision is a tool for tracking changes.
 
-Revisions are used in the tracking changes feature and within the compare documents feature, where revisions appear as a result of the comparison. So, revisions within the tracking changes feature shows by whom and what was changed.
+Revisions are used in the tracking changes feature and within the compare documents feature, where revisions appear as a result of the comparison. So, revisions within the tracking changes feature demonstrates by whom and what was changed.
 
 {{% alert color="primary" %}}
 
@@ -40,7 +40,7 @@ Note that revisions have a result similar to Microsoft Word but Aspose.Words doe
 
 ## Start and Stop Tracking Changes
 
-Editing a document usually does not count as a revision until you begin tracking it. Aspose.Words allows you to automatically track all changes in your document with simple steps. You can easily start the process of tracking changes by using the [StartTrackRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#startTrackRevisions(java.lang.String)) method. If you need to stop the process of tracking changes so that any future edits are not considered revisions, you will need to use the [StopTrackRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#stopTrackRevisions()) method.
+Editing a document usually does not count as a revision until you begin tracking it. Aspose.Words enables you to automatically track all changes in your document with simple steps. You can easily start the process of tracking changes by using the [StartTrackRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#startTrackRevisions(java.lang.String)) method. If you need to stop the process of tracking changes so that any future edits are not considered revisions, you will need to use the [StopTrackRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#stopTrackRevisions()) method.
 
 {{% alert color="primary" %}}
 
@@ -58,10 +58,10 @@ Note that the AcceptAllRevisions method is similar to the “Accept All Changes�
 
 {{% /alert %}}
 
-The following code example shows how to work with tracking changes:
+The following code example demonstrates how to work with tracking changes:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-WorkWithTrackChanges.java" >}}
 
-The following code example shows how revisions are generated when a node is moved within a tracked document:
+The following code example demonstrates how revisions are generated when a node is moved within a tracked document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-GenerateRevisionsWhenMovingNode.java" >}}
 
@@ -73,7 +73,7 @@ Aspose.Words allows you to check if a document has a revision or not by using th
 
 The TrackRevisions feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
 
-In addition, Aspose.Words allows you to check if an object was inserted, deleted, or changed formatting using the [IsDeleteRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsDeleteRevision), [IsFormatRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsFormatRevision), [IsInsertRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsInsertRevision), [IsMoveFromRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsMoveFromRevision), and [IsMoveToRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsMoveToRevision) properties.
+In addition, Aspose.Words enables you to check if an object was inserted, deleted, or changed formatting using the [IsDeleteRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsDeleteRevision), [IsFormatRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsFormatRevision), [IsInsertRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsInsertRevision), [IsMoveFromRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsMoveFromRevision), and [IsMoveToRevision](https://apireference.aspose.com/words/java/com.aspose.words/inline#IsMoveToRevision) properties.
 
 {{% alert color="primary" %}}
 

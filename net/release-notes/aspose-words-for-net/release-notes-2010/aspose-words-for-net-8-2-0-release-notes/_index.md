@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 8.2.0 Release Notes
 type: docs
 weight: 80
@@ -25,7 +25,7 @@ I am happy to announce that comment ranges are now fully supported! Comment rang
 
 
 
-We used to ship all Aspose.Words.dlls signed both with the Aspose's strong key and with an Aspose's Authenticode signature. But several customers have complained and explained to us that .NET is sometimes slow at loading assemblies signed with an Authenticode signature. .NET tries to validate the Authenticode signature and this requires sending one or more requests to the Internet and sometimes gives a noticeable delay. An Authenticode signature gives an additional piece of mind that the assembly has not been tampered with, but it is not always necessary. So we are now shipping Aspose.Words.dlls both signed with Authenticode and not signed. Note the MSI installer is still signed with Authenticode.
+We used to ship all Aspose.Words.dlls signed both with the Aspose's strong key and with an Aspose's Authenticode signature. But numerous customers have complained and explained to us that .NET is sometimes slow at loading assemblies signed with an Authenticode signature. .NET tries to validate the Authenticode signature and this requires sending one or more requests to the Internet and sometimes gives a noticeable delay. An Authenticode signature gives an additional piece of mind that the assembly has not been tampered with, but it is not always necessary. So we are now shipping Aspose.Words.dlls both signed with Authenticode and not signed. Note the MSI installer is still signed with Authenticode.
 
 If you install Aspose.Words.msi or unpack Aspose.Words.zip you will see the new directory. Pretty much self explanatory. The "default" assemblies that most of you will now use are without Authenticode and stored in the old and directories.
 

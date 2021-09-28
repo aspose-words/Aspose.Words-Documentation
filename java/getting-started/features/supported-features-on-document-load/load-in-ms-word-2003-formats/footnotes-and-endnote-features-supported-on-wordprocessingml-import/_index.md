@@ -1,4 +1,4 @@
----
+﻿---
 title: Footnotes and Endnote Features Supported on WordprocessingML Import
 type: docs
 weight: 60

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Form Fields
 type: docs
 weight: 130
@@ -39,7 +39,7 @@ Placing form fields into the document via code is easy. DocumentBuilder has spec
 
 ### Inserting Form Fields
 
-Use DocumentBuilder.InsertTextInput**,** DocumentBuilder.InsertCheckBox or DocumentBuilder.InsertComboBox to insert form fields into a document. The code example given below shows how to insert a combobox form field into a document.
+Use DocumentBuilder.InsertTextInput**,** DocumentBuilder.InsertCheckBox or DocumentBuilder.InsertComboBox to insert form fields into a document. The code example given below demonstrates how to insert a combobox form field into a document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cpp" >}}
 
@@ -53,6 +53,6 @@ You can get a particular form field by its index or name. The code example given
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cpp" >}}
 
-The FormField properties allow you to work with form field name, type, and result. The code example given below shows how to work with form field name, type, and result. You can download the template file of this example from here.
+The FormField properties allow you to work with form field name, type, and result. The code example given below demonstrates how to work with form field name, type, and result. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.cpp" >}}

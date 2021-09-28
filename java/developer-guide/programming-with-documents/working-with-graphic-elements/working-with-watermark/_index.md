@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Watermark
 type: docs
 weight: 70
@@ -20,7 +20,7 @@ The following code example demonstrates how to insert a text watermark in a docu
 
 ### Add Image Watermark
 
-The following code example demonstrates how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://apireference.aspose.com/words/java/com.aspose.words/ImageWatermarkOptions) using the SetImage method.
+The following code example shows how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://apireference.aspose.com/words/java/com.aspose.words/ImageWatermarkOptions) using the SetImage method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
@@ -37,7 +37,7 @@ You can download the template file of this example from [here](https://github.c
 
 ## How to Remove Watermark from a Document
 
-The Watermark class provides the Remove method to remove the watermark from a document. The following code examples demonstrates how to remove a watermark from documents.
+The Watermark class provides the Remove method to remove the watermark from a document. The following code examples shows how to remove a watermark from documents.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
@@ -51,6 +51,6 @@ To remove the watermark from a document you have to set only the name of the wat
 
 Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use ShapeBase.IsLayoutInCell property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for MS Word 2010 using CompatibilityOptions.OptimizeFor method. 
 
-The code example givn below shows how to use this property. 
+The code example givn below demonstrates how to use this property. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}

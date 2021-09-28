@@ -1,4 +1,4 @@
----
+﻿---
 title: Annotation Features Supported on Rich Text Import
 type: docs
 weight: 10
@@ -46,7 +46,7 @@ See the following links in the documentation for further information:
 
 A comment in a document is imported as a Comment node in the Aspose.Words DOM.
 
-The range of a comment can span over various parts of the document text, including over many paragraphs and tables.
+The range of a comment can span over various parts of the document text, including over multiple paragraphs and tables.
 
 In Aspose.Words this range is represented by the following nodes:
 

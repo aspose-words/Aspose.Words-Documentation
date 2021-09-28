@@ -1,4 +1,4 @@
----
+﻿---
 title: Fields Overview
 type: docs
 weight: 10
@@ -44,7 +44,7 @@ To insert a field in Microsoft Word:
 1. Select **Field**
 1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.<br>
 ![field-edit-aspose-words](fields-overview_5.png)
-1. Additionally you can press the **Field Codes** button which allows you to directly write out the field code.<br>
+1. Additionally you can press the **Field Codes** button which enables you to directly write out the field code.<br>
 ![field-properties-aspose-words](fields-overview_6.png)
 1. Switches can also be inserted by using the **Options** button<br>
 ![field-options-aspose-words](fields-overview_7.png)
@@ -150,7 +150,7 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 - Fields can be nested within a field code as well as in the field result.
 - Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- Fields that span across multiple paragraphs.
+- Fields that span across a few paragraphs.
 
 #### Formula Fields
 
@@ -214,7 +214,7 @@ A field in a document can have formatting switches that specify how the resultin
 
 #### Date and Number Formatting in Fields
 
-When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](http://www.aspose.com/api/net/words/aspose.words.fields/fieldoptions) class which allows further control over which culture is used during field update.
+When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](http://www.aspose.com/api/net/words/aspose.words.fields/fieldoptions) class which enables further control over which culture is used during field update.
 
 - By default the FieldOptions.FieldUpdateCultureSource property is set to FieldUpdateCultureSource.CurrentThread which formats fields using the current thread culture.
 - This property can be set to FieldUpdateCultureSource.FieldCode so the language set from the field code of the field is used for formatting instead.
@@ -226,7 +226,7 @@ Below example shows how to change the culture used in formatting fields during u
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ChangeLocale-ChangeLocale.cs" >}}
 
-Using the current culture to format fields allows a system to easily and consistently control how all fields in the document are formatted during field update.
+Using the current culture to format fields enables a system to easily and consistently control how all fields in the document are formatted during field update.
 
 #### Formatting using the Culture in the Document
 
@@ -238,7 +238,7 @@ The [Document](http://www.aspose.com/api/net/words/aspose.words/document) class 
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using DocumentBuilder.InsertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method **MailMerge.GetFieldNames**. Below example shows how to get names of all merge fields in a document.
+A field which is inserted using DocumentBuilder.InsertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method **MailMerge.GetFieldNames**. Below example demonstrates how to get names of all merge fields in a document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}
 

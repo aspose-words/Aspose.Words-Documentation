@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on EPUB Export
 type: docs
 weight: 30
@@ -26,7 +26,7 @@ Some features which are unsupported in HTML are exported as an image. It is Aspo
 
 You can also choose to create your own HTML writer for your own custom needs by building off the Aspose.Words rich DOM. Using the DocumentVisitor you can visit each node and build the HTML node by node.
 
-Currently, most of the special Microsoft "Mso" attributes, which are normally added by Microsoft Word to HTML output to make it round-trip capable back to Word formats, are not written during export to HTML or MHTML. This makes the HTML produced by Aspose.Words much cleaner than the output produced by Microsoft Word which is often bloated with these many round-trip based attributes.
+Currently, most of the special Microsoft "Mso" attributes, which are normally added by Microsoft Word to HTML output to make it round-trip capable back to Word formats, are not written during export to HTML or MHTML. This makes the HTML produced by Aspose.Words much cleaner than the output produced by Microsoft Word which is often bloated with these numerous round-trip based attributes.
 
 In the future we will add full support for these in import and allow an option to export control if these attributes are written at all during export.
 

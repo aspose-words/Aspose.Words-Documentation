@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words or Docx4j
 description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words allows to perform a large number of tasks with documents faster and more conveniently than docx4j."
 type: docs
@@ -18,7 +18,7 @@ In this article, we will look at when it makes sense for you to prefer Aspose.Wo
 
 It is worth noting that some tasks can be achieved with Aspose.Words, but cannot be accomplished with docx4j.
 
-You can compare docx4j with Aspose. To do this, we suggest that you familiarize yourself with the [Aspose.Words Java for Docx4j](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0) – it shows how different tasks can be done using the Aspose.Words for Java API versus docx4j. The project also covers features for working with text documents that are only available in Aspose.Words, but not in docx4j.
+You can compare docx4j with Aspose. To do this, we suggest that you familiarize yourself with the [Aspose.Words Java for Docx4j](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0) – it demonstrates how different tasks can be done using the Aspose.Words for Java API versus docx4j. The project also covers features for working with text documents that are only available in Aspose.Words, but not in docx4j.
 
 This project is also useful for developers looking to migrate from docx4j to Aspose.Words.
 
@@ -26,7 +26,7 @@ In the following sections and articles, we will take a closer look at some of th
 
 ### Stability
 
-Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
+Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This enables not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
 
 ### Scalability and Speed
 

@@ -1,6 +1,6 @@
----
+﻿---
 title: Aspose.Words Features Missing in Open XML SDK
-description: "Aspose.Words for .NET allows to perform some operations with documents faster and more conveniently than Open XML SDK. In addition, there are operations that are not supported by OpenXML."
+description: "Aspose.Words for .NET enables to perform some operations with documents faster and more conveniently than Open XML SDK. In addition, there are operations that are not supported by OpenXML."
 type: docs
 weight: 60
 url: /net/missing-features-in-openxml/

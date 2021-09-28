@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 19.4 Release Notes
 type: docs
 weight: 90
@@ -169,7 +169,7 @@ Previously while loading HTML (SVG) document font families resolved by font name
 
 Now the customer can use font settings before loading the document (add substitution rule, specify fonts folder and etc). 
 
-` `The following example shows how to add font substitution rule while loading the document.
+` `The following example demonstrates how to add font substitution rule while loading the document.
 
 {{< highlight csharp >}}
 FontSettings fontSettings = new FontSettings();
@@ -204,7 +204,7 @@ public TextBoxAnchor VerticalAnchor
 }
 {{< /highlight >}}
 
-The property allows to specify text anchor within the shape (Top, Middle, Bottom).
+The property enables to specify text anchor within the shape (Top, Middle, Bottom).
 
 {{< highlight csharp >}}
 Document doc = new Document(fileName);

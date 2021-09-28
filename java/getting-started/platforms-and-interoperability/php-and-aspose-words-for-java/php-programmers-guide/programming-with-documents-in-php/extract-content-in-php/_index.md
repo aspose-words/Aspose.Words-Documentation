@@ -1,4 +1,4 @@
----
+﻿---
 title: Extract Content in PHP
 type: docs
 weight: 30

@@ -1,4 +1,4 @@
----
+﻿---
 title: Composing Expressions
 type: docs
 weight: 10
@@ -34,7 +34,7 @@ The feature of the omitting of an object identifier while accessing the object�
 
 ## Working with Types
 
-LINQ Reporting Engine enables you to use externally visible types in template expressions. A *visible type* is a public type with outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
+LINQ Reporting Engine allows you to use externally visible types in template expressions. A *visible type* is a public type with outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
 
 However, you can use the identifier of a visible type in template expressions only if the following additional requirements are met:
 
@@ -44,11 +44,11 @@ However, you can use the identifier of a visible type in template expressions on
 
 **Note –** Whereas using generic types' identifiers is forbidden in template expressions, you can use identifiers of nullable types in the shorthand "`T?`" form.
 
-Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See "Appendix A. Enumeration Extension Methods" for the examples.
+Also, the engine allows you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See "Appendix A. Enumeration Extension Methods" for the examples.
 
 ## Accessing Type Members
 
-LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
+LINQ Reporting Engine allows you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
 
 - Fields
 - Properties
@@ -86,7 +86,7 @@ LINQ Reporting Engine enables you to use the following built-in extension method
 
 ## Using Operators
 
-The following table contains predefined and user-defined operators that LINQ Reporting Engine enables you to use in template expressions.
+The following table contains predefined and user-defined operators that LINQ Reporting Engine allows you to use in template expressions.
 
 <table class="using operators">
 	<tbody>
@@ -119,7 +119,7 @@ Also, the engine enables you to use lifted operators in template expressions.
 
 ## Using Lambda Functions
 
-LINQ Reporting Engine enables you to use lambda functions only as arguments of built-in enumeration extension methods in template expressions. See "Appendix A. Enumeration Extension Methods" for more information.
+LINQ Reporting Engine allows you to use lambda functions only as arguments of built-in enumeration extension methods in template expressions. See "Appendix A. Enumeration Extension Methods" for more information.
 
 **Note –** Lambda functions declared within template expressions are not interchangeable with delegates. Thus, you can not pass delegates as arguments to built-in enumeration extension methods.
 
@@ -127,7 +127,7 @@ You can use both explicit and implicit lambda function signatures in template ex
 
 ## Working with Traditional Mail Merge Data Sources
 
-LINQ Reporting Engine enables you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
+LINQ Reporting Engine allows you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
 
 ### Working with DataSet objects
 
@@ -141,7 +141,7 @@ LINQ Reporting Engine enables you to access `DataTable` objects contained within
 
 ### Working with DataTable and DataView Objects
 
-LINQ Reporting Engine enables you to treat `DataTable` and `DataView` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).
+LINQ Reporting Engine allows you to treat `DataTable` and `DataView` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).
 
 Also, you can normally apply enumeration extension methods (see "Appendix A. Enumeration Extension Methods" for more information) to `DataTable` and `DataView` objects in template expressions. For example, given that persons are a `DataTable` or `DataView` instance, you can count its rows using the following syntax.
 
@@ -151,29 +151,29 @@ Also, you can normally apply enumeration extension methods (see "Appendix A. Enu
 
 ### Working with DataRow and DataRowView Objects
 
-LINQ Reporting Engine enables you to access a data associated with a particular `DataRow` or `DataRowView` instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
+LINQ Reporting Engine allows you to access a data associated with a particular `DataRow` or `DataRowView` instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
 
 |Data Kind|Identifier|Examples of Template Expressions|
 | :- | :- | :- |
-|**Field Value**|Field name|Given that `r` is a row that has a field named “Name”, you can access the field’s value using the following syntax.<br />{{< highlight csharp >}}r.Name{{< /highlight >}}|
-|**Single Parent or Child Row**|Parent (child) table name|Given that r is a row of a `DataTable` that has a parent (child) `DataTable` named “City”, you can access the single parent (child) row of r using the following syntax.<br />{{< highlight csharp >}}r.City{{< /highlight >}}<br />Given that the “City” `DataTable` has a field named “Name”, you can access the field’s value for the single parent (child) row using the following syntax.<br />{{< highlight csharp >}}r.City.Name{{< /highlight >}}|
-|**Enumeration of Child or Parent Rows**|Child (parent) table name|Given that r is a row of a `DataTable` that has a child (parent) `DataTable` named “Persons”, you can access the enumeration of the child (parent) rows of `r` using the following syntax.<br />{{< highlight csharp >}}r.Persons{{< /highlight >}}<br />Given that the “Persons” `DataTable` has a field named “Age”, you can count the child (parent) rows that correspond to persons over thirty years old using the following syntax.<br />{{< highlight csharp >}}r.Persons.Count(p => p.Age > 30){{< /highlight >}}|
+|**Field Value**|Field name|Given that `r` is a row that has a field named “Name”, you can access the field’s value using the following syntax.<br />< highlight csharp >r.Name< /highlight >|
+|**Single Parent or Child Row**|Parent (child) table name|Given that r is a row of a `DataTable` that has a parent (child) `DataTable` named “City”, you can access the single parent (child) row of r using the following syntax.<br />< highlight csharp >r.City< /highlight ><br />Given that the “City” `DataTable` has a field named “Name”, you can access the field’s value for the single parent (child) row using the following syntax.<br />< highlight csharp >r.City.Name< /highlight >|
+|**Enumeration of Child or Parent Rows**|Child (parent) table name|Given that r is a row of a `DataTable` that has a child (parent) `DataTable` named “Persons”, you can access the enumeration of the child (parent) rows of `r` using the following syntax.<br />< highlight csharp >r.Persons< /highlight ><br />Given that the “Persons” `DataTable` has a field named “Age”, you can count the child (parent) rows that correspond to persons over thirty years old using the following syntax.<br />< highlight csharp >r.Persons.Count(p => p.Age > 30)< /highlight >|
 
 **Note –** Field and table names are case-insensitive.
 
 To determine parent-child relationships for a particular `DataTable` instance, the engine uses [DataRelation](http://msdn.microsoft.com/en-us/library/system.data.datarelation\(v=vs.110\).aspx) objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
 
-**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
+**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with several relations to the same table.
 
 ### Working with IDataReader Implementors
 
-LINQ Reporting Engine enables you to treat `IDataReader` implementors as enumerations of `IDataRecord` implementors in template expressions. That is, you can use `IDataReader` implementors in template expressions in the same way as `DataTable` objects. See "Working with DataTable and DataView Objects" for more information.
+LINQ Reporting Engine allows you to treat `IDataReader` implementors as enumerations of `IDataRecord` implementors in template expressions. That is, you can use `IDataReader` implementors in template expressions in the same way as `DataTable` objects. See "Working with DataTable and DataView Objects" for more information.
 
 However, you can not use `IDataReader` implementors in template expressions in conjunction with enumeration operations that require a caching of enumeration items. Examples of such operations are grouping and sorting. To work around this restriction, use `DataTable` objects instead.
 
 ### Working with IDataRecord Implementors
 
-LINQ Reporting Engine enables you to access the field values of a particular `IDataRecord` implementor by field names using the "." operator in template expressions. To use this feature, one of the following conditions must be met:
+LINQ Reporting Engine allows you to access the field values of a particular `IDataRecord` implementor by field names using the "." operator in template expressions. To use this feature, one of the following conditions must be met:
 
 - The `IDataRecord` implementor represents an iteration variable upon enumerating an `IDataReader` implementor (see "Outputting Sequential Data" for more information).
 - The `IDataRecord` implementor does not implement the `IDataReader` interface.

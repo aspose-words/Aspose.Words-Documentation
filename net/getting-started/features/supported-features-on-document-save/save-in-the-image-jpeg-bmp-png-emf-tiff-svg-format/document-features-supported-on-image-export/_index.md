@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on Image Export
 type: docs
 weight: 30
@@ -7,7 +7,7 @@ url: /net/document-features-supported-on-image-export/
 
 {{% alert color="primary" %}} 
 
-The Aspose.Words rendering engine can render entire documents or certain pages of any document loaded into many different rendered formats.
+The Aspose.Words rendering engine can render entire documents or certain pages of any document loaded into multiple different rendered formats.
 
 These formats are:
 

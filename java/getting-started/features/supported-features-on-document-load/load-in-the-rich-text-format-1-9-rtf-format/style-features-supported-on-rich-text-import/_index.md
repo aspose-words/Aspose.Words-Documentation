@@ -1,4 +1,4 @@
----
+﻿---
 title: Style Features Supported on Rich Text Import
 type: docs
 weight: 100
@@ -7,7 +7,7 @@ url: /java/style-features-supported-on-rich-text-import/
 
 {{% alert color="primary" %}} 
 
-A style allows you to define a set of formatting that can be reused on many elements in a document. This saves time and allows for more consistent formatting throughout your document.
+A style allows you to define a set of formatting that can be reused on multiple elements in a document. This saves time and enables for more consistent formatting throughout your document.
 
 A style loaded into a document is represented in the Aspose.Words DOM by the Style class. You can access or modify any type of style (both in-built or custom) in a document.
 

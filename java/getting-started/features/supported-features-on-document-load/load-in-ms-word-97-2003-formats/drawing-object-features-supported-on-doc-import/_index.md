@@ -1,4 +1,4 @@
----
+﻿---
 title: Drawing Object Features Supported on DOC Import
 type: docs
 weight: 40
@@ -23,7 +23,7 @@ Almost all properties that deal with object positioning use points as a unit of 
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
-All of the following image types listed in the table below this overview are supported. When a document contains multiple references to the same image from an external address (e.g the internet) then the image is only downloaded once.
+All of the following image types listed in the table below this overview are supported. When a document contains a few references to the same image from an external address (e.g the internet) then the image is only downloaded once.
 
 It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of the image from the Aspose.Words point-of-view.
 
@@ -103,7 +103,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Linked |Yes |Note that Aspose.Words cannot update an OLE link. However you can modify a link only OLE object to point to a new location which can provide a partial way of changing OLE objects. <br><br>When such a document is saved and opened in Microsoft Word it will detect the change in the link and prompt the user to update the linked object. This results in the linked object appearing in the document. <br><br>Such a technique will only work for Word formats and if the document is opened in an editor which allows to update OLE objects (such as Microsoft Word). If the link is changed and the document to a different format such as PDF then the original content will still appear in the output. |<p>- **OleFormat.IsLink** </p><p>- **OleFormat.SourceFullName**</p>|
+|Linked |Yes |Note that Aspose.Words cannot update an OLE link. However you can modify a link only OLE object to point to a new location which can provide a partial way of changing OLE objects. <br><br>When such a document is saved and opened in Microsoft Word it will detect the change in the link and prompt the user to update the linked object. This results in the linked object appearing in the document. <br><br>Such a technique will only work for Word formats and if the document is opened in an editor which enables to update OLE objects (such as Microsoft Word). If the link is changed and the document to a different format such as PDF then the original content will still appear in the output. |<p>- **OleFormat.IsLink** </p><p>- **OleFormat.SourceFullName**</p>|
 |Embedded |Yes | | |
 |Draw Aspect |Yes | | |
 |Auto Update |Yes | |- **OleFormat.AutoUpdate**|

@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Build a Table from a DataTable
 type: docs
 weight: 130
@@ -38,7 +38,7 @@ The following code example provides a method to import data from the DataTable a
 
 The method can then be easily called using your **DocumentBuilder** and data.
 
-The following code example shows how to import the data from a DataTable and insert it into a new table in the document.
+The following code example demonstrates how to import the data from a DataTable and insert it into a new table in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-.java" >}}
 

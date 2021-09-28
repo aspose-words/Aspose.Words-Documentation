@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 18.10 Release Notes
 type: docs
 weight: 30
@@ -413,7 +413,7 @@ target.CopyStylesFromTemplate(templateFileName);
 
 WORDSNET-17328 has now been resolved.
 
-A customer requested the ability to insert untyped/empty fields ({}) just like MS Word allows doing so. By the moment AW threw System.InvalidOperationException when attempting to insert **FieldType.FieldNone** (which was the way the customer tried to insert an untyped field):
+A customer requested the ability to insert untyped/empty fields ({}) just like MS Word enables doing so. By the moment AW threw System.InvalidOperationException when attempting to insert **FieldType.FieldNone** (which was the way the customer tried to insert an untyped field):
 
 {{< highlight csharp >}}
 Document doc = new Document();

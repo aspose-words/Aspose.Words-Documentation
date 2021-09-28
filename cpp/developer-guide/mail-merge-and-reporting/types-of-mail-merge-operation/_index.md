@@ -1,4 +1,4 @@
----
+﻿---
 title: Types of Mail Merge Operation
 type: docs
 aliases:
@@ -31,7 +31,7 @@ The main limitation of using this type is the whole document content will be rep
 
 ## How to Execute a Simple Mail Merge Operation
 
-Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) methods that accept various data objects as the data source.
+Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words enables you to execute a simple mail merge operation using different [Execute](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) methods that accept various data objects as the data source.
 
 The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) method:
 

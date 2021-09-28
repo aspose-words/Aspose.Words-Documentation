@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Java For PHP in More Details
 type: docs
 weight: 5
@@ -21,7 +21,7 @@ Read more at [aspose.com](http://www.aspose.com/java/word-component.aspx)
 
 ## Aspose.Words Java for PHP
 
-Project Aspose.Words for PHP shows how different tasks can be performed using Aspose.Words Java APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for Java in their PHP Projects using [PHP/Java Bridge](http://php-java-bridge.sourceforge.net/pjb/).
+Project Aspose.Words for PHP demonstrates how different tasks can be performed using Aspose.Words Java APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for Java in their PHP Projects using [PHP/Java Bridge](http://php-java-bridge.sourceforge.net/pjb/).
 
 ## System Requirements and Supported Platforms
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 19.11 Release Notes
 type: docs
 weight: 20
@@ -451,7 +451,7 @@ public HorizontalRuleFormat HorizontalRuleFormat
 {{< /highlight >}}
 
 **Added new public class HorizontalRuleFormat** 
-HorizontalRuleFormat class allows to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
+HorizontalRuleFormat class enables to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
 
 {{< highlight csharp >}}
 /// <summary>

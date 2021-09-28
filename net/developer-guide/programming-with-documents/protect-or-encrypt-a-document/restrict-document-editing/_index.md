@@ -1,4 +1,4 @@
----
+﻿---
 title: Restrict Document Editing
 description: "Aspose.Words for .NET allows to restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions."
 type: docs
@@ -14,7 +14,7 @@ This article explains how to use Aspose.Words to select a restriction type, how 
 
 ## Select Editing Restriction Type
 
-Aspose.Words allows you to control the way you restrict the content using the [ProtectionType](https://apireference.aspose.com/words/net/aspose.words/protectiontype) enumeration parameter. This will enable you to select an exact type of protection such as the following:
+Aspose.Words enables you to control the way you restrict the content using the [ProtectionType](https://apireference.aspose.com/words/net/aspose.words/protectiontype) enumeration parameter. This will enable you to select an exact type of protection such as the following:
 
 * AllowOnlyComments
 * AllowOnlyFormFields
@@ -51,7 +51,7 @@ The following code example shows how to add password protection to your document
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-PasswordProtection.cs" >}}
 
-The following code example shows how to restrict editing in a document so only editing in form fields is possible:
+The following code example demonstrates how to restrict editing in a document so only editing in form fields is possible:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-AllowOnlyFormFieldsProtect.cs" >}}
 
@@ -59,7 +59,7 @@ The following code example shows how to restrict editing in a document so only e
 
 Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [Unprotect](https://apireference.aspose.com/words/net/aspose.words/document/methods/unprotect/index) method. Both removing ways have no difference.
 
-The following code example shows how to remove protection from your document:
+The following code example demonstrates how to remove protection from your document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-RemoveDocumentProtection.cs" >}}
 

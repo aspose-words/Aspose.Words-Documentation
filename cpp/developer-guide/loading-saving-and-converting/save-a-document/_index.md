@@ -1,7 +1,7 @@
----
+﻿---
 title: Save a Document
 type: docs
-description: "Aspose.Words for C++ enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
+description: "Aspose.Words for C++ allows you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /cpp/save-a-document/
@@ -38,6 +38,6 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 Aspose.Words supports saving a document into PCL (Printer Command Language). Aspose.Words can save documents into PCL 6 (PCL 6 Enhanced or PCL XL) format. The PclSaveOptions class can be used to specify additional options when saving a document into the PCL format.
 
-The following code example shows how to save a document to PCL using save options:
+The following code example demonstrates how to save a document to PCL using save options:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToPCL-ConvertDocumentToPCL.cpp" >}}

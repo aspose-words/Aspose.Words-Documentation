@@ -1,6 +1,6 @@
----
+﻿---
 title: Navigation with Cursor
-description: "Aspsoe.Words for Java allows you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
+description: "Aspsoe.Words for Java enables you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
 type: docs
 weight: 5
 url: /java/navigation-with-cursor/
@@ -34,15 +34,15 @@ But besides the basic **MoveTo** method, there are more specific ones.
 
 You can go to the beginning or the end of your document using the [MoveToDocumentStart](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentStart()) and [MoveToDocumentEnd](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentEnd()) methods.
 
-The following code example shows how to move the cursor position to the beginning or the end of a document:
+The following code example demonstrates how to move the cursor position to the beginning or the end of a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
 ### Navigate With Bookmarks
 
-You can mark a place that you want to find and move to it again easily. You can insert as many bookmarks into your document as you want, and then navigate through them by identifying the bookmarks with unique names. You can move to a bookmark by using the [MoveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToBookmark(java.lang.String,boolean,boolean)) method.
+You can mark a place that you want to find and move to it again easily. You can insert as numerous bookmarks into your document as you want, and then navigate through them by identifying the bookmarks with unique names. You can move to a bookmark by using the [MoveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToBookmark(java.lang.String,boolean,boolean)) method.
 
-The following code examples shows how to move a cursor position to a bookmark:
+The following code examples demonstrates how to move a cursor position to a bookmark:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
@@ -74,6 +74,6 @@ The following code example shows how to move document builder cursor to a docume
 
 You can move to a specific section or paragraph by using the [MoveToParagraph](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToParagraph(int,int)) or [MoveToSection](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToSection(int)) methods. In addition, you can specify an index to move the cursor to any position or a specified character in a paragraph within the **MoveToParagraph** method.
 
-The following code example shows how to move to a specific section and a specific paragraph in a document:
+The following code example demonstrates how to move to a specific section and a specific paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSectionParagraph-DocumentBuilderMoveToSectionParagraph.java" >}}

@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Use Aspose.Words Instead of NPOI
 description: "Learn how to download and install Aspose.Words for .NET and what prerequisites have to be met to work with Aspose.Words instead of NPOI."
 type: docs
@@ -45,7 +45,7 @@ After learning the ["Installation"](https://docs.aspose.com/words/net/installati
 
 Explore the ["Getting Started"](https://docs.aspose.com/words/net/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](https://docs.aspose.com/words/net/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some use cases can be implemented using NPOI, but many of the more regular tasks are easier and faster to implement using Aspose.Words.
+Some use cases can be implemented using NPOI, but multiple of the more regular tasks are easier and faster to implement using Aspose.Words.
 
 Aspose.Words provides source code examples for features missing in NPOI on the ["Features missing in NPOI"](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2) page.
 

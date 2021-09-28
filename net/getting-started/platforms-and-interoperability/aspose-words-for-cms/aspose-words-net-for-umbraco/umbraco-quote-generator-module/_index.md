@@ -1,4 +1,4 @@
----
+﻿---
 title: Umbraco Quote Generator Module
 type: docs
 weight: 30

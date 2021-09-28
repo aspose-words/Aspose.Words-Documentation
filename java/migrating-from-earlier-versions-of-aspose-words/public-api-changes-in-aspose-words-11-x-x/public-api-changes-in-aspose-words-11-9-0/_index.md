@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 11.9.0
 type: docs
 weight: 20

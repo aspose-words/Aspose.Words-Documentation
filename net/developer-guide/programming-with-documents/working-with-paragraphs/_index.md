@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Paragraphs
 type: docs
 weight: 110
@@ -7,7 +7,7 @@ url: /net/working-with-paragraphs/
 
 ## Inserting a Paragraph
 
-DocumentBuilder.Writeln inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the DocumentBuilder.Font property and current paragraph formatting is determined by the DocumentBuilder.ParagraphFormat property. Below example shows how to insert a paragraph into the document.
+DocumentBuilder.Writeln inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the DocumentBuilder.Font property and current paragraph formatting is determined by the DocumentBuilder.ParagraphFormat property. Below example demonstrates how to insert a paragraph into the document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cs" >}}
 
@@ -19,7 +19,7 @@ If you want to count the number of lines in a paragraph for any Word document, t
 
 ## Paragraph Formatting
 
-Current paragraph formatting is represented by a ParagraphFormat object that is returned by the DocumentBuilder.ParagraphFormat property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left aligned, no indentation, no spacing, no borders and no shading by calling [ParagraphFormat.ClearFormatting](http://www.aspose.com/api/net/words/aspose.words.tables/cellformat/methods/clearformatting). Below example shows how to set paragraph formatting.
+Current paragraph formatting is represented by a ParagraphFormat object that is returned by the DocumentBuilder.ParagraphFormat property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left aligned, no indentation, no spacing, no borders and no shading by calling [ParagraphFormat.ClearFormatting](http://www.aspose.com/api/net/words/aspose.words.tables/cellformat/methods/clearformatting). Below example demonstrates how to set paragraph formatting.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetParagraphFormatting.cs" >}}
 
@@ -49,7 +49,7 @@ Furthermore, a **Style** object provides the [Style.StyleIdentifier](http://w
 
 ## Inserting Style Separator to Put Different Paragraph Styles
 
-The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph. If you want to some text from the beginning of a particular heading to appear in a Table of Contents but don't want the entire heading in the Table of Contents, you can use this feature. Below code example shows how to insert style separator to put different paragraph styles. 
+The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature enables for two different paragraph styles used in one logical printed paragraph. If you want to some text from the beginning of a particular heading to appear in a Table of Contents but don't want the entire heading in the Table of Contents, you can use this feature. Below code example shows how to insert style separator to put different paragraph styles. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-InsertStyleSeparator-ParagraphInsertStyleSeparator.cs" >}}
 
@@ -67,6 +67,6 @@ Both the border collection and each separate border have similar attributes like
 
 The shading texture is set with a [TextureIndex](http://www.aspose.com/api/net/words/aspose.words/textureindex) enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](http://www.aspose.com/api/net/words/aspose.words/textureindex) value and set the foreground shading color as appropriate. Below example shows how to apply borders and shading to a paragraph.
 
-Below example shows how to apply borders and shading to a paragraph.
+Below example demonstrates how to apply borders and shading to a paragraph.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderApplyBordersAndShadingToParagraph.cs" >}}

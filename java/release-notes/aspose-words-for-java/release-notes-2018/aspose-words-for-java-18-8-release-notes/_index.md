@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 18.8 Release Notes
 type: docs
 weight: 50
@@ -336,7 +336,7 @@ New public property ***RecognizeUtf8Text*** was added into the RtfLoadOptions cl
 public boolean RecognizeUtf8Text
 {{< /highlight >}}
 
-This property allows to detect UTF-8 encoded characters and preserve them during import.
+This property enables to detect UTF-8 encoded characters and preserve them during import.
 
 UC:
 

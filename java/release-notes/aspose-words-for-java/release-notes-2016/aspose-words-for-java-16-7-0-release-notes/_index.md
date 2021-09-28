@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 16.7.0 Release Notes
 type: docs
 weight: 50
@@ -445,7 +445,7 @@ Added following properties to FontInfoCollection class:
 /// Default value for this property is <b>false</b>.
 /// </summary>
 /// <remarks>
-/// <para>Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it,
+/// <para>Embedding TrueType fonts enables others to view the document with the same fonts that were used to create it,
 /// but may substantially increase the document size.</para>
 /// <para>This option works for DOC, DOCX and RTF formats only.</para>
 /// </remarks>

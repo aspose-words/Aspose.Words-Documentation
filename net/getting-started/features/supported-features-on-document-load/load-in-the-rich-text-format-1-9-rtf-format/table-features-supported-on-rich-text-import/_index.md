@@ -1,4 +1,4 @@
----
+﻿---
 title: Table Features Supported on Rich Text Import
 type: docs
 weight: 120

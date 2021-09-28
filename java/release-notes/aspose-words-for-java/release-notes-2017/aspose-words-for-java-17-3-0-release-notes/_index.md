@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 17.3.0 Release Notes
 type: docs
 weight: 100
@@ -218,7 +218,7 @@ Mimic MS Word VBA behavior:
 
 ### WORDSNET-14745 - Provided Ability to Specify Locale at Field Level
 
-As per customer's request, we have added a property that allows to get/set field's locale:
+As per customer's request, we have added a property that enables to get/set field's locale:
 
 {{< highlight csharp >}}
 /**

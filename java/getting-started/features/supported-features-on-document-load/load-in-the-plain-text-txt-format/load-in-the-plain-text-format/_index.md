@@ -1,4 +1,4 @@
----
+﻿---
 title: Load in the Plain Text Format
 type: docs
 weight: 10

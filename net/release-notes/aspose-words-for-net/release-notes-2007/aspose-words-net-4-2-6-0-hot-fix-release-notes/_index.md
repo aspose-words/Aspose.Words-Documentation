@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words .Net 4.2.6.0 Hot Fix Release Notes
 type: docs
 weight: 270

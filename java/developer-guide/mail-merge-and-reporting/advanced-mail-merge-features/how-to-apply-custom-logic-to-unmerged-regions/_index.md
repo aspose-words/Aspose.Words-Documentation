@@ -1,4 +1,4 @@
----
+﻿---
 title: How to  Apply Custom Logic to Unmerged Regions
 type: docs
 weight: 70
@@ -23,25 +23,25 @@ The data source includes two records for the **StoreDetails** region but purpose
 
 ![merged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions_2.png)
 
-As noted on the image you can see that the **ContactDetails** region for the second record and **Suppliers** regions have been automatically removed by the mail merge engine as they have no data. However, there are a few issues that make this output document look incomplete:
+As noted on the image you can see that the **ContactDetails** region for the second record and **Suppliers** regions have been automatically removed by the mail merge engine as they have no data. However, there are numerous issues that make this output document look incomplete:
 
 - The **ContactDetails** region still leaves a paragraph with the text “Contact Details”.
 - In the same case there is no indication that there are no phone numbers, only a blank space which could lead to confusion.
 - The table and title related to the **Suppliers** region also remains after the region inside the table is removed.
 
-The technique provided in this article demonstrates how to apply custom logic to each unmerged regions to avoid these issues.
+The technique provided in this article shows how to apply custom logic to each unmerged regions to avoid these issues.
 
 **The Solution**
 
 To manually apply logic to each unused region in the document we take advantage of features already available in Aspose.Words.
 
-The mail merge engine provides a property to remove unused regions through the **MailMergeCleanupOptions.RemoveUnusedRegions** flag. This can be disabled so that such regions are left untouched during a mail merge. This allows us to leave the unmerged regions in the document and handle them manually ourselves instead.
+The mail merge engine provides a property to remove unused regions through the **MailMergeCleanupOptions.RemoveUnusedRegions** flag. This can be disabled so that such regions are left untouched during a mail merge. This enables us to leave the unmerged regions in the document and handle them manually ourselves instead.
 
 We can then take advantage of the **MailMerge.FieldMergingCallback** property as a means to apply our own custom logic to these unmerged regions during mail merge through the use of a handler class implementing the **IFieldMergingCallback** interface.
 
 This code within the handler class is the only class you will need to modify in order to control the logic applied to unmerged regions. The other code in this sample can be reused without modification in any project.
 
-This sample project demonstrates this technique. It involves the following steps:
+This sample project shows this technique. It involves the following steps:
 
 1. Execute mail merge on the document using your data source. The **MailMergeCleanupOptions.RemoveUnusedRegions** flag is disabled for now we want the regions to remain so we can handle them manually. Any regions without data will be left unmerged in the document.
 1. Call the **ExecuteCustomLogicOnEmptyRegions** method. This method is provided in this sample. It performs actions which allow the specified handler to be called for each unmerged region. This method is reusable and can be copied unaltered to any project which requires it (along with any dependent methods).This method executes the following steps:
@@ -51,7 +51,7 @@ This sample project demonstrates this technique. It involves the following steps
 
 **The Code**
 
-The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts several parameters:
+The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts numerous parameters:
 
 1. The [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) object containing unmerged regions which are to be handled by the passed handler.
 1. The handler class which defines the logic to apply to unmerged regions. This handler must implement the [IFieldMergingCallback](http://www.aspose.com/api/java/words/com.aspose.words/interfaces/IFieldMergingCallback) interface.
@@ -77,7 +77,7 @@ Defines the method used to manually handle unmerged regions.
 
 This method involves finding all unmerged regions in the document. This is accomplished using the **MailMerge.GetFieldNames** method. This method returns all merge fields in the document, including the region start and end markers (represented by merge fields with the prefix *TableStart* or *TableEnd*).
 
-When a TableStart merge field is encountered this is added as a new **DataTable** to the **DataSet**. Since a region may appear more than once (for example because it is a nested region where the parent region has been merged with multiple records), the table is only created and added if it does not already exist in the **DataSet**.
+When a TableStart merge field is encountered this is added as a new **DataTable** to the **DataSet**. Since a region may appear more than once (for example because it is a nested region where the parent region has been merged with several records), the table is only created and added if it does not already exist in the **DataSet**.
 
 When an appropriate region start has been found and added to the database, the next field (which corresponds to the first field in the region) is added to the **DataTable**. Only the first field is required to be added for each field in the region to be merged and passed to the handler.
 
@@ -104,7 +104,7 @@ Shows how to define custom logic in a handler implementing IFieldMergingCallback
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-EmptyRegionsHandler.java" >}}
 
-The result of the above code is shown below. The unmerged fields within the first region are replaced with informative text and the removal of the table and heading allows the document to look complete.
+The result of the above code is shown below. The unmerged fields within the first region are replaced with informative text and the removal of the table and heading enables the document to look complete.
 
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java-2](how-to-apply-custom-logic-to-unmerged-regions_3.png)
 
@@ -115,7 +115,7 @@ We can insert different code in the handler to control how unmerged regions are 
 
 The replacement text is merged into the first field by setting the specified text into the **FieldMergingArgs.Text** property. The text from this property is merged into the field by the mail merge engine.
 
-The code applies this for only the first field in the region by checking the **FieldMergingArgs.FieldValue** property. The field value of the first field in the region is marked with “FirstField” . This makes this type of logic easier to implement over many regions as no extra code is required.
+The code applies this for only the first field in the region by checking the **FieldMergingArgs.FieldValue** property. The field value of the first field in the region is marked with “FirstField” . This makes this type of logic easier to implement over numerous regions as no extra code is required.
 
 **Example**
 

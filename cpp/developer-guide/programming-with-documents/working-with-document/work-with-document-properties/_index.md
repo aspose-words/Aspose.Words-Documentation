@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Document Properties
 description: "Aspose.Words for C++ allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
@@ -31,7 +31,7 @@ To access document properties in Aspose.Words use:
 
 **BuiltInDocumentProperties** additionally provides access to document properties through a set of entered properties that return values of the appropriate type. **CustomDocumentProperties** enable you to add or remove document properties from a document.
 
-The [DocumentProperty]https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property) class allows you to get the name, value, and type of a document property. [Value](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property#get_value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property#tostring_const) and **DocumentProperty.**[ToInt](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property#toint), to obtain the value of the appropriate type.
+The [DocumentProperty]https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property) class enables you to get the name, value, and type of a document property. [Value](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property#get_value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property#tostring_const) and **DocumentProperty.**[ToInt](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property#toint), to obtain the value of the appropriate type.
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 
@@ -55,7 +55,7 @@ To add custom document properties with Aspose.Words, use the [Add](https://apire
 
 To remove custom properties, use the [Remove](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property_collection#remove_string) method, passing it the property name to remove, or the [RemoveAt](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property_collection#removeat_int) method to remove the property by index. You can also remove all properties using the [Clear](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property_collection#clear) method.
 
-The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
+The following code example checks whether a custom property with a given name exists in a document and adds many more custom document properties:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocProperties-CustomAdd.cpp" >}}
 
@@ -83,7 +83,7 @@ Aspose.Words does not automatically update document properties, as Microsoft Wor
 
 Aspose.Words provides the [AddLinkToContent](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.custom_document_properties#addlinktocontent_string_string) method to create a new custom document property linked to content. This property returns the newly created property object or null if the [LinkSource](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property#get_linksource_const) is invalid.
 
-The following code example shows how to configure a link to a custom property:
+The following code example demonstrates how to configure a link to a custom property:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocProperties-ConfiguringLinkToContent.cpp" >}}
 
@@ -91,7 +91,7 @@ The following code example shows how to configure a link to a custom property:
 
 You can get a collection of document variables using the [Variables](https://apireference.aspose.com/words/cpp/class/aspose.words.document#get_variables) property. Variable names and values are strings.
 
-The following code example shows how to enumerate document variables:
+The following code example demonstrates how to enumerate document variables:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-GetVariables-GetVariables.cpp" >}}
 

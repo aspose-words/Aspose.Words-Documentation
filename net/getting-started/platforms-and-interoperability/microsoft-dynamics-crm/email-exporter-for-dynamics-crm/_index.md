@@ -1,4 +1,4 @@
----
+﻿---
 title: Email Exporter for Dynamics CRM
 type: docs
 weight: 50
@@ -10,9 +10,9 @@ The Aspose.Words Email Exporter is an open source add-on for Dynamics CRM. It is
 Major features of this Addon are:
 
 - Ribbon Button on Email Entity.
-- A Popup where you can select multiple options.
+- A Popup where you can select a few options.
 - This plugin can download the exported document.
-- This plugin allows to attach the generated document with the same email.
+- This plugin enables to attach the generated document with the same email.
 - Support a number of formats like: DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
 - Allows you to enter the name of generated output file.
 

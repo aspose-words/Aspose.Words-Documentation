@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserting Fields
 type: docs
 weight: 60
@@ -7,7 +7,7 @@ url: /jasperreports/inserting-fields/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words for JasperReports provides a unique feature that allows inserting Microsoft Word fields to any point of a document. This feature can be used to insert page numbers that are dynamically updated as the document is edited, TOC (table of contents), and many other things.
+Aspose.Words for JasperReports provides a unique feature that enables inserting Microsoft Word fields to any point of a document. This feature can be used to insert page numbers that are dynamically updated as the document is edited, TOC (table of contents), and multiple other things.
 
 {{% /alert %}} 
 

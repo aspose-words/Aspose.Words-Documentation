@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for C++ 21.9 Release Notes
 type: docs
 weight: 25
@@ -38,7 +38,7 @@ The missing features will be added in future releases.
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| WORDSNET-17101 | Optimize the PDF output size for document with multiple gradient filled shapes | New Feature |
+| WORDSNET-17101 | Optimize the PDF output size for document with many gradient filled shapes | New Feature |
 | WORDSNET-22603 | Add the ability to apply 3D effects to the image | New Feature |
 | WORDSNET-21742 | Add feature to export language in Tag tab of object properties   (ExportDocumentStructure) | New Feature |
 | WORDSNET-17842 | Set Language in PDF Tag Properties | New Feature |

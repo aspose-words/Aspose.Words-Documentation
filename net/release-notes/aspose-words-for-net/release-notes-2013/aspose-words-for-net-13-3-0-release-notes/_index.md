@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 13.3.0 Release Notes
 type: docs
 weight: 80
@@ -43,8 +43,8 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-7796|Image do not preserve in output doc/docx|Bug|
 |WORDSNET-7801|Unable to Open RTF Document|Bug|
 |WORDSNET-7824|Font size of Hebrew content do not preserve in output document.|Bug|
-|WORDSNET-7826|Link between multiple grouped textboxes breaks when save to Docx|Bug|
-|WORDSNET-7827|Link between multiple grouped textboxes breaks after merging multiple document|Bug|
+|WORDSNET-7826|Link between a few grouped textboxes breaks when save to Docx|Bug|
+|WORDSNET-7827|Link between many grouped textboxes breaks after merging multiple document|Bug|
 |WORDSNET-7836|Document.HasRevisions returns false but document contain revisions|Bug|
 |WORDSNET-7837|Document.AcceptAllRevisions do not work with Paragraph formatting changes|Bug|
 |WORDSNET-7851|Table is not preserved during open/save RTF|Bug|

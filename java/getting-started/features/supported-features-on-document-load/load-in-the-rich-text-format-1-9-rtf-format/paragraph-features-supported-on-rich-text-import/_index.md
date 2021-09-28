@@ -1,4 +1,4 @@
----
+﻿---
 title: Paragraph Features Supported on Rich Text Import
 type: docs
 weight: 80

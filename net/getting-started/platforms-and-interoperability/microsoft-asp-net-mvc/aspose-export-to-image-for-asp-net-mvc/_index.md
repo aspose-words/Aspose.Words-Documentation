@@ -1,17 +1,17 @@
----
+﻿---
 title: Aspose Export to Image for ASP.NET MVC
 type: docs
 weight: 10
 url: /net/aspose-export-to-image-for-asp-net-mvc/
 ---
 
-Are you facing problems in converting a lengthy web page into single/multiple images (PNG, JPEG,TIFF, or BMP). Here is how [Apose.Words for .NET](http://www.aspose.com/.net/word-component.aspx) will help you achieve this. Aspose.Words for .NET exports the entire content of the web page into a single image or multiple images, as per user choice , in any image format (options available are PNG, JPEG,TIFF,BMP). Users can easily download the exported image(s) and use it as desired. Developers can add this feature of Aspose.Words for .NET to their MVC website projects by performing few simple steps.
+Are you facing problems in converting a lengthy web page into single/multiple images (PNG, JPEG,TIFF, or BMP). Here is how [Apose.Words for .NET](http://www.aspose.com/.net/word-component.aspx) will help you achieve this. Aspose.Words for .NET exports the entire content of the web page into a single image or a few images, as per user choice , in any image format (options available are PNG, JPEG,TIFF,BMP). Users can easily download the exported image(s) and use it as desired. Developers can add this feature of Aspose.Words for .NET to their MVC website projects by performing few simple steps.
 
 This initial version of the module contains following features:
 
 - Simple to integrate.
 - Exports the entire content of a web page with no limitation on page length or content type, into one or more images.
-- Stores the exported images in zipped archive (in case of multiple images).
+- Stores the exported images in zipped archive (in case of numerous images).
 - Allows users to export content into four different Image formats (PNG, JPEG,TIFF, or BMP).
 - It has the capability of auto-sequencing multiple images.
 - Allows users to have an offline copy of their favorite online content into image formats for sharing and printing etc.

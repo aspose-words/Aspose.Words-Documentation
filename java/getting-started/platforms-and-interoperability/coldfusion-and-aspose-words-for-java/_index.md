@@ -1,4 +1,4 @@
----
+﻿---
 title: ColdFusion and Aspose.Words for Java
 type: docs
 weight: 20
@@ -175,7 +175,7 @@ Next we write the ColdFusion code to execute mail merge and save the document to
 <html>
 <head><title>Mail Merge with Regions</title></head>
 <body>
-    <b>This example shows how to execute mail merge with regions using Aspose.Words</b>
+    <b>This example demonstrates how to execute mail merge with regions using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset myQueryResult=CreateObject("java", "RelationSet").init()>
     <cfset myResultSet=myQueryResult.execQuery()>

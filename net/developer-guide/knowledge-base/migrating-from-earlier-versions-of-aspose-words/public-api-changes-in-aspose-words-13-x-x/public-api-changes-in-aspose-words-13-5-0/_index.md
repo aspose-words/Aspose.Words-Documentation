@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 13.5.0
 type: docs
 weight: 50
@@ -45,7 +45,7 @@ The **PageSetup.MultiplePages** and **PageSetup.SheetsPerBooklet** properties ha
 
 Possible MultiplePagesType:
 
-- Normal - Normal printing, no multiple pages specified.
+- Normal - Normal printing, no several pages specified.
 - MirrorMargins - Swaps left and right margins on facing pages.
 - TwoPagesPerSheet - Prints two pages per sheet.
 - BookFoldPrinting - Specifies whether to print the document as a book fold.

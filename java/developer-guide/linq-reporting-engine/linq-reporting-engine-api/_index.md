@@ -1,4 +1,4 @@
----
+﻿---
 title: LINQ Reporting Engine API
 type: docs
 weight: 50
@@ -590,7 +590,7 @@ Recognition of date-time values is a special case, because [JSON specification](
 1. All date-time formats supported for the English USA culture
 1. All date-time formats supported for the English New Zealand culture
 
-Although this approach is quite flexible, in some scenarios, you may need to restrict strings to be recognized as date-time values. You can achieve this by specifying one or several exact formats in the context of the current culture to be used while parsing date-time values from strings as shown in the following example.
+Although this approach is quite flexible, in some scenarios, you may need to restrict strings to be recognized as date-time values. You can achieve this by specifying one or a few exact formats in the context of the current culture to be used while parsing date-time values from strings as shown in the following example.
 
 {{< highlight java >}}
 ArrayList<String> formats = new ArrayList();
@@ -612,7 +612,7 @@ In some scenarios, you may need to disable recognition of date-time values at al
 
 To access CSV data while building a report, you can pass a `CsvDataSource` instance to the engine as a data source.
 
-Using of `CsvDataSource` enables you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:
+Using of `CsvDataSource` allows you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:
 
 - Long
 - Double

@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 15.1.0
 type: docs
 weight: 10
@@ -21,7 +21,7 @@ We have now added a new public property to HtmlSaveOptions class:
 /** 
  Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB.
  Default value is <c>true</c> for HTML and <c>false</c> for MHTML and EPUB.
- <p>Saving of the roundtrip information allows to restore document properties such as tab stops,
+ <p>Saving of the roundtrip information enables to restore document properties such as tab stops,
  comments, headers and footers during the HTML documents loading back into a <see cref="Document"/> object.</p>
  <p>When <c>true</c>, the roundtrip information is exported as -aw-* CSS properties
  of the corresponding HTML elements.</p>
@@ -59,7 +59,7 @@ We have also exposed access to field format switches common for all field types 
 
 ### New Overload of DocumentBuilder.InsertField Method Added
 
-We have introduced the new overload **DocumentBuilder.InsertField(FieldType fieldType, bool updateField)** which allows to insert a field by its type.
+We have introduced the new overload **DocumentBuilder.InsertField(FieldType fieldType, bool updateField)** which enables to insert a field by its type.
 
 ### New Paragraph.AppendField Method Added
 
@@ -79,7 +79,7 @@ Oracle currently supports jdk 1.6, 1.7 and 1.8. Open support of jdk 1.6 is close
 
 ### JDK 1.6-1.7-1.8 Small Differences.
 
-Byte code of 1.6, 1.7 and 1.8 is very close. There is no global difference like in 1.4 vs 1.5 vs 1.6. Few language constructs are added in 1.7 and 1.8. Few libraries are updated/bug fixed. Few fonts are rendered differently. Few image formats are rendered differently too due to updated codecs. There are many hidden changes like JVM optimization.
+Byte code of 1.6, 1.7 and 1.8 is very close. There is no global difference like in 1.4 vs 1.5 vs 1.6. Few language constructs are added in 1.7 and 1.8. Few libraries are updated/bug fixed. Few fonts are rendered differently. Few image formats are rendered differently too due to updated codecs. There are numerous hidden changes like JVM optimization.
 
 As a result, we do not need in different JARs for JDK 1.6, 1.7, 1.8 as it was for JDK 1.4, 1.5 and 1.6. The single JDK 1.6 jar is enough for all current java versions.
 

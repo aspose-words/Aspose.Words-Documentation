@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with SmartArt Cold Rendering
 type: docs
 description: "Aspose.Words for C++ performs SmartArt Cold Rendering, meaning that it lays out and renders SmartArt objects if the pre-rendered SmartArt drawing is missing or incorrect."
@@ -12,7 +12,7 @@ Microsoft Word generates and saves the pre-rendered drawing along with the Smart
 
 ## Using SmartArt Cold Rendering
 
-Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
+Aspose.Words enables you to use a pre-rendered drawing or perform cold rendering:
 
 * If a pre-rendered drawing is available, Aspose.Words uses it to render the SmartArt object.
 * If pre-rendered drawing is missing, Aspose.Words implicitly performs cold rendering to render the SmartArt object.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words for C++ can embed the correct TrueType fonts into the resulting document to ensure that it displays accurately. If a font or a specific character is not available, Aspose.Words searches for a suitable font replacement or uses the Font fallback mechanism."
 type: docs
@@ -19,7 +19,7 @@ Note that the font in the document represents an entity, such as family name, st
 
 All available font manipulation mechanisms are contained in the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
 
-Fonts are parsed in several steps:
+Fonts are parsed in many steps:
 
 1. Obtaining info for font, resolving from all available fonts.
 1. Parsing the resolved fonts to get available glyphs and metrics (horizontal and vertical).
@@ -27,7 +27,7 @@ Fonts are parsed in several steps:
 
 When Aspose.Words encounters a font in the document for the first time, it attempts to obtain basic font information, such as the font full name, family name, version, style, from the font files located in each font source. After all the fonts are retrieved, Aspose.Words uses these details to find the required font data or a suitable replacement for the requested font.
 
-Since the procedure described above is time-consuming, it may negatively affect application performance at its first launch. However, each instance of **FontSettings** has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the **FontSettings** class between different documents, which allows you to speed up the loading of the documents. The following example demonstrates this:
+Since the procedure described above is time-consuming, it may negatively affect application performance at its first launch. However, each instance of **FontSettings** has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the **FontSettings** class between different documents, which enables you to speed up the loading of the documents. The following example demonstrates this:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithFontSettings-FontSettingsWithLoadOptions.cpp" >}}
 

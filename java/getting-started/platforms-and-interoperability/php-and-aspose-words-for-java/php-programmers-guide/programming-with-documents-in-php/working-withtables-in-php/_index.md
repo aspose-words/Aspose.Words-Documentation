@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Tables in PHP
 type: docs
 weight: 80

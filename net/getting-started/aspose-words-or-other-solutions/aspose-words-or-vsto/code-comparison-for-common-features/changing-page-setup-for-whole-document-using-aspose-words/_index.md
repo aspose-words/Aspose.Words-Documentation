@@ -1,4 +1,4 @@
----
+﻿---
 title: Changing Page Setup for Whole Document using Aspose.Words
 type: docs
 weight: 10
@@ -21,7 +21,7 @@ this.Application.ActiveDocument.Range(1,2).PageSetup.PaperSize = Word.WdPaperSiz
 {{< highlight csharp >}}
 Document doc = new Document( "Section.ModifyPageSetupInAllSections.doc");
 
-// It is important to understand that a document can contain many sections and each
+// It is important to understand that a document can contain several sections and each
 
 // section has its own page setup. In this case we want to modify them all.
 foreach (Section section in doc)

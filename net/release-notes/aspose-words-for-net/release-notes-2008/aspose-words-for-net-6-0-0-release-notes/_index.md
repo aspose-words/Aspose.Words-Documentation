@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 6.0.0 Release Notes
 type: docs
 weight: 10
@@ -28,7 +28,7 @@ The main theme of Aspose.Words for .NET 6.0 is the Rendering Engine that finally
 
 Word® documents do not contain information about where each page starts and ends and where on the page each element is located. Such documents are called “flow-layout” documents. The task of the Rendering Engine is to take a “flow-layout” document and allocate content into pages to create a “fixed-page” document.
 
-The Aspose.Words Rendering Engine has been designed to format a document into pages with high fidelity to how Microsoft Word would have done it. When pagination is complete, Aspose.Words can render the output into a variety of the “fixed-page” formats. At the moment this includes PDF, printing and imaging. This architecture allows you to convert a document to PDF, print, image or render to a browser and the page will look exactly the same everywhere.
+The Aspose.Words Rendering Engine has been designed to format a document into pages with high fidelity to how Microsoft Word would have done it. When pagination is complete, Aspose.Words can render the output into a variety of the “fixed-page” formats. At the moment this includes PDF, printing and imaging. This architecture enables you to convert a document to PDF, print, image or render to a browser and the page will look exactly the same everywhere.
 
 Our work never ends. Although this is version 6.0 for Aspose.Words, it is only “version 1.0” for the Rendering Engine. The list of document features that are rendered well is great, but we are of course to ship more versions that will render documents even better.
 
@@ -53,7 +53,7 @@ The legacy conversion that requires Aspose.Words and Aspose.Pdf is still availab
 
 ## Printing and Imaging
 
-Being able to print Word® documents in any server or client application without utilizing Microsoft Word® has been a dream for many and for long. Aspose.Words for .NET 6.0 makes it possible. 
+Being able to print Word® documents in any server or client application without utilizing Microsoft Word® has been a dream for multiple and for long. Aspose.Words for .NET 6.0 makes it possible. 
 
 The same document Rendering Engine can output to a .NET Graphics object and it opens endless prospects for Aspose.Words customers:
 
@@ -76,7 +76,7 @@ To benefit from this feature all you need to do is download and use the latest A
 
 MHTML is a “single file web page” format. MHTML is a way to save HTML with all related images and other resources into a single file.
 
-Saving documents as MHTML has been available in Aspose.Words for several months already and the ability to load MHTML files is a logical next step.
+Saving documents as MHTML has been available in Aspose.Words for multiple months already and the ability to load MHTML files is a logical next step.
 
 Loading and saving documents as MHTML is fully integrated in Aspose.Words. Use constructors to load a file in any format and to save in any format. Also see the and enumerations.
 

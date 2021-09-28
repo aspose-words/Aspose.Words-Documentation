@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Add Group Shape into a Word Document
 type: docs
 weight: 20
@@ -23,7 +23,7 @@ Below are some of the Shape types supported in Aspose.Words. For complete list, 
 
 {{% /alert %}} 
 
-Sometimes you need to add a group shape into a Word document. In Microsoft Word, you can quickly add a group shape using Group command/button. A group shape consists of multiple shapes. Individual shape in a group can be moved separately. In Aspose.Words it is very easy to add a group shape using [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) class. Shape is created separately using [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape) class and then added in [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) object using [AppendChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/appendchild) method.
+Sometimes you need to add a group shape into a Word document. In Microsoft Word, you can quickly add a group shape using Group command/button. A group shape consists of many shapes. Individual shape in a group can be moved separately. In Aspose.Words it is very easy to add a group shape using [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) class. Shape is created separately using [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape) class and then added in [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) object using [AppendChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/appendchild) method.
 
 ## Example
 

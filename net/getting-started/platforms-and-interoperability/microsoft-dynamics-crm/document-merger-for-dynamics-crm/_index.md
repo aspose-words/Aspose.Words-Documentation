@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Merger for Dynamics CRM
 type: docs
 weight: 30

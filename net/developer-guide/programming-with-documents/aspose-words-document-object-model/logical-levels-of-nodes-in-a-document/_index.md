@@ -1,4 +1,4 @@
----
+﻿---
 title: Logical Levels of Nodes in a Document
 type: docs
 description: "In Aspose.Words for .NET documentation mentioned logical levels of nodes – block level, inline level, or row level. The node level is used to describe the location in the document tree where the node is typically occur."
@@ -48,7 +48,7 @@ Block-level nodes are represented by the following classes:
 - Bookmarks, which occurs both at the block-level and at the inline-level
 - [StructuredDocumentTag](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag), which represent custom markup and can contain both content and content controls
 
-The following diagram shows block-level elements.
+The following diagram demonstrates block-level elements.
 
 <img src="block-level.png" alt="block-level-aspose-words" style="width:550px"/>
 

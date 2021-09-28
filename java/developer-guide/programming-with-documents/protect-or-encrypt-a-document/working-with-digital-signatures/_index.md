@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Digital Signatures
 type: docs
 weight: 30
@@ -46,7 +46,7 @@ A document can have multiple digital signatures. These signatures can all be acc
 | A document signed with a digital certificate in Microsoft Word. |
 | :----------------------------------------------------------- |
 | ![details-digital-signed-pdf-aspose-words-java](http://i.imgur.com/BAD1iP3.png) |
-The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.isValid](https://apireference.aspose.com/words//java/com.aspose.words/digitalsignaturecollection) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid. Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally, extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/DetectDocumentSignatures/Document.Signed.docx).
+The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.isValid](https://apireference.aspose.com/words//java/com.aspose.words/digitalsignaturecollection) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid. Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for many reasons, for instance the document has been changed since signing or the certificate has expired. Additionally, extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/DetectDocumentSignatures/Document.Signed.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-AccessAndVerifySignature-1.java" >}}
 
@@ -54,7 +54,7 @@ The most important property to check with digital signatures is the validity of 
 
 DigitalSignatureUtil class provides methods for signing the document. DigitalSignatureUtil.sign method signs source document using given CertificateHolder with a digital signature and writes signed document to the destination stream. 
 
-The following code example shows how to sign a simple document. 
+The following code example demonstrates how to sign a simple document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SimpleDocumentSigning.java" >}}
 
@@ -68,18 +68,18 @@ You can sign a source document using the given CertificateHolder and SignOptions
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-CreatingAndSigningNewSignatureLine.java" >}}
 
-The following code example shows how to modify an existing signature line and sign a document. 
+The following code example demonstrates how to modify an existing signature line and sign a document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SigningExistingSignatureLine.java" >}}
 
 ### Signing Word Document using Signature Provider Identifier
 
-The code example given below shows how to sign a Word document using the signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of {00000000-0000-0000-0000-000000000000} for its default signature provider.
+The code example given below shows how to sign a Word document using the signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of 00000000-0000-0000-0000-000000000000 for its default signature provider.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SetSignatureProviderID.java" >}}
 
 ### Create New Signature Line Sign Word Document using Provider Identifier
 
-The following code example shows how to create a signature line and sign a Word document using a signature provider identifier.
+The following code example demonstrates how to create a signature line and sign a Word document using a signature provider identifier.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-CreateNewSignatureLineAndSetProviderID.java" >}}

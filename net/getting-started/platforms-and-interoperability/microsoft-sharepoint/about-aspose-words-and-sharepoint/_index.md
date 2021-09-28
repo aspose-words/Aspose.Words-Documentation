@@ -1,4 +1,4 @@
----
+﻿---
 title: About Aspose.Words and SharePoint
 type: docs
 weight: 10

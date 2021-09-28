@@ -1,11 +1,11 @@
----
+﻿---
 title: Working with Table-Row Data Bands
 type: docs
 weight: 20
 url: /java/working-with-table-row-data-bands/
 ---
 
-A table-row data band is a data band which body occupies single or multiple rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
+A table-row data band is a data band which body occupies single or several rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
 ||||
 | :- | :- | :- |

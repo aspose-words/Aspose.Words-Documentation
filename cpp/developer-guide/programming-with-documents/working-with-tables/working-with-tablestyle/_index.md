@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with TableStyle
 type: docs
 weight: 25
@@ -17,6 +17,6 @@ A table style can be created using the StyleCollection.Add method. The code exam
 
 ## Defining Conditional Formatting
 
-Conditional formatting can be defined for all possible table area defined under ConditionalStyleType enumeration type. The following code example shows how to define conditional formatting for the header row of the table.
+Conditional formatting can be defined for all possible table area defined under ConditionalStyleType enumeration type. The following code example demonstrates how to define conditional formatting for the header row of the table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-DefineConditionalFormatting.cpp" >}}

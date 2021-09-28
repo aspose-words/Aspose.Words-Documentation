@@ -1,4 +1,4 @@
----
+﻿---
 title: Copy Bookmarked Text in Jython
 type: docs
 weight: 12
@@ -26,8 +26,8 @@ To Copy Bookmarked Text using **Aspose.Words Java for Jython**. Here you can see
         # Let's say we will be appending to the end of the body of the last section.
         dstNode = dstDoc.getLastSection().getBody()
     
-        # It is a good idea to use this import context object because multiple nodes are being imported.
-        # If you import multiple times without a single context, it will result in many styles created.
+        # It is a good idea to use this import context object because a few nodes are being imported.
+        # If you import a few times without a single context, it will result in numerous styles created.
         importer = NodeImporter(srcDoc, dstDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)
     
         # Do it once.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with ChartSeries
 type: docs
 weight: 40

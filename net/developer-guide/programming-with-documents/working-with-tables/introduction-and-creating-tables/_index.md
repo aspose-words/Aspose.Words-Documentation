@@ -1,4 +1,4 @@
----
+﻿---
 title: Introduction and Creating Tables
 type: docs
 weight: 10
@@ -73,7 +73,7 @@ You should also notice table is succeeded with an empty paragraph. It is a requi
 
 ## Creating Tables
 
-Aspose.Words provides several different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
+Aspose.Words provides multiple different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
 
 |Table Property|Default in Aspose.Words|
 | :- | :- |
@@ -139,11 +139,11 @@ Use the DocumentBuilder.RowFormat property to specify row formatting. It retur
 
 #### Ending a Table
 
-Call DocumentBuilder.EndTable to finish the current table. This method should be called only once after DocumentBuilder.EndRow was called. When called, DocumentBuilder.EndTable moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
+Call DocumentBuilder.EndTable to finish the current table. This method should be called only once after DocumentBuilder.EndRow was called. When called, DocumentBuilder.EndTable moves the cursor out of the current cell to a position just after the table. The following example shows how to build a formatted table that contains 2 rows and 2 columns.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderBuildTable-DocumentBuilderBuildTable.cs" >}}
 
-Below example shows how to create a simple table using DocumentBuilder with default formatting.
+Below example demonstrates how to create a simple table using DocumentBuilder with default formatting.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-SimpleTable.cs" >}}
 
@@ -177,7 +177,7 @@ The same technique can be used to add copies of an existing row to a table.
 
 {{% /alert %}} 
 
-Below example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+Below example demonstrates how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-CloneTable-CloneLastRow.cs" >}}
 
@@ -192,11 +192,11 @@ Aspose.Words supports inserting content into a document from an HTML source by u
 
 ### Comparison of Insertion Techniques
 
-As described in previous articles, Aspose.Words provides several methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
+As described in previous articles, Aspose.Words provides many methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
-|DocumentBuilder ([DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable))|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
+|DocumentBuilder ([DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable))|Standard method of inserting tables and other document content.|Sometimes hard to create several varieties of tables at the same time with the same instance of the builder.|
 |Table( [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
 |Cloning ([Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
 |From an HTML source. ([DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
@@ -213,13 +213,13 @@ The same technique is used to extract the content from individual cells of a tab
 
 {{% /alert %}} 
 
-Below example shows how to print the text range of row and table elements.
+Below example demonstrates how to print the text range of row and table elements.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-ExtractOrReplaceText-PrintTextRangeOFRowAndTable.cs" >}}
 
 ## Replacing Text in a Table
 
-Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across multiple nodes, such as paragraphs or cells, then an exception is thrown.
+Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across many nodes, such as paragraphs or cells, then an exception is thrown.
 
 Normally the replacement of text should be done at the cell level (per cell) or at the paragraph level.
 

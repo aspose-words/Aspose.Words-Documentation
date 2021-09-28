@@ -1,4 +1,4 @@
----
+﻿---
 title: Clone a Document
 type: docs
 description: “Aspose.Words for C++ allows you to clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned.”
@@ -19,9 +19,9 @@ After creating a clone of your document, you will be able to edit it and perform
 
 ## Creating a Document Clone
 
-Aspose.Words allows you to clone a document using the [Clone](https://apireference.aspose.com/words/cpp/class/aspose.words.document#clone) method that performs a deep copy of the document and returns it. In other words, it will get a full copy of the DOM. The Clone method speeds up the documents generation, and you only need one line of code to get a copy of your document.
+Aspose.Words enables you to clone a document using the [Clone](https://apireference.aspose.com/words/cpp/class/aspose.words.document#clone) method that performs a deep copy of the document and returns it. In other words, it will get a full copy of the DOM. The Clone method speeds up the documents generation, and you only need one line of code to get a copy of your document.
 
-Cloning produces a new document with the same contents as the original, but with a unique copy of each of the original document's [nodes](https://apireference.aspose.com/words/cpp/class/aspose.words.node). You can also apply the clone operation to a document node by using the node [Clone](https://apireference.aspose.com/words/cpp/class/aspose.words.node#clone_bool) method, which allows you to duplicate composite document nodes with and without their child nodes.
+Cloning produces a new document with the same contents as the original, but with a unique copy of each of the original document's [nodes](https://apireference.aspose.com/words/cpp/class/aspose.words.node). You can also apply the clone operation to a document node by using the node [Clone](https://apireference.aspose.com/words/cpp/class/aspose.words.node#clone_bool) method, which enables you to duplicate composite document nodes with and without their child nodes.
 
 {{% alert color="primary" %}}
 

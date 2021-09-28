@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 18.10 Release Notes
 type: docs
 weight: 30
@@ -306,7 +306,7 @@ public class FontFallbackSettings
 	/// <remarks>
 	/// This method may produce non-optimal fallback settings. Fonts are checked by <a href="https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur">
 	/// Unicode Character Range</a> fields and not by the actual glyphs presence. Also Unicode ranges are checked individually
-	/// and several ranges related to single language/script may use different fallback fonts.
+	/// and many ranges related to single language/script may use different fallback fonts.
 	/// </remarks>
 	public void BuildAutomatic();
 }
@@ -477,7 +477,7 @@ New public property ***AllowCellSpacing*** was added into the Table class:
 public boolean AllowCellSpacing
 {{< /highlight >}}
 
-This property allows to control spacing between cells.
+This property enables to control spacing between cells.
 Setting this property to ***false*** will completely remove spacing between cells
 
 UC:

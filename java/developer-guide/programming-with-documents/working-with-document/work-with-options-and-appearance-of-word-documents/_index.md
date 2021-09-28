@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Options and Appearance of Word Documents
 description: "Aspose.Words for Java allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
@@ -39,7 +39,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 {{% /alert %}}
 
-The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
+The following code example demonstrates how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentPageSetup-DocumentPageSetup.java" >}}
 

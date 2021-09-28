@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Java 2.0.0.0 New Release Release Notes
 type: docs
 weight: 60

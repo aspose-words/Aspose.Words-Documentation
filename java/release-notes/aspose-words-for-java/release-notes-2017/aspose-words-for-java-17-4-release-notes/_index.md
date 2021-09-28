@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 17.4 Release Notes
 type: docs
 weight: 90
@@ -96,7 +96,7 @@ There are 87 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-4586|Style of text in header is changed during rendering.|Bug|
 |WORDSNET-4930|Composite nodes inside paragraph not handled during TOC update.|Bug|
 |WORDSNET-7079|Font name is corrupted when converting RTF to DOC|Bug|
-|WORDSNET-13324|Document.Save removes {*\datastore …} tag from Rtf|Enhancement|
+|WORDSNET-13324|Document.Save removes *\datastore … tag from Rtf|Enhancement|
 |WORDSNET-14330|Make sure CssIdentifierValue.ToCss escapes identifier.|Enhancement|
 |WORDSNET-14766|Import custom list markers from ::before pseudo-elements when converting from HTML to Words|Enhancement|
 |WORDSNET-15005|x-none language is not supported for DOCX|Enhancement|

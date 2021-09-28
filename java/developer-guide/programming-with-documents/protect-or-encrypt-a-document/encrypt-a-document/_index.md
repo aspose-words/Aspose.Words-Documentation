@@ -1,6 +1,6 @@
----
+﻿---
 title: Encrypt a Document
-description: "Aspose.Words for Java allows you to encrypt your document using appropriate encryption algorithms for specific document formats."
+description: "Aspose.Words for Java enables you to encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20
 url: /java/encrypt-a-document/
@@ -57,7 +57,7 @@ In some cases, you may have an unreadable document and want to be sure that the 
 
 To detect if a document is encrypted and if a password is required, you can use the [IsEncrypted](https://apireference.aspose.com/words/java/com.aspose.words/fileformatinfo#IsEncrypted) property of the [FileFormatInfo](https://apireference.aspose.com/words/java/com.aspose.words/FileFormatInfo) class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
 
-The following code example shows how to detect the document encryption:
+The following code example demonstrates how to detect the document encryption:
 
 {{< highlight java >}}
 // Create a document.
@@ -107,7 +107,7 @@ catch (Exception e)
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
-The following code example shows how to try opening an encrypted document with a password:
+The following code example demonstrates how to try opening an encrypted document with a password:
 
 {{< highlight java >}}
 // Create a document.

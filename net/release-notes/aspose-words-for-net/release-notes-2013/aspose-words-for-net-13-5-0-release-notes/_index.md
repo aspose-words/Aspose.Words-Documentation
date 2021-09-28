@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 13.5.0 Release Notes
 type: docs
 weight: 60
@@ -21,7 +21,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 - The HTML parser inside Aspose.Words now conforms to the HTML 5 Specification.
 - New public Paragraph.GetEffectiveTabs() method now allows to get fully resolved tabstops.
 - Multiple pages setup options are added to the public API and roundtrip for DOC/RTF/DOCX/WML is supported.
-- Implemented booklet rendering and printing according to multiple pages setup.
+- Implemented booklet rendering and printing according to several pages setup.
 - Supported MS Word 2010 text effects (e.g. shadows, outlines, 3d-looks etc.) roundtrip for DOCX.
 - StructuredDocumentTag databinding to document properties supported.
 - Generation of ordinal/cardinal list labels in Spanish and Portuguese.
@@ -45,7 +45,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-6908|ParagraphBreakFont.HighlightColor is visible when converting to HTML|Bug|
 |WORDSNET-7374|Databound values of SDT are not visible in fixed page formats|Bug|
 |WORDSNET-7380|ParagraphFormat.TabStops Property return no TabStops|Bug|
-|WORDSNET-7382|DrawingML nodes in Header/Footer are repeated multiple times during open/save|Bug|
+|WORDSNET-7382|DrawingML nodes in Header/Footer are repeated a few times during open/save|Bug|
 |WORDSNET-7677|Line Breaks Issue in Text Files|Bug|
 |WORDSNET-7682|SDT values are getting lost in fixed formats|Bug|
 |WORDSNET-7849|Floating Table is truncated at the end of Page in Fixed Page Formats|Bug|
@@ -67,7 +67,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8162|Shapes fill is drawn outside of the shapes in ouput PDF|Bug|
 |WORDSNET-8163|The child nodes of StructuredDocumentTag become the NextSibling in Aspose.Words.Document|Bug|
 |WORDSNET-8164|After re-saving the docx the content formatting of StructuredDocumentTag is lost|Bug|
-|WORDSNET-8172|Customer's 3D Charts look many times higher than they should in output PDF|Bug|
+|WORDSNET-8172|Customer's 3D Charts look numerous times higher than they should in output PDF|Bug|
 |WORDSNET-8184|RTF to Pdf conversion issue with fonts|Bug|
 |WORDSNET-8186|Doc to Pdf conversion issue with NumeralFormat|Bug|
 |WORDSNET-8188|RTF to html conversion issue with output html size|Bug|

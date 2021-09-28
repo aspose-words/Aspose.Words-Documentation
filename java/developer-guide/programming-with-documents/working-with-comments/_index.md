@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Comments
 type: docs
 weight: 110
@@ -13,7 +13,7 @@ Comments of the document are represented by the [Comment](https://apireference.a
 
 ## How to Extract or Remove Comments
 
-Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are multiple reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
+Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are numerous reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
 
 In this sample, we are going to look at some simple methods for both gathering information from the comments within a document and for removing comments from a document. Specifically, we'll cover how to:
 
@@ -47,7 +47,7 @@ We’re going to use the following Word document for this exercise:
 
 |![extract-remove-comments-aspose-words-java-1](http://i.imgur.com/Tp1usVp.png)|
 | :- |
-As you can see, it contains several Comments from two authors with the initials “pm” and “ks”.
+As you can see, it contains numerous Comments from two authors with the initials “pm” and “ks”.
 
 ### The Code
 
@@ -84,11 +84,11 @@ The output Word document has now comments removed from it:
 
 ## How to Add a Comment
 
-The following code example shows how to add a comment to a paragraph in the document.
+The following code example demonstrates how to add a comment to a paragraph in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddComments-1.java" >}}
 
-The following example shows how to anchor a comment to a region of text.
+The following example demonstrates how to anchor a comment to a region of text.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AnchorComment-1.java" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for C++ 20.2 Release Notes
 type: docs
 weight: 50
@@ -40,7 +40,7 @@ The missing features will be added in future releases.
 |WORDSNET-19556|Add feature to append VBA from one document to another using Document.AppendDocument|New Feature|
 |WORDSNET-18694|Add feature to export w:colFirst and w:colLast properties of bookmarkStart|New Feature|
 |WORDSCPP-737|Add support for encrypted documents|Bug|
-|WORDSCPP-920|Blank Page shows after Splitting the Page|Bug|
+|WORDSCPP-920|Blank Page demonstrates after Splitting the Page|Bug|
 |WORDSCPP-931|Loading DOC file throws FileCorruptedException exception|Bug|
 |WORDSNET-19773|Horizontal Line not Shown in Rendered Document|Bug|
 |WORDSNET-18592|After conversion to PDF, the content is not in the right place|Bug|

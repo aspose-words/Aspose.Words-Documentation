@@ -1,4 +1,4 @@
----
+﻿---
 title: Text Features Supported on DOC Import
 type: docs
 weight: 130

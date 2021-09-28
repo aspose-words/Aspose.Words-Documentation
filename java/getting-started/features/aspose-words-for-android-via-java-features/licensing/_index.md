@@ -1,4 +1,4 @@
----
+﻿---
 title: Licensing
 type: docs
 weight: 50
@@ -61,7 +61,7 @@ license.setLicense(inputStream);
 
 ### Apply Metered License
 
-Aspose.Words allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing.
+Aspose.Words enables developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing.
 
 **Java**
 
@@ -93,7 +93,7 @@ If you are developing a class library, call License.SetLicense from a static c
 
 ## Using Multiple Aspose Products
 
-If you use several Aspose products in an application, for example Aspose.Words and Aspose.Cells, here are a few useful tips.
+If you use many Aspose products in an application, for example Aspose.Words and Aspose.Cells, here are multiple useful tips.
 
 - Set the license for each Aspose product separately.
   Even if you have a single license file for all components, for example 'Aspose.Total.Android.Java.lic', you still need to call the License.SetLicense method separately for each Aspose product.

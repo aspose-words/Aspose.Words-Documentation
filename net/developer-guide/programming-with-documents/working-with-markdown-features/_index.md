@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Markdown Features
 description: "Learn how to implement Markdown features using Aspose.Words for .NET. All the features are represented as corresponding styles or direct formatting."
 type: docs
@@ -43,7 +43,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Headings
 
-This section demonstrates you how to produce a markdown document with headings as given below:
+This section shows you how to produce a markdown document with headings as given below:
 
 {{< highlight csharp >}}
 The following produces headings:
@@ -62,7 +62,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Block Quotes
 
-This section demonstrates you how to produce a markdown document with block quotes as given below:
+This section shows you how to produce a markdown document with block quotes as given below:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
@@ -96,7 +96,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Reading a Markdown Document
 
-The following code snippet shows you how to read a markdown document.
+The following code snippet demonstrates you how to read a markdown document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-ReadMarkdownDocument.cs" >}}
 

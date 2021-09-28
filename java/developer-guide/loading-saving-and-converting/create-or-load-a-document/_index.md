@@ -1,4 +1,4 @@
----
+﻿---
 title: Create or Load a Document
 type: docs
 weight: 10
@@ -7,7 +7,7 @@ aliases: [/java/creating-or-loading-a-document/]
 description: "Aspose.Words enables you to create a blank document or to load it from a file or stream. This is useful for almost any task performed using Aspose.Words."
 ---
 
-Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/java/com.aspose.words/LoadFormat) enumeration.
+Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has a few overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/java/com.aspose.words/LoadFormat) enumeration.
 
 ## Create a New Document
 
@@ -44,7 +44,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 To open a document from a stream, simply pass a stream object that contains the document into the Document constructor.
 
-The following code example shows how to open a document from a stream:
+The following code example demonstrates how to open a document from a stream:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromStream.java" >}}
 

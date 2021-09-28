@@ -1,13 +1,13 @@
----
+﻿---
 title: Mail Merge Template from Mustache Syntax
 type: docs
-description: "Aspose.Words for Java allows you to create templates with mustache syntax – an alternative variant of syntax that consists of tag names enclosed by {{ }}. Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax."
+description: "Aspose.Words for Java enables you to create templates with mustache syntax – an alternative variant of syntax that consists of tag names enclosed by  . Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax."
 keywords: "mail merge template mustache syntax java, mail merge java, mustache syntax java"
 weight: 40
 url: /java/mail-merge-template-from-mustache-syntax/
 ---
 
-Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by {{ }} and is backed by a model object that contains the data for the template.
+Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by   and is backed by a model object that contains the data for the template.
 
 The Mustache syntax is the only option to use with templates that do not contain fields, such as HTML and TXT templates. With Word templates, you have two options either to use fields or Mustache syntax.
 
@@ -61,7 +61,7 @@ And after applying the mail merge with regions:
 
 ## Use IF Fields to Make a Mail Merge Intelligent
 
-Aspose.Words allows you to use mail merge fields and Mustache tags with the IF statement. The IF fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
+Aspose.Words enables you to use mail merge fields and Mustache tags with the IF statement. The IF fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
 
 The IF field formula is shown below:
 

@@ -1,11 +1,11 @@
----
+﻿---
 title: Working with Sections
 type: docs
 weight: 30
 url: /cpp/working-with-sections/
 ---
 
-This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from several sections copied from multiple template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
+This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from a few sections copied from a few template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
 
 A Word document can contain one or more sections. At the end of the section, there is a section break that separates one section from the next in a document. Each section has its own set of properties that specify page size, orientation, margins, the number of text columns, headers and footers and so on.
 
@@ -48,7 +48,7 @@ It is possible to change the culture for the current thread that will cause chan
 
 {{% /alert %}} 
 
-The code sample below shows how to access a section at the specified index. You can download the template file of this example from here.
+The code sample below demonstrates how to access a section at the specified index. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-SectionsAccessByIndex-SectionsAccessByIndex.cpp" >}}
 
@@ -78,7 +78,7 @@ If you want to copy and insert just the main text of a section excluding the sec
 
 ### Deleting Section Content
 
-To delete the main text of a section, use Section.ClearContent. Below example shows how to delete main content of a section. You can download the template file of this example from here.
+To delete the main text of a section, use Section.ClearContent. Below example demonstrates how to delete main content of a section. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-DeleteSectionContent-DeleteSectionContent.cpp" >}}
 
@@ -86,7 +86,7 @@ To delete the headers and footers in a section, call Section.ClearHeadersFooters
 
 ### Cloning a Section
 
-Use the Section.Clone method to create a duplicate of a particular section. Below example shows how to create a duplicate of a particular section. You can download the template file of this example from here.
+Use the Section.Clone method to create a duplicate of a particular section. Below example demonstrates how to create a duplicate of a particular section. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-CloneSection-CloneSection.cpp" >}}
 

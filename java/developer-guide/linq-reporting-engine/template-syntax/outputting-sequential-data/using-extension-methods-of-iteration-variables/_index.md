@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Extension Methods of Iteration Variables
 type: docs
 weight: 30
@@ -30,9 +30,9 @@ Returns the one-based index of a sequence item that is represented by the corres
 
 |No. |Item|
 | :- | :- |
-|{{< highlight csharp >}}
-<<foreach [item in items]>><<[item.numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
-<<[item]>><</foreach>>{{< /highlight >}}|
+|< highlight csharp >
+<<foreach [item in items]>><<[item.numberOf()]>>< /highlight >|< highlight csharp >
+<<[item]>><</foreach>>< /highlight >|
 
 In this case, the engine produces a report as follows.
 

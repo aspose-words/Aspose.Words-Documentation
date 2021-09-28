@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to Markdown
 type: docs
 description: “Aspose.Words for C++ provides the ability to convert a document in any supported load format to Markdown and vice versa – Aspose.Words also supports the most popular save formats. Markdown is easy to work with and can be converted to other formats quite simply.”
@@ -52,7 +52,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 * Tables are represented with the Table class
 * Links are represented as the FieldHyperlink class
 
-The following example shows how to create a document with some styles and save it to Markdown:
+The following example demonstrates how to create a document with some styles and save it to Markdown:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.cpp" >}}
 

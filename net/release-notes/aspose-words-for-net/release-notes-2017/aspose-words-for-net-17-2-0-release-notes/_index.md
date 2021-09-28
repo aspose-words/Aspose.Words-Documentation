@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 17.2.0 Release Notes
 type: docs
 weight: 110

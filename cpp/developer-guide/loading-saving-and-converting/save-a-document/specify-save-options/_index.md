@@ -1,12 +1,12 @@
----
+﻿---
 title: Specify Save Options
-description: "Aspose.Words for C++ enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
+description: "Aspose.Words for C++ allows you to set advanced properties when saving a document. This allows you to more accurately control the save process."
 type: docs
 weight: 10
 url: /cpp/specify-save-options/
 ---
 
-When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options/) class, which allows more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/) for saving to PDF format or [ImageSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.image_save_options/) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
+When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options/) class, which enables more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/) for saving to PDF format or [ImageSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.image_save_options/) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
 
 The following code example shows how to set the save options before saving the document into HTML:
 
@@ -19,7 +19,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-The article describes a few properties you can control when saving a document.
+The article describes several properties you can control when saving a document.
 
 ## Encrypt a Document With a Password
 
@@ -27,14 +27,14 @@ Use the **Password** property to get or set a password for an encrypted docume
 
 For example, when saving a document to DOC or DOT format, use the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.doc_save_options#get_password_const) property of the [DocSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.doc_save_options) class.
 
-The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
+The following code example demonstrates how to set a password to encrypt a document using the RC4 encryption method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cpp" >}}
 
 When saving a document to ODT format, use the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options#get_password_const) property of the [OdtSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options) class.
 
-The following code example shows how to load and save OpenDocument encrypted with a password:
+The following code example demonstrates how to load and save OpenDocument encrypted with a password:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cpp" >}}

@@ -1,6 +1,6 @@
----
+﻿---
 title: Specify Load Options
-description: "Aspose.Words for C++ enables you to set advanced properties when loading a document. This allows you to more accurately control the load process."
+description: "Aspose.Words for C++ allows you to set advanced properties when loading a document. This allows you to more accurately control the load process."
 type: docs
 weight: 10
 url: /cpp/specify-load-options/
@@ -44,7 +44,7 @@ The following code example shows how to use this property:
 
 A document may contain external links to images located somewhere on a local disk, network, or Internet. Aspose.Words automatically loads such images into a document, but there are situations when this process needs to be controlled. For example, to decide whether we really need to load a certain image or perhaps skip it. The ResourceLoadingCallback load option allows you to control this.
 
-The following code example shows the implementation of the IResourceLoadingCallback interface:
+The following code example demonstrates the implementation of the IResourceLoadingCallback interface:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-Load_Options-HtmlLinkedResourceLoadingCallback.cpp" >}}
 
@@ -74,12 +74,12 @@ The following code example shows how to set the encoding to override the automa
 
 You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options/) object. This object contains the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_password_const) property, which specifies the password string.
 
-The following code example shows how to load a document encrypted with a password:
+The following code example demonstrates how to load a document encrypted with a password:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-OpenEncryptedDocument-OpenEncryptedDocument.cpp" >}}
 
 If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util/) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the IsEncrypted property.
 
-The following code example shows how to verify OpenDocument either it is encrypted or not:
+The following code example demonstrates how to verify OpenDocument either it is encrypted or not:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-Load_Options-VerifyODTdocument.cpp" >}}

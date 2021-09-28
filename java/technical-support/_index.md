@@ -1,4 +1,4 @@
----
+﻿---
 title: Technical Support
 type: docs
 description: "Aspose.Words for Java provides free technical support available to all users. Please report your question, issue, or feature request using Aspose Free Support Forum."

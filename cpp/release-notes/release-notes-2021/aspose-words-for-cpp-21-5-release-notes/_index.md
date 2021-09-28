@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for C++ 21.5 Release Notes
 type: docs
 weight: 45

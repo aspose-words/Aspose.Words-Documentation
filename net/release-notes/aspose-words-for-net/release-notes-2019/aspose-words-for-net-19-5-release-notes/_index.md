@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 19.5 Release Notes
 type: docs
 weight: 80
@@ -166,7 +166,7 @@ Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
 {{< highlight html >}}
 /// <summary>
-/// True if this paragraph break is a Style Separator. A style separator allows one
+/// True if this paragraph break is a Style Separator. A style separator enables one
 /// paragraph to consist of parts that have different paragraph styles.
 /// </summary>
 public bool BreakIsStyleSeparator
@@ -176,7 +176,7 @@ public bool BreakIsStyleSeparator
 
 
 
-It allows to identify Style Separator Paragraph.
+It enables to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -270,7 +270,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
-    /// <para><see cref="StreamFontSource"/> may be useful because it allows to load the font data only when it is required
+    /// <para><see cref="StreamFontSource"/> may be useful because it enables to load the font data only when it is required
     /// and not to store it in the memory for the <see cref="FontSettings"/> lifetime.</para>
     /// </remarks>
     public abstract class StreamFontSource : FontSourceBase, IFontData
@@ -356,7 +356,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 Font runFont = runs[1].Font;
 
-// One run might have several Dml text effects applied.
+// One run might have many Dml text effects applied.
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Effect3D));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Reflection));

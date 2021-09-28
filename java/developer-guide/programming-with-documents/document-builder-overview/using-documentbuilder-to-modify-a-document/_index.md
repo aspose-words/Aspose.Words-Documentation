@@ -1,4 +1,4 @@
----
+﻿---
 title: Using DocumentBuilder to Modify a Document
 type: docs
 weight: 20
@@ -24,7 +24,7 @@ Cell formatting is used during the building of a table. It is represented by a C
 
 |![cell-formatting-aspose-words-java](http://i.imgur.com/s3GsAzX.png)|
 | :- |
-The following code example shows how to create a table that contains a single formatted cell.
+The following code example demonstrates how to create a table that contains a single formatted cell.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableCellFormatting-1.java" >}}
 
@@ -34,7 +34,7 @@ Current row formatting is determined by a RowFormat object that is returned by t
 
 |![row-formatting-aspose-words-java](http://i.imgur.com/b9kTobS.png)|
 | :- |
-The below code example shows how to create a table that contains a single cell and apply row formatting.
+The below code example demonstrates how to create a table that contains a single cell and apply row formatting.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableRowFormatting-1.java" >}}
 
@@ -64,7 +64,7 @@ You can also use the [ListFormat.listLevelNumber](http://www.aspose.com/api/java
 
 {{% /alert %}} 
 
-The following code example shows how to build a multilevel list.
+The following code example demonstrates how to build a multilevel list.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-1.java" >}}
 
@@ -74,7 +74,7 @@ Page setup and section properties are encapsulated in the PageSetup object that 
 
 |![section-formatting-aspose-words-java](http://i.imgur.com/toUNnPO.png)|
 | :- |
-The following code example shows how to set such properties as page size and orientation for the current section.
+The following code example demonstrates how to set such properties as page size and orientation for the current section.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetPageSetupAndSectionFormatting-1.java" >}}
 
@@ -86,13 +86,13 @@ Furthermore, a **Style** object provides the [Style.getStyleIdentifier](http://w
 
 |![apply-style-aspose-words-java](http://i.imgur.com/OwWl1Uz.png)|
 | :- |
-The following code example shows how to apply a paragraph style.
+The following code example demonstrates how to apply a paragraph style.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderApplyParagraphStyle-1.java" >}}
 
 ### Borders and Shading
 
-Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to several or only one document element. For example, BorderType.Bottom is applicable to a paragraph or table cell while BorderType.DiagonalDown specifies the diagonal border in a table cell only.
+Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to numerous or only one document element. For example, BorderType.Bottom is applicable to a paragraph or table cell while BorderType.DiagonalDown specifies the diagonal border in a table cell only.
 
 Both the border collection and each separate border have similar attributes like color, line style, line width, distance from the text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.clearFormatting](http://www.aspose.com/api/java/words/com.aspose.words/classes/border/methods/clearFormatting\(\)/) method. Note that when border properties are reset to default values, the border is invisible.
 
@@ -100,7 +100,7 @@ Both the border collection and each separate border have similar attributes like
 | :- |
 The [Shading](http://www.aspose.com/api/java/words/com.aspose.words/classes/Shading) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
-The shading texture is set with a [TextureIndex](http://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](http://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) value and set the foreground shading color as appropriate.
+The shading texture is set with a [TextureIndex](http://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) enumeration value that enables the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](http://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) value and set the foreground shading color as appropriate.
 
 |![borders-and-shading-aspose-words-java](http://i.imgur.com/RDPc5fw.png)|
 | :- |
@@ -139,7 +139,7 @@ If you need to move to the beginning of the document, call [DocumentBuilder.move
 
 ### Moving to a Section
 
-If you are working with a document that contains multiple sections, you can move to a desired section using [DocumentBuilder.moveToSection](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/moveToSection\(int\)/). This method moves the cursor to the beginning of a specified section and accepts the index of the required section. When the section index is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When the section index is less than 0, it specifies an index from the end of the document with -1 being the last section. The below code example shows how to move a cursor position to the specified section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToSection/DocumentBuilder.doc).
+If you are working with a document that contains several sections, you can move to a desired section using [DocumentBuilder.moveToSection](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/moveToSection\(int\)/). This method moves the cursor to the beginning of a specified section and accepts the index of the required section. When the section index is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When the section index is less than 0, it specifies an index from the end of the document with -1 being the last section. The below code example demonstrates how to move a cursor position to the specified section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToSection/DocumentBuilder.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSection-1.java" >}}
 
@@ -159,7 +159,7 @@ Use[DocumentBuilder.moveToParagraph](http://www.aspose.com/api/java/words/com.as
 
 The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specifies the index of the paragraph inside that header of that section.
 
-When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specifies an index from the end of the section with -1 being the last paragraph. The character index can currently only be specified as 0 to move to the beginning of the paragraph or -1 to move to the end of the paragraph. The following code example shows how to move a cursor position to the specified paragraph. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToParagraph/DocumentBuilder.doc).
+When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specifies an index from the end of the section with -1 being the last paragraph. The character index can currently only be specified as 0 to move to the beginning of the paragraph or -1 to move to the end of the paragraph. The following code example demonstrates how to move a cursor position to the specified paragraph. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToParagraph/DocumentBuilder.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToParagraph-1.java" >}}
 
@@ -176,13 +176,13 @@ The navigation is performed inside the current story of the current section.
 
 For the index parameters, when the index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When the index is less than 0, it specifies an index from the end with -1 being the last element.
 
-Also, note that characterIndex currently can only specify 0 to move to the beginning of the cell or -1 to move to the end of the cell. The following code example shows how to move a cursor position to the specified table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToTableCell/DocumentBuilder.doc).
+Also, note that characterIndex currently can only specify 0 to move to the beginning of the cell or -1 to move to the end of the cell. The following code example demonstrates how to move a cursor position to the specified table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToTableCell/DocumentBuilder.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-1.java" >}}
 
 ### Moving to a Bookmark
 
-Bookmarks are used frequently to mark particular places in the document where new elements are to be inserted. To move to a bookmark, use [DocumentBuilder.moveToBookmark](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/moveToBookmark\(java.lang.String\)/). This method has two overloads. The simplest one accepts nothing but the name of the bookmark where the cursor is to be moved. The following code example shows how to move a cursor position to a bookmark. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToBookmark/DocumentBuilder.doc).
+Bookmarks are used frequently to mark particular places in the document where new elements are to be inserted. To move to a bookmark, use [DocumentBuilder.moveToBookmark](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/moveToBookmark\(java.lang.String\)/). This method has two overloads. The simplest one accepts nothing but the name of the bookmark where the cursor is to be moved. The following code example demonstrates how to move a cursor position to a bookmark. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToBookmark/DocumentBuilder.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-1.java" >}}
 
@@ -191,7 +191,7 @@ This overload moves the cursor to a position just after the start of the bookmar
 - isStart determines whether to move the cursor to the beginning or to the end of the bookmark.
 - isAfter determines whether to move the cursor to be after the bookmark start or end position, or to move the cursor to be before the bookmark start or end position.
 
-The following code example shows how to move a cursor position to just after the bookmark end.
+The following code example demonstrates how to move a cursor position to just after the bookmark end.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-1.java" >}}
 

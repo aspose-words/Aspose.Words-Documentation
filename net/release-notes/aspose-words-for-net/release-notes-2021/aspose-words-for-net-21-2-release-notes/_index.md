@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 21.2 Release Notes
 type: docs
 weight: 60
@@ -78,7 +78,7 @@ There are 86 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21006 | ReportingEngine.BuildReport could not create the bitmap - lack of system   resources - FileFormat=0 | Bug |
 | WORDSNET-21473 | DOCX to PDF conversion issue with accessibility check for alternative   text | Bug |
 | WORDSNET-20982 | Artifact issue while converting DOCX to PDF | Bug |
-| WORDSNET-21305 | IChar solution allocates too many class instances | Bug |
+| WORDSNET-21305 | IChar solution allocates too a few class instances | Bug |
 | WORDSNET-21306 | DOCX to PDF conversion: a part of first page is pushed to second page   after conversion | Bug |
 | WORDSNET-21307 | Messed up headers after extract page | Bug |
 | WORDSNET-21617 | Track changes - Bookmarks not being generated for Headings during Word to   PDF conversion | Bug |
@@ -605,7 +605,7 @@ Added a new public property to FindReplaceOptions object:
 /// <para>The default value is <c>false</c>.</para>
 /// </summary>
 /// <remarks>
-/// This option allows to replace paragraph break when there is no next sibling paragraph to which all child
+/// This option enables to replace paragraph break when there is no next sibling paragraph to which all child
 /// nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 /// </remarks>
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -721,7 +721,7 @@ Now the methods DocumentBuilder.MoveToParagraph and DocumentBuilder.MoveToCell s
 /// </remarks>
 /// <param name="paragraphIndex">The index of the paragraph to move to.</param>
 /// <param name="characterIndex">The index of the character inside the paragraph.
-/// A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of
+/// A negative value enables you to specify a position from the end of the paragraph. Use -1 to move to the end of
 /// the paragraph.</param>
 public void MoveToParagraph(int paragraphIndex, int characterIndex);
 

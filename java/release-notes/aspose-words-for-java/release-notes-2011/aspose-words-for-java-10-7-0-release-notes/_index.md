@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 10.7.0 Release Notes
 type: docs
 weight: 10
@@ -269,10 +269,10 @@ WordArt looks incorrect after converting RTF document to other
 flow formats.
 
 WORDSNET-5237
-Export multiple authors as a separate tags in ePub
+Export a few authors as a separate tags in ePub
 
 WORDSNET-5254
-Word Pad on Windows XP shows some characters improperly.
+Word Pad on Windows XP demonstrates some characters improperly.
 
 WORDSNET-5271
 Footnote mark is improperly rendered.

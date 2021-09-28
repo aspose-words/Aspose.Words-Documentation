@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 20.4 Release Notes
 type: docs
 weight: 40
@@ -253,7 +253,7 @@ doc.Save(pdfPath, saveOptions);
 
 For the Advanced mode to work correctly, it is necessary that the scale in the system be set to 100%.
 
-The following table shows the differences between the modes:
+The following table demonstrates the differences between the modes:
 
 |The effect|Basic|Advanced|
 | :- | :- | :- |
@@ -427,7 +427,7 @@ Added image interpolation option for PDF rendering which can be specified by Pdf
 /// <remarks>
 /// <para>
 /// When the resolution of a source image is significantly lower than that of the output device,
-/// each source sample covers many device pixels. As a result, images can appear jaggy or blocky.
+/// each source sample covers several device pixels. As a result, images can appear jaggy or blocky.
 /// These visual artifacts can be reduced by applying an image interpolation algorithm during rendering.
 /// Instead of painting all pixels covered by a source sample with the same color, image interpolation
 /// attempts to produce a smooth transition between adjacent sample values.
@@ -455,7 +455,7 @@ doc.Save(pdfPath, saveOptions);
 
 ### Added public property LoadOptions.TempFolder
 
-This property allows using temporary files when reading a document.
+This property enables using temporary files when reading a document.
 
 **.NET**
 

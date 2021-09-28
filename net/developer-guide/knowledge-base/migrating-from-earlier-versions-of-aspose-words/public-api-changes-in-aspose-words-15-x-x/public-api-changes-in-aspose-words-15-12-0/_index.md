@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 15.12.0
 type: docs
 weight: 120
@@ -115,7 +115,7 @@ Debug.Assert(section.PageSetup.TextColumns.Spacing == 35.4);
 
 ### New InsertOleObject method
 
-Previous implementation of InsertOleObject expects full file name to linked object and chooses ProgId and ClsId depending on file extension. Passing internet URL reveals new use case. We can't extract file type from URL directly, URL can refer to page in very different way. It can be `www.aspose.com`, `www.aspose.com\index.aspx?id=1` and so on. So Aspose.Words now has a new method which allows customer to pass ProgId explicitly.
+Previous implementation of InsertOleObject expects full file name to linked object and chooses ProgId and ClsId depending on file extension. Passing internet URL reveals new use case. We can't extract file type from URL directly, URL can refer to page in very different way. It can be `www.aspose.com`, `www.aspose.com\index.aspx?id=1` and so on. So Aspose.Words now has a new method which enables customer to pass ProgId explicitly.
 
 **C#**
 

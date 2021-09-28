@@ -1,4 +1,4 @@
----
+﻿---
 title: Printing a Document Programmatically or Using Dialogs
 description: "Aspose.Words for .NET enables you to print a document on a Server using the unmanaged XpsPrint API or via a selected printer with Settings and Print Preview Dialogs."
 type: docs
@@ -18,7 +18,7 @@ When developing a .NET application that produces some printed output, you can ty
 
 The classes within the *System.Drawing.Printing* namespace are not supported for use within a Windows service or an ASP.NET application or service, and attempting their use may produce decreased service performance, run-time exceptions, and other issues. The use of WPF to build Windows services is likewise not supported. Since WPF is a presentation technology, the Windows service requires appropriate permissions to perform visual operations involving user interaction. If the Windows service does not have such permissions, there may be unexpected results.
 
-The Aspose.Words [Document](http://www.aspose.com/api/net/words/aspose.words/document) object provides a family of [Print](https://apireference.aspose.com/net/words/aspose.words/document/methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are many Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article demonstrates an alternative method for printing that is compliant with Microsoft’s recommendations.
+The Aspose.Words [Document](http://www.aspose.com/api/net/words/aspose.words/document) object provides a family of [Print](https://apireference.aspose.com/net/words/aspose.words/document/methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are numerous Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article shows an alternative method for printing that is compliant with Microsoft’s recommendations.
 
 ### Methods to Print a Document on a Server
 
@@ -61,7 +61,7 @@ When working with documents, it is often required to print them to a selected pr
 
 The Aspose.Words has no built-in dialogs or forms but implements the [AsposeWordsPrintDocument](http://www.aspose.com/api/net/words/aspose.words.rendering/asposewordsprintdocument) class, based on the .NET **PrintDocument** class. An instance of this class can be passed to the **PrintPreviewDialog** form to preview and print the document. Also, the [PrintPreviewDialog](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) class defines the output to transmit to a printer.
 
-The following example shows how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
+The following example demonstrates how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintPreviewSettingsDialog-PrintPreviewSettingsDialog.cs" >}}
 
@@ -69,7 +69,7 @@ The following example shows how to use these classes to print a document from As
 
 {{% alert color="primary" %}} 
 
-The **AllowSomePages** property enables you to select a range of pages for printing if the value of this property is True. By default, all pages in the range are selected for printing.
+The **AllowSomePages** property allows you to select a range of pages for printing if the value of this property is True. By default, all pages in the range are selected for printing.
 
 {{% /alert %}} 
 
@@ -79,7 +79,7 @@ To optimize the appearance of Print Preview dialog settings, specify properties 
 
 It is always beneficial to have more flexibility when printing documents. Using .NET and Aspose.Words you can easily fine-tune the printing operation to implement your custom logic by defining the way the document will appear on the printed page.
 
-As in the previous section, Aspose.Words implements the **MultipagePrintDocument** class, which is based on the .NET **PrintDocument** class. This means that the existing .NET printing infrastructure can be used in such a way that the print and print preview dialogs would enable visualizing of the document before printing. The **MultipagePrintDocument** class provides the ability to print several pages on one sheet of paper.
+As in the previous section, Aspose.Words implements the **MultipagePrintDocument** class, which is based on the .NET **PrintDocument** class. This means that the existing .NET printing infrastructure can be used in such a way that the print and print preview dialogs would enable visualizing of the document before printing. The **MultipagePrintDocument** class provides the ability to print multiple pages on one sheet of paper.
 
 {{% alert color="primary" %}} You can download an example of using the **MultipagePrintDocument** class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MultipagePrintDocumentExample). {{% /alert %}} 
 

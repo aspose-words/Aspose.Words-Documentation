@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 13.5.0
 type: docs
 weight: 50
@@ -41,11 +41,11 @@ The algorithm used in previous versions of Aspose.Words to load plain text files
 
 ## PageSetup.MultiplePages and PageSetup.SheetsPerBooklet Added to PageSetup
 
-The **PageSetup.MultiplePages** and **PageSetup.SheetsPerBooklet** properties have been added to PageSetup to allow specifying Book Fold multiple page options.
+The **PageSetup.MultiplePages** and **PageSetup.SheetsPerBooklet** properties have been added to PageSetup to allow specifying Book Fold a few page options.
 
 Possible MultiplePagesType:
 
-- Normal - Normal printing, no multiple pages specified.
+- Normal - Normal printing, no several pages specified.
 - MirrorMargins - Swaps left and right margins on facing pages.
 - TwoPagesPerSheet - Prints two pages per sheet.
 - BookFoldPrinting - Specifies whether to print the document as a book fold.

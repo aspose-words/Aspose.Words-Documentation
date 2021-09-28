@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Java 1.0.1.0 Hot Fix Release Notes
 type: docs
 weight: 80

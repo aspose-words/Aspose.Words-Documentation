@@ -1,4 +1,4 @@
----
+﻿---
 title: How to  Apply Different AutoFit Settings to a Table
 type: docs
 weight: 120

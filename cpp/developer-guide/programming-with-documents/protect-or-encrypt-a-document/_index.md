@@ -1,4 +1,4 @@
----
+﻿---
 title: Protect or Encrypt a Document
 description: "Aspose.Words for C++ provides Read-Only, Encrypt a Documen, Restrict Editing, and Digital Signatures for document protection. Aspose.Words supports most Word protection options."
 type: docs
@@ -8,7 +8,7 @@ url: /cpp/protect-or-encrypt-a-document/
 
 The main reason to protect or encrypt a document is to apply more control over who can access the document or who can edit it. Applying protection to your documents, you avoid common risks such as copying or modifying documents without permission, as well as data leakage.
 
-Some of the most popular formats when working with documents are Microsoft Word formats or formats that can be exported from Word. That's why many users are interested in the same document protection options that Microsoft Word provides. Despite the complexity of these options, Aspose.Words supports most of them, so it makes it an excellent solution for working with documents.
+Some of the most popular formats when working with documents are Microsoft Word formats or formats that can be exported from Word. That's why multiple users are interested in the same document protection options that Microsoft Word provides. Despite the complexity of these options, Aspose.Words supports most of them, so it makes it an excellent solution for working with documents.
 
 This article describes what options Aspose.Words provides for document protection and how these options are presented in the familiar Microsoft Word user interface. In the child articles of the current section, you can learn more about the listed protection functions with all the necessary properties and methods.
 

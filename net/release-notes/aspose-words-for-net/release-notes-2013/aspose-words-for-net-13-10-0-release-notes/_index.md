@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 13.10.0 Release Notes
 type: docs
 weight: 10
@@ -45,7 +45,7 @@ There are 169 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-5632|TabStop/TabLeaders rendering incorrectly in PDF,XPS|Bug|
 |WORDSNET-5659|Number -1 appears before the bullet list after rendering to PDF|Bug|
 |WORDSNET-5757|HTML to Doc conversion; <TD style="TEXT-ALIGN: center; is not working. align="center" is working|Bug|
-|WORDSNET-5993|UpdateFields splits a single Run of text in Date field into many Runs|Bug|
+|WORDSNET-5993|UpdateFields splits a single Run of text in Date field into several Runs|Bug|
 |WORDSNET-6042|JoinRunsWithSameFormatting does not seem to be working|Bug|
 |WORDSNET-6083|Table tag > Style > background attribute does not support when converting HTML to DOC.|Bug|
 |WORDSNET-6148|StructuredDocumentTag text is changed during open/save docx file.|Bug|

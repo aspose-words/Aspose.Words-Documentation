@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 19.12 Release Notes
 type: docs
 weight: 10
@@ -291,7 +291,7 @@ public enum PdfCompliance
 
 
 
-The property allows specifying PDF format for the output document. Example:
+The property enables specifying PDF format for the output document. Example:
 
 {{< highlight csharp >}}
 Document originalDoc = new Document(@"C:\PathToSource\Document.docx");

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Footnote and Endnote
 type: docs
 weight: 37
@@ -19,6 +19,6 @@ You can set the number of footnote layout columns using FootnoteOptions.Columns 
 
 ## How to Set the Position of Footnote and EndNote
 
-The footnote position can be at the bottom of each page or beneath the text on each page. The endnote position can be at the end of the section or at the end of the document. The following code example demonstrates how to set the position of footnote and endnote.
+The footnote position can be at the bottom of each page or beneath the text on each page. The endnote position can be at the end of the section or at the end of the document. The following code example shows how to set the position of footnote and endnote.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithFootnote-SetFootnoteAndEndNotePosition.cpp" >}}

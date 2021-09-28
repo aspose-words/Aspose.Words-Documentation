@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for C++ 21.2 Release Notes
 type: docs
 weight: 60
@@ -88,7 +88,7 @@ The missing features will be added in future releases.
 | WORDSNET-21006 | ReportingEngine.BuildReport could not create the bitmap - lack of system   resources - FileFormat=0 | Bug |
 | WORDSNET-21473 | DOCX to PDF conversion issue with accessibility check for alternative   text | Bug |
 | WORDSNET-20982 | Artifact issue while converting DOCX to PDF | Bug |
-| WORDSNET-21305 | IChar solution allocates too many class instances | Bug |
+| WORDSNET-21305 | IChar solution allocates too several class instances | Bug |
 | WORDSNET-21306 | DOCX to PDF conversion: a part of first page is pushed to second page   after conversion | Bug |
 | WORDSNET-21307 | Messed up headers after extract page | Bug |
 | WORDSNET-21617 | Track changes - Bookmarks not being generated for Headings during Word to   PDF conversion | Bug |
@@ -226,7 +226,7 @@ public enum ThemeFont
 /// </summary>
 /// <remarks>
 /// The specified theme color is a reference to one of the predefined theme colors, located in the
-/// document's Theme part, which allows color information to be set centrally in the document.
+/// document's Theme part, which enables color information to be set centrally in the document.
 /// </remarks>
 public enum ThemeColor
 {{< /highlight >}}
@@ -581,7 +581,7 @@ Added a new public property to `FindReplaceOptions` object:
 /// <para>The default value is <c>false</c>.</para>
 /// </summary>
 /// <remarks>
-/// This option allows to replace paragraph break when there is no next sibling paragraph to which all child
+/// This option enables to replace paragraph break when there is no next sibling paragraph to which all child
 /// nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 /// </remarks>
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -712,7 +712,7 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex);
 /// <param name="rowIndex">The index of the row in the table.</param>
 /// <param name="columnIndex">The index of the column in the table.</param>
 /// <param name="characterIndex">The index of the character inside the cell.
-/// A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of
+/// A negative value enables you to specify a position from the end of the cell. Use -1 to move to the end of
 /// the cell.</param>
 public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)
 {{< /highlight >}}

@@ -1,4 +1,4 @@
----
+﻿---
 title: File Formats and Conversions
 description: "With Aspose.Words for .NET, you can quickly and reliably convert documents from any supported load to save format with just two lines of code. It provides high-quality conversions."
 type: docs
@@ -49,9 +49,9 @@ Modern word processing document formats are complex and include hundreds of feat
 
 ### Greater Extent of Format Support
 
-The indisputable advantage of Aspose.Words is the great extent of support for most of the well-known formats. It is hard or impossible to find the same level of support for many important features elsewhere.
+The indisputable advantage of Aspose.Words is the great extent of support for most of the well-known formats. It is hard or impossible to find the same level of support for numerous important features elsewhere.
 
-When purchasing a solution supporting a particular format, find out about the level at which the features of this format are supported. To test, create a complex file and run it through the proposed solution. You will often find that many document elements and formatting will be lost. For example, for the DOC format, shapes, textboxes, fields, columns, OLE objects, revisions, right-to-left text usually suffer.
+When purchasing a solution supporting a particular format, find out about the level at which the features of this format are supported. To test, create a complex file and run it through the proposed solution. You will often find that numerous document elements and formatting will be lost. For example, for the DOC format, shapes, textboxes, fields, columns, OLE objects, revisions, right-to-left text usually suffer.
 
 Aspose.Words Document Object Model (DOM) was designed with Microsoft Word document formats in mind. Therefore, our level of support for those formats, such as DOC, DOCX, RTF, or WordprocessingML, is unprecedented. Conversion in any direction between these formats is high-fidelity.
 
@@ -137,7 +137,7 @@ DOC to HTML – high-fidelity conversion:
 
 ## High Scalability
 
-Scalable server-side scenarios use Aspose.Words mainly because of its simple and clean design – Aspose.Words supports multithreading. [Document](https://apireference.aspose.com/words/net/aspose.words/Document) objects are independent of each other, and as long as only one thread can modify a document at a time (a typical requirement for any collection class), multiple threads can process any number of documents at the same time.
+Scalable server-side scenarios use Aspose.Words mainly because of its simple and clean design – Aspose.Words supports multithreading. [Document](https://apireference.aspose.com/words/net/aspose.words/Document) objects are independent of each other, and as long as only one thread can modify a document at a time (a typical requirement for any collection class), several threads can process any number of documents at the same time.
 
 ## High Performance
 

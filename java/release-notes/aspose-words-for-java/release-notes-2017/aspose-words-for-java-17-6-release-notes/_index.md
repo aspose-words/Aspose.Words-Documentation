@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 17.6 Release Notes
 type: docs
 weight: 70
@@ -59,7 +59,7 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13910|Japanese ruby text does not render correctly in output pdf|Bug|
 |WORDSNET-13965|Position of axis title is incorrect.|Bug|
 |WORDSNET-14536|Debug assertion fails upon saving a document to HTML|Bug|
-|WORDSNET-14821|DISPLAYBARCODE does not render "{ PAGE } of { NUMPAGES }" in PDF|Bug|
+|WORDSNET-14821|DISPLAYBARCODE does not render " PAGE  of  NUMPAGES " in PDF|Bug|
 |WORDSNET-14968|/aps logical structure/ Table header Tags missing starting from 2nd page onward in PDF|Bug|
 |WORDSNET-15069|URIs in external CSS files are resolved incorrectly during import from HTML|Bug|
 |WORDSNET-15076|Superscript of footnote is lost when documents are joined using KeepSourceFormatting|Bug|
@@ -193,4 +193,4 @@ Document doc = new Document("test.html", lo);
 
 ### WORDSNET-15326 - SVG Multithread Processing Issue Resolved
 
-Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in multiple threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI\+ used earlier.
+Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in a few threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI\+ used earlier.

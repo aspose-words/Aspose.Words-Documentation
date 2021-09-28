@@ -1,11 +1,11 @@
----
+﻿---
 title: Using Charts to Represent Sequential Data
 type: docs
 weight: 40
 url: /java/using-charts-to-represent-sequential-data/
 ---
 
-LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
+LINQ Reporting Engine allows you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
 
 1. Add a chart to your template at the place where you want it to appear in a result document.
 1. Configure the appearance of the chart.

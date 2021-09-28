@@ -1,11 +1,11 @@
----
+﻿---
 title: Inserting a Watermark via Workflow Activity
 type: docs
 weight: 40
 url: /sharepoint/inserting-a-watermark-via-workflow-activity/
 ---
 
-This article shows you how to create a workflow for inserting a text or image watermark into a document. The steps and screenshots are for SharePoint Designer 2010.
+This article demonstrates you how to create a workflow for inserting a text or image watermark into a document. The steps and screenshots are for SharePoint Designer 2010.
 
 First choose the source and destination document library for modified documents. To reproduce this example, create these libraries on a SharePoint site you use for testing. Alternatively, use existing libraries instead of the suggested example libraries.
 

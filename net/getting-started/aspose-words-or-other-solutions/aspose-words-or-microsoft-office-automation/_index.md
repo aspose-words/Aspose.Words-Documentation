@@ -1,6 +1,6 @@
----
+﻿---
 title: Aspose.Words or Microsoft Office Automation
-description: "When choosing between Aspose.Words for .NET and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in many ways."
+description: "When choosing between Aspose.Words for .NET and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in numerous ways."
 type: docs
 weight: 10
 url: /net/aspose-words-or-microsoft-office-automation/
@@ -22,13 +22,13 @@ The shortest answer we could give to the second question is that the main reason
 
 Aspose components have been thoroughly tested.
 
-Aspose components are used by companies such as IBM, Hilton, Reader’s Digest, Bank of America, and many more.
+Aspose components are used by companies such as IBM, Hilton, Reader’s Digest, Bank of America, and a few more.
 
 {{% /alert %}}
 
 ## Why not Automation
 
-There are several reasons why Aspose.Words components are a better alternative to automation:
+There are many reasons why Aspose.Words components are a better alternative to automation:
 
 * Security
 * Stability
@@ -46,7 +46,7 @@ Aspose components were built with the goal of allowing developers to create, man
 
 The following is a direct quote from the above-referenced Microsoft article:
 
-> “Office applications were never intended for server-side use. Therefore, Office applications do not take into consideration the security problems that distributed components face. Office does not authenticate incoming requests. Office also does not protect you from unintentionally running macros, or from starting another server that might run macros, from your server-side code. Do not open files that are uploaded to the server from an anonymous Web site. Based on the security settings that were last set, the server can run macros under an Administrator or System context with full privileges and can therefore compromise your network. Additionally, Office uses many client-side components (such as Simple MAPI, WinInet, and MSDAIPP) that can cache client authentication information to speed processing. If Office is being automated server-side, one instance may service more than one client. If authentication information has been cached for that session, one client can use the cached credentials of another client. Therefore, the client may gain non-granted access permissions by impersonating other users."
+> “Office applications were never intended for server-side use. Therefore, Office applications do not take into consideration the security problems that distributed components face. Office does not authenticate incoming requests. Office also does not protect you from unintentionally running macros, or from starting another server that might run macros, from your server-side code. Do not open files that are uploaded to the server from an anonymous Web site. Based on the security settings that were last set, the server can run macros under an Administrator or System context with full privileges and can therefore compromise your network. Additionally, Office uses numerous client-side components (such as Simple MAPI, WinInet, and MSDAIPP) that can cache client authentication information to speed processing. If Office is being automated server-side, one instance may service more than one client. If authentication information has been cached for that session, one client can use the cached credentials of another client. Therefore, the client may gain non-granted access permissions by impersonating other users."
 
 ### Stability
 
@@ -66,7 +66,7 @@ Our components are a true .NET solution and perform flawlessly on either a singl
 
 The following is a direct quote from the above referenced Microsoft article:
 
-> “Server-side components need to be highly reentrant, multi-threaded COM components that have minimum overhead and high throughput for multiple clients. Office applications are in almost all respects the exact opposite. Office applications are non-reentrant, STA-based Automation servers that are designed to provide diverse but resource-intensive functionality for a single client. The applications offer little scalability as a server-side solution. Additionally, the applications have fixed limits to important elements, such as memory. These cannot be changed through configuration. More importantly, the applications use global resources such as memory mapped files, global add-ins or templates, and shared Automation servers. This can limit the number of instances that can run concurrently and can lead to race conditions if the applications are configured in a multi-client environment. Developers who plan to run more than one instance of any Office application at the same time need to consider "pooling" or serializing access to the Office application to avoid potential deadlocks or data corruption."
+> “Server-side components need to be highly reentrant, multi-threaded COM components that have minimum overhead and high throughput for numerous clients. Office applications are in almost all respects the exact opposite. Office applications are non-reentrant, STA-based Automation servers that are designed to provide diverse but resource-intensive functionality for a single client. The applications offer little scalability as a server-side solution. Additionally, the applications have fixed limits to important elements, such as memory. These cannot be changed through configuration. More importantly, the applications use global resources such as memory mapped files, global add-ins or templates, and shared Automation servers. This can limit the number of instances that can run concurrently and can lead to race conditions if the applications are configured in a multi-client environment. Developers who plan to run more than one instance of any Office application at the same time need to consider "pooling" or serializing access to the Office application to avoid potential deadlocks or data corruption."
 
 ### Price
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 11.4.0 Release Notes
 type: docs
 weight: 70
@@ -93,7 +93,7 @@ WORDSNET-5078 /anchor push:20/ Support floater anchor push algorithm (scenario 2
 
 WORDSNET-5779 SDTs combo box, SelectedItem doesn't show up.
 
-WORDSNET-6013 Create an article and code sample which demonstrates how to specify default substitution font that is used upon rendering.
+WORDSNET-6013 Create an article and code sample which shows how to specify default substitution font that is used upon rendering.
 
 WORDSNET-6167 Image quality problem with Doc format when use builder.InsertImage.
 

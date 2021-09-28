@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Images
 type: docs
 weight: 40
@@ -35,7 +35,7 @@ The aspect ratio of a geometric shape is the ratio of its sizes in different dim
 
 ## How to Get Actual Bounds of Shape in Points
 
-If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using NodeRendererBase.BoundsInPoints property. The following code example shows how to use this property.
+If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using NodeRendererBase.BoundsInPoints property. The following code example demonstrates how to use this property.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 

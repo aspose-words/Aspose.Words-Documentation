@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 type: docs
 description: "Aspose.Words for .NET answers the most frequently asked questions. Learn this page to quickly solve your problem on general questions or specific topics."
@@ -20,7 +20,7 @@ Frequently asked questions are grouped by topic for your convenience.
 
 **Q: What is Aspose.Words?**
 
-Aspose.Words for .NET is a class library that allows your applications to perform a wide variety of document processing tasks. With Aspose.Words for .NET, you can generate, modify, convert, render, and print documents without third-party applications.
+Aspose.Words for .NET is a class library that enables your applications to perform a wide variety of document processing tasks. With Aspose.Words for .NET, you can generate, modify, convert, render, and print documents without third-party applications.
 
 Details can be found in our documentation.
 
@@ -219,7 +219,7 @@ You can find more detailed information about programming with documents in the [
 
 Aspose.Words enables you to split a multi-page document page by page.
 
-The following code example shows how to divide a document and save each page as a separate document:
+The following code example demonstrates how to divide a document and save each page as a separate document:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Big document.docx");
@@ -288,7 +288,7 @@ doc.Print(myPrinter);
 
 Just load PDF to the Aspose.Words document model and make changes.
 
-The following code example shows how to edit a document:
+The following code example demonstrates how to edit a document:
 
 {{< highlight csharp >}}
 // Open the source PDF document

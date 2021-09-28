@@ -1,4 +1,4 @@
----
+﻿---
 title: OneClick Word Document Generator for Dynamics CRM
 type: docs
 weight: 60
@@ -17,7 +17,7 @@ Major features of this Addon are:
 - One click button that can Generate document.
 - Generated documents can be downloaded as well as attached with the same entity record.
 - A ribbon button is also provided to choose the template and generate document.
-- Allows you to save the document in multiple formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
+- Allows you to save the document in several formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
 
 This add-on will work with all versions of **Microsoft Dynamics CRM 2013, 2015 and CRM Online**.
 

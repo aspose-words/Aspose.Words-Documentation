@@ -1,6 +1,6 @@
----
+﻿---
 title: Work with Document Properties
-description: "Aspose.Words for .NET allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
+description: "Aspose.Words for .NET enables storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
 weight: 20
 url: /net/work-with-document-properties/
@@ -55,7 +55,7 @@ To add custom document properties with Aspose.Words, use the [Add](http://www.as
 
 To remove custom properties, use the [Remove](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/remove) method, passing it the property name to remove, or the [RemoveAt](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/removeat) method to remove the property by index. You can also remove all properties using the [Clear](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/clear) method.
 
-The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
+The following code example checks whether a custom property with a given name exists in a document and adds multiple more custom document properties:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomAdd.cs" >}}
 
@@ -65,7 +65,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example shows how to remove a custom document property:
+The following code example demonstrates how to remove a custom document property:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomRemove.cs" >}}
 
@@ -83,7 +83,7 @@ Aspose.Words does not automatically update document properties, as Microsoft Wor
 
 Aspose.Words provides the [AddLinkToContent](https://apireference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/methods/addlinktocontent) method to create a new custom document property linked to content. This property returns the newly created property object or null if the [LinkSource](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty/properties/linksource) is invalid.
 
-The following code example shows how to configure a link to a custom property:
+The following code example demonstrates how to configure a link to a custom property:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-ConfiguringLinkToContent.cs" >}}
 
@@ -91,7 +91,7 @@ The following code example shows how to configure a link to a custom property:
 
 You can get a collection of document variables using the [Variables](http://www.aspose.com/api/net/words/aspose.words/document/properties/variables) property. Variable names and values are strings.
 
-The following code example shows how to enumerate document variables:
+The following code example demonstrates how to enumerate document variables:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-GetVariables-GetVariables.cs" >}}
 

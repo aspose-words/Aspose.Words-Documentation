@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Ole Objects
 type: docs
 aliases:
@@ -15,7 +15,7 @@ If you want Ole Object call DocumentBuilder.InsertOleObject. Pass to this metho
 
 ### Set File Name and Extension when Inserting Ole Object
 
-OLE package is a legacy and "undocumented" way to store embedded objects if the OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if the OLE handler is missing or unknown. OlePackage class allows accessing OLE Package properties. The code example given below shows how to set the file name, extension and display name for OLE Package.
+OLE package is a legacy and "undocumented" way to store embedded objects if the OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if the OLE handler is missing or unknown. OlePackage class allows accessing OLE Package properties. The code example given below demonstrates how to set the file name, extension and display name for OLE Package.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.cpp" >}}
 

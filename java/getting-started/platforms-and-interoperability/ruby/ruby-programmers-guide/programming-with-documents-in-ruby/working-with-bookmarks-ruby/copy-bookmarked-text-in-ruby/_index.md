@@ -1,4 +1,4 @@
----
+﻿---
 title: Copy Bookmarked Text in Ruby
 type: docs
 weight: 10
@@ -28,8 +28,8 @@ def append_bookmark_text()
     # node_type = Rjb::import('com.aspose.words.NodeType')
     dst_node = dst_doc.getLastSection().getBody()
 
-    # It is a good idea to use this import context object because multiple nodes are being imported.
-    # If you import multiple times without a single context, it will result in many styles created.
+    # It is a good idea to use this import context object because a few nodes are being imported.
+    # If you import numerous times without a single context, it will result in multiple styles created.
     import_format_mode = Rjb::import('com.aspose.words.ImportFormatMode')
     importer = Rjb::import("com.aspose.words.NodeImporter").new(src_doc, dst_doc, import_format_mode.KEEP_SOURCE_FORMATTING)
 

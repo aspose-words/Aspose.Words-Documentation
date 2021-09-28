@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Layout Options
 description: "Aspose.Words for C++ provides the ability to specify Layout Options for various document layouts."
 type: docs
@@ -12,7 +12,7 @@ For a complete list of parameters such as [ContinuousSectionPageNumberingRestart
 
 ## Formatting Marks
 
-Aspose.Words allows to manage formatting marks using the following properties:
+Aspose.Words enables to manage formatting marks using the following properties:
 
 - [ShowHiddenText](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_showhiddentext_const) – a Boolean value, which specifies whether the hidden text is rendered.
 - [ShowParagraphMarks](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_showparagraphmarks_const) – a Boolean value, which specifies whether paragraph mark characters are rendered.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 21.2 Release Notes
 type: docs
 weight: 11
@@ -90,7 +90,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21006 | ReportingEngine.BuildReport could not create the bitmap - lack of system   resources - FileFormat=0 | Bug |
 | WORDSNET-21473 | DOCX to PDF conversion issue with accessibility check for alternative   text | Bug |
 | WORDSNET-20982 | Artifact issue while converting DOCX to PDF | Bug |
-| WORDSNET-21305 | IChar solution allocates too many class instances | Bug |
+| WORDSNET-21305 | IChar solution allocates too several class instances | Bug |
 | WORDSNET-21306 | DOCX to PDF conversion: a part of first page is pushed to second page   after conversion | Bug |
 | WORDSNET-21307 | Messed up headers after extract page | Bug |
 | WORDSNET-21617 | Track changes - Bookmarks not being generated for Headings during Word to   PDF conversion | Bug |
@@ -254,7 +254,7 @@ Also added corresponding public enums:
 /// <remarks>
 /// Specifies a theme font type which can be referenced as a theme font within the parent object properties.
 /// This theme font is a reference to one of the predefined theme fonts, located in the document's
-/// Theme part, which allows for font information to be set centrally in the document.
+/// Theme part, which enables for font information to be set centrally in the document.
 /// </remarks>
 public enum ThemeFont
 {{< /highlight >}}
@@ -265,7 +265,7 @@ public enum ThemeFont
 /// </summary>
 /// <remarks>
 /// The specified theme color is a reference to one of the predefined theme colors, located in the
-/// document's Theme part, which allows color information to be set centrally in the document.
+/// document's Theme part, which enables color information to be set centrally in the document.
 /// </remarks>
 public enum ThemeColor
 {{< /highlight >}}

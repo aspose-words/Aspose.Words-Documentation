@@ -1,6 +1,6 @@
----
+﻿---
 title: Open a Document Read-Only
-description: "Aspose.Words for Java allows you to make your document read-only so that the content can be copied or read, but not modified."
+description: "Aspose.Words for Java enables you to make your document read-only so that the content can be copied or read, but not modified."
 type: docs
 weight: 10
 url: /java/open-a-document-read-only/
@@ -21,9 +21,9 @@ This article explains how to make a document read-only.
 
 Aspose.Words has the public class [WriteProtection](https://apireference.aspose.com/words/java/com.aspose.words/WriteProtection) that specifies write protection settings for a document. You do not create instances of this class directly.
 
-Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
+Write protection demonstrates whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
-Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#ReadOnlyRecommended) property and the [SetPassword](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#setPassword(java.lang.String)) method.
+Aspose.Words enables you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#ReadOnlyRecommended) property and the [SetPassword](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#setPassword(java.lang.String)) method.
 
 {{% alert color="primary" %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Table Styles
 type: docs
 aliases:
@@ -9,7 +9,7 @@ url: /java/working-with-tablestyle/
 
 {{% alert color="primary" %}} 
 
-A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment and font can be set in a table style and applied to many tables for a consistent appearance.
+A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment and font can be set in a table style and applied to a few tables for a consistent appearance.
 
 {{% /alert %}} 
 
@@ -26,13 +26,13 @@ Aspose.Words supports applying a table style to a table and also reading propert
 
 ### Applying a Table Style
 
-In Aspose.Words you can apply a table style by using any of the [Table.getStyle()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table/properties/getStyle\(\)/), [Table.setStyleIdentifier(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setStyleIdentifier\(int\)/) and [Table.getStyleName()](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/getStyleName\(\)/) properties. You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using [Table.setStyleOptions(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setStyleOptions\(int\)/) property. The TableStyleOptions enumeration allows a bitwise combination of these features. Below example shows how to build a new table with a table style applied.
+In Aspose.Words you can apply a table style by using any of the [Table.getStyle()](http://www.aspose.com/api/java/words/com.aspose.words/classes/Table/properties/getStyle\(\)/), [Table.setStyleIdentifier(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setStyleIdentifier\(int\)/) and [Table.getStyleName()](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/getStyleName\(\)/) properties. You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using [Table.setStyleOptions(int)](http://www.aspose.com/api/java/words/com.aspose.words/classes/table/methods/setStyleOptions\(int\)/) property. The TableStyleOptions enumeration enables a bitwise combination of these features. Below example shows how to build a new table with a table style applied.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-ApplyATableStyle.java" >}}
 
 Aspose.Words also provides a method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Test combine formatting with table style and cell style. This method will not override any other formatting that is already applied to the table through a row or cell format.
 
-Below examples shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting.
+Below examples demonstrates how to expand the formatting from styles onto the rows and cells of the table as direct formatting.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-ExpandFormattingFromStylesOnToRowsAndCells.java" >}}
 
@@ -42,7 +42,7 @@ Aspose.Words provides TableStyle inherited from Style class. The TableStyle 
 
 ### Create a Table Style
 
-A table style can be created using the StyleCollection.Add method. The code example given below shows how to create a table style.
+A table style can be created using the StyleCollection.Add method. The code example given below demonstrates how to create a table style.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-CreateTableStyle.java" >}}
 

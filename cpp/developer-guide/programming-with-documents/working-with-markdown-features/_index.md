@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Markdown Features
 description: "Learn how to implement Markdown features using Aspose.Words for C++. All the features are represented as corresponding styles or direct formatting."
 type: docs
@@ -97,7 +97,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Reading a Markdown Document
 
-The following code snippet shows you how to read a markdown document.
+The following code snippet demonstrates you how to read a markdown document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithMarkdownFeatures-ReadMarkdownDocument.cpp" >}}
 

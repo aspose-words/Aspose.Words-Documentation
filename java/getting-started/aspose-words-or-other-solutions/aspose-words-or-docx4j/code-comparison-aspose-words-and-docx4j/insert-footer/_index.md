@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert Footer
 type: docs
 weight: 10
@@ -7,7 +7,7 @@ url: /java/insert-footer/
 
 ## Aspose.Words - Insert Footer
 
-The following sample code demonstrates how to create headers/footers using DocumentBuilder.
+The following sample code shows how to create headers/footers using DocumentBuilder.
 
 **Java**
 

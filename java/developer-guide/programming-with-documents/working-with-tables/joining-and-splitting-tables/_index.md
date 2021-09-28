@@ -1,4 +1,4 @@
----
+﻿---
 title: Joining and Splitting Tables
 type: docs
 weight: 90
@@ -26,6 +26,6 @@ We first need to pick a row at where to split the table. Once we know this we ca
 1. Create a clone of the table without cloning children to hold the moved rows and insert it after the original table.
 1. Starting from the specified row move all subsequent rows to this second table.
 
-Below example shows how to split a table into two tables a specific row.
+Below example demonstrates how to split a table into two tables a specific row.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-JoinAndSplitTables-SplitATableIntoTwoSeparateTables.java" >}}

@@ -1,4 +1,4 @@
----
+﻿---
 title: Load And Save To Stream in Ruby
 type: docs
 weight: 60

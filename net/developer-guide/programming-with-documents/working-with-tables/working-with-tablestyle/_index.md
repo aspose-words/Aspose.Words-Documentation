@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with TableStyle
 type: docs
 weight: 30
@@ -9,7 +9,7 @@ Aspose.Words provides [TableStyle ](https://apireference.aspose.com/net/words/as
 
 ## Create a Table Style
 
-A table style can be created using the StyleCollection.Add method. The code example given below shows how to create a table style.
+A table style can be created using the StyleCollection.Add method. The code example given below demonstrates how to create a table style.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyStyle-CreateTableStyle.cs" >}}
 
