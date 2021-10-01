@@ -131,7 +131,20 @@ builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
 | **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	`   - Item 2a`<br />	`   - Item 2b` | Bulleted lists are represented using paragraph numbering:<br />`ListFormat.ApplyBulletDefault()`<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `‘-’`, `‘+’` or `‘*’` respectively. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} |                                                              |
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />`ListFormat.ApplyNumberDefault()`<br />There can be 2 number format markers: ‘.’ and ‘)’. The default marker is ‘.’. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-OrderedList.cs" >}} |                                                              |
+| {{< highlight csharp >}}Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.ListFormat.ApplyBulletDefault();
+builder.ListFormat.List.ListLevels[0].NumberFormat = $"{(char) 0}.";
+builder.ListFormat.List.ListLevels[1].NumberFormat = $"{(char) 1}.";
+
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+builder.ListFormat.ListIndent();
+
+builder.Writeln("Item 2a");
+builder.Writeln("Item 2b");{{< /highlight >}} |                                                              |
 
 ### Tables
 
@@ -140,7 +153,20 @@ Aspose.Words also allows to translate tables into DOM, as shown below:
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Table`<br />`a|b`<br />`-|-`<br />`c|d`                     | [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [Row](https://apireference.aspose.com/words/net/aspose.words.tables/row) and [Cell](https://apireference.aspose.com/words/net/aspose.words.tables/cell) classes. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Table.cs" >}} |                                                              |
+| {{< highlight csharp >}}// Use a document builder to add content to the document.
+DocumentBuilder builder = new DocumentBuilder();
+
+// Add the first row.
+builder.InsertCell();
+builder.Writeln("a");
+builder.InsertCell();
+builder.Writeln("b");
+
+// Add the second row.
+builder.InsertCell();
+builder.Writeln("c");
+builder.InsertCell();
+builder.Writeln("d");{{< /highlight >}} |                                                              |
 
 ## See Also
 
