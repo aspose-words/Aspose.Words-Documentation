@@ -14,7 +14,7 @@ This article explains how to do all of the above to validate the authenticity an
 
 {{% alert color="primary" %}}
 
-**Note that you can access digital signatures of your document only when running the Java 6 version and above.**
+Note that you can access digital signatures of your document only when running the Java 6 version and above.
 
 {{% /alert %}}
 
@@ -96,25 +96,23 @@ signOptions.setSignTime(new Date());
 
 // Sign your document.
 try (FileInputStream streamIn =  new FileInputStream(getMyDir()+"Digitally signed.docx");
-     FileOutputStream streamOut= new FileOutputStream(getArtifactsDir()+"DigitalSignatureUtil.SignDocument.docx"))
+	FileOutputStream streamOut= new FileOutputStream(getArtifactsDir()+"DigitalSignatureUtil.SignDocument.docx"))
 {
-    DigitalSignatureUtil.sign(streamIn,streamOut,certificateHolder,signOptions);
+	DigitalSignatureUtil.sign(streamIn,streamOut,certificateHolder,signOptions);
 }
 
 // Load and count digital signatures.
 try (FileInputStream stream = new FileInputStream(getArtifactsDir()+"DigitalSignatureUtil.SignDocument.docx"))
 {
-    DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.loadSignatures(stream);
-    Assert.assertEquals(1, digitalSignatures.getCount());
+	DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.loadSignatures(stream);
+	Assert.assertEquals(1, digitalSignatures.getCount());
 
-    ```
-    DigitalSignature signature=digitalSignatures.get(0);
-
-    Assert.assertTrue(signature.isValid());
-    Assert.assertEquals(DigitalSignatureType.XML_DSIG, signature.getSignatureType());
-    Assert.assertEquals(signOptions.getSignTime().toString(), signature.getSignTime().toString());
-    Assert.assertEquals("My comment", signature.getComments());
-    ```
+	DigitalSignature signature=digitalSignatures.get(0);
+	
+	Assert.assertTrue(signature.isValid());
+	Assert.assertEquals(DigitalSignatureType.XML_DSIG, signature.getSignatureType());
+	Assert.assertEquals(signOptions.getSignTime().toString(), signature.getSignTime().toString());
+	Assert.assertEquals("My comment", signature.getComments());
 }
 {{< /highlight >}}
 
@@ -164,7 +162,8 @@ signOptions.setSignTime(new Date());
 CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
 
 // We can sign the signature line programmatically.
-DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx", getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+        getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
 // Create the shape of the signature line.
 doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
@@ -240,18 +239,17 @@ Assert.assertEquals(1, digitalSignatures.getCount());
 DigitalSignatureUtil.removeAllSignatures(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
 // Remove all signatures from the document using stream parameters.
-
 try(FileInputStream streamIn = new FileInputStream(getMyDir() + "Digitally signed.docx");
-    FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"))
+	FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"))
 {
-    DigitalSignatureUtil.removeAllSignatures(streamIn, streamOut);
+	DigitalSignatureUtil.removeAllSignatures(streamIn, streamOut);
 }
 
 // We can also load a document's digital signatures via stream, which we will do to verify that all signatures have been removed.
 try (FileInputStream stream = new FileInputStream(getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx");)
 {
-    digitalSignatures = DigitalSignatureUtil.loadSignatures(stream);
-    Assert.assertEquals(0, digitalSignatures.getCount());
+	digitalSignatures = DigitalSignatureUtil.loadSignatures(stream);
+	Assert.assertEquals(0, digitalSignatures.getCount());
 }
 {{< /highlight >}}
 
