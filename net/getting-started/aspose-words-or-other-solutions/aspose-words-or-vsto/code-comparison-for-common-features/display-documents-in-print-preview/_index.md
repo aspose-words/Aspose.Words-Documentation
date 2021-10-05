@@ -44,7 +44,7 @@ previewDlg.ShowDialog();
 
 ## Download Running Code Example
 
-- [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
+- [CodePlex](https://archive.codeplex.com/?p=asposevsto)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
 
 ## Sample Code
