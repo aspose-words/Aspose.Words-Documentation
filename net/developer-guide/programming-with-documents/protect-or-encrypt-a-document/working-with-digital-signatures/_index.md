@@ -1,15 +1,22 @@
-﻿---
-title: Working with Digital Signatures
+---
+title: Work with Digital Signatures
+description: "Aspose.Words for .NET allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
 weight: 40
 url: /net/working-with-digital-signatures/
 ---
 
-A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
+A digital signature is a technological implementation of electronic signatures to sign documents and authenticate the signer to guarantee that a document has not been modified since it was signed. Each digital signature is unique for each signer because of following the PKI protocol to generate both public and private keys. Signing a document digitally means creating a signature using the signer's private key where a mathematical algorithm is used to encrypt the generated hash.
 
-Aspose.Words supports documents with digital signatures and provides access to them allowing you to detect and validate digital signatures on a document and sign a generated PDF document with a supplied certificate. At the present time digital signatures are supported on DOC, OOXML and ODT documents. Signing of generated documents is supported in PDF format.
+Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil) class to work with digital signatures.
 
-Accessing digital signatures of a document is available in Aspose.Words only when running versions of the .NET Framework 2.0 and above. It is not currently supported in previous versions as it relies on specific classes not found in the previous versions. Support for previous versions of the .NET framework will be available in the future.
+This article explains how to do all of the above to validate the authenticity and integrity of a digital document.
+
+{{% alert color="primary" %}}
+
+Note that you can access digital signatures of your document only when running the .NET Framework 2.0 version and above.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 
@@ -19,78 +26,235 @@ You can try this functionality with our [Free online signature](https://products
 
 {{% /alert %}}
 
-## Digital Signatures are not Preserved on Open and Save
+## Supported Formats
 
-An important point to note is that a document loaded and then saved using Aspose.Words will lose any digital signatures signed on the document. This is by design as a digital signature ensures that the content has not been modified and furthermore authenticates the identify of who signed the document. These principles would be invalidated if the original signatures were carried over to the resulting document.
+Aspose.Words allows you to work with digital signatures on DOC, OOXML, and ODT documents and to sign the generated document in PDF or XPS format.
 
-Due to this, if you process documents uploaded to a server this could potentially mean you may corrupt a document uploaded to your server in this way without knowing. Therefore it is best to check for digital signatures on a document and take the appropriate action if any are found, for example an alert can be sent to the client informing them that the document they are passing contains digital signatures which will be lost if it is processed. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
+## Limitations of Digital Signatures
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-DetectDocumentSignatures-DetectDocumentSignatures.cs" >}}
+The table below describes a few limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
 
-The code above uses the [FileFormatUtil.DetectFileFormat](https://apireference.aspose.com/words/net/aspose.words/fileformatutil/methods/detectfileformat/index) method to detect if a document contains digital signatures without loading the document first. This provides an efficient and safe way to check a document for signatures before processing them. When executed, the method returns a [FileFormatInfo](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo) object which provides the property [FileFormatInfo.HasDigitalSignature](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo/properties/hasdigitalsignature). This property returns true if the document contains one or more digital signatures. It’s important to note that this method does not validate the signatures, it only determines if signatures are present. Validating digital signatures is covered in the next section.
+| Limitation                                                   | Alternative option                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Loss of digital signatures on a document after loading and saving it. Therefore, processing a document to a server may cause the loss of all digital signatures without a notice. | Check if a document has digital signatures and take the appropriate action if any are found. For example, send an alert to the clients informing them that the document they are uploading contains digital signatures that will be lost if it is processed. |
+| Aspose.Words supports working with macros in a document. But Aspose.Words does not yet support digital signatures on macros. | Export the document back to any Word format, and use Microsoft Word to add a digital signature to macros. |
 
-{{% alert color="primary" %}} 
+## Detect, Count, and Verify Digital Signatures
 
-You can also check if a document has digital signatures after loading by checking the Count property of the [Document.DigitalSignatures collection](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection).
+Aspose.Words allows you to detect digital signature in a document using the the [DetectFileFormat](https://apireference.aspose.com/words/net/aspose.words/fileformatutil/methods/detectfileformat/index) method and the [HasDigitalSignature](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo/properties/hasdigitalsignature) property. It is worth noting that such a check will only detect the fact of the signature, but not its validity.
 
-{{% /alert %}} 
+A document can be signed more than once, and this can be done by different users. To check the validity of digital signatures, you need to load them from the document using the [LoadSignatures](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/methods/loadsignatures/index) method and use the [IsValid](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/properties/isvalid) property. Also Aspose.Words allows you to count a set of all digital signatures within a document using the [Count](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/properties/count) property.
 
-## Digital Signatures on Macros (VBA Projects)
+All of this provides an efficient and safe way to check a document for signatures before processing it.
 
-Digital signatures on macros cannot be accessed or signed. This is because Aspose.Words does not directly deal with macros in a document. However digital signatures on macros are preserved when exporting the document back to any word format. These signatures can be preserved on VBA code because the binary content of the macros are not changed even if the document itself is modified.
+The following code example shows how to detect the presence of digital signatures and verify them:
 
-## Create Digitally Signed PDF Documents
+{{< highlight csharp >}}
+// Use a FileFormatInfo instance to verify that a document is not digitally signed.
+FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
-A generated PDF document can be signed during saving. Currently only PDF documents can be signed in the same way. Other formats are to be supported in future versions. To sign an output PDF document firstly the **X509Certificates** namespace needs to be imported as shown below. This gives access to the necessary classes required for the next steps.
+Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
+Assert.False(info.HasDigitalSignature);
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-DigitallySignedPdf-X509Certificates.cs" >}}
+// Sign the document.
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
+certificateHolder, new SignOptions() { SignTime = DateTime.Now });
 
-A certificate needs to be loaded from a source i.e. from disk or from a certificate store and passed to a new instance of the X509Certificate2 class. This object is wrapped into an instance of the PdfDigitalSignatureDetails class along with other details used in the signature. This is passed to the PdfSaveOptions class which will use this to sign the output document when rendering to PDF. The code sample below demonstrates how to sign a generated PDF document using Aspose.Words.
+// Use a new FileFormatInfo instance to confirm that it is signed.
+info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
+Assert.True(info.HasDigitalSignature);
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-DigitallySignedPdf-DigitallySignedPdf.cs" >}}
+// The signatures can then be accessed like this.
+Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
+{{< /highlight >}}
 
-The .NET framework provides multiple ways in which to load a certificate. These details are out of the scope of this article, however further information on this can be found on the MSDN page [here](http://msdn.microsoft.com/en-us/library/system.security.cryptography.x509certificates.x509certificate2.aspx).
+## Create a Digital Signature
 
-### Access and Verify Digital Signatures
+To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
-A document can have many digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
+Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://apireference.aspose.com/words/net/aspose.words/certificateholder/methods/create/index) method within the [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words/certificateholder) class.
 
-The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/properties/isvalid) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
+The next sections explain how to add a digital signature, signature line, and how to sign a generated PDF document.
 
-Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for numerous reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below demonstrates how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
+### Sign a Document
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-AccessAndVerifySignature-AccessAndVerifySignature.cs" >}}
+Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/methods/sign/index) method and [SignOptions](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions) properties.
 
-## Signing Word Documents
+The following code example shows how to sign documents using a certificate holder and sign options:
 
-DigitalSignatureUtil class provides methods for signing document. DigitalSignatureUtil.Sign method signs source document using given CertificateHolder with digital signature and writes signed document to destination stream. 
+{{< highlight csharp >}}
+// Create X.509 certificate.
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-Below example shows how to sign simple document. 
+// Set up the signing time.
+SignOptions signOptions = new SignOptions { Comments = "My comment", SignTime = DateTime.Now };
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SimpleDocumentSigning.cs" >}}
+// Sign your document.
+using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
+{
+	using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
+	{
+		DigitalSignatureUtil.Sign(streamIn, streamOut, certificateHolder, signOptions);
+	}
+}
 
-Below example demonstrates how to sign encrypted document. 
+// Load and count digital signatures.
+using (Stream stream = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.Open))
+{
+	DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
+	Assert.AreEqual(1, digitalSignatures.Count);
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SigningEncryptedDocument.cs" >}}
+	DigitalSignature signature = digitalSignatures[0];
+	
+	Assert.True(signature.IsValid);
+	Assert.AreEqual(DigitalSignatureType.XmlDsig, signature.SignatureType);
+	Assert.AreEqual(signOptions.SignTime.ToString(), signature.SignTime.ToString());
+	Assert.AreEqual("My comment", signature.Comments);
+}
+{{< /highlight >}}
 
-### Signing Word document with Signature Line
+### Add a Signature Line
 
-You can sign source document using given CertificateHolder and SignOptions with digital signature and writes signed document to destination file. Using SignOptions class you can specify options for document signing. Below example demonstrates how to create new signature line and sign document. 
+A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertsignatureline) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/net/aspose.words/signaturelineoptions) class.
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-CreatingAndSigningNewSignatureLine.cs" >}}
+For example, the picture below shows how valid and invalid signatures can be displayed.
 
-Below example demonstrates how to modify existing signature line and sign document. 
+<img src="Valid.png" alt="drawing" style="width:300px"/>
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SigningExistingSignatureLine.cs" >}}
+<img src="Invalid.png" alt="drawing" style="width:300px"/>
 
-### Signing Word Document using Signature Provider Identifier
+Also, if a document contains a signature line and no digital signature, there is a feature to ask the user to add a signature.
 
-Below example demonstrates how to sign Word document using signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of 00000000-0000-0000-0000-000000000000 for its default signature provider.
+The following code example shows how to sign a document with a personal certificate and a specific signature line:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-SetSignatureProviderID.cs" >}}
+{{< highlight csharp >}}
+// Create a Document.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-### Create New Signature Line Sign Word Document using Provider Identifier
+// Set signature line options.
+SignatureLineOptions signatureLineOptions = new SignatureLineOptions
+{
+	Signer = "Entername",
+	SignerTitle = "QA",
+	Email = “EnterSomeEmail",
+	ShowDate = true,
+	DefaultInstructions = false,
+	Instructions = "You need more info about signature line",
+	AllowComments = true
+};
 
-Below example demonstrates how to create signature line and sign Word document using signature provider identifier.
+// Insert signature line.
+SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
+signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Signature-SigningSignatureLine-CreateNewSignatureLineAndSetProviderID.cs" >}}
+doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx");
+
+// Set signing options. 
+SignOptions signOptions = new SignOptions
+{
+	SignatureLineId = signatureLine.Id,
+	ProviderId = signatureLine.ProviderId,
+	Comments = "Document was signed by vderyushev",
+	SignTime = DateTime.Now
+};
+
+// Create a certificate.
+CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+// We can sign the signature line programmatically.
+DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+// Create the shape of the signature line.
+doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+signatureLine = shape.SignatureLine;
+
+Assert.AreEqual("vderyushev", signatureLine.Signer);
+Assert.AreEqual("QA", signatureLine.SignerTitle);
+Assert.AreEqual("vderyushev@aspose.com", signatureLine.Email);
+Assert.True(signatureLine.ShowDate);
+Assert.False(signatureLine.DefaultInstructions);
+Assert.AreEqual("You need more info about signature line", signatureLine.Instructions);
+Assert.True(signatureLine.AllowComments);
+Assert.True(signatureLine.IsSigned);
+Assert.True(signatureLine.IsValid);
+
+// Loading signatures.
+DigitalSignatureCollection signatures = DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+
+Assert.AreEqual(1, signatures.Count);
+Assert.True(signatures[0].IsValid);
+Assert.AreEqual("Document was signed by vderyushev", signatures[0].Comments);
+Assert.AreEqual(DateTime.Today, signatures[0].SignTime.Date);
+Assert.AreEqual("CN=Morzal.Me", signatures[0].IssuerName);
+Assert.AreEqual(DigitalSignatureType.XmlDsig, signatures[0].SignatureType);
+{{< /highlight >}}
+
+### Sign a Generated PDF Document
+
+Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://apireference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/properties/index) properties.
+
+The following code example shows how to sign a generated PDF:
+
+{{< highlight csharp >}}
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Signed PDF contents.");
+
+// Load the certificate from disk.
+// The other constructor overloads can be used to load certificates from different locations.
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+// Pass the certificate and details to the save options class to sign with.
+PdfSaveOptions options = new PdfSaveOptions();
+DateTime signingTime = DateTime.Now;
+options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", signingTime);
+
+// We can use this attribute to set a different hash algorithm.
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+
+Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
+Assert.AreEqual("Aspose Office", options.DigitalSignatureDetails.Location);
+Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate);
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+{{< /highlight >}}
+
+## Remove Digital Signatures
+
+Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/net/aspose.words/digitalsignatureutil/methods/removeallsignatures/index) method.
+
+The following code example shows how to load and remove digital signatures from a document:
+
+{{< highlight csharp >}}
+// Load digital signatures via filename string to verify that the document is signed.
+DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
+Assert.AreEqual(1, digitalSignatures.Count);
+
+// Re-save the document to an output filename with all digital signatures removed.
+DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx", ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
+
+// Remove all signatures from the document using stream parameters.
+using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
+{
+	using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
+	{
+		DigitalSignatureUtil.RemoveAllSignatures(streamIn, streamOut);
+	} 
+}
+
+// We can also load a document's digital signatures via stream, which we will do to verify that all signatures have been removed.
+using (Stream stream = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Open))
+{
+	digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
+	Assert.AreEqual(0, digitalSignatures.Count);
+}
+{{< /highlight >}}
+
+{{% alert color="primary" %}}
+
+Note that you can not remove only one digital signature within your document.
+
+{{% /alert %}}

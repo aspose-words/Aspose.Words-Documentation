@@ -1,85 +1,260 @@
-﻿---
-title: Working with Digital Signatures
+---
+title: Work with Digital Signatures
+description: "Aspose.Words for Java allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
 weight: 30
 url: /java/working-with-digital-signatures/
 ---
 
-A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
+A digital signature is a technological implementation of electronic signatures to sign documents and authenticate the signer to guarantee that a document has not been modified since it was signed. Each digital signature is unique for each signer because of following the PKI protocol to generate both public and private keys. Signing a document digitally means creating a signature using the signer's private key where a mathematical algorithm is used to encrypt the generated hash.
 
-Aspose.Words supports documents with digital signatures and provides access to them allowing you to detect and validate digital signatures on a document and sign a generated PDF document with a supplied certificate. At the present time, digital signatures are supported on DOC, OOXML and ODT documents. The signing of generated documents is supported in PDF format.
+Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://apireference.aspose.com/words/java/com.aspose.words/DigitalSignatureUtil) class to work with digital signatures.
 
-## Digital Signatures are not Preserved on Open and Save
+This article explains how to do all of the above to validate the authenticity and integrity of a digital document.
 
-An important point to note is that a document loaded and then saved using Aspose.Words will lose any digital signatures signed on the document. This is by design as a digital signature ensures that the content has not been modified and furthermore authenticates the identify of who signed the document. These principles would be invalidated if the original signatures were carried over to the resulting document.
+{{% alert color="primary" %}}
 
-Due to this, if you process documents uploaded to a server this could potentially mean you may corrupt a document uploaded to your server in this way without knowing. Therefore it is best to check for digital signatures on a document and take the appropriate action if any are found, for example an alert can be sent to the client informing them that the document they are passing contains digital signatures which will be lost if it is processed. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/DetectDocumentSignatures/Document.Signed.docx).
+Note that you can access digital signatures of your document only when running the Java 6 version and above.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-DetectDocumentSignatures-DetectDocumentSignatures.java" >}}
+{{% /alert %}}
 
-The code above uses the [FileFormatUtil.detectFileFormat](https://apireference.aspose.com/words/java/com.aspose.words/fileformatutil#detectFileFormat(java.io.InputStream)) method to detect if a document contains digital signatures without loading the document first. This provides an efficient and safe way to check a document for signatures before processing them. When executed, the method returns a [FileFormatInfo](https://apireference.aspose.com/words//java/com.aspose.words/fileformatinfo) object which provides the property [FileFormatInfo.hasDigitalSignature](https://apireference.aspose.com/words/java/com.aspose.words/fileformatinfo#HasDigitalSignature). This property returns true if the document contains one or more digital signatures. It’s important to note that this method does not validate the signatures, it only determines if signatures are present. Validating digital signatures is covered in the next section.
+{{% alert color="primary" %}}
 
-{{% alert color="primary" %}} 
+**Try online**
 
-You can also check if a document has digital signatures after loading by checking the Count property of the [DigitalSignaturescollection](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection).
+You can try this functionality with our [Free online signature](https://products.aspose.app/words/signature).
 
-{{% /alert %}} 
+{{% /alert %}}
 
-## Digital Signatures on Macros (VBA Projects)
+## Supported Formats
 
-Digital signatures on macros cannot be accessed or signed. This is because Aspose.Words does not directly deal with macros in a document. However digital signatures on macros are preserved when exporting the document back to any word format. These signatures can be preserved on VBA code because the binary content of the macros are not changed even if the document itself is modified.
+Aspose.Words allows you to work with digital signatures on DOC, OOXML, and ODT documents and to sign the generated document in PDF or XPS format.
 
-## Create Digitally Signed PDF Documents
+## Limitations of Digital Signatures
 
-A generated PDF document can be signed during saving. Currently, only PDF documents can be signed in the same way. Other formats are to be supported in future versions. A certificate needs to be loaded from a source i.e. from a disk or from a certificate store and passed to a new instance of the X509Certificate2 class. This object is wrapped into an instance of the PdfDigitalSignatureDetails class along with other details used in the signature. This is passed to the PdfSaveOptions class which will use this to sign the output document when rendering to PDF. The code sample below {shows|demonstrates} how to sign a generated PDF document using Aspose.Words.
+The table below describes {a few|numerous|multiple|several|many} limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-DigitallySignedPdf-DetectDocumentSignatures.java" >}}
+| Limitation                                                   | Alternative option                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Loss of digital signatures on a document after loading and saving it. Therefore, processing a document to a server may cause the loss of all digital signatures without a notice. | Check if a document has digital signatures and take the appropriate action if any are found. For example, send an alert to the clients informing them that the document they are uploading contains digital signatures that will be lost if it is processed. |
+| Aspose.Words supports working with macros in a document. But Aspose.Words does not yet support digital signatures on macros. | Export the document back to any Word format, and use Microsoft Word to add a digital signature to macros. |
 
-| The generated PDF document is opened in Adobe Acrobat and the digital signature is verified as present and valid. |
-| :----------------------------------------------------------- |
-| ![create-digital-signed-pdf-aspose-words-java](http://i.imgur.com/ThH0zHa.png) |
+## Detect, Count, and Verify Digital Signatures
 
-### Access and Verify Digital Signatures
+Aspose.Words allows you to detect digital signature in a document using the the [DetectFileFormat](https://apireference.aspose.com/words/java/com.aspose.words/fileformatutil#detectFileFormat(java.io.InputStream)) method and the [HasDigitalSignature](https://apireference.aspose.com/words/java/com.aspose.words/fileformatinfo#HasDigitalSignature) property. It is worth noting that such a check will only detect the fact of the signature, but not its validity.
 
-A document can have {multiple|several|a few|many|numerous} digital signatures. These signatures can all be accessed through the Document.DigitalSignatures collection. Each object returned is a DigitalSignature which represents a single digital signature belonging to the document. This provides members that allow you to check the validity of the signature, and important properties such as the name and date of the signature and the X509Signature2 object of the signature.
+A document can be signed more than once, and this can be done by different users. To check the validity of digital signatures, you need to load them from the document using the [LoadSignatures](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignatureutil#loadSignatures(java.io.InputStream)) method and use the [IsValid](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection#IsValid) property. Also Aspose.Words allows you to count a set of all digital signatures within a document using the [Count](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection#Count) property.
 
-| A document signed with a digital certificate in Microsoft Word. |
-| :----------------------------------------------------------- |
-| ![details-digital-signed-pdf-aspose-words-java](http://i.imgur.com/BAD1iP3.png) |
-The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.isValid](https://apireference.aspose.com/words//java/com.aspose.words/digitalsignaturecollection) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid. Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for {several|multiple|a few|many|numerous} reasons, for instance the document has been changed since signing or the certificate has expired. Additionally, extra details of the signature can also be accessed. The code sample below {shows|demonstrates} how to validate each signature in a document and display basic information about the signature. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/DetectDocumentSignatures/Document.Signed.docx).
+All of this provides an efficient and safe way to check a document for signatures before processing it.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-AccessAndVerifySignature-1.java" >}}
+The following code example {shows|demonstrates} how to detect the presence of digital signatures and verify them:
 
-## Signing Word Documents
+{{< highlight java >}}
+// Use a FileFormatInfo instance to verify that a document is not digitally signed.
+FileFormatInfo info = FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx");
 
-DigitalSignatureUtil class provides methods for signing the document. DigitalSignatureUtil.sign method signs source document using given CertificateHolder with a digital signature and writes signed document to the destination stream. 
+Assert.assertEquals(".docx", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+Assert.assertFalse(info.hasDigitalSignature());
 
-The following code example {shows|demonstrates} how to sign a simple document. 
+// Sign the document.
+CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions();
+signOptions.setSignTime(new Date());
+DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "File.DetectDigitalSignatures.docx",
+        certificateHolder, signOptions);
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SimpleDocumentSigning.java" >}}
+// Use a new FileFormatInfo instance to confirm that it is signed.
+info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDigitalSignatures.docx");
+Assert.assertTrue(info.hasDigitalSignature());
 
-The following code example {shows|demonstrates} how to sign an encrypted document. 
+// The signatures can then be accessed like this.
+Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
+{{< /highlight >}}
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SigningEncryptedDocument.java" >}}
+## {Create|Add} {a Digital Signature|Digital Signature} {#create-a-digital-signature}
 
-### Signing Word document with Signature Line
+To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
-You can sign a source document using the given CertificateHolder and SignOptions with the digital signature and writes the signed document to the destination file. Using SignOptions class you can specify options for document signing. The following code example {shows|demonstrates} how to create a new signature line and sign a document. 
+Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://apireference.aspose.com/words/java/com.aspose.words/certificateholder#create(byte[],java.lang.String)) method within the [CertificateHolder](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder) class.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-CreatingAndSigningNewSignatureLine.java" >}}
+The next sections explain how to add a digital signature, signature line, and how to sign a generated PDF document.
 
-The following code example {shows|demonstrates} how to modify an existing signature line and sign a document. 
+### Sign a Document
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SigningExistingSignatureLine.java" >}}
+Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignatureutil#sign(java.io.InputStream,java.io.OutputStream,com.aspose.words.CertificateHolder)) method and [SignOptions](https://apireference.aspose.com/words/java/com.aspose.words/SignOptions) properties.
 
-### Signing Word Document using Signature Provider Identifier
+The following code example {shows|demonstrates} how to sign documents using a certificate holder and sign options:
 
-The code example given below {shows|demonstrates} how to sign a Word document using the signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of {00000000-0000-0000-0000-000000000000} for its default signature provider.
+{{< highlight java >}}
+// Create X.509 certificate.
+CertificateHolder certificateHolder=CertificateHolder.create(getMyDir()+"morzal.pfx","aw");
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-SetSignatureProviderID.java" >}}
+// Set up the signing time.
+SignOptions signOptions = new SignOptions();
+signOptions.setComments("My comment");
+signOptions.setSignTime(new Date());
 
-### Create New Signature Line Sign Word Document using Provider Identifier
+// Sign your document.
+try (FileInputStream streamIn =  new FileInputStream(getMyDir()+"Digitally signed.docx");
+	FileOutputStream streamOut= new FileOutputStream(getArtifactsDir()+"DigitalSignatureUtil.SignDocument.docx"))
+{
+	DigitalSignatureUtil.sign(streamIn,streamOut,certificateHolder,signOptions);
+}
 
-The following code example {shows|demonstrates} how to create a signature line and sign a Word document using a signature provider identifier.
+// Load and count digital signatures.
+try (FileInputStream stream = new FileInputStream(getArtifactsDir()+"DigitalSignatureUtil.SignDocument.docx"))
+{
+	DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.loadSignatures(stream);
+	Assert.assertEquals(1, digitalSignatures.getCount());
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-signature-SigningSignatureLine-CreateNewSignatureLineAndSetProviderID.java" >}}
+	DigitalSignature signature=digitalSignatures.get(0);
+	
+	Assert.assertTrue(signature.isValid());
+	Assert.assertEquals(DigitalSignatureType.XML_DSIG, signature.getSignatureType());
+	Assert.assertEquals(signOptions.getSignTime().toString(), signature.getSignTime().toString());
+	Assert.assertEquals("My comment", signature.getComments());
+}
+{{< /highlight >}}
+
+### Add a Signature Line
+
+A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertSignatureLine(com.aspose.words.SignatureLineOptions)) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/java/com.aspose.words/SignatureLineOptions) class.
+
+For example, the picture below {shows|demonstrates} how valid and invalid signatures can be displayed.
+
+<img src="Valid.png" alt="valid-digital-signature" style="width:300px"/>
+
+<img src="Invalid.png" alt="invalid-digital-signature" style="width:300px"/>
+
+Also, if a document contains a signature line and no digital signature, there is a feature to ask the user to add a signature.
+
+The following code example {shows|demonstrates} how to sign a document with a personal certificate and a specific signature line:
+
+{{< highlight java >}}
+// Create a Document.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Set signature line options.
+SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+signatureLineOptions.setSigner("Entername");
+signatureLineOptions.setSignerTitle("QA");
+signatureLineOptions.setEmail("EnterSomeEmail");
+signatureLineOptions.setShowDate(true);
+signatureLineOptions.setDefaultInstructions(false);
+signatureLineOptions.setInstructions("You need more info about signature line");
+signatureLineOptions.setAllowComments(true);
+
+// Insert signature line.
+SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+// Set signing options.
+SignOptions signOptions = new SignOptions();
+signOptions.setSignatureLineId(signatureLine.getId());
+signOptions.setProviderId(signatureLine.getProviderId());
+signOptions.setComments("Document was signed by vderyushev");
+signOptions.setSignTime(new Date());
+
+// Create a certificate.
+CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+// We can sign the signature line programmatically.
+DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+        getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+// Create the shape of the signature line.
+doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+signatureLine = shape.getSignatureLine();
+
+Assert.assertEquals("vderyushev", signatureLine.getSigner());
+Assert.assertEquals("QA", signatureLine.getSignerTitle());
+Assert.assertEquals("vderyushev@aspose.com", signatureLine.getEmail());
+Assert.assertTrue(signatureLine.getShowDate());
+Assert.assertFalse(signatureLine.getDefaultInstructions());
+Assert.assertEquals("You need more info about signature line", signatureLine.getInstructions());
+Assert.assertTrue(signatureLine.getAllowComments());
+Assert.assertTrue(signatureLine.isSigned());
+Assert.assertTrue(signatureLine.isValid());
+
+// Loading signatures.
+DigitalSignatureCollection signatures = DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+
+Assert.assertEquals(1, signatures.getCount());
+Assert.assertTrue(signatures.get(0).isValid());
+Assert.assertEquals("Document was signed by vderyushev", signatures.get(0).getComments());
+Assert.assertEquals("CN=Morzal.Me", signatures.get(0).getIssuerName());
+Assert.assertEquals(DigitalSignatureType.XML_DSIG, signatures.get(0).getSignatureType());
+{{< /highlight >}}
+
+### Sign a Generated {PDF Document|PDF} {#sign-a-generated-pdf-document}
+
+Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://apireference.aspose.com/words/java/com.aspose.words/PdfDigitalSignatureDetails) properties.
+
+The following code example {shows|demonstrates} how to sign a generated PDF:
+
+{{< highlight java >}}
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.writeln("Signed PDF contents.");
+
+// Load the certificate from disk.
+// The other constructor overloads can be used to load certificates from different locations.
+CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+// Pass the certificate and details to the save options class to sign with.
+PdfSaveOptions options = new PdfSaveOptions();
+Date signingTime = new Date();
+options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", signingTime));
+
+// We can use this attribute to set a different hash algorithm.
+options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.SHA_256);
+
+Assert.assertEquals("Test Signing", options.getDigitalSignatureDetails().getReason());
+Assert.assertEquals("Aspose Office", options.getDigitalSignatureDetails().getLocation());
+Assert.assertEquals(signingTime, options.getDigitalSignatureDetails().getSignatureDate());
+
+doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+{{< /highlight >}}
+
+The picture below demonstrates that the generated PDF document is opened in Adobe Acrobat and the digital signature is verified as present and valid.
+
+![create-digital-signed-pdf-aspose-words-java](http://i.imgur.com/ThH0zHa.png)
+
+## Remove Digital Signatures
+
+Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignatureutil#removeAllSignatures(java.io.InputStream,java.io.OutputStream)) method.
+
+The following code example {shows|demonstrates} how to load and remove digital signatures from a document:
+
+{{< highlight java >}}
+// Load digital signatures via filename string to verify that the document is signed.
+DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.loadSignatures(getMyDir() + "Digitally signed.docx");
+Assert.assertEquals(1, digitalSignatures.getCount());
+
+// Re-save the document to an output filename with all digital signatures removed.
+DigitalSignatureUtil.removeAllSignatures(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
+
+// Remove all signatures from the document using stream parameters.
+try(FileInputStream streamIn = new FileInputStream(getMyDir() + "Digitally signed.docx");
+	FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"))
+{
+	DigitalSignatureUtil.removeAllSignatures(streamIn, streamOut);
+}
+
+// We can also load a document's digital signatures via stream, which we will do to verify that all signatures have been removed.
+try (FileInputStream stream = new FileInputStream(getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx");)
+{
+	digitalSignatures = DigitalSignatureUtil.loadSignatures(stream);
+	Assert.assertEquals(0, digitalSignatures.getCount());
+}
+{{< /highlight >}}
+
+{{% alert color="primary" %}}
+
+Note that you can not remove only one digital signature within your document.
+
+{{% /alert %}}
