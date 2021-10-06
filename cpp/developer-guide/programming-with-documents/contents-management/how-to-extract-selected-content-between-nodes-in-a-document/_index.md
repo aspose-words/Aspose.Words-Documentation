@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Extract Selected Content Between Nodes in a Document
 type: docs
 weight: 140
@@ -125,7 +125,7 @@ This example shows how to use the Visitor pattern to add new operations to the A
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentUsingDocumentVisitor-ExtractContentUsingDocumentVisitor.cpp" >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Document/Visitor.ToText.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/DocumentVisitor-compatible%20features.docx).
 
 ## How to Extract Text Only
 

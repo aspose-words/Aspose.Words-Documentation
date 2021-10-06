@@ -1,24 +1,55 @@
 ---
-title: Remove the Headers and Footers from a Word Processing Document
+title: Remove Headers and Footers from a Word Document
+description: "Aspose.Words for .NET allows you to remove headers or footers from a word processing document easily and fast instead of using Open XML SDK."
 type: docs
-weight: 110
+weight: 70
 url: /net/remove-headers-footers-from-word-processing-document/
 aliases: [/net/remove-the-headers-and-footers-from-a-word-processing-document/]
 ---
 
-## OpenXML Word
+On this page we will look at how to remove headers or footers from a Word processing document using Aspose.Words or Open XML SDK.
 
-To use the sample code , you must install the Open XML SDK 2.5. You must then explicitly reference the following assemblies in your project.
+{{< nosnippet >}}
+
+{{< tabs tabTotal="2" tabID="1" tabName1="Aspose.Words" tabName2="Open XML SDK" >}}
+
+{{< tab tabNum="1" >}}
+
+Aspose.Words provide API for working with headers and footers in Microsoft Word document. We can use the [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/headerfootercollection) object to get the collection of header/footer in a document section. The [HeaderFooter](https://apireference.aspose.com/words/net/aspose.words/headerfooter) class is a container for section header or footer text. That being said, **HeaderFooter** is a section-level node and can only be a child of a section. There can be only one or each **HeaderFooter** of [HeaderFooterType](https://apireference.aspose.com/words/net/aspose.words/headerfootertype) in a section.
+
+The following code example shows how to remove header and footer from a Word document:
+
+{{< highlight csharp >}}
+Document doc = new Document(MyDir + "Document.docx");
+foreach (Section section in doc)
+{
+	section.HeadersFooters.RemoveAt(0);
+	// Odd pages use the primary footer.
+	HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
+	footer?.Remove();
+}
+doc.Save(ArtifactsDir + "Remove header and footer - Aspose.Words.docx");
+{{< /highlight >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
+
+To use the code example, you must install the Open XML SDK 2.5. Then you must explicitly reference the following assemblies in your project:
 
 - WindowsBase
 - DocumentFormat.OpenXml (installed by the Open XML SDK)
 
-You must also use the following using directives or Imports statements to compile the code in this topic.
+Following are the namespaces we need to add:
 
 {{< highlight csharp >}}
-using DocumentFormat.OpenXml;
+using System.IO;
+using System.Linq;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
+using NUnit.Framework;
 {{< /highlight >}}
 
 The **RemoveHeadersAndFooters** method works with the document you specify, deleting all of the header and footer parts and references to those parts. The code starts by opening the document, using the Open method and indicating that the document should be opened for read/write access (the final true parameter). Given the open document, the code uses the **MainDocumentPart** property to navigate to the main document, storing the reference in a variable named docPart.
@@ -27,95 +58,56 @@ Given a reference to the document part, the code next determines if it has any w
 
 To remove the stranded references, the code first retrieves a collection of **HeaderReference** elements, converts the collection to a List, and then loops through the collection, calling the **Remove** method for each element found.
 
-Below is the code sample
+The following code example shows how to remove header and footer from a Word document:
 
 {{< highlight csharp >}}
-string FilePath = @"..\..\..\..\Sample Files\";
-string fileName = FilePath + "RemoveHeaderFooter.docx";
-RemoveHeadersAndFooters(fileName);
-
-// Remove all of the headers and footers from a document.
-public static void RemoveHeadersAndFooters(string filename)
+public void RemoveHeaderFooterFeature()
 {
-// Given a document name, remove all of the headers and footers
-
-// from the document.
-using (WordprocessingDocument doc =
-   WordprocessingDocument.Open(filename, true))
-{
-// Get a reference to the main document part.
-var docPart = doc.MainDocumentPart;
-
-// Count the header and footer parts and continue if there
-
-// are any.
-if (docPart.HeaderParts.Count() > 0 ||
-	docPart.FooterParts.Count() > 0)
-{
-	// Remove the header and footer parts.
-	docPart.DeleteParts(docPart.HeaderParts);
-	docPart.DeleteParts(docPart.FooterParts);
-
-	// Get a reference to the root element of the main
-	// document part.
-	Document document = docPart.Document;
-	
-	// Remove all references to the headers and footers.
-	// First, create a list of all descendants of type
-	// HeaderReference. Then, navigate the list and call
-	// Remove on each item to delete the reference.
-	var headers =
-	  document.Descendants<HeaderReference>().ToList();
-	foreach (var header in headers)
+	using (WordprocessingDocument doc = WordprocessingDocument.Open(MyDir + "Document.docx", true))
 	{
-		header.Remove();
+		var mainDocumentPart = doc.MainDocumentPart;
+		// Count the header and footer parts and continue if there are any.
+		if (mainDocumentPart.HeaderParts.Any() || mainDocumentPart.FooterParts.Any())
+		{
+			// Remove the header and footer parts.
+			mainDocumentPart.DeleteParts(mainDocumentPart.HeaderParts);
+			mainDocumentPart.DeleteParts(mainDocumentPart.FooterParts);
+			// Get a reference to the root element of the main document part.
+			Document document = mainDocumentPart.Document;
+			// Remove all references to the headers and footers.
+			// First, create a list of all descendants of type HeaderReference.
+			// Then, navigate the list and call remove on each item to delete the reference.
+			var headers = document.Descendants<HeaderReference>().ToList();
+			foreach (var header in headers)
+				header.Remove();
+			// First, create a list of all descendants of type FooterReference.
+			// Then, navigate the list and call remove on each item to delete the reference.
+			var footers = document.Descendants<FooterReference>().ToList();
+			foreach (var footer in footers)
+				footer.Remove();
+			using (Stream stream = File.Create(ArtifactsDir + "Remove header and footer - OpenXML.docx"))
+			{
+				document.Save(stream);
+			}
+		}
 	}
-	
-	// First, create a list of all descendants of type
-	// FooterReference. Then, navigate the list and call
-	// Remove on each item to delete the reference.
-	var footers =
-	  document.Descendants<FooterReference>().ToList();
-	foreach (var footer in footers)
-	{
-		footer.Remove();
-	}
-	
-	// Save the changes.
-	document.Save();
-}
 }
 {{< /highlight >}}
 
-## Aspose.Words
+{{< /tab >}}
 
-**Aspose.Words** provide API for header and footer of MS Word document. We can use **Section.HeadersFooters** property to get the collection of header/footer in a section of document. **HeaderFooter** class represents a container for the header or footer text of a section. **HeaderFooter** can contain Paragraph and Table child nodes.
+{{< /tabs >}}
 
-**HeaderFooter** is a section-level node and can only be a child of Section. There can only be one **HeaderFooter** or each **HeaderFooterType** in a Section.
+{{< /nosnippet >}}
 
-Below is the sample code to remove header and footer from Word Document.
+{{% alert color="primary" %}}
 
-{{< highlight csharp >}}
- string FilePath = @"..\..\..\..\Sample Files\";
- string fileName = FilePath + "RemoveHeaderFooter.docx";
- Document doc = new Document(fileName);
- foreach (Section section in doc)
- {
-   section.HeadersFooters.RemoveAt(0);
-   HeaderFooter footer;
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
 
-   // Primary footer is the footer used for odd pages.
-   footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
-   if (footer != null)
-     footer.Remove();
-  }
-  doc.Save(fileName);
-{{< /highlight >}}
+{{% /alert %}}
 
-## Download Sample Code
+{{% alert color="primary" %}} 
 
-- [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
-- [SourceForge](http://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/RemoveHeaderFooter.zip/download)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/RemoveHeaderFooter.zip)
+For more information about Aspose.Words features please visit [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/).
+
+{{% /alert %}}

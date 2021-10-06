@@ -1,64 +1,81 @@
 ---
-title: Retrieve Comments from a Word Processing Document
+title: Retrieve Comments from a Document
+description: "Aspose.Words for .NET allows you to retrieve comments from a word processing  document easily and fast instead of using Open XML SDK."
 type: docs
-weight: 100
+weight: 190
 url: /net/retrieve-comments-from-a-word-processing-document/
 ---
 
-## OpenXML SDK
+On this page we will look at how to retrieve comments from a Word Processing  document  using Aspose.Words or Open XML SDK.
+
+{{< nosnippet >}}
+
+{{< tabs tabTotal="2" tabID="1" tabName1="Aspose.Words" tabName2="Open XML SDK" >}}
+
+{{< tab tabNum="1" >}}
+
+In Aspose.Words, use the [Comment](https://apireference.aspose.com/words/net/aspose.words/comment) class and  the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method to get all comments from a document.
+
+The following code example shows how to retrieve comments from a Word Document:
 
 {{< highlight csharp >}}
-string FilePath = @"..\..\..\..\Sample Files\";
-string fileName = FilePath + "Retrieve comments.docx";
-GetCommentsFromDocument(fileName);
-public static void GetCommentsFromDocument(string fileName)
+public void RetrieveCommentsFeature()
 {
-    using (WordprocessingDocument wordDoc =
-        WordprocessingDocument.Open(fileName, false))
-    {
-        WordprocessingCommentsPart commentsPart =
-            wordDoc.MainDocumentPart.WordprocessingCommentsPart;
-        if (commentsPart != null && commentsPart.Comments != null)
-        {
-            foreach (Comment comment in commentsPart.Comments.Elements<Comment>())
-            {
-                Console.WriteLine(comment.InnerText);
-            }
-        }
-    }
+	Document doc = new Document(MyDir + "Comments.docx");
+	ArrayList collectedComments = new ArrayList();
+	NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
+	// Look through all comments and gather information about them.
+	foreach (Comment comment in comments)
+	collectedComments.Add(comment.Author + " " + comment.DateTime + " " + comment.ToString(SaveFormat.Text));
+	foreach (string collectedComment in collectedComments)
+		Console.WriteLine(collectedComment);
 }
 {{< /highlight >}}
 
-## Aspose.Words
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
+
+Following are the namespaces we need to add:
 
 {{< highlight csharp >}}
-string FilePath = @"..\..\..\..\Sample Files\";
-string fileName = FilePath + "Retrieve comments.docx";  
-Document doc = new Document(fileName);
-ExtractComments(doc);
-public static void ExtractComments(Document doc)
-{
-    ArrayList collectedComments = new ArrayList();
+using System;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Wordprocessing;
+using NUnit.Framework;
+{{< /highlight >}}
 
-    // Collect all comments in the document
-    NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-    
-    // Look through all comments and gather information about them.
-    foreach (Comment comment in comments)
-    {
-        collectedComments.Add(comment.Author + " " + comment.DateTime + " " + comment.ToString(SaveFormat.Text));
-    }
-    foreach (string collectedComment in collectedComments)
-    {
-        Console.WriteLine(collectedComment);
-    }
+The following code example shows how to retrieve comments from a Word Document:
+
+{{< highlight csharp >}}
+public static void RetrieveCommentsFeature()
+{
+	using (WordprocessingDocument wordDoc = WordprocessingDocument.Open(MyDir + "Comments.docx", false))
+	{
+		WordprocessingCommentsPart commentsPart = wordDoc.MainDocumentPart.WordprocessingCommentsPart;
+		if (commentsPart?.Comments != null)
+			foreach (Comment comment in commentsPart.Comments.Elements<Comment>())
+				Console.WriteLine(comment.InnerText);
+	}
 }
 {{< /highlight >}}
 
-## Download Sample Code
+{{< /tab >}}
 
-- [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
-- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/Retrieve%20comments%20from%20a%20word%20processing%20document%20\(Aspose.Words\).zip/download)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/wiki/Retrieve%20comments%20from%20a%20word%20processing%20document)
+{{< /tabs >}}
+
+{{< /nosnippet >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
+
+{{% /alert %}}
+
+{{% alert color="primary" %}} 
+
+For more information about Aspose.Words features please visit [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/).
+
+{{% /alert %}}

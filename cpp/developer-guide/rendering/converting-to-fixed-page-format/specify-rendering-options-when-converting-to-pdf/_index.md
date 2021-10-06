@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Rendering Options When Converting to PDF
 description: "Aspose.Words for C++ provides the ability to convert DOC or DOCX to PDF. To change the result of saving a document to PDF format, you need to specify additional options for the PdfSaveOptions class."
 type: docs
@@ -150,7 +150,7 @@ The example provided below demonstrates how to set Aspose.Words to avoid embeddi
 
 {{% alert color="primary" %}} 
 
-You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Rendering-Printing/Rendering.doc).
+You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}} 
 
