@@ -89,7 +89,7 @@ We offer free support. Anyone who uses our product, whether they have bought the
 You can log any issues or suggestions related to this add-on using any of the following platforms:
 
 - [Codeplex](https://archive.codeplex.com/?p=asposewordsoffice)
-- [Github](https://github.com/asposewords/Aspose.Words-for-.NET/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 
 
 ### Extend and Contribute

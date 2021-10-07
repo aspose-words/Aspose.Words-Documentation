@@ -25,7 +25,7 @@ Aspose.Words presents the find and replace functionality with the [Aspose.Words.
 
 ### Find and Replace String Using Simple String Replacement {#find-and-replace-text-using-simple-string-replacement}
 
-You can use one of the [Replace](https://apireference.aspose.com/net/words/aspose.words/range/methods/replace/index) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
+You can use one of the [Replace](https://apireference.aspose.com/words/net/aspose.words/range/methods/replace/index) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
 
 The following code example demonstrates how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
@@ -73,7 +73,7 @@ The following code example shows how to replace text with paragraph and page bre
 
 ## Find and Replace Text in Header/Footer of a Document {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://apireference.aspose.com/net/words/aspose.words/headerfooter) class.
+You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://apireference.aspose.com/words/net/aspose.words/headerfooter) class.
 
 The following code example demonstrates how to replace the text of the header section in your document:
 

@@ -20,8 +20,8 @@ When Aspose.Words reads a Word document into memory, it creates objects of diffe
 
 The document tree in Aspose.Words follows the Composite Design Pattern:
 
-- All node classes ultimately derive from the [Node](https://apireference.aspose.com/net/words/aspose.words/node) class, which is the base class in the Aspose.Words Document Object Model.
-- Nodes that can contain other nodes, for example, **Section** or **Paragraph**, derive from the [CompositeNode](https://apireference.aspose.com/net/words/aspose.words/compositenode) class, which in turn derives from the **Node** class.
+- All node classes ultimately derive from the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class, which is the base class in the Aspose.Words Document Object Model.
+- Nodes that can contain other nodes, for example, **Section** or **Paragraph**, derive from the [CompositeNode](https://apireference.aspose.com/words/net/aspose.words/compositenode) class, which in turn derives from the **Node** class.
 
 The diagram provided below shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
 
@@ -29,7 +29,7 @@ The diagram provided below shows inheritance between node classes of the Aspose.
 
 {{% alert color="primary" %}}
 
-The Aspose.Words DOM also contains the non-node classes, such as [Style](https://apireference.aspose.com/net/words/aspose.words/style) or [Font](https://apireference.aspose.com/net/words/aspose.words/font), which are used to customize the appearance and styles  within a document. These classes are not shown in this diagram as not inherited from the Node class.
+The Aspose.Words DOM also contains the non-node classes, such as [Style](https://apireference.aspose.com/words/net/aspose.words/style) or [Font](https://apireference.aspose.com/words/net/aspose.words/font), which are used to customize the appearance and styles  within a document. These classes are not shown in this diagram as not inherited from the Node class.
 
 {{% /alert %}}
 
@@ -45,9 +45,9 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 ### Get a Node Type {#get-a-node-type}
 
-Although the [Node](https://apireference.aspose.com/net/words/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/net/words/aspose.words/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
+Although the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/net/aspose.words/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
-The type of each node can be obtained using the [NodeType](https://apireference.aspose.com/net/words/aspose.words/node/properties/nodetype) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
+The type of each node can be obtained using the [NodeType](https://apireference.aspose.com/words/net/aspose.words/node/properties/nodetype) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
 
 The following example shows how to get a node type using the **NodeType** enumeration:
 
