@@ -1,4 +1,4 @@
-﻿---
+---
 title: Translate Markdown to Document Object Model (DOM)
 type: docs
 description: "Aspose.Words for .NET {allows|enables} to tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
@@ -82,24 +82,24 @@ builder.Writeln("This is an H1 tag");
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 
-Style setexHeading1 = doc.Style.Add(StyleType.Paragraph, "SetexHeading1");
-builder.ParagraphFormat.StyleName = setexHeading1;
-doc.Styles["SetexHeading1"].BaseStyleName = "Heading 1";
-builder.Writeln("Setex Heading level 1");
+Style setexHeading1 = builder.Document.Styles.Add(StyleType.Paragraph, "SetextHeading1");
+builder.ParagraphFormat.Style = setexHeading1;
+builder.Document.Styles["SetextHeading1"].BaseStyleName = "Heading 1";
+builder.Writeln("Setext Heading level 1");
 
-builder.ParagraphFormat.Style = doc.Styles["Heading 3"];
+builder.ParagraphFormat.Style = builder.Document.Styles["Heading 3"];
 builder.Writeln("This is an H3 tag");
 
 // Reset styles from the previous paragraph to not combine styles between paragraphs.
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 
-Style setexHeading1 = doc.Style.Add(StyleType.Paragraph, "SetexHeading2");
-builder.ParagraphFormat.StyleName = setexHeading2;
-doc.Styles["SetexHeading2"].BaseStyleName = "Heading 3";
+Style setexHeading2 = builder.Document.Styles.Add(StyleType.Paragraph, "SetextHeading2");
+builder.ParagraphFormat.Style = setexHeading2;
+builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setex Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
 | **Indented Code**                                            | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`    |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}} |                                                              |
 | **Fenced Code**<br />{{< highlight csharp >}}``` c#
@@ -124,14 +124,27 @@ builder.ParagraphFormat.StyleName = "Quote";
 builder.Writeln("Blockquote");
 
 // Create styles for nested levels through style inheritance.
-Style quoteLevel2 = doc.Style.Add(StyleType.Paragraph, "Quote1");
-builder.ParagraphFormat.StyleName = quoteLevel2;
-doc.Style["Quote1"].BaseStyleName = "Quote";
+Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
+builder.ParagraphFormat.Style = quoteLevel2;
+builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
 | **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	`   - Item 2a`<br />	`   - Item 2b` | Bulleted lists are represented using paragraph numbering:<br />`ListFormat.ApplyBulletDefault()`<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `‘-’`, `‘+’` or `‘*’` respectively. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} |                                                              |
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />`ListFormat.ApplyNumberDefault()`<br />There can be 2 number format markers: ‘.’ and ‘)’. The default marker is ‘.’. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-OrderedList.cs" >}} |                                                              |
+| {{< highlight csharp >}}Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.ListFormat.ApplyBulletDefault();
+builder.ListFormat.List.ListLevels[0].NumberFormat = $"{(char) 0}.";
+builder.ListFormat.List.ListLevels[1].NumberFormat = $"{(char) 1}.";
+
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+builder.ListFormat.ListIndent();
+
+builder.Writeln("Item 2a");
+builder.Writeln("Item 2b");{{< /highlight >}} |                                                              |
 
 ### Tables
 
@@ -140,7 +153,20 @@ Aspose.Words also {allows|enables} to translate tables into DOM, as shown below:
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Table`<br />`a|b`<br />`-|-`<br />`c|d`                     | [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [Row](https://apireference.aspose.com/words/net/aspose.words.tables/row) and [Cell](https://apireference.aspose.com/words/net/aspose.words.tables/cell) classes. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Table.cs" >}} |                                                              |
+| {{< highlight csharp >}}// Use a document builder to add content to the document.
+DocumentBuilder builder = new DocumentBuilder();
+
+// Add the first row.
+builder.InsertCell();
+builder.Writeln("a");
+builder.InsertCell();
+builder.Writeln("b");
+
+// Add the second row.
+builder.InsertCell();
+builder.Writeln("c");
+builder.InsertCell();
+builder.Writeln("d");{{< /highlight >}} |                                                              |
 
 ## See Also
 
