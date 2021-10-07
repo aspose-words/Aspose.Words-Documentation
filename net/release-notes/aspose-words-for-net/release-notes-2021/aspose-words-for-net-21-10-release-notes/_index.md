@@ -415,7 +415,7 @@ A new public enum has been introduced:
 public enum TextureAlignment
 {{< /highlight >}}
 
-Use Case: CExplains how to get and apply a TextureAlignment for the tiling of the texture fill.
+Use Case: Explains how to get and apply a TextureAlignment for the tiling of the texture fill.
 {{< highlight csharp >}}
 // Open some document with a textured shape.
 Document doc = new Document("TexturedShape.docx");
