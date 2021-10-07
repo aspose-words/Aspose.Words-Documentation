@@ -331,6 +331,7 @@ public GradientStop(Color color, double position, double transparency) : this(co
 /// Removes the gradient stop from the parent <see cref="GradientStopCollection"/>.
 /// </summary>
 public void Remove()
+{{< /highlight >}}
 
 and the following public properties:
 {{< highlight csharp >}}
