@@ -146,8 +146,7 @@ using (var document = WordprocessingDocument.Open(fileName, true))
 
 ## Download Sample Code
 
-- [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
+- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2) 
 - [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/Add%20table%20to%20Word%20Document%20\(Aspose.Words\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Add%20table%20to%20Word%20Document%20\(Aspose.Words\).zip)

@@ -73,7 +73,7 @@ With Aspose.Words for Java, you can generate, modify, convert, render, and print
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
 			<ul>
-				<li><a href="https://forum.aspose.com/c/words">Aspose.Words for Java Free Support Forum</a></li>
+				<li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for Java Free Support Forum</a></li>
 			</ul>
 	</div>
 </div>

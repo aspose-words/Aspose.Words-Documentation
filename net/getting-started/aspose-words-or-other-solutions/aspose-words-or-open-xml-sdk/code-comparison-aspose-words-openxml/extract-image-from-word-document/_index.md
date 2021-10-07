@@ -54,15 +54,14 @@ url: /net/extract-image-from-word-document/
 
 ## Download Running Example
 
-- [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
+- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
+
 
 ## Download Sample Code
 
 - [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml#Aspose.Words%20VS%20OpenXML/Extract%20Image/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML/Extract%20Image)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7/view/SourceCode#content)
 
 {{% alert color="primary" %}} 
 

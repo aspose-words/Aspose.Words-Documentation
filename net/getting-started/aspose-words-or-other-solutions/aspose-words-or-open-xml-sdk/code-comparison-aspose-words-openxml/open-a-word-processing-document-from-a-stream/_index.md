@@ -52,8 +52,7 @@ private static void OpenAndAddToWordprocessingStream(Stream stream, string txt)
 
 ## Download
 
-- [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
+- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
 - [Sourceforge](http://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/OpenDocumentFromStream.zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/OpenDocumentFromStream.zip)

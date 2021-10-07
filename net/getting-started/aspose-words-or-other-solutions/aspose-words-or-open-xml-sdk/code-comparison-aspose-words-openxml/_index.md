@@ -21,7 +21,7 @@ This section includes the following topics:
 - [Remove the headers and footers from a word processing document](https://docs.aspose.com/words/net/remove-the-headers-and-footers-from-a-word-processing-document/)
 - [Open a word processing document for read-only access](https://docs.aspose.com/words/net/open-a-word-processing-document-for-read-only-access/)
 - [Open a word processing document from a stream](https://docs.aspose.com/words/net/open-a-word-processing-document-from-a-stream/)
-- [Convert a word processing document from the DOCM to the DOCX file format](https://docs.aspose.com/words/net/convert-a-word-processing-document-from-the-docm-to-the-docx-file-format/)
+- [Convert a word processing document from the DOCM to the DOCX file format](https://docs.aspose.com/words/net/convert-a-word-processing-document-from-docm-to-docx/)
 - [Get and Set Bookmark Text](https://docs.aspose.com/words/net/get-and-set-bookmark-text/)
 - [Remove Hidden Text from Document](https://docs.aspose.com/words/net/remove-hidden-text-from-document/)
 - [Remove Page Breaks from Document](https://docs.aspose.com/words/net/remove-page-breaks-from-document/)

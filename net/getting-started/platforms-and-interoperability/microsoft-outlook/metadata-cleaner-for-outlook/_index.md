@@ -41,9 +41,9 @@ This add-on will work with all version of:
 
 You can download the latest solution at:
 
-- [Codeplex](https://asposewordsoutlook.codeplex.com/releases/view/619420)
+- [Codeplex](https://archive.codeplex.com/?p=asposewordsoutlook)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MetadataCleanerOutlook)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-80b9dc89)
+
 
 ## Installing or Uninstalling
 
@@ -90,14 +90,14 @@ You can log any issues or suggestions related to this add-on using any of the fo
 
 - [Codeplex](https://archive.codeplex.com/?p=asposewordsoffice)
 - [Github](https://github.com/asposewords/Aspose.Words-for-.NET/issues)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-80b9dc89/view/Discussions#content)
+
 
 ### Extend and Contribute
 
 You can download the latest source code at:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Outlook/Aspose.Words%20Metadata%20Cleaner)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-80b9dc89)
+
 
 To Extend, Open the Project in Visual Studio. It contains both the source code and setup project.
 Here is some sample code to help you extend the code according to your own need:

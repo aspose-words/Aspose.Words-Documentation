@@ -41,4 +41,4 @@ After installing the package, Aspose.Words will find these fonts in the folders�
 
 ## See Also
 
-- [Liberation Fonts](https://fedorahosted.org/liberation-fonts/) as an alternative to standard Windows fonts
+- [Liberation Fonts](https://github.com/liberationfonts) as an alternative to standard Windows fonts
