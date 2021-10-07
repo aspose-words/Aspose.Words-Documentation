@@ -56,7 +56,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template|N/A| | |
-|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>There is a save option that controls whether document properties are exported or not. <br><br>Title, Keywords, Description properties are always exported as title and meta tags to HTML or MHTML and as the appropriate Dublin Core tags when saving as EPUB. <br><br>Additional built-in properties are exported as custom &lt;o:&gt; tags. In EPUB format properties are also exported as Dublin Core tags.|<p>- [Document.UpdateWordCount](https://apireference.aspose.com/java/words/com.aspose.words/document#updateWordCount\(\))</p><p>- **HtmlSaveOptions.ExportDocumentProperties**</p>|
+|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>There is a save option that controls whether document properties are exported or not. <br><br>Title, Keywords, Description properties are always exported as title and meta tags to HTML or MHTML and as the appropriate Dublin Core tags when saving as EPUB. <br><br>Additional built-in properties are exported as custom &lt;o:&gt; tags. In EPUB format properties are also exported as Dublin Core tags.|<p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/java/com.aspose.words/document#updateWordCount\(\))</p><p>- **HtmlSaveOptions.ExportDocumentProperties**</p>|
 |Custom Properties|Yes|Custom properties are exported as custom &lt;o:&gt; tags to HTML.|- **HtmlSaveOptions.ExportDocumentProperties**|
 |Custom Payload Part|N/A| | |
 |Custom XML Data Storage|N/A| | |
@@ -75,7 +75,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |VBA Project (Macro)|N/A|Macros are not exported to HTML based formats.| |
 |VBA Project Digital Signature|N/A| | |
 |Background|Yes|Only solid background is exported. Exported as style="background:xxx" on each &lt;body&gt; tag. <br><br>There are plans to export background shape as style-background.| |
-|Thumbnail|Yes|You can include a cover image on output EPUB documents either by importing an existing image or by generating a thumbnail of one of the document page's using Aspose.Words|- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/java/words/com.aspose.words/BuiltInDocumentProperties#Thumbnail)|
+|Thumbnail|Yes|You can include a cover image on output EPUB documents either by importing an existing image or by generating a thumbnail of one of the document page's using Aspose.Words|- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/java/com.aspose.words/BuiltInDocumentProperties#Thumbnail)|
 
 ## Embedded Fonts
 
