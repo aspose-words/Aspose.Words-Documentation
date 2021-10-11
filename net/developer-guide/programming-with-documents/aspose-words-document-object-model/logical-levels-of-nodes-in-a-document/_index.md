@@ -16,7 +16,7 @@ The following sections describe the logical levels of nodes in Aspose.Words and 
 
 A Word document consists of one or more sections, represented by the [Section](https://apireference.aspose.com/words/net/aspose.words/section) class and separated by section breaks. A section can define its own page size, margins, orientation, number of text columns, and headers and footers.
 
-[Document](https://apireference.aspose.com/net/words/aspose.words/document) and [Section](http://www.aspose.com/api/net/words/aspose.words/section) level nodes have the structure as shown in the following diagram.
+[Document](https://apireference.aspose.com/words/net/aspose.words/document) and [Section](http://www.aspose.com/api/net/words/aspose.words/section) level nodes have the structure as shown in the following diagram.
 
 <img src="document-and-section-level.png" alt="document-and-section-level-aspose-words" style="width:700px"/>
 

@@ -115,4 +115,11 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 For more information about Aspose.Words features please visit [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/).
 
+
 {{% /alert %}}
+
+- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/Delete%20comments%20by%20all%20or%20a%20specific%20author%20\(Aspose.Words\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/wiki/Delete%20comments%20by%20all%20or%20a%20specific%20author)
+

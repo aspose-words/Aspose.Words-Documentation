@@ -58,7 +58,7 @@ The following code example demonstrates how to remove the empty paragraphs:
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/MailMerge/RemoveRowfromTable.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/MailMergeRemoveRowfromTable.docx).
 
 {{% /alert %}}
 
@@ -72,7 +72,7 @@ The following code example shows how to remove the unused merge regions:
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/MailMerge/TestFile Empty.doc).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/MailMergeTestFile Empty.doc).
 
 {{% /alert %}}
 

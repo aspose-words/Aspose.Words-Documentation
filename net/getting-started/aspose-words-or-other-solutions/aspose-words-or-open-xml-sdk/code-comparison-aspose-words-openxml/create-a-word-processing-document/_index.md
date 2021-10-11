@@ -76,4 +76,11 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 For more information about Aspose.Words features please visit [Create or Load a Document](https://docs.aspose.com/words/net/create-or-load-a-document/).
 
+
 {{% /alert %}}
+
+- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/Create%20a%20word%20processing%20document%20\(Aspose.Words\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Create%20a%20word%20processing%20document%20\(Aspose.Words\).zip)
+

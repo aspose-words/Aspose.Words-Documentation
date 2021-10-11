@@ -40,7 +40,7 @@ You may need to accept tracked changes before saving to different formats or els
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/java/words/com.aspose.words/document#acceptAllRevisions\(\))
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#acceptAllRevisions\(\))
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

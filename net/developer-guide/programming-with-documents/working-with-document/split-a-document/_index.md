@@ -109,7 +109,7 @@ The following code example shows how to split a document into smaller parts by p
 
 ## Callback Option for Saving a Document {#callback-option-for-saving-a-document}
 
-You can use the [DocumentPartSavingCallback](https://apireference.aspose.com/net/words/aspose.words.saving/htmlsaveoptions/properties/documentpartsavingcallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property allows you to rename output files or even to redirect them into custom streams.
+You can use the [DocumentPartSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/documentpartsavingcallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property allows you to rename output files or even to redirect them into custom streams.
 
 Please note that this callback is not useful when saving to EPUB because all output parts must be saved into a single container – the .epub file. So, stream redirection is not supported, and the effect of renaming is not visible since files are renamed inside the container.
 

@@ -73,4 +73,11 @@ public void OpenAndAddTextToWordDocumentFeature()
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
 
+
 {{% /alert %}}
+
+- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/Open%20and%20add%20text%20to%20Word%20Document%20\(Aspose.Words\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Open%20and%20add%20text%20to%20Word%20Document%20\(Aspose.Words\).zip)
+

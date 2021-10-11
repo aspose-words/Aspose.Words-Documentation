@@ -14,8 +14,8 @@ For a complete list of parameters such as [ContinuousSectionPageNumberingRestart
 
 Aspose.Words enables to manage formatting marks using the following properties:
 
-- [ShowHiddenText](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/showhiddentext) – a Boolean value, which specifies whether the hidden text is rendered.
-- [ShowParagraphMarks](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/showparagraphmarks) – a Boolean value, which specifies whether paragraph mark characters are rendered.
+- [ShowHiddenText](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/showhiddentext) – a Boolean value, which specifies whether the hidden text is rendered.
+- [ShowParagraphMarks](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/showparagraphmarks) – a Boolean value, which specifies whether paragraph mark characters are rendered.
 
 The page depicted in the example below contains three paragraphs. The second one is hidden. A user can change the **ShowHiddenText** option to display this hidden text on the page. Also, each paragraph has a paragraph mark at the end. The paragraph mark usually is not visible unless the **ShowParagraphMarks** property is set to render it.
 
@@ -27,13 +27,13 @@ In Microsoft Word, these parameters are set using the "File → Options → Disp
 
 ## Comments and Revisions
 
-With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/showcomments) property.
+With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/showcomments) property.
 
 In Microsoft Word, this parameter is set using the "Track Changes Options" dialog box, as shown below:
 
 ![specify-layout-options_3](specify-layout-options_3.jpg)
 
-Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/revisionoptions) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/net/words/aspose.words.layout/revisionoptions) class.
+Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/revisionoptions) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/words/net/aspose.words.layout/revisionoptions) class.
 
 You can also have revisions displayed as comments to the content. For this purpose, use the [CommentDisplayMode](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/commentdisplaymode) property and [ShowInBalloons](https://apireference.aspose.com/words/net/aspose.words.layout/commentdisplaymode) value.
 
@@ -47,7 +47,7 @@ The image below demonstrates how Aspose.Words renders comments and the Delete re
 
 ## Text Shaper for Advanced Typography Rendering
 
-The [TextShaperFactory](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/textshaperfactory) property allows you to set the text shaping functionality, as well as the OpenType features support.
+The [TextShaperFactory](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory) property allows you to set the text shaping functionality, as well as the OpenType features support.
 
 Use text shaping for document processing in the following main cases:
 

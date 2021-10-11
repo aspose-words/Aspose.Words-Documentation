@@ -122,7 +122,7 @@ Aspose.Words allows developers to apply a metered key. This is a new licensing m
 
 The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
 
-After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/java/words/com.aspose.words/Metered) class specially introduced for this purpose.
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/words/java/com.aspose.words/Metered) class specially introduced for this purpose.
 
 The following code example demonstrates how to set metered public and private keys:
 

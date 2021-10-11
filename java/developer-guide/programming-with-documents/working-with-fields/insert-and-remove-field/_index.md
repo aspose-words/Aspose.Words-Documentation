@@ -127,7 +127,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/java/words/com.aspose.words/FieldIncludeText). Below example demonstrates how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example demonstrates how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertIncludeFieldWithoutDocumentBuilder.java" >}}
 
@@ -137,7 +137,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 { TOA [Switches ] }
 
-Please refer to [FieldToa Class API reference](https://apireference.aspose.com/java/words/com.aspose.words/FieldToa). The following code example demonstrates how to Add a TOA field using DOM to a Paragraph in Document.
+Please refer to [FieldToa Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldToa). The following code example demonstrates how to Add a TOA field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAFieldWithoutDocumentBuilder.java" >}}
 
