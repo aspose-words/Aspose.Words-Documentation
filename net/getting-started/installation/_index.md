@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installation
 description: "Install Aspose.Words for .NET using Visual Studio tools such as Manage NuGet Packages or Package Manager Console and the MSI installer. Use the Full Trust permission set."
 type: docs
@@ -10,7 +10,7 @@ Make sure your machine meets the [system requirements](https://docs.aspose.com/w
 
 This article explains how to instal Aspose.Words for .NET on your computer.
 
-## Install or Update Aspose.Words for .NET using Manage NuGet Packages
+## Install or Update Aspose.Words for .NET using Manage NuGet Packages {#install-or-update-aspose-words-for-net-using-nuget}
 
 NuGet is the easiest way to download and install [Aspose.Words for .NET](https://www.nuget.org/packages/Aspose.Words/) APIs. To do this, follow these steps:
 
@@ -37,8 +37,6 @@ You can also install or update Aspose.Words for .NET APIs using the *Package Man
    {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula), it is recommended to read the license referenced in the URL.{{% /alert %}}
 4. Now you may find that Aspose.Words has been successfully added and referenced in your application for you<br>
    <img src="aspose-words-nuget-references.png" alt="aspose-words-nuget-references" style="width:400px"/>
-
-
 
 In *Package Manager Console*, you can also use the `Update-Package Aspose.Words` command to check for updates to the Aspose.Words package and install them if present. You can also add the `-prerelease` suffix to update the latest release.
 

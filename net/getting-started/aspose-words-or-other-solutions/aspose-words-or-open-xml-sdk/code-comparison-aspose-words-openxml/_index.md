@@ -1,12 +1,18 @@
 ---
-title: Code Comparison for common features with OpenXML
+title: Code Comparison of Features Implemented in Aspose.Words and Open XML SDK
+description: "Take a look at code comparison of some features are implemented in Aspose.Words for .NET and Open XML SDK."
 type: docs
 weight: 50
 url: /net/code-comparison-aspose-words-openxml/
 aliases: [/net/code-comparison-for-common-features-with-openxml/]
 ---
 
-This section includes the following topics:
+This section contains a code comparison for some common features implemented in Aspose.Words and Open XML SDK.
+
+
+As stated, the Open XML SDK and Aspose.Words do not compete with each other because they serve different customer needs. Nevertheless, if you have not yet been able to choose between these solutions, take a look at how the same functions are implemented in Aspose.Words and Open XML SDK.
+
+The pages in this section contain a short description of this or that feature.
 
 - [Add table to Word Document](https://docs.aspose.com/words/net/add-table-to-word-document/)
 - [Insert picture in Word document](https://docs.aspose.com/words/net/insert-picture-in-word-document/)
@@ -28,3 +34,4 @@ This section includes the following topics:
 - [Remove Section Breaks from Document](https://docs.aspose.com/words/net/remove-section-breaks-from-document/)
 - [Search and Replace Text in Document Part](https://docs.aspose.com/words/net/search-and-replace-text-in-document-part/)
 - [Extract Image from Word Document](https://docs.aspose.com/words/net/extract-image-from-word-document/)
+

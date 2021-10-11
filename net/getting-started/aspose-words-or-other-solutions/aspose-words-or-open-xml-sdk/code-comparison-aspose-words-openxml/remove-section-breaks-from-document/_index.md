@@ -1,78 +1,104 @@
 ---
-title: Remove Section Breaks from Document
+title: Remove Section Breaks from a Document
+description: "Aspose.Words for .NET allows you to remove section breaks from a document easily and fast instead of using Open XML SDK."
 type: docs
-weight: 180
+weight: 170
 url: /net/remove-section-breaks-from-document/
 ---
 
-## OpenXML
+On this page we will look at how to remove section breaks from a document using Aspose.Words or Open XML SDK.
 
-Below is the code for removing Section Breaks from MS Word Document using OpenXML SDK.
+{{< nosnippet >}}
 
-{{< highlight csharp >}}
-  string FilePath = @"..\..\..\..\Sample Files\";
-  string fileName = FilePath + "Remove Section Breaks.docx";
-  RemoveSectionBreaks(fileName);
-  static void RemoveSectionBreaks(string filename)
-  {
-    using (WordprocessingDocument myDoc = WordprocessingDocument.Open(filename, true))
-    {
-      MainDocumentPart mainPart = myDoc.MainDocumentPart;
-      List<ParagraphProperties> paraProps = mainPart.Document.Descendants<ParagraphProperties>().Where(pPr => IsSectionProps(pPr)).ToList();
-      foreach (ParagraphProperties pPr in paraProps)
-      {
-         pPr.RemoveChild<SectionProperties>(pPr.GetFirstChild<SectionProperties>());
-      }
-      mainPart.Document.Save();
-    }
-  }
-  static bool IsSectionProps(ParagraphProperties pPr)
-  {
-     SectionProperties sectPr = pPr.GetFirstChild<SectionProperties>();
-     if (sectPr == null)
-       return false;
-     else
-       return true;
-  }
-{{< /highlight >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="Aspose.Words" tabName2="Open XML SDK" >}}
 
-## Aspose.Words
+{{< tab tabNum="1" >}}
 
-Below is the code for removing Section Breaks from MS Word Document using Aspose.Words.
+In Aspose.Words, use the [SectionBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/sectionbreak) field of the [ControlChar](https://apireference.aspose.com/words/net/aspose.words/controlchar) class to find all section breaks.
+
+The following code example shows how to remove page breaks from a document:
 
 {{< highlight csharp >}}
-  string FilePath = @"..\..\..\..\Sample Files\";
-  string fileName = FilePath + "Remove Section Breaks.docx";
-  Document doc = new Document(fileName);
-  RemoveSectionBreaks(doc);
-  private static void RemoveSectionBreaks(Document doc)
-  {
-    // Loop through all sections starting from the section that precedes the last one
-    // and moving to the first section.
-    for (int i = doc.Sections.Count - 2; i >= 0; i--)
-    {
-      // Copy the content of the current section to the beginning of the last section.
-      doc.LastSection.PrependContent(doc.Sections[i]);
-
-      // Remove the copied section.
-      doc.Sections[i].Remove();
-     }
-   }
+Document doc = new Document(MyDir + "Remove section breaks.docx");
+// Loop through all sections starting from the section that precedes the last one 
+for (int i = doc.Sections.Count - 2; i >= 0; i--)
+{
+	// Copy the content of the current section to the beginning of the last section.
+	doc.LastSection.PrependContent(doc.Sections[i]);
+	// Remove the copied section.
+	doc.Sections[i].Remove();
+}
 {{< /highlight >}}
 
-## Download Running Example
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
+
+Following are the namespaces we need to add:
+
+{{< highlight csharp >}}
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Wordprocessing;
+using NUnit.Framework;
+{{< /highlight >}}
+
+The following code example shows how to remove section breaks from a document:
+
+{{< highlight csharp >}}
+public void RemoveSectionBreaksFeature()
+{
+	using (WordprocessingDocument myDoc = WordprocessingDocument.Open(MyDir + "Remove section breaks.docx", true))
+	{
+		MainDocumentPart mainPart = myDoc.MainDocumentPart;
+		List<ParagraphProperties> paraProps = mainPart.Document.Descendants<ParagraphProperties>()
+			.Where(IsSectionProps).ToList();
+		foreach (ParagraphProperties pPr in paraProps)
+			pPr.RemoveChild(pPr.GetFirstChild<SectionProperties>());
+		using (Stream stream = File.Create(ArtifactsDir + "Remove section breaks - OpenXML.docx"))
+		{
+			mainPart.Document.Save(stream);
+		}
+	}
+}
+private static bool IsSectionProps(ParagraphProperties pPr)
+{
+	SectionProperties sectPr = pPr.GetFirstChild<SectionProperties>();
+	if (sectPr == null)
+		return false;
+		return true;
+}
+{{< /highlight >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+
+{{< /nosnippet >}}
 
 - [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 
-## Download Sample Code
+
+{{% alert color="primary" %}}
+
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
+
+{{% /alert %}}
 
 - [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml#Aspose.Words%20VS%20OpenXML/Remove%20Section%20Breaks/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML/Remove%20Section%20Breaks)
 
 
+
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Remove Page and Section Breaks](https://docs.aspose.com/words/net/working-with-sections/#how-to-remove-page-and-section-breaks)
+For more information about Aspose.Words features please visit [Remove Page and Section Breaks](https://docs.aspose.com/words/net/working-with-sections/#how-to-remove-page-and-section-breaks).
 
 {{% /alert %}}

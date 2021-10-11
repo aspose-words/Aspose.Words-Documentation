@@ -1,89 +1,98 @@
 ---
-title: Convert a Word Processing Document from the DOCM to the DOCX File Format
+title: Convert DOCM to DOCX
+description: "Aspose.Words for .NET allows you to convert DOCM to DOCX easily and fast instead of using Open XML SDK."
 type: docs
-weight: 140
+weight: 50
 url: /net/convert-a-word-processing-document-from-docm-to-docx/
 aliases: [/net/convert-a-word-processing-document-from-the-docm-to-the-docx-file-format/]
 ---
 
-The **ConvertDOCMtoDOCX** sample method can be used to convert a Word 2010 or Word 2013 document that contains VBA code (and has a .docm extension) to a standard document (with a .docx extension). Use this method to remove the macros and the vbaProject part that contains them from a document stored in .docm file format.
+On this page we will look at how to convert a document that contains VBA code and has a .docm extension to a .docx document. With this conversion, macros and vbaProject parts stored in a document in DOCM format will not be written to the DOCX.
 
-## OpenXML Words
+{{< nosnippet >}}
 
-The sample code modifies the document that you specify, verifying that the document contains a vbaProject part, and deleting the part. After the code deletes the part, it changes the document type internally and renames the document so that it uses the .docx extension.
+{{< tabs tabTotal="2" tabID="1" tabName1="Aspose.Words" tabName2="Open XML SDK" >}}
+
+{{< tab tabNum="1" >}}
+
+In Aspose.Words, we normally use the [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/main) constructor of Aspose.Words API to load a document in DOCM format and the  [Document.Save](https://apireference.aspose.com/net/words/aspose.words/document/methods/save/index) method to save the document to DOCX.
+
+The following code example shows how to convert DOCM to DOCX:
 
 {{< highlight csharp >}}
-string FilePath = @"..\..\..\..\Sample Files\";
-string File = FilePath + "ConvertFromDOCMtoDOCX - OpenXML.docm";
-string NewFile = FilePath + "ConvertFromDOCMtoDOCX - OpenXML - Output.docx";
-ConvertDOCMtoDOCX(File, NewFile);
-
-// Given a .docm file (with macro storage), remove the VBA
-
-// project, reset the document type, and save the document with a new name.
-    public static void ConvertDOCMtoDOCX(string oldfileName, string newfileName)
-    {
-    bool fileChanged = false;
-    using (WordprocessingDocument document =
-        WordprocessingDocument.Open(oldfileName, true))
-    {
-        // Access the main document part.
-        var docPart = document.MainDocumentPart;
-
-        // Look for the vbaProject part. If it is there, delete it.
-        var vbaPart = docPart.VbaProjectPart;
-        if (vbaPart != null)
-        {
-            // Delete the vbaProject part and then save the document.
-            docPart.DeletePart(vbaPart);
-            docPart.Document.Save();
-    
-            // Change the document type to
-            // not macro-enabled.
-            document.ChangeDocumentType(
-                WordprocessingDocumentType.Document);
-    
-            // Track that the document has been changed.
-            fileChanged = true;
-        }
-    }
-    
-    // If anything goes wrong in this file handling,
-    // the code will raise an exception back to the caller.
-    if (fileChanged)
-    {
-        // Create the new .docx filename.
-        // If it already exists, it will be deleted!
-        if (File.Exists(newfileName))
-        {
-            File.Delete(newfileName);
-        }
-    
-        // Rename the file.
-        File.Move(oldfileName, newfileName);
-    }
-    }
+Document doc = new Document("SourceDocument.docm");
+doc.Save("ResultDocument.docx");
 {{< /highlight >}}
 
-## Aspose.Words
+{{< /tab >}}
 
-We can use **Document** constructor of Aspose.Words API to load .doc or .docm files and use **Document.Save** method to save to .docx.
+{{< tab tabNum="2" >}}
+
+You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
+
+Following are the namespaces we need to add:
 
 {{< highlight csharp >}}
-string FilePath = @"..\..\..\..\Sample Files\";
-string File = FilePath + "ConvertFromDOCMtoDOCX - Aspose.docm";
-string NewFile = FilePath + "ConvertFromDOCMtoDOCX - Aspose - Output.docx";
-ConvertDOCMtoDOCX(File, NewFile);
-private static void ConvertDOCMtoDOCX(string oldfileName, string newfilename)
+using System.IO;
+using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using NUnit.Framework;
+{{< /highlight >}}
+
+The following code example modifies the specified document by verifying that the document contains a vbaProject part and removing that part. After the code removes the part, it changes the document type internally and renames the document so that it uses .docx extension.
+
+{{< highlight csharp >}}
+public void ConvertFromDocmToDocxFeature()
 {
-    Document doc = new Document(oldfileName);
-    doc.Save(newfilename, SaveFormat.Docx);
+	bool fileChanged = false;
+	using (WordprocessingDocument document =
+	WordprocessingDocument.Open(MyDir + "Convert from docm to docx.docm", true))
+	{
+		var docPart = document.MainDocumentPart;
+		// Look for the vbaProject part. If it is there, delete it.
+		var vbaPart = docPart.VbaProjectPart;
+		if (vbaPart != null)
+		{
+			// Delete the vbaProject part and then save the document.
+			docPart.DeletePart(vbaPart);
+			docPart.Document.Save();
+			// Change the document type to not macro-enabled.
+			document.ChangeDocumentType(
+				WordprocessingDocumentType.Document);
+			fileChanged = true;
+		}
+	}
+	// If anything goes wrong in this file handling,
+	// the code will raise an exception back to the caller.
+	if (fileChanged)
+	{
+		if (File.Exists(ArtifactsDir + "Convert from docm to docx - OpenXML.docm"))
+		File.Delete(ArtifactsDir + "Convert from docm to docx - OpenXML.docm");
+		File.Move(MyDir + "Convert from docm to docx.docm",
+		ArtifactsDir + "Convert from docm to docx - OpenXML.docm");
+	}
 }
 {{< /highlight >}}
 
-## Download
+{{< /tab >}}
+{{< /tabs >}}
+{{< /nosnippet >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
+
+{{% /alert %}}
+
+{{% alert color="primary" %}} 
+
+For more information about Aspose.Words features please visit [Convert a Document](https://docs.aspose.com/words/net/convert-a-document/).
+
+
+{{% /alert %}}
 
 - [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
 - [Sourceforge](http://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/ConvertFromDOCMtoDOCX.zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/ConvertFromDOCMtoDOCX.zip)
+
