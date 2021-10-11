@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert and Append Documents
 description: "Aspose.Words for .NET {allows|enables} you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
 type: docs
@@ -15,7 +15,7 @@ In turn, the append feature {allows|enables} you to add a document only at the e
 
 This article explains how to insert or append a document to another one in different ways and describes the common properties that you can apply while inserting or appending documents.
 
-## Insert a Document
+## Insert a Document {#insert-a-document}
 
 As mentioned above, in Aspose.Words a document is represented as a tree of nodes, and the operation of inserting one document into another is copying nodes from the first document tree to the second one.
 
@@ -25,7 +25,7 @@ You can also use the [InsertDocument](https://apireference.aspose.com/words/net/
 
 The following subsections describe the options during which you can insert one document into another.
 
-### Insert a Document During Find and Replace Operation
+### Insert a Document {During|Within} {Find and Replace Operation|Find and Replace} {#insert-a-document-during-find-and-replace-operation}
 
 You can insert documents while performing find and replace operations. For example, a document can contain paragraphs with the text [INTRODUCTION] and [CONCLUSION]. But in the final document, you need to replace those paragraphs with the content obtained from another external document. To achieve that, you will need to create a handler for the replace event.
 
@@ -37,7 +37,7 @@ The following code example {shows|demonstrates} how insert content of one docume
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtReplace.cs" >}}
 
-### Insert a Document During Mail Merge Operation
+### Insert a Document {During|Within} {Mail Merge Operation|Mail Merge} {#insert-a-document-during-mail-merge-operation}
 
 You can insert a document into a merge field during a mail merge operation. For example, a mail merge template can contain a merge field such as [Summary]. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
 
@@ -49,7 +49,7 @@ The following code example {shows|demonstrates} how to insert a document into th
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtMailMerge.cs" >}}
 
-### Insert a Document at Bookmark
+### Insert a Document at Bookmark {#insert-a-document-at-bookmark}
 
 You can import a text file into a document and insert it right after a bookmark that you have defined in the document. To do this, create a bookmarked paragraph where you want the document to be inserted.
 
@@ -63,7 +63,7 @@ Note that the bookmark should not enclose {multiple|several|a few|many|numerous}
 
 {{% /alert %}} 
 
-## Append a Document
+## Append a Document {#append-a-document}
 
 You may have a use case where you need to include additional pages from a document to the end of an existing document. To do this, you just need to call the [AppendDocument](https://apireference.aspose.com/words/net/aspose.words/document/methods/appenddocument) method to add a document to the end of another one.
 
@@ -77,7 +77,7 @@ The following code example {shows|demonstrates} how to append a document to the 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Join and append documents-KeepSourceFormatting.cs" >}}
 
-## Import and Insert Nodes Manually
+## Import and {Insert|Add} Nodes Manually {#import-and-insert-nodes-manually}
 
 Aspose.Words {allows|enables} you to insert and append documents automatically without any previous importing requirements. However, if you need to insert or append a specific node of your document, such as a section or a paragraph, then first you need to import this node manually.
 
@@ -101,7 +101,7 @@ The import creates a new node that is a copy of the original node and suitable f
 
 Content is imported into the destination document section by section, which means that settings, such as page setup and headers or footers, are preserved during import. It is also useful to note that you can define formatting settings when you insert or append a document to specify how two documents are joined together.
 
-## Common Properties for Insert and Append Documents
+## {Common Properties|Properties} for Insert and Append Documents {#common-properties-for-insert-and-append-documents}
 
 Both [InsertDocument](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertdocument/methods/1) and [AppendDocument](https://apireference.aspose.com/words/net/aspose.words.document/appenddocument/methods/1) methods accept [ImportFormatMode](https://apireference.aspose.com/words/net/aspose.words/importformatmode) and [ImportFormatOptions](https://apireference.aspose.com/words/net/aspose.words/importformatoptions) as input parameters. The **ImportFormatMode** {allows|enables} you to control how document formatting is merged when you import content from one document into another by selecting different format modes such as [UseDestinationStyles](https://apireference.aspose.com/words/net/aspose.words/importformatmode), [KeepSourceFormatting](https://apireference.aspose.com/words/net/aspose.words/importformatmode), and [KeepDifferentStyles](https://apireference.aspose.com/words/net/aspose.words/importformatmode). The **ImportFormatOptions** {allows|enables} you to select different import options such as [IgnoreHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/ignoreheaderfooter), [IgnoreTextBoxes](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/ignoretextboxes), [KeepSourceNumbering](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/keepsourcenumbering), [MergePastedLists](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/mergepastedlists), and [SmartStyleBehavior](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/smartstylebehavior).
 
