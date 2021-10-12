@@ -16,7 +16,7 @@ In Aspose.Words, conversion from DOC to TIFF can be performed with one line of c
 
 ## Specifying Additional Options When Rendering TIFF
 
-You often need to specify additional options, which affect the rendering result. For this purpose, use the [ImageSaveOptions](https://apireference.aspose.com/net/words/aspose.words.saving/imagesaveoptions) class, which contains properties that determine how the document is displayed on the image. You can specify the following:
+You often need to specify additional options, which affect the rendering result. For this purpose, use the **ImageSaveOptions** class, which contains properties that determine how the document is displayed on the image. You can specify the following:
 
 - Save format to determine the list of available options (**save_format**)
 - Resolution (**horizontal_resolution**, **vertical_resolution**, **resolution**)

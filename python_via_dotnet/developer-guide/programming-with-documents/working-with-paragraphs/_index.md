@@ -13,7 +13,7 @@ url: /pythonnet/working-with-paragraphs/
 
 ## Paragraph Formatting
 
-Current paragraph formatting is represented by a ParagraphFormat object that is returned by the DocumentBuilder.ParagraphFormat property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left aligned, no indentation, no spacing, no borders and no shading by calling [ParagraphFormat.ClearFormatting](http://www.aspose.com/api/net/words/aspose.words.tables/cellformat/methods/clearformatting). Below example shows how to set paragraph formatting.
+Current paragraph formatting is represented by a ParagraphFormat object that is returned by the DocumentBuilder.ParagraphFormat property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left aligned, no indentation, no spacing, no borders and no shading by calling **ParagraphFormat.clear_formatting**. Below example shows how to set paragraph formatting.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-document_formatting-ParagraphFormatting.py" >}}
 

@@ -54,7 +54,7 @@ During a PDF document conversion, one of the following exceptions might happen:
 
 | Exception                        | Description                                                  |
 | -------------------------------- | ------------------------------------------------------------ |
-| *FileLoadException*              | A PDF file cannot be processed for some reason.<br />{{% alert color="primary" %}}You can report the issue to the development team for a detailed investigation using the [technical support](/words/net/technical-support/).{{% /alert %}} |
+| *FileLoadException*              | A PDF file cannot be processed for some reason.<br />{{% alert color="primary" %}}You can report the issue to the development team for a detailed investigation using the [technical support](/words/pythonnet/technical-support/).{{% /alert %}} |
 | *DrmProtectedFileException*      | A PDF file is protected by Adobe DRM and cannot be decoded by Pdf2Word. |
 | *PasswordProtectedFileException* | The correct password must be provided for a password-protected PDF. |
 
