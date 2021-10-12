@@ -51,23 +51,23 @@ It is possible to change culture for current thread that will cause changing def
 
 The code sample below shows how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-SectionsAccessByIndex.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-SectionsAccessByIndex.py" >}}
 
 ### Adding a Section
 
 The **Document** object provides the section collection that can be accessed by using **Document.sections**. This returns a **SectionCollection** object containing the document’s sections. You can then use the **SectionCollection.add** method on this object to add a section to the end of the document. The code sample below shows how to add a section to the end of the document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-AddSection.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-AddSection.py" >}}
 
 ### Deleting a Section
 
 In the same way as discussed above, the document’s sections are retrieved by using **Document.sections**. You can then use **SectionCollection.remove** to remove a specified section or **SectionCollection.remove_at** to remove a section at the specified index. The code sample below shows how to remove a section at the specified index.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-DeleteSection.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-DeleteSection.py" >}}
 
 The code sample below shows how to remove all sections from a document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-DeleteAllSections.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-DeleteAllSections.py" >}}
 
 In addition, you can use **SectionCollection.clear** to remove all the sections from the document.
 
@@ -75,13 +75,13 @@ In addition, you can use **SectionCollection.clear** to remove all the sections 
 
 If you want to copy and insert just the main text of a section excluding the section separator and section properties, use **Section.prepend_content** or **Section.append_content** passing a **Section** object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below shows how to append content of an existing section. The number of sections in the document remains the same.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-AppendSectionContent.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-AppendSectionContent.py" >}}
 
 ### Deleting Section Content
 
 To delete the main text of a section, use **Section.clear_content**. Below example shows how to delete main content of a section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-DeleteSectionContent.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-DeleteSectionContent.py" >}}
 
 To delete the headers and footers in a section, call **Section.clear_headers_footers**.
 
@@ -89,13 +89,13 @@ To delete the headers and footers in a section, call **Section.clear_headers_foo
 
 Use the **Section.clone** method to create a duplicate of a particular section. Below example shows how to create a duplicate of a particular section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-CloneSection.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-CloneSection.py" >}}
 
 ### Copying Sections between Documents
 
 Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using **Document.import_node** method. The **Document.import_node** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. Below example shows how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-CopySection.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-CopySection.py" >}}
 
 {{% alert color="primary" %}} 
 
@@ -107,7 +107,7 @@ Sometimes it is necessary to avoid section breaks in the destination document. I
 
 If you want to explicitly start a new line, paragraph, column, section, or page, call **DocumentBuilder.insert_break**. Pass to this method the type of the break you need to insert that is represented by the **BreakType** enumeration. Below example shows how to insert page breaks into a document.
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertBreak.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertBreak.py" >}}
 
 ## How to Remove Page and Section Breaks
 
@@ -144,7 +144,7 @@ Firstly the code to remove the page breaks is discussed. Generally a single **R
 
 Below example removes all page breaks from the document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemovePageBreaks.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemovePageBreaks.py" >}}
 
 Firstly all paragraphs in the document are gathered using the **Document.get_child_nodes** method. (The second parameter of the **Document.get_child_nodes** method is set to true, this instructs the method to select all child nodes recursively, and otherwise only immediate children will be selected.)
 
@@ -162,7 +162,7 @@ In Microsoft Word when you delete a break between two the newly combined section
 
 Below example combines all sections in the document into one.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemoveSectionBreaks.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemoveSectionBreaks.py" >}}
 
 Starting from the last section the content of each previous section is copied over to the beginning of the last section using the **Section.prepend_content** method. Then the **Section.remove** method is used to remove the empty section.
 
@@ -170,4 +170,4 @@ Starting from the last section the content of each previous section is copied ov
 
 Page setup and section properties are encapsulated in the **PageSetup** object that is returned by the **DocumentBuilder.page_setup** property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties. Below example shows how to set such properties as page size and orientation for the current section.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-DocumentBuilderSetPageSetupAndSectionFormatting.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-DocumentBuilderSetPageSetupAndSectionFormatting.py" >}}

@@ -11,16 +11,16 @@ In Aspose.Words, **TextBox** class is used to specify how a text is displayed in
 
 **TextBox** class provides **is_valid_link_target** method in order to check whether the **TextBox** can be linked to the target Textbox as shown in the code snippet given below:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CreateALink.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CreateALink.py" >}}
 
 ## Check TextBox Sequence
 
 The following code snippets shows how to check if **Shape.text_box** is a Head, a Tail or a Middle of the sequence:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CheckSequence.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CheckSequence.py" >}}
 
 ## Breaking a Link
 
 The following code snippet shows how to break a link for a **Shape.text_box**:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-BreakALink.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-BreakALink.py" >}}

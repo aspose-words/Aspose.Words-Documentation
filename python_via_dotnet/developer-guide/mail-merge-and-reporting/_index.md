@@ -49,7 +49,7 @@ Currently Aspose.Words for Python via .NET mail merge accepts only an array of v
 
 The following code example shows how to create a simple template and fill it with data using mail merge functionality:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-SimpleMailMerge.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-SimpleMailMerge.py" >}}
 
 
 ## Merged Documents of a Mail Merge Operation {#merged-documents-of-a-mail-merge-operation}

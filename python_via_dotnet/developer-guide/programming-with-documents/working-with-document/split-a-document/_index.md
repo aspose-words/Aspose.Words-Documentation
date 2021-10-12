@@ -55,7 +55,7 @@ If you need to split a document by a specific level of heading paragraphs, such 
 
 The following code example shows how to split a document into smaller parts by heading:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentByHeadingsHtml.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentByHeadingsHtml.py" >}}
 
 Please note that for this criteria, Aspose.Words only supports saving to HTML format when splitting.
 
@@ -65,13 +65,13 @@ When saving to EPUB, the document is not split into several files, and there wil
 
 Aspose.Words also enables you to use section breaks to split documents and save them to HTML. For this purpose, use **SECTION_BREAK** as the **document_split_criteria**:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentBySectionsHtml.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentBySectionsHtml.py" >}}
 
 There is another way to split the source document into multiple output documents, and you can choose any output format supported by Aspose.Words.
 
 The following code example shows how to split a document into smaller parts by section breaks (without using the document_split_criteria property):
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentBySections.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentBySections.py" >}}
 
 ## Splitting by Pages {#splitting-by-pages}
 
@@ -113,4 +113,4 @@ Aspose.Words enables you to merge the output split document with another docu
 
 The following code example shows how to merge a split document with another document:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-MergeSplitDocuments.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-MergeSplitDocuments.py" >}}

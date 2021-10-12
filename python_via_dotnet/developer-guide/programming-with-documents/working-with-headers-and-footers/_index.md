@@ -26,9 +26,9 @@ Special attention is given to the following issues:
 
 Below example shows how to create headers footers using DocumentBuilder.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_headers_and_footers-CreateHeaderFooterUsingDocBuilder.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_headers_and_footers-CreateHeaderFooterUsingDocBuilder.py" >}}
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_headers_and_footers-CopyHeadersFootersFromPreviousSection.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_headers_and_footers-CopyHeadersFootersFromPreviousSection.py" >}}
 
 Each section in a document can have up to three headers and up to three footers (for first, even and odd pages). If you want to delete all footers in a document you need to loop through all sections and remove every footer node.
 
@@ -36,4 +36,4 @@ Each section in a document can have up to three headers and up to three footers 
 
 Below example deletes all footers from all sections, but leaves headers intact. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Header%20and%20footer%20types.docx).
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemoveFooters.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemoveFooters.py" >}}

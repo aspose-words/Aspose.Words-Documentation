@@ -11,7 +11,7 @@ A table which is represented in the Aspose.Words Document Object Model is made u
 
 The rows from the second table simply need to be shifted to the end of the first table and the container of the second table deleted. Below example shows how to combine the rows from two tables into one.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CombineRows.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CombineRows.py" >}}
 
 ## Split a Table into Two Separate Tables
 
@@ -22,4 +22,4 @@ We first need to pick a row at where to split the table. Once we know this we ca
 
 Below example shows how to split a table into two tables a specific row.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-SplitTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-SplitTable.py" >}}

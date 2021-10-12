@@ -141,19 +141,19 @@ Use the **DocumentBuilder.row_format** property to specify row formatting. It 
 
 Call **DocumentBuilder.end_table** to finish the current table. This method should be called only once after **DocumentBuilder.end_row** was called. When called, **DocumentBuilder.end_table** moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-BuildTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-BuildTable.py" >}}
 
 Below example shows how to create a simple table using DocumentBuilder with default formatting.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CreateSimpleTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CreateSimpleTable.py" >}}
 
 Below example shows how to create a formatted table using DocumentBuilder.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-FormattedTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-FormattedTable.py" >}}
 
 Below example shows how to insert a nested table using DocumentBuilder.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-NestedTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-NestedTable.py" >}}
 
 ### Inserting a Table Directly into the Document Object Model
 
@@ -163,13 +163,13 @@ Note that you must take into account that the table will initially be completely
 
 Below example shows how to insert a table using the constructors of nodes.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableDirectly.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableDirectly.py" >}}
 
 ### Inserting a Clone of an Existing Table
 
 Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the **Table.clone** method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneCompleteTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneCompleteTable.py" >}}
 
 {{% alert color="primary" %}} 
 
@@ -179,7 +179,7 @@ The same technique can be used to add copies of an existing row to a table.
 
 Below example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneLastRow.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneLastRow.py" >}}
 
 If you are looking at creating tables in document which dynamically grow with each record from your data source, then the above method is not advised.
 Instead the desired output is achieved more easily by using Mail Merge or LINQ Reporting Engine.
@@ -188,7 +188,7 @@ Instead the desired output is achieved more easily by using Mail Merge or LINQ R
 
 Aspose.Words supports inserting content into a document from an HTML source by using the **DocumentBuilder.insert_html** method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableFromHtml.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableFromHtml.py" >}}
 
 ### Comparison of Insertion Techniques
 
@@ -205,7 +205,7 @@ As described in previous articles, Aspose.Words provides several methods for ins
 
 A **Table** like any other node in Aspose.Words has access to a **Range** object. Using this object, you can call methods over the entire table range to extract the table as plain text. The **Range.text** property is used for this purpose. Below example shows how to print the text range of a table.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractText.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractText.py" >}}
 
 {{% alert color="primary" %}} 
 
@@ -215,7 +215,7 @@ The same technique is used to extract the content from individual cells of a tab
 
 Below example shows how to print the text range of row and table elements.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-PrintTextRangeOFRowAndTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-PrintTextRangeOFRowAndTable.py" >}}
 
 ## Replacing Text in a Table
 
@@ -225,4 +225,4 @@ Normally the replacement of text should be done at the cell level (per cell) or 
 
 Below example shows how to replace all instances of string of text in a table and cell.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-ReplaceText.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-ReplaceText.py" >}}

@@ -46,7 +46,7 @@ As a result of comparison, documents can be determined as equal or not equal. Th
 
 The following code example shows how to check if two documents are equal or not:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-compare_documents-CompareForEqual.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-compare_documents-CompareForEqual.py" >}}
 
 The following code example shows how to simply apply the Compare method to two documents:
 

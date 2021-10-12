@@ -59,7 +59,7 @@ For example, you can use IF fields if you need to insert “his”, “her”, �
 
 The following code example shows how to perform a mail merge operation with Mustache tags and IF fields:
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-UseOfifelseMustacheSyntax.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-UseOfifelseMustacheSyntax.py" >}}
 
 You can notice the difference between the document before applying the **use_non_merge_fields** property:
 

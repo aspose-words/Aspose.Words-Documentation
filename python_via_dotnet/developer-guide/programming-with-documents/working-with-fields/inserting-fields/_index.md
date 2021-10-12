@@ -17,27 +17,27 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 Below examples shows how to Inserts a merge field into a document using DocumentBuilder.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertField.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertField.py" >}}
 
 Below example inserts a merge field into a document using DocumentBuilder.
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-DocumentBuilderInsertField.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-DocumentBuilderInsertField.py" >}}
 
 The same technique is used to insert fields nested within other fields. Below example demonstrates how to insert fields nested within another field using DocumentBuilder.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertNestedFields.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertNestedFields.py" >}}
 
 ### Specify Locale at Field Level
 
 A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify Locale at field level. Field.locale_id property gets or sets the locale ID of the field. The example below illustrates how to make use of this option.
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-SpecifylocaleAtFieldlevel.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-SpecifylocaleAtFieldlevel.py" >}}
 
 ### Inserting Untyped/Empty Field
 
 If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use **DocumentBuilder.insert_field** method with parameter **FieldType.FIELD_NONE**. To insert a field in Word document, you can press “Ctrl + F9” key combination. Below code example shows how to insert an empty field in the document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldNone.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldNone.py" >}}
 
 ## Inserting Fields using DOM
 
@@ -53,7 +53,7 @@ MERGEFIELD field in Word document can be represented by the **FieldMergeField** 
 
 Below example shows how to add a Merge Field using DOM to a paragraph in the document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMergeFieldUsingDOM.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMergeFieldUsingDOM.py" >}}
 
 ### Inserting Mail Merge Address Block field into a Document using DOM
 
@@ -67,7 +67,7 @@ ADDRESSBLOCK field is used to insert a mail merge address block in Word document
 
 Below example shows how to Add a Mail Merge Address Block Field using DOM to a Paragraph in Document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMailMergeAddressBlockFieldUsingDOM.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMailMergeAddressBlockFieldUsingDOM.py" >}}
 
 ### Inserting Advance field into a Document without using DocumentBuilder
 
@@ -79,7 +79,7 @@ The ADVANCE field is used to offset subsequent text within a line to the left, r
 
 Below example shows how to Add an Advance Field using DOM to a Paragraph in Document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAdvanceFieldWithOutDocumentBuilder.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAdvanceFieldWithOutDocumentBuilder.py" >}}
 
 ### Inserting ASK field into a Document without using DocumentBuilder
 
@@ -92,7 +92,7 @@ ASK field is used to prompt the user for text to assign to a Bookmark in Word do
 
 Below example shows how to Add an ASK Field using DOM to a Paragraph in Document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertASKFieldWithOutDocumentBuilder.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertASKFieldWithOutDocumentBuilder.py" >}}
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
@@ -102,7 +102,7 @@ AUTHOR field is used to specify the name of Document's author from the Document 
 
 Below example shows how to Add an AUTHOR Field using DOM to a Paragraph in Document.
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAuthorField.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAuthorField.py" >}}
 
 ### Inserting INCLUDETEXT field into a Document without using DocumentBuilder
 
@@ -113,7 +113,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 
 Below example shows how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldIncludeTextWithoutDocumentBuilder.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldIncludeTextWithoutDocumentBuilder.py" >}}
 
 ### Inserting TOA field into a Document without using DocumentBuilder
 
@@ -123,4 +123,4 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 Below example shows how to Add a TOA field using DOM to a Paragraph in Document. 
 
-{{< gist "aspose-words" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertTOAFieldWithoutDocumentBuilder.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertTOAFieldWithoutDocumentBuilder.py" >}}

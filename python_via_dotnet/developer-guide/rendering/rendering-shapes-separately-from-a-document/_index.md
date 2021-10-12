@@ -98,6 +98,6 @@ shape.get_shape_renderer().save(docs_base.artifacts_dir + "TestFile.RenderShapeI
 
 The **ShapeRenderer** class also provides functionality to retrieve the size of the shape in pixels through the **get_size_in_pixels** method. This method accepts two float (Single) parameters – the scale and DPI, which are used in calculation of the shape size when the shape is rendered. The method returns the **Size** object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance. The **size_in_points** property returns the Shape size measured in points. The result is a **SizeF** object containing the width and height. Also you can use **bounds_in_points** property to get actual bounds of the shape.
 
-{{< gist "aspose-com-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-GetActualShapeBoundsPoints.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-GetActualShapeBoundsPoints.py" >}}
 
 
