@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Document Properties
 description: "Aspose.Words for Java {allows|enables} storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
@@ -61,7 +61,7 @@ The following code example checks whether a custom property with a given name ex
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/Properties.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Document/Properties.doc).
 
 {{% /alert %}}
 
@@ -97,7 +97,7 @@ The following code example {shows|demonstrates} how to enumerate document variab
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/Properties.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Document/Properties.doc).
 
 {{% /alert %}}
 

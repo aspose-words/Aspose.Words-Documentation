@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Template
 type: docs
 description: "Aspose.Words for Java provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."

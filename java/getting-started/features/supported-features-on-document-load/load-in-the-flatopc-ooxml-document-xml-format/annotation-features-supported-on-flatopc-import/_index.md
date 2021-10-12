@@ -1,4 +1,4 @@
-﻿---
+---
 title: Annotation Features Supported on FlatOPC Import
 type: docs
 weight: 10
@@ -61,8 +61,8 @@ All three comment nodes are related through the use of the ID properties on each
 See the following links in the documentation for further information:
 
 - [How to Extract or Remove Comments](/words/java/working-with-comments/#workingwithcomments-howtoextractorremovecomments)
-- [Comment](https://apireference.aspose.com/java/words/com.aspose.words/Comment)
-- [Comment.Id](https://apireference.aspose.com/java/words/com.aspose.words/comment#Id)
+- [Comment](https://apireference.aspose.com/words/java/com.aspose.words/Comment)
+- [Comment.Id](https://apireference.aspose.com/words/java/com.aspose.words/comment#Id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -89,9 +89,9 @@ These additional features will be included in a future version as well as an API
 See the following links in the documentation for further information:
 
 - [Manage Track Changes](/words/java/working-with-document/#workingwithdocument-managetrackingchanges)
-- [Document.HasRevisions](https://apireference.aspose.com/java/words/com.aspose.words/document#HasRevisions)
-- [Document.TrackRevisions](https://apireference.aspose.com/java/words/com.aspose.words/document#TrackRevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/java/words/com.aspose.words/document#acceptAllRevisions\(\))
+- [Document.HasRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#HasRevisions)
+- [Document.TrackRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#TrackRevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#acceptAllRevisions())
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

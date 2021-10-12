@@ -63,7 +63,7 @@ When you reference *Aspose.Words.dll* in the application, the library is copied 
 
 {{% alert color="primary" %}}
 
-Use the [SetLicense](https://apireference.aspose.com/net/words/aspose.words/license/methods/setlicense/index) method to license a component.
+Use the [SetLicense](https://apireference.aspose.com/words/net/aspose.words/license/methods/setlicense/index) method to license a component.
 
 Calling **SetLicense** several times is not harmful, it just wastes processor time.
 
@@ -101,7 +101,7 @@ Aspose.Words enables developers to apply a metered key. This is a new licensing 
 
 The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
 
-After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/net/words/aspose.words/metered) class specially introduced for this purpose.
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/words/net/aspose.words/metered) class specially introduced for this purpose.
 
 The following code example shows how to set metered public and private keys:
 

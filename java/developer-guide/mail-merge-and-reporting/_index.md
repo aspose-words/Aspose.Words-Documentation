@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge and Reporting
 aliases:
     - /java/about-mail-merge/

@@ -37,7 +37,7 @@ In both Word documents and in the Aspose.Words Document Object Model, there is n
 
 Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells in the same way that tables are represented in Aspose.Words.
 
-In the Aspose.Words Document Object Model a [Table](https://apireference.aspose.com/net/words/aspose.words.tables/table) node is made up of [Row](https://apireference.aspose.com/net/words/aspose.words.tables/row) and then [Cell](https://apireference.aspose.com/net/words/aspose.words.tables/cell) nodes. There is also no native support for columns.
+In the Aspose.Words Document Object Model a [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table) node is made up of [Row](https://apireference.aspose.com/words/net/aspose.words.tables/row) and then [Cell](https://apireference.aspose.com/words/net/aspose.words.tables/cell) nodes. There is also no native support for columns.
 
 You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example {demonstrates|shows} a facade object for working with a column of a table.
 
@@ -71,7 +71,7 @@ The code example given below {demonstrates|shows} how to build a table which in
 
 When creating a table using a visual agent such as Microsoft Word, you will often find yourself using one of the AutoFit options to automatically size the table to the desired width. For instance, you can use the AutoFit to Window option to fit the table to the width of the page and AutoFit to Contents option to allow each cell to grow or shrink to accommodate its contents.
 
-By default, Aspose.Words inserts a new table using “**AutoFit to Window”**. The table will size to the available width on the page. To change the sizing behavior on such a table or an existing table you can call [Table.AutoFit](https://apireference.aspose.com/net/words/aspose.words.tables/table/methods/autofit) method. This method accepts an [AutoFitBehavior](https://apireference.aspose.com/net/words/aspose.words.tables/autofitbehavior) enumeration which defines what type of auto fitting is applied to the table.
+By default, Aspose.Words inserts a new table using “**AutoFit to Window”**. The table will size to the available width on the page. To change the sizing behavior on such a table or an existing table you can call [Table.AutoFit](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/autofit) method. This method accepts an [AutoFitBehavior](https://apireference.aspose.com/words/net/aspose.words.tables/autofitbehavior) enumeration which defines what type of auto fitting is applied to the table.
 
 As in Microsoft Word, the autofit method is actually a shortcut which applies different properties to the table all at once. These properties are actually what give the table the observed behavior. We will discuss these properties for each autofit option.
 
@@ -120,7 +120,7 @@ When a table has auto fit disabled and fixed column widths used instead the foll
 1. The Table.AllowAutoFit property is disabled so columns do not grow or shrink to their contents.
 1. The table-wide preferred width is removed from Table.PreferredWidth.
 1. The CellFormat.PreferredWidth is removed from all cells in the table.
-   The end result is a table whose column widths are defined using the [CellFormat.Width](https://apireference.aspose.com/net/words/aspose.words.tables/cellformat/properties/width) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
+   The end result is a table whose column widths are defined using the [CellFormat.Width](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
 
 {{% alert color="primary" %}} 
 
@@ -141,7 +141,7 @@ We will use the table below in our example. By default, it has the properties ab
 
 ### Keep a Row from Breaking {Across|Between} Pages {#keep-a-row-from-breaking-across-pages}
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://apireference.aspose.com/net/words/aspose.words.tables/rowformat/) object of a [Row](https://apireference.aspose.com/net/words/aspose.words.tables/row) as the property [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/net/words/aspose.words.tables/rowformat/properties/allowbreakacrosspages). The code example given below {demonstrates|shows} how to disable rows breaking across pages for every row in a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.TableAcrossPagehttps://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
+This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://apireference.aspose.com/net/words/aspose.words.tables/rowformat/) object of a [RowFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/) object of a [Row](https://apireference.aspose.com/words/net/aspose.words.tables/row) as the property [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/allowbreakacrosspages). The code example given below {demonstrates|shows} how to disable rows breaking across pages for every row in a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Programming-Documents/Tables/Table.TableAcrossPagehttps://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-RowFormatDisableBreakAcrossPages.cs" >}}
 
@@ -149,7 +149,7 @@ This involves restricting content inside the cells of a row from being split acr
 
 To stop a table from splitting across the page we need to state that we wish the content contained within the table to stay together. In Microsoft Word, this involves selecting the table and enabling “Keep with Next” under Paragraph Format.
 
-In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/net/words/aspose.words/paragraphformat/properties/keepwithnext) set to true. The exception is the last paragraph in the table which should be set to false. The code example given below {demonstrates|shows} how to set a table to stay together on the same page. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
+In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keepwithnext) set to true. The exception is the last paragraph in the table which should be set to false. The code example given below {demonstrates|shows} how to set a table to stay together on the same page. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-KeepTableTogether.cs" >}}
 
@@ -159,7 +159,7 @@ In a table, {several|multiple|a few|many|numerous} cells can be merged together 
 
 ### {Merged Cells|What are Merged Cells} in Aspose.Words {#merged-cells-in-aspose-words}
 
-In Aspose.Words, merged cells are represented by [CellFormat.HorizontalMerge](https://apireference.aspose.com/net/words/aspose.words.tables/cellformat/properties/horizontalmerge) and [CellFormat.VerticalMerge](https://apireference.aspose.com/net/words/aspose.words.tables/cellformat/properties/verticalmerge). The **CellFormat.HorizontalMerge** property describes if the cell is part of a horizontal merge of cells. Likewise the **CellFormat.VerticalMerge** property describes if the cell is a part of a vertical merge of cells.
+In Aspose.Words, merged cells are represented by [CellFormat.HorizontalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/horizontalmerge) and [CellFormat.VerticalMerge](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/verticalmerge). The **CellFormat.HorizontalMerge** property describes if the cell is part of a horizontal merge of cells. Likewise the **CellFormat.VerticalMerge** property describes if the cell is a part of a vertical merge of cells.
 
 The values of these properties are what define the merge behavior of cells.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Install TrueType Fonts on Linux
 description: "Aspose.Words for C++ {allows|enables} rendering a document created using Microsoft Word on a Linux machine with the best accuracy. To accomplish this, copy font files from a Windows machine or Install a TrueType font package onto your Linux machine."
 type: docs
@@ -41,4 +41,4 @@ After installing the package, Aspose.Words will find these fonts in the folders�
 
 ## See Also
 
-- [Liberation Fonts](https://fedorahosted.org/liberation-fonts/) as an alternative to standard Windows fonts
+- [Liberation Fonts](https://github.com/liberationfonts) as an alternative to standard Windows fonts

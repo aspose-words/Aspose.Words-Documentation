@@ -1,4 +1,4 @@
-﻿---
+---
 title: Types of Mail Merge Operation
 aliases:
   - /java/how-to-execute-mail-merge/
@@ -55,7 +55,7 @@ The following code example shows how to generate several merged documents during
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub]https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/MailMerge).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/MailMerge).
 
 {{% /alert %}}
 

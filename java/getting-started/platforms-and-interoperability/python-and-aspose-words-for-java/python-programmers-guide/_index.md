@@ -1,4 +1,4 @@
-﻿---
+---
 title: Python Programmers Guide
 type: docs
 weight: 20

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Clean Up Before or During a Mail Merge Operation
 aliases:
   - /java/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/

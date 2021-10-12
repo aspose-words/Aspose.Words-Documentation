@@ -1,4 +1,4 @@
-﻿---
+---
 title: Install TrueType Fonts on Linux
 description: "Aspose.Words for .NET {allows|enables} rendering a document created using Microsoft Word on a Linux machine with the best accuracy. To accomplish this, copy font files from a Windows machine or Install a TrueType font package onto your Linux machine."
 type: docs
@@ -19,7 +19,7 @@ There are two main ways to get TrueType fonts on a Linux system:
 
 ## Copying Fonts from a Windows Machine
 
-An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF and .TTC files from the C:\Windows\Fonts directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way; you just need to specify the location of the fonts using the [FontSettings](https://apireference.aspose.com/net/words/aspose.words.fonts/fontsettings) class in Aspose.Words.
+An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF and .TTC files from the C:\Windows\Fonts directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way; you just need to specify the location of the fonts using the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) class in Aspose.Words.
 
 {{% alert color="primary" %}} 
 
@@ -40,4 +40,4 @@ After installing the package, Aspose.Words will find these fonts in the folders�
 
 ## See Also
 
-- [Liberation Fonts](https://fedorahosted.org/liberation-fonts/) as an alternative to standard Windows fonts
+- [Liberation Fonts](https://github.com/liberationfonts) as an alternative to standard Windows fonts

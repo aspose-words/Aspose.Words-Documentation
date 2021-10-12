@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field Features Supported on FlatOPC Export
 type: docs
 weight: 50
@@ -23,7 +23,7 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 
 See the following link in the documentation for further information:
 
-- [Document.UpdateFields](https://apireference.aspose.com/java/words/com.aspose.words/document#updateFields\(\)).
+- [Document.UpdateFields](https://apireference.aspose.com/words/java/com.aspose.words/document#updateFields()).
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

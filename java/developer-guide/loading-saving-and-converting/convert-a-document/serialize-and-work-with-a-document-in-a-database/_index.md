@@ -1,4 +1,4 @@
-﻿---
+---
 title: Serialize and Work with a Document in a Database
 description: "Aspose.Words for Java allows you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."
 aliases:
@@ -27,13 +27,17 @@ The steps above then can be reversed to load the bytes back into a **Document**
 
 The selected save format is important to ensure the highest fidelity is retained when saving and reloading into the **Document** object. For this reason, it is suggested to use a series of OOXML file formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToByte-ConvertDocumentToByte.java" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToByte/Test%20File%20\(doc\).doc).
+{{% alert color="primary" %}} 
+
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToByte/Test%20File%20(doc).doc).
+
+{{% /alert %}}
 
 ## Store, Read and Delete a Document in a Database
 

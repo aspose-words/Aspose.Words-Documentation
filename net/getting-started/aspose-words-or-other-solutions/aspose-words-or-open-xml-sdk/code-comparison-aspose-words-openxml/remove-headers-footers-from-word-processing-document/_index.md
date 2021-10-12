@@ -110,4 +110,5 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 For more information about Aspose.Words features please visit [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/).
 
+
 {{% /alert %}}

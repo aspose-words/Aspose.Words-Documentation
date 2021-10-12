@@ -45,6 +45,7 @@ using NUnit.Framework;
 
 The following code example shows how to find and replace text from a document part:
 
+
 {{< highlight csharp >}}
 public static void SearchAndReplaceTextFeature()
 {

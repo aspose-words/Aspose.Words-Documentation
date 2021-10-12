@@ -1,4 +1,4 @@
-﻿---
+---
 title: Applying Formatting
 type: docs
 weight: 20
@@ -247,10 +247,10 @@ The following code example shows how to get the position of the floating table.
 
 Aspose.Words API provides the following properties to set the position of the floating table in the word document:
 
-- [RelativeHorizontalAlignment](https://apireference.aspose.com/net/words/aspose.words.tables/table/properties/relativehorizontalalignment)
-- [AbsoluteHorizontalDistance](https://apireference.aspose.com/net/words/aspose.words.tables/table/properties/absolutehorizontaldistance)
-- [RelativeVerticalAlignment](https://apireference.aspose.com/net/words/aspose.words.tables/table/properties/relativeverticalalignment)
-- [AbsoluteVerticalDistance](https://apireference.aspose.com/net/words/aspose.words.tables/table/properties/absoluteverticaldistance).
+- [RelativeHorizontalAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/relativehorizontalalignment)
+- [AbsoluteHorizontalDistance](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/absolutehorizontaldistance)
+- [RelativeVerticalAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/relativeverticalalignment)
+- [AbsoluteVerticalDistance](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/absoluteverticaldistance)
 
 The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
 
