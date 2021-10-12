@@ -264,5 +264,5 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.ordered_lis
 
 ## See Also
 
-* ["Working with Markdown Features"](https://docs.aspose.com/words/pythonnet/working-with-markdown-features/)
+* ["Working with Markdown Features"](/words/pythonnet/working-with-markdown-features/)
 

@@ -11,7 +11,7 @@ Document properties allow storing some useful information about your document. T
 * System or built-in that contain values such as document title, author name, document statistics, and others.
 * User-defined or custom, provided as name-value pairs where the user can define both the name and value.
 
-It is useful to know that information about API and Version Number is directly written to output documents. For example, upon converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for .NET YY.M.N", where *YY.M.N* is the version of Aspose.Words used for conversion. For more details, see ["Generator or Producer Name Included in Output Documents"](https://docs.aspose.com/words/pythonnet/generator-or-producer-name-included-in-output-documents/).
+It is useful to know that information about API and Version Number is directly written to output documents. For example, upon converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for .NET YY.M.N", where *YY.M.N* is the version of Aspose.Words used for conversion. For more details, see ["Generator or Producer Name Included in Output Documents"](/words/pythonnet/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 
@@ -91,7 +91,7 @@ The following code example shows how to configure a link to a custom property:
 
 You can get a collection of document variables using the **variables** property. Variable names and values are strings.
 
-The following code example shows how to enumerate document variables:
+The following code example shows how to add and access document variables:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-GetVariables.py" >}}
 

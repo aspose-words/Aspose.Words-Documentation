@@ -122,6 +122,6 @@ The ways to retrieve text from the document are:
 
 ### Using Node.get_text and Node.to_string
 
-A Word document can contains control characters that designate special elements such as field, end of cell, end of section etc. The full list of possible Word control characters is defined in the ControlChar class. The Node.get_text method returns text with all of the control character characters present in the node. Calling to_string returns the plain text representation of the document only without control characters. For further information on exporting as plain text see **Using SaveFormat.TEXT**. Below example shows the difference between calling the GetText and ToString methods on a node.
+A Word document can contains control characters that designate special elements such as field, end of cell, end of section etc. The full list of possible Word control characters is defined in the ControlChar class. The Node.get_text method returns text with all of the control character characters present in the node. Calling to_string returns the plain text representation of the document only without control characters. For further information on exporting as plain text see Using **SaveFormat.TEXT**. Below example shows the difference between calling the GetText and ToString methods on a node.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractTextOnly.py" >}}

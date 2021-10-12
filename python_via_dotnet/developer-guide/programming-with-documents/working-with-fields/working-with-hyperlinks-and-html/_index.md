@@ -21,6 +21,6 @@ The **FieldHyperlink** class implements the HYPERLINK field. Below example find
 
 ## Inserting HTML
 
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
+You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the **DocumentBuilder.insert_html** method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using **DocumentBuilder**.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertHtml.py" >}}

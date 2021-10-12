@@ -15,7 +15,7 @@ Modern document formats and standards are complex, and when you require document
 
 Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across multiple platforms.
 
-The tables below summarize and compare the availability of Aspose.Words for .NET features and provide links to detailed feature descriptions.
+The tables below summarize and compare the availability of Aspose.Words for Python via .NET features and provide links to detailed feature descriptions.
 
 ## Supported Platforms
 

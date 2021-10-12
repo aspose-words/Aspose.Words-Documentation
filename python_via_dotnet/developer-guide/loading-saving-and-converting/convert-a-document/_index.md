@@ -23,7 +23,7 @@ You can try the conversion functionality by using our [Free online converter](ht
 
 {{% /alert %}}
 
-The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are several hundred of them due to the large number of [formats supported by Aspose.Words for Python via .NET](https://docs.aspose.com/words/pythonnet/supported-document-formats/).
+The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are several hundred of them due to the large number of [formats supported by Aspose.Words for Python via .NET](/words/pythonnet/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

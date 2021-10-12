@@ -21,7 +21,7 @@ The following code example shows how to convert a document from PDF to DOCX:
 
 Aspose.Words provides you with the **PdfLoadOptions** class, which allows more precise control over how PDF documents are loaded.
 
-Most properties inherit or overload properties that already exist in the **LoadOptions** class. In addition to them, a number of properties are specified for PDF format. For example, you can use the **page_count** and **page_index** properties to define the page range to be loaded from a PDF document, and the **skip_pdf_images** properties to control whether images should be skipped when loading PDF. Another supported parameter is the **password**, which must be provided for [password-protected documents](https://docs.aspose.com/words/pythonnet/document-protection/).
+Most properties inherit or overload properties that already exist in the **LoadOptions** class. In addition to them, a number of properties are specified for PDF format. For example, you can use the **page_count** and **page_index** properties to define the page range to be loaded from a PDF document, and the **skip_pdf_images** properties to control whether images should be skipped when loading PDF. Another supported parameter is the **password**, which must be provided for password-protected documents.
 
 ## Supported PDF Content {#supported-pdf-content}
 
