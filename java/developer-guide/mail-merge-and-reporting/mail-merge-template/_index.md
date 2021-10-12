@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Template
 type: docs
 description: "Aspose.Words for Java provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
@@ -57,7 +57,7 @@ The following code example shows how to insert Check Boxes or HTML during mail m
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/MailMergeTemplate.doc).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/MailMerge/Template.doc).
 
 You can also check the implementation of the HandleMergeField class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/java/com/aspose/words/examples/mail_merge/MailMergeFormFields.java).
 

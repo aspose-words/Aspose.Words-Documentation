@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendering Shapes Separately from a Document
 description: "Aspose.Words for .NET provides the ability to extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location."
 type: docs

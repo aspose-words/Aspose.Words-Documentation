@@ -90,9 +90,3 @@ For more information about Aspose.Words features please visit [Convert a Documen
 
 
 {{% /alert %}}
-
-- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-- [Sourceforge](http://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/ConvertFromDOCMtoDOCX.zip/download)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/ConvertFromDOCMtoDOCX.zip)
-

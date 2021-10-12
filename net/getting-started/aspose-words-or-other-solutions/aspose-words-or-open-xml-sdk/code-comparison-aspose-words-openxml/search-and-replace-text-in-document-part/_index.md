@@ -70,23 +70,13 @@ public static void SearchAndReplaceTextFeature()
 
 {{< /tabs >}}
 
-- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-
-
 {{< /nosnippet >}}
-
 
 {{% alert color="primary" %}}
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
 
 {{% /alert %}}
-
-- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml#Aspose.Words%20VS%20OpenXML/Search%20and%20Replace%20Text/)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML/Search%20and%20Replace%20Text)
-
-
 
 {{% alert color="primary" %}} 
 

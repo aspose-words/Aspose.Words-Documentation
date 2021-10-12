@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Document Object Model (DOM)
 type: docs
 description: "Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. By using the Aspose.Words DOM classes, you can programmatically read, manipulate, and modify the content and formatting of a Word document with .NET."
@@ -41,11 +41,11 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 <img src="document-example-dom.png" alt="dom-aspose-words" style="width:700px"/>
 
-[Document](http://www.aspose.com/api/net/words/aspose.words/document), [Section](http://www.aspose.com/api/net/words/aspose.words/section), [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph), [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table), [Shape](http://www.aspose.com/api/net/words/aspose.words.drawing/shape), [Run](http://www.aspose.com/api/net/words/aspose.words/run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
+[Document](https://apireference.aspose.com/words/net/aspose.words/document), [Section](https://apireference.aspose.com/words/net/aspose.words/section), [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph), [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape), [Run](https://apireference.aspose.com/words/net/aspose.words/run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
 ### Get a Node Type {#get-a-node-type}
 
-Although the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/net/aspose.words/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
+Although the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/net/aspose.words/node/properties/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
 The type of each node can be obtained using the [NodeType](https://apireference.aspose.com/words/net/aspose.words/node/properties/nodetype) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
 
@@ -113,7 +113,7 @@ You can remove a node from its parent by calling the [Remove](https://apireferen
 
 The most efficient way to access child nodes of a [CompositeNode](https://apireference.aspose.com/words/net/aspose.words/compositenode) is via the [FirstChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/firstchild) and [LastChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/lastchild) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
 
-**CompositeNode** also provides the [ChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/properties/childnodes) collection enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
+**CompositeNode** also provides the [ChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/childnodes) collection enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/haschildnodes) property.
 

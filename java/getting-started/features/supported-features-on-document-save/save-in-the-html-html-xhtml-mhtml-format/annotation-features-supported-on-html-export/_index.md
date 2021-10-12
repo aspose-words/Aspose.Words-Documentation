@@ -1,4 +1,4 @@
-﻿---
+---
 title: Annotation Features Supported on HTML Export
 type: docs
 weight: 10
@@ -57,7 +57,7 @@ Exported as &lt;ins&gt; and &lt;del&gt; elements.
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#acceptAllRevisions\(\))
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/Document#acceptAllRevisions())
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

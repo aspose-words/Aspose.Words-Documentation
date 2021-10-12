@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Extract Selected Content Between Nodes in a Document
 type: docs
 weight: 40

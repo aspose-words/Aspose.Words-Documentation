@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Save a Document"
 aliases: [/net/saving-a-document/]
 type: docs
@@ -12,7 +12,7 @@ Most of the tasks you need to perform with Aspose.Words involve saving a documen
 
 ## Save a Document to a File {#save-a-document-to-a-file}
 
-Simply use the [Save](http://www.aspose.com/api/net/words/aspose.words.document/save/methods/2) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
+Simply use the [Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
 
 The following code example shows how to load and save a document to a file:
 

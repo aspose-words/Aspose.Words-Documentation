@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Features Supported on HTML Export
 type: docs
 weight: 30
@@ -56,7 +56,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template|N/A| | |
-|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>There is a save option that controls whether document properties are exported or not. <br><br>Title, Keywords, Description properties are always exported as title and meta tags to HTML or MHTML and as the appropriate Dublin Core tags when saving as EPUB. <br><br>Additional built-in properties are exported as custom &lt;o:&gt; tags. In EPUB format properties are also exported as Dublin Core tags.|<p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/java/com.aspose.words/document#updateWordCount\(\))</p><p>- **HtmlSaveOptions.ExportDocumentProperties**</p>|
+|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>There is a save option that controls whether document properties are exported or not. <br><br>Title, Keywords, Description properties are always exported as title and meta tags to HTML or MHTML and as the appropriate Dublin Core tags when saving as EPUB. <br><br>Additional built-in properties are exported as custom &lt;o:&gt; tags. In EPUB format properties are also exported as Dublin Core tags.|<p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/java/com.aspose.words/document#updateWordCount(boolean))</p><p>- **HtmlSaveOptions.ExportDocumentProperties**</p>|
 |Custom Properties|Yes|Custom properties are exported as custom &lt;o:&gt; tags to HTML.|- **HtmlSaveOptions.ExportDocumentProperties**|
 |Custom Payload Part|N/A| | |
 |Custom XML Data Storage|N/A| | |

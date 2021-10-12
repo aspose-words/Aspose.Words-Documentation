@@ -2,7 +2,7 @@
 title: Programming With Documents in Python
 type: docs
 weight: 20
-url: /java/programming-with-documents/
+url: /java/programming-with-documents-python/
 aliases:
   - /java/programming-with-documents-in-python/
   - /java/working-with-bookmarks-in-python/

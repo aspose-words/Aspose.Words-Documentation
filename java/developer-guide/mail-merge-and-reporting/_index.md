@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge and Reporting
 aliases:
     - /java/about-mail-merge/
@@ -49,7 +49,7 @@ The following code example shows how to load a data table as the data source for
 
 {{% alert color="primary" %}} 
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/MailMergeMailMerge.ExecuteWithRegions.doc).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/MailMerge/MailMerge.ExecuteWithRegions.doc).
 
 {{% /alert %}} 
 

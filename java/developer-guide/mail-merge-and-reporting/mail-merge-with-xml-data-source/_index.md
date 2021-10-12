@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge with XML Data Source
 aliases:
   - /java/how-to-mail-merge-from-xml-using-imailmergedatasource/
@@ -53,7 +53,7 @@ The following code example demonstrates how to load XML data into DataSet and th
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/MailMergeCustomers.xml).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/MailMerge/Customers.xml).
 
 {{% /alert %}}
 

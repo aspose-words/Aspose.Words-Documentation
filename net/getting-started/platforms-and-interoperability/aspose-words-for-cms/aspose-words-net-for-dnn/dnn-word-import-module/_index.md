@@ -92,7 +92,6 @@ You can log any issues or suggestions related to Aspose.Words .NET for DNN Modu
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
 - [DNN Store ](http://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32900)
 
-
 ### Extend and Contribute
 
 Aspose .NET Word Processing and PDF Document Exporter for DNN and Aspose .NET Word Import for DNN are open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.

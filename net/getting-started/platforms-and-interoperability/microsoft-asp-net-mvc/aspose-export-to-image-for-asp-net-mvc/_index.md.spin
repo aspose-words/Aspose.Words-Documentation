@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose Export to Image for ASP.NET MVC
 type: docs
 weight: 10
@@ -99,7 +99,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words.NET for ASP.NET MVC Modules using any of the following platforms
 
 - [CodePlex](https://asposewordsnetmvc.codeplex.com/workitem/list/basic)
-- [Github](https://github.com/asposewords/Aspose.Words-for-.NET/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 
 ### Extend and Contribute
 
