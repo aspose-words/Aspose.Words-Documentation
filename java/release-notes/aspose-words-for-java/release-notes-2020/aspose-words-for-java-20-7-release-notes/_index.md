@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 20.7 Release Notes
 type: docs
 weight: 10

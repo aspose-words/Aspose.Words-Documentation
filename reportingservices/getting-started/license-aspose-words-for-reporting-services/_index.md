@@ -1,4 +1,4 @@
----
+﻿---
 title: License Aspose.Words for Reporting Services
 type: docs
 weight: 50

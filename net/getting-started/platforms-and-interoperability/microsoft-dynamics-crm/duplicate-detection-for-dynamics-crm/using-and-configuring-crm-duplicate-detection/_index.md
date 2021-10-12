@@ -15,20 +15,20 @@ This section show you how to use Aspose .NET Duplicate Detection with Dialog:
 1. Set Prompt Text and Select Option Set in Response Type.
 1. Add Options for "Scope of Duplicate Detection" 
 
-![todo:image_alt_text](/download/thumbnails/2596142/1045327664)
+![using-and-configuring-crm-duplicate-detection-1](1)
 
 1. The Page with prompt is ready under your steps.
 1. Name the steps accordingly. 
 
-![todo:image_alt_text](using-and-configuring-crm-duplicate-detection_1)
+![using-and-configuring-crm-duplicate-detection-2](1)
 
 1. Select Add Step and select Aspose .NET Duplicate Detection. 
 
-![todo:image_alt_text](using-and-configuring-crm-duplicate-detection_2)
+![using-and-configuring-crm-duplicate-detection-2](2)
 
 1. Hit Set Properties and Set the Options Accordingly. 
 
-![todo:image_alt_text](using-and-configuring-crm-duplicate-detection_3)
+![using-and-configuring-crm-duplicate-detection-3](3)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")

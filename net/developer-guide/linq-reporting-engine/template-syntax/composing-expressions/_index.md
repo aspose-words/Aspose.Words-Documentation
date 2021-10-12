@@ -1,4 +1,4 @@
----
+﻿---
 title: Composing Expressions
 type: docs
 weight: 10
@@ -6,7 +6,7 @@ url: /net/composing-expressions/
 aliases: [/net/template-syntax/#composing-expressions]
 ---
 
-Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with several restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
+Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with numerous restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
 
 ## Using Lexical Tokens
 
@@ -44,11 +44,11 @@ However, you can use the identifier of a visible type in template expressions on
 
 **Note –** Whereas using generic types' identifiers is forbidden in template expressions, you can use identifiers of nullable types in the shorthand "`T?`" form.
 
-Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See "Appendix A. Enumeration Extension Methods" for the examples.
+Also, the engine allows you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by a few keys. See "Appendix A. Enumeration Extension Methods" for the examples.
 
 ## Accessing Type Members
 
-LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
+LINQ Reporting Engine allows you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
 
 - Fields
 - Properties
@@ -77,7 +77,7 @@ In addition to C# Language features, the engine provides the following extra fea
 
 ## Using Extension Methods
 
-LINQ Reporting Engine enables you to use the following built-in extension methods in template expressions:
+LINQ Reporting Engine allows you to use the following built-in extension methods in template expressions:
 
 - Extension methods mimicking the ones for `IEnumerable<T>` (see "Appendix A. Enumeration Extension Methods" for more information)
 - Extension methods for iteration variables (see "Using Extension Methods of Iteration Variables" for more information)
@@ -115,7 +115,7 @@ The engine follows operator precedence, associativity, and overload resolution r
 - The indexing of multi-dimensional arrays is not supported.
 - Whereas the object initializer syntax is supported (including objects of anonymous types), the collection initializer syntax is not.
 
-Also, the engine enables you to use lifted operators in template expressions. 
+Also, the engine allows you to use lifted operators in template expressions. 
 
 ## Using Lambda Functions
 
@@ -127,7 +127,7 @@ You can use both explicit and implicit lambda function signatures in template ex
 
 ## Working with Traditional Mail Merge Data Sources
 
-LINQ Reporting Engine enables you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
+LINQ Reporting Engine allows you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
 
 ### Working with DataSet objects
 
@@ -141,7 +141,7 @@ LINQ Reporting Engine enables you to access `DataTable` objects contained within
 
 ### Working with DataTable and DataView Objects
 
-LINQ Reporting Engine enables you to treat `DataTable` and `DataView` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).
+LINQ Reporting Engine allows you to treat `DataTable` and `DataView` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).
 
 Also, you can normally apply enumeration extension methods (see "Appendix A. Enumeration Extension Methods" for more information) to `DataTable` and `DataView` objects in template expressions. For example, given that persons are a `DataTable` or `DataView` instance, you can count its rows using the following syntax.
 
@@ -163,11 +163,11 @@ LINQ Reporting Engine enables you to access a data associated with a particular 
 
 To determine parent-child relationships for a particular `DataTable` instance, the engine uses [DataRelation](http://msdn.microsoft.com/en-us/library/system.data.datarelation\(v=vs.110\).aspx) objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
 
-**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
+**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with a few relations to the same table.
 
 ### Working with IDataReader Implementors
 
-LINQ Reporting Engine enables you to treat `IDataReader` implementors as enumerations of `IDataRecord` implementors in template expressions. That is, you can use `IDataReader` implementors in template expressions in the same way as `DataTable` objects. See "Working with DataTable and DataView Objects" for more information.
+LINQ Reporting Engine allows you to treat `IDataReader` implementors as enumerations of `IDataRecord` implementors in template expressions. That is, you can use `IDataReader` implementors in template expressions in the same way as `DataTable` objects. See "Working with DataTable and DataView Objects" for more information.
 
 However, you can not use `IDataReader` implementors in template expressions in conjunction with enumeration operations that require a caching of enumeration items. Examples of such operations are grouping and sorting. To work around this restriction, use `DataTable` objects instead.
 

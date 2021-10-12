@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 9.6.0 Release Notes
 type: docs
 weight: 110
@@ -37,5 +37,5 @@ This was requested by a few customers. Footnotes with custom reference marks are
 
 ## New Documentation Articles
 
-Updated class and composition diagrams for the Aspose.Words object model, a new topic about document digital signatures, updated the article about joining and appending documents and a few more.
+Updated class and composition diagrams for the Aspose.Words object model, a new topic about document digital signatures, updated the article about joining and appending documents and multiple more.
 ## All Fixes and New Features

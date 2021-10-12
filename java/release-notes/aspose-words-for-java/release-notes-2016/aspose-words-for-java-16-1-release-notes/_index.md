@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 16.1 Release Notes
 type: docs
 weight: 110
@@ -20,7 +20,7 @@ There are 139 improvements and fixes in this regular monthly release. The most n
 - EMF format is now supported
 - Aspose.Words for Java passes the Veracode Security Scan
 - Performance of PNG encoding/decoding improved x 1.5 times
-- Implemented auto-fit table grid calculation for several classes of tables
+- Implemented auto-fit table grid calculation for a few classes of tables
 - EMF+ images now can be rendered without the GDI+ 
 - Comments rendering improved
 - Word 6.0 binary DOC files are supported now

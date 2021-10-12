@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words or Open XML SDK
 description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Open XML SDK and Aspose.Words do not compete with each other because they address quite different needs."
 type: docs
@@ -23,7 +23,7 @@ It is worth noting that some tasks can be achieved with the Open XML SDK, but ca
 - Create documents by [copying or joining fragments of one or more documents](https://docs.aspose.com/words/java/insert-and-append-documents/) with automatically merging per-document structures such as styles and lists
 - Provide access to complex operations such as [find and replace](https://docs.aspose.com/words/java/find-and-replace/), insert and update a table of contents, formula or fields, and others
 - Generate business documents such as orders or reports populated with data from various data source
-- Convert documents between many popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
+- Convert documents between a few popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
 - And others
 
 In the following sections, we will take a closer look at some of the features and abilities provided by Aspose.Words.
@@ -48,7 +48,7 @@ At the same time, the learning curve for working with Aspose.Words is minimal be
 
 We strongly believe that using Aspose.Words is still very beneficial when dealing with OOXML documents rather than working with XML or other libraries. In addition to making it easier to properly process and generate valid documents, Aspose.Words provides the following important features that you would not have when working with OOXML files directly via XML or other third-party libraries:
 
-- Quality [conversion between many popular document formats](https://docs.aspose.com/words/java/convert-a-document/) and [printing](https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/)
+- Quality [conversion between multiple popular document formats](https://docs.aspose.com/words/java/convert-a-document/) and [printing](https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/)
 - The ability to create documents from fragments of one or more documents, as well as the ability to fill documents with data from various sources
 - Programmatic access to the document properties that provide users with features such as, for example, [splitting a document into parts](https://docs.aspose.com/words/java/split-a-document/) or [comparing two documents](https://docs.aspose.com/words/java/compare-documents/)
 - And others

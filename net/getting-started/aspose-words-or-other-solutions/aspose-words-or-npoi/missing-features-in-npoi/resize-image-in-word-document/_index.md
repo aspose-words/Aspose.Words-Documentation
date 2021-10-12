@@ -1,4 +1,4 @@
----
+﻿---
 title: Resize Image in a Word Document
 description: "Aspose.Words for .NET allows to resize an image in a Word document. NPOI does not provide an opportunity to resize an image."
 type: docs
@@ -16,7 +16,7 @@ The [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/doc
 
 Using [Shape ](http://www.aspose.com/api/net/words/aspose.words.drawing/shape)class you can create or modify shapes in a Microsoft Word document.
 
-The following code example shows how to resize an image:
+The following code example demonstrates how to resize an image:
 
 {{< highlight csharp >}}
 Document doc = new Document();

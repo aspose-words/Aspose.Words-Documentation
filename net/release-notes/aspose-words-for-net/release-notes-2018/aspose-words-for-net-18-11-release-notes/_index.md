@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 18.11 Release Notes
 type: docs
 weight: 20
@@ -147,7 +147,7 @@ public bool CleanupParagraphsWithPunctuationMarks
 
 *The default value of the option is* ***true*** *which means that the behavior was changed to mimic MS Word; however, the customers who rely on the old behavior are able to revert it by setting the option to* ***false**.*
 
-The following sample demonstrates this case:
+The following sample shows this case:
 
 {{< highlight csharp >}}
 document.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;

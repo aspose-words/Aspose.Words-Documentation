@@ -1,4 +1,4 @@
----
+﻿---
 title: Annotation Features Supported on PDF Export
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ See the following link in the documentation for further information:
 
 Comments are exported to PDF.
 
-In version 1.0 of comments rendering long or many comments are not truncated in PDF output.
+In version 1.0 of comments rendering long or several comments are not truncated in PDF output.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,7 +50,7 @@ Tracked changes are currently not exported to PDF in the way they appear in Micr
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/net/words/aspose.words/document/methods/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

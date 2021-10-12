@@ -1,4 +1,4 @@
----
+﻿---
 title: Logical Levels of Nodes in a Document
 type: docs
 description: "In Aspose.Words for C++ documentation mentioned logical levels of nodes – block level, inline level, or row level. The node level is used to describe the location in the document tree where the node is typically occur."
@@ -70,7 +70,7 @@ Inline-level elements are represented by the following classes:
 - [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape) and [GroupShape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.group_shape) represent shapes, drawings, images, etc.
 - SmartTag and StructuredDocumentTag represent custom markup
 
-The following diagram shows the inline-level nodes structure.
+The following diagram demonstrates the inline-level nodes structure.
 
 <img src="inline-level.png" alt="inline-level-aspose-words-cpp" style="width:785px"/>
 

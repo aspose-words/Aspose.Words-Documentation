@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 13.1.0
 type: docs
 weight: 10
@@ -90,7 +90,7 @@ The NET Framework 1.1 is outdated and we expect very few users to develop applic
 
 - There are features that we need to implement which are incompatible or difficult to get working with the 1.1 version of the .NET Framework. Without support for 1.1 we can more easily stream line new features into our component.
 - We can begin using features exclusively found in the .NET Framework 2.0 and above in the Aspose.Words code. This means useful features such as generics that we previously off limits to enable continued support of .NET 1.1 can now be used in our code. The benefits of this get passed onto you as these features will improve performance in the Aspose.Words component even further. Expect to see these improvements in the next few versions of Aspose.Words.
-- Since Aspose.Words for .NET is auto-ported to Java many performance benefits will extend to Aspose.Words for Java as well.
+- Since Aspose.Words for .NET is auto-ported to Java numerous performance benefits will extend to Aspose.Words for Java as well.
 
 ### INCLUDETEXT Fields Supports HTTP Protocol
 

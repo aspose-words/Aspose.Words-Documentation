@@ -1,4 +1,4 @@
----
+﻿---
 title: How to  Migrate to Aspose.Words 10.5 or Higher
 type: docs
 weight: 10
@@ -35,7 +35,7 @@ The main differences in the new version that will cause the behavior or appearan
 
 Most tables that are generated programmatically will be affected by the changes to the new table API. In the newer version of Aspose.Words you will find that the table takes up much more horizontal space compared with previous versions by stretching to the width of the page. 
 
-Aspose.Words now by default auto fits a table to the page width and enables allow auto fitting to contents. Both of these properties together ignore any fixed column widths that are set by code. In previous versions tables would use this property to specify the width of each cell. If this property was not set (a value of 0.0) then a fixed width of 72 points was used. 
+Aspose.Words now by default auto fits a table to the page width and allows allow auto fitting to contents. Both of these properties together ignore any fixed column widths that are set by code. In previous versions tables would use this property to specify the width of each cell. If this property was not set (a value of 0.0) then a fixed width of 72 points was used. 
 
 To fix your code so that fixed widths are used as in previous versions, you need to specify that you want to use fixed column widths by calling the [Table.AutoFit](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/autofit) method with the [AutoFitBehavior.FixedColumnWidths](https://apireference.aspose.com/words/net/aspose.words.tables/autofitbehavior) enumeration. This will build the table based off the widths set on each cell instead of fitting the table to the window. 
 

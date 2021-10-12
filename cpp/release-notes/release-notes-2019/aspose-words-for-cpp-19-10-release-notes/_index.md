@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for CPP 19.10 Release Notes
 type: docs
 weight: 40

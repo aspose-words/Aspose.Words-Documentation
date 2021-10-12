@@ -1,4 +1,4 @@
----
+﻿---
 title: Update Field
 type: docs
 weight: 20
@@ -64,7 +64,7 @@ In previous versions, a call to [Document.updatePageLayout](https://apireference
 
 [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/Document) is still used to build or rebuild the document layout when a document is to be rendered. When this method is called or a document is rendered (i.e. saved to PDF, XPS, printed etc.) the document layout is built. In previous versions, this process would update all page-layout related fields, however, in the current version these fields are automatically updated only in the headers and footers of the document.
 
-These changes to how fields are updated upon document layout are required and match how Microsoft Word updates fields. This now allows a document to be rendered without any fields in the main body being updated which is how fields are evaluated in Microsoft Word. If the old functionality of updating page-related fields in the entire document when rendering is desired then an explicit call to [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document) is required before saving the document.
+These changes to how fields are updated upon document layout are required and match how Microsoft Word updates fields. This now enables a document to be rendered without any fields in the main body being updated which is how fields are evaluated in Microsoft Word. If the old functionality of updating page-related fields in the entire document when rendering is desired then an explicit call to [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document) is required before saving the document.
 
 ### All Types of Fields Encountered during Mail Merge are Updated
 
@@ -82,9 +82,9 @@ The following code examples shows how to completely rebuild TOC fields in the do
 
 ## How to Rename Merge Fields
 
-An example that shows how to create your own **MergeField** class, that represents a single merge field in a Microsoft Word document and allows you to get or set its name. 
+An example that shows how to create your own **MergeField** class, that represents a single merge field in a Microsoft Word document and enables you to get or set its name. 
 
-The following code example shows how to rename merge fields in a Word document.
+The following code example demonstrates how to rename merge fields in a Word document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-RenameMergeFields-.java" >}}
 
@@ -92,6 +92,6 @@ The following code example shows how to rename merge fields in a Word document.
 
 Aspose.Words provides a property to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model.
 
-The following code example shows the usage of Filed.DisplayResult property.
+The following code example demonstrates the usage of Filed.DisplayResult property.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldDisplayResult-FieldDisplayResult.java" >}}

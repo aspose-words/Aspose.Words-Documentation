@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for C++ 20.2 Release Notes
 type: docs
 weight: 50

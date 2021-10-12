@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with VBA Macros
 type: docs
 weight: 150
@@ -27,13 +27,13 @@ The following code example demonstrates how to read VBA Macros from the document
 
 ## Write or Modify Macros
 
-The following code example demonstrates how to modify VBA Macros using the VbaModule.SourceCode property.
+The following code example shows how to modify VBA Macros using the VbaModule.SourceCode property.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithVbaMacros-ModifyVbaMacros.cpp" >}}
 
 ## Clone VBA Project
 
-The following code example demonstrates how to clone the VBA Project using the VbaProject.Clone property which creates a copy of the existing project. 
+The following code example shows how to clone the VBA Project using the VbaProject.Clone property which creates a copy of the existing project. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaProject.cpp" >}}
 

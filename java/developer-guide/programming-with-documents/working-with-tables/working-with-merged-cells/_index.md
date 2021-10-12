@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Merged Cells
 type: docs
 weight: 70
@@ -53,7 +53,7 @@ There are different ways to start a table. In the code snippets above builder.in
 
 Read more: [Inserting a Table using DocumentBuilder](https://docs.aspose.com/words/java/creating-tables/#inserting-a-table-using-documentbuilder).
 
-In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over many rows or columns.
+In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over a few rows or columns.
 
 #### Example: Merging all Cells in a Range
 
@@ -71,6 +71,6 @@ Merges the range of cells between the two specified cells.
 
 In the latest versions of MS Word, the cells are merged horizontally by its width. Whereas, the merge flags were used in the older technique,  like Cell.CellFormat.HorizontalMerge. The merge flags are not used when cells are horizontally merged by their width and it is also not possible to detect which cells are merged. Aspose.Words provides ConvertToHorizontallyMergedCells method to convert cells which are horizontally merged by its width to the cell horizontally merged by flags. It simply transforms the table and adds new cells when needed.
 
-The following code example shows the working of the above-mentioned method.
+The following code example demonstrates the working of the above-mentioned method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ConvertToHorizontallyMergedCells-ConvertToHorizontallyMergedCells.java" >}}

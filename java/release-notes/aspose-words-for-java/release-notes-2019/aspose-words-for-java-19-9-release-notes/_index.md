@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 19.9 Release Notes
 type: docs
 weight: 40

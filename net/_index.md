@@ -74,7 +74,7 @@ With Aspose.Words for .NET, you can generate, modify, convert, render, and print
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
 			<ul>
-				<li><a href="https://forum.aspose.com/c/words">Aspose.Words for .NET Free Support Forum</a></li>
+				<li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for .NET Free Support Forum</a></li>
 			</ul>
 	</div>
 </div>

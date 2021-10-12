@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 18.7 Release Notes
 type: docs
 weight: 60
@@ -841,7 +841,7 @@ public TxtTrailingSpacesOptions TrailingSpacesOptions
 public TxtLeadingSpacesOptions LeadingSpacesOptions
 {{< /highlight >}}
 
-These properties allows to control  the way of handling leading and trailing spaces during loading txt file.
+These properties enables to control  the way of handling leading and trailing spaces during loading txt file.
 
 Leading spaces could be trimmed, preserved or converted to indent (*Please see **TxtLeadingSpacesOptions*** *enum*).
 Trailing spaces could be trimmed or preserved.

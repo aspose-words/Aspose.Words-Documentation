@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Use Aspose.Words Instead of VSTO
 description: "Learn how to download and install Aspose.Words for .NET and what prerequisites have to be met to work with Aspose.Words instead of VSTO."
 type: docs

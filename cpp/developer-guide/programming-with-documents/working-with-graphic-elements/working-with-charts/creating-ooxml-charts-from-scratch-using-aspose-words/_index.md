@@ -1,4 +1,4 @@
----
+﻿---
 title: Creating OOXML Charts from Scratch using Aspose.Words
 type: docs
 weight: 10

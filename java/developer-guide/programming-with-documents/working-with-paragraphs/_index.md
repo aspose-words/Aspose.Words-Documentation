@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Paragraphs
 type: docs
 weight: 80
@@ -30,7 +30,7 @@ Following code example show how to use ParagraphFormat.AddSpaceBetweenFarEastAnd
 
 #### Change Asian Paragraph Spacing and Indents
 
-The following code example demonstrates how to change Asian paragraph spacing and indents.
+The following code example shows how to change Asian paragraph spacing and indents.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ChangeAsianParagraphSpacingandIndents.java" >}}
 
@@ -44,7 +44,7 @@ Asian Typography tab of the Paragraph properties dialog in MS Word has a line br
 
 Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user-defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
-Furthermore, a **Style** object provides the Style.StyleIdentifier property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. The code example given below shows how to apply a paragraph style.
+Furthermore, a **Style** object provides the Style.StyleIdentifier property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. The code example given below demonstrates how to apply a paragraph style.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
@@ -61,7 +61,7 @@ Borders are represented by the BorderCollection. This is a collection of Border 
 
 Both the border collection and each separate border have similar attributes like color, line style, line width, distance from the text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining the property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the Border.ClearFormatting method. Note that when border properties are reset to default values, the border is invisible. The Shading class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
-The shading texture is set with a TextureIndex enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the TextureIndex.TextureSolid value and set the foreground shading color as appropriate. The code example given below shows how to apply borders and shading to a paragraph.
+The shading texture is set with a TextureIndex enumeration value that enables the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the TextureIndex.TextureSolid value and set the foreground shading color as appropriate. The code example given below demonstrates how to apply borders and shading to a paragraph.
 
 The code example given below shows how to apply borders and shading to a paragraph.
 

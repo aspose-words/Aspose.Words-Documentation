@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 2.7.0 Release Notes
 type: docs
 weight: 90
@@ -56,4 +56,4 @@ We have made font information loaded from the document publically accessible. Us
 
 and FontPitch classes.
 
-Aspose.Words is available only in two versions: Aspose.Words for .NET and Aspose.Words for Java, but nevertheless, you can use it from many other programming languages. We have reworked the section in our documentation and included more examples in different languages.
+Aspose.Words is available only in two versions: Aspose.Words for .NET and Aspose.Words for Java, but nevertheless, you can use it from a few other programming languages. We have reworked the section in our documentation and included more examples in different languages.

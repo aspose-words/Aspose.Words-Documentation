@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Bookmarks
 type: docs
 weight: 55
@@ -9,7 +9,7 @@ Bookmarks identify in a Microsoft Word document the locations or fragments that 
 
 ## Bookmarks in Microsoft Word
 
-In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of several letters and digits.
+In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of multiple letters and digits.
 
 ### Inserting a Bookmark in Microsoft Word
 
@@ -58,7 +58,7 @@ Use [DocumentBuilder.startBookmark](https://apireference.aspose.com/words/java/c
 
 {{% alert color="primary" %}} 
 
-All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC, cannot have white spaces. However, PDF allows such bookmarks. So now, if you need to use bookmarks in PDF, XPS or SWF outlines, you can use them with white spaces.
+All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC, cannot have white spaces. However, PDF enables such bookmarks. So now, if you need to use bookmarks in PDF, XPS or SWF outlines, you can use them with white spaces.
 
 {{% /alert %}} 
 
@@ -68,11 +68,11 @@ The following code example shows how to create a new bookmark.
 
 ### Obtaining Bookmarks
 
-Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the **Node.getRange** property exposed by any document node that returns a **Range** object representing the portion of the document contained in this node. Use this object to retrieve a **BookmarkCollection** and then use the collection indexer to get a specific bookmark. The code example given below shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/AccessBookmarks/Bookmark.doc).
+Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the **Node.getRange** property exposed by any document node that returns a **Range** object representing the portion of the document contained in this node. Use this object to retrieve a **BookmarkCollection** and then use the collection indexer to get a specific bookmark. The code example given below demonstrates how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/AccessBookmarks/Bookmark.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-AccessBookmarks-1.java" >}}
 
-The following code example shows how to get or set a bookmark name and text. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/BookmarkNameAndText/Bookmark.doc).
+The following code example demonstrates how to get or set a bookmark name and text. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/BookmarkNameAndText/Bookmark.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkNameAndText-1.java" >}}
 
@@ -84,7 +84,7 @@ If you change the name of a bookmark to a name that already exists in the docume
 
 Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
 
-The following code example demonstrates how to access columns of the bookmarked table.
+The following code example shows how to access columns of the bookmarked table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkTable-BookmarkTableColumns.java" >}}
 

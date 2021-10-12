@@ -1,4 +1,4 @@
----
+﻿---
 title: Field Features Supported on HTML Import
 type: docs
 weight: 50
@@ -7,7 +7,7 @@ url: /net/field-features-supported-on-html-import/
 
 {{% alert color="primary" %}} 
 
-Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
+Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first enables you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
 Aspose.Words supports almost all common field types and can peform field update on most field types, even ones with complex content. This includes the TOC (Table of Contents) field. With one call to Document.UpdateFields the TOC field or any other supported field is fully updated. New or existing fields are fully updated by the Aspose.Words field engine. There is a document option to control the culture/locale used during field update. This can be the language setting of the field in the document or the current culture/locale used by the application.
 
@@ -16,7 +16,7 @@ A field is represented in the document model as:
 - FieldStart node.
 - Run node(s) (represents the field code).
 - FieldSeparator node.
-- Other nodes (represents the field result) such as runs, shapes. A field can span across many different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
+- Other nodes (represents the field result) such as runs, shapes. A field can span across several different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
 - FieldEnd node.
 
 We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which allows you to get this facade from any field the document.
@@ -201,7 +201,7 @@ Aspose.Words fully supports all features of hyperlink fields. You can create ne
 | :- | :- | :- | :- |
 |Text|Yes| | |
 |Hyperlinked Shape or Image|Yes| | |
-|Hyperlink across Multiple Paragraphs|N/A|Hyperlinks across multiple paragraphs are exported as separate hyperlinks. On round-trip these are imported as several separate hyperlinks.| |
+|Hyperlink across Multiple Paragraphs|N/A|Hyperlinks across many paragraphs are exported as separate hyperlinks. On round-trip these are imported as numerous separate hyperlinks.| |
 |Hyperlink to a Local Bookmark|Yes| | |
 |Hyperlink to an External Resource|Yes| | |
 |Screen Tip|Planned| | |

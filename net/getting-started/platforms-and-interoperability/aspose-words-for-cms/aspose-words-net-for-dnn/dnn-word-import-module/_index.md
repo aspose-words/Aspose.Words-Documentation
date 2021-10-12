@@ -37,7 +37,7 @@ You can download Aspose .NET Word Import for DNN Module from one of the followin
 - [DNN Store ](http://store.dnnsoftware.com/home/product-details/aspose-net-word-import-for-dnn-module)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/releases)
 - [Sourceforge ](https://sourceforge.net/projects/asposednn/files/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/downloads)
+- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/downloads/)
 
 ## Installing
 
@@ -91,7 +91,6 @@ You can log any issues or suggestions related to Aspose.Words .NET for DNN Modu
 - [Sourceforge ](https://sourceforge.net/p/asposednn/tickets/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
 - [DNN Store ](http://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32900)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/DNN-Import-from-Word-using-c38b27c7/view/Discussions#content)
 
 ### Extend and Contribute
 

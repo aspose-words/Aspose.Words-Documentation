@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 20.4 Release Notes
 type: docs
 weight: 30
@@ -51,7 +51,7 @@ This page contains release notes for [Aspose.Words for Java 20.4](https://reposi
 |WORDSJAVA-2369|Can't load a font with PRC encoded Chinese name.|Bug|
 |WORDSNET-8841|Aspose.Words.Document does not load RTF contents correctly|Bug|
 |WORDSNET-11627|Aspose.Words.FileCorruptedException is thrown while loading DOCX file|Bug|
-|WORDSNET-8712|Add an example which demonstrates how to add PDF encryption without any user password|Bug|
+|WORDSNET-8712|Add an example which shows how to add PDF encryption without any user password|Bug|
 |WORDSNET-19675|The angle unit is missing in the parameter of rotate() CSS functions|Bug|
 |WORDSNET-20150|Document.Compare throws System.ArgumentOutOfRangeException|Bug|
 |WORDSNET-20147|Conversion to PDF fails with InvalidCastException: OfficeMath to type Paragraph|Bug|
@@ -263,7 +263,7 @@ doc.Save(pdfPath, saveOptions);
 
 For the Advanced mode to work correctly, it is necessary that the scale in the system be set to 100%.
 
-The following table shows the differences between the modes:
+The following table demonstrates the differences between the modes:
 
 |The effect|Basic|Advanced|
 | :- | :- | :- |
@@ -437,7 +437,7 @@ Added image interpolation option for PDF rendering which can be specified by Pdf
 /// <remarks>
 /// <para>
 /// When the resolution of a source image is significantly lower than that of the output device,
-/// each source sample covers many device pixels. As a result, images can appear jaggy or blocky.
+/// each source sample covers numerous device pixels. As a result, images can appear jaggy or blocky.
 /// These visual artifacts can be reduced by applying an image interpolation algorithm during rendering.
 /// Instead of painting all pixels covered by a source sample with the same color, image interpolation
 /// attempts to produce a smooth transition between adjacent sample values.

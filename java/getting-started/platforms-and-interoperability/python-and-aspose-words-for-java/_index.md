@@ -3,6 +3,8 @@ title: Python and Aspose.Words for Java
 type: docs
 weight: 50
 url: /java/python-and-aspose-words-for-java/
+aliases:
+  - /java/aspose-words-java-for-python/
 ---
 
 ## Prerequisites

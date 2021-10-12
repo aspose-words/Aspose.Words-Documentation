@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Run the Examples
 description: "Download Aspose.Words for C++ examples from our GitHub repository and learn how to run them to become more familiar with the Aspose.Words possibilities and features."
 type: docs
@@ -101,7 +101,7 @@ cmake -E chdir Examples/DocsExamples/build ctest --verbose
 
 {{% alert color="primary" %}}
 
-Please feel free to reach out using our [Aspose.Words Product Family Forum](https://forum.aspose.com/c/words) if you have any issues setting up or running the examples.
+Please feel free to reach out using our [Aspose.Words Product Family Forum](https://forum.aspose.com/c/words/8) if you have any issues setting up or running the examples.
 
 {{% /alert %}}
 

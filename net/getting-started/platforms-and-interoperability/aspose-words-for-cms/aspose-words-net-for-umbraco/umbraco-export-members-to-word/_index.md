@@ -99,7 +99,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
 - [CodePlex ](https://aspose-wordsumbraco.codeplex.com/workitem/list/basic)
-- [Github ](https://github.com/asposeWords/Aspose.Words-for-.NET/issues)
+- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Export-Umbraco-Members-to-bd3b00f1)
 
 ### Extend and Contribute

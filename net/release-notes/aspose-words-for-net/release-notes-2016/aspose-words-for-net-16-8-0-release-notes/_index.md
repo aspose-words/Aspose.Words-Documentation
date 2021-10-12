@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 16.8.0 Release Notes
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 - Performance optimization of Fonts catch.
 - Support loading of Mobi (Mobipocket) documents (MOBI is an eBook format used by the MobiPocket and Amazon Kindle Readers).
 - Shapes with the translucent fill rendering implemented in PDF and other fixed-page formats. Opacity parameter is now taken into account.
-- New base class FixedPageSaveOptions added for all fixed page formats e.g. PNG, PDF, HTML and many others.
+- New base class FixedPageSaveOptions added for all fixed page formats e.g. PNG, PDF, HTML and numerous others.
 - Over a dozen of fixes and improvements over model and flow formats.
 - Hijri/Lunar, Hebrew Calendar Date Field option supported.
 - The analogue of NEXT fields is added to LINQ Reporting Engine.
@@ -63,7 +63,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-6933|/vml/ Shapes are laid out incorrectly in DOC on HTML import|Bug|
 |WORDSNET-8441|RTL text of HTML Fixed Page document is reordered when copied to Clipboard|Bug|
 |WORDSNET-9658|Formula (Equation.DSMT4) background color is lost after conversion from Docx to HTML|Bug|
-|WORDSNET-13188|Extract many duplicate options from Fixed-page based save formats to one abstract class.|Enhancement|
+|WORDSNET-13188|Extract a few duplicate options from Fixed-page based save formats to one abstract class.|Enhancement|
 |WORDSNET-13952|Index is loosing style(italic) information.when convert rtf to docx|Enhancement|
 |WORDSNET-7762|Use the Hijri/Lunar calendar field option has no effect in PDF|Enhancement|
 |WORDSNET-10055|Throw a meaningful exception during Range.Replace callback|Exception|
@@ -166,7 +166,7 @@ public new int WebRequestTimeout
 }
 {{< /highlight >}}
 
-Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in several releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
+Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in many releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
 
 Use case:
 

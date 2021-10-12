@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Integration in AWS Lambda
 type: docs
 description: "You might be interested in using Aspose.Words in AWS Lambda if you are targeting to create an application in the cloud, need Aspose.Words functionality, and probably integration with other Amazon services. Learn more about using Aspose.Words for .NET when building applications for Amazon Web Services."
@@ -71,7 +71,7 @@ For demonstration purposes, the Noto Sans fonts set is used.
 
 To use fonts from the S3 storage, follow the steps below:
 
-1. Create a “Fonts” folder in your S3 bucket and upload the fonts there. The following code shows a [StreamFontSource](https://apireference.aspose.com/words/net/aspose.words.fonts/streamfontsource) implementation used to read one font from S3 storage:<br>{{< highlight csharp >}}
+1. Create a “Fonts” folder in your S3 bucket and upload the fonts there. The following code {shows|demonstrates} a [StreamFontSource](https://apireference.aspose.com/words/net/aspose.words.fonts/streamfontsource) implementation used to read one font from S3 storage:<br>{{< highlight csharp >}}
    internal class S3FontSource : StreamFontSource
    {
        public S3FontSource(IAmazonS3 client, string bucketName, string key)

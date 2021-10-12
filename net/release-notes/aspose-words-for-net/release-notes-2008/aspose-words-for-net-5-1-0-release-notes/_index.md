@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 5.1.0 Release Notes
 type: docs
 weight: 60
@@ -34,7 +34,7 @@ This page contains release notes for [Aspose.Words for .NET 5.1.0](http://www.as
 |3748 |PDF |Implement image transparency or a workaround for OLE objects' metafiles. |
 |3683 |DOC |Embedded image is not displayed after saving document in doc format. |
 |3204 |PDF |Numbering in the list starts from 2, not from 1 as when converting to PDF. |
-|1572 |PDF |Borders are output incorrectly for the table with many merged cells. |
+|1572 |PDF |Borders are output incorrectly for the table with several merged cells. |
 |1564 |PDF |A table is split into two pages in PDF |
 |1392 |DOC |A picture in the document is not visible in Word 97. |
 |1200 |Model |Test Ajax compatibility |

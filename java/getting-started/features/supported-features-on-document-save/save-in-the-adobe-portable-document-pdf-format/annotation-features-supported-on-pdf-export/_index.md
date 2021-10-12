@@ -17,7 +17,7 @@ Bookmarks are exported to PDF and can be made to appear the document outline by 
 
 See the following link in the documentation for further information:
 
-- [OutlineOptions.DefaultBookmarksOutlineLevel](https://apireference.aspose.com/java/words/com.aspose.words/OutlineOptions)
+- [OutlineOptions.DefaultBookmarksOutlineLevel](https://apireference.aspose.com/words/java/com.aspose.words/OutlineOptions)
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ See the following link in the documentation for further information:
 
 Comments are exported to PDF.
 
-In version 1.0 of comments rendering long or many comments are not truncated in PDF output.
+In version 1.0 of comments rendering long or numerous comments are not truncated in PDF output.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -50,7 +50,7 @@ Tracked changes are currently not exported to PDF in the way they appear in Micr
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/java/words/com.aspose.words/document#acceptAllRevisions\(\))
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#acceptAllRevisions())
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

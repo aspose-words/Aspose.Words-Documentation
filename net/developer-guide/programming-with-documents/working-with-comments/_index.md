@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Comments
 type: docs
 weight: 140
@@ -13,7 +13,7 @@ Comments of the document are represented by the [Comment](http://www.aspose.com/
 
 ## How to Extract or Remove Comments
 
-Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are multiple reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
+Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are numerous reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
 
 In this sample we are going to look at some simple methods for both gathering information from the comments within a document and for removing comments from a document. Specifically we'll cover how to:
 
@@ -87,7 +87,7 @@ Below example shows how to remove text between CommentRangeStart and CommentRan
 
 ## How to Read Comment's Reply
 
-Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. Below example shows how to iterate through a comment's replies and resolved them.
+Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. Below example demonstrates how to iterate through a comment's replies and resolved them.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cs" >}}
 
@@ -95,6 +95,6 @@ Comment.Replies property returns a collection of Comment objects that are immedi
 
 The Comment.AddReply method adds a reply to this comment. Please note that due to the existing MS Office limitations only 1 level of replies is allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
 
-You can use Comment.RemoveReply method to remove the specified reply to this comment. Following code example shows how to add a reply to comment and remove comment's reply.
+You can use Comment.RemoveReply method to remove the specified reply to this comment. Following code example demonstrates how to add a reply to comment and remove comment's reply.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-CommentReply-AddRemoveCommentReply.cs" >}}

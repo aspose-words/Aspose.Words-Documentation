@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 20.4 Release Notes
 type: docs
 weight: 40

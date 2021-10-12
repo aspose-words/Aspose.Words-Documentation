@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert and Remove Field
 type: docs
 weight: 30
@@ -7,7 +7,7 @@ url: /java/insert-and-remove-field/
 
 ## Inserting Fields into a Document
 
-In Aspose.Words the [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
+In Aspose.Words the [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and enables the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
 {{% alert color="primary" %}} 
 
@@ -15,17 +15,17 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}} 
 
-The following code example shows how to Inserts a merge field into a document using DocumentBuilder.
+The following code example demonstrates how to Inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-1.java" >}}
 
-The same technique is used to insert fields nested within other fields. The following code example demonstrates how to insert fields nested within another field using DocumentBuilder.
+The same technique is used to insert fields nested within other fields. The following code example shows how to insert fields nested within another field using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-1.java" >}}
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example shows how to get names of all merge fields in a document.
+A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example demonstrates how to get names of all merge fields in a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-1.java" >}}
 
@@ -33,7 +33,7 @@ A field which is inserted using DocumentBuilder.insertField returns a Field obje
 
 The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use LoadOptions.setUpdateDirtyFields() property to specify whether to update the fields with the dirty attribute. When the value of LoadOptions.setUpdateDirtyFields() is set to *true*, all fields having *true* value for Field.IsDirty or FieldChar.IsDirty property are updated on document load. 
 
-The following example shows how to update fields having the dirty attribute.
+The following example demonstrates how to update fields having the dirty attribute.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
 
@@ -127,7 +127,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/java/words/com.aspose.words/FieldIncludeText). Below example shows how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example demonstrates how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertIncludeFieldWithoutDocumentBuilder.java" >}}
 
@@ -137,7 +137,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 { TOA [Switches ] }
 
-Please refer to [FieldToa Class API reference](https://apireference.aspose.com/java/words/com.aspose.words/FieldToa). The following code example shows how to Add a TOA field using DOM to a Paragraph in Document.
+Please refer to [FieldToa Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldToa). The following code example demonstrates how to Add a TOA field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAFieldWithoutDocumentBuilder.java" >}}
 
@@ -180,6 +180,6 @@ COMPARE field compares two values and returns the numeric value 1 if the compari
 
 ### Insert IF Field in Word Document
 
-IF field can be used to evaluate arguments conditionally. The following example shows how to add IF fields by using DocumentBuilder to a Word Document:
+IF field can be used to evaluate arguments conditionally. The following example demonstrates how to add IF fields by using DocumentBuilder to a Word Document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}

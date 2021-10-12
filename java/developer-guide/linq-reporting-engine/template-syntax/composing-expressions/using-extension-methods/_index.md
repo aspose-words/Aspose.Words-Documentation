@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Extension Methods
 type: docs
 weight: 40

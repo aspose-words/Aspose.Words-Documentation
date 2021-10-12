@@ -1,6 +1,6 @@
----
+﻿---
 title: Work with Options and Appearance of Word Documents
-description: "Aspose.Words for C++ allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
+description: "Aspose.Words for C++ enables you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 110
 url: /cpp/work-with-word-document-options-and-appearance/
@@ -59,7 +59,7 @@ The following code example shows how to add Japanese to editing languages:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cpp" >}}
 
-The following code example shows how to set Russian as the default editing language:
+The following code example demonstrates how to set Russian as the default editing language:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-SetRussianAsDefaultEditingLanguage.cpp" >}}
 

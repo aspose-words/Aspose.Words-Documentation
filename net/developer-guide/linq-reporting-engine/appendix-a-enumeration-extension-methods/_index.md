@@ -1,4 +1,4 @@
----
+﻿---
 title: Appendix A. Enumeration Extension Methods
 type: docs
 weight: 50

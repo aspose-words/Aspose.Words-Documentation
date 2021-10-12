@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 13.3.0
 type: docs
 weight: 30
@@ -13,7 +13,7 @@ These page list public API changes that were introduced in Aspose.Words 13.3.0. 
 
 ## New HtmlFixed Save Format Introduced
 
-Save any document to fixed HTML based format. All elements in this output are absolutely positioned that allows displaying document in browser exactly as it looks in Microsoft Word.
+Save any document to fixed HTML based format. All elements in this output are absolutely positioned that enables displaying document in browser exactly as it looks in Microsoft Word.
 
 - Text is rendered as absolutely positioned spans. Fonts are exported as subsets in Woff (Web Open Font Format) and can be either embedded or stored as external resources.
 - Vector graphics are rendered as embedded SVG images.
@@ -50,7 +50,7 @@ In previous versions a merge field with an empty string as a table name would be
 
 ## Non-standard Quotation Marks are Recognized in Fields
 
-Microsoft Word recognizes quotation marks in fields from several Unicode characters: U+0022 (standard), U+00AB, U+00BB, U+201C, U+201D, U+201E, U+201E. Aspose.Words previously only recognized the standard quotation marks, however with this release it now recongizes all of the listed characters.
+Microsoft Word recognizes quotation marks in fields from a few Unicode characters: U+0022 (standard), U+00AB, U+00BB, U+201C, U+201D, U+201E, U+201E. Aspose.Words previously only recognized the standard quotation marks, however with this release it now recongizes all of the listed characters.
 
 ## Partial Support of 3D Chart Rendering
 

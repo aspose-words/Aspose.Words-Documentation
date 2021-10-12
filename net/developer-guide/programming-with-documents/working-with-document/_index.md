@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Document
 type: docs
 description: "The Document class provides various document properties and methods. You use the Document class as the starting point for whatever you want to perform with Aspose.Words for .NET. The Document object can be saved to a file or stream and also sent to a browser."

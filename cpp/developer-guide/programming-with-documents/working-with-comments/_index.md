@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Comments
 type: docs
 weight: 90
@@ -67,7 +67,7 @@ The code example given below shows how to add a comment to a paragraph in the do
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AddComments-AddComments.cpp" >}}
 
-The code example given below shows how to anchor a comment to a region of text.
+The code example given below demonstrates how to anchor a comment to a region of text.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AnchorComment-AnchorComment.cpp" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Updating and Removing a Field
 type: docs
 weight: 30
@@ -19,13 +19,13 @@ Sometimes it is necessary to remove a field from the document. This may occur wh
 
 ## Update LastSavedTime Property Before Saving
 
-You can use SaveOptions->UpdateLastSavedTimeProperty property whether to update the corresponding built-in document property (BuiltInDocumentProperties->LastSavedTime) on document save. Following example shows how to update this property. 
+You can use SaveOptions->UpdateLastSavedTimeProperty property whether to update the corresponding built-in document property (BuiltInDocumentProperties->LastSavedTime) on document save. Following example demonstrates how to update this property. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithSaveOptions-UpdateLastSavedTimeProperty.cpp" >}}
 
 ## How to Apply Custom Formatting to Field Result
 
-Aspose.Words provides API for custom formatting of the field's result. You can implement the IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. The following code example shows how to apply custom formatting for the field's result.
+Aspose.Words provides API for custom formatting of the field's result. You can implement the IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. The following code example demonstrates how to apply custom formatting for the field's result.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormatFieldResult-FormatFieldResult.cpp" >}}
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: Aspose.Words Java For PHP in More Details
 type: docs
-weight: 60
+weight: 5
 url: /java/aspose-words-java-for-php/
 ---
 
@@ -13,7 +13,7 @@ Read more at [sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
 
 ## Aspose.Words for Java
 
-Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
+Aspose.Words for Java is an advanced class library for Java that allows you to perform a great range of document processing tasks directly within your Java applications.
 
 Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can generate, modify, and convert documents without using Microsoft Word.
 
@@ -21,7 +21,7 @@ Read more at [aspose.com](http://www.aspose.com/java/word-component.aspx)
 
 ## Aspose.Words Java for PHP
 
-Project Aspose.Words for PHP shows how different tasks can be performed using Aspose.Words Java APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for Java in their PHP Projects using [PHP/Java Bridge](http://php-java-bridge.sourceforge.net/pjb/).
+Project Aspose.Words for PHP demonstrates how different tasks can be performed using Aspose.Words Java APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for Java in their PHP Projects using [PHP/Java Bridge](http://php-java-bridge.sourceforge.net/pjb/).
 
 ## System Requirements and Supported Platforms
 

@@ -12,20 +12,20 @@ Below are the steps to create and upload Template in CRM
 - Open word and create a template.
 - Insert MailMerge fields for data comming from CRM. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_1)
+![using-and-configuring-crm-automerge-1](1)
 
 - Make sure that the Field name matches exactly with the CRM field. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_2)
+![using-and-configuring-crm-automerge-2](2)
 
 - Templates are specific to use with individual entity. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_3)
+![using-and-configuring-crm-automerge-3](3)
 
 - Once the Template is created, Open Document Template entity in CRM and Create a New record.
 - Give the name of the template and attach the created document in the attachment. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_4)
+![using-and-configuring-crm-automerge-4](4)
 
 ### How to Configure Workflow
 
@@ -34,17 +34,15 @@ This section shows how Aspose .NET AutoMerge can be used with a workflow.
 - Open Settings -> Processes within CRM and hit New.
 - Enter Name and Entity and select category as Workflow. (Make sure your template is designed for the same entity you have selected.)
 - Use the window to create your own workflow.
-- If you want to use “Aspose AutoMerge” functionality Go to Add Step --> Aspose AutoMerge 
+- If you want to use “Aspose AutoMerge” functionality Go to Add Step --> Aspose AutoMerge
 
-![todo:image_alt_text](/download/thumbnails/2589863/1303366909)
-
-Here you will see all available options to use with Aspose AutoMerge:
+You will see all available options to use with Aspose AutoMerge in the current section.
 
 #### Create Document
 
 Select this option to create a new document based on the template.
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_5)
+![using-and-configuring-crm-automerge-5](5)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
@@ -57,7 +55,7 @@ Select this option to create a new document based on the template.
 
 Select this option to attach the created document to an email. This step is used with combination of "Send Email" described below. Please notice that you can select an existing email as well as you can create an email within your workflow.
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_6)
+![using-and-configuring-crm-automerge-6](6)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
@@ -68,7 +66,7 @@ Select this option to attach the created document to an email. This step is used
 
 Select this step if you want to attach the document to Letter. Attach to letter works same like Attach to Email and it will use the letter activity.
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_7)
+![using-and-configuring-crm-automerge-7](7)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
@@ -79,7 +77,7 @@ Select this step if you want to attach the document to Letter. Attach to letter 
 
 Select this step if you want to attach the document to any record. Attach to any record works same like Attach to Email/Letter.
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_8)
+![using-and-configuring-crm-automerge-8](8)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
@@ -91,7 +89,7 @@ Select this step if you want to attach the document to any record. Attach to any
 
 Use this step to send the email, this is used with the Attach to Email step where the document is attached with the email and sent.
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_9)
+![using-and-configuring-crm-automerge-9](9)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
@@ -101,7 +99,7 @@ Use this step to send the email, this is used with the Attach to Email step wher
 
 Use this step to generate a copy of Document. It is usually used when you want to keep the document with the primary record as well as attach it under any other record.
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_10)
+![using-and-configuring-crm-automerge-10](10)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
@@ -111,7 +109,7 @@ Use this step to generate a copy of Document. It is usually used when you want t
 
 Use this step if you would like to upload the generated document on Cloud Storage.
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_11)
+![using-and-configuring-crm-automerge-11](11)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
@@ -124,7 +122,7 @@ Use this step if you would like to upload the generated document on Cloud Storag
 
 Select this step if you want to delete the generated document or Generate copy of document.
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_12)
+![using-and-configuring-crm-automerge-12](12)
 
 - **Enable Logging:** It will log all the steps performed by the plugin.
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
@@ -136,25 +134,25 @@ Execution of workflow is depends on what options you have selected while configu
 
 - Open Contact record and click on Run Workflow. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_13)
+![using-and-configuring-crm-automerge-13](13)
 
 - Select your workflow and click OK. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_14)
+![using-and-configuring-crm-automerge-14](14)
 
 - Workflow is executed successfully.
 - Under All Activities the email and letter records are found. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_15)
+![using-and-configuring-crm-automerge-15](15)
 
 - Open Email and view the attachments. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_16)
+![using-and-configuring-crm-automerge-16](16)
 
 - Download the attachment and open in Microsoft Word. You will see the document created from the template. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_17)
+![using-and-configuring-crm-automerge-17](17)
 
 - Similarly, go back to All activities and you can see the same document attached under letter. 
 
-![todo:image_alt_text](using-and-configuring-crm-automerge_18)
+![using-and-configuring-crm-automerge-18](18)

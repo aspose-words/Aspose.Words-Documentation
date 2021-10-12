@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 6.0.0 Release Notes
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ The Aspose.Words Rendering Engine has been designed to format a document into pa
 
 Our work never ends. Although this is version 6.0 for Aspose.Words, it is only “version 1.0” for the Rendering Engine. The list of document features that are rendered well is great, but we are of course to ship more versions that will render documents even better.
 
-I would like to thank the team who worked on the engine painstakingly trying to recreate the many quirks of Microsoft Word’s page layout behavior.I would also like to thank all customers who have been waiting for this feature for 5 years!
+I would like to thank the team who worked on the engine painstakingly trying to recreate the a few quirks of Microsoft Word’s page layout behavior.I would also like to thank all customers who have been waiting for this feature for 5 years!
 
 ## Direct Conversion to PDF
 

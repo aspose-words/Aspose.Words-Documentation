@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 8.2.1 Release Notes
 type: docs
 weight: 70
@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 8.2.1](http://www.as
 
 {{% /alert %}} 
 
-This is a maintenance release with a number of fixes that many customers will find useful.
+This is a maintenance release with a number of fixes that a few customers will find useful.
 
 The most important changes are:
 

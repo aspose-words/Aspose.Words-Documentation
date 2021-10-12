@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 11.7.0 Release Notes
 type: docs
 weight: 40
@@ -245,7 +245,7 @@ WORDSNET-3562 Table disappears after save to PDF.
 
 WORDSNET-3869 Shape sizes are changed after open/save ODT document.
 
-WORDSNET-4121 List formatting shows through in TOC entries after updating.
+WORDSNET-4121 List formatting demonstrates through in TOC entries after updating.
 
 WORDSNET-4407 Numbers of items in TOC are bold after updating fields.
 
@@ -343,7 +343,7 @@ WORDSNET-6182 Incorrect parameter is passed to IMailMergeDataSource when using n
 
 WORDSNET-6183 Shape borders are rendering incorrectly in HTML.
 
-WORDSNET-6184 Table in DOC is rendering many times in PDF/Tiff.
+WORDSNET-6184 Table in DOC is rendering numerous times in PDF/Tiff.
 
 WORDSNET-6223 MergeFields inside header don't show values in PDF.
 
@@ -353,13 +353,13 @@ WORDSNET-6275 Extra blank page problem occurs while converting doc to Pdf Format
 
 WORDSNET-6311 REF field with CardText or Number formatting switches is updated incorrectly.
 
-WORDSNET-6352 A table with too many columns cannot be opened when saving to Word formats.
+WORDSNET-6352 A table with too a few columns cannot be opened when saving to Word formats.
 
 WORDSNET-6399 Extra empty page is added to the PDF document after conversion from Doc file.
 
 WORDSNET-6401 WordArt shape fill is distorted while rendering path gradient shape.
 
-WORDSNET-6467 Appending documents into empty (new Document()) stretches the contents of one page into multiple pages.
+WORDSNET-6467 Appending documents into empty (new Document()) stretches the contents of one page into many pages.
 
 WORDSNET-6478 UICompat97To2003 is not set for rtf files.
 

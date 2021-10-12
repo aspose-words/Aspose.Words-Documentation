@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Ranges
 type: docs
 weight: 65
@@ -21,6 +21,6 @@ Use the Range.Text property to retrieve plain, unformatted text of the range. Be
 
 ## Deleting Text
 
-Range allows the deletion of all characters of the range by calling Range.Delete. Below example shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+Range enables the deletion of all characters of the range by calling Range.Delete. Below example demonstrates how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Ranges-RangesDeleteText-RangesDeleteText.cs" >}}

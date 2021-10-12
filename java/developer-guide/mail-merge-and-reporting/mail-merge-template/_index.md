@@ -27,7 +27,7 @@ You can create a template and add specific merge fields to it, that will be repl
 
 Use the [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)), [InsertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)), and [InsertParagraph](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertParagraph()) methods.
 
-The following code example shows how to create a mail merge template:
+The following code example demonstrates how to create a mail merge template:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeTemplate-CreateMailMergeTemplate.java" >}}
 
@@ -37,7 +37,7 @@ The picture below shows the created template:
 
 ## Customize a Mail Merge Template Properties
 
-Aspose.Words allows you to customize your template through many properties. Template customization will be described below through an example of customizing some properties of images and text.
+Aspose.Words enables you to customize your template through several properties. Template customization will be described below through an example of customizing some properties of images and text.
 
 ### Customize Image Properties
 

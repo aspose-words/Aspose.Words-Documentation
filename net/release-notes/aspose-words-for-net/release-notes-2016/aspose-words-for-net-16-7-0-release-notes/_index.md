@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 16.7.0 Release Notes
 type: docs
 weight: 50
@@ -350,7 +350,7 @@ continues to work with old code and will be switched to new code eventually.
 
 ### WORDSNET-4285 - SKIPIF field supported
 
-This feature has been requested by a few customers and we have it implemented now. SKIPIF field is now updated during mail merge.
+This feature has been requested by many customers and we have it implemented now. SKIPIF field is now updated during mail merge.
 
 ### WORDSNET-6205 Added Support for MathML in HTML Export
 
@@ -437,7 +437,7 @@ Added following properties to FontInfoCollection class:
 /// Default value for this property is <b>false</b>.
 /// </summary>
 /// <remarks>
-/// <para>Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it,
+/// <para>Embedding TrueType fonts enables others to view the document with the same fonts that were used to create it,
 /// but may substantially increase the document size.</para>
 /// <para>This option works for DOC, DOCX and RTF formats only.</para>
 /// </remarks>

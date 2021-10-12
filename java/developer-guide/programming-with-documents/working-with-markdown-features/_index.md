@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Markdown Features
 description: "Learn how to implement Markdown features using Aspose.Words for Java. All the features are represented as corresponding styles or direct formatting."
 type: docs
@@ -85,7 +85,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Horizontal Rule
 
-This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
+This section shows you how to produce a markdown document with Horizontal Rule as given below:
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
@@ -98,7 +98,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Reading a Markdown Document
 
-The following code snippet shows you how to read a markdown document.
+The following code snippet demonstrates you how to read a markdown document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ReadMarkdownDocument.java" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 13.6.0 Release Notes
 type: docs
 weight: 60

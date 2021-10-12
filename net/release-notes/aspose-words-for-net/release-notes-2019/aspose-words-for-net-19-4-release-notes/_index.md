@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 19.4 Release Notes
 type: docs
 weight: 90
@@ -204,7 +204,7 @@ public TextBoxAnchor VerticalAnchor
 }
 {{< /highlight >}}
 
-The property allows to specify text anchor within the shape (Top, Middle, Bottom).
+The property enables to specify text anchor within the shape (Top, Middle, Bottom).
 
 {{< highlight csharp >}}
 Document doc = new Document(fileName);

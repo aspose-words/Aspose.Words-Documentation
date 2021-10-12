@@ -1,4 +1,4 @@
----
+﻿---
 title: LINQ Reporting Engine or Mail Merge
 type: docs
 description: "What is the difference between Mail Merge and LINQ Reporting Engine in Aspose.Words for Java and which solution is better to choose?"
@@ -31,9 +31,9 @@ In contrast to Mail Merge, the concept of the LINQ Reporting Engine was born wit
 
 <img src="linq-features.jpg" alt="linq-features-aspose-words-java" style="width:850px"/>
 
-However, the major advantage of the engine is its out-of-the-box support of many features missing in Mail Merge. The following are the key ones:
+However, the major advantage of the engine is its out-of-the-box support of numerous features missing in Mail Merge. The following are the key ones:
 
-- Support of multiple data sources (including of different types)
+- Support of numerous data sources (including of different types)
 - Built-in support of more data source types: Custom Java objects, objects mimicking ADO.NET in Java, JSON, XML, CSV
 - Using of C#-based expression syntax (extended for ADO.NET and other data sources, and adapted for Java) directly in templates
 - Using of LINQ extension methods for data manipulations directly in templates

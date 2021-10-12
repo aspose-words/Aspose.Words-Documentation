@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Office Add-ins
 description: "Aspose.Words for C++ provides various classes for working with Office Add-ins. You can add Task Pane via web extension and customize the pane and extension properties."
 type: docs
@@ -32,6 +32,6 @@ The following code example shows how to create task panes and add to web extensi
 
 To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://apireference.aspose.com/words/cpp/class/aspose.words.document#get_webextensiontaskpanes_const) property.
 
-The following code example shows how to get such a list of add-ins:
+The following code example demonstrates how to get such a list of add-ins:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithWebExtension-GetListOfAddins.cpp" >}}

@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 13.5.0 Release Notes
 type: docs
 weight: 60
@@ -21,7 +21,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 - The HTML parser inside Aspose.Words now conforms to the HTML 5 Specification.
 - New public Paragraph.GetEffectiveTabs() method now allows to get fully resolved tabstops.
 - Multiple pages setup options are added to the public API and roundtrip for DOC/RTF/DOCX/WML is supported.
-- Implemented booklet rendering and printing according to multiple pages setup.
+- Implemented booklet rendering and printing according to several pages setup.
 - Supported MS Word 2010 text effects (e.g. shadows, outlines, 3d-looks etc.) roundtrip for DOCX.
 - StructuredDocumentTag databinding to document properties supported.
 - Generation of ordinal/cardinal list labels in Spanish and Portuguese.
@@ -45,7 +45,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-6908|ParagraphBreakFont.HighlightColor is visible when converting to HTML|Bug|
 |WORDSNET-7374|Databound values of SDT are not visible in fixed page formats|Bug|
 |WORDSNET-7380|ParagraphFormat.TabStops Property return no TabStops|Bug|
-|WORDSNET-7382|DrawingML nodes in Header/Footer are repeated multiple times during open/save|Bug|
+|WORDSNET-7382|DrawingML nodes in Header/Footer are repeated numerous times during open/save|Bug|
 |WORDSNET-7677|Line Breaks Issue in Text Files|Bug|
 |WORDSNET-7682|SDT values are getting lost in fixed formats|Bug|
 |WORDSNET-7849|Floating Table is truncated at the end of Page in Fixed Page Formats|Bug|
@@ -101,7 +101,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-6486|Table with missing closing Tag in HTML is lost when loading into DOM|Enhancement|
 |WORDSNET-6801|TestIndexAndTable.TestJira6554|Enhancement|
 |WORDSNET-7189|Page numbers in odd pages are not visible in PDF|Enhancement|
-|WORDSNET-7656|Make multiple pages setup options public|Enhancement|
+|WORDSNET-7656|Make many pages setup options public|Enhancement|
 |WORDSNET-7744|Word Art Text Object is cut when converted to HTML|Enhancement|
 |WORDSNET-7745|Protected View Message for Created Word Document|Enhancement|
 |WORDSNET-7855|WORDSNET-7561 Development of CSS to Document Styles engine|Enhancement|
@@ -122,7 +122,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8147|LayoutEnumerator.GetStartPageIndex return incorrect page number|Enhancement|
 |WORDSNET-8180|Reduce pdf file size|Enhancement|
 |WORDSNET-8182|Investigate why is the Shape not anchored at the first Paragraph of Page|Enhancement|
-|WORDSNET-8189|Bookmark spanning across multiple Paragraphs is exported to HTML incorrectly|Enhancement|
+|WORDSNET-8189|Bookmark spanning across several Paragraphs is exported to HTML incorrectly|Enhancement|
 |WORDSNET-8198|Table Row height is not preserved during rendering to PDF|Enhancement|
 |WORDSNET-8222|Two Paragraphs in Frame render as a single line in PDF|Enhancement|
 |WORDSNET-8228|Contents are moved to next pages after conversion from Doc to Tiff|Enhancement|
@@ -149,7 +149,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-6944|Render Trend Lines.|Feature|
 |WORDSNET-7506|Foreign language (Spanish) list labels are not preserved in fixed page formats|Feature|
 |WORDSNET-7573|Consider rendering to PDF according to Book Fold setting of Page Setup|Feature|
-|WORDSNET-7689|Support Book Fold multiple page setup|Feature|
+|WORDSNET-7689|Support Book Fold a few page setup|Feature|
 |WORDSNET-7832|Actual shape size is calculated incorrectly|Feature|
 |WORDSNET-7965|Support DocumentFormat.OpenXml.Office2010.Word.TextOutlineEffect|Feature|
 |WORDSNET-8049|Resolve the problem with the difference between relationship types in strict and transitional OOXML.|Feature|

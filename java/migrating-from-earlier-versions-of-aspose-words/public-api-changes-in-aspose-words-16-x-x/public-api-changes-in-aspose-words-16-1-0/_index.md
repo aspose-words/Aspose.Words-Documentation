@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 16.1.0
 type: docs
 weight: 10
@@ -293,7 +293,7 @@ public class MailMergeRegionInfo
 }
 {{< /highlight >}}
 
-Following code example shows how to extract full hierarchy of regions available in the document.
+Following code example demonstrates how to extract full hierarchy of regions available in the document.
 
 **Java**
 
@@ -357,7 +357,7 @@ FontSettings properties added to Document class
 {{< highlight csharp >}}
 /** 
  Gets or sets document font settings.
- <p>This property allows to specify font settings per document. If set to null, default static font settings
+ <p>This property enables to specify font settings per document. If set to null, default static font settings
  <see cref="Aspose.Words.Fonts.FontSettings.DefaultInstance"/> will be used.</p>
  <p>The default value is null.</p>
 */
@@ -451,7 +451,7 @@ public void setPreserveUnusedTags(boolean value)
 
 ## A New Feature Added to Control Global Mail Merge Events
 
-We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This allows to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
+We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This enables to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
 
 **Java**
 

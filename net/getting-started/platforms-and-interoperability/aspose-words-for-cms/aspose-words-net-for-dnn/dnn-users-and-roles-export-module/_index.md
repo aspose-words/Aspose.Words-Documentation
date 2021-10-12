@@ -1,11 +1,11 @@
----
+﻿---
 title: DNN Users and Roles Export Module
 type: docs
 weight: 40
 url: /net/dnn-users-and-roles-export-module/
 ---
 
-Aspose .NET Export Users and Roles to Word Module allows developers to export DNN Users along with their roles into Microsoft Word or OpenOffice Document. This module demonstrates the powerful document building feature by Aspose.Word. Aspose .NET Export Users and Roles to Word for DNN makes Export process simple and easy to use.
+Aspose .NET Export Users and Roles to Word Module allows developers to export DNN Users along with their roles into Microsoft Word or OpenOffice Document. This module shows the powerful document building feature by Aspose.Word. Aspose .NET Export Users and Roles to Word for DNN makes Export process simple and easy to use.
 
 ## Module Features
 

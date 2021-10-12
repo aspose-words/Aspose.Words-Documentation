@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Comments
 type: docs
 weight: 110
@@ -47,7 +47,7 @@ We’re going to use the following Word document for this exercise:
 
 |![extract-remove-comments-aspose-words-java-1](http://i.imgur.com/Tp1usVp.png)|
 | :- |
-As you can see, it contains several Comments from two authors with the initials “pm” and “ks”.
+As you can see, it contains many Comments from two authors with the initials “pm” and “ks”.
 
 ### The Code
 
@@ -94,13 +94,13 @@ The following example shows how to anchor a comment to a region of text.
 
 ## How to Remove Text between CommentRangeStart and CommentRangeEnd
 
-The following code example demonstrates how to remove text between CommentRangeStart and CommentRangeEnd nodes.
+The following code example shows how to remove text between CommentRangeStart and CommentRangeEnd nodes.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-RemoveCommentRegionText.java.java" >}}
 
 ## How to Read Comment Reply
 
-Aspose.Words support to read the reply of a Comment. Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below shows how to iterate through a collection of comment replies and resolved them.
+Aspose.Words support to read the reply of a Comment. Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below demonstrates how to iterate through a collection of comment replies and resolved them.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-CommentResolvedandReplies.java" >}}
 

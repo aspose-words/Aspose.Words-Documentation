@@ -1,4 +1,4 @@
----
+﻿---
 title: Converting to Fixed-page Format
 description: "Aspose.Words for Java implements its own page layout engine enabling it to produce all of the fixed page formats, such as PDF, XPS, and various image formats."
 type: docs
@@ -12,7 +12,7 @@ Aspose.Words implements its own page layout engine. Prior to delving into its sp
 
 Various document viewing or publishing applications allow users to open (Adobe Acrobat, XPS Viewer), and sometimes edit (Adobe InDesign) documents of specific formats. These applications typically produce so-called "fixed-page" format documents. Such a document format describes precisely where a document’s content is placed on every page. Internally, the PDF or XPS format contains a description of every page, as well as drawing instructions, specifying the layout of the content on the page. This is similar to image formats, describing where the content is shown either in raster or vector form.
 
-In contrast, some text editing applications do not support the viewing of a document’s pages. For instance, Microsoft Notepad supports very few functions other than simply displaying, editing and printing text. The important observation here is that such applications can neither show pages of the document nor tell a user how many of them would be printed, only allowing to view the document content. The document can be saved in plain text format and can be opened by many other applications. Using an application that allows viewing binary content of an arbitrary file one can see what is stored in the document file – it is just plain text, there is nothing else in it.
+In contrast, some text editing applications do not support the viewing of a document’s pages. For instance, Microsoft Notepad supports very few functions other than simply displaying, editing and printing text. The important observation here is that such applications can neither show pages of the document nor tell a user how several of them would be printed, only allowing to view the document content. The document can be saved in plain text format and can be opened by many other applications. Using an application that allows viewing binary content of an arbitrary file one can see what is stored in the document file – it is just plain text, there is nothing else in it.
 
 Slightly more sophisticated text-editing applications, such as Microsoft WordPad, save the document in Rich Text Format (RTF), which supports more formatting functions, such as insertion of images, character formatting, paragraph margins and spacing. However, the RTF format also contains only the document’s content, having no information about pages.
 
@@ -20,7 +20,7 @@ Microsoft Word is the most advanced text-editing application in Windows today. I
 
 ## What is a Page Layout
 
-A document page layout is a data structure, describing where a particular object is located on pages for all document objects. In addition, since objects have properties that affect their appearances, such as font size, shading or drawing effects, you need to not only know where the object is, but also what area (s) of the page it occupies, and whether it will apply to multiple pages so that other objects do not overlap the same area (s).
+A document page layout is a data structure, describing where a particular object is located on pages for all document objects. In addition, since objects have properties that affect their appearances, such as font size, shading or drawing effects, you need to not only know where the object is, but also what area (s) of the page it occupies, and whether it will apply to a few pages so that other objects do not overlap the same area (s).
 
 Aspose.Words implements page layout functionality internally enabling it to produce all of the fixed page formats, such as PDF, XPS, and various image formats. Without page layout, the information stored in the fixed page document file would not be available and all these formats would not be supported.
 

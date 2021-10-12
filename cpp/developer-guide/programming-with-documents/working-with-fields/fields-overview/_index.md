@@ -1,4 +1,4 @@
----
+﻿---
 title: Fields Overview
 type: docs
 weight: 10
@@ -160,7 +160,7 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 - Fields can be nested within a field code as well as in the field result.
 - Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- Fields that span across multiple paragraphs.
+- Fields that span across numerous paragraphs.
 
 #### Formula Fields
 
@@ -224,7 +224,7 @@ A field in a document can have formatting switches that specify how the resultin
 
 ## How to Rename Merge Fields
 
-The code example given below shows how to rename merge fields in a Word document. You can download the template file of this example from here.
+The code example given below demonstrates how to rename merge fields in a Word document. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cpp" >}}
 

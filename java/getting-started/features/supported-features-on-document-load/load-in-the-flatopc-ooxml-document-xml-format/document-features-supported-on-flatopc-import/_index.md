@@ -7,7 +7,7 @@ url: /java/document-features-supported-on-flatopc-import/
 
 {{% alert color="primary" %}} 
 
-Office Open XML (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for several specialized XML-based markup languages. WordprocessingML is the markup language used by Microsoft Office Word to store its DOCX documents.
+Office Open XML (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for numerous specialized XML-based markup languages. WordprocessingML is the markup language used by Microsoft Office Word to store its DOCX documents.
 
 Aspose.Words supports all major OOXML versions:
 
@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 - [Loading, Saving and Converting](/words/java/loading-saving-and-converting/)
 - [Working with Document](/words/java/working-with-document/)
 - [Aspose.Words Document Object Model](/words/java/aspose-words-document-object-model/)
-- [**Document**](https://apireference.aspose.com/java/words/com.aspose.words/Document)
+- [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document)
 
 [J]()[ump to this location in the export section](/words/java/document-features-supported-on-flatopc-export/)
 

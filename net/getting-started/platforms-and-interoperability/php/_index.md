@@ -1,4 +1,4 @@
----
+﻿---
 title: PHP
 type: docs
 weight: 100
@@ -9,7 +9,7 @@ Project Aspose.Words .NET for PHP shows how different tasks can be performed usi
 
 ## Introduction Aspose.Words .NET for PHP
 
-Project Aspose.Words .NET for PHP shows how different tasks can be performed using Aspose.Words .NET APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for .NET in their PHP Projects.
+Project Aspose.Words .NET for PHP demonstrates how different tasks can be performed using Aspose.Words .NET APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for .NET in their PHP Projects.
 
 ## System Requirements and Supported Platforms
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Restarting List Numbering Dynamically
 type: docs
 weight: 110
@@ -26,7 +26,7 @@ Assume that you have the `Order` and `Service` classes defined in your applicati
   }
 {{< /highlight >}}
 
-Given that `orders` is an enumeration of `Order` instances, you could try to use the following template to output information on several orders in one document.
+Given that `orders` is an enumeration of `Order` instances, you could try to use the following template to output information on a few orders in one document.
 
 {{< highlight csharp >}}
 <<foreach [order in orders]>><<[order.ClientName]>> (<<[order.ClientAddress]>>)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Metadata Cleaner for Word
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ Aspose.Words Metadata Cleaner is a metadata removal tool which protects organiza
 
 Major features of this tool are:
 
-- Allow you to select multiple files.
+- Allow you to select a few files.
 - Remove all Built-in Properties from word documents and OpenOffice documents.
 - Remove all custom Properties from word document and OpenOffice documents.
 - Show the status of all files.
@@ -52,7 +52,7 @@ You can download the latest solution at:
 
 - Click on Browse Files to select Word Documents.
 - It will allow you to select doc, docx, dot, docm, dotx, dotm, rtf, odt, ott and you can select any **.** file.
-- You can select multiple files as well.
+- You can select numerous files as well.
 - Once the files are selected the files count will be changed.
 - Click the Clean button to clean metadata from these files.
 - Once the processing is complete, it will show a statistics of total cleaned files.
@@ -70,7 +70,7 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to this add-on using any of the following platforms:
 
-- [Codeplex](https://asposewordsoffice.codeplex.com/discussions)
+- [Codeplex](https://archive.codeplex.com/?p=asposewordsoffice)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-5445a838/view/Discussions)
 

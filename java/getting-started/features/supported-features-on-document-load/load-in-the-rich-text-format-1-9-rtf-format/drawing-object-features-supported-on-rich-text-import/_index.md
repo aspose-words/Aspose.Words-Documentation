@@ -1,4 +1,4 @@
----
+﻿---
 title: Drawing Object Features Supported on Rich Text Import
 type: docs
 weight: 40
@@ -160,7 +160,7 @@ See the following links in the documentation for further information:
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | |- **Shape.HRef**|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document]()|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document]()|
 
 ## WordArt
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Common Data Bands
 type: docs
 weight: 10

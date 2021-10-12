@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Digital Signatures
 type: docs
 weight: 160
@@ -45,7 +45,7 @@ A generated PDF document can be signed during saving. Currently only PDF documen
 
 The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_isvalid) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
 
-Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. 
+Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for numerous reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-AccessAndVerifySignature-AccessAndVerifySignature.cpp" >}}
 
@@ -60,7 +60,7 @@ You can download the template file of this example from [here](https://github.c
 
 DigitalSignatureUtil class provides methods for signing documents. DigitalSignatureUtil.Sign method signs source document using a given CertificateHolder with a digital signature and writes a signed document to the destination stream. 
 
-The following code example shows how to sign a simple document. 
+The following code example demonstrates how to sign a simple document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SimpleDocumentSigning.cpp" >}}
 
@@ -74,13 +74,13 @@ You can sign a source document using a given CertificateHolder and SignOptions w
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-CreatingAndSigningNewSignatureLine.cpp" >}}
 
-The following code example shows how to modify an existing signature line and sign a document. 
+The following code example demonstrates how to modify an existing signature line and sign a document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SigningExistingSignatureLine.cpp" >}}
 
 ### Signing Word Document using Signature Provider Identifier
 
-The code example given below shows how to sign a Word document using a signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of {00000000-0000-0000-0000-000000000000} for its default signature provider.
+The code example given below demonstrates how to sign a Word document using a signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of 00000000-0000-0000-0000-000000000000 for its default signature provider.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SetSignatureProviderID.cpp" >}}
 

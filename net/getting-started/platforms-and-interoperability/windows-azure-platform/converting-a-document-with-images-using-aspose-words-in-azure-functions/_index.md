@@ -1,4 +1,4 @@
----
+﻿---
 title: Converting a Document with Images using Aspose.Words in Azure Functions
 type: docs
 description: "In Aspose.Words for .NET, we solved the problem of converting documents with images to fixed page formats – just make native assets copied properly."
@@ -79,11 +79,11 @@ namespace AsposeWordsAzureTestApp
 }
 {{< /highlight >}}<br>
 1. Run the code in Visual Studio to test it. The result will be displayed in the console output.<br>
-<img src="converting-a-document-with-images-using-aspose-words-in-azure-functions_1.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_1" style="width:800px"/>
+<img src="1.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_1" style="width:800px"/>
 1. Copy URL from the console output to your favorite browser to get the output document, which should look as follows:<br>
-<img src="converting-a-document-with-images-using-aspose-words-in-azure-functions_2.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_2" style="width:800px"/>
+<img src="2.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_2" style="width:800px"/>
 1. Now, if you [deploy the created function to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure), the image will not be rendered because of the problem stated at the beginning of this article. The output is shown below:<br>
-<img src="converting-a-document-with-images-using-aspose-words-in-azure-functions_3.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_3" style="width:800px"/>
+<img src="3.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_3" style="width:800px"/>
 1. Open the .csproj file in Notepad and add the following section to it:<br>
 {{< highlight csharp >}}<Target Name="CopyRequiredNativeAssets" AfterTargets="_FunctionsPostPublish"> <br> <ItemGroup> <br> <NativeAssetToCopy<br> Include="$(PublishDir)runtimes\win-x86\native\libSkiaSharp.dll" /> <br> </ItemGroup> <br> <Copy SourceFiles="@(NativeAssetToCopy)" <br> DestinationFolder="$(PublishDir)bin" /> <br> </Target> {{< /highlight >}}<br>
 1. Publish your project again and verify that the image is now present in the generated output.

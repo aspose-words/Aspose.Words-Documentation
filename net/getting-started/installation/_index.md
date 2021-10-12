@@ -10,7 +10,7 @@ Make sure your machine meets the [system requirements](https://docs.aspose.com/w
 
 This article explains how to instal Aspose.Words for .NET on your computer.
 
-## Install or Update Aspose.Words for .NET using Manage NuGet Packages
+## Install or Update Aspose.Words for .NET using Manage NuGet Packages {#install-or-update-aspose-words-for-net-using-nuget}
 
 NuGet is the easiest way to download and install [Aspose.Words for .NET](https://www.nuget.org/packages/Aspose.Words/) APIs. To do this, follow these steps:
 
@@ -37,8 +37,6 @@ You can also install or update Aspose.Words for .NET APIs using the *Package Man
    {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula), it is recommended to read the license referenced in the URL.{{% /alert %}}
 4. Now you may find that Aspose.Words has been successfully added and referenced in your application for you<br>
    <img src="aspose-words-nuget-references.png" alt="aspose-words-nuget-references" style="width:400px"/>
-
-
 
 In *Package Manager Console*, you can also use the `Update-Package Aspose.Words` command to check for updates to the Aspose.Words package and install them if present. You can also add the `-prerelease` suffix to update the latest release.
 
@@ -69,7 +67,7 @@ To Install Aspose.Words for .NET, follow these steps:
 
 All Aspose .NET components are recommended to run with the *Full Trust* permission set. This is because Aspose .NET component sometimes needs access to registry settings and files located in places other than the virtual directory, such as reading fonts. Furthermore, Aspose.NET components are based on core .NET system classes, some of which also require *Full Trust* permission to run in some cases.
 
-Internet Service Providers hosting multiple applications from different companies mostly enforce *Medium Trust* security level. In the case of .NET 2.0, such a security level may impose the following constraints, which may affect the ability of Aspose.Words to perform properly:
+Internet Service Providers hosting numerous applications from different companies mostly enforce *Medium Trust* security level. In the case of .NET 2.0, such a security level may impose the following constraints, which may affect the ability of Aspose.Words to perform properly:
 
 - **RegistryPermission** is not available. This means that you cannot access the registry, which is required to enumerate installed fonts when rendering documents.
 - **FileIOPermission** is restricted. This means that you can only access files in your application’s virtual directory hierarchy. This also potentially means fonts cannot be read during export.

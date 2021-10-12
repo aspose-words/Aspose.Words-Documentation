@@ -27,19 +27,23 @@ The steps above then can be reversed to load the bytes back into a **Document**
 
 The selected save format is important to ensure the highest fidelity is retained when saving and reloading into the **Document** object. For this reason, it is suggested to use a series of OOXML file formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToByte-ConvertDocumentToByte.java" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToByte/Test%20File%20\(doc\).doc).
+{{% alert color="primary" %}} 
+
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToByte/Test%20File%20(doc).doc).
+
+{{% /alert %}}
 
 ## Store, Read and Delete a Document in a Database
 
-This section shows how to save a document in a database and then load it back into a Document object for working with it. For simplicity, the file name is the key used to store and fetch documents from the database. The database contains two columns. The first column “FileName” is stored as a String and is used to identify documents. The second column “FileContent” is stored as a BLOB object which stores the document object in the byte form.
+This section demonstrates how to save a document in a database and then load it back into a Document object for working with it. For simplicity, the file name is the key used to store and fetch documents from the database. The database contains two columns. The first column “FileName” is stored as a String and is used to identify documents. The second column “FileContent” is stored as a BLOB object which stores the document object in the byte form.
 
-The following code example shows how to set up a connection to a database and execute commands:
+The following code example demonstrates how to set up a connection to a database and execute commands:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenDatabaseConnection.java" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Public API Changes in Aspose.Words 15.1.0
 type: docs
 weight: 10
@@ -23,7 +23,7 @@ We have now added a new public property to HtmlSaveOptions class:
 /// Default value is <c>true</c> for HTML and <c>false</c> for MHTML and EPUB.
 /// </summary>
 /// <remarks>
-/// <p>Saving of the roundtrip information allows to restore document properties such as tab stops,
+/// <p>Saving of the roundtrip information enables to restore document properties such as tab stops,
 /// comments, headers and footers during the HTML documents loading back into a <see cref="Document"/> object.</p>
 /// <p>When <c>true</c>, the roundtrip information is exported as -aw-* CSS properties
 /// of the corresponding HTML elements.</p>
