@@ -6,4 +6,4 @@ weight: 50
 url: /pythonnet/linq-reporting-engine/
 ---
 
-This section provides the information about LINQ Reporting Engine API in Aspose.Words for Python via .NET, the information about template syntax is provided in the [Aspose.Words for .NET documentation](https://docs.aspose.com/words/net/linq-reporting-engine/):
+This section provides the information about LINQ Reporting Engine API in Aspose.Words for Python via .NET, the information about template syntax is provided in the [Aspose.Words for .NET documentation](https://docs.aspose.com/words/net/linq-reporting-engine/).

@@ -12,7 +12,8 @@ The visual appearance of documents is another important topic covered in this se
 
 To learn more about Aspose.Words features when programming with documents, select the corresponding article or group of articles:
 
-- [Aspose.Words Document Object Model](/words/pythonnet/aspose-words-document-object-model/)
+- [Aspose.Words Document Object Model (DOM)](/words/pythonnet/aspose-words-document-object-model/)
+- [Translate Markdown to Document Object Model (DOM)](http://localhost:1313/words/pythonnet/translate-markdown-to-document-object-model/)
 - [Document Builder Overview](/words/pythonnet/document-builder-overview/)
 - [Working with Document](/words/pythonnet/working-with-document/)
 - [Working with Styles and Themes](/words/pythonnet/working-with-styles-and-themes/)

@@ -6,9 +6,11 @@ weight: 15
 url: /pythonnet/python-notes/
 ---
 
-## Features differences
+Aspose.Words for Python via .NET is a wrapper of Aspose.Words for .NET, that is why the two products have almost the same set of features. Nevertheless, there are some nuances of work and differences in features and API, which are described on this page.
 
-Aspose.Words for Python via .NET is a wrapper of Aspose.Words for .NET, that is why the two products have almost the same set of features. But due to the wrapping process there are some features that are not available in the Python version. Here is a list of most notable features that are currently are not available in the Python version.
+## Feature Differences
+
+Due to the wrapping process there are some features that are not available in the Python version. Here is a list of most notable features that are currently are not available in the Python version.
 * Implementation of interfaces is not supported yet, that is why it is not possible to use callbacks such as [IWarningCallback](https://apireference.aspose.com/words/net/aspose.words/iwarningcallback), [IReplacingCallback](https://apireference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback), [IFieldUpdatingCallback](https://apireference.aspose.com/words/net/aspose.words.fields/ifieldupdatingcallback), [IFieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/ifieldmergingcallback) etc.
 * Printing feature is not available because .NET Standard 2.0 version of Aspose.Words is used as back-end of the python version, which also does not provide this functionality.
 * Only simple Mail Merge functionality is provided with arrays of field names and field values as a data source.
@@ -93,11 +95,11 @@ for field in doc.range.fields :
     if field.type == aw.fields.FieldType.FIELD_HYPERLINK:
                 
         hyperlink = field.as_field_hyperlink()
-
+    
         # Some hyperlinks can be local (links to bookmarks inside the document), ignore these.
         if hyperlink.sub_address != None :
             continue
-
+    
         hyperlink.address = "http:#www.aspose.com"
         hyperlink.result = "Aspose - The .net & Java Component Publisher"
 
@@ -243,7 +245,7 @@ for shape in doc.get_child_nodes(aw.NodeType.SHAPE, True) :
             
     if shape.ole_format == None :
         break
-
+    
     oleControl = shape.ole_format.ole_control
     if oleControl.is_forms2_ole_control :
                 
@@ -252,12 +254,12 @@ for shape in doc.get_child_nodes(aw.NodeType.SHAPE, True) :
         properties = properties + "\nValue: " + checkBox.value
         properties = properties + "\nEnabled: " + str(checkBox.enabled)
         properties = properties + "\nType: " + str(checkBox.type)
-
+    
         if checkBox.child_nodes != None :
             properties = properties + "\nChildNodes: " + checkBox.child_nodes
-
+    
         properties += "\n"
-                
+
 properties = properties + "\nTotal ActiveX Controls found: " + str(doc.get_child_nodes(aw.NodeType.SHAPE, True).count)
 print("\n" + properties)
 {{< /highlight >}}

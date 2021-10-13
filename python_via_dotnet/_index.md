@@ -15,7 +15,7 @@ Aspose.Words for Python via .NET is a class library that enables your applicatio
 
 Aspose.Words supports most of the popular document formats such as DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB, and others.
 
-With Aspose.Words for Python via .NET, you can generate, modify, convert and render documents without third-party applications or Office Automation.
+With Aspose.Words for Python via .NET, you can generate, modify, convert, and render documents without third-party applications or Office Automation.
 
 ------
 
@@ -66,7 +66,7 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert and ren
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
 			<ul>
-				<li><a href="https://forum.aspose.com/c/words">Aspose.Words for Python via .NET Free Support Forum</a></li>
+				<li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for Python via .NET Free Support Forum</a></li>
 			</ul>
 	</div>
 </div>

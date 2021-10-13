@@ -29,9 +29,9 @@ Aspose.Words for Python via .NET supports any 64-bit or 32-bit operating system 
 
 ## System Requirements for Target Linux Platform
 
-- GCC-6 runtime libraries (or later)
+- GCC-6 runtime libraries (or later).
 
-- Installed required dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is NOT required
+- Installed required dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is NOT required.
 
 - For Python 3.5-3.7: The `pymalloc` build of Python is needed. The `--with-pymalloc` Python build option is enabled by default. Typically, the `pymalloc` build of Python is marked with `m` suffix in the filename.
 

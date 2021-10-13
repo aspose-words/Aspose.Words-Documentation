@@ -12,4 +12,8 @@ All imported documents loaded into Aspose.Words can be exported to any other sup
 
 Aspose.Words can convert a document of any size as long as there is sufficient working memory to complete the operation. Additionally, if available memory is low, you can choose a temporary folder during export to DOC or DOCX format. This allows resources during conversion to be stored temporarily to disk. These files are removed after conversion is complete. This allows large documents to be saved even when there is not much memory available.
 
-See the [Supported Features on Document Save](https://docs.aspose.com/words/net/supported-features-on-document-save/) in the Aspose.Words for .NET documentation for more information.
+{{% alert color="primary" %}}
+
+For more information and a description of the features available for the different formats, see the ["Supported Features on Document Save"](https://docs.aspose.com/words/net/supported-features-on-document-save/) section in the Aspose.Words for .NET documentation.
+
+{{% /alert %}}

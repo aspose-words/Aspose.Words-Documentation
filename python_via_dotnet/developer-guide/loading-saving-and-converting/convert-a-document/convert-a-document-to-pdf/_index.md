@@ -20,7 +20,7 @@ Note that the number of pages in a document affects the conversion time.
 
 {{% /alert %}} 
 
-### Converting DOC or DOCX to PDF {#converting-doc-or-docx-to-pdf}
+### Convert DOC or DOCX to PDF {#convert-doc-or-docx-to-pdf}
 
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
@@ -41,7 +41,7 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 {{% /alert %}} 
 
-### Converting to Various PDF Standards {#converting-to-various-pdf-standards}
+### Convert to Various PDF Standards {#convert-to-various-pdf-standards}
 
 Aspose.Words provides the **PdfCompliace** enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 
