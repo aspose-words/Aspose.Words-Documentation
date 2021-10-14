@@ -21,7 +21,7 @@ The tables below summarize and compare the availability of Aspose.Words for Pyth
 
 The platforms Aspose.Words for Python via .NET can be used on Windows x64 or x86 and wide range of Linux distributions with Python 3.5 or later installed. There are additional requirements to the target Linux platform:
 - GCC-6 runtime libraries (or later)
-- Installed required dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is NOT required
+- Dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is NOT required
 - For Python 3.5-3.7: The `pymalloc` build of Python is needed. The `--with-pymalloc` Python build option is enabled by default. Typically, the `pymalloc` build of Python is marked with `m` suffix in the filename.
 - `libpython` shared Python library. The `--enable-shared` Python build option is disabled by default, some Python distributions do not contain the `libpython` shared library. For some linux platforms, the `libpython` shared library can be installed using the package manager, for example: `sudo apt-get install libpython3.7`. The common issue is that `libpython` library is installed in a different location than the standard system location for shared libraries. The issue can be fixed by using the Python build options to set alternate library paths when compiling Python, or fixed by creating a symbolic link to the `libpython` library file in the system standard location for shared libraries. Typically, the `libpython` shared library file name is `libpythonX.Ym.so.1.0` for Python 3.5-3.7, or libpythonX.Y.so.1.0 for Python 3.8 or later (for example: `libpython3.7m.so.1.0`, `libpython3.9.so.1.0`).
 
