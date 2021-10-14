@@ -38,5 +38,3 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with VBA Macros](/words/pythonnet/working-with-vba-macros/)
 - [Working with Markdown Features](/words/pythonnet/working-with-markdown-features/)
 - [Working with Text Document](/words/pythonnet/work-with-text-document/)
-
-For a detailed description of classes, methods, and properties refer to the Aspose.Words for Python via .NET API Reference section.

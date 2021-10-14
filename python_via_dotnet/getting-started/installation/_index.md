@@ -10,8 +10,6 @@ Make sure your machine meets the [system requirements](https://docs.aspose.com/w
 
 This article explains how to instal Aspose.Words for Python via .NET on your computer.
 
-## Install or Update Aspose.Words for Python via .NET using `pip`
-
 `pip` is the easiest way to download and install [Aspose.Words for Python via .NET](https://pypi.org/project/aspose-words/) APIs. To do this run the following command:
 
 `pip install aspose-words`

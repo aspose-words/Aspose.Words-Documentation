@@ -1,5 +1,5 @@
 ---
-title: Python Notes
+title: Difference in Features and API Between Python and .NET Versions
 description: "Aspose.Words for Python via .NET is a wrapper of Aspose.Words for .NET, this page describes the differences in features and API of these two products."
 type: docs
 weight: 15
@@ -16,11 +16,13 @@ Due to the wrapping process there are some features that are not available in th
 * Only simple Mail Merge functionality is provided with arrays of field names and field values as a data source.
 * [DocumentVisitor](https://apireference.aspose.com/words/net/aspose.words/documentvisitor) implementation is currently not possible from the Python code.
 
-## Casting
+## Casting Aspose.Words Objects in Python
+
+Though type casting is not natural for Python developers some tasks cannot be accomplished without casting documents nodes or fields to concrete type. Aspose.Words for Python via .NET provides special methods that allow casting objects where this is necessary.
 
 ### Casting Nodes
 
-Though type casting is not natural for Python developers some tasks cannot be accomplished without casting documents nodes concrete type. For example **get_child** method returns and instance of **Node** class, but if you need to modify the returned node, in most cases you should to cast it to concrete type. The following code demonstrates how to change font color of the first **Run** in the document:
+Base class for all document nodes in Aspose.Words DOM is **Node** class. For example **get_child** method returns and instance of **Node** class, but if you need to modify the returned node, in most cases you should to cast it to concrete type. The following code demonstrates how to change font color of the first **Run** in the document:
 
 {{< highlight python >}}
 doc = aw.Document(docs_base.my_dir + "Document.docx")
