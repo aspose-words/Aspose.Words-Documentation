@@ -1,5 +1,5 @@
 ---
-title: Difference in Features and API Between Python and .NET Versions
+title: Python and .NET Version Differences
 description: "Aspose.Words for Python via .NET is a wrapper of Aspose.Words for .NET, this page describes the differences in features and API of these two products."
 type: docs
 weight: 15
