@@ -3,10 +3,10 @@ title: Features
 description: "Aspose.Words for Python via .NET provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
 weight: 30
-url: /pythonnet/features/
+url: /python/features/
 aliases:
- - /pythonnet/feature-overview/
- - /pythonnet/what-document-features-are-supported/
+ - /python/feature-overview/
+ - /python/what-document-features-are-supported/
 ---
 
 Aspose.Words provides users with a wide range of features. Users can perform a huge amount of document-related tasks – from simply converting documents from one supported format to another and modifying those documents during the conversion process to business tasks, such as creating structured and visually appealing documents or automating reporting.

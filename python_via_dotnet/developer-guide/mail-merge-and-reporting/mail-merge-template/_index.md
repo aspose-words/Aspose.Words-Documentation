@@ -4,7 +4,7 @@ type: docs
 description: "Aspose.Words for Python via .NET provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
 keywords: "create mail merge template python"
 weight: 10
-url: /pythonnet/mail-merge-template/
+url: /python/mail-merge-template/
 ---
 
 It is common to use a merge template as the base document for a mail merge operation either if it is a simple mail merge or mail merge with regions. Mail merge with regions is more powerful and popular than the simple mail merge. Simple mail merge is considered as a particular case of mail merge with regions where the region is the entire document. All is explained in the next article “Types of Mail Merge Operation” in more detail.

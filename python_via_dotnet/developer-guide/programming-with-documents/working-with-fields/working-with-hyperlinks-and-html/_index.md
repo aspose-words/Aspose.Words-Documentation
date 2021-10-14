@@ -2,7 +2,7 @@
 title: Working with Hyperlinks and HTML
 type: docs
 weight: 50
-url: /pythonnet/working-with-hyperlinks-and-html/
+url: /python/working-with-hyperlinks-and-html/
 ---
 
 ## Inserting a Hyperlink

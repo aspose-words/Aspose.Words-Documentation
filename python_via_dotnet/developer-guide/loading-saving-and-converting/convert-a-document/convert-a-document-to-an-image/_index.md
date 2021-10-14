@@ -3,7 +3,7 @@ title: Convert a Document to an Image
 type: docs
 description: “Aspose.Words for Python via .NET allows you to convert a document to any supported image format, such as JPEG or PNG, to create a document preview or create a document "scan" to send an invoice.”
 weight: 43
-url: /pythonnet/convert-a-document-to-an-image/
+url: /python/convert-a-document-to-an-image/
 ---
 
 Sometimes it is required to get an image instead of documents in other formats, such as DOCX or PDF. For example, you need to add a preview of any document page to your website or application, or create a "scan" of a document to send an invoice. This is when you may need to convert a document in any [supported load format](https://apireference.aspose.com/words/net/aspose.words/loadformat) to an image, again, in any [supported save format](https://apireference.aspose.com/words/net/aspose.words/saveformat).

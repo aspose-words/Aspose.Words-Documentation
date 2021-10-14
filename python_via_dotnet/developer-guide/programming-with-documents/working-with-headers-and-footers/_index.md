@@ -2,7 +2,7 @@
 title: Working with Headers and Footers
 type: docs
 weight: 70
-url: /pythonnet/working-with-headers-and-footers/
+url: /python/working-with-headers-and-footers/
 ---
 
 ## How to Create Headers Footers using DocumentBuilder

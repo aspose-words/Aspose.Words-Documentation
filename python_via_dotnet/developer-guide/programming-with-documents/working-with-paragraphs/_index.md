@@ -2,7 +2,7 @@
 title: Working with Paragraphs
 type: docs
 weight: 110
-url: /pythonnet/working-with-paragraphs/
+url: /python/working-with-paragraphs/
 ---
 
 ## Inserting a Paragraph

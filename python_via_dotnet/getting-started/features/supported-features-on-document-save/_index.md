@@ -2,8 +2,8 @@
 title: Supported Features on Document Save
 type: docs
 weight: 30
-url: /pythonnet/supported-features-on-document-save/
-aliases: [/pythonnet/document-saving-overview/]
+url: /python/supported-features-on-document-save/
+aliases: [/python/document-saving-overview/]
 ---
 
 Aspose.Words has some of the most advanced conversion support of the common word processing formats.

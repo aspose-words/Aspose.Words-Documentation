@@ -2,7 +2,7 @@
 title: Working with Form Fields
 type: docs
 weight: 180
-url: /pythonnet/working-with-form-fields/
+url: /python/working-with-form-fields/
 ---
 
 ## Form Fields Overview

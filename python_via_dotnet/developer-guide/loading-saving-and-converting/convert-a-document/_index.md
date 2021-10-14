@@ -1,9 +1,9 @@
 ---
 title: "Convert a Document"
 type: docs
-url: /pythonnet/convert-a-document/
+url: /python/convert-a-document/
 weight: 30
-aliases: [/pythonnet/converting-a-document/]
+aliases: [/python/converting-a-document/]
 description: "Aspose.Words for Python via .NET allows you to easily convert documents from one format to another. You can work with all the most popular formats like Microsoft Word formats such as DOCX or DOC, OpenDocument formats such as ODT or  OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others."
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
 ---
@@ -23,7 +23,7 @@ You can try the conversion functionality by using our [Free online converter](ht
 
 {{% /alert %}}
 
-The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are several hundred of them due to the large number of [formats supported by Aspose.Words for Python via .NET](/words/pythonnet/supported-document-formats/).
+The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are several hundred of them due to the large number of [formats supported by Aspose.Words for Python via .NET](/words/python/supported-document-formats/).
 
 {{% alert color="primary" %}}
 
@@ -35,14 +35,14 @@ Please note that below are the most popular conversion combinations, and not eve
 	<div class="col-md-4">
 		<h2>Convert Word to PDF</h2>
 			<ul>
-				<li><a href="/words/pythonnet/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
-				<li><a href="/words/pythonnet/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
+				<li><a href="/words/python/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
+				<li><a href="/words/python/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert Image to PDF</h2>
 			<ul>
-				<li><a href="/words/pythonnet/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
-				<li><a href="/words/pythonnet/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
+				<li><a href="/words/python/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
+				<li><a href="/words/python/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert Web Formats to PDF</h2>
@@ -64,13 +64,13 @@ Please note that below are the most popular conversion combinations, and not eve
 	<div class="col-md-4">
 		<h2>Convert PDF to Word</h2>
 			<ul>
-				<li><a href="/words/pythonnet/convert-pdf-to-other-document-formats/">Convert PDF to DOCX</a></li>
+				<li><a href="/words/python/convert-pdf-to-other-document-formats/">Convert PDF to DOCX</a></li>
         <li>Convert PDF to DOC</li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert PDF to Image</h2>
 			<ul>
-				<li><a href="/wordspythonnetnet/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
+				<li><a href="/wordspythonnet/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
         <li>Convert PDF to SVG</li>
 				<li>and others</li>
 			</ul>
@@ -91,19 +91,19 @@ Please note that below are the most popular conversion combinations, and not eve
 	<div class="col-md-4">
 		<h2>Convert a Document to an Image</h2>
 			<ul>
-				<li><a href="/words/pythonnet/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
-				<li><a href="/words/pythonnet/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
+				<li><a href="/words/python/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
+				<li><a href="/words/python/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert a Document to Markdown</h2>
 			<ul>
-				<li><a href="/words/pythonnet/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
+				<li><a href="/words/python/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
 				<li>Convert HTML to Markdown</li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert a Document to HTML</h2>
 			<ul>
-				<li><a href="/words/pythonnet/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
+				<li><a href="/words/python/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
 				<li>Convert Markdown to HTML</li>
 				<li>Convert Mobi to EPUB</li>
 				<li>and others</li>

@@ -2,7 +2,7 @@
 title: Working with Ole Objects and Online Video
 type: docs
 weight: 160
-url: /pythonnet/working-with-ole-objects-and-online-video/
+url: /python/working-with-ole-objects-and-online-video/
 ---
 
 ## Inserting Ole Object

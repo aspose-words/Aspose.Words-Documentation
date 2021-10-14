@@ -3,7 +3,7 @@ title: Getting Started
 type: docs
 description: "Use this introduction to Aspose.Words for Python via .NET fundamentals to start realizing the value of Aspose.Words for your business."
 weight: 20
-url: /pythonnet/getting-started/
+url: /python/getting-started/
 ---
 
 This Getting Started provides this introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities and get started.

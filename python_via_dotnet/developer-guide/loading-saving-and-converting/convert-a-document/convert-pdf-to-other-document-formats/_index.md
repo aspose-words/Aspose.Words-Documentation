@@ -4,7 +4,7 @@ type: docs
 description: “Aspose.Words for Python via .NET allows you to convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose.Words.”
 keywords: convert pdf to other formats python
 weight: 45
-url: /pythonnet/convert-pdf-to-other-document-formats/
+url: /python/convert-pdf-to-other-document-formats/
 ---
 
 Aspose.Words can load even such a complex format as PDF. This opens up new opportunities: it is possible to convert PDF to Word or other formats that bring users far ahead in solving many applied problems.
@@ -54,7 +54,7 @@ During a PDF document conversion, one of the following exceptions might happen:
 
 | Exception                        | Description                                                  |
 | -------------------------------- | ------------------------------------------------------------ |
-| *FileLoadException*              | A PDF file cannot be processed for some reason.<br />{{% alert color="primary" %}}You can report the issue to the development team for a detailed investigation using the [technical support](/words/pythonnet/technical-support/).{{% /alert %}} |
+| *FileLoadException*              | A PDF file cannot be processed for some reason.<br />{{% alert color="primary" %}}You can report the issue to the development team for a detailed investigation using the [technical support](/words/python/technical-support/).{{% /alert %}} |
 | *DrmProtectedFileException*      | A PDF file is protected by Adobe DRM and cannot be decoded by Pdf2Word. |
 | *PasswordProtectedFileException* | The correct password must be provided for a password-protected PDF. |
 

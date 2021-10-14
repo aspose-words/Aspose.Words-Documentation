@@ -2,7 +2,7 @@
 title: Working with Footnote and Endnote
 type: docs
 weight: 80
-url: /pythonnet/working-with-footnote-and-endnote/
+url: /python/working-with-footnote-and-endnote/
 ---
 
 ## Insert Endnote and Set Numbering Options

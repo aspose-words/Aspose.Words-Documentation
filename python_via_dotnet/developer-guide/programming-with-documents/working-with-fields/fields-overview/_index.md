@@ -2,7 +2,7 @@
 title: Fields Overview
 type: docs
 weight: 10
-url: /pythonnet/fields-overview/
+url: /python/fields-overview/
 ---
 
 

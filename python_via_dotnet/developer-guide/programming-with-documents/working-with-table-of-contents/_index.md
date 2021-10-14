@@ -2,7 +2,7 @@
 title: Working with Table of Contents
 type: docs
 weight: 83
-url: /pythonnet/working-with-table-of-contents/
+url: /python/working-with-table-of-contents/
 ---
 
 ## Insert and Work with the Table of Contents Field

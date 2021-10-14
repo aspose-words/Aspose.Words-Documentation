@@ -2,7 +2,7 @@
 title: Inserting Fields
 type: docs
 weight: 20
-url: /pythonnet/inserting-fields/
+url: /python/inserting-fields/
 ---
 
 ## Inserting Fields into a Document using DocumentBuilder

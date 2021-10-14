@@ -3,7 +3,7 @@ title: Working with SmartArt Cold Rendering
 type: docs
 description: "Aspose.Words for Python via .NET performs SmartArt Cold Rendering, meaning that it lays out and renders SmartArt objects if the pre-rendered SmartArt drawing is missing or incorrect."
 weight: 55
-url: /pythonnet/working-with-smartart-cold-rendering/
+url: /python/working-with-smartart-cold-rendering/
 ---
 
 SmartArt graphics are used to quickly and easily create a visual representation of information. You simply choose from a large number of layouts that best suits your situation. This ease of use makes SmartArt graphics quite popular for some purposes.

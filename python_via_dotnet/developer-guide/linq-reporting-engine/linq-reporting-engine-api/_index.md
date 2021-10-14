@@ -2,7 +2,7 @@
 title: LINQ Reporting Engine API
 type: docs
 weight: 40
-url: /pythonnet/linq-reporting-engine-api/
+url: /python/linq-reporting-engine-api/
 ---
 
 {{% alert color="primary" %}} 

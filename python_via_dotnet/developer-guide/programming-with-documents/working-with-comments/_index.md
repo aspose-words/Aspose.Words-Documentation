@@ -2,7 +2,7 @@
 title: Working with Comments
 type: docs
 weight: 140
-url: /pythonnet/working-with-comments/
+url: /python/working-with-comments/
 ---
 
 {{% alert color="primary" %}} 

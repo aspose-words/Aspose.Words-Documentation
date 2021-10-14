@@ -2,7 +2,7 @@
 title: Updating and Removing a Field
 type: docs
 weight: 30
-url: /pythonnet/updating-and-removing-a-field/
+url: /python/updating-and-removing-a-field/
 ---
 
 ## How to Update Fields

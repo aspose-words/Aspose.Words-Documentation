@@ -3,21 +3,21 @@ title: File Formats and Conversions
 description: "With Aspose.Words for Python via .NET, you can quickly and reliably convert documents from any supported load to save format with just two lines of code. It provides high-quality conversions."
 type: docs
 weight: 40
-url: /pythonnet/file-formats-and-conversions/
+url: /python/file-formats-and-conversions/
 aliases:
- - /pythonnet/high-quality-conversions/
- - /pythonnet/xml-paper-specification-xps/
- - /pythonnet/wordprocessingml-docx-and-xml/
- - /pythonnet/rich-text-format-rtf/
- - /pythonnet/printer-command-language-pcl/
- - /pythonnet/postscript/
- - /pythonnet/plain-text-txt/
- - /pythonnet/opendocument-odt/
- - /pythonnet/microsoft-word-doc/
- - /pythonnet/image-formats-tiff-png-bmp-emf-jpeg-gif/
- - /pythonnet/html-xhtml-and-mhtml/
- - /pythonnet/digital-publishing-epub/
- - /pythonnet/adobe-portable-document-format-pdf/
+ - /python/high-quality-conversions/
+ - /python/xml-paper-specification-xps/
+ - /python/wordprocessingml-docx-and-xml/
+ - /python/rich-text-format-rtf/
+ - /python/printer-command-language-pcl/
+ - /python/postscript/
+ - /python/plain-text-txt/
+ - /python/opendocument-odt/
+ - /python/microsoft-word-doc/
+ - /python/image-formats-tiff-png-bmp-emf-jpeg-gif/
+ - /python/html-xhtml-and-mhtml/
+ - /python/digital-publishing-epub/
+ - /python/adobe-portable-document-format-pdf/
 ---
 
 {{% alert color="primary" %}}
@@ -39,7 +39,7 @@ The following code example shows how to convert a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-Doc2Pdf.py" >}}
 
-For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](https://docs.aspose.com/words/pythonnet/loading-saving-and-converting/) section.
+For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](https://docs.aspose.com/words/python/loading-saving-and-converting/) section.
 
 ## High Fidelity
 

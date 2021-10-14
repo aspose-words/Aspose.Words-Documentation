@@ -3,7 +3,7 @@ title: Learn Features of Conversion to PDF/A
 description: "Aspose.Words for Python via .NET allows users to convert to PDF/A-1 and PDF/A-2. There are a few problems when converting to PDF/A documents, and Aspose.Words for Python via .NET solves them."
 type: docs
 weight: 25
-url: /pythonnet/learn-features-of-conversion-to-pdf-a/
+url: /python/learn-features-of-conversion-to-pdf-a/
 ---
 
 PDF is a fixed page format that is very popular among users and is widely supported by various applications, as a PDF document looks the same on any device. For this reason, converting to PDF is an important feature of Aspose.Words.

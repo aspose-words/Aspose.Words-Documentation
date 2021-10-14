@@ -2,7 +2,7 @@
 title: Working with Charts
 type: docs
 weight: 50
-url: /pythonnet/working-with-charts/
+url: /python/working-with-charts/
 ---
 
 ## Creating OOXML Charts from Scratch using Aspose.Words

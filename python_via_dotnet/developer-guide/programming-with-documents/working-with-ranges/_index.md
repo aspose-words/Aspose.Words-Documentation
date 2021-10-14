@@ -2,7 +2,7 @@
 title: Working with Ranges
 type: docs
 weight: 65
-url: /pythonnet/working-with-ranges/
+url: /python/working-with-ranges/
 ---
 
 {{% alert color="primary" %}} 

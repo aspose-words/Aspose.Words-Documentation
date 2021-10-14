@@ -2,7 +2,7 @@
 title: Working with Columns and Rows
 type: docs
 weight: 40
-url: /pythonnet/working-with-columns-and-rows/
+url: /python/working-with-columns-and-rows/
 ---
 
 ## Finding the Index of Table Elements

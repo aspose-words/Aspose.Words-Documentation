@@ -3,7 +3,7 @@ title: Converting to Fixed-page Format
 description: "Aspose.Words for Python via .NET implements its own page layout engine to describe the geometry and position of objects on document pages. This allows you to save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats."
 type: docs
 weight: 10
-url: /pythonnet/converting-to-fixed-page-format/
+url: /python/converting-to-fixed-page-format/
 ---
 
 Aspose.Words implements its own page layout engine. Prior to delving into its specifications, it is worthwhile to first discuss document at a high level. When thinking about a document, users typically imagine a number of paper sheets containing words, images, tables, and charts. Documents can be of various types, such as text, spreadsheets, slides, CAD drawings, flowcharts, and, therefore, can have essentially different layouts. Most applications allow sending documents to a printer; this is when a user can actually view the document’s final intended appearance.
@@ -70,7 +70,7 @@ After the page layout is built and the geometry of objects and their position on
 
 - The number and range of pages contained in the output document (**page_index**, **page_count**).
 - A set of characters that are used to numbers rendering (**numeral_format**).
-- A metafile player (**metafile_rendering_options**). For more details, see the ["Handling Windows Metafiles"](/words/pythonnet/handling-windows-metafiles/) article.
+- A metafile player (**metafile_rendering_options**). For more details, see the ["Handling Windows Metafiles"](/words/python/handling-windows-metafiles/) article.
 - A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format (**jpeg_quality**).
 - Optimization of vector graphics in Aspose.Words output (**optimize_output**).
 - Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats (**use_anti_aliasing**, **use_high_quality_rendering**).

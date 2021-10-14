@@ -3,7 +3,7 @@ title: Split a Document
 description: "Aspose.Words for Python via .NET allows you to split a document into several files. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
 type: docs
 weight: 80
-url: /pythonnet/split-a-document/
+url: /python/split-a-document/
 ---
 
 *Splitting* or *split a document* is the process of breaking a large document into a greater number of smaller files. There are various reasons to split a file. For example, you only need some pages from a specific document and not the entire one. Or for privacy reasons, you want to share only some parts of a document with others. With the splitting feature, you can get only the required parts of the document and do the necessary actions with them, for example, to mark up, save, or send.
@@ -81,7 +81,7 @@ This section describes several use cases of dividing documents by paged using th
 
 {{% alert color="primary" %}}
 
-You can use any [output format supported by Aspose.Words](/words/pythonnet/supported-document-formats/).
+You can use any [output format supported by Aspose.Words](/words/python/supported-document-formats/).
 
 {{% /alert %}}
 

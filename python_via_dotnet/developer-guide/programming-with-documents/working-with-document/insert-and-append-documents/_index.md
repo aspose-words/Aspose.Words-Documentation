@@ -3,8 +3,8 @@ title: Insert and Append Documents
 description: "Aspose.Words for Python via .NET allows you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
 type: docs
 weight: 70
-url: /pythonnet/insert-and-append-documents/
-aliases: [/pythonnet/join-and-append-documents/]
+url: /python/insert-and-append-documents/
+aliases: [/python/join-and-append-documents/]
 ---
 
 Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.

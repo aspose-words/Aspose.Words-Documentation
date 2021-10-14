@@ -3,7 +3,7 @@ title: Work with Document Properties
 description: "Aspose.Words for Python via .NET allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
 weight: 20
-url: /pythonnet/work-with-document-properties/
+url: /python/work-with-document-properties/
 ---
 
 Document properties allow storing some useful information about your document. These properties can be divided into two groups:
@@ -11,7 +11,7 @@ Document properties allow storing some useful information about your document. T
 * System or built-in that contain values such as document title, author name, document statistics, and others.
 * User-defined or custom, provided as name-value pairs where the user can define both the name and value.
 
-It is useful to know that information about API and Version Number is directly written to output documents. For example, upon converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for .NET YY.M.N", where *YY.M.N* is the version of Aspose.Words used for conversion. For more details, see ["Generator or Producer Name Included in Output Documents"](/words/pythonnet/generator-or-producer-name-included-in-output-documents/).
+It is useful to know that information about API and Version Number is directly written to output documents. For example, upon converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for .NET YY.M.N", where *YY.M.N* is the version of Aspose.Words used for conversion. For more details, see ["Generator or Producer Name Included in Output Documents"](/words/python/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

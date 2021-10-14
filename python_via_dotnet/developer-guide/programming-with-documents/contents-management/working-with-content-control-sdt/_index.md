@@ -2,7 +2,7 @@
 title: Working with Content Control SDT
 type: docs
 weight: 60
-url: /pythonnet/working-with-content-control-sdt/
+url: /python/working-with-content-control-sdt/
 ---
 
 In Microsoft Word, you can create a form by starting with a template and adding content controls, including checkboxes, text boxes, date pickers, and drop-down lists. In Aspose.Words, a Structured Document Tag or content control from any document loaded into Aspose.Words is imported as a **StructuredDocumentTag** node. Structured document tags (SDT or content control) allow embedding customer-defined semantics as well as its behaviour and appearance into a document. **StructuredDocumentTag** can occur in a document in the following places:

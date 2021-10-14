@@ -3,7 +3,7 @@ title: Rendering
 description: "Use Aspose.Words for Python via .NET rendering feature to format a flow-layout document into pages and convert such a document or selected pages to other documents (PDF, HTML, XPS, etc.) or images (TIFF, PNG, SVG, etc.) formats for viewing, further conversions, or printing."
 type: docs
 weight: 20
-url: /pythonnet/rendering/
+url: /python/rendering/
 ---
 
 We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.

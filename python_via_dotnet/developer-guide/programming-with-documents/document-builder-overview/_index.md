@@ -3,7 +3,7 @@ title: Document Builder Overview
 type: docs
 description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with Python."
 weight: 20
-url: /pythonnet/document-builder-overview/
+url: /python/document-builder-overview/
 ---
 
 **DocumentBuilder** is a powerful class that associates with **Document** and enables you to build dynamic documents from scratch or add new elements to an existing one.

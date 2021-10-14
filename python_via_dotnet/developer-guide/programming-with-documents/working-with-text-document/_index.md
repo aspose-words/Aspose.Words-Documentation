@@ -2,7 +2,7 @@
 title: Working with Text Document
 type: docs
 weight: 220
-url: /pythonnet/work-with-text-document/
+url: /python/work-with-text-document/
 ---
 
 ## How to Add Bi-Directional Marks

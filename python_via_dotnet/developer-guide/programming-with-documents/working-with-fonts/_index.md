@@ -2,7 +2,7 @@
 title: Working with Fonts
 type: docs
 weight: 120
-url: /pythonnet/working-with-fonts/
+url: /python/working-with-fonts/
 ---
 
 ## Getting Font Line Spacing

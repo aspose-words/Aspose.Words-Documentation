@@ -3,7 +3,7 @@ title: Compare Documents
 description: "Aspose.Words for Python via .NET allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 type: docs
 weight: 50
-url: /pythonnet/compare-documents/
+url: /python/compare-documents/
 ---
 
 Comparing documents is a process that identifies changes between two documents and contains the changes as revisions. This process compares any two documents, including versions of one specific document, then the changes between both documents will be shown as revisions in the first document.
@@ -32,7 +32,7 @@ The general limitation for two documents being compared is that they must not ha
 
 {{% alert color="primary" %}}
 
-Note that you can compare any two documents within the [supported file formats](/words/pythonnet/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
+Note that you can compare any two documents within the [supported file formats](/words/python/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
 
 {{% /alert %}}
 

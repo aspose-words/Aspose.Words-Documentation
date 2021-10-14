@@ -3,7 +3,7 @@ title: Working with Document
 type: docs
 description: "The Document class provides various document properties and methods. You use the Document class as the starting point for whatever you want to perform with Aspose.Words for .NET. The Document object can be saved to a file or stream and also sent to a browser."
 weight: 30
-url: /pythonnet/working-with-document/
+url: /python/working-with-document/
 ---
 
 The **Document** class is central in Aspose.Words. It represents a document and provides various document properties and methods, such as saving or protecting the document. You use the **Document** class as the starting point for whatever you want to perform with Aspose.Words: create a new document from scratch, open a template for a mail merge, or get different parts from a document.

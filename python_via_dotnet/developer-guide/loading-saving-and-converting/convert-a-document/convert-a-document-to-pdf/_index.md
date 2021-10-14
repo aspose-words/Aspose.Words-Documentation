@@ -3,7 +3,7 @@ title: Convert a Document to PDF
 description: "Aspose.Words for Python via .NET allows you to convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."
 type: docs
 weight: 10
-url: /pythonnet/convert-a-document-to-pdf/
+url: /python/convert-a-document-to-pdf/
 ---
 
 The ability to easily and reliably convert documents from one format to another is a key feature of Aspose.Words. One of the most popular formats for converting is PDF – a fixed-layout format, which preserves the original appearance of a document during its rendering on various platforms. The “rendering” term is used in Aspose.Words to describe the process of converting a document into a file format that is paginated or has the concept of pages.
@@ -51,6 +51,6 @@ The following code example demonstrates how to convert a document to PDF 1.7 usi
 
 ## See Also
 
-- The article [“Rendering"](/words/pythonnet/rendering/) for more information on the fixed-page and flow-layout formats
-- The article ["Converting to Fixed-page Format"](/words/pythonnet/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
-- The article ["Specify Rendering Options When Converting to PDF"](/words/pythonnet/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class
+- The article [“Rendering"](/words/python/rendering/) for more information on the fixed-page and flow-layout formats
+- The article ["Converting to Fixed-page Format"](/words/python/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article ["Specify Rendering Options When Converting to PDF"](/words/python/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class

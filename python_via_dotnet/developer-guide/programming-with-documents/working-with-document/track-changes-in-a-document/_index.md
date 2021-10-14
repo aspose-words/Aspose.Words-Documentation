@@ -3,7 +3,7 @@ title: Track Changes in a Document
 description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them using .NET."
 type: docs
 weight: 90
-url: /pythonnet/track-changes-in-a-document/
+url: /python/track-changes-in-a-document/
 ---
 
 The functionality of track changes, also known as reviewing, allows you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.

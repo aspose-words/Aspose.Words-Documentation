@@ -2,7 +2,7 @@
 title: Working with Sections
 type: docs
 weight: 60
-url: /pythonnet/working-with-sections/
+url: /python/working-with-sections/
 ---
 
 This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from several sections copied from multiple template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.

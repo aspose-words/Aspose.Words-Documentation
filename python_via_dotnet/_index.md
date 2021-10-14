@@ -3,7 +3,7 @@ title: Aspose.Words for Python via .NET
 description: "Aspose.Words for Python via .NET is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert and render documents."
 type: docs
 weight: 10
-url: /pythonnet/
+url: /python/
 is_root: true
 ---
 
@@ -24,17 +24,17 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 		<p><b>About Aspose.Words</b></p>
 			<hr><p>OVERVIEW</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/pythonnet/product-overview/">Product Overview</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/licensing/">Licensing and Subscription</a></li>
+				<li><a href="https://docs.aspose.com/words/python/product-overview/">Product Overview</a></li>
+				<li><a href="https://docs.aspose.com/words/python/licensing/">Licensing and Subscription</a></li>
 			</ul>            
 			<p>GET STARTED</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/pythonnet/getting-started/">Getting Started</a></li>
+				<li><a href="https://docs.aspose.com/words/python/getting-started/">Getting Started</a></li>
 			</ul>
 			<p>USEFUL RESOURCES</p>
 			<ul>
 				<li><a href="https://helpdesk.aspose.com/">Aspose.Words for .NET Paid Support Helpdesk</a></li>
-				<li><a href="https://downloads.aspose.com/words/pythonnet">Download Aspose.Words for Python via .NET</a></li>
+				<li><a href="https://downloads.aspose.com/words/python">Download Aspose.Words for Python via .NET</a></li>
 				<li><a href="https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET">Download Examples at GitHub Repository</a></li>
 			</ul>
 	</div>
@@ -42,27 +42,27 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 		<p><b>Get Started</b></p>
 			<hr><p>GETTING STARTED</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/pythonnet/supported-document-formats/">Supported Document Formats</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/features/">Features</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/system-requirements/">System Requirements</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/installation/">Installation</a></li>
+				<li><a href="https://docs.aspose.com/words/python/supported-document-formats/">Supported Document Formats</a></li>
+				<li><a href="https://docs.aspose.com/words/python/features/">Features</a></li>
+				<li><a href="https://docs.aspose.com/words/python/system-requirements/">System Requirements</a></li>
+				<li><a href="https://docs.aspose.com/words/python/installation/">Installation</a></li>
 				<li><a href="https://pypi.org/project/aspose-words/">Install Aspose.Words for Python via .NET from pypi</a></li>
 			</ul>
 			<p>LEARN</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/pythonnet/how-to-run-the-examples/">How to Run the Examples</a></li>
+				<li><a href="https://docs.aspose.com/words/python/how-to-run-the-examples/">How to Run the Examples</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
 		<p><b>Develop Functions</b></p>
 			<hr><p>GUIDE</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/pythonnet/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/linq-reporting-engine/">LINQ Reporting Engine</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/print-a-document-programmatically-or-using-dialogs/">Printing a Document</a></li>
-				<li><a href="https://docs.aspose.com/words/pythonnet/programming-with-documents/">Programming with Documents</a></li>
+				<li><a href="https://docs.aspose.com/words/python/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
+				<li><a href="https://docs.aspose.com/words/python/rendering/">Rendering</a></li>
+				<li><a href="https://docs.aspose.com/words/python/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
+				<li><a href="https://docs.aspose.com/words/python/linq-reporting-engine/">LINQ Reporting Engine</a></li>
+				<li><a href="https://docs.aspose.com/words/python/print-a-document-programmatically-or-using-dialogs/">Printing a Document</a></li>
+				<li><a href="https://docs.aspose.com/words/python/programming-with-documents/">Programming with Documents</a></li>
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
 			<ul>

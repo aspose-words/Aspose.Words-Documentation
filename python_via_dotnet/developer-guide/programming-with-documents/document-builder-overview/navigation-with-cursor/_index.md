@@ -3,7 +3,7 @@ title: Navigation with Cursor
 description: "Aspsoe.Words for Python via .NET allows you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
 type: docs
 weight: 10
-url: /pythonnet/navigation-with-cursor/
+url: /python/navigation-with-cursor/
 ---
 
 While working with a document, even if it is a short or long one, you will need to navigate through your document. Navigation with a virtual cursor represents the ability to navigate between different nodes in a document.

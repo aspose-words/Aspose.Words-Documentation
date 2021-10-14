@@ -2,7 +2,7 @@
 title: Working with VBA Macros
 type: docs
 weight: 200
-url: /pythonnet/working-with-vba-macros/
+url: /python/working-with-vba-macros/
 ---
 
 ## Overview

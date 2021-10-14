@@ -2,7 +2,7 @@
 title: Structured Document Tags or Content Control
 type: docs
 weight: 50
-url: /pythonnet/structured-document-tags-or-content-control/
+url: /python/structured-document-tags-or-content-control/
 ---
 
 

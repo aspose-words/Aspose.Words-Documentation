@@ -2,7 +2,7 @@
 title: Working with Watermark
 type: docs
 weight: 60
-url: /pythonnet/working-with-watermark/
+url: /python/working-with-watermark/
 ---
 
 This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the **Watermark** class.

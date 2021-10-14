@@ -1,11 +1,11 @@
 ---
 title: "Save a Document"
-aliases: [/pythonnet/saving-a-document/]
+aliases: [/python/saving-a-document/]
 type: docs
 description: "Aspose.Words for Python via .NET enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
-url: /pythonnet/save-a-document/
+url: /python/save-a-document/
 ---
 
 Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the **save** method of the **Document** class. There are overloads that allow saving a document to a file or stream. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](http://www.aspose.com/api/net/words/aspose.words/saveformat) enumeration.

@@ -3,7 +3,7 @@ title: Handling Windows Metafiles
 description: "Aspose.Words for Python via .NET implements its own Windows Metafile player to play Metafile format on all platforms and supports the handling of the basic metafile features and can perform fallback to a different type of metafile player."
 type: docs
 weight: 30
-url: /pythonnet/handling-windows-metafiles/
+url: /python/handling-windows-metafiles/
 ---
 
 Windows Metafile format is an image file format that can contain both vector and raster graphics. This format is used to store graphics data in memory or on-disk files. A metafile stores a list of function calls in the Windows Graphics Device Interface (GDI) that must be executed to display the image on the screen. The system interprets and executes these commands in the display context.

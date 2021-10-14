@@ -3,8 +3,8 @@ title: Work with Office Add-ins
 description: "Aspose.Words for Python via .NET provides various classes for working with Office Add-ins. You can add Task Pane via web extension and customize the pane and extension properties."
 type: docs
 weight: 130
-url: /pythonnet/work-with-office-add-ins/
-aliases: [/pythonnet/work-with-web-extensions/]
+url: /python/work-with-office-add-ins/
+aliases: [/python/work-with-web-extensions/]
 ---
 
 Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the WebExtensions namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.

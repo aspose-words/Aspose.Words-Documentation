@@ -2,7 +2,7 @@
 title: Working with Images
 type: docs
 weight: 40
-url: /pythonnet/working-with-images/
+url: /python/working-with-images/
 ---
 
 ## Inserting an Image

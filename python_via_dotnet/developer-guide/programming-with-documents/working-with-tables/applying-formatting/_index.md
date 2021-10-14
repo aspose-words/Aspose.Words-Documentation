@@ -2,7 +2,7 @@
 title: Applying Formatting
 type: docs
 weight: 20
-url: /pythonnet/applying-formatting/
+url: /python/applying-formatting/
 ---
 
 ## Applying Formatting to Table, Row and Cell
