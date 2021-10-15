@@ -45,7 +45,7 @@ The **PageSetup.MultiplePages** and **PageSetup.SheetsPerBooklet** properties ha
 
 Possible MultiplePagesType:
 
-- Normal - Normal printing, no many pages specified.
+- Normal - Normal printing, no numerous pages specified.
 - MirrorMargins - Swaps left and right margins on facing pages.
 - TwoPagesPerSheet - Prints two pages per sheet.
 - BookFoldPrinting - Specifies whether to print the document as a book fold.

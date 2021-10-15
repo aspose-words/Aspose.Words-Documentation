@@ -43,7 +43,7 @@ using DocumentFormat.OpenXml.Packaging;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example shows how to find and replace text from a document part:
+The following code example demonstrates how to find and replace text from a document part:
 
 {{< highlight csharp >}}
 public static void SearchAndReplaceTextFeature()

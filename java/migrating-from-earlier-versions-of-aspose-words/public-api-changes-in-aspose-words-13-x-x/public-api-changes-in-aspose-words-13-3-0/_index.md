@@ -46,11 +46,11 @@ This behavior applies to the following MailMerge methods:
 
 ## Mail Merge Regions with an Empty Name are now Merged
 
-In previous versions a merge field with an empty string as a table name would be merged i.e **TableStart:**. This behavior was changed in recent versions as only region names with at least one character would be merged. This fix enables regions with empty table names to be merged once again.
+In previous versions a merge field with an empty string as a table name would be merged i.e **TableStart:**. This behavior was changed in recent versions as only region names with at least one character would be merged. This fix allows regions with empty table names to be merged once again.
 
 ## Non-standard Quotation Marks are Recognized in Fields
 
-Microsoft Word recognizes quotation marks in fields from several Unicode characters: U+0022 (standard), U+00AB, U+00BB, U+201C, U+201D, U+201E, U+201E. Aspose.Words previously only recognized the standard quotation marks, however with this release it now recongizes all of the listed characters.
+Microsoft Word recognizes quotation marks in fields from numerous Unicode characters: U+0022 (standard), U+00AB, U+00BB, U+201C, U+201D, U+201E, U+201E. Aspose.Words previously only recognized the standard quotation marks, however with this release it now recongizes all of the listed characters.
 
 ## Partial Support of 3D Chart Rendering
 

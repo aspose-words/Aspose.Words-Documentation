@@ -79,7 +79,7 @@ private static void insertWatermarkIntoHeader(Paragraph watermarkPara, Section s
 
 ## Docx4j - Add Watermark in Document
 
-Below example shows how a watermark can be added to document using docx4j library.
+Below example demonstrates how a watermark can be added to document using docx4j library.
 
 **Java**
 

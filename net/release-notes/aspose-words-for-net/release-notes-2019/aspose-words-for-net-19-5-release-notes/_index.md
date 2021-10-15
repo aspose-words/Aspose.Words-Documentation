@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.Words for .NET 19.5](https://www.nu
 - Added feature to get font leading (line spacing).
 - Added Field.DisplayResult property to obtain a fake result. 
 - Provide a method to check if a particular DML text effect is applied.
-- Implemented StreamFontSource class which enables loading fonts from the stream.
+- Implemented StreamFontSource class which allows loading fonts from the stream.
 - Implemented TOC to logical structure export when rendering PDF.
 - Implemented proper rendering of embedded fonts in PDF when different font subsets have the same internal name.
 - Text in the format "x...." in the string values of the series category of DrawingML chart is now rendered as a string corresponding to the specified character code.
@@ -166,7 +166,7 @@ Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
 {{< highlight html >}}
 /// <summary>
-/// True if this paragraph break is a Style Separator. A style separator enables one
+/// True if this paragraph break is a Style Separator. A style separator allows one
 /// paragraph to consist of parts that have different paragraph styles.
 /// </summary>
 public bool BreakIsStyleSeparator
@@ -176,7 +176,7 @@ public bool BreakIsStyleSeparator
 
 
 
-It allows to identify Style Separator Paragraph.
+It enables to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -266,7 +266,7 @@ Added new StreamFontSource class which enables loading fonts from the stream:
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called numerous times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called several times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
@@ -356,7 +356,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 Font runFont = runs[1].Font;
 
-// One run might have numerous Dml text effects applied.
+// One run might have several Dml text effects applied.
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Effect3D));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Reflection));

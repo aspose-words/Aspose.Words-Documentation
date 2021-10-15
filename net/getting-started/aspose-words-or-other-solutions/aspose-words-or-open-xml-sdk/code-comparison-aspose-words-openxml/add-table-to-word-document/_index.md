@@ -1,6 +1,6 @@
 ﻿---
 title: Add Table to Word Document
-description: "Aspose.Words for .NET allows you to add a table to a Word document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to add a table to a Word document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 100
 url: /net/add-table-to-word-document/

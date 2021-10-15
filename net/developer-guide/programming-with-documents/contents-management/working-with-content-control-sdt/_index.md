@@ -65,13 +65,13 @@ You can bind content controls with XML data (*custom XML part*) in Word document
 
 ## XMLMapping of Structured Document Tag Range
 
-You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the StructuredDocumentTagRangeStart.XmlMapping property. However, the [SetMapping](https://apireference.aspose.com/words/net/aspose.words.markup/xmlmapping/methods/setmapping) method can be used to map a structured document tag range to XML data. The following code example demonstrates how to set XML mapping. 
+You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the StructuredDocumentTagRangeStart.XmlMapping property. However, the [SetMapping](https://apireference.aspose.com/words/net/aspose.words.markup/xmlmapping/methods/setmapping) method can be used to map a structured document tag range to XML data. The following code example shows how to set XML mapping. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-StructuredDocumentTagRangeStartXmlMapping.cs" >}}
 
 ## Clear Contents of a Content Control
 
-You can clear the contents of a content control with displaying a placeholder. StructuredDocumentTag.Clear method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in MS Word (except repeating sections, repeating section items, groups, check-boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared. The following code example shows how to clear the content of content control. 
+You can clear the contents of a content control with displaying a placeholder. StructuredDocumentTag.Clear method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in MS Word (except repeating sections, repeating section items, groups, check-boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared. The following code example demonstrates how to clear the content of content control. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-ClearContentsControl.cs" >}}
 
@@ -100,6 +100,6 @@ Note that only Linked and Character styles can be applied to content control. An
 
 ## Working with Repeating Section Content Control
 
-The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://apireference.aspose.com/words/net/aspose.words.markup/sdttype) provides **RepeatingSectionItem** property. The following code example demonstrates how to bind a repeating section content control to a table.
+The repeating section content control enables repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://apireference.aspose.com/words/net/aspose.words.markup/sdttype) provides **RepeatingSectionItem** property. The following code example demonstrates how to bind a repeating section content control to a table.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-CreatingTableRepeatingSectionMappedToCustomXmlPart.cs" >}}

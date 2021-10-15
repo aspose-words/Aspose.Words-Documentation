@@ -78,7 +78,7 @@ public class InvoiceItem
 }
 {{< /highlight >}}
 
-Given that `invoices` is an enumeration of Invoice instances, you could use the following template to output information on many invoices in one table.
+Given that `invoices` is an enumeration of Invoice instances, you could use the following template to output information on several invoices in one table.
 
 | #                                                            | Ware                                | Pack                   | Quantity                                           |
 | ------------------------------------------------------------ | ----------------------------------- | ---------------------- | -------------------------------------------------- |

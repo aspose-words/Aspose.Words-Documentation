@@ -22,14 +22,14 @@ To convert a document to MHTML or EPUB, use SaveFormat.MHTML or SaveFormat.EPUB 
 
 ## Convert a Document with Round-trip Information
 
-The HTML format does not support multiple Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportRoundtripInformation) property. Saving the round-trip information enables restoring document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
+The HTML format does not support a few Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportRoundtripInformation) property. Saving the round-trip information enables restoring document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
 
 The default value is **true** for HTML and **false** for MHTML and EPUB:
 
 - When **true**, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements
 - When **false**, there is no round-trip information to be output into produced files
 
-The following code example demonstrates how to export round-trip information when converting a document from DOCX into HTML:
+The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToHtmlWithRoundtrip.java" >}}
 
@@ -72,7 +72,7 @@ The following code example demonstrates how to export Base64-encoded fonts to HT
 
 ## Specify Save Options when Conversion to EPUB
 
-Aspose.Words allows converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/HtmlSaveOptions) to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
+Aspose.Words enables converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/HtmlSaveOptions) to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
 
 The following code example demonstrates how to converts a Word document to EPUB with specifying some custom save options:
 

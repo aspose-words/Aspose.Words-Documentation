@@ -41,7 +41,7 @@ The algorithm used in previous versions of Aspose.Words to load plain text files
 
 ### PageSetup.MultiplePages and PageSetup.SheetsPerBooklet Added to PageSetup
 
-The **PageSetup.MultiplePages** and **PageSetup.SheetsPerBooklet** properties have been added to PageSetup to allow specifying Book Fold many page options.
+The **PageSetup.MultiplePages** and **PageSetup.SheetsPerBooklet** properties have been added to PageSetup to allow specifying Book Fold multiple page options.
 
 Possible MultiplePagesType:
 

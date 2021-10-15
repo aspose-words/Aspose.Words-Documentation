@@ -56,7 +56,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 
 ## Invoke Static Methods
 
-Some methods in the Aspose.Words object model are static. For example, there is the **detectFileFormat** method that enables you to detect the original format of a file.
+Some methods in the Aspose.Words object model are static. For example, there is the **detectFileFormat** method that allows you to detect the original format of a file.
 
 **ColdFusion**
 
@@ -64,7 +64,7 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 <html>
 <head><title>Invoke Static Methods</title></head>
 <body>
-    <b>This example demonstrates how to detect the original format of a file using Aspose.Words</b><br />
+    <b>This example shows how to detect the original format of a file using Aspose.Words</b><br />
     <cfset doc=CreateObject("java", "com.aspose.words.Document")>
     <cfset format=doc.detectFileFormat("C:\Temp\out.doc")>
     <span>The original format of the file is </span>
@@ -102,7 +102,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 <html>
 <head><title>Save or Convert a Document</title></head>
 <body>
-    <b>This example shows how to convert a document to various formats using Aspose.Words</b>
+    <b>This example demonstrates how to convert a document to various formats using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset saveFormat=CreateObject("java", "com.aspose.words.SaveFormat")>
     <cfset doc.save("C:\Temp\out.doc", saveFormat.DOC)>

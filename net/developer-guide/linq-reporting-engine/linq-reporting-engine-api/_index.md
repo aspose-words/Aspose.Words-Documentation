@@ -587,7 +587,7 @@ JsonDataSource dataSource = new JsonDataSource(..., options);
 
 **Note –** Parsing of date-time values does not depend on whether the loose or strict mode is used.
 
-Recognition of date-time values is a special case, because [JSON specification](https://www.json.org) does not define a format for their representation. So, by default, while parsing date-time values from strings, the engine tries a few formats in the following order:
+Recognition of date-time values is a special case, because [JSON specification](https://www.json.org) does not define a format for their representation. So, by default, while parsing date-time values from strings, the engine tries multiple formats in the following order:
 
 1. [The ISO-8601 format](https://en.wikipedia.org/wiki/ISO_8601) (for values like "2015-03-02T13:56:04Z")
 1. [The Microsoft® JSON date-time format](https://docs.microsoft.com/en-us/previous-versions/dotnet/articles/bb299886\(v=msdn.10\)#from-javascript-literals-to-json) (for values like "/Date(1224043200000)/")
@@ -852,7 +852,7 @@ However, if `ReportBuildOptions.AllowMissingMembers` is applied, the engine trea
 
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
-However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.InlineErrorMessages` option that allows inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
+However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.InlineErrorMessages` option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
 
 **Note –** A template syntax error message is written using a bold font to make it more apparent.
 
@@ -870,7 +870,7 @@ By default, such a template causes the engine to throw an exception while buildi
 
 **Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
-When `ReportBuildOptions.InlineErrorMessages` is applied, a Boolean value returned by a `ReportingEngine.BuildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
+When `ReportBuildOptions.InlineErrorMessages` is applied, a Boolean value returned by a `ReportingEngine.BuildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This allows you to process reports which building succeeded or failed differently as shown in the following code snippet.
 
 {{< highlight csharp >}}
 ReportingEngine engine = new ReportingEngine();

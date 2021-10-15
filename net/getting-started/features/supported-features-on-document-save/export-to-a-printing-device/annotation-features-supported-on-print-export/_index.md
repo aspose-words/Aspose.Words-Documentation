@@ -18,7 +18,7 @@ url: /net/annotation-features-supported-on-print-export/
 
 Comments are exported to rendered formats.
 
-In version 1.0 of comments rendering long or numerous comments are not truncated.
+In version 1.0 of comments rendering long or a few comments are not truncated.
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

@@ -12,9 +12,9 @@ See more details in the [“Working with Columns and Rows”](https://docs.aspos
 
 {{% /alert %}}
 
-A table can specify certain starting table rows to be used as header rows. This means that if the table spans over several pages, these rows will be repeated at the top of the table for each page. In Aspose.Words, you can apply this setting by using the [HeadingFormat](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeadingFormat) property.
+A table can specify certain starting table rows to be used as header rows. This means that if the table spans over multiple pages, these rows will be repeated at the top of the table for each page. In Aspose.Words, you can apply this setting by using the [HeadingFormat](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeadingFormat) property.
 
-The following code example demonstrates how to build a table with rows that repeat on every page:
+The following code example shows how to build a table with rows that repeat on every page:
 
 {{< highlight csharp >}}
 Document doc = new Document();

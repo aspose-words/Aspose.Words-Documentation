@@ -27,5 +27,5 @@ The highlight of this release is the support of CSS shorthand attributes in HTML
 - 3030 - Support legacy list formatting.
 - 3033 - Support reading of empty bookmark names in WordML.
 - 3029 - ArgumentOutOfRangeException when reading a WordML file.
-- 3020 - When reading a few copies of same image, read only once to memory.
+- 3020 - When reading several copies of same image, read only once to memory.
 - 3018 - Write same image only once into WordML.

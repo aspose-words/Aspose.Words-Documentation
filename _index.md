@@ -11,7 +11,7 @@ url: /words/
 
 ![Aspose.Words for .NET Product Logo](home_1)
 
-Aspose.Words for .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word®.
+Aspose.Words for .NET is a class library that allows your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word®.
 
 {{% /alert %}} 
 
@@ -34,7 +34,7 @@ The following are the links to some useful resources you may need to accomplish 
 
 ![Aspose.Words for Java Product Logo](home_2)
 
-Aspose.Words for Java is a class library that allows your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words you can generate, modify, convert, render and print documents without using Microsoft Word®.
+Aspose.Words for Java is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words you can generate, modify, convert, render and print documents without using Microsoft Word®.
 
 {{% /alert %}} 
 
@@ -57,7 +57,7 @@ The following are the links to some useful resources you may need to accomplish 
 
 ![Aspose.Words for C++ Product Logo](home_3)
 
-Aspose.Words for C++ is a native class library that allows C++ application developers to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, and other formats (*see [Supported Document Formats](https://docs.aspose.com/display/wordscpp/Supported+Document+Formats) for details*). With Aspose.Words you can generate, modify and convert documents without utilizing Microsoft Word®.
+Aspose.Words for C++ is a native class library that enables C++ application developers to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, and other formats (*see [Supported Document Formats](https://docs.aspose.com/display/wordscpp/Supported+Document+Formats) for details*). With Aspose.Words you can generate, modify and convert documents without utilizing Microsoft Word®.
 
 {{% /alert %}} 
 

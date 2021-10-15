@@ -180,7 +180,7 @@ public boolean isSigned()
 public boolean isValid()
 {{< /highlight >}}
 
-Following code example demonstrates how to use SignatureLine's properties.
+Following code example shows how to use SignatureLine's properties.
 
 **Java**
 
@@ -293,7 +293,7 @@ public class MailMergeRegionInfo
 }
 {{< /highlight >}}
 
-Following code example shows how to extract full hierarchy of regions available in the document.
+Following code example demonstrates how to extract full hierarchy of regions available in the document.
 
 **Java**
 
@@ -357,7 +357,7 @@ FontSettings properties added to Document class
 {{< highlight csharp >}}
 /** 
  Gets or sets document font settings.
- <p>This property allows to specify font settings per document. If set to null, default static font settings
+ <p>This property enables to specify font settings per document. If set to null, default static font settings
  <see cref="Aspose.Words.Fonts.FontSettings.DefaultInstance"/> will be used.</p>
  <p>The default value is null.</p>
 */
@@ -656,7 +656,7 @@ public class FieldArgumentBuilder
 }
 {{< /highlight >}}
 
-Following code snippet demonstrates how to use FieldBuilder.
+Following code snippet shows how to use FieldBuilder.
 
 **Java**
 

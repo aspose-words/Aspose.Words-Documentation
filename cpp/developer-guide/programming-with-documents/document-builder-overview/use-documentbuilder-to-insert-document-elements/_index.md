@@ -19,7 +19,7 @@ Below example Inserts formatted text using DocumentBuilder.
 
 ## Inserting a Paragraph
 
-DocumentBuilder.Writeln inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the DocumentBuilder.Font property and current paragraph formatting is determined by the DocumentBuilder.ParagraphFormat property. Below example demonstrates how to insert a paragraph into the document.
+DocumentBuilder.Writeln inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the DocumentBuilder.Font property and current paragraph formatting is determined by the DocumentBuilder.ParagraphFormat property. Below example shows how to insert a paragraph into the document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cpp" >}}
 
@@ -57,13 +57,13 @@ Call DocumentBuilder.EndTable to finish the current table. This method should 
 
 ## Inserting a Break
 
-If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example demonstrates how to insert page breaks into a document.
+If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example shows how to insert page breaks into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.cpp" >}}
 
 ## Inserting an Image
 
-DocumentBuilder provides numerous overloads of the DocumentBuilder->InsertImage method that enables you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
+DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage method that enables you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter DocumentBuilder->InsertImage.
 - From a stream by passing a Stream parameter DocumentBuilder->InsertImage.
@@ -105,11 +105,11 @@ Below example demonstrates how to insert a bookmark into a document using a docu
 
 ## Inserting a Form Field
 
-Form fields are a particular case of Word fields that enables "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: DocumentBuilder.InsertTextInput , DocumentBuilder->InsertCheckBox, and DocumentBuilder.InsertComboBox. Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
+Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: DocumentBuilder.InsertTextInput , DocumentBuilder->InsertCheckBox, and DocumentBuilder.InsertComboBox. Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ### Inserting a Text Input
 
-DocumentBuilder.InsertTextInput to insert a textbox into the document. Below example shows how to insert a text input form field into a document.
+DocumentBuilder.InsertTextInput to insert a textbox into the document. Below example demonstrates how to insert a text input form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertTextInputFormField.cpp" >}}
 
@@ -121,7 +121,7 @@ Call DocumentBuilder.InsertCheckBox to insert a checkbox into the document. Be
 
 ### Inserting a Combo Box
 
-Call DocumentBuilder.InsertComboBox to insert a combo box into the document. Below example demonstrates how to insert a combo box form field into a document.
+Call DocumentBuilder.InsertComboBox to insert a combo box into the document. Below example shows how to insert a combo box form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertComboBoxFormField.cpp" >}}
 
@@ -139,13 +139,13 @@ Use DocumentBuilder.InsertHyperlink to insert a hyperlink into the document. T
 
 ## Inserting Ole Object
 
-If you want Ole Object call DocumentBuilder.InsertOleObject. Pass to this method the ProgId explicitly with other parameters. Below example demonstrates how to insert Ole Object into a document.
+If you want Ole Object call DocumentBuilder.InsertOleObject. Pass to this method the ProgId explicitly with other parameters. Below example shows how to insert Ole Object into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertOleObject.cpp" >}}
 
 ## Set File Name and Extension when Inserting Ole Object
 
-OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if OLE handler is missing or unknown. OlePackage class enables to access OLE Package properties. Below example demonstrates how to set file name, extension and display name for OLE Package.
+OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if OLE handler is missing or unknown. OlePackage class enables to access OLE Package properties. Below example shows how to set file name, extension and display name for OLE Package.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.cpp" >}}
 
@@ -157,6 +157,6 @@ You can easily insert an HTML string that contains an HTML fragment or whole HTM
 
 ## Insert Horizontal Rule into Document
 
-Below code example demonstrates how to insert horizontal rule shape into a document using DocumentBuilder->InsertHorizontalRule method.
+Below code example shows how to insert horizontal rule shape into a document using DocumentBuilder->InsertHorizontalRule method.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cpp" >}}

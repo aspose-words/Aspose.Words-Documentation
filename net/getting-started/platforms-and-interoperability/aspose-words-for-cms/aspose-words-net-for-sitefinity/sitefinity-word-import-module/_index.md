@@ -7,7 +7,7 @@ url: /net/sitefinity-word-import-module/
 
 ## Getting Started
 
-Sitefinity Word Import is an open source add-on from [Aspose](http://www.aspose.com/) that allow developers to get/read contents of any Word processing document without requiring any other software such as Microsoft Word or OpenOffice. This add-on demonstrates the powerful import feature provided by [Aspose.Word](http://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control and **Import from Word** button on the page where the add-on is added. When clicking on the button, the document contents are fetched from the file and displayed on the screen immediately.
+Sitefinity Word Import is an open source add-on from [Aspose](http://www.aspose.com/) that allow developers to get/read contents of any Word processing document without requiring any other software such as Microsoft Word or OpenOffice. This add-on shows the powerful import feature provided by [Aspose.Word](http://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control and **Import from Word** button on the page where the add-on is added. When clicking on the button, the document contents are fetched from the file and displayed on the screen immediately.
 
 ### System Requirements and Supported Platforms
 

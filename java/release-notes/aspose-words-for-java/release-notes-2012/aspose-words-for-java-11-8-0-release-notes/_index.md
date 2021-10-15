@@ -231,7 +231,7 @@ WORDSNET-4408 Footnote is lost after open/save document.
 
 WORDSNET-4748 Merge fields in IF field in header and footer are not filled with data.
 
-WORDSNET-4872 INCLUDETEXT field shows error during rendering.
+WORDSNET-4872 INCLUDETEXT field demonstrates error during rendering.
 
 WORDSNET-4906 Page numbers are lost after converting RTF to DOC.
 

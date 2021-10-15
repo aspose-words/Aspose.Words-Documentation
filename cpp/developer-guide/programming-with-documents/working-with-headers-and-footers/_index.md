@@ -12,7 +12,7 @@ url: /cpp/working-with-headers-and-footers/
 
 {{% alert color="primary" %}} 
 
-The following sample code demonstrates how to create headers/footers using DocumentBuilder.
+The following sample code shows how to create headers/footers using DocumentBuilder.
 
 Special attention is given to the following issues:
 

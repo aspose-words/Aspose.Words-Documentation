@@ -9,7 +9,7 @@ Bookmarks identify in a Microsoft Word document the locations or fragments that 
 
 ## Bookmarks in Microsoft Word
 
-In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of multiple letters and digits.
+In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of a few letters and digits.
 
 ### Inserting a Bookmark in Microsoft Word
 
@@ -58,7 +58,7 @@ Use [DocumentBuilder.startBookmark](https://apireference.aspose.com/words/java/c
 
 {{% alert color="primary" %}} 
 
-All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC, cannot have white spaces. However, PDF enables such bookmarks. So now, if you need to use bookmarks in PDF, XPS or SWF outlines, you can use them with white spaces.
+All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC, cannot have white spaces. However, PDF allows such bookmarks. So now, if you need to use bookmarks in PDF, XPS or SWF outlines, you can use them with white spaces.
 
 {{% /alert %}} 
 
@@ -94,7 +94,7 @@ If you need to insert rich content (not just plain text) into a bookmark, you sh
 
 ### Show Hide Bookmark Content
 
-The entire Bookmark (*including the bookmarked content*) can be encapsulated within the True part of the IF field using Aspose.Words. It can be in such a way that the IF field contains a nested Merge Field in the expression (*Left of Operator*) and depending upon the value of Merge Field, the IF field shows or hides the content of Bookmark in Word Document. The following code example shows how to show/ hide bookmarks.
+The entire Bookmark (*including the bookmarked content*) can be encapsulated within the True part of the IF field using Aspose.Words. It can be in such a way that the IF field contains a nested Merge Field in the expression (*Left of Operator*) and depending upon the value of Merge Field, the IF field demonstrates or hides the content of Bookmark in Word Document. The following code example shows how to show/ hide bookmarks.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.java" >}}
 

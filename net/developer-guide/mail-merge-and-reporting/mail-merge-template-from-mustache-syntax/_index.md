@@ -1,7 +1,7 @@
 ﻿---
 title: Mail Merge Template from Mustache Syntax
 type: docs
-description: "Aspose.Words for .NET enables you to create templates with mustache syntax – an alternative variant of syntax that consists of tag names enclosed by  . Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax."
+description: "Aspose.Words for .NET allows you to create templates with mustache syntax – an alternative variant of syntax that consists of tag names enclosed by  . Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
 url: /net/mail-merge-template-from-mustache-syntax/
@@ -75,7 +75,7 @@ For example, you can use IF fields if you need to insert “his”, “her”, �
 
 **{ IF “{{ GENDER }}” = “MALE” “true text” “false text” }**
 
-The following code example shows how to perform a mail merge operation with Mustache tags and IF fields:
+The following code example demonstrates how to perform a mail merge operation with Mustache tags and IF fields:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeUsingMustacheSyntax-UseOfifelseMustacheSyntax.cs" >}}
 

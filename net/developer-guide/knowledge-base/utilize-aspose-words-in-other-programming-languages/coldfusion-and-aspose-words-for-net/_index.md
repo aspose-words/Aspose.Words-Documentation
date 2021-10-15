@@ -36,7 +36,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 
 #### Invoke Static Methods
 
-Some methods in the Aspose.Words object model are static. For example, there is the FileFormatUtil.DetectFileFormat method that allows you to detect the original format of a file.
+Some methods in the Aspose.Words object model are static. For example, there is the FileFormatUtil.DetectFileFormat method that enables you to detect the original format of a file.
 
 **ColdFusion**
 

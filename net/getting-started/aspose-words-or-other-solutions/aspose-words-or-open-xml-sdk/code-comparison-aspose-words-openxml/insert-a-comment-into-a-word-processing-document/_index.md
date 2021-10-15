@@ -1,6 +1,6 @@
 ﻿---
 title: Insert a Comment into a Word Processing Document
-description: "Aspose.Words for .NET allows you to insert a comment into a word document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to insert a comment into a word document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 180
 url: /net/insert-a-comment-into-a-word-processing-document/
@@ -16,7 +16,7 @@ On this page we will look at how to insert a comment into a word processing docu
 
 In Aspose.Words you can work with comments by using the [Comment](http://www.aspose.com/api/net/words/aspose.words/comment) class.
 
-The following code example demonstrates how to insert a comment into a Word document:
+The following code example shows how to insert a comment into a Word document:
 
 {{< highlight csharp >}}
 Document doc = new Document();

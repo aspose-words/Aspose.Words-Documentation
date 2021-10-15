@@ -37,7 +37,7 @@ If you want to export header and footer in output TXT document, you can use Opt
 
 ## Export List Indentation in Output TXT
 
-Aspose.Words introduced TxtListIndentation class that enables specifying how list levels are indented while exporting to a plain text format. While working with TxtSaveOption, the ListIndentation property is provided to specify the character to be used for indenting list levels and count specifying how numerous characters to use as indentation per one list level. The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
+Aspose.Words introduced TxtListIndentation class that allows specifying how list levels are indented while exporting to a plain text format. While working with TxtSaveOption, the ListIndentation property is provided to specify the character to be used for indenting list levels and count specifying how a few characters to use as indentation per one list level. The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
 
 ### Using Tab Character
 

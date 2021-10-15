@@ -1,6 +1,6 @@
 ﻿---
 title: Working with Hyphenation
-description: "Aspose.Words for C++ enables to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
+description: "Aspose.Words for C++ allows to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 65
 url: /cpp/working-with-hyphenation/
@@ -16,7 +16,7 @@ For correct splitting of words, language-specific hyphenation dictionaries are u
 
 Since different languages use different norms and rules for word hyphenation, the optimal solution for correct hyphenation is to use special dictionaries. Aspose.Words uses OpenOffice dictionaries.
 
-For spell checking, OpenOffice uses the [Hunspell library](http://hunspell.github.io/), which is a generalization of TeX’s hyphenation algorithm. This algorithm enables for automatic non-standard hyphenation using competing standard and custom hyphenation patterns. Hunspell uses the [Hyphen](https://github.com/hunspell/hyphen) for hyphenation.
+For spell checking, OpenOffice uses the [Hunspell library](http://hunspell.github.io/), which is a generalization of TeX’s hyphenation algorithm. This algorithm allows for automatic non-standard hyphenation using competing standard and custom hyphenation patterns. Hunspell uses the [Hyphen](https://github.com/hunspell/hyphen) for hyphenation.
 
 {{% alert color="primary" %}}
 
@@ -53,7 +53,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example demonstrates how to load hyphenation dictionaries for the specified language from a stream:
+The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Hyphenation-LoadHyphenationDictionaryForLanguage.h" >}}
 
@@ -65,7 +65,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 As an alternative to pre-registering hyphenation dictionaries, it is possible to register only required hyphenation dictionaries “by request”. To achieve that, implement the [IHyphenationCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.i_hyphenation_callback/) interface and use the static callback [Callback](https://apireference.aspose.com/words/cpp/class/aspose.words.hyphenation#get_callback).
 
-The following code example shows how to implement the **IHyphenationCallback** interface:
+The following code example demonstrates how to implement the **IHyphenationCallback** interface:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Hyphenation-CustomHyphenation.h" >}}
 

@@ -23,7 +23,7 @@ Aspose.Words is incredible software that developers can try before purchasing. Y
 
 The evaluation version is the same as the purchased one – the Trial version simply becomes licensed when you add a few lines of code to apply the license.
 
-The Trial version of Aspose.Words for Java and Aspose.Words for Android via Java without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to many hundred paragraphs.
+The Trial version of Aspose.Words for Java and Aspose.Words for Android via Java without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to several hundred paragraphs.
 
 ### Temporary License
 
@@ -71,7 +71,7 @@ Often the easiest way to set a license is to place the license file in the same 
 
 Use the [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.io.InputStream)) method to license a component.
 
-Calling **SetLicense** several times is not harmful, it just wastes processor time.
+Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
 {{% /alert %}}
 
@@ -89,7 +89,7 @@ When developing a class library, you can call **SetLicense** from the static con
 
 Using the [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.lang.String)) method, you can try to find the license file in the embedded resources or folder that contain the JARs of your application for further use.
 
-The following code example demonstrates how to initialize a license from a folder:
+The following code example shows how to initialize a license from a folder:
 
 {{< highlight csharp >}}
 com.aspose.words.License license = new com.aspose.words.License();
@@ -150,7 +150,7 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 
 ## Using Multiple Aspose Products
 
-If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are several useful tips:
+If you use numerous Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are many useful tips:
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
 * Use the Fully Qualified License Class Name. Each Aspose product has a License class in its own namespace. For example, Aspose.Words has **com.aspose.words.License** and Aspose.Cells has com.aspose.cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.

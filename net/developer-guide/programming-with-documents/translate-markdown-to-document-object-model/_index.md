@@ -148,7 +148,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} |                                 
 
 ### Tables
 
-Aspose.Words also allows to translate tables into DOM, as shown below:
+Aspose.Words also enables to translate tables into DOM, as shown below:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |

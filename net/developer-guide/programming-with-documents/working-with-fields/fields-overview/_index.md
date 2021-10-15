@@ -42,7 +42,7 @@ To insert a field in Microsoft Word:
 1. Click on the **Insert** menu.
 1. Click on the **Quick Parts** drop down menu
 1. Select **Field**
-1. You are presented with a screen which enables you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.<br>
+1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.<br>
 ![field-edit-aspose-words](fields-overview_5.png)
 1. Additionally you can press the **Field Codes** button which enables you to directly write out the field code.<br>
 ![field-properties-aspose-words](fields-overview_6.png)
@@ -150,7 +150,7 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 - Fields can be nested within a field code as well as in the field result.
 - Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- Fields that span across multiple paragraphs.
+- Fields that span across several paragraphs.
 
 #### Formula Fields
 
@@ -238,7 +238,7 @@ The [Document](http://www.aspose.com/api/net/words/aspose.words/document) class 
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using DocumentBuilder.InsertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method **MailMerge.GetFieldNames**. Below example shows how to get names of all merge fields in a document.
+A field which is inserted using DocumentBuilder.InsertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method **MailMerge.GetFieldNames**. Below example demonstrates how to get names of all merge fields in a document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}
 

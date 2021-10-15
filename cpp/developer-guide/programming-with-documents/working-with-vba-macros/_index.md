@@ -21,7 +21,7 @@ Aspose.Words API provides Document.VbaProject property to get or set VbaProjec
 
 ## Read Macros
 
-The following code example demonstrates how to read VBA Macros from the document.
+The following code example shows how to read VBA Macros from the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithVbaMacros-ReadVbaMacros.cpp" >}}
 
@@ -39,6 +39,6 @@ The following code example shows how to clone the VBA Project using the VbaProj
 
 ## Clone VBA Module
 
-The following code example shows how to clone the VBA Module using the VbaModule.Clone property which creates a copy of the existing project.
+The following code example demonstrates how to clone the VBA Module using the VbaModule.Clone property which creates a copy of the existing project.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaModule.cpp" >}}

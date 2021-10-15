@@ -1,6 +1,6 @@
 ﻿---
 title: Work with Options and Appearance of Word Documents
-description: "Aspose.Words for .NET allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
+description: "Aspose.Words for .NET enables you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 120
 url: /net/work-with-word-document-options-and-appearance/
@@ -13,7 +13,7 @@ Sometimes you may need to change the appearance of a document, for example, set 
 
 You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://apireference.aspose.com/words/net/aspose.words.settings/viewoptions) class. For example, you can set a document zoom value using the [ZoomPercent](https://apireference.aspose.com/words/net/aspose.words.settings/viewoptions/properties/zoompercent) property, or the view mode using the [ViewType](https://apireference.aspose.com/words/net/aspose.words.settings/viewoptions/properties/viewtype) property.
 
-The following code example demonstrates how to ensure that a document is displayed at 50% when opened in Microsoft Word:
+The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SetViewOption-SetViewOption.cs" >}}
 
@@ -55,7 +55,7 @@ If your Aspose.Words generated document does not look as expected, check the **L
 
 {{% /alert %}}
 
-The following code example shows how to add Japanese to editing languages:
+The following code example demonstrates how to add Japanese to editing languages:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cs" >}}
 

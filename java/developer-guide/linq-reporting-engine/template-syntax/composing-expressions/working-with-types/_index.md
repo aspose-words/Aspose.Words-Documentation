@@ -5,7 +5,7 @@ weight: 20
 url: /java/working-with-types/
 ---
 
-LINQ Reporting Engine enables you to use external visible types in template expressions. A *visible* type is a public type which outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
+LINQ Reporting Engine allows you to use external visible types in template expressions. A *visible* type is a public type which outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
 
 However, you can use the identifier of a visible type in template expressions only if the following additional requirements are met:
 
@@ -13,4 +13,4 @@ However, you can use the identifier of a visible type in template expressions on
 - The type does not represent an array.
 - The type identifier does not contain generic type arguments.
 
-Also, the engine allows you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by many keys. See “Appendix A. Enumeration Extension Methods” for the examples.
+Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by many keys. See “Appendix A. Enumeration Extension Methods” for the examples.

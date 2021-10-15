@@ -15,17 +15,17 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}} 
 
-The following code example demonstrates how to Inserts a merge field into a document using DocumentBuilder.
+The following code example shows how to Inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-1.java" >}}
 
-The same technique is used to insert fields nested within other fields. The following code example demonstrates how to insert fields nested within another field using DocumentBuilder.
+The same technique is used to insert fields nested within other fields. The following code example shows how to insert fields nested within another field using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-1.java" >}}
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example demonstrates how to get names of all merge fields in a document.
+A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example shows how to get names of all merge fields in a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-1.java" >}}
 
@@ -127,7 +127,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example demonstrates how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example shows how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertIncludeFieldWithoutDocumentBuilder.java" >}}
 
@@ -150,7 +150,7 @@ Sometimes it is necessary to remove a field from the document. This may occur wh
 
 ## How to Apply Custom Formatting to Field Result
 
-Aspose.Words provides API for custom formatting of field's result. You can implement IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. Following code example demonstrates how to apply custom formatting for field's result.
+Aspose.Words provides API for custom formatting of field's result. You can implement IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. Following code example shows how to apply custom formatting for field's result.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormatFieldResult-FormatFieldResult.java" >}}
 
@@ -158,7 +158,7 @@ Aspose.Words provides API for custom formatting of field's result. You can imple
 
 ## How to evaluate IF condition
 
-If you want to evaluate IF condition after mail merge, you can use FieldIf.EvaluateCondition method that immediately returns the result of expression's evaluation. Below code example demonstrates how to use this method.
+If you want to evaluate IF condition after mail merge, you can use FieldIf.EvaluateCondition method that immediately returns the result of expression's evaluation. Below code example shows how to use this method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-EvaluateIFCondition-EvaluateIFCondition.java" >}}
 

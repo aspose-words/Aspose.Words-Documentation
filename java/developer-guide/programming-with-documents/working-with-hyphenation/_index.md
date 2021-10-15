@@ -1,6 +1,6 @@
 ﻿---
 title: Working with Hyphenation
-description: "Aspose.Words for Java allows to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
+description: "Aspose.Words for Java enables to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 85
 url: /java/working-with-hyphenation/
@@ -53,7 +53,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
+The following code example demonstrates how to load hyphenation dictionaries for the specified language from a stream:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 

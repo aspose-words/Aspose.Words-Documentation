@@ -1,7 +1,7 @@
 ﻿---
 title: Supported Document Formats
 type: docs
-description: "Aspose.Words for Java supports a wide range of formats for loading and saving documents. This enables you to edit source documents in a few popular formats, as well as freely convert files from one format to another."
+description: "Aspose.Words for Java supports a wide range of formats for loading and saving documents. This enables you to edit source documents in numerous popular formats, as well as freely convert files from one format to another."
 weight: 30
 url: /java/supported-document-formats/
 ---

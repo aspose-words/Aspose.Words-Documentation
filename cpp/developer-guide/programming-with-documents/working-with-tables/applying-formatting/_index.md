@@ -32,7 +32,7 @@ Note that before you apply table properties there must be at least one row prese
 
 Formatting on the row level can be controlled using the RowFormat property of the Row. 
 
-The following code example demonstrates how to modify the formatting of a table row. You can download the template file of this example from here.
+The following code example shows how to modify the formatting of a table row. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-ModifyRowFormatting.cpp" >}}
 
@@ -50,7 +50,7 @@ The following code example shows how to set the amount of space (in points) to a
 
 ### Specifying Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the RowFormat.Height and RowFormat.HeightRule properties of the given Row.
+The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which enables for wide control over the height of each row. In Aspose.Words these are represented by the RowFormat.Height and RowFormat.HeightRule properties of the given Row.
 
 |HeightRule Value|Description|
 | :- | :- |
@@ -78,11 +78,11 @@ The following code example demonstrates how to format a table and cells with di
 
 ## Specifying Table and Cell Widths
 
-A table in a Microsoft word document provides multiple different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information that will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
+A table in a Microsoft word document provides many different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information that will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
 
 ### Different Widths on Table
 
-Table elements present numerous different properties that can affect how the widths of the overall table, as well as individual cells, are calculated. These are explained in detail in this article.
+Table elements present multiple different properties that can affect how the widths of the overall table, as well as individual cells, are calculated. These are explained in detail in this article.
 
 - Preferred width on the table.
 - Preferred width on individual cells.
@@ -93,7 +93,7 @@ Table elements present numerous different properties that can affect how the wid
 
 All of the properties and techniques that are described in this article all link back to how tables work in Microsoft Word. Therefore in most cases, if you are building your table programmatically but are finding it hard to create the desired table you can instead try visually creating it in Microsoft Word first and then simply copy the formatting values to your application. 
 
-The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on many things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
+The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on multiple things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
 
 {{% /alert %}} 
 
@@ -101,7 +101,7 @@ The preferred cell is recommended rather than the width in most cases. Cell pref
 
 The desired width of a table or individual cells is defined through the preferred width property. That is a preferred width can be specified on individual cells or to the table as a whole. This is the size that the element strives to fit. In some cases, it may not be possible to fit this exact width, but the real width will come close to this value on most occasions.
 
-The preferred width property can be expressed in one of a few different ways:
+The preferred width property can be expressed in one of multiple different ways:
 
 |Width Type|Behavior|
 | :- | :- |
@@ -131,7 +131,7 @@ Before you can use preferred widths on a table you must make sure that the table
 
 #### Specifying Preferred Width on a Cell
 
-Using the CellFormat.PreferredWidth property on a given cell will adjust its preferred width. The following code example shows how to set the different preferred width settings.
+Using the CellFormat.PreferredWidth property on a given cell will adjust its preferred width. The following code example demonstrates how to set the different preferred width settings.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-SetPreferredWidthSettings.cpp" >}}
 
@@ -143,7 +143,7 @@ You can use PreferredWidth.Type and PreferredWidth.Value properties to find t
 
 #### Allowing AutoFit
 
-The Table.AllowAutoFit property allows cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. The following code example demonstrates how to set a table to shrink or grow each cell to accommodate its contents.
+The Table.AllowAutoFit property enables cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. The following code example demonstrates how to set a table to shrink or grow each cell to accommodate its contents.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-SpecifyHeightAndWidth-AllowAutoFit.cpp" >}}
 
@@ -173,7 +173,7 @@ While creating a fixed table layout, specify the cell width. A cell without widt
 
 ## Working with Table Styles
 
-A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to multiple tables for a consistent appearance.
+A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to a few tables for a consistent appearance.
 
 Aspose.Words supports applying a table style to a table and also reading properties of any table style. Table styles are preserved during loading and saving in the following ways:
 
@@ -185,19 +185,19 @@ Currently, you cannot create new table styles. You can only apply in-built table
 
 ### Applying a Table Style
 
-In Aspose.Words you can apply a table style by using any of the Table.Style, Table.StyleIdentifier and Table.StyleName properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using Table.StyleOptions property. The TableStyleOptions enumeration allows a bitwise combination of these features. The following code example shows how to build a new table with a table style applied.
+In Aspose.Words you can apply a table style by using any of the Table.Style, Table.StyleIdentifier and Table.StyleName properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using Table.StyleOptions property. The TableStyleOptions enumeration enables a bitwise combination of these features. The following code example demonstrates how to build a new table with a table style applied.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-BuildTableWithStyle.cpp" >}}
 
 Aspose.Words also provides a method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Test combine formatting with table style and cell style. This method will not override any other formatting that is already applied to the table through a row or cell format.
 
-The following code example shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from here.
+The following code example demonstrates how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-ExpandFormattingOnCellsAndRowFromStyle.cpp" >}}
 
 ## Get Distance between Table and Surrounding Text
 
-The following code example shows how to get the distance between the table and its surrounding text. 
+The following code example demonstrates how to get the distance between the table and its surrounding text. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-GetDistancebetweenTableSurroundingText.cpp" >}}
 
@@ -217,7 +217,7 @@ The following code example demonstrates how to get the position of the floating
 
 ### Set Position of Floating Table
 
-The following code example shows how to set the position of the floating table. 
+The following code example demonstrates how to set the position of the floating table. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-TablePosition-SetFloatingTablePosition.cpp" >}}
 

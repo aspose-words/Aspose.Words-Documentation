@@ -20,7 +20,7 @@ The following code example demonstrates how to set date/time values to axis prop
 
 ### How to Format Number Value of Axis
 
-The following code example demonstrates how to change the format of numbers on the value axis.
+The following code example shows how to change the format of numbers on the value axis.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-SetNumberFormatForAxis.cpp" >}}
 
@@ -32,18 +32,18 @@ The AxisBound class represents a minimum or maximum bound of axis values. Bound 
 
 ### How to Set Interval Unit Between Labels
 
-The following code example demonstrates how to set the interval unit between labels on an axis.
+The following code example shows how to set the interval unit between labels on an axis.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.cpp" >}}
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of the set_Hidden property. The following code example demonstrates how to hide the Y-axis of the chart. 
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of the set_Hidden property. The following code example shows how to hide the Y-axis of the chart. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-HideChartAxis.cpp" >}}
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.TickLabelAlignment property. The following code example shows how to tick label alignment.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.TickLabelAlignment property. The following code example demonstrates how to tick label alignment.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

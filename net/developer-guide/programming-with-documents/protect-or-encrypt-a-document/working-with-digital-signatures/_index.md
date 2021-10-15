@@ -47,7 +47,7 @@ A document can be signed more than once, and this can be done by different users
 
 All of this provides an efficient and safe way to check a document for signatures before processing it.
 
-The following code example demonstrates how to detect the presence of digital signatures and verify them:
+The following code example shows how to detect the presence of digital signatures and verify them:
 
 {{< highlight csharp >}}
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
@@ -192,11 +192,11 @@ Assert.AreEqual("CN=Morzal.Me", signatures[0].IssuerName);
 Assert.AreEqual(DigitalSignatureType.XmlDsig, signatures[0].SignatureType);
 {{< /highlight >}}
 
-### Sign a Generated PDF {#sign-a-generated-pdf-document}
+### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
 Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://apireference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/properties/index) properties.
 
-The following code example demonstrates how to sign a generated PDF:
+The following code example shows how to sign a generated PDF:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -226,7 +226,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/net/aspose.words/digitalsignatureutil/methods/removeallsignatures/index) method.
 
-The following code example shows how to load and remove digital signatures from a document:
+The following code example demonstrates how to load and remove digital signatures from a document:
 
 {{< highlight csharp >}}
 // Load digital signatures via filename string to verify that the document is signed.

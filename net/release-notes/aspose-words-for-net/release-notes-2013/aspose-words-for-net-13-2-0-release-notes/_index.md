@@ -161,7 +161,7 @@ This page contains release notes for [Aspose.Words for .NET 13.2.0](https://www.
 |WORDSNET-7710|Aspose.Words renders more Pages than in original Docuement|Feature|
 |WORDSNET-7728|Create samples for the new access to page layout feature|Feature|
 |WORDSNET-7729|Touch up PageSplitter sample|Feature|
-|WORDSNET-7730|Create a sample which demonstrates how to get page numbers of every node in a document|Feature|
+|WORDSNET-7730|Create a sample which shows how to get page numbers of every node in a document|Feature|
 |WORDSNET-7731|Create a sample which shows LayoutEnumerator|Feature|
 |WORDSNET-7732|Create a sample to add a image to every page without using the header or footer|Feature|
 |WORDSNET-7760|/revision marks/ Support revisions in list numbers|Feature|

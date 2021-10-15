@@ -19,7 +19,7 @@ Note that the font in the document represents an entity, such as family name, st
 
 All available font manipulation mechanisms are contained in the [FontSettings](https://apireference.aspose.com/words/java/com.aspose.words/FontSettings) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
 
-Fonts are parsed in many steps:
+Fonts are parsed in a few steps:
 
 1. Obtaining info for font, resolving from all available fonts.
 1. Parsing the resolved fonts to get available glyphs and metrics (horizontal and vertical).

@@ -71,7 +71,7 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16910|Font size of cell's text is changed in output PDF|Bug|
 |WORDSNET-16805|Formula cant be rendered correctly after converted to pdf|Bug|
 |WORDSNET-15165|Image's position is changed after conversion from RTF to PDF|Bug|
-|WORDSNET-16591|InsertDocument does not insert Headers Footers from multiple Sections|Bug|
+|WORDSNET-16591|InsertDocument does not insert Headers Footers from numerous Sections|Bug|
 |WORDSNET-16730|Inserting Radio Buttons as HTML into the Document adds two extra spaces at the beginning|Bug|
 |WORDSNET-16983|Labels in picture misplaced in PDF|Bug|
 |WORDSNET-16639|Limo stretch // Shapes in GroupShape skewed when rendering|Bug|

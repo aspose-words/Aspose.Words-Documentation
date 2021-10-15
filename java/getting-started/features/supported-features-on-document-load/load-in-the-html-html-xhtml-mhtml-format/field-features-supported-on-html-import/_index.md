@@ -237,7 +237,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Text|Yes| | |
 |Hyperlinked Shape or Image|Yes| | |
-|Hyperlink across Multiple Paragraphs|N/A|Hyperlinks across numerous paragraphs are exported as separate hyperlinks. On round-trip, these are imported as a few separate hyperlinks.| |
+|Hyperlink across Multiple Paragraphs|N/A|Hyperlinks across several paragraphs are exported as separate hyperlinks. On round-trip, these are imported as several separate hyperlinks.| |
 |Hyperlink to a Local Bookmark|Yes| | |
 |Hyperlink to an External Resource|Yes| | |
 |Screen Tip|Planned| | |

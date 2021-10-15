@@ -10,7 +10,7 @@ Sometimes you may need to remove unused or duplicate information to reduce the s
 
 While you can find and remove unused data, such as styles or lists, or duplicate information manually, it will be much more convenient to do this using features and capabilities provided by Aspose.Words.
 
-The [CleanupOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options) class enables you to specify options for document cleaning. To remove duplicate styles or just unused styles or lists from the document, you can use the [Cleanup](https://apireference.aspose.com/words/cpp/class/aspose.words.document#cleanup) method.
+The [CleanupOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options) class allows you to specify options for document cleaning. To remove duplicate styles or just unused styles or lists from the document, you can use the [Cleanup](https://apireference.aspose.com/words/cpp/class/aspose.words.document#cleanup) method.
 
 ## Remove Unused Information from a Document
 
@@ -18,7 +18,7 @@ You can use the [UnusedStyles](https://apireference.aspose.com/words/cpp/class/a
 
 You can use the [UnusedLists](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options#get_unusedlists_const) property to detect and remove lists and list definitions that are marked as "unused".
 
-The following code example demonstrates how to remove only unused styles from a document:
+The following code example shows how to remove only unused styles from a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Document-Working with document options and settings-CleanupUnusedStylesandLists.h" >}}
 

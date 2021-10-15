@@ -35,7 +35,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 | ODT, OTT                                                     | ODF Encryption (Blowfish/AES)                               | ODF Encryption (AES256 + SHA256)             |
 | PDF                                                          | -                                                           | RC4 Encryption (40/128 bit)                  |
 
-The following code example demonstrates how to encrypt a document with a password:
+The following code example shows how to encrypt a document with a password:
 
 {{< highlight cpp >}}
 // Create a document.
@@ -57,7 +57,7 @@ In some cases, you may have an unreadable document and want to be sure that the 
 
 To detect if a document is encrypted and if a password is required, you can use the [IsEncrypted](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info#get_isencrypted_const) property of the [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info) class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
 
-The following code example shows how to detect the document encryption:
+The following code example demonstrates how to detect the document encryption:
 
 {{< highlight cpp >}}
 // Create a document.
@@ -107,7 +107,7 @@ catch (const IncorrectPasswordException &ex)
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
-The following code example demonstrates how to try opening an encrypted document with a password:
+The following code example shows how to try opening an encrypted document with a password:
 
 {{< highlight csharp >}}
 // Create a document.

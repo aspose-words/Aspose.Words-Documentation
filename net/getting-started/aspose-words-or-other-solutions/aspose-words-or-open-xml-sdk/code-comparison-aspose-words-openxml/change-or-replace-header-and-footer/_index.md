@@ -14,7 +14,7 @@ On this page we will look at how to change or replace header or footer using Asp
 
 In Aspose.Words a header or footer is normally changed using [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder). Use its method [MoveToHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetoheaderfooter) to update a header or footer.
 
-The following code example shows how to replace header or footer:
+The following code example demonstrates how to replace header or footer:
 
 {{< highlight csharp >}}
 Document doc = new Document();

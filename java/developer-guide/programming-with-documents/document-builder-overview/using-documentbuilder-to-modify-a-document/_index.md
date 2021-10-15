@@ -13,7 +13,7 @@ Current font formatting is represented by a Font object returned by the Document
 
 |![font-formatting-aspose-words-java](http://i.imgur.com/rptZz44.png)|
 | :- |
-The following code example shows how to set font formatting.
+The following code example demonstrates how to set font formatting.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetFontFormatting-1.java" >}}
 
@@ -74,7 +74,7 @@ Page setup and section properties are encapsulated in the PageSetup object that 
 
 |![section-formatting-aspose-words-java](http://i.imgur.com/toUNnPO.png)|
 | :- |
-The following code example shows how to set such properties as page size and orientation for the current section.
+The following code example demonstrates how to set such properties as page size and orientation for the current section.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetPageSetupAndSectionFormatting-1.java" >}}
 
@@ -86,7 +86,7 @@ Furthermore, a **Style** object provides the [Style.getStyleIdentifier](http://w
 
 |![apply-style-aspose-words-java](http://i.imgur.com/OwWl1Uz.png)|
 | :- |
-The following code example demonstrates how to apply a paragraph style.
+The following code example shows how to apply a paragraph style.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderApplyParagraphStyle-1.java" >}}
 
@@ -104,7 +104,7 @@ The shading texture is set with a [TextureIndex](http://www.aspose.com/api/java/
 
 |![borders-and-shading-aspose-words-java](http://i.imgur.com/RDPc5fw.png)|
 | :- |
-The below example shows how to apply borders and shading to a paragraph.
+The below example demonstrates how to apply borders and shading to a paragraph.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderApplyBordersAndShadingToParagraph-1.java" >}}
 
@@ -159,7 +159,7 @@ Use[DocumentBuilder.moveToParagraph](http://www.aspose.com/api/java/words/com.as
 
 The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specifies the index of the paragraph inside that header of that section.
 
-When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specifies an index from the end of the section with -1 being the last paragraph. The character index can currently only be specified as 0 to move to the beginning of the paragraph or -1 to move to the end of the paragraph. The following code example shows how to move a cursor position to the specified paragraph. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToParagraph/DocumentBuilder.doc).
+When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specifies an index from the end of the section with -1 being the last paragraph. The character index can currently only be specified as 0 to move to the beginning of the paragraph or -1 to move to the end of the paragraph. The following code example demonstrates how to move a cursor position to the specified paragraph. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToParagraph/DocumentBuilder.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToParagraph-1.java" >}}
 
@@ -176,7 +176,7 @@ The navigation is performed inside the current story of the current section.
 
 For the index parameters, when the index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When the index is less than 0, it specifies an index from the end with -1 being the last element.
 
-Also, note that characterIndex currently can only specify 0 to move to the beginning of the cell or -1 to move to the end of the cell. The following code example demonstrates how to move a cursor position to the specified table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToTableCell/DocumentBuilder.doc).
+Also, note that characterIndex currently can only specify 0 to move to the beginning of the cell or -1 to move to the end of the cell. The following code example shows how to move a cursor position to the specified table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToTableCell/DocumentBuilder.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-1.java" >}}
 
@@ -191,7 +191,7 @@ This overload moves the cursor to a position just after the start of the bookmar
 - isStart determines whether to move the cursor to the beginning or to the end of the bookmark.
 - isAfter determines whether to move the cursor to be after the bookmark start or end position, or to move the cursor to be before the bookmark start or end position.
 
-The following code example demonstrates how to move a cursor position to just after the bookmark end.
+The following code example shows how to move a cursor position to just after the bookmark end.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-1.java" >}}
 
@@ -199,7 +199,7 @@ Inserting new text in this way does not replace the existing text of the bookmar
 
 ### Moving to a Merge Field
 
-Sometimes you may need to perform a "manual" mail merge using DocumentBuilder or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/moveToMergeField\(java.lang.String\)/) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example demonstrates how to move the cursor to a position just beyond the specified merge field. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToMergeField/DocumentBuilder.doc).
+Sometimes you may need to perform a "manual" mail merge using DocumentBuilder or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](http://www.aspose.com/api/java/words/com.aspose.words/classes/documentbuilder/methods/moveToMergeField\(java.lang.String\)/) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToMergeField/DocumentBuilder.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-1.java" >}}
 
@@ -207,7 +207,7 @@ Sometimes you may need to perform a "manual" mail merge using DocumentBuilder or
 
 Most of the object properties provided in the Aspose.Words API that represents some measurements (width/height, margins and various distances) accept values in points (1 inch equals 72 points). Sometimes this is not convenient so there is the ConvertUtil class that provides helper functions to convert between various measurement units. It allows converting inches to points, points to inches, pixels to points, and points to pixels. When pixels are converted to points and vice versa, it can be performed at 96 dpi (dots per inch) resolutions or at the specified dpi resolution.
 
-**ConvertUtil** is very useful when setting different page properties because for instance inches are more usual measurement units than points. The following example demonstrates how to set up the page properties in inches.
+**ConvertUtil** is very useful when setting different page properties because for instance inches are more usual measurement units than points. The following example shows how to set up the page properties in inches.
 
 The following code example demonstrates how to specify page properties in inches.
 

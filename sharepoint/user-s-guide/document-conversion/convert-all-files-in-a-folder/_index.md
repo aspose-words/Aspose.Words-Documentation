@@ -40,7 +40,7 @@ When you select multiple items in a document library view, you can convert or co
 
 If you select no items in a document library view, the **Convert via Aspose.Words** option is disabled.
 
-**Conversion Settings screen for several files conversion.** 
+**Conversion Settings screen for many files conversion.** 
 
 ![todo:image_alt_text](convert-all-files-in-a-folder_6.png)
 

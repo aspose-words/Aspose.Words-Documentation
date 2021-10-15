@@ -167,13 +167,13 @@ Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
 {{< highlight csharp >}}
 /// <summary>
-/// True if this paragraph break is a Style Separator. A style separator enables one
+/// True if this paragraph break is a Style Separator. A style separator allows one
 /// paragraph to consist of parts that have different paragraph styles.
 /// </summary>
 public bool BreakIsStyleSeparator
 {{< /highlight >}}
 
-It enables to identify Style Separator Paragraph.
+It allows to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -251,7 +251,7 @@ Assert.AreEqual("1)", fields[5].DisplayResult);
 
 Related issue: WORDSNET-16739
 
-Added new StreamFontSource class which allows loading fonts from the stream:
+Added new StreamFontSource class which enables loading fonts from the stream:
 
 
 
@@ -354,7 +354,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 Font runFont = runs[1].Font;
 
-// One run might have many Dml text effects applied.
+// One run might have a few Dml text effects applied.
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Effect3D));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Reflection));

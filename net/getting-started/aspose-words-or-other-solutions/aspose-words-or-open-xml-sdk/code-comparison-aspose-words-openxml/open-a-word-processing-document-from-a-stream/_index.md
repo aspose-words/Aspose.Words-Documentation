@@ -1,6 +1,6 @@
 ﻿---
 title: Open a Document from a Stream
-description: "Aspose.Words for .NET enables you to load a document from a stream easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET allows you to load a document from a stream easily and fast instead of using Open XML SDK."
 type: docs
 weight: 20
 url: /net/open-a-word-processing-document-from-a-stream/
@@ -16,7 +16,7 @@ On this page we will look at how to load a document from a stream using Aspose.W
 
 Simply pass a stream object that contains the document into the [Document](https://apireference.aspose.com/net/words/aspose.words/document/constructors/main) constructor.
 
-The following code example shows how to open a document from a stream:
+The following code example demonstrates how to open a document from a stream:
 
 {{< highlight csharp >}}
 Stream stream = File.Open(MyDir + "Document.docx", FileMode.Open);

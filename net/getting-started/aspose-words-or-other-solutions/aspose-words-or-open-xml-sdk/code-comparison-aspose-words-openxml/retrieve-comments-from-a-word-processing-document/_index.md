@@ -1,6 +1,6 @@
 ﻿---
 title: Retrieve Comments from a Document
-description: "Aspose.Words for .NET allows you to retrieve comments from a word processing  document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to retrieve comments from a word processing  document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 190
 url: /net/retrieve-comments-from-a-word-processing-document/
@@ -16,7 +16,7 @@ On this page we will look at how to retrieve comments from a Word Processing  do
 
 In Aspose.Words, use the [Comment](https://apireference.aspose.com/words/net/aspose.words/comment) class and  the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method to get all comments from a document.
 
-The following code example demonstrates how to retrieve comments from a Word Document:
+The following code example shows how to retrieve comments from a Word Document:
 
 {{< highlight csharp >}}
 public void RetrieveCommentsFeature()
@@ -47,7 +47,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example demonstrates how to retrieve comments from a Word Document:
+The following code example shows how to retrieve comments from a Word Document:
 
 {{< highlight csharp >}}
 public static void RetrieveCommentsFeature()

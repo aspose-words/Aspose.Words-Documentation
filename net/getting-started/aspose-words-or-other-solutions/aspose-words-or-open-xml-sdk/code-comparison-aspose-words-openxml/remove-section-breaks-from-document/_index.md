@@ -1,6 +1,6 @@
 ﻿---
 title: Remove Section Breaks from a Document
-description: "Aspose.Words for .NET allows you to remove section breaks from a document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to remove section breaks from a document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 170
 url: /net/remove-section-breaks-from-document/
@@ -47,7 +47,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example demonstrates how to remove section breaks from a document:
+The following code example shows how to remove section breaks from a document:
 
 {{< highlight csharp >}}
 public void RemoveSectionBreaksFeature()

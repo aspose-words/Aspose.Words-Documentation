@@ -6,7 +6,7 @@ weight: 20
 url: /cpp/specify-layout-options/
 ---
 
-Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
+Aspose.Words allows you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
 
 For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_continuoussectionpagenumberingrestart_const) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_ignoreprintermetrics_const) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) class page.
 

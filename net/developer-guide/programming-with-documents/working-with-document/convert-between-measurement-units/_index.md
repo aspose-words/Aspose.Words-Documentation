@@ -12,6 +12,6 @@ Aspose.Words provides the [ConvertUtil](https://apireference.aspose.com/words/ne
 
 The **ConvertUtil** class is especially useful when setting various page properties because, for instance, inches are more common measurement units than points.
 
-The following code example demonstrates how to specify page properties in inches:
+The following code example shows how to specify page properties in inches:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-ConvertUtil-UtilityClasses-ConvertBetweenMeasurementUnits.cs" >}}

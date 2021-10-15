@@ -45,7 +45,7 @@ To insert a field in Microsoft Word:
 1. Click on the **Insert** menu.
 1. Click on the **Quick Parts** dropdown menu
 1. Select **Field**
-1. You are presented with a screen which enables you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.
+1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.
 
 ![fields-overview-aspose-words-cpp-5](fields-overview_5.png)
 

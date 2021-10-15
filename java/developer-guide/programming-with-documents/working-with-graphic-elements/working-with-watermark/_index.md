@@ -14,7 +14,7 @@ In Microsoft Word, a watermark can easily be inserted in a document using the In
 
 ### Add Text Watermark
 
-The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://apireference.aspose.com/words/java/com.aspose.words/TextWatermarkOptions) using the SetText method.
+The following code example shows how to insert a text watermark in a document by defining [TextWatermarkOptions](https://apireference.aspose.com/words/java/com.aspose.words/TextWatermarkOptions) using the SetText method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
@@ -37,7 +37,7 @@ You can download the template file of this example from [here](https://github.c
 
 ## How to Remove Watermark from a Document
 
-The Watermark class provides the Remove method to remove the watermark from a document. The following code examples shows how to remove a watermark from documents.
+The Watermark class provides the Remove method to remove the watermark from a document. The following code examples demonstrates how to remove a watermark from documents.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 

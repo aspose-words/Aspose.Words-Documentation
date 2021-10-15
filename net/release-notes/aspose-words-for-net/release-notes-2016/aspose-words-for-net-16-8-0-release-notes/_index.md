@@ -38,7 +38,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13764|Space after paragraph disappears in AW pdf, docx output.|Bug|
 |WORDSNET-13787|Problems in arabic language direction during HTML to DOCX conversion|Bug|
 |WORDSNET-13792|Doc to Pdf conversion issue with GroupShape rendering|Bug|
-|WORDSNET-13795|The rule "Allow hanging punctuation" is processed improperly if a line ends by numerous spaces.|Bug|
+|WORDSNET-13795|The rule "Allow hanging punctuation" is processed improperly if a line ends by multiple spaces.|Bug|
 |WORDSNET-13797|Mismatch in table styles when the docx converted to pdf|Bug|
 |WORDSNET-13823|The ROUND function works incorrectly with negative arguments|Bug|
 |WORDSNET-13832|Unnecessary text appears after re-saving mhtml|Bug|
@@ -63,7 +63,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-6933|/vml/ Shapes are laid out incorrectly in DOC on HTML import|Bug|
 |WORDSNET-8441|RTL text of HTML Fixed Page document is reordered when copied to Clipboard|Bug|
 |WORDSNET-9658|Formula (Equation.DSMT4) background color is lost after conversion from Docx to HTML|Bug|
-|WORDSNET-13188|Extract a few duplicate options from Fixed-page based save formats to one abstract class.|Enhancement|
+|WORDSNET-13188|Extract many duplicate options from Fixed-page based save formats to one abstract class.|Enhancement|
 |WORDSNET-13952|Index is loosing style(italic) information.when convert rtf to docx|Enhancement|
 |WORDSNET-7762|Use the Hijri/Lunar calendar field option has no effect in PDF|Enhancement|
 |WORDSNET-10055|Throw a meaningful exception during Range.Replace callback|Exception|
@@ -166,7 +166,7 @@ public new int WebRequestTimeout
 }
 {{< /highlight >}}
 
-Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in several releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
+Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in numerous releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
 
 Use case:
 

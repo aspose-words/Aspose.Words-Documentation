@@ -55,7 +55,7 @@ More complete support hopefully in the next version.
 
 
 
-EPUB is a popular format for eBooks and mobile reading devices and applications. To preserve the original look of the document on any reading device EPUB allows font embedding. 
+EPUB is a popular format for eBooks and mobile reading devices and applications. To preserve the original look of the document on any reading device EPUB enables font embedding. 
 
 Aspose.Words now provides options for subsetting and embedding TrueType fonts used by a document when you convert a document to EPUB. Since EPUB is based on HTML, the same font embedding is available in Aspose.Words when saving to HTML or MHTML. For more information see .
 

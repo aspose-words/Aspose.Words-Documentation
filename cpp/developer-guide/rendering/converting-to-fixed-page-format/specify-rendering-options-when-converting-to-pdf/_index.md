@@ -30,13 +30,13 @@ It is also possible to export fillable forms from a Microsoft Word document into
 
 Note that in contrast to Microsoft Word, the PDF format has a limited number of options for editable forms, such as textbox, combobox, and checkbox. Microsoft Word has more types of forms, for example, calendar date picker. Generally, it is not possible to fully imitate Microsoft Word behavior in PDF. Therefore, in some complex cases, PDF output may differ from what you see in Microsoft Word.
 
-The code example below demonstrates how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
+The code example below shows how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-File Formats and Conversions-Save Options-Working with PdfSaveOptions-PdfImageComppression.h" >}}
 
 ## Exporting Document Structure and Custom Properties
 
-The [ExportDocumentStructure](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#set_exportdocumentstructure) property allows you to export document structure to PDF output.
+The [ExportDocumentStructure](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#set_exportdocumentstructure) property enables you to export document structure to PDF output.
 
 PDF logical structure facilities provide a mechanism for incorporating information, regarding the document content structure, into a PDF file. Aspose.Words preserves information about the structure from a Microsoft Word document, such as paragraphs, lists, tables, footnotes/endnotes, etc.
 
@@ -52,7 +52,7 @@ Aspose.Words also allows you to export document custom properties to PDF, which 
 
 If you want to export bookmarks as outlines in output PDF, you can use the [DefaultBookmarksOutlineLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#get_defaultbookmarksoutlinelevel_const) property. This property specifies the default level in the document outline, at which Microsoft Word bookmarks are displayed. If the document contains bookmarks in the header/footer of the document, you can set the [HeaderFooterBookmarksExportMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#get_headerfooterbookmarksexportmode_const) property to [First](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#headerfooterbookmarksexportmode) or [All](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#headerfooterbookmarksexportmode) in order to specify how they are exported in output PDF. The bookmarks in headers/footers are not exported when the value of **HeaderFooterBookmarksExportMode** is [None](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#headerfooterbookmarksexportmode).
 
-The code example below shows how to export bookmarks from the first header/footer of a section:
+The code example below demonstrates how to export bookmarks from the first header/footer of a section:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.cpp" >}}
 
@@ -62,7 +62,7 @@ The output PDF of this example is shown below:
 
 When **HeaderFooterBookmarksExportMode** is set to First and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
-You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#get_headingsoutlinelevels_const) property. This property specifies how multiple levels of headings are included in the document outline.
+You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.outline_options/#get_headingsoutlinelevels_const) property. This property specifies how several levels of headings are included in the document outline.
 
 The code example below shows how to export headings with three levels:
 
@@ -101,7 +101,7 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 |Embed Fonts Mode|Advantages|Disadvantages|
 | :- | :- | :- |
 |Full|Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
-|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If several PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing several unnecessary subsets.</p>|
+|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If many PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing multiple unnecessary subsets.</p>|
 
 ### Embedding Full Fonts in PDF
 
@@ -110,7 +110,7 @@ The [EmbedFullFonts](https://apireference.aspose.com/words/cpp/class/aspose.wor
 - To embed full fonts into the output PDF document, set **EmbedFullFonts** to true
 - To subset fonts when saving to PDF, set **EmbedFullFonts** to false
 
-The following example demonstrates how to embed full fonts in the output PDF document:
+The following example shows how to embed full fonts in the output PDF document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddAllFonts.cpp" >}}
 

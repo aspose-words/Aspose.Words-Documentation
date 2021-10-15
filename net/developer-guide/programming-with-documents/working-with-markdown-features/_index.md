@@ -29,7 +29,7 @@ There are nuances of translating Markdown to the Aspose.Words Document Object Mo
 
 ## Markdown Document with Emphases
 
-This section shows you how to produce a markdown document with emphases as given below:
+This section demonstrates you how to produce a markdown document with emphases as given below:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -43,7 +43,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Headings
 
-This section demonstrates you how to produce a markdown document with headings as given below:
+This section shows you how to produce a markdown document with headings as given below:
 
 {{< highlight csharp >}}
 The following produces headings:
@@ -62,7 +62,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Block Quotes
 
-This section shows you how to produce a markdown document with block quotes as given below:
+This section demonstrates you how to produce a markdown document with block quotes as given below:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
@@ -83,7 +83,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Horizontal Rule
 
-This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
+This section shows you how to produce a markdown document with Horizontal Rule as given below:
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:

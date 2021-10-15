@@ -58,7 +58,7 @@ There are 118 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-7519 |OL element should not be nested within element OL in Html |Bug |
 |WORDSNET-7532 |Docx to RTF conversion issue with font size. |Bug |
 |WORDSNET-7690 |/cjk line spacing/Incorrect LineSpacing results in an incorrect number of pages |Bug |
-|WORDSNET-8561 |TOC hyperlinks and superscript hyperlinks split into multiple fragments in output PDF |Bug |
+|WORDSNET-8561 |TOC hyperlinks and superscript hyperlinks split into several fragments in output PDF |Bug |
 |WORDSNET-8623 |/asian baseline/ Empty page is inserted after conversion from Doc to PDF |Bug |
 |WORDSNET-8637 |Images are placed incorrectly after RTF-HTML-DOCX round-trip |Bug |
 |WORDSNET-8638 |Font size of table text gets smaller after export to HTML |Bug |

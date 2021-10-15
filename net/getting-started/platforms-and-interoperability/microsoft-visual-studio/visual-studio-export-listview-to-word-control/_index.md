@@ -25,7 +25,7 @@ This initial version of the control provides the following features:
 
 ![visual-studio-export-listview-to-word-control-aspose-words-net](visual-studio-export-listview-to-word-control_1.png)
 
-This control allows you to export ListView in the following different file formats.
+This control enables you to export ListView in the following different file formats.
 
 1. Export ListView to Word Document.
 1. Export ListView to Doc

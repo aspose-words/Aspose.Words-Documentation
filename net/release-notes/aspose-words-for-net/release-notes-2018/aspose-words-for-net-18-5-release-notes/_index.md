@@ -81,7 +81,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-7737|Paragraph line spacing is improperly calculated upon rendering document with frame|Bug|
 |WORDSNET-6537|Document.HasMacros returns incorrect value|Bug|
 |WORDSNET-6172|Header text cut off from left side while converting doc to Pdf, XPS, Tiff|Bug|
-|WORDSNET-6038|Width of Page Borders is not the same across multiple pages|Bug|
+|WORDSNET-6038|Width of Page Borders is not the same across numerous pages|Bug|
 |WORDSNET-5447|Shape is rendered with flipped dimensions|Bug|
 |WORDSNET-5212|Non-ASCII character is stripped from the root in the navigation pane when exporting to EPUB|Bug|
 |WORDSNET-10536|Left indentation of Table is increased by few points in PDF|Bug|

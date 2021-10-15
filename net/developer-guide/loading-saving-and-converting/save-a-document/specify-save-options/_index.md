@@ -1,6 +1,6 @@
 ﻿---
 title: Specify Save Options
-description: "Aspose.Words for .NET enables you to set advanced properties when saving a document. This enables you to more accurately control the save process."
+description: "Aspose.Words for .NET allows you to set advanced properties when saving a document. This enables you to more accurately control the save process."
 type: docs
 weight: 10
 url: /net/specify-save-options/
@@ -18,7 +18,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-The article describes numerous properties you can control when saving a document.
+The article describes several properties you can control when saving a document.
 
 ## Encrypt a Document With a Password
 
@@ -26,13 +26,13 @@ Use the **Password** property to get or set a password for an encrypted docume
 
 For example, when saving a document to DOC or DOT format, use the [Password](https://apireference.aspose.com/words/net/aspose.words.saving/docsaveoptions/properties/password) property of the [DocSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/docsaveoptions) class.
 
-The following code example demonstrates how to set a password to encrypt a document using the RC4 encryption method:
+The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cs" >}}
 
 When saving a document to Odt format, use the [Password](https://apireference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/properties/password) property of the [OdtSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/odtsaveoptions) class.
 
-The following code example shows how to load and save OpenDocument encrypted with a password:
+The following code example demonstrates how to load and save OpenDocument encrypted with a password:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cs" >}}
 
@@ -58,7 +58,7 @@ The following code example shows how to set this property and save the document
 
 To convert HTML or SVG into PDF, simply invoke the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/iresourcesavingcallback).
 
-The following code example shows how to convert HTML to PDF and loads images from external sources:
+The following code example demonstrates how to convert HTML to PDF and loads images from external sources:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ImageLoadingWithCredentialsHandler-ImageLoadingWithCredentialsHandler.cs" >}}
 

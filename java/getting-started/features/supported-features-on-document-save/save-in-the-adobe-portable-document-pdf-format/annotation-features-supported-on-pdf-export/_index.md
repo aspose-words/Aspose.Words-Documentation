@@ -32,7 +32,7 @@ See the following link in the documentation for further information:
 
 Comments are exported to PDF.
 
-In version 1.0 of comments rendering long or many comments are not truncated in PDF output.
+In version 1.0 of comments rendering long or multiple comments are not truncated in PDF output.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

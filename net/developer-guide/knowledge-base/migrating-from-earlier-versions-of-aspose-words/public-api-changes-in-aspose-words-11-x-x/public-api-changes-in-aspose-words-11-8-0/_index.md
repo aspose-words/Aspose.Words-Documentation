@@ -88,7 +88,7 @@ Document doc = new Document(MyDir + "Document.doc");
 // Extract the last paragraph in the document to convert to HTML.
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Create an instance of HtmlSaveOptions and set several options.
+// Create an instance of HtmlSaveOptions and set numerous options.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection;
 saveOptions.ExportRelativeFontSize = true;
@@ -105,7 +105,7 @@ string nodeAsHtml = node.ToString(saveOptions);
 Dim doc As New Document(MyDir & "Document.doc")
 ' Extract the last paragraph in the document to convert to HTML.
 Dim node As Node = doc.LastSection.Body.LastParagraph
-' Create an instance of HtmlSaveOptions and set numerous options.
+' Create an instance of HtmlSaveOptions and set several options.
 Dim saveOptions As New HtmlSaveOptions()
 saveOptions.ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection
 saveOptions.ExportRelativeFontSize = True
@@ -245,7 +245,7 @@ builder.Writeln("The first paragraph")
 builder.Writeln("The second paragraph")
 builder.Writeln("The third paragraph")
 builder.Writeln("The fourth paragraph")
-' Hot remove allows a node to be removed from a live collection and have the enumeration continue.
+' Hot remove enables a node to be removed from a live collection and have the enumeration continue.
 For Each para As Paragraph In builder.Document.FirstSection.Body.GetChildNodes(NodeType.Paragraph, True)
 	If para.Range.Text.Contains("third") Then
 		' Enumeration will continue even after this node is removed.
@@ -310,7 +310,7 @@ In the above code:
 
 #### 10. Introduction of HtmlSaveOptions.CssSavingCallback Property and ICssSavingCallback Interface
 
-This enables control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype) is set to [CssStyleSheetType.External](https://apireference.aspose.com/words/net/aspose.words.saving/cssstylesheettype). This interface enables control over where the external CSS is saved to, such as a stream.
+This allows control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype) is set to [CssStyleSheetType.External](https://apireference.aspose.com/words/net/aspose.words.saving/cssstylesheettype). This interface allows control over where the external CSS is saved to, such as a stream.
 
 #### 11. Additional MetafileRenderingMode Option Introduced
 

@@ -23,7 +23,7 @@ If the property is set to true (which is the default value) SVG resources are em
 
 ### FirstPageHeaderFooterPerSection Option Added to ExportHeadersFootersMode
 
-A new enumeration value of FirstPageHeaderFooterPerSection has been added to HtmlSaveOptions.ExportHeaderFootersMode that allows you to export first page headers and footers instead of primary headers and footers while exporting to HTML-based formats.
+A new enumeration value of FirstPageHeaderFooterPerSection has been added to HtmlSaveOptions.ExportHeaderFootersMode that enables you to export first page headers and footers instead of primary headers and footers while exporting to HTML-based formats.
 
 ### Rendering of DrawingML Glow Effect
 
@@ -39,7 +39,7 @@ The different modes can be set using new property: **SaveOptions.DmlEffectsRende
 
 Starting from 13.12.0 version Aspose.Words supports rendering of outer shadow DrawingML effect. Effect can be rendered in two modes:
 
-1. Simplified (blured edges are simulated using a few layers with different transparency).
+1. Simplified (blured edges are simulated using numerous layers with different transparency).
 1. Fine (Blur is applied to shadow, gives better result, but takes much more time to render).
 
 ### ResourceFileUri Property Added to ResourceSavingArgs
@@ -51,7 +51,7 @@ The properties **HtmlFixedSaveOptions.ResourcesFolderAlias** and **SvgSaveOption
 - It is impossible to provide different aliases for individual resource files.
 - Generated URIs have the form "alias/filename", which is fixed. For example, it is impossible to change the order of the alias and the file name or remove the slash character that separates them.
 
-The new property **ResourceSavingArgs.ResourceFileUri** does not have the limitations of resource aliases and enables more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.
+The new property **ResourceSavingArgs.ResourceFileUri** does not have the limitations of resource aliases and allows more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.
 
 ### SaveOptions.DmlRenderingMode Introduced
 

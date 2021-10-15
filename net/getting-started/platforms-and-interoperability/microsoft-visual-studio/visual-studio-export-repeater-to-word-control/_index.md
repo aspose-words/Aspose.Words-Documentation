@@ -23,7 +23,7 @@ This initial version of the control provides the following features:
 
 ![visual-studio-export-repeater-to-word-control-aspose-words-net](visual-studio-export-repeater-to-word-control_1.png)
 
-This control enables you to export Repeater in the following different file formats.
+This control allows you to export Repeater in the following different file formats.
 
 1. Export Repeater to Word Document.
 1. Export Repeater to Doc

@@ -23,7 +23,7 @@ Aspose.Words has the public class [WriteProtection](https://apireference.aspose.
 
 Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
-Aspose.Words enables you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/readonlyrecommended) property and the [SetPassword](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/methods/setpassword) method.
+Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/readonlyrecommended) property and the [SetPassword](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/methods/setpassword) method.
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ Note that the password being set is just a property in a document that can be re
 
 If you need to check if a document has a write protection password that restricts it from editing, you can use the [IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/iswriteprotected) property.
 
-The following code example demonstrates how to make a document read-only:
+The following code example shows how to make a document read-only:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-ReadOnlyProtection.cs" >}}
 

@@ -9,7 +9,7 @@ Aspose.Words Metadata Cleaner is a metadata removal tool which protects organiza
 
 Major features of this tool are:
 
-- Allow you to select many files.
+- Allow you to select multiple files.
 - Remove all Built-in Properties from word documents and OpenOffice documents.
 - Remove all custom Properties from word document and OpenOffice documents.
 - Show the status of all files.

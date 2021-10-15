@@ -36,7 +36,7 @@ Digital signatures on macros cannot be accessed or signed because Aspose.Words d
 
 ## Create Digitally Signed PDF Documents
 
-A generated PDF document can be signed during saving. Currently only PDF documents can be signed in the same way. Other formats are to be supported in future versions. The code sample below demonstrates how to sign a generated PDF document using Aspose.Words.
+A generated PDF document can be signed during saving. Currently only PDF documents can be signed in the same way. Other formats are to be supported in future versions. The code sample below shows how to sign a generated PDF document using Aspose.Words.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-DigitallySignedPdfUsingCertificateHolder-DigitallySignedPdfUsingCertificateHolder.cpp" >}}
 
@@ -64,7 +64,7 @@ The following code example shows how to sign a simple document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SimpleDocumentSigning.cpp" >}}
 
-The following code example demonstrates how to sign the encrypted documents. 
+The following code example shows how to sign the encrypted documents. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SigningEncryptedDocument.cpp" >}}
 
@@ -74,7 +74,7 @@ You can sign a source document using a given CertificateHolder and SignOptions w
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-CreatingAndSigningNewSignatureLine.cpp" >}}
 
-The following code example demonstrates how to modify an existing signature line and sign a document. 
+The following code example shows how to modify an existing signature line and sign a document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SigningExistingSignatureLine.cpp" >}}
 

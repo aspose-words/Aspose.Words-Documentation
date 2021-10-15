@@ -32,7 +32,7 @@ Aspose.Words allows you to work with digital signatures on DOC, OOXML, and ODT d
 
 ## Limitations of Digital Signatures
 
-The table below describes many limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
+The table below describes a few limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
 
 | Limitation                                                   | Alternative option                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -47,7 +47,7 @@ A document can be signed more than once, and this can be done by different users
 
 All of this provides an efficient and safe way to check a document for signatures before processing it.
 
-The following code example demonstrates how to detect the presence of digital signatures and verify them:
+The following code example shows how to detect the presence of digital signatures and verify them:
 
 {{< highlight java >}}
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
@@ -71,7 +71,7 @@ Assert.assertTrue(info.hasDigitalSignature());
 Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
 {{< /highlight >}}
 
-## Create a Digital Signature {#create-a-digital-signature}
+## Add a Digital Signature {#create-a-digital-signature}
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
@@ -83,7 +83,7 @@ The next sections explain how to add a digital signature, signature line, and ho
 
 Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignatureutil#sign(java.io.InputStream,java.io.OutputStream,com.aspose.words.CertificateHolder)) method and [SignOptions](https://apireference.aspose.com/words/java/com.aspose.words/SignOptions) properties.
 
-The following code example demonstrates how to sign documents using a certificate holder and sign options:
+The following code example shows how to sign documents using a certificate holder and sign options:
 
 {{< highlight java >}}
 // Create X.509 certificate.
@@ -128,7 +128,7 @@ For example, the picture below shows how valid and invalid signatures can be dis
 
 Also, if a document contains a signature line and no digital signature, there is a feature to ask the user to add a signature.
 
-The following code example demonstrates how to sign a document with a personal certificate and a specific signature line:
+The following code example shows how to sign a document with a personal certificate and a specific signature line:
 
 {{< highlight java >}}
 // Create a Document.
@@ -228,7 +228,7 @@ The picture below demonstrates that the generated PDF document is opened in Adob
 
 Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/java/com.aspose.words/digitalsignatureutil#removeAllSignatures(java.io.InputStream,java.io.OutputStream)) method.
 
-The following code example demonstrates how to load and remove digital signatures from a document:
+The following code example shows how to load and remove digital signatures from a document:
 
 {{< highlight java >}}
 // Load digital signatures via filename string to verify that the document is signed.

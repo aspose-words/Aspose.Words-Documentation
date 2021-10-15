@@ -178,7 +178,7 @@ For example, if ‘UnknownFont1’ is absent on the system the following font fa
 
 Now the customer can use font settings before loading the document (add substitution rule, specify fonts folder and etc). 
 
-The following example demonstrates how to add font substitution rule while loading the document.
+The following example shows how to add font substitution rule while loading the document.
 
 {{< highlight csharp >}}
 FontSettings fontSettings = new FontSettings();
@@ -213,7 +213,7 @@ public TextBoxAnchor VerticalAnchor
 }
 {{< /highlight >}}
 
-The property enables to specify text anchor within the shape (Top, Middle, Bottom).
+The property allows to specify text anchor within the shape (Top, Middle, Bottom).
 
 {{< highlight csharp >}}
 Document doc = new Document(fileName);

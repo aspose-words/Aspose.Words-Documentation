@@ -39,7 +39,7 @@ In simple case when comment is located within one paragraph, in output HTML this
 </p>
 {{< /highlight >}}
 
-In more complex case when comment is overlapped with other comment or comment’s boundaries are spread over a few paragraphs additional span element is used to preserve comment’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-comment-start and –aw-comment-end CSS properties can be applied to this span.
+In more complex case when comment is overlapped with other comment or comment’s boundaries are spread over several paragraphs additional span element is used to preserve comment’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over a few paragraphs). –aw-comment-start and –aw-comment-end CSS properties can be applied to this span.
 
 **-aw-comment-start** stores name of comment which it starts.
 **-aw-comment-end** stores name of comment which it ends.
@@ -143,7 +143,7 @@ In simple case when bookmark is located within one paragraph, in output HTML thi
 </p>
 {{< /highlight >}}
 
-In more complex case when bookmark is overlapped with other bookmark or bookmark’s boundaries are spread over a few paragraphs additional span element is used to preserve bookmark’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over numerous paragraphs). –aw-bookmark-start and –aw-bookmark-end CSS properties can be applied to this span.
+In more complex case when bookmark is overlapped with other bookmark or bookmark’s boundaries are spread over several paragraphs additional span element is used to preserve bookmark’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-bookmark-start and –aw-bookmark-end CSS properties can be applied to this span.
 
 **-aw-bookmark-start** stores name of bookmark which it starts. Corresponds to Aspose.Words.Bookmark.Name property.
 **-aw-bookmark-end** stores name of bookmark which it ends. Corresponds to Aspose.Words.Bookmark.Name property.

@@ -1,6 +1,6 @@
 ﻿---
 title: Extract Image from Word Document
-description: "Aspose.Words for .NET allows you to extract image from a document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to extract image from a document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 90
 url: /net/extract-image-from-word-document/
@@ -16,7 +16,7 @@ On this page we will look at how to extract image from a document using Aspose.W
 
 In Aspose.Words, use the [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape) class to work with images. To select all shape nodes use the [GetChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) method and to extract image data use the [ImageData](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata) property.
 
-The following code example shows how to extract images from a document and save them as files:
+The following code example demonstrates how to extract images from a document and save them as files:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Extract image.docx");
@@ -55,7 +55,7 @@ using DocumentFormat.OpenXml.Packaging;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example shows how to extract images from a document and save them as files:
+The following code example demonstrates how to extract images from a document and save them as files:
 
 {{< highlight csharp >}}
 public void ExtractImageFromWordDocumentFeature()

@@ -96,7 +96,7 @@ There are 63 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15801|Add feature to show/hide axis of chart|Feature|
 |WORDSNET-16042|API to get geometric position of element in Word Doc|Feature|
 |WORDSNET-16060|Add feature to get w:storeItemID of StructuredDocumentTag|Feature|
-|WORDSNET-16092|Add feature to add multiple replies to comment using Comment.AddReply|Feature|
+|WORDSNET-16092|Add feature to add many replies to comment using Comment.AddReply|Feature|
 
 ## Public API and Backward Incompatible Changes
 
@@ -137,7 +137,7 @@ public boolean Hidden
 }
 {{< /highlight >}}
 
-The property allows hiding/showing and getting visibility state of an axis of a chart.
+The property enables hiding/showing and getting visibility state of an axis of a chart.
 
 #### UC to create a chart and hide its Y axis
 

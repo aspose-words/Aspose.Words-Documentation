@@ -51,7 +51,7 @@ To see how Aspose.Words works in AWS Lambda, follow the steps below:
    } 
    {{< /highlight >}}
 
-4. Deploy the created function and run it either from Visual Studio or from Amazon Console. The following screenshot shows the output PDF document.
+4. Deploy the created function and run it either from Visual Studio or from Amazon Console. The following screenshot demonstrates the output PDF document.
    <img src="aspose-words-integration-in-aws-lambda-1.png" alt="aspose-words-integration-in-aws-lambda" style="width:800px"/>
 
 You might notice two strange things:

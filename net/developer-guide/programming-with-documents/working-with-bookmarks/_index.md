@@ -59,7 +59,7 @@ The following code example shows how to create a new bookmark.
 
 Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the [Node.Range](http://www.aspose.com/api/net/words/aspose.words/node/properties/range) property exposed by any document node that returns a [Range](http://www.aspose.com/api/net/words/aspose.words/range) object representing the portion of the document contained in this node. Use this object to retrieve a [BookmarkCollection](http://www.aspose.com/api/net/words/aspose.words/BookmarkCollection) and then use the collection indexer to get a specific bookmark.
 
-The following code example demonstrates how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Bookmarks.docx).
+The following code example shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Bookmarks.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-AccessBookmarks-AccessBookmarks.cs" >}}
 
@@ -69,7 +69,7 @@ The following code example shows how to get or set a bookmark name and text. You
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cs" >}}
 
 
-The following code example shows how to bookmark a table.
+The following code example demonstrates how to bookmark a table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkTable-BookmarkTable.cs" >}}
 
@@ -87,7 +87,7 @@ If you need to insert rich content (not just plain text) into a bookmark, you sh
 
 ### Show Hide Bookmark Content
 
-The entire Bookmark (*including the bookmarked content*) can be encapsulated within the True part of the IF field using Aspose.Words. It can be in such a way that the IF field contains a nested Merge Field in the expression (*Left of Operator*) and depending upon the value of Merge Field, the IF field demonstrates or hides the content of Bookmark in Word Document. The following code example demonstrates how to show/ hide bookmarks.
+The entire Bookmark (*including the bookmarked content*) can be encapsulated within the True part of the IF field using Aspose.Words. It can be in such a way that the IF field contains a nested Merge Field in the expression (*Left of Operator*) and depending upon the value of Merge Field, the IF field shows or hides the content of Bookmark in Word Document. The following code example shows how to show/ hide bookmarks.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.cs" >}}
 

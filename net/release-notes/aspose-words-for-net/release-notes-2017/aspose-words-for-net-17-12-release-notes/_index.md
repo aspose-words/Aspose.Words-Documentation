@@ -92,7 +92,7 @@ There are 84 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16079|Position of cell's text is changed in output PDF|Bug|
 |WORDSNET-16081|Text is rendered on next page in output PDF|Bug|
 |WORDSNET-16082|Extra empty space is rendered in table's cell|Bug|
-|WORDSNET-16085|Word demonstrates "Unknown" filename in Rename Package dialog.|Bug|
+|WORDSNET-16085|Word shows "Unknown" filename in Rename Package dialog.|Bug|
 |WORDSNET-16090|Document.Save hangs while saving DOCX to PDF|Bug|
 |WORDSNET-16095|RTF is corrupted after re-saving it|Bug|
 |WORDSNET-16096|PNG image is not rendered in output PDF when PdfImageColorSpaceExportMode.SimpleCmyk is used|Bug|

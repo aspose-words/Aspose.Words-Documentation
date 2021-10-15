@@ -33,7 +33,7 @@ In contrast to Mail Merge, the concept of LINQ Reporting Engine was born within 
 
 However, the major advantage of the engine is its out-of-the-box support of numerous features missing in Mail Merge. The following are the key ones:
 
-- Support of several data sources (including of different types)
+- Support of multiple data sources (including of different types)
 - Built-in support of more data source types: Custom .NET objects, ADO.NET objects, JSON, XML, CSV
 - Using of C#-based expression syntax (extended for ADO.NET and other data sources) directly in templates
 - Using of LINQ extension methods for data manipulations directly in templates

@@ -21,7 +21,7 @@ The following code example demonstrates how to insert a text watermark in a docu
 
 ### Add Image Watermark
 
-The following code example demonstrates how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.image_watermark_options/) using the SetImage method.
+The following code example shows how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.image_watermark_options/) using the SetImage method.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 

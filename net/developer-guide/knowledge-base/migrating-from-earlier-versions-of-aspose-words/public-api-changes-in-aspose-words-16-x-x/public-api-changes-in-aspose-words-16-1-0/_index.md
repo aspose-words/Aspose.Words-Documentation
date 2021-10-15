@@ -183,7 +183,7 @@ public bool IsSigned { get; }
 public bool IsValid { get; }
 {{< /highlight >}}
 
-Following code example shows how to use SignatureLine's properties.
+Following code example demonstrates how to use SignatureLine's properties.
 
 **C#**
 
@@ -230,7 +230,7 @@ public int HyphenationZone {get;set;}
 public bool HyphenateCaps {get;set;}
 {{< /highlight >}}
 
-Following code example demonstrates how to use HyphenationOptions's properties. 
+Following code example shows how to use HyphenationOptions's properties. 
 
 **C#**
 
@@ -371,7 +371,7 @@ FontSettings properties added to Document class
 /// Gets or sets document font settings.
 /// </summary>
 /// <remarks>
-/// <para>This property allows to specify font settings per document. If set to null, default static font settings
+/// <para>This property enables to specify font settings per document. If set to null, default static font settings
 /// <see cref="Aspose.Words.Fonts.FontSettings.DefaultInstance"/> will be used.</para>
 ///
 /// <para>The default value is null.</para>
@@ -697,7 +697,7 @@ namespace Aspose.Words.Fields
 }
 {{< /highlight >}}
 
-Following code snippet demonstrates how to use FieldBuilder.
+Following code snippet shows how to use FieldBuilder.
 
 **C#**
 

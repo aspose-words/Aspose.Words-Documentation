@@ -1,6 +1,6 @@
 ﻿---
 title: Compare Documents
-description: "Aspose.Words for .NET enables you to compare two documents in any supported formats and demonstrates content changes. You can apply advanced options when comparing."
+description: "Aspose.Words for .NET enables you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 type: docs
 weight: 50
 url: /net/compare-documents/
@@ -36,7 +36,7 @@ Note that you can compare any two documents within the [supported file formats](
 
 {{% /alert %}}
 
-## Compare Two Documents {#compare-two-documents}
+## How to Compare Documents {#compare-two-documents}
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
@@ -52,9 +52,9 @@ The following code example shows how to simply apply the Compare method to two d
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-CompareDocument-ApplyCompareTwoDocuments.cs" >}}
 
-## Specify Advanced Comparing Properties {#specify-advanced-comparing-properties}
+## Specify Advanced Comparison Options {#specify-advanced-comparing-properties}
 
-There are several different properties of the [CompareOptions](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions) class which you can apply when you want to compare documents.
+There are many different properties of the [CompareOptions](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions) class which you can apply when you want to compare documents.
 
 For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignoreheadersandfooters), [IgnoreFormatting](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignoreformatting), [IgnoreComments](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignorecomments), and others by setting them to "true".
 

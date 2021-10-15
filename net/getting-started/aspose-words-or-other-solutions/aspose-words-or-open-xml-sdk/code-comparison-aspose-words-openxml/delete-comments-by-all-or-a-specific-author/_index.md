@@ -1,6 +1,6 @@
 ﻿---
 title: Remove Comments of All or a Specific Author
-description: "Aspose.Words for .NET allows you to remove comments of all or a specific author easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to remove comments of all or a specific author easily and fast instead of using Open XML SDK."
 type: docs
 weight: 200
 url: /net/delete-comments-by-all-or-a-specific-author/
@@ -16,11 +16,11 @@ On this page we will look at how to remove comments of all or a specific author 
 
 In Aspose.Words you can work with comments by using the [Comment](http://www.aspose.com/api/net/words/aspose.words/comment) class.
 
-The following code example shows how to remove all comments in a document:
+The following code example demonstrates how to remove all comments in a document:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-RemoveComments.cs" >}}
 
-The following code example demonstrates how to remove comments of a speciffic author:
+The following code example shows how to remove comments of a speciffic author:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-RemoveCommentsByAuthor.cs" >}}
 
@@ -42,7 +42,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example shows how to remove comments in a document:
+The following code example demonstrates how to remove comments in a document:
 
 {{< highlight csharp >}}
 public void DeleteCommentsByAllOrASpecificAuthorFeature()

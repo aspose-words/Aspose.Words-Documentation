@@ -1,13 +1,13 @@
 ﻿---
 title: Convert PDF to Other Document Formats
 type: docs
-description: “Aspose.Words for .NET enables you to convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose.Words.”
+description: “Aspose.Words for .NET allows you to convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose.Words.”
 keywords: convert pdf to other formats c#
 weight: 45
 url: /net/convert-pdf-to-other-document-formats/
 ---
 
-Aspose.Words can load even such a complex format as PDF. This opens up new opportunities: it is possible to convert PDF to Word or other formats that bring users far ahead in solving numerous applied problems.
+Aspose.Words can load even such a complex format as PDF. This opens up new opportunities: it is possible to convert PDF to Word or other formats that bring users far ahead in solving multiple applied problems.
 
 ## Prerequisites
 
@@ -22,13 +22,13 @@ The following code example shows how to convert a document from PDF to DOCX:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Base conversions-PdfToDocx.cs" >}}
 
-## Specify Load Options when Loading PDF {#specify-load-options-when-importing-pdf}
+## Specify Load Options when Importing PDF {#specify-load-options-when-importing-pdf}
 
 Aspose.Words provides you with the [PdfLoadOptions](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions) class, which enables more precise control over how PDF documents are loaded.
 
 Most properties inherit or overload properties that already exist in the LoadOptions class. In addition to them, a number of properties are specified for PDF format. For example, you can use the [PageCount](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/pagecount) and [PageIndex](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/pageindex) properties to define the page range to be loaded from a PDF document, and the [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/skippdfimages) properties to control whether images should be skipped when loading PDF. Another supported parameter is the [Password](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/password), which must be provided for [password-protected documents](https://docs.aspose.com/words/net/document-protection/).
 
-## Supported PDF Data Types {#supported-pdf-content}
+## Supported PDF Content {#supported-pdf-content}
 
 PDF2Word plugin currently supports the following data types:
 
@@ -59,7 +59,7 @@ During a PDF document conversion, one of the following exceptions might happen:
 
 | Exception                        | Description                                                  |
 | -------------------------------- | ------------------------------------------------------------ |
-| *FileLoadException*              | A PDF file cannot be processed for some reason.<br />% alert color="primary" %You can report the issue to the development team for a detailed investigation using the [technical support](/words/net/technical-support/).% /alert % |
+| *FileLoadException*              | A PDF file cannot be processed for some reason.<br />{{% alert color="primary" %}}You can report the issue to the development team for a detailed investigation using the [technical support](/words/net/technical-support/).{{% /alert %}} |
 | *DrmProtectedFileException*      | A PDF file is protected by Adobe DRM and cannot be decoded by Pdf2Word. |
 | *PasswordProtectedFileException* | The correct password must be provided for a password-protected PDF. |
 

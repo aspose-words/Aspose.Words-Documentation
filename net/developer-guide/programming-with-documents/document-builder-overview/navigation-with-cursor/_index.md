@@ -1,6 +1,6 @@
 ﻿---
 title: Navigation with Cursor
-description: "Aspsoe.Words for .NET allows you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
+description: "Aspsoe.Words for .NET enables you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
 type: docs
 weight: 10
 url: /net/navigation-with-cursor/
@@ -20,7 +20,7 @@ Any insert operations you perform using the [DocumentBuilder](https://apireferen
 
 ## Navigating Methods in a Document
 
-When you are editing text, it is important to know how to navigate your document and where exactly to move in it. Aspose.Words enables you to move around in a document and navigate to its different sections and parts – this is similar to the functionality of the Navigation Pane in Microsoft Word to go to a page or heading in a Word document without scrolling.
+When you are editing text, it is important to know how to navigate your document and where exactly to move in it. Aspose.Words allows you to move around in a document and navigate to its different sections and parts – this is similar to the functionality of the Navigation Pane in Microsoft Word to go to a page or heading in a Word document without scrolling.
 
 The main method is to be able to move the cursor position to a specific node in your document, you can achieve this by using the [MoveTo](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/moveto) method.
 
@@ -34,7 +34,7 @@ But besides the basic **MoveTo** method, there are more specific ones.
 
 You can go to the beginning or  the end of your document using the [MoveToDocumentStart](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetodocumentstart) and [MoveToDocumentEnd](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetodocumentend) methods.
 
-The following code example demonstrates how to move the cursor position to the beginning or the end of a document:
+The following code example shows how to move the cursor position to the beginning or the end of a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToDocumentStartEnd.cs" >}}
 
@@ -50,7 +50,7 @@ The following code examples demonstrates how to move a cursor position to a book
 
 You can move to a table cell by using the [MoveToCell](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetocell) method. This method will enable you to navigate your cursor into any cell in a specific table. In addition, you can specify an index to move the cursor to any position or specified character in a cell within the **MoveToCell** method.
 
-The following code example demonstrates how to move a cursor position to a specified table cell:
+The following code example shows how to move a cursor position to a specified table cell:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToTableCell.cs" >}}
 

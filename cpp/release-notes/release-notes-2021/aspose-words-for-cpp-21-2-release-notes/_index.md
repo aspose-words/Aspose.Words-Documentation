@@ -581,7 +581,7 @@ Added a new public property to `FindReplaceOptions` object:
 /// <para>The default value is <c>false</c>.</para>
 /// </summary>
 /// <remarks>
-/// This option enables to replace paragraph break when there is no next sibling paragraph to which all child
+/// This option allows to replace paragraph break when there is no next sibling paragraph to which all child
 /// nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 /// </remarks>
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -695,7 +695,7 @@ Now the methods `DocumentBuilder::MoveToParagraph` and `DocumentBuilder::MoveToC
 /// </remarks>
 /// <param name="paragraphIndex">The index of the paragraph to move to.</param>
 /// <param name="characterIndex">The index of the character inside the paragraph.
-/// A negative value enables you to specify a position from the end of the paragraph. Use -1 to move to the end of
+/// A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of
 /// the paragraph.</param>
 public void MoveToParagraph(int paragraphIndex, int characterIndex);
 

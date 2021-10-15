@@ -17,7 +17,7 @@ On this page we will look at how to get and set bokmark text in a document using
 In Aspose.Words, use the class [
 Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark) to work with a single bookmark ant the [BookmarkCollection](https://apireference.aspose.com/words/net/aspose.words/bookmarkcollection) class to work with a collection of bookmark objects.
 
-The following code example demonstrates how to get and set bokmark text in a document:
+The following code example shows how to get and set bokmark text in a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cs" >}}
 
@@ -38,7 +38,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example shows how to get and set bokmark text in a document:
+The following code example demonstrates how to get and set bokmark text in a document:
 
 {{< highlight csharp >}}
 public void GetAndSetBookmarkTextFeature()

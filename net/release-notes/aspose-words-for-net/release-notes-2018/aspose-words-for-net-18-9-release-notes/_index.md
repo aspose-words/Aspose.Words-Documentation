@@ -23,7 +23,7 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 - Improved output image quality when rendering metafiles with raster operations set
 - Fixed handling of glyphs without outlines when parsing glyph data while rendering
 - Fixed a bug with a glow effect, if the specified glow size is less than 10
-- Fixed numerous problems in DrawingML Charts rendering: incorrect default axis color, bug with the date format for axis values, bug with rendering of the trend line with unsorted x-values
+- Fixed several problems in DrawingML Charts rendering: incorrect default axis color, bug with the date format for axis values, bug with rendering of the trend line with unsorted x-values
 - Improved rendering of the mathematical element "Apostrophe" of the MathML object 
 - Improved justification of Asian texts
 - Improved rendering of revisions in balloons

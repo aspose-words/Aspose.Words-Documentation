@@ -59,11 +59,11 @@ We have also exposed access to field format switches common for all field types 
 
 ### New Overload of DocumentBuilder.InsertField Method Added
 
-We have introduced the new overload **DocumentBuilder.InsertField(FieldType fieldType, bool updateField)** which allows to insert a field by its type.
+We have introduced the new overload **DocumentBuilder.InsertField(FieldType fieldType, bool updateField)** which enables to insert a field by its type.
 
 ### New Paragraph.AppendField Method Added
 
-We have introduced three overloads of the Paragraph.AppendField() method, each corresponding to a DocumentBuilder.InsertField() method with simlar signatures. This is basically to address WORDSNET-3225 (Make it possible to create Fields using DOM (without using DocumentBuilder)). We hope, this will meet the requirement where customers ask for the capability of inserting a field without document builder. Since Field is a facade that bunches up three document nodes (which have other nodes in between), all we managed to come up with is the Paragraph.AppendField() method that enables to avoid the use of DocumentBuilder but basically just duplicates its field insertion functionality. Therefore, we are closing this issue for now, but the customers are welcome to suggest how they would like to see this feature implemented, unless they are satisfied with the aforementioned one. We will consider they suggestions for implementation then.
+We have introduced three overloads of the Paragraph.AppendField() method, each corresponding to a DocumentBuilder.InsertField() method with simlar signatures. This is basically to address WORDSNET-3225 (Make it possible to create Fields using DOM (without using DocumentBuilder)). We hope, this will meet the requirement where customers ask for the capability of inserting a field without document builder. Since Field is a facade that bunches up three document nodes (which have other nodes in between), all we managed to come up with is the Paragraph.AppendField() method that allows to avoid the use of DocumentBuilder but basically just duplicates its field insertion functionality. Therefore, we are closing this issue for now, but the customers are welcome to suggest how they would like to see this feature implemented, unless they are satisfied with the aforementioned one. We will consider they suggestions for implementation then.
 
 ### New FieldToc.UpdatePageNumbers Method Added
 

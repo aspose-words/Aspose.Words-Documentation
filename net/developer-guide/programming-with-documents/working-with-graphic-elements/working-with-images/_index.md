@@ -5,7 +5,7 @@ weight: 40
 url: /net/working-with-images/
 ---
 
-## How to Insert an Image {#insert-an-image}
+## Insert an Image {#insert-an-image}
 
 DocumentBuilder provides several overloads of the [DocumentBuilder.InsertImage](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertimage/methods/1) method that enables you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
 
@@ -18,11 +18,11 @@ DocumentBuilder provides several overloads of the [DocumentBuilder.InsertImage]
 
 ### Insert an Inline Image {#insert-an-inline-image}
 
-Pass a single string representing a file that contains the image to DocumentBuilder.InsertImage to insert the image into the document as an inline graphic. Below example shows how to insert an inline image at the cursor position into a document.
+Pass a single string representing a file that contains the image to DocumentBuilder.InsertImage to insert the image into the document as an inline graphic. Below example demonstrates how to insert an inline image at the cursor position into a document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertInlineImage.cs" >}}
 
-### How to Insert a Floating Image  {#insert-a-floating-image}
+### Insert a Floating Image  {#insert-a-floating-image}
 
 This example inserts a floating image from a file or URL at a specified position and size.
 
@@ -50,15 +50,15 @@ This example shows you to add the same or different barcodes on all or specific 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-InsertBarcodeImage-InsertBarcodeIntoFooter.cs" >}}
 
-## Lock Aspect Ratio of Image {#lock-aspect-ratio-of-image}
+## Lock Image Aspect Ratio {#lock-aspect-ratio-of-image}
 
 The aspect ratio of a geometric shape is the ratio of its sizes in different dimensions. You can lock the aspect ratio of the image using Shape.AspectRatioLocked. The default value of the shape's aspect ratio depends on the ShapeType. It is *true* for ShapeType.Image and *false* for other shape types.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.cs" >}}
 
-## How to Get Actual Shape Bounds in Points {#how-to-get-actual-bounds-of-shape-in-points}
+## How to Get Actual Bounds of Shape in Points {#how-to-get-actual-bounds-of-shape-in-points}
 
-If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using NodeRendererBase.BoundsInPoints property. The following code example shows how to use this property.
+If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using NodeRendererBase.BoundsInPoints property. The following code example demonstrates how to use this property.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.cs" >}}
 

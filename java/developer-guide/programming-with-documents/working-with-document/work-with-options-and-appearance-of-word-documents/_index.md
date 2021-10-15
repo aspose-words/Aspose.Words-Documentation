@@ -39,7 +39,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 {{% /alert %}}
 
-The following code example demonstrates how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
+The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentPageSetup-DocumentPageSetup.java" >}}
 
@@ -55,11 +55,11 @@ If your Aspose.Words generated document does not look as expected, check the **L
 
 {{% /alert %}}
 
-The following code example demonstrates how to add Japanese to editing languages:
+The following code example shows how to add Japanese to editing languages:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
-The following code example shows how to set Russian as the default editing language:
+The following code example demonstrates how to set Russian as the default editing language:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-SetRussianAsDefaultEditingLanguage.java" >}}
 

@@ -20,7 +20,7 @@ Frequently asked questions are grouped by topic for your convenience.
 
 **Q: What is Aspose.Words?**
 
-Aspose.Words for .NET is a class library that enables your applications to perform a wide variety of document processing tasks. With Aspose.Words for .NET, you can generate, modify, convert, render, and print documents without third-party applications.
+Aspose.Words for .NET is a class library that allows your applications to perform a wide variety of document processing tasks. With Aspose.Words for .NET, you can generate, modify, convert, render, and print documents without third-party applications.
 
 Details can be found in our documentation.
 
@@ -50,7 +50,7 @@ You can see the complete list of supported formats on the ["Supported Document F
 
 **Q: How can I try Aspose.Words free?**
 
-You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to a few hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
+You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to multiple hundred paragraphs. A Temporary License enables you to test Aspose.Words without Trial restrictions for 30 days.
 
 See the ["Licensing and Subscription"](https://docs.aspose.com/words/net/licensing/) page for more information.
 
@@ -267,7 +267,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 Just two lines of code.
 
-The following code example shows how to print a document in two ways:
+The following code example demonstrates how to print a document in two ways:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "PrintMe.docx");
@@ -288,7 +288,7 @@ doc.Print(myPrinter);
 
 Just load PDF to the Aspose.Words document model and make changes.
 
-The following code example shows how to edit a document:
+The following code example demonstrates how to edit a document:
 
 {{< highlight csharp >}}
 // Open the source PDF document

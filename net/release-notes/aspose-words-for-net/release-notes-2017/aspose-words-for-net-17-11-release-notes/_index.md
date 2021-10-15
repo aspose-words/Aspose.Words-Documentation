@@ -20,7 +20,7 @@ There are 102 improvements and fixes in this regular monthly release. The most 
 - Improved floating table re-breaking in specific scenarios where content of a table used to be lost outside of a page.
 - Improved table grid computation when cells contain tab characters.
 - Further improved character spacing control handling.
-- PCL documents rendering improved. UCS-2 symbol sets can now be mapped to the printer built-in fonts – it allows to print non-ascii symbols with built-in fonts if supported by printer.
+- PCL documents rendering improved. UCS-2 symbol sets can now be mapped to the printer built-in fonts – it enables to print non-ascii symbols with built-in fonts if supported by printer.
 - A ‘cosmetic’ pen (i.e. pen with fixed 1-pixel width) rendering improved in metafile output documents.
 - Font metrics calculation affecting the vertical positioning of text for GDI+ output rendering improved.
 - Added fallback for strokes with unsupported binary raster operations in metafile rendering.

@@ -15,7 +15,7 @@ This release of contains a single important new feature:
 
 - RTF Import
 
-Support for RTF in Aspose.Words was requested by multiple customers and for very long time. We are proud to announce that RTF in Aspose.Words is now fully supported. We released RTF export numerous months ago in Aspose.Words 4.0 and now we complete the job by adding RTF import.
+Support for RTF in Aspose.Words was requested by several customers and for very long time. We are proud to announce that RTF in Aspose.Words is now fully supported. We released RTF export a few months ago in Aspose.Words 4.0 and now we complete the job by adding RTF import.
 
 Aspose.Words was initially developed to generate, open, modify, save and convert primarily Microsoft Word DOC documents, but it later grew to include support for other Microsoft Word and non-Microsoft Word formats.
 

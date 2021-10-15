@@ -1,6 +1,6 @@
 ﻿---
 title: Convert a Document to PDF
-description: "Aspose.Words for .NET enables you to convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."
+description: "Aspose.Words for .NET allows you to convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."
 type: docs
 weight: 10
 url: /net/convert-a-document-to-pdf/
@@ -20,7 +20,7 @@ Note that the number of pages in a document affects the conversion time.
 
 {{% /alert %}} 
 
-### Convert DOCX or DOC to PDF {#converting-doc-or-docx-to-pdf}
+### Convert DOC or DOCX to PDF {#converting-doc-or-docx-to-pdf}
 
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
@@ -49,7 +49,7 @@ The following code example shows how to convert a document to PDF 1.7 using [Pd
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ConversionToPDF17.cs" >}}
 
-## Convert an Image to PDF {#convert-an-image-to-pdf}
+## Convert Images to PDF {#convert-an-image-to-pdf}
 
 Converting to PDF is not restricted by Microsoft Word document formats. Any format supported by Aspose.Words, including programmatically created, can also be converted to PDF. For example, we can convert single-page images, such as JPEG, PNG, BMP, EMF, or WMF, as well as multi-page images, such as TIFF and GIF, to PDF.
 

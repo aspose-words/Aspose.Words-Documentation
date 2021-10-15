@@ -66,7 +66,7 @@ During installation, the Aspose.Words.tlb (COM type library) is copied to your c
 
 - For .NET Framework 2.0, 3.0, 3.5 and 4.0 to **&lt;installdir&gt;\bin\net2.0**
 
-If your programming language (for example Visual Basic or Delphi) allows you to reference a COM type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser. 
+If your programming language (for example Visual Basic or Delphi) enables you to reference a COM type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser. 
 
 #### Creating COM Objects
 
@@ -137,7 +137,7 @@ For more information, see the language-specific articles further in this documen
 
 #### Creating a Wrapper Assembly
 
-If you need to use multiple of the Aspose.Words classes, methods and properties, consider creating a wrapper assembly (using C# or any other .NET programming language), that will help to avoid using Aspose.Words directly from unmanaged code.
+If you need to use numerous of the Aspose.Words classes, methods and properties, consider creating a wrapper assembly (using C# or any other .NET programming language), that will help to avoid using Aspose.Words directly from unmanaged code.
 
 A good approach is to develop a .NET assembly that references Aspose.Words and does all the work with it, and only exposes the minimal set of classes and methods to unmanaged code. Your application then should work just with your wrapper library. 
 

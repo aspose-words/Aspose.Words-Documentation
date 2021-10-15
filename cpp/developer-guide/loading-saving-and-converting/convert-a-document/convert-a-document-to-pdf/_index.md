@@ -1,6 +1,6 @@
 ﻿---
 title: Convert a Document to PDF
-description: "Aspose.Words for C++ allows you to convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."
+description: "Aspose.Words for C++ enables you to convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."
 type: docs
 weight: 10
 url: /cpp/convert-a-document-to-pdf/
@@ -45,7 +45,7 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 Aspose.Words provides the [PdfCompliace](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/#pdfcompliance)enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 
-The following code example shows how to convert a document to PDF 1.7 using [PdfSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/) with compliance to PDF17:
+The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options/) with compliance to PDF17:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ConversionToPDF17.cpp" >}}
 

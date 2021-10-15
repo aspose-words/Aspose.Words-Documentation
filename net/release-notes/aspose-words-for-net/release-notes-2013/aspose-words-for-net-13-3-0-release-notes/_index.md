@@ -43,8 +43,8 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-7796|Image do not preserve in output doc/docx|Bug|
 |WORDSNET-7801|Unable to Open RTF Document|Bug|
 |WORDSNET-7824|Font size of Hebrew content do not preserve in output document.|Bug|
-|WORDSNET-7826|Link between several grouped textboxes breaks when save to Docx|Bug|
-|WORDSNET-7827|Link between many grouped textboxes breaks after merging several document|Bug|
+|WORDSNET-7826|Link between numerous grouped textboxes breaks when save to Docx|Bug|
+|WORDSNET-7827|Link between a few grouped textboxes breaks after merging numerous document|Bug|
 |WORDSNET-7836|Document.HasRevisions returns false but document contain revisions|Bug|
 |WORDSNET-7837|Document.AcceptAllRevisions do not work with Paragraph formatting changes|Bug|
 |WORDSNET-7851|Table is not preserved during open/save RTF|Bug|

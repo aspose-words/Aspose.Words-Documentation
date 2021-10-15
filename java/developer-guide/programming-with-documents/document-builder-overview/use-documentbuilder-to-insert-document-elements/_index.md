@@ -107,7 +107,7 @@ Bookmarks can overlap and span any range. To create a valid bookmark you need to
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
-The following code example demonstrates how to insert a bookmark into a document using a document builder.
+The following code example shows how to insert a bookmark into a document using a document builder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBookmark-1.java" >}}
 
@@ -130,13 +130,13 @@ DocumentBuilder.insertTextInput to insert a textbox into the document. The follo
 
 ### Inserting a CheckBox
 
-Call DocumentBuilder.insertCheckBox to insert a checkbox into the document. The following code example demonstrates how to insert a checkbox form field into a document.
+Call DocumentBuilder.insertCheckBox to insert a checkbox into the document. The following code example shows how to insert a checkbox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-1.java" >}}
 
 ### Inserting a Combo Box
 
-Call DocumentBuilder.insertComboBox to insert a combo box into the document. The following code example demonstrates how to insert a combo box form field into a document.
+Call DocumentBuilder.insertComboBox to insert a combo box into the document. The following code example shows how to insert a combo box form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-1.java" >}}
 
@@ -160,7 +160,7 @@ Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. Thi
 
 ## Inserting a Table of Contents
 
-You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTableOfContents(java.lang.String)) method. The DocumentBuilder.insertTableOfContents method will only insert a TOC field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example demonstrates how to insert a Table of Contents field into a document.
+You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTableOfContents(java.lang.String)) method. The DocumentBuilder.insertTableOfContents method will only insert a TOC field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example shows how to insert a Table of Contents field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-1.java" >}}
 
@@ -178,7 +178,7 @@ OLE package is a legacy and "undocumented" way to store embedded objects if the 
 
 ## Get Access to OLE Object Raw Data
 
-The following code example demonstrates how to get OLE Object raw data using OleFormat.GetRawData() method.
+The following code example shows how to get OLE Object raw data using OleFormat.GetRawData() method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
@@ -198,7 +198,7 @@ You can insert an inline shape with a specified type and size and a free-floatin
 
 ### Create Snip Corner Rectangle
 
-You can create a snip corner rectangle using Aspose.Words. The shape types are SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,  TopCornersOneRoundedOneSnipped,  SingleCornerRounded,  TopCornersRounded,  and DiagonalCornersRounded. The DML shape is created using DocumentBuilder.InsertShape method with these shape types. These types cannot be used to create VML shapes. Attempt to create a shape by using the public constructor of the "Shape" class raises the "NotSupportedException" exception. The following code example shows how to insert these types of shapes into the document.
+You can create a snip corner rectangle using Aspose.Words. The shape types are SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,  TopCornersOneRoundedOneSnipped,  SingleCornerRounded,  TopCornersRounded,  and DiagonalCornersRounded. The DML shape is created using DocumentBuilder.InsertShape method with these shape types. These types cannot be used to create VML shapes. Attempt to create a shape by using the public constructor of the "Shape" class raises the "NotSupportedException" exception. The following code example demonstrates how to insert these types of shapes into the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
