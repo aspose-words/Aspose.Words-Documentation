@@ -64,7 +64,7 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 <html>
 <head><title>Invoke Static Methods</title></head>
 <body>
-    <b>This example shows how to detect the original format of a file using Aspose.Words</b><br />
+    <b>This example demonstrates how to detect the original format of a file using Aspose.Words</b><br />
     <cfset doc=CreateObject("java", "com.aspose.words.Document")>
     <cfset format=doc.detectFileFormat("C:\Temp\out.doc")>
     <span>The original format of the file is </span>

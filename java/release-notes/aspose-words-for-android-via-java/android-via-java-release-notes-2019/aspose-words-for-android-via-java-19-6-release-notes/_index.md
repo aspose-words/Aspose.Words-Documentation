@@ -30,7 +30,7 @@ This page contains release notes for [Aspose.Words for Android via Java 19.6](ht
 - Fixed a bug with missing vowel glyph when rendering Thai fonts.
 - Fixed issue with incorrect calculation of start and closing points for small ellipses when rendering DrawingML objects.
 - Fixed table grid calculation issue when auto table has pct width mixed with %.
-- Fixed exception when table which spans many pages and has many nested floaters is broken across pages.
+- Fixed exception when table which spans many pages and has a few nested floaters is broken across pages.
 - Improved text positioning when there is a paragraph-relative shape with anchor wrapped around multiple floaters.
 - Improved calculation of space before a paragraph when its first in the document and there is a floater before it.
 

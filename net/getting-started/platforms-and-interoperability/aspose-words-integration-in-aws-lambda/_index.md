@@ -61,7 +61,7 @@ You might notice two strange things:
 
 ## How to Use Fonts Stored in S3 storage in AWS Lambda
 
-Often documents contain more than one font, and for conversion fidelity it is required to have these fonts available for Aspose.Words. Aspose.Words can use [fonts from different sources](https://docs.aspose.com/display/wordsnet/Specifying+TrueType+Fonts+Location), such as folder, stream, or system fonts. This section shows you how to use fonts stored in S3 storage, that is the most convenient way to provide custom fonts in the cloud.
+Often documents contain more than one font, and for conversion fidelity it is required to have these fonts available for Aspose.Words. Aspose.Words can use [fonts from different sources](https://docs.aspose.com/display/wordsnet/Specifying+TrueType+Fonts+Location), such as folder, stream, or system fonts. This section demonstrates you how to use fonts stored in S3 storage, that is the most convenient way to provide custom fonts in the cloud.
 
 {{% alert color="primary" %}}
 

@@ -44,7 +44,7 @@ However, you can use the identifier of a visible type in template expressions on
 
 **Note –** Whereas using generic types' identifiers is forbidden in template expressions, you can use identifiers of nullable types in the shorthand "`T?`" form.
 
-Also, the engine allows you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by a few keys. See "Appendix A. Enumeration Extension Methods" for the examples.
+Also, the engine allows you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by several keys. See "Appendix A. Enumeration Extension Methods" for the examples.
 
 ## Accessing Type Members
 
@@ -119,7 +119,7 @@ Also, the engine allows you to use lifted operators in template expressions.
 
 ## Using Lambda Functions
 
-LINQ Reporting Engine enables you to use lambda functions only as arguments of built-in enumeration extension methods in template expressions. See "Appendix A. Enumeration Extension Methods" for more information.
+LINQ Reporting Engine allows you to use lambda functions only as arguments of built-in enumeration extension methods in template expressions. See "Appendix A. Enumeration Extension Methods" for more information.
 
 **Note –** Lambda functions declared within template expressions are not interchangeable with delegates. Thus, you can not pass delegates as arguments to built-in enumeration extension methods.
 
@@ -141,7 +141,7 @@ LINQ Reporting Engine enables you to access `DataTable` objects contained within
 
 ### Working with DataTable and DataView Objects
 
-LINQ Reporting Engine allows you to treat `DataTable` and `DataView` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).
+LINQ Reporting Engine enables you to treat `DataTable` and `DataView` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).
 
 Also, you can normally apply enumeration extension methods (see "Appendix A. Enumeration Extension Methods" for more information) to `DataTable` and `DataView` objects in template expressions. For example, given that persons are a `DataTable` or `DataView` instance, you can count its rows using the following syntax.
 
@@ -151,7 +151,7 @@ Also, you can normally apply enumeration extension methods (see "Appendix A. Enu
 
 ### Working with DataRow and DataRowView Objects
 
-LINQ Reporting Engine enables you to access a data associated with a particular `DataRow` or `DataRowView` instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
+LINQ Reporting Engine allows you to access a data associated with a particular `DataRow` or `DataRowView` instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
 
 |Data Kind|Identifier|Examples of Template Expressions|
 | :- | :- | :- |
@@ -163,11 +163,11 @@ LINQ Reporting Engine enables you to access a data associated with a particular 
 
 To determine parent-child relationships for a particular `DataTable` instance, the engine uses [DataRelation](http://msdn.microsoft.com/en-us/library/system.data.datarelation\(v=vs.110\).aspx) objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
 
-**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with a few relations to the same table.
+**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
 
 ### Working with IDataReader Implementors
 
-LINQ Reporting Engine allows you to treat `IDataReader` implementors as enumerations of `IDataRecord` implementors in template expressions. That is, you can use `IDataReader` implementors in template expressions in the same way as `DataTable` objects. See "Working with DataTable and DataView Objects" for more information.
+LINQ Reporting Engine enables you to treat `IDataReader` implementors as enumerations of `IDataRecord` implementors in template expressions. That is, you can use `IDataReader` implementors in template expressions in the same way as `DataTable` objects. See "Working with DataTable and DataView Objects" for more information.
 
 However, you can not use `IDataReader` implementors in template expressions in conjunction with enumeration operations that require a caching of enumeration items. Examples of such operations are grouping and sorting. To work around this restriction, use `DataTable` objects instead.
 

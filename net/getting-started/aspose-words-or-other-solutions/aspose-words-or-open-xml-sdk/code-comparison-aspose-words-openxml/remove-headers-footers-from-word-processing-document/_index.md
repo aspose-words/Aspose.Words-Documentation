@@ -1,4 +1,4 @@
----
+﻿---
 title: Remove Headers and Footers from a Word Document
 description: "Aspose.Words for .NET allows you to remove headers or footers from a word processing document easily and fast instead of using Open XML SDK."
 type: docs
@@ -17,7 +17,7 @@ On this page we will look at how to remove headers or footers from a Word proces
 
 Aspose.Words provide API for working with headers and footers in Microsoft Word document. We can use the [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/headerfootercollection) object to get the collection of header/footer in a document section. The [HeaderFooter](https://apireference.aspose.com/words/net/aspose.words/headerfooter) class is a container for section header or footer text. That being said, **HeaderFooter** is a section-level node and can only be a child of a section. There can be only one or each **HeaderFooter** of [HeaderFooterType](https://apireference.aspose.com/words/net/aspose.words/headerfootertype) in a section.
 
-The following code example shows how to remove header and footer from a Word document:
+The following code example demonstrates how to remove header and footer from a Word document:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Document.docx");
@@ -58,7 +58,7 @@ Given a reference to the document part, the code next determines if it has any w
 
 To remove the stranded references, the code first retrieves a collection of **HeaderReference** elements, converts the collection to a List, and then loops through the collection, calling the **Remove** method for each element found.
 
-The following code example shows how to remove header and footer from a Word document:
+The following code example demonstrates how to remove header and footer from a Word document:
 
 {{< highlight csharp >}}
 public void RemoveHeaderFooterFeature()
@@ -109,6 +109,5 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 {{% alert color="primary" %}} 
 
 For more information about Aspose.Words features please visit [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/).
-
 
 {{% /alert %}}

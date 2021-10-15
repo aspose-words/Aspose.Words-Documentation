@@ -19,6 +19,6 @@ You can set the number of footnote layout columns using FootnoteOptions.Columns 
 
 ## How to Set the Position of Footnote and EndNote
 
-The footnote position can be at the bottom of each page or beneath the text on each page. The endnote position can be at the end of the section or at the end of the document. The following code example shows how to set the position of footnote and endnote.
+The footnote position can be at the bottom of each page or beneath the text on each page. The endnote position can be at the end of the section or at the end of the document. The following code example demonstrates how to set the position of footnote and endnote.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetFootnoteAndEndNotePosition.java" >}}

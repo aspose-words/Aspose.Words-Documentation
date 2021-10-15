@@ -32,7 +32,7 @@ public String  REF getLocalAddress getLocalAddress()  REF getterBody { ... }
 }
 {{< /highlight >}}
 
-Using table-row conditional blocks, you can pick to output a single row among many rows of a single document table depending on a condition like in the following example.
+Using table-row conditional blocks, you can pick to output a single row among several rows of a single document table depending on a condition like in the following example.
 
 |...|...|...|
 | :- | :- | :- |

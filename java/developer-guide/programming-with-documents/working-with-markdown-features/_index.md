@@ -30,7 +30,7 @@ There are nuances of translating Markdown to the Aspose.Words Document Object Mo
 
 ## Markdown Document with Emphases
 
-This section demonstrates you how to produce a markdown document with emphases as given below:
+This section shows you how to produce a markdown document with emphases as given below:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -64,7 +64,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Block Quotes
 
-This section demonstrates you how to produce a markdown document with block quotes as given below:
+This section shows you how to produce a markdown document with block quotes as given below:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
@@ -98,7 +98,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Reading a Markdown Document
 
-The following code snippet demonstrates you how to read a markdown document.
+The following code snippet shows you how to read a markdown document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ReadMarkdownDocument.java" >}}
 

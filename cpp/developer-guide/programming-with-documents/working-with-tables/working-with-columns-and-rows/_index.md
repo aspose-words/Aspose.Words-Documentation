@@ -39,11 +39,11 @@ Any operations that are performed on columns in Microsoft Word are in actual fac
 
 In the Aspose.Words Document Object Model a Table node is made up of Row and then Cell nodes. There is also no native support for columns.
 
-You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example shows a facade object for working with a column of a table.
+You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example demonstrates a facade object for working with a column of a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cpp" >}}
 
-Below example shows how to insert a blank column into a table.
+Below example demonstrates how to insert a blank column into a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-InsertBlankColumn.cpp" >}}
 
@@ -53,9 +53,9 @@ Below example shows how to remove a column from a table in a document.
 
 ## Specifying Rows to Repeat on Subsequent Pages as Header Rows
 
-In Microsoft Word this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or numerous rows in a table.
+In Microsoft Word this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or multiple rows in a table.
 
-In the case of a single header row, it must be the first row in the table. In addition when many header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
+In the case of a single header row, it must be the first row in the table. In addition when a few header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
 
 {{% alert color="primary" %}} 
 
@@ -141,7 +141,7 @@ We will use the table below in our example. By default, it has the properties ab
 
 ### Keeping a Row from Breaking across Pages
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word this can found under Table Properties as the option “Allow Row to break across Pages”. In Aspose.Words this is found under the RowFormat object of a Row as the property RowFormat.AllowBreakAcrossPages. Below example shows how to disable rows breaking across pages for every row in a table. You can download the template file of this example from here.
+This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word this can found under Table Properties as the option “Allow Row to break across Pages”. In Aspose.Words this is found under the RowFormat object of a Row as the property RowFormat.AllowBreakAcrossPages. Below example demonstrates how to disable rows breaking across pages for every row in a table. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-RowFormatDisableBreakAcrossPages.cpp" >}}
 
@@ -149,7 +149,7 @@ This involves restricting content inside the cells of a row from being split acr
 
 To stop a table from splitting across the page we need to state that we wish the content contained within the table to stay together. In Microsoft Word, this involves selecting the table and enabling “Keep with Next” under Paragraph Format.
 
-In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have ParagraphFormat.KeepWithNext set to true. The exception is the last paragraph in the table which should be set to false. Below example shows how to set a table to stay together on the same page. You can download the template file of this example from here.
+In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have ParagraphFormat.KeepWithNext set to true. The exception is the last paragraph in the table which should be set to false. Below example demonstrates how to set a table to stay together on the same page. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-KeepTableTogether.cpp" >}}
 
@@ -211,6 +211,6 @@ Use the following code example if CellFormat.HorizontalMerge and CellFormat.Vert
 
 In the latest versions of MS Word, the cells are merged horizontally by its width. Whereas, the merge flags were used in the older technique,  like Cell.CellFormat.HorizontalMerge. The merge flags are not used when cells are horizontally merged by their width and it is also not possible to detect which cells are merged. Aspose.Words provides ConvertToHorizontallyMergedCells method to convert cells which are horizontally merged by its width to the cell horizontally merged by flags. It simply transforms the table and adds new cells when needed.
 
-The following code example demonstrates the working of the above-mentioned method.
+The following code example shows the working of the above-mentioned method.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-ConvertToHorizontallyMergedCells.cpp" >}}

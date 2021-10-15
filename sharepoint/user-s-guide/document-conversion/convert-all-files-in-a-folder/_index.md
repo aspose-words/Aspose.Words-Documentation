@@ -32,7 +32,7 @@ When you select a single file or folder in a document library view, the **Conver
 
 ![todo:image_alt_text](convert-all-files-in-a-folder_4.png)
 
-When you select several items in a document library view, you can convert or combine selected the items only.
+When you select multiple items in a document library view, you can convert or combine selected the items only.
 
 **The list of files to combine is populated with the files selected in the document library.** 
 
@@ -40,7 +40,7 @@ When you select several items in a document library view, you can convert or com
 
 If you select no items in a document library view, the **Convert via Aspose.Words** option is disabled.
 
-**Conversion Settings screen for a few files conversion.** 
+**Conversion Settings screen for several files conversion.** 
 
 ![todo:image_alt_text](convert-all-files-in-a-folder_6.png)
 

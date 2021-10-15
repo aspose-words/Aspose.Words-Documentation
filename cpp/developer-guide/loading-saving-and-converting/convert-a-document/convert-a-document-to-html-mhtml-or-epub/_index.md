@@ -22,14 +22,14 @@ To convert a document to MHTML or EPUB, use SaveFormat.Mhtml or SaveFormat.Epub 
 
 ## Convert a Document with Round-trip Information
 
-The HTML format does not support several Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#get_exportroundtripinformation_const) property. Saving the round-trip information allows restoring document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
+The HTML format does not support several Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the [ExportRoundtripInformation](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#get_exportroundtripinformation_const) property. Saving the round-trip information enables restoring document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a **Document** object.
 
 The default value is **true** for HTML and **false** for MHTML and EPUB:
 
 - When **true**, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements
 - When **false**, there is no round-trip information to be output into produced files
 
-The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
+The following code example demonstrates how to export round-trip information when converting a document from DOCX into HTML:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocumentToHtmlWithRoundtrip.cpp" >}}
 
@@ -41,7 +41,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## Specify Save Options when Conversion to HTML
 
-Aspose.Words enables converting a Word document to HTML using default or custom save options. Few examples of custom save options are described below.
+Aspose.Words allows converting a Word document to HTML using default or custom save options. Few examples of custom save options are described below.
 
 ### Specify a Folder for Saving Resources
 
@@ -66,7 +66,7 @@ However, there is no individual property for CSS. The behavior of the **FontsFo
 
 Aspose.Words provides an ability to specify whether font resources should be embedded into HTML in Base64 encodings. To perform this, use the [ExportFontsAsBase64](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#get_exportfontsasbase64_const) property – this is an extension of the [ExportFontResources](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#get_exportfontresources_const) property. By default, its value is **false**, and fonts are written into separate files. But if this option is set to **true**, fonts will be embedded into the document's CSS in Base64 encoding. The **ExportFontsAsBase64** property only affects HTML format and does not affect EPUB and MHTML.
 
-The following code example demonstrates how to export Base64-encoded fonts to HTML:
+The following code example shows how to export Base64-encoded fonts to HTML:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ExportFontsAsBase64.cpp" >}}
 

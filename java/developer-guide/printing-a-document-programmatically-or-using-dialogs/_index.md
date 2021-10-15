@@ -6,7 +6,7 @@ weight: 55
 url: /java/print-a-document-programmatically-or-using-dialogs/
 ---
 
-This article describes how to print a word processing document using Aspose.Words API. It also demonstrates the methods of printing a document with Settings, Print Preview, and Print progress dialogs.
+This article describes how to print a word processing document using Aspose.Words API. It also shows the methods of printing a document with Settings, Print Preview, and Print progress dialogs.
 
 ## Printing a Document with Settings and Print Preview Dialogs
 
@@ -22,7 +22,7 @@ The following example demonstrates how to use these classes to print a document 
 
 ## Printing Multiple Pages on One Sheet
 
-Aspose.Words implements the **MultipagePrintDocument** class, to fine-tune the printing operation to implement your custom logic by defining the way the document will appear on the printed page. The **MultipagePrintDocument** class provides the ability to print many pages on one sheet of paper.
+Aspose.Words implements the **MultipagePrintDocument** class, to fine-tune the printing operation to implement your custom logic by defining the way the document will appear on the printed page. The **MultipagePrintDocument** class provides the ability to print several pages on one sheet of paper.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-MultiplePagesOnSheet-MultiplePagesOnSheet.java" >}}
 

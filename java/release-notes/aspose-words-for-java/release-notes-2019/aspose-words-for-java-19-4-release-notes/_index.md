@@ -213,7 +213,7 @@ public TextBoxAnchor VerticalAnchor
 }
 {{< /highlight >}}
 
-The property allows to specify text anchor within the shape (Top, Middle, Bottom).
+The property enables to specify text anchor within the shape (Top, Middle, Bottom).
 
 {{< highlight csharp >}}
 Document doc = new Document(fileName);

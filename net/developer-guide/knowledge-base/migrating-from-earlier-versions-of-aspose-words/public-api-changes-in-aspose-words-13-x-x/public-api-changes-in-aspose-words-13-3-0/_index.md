@@ -34,7 +34,7 @@ These properties have no setter and become true if Extrusion/Shadow effect is en
 
 ### Added MailMerge.MergeDuplicateRegions Property to Control if Duplicate Regions are Merged
 
-With the introduction of this setting a single data source can now merge multiple regions with the name in a document. This can be achieved by setting **MailMerge.MergeDuplicateRegions** to true before mail merge is executed. With this setting enabled if a document contains three mail merge regions all with the same name then all three are merged with the same data when mail merge is executed (this happens regardless of the data source type used). The default value for this option is false to allow backward compatibility.
+With the introduction of this setting a single data source can now merge many regions with the name in a document. This can be achieved by setting **MailMerge.MergeDuplicateRegions** to true before mail merge is executed. With this setting enabled if a document contains three mail merge regions all with the same name then all three are merged with the same data when mail merge is executed (this happens regardless of the data source type used). The default value for this option is false to allow backward compatibility.
 
 This behavior applies to the following MailMerge methods:
 
@@ -50,7 +50,7 @@ In previous versions a merge field with an empty string as a table name would be
 
 ### Non-standard Quotation Marks are Recognized in Fields
 
-Microsoft Word recognizes quotation marks in fields from several Unicode characters: U+0022 (standard), U+00AB, U+00BB, U+201C, U+201D, U+201E, U+201E. Aspose.Words previously only recognized the standard quotation marks, however with this release it now recongizes all of the listed characters.
+Microsoft Word recognizes quotation marks in fields from many Unicode characters: U+0022 (standard), U+00AB, U+00BB, U+201C, U+201D, U+201E, U+201E. Aspose.Words previously only recognized the standard quotation marks, however with this release it now recongizes all of the listed characters.
 
 ### Partial Support of 3D Chart Rendering
 

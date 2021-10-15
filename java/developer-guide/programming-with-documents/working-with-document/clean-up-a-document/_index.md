@@ -10,7 +10,7 @@ Sometimes you may need to remove unused or duplicate information to reduce the s
 
 While you can find and remove unused data, such as styles or lists, or duplicate information manually, it will be much more convenient to do this using features and capabilities provided by Aspose.Words.
 
-The [CleanupOptions](https://apireference.aspose.com/words/java/com.aspose.words/CleanupOptions) class allows you to specify options for document cleaning. To remove duplicate styles or just unused styles or lists from the document, you can use the [Cleanup](https://apireference.aspose.com/words/java/com.aspose.words/document#cleanup()) method.
+The [CleanupOptions](https://apireference.aspose.com/words/java/com.aspose.words/CleanupOptions) class enables you to specify options for document cleaning. To remove duplicate styles or just unused styles or lists from the document, you can use the [Cleanup](https://apireference.aspose.com/words/java/com.aspose.words/document#cleanup()) method.
 
 ## Remove Unused Information from a Document
 
@@ -26,6 +26,6 @@ The following code example demonstrates how to remove only unused styles from a 
 
 You can also use the [DuplicateStyle](https://apireference.aspose.com/words/java/com.aspose.words/cleanupoptions#DuplicateStyle) property to substitute all duplicate styles with the original one and remove duplicates from a document.
 
-The following code example shows how to remove duplicate styles from a document:
+The following code example demonstrates how to remove duplicate styles from a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CleanupDuplicateStyle.java" >}}

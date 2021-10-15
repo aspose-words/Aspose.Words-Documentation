@@ -90,7 +90,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21006 | ReportingEngine.BuildReport could not create the bitmap - lack of system   resources - FileFormat=0 | Bug |
 | WORDSNET-21473 | DOCX to PDF conversion issue with accessibility check for alternative   text | Bug |
 | WORDSNET-20982 | Artifact issue while converting DOCX to PDF | Bug |
-| WORDSNET-21305 | IChar solution allocates too a few class instances | Bug |
+| WORDSNET-21305 | IChar solution allocates too multiple class instances | Bug |
 | WORDSNET-21306 | DOCX to PDF conversion: a part of first page is pushed to second page   after conversion | Bug |
 | WORDSNET-21307 | Messed up headers after extract page | Bug |
 | WORDSNET-21617 | Track changes - Bookmarks not being generated for Headings during Word to   PDF conversion | Bug |
@@ -750,7 +750,7 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex);
 /// <param name="rowIndex">The index of the row in the table.</param>
 /// <param name="columnIndex">The index of the column in the table.</param>
 /// <param name="characterIndex">The index of the character inside the cell.
-/// A negative value enables you to specify a position from the end of the cell. Use -1 to move to the end of
+/// A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of
 /// the cell.</param>
 public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)
 {{< /highlight >}}

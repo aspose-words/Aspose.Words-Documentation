@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert and Append Documents
 description: "Aspose.Words for .NET enables you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
 type: docs
@@ -7,7 +7,7 @@ url: /net/insert-and-append-documents/
 aliases: [/net/join-and-append-documents/]
 ---
 
-Sometimes it is required to combine numerous documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
+Sometimes it is required to combine many documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
 
 The insert operation allows you to insert the content of previously created documents into a new or existing one.
 
@@ -29,11 +29,11 @@ The following subsections describe the options during which you can insert one d
 
 You can insert documents while performing find and replace operations. For example, a document can contain paragraphs with the text [INTRODUCTION] and [CONCLUSION]. But in the final document, you need to replace those paragraphs with the content obtained from another external document. To achieve that, you will need to create a handler for the replace event.
 
-The following code example shows how to create a handler for the replacing event to use it later in the inserting process:
+The following code example demonstrates how to create a handler for the replacing event to use it later in the inserting process:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtReplaceHandler.cs" >}}
 
-The following code example demonstrates how insert content of one document into another during a find and replace operation:
+The following code example shows how insert content of one document into another during a find and replace operation:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtReplace.cs" >}}
 
@@ -41,11 +41,11 @@ The following code example demonstrates how insert content of one document into 
 
 You can insert a document into a merge field during a mail merge operation. For example, a mail merge template can contain a merge field such as [Summary]. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
 
-The following code example shows how to create a handler for the merging event to use it later in the inserting process:
+The following code example demonstrates how to create a handler for the merging event to use it later in the inserting process:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtMailMergeHandler.cs" >}}
 
-The following code example demonstrates how to insert a document into the merge field using the created handler:
+The following code example shows how to insert a document into the merge field using the created handler:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtMailMerge.cs" >}}
 
@@ -59,7 +59,7 @@ The following coding example demonstrates how to insert the contents of one docu
 
 {{% alert color="primary" %}} 
 
-Note that the bookmark should not enclose multiple paragraphs or text that you want them to appear in your final resulting document.
+Note that the bookmark should not enclose several paragraphs or text that you want them to appear in your final resulting document.
 
 {{% /alert %}} 
 
@@ -77,11 +77,11 @@ The following code example shows how to append a document to the end of another 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Join and append documents-KeepSourceFormatting.cs" >}}
 
-## Import and Insert Nodes Manually {#import-and-insert-nodes-manually}
+## Import and Add Nodes Manually {#import-and-insert-nodes-manually}
 
-Aspose.Words allows you to insert and append documents automatically without any previous importing requirements. However, if you need to insert or append a specific node of your document, such as a section or a paragraph, then first you need to import this node manually.
+Aspose.Words enables you to insert and append documents automatically without any previous importing requirements. However, if you need to insert or append a specific node of your document, such as a section or a paragraph, then first you need to import this node manually.
 
-When you need to insert or append one section or paragraph to another, you essentially need to import the nodes of the first document node tree into the second one using the [ImportNode](https://apireference.aspose.com/words/net/aspose.words/nodeimporter/methods/importnode) method. After importing your nodes, you need to use the [InsertAfter](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/insertafter)/[InsertBefore](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/insertbefore) method to insert a new node after/before the reference node. This enables you to customize the inserting process by importing nodes from a document and inserting it at given positions.
+When you need to insert or append one section or paragraph to another, you essentially need to import the nodes of the first document node tree into the second one using the [ImportNode](https://apireference.aspose.com/words/net/aspose.words/nodeimporter/methods/importnode) method. After importing your nodes, you need to use the [InsertAfter](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/insertafter)/[InsertBefore](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/insertbefore) method to insert a new node after/before the reference node. This allows you to customize the inserting process by importing nodes from a document and inserting it at given positions.
 
 You can also use the [AppendChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/appendchild) method to add a new specified node to the end of the list of child nodes, for example, if you want to append content at the paragraph level instead of at the section level.
 
@@ -89,7 +89,7 @@ The following code example demonstrates how to insert document content into anot
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Join and append documents-InsertDocumentWithBuilder.cs" >}}
 
-The following code example shows how to manually import nodes and insert them after a specific node using the **InsertAfter** method:
+The following code example demonstrates how to manually import nodes and insert them after a specific node using the **InsertAfter** method:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocument.cs" >}}
 
@@ -113,6 +113,6 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 
 {{% /alert %}} 
 
-The following code example demonstrates how to append one document to another while keeping the content from splitting across two pages:
+The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Join and append documents-DifferentPageSetup.cs" >}}

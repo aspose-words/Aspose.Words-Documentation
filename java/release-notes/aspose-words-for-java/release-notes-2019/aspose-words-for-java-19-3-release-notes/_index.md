@@ -201,7 +201,7 @@ It has two public properties for specifying how numerous and which character to 
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets or sets how a few <see cref="Character"/> to use as indentation per one list level.
+/// Gets or sets how multiple <see cref="Character"/> to use as indentation per one list level.
 /// The default value is 0, that means no indentation.
 /// </summary>
 public int Count
@@ -222,7 +222,7 @@ At last, a new option is added to the TxtSaveOptions class:
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets a ListIndentation object that specifies how several and which character to use for indentation of list levels.
+/// Gets a ListIndentation object that specifies how numerous and which character to use for indentation of list levels.
 /// By default it is zero count of character '\0', that means no indentation.
 /// </summary>
 public TxtListIndentation ListIndentation
@@ -288,7 +288,7 @@ public TextBoxAnchor VerticalAnchor
 
 
 
-The property enables to specify text anchor within the shape(Top, Middle, Bottom).
+The property allows to specify text anchor within the shape(Top, Middle, Bottom).
 
 
 

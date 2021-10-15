@@ -13,6 +13,6 @@ Aspose.Words has an interface for generating custom barcodes which makes it very
 
 {{% /alert %}} 
 
-Below is a sample code generator that leverages the Aspose.BarCode API. This example demonstrates how to insert barcode images at DISPLAYBARCODE Field's position in Word document using Aspose.Words and Aspose.BarCode APIs.
+Below is a sample code generator that leverages the Aspose.BarCode API. This example shows how to insert barcode images at DISPLAYBARCODE Field's position in Word document using Aspose.Words and Aspose.BarCode APIs.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-GenerateACustomBarCodeImage-.java" >}}

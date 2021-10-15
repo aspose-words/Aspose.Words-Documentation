@@ -27,7 +27,7 @@ There are 63 improvements and fixes in this regular monthly release. The most no
 - Vertical axis of 3DArea Chart scaling fixed.
 - MS Word 2016 approach for rendering of DrawingML Charts axis labels implemented; (Labels are rotated to fit the chart).
 - Fixed rendering of Legend markers for 3D-LineChart.
-- Improved rendering of composite (with multiple series) charts.
+- Improved rendering of composite (with a few series) charts.
 - Chart title with ManualLayout rendering fixed.
 
 ## Full List of Issues Covering all Changes in this Release
@@ -96,7 +96,7 @@ There are 63 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15801|Add feature to show/hide axis of chart|Feature|
 |WORDSNET-16042|API to get geometric position of element in Word Doc|Feature|
 |WORDSNET-16060|Add feature to get w:storeItemID of StructuredDocumentTag|Feature|
-|WORDSNET-16092|Add feature to add numerous replies to comment using Comment.AddReply|Feature|
+|WORDSNET-16092|Add feature to add multiple replies to comment using Comment.AddReply|Feature|
 
 ## Public API and Backward Incompatible Changes
 

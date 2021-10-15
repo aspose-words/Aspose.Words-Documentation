@@ -7,7 +7,7 @@ url: /java/how-to-migrate-to-aspose-words-10-5-or-higher/
 
 {{% alert color="primary" %}} 
 
-Starting in Aspose.Words 10.5 multiple new features and properties were made available to tables in the API. These changes also affect the defaults used when creating a new table. As such, this may cause existing code which produces tables in your application to “break”. This can result in the appearance of tables to be different when compared with previous versions.
+Starting in Aspose.Words 10.5 many new features and properties were made available to tables in the API. These changes also affect the defaults used when creating a new table. As such, this may cause existing code which produces tables in your application to “break”. This can result in the appearance of tables to be different when compared with previous versions.
 
 This article describes the changes in the new API and how to easily fix your code so that tables produced by existing code appear as expected. 
 
@@ -15,7 +15,7 @@ This article describes the changes in the new API and how to easily fix your cod
 
 ## New Defaults when Creating Tables
 
-The new API boasts impressive new features with working for tables as well as some changes to the defaults used when creating new tables. These changes bring how a default table is constructed more in line with how Microsoft Word behaves. This enables for a more easily migration for new users, but may break the layout of tables built in existing code.
+The new API boasts impressive new features with working for tables as well as some changes to the defaults used when creating new tables. These changes bring how a default table is constructed more in line with how Microsoft Word behaves. This allows for a more easily migration for new users, but may break the layout of tables built in existing code.
 
 |Member |Default in 10.4 and Earlier |Default in 10.5 and Later |Comments |
 | :- | :- | :- | :- |

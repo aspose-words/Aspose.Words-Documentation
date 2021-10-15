@@ -27,11 +27,11 @@ You can create a template and add specific merge fields to it, that will be repl
 
 Use the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserttextinput), [InsetField](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertfield/methods/1), and [InsertParagraph](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertparagraph) methods.
 
-The following code example shows how to create a mail merge template:
+The following code example demonstrates how to create a mail merge template:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeTemplate-CreateMailMergeTemplate.cs" >}}
 
-The picture below demonstrates the created template:
+The picture below shows the created template:
 
 <img src="mail_merge_template_1.png" alt="mail_merge_template" style="width:650px"/>
 
@@ -43,7 +43,7 @@ Aspose.Words enables you to customize your template through many properties. Tem
 
 You can specify the image properties using the [ImageFieldMergingArgs](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imagefieldmergingargs) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/DocsExamples/DocsExamples/Mail%20Merge%20and%20Reporting/Working%20with%20Fields.cs#L214).
 
-The following code example shows how to specify the image file name and image size:
+The following code example demonstrates how to specify the image file name and image size:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeFormFields-ImageFieldMerging.cs" >}}
 
@@ -51,7 +51,7 @@ The following code example shows how to specify the image file name and image si
 
 You can use the [Text](https://apireference.aspose.com/words/net/aspose.words.mailmerging/fieldmergingargs/properties/text) property to insert text into the document for the current merge field. Also, you can change the formatting of texts and paragraphs inside your template using [Font](https://apireference.aspose.com/words/net/aspose.words/font) and [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) classes. You can handle the text to be inserted before or after the merge field by using the [TextBefore](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield/properties/textbefore) and [TextAfter](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield/properties/textafter) properties that are included in the [FieldMergeField](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield) class.
 
-The following code example shows how to insert Check Boxes or HTML during mail merge operation:
+The following code example demonstrates how to insert Check Boxes or HTML during mail merge operation:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeFormFields-MailMergeFormFields.cs" >}}
 

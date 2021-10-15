@@ -22,6 +22,6 @@ We first need to pick a row at where to split the table. Once we know this we ca
 1. Create a clone of the table without cloning children to hold the moved rows and insert it after the original table.
 1. Starting from the specified row move all subsequent rows to this second table.
 
-Below example shows how to split a table into two tables a specific row.
+Below example demonstrates how to split a table into two tables a specific row.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-JoiningAndSplittingTable-SplitTable.cpp" >}}

@@ -11,7 +11,7 @@ This initial version of the module contains following features:
 
 - Simple to integrate.
 - Exports the entire content of a web page with no limitation on page length or content type, into one or more images.
-- Stores the exported images in zipped archive (in case of multiple images).
+- Stores the exported images in zipped archive (in case of a few images).
 - Allows users to export content into four different Image formats (PNG, JPEG,TIFF, or BMP).
 - It has the capability of auto-sequencing multiple images.
 - Allows users to have an offline copy of their favorite online content into image formats for sharing and printing etc.

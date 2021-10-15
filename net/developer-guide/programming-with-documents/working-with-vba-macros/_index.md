@@ -28,7 +28,7 @@ The following code example demonstrates how to read VBA Macros from the document
 
 ## Write or Modify Macros
 
-The following code example shows how to modify VBA Macros using the VbaModule.SourceCode property.
+The following code example demonstrates how to modify VBA Macros using the VbaModule.SourceCode property.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-ModifyVbaMacros.cs" >}}
 

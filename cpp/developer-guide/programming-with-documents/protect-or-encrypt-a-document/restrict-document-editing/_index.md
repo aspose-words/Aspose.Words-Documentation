@@ -1,6 +1,6 @@
 ﻿---
 title: Restrict Document Editing
-description: "Aspose.Words for C++ enables to restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions."
+description: "Aspose.Words for C++ allows to restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions."
 type: docs
 weight: 30
 url: /cpp/restrict-document-editing/
@@ -28,7 +28,7 @@ If you did not set a password when choosing the security type, other users can s
 
 {{% alert color="primary" %}}
 
-Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Unprotect](https://apireference.aspose.com/words/cpp/class/aspose.words.document#unprotect) method shows just that.
+Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Unprotect](https://apireference.aspose.com/words/cpp/class/aspose.words.document#unprotect) method demonstrates just that.
 
 {{% /alert %}}
 
@@ -47,7 +47,7 @@ In Microsoft Word, you can restrict editing in a similar way using both:
 
 {{% /alert %}}
 
-The following code example demonstrates how to add password protection to your document:
+The following code example shows how to add password protection to your document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Protect or Encrypt Document-Document protection-PasswordProtection.h" >}}
 

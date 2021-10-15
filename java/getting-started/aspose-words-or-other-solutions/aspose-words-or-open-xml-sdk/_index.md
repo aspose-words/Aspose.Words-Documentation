@@ -23,7 +23,7 @@ It is worth noting that some tasks can be achieved with the Open XML SDK, but ca
 - Create documents by [copying or joining fragments of one or more documents](https://docs.aspose.com/words/java/insert-and-append-documents/) with automatically merging per-document structures such as styles and lists
 - Provide access to complex operations such as [find and replace](https://docs.aspose.com/words/java/find-and-replace/), insert and update a table of contents, formula or fields, and others
 - Generate business documents such as orders or reports populated with data from various data source
-- Convert documents between a few popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
+- Convert documents between multiple popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
 - And others
 
 In the following sections, we will take a closer look at some of the features and abilities provided by Aspose.Words.
@@ -34,13 +34,13 @@ Aspose.Words software can be considered more secure compared to Open XML SDK as 
 
 ### Stability
 
-Aspose components are thoroughly tested.Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
+Aspose components are thoroughly tested.Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This enables not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
 
 ### Scalability and Minimal Learning Curve
 
-Being XML-based, Office Open XML is heralded as an enabling technology. It is true that Office Open XML makes it possible to build document processing and generating applications using only XML classes, without relying on third-party libraries such as Aspose.Words. OOXML documents are essentially zipped XML files, and the Open XML SDK is a collection of classes that allows you to work with the content of OOXML documents in a strongly typed way. That is, instead of unzipping a file to extract XML, loading that XML into the DOM tree, and working with the XML elements and attributes directly, Open XML SDK provides classes to do this.
+Being XML-based, Office Open XML is heralded as an enabling technology. It is true that Office Open XML makes it possible to build document processing and generating applications using only XML classes, without relying on third-party libraries such as Aspose.Words. OOXML documents are essentially zipped XML files, and the Open XML SDK is a collection of classes that enables you to work with the content of OOXML documents in a strongly typed way. That is, instead of unzipping a file to extract XML, loading that XML into the DOM tree, and working with the XML elements and attributes directly, Open XML SDK provides classes to do this.
 
-However, the OOXML specification is several thousand pages long. Being open and standard does not mean being simple. To properly process or generate OOXML documents one must invest in learning the format well. Thus, working with the Open XML SDK requires at least a basic knowledge of the Open XML Specification, which can take a long time to learn.
+However, the OOXML specification is many thousand pages long. Being open and standard does not mean being simple. To properly process or generate OOXML documents one must invest in learning the format well. Thus, working with the Open XML SDK requires at least a basic knowledge of the Open XML Specification, which can take a long time to learn.
 
 At the same time, the learning curve for working with Aspose.Words is minimal because its API has been carefully thought out and designed with the Java design guidelines in mind. This helps ensure ease of use and manipulation of document elements.
 
@@ -48,7 +48,7 @@ At the same time, the learning curve for working with Aspose.Words is minimal be
 
 We strongly believe that using Aspose.Words is still very beneficial when dealing with OOXML documents rather than working with XML or other libraries. In addition to making it easier to properly process and generate valid documents, Aspose.Words provides the following important features that you would not have when working with OOXML files directly via XML or other third-party libraries:
 
-- Quality [conversion between multiple popular document formats](https://docs.aspose.com/words/java/convert-a-document/) and [printing](https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/)
+- Quality [conversion between a few popular document formats](https://docs.aspose.com/words/java/convert-a-document/) and [printing](https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/)
 - The ability to create documents from fragments of one or more documents, as well as the ability to fill documents with data from various sources
 - Programmatic access to the document properties that provide users with features such as, for example, [splitting a document into parts](https://docs.aspose.com/words/java/split-a-document/) or [comparing two documents](https://docs.aspose.com/words/java/compare-documents/)
 - And others

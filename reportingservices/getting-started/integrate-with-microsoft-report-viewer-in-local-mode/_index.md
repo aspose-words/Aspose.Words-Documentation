@@ -7,13 +7,13 @@ url: /reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
 
 {{% alert color="primary" %}} 
 
-Microsoft Report Viewer is a powerful .NET control allowing the use of RDL and RDLC reports in WinForms and ASP.NET applications. It enables users to view and export reports to different formats. The control is included with Microsoft Visual Studio 2010, 2012, and 2015, and is available as a free download from Microsoft. However, Visual Studio 2017 (and higher) does not have RDLC Reporting Tools installed by default. It can be installed as described at [application integration integrating reporting services using report viewer controls get started](https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started?view=sql-server-2017).
+Microsoft Report Viewer is a powerful .NET control allowing the use of RDL and RDLC reports in WinForms and ASP.NET applications. It allows users to view and export reports to different formats. The control is included with Microsoft Visual Studio 2010, 2012, and 2015, and is available as a free download from Microsoft. However, Visual Studio 2017 (and higher) does not have RDLC Reporting Tools installed by default. It can be installed as described at [application integration integrating reporting services using report viewer controls get started](https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started?view=sql-server-2017).
 
 Report Viewer can generate reports independently using a built-in engine (**local mode**), or it can display reports that are generated on a Microsoft SQL Server Reporting Services Report Server (**remote mode**).
 
 When working in the **remote mode**, Report Viewer can export reports to all formats installed on the Report Server to which it is connected. Therefore, to export reports to Microsoft Word formats you only need to install Aspose.Words for Reporting Services on the server.
 
-When working in the **local mode** however, Report Viewer does not connect to a Report Server and the list of export formats is limited to only a few built-in formats.
+When working in the **local mode** however, Report Viewer does not connect to a Report Server and the list of export formats is limited to only many built-in formats.
 
 By installing Aspose.Words for Reporting Services on a development machine and following the steps below, you will be able to add the ability to export to Microsoft Word formats from Report Viewer working in the **local mode**.
 

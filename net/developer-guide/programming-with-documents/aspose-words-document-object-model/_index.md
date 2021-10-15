@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Document Object Model (DOM)
 type: docs
 description: "Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. By using the Aspose.Words DOM classes, you can programmatically read, manipulate, and modify the content and formatting of a Word document with .NET."
@@ -6,11 +6,11 @@ weight: 10
 url: /net/aspose-words-document-object-model/
 ---
 
-The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM enables you to programmatically read, manipulate, and modify the content and formatting of a Word document.
+The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, and modify the content and formatting of a Word document.
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
-## Create a Document Objects Tree {#create-a-document-objects-tree}
+## Create a Document Object Tree {#create-a-document-objects-tree}
 
 When a document is read into the Aspose.Words DOM, then an object tree is built and different types of elements of the source document have their own DOM tree objects with various properties.
 
@@ -23,7 +23,7 @@ The document tree in Aspose.Words follows the Composite Design Pattern:
 - All node classes ultimately derive from the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class, which is the base class in the Aspose.Words Document Object Model.
 - Nodes that can contain other nodes, for example, **Section** or **Paragraph**, derive from the [CompositeNode](https://apireference.aspose.com/words/net/aspose.words/compositenode) class, which in turn derives from the **Node** class.
 
-The diagram provided below shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
+The diagram provided below demonstrates inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
 
 <img src="aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
@@ -43,7 +43,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 [Document](https://apireference.aspose.com/words/net/aspose.words/document), [Section](https://apireference.aspose.com/words/net/aspose.words/section), [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph), [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape), [Run](https://apireference.aspose.com/words/net/aspose.words/run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
-### Get a Node Type {#get-a-node-type}
+### Get a Type of Nodes {#get-a-node-type}
 
 Although the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/net/aspose.words/node/properties/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
@@ -67,7 +67,7 @@ You can learn the sample project "Document Explorer" on the [Aspose.Words GitHub
 
 {{% /alert %}}
 
-### Document Node Relationships {#document-nodes-relationships}
+### Document Nodes Relationships {#document-nodes-relationships}
 
 The nodes in the tree have relationships between them:
 
@@ -77,7 +77,7 @@ The nodes in the tree have relationships between them:
 
 The nodes that can contain other nodes derive from the [CompositeNode](https://apireference.aspose.com/words/net/aspose.words/compositenode) class, and all nodes ultimately derive from the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
 
-The following UML object diagram demonstrates many nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
+The following UML object diagram shows numerous nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
 <img src="document-nodes-relationships.png" alt="document-nodes-relationships-aspose-words" style="width:370px"/>
 
@@ -93,7 +93,7 @@ The [Node.Document](https://apireference.aspose.com/words/net/aspose.words/node/
 
 When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/document) property.
 
-The following code example demonstrates that when creating any node, a document that will own the node is always defined:
+The following code example shows that when creating any node, a document that will own the node is always defined:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-OwnerDocument.cs" >}}
 
@@ -117,7 +117,7 @@ The most efficient way to access child nodes of a [CompositeNode](https://apiref
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/haschildnodes) property.
 
-The following code example demonstrates how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
+The following code example shows how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cs" >}}
 

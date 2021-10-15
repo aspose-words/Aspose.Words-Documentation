@@ -1,6 +1,6 @@
----
+﻿---
 title: Open a Document from a Stream
-description: "Aspose.Words for .NET allows you to load a document from a stream easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to load a document from a stream easily and fast instead of using Open XML SDK."
 type: docs
 weight: 20
 url: /net/open-a-word-processing-document-from-a-stream/

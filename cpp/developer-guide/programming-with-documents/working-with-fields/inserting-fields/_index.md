@@ -7,7 +7,7 @@ url: /cpp/inserting-fields/
 
 ## Inserting Fields into a Document
 
-In Aspose.Words the **DocumentBuilder.InsertField** method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
+In Aspose.Words the **DocumentBuilder.InsertField** method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and enables the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
 {{% alert color="primary" %}} 
 
@@ -15,11 +15,11 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}} 
 
-The code example given below demonstrates how to Inserts a merge field into a document using DocumentBuilder.
+The code example given below shows how to Inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertField-InsertField.cpp" >}}
 
-The same technique is used to insert fields nested within other fields. The code example given below demonstrates how to insert fields nested within another field using DocumentBuilder.
+The same technique is used to insert fields nested within other fields. The code example given below shows how to insert fields nested within another field using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertNestedFields-InsertNestedFields.cpp" >}}
 
@@ -35,7 +35,7 @@ MERGEFIELD field in Word document can be represented by the FieldMergeField clas
 - Specify the text to be inserted after the merge field if the field is not blank
 - Specify the text to be inserted before the merge field if the field is not blank.
 
-For more details, please refer to FieldMergeField Class API reference. The code example given below demonstrates how to add a Merge Field using DOM to a paragraph in the document.
+For more details, please refer to FieldMergeField Class API reference. The code example given below shows how to add a Merge Field using DOM to a paragraph in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cpp" >}}
 
@@ -51,7 +51,7 @@ ADDRESSBLOCK field is used to insert a mail merge address block in a Word docume
 - Specify the name and address format.
 - Specify the language ID used to format the address.
 
-For more details, please refer to FieldAddressBlock Class API reference. The code example given below shows how to Add a Mail Merge Address Block Field using DOM to a Paragraph in Document.
+For more details, please refer to FieldAddressBlock Class API reference. The code example given below demonstrates how to Add a Mail Merge Address Block Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cpp" >}}
 
@@ -65,7 +65,7 @@ The ADVANCE field is used to offset subsequent text within a line to the left, r
 - Specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box.
 - Specify the number of points by which the text that follows the field should be moved left, right, up or down.
 
-For more details, please refer to FieldAdvance Class API reference. The code example given below shows how to Add an Advance Field using DOM to a Paragraph in Document.
+For more details, please refer to FieldAdvance Class API reference. The code example given below demonstrates how to Add an Advance Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAdvanceFieldWithoutDocumentBuilder-InsertAdvanceFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -80,7 +80,7 @@ ASK field is used to prompt the user for text to assign to a Bookmark in Word do
 - Specify whether the user response should be received once per a mail merge operation
 - Specify the prompt text (the title of the prompt window).
 
-For more details, please refer to [FieldAsk Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAsk+Class). The code example given below shows how to Add an ASK Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAsk Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAsk+Class). The code example given below demonstrates how to Add an ASK Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertASKFieldWithoutDocumentBuilder-InsertASKFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -92,7 +92,7 @@ AUTHOR field is used to specify the name of the Document's author from the Docum
 
 - Specify the document author's name.
 
-For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAuthor+Class). The code example given below demonstrates how to Add an AUTHOR Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAuthor+Class). The code example given below shows how to Add an AUTHOR Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cpp" >}}
 
@@ -105,7 +105,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of the included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/net/words/aspose.words.fields/fieldincludetext). The code example given below shows how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/net/words/aspose.words.fields/fieldincludetext). The code example given below demonstrates how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertIncludeTextFieldWithoutDocumentBuilder-InsertIncludeTextFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -123,6 +123,6 @@ Please refer to FieldToa Class API reference. The code example given below de
 
 ### How to Insert Untyped/Empty Field
 
-If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. The code example given below demonstrates how to insert an empty field in the document.
+If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. The code example given below shows how to insert an empty field in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cpp" >}}

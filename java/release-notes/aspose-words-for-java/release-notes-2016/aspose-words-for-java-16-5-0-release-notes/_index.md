@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for Java 16.5.0](http://maven
 There are 83 improvements and fixes in this regular monthly release. The most notable are:
 
 - Improved reflow performance for large paragraphs.
-- Added explicit support of multiple data sources to LINQ Reporting Engine.
+- Added explicit support of several data sources to LINQ Reporting Engine.
 - SVG output with IE compatibility improved.
 - Improved widow/orphan handling for tables.
 - Improved asian text line breaking.
@@ -125,7 +125,7 @@ The following overload has been added to the ReportingEngine class:
 /// </summary>
 /// <remarks>
 /// <para>
-/// Using this overload you can reference a few data source objects and their members in the template.
+/// Using this overload you can reference several data source objects and their members in the template.
 /// The name of the first data source can be omitted (i.e. be an empty string or null) if you are going to
 /// reference the data source's members but not the data source object itself. Names of the other data sources
 /// must be specified and unique.
@@ -141,4 +141,4 @@ The following overload has been added to the ReportingEngine class:
 public void BuildReport(Document document, object[] dataSources, string[] dataSourceNames)
 {{< /highlight >}}
 
-It enables using a few data source objects while building a report.
+It enables using numerous data source objects while building a report.

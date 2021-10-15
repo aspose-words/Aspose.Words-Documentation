@@ -42,7 +42,7 @@ The following code example shows how to use this property:
 
 ## Use ResourceLoadingCallback to Control the External Resources Loading
 
-A document may contain external links to images located somewhere on a local disk, network, or Internet. Aspose.Words automatically loads such images into a document, but there are situations when this process needs to be controlled. For example, to decide whether we really need to load a certain image or perhaps skip it. The [ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/resourceloadingcallback) load option allows you to control this.
+A document may contain external links to images located somewhere on a local disk, network, or Internet. Aspose.Words automatically loads such images into a document, but there are situations when this process needs to be controlled. For example, to decide whether we really need to load a certain image or perhaps skip it. The [ResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/resourceloadingcallback) load option enables you to control this.
 
 The following code example demonstrates the implementation of the [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback) interface:
 
@@ -64,7 +64,7 @@ The following code example shows how to set **TempFolder**:
 
 ## Set the Encoding Explicitly
 
-Most modern document formats store their content in Unicode and do not require special handling. On the other hand, there are still several documents that use some pre-Unicode encoding and sometimes either miss encoding information or do not even support encoding information by nature. Aspose.Words tries to automatically detect the appropriate encoding by default, but in a rare case you may need to use an encoding different from the one detected by our encoding recognition algorithm. In this case, use the [Encoding](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/encoding) property to get or set the encoding.
+Most modern document formats store their content in Unicode and do not require special handling. On the other hand, there are still multiple documents that use some pre-Unicode encoding and sometimes either miss encoding information or do not even support encoding information by nature. Aspose.Words tries to automatically detect the appropriate encoding by default, but in a rare case you may need to use an encoding different from the one detected by our encoding recognition algorithm. In this case, use the [Encoding](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/encoding) property to get or set the encoding.
 
 The following code example shows how to set the encoding to override the automatically chosen encoding:
 
@@ -74,12 +74,12 @@ The following code example shows how to set the encoding to override the automa
 
 You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions) object. This object contains the [Password](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/password) property, which specifies the password string.
 
-The following code example demonstrates how to load a document encrypted with a password:
+The following code example shows how to load a document encrypted with a password:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-OpenEncryptedDocument-OpenEncryptedDocument.cs" >}}
 
 If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/words/net/aspose.words/fileformatutil) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the [IsEncrypted](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo/properties/isencrypted) property.
 
-The following code example demonstrates how to verify OpenDocument either it is encrypted or not:
+The following code example shows how to verify OpenDocument either it is encrypted or not:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-VerifyODTdocument.cs" >}}

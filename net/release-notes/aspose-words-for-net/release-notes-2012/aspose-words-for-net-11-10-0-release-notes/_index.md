@@ -41,7 +41,7 @@ There are 157 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-5589|DOTX to DOT: DrawingML picture is not converting to Shape object|Bug|
 |WORDSNET-5724|css drop while converting html to png/tiff|Bug|
 |WORDSNET-5970|While converting doc to mhtml, bullet points behaves like symbol and Times New Roman spaces.|Bug|
-|WORDSNET-6188|There should be at least multiple pages of content before truncation in evaluation mode|Bug|
+|WORDSNET-6188|There should be at least many pages of content before truncation in evaluation mode|Bug|
 |WORDSNET-6274|Section break (Continues) in ODT is rendering as a Page Break in PDF|Bug|
 |WORDSNET-6893|Docx to EPUB conversion issue, bullets displayed as question marks in output EPUB|Bug|
 |WORDSNET-6991|UpdateFields calculates QUOTE field value incorrectly|Bug|

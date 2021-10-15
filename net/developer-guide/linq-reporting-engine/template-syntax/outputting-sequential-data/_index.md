@@ -86,7 +86,7 @@ In this case, the engine produces a report as follows.
 
 ## Working with Table-Row Data Bands
 
-A table-row data band is a data band which body occupies single or numerous rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
+A table-row data band is a data band which body occupies single or a few rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
 ||||
 | :- | :- | :- |
@@ -361,7 +361,7 @@ In this case, the engine produces a report as follows.
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 
-The following code example demonstrates how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
+The following code example shows how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-LINQ-ChartSeries-SetChartSeriesNameDynamically.cs" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Charts
 type: docs
 weight: 50
@@ -11,7 +11,7 @@ New [InsertChart](http://www.aspose.com/api/net/words/aspose.words.documentbuild
 
 ### How to Insert Column chart
 
-Below examples shows how to insert column chart.
+Below examples demonstrates how to insert column chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertSimpleColumnChart.cs" >}}
 
@@ -30,7 +30,7 @@ The code produces the following result:
 
 ### How to Insert Scatter Chart
 
-Below example demonstrates how to insert a scatter chart.
+Below example shows how to insert a scatter chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertScatterChart-InsertScatterChart.cs" >}}
 
@@ -50,7 +50,7 @@ The code produces the following result:
 
 ### How to Insert Bubble Chart
 
-Below example demonstrates how to insert a bubble chart.
+Below example shows how to insert a bubble chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertBubbleChart-InsertBubbleChart.cs" >}}
 
@@ -167,7 +167,7 @@ If you want to show or hide the chart axis, you can simply achieve this by setti
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.TickLabelAlignment property. The following code example demonstrates how to tick label alignment.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.TickLabelAlignment property. The following code example shows how to tick label alignment.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cs" >}}
 
@@ -181,7 +181,7 @@ MS Word aligns Chart Label to the centre by default.
 
 Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the ChartFormat type in the ChartSeries, ChartDataPoint, and ChartMarker classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
 
-The following code example shows how to set series color:
+The following code example demonstrates how to set series color:
 
 {{< highlight csharp >}}
 
@@ -212,7 +212,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save(dir + "ColumnColor.docx");
 {{< /highlight >}}
 
-The following code example shows how to set line color and weight:
+The following code example demonstrates how to set line color and weight:
 
 {{< highlight csharp >}}
 

@@ -1,18 +1,18 @@
 ﻿---
 title: Document Builder Overview
 type: docs
-description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with C++."
+description: "DocumentBuilder enables you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with C++."
 weight: 15
 url: /cpp/document-builder-overview/
 ---
 
 [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) and allows you to build dynamic documents from scratch or add new elements to an existing one.
 
-**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
+**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It enables you to specify fonts, paragraph or section formatting, and perform other operations.
 
 ## Document Builder or Aspose.Words DOM
 
-**DocumentBuilder** complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The DocumentBuilder is a "facade" for the complex **Document** structure that enables you to quickly and easily insert content and formatting.
+**DocumentBuilder** complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The DocumentBuilder is a "facade" for the complex **Document** structure that allows you to quickly and easily insert content and formatting.
 
 Operations that are possible with **DocumentBuilder** are also possible when using the classes of the Aspose.Words DOM directly. However, using Aspose.Words DOM classes directly usually requires more lines of code than using **DocumentBuilder**.
 
@@ -46,7 +46,7 @@ The following code example demonstrates how to create a simple document using a 
 
 The [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_bold), [Font.Italic](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_italic), and [Font.Underline](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_underline) boolean properties.
 
-The following code example shows how to insert a formatted text using **DocumentBuilder**:
+The following code example demonstrates how to insert a formatted text using **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cpp" >}}
 

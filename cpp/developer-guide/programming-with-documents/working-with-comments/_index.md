@@ -67,7 +67,7 @@ The code example given below shows how to add a comment to a paragraph in the do
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AddComments-AddComments.cpp" >}}
 
-The code example given below demonstrates how to anchor a comment to a region of text.
+The code example given below shows how to anchor a comment to a region of text.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AnchorComment-AnchorComment.cpp" >}}
 
@@ -79,7 +79,7 @@ The code example given below shows how to remove text between CommentRangeStart
 
 ## How to Read Comment's Reply
 
-Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below shows how to iterate through a comment's replies and resolved them.
+Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below demonstrates how to iterate through a comment's replies and resolved them.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cpp" >}}
 

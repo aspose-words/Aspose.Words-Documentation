@@ -26,7 +26,7 @@ The drawback of this method is that the table in the generated document might lo
 
 ## Export Tables and Matrices as Textboxes
 
-In some rare cases you might find it better to export tables and matrices as a set of textboxes and rectangle shapes (each cell will be represented by a textbox). This could make the generated document look more like the original report, but it could make further manual editing in Microsoft Word harder (the user will have to deal with many adjacent textboxes instead of a single table).
+In some rare cases you might find it better to export tables and matrices as a set of textboxes and rectangle shapes (each cell will be represented by a textbox). This could make the generated document look more like the original report, but it could make further manual editing in Microsoft Word harder (the user will have to deal with numerous adjacent textboxes instead of a single table).
 
 To export RDL tables and matrices as textboxes, add the following lines to the *<Extension>* element corresponding to a particular renderer: 
 

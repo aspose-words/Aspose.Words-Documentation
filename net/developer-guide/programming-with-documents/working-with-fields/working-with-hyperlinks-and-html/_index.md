@@ -13,7 +13,7 @@ Use DocumentBuilder.InsertHyperlink to insert a hyperlink into the document. T
 
 ## Replace or Modify Hyperlinks
 
-Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of several nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. 
+Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of several nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span numerous paragraphs or sections in a document. 
 
 The FieldHyperlink class implements the HYPERLINK field. Below example finds all hyperlinks in a Word document and changes their URL and display name.
 
@@ -21,6 +21,6 @@ The FieldHyperlink class implements the HYPERLINK field. Below example finds al
 
 ## Inserting HTML
 
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example demonstrates inserts HTML into a document using DocumentBuilder.
+You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cs" >}}

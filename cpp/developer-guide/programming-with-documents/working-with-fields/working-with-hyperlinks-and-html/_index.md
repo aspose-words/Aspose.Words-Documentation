@@ -14,7 +14,7 @@ Use DocumentBuilder.InsertHyperlink to insert a hyperlink into the document. T
 
 ## Replace or Modify Hyperlinks
 
-Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of several nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span numerous paragraphs or sections in a document. 
+Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span several paragraphs or sections in a document. 
 
 The FieldHyperlink class implements the HYPERLINK field. The code example given below finds all hyperlinks in a Word document and changes their URL and display name.
 

@@ -1,6 +1,6 @@
 ﻿---
 title: Restrict Document Editing
-description: "Aspose.Words for Java enables to restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions."
+description: "Aspose.Words for Java allows to restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions."
 type: docs
 weight: 30
 url: /java/restrict-document-editing/
@@ -8,7 +8,7 @@ url: /java/restrict-document-editing/
 
 Sometimes you may need to limit the ability to edit a document and only allow certain actions with it. This can be useful to prevent other people from editing sensitive and confidential information in your document.
 
-Aspose.Words enables you to restrict editing a document by setting a restriction type. In addition, Aspose.Words also enables you to specify write protection settings for a document.
+Aspose.Words enables you to restrict editing a document by setting a restriction type. In addition, Aspose.Words also allows you to specify write protection settings for a document.
 
 This article explains how to use Aspose.Words to select a restriction type, how to add or remove protection, and how to make unrestricted editable regions.
 
@@ -28,7 +28,7 @@ If you did not set a password when choosing the security type, other users can s
 
 {{% alert color="primary" %}}
 
-Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Unprotect](https://apireference.aspose.com/words/java/com.aspose.words/document#unprotect()) method demonstrates just that.
+Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Unprotect](https://apireference.aspose.com/words/java/com.aspose.words/document#unprotect()) method shows just that.
 
 {{% /alert %}}
 
@@ -67,9 +67,9 @@ The following code example demonstrates how to remove protection from your docum
 
 You can restrict editing of your document and at the same time allow changes to selected parts of it. So, anyone who opens your document will be able to access these unrestricted parts and make changes to the content.
 
-Aspose.Words allows you to mark the parts that can be changed in your document using the [StartEditableRange](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#startEditableRange()) and [EndEditableRange](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endEditableRange()) methods.
+Aspose.Words enables you to mark the parts that can be changed in your document using the [StartEditableRange](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#startEditableRange()) and [EndEditableRange](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endEditableRange()) methods.
 
-The following code example demonstrates how to mark the whole document as read-only and specify editable regions in it:
+The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-UnrestrictedEditableRegions.java" >}}
 

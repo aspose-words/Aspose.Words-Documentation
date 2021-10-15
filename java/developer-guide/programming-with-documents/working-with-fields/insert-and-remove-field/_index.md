@@ -19,7 +19,7 @@ The following code example demonstrates how to Inserts a merge field into a docu
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-1.java" >}}
 
-The same technique is used to insert fields nested within other fields. The following code example shows how to insert fields nested within another field using DocumentBuilder.
+The same technique is used to insert fields nested within other fields. The following code example demonstrates how to insert fields nested within another field using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-1.java" >}}
 
@@ -95,7 +95,7 @@ AUTHOR field is used to specify the name of Document's author from the Document 
 - Specify the document author's name.
   For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldAuthor).
 
-Below example shows how to Add a AUTHOR Field using DOM to a Paragraph in Document.
+Below example demonstrates how to Add a AUTHOR Field using DOM to a Paragraph in Document.
 
 **Java**
 
@@ -150,7 +150,7 @@ Sometimes it is necessary to remove a field from the document. This may occur wh
 
 ## How to Apply Custom Formatting to Field Result
 
-Aspose.Words provides API for custom formatting of field's result. You can implement IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. Following code example shows how to apply custom formatting for field's result.
+Aspose.Words provides API for custom formatting of field's result. You can implement IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. Following code example demonstrates how to apply custom formatting for field's result.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormatFieldResult-FormatFieldResult.java" >}}
 
@@ -158,7 +158,7 @@ Aspose.Words provides API for custom formatting of field's result. You can imple
 
 ## How to evaluate IF condition
 
-If you want to evaluate IF condition after mail merge, you can use FieldIf.EvaluateCondition method that immediately returns the result of expression's evaluation. Below code example shows how to use this method.
+If you want to evaluate IF condition after mail merge, you can use FieldIf.EvaluateCondition method that immediately returns the result of expression's evaluation. Below code example demonstrates how to use this method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-EvaluateIFCondition-EvaluateIFCondition.java" >}}
 
@@ -174,12 +174,12 @@ The code example shows how to insert empty field in the document.
 
 ### Insert Compare Field in Word Document
 
-COMPARE field compares two values and returns the numeric value 1 if the comparison is true or 0 if the comparison is false. The following example shows how to add COMPARE fields by using DocumentBuilder to a Word Document:
+COMPARE field compares two values and returns the numeric value 1 if the comparison is true or 0 if the comparison is false. The following example demonstrates how to add COMPARE fields by using DocumentBuilder to a Word Document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
 ### Insert IF Field in Word Document
 
-IF field can be used to evaluate arguments conditionally. The following example demonstrates how to add IF fields by using DocumentBuilder to a Word Document:
+IF field can be used to evaluate arguments conditionally. The following example shows how to add IF fields by using DocumentBuilder to a Word Document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}

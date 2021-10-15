@@ -39,7 +39,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 {{% /alert %}}
 
-The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
+The following code example demonstrates how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentPageSetup-DocumentPageSetup.java" >}}
 
@@ -67,7 +67,7 @@ The following code example shows how to set Russian as the default editing langu
 
 The [OptimizeFor](https://apireference.aspose.com/words/java/com.aspose.words/compatibilityoptions#optimizeFor(int)) method enables optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.
 
-The following code example demonstrates how to optimize document content for Microsoft Word 2016:
+The following code example shows how to optimize document content for Microsoft Word 2016:
 
 {{< highlight csharp >}}
 Document doc = new Document(dataDir + "Document.docx");

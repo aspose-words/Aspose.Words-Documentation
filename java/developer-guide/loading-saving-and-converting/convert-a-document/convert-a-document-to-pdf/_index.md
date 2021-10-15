@@ -1,6 +1,6 @@
 ﻿---
 title: Convert a Document to PDF
-description: "Aspose.Words for Java enables you to convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms."
+description: "Aspose.Words for Java allows you to convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms."
 aliases: 
     - /java/converting-a-microsoft-word-document-using-save-method/
 type: docs
@@ -12,7 +12,7 @@ The ability to easily and reliably convert documents from one format to another 
 
 ## Convert a Word Document to PDF
 
-Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
+Conversion from Word to PDF is a rather complex process that requires many stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
 
 With Aspose.Words you can programmatically convert a document from DOC or DOCX format to PDF without using Microsoft Office. This article explains how to perform this conversion.
 
@@ -29,7 +29,7 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 1. Load your document into a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object using one of its constructors by specifying the document name with its format extension.
 1. Invoke one of the [Document.Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,int\)) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
-The following code example shows how to convert a document from DOCX into PDF using the Save method:
+The following code example demonstrates how to convert a document from DOCX into PDF using the Save method:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-Doc2Pdf.java" >}}
 

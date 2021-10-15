@@ -17,7 +17,7 @@ One way to separate concerns in a software application is to use a Model-View-Co
 
 ## Aspose.Words for Java
 
-Aspose.Words for Java is an advanced class library for Java that allows you to perform a great range of document processing tasks directly within your Java
+Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
 applications.
 
 Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can

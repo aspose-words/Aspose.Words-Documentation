@@ -1,6 +1,6 @@
 ﻿---
 title: Working with Hyphenation
-description: "Aspose.Words for .NET allows to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
+description: "Aspose.Words for .NET enables to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 115
 url: /net/working-with-hyphenation/
@@ -10,7 +10,7 @@ Sometimes it is necessary to use hyphenation for a more compact arrangement of t
 
 At the present time, hyphenation is not used as often as it used to be, especially in English texts. Nevertheless, the use of this feature can have a serious impact on user documents – hyphenation affects the layout and, as a result, the appearance of the output files, for example, in PDF format.
 
-For correct splitting of words, language-specific hyphenation dictionaries are used. Aspose.Words uses advanced algorithms to work with such dictionaries and allows you to get the same hyphenation as in Microsoft Word.
+For correct splitting of words, language-specific hyphenation dictionaries are used. Aspose.Words uses advanced algorithms to work with such dictionaries and enables you to get the same hyphenation as in Microsoft Word.
 
 ## Hyphenation Dictionaries
 

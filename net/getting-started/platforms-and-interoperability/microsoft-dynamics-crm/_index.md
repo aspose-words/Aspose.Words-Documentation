@@ -19,7 +19,7 @@ Aspose.Words for .NET supports DOC, OOXML, RTF, HTML, OpenDocument, PDF, XPS, EP
 
 ## Aspose.Words for CRM
 
-Aspose .NET can be used with Dynamics CRM in a few ways. When you are working with documents, either it is document generation or document processing, you need to look at the Aspose APIs which can deliver quick results with minimum lines of code. Checkout our add-on examples below, these add-on will help you using Aspose in your application.
+Aspose .NET can be used with Dynamics CRM in several ways. When you are working with documents, either it is document generation or document processing, you need to look at the Aspose APIs which can deliver quick results with minimum lines of code. Checkout our add-on examples below, these add-on will help you using Aspose in your application.
 
 We have created the following plugins for CRM using Aspose.Words
 

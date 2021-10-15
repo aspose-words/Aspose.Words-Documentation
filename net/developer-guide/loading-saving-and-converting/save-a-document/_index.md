@@ -1,4 +1,4 @@
----
+﻿---
 title: "Save a Document"
 aliases: [/net/saving-a-document/]
 type: docs
@@ -14,7 +14,7 @@ Most of the tasks you need to perform with Aspose.Words involve saving a documen
 
 Simply use the [Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
 
-The following code example shows how to load and save a document to a file:
+The following code example demonstrates how to load and save a document to a file:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToDisk-LoadAndSave.cs" >}}
 
@@ -24,17 +24,17 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-## Save a Document to a Stream {#save-a-document-to-a-stream}
+## Save to a Stream {#save-a-document-to-a-stream}
 
 Pass a stream object to the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save) method. It's necessary to specify the save format explicitly when saving to a stream.
 
-The following code example shows how to load and save a document to a stream:
+The following code example demonstrates how to load and save a document to a stream:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToStream-LoadAndSaveToStream.cs" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
-## Send a Document to a Browser {#sending-a-document-to-a-client-browser}
+## Send a Document to a Client Browser {#sending-a-document-to-a-client-browser}
 
 In order to send a document to a client browser, use a special overload that takes four parameters: file name, save format, save type, and an ASP .NET HttpResponse object. The way the document will be presented to the user is represented by the [ContentDisposition](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) enumeration, which determines whether the document sent to the browser will provide an option to open itself directly in the browser or in the application associated with the file extension.
 

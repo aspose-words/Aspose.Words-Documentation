@@ -16,7 +16,7 @@ Other interesting examples of extending standard mail merge using event handlers
 - Insert images from any custom storage (files, BLOB fields, etc).
 - Insert text with formatting (font, size, style, etc).
 
-This screenshot of Microsoft Word demonstrates a template document with the merge fields: 
+This screenshot of Microsoft Word shows a template document with the merge fields: 
 
 ![insert-checkboxes-html-or-images-during-mail-merge-aspose-words-java-1](insert-checkboxes-html-or-images-during-mail-merge_1.png)
 
@@ -40,7 +40,7 @@ The **MailMerge.FieldMergingCallback** property accepts a class implementing the
 
 While merging an image merge field, you may sometimes require controlling various image properties, in particular, **WrapType**. Currently, using **ImageFieldMergingArgs** you can only set image width or height properties, respectively. To overcome this issue, Aspose.Words provides **ImageFieldMergingArgs.Shape** property which facilitates to get full control over the image (or any other shape) being inserted.
 
-The following code example demonstrates how to set various image properties. 
+The following code example shows how to set various image properties. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageField-MailMergeImageField.java" >}}
 

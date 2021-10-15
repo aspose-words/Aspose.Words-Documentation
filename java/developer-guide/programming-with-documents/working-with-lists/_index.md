@@ -11,7 +11,7 @@ A list in a Microsoft Word document is a set of list formatting properties. Each
 
 ## Creating Lists by Applying List Formatting
 
-Aspose.Words enables the easy creation of lists by applying list formatting. DocumentBuilder provides the DocumentBuilder.ListFormat property that returns a ListFormat object. This object has many methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
+Aspose.Words allows the easy creation of lists by applying list formatting. DocumentBuilder provides the DocumentBuilder.ListFormat property that returns a ListFormat object. This object has multiple methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
 
 - To start a bulleted list, call [ListFormat.ApplyBulletDefault](https://apireference.aspose.com/words/java/com.aspose.words/listformat#applyBulletDefault()) .
 - To start a numbered list, call [ListFormat.ApplyNumberDefault](https://apireference.aspose.com/words/java/com.aspose.words/listformat#applyNumberDefault()) .

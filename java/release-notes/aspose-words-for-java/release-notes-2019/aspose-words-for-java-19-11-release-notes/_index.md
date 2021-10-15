@@ -103,7 +103,7 @@ This page contains release notes for [Aspose.Words for Java 19.11](https://repos
 |WORDSNET-13190|Chinese text moves to next line after conversion from DOCX to PDF|Bug|
 |WORDSNET-9076|Empty spaces appear after conversion from DOC to HTML|Bug|
 |WORDSNET-13414|Table's rows are moved to previous page in output PDF|Bug|
-|WORDSNET-13488|Google translate shows different result for Aspose.Words generated PDF content|Bug|
+|WORDSNET-13488|Google translate demonstrates different result for Aspose.Words generated PDF content|Bug|
 |WORDSNET-13053|Chinese text moves to next lines at each page of TIFF/PDF|Bug|
 |WORDSNET-12697|Cell's text is truncated after saving DOCX to PDF|Bug|
 |WORDSNET-12420|DOC to PDF conversion issue with image rendering|Bug|

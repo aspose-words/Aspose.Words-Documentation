@@ -150,7 +150,7 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 - Fields can be nested within a field code as well as in the field result.
 - Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- Fields that span across a few paragraphs.
+- Fields that span across multiple paragraphs.
 
 #### Formula Fields
 
@@ -226,13 +226,13 @@ Below example shows how to change the culture used in formatting fields during u
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ChangeLocale-ChangeLocale.cs" >}}
 
-Using the current culture to format fields allows a system to easily and consistently control how all fields in the document are formatted during field update.
+Using the current culture to format fields enables a system to easily and consistently control how all fields in the document are formatted during field update.
 
 #### Formatting using the Culture in the Document
 
-On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of several different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
+On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of a few different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
 
-The [Document](http://www.aspose.com/api/net/words/aspose.words/document) class provides a [FieldOptions](http://www.aspose.com/api/net/words/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document. Below example demonstrates how to specify where the culture used for date formatting during field update and mail merge is chosen from.
+The [Document](http://www.aspose.com/api/net/words/aspose.words/document) class provides a [FieldOptions](http://www.aspose.com/api/net/words/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}
 
@@ -244,7 +244,7 @@ A field which is inserted using DocumentBuilder.InsertField returns a Field obje
 
 ## How to Rename Merge Fields
 
-Below example shows how to rename merge fields in a Word document.
+Below example demonstrates how to rename merge fields in a Word document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs" >}}
 

@@ -108,7 +108,7 @@ This page contains release notes for [Aspose.Words for Java 19.7](https://reposi
 |WORDSNET-18649|Horizontal Axis of chart does not render correctly|Bug|
 |WORDSNET-18731|DOCX to HtmlFixed conversion issue with inline content control|Bug|
 |WORDSNET-18181|Image quality of OLE icon is lost after conversion from RTF to HTML|Bug|
-|WORDSNET-18765|'too several styles in the document' exception upon loading a RTF|Bug|
+|WORDSNET-18765|'too numerous styles in the document' exception upon loading a RTF|Bug|
 |WORDSNET-18675|Aspose removing foreign characters on converting to PDF|Bug|
 |WORDSNET-18676|System.IndexOutOfRangeException occurs upon UpdatePageLayout|Bug|
 |WORDSNET-18684|Failed few test from TestLineCaps class|Bug|

@@ -27,7 +27,7 @@ To Copy Bookmarked Text using **Aspose.Words Java for Jython**. Here you can see
         dstNode = dstDoc.getLastSection().getBody()
     
         # It is a good idea to use this import context object because many nodes are being imported.
-        # If you import multiple times without a single context, it will result in many styles created.
+        # If you import numerous times without a single context, it will result in a few styles created.
         importer = NodeImporter(srcDoc, dstDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)
     
         # Do it once.

@@ -14,11 +14,11 @@ Aspose.Words provides functionality for extracting this type of content in the s
 
 All the content in a document drawing layer is represented by the [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape) or [GroupShape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.group_shape/) node in the Aspose.Words Document Object Module (DOM). Such contents can be text boxes, images, AutoShapes, OLE objects, etc. Some fields are also imported as shapes, for example, the INCLUDEPICTURE field.
 
-A simple image is represented by a **Shape** node of [ShapeType.Image](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing/#shapetype). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.ImageData](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape/#get_imagedata) property. On the other hand, a shape can also be made up of several child nodes. For instance, a text box shape, which is represented by the [ShapeType.TextBox](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing#shapetype) property, can be made up of a few nodes, such as [Paragraph](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph/) and [Table](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table/). Most shapes can include the **Paragraph** and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the **Paragraph,** but “floating” anywhere in the document page.
+A simple image is represented by a **Shape** node of [ShapeType.Image](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing/#shapetype). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.ImageData](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape/#get_imagedata) property. On the other hand, a shape can also be made up of numerous child nodes. For instance, a text box shape, which is represented by the [ShapeType.TextBox](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing#shapetype) property, can be made up of many nodes, such as [Paragraph](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph/) and [Table](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table/). Most shapes can include the **Paragraph** and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the **Paragraph,** but “floating” anywhere in the document page.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-cpp-1](rendering-shapes-separately-from-a-document_1.png)
 
-A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting several objects and clicking “Group” in the right-click menu.
+A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting many objects and clicking “Group” in the right-click menu.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-cpp-2](rendering-shapes-separately-from-a-document_2.png)
 
@@ -54,7 +54,7 @@ The code example below illustrates rendering a shape to a JPEG image separately
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-RenderShape-RenderShapeToStream.cpp" >}}
 
-The **ImageSaveOptions** class enables you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
+The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
 
 ## Rendering to a .NET Graphics Object
 
@@ -80,7 +80,7 @@ The following example demonstrates how to render a Shape image to a JPEG image s
 
 The [ShapeRenderer](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.shape_renderer/) class also provides functionality to retrieve the size of the shape in pixels through the [GetSizeInPixels](https://apireference.aspose.com/words/cpp/class/aspose.words.rendering.node_renderer_base/#getsizeinpixels_float_float_float) method. This method accepts two float type (Single) parameters – the scale and DPI, which are used in the calculation of the shape size when the shape is rendered. The method returns the Size object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance, for example when creating a new Bitmap from the rendered output.
 
-The below example demonstrates how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered:
+The below example shows how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-RenderShape-FindShapeSizes.cpp" >}}
 

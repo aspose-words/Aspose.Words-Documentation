@@ -1,4 +1,4 @@
----
+﻿---
 title: Extract Image from Word Document
 description: "Aspose.Words for .NET allows you to extract image from a document easily and fast instead of using Open XML SDK."
 type: docs

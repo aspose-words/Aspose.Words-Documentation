@@ -7,7 +7,7 @@ url: /java/field-features-supported-on-html-import/
 
 {{% alert color="primary" %}} 
 
-Fields are place holders in the document which can be dynamically updated to display new information. The most common type of fields is MergeFields and Page fields. The first enables you to merge data into a document, the latter displays the current page number of the page where the field appears on.
+Fields are place holders in the document which can be dynamically updated to display new information. The most common type of fields is MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
 Aspose.Words supports almost all common field types and can perform field update on most field types, even ones with complex content. This includes the TOC (Table of Contents) field. With one call to Document.UpdateFields the TOC field or any other supported field is fully updated. New or existing fields are fully updated by the Aspose.Words field engine. There is a document option to control the culture/locale used during field update. This can be the language setting of the field in the document or the current culture/locale used by the application.
 
@@ -237,7 +237,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Text|Yes| | |
 |Hyperlinked Shape or Image|Yes| | |
-|Hyperlink across Multiple Paragraphs|N/A|Hyperlinks across several paragraphs are exported as separate hyperlinks. On round-trip, these are imported as multiple separate hyperlinks.| |
+|Hyperlink across Multiple Paragraphs|N/A|Hyperlinks across numerous paragraphs are exported as separate hyperlinks. On round-trip, these are imported as a few separate hyperlinks.| |
 |Hyperlink to a Local Bookmark|Yes| | |
 |Hyperlink to an External Resource|Yes| | |
 |Screen Tip|Planned| | |

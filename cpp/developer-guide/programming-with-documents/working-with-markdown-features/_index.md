@@ -29,7 +29,7 @@ There are nuances of translating Markdown to the Aspose.Words Document Object Mo
 
 ## Markdown Document with Emphases
 
-This section shows you how to produce a markdown document with emphases as given below:
+This section demonstrates you how to produce a markdown document with emphases as given below:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -44,7 +44,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Markdown Document with Headings
 
-This section demonstrates you how to produce a markdown document with headings as given below:
+This section shows you how to produce a markdown document with headings as given below:
 
 {{< highlight csharp >}}
 The following produces headings:
@@ -97,7 +97,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Reading a Markdown Document
 
-The following code snippet shows you how to read a markdown document.
+The following code snippet demonstrates you how to read a markdown document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithMarkdownFeatures-ReadMarkdownDocument.cpp" >}}
 

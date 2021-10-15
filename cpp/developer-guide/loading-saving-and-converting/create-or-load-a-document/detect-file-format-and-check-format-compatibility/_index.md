@@ -1,6 +1,6 @@
 ﻿---
 title: Detect File Format and Check Format Compatibility
-description: "Aspose.Words for C++ allows you to determine the file format if you are not sure what the actual content of the file is, or to check the format compatibility. This enables to avoid possible exceptions."
+description: "Aspose.Words for C++ enables you to determine the file format if you are not sure what the actual content of the file is, or to check the format compatibility. This enables to avoid possible exceptions."
 type: docs
 weight: 20
 url: /cpp/detect-file-format-and-check-format-compatibility/
@@ -34,7 +34,7 @@ The following code example shows how to get a list of all the files in the folde
 
 When all the files are collected, the rest of the work is done by the **DetectFileFormat** method, which checks the file format.
 
-The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
+The following code example demonstrates how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-CheckFormat-CheckFormatCompatibility.cpp" >}}
 

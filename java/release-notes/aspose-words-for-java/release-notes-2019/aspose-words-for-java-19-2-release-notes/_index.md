@@ -196,7 +196,7 @@ public class FontSettings
 /// </summary>
 /// <remarks>
 /// <para>
-/// Font substitution process consists of many rules which are checked one by one in specific order.
+/// Font substitution process consists of several rules which are checked one by one in specific order.
 /// If the first rule can't resolve the font then second rule is checked and so on.</para>
 /// <para>The order of the rules is following:
 /// 1. Font config substitution rule (disabled by default)

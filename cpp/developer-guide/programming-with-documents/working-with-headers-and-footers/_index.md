@@ -27,7 +27,7 @@ Special attention is given to the following issues:
 
 {{% /alert %}} 
 
-The code example given below demonstrates how to create headers footers using DocumentBuilder.
+The code example given below shows how to create headers footers using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-CreateHeaderFooterUsingDocBuilder-CreateHeaderFooterUsingDocBuilder.cpp" >}}
 

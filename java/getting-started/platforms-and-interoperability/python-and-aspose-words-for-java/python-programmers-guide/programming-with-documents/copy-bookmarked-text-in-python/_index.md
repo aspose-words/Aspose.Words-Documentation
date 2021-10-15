@@ -23,7 +23,7 @@ dstDoc = self.Document()
 \# Let's say we will be appending to the end of the body of the last section.
 dstNode = dstDoc.getLastSection().getBody()
 \# It is a good idea to use this import context object because a few nodes are being imported.
-\# If you import many times without a single context, it will result in numerous styles created.
+\# If you import a few times without a single context, it will result in numerous styles created.
 importer = self.NodeImporter(srcDoc, dstDoc, self.ImportFormatMode.KEEP_SOURCE_FORMATTING)
 \# Do it once.
 self.appendBookmarkedText(importer, srcBookmark, dstNode)

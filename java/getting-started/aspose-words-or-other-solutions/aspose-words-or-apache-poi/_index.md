@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words or Apache POI
-description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words enables to perform a large number of tasks with documents faster and more conveniently than POI."
+description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words allows to perform a large number of tasks with documents faster and more conveniently than POI."
 type: docs
 weight: 30
 url: /java/aspose-words-java-for-apache-poi/
@@ -48,7 +48,7 @@ Aspose components are highly scalable and lightning fast. They are a true Java s
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Aspose components provide numerous powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/java/?gclid=EAIaIQobChMI3-HX4PDI8gIVDKxoCh2CKwMnEAEYASAAEgJTm_D_BwE) offers a feature that allows developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](https://docs.aspose.com/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Aspose components provide numerous powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/java/?gclid=EAIaIQobChMI3-HX4PDI8gIVDKxoCh2CKwMnEAEYASAAEgJTm_D_BwE) offers a feature that enables developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](https://docs.aspose.com/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 ## See Also
 

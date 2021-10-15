@@ -8,7 +8,7 @@ aliases: [/java/how-to-insert-and-work-with-the-table-of-contents-field/]
 
 ## Insert and Work with the Table of Contents Field
 
-Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just numerous lines of code.
+Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just multiple lines of code.
 
 This article outlines how to work with the table of contents field and demonstrates:
 
@@ -22,11 +22,11 @@ This article outlines how to work with the table of contents field and demonstra
 
 The [DocumentBuilder.insertTableOfContents(java.lang.String)](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTableOfContents(java.lang.String)) method is called to insert a TOC field into the document at the current position of the DocumentBuilder.
 
-A table of contents in a Word document can be built in numerous ways and formatted using a variety of options. The field switches that you pass to the method control the way the table is built and displayed in your document.
+A table of contents in a Word document can be built in several ways and formatted using a variety of options. The field switches that you pass to the method control the way the table is built and displayed in your document.
 
 The default switches that are used in a TOC inserted in Microsoft Word are **“\o “1-3 \h \z \u”**. Descriptions of these switches as well as a list of supported switches can be found later in the article. You can either use that guide to obtain the correct switches or if you already have a document containing the similar TOC that you want you can show field codes (*ALT+F9*) and copy the switches directly from the field.
 
-The following code example shows how to insert a Table of Contents field into a document.
+The following code example demonstrates how to insert a Table of Contents field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-.java" >}}
 
@@ -42,7 +42,7 @@ Without these calls when the output document is opened you would find that there
 
 ### Updating the Table of Contents
 
-Aspose.Words allows you to completely update a TOC with only several lines of code. This can be done to populate a newly inserted TOC or to update an existing TOC after changes to the document have been made.
+Aspose.Words enables you to completely update a TOC with only numerous lines of code. This can be done to populate a newly inserted TOC or to update an existing TOC after changes to the document have been made.
 
 The following two methods must be used to update the TOC fields in the document:
 
@@ -51,7 +51,7 @@ The following two methods must be used to update the TOC fields in the document:
 
 Please note that these two update methods are required to be called in that order. If reversed the table of contents will be populated but no page numbers will be displayed. Any number of different TOCs can be updated. These methods will automatically update all TOCs found in the document.
 
-The following code example shows how to completely rebuild TOC fields in the document by invoking field updates.
+The following code example demonstrates how to completely rebuild TOC fields in the document by invoking field updates.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
@@ -91,15 +91,15 @@ If a switch is not listed here then it is currently unsupported.  All switches 
 |**Omit Page Numbers** <br> *(\N Switch)* |<p>This switch is used to hide page numbers for certain levels of the TOC. For example, you can define </p><p>{{< highlight csharp >}}
 {TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p><p>and the page numbers on the entries of levels 3 and four will be hidden along with the leader dots (if there are any). To specify only one level a range should still be used, for example, “1-1” will exclude page numbers only for the first level. <br>Supplying no level range will omit page numbers for all levels in the TOC. This is useful to set when exporting a document to HTML or a similar format. This is because HTML based formats don’t have any page concept and thus don’t need any page numbering. </p><p>![table-of-contents-aspose-words-java](how-to-insert-and-work-with-the-table-of-contents-field_7.png)</p>|
 |Insert As Hyperlinks <br> *(\H Switch)* |<p>This switch specifies that TOC entries are inserted as hyperlinks. When viewing a document in Microsoft Word these entries will still appear as normal text inside the TOC but are hyperlinked and thus can be used to navigate to the position of the original entry in the document by using *Ctrl + Left Click* in Microsoft Word. When this switch is included then these links are also preserved in other formats. For instance, in HTML based formats including EPUB and rendered formats such as PDF and XPS, these will be exported as working links. <br>Without this switch set, the TOC in all of these outputs will be exported as plain text and will not demonstrate this behavior.  If a document is opened in MS Word the text of the entries will also not be clickable in this way but the page numbers can still be used to navigate to the original entry. </p><p>![tree-table-of-contents-field-aspose-words-java](how-to-insert-and-work-with-the-table-of-contents-field_8.png)</p>|
-|**Set Separator Character** <br> *(\P Switch)* <br> |<p>This switch allows the content separating the title of the entry and page numbering to be easily changed in the TOC. The separator to use should be specified after this switch and enclosed in speech marks. <br>Contrary to what is documented in Office documentation, only one character can be used instead of up to five. This applies to both MS Word and Aspose.Words. <br>Using this switch is not recommended as it does not allow much control over what it used to separate entries and page numbers in the TOC. Instead, it is recommended to edit the appropriate TOC style such as StyleIdentifier.TOC1 and from there edit the leader style with access to specific font members etc. Further details of how to do this can be found later in the article. </p><p>![list-table-of-contents-field-aspose-words-java](how-to-insert-and-work-with-the-table-of-contents-field_9.png)</p>|
+|**Set Separator Character** <br> *(\P Switch)* <br> |<p>This switch enables the content separating the title of the entry and page numbering to be easily changed in the TOC. The separator to use should be specified after this switch and enclosed in speech marks. <br>Contrary to what is documented in Office documentation, only one character can be used instead of up to five. This applies to both MS Word and Aspose.Words. <br>Using this switch is not recommended as it does not allow much control over what it used to separate entries and page numbers in the TOC. Instead, it is recommended to edit the appropriate TOC style such as StyleIdentifier.TOC1 and from there edit the leader style with access to specific font members etc. Further details of how to do this can be found later in the article. </p><p>![list-table-of-contents-field-aspose-words-java](how-to-insert-and-work-with-the-table-of-contents-field_9.png)</p>|
 |**Preserve Tab Entries** <br> *(\W Switch)* |<p>Using this switch will specify that any entries that have a tab character, for instance, a heading that has a tab at the end of the line, will be retained as a proper tab character when populating the TOC. This means the function of the tab character will be present in the TOC and can be used to format the entry. For example, certain entries may use tab stops and tab characters to evenly space out the text. As long as the corresponding TOC level defines the equivalent tab stops then the generated TOC entries will appear with similar spacing. <br><br>In the same situation if this switch was not defined then the tab characters would be converted to white space equivalent as non-functioning tabs. The output would then not appear as expected. </p><p>![tab-table-of-contents-field-aspose-words-java](how-to-insert-and-work-with-the-table-of-contents-field_10.png)</p>|
-|**Preserve New Line Entries** <br> *(\X Switch)* <br> |<p>Similar to the switch above, this switch specifies that headings spanning over many lines (using newline characters, not separate paragraphs) will be preserved as they are in the generated TOC. For example, a heading which is to spread across many lines can use the new line character (Ctrl + Enter or ControlChar.LineBreak) to separate content across different lines. With this switch specified, the entry in the TOC will preserve these new line characters as shown below. <br><br>In this situation, if the switch is not defined then the new line characters are converted to a single white space. </p><p>![tab-space-table-of-contents-field-aspose-words-java](how-to-insert-and-work-with-the-table-of-contents-field_11.png)</p>|
+|**Preserve New Line Entries** <br> *(\X Switch)* <br> |<p>Similar to the switch above, this switch specifies that headings spanning over many lines (using newline characters, not separate paragraphs) will be preserved as they are in the generated TOC. For example, a heading which is to spread across several lines can use the new line character (Ctrl + Enter or ControlChar.LineBreak) to separate content across different lines. With this switch specified, the entry in the TOC will preserve these new line characters as shown below. <br><br>In this situation, if the switch is not defined then the new line characters are converted to a single white space. </p><p>![tab-space-table-of-contents-field-aspose-words-java](how-to-insert-and-work-with-the-table-of-contents-field_11.png)</p>|
 
 ### Insert TC Fields
 
 You can insert a new TC field at the current position of the DocumentBuilder by calling the DocumentBuilder.InsertField method and specifying the field name as “TC” along with any switches that are needed.
 
-The following code example demonstrates how to insert a TC field into the document using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder).
+The following code example shows how to insert a TC field into the document using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertTCField-.java" >}}
 
@@ -127,7 +127,7 @@ Using the Style class retrieved for the particular TOC level you want to modify,
 
 To change how this appears firstly Style.ParagraphFormat must be called to retrieve the paragraph formatting for the style. From this, the tab stops can be retrieved by calling ParagraphFormat.TabStops and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed altogether.
 
-The following code example shows how to modify the position of the right tab stop in TOC related paragraphs.
+The following code example demonstrates how to modify the position of the right tab stop in TOC related paragraphs.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-ModifyPositionOfRightTabStopInTOC.java" >}}
 

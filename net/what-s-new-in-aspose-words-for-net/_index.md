@@ -1,4 +1,4 @@
----
+﻿---
 title: What's new in Aspose.Words for .NET
 type: docs
 description: "Aspose.Words for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
@@ -56,8 +56,6 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/net/aspo
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 21.9 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-9-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.10 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-10-release-notes/).
 
 {{% /alert %}}
 
@@ -120,8 +118,8 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 * Using Aspose.Words for .NET via COM Interop has been checked and the documentation has been modified according to the latest version of the VBScript engine.
 * A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 * An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
-* A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportlanguagetospantag) has been added. This option enables users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
-* A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
+* A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportlanguagetospantag) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
+* A new public field updating callback has been implemented. This enables you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}
 
@@ -270,7 +268,7 @@ HTML import has been modified. Previously, the [MswVersion](https://apireference
 
 ### Report Generation
 
-A condition evaluation extension point has been introduced. This allows users to implement custom evaluation for the IF and COMPARE fields which are very popular upon creating different types of reports.
+A condition evaluation extension point has been introduced. This enables users to implement custom evaluation for the IF and COMPARE fields which are very popular upon creating different types of reports.
 
 ### Other
 
@@ -317,7 +315,7 @@ A new public class [MarkdownSaveOptions](https://apireference.aspose.com/words/
 
 #### Layout Callback to Interrupt the Layout Building
 
-The long-awaited layout callback has been implemented and made available to the public. The [IPageLayoutCallback](https://apireference.aspose.com/words/net/aspose.words.layout/ipagelayoutcallback) interface enables your application to interrupt the process of layout building for the entire document and render only the part already built.
+The long-awaited layout callback has been implemented and made available to the public. The [IPageLayoutCallback](https://apireference.aspose.com/words/net/aspose.words.layout/ipagelayoutcallback) interface allows your application to interrupt the process of layout building for the entire document and render only the part already built.
 
 #### Formatting Options
 

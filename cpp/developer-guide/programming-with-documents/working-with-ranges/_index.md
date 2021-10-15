@@ -17,12 +17,12 @@ If you have worked with Microsoft Word Automation, you probably know that one of
 
 ## Retrieving Plain Text
 
-Use the Range.Text property to retrieve the plain, unformatted text of the range. The below code example demonstrates how to get a plain, unformatted text of a range. You can download the template file of this example from here.
+Use the Range.Text property to retrieve the plain, unformatted text of the range. The below code example shows how to get a plain, unformatted text of a range. You can download the template file of this example from here.
 
 {{< gist aspose-words-gists "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Ranges-RangesGetText-RangesGetText.cpp" >}}
 
 ## Deleting Text
 
-Range allows the deletion of all characters of the range by calling Range.Delete. The below code example shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Ranges/Document.doc).
+Range enables the deletion of all characters of the range by calling Range.Delete. The below code example shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Ranges/Document.doc).
 
 {{< gist aspose-words-gists "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Ranges-RangesDeleteText-RangesDeleteText.cpp" >}}

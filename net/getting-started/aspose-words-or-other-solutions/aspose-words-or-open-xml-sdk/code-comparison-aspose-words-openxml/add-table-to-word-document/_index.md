@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Table to Word Document
 description: "Aspose.Words for .NET allows you to add a table to a Word document easily and fast instead of using Open XML SDK."
 type: docs
@@ -20,7 +20,7 @@ In Aspose.Words a table is normally inserted using [DocumentBuilder](https://api
 - [EndTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endtable)
 - Writeln
 
-The following code example shows how to add a table to a document:
+The following code example demonstrates how to add a table to a document:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -58,7 +58,7 @@ The basic document structure of a **WordProcessingML** document consists of the 
 
 To create this structure this function **CreateWordprocessingDocument** is used in below code. By using **AddTable** function we can add table to word document by passing filename and data string.
 
-The following code example shows how to add a table to a document:
+The following code example demonstrates how to add a table to a document:
 
 {{< highlight csharp >}}
 public void AddTableFeature()
@@ -141,6 +141,5 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 {{% alert color="primary" %}} 
 
 For more information about Aspose.Words features please visit [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/).
-
 
 {{% /alert %}}

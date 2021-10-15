@@ -1,4 +1,4 @@
----
+﻿---
 title: Logical Levels of Nodes in a Document
 type: docs
 description: "In Aspose.Words for .NET documentation mentioned logical levels of nodes – block level, inline level, or row level. The node level is used to describe the location in the document tree where the node is typically occur."
@@ -96,6 +96,6 @@ The table consists of nodes of rows and cells. Table elements are represented by
 - [Cell](https://apireference.aspose.com/words/net/aspose.words.tables/cell) represents a table cell
 - StructuredDocumentTag represent custom markup
 
-The following diagram demonstrates the node structures of the Table, Row, and Cell levels.
+The following diagram shows the node structures of the Table, Row, and Cell levels.
 
 <img src="table-row-cell.png" alt="table-row-cell-aspose-words" style="width:910px"/>

@@ -25,7 +25,7 @@ You can insert PICT image into the document using DocumentBuilder.InsertImage me
 
 ## Public API for Custom Mark in FootNotes
 
-New overload in DocumentBuilder allows inserting footnotes with custom marks:
+New overload in DocumentBuilder enables inserting footnotes with custom marks:
 
 **Java**
 

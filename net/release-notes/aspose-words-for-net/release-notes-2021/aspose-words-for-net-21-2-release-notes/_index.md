@@ -242,7 +242,7 @@ Also added corresponding public enums:
 /// <remarks>
 /// Specifies a theme font type which can be referenced as a theme font within the parent object properties.
 /// This theme font is a reference to one of the predefined theme fonts, located in the document's
-/// Theme part, which enables for font information to be set centrally in the document.
+/// Theme part, which allows for font information to be set centrally in the document.
 /// </remarks>
 public enum ThemeFont
 {{< /highlight >}}
@@ -605,7 +605,7 @@ Added a new public property to FindReplaceOptions object:
 /// <para>The default value is <c>false</c>.</para>
 /// </summary>
 /// <remarks>
-/// This option enables to replace paragraph break when there is no next sibling paragraph to which all child
+/// This option allows to replace paragraph break when there is no next sibling paragraph to which all child
 /// nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 /// </remarks>
 public bool SmartParagraphBreakReplacement { get; set; }

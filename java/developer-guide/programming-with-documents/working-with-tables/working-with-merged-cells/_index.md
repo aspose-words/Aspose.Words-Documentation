@@ -53,7 +53,7 @@ There are different ways to start a table. In the code snippets above builder.in
 
 Read more: [Inserting a Table using DocumentBuilder](https://docs.aspose.com/words/java/creating-tables/#inserting-a-table-using-documentbuilder).
 
-In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over a few rows or columns.
+In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over many rows or columns.
 
 #### Example: Merging all Cells in a Range
 

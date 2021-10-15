@@ -1,4 +1,4 @@
----
+﻿---
 title: Rendering
 description: "Use Aspose.Words for .NET rendering feature to format a flow-layout document into pages and convert such a document or selected pages to other documents (PDF, HTML, XPS, etc.) or images (TIFF, PNG, SVG, etc.) formats for viewing, further conversions, or printing."
 type: docs
@@ -20,7 +20,7 @@ The rendering features of Aspose.Words enable you to perform the following:
 - Display any page of a document in a Windows Form.
 - Print or preview document pages using the standard .NET printing infrastructure.
 
-## Flow-Layout or Fixed-Layout Document Formats {#flow-layout-or-fixed-layout-document-formats}
+## Flow-layout or Fixed-layout Formats {#flow-layout-or-fixed-layout-document-formats}
 
 Most of the document formats that can be loaded into Aspose.Words are known as “flow-layout” formats. Flow-layout formats include DOC, OOXML, RTF, ODT, and HTML. Documents in these formats consist of various elements such as paragraphs, tables, headers, footers, images, fields and their formatting, for example, bold, italic, font, size. However, the flow-layout formats do not contain information about position where each particular paragraph or character is displayed on a page.
 

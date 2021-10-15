@@ -76,13 +76,13 @@ As with [Document.updateFields()](https://apireference.aspose.com/words/java/com
 
 As explained earlier, all fields are now updated using Document.UpdateFields. This now means a more concise and clearer way to update the fields in a document. This also means in situations such as updating a TOC field you no longer require any call to Document.updatePageLayout. All work is handled within the Document.updateFields call.
 
-The following code examples shows how to completely rebuild TOC fields in the document by invoking field update.
+The following code examples demonstrates how to completely rebuild TOC fields in the document by invoking field update.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateDocFields-1.java" >}}
 
 ## How to Rename Merge Fields
 
-An example that shows how to create your own **MergeField** class, that represents a single merge field in a Microsoft Word document and enables you to get or set its name. 
+An example that demonstrates how to create your own **MergeField** class, that represents a single merge field in a Microsoft Word document and allows you to get or set its name. 
 
 The following code example demonstrates how to rename merge fields in a Word document.
 

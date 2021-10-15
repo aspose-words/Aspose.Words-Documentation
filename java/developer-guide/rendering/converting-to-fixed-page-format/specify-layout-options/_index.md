@@ -1,18 +1,18 @@
 ﻿---
 title: Specify Layout Options
-description: "Aspose.Words for Java allows you to create output documents with various layouts, depending on the parameters specified in the Document."
+description: "Aspose.Words for Java enables you to create output documents with various layouts, depending on the parameters specified in the Document."
 type: docs
 weight: 10
 url: /java/specify-layout-options/
 ---
 
-Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/words/java/com.aspose.words/LayoutOptions) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
+Aspose.Words allows you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/words/java/com.aspose.words/LayoutOptions) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
 
 For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/java/com.aspose.words/layoutoptions#ContinuousSectionPageNumberingRestart) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://apireference.aspose.com/words/java/com.aspose.words/layoutoptions#IgnorePrinterMetrics) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://apireference.aspose.com/words/java/com.aspose.words/LayoutOptions) class page.
 
 ## Formatting Marks
 
-Aspose.Words allows to manage formatting marks using the following properties:
+Aspose.Words enables to manage formatting marks using the following properties:
 
 - [ShowHiddenText](https://apireference.aspose.com/words/java/com.aspose.words/layoutoptions#ShowHiddenText) – a Boolean value, which specifies whether the hidden text is rendered.
 - [ShowParagraphMarks](https://apireference.aspose.com/words/java/com.aspose.words/layoutoptions#ShowParagraphMarks) – a Boolean value, which specifies whether paragraph mark characters are rendered.
@@ -41,13 +41,13 @@ The following code example demonstrates how to customize revisions display:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-SetShowInBalloons.java" >}}
 
-The image below demonstrates how Aspose.Words renders comments and the Delete revisions:
+The image below shows how Aspose.Words renders comments and the Delete revisions:
 
 <img src="specify-layout-options_2.png" alt="comments_and_revisions_example_aspose_words_java" style="width:800px"/>
 
 ## Text Shaper for Advanced Typography Rendering
 
-The [TextShaperFactory](https://apireference.aspose.com/words/java/com.aspose.words/ITextShaperFactory) property allows you to set the text shaping functionality, as well as the OpenType features support.
+The [TextShaperFactory](https://apireference.aspose.com/words/java/com.aspose.words/ITextShaperFactory) property enables you to set the text shaping functionality, as well as the OpenType features support.
 
 Use text shaping for document processing in the following main cases:
 

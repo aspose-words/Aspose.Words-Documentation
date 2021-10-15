@@ -11,7 +11,7 @@ aliases:
 
 When a user needs to programmatically create, modify and manage documents, it is always important to choose the right tool that suits the specific document development needs. This article aims to help developers make the right decision when comparing Aspose.Words and VSTO.
 
-It is worth noting again that Aspose.Words and VSTO solve slightly different tasks. VSTO helps connect some applications such as Microsoft Office Word, Excel, and Outlook. Aspose.Words for .NET enables you to perform a wide variety of document processing tasks directly in your .NET applications. With Aspose.Words, you can create, modify, convert, display, and print documents without using Microsoft Word.
+It is worth noting again that Aspose.Words and VSTO solve slightly different tasks. VSTO helps connect some applications such as Microsoft Office Word, Excel, and Outlook. Aspose.Words for .NET allows you to perform a wide variety of document processing tasks directly in your .NET applications. With Aspose.Words, you can create, modify, convert, display, and print documents without using Microsoft Word.
 
 You can read more about the requirements and next steps on this page.
 
@@ -48,7 +48,7 @@ After learning the ["Installation"](https://docs.aspose.com/words/net/installati
 
 Explore the ["Getting Started"](https://docs.aspose.com/words/net/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](https://docs.aspose.com/words/net/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some complex use cases can be implemented using VSTO, but many of the more regular tasks are easier and faster to implement using Aspose.Words.
+Some complex use cases can be implemented using VSTO, but numerous of the more regular tasks are easier and faster to implement using Aspose.Words.
 
 Aspose.Words also provides source code examples for features missing in VSTO. You can find:
 

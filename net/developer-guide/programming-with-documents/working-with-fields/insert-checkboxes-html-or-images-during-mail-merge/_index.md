@@ -20,7 +20,7 @@ This screenshot of Microsoft Word demonstrates a template document with the merg
 
 ![insert-checkboxes-or-images-mail-merge-aspose-words](insert-checkboxes-html-or-images-during-mail-merge_1.png)
 
-This screenshot of Microsoft Word demonstrates the generated document. Note some fields were replaced with simple text, some fields were replaced with checkbox form fields and the Subject field was replaced with a text input form field.
+This screenshot of Microsoft Word shows the generated document. Note some fields were replaced with simple text, some fields were replaced with checkbox form fields and the Subject field was replaced with a text input form field.
 
 ![insert-checkboxes-html-or-images-mail-merge-aspose-words](insert-checkboxes-html-or-images-during-mail-merge_2.png)
 

@@ -42,7 +42,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-10157 |Setting Table.AllowAutoFit value as false changes the cell's width |Bug |
 |WORDSNET-10222 |Table's border is lost after re-saving the Doc file |Bug |
 |WORDSNET-10237 |Table in the document body is split into 2 parts in Pdf |Bug |
-|WORDSNET-10255 |Saving a DOC many times corrupts Table layout |Bug |
+|WORDSNET-10255 |Saving a DOC multiple times corrupts Table layout |Bug |
 |WORDSNET-10261 |Multilingual text rendering issue in Fixed file format (Tiff/Pdf) |Bug |
 |WORDSNET-10273 |A Shape is not visible in generated PDF |Bug |
 |WORDSNET-10300 |Contents move to next page after conversion from Doc to PDF |Bug |
@@ -83,7 +83,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9729 |Style margin-left does not work with -ive value while exporting document to Docx |Bug |
 |WORDSNET-9820 |Text decoration imported from HTML is applied to floating elements |Bug |
 |WORDSNET-9821 |Formatting of list labels is imported from HTML incorrectly |Bug |
-|WORDSNET-9953 |Field in footer of document demonstrates error in output Pdf |Bug |
+|WORDSNET-9953 |Field in footer of document shows error in output Pdf |Bug |
 |WORDSNET-10236 |/header truncated/ A Table in header is truncated when converting to Pdf |Enhancement |
 |WORDSNET-10316 |Converting Word to Pdf issue with RTL text |Enhancement |
 |WORDSNET-10329 |Provide an option to choose the formatting inside HTML or of DocumentBuiler |Enhancement |

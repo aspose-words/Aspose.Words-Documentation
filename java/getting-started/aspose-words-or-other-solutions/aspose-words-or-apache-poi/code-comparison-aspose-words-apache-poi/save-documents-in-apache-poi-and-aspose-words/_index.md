@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Aspose Sample Content for Word file.");
  
 // Save the document in DOCX format. The format to save as is inferred from the extension of the file name.
-// Aspose.Words supports saving any document in several more formats.
+// Aspose.Words supports saving any document in a few more formats.
 doc.save(dataDir + "Aspose_SaveDoc.docx",SaveFormat.DOCX);
 {{< /highlight >}}
 

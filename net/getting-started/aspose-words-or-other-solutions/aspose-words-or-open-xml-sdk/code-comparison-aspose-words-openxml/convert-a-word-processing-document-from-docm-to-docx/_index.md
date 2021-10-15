@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert DOCM to DOCX
 description: "Aspose.Words for .NET allows you to convert DOCM to DOCX easily and fast instead of using Open XML SDK."
 type: docs
@@ -17,7 +17,7 @@ On this page we will look at how to convert a document that contains VBA code an
 
 In Aspose.Words, we normally use the [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/main) constructor of Aspose.Words API to load a document in DOCM format and the  [Document.Save](https://apireference.aspose.com/net/words/aspose.words/document/methods/save/index) method to save the document to DOCX.
 
-The following code example shows how to convert DOCM to DOCX:
+The following code example demonstrates how to convert DOCM to DOCX:
 
 {{< highlight csharp >}}
 Document doc = new Document("SourceDocument.docm");
@@ -87,6 +87,5 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 {{% alert color="primary" %}} 
 
 For more information about Aspose.Words features please visit [Convert a Document](https://docs.aspose.com/words/net/convert-a-document/).
-
 
 {{% /alert %}}

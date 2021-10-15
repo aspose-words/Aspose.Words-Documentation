@@ -39,7 +39,7 @@ Modern word processing document formats are complex and include hundreds of feat
 
 The indisputable advantage of Aspose.Words is the great extent of support for most of the well-known formats. It is hard or impossible to find the same level of support for numerous important features elsewhere.
 
-When purchasing a solution supporting a particular format, find out about the level at which the features of this format are supported. To test, create a complex file and run it through the proposed solution. You will often find that a few document elements and formatting will be lost. For example, for the DOC format, shapes, textboxes, fields, columns, OLE objects, revisions, right-to-left text usually suffer.
+When purchasing a solution supporting a particular format, find out about the level at which the features of this format are supported. To test, create a complex file and run it through the proposed solution. You will often find that numerous document elements and formatting will be lost. For example, for the DOC format, shapes, textboxes, fields, columns, OLE objects, revisions, right-to-left text usually suffer.
 
 Aspose.Words Document Object Model (DOM) was designed with Microsoft Word document formats in mind. Therefore, our level of support for those formats, such as DOC, DOCX, RTF, or WordprocessingML, is unprecedented. Conversion in any direction between these formats is high-fidelity.
 
@@ -113,6 +113,6 @@ Scalable server-side scenarios use Aspose.Words mainly because of its simple and
 
 ## High Performance
 
-Aspose.Words demonstrates high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
+Aspose.Words shows high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 
-On numerous occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the **Document** object.
+On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the **Document** object.

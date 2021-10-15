@@ -23,7 +23,7 @@ Aspose.Words has the public class [WriteProtection](https://apireference.aspose.
 
 Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
-Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#get_readonlyrecommended_const) property and the [SetPassword](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#setpassword_string) method.
+Aspose.Words enables you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#get_readonlyrecommended_const) property and the [SetPassword](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#setpassword_string) method.
 
 {{% alert color="primary" %}}
 
@@ -60,6 +60,6 @@ The following code example demonstrates how to make a document read-only:
 
 If you do not want a user to open your document as read-only, you can simply set the **ReadOnlyRecommened** property to *false* or select **ProtectionType** as **NoProtection**.
 
-The following code example shows how to remove read-only access for a document:
+The following code example demonstrates how to remove read-only access for a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Protect or Encrypt Document-Document protection-RemoveReadOnlyRestriction.h" >}}

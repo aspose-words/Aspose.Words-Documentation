@@ -24,7 +24,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| WORDSNET-17101 | Optimize the PDF output size for document with numerous gradient filled   shapes | New Feature |
+| WORDSNET-17101 | Optimize the PDF output size for document with multiple gradient filled   shapes | New Feature |
 | WORDSNET-22577 | Add feature to read custom properties from PDF | New Feature |
 | WORDSNET-22603 | Add the ability to apply 3D effects to the image | New Feature |
 | WORDSNET-21742 | Add feature to export language in Tag tab of object properties   (ExportDocumentStructure) | New Feature |

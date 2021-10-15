@@ -48,7 +48,7 @@ Block-level nodes are represented by the following classes:
 - Bookmarks, which occurs both at the block-level and at the inline-level
 - [StructuredDocumentTag](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag), which represent custom markup and can contain both content and content controls
 
-The following diagram demonstrates the block-level elements.
+The following diagram shows the block-level elements.
 
 <img src="block-level.png" alt="block-level-aspose-words-java" style="width:550px"/>
 
@@ -70,7 +70,7 @@ Inline-level elements are represented by the following classes:
 - [Shape](https://apireference.aspose.com/words/java/com.aspose.words/Shape) and [GroupShape](https://apireference.aspose.com/words/java/com.aspose.words/GroupShape) represent shapes, drawings, images, etc.
 - SmartTag and StructuredDocumentTag represent custom markup
 
-The following diagram demonstrates the inline-level nodes structure.
+The following diagram shows the inline-level nodes structure.
 
 <img src="inline-level.png" alt="inline-level-aspose-words-java" style="width:785px"/>
 

@@ -19,7 +19,7 @@ Also other situations when external resources are used have been included in the
 
 |Scenario|Comments|
 | :- | :- |
-|[DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3)|This method enables you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
+|[DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3)|This method allows you to pass a URL to insert an image from an external address. If the image is stored on a private network it may require authentication in order to load. The **ResourceLoadingCallback** can be used to pass the needed credentials |
 |[DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml)|This method parses an HTML snippet into the document at the current cursor. As with **DocumentBuilder.InsertImage** this snippet can contain links to external resources. |
 |[ImageData.SetImage](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/methods/setimage)|Use a **ResourceLoadingCallback** to allow inserting images from a Base64 string source. |
 |[ImageData.ToStream](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/methods/tostream)|If the user requests a linked image to be converted to stream then it is downloaded from the external source and returned to the user. Add a callback here to control how this download occurs. |
@@ -88,7 +88,7 @@ Document doc = new Document(MyDir + "Document.doc");
 // Extract the last paragraph in the document to convert to HTML.
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Create an instance of HtmlSaveOptions and set a few options.
+// Create an instance of HtmlSaveOptions and set several options.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportHeadersFootersMode = ExportHeadersFootersMode.PerSection;
 saveOptions.ExportRelativeFontSize = true;
@@ -310,7 +310,7 @@ In the above code:
 
 #### 10. Introduction of HtmlSaveOptions.CssSavingCallback Property and ICssSavingCallback Interface
 
-This enables control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype) is set to [CssStyleSheetType.External](https://apireference.aspose.com/words/net/aspose.words.saving/cssstylesheettype). This interface allows control over where the external CSS is saved to, such as a stream.
+This enables control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype) is set to [CssStyleSheetType.External](https://apireference.aspose.com/words/net/aspose.words.saving/cssstylesheettype). This interface enables control over where the external CSS is saved to, such as a stream.
 
 #### 11. Additional MetafileRenderingMode Option Introduced
 

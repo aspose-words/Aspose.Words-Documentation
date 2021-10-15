@@ -21,7 +21,7 @@ This section contains articles and examples that show how to use Aspose.Words in
 - How to generate a report using Aspose.Words mail merge. 
 - How to convert a document into a different format, use enumerated values. 
 
-If you follow the principles outlined in this section, you will be able to employ several of the features of Aspose.Words in your projects. 
+If you follow the principles outlined in this section, you will be able to employ many of the features of Aspose.Words in your projects. 
 
 There are two versions of the Aspose.Words class library: 
 

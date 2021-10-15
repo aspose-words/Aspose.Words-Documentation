@@ -148,7 +148,7 @@ There are 138 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8167|/cell border diagonal/ Diagonal borders in table cells are missing from fixed page formats|Feature|
 |WORDSNET-8271|Export document logical structure to PdfRenderer along with APS model|Feature|
 |WORDSNET-8272|Write logical structure to PDF|Feature|
-|WORDSNET-8275|Text inside FORMDROPDOWN is not wrapping to many lines in PDF|Feature|
+|WORDSNET-8275|Text inside FORMDROPDOWN is not wrapping to multiple lines in PDF|Feature|
 |WORDSNET-8303|Implement 'volume line' building for line with different Dash Style.|Feature|
 |WORDSNET-8390|Preserve protection of selected ranges upon RTF round-trip.|Feature|
 |WORDSNET-8426|Render DrawingML picture as ApsImage|Feature|

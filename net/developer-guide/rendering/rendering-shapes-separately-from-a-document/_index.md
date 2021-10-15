@@ -1,4 +1,4 @@
----
+﻿---
 title: Rendering Shapes Separately from a Document
 description: "Aspose.Words for .NET provides the ability to extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location."
 type: docs
@@ -14,11 +14,11 @@ Aspose.Words provides functionality for extracting this type of content in the s
 
 All the content in a document drawing layer is represented by the [Shape](http://www.aspose.com/api/net/words/aspose.words.drawing/shape) or [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) node in the Aspose.Words Document Object Module (DOM). Such contents can be text boxes, images, AutoShapes, OLE objects, etc. Some fields are also imported as shapes, for example, the INCLUDEPICTURE field.
 
-A simple image is represented by a **Shape** node of [ShapeType.Image](http://www.aspose.com/api/net/words/aspose.words.drawing/shapetype). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.ImageData](http://www.aspose.com/api/net/words/aspose.words.drawing/shape/properties/imagedata) property. On the other hand, a shape can also be made up of a few child nodes. For instance, a text box shape, which is represented by the [ShapeType.TextBox](https://apireference.aspose.com/words/net/aspose.words.drawing/shapetype) property, can be made up of several nodes, such as [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) and [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table). Most shapes can include the **Paragraph** and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the **Paragraph,** but “floating” anywhere in the document page.
+A simple image is represented by a **Shape** node of [ShapeType.Image](http://www.aspose.com/api/net/words/aspose.words.drawing/shapetype). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.ImageData](http://www.aspose.com/api/net/words/aspose.words.drawing/shape/properties/imagedata) property. On the other hand, a shape can also be made up of multiple child nodes. For instance, a text box shape, which is represented by the [ShapeType.TextBox](https://apireference.aspose.com/words/net/aspose.words.drawing/shapetype) property, can be made up of many nodes, such as [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) and [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table). Most shapes can include the **Paragraph** and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the **Paragraph,** but “floating” anywhere in the document page.
 
 ![rendering-shapes-separately-from-a-document_1](rendering-shapes-separately-from-a-document_1.png)
 
-A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting several objects and clicking “Group” in the right-click menu.
+A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting multiple objects and clicking “Group” in the right-click menu.
 
 ![rendering-shapes-separately-from-a-document_2](rendering-shapes-separately-from-a-document_2.png)
 
@@ -42,7 +42,7 @@ When rendering a **Shape**, it must be a part of the document hierarchy. If the 
 
 ## Rendering to File or Stream
 
-The [Save](https://apireference.aspose.com/words/net/aspose.words.rendering.noderendererbase/save/methods/1) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions) class, which allows to define options for rendering the shape. This works in the same way as the [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
+The [Save](https://apireference.aspose.com/words/net/aspose.words.rendering.noderendererbase/save/methods/1) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions) class, which enables to define options for rendering the shape. This works in the same way as the [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
 
 The shape can be exported in any image format specified in the [SaveFormat](http://www.aspose.com/api/net/words/aspose.words/saveformat) enumeration. For example, the image can be rendered as a raster image, such as JPEG by specifying the [SaveFormat.Jpeg](http://www.aspose.com/api/net/words/aspose.words/saveformat) enumeration, or as a vector image, such as EMF by specifying the [SaveFormat.Emf](http://www.aspose.com/api/net/words/aspose.words/saveformat).
 
@@ -80,7 +80,7 @@ The following example demonstrates how to render a Shape image to a JPEG image s
 
 The [ShapeRenderer](https://apireference.aspose.com/words/net/aspose.words.rendering/shaperenderer) class also provides functionality to retrieve the size of the shape in pixels through the [GetSizeInPixels](https://apireference.aspose.com/words/net/aspose.words.rendering.noderendererbase/getsizeinpixels/methods/1) method. This method accepts two float (Single) parameters – the scale and DPI, which are used in calculation of the shape size when the shape is rendered. The method returns the [Size](https://apireference.aspose.com/words/net/aspose.words.rendering.noderendererbase/getsizeinpixels/methods/1) object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance, for example when creating a new Bitmap from the rendered output.
 
-The below example shows how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered:
+The below example demonstrates how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-RenderShape-FindShapeSizes.cs" >}}
 

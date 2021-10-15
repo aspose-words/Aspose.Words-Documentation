@@ -1,4 +1,4 @@
----
+﻿---
 title: Find and Replace Text in a Document Part
 description: "Aspose.Words for .NET allows you to find and replace text from a document part easily and fast instead of using Open XML SDK."
 type: docs
@@ -16,7 +16,7 @@ On this page we will look at how to find and replace text from a document part u
 
 In Aspose.Words, use the [Replace](https://apireference.aspose.com/words/net/aspose.words/range/methods/replace/index) method to find and replace text.
 
-The following code example shows how to find and replace text from a document part:
+The following code example demonstrates how to find and replace text from a document part:
 
 {{< highlight csharp >}}
 public static void SearchAndReplaceTextFeature()
@@ -44,7 +44,6 @@ using NUnit.Framework;
 {{< /highlight >}}
 
 The following code example shows how to find and replace text from a document part:
-
 
 {{< highlight csharp >}}
 public static void SearchAndReplaceTextFeature()

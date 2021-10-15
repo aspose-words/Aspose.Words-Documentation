@@ -13,7 +13,7 @@ These page list public API changes that were introduced in Aspose.Words 14.2.0. 
 
 ## Document.AutomaticallyUpdateSyles Added to the Public API
 
-This option enables to get or set a flag which indicates whether the styles in the document are updated to match the styles in the attached template each time the document is opened in Microsoft Word.
+This option allows to get or set a flag which indicates whether the styles in the document are updated to match the styles in the attached template each time the document is opened in Microsoft Word.
 
 **Usage**
 
@@ -67,7 +67,7 @@ doc.Save(@"C:\Temp\out.pdf");
 
 Starting from 14.2.0 version, Aspose.Words supports rendering of InnerShadow DrawingML effect. Effect can be rendered in two modes:
 
-1. Simplified: In this case blurred edges are simulated using several layers with different transparency.
+1. Simplified: In this case blurred edges are simulated using numerous layers with different transparency.
 1. Fine: In this case, blur effect is applied to shadow which gives better result but takes much more time to render.
 
 ## DigitalSignatureUtil.LoadSignatures Method Added to the Public API

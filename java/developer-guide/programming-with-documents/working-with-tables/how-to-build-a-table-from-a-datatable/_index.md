@@ -7,7 +7,7 @@ url: /java/how-to-build-a-table-from-a-datatable/
 
 Often your application will pull data from a database and store it in the form of a **DataTable**. You may wish to easily insert this data into your document as a new table and quickly apply formatting to the whole table.
 
-Using Aspose.Words this task is very simple to achieve. The code presented in this article demonstrates how to do this.
+Using Aspose.Words this task is very simple to achieve. The code presented in this article shows how to do this.
 
 {{% alert color="primary" %}} 
 

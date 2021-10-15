@@ -103,7 +103,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, Rela
     double left, RelativeVerticalPosition vertPos, double top, WrapType wrapType);
 {{< /highlight >}}
 
-Following code example shows how to insert signature line.
+Following code example demonstrates how to insert signature line.
 
 **C#**
 
@@ -230,7 +230,7 @@ public int HyphenationZone {get;set;}
 public bool HyphenateCaps {get;set;}
 {{< /highlight >}}
 
-Following code example shows how to use HyphenationOptions's properties. 
+Following code example demonstrates how to use HyphenationOptions's properties. 
 
 **C#**
 
@@ -371,7 +371,7 @@ FontSettings properties added to Document class
 /// Gets or sets document font settings.
 /// </summary>
 /// <remarks>
-/// <para>This property enables to specify font settings per document. If set to null, default static font settings
+/// <para>This property allows to specify font settings per document. If set to null, default static font settings
 /// <see cref="Aspose.Words.Fonts.FontSettings.DefaultInstance"/> will be used.</para>
 ///
 /// <para>The default value is null.</para>
@@ -480,7 +480,7 @@ public bool PreserveUnusedTags
 
 ### A New Feature Added to Control Global Mail Merge Events
 
-We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This allows to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
+We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This enables to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
 
 **C#**
 

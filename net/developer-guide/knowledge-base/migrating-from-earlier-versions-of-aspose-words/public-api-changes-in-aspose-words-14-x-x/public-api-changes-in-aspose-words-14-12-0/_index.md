@@ -96,7 +96,7 @@ To remove the margin declaration, set PageHorizontalAlignment to HtmlFixedPageHo
 /// The default value is true.</summary>
 /// <remarks>
 /// <para>This property is used only when loading plain text documents.</para>
-/// <para> If set to true,  lists recognition algorithm enables list numbers to end with either dot or whitespace character.</para>
+/// <para> If set to true,  lists recognition algorithm allows list numbers to end with either dot or whitespace character.</para>
 /// <para>If this option is set to false then the list item is only recognized as such if the leading number is ending with dot "." symbol.</para>
 /// </remarks>
 public bool AllowTrailingWhitespaceForListItems

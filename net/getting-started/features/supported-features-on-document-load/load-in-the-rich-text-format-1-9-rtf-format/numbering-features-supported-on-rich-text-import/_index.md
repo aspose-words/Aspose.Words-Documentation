@@ -7,7 +7,7 @@ url: /net/numbering-features-supported-on-rich-text-import/
 
 {{% alert color="primary" %}} 
 
-A list used in a document is actually made up of many complex parts. List and their properties are fully supported by Aspose.Words.
+A list used in a document is actually made up of multiple complex parts. List and their properties are fully supported by Aspose.Words.
 
 There are two main types of lists:
 

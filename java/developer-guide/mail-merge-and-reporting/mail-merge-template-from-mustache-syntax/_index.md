@@ -41,7 +41,7 @@ As you notice from the example above, in Mustache you need to use curly braces f
 
 Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the [UseNonMergeFields](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#UseNonMergeFields) property and set its value to *True*.
 
-The following code example demonstrates how to replace the Mustache tags with specific data:
+The following code example shows how to replace the Mustache tags with specific data:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-MustacheSyntaxUsingDataTable.java" >}}
 
@@ -75,7 +75,7 @@ For example, you can use IF fields if you need to insert “his”, “her”, �
 
 **{ IF “{{ GENDER }}” = “MALE” “true text” “false text” }**
 
-The following code example demonstrates how to perform a mail merge operation with Mustache tags and IF fields:
+The following code example shows how to perform a mail merge operation with Mustache tags and IF fields:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseOfIfElseMustacheSyntax.java" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Digital Signatures
 description: "Aspose.Words for .NET allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
@@ -32,9 +32,9 @@ Aspose.Words allows you to work with digital signatures on DOC, OOXML, and ODT d
 
 ## Limitations of Digital Signatures
 
-The table below describes a few limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
+The table below describes numerous limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
 
-| Limitation                                                   | Alternative option                                           |
+| Limitation                                                   | Alternative Option                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Loss of digital signatures on a document after loading and saving it. Therefore, processing a document to a server may cause the loss of all digital signatures without a notice. | Check if a document has digital signatures and take the appropriate action if any are found. For example, send an alert to the clients informing them that the document they are uploading contains digital signatures that will be lost if it is processed. |
 | Aspose.Words supports working with macros in a document. But Aspose.Words does not yet support digital signatures on macros. | Export the document back to any Word format, and use Microsoft Word to add a digital signature to macros. |
@@ -47,7 +47,7 @@ A document can be signed more than once, and this can be done by different users
 
 All of this provides an efficient and safe way to check a document for signatures before processing it.
 
-The following code example shows how to detect the presence of digital signatures and verify them:
+The following code example demonstrates how to detect the presence of digital signatures and verify them:
 
 {{< highlight csharp >}}
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
@@ -69,7 +69,7 @@ Assert.True(info.HasDigitalSignature);
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 {{< /highlight >}}
 
-## Create a Digital Signature
+## Create a Digital Signature {#create-a-digital-signature}
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
@@ -118,7 +118,7 @@ using (Stream stream = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignD
 
 A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertsignatureline) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/net/aspose.words/signaturelineoptions) class.
 
-For example, the picture below shows how valid and invalid signatures can be displayed.
+For example, the picture below demonstrates how valid and invalid signatures can be displayed.
 
 <img src="Valid.png" alt="drawing" style="width:300px"/>
 
@@ -192,11 +192,11 @@ Assert.AreEqual("CN=Morzal.Me", signatures[0].IssuerName);
 Assert.AreEqual(DigitalSignatureType.XmlDsig, signatures[0].SignatureType);
 {{< /highlight >}}
 
-### Sign a Generated PDF Document
+### Sign a Generated PDF {#sign-a-generated-pdf-document}
 
 Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://apireference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/properties/index) properties.
 
-The following code example shows how to sign a generated PDF:
+The following code example demonstrates how to sign a generated PDF:
 
 {{< highlight csharp >}}
 Document doc = new Document();

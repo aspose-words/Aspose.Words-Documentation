@@ -16,7 +16,7 @@ For correct splitting of words, language-specific hyphenation dictionaries are u
 
 Since different languages use different norms and rules for word hyphenation, the optimal solution for correct hyphenation is to use special dictionaries. Aspose.Words uses OpenOffice dictionaries.
 
-For spell checking, OpenOffice uses the [Hunspell library](http://hunspell.github.io/), which is a generalization of TeX’s hyphenation algorithm. This algorithm allows for automatic non-standard hyphenation using competing standard and custom hyphenation patterns. Hunspell uses the [Hyphen](https://github.com/hunspell/hyphen) for hyphenation.
+For spell checking, OpenOffice uses the [Hunspell library](http://hunspell.github.io/), which is a generalization of TeX’s hyphenation algorithm. This algorithm enables for automatic non-standard hyphenation using competing standard and custom hyphenation patterns. Hunspell uses the [Hyphen](https://github.com/hunspell/hyphen) for hyphenation.
 
 {{% alert color="primary" %}}
 
@@ -43,7 +43,7 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 ## Loading Hyphenation Dictionaries
 
-To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
+To use the hyphenation feature, first register a hyphenation dictionary.The following code example demonstrates how to load hyphenation dictionaries for the specified languages from a file:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
 
@@ -53,7 +53,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example demonstrates how to load hyphenation dictionaries for the specified language from a stream:
+The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 
@@ -65,7 +65,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 As an alternative to pre-registering hyphenation dictionaries, it is possible to register only required hyphenation dictionaries “by request”. To achieve that, implement the [IHyphenationCallback](https://apireference.aspose.com/words/java/com.aspose.words/IHyphenationCallback) interface and use the static callback [Callback](https://apireference.aspose.com/words/java/com.aspose.words/hyphenation#Callback).
 
-The following code example demonstrates how to implement the **IHyphenationCallback** interface:
+The following code example shows how to implement the **IHyphenationCallback** interface:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-HyphenationCallback.java" >}}
 

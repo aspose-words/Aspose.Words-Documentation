@@ -58,7 +58,7 @@ A document is a sequence of container blocks such as headings, paragraphs, lists
 
 ### Leaf Blocks
 
-The table below demonstrates examples of using Markdown Leaf blocks in Aspose.Words:
+The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -79,7 +79,7 @@ else
 
 ### Complex Containers
 
-The table below shows examples of using Markdown Complex Containers in Aspose.Words:
+The table below demonstrates examples of using Markdown Complex Containers in Aspose.Words:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -92,7 +92,7 @@ The table below shows examples of using Markdown Complex Containers in Aspose.Wo
 
 ### Tables
 
-Aspose.Words also allows to translate tables into DOM, as shown below:
+Aspose.Words also enables to translate tables into DOM, as shown below:
 
 | Markdown feature                         | Aspose.Words                                                 |
 | ---------------------------------------- | ------------------------------------------------------------ |

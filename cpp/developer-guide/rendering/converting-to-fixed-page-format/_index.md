@@ -1,6 +1,6 @@
 ﻿---
 title: Converting to Fixed-page Format
-description: "Aspose.Words for C++ implements its own page layout engine to describe the geometry and position of objects on document pages. This allows you to save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats."
+description: "Aspose.Words for C++ implements its own page layout engine to describe the geometry and position of objects on document pages. This enables you to save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats."
 type: docs
 weight: 10
 url: /cpp/converting-to-fixed-page-format/
@@ -12,7 +12,7 @@ Aspose.Words implements its own page layout engine. Prior to delving into its sp
 
 Various document viewing or publishing applications allow users to open (Adobe Acrobat, XPS Viewer) and sometimes edit (Adobe InDesign) documents of specific formats. These applications typically produce so-called "fixed-page" format documents. Such a document format describes precisely where a document’s content is placed on every page. Internally, the PDF or XPS format contains a description of every page, as well as drawing instructions, specifying the layout of the content on the page. This is similar to image formats, describing where the content is shown either in raster or vector form.
 
-In contrast, some text editing applications do not support the viewing of a document’s pages. For instance, Microsoft Notepad supports very few functions other than simply displaying, editing and printing text. The important observation here is that such applications can neither show pages of the document nor tell a user how several of them would be printed, only allowing to view the document content. The document can be saved in plain text format and can be opened by several other applications. Using an application that enables viewing binary content of an arbitrary file one can see what is stored in the document file – it is just plain text, there is nothing else in it.
+In contrast, some text editing applications do not support the viewing of a document’s pages. For instance, Microsoft Notepad supports very few functions other than simply displaying, editing and printing text. The important observation here is that such applications can neither show pages of the document nor tell a user how numerous of them would be printed, only allowing to view the document content. The document can be saved in plain text format and can be opened by several other applications. Using an application that enables viewing binary content of an arbitrary file one can see what is stored in the document file – it is just plain text, there is nothing else in it.
 
 Slightly more sophisticated text-editing applications, such as Microsoft WordPad, save the document in Rich Text Format (RTF), which supports more formatting functions, such as insertion of images, character formatting, paragraph margins, and spacing. However, the RTF format also contains only the document’s content, having no information about pages.
 
@@ -28,10 +28,10 @@ The relation between a document and a page layout is quite simple. Whereas a doc
 
 ## Creating a Page Layout
 
-Creating a page layout can be a costly procedure, both in terms of speed and memory. This is due to several reasons:
+Creating a page layout can be a costly procedure, both in terms of speed and memory. This is due to a few reasons:
 
 - The document may have a large amount of content, which may need to be displayed on thousands of pages. The geometry of every object on every page would need to be described, consuming memory resources.
-- The document may have several rules, placing constraints on geometry. Considerable computational time may be spent, ensuring every constraint is satisfied. 
+- The document may have a few rules, placing constraints on geometry. Considerable computational time may be spent, ensuring every constraint is satisfied. 
 - Some document features, for example, the NUMPAGES field, create recursive dependencies for future property values, which are not available at the time of computation. This leads to repetitive calculations and adds up in computation time.
 
 Due to the aforementioned reasons, Aspose.Words will create a page layout only when it is necessary. A typical reason for this would be a request to render document pages or to obtain a field value that depends on the information available in page layout. A less obvious reason could be exporting a document to HTML. Even though HTML is not a fixed-page format and it does not describe the geometry of the content objects, it still supports images. Such images may be in the form of shapes created in Microsoft Word with a text inside them. For example, a chart with axis labels can be exported into HTML as an image, but before this can be done Aspose.Words needs to render that image and hence needs to know where to display the label. See the chart example below:

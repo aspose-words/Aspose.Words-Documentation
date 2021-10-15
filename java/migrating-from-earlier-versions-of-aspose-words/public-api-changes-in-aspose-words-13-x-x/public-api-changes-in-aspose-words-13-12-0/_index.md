@@ -29,7 +29,7 @@ A new enumeration value of FirstPageHeaderFooterPerSection has been added to Htm
 
 Starting from 13.12.0 version Aspose.Words supports rendering DrawingML glow effect. The glow effect can be rendered in one of three modes:
 
-- Simplified (default) - Soft edges are simulated using numerous layers with different transparency, which gives acceptable result with higher performance than in Fine mode.
+- Simplified (default) - Soft edges are simulated using multiple layers with different transparency, which gives acceptable result with higher performance than in Fine mode.
 - Fine - Blur filter is applied, which gives the same result as MS Word, but with lower performance because of complexity of convolution filter.
 - None - In this mode no DrawingML effects are rendered.
 
@@ -51,7 +51,7 @@ The properties **HtmlFixedSaveOptions.ResourcesFolderAlias** and **SvgSaveOption
 - It is impossible to provide different aliases for individual resource files.
 - Generated URIs have the form "alias/filename", which is fixed. For example, it is impossible to change the order of the alias and the file name or remove the slash character that separates them.
 
-The new property **ResourceSavingArgs.ResourceFileUri** does not have the limitations of resource aliases and enables more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.
+The new property **ResourceSavingArgs.ResourceFileUri** does not have the limitations of resource aliases and allows more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.
 
 ## SaveOptions.DmlRenderingMode Introduced
 
