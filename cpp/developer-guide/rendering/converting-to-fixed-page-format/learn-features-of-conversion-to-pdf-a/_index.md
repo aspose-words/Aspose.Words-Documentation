@@ -1,6 +1,6 @@
 ﻿---
 title: Learn Features of Conversion to PDF/A
-description: "Aspose.Words for С++ allows users to convert to PDF/A-1 and PDF/A-2. There are several problems when converting to PDF/A documents, and Aspose.Words for С++ solves them."
+description: "Aspose.Words for С++ allows users to convert to PDF/A-1 and PDF/A-2. There are many problems when converting to PDF/A documents, and Aspose.Words for С++ solves them."
 type: docs
 weight: 35
 url: /cpp/learn-features-of-conversion-to-pdf-a/
@@ -22,7 +22,7 @@ In this article, we will consider the main problems that may arise when working 
 
 ## Complexity of Working with PDF/A
 
-PDF/A format imposes several requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A conformant document.
+PDF/A format imposes multiple requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A conformant document.
 
 Basic requirements are for the structure or fonts of a PDF/A document, which we will consider in the following sections.
 

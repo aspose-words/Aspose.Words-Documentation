@@ -1,4 +1,4 @@
----
+﻿---
 title: What's new in Aspose.Words for .NET
 type: docs
 description: "Aspose.Words for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
@@ -56,8 +56,6 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/net/aspo
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 21.9 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-9-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.10 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-10-release-notes/).
 
 {{% /alert %}}
 
@@ -121,7 +119,7 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 * A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 * An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
 * A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportlanguagetospantag) has been added. This option enables users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
-* A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
+* A new public field updating callback has been implemented. This enables you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}
 
@@ -411,7 +409,7 @@ Using the *InterpolateImages* property is relevant if the resolution of a sour
 Search and compare options are extended:
 
 - The functionality of the *FindReplaceOptions* class becomes more flexible to serve your needs. It is now possible to ignore text inside revisions and fields. You can also enable the use of substitutions in the replacement pattern via the [UseSubstitutions](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/usesubstitutions) property – this makes easy to use part or whole match when replacing.
-- The [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature allows you to specify the exact granularity of changes to track when comparing two documents.
+- The [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature enables you to specify the exact granularity of changes to track when comparing two documents.
 
 ### Other
 

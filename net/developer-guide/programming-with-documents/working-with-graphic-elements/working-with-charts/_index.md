@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Charts
 type: docs
 weight: 50
@@ -30,7 +30,7 @@ The code produces the following result:
 
 ### How to Insert Scatter Chart
 
-Below example demonstrates how to insert a scatter chart.
+Below example shows how to insert a scatter chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertScatterChart-InsertScatterChart.cs" >}}
 
@@ -40,7 +40,7 @@ The code produces the following result:
 
 ### How to Insert Area Chart
 
-Below example shows how to insert an area chart.
+Below example demonstrates how to insert an area chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertAreaChart-InsertAreaChart.cs" >}}
 
@@ -125,13 +125,13 @@ Please see the result below:
 
 ## How to Format Number of Chart Data Label
 
-Using ChartDataLabel.NumberFormat you are able to specify number formatting of a single data label of the chart. The code example given below demonstrates how to format a number of the data label. 
+Using ChartDataLabel.NumberFormat you are able to specify number formatting of a single data label of the chart. The code example given below shows how to format a number of the data label. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-ChartNumberFormat-FormatNumberofDataLabel.cs" >}}
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis), [AxisDisplayUnit](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit), and [AxisScaling](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling) classes. The code example given below demonstrates how to define X and Y-axis properties.
+If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis), [AxisDisplayUnit](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit), and [AxisScaling](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling) classes. The code example given below shows how to define X and Y-axis properties.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cs" >}}
 
@@ -143,7 +143,7 @@ The following code example shows how to set date/time values to axis properties.
 
 ### How to Format Number Value of Axis
 
-` `The following code example demonstrates how to change the format of numbers on the value axis.
+` `The following code example shows how to change the format of numbers on the value axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetNumberFormatForAxis.cs" >}}
 
@@ -155,19 +155,19 @@ The AxisBound class represents a minimum or maximum bound of axis values. Bound 
 
 ### How to Set Interval Unit Between Labels
 
-The following code example shows how to set the interval unit between labels on an axis.
+The following code example demonstrates how to set the interval unit between labels on an axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.cs" >}}
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example shows how to hide the Y-axis of the chart. 
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example demonstrates how to hide the Y-axis of the chart. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-HideChartAxis.cs" >}}
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.TickLabelAlignment property. The following code example demonstrates how to tick label alignment.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.TickLabelAlignment property. The following code example shows how to tick label alignment.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cs" >}}
 

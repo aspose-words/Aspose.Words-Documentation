@@ -1,4 +1,4 @@
----
+﻿---
 title: Create a Document
 description: "Aspose.Words for .NET allows you to create a Word Processing document easily and fast instead of using Open XML SDK."
 type: docs
@@ -75,6 +75,5 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 {{% alert color="primary" %}} 
 
 For more information about Aspose.Words features please visit [Create or Load a Document](https://docs.aspose.com/words/net/create-or-load-a-document/).
-
 
 {{% /alert %}}

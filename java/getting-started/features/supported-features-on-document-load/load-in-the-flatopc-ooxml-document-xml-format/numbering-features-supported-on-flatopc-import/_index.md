@@ -7,7 +7,7 @@ url: /java/numbering-features-supported-on-flatopc-import/
 
 {{% alert color="primary" %}} 
 
-A list used in a document is actually made up of numerous complex parts. List and their properties are fully supported by Aspose.Words.
+A list used in a document is actually made up of several complex parts. List and their properties are fully supported by Aspose.Words.
 
 There are two main types of lists:
 

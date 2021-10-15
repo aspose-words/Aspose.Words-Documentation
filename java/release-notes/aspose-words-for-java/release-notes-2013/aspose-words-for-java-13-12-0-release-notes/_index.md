@@ -68,7 +68,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9269 |Character in some words are rendering with different font formatting in HtmlFixed |Bug |
 |WORDSNET-9270 |A tiff image is incorrectly imported from Aspose.Email generated MHTML file |Bug |
 |WORDSNET-9271 |Relative position of nested floating Text Boxes is unexpected when rendering |Bug |
-|WORDSNET-9274 |Aspose.Words throws several warnings when loading DigitalSignature in DOCX |Bug |
+|WORDSNET-9274 |Aspose.Words throws numerous warnings when loading DigitalSignature in DOCX |Bug |
 |WORDSNET-9275 |DocProperty field values are not preserved during open/save a DOCX |Bug |
 |WORDSNET-9278 |Aspose.Words doesn't use a barcode font during rendering |Bug |
 |WORDSNET-9279 |Comment's alignment is changed from right to left after conversion from Docx to Pdf |Bug |
@@ -172,7 +172,7 @@ We have added ResourceSavingArgs.ResourceFileUri property that enables users to 
 - It is impossible to provide different aliases for individual resource files. 
 - Generated URIs have the form "alias/filename", which is fixed. For example, it is impossible to change the order of the alias and the file name or remove the slash character that separates them.
 
-The new property ResourceSavingArgs.ResourceFileUri does not have the limitations of resource aliases and enables more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.h3. SaveOptions.DmlRenderingMode Introduced 
+The new property ResourceSavingArgs.ResourceFileUri does not have the limitations of resource aliases and allows more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.h3. SaveOptions.DmlRenderingMode Introduced 
 
 Within a separate fix a new option SaveOptions.DmlRenderingMode was introduced. It allows users to control how DrawingML shapes are rendered to fixed page formats. It has two possible values: 
 

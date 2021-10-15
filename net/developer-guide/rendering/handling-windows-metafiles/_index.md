@@ -1,4 +1,4 @@
----
+﻿---
 title: Handling Windows Metafiles
 description: "Aspose.Words for .NET implements its own Windows Metafile player to play Metafile format on all platforms and supports the handling of the basic metafile features and can perform fallback to a different type of metafile player."
 type: docs
@@ -46,7 +46,7 @@ While binary raster operations are not currently supported and the limited numbe
 
 {{% /alert %}} 
 
-The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of metafile records to vector graphics:
+The example shown below shows how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of metafile records to vector graphics:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-RenderMetafileToBitmap.cs" >}}
 
@@ -54,10 +54,10 @@ The example shown below demonstrates how Aspose.Words renders a metafile to a bi
 
 Aspose.Words does not support a number of metafile features that are most complex or rare. Users can implement the [IWarningCallBack](https://apireference.aspose.com/words/net/aspose.words/iwarningcallback) interface and receive warning messages. If Aspose.Words encounters unsupported features in a metafile, it issues a warning message with [WarningSource](https://apireference.aspose.com/words/net/aspose.words/warningsource).**Metafile**. In this case Aspose.Words may perform fallback to a different type of metafile player. The warning message regarding fallback is also issued.
 
-Firstly, Aspose.Words performs fallback from the vector metafile player to raster, which It is controlled by the [RenderingMode](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/properties/renderingmode) property. If the fallback feature is disabled, Aspose.Words tries to render some substitution graphics instead of the features that are not supported.
+Firstly, Aspose.Words performs fallback from the vector metafile player to raster, which It is controlled by the [RenderingMode](https://apireference.aspose.com/net/words/aspose.words.saving/metafilerenderingoptions/properties/renderingmode) property. If the fallback feature is disabled, Aspose.Words tries to render some substitution graphics instead of the features that are not supported.
 
 Aspose.Words successfully plays metafile to raster using GDI+ on .NET, which makes this callback option safe.
 
-Secondly, there is an option for EMF+ Dual metafile to fallback from playing the EMF+ part to the EMF part. It is controlled by [EmfPlusDualRenderingMode](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/properties/emfplusdualrenderingmode). If there are some issues occur when playing the EMF part, then fallback to raster may be performed as well.
+Secondly, there is an option for EMF+ Dual metafile to fallback from playing the EMF+ part to the EMF part. It is controlled by [EmfPlusDualRenderingMode](https://apireference.aspose.com/net/words/aspose.words.saving/metafilerenderingoptions/properties/emfplusdualrenderingmode). If there are some issues occur when playing the EMF part, then fallback to raster may be performed as well.
 
-As for raster operations, if the [EmulateRasterOperations](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/properties/emulaterasteroperations) is disabled, then raster operations are considered as not supported, which triggers fallback to bitmap metafile player if it is enabled. Therefore, if you have a metafile with raster operations, but you do not want to use raster operations emulation and yet want to get the vector output with substitution graphics, then select the [MetafileRenderingMode](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingmode).**Vector**.
+As for raster operations, if the [EmulateRasterOperations](https://apireference.aspose.com/net/words/aspose.words.saving/metafilerenderingoptions/properties/emulaterasteroperations) is disabled, then raster operations are considered as not supported, which triggers fallback to bitmap metafile player if it is enabled. Therefore, if you have a metafile with raster operations, but you do not want to use raster operations emulation and yet want to get the vector output with substitution graphics, then select the [MetafileRenderingMode](https://apireference.aspose.com/net/words/aspose.words.saving/metafilerenderingmode).**Vector**.

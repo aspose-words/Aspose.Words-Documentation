@@ -2,7 +2,7 @@
 title: Save a Document
 aliases: [/java/saving-a-document/]
 type: docs
-description: "Aspose.Words for Java enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
+description: "Aspose.Words for Java allows you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
 weight: 20
 url: /java/save-a-document/
 ---
@@ -27,7 +27,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 Pass a stream object to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save(java.io.OutputStream,com.aspose.words.SaveOptions)) method. It's necessary to specify the save format explicitly when saving to a stream.
 
-The following code example shows how to load and save a document to a stream:
+The following code example demonstrates how to load and save a document to a stream:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveToStream-LoadAndSave.java" >}}
 
@@ -37,6 +37,6 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 Aspose.Words supports saving a document into PCL (Printer Command Language). Aspose.Words can save documents into PCL 6 (PCL 6 Enhanced or PCL XL) format. The PclSaveOptions class can be used to specify additional options when saving a document into the PCL format.
 
-The following code example demonstrates how to save a document to PCL using save options:
+The following code example shows how to save a document to PCL using save options:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToPCL-ConvertDocumentToPCL.java" >}}

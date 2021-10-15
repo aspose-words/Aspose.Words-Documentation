@@ -37,17 +37,17 @@ Also, Aspose.Words allows you to display revisions in a document. Use the [Revi
 
 You can also have revisions displayed as comments to the content. For this purpose, use the [CommentDisplayMode](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/commentdisplaymode) property and [ShowInBalloons](https://apireference.aspose.com/words/net/aspose.words.layout/commentdisplaymode) value.
 
-The following code example demonstrates how to customize revisions display:
+The following code example shows how to customize revisions display:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-ShowRevisionsInBalloons.cs" >}}
 
-The image below demonstrates how Aspose.Words renders comments and the Delete revisions:
+The image below shows how Aspose.Words renders comments and the Delete revisions:
 
 <img src="specify-layout-options_4.png" alt="comments_and_revisions_example_aspose_words_net" style="width:800px"/>
 
 ## Text Shaper for Advanced Typography Rendering
 
-The [TextShaperFactory](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory) property allows you to set the text shaping functionality, as well as the OpenType features support.
+The [TextShaperFactory](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory) property enables you to set the text shaping functionality, as well as the OpenType features support.
 
 Use text shaping for document processing in the following main cases:
 

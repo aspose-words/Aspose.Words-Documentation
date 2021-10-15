@@ -7,7 +7,7 @@ url: /net/drawing-object-features-supported-on-rich-text-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports numerous types of drawing entities on document load.
+Aspose.Words supports multiple types of drawing entities on document load.
 
 Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior.
 
@@ -160,7 +160,7 @@ See the following links in the documentation for further information:
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/href)|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs.aspose.com/words/net/working-with-watermark/)|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs.aspose.com/words/net/working-with-watermark/)|
 
 ## WordArt
 

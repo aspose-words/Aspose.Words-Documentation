@@ -243,7 +243,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Text |Yes | | |
 |Hyperlinked Shape or Image |Yes | | |
-|Hyperlink across Multiple Paragraphs |N/A |ODT doesn't support having hyperlinks across numerous paragraphs. | |
+|Hyperlink across Multiple Paragraphs |N/A |ODT doesn't support having hyperlinks across multiple paragraphs. | |
 |Hyperlink to a Local Bookmark |Yes | | |
 |Hyperlink to an External Resource |Yes | | |
 |Screen Tip |N/A | | |

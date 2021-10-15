@@ -37,7 +37,7 @@ You can specify criteria using the [DocumentSplitCriteria](https://apireference
 - column break,
 - page break.
 
-When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into a few HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
+When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into multiple HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
 
 {{% alert color="primary" %}} 
 
@@ -49,7 +49,7 @@ In this section, we consider only some of the possible split criteria.
 
 ### Split a Document by Sections
 
-Aspose.Words also allows you to use section breaks to split documents and save them to HTML. For this purpose, use **SectionBreak** as the **DocumentSplitCriteria**:
+Aspose.Words also enables you to use section breaks to split documents and save them to HTML. For this purpose, use **SectionBreak** as the **DocumentSplitCriteria**:
 
 The following code example shows how to split a document into smaller parts by section breaks (without using the DocumentSplitCriteria property):
 
@@ -69,7 +69,7 @@ You can use any [output format supported by Aspose.Words](https://docs.aspose.co
 
 {{% alert color="primary" %}}
 
-Due to the multiple nuances appearing while reducing the number of pages, a full match with the Microsoft Word layout is quite a complicated task. Therefore, depending on the document complexity, there may be slight differences in the resulting document layout from the original document.
+Due to the numerous nuances appearing while reducing the number of pages, a full match with the Microsoft Word layout is quite a complicated task. Therefore, depending on the document complexity, there may be slight differences in the resulting document layout from the original document.
 
 {{% /alert %}}
 
@@ -77,13 +77,13 @@ Due to the multiple nuances appearing while reducing the number of pages, a full
 
 Aspose.Words enables you to split a multi-page document page by page.
 
-The following code example demonstrates how to divide a document and save each page as a separate document:
+The following code example shows how to divide a document and save each page as a separate document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Split Documents-Split document-SplitDocumentPageByPage.h" >}}
 
 ### Split a Document by Page Ranges
 
-Aspose.Words enables splitting a multi-page document by page ranges. You can split one file into numerous files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
+Aspose.Words allows splitting a multi-page document by page ranges. You can split one file into many files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
 
 The following code example demonstrates how to split a document into smaller parts by page range with specific start and end indexes:
 
@@ -93,6 +93,6 @@ The following code example demonstrates how to split a document into smaller par
 
 Aspose.Words enables you to merge the output split document with another document to form a new document. This can be called document merging.
 
-The following code example shows how to merge a split document with another document:
+The following code example demonstrates how to merge a split document with another document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SplitDocument-MergeSplitDocuments.cpp" >}}

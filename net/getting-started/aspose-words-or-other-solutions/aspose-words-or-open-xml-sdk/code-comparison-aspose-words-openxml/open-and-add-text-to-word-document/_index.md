@@ -1,6 +1,6 @@
----
+﻿---
 title: Open and Modify a Document
-description: "Aspose.Words for .NET allows you to open and modiffy an existing Word document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to open and modiffy an existing Word document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 40
 url: /net/open-and-add-text-to-word-document/
@@ -16,7 +16,7 @@ On this page we will look at how to open an existing document and add text into 
 
 In Aspose.Words, we normally use the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class to create a document and the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class to modify it.
 
-The following code example shows how to open an existing document and add text into it:
+The following code example demonstrates how to open an existing document and add text into it:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -72,6 +72,5 @@ public void OpenAndAddTextToWordDocumentFeature()
 {{% alert color="primary" %}}
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
-
 
 {{% /alert %}}

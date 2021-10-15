@@ -33,7 +33,7 @@ Aspose.Words Java for Struts 1.3 is simple book store web based application writ
 
 {{% alert color="primary" %}} 
 
-[Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) is very rich in features, however this demo web application shows just a fraction of it!For the complete features list of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx), you are strongly recommended to check the API documentation at:
+[Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) is very rich in features, however this demo web application demonstrates just a fraction of it!For the complete features list of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx), you are strongly recommended to check the API documentation at:
 <http://www.aspose.com/java/word-component.aspx>
 
 {{% /alert %}} 

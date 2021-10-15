@@ -15,7 +15,7 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}} 
 
-The following code example demonstrates how to Inserts a merge field into a document using DocumentBuilder.
+The following code example shows how to Inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-1.java" >}}
 
@@ -25,7 +25,7 @@ The same technique is used to insert fields nested within other fields. The foll
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example demonstrates how to get names of all merge fields in a document.
+A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example shows how to get names of all merge fields in a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-1.java" >}}
 
@@ -95,7 +95,7 @@ AUTHOR field is used to specify the name of Document's author from the Document 
 - Specify the document author's name.
   For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldAuthor).
 
-Below example shows how to Add a AUTHOR Field using DOM to a Paragraph in Document.
+Below example demonstrates how to Add a AUTHOR Field using DOM to a Paragraph in Document.
 
 **Java**
 
@@ -127,7 +127,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example demonstrates how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example shows how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertIncludeFieldWithoutDocumentBuilder.java" >}}
 
@@ -174,12 +174,12 @@ The code example shows how to insert empty field in the document.
 
 ### Insert Compare Field in Word Document
 
-COMPARE field compares two values and returns the numeric value 1 if the comparison is true or 0 if the comparison is false. The following example shows how to add COMPARE fields by using DocumentBuilder to a Word Document:
+COMPARE field compares two values and returns the numeric value 1 if the comparison is true or 0 if the comparison is false. The following example demonstrates how to add COMPARE fields by using DocumentBuilder to a Word Document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
 ### Insert IF Field in Word Document
 
-IF field can be used to evaluate arguments conditionally. The following example demonstrates how to add IF fields by using DocumentBuilder to a Word Document:
+IF field can be used to evaluate arguments conditionally. The following example shows how to add IF fields by using DocumentBuilder to a Word Document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}

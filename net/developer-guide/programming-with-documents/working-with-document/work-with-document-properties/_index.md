@@ -33,7 +33,7 @@ To access document properties in Aspose.Words use:
 
 The [DocumentProperty](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty) class allows you to get the name, value, and type of a document property. [Value](http://www.aspose.com/api/net/words/aspose.words.properties/documentproperty/properties/value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty/methods/tostring) and **DocumentProperty.**[ToInt](https://apireference.aspose.com/words/net/aspose.words.properties/documentproperty/methods/toint), to obtain the value of the appropriate type.
 
-The following code example demonstrates how to enumerate all built-in and custom properties in a document:
+The following code example shows how to enumerate all built-in and custom properties in a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-EnumerateProperties.cs" >}}
 
@@ -55,7 +55,7 @@ To add custom document properties with Aspose.Words, use the [Add](http://www.as
 
 To remove custom properties, use the [Remove](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/remove) method, passing it the property name to remove, or the [RemoveAt](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/removeat) method to remove the property by index. You can also remove all properties using the [Clear](https://apireference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/clear) method.
 
-The following code example checks whether a custom property with a given name exists in a document and adds many more custom document properties:
+The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomAdd.cs" >}}
 
@@ -65,7 +65,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example shows how to remove a custom document property:
+The following code example demonstrates how to remove a custom document property:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomRemove.cs" >}}
 

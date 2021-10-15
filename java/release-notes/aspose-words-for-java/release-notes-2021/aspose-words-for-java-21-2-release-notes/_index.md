@@ -90,7 +90,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21006 | ReportingEngine.BuildReport could not create the bitmap - lack of system   resources - FileFormat=0 | Bug |
 | WORDSNET-21473 | DOCX to PDF conversion issue with accessibility check for alternative   text | Bug |
 | WORDSNET-20982 | Artifact issue while converting DOCX to PDF | Bug |
-| WORDSNET-21305 | IChar solution allocates too a few class instances | Bug |
+| WORDSNET-21305 | IChar solution allocates too several class instances | Bug |
 | WORDSNET-21306 | DOCX to PDF conversion: a part of first page is pushed to second page   after conversion | Bug |
 | WORDSNET-21307 | Messed up headers after extract page | Bug |
 | WORDSNET-21617 | Track changes - Bookmarks not being generated for Headings during Word to   PDF conversion | Bug |
@@ -733,7 +733,7 @@ Now the methods DocumentBuilder.MoveToParagraph and DocumentBuilder.MoveToCell s
 /// </remarks>
 /// <param name="paragraphIndex">The index of the paragraph to move to.</param>
 /// <param name="characterIndex">The index of the character inside the paragraph.
-/// A negative value enables you to specify a position from the end of the paragraph. Use -1 to move to the end of
+/// A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of
 /// the paragraph.</param>
 public void MoveToParagraph(int paragraphIndex, int characterIndex);
 

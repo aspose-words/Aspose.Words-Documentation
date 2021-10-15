@@ -1,14 +1,14 @@
 ﻿---
 title: Document Builder Overview
 type: docs
-description: "DocumentBuilder enables you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with Java."
+description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with Java."
 weight: 15
 url: /java/document-builder-overview/
 ---
 
 [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/java/com.aspose.words/document) and enables you to build dynamic documents from scratch or add new elements to an existing one.
 
-**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It enables you to specify fonts, paragraph or section formatting, and perform other operations.
+**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
 
 ## Document Builder or Aspose.Words DOM
 
@@ -20,13 +20,13 @@ Operations that are possible with **DocumentBuilder** are also possible when usi
 
 Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToDocumentStart()) and [MoveToField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToField(com.aspose.words.Field,boolean)). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#write(java.lang.String)), [Writeln](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#writeln()), [InsertBreak](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertBreak(int)), and others. See the following article "Navigation with Cursor" to learn more about the virtual cursor.
 
-The following code example shows how to navigate to a bookmark:
+The following code example demonstrates how to navigate to a bookmark:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-DocumentBuilderMoveToBookmarkEnd.java" >}}
 
 ## Document Building and Modifying
 
-Aspose.Words API provides numerous classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/java/com.aspose.words/font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
+Aspose.Words API provides a few classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/java/com.aspose.words/font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
 
 You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)), [InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertHtml(java.lang.String)), and similar methods.
 

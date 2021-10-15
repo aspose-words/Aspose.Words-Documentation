@@ -93,7 +93,7 @@ You can use Document.AppendDocument method to append one document to another.
 <html>
 <head><title>Merge documents</title></head>
 <body>
-    <b>This example shows how to append one docuemnt to another using Aspose.Words</b>
+    <b>This example demonstrates how to append one docuemnt to another using Aspose.Words</b>
     <cfset assemblyPath="C:\Program Files\Aspose\Aspose.Words\Bin\net2.0\Aspose.Words.dll">
     <cfset dstDoc=CreateObject(".NET", "Aspose.Words.Document", assemblyPath).Init("C:\Temp\doc1.doc")>
     <cfset srcDoc=CreateObject(".NET", "Aspose.Words.Document", assemblyPath).Init("C:\Temp\doc2.doc")>

@@ -7,7 +7,7 @@ url: /java/open-a-document-read-only/
 aliases: [/java/document-protection/]
 ---
 
-Sometimes, you may have a document that needs a review, but you do not want reviewers to randomly modify your content. Aspose.Words enables you to make the permission of your document read-only so that the content can be copied or read, but not modified. This will prevent content from being removed or added to your document.
+Sometimes, you may have a document that needs a review, but you do not want reviewers to randomly modify your content. Aspose.Words allows you to make the permission of your document read-only so that the content can be copied or read, but not modified. This will prevent content from being removed or added to your document.
 
 {{% alert color="primary" %}}
 
@@ -23,7 +23,7 @@ Aspose.Words has the public class [WriteProtection](https://apireference.aspose.
 
 Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
-Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#ReadOnlyRecommended) property and the [SetPassword](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#setPassword(java.lang.String)) method.
+Aspose.Words enables you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#ReadOnlyRecommended) property and the [SetPassword](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#setPassword(java.lang.String)) method.
 
 {{% alert color="primary" %}}
 
@@ -60,6 +60,6 @@ The following code example demonstrates how to make a document read-only:
 
 If you do not want a user to open your document as read-only, you can simply set the **ReadOnlyRecommened** property to *false* or select **ProtectionType** as **NoProtection**.
 
-The following code example shows how to remove read-only access for a document:
+The following code example demonstrates how to remove read-only access for a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveReadOnlyRestriction.java" >}}

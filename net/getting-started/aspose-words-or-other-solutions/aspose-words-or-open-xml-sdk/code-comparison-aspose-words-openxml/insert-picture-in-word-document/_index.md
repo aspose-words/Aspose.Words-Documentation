@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert Image into a Word document
 description: "Aspose.Words for .NET allows you to insert image into a Word document easily and fast instead of using Open XML SDK."
 type: docs
@@ -18,7 +18,7 @@ On this page we will look at how to insert images into a Word document using Asp
 
 The DocumentBuilder complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks such as inserting text, tables, fields, and hyperlinks.
 
-The following code example shows how to insert an image into a document at a specified position and size:
+The following code example demonstrates how to insert an image into a document at a specified position and size:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertFloatingImage.cs" >}}
 
@@ -144,6 +144,5 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 {{% alert color="primary" %}} 
 
 For more information about Aspose.Words features please visit [Working with Images](https://docs.aspose.com/words/net/working-with-images/).
-
 
 {{% /alert %}}

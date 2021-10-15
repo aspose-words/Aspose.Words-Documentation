@@ -176,7 +176,7 @@ public bool BreakIsStyleSeparator
 
 
 
-It allows to identify Style Separator Paragraph.
+It enables to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -254,7 +254,7 @@ Assert.AreEqual("1)", fields[5].DisplayResult);
 
 Related issue: WORDSNET-16739
 
-Added new StreamFontSource class which allows loading fonts from the stream:
+Added new StreamFontSource class which enables loading fonts from the stream:
 
 
 
@@ -266,7 +266,7 @@ Added new StreamFontSource class which allows loading fonts from the stream:
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called multiple times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called several times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 

@@ -141,7 +141,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, I
 
 
 
-It allows to specify an additional options that affect the formatting of a result document.
+It enables to specify an additional options that affect the formatting of a result document.
 
 See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for Java 19.4 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-19-4-release-notes/).
 
@@ -167,7 +167,7 @@ Added a new public property BreakIsStyleSeparator into a Paragraph class.
 
 {{< highlight csharp >}}
 /// <summary>
-/// True if this paragraph break is a Style Separator. A style separator enables one
+/// True if this paragraph break is a Style Separator. A style separator allows one
 /// paragraph to consist of parts that have different paragraph styles.
 /// </summary>
 public bool BreakIsStyleSeparator
@@ -263,11 +263,11 @@ Added new StreamFontSource class which enables loading fonts from the stream:
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called multiple times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called numerous times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
-    /// <para><see cref="StreamFontSource"/> may be useful because it enables to load the font data only when it is required
+    /// <para><see cref="StreamFontSource"/> may be useful because it allows to load the font data only when it is required
     /// and not to store it in the memory for the <see cref="FontSettings"/> lifetime.</para>
     /// </remarks>
     public abstract class StreamFontSource : FontSourceBase, IFontData
@@ -354,7 +354,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 Font runFont = runs[1].Font;
 
-// One run might have multiple Dml text effects applied.
+// One run might have a few Dml text effects applied.
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Effect3D));
 Debug.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Reflection));

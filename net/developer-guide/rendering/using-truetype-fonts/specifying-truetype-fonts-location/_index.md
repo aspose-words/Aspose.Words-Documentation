@@ -1,6 +1,6 @@
 ﻿---
 title: Specify TrueType Fonts Location
-description: "Aspose.Words for .NET enables you to specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system or memory."
+description: "Aspose.Words for .NET allows you to specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system or memory."
 type: docs
 weight: 30
 url: /net/specifying-truetype-fonts-location/
@@ -8,7 +8,7 @@ url: /net/specifying-truetype-fonts-location/
 
 This topic describes the default behavior of Aspose.Words when it looks for TrueType fonts, including operating system specific differences, and demonstrates how to specify user font sources.
 
-The [FontSourceBase](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsourcebase) class is used to specify various font sources. There are multiple implementations of the **FontSourceBase** class:
+The [FontSourceBase](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsourcebase) class is used to specify various font sources. There are numerous implementations of the **FontSourceBase** class:
 
 - [SystemFontSource](https://apireference.aspose.com/words/net/aspose.words.fonts/systemfontsource)
 - [FolderFontSource](https://apireference.aspose.com/words/net/aspose.words.fonts/folderfontsource)
@@ -53,7 +53,7 @@ Since the font metrics of Windows and non-Windows OS are different, Aspose.Words
 
 #### Where Aspose.Words Looks for TrueType Fonts on Linux
 
-Different Linux distributions may store fonts in different folders. Aspose.Words looks for fonts in numerous locations. By default, Aspose.Words looks for the fonts in all of the following locations: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsThis default behavior will work for most Linux distributions, but it is not guaranteed to work all of the time, in which case you might need to specify the location of true type fonts explicitly. To do this, you need to know where TrueType fonts are installed on your Linux distribution.
+Different Linux distributions may store fonts in different folders. Aspose.Words looks for fonts in many locations. By default, Aspose.Words looks for the fonts in all of the following locations: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsThis default behavior will work for most Linux distributions, but it is not guaranteed to work all of the time, in which case you might need to specify the location of true type fonts explicitly. To do this, you need to know where TrueType fonts are installed on your Linux distribution.
 
 #### Where Aspose.Words Looks for TrueType Fonts on Mac OS X
 
@@ -73,7 +73,7 @@ The following example demonstrates how to set the folder or source, which Aspose
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
-An extra Boolean parameter controls whether fonts are scanned recursively through all folders, hence scanning all child folders of a specified folder. The following example demonstrates how to set Aspose.Words to look in many folders for TrueType fonts when rendering or embedding fonts:
+An extra Boolean parameter controls whether fonts are scanned recursively through all folders, hence scanning all child folders of a specified folder. The following example shows how to set Aspose.Words to look in a few folders for TrueType fonts when rendering or embedding fonts:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersMultipleFolders-SetFontsFoldersMultipleFolders.cs" >}}
 
@@ -97,7 +97,7 @@ The [Priority](https://apireference.aspose.com/words/net/aspose.words.fonts/fon
 
 ## Loading Fonts from Stream
 
-Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/net/aspose.words.fonts/streamfontsource) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/net/aspose.words.fonts/streamfontsource/methods/openfontdatastream) method. The **OpenFontDataStream** method could be called numerous times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the [FontSettings](http://fontsettings/) lifetime.
+Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/net/aspose.words.fonts/streamfontsource) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/net/aspose.words.fonts/streamfontsource/methods/openfontdatastream) method. The **OpenFontDataStream** method could be called multiple times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the [FontSettings](http://fontsettings/) lifetime.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-ResourceSteamFontSourceExample-ResourceSteamFontSourceExample.cs" >}}
 
