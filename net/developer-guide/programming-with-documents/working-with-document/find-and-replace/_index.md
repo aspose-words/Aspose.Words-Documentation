@@ -1,7 +1,7 @@
-﻿---
+---
 title: Find and Replace
 type: docs
-description: "Aspose.Words for .NET allows you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
+description: "Aspose.Words for .NET enables you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
 weight: 85
 url: /net/find-and-replace/
 ---
@@ -114,7 +114,7 @@ And after applying footer string replacement:
 
 While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
 
-Aspose.Words provides multiple find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignoredeleted), [IgnoreFields](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefields), [IgnoreFootnotes](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefootnotes), and [IgnoreInserted](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignoreinserted).
+Aspose.Words provides a few find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignoredeleted), [IgnoreFields](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefields), [IgnoreFootnotes](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefootnotes), and [IgnoreInserted](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignoreinserted).
 
 The following code example shows how to ignore text inside delete revisions:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: What's new in Aspose.Words for C++
 type: docs
 description: "Aspose.Words for C++ expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
@@ -27,18 +27,37 @@ For more information on these changes, see the [Aspose.Words for C++ 21.3 Releas
 
 {{% /alert %}}
 
-## Aspose.Words for C++ 21.9
+## Aspose.Words for C++ 21.9, 21.10
 
 Aspose.Words 21.9 expands the list-level formatting control.
 
-The API is enhanced for more flexible and convenient development:
+Aspose.Words 21.10 enhances rendering options, improves find and replace options, and expands Mail Merge and Structure Document Tag functionality.
+
+The API is enhanced for more flexible and convenient development.
+
+### Rendering
+
+New public methods and properties to work with gradient fills and gradient stops have been added to satisfy the brightest ideas when developing your documents.
+
+### Search and Compare
+
+A new option to ignore footnotes during the find and replace operation has been added.
+
+### Mail Merge and Reporting
+
+The ability to get [ParentRegion](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info#get_parentregion_const) through [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info), which made our MailMerge engine more tunable, has been added.
+
+### Other
 
 - An ability to get the [CustomNumberStyleFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level#get_customnumberstyleformat) property of the [ListLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level) object has been added.
 - A possibility to get the string representation of the [ListLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level) object for a specified index using the [GetEffectiveValue](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level#geteffectivevalue_int_numberstyle_string) method has been added.
+- An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 21.9 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-9-release-notes/).
+
+Learn more about [Aspose.Words for C++ 21.10 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-10-release-notes/).
 
 {{% /alert %}}
 

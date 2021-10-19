@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find and Replace
 type: docs
 description: "Aspose.Words for C++ enables you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
@@ -6,9 +6,9 @@ weight: 80
 url: /cpp/find-and-replace/
 ---
 
-You can easily navigate within your document using a keyboard and mouse, but if you have numerous pages to scroll through, it will take quite a while to find specific text in a long document. It will be more time consuming when you want to replace certain characters or words that you have used in your document. The “Find and replace” functionality enables you to find a sequence of characters in a document and replace it with another sequence of characters.
+You can easily navigate within your document using a keyboard and mouse, but if you have a few pages to scroll through, it will take quite a while to find specific text in a long document. It will be more time consuming when you want to replace certain characters or words that you have used in your document. The “Find and replace” functionality allows you to find a sequence of characters in a document and replace it with another sequence of characters.
 
-Aspose.Words allows you to find a specific string or regular expression pattern in your document and replace it with an alternative without installing and using additional applications such as Microsoft Word. This will speed up numerous typing and formatting tasks, potentially saving you hours of work.
+Aspose.Words enables you to find a specific string or regular expression pattern in your document and replace it with an alternative without installing and using additional applications such as Microsoft Word. This will speed up many typing and formatting tasks, potentially saving you hours of work.
 
 This article explains how to apply string replacement and regular expressions with the support of metacharacters.
 
@@ -113,7 +113,7 @@ And after applying footer string replacement:
 
 While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
 
-Aspose.Words provides multiple find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options), [IgnoreFields](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefields_const), and [IgnoreInserted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignoreinserted_const).
+Aspose.Words provides many find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options), [IgnoreFields](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefields_const), [IgnoreFootnotes](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefootnotes_const), and [IgnoreInserted](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignoreinserted_const).
 
 The following code example shows how to ignore text inside delete revisions:
 

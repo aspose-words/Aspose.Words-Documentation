@@ -1,4 +1,4 @@
-﻿---
+---
 title: What's new in Aspose.Words for .NET
 type: docs
 description: "Aspose.Words for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
@@ -56,6 +56,8 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/net/aspo
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 21.9 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-9-release-notes/).
+
+Learn more about [Aspose.Words for .NET 21.10 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-10-release-notes/).
 
 {{% /alert %}}
 
