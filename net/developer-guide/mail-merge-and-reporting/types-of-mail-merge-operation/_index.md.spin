@@ -1,4 +1,4 @@
-﻿---
+---
 title: Types of Mail Merge Operation
 aliases:
   - /net/how-to-execute-mail-merge/
@@ -21,7 +21,7 @@ The [MailMerge](https://apireference.aspose.com/words/net/aspose.words.mailmergi
 
 {{% /alert %}}
 
-## Simple Mail Merge Operation
+## Simple {Mail Merge Operation|Mail Merge} {#simple-mail-merge-operation}
 
 A simple mail merge is used to fill the mail merge fields inside your template with the required data from your data source (single table representation). So it is similar to the classic mail merge in Microsoft Word.
 
@@ -29,7 +29,7 @@ You can add one or more merge fields in your template and then execute the simpl
 
 The main limitation of using this type is the whole document content will be repeated for each record in the data source.
 
-### How to Execute a Simple Mail Merge Operation
+### How to Execute {a Simple Mail Merge Operation|Simple Mail Merge Operation|Simple Mail Merge} {#how-to-execute-a-simple-mail-merge-operation}
 
 Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words {allows|enables} you to execute a simple mail merge operation using different [Execute methods](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/execute/index) that accept various data objects as the data source.
 
@@ -64,6 +64,12 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 You can create different regions in your template to have special areas that you can simply fill with your data. Use the mail merge with regions if you want to insert tables, rows with repeating data to make your documents dynamically grow by specifying those regions within your template.
 
 You can create nested (child) regions as well as merge regions. The main advantage of using this type is to dynamically increase parts inside a document. See more details in the next article "Nested Mail Merge with Regions".
+
+{{% alert color="primary" %}}
+
+Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo) class.
+
+{{% /alert %}}
 
 ### How to Execute Mail Merge with Regions
 

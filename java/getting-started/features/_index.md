@@ -14,7 +14,7 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 
 Modern document formats and standards are complex, and when you require document conversion or other document processing features in your project, the only practical solution is often to rely on a third-party component that implements the desired functionality. But using a third-party component always carries some risk. One of the unique risks in document processing is the question about how completely and correctly the library implements a particular document format or standard.
 
-Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across several platforms.
+Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across many platforms.
 
 The tables below summarize Aspose.Words for Java features and provide links to detailed feature descriptions.
 

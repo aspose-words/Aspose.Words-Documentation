@@ -57,7 +57,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-10462|Contents of an **iframe** element get visible after HTML import|Bug|
 |WORDSNET-10463|Table border becomes visible during open/save a DOCX|Bug|
 |WORDSNET-10464|Top margin issue after conversion from Docx to Pdf|Bug|
-|WORDSNET-10475|A Word is rendered in several SPAN tags in HtmlFixed|Bug|
+|WORDSNET-10475|A Word is rendered in many SPAN tags in HtmlFixed|Bug|
 |WORDSNET-10498|HtmlFixed export doesn't consider Font.Spacing during exporting|Bug|
 |WORDSNET-4651|Font becomes bold in a cell in ODT output|Bug|
 |WORDSNET-5296|Table looks incorrect in MS Words after open/save ODT document using AW|Bug|

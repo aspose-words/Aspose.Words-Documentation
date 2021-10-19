@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Product Family
 type: docs
 weight: 10
@@ -17,15 +17,15 @@ Aspose.Words for .NET is a class library that {enables|allows} your applications
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Words for .NET Features](/words/net/feature-overview/)
-- [Aspose.Words for .NET Limitations](/words/net/what-document-features-are-supported)
+- [Aspose.Words for .NET Features](/words/net/features/)
+- [Aspose.Words for .NET Limitations](/words/net/what-document-features-are-supported/)
 - [Aspose.Words for .NET Release Notes](/words/net/release-notes/)
-- [Aspose.Words for .NET Product Page](https://products.aspose.com/words/net)
-- [Download Aspose.Words for .NET](https://downloads.aspose.com/words/net)
+- [Aspose.Words for .NET Product Page](https://products.aspose.com/words/net/)
+- [Download Aspose.Words for .NET](https://downloads.aspose.com/words/net/)
 - [Install Aspose.Words for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Words/)
 - [Aspose.Words for .NET API Reference Guide](https://apireference.aspose.com/net/words)
 - [Download Examples at GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-.NET)
-- [Aspose.Words for .NET Free Support Forum](https://forum.aspose.com/c/words)
+- [Aspose.Words for .NET Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 ## Aspose.Words for Java
@@ -40,10 +40,10 @@ Aspose.Words for Java is a class library that {enables|allows} your applications
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Words for Java Features](/words/java/feature-overview)
-- [Aspose.Words for Java Limitations](/words/java/what-document-features-are-supported)
-- [Aspose.Words for Java Release Notes](/words/java/aspose-words-for-java)
-- [Aspose.Words for Java Product Page](https://products.aspose.com/words/java)
+- [Aspose.Words for Java Features](/words/java/feature-overview/)
+- [Aspose.Words for Java Limitations](/words/java/what-document-features-are-supported/)
+- [Aspose.Words for Java Release Notes](/words/java/aspose-words-for-java/)
+- [Aspose.Words for Java Product Page](https://products.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words)
 - [Install Aspose.Words for Java from Maven Repository](/words/java/installation/)
 - [Aspose.Words for Java API Reference Guide](https://apireference.aspose.com/java/words)
@@ -63,14 +63,14 @@ Aspose.Words for C++ is a native class library that {enables|allows} C++ appli
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Words for C++ Features](/words/cpp/product-overview)
-- [Aspose.Words for C++ Release Notes](/words/cpp/release-notes)
-- [Aspose.Words for C++ Product Page](https://products.aspose.com/words/cpp)
-- [Download Aspose.Words for C++](https://downloads.aspose.com/words/cpp)
+- [Aspose.Words for C++ Features](/words/cpp/product-overview/)
+- [Aspose.Words for C++ Release Notes](/words/cpp/release-notes/)
+- [Aspose.Words for C++ Product Page](https://products.aspose.com/words/cpp/)
+- [Download Aspose.Words for C++](https://downloads.aspose.com/words/cpp/)
 - [Install Aspose.Words for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Words.Cpp/)
-- [Aspose.Words for C++ API Reference Guide](https://apireference.aspose.com/cpp/words)
-- [Download Examples at GitHub Repository](https://github.com/aspose-words/Aspose.words-for-C)
-- [Aspose.Words for C++ Free Support Forum](https://forum.aspose.com/c/words)
+- [Aspose.Words for C++ API Reference Guide](https://apireference.aspose.com/cpp/words/)
+- [Download Examples at GitHub Repository](https://github.com/aspose-words/Aspose.words-for-C/)
+- [Aspose.Words for C++ Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 ## Aspose.Words for Reporting Services
@@ -86,11 +86,11 @@ Have you ever wished you could export RDL and RDLC reports as OOXML, DOC, RTF an
 The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for Reporting Services Online Documentation](/words/reportingservices/)
-- [Aspose.Words for Reporting Services Features](/words/reportingservices/feature-tour)
-- [Aspose.Words for Reporting Services Release Notes](/words/reportingservices/release-notes)
-- [Aspose.Words for Reporting Services Product Page](https://products.aspose.com/words/reporting-services)
-- [Download Aspose.Words for Reporting Services](https://downloads.aspose.com/words/reportingservices)
-- [Aspose.Words for Reporting Services Free Support Forum](https://forum.aspose.com/c/words)
+- [Aspose.Words for Reporting Services Features](/words/reportingservices/feature-tour/)
+- [Aspose.Words for Reporting Services Release Notes](/words/reportingservices/release-notes/)
+- [Aspose.Words for Reporting Services Product Page](https://products.aspose.com/words/reporting-services/)
+- [Download Aspose.Words for Reporting Services](https://downloads.aspose.com/words/reportingservices/)
+- [Aspose.Words for Reporting Services Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for Reporting Services Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 ## Aspose.Words for SharePoint
@@ -106,11 +106,11 @@ Aspose.Words for SharePoint makes it possible to convert and combine word docume
 The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for SharePoint Online Documentation](/words/sharepoint/)
-- [Aspose.Words for SharePoint Features](/words/sharepoint/features)
-- [Aspose.Words for SharePoint Release Notes](/words/sharepoint/release-notes)
-- [Aspose.Words for SharePoint Product Page](https://products.aspose.com/words/sharepoint)
-- [Download Aspose.Words for SharePoint](https://downloads.aspose.com/words/sharepoint)
-- [Aspose.Words for SharePoint Free Support Forum](https://forum.aspose.com/c/words)
+- [Aspose.Words for SharePoint Features](/words/sharepoint/features/)
+- [Aspose.Words for SharePoint Release Notes](/words/sharepoint/release-notes/)
+- [Aspose.Words for SharePoint Product Page](https://products.aspose.com/words/sharepoint/)
+- [Download Aspose.Words for SharePoint](https://downloads.aspose.com/words/sharepoint/)
+- [Aspose.Words for SharePoint Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for SharePoint Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 ## Aspose.Words for JasperReports
@@ -126,9 +126,9 @@ Aspose.Words for JasperReports is the only known solution on the market that mak
 The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Words for JasperReports Online Documentation](/words/jasperreports/)
-- [Aspose.Words for JasperReports Features](/words/jasperreports/feature-tour)
-- [Aspose.Words for JasperReports Release Notes](/words/jasperreports/release-notes)
-- [Aspose.Words for JasperReports Product Page](https://products.aspose.com/words/jasperreports)
-- [Download Aspose.Words for JasperReports](https://downloads.aspose.com/words/jasperreports)
-- [Aspose.Words for JasperReports Free Support Forum](https://forum.aspose.com/c/words)
+- [Aspose.Words for JasperReports Features](/words/jasperreports/feature-tour/)
+- [Aspose.Words for JasperReports Release Notes](/words/jasperreports/release-notes/)
+- [Aspose.Words for JasperReports Product Page](https://products.aspose.com/words/jasperreports/)
+- [Download Aspose.Words for JasperReports](https://downloads.aspose.com/words/jasperreports/)
+- [Aspose.Words for JasperReports Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for JasperReports Paid Support Helpdesk](https://helpdesk.aspose.com/)

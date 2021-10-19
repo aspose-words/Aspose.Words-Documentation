@@ -1,6 +1,6 @@
 ﻿---
 title: Serialize and Work with a Document in a Database
-description: "Aspose.Words for Java allows you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."
+description: "Aspose.Words for Java enables you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."
 aliases:
     - /java/converting-a-document-using-advance-features/
 type: docs
@@ -23,23 +23,27 @@ To serialize a [Document](https://apireference.aspose.com/words/java/com.aspose
 
 The steps above then can be reversed to load the bytes back into a **Document** object.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The selected save format is important to ensure the highest fidelity is retained when saving and reloading into the **Document** object. For this reason, it is suggested to use a series of OOXML file formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
+The example below demonstrates how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToByte-ConvertDocumentToByte.java" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToByte/Test%20File%20\(doc\).doc).
+{{% alert color="primary" %}}
+
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToByte/Test%20File%20(doc).doc).
+
+{{% /alert %}}
 
 ## Store, Read and Delete a Document in a Database
 
 This section demonstrates how to save a document in a database and then load it back into a Document object for working with it. For simplicity, the file name is the key used to store and fetch documents from the database. The database contains two columns. The first column “FileName” is stored as a String and is used to identify documents. The second column “FileContent” is stored as a BLOB object which stores the document object in the byte form.
 
-The following code example demonstrates how to set up a connection to a database and execute commands:
+The following code example shows how to set up a connection to a database and execute commands:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenDatabaseConnection.java" >}}
 
@@ -49,7 +53,7 @@ In this example, we use the MySQL database to store an Aspose.Words document.
 
 {{% /alert %}} 
 
-The following code example shows how to save a document to the database, then read the same document again, and finally delete the record containing the document from the database:
+The following code example demonstrates how to save a document to the database, then read the same document again, and finally delete the record containing the document from the database:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenRetrieveAndDelete.java" >}}
 
@@ -84,6 +88,6 @@ The SQL command “SELECT * FROM” is used to fetch the appropriate record base
 
 To delete a document from the database, use the appropriate SQL command without any manipulations on the **Document** object.
 
-The following code example shows how to delete a document from the database, using the file name to fetch the record:
+The following code example demonstrates how to delete a document from the database, using the file name to fetch the record:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-DeleteFromDatabase.java" >}}

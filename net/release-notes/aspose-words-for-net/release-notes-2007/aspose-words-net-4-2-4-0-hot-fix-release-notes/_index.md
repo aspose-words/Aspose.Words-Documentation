@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words .Net 4.2.4.0 Hot Fix](http://
 
 {{% /alert %}} 
 
-This is a maintenance release that addresses multiple issues reported by Aspose.Words customers in importers/exporters as well as some new features.
+This is a maintenance release that addresses numerous issues reported by Aspose.Words customers in importers/exporters as well as some new features.
 
 The highlight of this release is the support of CSS shorthand attributes in HTML import. The very populat "font", "margins", "padding" and "background" attributes are now supported.
 
@@ -27,5 +27,5 @@ The highlight of this release is the support of CSS shorthand attributes in HTML
 - 3030 - Support legacy list formatting.
 - 3033 - Support reading of empty bookmark names in WordML.
 - 3029 - ArgumentOutOfRangeException when reading a WordML file.
-- 3020 - When reading many copies of same image, read only once to memory.
+- 3020 - When reading several copies of same image, read only once to memory.
 - 3018 - Write same image only once into WordML.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licensing and Subscription
 description: "Aspose.Words for Java provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs
@@ -122,7 +122,7 @@ Aspose.Words {allows|enables} developers to apply a metered key. This is a new l
 
 The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
 
-After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/java/words/com.aspose.words/Metered) class specially introduced for this purpose.
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/words/java/com.aspose.words/Metered) class specially introduced for this purpose.
 
 The following code example {shows|demonstrates} how to set metered public and private keys:
 

@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 - [Loading, Saving and Converting](/words/java/loading-saving-and-converting/)
 - [Working with Document](/words/java/working-with-document/)
 - [Aspose.Words Document Object Model](/words/java/aspose-words-document-object-model/)
-- [**Document**](https://apireference.aspose.com/java/words/com.aspose.words/Document)
+- [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document)
 
 [J]()[ump to this location in the export section](/words/java/document-features-supported-on-flatopc-export/)
 

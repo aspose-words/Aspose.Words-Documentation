@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Charts
 type: docs
 weight: 50
@@ -131,7 +131,7 @@ Using ChartDataLabel.NumberFormat you are able to specify number formatting of a
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/net/words/aspose.words.drawing.charts/chartaxis), [AxisDisplayUnit](https://apireference.aspose.com/net/words/aspose.words.drawing.charts/axisdisplayunit), and [AxisScaling](https://apireference.aspose.com/net/words/aspose.words.drawing.charts/axisscaling) classes. The code example given below {shows|demonstrates} how to define X and Y-axis properties.
+If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis), [AxisDisplayUnit](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit), and [AxisScaling](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling) classes. The code example given below {shows|demonstrates} how to define X and Y-axis properties.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cs" >}}
 

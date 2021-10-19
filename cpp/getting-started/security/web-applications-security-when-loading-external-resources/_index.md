@@ -49,7 +49,7 @@ Based on the length of time the service uses to process the document, the attack
 
 To solve the problems described above and to improve the security of web applications, you can control or disable loading of external resources using [IResourceLoadingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.i_resource_loading_callback).
 
-The following code example shows how to disable external images loading:
+The following code example demonstrates how to disable external images loading:
 
 **C++**
 {{< highlight cpp >}}

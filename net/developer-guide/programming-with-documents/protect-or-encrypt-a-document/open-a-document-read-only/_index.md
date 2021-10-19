@@ -7,7 +7,7 @@ url: /net/open-a-document-read-only/
 aliases: [/net/document-protection/]
 ---
 
-Sometimes, you may have a document that needs a review, but you do not want reviewers to randomly modify your content. Aspose.Words allows you to make the permission of your document read-only so that the content can be copied or read, but not modified. This will prevent content from being removed or added to your document.
+Sometimes, you may have a document that needs a review, but you do not want reviewers to randomly modify your content. Aspose.Words enables you to make the permission of your document read-only so that the content can be copied or read, but not modified. This will prevent content from being removed or added to your document.
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ Note that the password being set is just a property in a document that can be re
 
 If you need to check if a document has a write protection password that restricts it from editing, you can use the [IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/iswriteprotected) property.
 
-The following code example demonstrates how to make a document read-only:
+The following code example shows how to make a document read-only:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-ReadOnlyProtection.cs" >}}
 

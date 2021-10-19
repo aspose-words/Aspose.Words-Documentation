@@ -13,7 +13,7 @@ The Eclipse IDE can be extended with additional software components. Eclipse cal
 
 ## Aspose.Words for Java
 
-[Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that allows you to perform a great range of document processing tasks directly within your Java applications.
+[Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
 
 [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can generate, modify, and convert documents without using Microsoft Word.
 
@@ -69,7 +69,7 @@ To download Eclipse IDE
 Following are three recommended methods for the successful downloading and installation of Aspose.Words Java for Eclipse (Maven) plugin:
 
 - Drag and drop installation from [Eclipse Marketplace](http://marketplace.eclipse.org/content/asposewords-java-eclipse-maven) to your Eclipse workspace.
-- Or download the plugin jar from [Downloads](https://asposewordsjavamaveneclipse.codeplex.com/releases/view/619998) and copy it into /**dropins** folder of Eclipse installation and restart the IDE.
+- Or download the plugin jar from [Downloads](https://archive.codeplex.com/?p=asposewordsjavamaveneclipse) and copy it into /**dropins** folder of Eclipse installation and restart the IDE.
 - Or goto **Help** > **Install New Software...** > Enter following update site url in **Work with**:
   [http://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords](http://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords/)
   Then select "Aspose.Words Java for Eclipse (Maven)" and **Finish**. Accept License Agreement and Install the plugin.

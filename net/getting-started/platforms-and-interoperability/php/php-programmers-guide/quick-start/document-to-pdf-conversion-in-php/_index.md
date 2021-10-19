@@ -1,11 +1,11 @@
----
+﻿---
 title: Document to PDF Conversion in PHP
 type: docs
 weight: 20
 url: /net/document-to-pdf-conversion-in-php/
 ---
 
-## Aspose.Words - Document to PDF Conversion Example
+## Document to PDF Conversion in PHP {#document-to-pdf-conversion}
 
 Document to PDF Conversion Example
 

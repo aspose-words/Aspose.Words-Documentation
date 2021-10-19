@@ -50,7 +50,7 @@ You can see the complete list of supported formats on the ["Supported Document F
 
 **Q: How can I try Aspose.Words free?**
 
-You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to numerous hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
+You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to multiple hundred paragraphs. A Temporary License enables you to test Aspose.Words without Trial restrictions for 30 days.
 
 See the ["Licensing and Subscription"](https://docs.aspose.com/words/net/licensing/) page for more information.
 
@@ -111,7 +111,7 @@ This is because Microsoft Office fallback settings are selected by default, and 
 
 **Q: Why might complex script text, such as Thai or Hebrew, be displayed inaccurately for some reason, such as the wrong position for diacritics or inaccurate ligatures?**
 
-Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/net/words/aspose.words.layout/layoutoptions/properties/textshaperfactory).
+Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory).
 
 ------
 
@@ -197,7 +197,7 @@ pdfDocument.Save(_dataDir + "PDFToDOC_out.doc", SaveFormat.Doc); // .Docx, .Rtf,
 
 It is very easy as well, just load a document to the model and save it to any supported format.
 
-The following code example shows the process of converting a DOCX file to PDF:
+The following code example demonstrates the process of converting a DOCX file to PDF:
 
 {{< highlight csharp >}}
 // Open the source DOCX document.
@@ -217,7 +217,7 @@ You can find more detailed information about programming with documents in the [
 
 **Q: How to split a document page by page?**
 
-Aspose.Words allows you to split a multi-page document page by page.
+Aspose.Words enables you to split a multi-page document page by page.
 
 The following code example demonstrates how to divide a document and save each page as a separate document:
 

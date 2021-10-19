@@ -1,4 +1,4 @@
-﻿---
+---
 title: Learn Features of Conversion to PDF/A
 description: "Aspose.Words for .NET {allows|enables} users to convert to PDF/A-1 and PDF/A-2. There are {a few|multiple|several|many|numerous} problems when converting to PDF/A documents, and Aspose.Words for .NET solves them."
 type: docs
@@ -16,7 +16,7 @@ Aspose.Words now {allows|enables} users to work with PDF/A-1 and PDF/A-2 formats
 
 * PDF/A-2 eliminates some of the limitations of PDF/A-1, such as support of transparency and layer effects or embedding of OpenType fonts
 
-PDF/A is an ISO-standardized version of PDF intended for use in archiving and long-term storage of electronic documents. To specify the level of compliance with PDF standards, use the [Compliance](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions/properties/compliance) property. Due to storage conditions, PDF/A document must embed all fonts and disable encryption.
+PDF/A is an ISO-standardized version of PDF intended for use in archiving and long-term storage of electronic documents. To specify the level of compliance with PDF standards, use the [Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/compliance) property. Due to storage conditions, PDF/A document must embed all fonts and disable encryption.
 
 In this article, we will consider the main problems that may arise when working with PDF/A documents, and describe options for solving them.
 

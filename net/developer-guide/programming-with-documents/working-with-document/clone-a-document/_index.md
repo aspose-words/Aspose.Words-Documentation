@@ -1,7 +1,7 @@
 ﻿---
 title: Clone a Document
 type: docs
-description: “Aspose.Words for .NET allows you to clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned.”
+description: “Aspose.Words for .NET enables you to clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned.”
 weight: 60
 url: /net/clone-a-document/
 ---
@@ -45,7 +45,7 @@ builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 2");
 
-// This demonstrates what is in the document originally. The document has two sections.
+// This shows what is in the document originally. The document has two sections.
 Assert.AreEqual("Section 1\x000cSection 2", clone.GetText().Trim());
 
 // Duplicate the last section and append the copy to the end of the document.

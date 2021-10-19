@@ -8,7 +8,7 @@ url: /cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## Extract Content Overview and Code
 
-A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are a few possible situations and therefore many different node types to consider when extracting content. For instance, you may want to extract content between:
+A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore numerous different node types to consider when extracting content. For instance, you may want to extract content between:
 
 - Two specific paragraphs in the document.
 - Specific runs of text.
@@ -22,10 +22,10 @@ Often the goal of extracting this content is to duplicate or save it separately 
 
 - Copy it to a separate document.
 - Rendered a specific portion of a document to PDF or an image.
-- Duplicate the content in the document numerous times.
+- Duplicate the content in the document several times.
 - Work with this content separate from the rest of the document.
 
-This is easy to achieve using Aspose.Words and the code implementation below. This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just many demonstrations of the numerous possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words).
+This is easy to achieve using Aspose.Words and the code implementation below. This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just a few demonstrations of the a few possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words).
 
 ### The Solution
 
@@ -73,13 +73,13 @@ This demonstrates how to use the method above to extract content between specifi
 
 ## Extract Content Between Different Types of Nodes
 
-We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling Body.FirstParagraph and CompositeNode.GetChild method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original. The code example given below shows how to extract the content between a paragraph and table using the ExtractContent method. You can download the template file of this example from here.
+We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling Body.FirstParagraph and CompositeNode.GetChild method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original. The code example given below demonstrates how to extract the content between a paragraph and table using the ExtractContent method. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenBlockLevelNodes-ExtractContentBetweenBlockLevelNodes.cpp" >}}
 
 ## Extract Content Between Paragraphs Based on Style
 
-You may need to extract the content between paragraphs of the same or different styles, such as between paragraphs marked with heading styles. The code below demonstrates how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
+You may need to extract the content between paragraphs of the same or different styles, such as between paragraphs marked with heading styles. The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
 
 In a proper implementation, this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document. The code example given below shows how to extract content between paragraphs with specific styles using the ExtractContent method. You can download the template file of this example from here.
 
@@ -87,13 +87,13 @@ In a proper implementation, this should be run in a loop to extract content betw
 
 ## Extract Content Between Specific Runs
 
-You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below demonstrates how to extract specific text in-between the same **Paragraph** node. The below example shows how to extract content between specific runs of the same paragraph using the ExtractContent method. You can download the template file of this example from here.
+You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below demonstrates how to extract specific text in-between the same **Paragraph** node. The below example demonstrates how to extract content between specific runs of the same paragraph using the ExtractContent method. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenRuns-ExtractContentBetweenRuns.cpp" >}}
 
 ## Extract Content from a Bookmark
 
-In a document, the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. The content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option demonstrates how to retain or discard the bookmark. The below example demonstrates how to extract the content referenced a bookmark using the ExtractContent method. You can download the template file of this example from here.
+In a document, the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. The content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark. The below example demonstrates how to extract the content referenced a bookmark using the ExtractContent method. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenBookmark-ExtractContentBetweenBookmark.cpp" >}}
 
@@ -121,11 +121,11 @@ These are the steps you should follow to programmatically determine and extract 
 
 **DocumentVisitor** provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
-This example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format.
+This example demonstrates how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentUsingDocumentVisitor-ExtractContentUsingDocumentVisitor.cpp" >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Document/Visitor.ToText.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/DocumentVisitor-compatible%20features.docx).
 
 ## How to Extract Text Only
 
@@ -138,7 +138,7 @@ The ways to retrieve text from the document are:
 
 ### Using Node.GetText and Node.ToString
 
-A Word document can contain control characters that designate special elements such as field, end of the cell, end of section etc. The full list of possible Word control characters is defined in the ControlChar class. The Node.GetText method returns text with all of the control character characters present in the node. Calling ToString returns the plain text representation of the document only without control characters. For further information on exporting as plain text see **Using SaveFormat.Text**. The below example demonstrates the difference between calling the GetText and ToString methods on a node.
+A Word document can contain control characters that designate special elements such as field, end of the cell, end of section etc. The full list of possible Word control characters is defined in the ControlChar class. The Node.GetText method returns text with all of the control character characters present in the node. Calling ToString returns the plain text representation of the document only without control characters. For further information on exporting as plain text see **Using SaveFormat.Text**. The below example shows the difference between calling the GetText and ToString methods on a node.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractTextOnly-ExtractTextOnly.cpp" >}}
 

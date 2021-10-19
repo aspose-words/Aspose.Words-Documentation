@@ -384,7 +384,7 @@ New public property 'ImagesFolder' has been added to the 'MarkdownSaveOptions' c
 /// <para>
 /// When you save a <see cref="Document"/> in <see cref="Words.SaveFormat.Markdown"/> format,
 /// Aspose.Words needs to save all images embedded in the document as standalone files.
-/// <see cref="ImagesFolder"/> enables you to specify where the images will be saved.
+/// <see cref="ImagesFolder"/> allows you to specify where the images will be saved.
 /// </para>
 /// <para>
 /// If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in

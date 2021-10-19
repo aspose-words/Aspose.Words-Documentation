@@ -189,7 +189,7 @@ shape->set_CustomNodeId(100);
 
 Related issue: WORDSNET-21114
 
-Added a new public options that enables to set table style cell vertical alignment.
+Added a new public options that allows to set table style cell vertical alignment.
 
 {{< highlight cpp >}}
 /// <summary>
@@ -350,7 +350,7 @@ private:
 
 ### PdfSaveOptions::EscapeUri is marked as obsolete
 
-We made many improvements in export of hyperlinks to PDF per WORDSNET-21443. Now the cases when setting PdfSaveOptions:;EscapeUri to false was required (improper unescaping of explicitly escaped URI delimiter chars) are handled well by default. Thus we do not see a reason to keep this option longer and marked it as obsolete.
+We made a few improvements in export of hyperlinks to PDF per WORDSNET-21443. Now the cases when setting PdfSaveOptions:;EscapeUri to false was required (improper unescaping of explicitly escaped URI delimiter chars) are handled well by default. Thus we do not see a reason to keep this option longer and marked it as obsolete.
 
 {{< highlight cpp >}}
 /// <summary>

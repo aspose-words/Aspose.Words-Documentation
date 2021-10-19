@@ -1,59 +1,72 @@
----
-title: Open a Word Processing Document from a Stream
+﻿---
+title: Open a Document from a Stream
+description: "Aspose.Words for .NET allows you to load a document from a stream easily and fast instead of using Open XML SDK."
 type: docs
-weight: 130
+weight: 20
 url: /net/open-a-word-processing-document-from-a-stream/
 ---
 
-## OpenXML Word
+On this page we will look at how to load a document from a stream using Aspose.Words or Open XML SDK.
 
-The example **OpenAndAddToWordprocessingStream** method shown here can be used to open a Word document from an already open stream and append some text using the Open XML SDK. You can call it by passing a handle to an open stream as the first parameter and the text to add as the second. For example, the following code example opens the file OpenDocumentFromStream.docx in the Public Documents folder and adds text to it.
-Below is the sample code
+{{< nosnippet >}}
+
+{{< tabs tabTotal="2" tabID="1" tabName1="Aspose.Words" tabName2="Open XML SDK" >}}
+
+{{< tab tabNum="1" >}}
+
+Simply pass a stream object that contains the document into the [Document](https://apireference.aspose.com/net/words/aspose.words/document/constructors/main) constructor.
+
+The following code example demonstrates how to open a document from a stream:
 
 {{< highlight csharp >}}
-private static string FilePath = @"..\..\..\..\Sample Files\";
-private static string fileName = FilePath + "OpenDocumentFromStream.docx";
- string txt = "Append text in body - OpenAndAddToWordprocessingStream";
- Stream stream = File.Open(fileName, FileMode.Open);
- OpenAndAddToWordprocessingStream(stream, txt);
- stream.Close();
-private static void OpenAndAddToWordprocessingStream(Stream stream, string txt)
+Stream stream = File.Open(MyDir + "Document.docx", FileMode.Open);
+using (stream)
 {
-    WordprocessingDocument wordprocessingDocument =
-        WordprocessingDocument.Open(stream, true);
-    Body body = wordprocessingDocument.MainDocumentPart.Document.Body;
-    Paragraph para = body.AppendChild(new Paragraph());
-    Run run = para.AppendChild(new Run());
-    run.AppendChild(new Text(txt));
-    wordprocessingDocument.Close();
+	Document doc = new Document(stream);
+	DocumentBuilder builder = new DocumentBuilder(doc);
+	builder.Writeln("Append text in body - Open and add to wordprocessing stream");
+	doc.Save(ArtifactsDir + "Open document from stream - Aspose.Words.docx");
 }
 {{< /highlight >}}
 
-## Aspose.Words
+{{< /tab >}}
 
-Simply pass a stream object that contains a document to the **Document** constructor.
-Below is the sample code
+{{< tab tabNum="2" >}}
+
+You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
+
+The example of the **OpenAndAddToWordprocessingStream** method shown here can be used to open a Word document from an already open stream and append some text using the Open XML SDK. You can call it by passing a handle to the open stream as the first parameter and the text to add as the second. For example, the following code example opens the *OpenDocumentFromStream.docx* file in the Public Documents folder and adds text to it:
 
 {{< highlight csharp >}}
-private static string FilePath = @"..\..\..\..\Sample Files\";
-private static string FileName = FilePath + "OpenDocumentFromStream.docx";
-string txt = "Append text in body - OpenAndAddToWordprocessingStream";
-Stream stream = File.Open(FileName, FileMode.Open);
-OpenAndAddToWordprocessingStream(stream, txt);
-private static void OpenAndAddToWordprocessingStream(Stream stream, string txt)
+public void OpenDocumentFromStreamFeature()
 {
-    Document doc = new Document(stream);
-    stream.Close();
-    DocumentBuilder db = new DocumentBuilder(doc);
-    db.Writeln(txt);
-    doc.Save(FileName);
+	using (Stream stream = File.Open(MyDir + "Document.docx", FileMode.Open))
+	{
+		using (WordprocessingDocument wordprocessingDocument = WordprocessingDocument.Open(stream, true))
+		{
+			Body body = wordprocessingDocument.MainDocumentPart.Document.Body;
+			Paragraph para = body.AppendChild(new Paragraph());
+			Run run = para.AppendChild(new Run());
+			run.AppendChild(new Text("Append text in body - Open and add to wordprocessing stream"));
+		}
+	}
 }
 {{< /highlight >}}
 
-## Download
+{{< /tab >}}
 
-- [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
-- [Sourceforge](http://sourceforge.net/projects/asposeopenxml/files/Aspose.Words%20Vs%20OpenXML/OpenDocumentFromStream.zip/download)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/OpenDocumentFromStream.zip)
+{{< /tabs >}}
+
+{{< /nosnippet >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
+
+{{% /alert %}}
+
+{{% alert color="primary" %}} 
+
+For more information about Aspose.Words features please visit [Create or Load a Document](https://docs.aspose.com/words/net/create-or-load-a-document/#load-from-a-stream).
+
+{{% /alert %}}

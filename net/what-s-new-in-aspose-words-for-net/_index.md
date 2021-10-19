@@ -27,14 +27,31 @@ For more information on these changes, see the [Aspose.Words for .NET 21.3 Relea
 
 {{% /alert %}}
 
-## Aspose.Words for .NET 21.9
+## Aspose.Words for .NET 21.9, 21.10
 
 Aspose.Words 21.9 expands the list-level formatting control.
 
-The API is enhanced for more flexible and convenient development:
+Aspose.Words 21.10 enhances rendering options, improves find and replace options, and expands Mail Merge and Structure Document Tag functionality.
+
+The API is enhanced for more flexible and convenient development.
+
+### Rendering
+
+New public methods and properties to work with gradient fills and gradient stops have been added to satisfy the brightest ideas when developing your documents.
+
+### Search and Compare
+
+A new option to ignore footnotes during the find and replace operation has been added.
+
+### Mail Merge and Reporting
+
+The ability to get [ParentRegion](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo/properties/parentregion) through [MailMergeRegionInfo](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo), which made our MailMerge engine more tunable, has been added.
+
+### Other
 
 * An ability to get the [CustomNumberStyleFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/customnumberstyleformat) property of the [ListLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel) object has been added.
 * A possibility to get the string representation of the [ListLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel) object for a specified index using the [GetEffectiveValue](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/methods/geteffectivevalue) method has been added.
+* An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
 
 {{% alert color="primary" %}}
 
@@ -102,7 +119,7 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 * A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 * An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
 * A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportlanguagetospantag) has been added. This option enables users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
-* A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
+* A new public field updating callback has been implemented. This enables you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}
 
@@ -392,7 +409,7 @@ Using the *InterpolateImages* property is relevant if the resolution of a sour
 Search and compare options are extended:
 
 - The functionality of the *FindReplaceOptions* class becomes more flexible to serve your needs. It is now possible to ignore text inside revisions and fields. You can also enable the use of substitutions in the replacement pattern via the [UseSubstitutions](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/usesubstitutions) property – this makes easy to use part or whole match when replacing.
-- The [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature allows you to specify the exact granularity of changes to track when comparing two documents.
+- The [Granularity](https://apireference.aspose.com/words/net/aspose.words.comparing/granularity) option, allowing the customer to specify comparison granularity, has been added. This feature enables you to specify the exact granularity of changes to track when comparing two documents.
 
 ### Other
 

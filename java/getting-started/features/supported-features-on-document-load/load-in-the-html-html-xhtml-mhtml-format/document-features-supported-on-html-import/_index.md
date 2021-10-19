@@ -11,7 +11,7 @@ Aspose.Words supports importing and exporting HTML based documents. You can load
 
 The Aspose.Words HTML engine is resilient and can properly import simple and complex HTML even if there are problems with it, resolving any malformed structure, parts and ignoring any unsupported tags. Most common native HTML tags and CSS formatting are supported during import. The input HTML can skip tags and still be imported well e.g you can miss out &lt;p&gt; or &lt;span&gt; tags and the text content is still imported properly.
 
-Note that Aspose.Words works with Word documents, therefore not all HTML features are supported during import and export. Not all HTML attributes may be imported as they do not have Microsoft Word equivalents. Also during export, some document features may not be included as they cannot be represented in HTML properly. There may be a few "N/A" values in this list for these reasons however Aspose.Words strives to support all HTML features possible.
+Note that Aspose.Words works with Word documents, therefore not all HTML features are supported during import and export. Not all HTML attributes may be imported as they do not have Microsoft Word equivalents. Also during export, some document features may not be included as they cannot be represented in HTML properly. There may be many "N/A" values in this list for these reasons however Aspose.Words strives to support all HTML features possible.
 
 Normally elements or attributes that do not have an equivalent feature in a Microsoft Word document are ignored during import.
 
@@ -30,7 +30,7 @@ See the following links in the documentation for further information:
 - [Loading, Saving and Converting](/words/java/loading-saving-and-converting/)
 - [Working with Document](/words/java/working-with-document/)
 - [Aspose.Words Document Object Model](/words/java/aspose-words-document-object-model/)
-- [**Document**](https://apireference.aspose.com/java/words/com.aspose.words/Document)
+- [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document)
 
 [Jump to this location in the export section](/words/java/document-features-supported-on-html-export/)
 

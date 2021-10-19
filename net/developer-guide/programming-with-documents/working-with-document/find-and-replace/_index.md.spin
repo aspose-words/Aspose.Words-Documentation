@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find and Replace
 type: docs
 description: "Aspose.Words for .NET {allows|enables} you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
@@ -25,7 +25,7 @@ Aspose.Words presents the find and replace functionality with the [Aspose.Words.
 
 ### Find and Replace {Text|String} {Using|With} Simple String Replacement {#find-and-replace-text-using-simple-string-replacement}
 
-You can use one of the [Replace](https://apireference.aspose.com/net/words/aspose.words/range/methods/replace/index) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
+You can use one of the [Replace](https://apireference.aspose.com/words/net/aspose.words/range/methods/replace/index) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
 
 The following code example {shows|demonstrates} how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
@@ -73,7 +73,7 @@ The following code example {shows|demonstrates} how to replace text with paragra
 
 ## Find and Replace {String|Text} in {Header/Footer|Header or Footer} {of a Document|} {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://apireference.aspose.com/net/words/aspose.words/headerfooter) class.
+You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://apireference.aspose.com/words/net/aspose.words/headerfooter) class.
 
 The following code example {shows|demonstrates} how to replace the text of the header section in your document:
 
@@ -114,7 +114,7 @@ And after applying footer string replacement:
 
 While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
 
-Aspose.Words provides {many|multiple|several|a few|numerous} find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignoredeleted), [IgnoreFields](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefields), and [IgnoreInserted](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignoreinserted).
+Aspose.Words provides {many|multiple|several|a few|numerous} find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignoredeleted), [IgnoreFields](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefields), [IgnoreFootnotes](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefootnotes), and [IgnoreInserted](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignoreinserted).
 
 The following code example {shows|demonstrates} how to ignore text inside delete revisions:
 

@@ -15,7 +15,7 @@ Performance improvements in the rendering engine!
 
 Convert bigger documents much faster to PDF, images and printing! 
 
-Plus a few other fixes and enhancements.
+Plus many other fixes and enhancements.
 
 
 

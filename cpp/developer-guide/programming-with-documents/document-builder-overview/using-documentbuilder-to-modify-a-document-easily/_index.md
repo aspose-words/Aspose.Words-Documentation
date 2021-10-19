@@ -9,13 +9,13 @@ url: /cpp/using-documentbuilder-to-modify-a-document-easily/
 
 ### Font Formatting
 
-Current font formatting is represented by a Font object returned by the DocumentBuilder.Font property. The Font class contains a wide variety of the font properties possible in Microsoft Word. Below example demonstrates how to set font formatting.
+Current font formatting is represented by a Font object returned by the DocumentBuilder.Font property. The Font class contains a wide variety of the font properties possible in Microsoft Word. Below example shows how to set font formatting.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetFontFormatting.cpp" >}}
 
 ### Paragraph Formatting
 
-Current paragraph formatting is represented by a ParagraphFormat object that is returned by the DocumentBuilder.ParagraphFormat property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left aligned, no indentation, no spacing, no borders and no shading by calling ParagraphFormat.ClearFormatting. Below example shows how to set paragraph formatting.
+Current paragraph formatting is represented by a ParagraphFormat object that is returned by the DocumentBuilder.ParagraphFormat property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left aligned, no indentation, no spacing, no borders and no shading by calling ParagraphFormat.ClearFormatting. Below example demonstrates how to set paragraph formatting.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetParagraphFormatting.cpp" >}}
 
@@ -31,25 +31,25 @@ Following code example show how to use ParagraphFormat.AddSpaceBetweenFarEastAnd
 
 #### Change Asian Paragraph Spacing and Indents
 
-The following code example shows how to change Asian paragraph spacing and indents.
+The following code example demonstrates how to change Asian paragraph spacing and indents.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetSpacebetweenAsianandLatintext.cpp" >}}
 
 #### Set Line Break Options
 
-Asian Typography tab of the Paragraph properties dialog in MS Word has line break group. The options of this group can be set using FarEastLineBreakControl, WordWrap, HangingPunctuation properties of ParagraphFormat class. Below code example shows how to use these properties.
+Asian Typography tab of the Paragraph properties dialog in MS Word has line break group. The options of this group can be set using FarEastLineBreakControl, WordWrap, HangingPunctuation properties of ParagraphFormat class. Below code example demonstrates how to use these properties.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-SetAsianTypographyLinebreakGroupProp.cpp" >}}
 
 ### Cell Formatting
 
-Cell formatting is used during building of a table. It is represented by a CellFormat object returned by the DocumentBuilder.CellFormat property. CellFormat encapsulates various table cell properties like width or vertical alignment. Below example demonstrates how to create a table that contains a single formatted cell.
+Cell formatting is used during building of a table. It is represented by a CellFormat object returned by the DocumentBuilder.CellFormat property. CellFormat encapsulates various table cell properties like width or vertical alignment. Below example shows how to create a table that contains a single formatted cell.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetTableCellFormatting.cpp" >}}
 
 ### Row Formatting
 
-Current row formatting is determined by a RowFormat object that is returned by the DocumentBuilder.RowFormat property. The object encapsulates information about all table row formatting. Below example demonstrates how to create a table that contains a single cell and apply row formatting.
+Current row formatting is determined by a RowFormat object that is returned by the DocumentBuilder.RowFormat property. The object encapsulates information about all table row formatting. Below example shows how to create a table that contains a single cell and apply row formatting.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetTableRowFormatting.cpp" >}}
 
@@ -87,13 +87,13 @@ Page setup and section properties are encapsulated in the PageSetup object that 
 
 Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
-Furthermore, a **Style** object provides the Style.StyleIdentifier property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. Below example shows how to apply a paragraph style.
+Furthermore, a **Style** object provides the Style.StyleIdentifier property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. Below example demonstrates how to apply a paragraph style.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderApplyParagraphStyle.cpp" >}}
 
 ### Borders and Shading
 
-Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to many or only one document element. For example, BorderType.Bottom is applicable to a paragraph or table cell while BorderType.DiagonalDown specifies the diagonal border in a table cell only.
+Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to multiple or only one document element. For example, BorderType.Bottom is applicable to a paragraph or table cell while BorderType.DiagonalDown specifies the diagonal border in a table cell only.
 
 Both the border collection and each separate border have similar attributes like color, line style, line width, distance from text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining the property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the Border.ClearFormatting method. Note that when border properties are reset to default values, the border is invisible. The Shading class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
@@ -113,7 +113,7 @@ Aspose.Words provides two properties ParagraphFormat.SnapToGrid and Font.SnapT
 
 You can obtain where the builder's cursor is currently positioned at any time. The DocumentBuilder.CurrentNode property returns the node that is currently selected in this builder. The node is a direct child of a paragraph. Any insert operations you perform using DocumentBuilder will insert before the DocumentBuilder.CurrentNode. When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, DocumentBuilder.CurrentNode returns null.
 
-Also, you can use the DocumentBuilder.CurrentParagraph property, which gets the paragraph that is currently selected in this **DocumentBuilder**. Below example shows how to access the current node in a document builder. You can download template file of this example from here.
+Also, you can use the DocumentBuilder.CurrentParagraph property, which gets the paragraph that is currently selected in this **DocumentBuilder**. Below example demonstrates how to access the current node in a document builder. You can download template file of this example from here.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderCursorPosition.cpp" >}}
 
@@ -131,7 +131,7 @@ If you need to move to the beginning of the document, call DocumentBuilder.MoveT
 
 ### Moving to a Section
 
-If you are working with a document that contains numerous sections, you can move to a desired section using DocumentBuilder.MoveToSection. This method moves the cursor to the beginning of a specified section and accepts the index of the required section. When the section index is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When the section index is less than 0, it specifies an index from the end of the document with -1 being the last section. Below example demonstrates how to move a cursor position to the specified section. You can download template file of this example from here.
+If you are working with a document that contains a few sections, you can move to a desired section using DocumentBuilder.MoveToSection. This method moves the cursor to the beginning of a specified section and accepts the index of the required section. When the section index is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When the section index is less than 0, it specifies an index from the end of the document with -1 being the last section. Below example shows how to move a cursor position to the specified section. You can download template file of this example from here.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToSection.cpp" >}}
 
@@ -151,7 +151,7 @@ The navigation is performed inside the current story of the current section. Tha
 
 When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specifies an index from the end of the section with -1 being the last paragraph.
 
-The character index can currently only be specified as 0 to move to the beginning of the paragraph or -1 to move to the end of the paragraph. Below example shows how to move a cursor position to the specified paragraph. You can download template file of this example from here.
+The character index can currently only be specified as 0 to move to the beginning of the paragraph or -1 to move to the end of the paragraph. Below example demonstrates how to move a cursor position to the specified paragraph. You can download template file of this example from here.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToParagraph.cpp" >}}
 
@@ -172,7 +172,7 @@ Also, note that characterIndex currently can only specify 0 to move to the begin
 
 ### Moving to a Bookmark
 
-Bookmarks are used frequently to mark particular places in the document where new elements are to be inserted. To move to a bookmark, use DocumentBuilder.MoveToBookmark. This method has two overloads. The simplest one accepts nothing but the name of the bookmark where the cursor is to be moved. Below example demonstrates how to move a cursor position to a bookmark. You can download template file of this example from here.
+Bookmarks are used frequently to mark particular places in the document where new elements are to be inserted. To move to a bookmark, use DocumentBuilder.MoveToBookmark. This method has two overloads. The simplest one accepts nothing but the name of the bookmark where the cursor is to be moved. Below example shows how to move a cursor position to a bookmark. You can download template file of this example from here.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToBookmark.cpp" >}}
 

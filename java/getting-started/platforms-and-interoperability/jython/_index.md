@@ -93,7 +93,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words Java for Jython using any of the following platforms:
 
-- [CodePlex](https://asposewordsjavajython.codeplex.com/workitem/list/basic)
+- [CodePlex](https://archive.codeplex.com/?p=asposewordsjavajython)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
 ### Extend and Contribute

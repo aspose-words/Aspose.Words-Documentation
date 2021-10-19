@@ -20,7 +20,7 @@ Frequently asked questions are grouped by topic for your convenience.
 
 **Q: What is Aspose.Words?**
 
-Aspose.Words for Java is a class library that allows your applications to perform a wide variety of document processing tasks. With Aspose.Words for Java, you can generate, modify, convert, render, and print documents without third-party applications.
+Aspose.Words for Java is a class library that enables your applications to perform a wide variety of document processing tasks. With Aspose.Words for Java, you can generate, modify, convert, render, and print documents without third-party applications.
 
 Details can be found in our documentation.
 
@@ -50,7 +50,7 @@ You can see the complete list of supported formats on the ["Supported Document F
 
 **Q: How can I try Aspose.Words free?**
 
-You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to many hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
+You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to multiple hundred paragraphs. A Temporary License enables you to test Aspose.Words without Trial restrictions for 30 days.
 
 See the ["Licensing and Subscription"](https://docs.aspose.com/words/java/licensing/) page for more information.
 
@@ -175,7 +175,7 @@ You can find more detailed information about converting a document in the [“Co
 
 It is very easy as well, just load a document to the model and save it to any supported format.
 
-The following code example demonstrates the process of converting a DOCX file to PDF:
+The following code example shows the process of converting a DOCX file to PDF:
 
 {{< highlight java >}}
 // Open the source DOCX document.
@@ -197,7 +197,7 @@ You can find more detailed information about programming with documents in the [
 
 Aspose.Words enables you to split a multi-page document page by page.
 
-The following code example shows how to divide a document and save each page as a separate document:
+The following code example demonstrates how to divide a document and save each page as a separate document:
 
 {{< highlight java >}}
 Document doc = new Document(dataDir + "TestFile (Split).docx");
@@ -218,7 +218,7 @@ for (int page = 0; page <= pageCount; page++)
 
 You can try to open an encrypted document without a password, which should lead to an exception.
 
-The following code example demonstrates how to open an encrypted document with a password:
+The following code example shows how to open an encrypted document with a password:
 
 {{< highlight java >}}
 // Create a document.

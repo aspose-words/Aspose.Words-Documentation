@@ -78,7 +78,7 @@ Gutter settings are not saved to ODT.
 | :- | :- | :- | :- |
 |Right to Left Section|Planned| | |
 |Line Numbering|Yes| | |
-|Paper Source|Yes| |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/net/words/aspose.words/pagesetup/properties/firstpagetray)</p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Source|Yes| |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray)</p><p>- **PageSetup.OtherPageTray**</p>|
 |Paper Size|Yes| | |
 |Orientation|Yes| | |
 |Protection|N/A| | |

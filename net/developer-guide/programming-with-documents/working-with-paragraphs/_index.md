@@ -35,7 +35,7 @@ Following code example show how to use ParagraphFormat.AddSpaceBetweenFarEastAnd
 
 #### Set Line Break Options
 
-Asian Typography tab of the Paragraph properties dialog in MS Word has line break group. The options of this group can be set using FarEastLineBreakControl, WordWrap, HangingPunctuation properties of ParagraphFormat class. Below code example demonstrates how to use these properties.
+Asian Typography tab of the Paragraph properties dialog in MS Word has line break group. The options of this group can be set using FarEastLineBreakControl, WordWrap, HangingPunctuation properties of ParagraphFormat class. Below code example shows how to use these properties.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-SetAsianTypographyLinebreakGroupProp.cs" >}}
 
@@ -43,7 +43,7 @@ Asian Typography tab of the Paragraph properties dialog in MS Word has line brea
 
 Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
-Furthermore, a **Style** object provides the [Style.StyleIdentifier](http://www.aspose.com/api/net/words/aspose.words/style/properties/styleidentifier) property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. Below example shows how to apply a paragraph style.
+Furthermore, a **Style** object provides the [Style.StyleIdentifier](http://www.aspose.com/api/net/words/aspose.words/style/properties/styleidentifier) property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. Below example demonstrates how to apply a paragraph style.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderApplyParagraphStyle.cs" >}}
 
@@ -65,8 +65,8 @@ Borders are represented by the BorderCollection. This is a collection of Border 
 
 Both the border collection and each separate border have similar attributes like color, line style, line width, distance from text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining the property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.ClearFormatting](http://www.aspose.com/api/net/words/aspose.words/border/methods/clearformatting) method. Note that when border properties are reset to default values, the border is invisible. The [Shading](http://www.aspose.com/api/net/words/aspose.words/shading) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
-The shading texture is set with a [TextureIndex](http://www.aspose.com/api/net/words/aspose.words/textureindex) enumeration value that enables the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](http://www.aspose.com/api/net/words/aspose.words/textureindex) value and set the foreground shading color as appropriate. Below example demonstrates how to apply borders and shading to a paragraph.
+The shading texture is set with a [TextureIndex](http://www.aspose.com/api/net/words/aspose.words/textureindex) enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](http://www.aspose.com/api/net/words/aspose.words/textureindex) value and set the foreground shading color as appropriate. Below example shows how to apply borders and shading to a paragraph.
 
-Below example demonstrates how to apply borders and shading to a paragraph.
+Below example shows how to apply borders and shading to a paragraph.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderApplyBordersAndShadingToParagraph.cs" >}}

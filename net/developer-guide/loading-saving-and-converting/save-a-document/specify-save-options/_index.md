@@ -1,12 +1,12 @@
 ﻿---
 title: Specify Save Options
-description: "Aspose.Words for .NET enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
+description: "Aspose.Words for .NET allows you to set advanced properties when saving a document. This enables you to more accurately control the save process."
 type: docs
 weight: 10
 url: /net/specify-save-options/
 ---
 
-When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://apireference.aspose.com/net/words/aspose.words.saving/saveoptions) class, which allows more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions) for saving to PDF format or [ImageSaveOptions](https://apireference.aspose.com/net/words/aspose.words.saving/imagesaveoptions) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
+When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions) class, which enables more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions) for saving to PDF format or [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
 
 The following code example shows how to set the save options before saving the document into HTML:
 
@@ -18,19 +18,19 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-The article describes a few properties you can control when saving a document.
+The article describes several properties you can control when saving a document.
 
 ## Encrypt a Document With a Password
 
 Use the **Password** property to get or set a password for an encrypted document. Use the **Password** property of the corresponding class to work with the selected document format.
 
-For example, when saving a document to DOC or DOT format, use the [Password](https://apireference.aspose.com/net/words/aspose.words.saving/docsaveoptions/properties/password) property of the [DocSaveOptions](https://apireference.aspose.com/net/words/aspose.words.saving/docsaveoptions) class.
+For example, when saving a document to DOC or DOT format, use the [Password](https://apireference.aspose.com/words/net/aspose.words.saving/docsaveoptions/properties/password) property of the [DocSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/docsaveoptions) class.
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cs" >}}
 
-When saving a document to Odt format, use the [Password](https://apireference.aspose.com/net/words/aspose.words.saving/odtsaveoptions/properties/password) property of the [OdtSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/odtsaveoptions) class.
+When saving a document to Odt format, use the [Password](https://apireference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/properties/password) property of the [OdtSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/odtsaveoptions) class.
 
 The following code example demonstrates how to load and save OpenDocument encrypted with a password:
 
@@ -56,15 +56,15 @@ The following code example shows how to set this property and save the document
 
 ## Control External Resources When Saving a Document into HTML or SWG
 
-To convert HTML or SVG into PDF, simply invoke the [Save](https://apireference.aspose.com/net/words/aspose.words/document/methods/save/index) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://apireference.aspose.com/net/words/aspose.words.saving/iresourcesavingcallback).
+To convert HTML or SVG into PDF, simply invoke the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/iresourcesavingcallback).
 
-The following code example shows how to convert HTML to PDF and loads images from external sources:
+The following code example demonstrates how to convert HTML to PDF and loads images from external sources:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ImageLoadingWithCredentialsHandler-ImageLoadingWithCredentialsHandler.cs" >}}
 
 ## Save Black and White Image with One Bit Per Pixel Format
 
-To control image saving options, the **ImageSaveOptions** class is used. For example, you can use the [PixelFormat](https://apireference.aspose.com/net/words/aspose.words.saving/imagesaveoptions/properties/pixelformat) property to set the pixel format for the generated images. Please note that the pixel format of the output image may differ from the set value because of the work of GDI+.
+To control image saving options, the **ImageSaveOptions** class is used. For example, you can use the [PixelFormat](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/pixelformat) property to set the pixel format for the generated images. Please note that the pixel format of the output image may differ from the set value because of the work of GDI+.
 
 The following code example shows how to save a black and white image with one bit per pixel format:
 

@@ -7,7 +7,7 @@ url: /net/field-features-supported-on-rich-text-import/
 
 {{% alert color="primary" %}} 
 
-Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first enables you to merge data into a document, the latter displays the current page number of the page where the field appears on.
+Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
 Aspose.Words supports almost all common field types and can peform field update on most field types, even ones with complex content. This includes the TOC (Table of Contents) field. With one call to Document.UpdateFields the TOC field or any other supported field is fully updated. New or existing fields are fully updated by the Aspose.Words field engine. There is a document option to control the culture/locale used during field update. This can be the language setting of the field in the document or the current culture/locale used by the application.
 
@@ -160,7 +160,7 @@ See the following links in the documentation for further information:
 |PageRef |Yes |This field is supported during field update. <br><br>By default in Microsoft Word references re updated as letters. Currently in Aspose.Words these references are updated as digits. <br><br>Hyperlinking, numeric format and paragraph position options are all supported during update. | |
 |Quote |Yes |This field is updated and the appropriate symbol is inserted during field update. | |
 |Ref |Yes |This field is supported during field update. <br><br>Only some switches such as hyperlink and relative position are supported during field update. Support for the other options will be added in future versions. | |
-|StyleRef |Yes |This field is supported during field update. <br><br>Only many switches are supported during field update. Support for the other options will be added in future versions. | |
+|StyleRef |Yes |This field is supported during field update. <br><br>Only multiple switches are supported during field update. Support for the other options will be added in future versions. | |
 
 ## Mail Merge
 

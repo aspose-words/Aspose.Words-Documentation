@@ -181,7 +181,7 @@ This is now the same as the corresponding option in Word.
 
 Related issue:WORDSNET-17778 has now been resolved.
 
-The following public class is introduced that enables to specify how list levels are indented when exporting to a plain text format:
+The following public class is introduced that allows to specify how list levels are indented when exporting to a plain text format:
 
 
 
@@ -222,7 +222,7 @@ At last, a new option is added to the TxtSaveOptions class:
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets a ListIndentation object that specifies how several and which character to use for indentation of list levels.
+/// Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels.
 /// By default it is zero count of character '\0', that means no indentation.
 /// </summary>
 public TxtListIndentation ListIndentation
@@ -288,7 +288,7 @@ public TextBoxAnchor VerticalAnchor
 
 
 
-The property enables to specify text anchor within the shape(Top, Middle, Bottom).
+The property allows to specify text anchor within the shape(Top, Middle, Bottom).
 
 
 

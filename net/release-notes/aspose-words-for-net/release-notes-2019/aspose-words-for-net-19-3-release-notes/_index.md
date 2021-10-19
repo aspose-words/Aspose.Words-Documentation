@@ -173,7 +173,7 @@ This is now the same as the corresponding option in Word.
 
 Related issue: WORDSNET-17778 has now been resolved.
 
-The following public class is introduced that enables to specify how list levels are indented when exporting to a plain text format:
+The following public class is introduced that allows to specify how list levels are indented when exporting to a plain text format:
 
 
 
@@ -193,7 +193,7 @@ It has two public properties for specifying how several and which character to u
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets or sets how multiple <see cref="Character"/> to use as indentation per one list level.
+/// Gets or sets how many <see cref="Character"/> to use as indentation per one list level.
 /// The default value is 0, that means no indentation.
 /// </summary>
 public int Count
@@ -214,7 +214,7 @@ At last, a new option is added to the TxtSaveOptions class:
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets a ListIndentation object that specifies how several and which character to use for indentation of list levels.
+/// Gets a ListIndentation object that specifies how a few and which character to use for indentation of list levels.
 /// By default it is zero count of character '\0', that means no indentation.
 /// </summary>
 public TxtListIndentation ListIndentation
@@ -279,7 +279,7 @@ public ParagraphAlignment TickLabelAlignment
 
 
 
-When axis tick labels are multi-line, MS Word aligns them to the center by default. The property allows for changing this behaviour.
+When axis tick labels are multi-line, MS Word aligns them to the center by default. The property enables for changing this behaviour.
 
 #### UseCase:
 

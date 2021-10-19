@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for C++
 description: "Aspose.Words for C++ is a class library that {enables|allows} your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
 type: docs
@@ -71,7 +71,7 @@ With Aspose.Words for C++, you can generate, modify, convert, and render documen
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
 			<ul>
-				<li><a href="https://forum.aspose.com/c/words">Aspose.Words for C++ Free Support Forum</a></li>
+				<li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for C++ Free Support Forum</a></li>
 			</ul>
 	</div>
 </div>

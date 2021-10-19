@@ -1,73 +1,79 @@
----
+﻿---
 title: Get and Set Bookmark Text
+description: "Aspose.Words for .NET allows you to get and set bokmark textin a document easily and fast instead of using Open XML SDK."
 type: docs
-weight: 150
+weight: 130
 url: /net/get-and-set-bookmark-text/
 ---
 
-## OpenXML
+On this page we will look at how to get and set bokmark text in a document using Aspose.Words or Open XML SDK.
+
+{{< nosnippet >}}
+
+{{< tabs tabTotal="2" tabID="1" tabName1="Aspose.Words" tabName2="Open XML SDK" >}}
+
+{{< tab tabNum="1" >}}
+
+In Aspose.Words, use the class [
+Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark) to work with a single bookmark ant the [BookmarkCollection](https://apireference.aspose.com/words/net/aspose.words/bookmarkcollection) class to work with a collection of bookmark objects.
+
+The following code example shows how to get and set bokmark text in a document:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cs" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
 Below is the code example for getting and setting Bookmark text in word document using OpenXML SDK.
 
-{{< highlight csharp >}}
-  string FilePath = @"..\..\..\..\Sample Files\";
-  string File = FilePath + "Get and Set Bookmark Text - OpenXML.docx";
-  IDictionary<String, BookmarkStart> bookmarkMap = new Dictionary<String, BookmarkStart>();
-  using (WordprocessingDocument wordDocument = WordprocessingDocument.Open(File, true))
-  {
-    foreach (BookmarkStart bookmarkStart in wordDocument.MainDocumentPart.Document.Body.Descendants<BookmarkStart>())
-    {
-      // foreach (BookmarkStart bookmarkStart in file.MainDocumentPart.RootElement.Descendants<BookmarkStart>())
-      //{
-           bookmarkMap[bookmarkStart.Name] = bookmarkStart;
-           foreach (BookmarkStart bookmark in bookmarkMap.Values)
-           {
-             Run bookmarkText = bookmark.NextSibling<Run>();
-             if (bookmarkText != null)
-             {
-               bookmarkText.GetFirstChild<Text>().Text = "Test";
-             }
-           }
-     }
-   }
-{{< /highlight >}}
-
-## Aspose.Words
-
-Below is the code example of get and set Bookmark text using Aspose.Words
+Following are the namespaces we need to add:
 
 {{< highlight csharp >}}
- string FilePath = @"..\..\..\..\Sample Files\";
- string File = FilePath + "Get and Set Bookmark Text - Aspose.docx";
- Document doc = new Document(File);
-
- // Use the indexer of the Bookmarks collection to obtain the desired bookmark.
- Bookmark bookmark = doc.Range.Bookmarks["MyBookmark"];
-
- // Get the name and text of the bookmark.
- string name = bookmark.Name;
- string text = bookmark.Text;
-
- // Set the name and text of the bookmark.
- bookmark.Name = "RenamedBookmark";
- bookmark.Text = "This is a new bookmarked text.";
- doc.Save(File);
+using System.Collections.Generic;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Wordprocessing;
+using NUnit.Framework;
 {{< /highlight >}}
 
-## Download Running Example
+The following code example demonstrates how to get and set bokmark text in a document:
 
-- [CodePlex](https://asposewordsopenxml.codeplex.com/releases/view/620544)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsOpenXMLv1.2)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7#content)
+{{< highlight csharp >}}
+public void GetAndSetBookmarkTextFeature()
+{
+	IDictionary<string, BookmarkStart> bookmarkMap = new Dictionary<string, BookmarkStart>();
+	using (WordprocessingDocument wordDocument = WordprocessingDocument.Open(MyDir + "Get and set bookmark text.docx", true))
+	{
+		foreach (BookmarkStart bookmarkStart in wordDocument.MainDocumentPart.Document.Body.Descendants<BookmarkStart>())
+		{
+			bookmarkMap[bookmarkStart.Name] = bookmarkStart;
+			foreach (BookmarkStart bookmark in bookmarkMap.Values)
+			{
+				Run bookmarkText = bookmark.NextSibling<Run>()
+				if (bookmarkText != null)
+					bookmarkText.GetFirstChild<Text>().Text = "Test";
+			}
+		}
+	}
+}
+{{< /highlight >}}
 
-## Download Sample Code
+{{< /tab >}}
 
-- [CodePlex](https://archive.codeplex.com/?p=asposewordsopenxml#Aspose.Words%20VS%20OpenXML/Extract%20Image/)
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML/Get%20and%20Set%20Bookmark%20Text)
-- [Code.MSDN](https://code.msdn.microsoft.com/Code-Comparison-of-Common-4ffff4d7/view/SourceCode#content)
+{{< /tabs >}}
+
+{{< /nosnippet >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20OpenXML%20Words/Aspose.Words%20VS%20OpenXML).
+
+{{% /alert %}}
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words feature please visit [Bookmarks in Aspose.Words](https://docs.aspose.com/words/net/working-with-bookmarks/)
+For more information about Aspose.Words feature please visit [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/).
 
 {{% /alert %}}

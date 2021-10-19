@@ -11,7 +11,7 @@ Note that not all Microsoft Word document features are available in HTML format 
 
 If you are looking for a way to easily store documents in a database then it is suggested to use the WordML or FlatOPC format. Both formats are fully XML-based making them easy to store into a database but they are native word formats which allows you to preserve full fidelity of Microsoft Word features such as WordArt, Textboxex etc.
 
-Aspose.Words saves any loaded document that to valid HTML 4.0 or XHTML 1.0 specifications. EPUB documents are exported as EPUB 2.0. There are plans to support HTML 5 and EPUB 3.0 specification as well. There are also many save options available to control a document is exported to HTML. Here are some of the examples of what you can do:
+Aspose.Words saves any loaded document that to valid HTML 4.0 or XHTML 1.0 specifications. EPUB documents are exported as EPUB 2.0. There are plans to support HTML 5 and EPUB 3.0 specification as well. There are also numerous save options available to control a document is exported to HTML. Here are some of the examples of what you can do:
 
 Control the CSS style sheet type
 
@@ -26,7 +26,7 @@ Some features which are unsupported in HTML are exported as an image. It is Aspo
 
 You can also choose to create your own HTML writer for your own custom needs by building off the Aspose.Words rich DOM. Using the DocumentVisitor you can visit each node and build the HTML node by node.
 
-Currently, most of the special Microsoft "Mso" attributes, which are normally added by Microsoft Word to HTML output to make it round-trip capable back to Word formats, are not written during export to HTML or MHTML. This makes the HTML produced by Aspose.Words much cleaner than the output produced by Microsoft Word which is often bloated with these several round-trip based attributes.
+Currently, most of the special Microsoft "Mso" attributes, which are normally added by Microsoft Word to HTML output to make it round-trip capable back to Word formats, are not written during export to HTML or MHTML. This makes the HTML produced by Aspose.Words much cleaner than the output produced by Microsoft Word which is often bloated with these a few round-trip based attributes.
 
 In the future, we will add full support for these in import and allow an option to export control if these attributes are written at all during export.
 
@@ -56,7 +56,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template|N/A| | |
-|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>There is a save option that controls whether document properties are exported or not. <br><br>Title, Keywords, Description properties are always exported as title and meta tags to HTML or MHTML and as the appropriate Dublin Core tags when saving as EPUB. <br><br>Additional built-in properties are exported as custom &lt;o:&gt; tags. In EPUB format properties are also exported as Dublin Core tags.|<p>- [Document.UpdateWordCount](https://apireference.aspose.com/java/words/com.aspose.words/document#updateWordCount\(\))</p><p>- **HtmlSaveOptions.ExportDocumentProperties**</p>|
+|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>There is a save option that controls whether document properties are exported or not. <br><br>Title, Keywords, Description properties are always exported as title and meta tags to HTML or MHTML and as the appropriate Dublin Core tags when saving as EPUB. <br><br>Additional built-in properties are exported as custom &lt;o:&gt; tags. In EPUB format properties are also exported as Dublin Core tags.|<p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/java/com.aspose.words/document#updateWordCount(boolean))</p><p>- **HtmlSaveOptions.ExportDocumentProperties**</p>|
 |Custom Properties|Yes|Custom properties are exported as custom &lt;o:&gt; tags to HTML.|- **HtmlSaveOptions.ExportDocumentProperties**|
 |Custom Payload Part|N/A| | |
 |Custom XML Data Storage|N/A| | |
@@ -75,7 +75,7 @@ You can check the quality of HTML Export and view the results online at this lin
 |VBA Project (Macro)|N/A|Macros are not exported to HTML based formats.| |
 |VBA Project Digital Signature|N/A| | |
 |Background|Yes|Only solid background is exported. Exported as style="background:xxx" on each &lt;body&gt; tag. <br><br>There are plans to export background shape as style-background.| |
-|Thumbnail|Yes|You can include a cover image on output EPUB documents either by importing an existing image or by generating a thumbnail of one of the document page's using Aspose.Words|- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/java/words/com.aspose.words/BuiltInDocumentProperties#Thumbnail)|
+|Thumbnail|Yes|You can include a cover image on output EPUB documents either by importing an existing image or by generating a thumbnail of one of the document page's using Aspose.Words|- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/java/com.aspose.words/BuiltInDocumentProperties#Thumbnail)|
 
 ## Embedded Fonts
 

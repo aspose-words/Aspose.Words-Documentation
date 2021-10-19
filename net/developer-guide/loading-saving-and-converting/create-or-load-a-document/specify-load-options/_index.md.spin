@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Load Options
 description: "Aspose.Words for .NET {enables|allows} you to set advanced properties when loading a document. This {allows|enables} you to more accurately control the load process."
 type: docs
@@ -78,7 +78,7 @@ The following code example {shows|demonstrates} how to load a document encrypted
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-OpenEncryptedDocument-OpenEncryptedDocument.cs" >}}
 
-If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/net/words/aspose.words/fileformatutil) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the [IsEncrypted](https://apireference.aspose.com/net/words/aspose.words/fileformatinfo/properties/isencrypted) property.
+If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/words/net/aspose.words/fileformatutil) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the [IsEncrypted](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo/properties/isencrypted) property.
 
 The following code example {shows|demonstrates} how to verify OpenDocument either it is encrypted or not:
 

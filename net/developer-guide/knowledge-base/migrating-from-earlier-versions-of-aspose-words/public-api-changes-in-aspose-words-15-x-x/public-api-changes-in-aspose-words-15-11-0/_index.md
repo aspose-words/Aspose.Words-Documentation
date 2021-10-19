@@ -126,7 +126,7 @@ public bool Default
 
 ### Bookmarks with white-spaces are allowed in PDF, XPS and SWF
 
-WORDSNET-12531 is now resolved. In the previous versions of Aspose.Words it was not allowed to use bookmarks with white spaces in all document formats. All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC cannot have white spaces. However, PDF enables such bookmarks.
+WORDSNET-12531 is now resolved. In the previous versions of Aspose.Words it was not allowed to use bookmarks with white spaces in all document formats. All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC cannot have white spaces. However, PDF allows such bookmarks.
 
 So now, if you need to use bookmarks in PDF, XPS or SWF outlines, you can use them with white spaces.
 

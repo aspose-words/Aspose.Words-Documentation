@@ -32,7 +32,7 @@ With Aspose.Words you can convert documents from any supported load format to an
 1. Load a document from a file or stream
 2. Save it to any supported format
 
-The following code example shows how to convert a document:
+The following code example demonstrates how to convert a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocToHtml.java" >}}
 
@@ -46,7 +46,7 @@ Modern word processing document formats are complex and include hundreds of feat
 
 ### Greater Extent of Format Support
 
-The indisputable advantage of Aspose.Words is the great extent of support for most of the well-known formats. It is hard or impossible to find the same level of support for several important features elsewhere.
+The indisputable advantage of Aspose.Words is the great extent of support for most of the well-known formats. It is hard or impossible to find the same level of support for numerous important features elsewhere.
 
 When purchasing a solution supporting a particular format, find out about the level at which the features of this format are supported. To test, create a complex file and run it through the proposed solution. You will often find that many document elements and formatting will be lost. For example, for the DOC format, shapes, textboxes, fields, columns, OLE objects, revisions, right-to-left text usually suffer.
 
@@ -122,15 +122,15 @@ DOC to HTML – high-fidelity conversion:
 
 ## High Scalability
 
-Scalable server-side scenarios use Aspose.Words mainly because of its simple and clean design – Aspose.Words supports multithreading. [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) objects are independent of each other, and as long as only one thread can modify a document at a time (a typical requirement for any collection class), multiple threads can process any number of documents at the same time.
+Scalable server-side scenarios use Aspose.Words mainly because of its simple and clean design – Aspose.Words supports multithreading. [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) objects are independent of each other, and as long as only one thread can modify a document at a time (a typical requirement for any collection class), numerous threads can process any number of documents at the same time.
 
 ## High Performance
 
 Aspose.Words demonstrates high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 
-On a few occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the **Document** object.
+On multiple occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the **Document** object.
 
-The following code example demonstrates how you can load and save such a large document if you want to:
+The following code example shows how you can load and save such a large document if you want to:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToRtf-ConvertDocumentToRtf.java" >}}
 

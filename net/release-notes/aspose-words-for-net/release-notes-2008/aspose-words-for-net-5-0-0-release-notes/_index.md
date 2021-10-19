@@ -58,7 +58,7 @@ Although the degree of Aspose.Words conformance to OOXML is high, not all OOXML 
 
 By having a major version change we indicate there are some breaking changes in the API.
 
-The changes are not likely to affect a few users. Even if you cannot recompile your project because of a change, it is very easy to update your code because all changes are cosmetic, although they had to be done.
+The changes are not likely to affect several users. Even if you cannot recompile your project because of a change, it is very easy to update your code because all changes are cosmetic, although they had to be done.
 
 The breaking changes in Aspose.Words for .NET 5.0.0 are:
 
@@ -94,7 +94,7 @@ New namespaces were created because the namespace grew too big and we have a lot
 |4388 |PDF |Exception: Cannot get field part because at end of field code (PDF, HTML) |
 |4381 |PDF |Empty form field should be output wider to look like in MS Word |
 |4328 |PDF |Symbol field result outputs twice if field has a separator (PDF, HTML) |
-|4318 |PDF |MACROBUTTON field is output incorrectly if display text occupies numerous runs (PDF, HTML) |
+|4318 |PDF |MACROBUTTON field is output incorrectly if display text occupies many runs (PDF, HTML) |
 |4278 |RTF |Support document protection password |
 |4252 |RTF |Position of the floating TextBoxes is changed after open/save. |
 |4107 |RTF |Style is changed after open/save RTF document. |

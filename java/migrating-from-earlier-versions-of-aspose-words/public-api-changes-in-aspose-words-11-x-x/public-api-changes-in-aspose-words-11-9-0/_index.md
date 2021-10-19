@@ -37,7 +37,7 @@ The [ImageSaveOptions.ImageColorMode]() property is made public to control rende
 
 In Aspose.Words 11.9 the ability of the specifying image size for images inserted during mail merge. It can be accomplished through defining a size in the field code in the template or by using new properties [ImageFieldMergingCallback]().
 
-The following shows how to set the size for the merged image by modifying the template and adding extra parameters to the field code of the field:
+The following demonstrates how to set the size for the merged image by modifying the template and adding extra parameters to the field code of the field:
 
 ![public-api-changes-in-aspose-words-11-9-0-1](public-api-changes-in-aspose-words-11-9-0_1.png)
 

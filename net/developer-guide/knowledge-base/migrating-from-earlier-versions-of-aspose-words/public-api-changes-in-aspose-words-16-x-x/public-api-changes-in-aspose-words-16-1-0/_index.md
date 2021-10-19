@@ -103,7 +103,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, Rela
     double left, RelativeVerticalPosition vertPos, double top, WrapType wrapType);
 {{< /highlight >}}
 
-Following code example shows how to insert signature line.
+Following code example demonstrates how to insert signature line.
 
 **C#**
 
@@ -183,7 +183,7 @@ public bool IsSigned { get; }
 public bool IsValid { get; }
 {{< /highlight >}}
 
-Following code example shows how to use SignatureLine's properties.
+Following code example demonstrates how to use SignatureLine's properties.
 
 **C#**
 
@@ -480,7 +480,7 @@ public bool PreserveUnusedTags
 
 ### A New Feature Added to Control Global Mail Merge Events
 
-We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This allows to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
+We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This enables to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
 
 **C#**
 
@@ -697,7 +697,7 @@ namespace Aspose.Words.Fields
 }
 {{< /highlight >}}
 
-Following code snippet demonstrates how to use FieldBuilder.
+Following code snippet shows how to use FieldBuilder.
 
 **C#**
 
