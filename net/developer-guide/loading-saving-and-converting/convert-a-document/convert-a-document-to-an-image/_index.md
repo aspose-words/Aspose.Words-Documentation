@@ -16,7 +16,7 @@ The following code example demonstrates how to convert PDF to JPEG:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Base conversions-PdfToJpeg.cs" >}}
 
-## Set Save Options when Converting to an Image {#specify-save-options-when-converting-to-an-image}
+## Specify Save Options when Converting to an Image {#specify-save-options-when-converting-to-an-image}
 
 Aspose.Words provides you with the [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions) class, which gives more control over how documents are saved in various image formats. Some properties of this class inherit or overload properties of base classes such as [FixedPageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions) or [SaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions), but there are also options specific to saving images.
 

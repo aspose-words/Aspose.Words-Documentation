@@ -26,7 +26,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 - Fixed a bug with rendering of minor tick marks and clipping the rightmost bar of DrawingML charts.
 - Fixed a bug with rendering data labels for points, located on the border of the DrawingML chart plot area.
 - Implemented support for RTL comments rendering, e.g. Arabic.
-- Improved hyphenation logic for numerous cases.
+- Improved hyphenation logic for multiple cases.
 - Improved page numbering for sections starting in new columns.
 - Improved table row alignment.
 - Improved tab stop calculations with paragraph indents.

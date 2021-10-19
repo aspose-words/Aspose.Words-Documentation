@@ -49,11 +49,11 @@ To insert a field in Microsoft Word:
 
 ![insert-fields-aspose-words-java](http://i.imgur.com/nTmFqBr.png)
 
-1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field. 
+1. You are presented with a screen which enables you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field. 
 
 ![field-settings-aspose-words-java-1](http://i.imgur.com/1eHKt6s.png)
 
-1. Additionally you can press the **Field Codes** button which allows you to directly write out the field code. 
+1. Additionally you can press the **Field Codes** button which enables you to directly write out the field code. 
 
 ![field-settings-aspose-words-java-2](http://i.imgur.com/v5SqztX.png)
 
@@ -164,7 +164,7 @@ Aspose.Words follows the way Microsoft Word processes fields and as a result it 
 - Fields can be nested within a field code as well as in the field result.
 - Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- Fields that span across multiple paragraphs.
+- Fields that span across several paragraphs.
 
 #### Formula Fields
 

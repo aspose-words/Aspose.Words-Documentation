@@ -9,7 +9,7 @@ url: /java/licensing-android/
 
 Make sure to take advantage of the free Aspose.Words for Android via Java evaluation: it has no time limit, and comes with free technical support. We encourage developers to evaluate our products before buying so you know that the product will do what you want it to do.
 
-The evaluation and the paid versions of Aspose.Words for Android via Java use the same download. Simply [download Aspose.Words for Android via Java](https://downloads.aspose.com/words/androidjava) from the download page, [install it](/words/java/installation/) and it works in evaluation mode. Evaluation mode inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to numerous hundred paragraphs. When you have bought a license, simply reference the license in the code to apply it. If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license).
+The evaluation and the paid versions of Aspose.Words for Android via Java use the same download. Simply [download Aspose.Words for Android via Java](https://downloads.aspose.com/words/androidjava) from the download page, [install it](/words/java/installation/) and it works in evaluation mode. Evaluation mode inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to multiple hundred paragraphs. When you have bought a license, simply reference the license in the code to apply it. If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license).
 
 ![licensing-aspose-words-android](licensing_1.png)
 
@@ -61,7 +61,7 @@ license.setLicense(inputStream);
 
 ### Apply Metered License
 
-Aspose.Words allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing.
+Aspose.Words enables developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing.
 
 **Java**
 
@@ -93,7 +93,7 @@ If you are developing a class library, call License.SetLicense from a static c
 
 ## Using Multiple Aspose Products
 
-If you use several Aspose products in an application, for example Aspose.Words and Aspose.Cells, here are many useful tips.
+If you use several Aspose products in an application, for example Aspose.Words and Aspose.Cells, here are a few useful tips.
 
 - Set the license for each Aspose product separately.
   Even if you have a single license file for all components, for example 'Aspose.Total.Android.Java.lic', you still need to call the License.SetLicense method separately for each Aspose product.

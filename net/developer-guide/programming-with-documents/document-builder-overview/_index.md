@@ -12,7 +12,7 @@ url: /net/document-builder-overview/
 
 ## Document Builder or Aspose.Words DOM
 
-**DocumentBuilder** complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The DocumentBuilder is a "facade" for the complex **Document** structure that allows you to quickly and easily insert content and formatting.
+**DocumentBuilder** complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The DocumentBuilder is a "facade" for the complex **Document** structure that enables you to quickly and easily insert content and formatting.
 
 Operations that are possible with **DocumentBuilder** are also possible when using the classes of the Aspose.Words DOM directly. However, using Aspose.Words DOM classes directly usually requires more lines of code than using **DocumentBuilder**.
 
@@ -20,13 +20,13 @@ Operations that are possible with **DocumentBuilder** are also possible when usi
 
 Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetodocumentstart) and [MoveToField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetofield). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/write), [Writeln](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/writeln/index), [InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak), and others. See the following article "Navigation with Cursor" to learn more about the virtual cursor.
 
-The following code example demonstrates how to navigate to a bookmark:
+The following code example shows how to navigate to a bookmark:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToBookmarkEnd.cs" >}}
 
 ## Document Building and Modifying
 
-Aspose.Words API provides several classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/net/aspose.words/font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
+Aspose.Words API provides many classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/net/aspose.words/font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
 
 You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertfield/index), [InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml/index), and similar methods.
 
@@ -38,7 +38,7 @@ To start, you need to create a **DocumentBuilder** and associate it with a **Doc
 
 To insert a text, pass the string of text you need to insert into the document to the **Write** method.
 
-The following code example demonstrates how to create a simple document using a document builder.
+The following code example shows how to create a simple document using a document builder.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Quick-Start-HelloWorld-HelloWorld.cs" >}}
 
@@ -46,7 +46,7 @@ The following code example demonstrates how to create a simple document using a 
 
 The [Font](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](http://www.aspose.com/api/net/words/aspose.words/font/properties/bold), [Font.Italic](http://www.aspose.com/api/net/words/aspose.words/font/properties/italic), and [Font.Underline](http://www.aspose.com/api/net/words/aspose.words/font/properties/underline) boolean properties.
 
-The following code example shows how to insert a formatted text using **DocumentBuilder**:
+The following code example demonstrates how to insert a formatted text using **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cs" >}}
 

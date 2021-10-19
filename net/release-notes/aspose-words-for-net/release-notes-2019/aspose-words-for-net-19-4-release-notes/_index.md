@@ -169,7 +169,7 @@ Previously while loading HTML (SVG) document font families resolved by font name
 
 Now the customer can use font settings before loading the document (add substitution rule, specify fonts folder and etc). 
 
-` `The following example shows how to add font substitution rule while loading the document.
+` `The following example demonstrates how to add font substitution rule while loading the document.
 
 {{< highlight csharp >}}
 FontSettings fontSettings = new FontSettings();

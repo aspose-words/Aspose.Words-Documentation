@@ -343,7 +343,7 @@ WORDSNET-6182 Incorrect parameter is passed to IMailMergeDataSource when using n
 
 WORDSNET-6183 Shape borders are rendering incorrectly in HTML.
 
-WORDSNET-6184 Table in DOC is rendering numerous times in PDF/Tiff.
+WORDSNET-6184 Table in DOC is rendering a few times in PDF/Tiff.
 
 WORDSNET-6223 MergeFields inside header don't show values in PDF.
 
@@ -359,7 +359,7 @@ WORDSNET-6399 Extra empty page is added to the PDF document after conversion fro
 
 WORDSNET-6401 WordArt shape fill is distorted while rendering path gradient shape.
 
-WORDSNET-6467 Appending documents into empty (new Document()) stretches the contents of one page into many pages.
+WORDSNET-6467 Appending documents into empty (new Document()) stretches the contents of one page into several pages.
 
 WORDSNET-6478 UICompat97To2003 is not set for rtf files.
 

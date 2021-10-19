@@ -36,7 +36,7 @@ doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
 
 ## Download Running Code Example
 
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto)
+- [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
 
 ## Sample Code

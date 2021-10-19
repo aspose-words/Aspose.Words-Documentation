@@ -369,7 +369,7 @@ The options defined in the **Document.SaveOptions** property from previous versi
 
 The names of the properties have also been simplified in the move towards using the Unified Framework pattern. 
 
-There are also new members in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) to specify a few font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) article. 
+There are also new members in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) to specify many font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) article. 
 
 ##### Replacing Events and Delegates with Callbacks and Interfaces
 
@@ -739,7 +739,7 @@ End Class
 
 #### Demonstration Videos
 
-Additionally, several short videos providing a visual walk through of how to change some code members are available to download from the resources page [here](http://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1242.aspx). These videos show how to:
+Additionally, many short videos providing a visual walk through of how to change some code members are available to download from the resources page [here](http://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1242.aspx). These videos show how to:
 
 - Change the old **MailMerge.MergeField** event and the **MergeFieldEventHanlder** delegate to the new [MailMerge.FieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/fieldmergingcallback) property and [IFieldMergingCallback](https://apireference.aspose.com/words/net/aspose.words.mailmerging/ifieldmergingcallback) interface. 
 - Change the old **Document.SaveOptions** property to use the new **HtmlSaveOptions** class. 
@@ -752,7 +752,7 @@ The method of rendering to PDF using Aspose.Words and the Aspose.Pdf libraries h
 
 This method is replaced by direct conversion to PDF, which is invoked by calling the **Document.Save** method. This method of rendering to the PDF format provides improved rendering fidelity and is fully maintained, with new features and bug fixes for it coming out with every release. 
 
-To save a document in the PDF format you can call the many overloads of the **Document.Save** method, for example: 
+To save a document in the PDF format you can call the multiple overloads of the **Document.Save** method, for example: 
 
 - Passing a file name in a string with the file extension “.pdf” to the [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method. The **Document.Save** method will automatically infer the **SaveFormat** from this extension. 
 - Passing the [SaveFormat.Pdf](https://apireference.aspose.com/words/net/aspose.words/saveformat) enumeration to one of the overloads accepting a **SaveFormat** enumeration. For example this is used when calling the [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method to save the document to a stream. In this case you are required to specify the **SaveFormat** as **SaveFormat.Pdf** explicitly. 

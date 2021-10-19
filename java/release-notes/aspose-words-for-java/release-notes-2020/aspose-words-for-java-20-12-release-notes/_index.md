@@ -78,7 +78,7 @@ There are 116 improvements and fixes in this regular monthly release. The most n
 | WORDSNET-21218 | Left Indent lost after Appending Document | Bug |
 | WORDSNET-21411 | Incorrect rendering of charts that contains series without Y-values (only   X-valyes) | Bug |
 | WORDSNET-21413 | Character spacing problem for Wingdings, Symbol \| RTF to PDF Conversion | Bug |
-| WORDSNET-19312 | System.InvalidOperationException - too numerous styles in the document | Bug |
+| WORDSNET-19312 | System.InvalidOperationException - too many styles in the document | Bug |
 | WORDSNET-19787 | Document.Save does not save MHTML to PDF | Bug |
 | WORDSNET-21230 | Table border size is increased after joining documents | Bug |
 | WORDSNET-20709 | Unable to Extract Content from Bookmarks | Bug |
@@ -104,7 +104,7 @@ There are 116 improvements and fixes in this regular monthly release. The most n
 | WORDSNET-21255 | System.ArgumentOutOfRangeException: 'Index was out of range.' is shown   during UpdatePageLayout() | Bug |
 | WORDSNET-20897 | HtmlSaveOptions.ScaleImageToShapeSize has no effect | Bug |
 | WORDSNET-20515 | Spell Check Disabled after Aspose.Words' Find and Replace Operation | Bug |
-| WORDSNET-20910 | A long paragraph with shape near the bottom occupies numerous pages | Bug |
+| WORDSNET-20910 | A long paragraph with shape near the bottom occupies a few pages | Bug |
 | WORDSNET-19275 | Numbering chapters disappear during appending documents | Bug |
 | WORDSNET-21119 | Incorrect rendering of series data label of PieChart. | Bug |
 | WORDSNET-20937 | System.InvalidCastException is thrown while saving DOCX to HTML | Bug |
@@ -126,7 +126,7 @@ There are 116 improvements and fixes in this regular monthly release. The most n
 | WORDSNET-21308 | Empty extracted page | Bug |
 | WORDSNET-21303 | Text from chevron list&nbsp; (SmartArt   Shape) rendered upside down in Html Fixed | Bug |
 | WORDSNET-20760 | Issue rendering quote characters   that appear inside of p, div or blockquote tags | Bug |
-| WORDSNET-9499 | A DrawingML in Cell is pushed many inches to the right in PDF | Bug |
+| WORDSNET-9499 | A DrawingML in Cell is pushed a few inches to the right in PDF | Bug |
 | WORDSNET-9833 | Document.PageCount returns wrong value | Bug |
 | WORDSNET-10251 | Text renders outside the right page edge in PDF | Bug |
 | WORDSNET-10180 | DOCX to PDF conversion issue with content position | Bug |
@@ -248,7 +248,7 @@ Document doc = new Document("in.html", loadOptions);
 
 Related issue: WORDSNET-20913
 
-We have implemented extension point for condition evaluation. This enables users to implement custom evaluation for the IF and COMPARE fields.
+We have implemented extension point for condition evaluation. This allows users to implement custom evaluation for the IF and COMPARE fields.
 
 {{< highlight csharp >}}
 /// <summary>

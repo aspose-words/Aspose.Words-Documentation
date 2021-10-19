@@ -19,19 +19,19 @@ Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose
 
 ## Read Macros
 
-The following code example demonstrates how to read VBA Macros from the document.
+The following code example shows how to read VBA Macros from the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ReadVbaMacros.java" >}}
 
 ## Modify Macros
 
-The following code example shows how to modify VBA Macros from the document using the VbaModule.setSourceCode() property.
+The following code example demonstrates how to modify VBA Macros from the document using the VbaModule.setSourceCode() property.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ModifyVbaMacros.java" >}}
 
 ## Clone VBA Project
 
-` `The following code example shows how to clone the VBA Project using the [VbaProject.Clone](https://apireference.aspose.com/words/java/com.aspose.words/vbaproject#deepClone()) property which creates a copy of the existing project. 
+` `The following code example demonstrates how to clone the VBA Project using the [VbaProject.Clone](https://apireference.aspose.com/words/java/com.aspose.words/vbaproject#deepClone()) property which creates a copy of the existing project. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaProject.java" >}}
 

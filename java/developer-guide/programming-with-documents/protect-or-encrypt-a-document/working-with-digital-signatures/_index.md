@@ -71,7 +71,7 @@ Assert.assertTrue(info.hasDigitalSignature());
 Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
 {{< /highlight >}}
 
-## Create a Digital Signature
+## Add a Digital Signature {#create-a-digital-signature}
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
@@ -190,11 +190,11 @@ Assert.assertEquals("CN=Morzal.Me", signatures.get(0).getIssuerName());
 Assert.assertEquals(DigitalSignatureType.XML_DSIG, signatures.get(0).getSignatureType());
 {{< /highlight >}}
 
-### Sign a Generated PDF Document
+### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
 Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://apireference.aspose.com/words/java/com.aspose.words/PdfDigitalSignatureDetails) properties.
 
-The following code example shows how to sign a generated PDF:
+The following code example demonstrates how to sign a generated PDF:
 
 {{< highlight java >}}
 Document doc = new Document();

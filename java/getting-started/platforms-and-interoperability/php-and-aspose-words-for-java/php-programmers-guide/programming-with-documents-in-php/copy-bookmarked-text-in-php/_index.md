@@ -29,7 +29,7 @@ $dstNode = $dstDoc->getLastSection()->getBody();
 
 // It is a good idea to use this import context object because a few nodes are being imported.
 
-// If you import multiple times without a single context, it will result in a few styles created.
+// If you import a few times without a single context, it will result in numerous styles created.
 $importFormatMode = java('com.aspose.words.ImportFormatMode');
 $importer = new Java("com.aspose.words.NodeImporter", $srcDoc, $dstDoc, $importFormatMode->KEEP_SOURCE_FORMATTING);
 

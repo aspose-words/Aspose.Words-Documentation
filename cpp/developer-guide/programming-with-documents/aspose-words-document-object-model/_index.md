@@ -6,7 +6,7 @@ weight: 10
 url: /cpp/aspose-words-document-object-model/
 ---
 
-The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM enables you to programmatically read, manipulate, and modify the content and formatting of a Word document.
+The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, and modify the content and formatting of a Word document.
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
@@ -23,7 +23,7 @@ The document tree in Aspose.Words follows the Composite Design Pattern:
 - All node classes ultimately derive from the [Node](https://apireference.aspose.com/words/cpp/class/aspose.words.node) class, which is the base class in the Aspose.Words Document Object Model.
 - Nodes that can contain other nodes, for example, **Section** or **Paragraph**, derive from the [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node) class, which in turn derives from the **Node** class.
 
-The diagram provided below demonstrates inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
+The diagram provided below shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
 
 <img src="aspose-words-dom.png" alt="aspose-words-dom-aspose-words-cpp" style="width:700px"/>
 
@@ -33,7 +33,7 @@ The Aspose.Words DOM also contains the non-node classes, such as [Style](https:/
 
 {{% /alert %}}
 
-Let's look at an example. The following image demonstrates a Microsoft Word document with different types of content.
+Let's look at an example. The following image shows a Microsoft Word document with different types of content.
 
 <img src="document-example.png" alt="document-example-aspose-words-cpp" style="width:700px"/>
 
@@ -71,7 +71,7 @@ The nodes in the tree have relationships between them:
 
 The nodes that can contain other nodes derive from the [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node) class, and all nodes ultimately derive from the [Node](https://apireference.aspose.com/words/cpp/class/aspose.words.node) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
 
-The following UML object diagram demonstrates multiple nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
+The following UML object diagram shows several nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
 <img src="document-nodes-relationships.png" alt="document-nodes-relationships-aspose-words-cpp" style="width:370px"/>
 
@@ -99,7 +99,7 @@ Each node has a parent specified by the [ParentNode](https://apireference.aspose
 - The node has been removed from the tree.
 - This is the root **Document** node which always has a null parent node.
 
-You can remove a node from its parent by calling the [Remove](https://apireference.aspose.com/words/cpp/class/aspose.words.node#remove) method.The following code example shows how to access the parent node:
+You can remove a node from its parent by calling the [Remove](https://apireference.aspose.com/words/cpp/class/aspose.words.node#remove) method.The following code example demonstrates how to access the parent node:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-GetParentNode.cpp" >}}
 
@@ -111,7 +111,7 @@ The most efficient way to access child nodes of a [CompositeNode](https://apiref
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#get_haschildnodes) property.
 
-The following code example shows how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
+The following code example demonstrates how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cpp" >}}
 

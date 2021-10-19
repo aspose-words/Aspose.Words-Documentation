@@ -1,6 +1,6 @@
 ﻿---
 title: Work with Options and Appearance of Word Documents
-description: "Aspose.Words for C++ enables you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
+description: "Aspose.Words for C++ allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 110
 url: /cpp/work-with-word-document-options-and-appearance/
@@ -59,7 +59,7 @@ The following code example shows how to add Japanese to editing languages:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cpp" >}}
 
-The following code example demonstrates how to set Russian as the default editing language:
+The following code example shows how to set Russian as the default editing language:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-SetRussianAsDefaultEditingLanguage.cpp" >}}
 
@@ -67,6 +67,6 @@ The following code example demonstrates how to set Russian as the default editin
 
 The [OptimizeFor](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.compatibility_options#optimizefor_mswordversion) method allows optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.
 
-The following code example shows how to optimize document content for Microsoft Word 2016:
+The following code example demonstrates how to optimize document content for Microsoft Word 2016:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SetCompatibilityOptions-OptimizeFor.cpp" >}}

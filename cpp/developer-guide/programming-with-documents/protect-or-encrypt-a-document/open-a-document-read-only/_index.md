@@ -1,6 +1,6 @@
 ﻿---
 title: Open a Document Read-Only
-description: "Aspose.Words for С++ allows you to make your document read-only so that the content can be copied or read, but not modified."
+description: "Aspose.Words for С++ enables you to make your document read-only so that the content can be copied or read, but not modified."
 type: docs
 weight: 10
 url: /cpp/open-a-document-read-only/
@@ -21,9 +21,9 @@ This article explains how to make a document read-only.
 
 Aspose.Words has the public class [WriteProtection](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection) that specifies write protection settings for a document. You do not create instances of this class directly.
 
-Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
+Write protection demonstrates whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
-Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#get_readonlyrecommended_const) property and the [SetPassword](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#setpassword_string) method.
+Aspose.Words enables you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#get_readonlyrecommended_const) property and the [SetPassword](https://apireference.aspose.com/words/cpp/class/aspose.words.settings.write_protection#setpassword_string) method.
 
 {{% alert color="primary" %}}
 

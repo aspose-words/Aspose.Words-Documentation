@@ -25,7 +25,7 @@ Use the **Forms** toolbar to insert form fields. To display the **Forms** to
 
 {{% alert color="primary" %}} 
 
-**Note:** before you can make a form available to users, you must protect it by clicking **Protect Form** on the **Forms** toolbar. Protection enables users to fill in the form but prevents them from changing the form's layout and its standard elements. When you want to go back to writing or modifying the form, click **Protect Form** again to unprotect the form.
+**Note:** before you can make a form available to users, you must protect it by clicking **Protect Form** on the **Forms** toolbar. Protection allows users to fill in the form but prevents them from changing the form's layout and its standard elements. When you want to go back to writing or modifying the form, click **Protect Form** again to unprotect the form.
 
 {{% /alert %}} 
 
@@ -39,17 +39,17 @@ Placing form fields into the document via code is easy. DocumentBuilder has spec
 
 ### Inserting Form Fields
 
-Use DocumentBuilder.InsertTextInput**,** DocumentBuilder.InsertCheckBox or DocumentBuilder.InsertComboBox to insert form fields into a document. The code example given below shows how to insert a combobox form field into a document.
+Use DocumentBuilder.InsertTextInput**,** DocumentBuilder.InsertCheckBox or DocumentBuilder.InsertComboBox to insert form fields into a document. The code example given below demonstrates how to insert a combobox form field into a document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cpp" >}}
 
 ### Obtaining Form Fields
 
-A collection of form fields is represented by the FormFieldCollection class that can be retrieved using the Range.FormFields property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below demonstrates how to get a collection of form fields. You can download the template file of this example from here.
+A collection of form fields is represented by the FormFieldCollection class that can be retrieved using the Range.FormFields property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.cpp" >}}
 
-You can get a particular form field by its index or name. The code example given below demonstrates how to access form fields. You can download the template file of this example from here.
+You can get a particular form field by its index or name. The code example given below shows how to access form fields. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cpp" >}}
 

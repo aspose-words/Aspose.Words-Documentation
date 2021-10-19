@@ -164,7 +164,7 @@ If you want to show or hide the chart axis, you can simply achieve this by setti
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.setTickLabelAlignment() property. The following code example shows how to tick label alignment.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.setTickLabelAlignment() property. The following code example demonstrates how to tick label alignment.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 

@@ -6,7 +6,7 @@ weight: 10
 url: /java/aspose-words-document-object-model/
 ---
 
-The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, and modify the content and formatting of a Word document.
+The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM enables you to programmatically read, manipulate, and modify the content and formatting of a Word document.
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
@@ -23,7 +23,7 @@ The document tree in Aspose.Words follows the Composite Design Pattern:
 - All node classes ultimately derive from the [Node](https://apireference.aspose.com/words/java/com.aspose.words/node) class, which is the base class in the Aspose.Words Document Object Model.
 - Nodes that can contain other nodes, for example, **Section** or **Paragraph**, derive from the [CompositeNode](https://apireference.aspose.com/words/java/com.aspose.words/compositenode) class, which in turn derives from the **Node** class.
 
-The diagram provided below shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
+The diagram provided below demonstrates inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
 
 <img src="aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
@@ -33,7 +33,7 @@ The Aspose.Words DOM also contains the non-node classes, such as [Style](https:/
 
 {{% /alert %}}
 
-Let's look at an example. The following image demonstrates a Microsoft Word document with different types of content.
+Let's look at an example. The following image shows a Microsoft Word document with different types of content.
 
 <img src="document-example.png" alt="document-example" style="width:700px"/>
 
@@ -49,13 +49,13 @@ Although the [Node](https://apireference.aspose.com/words/java/com.aspose.words/
 
 The type of each node can be obtained using the [NodeType](https://apireference.aspose.com/words/java/com.aspose.words/node#NodeType) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
 
-The following example shows how to get a node type using the **NodeType** enumeration:
+The following example demonstrates how to get a node type using the **NodeType** enumeration:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
 ## Document Tree Navigation
 
-Aspose.Words represents a document as a node tree, which allows you to navigate between nodes. This section describes how to explore and navigate the document tree in Aspose.Words.
+Aspose.Words represents a document as a node tree, which enables you to navigate between nodes. This section describes how to explore and navigate the document tree in Aspose.Words.
 
 When you open the sample document, presented earlier, in the Document Explorer, the node tree appears exactly as it is represented in Aspose.Words.
 
@@ -77,7 +77,7 @@ The nodes in the tree have relationships between them:
 
 The nodes that can contain other nodes derive from the [CompositeNode](https://apireference.aspose.com/words/java/com.aspose.words/compositenode) class, and all nodes ultimately derive from the [Node](https://apireference.aspose.com/words/java/com.aspose.words/node) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
 
-The following UML object diagram demonstrates multiple nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
+The following UML object diagram demonstrates many nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
 <img src="document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
 
@@ -93,7 +93,7 @@ The [Node.Document](https://apireference.aspose.com/words/java/com.aspose.words/
 
 When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#Document) property.
 
-The following code example demonstrates that when creating any node, a document that will own the node is always defined:
+The following code example shows that when creating any node, a document that will own the node is always defined:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
@@ -129,7 +129,7 @@ The following code example shows how to enumerate immediate child nodes of a Com
 
 You can obtain the node that immediately precedes or follows a particular node using the [PreviousSibling](https://apireference.aspose.com/words/java/com.aspose.words/node#PreviousSibling) and [NextSibling](https://apireference.aspose.com/words/java/com.aspose.words/node#NextSibling) properties, respectively. If a node is the last child of its parent, then the **NextSibling** property is *null*. Conversely, if the node is the first child of its parent, the **PreviousSibling** property is *null*.
 
-The following code example demonstrates how to efficiently visit all direct and indirect child nodes of a composite node:
+The following code example shows how to efficiently visit all direct and indirect child nodes of a composite node:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
 

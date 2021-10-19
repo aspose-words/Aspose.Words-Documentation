@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words for Java
-description: "Aspose.Words for Java is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
+description: "Aspose.Words for Java is a class library that allows your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
 type: docs
 weight: 10
 url: /java/

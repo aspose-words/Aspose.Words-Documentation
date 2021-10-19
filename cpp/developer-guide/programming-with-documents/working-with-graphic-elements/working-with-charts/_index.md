@@ -39,7 +39,7 @@ series3->get_Format()->get_Fill()->set_ForeColor(Color::get_Blue());
 doc->Save(u"ColumnColor.docx");
 {{< /highlight >}}
 
-The following code example shows how to set line color and weight:
+The following code example demonstrates how to set line color and weight:
 
 {{< highlight cpp >}}
 auto doc = System::MakeObject<Document>();

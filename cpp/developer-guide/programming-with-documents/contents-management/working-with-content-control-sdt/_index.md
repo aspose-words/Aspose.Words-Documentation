@@ -37,6 +37,6 @@ Note that only Linked and Character styles can be applied to content control. An
 
 ## Working with Repeating Section Content Control
 
-The repeating section content control enables repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, SdtType enumeration type provides **RepeatingSectionItem** property. The following code example demonstrates how to bind a repeating section content control to a table.
+The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, SdtType enumeration type provides **RepeatingSectionItem** property. The following code example demonstrates how to bind a repeating section content control to a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-CreatingTableRepeatingSectionMappedToCustomXmlPart.cpp" >}}

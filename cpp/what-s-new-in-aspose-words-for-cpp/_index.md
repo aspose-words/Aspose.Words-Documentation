@@ -119,7 +119,7 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 - The equations created with EQ fields are now supported upon converting to all HTML-based formats.
 - A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_continuoussectionpagenumberingrestart_const) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 - An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
-- A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#get_exportlanguagetospantag_const) has been added. This option enables users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
+- A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#get_exportlanguagetospantag_const) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
 - A new public field updating callback has been implemented. This enables you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}

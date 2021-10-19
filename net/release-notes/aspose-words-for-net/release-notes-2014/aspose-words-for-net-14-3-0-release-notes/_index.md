@@ -28,17 +28,17 @@ There are 88 improvements and fixes in this regular monthly release. The most no
 | :- | :- | :- |
 |WORDSNET-6074|Aspose.Words does not take in account style set in &lt;head&gt;.|Bug|
 |WORDSNET-6127|Table looks incorrectly while converting html to doc.|Bug|
-|WORDSNET-7406|Hyperlinks split into multiple fragments/links in output PDF|Bug|
+|WORDSNET-7406|Hyperlinks split into several fragments/links in output PDF|Bug|
 |WORDSNET-8435|Horizontal table position is wrong|Bug|
 |WORDSNET-8545|Document.UpdateFields Does not Update TOC in DOCX|Bug|
 |WORDSNET-8835|PDPageContentStream.drawImage draws an inverted image inside Aspose.Words generated Pdf|Bug|
-|WORDSNET-8842|Content in the output html is overlapped at many places in Html|Bug|
+|WORDSNET-8842|Content in the output html is overlapped at a few places in Html|Bug|
 |WORDSNET-9135|Different table justify alignment for different compatibilityMode values.|Bug|
 |WORDSNET-9176|CSS selectors do not work for &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt; elements|Bug|
 |WORDSNET-9191|Chart Legend/Series do not render correctly in output Pdf file|Bug|
 |WORDSNET-9254|Data labels with best fit position are rendering at incorrect places in Chart|Bug|
-|WORDSNET-9315|Offset of the hyperlink text line is off by numerous pixels in output Pdf|Bug|
-|WORDSNET-9369|Hyperlinks split into multiple fragments/links in output PDF|Bug|
+|WORDSNET-9315|Offset of the hyperlink text line is off by a few pixels in output Pdf|Bug|
+|WORDSNET-9369|Hyperlinks split into numerous fragments/links in output PDF|Bug|
 |WORDSNET-9474|Document.UpdateFields does not update SUM formula field|Bug|
 |WORDSNET-9492|Paragraph's first line indent increases when exported to HTML|Bug|
 |WORDSNET-9524|Space before a paragraph following a floating element is too large after HTML to DOCX conversion|Bug|

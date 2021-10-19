@@ -20,7 +20,7 @@ The existing issue with Windows Metafile is that it is not supported by most non
 
 ## Controlling the Aspose.Words Metafile Player
 
-The [MetafileRenderingOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/) class allows you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/#get_renderingmode_const) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/#metafilerenderingoptions) property).
+The [MetafileRenderingOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/#get_renderingmode_const) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options/#metafilerenderingoptions) property).
 
 Saving to a bitmap works differently on platforms other than .NET. While .NET GDI+ rendering is a reference that works almost perfectly even for the most complex metafile format, on other platforms it may cause issues or not be supported at all.
 
@@ -46,7 +46,7 @@ While binary raster operations are not currently supported and the limited numbe
 
 {{% /alert %}} 
 
-The example shown below shows how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of the metafile records to vector graphics:
+The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of the metafile records to vector graphics:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-Doc2Pdf-RenderMetafileToBitmap.cpp" >}}
 

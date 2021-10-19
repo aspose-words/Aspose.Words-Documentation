@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Document Object Model (DOM)
 type: docs
 description: "Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. By using the Aspose.Words DOM classes, you can programmatically read, manipulate, and modify the content and formatting of a Word document with .NET."
@@ -6,15 +6,15 @@ weight: 10
 url: /net/aspose-words-document-object-model/
 ---
 
-The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM enables you to programmatically read, manipulate, and modify the content and formatting of a Word document.
+The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, and modify the content and formatting of a Word document.
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
-## Create a Document Objects Tree {#create-a-document-objects-tree}
+## Create a Document Object Tree {#create-a-document-objects-tree}
 
 When a document is read into the Aspose.Words DOM, then an object tree is built and different types of elements of the source document have their own DOM tree objects with various properties.
 
-### Build a Tree of Document Nodes {#build-document-nodes-tree}
+### Build Document Nodes Tree {#build-document-nodes-tree}
 
 When Aspose.Words reads a Word document into memory, it creates objects of different types that represent various document elements. Every run of a text, paragraph, table, or a section is a node, and even the document itself is a node. Aspose.Words defines a class for every document node type.
 
@@ -43,7 +43,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 [Document](https://apireference.aspose.com/words/net/aspose.words/document), [Section](https://apireference.aspose.com/words/net/aspose.words/section), [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph), [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape), [Run](https://apireference.aspose.com/words/net/aspose.words/run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
-### Get a Node Type {#get-a-node-type}
+### Get a Type of Nodes {#get-a-node-type}
 
 Although the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/net/aspose.words/node/properties/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
@@ -67,7 +67,7 @@ You can learn the sample project "Document Explorer" on the [Aspose.Words GitHub
 
 {{% /alert %}}
 
-### Document Node Relationships {#document-nodes-relationships}
+### Document Nodes Relationships {#document-nodes-relationships}
 
 The nodes in the tree have relationships between them:
 
@@ -117,7 +117,7 @@ The most efficient way to access child nodes of a [CompositeNode](https://apiref
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/haschildnodes) property.
 
-The following code example demonstrates how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
+The following code example shows how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cs" >}}
 
@@ -129,7 +129,7 @@ The following code example demonstrates how to enumerate immediate child nodes o
 
 You can obtain the node that immediately precedes or follows a particular node using the [PreviousSibling](https://apireference.aspose.com/words/net/aspose.words/node/properties/previoussibling) and [NextSibling](https://apireference.aspose.com/words/net/aspose.words/node/properties/nextsibling) properties, respectively. If a node is the last child of its parent, then the **NextSibling** property is *null*. Conversely, if the node is the first child of its parent, the **PreviousSibling** property is *null*.
 
-The following code example demonstrates how to efficiently visit all direct and indirect child nodes of a composite node:
+The following code example shows how to efficiently visit all direct and indirect child nodes of a composite node:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-RecurseAllNodes.cs" >}}
 
@@ -145,6 +145,6 @@ To reduce the need for casting, most Aspose.Words classes provide properties and
 
 Typed properties are merely useful shortcuts that sometimes provide easier access than generic properties inherited from [Node.ParentNode](https://apireference.aspose.com/words/net/aspose.words/node/properties/parentnode) and [CompositeNode.FirstChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/firstchild).
 
-The following code example shows how to use typed properties to access nodes of the document tree:
+The following code example demonstrates how to use typed properties to access nodes of the document tree:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-TypedAccess.cs" >}}

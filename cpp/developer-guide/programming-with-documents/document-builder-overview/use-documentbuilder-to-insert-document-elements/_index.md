@@ -51,13 +51,13 @@ Use the DocumentBuilder.RowFormat property to specify row formatting. It retur
 
 ### Ending a Table
 
-Call DocumentBuilder.EndTable to finish the current table. This method should be called only once after DocumentBuilder->EndRow was called. When called, DocumentBuilder.EndTable moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
+Call DocumentBuilder.EndTable to finish the current table. This method should be called only once after DocumentBuilder->EndRow was called. When called, DocumentBuilder.EndTable moves the cursor out of the current cell to a position just after the table. The following example shows how to build a formatted table that contains 2 rows and 2 columns.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderBuildTable-DocumentBuilderBuildTable.cpp" >}}
 
 ## Inserting a Break
 
-If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example demonstrates how to insert page breaks into a document.
+If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example shows how to insert page breaks into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.cpp" >}}
 
@@ -74,7 +74,7 @@ DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage�
 
 ### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to DocumentBuilder->InsertImage to insert the image into the document as an inline graphics. Below example shows how to insert an inline image at the cursor position into a document.
+Pass a single string representing a file that contains the image to DocumentBuilder->InsertImage to insert the image into the document as an inline graphics. Below example demonstrates how to insert an inline image at the cursor position into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertInlineImage.cpp" >}}
 
@@ -121,7 +121,7 @@ Call DocumentBuilder.InsertCheckBox to insert a checkbox into the document. Be
 
 ### Inserting a Combo Box
 
-Call DocumentBuilder.InsertComboBox to insert a combo box into the document. Below example demonstrates how to insert a combo box form field into a document.
+Call DocumentBuilder.InsertComboBox to insert a combo box into the document. Below example shows how to insert a combo box form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertComboBoxFormField.cpp" >}}
 
@@ -145,7 +145,7 @@ If you want Ole Object call DocumentBuilder.InsertOleObject. Pass to this metho
 
 ## Set File Name and Extension when Inserting Ole Object
 
-OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if OLE handler is missing or unknown. OlePackage class allows to access OLE Package properties. Below example demonstrates how to set file name, extension and display name for OLE Package.
+OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if OLE handler is missing or unknown. OlePackage class enables to access OLE Package properties. Below example shows how to set file name, extension and display name for OLE Package.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.cpp" >}}
 

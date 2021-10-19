@@ -17,7 +17,7 @@ Below example demonstrates how to retrieve the index of a table in the document.
 
 ### Finding the Index of a Row in a Table
 
-Below example demonstrates how to retrieve the index of a row in a table.
+Below example shows how to retrieve the index of a row in a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveRowIndex.cpp" >}}
 
@@ -43,7 +43,7 @@ You can still achieve such operations on columns by iterating through the same c
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cpp" >}}
 
-Below example shows how to insert a blank column into a table.
+Below example demonstrates how to insert a blank column into a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-InsertBlankColumn.cpp" >}}
 
@@ -53,9 +53,9 @@ Below example shows how to remove a column from a table in a document.
 
 ## Specifying Rows to Repeat on Subsequent Pages as Header Rows
 
-In Microsoft Word this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or numerous rows in a table.
+In Microsoft Word this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or several rows in a table.
 
-In the case of a single header row, it must be the first row in the table. In addition when many header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
+In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
 
 {{% alert color="primary" %}} 
 
@@ -155,7 +155,7 @@ In Aspose.Words the technique is the same. Each paragraph inside the cells of th
 
 ## Working with Merged Cells
 
-In a table, many cells can be merged together into a single cell. This is useful when certain rows require a title or large blocks of text which span across the width of the table. This can only be achieved by merging some of the cells in the table into a single cell. Aspose.Words supports merged cells when working with all input formats including when importing HTML content.
+In a table, numerous cells can be merged together into a single cell. This is useful when certain rows require a title or large blocks of text which span across the width of the table. This can only be achieved by merging some of the cells in the table into a single cell. Aspose.Words supports merged cells when working with all input formats including when importing HTML content.
 
 ### Merged Cells in Aspose.Words
 
@@ -185,7 +185,7 @@ Below example creates a table with two columns with cells merged vertically in t
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-VerticalMerge.cpp" >}}
 
-In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over a few rows or columns. A method which merges all cells of a table in the specified range of cells.
+In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over several rows or columns. A method which merges all cells of a table in the specified range of cells.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-MergeCells.cpp" >}}
 

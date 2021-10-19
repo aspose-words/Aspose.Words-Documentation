@@ -109,7 +109,7 @@ There are 157 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-7346|FieldChar.IsLocked Property do not work for Doc file format.|Bug|
 |WORDSNET-4606|/text wrap:5/ Position of shapes is incorrect during rendering|Enhancement|
 |WORDSNET-4860|/anchor push:20/ Support floater anchor push algorithm.|Enhancement|
-|WORDSNET-6094|List with multiple levels is not converted correctly to HTML|Enhancement|
+|WORDSNET-6094|List with many levels is not converted correctly to HTML|Enhancement|
 |WORDSNET-6493|Docx to HTML conversion issue with text position after Bullet symbols|Enhancement|
 |WORDSNET-6647|Table cell widths calculation wrong for fixed preferred width tables.|Enhancement|
 |WORDSNET-6776|WORDSNET-6968 Support fixed maximum and minimum values of axis|Enhancement|

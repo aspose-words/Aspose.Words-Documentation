@@ -20,14 +20,14 @@ Note that the number of pages in a document affects the conversion time.
 
 {{% /alert %}} 
 
-### Convert DOCX or DOC to PDF {#converting-doc-or-docx-to-pdf}
+### Convert DOC or DOCX to PDF {#converting-doc-or-docx-to-pdf}
 
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
 1. Load your document into a [Document](https://apireference.aspose.com/words/net/aspose.words/document) object using one of its constructors by specifying the document name with its format extension.
 1. Invoke one of the [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
-The following code example shows how to convert a document from DOCX into PDF using the [Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) method:
+The following code example demonstrates how to convert a document from DOCX into PDF using the [Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-Doc2Pdf.cs" >}}
 
@@ -53,7 +53,7 @@ The following code example shows how to convert a document to PDF 1.7 using [Pd
 
 Converting to PDF is not restricted by Microsoft Word document formats. Any format supported by Aspose.Words, including programmatically created, can also be converted to PDF. For example, we can convert single-page images, such as JPEG, PNG, BMP, EMF, or WMF, as well as multi-page images, such as TIFF and GIF, to PDF.
 
-The following code example shows how to convert JPEG and TIFF images to PDF:
+The following code example demonstrates how to convert JPEG and TIFF images to PDF:
 
 **.NET**
 

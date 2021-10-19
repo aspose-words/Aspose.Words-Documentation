@@ -14,7 +14,7 @@ Use DocumentBuilder.InsertHyperlink to insert a hyperlink into the document. T
 
 ## Replace or Modify Hyperlinks
 
-Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of several nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span numerous paragraphs or sections in a document. 
+Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of numerous nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span numerous paragraphs or sections in a document. 
 
 The FieldHyperlink class implements the HYPERLINK field. The code example given below finds all hyperlinks in a Word document and changes their URL and display name.
 
@@ -22,6 +22,6 @@ The FieldHyperlink class implements the HYPERLINK field. The code example given
 
 ## Inserting HTML
 
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. The code example given below shows inserts HTML into a document using DocumentBuilder.
+You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. The code example given below demonstrates inserts HTML into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}

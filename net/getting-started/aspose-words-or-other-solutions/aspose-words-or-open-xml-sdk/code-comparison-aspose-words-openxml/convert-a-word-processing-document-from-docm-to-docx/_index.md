@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert DOCM to DOCX
 description: "Aspose.Words for .NET allows you to convert DOCM to DOCX easily and fast instead of using Open XML SDK."
 type: docs
@@ -87,6 +87,5 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 {{% alert color="primary" %}} 
 
 For more information about Aspose.Words features please visit [Convert a Document](https://docs.aspose.com/words/net/convert-a-document/).
-
 
 {{% /alert %}}

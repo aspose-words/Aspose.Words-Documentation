@@ -60,7 +60,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9269|Character in some words are rendering with different font formatting in HtmlFixed|Bug|
 |WORDSNET-9270|A tiff image is incorrectly imported from Aspose.Email generated MHTML file|Bug|
 |WORDSNET-9271|Relative position of nested floating Text Boxes is unexpected when rendering|Bug|
-|WORDSNET-9274|Aspose.Words throws multiple warnings when loading DigitalSignature in DOCX|Bug|
+|WORDSNET-9274|Aspose.Words throws a few warnings when loading DigitalSignature in DOCX|Bug|
 |WORDSNET-9275|DocProperty field values are not preserved during open/save a DOCX|Bug|
 |WORDSNET-9278|Aspose.Words doesn't use a barcode font during rendering|Bug|
 |WORDSNET-9279|Comment's alignment is changed from right to left after conversion from Docx to Pdf|Bug|
@@ -102,7 +102,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-8168|Images are moved towards right Page edge in PDF|Enhancement|
 |WORDSNET-8607|An extra blank page is introduced in PDF|Enhancement|
 |WORDSNET-8771|Add a remark to the API docs that SVG images are inserted as vector image format EMF|Enhancement|
-|WORDSNET-8910|Implement a mechanism to apply a few depended CSS properties together to a model format|Enhancement|
+|WORDSNET-8910|Implement a mechanism to apply several depended CSS properties together to a model format|Enhancement|
 |WORDSNET-9015|Add support of :link selectors|Enhancement|
 |WORDSNET-9017|Add support of "pre-line" and "pre-wrap" values of "white-space" css property.|Enhancement|
 |WORDSNET-9028|Extra paragraph is added to table's cell so cell becomes higher in HTML import.|Enhancement|
@@ -146,7 +146,7 @@ The following is a list of changes in this version of Aspose.Words.
 ### Rendering of DrawingML Glow Effect
 
 - Simplified
-  (default) - Soft edges are simulated using numerous layers with different
+  (default) - Soft edges are simulated using many layers with different
   transparency, which gives acceptable result with higher performance than in
   Fine mode.
 - Fine -

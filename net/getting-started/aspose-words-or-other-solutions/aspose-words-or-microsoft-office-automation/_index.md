@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words or Microsoft Office Automation
-description: "When choosing between Aspose.Words for .NET and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in several ways."
+description: "When choosing between Aspose.Words for .NET and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in multiple ways."
 type: docs
 weight: 10
 url: /net/aspose-words-or-microsoft-office-automation/
@@ -22,13 +22,13 @@ The shortest answer we could give to the second question is that the main reason
 
 Aspose components have been thoroughly tested.
 
-Aspose components are used by companies such as IBM, Hilton, Reader’s Digest, Bank of America, and a few more.
+Aspose components are used by companies such as IBM, Hilton, Reader’s Digest, Bank of America, and several more.
 
 {{% /alert %}}
 
 ## Why not Automation
 
-There are multiple reasons why Aspose.Words components are a better alternative to automation:
+There are many reasons why Aspose.Words components are a better alternative to automation:
 
 * Security
 * Stability
@@ -66,7 +66,7 @@ Our components are a true .NET solution and perform flawlessly on either a singl
 
 The following is a direct quote from the above referenced Microsoft article:
 
-> “Server-side components need to be highly reentrant, multi-threaded COM components that have minimum overhead and high throughput for several clients. Office applications are in almost all respects the exact opposite. Office applications are non-reentrant, STA-based Automation servers that are designed to provide diverse but resource-intensive functionality for a single client. The applications offer little scalability as a server-side solution. Additionally, the applications have fixed limits to important elements, such as memory. These cannot be changed through configuration. More importantly, the applications use global resources such as memory mapped files, global add-ins or templates, and shared Automation servers. This can limit the number of instances that can run concurrently and can lead to race conditions if the applications are configured in a multi-client environment. Developers who plan to run more than one instance of any Office application at the same time need to consider "pooling" or serializing access to the Office application to avoid potential deadlocks or data corruption."
+> “Server-side components need to be highly reentrant, multi-threaded COM components that have minimum overhead and high throughput for numerous clients. Office applications are in almost all respects the exact opposite. Office applications are non-reentrant, STA-based Automation servers that are designed to provide diverse but resource-intensive functionality for a single client. The applications offer little scalability as a server-side solution. Additionally, the applications have fixed limits to important elements, such as memory. These cannot be changed through configuration. More importantly, the applications use global resources such as memory mapped files, global add-ins or templates, and shared Automation servers. This can limit the number of instances that can run concurrently and can lead to race conditions if the applications are configured in a multi-client environment. Developers who plan to run more than one instance of any Office application at the same time need to consider "pooling" or serializing access to the Office application to avoid potential deadlocks or data corruption."
 
 ### Price
 
@@ -80,7 +80,7 @@ All the Aspose components offer a risk-free, no-obligation [evaluation version](
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Unlike Office Automation, Aspose components provide multiple powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/net) offers a feature that allows developers to populate a Word mail merge document directly from any .NET data object. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Unlike Office Automation, Aspose components provide several powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/net) offers a feature that allows developers to populate a Word mail merge document directly from any .NET data object. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 The best part of purchasing an Aspose component or a component suite is accessing our development teams. Our development teams realize that if there is a feature that your company needs, more than likely other companies will need it as well. While not every feature request can be added, our teams try to be very open-minded and flexible when providing assistance. That mindset has made Aspose components as powerful as they are. However, if there are additional features that you need from Office Automation objects, your chances of having them added are very low.
 

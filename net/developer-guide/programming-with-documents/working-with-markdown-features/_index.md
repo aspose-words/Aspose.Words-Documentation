@@ -29,7 +29,7 @@ There are nuances of translating Markdown to the Aspose.Words Document Object Mo
 
 ## Markdown Document with Emphases
 
-This section shows you how to produce a markdown document with emphases as given below:
+This section demonstrates you how to produce a markdown document with emphases as given below:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -62,7 +62,7 @@ The following code snippet can be used to produce the above given markdown docum
 
 ## Markdown Document with Block Quotes
 
-This section shows you how to produce a markdown document with block quotes as given below:
+This section demonstrates you how to produce a markdown document with block quotes as given below:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
