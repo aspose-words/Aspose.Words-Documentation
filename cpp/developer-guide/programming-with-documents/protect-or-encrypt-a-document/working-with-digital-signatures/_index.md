@@ -1,91 +1,246 @@
-﻿---
-title: Working with Digital Signatures
+---
+title: Work with Digital Signatures
+description: "Aspose.Words for C++ allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
 weight: 160
 url: /cpp/working-with-digital-signatures/
 ---
 
-## Introduction
+A digital signature is a technological implementation of electronic signatures to sign documents and authenticate the signer to guarantee that a document has not been modified since it was signed. Each digital signature is unique for each signer because of following the PKI protocol to generate both public and private keys. Signing a document digitally means creating a signature using the signer's private key where a mathematical algorithm is used to encrypt the generated hash.
 
-A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
+Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util/) class to work with digital signatures.
 
-Aspose.Words supports documents with digital signatures and provides access to them allowing you to detect and validate digital signatures on a document and sign a generated PDF document with a supplied certificate. At the present time digital signatures are supported on DOC, OOXML, and ODT documents. The signing of generated documents is supported in PDF format.
+This article explains how to do all of the above to validate the authenticity and integrity of a digital document.
 
-### Digital Signatures are not Preserved on Open and Save
+{{% alert color="primary" %}}
 
-An important point to note is that a document loaded and then saved using Aspose.Words will lose any digital signatures signed on the document. This is by design as a digital signature ensures that the content has not been modified and furthermore authenticates the identity of who signed the document. These principles would be invalidated if the original signatures were carried over to the resulting document.
+**Try online**
 
-Due to this, if you process documents uploaded to a server this could potentially mean you may corrupt a document uploaded to your server in this way without knowing. Therefore it is best to check for digital signatures on a document and take the appropriate action if any are found, for example an alert can be sent to the client informing them that the document they are passing contains digital signatures which will be lost if it is processed. 
+You can try this functionality with our [Free online signature](https://products.aspose.app/words/signature).
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-DetectDocumentSignatures-DetectDocumentSignatures.cpp" >}}
+{{% /alert %}}
 
-The code above uses the [FileFormatUtil.DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util/#detectfileformat_string) method to detect if a document contains digital signatures without loading the document first. This provides an efficient and safe way to check a document for signatures before processing them. When executed, the method returns a [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info) object which provides the property [FileFormatInfo.HasDigitalSignature](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info/#get_hasdigitalsignature_const). This property returns true if the document contains one or more digital signatures. It’s important to note that this method does not validate the signatures, it only determines if signatures are present. Validating digital signatures is covered in the next section.
+## Supported Formats
 
-{{% alert color="primary" %}} 
+Aspose.Words allows you to work with digital signatures on DOC, OOXML, and ODT documents and to sign the generated document in PDF or XPS format.
 
-You can also check if a document has digital signatures after loading by checking the Count property of the [Document.DigitalSignatures collection](https://apireference.aspose.com/words/cpp/class/aspose.words.document/#get_digitalsignatures_const).
+## Limitations of Digital Signatures
 
-{{% /alert %}} 
+The table below describes a few limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Loading-and-Saving/Document.Signed.docx).
+| Limitation                                                   | Alternative option                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Loss of digital signatures on a document after loading and saving it. Therefore, processing a document to a server may cause the loss of all digital signatures without a notice. | Check if a document has digital signatures and take the appropriate action if any are found. For example, send an alert to the clients informing them that the document they are uploading contains digital signatures that will be lost if it is processed. |
+| Aspose.Words supports working with macros in a document. But Aspose.Words does not yet support digital signatures on macros. | Export the document back to any Word format, and use Microsoft Word to add a digital signature to macros. |
 
+## Detect, Count, and Verify Digital Signatures
 
-### Digital Signatures on Macros (VBA Projects)
+Aspose.Words allows you to detect digital signature in a document using the the [DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util#detectfileformat_stream) method and the [HasDigitalSignature](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info#get_hasdigitalsignature_const) property. It is worth noting that such a check will only detect the fact of the signature, but not its validity.
 
-Digital signatures on macros cannot be accessed or signed because Aspose.Words does not directly deal with macros in a document. However digital signatures on macros are preserved when exporting the document back to any word format. These signatures can be preserved on VBA code because the binary content of the macros is not changed even if the document itself is modified.
+A document can be signed more than once, and this can be done by different users. To check the validity of digital signatures, you need to load them from the document using the [LoadSignatures](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#loadsignatures_stream) method and use the [IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_isvalid) property. Also Aspose.Words allows you to count a set of all digital signatures within a document using the [Count](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_count) property.
 
-## Create Digitally Signed PDF Documents
+All of this provides an efficient and safe way to check a document for signatures before processing it.
 
-A generated PDF document can be signed during saving. Currently only PDF documents can be signed in the same way. Other formats are to be supported in future versions. The code sample below shows how to sign a generated PDF document using Aspose.Words.
+The following code example shows how to detect the presence of digital signatures and verify them:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-DigitallySignedPdfUsingCertificateHolder-DigitallySignedPdfUsingCertificateHolder.cpp" >}}
+{{< highlight cpp >}}
+// Use a FileFormatInfo instance to verify that a document is not digitally signed.
+auto info = FileFormatUtil::DetectFileFormat(u"Document.docx");
 
+ASSERT_EQ(FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()), u".docx")
+ASSERT_FALSE(info->get_HasDigitalSignature());
 
-### Access and Verify Digital Signatures
+// Sign the document.
+auto certificateHolder = CertificateHolder::Create(u"morzal.pfx", u"aw");
+auto signOptions = System::MakeObject<SignOptions>();
+signOptions->set_SignTime(System::DateTime::get_Now());
+DigitalSignatureUtil::Sign("Document.docx", u"File.DetectDigitalSignatures.docx", certificateHolder, signOptions);
 
-The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_isvalid) Property property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
+// Use a new FileFormatInfo instance to confirm that it is signed.
+info = FileFormatUtil::DetectFileFormat(u"File.DetectDigitalSignatures.docx");
+ASSERT_TRUE(info->get_HasDigitalSignature());
 
-Each signature can also be individually validated by calling DigitalSignature.IsValid. A signature can return not valid for numerous reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below demonstrates how to validate each signature in a document and display basic information about the signature. 
+// The signatures can then be accessed like this.
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(u"File.DetectDigitalSignatures.docx")->get_Count(), 1);
+{{< /highlight >}}
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-AccessAndVerifySignature-AccessAndVerifySignature.cpp" >}}
+## Create a Digital Signature
 
-{{% alert color="primary" %}} 
+To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Loading-and-Saving/Test%20File%20(doc).doc).
+Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.certificate_holder#create_ubytearray_securestring) method within the [CertificateHolder](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.certificate_holder) class.
 
-{{% /alert %}} 
+The next sections explain how to add a digital signature, signature line, and how to sign a generated PDF document.
 
+### Sign a Document
 
-## Signing Word Documents
+Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#sign_stream_stream_certificateholder) method and [SignOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.sign_options/) properties.
 
-DigitalSignatureUtil class provides methods for signing documents. DigitalSignatureUtil.Sign method signs source document using a given CertificateHolder with a digital signature and writes a signed document to the destination stream. 
+The following code example shows how to sign documents using a certificate holder and sign options:
 
-The following code example shows how to sign a simple document. 
+{{< highlight cpp >}}
+// Create X.509 certificate.
+auto certificateHolder = CertificateHolder::Create(u"morzal.pfx", u"aw");
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SimpleDocumentSigning.cpp" >}}
+// Set up the signing time.
+auto signOptions = System::MakeObject<SignOptions>();
+signOptions->set_Comments(u"My Comment");
+signOptions->set_SignTime(System::DateTime::get_Now());
 
-The following code example shows how to sign the encrypted documents. 
+// Sign your document.
+{
+        std::ifstream streamIn {"Digitally signed.docx"};
+        std::ofstream streamOut {"DigitalSignatureUtil.SignDocument.docx"};
+        DigitalSignatureUtil::Sign(streamIn, streamOut, certificateHolder, signOptions);
+}
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SigningEncryptedDocument.cpp" >}}
+// Load and count digital signatures.
+{
+        std::ifstream stream {"DigitalSignatureUtil.SignDocument.docx"};
+        auto digitalSignatures = DigitalSignatureUtil::LoadSignatures(stream);
 
-### Signing Word document with Signature Line
+        ASSERT_EQ(1, digitalSignatures->get_Count());
 
-You can sign a source document using a given CertificateHolder and SignOptions with a digital signature and writes a signed document to the destination file. Using SignOptions class you can specify options for document signing. The following code example shows how to create a new signature line and sign a document. 
+        auto signature = digitalSignatures->idx_get(0);
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-CreatingAndSigningNewSignatureLine.cpp" >}}
+        ASSERT_TRUE(signature->get_IsValid());
+        ASSERT_EQ(DigitalSignatureType::XmlDsig, signature->get_SignatureType());
+        ASSERT_EQ(signOptions->get_SignTime(), signature->get_SignTime());
+        ASSERT_EQ(signature->get_Comments(), u"My comment");
+}
+{{< /highlight >}}
 
-The following code example shows how to modify an existing signature line and sign a document. 
+### Add a Signature Line
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SigningExistingSignatureLine.cpp" >}}
+A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertsignatureline_signaturelineoptions) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.signature_line_options/) class.
 
-### Signing Word Document using Signature Provider Identifier
+For example, the picture below shows how valid and invalid signatures can be displayed.
 
-The code example given below shows how to sign a Word document using a signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of 00000000-0000-0000-0000-000000000000 for its default signature provider.
+<img src="Valid.png" alt="valid-signature" style="width:300px"/>
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-SetSignatureProviderID.cpp" >}}
+<img src="Invalid.png" alt="invalid-signature" style="width:300px"/>
 
-### Create New Signature Line Sign Word Document using Provider Identifier
+Also, if a document contains a signature line and no digital signature, there is a feature to ask the user to add a signature.
 
-The following code example demonstrates how to create a signature line and sign a Word document using a signature provider identifier.
+The following code example shows how to sign a document with a personal certificate and a specific signature line:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SigningSignatureLine-CreateNewSignatureLineAndSetProviderID.cpp" >}}
+{{< highlight cpp >}}
+// Create a Document.
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
+
+// Set signature line options.
+auto signatureLineOptions = System::MakeObject<SignatureLineOptions>();
+signatureLineOptions->set_Signer(u"Entername");
+signatureLineOptions->set_SignerTitle(u"QA");
+signatureLineOptions->set_Email(u"EnterSome@email.com");
+signatureLineOptions->set_ShowDate(true);
+signatureLineOptions->set_DefaultInstructions(false);
+signatureLineOptions->set_Instructions(u"You need more info about signature line");
+signatureLineOptions->set_AllowComments(true);
+
+// Insert signature line.
+auto signatureLine = builder->InsertSignatureLine(signatureLineOptions)->get_SignatureLine();
+signatureLine->set_ProviderId(System::Guid::Parse(u"CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+doc->Save(u"DocumentBuilder.SignatureLineProviderId.docx");
+
+// Set signing options. 
+auto signOptions = MakeObject<SignOptions>();
+signOptions->set_SignatureLineId(signatureLine->get_Id());
+signOptions->set_ProviderId(signatureLine->get_ProviderId());
+signOptions->set_Comments(u"Document was signed by Entername");
+signOptions->set_SignTime(System::DateTime::get_Now());
+
+// Create a certificate.
+auto certHolder = CertificateHolder::Create(u"morzal.pfx", u"aw");
+
+// We can sign the signature line programmatically.
+DigitalSignatureUtil::Sign(u"DocumentBuilder.SignatureLineProviderId.docx", u"DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+// Create the shape of the signature line.
+doc = System::MakeObject<Document>(u"DocumentBuilder.SignatureLineProviderId.Signed.docx");
+auto shape = System::DynamicCast<Shape>(doc.GetChild(NodeType::Shape, 0, true));
+signatureLine = shape->SignatureLine;
+
+ASSERT_EQ(signatureLine->get_Signer(), u"Entername");
+ASSERT_EQ(signatureLine->get_SignerTitle(), u"QA");
+ASSERT_EQ(signatureLine->get_Email(), u"EnterSome@email.com");
+ASSERT_TRUE(signatureLine->get_ShowDate());
+ASSERT_FALSE(signatureLine->get_DefaultInstructions());
+ASSERT_EQ(signatureLine->get_Instructions(), u"You need more info about signature line");
+ASSERT_TRUE(signatureLine->get_AllowComments());
+ASSERT_TRUE(signatureLine->get_IsSigned());
+ASSERT_TRUE(signatureLine->get_IsValid());
+
+// Loading signatures.
+auto signatures = DigitalSignatureUtil::LoadSignatures(u"DocumentBuilder.SignatureLineProviderId.Signed.docx");
+
+ASSERT_EQ(1, signatures->get_Count());
+ASSERT_TRUE(signatures->idx_get(0)->get_IsValid());
+ASSERT_EQ(signatures->idx_get(0)->get_Comments(), u"Document was signed by Entername");
+ASSERT_EQ(System::DateTime::get_Today(), signatures->idx_get(0)->get_SignTime()->get_Date());
+ASSERT_EQ(signatures->idx_get(0)->get_IssuerName(), u"CN=Morzal.Me");
+ASSERT_EQ(DigitalSignatureType::XmlDsig, signatures->idx_get(0)->get_SignatureType());
+{{< /highlight >}}
+
+### Sign a Generated PDF Document
+
+Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_digital_signature_details) properties.
+
+The following code example shows how to sign a generated PDF:
+
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
+builder->Writeln(u"Signed PDF contents.");
+
+// Load the certificate from disk.
+// The other constructor overloads can be used to load certificates from different locations.
+auto certificateHolder = CertificateHolder::Create(u"morzal.pfx", u"aw");
+
+// Pass the certificate and details to the save options class to sign with.
+auto options = System::MakeObject<PdfSaveOptions>();
+auto signingTime = DateTime::get_Now();
+options->set_DigitalSignatureDetails(System::MakeObject<PdfDigitalSignatureDetails>(certificateHolder, u"Test Signing", u"Aspose Office", signingTime));
+
+// We can use this attribute to set a different hash algorithm.
+options->get_DigitalSignatureDetails()->set_HashAlgorithm(PdfDigitalSignatureHashAlgorithm::Sha256);
+
+doc->Save(u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
+{{< /highlight >}}
+
+## Remove Digital Signatures
+
+Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#removeallsignatures_stream_stream) method.
+
+The following code example shows how to load and remove digital signatures from a document:
+
+{{< highlight cpp >}}
+// Load digital signatures via filename string to verify that the document is signed.
+auto digitalSignatures = DigitalSignatureUtil::LoadSignatures(u"Digitally signed.docx");
+ASSERT_EQ(1, digitalSignatures::get_Count());
+
+// Re-save the document to an output filename with all digital signatures removed.
+DigitalSignatureUtil::RemoveAllSignatures(u"Digitally signed.docx", u"DigitalSignatureUtil.LoadAndRemove.FromString.docx");
+
+// Remove all signatures from the document using stream parameters.
+{
+        std::ifstream streamIn {"Digitally signed.docx"};
+        std::ofstream streamOut {"DigitalSignatureUtil.LoadAndRemove.FromStream.docx"};
+        DigitalSignatureUtil::RemoveAllSignatures(streamIn, streamOut);
+}
+
+// We can also load a document's digital signatures via stream, which we will do to verify that all signatures have been removed.
+{
+        std::ifstream stream {"DigitalSignatureUtil.LoadAndRemove.FromStream.docx"};
+        digitalSignatures = DigitalSignatureUtil::LoadSignatures(stream);
+        ASSERT_EQ(0, digitalSignatures->get_Count());
+}
+{{< /highlight >}}
+
+{{% alert color="primary" %}}
+
+Note that you can not remove only one digital signature within your document.
+
+{{% /alert %}}
