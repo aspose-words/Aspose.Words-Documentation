@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find and Replace
 type: docs
 description: "Aspose.Words for Java {allows|enables} you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
@@ -115,7 +115,7 @@ And after applying footer string replacement:
 
 While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
 
-Aspose.Words provides {many|multiple|several|a few|numerous} find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreDeleted), [IgnoreFields](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreFields), and [IgnoreInserted](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreInserted).
+Aspose.Words provides {many|multiple|several|a few|numerous} find and replace properties for ignoring text such as [IgnoreDeleted](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreDeleted), [IgnoreFields](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreFields), [IgnoreFootnotes](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreFootnotes), and [IgnoreInserted](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreInserted).
 
 The following code example {shows|demonstrates} how to ignore text inside delete revisions:
 
