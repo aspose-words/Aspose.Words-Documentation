@@ -65,6 +65,12 @@ You can create different regions in your template to have special areas that you
 
 You can create nested (child) regions as well as merge regions. The main advantage of using this type is to dynamically increase parts inside a document. See more details in the next article "Nested Mail Merge with Regions".
 
+{{% alert color="primary" %}}
+
+Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://apireference.aspose.com/words/java/com.aspose.words/MailMergeRegionInfo) class.
+
+{{% /alert %}}
+
 ### How to Execute Mail Merge with Regions
 
 A mail merge region is a specific part inside a document that has a start point and an end point. Both points are represented as mail merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a mail merge region will automatically be repeated for every record in the data source.
