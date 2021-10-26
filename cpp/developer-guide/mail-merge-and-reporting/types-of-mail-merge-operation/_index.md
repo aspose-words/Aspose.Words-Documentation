@@ -1,4 +1,4 @@
-﻿---
+---
 title: Types of Mail Merge Operation
 type: docs
 aliases:
@@ -29,7 +29,7 @@ You can add one or more merge fields in your template and then execute the simpl
 
 The main limitation of using this type is the whole document content will be repeated for each record in the data source.
 
-## How to Execute a Simple Mail Merge Operation
+### How to Execute a Simple Mail Merge Operation
 
 Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) methods that accept various data objects as the data source.
 
@@ -44,4 +44,55 @@ You can notice the difference between the document before executing simple mail 
 And after executing simple mail merge:
 
 <img src="execute_simple_mail_merge_2.png" alt="execute_simple_mail_merge-aspose-words-cpp" style="width:300px"/>
+
+### How to Create Multiple Merged Documents
+
+**<u>// Is it possible to add a few merged documents for C ++? The same section for .NET: https://docs.aspose.com/words/net/types-of-mail-merge-operations/#how-to-create-multiple-merged-documents</u>**
+
+## Mail Merge with Regions
+
+You can create different regions in your template to have special areas that you can simply fill with your data. Use the mail merge with regions if you want to insert tables, rows with repeating data to make your documents dynamically grow by specifying those regions within your template.
+
+You can create nested (child) regions as well as merge regions. The main advantage of using this type is to dynamically increase parts inside a document. See more details in the next article "Nested Mail Merge with Regions".
+
+{{% alert color="primary" %}}
+
+Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info/) class.
+
+{{% /alert %}}
+
+### How to Execute Mail Merge with Regions
+
+A mail merge region is a specific part inside a document that has a start point and an end point. Both points are represented as mail merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a mail merge region will automatically be repeated for every record in the data source.
+
+Aspose.Words enables you to execute mail merge with regions using one of the [ExecuteWithRegions](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#executewithregions_imailmergedatasource) methods that accept various custom data source.
+
+The following code example shows**<u>...</u>**
+
+**<u>// Add a code example</u>**
+
+You can notice the difference between the document before executing mail merge with regions:
+
+<img src="execute_mail_merge_with_regions_1.png" alt="mail_merge_with_regions_template" style="width:850px"/>
+
+And after executing mail merge with regions:
+
+<img src="execute_mail_merge_with_regions_2.png" alt="mail_merge_with_regions_execute" style="width:850px"/>
+
+### Limitations of Mail Merge with Regions
+
+There are some important points that you need to consider when performing a mail merge with regions:
+
+* The start point *TableStart:Orders* and the end point *TableEnd:Orders* both need to be in the same row or cell. For example, if you start a merge region in a cell of a table, you must end the merge region in the same row as the first cell.
+* **<u>// Is it relevant for C++?</u>**
+  The merge field name must match the column’s name in your DataTable. Unless you have specified mapped fields, the mail merge with regions will not be successful for any merge field that has a different name than the column’s name.
+* **<u>// Perhaps we should add information about the constraint with data source types here?</u>**
+
+If one of these rules is broken, you will get unexpected results or an exception may be thrown.
+
+{{% alert color="primary" %}}
+
+If you do not use mail merge regions, then it will be similar to Microsoft Word mail merge, and the whole document content will be repeated for each record in the data source.
+
+{{% /alert %}}
 
