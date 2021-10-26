@@ -1,4 +1,4 @@
-﻿---
+---
 title: System Requirements
 description: "Before you start working with Aspose.Words for .NET, ensure that you meet the operating system, platform, frameworks, and environment requirements so the activities on your devices are properly accounted for."
 type: docs
@@ -77,7 +77,7 @@ Aspose.Words for .NET also supports .NET Standard 2.0 specification and its impl
 		</tr>
   <tr>
 			<td>.NET Standard 2.0</td>
-			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 3.0</li><li>.NET 5.0</li></ul></td>
+			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 3.0</li><li>.NET 5.0</li><li>.NET 6.0</li></ul></td>
 			</tr>
 </table>
 
