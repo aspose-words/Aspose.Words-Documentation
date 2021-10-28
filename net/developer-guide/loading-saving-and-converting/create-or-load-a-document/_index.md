@@ -16,7 +16,7 @@ We will call the [Document](https://apireference.aspose.com/words/net/aspose.wo
 
 The following code example demonstrates how to create a document using the document builder:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-CreateDocument-CreateDocument.cs" >}}
+{{< gist "aspose-words-gists" "16b9cfe5420b6e033f90a45263eef020" "create-docx.cs" >}}
 
 {{% alert color="primary" %}} 
 
@@ -37,7 +37,7 @@ Pass a file name as string to the Document constructor to open an existing docum
 
 The following code example demonstrates how to open a document from a file:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToDisk-OpenDocument.cs" >}}
+{{< gist "aspose-words-gists" "5bd617e9ea10953cbdd084bcf3810c02" "load-docx.cs" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
@@ -47,7 +47,7 @@ To open a document from a stream, simply pass a stream object that contains the 
 
 The following code example shows how to open a document from a stream:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToStream-OpeningFromStream.cs" >}}
+{{< gist "aspose-words-gists" "5bd617e9ea10953cbdd084bcf3810c02" "load-docx-stream.cs" >}}
 
 {{% alert color="primary" %}} 
 
