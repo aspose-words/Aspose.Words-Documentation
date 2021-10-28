@@ -16,7 +16,7 @@ By default Aspose.Words opens documents using Microsoft Word 2019 rules. If you 
 
 The following code example demonstrates how to set the Microsoft Word version with load options:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-SetMSWordVersion.cs" >}}
+{{< gist "aspose-words-gists" "62b066455ff6af0e8727e3fddae47aee" "load-docx-with-msword-version.cs" >}}
 
 ## Set Language Preferences to Change the Appearance
 
@@ -24,7 +24,7 @@ The details of displaying a document in Microsoft Word depend not only on the ap
 
 The following code example shows how to set Japanese as **EditingLanguage**:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cs" >}}
+{{< gist "aspose-words-gists" "5d49772a182a61eac0dcb9c13c98bc6e" "load-docx-with-japanese-as-editing-language.cs" >}}
 
 ## Use WarningCallback to Control Problems While Loading a Document
 
@@ -32,13 +32,13 @@ Some documents may be corrupted, contain invalid entries, or have features not c
 
 The following code example demonstrates the implementation of the **IWarningCallback** interface:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-DocumentLoadingWarningCallback.cs" >}}
+{{< gist "aspose-words-gists" "98a2dc9a7968c829a68373fa824822c9" "document-loading-warning-callback.cs" >}}
 
 To get information about all problems throughout the load time, use the [WarningCallback](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/warningcallback) property.
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadOptionsWarningCallback.cs" >}}
+{{< gist "aspose-words-gists" "98a2dc9a7968c829a68373fa824822c9" "load-docx-with-warning-callback.cs" >}}
 
 ## Use ResourceLoadingCallback to Control the External Resources Loading
 
@@ -46,11 +46,11 @@ A document may contain external links to images located somewhere on a local dis
 
 The following code example shows the implementation of the [IResourceLoadingCallback](https://apireference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback) interface:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-HtmlLinkedResourceLoadingCallback.cs" >}}
+{{< gist "aspose-words-gists" "513c134d5e8e8126c385324f2d001a9b" "html-linked-resource-loading-callback.cs" >}}
 
 The following code example shows how to use the **ResourceLoadingCallback** property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadOptionsResourceLoadingCallback.cs" >}}
+{{< gist "aspose-words-gists" "513c134d5e8e8126c385324f2d001a9b" "load-html-with-resource-loading-callback.cs" >}}
 
 ## Use TempFolder to Avoid a Memory Exception
 
@@ -60,7 +60,7 @@ If you have a problem with Out of Memory exception while loading a document, try
 
 The following code example shows how to set **TempFolder**:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-SetTempFolder.cs" >}}
+{{< gist "aspose-words-gists" "80fb635124a6afc0e75b9f17d1eab40c" "load-docx-using-temp-folder.cs" >}}
 
 ## Set the Encoding Explicitly
 
@@ -68,7 +68,7 @@ Most modern document formats store their content in Unicode and do not require s
 
 The following code example shows how to set the encoding to override the automatically chosen encoding:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadOptionsEncoding.cs" >}}
+{{< gist "aspose-words-gists" "507181f2c99ba13012c441f1c436d9a7" "load-txt-using-encoding.cs" >}}
 
 ## Load Encrypted Documents
 
@@ -76,10 +76,10 @@ You can load Word documents encrypted with a password. To do this, use a special
 
 The following code example shows how to load a document encrypted with a password:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-OpenEncryptedDocument-OpenEncryptedDocument.cs" >}}
+{{< gist "aspose-words-gists" "5b929b4208996737657de94443bc2852" "load-encrypted-docx.cs" >}}
 
 If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/words/net/aspose.words/fileformatutil) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the [IsEncrypted](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo/properties/isencrypted) property.
 
 The following code example demonstrates how to verify OpenDocument either it is encrypted or not:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-VerifyODTdocument.cs" >}}
+{{< gist "aspose-words-gists" "935e41f0f59c7d8bd8a082ccc14f6b84" "verify-docx-is-encrypted.cs" >}}
