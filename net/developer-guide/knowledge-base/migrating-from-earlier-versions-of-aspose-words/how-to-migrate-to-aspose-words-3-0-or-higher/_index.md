@@ -23,7 +23,7 @@ Licenses issued prior to 22nd of January 2005 are no longer supported. If you up
 
 #### IDocumentVisitor Redesigned
 
-IDocumentVisitor was a visitor interface that allowed forward-only enumeration over document content. Since the new document object model available in Aspose.Words 3.0 introduces multiple new classes and allows detailed programmatic access to document elements, the visitor interface was completely redesigned.
+IDocumentVisitor was a visitor interface that allowed forward-only enumeration over document content. Since the new document object model available in Aspose.Words 3.0 introduces numerous new classes and enables detailed programmatic access to document elements, the visitor interface was completely redesigned.
 
 The **IDocumentVisitor** interface was replaced by the [DocumentVisitor](https://apireference.aspose.com/words/net/aspose.words/documentvisitor) class. If you had an implementation of **IDocumentVisitor** , you need to change your class to derive from **DocumentVisitor** and update the names and signatures of the methods. 
 

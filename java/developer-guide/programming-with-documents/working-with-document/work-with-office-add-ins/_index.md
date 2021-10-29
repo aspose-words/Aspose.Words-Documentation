@@ -16,7 +16,7 @@ WebExtensions namespace can be conditionally divided into:
 
 ## Using Task Panes
 
-The task panes are interface surfaces that are displayed on the right side of the window in Microsoft Word. Task pane enables users to access interface controls that can run code to modify documents.
+The task panes are interface surfaces that are displayed on the right side of the window in Microsoft Word. Task pane allows users to access interface controls that can run code to modify documents.
 
 For example, using Aspose.Words API, you can add a task pane add-in and customize its appearance.
 
@@ -24,7 +24,7 @@ For example, using Aspose.Words API, you can add a task pane add-in and customiz
 
 Web Extensions are tools that expand the capabilities of Office applications and interact with Office document content. Web Extensions provide additional functionality to Office clients for improving user experience.
 
-Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://apireference.aspose.com/words/java/com.aspose.words/WebExtension) and [TaskPane](https://apireference.aspose.com/words/java/com.aspose.words/TaskPane) classes, and also enables you to customize the pane and extension properties.
+Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://apireference.aspose.com/words/java/com.aspose.words/WebExtension) and [TaskPane](https://apireference.aspose.com/words/java/com.aspose.words/TaskPane) classes, and also allows you to customize the pane and extension properties.
 
 The following code example shows how to create task panes and add to web extension task panes with basic properties: 
 

@@ -41,7 +41,7 @@ The missing features will be added in future releases.
 | WORDSNET-17557 | Provide way to get URL from Target attribute inside webSettings.xml.rels   file | New Feature |
 | WORDSNET-21750 | Highlighted Content is not visible after exporting to PDF | New Feature |
 | WORDSNET-15400 | Implement maskPen rasterOp mode in InkML rendering | New Feature |
-| WORDSNET-22370 | Support a few exact date-time parse formats while loading JSON | New Feature |
+| WORDSNET-22370 | Support several exact date-time parse formats while loading JSON | New Feature |
 | WORDSNET-15984 | Ink annotations are not aligned in PDF output | New Feature |
 | WORDSNET-22159 | Implement rendering of brushes with maskPen rasterOp mode | New Feature |
 | WORDSNET-22009 | Make links clickable when converting CHM to HTML when the file pointing   itself | New Feature |
@@ -109,7 +109,7 @@ The missing features will be added in future releases.
 | WORDSNET-20402 | HTML export issues | Bug |
 | WORDSNET-22152 | Tab stop in a list item gets considerably wider after conversion to HTML | Bug |
 | WORDSNET-21796 | DOCX to PDF/A conversion and validation fails: Several cases with header   cells that are not tagged | Bug |
-| WORDSNET-21947 | DOCX to PDF/A conversion: accessibility validation fails: Bullet list   items are broken into a few tags | Bug |
+| WORDSNET-21947 | DOCX to PDF/A conversion: accessibility validation fails: Bullet list   items are broken into multiple tags | Bug |
 | WORDSNET-14245 | Document.Compare generates incorrect format revisions | Bug |
 | WORDSNET-22297 | Extra Text becomes Visible in PDF | Bug |
 | WORDSNET-22191 | Problem with nested tables in RTF content | Bug |

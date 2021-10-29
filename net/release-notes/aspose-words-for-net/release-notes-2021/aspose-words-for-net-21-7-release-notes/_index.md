@@ -19,7 +19,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 - Added an ability to work with Framesets.
 - Introduced a new overload of DocumentBuilder.InsertHtml and a new enumeration HtmlInsertOptions.
 - Provided new API for working with Fill patterns.
-- Supported a few exact date-time parse formats while loading JSON for LINQ Reporting Engine.
+- Supported many exact date-time parse formats while loading JSON for LINQ Reporting Engine.
 
 ## Full List of Issues Covering all Changes in this Release
 
@@ -29,7 +29,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-17557 | Provide way to get URL from Target attribute inside webSettings.xml.rels   file | New Feature |
 | WORDSNET-21750 | Highlighted Content is not visible after exporting to PDF | New Feature |
 | WORDSNET-15400 | Implement maskPen rasterOp mode in InkML rendering | New Feature |
-| WORDSNET-22370 | Support numerous exact date-time parse formats while loading JSON | New Feature |
+| WORDSNET-22370 | Support several exact date-time parse formats while loading JSON | New Feature |
 | WORDSNET-15984 | Ink annotations are not aligned in PDF output | New Feature |
 | WORDSNET-21781 | Support using of arrays with data bands and LINQ extension methods for   Java | New Feature |
 | WORDSNET-22159 | Implement rendering of brushes with maskPen rasterOp mode | New Feature |

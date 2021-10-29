@@ -30,7 +30,7 @@ doc.save("Aspose_NewDoc.docx",SaveFormat.DOCX);
 
 ## docx4j - Create New Document
 
-Creates a WordprocessingML document from scratch and show many different ways of adding basic content.
+Creates a WordprocessingML document from scratch and show several different ways of adding basic content.
 
 **Java**
 

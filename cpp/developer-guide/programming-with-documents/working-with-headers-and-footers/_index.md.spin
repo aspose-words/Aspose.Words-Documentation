@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Headers and Footers
 type: docs
 aliases:
@@ -8,7 +8,7 @@ weight: 33
 url: /cpp/working-with-headers-and-footers/
 ---
 
-## How to Create Headers Footers using DocumentBuilder
+## {How to Create|Create} Headers {or|and} Footers using DocumentBuilder {#create-headers-or-footers-using-documentbuilder}
 
 {{% alert color="primary" %}} 
 
@@ -35,7 +35,7 @@ The code example given below {shows|demonstrates} how to create headers footers 
 
 Each section in a document can have up to three headers and up to three footers (for first, even and odd pages). If you want to delete all footers in a document you need to loop through all sections and remove every footer node.
 
-## How to Remove Footers but Leave Headers Intact
+## {How to Remove|Remove} Footers {and|but} Leave {Headers Intact|Headers} {#remove-footers-and-leave-headers-intact}
 
 The code example given below deletes all footers from all sections, but leaves headers intact. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Document/HeaderFooter.RemoveFooters.doc).
 

@@ -1,6 +1,6 @@
 ﻿---
 title: Insert a Comment into a Word Processing Document
-description: "Aspose.Words for .NET enables you to insert a comment into a word document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET allows you to insert a comment into a word document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 180
 url: /net/insert-a-comment-into-a-word-processing-document/

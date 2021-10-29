@@ -1,6 +1,6 @@
 ﻿---
 title: Open a Document Read-Only
-description: "Aspose.Words for Java allows you to make your document read-only so that the content can be copied or read, but not modified."
+description: "Aspose.Words for Java enables you to make your document read-only so that the content can be copied or read, but not modified."
 type: docs
 weight: 10
 url: /java/open-a-document-read-only/
@@ -21,9 +21,9 @@ This article explains how to make a document read-only.
 
 Aspose.Words has the public class [WriteProtection](https://apireference.aspose.com/words/java/com.aspose.words/WriteProtection) that specifies write protection settings for a document. You do not create instances of this class directly.
 
-Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
+Write protection demonstrates whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
-Aspose.Words enables you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#ReadOnlyRecommended) property and the [SetPassword](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#setPassword(java.lang.String)) method.
+Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#ReadOnlyRecommended) property and the [SetPassword](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#setPassword(java.lang.String)) method.
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ Note that the password being set is just a property in a document that can be re
 
 If you need to check if a document has a write protection password that restricts it from editing, you can use the [IsWriteProtected](https://apireference.aspose.com/words/java/com.aspose.words/writeprotection#IsWriteProtected) property.
 
-The following code example demonstrates how to make a document read-only:
+The following code example shows how to make a document read-only:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-ReadOnlyProtection.java" >}}
 
@@ -60,6 +60,6 @@ The following code example demonstrates how to make a document read-only:
 
 If you do not want a user to open your document as read-only, you can simply set the **ReadOnlyRecommened** property to *false* or select **ProtectionType** as **NoProtection**.
 
-The following code example demonstrates how to remove read-only access for a document:
+The following code example shows how to remove read-only access for a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveReadOnlyRestriction.java" >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge and Reporting
 type: docs
 description: "Mail Merge is a popular feature for quickly creating documents. Aspose.Words for C++ takes the standard mail merge functionality and advances it {many|multiple|several|a few|numerous} steps ahead, turning it into a full-fledged reporting solution that {allows|enables} you to create even more complex documents such as reports, catalogs, inventories, and invoices."
@@ -25,7 +25,7 @@ The [Aspose.Words.MailMerging](https://apireference.aspose.com/words/cpp/namespa
 
 {{% /alert %}}
 
-## Mechanism and Main Components of a Mail Merge Operation
+## Mechanism and {Main Components|Components} of {Mail Merge|a Mail Merge Operation} {#mechanism-and-main-components-of-a-mail-merge-operation}
 
 Aspose.Words provides the ability to load documents in various [supported formats](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) and then {allows|enables} users to perform a mail merge operation.
 
@@ -33,7 +33,7 @@ Usually, a loaded document {allows|enables} you to store merge fields, for exam
 
 The mail merge operation will merge your *mail merge template* and your *data source* to generate individual *merged documents*.
 
-## What is a Mail Merge Template
+## What is a {Mail Merge Template|Merge Template} {#what-is-a-mail-merge-template}
 
 The goal of applying a mail merge operation using a merge template is to simplify the process of creating a document.
 

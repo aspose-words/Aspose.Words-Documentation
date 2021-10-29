@@ -40,7 +40,7 @@ The [https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoption
 
 PDF logical structure facilities provide a mechanism for incorporating information, regarding the document content structure, into a PDF file. Aspose.Words preserves information about the structure from a Microsoft Word document, such as paragraphs, lists, tables, footnotes/endnotes, etc.
 
-The following example shows how to save a document to PDF format, preserving the document structure:
+The following example demonstrates how to save a document to PDF format, preserving the document structure:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.cs" >}}
 
@@ -52,7 +52,7 @@ Aspose.Words also allows you to export document custom properties to PDF, which 
 
 If you want to export bookmarks as outlines in output PDF, you can use the [DefaultBookmarksOutlineLevel](https://apireference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/defaultbookmarksoutlinelevel) property. This property specifies the default level in the document outline, at which Microsoft Word bookmarks are displayed. If the document contains bookmarks in the header/footer of the document, you can set the [HeaderFooterBookmarksExportMode](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/headerfooterbookmarksexportmode) property to [First](https://apireference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode) or [All](https://apireference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode) in order to specify how they are exported in output PDF. The bookmarks in headers/footers are not exported when the value of **HeaderFooterBookmarksExportMode** is [None](https://apireference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode).
 
-The code example below shows how to export bookmarks from the first header/footer of a section:
+The code example below demonstrates how to export bookmarks from the first header/footer of a section:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.cs" >}}
 
@@ -64,7 +64,7 @@ When **HeaderFooterBookmarksExportMode** is set to [First](https://apireference.
 
 You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/headingsoutlinelevels) property. This property specifies how numerous levels of headings are included in the document outline.
 
-The code example below demonstrates how to export headings with three levels:
+The code example below shows how to export headings with three levels:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.cs" >}}
 
@@ -92,7 +92,7 @@ Resolution is calculated according to the real image size on the page.
 
 ## Embedding Fonts in Adobe PDF Format
 
-Aspose.Words also enables you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section ["Using TrueType Fonts"](/words/net/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
+Aspose.Words also allows you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section ["Using TrueType Fonts"](/words/net/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
 
 ### When to Use Full Fonts and When to Subset
 
@@ -101,11 +101,11 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 |Embed Fonts Mode|Advantages|Disadvantages|
 | :- | :- | :- |
 |Full|Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
-|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If numerous PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
+|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If multiple PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing numerous unnecessary subsets.</p>|
 
 ### Embedding Full Fonts in PDF
 
-The [EmbedFullFonts](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedfullfonts) property allows you to specify how Aspose.Words embeds fonts into an output PDF document.
+The [EmbedFullFonts](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedfullfonts) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
 
 - To embed full fonts into the output PDF document, set **EmbedFullFonts** to true
 - To subset fonts when saving to PDF, set **EmbedFullFonts** to false

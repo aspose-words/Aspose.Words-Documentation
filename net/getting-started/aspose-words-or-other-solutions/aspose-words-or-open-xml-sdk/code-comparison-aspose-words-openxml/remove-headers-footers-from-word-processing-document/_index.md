@@ -58,7 +58,7 @@ Given a reference to the document part, the code next determines if it has any w
 
 To remove the stranded references, the code first retrieves a collection of **HeaderReference** elements, converts the collection to a List, and then loops through the collection, calling the **Remove** method for each element found.
 
-The following code example shows how to remove header and footer from a Word document:
+The following code example demonstrates how to remove header and footer from a Word document:
 
 {{< highlight csharp >}}
 public void RemoveHeaderFooterFeature()

@@ -10,7 +10,7 @@ The functionality of track changes, also known as reviewing, enables you to trac
 
 When you enable the track changes feature, all inserted, deleted, and modified elements of the document will be visually highlighted with information about by whom, when, and what was changed. Objects that carry the information about what was changed are called “tracking changes”. For example, assume that you want to review a document and make important changes – this may mean that you need to make revisions. Also, you may need to insert comments to discuss some of the changes. That is where tracking changes in documents come in.
 
-This article explains how to manage and track changes created by a few reviewers on the same document, as well as the properties for tracking changes.
+This article explains how to manage and track changes created by several reviewers on the same document, as well as the properties for tracking changes.
 
 {{% alert color="primary" %}}
 
@@ -20,13 +20,13 @@ Note that the comment feature in Aspose.Words, as well as in Microsoft Word, can
 
 ## What Is a Revision
 
-Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://apireference.aspose.com/words/net/aspose.words/revision) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://apireference.aspose.com/words/net/aspose.words/revisiongroup) class, is a group of sequential revisions that occur in numerous nodes of a document. Basically, revision is a tool for tracking changes.
+Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://apireference.aspose.com/words/net/aspose.words/revision) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://apireference.aspose.com/words/net/aspose.words/revisiongroup) class, is a group of sequential revisions that occur in many nodes of a document. Basically, revision is a tool for tracking changes.
 
 Revisions are used in the tracking changes feature and within the compare documents feature, where revisions appear as a result of comparison. So, revisions within the tracking changes feature show by whom and what was changed.
 
 {{% alert color="primary" %}}
 
-Note that Microsoft Word does not allow you to view individual revisions, it only enables you to view sequential revisions as a single entity. But Aspose.Words solves this limitation with the **RevisionGroup** class.
+Note that Microsoft Word does not allow you to view individual revisions, it only allows you to view sequential revisions as a single entity. But Aspose.Words solves this limitation with the **RevisionGroup** class.
 
 {{% /alert %}}
 
@@ -40,7 +40,7 @@ Note that revisions have a result similar to Microsoft Word but Aspose.Words doe
 
 ## Start and Stop Tracking Changes
 
-Editing a document usually does not count as a revision until you begin tracking it. Aspose.Words allows you to automatically track all changes in your document with simple steps. You can easily start the process of tracking changes by using the [StartTrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/starttrackrevisions/index) method. If you need to stop the process of tracking changes so that any future edits are not considered revisions, you will need to use the [StopTrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/stoptrackrevisions) method.
+Editing a document usually does not count as a revision until you begin tracking it. Aspose.Words enables you to automatically track all changes in your document with simple steps. You can easily start the process of tracking changes by using the [StartTrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/starttrackrevisions/index) method. If you need to stop the process of tracking changes so that any future edits are not considered revisions, you will need to use the [StopTrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/stoptrackrevisions) method.
 
 {{% alert color="primary" %}}
 
@@ -58,7 +58,7 @@ Note that the AcceptAllRevisions method is similar to the “Accept All Changes�
 
 {{% /alert %}}
 
-The following code example shows how to work with tracking changes:
+The following code example demonstrates how to work with tracking changes:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-AcceptAllRevisions.cs" >}}
 

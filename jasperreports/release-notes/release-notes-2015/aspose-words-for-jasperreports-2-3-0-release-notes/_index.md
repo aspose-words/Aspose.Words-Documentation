@@ -33,6 +33,6 @@ What's fixed:
 What's implemented:
 
 - Implement WORDSJSP-130 (Paragraph indentation 'After text' is incorrect in output Doc file)
-- Implement WORDSJSP-153 (MS Word 2010/2013 demonstrates compatibility mode for Docx files)
+- Implement WORDSJSP-153 (MS Word 2010/2013 shows compatibility mode for Docx files)
 
 Please also note update (3 March, 2015 revision).

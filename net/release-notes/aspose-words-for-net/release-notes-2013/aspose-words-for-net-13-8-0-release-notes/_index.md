@@ -46,7 +46,7 @@ There are 142 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-6263|Incorrect text font occurs while simple merge field execute (merge field within page footer).|Bug|
 |WORDSNET-6272|Incorrect DrawingML image layout while rendering.|Bug|
 |WORDSNET-6348|Surrogate characters are not visible in Docx format.|Bug|
-|WORDSNET-6407|RTF to PDF conversion same page duplicated numerous times|Bug|
+|WORDSNET-6407|RTF to PDF conversion same page duplicated multiple times|Bug|
 |WORDSNET-6429|Output PDF/TIFF/XPS has one more page than the input DOC|Bug|
 |WORDSNET-6539|One line Paragraph is rendering into two lines of text|Bug|
 |WORDSNET-6604|Paragraph's first line is hanging incorrectly to the left|Bug|

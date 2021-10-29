@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compare Documents
 description: "Aspose.Words for .NET {allows|enables} you to compare two documents in any supported formats and {shows|demonstrates} content changes. You can apply advanced options when comparing."
 type: docs
@@ -36,7 +36,7 @@ Note that you can compare any two documents within the [supported file formats](
 
 {{% /alert %}}
 
-## {How to Compare|Compare Two} Documents {#compare-two-documents}
+## {Compare Two|How to Compare} Documents {#compare-two-documents}
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 

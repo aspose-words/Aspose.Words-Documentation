@@ -45,7 +45,7 @@ Aspose.Words API provides Shape.HorizontalRuleFormat property to access the pro
 
 ### Insert OLE Object as an Icon
 
-Aspose.Words API provides Shape.InsertOleObjectAsIcon function to insert an embedded or linked OLE object as an icon into the document. This function allows specifying the icon file and the caption. The OLE object type shall be detected using the file extension. The following code example shows how to set insert OLE object as an Icon into the document.
+Aspose.Words API provides Shape.InsertOleObjectAsIcon function to insert an embedded or linked OLE object as an icon into the document. This function allows specifying the icon file and the caption. The OLE object type shall be detected using the file extension. The following code example demonstrates how to set insert OLE object as an Icon into the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.java" >}}
 

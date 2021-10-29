@@ -26,8 +26,8 @@ This page contains release notes for [Aspose.Words for .NET 19.6](https://www.nu
 - Fixed a bug with missing vowel glyph when rendering Thai fonts.
 - Fixed issue with incorrect calculation of start and closing points for small ellipses when rendering DrawingML objects.
 - Fixed table grid calculation issue when the auto table has pct width mixed with %.
-- Fixed exception when table which spans numerous pages and has multiple nested floaters is broken across pages.
-- Improved text positioning when there is a paragraph-relative shape with an anchor wrapped around numerous floaters.
+- Fixed exception when table which spans many pages and has a few nested floaters is broken across pages.
+- Improved text positioning when there is a paragraph-relative shape with an anchor wrapped around several floaters.
 - Improved calculation of space before a paragraph when it's first in the document and there is a floater before it.
 
 ## Full List of Issues Covering all Changes in this Release
@@ -198,7 +198,7 @@ if(doc.VbaModule != null)
 
 ### WORDSNET-17856 Obsolete method Replace() was removed from the Range class
 
-Obsolete method Replace was removed from Range class. And fixed a few minor bug in new FindReplacer.
+Obsolete method Replace was removed from Range class. And fixed several minor bug in new FindReplacer.
 Pay attention that new FindReplacer behavior may differ for some cases(e.g. SmartTag replacement).
 Currently available next Replace methods:
 
@@ -534,7 +534,7 @@ public enum ConditionalStyleType
 
 
 
-The StyleCollection.Add method allows the creation of table styles now.
+The StyleCollection.Add method enables the creation of table styles now.
 
 **UseCase to create a table style:**
 

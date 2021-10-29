@@ -41,7 +41,7 @@ The following code example demonstrates how to customize revisions display:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithRevisionOptions-SetShowInBalloons.cpp" >}}
 
-The image below demonstrates how Aspose.Words renders comments and the Delete revisions:
+The image below shows how Aspose.Words renders comments and the Delete revisions:
 
 <img src="specify-layout-options_2.png" alt="comments_and_revisions_example_aspose_words_cpp" style="width:800px"/>
 

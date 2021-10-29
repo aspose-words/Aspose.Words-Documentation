@@ -52,7 +52,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example demonstrates how to remove page breaks from a document:
+The following code example shows how to remove page breaks from a document:
 
 {{< highlight csharp >}}
 public void RemovePageBreaksFeature()

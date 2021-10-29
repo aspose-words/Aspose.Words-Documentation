@@ -25,7 +25,7 @@ The following code example Inserts formatted text using DocumentBuilder.
 
 DocumentBuilder.writeln inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the DocumentBuilder.getFont property and current paragraph formatting is determined by the DocumentBuilder.getParagraphFormat property. 
 
-The following code example demonstrates how to insert a paragraph into the document.
+The following code example shows how to insert a paragraph into the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertParagraph-1.java" >}}
 
@@ -55,14 +55,14 @@ Call DocumentBuilder.endRow to finish the current row. If you call DocumentBuild
 
 ### Ending a Table
 
-Call DocumentBuilder.endTable to finish the current table. This method should be called only once after DocumentBuilder.endRow was called. When called, DocumentBuilder.endTable moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
+Call DocumentBuilder.endTable to finish the current table. This method should be called only once after DocumentBuilder.endRow was called. When called, DocumentBuilder.endTable moves the cursor out of the current cell to a position just after the table. The following example shows how to build a formatted table that contains 2 rows and 2 columns.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderBuildTable-1.java" >}}
 
 ## Inserting a Break
 
 If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.insertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. 
-The following code example demonstrates how to insert page breaks into a document.
+The following code example shows how to insert page breaks into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-1.java" >}}
 
@@ -85,7 +85,7 @@ Furthermore, the DocumentBuilder.insertImage method returns a [Shape](https://ap
 
 ### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to DocumentBuilder.insertImage to insert the image into the document as an inline graphic. The following code example demonstrates how to insert an inline image at the cursor position into a document.
+Pass a single string representing a file that contains the image to DocumentBuilder.insertImage to insert the image into the document as an inline graphic. The following code example shows how to insert an inline image at the cursor position into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertInlineImage-1.java" >}}
 
@@ -107,7 +107,7 @@ Bookmarks can overlap and span any range. To create a valid bookmark you need to
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
-The following code example shows how to insert a bookmark into a document using a document builder.
+The following code example demonstrates how to insert a bookmark into a document using a document builder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBookmark-1.java" >}}
 
@@ -120,7 +120,7 @@ The following code example inserts a merge field into a document using DocumentB
 
 ## Inserting a Form Field
 
-Form fields are a particular case of Word fields that enables "interaction" with the user. Form fields in Microsoft Word include textbox, Combobox and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)) , [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCheckBox(java.lang.String,boolean,boolean,int)), and [DocumentBuilder.insertComboBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertComboBox(java.lang.String,java.lang.String[],int)). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
+Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, Combobox and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)) , [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCheckBox(java.lang.String,boolean,boolean,int)), and [DocumentBuilder.insertComboBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertComboBox(java.lang.String,java.lang.String[],int)). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ### Inserting a Text Input
 
@@ -136,7 +136,7 @@ Call DocumentBuilder.insertCheckBox to insert a checkbox into the document. The 
 
 ### Inserting a Combo Box
 
-Call DocumentBuilder.insertComboBox to insert a combo box into the document. The following code example shows how to insert a combo box form field into a document.
+Call DocumentBuilder.insertComboBox to insert a combo box into the document. The following code example demonstrates how to insert a combo box form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-1.java" >}}
 
@@ -160,7 +160,7 @@ Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. Thi
 
 ## Inserting a Table of Contents
 
-You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTableOfContents(java.lang.String)) method. The DocumentBuilder.insertTableOfContents method will only insert a TOC field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example shows how to insert a Table of Contents field into a document.
+You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTableOfContents(java.lang.String)) method. The DocumentBuilder.insertTableOfContents method will only insert a TOC field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example demonstrates how to insert a Table of Contents field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-1.java" >}}
 
@@ -172,7 +172,7 @@ If you want Ole Object call [DocumentBuilder.insertOleObjectAsIcon](https://apir
 
 ## Set File Name and Extension when Inserting Ole Object
 
-OLE package is a legacy and "undocumented" way to store embedded objects if the OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if the OLE handler is missing or unknown. OlePackage class allows accessing OLE Package properties.The following code example shows how to set the file name, extension and display name for OLE Package.
+OLE package is a legacy and "undocumented" way to store embedded objects if the OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into the document. Now, this application is excluded from Windows but MS Word and other applications still use it to embed data if the OLE handler is missing or unknown. OlePackage class allows accessing OLE Package properties.The following code example demonstrates how to set the file name, extension and display name for OLE Package.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.java" >}}
 
@@ -184,7 +184,7 @@ The following code example shows how to get OLE Object raw data using OleFormat
 
 ## Insert Horizontal Rule into Document
 
-The following code example shows how to insert horizontal rule shape into a document using DocumentBuilder.InsertHorizontalRule method.
+The following code example demonstrates how to insert horizontal rule shape into a document using DocumentBuilder.InsertHorizontalRule method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.java" >}}
 
@@ -192,7 +192,7 @@ The following code example shows how to insert horizontal rule shape into a docu
 
 ### Inserting Inline and Free-floating Shapes
 
-You can insert an inline shape with a specified type and size and a free-floating shape with the specified position, size and text wrap type into a document using DocumentBuilder.InsertShape method. The DocumentBuilder.InsertShape method enables to insert DML shape into the document model. The document must be saved in the format, which support DML shapes, otherwise such nodes will be converted to VML shape, while document saving. The following code example demonstrates how to insert these types of shapes into the document.
+You can insert an inline shape with a specified type and size and a free-floating shape with the specified position, size and text wrap type into a document using DocumentBuilder.InsertShape method. The DocumentBuilder.InsertShape method enables to insert DML shape into the document model. The document must be saved in the format, which support DML shapes, otherwise such nodes will be converted to VML shape, while document saving. The following code example shows how to insert these types of shapes into the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 

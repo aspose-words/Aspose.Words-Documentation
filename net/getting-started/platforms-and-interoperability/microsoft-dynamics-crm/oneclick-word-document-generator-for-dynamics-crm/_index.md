@@ -5,7 +5,7 @@ weight: 60
 url: /net/oneclick-word-document-generator-for-dynamics-crm/
 ---
 
-The Aspose .NET OneClick Word Document Generator is open source add-on used to generate and export documents from CRM. You can design template in word and attach in CRM and generate document as you want. You can use OneClick Word Document Generator with Account, Contact, Lead, Opportunity and Quote Entity. It provides option to Attach the generated document with the record itself and you can download the document as well. This add-on can also resolve option set and look-up fields. In addition it enables you to save the document in many formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
+The Aspose .NET OneClick Word Document Generator is open source add-on used to generate and export documents from CRM. You can design template in word and attach in CRM and generate document as you want. You can use OneClick Word Document Generator with Account, Contact, Lead, Opportunity and Quote Entity. It provides option to Attach the generated document with the record itself and you can download the document as well. This add-on can also resolve option set and look-up fields. In addition it enables you to save the document in a few formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
 
 Aspose .NET OneClick Word Document Generator can be used with CRM on-premises and CRM Online.
 
@@ -17,7 +17,7 @@ Major features of this Addon are:
 - One click button that can Generate document.
 - Generated documents can be downloaded as well as attached with the same entity record.
 - A ribbon button is also provided to choose the template and generate document.
-- Allows you to save the document in multiple formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
+- Allows you to save the document in numerous formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
 
 This add-on will work with all versions of **Microsoft Dynamics CRM 2013, 2015 and CRM Online**.
 

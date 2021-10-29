@@ -155,7 +155,7 @@ public static boolean AnnotationsAtBlockLevelAsDefault { get; set; }
 {{< /highlight >}}
 
 Now code that uses Aspose.Words should consider that not only composite nodes may appear on the block/cell/row level, for example, as children of the Body, Table, Row, Cell nodes.
-Setting the AnnotationsAtBlockLevelAsDefault property to **false** allows temporarily prevent possible issues with the existing code. But please note that the property may become obsolete in the further versions of the software.
+Setting the AnnotationsAtBlockLevelAsDefault property to **false** enables temporarily prevent possible issues with the existing code. But please note that the property may become obsolete in the further versions of the software.
 
 #### UC to open a document in the inline-bookmarks mode
 

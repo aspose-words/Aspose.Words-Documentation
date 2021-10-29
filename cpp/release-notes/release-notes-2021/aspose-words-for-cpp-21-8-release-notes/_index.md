@@ -154,7 +154,7 @@ auto image = builder->InsertImage(u"image.gif");
 
 ### Added new Pdf save option - ExportLanguageToSpanTag
 
-The new save option enables to customize how the Lang entry should be exported. It can be useful for compatibility with some screen readers.
+The new save option allows to customize how the Lang entry should be exported. It can be useful for compatibility with some screen readers.
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language.
@@ -242,7 +242,7 @@ public bool FlatOpcXmlMappingOnly { get; set; }
 {{< /highlight >}}
 
 By default MS Word allows to bind structured document tags to FlatOpc documents only. 
-This option enables to control this behavior and bind documents in any format.
+This option allows to control this behavior and bind documents in any format.
 
 Use case:
 {{< highlight cpp >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Split a Document
 description: "Aspose.Words for Java provides you with an efficient way to split one document into {multiple|several|a few|many|numerous} documents by headings or sections, as well as pages or page ranges."
 type: docs
@@ -26,7 +26,7 @@ You can try this functionality with our [Free online document splitter](https://
 
 {{% /alert %}}
 
-## Split a Document Using Different Criteria
+## Split a Document {Using|by} Different {Criteria|Options} {#split-a-document-using-different-criteria}
 
 Aspose.Words {allows|enables} you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.
 
@@ -47,7 +47,7 @@ You cannot split a document using the [DocumentSplitCriteria](https://apireferen
 
 In this section, we consider only some of the possible split criteria.
 
-### Split a Document by Headings
+### Split a Document {by|Using} Headings {#split-a-document-by-headings}
 
 To split a document into chapters by headings, use the **HeadingParagraph** value of the **DocumentSplitCriteria** property.
 
@@ -61,7 +61,7 @@ Please note that for this criteria, Aspose.Words only supports saving to HTML fo
 
 When saving to EPUB, the document is not split into {several|multiple|a few|many|numerous} files, and there will be only one output file.
 
-### Split a Document by Sections
+### Split a Document {by|Using} Sections {#split-a-document-by-sections}
 
 Aspose.Words also {enables|allows} you to use section breaks to split documents and save them to HTML. For this purpose, use **SectionBreak** as the **DocumentSplitCriteria**:
 
@@ -73,7 +73,7 @@ The following code example {shows|demonstrates} how to split a document into sm
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentBySections.java" >}}
 
-## Splitting by Pages
+## {Split|Splitting} by Pages {#splitting-by-pages}
 
 You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/java/com.aspose.words/document#extractPages(int,int)) method can do the job.
 
@@ -91,7 +91,7 @@ Due to the {many|multiple|several|a few|numerous} nuances appearing while reduci
 
 {{% /alert %}}
 
-### Split a Document Page by Page
+### Split a Document {Page by Page|by Page} {#split-a-document-page-by-page}
 
 Aspose.Words {enables|allows} you to split a multi-page document page by page.
 
@@ -99,7 +99,7 @@ The following code example {shows|demonstrates} how to divide a document and s
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentPageByPage.java" >}}
 
-### Split a Document by Page Ranges
+### Split a Document {by|Using} Page Ranges {#split-a-document-by-page-ranges}
 
 Aspose.Words {allows|enables} splitting a multi-page document by page ranges. You can split one file into {multiple|several|a few|many|numerous} files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
 
@@ -107,13 +107,13 @@ The following code example {shows|demonstrates} how to split a document into sma
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentByPageRange.java" >}}
 
-## Callback Option for Saving a Document
+## Callback Option {to Save|for Saving} a Document {#callback-option-for-saving-a-document}
 
 You can use the [DocumentPartSavingCallback](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#DocumentPartSavingCallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property {allows|enables} you to rename output files or even to redirect them into custom streams.
 
 Please note that this callback is not useful when saving to EPUB because all output parts must be saved into a single container – the .epub file. So, stream redirection is not supported, and the effect of renaming is not visible since files are renamed inside the container.
 
-## Merge the Split Document with Another File
+## Merge the Split Document with Another {Document|File} {#merge-the-split-document-with-another-file}
 
 Aspose.Words {enables|allows} you to merge the output split document with another document to form a new document. This can be called document merging.
 

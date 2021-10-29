@@ -140,7 +140,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, I
 
 
 
-It enables to specify an additional options that affect the formatting of a result document.
+It allows to specify an additional options that affect the formatting of a result document.
 
 See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for .NET 19.4 Release Notes](/words/net/aspose-words-for-net-19-4-release-notes/).
 
@@ -176,7 +176,7 @@ public bool BreakIsStyleSeparator
 
 
 
-It enables to identify Style Separator Paragraph.
+It allows to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -266,7 +266,7 @@ Added new StreamFontSource class which enables loading fonts from the stream:
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called several times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called numerous times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 

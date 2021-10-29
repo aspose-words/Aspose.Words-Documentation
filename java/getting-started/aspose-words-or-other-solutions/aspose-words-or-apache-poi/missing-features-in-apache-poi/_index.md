@@ -41,7 +41,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 | Loading and saving documents in formats other than Microsoft Word.<br/>As a result, you can perform conversion between all popular document formats. For example, Word to PDF, HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The ["Create or Load a Document"](https://docs.aspose.com/words/java/create-or-load-a-document/) section<br />The ["Save a Document"](https://docs.aspose.com/words/java/save-a-document/) section<br />The [“Convert a Document”](https://docs.aspose.com/words/java/convert-a-document/) section |
 | Mail Merge                                                   | The [”Mail Merge and Reporting”](https://docs.aspose.com/words/java/mail-merge-and-reporting/) section |
 | Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/java/rendering/) section |
-| Join multiple documents, including combine formatting of documents when importing content | The [“Insert and Append Documents”](https://docs.aspose.com/words/java/insert-and-append-documents/) article |
+| Join a few documents, including combine formatting of documents when importing content | The [“Insert and Append Documents”](https://docs.aspose.com/words/java/insert-and-append-documents/) article |
 | Find and Replace                                             | The [“Find and Replace”](https://docs.aspose.com/words/java/find-and-replace/) article |
 | Track changes in documents                                   | The ["Track Changes in a Document"](https://docs.aspose.com/words/java/track-changes-in-a-document/) article |
 | Protect or encrypt a document in a variety of ways           | The ["Protect or Encrypt a Document"](https://docs.aspose.com/words/java/protect-or-encrypt-a-document/) section |
@@ -51,7 +51,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 
 The table is not complete, so you can check [our documentation](https://docs.aspose.com/words/java/) for the feature you are interested in.
 
-In the child articles, we also provide multiple examples of how various popular features can be implemented using Aspose.Words.
+In the child articles, we also provide several examples of how various popular features can be implemented using Aspose.Words.
 
 {{% alert color="primary" %}}
 

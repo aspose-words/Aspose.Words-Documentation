@@ -18,7 +18,7 @@ TextBox class provides IsValidLinkTarget method in order to check whether the 
 
 ## Check TextBox Sequence
 
-The following code snippet demonstrates how to check if shape.TextBox is a Head, a Tail or a Middle of the sequence:
+The following code snippet shows how to check if shape.TextBox is a Head, a Tail or a Middle of the sequence:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CheckSequence.cpp" >}}
 

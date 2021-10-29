@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create or Load a Document
 type: docs
 aliases: [/cpp/creating-or-loading-a-document/]
@@ -10,7 +10,7 @@ url: /cpp/create-or-load-a-document/
 
 Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has {several|multiple|a few|many|numerous} overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) enumeration.
 
-## Create a New Document
+## Create a {New Document| Document} {#create-a-new-document}
 
 We will call the [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder/) class to add document contents.
 
@@ -31,7 +31,7 @@ Note the default values:
 
 To load an existing document in any of the LoadFormat formats, pass the file name or the stream into one of the Document constructors. The format of the loaded document is automatically determined by its extension.
 
-### Load from a File
+### {Load|Load a Document} from a File {#load-from-a-file}
 
 Pass a file name as a string to the Document constructor to open an existing document from a file.
 
@@ -41,7 +41,7 @@ The following code example {shows|demonstrates} how to open a document from a fi
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Loading-and-Saving/Document.doc).
 
-### Load from a Stream
+### {Load|Load a Document} from a Stream {#load-from-a-stream}
 
 To open a document from a stream, simply pass a stream object that contains the document into the Document constructor.
 

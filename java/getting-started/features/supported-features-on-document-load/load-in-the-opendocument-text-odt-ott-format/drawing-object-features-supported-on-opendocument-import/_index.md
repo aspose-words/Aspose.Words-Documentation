@@ -7,7 +7,7 @@ url: /java/drawing-object-features-supported-on-opendocument-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports several types of drawing entities on document load.
+Aspose.Words supports many types of drawing entities on document load.
 
 Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior.
 

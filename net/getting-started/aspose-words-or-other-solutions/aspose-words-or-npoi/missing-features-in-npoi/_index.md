@@ -1,6 +1,6 @@
 ﻿---
 title: Aspose.Words Features Missing in NPOI
-description: "Aspose.Words for .NET allows to perform some operations with documents faster and more conveniently than NPOI. In addition, there are operations that are not supported by NPOI."
+description: "Aspose.Words for .NET enables to perform some operations with documents faster and more conveniently than NPOI. In addition, there are operations that are not supported by NPOI."
 type: docs
 weight: 20
 url: /net/missing-features-in-npoi/
@@ -54,7 +54,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 
 The table is not complete, so you can check [our documentation](https://docs.aspose.com/words/net/) for the feature you are interested in.
 
-In the child articles, we also provide a few examples of how various popular features can be implemented using Aspose.Words.
+In the child articles, we also provide several examples of how various popular features can be implemented using Aspose.Words.
 
 {{% alert color="primary" %}}
 

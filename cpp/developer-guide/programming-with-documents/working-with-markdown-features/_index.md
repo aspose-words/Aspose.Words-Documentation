@@ -44,7 +44,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Markdown Document with Headings
 
-This section demonstrates you how to produce a markdown document with headings as given below:
+This section shows you how to produce a markdown document with headings as given below:
 
 {{< highlight csharp >}}
 The following produces headings:
@@ -63,7 +63,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Markdown Document with Block Quotes
 
-This section demonstrates you how to produce a markdown document with block quotes as given below:
+This section shows you how to produce a markdown document with block quotes as given below:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
@@ -97,7 +97,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Reading a Markdown Document
 
-The following code snippet demonstrates you how to read a markdown document.
+The following code snippet shows you how to read a markdown document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithMarkdownFeatures-ReadMarkdownDocument.cpp" >}}
 
@@ -111,6 +111,6 @@ The following code example demonstrated how to specify various Markdown save opt
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides TableContentAlignment enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides TableContentAlignment enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example shows how to align content inside the table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cpp" >}}

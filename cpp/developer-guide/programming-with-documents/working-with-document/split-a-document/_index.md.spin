@@ -1,4 +1,4 @@
-﻿---
+---
 title: Split a Document
 description: "Aspose.Words for C++ {allows|enables} you to split a document into {several|multiple|a few|many|numerous} files. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
 type: docs
@@ -26,7 +26,7 @@ You can try this functionality with our [Free online document splitter](https://
 
 {{% /alert %}}
 
-## Split a Document Using Different Criteria
+## Split a Document {Using|by} Different {Criteria|Options} {#split-a-document-using-different-criteria}
 
 Aspose.Words {allows|enables} you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.
 
@@ -47,7 +47,7 @@ You cannot split a document using the [DocumentSplitCriteria](https://apireferen
 
 In this section, we consider only some of the possible split criteria.
 
-### Split a Document by Sections
+### Split a Document {by|Using} Sections {#split-a-document-by-sections}
 
 Aspose.Words also {enables|allows} you to use section breaks to split documents and save them to HTML. For this purpose, use **SectionBreak** as the **DocumentSplitCriteria**:
 
@@ -55,7 +55,7 @@ The following code example {shows|demonstrates} how to split a document into sm
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SplitDocument-SplitDocumentBySections.cpp" >}}
 
-## Splitting by Pages
+## {Split|Splitting} by Pages {#splitting-by-pages}
 
 You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/cpp/class/aspose.words.document#extractpages_int_int) method can do the job.
 
@@ -73,7 +73,7 @@ Due to the {many|multiple|several|a few|numerous} nuances appearing while reduci
 
 {{% /alert %}}
 
-### Split a Document Page by Page
+### Split a Document {Page by Page|by Page} {#split-a-document-page-by-page}
 
 Aspose.Words {enables|allows} you to split a multi-page document page by page.
 
@@ -81,7 +81,7 @@ The following code example {shows|demonstrates} how to divide a document and s
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Split Documents-Split document-SplitDocumentPageByPage.h" >}}
 
-### Split a Document by Page Ranges
+### Split a Document {by|Using} Page Ranges {#split-a-document-by-page-ranges}
 
 Aspose.Words {allows|enables} splitting a multi-page document by page ranges. You can split one file into {multiple|several|a few|many|numerous} files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
 
@@ -89,7 +89,7 @@ The following code example {shows|demonstrates} how to split a document into sma
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Split Documents-Split document-SplitDocumentByPageRange.h" >}}
 
-## Merge the Split Document with Another File
+## Merge the Split Document with Another {Document|File} {#merge-the-split-document-with-another-file}
 
 Aspose.Words {enables|allows} you to merge the output split document with another document to form a new document. This can be called document merging.
 

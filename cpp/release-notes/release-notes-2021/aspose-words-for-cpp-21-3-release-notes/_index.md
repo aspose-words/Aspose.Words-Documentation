@@ -377,7 +377,7 @@ The following public method have been added to the StructuredDocumentTagRangeSta
 System::SharedPtr<NodeCollection> GetChildNodes(NodeType nodeType, bool isDeep)
 {{< /highlight >}}
 
-These changes enables to enumerate child nodes of ranged structured document tag. 
+These changes allows to enumerate child nodes of ranged structured document tag. 
 For customer convenience feature follows CompositeNode pattern and returns live collection.
 
 Use Case: Explains how to work with child nodes of StructuredDocumentTagRangeStart

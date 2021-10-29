@@ -149,7 +149,7 @@ Upon analysis it turned out that Aspose.Words output matches MS Word behavior fo
 
 The customer expected the behavior to match MS Word 2016.
 
-The difference is in handling how hideMark element in a table cell influences the cell height. In fact, the behavior that the customer complains about was introduced intentionally per numerous other JIRA issues submitted for other customers earlier.
+The difference is in handling how hideMark element in a table cell influences the cell height. In fact, the behavior that the customer complains about was introduced intentionally per many other JIRA issues submitted for other customers earlier.
 
 
 Because of different hideMark handling, the cell height is different for a number of cases when invisible contents are present in the cell.

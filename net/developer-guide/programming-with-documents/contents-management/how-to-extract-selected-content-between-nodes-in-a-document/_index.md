@@ -7,7 +7,7 @@ url: /net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## Extract Content Overview and Code
 
-A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are a few possible situations and therefore numerous different node types to consider when extracting content. For instance, you may want to extract content between:
+A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are multiple possible situations and therefore numerous different node types to consider when extracting content. For instance, you may want to extract content between:
 
 - Two specific paragraphs in the document.
 - Specific runs of text.
@@ -21,10 +21,10 @@ Often the goal of extracting this content is to duplicate or save it separately 
 
 - Copy it to a separate document.
 - Rendered a specific portion of a document to PDF or an image.
-- Duplicate the content in the document a few times.
+- Duplicate the content in the document many times.
 - Work with this content separate from the rest of the document.
 
-This is easy to achieve using Aspose.Words and the code implementation below. This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just several demonstrations of the numerous possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words/8).
+This is easy to achieve using Aspose.Words and the code implementation below. This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just several demonstrations of the a few possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words/8).
 
 ### The Solution
 
@@ -56,7 +56,7 @@ The implementation of the **ExtractContent** method is found below . This method
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-Common-CommonExtractContent.cs" >}}
 
-We will also define a custom method to easily generate a document from extracted nodes. This method is used in several of the scenarios below and simply creates a new document and imports the extracted content into it. Below method takes a list of nodes and inserts them into a new document.
+We will also define a custom method to easily generate a document from extracted nodes. This method is used in multiple of the scenarios below and simply creates a new document and imports the extracted content into it. Below method takes a list of nodes and inserts them into a new document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-Common-CommonGenerateDocument.cs" >}}
 
@@ -66,19 +66,19 @@ These helper methods below are internally called by the main extraction method. 
 
 ## Extract Content Between Paragraphs
 
-This shows how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7 th and 11 th paragraph. The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.GetChild](http://www.aspose.com/api/net/words/aspose.words/compositenode) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document. Below example demonstrates how to extract the content between specific paragraphs using the ExtractContent method above. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
+This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7 th and 11 th paragraph. The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.GetChild](http://www.aspose.com/api/net/words/aspose.words/compositenode) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document. Below example shows how to extract the content between specific paragraphs using the ExtractContent method above. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenParagraphs-ExtractContentBetweenParagraphs.cs" >}}
 
 ## Extract Content Between Different Types of Nodes
 
-We can extract content between any combinations of block level or inline nodes. In this scenario below we will extract the content between first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.FirstParagraph](http://www.aspose.com/api/net/words/aspose.words/story/properties/firstparagraph) and [CompositeNode.GetChild](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchild) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original. Below example shows how to extract the content between a paragraph and table using the ExtractContent method. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
+We can extract content between any combinations of block level or inline nodes. In this scenario below we will extract the content between first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.FirstParagraph](http://www.aspose.com/api/net/words/aspose.words/story/properties/firstparagraph) and [CompositeNode.GetChild](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchild) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original. Below example demonstrates how to extract the content between a paragraph and table using the ExtractContent method. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenBlockLevelNodes-ExtractContentBetweenBlockLevelNodes.cs" >}}
 
 ## Extract Content Between Paragraphs Based on Style
 
-You may need to extract the content between paragraphs of the same or different style, such as between paragraphs marked with heading styles. The code below demonstrates how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
+You may need to extract the content between paragraphs of the same or different style, such as between paragraphs marked with heading styles. The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
 
 In a proper implementation this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document. Below example shows how to extract content between paragraphs with specific styles using the ExtractContent method. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
 
@@ -86,7 +86,7 @@ In a proper implementation this should be run in a loop to extract content betwe
 
 ## Extract Content Between Specific Runs
 
-You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below shows how to extract specific text in-between the same **Paragraph** node. Below example shows how to extract content between specific runs of the same paragraph using the ExtractContent method. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
+You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below demonstrates how to extract specific text in-between the same **Paragraph** node. Below example demonstrates how to extract content between specific runs of the same paragraph using the ExtractContent method. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenRuns-ExtractContentBetweenRuns.cs" >}}
 
@@ -100,7 +100,7 @@ In our case let’s set the last parameter passed to the **ExtractContent** meth
 
 ## Extract Content from a Bookmark
 
-In a document the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark. Below example shows how to extract the content referenced a bookmark using the ExtractContent method. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
+In a document the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark. Below example demonstrates how to extract the content referenced a bookmark using the ExtractContent method. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Extract%20content.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenBookmark-ExtractContentBetweenBookmark.cs" >}}
 

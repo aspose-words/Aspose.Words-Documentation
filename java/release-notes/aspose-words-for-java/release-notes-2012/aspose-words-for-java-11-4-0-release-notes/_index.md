@@ -51,7 +51,7 @@ WORDSNET-6256 /rtl/ Support list labels in RTL paragraphs.
 
 WORDSNET-6288
 
-WORDSNET-5311 Create an article which shows how to receive warnings when a font is substituted.
+WORDSNET-5311 Create an article which demonstrates how to receive warnings when a font is substituted.
 
 WORDSNET-6353 Test Aspose.Words with Visual Studio 2011.
 

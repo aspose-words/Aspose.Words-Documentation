@@ -78,13 +78,13 @@ There are 116 improvements and fixes in this regular monthly release. The most n
 | WORDSNET-21218 | Left Indent lost after Appending Document | Bug |
 | WORDSNET-21411 | Incorrect rendering of charts that contains series without Y-values (only   X-valyes) | Bug |
 | WORDSNET-21413 | Character spacing problem for Wingdings, Symbol \| RTF to PDF Conversion | Bug |
-| WORDSNET-19312 | System.InvalidOperationException - too many styles in the document | Bug |
+| WORDSNET-19312 | System.InvalidOperationException - too several styles in the document | Bug |
 | WORDSNET-19787 | Document.Save does not save MHTML to PDF | Bug |
 | WORDSNET-21230 | Table border size is increased after joining documents | Bug |
 | WORDSNET-20709 | Unable to Extract Content from Bookmarks | Bug |
 | WORDSNET-21232 | Long hand format lost if value over a billion | Bug |
 | WORDSNET-20752 | MHTML to PDF fails to complete | Bug |
-| WORDSNET-21236 | Calling UpdateFields before Rendering causes many Error\! Reference source   not found | Bug |
+| WORDSNET-21236 | Calling UpdateFields before Rendering causes several Error\! Reference source   not found | Bug |
 | WORDSNET-20767 | Table row is pushed in MW and not pushed in AW | Bug |
 | WORDSNET-20773 | Incorrect comparison of Words | Bug |
 | WORDSNET-20776 | Document can't be loaded | Bug |
@@ -248,7 +248,7 @@ Document doc = new Document("in.html", loadOptions);
 
 Related issue: WORDSNET-20913
 
-We have implemented extension point for condition evaluation. This allows users to implement custom evaluation for the IF and COMPARE fields.
+We have implemented extension point for condition evaluation. This enables users to implement custom evaluation for the IF and COMPARE fields.
 
 {{< highlight csharp >}}
 /// <summary>
@@ -302,7 +302,7 @@ public sealed class ComparisonEvaluationResult
 }
 
 /// <summary>
-/// When implemented enables to override default comparison expressions evaluation for the <see cref="FieldIf"/> and <see cref="FieldCompare"/> fields.
+/// When implemented allows to override default comparison expressions evaluation for the <see cref="FieldIf"/> and <see cref="FieldCompare"/> fields.
 /// </summary>
 /// <seealso cref="FieldOptions.ComparisonExpressionEvaluator"/>
 public interface IComparisonExpressionEvaluator

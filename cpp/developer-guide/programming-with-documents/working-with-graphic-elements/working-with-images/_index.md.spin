@@ -1,11 +1,11 @@
-﻿---
+---
 title: Working with Images
 type: docs
 weight: 150
 url: /cpp/working-with-images/
 ---
 
-## How to Extract Images from a Document
+## {How to Extract|Extract} Images from a Document {#how-to-extract-images-from-a-document}
 
 All images are stored inside Shape nodes in a Document. To extract all images or images having a specific type from the document, follow these steps:
 

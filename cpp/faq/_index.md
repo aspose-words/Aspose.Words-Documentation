@@ -137,7 +137,7 @@ You can find more detailed information about converting a document in the [“Co
 
 It is very easy as well, just load a document to the model and save it to any supported format.
 
-The following code example shows the process of converting a DOCX file to PDF:
+The following code example demonstrates the process of converting a DOCX file to PDF:
 
 {{< highlight csharp >}}
 // Load the document from disk.
@@ -158,7 +158,7 @@ You can find more detailed information about programming with documents in the [
 
 **Q: How to split a document page by page?**
 
-Aspose.Words allows you to split a multi-page document page by page.
+Aspose.Words enables you to split a multi-page document page by page.
 
 The following code example shows how to divide a document and save each page as a separate document:
 
@@ -181,7 +181,7 @@ for (int page = 0; page < pageCount; page++)
 
 You can try to open an encrypted document without a password, which should lead to an exception.
 
-The following code example shows how to open an encrypted document with a password:
+The following code example demonstrates how to open an encrypted document with a password:
 
 {{< highlight csharp >}}
 // Create a document.

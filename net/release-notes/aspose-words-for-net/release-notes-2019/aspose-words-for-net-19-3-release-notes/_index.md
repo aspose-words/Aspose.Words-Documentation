@@ -187,13 +187,13 @@ public class TxtListIndentation
 
 
 
-It has two public properties for specifying how several and which character to use for indentation of list levels:
+It has two public properties for specifying how a few and which character to use for indentation of list levels:
 
 
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets or sets how many <see cref="Character"/> to use as indentation per one list level.
+/// Gets or sets how a few <see cref="Character"/> to use as indentation per one list level.
 /// The default value is 0, that means no indentation.
 /// </summary>
 public int Count
@@ -279,7 +279,7 @@ public ParagraphAlignment TickLabelAlignment
 
 
 
-When axis tick labels are multi-line, MS Word aligns them to the center by default. The property enables for changing this behaviour.
+When axis tick labels are multi-line, MS Word aligns them to the center by default. The property allows for changing this behaviour.
 
 #### UseCase:
 

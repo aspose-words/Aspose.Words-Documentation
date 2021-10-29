@@ -36,7 +36,7 @@ The w:dirty is a field-level attribute that will refresh only the field you spec
 
 ## Update LastSavedTime Property Before Saving
 
-You can use SaveOptions.UpdateLastSavedTimeProperty property whether to update the corresponding built-in document property (BuiltInDocumentProperties.LastSavedTime) on document save. Following example demonstrates how to update this property. 
+You can use SaveOptions.UpdateLastSavedTimeProperty property whether to update the corresponding built-in document property (BuiltInDocumentProperties.LastSavedTime) on document save. Following example shows how to update this property. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-WorkingWithSaveOptions-UpdateLastSavedTimeProperty.cs" >}}
 
@@ -80,7 +80,7 @@ As with **Document.UpdateFields** this may invoke the document layout to be buil
 
 ### Rebuilding TOC Fields No Longer Requires UpdatePageLayout to be Called
 
-As explained earlier, all fields are now updated using Document.UpdateFields. This now means a more concise and clearer way to update the fields in a document. This also means in situations such as updating a TOC field you no longer require any call to Document.UpdatePageLayout. All work is handled within the Document.UpdateFields call. Below examples demonstrates how to completely rebuild TOC fields in the document by invoking field update.
+As explained earlier, all fields are now updated using Document.UpdateFields. This now means a more concise and clearer way to update the fields in a document. This also means in situations such as updating a TOC field you no longer require any call to Document.UpdatePageLayout. All work is handled within the Document.UpdateFields call. Below examples shows how to completely rebuild TOC fields in the document by invoking field update.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
 
@@ -94,7 +94,7 @@ Sometimes it is necessary to remove a field from the document. This may occur wh
 
 This is often required when you wish to save your document as a static copy, for example for when sending as an attachment in an e-mail. The conversion of fields such as a DATE or TIME field to static text will enable them to display the same date as when you sent them. In some situations you may need to remove conditional IF fields from your document and replace them with the most recent text result instead. For example, converting the result of an IF field to static text so it will no longer dynamically change its value if the fields in the document are updated.
 
-For example, the diagram below demonstrates how an “IF” field is stored in a document. The text is encompassed by the special field nodes [FieldStart](http://www.aspose.com/api/net/words/aspose.words.fields/fieldstart) and [FieldEnd](http://www.aspose.com/api/net/words/aspose.words.fields/fieldend). The [FieldSeparator](http://www.aspose.com/api/net/words/aspose.words.fields/fieldseparator) node separates the text inside the field into the field code and field result. The field code is what defines the general behavior of the field while the field result stores the most recent result when this field is updated by either by Microsoft Word or Aspose.Words. The field result is what is stored in the field and displayed in the document when viewed. 
+For example, the diagram below shows how an “IF” field is stored in a document. The text is encompassed by the special field nodes [FieldStart](http://www.aspose.com/api/net/words/aspose.words.fields/fieldstart) and [FieldEnd](http://www.aspose.com/api/net/words/aspose.words.fields/fieldend). The [FieldSeparator](http://www.aspose.com/api/net/words/aspose.words.fields/fieldseparator) node separates the text inside the field into the field code and field result. The field code is what defines the general behavior of the field while the field result stores the most recent result when this field is updated by either by Microsoft Word or Aspose.Words. The field result is what is stored in the field and displayed in the document when viewed. 
 
 ![update-remove-a-field-aspose-words](updating-and-removing-a-field_1.png)
 
@@ -102,23 +102,23 @@ The structure can also be seen below in hierarchical form using the [demo proje
 
 ![update-remove-a-field-aspose-words-2](updating-and-removing-a-field_2.png)
 
-Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across a few pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
+Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across numerous pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
 
-Below code example shows how to replace the field with its most recent result.
+Below code example demonstrates how to replace the field with its most recent result.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-FieldsHelper-FieldsHelper.cs" >}}
 
-The ConvertFieldsToStaticText method accepts two parameters, a CompositeNode and a FieldType enumeration. Being able to pass any composite node to this method enables you to convert fields to static text in specific parts of your document only.
+The ConvertFieldsToStaticText method accepts two parameters, a CompositeNode and a FieldType enumeration. Being able to pass any composite node to this method allows you to convert fields to static text in specific parts of your document only.
 
 For example you can pass a Document object and convert the fields of the specified type from the entire document to static text, or you could pass the [Body](http://www.aspose.com/api/net/words/aspose.words/body) object of a section and convert only fields found within that body.
 
-When passing a block level node such as a [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) , be aware that in some cases fields can span across numerous paragraphs. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
+When passing a block level node such as a [Paragraph](http://www.aspose.com/api/net/words/aspose.words/paragraph) , be aware that in some cases fields can span across multiple paragraphs. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
 
 The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. Below example demonstrates how to convert all fields of a specified type in a document to static text. You can download template file of below examples from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Linked%20fields.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInDocument-ConvertFieldsInDocument.cs" >}}
 
-Below example demonstrates how to convert all fields of a specified type in a body of a document to static text.
+Below example shows how to convert all fields of a specified type in a body of a document to static text.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInBody-ConvertFieldsInBody.cs" >}}
 

@@ -10,7 +10,7 @@ Make sure your machine meets the [system requirements](https://docs.aspose.com/w
 
 This article explains how to instal Aspose.Words for .NET on your computer.
 
-## Install or Update Aspose.Words for .NET using NuGet Packages {#install-or-update-aspose-words-for-net-using-nuget}
+## Install or Update Aspose.Words for .NET using Manage NuGet Packages {#install-or-update-aspose-words-for-net-using-nuget}
 
 NuGet is the easiest way to download and install [Aspose.Words for .NET](https://www.nuget.org/packages/Aspose.Words/) APIs. To do this, follow these steps:
 

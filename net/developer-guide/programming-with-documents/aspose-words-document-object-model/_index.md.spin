@@ -10,11 +10,11 @@ The Aspose.Words Document Object Model (DOM) is an in-memory representation of a
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
-## Create a {DOM|Document Object|Document Objects} Tree {#create-a-document-objects-tree}
+## Create a {Document Object|DOM|Document Objects} Tree {#create-a-document-objects-tree}
 
 When a document is read into the Aspose.Words DOM, then an object tree is built and different types of elements of the source document have their own DOM tree objects with various properties.
 
-### Build {a Tree of Document Nodes|Document Nodes Tree} {#build-document-nodes-tree}
+### Build {Document Nodes Tree|a Tree of Document Nodes} {#build-document-nodes-tree}
 
 When Aspose.Words reads a Word document into memory, it creates objects of different types that represent various document elements. Every run of a text, paragraph, table, or a section is a node, and even the document itself is a node. Aspose.Words defines a class for every document node type.
 
@@ -43,7 +43,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 [Document](https://apireference.aspose.com/words/net/aspose.words/document), [Section](https://apireference.aspose.com/words/net/aspose.words/section), [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph), [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape), [Run](https://apireference.aspose.com/words/net/aspose.words/run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
-### Get a {Type of Nodes|Node Type} {#get-a-node-type}
+### Get a {Node Type|Type of Nodes} {#get-a-node-type}
 
 Although the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/net/aspose.words/node/properties/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 

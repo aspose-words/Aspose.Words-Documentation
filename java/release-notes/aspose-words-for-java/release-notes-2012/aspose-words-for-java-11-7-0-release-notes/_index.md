@@ -46,7 +46,7 @@ WORDSNET-4433 /:5/ Decimal TabStops within Cell are ignored upon rendering.
 
 WORDSNET-4564 INCLUDEPICTURE Field does not show up in out document.
 
-WORDSNET-5372 Create a video which shows how to build a table from scratch.
+WORDSNET-5372 Create a video which demonstrates how to build a table from scratch.
 
 WORDSNET-5550 /hidden/ Support hidden table rows and cells in Layout.
 
@@ -343,7 +343,7 @@ WORDSNET-6182 Incorrect parameter is passed to IMailMergeDataSource when using n
 
 WORDSNET-6183 Shape borders are rendering incorrectly in HTML.
 
-WORDSNET-6184 Table in DOC is rendering a few times in PDF/Tiff.
+WORDSNET-6184 Table in DOC is rendering several times in PDF/Tiff.
 
 WORDSNET-6223 MergeFields inside header don't show values in PDF.
 
@@ -353,13 +353,13 @@ WORDSNET-6275 Extra blank page problem occurs while converting doc to Pdf Format
 
 WORDSNET-6311 REF field with CardText or Number formatting switches is updated incorrectly.
 
-WORDSNET-6352 A table with too a few columns cannot be opened when saving to Word formats.
+WORDSNET-6352 A table with too multiple columns cannot be opened when saving to Word formats.
 
 WORDSNET-6399 Extra empty page is added to the PDF document after conversion from Doc file.
 
 WORDSNET-6401 WordArt shape fill is distorted while rendering path gradient shape.
 
-WORDSNET-6467 Appending documents into empty (new Document()) stretches the contents of one page into several pages.
+WORDSNET-6467 Appending documents into empty (new Document()) stretches the contents of one page into multiple pages.
 
 WORDSNET-6478 UICompat97To2003 is not set for rtf files.
 

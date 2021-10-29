@@ -39,7 +39,7 @@ This page contains release notes for [Aspose.Words for Java 20.4](https://reposi
 |WORDSNET-20042|Check whether RTF format supports placing annotations at block/cell/row level|Enhancement|
 |WORDSJAVA-2300|Can't subclass from StreamFontSource|Bug|
 |WORDSJAVA-2309|Logging level of Java Advanced Imaging warning on Tomcat|Bug|
-|WORDSJAVA-2332|Check several vulnerabilities in Aspose.Words for Java code|Bug|
+|WORDSJAVA-2332|Check a few vulnerabilities in Aspose.Words for Java code|Bug|
 |WORDSJAVA-2338|License class contains setLicenseInternal(zz49 licenseStream)|Bug|
 |WORDSJAVA-2340|TableSubstitutionRule.save() method with InputStream arg instead of OutputStream|Bug|
 |WORDSJAVA-2342|Change setPageStream(InputStream) to setPageStream(OutputStream) in PageSavingArgs class|Bug|
@@ -263,7 +263,7 @@ doc.Save(pdfPath, saveOptions);
 
 For the Advanced mode to work correctly, it is necessary that the scale in the system be set to 100%.
 
-The following table shows the differences between the modes:
+The following table demonstrates the differences between the modes:
 
 |The effect|Basic|Advanced|
 | :- | :- | :- |
@@ -437,7 +437,7 @@ Added image interpolation option for PDF rendering which can be specified by Pdf
 /// <remarks>
 /// <para>
 /// When the resolution of a source image is significantly lower than that of the output device,
-/// each source sample covers many device pixels. As a result, images can appear jaggy or blocky.
+/// each source sample covers numerous device pixels. As a result, images can appear jaggy or blocky.
 /// These visual artifacts can be reduced by applying an image interpolation algorithm during rendering.
 /// Instead of painting all pixels covered by a source sample with the same color, image interpolation
 /// attempts to produce a smooth transition between adjacent sample values.

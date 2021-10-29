@@ -33,7 +33,7 @@ Aspose.Words can render any document into SWF format. The resulting SWF contains
 
 ## Footnotes with Custom Reference Marks Supported
 
-This was requested by many customers. Footnotes with custom reference marks are now fully supported in DOC, DOCX, WML, ODT. Partially supported in RTF (only first character of the custom reference mark). Not yet supported in rendering - will render with auto numbering.
+This was requested by numerous customers. Footnotes with custom reference marks are now fully supported in DOC, DOCX, WML, ODT. Partially supported in RTF (only first character of the custom reference mark). Not yet supported in rendering - will render with auto numbering.
 
 ## New Documentation Articles
 

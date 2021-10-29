@@ -68,7 +68,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-9269 |Character in some words are rendering with different font formatting in HtmlFixed |Bug |
 |WORDSNET-9270 |A tiff image is incorrectly imported from Aspose.Email generated MHTML file |Bug |
 |WORDSNET-9271 |Relative position of nested floating Text Boxes is unexpected when rendering |Bug |
-|WORDSNET-9274 |Aspose.Words throws numerous warnings when loading DigitalSignature in DOCX |Bug |
+|WORDSNET-9274 |Aspose.Words throws several warnings when loading DigitalSignature in DOCX |Bug |
 |WORDSNET-9275 |DocProperty field values are not preserved during open/save a DOCX |Bug |
 |WORDSNET-9278 |Aspose.Words doesn't use a barcode font during rendering |Bug |
 |WORDSNET-9279 |Comment's alignment is changed from right to left after conversion from Docx to Pdf |Bug |
@@ -110,7 +110,7 @@ The following is a list of changes in this version of Aspose.Words.
 |WORDSNET-8168 |Images are moved towards right Page edge in PDF |Enhancement |
 |WORDSNET-8607 |An extra blank page is introduced in PDF |Enhancement |
 |WORDSNET-8771 |Add a remark to the API docs that SVG images are inserted as vector image format EMF |Enhancement |
-|WORDSNET-8910 |Implement a mechanism to apply a few depended CSS properties together to a model format |Enhancement |
+|WORDSNET-8910 |Implement a mechanism to apply numerous depended CSS properties together to a model format |Enhancement |
 |WORDSNET-9015 |Add support of :link selectors |Enhancement |
 |WORDSNET-9017 |Add support of "pre-line" and "pre-wrap" values of "white-space" css property. |Enhancement |
 |WORDSNET-9028 |Extra paragraph is added to table's cell so cell becomes higher in HTML import. |Enhancement |
@@ -174,7 +174,7 @@ We have added ResourceSavingArgs.ResourceFileUri property that enables users to 
 
 The new property ResourceSavingArgs.ResourceFileUri does not have the limitations of resource aliases and allows more control over URI construction. However, resource aliases are still useful in simple scenarios where resource saving callbacks introduce unnecessary overhead.h3. SaveOptions.DmlRenderingMode Introduced 
 
-Within a separate fix a new option SaveOptions.DmlRenderingMode was introduced. It allows users to control how DrawingML shapes are rendered to fixed page formats. It has two possible values: 
+Within a separate fix a new option SaveOptions.DmlRenderingMode was introduced. It enables users to control how DrawingML shapes are rendered to fixed page formats. It has two possible values: 
 
 ### TOC Field Switch to Omit Page Numbers is Supported
 

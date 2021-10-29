@@ -1,7 +1,7 @@
 ﻿---
 title: Web Applications Security When Loading External Resources
 type: docs
-description: "Aspose.Words for C++ enables you to load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."
+description: "Aspose.Words for C++ allows you to load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."
 weight: 50
 url: /cpp/web-applications-security-when-loading-external-resources/
 ---
@@ -49,7 +49,7 @@ Based on the length of time the service uses to process the document, the attack
 
 To solve the problems described above and to improve the security of web applications, you can control or disable loading of external resources using [IResourceLoadingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.i_resource_loading_callback).
 
-The following code example demonstrates how to disable external images loading:
+The following code example shows how to disable external images loading:
 
 **C++**
 {{< highlight cpp >}}

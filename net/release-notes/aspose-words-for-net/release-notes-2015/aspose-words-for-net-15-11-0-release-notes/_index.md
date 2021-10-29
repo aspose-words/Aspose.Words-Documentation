@@ -139,7 +139,7 @@ There are 127 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-11871|DocumentBuilder.InsertCheckBox inserts check box with incorrect default value|Feature|
 |WORDSNET-12298|UpdateFields should support XPath Expression in INCLUDETEXT field|Feature|
 |WORDSNET-12531|Replace underscore with space in bookmark name when it is exported to Pdf|Feature|
-|WORDSNET-12559|Need support for ruby with multiple base and top parts and each part having its own formatting.|Feature|
+|WORDSNET-12559|Need support for ruby with several base and top parts and each part having its own formatting.|Feature|
 |WORDSNET-12561|ReportingEngine.buildReport throws exception if child method on a missing object is called|Feature|
 |WORDSNET-12562|ReportingEngine.buildReport throws exception if a missing collection is used in foreach|Feature|
 |WORDSNET-12567|Text effect is lost after saving Docx to Pdf|Feature|

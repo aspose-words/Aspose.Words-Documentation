@@ -1,4 +1,4 @@
----
+﻿---
 title: Installation
 description: "Install Aspose.Words for C++ using Manage NuGet Packages or Package Manager Console, as well as manual installer."
 type: docs
@@ -10,7 +10,7 @@ Make sure your machine meets the [system requirements](https://docs.aspose.com/w
 
 This article explains how to instal Aspose.Words for C++ on your computer.
 
-## Install or Update Aspose.Words for C++ using Manage NuGet Packages
+## Install or Update Aspose.Words for C++ using Manage NuGet Packages {#install-or-update-aspose-words-for-cpp-using-nuget}
 
 NuGet is the easiest way to download and install [Aspose.Words for C++](https://www.nuget.org/packages/Aspose.Words.Cpp) APIs. To do this, follow these steps:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compare Documents
 type: docs
 description: "Aspose.Words for C++ {allows|enables} you to compare two documents in any supported formats and {shows|demonstrates} content changes. You can apply advanced options when comparing."
@@ -24,7 +24,7 @@ Note that the comparison method, described below, is used in this tool to ensure
 
 {{% /alert %}}
 
-## Limitations and Supported File Formats
+## Limitations and Supported {File|Document} Formats {#limitations-and-supported-file-formats}
 
 Comparing documents is a very complex feature. There are varied parts of content combination that need to be analyzed to recognize all differences. The reason for this complexity is due to the fact that Aspose.Words aims to get the same comparison results as the Microsoft Word comparison algorithm.
 
@@ -36,7 +36,7 @@ Note that you can compare any two documents within the [supported file formats](
 
 {{% /alert %}}
 
-## Compare Two Documents
+## {Compare Two|How to Compare} Documents {#compare-two-documents}
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
@@ -52,7 +52,7 @@ The following code example {shows|demonstrates} how to simply apply the Compare 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-CompareDocument-CompareWhenDocumentHasRevisions.cpp" >}}
 
-## Specify Advanced Comparing Properties
+## Specify Advanced {Comparison Options|Comparing Properties} {#specify-advanced-comparing-properties}
 
 There are {many|multiple|several|a few|numerous} different properties of the [CompareOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options) class which you can apply when you want to compare documents.
 

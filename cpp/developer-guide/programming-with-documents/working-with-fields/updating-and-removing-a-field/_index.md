@@ -19,7 +19,7 @@ Sometimes it is necessary to remove a field from the document. This may occur wh
 
 ## Update LastSavedTime Property Before Saving
 
-You can use SaveOptions->UpdateLastSavedTimeProperty property whether to update the corresponding built-in document property (BuiltInDocumentProperties->LastSavedTime) on document save. Following example shows how to update this property. 
+You can use SaveOptions->UpdateLastSavedTimeProperty property whether to update the corresponding built-in document property (BuiltInDocumentProperties->LastSavedTime) on document save. Following example demonstrates how to update this property. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithSaveOptions-UpdateLastSavedTimeProperty.cpp" >}}
 

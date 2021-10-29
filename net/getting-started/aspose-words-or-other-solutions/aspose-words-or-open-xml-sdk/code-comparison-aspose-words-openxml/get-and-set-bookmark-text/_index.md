@@ -1,6 +1,6 @@
 ﻿---
 title: Get and Set Bookmark Text
-description: "Aspose.Words for .NET allows you to get and set bokmark textin a document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET enables you to get and set bokmark textin a document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 130
 url: /net/get-and-set-bookmark-text/

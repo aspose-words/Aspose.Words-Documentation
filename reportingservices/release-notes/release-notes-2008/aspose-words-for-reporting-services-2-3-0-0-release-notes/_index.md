@@ -21,4 +21,4 @@ As usual, all issues reported by the users since the previous official release h
   Product documentation reworked and updated 
 - NullReferenceException thrown for some reports
   Order of matrix columns is reversed in some rare cases
-  Extra space appear in some documents with tables spread over multiple pages 
+  Extra space appear in some documents with tables spread over numerous pages 

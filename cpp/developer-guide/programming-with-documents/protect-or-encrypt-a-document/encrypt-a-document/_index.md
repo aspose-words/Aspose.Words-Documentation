@@ -1,6 +1,6 @@
 ﻿---
 title: Encrypt a Document
-description: "Aspose.Words for C++ enables you to encrypt your document using appropriate encryption algorithms for specific document formats."
+description: "Aspose.Words for C++ allows you to encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20
 url: /cpp/encrypt-a-document/
@@ -35,7 +35,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 | ODT, OTT                                                     | ODF Encryption (Blowfish/AES)                               | ODF Encryption (AES256 + SHA256)             |
 | PDF                                                          | -                                                           | RC4 Encryption (40/128 bit)                  |
 
-The following code example shows how to encrypt a document with a password:
+The following code example demonstrates how to encrypt a document with a password:
 
 {{< highlight cpp >}}
 // Create a document.
@@ -57,7 +57,7 @@ In some cases, you may have an unreadable document and want to be sure that the 
 
 To detect if a document is encrypted and if a password is required, you can use the [IsEncrypted](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info#get_isencrypted_const) property of the [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info) class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
 
-The following code example demonstrates how to detect the document encryption:
+The following code example shows how to detect the document encryption:
 
 {{< highlight cpp >}}
 // Create a document.
@@ -78,7 +78,7 @@ ASSERT_TRUE(info->get_IsEncrypted());
 
 When we have made sure that a document is encrypted, we can try to open this document without a password, which should lead to an exception.
 
-The following code example shows how to try opening an encrypted document without a password:
+The following code example demonstrates how to try opening an encrypted document without a password:
 
 {{< highlight cpp >}}
 // Create a document.

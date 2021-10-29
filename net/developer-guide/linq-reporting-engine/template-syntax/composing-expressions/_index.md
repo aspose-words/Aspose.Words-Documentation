@@ -6,7 +6,7 @@ url: /net/composing-expressions/
 aliases: [/net/template-syntax/#composing-expressions]
 ---
 
-Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with multiple restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
+Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with several restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
 
 ## Using Lexical Tokens
 
@@ -34,7 +34,7 @@ The feature of the omitting of an object identifier while accessing the object�
 
 ## Working with Types
 
-LINQ Reporting Engine allows you to use externally visible types in template expressions. A *visible type* is a public type with outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
+LINQ Reporting Engine enables you to use externally visible types in template expressions. A *visible type* is a public type with outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
 
 However, you can use the identifier of a visible type in template expressions only if the following additional requirements are met:
 
@@ -44,7 +44,7 @@ However, you can use the identifier of a visible type in template expressions on
 
 **Note –** Whereas using generic types' identifiers is forbidden in template expressions, you can use identifiers of nullable types in the shorthand "`T?`" form.
 
-Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by many keys. See "Appendix A. Enumeration Extension Methods" for the examples.
+Also, the engine allows you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by several keys. See "Appendix A. Enumeration Extension Methods" for the examples.
 
 ## Accessing Type Members
 
@@ -77,7 +77,7 @@ In addition to C# Language features, the engine provides the following extra fea
 
 ## Using Extension Methods
 
-LINQ Reporting Engine enables you to use the following built-in extension methods in template expressions:
+LINQ Reporting Engine allows you to use the following built-in extension methods in template expressions:
 
 - Extension methods mimicking the ones for `IEnumerable<T>` (see "Appendix A. Enumeration Extension Methods" for more information)
 - Extension methods for iteration variables (see "Using Extension Methods of Iteration Variables" for more information)
@@ -86,7 +86,7 @@ LINQ Reporting Engine enables you to use the following built-in extension method
 
 ## Using Operators
 
-The following table contains predefined and user-defined operators that LINQ Reporting Engine allows you to use in template expressions.
+The following table contains predefined and user-defined operators that LINQ Reporting Engine enables you to use in template expressions.
 
 <table class="using operators">
 	<tbody>
@@ -119,7 +119,7 @@ Also, the engine allows you to use lifted operators in template expressions.
 
 ## Using Lambda Functions
 
-LINQ Reporting Engine enables you to use lambda functions only as arguments of built-in enumeration extension methods in template expressions. See "Appendix A. Enumeration Extension Methods" for more information.
+LINQ Reporting Engine allows you to use lambda functions only as arguments of built-in enumeration extension methods in template expressions. See "Appendix A. Enumeration Extension Methods" for more information.
 
 **Note –** Lambda functions declared within template expressions are not interchangeable with delegates. Thus, you can not pass delegates as arguments to built-in enumeration extension methods.
 
@@ -127,11 +127,11 @@ You can use both explicit and implicit lambda function signatures in template ex
 
 ## Working with Traditional Mail Merge Data Sources
 
-LINQ Reporting Engine enables you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
+LINQ Reporting Engine allows you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
 
 ### Working with DataSet objects
 
-LINQ Reporting Engine enables you to access `DataTable` objects contained within a particular `DataSet` instance by table names using the “.” operator in template expressions. That is, for example, given that `ds` is a `DataSet` instance that contains a `DataTable` named “Persons”, you can access the table using the following syntax.
+LINQ Reporting Engine allows you to access `DataTable` objects contained within a particular `DataSet` instance by table names using the “.” operator in template expressions. That is, for example, given that `ds` is a `DataSet` instance that contains a `DataTable` named “Persons”, you can access the table using the following syntax.
 
 {{< highlight csharp >}}
   ds.Persons
@@ -151,7 +151,7 @@ Also, you can normally apply enumeration extension methods (see "Appendix A. Enu
 
 ### Working with DataRow and DataRowView Objects
 
-LINQ Reporting Engine enables you to access a data associated with a particular `DataRow` or `DataRowView` instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
+LINQ Reporting Engine allows you to access a data associated with a particular `DataRow` or `DataRowView` instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
 
 |Data Kind|Identifier|Examples of Template Expressions|
 | :- | :- | :- |
@@ -163,7 +163,7 @@ LINQ Reporting Engine enables you to access a data associated with a particular 
 
 To determine parent-child relationships for a particular `DataTable` instance, the engine uses [DataRelation](http://msdn.microsoft.com/en-us/library/system.data.datarelation\(v=vs.110\).aspx) objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
 
-**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
+**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with a few relations to the same table.
 
 ### Working with IDataReader Implementors
 
@@ -173,7 +173,7 @@ However, you can not use `IDataReader` implementors in template expressions in c
 
 ### Working with IDataRecord Implementors
 
-LINQ Reporting Engine allows you to access the field values of a particular `IDataRecord` implementor by field names using the "." operator in template expressions. To use this feature, one of the following conditions must be met:
+LINQ Reporting Engine enables you to access the field values of a particular `IDataRecord` implementor by field names using the "." operator in template expressions. To use this feature, one of the following conditions must be met:
 
 - The `IDataRecord` implementor represents an iteration variable upon enumerating an `IDataReader` implementor (see "Outputting Sequential Data" for more information).
 - The `IDataRecord` implementor does not implement the `IDataReader` interface.

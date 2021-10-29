@@ -11,7 +11,7 @@ Aspose.Words provides TableStyle inherited from Style class. The TableStyle 
 
 ## Create a Table Style
 
-A table style can be created using the StyleCollection.Add method. The code example given below shows how to create a table style.
+A table style can be created using the StyleCollection.Add method. The code example given below demonstrates how to create a table style.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-CreateTableStyle.cpp" >}}
 

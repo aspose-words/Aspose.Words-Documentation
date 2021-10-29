@@ -54,7 +54,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 * Tables are represented with the Table class
 * Links are represented as the FieldHyperlink class
 
-The following example shows how to create a document with some styles and save it to Markdown:
+The following example demonstrates how to create a document with some styles and save it to Markdown:
 
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.cs" >}}
@@ -65,7 +65,7 @@ The result of this code example is shown below.
 
 ## Useful Tips
 
-There are many nuances and interesting cases, having learned which you can work with Markdown files more flexibly and conveniently. For example, there is the ability to use:
+There are several nuances and interesting cases, having learned which you can work with Markdown files more flexibly and conveniently. For example, there is the ability to use:
 
 * SetextHeading that allows you to create multi-line headings in Markdown, while regular headings in Markdown can only be single-line. SetextHeading is based on a "Heading N" style, and its level can only be 1 or 2. If N in "Heading N" is greater than or equal to 2, then the corresponding SetextHeading is based on "Heading 2", otherwise on "Heading 1".
 * Different markers for the first level of bulleted lists ("-", "+" or "*", the default marker is “-”.) and different types of numbering for ordered lists ("." or ")", the default marker is ".").

@@ -33,7 +33,7 @@ A field which is inserted using DocumentBuilder.insertField returns a Field obje
 
 The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use LoadOptions.setUpdateDirtyFields() property to specify whether to update the fields with the dirty attribute. When the value of LoadOptions.setUpdateDirtyFields() is set to *true*, all fields having *true* value for Field.IsDirty or FieldChar.IsDirty property are updated on document load. 
 
-The following example demonstrates how to update fields having the dirty attribute.
+The following example shows how to update fields having the dirty attribute.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
 
@@ -127,7 +127,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example shows how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example demonstrates how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertIncludeFieldWithoutDocumentBuilder.java" >}}
 
@@ -137,7 +137,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 { TOA [Switches ] }
 
-Please refer to [FieldToa Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldToa). The following code example demonstrates how to Add a TOA field using DOM to a Paragraph in Document.
+Please refer to [FieldToa Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldToa). The following code example shows how to Add a TOA field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAFieldWithoutDocumentBuilder.java" >}}
 
@@ -150,7 +150,7 @@ Sometimes it is necessary to remove a field from the document. This may occur wh
 
 ## How to Apply Custom Formatting to Field Result
 
-Aspose.Words provides API for custom formatting of field's result. You can implement IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. Following code example shows how to apply custom formatting for field's result.
+Aspose.Words provides API for custom formatting of field's result. You can implement IFieldResultFormatter interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal. Following code example demonstrates how to apply custom formatting for field's result.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormatFieldResult-FormatFieldResult.java" >}}
 
@@ -168,7 +168,7 @@ If you want to evaluate IF condition after mail merge, you can use FieldIf.Evalu
 
 If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. 
 
-The code example shows how to insert empty field in the document.
+The code example demonstrates how to insert empty field in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
@@ -180,6 +180,6 @@ COMPARE field compares two values and returns the numeric value 1 if the compari
 
 ### Insert IF Field in Word Document
 
-IF field can be used to evaluate arguments conditionally. The following example shows how to add IF fields by using DocumentBuilder to a Word Document:
+IF field can be used to evaluate arguments conditionally. The following example demonstrates how to add IF fields by using DocumentBuilder to a Word Document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}

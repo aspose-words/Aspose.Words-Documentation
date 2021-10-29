@@ -1,13 +1,13 @@
 ﻿---
 title: Clean Up Before or During a Mail Merge Operation
 type: docs
-description: "Aspose.Words for C++ allows you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation."
+description: "Aspose.Words for C++ enables you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation."
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /cpp/clean-up-before-or-during-mail-merge/
 ---
 
-Aspose.Words enables you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation. This section will explain how to delete merged fields and how to set up a removing option.
+Aspose.Words allows you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation. This section will explain how to delete merged fields and how to set up a removing option.
 
 ## Delete Merged Fields
 
@@ -50,7 +50,7 @@ A paragraph that only includes merge fields will be empty when the mail merge pr
 
 In both situations the **RemoveEmptyParagraphs** option will automatically remove empty paragraphs from the document. Also, it will remove the TableStart and TableEnd merge fields if the rest of the paragraph is empty.
 
-The following code example demonstrates how to remove the empty paragraphs:
+The following code example shows how to remove the empty paragraphs:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveEmptyParagraphs.cp" >}}
 
@@ -62,7 +62,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Remove Unused Fields
 
-Aspose.Words enables you to remove any unused mail merge fields by assigning the **RemoveUnusedFields** flag to **CleanupOptions**. This option will remove merge fields that don't have the corresponding data in the data source.
+Aspose.Words allows you to remove any unused mail merge fields by assigning the **RemoveUnusedFields** flag to **CleanupOptions**. This option will remove merge fields that don't have the corresponding data in the data source.
 
 The following code example shows how to remove any unused merge fields from a document automatically during a mail merge operation:
 
@@ -80,8 +80,8 @@ The following code example demonstrates how to remove fields that contain merge 
 
 ### Remove Empty Table Rows
 
-Aspose.Words enables you to remove empty table rows by assigning the **RemoveEmptyTableRows** flag to **CleanupOptions**. This option will remove table rows that contain empty merge fields.
+Aspose.Words allows you to remove empty table rows by assigning the **RemoveEmptyTableRows** flag to **CleanupOptions**. This option will remove table rows that contain empty merge fields.
 
-The following code example demonstrates how to remove empty table rows that contain mail merge regions from a document:
+The following code example shows how to remove empty table rows that contain mail merge regions from a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveEmptyTableRows.cpp" >}}

@@ -20,9 +20,9 @@ Aspose.Words is incredible software that developers can try before purchasing.
 
 ### Free Trial
 
-The evaluation version is the same as the purchased one – the [Trial version](https://downloads.aspose.com/words) simply becomes licensed when you add a few lines of code to apply the license.
+The evaluation version is the same as the purchased one – the [Trial version](https://downloads.aspose.com/words) simply becomes licensed when you add many lines of code to apply the license.
 
-The Trial version of Aspose.Words without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to a few hundred paragraphs.
+The Trial version of Aspose.Words without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to numerous hundred paragraphs.
 
 ### Temporary License
 
@@ -81,7 +81,7 @@ The following code example shows how to initialize a license from a folder:
 
 ##### Load a License from a Stream Object
 
-The following code example demonstrates how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method:
+The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-ApplyLicenseFromStream.h" >}}
 

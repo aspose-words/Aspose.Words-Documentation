@@ -7,9 +7,9 @@ weight: 30
 url: /net/integrating-aspose-words-with-azure-data-lake/
 ---
 
-Aspose.Words can be integrated with the Microsoft Azure Data Lake services: Azure Data Lake Analytics (ADLA) and Azure Data Lake Storage (ADLS). This allows you to combine the big data analytics capabilities of the Azure Data Lake cloud storage solution with the power of Aspose.Words, which allows your applications to programmatically perform various document processing tasks, such as generating, modifying, rendering, reading, or converting documents between different formats.
+Aspose.Words can be integrated with the Microsoft Azure Data Lake services: Azure Data Lake Analytics (ADLA) and Azure Data Lake Storage (ADLS). This enables you to combine the big data analytics capabilities of the Azure Data Lake cloud storage solution with the power of Aspose.Words, which allows your applications to programmatically perform various document processing tasks, such as generating, modifying, rendering, reading, or converting documents between different formats.
 
-This article explains how to configure a C# project in Visual Studio with ADLA, and provides an example that shows the integration of Aspose.Words and Azure Data Lake.
+This article explains how to configure a C# project in Visual Studio with ADLA, and provides an example that demonstrates the integration of Aspose.Words and Azure Data Lake.
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ VALUES
 
 In Visual Studio, create a new project by adding **C# Class Library (For U-SQL Application)** and add the NuGet reference to [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/).
 
-The following code example shows how to implement the IOutputter interface:
+The following code example demonstrates how to implement the IOutputter interface:
 
 **.NET**
 
@@ -248,7 +248,7 @@ Locate the file in the output folder on your ADLS and download it.
 
 <img src="locate-file-in-output-folder-adls.png" alt="locate-file-in-output-folder-adls-aspose-words-net" style="width:615px"/>
 
-The following screenshot demonstrates how the output document looks after executing the application.
+The following screenshot shows how the output document looks after executing the application.
 
 <img src="run-u-sql-job-in-azure.png" alt="run-u-sql-job-in-azure-aspose-words-net" style="width:615px"/>
 

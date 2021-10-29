@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Document Object Model (DOM)
 type: docs
 description: "Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. By using the Aspose.Words DOM classes, you can programmatically read, manipulate, and modify the content and formatting of a Word document with Java."
@@ -10,11 +10,11 @@ The Aspose.Words Document Object Model (DOM) is an in-memory representation of a
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
-## Create a Document Objects Tree
+## Create {Document Object|DOM|Document Objects} Tree {#create-a-document-objects-tree}
 
 When a document is read into the Aspose.Words DOM, then an object tree is built and different types of elements of the source document have their own DOM tree objects with various properties.
 
-### Build Document Nodes Tree
+### Build {Document Nodes Tree|a Tree of Document Nodes} {#build-document-nodes-tree}
 
 When Aspose.Words reads a Word document into memory, it creates objects of different types that represent various document elements. Every run of a text, paragraph, table, or section is a node, and even the document itself is a node. Aspose.Words defines a class for every document node type.
 
@@ -43,7 +43,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document), [Section](https://apireference.aspose.com/words/java/com.aspose.words/section), [Paragraph](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph), [Table](https://apireference.aspose.com/words/java/com.aspose.words/Table), [Shape](https://apireference.aspose.com/words/java/com.aspose.words/Shape), [Run](https://apireference.aspose.com/words/java/com.aspose.words/Run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
-### Get a Node Type
+### Get a {Node Type|Type of Nodes} {#get-a-node-type}
 
 Although the [Node](https://apireference.aspose.com/words/java/com.aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/java/com.aspose.words/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
@@ -53,7 +53,7 @@ The following example {shows|demonstrates} how to get a node type using the **No
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
-## Document Tree Navigation
+## {Document Tree|DOM} Navigation {#document-tree-navigation}
 
 Aspose.Words represents a document as a node tree, which {enables|allows} you to navigate between nodes. This section describes how to explore and navigate the document tree in Aspose.Words.
 
@@ -67,7 +67,7 @@ You can learn the sample project "Document Explorer" on the [Aspose.Words GitHub
 
 {{% /alert %}}
 
-### Document Nodes Relationships
+### {Document Node|Document Nodes} Relationships {#document-nodes-relationships}
 
 The nodes in the tree have relationships between them:
 

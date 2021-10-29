@@ -29,7 +29,7 @@ def append_bookmark_text()
     dst_node = dst_doc.getLastSection().getBody()
 
     # It is a good idea to use this import context object because multiple nodes are being imported.
-    # If you import numerous times without a single context, it will result in many styles created.
+    # If you import numerous times without a single context, it will result in a few styles created.
     import_format_mode = Rjb::import('com.aspose.words.ImportFormatMode')
     importer = Rjb::import("com.aspose.words.NodeImporter").new(src_doc, dst_doc, import_format_mode.KEEP_SOURCE_FORMATTING)
 

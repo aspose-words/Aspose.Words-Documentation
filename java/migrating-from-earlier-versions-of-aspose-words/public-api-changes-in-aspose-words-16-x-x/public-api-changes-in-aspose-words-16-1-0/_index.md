@@ -180,7 +180,7 @@ public boolean isSigned()
 public boolean isValid()
 {{< /highlight >}}
 
-Following code example shows how to use SignatureLine's properties.
+Following code example demonstrates how to use SignatureLine's properties.
 
 **Java**
 
@@ -229,7 +229,7 @@ public boolean getHyphenateCaps()
 public void setHyphenateCaps(boolean value)
 {{< /highlight >}}
 
-Following code example demonstrates how to use HyphenationOptions's properties. 
+Following code example shows how to use HyphenationOptions's properties. 
 
 **Java**
 
@@ -451,7 +451,7 @@ public void setPreserveUnusedTags(boolean value)
 
 ## A New Feature Added to Control Global Mail Merge Events
 
-We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This allows to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
+We have added the **IMailMergeCallback** interface and **MailMerge.MailMergeCallback** property. This enables to respond to different global mail merge events. Currently it supports a single event, **TagsReplaced**, which is fired when mustache fields are replaced with merge fields but not yet merged. In the future we may consider introducing other events.
 
 **Java**
 
