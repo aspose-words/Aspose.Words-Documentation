@@ -1,4 +1,4 @@
-﻿---
+---
 title: Types of Mail Merge Operation
 type: docs
 aliases:
@@ -21,7 +21,7 @@ The [MailMerge](https://apireference.aspose.com/words/cpp/class/aspose.words.mai
 
 {{% /alert %}}
 
-## Simple Mail Merge Operation
+## Simple {Mail Merge Operation|Mail Merge} {#simple-mail-merge-operation}
 
 A simple mail merge is used to fill the mail merge fields inside your template with the required data from your data source (single table representation). So it is similar to the classic mail merge in Microsoft Word.
 
@@ -29,7 +29,7 @@ You can add one or more merge fields in your template and then execute the simpl
 
 The main limitation of using this type is the whole document content will be repeated for each record in the data source.
 
-## How to Execute a Simple Mail Merge Operation
+## How to Execute {a Simple Mail Merge Operation|Simple Mail Merge Operation|Simple Mail Merge} {#how-to-execute-a-simple-mail-merge-operation}
 
 Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words {allows|enables} you to execute a simple mail merge operation using different [Execute](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) methods that accept various data objects as the data source.
 

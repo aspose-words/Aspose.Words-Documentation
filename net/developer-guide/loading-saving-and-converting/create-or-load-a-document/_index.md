@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Create or Load a Document"
 type: docs
 url: /net/create-or-load-a-document/

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Convert a Document"
 type: docs
 url: /net/convert-a-document/

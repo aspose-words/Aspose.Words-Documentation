@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Columns and Rows
 type: docs
 weight: 110
@@ -14,8 +14,6 @@ In both Word documents and in the Aspose.Words Document Object Model, there is n
 - It is possible to join tables with differing row formats and cell counts. 
 
 ![work-with-columns-aspose-words-java](working-with-columns-and-rows_1.png)
-
-
 
 Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells is represented in the same way that tables are represented in Aspose.Words. In the Aspose.Words Document Object Model a [Table](https://apireference.aspose.com/words/java/com.aspose.words/table) node is made up of [Row](https://apireference.aspose.com/words/java/com.aspose.words/row) and then [Cell](https://apireference.aspose.com/words/java/com.aspose.words/cell) nodes. There is also no native support for columns.
 
@@ -37,7 +35,7 @@ The following code example {shows|demonstrates} how to remove a column from a ta
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-removeAColumnFromATable.java" >}}
 
-## Specifying Rows to Repeat on Subsequent Pages as Header Rows
+## Specify Rows to Repeat {on Subsequent Pages|Them} as Header Rows {#specify-rows-to-repeat-on-subsequent-pages-as-header-rows}
 
 A table can specify certain starting rows of a table to be used as header rows. This means if the table spans over {many|multiple|several|a few|numerous} pages, these rows will be repeated at the top of the table for each page. In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”* . Using this option you can choose to repeat only a single row or {many|multiple|several|a few|numerous} rows in a table. In the case of a single header row, it must be the first row in the table. In addition when {multiple|several|a few|many|numerous} header rows are used then the header row each of these rows must be consecutive and these rows must be on one page.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compare Documents
 type: docs
 description: "Aspose.Words for Java {allows|enables} you to compare two documents in any supported formats and {shows|demonstrates} content changes. You can apply advanced options when comparing."
@@ -25,7 +25,7 @@ Note that the comparison method, described below, is used in this tool to ensure
 
 {{% /alert %}} 
 
-## Limitations and Supported File Formats
+## Limitations and Supported {File|Document} Formats {#limitations-and-supported-file-formats}
 
 Comparing documents is a very complex feature. There are varied parts of content combination that need to be analyzed to recognize all differences. The reason for this complexity is because Aspose.Words aims to get the same comparison results as the Microsoft Word comparison algorithm.
 
@@ -37,7 +37,7 @@ Note that you can compare any two documents within the [supported file formats](
 
 {{% /alert %}}
 
-## Compare Two Documents
+## {Compare Two|How to Compare} Documents {#compare-two-documents}
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
@@ -53,7 +53,7 @@ The following code example {shows|demonstrates} how to simply apply the Compare 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-caseWhenDocumentHasRevisions.java" >}}
 
-## Specify Advanced Comparing Properties
+## Specify Advanced {Comparison Options|Comparing Properties} {#specify-advanced-comparing-properties}
 
 There are {many|multiple|several|a few|numerous} different properties of the [CompareOptions](https://apireference.aspose.com/words/java/com.aspose.words/compareoptions) class which you can apply when you want to compare documents.
 

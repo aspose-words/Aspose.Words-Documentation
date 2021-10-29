@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert and Append Documents
 description: "Aspose.Words for Java {allows|enables} you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
 type: docs
@@ -32,7 +32,7 @@ You can also use the [InsertDocument](https://apireference.aspose.com/words/cpp/
 
 The following subsections describe the options during which you can insert one document into another.
 
-### Insert a Document During Find and Replace Operation
+### Insert a Document {During|Within} {Find and Replace Operation|Find and Replace} {#insert-a-document-during-find-and-replace-operation}
 
 You can insert documents while performing find and replace operations. For example, a document can contain paragraphs with the text [INTRODUCTION] and [CONCLUSION]. But in the final document, you need to replace those paragraphs with the content obtained from another external document. To achieve that, you will need to create a handler for the replace event.
 
@@ -44,7 +44,7 @@ The following code example {shows|demonstrates} how insert content of one docume
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-InsertDocumentIntoAnotherDocument-insertDocumentAtReplace.java" >}}
 
-### Insert a Document During Mail Merge Operation
+### Insert a Document {During|Within} {Mail Merge Operation|Mail Merge} {#insert-a-document-during-mail-merge-operation}
 
 You can insert a document into a merge field during a mail merge operation. For example, a mail merge template can contain a merge field such as [Summary]. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
 
@@ -84,7 +84,7 @@ The following code example {shows|demonstrates} how to append a document to the 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-KeepSourceFormatting-KeepSourceFormatting.java" >}}
 
-## Import and Insert Nodes Manually
+## Import and {Insert|Add} Nodes Manually {#import-and-insert-nodes-manually}
 
 Aspose.Words {allows|enables} you to insert and append documents automatically without any previous importing requirements. However, if you need to insert or append a specific node of your document, such as a section or a paragraph, then first you need to import this node manually.
 
@@ -108,7 +108,7 @@ The import creates a new node that is a copy of the original node and suitable f
 
 Content is imported into the destination document section by section, which means that settings, such as page setup and headers or footers, are preserved during import. It is also useful to note that you can define formatting settings when you insert or append a document to specify how two documents are joined together.
 
-## Common Properties for Insert and Append Documents
+## {Common Properties|Properties} for Insert and Append Documents {#common-properties-for-insert-and-append-documents}
 
 Both [InsertDocument](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#a893fb304c8f11e0d720537cd96d798b8) and [AppendDocument](https://apireference.aspose.com/words/cpp/class/aspose.words.document#a7b09f54d466b74ee498156e848b9ba86) methods accept [ImportFormatMode](https://apireference.aspose.com/words/cpp/namespace/aspose.words#aafaa52cbf0baa49c3225787c23a8c949) and [ImportFormatOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options) as input parameters. The **ImportFormatMode** {allows|enables} you to control how document formatting is merged when you import content from one document into another by selecting different format modes such as [UseDestinationStyles](https://apireference.aspose.com/words/cpp/namespace/aspose.words#aafaa52cbf0baa49c3225787c23a8c949), [KeepSourceFormatting](https://apireference.aspose.com/words/cpp/namespace/aspose.words#aafaa52cbf0baa49c3225787c23a8c949), and [KeepDifferentStyles](https://apireference.aspose.com/words/cpp/namespace/aspose.words#aafaa52cbf0baa49c3225787c23a8c949). The **ImportFormatOptions** {allows|enables} you to select different import options such as [IgnoreHeaderFooter](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#ad4260c1a00c4beaee3be48c478df5979), [IgnoreTextBoxes](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#a6367e32cb6e4b9389197d3965d876223), [KeepSourceNumbering](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#a948875cb87890c1db77f994c132e4196), [MergePastedLists](https://apireference.aspose.com/words/java/com.aspose.words/importformatoptions#MergePastedLists), and [SmartStyleBehavior](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#a0f363fe4e7ea99a6e7e3344afdf625ec).
 

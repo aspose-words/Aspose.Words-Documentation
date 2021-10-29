@@ -12,7 +12,7 @@ Aspose.Words {allows|enables} you to find a specific string or regular expressio
 
 This article explains how to apply string replacement and regular expressions with the support of metacharacters.
 
-## Ways to Find and Replace
+## {Ways|Methods} to Find and Replace {#ways-to-find-and-replace}
 
 Aspose.Words provides two ways to apply the find and replace operation by using the following:
 
@@ -23,7 +23,7 @@ In addition, you can use special metacharacters with simple string replacement a
 
 Aspose.Words presents the find and replace functionality with the [Aspose.Words.Replacing](https://apireference.aspose.com/words/cpp/namespace/aspose.words.replacing) namespace. You can work with {many|multiple|several|a few|numerous} options during the find and replace process using [FindReplaceOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options/) class.
 
-### Find and Replace Text using Simple String Replacement
+### Find and Replace {Text|String} {Using|With} Simple String Replacement {#find-and-replace-text-using-simple-string-replacement}
 
 You can use one of the [Replace](https://apireference.aspose.com/words/cpp/class/aspose.words.range#replace_regex_string) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
 
@@ -39,7 +39,7 @@ And after applying simple string replacement:
 
 <img src="after-simple-string-replacement.png" alt="after-simple-string-replacement-aspose-words-cpp" style="width:600px"/>
 
-### Find and Replace Text using Regular Expressions
+### Find and Replace {Text|String} {Using|With} Regular Expressions {#find-and-replace-text-using-regular-expressions}
 
 A regular expression (regex) is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double-word pattern: `([a-zA-Z]+) \1`.
 
@@ -57,7 +57,7 @@ And after applying string replacement with regular expressions:
 
 <img src="after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions-aspose-words-cpp" style="width:600px"/>
 
-### Find and Replace String using Metacharacters
+### Find and Replace {String|Text} {Using|With} Metacharacters {#find-and-replace-text-using-metacharacters}
 
 You can use metacharacters in the search string or the replacement string if a particular text or phrase is composed of {multiple|several|a few|many|numerous} paragraphs, sections, or pages. Some of the metacharacters include **&p** for a paragraph break, **&b** for a section break, **&m** for a page break, and **&l** for a line break.
 
@@ -71,7 +71,7 @@ The following code example {shows|demonstrates} how to replace text with paragra
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-ReplaceTextContaingMetaCharacters.cpp" >}}
 
-## Find and Replace String in Header/Footer of a Document
+## Find and Replace {String|Text} in {Header/Footer|Header or Footer} {of a Document|} {#find-and-replace-string-in-header-or-footer-of-a-document}
 
 You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://apireference.aspose.com/words/cpp/class/aspose.words.header_footer) class.
 
@@ -109,7 +109,7 @@ And after applying footer string replacement:
 
 <img src="after-applying-footer-string-replacement.png" alt="after-applying-footer-string-replacement-aspose-words-cpp" style="width:600px"/>
 
-## Ignore Text During Find and Replace
+## Ignore Text {During|When} Find and Replace {#ignore-text-during-find-and-replace}
 
 While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
 
@@ -119,7 +119,7 @@ The following code example {shows|demonstrates} how to ignore text inside delete
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideDeleteRevisions.cpp" >}}
 
-## Customize Find and Replace Operation
+## {Customize|Manage} Find and Replace Operation {#customize-find-and-replace-operation}
 
 Aspose.Words provides {many|multiple|several|a few|numerous} different [properties](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/index) to find and replace text such as applying specific format with [ApplyFont](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/applyfont) and [ApplyParagraphFormats](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/applyparagraphformat) properties, using substitutions in replacement patterns with [UseSubstitutions](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/usesubstitutions) property, and others.
 

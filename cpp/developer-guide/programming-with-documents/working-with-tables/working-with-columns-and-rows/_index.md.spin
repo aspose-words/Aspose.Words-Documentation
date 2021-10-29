@@ -1,27 +1,27 @@
-﻿---
+---
 title: Working with Columns and Rows
 type: docs
 weight: 27
 url: /cpp/working-with-columns-and-rows/
 ---
 
-## Finding the Index of Table Elements
+## Find the {Index of Table Elements|Table Element Index} {#find-the-index-of-table-elements}
 
 Finding the index of any node involves gathering all child nodes of the element’s type from the parent node then using the NodeCollection.IndexOf method to find the index of the desired node in the collection.
 
-### Finding the Index of Table in a Document
+### Find {the Index of Table|Table Index} in a Document {#find-the-index-of-table-in-a-document}
 
 Below example {shows|demonstrates} how to retrieve the index of a table in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveTableIndex.cpp" >}}
 
-### Finding the Index of a Row in a Table
+### Find {the Index of a Row|Row Index} in a Table {#find-the-index-of-a-row-in-a-table}
 
 Below example {shows|demonstrates} how to retrieve the index of a row in a table.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-FindingIndex-RetrieveRowIndex.cpp" >}}
 
-### Finding the Index of a Cell in a Row
+### Find {the Index of a Cell|Cell Index} in a Row {#find-the-index-of-a-cell-in-a-row}
 
 Below example {shows|demonstrates} how to retrieve the index of a cell in a row.
 
@@ -51,7 +51,7 @@ Below example {shows|demonstrates} how to remove a column from a table in a docu
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-RemoveColumn.cpp" >}}
 
-## Specifying Rows to Repeat on Subsequent Pages as Header Rows
+## Specify Rows to Repeat {on Subsequent Pages|Them} as Header Rows {#specify-rows-to-repeat-on-subsequent-pages-as-header-rows}
 
 In Microsoft Word this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or {many|multiple|several|a few|numerous} rows in a table.
 
@@ -67,7 +67,7 @@ Below example {shows|demonstrates} how to build a table which includes heading r
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-RepeatRowsOnSubsequentPages-RepeatRowsOnSubsequentPages.cpp" >}}
 
-## How to Apply Different AutoFit Settings to a Table
+## How to Apply {Different|Various} AutoFit Settings to a Table {#how-to-apply-different-autofit-settings-to-a-table}
 
 When creating a table using a visual agent such as Microsoft Word, you will often find yourself using one of the AutoFit options to automatically size the table to the desired width. For instance, you can use the AutoFit to Window option to fit the table to the width of the page and AutoFit to Contents option to allow each cell to grow or shrink to accommodate its contents.
 
@@ -109,7 +109,7 @@ Note that this autofit option clears the preferred widths from the cells just li
 
 {{% /alert %}} 
 
-### Disabling AutoFitting on a Table and Use Fixed Column Widths
+### Disable AutoFitting on a {Table and Use Fixed Column Widths|Table} {#disable-autofitting-on-a-table-and-use-fixed-column-widths}
 
 Below example disables autofitting and {enables|allows} fixed widths for the specified table. You can download the template file of this example from here.
 
@@ -128,7 +128,7 @@ Note that if no width is defined for **CellFormat.Width** then a default value o
 
 {{% /alert %}} 
 
-## Keeping Tables and Rows from Breaking across Pages
+## Keep Tables and Rows from Breaking {Across|Between} Pages {#keep-tables-and-rows-from-breaking-across-pages}
 
 There are times where the contents of a table should not be split across a page. For instance, when there is a title above a table, the title and the table should always be kept together on the same page to preserve proper appearance.
 
@@ -139,13 +139,13 @@ There are two separate techniques that are useful to achieve this functionality:
 
 We will use the table below in our example. By default, it has the properties above disabled. Also, notice how the content in the middle row is split across the page.
 
-### Keeping a Row from Breaking across Pages
+### Keep a Row from Breaking {Across|Between} Pages {#keep-a-row-from-breaking-across-pages}
 
 This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word this can found under Table Properties as the option “Allow Row to break across Pages”. In Aspose.Words this is found under the RowFormat object of a Row as the property RowFormat.AllowBreakAcrossPages. Below example {shows|demonstrates} how to disable rows breaking across pages for every row in a table. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-RowFormatDisableBreakAcrossPages.cpp" >}}
 
-### Keeping a Table from Breaking across Pages
+### Keep a Table from Breaking {Across|Between} Pages {#keep-a-table-from-breaking-across-pages}
 
 To stop a table from splitting across the page we need to state that we wish the content contained within the table to stay together. In Microsoft Word, this involves selecting the table and enabling “Keep with Next” under Paragraph Format.
 
@@ -157,7 +157,7 @@ In Aspose.Words the technique is the same. Each paragraph inside the cells of th
 
 In a table, {several|multiple|a few|many|numerous} cells can be merged together into a single cell. This is useful when certain rows require a title or large blocks of text which span across the width of the table. This can only be achieved by merging some of the cells in the table into a single cell. Aspose.Words supports merged cells when working with all input formats including when importing HTML content.
 
-### Merged Cells in Aspose.Words
+### {Merged Cells|What are Merged Cells} in Aspose.Words {#merged-cells-in-aspose-words}
 
 In Aspose.Words, merged cells are represented by CellFormat.HorizontalMerge and CellFormat.VerticalMerge. The **CellFormat.HorizontalMerge** property describes if the cell is part of a horizontal merger of cells. Likewise the **CellFormat.VerticalMerge** property describes if the cell is a part of a vertical merger of cells.
 
@@ -175,7 +175,7 @@ To check if a cell is part of a sequence of merged cells, we simply check the Ce
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-CheckCellsMerged.cpp" >}}
 
-### Merging Cells in a Table
+### {Merged|Merge} Cells in a Table {#merge-cells-in-a-table}
 
 The same technique is used to set the merge behavior on the cells in a table. When building a table with merged cells with DocumentBuilder you need to set the appropriate merge type for each cell. Also, you must remember to clear the merge setting or otherwise all cells in the table will become merged. This can be done by setting the value of the appropriate merge property to CellMerge.None. Below example creates a table with two rows with cells in the first row horizontally merged.
 
@@ -195,7 +195,7 @@ Below example merges the range of cells between the two specified cells. You can
 
 Depending on the version of the .NET Framework you are using, you may want to further build on this method by turning it into an extension method. In this case, you can then call this method directly on a cell to merge a range of cells e.g cell1.Merge(cell2).
 
-### Vertical and Horizontal merged cells in the Table
+### Vertical and Horizontal Merged Cells in {a|the} Table {#vertical-and-Horizontal-merged-cells-in-the-table}
 
 A table in MS Word is a set of independent rows. Each row has a set of cells independent on cells of other rows. So there is no logical "column" in an MS Word's table. "The 1st column" is something like "a set of the 1st cells of each row in a table". For example, it's possible to have a table where the 1st row consists of two cells: 2cm and 1cm and the 2nd row consists of different two cells: 1cm and 2cm of width.
 
@@ -207,7 +207,7 @@ Use the following code example if CellFormat.HorizontalMerge and CellFormat.Vert
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-HorizontalAndVerticalMergeHelperClasses.cpp" >}}
 
-### Convert To Horizontally Merged Cells
+### Convert to {Horizontally Merged Cells|Cells Merged Horizontally} {#convert-to-horizontally-merged-cells}
 
 In the latest versions of MS Word, the cells are merged horizontally by its width. Whereas, the merge flags were used in the older technique,  like Cell.CellFormat.HorizontalMerge. The merge flags are not used when cells are horizontally merged by their width and it is also not possible to detect which cells are merged. Aspose.Words provides ConvertToHorizontallyMergedCells method to convert cells which are horizontally merged by its width to the cell horizontally merged by flags. It simply transforms the table and adds new cells when needed.
 
