@@ -11,7 +11,7 @@ url: /reportingservices/page-breaks/
 
 {{% /alert %}} 
 
-When rendering reports in Flow layout, it is very important to control how page breaks are inserted into the document. Aspose.Words for Reporting Services offers numerous modes each of which has its own algorithm of page breaks placement. If you are not satisfied with the default mode, you can try the others to find the best balance between fidelity and editability of the resulting Word document. 
+When rendering reports in Flow layout, it is very important to control how page breaks are inserted into the document. Aspose.Words for Reporting Services offers a few modes each of which has its own algorithm of page breaks placement. If you are not satisfied with the default mode, you can try the others to find the best balance between fidelity and editability of the resulting Word document. 
 
 Below is the description of the modes. 
 

@@ -23,7 +23,7 @@ It is worth noting that some tasks can be achieved with the Open XML SDK, but ca
 - Create documents by [copying or joining fragments of one or more documents](https://docs.aspose.com/words/java/insert-and-append-documents/) with automatically merging per-document structures such as styles and lists
 - Provide access to complex operations such as [find and replace](https://docs.aspose.com/words/java/find-and-replace/), insert and update a table of contents, formula or fields, and others
 - Generate business documents such as orders or reports populated with data from various data source
-- Convert documents between a few popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
+- Convert documents between many popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
 - And others
 
 In the following sections, we will take a closer look at some of the features and abilities provided by Aspose.Words.
@@ -38,7 +38,7 @@ Aspose components are thoroughly tested.Since Aspose components are packaged int
 
 ### Scalability and Minimal Learning Curve
 
-Being XML-based, Office Open XML is heralded as an enabling technology. It is true that Office Open XML makes it possible to build document processing and generating applications using only XML classes, without relying on third-party libraries such as Aspose.Words. OOXML documents are essentially zipped XML files, and the Open XML SDK is a collection of classes that allows you to work with the content of OOXML documents in a strongly typed way. That is, instead of unzipping a file to extract XML, loading that XML into the DOM tree, and working with the XML elements and attributes directly, Open XML SDK provides classes to do this.
+Being XML-based, Office Open XML is heralded as an enabling technology. It is true that Office Open XML makes it possible to build document processing and generating applications using only XML classes, without relying on third-party libraries such as Aspose.Words. OOXML documents are essentially zipped XML files, and the Open XML SDK is a collection of classes that enables you to work with the content of OOXML documents in a strongly typed way. That is, instead of unzipping a file to extract XML, loading that XML into the DOM tree, and working with the XML elements and attributes directly, Open XML SDK provides classes to do this.
 
 However, the OOXML specification is multiple thousand pages long. Being open and standard does not mean being simple. To properly process or generate OOXML documents one must invest in learning the format well. Thus, working with the Open XML SDK requires at least a basic knowledge of the Open XML Specification, which can take a long time to learn.
 

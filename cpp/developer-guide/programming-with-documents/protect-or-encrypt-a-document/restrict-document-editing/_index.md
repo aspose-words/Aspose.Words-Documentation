@@ -8,7 +8,7 @@ url: /cpp/restrict-document-editing/
 
 Sometimes you may need to limit the ability to edit a document and only allow certain actions with it. This can be useful to prevent other people from editing sensitive and confidential information in your document.
 
-Aspose.Words enables you to restrict editing a document by setting a restriction type. In addition, Aspose.Words also enables you to specify write protection settings for a document.
+Aspose.Words enables you to restrict editing a document by setting a restriction type. In addition, Aspose.Words also allows you to specify write protection settings for a document.
 
 This article explains how to use Aspose.Words to select a restriction type, how to add or remove protection, and how to make unrestricted editable regions.
 
@@ -28,7 +28,7 @@ If you did not set a password when choosing the security type, other users can s
 
 {{% alert color="primary" %}}
 
-Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Unprotect](https://apireference.aspose.com/words/cpp/class/aspose.words.document#unprotect) method shows just that.
+Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Unprotect](https://apireference.aspose.com/words/cpp/class/aspose.words.document#unprotect) method demonstrates just that.
 
 {{% /alert %}}
 
@@ -36,7 +36,7 @@ Note that the password being set is just a property in a document that can be re
 
 Adding protection to your document is a simple process, as all you need to do is apply one of the protection methods detailed in this section.
 
-Aspose.Words allows you to protect your documents from changes using the [Protect](https://apireference.aspose.com/words/cpp/class/aspose.words.document#protect_protectiontype) method. This method is not a security feature and does not encrypt a document.
+Aspose.Words enables you to protect your documents from changes using the [Protect](https://apireference.aspose.com/words/cpp/class/aspose.words.document#protect_protectiontype) method. This method is not a security feature and does not encrypt a document.
 
 {{% alert color="primary" %}}
 
@@ -57,7 +57,7 @@ The following code example demonstrates how to restrict editing in a document so
 
 ## Remove Document Protection
 
-Aspose.Words enables you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [Unprotect](https://apireference.aspose.com/words/cpp/class/aspose.words.document#unprotect) method. Both removing ways have no difference.
+Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [Unprotect](https://apireference.aspose.com/words/cpp/class/aspose.words.document#unprotect) method. Both removing ways have no difference.
 
 The following code example demonstrates how to remove protection from your document:
 
@@ -67,7 +67,7 @@ The following code example demonstrates how to remove protection from your docum
 
 You can restrict editing of your document and at the same time allow changes to selected parts of it. So, anyone who opens your document will be able to access these unrestricted parts and make changes to the content.
 
-Aspose.Words allows you to mark the parts that can be changed in your document using the [StartEditableRange](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#starteditablerange) and [EndEditableRange](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#endeditablerange) methods.
+Aspose.Words enables you to mark the parts that can be changed in your document using the [StartEditableRange](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#starteditablerange) and [EndEditableRange](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#endeditablerange) methods.
 
 The following code example demonstrates how to mark the whole document as read-only and specify editable regions in it:
 

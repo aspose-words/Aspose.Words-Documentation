@@ -36,6 +36,6 @@ You can edit merge field name and format switches if needed.
 
 ![todo:image_alt_text](report-template-and-merge-fields_5.png)
 
-**An example of a tabular template with a few field codes**
+**An example of a tabular template with numerous field codes**
 
 ![todo:image_alt_text](report-template-and-merge-fields_6.png)

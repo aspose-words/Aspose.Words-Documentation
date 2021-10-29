@@ -1,14 +1,14 @@
 ﻿---
 title: Document Builder Overview
 type: docs
-description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with C++."
+description: "DocumentBuilder enables you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with C++."
 weight: 15
 url: /cpp/document-builder-overview/
 ---
 
-[DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) and enables you to build dynamic documents from scratch or add new elements to an existing one.
+[DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) and allows you to build dynamic documents from scratch or add new elements to an existing one.
 
-**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
+**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It enables you to specify fonts, paragraph or section formatting, and perform other operations.
 
 ## Document Builder or Aspose.Words DOM
 
@@ -20,7 +20,7 @@ Operations that are possible with **DocumentBuilder** are also possible when usi
 
 Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetodocumentstart) and [MoveToField](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetofield_field_bool). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#write_string), [Writeln](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#writeln), [InsertBreak](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertbreak_breaktype), and others.
 
-The following code example shows how to navigate to a bookmark:
+The following code example demonstrates how to navigate to a bookmark:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToBookmarkEnd.cpp" >}}
 
@@ -38,7 +38,7 @@ To start, you need to create a **DocumentBuilder** and associate it with a **Doc
 
 To insert a text, pass the string of text you need to insert into the document to the **Write** method.
 
-The following code example demonstrates how to create a simple document using a document builder.
+The following code example shows how to create a simple document using a document builder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Quick-Start-HelloWorld-HelloWorld.cpp" >}}
 

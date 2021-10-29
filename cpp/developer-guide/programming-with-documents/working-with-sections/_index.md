@@ -5,7 +5,7 @@ weight: 30
 url: /cpp/working-with-sections/
 ---
 
-This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from a few sections copied from many template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
+This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from many sections copied from a few template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
 
 A Word document can contain one or more sections. At the end of the section, there is a section break that separates one section from the next in a document. Each section has its own set of properties that specify page size, orientation, margins, the number of text columns, headers and footers and so on.
 
@@ -48,13 +48,13 @@ It is possible to change the culture for the current thread that will cause chan
 
 {{% /alert %}} 
 
-The code sample below demonstrates how to access a section at the specified index. You can download the template file of this example from here.
+The code sample below shows how to access a section at the specified index. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-SectionsAccessByIndex-SectionsAccessByIndex.cpp" >}}
 
 ### Adding a Section
 
-The Document object provides the section collection that can be accessed by using Document.Sections. This returns a SectionCollection object containing the document’s sections. You can then use the SectionCollection.Add method on this object to add a section to the end of the document. The code sample below shows how to add a section to the end of the document.
+The Document object provides the section collection that can be accessed by using Document.Sections. This returns a SectionCollection object containing the document’s sections. You can then use the SectionCollection.Add method on this object to add a section to the end of the document. The code sample below demonstrates how to add a section to the end of the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AddDeleteSection-AddSection.cpp" >}}
 
@@ -64,7 +64,7 @@ In the same way as discussed above, the document’s sections are retrieved by u
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AddDeleteSection-DeleteSection.cpp" >}}
 
-The code sample below shows how to remove all sections from a document.
+The code sample below demonstrates how to remove all sections from a document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AddDeleteSection-DeleteAllSections.cpp" >}}
 
@@ -72,7 +72,7 @@ In addition, you can use SectionCollection.Clear to remove all the sections from
 
 ### Adding Section Content
 
-If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below shows how to append content of an existing section. The number of sections in the document remains the same. You can download the template file of this example from here.
+If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below demonstrates how to append content of an existing section. The number of sections in the document remains the same. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AppendSectionContent-AppendSectionContent.cpp" >}}
 

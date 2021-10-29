@@ -1,6 +1,6 @@
 ﻿---
 title: Clean Up a Document
-description: "Aspose.Words for C++ enables you to remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."
+description: "Aspose.Words for C++ allows you to remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."
 type: docs
 weight: 15
 url: /cpp/clean-up-a-document/
@@ -18,7 +18,7 @@ You can use the [UnusedStyles](https://apireference.aspose.com/words/cpp/class/a
 
 You can use the [UnusedLists](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options#get_unusedlists_const) property to detect and remove lists and list definitions that are marked as "unused".
 
-The following code example shows how to remove only unused styles from a document:
+The following code example demonstrates how to remove only unused styles from a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Document-Working with document options and settings-CleanupUnusedStylesandLists.h" >}}
 
@@ -26,6 +26,6 @@ The following code example shows how to remove only unused styles from a documen
 
 You can also use the [DuplicateStyle](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options#get_duplicatestyle_const) property to substitute all duplicate styles with the original one and remove duplicates from a document.
 
-The following code example shows how to remove duplicate styles from a document:
+The following code example demonstrates how to remove duplicate styles from a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Document-Working with document options and settings-CleanupDuplicateStyle.h" >}}

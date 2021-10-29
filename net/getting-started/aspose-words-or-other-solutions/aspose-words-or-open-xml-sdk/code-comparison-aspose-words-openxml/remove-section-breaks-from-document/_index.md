@@ -16,7 +16,7 @@ On this page we will look at how to remove section breaks from a document using 
 
 In Aspose.Words, use the [SectionBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/sectionbreak) field of the [ControlChar](https://apireference.aspose.com/words/net/aspose.words/controlchar) class to find all section breaks.
 
-The following code example demonstrates how to remove page breaks from a document:
+The following code example shows how to remove page breaks from a document:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Remove section breaks.docx");
@@ -47,7 +47,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example shows how to remove section breaks from a document:
+The following code example demonstrates how to remove section breaks from a document:
 
 {{< highlight csharp >}}
 public void RemoveSectionBreaksFeature()

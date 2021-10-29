@@ -31,19 +31,19 @@ The following code example shows how to create a mail merge template:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeTemplate-CreateMailMergeTemplate.java" >}}
 
-The picture below shows the created template:
+The picture below demonstrates the created template:
 
 <img src="mail_merge_template_1.png" alt="mail_merge_template_aspose_words_java" style="width:650px"/>
 
 ## Customize a Mail Merge Template Properties
 
-Aspose.Words enables you to customize your template through multiple properties. Template customization will be described below through an example of customizing some properties of images and text.
+Aspose.Words enables you to customize your template through many properties. Template customization will be described below through an example of customizing some properties of images and text.
 
 ### Customize Image Properties
 
 You can specify the image properties using the [ImageFieldMergingArgs](https://apireference.aspose.com/words/java/com.aspose.words/ImageFieldMergingArgs) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/java/com/aspose/words/examples/mail_merge/InsertImagesFromADatabase.java).
 
-The following code example shows how to specify the image file name and image size:
+The following code example demonstrates how to specify the image file name and image size:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeFormFields-ImageFieldMerging.java" >}}
 

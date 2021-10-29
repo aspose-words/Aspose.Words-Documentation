@@ -1,6 +1,6 @@
 ﻿---
 title: Navigation with Cursor
-description: "Aspsoe.Words for C++ enables you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
+description: "Aspsoe.Words for C++ allows you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
 type: docs
 weight: 10
 url: /cpp/navigation-with-cursor/
@@ -24,7 +24,7 @@ When you are editing text, it is important to know how to navigate your document
 
 The main method is to be able to move the cursor position to a specific node in your document, you can achieve this by using the [MoveTo](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#moveto_node) method.
 
-The following code example shows how to move the **DocumentBuilder** to different nodes in a document:
+The following code example demonstrates how to move the **DocumentBuilder** to different nodes in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToNode.cpp" >}}
 
@@ -34,15 +34,15 @@ But besides the basic **MoveTo** method, there are more specific ones.
 
 You can go to the beginning or the end of your document using the [MoveToDocumentStart](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetodocumentstart) and [MoveToDocumentEnd](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetodocumentend) methods.
 
-The following code example shows how to move the cursor position to the beginning or the end of a document:
+The following code example demonstrates how to move the cursor position to the beginning or the end of a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToDocumentStartEnd.cpp" >}}
 
 ### Navigate With Bookmarks
 
-You can mark a place that you want to find and move to it again easily. You can insert as several bookmarks into your document as you want, and then navigate through them by identifying the bookmarks with unique names. You can move to a bookmark by using the [MoveToBookmark](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetobookmark_string) method.
+You can mark a place that you want to find and move to it again easily. You can insert as numerous bookmarks into your document as you want, and then navigate through them by identifying the bookmarks with unique names. You can move to a bookmark by using the [MoveToBookmark](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetobookmark_string) method.
 
-The following code examples demonstrates how to move a cursor position to a bookmark:
+The following code examples shows how to move a cursor position to a bookmark:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToBookmark.cpp" >}}
 
@@ -50,7 +50,7 @@ The following code examples demonstrates how to move a cursor position to a book
 
 You can move to a table cell by using the [MoveToCell](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetocell_int_int_int_int) method. This method will enable you to navigate your cursor into any cell in a specific table. In addition, you can specify an index to move the cursor to any position or specified character in a cell within the **MoveToCell** method.
 
-The following code example demonstrates how to move a cursor position to a specified table cell:
+The following code example shows how to move a cursor position to a specified table cell:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToTableCell.cpp" >}}
 
@@ -74,6 +74,6 @@ The following code example demonstrates how to move document builder cursor to a
 
 You can move to a specific section or paragraph by using the [MoveToParagraph](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetoparagraph_int_int) or [MoveToSection](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#movetosection_int) methods. In addition, you can specify an index to move the cursor to any position or a specified character in a paragraph within the **MoveToParagraph** method.
 
-The following code example shows how to move to a specific section and a specific paragraph in a document:
+The following code example demonstrates how to move to a specific section and a specific paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToSectionParagraph.cpp" >}}

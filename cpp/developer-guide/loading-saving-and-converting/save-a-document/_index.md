@@ -1,4 +1,4 @@
----
+﻿---
 title: Save a Document
 type: docs
 description: "Aspose.Words for C++ allows you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
@@ -23,11 +23,11 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-## Save a Document to a Stream {#save-a-document-to-a-stream}
+## Save to a Stream {#save-a-document-to-a-stream}
 
 Pass a stream object to the [Save](https://apireference.aspose.com/words/cpp/class/aspose.words.document#save_stream_saveformat) method. It's necessary to specify the save format explicitly when saving to a stream.
 
-The following code example shows how to load and save a document to a stream:
+The following code example demonstrates how to load and save a document to a stream:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToStream-LoadAndSaveToStream.cpp" >}}
 

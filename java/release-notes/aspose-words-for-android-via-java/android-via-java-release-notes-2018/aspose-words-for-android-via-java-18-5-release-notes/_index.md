@@ -25,7 +25,7 @@ There are 70+ improvements and fixes in this regular monthly release. The most n
 - Fixed breaking of floating table row in compatibility mode
 - Fixed issue with floating frame pushed from the page because of invalid wrap point
 - Implemented support for "distribute space" and "distribute letter" types of alignment when rendering Ruby objects
-- Improved rendering of a Doughnut DrawingML Chart with a few series
+- Improved rendering of a Doughnut DrawingML Chart with numerous series
 - Improved rendering of DrawingML Charts data labels with the direct layout and a layout specified in the extension properties
 - Fixed a problem with metafile rendering when glyph offsets were wrongly read for EMF_EXTTEXTOUT record with glyph indices
 - Fixed a problem with processing of control character (U+0019) in the text when rendering

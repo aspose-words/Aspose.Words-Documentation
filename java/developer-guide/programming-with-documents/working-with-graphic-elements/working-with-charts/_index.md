@@ -122,7 +122,7 @@ Please see the result below:
 
 ## How to Format Number of Chart Data Label
 
-Using the NumberFormat property of ChartDataLabel,  you can specify the number formatting of a single data label of the chart. The below code example shows how to format a number of the data label. 
+Using the NumberFormat property of ChartDataLabel,  you can specify the number formatting of a single data label of the chart. The below code example demonstrates how to format a number of the data label. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
@@ -146,7 +146,7 @@ The following code example demonstrates how to change the format of numbers on 
 
 ### How to Set Bounds of Axis
 
-The AxisBound class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value. The following code example demonstrates how to set the bounds of an axis.
+The AxisBound class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value. The following code example shows how to set the bounds of an axis.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetboundsOfAxis.java" >}}
 
@@ -158,13 +158,13 @@ The following code example shows how to set the interval unit between labels o
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example shows how to hide the Y-axis of the chart. 
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example demonstrates how to hide the Y-axis of the chart. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.setTickLabelAlignment() property. The following code example demonstrates how to tick label alignment.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.setTickLabelAlignment() property. The following code example shows how to tick label alignment.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 
@@ -208,7 +208,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
-The following code example shows how to set line color and weight:
+The following code example demonstrates how to set line color and weight:
 
 {{< highlight csharp >}}
 Document doc = new Document();

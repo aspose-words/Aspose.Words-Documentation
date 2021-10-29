@@ -1,6 +1,6 @@
 ﻿---
 title: Saving a Document as a Multipage TIFF
-description: "Aspose.Words for C++ enables you to convert a document to a multi-page TIFF. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."
+description: "Aspose.Words for C++ allows you to convert a document to a multi-page TIFF. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
 weight: 40
 url: /cpp/saving-a-document-as-a-multipage-tiff/

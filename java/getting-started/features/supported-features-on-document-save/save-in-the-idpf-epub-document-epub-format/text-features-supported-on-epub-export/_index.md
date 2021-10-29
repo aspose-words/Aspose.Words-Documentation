@@ -11,7 +11,7 @@ Text in different languages is fully supported and can be rendered to formats su
 
 Exported to HTML as &lt;span&gt; elements.
 
-Each Run node in the model is exported as a separate span to retain formatting properly. Some documents can contain many runs that are unrequired and can be joined. In the resulting HTML document this can result in a few extra span elements.
+Each Run node in the model is exported as a separate span to retain formatting properly. Some documents can contain multiple runs that are unrequired and can be joined. In the resulting HTML document this can result in many extra span elements.
 
 There is a method Document.JoinRunsWithSameFormatting to avoid this situation. It can be called before exporting to HTML.
 

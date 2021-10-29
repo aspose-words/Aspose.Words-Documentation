@@ -32,7 +32,7 @@ See the following link in the documentation for further information:
 
 Comments are exported to XPS.
 
-In version 1.0 of comments rendering long or several comments are not truncated in XPS output.
+In version 1.0 of comments rendering long or a few comments are not truncated in XPS output.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -1,6 +1,6 @@
 ﻿---
 title: Encrypt a Document
-description: "Aspose.Words for Java allows you to encrypt your document using appropriate encryption algorithms for specific document formats."
+description: "Aspose.Words for Java enables you to encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20
 url: /java/encrypt-a-document/
@@ -8,7 +8,7 @@ url: /java/encrypt-a-document/
 
 Encryption is the process that translates readable text to meaningless sequences of bytes so it can only be read by the person who has the decryption key or the secret code. This process plays an important role in securing your content. It helps to encode the content, verify the origin of a document, prove that the content has not been modified after it was sent, and ensure that the data from the document is safe.
 
-This article explains how Aspose.Words enables you to encrypt a document and how to check if a document has encryption or not.
+This article explains how Aspose.Words allows you to encrypt a document and how to check if a document has encryption or not.
 
 ## Encrypt with Password
 
@@ -35,7 +35,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 | ODT, OTT                                                     | ODF Encryption (Blowfish/AES)                               | ODF Encryption (AES256 + SHA256)             |
 | PDF                                                          | -                                                           | RC4 Encryption (40/128 bit)                  |
 
-The following code example shows how to encrypt a document with a password:
+The following code example demonstrates how to encrypt a document with a password:
 
 {{< highlight java >}}
 // Create a document.
@@ -107,7 +107,7 @@ catch (Exception e)
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
-The following code example demonstrates how to try opening an encrypted document with a password:
+The following code example shows how to try opening an encrypted document with a password:
 
 {{< highlight java >}}
 // Create a document.

@@ -24,7 +24,7 @@ Starting from release **1.9.0** there are multiple versions of jar library (ne
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
 
-The following example demonstrates typical code needed to export a report to a DOC file using Aspose.Words for JasperReports. More examples can be found in the demo reports included in the product download.
+The following example shows typical code needed to export a report to a DOC file using Aspose.Words for JasperReports. More examples can be found in the demo reports included in the product download.
 
 **Java**
 

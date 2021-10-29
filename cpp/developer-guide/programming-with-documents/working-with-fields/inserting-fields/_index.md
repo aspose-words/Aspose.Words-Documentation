@@ -15,7 +15,7 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}} 
 
-The code example given below shows how to Inserts a merge field into a document using DocumentBuilder.
+The code example given below demonstrates how to Inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertField-InsertField.cpp" >}}
 
@@ -51,7 +51,7 @@ ADDRESSBLOCK field is used to insert a mail merge address block in a Word docume
 - Specify the name and address format.
 - Specify the language ID used to format the address.
 
-For more details, please refer to FieldAddressBlock Class API reference. The code example given below demonstrates how to Add a Mail Merge Address Block Field using DOM to a Paragraph in Document.
+For more details, please refer to FieldAddressBlock Class API reference. The code example given below shows how to Add a Mail Merge Address Block Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cpp" >}}
 
@@ -80,7 +80,7 @@ ASK field is used to prompt the user for text to assign to a Bookmark in Word do
 - Specify whether the user response should be received once per a mail merge operation
 - Specify the prompt text (the title of the prompt window).
 
-For more details, please refer to [FieldAsk Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAsk+Class). The code example given below demonstrates how to Add an ASK Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAsk Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAsk+Class). The code example given below shows how to Add an ASK Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertASKFieldWithoutDocumentBuilder-InsertASKFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -92,7 +92,7 @@ AUTHOR field is used to specify the name of the Document's author from the Docum
 
 - Specify the document author's name.
 
-For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAuthor+Class). The code example given below demonstrates how to Add an AUTHOR Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAuthor+Class). The code example given below shows how to Add an AUTHOR Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cpp" >}}
 
@@ -115,7 +115,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 { TOA [Switches ] }
 
-Please refer to FieldToa Class API reference. The code example given below shows how to Add a TOA field using DOM to a Paragraph in Document. 
+Please refer to FieldToa Class API reference. The code example given below demonstrates how to Add a TOA field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -123,6 +123,6 @@ Please refer to FieldToa Class API reference. The code example given below sh
 
 ### How to Insert Untyped/Empty Field
 
-If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. The code example given below demonstrates how to insert an empty field in the document.
+If you want to insert untyped/empty fields ({}) just like MS Word allows, you can use DocumentBuilder.InsertField method with parameter FieldType.FieldNone. To insert a field in a Word document, you can press “Ctrl + F9” key combination. The code example given below shows how to insert an empty field in the document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cpp" >}}

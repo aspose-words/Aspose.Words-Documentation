@@ -39,7 +39,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 {{% /alert %}}
 
-The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
+The following code example demonstrates how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentPageSetup-DocumentPageSetup.cpp" >}}
 
@@ -55,7 +55,7 @@ If your Aspose.Words generated document does not look as expected, check the **L
 
 {{% /alert %}}
 
-The following code example shows how to add Japanese to editing languages:
+The following code example demonstrates how to add Japanese to editing languages:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cpp" >}}
 

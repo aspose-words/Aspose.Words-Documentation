@@ -5,7 +5,7 @@ weight: 150
 url: /cpp/working-with-images/
 ---
 
-## How to Extract Images from a Document
+## How to Extract Images from a Document {#how-to-extract-images-from-a-document}
 
 All images are stored inside Shape nodes in a Document. To extract all images or images having a specific type from the document, follow these steps:
 
@@ -21,6 +21,6 @@ The code example given below shows how to extract images from a document and sav
 
 ## Saving Images as WMF
 
-Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example demonstrates how to save images as WMF with RTF save options.
+Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example shows how to save images as WMF with RTF save options.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.cpp" >}}

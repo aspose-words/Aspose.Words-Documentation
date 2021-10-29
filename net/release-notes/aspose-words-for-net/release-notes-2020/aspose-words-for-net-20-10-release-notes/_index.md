@@ -231,7 +231,7 @@ This new LoadOption enables reducing memory usage.
 /// </summary>
 /// <remarks>
 /// Metafiles (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) is an uncompressed image format and sometimes requires to much RAM to hold and process document.
-/// This option enables to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
+/// This option allows to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
 /// Please note - conversion vector graphics to raster decreases quality of the images.
 /// </remarks>
 public bool ConvertMetafilesToPng

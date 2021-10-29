@@ -8,7 +8,7 @@ url: /cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## Extract Content Overview and Code
 
-A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore numerous different node types to consider when extracting content. For instance, you may want to extract content between:
+A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are multiple possible situations and therefore several different node types to consider when extracting content. For instance, you may want to extract content between:
 
 - Two specific paragraphs in the document.
 - Specific runs of text.
@@ -22,10 +22,10 @@ Often the goal of extracting this content is to duplicate or save it separately 
 
 - Copy it to a separate document.
 - Rendered a specific portion of a document to PDF or an image.
-- Duplicate the content in the document several times.
+- Duplicate the content in the document a few times.
 - Work with this content separate from the rest of the document.
 
-This is easy to achieve using Aspose.Words and the code implementation below. This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just a few demonstrations of the a few possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words).
+This is easy to achieve using Aspose.Words and the code implementation below. This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just multiple demonstrations of the numerous possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words).
 
 ### The Solution
 
@@ -57,7 +57,7 @@ The implementation of the **ExtractContent** method is found below. This metho
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Common-CommonExtractContent.cpp" >}}
 
-We will also define a custom method to easily generate a document from extracted nodes. This method is used in multiple of the scenarios below and simply creates a new document and imports the extracted content into it. The following method takes a list of nodes and inserts them into a new document.
+We will also define a custom method to easily generate a document from extracted nodes. This method is used in many of the scenarios below and simply creates a new document and imports the extracted content into it. The following method takes a list of nodes and inserts them into a new document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Common-CommonGenerateDocument.cpp" >}}
 
@@ -67,7 +67,7 @@ These helper methods below are internally called by the main extraction method. 
 
 ## Extract Content Between Paragraphs
 
-This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7th and 11th paragraphs. The code below accomplishes this task. The appropriate paragraphs are extracted using the CompositeNode.GetChild method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document. The below example shows how to extract the content between specific paragraphs using the ExtractContent method above. You can download the template file of this example from here.
+This shows how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7th and 11th paragraphs. The code below accomplishes this task. The appropriate paragraphs are extracted using the CompositeNode.GetChild method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document. The below example demonstrates how to extract the content between specific paragraphs using the ExtractContent method above. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenParagraphs-ExtractContentBetweenParagraphs.cpp" >}}
 
@@ -79,7 +79,7 @@ We can extract content between any combinations of block-level or inline nodes. 
 
 ## Extract Content Between Paragraphs Based on Style
 
-You may need to extract the content between paragraphs of the same or different styles, such as between paragraphs marked with heading styles. The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
+You may need to extract the content between paragraphs of the same or different styles, such as between paragraphs marked with heading styles. The code below demonstrates how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
 
 In a proper implementation, this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document. The code example given below shows how to extract content between paragraphs with specific styles using the ExtractContent method. You can download the template file of this example from here.
 
@@ -87,13 +87,13 @@ In a proper implementation, this should be run in a loop to extract content betw
 
 ## Extract Content Between Specific Runs
 
-You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below demonstrates how to extract specific text in-between the same **Paragraph** node. The below example demonstrates how to extract content between specific runs of the same paragraph using the ExtractContent method. You can download the template file of this example from here.
+You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below demonstrates how to extract specific text in-between the same **Paragraph** node. The below example shows how to extract content between specific runs of the same paragraph using the ExtractContent method. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenRuns-ExtractContentBetweenRuns.cpp" >}}
 
 ## Extract Content from a Bookmark
 
-In a document, the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. The content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark. The below example demonstrates how to extract the content referenced a bookmark using the ExtractContent method. You can download the template file of this example from here.
+In a document, the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. The content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option demonstrates how to retain or discard the bookmark. The below example shows how to extract the content referenced a bookmark using the ExtractContent method. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenBookmark-ExtractContentBetweenBookmark.cpp" >}}
 
@@ -121,7 +121,7 @@ These are the steps you should follow to programmatically determine and extract 
 
 **DocumentVisitor** provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
-This example demonstrates how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format.
+This example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentUsingDocumentVisitor-ExtractContentUsingDocumentVisitor.cpp" >}}
 

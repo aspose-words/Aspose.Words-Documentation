@@ -7,7 +7,7 @@ url: /net/drawing-object-features-supported-on-html-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports numerous types of drawing entities on document load. Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior. Using Aspose.Words you can create and modify different types of graphic objects.
+Aspose.Words supports a few types of drawing entities on document load. Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior. Using Aspose.Words you can create and modify different types of graphic objects.
 
 Almost all properties that deal with object positioning use points as a unit of measurment. There is a class to help work with points by converting different types of units to and from points e.g pixel to point, point to inch. Images can be imported from link (src) or from embedded base64 image data. There is a load option avalible to control whether external images are downloaded, left as link only or the bytes of the image data are provided by the user through the use of the IResourceLoadingCallback. You can also set the BaseUri path of the document being loaded so relative resources can be correctly imported. "px" measurement unit is currently imported as if resolution is 96dpi. There will be a load option to control this in the future.
 

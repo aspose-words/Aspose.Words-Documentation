@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Words for .NET 19.8](https://www.nu
 
 ## Major Features
 
-- Implemented an option that allows to specify whether to work with the original or revised version of a document.
+- Implemented an option that enables to specify whether to work with the original or revised version of a document.
 - Implemented API to define default options for data labels of chart series.
 - Fixed rendering of diagonal borders is vertically merged cells.
 - Fixed issue when "keep with next" is applied to the last paragraph in a table cell.

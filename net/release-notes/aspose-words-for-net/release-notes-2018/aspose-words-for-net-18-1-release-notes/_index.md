@@ -30,7 +30,7 @@ There are 61 improvements and fixes in this regular monthly release. The most no
 - Vertical axis of 3DArea Chart scaling fixed.
 - MS Word 2016 approach for rendering of DrawingML Charts axis labels implemented; (Labels are rotated to fit the chart).
 - Fixed rendering of Legend markers for 3D-LineChart.
-- Improved rendering of composite (with numerous series) charts.
+- Improved rendering of composite (with a few series) charts.
 - Chart title with ManualLayout rendering fixed.
 
 ## Full List of Issues Covering all Changes in this Release

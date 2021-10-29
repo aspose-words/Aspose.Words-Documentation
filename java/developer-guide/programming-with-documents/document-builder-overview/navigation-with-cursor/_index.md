@@ -20,11 +20,11 @@ Any insert operations you perform using the [DocumentBuilder](https://apireferen
 
 ## Navigating Methods in a Document
 
-When you are editing text, it is important to know how to navigate your document and where exactly to move in it. Aspose.Words enables you to move around in a document and navigate to its different sections and parts – this is similar to the functionality of the Navigation Pane in Microsoft Word to go to a page or heading in a Word document without scrolling.
+When you are editing text, it is important to know how to navigate your document and where exactly to move in it. Aspose.Words allows you to move around in a document and navigate to its different sections and parts – this is similar to the functionality of the Navigation Pane in Microsoft Word to go to a page or heading in a Word document without scrolling.
 
 The main method is to be able to move the cursor position to a specific node in your document, you can achieve this by using the [MoveTo](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveTo(com.aspose.words.Node)) method.
 
-The following code example shows how to move the **DocumentBuilder** to different nodes in a document:
+The following code example demonstrates how to move the **DocumentBuilder** to different nodes in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
@@ -40,7 +40,7 @@ The following code example shows how to move the cursor position to the beginnin
 
 ### Navigate With Bookmarks
 
-You can mark a place that you want to find and move to it again easily. You can insert as numerous bookmarks into your document as you want, and then navigate through them by identifying the bookmarks with unique names. You can move to a bookmark by using the [MoveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToBookmark(java.lang.String,boolean,boolean)) method.
+You can mark a place that you want to find and move to it again easily. You can insert as multiple bookmarks into your document as you want, and then navigate through them by identifying the bookmarks with unique names. You can move to a bookmark by using the [MoveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToBookmark(java.lang.String,boolean,boolean)) method.
 
 The following code examples shows how to move a cursor position to a bookmark:
 

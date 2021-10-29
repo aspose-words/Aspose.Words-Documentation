@@ -11,7 +11,7 @@ A table which is represented in the Aspose.Words Document Object Model is made u
 
 ### Combining Two Tables into One
 
-The rows from the second table simply need to be shifted to the end of the first table and the container of the second table deleted. Below example shows how to combine the rows from two tables into one.
+The rows from the second table simply need to be shifted to the end of the first table and the container of the second table deleted. Below example demonstrates how to combine the rows from two tables into one.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-JoiningAndSplittingTable-CombineRows.cpp" >}}
 

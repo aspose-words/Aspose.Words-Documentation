@@ -25,7 +25,7 @@ Use the **Forms** toolbar to insert form fields. To display the **Forms** to
 
 {{% alert color="primary" %}} 
 
-**Note:** before you can make a form available to users, you must protect it by clicking **Protect Form** on the **Forms** toolbar. Protection allows users to fill in the form but prevents them from changing the form's layout and its standard elements. When you want to go back to writing or modifying the form, click **Protect Form** again to unprotect the form.
+**Note:** before you can make a form available to users, you must protect it by clicking **Protect Form** on the **Forms** toolbar. Protection enables users to fill in the form but prevents them from changing the form's layout and its standard elements. When you want to go back to writing or modifying the form, click **Protect Form** again to unprotect the form.
 
 {{% /alert %}} 
 
@@ -53,6 +53,6 @@ You can get a particular form field by its index or name. The code example given
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cpp" >}}
 
-The FormField properties allow you to work with form field name, type, and result. The code example given below shows how to work with form field name, type, and result. You can download the template file of this example from here.
+The FormField properties allow you to work with form field name, type, and result. The code example given below demonstrates how to work with form field name, type, and result. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.cpp" >}}

@@ -56,7 +56,7 @@ Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.Reporti
 license.SetLicense("Aspose.Words.Reporting.Services.lic")
 {{< /highlight >}}
 
-The following example demonstrates how to set a license from a stream:
+The following example shows how to set a license from a stream:
 
 **C#**
 

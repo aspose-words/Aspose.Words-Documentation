@@ -16,7 +16,7 @@ On this page we will look at how to change text in a table using Aspose.Words or
 
 In Aspose.Words text in a table can be normally changed using the [Range.Replace](https://apireference.aspose.com/words/net/aspose.words.range/replace/methods/1) method.
 
-The following code example shows how to change text in a table:
+The following code example demonstrates how to change text in a table:
 
 {{< highlight csharp >}}
 public void ChangeTextInATableFeature()
@@ -50,7 +50,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example demonstrates how to change text in a table:
+The following code example shows how to change text in a table:
 
 {{< highlight csharp >}}
 public void ChangeTextInATableFeature()

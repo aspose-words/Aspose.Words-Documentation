@@ -12,7 +12,7 @@ Sometimes it is required to get an image instead of documents in other formats, 
 
 As with all conversion examples already described, you need to create a new document or load an existing one in any supported format, make the necessary changes, and save it in any available image format, for example, JPEG, PNG, or BMP.
 
-The following code example shows how to convert DOCX to JPEG:
+The following code example demonstrates how to convert DOCX to JPEG:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToImage-ConvertDocxToJpeg.java" >}}
 

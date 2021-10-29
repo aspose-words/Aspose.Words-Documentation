@@ -88,7 +88,7 @@ The missing features will be added in future releases.
 | WORDSNET-21006 | ReportingEngine.BuildReport could not create the bitmap - lack of system   resources - FileFormat=0 | Bug |
 | WORDSNET-21473 | DOCX to PDF conversion issue with accessibility check for alternative   text | Bug |
 | WORDSNET-20982 | Artifact issue while converting DOCX to PDF | Bug |
-| WORDSNET-21305 | IChar solution allocates too numerous class instances | Bug |
+| WORDSNET-21305 | IChar solution allocates too a few class instances | Bug |
 | WORDSNET-21306 | DOCX to PDF conversion: a part of first page is pushed to second page   after conversion | Bug |
 | WORDSNET-21307 | Messed up headers after extract page | Bug |
 | WORDSNET-21617 | Track changes - Bookmarks not being generated for Headings during Word to   PDF conversion | Bug |
@@ -215,7 +215,7 @@ Also added corresponding public enums:
 /// <remarks>
 /// Specifies a theme font type which can be referenced as a theme font within the parent object properties.
 /// This theme font is a reference to one of the predefined theme fonts, located in the document's
-/// Theme part, which allows for font information to be set centrally in the document.
+/// Theme part, which enables for font information to be set centrally in the document.
 /// </remarks>
 public enum ThemeFont
 {{< /highlight >}}
@@ -581,7 +581,7 @@ Added a new public property to `FindReplaceOptions` object:
 /// <para>The default value is <c>false</c>.</para>
 /// </summary>
 /// <remarks>
-/// This option allows to replace paragraph break when there is no next sibling paragraph to which all child
+/// This option enables to replace paragraph break when there is no next sibling paragraph to which all child
 /// nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 /// </remarks>
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -695,7 +695,7 @@ Now the methods `DocumentBuilder::MoveToParagraph` and `DocumentBuilder::MoveToC
 /// </remarks>
 /// <param name="paragraphIndex">The index of the paragraph to move to.</param>
 /// <param name="characterIndex">The index of the character inside the paragraph.
-/// A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of
+/// A negative value enables you to specify a position from the end of the paragraph. Use -1 to move to the end of
 /// the paragraph.</param>
 public void MoveToParagraph(int paragraphIndex, int characterIndex);
 

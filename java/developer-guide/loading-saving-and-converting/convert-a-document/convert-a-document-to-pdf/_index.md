@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to PDF
 description: "Aspose.Words for Java enables you to convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms."
 aliases: 
@@ -29,7 +29,7 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 1. Load your document into a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object using one of its constructors by specifying the document name with its format extension.
 1. Invoke one of the [Document.Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,int\)) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
-The following code example shows how to convert a document from DOCX into PDF using the Save method:
+The following code example demonstrates how to convert a document from DOCX into PDF using the Save method:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-Doc2Pdf.java" >}}
 
@@ -43,7 +43,7 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 {{% /alert %}} 
 
-### Converting to Various PDF Standards {#converting-to-various-pdf-standards}
+### Convert to Various PDF Standards {#converting-to-various-pdf-standards}
 
 Aspose.Words provides the [PdfCompliace ](https://apireference.aspose.com/words/java/com.aspose.words/PdfCompliance)enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 
@@ -55,7 +55,7 @@ The following code example demonstrates how to convert a document to PDF 1.7 usi
 
 Converting to PDF is not restricted by Microsoft Word document formats. Any format supported by Aspose.Words, including programmatically created, can also be converted to PDF. For example, we can convert single-page images, such as JPEG, PNG, BMP, EMF, or WMF, as well as multi-page images, such as TIFF and GIF, to PDF.
 
-The following code example shows how to convert JPEG and TIFF images to PDF:
+The following code example demonstrates how to convert JPEG and TIFF images to PDF:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToPDF-ImageToPdf.java" >}}
 

@@ -23,7 +23,7 @@ Almost all properties that deal with object positioning use points as a unit of 
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
-All of the following image types listed in the table below this overview are supported. When a document contains several references to the same image from an external address (e.g the internet) then the image is only downloaded once.
+All of the following image types listed in the table below this overview are supported. When a document contains a few references to the same image from an external address (e.g the internet) then the image is only downloaded once.
 
 It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of the image from the Aspose.Words point-of-view.
 
@@ -160,7 +160,7 @@ See the following links in the documentation for further information:
 |Charts (VML)|Yes|Currently, there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart.| |
 |Shape Customizations|Yes| | |
 |Hyperlink on Shape|Yes| |- **Shape.HRef**|
-|Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded.|- [How to Add a Watermark to a Document](/words/java/how-to-add-a-watermark-to-a-document/)|
+|Watermark|Yes|A watermark in a Microsoft Word document is actually a text shape or image centred in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded.|- [How to Add a Watermark to a Document](/words/java/how-to-add-a-watermark-to-a-document/)|
 
 ## WordArt
 

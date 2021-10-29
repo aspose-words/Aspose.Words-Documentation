@@ -18,7 +18,7 @@ On this page we will look at how to insert images into a Word document using Asp
 
 The DocumentBuilder complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks such as inserting text, tables, fields, and hyperlinks.
 
-The following code example demonstrates how to insert an image into a document at a specified position and size:
+The following code example shows how to insert an image into a document at a specified position and size:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertFloatingImage.cs" >}}
 
@@ -43,7 +43,7 @@ using PIC = DocumentFormat.OpenXml.Drawing.Pictures;
 using Run = DocumentFormat.OpenXml.Wordprocessing.Run;
 {{< /highlight >}}
 
-The following code example shows how to insert image into a body part of a Word document using the main function **InsertAPicture** and then a sub function **AddImageToBody**.
+The following code example demonstrates how to insert image into a body part of a Word document using the main function **InsertAPicture** and then a sub function **AddImageToBody**.
 
 {{< highlight csharp >}}
 public static void InsertPictureInWordDocumentFeature()

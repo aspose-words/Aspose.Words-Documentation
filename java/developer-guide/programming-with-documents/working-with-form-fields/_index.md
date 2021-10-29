@@ -45,25 +45,25 @@ Placing form fields into the document via code is easy. DocumentBuilder has spec
 
 ### Inserting Form Fields
 
-Use [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int))**,** [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCheckBox(java.lang.String,boolean,boolean,int)) or DocumentBuilder.insertComboBox (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertComboBox(java.lang.String,java.lang.String[],int)) to insert form fields into a document. Below example demonstrates how to insert a combobox form field into a document.
+Use [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int))**,** [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCheckBox(java.lang.String,boolean,boolean,int)) or DocumentBuilder.insertComboBox (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertComboBox(java.lang.String,java.lang.String[],int)) to insert form fields into a document. Below example shows how to insert a combobox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFormFields-1.java" >}}
 
 #### Inserting a Text Input
 
-DocumentBuilder.InsertTextInput to insert a textbox into the document. The code example given below shows how to insert a text input form field into a document.
+DocumentBuilder.InsertTextInput to insert a textbox into the document. The code example given below demonstrates how to insert a text input form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
 #### Inserting a Check Box
 
-Call DocumentBuilder.InsertCheckBox to insert a checkbox into the document. The code example given below demonstrates how to insert a checkbox form field into a document.
+Call DocumentBuilder.InsertCheckBox to insert a checkbox into the document. The code example given below shows how to insert a checkbox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
 #### Inserting a Combo Box
 
-Call DocumentBuilder.InsertComboBox to insert a Combobox into the document. The code example given below demonstrates how to insert a Combobox form field into a document.
+Call DocumentBuilder.InsertComboBox to insert a Combobox into the document. The code example given below shows how to insert a Combobox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 

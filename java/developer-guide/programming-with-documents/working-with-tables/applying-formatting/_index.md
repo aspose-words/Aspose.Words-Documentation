@@ -25,11 +25,11 @@ To apply formatting to a table you can use the properties available on the corre
 
 ![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell_2.png)
 
-The following code example demonstrates how to apply an outline border to a table.
+The following code example shows how to apply an outline border to a table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-ApplyOutlineBorderToATable.java" >}}
 
-The following code example demonstrates how to build a table with all borders enabled (grid).
+The following code example shows how to build a table with all borders enabled (grid).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-BuildATableWithAllBordersEnabled.java" >}}
 
@@ -63,7 +63,7 @@ The following code example demonstrates how to set the amount of space (in point
 
 ## Specifying Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which enables for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height) and [RowFormat.HeightRule](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeightRule) properties of the given [Row](https://apireference.aspose.com/words/java/com.aspose.words/row).
+The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height) and [RowFormat.HeightRule](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeightRule) properties of the given [Row](https://apireference.aspose.com/words/java/com.aspose.words/row).
 
 |HeightRule Value|Description|
 | :- | :- |
@@ -96,7 +96,7 @@ The following code example demonstrates how to format a table and cell with diff
 
 ## Get Distance between Table and Surrounding Text
 
-The following code example demonstrates how to get the distance between the table and its surrounding text. 
+The following code example shows how to get the distance between the table and its surrounding text. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-getDistancebetweenTableSurroundingText.java" >}}
 
@@ -110,7 +110,7 @@ If the table's text wrapping is *Around*, you can get the table's horizontal a
 
 ### Get Position of Floating Table
 
-The following code example demonstrates how to get the position of the floating table. 
+The following code example shows how to get the position of the floating table. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetFloatingTablePosition.java" >}}
 
@@ -137,6 +137,6 @@ The title and description of the table provides alternative text-based represent
 
 ## Allow Spacing Between Cells
 
-MS Word does not add any additional space between the cells in a table by default. You can find this option in the table's properties in MS Word. You can get or set "Allow spacing between cells" option using the Table.AllowCellSpacing property. The following code example demonstrates how to set space between cells.
+MS Word does not add any additional space between the cells in a table by default. You can find this option in the table's properties in MS Word. You can get or set "Allow spacing between cells" option using the Table.AllowCellSpacing property. The following code example shows how to set space between cells.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-AllowCellSpacing.java" >}}

@@ -12,7 +12,7 @@ Aspose.Words provides the [ConvertUtil](https://apireference.aspose.com/words/cp
 
 The **ConvertUtil** class is especially useful when setting various page properties because, for instance, inches are more common measurement units than points.
 
-The following code example shows how to specify page properties in inches:
+The following code example demonstrates how to specify page properties in inches:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-ConvertUtil-UtilityClasses-ConvertBetweenMeasurementUnits.cpp" >}}
 

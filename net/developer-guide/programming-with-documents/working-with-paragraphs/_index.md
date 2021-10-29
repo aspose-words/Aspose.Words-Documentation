@@ -49,7 +49,7 @@ Furthermore, a **Style** object provides the [Style.StyleIdentifier](http://w
 
 ## Inserting Style Separator to Put Different Paragraph Styles
 
-The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature enables for two different paragraph styles used in one logical printed paragraph. If you want to some text from the beginning of a particular heading to appear in a Table of Contents but don't want the entire heading in the Table of Contents, you can use this feature. Below code example demonstrates how to insert style separator to put different paragraph styles. 
+The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph. If you want to some text from the beginning of a particular heading to appear in a Table of Contents but don't want the entire heading in the Table of Contents, you can use this feature. Below code example shows how to insert style separator to put different paragraph styles. 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-InsertStyleSeparator-ParagraphInsertStyleSeparator.cs" >}}
 
@@ -61,11 +61,11 @@ The style separator can be added to the end of a paragraph using the Ctrl + Alt 
 
 ## Applying Borders and Shading to a Paragraph
 
-Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to a few or only one document element. For example, BorderType.Bottom is applicable to a paragraph or table cell while BorderType.DiagonalDown specifies the diagonal border in a table cell only.
+Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to several or only one document element. For example, BorderType.Bottom is applicable to a paragraph or table cell while BorderType.DiagonalDown specifies the diagonal border in a table cell only.
 
 Both the border collection and each separate border have similar attributes like color, line style, line width, distance from text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining the property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.ClearFormatting](http://www.aspose.com/api/net/words/aspose.words/border/methods/clearformatting) method. Note that when border properties are reset to default values, the border is invisible. The [Shading](http://www.aspose.com/api/net/words/aspose.words/shading) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
-The shading texture is set with a [TextureIndex](http://www.aspose.com/api/net/words/aspose.words/textureindex) enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](http://www.aspose.com/api/net/words/aspose.words/textureindex) value and set the foreground shading color as appropriate. Below example shows how to apply borders and shading to a paragraph.
+The shading texture is set with a [TextureIndex](http://www.aspose.com/api/net/words/aspose.words/textureindex) enumeration value that enables the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](http://www.aspose.com/api/net/words/aspose.words/textureindex) value and set the foreground shading color as appropriate. Below example demonstrates how to apply borders and shading to a paragraph.
 
 Below example shows how to apply borders and shading to a paragraph.
 

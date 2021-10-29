@@ -16,7 +16,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 | Mail Merge                                                   | The [”Mail Merge and Reporting”](https://docs.aspose.com/words/java/mail-merge-and-reporting/) section |
 | Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/java/rendering/) section |
 | Print a document                                             | The [”Printing a Document Programmatically or Using Dialogs”](https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/) article |
-| Join multiple documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](https://docs.aspose.com/words/java/insert-and-append-documents/) article |
+| Join a few documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](https://docs.aspose.com/words/java/insert-and-append-documents/) article |
 | Find and Replace                                             | The [“Find and Replace”](https://docs.aspose.com/words/java/find-and-replace/) article |
 | Updating fields                                              | The [“Working with Fields”](https://docs.aspose.com/words/java/working-with-fields/) section |
 | Manage a Table of Content (TOC)                              | The [“Working with Table of Contents”](https://docs.aspose.com/words/java/working-with-table-of-contents/) article |

@@ -155,7 +155,7 @@ This is a behavioral change of the "mimic Word" kind. Therefore it should be pre
 
 ### Added option to trim white spaces from mail merge values
 
-WORDSNET-12650 and WORDSNET-12791 are now resolved. In Aspose.Words 15.12.0 an option is added that allows to trim trailing and leading whitespaces mail merge values:
+WORDSNET-12650 and WORDSNET-12791 are now resolved. In Aspose.Words 15.12.0 an option is added that enables to trim trailing and leading whitespaces mail merge values:
 
 {{< highlight csharp >}}
 Document.MailMerge.TrimWhitespaces = false;

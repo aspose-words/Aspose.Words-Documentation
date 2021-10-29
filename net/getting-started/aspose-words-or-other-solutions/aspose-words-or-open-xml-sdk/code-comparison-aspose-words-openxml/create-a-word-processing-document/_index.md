@@ -16,7 +16,7 @@ On this page we will look at how to create a document using Aspose.Words or Open
 
 In Aspose.Words, we normally use the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class to create a document and the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class to modify it.
 
-The following code example shows how to create a document:
+The following code example demonstrates how to create a document:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -40,7 +40,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example shows how to create a document:
+The following code example demonstrates how to create a document:
 
 {{< highlight csharp >}}
 public void CreateADocumentFeature()

@@ -36,7 +36,7 @@ The code example below demonstrates how to save a document as PDF with fillable 
 
 ## Exporting Document Structure and Custom Properties
 
-The [ExportDocumentStructure](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#ExportDocumentStructure) property allows you to export document structure to PDF output.
+The [ExportDocumentStructure](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#ExportDocumentStructure) property enables you to export document structure to PDF output.
 
 PDF logical structure facilities provide a mechanism for incorporating information, regarding the document content structure, into a PDF file. Aspose.Words preserves information about the structure from a Microsoft Word document, such as paragraphs, lists, tables, footnotes/endnotes, etc.
 
@@ -62,7 +62,7 @@ The output PDF of this example is shown below:
 
 When **HeaderFooterBookmarksExportMode** is set to [First](https://apireference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode#FIRST) and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
-You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/java/com.aspose.words/outlineoptions#HeadingsOutlineLevels) property. This property specifies how several levels of headings are included in the document outline.
+You can also export headings in the output PDF, using the [HeadingsOutlineLevels](https://apireference.aspose.com/words/java/com.aspose.words/outlineoptions#HeadingsOutlineLevels) property. This property specifies how many levels of headings are included in the document outline.
 
 The code example below demonstrates how to export headings with three levels:
 
@@ -92,7 +92,7 @@ Resolution is calculated according to the real image size on the page.
 
 ## Embedding Fonts in Adobe PDF Format
 
-Aspose.Words also enables you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section ["Using TrueType Fonts"](/words/java/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
+Aspose.Words also allows you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section ["Using TrueType Fonts"](/words/java/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
 
 ### When to Use Full Fonts and When to Subset
 
@@ -101,16 +101,16 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 |Embed Fonts Mode|Advantages|Disadvantages|
 | :- | :- | :- |
 |Full|Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
-|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If a few PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing numerous unnecessary subsets.</p>|
+|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If numerous PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
 
 ### Embedding Full Fonts in PDF
 
-The [EmbedFullFonts](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#EmbedFullFonts) property allows you to specify how Aspose.Words embeds fonts into an output PDF document.
+The [EmbedFullFonts](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#EmbedFullFonts) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
 
 - To embed full fonts into the output PDF document, set **EmbedFullFonts** to true
 - To subset fonts when saving to PDF, set **EmbedFullFonts** to false
 
-The following example demonstrates how to embed full fonts in the output PDF document:
+The following example shows how to embed full fonts in the output PDF document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddAllFonts.java" >}}
 
@@ -166,7 +166,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#FontEmbeddingMode)[ ](http://www.aspose.com/api/net/words/aspose.words.saving/pdfsaveoptions/properties/embedstandardwindowsfonts)property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_NONSTANDARD), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_NONE), Aspose.Words do not embed any fonts.
 
-The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
+The example below demonstrates how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.java" >}}
 

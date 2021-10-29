@@ -12,7 +12,7 @@ Microsoft Word generates and saves the pre-rendered drawing along with the Smart
 
 ## Using SmartArt Cold Rendering
 
-Aspose.Words enables you to use a pre-rendered drawing or perform cold rendering:
+Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
 
 * If a pre-rendered drawing is available, Aspose.Words uses it to render the SmartArt object.
 * If pre-rendered drawing is missing, Aspose.Words implicitly performs cold rendering to render the SmartArt object.
@@ -40,7 +40,7 @@ The table below lists the fully and partially supported layouts:
 
 ## Comparison of SmartArt Rendering in Aspose.Words and Microsoft
 
-The table below demonstrates example pictures of Aspose.Words Cold Rendering of some standard layouts compared to Microsoft Word output:
+The table below shows example pictures of Aspose.Words Cold Rendering of some standard layouts compared to Microsoft Word output:
 
 |                               | **Aspose.Words**                                             | **Microsoft Word**                                           |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |

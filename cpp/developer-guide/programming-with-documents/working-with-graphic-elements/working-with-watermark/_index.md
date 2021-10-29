@@ -57,6 +57,6 @@ watermark->set_Name(u"WaterMark");
 
 ## How to Add a Watermark in Table Cell
 
-Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use ShapeBase.IsLayoutInCell property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for MS Word 2010 using CompatibilityOptions.OptimizeFor method. The following code example demonstrates how to use this property. 
+Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use ShapeBase.IsLayoutInCell property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for MS Word 2010 using CompatibilityOptions.OptimizeFor method. The following code example shows how to use this property. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cpp" >}}

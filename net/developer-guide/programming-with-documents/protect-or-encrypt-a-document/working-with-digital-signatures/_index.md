@@ -69,7 +69,7 @@ Assert.True(info.HasDigitalSignature);
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 {{< /highlight >}}
 
-## Create a Digital Signature {#create-a-digital-signature}
+## Add Digital Signature {#create-a-digital-signature}
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
@@ -81,7 +81,7 @@ The next sections explain how to add a digital signature, signature line, and ho
 
 Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/methods/sign/index) method and [SignOptions](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions) properties.
 
-The following code example shows how to sign documents using a certificate holder and sign options:
+The following code example demonstrates how to sign documents using a certificate holder and sign options:
 
 {{< highlight csharp >}}
 // Create X.509 certificate.

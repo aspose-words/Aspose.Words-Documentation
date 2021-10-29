@@ -1,6 +1,6 @@
 ﻿---
 title: Working with Hyphenation
-description: "Aspose.Words for C++ allows to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
+description: "Aspose.Words for C++ enables to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 65
 url: /cpp/working-with-hyphenation/
@@ -53,7 +53,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
+The following code example demonstrates how to load hyphenation dictionaries for the specified language from a stream:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Hyphenation-LoadHyphenationDictionaryForLanguage.h" >}}
 
@@ -65,7 +65,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 As an alternative to pre-registering hyphenation dictionaries, it is possible to register only required hyphenation dictionaries “by request”. To achieve that, implement the [IHyphenationCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.i_hyphenation_callback/) interface and use the static callback [Callback](https://apireference.aspose.com/words/cpp/class/aspose.words.hyphenation#get_callback).
 
-The following code example demonstrates how to implement the **IHyphenationCallback** interface:
+The following code example shows how to implement the **IHyphenationCallback** interface:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Hyphenation-CustomHyphenation.h" >}}
 

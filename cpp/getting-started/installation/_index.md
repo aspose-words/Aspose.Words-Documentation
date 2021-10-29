@@ -1,4 +1,4 @@
----
+﻿---
 title: Installation
 description: "Install Aspose.Words for C++ using Manage NuGet Packages or Package Manager Console, as well as manual installer."
 type: docs

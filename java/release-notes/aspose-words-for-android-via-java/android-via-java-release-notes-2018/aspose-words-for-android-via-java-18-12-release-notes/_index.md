@@ -30,7 +30,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 - Improved page numbering for sections starting in new columns.
 - Improved table row alignment.
 - Improved tab stop calculations with paragraph indents.
-- Improved table breaking logic for several complex cases.
+- Improved table breaking logic for multiple complex cases.
 - Improved handling of character compression within mixed ltr/rtl text.
 - Fixed exception in rare case when field update causes line to contain only zero length spans.
 - Fixed exception in rare case when floating object is pushed beyond empty column.

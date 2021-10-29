@@ -12,7 +12,7 @@ Aspose.Words provides an ability to obtain information about the file type in or
 
 ## Detect File Format without an Exception
 
-When you are dealing with numerous documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
+When you are dealing with multiple documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
 If you attempt to load a file into a [Document](https://apireference.aspose.com/words/net/aspose.words/document) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [DetectFileFormat](https://apireference.aspose.com/words/net/aspose.words.fileformatutil/detectfileformat/methods/1) method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://apireference.aspose.com/words/net/aspose.words/fileformatinfo) object that contains the detected information about the file type.
 
@@ -28,13 +28,13 @@ We can check the format compatibility of all files in the selected folder and so
 
 Since we are dealing with contents in a folder, the first thing we need to do is get a collection of all the files in this folder using the **GetFiles** method of the Directory class (from the System.IO namespace).
 
-The following code example shows how to get a list of all the files in the folder:
+The following code example demonstrates how to get a list of all the files in the folder:
 
 {{< gist "aspose-words-gists" "3b6a8e49d800948f7d6ef7975f233fb3" "get-files-in-folder.cs" >}}
 
 When all the files are collected, the rest of the work is done by the **DetectFileFormat** method, which checks the file format.
 
-The following code example demonstrates how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
+The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
 {{< gist "aspose-words-gists" "3b6a8e49d800948f7d6ef7975f233fb3" "check-format-compatibility.cs" >}}
 

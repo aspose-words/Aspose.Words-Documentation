@@ -13,13 +13,13 @@ To ensure Aspose.Words accurately measures the characters and successfully embed
 1. Aspose.Words should be able to find and access TrueType font files on the system.
 1. There must be sufficient TrueType fonts available to Aspose.Words, preferably with the same font family names as the ones used in the document.
 
-Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the TrueType font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This enables certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
+Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the TrueType font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This allows certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
 
 ## Font Manipulation and Performance Issues
 
 All available font manipulation mechanisms are contained in the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
 
-Fonts are parsed in multiple steps:
+Fonts are parsed in numerous steps:
 
 1. Obtaining info for font, resolving from all available fonts.
 1. Parsing the resolved fonts to get available glyphs and metrics (horizontal and vertical).

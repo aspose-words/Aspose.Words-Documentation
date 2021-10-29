@@ -19,13 +19,13 @@ The same technique is used to extract the content from individual cells of a tab
 
 {{% /alert %}} 
 
-The following code example shows how to print the text range of row and table elements.
+The following code example demonstrates how to print the text range of row and table elements.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-PrintTextRangeOfRowAndTableElements.java" >}}
 
 ## Replace Text in a Table
 
-Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across numerous nodes, such as paragraphs or cells, then an exception is thrown.
+Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across a few nodes, such as paragraphs or cells, then an exception is thrown.
 
 Normally the replacement of text should be done at the cell level (per cell) or at the paragraph level.
 

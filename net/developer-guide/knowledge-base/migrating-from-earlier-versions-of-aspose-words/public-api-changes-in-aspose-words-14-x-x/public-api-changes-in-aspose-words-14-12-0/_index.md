@@ -111,7 +111,7 @@ public bool AllowTrailingWhitespaceForListItems
 **KeepDifferentStyles**
 
 {{< highlight csharp >}}
-/// <p>Using <b>KeepDifferentStyles</b> option enables to reuse destination styles
+/// <p>Using <b>KeepDifferentStyles</b> option allows to reuse destination styles
 /// if the formatting they provide is identical to the styles in the source document.
 /// If the style in destination document is different from the source then it is imported.</p>
 KeepDifferentStyles

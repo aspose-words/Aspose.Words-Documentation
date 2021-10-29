@@ -9,8 +9,8 @@ A table from any document loaded into Aspose.Words is imported as a Table node. 
 
 A **Table** node does not contain any real content - instead it is a container for other such nodes which make up the content:
 
-- A Table contains several Row nodes. A Table exposes all the normal members of a node which allows you to freely move, modify and remove the table in the document.
-- A Row represents a single row of a table and contains numerous Cell nodes. Additionally a Row provides members which define how a row is displayed, for example the height and alignment.
+- A Table contains numerous Row nodes. A Table exposes all the normal members of a node which enables you to freely move, modify and remove the table in the document.
+- A Row represents a single row of a table and contains multiple Cell nodes. Additionally a Row provides members which define how a row is displayed, for example the height and alignment.
 - A Cell is what contains the true content seen in a table and is made up of Paragraph and other block level nodes. Additionally cells can contain further nested tables.
 
 This relationship is best represented by inspecting the structure of a **Table** node in a document through the use of **DocumentExplorer** .
@@ -19,9 +19,9 @@ You can see in the diagram above that the document contains a table which consis
 
 You should also notice table is succeeded with an empty paragraph. It is a requirement for a Microsoft Word document to have at least one paragraph after a table. This is used to separate consecutive tables and without it such consecutive tables would be joined together into one. This behavior is identical in both Microsoft Word and Aspose.Words.
 
-## Create a Table {#create-a-table}
+## How to Create a Table {#create-a-table}
 
-Aspose.Words provides multiple different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
+Aspose.Words provides several different methods to create new tables in a document. This article presents the full details of how to insert formatted tables using each technique as well as a comparison of each technique at the end of the article. A newly created table is given similar defaults as used in Microsoft Word:
 
 |Table Property|Default in Aspose.Words|
 | :- | :- |
@@ -37,7 +37,7 @@ A table can be inline where it is tightly positioned or can be floating where it
 
 {{% /alert %}} 
 
-### Insert a Table {#insert-a-table}
+### Insert a Table using DocumentBuilder {#insert-a-table}
 
 In Aspose.Words a table is normally inserted using DocumentBuilder. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
@@ -59,7 +59,7 @@ In Aspose.Words a table is normally inserted using DocumentBuilder. The followin
 |**DocumentBuilder.Writeln**|Inserts some text into the first cell of the second row.|![fill-in-row-table-aspose-words-net](introduction-and-creating-tables_8.png)|
 |**DocumentBuilder.EndTable**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![finish-creating-table-aspose-words-net](introduction-and-creating-tables_9.png)|
 
-### Algorithm for Creating a Table {#algorithm-for-creating-a-table}
+### Algorithm to Create a Table {#algorithm-for-creating-a-table}
 
 The basic algorithm for creating a table using DocumentBuilder is simple:
 
@@ -113,9 +113,9 @@ Below example shows how to insert a table using the constructors of nodes.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableDirectly-InsertTableDirectly.cs" >}}
 
-### Insert a Copy of an Existing Table {#insert-a-clone-of-an-existing-table}
+### Insert a Clone of an Existing Table {#insert-a-clone-of-an-existing-table}
 
-Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone) method. Below example demonstrates how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone) method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cs" >}}
 
@@ -134,13 +134,13 @@ Instead the desired output is achieved more easily by using Mail Merge with Regi
 
 ### Insert a Table from HTML
 
-Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example demonstrates how to insert a table in a document from a string containing HTML tags.
+Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cs" >}}
 
 ### Comparison of Insertion Techniques
 
-As described in previous articles, Aspose.Words provides many methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
+As described in previous articles, Aspose.Words provides several methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
@@ -151,7 +151,7 @@ As described in previous articles, Aspose.Words provides many methods for insert
 
 ## Extract Plain Text from a Table
 
-A Table like any other node in Aspose.Words has access to a Range object. Using this object, you can call methods over the entire table range to extract the table as plain text. The Range.Text property is used for this purpose. Below example shows how to print the text range of a table.
+A Table like any other node in Aspose.Words has access to a Range object. Using this object, you can call methods over the entire table range to extract the table as plain text. The Range.Text property is used for this purpose. Below example demonstrates how to print the text range of a table.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-ExtractOrReplaceText-ExtractText.cs" >}}
 
@@ -167,11 +167,11 @@ Below example shows how to print the text range of row and table elements.
 
 ## Replace Text in a Table
 
-Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across several nodes, such as paragraphs or cells, then an exception is thrown.
+Using a table’s range object you can replace text within the table. However, there are currently restrictions which prevent any replacement with special characters being made so care must be taken to ensure that the replacement string does not carry over more than one paragraph or cell. If such a replacement is made which spans across numerous nodes, such as paragraphs or cells, then an exception is thrown.
 
 Normally the replacement of text should be done at the cell level (per cell) or at the paragraph level.
 
-Below example demonstrates how to replace all instances of string of text in a table and cell.
+Below example shows how to replace all instances of string of text in a table and cell.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-ExtractOrReplaceText-ReplaceText.cs" >}}
 

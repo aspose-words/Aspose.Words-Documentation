@@ -1,7 +1,7 @@
 ﻿---
 title: Translate Markdown to Document Object Model (DOM)
 type: docs
-description: "Aspose.Words for .NET allows to tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
+description: "Aspose.Words for .NET enables to tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
 weight: 13
 url: /net/translate-markdown-to-document-object-model/
 ---
@@ -63,7 +63,7 @@ A document is a sequence of container blocks such as headings, paragraphs, lists
 
 ### Leaf Blocks
 
-The table below demonstrates examples of using Markdown Leaf blocks in Aspose.Words:
+The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |

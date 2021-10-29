@@ -12,7 +12,7 @@ Sometimes it is required to get an image instead of documents in other formats, 
 
 As with all conversion examples already described, you need to create a new document or load an existing one in any supported format, make the necessary changes, and save it in any available image format, for example, JPEG, PNG, or BMP.
 
-The following code example shows how to convert DOCX to JPEG:
+The following code example demonstrates how to convert DOCX to JPEG:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-File Formats and Conversions-Base conversions-DocxToJpeg.h" >}}
 

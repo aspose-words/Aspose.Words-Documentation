@@ -35,7 +35,7 @@ If a conditional block belongs to a single paragraph, it can be used as a replac
 You have chosen <<if [!items.Any()]>>no items<<else>><<[items.Count()]>> item(s)<</if>>.
 {{< /highlight >}}
 
-**Note –** A template option of a common conditional block can be composed of many paragraphs if needed.
+**Note –** A template option of a common conditional block can be composed of numerous paragraphs if needed.
 
 You can normally use common conditional blocks within data bands. For example, given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them and apply different formatting for even and odd elements.
 
@@ -71,7 +71,7 @@ You can use data bands within common conditional blocks as well. For example, gi
 
 ## Working with Table-Row Conditional Blocks
 
-A table-row conditional block is a conditional block which body occupies single or a few rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
+A table-row conditional block is a conditional block which body occupies single or several rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
 **Note –** Table rows occupied by different template options in the following template are highlighted with different colors.
 
@@ -98,7 +98,7 @@ The following examples in this section are given using `client`, an instance of 
   }
 {{< /highlight >}}
 
-Using table-row conditional blocks, you can pick to output a single row among numerous rows of a single document table depending on a condition like in the following example.
+Using table-row conditional blocks, you can pick to output a single row among multiple rows of a single document table depending on a condition like in the following example.
 
 |...|...|...|
 | :- | :- | :- |

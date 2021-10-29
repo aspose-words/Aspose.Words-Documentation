@@ -5,7 +5,7 @@ weight: 20
 url: /net/document-to-pdf-conversion-in-php/
 ---
 
-## Document to PDF Conversion in PHP {#document-to-pdf-conversion}
+## Document to PDF Conversion {#document-to-pdf-conversion}
 
 Document to PDF Conversion Example
 

@@ -35,7 +35,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 | ODT, OTT                                                     | ODF Encryption (Blowfish/AES)                               | ODF Encryption (AES256 + SHA256)             |
 | PDF                                                          | -                                                           | RC4 Encryption (40/128 bit)                  |
 
-The following code example demonstrates how to encrypt a document with a password:
+The following code example shows how to encrypt a document with a password:
 
 {{< highlight csharp >}}
 // Create a document.
@@ -78,7 +78,7 @@ Assert.True(info.IsEncrypted);
 
 When we have made sure that a document is encrypted, we can try to open this document without a password, which should lead to an exception.
 
-The following code example demonstrates how to try opening an encrypted document without a password:
+The following code example shows how to try opening an encrypted document without a password:
 
 {{< highlight csharp >}}
 // Create a document.

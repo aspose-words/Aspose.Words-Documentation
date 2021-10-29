@@ -16,7 +16,7 @@ On this page we will look at how to extract image from a document using Aspose.W
 
 In Aspose.Words, use the [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape) class to work with images. To select all shape nodes use the [GetChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) method and to extract image data use the [ImageData](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata) property.
 
-The following code example demonstrates how to extract images from a document and save them as files:
+The following code example shows how to extract images from a document and save them as files:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Extract image.docx");
