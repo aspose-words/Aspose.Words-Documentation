@@ -82,4 +82,4 @@ If you do not know in advance whether the file is encrypted, you can use the [F
 
 The following code example {shows|demonstrates} how to verify OpenDocument either it is encrypted or not:
 
-{{< gist "aspose-words-gists" "935e41f0f59c7d8bd8a082ccc14f6b84" "verify-docx-is-encrypted.cs" >}}
+{{< gist "aspose-words-gists" "935e41f0f59c7d8bd8a082ccc14f6b84" "verify-odt-is-encrypted.cs" >}}
