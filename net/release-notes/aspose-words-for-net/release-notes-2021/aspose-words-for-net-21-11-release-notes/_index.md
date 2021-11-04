@@ -34,7 +34,7 @@ There are 64 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-22803 | Provide full support of ReportingEngine.UseReflectionOptimization for   .NET Standard | New Feature |
 | WORDSNET-11453 | Add feature to view/hide navigation panes of PDF | New Feature |
 | WORDSNET-9945 | Support native gradients with   transparency in PDF | New Feature |
-| WORDSNET-14850 | Export drop-down list content controls as 'selec' HTML elements | New Feature |
+| WORDSNET-14850 | Export drop-down list content controls as 'select' HTML elements | New Feature |
 | WORDSNET-17181 | Block level SDT not converting to Editable AcroFrom field | New Feature |
 | WORDSNET-14510 | SDT controls are not editable in the produced PDF | New Feature |
 | WORDSNET-18648 | Text gradient support | New Feature |
