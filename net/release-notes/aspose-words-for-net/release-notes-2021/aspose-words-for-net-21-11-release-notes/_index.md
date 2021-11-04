@@ -182,7 +182,7 @@ loadOptions.OriginalFileName = fileName;
 Document doc = new Document(inputStream , loadOptions);
 {{< /highlight >}}
 
-### Added a new FindReplaceOptions.IgnoreFieldCodes property.
+### Added a new FindReplaceOptions.IgnoreFieldCodes property
 
 Related issue: WORDSNET-22686.
 
