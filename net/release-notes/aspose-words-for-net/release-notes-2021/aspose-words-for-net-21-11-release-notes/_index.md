@@ -170,7 +170,7 @@ Use Case:
 string fileName= "myfile.chm";
  
 // Create an input stream of the input document.
-Stream inputStream = new MemoryStream(File.ReadAllText(fileName));
+Stream inputStream = new MemoryStream(File.ReadAllBytes(fileName));
  
 // Specify the file name in CHM load options.
 // This allows Aspose.Words to correctly resolve URLs like "ms-its:myfile.chm::/index.htm"
@@ -243,7 +243,7 @@ public IDocumentLoadingCallback ProgressCallback { get; set;}
 
 Supported formats are: Docx, FlatOpc, Docm, Dotm, Dotx.
 
-Consumer should to implement the following interface and set instance of it to the ProgressCallback for ability to get loading progress notifications.
+Consumer should implement the following interface and set instance of it to the ProgressCallback to get loading progress notifications.
 {{< highlight csharp >}}
 /// <summary>
 /// Implement this interface if you want to have your own custom method called during loading a document.
