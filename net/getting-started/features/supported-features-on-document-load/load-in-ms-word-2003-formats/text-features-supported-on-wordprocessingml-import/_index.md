@@ -86,7 +86,7 @@ See the following link in the documentation for further information:
 
 See the following link in the documentation for further information:
 
-- [Font](https://apireference.aspose.com/words/net/aspose.words/font/)
+- [Font](https://apireference.aspose.com/words/net/aspose.words/font)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -29,10 +29,10 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/styletype/)|
-|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/styletype/)|
-|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/styletype/)|
-|Table Style |Yes | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle/) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/styletype/)</p>|
+|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/styletype)|
+|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/styletype)|
+|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/styletype)|
+|Table Style |Yes | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/styletype)</p>|
 
 ## General
 

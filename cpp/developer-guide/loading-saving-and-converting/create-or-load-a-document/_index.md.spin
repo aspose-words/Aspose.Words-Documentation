@@ -12,7 +12,7 @@ Almost any task that you want to perform with Aspose.Words involves loading a do
 
 ## Create a {New Document| Document} {#create-a-new-document}
 
-We will call the [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder/) class to add document contents.
+We will call the [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder) class to add document contents.
 
 The following code example {shows|demonstrates} how to create a document using the document builder:
 

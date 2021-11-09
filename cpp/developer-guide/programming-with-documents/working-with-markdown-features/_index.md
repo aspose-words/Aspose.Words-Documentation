@@ -103,7 +103,7 @@ The following code snippet shows you how to read a markdown document.
 
 ## Specify Markdown Save Options
 
-Aspose.Words API provides [MarkdownSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.markdown_save_options/) class to specify additional options while saving a document into the Markdown format.
+Aspose.Words API provides [MarkdownSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.markdown_save_options) class to specify additional options while saving a document into the Markdown format.
 
 The following code example demonstrated how to specify various Markdown save options.
 

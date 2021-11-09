@@ -15,7 +15,7 @@ Paragraph formatting is contained within the ParagraphFormat class which is link
 
 See the following links in the documentation for further information:
 
-- [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph/)
+- [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph)
 - [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat)
 
 [Jump to this location in the export section](/words/net/paragraph-features-supported-on-docx-export/)
@@ -26,7 +26,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |<p>- [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/) </p><p>- [ParagraphFormat.Style](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/style)</p>|
+|Paragraph Style |Yes | |<p>- [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) </p><p>- [ParagraphFormat.Style](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/style)</p>|
 |Alignment |Yes |The special "Thai Distributed" alignment is also supported during conversion. There is currently no API to access or modify this alignment. |- [ParagraphFormat.Alignment](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/alignment)|
 |Right to Left Paragraph |Yes | |- [ParagraphFormat.Bidi](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/bidi)|
 |Bullets and Numbers |Yes | |<p>- **ParagraphFormat.ListFormat** </p><p>- **ParagraphFormat.ListLabel**</p>|

@@ -23,11 +23,11 @@ Take a look at some mail merge rules that you can implement.
 
 ### Implement Next field to Merge Data Records in Current Document
 
-You can implement the [Next](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_next/) field to merge the next data record into the current resulting merged document, instead of starting a new merged document. It is used to display several records in one document.
+You can implement the [Next](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_next) field to merge the next data record into the current resulting merged document, instead of starting a new merged document. It is used to display several records in one document.
 
 ### Implement NextIf and SkipIf Fields to Compare Two Expressions
 
-You can use either [NextIf](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_next_if/) field or [SkipIf](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_skip_if/) field if you want to compare two expressions ([right]https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_if#a5f0ff4c658c480c7dba88dd62572c3bd) and [left](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_if#get_leftexpression) expressions) by some [operator](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_skip_if#get_comparisonoperator).
+You can use either [NextIf](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_next_if) field or [SkipIf](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_skip_if) field if you want to compare two expressions ([right]https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_if#a5f0ff4c658c480c7dba88dd62572c3bd) and [left](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_if#get_leftexpression) expressions) by some [operator](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_skip_if#get_comparisonoperator).
 
 **NextIf** field has the same functionality as **Next** field, but it skips to the next row only if the condition is met. You can add **SkipIf** field to your template to exclude records that meet a certain criterion from a mail merge. The following table demonstrates the main difference between NextIf and SkipIf:
 
@@ -50,7 +50,7 @@ The following code example demonstrates how to get names of all merge fields in 
 
 ### Get Information About Merge Regions
 
-You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#getregionshierarchy) method. You can use the properties and methods of the [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info/) class.The following code example demonstrates how to get merge regions hierarchy:
+You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#getregionshierarchy) method. You can use the properties and methods of the [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info) class.The following code example demonstrates how to get merge regions hierarchy:
 
 {{< highlight csharp >}}
 

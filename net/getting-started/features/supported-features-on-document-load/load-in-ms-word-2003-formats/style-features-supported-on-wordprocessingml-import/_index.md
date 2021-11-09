@@ -22,7 +22,7 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 See the following links in the documentation for further information:
 
 - [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/Document/properties/styles)
-- [Style](https://apireference.aspose.com/words/net/aspose.words/style/)
+- [Style](https://apireference.aspose.com/words/net/aspose.words/style)
 - [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

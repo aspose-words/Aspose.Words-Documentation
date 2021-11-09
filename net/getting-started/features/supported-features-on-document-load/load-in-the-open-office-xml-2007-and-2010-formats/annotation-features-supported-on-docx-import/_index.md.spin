@@ -61,7 +61,7 @@ All three comment nodes are related through the use of the ID properties on each
 See the following links in the documentation for further information:
 
 - [How to Extract or Remove Comments](https://docs.aspose.com/words/net/working-with-comments/#how-to-extract-or-remove-comments)
-- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment/)
+- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
 - [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

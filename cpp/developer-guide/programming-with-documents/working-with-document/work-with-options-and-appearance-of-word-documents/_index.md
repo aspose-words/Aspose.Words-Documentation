@@ -47,7 +47,7 @@ The following code example demonstrates how to set the number of characters per 
 
 Displaying a document in Microsoft Word depends on which languages are set as defaults for this document. If no languages are set in defaults, Microsoft Word takes information from the "Set Office Language Preferences" dialog box, which, for example, can be found under "File → Options → Language" in Microsoft Word 2019.
 
-With Aspose.Words, you can also set up language preferences using the [LanguagePreferences](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.language_preferences/) class. Also note that for the correct display of your document it is necessary to set the Microsoft Word version that the document loading process should match – this can be done using the [MswVersion](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_mswversion_const) property.
+With Aspose.Words, you can also set up language preferences using the [LanguagePreferences](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.language_preferences) class. Also note that for the correct display of your document it is necessary to set the Microsoft Word version that the document loading process should match – this can be done using the [MswVersion](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_mswversion_const) property.
 
 {{% alert color="primary" %}}
 

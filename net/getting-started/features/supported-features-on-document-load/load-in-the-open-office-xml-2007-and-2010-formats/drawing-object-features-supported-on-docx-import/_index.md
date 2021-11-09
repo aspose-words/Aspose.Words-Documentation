@@ -49,7 +49,7 @@ See the following links in the documentation for further information:
 - [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
 - **Shape.ImageData**
 - [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
-- [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil/)
+- [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -150,7 +150,7 @@ See the following links in the documentation for further information:
 |Flowcharts |Yes | | |
 |Callouts |Yes | | |
 |Stars and Banners |Yes | | |
-|Group Shape |Yes | |<p>- [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape/) </p><p>- [Shape.IsGroup](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isgroup)</p>|
+|Group Shape |Yes | |<p>- [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) </p><p>- [Shape.IsGroup](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isgroup)</p>|
 |Drawing Canvas |Yes | | |
 |Signature Line |Planned |Signature line content is currently preserved in image form only. You cannot access or validate the digital signature attached to a signature line yet or extract the signature as plain text. <br><br>Creating new signature lines is currently unsupported. <br><br>These features will be included as soon as possible. |- **Shape.ImageData**|
 |Ink Annotation |Yes | | |

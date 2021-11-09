@@ -7,21 +7,21 @@ weight: 260
 url: /cpp/working-with-watermark/
 ---
 
-This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://apireference.aspose.com/words/cpp/class/aspose.words.watermark/) class.
+This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://apireference.aspose.com/words/cpp/class/aspose.words.watermark) class.
 
 ## How to Add a Watermark to a Document
 
-In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [watermark](https://apireference.aspose.com/words/cpp/class/aspose.words.watermark/) class to add or remove watermark in documents. Aspose.Words provides [WatermarkType ](https://apireference.aspose.com/words/cpp/namespace/aspose.words/#watermarktype)enumeration defining three possible types of watermarks (Text, Image, and None) to work with. 
+In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [watermark](https://apireference.aspose.com/words/cpp/class/aspose.words.watermark) class to add or remove watermark in documents. Aspose.Words provides [WatermarkType ](https://apireference.aspose.com/words/cpp/namespace/aspose.words/#watermarktype)enumeration defining three possible types of watermarks (Text, Image, and None) to work with. 
 
 ### Add Text Watermark
 
-The following code example {demonstrates|shows} how to insert a text watermark in a document by defining [TextWatermarkOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.text_watermark_options/) using the SetText method.
+The following code example {demonstrates|shows} how to insert a text watermark in a document by defining [TextWatermarkOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.text_watermark_options) using the SetText method.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.cpp" >}}
 
 ### Add Image Watermark
 
-The following code example {demonstrates|shows} how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.image_watermark_options/) using the SetImage method.
+The following code example {demonstrates|shows} how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.image_watermark_options) using the SetImage method.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 

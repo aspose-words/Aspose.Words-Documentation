@@ -8,23 +8,23 @@ url: /cpp/specify-truetype-fonts-location/
 
 This topic describes the default behavior of Aspose.Words when it looks for TrueType fonts, including operating system specific differences, and {demonstrates|shows} how to specify user font sources.
 
-The [FontSourceBase](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_source_base/) class is used to specify various font sources. There are {several|multiple|a few|many|numerous} implementations of the **FontSourceBase** class:
+The [FontSourceBase](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_source_base) class is used to specify various font sources. There are {several|multiple|a few|many|numerous} implementations of the **FontSourceBase** class:
 
-- [SystemFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.system_font_source/)
-- [FolderFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.folder_font_source/)
-- [StreamFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/)
-- [FileFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.file_font_source/)
-- [MemoryFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.memory_font_source/)
+- [SystemFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.system_font_source)
+- [FolderFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.folder_font_source)
+- [StreamFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source)
+- [FileFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.file_font_source)
+- [MemoryFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.memory_font_source)
 
 Implementation details for some classes are explained below.
 
 ## Loading Fonts from System
 
-There is a special [SystemFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.system_font_source/) class that is always used by default. It represents all TrueType fonts installed on the system. Therefore, it is possible to create a source list with **SystemFontSource** and any other required sources:
+There is a special [SystemFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.system_font_source) class that is always used by default. It represents all TrueType fonts installed on the system. Therefore, it is possible to create a source list with **SystemFontSource** and any other required sources:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithFontSources-SetFontsFolder.cpp" >}}
 
-A single instance of the **SystemFontSource** class is defined by default in [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/). On different operating systems, fonts may be located in different places. However, using a **FontSettings** instance for each document is not an optimal solution. In the majority of cases, using [DefaultInstance](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#get_defaultinstance) should be enough.
+A single instance of the **SystemFontSource** class is defined by default in [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). On different operating systems, fonts may be located in different places. However, using a **FontSettings** instance for each document is not an optimal solution. In the majority of cases, using [DefaultInstance](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#get_defaultinstance) should be enough.
 
 Per-document instances are needed only if it is required to use different font sources for different documents, which is a rare case. Using several **FontSettings** instances decreases performance because they do not share the cache.
 
@@ -132,7 +132,7 @@ If the document being processed contains links to fonts that are not on the syst
 
 ### Specifying One or Multiple Font Folders
 
-The [SetFontsFolder](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#setfontsfolder_string_bool) and [SetFontsFolders](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#setfontsfolders_stringarray_bool) methods are shortcuts to the **SetFontSources** method with one or several [FolderFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.folder_font_source/) instances. These methods are used to indicate where Aspose.Words should look for fonts. If a folder does not exist or is not accessible, Aspose.Words just ignores this folder. If all folders, including sources for the font substitution, were ignored, Aspose.Words will use Fanwood font as a default.
+The [SetFontsFolder](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#setfontsfolder_string_bool) and [SetFontsFolders](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/#setfontsfolders_stringarray_bool) methods are shortcuts to the **SetFontSources** method with one or several [FolderFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.folder_font_source) instances. These methods are used to indicate where Aspose.Words should look for fonts. If a folder does not exist or is not accessible, Aspose.Words just ignores this folder. If all folders, including sources for the font substitution, were ignored, Aspose.Words will use Fanwood font as a default.
 
 The following example {demonstrates|shows} how to set the folder or source, which Aspose.Words will subsequently use to look for TrueType fonts during rendering or embedding of fonts:
 
@@ -174,11 +174,11 @@ System::SharedPtr<FolderFontSource> folderFontSource = System::MakeObject<Folder
 
 ## Loading Fonts from Stream
 
-Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/) class, which {allows|enables} loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/#openfontdatastream) method. The **OpenFontDataStream** method could be called {several|multiple|a few|many|numerous} times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it {allows|enables} loading the font data only when it is required, and not to store it in the memory for the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) lifetime.
+Aspose.Words provides the [StreamFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source) class, which {allows|enables} loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.stream_font_source/#openfontdatastream) method. The **OpenFontDataStream** method could be called {several|multiple|a few|many|numerous} times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it {allows|enables} loading the font data only when it is required, and not to store it in the memory for the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) lifetime.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-ResourceSteamFontSource-ResourceSteamFontSource.cpp" >}}
 
-**StreamFontSource** is an alternative to [MemoryFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.memory_font_source/) since it is always possible to load a stream to memory and pass it to **MemoryFontSource**. The difference is that the **MemoryFontSource** is stored in the memory all the time, and the **StreamFontSource** is loaded on demand and disposed of right away. But it may be loaded {several|multiple|a few|many|numerous} times, as described above. In some cases **MemoryFontSource** is preferable, and in others, **StreamFontSource**.
+**StreamFontSource** is an alternative to [MemoryFontSource](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.memory_font_source) since it is always possible to load a stream to memory and pass it to **MemoryFontSource**. The difference is that the **MemoryFontSource** is stored in the memory all the time, and the **StreamFontSource** is loaded on demand and disposed of right away. But it may be loaded {several|multiple|a few|many|numerous} times, as described above. In some cases **MemoryFontSource** is preferable, and in others, **StreamFontSource**.
 
 ## Getting a List of Available Fonts
 

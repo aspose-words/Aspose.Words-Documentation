@@ -8,7 +8,7 @@ url: /cpp/working-with-digital-signatures/
 
 A digital signature is a technological implementation of electronic signatures to sign documents and authenticate the signer to guarantee that a document has not been modified since it was signed. Each digital signature is unique for each signer because of following the PKI protocol to generate both public and private keys. Signing a document digitally means creating a signature using the signer's private key where a mathematical algorithm is used to encrypt the generated hash.
 
-Aspose.Words {allows|enables} you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util/) class to work with digital signatures.
+Aspose.Words {allows|enables} you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util) class to work with digital signatures.
 
 This article explains how to do all of the above to validate the authenticity and integrity of a digital document.
 
@@ -74,7 +74,7 @@ The next sections explain how to add a digital signature, signature line, and ho
 
 ### Sign a Document
 
-Aspose.Words {allows|enables} you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#sign_stream_stream_certificateholder) method and [SignOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.sign_options/) properties.
+Aspose.Words {allows|enables} you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#sign_stream_stream_certificateholder) method and [SignOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.sign_options) properties.
 
 The following code example {shows|demonstrates} how to sign documents using a certificate holder and sign options:
 
@@ -112,7 +112,7 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 
 ### Add a Signature Line
 
-A signature line is a visual representation of a digital signature in a document. Aspose.Words {allows|enables} you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertsignatureline_signaturelineoptions) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.signature_line_options/) class.
+A signature line is a visual representation of a digital signature in a document. Aspose.Words {allows|enables} you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertsignatureline_signaturelineoptions) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.signature_line_options) class.
 
 For example, the picture below {shows|demonstrates} how valid and invalid signatures can be displayed.
 
