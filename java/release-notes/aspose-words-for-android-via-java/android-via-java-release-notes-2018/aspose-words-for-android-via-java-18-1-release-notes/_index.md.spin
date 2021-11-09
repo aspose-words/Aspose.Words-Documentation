@@ -7,7 +7,7 @@ url: /java/aspose-words-for-android-via-java-18-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Android via Java 18.1](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/18.1/).
+This page contains release notes for [Aspose.Words for Android via Java 18.1](https://repository.aspose.com/repo/com/aspose/aspose-words/18.1/).
 
 {{% /alert %}} 
 

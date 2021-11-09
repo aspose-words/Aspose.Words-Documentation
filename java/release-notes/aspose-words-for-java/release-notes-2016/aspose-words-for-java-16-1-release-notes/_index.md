@@ -7,7 +7,7 @@ url: /java/aspose-words-for-java-16-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 16.1](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.1.0/)
+This page contains release notes for [Aspose.Words for Java 16.1](https://repository.aspose.com/repo/com/aspose/aspose-words/16.1.0/)
 
 {{% /alert %}} 
 
