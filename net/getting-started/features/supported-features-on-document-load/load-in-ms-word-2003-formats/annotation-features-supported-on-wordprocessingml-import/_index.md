@@ -57,13 +57,13 @@ All three comment nodes are related through the use of the ID properties on each
 See the following links in the documentation for further information:
 
 - [How to Extract or Remove Comments](https://docs.aspose.com/words/net/working-with-comments/)
-- [Comment](http://www.aspose.com/api/net/words/aspose.words/comment)
-- [Comment.Id](http://www.aspose.com/api/net/words/aspose.words/comment/properties/id)
+- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
+- [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Comment|Yes| |- [Comment.SetTxt](https://apireference.aspose.com/words/net/aspose.words/comment/methods/settext)|
-|Comment Range|Yes| |<p>- [CommentRangeStart](http://www.aspose.com/api/net/words/aspose.words/commentrangestart)</p><p>- [CommentRangeEnd](http://www.aspose.com/api/net/words/aspose.words/commentrangeend)</p>|
+|Comment Range|Yes| |<p>- [CommentRangeStart](https://apireference.aspose.com/words/net/aspose.words/commentrangestart)</p><p>- [CommentRangeEnd](https://apireference.aspose.com/words/net/aspose.words/commentrangeend)</p>|
 |Author|Yes| |- [Comment.Author](https://apireference.aspose.com/words/net/aspose.words/comment/properties/author)|
 |Date|Yes| |- **Comment.Date**|
 |Initial|Yes| |- **Comment.Inital**|

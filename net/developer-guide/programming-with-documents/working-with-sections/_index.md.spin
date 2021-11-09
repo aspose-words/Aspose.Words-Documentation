@@ -37,11 +37,11 @@ When you delete a section break, you also delete the section formatting for the 
 
 ## Sections in Aspose.Words
 
-Sections of the document are represented by the [Section](http://www.aspose.com/api/net/words/T_Aspose_Words_Section) and [SectionCollection](http://www.aspose.com/api/net/words/T_Aspose_Words_SectionCollection) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](http://www.aspose.com/api/net/words/P_Aspose_Words_Document_Sections) property.
+Sections of the document are represented by the [Section](https://apireference.aspose.com/words/net/T_Aspose_Words_Section) and [SectionCollection](https://apireference.aspose.com/words/net/T_Aspose_Words_SectionCollection) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://apireference.aspose.com/words/net/P_Aspose_Words_Document_Sections) property.
 
 ### Obtaining a Section
 
-Each section is represented by a [Section](http://www.aspose.com/api/net/words/T_Aspose_Words_Section) object that can be obtained from the [Document.Sections](http://www.aspose.com/api/net/words/P_Aspose_Words_Document_Sections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
+Each section is represented by a [Section](https://apireference.aspose.com/words/net/T_Aspose_Words_Section) object that can be obtained from the [Document.Sections](https://apireference.aspose.com/words/net/P_Aspose_Words_Document_Sections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
 
 {{% alert color="primary" %}} 
 
@@ -93,7 +93,7 @@ Use the Section.Clone method to create a duplicate of a particular section. Belo
 
 ### Copying Sections between Documents
 
-Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](http://www.aspose.com/api/net/words/aspose.words/documentbase/methods/importnode) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. Below example {shows|demonstrates} how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](https://apireference.aspose.com/words/net/aspose.words/documentbase/methods/importnode) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. Below example {shows|demonstrates} how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-CopySection-CopySection.cs" >}}
 
@@ -127,7 +127,7 @@ This sample {shows|demonstrates} how to remove page and section breaks from the 
 
 To remove page and section breaks from a document you should follow the steps below:
 
-1. Load a document into the [Document](http://www.aspose.com/api/net/words/aspose.words/document) class by passing a file path or stream to the appropriate **Document** constructor.
+1. Load a document into the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class by passing a file path or stream to the appropriate **Document** constructor.
 1. To remove page breaks:
    1. Retrieve the collection of **Paragraph** nodes of document.
    1. Check if each **Paragraph** has the **ParagraphFormat.PageBreakBefore** property set and set it to *false* it if it does.
@@ -140,7 +140,7 @@ It contains one page break and one section break. The section break separates th
 
 ### Removing Page Breaks
 
-Firstly the code to remove the page breaks is discussed. Generally a single [Run](http://www.aspose.com/api/net/words/aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even {multiple|several|a few|many|numerous} page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
+Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://apireference.aspose.com/words/net/aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even {multiple|several|a few|many|numerous} page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
 
 Below example removes all page breaks from the document.
 
@@ -150,13 +150,13 @@ Firstly all paragraphs in the document are gathered using the Document.GetChildN
 
 During the enumeration if a paragraph has the page break before setting enabled then the setting is removed. Each run of the paragraph is then checked for the presence of a **ControlChar.PageBreakChar** character. If a run contains one or more of these characters they are removed by replacing them with an empty string.
 
-Note that in a Word Document the same character is used to represent a page break and section break. The **ControlChar.PageBreakChar** and [ControlChar.SectionBreakChar](http://www.aspose.com/api/net/words/aspose.words/controlchar/fields/sectionbreakchar) are identical. You will only ever encounter a page break represented by this character in a document using Aspose.Words. This is explained further in the section below.
+Note that in a Word Document the same character is used to represent a page break and section break. The **ControlChar.PageBreakChar** and [ControlChar.SectionBreakChar](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/sectionbreakchar) are identical. You will only ever encounter a page break represented by this character in a document using Aspose.Words. This is explained further in the section below.
 
 ### Removing Section Breaks
 
-Removing section breaks from a document is more complicated than page breaks. In the Aspose.Words document object model, sections are represented as separate instances of the [Section](http://www.aspose.com/api/net/words/aspose.words/section) class. The content found within these sections is added as children of the **Section** object, for example as [Body](http://www.aspose.com/api/net/words/aspose.words/body) or **Paragraph** nodes. To remove section breaks all content of the sections should be combined into one and the other sections removed. This will achieve the same result as deleting each section break in Microsoft Word.
+Removing section breaks from a document is more complicated than page breaks. In the Aspose.Words document object model, sections are represented as separate instances of the [Section](https://apireference.aspose.com/words/net/aspose.words/section) class. The content found within these sections is added as children of the **Section** object, for example as [Body](https://apireference.aspose.com/words/net/aspose.words/body) or **Paragraph** nodes. To remove section breaks all content of the sections should be combined into one and the other sections removed. This will achieve the same result as deleting each section break in Microsoft Word.
 
-Depending on how you want to modify your document you may find in this situation that simply changing each section to appear continually one after the other is the better option instead of combining them all. This would allow different section formatting to still be retained. This can be achieved by iterating through all sections in the document and setting **PageSetup.SectionStart** property of the section’s [PageSetup](http://www.aspose.com/api/net/words/aspose.words/pagesetup) class to [SectionStart.Continuous](http://www.aspose.com/api/net/words/aspose.words/sectionstart).
+Depending on how you want to modify your document you may find in this situation that simply changing each section to appear continually one after the other is the better option instead of combining them all. This would allow different section formatting to still be retained. This can be achieved by iterating through all sections in the document and setting **PageSetup.SectionStart** property of the section’s [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup) class to [SectionStart.Continuous](https://apireference.aspose.com/words/net/aspose.words/sectionstart).
 
 In Microsoft Word when you delete a break between two the newly combined section inherits all properties from the second section. Thus if all sections are combined in the same way the resulting formatting should be inherited from the last section in the document. To match the same behavior programmatically the code is set up to transfer all content from the first sections into the last section of the document:
 

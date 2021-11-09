@@ -41,11 +41,11 @@ A table can be inline where it is tightly positioned or can be floating where it
 
 In Aspose.Words a table is normally inserted using DocumentBuilder. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
-- [DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable)
-- [DocumentBuilder.InsertCell](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/insertcell)
-- [DocumentBuilder.EndRow](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/endrow)
-- [DocumentBuilder.EndTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/endtable)
-- [DocumentBuilder.Writeln](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/writeln)
+- [DocumentBuilder.StartTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/starttable)
+- [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertcell)
+- [DocumentBuilder.EndRow](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endrow)
+- [DocumentBuilder.EndTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endtable)
+- [DocumentBuilder.Writeln](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/writeln)
 
 |Operation|Description|Table State|
 | :- | :- | :- |
@@ -63,13 +63,13 @@ In Aspose.Words a table is normally inserted using DocumentBuilder. The followin
 
 The basic algorithm for creating a table using DocumentBuilder is simple:
 
-1. Start the table using [DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable).
-1. Insert a cell using [DocumentBuilder.InsertCell](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/insertcell). This automatically starts a new row. If needed, use the [DocumentBuilder.CellFormat](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/properties/cellformat) property to specify cell formatting.
+1. Start the table using [DocumentBuilder.StartTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/starttable).
+1. Insert a cell using [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertcell). This automatically starts a new row. If needed, use the [DocumentBuilder.CellFormat](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/cellformat) property to specify cell formatting.
 1. Insert cell contents using the DocumentBuilder methods.
 1. Repeat steps 2 and 3 until the row is complete.
-1. Call [DocumentBuilder.EndRow](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/endrow) to end the current row. If needed, use [DocumentBuilder.RowFormat](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/properties/rowformat) property to specify row formatting.
+1. Call [DocumentBuilder.EndRow](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endrow) to end the current row. If needed, use [DocumentBuilder.RowFormat](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/rowformat) property to specify row formatting.
 1. Repeat steps 2 - 5 until the table is complete.
-1. Call [DocumentBuilder.EndTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/endtable) to finish the table building. The appropriate DocumentBuilder table creation methods are described below.
+1. Call [DocumentBuilder.EndTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endtable) to finish the table building. The appropriate DocumentBuilder table creation methods are described below.
 
 #### Start a Table
 
@@ -77,13 +77,13 @@ Calling DocumentBuilder.StartTable is the first step in building a table. It c
 
 #### Inserting a Cell
 
-After you call DocumentBuilder.InsertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder.InsertCell again. Use the DocumentBuilder.CellFormat property to specify cell formatting. It returns a [CellFormat](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/properties/cellformat) object that represents all formatting for a table cell.
+After you call DocumentBuilder.InsertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder.InsertCell again. Use the DocumentBuilder.CellFormat property to specify cell formatting. It returns a [CellFormat](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/cellformat) object that represents all formatting for a table cell.
 
 #### End a Row
 
 Call DocumentBuilder.EndRow to finish the current row. If you call DocumentBuilder.InsertCell immediately after that, then the table continues on a new row.
 
-Use the DocumentBuilder.RowFormat property to specify row formatting. It returns a [RowFormat](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/properties/cellformat) object that represents all formatting for a table row.
+Use the DocumentBuilder.RowFormat property to specify row formatting. It returns a [RowFormat](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/cellformat) object that represents all formatting for a table row.
 
 #### End a Table
 
@@ -105,7 +105,7 @@ Below example shows how to insert a nested table using DocumentBuilder.
 
 ### Insert a Table Directly into the Document Object Model (DOM) {#insert-a-table-directly-into-the-document-object-model}
 
-You can insert tables directly into the DOM at a particular node position. The same table defaults are used as when using a [DocumentBuilder](http://www.aspose.com/api/net/words/aspose.words/documentbuilder) to create a table. To build a new table from scratch without the use of **DocumentBuilder**, first create a new [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table) node using the appropriate constructor, and then add it to the document tree.
+You can insert tables directly into the DOM at a particular node position. The same table defaults are used as when using a [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) to create a table. To build a new table from scratch without the use of **DocumentBuilder**, first create a new [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table) node using the appropriate constructor, and then add it to the document tree.
 
 Note that you must take into account that the table will initially be completely empty (i.e contains no child rows yet). In order to build the table you will first need to add the appropriate child nodes.
 
@@ -115,7 +115,7 @@ Below example shows how to insert a table using the constructors of nodes.
 
 ### Insert a Clone of an Existing Table {#insert-a-clone-of-an-existing-table}
 
-Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone) method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](https://apireference.aspose.com/words/net/aspose.words/node/methods/clone) method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cs" >}}
 
@@ -134,7 +134,7 @@ Instead the desired output is achieved more easily by using Mail Merge with Regi
 
 ### Insert a Table from HTML
 
-Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
+Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cs" >}}
 
@@ -144,10 +144,10 @@ As described in previous articles, Aspose.Words provides several methods for ins
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
-|DocumentBuilder ([DocumentBuilder.StartTable](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/starttable))|Standard method of inserting tables and other document content.|Sometimes hard to create numerous varieties of tables at the same time with the same instance of the builder.|
-|Table( [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
-|Cloning ([Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
-|From an HTML source. ([DocumentBuilder.InsertHtml](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/inserthtml))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
+|DocumentBuilder ([DocumentBuilder.StartTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/starttable))|Standard method of inserting tables and other document content.|Sometimes hard to create numerous varieties of tables at the same time with the same instance of the builder.|
+|Table( [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
+|Cloning ([Table.Clone](https://apireference.aspose.com/words/net/aspose.words/node/methods/clone))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
+|From an HTML source. ([DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
 
 ## Extract Plain Text from a Table
 

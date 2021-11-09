@@ -14,7 +14,7 @@ On this page we will look at how to remove comments of all or a specific author 
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words you can work with comments by using the [Comment](http://www.aspose.com/api/net/words/aspose.words/comment) class.
+In Aspose.Words you can work with comments by using the [Comment](https://apireference.aspose.com/words/net/aspose.words/comment) class.
 
 The following code example demonstrates how to remove all comments in a document:
 

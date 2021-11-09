@@ -120,7 +120,7 @@ The following code example {shows|demonstrates} how to insert a nested table usi
 
 ### Insert a Table Directly into the {Document Object Model|Document Object Model (DOM)|DOM} {#insert-a-table-directly-into-the-document-object-model}
 
-You can insert tables directly into the DOM at a particular node position. The same table defaults are used as when using a [DocumentBuilder](http://www.aspose.com/api/net/words/aspose.words/documentbuilder) to create a table. To build a new table from scratch without the use of **DocumentBuilder**, first create a new [Table](http://www.aspose.com/api/net/words/aspose.words.tables/table) node using the appropriate constructor, and then add it to the document tree.
+You can insert tables directly into the DOM at a particular node position. The same table defaults are used as when using a [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) to create a table. To build a new table from scratch without the use of **DocumentBuilder**, first create a new [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table) node using the appropriate constructor, and then add it to the document tree.
 
 Note that you must take into account that the table will initially be completely empty (i.e contains no child rows yet). In order to build the table you will first need to add the appropriate child nodes.
 
@@ -130,7 +130,7 @@ The following code example {shows|demonstrates} how to insert a table using the 
 
 ### Insert a {Copy|Clone} of an Existing Table {#insert-a-clone-of-an-existing-table}
 
-Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](http://www.aspose.com/api/net/words/aspose.words/node/methods/clone) method. Below example {shows|demonstrates} how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Tables/Table.SimpleTable.doc).
+Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](https://apireference.aspose.com/words/net/aspose.words/node/methods/clone) method. Below example {shows|demonstrates} how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Tables/Table.SimpleTable.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertCloneOfExistingTable-cloneOfATable.java" >}}
 

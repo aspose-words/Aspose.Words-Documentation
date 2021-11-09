@@ -44,7 +44,7 @@ The following code example demonstrates how to create a simple document using a 
 
 ### Specify Document Formatting
 
-The [Font](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](http://www.aspose.com/api/net/words/aspose.words/font/properties/bold), [Font.Italic](http://www.aspose.com/api/net/words/aspose.words/font/properties/italic), and [Font.Underline](http://www.aspose.com/api/net/words/aspose.words/font/properties/underline) boolean properties.
+The [Font](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://apireference.aspose.com/words/net/aspose.words/font/properties/bold), [Font.Italic](https://apireference.aspose.com/words/net/aspose.words/font/properties/italic), and [Font.Underline](https://apireference.aspose.com/words/net/aspose.words/font/properties/underline) boolean properties.
 
 The following code example demonstrates how to insert a formatted text using **DocumentBuilder**:
 

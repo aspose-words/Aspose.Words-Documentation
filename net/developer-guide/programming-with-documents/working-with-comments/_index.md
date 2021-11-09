@@ -7,7 +7,7 @@ url: /net/working-with-comments/
 
 {{% alert color="primary" %}} 
 
-Comments of the document are represented by the [Comment](http://www.aspose.com/api/net/words/aspose.words/comment) class. Use [CommentRangeStart](http://www.aspose.com/api/net/words/aspose.words/commentrangestart) and [CommentRangeEnd](http://www.aspose.com/api/net/words/aspose.words/commentrangeend) classes to specify a region of text that is to be commented.
+Comments of the document are represented by the [Comment](https://apireference.aspose.com/words/net/aspose.words/comment) class. Use [CommentRangeStart](https://apireference.aspose.com/words/net/aspose.words/commentrangestart) and [CommentRangeEnd](https://apireference.aspose.com/words/net/aspose.words/commentrangeend) classes to specify a region of text that is to be commented.
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ You can try this functionality with our [Free online remove annotations](https:/
 
 To illustrate how to extract and remove comments from a document, we will go through the following steps:
 
-1. Open a Word document using the [Document](http://www.aspose.com/api/net/words/aspose.words/document) class.
+1. Open a Word document using the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class.
 1. Get all comments from the document into a collection.
 1. To extract comments:
    1. Go through the collection using the foreach operator.
@@ -45,9 +45,9 @@ To illustrate how to extract and remove comments from a document, we will go thr
 
 ### The Code
 
-The code in this sample is actually quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method is set to true: this forces the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) to select from all child nodes recursively, rather than only collecting the immediate children.
+The code in this sample is actually quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.GetChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.GetChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) method is set to true: this forces the [Document.GetChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) to select from all child nodes recursively, rather than only collecting the immediate children.
 
-The [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. Below example extracts the author name, date&time and text of all comments in the document.
+The [Document.GetChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. Below example extracts the author name, date&time and text of all comments in the document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-ExtractComments.cs" >}}
 
@@ -57,7 +57,7 @@ The overloaded method that extracts the Comments from a particular author is alm
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-ExtractCommentsByAuthor.cs" >}}
 
-If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling [NodeCollection.Clear](http://www.aspose.com/api/net/words/aspose.words/nodecollection/methods/clear) on the comments collection. Below example removes all comments in the document.
+If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling [NodeCollection.Clear](https://apireference.aspose.com/words/net/aspose.words/nodecollection/methods/clear) on the comments collection. Below example removes all comments in the document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-RemoveComments.cs" >}}
 
