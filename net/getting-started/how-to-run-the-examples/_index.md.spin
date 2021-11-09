@@ -14,7 +14,7 @@ In this article, you can find the system requirements, as well as information on
 
 Please make sure you meet the following requirements before downloading and running the examples:
 
-1. Visual Studio Code, Visual Studio 2017, or Visual Studio 2019.
+1. Visual Studio Code, Visual Studio 2019.
 2. Installed NuGet Package Manager and the latest NuGet API version for Visual Studio.
 3. Selected **nuget.org** option in the “Tools → Options" dialog box under "NuGet Package Manager → Package Sources”.
 4. An active Internet connection to use the NuGet Automatic Package Restore feature in the Examples project. If you do not have an active Internet connection on the machine where the examples are to be executed, check the article [“Installation”](https://docs.aspose.com/words/net/installation) and manually add a reference to Aspose.Words.dll to the Examples project.
@@ -26,7 +26,7 @@ All Aspose.Words for .NET examples are hosted on [GitHub](https://github.com/asp
 After getting a copy of the repository, you may find that:
 
 - All the examples are located in the **Examples** folder.
-- There are Visual Studio solution files for C# and Xamarin created in Visual Studio 2017.
+- There are Visual Studio solution files for C# and Xamarin created in Visual Studio 2019.
 
 To run the examples, open the solution file in Visual Studio and build the project:
 
