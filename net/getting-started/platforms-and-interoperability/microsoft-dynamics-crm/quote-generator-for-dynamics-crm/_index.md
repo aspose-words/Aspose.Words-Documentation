@@ -45,13 +45,11 @@ This addon will work with all version of Microsoft Dynamics CRM:
 
 You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
-- [Codeplex](https://asposenetcrm.codeplex.com/releases/view/617510)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNETQuoteGenerator2013)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Quote-Generator-1e73e2a9)
 
 You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 
-- [Codeplex](https://asposenetcrm.codeplex.com/releases/view/617516)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNETQuoteGenerator2015)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Quote-Generator-1e73e2a9)
 
@@ -96,7 +94,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .Net Quote Generator using any of the following platforms:
 
-- [Codeplex](https://asposenetcrm.codeplex.com/wikipage?title=Aspose%20.NET%20Quote%20Generator)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose%20.NET%20Quote%20Generator)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Quote-Generator-1e73e2a9)
 

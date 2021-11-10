@@ -42,7 +42,6 @@ This addon will work with ASP.NET MVC 4+:
 
 You can download the latest solution for Microsoft Visual Studio at:
 
-- [Codeplex](https://asposewordsnetmvc.codeplex.com/releases/view/619601)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.MVC.ExportToPDF-v1.0)
 
 ## Installation and Usage
@@ -73,7 +72,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose Export to PDF for ASP.NET MVC using any of the following platforms:
 
-- [Codeplex](https://asposewordsnetmvc.codeplex.com)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET)
 
 ### Extend and Contribute

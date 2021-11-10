@@ -39,7 +39,6 @@ using (FileStream sw = File.Create("blank.docx"))
 
 Download **Create Empty Document** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1467694)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Create.Empty.Document.Aspose.Words.zip)
 
 {{% alert color="primary" %}} 

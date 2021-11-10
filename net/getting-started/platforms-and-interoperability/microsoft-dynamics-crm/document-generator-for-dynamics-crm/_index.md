@@ -37,7 +37,6 @@ This addon will work with all version of Microsoft Dynamics CRM:
 
 You can download Aspose .NET Document Generator for CRM from one of the following locations:
 
-- [Codeplex](http://goo.gl/eMcjA9)
 - [Github](http://goo.gl/rrLOLu)
 - [Sourceforge](http://goo.gl/mua233)
 - [Bitbucket](http://goo.gl/ngjuJg)
@@ -106,7 +105,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET Document Generator using any of the following platforms:
 
-- [Codeplex](http://goo.gl/eMcjA9)
 - [Github](http://goo.gl/rrLOLu)
 - [Sourceforge](http://goo.gl/mua233)
 - [Bitbucket](http://goo.gl/ngjuJg)

@@ -32,7 +32,6 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 You can download the latest solution at:
 
-- [Codeplex](http://goo.gl/Xun3VM)
 - [Github](https://goo.gl/2rGmgd)
 - [Code.MSDN](https://goo.gl/ZTW336)
 
@@ -98,7 +97,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose.Words Email Exporter using any of the following platforms:
 
-- [Codeplex](https://asposewordsmscrm.codeplex.com/discussions)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Email-Exporter-26eb623e/view/Discussions#content)
 

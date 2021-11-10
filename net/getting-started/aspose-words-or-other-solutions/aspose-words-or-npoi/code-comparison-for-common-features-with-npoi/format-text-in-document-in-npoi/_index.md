@@ -159,7 +159,6 @@ out1.Close();
 
 Download **Format Text in Document** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1467696)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Format.Text.in.Document.Aspose.Words.zip)
 
 {{% alert color="primary" %}} 

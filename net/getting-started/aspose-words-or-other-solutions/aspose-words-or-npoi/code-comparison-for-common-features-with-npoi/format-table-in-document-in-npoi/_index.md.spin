@@ -86,7 +86,6 @@ Note that before you apply table properties there must be at least one row prese
 
 Download **Format Table in Document** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://archive.codeplex.com/?p=asposenpoi#Aspose.Words_NPOI.HWPF%20and%20XWPF/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Format%20Table%20in%20Document/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Format%20Table%20in%20Document)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
 
@@ -94,6 +93,5 @@ Download **Format Table in Document** from any of the below mentioned social cod
 
 Download **Format Table in Document** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/releases/view/617696)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsNPOIHWPFandXWPF1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)

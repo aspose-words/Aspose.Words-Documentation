@@ -37,7 +37,6 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 You can download Quote Generator modules from one of the following locations
 
-- [CodePlex](https://asposewordsdnn.codeplex.com/releases)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AdvanceDNNContentExporter)
 - [DNN Store](http://store.dnnsoftware.com/home/product-details/aspose-net-advance-dnn-content-exporter)
 
@@ -103,7 +102,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
-- [CodePlex ](https://asposewordsdnn.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-Advance-DNN-9d95e936/view/Discussions#content)
 
@@ -115,7 +113,6 @@ Aspose .NET Advance DNN Content Exporter module is open source and their source 
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposewordsdnn.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
 - [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-Advance-DNN-9d95e936)
 

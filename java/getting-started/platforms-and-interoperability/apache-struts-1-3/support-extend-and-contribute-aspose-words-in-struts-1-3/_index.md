@@ -13,7 +13,6 @@ url: /java/support-extend-and-contribute-aspose-words-in-struts-1-3/
 
 **Please use any of the following project's issues tracker:**
 
-- [CodePlex](https://aspose-wordsforstruts.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
 ## Extend and Contribute
@@ -24,5 +23,4 @@ Aspose.Words Java for Struts 1.3 is open source and its source code is available
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex](https://aspose-wordsforstruts.codeplex.com)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Struts)

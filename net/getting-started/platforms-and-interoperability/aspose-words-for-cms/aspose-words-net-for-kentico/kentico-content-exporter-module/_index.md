@@ -46,7 +46,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Kentico Modules using any of the following platforms
 
-- [CodePlex ](https://asposekentico.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Kentico/issues)
 - [Sourceforge ](https://sourceforge.net/p/asposekentico/tickets/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/issues?status=new&status=open)
@@ -60,7 +59,6 @@ Aspose .NET Word Processing and PDF Document Exporter for Kentico is open source
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposekentico.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Kentico)
 - [Sourceforge ](https://sourceforge.net/p/asposekentico/code/ci/master/tree/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/src)
@@ -83,7 +81,6 @@ Please follow these simple steps to get started
 
 You can download Aspose .NET Content Exporter for Kentico module from one of the following locations
 
-- [CodePlex](https://asposekentico.codeplex.com/releases)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Kentico/releases)
 - [Sourceforge ](https://sourceforge.net/projects/asposekentico/files/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/downloads)

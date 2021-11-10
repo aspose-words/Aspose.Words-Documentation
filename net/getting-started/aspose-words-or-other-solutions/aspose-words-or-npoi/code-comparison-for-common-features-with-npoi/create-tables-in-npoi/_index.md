@@ -94,7 +94,6 @@ out1.Close();
 
 Download **Create Tables** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1467695)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Create.Tables.Aspose.Words.zip)
 
 {{% alert color="primary" %}} 

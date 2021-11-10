@@ -33,7 +33,6 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 You can download Aspose .NET Word Import for DNN Module from one of the following locations
 
-- [CodePlex ](https://asposednn.codeplex.com/releases)
 - [DNN Store ](http://store.dnnsoftware.com/home/product-details/aspose-net-word-import-for-dnn-module)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/releases)
 - [Sourceforge ](https://sourceforge.net/projects/asposednn/files/)
@@ -86,7 +85,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
-- [CodePlex ](https://asposednn.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
 - [Sourceforge ](https://sourceforge.net/p/asposednn/tickets/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
@@ -100,7 +98,6 @@ Aspose .NET Word Processing and PDF Document Exporter for DNN and Aspose .NET Wo
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposednn.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN)
 - [Sourceforge ](https://sourceforge.net/p/asposednn/code/ci/master/tree/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/src)

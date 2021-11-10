@@ -45,7 +45,6 @@ This addon will work with all version of Microsoft Dynamics CRM:
 
 You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
-- [Codeplex](http://goo.gl/2iiWDp)
 - [Github](http://goo.gl/Rtz2bB)
 - [Sourceforge](http://goo.gl/eM7eLD)
 - [Bitbucket](http://goo.gl/G6I63s)
@@ -53,7 +52,6 @@ You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
 You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 
-- [Codeplex](http://goo.gl/klLk9A)
 - [Github](http://goo.gl/OQCXKW)
 - [Sourceforge](http://goo.gl/hT6rBJ)
 - [Bitbucket](http://goo.gl/3RtHTR)
@@ -102,7 +100,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET AutoMerge using any of the following platforms:
 
-- [Codeplex](http://goo.gl/Lgma6E)
 - [Github](http://goo.gl/7QOJlI)
 - [Sourceforge](http://goo.gl/2rEubq)
 - [Bitbucket](http://goo.gl/blUMuZ)

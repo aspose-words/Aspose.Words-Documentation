@@ -108,8 +108,6 @@ Please follow [**GitHub Issues Tracker**](https://github.com/aspose-words/Aspos
 Aspose.Words Java for NetBeans (Maven) is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it. Developers can also learn from it to make their own plugins.
 
 - [GitHub](https://goo.gl/X3QIEm)
-- [CodePlex](https://goo.gl/TG5tpC)
-
 #### How to configure source code of Aspose.Words Java for NetBeans (Maven)
 
 Below simple steps will smoothly lead to successful configuration of  **"Aspose.Words Java for NetBeans (Maven)"** plugin  source code in NetBeans IDE

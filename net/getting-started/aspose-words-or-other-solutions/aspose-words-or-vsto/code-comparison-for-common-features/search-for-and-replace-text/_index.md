@@ -31,6 +31,5 @@ doc.Save("Search and Replace.doc");
 
 ## Download Sample Code
 
-- [Codeplex](http://goo.gl/D3Jmkl)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Search.for.and.Replace.text.Asose.Words.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Search%20for%20and%20Replace%20text%20\(Asose.Words\).zip)

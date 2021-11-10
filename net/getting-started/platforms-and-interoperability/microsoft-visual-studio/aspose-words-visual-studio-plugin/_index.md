@@ -43,7 +43,6 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 You can download Aspose Visual Studio Plugin from one of the following locations
 
-- [CodePlex ](https://aspose-wordsvs.codeplex.com/releases)
 - [Code.MSDN ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32)
 - [Visual Studio Gallery ](https://visualstudiogallery.msdn.microsoft.com/4b07ac86-1ca8-456e-992e-ba80cfd562da)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
@@ -96,7 +95,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose Visual Studio Plugin using any of the following platforms
 
-- [CodePlex ](https://aspose-wordsvs.codeplex.com/workitem/list/basic)
 - [Visual Studio Gallery - Q and A](https://visualstudiogallery.msdn.microsoft.com/4b07ac86-1ca8-456e-992e-ba80cfd562da)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32/view/Discussions#content)
@@ -109,7 +107,6 @@ You can log any issues or suggestions related to Aspose Visual Studio Plugin usi
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://aspose-wordsvs.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
 - [Microsoft Developer Network ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32)
 
