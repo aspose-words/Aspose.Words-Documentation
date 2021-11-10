@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licensing
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ The evaluation and the paid versions of Aspose.Words for Android via Java use t
 
 ## Applying a License
 
-Once you are happy with your evaluation of Aspose.Words, [purchase a license](https://purchase.aspose.com/default.aspx) at the Aspose website. Make yourself familiar with the different [license types](https://purchase.aspose.com/policies/license-types/) offered. If you have any questions, do not hesitate to [contact the Aspose sales team](https://company.aspose.com/contact). Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
+Once you are happy with your evaluation of Aspose.Words, [purchase a license](https://purchase.aspose.com/buy) at the Aspose website. Make yourself familiar with the different [license types](https://purchase.aspose.com/policies/license-types/) offered. If you have any questions, do not hesitate to [contact the Aspose sales team](https://company.aspose.com/contact). Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
 
 The license is a plain text XML file that contains details such as the product name, number of licensed developers, subscription expiry date and so on. The file is digitally signed, so do not modify the file: even adding an extra line break into the file will invalidate it. You need to set a license before performing any operations with documents. Make sure you do this before creating a Document object. You are only required to [set a license once per application or process](/words/java/licensing/#licensing-whentoapplyalicense).
 

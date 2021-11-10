@@ -29,7 +29,7 @@ The diagram provided below {shows|demonstrates} inheritance between node classes
 
 {{% alert color="primary" %}}
 
-The Aspose.Words DOM also contains the non-node classes, such as [Style](https://apireference.aspose.com/words/java/com.aspose.words/style) or [Font](https://apireference.aspose.com/words/java/com.aspose.words/font), which are used to customize the appearance and styles  within a document. These classes are not shown in this diagram as not inherited from the Node class.
+The Aspose.Words DOM also contains the non-node classes, such as [Style](https://apireference.aspose.com/words/java/com.aspose.words/style) or [Font](https://apireference.aspose.com/words/java/com.aspose.words/Font), which are used to customize the appearance and styles  within a document. These classes are not shown in this diagram as not inherited from the Node class.
 
 {{% /alert %}}
 
@@ -73,7 +73,7 @@ The nodes in the tree have relationships between them:
 
 - A node containing another node is a *parent.*
 - The node contained in the parent node is a *child.* Child nodes of the same parent are *sibling* nodes.
-- The *root* node is always the [Document](https://apireference.aspose.com/words/java/com.aspose.words/document) node.
+- The *root* node is always the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) node.
 
 The nodes that can contain other nodes derive from the [CompositeNode](https://apireference.aspose.com/words/java/com.aspose.words/compositenode) class, and all nodes ultimately derive from the [Node](https://apireference.aspose.com/words/java/com.aspose.words/node) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
 

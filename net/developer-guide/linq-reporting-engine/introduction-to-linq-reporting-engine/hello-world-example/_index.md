@@ -31,4 +31,4 @@ After the source code is executed, the template document is populated with the d
 LINQ Reporting Engine says: "Hello, World."
 {{< /highlight >}}
 
-After the report document is built, you can save it or perform any other tasks on it using [Aspose.Words API](https://apireference.aspose.com/net/words) in your code.
+After the report document is built, you can save it or perform any other tasks on it using [Aspose.Words API](https://apireference.aspose.com/words/net) in your code.

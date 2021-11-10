@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Fields
 type: docs
 weight: 20
@@ -105,7 +105,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of the included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/net/words/aspose.words.fields/fieldincludetext). The code example given below {shows|demonstrates} how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/net/aspose.words.fields/fieldincludetext). The code example given below {shows|demonstrates} how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertIncludeTextFieldWithoutDocumentBuilder-InsertIncludeTextFieldWithoutDocumentBuilder.cpp" >}}
 

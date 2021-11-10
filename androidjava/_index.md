@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Android via Java
 type: docs
 weight: 10
@@ -22,11 +22,11 @@ The following are the links to some useful resources you may need to accomplish 
 
 - [Aspose.Words for Java Online Documentation](https://docs.aspose.com/words/java/) (Aspose.Words for Android via Java is very similar to Aspose.Words for Java. So, you can use the same documentation)
 - [Aspose.Words for Android via Java Features](https://docs.aspose.com/words/java/aspose-words-for-android-via-java-features/)
-- [Aspose.Words for Android via Java Limitations and API Differences](https://docs.aspose.com/words/java/aspose-words-for-android-via-java-api-differences-and-limitations/)
+- [Aspose.Words for Android via Java Limitations and API Differences](https://docs.aspose.com/words/java/aspose-words-for-android-via-java-limitations-and-api-differences/)
 - [Aspose.Words for Android via Java Release Notes](https://docs.aspose.com/words/java/aspose-words-for-android-via-java/)
 - [Aspose.Words for Android via Java Product Page](https://products.aspose.com/words/android-java)
 - [Download Aspose.Words for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words)
 - [Install Aspose.Words for Android via Java from Maven](https://docs.aspose.com/words/java/install-aspose-words-for-android-via-java/#install-asposewords-for-android-via-java-from-maven-repository)
-- [Aspose.Words for Android via Java API Reference Guide](https://apireference.aspose.com/java/words) (Aspose.Words for Android via Java is very similar to Aspose.Words for Java. So, you can use the same API Reference Guide)
+- [Aspose.Words for Android via Java API Reference Guide](https://apireference.aspose.com/words/java) (Aspose.Words for Android via Java is very similar to Aspose.Words for Java. So, you can use the same API Reference Guide)
 - [Aspose.Words for Android via Java Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for Android via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

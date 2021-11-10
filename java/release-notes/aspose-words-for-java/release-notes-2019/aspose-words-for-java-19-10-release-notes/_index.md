@@ -157,4 +157,4 @@ Console.WriteLine(paragraph.ParagraphFormat.Bidi);
 
 Issue: WORDSNET-18920
 
-The "[Inserting Hyperlinks Dynamically](/words/java/inserting-hyperlinks-dynamically/)" section of the engine's documentation was updated to describe the change.
+The "[Inserting Hyperlinks Dynamically](/words/java/working-with-fields/)" section of the engine's documentation was updated to describe the change.

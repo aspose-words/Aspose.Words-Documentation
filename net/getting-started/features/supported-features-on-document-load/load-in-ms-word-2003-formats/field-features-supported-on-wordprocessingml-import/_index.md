@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field Features Supported on WordprocessingML Import
 type: docs
 weight: 50
@@ -175,7 +175,7 @@ These fields will be supported in a later version of Aspose.Words. All other fie
 
 See the following links in the documentation for further information:
 
-- [Mail Merge and Reporting](/words/net/mail-merge-and-reporting)
+- [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
 - [Document.MailMerge](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmerge)
 - [How to Use Advanced Mail Merge Features](/words/net/how-to-execute-mail-merge)
 

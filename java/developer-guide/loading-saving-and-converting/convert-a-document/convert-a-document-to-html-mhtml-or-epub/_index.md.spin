@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document to HTML, MHTML or EPUB
 description: "Use Aspose.Words for Java to convert documents from Word or any other supported formats to HTML, MHTML, or EPUB."
 type: docs
@@ -86,4 +86,4 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## See Also
 
-- [How to export round-trip information when saving to HTML](/words/java/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip/)
+- [How to export round-trip information when saving to HTML](/words/java/custom-styles-used-for-proper-aspose-words-html-roundtrip/)

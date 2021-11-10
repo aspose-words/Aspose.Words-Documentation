@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create New Document
 type: docs
 weight: 50
@@ -127,6 +127,6 @@ if (save) {
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Creating a New Document](/words/java/creating-or-loading-a-document/).
+For more details, visit [Creating a New Document](/words/java/create-or-load-a-document/).
 
 {{% /alert %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field Features Supported on Rich Text Import
 type: docs
 weight: 50
@@ -179,7 +179,7 @@ See the following links in the documentation for further information:
 
 - [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
 - [Document.MailMerge](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmerge)
-- [How to Use Advanced Mail Merge Features](/words/net/how-to-use-advanced-mail-merge-features/)
+- [How to Use Advanced Mail Merge Features](/words/net/advanced-mail-merge-features/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

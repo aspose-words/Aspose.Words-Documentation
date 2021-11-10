@@ -1,4 +1,4 @@
-﻿---
+---
 title: Features
 description: "Aspose.Words for Java provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
@@ -42,13 +42,13 @@ Many customers worldwide rely on the thorough document import and export feature
 
 |Feature|Description|
 | :- | :- |
-|Microsoft Word (DOC) ([load](https://docs.aspose.com/words/java/load-in-the-microsoft-word-document-97-2003-document-doc-dot-format/) and [save](https://docs.aspose.com/words/java/save-in-the-microsoft-word-document-97-2003-document-doc-dot-format/))|The fastest and most complete DOC format implementation you can find.|
-|WordprocessingML (DOCX, XML) ([load](https://docs.aspose.com/words/java/load-in-the-open-office-xml-2007-an-2010-docx-dotx-docm-dotm-format/) and [save](https://docs.aspose.com/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/))|Aspose.Words provides exhaustive support OOXML, Flat OPC, and also Word 2003 XML.|
+|Microsoft Word (DOC) ([load](https://docs.aspose.com/words/java/load-in-ms-word-97-2003-formats/) and [save](https://docs.aspose.com/words/java/save-in-ms-word-97-2003-formats/))|The fastest and most complete DOC format implementation you can find.|
+|WordprocessingML (DOCX, XML) ([load](https://docs.aspose.com/words/java/load-in-the-open-office-xml-2007-and-2010-formats/) and [save](https://docs.aspose.com/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/))|Aspose.Words provides exhaustive support OOXML, Flat OPC, and also Word 2003 XML.|
 |Rich Text Format (RTF) ([load](https://docs.aspose.com/words/java/load-in-the-rich-text-format-1-9-rtf-format/) and [save](https://docs.aspose.com/words/java/save-in-the-rich-text-format-1-9-rtf-format/))|Comprehensive support of the RTF format to interact with a variety of applications.|
 |HTML, XHTML and MHTML|[Load](https://docs.aspose.com/words/java/load-in-the-html-html-xhtml-mhtml-format/) and [save](https://docs.aspose.com/words/java/save-in-the-html-html-xhtml-mhtml-format/) HTML/XHTML for even greater interoperability. Save as MHTML is also available.|
 |OpenDocument (ODT)|Aspose.Words can [load](https://docs.aspose.com/words/java/load-in-the-opendocument-text-odt-ott-format/) and [save](https://docs.aspose.com/words/java/save-in-the-opendocument-text-odt-ott-format/) documents in the OpenDocument Text (.odt) format.|
 |[Adobe Portable Document Format (PDF)](https://docs.aspose.com/words/java/save-in-the-adobe-portable-document-pdf-format/)|Convert any document to PDF with high fidelity. PDF/A is supported.|
-|XML Paper Specification (XPS) ([load](https://docs.aspose.com/words/java/load-in-the-microsoft-word-2003-wordprocessingml-xml-format/) and [save](https://docs.aspose.com/words/java/save-in-the-flatopc-ooxml-document-xml-format/))|Convert any document to XPS with high fidelity.|
+|XML Paper Specification (XPS) ([load](https://docs.aspose.com/words/java/load-in-ms-word-2003-formats/) and [save](https://docs.aspose.com/words/java/save-in-the-flatopc-ooxml-document-xml-format/))|Convert any document to XPS with high fidelity.|
 |Plain Text (TXT) ([load](https://docs.aspose.com/words/java/load-in-the-plain-text-txt-format/) and [save](https://docs.aspose.com/words/java/save-in-the-plain-text-txt-format/))|Easily extract text by saving in plain text format.|
 |[Digital Publishing (EPUB)](https://docs.aspose.com/words/java/save-in-the-idpf-epub-document-epub-format/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|
 

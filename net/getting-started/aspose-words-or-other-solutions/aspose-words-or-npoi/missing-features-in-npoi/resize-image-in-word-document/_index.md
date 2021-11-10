@@ -1,4 +1,4 @@
-﻿---
+---
 title: Resize Image in a Word Document
 description: "Aspose.Words for .NET allows to resize an image in a Word document. NPOI does not provide an opportunity to resize an image."
 type: docs
@@ -47,5 +47,5 @@ The [ConvertUtil ](https://apireference.aspose.com/words/net/aspose.words/conver
 
 See also:
 
-- [Github](https://github.com/asposewords/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2) for code example
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2) for code example
 - [Github](https://github.com/asposewords/Aspose.Words-for-.NET/releases/download/Aspose.WordsFeaturesmissinginNPOIv1.2/08.03-ImageReSize.zip) for running code

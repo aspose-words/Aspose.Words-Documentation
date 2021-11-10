@@ -8,7 +8,7 @@ url: /java/programming-with-documents-in-ruby/
 This section includes the following topics:
 
 - [Joining And Appending in Ruby](https://docs.aspose.com/words/java/joining-and-appending-in-ruby/)
-- [Working With Bookmarks in Ruby](https://docs.aspose.com/words/java/working-with-bookmarks-in-ruby/)
+- [Working With Bookmarks in Ruby](https://docs.aspose.com/words/java/working-with-bookmarks-ruby/)
 - [Working With Comments in Ruby](https://docs.aspose.com/words/java/working-with-comments-in-ruby/)
 - [Working With Document in Ruby](https://docs.aspose.com/words/java/working-with-document-in-ruby/)
 - [Working With Fields in Ruby](https://docs.aspose.com/words/java/working-with-fields-in-ruby/)

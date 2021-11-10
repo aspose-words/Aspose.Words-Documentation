@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field Features Supported on FlatOPC Import
 type: docs
 weight: 50
@@ -179,7 +179,7 @@ See the following links in the documentation for further information:
 
 - [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
 - **Document.MailMerge**
-- [How to Use Advanced Mail Merge Features](/words/java/how-to-use-advanced-mail-merge-features/)
+- [How to Use Advanced Mail Merge Features](/words/java/advanced-mail-merge-features/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

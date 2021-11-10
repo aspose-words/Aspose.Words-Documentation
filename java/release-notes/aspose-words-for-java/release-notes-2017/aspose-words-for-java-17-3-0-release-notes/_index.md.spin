@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Java 17.3.0 Release Notes
 type: docs
 weight: 100
@@ -92,7 +92,7 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14859|Documnte.RemoveUnusedResources throws System.ArgumentOutOfRangeException|Exception|
 |WORDSNET-14895|Aspose.Words.FileCorruptedException is thrown while loading Doc|Exception|
 |WORDSNET-14896|System.ArgumentOutOfRangeException is thrown while saving Doc to Html|Exception|
-|WORDSNET-12412|Add MailMergeCleanupOptions option to remove empty row|[Feature](https://docs.aspose.com/words/java/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/)|
+|WORDSNET-12412|Add MailMergeCleanupOptions option to remove empty row|[Feature](https://docs.aspose.com/words/java/clean-up-before-or-during-mail-merge/)|
 |WORDSNET-12487|Cell's content are warped incorrectly in output Pdf|Feature|
 |WORDSNET-14389|PDF output is incorrect for 2 text columns|Feature|
 |WORDSNET-14489|Add feature to set background color of table row using Linq Reporting Engine|Feature|

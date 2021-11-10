@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft Dynamics CRM
 type: docs
 weight: 30
@@ -34,8 +34,8 @@ We have created the following plugins for CRM using Aspose.Words
   - [Using and Configuring CRM Duplicate Detection](https://docs.aspose.com/words/net/using-and-configuring-crm-duplicate-detection/)
 - [Email Exporter for Dynamics CRM](https://docs.aspose.com/words/net/email-exporter-for-dynamics-crm/)
 - [OneClick Word Document Generator for Dynamics CRM](https://docs.aspose.com/words/net/oneclick-word-document-generator-for-dynamics-crm/)
-  - [Extend and Contribute to CRM OneClick Word Document Generator](https://docs.aspose.com/words/net/extend-and-contribute-to-crm-oneclick-word-document-generator/)
-  - [Using and Configuring CRM OneClick Word Document Generator](https://docs.aspose.com/words/net/using-and-configuring-crm-oneclick-word-document-generator/)
+  - [Extend and Contribute to CRM OneClick Word Document Generator](https://docs.aspose.com/words/net/extend-and-contribute-oneclick-generator/)
+  - [Using and Configuring CRM OneClick Word Document Generator](https://docs.aspose.com/words/net/using-and-configuring-crm-oneclick-generator/)
 - [Quote Generator for Dynamics CRM](https://docs.aspose.com/words/net/quote-generator-for-dynamics-crm/)
   - [Extend and Contribute to CRM Quote Generator](https://docs.aspose.com/words/net/extend-and-contribute-to-crm-quote-generator/)
   - [Using and Configuring CRM Quote Generator](https://docs.aspose.com/words/net/using-and-configuring-crm-quote-generator/)

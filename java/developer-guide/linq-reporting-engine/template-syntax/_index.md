@@ -1,4 +1,4 @@
-﻿---
+---
 title: Template Syntax
 type: docs
 weight: 30
@@ -45,7 +45,7 @@ During runtime, after a template syntax tag is processed by the engine, it is ty
 - [Inserting Documents Dynamically](/words/java/inserting-documents-dynamically/)
 - [Inserting Images Dynamically](/words/java/inserting-images-dynamically/)
 - [Inserting Bookmarks Dynamically](/words/java/inserting-bookmarks-dynamically/)
-- [Inserting Hyperlinks Dynamically](/words/java/inserting-hyperlinks-dynamically/)
+- [Inserting Hyperlinks Dynamically](/words/java/working-with-fields/)
 - [Setting Background Color Dynamically](/words/java/setting-background-color-dynamically/)
 - [Merging Table Cells Dynamically](/words/java/merging-table-cells-dynamically/)
 - [Restarting List Numbering Dynamically](/words/java/restarting-list-numbering-dynamically/)

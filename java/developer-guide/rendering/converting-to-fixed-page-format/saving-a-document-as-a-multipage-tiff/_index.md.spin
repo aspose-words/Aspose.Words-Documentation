@@ -1,4 +1,4 @@
-﻿---
+---
 title: Saving a Document as a Multipage TIFF
 description: "Aspose.Words for Java {allows|enables} you to convert a document to a raster image, which is discussed on the example of the TIFF format. To determine how TIFF is displayed you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
@@ -18,7 +18,7 @@ In Aspose.Words, conversion from DOC to TIFF can be performed with one line of c
 
 You often need to specify additional options, which affect the rendering result. For this purpose, use the [ImageSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/ImageSaveOptions) class, which contains properties that determine how the document is displayed on the image. You can specify the following:
 
-- Save format to determine the list of available options ([SaveFormat](https://apireference.aspose.com/net/words/aspose.words.saving/imagesaveoptions/properties/saveformat))
+- Save format to determine the list of available options ([SaveFormat](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/saveformat))
 - Resolution ([HorizontalResolution](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#HorizontalResolution), [VerticalResolution](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#VerticalResolution), [Resolution](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#Resolution))
 - Number of pages ([PageIndex](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#PageIndex), [PageCount](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#PageCount))
 - Color and lighting settings ([PaperColor](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#PaperColor), [ImageColorMode](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#ImageColorMode), [ImageBrightness](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#ImageBrightness), [ImageContrast](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#ImageContrast))

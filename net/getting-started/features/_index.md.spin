@@ -1,4 +1,4 @@
-﻿---
+---
 title: Features
 description: "Aspose.Words for .NET provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
@@ -38,16 +38,16 @@ Many customers worldwide rely on the thorough document import and export feature
 
 |Feature|Description|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- | :- |
-|[Microsoft Word - DOC](/words/net/microsoft-word-doc/)|The fastest and most complete DOC format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[WordprocessingML - DOCX and XML](/words/net/wordprocessingml-docx-and-xml/)|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Rich Text Format - RTF](/words/net/rich-text-format-rtf/)|Comprehensive support of the RTF format to interact with a variety of applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[HTML, XHTML and MHTML](/words/net/html-xhtml-and-mhtml/)|Load and save HTML/XHTML for even greater interoperability. Save as MHTML is also available.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[OpenDocument - ODT](/words/net/opendocument-odt/)|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Adobe Portable Document Format - PDF](/words/net/adobe-portable-document-format-pdf/)|Convert any document to PDF with high fidelity. PDF/A is supported.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XML Paper Specification - XPS](/words/net/xml-paper-specification-xps/)|Convert any document to XPS with high fidelity.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Plain Text - TXT](/words/net/plain-text-txt/)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Digital Publishing EPUB](/words/net/digital-publishing-epub/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Printer Command Language (PCL)](/words/net/printer-command-language-pcl/)|Aspose.Words for .NET provides support to save document to PCL format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Microsoft Word - DOC](/words/net/file-formats-and-conversions/)|The fastest and most complete DOC format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[WordprocessingML - DOCX and XML](/words/net/file-formats-and-conversions/)|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Rich Text Format - RTF](/words/net/file-formats-and-conversions/)|Comprehensive support of the RTF format to interact with a variety of applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[HTML, XHTML and MHTML](/words/net/file-formats-and-conversions/)|Load and save HTML/XHTML for even greater interoperability. Save as MHTML is also available.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[OpenDocument - ODT](/words/net/file-formats-and-conversions/)|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Adobe Portable Document Format - PDF](/words/net/file-formats-and-conversions/)|Convert any document to PDF with high fidelity. PDF/A is supported.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML Paper Specification - XPS](/words/net/file-formats-and-conversions/)|Convert any document to XPS with high fidelity.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Plain Text - TXT](/words/net/file-formats-and-conversions/)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Digital Publishing EPUB](/words/net/file-formats-and-conversions/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Printer Command Language (PCL)](/words/net/file-formats-and-conversions/)|Aspose.Words for .NET provides support to save document to PCL format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 ## Rendering and Printing
 
