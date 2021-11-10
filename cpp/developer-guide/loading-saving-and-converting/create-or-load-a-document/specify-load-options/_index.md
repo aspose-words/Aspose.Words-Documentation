@@ -6,7 +6,7 @@ weight: 10
 url: /cpp/specify-load-options/
 ---
 
-When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options/) class, which enables more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.pdf_load_options/) for loading to PDF format or [TxtLoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.txt_load_options/) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.
+When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options) class, which enables more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.pdf_load_options) for loading to PDF format or [TxtLoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.txt_load_options) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.
 
 ## Set Microsoft Word Version to Change the Appearance
 
@@ -28,7 +28,7 @@ The following code example shows how to set Japanese as **EditingLanguage**:
 
 ## Use WarningCallback to Control Problems While Loading a Document
 
-Some documents may be corrupted, contain invalid entries, or have features not currently supported by Aspose.Words. If you want to know about problems that occurred while loading a document, Aspose.Words provides the [IWarningCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.i_warning_callback/) interface.
+Some documents may be corrupted, contain invalid entries, or have features not currently supported by Aspose.Words. If you want to know about problems that occurred while loading a document, Aspose.Words provides the [IWarningCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.i_warning_callback) interface.
 
 The following code example shows the implementation of the **IWarningCallback** interface:
 
@@ -72,13 +72,13 @@ The following code example shows how to set the encoding to override the automa
 
 ## Load Encrypted Documents
 
-You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options/) object. This object contains the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_password_const) property, which specifies the password string.
+You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options) object. This object contains the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_password_const) property, which specifies the password string.
 
 The following code example demonstrates how to load a document encrypted with a password:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-OpenEncryptedDocument-OpenEncryptedDocument.cpp" >}}
 
-If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util/) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the IsEncrypted property.
+If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the IsEncrypted property.
 
 The following code example demonstrates how to verify OpenDocument either it is encrypted or not:
 

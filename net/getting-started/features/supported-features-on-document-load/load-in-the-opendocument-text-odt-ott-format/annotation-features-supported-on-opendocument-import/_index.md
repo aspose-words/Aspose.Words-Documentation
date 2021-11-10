@@ -66,7 +66,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Comment |Yes | |- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment/)|
+|Comment |Yes | |- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)|
 |Comment Range |N/A | | |
 |Author |Yes | |- [Comment.Author](https://apireference.aspose.com/words/net/aspose.words/comment/properties/author)|
 |Date |Yes | |- **Comment.Date**|

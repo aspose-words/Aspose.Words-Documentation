@@ -83,7 +83,7 @@ See the following link in the documentation for further information:
 
 See the following links in the documentation for further information:
 
-- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup/)
+- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup)
 - [PageSetup.LeftMargin](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/leftmargin)
 - [PageSetup.FooterDistance](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/footerdistance)
 - [PageSetup.Gutter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/gutter)

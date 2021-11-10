@@ -156,7 +156,7 @@ A new public API, allowing to manipulate themed properties of Font objects, has 
 
 #### Setting Fill Formatting of Text
 
-Font API has been extended with the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill/) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
+Font API has been extended with the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
 
 #### Convert Any Fill to Solid
 
@@ -185,9 +185,9 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 * New public methods [StartColumnBookmark](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#startcolumnbookmark_string) and [EndColumnBookmark](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#endcolumnbookmark_string) have been introduced in the [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
 * A new public option [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_updatecreatedtimeproperty_const) has been added to update the [CreatedTime](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties#get_createdtime) property of a document upon saving.
 * A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://apireference.aspose.com/words/cpp/namespace/aspose.words.markup#sdttype95dropdownlist) structured document tag is updated from custom XML.
-* A new public method [ClearQuickStyleGallery](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection#clearquickstylegallery) has been added to the [StyleCollection](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection/) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
-* An ability to work with child nodes of the [StructuredDocumentTag](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag/) range has been added. New behavior follows the [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node/) pattern and returns a live collection.
-* The ability to create instances of the [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start/) and [StructuredDocumentTagRangeEnd](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_end/) classes manually has been added.
+* A new public method [ClearQuickStyleGallery](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection#clearquickstylegallery) has been added to the [StyleCollection](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
+* An ability to work with child nodes of the [StructuredDocumentTag](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag) range has been added. New behavior follows the [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node) pattern and returns a live collection.
+* The ability to create instances of the [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start) and [StructuredDocumentTagRangeEnd](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_end) classes manually has been added.
 
 {{% alert color="primary" %}}
 

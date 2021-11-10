@@ -21,7 +21,7 @@ Aspose.Words takes the standard mail merge functionality and advances it multipl
 
 {{% alert color="primary" %}}
 
-The [Aspose.Words.MailMerging](https://apireference.aspose.com/words/cpp/namespace/aspose.words.mail_merging/) namespace is used to work with mail merging.
+The [Aspose.Words.MailMerging](https://apireference.aspose.com/words/cpp/namespace/aspose.words.mail_merging) namespace is used to work with mail merging.
 
 {{% /alert %}}
 

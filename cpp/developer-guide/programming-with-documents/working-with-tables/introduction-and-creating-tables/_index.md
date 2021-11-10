@@ -118,7 +118,7 @@ As described in previous articles, Aspose.Words provides a few methods for inser
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
 |DocumentBuilder (DocumentBuilder.StartTable)|The standard method of inserting tables and other document content.|Sometimes hard to create several varieties of tables at the same time with the same instance of the builder.|
-|Table([Table](http://www.aspose.com/api/net/words/aspose.words.tables/table))| Fits in better with surrounding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|The table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
+|Table([Table](https://apireference.aspose.com/words/net/aspose.words.tables/table))| Fits in better with surrounding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|The table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
 |Cloning (Table.Clone)|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
 
 ## Extracting Plain Text from a Table

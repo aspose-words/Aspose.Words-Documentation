@@ -17,7 +17,7 @@ Note that the font in the document represents an entity, such as family name, st
 
 ## Font Manipulation and Performance Issues
 
-All available font manipulation mechanisms are contained in the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
+All available font manipulation mechanisms are contained in the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
 
 Fonts are parsed in {several|multiple|a few|many|numerous} steps:
 
@@ -65,7 +65,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
       {{< highlight cpp >}}
       fontSettings->get_SubstitutionSettings()->get_FontConfigSubstitution()->set_Enabled(true);
       {{< /highlight >}}
-   1. The next step is a simple, but incredibly powerful mechanism called [TableSubstitutionRule](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.table_substitution_rule/). By default, this feature is active and available for any OS. Aspose.Words uses XML tables which define basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.<br>
+   1. The next step is a simple, but incredibly powerful mechanism called [TableSubstitutionRule](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.table_substitution_rule). By default, this feature is active and available for any OS. Aspose.Words uses XML tables which define basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.<br>
       **XML**<br>
       {{< highlight html >}}
       <TableSubstitutionSettings xmlns="Aspose.Words"> 
@@ -141,7 +141,7 @@ Sometimes, it may be unclear why the document layout has changed, or why some fo
 
 There are two different mechanisms used in Aspose.Words — Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. The Font fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
 
-There is a [BuildAutomatic](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/#buildautomatic) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/) class. This class specifies settings of the font fallback mechanism. You can get an instance of the **FontFallbackSettings** class as follows:
+There is a [BuildAutomatic](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings/#buildautomatic) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings) class. This class specifies settings of the font fallback mechanism. You can get an instance of the **FontFallbackSettings** class as follows:
 
 **C++**
 

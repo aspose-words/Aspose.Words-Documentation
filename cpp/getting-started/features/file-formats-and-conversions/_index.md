@@ -109,7 +109,7 @@ DOC to HTML – high-fidelity conversion:
 
 ## High Scalability
 
-Scalable server-side scenarios use Aspose.Words mainly because of its simple and clean design – Aspose.Words supports multithreading. [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/) objects are independent of each other, and as long as only one thread can modify a document at a time (a typical requirement for any collection class), multiple threads can process any number of documents at the same time.
+Scalable server-side scenarios use Aspose.Words mainly because of its simple and clean design – Aspose.Words supports multithreading. [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) objects are independent of each other, and as long as only one thread can modify a document at a time (a typical requirement for any collection class), multiple threads can process any number of documents at the same time.
 
 ## High Performance
 

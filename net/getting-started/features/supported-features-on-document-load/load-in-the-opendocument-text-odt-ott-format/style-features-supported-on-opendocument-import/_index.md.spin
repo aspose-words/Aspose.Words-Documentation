@@ -24,14 +24,14 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 See the following links in the documentation for further information:
 
 - [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/styles)
-- [Style](https://apireference.aspose.com/words/net/aspose.words/style/)
+- [Style](https://apireference.aspose.com/words/net/aspose.words/style)
 - [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/StyleType/)|
-|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/StyleType/)|
-|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType/)|
+|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
+|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
+|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |Table Style |N/A | | |
 
 ## General

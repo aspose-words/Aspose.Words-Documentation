@@ -14,7 +14,7 @@ On this page we will look at how to retrieve comments from a Word Processing  do
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, use the [Comment](https://apireference.aspose.com/words/net/aspose.words/comment) class and  the [Document.GetChildNodes](http://www.aspose.com/api/net/words/aspose.words/compositenode/methods/getchildnodes) method to get all comments from a document.
+In Aspose.Words, use the [Comment](https://apireference.aspose.com/words/net/aspose.words/comment) class and  the [Document.GetChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) method to get all comments from a document.
 
 The following code example shows how to retrieve comments from a Word Document:
 

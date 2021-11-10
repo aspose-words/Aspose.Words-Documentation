@@ -23,9 +23,9 @@ Note that you **cannot direct** Aspose.Words to change or remove this informatio
 
 To access document properties in Aspose.Words use:
 
-* [BuiltInDocumentProperties](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties/) to obtain built-in properties.
+* [BuiltInDocumentProperties](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties) to obtain built-in properties.
 
-* [CustomDocumentProperties](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.custom_document_properties/) to obtain custom properties.
+* [CustomDocumentProperties](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.custom_document_properties) to obtain custom properties.
 
 **BuiltInDocumentProperties** and **CustomDocumentProperties** are collections of [DocumentProperty](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.document_property) objects. These objects can be obtained through the indexer property by name or by index.
 

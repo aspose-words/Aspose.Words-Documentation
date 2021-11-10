@@ -21,7 +21,7 @@ Aspose.Words provides two ways to apply the find and replace operation by using 
 
 In addition, you can use special metacharacters with simple string replacement and regular expressions to specify breaks within the find and replace operation.
 
-Aspose.Words presents the find and replace functionality with the [Aspose.Words.Replacing](https://apireference.aspose.com/words/cpp/namespace/aspose.words.replacing) namespace. You can work with multiple options during the find and replace process using [FindReplaceOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options/) class.
+Aspose.Words presents the find and replace functionality with the [Aspose.Words.Replacing](https://apireference.aspose.com/words/cpp/namespace/aspose.words.replacing) namespace. You can work with multiple options during the find and replace process using [FindReplaceOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options) class.
 
 ### Find and Replace String With Simple String Replacement {#find-and-replace-text-using-simple-string-replacement}
 
@@ -127,7 +127,7 @@ The following code example demonstrates how to highlight a specific word in your
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cpp" >}}
 
-Aspose.Words enables you to use [IReplacingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.i_replacing_callback/) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
+Aspose.Words enables you to use [IReplacingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.i_replacing_callback) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
 
 If you need to replace a string with an HTML tag, apply the **IReplacingCallback** interface to customize the find and replace operation so the match starts at the beginning of a run with the match node of your document. Let us provide a few examples of using **IReplacingCallback**.
 

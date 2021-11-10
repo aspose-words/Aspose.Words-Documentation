@@ -7,7 +7,7 @@ url: /java/aspose-words-for-java-18-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 18.3](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/18.3/).
+This page contains release notes for [Aspose.Words for Java 18.3](https://repository.aspose.com/repo/com/aspose/aspose-words/18.3/).
 
 {{% /alert %}} 
 

@@ -20,7 +20,7 @@ Our translation engine {allows|enables} users not only to work with complex elem
 
 ## Common Translation Principles
 
-We use [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.font/) formatting for inline blocks. When there is no direct correspondence for a Markdown feature in Aspose.Words DOM, we use a character style with a name that starts from some special words.
+We use [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.font) formatting for inline blocks. When there is no direct correspondence for a Markdown feature in Aspose.Words DOM, we use a character style with a name that starts from some special words.
 
 For container blocks, we use style inheritance to denote nested Markdown features. In this case, even when there are no nested features, we also use paragraph styles with a name that starts from some special words.
 
@@ -28,7 +28,7 @@ Bulleted and ordered lists are container blocks in Markdown as well. Their nesti
 
 ## Inline Blocks
 
-We use [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.font/) formatting when translating **Bold**, *Italic* or ~~Strikethrough~~ inline markdown features.
+We use [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.font) formatting when translating **Bold**, *Italic* or ~~Strikethrough~~ inline markdown features.
 
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |
@@ -45,11 +45,11 @@ We use a character style with a name that starts from the word `InlineCode`, fol
 | ----------------------------- | ------------------ |
 | **InlineCode**<br />`**inline code**` | `get_Font()->set_StyleName(u"InlineCode[.][N]")` |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-InlineCode.h" >}} ||
-| **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_hyperlink/) class. |
+| **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_hyperlink) class. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} ||
-| **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_hyperlink/) class. |
+| **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_hyperlink) class. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} ||
-| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape/) class. |
+| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape) class. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} ||
 
 ## Container Blocks
@@ -96,7 +96,7 @@ Aspose.Words also {allows|enables} to translate tables into DOM, as shown below:
 
 | Markdown feature                         | Aspose.Words                                                 |
 | ---------------------------------------- | ------------------------------------------------------------ |
-| `Table`<br />`a|b`<br />`-|-`<br />`c|d` | [Table](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table/), [Row](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.row/) and [Cell](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.cell/) classes. |
+| `Table`<br />`a|b`<br />`-|-`<br />`c|d` | [Table](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.table), [Row](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.row) and [Cell](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.cell) classes. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Table.h" >}} |                                                              |
 
 ## See Also

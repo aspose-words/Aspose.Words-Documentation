@@ -14,7 +14,7 @@ On this page we will look at how to insert a comment into a word processing docu
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words you can work with comments by using the [Comment](http://www.aspose.com/api/net/words/aspose.words/comment) class.
+In Aspose.Words you can work with comments by using the [Comment](https://apireference.aspose.com/words/net/aspose.words/comment) class.
 
 The following code example {shows|demonstrates} how to insert a comment into a Word document:
 

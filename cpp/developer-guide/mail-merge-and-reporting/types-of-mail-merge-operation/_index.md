@@ -17,7 +17,7 @@ The main difference between both merge operations is that simple mail merge (wit
 
 {{% alert color="primary" %}}
 
-The [MailMerge](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge/) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
+The [MailMerge](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
 
 {{% /alert %}}
 
