@@ -14,8 +14,8 @@ For a complete list of parameters such as [ContinuousSectionPageNumberingRestart
 
 Aspose.Words {allows|enables} to manage formatting marks using the following properties:
 
-- [ShowHiddenText](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_showhiddentext_const) – a Boolean value, which specifies whether the hidden text is rendered.
-- [ShowParagraphMarks](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_showparagraphmarks_const) – a Boolean value, which specifies whether paragraph mark characters are rendered.
+- [ShowHiddenText](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_showhiddentext_const) – a Boolean value, which specifies whether the hidden text is rendered.
+- [ShowParagraphMarks](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_showparagraphmarks_const) – a Boolean value, which specifies whether paragraph mark characters are rendered.
 
 The page depicted in the example below contains three paragraphs. The second one is hidden. A user can change the **ShowHiddenText** option to display this hidden text on the page. Also, each paragraph has a paragraph mark at the end. The paragraph mark usually is not visible unless the **ShowParagraphMarks** property is set to render it.
 
@@ -27,13 +27,13 @@ In Microsoft Word, these parameters are set using the "File → Options → Disp
 
 ## Comments and Revisions
 
-With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_showcomments) property.
+With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_showcomments) property.
 
 In Microsoft Word, this parameter is set using the "Track Changes Options" dialog box, as shown below:
 
 ![specify-layout-options-aspose-words-cpp-3](specify-layout-options_4.png)
 
-Also, Aspose.Words {allows|enables} you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_revisionoptions_const) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.revision_options) class.
+Also, Aspose.Words {allows|enables} you to display revisions in a document. Use the [RevisionOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_revisionoptions_const) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.revision_options) class.
 
 You can also have revisions displayed as comments to the content. For this purpose, use the [CommentDisplayMode](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#set_commentdisplaymode) property and [ShowInBalloons](https://apireference.aspose.com/words/cpp/namespace/aspose.words.layout#commentdisplaymode) value.
 
@@ -47,7 +47,7 @@ The image below {shows|demonstrates} how Aspose.Words renders comments and the D
 
 ## Text Shaper for Advanced Typography Rendering
 
-The [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options/#get_textshaperfactory_const) property {enables|allows} you to set the text shaping functionality, as well as the OpenType features support.
+The [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_textshaperfactory_const) property {enables|allows} you to set the text shaping functionality, as well as the OpenType features support.
 
 Use text shaping for document processing in the following main cases:
 

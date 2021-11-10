@@ -11,7 +11,7 @@ This topic discusses how to work programmatically with watermark using Aspose.Wo
 
 ## How to Add a Watermark to a Document
 
-In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [watermark](https://apireference.aspose.com/words/cpp/class/aspose.words.watermark) class to add or remove watermark in documents. Aspose.Words provides [WatermarkType ](https://apireference.aspose.com/words/cpp/namespace/aspose.words/#watermarktype)enumeration defining three possible types of watermarks (Text, Image, and None) to work with. 
+In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [watermark](https://apireference.aspose.com/words/cpp/class/aspose.words.watermark) class to add or remove watermark in documents. Aspose.Words provides [WatermarkType ](https://apireference.aspose.com/words/cpp/namespace/aspose.words#watermarktype)enumeration defining three possible types of watermarks (Text, Image, and None) to work with. 
 
 ### Add Text Watermark
 

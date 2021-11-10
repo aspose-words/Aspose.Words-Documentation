@@ -68,16 +68,16 @@ When creating a layout, it is also possible to set up [LayoutOptions](https://a
 
 After the page layout is built and the geometry of objects and their position on the page are calculated, the document can be saved in a fixed-page format supported by Aspose.Words. When saving documents to fixed-page formats, the rendering options common to all of these formats can be used. They allow to control:
 
-- The number and range of pages contained in the output document ([PageIndex](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options/#get_pageset_const), [PageCount](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options/#get_pageset_const)).
-- Progress of page-by-page document saving ([PageSavingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options/#get_pagesavingcallback_const)).
-- A set of characters that are used to numbers rendering ([NumeralFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options/#get_numeralformat_const)).
-- A metafile player ([MetafileRenderingOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options/#get_metafilerenderingoptions_const)). For more details, see the ["Handling Windows Metafiles"](/words/cpp/handling-windows-metafiles/) article.
-- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options/#get_jpegquality_const)).
-- Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options/#get_optimizeoutput)).
-- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options/#get_useantialiasing_const), [UseHighQualityRendering](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options/#get_usehighqualityrendering_const)).
-- Saving the document in grayscale ([ColorMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options/#get_colormode_const)).
-- Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options/#get_dmlrenderingmode_const)).
-- Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options/#get_dmleffectsrenderingmode)).
+- The number and range of pages contained in the output document ([PageIndex](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_pageset_const), [PageCount](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_pageset_const)).
+- Progress of page-by-page document saving ([PageSavingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_pagesavingcallback_const)).
+- A set of characters that are used to numbers rendering ([NumeralFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_numeralformat_const)).
+- A metafile player ([MetafileRenderingOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_metafilerenderingoptions_const)). For more details, see the ["Handling Windows Metafiles"](/words/cpp/handling-windows-metafiles/) article.
+- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_jpegquality_const)).
+- Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_optimizeoutput)).
+- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_useantialiasing_const), [UseHighQualityRendering](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_usehighqualityrendering_const)).
+- Saving the document in grayscale ([ColorMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_colormode_const)).
+- Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_dmlrenderingmode_const)).
+- Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_dmleffectsrenderingmode)).
 
 The example below demonstrates how to save a document to JPEG format using the Save method and rendering options:
 
