@@ -83,6 +83,5 @@ doc.Save("Inserting Table.doc");
 
 ## Download Sample Code
 
-- [Codeplex](https://archive.codeplex.com/?p=asposevsto)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Inserting.Table.Aspose.Words.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20Table%20\(Aspose.Words\).zip)

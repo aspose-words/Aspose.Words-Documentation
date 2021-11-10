@@ -32,7 +32,6 @@ This addon will work with all version of:
 
 You can download the latest solution at:
 
-- [Codeplex](http://goo.gl/nZJc8N)
 - [Github](http://goo.gl/QHL5V6)
 - [Sourceforge](http://goo.gl/vKdnuX)
 - [Bitbucket](http://goo.gl/EHLHBr)
@@ -94,7 +93,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET Document Merger using any of the following platforms:
 
-- [Codeplex](http://goo.gl/nZJc8N)
 - [Github](http://goo.gl/QHL5V6)
 - [Sourceforge](http://goo.gl/vKdnuX)
 - [Bitbucket](http://goo.gl/EHLHBr)

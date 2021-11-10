@@ -62,7 +62,6 @@ The module is supported on all versions of
 
 You can download Quote Generator modules from one of the following locations
 
-- [CodePlex](https://goo.gl/sdTOKK)
 - [Github](https://goo.gl/qh0Rlw)
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)
@@ -98,7 +97,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [CodePlex](https://goo.gl/sdTOKK)
 - [Github](https://goo.gl/qh0Rlw)
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)
@@ -109,7 +107,6 @@ Umbraco quote generator module is an open source and their source code is availa
 
 #### Source Code
 
-- [CodePlex](https://goo.gl/sdTOKK)
 - [Github](https://goo.gl/qh0Rlw)
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)

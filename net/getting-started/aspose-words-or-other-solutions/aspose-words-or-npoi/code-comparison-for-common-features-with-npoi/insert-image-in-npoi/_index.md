@@ -50,5 +50,4 @@ using (FileStream sw = File.Create("test.docx"))
 
 Download **Insert Image** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1467697)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Insert.Image.Aspose.Words.zip)

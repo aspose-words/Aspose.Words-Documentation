@@ -52,7 +52,6 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 You can download Quote Generator modules from one of the following locations
 
-- [CodePlex](https://asposewordsdnn.codeplex.com/releases/view/619169)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/DNNQuoteGeneratorModule)
 - [DNN Store](http://store.dnnsoftware.com/home/product-details/aspose-net-dnn-quote-generator-module-using-aspose-words-for-net)
 
@@ -109,7 +108,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
-- [CodePlex ](https://asposewordsdnn.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-DNN-Quote-110ad750/view/Discussions#content)
 
@@ -121,7 +119,6 @@ Aspose .NET Quote Generator for DNN module is an open source and their source co
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://aspose-wordsdnn.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
 - [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-DNN-Quote-110ad750)
 

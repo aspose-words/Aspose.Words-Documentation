@@ -7,7 +7,6 @@ url: /net/extend-and-contribute-to-crm-duplicate-detection/
 
 You can download the latest source code at:
 
-- [CodePlex](https://asposenetcrm.codeplex.com/SourceControl/latest#Aspose.DuplicateDocument/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.DuplicateDocument)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Duplicate-9e6aaba6/view/SourceCode)
 

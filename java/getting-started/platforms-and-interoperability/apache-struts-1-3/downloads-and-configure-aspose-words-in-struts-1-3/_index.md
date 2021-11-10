@@ -13,7 +13,6 @@ You can download the pre-built (binary) .war file from the latest releases hoste
 
 You can download/check out the project source codes from the following locations:
 
-- [CodePlex](https://aspose-wordsforstruts.codeplex.com)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Struts)
 
 ## Building Aspose.Words Java for Struts 1.3 from Source Codes

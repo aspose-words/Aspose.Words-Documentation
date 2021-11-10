@@ -106,7 +106,6 @@ Please check [the video](https://youtu.be/7AzHu20I0ro) below to see [Aspose.Word
 
 **Please use any of the following project's issues tracker:**
 
-- [CodePlex](https://aspose-wordsforintellij.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
 ### Extend and Contribute
@@ -117,5 +116,4 @@ Please check [the video](https://youtu.be/7AzHu20I0ro) below to see [Aspose.Word
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex](https://aspose-wordsforintellij.codeplex.com)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_IntelliJ%28Maven%29)

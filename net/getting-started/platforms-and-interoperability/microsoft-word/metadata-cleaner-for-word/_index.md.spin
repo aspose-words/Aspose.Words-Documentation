@@ -31,7 +31,6 @@ This tool will work with all version of windows.
 
 You can download the latest solution at:
 
-- [Codeplex](https://asposewordsoffice.codeplex.com/releases/view/620032)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/metadataCleanerWord)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-5445a838)
 
@@ -70,7 +69,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to this add-on using any of the following platforms:
 
-- [Codeplex](https://archive.codeplex.com/?p=asposewordsoffice)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-5445a838/view/Discussions)
 
@@ -78,7 +76,6 @@ You can log any issues or suggestions related to this add-on using any of the fo
 
 You can download the latest source code at:
 
-- [Codeplex](https://archive.codeplex.com/?p=asposewordsoffice#Aspose.Words%20Metadata%20Cleaner%20for%20Word%20Processing%20Documents/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Word/Aspose.Words%20Metadata%20Cleaner%20for%20Word%20Processing%20Documents)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-5445a838/view/SourceCode)
 

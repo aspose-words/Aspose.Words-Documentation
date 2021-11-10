@@ -25,4 +25,3 @@ Hello World Example
 Download **HelloWorld Example (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Plugins/Aspose_Words_NET_for_PHP/src/aspose/words/quickstart/HelloWorld.php)
-- [CodePlex](https://asposenetphp.codeplex.com/SourceControl/latest#Aspose.Words-for-.NET_for_PHP/src/aspose/words/quickstart/HelloWorld.php)
