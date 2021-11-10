@@ -70,7 +70,7 @@ Please note that below are the most popular conversion combinations, and not eve
 			</ul>
 		<h2>Convert PDF to Image</h2>
 			<ul>
-				<li><a href="/wordspythonnet/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
+				<li><a href="/words/python/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
         <li>Convert PDF to SVG</li>
 				<li>and others</li>
 			</ul>

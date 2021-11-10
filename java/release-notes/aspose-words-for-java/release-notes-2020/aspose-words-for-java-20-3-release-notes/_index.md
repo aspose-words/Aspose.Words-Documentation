@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Java 20.3 Release Notes
 type: docs
 weight: 40
@@ -336,7 +336,7 @@ public X509CertificateSystem Certificate
 Please use the following property instead: [CertificateHolder.Certificate](https://apireference.aspose.com/net/words/aspose.words/certificateholder/properties/certificate)
 
 -----
-The following obsolete method of [CertificateHolder](https://apireference.aspose.com/net/words/aspose.words/certificateholder) class was removed:
+The following obsolete method of [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words/certificateholder) class was removed:
 
 **.NET**
 
