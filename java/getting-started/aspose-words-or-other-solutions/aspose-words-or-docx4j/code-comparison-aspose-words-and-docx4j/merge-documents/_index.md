@@ -102,4 +102,4 @@ public static void main(String[] args) throws Docx4JException {
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/mergedocs)
 
-For more details, visit [Appending Documents](/words/java/appending-documents/).
+For more details, visit [Appending Documents](/words/java/insert-and-append-documents/).

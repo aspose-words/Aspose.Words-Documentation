@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose Export to Image for ASP.NET MVC
 type: docs
 weight: 10
@@ -105,7 +105,7 @@ You can log any issues or suggestions related to Aspose.Words.NET for ASP.NET MV
 
 You can download the latest source code at:
 
-- [Github](https://github.com/asposewords/Aspose.Words-for-.NET)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Export-to-Image-for-538cb0ea/view/SourceCode#content)
 
 #### How to configure source code

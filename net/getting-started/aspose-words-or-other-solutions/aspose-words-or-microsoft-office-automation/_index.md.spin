@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words or Microsoft Office Automation
 description: "When choosing between Aspose.Words for .NET and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in {many|multiple|several|a few|numerous} ways."
 type: docs
@@ -80,7 +80,7 @@ All the Aspose components offer a risk-free, no-obligation [evaluation version](
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Unlike Office Automation, Aspose components provide {many|multiple|several|a few|numerous} powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/net) offers a feature that {allows|enables} developers to populate a Word mail merge document directly from any .NET data object. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Unlike Office Automation, Aspose components provide {many|multiple|several|a few|numerous} powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/net/) offers a feature that {allows|enables} developers to populate a Word mail merge document directly from any .NET data object. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 The best part of purchasing an Aspose component or a component suite is accessing our development teams. Our development teams realize that if there is a feature that your company needs, more than likely other companies will need it as well. While not every feature request can be added, our teams try to be very open-minded and flexible when providing assistance. That mindset has made Aspose components as powerful as they are. However, if there are additional features that you need from Office Automation objects, your chances of having them added are very low.
 

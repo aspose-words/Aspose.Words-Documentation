@@ -1,4 +1,4 @@
-﻿---
+---
 title: Integrating Aspose.Words with Azure Data Lake
 type: docs
 description: "Aspose.Words can be integrated with Azure Data Lake Analytics and Azure Data Lake Storage. This {allows|enables} you to combine the big data analytics capabilities of the Azure Data Lake cloud storage solution with the power of Aspose.Words."
@@ -27,7 +27,7 @@ This topic {demonstrates|shows} how to use Aspose.Words for building a document 
 
 {{% alert color="primary" %}}
 
-In this article, the document is created by the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class for demonstration purposes, which is not always convenient to generate reports. With Aspose.Words you can also generate reports using the [Mail Merge](https://docs.aspose.com/display/wordsnet/Mail+Merge+and+Reporting) and [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) features.
+In this article, the document is created by the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class for demonstration purposes, which is not always convenient to generate reports. With Aspose.Words you can also generate reports using the [Mail Merge](https://docs.aspose.com/words/net/mail-merge-and-reporting/) and [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) features.
 
 {{% /alert %}}
 
@@ -206,7 +206,7 @@ namespace AsposeWordsOutputterUSql
 
 {{% alert color="primary" %}}
 
-Pay attention to the licensing nuances described in the code example above. For details on applying the Aspose.Words license, see the "[Licensing](https://docs.aspose.com/display/wordsnet/Licensing)" article.
+Pay attention to the licensing nuances described in the code example above. For details on applying the Aspose.Words license, see the "[Licensing](https://docs.aspose.com/words/net/licensing/)" article.
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Sections
 type: docs
 weight: 30
@@ -128,7 +128,7 @@ This sample {shows|demonstrates} how to remove page and section breaks from the 
 
 To remove page and section breaks from a document you should follow the steps below:
 
-1. Load a document into the [Document](https://apireference.aspose.com/words/java/com.aspose.words/document) class by passing a file path or stream to the appropriate **Document** constructor.
+1. Load a document into the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class by passing a file path or stream to the appropriate **Document** constructor.
 1. To remove page breaks:
    1. Retrieve the collection of **Paragraph** nodes of the document.
    1. Check if each **Paragraph** has the **ParagraphFormat.PageBreakBefore** property set and set it to *false* it if it does.
@@ -157,7 +157,7 @@ Note that in a Word Document the same character is used to represent a page brea
 
 Removing section breaks from a document is more complicated than page breaks. In the Aspose.Words document object model, sections are represented as separate instances of the [Section](https://apireference.aspose.com/words/java/com.aspose.words/section) class. The content found within these sections is added as children of the **Section** object, for example as [Body](https://apireference.aspose.com/words/java/com.aspose.words/body) or **Paragraph** nodes. To remove section breaks all content of the sections should be combined into one and the other sections removed. This will achieve the same result as deleting each section break in Microsoft Word.
 
-Depending on how you want to modify your document you may find in this situation that simply changing each section to appear continually one after the other is the better option instead of combining them all. This would allow different section formatting to still be retained. This can be achieved by iterating through all sections in the document and setting **PageSetup.SectionStart** property of the section’s [PageSetup](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup) class to [SectionStart.Continuous](https://apireference.aspose.com/words/java/com.aspose.words/sectionstart).
+Depending on how you want to modify your document you may find in this situation that simply changing each section to appear continually one after the other is the better option instead of combining them all. This would allow different section formatting to still be retained. This can be achieved by iterating through all sections in the document and setting **PageSetup.SectionStart** property of the section’s [PageSetup](https://apireference.aspose.com/words/java/com.aspose.words/PageSetup) class to [SectionStart.Continuous](https://apireference.aspose.com/words/java/com.aspose.words/sectionstart).
 
 In Microsoft Word when you delete a break between two the newly combined section inherits all properties from the second section. Thus if all sections are combined in the same way the resulting formatting should be inherited from the last section in the document. To match the same behavior programmatically the code is set up to transfer all content from the first sections into the last section of the document:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Features Supported on HTML Import
 type: docs
 weight: 30
@@ -28,8 +28,8 @@ Currently special Microsoft "mso" attributes are not imported or exported with t
 See the following links in the documentation for further information:
 
 - [Loading, Saving and Converting](/words/net/loading-saving-and-converting/)
-- [Working with Document](/words/net/working-with-document)
-- [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model)
+- [Working with Document](/words/net/working-with-document/)
+- [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 
 {{% /alert %}} 

@@ -164,7 +164,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 ### Embedding System Fonts
 
-This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/net/words/aspose.words.saving/pdfsaveoptions/properties/fontembeddingmode) property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/net/words/aspose.words.saving/pdffontembeddingmode), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/net/words/aspose.words.saving/pdffontembeddingmode), Aspose.Words do not embed any fonts.
+This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/fontembeddingmode) property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/net/words/aspose.words.saving/pdffontembeddingmode), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/net/words/aspose.words.saving/pdffontembeddingmode), Aspose.Words do not embed any fonts.
 
 The example below {shows|demonstrates} how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 

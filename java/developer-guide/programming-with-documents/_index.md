@@ -20,7 +20,7 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Sections](/words/java/working-with-sections/)
 - [Working with Ranges](/words/java/working-with-ranges/)
 - [Working with Headers and Footers](/words/java/working-with-headers-and-footers/)
-- [Working with Table of Contents](/words/java/how-to-insert-and-work-with-the-table-of-contents-field/)
+- [Working with Table of Contents](/words/java/working-with-table-of-contents/)
 - [Working with Bookmarks](/words/java/working-with-bookmarks/)
 - [Working with Tables](/words/java/working-with-tables/)
 - [Working with Lists](/words/java/working-with-lists/)

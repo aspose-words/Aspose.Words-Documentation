@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify TrueType Fonts Location
 description: "Aspose.Words for Java {allows|enables} you to specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system, or memory."
 type: docs
@@ -161,7 +161,7 @@ FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
 
 ### Priority Property
 
-The [Priority](https://apireference.aspose.com/net/words/aspose.words.fonts/fontsourcebase/properties/priority) property is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value. For example, there is an old version of the font on the system folder and the customer added a new version of the same font in a custom folder.
+The [Priority](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/properties/priority) property is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value. For example, there is an old version of the font on the system folder and the customer added a new version of the same font in a custom folder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolderWithPriority.java" >}}
 

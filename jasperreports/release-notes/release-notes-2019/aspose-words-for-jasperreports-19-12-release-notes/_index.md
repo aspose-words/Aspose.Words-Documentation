@@ -32,7 +32,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for Java (19.12)](https://docs.aspose.com/display/wordsjava/Aspose.Words+for+Java+19.12+Release+Notes)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for Java (19.12)](https://docs.aspose.com/words/java/aspose-words-for-java-19-12-release-notes/)|New feature|
 |WORDSJR-278|java.lang.SecurityException is thrown when Aspose.Words for Java and<br>Aspose.Words for JasperReports are used in the same application|Bug|
 |WORDSJR-279|An empty page in DOCX output|Bug|
 

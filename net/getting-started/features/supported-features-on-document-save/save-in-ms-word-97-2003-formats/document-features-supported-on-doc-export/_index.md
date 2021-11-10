@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Features Supported on DOC Export
 type: docs
 weight: 30
@@ -9,7 +9,7 @@ url: /net/document-features-supported-on-doc-export/
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/words/net/saving-a-document/)
+- [Save a Document](/words/net/save-a-document/)
 - [DocSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/DocSaveOptions)
 - [DocSaveOptions.TempFolder](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/tempfolder)
 

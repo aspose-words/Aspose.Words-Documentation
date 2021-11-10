@@ -1,4 +1,4 @@
-﻿---
+---
 title: Converting to Fixed-page Format
 description: "Aspose.Words for Java implements its own page layout engine enabling it to produce all of the fixed page formats, such as PDF, XPS, and various image formats."
 type: docs
@@ -72,7 +72,7 @@ After the page layout is built and the geometry of objects and their position on
 - Progress of page-by-page document saving ([PageSavingCallback](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageSavingCallback)).
 - A set of characters that are used to numbers rendering ([NumeralFormat](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#NumeralFormat)).
 - A metafile player ([MetafileRenderingOptions](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#MetafileRenderingOptions)). For more details, see the ["Handling Windows Metafiles"](/words/java/handling-windows-metafiles/) article.
-- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://apireference.aspose.com/net/words/aspose.words.saving/fixedpagesaveoptions/properties/jpegquality)).
+- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://apireference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/jpegquality)).
 - Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#OptimizeOutput)).
 - Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#UseAntiAliasing), [UseHighQualityRendering](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#UseHighQualityRendering)).
 - Saving the document in grayscale ([ColorMode](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#ColorMode)).

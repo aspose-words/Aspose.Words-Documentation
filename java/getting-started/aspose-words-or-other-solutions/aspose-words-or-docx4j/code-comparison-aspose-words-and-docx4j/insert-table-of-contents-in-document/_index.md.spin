@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Table of Contents in Document
 type: docs
 weight: 80
@@ -130,6 +130,6 @@ public static JAXBElement getWrappedFldChar(FldChar fldchar) {
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How-to Insert and Work with the Table of Contents Field](/words/java/how-to-insert-and-work-with-the-table-of-contents-field/).
+For more details, visit [How-to Insert and Work with the Table of Contents Field](/words/java/working-with-table-of-contents/).
 
 {{% /alert %}}

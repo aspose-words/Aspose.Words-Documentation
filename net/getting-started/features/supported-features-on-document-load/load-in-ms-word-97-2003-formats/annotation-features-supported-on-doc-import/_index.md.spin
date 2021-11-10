@@ -1,4 +1,4 @@
-﻿---
+---
 title: Annotation Features Supported on DOC Import
 type: docs
 weight: 10
@@ -31,7 +31,7 @@ The Aspose.Words model is based on Word document formats. In these formats bookm
 
 See the following links in the documentation for further information:
 
-- [Working with Bookmarks](/words/net/working-with-bookmarks)
+- [Working with Bookmarks](/words/net/working-with-bookmarks/)
 - [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
 - [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties)
 

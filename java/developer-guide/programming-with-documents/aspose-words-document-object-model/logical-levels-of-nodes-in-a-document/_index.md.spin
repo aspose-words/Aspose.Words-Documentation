@@ -1,4 +1,4 @@
-﻿---
+---
 title: Logical Levels of Nodes in a Document
 type: docs
 description: "In Aspose.Words for Java documentation mentioned logical levels of nodes – block level, inline-level, or row level. The node level is used to describe the location in the document tree where the node is typically occur."
@@ -16,7 +16,7 @@ The following sections describe the logical levels of nodes in Aspose.Words and 
 
 A Word document consists of one or more sections, represented by the [Section](https://apireference.aspose.com/words/java/com.aspose.words/section) class and separated by section breaks. A section can define its own page size, margins, orientation, number of text columns, and headers and footers.
 
-[Document](https://apireference.aspose.com/words/java/com.aspose.words/document) and [Section](http://www.aspose.com/api/words/java/com.aspose.words/section) level nodes have the structure as shown in the following diagram.
+[Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) and [Section](http://www.aspose.com/api/words/java/com.aspose.words/section) level nodes have the structure as shown in the following diagram.
 
 <img src="document-and-section-level.png" alt="document-and-section-level-aspose-words-java" style="width:700px"/>
 
@@ -44,7 +44,7 @@ Block-level nodes represent containers for content and content controls, and can
 
 Block-level nodes are represented by the following classes:
 
-- [Tables](https://apireference.aspose.com/words/java/com.aspose.words/Table) and [Paragraphs](https://apireference.aspose.com/words/java/com.aspose.words/paragraph), which are the most important block-level nodes
+- [Tables](https://apireference.aspose.com/words/java/com.aspose.words/Table) and [Paragraphs](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph), which are the most important block-level nodes
 - Bookmarks, which occurs both at the block-level and at the inline-level
 - [StructuredDocumentTag](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag), which represent custom markup and can contain both content and content controls
 

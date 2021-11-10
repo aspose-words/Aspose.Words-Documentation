@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Builder Overview
 type: docs
 description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with Java."
@@ -6,7 +6,7 @@ weight: 15
 url: /java/document-builder-overview/
 ---
 
-[DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/java/com.aspose.words/document) and allows you to build dynamic documents from scratch or add new elements to an existing one.
+[DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) and allows you to build dynamic documents from scratch or add new elements to an existing one.
 
 **DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It enables you to specify fonts, paragraph or section formatting, and perform other operations.
 
@@ -26,7 +26,7 @@ The following code example shows how to navigate to a bookmark:
 
 ## Document Building and Modifying
 
-Aspose.Words API provides a few classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/java/com.aspose.words/font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
+Aspose.Words API provides a few classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/java/com.aspose.words/Font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
 
 You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)), [InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertHtml(java.lang.String)), and similar methods.
 
@@ -53,8 +53,8 @@ The following code example demonstrates how to insert a formatted text using **D
 {{% alert color="primary" %}} 
 
 - [Font](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#Font) specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
-- [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat) specifies the paragraph formatting for the current and all paragraphs to be inserted.
-- [PageSetup](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup) specifies the page and section properties for the current section and the entire section that will be inserted.
+- [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) specifies the paragraph formatting for the current and all paragraphs to be inserted.
+- [PageSetup](https://apireference.aspose.com/words/java/com.aspose.words/PageSetup) specifies the page and section properties for the current section and the entire section that will be inserted.
 - [CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#CellFormat) and [RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#RowFormat) specify formatting properties that will be applied to table cells and rows from the current position in the document onwards.
 
 In this situation, "current" means the position, paragraph, section, cell, or row in which the cursor is.

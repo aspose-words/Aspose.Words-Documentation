@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Features Supported on Image Export
 type: docs
 weight: 30
@@ -33,7 +33,7 @@ During printing you can specify the document name which appears in any print dia
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/words/net/saving-a-document/)
+- [Save a Document](/words/net/save-a-document/)
 - [Rendering](/words/net/rendering/)
 - [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/ImageSaveOptions)
 - [SvgSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions)

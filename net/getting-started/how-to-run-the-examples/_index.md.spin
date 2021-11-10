@@ -17,7 +17,7 @@ Please make sure you meet the following requirements before downloading and runn
 1. Visual Studio Code, Visual Studio 2019.
 2. Installed NuGet Package Manager and the latest NuGet API version for Visual Studio.
 3. Selected **nuget.org** option in the “Tools → Options" dialog box under "NuGet Package Manager → Package Sources”.
-4. An active Internet connection to use the NuGet Automatic Package Restore feature in the Examples project. If you do not have an active Internet connection on the machine where the examples are to be executed, check the article [“Installation”](https://docs.aspose.com/words/net/installation) and manually add a reference to Aspose.Words.dll to the Examples project.
+4. An active Internet connection to use the NuGet Automatic Package Restore feature in the Examples project. If you do not have an active Internet connection on the machine where the examples are to be executed, check the article [“Installation”](https://docs.aspose.com/words/net/installation/) and manually add a reference to Aspose.Words.dll to the Examples project.
 
 ## Download and Run the Examples
 

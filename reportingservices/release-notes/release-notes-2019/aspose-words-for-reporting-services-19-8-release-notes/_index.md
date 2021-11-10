@@ -15,6 +15,6 @@ This page contains release notes for [Aspose.Words for Reporting Services 19.8](
 
 |Key |Summary |Category |
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for .NET (19.8)](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+19.8+Release+Notes)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for .NET (19.8)](https://docs.aspose.com/words/net/aspose-words-for-net-19-8-release-notes/)|New feature|
 |WORDSRS-274|HTML formatting - second style attribute is not applied|Bug|
 

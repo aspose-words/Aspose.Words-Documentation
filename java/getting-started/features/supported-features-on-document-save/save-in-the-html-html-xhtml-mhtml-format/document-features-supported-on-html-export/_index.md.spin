@@ -32,7 +32,7 @@ In the future, we will add full support for these in import and allow an option 
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/words/java/saving-a-document/)
+- [Save a Document](/words/java/save-a-document/)
 - **HtmlSaveOptions**
 - **HtmlSaveOptions.CssStyleSheetType**
 - **HtmlSaveOptions.Encoding**

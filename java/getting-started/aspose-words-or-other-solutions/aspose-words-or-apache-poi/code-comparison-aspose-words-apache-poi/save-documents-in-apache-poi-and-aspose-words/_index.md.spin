@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save Documents in Apache POI and Aspose.Words
 type: docs
 weight: 60
@@ -60,6 +60,6 @@ fos.close();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Save a Document](/words/java/saving-a-document/).
+For more details, visit [Save a Document](/words/java/save-a-document/).
 
 {{% /alert %}}

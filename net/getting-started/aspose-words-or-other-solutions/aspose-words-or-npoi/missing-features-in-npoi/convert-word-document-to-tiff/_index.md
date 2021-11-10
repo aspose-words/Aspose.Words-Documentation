@@ -28,6 +28,6 @@ doc.Save("TestFile Out.tiff");
 
 See also:
 
-- [Github](https://github.com/asposewords/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2) for code example
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2) for code example
 
 - [Github](https://github.com/asposewords/Aspose.Words-for-.NET/releases/download/Aspose.WordsFeaturesmissinginNPOIv1.2/08.02-ConvertWordDocumentToTIFF.zip) for running code
