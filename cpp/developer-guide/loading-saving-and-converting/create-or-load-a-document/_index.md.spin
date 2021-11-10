@@ -23,7 +23,7 @@ The following code example {shows|demonstrates} how to create a document using t
 Note the default values:
 
 - A blank document contains one section with default parameters, one empty paragraph, some document styles. Actually this document is the same as the result of creating the “New document” in Microsoft Word.
-- The document paper size is [PaperSize](https://apireference.aspose.com/words/cpp/namespace/aspose.words/#papersize).**Letter**.
+- The document paper size is [PaperSize](https://apireference.aspose.com/words/cpp/namespace/aspose.words#papersize).**Letter**.
 
 {{% /alert %}} 
 
