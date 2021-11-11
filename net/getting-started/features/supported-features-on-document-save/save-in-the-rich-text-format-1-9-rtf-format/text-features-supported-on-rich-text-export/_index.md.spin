@@ -9,7 +9,7 @@ url: /net/text-features-supported-on-rich-text-export/
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
-[Jump to this location in the import section](/words//net/text-features-supported-on-rich-text-import/)
+[Jump to this location in the import section](/words/net/text-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
 
