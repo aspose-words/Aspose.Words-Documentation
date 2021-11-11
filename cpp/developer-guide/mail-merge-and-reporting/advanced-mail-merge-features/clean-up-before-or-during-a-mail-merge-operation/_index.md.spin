@@ -15,7 +15,7 @@ When you are using some long template that is created by someone else, you may w
 
 The following code example {shows|demonstrates} how to delete all merge fields from your template without executing a mail merge operation:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-DeleteFields.cs" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-DeleteFields.h" >}}
 
 ## Set Up a Removing Option
 
@@ -52,7 +52,7 @@ In both situations the **RemoveEmptyParagraphs** option will automatically remov
 
 The following code example {shows|demonstrates} how to remove the empty paragraphs:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveEmptyParagraphs.cp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Mail Merge and Reporting-Working with CleanupOptions-RemoveEmptyParagraphs.h" >}}
 
 {{% alert color="primary" %}}
 

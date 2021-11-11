@@ -17,7 +17,7 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 The code example given below demonstrates how to Inserts a merge field into a document using DocumentBuilder.
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertField-InsertField.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-InsertField.h" >}}
 
 The same technique is used to insert fields nested within other fields. The code example given below demonstrates how to insert fields nested within another field using DocumentBuilder.
 
@@ -107,7 +107,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 
 For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/net/aspose.words.fields/fieldincludetext). The code example given below shows how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertIncludeTextFieldWithoutDocumentBuilder-InsertIncludeTextFieldWithoutDocumentBuilder.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-InsertFieldIncludeTextWithoutDocumentBuilder.h" >}}
 
 ### Inserting TOA field into a Document without using DocumentBuilder
 
