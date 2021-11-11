@@ -12,7 +12,7 @@ When working with documents, you often need to convert your document to a raster
 
 In Aspose.Words, conversion from DOC to TIFF can be performed with one line of code, by simply passing the “save to” path and the relevant file extension to the [Save](https://apireference.aspose.com/words/cpp/class/aspose.words.document#save_stream_saveformat) method. The **Save** method automatically derives the SaveFormat from the file name extension specified in the path. The following example shows how to convert a document to the TIFF format:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-CSharp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFF.cs" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-File Formats and Conversions-Save Options-Working with ImageSaveOptions-SaveAsTIFF.h" >}}
 
 ## Specifying Additional Options When Rendering TIFF
 

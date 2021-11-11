@@ -41,7 +41,7 @@ In the Aspose.Words Document Object Model a Table node is made up of Row and
 
 You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example demonstrates a facade object for working with a column of a table.
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Tables-Working with Tables-ColumnClass.h" >}}
 
 Below example demonstrates how to insert a blank column into a table.
 
