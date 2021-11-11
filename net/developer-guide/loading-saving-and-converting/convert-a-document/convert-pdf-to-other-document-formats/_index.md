@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert PDF to Other Document Formats
 type: docs
 description: “Aspose.Words for .NET enables you to convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose.Words.”
@@ -26,7 +26,7 @@ The following code example shows how to convert a document from PDF to DOCX:
 
 Aspose.Words provides you with the [PdfLoadOptions](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions) class, which enables more precise control over how PDF documents are loaded.
 
-Most properties inherit or overload properties that already exist in the LoadOptions class. In addition to them, a number of properties are specified for PDF format. For example, you can use the [PageCount](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/pagecount) and [PageIndex](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/pageindex) properties to define the page range to be loaded from a PDF document, and the [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/skippdfimages) properties to control whether images should be skipped when loading PDF. Another supported parameter is the [Password](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/password), which must be provided for [password-protected documents](https://docs.aspose.com/words/net/document-protection/).
+Most properties inherit or overload properties that already exist in the LoadOptions class. In addition to them, a number of properties are specified for PDF format. For example, you can use the [PageCount](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/pagecount) and [PageIndex](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/pageindex) properties to define the page range to be loaded from a PDF document, and the [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/skippdfimages) properties to control whether images should be skipped when loading PDF. Another supported parameter is the [Password](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/password), which must be provided for [password-protected documents](https://docs.aspose.com/words/net/protect-documents-and-parts-of-documents/).
 
 ## Supported PDF Content {#supported-pdf-content}
 

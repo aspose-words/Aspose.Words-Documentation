@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Features Supported on DOC Import
 type: docs
 weight: 30
@@ -79,7 +79,7 @@ Once loaded you can remove any protection from a document.
 
 See the following links in the documentation for further information:
 
-- [Protecting Documents](https://docs.aspose.com/words/net/document-protection/)
+- [Protecting Documents](https://docs.aspose.com/words/net/protect-documents-and-parts-of-documents/)
 - [Document.Protect](https://apireference.aspose.com/words/net/aspose.words/document/methods/protect)
 - [Document.Unprotect](https://apireference.aspose.com/words/net/aspose.words/document/methods/unprotect)
 
