@@ -11,7 +11,7 @@ Single level lists can be output either as native HTML lists or as ordinary para
 
 There are plans to introduce an option to control if lists are exported as native or paragraph lists.
 
-[Jump to this location in the import section](https://docs.aspose.com/words/java/numbering-features-supported-on-html-import/)
+[Jump to this location in the import section](/words/java/numbering-features-supported-on-html-import/)
 
 {{% /alert %}}
 

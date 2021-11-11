@@ -20,7 +20,7 @@ Aspose.Words provides extensive support for loading, saving and converting Wordp
 
 See the following links in the documentation for further information:
 
-- [Loading, Saving and Converting](https://docs.aspose.com/words/net/loading-saving-and-converting/)
+- [Loading, Saving and Converting](/words/net/loading-saving-and-converting/)
 - [Working with Document](/words/net/working-with-document/)
 - [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
@@ -80,7 +80,7 @@ Once loaded you can remove any protection from a document.
 
 See the following links in the documentation for further information:
 
-- [Protecting Documents](https://docs.aspose.com/words/net/protect-documents-and-parts-of-documents/)
+- [Protecting Documents](/words/net/protect-documents-and-parts-of-documents/)
 - [Document.Protect](https://apireference.aspose.com/words/net/aspose.words/document/properties/protect)
 - [Document.Unprotect](https://apireference.aspose.com/words/net/aspose.words/document/properties/unprotect)
 

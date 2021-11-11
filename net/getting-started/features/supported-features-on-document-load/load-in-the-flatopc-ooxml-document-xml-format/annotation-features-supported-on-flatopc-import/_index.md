@@ -15,7 +15,7 @@ Bookmarks are imported as BookmarkStart and BookmarkEnd nodes. In Microsoft Word
 
 This normally causes no problems but some bookmarks on tables can appear differently when imported. The Aspose.Words model is based on Word document formats. In these formats bookmark names must be unique. The model will allow bookmarks with the same name, however all duplicates are removed automatically during export. Note that duplicate bookmarks can happen when you accentitly create a bookmark with the same name, or when documents that contain the same bookmark are joined together using the AppendDocument or InsertDocument methods. See the following links in the documentation for further information:
 
-- [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/)
+- [Working with Bookmarks](/words/net/working-with-bookmarks/)
 - [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
 - [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark)
 
@@ -36,7 +36,7 @@ A comment in a document is imported as a Comment node in the Aspose.Words DOM. 
 
 The CommentRangeStart and CommentRangeEnd nodes define the area of the document that the comment is applied to. The Comment node defines the actual content of the comment and provides members to access the comment properties such as Author and Time. All three comment nodes are related through the use of the ID properties on each node. See the following links in the documentation for further information:
 
-- [How to Extract or Remove Comments](https://docs.aspose.com/words/net/working-with-comments/)
+- [How to Extract or Remove Comments](/words/net/working-with-comments/)
 - [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
 
 [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
@@ -58,7 +58,7 @@ Tracked changes are imported into the model as regular nodes. Paragraphs, Runs a
 
 Most revision types properly round-tripped to the appropriate formats. Currently only Insert and Delete revisions are made avaliable in the public API. Also Move and some Table revisions are unsupported. Additionally formatting changes are also unsupported. These additonal features will be included in a future version as well as an API to easily retrieve revisions by author, date etc. See the following links in the documentation for further information:
 
-- [Manage Tracking Changes](https://docs.aspose.com/words/net/track-changes-in-a-document/)
+- [Manage Tracking Changes](/words/net/track-changes-in-a-document/)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
 - [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)

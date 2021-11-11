@@ -43,4 +43,4 @@ For Each table As Table In doc.GetChildNodes(NodeType.Table, True)
 Next table
 {{< /highlight >}}
 
-For further information on this topic see the [Specifying Table and Cell Widths](https://docs.aspose.com/words/net/applying-formatting/#specifying-table-and-cell-widths) section of the documentation.
+For further information on this topic see the [Specifying Table and Cell Widths](/words/net/applying-formatting/#specifying-table-and-cell-widths) section of the documentation.

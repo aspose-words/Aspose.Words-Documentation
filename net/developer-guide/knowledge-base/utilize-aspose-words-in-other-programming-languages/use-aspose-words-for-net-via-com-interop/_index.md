@@ -31,7 +31,7 @@ Here are the topics that you will eventually need to master:
 
 - Using COM objects in your programming language. See your programming language documentation and the language-specific topics further in this documentation.
 - Working with COM objects exposed by .NET COM Interop. See [Interoperating With Unmanaged Code](http://msdn.microsoft.com/en-us/library/sd10k43k.aspx) and [Exposing .NET Framework Components to COM](http://msdn.microsoft.com/en-us/library/zsfww439%28v=vs.110%29.aspx) in MSDN.
-- Aspose.Words document object model. See Aspose.Words [Developer Guide](https://docs.aspose.com/words/net/developer-guide/) and [API Reference](https://apireference.aspose.com/words/net).
+- Aspose.Words document object model. See Aspose.Words [Developer Guide](/words/net/developer-guide/) and [API Reference](https://apireference.aspose.com/words/net).
 
 ### Register Aspose.Words for .NET with COM Interop
 

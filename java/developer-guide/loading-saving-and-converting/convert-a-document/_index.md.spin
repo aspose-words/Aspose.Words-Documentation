@@ -26,7 +26,7 @@ You can try this functionality with our [Free online converter](https://products
 
 ## {Popular Conversions|Conversion Examples} {#popular-conversions}
 
-The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving.  Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are {several|multiple|a few|many|numerous} hundred of them due to the large number of [formats supported by Aspose.Words for Java](https://docs.aspose.com/words/java/supported-document-formats/).
+The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving.  Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are {several|multiple|a few|many|numerous} hundred of them due to the large number of [formats supported by Aspose.Words for Java](/words/java/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

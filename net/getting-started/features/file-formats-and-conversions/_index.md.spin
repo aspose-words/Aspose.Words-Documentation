@@ -39,7 +39,7 @@ The following code example {shows|demonstrates} how to convert a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-Doc2Pdf.cs" >}}
 
-For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](https://docs.aspose.com/words/cpp/loading-saving-and-converting/) section.
+For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/cpp/loading-saving-and-converting/) section.
 
 ## High Fidelity
 

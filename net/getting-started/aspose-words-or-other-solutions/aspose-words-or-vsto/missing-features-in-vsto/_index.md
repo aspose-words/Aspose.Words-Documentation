@@ -21,12 +21,12 @@ The following table contains some of the popular features supported by Aspose.Wo
 
 | Aspose.Words feature                                         | Corresponding documentation article or section               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Convert between Different Document Formats. For example, DOCX to DOC, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, and others | The [“Convert a Document”](https://docs.aspose.com/words/net/convert-a-document/) section |
-| Manipulate form fields                                       | The [“Working with Form Fields”](https://docs.aspose.com/words/net/working-with-form-fields/) article |
-| Manipulate tables                                            | The [“Working with Tables”](https://docs.aspose.com/words/net/working-with-tables/) section |
+| Convert between Different Document Formats. For example, DOCX to DOC, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, and others | The [“Convert a Document”](/words/net/convert-a-document/) section |
+| Manipulate form fields                                       | The [“Working with Form Fields”](/words/net/working-with-form-fields/) article |
+| Manipulate tables                                            | The [“Working with Tables”](/words/net/working-with-tables/) section |
 | And others                                                   |                                                              |
 
-The table is not complete, so you can check [our documentation](https://docs.aspose.com/words/net/) for the feature you are interested in.
+The table is not complete, so you can check [our documentation](/words/net/) for the feature you are interested in.
 
 {{% alert color="primary" %}}
 

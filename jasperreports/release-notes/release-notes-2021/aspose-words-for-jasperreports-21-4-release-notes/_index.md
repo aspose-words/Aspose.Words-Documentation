@@ -29,7 +29,7 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 
 |Key|Summary|Category|
 | :- | :- | :- |
-|WORDSJR-307|Upgrade to the latest version of [Aspose.Words for Java (21.4)](https://docs.aspose.com/words/java/aspose-words-for-java-21-4-release-notes/)|New feature|
+|WORDSJR-307|Upgrade to the latest version of [Aspose.Words for Java (21.4)](/words/java/aspose-words-for-java-21-4-release-notes/)|New feature|
 |WORDSJR-300|java.lang.IllegalAccessError exception is thrown when Aspose.Words for Java and Aspose.Words for Jasper Reports is included in application.|Bug|
 |WORDSJR-303|aspose.words.jasperreports-20.4-7.1.0-7.5.0.jar throws exception when used with the jasperreports-6.7.1 and open JDK 11|Bug|
 |WORDSJR-305|Cannot access its superinterface com.aspose.words.IExpandableAttr|Bug|

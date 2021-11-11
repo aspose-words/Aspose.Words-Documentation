@@ -33,7 +33,7 @@ Fields with custom field codes or field results (modified manually in the docume
 
 See the following links in the documentation for further information:
 
-- [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/)
+- [Working with Fields](/words/net/working-with-fields/)
 - [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertfield)
 - [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatefields)
 - [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldtype)
@@ -108,7 +108,7 @@ Form fields are fully supported by Aspose.Words.
 
 See the following links in the documentation for further information:
 
-- [Working with Form Fields](https://docs.aspose.com/words/net/working-with-form-fields/)
+- [Working with Form Fields](/words/net/working-with-form-fields/)
 - [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
 - [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
 - [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
@@ -188,7 +188,7 @@ See the following links in the documentation for further information:
 |Fill-in |Yes | | |
 |GreetingLine |Yes | | |
 |If |Yes | | |
-|MergeField |Yes | |- [How to Rename Merge Fields](https://docs.aspose.com/words/net/fields-overview/#how-to-rename-merge-fields)|
+|MergeField |Yes | |- [How to Rename Merge Fields](/words/net/fields-overview/#how-to-rename-merge-fields)|
 |MergeRec |Yes | | |
 |MergeSeq |Yes | | |
 |Next |Yes | | |
@@ -239,7 +239,7 @@ You can create new hyperlinks by using the DocumentBuilder class. You can also f
 See the following links in the documentation for further information:
 
 - [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/inserthyperlink)
-- [How to Replace or Modify Hyperlinks](https://docs.aspose.com/words/net/working-with-hyperlinks-and-html/)
+- [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

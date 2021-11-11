@@ -27,7 +27,7 @@ The following code example {shows|demonstrates} how to convert a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocxToHtml.cpp" >}}
 
-For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](https://docs.aspose.com/words/cpp/loading-saving-and-converting/) section.
+For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/cpp/loading-saving-and-converting/) section.
 
 ## High Fidelity
 

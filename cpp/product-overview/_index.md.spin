@@ -12,7 +12,7 @@ Welcome to Aspose.Words for C++!
 
 Aspose.Words is a cross-platform class library that {enables|allows} your applications to perform a wide variety of document processing tasks.
 
-Using Aspose.Words, you can convert a document from any supported load format to any supported save format, for example, Word formats to PDF, HTML, or Markdown, HTML to DOCX, and so on. Read more about converting documents in the ["Convert a Document"](https://docs.aspose.com/words/cpp/convert-a-document/) section.
+Using Aspose.Words, you can convert a document from any supported load format to any supported save format, for example, Word formats to PDF, HTML, or Markdown, HTML to DOCX, and so on. Read more about converting documents in the ["Convert a Document"](/words/cpp/convert-a-document/) section.
 
 It is worth noting that with Aspose.Words you can create, modify, convert, render, and print documents without relying on third-party applications, such as Microsoft Word, or Office Automation.
 
@@ -38,21 +38,21 @@ Aspose.Words for C++ features can be divided into four main areas.
 
 The ability to easily and reliably convert documents is one of the main features of Aspose.Words.
 
-Comprehensive [document import and export](https://docs.aspose.com/words/cpp/loading-saving-and-converting/) with [over 35 supported file formats](https://docs.aspose.com/words/cpp/supported-document-formats/) {allows|enables} users to convert documents from [one popular format](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) to [another](https://apireference.aspose.com/words/cpp/namespace/aspose.words#saveformat), for example, from DOCX to PDF, JPEG, or Markdown.
+Comprehensive [document import and export](/words/cpp/loading-saving-and-converting/) with [over 35 supported file formats](/words/cpp/supported-document-formats/) {allows|enables} users to convert documents from [one popular format](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) to [another](https://apireference.aspose.com/words/cpp/namespace/aspose.words#saveformat), for example, from DOCX to PDF, JPEG, or Markdown.
 
 #### Document Object Model (DOM)
 
-Programmatic access through a rich API to all document elements and formatting {allows|enables} to create, modify, extract, copy, split, join, and replace document content. Find out more in the ["Aspose.Words Document Object Model (DOM)"](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) section.
+Programmatic access through a rich API to all document elements and formatting {allows|enables} to create, modify, extract, copy, split, join, and replace document content. Find out more in the ["Aspose.Words Document Object Model (DOM)"](/words/cpp/aspose-words-document-object-model/) section.
 
 #### Rendering
 
-We use the term [“rendering” in Aspose.Words](https://docs.aspose.com/words/cpp/rendering/) to describe the process of converting a document into a file format or a medium, paginated or that has the concept of pages.
+We use the term [“rendering” in Aspose.Words](/words/cpp/rendering/) to describe the process of converting a document into a file format or a medium, paginated or that has the concept of pages.
 
 You can convert whole documents or particular pages to PDF or XPS to generate server-side documents, print them. And all this with high fidelity – exactly like Microsoft Word would have done it.
 
 #### Reporting
 
-Generate documents or reports from scratch or by filling templates with data from data sources or business objects. For more information on reporting and fetching data from databases, see the ["Mail Merge and Reporting"](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/).
+Generate documents or reports from scratch or by filling templates with data from data sources or business objects. For more information on reporting and fetching data from databases, see the ["Mail Merge and Reporting"](/words/cpp/mail-merge-and-reporting/).
 
 ### Platform Independence
 
@@ -82,7 +82,7 @@ Developers who have previously used Microsoft Word Automation in their projects 
 
 ## Pricing and Policies
 
-Please visit the ["Licensing"](https://docs.aspose.com/words/cpp/licensing/) page for information on licenses and review the ["Pricing Information"](https://purchase.aspose.com/pricing/words/family) page for details on pricing.
+Please visit the ["Licensing"](/words/cpp/licensing/) page for information on licenses and review the ["Pricing Information"](https://purchase.aspose.com/pricing/words/family) page for details on pricing.
 
 ## Technical Support
 

@@ -67,6 +67,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Create or Load a Document](https://docs.aspose.com/words/net/create-or-load-a-document/#load-from-a-stream).
+For more information about Aspose.Words features please visit [Create or Load a Document](/words/net/create-or-load-a-document/#load-from-a-stream).
 
 {{% /alert %}}

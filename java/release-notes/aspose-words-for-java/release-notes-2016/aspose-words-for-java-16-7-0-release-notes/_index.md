@@ -249,7 +249,7 @@ doc.save("mydocument.gif", saveOptions);
 
 ### Exposed more String and Number Formats for Expression Results in LINQ Reporting Engine
 
-The ["Outputting Expression Results"](https://docs.aspose.com/words/java/outputting-expression-results/) section of the engine's documentation was updated to describe the change.
+The ["Outputting Expression Results"](/words/java/outputting-expression-results/) section of the engine's documentation was updated to describe the change.
 
 ### MsWordVersion Enum Moved to Aspose.Words.Settings
 

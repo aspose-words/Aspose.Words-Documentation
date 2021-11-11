@@ -23,14 +23,14 @@ The platforms Aspose.Words for .NET can be used with are listed below. If you ne
 
 |Feature|Description|
 | :- | :- |
-|[.NET Framework](https://docs.aspose.com/words/net/supported-platforms/#net-framework)|Use Aspose.Words for .NET to build ASP.NET, Web Services, WinForms or any other type of application for any .NET Framework versions 2.0 or later including Client Profile versions. Full support for 32-bit and 64-bit.|
-|[.NET Standard 2.0](https://docs.aspose.com/words/net/supported-platforms/#net-standard-20)|The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0.|
-|[Xamarin.Android](https://docs.aspose.com/words/net/supported-platforms/#xamarinandroid)|Use Aspose.Words for .NET in your native Android applications.|
-|[Xamarin.iOS](https://docs.aspose.com/words/net/supported-platforms/#xamarinios)|Use Aspose.Words for .NET in your native iOS applications.|
-|[Xamarin.Mac](https://docs.aspose.com/words/net/supported-platforms/#xamarinmac)|Use Aspose.Words for .NET in your native Mac applications.|
-|[COM](https://docs.aspose.com/words/net/supported-platforms/#com)|Can be a lifesaver if you have to develop using pre- .NET technologies.|
-|[Mono](https://docs.aspose.com/words/net/supported-platforms/#mono)|You can use Aspose.Words for .NET to build applications with Mono.|
-|[Windows Azure](https://docs.aspose.com/words/net/supported-platforms/#windows-azure)|Yes, Aspose.Words for .NET runs on Windows Azure.|
+|[.NET Framework](/words/net/supported-platforms/#net-framework)|Use Aspose.Words for .NET to build ASP.NET, Web Services, WinForms or any other type of application for any .NET Framework versions 2.0 or later including Client Profile versions. Full support for 32-bit and 64-bit.|
+|[.NET Standard 2.0](/words/net/supported-platforms/#net-standard-20)|The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0.|
+|[Xamarin.Android](/words/net/supported-platforms/#xamarinandroid)|Use Aspose.Words for .NET in your native Android applications.|
+|[Xamarin.iOS](/words/net/supported-platforms/#xamarinios)|Use Aspose.Words for .NET in your native iOS applications.|
+|[Xamarin.Mac](/words/net/supported-platforms/#xamarinmac)|Use Aspose.Words for .NET in your native Mac applications.|
+|[COM](/words/net/supported-platforms/#com)|Can be a lifesaver if you have to develop using pre- .NET technologies.|
+|[Mono](/words/net/supported-platforms/#mono)|You can use Aspose.Words for .NET to build applications with Mono.|
+|[Windows Azure](/words/net/supported-platforms/#windows-azure)|Yes, Aspose.Words for .NET runs on Windows Azure.|
 
 ## File Formats and Conversions
 

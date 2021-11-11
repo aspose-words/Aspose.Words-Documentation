@@ -81,7 +81,7 @@ This section describes a few use cases of dividing documents by paged using the 
 
 {{% alert color="primary" %}}
 
-You can use any [output format supported by Aspose.Words](https://docs.aspose.com/words/net/supported-document-formats/).
+You can use any [output format supported by Aspose.Words](/words/net/supported-document-formats/).
 
 {{% /alert %}}
 

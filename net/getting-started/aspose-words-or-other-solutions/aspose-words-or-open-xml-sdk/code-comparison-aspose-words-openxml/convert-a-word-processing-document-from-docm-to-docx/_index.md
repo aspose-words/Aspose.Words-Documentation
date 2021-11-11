@@ -86,6 +86,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Convert a Document](https://docs.aspose.com/words/net/convert-a-document/).
+For more information about Aspose.Words features please visit [Convert a Document](/words/net/convert-a-document/).
 
 {{% /alert %}}

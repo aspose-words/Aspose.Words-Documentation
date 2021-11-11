@@ -15,7 +15,7 @@ Paragraph formatting is contained within the ParagraphFormat class which is link
 
 See the following links in the documentation for further information:
 
-- [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/)
+- [Working with Paragraphs](/words/net/working-with-paragraphs/)
 - [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph)
 - [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat)
 

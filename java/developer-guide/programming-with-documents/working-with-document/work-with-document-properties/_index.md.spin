@@ -11,7 +11,7 @@ Document properties allow storing some useful information about your document. T
 * System or built-in that contain values such as document title, author name, document statistics, and others.
 * User-defined or custom, provided as name-value pairs where the user can define both the name and value.
 
-It is useful to know that information about API and Version Number is directly written to output documents. For example, upon converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for Java YY.M.N", where *YY.M.N* is the version of Aspose.Words used for conversion. For more details, see ["Generator or Producer Name Included in Output Documents"](https://docs.aspose.com/words/java/generator-or-producer-name-included-in-output-documents/).
+It is useful to know that information about API and Version Number is directly written to output documents. For example, upon converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for Java YY.M.N", where *YY.M.N* is the version of Aspose.Words used for conversion. For more details, see ["Generator or Producer Name Included in Output Documents"](/words/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

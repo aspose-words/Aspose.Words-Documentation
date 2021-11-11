@@ -10,6 +10,6 @@ This section provides a showcase describing document comparison with Aspose.Word
 
 To learn more, select the corresponding section:
 
-- [Document Comparison Getting Started](https://docs.aspose.com/words/net/document-comparison-getting-started/)
-- [Document Comparison Features](https://docs.aspose.com/words/net/document-comparison-features/)
+- [Document Comparison Getting Started](/words/net/document-comparison-getting-started/)
+- [Document Comparison Features](/words/net/document-comparison-features/)
 

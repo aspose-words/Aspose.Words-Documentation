@@ -23,7 +23,7 @@ using Aspose.Words.Notes;
 using Aspose.Words.Loading;
 {{< /highlight >}}
 
-For more information on these changes, see the [Aspose.Words for .NET 21.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-3-release-notes/)  and [Aspose.Words for .NET 21.4 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-4-release-notes/) pages.
+For more information on these changes, see the [Aspose.Words for .NET 21.3 Release Notes](/words/net/aspose-words-for-net-21-3-release-notes/)  and [Aspose.Words for .NET 21.4 Release Notes](/words/net/aspose-words-for-net-21-4-release-notes/) pages.
 
 {{% /alert %}}
 
@@ -55,7 +55,7 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/net/aspo
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for .NET 21.9 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-9-release-notes/).
+Learn more about [Aspose.Words for .NET 21.9 Release Notes](/words/net/aspose-words-for-net-21-9-release-notes/).
 
 {{% /alert %}}
 
@@ -123,13 +123,13 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for .NET 21.5 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-5-release-notes/).
+Learn more about [Aspose.Words for .NET 21.5 Release Notes](/words/net/aspose-words-for-net-21-5-release-notes/).
 
-Learn more about [Aspose.Words for .NET 21.6 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-6-release-notes/).
+Learn more about [Aspose.Words for .NET 21.6 Release Notes](/words/net/aspose-words-for-net-21-6-release-notes/).
 
-Learn more about [Aspose.Words for .NET 21.7 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-7-release-notes/).
+Learn more about [Aspose.Words for .NET 21.7 Release Notes](/words/net/aspose-words-for-net-21-7-release-notes/).
 
-Learn more about [Aspose.Words for .NET 21.8 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-8-release-notes/).
+Learn more about [Aspose.Words for .NET 21.8 Release Notes](/words/net/aspose-words-for-net-21-8-release-notes/).
 
 {{% /alert %}}
 
@@ -199,13 +199,13 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for .NET 21.1 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-1-release-notes/).
+Learn more about [Aspose.Words for .NET 21.1 Release Notes](/words/net/aspose-words-for-net-21-1-release-notes/).
 
-Learn more about [Aspose.Words for .NET 21.2 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-2-release-notes/).
+Learn more about [Aspose.Words for .NET 21.2 Release Notes](/words/net/aspose-words-for-net-21-2-release-notes/).
 
-Learn more about [Aspose.Words for .NET 21.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-3-release-notes/).
+Learn more about [Aspose.Words for .NET 21.3 Release Notes](/words/net/aspose-words-for-net-21-3-release-notes/).
 
-Learn more about [Aspose.Words for .NET 21.4 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-4-release-notes/).
+Learn more about [Aspose.Words for .NET 21.4 Release Notes](/words/net/aspose-words-for-net-21-4-release-notes/).
 
 {{% /alert %}}
 
@@ -279,11 +279,11 @@ A condition evaluation extension point has been introduced. This enables users t
 
 Learn more about [Aspose.Words for .NET 20.9 Release Notes](/words/net/aspose-words-for-net-20-9-release-notes/).
 
-Learn more about [Aspose.Words for .NET 20.10 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-10-release-notes/).
+Learn more about [Aspose.Words for .NET 20.10 Release Notes](/words/net/aspose-words-for-net-20-10-release-notes/).
 
-Learn more about [Aspose.Words for .NET 20.11 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-11-release-notes/).
+Learn more about [Aspose.Words for .NET 20.11 Release Notes](/words/net/aspose-words-for-net-20-11-release-notes/).
 
-Learn more about [Aspose.Words for .NET 20.12 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-12-release-notes/).
+Learn more about [Aspose.Words for .NET 20.12 Release Notes](/words/net/aspose-words-for-net-20-12-release-notes/).
 
 {{% /alert %}}
 

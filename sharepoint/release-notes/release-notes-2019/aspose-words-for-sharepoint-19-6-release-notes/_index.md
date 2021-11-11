@@ -9,7 +9,7 @@ url: /sharepoint/aspose-words-for-sharepoint-19-6-release-notes/
 
 This page contains release notes for [Aspose.Words for SharePoint 19.6](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-19.6/).
 
-This version includes all bug fixes and public API changes made in Aspose.Words for .NET up-to version 19.6, see [Aspose.Words for .NET 19.6 release notes](https://docs.aspose.com/words/net/aspose-words-for-net-19-6-release-notes/) for more information.
+This version includes all bug fixes and public API changes made in Aspose.Words for .NET up-to version 19.6, see [Aspose.Words for .NET 19.6 release notes](/words/net/aspose-words-for-net-19-6-release-notes/) for more information.
 
 {{% /alert %}} 
 

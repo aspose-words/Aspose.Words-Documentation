@@ -6,7 +6,7 @@ weight: 40
 url: /cpp/installation/
 ---
 
-Make sure your machine meets the [system requirements](https://docs.aspose.com/words/cpp/system-requirements/) before you begin.
+Make sure your machine meets the [system requirements](/words/cpp/system-requirements/) before you begin.
 
 This article explains how to instal Aspose.Words for C++ on your computer.
 

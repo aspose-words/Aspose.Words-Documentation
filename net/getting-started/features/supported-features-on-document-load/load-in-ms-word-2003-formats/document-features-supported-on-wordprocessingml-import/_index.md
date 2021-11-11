@@ -14,7 +14,7 @@ Aspose.Words provides extensive support for loading, saving and converting Wordp
 See the following links in the documentation for further information:
 
 - [Loading, Saving and Converting](/words/net/loading-saving-and-converting/)
-- [Working with Document](https://docs.aspose.com/words/net/working-with-document/)
+- [Working with Document](/words/net/working-with-document/)
 - [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 

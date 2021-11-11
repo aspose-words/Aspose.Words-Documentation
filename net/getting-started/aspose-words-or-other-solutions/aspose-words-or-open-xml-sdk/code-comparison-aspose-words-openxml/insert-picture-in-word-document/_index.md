@@ -143,6 +143,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Working with Images](https://docs.aspose.com/words/net/working-with-images/).
+For more information about Aspose.Words features please visit [Working with Images](/words/net/working-with-images/).
 
 {{% /alert %}}

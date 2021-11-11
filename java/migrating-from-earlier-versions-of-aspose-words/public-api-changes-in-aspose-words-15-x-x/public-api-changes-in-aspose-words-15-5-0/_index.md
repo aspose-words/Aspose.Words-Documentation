@@ -63,9 +63,9 @@ doc.save(getMyDir() + "out.pdf", options);
 
 New functionality of conditional blocks is described in the following sections of the documentation:
 
-- [Using Conditional Blocks](https://docs.aspose.com/words/java/using-conditional-blocks/)
-- [Working with Common Conditional Blocks](https://docs.aspose.com/words/java/working-with-common-conditional-blocks/)
-- [Working with Table-Row Conditional Blocks](https://docs.aspose.com/words/java/working-with-table-row-conditional-blocks/)
-- [Multicolored Numbered List Template (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#multicolored-numbered-list-template)
-- [In-Table List Template with Highlighted Rows (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#in-table-list-template-with-highlighted-rows)
-- [In-Table List Template with Alternate Content (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#in-table-list-template-with-alternate-content)
+- [Using Conditional Blocks](/words/java/using-conditional-blocks/)
+- [Working with Common Conditional Blocks](/words/java/working-with-common-conditional-blocks/)
+- [Working with Table-Row Conditional Blocks](/words/java/working-with-table-row-conditional-blocks/)
+- [Multicolored Numbered List Template (Appendix C)](/words/java/appendix-c-typical-templates/#multicolored-numbered-list-template)
+- [In-Table List Template with Highlighted Rows (Appendix C)](/words/java/appendix-c-typical-templates/#in-table-list-template-with-highlighted-rows)
+- [In-Table List Template with Alternate Content (Appendix C)](/words/java/appendix-c-typical-templates/#in-table-list-template-with-alternate-content)

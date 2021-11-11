@@ -91,7 +91,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [How to Extract Images from a Document](https://docs.aspose.com/words/net/working-with-images/#how-to-extract-images-from-a-document).
+For more information about Aspose.Words features please visit [How to Extract Images from a Document](/words/net/working-with-images/#how-to-extract-images-from-a-document).
 
 {{% /alert %}}
 

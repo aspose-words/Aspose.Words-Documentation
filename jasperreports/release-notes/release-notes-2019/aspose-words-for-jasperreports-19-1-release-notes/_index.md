@@ -33,7 +33,7 @@ Please copy **ONLY ONE** JAR library according to the version of installed Jas
 
 |Key |Summary |Category |
 | :- | :- | :- |
-| |[Upgrade to the latest version of Aspose.Words for Java (19.1)](https://docs.aspose.com/words/java/aspose-words-for-java-19-1-release-notes/)|New feature|
+| |[Upgrade to the latest version of Aspose.Words for Java (19.1)](/words/java/aspose-words-for-java-19-1-release-notes/)|New feature|
 |WORDSJR-252|Implement BREAK_TABLE_ROWS config option|New feature |
 |WORDSJR-253|Force page break when page settings were changed|New feature |
 |WORDSJR-251|Bottom margin is too high|Bug |

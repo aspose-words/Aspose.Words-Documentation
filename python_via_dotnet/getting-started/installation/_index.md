@@ -6,7 +6,7 @@ weight: 90
 url: /python/installation/
 ---
 
-Make sure your machine meets the [system requirements](https://docs.aspose.com/words/python/system-requirements/) before you begin.
+Make sure your machine meets the [system requirements](/words/python/system-requirements/) before you begin.
 
 This article explains how to instal Aspose.Words for Python via .NET on your computer.
 

@@ -748,4 +748,4 @@ The indexer of VbaReferenceCollection is exposed publicly for reading:
 public VbaReference this[int index]
 {{< /highlight >}}
 
-Please find usage examples here [https://docs.aspose.com/words/java/aspose-words-for-java-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](https://docs.aspose.com/words/java/aspose-words-for-java-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)
+Please find usage examples here [https://docs.aspose.com/words/java/aspose-words-for-java-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](/words/java/aspose-words-for-java-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)

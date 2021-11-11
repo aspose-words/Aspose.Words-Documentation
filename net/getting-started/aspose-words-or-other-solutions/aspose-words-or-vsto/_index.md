@@ -39,11 +39,11 @@ Aspose components are highly scalable and lightning fast. They are a true .NET s
 
 Aspose.Words provides everything you need to work with documents:
 
-- Ability to [create or load and then convert a document](https://docs.aspose.com/words/net/loading-saving-and-converting/) to any [format supported by Aspose.Words](https://docs.aspose.com/words/net/supported-document-formats/).
-- A wide range of functions for modifying documents: [combining documents from a few into one](https://docs.aspose.com/words/net/insert-and-append-documents/), [splitting a document](https://docs.aspose.com/words/net/split-a-document/) into several, [finding and replacing](https://docs.aspose.com/words/net/find-and-replace/), filling documents with data from various sources, replacing fonts, etc.
-- Generating reports using [Mail Merge](https://docs.aspose.com/words/net/mail-merge-and-reporting/).
-- [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) for fetchng data from various sources.
-- [Printing documents](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/).
+- Ability to [create or load and then convert a document](/words/net/loading-saving-and-converting/) to any [format supported by Aspose.Words](/words/net/supported-document-formats/).
+- A wide range of functions for modifying documents: [combining documents from a few into one](/words/net/insert-and-append-documents/), [splitting a document](/words/net/split-a-document/) into several, [finding and replacing](/words/net/find-and-replace/), filling documents with data from various sources, replacing fonts, etc.
+- Generating reports using [Mail Merge](/words/net/mail-merge-and-reporting/).
+- [LINQ Reporting Engine](/words/net/linq-reporting-engine/) for fetchng data from various sources.
+- [Printing documents](/words/net/print-a-document-programmatically-or-using-dialogs/).
 - And other.
 
 ## See Also

@@ -255,7 +255,7 @@ This property is added for convenience in addition to *SizeInPoints* property an
 
 ### Added API for Font Fallback Settings
 
-We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](https://docs.aspose.com/words/java/manipulate-and-substitute-truetype-fonts/#font-fallback-settings-from-xml).
+We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](/words/java/manipulate-and-substitute-truetype-fonts/#font-fallback-settings-from-xml).
 
 {{< highlight csharp >}}
 public class FontSettings

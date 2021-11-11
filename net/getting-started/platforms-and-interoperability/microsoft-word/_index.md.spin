@@ -17,4 +17,4 @@ Aspose.Words can be used with MS Word and OpenOffice Documents in {multiple|seve
 
 We have created the following plugins for Word using Aspose.Words
 
-- [Metadata Cleaner for Word](https://docs.aspose.com/words/net/metadata-cleaner-for-word/)
+- [Metadata Cleaner for Word](/words/net/metadata-cleaner-for-word/)

@@ -6,7 +6,7 @@ weight: 110
 url: /java/installation/
 ---
 
-Make sure your machine meets the [system requirements](https://docs.aspose.com/words/java/system-requirements/) before you begin.
+Make sure your machine meets the [system requirements](/words/java/system-requirements/) before you begin.
 
 This article explains how to instal Aspose.Words for Java on your computer.
 

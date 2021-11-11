@@ -8,7 +8,7 @@ url: /net/resize-image-in-word-document/
 
 {{% alert color="primary" %}}
 
-See more details in the ["Working with Images"](https://docs.aspose.com/words/net/working-with-images/) documentation section.
+See more details in the ["Working with Images"](/words/net/working-with-images/) documentation section.
 
 {{% /alert %}}
 

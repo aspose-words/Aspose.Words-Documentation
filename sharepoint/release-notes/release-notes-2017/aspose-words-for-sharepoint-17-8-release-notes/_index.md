@@ -9,7 +9,7 @@ url: /sharepoint/aspose-words-for-sharepoint-17-8-release-notes/
 
 This page contains release notes for [Aspose.Words for SharePoint 17.8](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-17.8/).
 
-This version includes all bug fixes and public API changes made in Aspose.Words for .NET up-to version 17.8, see [Aspose.Words for .NET 17.8 release notes](https://docs.aspose.com/words/net/aspose-words-for-net-17-8-release-notes/) for more information.
+This version includes all bug fixes and public API changes made in Aspose.Words for .NET up-to version 17.8, see [Aspose.Words for .NET 17.8 release notes](/words/net/aspose-words-for-net-17-8-release-notes/) for more information.
 
 {{% /alert %}} 
 

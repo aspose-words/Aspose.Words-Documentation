@@ -15,6 +15,6 @@ This page contains release notes for [Aspose.Words for Reporting Services 18.12]
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for .NET (18.12)](https://docs.aspose.com/words/net/aspose-words-for-net-18-12-release-notes/)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for .NET (18.12)](/words/net/aspose-words-for-net-18-12-release-notes/)|New feature|
 |WORDSRS-265|Installation issue with Aspose.Words for Reporting Services 18.9|Bug|
 

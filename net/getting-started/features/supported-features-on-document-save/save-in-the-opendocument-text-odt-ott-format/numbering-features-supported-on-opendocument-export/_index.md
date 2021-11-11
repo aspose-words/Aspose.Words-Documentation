@@ -7,7 +7,7 @@ url: /net/numbering-features-supported-on-opendocument-export/
 
 {{% alert color="primary" %}}
 
-[Jump to this location in the import section](https://docs.aspose.com/words/net/numbering-features-supported-on-opendocument-import/)
+[Jump to this location in the import section](/words/net/numbering-features-supported-on-opendocument-import/)
 
 {{% /alert %}}
 

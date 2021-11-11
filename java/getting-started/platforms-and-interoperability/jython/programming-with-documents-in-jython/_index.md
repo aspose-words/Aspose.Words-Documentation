@@ -12,10 +12,10 @@ aliases:
 
 This section includes the following topics:
 
-- [Joining And Appending in Jython](https://docs.aspose.com/words/java/joining-and-appending-in-jython/)
-- [Working With Bookmarks in Jython](https://docs.aspose.com/words/java/programming-with-documents-in-jython/)
-- [Working With Comments in Jython](https://docs.aspose.com/words/java/working-with-comments-in-jython/)
-- [Working With Documents in Jython](https://docs.aspose.com/words/java/programming-with-documents-in-jython/)
-- [Working With Fields in Jython](https://docs.aspose.com/words/java/programming-with-documents-in-jython/)
-- [Working With Styles in Jython](https://docs.aspose.com/words/java/working-with-styles-in-jython/)
-- [Working With Tables in Jython](https://docs.aspose.com/words/java/programming-with-documents-in-jython/)
+- [Joining And Appending in Jython](/words/java/joining-and-appending-in-jython/)
+- [Working With Bookmarks in Jython](/words/java/programming-with-documents-in-jython/)
+- [Working With Comments in Jython](/words/java/working-with-comments-in-jython/)
+- [Working With Documents in Jython](/words/java/programming-with-documents-in-jython/)
+- [Working With Fields in Jython](/words/java/programming-with-documents-in-jython/)
+- [Working With Styles in Jython](/words/java/working-with-styles-in-jython/)
+- [Working With Tables in Jython](/words/java/programming-with-documents-in-jython/)

@@ -36,7 +36,7 @@ Aspose components are highly scalable and lightning fast. They are a true Java s
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Aspose components provide {many|multiple|several|a few|numerous} powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/java/?gclid=EAIaIQobChMI3-HX4PDI8gIVDKxoCh2CKwMnEAEYASAAEgJTm_D_BwE) offers a feature that {allows|enables} developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](https://docs.aspose.com/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Aspose components provide {many|multiple|several|a few|numerous} powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/java/?gclid=EAIaIQobChMI3-HX4PDI8gIVDKxoCh2CKwMnEAEYASAAEgJTm_D_BwE) offers a feature that {allows|enables} developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 ## See Also
 

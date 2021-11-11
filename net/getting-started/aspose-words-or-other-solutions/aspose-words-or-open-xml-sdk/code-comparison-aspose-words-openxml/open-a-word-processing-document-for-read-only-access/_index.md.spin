@@ -65,6 +65,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Open a Document Read-Only](https://docs.aspose.com/words/net/open-a-document-read-only/).
+For more information about Aspose.Words features please visit [Open a Document Read-Only](/words/net/open-a-document-read-only/).
 
 {{% /alert %}}

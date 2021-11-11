@@ -76,11 +76,11 @@ Following are three recommended methods for the successful downloading and insta
 
 ## Installing
 
-[Installing Aspose.Words Java for Eclipse - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/)
+[Installing Aspose.Words Java for Eclipse - Maven](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/)
 
 ## Using the Plugin
 
-[Using Aspose.Words Java for Eclipse - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#using)
+[Using Aspose.Words Java for Eclipse - Maven](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#using)
 
 ### How to apply Aspose License?
 

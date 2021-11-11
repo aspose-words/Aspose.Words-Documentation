@@ -23,7 +23,7 @@ The Markdown feature implementation mostly follows the CommonMark specification
 
 {{% alert color="primary" %}}
 
-There are nuances of translating Markdown to the Aspose.Words Document Object Model (DOM), described in the article ["Translate Markdown to Document Object Model (DOM)"](https://docs.aspose.com/words/java/translate-markdown-to-document-object-model/).
+There are nuances of translating Markdown to the Aspose.Words Document Object Model (DOM), described in the article ["Translate Markdown to Document Object Model (DOM)"](/words/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

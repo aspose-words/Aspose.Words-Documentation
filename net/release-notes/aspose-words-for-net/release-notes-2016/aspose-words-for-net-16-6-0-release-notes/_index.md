@@ -153,7 +153,7 @@ This section lists public API changes that were introduced in Aspose.Words 16.6.
 
 ### Added Support for Outer Document Insertion to LINQ Reporting Engine
 
-WORDSNET-13329 has been resolved. The [Inserting Documents Dynamically](https://docs.aspose.com/words/net/template-syntax/#inserting-documents-dynamically) section was added to the LINQ Reporting Engine's documentation.
+WORDSNET-13329 has been resolved. The [Inserting Documents Dynamically](/words/net/template-syntax/#inserting-documents-dynamically) section was added to the LINQ Reporting Engine's documentation.
 
 ### Fast Extraction from DOC Format via PlainTextDocument Class is Faster by a Factor of Ten (at a cost)
 

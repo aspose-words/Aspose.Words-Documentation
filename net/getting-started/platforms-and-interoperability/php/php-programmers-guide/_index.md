@@ -7,5 +7,5 @@ url: /net/php-programmers-guide/
 
 This section contains the following
 
-- [Loading and Saving Documents](https://docs.aspose.com/words/net/loading-and-saving-documents/)
-- [Quick Start](https://docs.aspose.com/words/net/quick-start/)
+- [Loading and Saving Documents](/words/net/loading-and-saving-documents/)
+- [Quick Start](/words/net/quick-start/)

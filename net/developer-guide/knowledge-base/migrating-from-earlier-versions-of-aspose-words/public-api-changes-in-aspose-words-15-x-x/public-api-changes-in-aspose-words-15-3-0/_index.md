@@ -114,7 +114,7 @@ The DISPLAYBARCODE field is now supported. We have introduced following entities
 - Added the **FieldOptions.BarcodeGenerator** property.
 
 The usage example can be found in following link:
-[How to Generate a Custom BarCode Image for DISPLAYBARCODE Field](https://docs.aspose.com/words/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/)
+[How to Generate a Custom BarCode Image for DISPLAYBARCODE Field](/words/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/)
 
 ### InsertDocument Method Added to DocumentBuilder Class
 

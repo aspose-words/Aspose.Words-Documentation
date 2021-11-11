@@ -32,7 +32,7 @@ After getting a copy of the repository, you may find that:
 
 To run the examples, open the solution file in Visual Studio and build the project:
 
-- For **API Reference** examples, the structure is based on class names, for **Docs** examples it is mostly based on the [Developer Guiled](https://docs.aspose.com/words/cpp/developer-guide/) documentation section.
+- For **API Reference** examples, the structure is based on class names, for **Docs** examples it is mostly based on the [Developer Guiled](/words/cpp/developer-guide/) documentation section.
 - On the first run, the dependencies will be automatically downloaded via NuGet.
 - The **Data** folder at the root folder of **Examples** contains input files that were used in the examples.
 - All examples can be run as unit tests.
@@ -64,7 +64,7 @@ The solution for Visual Studio will be generated in the `Examples\DocsExamples\b
 
 To run the examples, open the solution file in Visual Studio and build the project:
 
-- For **API Reference** examples, the structure is based on class names, for **Docs** examples it is mostly based on the [Developer Guiled](https://docs.aspose.com/words/cpp/developer-guide/) documentation section.
+- For **API Reference** examples, the structure is based on class names, for **Docs** examples it is mostly based on the [Developer Guiled](/words/cpp/developer-guide/) documentation section.
 - The **Data** folder at the root folder of **Examples** contains input files that were used in the examples.
 - All examples can be run as unit tests.
 
@@ -95,7 +95,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- For **API Reference** examples, the structure is based on class names, for **Docs** examples it is mostly based on the [Developer Guiled](https://docs.aspose.com/words/cpp/developer-guide/) documentation section.
+- For **API Reference** examples, the structure is based on class names, for **Docs** examples it is mostly based on the [Developer Guiled](/words/cpp/developer-guide/) documentation section.
 - The **Data** folder at the root folder of **Examples** contains input files that were used in the examples.
 - All examples can be run as unit tests.
 

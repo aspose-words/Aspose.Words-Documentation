@@ -85,4 +85,4 @@ For i As Integer = 1 To recordCount
 Next i
 {{< /highlight >}}
 
-For further information on this topic see the [Joining and Appending Documents](https://docs.aspose.com/words/net/insert-and-append-documents/) section of the documentation.
+For further information on this topic see the [Joining and Appending Documents](/words/net/insert-and-append-documents/) section of the documentation.

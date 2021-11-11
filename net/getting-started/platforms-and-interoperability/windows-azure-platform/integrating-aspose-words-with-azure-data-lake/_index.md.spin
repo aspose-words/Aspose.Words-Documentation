@@ -23,11 +23,11 @@ This article explains how to configure a C# project in Visual Studio with ADLA, 
 
 ## Create a Document with Data from Azure Data Lake
 
-This topic {demonstrates|shows} how to use Aspose.Words for building a document with a table from a database on Azure Data Lake. This requires creating a simple database and implementing the IOutputter interface to create a user-defined outputter, which outputs data from ADLS in [formats supported by Aspose.Words](https://docs.aspose.com/words/net/supported-document-formats/).
+This topic {demonstrates|shows} how to use Aspose.Words for building a document with a table from a database on Azure Data Lake. This requires creating a simple database and implementing the IOutputter interface to create a user-defined outputter, which outputs data from ADLS in [formats supported by Aspose.Words](/words/net/supported-document-formats/).
 
 {{% alert color="primary" %}}
 
-In this article, the document is created by the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class for demonstration purposes, which is not always convenient to generate reports. With Aspose.Words you can also generate reports using the [Mail Merge](https://docs.aspose.com/words/net/mail-merge-and-reporting/) and [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) features.
+In this article, the document is created by the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class for demonstration purposes, which is not always convenient to generate reports. With Aspose.Words you can also generate reports using the [Mail Merge](/words/net/mail-merge-and-reporting/) and [LINQ Reporting Engine](/words/net/linq-reporting-engine/) features.
 
 {{% /alert %}}
 
@@ -206,7 +206,7 @@ namespace AsposeWordsOutputterUSql
 
 {{% alert color="primary" %}}
 
-Pay attention to the licensing nuances described in the code example above. For details on applying the Aspose.Words license, see the "[Licensing](https://docs.aspose.com/words/net/licensing/)" article.
+Pay attention to the licensing nuances described in the code example above. For details on applying the Aspose.Words license, see the "[Licensing](/words/net/licensing/)" article.
 
 {{% /alert %}}
 

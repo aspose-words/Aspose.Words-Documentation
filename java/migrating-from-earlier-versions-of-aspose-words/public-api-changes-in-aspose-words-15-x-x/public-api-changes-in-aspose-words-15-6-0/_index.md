@@ -61,7 +61,7 @@ The following items are implemented in Aspose.Words 15.6.0
 
 Please read more details and examples in the following section of documentation.
 
-[Working with Charts](https://docs.aspose.com/words/java/working-with-charts/)
+[Working with Charts](/words/java/working-with-charts/)
 
 ## Password Verification in Write-Protected Document.
 

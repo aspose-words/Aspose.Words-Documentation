@@ -15,8 +15,8 @@ Aspose.Words for JasperReports (from v2.6.0) can be used with JasperServer REST 
 
 Here is a description how to run report using REST API:
 
-1. [Install Aspose.Words for JasperReports](https://docs.aspose.com/words/jasperreports/installation/).
-1. Modify jasperserver/WEB-INF/applicationContext-remote-services.xml as described [here](https://docs.aspose.com/words/jasperreports/installation/). If it was not previously updated, then modify jasperserver/WEB-INF/applicationContext-web-services.xml as described above in this document
+1. [Install Aspose.Words for JasperReports](/words/jasperreports/installation/).
+1. Modify jasperserver/WEB-INF/applicationContext-remote-services.xml as described [here](/words/jasperreports/installation/). If it was not previously updated, then modify jasperserver/WEB-INF/applicationContext-web-services.xml as described above in this document
 1. Stop/Start Jasper Server
 1. Try to run localhost:8080/jasperserver/rest_v2/reports/reports/interactive/CustomersReport.aw_docx (or any other existing report)
 1. Report download should start

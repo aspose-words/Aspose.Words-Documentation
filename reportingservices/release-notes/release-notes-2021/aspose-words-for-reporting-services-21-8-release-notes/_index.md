@@ -15,5 +15,5 @@ This page contains release notes for [Aspose.Words for Reporting Services 21.8](
 
 |Key |Summary |Category |
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for .NET (21.8)](https://docs.aspose.com/words/net/aspose-words-for-net-21-8-release-notes/)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for .NET (21.8)](/words/net/aspose-words-for-net-21-8-release-notes/)|New feature|
 |WORDSRS-277|Text exported to AWDOC format is cutted|Bug|

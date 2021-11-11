@@ -23,7 +23,7 @@ In case of a compilation error, please add the appropriate line of code:
 #include <Aspose.Words.Cpp/Model/Model/Document/Loading/CertificateHolder.h>
 {{< /highlight >}}
 
-For more information on these changes, see the [Aspose.Words for C++ 21.3 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-3-release-notes/) and [Aspose.Words for C++ 21.4 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-4-release-notes/) pages.
+For more information on these changes, see the [Aspose.Words for C++ 21.3 Release Notes](/words/cpp/aspose-words-for-cpp-21-3-release-notes/) and [Aspose.Words for C++ 21.4 Release Notes](/words/cpp/aspose-words-for-cpp-21-4-release-notes/) pages.
 
 {{% /alert %}}
 
@@ -55,9 +55,9 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/cpp/clas
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for C++ 21.9 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-9-release-notes/).
+Learn more about [Aspose.Words for C++ 21.9 Release Notes](/words/cpp/aspose-words-for-cpp-21-9-release-notes/).
 
-Learn more about [Aspose.Words for C++ 21.10 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-10-release-notes/).
+Learn more about [Aspose.Words for C++ 21.10 Release Notes](/words/cpp/aspose-words-for-cpp-21-10-release-notes/).
 
 {{% /alert %}}
 
@@ -124,13 +124,13 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for C++ 21.5 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-5-release-notes/).
+Learn more about [Aspose.Words for C++ 21.5 Release Notes](/words/cpp/aspose-words-for-cpp-21-5-release-notes/).
 
-Learn more about [Aspose.Words for C++ 21.6 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-6-release-notes/).
+Learn more about [Aspose.Words for C++ 21.6 Release Notes](/words/cpp/aspose-words-for-cpp-21-6-release-notes/).
 
-Learn more about [Aspose.Words for C++ 21.7 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-7-release-notes/).
+Learn more about [Aspose.Words for C++ 21.7 Release Notes](/words/cpp/aspose-words-for-cpp-21-7-release-notes/).
 
-Learn more about [Aspose.Words for C++ 21.8 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-8-release-notes/).
+Learn more about [Aspose.Words for C++ 21.8 Release Notes](/words/cpp/aspose-words-for-cpp-21-8-release-notes/).
 
 {{% /alert %}}
 
@@ -191,12 +191,12 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for C++ 21.1 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-1-release-notes/).
+Learn more about [Aspose.Words for C++ 21.1 Release Notes](/words/cpp/aspose-words-for-cpp-21-1-release-notes/).
 
-Learn more about [Aspose.Words for C++ 21.2 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-2-release-notes/).
+Learn more about [Aspose.Words for C++ 21.2 Release Notes](/words/cpp/aspose-words-for-cpp-21-2-release-notes/).
 
-Learn more about [Aspose.Words for C++ 21.3 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-3-release-notes/).
+Learn more about [Aspose.Words for C++ 21.3 Release Notes](/words/cpp/aspose-words-for-cpp-21-3-release-notes/).
 
-Learn more about [Aspose.Words for C++ 21.3 Release Notes](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-21-4-release-notes/).
+Learn more about [Aspose.Words for C++ 21.3 Release Notes](/words/cpp/aspose-words-for-cpp-21-4-release-notes/).
 
 {{% /alert %}}

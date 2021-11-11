@@ -84,7 +84,7 @@ table.AutoFit(AutoFitBehavior.FixedColumnWidths)
 
 On the other hand, if you were previously attempting to fit a table to the page width by using the following code, you can now remove this as tables are fit to the window by default.
 
-Furthermore if you were constructing your tables in complex ways e.g each columns proportionally or fitting to contents you may be able to now simplify your code. For further information see [How-To: Apply Different AutoFit Settings to a Table](https://docs.aspose.com/words/net/applying-formatting/#allowing-autofit) and [Specifying Table and Cell Widths](https://docs.aspose.com/words/net/applying-formatting/#specifying-table-and-cell-widths) . 
+Furthermore if you were constructing your tables in complex ways e.g each columns proportionally or fitting to contents you may be able to now simplify your code. For further information see [How-To: Apply Different AutoFit Settings to a Table](/words/net/applying-formatting/#allowing-autofit) and [Specifying Table and Cell Widths](/words/net/applying-formatting/#specifying-table-and-cell-widths) . 
 
 ##### Fixing Table Borders
 
