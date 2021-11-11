@@ -27,7 +27,7 @@ The Aspose.Words model is based on Word document formats. In these formats bookm
 
 See the following links in the documentation for further information:
 
-- [Working with Bookmarks old](https://docs.aspose.com/words/net/working-with-bookmarks/)
+- [Working with Bookmarks old](/words/net/working-with-bookmarks/)
 - [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
 - [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark)
 
@@ -56,7 +56,7 @@ All three comment nodes are related through the use of the ID properties on each
 
 See the following links in the documentation for further information:
 
-- [How to Extract or Remove Comments](https://docs.aspose.com/words/net/working-with-comments/)
+- [How to Extract or Remove Comments](/words/net/working-with-comments/)
 - [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
 - [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 

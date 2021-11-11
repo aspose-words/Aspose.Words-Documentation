@@ -81,11 +81,11 @@ Once downloaded, please follow these steps to install this package into your Umb
 
 ## Using
 
-- [Using Umbraco Quote Generator ](https://docs.aspose.com/words/net/using-and-video-demo-for-umbraco-quote-generator/#using)
+- [Using Umbraco Quote Generator ](/words/net/using-and-video-demo-for-umbraco-quote-generator/#using)
 
 ## Video Demo
 
-- [Video Demo Umbraco Quote Generator ](https://docs.aspose.com/words/net/using-and-video-demo-for-umbraco-quote-generator/#video-demo)
+- [Video Demo Umbraco Quote Generator ](/words/net/using-and-video-demo-for-umbraco-quote-generator/#video-demo)
 
 ## Support, Extend and Contribute
 

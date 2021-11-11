@@ -8,7 +8,7 @@ url: /net/autofit-setting-to-tables/
 
 {{% alert color="primary" %}}
 
-See more details in the ["Applying Formatting"](https://docs.aspose.com/words/net/applying-formatting/) article of the ["Working with Tables"](https://docs.aspose.com/words/net/working-with-tables/) documentation section.
+See more details in the ["Applying Formatting"](/words/net/applying-formatting/) article of the ["Working with Tables"](/words/net/working-with-tables/) documentation section.
 
 {{% /alert %}} 
 

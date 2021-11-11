@@ -86,11 +86,11 @@ To download IntelliJ IDEA
 
 ## Installing
 
-[Installing Aspose.Words for IntelliJ IDEA - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/)
+[Installing Aspose.Words for IntelliJ IDEA - Maven](/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/)
 
 ## Using
 
-[Using Aspose.Words for IntelliJ IDEA - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/#using-asposeword-maven-project-wizard)
+[Using Aspose.Words for IntelliJ IDEA - Maven](/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/#using-asposeword-maven-project-wizard)
 
 ## Video Demo
 

@@ -43,6 +43,6 @@ Download **Create Empty Document** from any of the below mentioned social coding
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Create a New Document](https://docs.aspose.com/words/net/creating-or-loading-a-document/#create-a-new-document).
+For more details, visit [Create a New Document](/words/net/creating-or-loading-a-document/#create-a-new-document).
 
 {{% /alert %}}

@@ -29,5 +29,5 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for Java (20.4)](https://docs.aspose.com/words/java/aspose-words-for-java-20-4-release-notes/)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for Java (20.4)](/words/java/aspose-words-for-java-20-4-release-notes/)|New feature|
 

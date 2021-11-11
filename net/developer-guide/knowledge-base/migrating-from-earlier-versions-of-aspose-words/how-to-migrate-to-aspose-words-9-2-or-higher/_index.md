@@ -369,7 +369,7 @@ The options defined in the **Document.SaveOptions** property from previous versi
 
 The names of the properties have also been simplified in the move towards using the Unified Framework pattern. 
 
-There are also new members in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) to specify multiple font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) article. 
+There are also new members in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) to specify multiple font folders and to indicate Aspose.Words to recursively look in sub folder for fonts. For further information see the [Specifying Font Locations when Rendering to Fixed-Width Formats](/words/net/specifying-truetype-fonts-location/) article. 
 
 ##### Replacing Events and Delegates with Callbacks and Interfaces
 

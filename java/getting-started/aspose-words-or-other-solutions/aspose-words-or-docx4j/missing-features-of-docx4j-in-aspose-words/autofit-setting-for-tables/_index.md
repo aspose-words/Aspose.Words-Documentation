@@ -8,7 +8,7 @@ url: /java/autofit-setting-for-tables/
 
 {{% alert color="primary" %}}
 
-See more details in the ["Applying Formatting"](https://docs.aspose.com/words/java/applying-formatting/) article of the ["Working with Tables"](https://docs.aspose.com/words/java/working-with-tables/) documentation section.
+See more details in the ["Applying Formatting"](/words/java/applying-formatting/) article of the ["Working with Tables"](/words/java/working-with-tables/) documentation section.
 
 {{% /alert %}} 
 

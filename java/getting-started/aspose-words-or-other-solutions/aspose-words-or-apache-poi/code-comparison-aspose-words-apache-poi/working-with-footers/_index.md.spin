@@ -77,6 +77,6 @@ Download Extract Images from Document form any of the below mentioned social cod
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Working with Headers and Footers](https://docs.aspose.com/words/java/working-with-headers-and-footers/).
+For more details, visit [Working with Headers and Footers](/words/java/working-with-headers-and-footers/).
 
 {{% /alert %}}

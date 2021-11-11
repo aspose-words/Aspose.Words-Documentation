@@ -143,7 +143,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, I
 
 It {allows|enables} to specify an additional options that affect the formatting of a result document.
 
-See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for Java 19.4 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-19-4-release-notes/).
+See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for Java 19.4 Release Notes](/words/java/aspose-words-for-java-19-4-release-notes/).
 
 
 

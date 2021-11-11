@@ -10,7 +10,7 @@ This documentation section describes the updates and improvements for each new r
 
 To learn about specific releases, go to the respective platform, year, and definite release version in the navigation tree or using the list below:
 
-- [Aspose.Words for .NET](https://docs.aspose.com/words/net/aspose-words-for-net/)
-- [Aspose.Words for Android via Xamarin](https://docs.aspose.com/words/net/aspose-words-for-android-via-xamarin/)
-- [Aspose.Words for iOS via Xamarin](https://docs.aspose.com/words/net/aspose-words-for-ios-via-xamarin/)
-- [Aspose.Words for Mac via Xamarin](https://docs.aspose.com/words/net/aspose-words-for-mac-via-xamarin/)
+- [Aspose.Words for .NET](/words/net/aspose-words-for-net/)
+- [Aspose.Words for Android via Xamarin](/words/net/aspose-words-for-android-via-xamarin/)
+- [Aspose.Words for iOS via Xamarin](/words/net/aspose-words-for-ios-via-xamarin/)
+- [Aspose.Words for Mac via Xamarin](/words/net/aspose-words-for-mac-via-xamarin/)

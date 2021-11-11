@@ -63,7 +63,7 @@ This section describes {several|multiple|a few|many|numerous} use cases of divid
 
 {{% alert color="primary" %}}
 
-You can use any [output format supported by Aspose.Words](https://docs.aspose.com/words/cpp/supported-document-formats/).
+You can use any [output format supported by Aspose.Words](/words/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

@@ -23,7 +23,7 @@ import Aspose.Words.Notes;
 import Aspose.Words.Loading;
 {{< /highlight >}}
 
-For more information on these changes, see the [Aspose.Words for Java 21.3 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-3-release-notes/) and [Aspose.Words for Java 21.4 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-4-release-notes/) pages.
+For more information on these changes, see the [Aspose.Words for Java 21.3 Release Notes](/words/java/aspose-words-for-java-21-3-release-notes/) and [Aspose.Words for Java 21.4 Release Notes](/words/java/aspose-words-for-java-21-4-release-notes/) pages.
 
 {{% /alert %}}
 
@@ -55,9 +55,9 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/java/com
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 21.9 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-9-release-notes/).
+Learn more about [Aspose.Words for Java 21.9 Release Notes](/words/java/aspose-words-for-java-21-9-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.10 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-10-release-notes/).
+Learn more about [Aspose.Words for Java 21.10 Release Notes](/words/java/aspose-words-for-java-21-10-release-notes/).
 
 {{% /alert %}}
 
@@ -124,13 +124,13 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 21.5 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-5-release-notes/).
+Learn more about [Aspose.Words for Java 21.5 Release Notes](/words/java/aspose-words-for-java-21-5-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.6 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-6-release-notes/).
+Learn more about [Aspose.Words for Java 21.6 Release Notes](/words/java/aspose-words-for-java-21-6-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.7 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-7-release-notes/).
+Learn more about [Aspose.Words for Java 21.7 Release Notes](/words/java/aspose-words-for-java-21-7-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.8 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-8-release-notes/).
+Learn more about [Aspose.Words for Java 21.8 Release Notes](/words/java/aspose-words-for-java-21-8-release-notes/).
 
 {{% /alert %}}
 
@@ -200,12 +200,12 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 21.1 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-1-release-notes/).
+Learn more about [Aspose.Words for Java 21.1 Release Notes](/words/java/aspose-words-for-java-21-1-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.2 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-2-release-notes/).
+Learn more about [Aspose.Words for Java 21.2 Release Notes](/words/java/aspose-words-for-java-21-2-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.3 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-3-release-notes/).
+Learn more about [Aspose.Words for Java 21.3 Release Notes](/words/java/aspose-words-for-java-21-3-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.4 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-4-release-notes/).
+Learn more about [Aspose.Words for Java 21.4 Release Notes](/words/java/aspose-words-for-java-21-4-release-notes/).
 
 {{% /alert %}}

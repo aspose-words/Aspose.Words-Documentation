@@ -76,6 +76,6 @@ outputStream.close();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Convert a Document to PDF](https://docs.aspose.com/words/java/converting-a-microsoft-word-document-using-save-method/#convert-a-document-to-pdf).
+For more details, visit [How to Convert a Document to PDF](/words/java/converting-a-microsoft-word-document-using-save-method/#convert-a-document-to-pdf).
 
 {{% /alert %}}

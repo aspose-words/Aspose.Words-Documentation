@@ -9,7 +9,7 @@ aliases: [/net/using-find-and-replace-in-npoi/]
 
 {{% alert color="primary" %}} 
 
-See more details in the ["Find and Replace"](https://docs.aspose.com/words/net/find-and-replace/) article.
+See more details in the ["Find and Replace"](/words/net/find-and-replace/) article.
 
 {{% /alert %}}
 

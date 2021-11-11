@@ -29,6 +29,6 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for Java (20.7)](https://docs.aspose.com/words/java/aspose-words-for-java-20-7-release-notes/)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for Java (20.7)](/words/java/aspose-words-for-java-20-7-release-notes/)|New feature|
 | |Performance improvements	|New feature|
 |WORDSJR-289|AWDocxExporter does not export dashed lines in output DOC/DOCX.|Bug|

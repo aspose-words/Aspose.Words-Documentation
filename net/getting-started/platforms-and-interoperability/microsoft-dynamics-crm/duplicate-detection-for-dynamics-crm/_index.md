@@ -76,7 +76,7 @@ It is simple to install Aspose .NET Duplicate Detection. Please follow below Ins
 
 ## Using
 
-Easily configure and Use Aspose .NET Duplicate Detection for Dynamics CRM by following the instructions [here](https://docs.aspose.com/words/net/using-and-configuring-crm-duplicate-detection/).
+Easily configure and Use Aspose .NET Duplicate Detection for Dynamics CRM by following the instructions [here](/words/net/using-and-configuring-crm-duplicate-detection/).
 
 ## Video Demo
 
@@ -94,4 +94,4 @@ You can log any issues or suggestions related to Aspose .NET Duplicate Detection
 ## Extend and Contribute
 
 This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
-Please find the latest Source Code and Code Example [here](https://docs.aspose.com/words/net/extend-and-contribute-to-crm-duplicate-detection/).
+Please find the latest Source Code and Code Example [here](/words/net/extend-and-contribute-to-crm-duplicate-detection/).

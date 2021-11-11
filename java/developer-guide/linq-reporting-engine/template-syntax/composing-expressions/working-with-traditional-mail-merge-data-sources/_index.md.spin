@@ -9,6 +9,6 @@ LINQ Reporting Engine {enables|allows} you to use a simplified syntax in templat
 
 **This section includes the following topics:** 
 
-- [Working with DataSet objects](https://docs.aspose.com/words/java/working-with-dataset-objects/)
-- [Working with DataTable Objects](https://docs.aspose.com/words/java/working-with-datatable-objects/)
-- [Working with DataTable Row Objects](https://docs.aspose.com/words/java/working-with-datatable-row-objects/)
+- [Working with DataSet objects](/words/java/working-with-dataset-objects/)
+- [Working with DataTable Objects](/words/java/working-with-datatable-objects/)
+- [Working with DataTable Row Objects](/words/java/working-with-datatable-row-objects/)

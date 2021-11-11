@@ -12,7 +12,7 @@ aliases:
 
 This section has the following topics:
 
-- [Working with Documents Aspose VS NPOI](https://docs.aspose.com/words/net/code-comparison-for-common-features-with-npoi/)
-- [Working with Headers and Footers Aspose VS NPOI](https://docs.aspose.com/words/net/code-comparison-for-common-features-with-npoi/)
-- [Working with Images Aspose VS NPOI](https://docs.aspose.com/words/net/code-comparison-for-common-features-with-npoi/)
-- [Working with Tables Aspose VS NPOI](https://docs.aspose.com/words/net/code-comparison-for-common-features-with-npoi/)
+- [Working with Documents Aspose VS NPOI](/words/net/code-comparison-for-common-features-with-npoi/)
+- [Working with Headers and Footers Aspose VS NPOI](/words/net/code-comparison-for-common-features-with-npoi/)
+- [Working with Images Aspose VS NPOI](/words/net/code-comparison-for-common-features-with-npoi/)
+- [Working with Tables Aspose VS NPOI](/words/net/code-comparison-for-common-features-with-npoi/)

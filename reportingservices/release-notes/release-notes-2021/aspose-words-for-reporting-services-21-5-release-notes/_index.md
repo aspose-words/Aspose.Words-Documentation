@@ -15,5 +15,5 @@ This page contains release notes for [Aspose.Words for Reporting Services 21.5](
 
 |Key |Summary |Category |
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for .NET (21.5)](https://docs.aspose.com/words/net/aspose-words-for-net-21-5-release-notes/)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for .NET (21.5)](/words/net/aspose-words-for-net-21-5-release-notes/)|New feature|
 |WORDSRS-300|LocalProcessingException is thrown while rendering reports programmatically|Bug|

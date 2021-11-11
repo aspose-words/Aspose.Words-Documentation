@@ -8,7 +8,7 @@ aliases: [/java/footnotes-an-endnote-features-supported-on-opendocument-export/]
 
 {{% alert color="primary" %}}
 
-[Jump to this location in the import section](https://docs.aspose.com/words/java/footnotes-and-endnote-features-supported-on-opendocument-import/)
+[Jump to this location in the import section](/words/java/footnotes-and-endnote-features-supported-on-opendocument-import/)
 
 {{% /alert %}}
 

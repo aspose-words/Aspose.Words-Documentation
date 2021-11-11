@@ -25,7 +25,7 @@ We provide the Field facade for working with this structure more easily. This {a
 
 See the following links in the documentation for further information:
 
-- [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/)
+- [Working with Fields](/words/net/working-with-fields/)
 - [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertfield/methods/1)
 - [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
 - [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldchar/properties/fieldtype)
@@ -94,7 +94,7 @@ All Document Automation fields are supported and can be updated by Aspose.Words 
 
 Form fields are fully supported by Aspose.Words. See the following links in the documentation for further information:
 
-- [Working with Form Fields](https://docs.aspose.com/words/net/working-with-form-fields/)
+- [Working with Form Fields](/words/net/working-with-form-fields/)
 - [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
 - [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
 - [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)

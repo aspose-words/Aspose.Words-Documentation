@@ -16,7 +16,7 @@ You can add a watermark online by using the [Watermark Maker](https://products.a
 
 {{% alert color="primary" %}}
 
-See more details in the ["Working with Watermark"](https://docs.aspose.com/words/net/working-with-watermark/) article.
+See more details in the ["Working with Watermark"](/words/net/working-with-watermark/) article.
 
 {{% /alert %}} 
 

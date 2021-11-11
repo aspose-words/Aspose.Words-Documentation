@@ -74,6 +74,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words feature please visit [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/).
+For more information about Aspose.Words feature please visit [Working with Bookmarks](/words/net/working-with-bookmarks/).
 
 {{% /alert %}}

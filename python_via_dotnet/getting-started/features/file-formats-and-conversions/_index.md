@@ -39,7 +39,7 @@ The following code example shows how to convert a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-Doc2Pdf.py" >}}
 
-For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](https://docs.aspose.com/words/python/loading-saving-and-converting/) section.
+For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/python/loading-saving-and-converting/) section.
 
 ## High Fidelity
 

@@ -81,7 +81,7 @@ This section describes numerous use cases of dividing documents by paged using t
 
 {{% alert color="primary" %}} 
 
-You can use any [output format supported by Aspose.Words](https://docs.aspose.com/words/java/supported-document-formats/).
+You can use any [output format supported by Aspose.Words](/words/java/supported-document-formats/).
 
 {{% /alert %}} 
 

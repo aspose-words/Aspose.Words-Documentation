@@ -136,7 +136,7 @@ If you have web URLs of the documents, you can compare them directly, without up
 
 ![document-comparison-features-aspose-words-net](document-comparison-features_1.jpg)
 
-Behind the scenes, it uses the same process as when comparing files. This is the Aspose.Words.Document class that automatically downloads the document from the web URL if we pass the URL instead of the local file path. See the ["Compare Documents"](https://docs.aspose.com/words/net/compare-documents/) article for details.
+Behind the scenes, it uses the same process as when comparing files. This is the Aspose.Words.Document class that automatically downloads the document from the web URL if we pass the URL instead of the local file path. See the ["Compare Documents"](/words/net/compare-documents/) article for details.
 
 ## Web-Based Word Document Viewer
 

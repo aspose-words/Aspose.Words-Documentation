@@ -115,7 +115,7 @@ Additional features are now supported when rendering OOXML charts to PDF, XPS, i
 - Manual Layout
 - Overlapping
 
-See ﻿["Working with Charts"](https://docs.aspose.com/words/net/working-with-charts/) for more details.
+See ﻿["Working with Charts"](/words/net/working-with-charts/) for more details.
 
 ### Improved Bookmark Export to HTML
 

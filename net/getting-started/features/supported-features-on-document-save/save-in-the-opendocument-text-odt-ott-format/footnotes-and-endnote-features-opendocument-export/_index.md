@@ -10,7 +10,7 @@ aliases:
 
 {{% alert color="primary" %}}
 
-[Jump to this location in the import section](https://docs.aspose.com/words/net/footnotes-an-endnote-features-supported-on-opendocument-import/)
+[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-opendocument-import/)
 
 {{% /alert %}}
 

@@ -68,6 +68,6 @@ out.close();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Inserting Document Elements](https://docs.aspose.com/words/java/use-documentbuilder-to-insert-document-elements/#inserting-document-elements).
+For more details, visit [Inserting Document Elements](/words/java/use-documentbuilder-to-insert-document-elements/#inserting-document-elements).
 
 {{% /alert %}}

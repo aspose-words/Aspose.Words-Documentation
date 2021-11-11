@@ -95,7 +95,7 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 
 ## Using
 
-Easily configure and Use Aspose .NET Document Generator for Dynamics CRM by following the instructions [here](https://docs.aspose.com/words/net/using-and-configuring-crm-document-generator/).
+Easily configure and Use Aspose .NET Document Generator for Dynamics CRM by following the instructions [here](/words/net/using-and-configuring-crm-document-generator/).
 
 ## Support, Extend and Contribute
 

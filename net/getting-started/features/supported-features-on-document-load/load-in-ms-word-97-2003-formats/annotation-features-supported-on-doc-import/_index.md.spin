@@ -11,7 +11,7 @@ Annonations allow the user to add extra information to the document normally for
 
 These features are supported by Aspose.Words.
 
-[Jump to this location in the export section](https://docs.aspose.com/words/net/annotation-features-supported-on-doc-export/)
+[Jump to this location in the export section](/words/net/annotation-features-supported-on-doc-export/)
 
 {{% /alert %}} 
 
@@ -60,7 +60,7 @@ All three comment nodes are related through the use of the ID properties on each
 
 See the following links in the documentation for further information:
 
-- [How to Extract or Remove Comments](https://docs.aspose.com/words/net/working-with-comments/)
+- [How to Extract or Remove Comments](/words/net/working-with-comments/)
 - [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
 - [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
@@ -88,7 +88,7 @@ These additonal features will be included in a future version as well as an API 
 
 See the following links in the documentation for further information:
 
-- [Manage Tracking Changes](https://docs.aspose.com/words/net/track-changes-in-a-document/)
+- [Manage Tracking Changes](/words/net/track-changes-in-a-document/)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
 - [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)

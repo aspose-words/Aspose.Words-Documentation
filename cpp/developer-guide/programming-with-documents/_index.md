@@ -24,7 +24,7 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Tables](/words/cpp/working-with-tables/)
 - [Working With Lists](/words/cpp/working-with-lists/)
 - [Working with Paragraphs](/words/cpp/working-with-paragraphs/)
-- [Working with Hyphenation](https://docs.aspose.com/words/cpp/working-with-hyphenation/)
+- [Working with Hyphenation](/words/cpp/working-with-hyphenation/)
 - [Working with Fonts](/words/cpp/working-with-fonts/)
 - [Working with TextBoxes](/words/cpp/working-with-textboxes/)
 - [Working with Comments](/words/cpp/working-with-comments/)

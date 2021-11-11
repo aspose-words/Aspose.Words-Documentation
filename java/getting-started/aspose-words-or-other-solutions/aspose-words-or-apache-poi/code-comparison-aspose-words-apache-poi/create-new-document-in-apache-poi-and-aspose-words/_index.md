@@ -63,6 +63,6 @@ fos.close();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Creating a New Document](https://docs.aspose.com/words/java/creating-or-loading-a-document/#create-a-new-document).
+For more details, visit [Creating a New Document](/words/java/creating-or-loading-a-document/#create-a-new-document).
 
 {{% /alert %}}

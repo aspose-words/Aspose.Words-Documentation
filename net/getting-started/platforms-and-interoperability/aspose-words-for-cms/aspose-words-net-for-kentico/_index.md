@@ -7,4 +7,4 @@ url: /net/aspose-words-net-for-kentico/
 
 This section has the following topics:
 
-- [Kentico Content Exporter Module](https://docs.aspose.com/words/net/kentico-content-exporter-module/)
+- [Kentico Content Exporter Module](/words/net/kentico-content-exporter-module/)

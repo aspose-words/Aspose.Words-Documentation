@@ -16,7 +16,7 @@ You can add a watermark online by using the [Document and Image Merger](https://
 
 {{% alert color="primary" %}}
 
-See more details in the ["Insert and Append Documents"](https://docs.aspose.com/words/java/insert-and-append-documents/) article.
+See more details in the ["Insert and Append Documents"](/words/java/insert-and-append-documents/) article.
 
 {{% /alert %}}
 

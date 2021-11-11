@@ -90,7 +90,7 @@ There are 67 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14389|PDF output is incorrect for 2 text columns|Feature|
 |WORDSNET-14489|Add feature to set background color of table row using Linq Reporting Engine|Feature|
 |WORDSNET-14600|Insert image dynamically using Linq without change size of textbox|Feature|
-|WORDSNET-14602|Justification of OfficeMath object|[Feature](https://docs.aspose.com/words/net/working-with-officemath/)|
+|WORDSNET-14602|Justification of OfficeMath object|[Feature](/words/net/working-with-officemath/)|
 |WORDSNET-14611|Obtain type of the MathObject|Feature|
 |WORDSNET-14627|Add feature to define variables in LINQ Reporting template|Feature|
 |WORDSNET-14745|Provide ability to specify locale at Field level|Feature|

@@ -8,7 +8,7 @@ url: /net/working-with-bookmarks-in-npoi/
 
 {{% alert color="primary" %}} 
 
-See more details in the ["Working with Bookmarks"](https://docs.aspose.com/words/net/working-with-bookmarks/) article.
+See more details in the ["Working with Bookmarks"](/words/net/working-with-bookmarks/) article.
 
 {{% /alert %}}
 

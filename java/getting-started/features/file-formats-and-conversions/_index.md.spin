@@ -36,7 +36,7 @@ The following code example {shows|demonstrates} how to convert a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocToHtml.java" >}}
 
-For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](https://docs.aspose.com/words/java/loading-saving-and-converting/) section.
+For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/java/loading-saving-and-converting/) section.
 
 ## High Fidelity
 

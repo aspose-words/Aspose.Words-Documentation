@@ -212,4 +212,4 @@ Jpeg quality was 100 for the XAML and XPS formats in the previous version. Now i
 
 ### The analogue of NEXT fields is added to LINQ Reporting Engine
 
-The "[Forcing Movement to Next Item within Data Band](https://docs.aspose.com/words/net/template-syntax/#forcing-movement-to-next-item-within-data-band)" section of the engine's documentation was added to describe the change
+The "[Forcing Movement to Next Item within Data Band](/words/net/template-syntax/#forcing-movement-to-next-item-within-data-band)" section of the engine's documentation was added to describe the change

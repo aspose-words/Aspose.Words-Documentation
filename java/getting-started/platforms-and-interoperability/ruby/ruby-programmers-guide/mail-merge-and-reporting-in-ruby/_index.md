@@ -7,4 +7,4 @@ url: /java/mail-merge-and-reporting-in-ruby/
 
 This section includes the following topics:
 
-- [Remove Empty Regions in Ruby](https://docs.aspose.com/words/java/remove-empty-regions-in-ruby/)
+- [Remove Empty Regions in Ruby](/words/java/remove-empty-regions-in-ruby/)

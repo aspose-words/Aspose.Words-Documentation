@@ -195,7 +195,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 Aspose.Words fully supports all features of hyperlink fields. You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink. Imported from &lt;a&gt; element. Several different objects can have hyperlinks imported from this element. The most common is plain text which is imported a regular hyperlink. If the &lt;a&gt; element has image as a child then the hyperlink is imported on Shape node. See the following links in the documentation for further information:
 
 - [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
-- [How to Replace or Modify Hyperlinks](https://docs.aspose.com/words/net/working-with-hyperlinks-and-html/)
+- [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

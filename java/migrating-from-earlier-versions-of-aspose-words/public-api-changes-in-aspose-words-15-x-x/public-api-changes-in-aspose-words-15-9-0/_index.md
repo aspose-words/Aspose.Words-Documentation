@@ -52,13 +52,13 @@ Note that there was a lack of documentation about using of charts with LINQ Repo
 
 The following documentation sections were added/modified:
 
-- [Using Charts to Represent Sequential Data](https://docs.aspose.com/words/java/using-charts-to-represent-sequential-data/)
-- [Inserting Images Dynamically](https://docs.aspose.com/words/java/inserting-images-dynamically/)
-- [Pie Chart Template (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#pie-chart-template)
-- [Scatter Chart Template (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#scatter-chart-template)
-- [Bubble Chart Template (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#bubble-chart-template)
-- [In-Table Template with Filtering, Grouping, and Ordering (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#in-table-template-with-filtering-grouping-and-ordering)
-- [Chart Template with Filtering, Grouping, and Ordering (Appendix C)](https://docs.aspose.com/words/java/appendix-c-typical-templates/#chart-template-with-filtering-grouping-and-ordering)
+- [Using Charts to Represent Sequential Data](/words/java/using-charts-to-represent-sequential-data/)
+- [Inserting Images Dynamically](/words/java/inserting-images-dynamically/)
+- [Pie Chart Template (Appendix C)](/words/java/appendix-c-typical-templates/#pie-chart-template)
+- [Scatter Chart Template (Appendix C)](/words/java/appendix-c-typical-templates/#scatter-chart-template)
+- [Bubble Chart Template (Appendix C)](/words/java/appendix-c-typical-templates/#bubble-chart-template)
+- [In-Table Template with Filtering, Grouping, and Ordering (Appendix C)](/words/java/appendix-c-typical-templates/#in-table-template-with-filtering-grouping-and-ordering)
+- [Chart Template with Filtering, Grouping, and Ordering (Appendix C)](/words/java/appendix-c-typical-templates/#chart-template-with-filtering-grouping-and-ordering)
 
 ## Added ReportingEngine.Options Property
 

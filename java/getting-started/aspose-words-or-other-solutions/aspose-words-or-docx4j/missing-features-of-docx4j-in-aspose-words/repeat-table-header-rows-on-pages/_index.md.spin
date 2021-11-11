@@ -8,7 +8,7 @@ url: /java/repeat-table-header-rows-on-pages/
 
 {{% alert color="primary" %}}
 
-See more details in the [“Working with Columns and Rows”](https://docs.aspose.com/words/java/working-with-columns-and-rows/) article of the [“Working with Tables”](https://docs.aspose.com/words/java/working-with-tables/) documentation section.
+See more details in the [“Working with Columns and Rows”](/words/java/working-with-columns-and-rows/) article of the [“Working with Tables”](/words/java/working-with-tables/) documentation section.
 
 {{% /alert %}}
 

@@ -87,11 +87,11 @@ Download only Java EE / SE supported NetBeans download bundle of the current lat
 
 ## Installing
 
-[Installing Aspose.Words for NetBeans - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-netbeans-maven/)
+[Installing Aspose.Words for NetBeans - Maven](/words/java/installing-and-using-aspose-words-for-netbeans-maven/)
 
 ## Using the Plugin
 
-[Using Aspose.Words for NetBeans - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-netbeans-maven/#using)
+[Using Aspose.Words for NetBeans - Maven](/words/java/installing-and-using-aspose-words-for-netbeans-maven/#using)
 
 ## Support, Extend and Contribute
 

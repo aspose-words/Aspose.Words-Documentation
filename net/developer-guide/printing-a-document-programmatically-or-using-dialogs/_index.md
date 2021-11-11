@@ -26,7 +26,7 @@ The proper way to print documents according to Microsoft is by using the unmanag
 
 Since Aspose.Words can easily convert any document to XPS, you only need to write the code that passes an XPS document to the XpsPrint API. The only problem is that the XpsPrint API is unmanaged and requires some knowledge of the Platform Invoke technology.
 
-To print a document, Aspose.Words provides an **XpsPrintHelper** class contains a simple Print method, where you just need to specify the following parameters (see more details in the article ["Print Document via XPS API"](https://docs.aspose.com/words/net/missing-features-in-openxml/)):
+To print a document, Aspose.Words provides an **XpsPrintHelper** class contains a simple Print method, where you just need to specify the following parameters (see more details in the article ["Print Document via XPS API"](/words/net/missing-features-in-openxml/)):
 
 - Document you want to print.
 - Printer name.

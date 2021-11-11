@@ -72,6 +72,6 @@ Download Extract Images from Document form any of the below mentioned social cod
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Extract Images from a Document](https://docs.aspose.com/words/java/working-with-images/#WorkingwithImages-HowtoExtractImagesfromaDocument).
+For more details, visit [How to Extract Images from a Document](/words/java/working-with-images/#WorkingwithImages-HowtoExtractImagesfromaDocument).
 
 {{% /alert %}}

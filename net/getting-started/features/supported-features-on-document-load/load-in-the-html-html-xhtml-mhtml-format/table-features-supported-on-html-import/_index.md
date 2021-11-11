@@ -27,7 +27,7 @@ Currently CSS styles are not imported from table, tr and td elements on import. 
 
 See the following links in the documentation for further information:
 
-- [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/)
+- [Working with Tables](/words/net/working-with-tables/)
 - [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table)
 
 {{% /alert %}} 
@@ -38,7 +38,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Yes | |- [Table.Bidi](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bidi)|
-|Table Style |Planned |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. <br><br>There are plans to import CSS style on table as a Table Style. |<p>- [Working with Table Styles](https://docs.aspose.com/words/net/working-with-tablestyle/) </p><p>- [Table.Style](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/style) </p><p>- [Table.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleidentifier)</p>|
+|Table Style |Planned |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. <br><br>There are plans to import CSS style on table as a Table Style. |<p>- [Working with Table Styles](/words/net/working-with-tablestyle/) </p><p>- [Table.Style](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/style) </p><p>- [Table.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleidentifier)</p>|
 |Conditional Formatting Style |N/A | | |
 |Table Alignment |Yes |Imported as a table wrapped inside a &lt;div&gt; formatted with text-align. |- [Table.Alignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/alignment)|
 |Table Indent |Yes |Imported from margin-left:XXX on table. |- [Table.LeftIndent](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftindent)|
@@ -81,8 +81,8 @@ See the following links in the documentation for further information:
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Allow Break Across Pages |Planned | |<p>- [Keeping Tables and Rows from Breaking across Pages](https://docs.aspose.com/words/net/working-with-columns-and-rows/#keeping-tables-and-rows-from-breaking-across-pages) </p><p>- [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/allowbreakacrosspages)</p>|
-|Repeat as Header Row |Planned |Will be imported from &lt;thead&gt; and &lt;th&gt; elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](https://docs.aspose.com/words/net/working-with-columns-and-rows/#specifying-rows-to-repeat-on-subsequent-pages-as-header-rows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/headingformat)</p>|
+|Allow Break Across Pages |Planned | |<p>- [Keeping Tables and Rows from Breaking across Pages](/words/net/working-with-columns-and-rows/#keeping-tables-and-rows-from-breaking-across-pages) </p><p>- [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/allowbreakacrosspages)</p>|
+|Repeat as Header Row |Planned |Will be imported from &lt;thead&gt; and &lt;th&gt; elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](/words/net/working-with-columns-and-rows/#specifying-rows-to-repeat-on-subsequent-pages-as-header-rows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/headingformat)</p>|
 |Height |Yes |Imported from "height" of style attribute on &lt;tr&gt;. Row height is only from &lt;tr&gt; and not from &lt;td&gt; cells. |- [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/height)|
 |Height Rule |Planned |A row without any height is imported as "Auto" height rule. <br><br>A row with height defined is imported as "At Least". |- [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/heightrule)|
 

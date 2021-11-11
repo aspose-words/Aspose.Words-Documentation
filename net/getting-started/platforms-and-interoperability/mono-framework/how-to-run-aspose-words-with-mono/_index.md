@@ -49,4 +49,4 @@ Unpack **Aspose.Words.zip** and add a reference to **net2.0/Aspose.Words.dll** t
 
 #### Verify the Location of TrueType Fonts
 
-In order for Aspose.Words to render documents (for example to PDF or XPS), it needs to know where to find TrueType Fonts (TTF) files. See [How-to: Specify True Type Font Location](https://docs.aspose.com/words/net/specifying-truetype-fonts-location/) for more information. 
+In order for Aspose.Words to render documents (for example to PDF or XPS), it needs to know where to find TrueType Fonts (TTF) files. See [How-to: Specify True Type Font Location](/words/net/specifying-truetype-fonts-location/) for more information. 

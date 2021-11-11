@@ -9,7 +9,7 @@ url: /net/document-features-supported-on-wordprocessingml-export/
 
 See the following links in the documentation for further information:
 
-- [Save a Document](https://docs.aspose.com/words/net/save-a-document/)
+- [Save a Document](/words/net/save-a-document/)
 - [WordML2003SaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/WordML2003SaveOptions)
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-wordprocessingml-import/)

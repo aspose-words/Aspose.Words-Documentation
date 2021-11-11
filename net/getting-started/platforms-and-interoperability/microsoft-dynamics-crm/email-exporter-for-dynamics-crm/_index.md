@@ -127,6 +127,6 @@ Please follow these simple steps to get started
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Loading, Saving and Converting](https://docs.aspose.com/words/net/loading-saving-and-converting/)
+For more details, visit [Loading, Saving and Converting](/words/net/loading-saving-and-converting/)
 
 {{% /alert %}}

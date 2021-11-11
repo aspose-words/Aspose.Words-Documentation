@@ -28,7 +28,7 @@ NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 comments.Clear();
 {{< /highlight >}}
 
-For more details you can go [here](https://docs.aspose.com/words/net/working-with-comments/#how-to-extract-or-remove-comments)
+For more details you can go [here](/words/net/working-with-comments/#how-to-extract-or-remove-comments)
 
 ## Download Running Code Example
 

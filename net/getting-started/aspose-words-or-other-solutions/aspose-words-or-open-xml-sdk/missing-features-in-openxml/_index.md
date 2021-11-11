@@ -38,19 +38,19 @@ The following table contains some of the popular features supported by Aspose.Wo
 
 | Aspose.Words feature                                         | Corresponding documentation article or section               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Convert between Different Document Formats. For example, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The [“Convert a Document”](https://docs.aspose.com/words/net/convert-a-document/) section |
-| Mail Merge                                                   | The [”Mail Merge and Reporting”](https://docs.aspose.com/words/net/mail-merge-and-reporting/) section |
-| Rendering                                                    | The [”Rendering”](https://docs.aspose.com/words/net/rendering/) section |
-| Print a document                                             | The [”Printing a Document Programmatically or Using Dialogs”](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) article |
-| Join several documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](https://docs.aspose.com/words/net/insert-and-append-documents/) article |
-| Find and Replace                                             | The [“Find and Replace”](https://docs.aspose.com/words/net/find-and-replace/) article |
-| Updating fields                                              | The [“Working with Fields”](https://docs.aspose.com/words/net/working-with-fields/) section |
-| Manage a Table of Content (TOC)                              | The [“Working with Table of Contents”](https://docs.aspose.com/words/net/working-with-table-of-contents/) article |
-| Manipulate form fields                                       | The [“Working with Form Fields”](https://docs.aspose.com/words/net/working-with-form-fields/) article |
-| Manipulate tables                                            | The [“Working with Tables”](https://docs.aspose.com/words/net/working-with-tables/) section |
+| Convert between Different Document Formats. For example, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The [“Convert a Document”](/words/net/convert-a-document/) section |
+| Mail Merge                                                   | The [”Mail Merge and Reporting”](/words/net/mail-merge-and-reporting/) section |
+| Rendering                                                    | The [”Rendering”](/words/net/rendering/) section |
+| Print a document                                             | The [”Printing a Document Programmatically or Using Dialogs”](/words/net/print-a-document-programmatically-or-using-dialogs/) article |
+| Join several documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](/words/net/insert-and-append-documents/) article |
+| Find and Replace                                             | The [“Find and Replace”](/words/net/find-and-replace/) article |
+| Updating fields                                              | The [“Working with Fields”](/words/net/working-with-fields/) section |
+| Manage a Table of Content (TOC)                              | The [“Working with Table of Contents”](/words/net/working-with-table-of-contents/) article |
+| Manipulate form fields                                       | The [“Working with Form Fields”](/words/net/working-with-form-fields/) article |
+| Manipulate tables                                            | The [“Working with Tables”](/words/net/working-with-tables/) section |
 | And others                                                   |                                                              |
 
-The table is not complete, so you can check [our documentation](https://docs.aspose.com/words/net/) for the feature you are interested in.
+The table is not complete, so you can check [our documentation](/words/net/) for the feature you are interested in.
 
 {{% alert color="primary" %}}
 
