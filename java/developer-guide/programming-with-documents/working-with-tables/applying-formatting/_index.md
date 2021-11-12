@@ -27,11 +27,11 @@ To apply formatting to a table you can use the properties available on the corre
 
 The following code example shows how to apply an outline border to a table.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-ApplyOutlineBorderToATable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-applyOutlineBorderToATable.java" >}}
 
 The following code example shows how to build a table with all borders enabled (grid).
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-BuildATableWithAllBordersEnabled.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-buildATableWithAllBordersEnabled.java" >}}
 
 Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
 
@@ -43,7 +43,7 @@ Formatting on the row level can be controlled using the [RowFormat](https://apir
 
 The following code example demonstrates how to modify the formatting of a table row.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheRowLevel-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheRowLevel-ApplyFormattingOnTheRowLevel.java" >}}
 
 ## Applying Formatting on the Cell Level
 
@@ -55,11 +55,11 @@ Formatting on the cell level is controlled using the [CellFormat](https://apiref
 
 The following code example demonstrates how to modify the formatting of a table cell.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheCellLevel-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheCellLevel-ApplyFormattingOnTheCellLevel.java" >}}
 
 The following code example demonstrates how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SetCellPadding.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyCellPadding-ApplyCellPadding.java" >}}
 
 ## Specifying Row Heights
 
@@ -78,7 +78,7 @@ The simplest way to set row height is by using DocumentBuilder. Using the approp
 
 The following code example demonstrates how to create a table that contains a single cell and apply row formatting.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyRowHeights-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyRowHeights-SpecifyRowHeights.java" >}}
 
 ## Applying Borders and Shading
 
@@ -92,7 +92,7 @@ Borders and shading can be applied either table wide using [Table.setBorder(int,
 
 The following code example demonstrates how to format a table and cell with different borders and shadings.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyBordersAndShading-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyBordersAndShading-ApplyBordersAndShading.java" >}}
 
 ## Get Distance between Table and Surrounding Text
 

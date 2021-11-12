@@ -14,7 +14,7 @@ The new insertChart method was added into the [DocumentBuilder](https://apirefe
 
 ### How to insert Column chart
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertColumnChart1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart1.java" >}}
 
 The code produces the following result:
 
@@ -22,7 +22,7 @@ The code produces the following result:
 | :- |
 There are four different overloads for the series Add method, which were exposed to cover all possible variants of data sources for all chart types:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertColumnChart2.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
 The code produces the following result:
 
@@ -31,7 +31,7 @@ The code produces the following result:
 
 ### How to insert Scatter chart
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertScatterChart.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
 The code produces the following result:
 
@@ -40,7 +40,7 @@ The code produces the following result:
 
 ### How to insert Area chart
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertAreaChart.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
 The code produces the following result:
 
@@ -49,7 +49,7 @@ The code produces the following result:
 
 ### How to insert Bubble chart
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertBubbleChart.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertBubbleChart.java" >}}
 
 The code produces the following result:
 
@@ -60,7 +60,7 @@ The code produces the following result:
 
 Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.Chart](http://www.aspose.com/api/java/words/com.aspose.words/classes/Shape/properties/getChart\(\)/) property contains all chart related options available through the public API. For example, let's change Chart title or legend behavior:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-ChangeChartAppearanceUsingShapeChartObject.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
 The code generates the followings results:
 
@@ -70,7 +70,7 @@ The code generates the followings results:
 
 Let’s look into [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartSeries) collection. All chart series are available through the chart.getSeries()collection, which is Iterable:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
 You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call the chart.getSeries().clear()method.
 
@@ -78,7 +78,7 @@ You can remove series one by one or clear all of them as well as add a new one i
 
 Here is how to work with a particular series.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-WorkingWithSingleChartSeries.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-workingWithSingleChartSeries.java" >}}
 
 Please see the result below:
 
@@ -86,7 +86,7 @@ Please see the result below:
 
 All single [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartSeries) have default [ChartDataPoint](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartDataPoint) options, please try using the following code to change them:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-ChangeDefaultChartDataPointOptions.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
 ![line-chart-aspose-words-java3](working-with-charts_3.png)
 
@@ -94,7 +94,7 @@ All single [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/c
 
 Using ChartDataPoint you are able to customize the formatting of a single data point of the chart series.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
 Please see the result below:
 

@@ -17,7 +17,7 @@ As in Microsoft Word, an autofit method is actually a shortcut which applies dif
 
 The following code example autofits a table to fit the page width.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-AutoFittingATableToWindow.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-autoFittingATableToWindow.java" >}}
 
 The result after this operation is a table which is lengthened to fit the width of the page is shown below.
 
@@ -39,7 +39,7 @@ When autofit to the window is applied to a table the following operations are ac
 
 The following code example autofits a table in the document to its contents.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-AutoFittingATableToContents.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-autoFittingATableToContents.java" >}}
 
 The result of the above code causes the table to automatically resize each column to its contents.
 
@@ -63,7 +63,7 @@ Note that this autofit option clears the preferred widths from the cells just li
 
 The following code example disables autofitting and {enables|allows} fixed widths for the specified table.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-DisablingAutoFittingOnATableAndUseFixedColumnWidths.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-disablingAutoFittingOnATableAndUseFixedColumnWidths.java" >}}
 
 The result of disabling autofit and using fixed widths for the column sizes is shown below.
 

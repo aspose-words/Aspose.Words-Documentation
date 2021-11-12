@@ -15,7 +15,7 @@ All images are stored inside Shape nodes in a Document. To extract all images o
 - Extract image data using the [Shape.ImageData](https://apireference.aspose.com/words/java/com.aspose.words/shape#ImageData) property.
 - Save image data to a file.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-ExtractImagesToFiles-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-ExtractImagesToFiles-ExtractImagesToFiles.java" >}}
 
 ## How to Insert Barcode on each Document Page {#how-to-insert-barcode-on-each-documen-page}
 

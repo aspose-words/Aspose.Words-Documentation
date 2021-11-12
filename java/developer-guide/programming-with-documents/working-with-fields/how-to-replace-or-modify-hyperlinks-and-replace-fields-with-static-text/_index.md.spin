@@ -15,7 +15,7 @@ This example {shows|demonstrates} how to create a simple class that represents a
 
 The following code example finds all hyperlinks in a Word document and changes their URL and display name.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.java" >}}
 
 ## Replace Fields with Static Text
 
@@ -39,7 +39,7 @@ As described in the process above, to convert the field to static text all nodes
 
 The implementation which converts fields to static text is described below. The ConvertFieldsToStaticText method can be called at any time within your application. After invoking this method, all of the fields of the specified field type that are contained within the composite node will be transformed into static text. Below class provides a static method convert fields of a particular type to static text.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-FieldsHelper.java" >}}
 
 The method accepts two parameters, A CompositeNode and a FieldType enumeration. Being able to pass any composite node to this method {allows|enables} you to convert fields to static text in specific parts of your document only. For example you can pass a Document object and convert the fields of the specified type from the entire document to static text, or you could pass the [Body](http://www.aspose.com/api/java/words/com.aspose.words/classes/Body) object of a section and convert only fields found within that body.
 
@@ -47,12 +47,12 @@ When passing a block level node such as a [Paragraph](http://www.aspose.com/api/
 
 The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. The code example given below {shows|demonstrates} how to convert all fields of a specified type in a document to static text. You can download the template file of the below examples from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInDocument/TestFile.doc).
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-ConvertFieldsInDocument.java" >}}
 
 The following code example {shows|demonstrates} how to convert all fields of a specified type in a body of a document to static text.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInBody-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInBody-ConvertFieldsInBody.java" >}}
 
 The following code example {shows|demonstrates} how to convert all fields of a specified type in a paragraph to static text.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.java" >}}

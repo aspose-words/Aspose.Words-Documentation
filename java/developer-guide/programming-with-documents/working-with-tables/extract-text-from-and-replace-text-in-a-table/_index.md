@@ -11,7 +11,7 @@ A Table like any other node in Aspose.Words has access to a [Range](https://apir
 
 The following code example shows how to print the text range of a table.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-PrintTextRangeOfATable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-printTextRangeOfATable.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -21,7 +21,7 @@ The same technique is used to extract the content from individual cells of a tab
 
 The following code example demonstrates how to print the text range of row and table elements.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-PrintTextRangeOfRowAndTableElements.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-printTextRangeOfRowAndTableElements.java" >}}
 
 ## Replace Text in a Table
 
@@ -31,4 +31,4 @@ Normally the replacement of text should be done at the cell level (per cell) or 
 
 Shows how to replace all instances of a string of text in a table and cell.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ReplaceText-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ReplaceText-ReplaceText.java" >}}

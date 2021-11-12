@@ -77,7 +77,7 @@ For example, you can use IF fields if you need to insert “his”, “her”, �
 
 The following code example {shows|demonstrates} how to perform a mail merge operation with Mustache tags and IF fields:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseOfIfElseMustacheSyntax.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseOfIfElseMustacheSyntax.java" >}}
 
 You can notice the difference between the document before applying the **UseNonMergeFields** property:
 
