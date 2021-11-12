@@ -27,21 +27,34 @@ For more information on these changes, see the [Aspose.Words for .NET 21.3 Relea
 
 {{% /alert %}}
 
-## Aspose.Words for .NET 21.9, 21.10
+## Aspose.Words for .NET 21.9, 21.10, 21.11
 
 Aspose.Words 21.9 expands the list-level formatting control.
 
 Aspose.Words 21.10 enhances rendering options, improves find and replace options, and expands Mail Merge and Structure Document Tag functionality.
 
+Aspose.Words 21.11 expands loadings and saving functionality, improves find and replace option and working with PDF.
+
 The API is enhanced for more flexible and convenient development.
 
 ### Rendering
 
+#### Working with gradient fills and gradient stops
+
 New public methods and properties to work with gradient fills and gradient stops have been added to satisfy the brightest ideas when developing your documents.
+
+#### Attachment Pane in Output PDF Documents
+
+A new option [UseAttachments](https://apireference.aspose.com/words/net/aspose.words.saving/pdfpagemode) has been implemented to display the attachment pane in output PDF documents.
 
 ### Search and Compare
 
-A new option to ignore footnotes during the find and replace operation has been added.
+* A new option [IgnoreFootnotes](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefootnotes) to ignore footnotes during the find and replace operation has been added.
+* A new option [IgnoreFieldCodes](https://apireference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/ignorefieldcodes) to ignore field codes during find and replace operation has been added.
+
+### Conversion
+
+A simple way to save images as Base64 string into Markdown format has been provided through the [ExportImagesAsBase64](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/exportimagesasbase64) property.
 
 ### Mail Merge and Reporting
 
@@ -52,10 +65,16 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/net/aspo
 * An ability to get the [CustomNumberStyleFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/customnumberstyleformat) property of the [ListLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel) object has been added.
 * A possibility to get the string representation of the [ListLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel) object for a specified index using the [GetEffectiveValue](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/methods/geteffectivevalue) method has been added.
 * An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
+* A new property [ProgressCallback](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/progresscallback) for showing the document loading progress has been implemented.
+* A new class [ChmLoadOptions](https://apireference.aspose.com/words/net/aspose.words.loading/chmloadoptions) has been added to get more control over CHM loading.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 21.9 Release Notes](/words/net/aspose-words-for-net-21-9-release-notes/).
+
+Learn more about [Aspose.Words for .NET 21.10 Release Notes](/words/net/aspose-words-for-net-21-10-release-notes/).
+
+Learn more about [Aspose.Words for .NET 21.11 Release Notes](/words/net/aspose-words-for-net-21-11-release-notes/).
 
 {{% /alert %}}
 
