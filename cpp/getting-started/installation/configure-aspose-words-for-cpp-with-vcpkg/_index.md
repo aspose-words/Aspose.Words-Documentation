@@ -41,7 +41,7 @@ Since Aspose.Words for C++ has no official port, we have to add the registry to 
 Create `vcpkg-configuration.json` file in the same directory as your top-level `CMakeLists.txt` and [vcpkg manifest file](https://vcpkg.io/en/docs/maintainers/manifest-files.html)
 
 *`vcpkg-configuration.json`*
-{{< highlight json "hl_lines="3-8" >}}
+{{< highlight json "hl_lines="3-8"" >}}
 {
   "registries": [
     {
@@ -61,9 +61,9 @@ Create `vcpkg-configuration.json` file in the same directory as your top-level `
 cmake_mininum_required(VERSION 3.21 FATAL_ERROR)
 
 set(CMAKE_TOOLCHAIN_FILE "<path_to_vcpkg>/scripts/buildsystems/vcpkg.cmake")
- 
+
 project(app LANGUAGES CXX)
- 
+
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_STANDARD_REQUIRED TRUE)
 
