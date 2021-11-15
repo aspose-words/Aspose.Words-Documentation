@@ -44,7 +44,7 @@ for (Section section : doc.getSections())
 
 ## Docx4j - Remove Header Footer from Documents
 
-Examples demonstrates how header and footer can be removed using docx4j library.
+Examples shows how header and footer can be removed using docx4j library.
 
 **Java**
 

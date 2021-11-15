@@ -12,7 +12,7 @@ The Aspose Duplicate Detection is an open source add-on to be used with Microsof
 This release supports the following features:
 
 - Remove duplicates of attachments in single record.
-- Remove duplicates of attachments in a few records of single entity.
+- Remove duplicates of attachments in multiple records of single entity.
 - Remove duplicates of attachments in multiple entities.
 
 ## System Requirements and Supported Platforms

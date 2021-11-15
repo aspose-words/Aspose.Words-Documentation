@@ -24,6 +24,6 @@ The following code snippet shows how to check if shape.TextBox is a Head, a Tai
 
 ## Break a Link
 
-The following code snippet demonstrates how to break a link for a shape.TextBox:
+The following code snippet shows how to break a link for a shape.TextBox:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-BreakALink.cpp" >}}

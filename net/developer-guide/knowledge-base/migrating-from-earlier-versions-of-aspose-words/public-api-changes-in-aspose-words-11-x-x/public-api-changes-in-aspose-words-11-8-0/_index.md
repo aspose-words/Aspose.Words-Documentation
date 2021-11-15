@@ -310,7 +310,7 @@ In the above code:
 
 #### 10. Introduction of HtmlSaveOptions.CssSavingCallback Property and ICssSavingCallback Interface
 
-This allows control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype) is set to [CssStyleSheetType.External](https://apireference.aspose.com/words/net/aspose.words.saving/cssstylesheettype). This interface allows control over where the external CSS is saved to, such as a stream.
+This enables control over where a document or node is exported to string when [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype) is set to [CssStyleSheetType.External](https://apireference.aspose.com/words/net/aspose.words.saving/cssstylesheettype). This interface allows control over where the external CSS is saved to, such as a stream.
 
 #### 11. Additional MetafileRenderingMode Option Introduced
 

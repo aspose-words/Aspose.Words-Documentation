@@ -13,7 +13,7 @@ Report Viewer can generate reports independently using a built-in engine (**loca
 
 When working in the **remote mode**, Report Viewer can export reports to all formats installed on the Report Server to which it is connected. Therefore, to export reports to Microsoft Word formats you only need to install Aspose.Words for Reporting Services on the server.
 
-When working in the **local mode** however, Report Viewer does not connect to a Report Server and the list of export formats is limited to only several built-in formats.
+When working in the **local mode** however, Report Viewer does not connect to a Report Server and the list of export formats is limited to only a few built-in formats.
 
 By installing Aspose.Words for Reporting Services on a development machine and following the steps below, you will be able to add the ability to export to Microsoft Word formats from Report Viewer working in the **local mode**.
 

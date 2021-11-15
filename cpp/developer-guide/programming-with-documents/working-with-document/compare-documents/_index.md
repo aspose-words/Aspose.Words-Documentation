@@ -1,7 +1,7 @@
 ﻿---
 title: Compare Documents
 type: docs
-description: "Aspose.Words for C++ enables you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
+description: "Aspose.Words for C++ allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 weight: 50
 url: /cpp/compare-documents/
 ---
@@ -24,7 +24,7 @@ Note that the comparison method, described below, is used in this tool to ensure
 
 {{% /alert %}}
 
-## Limitations and Supported Document Formats {#limitations-and-supported-file-formats}
+## Limitations and Supported File Formats {#limitations-and-supported-file-formats}
 
 Comparing documents is a very complex feature. There are varied parts of content combination that need to be analyzed to recognize all differences. The reason for this complexity is due to the fact that Aspose.Words aims to get the same comparison results as the Microsoft Word comparison algorithm.
 
@@ -54,9 +54,9 @@ The following code example shows how to simply apply the Compare method to two d
 
 ## Specify Advanced Comparison Options {#specify-advanced-comparing-properties}
 
-There are a few different properties of the [CompareOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options) class which you can apply when you want to compare documents.
+There are many different properties of the [CompareOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options) class which you can apply when you want to compare documents.
 
-For example, Aspose.Words enables you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignoreheadersandfooters_const), [IgnoreFormatting](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignoreformatting_const), [IgnoreComments](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignorecomments_const), and others by setting them to "true".
+For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignoreheadersandfooters_const), [IgnoreFormatting](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignoreformatting_const), [IgnoreComments](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_ignorecomments_const), and others by setting them to "true".
 
 In addition, Aspose.Words provides the [Granularity](https://apireference.aspose.com/words/cpp/class/aspose.words.comparing.compare_options#get_granularity_const) property with which you can specify whether to track changes by character or by word.
 

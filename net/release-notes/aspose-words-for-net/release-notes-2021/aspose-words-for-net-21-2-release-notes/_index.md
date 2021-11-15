@@ -253,7 +253,7 @@ public enum ThemeFont
 /// </summary>
 /// <remarks>
 /// The specified theme color is a reference to one of the predefined theme colors, located in the
-/// document's Theme part, which enables color information to be set centrally in the document.
+/// document's Theme part, which allows color information to be set centrally in the document.
 /// </remarks>
 public enum ThemeColor
 {{< /highlight >}}
@@ -605,7 +605,7 @@ Added a new public property to FindReplaceOptions object:
 /// <para>The default value is <c>false</c>.</para>
 /// </summary>
 /// <remarks>
-/// This option enables to replace paragraph break when there is no next sibling paragraph to which all child
+/// This option allows to replace paragraph break when there is no next sibling paragraph to which all child
 /// nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 /// </remarks>
 public bool SmartParagraphBreakReplacement { get; set; }

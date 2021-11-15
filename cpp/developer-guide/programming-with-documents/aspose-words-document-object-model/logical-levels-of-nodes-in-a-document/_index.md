@@ -48,7 +48,7 @@ Block-level nodes are represented by the following classes:
 - Bookmarks, which occurs both at the block-level and at the inline-level
 - [StructuredDocumentTag](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag), which represent custom markup and can contain both content and content controls
 
-The following diagram demonstrates the block-level elements.
+The following diagram shows the block-level elements.
 
 <img src="block-level.png" alt="block-level-aspose-words-cpp" style="width:550px"/>
 
@@ -96,6 +96,6 @@ The table consists of nodes of rows and cells. Table elements are represented by
 - [Cell](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.cell) represents a table cell
 - StructuredDocumentTag represent custom markup
 
-The following diagram demonstrates the node structures of the Table, Row, and Cell levels.
+The following diagram shows the node structures of the Table, Row, and Cell levels.
 
 <img src="table-row-cell.png" alt="table-row-cell-aspose-words-cpp" style="width:910px"/>

@@ -137,7 +137,7 @@ For more information, see the language-specific articles further in this documen
 
 #### Creating a Wrapper Assembly
 
-If you need to use multiple of the Aspose.Words classes, methods and properties, consider creating a wrapper assembly (using C# or any other .NET programming language), that will help to avoid using Aspose.Words directly from unmanaged code.
+If you need to use many of the Aspose.Words classes, methods and properties, consider creating a wrapper assembly (using C# or any other .NET programming language), that will help to avoid using Aspose.Words directly from unmanaged code.
 
 A good approach is to develop a .NET assembly that references Aspose.Words and does all the work with it, and only exposes the minimal set of classes and methods to unmanaged code. Your application then should work just with your wrapper library. 
 

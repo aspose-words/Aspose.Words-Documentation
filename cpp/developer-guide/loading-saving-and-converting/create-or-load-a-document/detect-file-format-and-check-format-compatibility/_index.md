@@ -1,6 +1,6 @@
 ﻿---
 title: Detect File Format and Check Format Compatibility
-description: "Aspose.Words for C++ allows you to determine the file format if you are not sure what the actual content of the file is, or to check the format compatibility. This allows to avoid possible exceptions."
+description: "Aspose.Words for C++ enables you to determine the file format if you are not sure what the actual content of the file is, or to check the format compatibility. This allows to avoid possible exceptions."
 type: docs
 weight: 20
 url: /cpp/detect-file-format-and-check-format-compatibility/
@@ -12,7 +12,7 @@ Aspose.Words provides an ability to obtain information about the file type in or
 
 ## Detect File Format without an Exception
 
-When you are dealing with a few documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
+When you are dealing with multiple documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
 If you attempt to load a file into a [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util#detectfileformat_stream) method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info) object that contains the detected information about the file type.
 

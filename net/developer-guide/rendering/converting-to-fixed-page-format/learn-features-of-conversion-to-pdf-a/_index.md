@@ -1,6 +1,6 @@
 ﻿---
 title: Learn Features of Conversion to PDF/A
-description: "Aspose.Words for .NET enables users to convert to PDF/A-1 and PDF/A-2. There are several problems when converting to PDF/A documents, and Aspose.Words for .NET solves them."
+description: "Aspose.Words for .NET allows users to convert to PDF/A-1 and PDF/A-2. There are a few problems when converting to PDF/A documents, and Aspose.Words for .NET solves them."
 type: docs
 weight: 25
 url: /net/learn-features-of-conversion-to-pdf-a/
@@ -50,7 +50,7 @@ The specification tells us the following:
 
 > The block-level structure may follow one of two principal paradigms:
 >
-> * Strongly structured. The grouping elements nest to as numerous levels as necessary to reflect the organization of the material into articles, sections, subsections, and so on. At each level, the children of the grouping element should consist of a heading (H), one or more paragraphs (P) for content at that level, and perhaps one or more additional grouping elements for nested subsections.
+> * Strongly structured. The grouping elements nest to as many levels as necessary to reflect the organization of the material into articles, sections, subsections, and so on. At each level, the children of the grouping element should consist of a heading (H), one or more paragraphs (P) for content at that level, and perhaps one or more additional grouping elements for nested subsections.
 >
 > * Weakly structured. The document is relatively flat, having perhaps only one or two levels of grouping elements, with all the headings, paragraphs, and other BLSEs as their immediate children. In this case, the organization of the material is not reflected in the logical structure; however, it may be expressed by the use of headings with specific levels (H1–H6).
 

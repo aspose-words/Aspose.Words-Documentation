@@ -6,7 +6,7 @@ weight: 10
 url: /net/specify-layout-options/
 ---
 
-Aspose.Words allows you to create output documents with various layouts, depending on the parameters specified in properties of the [LayoutOptions](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions) class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.
+Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in properties of the [LayoutOptions](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions) class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.
 
 For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/ignoreprintermetrics) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions) class page.
 
@@ -47,7 +47,7 @@ The image below shows how Aspose.Words renders comments and the Delete revisions
 
 ## Text Shaper for Advanced Typography Rendering
 
-The [TextShaperFactory](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory) property allows you to set the text shaping functionality, as well as the OpenType features support.
+The [TextShaperFactory](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory) property enables you to set the text shaping functionality, as well as the OpenType features support.
 
 Use text shaping for document processing in the following main cases:
 

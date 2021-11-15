@@ -122,25 +122,25 @@ Please see the result below:
 
 ## How to Format Number of Chart Data Label
 
-Using the NumberFormat property of ChartDataLabel,  you can specify the number formatting of a single data label of the chart. The below code example demonstrates how to format a number of the data label. 
+Using the NumberFormat property of ChartDataLabel,  you can specify the number formatting of a single data label of the chart. The below code example shows how to format a number of the data label. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use ChartAxis, AxisDisplayUnit, and AxisScaling classes. The following code example demonstrates how to define X and Y-axis properties.
+If you want to work with chart axis, scaling, and display units for the value axis, please use ChartAxis, AxisDisplayUnit, and AxisScaling classes. The following code example shows how to define X and Y-axis properties.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
 ### How to Set DateTime Value of Axis
 
-The following code example demonstrates how to set date/time values to axis properties.
+The following code example shows how to set date/time values to axis properties.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
 ### How to Format Number Value of Axis
 
-The following code example demonstrates how to change the format of numbers on the value axis.
+The following code example shows how to change the format of numbers on the value axis.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
@@ -158,7 +158,7 @@ The following code example shows how to set the interval unit between labels o
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example demonstrates how to hide the Y-axis of the chart. 
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example shows how to hide the Y-axis of the chart. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
@@ -178,7 +178,7 @@ MS Word aligns Chart Label to the center by default.
 
 Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the ChartFormat type in the ChartSeries, ChartDataPoint, and ChartMarker classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
 
-The following code example demonstrates how to set series color:
+The following code example shows how to set series color:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -208,7 +208,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
-The following code example demonstrates how to set line color and weight:
+The following code example shows how to set line color and weight:
 
 {{< highlight csharp >}}
 Document doc = new Document();

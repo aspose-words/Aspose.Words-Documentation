@@ -1,6 +1,6 @@
 ﻿---
 title: Encrypt a Document
-description: "Aspose.Words for Java enables you to encrypt your document using appropriate encryption algorithms for specific document formats."
+description: "Aspose.Words for Java allows you to encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20
 url: /java/encrypt-a-document/
@@ -35,7 +35,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 | ODT, OTT                                                     | ODF Encryption (Blowfish/AES)                               | ODF Encryption (AES256 + SHA256)             |
 | PDF                                                          | -                                                           | RC4 Encryption (40/128 bit)                  |
 
-The following code example demonstrates how to encrypt a document with a password:
+The following code example shows how to encrypt a document with a password:
 
 {{< highlight java >}}
 // Create a document.

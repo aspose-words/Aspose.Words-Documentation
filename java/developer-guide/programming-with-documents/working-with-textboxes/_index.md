@@ -24,6 +24,6 @@ The following code snippets shows how to check if shape.TextBox is a Head, a Ta
 
 ### Break a Link
 
-The following code snippet demonstrates how to break a link for a shape.TextBox:
+The following code snippet shows how to break a link for a shape.TextBox:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-BreakALink.java" >}}

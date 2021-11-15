@@ -5,7 +5,7 @@ weight: 40
 url: /java/working-with-images/
 ---
 
-## Extract Images from a Document {#how-to-extract-images-from-a-document}
+## How to Extract Images from a Document {#how-to-extract-images-from-a-document}
 
 All images are stored inside Shape nodes in a Document. To extract all images or images having a specific type from the document, follow these steps:
 
@@ -49,6 +49,6 @@ The cropping of an image usually refers to the removal of the unwanted outer p
 
 ## Saving Images as WMF
 
-Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example shows how to save images as WMF with RTF save options.
+Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example demonstrates how to save images as WMF with RTF save options.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.java" >}}

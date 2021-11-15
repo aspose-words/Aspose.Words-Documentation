@@ -25,7 +25,7 @@ public class Service
 }
 {{< /highlight >}}
 
-Given that `orders` is an enumeration of `Order` instances, you could try to use the following template to output information on multiple orders in one document.
+Given that `orders` is an enumeration of `Order` instances, you could try to use the following template to output information on several orders in one document.
 
 {{< highlight csharp >}}
 <<foreach [order in orders]>><<[order.getClientName()]>> (<<[order.getClientAddress()]>>)

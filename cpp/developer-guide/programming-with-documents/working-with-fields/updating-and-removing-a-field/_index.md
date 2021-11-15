@@ -19,7 +19,7 @@ Sometimes it is necessary to remove a field from the document. This may occur wh
 
 ## Update LastSavedTime Property Before Saving
 
-You can use SaveOptions->UpdateLastSavedTimeProperty property whether to update the corresponding built-in document property (BuiltInDocumentProperties->LastSavedTime) on document save. Following example demonstrates how to update this property. 
+You can use SaveOptions->UpdateLastSavedTimeProperty property whether to update the corresponding built-in document property (BuiltInDocumentProperties->LastSavedTime) on document save. Following example shows how to update this property. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithSaveOptions-UpdateLastSavedTimeProperty.cpp" >}}
 
@@ -31,6 +31,6 @@ Aspose.Words provides API for custom formatting of the field's result. You can i
 
 ## How to Apply Custom Formatting to Time Field
 
-By default Aspose.Words updates the TIME field with current culture short time format. We figured out that there is a difference between MS Word formatting and .NET/Windows formatting and also between different .NET Framework versions. If you want to format the Time field according to your requirement, you can achieve this by implementing the IFieldUpdateCultureProvider interface. Below code example demonstrates how to apply custom formatting to the Time field.
+By default Aspose.Words updates the TIME field with current culture short time format. We figured out that there is a difference between MS Word formatting and .NET/Windows formatting and also between different .NET Framework versions. If you want to format the Time field according to your requirement, you can achieve this by implementing the IFieldUpdateCultureProvider interface. Below code example shows how to apply custom formatting to the Time field.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldUpdateCulture-FieldUpdateCultureProvider.cpp" >}}

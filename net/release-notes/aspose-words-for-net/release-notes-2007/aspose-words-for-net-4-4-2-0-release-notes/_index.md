@@ -11,7 +11,7 @@ This page contains release notes for [Aspose.Words for .NET 4.4.2.0](http://www.
 
 {{% /alert %}} 
 
-This maintenance release contains improvements and fixes to DOCX import (which is still in Beta) as well as multiple other fixes.
+This maintenance release contains improvements and fixes to DOCX import (which is still in Beta) as well as many other fixes.
 
 |Issue ID |Component |Summary |
 | :- | :- | :- |

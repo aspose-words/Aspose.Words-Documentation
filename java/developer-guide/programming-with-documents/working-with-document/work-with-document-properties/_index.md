@@ -1,6 +1,6 @@
 ﻿---
 title: Work with Document Properties
-description: "Aspose.Words for Java enables storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
+description: "Aspose.Words for Java allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
 weight: 10
 url: /java/work-with-document-properties/
@@ -33,7 +33,7 @@ To access document properties in Aspose.Words use:
 
 The [DocumentProperty](https://apireference.aspose.com/words/java/com.aspose.words/DocumentProperty) class allows you to get the name, value, and type of a document property. [Value]https://apireference.aspose.com/words/java/com.aspose.words/documentproperty#Value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://apireference.aspose.com/words/java/com.aspose.words/documentproperty#toString()) and **DocumentProperty.**[ToInt](https://apireference.aspose.com/words/java/com.aspose.words/documentproperty#toInt()), to obtain the value of the appropriate type.
 
-The following code example demonstrates how to enumerate all built-in and custom properties in a document:
+The following code example shows how to enumerate all built-in and custom properties in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-EnumerateProperties.java" >}}
 
@@ -55,7 +55,7 @@ To add custom document properties with Aspose.Words, use the [Add](https://apire
 
 To remove custom properties, use the [Remove](https://apireference.aspose.com/words/java/com.aspose.words/customdocumentproperties#remove(java.lang.String)) method, passing it the property name to remove, or the [RemoveAt](https://apireference.aspose.com/words/java/com.aspose.words/customdocumentproperties#removeAt(int)) method to remove the property by index. You can also remove all properties using the [Clear](https://apireference.aspose.com/words/java/com.aspose.words/customdocumentproperties#clear()) method.
 
-The following code example checks whether a custom property with a given name exists in a document and adds multiple more custom document properties:
+The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomAdd.java" >}}
 

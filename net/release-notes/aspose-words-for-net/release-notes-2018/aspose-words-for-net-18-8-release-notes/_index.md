@@ -64,7 +64,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16915|Incorrect rendering of the OMath if FirstLineIndent is specified, after converting to PDF|Bug|
 |WORDSNET-16919|Problem of incorrect Revisions Count after Comparing documents|Bug|
 |WORDSNET-16930|CSS border style is not applied to image in output PDF/DOCX|Bug|
-|WORDSNET-16946|Content are rendered on a few pages in HtmlFixed/PNG|Bug|
+|WORDSNET-16946|Content are rendered on multiple pages in HtmlFixed/PNG|Bug|
 |WORDSNET-16979|Distance between symbols not preserved in PDF|Bug|
 |WORDSNET-16982|Borders of some SmartArt elements not preserved in PDF|Bug|
 |WORDSNET-16995|LayoutCollector.GetStartPageIndex returns wrong page number|Bug|
@@ -204,7 +204,7 @@ doc.Save("TopCornersSnipped.docx", so);
 WORDSNET-16985 has been resolved.
 
 By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
-Now was added a new option to HtmlSaveOptions. This option allows an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
+Now was added a new option to HtmlSaveOptions. This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
 
 {{< highlight csharp >}}
 public bool ExportCidUrlsForMhtmlResources { get; set; }

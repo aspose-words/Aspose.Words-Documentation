@@ -103,7 +103,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, Rela
     double left, RelativeVerticalPosition vertPos, double top, WrapType wrapType);
 {{< /highlight >}}
 
-Following code example demonstrates how to insert signature line.
+Following code example shows how to insert signature line.
 
 **C#**
 
@@ -230,7 +230,7 @@ public int HyphenationZone {get;set;}
 public bool HyphenateCaps {get;set;}
 {{< /highlight >}}
 
-Following code example demonstrates how to use HyphenationOptions's properties. 
+Following code example shows how to use HyphenationOptions's properties. 
 
 **C#**
 
@@ -296,7 +296,7 @@ public class MailMergeRegionInfo
 }
 {{< /highlight >}}
 
-Following code example demonstrates how to extract full hierarchy of regions available in the document.
+Following code example shows how to extract full hierarchy of regions available in the document.
 
 **C#**
 
@@ -371,7 +371,7 @@ FontSettings properties added to Document class
 /// Gets or sets document font settings.
 /// </summary>
 /// <remarks>
-/// <para>This property enables to specify font settings per document. If set to null, default static font settings
+/// <para>This property allows to specify font settings per document. If set to null, default static font settings
 /// <see cref="Aspose.Words.Fonts.FontSettings.DefaultInstance"/> will be used.</para>
 ///
 /// <para>The default value is null.</para>

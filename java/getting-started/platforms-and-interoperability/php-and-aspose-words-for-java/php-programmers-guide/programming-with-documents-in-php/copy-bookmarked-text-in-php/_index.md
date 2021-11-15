@@ -27,9 +27,9 @@ $dstDoc = new Java("com.aspose.words.Document");
 // Let's say we will be appending to the end of the body of the last section.
 $dstNode = $dstDoc->getLastSection()->getBody();
 
-// It is a good idea to use this import context object because numerous nodes are being imported.
+// It is a good idea to use this import context object because multiple nodes are being imported.
 
-// If you import numerous times without a single context, it will result in several styles created.
+// If you import multiple times without a single context, it will result in many styles created.
 $importFormatMode = java('com.aspose.words.ImportFormatMode');
 $importer = new Java("com.aspose.words.NodeImporter", $srcDoc, $dstDoc, $importFormatMode->KEEP_SOURCE_FORMATTING);
 

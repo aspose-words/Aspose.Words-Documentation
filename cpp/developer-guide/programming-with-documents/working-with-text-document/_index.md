@@ -25,7 +25,7 @@ If this option is set to *false*, lists recognition algorithm detects list para
 
 ## How to Handle Leading and Trailing spaces During Loading TXT
 
-You can control the way of handling leading and trailing spaces during loading TXT file. The leading spaces could be trimmed, preserved or converted to indent and trailing spaces could be trimmed or preserved. Below code example demonstrates how to trim leading and trailing spaces while importing TXT file.
+You can control the way of handling leading and trailing spaces during loading TXT file. The leading spaces could be trimmed, preserved or converted to indent and trailing spaces could be trimmed or preserved. Below code example shows how to trim leading and trailing spaces while importing TXT file.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithTxt-HandleSpacesOptions.cpp" >}}
 
@@ -37,7 +37,7 @@ If you want to export header and footer in output TXT document, you can use Opt
 
 ## Export List Indentation in Output TXT
 
-Aspose.Words introduced TxtListIndentation class that enables specifying how list levels are indented while exporting to a plain text format. While working with TxtSaveOption, the ListIndentation property is provided to specify the character to be used for indenting list levels and count specifying how numerous characters to use as indentation per one list level. The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
+Aspose.Words introduced TxtListIndentation class that allows specifying how list levels are indented while exporting to a plain text format. While working with TxtSaveOption, the ListIndentation property is provided to specify the character to be used for indenting list levels and count specifying how many characters to use as indentation per one list level. The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
 
 ### Using Tab Character
 

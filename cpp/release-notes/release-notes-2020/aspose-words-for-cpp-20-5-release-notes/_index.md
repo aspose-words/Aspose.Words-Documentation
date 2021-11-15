@@ -299,13 +299,13 @@ public enum PageLayoutEvent
     ReflowFinished,
     /// <summary>
     /// Reflow of the page has started.
-    /// Note that page may reflow many times and that reflow may restart before it is finished.
+    /// Note that page may reflow multiple times and that reflow may restart before it is finished.
     /// <seealso cref="PageLayoutCallbackArgs.PageIndex"/>
     /// </summary>
     PartReflowStarted,
     /// <summary>
     /// Reflow of the page has finished.
-    /// Note that page may reflow several times and that reflow may restart before it is finished.
+    /// Note that page may reflow multiple times and that reflow may restart before it is finished.
     /// <seealso cref="PageLayoutCallbackArgs.PageIndex"/>
     /// </summary>
     PartReflowFinished,
@@ -381,7 +381,7 @@ The new property Watermark has been added to the Document class.
 public Watermark Watermark { get; }
 {{< /highlight >}}
 
-The new Watermark class enables adding/removing the watermark from the document. A watermark can be created from a text or from an image.
+The new Watermark class allows adding/removing the watermark from the document. A watermark can be created from a text or from an image.
 
 **.NET**
 

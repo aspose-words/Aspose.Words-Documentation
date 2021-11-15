@@ -44,7 +44,7 @@ While binary raster operations are not currently supported and the limited numbe
 
 {{% /alert %}} 
 
-The example shown below shows how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of the metafile records to vector graphics:
+The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of the metafile records to vector graphics:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HandleDocumentWarnings-HandleDocumentWarnings.java" >}}
 

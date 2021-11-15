@@ -5,11 +5,11 @@ weight: 210
 url: /cpp/how-to-remove-page-and-section-breaks/
 ---
 
-A document often consists of numerous sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
+A document often consists of several sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
 
-In most cases it is convenient to have a structured document, but sometimes several sections and user-defined page breaks are redundant and it may become necessary to remove them. For example, after appending numerous documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
+In most cases it is convenient to have a structured document, but sometimes multiple sections and user-defined page breaks are redundant and it may become necessary to remove them. For example, after appending multiple documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
 
-An explicit page break can be caused by several different things in a document:
+An explicit page break can be caused by many different things in a document:
 
 - A page breaks character. This is represented in a document by the page break character ControlChar.PageBreakChar.
 - A Section which is set to begin on a new page (by the section’s PageSetup.SectionStart to SectionStart.NewPage).
@@ -32,7 +32,7 @@ It contains one-page break and one section break. The section break separates th
 
 ## Removing Page Breaks
 
-Firstly the code to remove the page breaks is discussed. Generally a single Run contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even a few page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
+Firstly the code to remove the page breaks is discussed. Generally a single Run contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even multiple page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
 
 The code example given below removes all page breaks from the document.
 

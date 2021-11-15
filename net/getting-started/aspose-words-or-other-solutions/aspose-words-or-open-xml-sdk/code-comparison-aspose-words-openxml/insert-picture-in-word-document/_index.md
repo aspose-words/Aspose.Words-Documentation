@@ -43,7 +43,7 @@ using PIC = DocumentFormat.OpenXml.Drawing.Pictures;
 using Run = DocumentFormat.OpenXml.Wordprocessing.Run;
 {{< /highlight >}}
 
-The following code example demonstrates how to insert image into a body part of a Word document using the main function **InsertAPicture** and then a sub function **AddImageToBody**.
+The following code example shows how to insert image into a body part of a Word document using the main function **InsertAPicture** and then a sub function **AddImageToBody**.
 
 {{< highlight csharp >}}
 public static void InsertPictureInWordDocumentFeature()

@@ -13,7 +13,7 @@ Comments of the document are represented by the Comment class. Use CommentRangeS
 
 ## How to Extract or Remove Comments
 
-Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are many reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
+Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are multiple reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
 
 In this sample, we are going to look at some simple methods for both gathering information from the comments within a document and for removing comments from a document. Specifically, we'll cover how to:
 
@@ -67,7 +67,7 @@ The code example given below shows how to add a comment to a paragraph in the do
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AddComments-AddComments.cpp" >}}
 
-The code example given below demonstrates how to anchor a comment to a region of text.
+The code example given below shows how to anchor a comment to a region of text.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-AnchorComment-AnchorComment.cpp" >}}
 
@@ -79,7 +79,7 @@ The code example given below shows how to remove text between CommentRangeStart
 
 ## How to Read Comment's Reply
 
-Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below demonstrates how to iterate through a comment's replies and resolved them.
+Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. The code example given below shows how to iterate through a comment's replies and resolved them.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cpp" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Integrating Aspose.Words with Azure Data Lake
 type: docs
 description: "Aspose.Words can be integrated with Azure Data Lake Analytics and Azure Data Lake Storage. This allows you to combine the big data analytics capabilities of the Azure Data Lake cloud storage solution with the power of Aspose.Words."
@@ -7,7 +7,7 @@ weight: 30
 url: /net/integrating-aspose-words-with-azure-data-lake/
 ---
 
-Aspose.Words can be integrated with the Microsoft Azure Data Lake services: Azure Data Lake Analytics (ADLA) and Azure Data Lake Storage (ADLS). This enables you to combine the big data analytics capabilities of the Azure Data Lake cloud storage solution with the power of Aspose.Words, which allows your applications to programmatically perform various document processing tasks, such as generating, modifying, rendering, reading, or converting documents between different formats.
+Aspose.Words can be integrated with the Microsoft Azure Data Lake services: Azure Data Lake Analytics (ADLA) and Azure Data Lake Storage (ADLS). This allows you to combine the big data analytics capabilities of the Azure Data Lake cloud storage solution with the power of Aspose.Words, which enables your applications to programmatically perform various document processing tasks, such as generating, modifying, rendering, reading, or converting documents between different formats.
 
 This article explains how to configure a C# project in Visual Studio with ADLA, and provides an example that demonstrates the integration of Aspose.Words and Azure Data Lake.
 
@@ -23,7 +23,7 @@ This article explains how to configure a C# project in Visual Studio with ADLA, 
 
 ## Create a Document with Data from Azure Data Lake
 
-This topic shows how to use Aspose.Words for building a document with a table from a database on Azure Data Lake. This requires creating a simple database and implementing the IOutputter interface to create a user-defined outputter, which outputs data from ADLS in [formats supported by Aspose.Words](/words/net/supported-document-formats/).
+This topic demonstrates how to use Aspose.Words for building a document with a table from a database on Azure Data Lake. This requires creating a simple database and implementing the IOutputter interface to create a user-defined outputter, which outputs data from ADLS in [formats supported by Aspose.Words](/words/net/supported-document-formats/).
 
 {{% alert color="primary" %}}
 
@@ -67,7 +67,7 @@ VALUES
 
 In Visual Studio, create a new project by adding **C# Class Library (For U-SQL Application)** and add the NuGet reference to [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/).
 
-The following code example demonstrates how to implement the IOutputter interface:
+The following code example shows how to implement the IOutputter interface:
 
 **.NET**
 

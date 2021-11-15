@@ -20,4 +20,4 @@ This feature is far not the only improvement included into the release. It's o
   3177 – added the PageOrientation configuration option allowing to select portrait or landscape orientation in the exported documents (thanks to our community member for a great idea!). 
 - Page breaks behaviour is now identical to the Microsoft renderers even in extremely complicated reports.
   Subreport layout fixes. 
-  Various minor fixes in several areas - again, we are grateful to our customers for the reports they sent us to test! 
+  Various minor fixes in many areas - again, we are grateful to our customers for the reports they sent us to test! 

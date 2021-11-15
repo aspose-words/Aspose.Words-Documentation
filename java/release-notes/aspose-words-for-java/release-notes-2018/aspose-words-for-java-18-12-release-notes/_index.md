@@ -45,7 +45,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 |WORDSJAVA-1936|Image not visible in exported HTML|Bug|
 |WORDSJAVA-1939|Native Windows dll loading problem|Bug|
 |WORDSJAVA-1940|Inverted image fill while saving document to PDF.|Bug|
-|WORDSJAVA-1943|MailMergeWithRegions not working when DataRelation has numerous columns|Bug|
+|WORDSJAVA-1943|MailMergeWithRegions not working when DataRelation has multiple columns|Bug|
 |WORDSJAVA-1906|A method with Ref parameter is absent in Javadoc.|Enhancement|
 |WORDSJAVA-1853|Check compatibility of release jar bytecode with the new Java RE 11.|Feature|
 |WORDSJAVA-1875|Optional graphics libraries and plugins: test presence, print advice how to install absent ones.|Feature|
@@ -132,7 +132,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-17789|An exception raises while saving the document to the Strict Open XML format|Exception|
 |WORDSNET-17637|Document.UpdatePageLayout method throws System.NullReferenceException|Exception|
 |WORDSNET-1450|There is no rotation when open the document in the below version of 2003|Feature|
-|WORDSNET-5396|Create a demo which enables the user to upload a document and convert it to any supported format|Feature|
+|WORDSNET-5396|Create a demo which allows the user to upload a document and convert it to any supported format|Feature|
 |WORDSNET-9197|Release Aspose.Words for C++|Feature|
 |WORDSNET-1188|Difficulties when accessing field names returned by MailMerge.GetFieldNames|Feature|
 |WORDSNET-1289|Support page number field formatting in Model|Feature|
@@ -163,7 +163,7 @@ Upon analysis it turned out that Aspose.Words output matches MS Word behavior fo
 
 The customer expected the behavior to match MS Word 2016.
 
-The difference is in handling how hideMark element in a table cell influences the cell height. In fact, the behavior that the customer complains about was introduced intentionally per many other JIRA issues submitted for other customers earlier.
+The difference is in handling how hideMark element in a table cell influences the cell height. In fact, the behavior that the customer complains about was introduced intentionally per several other JIRA issues submitted for other customers earlier.
 
 
 Because of different hideMark handling, the cell height is different for a number of cases when invisible contents are present in the cell.

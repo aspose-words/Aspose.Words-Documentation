@@ -7,7 +7,7 @@ url: /java/working-with-text-document/
 
 ## How to Add Bi-Directional Marks
 
-You can use TxtSaveOptions.AddBidiMarks property to specify whether to add bi-directional marks before each BiDi run when exporting in plain text format. Aspose.Words inserts Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text. This option corresponds to "Add bi-directional marks" option in the MS Word File Conversion dialog when you export to a Plain Text format. Note that it appears in dialog only if any of the Arabic or Hebrew editing languages are added in MS Word. The following code example demonstrates how to use TxtSaveOptions.AddBidiMarks property. The default value of this property is *true*.
+You can use TxtSaveOptions.AddBidiMarks property to specify whether to add bi-directional marks before each BiDi run when exporting in plain text format. Aspose.Words inserts Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text. This option corresponds to "Add bi-directional marks" option in the MS Word File Conversion dialog when you export to a Plain Text format. Note that it appears in dialog only if any of the Arabic or Hebrew editing languages are added in MS Word. The following code example shows how to use TxtSaveOptions.AddBidiMarks property. The default value of this property is *true*.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 
@@ -35,13 +35,13 @@ The following code example demonstrates how to detect the text direction of the 
 
 ## Export Header and Footer in Output TXT File
 
-If you want to export the header and footer in the output TXT document, you can use TxtSaveOptions.ExportHeadersFootersMode property. This property specifies the way headers and footers are exported to the plain text format. The code example given below demonstrates how to export headers and footers to plain text format.
+If you want to export the header and footer in the output TXT document, you can use TxtSaveOptions.ExportHeadersFootersMode property. This property specifies the way headers and footers are exported to the plain text format. The code example given below shows how to export headers and footers to plain text format.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-ExportHeadersFootersMode.java" >}}
 
 ## Export List Indentation in Output TXT
 
-Aspose.Words introduced TxtListIndentation class that allows specifying how list levels are indented while exporting to a plain text format. While working with TxtSaveOption, the ListIndentation property is provided to specify the character to be used for indenting list levels and count specifying how a few characters to use as indentation per one list level. The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
+Aspose.Words introduced TxtListIndentation class that allows specifying how list levels are indented while exporting to a plain text format. While working with TxtSaveOption, the ListIndentation property is provided to specify the character to be used for indenting list levels and count specifying how many characters to use as indentation per one list level. The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
 
 ### Using Tab Character
 

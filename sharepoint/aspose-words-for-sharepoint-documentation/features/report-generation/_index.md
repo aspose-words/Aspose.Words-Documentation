@@ -37,4 +37,4 @@ In a report definition file the following report properties are specified:
 - Relationships between data tables returned by different queries.
 - Report parameters.
 
-You can specify several data source connections and queries. You can combine data returned by the different queries using data relationships in the report definition file. You can store data source connection description in a separate file and use it with multiple reports.
+You can specify multiple data source connections and queries. You can combine data returned by the different queries using data relationships in the report definition file. You can store data source connection description in a separate file and use it with multiple reports.
