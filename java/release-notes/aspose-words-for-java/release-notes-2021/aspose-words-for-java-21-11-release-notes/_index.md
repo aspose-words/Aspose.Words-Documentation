@@ -59,7 +59,7 @@ There are 67 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-18648 | Text gradient support | New Feature |
 | WORDSNET-1697 | Add possibility to use complex Fill Effects for shapes (gradient, texture   etc) | New Feature |
 | WORDSNET-21698 | Convert Word Content Controls to Editable Controls in PDF | Enhancement |
-| WORDSNET-14318 | Provide option to export SDT checkboxes as <input  > in HTML | Enhancement |
+| WORDSNET-14318 | Provide option to export SDT checkboxes as input in HTML | Enhancement |
 | WORDSNET-8920 | SDT controls placed outside paragraph level are not preserved when   converting to PDF | Enhancement |
 | WORDSNET-11542 | Provide ExportDropDownFormFieldAsText property for StructuredDocumentTag | Enhancement |
 | WORDSNET-16057 | PDF with gradient fill print Issue with Chrome | Enhancement |
