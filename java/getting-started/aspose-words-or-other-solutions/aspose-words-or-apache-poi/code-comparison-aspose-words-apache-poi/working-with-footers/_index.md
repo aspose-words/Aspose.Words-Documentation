@@ -7,7 +7,7 @@ url: /java/working-with-footers/
 
 ## Aspose.Words - Working with Footers
 
-The following sample code shows how to create footer using DocumentBuilder.
+The following sample code demonstrates how to create footer using DocumentBuilder.
 
 **Java**
 

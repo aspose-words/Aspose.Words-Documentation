@@ -7,14 +7,14 @@ url: /java/working-with-paragraphs/
 
 ## Inserting a Paragraph
 
-DocumentBuilder.Writeln inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the DocumentBuilder.Font property and current paragraph formatting is determined by the DocumentBuilder.ParagraphFormat property.The code example given below demonstrates how to insert a paragraph into the document.
+DocumentBuilder.Writeln inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the DocumentBuilder.Font property and current paragraph formatting is determined by the DocumentBuilder.ParagraphFormat property.The code example given below shows how to insert a paragraph into the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
 
 ## Paragraph Formatting
 
-Current paragraph formatting is represented by a ParagraphFormat object that is returned by the DocumentBuilder.ParagraphFormat property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left-aligned, no indentation, no spacing, no borders and no shading by calling ParagraphFormat.ClearFormatting. The code example given below demonstrates how to set paragraph formatting.
+Current paragraph formatting is represented by a ParagraphFormat object that is returned by the DocumentBuilder.ParagraphFormat property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left-aligned, no indentation, no spacing, no borders and no shading by calling ParagraphFormat.ClearFormatting. The code example given below shows how to set paragraph formatting.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderSetParagraphFormatting.java" >}}
 
@@ -30,7 +30,7 @@ Following code example show how to use ParagraphFormat.AddSpaceBetweenFarEastAnd
 
 #### Change Asian Paragraph Spacing and Indents
 
-The following code example shows how to change Asian paragraph spacing and indents.
+The following code example demonstrates how to change Asian paragraph spacing and indents.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ChangeAsianParagraphSpacingandIndents.java" >}}
 
@@ -44,7 +44,7 @@ Asian Typography tab of the Paragraph properties dialog in MS Word has a line br
 
 Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user-defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
-Furthermore, a **Style** object provides the Style.StyleIdentifier property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. The code example given below demonstrates how to apply a paragraph style.
+Furthermore, a **Style** object provides the Style.StyleIdentifier property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. The code example given below shows how to apply a paragraph style.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
@@ -63,6 +63,6 @@ Both the border collection and each separate border have similar attributes like
 
 The shading texture is set with a TextureIndex enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the TextureIndex.TextureSolid value and set the foreground shading color as appropriate. The code example given below shows how to apply borders and shading to a paragraph.
 
-The code example given below demonstrates how to apply borders and shading to a paragraph.
+The code example given below shows how to apply borders and shading to a paragraph.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}

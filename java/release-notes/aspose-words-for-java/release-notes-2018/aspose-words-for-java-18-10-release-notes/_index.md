@@ -306,7 +306,7 @@ public class FontFallbackSettings
 	/// <remarks>
 	/// This method may produce non-optimal fallback settings. Fonts are checked by <a href="https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur">
 	/// Unicode Character Range</a> fields and not by the actual glyphs presence. Also Unicode ranges are checked individually
-	/// and multiple ranges related to single language/script may use different fallback fonts.
+	/// and several ranges related to single language/script may use different fallback fonts.
 	/// </remarks>
 	public void BuildAutomatic();
 }

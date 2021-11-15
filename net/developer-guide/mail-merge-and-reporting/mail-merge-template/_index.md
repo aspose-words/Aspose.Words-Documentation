@@ -37,7 +37,7 @@ The picture below shows the created template:
 
 ## Customize a Mail Merge Template Properties
 
-Aspose.Words enables you to customize your template through several properties. Template customization will be described below through an example of customizing some properties of images and text.
+Aspose.Words allows you to customize your template through many properties. Template customization will be described below through an example of customizing some properties of images and text.
 
 ### Customize Image Properties
 

@@ -244,7 +244,7 @@ This new LoadOption allows reducing memory usage.
 /// </summary>
 /// <remarks>
 /// Metafiles (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) is an uncompressed image format and sometimes requires to much RAM to hold and process document.
-/// This option enables to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
+/// This option allows to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
 /// Please note - conversion vector graphics to raster decreases quality of the images.
 /// </remarks>
 public bool ConvertMetafilesToPng
@@ -384,7 +384,7 @@ New public property 'ImagesFolder' has been added to the 'MarkdownSaveOptions' c
 /// <para>
 /// When you save a <see cref="Document"/> in <see cref="Words.SaveFormat.Markdown"/> format,
 /// Aspose.Words needs to save all images embedded in the document as standalone files.
-/// <see cref="ImagesFolder"/> enables you to specify where the images will be saved.
+/// <see cref="ImagesFolder"/> allows you to specify where the images will be saved.
 /// </para>
 /// <para>
 /// If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in

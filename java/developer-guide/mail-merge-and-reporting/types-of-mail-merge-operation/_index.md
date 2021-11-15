@@ -21,7 +21,7 @@ The [MailMerge](https://apireference.aspose.com/words/java/com.aspose.words/Mail
 
 {{% /alert %}}
 
-## Simple Mail Merge {#simple-mail-merge-operation}
+## Simple Mail Merge Operation {#simple-mail-merge-operation}
 
 A simple mail merge is used to fill the mail merge fields inside your template with the required data from your data source (single table representation). So it is similar to the classic mail merge in Microsoft Word.
 
@@ -33,7 +33,7 @@ The main limitation of using this type is the whole document content will be rep
 
 Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute methods](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#execute(com.aspose.words.IMailMergeDataSource)) that accept various data objects as the data source.
 
-The following code example demonstrates how to execute a simple mail merge operation using one of the [Execute](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#execute(java.lang.String[],java.lang.Object[])) method:
+The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#execute(java.lang.String[],java.lang.Object[])) method:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e"  "Examples-src-main-java-com-aspose-words-examples-mail_merge-TypesofMailMergeOperations-ExecuteSimpleMailMerge.java" >}}
 
@@ -47,7 +47,7 @@ And after executing simple mail merge:
 
 ### How to Create Multiple Merged Documents
 
-In Aspose.Words, the standard mail merge operation fills only a single document with content from your data source. So, you will need to execute the mail merge operation several times to create several merged documents as an output.
+In Aspose.Words, the standard mail merge operation fills only a single document with content from your data source. So, you will need to execute the mail merge operation multiple times to create multiple merged documents as an output.
 
 The following code example shows how to generate multiple merged documents during a mail merge operation:
 
@@ -75,13 +75,13 @@ Information about a mail merge region can be obtained using the [MailMergeRegion
 
 A mail merge region is a specific part inside a document that has a start point and an end point. Both points are represented as mail merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a mail merge region will automatically be repeated for every record in the data source.
 
-Aspose.Words enables you to execute mail merge with regions using different [Execute methods](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/executewithregions/index) that accept various data objects as the data source.
+Aspose.Words allows you to execute mail merge with regions using different [Execute methods](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/executewithregions/index) that accept various data objects as the data source.
 
 As a first step, we need to create the DataSet to pass it later as an input parameter to the ExecuteWithRegions method:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e"  "Examples-src-main-java-com-aspose-words-examples-mail_merge-TypesofMailMergeOperations-CreateDataSet.java" >}}
 
-The following code example demonstrates how to execute mail merge with regions using the [ExecuteWithRegions(DataSet)](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#executeWithRegions(com.aspose.words.net.System.Data.DataSet)) method:
+The following code example shows how to execute mail merge with regions using the [ExecuteWithRegions(DataSet)](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#executeWithRegions(com.aspose.words.net.System.Data.DataSet)) method:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e"  "Examples-src-main-java-com-aspose-words-examples-mail_merge-TypesofMailMergeOperations-MailMergeWithRegions.java" >}}
 

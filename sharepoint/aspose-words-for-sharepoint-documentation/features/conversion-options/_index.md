@@ -23,7 +23,7 @@ Once you have selected a destination folder, use this option to save it so that 
 
 ### Overwrite existing files in the destination folder
 
-The destination folder you have selected may already contain some of the files you want to convert. This option enables you to skip conversion for such files and process only files which are not found in the destination folder.
+The destination folder you have selected may already contain some of the files you want to convert. This option allows you to skip conversion for such files and process only files which are not found in the destination folder.
 
 ### Browse for destination folder
 

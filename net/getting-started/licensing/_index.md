@@ -20,9 +20,9 @@ Aspose.Words is incredible software that developers can try before purchasing.
 
 ### Free Trial
 
-The evaluation version is the same as the purchased one – the [Trial version](https://downloads.aspose.com/words) simply becomes licensed when you add numerous lines of code to apply the license.
+The evaluation version is the same as the purchased one – the [Trial version](https://downloads.aspose.com/words) simply becomes licensed when you add a few lines of code to apply the license.
 
-The Trial version of Aspose.Words without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to many hundred paragraphs.
+The Trial version of Aspose.Words without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to a few hundred paragraphs.
 
 ### Temporary License
 
@@ -65,7 +65,7 @@ When you reference *Aspose.Words.dll* in the application, the library is copied 
 
 Use the [SetLicense](https://apireference.aspose.com/words/net/aspose.words/license/methods/setlicense/index) method to license a component.
 
-Calling **SetLicense** a few times is not harmful, it just wastes processor time.
+Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
 {{% /alert %}}
 
@@ -77,13 +77,13 @@ When developing your application, call **SetLicense** in your startup code befor
 
 Using the [SetLicense](https://apireference.aspose.com/words/net/aspose.words.license/setlicense/methods/1) method, you can try to find the license file in the embedded resources or assembly folders for further use.
 
-The following code example demonstrates how to initialize a license from a folder:
+The following code example shows how to initialize a license from a folder:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyLicenseFromFile-ApplyLicenseFromFile.cs" >}}
 
 ##### Load a License from a Stream Object
 
-The following code example demonstrates how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/net/aspose.words/license/methods/setlicense) method:
+The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/net/aspose.words/license/methods/setlicense) method:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyLicenseFromStream-ApplyLicenseFromStream.cs" >}}
 
@@ -127,7 +127,7 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 
 ## Using Multiple Aspose Products
 
-If you use several Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are many useful tips:
+If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are a few useful tips:
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
-* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://apireference.aspose.com/words/net/aspose.words/license) and Aspose.Cells has Aspose.Cells.License class. Using the fully qualified class name enables you to avoid confusion as to which license applies to which product.
+* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://apireference.aspose.com/words/net/aspose.words/license) and Aspose.Cells has Aspose.Cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.

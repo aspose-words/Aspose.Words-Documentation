@@ -23,7 +23,7 @@ The data source includes two records for the **StoreDetails** region but purpose
 
 ![merged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions_2.png)
 
-As noted on the image you can see that the **ContactDetails** region for the second record and **Suppliers** regions have been automatically removed by the mail merge engine as they have no data. However, there are multiple issues that make this output document look incomplete:
+As noted on the image you can see that the **ContactDetails** region for the second record and **Suppliers** regions have been automatically removed by the mail merge engine as they have no data. However, there are a few issues that make this output document look incomplete:
 
 - The **ContactDetails** region still leaves a paragraph with the text “Contact Details”.
 - In the same case there is no indication that there are no phone numbers, only a blank space which could lead to confusion.
@@ -47,11 +47,11 @@ This sample project demonstrates this technique. It involves the following steps
 1. Call the **ExecuteCustomLogicOnEmptyRegions** method. This method is provided in this sample. It performs actions which allow the specified handler to be called for each unmerged region. This method is reusable and can be copied unaltered to any project which requires it (along with any dependent methods).This method executes the following steps:
    1. Sets the handler specified by the user to the **MailMerge.FieldMergingCallback** property.
    1. Calls the **CreateDataSourceFromDocumentRegions** method which accepts the user’s **Document** and **ArrayList** containing regions names. This method will create a dummy data source containing tables for each unmerged region in the document.
-   1. Executes mail merge on the document using the dummy data source. When mail merge is executed with this data source it enables the user-specified handler to be called for each unmerge region and the custom logic applied
+   1. Executes mail merge on the document using the dummy data source. When mail merge is executed with this data source it allows the user-specified handler to be called for each unmerge region and the custom logic applied
 
 **The Code**
 
-The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts many parameters:
+The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts several parameters:
 
 1. The [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) object containing unmerged regions which are to be handled by the passed handler.
 1. The handler class which defines the logic to apply to unmerged regions. This handler must implement the [IFieldMergingCallback](http://www.aspose.com/api/java/words/com.aspose.words/interfaces/IFieldMergingCallback) interface.
@@ -83,7 +83,7 @@ When an appropriate region start has been found and added to the database, the n
 
 We also set the field value of the first field to “FirstField” to make it easier to apply logic to the first or other fields in the region. By including this it means it is not necessary to hard-code the name of the first field or implements extra code to check if the current field is the first in the handler code.
 
-The code below shows how this system works. The document shown at the start of this article is remerged with the same data source but this time, the unused regions are handled by custom code.
+The code below demonstrates how this system works. The document shown at the start of this article is remerged with the same data source but this time, the unused regions are handled by custom code.
 
 **Example**
 
@@ -104,7 +104,7 @@ Shows how to define custom logic in a handler implementing IFieldMergingCallback
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-EmptyRegionsHandler.java" >}}
 
-The result of the above code is shown below. The unmerged fields within the first region are replaced with informative text and the removal of the table and heading enables the document to look complete.
+The result of the above code is shown below. The unmerged fields within the first region are replaced with informative text and the removal of the table and heading allows the document to look complete.
 
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java-2](how-to-apply-custom-logic-to-unmerged-regions_3.png)
 
@@ -115,7 +115,7 @@ We can insert different code in the handler to control how unmerged regions are 
 
 The replacement text is merged into the first field by setting the specified text into the **FieldMergingArgs.Text** property. The text from this property is merged into the field by the mail merge engine.
 
-The code applies this for only the first field in the region by checking the **FieldMergingArgs.FieldValue** property. The field value of the first field in the region is marked with “FirstField” . This makes this type of logic easier to implement over several regions as no extra code is required.
+The code applies this for only the first field in the region by checking the **FieldMergingArgs.FieldValue** property. The field value of the first field in the region is marked with “FirstField” . This makes this type of logic easier to implement over many regions as no extra code is required.
 
 **Example**
 
@@ -128,7 +128,7 @@ The resulting document after the code above has been executed is shown below. Th
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java-3](how-to-apply-custom-logic-to-unmerged-regions_4.png)
 
 
-As another example, we can insert the code below in place of the code originally handling the **SuppliersRegion** . This will display a message within the table and merge the cells instead of removing the table from the document. Since the region resides within a table with a few cells, it looks nicer to have the cells of the table merged together and the message centered.
+As another example, we can insert the code below in place of the code originally handling the **SuppliersRegion** . This will display a message within the table and merge the cells instead of removing the table from the document. Since the region resides within a table with multiple cells, it looks nicer to have the cells of the table merged together and the message centered.
 
 **Example**
 

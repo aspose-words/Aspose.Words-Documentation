@@ -1,6 +1,6 @@
 ﻿---
 title: Remove Page Breaks from a Document
-description: "Aspose.Words for .NET enables you to remove page breaks from a document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET allows you to remove page breaks from a document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 160
 url: /net/remove-page-breaks-from-document/
@@ -16,7 +16,7 @@ On this page we will look at how to remove page breaks from a document using Asp
 
 In Aspose.Words, use the [PageBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/pagebreak) field of the [ControlChar](https://apireference.aspose.com/words/net/aspose.words/controlchar) class to find all page breaks.
 
-The following code example demonstrates how to remove page breaks from a document:
+The following code example shows how to remove page breaks from a document:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Remove page breaks.docx");

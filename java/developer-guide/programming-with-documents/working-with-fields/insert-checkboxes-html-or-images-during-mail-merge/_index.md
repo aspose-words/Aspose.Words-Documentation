@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert Checkboxes, HTML or Images During Mail Merge
 type: docs
 weight: 40
@@ -20,7 +20,7 @@ This screenshot of Microsoft Word shows a template document with the merge field
 
 ![insert-checkboxes-html-or-images-during-mail-merge-aspose-words-java-1](insert-checkboxes-html-or-images-during-mail-merge_1.jpeg)
 
-This screenshot of Microsoft Word demonstrates the generated document. Note some fields were replaced with simple text, some fields were replaced with checkbox form fields and the Subject field was replaced with a text input form field.
+This screenshot of Microsoft Word shows the generated document. Note some fields were replaced with simple text, some fields were replaced with checkbox form fields and the Subject field was replaced with a text input form field.
 
 ![insert-checkboxes-html-or-images-during-mail-merge-aspose-words-java-2](insert-checkboxes-html-or-images-during-mail-merge_2.png)
 

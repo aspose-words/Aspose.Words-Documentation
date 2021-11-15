@@ -1,4 +1,4 @@
----
+﻿---
 title: Handling Windows Metafiles
 description: "Aspose.Words for .NET implements its own Windows Metafile player to play Metafile format on all platforms and supports the handling of the basic metafile features and can perform fallback to a different type of metafile player."
 type: docs
@@ -20,7 +20,7 @@ The existing issue with Windows Metafile is that it is not supported by most non
 
 ## Controlling the Aspose.Words Metafile Player
 
-The [MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions) class allows you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/properties/renderingmode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/metafilerenderingoptions) property).
+The [MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/properties/renderingmode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/metafilerenderingoptions) property).
 
 Saving to a bitmap works differently on platforms other than .NET. While .NET GDI+ rendering is a reference that works almost perfect even for the most complex metafile format, on other platforms it may cause issues or not be supported at all.
 
@@ -46,7 +46,7 @@ While binary raster operations are not currently supported and the limited numbe
 
 {{% /alert %}} 
 
-The example shown below shows how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of metafile records to vector graphics:
+The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of metafile records to vector graphics:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-RenderMetafileToBitmap.cs" >}}
 

@@ -6,7 +6,7 @@ weight: 20
 url: /cpp/specify-layout-options/
 ---
 
-Aspose.Words allows you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
+Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
 
 For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_continuoussectionpagenumberingrestart_const) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_ignoreprintermetrics_const) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) class page.
 
@@ -37,7 +37,7 @@ Also, Aspose.Words allows you to display revisions in a document. Use the [Revi
 
 You can also have revisions displayed as comments to the content. For this purpose, use the [CommentDisplayMode](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#set_commentdisplaymode) property and [ShowInBalloons](https://apireference.aspose.com/words/cpp/namespace/aspose.words.layout#commentdisplaymode) value.
 
-The following code example demonstrates how to customize revisions display:
+The following code example shows how to customize revisions display:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithRevisionOptions-SetShowInBalloons.cpp" >}}
 
@@ -47,7 +47,7 @@ The image below shows how Aspose.Words renders comments and the Delete revisions
 
 ## Text Shaper for Advanced Typography Rendering
 
-The [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_textshaperfactory_const) property allows you to set the text shaping functionality, as well as the OpenType features support.
+The [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_textshaperfactory_const) property enables you to set the text shaping functionality, as well as the OpenType features support.
 
 Use text shaping for document processing in the following main cases:
 

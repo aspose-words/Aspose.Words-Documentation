@@ -30,7 +30,7 @@ The code produces the following result:
 
 ### How to InsertScatterChart
 
-The code example given below demonstrates how to insert a scatter chart.
+The code example given below shows how to insert a scatter chart.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-InsertScatterChart-InsertScatterChart.cpp" >}}
 

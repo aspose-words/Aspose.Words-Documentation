@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for CPP 18.8 Release Notes
 type: docs
 weight: 20

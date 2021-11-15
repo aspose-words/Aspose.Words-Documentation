@@ -224,7 +224,7 @@ docA.Compare(docB, "vs", DateTime.Now, compareOptions);
 
 Related issue: WORDSNET-20809
 
-This new LoadOption enables reducing memory usage.
+This new LoadOption allows reducing memory usage.
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets whether to convert metafile (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) images to <see cref="FileFormat.Png" /> image format.

@@ -23,7 +23,7 @@ To explicitly update fields in the whole document, simply call [Document.updateF
 When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields PAGE, PAGEREF found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
 
 If you want to update all other fields in the document, then you need to call [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document) before rendering the document.
-The following example demonstrates how to update all fields before rendering a document.
+The following example shows how to update all fields before rendering a document.
 
 **Java**
 
@@ -51,7 +51,7 @@ In previous versions calling [Document.updateFields()](https://apireference.aspo
 
 When [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document) or [Range.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Range) is called all fields are updated over the entire document/range. This may involve building the document layout if a page-layout related field like the PAGE field is encountered during the update. 
 
-The following code example demonstrates how to update all fields in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/UpdateDocFields/Rendering.doc).
+The following code example shows how to update all fields in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/UpdateDocFields/Rendering.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateDocFields-UpdateDocFields.java" >}}
 
@@ -64,7 +64,7 @@ In previous versions, a call to [Document.updatePageLayout](https://apireference
 
 [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/Document) is still used to build or rebuild the document layout when a document is to be rendered. When this method is called or a document is rendered (i.e. saved to PDF, XPS, printed etc.) the document layout is built. In previous versions, this process would update all page-layout related fields, however, in the current version these fields are automatically updated only in the headers and footers of the document.
 
-These changes to how fields are updated upon document layout are required and match how Microsoft Word updates fields. This now enables a document to be rendered without any fields in the main body being updated which is how fields are evaluated in Microsoft Word. If the old functionality of updating page-related fields in the entire document when rendering is desired then an explicit call to [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document) is required before saving the document.
+These changes to how fields are updated upon document layout are required and match how Microsoft Word updates fields. This now allows a document to be rendered without any fields in the main body being updated which is how fields are evaluated in Microsoft Word. If the old functionality of updating page-related fields in the entire document when rendering is desired then an explicit call to [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document) is required before saving the document.
 
 ### All Types of Fields Encountered during Mail Merge are Updated
 
@@ -82,7 +82,7 @@ The following code examples shows how to completely rebuild TOC fields in the do
 
 ## How to Rename Merge Fields
 
-An example that demonstrates how to create your own **MergeField** class, that represents a single merge field in a Microsoft Word document and allows you to get or set its name. 
+An example that shows how to create your own **MergeField** class, that represents a single merge field in a Microsoft Word document and allows you to get or set its name. 
 
 The following code example shows how to rename merge fields in a Word document.
 
@@ -92,6 +92,6 @@ The following code example shows how to rename merge fields in a Word document.
 
 Aspose.Words provides a property to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model.
 
-The following code example demonstrates the usage of Filed.DisplayResult property.
+The following code example shows the usage of Filed.DisplayResult property.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldDisplayResult-FieldDisplayResult.java" >}}

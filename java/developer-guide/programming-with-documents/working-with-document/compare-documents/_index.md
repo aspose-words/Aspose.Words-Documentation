@@ -1,7 +1,7 @@
 ﻿---
 title: Compare Documents
 type: docs
-description: "Aspose.Words for Java allows you to compare two documents in any supported formats and demonstrates content changes. You can apply advanced options when comparing."
+description: "Aspose.Words for Java allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 weight: 50
 url: /java/compare-documents/
 aliases: [/java/how-to-compare-two-word-documents/]
@@ -37,11 +37,11 @@ Note that you can compare any two documents within the [supported file formats](
 
 {{% /alert %}}
 
-## How to Compare Documents {#compare-two-documents}
+## Compare Two Documents {#compare-two-documents}
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
-Aspose.Words allows you to identify documents differences using the [Compare](https://apireference.aspose.com/words/java/com.aspose.words/document#compare(com.aspose.words.Document,java.lang.String,java.util.Date)) method – this is similar to the Microsoft Word document compare feature. It enables you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
+Aspose.Words allows you to identify documents differences using the [Compare](https://apireference.aspose.com/words/java/com.aspose.words/document#compare(com.aspose.words.Document,java.lang.String,java.util.Date)) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
 
 As a result of the comparison, documents can be determined as equal or not equal. The term “equal” documents mean that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 
@@ -49,7 +49,7 @@ The following code example shows how to check if two documents are equal or not:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-wordDocumentsAreEqual.java" >}}
 
-The following code example demonstrates how to simply apply the Compare method to two documents:
+The following code example shows how to simply apply the Compare method to two documents:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-caseWhenDocumentHasRevisions.java" >}}
 

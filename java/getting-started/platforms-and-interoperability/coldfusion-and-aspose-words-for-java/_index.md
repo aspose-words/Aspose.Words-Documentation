@@ -25,7 +25,7 @@ This is a simple application that creates an empty document, inserts some conten
 <html>
 <head><title>Hello World!</title></head>
 <body>
-    <b>This example demonstrates how to create a simple MS Word document using Aspose.Words</b>
+    <b>This example shows how to create a simple MS Word document using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init()>
     <cfset builder=CreateObject("java", "com.aspose.words.DocumentBuilder").init(doc)>
     <cfset builder.write("Hello World!!!")>
@@ -56,7 +56,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 
 ## Invoke Static Methods
 
-Some methods in the Aspose.Words object model are static. For example, there is the **detectFileFormat** method that enables you to detect the original format of a file.
+Some methods in the Aspose.Words object model are static. For example, there is the **detectFileFormat** method that allows you to detect the original format of a file.
 
 **ColdFusion**
 
@@ -175,7 +175,7 @@ Next we write the ColdFusion code to execute mail merge and save the document to
 <html>
 <head><title>Mail Merge with Regions</title></head>
 <body>
-    <b>This example demonstrates how to execute mail merge with regions using Aspose.Words</b>
+    <b>This example shows how to execute mail merge with regions using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset myQueryResult=CreateObject("java", "RelationSet").init()>
     <cfset myResultSet=myQueryResult.execQuery()>

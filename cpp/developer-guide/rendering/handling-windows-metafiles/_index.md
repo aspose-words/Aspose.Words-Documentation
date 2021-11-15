@@ -34,7 +34,7 @@ There are binary and ternary raster operations:
 
 <img src="handling-windows-metafiles_1.png" alt="handling-windows-metafiles-aspose-words-cpp-1" style="width:650px"/>
 
-- Ternary raster operations are applied when drawing bitmap images. They combine colors of corresponding bitmap image pixels, the brush, and the destination bitmap by using bitwise logical operations with specified hex color values. One of the most common purposes of using ternary raster operations is the emulation of transparency. The image provided in the example below shows how icon transparency can be emulated. There are two types of bitmaps: the b/w mask bitmap and the color bitmap. First, the mask bitmap is drawn with the SRCAND raster operation. It changes the opaque icon region to black and white, leaving the transparent region unchanged. Then the second bitmap is drawn with the SRCINVERT raster operation. It displays the color pixels on the black region, leaving the transparent region unchanged.
+- Ternary raster operations are applied when drawing bitmap images. They combine colors of corresponding bitmap image pixels, the brush, and the destination bitmap by using bitwise logical operations with specified hex color values. One of the most common purposes of using ternary raster operations is the emulation of transparency. The image provided in the example below demonstrates how icon transparency can be emulated. There are two types of bitmaps: the b/w mask bitmap and the color bitmap. First, the mask bitmap is drawn with the SRCAND raster operation. It changes the opaque icon region to black and white, leaving the transparent region unchanged. Then the second bitmap is drawn with the SRCINVERT raster operation. It displays the color pixels on the black region, leaving the transparent region unchanged.
 
 <img src="handling-windows-metafiles_2.png" alt="handling-windows-metafiles-aspose-words-cpp-2" style="width:650px"/>
 
@@ -46,7 +46,7 @@ While binary raster operations are not currently supported and the limited numbe
 
 {{% /alert %}} 
 
-The example shown below shows how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of the metafile records to vector graphics:
+The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of the metafile records to vector graphics:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-Doc2Pdf-RenderMetafileToBitmap.cpp" >}}
 

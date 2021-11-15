@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on Rich Text Import
 type: docs
 weight: 30

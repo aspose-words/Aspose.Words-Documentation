@@ -148,7 +148,7 @@ There are 169 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9036|Exception is thrown while loading html file.|Enhancement|
 |WORDSNET-9049|Floating shape is rendered on the wrong page|Enhancement|
 |WORDSNET-9148|Shape is rendered twice.|Enhancement|
-|WORDSNET-9182|A DrawingML is repeated several times in PDF|Enhancement|
+|WORDSNET-9182|A DrawingML is repeated many times in PDF|Enhancement|
 |WORDSNET-6070|Aspose.Words.FileCorruptedException occur while loading mht file.|Exception|
 |WORDSNET-8114|Document.Save throws System.InvalidCastException on re-saving Docx|Exception|
 |WORDSNET-8259|Aspose.Words.FileCorruptedException occurs when loading MHT file|Exception|

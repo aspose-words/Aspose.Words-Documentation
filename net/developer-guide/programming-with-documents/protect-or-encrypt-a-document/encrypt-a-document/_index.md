@@ -1,6 +1,6 @@
 ﻿---
 title: Encrypt a Document
-description: "Aspose.Words for .NET enables you to encrypt your document using appropriate encryption algorithms for specific document formats."
+description: "Aspose.Words for .NET allows you to encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20
 url: /net/encrypt-a-document/
@@ -8,7 +8,7 @@ url: /net/encrypt-a-document/
 
 Encryption is the process that translates readable text to meaningless sequences of bytes so it can only be read by the person who has the decryption key or the secret code. This process plays an important role in securing your content. It helps to encode the content, verify the origin of a document, prove that the content has not been modified after it was sent, and ensure that the data from the document is safe.
 
-This article explains how Aspose.Words enables you to encrypt a document and how to check if a document has encryption or not.
+This article explains how Aspose.Words allows you to encrypt a document and how to check if a document has encryption or not.
 
 ## Encrypt with Password
 
@@ -101,7 +101,7 @@ Assert.Throws<IncorrectPasswordException>(() =>
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
-The following code example demonstrates how to try opening an encrypted document with a password:
+The following code example shows how to try opening an encrypted document with a password:
 
 {{< highlight csharp >}}
 // Create a document.

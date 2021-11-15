@@ -27,8 +27,8 @@ This page contains release notes for [Aspose.Words for Java 19.6](https://reposi
 - Fixed a bug with missing vowel glyph when rendering Thai fonts.
 - Fixed issue with incorrect calculation of start and closing points for small ellipses when rendering DrawingML objects.
 - Fixed table grid calculation issue when the auto table has pct width mixed with %.
-- Fixed exception when table which spans multiple pages and has numerous nested floaters is broken across pages.
-- Improved text positioning when there is a paragraph-relative shape with an anchor wrapped around a few floaters.
+- Fixed exception when table which spans multiple pages and has many nested floaters is broken across pages.
+- Improved text positioning when there is a paragraph-relative shape with an anchor wrapped around multiple floaters.
 - Improved calculation of space before a paragraph when it's first in the document and there is a floater before it.
 
 ## Full List of Issues Covering all Changes in this Release

@@ -45,7 +45,7 @@ Not all formats support encryption and the use of **Password** property.
 
 Aspose.Words provides an ability to use the [CreatedTime](https://apireference.aspose.com/words/java/com.aspose.words/BuiltInDocumentProperties#CreatedTime) property to get or set the document creation date in UTC. You can also update this value before saving using the [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateCreatedTimeProperty) option.
 
-The following code example demonstrates how to update the document creation time:
+The following code example shows how to update the document creation time:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.java" >}}
 
@@ -53,7 +53,7 @@ The following code example demonstrates how to update the document creation time
 
 Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property to get or set a value determining whether the [LastSavedTime](https://apireference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#LastSavedTime) property is updated before saving.
 
-The following code example demonstrates how to set this property and save the document:
+The following code example shows how to set this property and save the document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithOoXML-updateLastSavedTimeProperty.java" >}}
 
@@ -61,6 +61,6 @@ The following code example demonstrates how to set this property and save the d
 
 To control image saving options, the **ImageSaveOptions** class is used. For example, you can use the [PixelFormat](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#PixelFormat) property to set the pixel format for the generated images. Please note that the pixel format of the output image may differ from the set value because of the work of GDI+.
 
-The following code example demonstrates how to save a black and white image with one bit per pixel format:
+The following code example shows how to save a black and white image with one bit per pixel format:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-ImageColorFilters-SaveImageToOnebitPerPixel.java" >}}

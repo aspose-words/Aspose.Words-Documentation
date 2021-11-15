@@ -5,7 +5,7 @@ weight: 130
 url: /java/using-variables/
 ---
 
-LINQ Reporting Engine allows you to use variables in template documents. Variables are useful when you need to calculate an expensive value just once and access it a few times in a template. Also, calculation of complex values such as running (progressive) totals may require variables, see “Appendix C. Typical Templates” to get an example.
+LINQ Reporting Engine enables you to use variables in template documents. Variables are useful when you need to calculate an expensive value just once and access it multiple times in a template. Also, calculation of complex values such as running (progressive) totals may require variables, see “Appendix C. Typical Templates” to get an example.
 
 You can declare a variable in a template using a var tag as follows.
 

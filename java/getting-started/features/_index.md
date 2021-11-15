@@ -1,4 +1,4 @@
----
+﻿---
 title: Features
 description: "Aspose.Words for Java provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
@@ -14,7 +14,7 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 
 Modern document formats and standards are complex, and when you require document conversion or other document processing features in your project, the only practical solution is often to rely on a third-party component that implements the desired functionality. But using a third-party component always carries some risk. One of the unique risks in document processing is the question about how completely and correctly the library implements a particular document format or standard.
 
-Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across a few platforms.
+Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across multiple platforms.
 
 The tables below summarize Aspose.Words for Java features and provide links to detailed feature descriptions.
 
@@ -143,7 +143,7 @@ LINQ Reporting Engine is an advanced reporting tool enabling you to generate doc
 |Support of repeatable and conditional document blocks (loops and conditions) for tables, lists, and common content|
 |Support of dynamically generated charts and images|
 |Support of insertion of outer documents and HTML blocks into a document|
-|Support of several data sources (including of different types) for the generation of a single document|
+|Support of multiple data sources (including of different types) for the generation of a single document|
 |Built-in support of data relations (master-detail)|
 |Comprehensive support of various data manipulations such as grouping, sorting, filtering, and others directly in templates|
 |WYSIWYG: A generated document retains the same formatting of its elements as a corresponding template has|

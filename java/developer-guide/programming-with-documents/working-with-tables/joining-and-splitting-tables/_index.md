@@ -15,7 +15,7 @@ In order to manipulate a table to split or join with another table we simply nee
 
 ## Combining Two Tables into One
 
-The rows from the second table simply need to be shifted to the end of the first table and the container of the second table deleted. Below example demonstrates how to combine the rows from two tables into one.
+The rows from the second table simply need to be shifted to the end of the first table and the container of the second table deleted. Below example shows how to combine the rows from two tables into one.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-JoinAndSplitTables-combineTwoTablesIntoOne.java" >}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Dynamics CRM
 type: docs
 weight: 30
@@ -15,11 +15,11 @@ Dynamics CRM is a server-client application, which, like Microsoft SharePoint, i
 
 Aspose.Words for .NET is an advanced class library for .NET that enables you to perform a wide range of document processing tasks directly within your .NET applications.
 With Aspose.Words you can generate, modify, convert, render and print documents without using Microsoft Word.
-Aspose.Words for .NET supports DOC, OOXML, RTF, HTML, OpenDocument, PDF, XPS, EPUB and several other formats.
+Aspose.Words for .NET supports DOC, OOXML, RTF, HTML, OpenDocument, PDF, XPS, EPUB and many other formats.
 
 ## Aspose.Words for CRM
 
-Aspose .NET can be used with Dynamics CRM in numerous ways. When you are working with documents, either it is document generation or document processing, you need to look at the Aspose APIs which can deliver quick results with minimum lines of code. Checkout our add-on examples below, these add-on will help you using Aspose in your application.
+Aspose .NET can be used with Dynamics CRM in multiple ways. When you are working with documents, either it is document generation or document processing, you need to look at the Aspose APIs which can deliver quick results with minimum lines of code. Checkout our add-on examples below, these add-on will help you using Aspose in your application.
 
 We have created the following plugins for CRM using Aspose.Words
 

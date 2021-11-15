@@ -284,13 +284,13 @@ public enum PageLayoutEvent
     ReflowFinished,
     /// <summary>
     /// Reflow of the page has started.
-    /// Note that page may reflow a few times and that reflow may restart before it is finished.
+    /// Note that page may reflow multiple times and that reflow may restart before it is finished.
     /// <seealso cref="PageLayoutCallbackArgs.PageIndex"/>
     /// </summary>
     PartReflowStarted,
     /// <summary>
     /// Reflow of the page has finished.
-    /// Note that page may reflow numerous times and that reflow may restart before it is finished.
+    /// Note that page may reflow multiple times and that reflow may restart before it is finished.
     /// <seealso cref="PageLayoutCallbackArgs.PageIndex"/>
     /// </summary>
     PartReflowFinished,
@@ -338,7 +338,7 @@ doc.Save(outFileName);
 
 Related issue: WORDSNET-20249
 
-A new method GetEmbeddedFontAsOpenType() has been added to FontInfo class. It enables to convert embedded fonts in Embedded OpenType format (which comes from .doc documents) to OpenType.
+A new method GetEmbeddedFontAsOpenType() has been added to FontInfo class. It allows to convert embedded fonts in Embedded OpenType format (which comes from .doc documents) to OpenType.
 
 **.NET**
 
@@ -366,7 +366,7 @@ The new property Watermark has been added to the Document class.
 public Watermark Watermark { get; }
 {{< /highlight >}}
 
-The new Watermark class enables to add/remove watermark from the document. A watermark can be created from text or from an image.
+The new Watermark class allows to add/remove watermark from the document. A watermark can be created from text or from an image.
 
 **.NET**
 

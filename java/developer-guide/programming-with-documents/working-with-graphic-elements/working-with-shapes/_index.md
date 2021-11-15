@@ -39,7 +39,7 @@ This topic discusses how to work programmatically with shapes using Aspose.Words
 
 ### Horizontal Rule Format
 
-Aspose.Words API provides Shape.HorizontalRuleFormat property to access the properties of the horizontal rule shape. The HorizontalRuleFormat class exposes basic properties like Height, Color, NoShade etc. for the formatting of a horizontal rule. The following code example shows how to set HorizontalRuleFormat.
+Aspose.Words API provides Shape.HorizontalRuleFormat property to access the properties of the horizontal rule shape. The HorizontalRuleFormat class exposes basic properties like Height, Color, NoShade etc. for the formatting of a horizontal rule. The following code example demonstrates how to set HorizontalRuleFormat.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-ShapeHorizontalRuleFormat.java" >}}
 

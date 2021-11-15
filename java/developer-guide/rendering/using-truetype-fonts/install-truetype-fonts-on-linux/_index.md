@@ -9,7 +9,7 @@ aliases: [/java/installing-truetype-fonts-on-linux/]
 
 Most often, you will use Aspose.Words to convert DOC or DOCX documents to PDF format. If you need to do this on a Linux machine, this topic will help you to learn how to ensure Aspose.Words is rendering your documents with the best accuracy.
 
-Most frequently, the DOC and DOCX documents, which need to be converted were created using Microsoft Word, on a Windows or Mac OS operating system. Therefore, most fonts used in DOC and DOCX documents are "Windows fonts" or "Office fonts", that are the fonts installed with Microsoft Windows or Microsoft Office. These fonts include Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings, and multiple others.
+Most frequently, the DOC and DOCX documents, which need to be converted were created using Microsoft Word, on a Windows or Mac OS operating system. Therefore, most fonts used in DOC and DOCX documents are "Windows fonts" or "Office fonts", that are the fonts installed with Microsoft Windows or Microsoft Office. These fonts include Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings, and many others.
 
 The problem is that the TrueType fonts listed above are not installed by default on Linux distributions. If you take a typical DOCX document that is formatted with the Cambria font and try to convert it to PDF format on Linux, Aspose.Words will use a different font because Cambria is not available. As a result, the PDF document will look different, in comparison to the original DOCX document. To make sure that documents converted by Aspose.Words appear as close as possible to the original, you need to install "Windows fonts" on your Linux system.
 
