@@ -31,7 +31,7 @@ To check if a cell is part of a sequence of merged cells, we simply check the [C
 
 Below example prints the horizontal and vertical merge type of a cell.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-CheckCellsMerged-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-CheckCellsMerged-CheckCellsMerged.java" >}}
 
 ### Merging Cells in a Table
 
@@ -41,13 +41,13 @@ The same technique is used to set the merge behavior on the cells in a table. Wh
 
 Creates a table with two rows with cells in the first row horizontally merged.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInATable-MergeCellsHorizontally.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInATable-mergeCellsHorizontally.java" >}}
 
 #### Example: Merging Cells Vertically
 
 Creates a table with two columns with cells merged vertically in the first column.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInATable-MergeCellsVertically.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInATable-mergeCellsVertically.java" >}}
 
 There are different ways to start a table. In the code snippets above builder.insertCell(); is used. Another method is to use builder.startTable(). Either approach starts a new table.
 
@@ -59,7 +59,7 @@ In other situations where a builder is not used, such as in an existing table, m
 
 A method which merges all cells of a table in the specified range of cells.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInARange-MergeCells.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInARange-mergeCells.java" >}}
 
 #### Example: Merging Cells between Two Cells
 

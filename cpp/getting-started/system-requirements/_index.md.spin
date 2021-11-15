@@ -1,4 +1,4 @@
-﻿---
+---
 title: System Requirements
 description: "Before you start working with Aspose.Words for C++, ensure that you meet the operating system, platform, frameworks, and environment requirements so the activities on your devices are properly accounted for."
 type: docs
@@ -64,12 +64,12 @@ Aspose.Words for C++ can be used to develop application in any development envir
 
 ### Additional Dependency on Linux
 
-Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) binaries and [mesa-glu](https://cgit.freedesktop.org/mesa/glu) binaries, both dynamic library and tool. Please install it before using:
+Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) binaries both dynamic library and tool. Please install it before using:
 
-1. Installing fontconfig and mesa-glu on Ubuntu or Debian</br>
-`sudo apt install libfontconfig fontconfig libglu1-mesa`
-2. Installing fontconfig and mesa-glu on Fedora or CentOs</br>
-   `sudo yum install fontconfig mesa-libGLU`
+1. Installing fontconfig on Ubuntu or Debian</br>
+`sudo apt install libfontconfig fontconfig`
+2. Installing fontconfig on Fedora or CentOs</br>
+   `sudo yum install fontconfig`
 
 ### macOS
 
@@ -86,7 +86,7 @@ Aspose.Words for C++ can be used to develop application in the flowwing developm
 
 ### Additional Dependency on macOS
 
-Aspose.Words for C++ on macOS depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) and [mesa-glu](https://cgit.freedesktop.org/mesa/glu) binaries, both dynamic library and tool binaries, both dynamic library and tool. Please install it before using:
+Aspose.Words for C++ on macOS depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) binaries both dynamic library and tool. Please install it before using:
 
-Installing fontconfig and mesa-glu on macOS with [homebrew](https://brew.sh)</br>
-`brew install fontconfig mesa-glu`
+Installing fontconfig on macOS with [homebrew](https://brew.sh)</br>
+`brew install fontconfig`

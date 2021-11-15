@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Save Options
 description: "Aspose.Words for .NET enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
 type: docs
@@ -6,7 +6,7 @@ weight: 10
 url: /net/specify-save-options/
 ---
 
-When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions) class, which enables more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions) for saving to PDF format or [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
+When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions) class, which enables more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions) for saving to PDF format, [MarkdownSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions) for saving to Markdown format, or [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
 
 The following code example demonstrates how to set the save options before saving the document into HTML:
 

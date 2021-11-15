@@ -26,7 +26,7 @@ The following code example {demonstrates|shows} how to insert an image watermark
 
 The watermark can also be inserted using shape class as well. It is very easy to insert any shape or image into a header or footer and thus create a watermark of any imaginable type. The following code example inserts a watermark into a Word document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -43,7 +43,11 @@ The Watermark class provides the Remove method to remove the watermark from a do
 
 To remove the watermark from a document you have to set only the name of the watermark shape during inserting and then remove the watermark shape by an assigned name. The following code snippets show you how to set the name of the watermark shape and remove from the document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-SetWatermarkName.java" >}}
+{{< highlight csharp >}}
+
+// Set name to be able to remove it afterwards
+watermark.Name("WaterMark");
+{{< /highlight >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 

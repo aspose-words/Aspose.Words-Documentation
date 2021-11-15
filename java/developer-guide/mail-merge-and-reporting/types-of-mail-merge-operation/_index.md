@@ -79,7 +79,7 @@ Aspose.Words enables you to execute mail merge with regions using different [Exe
 
 As a first step, we need to create the DataSet to pass it later as an input parameter to the ExecuteWithRegions method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e"  "Examples-CSharp-Mail-Merge-MailMergeWithRegions-CreateDataSet.cs" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e"  "Examples-src-main-java-com-aspose-words-examples-mail_merge-TypesofMailMergeOperations-CreateDataSet.java" >}}
 
 The following code example demonstrates how to execute mail merge with regions using the [ExecuteWithRegions(DataSet)](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#executeWithRegions(com.aspose.words.net.System.Data.DataSet)) method:
 

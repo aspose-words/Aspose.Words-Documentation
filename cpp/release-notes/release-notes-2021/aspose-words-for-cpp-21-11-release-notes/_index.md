@@ -1,25 +1,48 @@
 ﻿---
-title: Aspose.Words for .NET 21.11 Release Notes
+title: Aspose.Words for C++ 21.11 Release Notes
 type: docs
 weight: 15
-url: /net/aspose-words-for-net-21-11-release-notes/
+url: /cpp/aspose-words-for-cpp-21-11-release-notes/
 ---
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for .NET 21.11](https://www.nuget.org/packages/Aspose.Words/21.11.0).
+This page contains release notes for [Aspose.Words for C++ 21.11](https://www.nuget.org/packages/Aspose.Words.Cpp/21.11.0).
 
 {{% /alert %}} 
 
 ## Major Features
 
-There are 64 improvements and fixes in this regular monthly release. The most notable are:
+We have added the following features from Aspose.Words for .Net on this regular monthly release:
 
 - Implemented a ProgressCallback to be able to show the document loading progress.
 - New UseAttachments option has been implemented to display the attachments panel in the output PDF documents.
 - Added a new ChmLoadOptions to get more control over CHM loading.
 - Added new option to ignore field codes during find-replace operation.
 - Added ability to save images as Base64 string to Markdown format.
+
+We have added the following features for Aspose.Words for C++:
+
+- vcpkg registry with vcpkg package for Aspose.Words for C++
+
+## Limitations and API Differences
+
+Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release. The missing features will be added in future releases.
+
+- The current release does not support Metered license.
+- The current release does not support LINQ and Reporting features.
+- The current release does not support OpenGL 3D Shapes rendering.
+- The current release does not support loading PDF documents.
+- The current release has limited support for database features - C++ doesn't have common API for DB like .Net System.Data.
+- The current release supports Microsoft Visual C++ version 2017 or higher.
+- The current release supports GCC 6.3 or higher and Clang 3.9.1 or higher on Linux and only for the x86_x64 platform.
+- The current release supports macOS Big Sur or later (11.5+) for 64-bit Intel Mac platform.
+
+## Full List of Issues Covering all Changes in this Release (Reported by C++ Users)
+|Key|Summary|Category|
+| :- | :- | :- |
+| WORDSCPP-1133 | vcpkg package for Aspose.Words for C++ | New Feature |
+| WORDSCPP-1140 | lld linker reports ld.lld: warning: found local symbol | Bug |
 
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
 
@@ -31,7 +54,7 @@ There are 64 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-8696 | Add new property of PdfSaveOptions to export SDT controls as editable PDF   form fields | New Feature |
 | WORDSNET-22513 | Support "ms-its" and other local URLs during import CHM from a   stream | New Feature |
 | WORDSNET-22794 | Implement MS Word scaling algorithm for non-native Ink objects when   rendering | New Feature |
-| WORDSNET-22803 | Provide full support of ReportingEngine.UseReflectionOptimization for   .NET Standard | New Feature |
+| WORDSNET-22803 | Provide full support of ReportingEngine.UseReflectionOptimization for .NET Standard | New Feature |
 | WORDSNET-11453 | Add feature to view/hide navigation panes of PDF | New Feature |
 | WORDSNET-9945 | Support native gradients with   transparency in PDF | New Feature |
 | WORDSNET-14850 | Export drop-down list content controls as 'select' HTML elements | New Feature |
@@ -40,18 +63,18 @@ There are 64 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-18648 | Text gradient support | New Feature |
 | WORDSNET-1697 | Add possibility to use complex Fill Effects for shapes (gradient, texture   etc) | New Feature |
 | WORDSNET-21698 | Convert Word Content Controls to Editable Controls in PDF | Enhancement |
-| WORDSNET-14318 | Provide option to export SDT checkboxes as 'input' in HTML | Enhancement |
+| WORDSNET-14318 | Provide option to export SDT checkboxes as <input> in HTML | Enhancement |
 | WORDSNET-8920 | SDT controls placed outside paragraph level are not preserved when   converting to PDF | Enhancement |
 | WORDSNET-11542 | Provide ExportDropDownFormFieldAsText property for StructuredDocumentTag | Enhancement |
 | WORDSNET-16057 | PDF with gradient fill print Issue with Chrome | Enhancement |
 | WORDSNET-22457 | Arabic words not rendering as expected | Bug |
-| WORDSNET-22133 | Incorrect version of harfbuzz.dll is selected when running app with .NET   CLI | Bug |
+| WORDSNET-22133 | Incorrect version of harfbuzz.dll is selected when running app with .NET CLI | Bug |
 | WORDSNET-19158 | OfficeMath renders incorrectly in output EMF | Bug |
-| WORDSNET-22750 | System.ArgumentException Illegal characters in path MHTML to HTML   conversion | Bug |
+| WORDSNET-22750 | System.ArgumentException Illegal characters in path MHTML to HTML conversion | Bug |
 | WORDSNET-22777 | Import of mhtml differs from what is in browser | Bug |
 | WORDSNET-22821 | Space around the barcode is increased after conversion DOC to PDF | Bug |
 | WORDSNET-22742 | System.OverflowException occurs upon loading a XML | Bug |
-| WORDSNET-22683 | 'Culture not supported' exception is thrown while saving document to   PDF | Bug |
+| WORDSNET-22683 | 'Culture not supported' exception is thrown while saving document to PDF | Bug |
 | WORDSNET-22540 | Data labels in the chart messed up when converting to PDF | Bug |
 | WORDSNET-19157 | Arrows in OfficeMath equation are rendered incorrectly in output EMF | Bug |
 | WORDSNET-22757 | Shapes do not render correctly after DOCX to PDF conversion | Bug |
@@ -96,6 +119,7 @@ There are 64 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-22050 | Allow row to break across pages is checked after DOC-HTML-DOC | Bug |
 | WORDSNET-22044 | HTML to Word DOCX visibility of Hidden Numbered and Bullet Lists | Bug |
 
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 21.11. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -122,14 +146,14 @@ public enum PdfPageMode
 {{< /highlight >}}
 
 Use Case:
-{{< highlight csharp >}}
-Document doc = new Document("input.docx");
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>(u"input.docx");
  
 // Specify the new page mode for PDF.
-PdfSaveOptions options = new PdfSaveOptions();
-options.PageMode = PdfPageMode.UseAttachments;
+auto options = System::MakeObject<PdfSaveOptions>();
+options->set_PageMode(PdfPageMode::UseAttachments);
  
-doc.Save("output.pdf", options);
+doc->Save(u"output.pdf", options);
 {{< /highlight >}}
 
 ### Added a new ChmLoadOptions class
@@ -165,20 +189,20 @@ public class ChmLoadOptions
 {{< /highlight >}}
 
 Use Case:
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // The input document name.
-string fileName= "myfile.chm";
+String fileName = u"myfile.chm";
  
 // Create an input stream of the input document.
-Stream inputStream = new MemoryStream(File.ReadAllBytes(fileName));
+auto inputStream = System::MakeObject<MemoryStream>(System::IO::File::ReadAllBytes(fileName));
  
 // Specify the file name in CHM load options.
 // This allows Aspose.Words to correctly resolve URLs like "ms-its:myfile.chm::/index.htm"
-ChmLoadOptions loadOptions = new ChmLoadOptions();
-loadOptions.OriginalFileName = fileName;
+auto loadOptions = System::MakeObject<ChmLoadOptions>();
+loadOptions->set_OriginalFileName(fileName);
  
 // Load the document.
-Document doc = new Document(inputStream , loadOptions);
+auto doc = System::MakeObject<Document>(inputStream , loadOptions);
 {{< /highlight >}}
 
 ### Added a new FindReplaceOptions.IgnoreFieldCodes property
@@ -200,26 +224,26 @@ public bool IgnoreFieldCodes
 {{< /highlight >}}
 
 Use Case: Explains how to ignore text inside field codes.
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 // Create document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+auto doc = System::MakeObject<Document>();
+auto builder = System::MakeObject<DocumentBuilder>(doc);
  
 // Insert field.
-builder.InsertField("INCLUDETEXT", "Text in field");
+builder->InsertField(u"INCLUDETEXT", u"Text in field");
  
-Regex regex = new Regex("T");
-FindReplaceOptions options = new FindReplaceOptions();
+auto regex = System::MakeObject<Regex>(u"T");
+auto options = System::MakeObject<FindReplaceOptions>();
  
 // Replace 'T' in document ignoring text inside field code.
-options.IgnoreFieldCodes = true;
-doc.Range.Replace(regex, "*", options);
-Console.WriteLine(doc.GetText());
+options->set_IgnoreFieldCodes(true);
+doc->get_Range()->Replace(regex, u"*", options);
+std::cout << doc->GetText().ToUtf8String() << '\n';
  
 // Replace 'T' in document NOT ignoring text inside field code.
-options.IgnoreFieldCodes = false;
-doc.Range.Replace(regex, "*", options);
-Console.WriteLine(doc.GetText());
+options->set_IgnoreFieldCodes(false);
+doc->get_Range()->Replace(regex, u"*", options);
+std::cout << doc->GetText().ToUtf8String() << '\n';
  
 // The code produces the following output:
 // \u0013INCLUDETEXT\u0014*ext in field\u0015\u000c
@@ -278,60 +302,65 @@ public sealed class DocumentLoadingArgs
 {{< /highlight >}}
 
 Use case:
-{{< highlight csharp >}}
+{{< highlight cpp >}}
 /// <summary>
 /// Loading progress callback. Cancel a document loading after the "MaxDuration" seconds.
 /// </summary>
-public class LoadingProgressCallback : IDocumentLoadingCallback
+class LoadingProgressCallback : public IDocumentLoadingCallback
 {
+    using ThisType = LoadingProgressCallback;
+    using BaseType = IDocumentLoadingCallback;
+    using ThisTypeBaseTypesInfo = ::System::BaseTypesInfo<BaseType>;
+    RTTI_INFO();
+public:
     /// <summary>
     /// Ctr.
     /// </summary>
     public LoadingProgressCallback()
     {
-        mLoadingStartedAt = DateTime.Now;
+        mLoadingStartedAt = System::DateTime::get_Now();
     }
  
     /// <summary>
     /// Callback method which called during document loading.
     /// </summary>
     /// <param name="args">Loading arguments.</param>
-    public void Notify(DocumentLoadingArgs args)
+    void Notify(System::SharedPtr<DocumentLoadingArgs> args) override
     {
-        DateTime canceledAt = DateTime.Now;
-        double ellapsedSeconds = (canceledAt - mLoadingStartedAt).TotalSeconds;
+        auto canceledAt = System::DateTime::get_Now();
+        double ellapsedSeconds = (canceledAt - mLoadingStartedAt)->get_TotalSeconds();
  
         if (ellapsedSeconds > MaxDuration)
-            throw new OperationCanceledException($"EstimatedProgress = {args.EstimatedProgress}; CanceledAt = {canceledAt}");
+            throw OperationCanceledException();
     }
  
+private:
     /// <summary>
     /// Date and time when document loading is started.
     /// </summary>
-    private readonly DateTime mLoadingStartedAt;
+    DateTime mLoadingStartedAt;
  
     /// <summary>
     /// Maximum allowed duration in sec.
     /// </summary>
-    private const double MaxDuration = 100d;
+    static constexpr double MaxDuration = 100.0;
 }
 {{< /highlight >}}
 
 Loading document code:
-{{< highlight csharp >}}
-LoadingProgressCallback cb = new LoadingProgressCallback();
+{{< highlight cpp >}}
+auto cb = System::MakeObject<LoadingProgressCallback>();
  
-LoadOptions lo = new LoadOptions();
-lo.ProgressCallback = cb;
+auto lo = System::MakeObject<LoadOptions>();
+lo->set_ProgressCallback(cb);
  
 try
 {
-    Document doc = new Document("bigDoc.docx", lo);
+    auto doc = System::MakeObject<Document>(u"bigDoc.docx", lo);
     // Do work.
 }
-catch (OperationCanceledException ex)
+catch (const OperationCanceledException& ex)
 {
-    Console.WriteLine(ex.Message);
     // Handle loading duration issue.
 }
 {{< /highlight >}}
@@ -354,13 +383,13 @@ public bool ExportImagesAsBase64
 {{< /highlight >}}
 
 Use case: Explains how to save Base64 encoded images directly inside a Markdown document.
-{{< highlight csharp >}}
-Document doc = new Document("DocumentWithShape.docx");
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Document>(u"DocumentWithShape.docx");
  
-MarkdownSaveOptions mso = new MarkdownSaveOptions();
-mso.ExportImagesAsBase64 = true;
+auto mso = System::MakeObject<MarkdownSaveOptions>();
+mso->set_ExportImagesAsBase64(true);
  
-doc.Save("DocumentWithShape.md", mso);
+doc->Save(u"DocumentWithShape.md", mso);
 {{< /highlight >}}
 
 ### New style identifiers for Mention, Smart Hyperlink, Hashtag and Unresolved Mention have been added

@@ -1,25 +1,44 @@
 ﻿---
-title: Aspose.Words for .NET 21.11 Release Notes
+title: Aspose.Words for Java 21.11 Release Notes
 type: docs
-weight: 15
-url: /net/aspose-words-for-net-21-11-release-notes/
+weight: 2
+url: /java/aspose-words-for-java-21-11-release-notes/
 ---
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for .NET 21.11](https://www.nuget.org/packages/Aspose.Words/21.11.0).
+This page contains release notes for [Aspose.Words for Java 21.11](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/21.11).
 
 {{% /alert %}} 
 
 ## Major Features
 
-There are 64 improvements and fixes in this regular monthly release. The most notable are:
+There are 67 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented a ProgressCallback to be able to show the document loading progress.
 - New UseAttachments option has been implemented to display the attachments panel in the output PDF documents.
 - Added a new ChmLoadOptions to get more control over CHM loading.
 - Added new option to ignore field codes during find-replace operation.
 - Added ability to save images as Base64 string to Markdown format.
+
+## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
+
+|Key|Summary|Category|
+| :- | :- | :- |
+| WORDSNET-16733 | Add feature to get the gradient fill properties of a shape | New Feature |
+| WORDSNET-22707 | Add an ability to use type members of DataRow etc. classes at LINQ   Reporting Engine templates | New Feature |
+| WORDSNET-20073 | Block level SDT not converting to Editable AcroForm field in PDF | New Feature |
+| WORDSJAVA-2601 | DOCX->HTML->DOCX roundtrip: table   padding changes in the output | Bug |
+| WORDSJAVA-2616 | java.lang.UnsatisfiedLinkError is thrown while saving DOCX to PDF at MAC. | Bug |
+| WORDSJAVA-2591 | Aspose.Words used as shared library in WebSphere throws exception | Bug |
+| WORDSNET-19183 | Chart's starting ending points are not correct in PDF | Bug |
+| WORDSNET-22829 | getPageCount() returns incorrect page numbers | Bug |
+| WORDSNET-22783 | Content converge and cause overlapping in PDF | Bug |
+| WORDSNET-22573 | Shape's contents are lost after DOCX to PDF Conversion | Bug |
+| WORDSNET-22848 | Text bold formatting is lost after DOCX to PDF | Bug |
+| WORDSNET-19181 | X-Axis numbering in Chart missing in PDF | Bug |
+| WORDSNET-22050 | Allow row to break across pages is checked after DOC>HTML>DOC | Bug |
+| WORDSNET-22044 | HTML to Word DOCX visibility of Hidden Numbered and Bullet Lists | Bug |
 
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
 
@@ -40,7 +59,7 @@ There are 64 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-18648 | Text gradient support | New Feature |
 | WORDSNET-1697 | Add possibility to use complex Fill Effects for shapes (gradient, texture   etc) | New Feature |
 | WORDSNET-21698 | Convert Word Content Controls to Editable Controls in PDF | Enhancement |
-| WORDSNET-14318 | Provide option to export SDT checkboxes as 'input' in HTML | Enhancement |
+| WORDSNET-14318 | Provide option to export SDT checkboxes as input in HTML | Enhancement |
 | WORDSNET-8920 | SDT controls placed outside paragraph level are not preserved when   converting to PDF | Enhancement |
 | WORDSNET-11542 | Provide ExportDropDownFormFieldAsText property for StructuredDocumentTag | Enhancement |
 | WORDSNET-16057 | PDF with gradient fill print Issue with Chrome | Enhancement |
@@ -78,23 +97,6 @@ There are 64 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-9273 | Conversion of DOCX to DOC and PDF file format change the NUMPAGES value | Bug |
 | WORDSNET-22840 | Missing the image which size is huge in PDF after convert word to PDF | Bug |
 | WORDSNET-22837 | Loading encrypted word File Corrupted Exception | Bug |
-
-
-## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
-
-|Key|Summary|Category|
-| :- | :- | :- |
-| WORDSNET-16733 | Add feature to get the gradient fill properties of a shape | New Feature |
-| WORDSNET-22707 | Add an ability to use type members of DataRow etc. classes at LINQ Reporting Engine templates | New Feature |
-| WORDSNET-20073 | Block level SDT not converting to Editable AcroForm field in PDF | New Feature |
-| WORDSNET-19183 | Chart's starting ending points are not correct in PDF | Bug |
-| WORDSNET-22829 | getPageCount() returns incorrect page numbers | Bug |
-| WORDSNET-22783 | Content converge and cause overlapping in PDF | Bug |
-| WORDSNET-22573 | Shape's contents are lost after DOCX to PDF Conversion | Bug |
-| WORDSNET-22848 | Text bold formatting is lost after DOCX to PDF | Bug |
-| WORDSNET-19181 | X-Axis numbering in Chart missing in PDF | Bug |
-| WORDSNET-22050 | Allow row to break across pages is checked after DOC-HTML-DOC | Bug |
-| WORDSNET-22044 | HTML to Word DOCX visibility of Hidden Numbered and Bullet Lists | Bug |
 
 ## Public API and Backward Incompatible Changes
 

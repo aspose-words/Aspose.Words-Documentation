@@ -53,7 +53,7 @@ When [Document.updateFields()](https://apireference.aspose.com/words/java/com.as
 
 The following code example {shows|demonstrates} how to update all fields in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/UpdateDocFields/Rendering.doc).
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateDocFields-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateDocFields-UpdateDocFields.java" >}}
 
 A similar process occurs when a single field is updated using the [Field.update()](https://apireference.aspose.com/words/java/com.aspose.words/Field) method. If this field is a regular field then only this field is updated as normal. However, if this field is related to the page layout then the document layout is rebuilt and it is updated along with all other page related fields found in headers or footers.
 These changes in field evaluation may potentially cause results that differ from previous versions on certain documents when executing the same field update code.
@@ -78,7 +78,7 @@ As explained earlier, all fields are now updated using Document.UpdateFields. Th
 
 The following code examples {shows|demonstrates} how to completely rebuild TOC fields in the document by invoking field update.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateDocFields-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateDocFields-UpdateDocFields.java" >}}
 
 ## How to Rename Merge Fields
 
@@ -86,7 +86,7 @@ An example that {shows|demonstrates} how to create your own **MergeField** class
 
 The following code example {shows|demonstrates} how to rename merge fields in a Word document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-RenameMergeFields-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-RenameMergeFields-RenameMergeFields.java" >}}
 
 ## Field Display Result
 

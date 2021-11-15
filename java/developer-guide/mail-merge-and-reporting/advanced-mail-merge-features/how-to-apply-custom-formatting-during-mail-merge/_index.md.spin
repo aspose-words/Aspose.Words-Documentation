@@ -11,4 +11,4 @@ The **fieldMerging(FieldMergingArgs)** event occurs during mail merge when a sim
 
 The code example given below {demonstrates|shows} how to implement custom logic in the MergeField event to apply cell formatting.
 
-{{< gist "aspose-words-gists" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomFormattingDuringMailMerge-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomFormattingDuringMailMerge-ApplyCustomFormattingDuringMailMerge.java" >}}
