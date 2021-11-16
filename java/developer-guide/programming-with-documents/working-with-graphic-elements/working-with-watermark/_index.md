@@ -14,7 +14,7 @@ In Microsoft Word, a watermark can easily be inserted in a document using the In
 
 ### Add Text Watermark
 
-The following code example shows how to insert a text watermark in a document by defining [TextWatermarkOptions](https://apireference.aspose.com/words/java/com.aspose.words/TextWatermarkOptions) using the SetText method.
+The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://apireference.aspose.com/words/java/com.aspose.words/TextWatermarkOptions) using the SetText method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
@@ -26,7 +26,7 @@ The following code example demonstrates how to insert an image watermark in a do
 
 The watermark can also be inserted using shape class as well. It is very easy to insert any shape or image into a header or footer and thus create a watermark of any imaginable type. The following code example inserts a watermark into a Word document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -37,13 +37,17 @@ You can download the template file of this example from [here](https://github.c
 
 ## How to Remove Watermark from a Document
 
-The Watermark class provides the Remove method to remove the watermark from a document. The following code examples shows how to remove a watermark from documents.
+The Watermark class provides the Remove method to remove the watermark from a document. The following code examples demonstrates how to remove a watermark from documents.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
 To remove the watermark from a document you have to set only the name of the watermark shape during inserting and then remove the watermark shape by an assigned name. The following code snippets show you how to set the name of the watermark shape and remove from the document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-SetWatermarkName.java" >}}
+{{< highlight csharp >}}
+
+// Set name to be able to remove it afterwards
+watermark.Name("WaterMark");
+{{< /highlight >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 

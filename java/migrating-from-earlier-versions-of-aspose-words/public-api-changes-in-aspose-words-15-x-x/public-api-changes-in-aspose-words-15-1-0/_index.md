@@ -21,7 +21,7 @@ We have now added a new public property to HtmlSaveOptions class:
 /** 
  Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB.
  Default value is <c>true</c> for HTML and <c>false</c> for MHTML and EPUB.
- <p>Saving of the roundtrip information enables to restore document properties such as tab stops,
+ <p>Saving of the roundtrip information allows to restore document properties such as tab stops,
  comments, headers and footers during the HTML documents loading back into a <see cref="Document"/> object.</p>
  <p>When <c>true</c>, the roundtrip information is exported as -aw-* CSS properties
  of the corresponding HTML elements.</p>
@@ -59,7 +59,7 @@ We have also exposed access to field format switches common for all field types 
 
 ### New Overload of DocumentBuilder.InsertField Method Added
 
-We have introduced the new overload **DocumentBuilder.InsertField(FieldType fieldType, bool updateField)** which enables to insert a field by its type.
+We have introduced the new overload **DocumentBuilder.InsertField(FieldType fieldType, bool updateField)** which allows to insert a field by its type.
 
 ### New Paragraph.AppendField Method Added
 

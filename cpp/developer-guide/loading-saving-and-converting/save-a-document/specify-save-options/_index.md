@@ -1,6 +1,6 @@
 ﻿---
 title: Specify Save Options
-description: "Aspose.Words for C++ allows you to set advanced properties when saving a document. This allows you to more accurately control the save process."
+description: "Aspose.Words for C++ enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
 type: docs
 weight: 10
 url: /cpp/specify-save-options/
@@ -19,7 +19,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}} 
 
-The article describes several properties you can control when saving a document.
+The article describes a few properties you can control when saving a document.
 
 ## Encrypt a Document With a Password
 
@@ -27,7 +27,7 @@ Use the **Password** property to get or set a password for an encrypted docume
 
 For example, when saving a document to DOC or DOT format, use the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.doc_save_options#get_password_const) property of the [DocSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.doc_save_options) class.
 
-The following code example demonstrates how to set a password to encrypt a document using the RC4 encryption method:
+The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cpp" >}}

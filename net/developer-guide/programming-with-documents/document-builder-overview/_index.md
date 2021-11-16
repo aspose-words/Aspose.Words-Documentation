@@ -8,7 +8,7 @@ url: /net/document-builder-overview/
 
 [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/net/aspose.words/document) and enables you to build dynamic documents from scratch or add new elements to an existing one.
 
-**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It enables you to specify fonts, paragraph or section formatting, and perform other operations.
+**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
 
 ## Document Builder or Aspose.Words DOM
 
@@ -38,7 +38,7 @@ To start, you need to create a **DocumentBuilder** and associate it with a **Doc
 
 To insert a text, pass the string of text you need to insert into the document to the **Write** method.
 
-The following code example demonstrates how to create a simple document using a document builder.
+The following code example shows how to create a simple document using a document builder.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Quick-Start-HelloWorld-HelloWorld.cs" >}}
 
@@ -46,7 +46,7 @@ The following code example demonstrates how to create a simple document using a 
 
 The [Font](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://apireference.aspose.com/words/net/aspose.words/font/properties/bold), [Font.Italic](https://apireference.aspose.com/words/net/aspose.words/font/properties/italic), and [Font.Underline](https://apireference.aspose.com/words/net/aspose.words/font/properties/underline) boolean properties.
 
-The following code example demonstrates how to insert a formatted text using **DocumentBuilder**:
+The following code example shows how to insert a formatted text using **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cs" >}}
 

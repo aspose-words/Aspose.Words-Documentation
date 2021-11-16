@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on HTML Import
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ Normally elements or attributes that do not have an eqivilant feature in a Micro
 
 You can set the BaseUri path of the document being loaded so relative resources can be correctly imported.
 
-Aspose.Words supports most CSS 1 and CCS 2 properties that have an eqivilant use in Word documents. Note that a few classes on a single class attribute is currently not supported during import.
+Aspose.Words supports most CSS 1 and CCS 2 properties that have an eqivilant use in Word documents. Note that multiple classes on a single class attribute is currently not supported during import.
 
 The HTML produced by Aspose.Words conforms to HTML 4.0 or XHTML 1.0 Transitional specifications. Multiparts/mixed content is supported in HTML during load. You can choose the encoding used during import from and export to HTML based formats. During load you can choose to auto detect the encoding.
 

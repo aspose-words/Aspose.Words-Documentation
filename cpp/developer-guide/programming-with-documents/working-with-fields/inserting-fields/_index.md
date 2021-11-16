@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserting Fields
 type: docs
 weight: 20
@@ -7,7 +7,7 @@ url: /cpp/inserting-fields/
 
 ## Inserting Fields into a Document
 
-In Aspose.Words the **DocumentBuilder.InsertField** method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and enables the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
+In Aspose.Words the **DocumentBuilder.InsertField** method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
 {{% alert color="primary" %}} 
 
@@ -15,7 +15,7 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}} 
 
-The code example given below demonstrates how to Inserts a merge field into a document using DocumentBuilder.
+The code example given below shows how to Inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-InsertField.h" >}}
 
@@ -65,7 +65,7 @@ The ADVANCE field is used to offset subsequent text within a line to the left, r
 - Specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box.
 - Specify the number of points by which the text that follows the field should be moved left, right, up or down.
 
-For more details, please refer to FieldAdvance Class API reference. The code example given below demonstrates how to Add an Advance Field using DOM to a Paragraph in Document.
+For more details, please refer to FieldAdvance Class API reference. The code example given below shows how to Add an Advance Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAdvanceFieldWithoutDocumentBuilder-InsertAdvanceFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -115,7 +115,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 { TOA [Switches ] }
 
-Please refer to FieldToa Class API reference. The code example given below demonstrates how to Add a TOA field using DOM to a Paragraph in Document. 
+Please refer to FieldToa Class API reference. The code example given below shows how to Add a TOA field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cpp" >}}
 

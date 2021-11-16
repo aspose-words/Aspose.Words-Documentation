@@ -21,7 +21,7 @@ generate, modify, and convert documents without using Microsoft Word.
 
 ## Aspose.Words Java for Ruby
 
-Project Aspose.Words Java for Ruby demonstrates how different tasks can be performed using Aspose.Words Java APIs in Ruby. This project is aimed to provide useful examples for
+Project Aspose.Words Java for Ruby shows how different tasks can be performed using Aspose.Words Java APIs in Ruby. This project is aimed to provide useful examples for
 Ruby developers who want to utilize Aspose.Words for Java in their Ruby Projects using Rjb (Ruby Java Bridge).
 
 ## System Requirements and Supported Platforms

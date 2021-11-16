@@ -19,7 +19,7 @@ Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose
 
 ## Read Macros
 
-The following code example shows how to read VBA Macros from the document.
+The following code example demonstrates how to read VBA Macros from the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ReadVbaMacros.java" >}}
 

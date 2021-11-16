@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on EPUB Export
 type: docs
 weight: 30
@@ -9,7 +9,7 @@ url: /net/document-features-supported-on-epub-export/
 
 Note that not all Microsoft Word document features are available in HTML format and some features may be lost or converted to an image.
 
-If you are looking for a way to easily store documents in a database then it is suggested to use the WordML or FlatOPC format. Both formats are fully XML-based making them easy to store into a database but they are native word formats which enables you to preserve full fidelity of Microsoft Word features such as WordArt, Textboxex etc.
+If you are looking for a way to easily store documents in a database then it is suggested to use the WordML or FlatOPC format. Both formats are fully XML-based making them easy to store into a database but they are native word formats which allows you to preserve full fidelity of Microsoft Word features such as WordArt, Textboxex etc.
 
 Aspose.Words saves any loaded document that to valid HTML 4.0 or XHTML 1.0 specifications. EPUB documents are exported as EPUB 2.0. There are plans to support HTML 5 and EPUB 3.0 specification as well. There are also numerous save options available to control a document is exported to HTML. Here are some of the examples of what you can do:
 

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Convert a Document"
 type: docs
 url: /net/convert-a-document/
 weight: 30
 aliases: [/net/converting-a-document/]
-description: "Aspose.Words for .NET enables you to easily convert documents from one format to another. You can work with all the most popular formats like Microsoft Word formats such as DOCX or DOC, OpenDocument formats such as ODT or  OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others."
+description: "Aspose.Words for .NET allows you to easily convert documents from one format to another. You can work with all the most popular formats like Microsoft Word formats such as DOCX or DOC, OpenDocument formats such as ODT or  OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others."
 keywords: "convert a document c#, convert documents from one format to another c#, convert to markdown c#, convert pdf to docx C#, convert docx to pdf C#, convert doc to pdf C#, convert a document Aspose for .NET"
 ---
 
@@ -27,7 +27,7 @@ You can try the conversion functionality by using our [Free online converter](ht
 
 ## Popular Conversions {#popular-conversions}
 
-The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are many hundred of them due to the large number of [formats supported by Aspose.Words for .NET](/words/net/supported-document-formats/).
+The current section describes popular conversions, as well as ideas for working with some combinations of formats when loading and saving. Using the examples of this section, you can understand that the conversion process itself is quite universal, and there is no point in describing all the possible options, since there are several hundred of them due to the large number of [formats supported by Aspose.Words for .NET](/words/net/supported-document-formats/).
 
 {{% alert color="primary" %}}
 
@@ -49,7 +49,7 @@ Please note that below are the most popular conversion combinations, and not eve
 				<li><a href="/words/net/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
 				<li>and others</li>
 			</ul>
-    <h2>Convert Web Formats to PDF</h2>
+    <h2>Convert Web to PDF</h2>
 			<ul>
 				<li>Convert Markdown to PDF</li>
 				<li>Convert HTML to PDF</li>

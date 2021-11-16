@@ -109,7 +109,7 @@ There are 83 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-9845 |Altchunk contents are not preserved during open/save Docx |Feature |
 |WORDSNET-9941 |Add feature to import Building Blocks from one document to another |Feature |
 |WORDSNET-9942 |Background of DrawingML is not preserved in PDF |Feature |
-|WORDSNET-9688 |EpubCheck throws numerous errors upon validating Aspose.Words generated Epub |Regression |
+|WORDSNET-9688 |EpubCheck throws many errors upon validating Aspose.Words generated Epub |Regression |
 |WORDSNET-9884 |Tables are not handled properly by Aspose 14.2.0 |Regression |
 |WORDSNET-9913 |Importing one document to another using ImportFormatMode.UseDestinationStyles causes issue with list style |Regression |
 |WORDSNET-9960 |Aspose.Words.FileCorruptedException occurs when loading a DOTX |Regression |

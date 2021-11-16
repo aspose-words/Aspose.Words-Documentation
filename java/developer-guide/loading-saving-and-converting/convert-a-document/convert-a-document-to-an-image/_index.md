@@ -1,7 +1,7 @@
 ﻿---
 title: Convert a Document to an Image
 type: docs
-description: "Aspose.Words for Java enables you to convert a document to any supported image format, such as JPEG or PNG, to create a document preview or create a document scan to send an invoice."
+description: "Aspose.Words for Java allows you to convert a document to any supported image format, such as JPEG or PNG, to create a document preview or create a document scan to send an invoice."
 weight: 35
 url: /java/convert-a-document-to-an-image/
 ---
@@ -12,7 +12,7 @@ Sometimes it is required to get an image instead of documents in other formats, 
 
 As with all conversion examples already described, you need to create a new document or load an existing one in any supported format, make the necessary changes, and save it in any available image format, for example, JPEG, PNG, or BMP.
 
-The following code example demonstrates how to convert DOCX to JPEG:
+The following code example shows how to convert DOCX to JPEG:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToImage-ConvertDocxToJpeg.java" >}}
 

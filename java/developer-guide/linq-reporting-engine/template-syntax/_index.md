@@ -1,11 +1,11 @@
----
+﻿---
 title: Template Syntax
 type: docs
 weight: 30
 url: /java/template-syntax/
 ---
 
-A typical template for LINQ Reporting Engine is composed of common document contents and tags that describe the template’s structure and data bindings. You can form these tags using just running text that can occupy many paragraphs to be more descriptive. 
+A typical template for LINQ Reporting Engine is composed of common document contents and tags that describe the template’s structure and data bindings. You can form these tags using just running text that can occupy multiple paragraphs to be more descriptive. 
 
 A tag body must meet the following requirements:
 

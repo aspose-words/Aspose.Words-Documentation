@@ -6,7 +6,7 @@ weight: 20
 url: /cpp/rendering/
 ---
 
-We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about the rendering of a document into pages. The following diagram demonstrates what rendering is in Aspose.Words.
+We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about the rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.
 
 ![rendering-aspose-words-cpp](rendering_1.png)
 
@@ -19,7 +19,7 @@ The rendering features of Aspose.Words enable you to perform the following:
 - Render a [Shape](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.shape) object separately from the document to any image format or to a Graphics object.
 - Display any page of a document in a Windows Form.
 
-## Flow-layout or Fixed-layout Formats {#flow-layout-or-fixed-layout-document-formats}
+## Flow-layout or Fixed-layout Document Formats {#flow-layout-or-fixed-layout-document-formats}
 
 Most of the document formats that can be loaded into Aspose.Words are known as “flow-layout” formats. Flow-layout formats include DOC, OOXML, RTF, ODT, and HTML. Documents in these formats consist of various elements such as paragraphs, tables, headers, footers, images, fields, and their formatting, for example, bold, italic, font, size. However, the flow-layout formats do not contain information about the position where each particular paragraph or character is displayed on a page.
 

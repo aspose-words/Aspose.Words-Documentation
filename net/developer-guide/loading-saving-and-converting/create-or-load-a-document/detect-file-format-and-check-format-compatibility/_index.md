@@ -28,7 +28,7 @@ We can check the format compatibility of all files in the selected folder and so
 
 Since we are dealing with contents in a folder, the first thing we need to do is get a collection of all the files in this folder using the **GetFiles** method of the Directory class (from the System.IO namespace).
 
-The following code example demonstrates how to get a list of all the files in the folder:
+The following code example shows how to get a list of all the files in the folder:
 
 {{< gist "aspose-words-gists" "3b6a8e49d800948f7d6ef7975f233fb3" "get-files-in-folder.cs" >}}
 

@@ -189,7 +189,7 @@ shape->set_CustomNodeId(100);
 
 Related issue: WORDSNET-21114
 
-Added a new public options that enables to set table style cell vertical alignment.
+Added a new public options that allows to set table style cell vertical alignment.
 
 {{< highlight cpp >}}
 /// <summary>

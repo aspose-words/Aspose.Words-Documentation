@@ -254,7 +254,7 @@ Assert.AreEqual("1)", fields[5].DisplayResult);
 
 Related issue: WORDSNET-16739
 
-Added new StreamFontSource class which enables loading fonts from the stream:
+Added new StreamFontSource class which allows loading fonts from the stream:
 
 
 
@@ -266,11 +266,11 @@ Added new StreamFontSource class which enables loading fonts from the stream:
     /// <para>In order to use the stream font source you should create a derived class from the <see cref="StreamFontSource"/>
     /// and provide implementation of the <see cref="OpenFontDataStream"/> method.</para>
     /// 
-    /// <para><see cref="OpenFontDataStream"/> method could be called numerous times. For the first time it will be called 
+    /// <para><see cref="OpenFontDataStream"/> method could be called several times. For the first time it will be called 
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
-    /// <para><see cref="StreamFontSource"/> may be useful because it enables to load the font data only when it is required
+    /// <para><see cref="StreamFontSource"/> may be useful because it allows to load the font data only when it is required
     /// and not to store it in the memory for the <see cref="FontSettings"/> lifetime.</para>
     /// </remarks>
     public abstract class StreamFontSource : FontSourceBase, IFontData

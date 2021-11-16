@@ -42,7 +42,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-10157 |Setting Table.AllowAutoFit value as false changes the cell's width |Bug |
 |WORDSNET-10222 |Table's border is lost after re-saving the Doc file |Bug |
 |WORDSNET-10237 |Table in the document body is split into 2 parts in Pdf |Bug |
-|WORDSNET-10255 |Saving a DOC a few times corrupts Table layout |Bug |
+|WORDSNET-10255 |Saving a DOC multiple times corrupts Table layout |Bug |
 |WORDSNET-10261 |Multilingual text rendering issue in Fixed file format (Tiff/Pdf) |Bug |
 |WORDSNET-10273 |A Shape is not visible in generated PDF |Bug |
 |WORDSNET-10300 |Contents move to next page after conversion from Doc to PDF |Bug |
@@ -65,7 +65,7 @@ There are 114 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-10462 |Contents of an [iframe]() element get visible after HTML import |Bug |
 |WORDSNET-10463 |Table border becomes visible during open/save a DOCX |Bug |
 |WORDSNET-10464 |Top margin issue after conversion from Docx to Pdf |Bug |
-|WORDSNET-10475 |A Word is rendered in numerous SPAN tags in HtmlFixed |Bug |
+|WORDSNET-10475 |A Word is rendered in multiple SPAN tags in HtmlFixed |Bug |
 |WORDSNET-10498 |HtmlFixed export doesn't consider Font.Spacing during exporting |Bug |
 |WORDSNET-4651 |Font becomes bold in a cell in ODT output |Bug |
 |WORDSNET-5296 |Table looks incorrect in MS Words after open/save ODT document using AW |Bug |

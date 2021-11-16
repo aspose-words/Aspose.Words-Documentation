@@ -37,7 +37,7 @@ The picture below shows the created template:
 
 ## Customize a Mail Merge Template Properties
 
-Aspose.Words enables you to customize your template through several properties. Template customization will be described below through an example of customizing some properties of images and text.
+Aspose.Words allows you to customize your template through many properties. Template customization will be described below through an example of customizing some properties of images and text.
 
 ### Customize Image Properties
 
@@ -51,7 +51,7 @@ The following code example shows how to specify the image file name and image si
 
 You can use the [Text](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.field_merging_args#get_text_const) property to insert text into the document for the current merge field. Also, you can change the formatting of texts and paragraphs inside your template using [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.font) and [ParagraphFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph_format) classes. You can handle the text to be inserted before or after the merge field by using the [TextBefore](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_merge_field#get_textbefore) and [TextAfter](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_merge_field#get_textafter) properties that are included in the [FieldMergeField](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_merge_field) class.
 
-The following code example demonstrates how to insert Check Boxes or HTML during mail merge operation:
+The following code example shows how to insert Check Boxes or HTML during mail merge operation:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeFormFields-MailMergeFormFields.cpp" >}}
 

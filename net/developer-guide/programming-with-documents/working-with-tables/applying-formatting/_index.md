@@ -25,7 +25,7 @@ Below example shows how to apply an outline border to a table. You can download 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyOutlineBorder.cs" >}}
 
-Below example demonstrates how to build a table with all borders enabled (grid). You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx)
+Below example shows how to build a table with all borders enabled (grid). You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx)
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-BuildTableWithBordersEnabled.cs" >}}
 
@@ -58,11 +58,11 @@ Formatting on the cell level is controlled using the [CellFormat](https://apiref
 ![auto-formatting-cell-level-aspose-words-net](applying-formatting_5.png)
 
 
-Below example demonstrates how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+Below example shows how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyCellFormatting.cs" >}}
 
-The following code example demonstrates how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
+The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-SetCellPadding.cs" >}}
 
@@ -99,11 +99,11 @@ The following code example shows how to format a table and cell with different b
 
 ## Specifying Table and Cell Widths
 
-A table in a Microsoft word document provides multiple different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information which will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
+A table in a Microsoft word document provides several different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information which will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
 
 ### Different Widths on Table
 
-Table elements present a few different properties that can affect how the widths of the overall table, as well as individual cells, are calculated. These are each explained in detail in this article.
+Table elements present several different properties that can affect how the widths of the overall table, as well as individual cells, are calculated. These are each explained in detail in this article.
 
 - Preferred width on the table.
 - Preferred width on individual cells.
@@ -114,7 +114,7 @@ Table elements present a few different properties that can affect how the widths
 
 All of the properties and techniques that are described in this article all link back to how tables work in Microsoft Word. Therefore in most cases, if you are building your table programmatically but are finding it hard to create the desired table you can instead try visually creating it in Microsoft Word first and then simply copy the formatting values to your application. 
 
-The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on multiple things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
+The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on many things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
 
 {{% /alert %}} 
 
@@ -124,7 +124,7 @@ The desired width of a table or individual cells is defined through the preferre
 
 ![formatting-table-properties-aspose-words-net](applying-formatting_8.png)
 
-The preferred width property can be expressed in one of multiple different ways:
+The preferred width property can be expressed in one of several different ways:
 
 |Width Type|Behavior|
 | :- | :- |
@@ -150,7 +150,7 @@ The appropriate preferred width type and value is set by using the methods of th
 
 #### Specifying a Preferred Width on a Table in Aspose.Words
 
-Using the [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth) property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). The code example given below demonstrates how to set a table to auto fit to 50% of the page width.
+Using the [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth) property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). The code example given below shows how to set a table to auto fit to 50% of the page width.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AutoFitToPageWidth.cs" >}}
 
@@ -158,13 +158,13 @@ Before you can use preferred widths on a table you must make sure that the table
 
 #### Specifying Preferred Width on a Cell
 
-Using the [CellFormat.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth) property on a given cell will adjust its preferred width. Below example demonstrates how to set the different preferred width settings.
+Using the [CellFormat.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth) property on a given cell will adjust its preferred width. Below example shows how to set the different preferred width settings.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-SetPreferredWidthSettings.cs" >}}
 
 #### Finding Preferred Width Type and Value of a Table or Cell
 
-You can use [PreferredWidth.Type](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/properties/type) and [PreferredWidth.Value](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/properties/value) properties to find the preferred width details of the desired table or cell. Below example demonstrates how to Retrieves the preferred width type of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+You can use [PreferredWidth.Type](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/properties/type) and [PreferredWidth.Value](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/properties/value) properties to find the preferred width details of the desired table or cell. Below example shows how to Retrieves the preferred width type of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-RetrievePreferredWidthType.cs" >}}
 
@@ -213,7 +213,7 @@ Currently, you cannot create new table styles. You can only apply in-built table
 
 ### Applying a Table Style
 
-In Aspose.Words you can apply a table style by using any of the Table.Style, Table.StyleIdentifier and Table.StyleName properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the [TableStyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/tablestyleoptions) enumeration and are applied by using [Table.StyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions) property. The [TableStyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/tablestyleoptions) enumeration enables a bitwise combination of these features. The following code example shows how to build a new table with a table style applied.
+In Aspose.Words you can apply a table style by using any of the Table.Style, Table.StyleIdentifier and Table.StyleName properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the [TableStyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/tablestyleoptions) enumeration and are applied by using [Table.StyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions) property. The [TableStyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/tablestyleoptions) enumeration allows a bitwise combination of these features. The following code example shows how to build a new table with a table style applied.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyStyle-BuildTableWithStyle.cs" >}}
 

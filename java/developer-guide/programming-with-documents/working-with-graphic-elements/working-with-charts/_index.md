@@ -14,7 +14,7 @@ The new insertChart method was added into the [DocumentBuilder](https://apirefe
 
 ### How to insert Column chart
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertColumnChart1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart1.java" >}}
 
 The code produces the following result:
 
@@ -22,7 +22,7 @@ The code produces the following result:
 | :- |
 There are four different overloads for the series Add method, which were exposed to cover all possible variants of data sources for all chart types:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertColumnChart2.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
 The code produces the following result:
 
@@ -31,7 +31,7 @@ The code produces the following result:
 
 ### How to insert Scatter chart
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertScatterChart.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
 The code produces the following result:
 
@@ -40,7 +40,7 @@ The code produces the following result:
 
 ### How to insert Area chart
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertAreaChart.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
 The code produces the following result:
 
@@ -49,7 +49,7 @@ The code produces the following result:
 
 ### How to insert Bubble chart
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-InsertBubbleChart.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertBubbleChart.java" >}}
 
 The code produces the following result:
 
@@ -60,7 +60,7 @@ The code produces the following result:
 
 Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.Chart](http://www.aspose.com/api/java/words/com.aspose.words/classes/Shape/properties/getChart\(\)/) property contains all chart related options available through the public API. For example, let's change Chart title or legend behavior:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-ChangeChartAppearanceUsingShapeChartObject.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
 The code generates the followings results:
 
@@ -70,7 +70,7 @@ The code generates the followings results:
 
 Let’s look into [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartSeries) collection. All chart series are available through the chart.getSeries()collection, which is Iterable:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
 You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call the chart.getSeries().clear()method.
 
@@ -78,7 +78,7 @@ You can remove series one by one or clear all of them as well as add a new one i
 
 Here is how to work with a particular series.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-WorkingWithSingleChartSeries.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-workingWithSingleChartSeries.java" >}}
 
 Please see the result below:
 
@@ -86,7 +86,7 @@ Please see the result below:
 
 All single [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartSeries) have default [ChartDataPoint](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartDataPoint) options, please try using the following code to change them:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-ChangeDefaultChartDataPointOptions.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
 ![line-chart-aspose-words-java3](working-with-charts_3.png)
 
@@ -94,7 +94,7 @@ All single [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/c
 
 Using ChartDataPoint you are able to customize the formatting of a single data point of the chart series.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
 Please see the result below:
 
@@ -122,25 +122,25 @@ Please see the result below:
 
 ## How to Format Number of Chart Data Label
 
-Using the NumberFormat property of ChartDataLabel,  you can specify the number formatting of a single data label of the chart. The below code example demonstrates how to format a number of the data label. 
+Using the NumberFormat property of ChartDataLabel,  you can specify the number formatting of a single data label of the chart. The below code example shows how to format a number of the data label. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use ChartAxis, AxisDisplayUnit, and AxisScaling classes. The following code example demonstrates how to define X and Y-axis properties.
+If you want to work with chart axis, scaling, and display units for the value axis, please use ChartAxis, AxisDisplayUnit, and AxisScaling classes. The following code example shows how to define X and Y-axis properties.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
 ### How to Set DateTime Value of Axis
 
-The following code example demonstrates how to set date/time values to axis properties.
+The following code example shows how to set date/time values to axis properties.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
 ### How to Format Number Value of Axis
 
-The following code example demonstrates how to change the format of numbers on the value axis.
+The following code example shows how to change the format of numbers on the value axis.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
@@ -158,7 +158,7 @@ The following code example shows how to set the interval unit between labels o
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example demonstrates how to hide the Y-axis of the chart. 
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example shows how to hide the Y-axis of the chart. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
@@ -178,7 +178,7 @@ MS Word aligns Chart Label to the center by default.
 
 Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the ChartFormat type in the ChartSeries, ChartDataPoint, and ChartMarker classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
 
-The following code example demonstrates how to set series color:
+The following code example shows how to set series color:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -208,7 +208,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
-The following code example demonstrates how to set line color and weight:
+The following code example shows how to set line color and weight:
 
 {{< highlight csharp >}}
 Document doc = new Document();

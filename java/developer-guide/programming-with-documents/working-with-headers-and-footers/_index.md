@@ -5,7 +5,7 @@ weight: 40
 url: /java/working-with-headers-and-footers/
 ---
 
-## Create Headers and Footers using DocumentBuilder {#create-headers-or-footers-using-documentbuilder}
+## How to Create Headers or Footers using DocumentBuilder {#create-headers-or-footers-using-documentbuilder}
 
 {{% alert color="primary" %}} 
 
@@ -32,7 +32,7 @@ The code example given below shows how to create headers footers using DocumentB
 
 Each section in a document can have up to three headers and up to three footers (for first, even and odd pages). If you want to delete all footers in a document you need to loop through all sections and remove every footer node.
 
-## Remove Footers but Leave Headers {#remove-footers-and-leave-headers-intact}
+## How to Remove Footers and Leave Headers Intact {#remove-footers-and-leave-headers-intact}
 
 The code example given below deletes all footers from all sections, but leaves headers intact. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/HeadersAndFooters/HeaderFooter.RemoveFooters.doc).
 

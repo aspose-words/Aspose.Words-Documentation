@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Builder Overview
 type: docs
 description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with Java."
@@ -6,9 +6,9 @@ weight: 15
 url: /java/document-builder-overview/
 ---
 
-[DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) and allows you to build dynamic documents from scratch or add new elements to an existing one.
+[DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) is a powerful class that associates with [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) and enables you to build dynamic documents from scratch or add new elements to an existing one.
 
-**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It enables you to specify fonts, paragraph or section formatting, and perform other operations.
+**DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
 
 ## Document Builder or Aspose.Words DOM
 
@@ -26,7 +26,7 @@ The following code example shows how to navigate to a bookmark:
 
 ## Document Building and Modifying
 
-Aspose.Words API provides a few classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/java/com.aspose.words/Font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
+Aspose.Words API provides several classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://apireference.aspose.com/words/java/com.aspose.words/Font) class represents character formatting properties, the [ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/ParagraphFormat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
 
 You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)), [InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertHtml(java.lang.String)), and similar methods.
 
@@ -38,7 +38,7 @@ To start, you need to create a **DocumentBuilder** and associate it with a **Doc
 
 To insert a text, pass the string of text you need to insert into the document to the **Write** method.
 
-The following code example demonstrates how to create a simple document using a document builder.
+The following code example shows how to create a simple document using a document builder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-quickstart-HelloWorld-CreateNewDocument.java" >}}
 
@@ -46,7 +46,7 @@ The following code example demonstrates how to create a simple document using a 
 
 The [Font](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#Font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://apireference.aspose.com/words/java/com.aspose.words/font#Bold), [Font.Italic](https://apireference.aspose.com/words/java/com.aspose.words/font#Italic), and [Font.Underline](https://apireference.aspose.com/words/java/com.aspose.words/font#Underline) boolean properties.
 
-The following code example demonstrates how to insert a formatted text using **DocumentBuilder**:
+The following code example shows how to insert a formatted text using **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 

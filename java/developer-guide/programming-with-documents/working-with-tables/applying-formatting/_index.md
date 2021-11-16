@@ -27,11 +27,11 @@ To apply formatting to a table you can use the properties available on the corre
 
 The following code example shows how to apply an outline border to a table.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-ApplyOutlineBorderToATable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-applyOutlineBorderToATable.java" >}}
 
 The following code example shows how to build a table with all borders enabled (grid).
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-BuildATableWithAllBordersEnabled.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-buildATableWithAllBordersEnabled.java" >}}
 
 Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
 
@@ -41,9 +41,9 @@ Formatting on the row level can be controlled using the [RowFormat](https://apir
 
 ![apply-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell_3.png)
 
-The following code example demonstrates how to modify the formatting of a table row.
+The following code example shows how to modify the formatting of a table row.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheRowLevel-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheRowLevel-ApplyFormattingOnTheRowLevel.java" >}}
 
 ## Applying Formatting on the Cell Level
 
@@ -53,13 +53,13 @@ Formatting on the cell level is controlled using the [CellFormat](https://apiref
 
 ![apply-auto-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell_5.png)
 
-The following code example demonstrates how to modify the formatting of a table cell.
+The following code example shows how to modify the formatting of a table cell.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheCellLevel-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheCellLevel-ApplyFormattingOnTheCellLevel.java" >}}
 
-The following code example demonstrates how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
+The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SetCellPadding.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyCellPadding-ApplyCellPadding.java" >}}
 
 ## Specifying Row Heights
 
@@ -76,9 +76,9 @@ The simplest way to set row height is by using DocumentBuilder. Using the approp
 
 {{% /alert %}} 
 
-The following code example demonstrates how to create a table that contains a single cell and apply row formatting.
+The following code example shows how to create a table that contains a single cell and apply row formatting.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyRowHeights-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyRowHeights-SpecifyRowHeights.java" >}}
 
 ## Applying Borders and Shading
 
@@ -90,9 +90,9 @@ Borders and shading can be applied either table wide using [Table.setBorder(int,
 ![apply-borders-shading-aspose-words-java-2](applying-formatting-to-table-row-and-cell_7.png)
 
 
-The following code example demonstrates how to format a table and cell with different borders and shadings.
+The following code example shows how to format a table and cell with different borders and shadings.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyBordersAndShading-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyBordersAndShading-ApplyBordersAndShading.java" >}}
 
 ## Get Distance between Table and Surrounding Text
 
@@ -104,7 +104,7 @@ The following code example shows how to get the distance between the table and i
 
 ### How to Get the Table's Alignment
 
-If the table's text wrapping is *Around*, you can get the table's horizontal and vertical alignment using Table.getRelativeHorizontalAlignment() and Table.getRelativeVerticalAlignment() properties. In other cases, you can get a table's inline alignment using Table.getAlignment() property. Below example demonstrates how to get the table's alignment.
+If the table's text wrapping is *Around*, you can get the table's horizontal and vertical alignment using Table.getRelativeHorizontalAlignment() and Table.getRelativeVerticalAlignment() properties. In other cases, you can get a table's inline alignment using Table.getAlignment() property. Below example shows how to get the table's alignment.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetTablePosition.java" >}}
 
@@ -123,7 +123,7 @@ Aspose.Words API provides the following properties to set the position of the fl
 - [RelativeVerticalAlignment](https://apireference.aspose.com/words/java/com.aspose.words/table#RelativeVerticalAlignment)
 - [AbsoluteVerticalDistance](https://apireference.aspose.com/words/java/com.aspose.words/table#AbsoluteVerticalDistance).
 
-The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example shows how to set the position of the floating table. 
+The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-SetFloatingTablePosition.java" >}}
 
@@ -131,7 +131,7 @@ The alignment and distance horizontally and vertically are combined properties a
 
 ## Working with Alternative Text of Table
 
-The title and description of the table provides alternative text-based representations of the information contained in the table. MS Word enables setting this information (*Right-click the table, click Table Properties, click the Alt Text tab, and then set the title and description of the table*). With Aspose.Words you can achieve this by using Table.Title and Table.Description properties. These properties are meaningful for ISO/IEC 29500 compliant DOCX documents. When saved to pre-ISO/IEC 29500 formats, these properties are ignored. The following code example demonstrates how to set the table's title and description properties.
+The title and description of the table provides alternative text-based representations of the information contained in the table. MS Word allows setting this information (*Right-click the table, click Table Properties, click the Alt Text tab, and then set the title and description of the table*). With Aspose.Words you can achieve this by using Table.Title and Table.Description properties. These properties are meaningful for ISO/IEC 29500 compliant DOCX documents. When saved to pre-ISO/IEC 29500 formats, these properties are ignored. The following code example shows how to set the table's title and description properties.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-SetTableTitleandDescription.java" >}}
 

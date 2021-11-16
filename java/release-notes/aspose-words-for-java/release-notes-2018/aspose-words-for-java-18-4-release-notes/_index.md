@@ -38,7 +38,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 - Improved positioning of wrapped lines in 2013 compatibility mode, and lines with large inline images
 - Fixed issue with character compressing when Kinsoku rule is ignored by document
 - Fixed incorrect glyph selection for Zero Width No-Break Space when font does not have this glyph
-- Fixed comment range highlighting issue when comment spans many pages inside a repeated header row of a table
+- Fixed comment range highlighting issue when comment spans multiple pages inside a repeated header row of a table
 - Fixed rendering of text in merged cells when row contains hidemark attribute on the cell break and all remaining cells are merged
 
 ## Full List of Issues Covering all Changes in this Release

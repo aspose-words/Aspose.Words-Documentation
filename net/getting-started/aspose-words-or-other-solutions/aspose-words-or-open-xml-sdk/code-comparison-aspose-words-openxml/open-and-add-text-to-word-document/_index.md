@@ -1,6 +1,6 @@
 ﻿---
 title: Open and Modify a Document
-description: "Aspose.Words for .NET enables you to open and modiffy an existing Word document easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET allows you to open and modiffy an existing Word document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 40
 url: /net/open-and-add-text-to-word-document/

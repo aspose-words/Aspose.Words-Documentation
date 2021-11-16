@@ -1,4 +1,4 @@
----
+﻿---
 title: Create New Document
 type: docs
 weight: 50
@@ -24,7 +24,7 @@ builder.writeln("Aspose Sample Content for Word file.");
 
 // Save the document in DOCX format. The format to save as is inferred from the extension of the file name.
 
-// Aspose.Words supports saving any document in a few more formats.
+// Aspose.Words supports saving any document in many more formats.
 doc.save("Aspose_NewDoc.docx",SaveFormat.DOCX);
 {{< /highlight >}}
 

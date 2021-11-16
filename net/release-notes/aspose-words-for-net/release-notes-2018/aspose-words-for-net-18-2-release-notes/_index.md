@@ -110,7 +110,7 @@ There are 95 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-12538|Table is not rendered correctly in the output PDF|Enhancement|
 |WORDSNET-14982|Consider removing script suffix from font name on RTF import|Enhancement|
 |WORDSNET-15099|Docx to Pdf conversion issue with SVG rendering|Enhancement|
-|WORDSNET-15839|Too several styles in resultant merged document|Enhancement|
+|WORDSNET-15839|Too many styles in resultant merged document|Enhancement|
 |WORDSNET-16284|DOC to PDF Number of Pages Increased|Enhancement|
 |WORDSNET-16295|DOC to PDF Issue with Art Fonts and Image Shading|Enhancement|
 |WORDSNET-16315|FontSettings.DefaultFontName priority over FontInfo|Enhancement|
@@ -161,7 +161,7 @@ The following public method has been added into the **DocumentBuilder** class:
 /// Inserts style separator into the document.
 /// </summary>
 /// <remarks>
-/// This method enables to apply different paragraph styles to two different parts of a text line.
+/// This method allows to apply different paragraph styles to two different parts of a text line.
 /// </remarks>
 public void InsertStyleSeparator()
 {{< /highlight >}}

@@ -28,7 +28,7 @@ Specifying a folder via **ImagesFolder** is also useful if you save a document t
 
 If the specified **ImagesFolder** does not exist, it will be created automatically.
 
-The following code example demonstrates how to specify a folder for images when saving a document to a stream:
+The following code example shows how to specify a folder for images when saving a document to a stream:
 
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SetImagesFolder.cs" >}}
@@ -54,7 +54,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 * Tables are represented with the Table class
 * Links are represented as the FieldHyperlink class
 
-The following example demonstrates how to create a document with some styles and save it to Markdown:
+The following example shows how to create a document with some styles and save it to Markdown:
 
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.cs" >}}

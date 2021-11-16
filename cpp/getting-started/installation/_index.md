@@ -35,6 +35,11 @@ You can also install or update Aspose.Words for .NET APIs using the *Package Man
 
 In *Package Manager Console*, you can also use the `Update-Package Aspose.Words.Cpp` command to check for updates to the Aspose.Words package and install them if present.
 
+## Install or Update Aspose.Words using vcpkg
+
+[vcpkg](https://vcpkg.io/en/index.html) is a free C/C++ package manager for acquiring and managing libraries.
+Please follow [Configure Aspose.Words for C++ with vcpkg](/words/cpp/configure-aspose-words-for-cpp-with-vcpkg/)
+
 ## Install Aspose.Words for C++ Manually
 
 You can download [Aspose.Words for C++ from NuGet Gallery](https://www.nuget.org/packages/Aspose.Words.Cpp/) by clicking the "Manual download" link in the Info section. Offline API Documentation can also be found in the downloaded ZIP package.

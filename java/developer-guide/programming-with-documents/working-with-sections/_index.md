@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Sections
 type: docs
 weight: 30
@@ -50,7 +50,7 @@ It is possible to change the culture for the current thread that will cause chan
 
 {{% /alert %}} 
 
-The code sample below demonstrates how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Document/Document.doc).
+The code sample below shows how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Document/Document.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-SectionsAccessByIndex-SectionsAccessByIndex.java" >}}
 
@@ -106,15 +106,15 @@ Sometimes it is necessary to avoid section breaks in the destination document. I
 
 ## Inserting a Break
 
-If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. The code example given below demonstrates how to insert page breaks into a document.
+If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.InsertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. The code example given below shows how to insert page breaks into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.java" >}}
 
 ## How to Remove Page and Section Breaks
 
-A document often consists of many sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
+A document often consists of several sections, for example section breaks to provide different page settings for different parts of the document. Likewise, a document can have explicit page breaks to separate content on different pages.
 
-In most cases it is convenient to have a structured document, but sometimes many sections and user-defined page breaks are redundant and it may become necessary to remove them. For example after appending several documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
+In most cases it is convenient to have a structured document, but sometimes multiple sections and user-defined page breaks are redundant and it may become necessary to remove them. For example after appending multiple documents together you may want to remove the separate section and combine them into one. You may also want to remove redundant page breaks after mail merge.
 
 An explicit page break can be caused by many different things in a document:
 
@@ -122,7 +122,7 @@ An explicit page break can be caused by many different things in a document:
 - A Section which is set to begin on a new page (by the section’s PageSetup.SectionStart to SectionStart.NewPage).
 - A Paragraph with ParagraphFormat.PageBreakBefore set. This forces a page break before the paragraph.
 
-This sample demonstrates how to remove page and section breaks from the document using Aspose.Words.
+This sample shows how to remove page and section breaks from the document using Aspose.Words.
 
 ### Solution
 
@@ -141,7 +141,7 @@ It contains one-page break and one section break. The section break separates th
 
 ### Removing Page Breaks
 
-Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://apireference.aspose.com/words/java/com.aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even a few page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
+Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://apireference.aspose.com/words/java/com.aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even multiple page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
 
 The code example given below removes all page breaks from the document.
 

@@ -19,7 +19,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 - Added an ability to work with Framesets.
 - Introduced a new overload of DocumentBuilder.InsertHtml and a new enumeration HtmlInsertOptions.
 - Provided new API for working with Fill patterns.
-- Supported many exact date-time parse formats while loading JSON for LINQ Reporting Engine.
+- Supported several exact date-time parse formats while loading JSON for LINQ Reporting Engine.
 
 ## Full List of Issues Covering all Changes in this Release
 
@@ -99,7 +99,7 @@ There are 94 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-20402 | HTML export issues | Bug |
 | WORDSNET-22152 | Tab stop in a list item gets considerably wider after conversion to HTML | Bug |
 | WORDSNET-21796 | DOCX to PDF/A conversion and validation fails: Several cases with header   cells that are not tagged | Bug |
-| WORDSNET-21947 | DOCX to PDF/A conversion: accessibility validation fails: Bullet list   items are broken into many tags | Bug |
+| WORDSNET-21947 | DOCX to PDF/A conversion: accessibility validation fails: Bullet list   items are broken into several tags | Bug |
 | WORDSNET-14245 | Document.Compare generates incorrect format revisions | Bug |
 | WORDSNET-22297 | Extra Text becomes Visible in PDF | Bug |
 | WORDSNET-22191 | Problem with nested tables in RTF content | Bug |

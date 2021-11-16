@@ -1,12 +1,12 @@
 ﻿---
 title: FIPS Mode
-description: "Aspose.Words for Java uses many cryptography and hash algorithms when processing documents to comply with FIPS standards."
+description: "Aspose.Words for Java uses several cryptography and hash algorithms when processing documents to comply with FIPS standards."
 type: docs
 weight: 80
 url: /java/fips-mode/
 ---
 
-Aspose.Words uses multiple cryptography and hash algorithms when processing documents and this article describes how it is related to the FIPS standards.
+Aspose.Words uses several cryptography and hash algorithms when processing documents and this article describes how it is related to the FIPS standards.
 
 Federal Information Processing Standards (FIPS) are a set of openly published standards developed by the United States federal government to establish requirements for various purposes, such as ensuring computer security and interoperability.
 

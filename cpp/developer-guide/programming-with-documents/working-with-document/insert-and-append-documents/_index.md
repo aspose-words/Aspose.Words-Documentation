@@ -1,6 +1,6 @@
 ﻿---
 title: Insert and Append Documents
-description: "Aspose.Words for C++ enables you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
+description: "Aspose.Words for C++ allows you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
 type: docs
 aliases:
  - /cpp/join-and-appending-documents/
@@ -8,7 +8,7 @@ weight: 70
 url: /cpp/insert-and-append-documents/
 ---
 
-Sometimes it is required to combine many documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
+Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
 
 The insert operation allows you to insert the content of previously created documents into a new or existing one.
 
@@ -26,23 +26,23 @@ You can also use the [InsertDocument](https://apireference.aspose.com/words/cpp/
 
 The following subsections describe the options during which you can insert one document into another.
 
-### Insert a Document Within Find and Replace Operation {#insert-a-document-during-find-and-replace-operation}
+### Insert a Document During Find and Replace Operation {#insert-a-document-during-find-and-replace-operation}
 
 You can insert documents while performing find and replace operations. For example, a document can contain paragraphs with the text [INTRODUCTION] and [CONCLUSION]. But in the final document, you need to replace those paragraphs with the content obtained from another external document. To achieve that, you will need to create a handler for the replace event.
 
-The following code example demonstrates how to create a handler for the replacing event to use it later in the inserting process:
+The following code example shows how to create a handler for the replacing event to use it later in the inserting process:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtReplaceHandler.cpp" >}}
 
-The following code example demonstrates how insert content of one document into another during a find and replace operation:
+The following code example shows how insert content of one document into another during a find and replace operation:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtReplace.cpp" >}}
 
-### Insert a Document Within Mail Merge Operation {#insert-a-document-during-mail-merge-operation}
+### Insert a Document During Mail Merge Operation {#insert-a-document-during-mail-merge-operation}
 
 You can insert a document into a merge field during a mail merge operation. For example, a mail merge template can contain a merge field such as [Summary]. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
 
-The following code example demonstrates how to create a handler for the merging event to use it later in the inserting process:
+The following code example shows how to create a handler for the merging event to use it later in the inserting process:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtMailMergeHandler.cpp" >}}
 
@@ -60,7 +60,7 @@ The following coding example shows how to insert the contents of one document to
 
 {{% alert color="primary" %}} 
 
-Note that the bookmark should not enclose a few paragraphs or text that you want them to appear in your final resulting document.
+Note that the bookmark should not enclose multiple paragraphs or text that you want them to appear in your final resulting document.
 
 {{% /alert %}} 
 
@@ -78,11 +78,11 @@ The following code example shows how to append a document to the end of another 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Joining-Appending-KeepSourceFormatting-KeepSourceFormatting.cpp" >}}
 
-## Import and Add Nodes Manually {#import-and-insert-nodes-manually}
+## Import and Insert Nodes Manually {#import-and-insert-nodes-manually}
 
 Aspose.Words allows you to insert and append documents automatically without any previous importing requirements. However, if you need to insert or append a specific node of your document, such as a section or a paragraph, then first you need to import this node manually.
 
-When you need to insert or append one section or paragraph to another, you essentially need to import the nodes of the first document node tree into the second one using the [ImportNode](https://apireference.aspose.com/words/cpp/class/aspose.words.node_importer#importnode_node_bool) method. After importing your nodes, you need to use the [InsertAfter](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#insertafter_node_node)/[InsertBefore](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#insertbefore_node_node) method to insert a new node after/before the reference node. This enables you to customize the inserting process by importing nodes from a document and inserting it at given positions.
+When you need to insert or append one section or paragraph to another, you essentially need to import the nodes of the first document node tree into the second one using the [ImportNode](https://apireference.aspose.com/words/cpp/class/aspose.words.node_importer#importnode_node_bool) method. After importing your nodes, you need to use the [InsertAfter](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#insertafter_node_node)/[InsertBefore](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#insertbefore_node_node) method to insert a new node after/before the reference node. This allows you to customize the inserting process by importing nodes from a document and inserting it at given positions.
 
 You can also use the [AppendChild](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node#appendchild_node) method to add a new specified node to the end of the list of child nodes, for example, if you want to append content at the paragraph level instead of at the section level.
 
@@ -102,11 +102,11 @@ The import creates a new node that is a copy of the original node and suitable f
 
 Content is imported into the destination document section by section, which means that settings, such as page setup and headers or footers, are preserved during import. It is also useful to note that you can define formatting settings when you insert or append a document to specify how two documents are joined together.
 
-## Properties for Insert and Append Documents {#common-properties-for-insert-and-append-documents}
+## Common Properties for Insert and Append Documents {#common-properties-for-insert-and-append-documents}
 
 Both [InsertDocument](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertdocument_document_importformatmode) and [AppendDocument](https://apireference.codeporting.com/native/cs2cpp/namespace/system/#a6b77ccd8c49df28c153be0462cdfdf49) methods accept [ImportFormatMode](https://apireference.aspose.com/words/cpp/namespace/aspose.words#importformatmode) and [ImportFormatOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options) as input parameters. The **ImportFormatMode** allows you to control how document formatting is merged when you import content from one document into another by selecting different format modes such as [UseDestinationStyles](https://apireference.aspose.com/words/cpp/namespace/aspose.words#importformatmode), [KeepSourceFormatting](https://apireference.aspose.com/words/cpp/namespace/aspose.words#importformatmode), and [KeepDifferentStyles](https://apireference.aspose.com/words/cpp/namespace/aspose.words#importformatmode). The **ImportFormatOptions** allows you to select different import options such as [IgnoreHeaderFooter](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#get_ignoreheaderfooter_const), [IgnoreTextBoxes](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#get_ignoretextboxes_const), [KeepSourceNumbering](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#get_keepsourcenumbering_const), [MergePastedLists](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#get_mergepastedlists_const), and [SmartStyleBehavior](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#get_smartstylebehavior_const).
 
-Aspose.Words enables you to adjust the visualization of a resulting document when two documents are added together in an insert or append operation by using the [Section](https://apireference.aspose.com/words/cpp/class/aspose.words.section) and [PageSetup](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup) properties. The **PageSetup** property contains all the attributes of a section such as [SectionStart](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup#get_sectionstart), [RestartPageNumbering](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup#get_restartpagenumbering), [PageStartingNumber](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup#get_pagestartingnumber), [Orientation](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup#get_orientation), and others. The most common use case is to set the **SectionStart** property to define if the added content will appear on the same page or split into a new one.
+Aspose.Words allows you to adjust the visualization of a resulting document when two documents are added together in an insert or append operation by using the [Section](https://apireference.aspose.com/words/cpp/class/aspose.words.section) and [PageSetup](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup) properties. The **PageSetup** property contains all the attributes of a section such as [SectionStart](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup#get_sectionstart), [RestartPageNumbering](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup#get_restartpagenumbering), [PageStartingNumber](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup#get_pagestartingnumber), [Orientation](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup#get_orientation), and others. The most common use case is to set the **SectionStart** property to define if the added content will appear on the same page or split into a new one.
 
 {{% alert color="primary" %}} 
 
@@ -114,6 +114,6 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 
 {{% /alert %}} 
 
-The following code example demonstrates how to append one document to another while keeping the content from splitting across two pages:
+The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Joining-Appending-DifferentPageSetup-DifferentPageSetup.cpp" >}}

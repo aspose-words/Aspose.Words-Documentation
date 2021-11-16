@@ -11,7 +11,7 @@ New [InsertChart](https://apireference.aspose.com/words/net/aspose.words.documen
 
 ### How to Insert Column chart
 
-Below examples demonstrates how to insert column chart.
+Below examples shows how to insert column chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertSimpleColumnChart.cs" >}}
 
@@ -40,7 +40,7 @@ The code produces the following result:
 
 ### How to Insert Area Chart
 
-Below example demonstrates how to insert an area chart.
+Below example shows how to insert an area chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertAreaChart-InsertAreaChart.cs" >}}
 
@@ -131,31 +131,31 @@ Using ChartDataLabel.NumberFormat you are able to specify number formatting of a
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis), [AxisDisplayUnit](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit), and [AxisScaling](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling) classes. The code example given below demonstrates how to define X and Y-axis properties.
+If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis), [AxisDisplayUnit](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit), and [AxisScaling](https://apireference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling) classes. The code example given below shows how to define X and Y-axis properties.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cs" >}}
 
 ### How to Set Date Time Value of Axis
 
-The following code example demonstrates how to set date/time values to axis properties.
+The following code example shows how to set date/time values to axis properties.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.cs" >}}
 
 ### How to Format Number Value of Axis
 
-` `The following code example demonstrates how to change the format of numbers on the value axis.
+` `The following code example shows how to change the format of numbers on the value axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetNumberFormatForAxis.cs" >}}
 
 ### How to Set Bounds of Axis
 
-The AxisBound class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value. The following code example demonstrates how to set bounds of an axis.
+The AxisBound class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value. The following code example shows how to set bounds of an axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetboundsOfAxis.cs" >}}
 
 ### How to Set Interval Unit Between Labels
 
-The following code example demonstrates how to set the interval unit between labels on an axis.
+The following code example shows how to set the interval unit between labels on an axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.cs" >}}
 
@@ -181,7 +181,7 @@ MS Word aligns Chart Label to the centre by default.
 
 Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the ChartFormat type in the ChartSeries, ChartDataPoint, and ChartMarker classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
 
-The following code example demonstrates how to set series color:
+The following code example shows how to set series color:
 
 {{< highlight csharp >}}
 

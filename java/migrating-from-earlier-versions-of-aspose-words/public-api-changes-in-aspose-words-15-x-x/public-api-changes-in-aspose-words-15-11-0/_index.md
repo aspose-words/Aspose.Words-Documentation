@@ -99,7 +99,7 @@ WORDSNET-11871 is now resolved. The following overload method of InsertCheckBox 
 public FormField insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)
 {{< /highlight >}}
 
-It enables defining default value and checked state of inserting check box separately. The behavior of the following existing overload is changed.
+It allows defining default value and checked state of inserting check box separately. The behavior of the following existing overload is changed.
 
 **Java**
 

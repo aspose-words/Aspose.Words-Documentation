@@ -109,7 +109,7 @@ The missing features will be added in future releases.
 | WORDSNET-20402 | HTML export issues | Bug |
 | WORDSNET-22152 | Tab stop in a list item gets considerably wider after conversion to HTML | Bug |
 | WORDSNET-21796 | DOCX to PDF/A conversion and validation fails: Several cases with header   cells that are not tagged | Bug |
-| WORDSNET-21947 | DOCX to PDF/A conversion: accessibility validation fails: Bullet list   items are broken into multiple tags | Bug |
+| WORDSNET-21947 | DOCX to PDF/A conversion: accessibility validation fails: Bullet list   items are broken into several tags | Bug |
 | WORDSNET-14245 | Document.Compare generates incorrect format revisions | Bug |
 | WORDSNET-22297 | Extra Text becomes Visible in PDF | Bug |
 | WORDSNET-22191 | Problem with nested tables in RTF content | Bug |

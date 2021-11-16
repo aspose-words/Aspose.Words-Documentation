@@ -13,7 +13,7 @@ If you want to insert a footnote or an endnote in a Word document, please use Do
 
 ## How to Set Number of Footnote Layout Columns
 
-You can set the number of footnote layout columns using FootnoteOptions.Columns property. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page. The code example given below demonstrates how to set the number of columns for the footnote layout.
+You can set the number of footnote layout columns using FootnoteOptions.Columns property. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page. The code example given below shows how to set the number of columns for the footnote layout.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetFootNoteColumns.java" >}}
 

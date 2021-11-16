@@ -41,7 +41,7 @@ The following code example demonstrates how to create content control of the ty
 
 ## How to update Content Controls
 
-This section explains how to update the values of SDT or content control programmatically. The following code example shows how to set the current state of the checkbox. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Structured%20document%20tags.docx).
+This section explains how to update the values of SDT or content control programmatically. The following code example demonstrates how to set the current state of the checkbox. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Structured%20document%20tags.docx).
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-UpdateContentControls-SetCurrentStateOfCheckBox.cs" >}}
 
@@ -59,7 +59,7 @@ The [ControlChar](https://apireference.aspose.com/words/net/aspose.words/control
 
 ## Binding Content Control to Custom XML Parts
 
-You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example shows how to bind content control to custom XML parts. 
+You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example demonstrates how to bind content control to custom XML parts. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-BindSDTtoCustomXmlPart.cs" >}}
 
@@ -71,13 +71,13 @@ You can get the mapping of this structured document tag range to XML data in a c
 
 ## Clear Contents of a Content Control
 
-You can clear the contents of a content control with displaying a placeholder. StructuredDocumentTag.Clear method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in MS Word (except repeating sections, repeating section items, groups, check-boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared. The following code example shows how to clear the content of content control. 
+You can clear the contents of a content control with displaying a placeholder. StructuredDocumentTag.Clear method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in MS Word (except repeating sections, repeating section items, groups, check-boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared. The following code example demonstrates how to clear the content of content control. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-ClearContentsControl.cs" >}}
 
 ## Change Content Control Background and Border Colors
 
-The StructuredDocumentTag.Color property enables you to get or set the color of content control. The color affects content control in two situations:
+The StructuredDocumentTag.Color property allows you to get or set the color of content control. The color affects content control in two situations:
 
 1. MS Word highlights the background of the content control when the mouse moves over the content control. This helps to identify the content control. The color of highlighting is a bit "softer" than the *Color*. For example, MS Word highlights the background with the pink color, when *Color* is Red.
 2. When you interact (editing, picking etc) with the content control, the border of content control is colored with the *Color*.

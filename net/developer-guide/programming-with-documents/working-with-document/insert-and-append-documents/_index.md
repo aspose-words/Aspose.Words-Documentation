@@ -1,6 +1,6 @@
 ﻿---
 title: Insert and Append Documents
-description: "Aspose.Words for .NET enables you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
+description: "Aspose.Words for .NET allows you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
 type: docs
 weight: 70
 url: /net/insert-and-append-documents/
@@ -11,7 +11,7 @@ Sometimes it is required to combine several documents into one. You can do this 
 
 The insert operation allows you to insert the content of previously created documents into a new or existing one.
 
-In turn, the append feature enables you to add a document only at the end of another document.
+In turn, the append feature allows you to add a document only at the end of another document.
 
 This article explains how to insert or append a document to another one in different ways and describes the common properties that you can apply while inserting or appending documents.
 
@@ -33,11 +33,11 @@ The following code example shows how to create a handler for the replacing event
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtReplaceHandler.cs" >}}
 
-The following code example demonstrates how insert content of one document into another during a find and replace operation:
+The following code example shows how insert content of one document into another during a find and replace operation:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtReplace.cs" >}}
 
-### Insert a Document Within Mail Merge {#insert-a-document-during-mail-merge-operation}
+### Insert a Document During Mail Merge Operation {#insert-a-document-during-mail-merge-operation}
 
 You can insert a document into a merge field during a mail merge operation. For example, a mail merge template can contain a merge field such as [Summary]. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
 
@@ -53,13 +53,13 @@ The following code example shows how to insert a document into the merge field u
 
 You can import a text file into a document and insert it right after a bookmark that you have defined in the document. To do this, create a bookmarked paragraph where you want the document to be inserted.
 
-The following coding example demonstrates how to insert the contents of one document to a bookmark in another document:
+The following coding example shows how to insert the contents of one document to a bookmark in another document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtBookmark.cs" >}}
 
 {{% alert color="primary" %}} 
 
-Note that the bookmark should not enclose many paragraphs or text that you want them to appear in your final resulting document.
+Note that the bookmark should not enclose multiple paragraphs or text that you want them to appear in your final resulting document.
 
 {{% /alert %}} 
 
@@ -73,15 +73,15 @@ Note that [AppendChild](https://apireference.aspose.com/words/net/aspose.words/c
 
 {{% /alert %}} 
 
-The following code example demonstrates how to append a document to the end of another document:
+The following code example shows how to append a document to the end of another document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Join and append documents-KeepSourceFormatting.cs" >}}
 
-## Import and Add Nodes Manually {#import-and-insert-nodes-manually}
+## Import and Insert Nodes Manually {#import-and-insert-nodes-manually}
 
-Aspose.Words enables you to insert and append documents automatically without any previous importing requirements. However, if you need to insert or append a specific node of your document, such as a section or a paragraph, then first you need to import this node manually.
+Aspose.Words allows you to insert and append documents automatically without any previous importing requirements. However, if you need to insert or append a specific node of your document, such as a section or a paragraph, then first you need to import this node manually.
 
-When you need to insert or append one section or paragraph to another, you essentially need to import the nodes of the first document node tree into the second one using the [ImportNode](https://apireference.aspose.com/words/net/aspose.words/nodeimporter/methods/importnode) method. After importing your nodes, you need to use the [InsertAfter](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/insertafter)/[InsertBefore](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/insertbefore) method to insert a new node after/before the reference node. This enables you to customize the inserting process by importing nodes from a document and inserting it at given positions.
+When you need to insert or append one section or paragraph to another, you essentially need to import the nodes of the first document node tree into the second one using the [ImportNode](https://apireference.aspose.com/words/net/aspose.words/nodeimporter/methods/importnode) method. After importing your nodes, you need to use the [InsertAfter](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/insertafter)/[InsertBefore](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/insertbefore) method to insert a new node after/before the reference node. This allows you to customize the inserting process by importing nodes from a document and inserting it at given positions.
 
 You can also use the [AppendChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/appendchild) method to add a new specified node to the end of the list of child nodes, for example, if you want to append content at the paragraph level instead of at the section level.
 
@@ -101,11 +101,11 @@ The import creates a new node that is a copy of the original node and suitable f
 
 Content is imported into the destination document section by section, which means that settings, such as page setup and headers or footers, are preserved during import. It is also useful to note that you can define formatting settings when you insert or append a document to specify how two documents are joined together.
 
-## Properties for Insert and Append Documents {#common-properties-for-insert-and-append-documents}
+## Common Properties for Insert and Append Documents {#common-properties-for-insert-and-append-documents}
 
-Both [InsertDocument](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertdocument/methods/1) and [AppendDocument](https://apireference.aspose.com/words/net/aspose.words.document/appenddocument/methods/1) methods accept [ImportFormatMode](https://apireference.aspose.com/words/net/aspose.words/importformatmode) and [ImportFormatOptions](https://apireference.aspose.com/words/net/aspose.words/importformatoptions) as input parameters. The **ImportFormatMode** allows you to control how document formatting is merged when you import content from one document into another by selecting different format modes such as [UseDestinationStyles](https://apireference.aspose.com/words/net/aspose.words/importformatmode), [KeepSourceFormatting](https://apireference.aspose.com/words/net/aspose.words/importformatmode), and [KeepDifferentStyles](https://apireference.aspose.com/words/net/aspose.words/importformatmode). The **ImportFormatOptions** enables you to select different import options such as [IgnoreHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/ignoreheaderfooter), [IgnoreTextBoxes](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/ignoretextboxes), [KeepSourceNumbering](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/keepsourcenumbering), [MergePastedLists](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/mergepastedlists), and [SmartStyleBehavior](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/smartstylebehavior).
+Both [InsertDocument](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertdocument/methods/1) and [AppendDocument](https://apireference.aspose.com/words/net/aspose.words.document/appenddocument/methods/1) methods accept [ImportFormatMode](https://apireference.aspose.com/words/net/aspose.words/importformatmode) and [ImportFormatOptions](https://apireference.aspose.com/words/net/aspose.words/importformatoptions) as input parameters. The **ImportFormatMode** allows you to control how document formatting is merged when you import content from one document into another by selecting different format modes such as [UseDestinationStyles](https://apireference.aspose.com/words/net/aspose.words/importformatmode), [KeepSourceFormatting](https://apireference.aspose.com/words/net/aspose.words/importformatmode), and [KeepDifferentStyles](https://apireference.aspose.com/words/net/aspose.words/importformatmode). The **ImportFormatOptions** allows you to select different import options such as [IgnoreHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/ignoreheaderfooter), [IgnoreTextBoxes](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/ignoretextboxes), [KeepSourceNumbering](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/keepsourcenumbering), [MergePastedLists](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/mergepastedlists), and [SmartStyleBehavior](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/smartstylebehavior).
 
-Aspose.Words enables you to adjust the visualization of a resulting document when two documents are added together in an insert or append operation by using the [Section](https://apireference.aspose.com/words/net/aspose.words/section/properties/index) and [PageSetup](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/pagesetup) properties. The **PageSetup** property contains all the attributes of a section such as [SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart), [RestartPageNumbering](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/restartpagenumbering), [PageStartingNumber](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/pagestartingnumber), [Orientation](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation), and others. The most common use case is to set the **SectionStart** property to define if the added content will appear on the same page or split into a new one.
+Aspose.Words allows you to adjust the visualization of a resulting document when two documents are added together in an insert or append operation by using the [Section](https://apireference.aspose.com/words/net/aspose.words/section/properties/index) and [PageSetup](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/pagesetup) properties. The **PageSetup** property contains all the attributes of a section such as [SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart), [RestartPageNumbering](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/restartpagenumbering), [PageStartingNumber](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/pagestartingnumber), [Orientation](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation), and others. The most common use case is to set the **SectionStart** property to define if the added content will appear on the same page or split into a new one.
 
 {{% alert color="primary" %}} 
 

@@ -26,7 +26,7 @@ You can edit the configuration file in any text or XML editor. It is recommended
 
 The renderer configuration is stored inside the *&lt;Extension&gt;* element corresponding to a particular renderer. 
 
-Every export format has its own configuration XML element. Therefore, if you want changes to apply to a few export formats, you need to duplicate your changes accordingly. Most examples used in this section configure only the DOC format renderer. 
+Every export format has its own configuration XML element. Therefore, if you want changes to apply to several export formats, you need to duplicate your changes accordingly. Most examples used in this section configure only the DOC format renderer. 
 
 {{< highlight csharp >}}
 <!--This is an example of an empty configuration file.-->

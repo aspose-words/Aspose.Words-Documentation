@@ -287,7 +287,7 @@ HTML import has been modified. Previously, the [MswVersion](https://apireference
 
 ### Report Generation
 
-A condition evaluation extension point has been introduced. This enables users to implement custom evaluation for the IF and COMPARE fields which are very popular upon creating different types of reports.
+A condition evaluation extension point has been introduced. This allows users to implement custom evaluation for the IF and COMPARE fields which are very popular upon creating different types of reports.
 
 ### Other
 
