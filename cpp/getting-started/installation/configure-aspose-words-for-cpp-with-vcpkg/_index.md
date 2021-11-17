@@ -1,12 +1,12 @@
 ---
-title: Configure Aspose.Words for C++ with vcpkg
+title: Configure Aspose.Words for C++ With vcpkg
 description: "Configure Aspose.Words for C++ with vcpkg"
 type: docs
 weight: 90
 url: /cpp/configure-aspose-words-for-cpp-with-vcpkg/
 ---
 
-This article explains how to install Aspose.Words for C++ with [vcpkg](https://vcpkg.io/en/index.html)
+This article explains how to install Aspose.Words for C++ with [vcpkg](https://vcpkg.io/en/index.html).
 
 ## About vcpkg
 [vcpkg](https://vcpkg.io/en/index.html) is a free C/C++ package manager for acquiring and managing libraries. Choose from over 1500 open source libraries to download and build in a single step or add your own private libraries to simplify your build process. Maintained by the Microsoft C++ team and open source contributors.
@@ -16,7 +16,7 @@ This article explains how to install Aspose.Words for C++ with [vcpkg](https://v
 - Install [cmake](https://cmake.org/download/)
 - Install [vcpkg](https://vcpkg.io/en/index.html) according to [guide](https://vcpkg.io/en/getting-started.html)
 
-## Add Aspose.Words for C++ dependency to `vcpkg.json` file
+## Add Aspose.Words for C++ Dependency to `vcpkg.json` File
 
 Create or edit [vcpkg manifest file](https://vcpkg.io/en/docs/maintainers/manifest-files.html) in the same directory as your top-level `CMakeLists.txt` file. Add a dependency to `aspose-words-cpp` within this file:
 
@@ -35,10 +35,11 @@ Create or edit [vcpkg manifest file](https://vcpkg.io/en/docs/maintainers/manife
 }
 {{< /highlight >}}
 
-## Add Aspose.Words for C++ registry to `vcpkg-configuration.json` file
+## Add Aspose.Words for C++ Registry to `vcpkg-configuration.json` File
 
 Since Aspose.Words for C++ has no official port, we have to add the registry to `vcpkg-configuration.json` file.
-Create `vcpkg-configuration.json` file in the same directory as your top-level `CMakeLists.txt` and [vcpkg manifest file](https://vcpkg.io/en/docs/maintainers/manifest-files.html)
+
+Create `vcpkg-configuration.json` file in the same directory as your top-level `CMakeLists.txt` and [vcpkg manifest file](https://vcpkg.io/en/docs/maintainers/manifest-files.html).
 
 *`vcpkg-configuration.json`*
 {{< highlight json "hl_lines="3-8"" >}}
@@ -73,9 +74,10 @@ add_executable(app main.cpp)
 target_link_libraries(app PRIVATE Aspose::Words)
 {{< /highlight >}}
 
-## Configure and build you application
+## Configure and Build Your Application
 
-Now you can configure and build you application using Aspose.Words for C++ with CMake and vcpkg:
+Now you can configure and build your application using Aspose.Words for C++ with CMake and vcpkg:
+
 {{< highlight bash >}}
 cd <path_to_dir_with_CMakeLists.txt>
 cmake -S . -B build -D CMAKE_BUILD_TYPE=Release
