@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Reporting Services 18.6 Release Notes
+description: "Aspose.Words for Reporting Services 18.6 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 60
 url: /reportingservices/aspose-words-for-reporting-services-18-6-release-notes/

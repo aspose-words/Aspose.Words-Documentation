@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for SharePoint 19.2 Release Notes
+description: "Aspose.Words for SharePoint 19.2 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /sharepoint/aspose-words-for-sharepoint-19-2-release-notes/

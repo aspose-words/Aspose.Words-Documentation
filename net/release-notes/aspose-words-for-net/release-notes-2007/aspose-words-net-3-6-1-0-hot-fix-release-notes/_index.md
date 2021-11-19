@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words .Net 3.6.1.0 Hot Fix Release Notes
+description: "Aspose.Words .Net 3.6.1.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 100
 url: /net/aspose-words-net-3-6-1-0-hot-fix-release-notes/

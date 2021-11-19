@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 15.7.0 Release Notes
+description: "Aspose.Words for Java 15.7.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /java/aspose-words-for-java-15-7-0-release-notes/

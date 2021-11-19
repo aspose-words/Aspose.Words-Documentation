@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 14.10 Release Notes
+description: "Aspose.Words for Java 14.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /java/aspose-words-for-java-14-10-release-notes/

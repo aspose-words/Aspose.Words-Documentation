@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for .NET 9.8.0 Release Notes
+description: "Aspose.Words for .NET 9.8.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 90
 url: /net/aspose-words-for-net-9-8-0-release-notes/

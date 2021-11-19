@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Sharepoint 3.0.2 Release Notes
+description: "Aspose.Words for Sharepoint 3.0.2 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /sharepoint/aspose-words-for-sharepoint-3-0-2-release-notes/
