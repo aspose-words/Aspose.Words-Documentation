@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on OpenDocument Import
+description: "Aspose.Words for .NET allows you to work with field features supported on OpenDocument Text import."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-opendocument-import/
@@ -236,7 +237,7 @@ You can create new hyperlinks by using the DocumentBuilder class. You can also f
 
 See the following links in the documentation for further information:
 
-- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/inserthyperlink)
+- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
 - [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

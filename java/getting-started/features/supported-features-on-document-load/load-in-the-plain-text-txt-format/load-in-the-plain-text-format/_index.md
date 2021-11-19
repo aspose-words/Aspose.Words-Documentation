@@ -1,5 +1,6 @@
-﻿---
+---
 title: Load in the Plain Text Format
+description: "Aspose.Words for Java allows you to work with different features supported on Plain Text import."
 type: docs
 weight: 10
 url: /java/load-in-the-plain-text-format/

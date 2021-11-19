@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on Rich Text Import
+description: "Aspose.Words for .NET allows you to work with text features supported on Rich Text import."
 type: docs
 weight: 130
 url: /net/text-features-supported-on-rich-text-import/
@@ -17,7 +18,7 @@ See the following links in the documentation for further information:
 
 - [Run](https://apireference.aspose.com/words/net/aspose.words/Run)
 - [Run.Font](https://apireference.aspose.com/words/net/aspose.words/inline/properties/font)
-- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/inline/properties/text)
+- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/run/properties/text)
 
 [Jump to this location in the export section](/words/net/text-features-supported-on-rich-text-export/)
 
@@ -88,7 +89,7 @@ See the following link in the documentation for further information:
 
 See the following link in the documentation for further information:
 
-- [Font](https://apireference.aspose.com/words/net/aspose.words/font/properties/html)
+- [Font](https://apireference.aspose.com/words/net/aspose.words/font/properties/index)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

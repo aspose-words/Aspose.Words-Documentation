@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on DOCX Import
+description: "Aspose.Words for .NET allows you to work with drawing features supported on Open Office XML 2007 an 2010 Format import."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-docx-import/
@@ -46,7 +47,7 @@ If you are using Aspose.Words for Java you may need to ensure that you have the 
 See the following links in the documentation for further information:
 
 - [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isimage)
-- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
+- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/baseuri)
 - **Shape.ImageData**
 - [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
 - [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)
@@ -108,7 +109,7 @@ See the following links in the documentation for further information:
 |Draw Aspect |Yes | | |
 |Auto Update |Yes | |- [OleFormat.AutoUpdate](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/autoupdate)|
 |Lock |Yes | |- [OleFormat.IsLocked](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/islocked)|
-|Ole Object Data |Yes | |<p>- [OleFormat.GetOleEntry](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/getoleentry) </p><p>- **OleFormat.Save**</p>|
+|Ole Object Data |Yes | |<p>- [OleFormat.GetOleEntry](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/methods/getoleentry) </p><p>- **OleFormat.Save**</p>|
 |Ole Object Picture |Yes | |- [OleFormat.OleIcon](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/oleicon)|
 |Source Range |Yes | |- [OleFormat.SourceItem](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/sourceitem)|
 
@@ -138,7 +139,7 @@ Shapes which are linked to external resources such as images on the internet can
 
 See the following links in the documentation for further information:
 
-- [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/html)
+- [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/index)
 - [Shape.ShapeType](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/shapetype)
 - [Shape.IsTopLevel](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/istoplevel)
 
@@ -249,7 +250,7 @@ Using Aspose.Words you can access, modify and remove most fill properties of a s
 
 See the following link in the documentation for further information:
 
-- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fill)
+- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/fill)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
