@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words Reporting Services 1.0.3.0 Hot Fix Release Notes
+description: "Aspose.Words Reporting Services 1.0.3.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 110
 url: /reportingservices/aspose-words-reporting-services-1-0-3-0-hot-fix-release-notes/
