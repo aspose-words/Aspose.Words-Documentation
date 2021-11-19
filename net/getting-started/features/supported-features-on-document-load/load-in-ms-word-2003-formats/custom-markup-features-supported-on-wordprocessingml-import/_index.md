@@ -1,5 +1,6 @@
 ---
 title: Custom Markup Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with custom markup features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-wordprocessingml-import/

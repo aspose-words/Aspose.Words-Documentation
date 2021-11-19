@@ -1,5 +1,6 @@
 ---
 title: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
+description: "Aspose.Words for .NET allows you to work with different features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 50
 url: /net/load-in-ms-word-97-2003-formats/

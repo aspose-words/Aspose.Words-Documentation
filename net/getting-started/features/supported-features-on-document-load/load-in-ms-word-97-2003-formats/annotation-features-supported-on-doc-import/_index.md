@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on DOC Import
+description: "Aspose.Words for .NET allows you to work with annotation features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-doc-import/
@@ -91,7 +92,7 @@ See the following links in the documentation for further information:
 - [Manage Tracking Changes](/words/net/track-changes-in-a-document/)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

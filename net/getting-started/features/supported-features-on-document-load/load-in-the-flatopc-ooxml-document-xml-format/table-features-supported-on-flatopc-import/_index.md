@@ -1,5 +1,6 @@
-﻿---
+---
 title: Table Features Supported on FlatOPC Import
+description: "Aspose.Words for .NET allows you to work with table features supported on FlatOPC format import."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-flatopc-import/
@@ -34,7 +35,7 @@ Using Aspose.Words you can access and modify all features and formatting of a ta
 |Default Cell Margins|Yes| |<p>- [Table.LeftPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftpadding)</p><p>- [Table.RightPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/rightpadding)</p><p>- [Table.BottomPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bottompadding)</p><p>- [Table.TopPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/toppadding)</p>|
 |Default Cell Spacing|Yes| |- [Table.CellSpacing](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/cellspacing)|
 |Preferred Table Width|Yes|Preferred width on the table can be set to absolute (points), relative (per cent) or auto setting.|- [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
-|Table Shading|Yes| |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
+|Table Shading|Yes| |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/setshading)|
 |Hidden|Yes|There is currently no API to access or modify this property on Table or Row.| |
 
 ## Floating Tables
@@ -49,8 +50,8 @@ Floating tables are supported during import and export. However, there is curren
 
 Table borders are stored in the rows of the table. This mimics the structure of an OOXML document. If you try to set borders or shading on a table without any rows then an exception will be thrown. Add at least one row first. See the following links in the documentation for further information:
 
-- [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setborders)
-- [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/clearborders)
+- [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/setborders)
+- [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/clearborders)
 - [RowFormat.Borders](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/borders)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

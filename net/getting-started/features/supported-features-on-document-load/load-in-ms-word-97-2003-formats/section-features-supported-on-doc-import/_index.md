@@ -1,5 +1,6 @@
-﻿---
+---
 title: Section Features Supported on DOC Import
+description: "Aspose.Words for .NET allows you to work with section features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-doc-import/
@@ -44,7 +45,7 @@ See the following links in the documentation for further information:
 - [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/properties/headersfooters)
 - [PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/PageSetup/properties/differentfirstpageheaderfooter)
 - **PageSetup.OddAndEvenPageHeaderFooter**
-- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words/headerfootercollection/properties/linktoprevious)
+- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words/headerfootercollection/methods/linktoprevious/index)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -57,7 +58,7 @@ See the following links in the documentation for further information:
 See the following links in the documentation for further information:
 
 - [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/PageSetup/properties/sectionstart)
-- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertbreak)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -81,7 +82,7 @@ See the following link in the documentation for further information:
 
 See the following links in the documentation for further information:
 
-- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/PageSetup/properties/html)
+- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup)
 - [PageSetup.LeftMargin](https://apireference.aspose.com/words/net/aspose.words/PageSetup/properties/leftmargin)
 - [PageSetup.FooterDistance](https://apireference.aspose.com/words/net/aspose.words/PageSetup/properties/footerdistance)
 - [PageSetup.Gutter](https://apireference.aspose.com/words/net/aspose.words/PageSetup/properties/gutter)

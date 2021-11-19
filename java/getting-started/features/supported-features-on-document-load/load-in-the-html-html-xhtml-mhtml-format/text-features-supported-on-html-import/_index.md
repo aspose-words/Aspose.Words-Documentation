@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on HTML Import
+description: "Aspose.Words for Java allows you to work with text features supported on HTML-based format import."
 type: docs
 weight: 120
 url: /java/text-features-supported-on-html-import/

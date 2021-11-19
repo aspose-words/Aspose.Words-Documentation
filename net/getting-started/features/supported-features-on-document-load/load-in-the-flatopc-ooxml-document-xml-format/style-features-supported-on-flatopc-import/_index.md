@@ -1,5 +1,6 @@
-﻿---
+---
 title: Style Features Supported on FlatOPC Import
+description: "Aspose.Words for .NET allows you to work with style features supported on FlatOPC format import."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-flatopc-import/

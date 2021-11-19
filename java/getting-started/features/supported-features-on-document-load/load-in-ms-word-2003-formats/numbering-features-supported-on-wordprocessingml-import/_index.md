@@ -1,5 +1,6 @@
-﻿---
+---
 title: Numbering Features Supported on WordprocessingML Import
+description: "Aspose.Words for Java allows you to work with numbering features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-wordprocessingml-import/
