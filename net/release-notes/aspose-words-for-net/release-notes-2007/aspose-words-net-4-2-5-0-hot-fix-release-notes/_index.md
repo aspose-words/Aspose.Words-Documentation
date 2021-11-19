@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words .Net 4.2.5.0 Hot Fix Release Notes
+description: "Aspose.Words .Net 4.2.5.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 260
 url: /net/aspose-words-net-4-2-5-0-hot-fix-release-notes/

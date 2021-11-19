@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 14.4 Release Notes Release Notes
+description: "Aspose.Words for .NET 14.4 Release Notes Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70
 url: /net/aspose-words-for-net-14-4-release-notes-release-notes/
