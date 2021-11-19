@@ -1,5 +1,6 @@
-﻿---
+---
 title: Paragraph Features Supported on HTML Import
+description: "Aspose.Words for .NET allows you to work with paragraph features supported on HTML-based format import."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-html-import/

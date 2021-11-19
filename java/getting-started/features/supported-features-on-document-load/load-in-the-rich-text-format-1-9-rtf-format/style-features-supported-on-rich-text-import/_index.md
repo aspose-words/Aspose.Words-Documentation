@@ -1,5 +1,6 @@
-﻿---
+---
 title: Style Features Supported on Rich Text Import
+description: "Aspose.Words for Java allows you to work with style features supported on Rich Text import."
 type: docs
 weight: 100
 url: /java/style-features-supported-on-rich-text-import/

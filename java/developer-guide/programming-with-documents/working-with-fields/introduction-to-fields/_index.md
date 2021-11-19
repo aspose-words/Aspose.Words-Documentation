@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction to Fields
 type: docs
 weight: 10
@@ -109,7 +109,7 @@ When a document is loaded into Aspose.Words, the fields of the document are load
 
 The content which makes up the field code is stored as [Run](https://apireference.aspose.com/words/java/com.aspose.words/Run) nodes between the FieldStart and FieldSeparator. The field result is stored between the FieldSeparator and FieldEnd nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of block level nodes such as Table and Paragraph nodes as well.
 
-In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://apireference.aspose.com/words/java/com.aspose.words/FieldChar). This class provides a property to check the type of field represented by the specified node through the [FieldChar.FieldType](https://apireference.aspose.com/words/java/com.aspose.words/constants/FieldType) property. For example FieldType.FieldMergeField represents a merge field in the document.
+In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://apireference.aspose.com/words/java/com.aspose.words/FieldChar). This class provides a property to check the type of field represented by the specified node through the [FieldChar.FieldType](https://apireference.aspose.com/words/java/com.aspose.words/FieldType) property. For example FieldType.FieldMergeField represents a merge field in the document.
 
 {{% alert color="primary" %}} 
 

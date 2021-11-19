@@ -1,5 +1,6 @@
-﻿---
+---
 title: Section Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with section features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-wordprocessingml-import/
@@ -55,7 +56,7 @@ See the following links in the documentation for further information:
 See the following links in the documentation for further information:
 
 - [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
-- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertbreak)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on DOCX Import
+description: "Aspose.Words for Java allows you to work with text features supported on Open Office XML 2007 an 2010 Format import."
 type: docs
 weight: 120
 url: /java/text-features-supported-on-docx-import/

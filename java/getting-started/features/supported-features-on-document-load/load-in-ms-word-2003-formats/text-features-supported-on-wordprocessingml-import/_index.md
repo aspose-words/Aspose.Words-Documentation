@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on WordprocessingML Import
+description: "Aspose.Words for Java allows you to work with text features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 120
 url: /java/text-features-supported-on-wordprocessingml-import/

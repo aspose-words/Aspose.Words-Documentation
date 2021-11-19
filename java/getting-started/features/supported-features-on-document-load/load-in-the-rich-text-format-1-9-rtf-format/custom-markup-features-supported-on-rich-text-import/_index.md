@@ -1,5 +1,6 @@
 ---
 title: Custom Markup Features Supported on Rich Text Import
+description: "Aspose.Words for Java allows you to work with custom markup features supported on Rich Text import."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-rich-text-import/

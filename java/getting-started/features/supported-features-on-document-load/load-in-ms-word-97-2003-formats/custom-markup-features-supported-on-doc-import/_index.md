@@ -1,5 +1,6 @@
 ---
 title: Custom Markup Features Supported on DOC Import
+description: "Aspose.Words for Java allows you to work with custom markup features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-doc-import/

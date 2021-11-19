@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Sections
 type: docs
 weight: 60
@@ -37,11 +37,11 @@ When you delete a section break, you also delete the section formatting for the 
 
 ## Sections in Aspose.Words
 
-Sections of the document are represented by the [Section](https://apireference.aspose.com/words/net/T_Aspose_Words_Section) and [SectionCollection](https://apireference.aspose.com/words/net/T_Aspose_Words_SectionCollection) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://apireference.aspose.com/words/net/P_Aspose_Words_Document_Sections) property.
+Sections of the document are represented by the [Section](https://apireference.aspose.com/words/net/aspose.words/section) and [SectionCollection](https://apireference.aspose.com/words/net/aspose.words/sectioncollection) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections) property.
 
 ### Obtaining a Section
 
-Each section is represented by a [Section](https://apireference.aspose.com/words/net/T_Aspose_Words_Section) object that can be obtained from the [Document.Sections](https://apireference.aspose.com/words/net/P_Aspose_Words_Document_Sections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
+Each section is represented by a [Section](https://apireference.aspose.com/words/net/aspose.words/section) object that can be obtained from the [Document.Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
 
 {{% alert color="primary" %}} 
 
