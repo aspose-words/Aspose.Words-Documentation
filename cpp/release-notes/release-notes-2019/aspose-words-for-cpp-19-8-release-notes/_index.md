@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for CPP 19.8 Release Notes
+description: "Aspose.Words for CPP 19.8 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70
 url: /cpp/aspose-words-for-cpp-19-8-release-notes/

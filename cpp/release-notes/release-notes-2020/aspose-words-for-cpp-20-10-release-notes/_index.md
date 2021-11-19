@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 20.10 Release Notes
+description: "Aspose.Words for C++ 20.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 7
 url: /cpp/aspose-words-for-cpp-20-10-release-notes/
