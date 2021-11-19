@@ -1,5 +1,6 @@
-﻿---
+---
 title: Section Features Supported on Rich Text Import
+description: "Aspose.Words for Java allows you to work with section features supported on Rich Text import."
 type: docs
 weight: 90
 url: /java/section-features-supported-on-rich-text-import/

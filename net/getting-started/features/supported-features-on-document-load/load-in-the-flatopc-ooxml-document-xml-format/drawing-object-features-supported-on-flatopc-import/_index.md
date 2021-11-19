@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on FlatOPC Import
+description: "Aspose.Words for .NET allows you to work with drawing features supported on FlatOPC format import."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-flatopc-import/
@@ -193,7 +194,7 @@ Aspose.Words supports creating objects with a variety of different positioning s
 
 Using Aspose.Words you can access, modify and remove most fill properties of a shape. See the following link in the documentation for further information:
 
-- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fill)
+- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/fill)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

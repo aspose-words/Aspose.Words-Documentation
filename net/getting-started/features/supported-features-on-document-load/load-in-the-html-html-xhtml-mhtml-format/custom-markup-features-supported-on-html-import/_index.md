@@ -1,5 +1,6 @@
 ---
 title: Custom Markup Features Supported on HTML Import
+description: "Aspose.Words for .NET allows you to work with custom markup features supported on HTML-based format import."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-html-import/

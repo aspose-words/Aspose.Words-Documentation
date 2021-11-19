@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on DOC Import
+description: "Aspose.Words for .NET allows you to work with text features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 130
 url: /net/text-features-supported-on-doc-import/
@@ -17,7 +18,7 @@ See the following links in the documentation for further information:
 
 - [Run](https://apireference.aspose.com/words/net/aspose.words/Run)
 - [Run.Font](https://apireference.aspose.com/words/net/aspose.words/inline/properties/font)
-- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/inline/properties/text)
+- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/inline)
 
 [Jump to this location in the export section](/words/net/text-features-supported-on-doc-export/)
 
@@ -30,7 +31,7 @@ See the following links in the documentation for further information:
 |Western Languages |Yes | | |
 |East European Languages |Yes | | |
 |East Asian Languages |Yes | | |
-|Right to Left Languages |Yes | |<p>- [Font.Bidi](https://apireference.aspose.com/words/net/aspose.words/font/properties/bidi) </p><p>- [Font.BoldBi](https://apireference.aspose.com/words/net/aspose.words/font/properties/boldbidi) </p><p>- [Font.LocaleIdBi](https://apireference.aspose.com/words/net/aspose.words/font/properties/localeidbi)</p>|
+|Right to Left Languages |Yes | |<p>- [Font.Bidi](https://apireference.aspose.com/words/net/aspose.words/font/properties/bidi) </p><p>- [Font.BoldBi](https://apireference.aspose.com/words/net/aspose.words/font/properties/boldbi) </p><p>- [Font.LocaleIdBi](https://apireference.aspose.com/words/net/aspose.words/font/properties/localeidbi)</p>|
 |Carriage Return (not a Paragraph Break) |Yes | | |
 |Non Breaking Space |Yes | |- [ControlChar.NonBreakingSpace](https://apireference.aspose.com/words/net/aspose.words/ControlChar)|
 |Non Breaking Hyphen |Yes | |- **ControlChar.NonBreakingHyphen**|

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Table Features Supported on Rich Text Import
+description: "Aspose.Words for .NET allows you to work with table features supported on Rich Text import."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-rich-text-import/
@@ -24,7 +25,7 @@ Note that some elements of a table may be wrapped with Markup nodes such as Cust
 See the following links in the documentation for further information:
 
 - [Working with Tables](/words/net/working-with-tables/)
-- [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/html)
+- [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/index)
 
 [Jump to this location in the export section](/words/net/table-features-supported-on-rich-text-export/)
 
@@ -44,7 +45,7 @@ See the following links in the documentation for further information:
 |Default Cell Margins |Yes | |<p>- [Table.LeftPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftpadding) </p><p>- [Table.RightPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/rightpadding) </p><p>- [Table.BottomPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bottompadding) </p><p>- [Table.TopPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/toppadding)</p>|
 |Default Cell Spacing |Yes | |- [Table.CellSpacing](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/cellspacing)|
 |Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. |- [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
-|Table Shading |Yes | |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
+|Table Shading |Yes | |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/setshading)|
 |Hidden |Yes |There is currently no API to access or modify this property on Table or Row. | |
 
 ## Floating Tables
@@ -63,8 +64,8 @@ If you try to set borders or shading on a table without any rows then an excepti
 
 See the following links in the documentation for further information:
 
-- [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setborders)
-- [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/clearborders)
+- [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/setborders)
+- [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/clearborders)
 - [RowFormat.Borders](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/borders)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

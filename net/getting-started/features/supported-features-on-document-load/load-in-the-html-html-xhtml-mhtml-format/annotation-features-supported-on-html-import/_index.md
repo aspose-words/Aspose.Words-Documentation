@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on HTML Import
+description: "Aspose.Words for .NET allows you to work with annotation features supported on HTML-based format import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-html-import/
@@ -57,7 +58,7 @@ Most revision types properly round-tripped to the appropriate formats. Currently
 - [Manage Tracking Changes](/words/net/working-with-document/#workingwithdocument-managetrackingchanges)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

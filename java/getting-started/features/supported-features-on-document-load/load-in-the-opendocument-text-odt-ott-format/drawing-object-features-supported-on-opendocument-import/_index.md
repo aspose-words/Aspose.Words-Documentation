@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on OpenDocument Import
+description: "Aspose.Words for Java allows you to work with drawing object features supported on OpenDocument Text import."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-opendocument-import/

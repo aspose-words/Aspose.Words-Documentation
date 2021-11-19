@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on Rich Text Import
+description: "Aspose.Words for .NET allows you to work with field features supported on Rich Text import."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-rich-text-import/
@@ -36,8 +37,8 @@ Fields with custom field codes or field results (modified manually in the docume
 See the following links in the documentation for further information:
 
 - [Working with Fields](/words/net/working-with-fields/)
-- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertfield)
-- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatefields)
+- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertfield/index)
+- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
 - [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldtype)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -240,7 +241,7 @@ You can create new hyperlinks by using the DocumentBuilder class. You can also f
 
 See the following links in the documentation for further information:
 
-- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/inserthyperlink)
+- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
 - [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

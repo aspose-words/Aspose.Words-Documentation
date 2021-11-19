@@ -1,5 +1,6 @@
 ---
 title: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format
+description: "Aspose.Words for Java allows you to work with different features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 40
 url: /java/load-in-ms-word-2003-formats/

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Supported Features on Document Load
+description: "Aspose.Words for Java allows to load and convert a document in most of popular formats and supports lots of Microsoft Word features."
 type: docs
 weight: 20
 url: /java/supported-features-on-document-load/

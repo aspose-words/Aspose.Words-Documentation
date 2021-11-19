@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Digital Signatures
 description: "Aspose.Words for .NET allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
@@ -73,7 +73,7 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
-Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://apireference.aspose.com/words/net/aspose.words/certificateholder/methods/create/index) method within the [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words/certificateholder) class.
+Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/methods/create/index) method within the [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder) class.
 
 The next sections explain how to add a digital signature, signature line, and how to sign a generated PDF document.
 
@@ -224,7 +224,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 ## Remove Digital Signatures
 
-Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/net/aspose.words/digitalsignatureutil/methods/removeallsignatures/index) method.
+Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/methods/removeallsignatures/index) method.
 
 The following code example shows how to load and remove digital signatures from a document:
 

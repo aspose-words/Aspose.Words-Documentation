@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with drawing features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-wordprocessingml-import/
@@ -41,8 +42,8 @@ If you are using Aspose.Words for Java you may need to ensure that you have the 
 
 See the following links in the documentation for further information:
 
-- [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/isimage)
-- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
+- [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isimage)
+- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/baseuri)
 - **Shape.ImageData**
 - [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
 - [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)
@@ -104,7 +105,7 @@ See the following links in the documentation for further information:
 |Draw Aspect |Yes | | |
 |Auto Update |Yes | |- [OleFormat.AutoUpdate](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/autoupdate)|
 |Lock |Yes | |- [OleFormat.IsLocked](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/islocked)|
-|Ole Object Data |Yes | |<p>- [OleFormat.GetOleEntry](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/getoleentry) </p><p>- **OleFormat.Save**</p>|
+|Ole Object Data |Yes | |<p>- [OleFormat.GetOleEntry](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/methods/getoleentry) </p><p>- **OleFormat.Save**</p>|
 |Ole Object Picture |Yes | |- [OleFormat.OleIcon](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/oleicon)|
 |Source Range |Yes | |- [OleFormat.SourceItem](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/sourceitem)|
 
@@ -131,8 +132,8 @@ Shapes which are linked to external resources such as images on the internet can
 See the following links in the documentation for further information:
 
 - [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape)
-- [Shape.ShapeType](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/shapetype)
-- [Shape.IsTopLevel](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/istoplevel)
+- [Shape.ShapeType](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/shapetype)
+- [Shape.IsTopLevel](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/istoplevel)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -142,7 +143,7 @@ See the following links in the documentation for further information:
 |Flowcharts |Yes | | |
 |Callouts |Yes | | |
 |Stars and Banners |Yes | | |
-|Group Shape |Yes | |<p>- [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) </p><p>- [Shape.IsGroup](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/isgroup)</p>|
+|Group Shape |Yes | |<p>- [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) </p><p>- [Shape.IsGroup](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isgroup)</p>|
 |Drawing Canvas |Yes | | |
 |Signature Line |Planned |Signature line content is currently preserved in image form only. You cannot access or validate the digital signature attached to a signature line yet or extract the signature as plain text. <br><br>Creating new signature lines is currently unsupported. <br><br>These features will be included as soon as possible. |- **Shape.ImageData**|
 |Ink Annotation |Yes | | |
@@ -151,8 +152,8 @@ See the following links in the documentation for further information:
 |SmartArt (VML) |Yes |Represented as a groupshape with child shapes representing the different elements. <br><br>You can add, modify or remove parts of the smart art. You can also extract the plain text content. | |
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
-|Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/href)|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs-old.aspose.com/display/wordsnet/Working+with+Watermark)|
+|Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/href)|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](/words/net/working-with-watermark/)|
 
 ## WordArt
 
@@ -162,7 +163,7 @@ Using Aspose.Words you can create new WordArt graphics. Note that not all WordAr
 
 See the following links in the documentation for further information:
 
-- [Shape.IsWordArt](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/iswordart)
+- [Shape.IsWordArt](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/iswordart)
 - [Shape.TextPath](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/textpath)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -185,14 +186,14 @@ Using Aspose.Words you can create new or modify existing Horizontal Rule objects
 
 See the following link in the documentation for further information:
 
-- [Shape.IsHorizontalRule](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/ishorizontalrule)
+- [Shape.IsHorizontalRule](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/ishorizontalrule)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Width |Yes |Width appears in the API only as absoloute points and not as percent as what Horizontal Line widths are normally calcuated in.The percent value can be calculated by using the width of the page. |- [Shape.Width](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/width)|
-|Height |Yes | |- [Shape.Height](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/height)|
+|Height |Yes | |- [Shape.Height](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/height)|
 |Color |Yes | |- [Shape.FillColor](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fillcolor)|
-|Alignment |Yes | |- [Shape.HorizontalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/horizontalalignment)|
+|Alignment |Yes | |- [Shape.HorizontalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/horizontalalignment)|
 |Hyperlink |Yes | |- **Shape.HRef**|
 |Image |Yes | |- **Shape.HRef**|
 
@@ -204,26 +205,26 @@ You can also access and modify existing shape's positioning.
 
 See the following links in the documentation for further information:
 
-- [Shape.Top](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/top)
+- [Shape.Top](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/top)
 - **Shape.Width**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Inline |Yes | |- [Shape.IsInline](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/isinline)|
+|Inline |Yes | |- [Shape.IsInline](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isinline)|
 |Floating |Yes |In a Word document floating content is anchored to a paragraph. When a document is loaded into Aspose.Words this anchor is represented by the position of the Shape node in relation to Paragraph and the Runs of text. | |
-|Wrap Type |Yes | |- [Shape.WrapType](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/wraptype)|
-|Wrap Sides |Yes | |- [Shape.WrapSide](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/wrapside)|
+|Wrap Type |Yes | |- [Shape.WrapType](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/wraptype)|
+|Wrap Sides |Yes | |- [Shape.WrapSide](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/wrapside)|
 |Distance from Text |Yes | |<p>- **Shape.DistanceFromTextTop** </p><p>- **Shape.DistanceFromTextBottom** </p><p>- **Shape.DistanceFromTextLeft** </p><p>- **Shape.DistanceFromTextRight**</p>|
-|Z-Order |Yes | |- [Shape.ZOrder](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/zorder)|
+|Z-Order |Yes | |- [Shape.ZOrder](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/zorder)|
 |Polygon Wrap Points |Planned |This property is currently lost upon import of Word documents. <br><br>This feature will be included a future verison. | |
-|Rotation |Yes | |- [Shape.Rotation](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/rotation)|
-|Flip |Yes | |- [Shape.FlipOrientation](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fliporientation)|
+|Rotation |Yes | |- [Shape.Rotation](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/rotation)|
+|Flip |Yes | |- [Shape.FlipOrientation](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/fliporientation)|
 |Horizontal Alignment |Yes | |- **Shape.HorizontalAlignment**|
-|Horizontal Position Relative To |Yes | |- [Shape.RelativeHorizontalPosition](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/relativehorizontalposition)|
-|Vertical Alignment |Yes | |- [Shape.VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/verticalalignment)|
-|Vertical Position Relative To |Yes | |- [Shape.RelativeVerticalPosition](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/relativeverticalposition)|
-|Anchor Lock |Yes | |- [Shape.AnchorLocked](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/anchorlocked)|
-|Allow Overlap |Yes | |- [Shape.AllowOverlap](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/allowoverlap)|
+|Horizontal Position Relative To |Yes | |- [Shape.RelativeHorizontalPosition](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/relativehorizontalposition)|
+|Vertical Alignment |Yes | |- [Shape.VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/verticalalignment)|
+|Vertical Position Relative To |Yes | |- [Shape.RelativeVerticalPosition](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/relativeverticalposition)|
+|Anchor Lock |Yes | |- [Shape.AnchorLocked](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/anchorlocked)|
+|Allow Overlap |Yes | |- [Shape.AllowOverlap](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/allowoverlap)|
 |Layout in Table Cell |Yes |There is currently no API to access this shape setting. | |
 
 ## Size
@@ -231,7 +232,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Width and Height |Yes | |<p>- **Shape.Width** </p><p>- **Shape.Height**</p>|
-|Scale |Yes |There is currently no way to access scale of Shape loaded in Aspose.Words. <br><br>The size of the shape after scale is applied is calculated and stored as the public size of the Shape. This size can be found using the Shape class. |- [Shape.SizeInPoints](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/sizeinpoints)|
+|Scale |Yes |There is currently no way to access scale of Shape loaded in Aspose.Words. <br><br>The size of the shape after scale is applied is calculated and stored as the public size of the Shape. This size can be found using the Shape class. |- [Shape.SizeInPoints](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/sizeinpoints)|
 |Relative Size |Yes | | |
 |Lock Aspect Ratio |Yes | | |
 
@@ -241,7 +242,7 @@ Using Aspose.Words you can access, modify and remove most fill properties of a s
 
 See the following link in the documentation for further information:
 
-- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fill)
+- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/fill)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -262,7 +263,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Line Color |Yes | |<p>- [Stroke.Color](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/color) </p><p>- [Stroke.Color2](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/color2)</p>|
 |Line Fill |Yes | |- [Stroke.ImageBytes](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/imagebytes)|
-|Line Width |Yes | |- [Stroke.Weight](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/weight)|
+|Line Width |Yes | |- [Stroke.Weight](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/width)|
 |Compound Type |Yes | |- [Stroke.LineStyle](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/linestyle)|
 |Dash Type |Yes | |- [Stroke.DashStyle](https://apireference.aspose.com/words/net/aspose.words.drawing/Stroke/properties/dashstyle)|
 |Cap Type |Yes | |- **Stroke.Cap**|

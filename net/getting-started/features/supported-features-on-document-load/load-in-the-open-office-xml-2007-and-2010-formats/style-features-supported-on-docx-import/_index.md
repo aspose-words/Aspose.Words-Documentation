@@ -1,5 +1,6 @@
-﻿---
+---
 title: Style Features Supported on DOCX Import
+description: "Aspose.Words for .NET allows you to work with style features supported on Open Office XML 2007 an 2010 Format import."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-docx-import/
@@ -63,6 +64,6 @@ See the following links in the documentation for further information:
 |Apply Formatting to |Yes | |- **Table.StyleOptions**|
 |Table Properties |Yes | |- **TableStyle**|
 |Banding |Yes | |- **Table.StyleOptions**|
-|Paragraph Properties |Yes | |- [TableStyle.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/tablestyle/properties/paragraphformat)|
-|Run Properties |Yes | |- [TableStyle.Font](https://apireference.aspose.com/words/net/aspose.words/tablestyle/properties/font)|
+|Paragraph Properties |Yes | |- [TableStyle.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
+|Run Properties |Yes | |- [TableStyle.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
 

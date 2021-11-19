@@ -1,5 +1,6 @@
-﻿---
+---
 title: Section Features Supported on OpenDocument Import
+description: "Aspose.Words for .NET allows you to work with section features supported on OpenDocument Text import."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-opendocument-import/
@@ -44,7 +45,7 @@ See the following links in the documentation for further information:
 - [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/properties/headersfooters)
 - [PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/differentfirstpageheaderfooter)
 - **PageSetup.OddAndEvenPageHeaderFooter**
-- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words/headerfootercollection/properties/linktoprevious)
+- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words/headerfootercollection/methods/linktoprevious/index)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -59,7 +60,7 @@ Some section properties (e.g. top margin, bottom margin) for continuous section 
 See the following links in the documentation for further information:
 
 - [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
-- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertbreak)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

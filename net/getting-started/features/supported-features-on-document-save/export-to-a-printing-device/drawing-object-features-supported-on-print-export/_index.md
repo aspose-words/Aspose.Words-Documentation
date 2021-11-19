@@ -1,4 +1,4 @@
-﻿---
+---
 title: Drawing Object Features Supported on Print Export
 type: docs
 weight: 40
@@ -22,7 +22,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |PNG |Yes | | |
 |JPG |Yes | | |
-|WMF |Yes | |- [SvgSaveOptions.MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/metafilerenderingoptions)|
+|WMF |Yes | |- [SvgSaveOptions.MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/metafilerenderingoptions)|
 |EMF |Yes | | |
 |EMF+ |Yes | | |
 |BMP |Yes | | |

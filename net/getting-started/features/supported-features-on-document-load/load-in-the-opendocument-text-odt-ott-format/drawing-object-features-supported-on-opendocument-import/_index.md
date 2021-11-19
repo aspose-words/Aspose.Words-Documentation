@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on OpenDocument Import
+description: "Aspose.Words for .NET allows you to work with drawing object features supported on OpenDocument Text import."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-opendocument-import/
@@ -46,7 +47,7 @@ If you are using Aspose.Words for Java you may need to ensure that you have the 
 See the following links in the documentation for further information:
 
 - [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isimage)
-- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
+- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/baseuri)
 - [Shape.ImageData](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata)
 - [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
 - [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)
@@ -129,7 +130,7 @@ Other elements may be imported as images.
 
 See the following links in the documentation for further information:
 
-- [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/html)
+- [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/index)
 - [Shape.ShapeType](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/shapetype)
 - [Shape.IsTopLevel](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/istoplevel)
 
@@ -244,7 +245,7 @@ Using Aspose.Words you can access, modify and remove most fill properties of a s
 
 See the following link in the documentation for further information:
 
-- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fill)
+- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/fill)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

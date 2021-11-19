@@ -1,5 +1,6 @@
-﻿---
+---
 title: Load in the Plain Text Format
+description: "Aspose.Words for .NET allows you to work with different features supported on Plain Text import."
 type: docs
 weight: 10
 url: /net/load-in-the-plain-text-format/

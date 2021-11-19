@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on Rich Text Import
+description: "Aspose.Words for .NET allows you to work with annotation features supported on Rich Text import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-rich-text-import/
@@ -91,7 +92,7 @@ See the following links in the documentation for further information:
 - [Manage Tracking Changes](/words/net/track-changes-in-a-document/)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -100,9 +101,9 @@ See the following links in the documentation for further information:
 |Table Cell Insertion |Planned | | |
 |Cell Merge or Split |Planned | | |
 |Run Deletion |Yes | |- [Run.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
-|Run Insertion |Yes | |- [Run.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isinsertrevision)|
-|Paragraph Deletion |Yes | |- [Paragraph.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/node/properties/isdeleterevision)|
-|Paragraph Insertion |Yes | |- [Paragraph.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/node/properties/isinsertrevision)|
+|Run Insertion |Yes | |- [Run.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
+|Paragraph Deletion |Yes | |- [Paragraph.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
+|Paragraph Insertion |Yes | |- [Paragraph.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
 |Table Row Deletion |Yes | | |
 |Table Row Insertion |Yes | | |
 |Numbering Insertion |Yes | | |

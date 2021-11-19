@@ -1,5 +1,6 @@
-﻿---
+---
 title: Paragraph Features Supported on DOC Import
+description: "Aspose.Words for .NET allows you to work with paragraph features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-doc-import/
@@ -54,7 +55,7 @@ See the following links in the documentation for further information:
 |Space After |Yes | |- [ParagraphFormat.SpaceAfter](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafter)|
 |Space Auto |Yes | |<p>- [ParagraphFormat.SpaceBeforeAuto](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebeforeauto) </p><p>- [ParagraphFormat.SpaceAfterAuto](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafterauto)</p>|
 |Line Spacing |Yes | |<p>- [ParagraphFormat.LineSpacing](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacing) </p><p>- [ParagraphFormat.LineSpacingRule](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacingrule)</p>|
-|No Space between Conforming Paragraphs |Yes | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/nospacebetweenparagraphofsamestyle)|
+|No Space between Conforming Paragraphs |Yes | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/nospacebetweenparagraphsofsamestyle)|
 |Snap To Grid |Yes | | |
 
 ##### Keeps and Breaks
@@ -84,7 +85,7 @@ Using Aspose.Words you can find tab stops based off position or index. You can c
 
 See the following link in the documentation for further information:
 
-- [ParagraphFormat.TabStops](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/tabstop)
+- [ParagraphFormat.TabStops](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/tabstops)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -104,7 +105,7 @@ This will be improved in a future version of Aspose.Words.
 See the following links in the documentation for further information:
 
 - **ParagraphFormat.DropCapPositon**
-- [ParagraphFormat.LinesToDrop](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/linestodrop)
+- [ParagraphFormat.LinesToDrop](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/index)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -114,7 +115,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Border Sides |Yes | |<p>- [ParagraphFormat.Borders](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/borders) </p><p>- [LineStyle](https://apireference.aspose.com/words/net/aspose.words/linestyle)</p>|
+|Border Sides |Yes | |<p>- [ParagraphFormat.Borders](https://apireference.aspose.com/words/net/aspose.words/tabstop/properties/index) </p><p>- [LineStyle](https://apireference.aspose.com/words/net/aspose.words/linestyle)</p>|
 |Shadow |Yes | |- [Border.Shadow](https://apireference.aspose.com/words/net/aspose.words/border/properties/shadow)|
 |3D Frame |Yes | |- [Border.LineStyle](https://apireference.aspose.com/words/net/aspose.words/border/properties/linestyle)|
 |Style |Yes | |- **Border.LineStyle**|

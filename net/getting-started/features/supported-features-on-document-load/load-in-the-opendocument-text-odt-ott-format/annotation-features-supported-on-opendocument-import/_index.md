@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on OpenDocument Import
+description: "Aspose.Words for .NET allows you to work with annotation features supported on OpenDocument Text import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-opendocument-import/
