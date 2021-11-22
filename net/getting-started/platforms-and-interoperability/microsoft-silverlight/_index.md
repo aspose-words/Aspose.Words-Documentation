@@ -1,5 +1,6 @@
 ---
 title: Microsoft Silverlight
+description: "How to use Aspose.Words with Microsoft Silverlight."
 type: docs
 weight: 70
 url: /net/microsoft-silverlight/
