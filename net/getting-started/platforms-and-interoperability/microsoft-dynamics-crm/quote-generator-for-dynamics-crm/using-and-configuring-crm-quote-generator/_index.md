@@ -1,5 +1,6 @@
 ---
 title: Using and Configuring CRM Quote Generator
+description: "How to use and configure Aspose Quote Generator add-on."
 type: docs
 weight: 20
 url: /net/using-and-configuring-crm-quote-generator/

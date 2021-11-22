@@ -1,5 +1,6 @@
 ---
 title: Using and Configuring CRM AutoMerge
+description: "How to use and configure Aspose AutoMerge add-on."
 type: docs
 weight: 20
 url: /net/using-and-configuring-crm-automerge/
