@@ -1,5 +1,6 @@
 ﻿---
 title: DNN Quote Generator Module
+description: "Generate Quotations in your DNN website using Aspose.Words DNN Quote Generator Module."
 type: docs
 weight: 10
 url: /net/dnn-quote-generator-module/

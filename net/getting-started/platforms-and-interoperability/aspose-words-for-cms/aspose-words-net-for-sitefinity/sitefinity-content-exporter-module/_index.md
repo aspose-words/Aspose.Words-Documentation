@@ -1,5 +1,6 @@
 ﻿---
 title: Sitefinity Content Exporter Module
+description: "Export online content into Word Processing or PDF document using Aspose.Words Sitefinity Content Exporter Module."
 type: docs
 weight: 10
 url: /net/sitefinity-content-exporter-module/
