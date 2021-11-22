@@ -1,5 +1,6 @@
 ﻿---
 title: Install Aspose.Words for Android via Java
+description: "Installing Aspose.Words for Android via Java."
 type: docs
 weight: 40
 url: /java/install-aspose-words-for-android-via-java/

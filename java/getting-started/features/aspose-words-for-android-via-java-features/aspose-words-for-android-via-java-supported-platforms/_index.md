@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Android via Java Supported Platforms
+description: "Aspose.Words for Android via Java Supported Platforms."
 type: docs
 weight: 20
 url: /java/aspose-words-for-android-via-java-supported-platforms/
