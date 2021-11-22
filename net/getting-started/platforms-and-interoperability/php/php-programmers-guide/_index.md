@@ -1,5 +1,6 @@
 ---
 title: PHP Programmers Guide
+description: "Aspose.Words for .NET PHP Programmers Guide."
 type: docs
 weight: 10
 url: /net/php-programmers-guide/
