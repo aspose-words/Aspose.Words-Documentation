@@ -1,5 +1,6 @@
 ﻿---
 title: Using and Configuring CRM Document Generator
+description: "How to use and configure Aspose Document Generator add-on."
 type: docs
 weight: 10
 url: /net/using-and-configuring-crm-document-generator/

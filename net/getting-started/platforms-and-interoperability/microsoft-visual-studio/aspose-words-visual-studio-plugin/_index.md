@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words Visual Studio Plugin
+description: "Learn how to use Aspose Visual Studio Plugin to quickly download and explore Aspose.Words for .NET API examples."
 type: docs
 weight: 40
 url: /net/aspose-words-visual-studio-plugin/

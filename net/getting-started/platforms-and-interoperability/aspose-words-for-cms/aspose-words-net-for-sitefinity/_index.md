@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words .NET for Sitefinity
+description: "Integrating Aspose.Words for .NET with Sitefinity content management systems."
 type: docs
 weight: 110
 url: /net/aspose-words-net-for-sitefinity/

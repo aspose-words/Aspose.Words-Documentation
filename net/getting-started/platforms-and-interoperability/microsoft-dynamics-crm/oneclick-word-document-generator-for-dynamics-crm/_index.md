@@ -1,5 +1,6 @@
 ﻿---
 title: OneClick Word Document Generator for Dynamics CRM
+description: "The Aspose .NET OneClick Word Document Generator is open source add-on used to generate and export documents from CRM."
 type: docs
 weight: 60
 url: /net/oneclick-word-document-generator-for-dynamics-crm/

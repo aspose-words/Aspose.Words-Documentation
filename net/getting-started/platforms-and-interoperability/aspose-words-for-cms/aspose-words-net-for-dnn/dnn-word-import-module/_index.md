@@ -1,5 +1,6 @@
 ---
 title: DNN Word Import Module
+description: "Read contents of Word documents using Aspose.Words DNN Word Import Module."
 type: docs
 weight: 30
 url: /net/dnn-word-import-module/

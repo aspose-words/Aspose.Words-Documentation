@@ -1,5 +1,6 @@
 ---
 title: Umbraco Word Import Module
+description: "Read contents of any Word processing document using Aspose.Words Umbraco Word Import Module."
 type: docs
 weight: 20
 url: /net/umbraco-word-import-module/
