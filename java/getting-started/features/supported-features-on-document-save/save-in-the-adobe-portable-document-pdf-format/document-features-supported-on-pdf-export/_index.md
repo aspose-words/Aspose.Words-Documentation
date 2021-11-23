@@ -1,5 +1,6 @@
 ---
 title: Document Features Supported on PDF Export
+description: "Aspose.Words for Java allows you to work with document features supported when saving to PDF format."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-pdf-export/

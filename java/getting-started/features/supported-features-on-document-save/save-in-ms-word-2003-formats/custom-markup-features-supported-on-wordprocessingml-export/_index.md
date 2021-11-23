@@ -1,5 +1,6 @@
 ---
 title: Custom Markup Features Supported on WordprocessingML Export
+description: "Aspose.Words for Java allows you to work with custom markup features supported when saving to XML – Word 2003 WordprocessingML format."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-wordprocessingml-export/

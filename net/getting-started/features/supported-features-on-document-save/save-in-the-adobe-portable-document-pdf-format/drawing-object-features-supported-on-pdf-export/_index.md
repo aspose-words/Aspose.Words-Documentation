@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on PDF Export
+description: "Aspose.Words for .NET allows you to work with drawing features supported when saving to PDF format."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-pdf-export/

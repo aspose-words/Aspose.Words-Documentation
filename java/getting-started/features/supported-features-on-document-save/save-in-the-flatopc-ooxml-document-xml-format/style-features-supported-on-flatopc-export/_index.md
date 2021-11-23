@@ -1,5 +1,6 @@
 ---
 title: Style Features Supported on FlatOPC Export
+description: "Aspose.Words for Java allows you to work with style features supported when saving to FlatOPC – XML format."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-flatopc-export/

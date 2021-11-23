@@ -1,5 +1,6 @@
 ---
 title: Save in the OpenDocument Text (.ODT, .OTT) Format
+description: "Aspose.Words for Java allows you to work with various features supported when saving to OpenDocument Text format."
 type: docs
 weight: 130
 url: /java/save-in-the-opendocument-text-odt-ott-format/

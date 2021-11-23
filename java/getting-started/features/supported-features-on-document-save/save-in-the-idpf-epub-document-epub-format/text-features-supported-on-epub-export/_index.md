@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on EPUB Export
+description: "Aspose.Words for Java allows you to work with text features supported when saving to EPUB format."
 type: docs
 weight: 130
 url: /java/text-features-supported-on-epub-export/

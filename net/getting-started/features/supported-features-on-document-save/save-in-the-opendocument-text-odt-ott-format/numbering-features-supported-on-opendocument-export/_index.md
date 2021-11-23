@@ -1,5 +1,6 @@
 ---
-title: Footnotes an Endnote Features Supported on OpenDocument Export
+title: Numbering Features Supported on OpenDocument Export
+description: "Aspose.Words for .NET allows you to work with numbering features supported when saving to OpenDocument Text format."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-opendocument-export/

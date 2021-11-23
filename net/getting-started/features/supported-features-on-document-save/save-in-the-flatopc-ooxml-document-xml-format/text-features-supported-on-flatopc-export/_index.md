@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on FlatOPC Export
+description: "Aspose.Words for .NET allows you to work with text features supported when saving to FlatOPC – XML format."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-flatopc-export/

@@ -1,5 +1,6 @@
 ---
 title: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
+description: "Aspose.Words for .NET allows you to work with various features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 120
 url: /net/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/

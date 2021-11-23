@@ -1,5 +1,6 @@
-﻿---
+---
 title: Supported Platforms
+description: "Aspose.Words for .NET supports a wide range of platforms to work with documents."
 type: docs
 weight: 5
 url: /net/supported-platforms/

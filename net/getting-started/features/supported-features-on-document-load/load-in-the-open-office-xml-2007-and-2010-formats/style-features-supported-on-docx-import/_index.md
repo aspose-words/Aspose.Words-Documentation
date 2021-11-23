@@ -1,6 +1,6 @@
 ---
 title: Style Features Supported on DOCX Import
-description: "Aspose.Words for .NET allows you to work with style features supported on Open Office XML 2007 an 2010 Format import."
+description: "Aspose.Words for .NET allows you to work with style features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-docx-import/

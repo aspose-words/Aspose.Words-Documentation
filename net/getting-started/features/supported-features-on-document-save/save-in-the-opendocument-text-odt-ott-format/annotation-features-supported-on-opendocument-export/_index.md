@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on OpenDocument Export
+description: "Aspose.Words for .NET allows you to work with annotation features supported when saving to OpenDocument Text format."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-opendocument-export/

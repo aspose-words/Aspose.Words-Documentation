@@ -1,5 +1,6 @@
 ---
 title: Custom Markup Features Supported on XPS Export
+description: "Aspose.Words for .NET allows you to work with custom markup features supported when saving to XPS format."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-xps-export/

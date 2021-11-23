@@ -1,5 +1,6 @@
 ---
 title: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
+description: "Aspose.Words for Java allows you to work with various features supported when saving to DOC – Word 97-2003 format."
 type: docs
 weight: 100
 url: /java/save-in-ms-word-97-2003-formats/
