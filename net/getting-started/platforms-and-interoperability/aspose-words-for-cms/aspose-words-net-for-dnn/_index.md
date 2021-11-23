@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words .NET for DNN
+description: "Integrating Aspose.Words for .NET with DNN content management systems."
 type: docs
 weight: 10
 url: /net/aspose-words-net-for-dnn/

@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose Export to Image for ASP.NET MVC
+description: "Using Aspose.Words for .NET to export the entire content of the web page into an image in Microsoft ASP.NET MVC."
 type: docs
 weight: 10
 url: /net/aspose-export-to-image-for-asp-net-mvc/

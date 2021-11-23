@@ -1,5 +1,6 @@
 ---
 title: Using and Configuring CRM Duplicate Detection
+description: "How to use and configure Aspose Duplicate Detection add-on."
 type: docs
 weight: 20
 url: /net/using-and-configuring-crm-duplicate-detection/

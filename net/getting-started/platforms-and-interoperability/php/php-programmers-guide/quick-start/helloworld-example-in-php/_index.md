@@ -1,5 +1,6 @@
 ---
 title: HelloWorld Example in PHP
+description: "Building documents from scratch using Aspose.Words for .NET in PHP via COM."
 type: docs
 weight: 40
 url: /net/helloworld-example-in-php/
@@ -12,12 +13,12 @@ Hello World Example
 **PHP Code**
 
 {{< highlight php >}}
-        $dataDir = '.';
-        $doc = new \COM("Aspose.Words.Document");
-        $builder = new \COM("Aspose.Words.DocumentBuilder");
-        $builder->Document = $doc;
-        $builder->Write("Hello world!");
-        $doc->Save($dataDir . "/HelloWorld Out.docx");
+$dataDir = '.';
+$doc = new \COM("Aspose.Words.Document");
+$builder = new \COM("Aspose.Words.DocumentBuilder");
+$builder->Document = $doc;
+$builder->Write("Hello world!");
+$doc->Save($dataDir . "/HelloWorld Out.docx");
 {{< /highlight >}}
 
 ## Download Running Code

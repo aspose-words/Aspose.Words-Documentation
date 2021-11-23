@@ -1,5 +1,6 @@
 ﻿---
 title: Umbraco Quote Generator Module
+description: "Generate Quotes in your Umbraco site using Aspose.Words Umbraco Quote Generator Module."
 type: docs
 weight: 30
 url: /net/umbraco-quote-generator-module/

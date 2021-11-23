@@ -1,5 +1,6 @@
 ---
 title: Mono Framework
+description: "Using Aspose.Words for .NET with Mono Framework."
 type: docs
 weight: 90
 url: /net/mono-framework/
