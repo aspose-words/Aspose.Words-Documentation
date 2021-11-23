@@ -1,5 +1,6 @@
 ﻿---
 title: Licensing
+description: "The evaluation and licensed versions of Aspose.Words for JasperReports is the same download."
 type: docs
 weight: 70
 url: /jasperreports/licensing/

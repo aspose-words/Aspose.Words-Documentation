@@ -1,5 +1,6 @@
 ---
 title: DOC, DOCX, RTF, ODT, HTML, and TXT Export
+description: "Aspose.Words for JasperReports is built on top of Aspose.Words for Java, the world-class library for server-side Microsoft Word documents processing."
 type: docs
 weight: 20
 url: /jasperreports/doc-docx-rtf-odt-html-and-txt-export/

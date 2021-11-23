@@ -1,5 +1,6 @@
 ﻿---
 title: Page Margins
+description: "JasperReports print model does not allow exporters to detect the page margins specified in the report design. Aspose.Words for JasperReports uses a special algorithm to work this out."
 type: docs
 weight: 40
 url: /jasperreports/page-margins/

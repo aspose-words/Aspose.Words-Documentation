@@ -1,5 +1,6 @@
 ---
 title: High Fidelity to the Report Design
+description: "Aspose.Words for JasperReports exports reports as Microsoft Word documents in such a way that they look identical to reports exported by the built-in exporters of JasperReports."
 type: docs
 weight: 30
 url: /jasperreports/high-fidelity-to-the-report-design/

@@ -1,5 +1,6 @@
 ﻿---
 title: Exact Row Heights
+description: "Aspose Words for JasperReports allow setting exact row heights for table rows."
 type: docs
 weight: 90
 url: /jasperreports/exact-row-heights/

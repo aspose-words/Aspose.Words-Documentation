@@ -1,5 +1,6 @@
 ﻿---
 title: Change Margins
+description: "Change Margins option allows to decrease/increase page margins in the exported report."
 type: docs
 weight: 220
 url: /jasperreports/change-margins/

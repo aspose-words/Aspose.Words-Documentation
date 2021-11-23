@@ -1,5 +1,6 @@
 ﻿---
 title: Frames
+description: "Aspose Words for JasperReports allow export rectangles as frames."
 type: docs
 weight: 80
 url: /jasperreports/frames/
