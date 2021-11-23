@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on HTML Export
+description: "Aspose.Words for Java allows you to work with annotation features supported when saving to HTML-based format."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-html-export/

@@ -1,5 +1,6 @@
 ---
 title: Style Features Supported on HTML Export
+description: "Aspose.Words for Java allows you to work with style features supported when saving to HTML-based format."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-html-export/

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Custom Markup Features Supported on DOCX Export
+description: "Aspose.Words for .NET allows you to work with custom markup features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-docx-export/

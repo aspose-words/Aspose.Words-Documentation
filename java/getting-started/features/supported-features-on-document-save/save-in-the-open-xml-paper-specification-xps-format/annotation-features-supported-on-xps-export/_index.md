@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on XPS Export
+description: "Aspose.Words for Java allows you to work with annotation features supported when saving to XPS format."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-xps-export/

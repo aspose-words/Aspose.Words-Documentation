@@ -1,5 +1,6 @@
 ---
 title: Section Features Supported on WordprocessingML Export
+description: "Aspose.Words for Java allows you to work with section features supported when saving to XML – Word 2003 WordprocessingML format."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-wordprocessingml-export/

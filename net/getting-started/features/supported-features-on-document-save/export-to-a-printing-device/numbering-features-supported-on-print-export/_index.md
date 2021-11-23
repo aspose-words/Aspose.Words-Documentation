@@ -1,5 +1,6 @@
 ---
 title: Numbering Features Supported on Print Export
+description: "Aspose.Words for .NET allows you to work with numbering features supported when saving to printing device."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-print-export/

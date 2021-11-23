@@ -1,5 +1,6 @@
 ---
 title: Numbering Features Supported on Print Export
+description: "Aspose.Words for Java allows you to work with numbering features supported when saving to printing device."
 type: docs
 weight: 80
 url: /java/numbering-features-supported-on-print-export/

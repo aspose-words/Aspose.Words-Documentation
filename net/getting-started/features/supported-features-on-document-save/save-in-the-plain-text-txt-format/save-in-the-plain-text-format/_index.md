@@ -1,5 +1,6 @@
 ---
 title: Save in the Plain Text Format
+description: "Aspose.Words for .NET allows you to work with different features supported when saving to Plain Text – TXT format."
 type: docs
 weight: 10
 url: /net/save-in-the-plain-text-format/

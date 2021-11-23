@@ -1,5 +1,6 @@
-﻿---
+---
 title: Document Features Supported on Print Export
+description: "Aspose.Words for .NET allows you to work with document features supported when saving to printing device."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-print-export/

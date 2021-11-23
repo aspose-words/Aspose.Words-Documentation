@@ -1,6 +1,6 @@
 ---
 title: Section Features Supported on DOCX Import
-description: "Aspose.Words for Java allows you to work with section features supported on Open Office XML 2007 an 2010 Format import."
+description: "Aspose.Words for Java allows you to work with section features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 90
 url: /java/section-features-supported-on-docx-import/

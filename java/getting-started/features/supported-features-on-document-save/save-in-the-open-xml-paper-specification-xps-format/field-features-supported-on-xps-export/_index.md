@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on XPS Export
+description: "Aspose.Words for Java allows you to work with field features supported when saving to XPS format."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-xps-export/
