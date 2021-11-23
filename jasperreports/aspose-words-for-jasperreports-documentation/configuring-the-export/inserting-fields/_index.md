@@ -1,5 +1,6 @@
 ﻿---
 title: Inserting Fields
+description: "Aspose.Words for JasperReports provides a unique feature that allows inserting Microsoft Word fields to any point of a document."
 type: docs
 weight: 60
 url: /jasperreports/inserting-fields/
