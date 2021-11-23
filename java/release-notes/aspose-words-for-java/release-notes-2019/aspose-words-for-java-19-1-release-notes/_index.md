@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 19.1 Release Notes
+description: "Aspose.Words for Java 19.1 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 120
 url: /java/aspose-words-for-java-19-1-release-notes/

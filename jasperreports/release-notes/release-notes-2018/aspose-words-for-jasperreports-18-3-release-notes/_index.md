@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for JasperReports 18.3 Release Notes
+description: "Aspose.Words for JasperReports 18.3 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 100
 url: /jasperreports/aspose-words-for-jasperreports-18-3-release-notes/

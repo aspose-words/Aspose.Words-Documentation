@@ -1,5 +1,6 @@
 ﻿---
 title: PHP
+description: "How to utilise Aspose.Words for .NET in PHP Projects."
 type: docs
 weight: 100
 url: /net/aspose-words-net-for-php/

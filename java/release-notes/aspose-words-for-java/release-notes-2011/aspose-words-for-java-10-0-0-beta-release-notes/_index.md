@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 10.0.0 BETA Release Notes
+description: "Aspose.Words for Java 10.0.0 BETA Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 100
 url: /java/aspose-words-for-java-10-0-0-beta-release-notes/

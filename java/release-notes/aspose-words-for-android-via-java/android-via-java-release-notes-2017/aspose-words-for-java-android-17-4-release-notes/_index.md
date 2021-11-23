@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java.Android 17.4 Release Notes
+description: "Aspose.Words for Java.Android 17.4 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 90
 url: /java/aspose-words-for-java-android-17-4-release-notes/

@@ -1,5 +1,6 @@
 ﻿---
 title: Microsoft Outlook
+description: "Aspose.Words plugins for Microsoft Outlook."
 type: docs
 weight: 40
 url: /net/aspose-words-net-for-outlook/

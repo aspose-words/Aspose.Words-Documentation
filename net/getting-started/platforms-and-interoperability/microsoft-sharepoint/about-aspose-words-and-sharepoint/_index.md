@@ -1,5 +1,6 @@
 ﻿---
 title: About Aspose.Words and SharePoint
+description: "Using Aspose.Words for .NET in a Microsoft SharePoint environment."
 type: docs
 weight: 10
 url: /net/about-aspose-words-and-sharepoint/

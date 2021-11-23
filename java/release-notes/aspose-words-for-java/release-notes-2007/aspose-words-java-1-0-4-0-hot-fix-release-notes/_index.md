@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words Java 1.0.4.0 Hot Fix Release Notes
+description: "Aspose.Words Java 1.0.4.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 110
 url: /java/aspose-words-java-1-0-4-0-hot-fix-release-notes/

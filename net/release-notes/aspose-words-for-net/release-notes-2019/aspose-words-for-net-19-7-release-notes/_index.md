@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 19.7 Release Notes
+description: "Aspose.Words for .NET 19.7 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 60
 url: /net/aspose-words-for-net-19-7-release-notes/

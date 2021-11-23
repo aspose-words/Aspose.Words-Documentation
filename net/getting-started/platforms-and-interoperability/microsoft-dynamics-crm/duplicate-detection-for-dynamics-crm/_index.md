@@ -1,5 +1,6 @@
 ﻿---
 title: Duplicate Detection for Dynamics CRM
+description: "The Aspose Duplicate Detection is an open source add-on to be used with Microsoft Dynamics CRM. It allows automatically remove duplicate documents."
 type: docs
 weight: 40
 url: /net/duplicate-detection-for-dynamics-crm/
@@ -7,7 +8,7 @@ url: /net/duplicate-detection-for-dynamics-crm/
 
 It is necessary to maintain the integrity of your data, duplication of data is always an issue. In Dynamic CRM usually when a document is sent via an email or attached to a letter from a main record, its duplicate is created allocating unnecessary space in the database.In order to resolve this issue we use one of the very interesting feature of Aspose.Words comparison between documents and create an add-on in CRM to remove duplicate documents between records of same entity, between different entities and all records of all entities.
 
-The Aspose Duplicate Detection is an open source add-on to be used with Microsoft Dynamics CRM. This add-on in Dynamic CRM usually use when a document is sent via an email or attached to a letter from a main record, its duplicate is created allocating unnecessary space in the database.In order to resolve this issue we use one of the very interesting feature of Aspose.Words comparison between documents and create an add-on in CRM to remove duplicate documents between records of same entity,between different entities and all records of all entities.
+The Aspose Duplicate Detection is an open source add-on to be used with Microsoft Dynamics CRM. This add-on in Dynamic CRM usually use when a document is sent via an email or attached to a letter from a main record, its duplicate is created allocating unnecessary space in the database. In order to resolve this issue we use one of the very interesting feature of Aspose.Words comparison between documents and create an add-on in CRM to remove duplicate documents between records of same entity, between different entities and all records of all entities.
 
 This release supports the following features:
 

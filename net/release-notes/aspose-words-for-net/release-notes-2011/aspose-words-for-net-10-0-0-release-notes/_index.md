@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for .NET 10.0.0 Release Notes
+description: "Aspose.Words for .NET 10.0.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 80
 url: /net/aspose-words-for-net-10-0-0-release-notes/

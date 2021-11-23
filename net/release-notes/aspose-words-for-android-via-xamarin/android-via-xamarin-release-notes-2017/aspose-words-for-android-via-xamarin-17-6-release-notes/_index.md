@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Android via Xamarin 17.6 Release Notes
+description: "Aspose.Words for Android via Xamarin 17.6 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /net/aspose-words-for-android-via-xamarin-17-6-release-notes/

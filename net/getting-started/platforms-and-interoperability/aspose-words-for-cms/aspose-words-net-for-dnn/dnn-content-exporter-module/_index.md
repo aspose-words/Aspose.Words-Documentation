@@ -1,5 +1,6 @@
 ﻿---
 title: DNN Content Exporter Module
+description: "Export online contents into a Word Document using Aspose.Words DNN Content Exporter Module."
 type: docs
 weight: 20
 url: /net/dnn-content-exporter-module/
