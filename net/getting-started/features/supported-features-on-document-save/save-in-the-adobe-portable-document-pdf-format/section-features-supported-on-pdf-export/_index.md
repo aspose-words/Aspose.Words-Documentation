@@ -1,5 +1,6 @@
 ---
 title: Section Features Supported on PDF Export
+description: "Aspose.Words for .NET allows you to work with section features supported when saving to PDF format."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-pdf-export/

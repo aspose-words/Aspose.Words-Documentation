@@ -1,5 +1,6 @@
 ---
 title: Numbering Features Supported on WordprocessingML Export
+description: "Aspose.Words for .NET allows you to work with numbering features supported when saving to XML – Word 2003 WordprocessingML format."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-wordprocessingml-export/

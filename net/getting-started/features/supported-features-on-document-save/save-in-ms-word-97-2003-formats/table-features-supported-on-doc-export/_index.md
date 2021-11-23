@@ -1,5 +1,6 @@
 ---
 title: Table Features Supported on DOC Export
+description: "Aspose.Words for .NET allows you to work with table features supported when saving to DOC – Word 97-2003 format."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-doc-export/

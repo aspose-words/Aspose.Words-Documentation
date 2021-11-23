@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on Rich Text Export
+description: "Aspose.Words for Java allows you to work with annotation features supported when saving to Rich Text format."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-rich-text-export/

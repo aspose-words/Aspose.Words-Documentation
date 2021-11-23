@@ -1,5 +1,6 @@
 ---
 title: Paragraph Features Supported on DOC Export
+description: "Aspose.Words for Java allows you to work with paragraph features supported when saving to DOC – Word 97-2003 format."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-doc-export/

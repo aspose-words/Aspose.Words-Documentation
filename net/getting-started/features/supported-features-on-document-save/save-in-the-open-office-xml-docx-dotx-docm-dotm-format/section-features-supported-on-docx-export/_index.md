@@ -1,5 +1,6 @@
 ---
 title: Section Features Supported on DOCX Export
+description: "Aspose.Words for .NET allows you to work with section features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-docx-export/

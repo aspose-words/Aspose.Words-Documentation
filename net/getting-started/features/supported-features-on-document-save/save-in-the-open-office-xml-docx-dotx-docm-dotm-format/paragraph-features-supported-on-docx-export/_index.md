@@ -1,5 +1,6 @@
 ---
 title: Paragraph Features Supported on DOCX Export
+description: "Aspose.Words for .NET allows you to work with paragraph features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-docx-export/

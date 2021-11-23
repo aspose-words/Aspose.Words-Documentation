@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on Print Export
+description: "Aspose.Words for Java allows you to work with text features supported when saving to printing device."
 type: docs
 weight: 130
 url: /java/text-features-supported-on-print-export/

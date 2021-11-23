@@ -1,5 +1,6 @@
 ---
 title: Numbering Features Supported on Rich Text Export
+description: "Aspose.Words for Java allows you to work with numbering features supported when saving to Rich Text format."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-rich-text-export/

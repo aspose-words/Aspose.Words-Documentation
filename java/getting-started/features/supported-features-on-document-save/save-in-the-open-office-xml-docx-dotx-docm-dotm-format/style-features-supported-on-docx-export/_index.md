@@ -1,5 +1,6 @@
 ---
 title: Style Features Supported on DOCX Export
+description: "Aspose.Words for Java allows you to work with style features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-docx-export/

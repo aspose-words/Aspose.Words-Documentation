@@ -1,5 +1,6 @@
 ---
 title: Section Features Supported on OpenDocument Export
+description: "Aspose.Words for .NET allows you to work with section features supported when saving to OpenDocument Text format."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-opendocument-export/

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on EPUB Export
+description: "Aspose.Words for .NET allows you to work with annotation features supported when saving to EPUB format."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-epub-export/
