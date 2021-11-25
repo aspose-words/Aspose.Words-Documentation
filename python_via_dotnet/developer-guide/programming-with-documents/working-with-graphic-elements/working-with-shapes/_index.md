@@ -2,7 +2,8 @@
 title: Working with Shapes
 type: docs
 weight: 10
-url: /python/working-with-shapes/
+url: /python-net/working-with-shapes/
+aliases: [/python/working-with-shapes/]
 ---
 
 This topic discusses how to work programmatically with shapes using Aspose.Words. The shapes in Aspose.Words represent an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. A Word document can contain one or more different shapes.  Shapes of the document are represented by the **Shape** class.

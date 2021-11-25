@@ -3,7 +3,8 @@ title: Aspose.Words for Python via .NET
 description: "Aspose.Words for Python via .NET is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert and render documents."
 type: docs
 weight: 10
-url: /python/
+url: /python-net/
+aliases: [/python/]
 is_root: true
 ---
 

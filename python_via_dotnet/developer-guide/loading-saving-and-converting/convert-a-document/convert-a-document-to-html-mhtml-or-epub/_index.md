@@ -3,7 +3,8 @@ title: Convert a Document to HTML, MHTML or EPUB
 description: "Aspose.Words for Python via .NET allows you to convert a document from almost any format to HTML or MHTML, as well as to EPUB format. You can also specify save options for managing the output document."
 type: docs
 weight: 20
-url: /python/convert-a-document-to-html-mhtml-or-epub/
+url: /python-net/convert-a-document-to-html-mhtml-or-epub/
+aliases: [/python/convert-a-document-to-html-mhtml-or-epub/]
 ---
 
 Documents in HTML and MHTML flow-layout formats are also very popular and can be used on any web platform. For that reason, converting documents to HTML and MHTML is an important feature of Aspose.Words.

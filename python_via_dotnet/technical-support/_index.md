@@ -3,7 +3,9 @@ title: Technical Support
 type: docs
 description: "Aspose.Words for Python via .NET provides free technical support available to all users. Please report your question, issue, or feature request using Aspose Free Support Forum."
 weight: 80
-url: /python/technical-support/
+url: /python-net/technical-support/
+aliases: [/python/technical-support/]
+
 ---
 
 Aspose provides unlimited free technical support for all of its products. Support is available to all users, including evaluation. The main avenue of support is [Aspose.Forums](https://forum.aspose.com/).

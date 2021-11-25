@@ -3,8 +3,10 @@ title: Work with Options and Appearance of Word Documents
 description: "Aspose.Words for Python via .NET allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 120
-url: /python/work-with-word-document-options-and-appearance/
-aliases: [/python/work-with-document-options-and-settings/]
+url: /python-net/work-with-word-document-options-and-appearance/
+aliases:
+ - /python/work-with-document-options-and-settings/
+ - /python/work-with-word-document-options-and-appearance/
 ---
 
 Sometimes you may need to change the appearance of a document, for example, set language preferences or the number of lines per page.Aspose.Words provides the ability to control how the document will be displayed, as well as some additional options. This article describes such possibilities.

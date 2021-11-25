@@ -4,7 +4,8 @@ type: docs
 description: "Aspose.Words for Python via .NET provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
 keywords: "create mail merge template python"
 weight: 10
-url: /python/mail-merge-template/
+url: /python-net/mail-merge-template/
+aliases: [/python/mail-merge-template/]
 ---
 
 It is common to use a merge template as the base document for a mail merge operation either if it is a simple mail merge or mail merge with regions. Mail merge with regions is more powerful and popular than the simple mail merge. Simple mail merge is considered as a particular case of mail merge with regions where the region is the entire document. All is explained in the next article “Types of Mail Merge Operation” in more detail.
@@ -34,45 +35,45 @@ The following code example shows how to create a mail merge template:
 def create_mail_merge_template() :
     
     builder = aw.DocumentBuilder()
-
+    
     # Insert a text input field the unique name of this field is "Hello", the other parameters define
     # what type of FormField it is, the format of the text, the field result and the maximum text length (0 = no limit)
     builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Hello", 0)
     builder.insert_field("MERGEFIELD CustomerFirstName \\* MERGEFORMAT")
-
+    
     builder.insert_text_input("TextInput1", aw.fields.TextFormFieldType.REGULAR, "", " ", 0)
     builder.insert_field("MERGEFIELD CustomerLastName \\* MERGEFORMAT")
-
+    
     builder.insert_text_input("TextInput1", aw.fields.TextFormFieldType.REGULAR, "", " , ", 0)
-
+    
     # Inserts a paragraph break into the document
     builder.insert_paragraph()
-
+    
     # Insert mail body
     builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Thanks for purchasing our ", 0)
     builder.insert_field("MERGEFIELD ProductName \\* MERGEFORMAT")
-
+    
     builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", ", please download your Invoice at ", 0)
     builder.insert_field("MERGEFIELD InvoiceURL \\* MERGEFORMAT")
-
+    
     builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", ". If you have any questions please call ", 0)
     builder.insert_field("MERGEFIELD Supportphone \\* MERGEFORMAT")
-
+    
     builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", ", or email us at ", 0)
     builder.insert_field("MERGEFIELD SupportEmail \\* MERGEFORMAT")
-
+    
     builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", ".", 0)
-
+    
     builder.insert_paragraph()
-
+    
     # Insert mail ending
     builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Best regards,", 0)
     builder.insert_break(aw.BreakType.LINE_BREAK)
     builder.insert_field("MERGEFIELD EmployeeFullname \\* MERGEFORMAT")
-
+    
     builder.insert_text_input("TextInput1", aw.fields.TextFormFieldType.REGULAR, "", " ", 0)
     builder.insert_field("MERGEFIELD EmployeeDepartment \\* MERGEFORMAT")
-
+    
     return builder.document
 {{< /highlight >}}
 

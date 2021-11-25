@@ -2,7 +2,8 @@
 title: Working with TextBoxes
 type: docs
 weight: 130
-url: /python/working-with-textboxes/
+url: /python-net/working-with-textboxes/
+aliases: [/python/working-with-textboxes/]
 ---
 
 In Aspose.Words, **TextBox** class is used to specify how a text is displayed inside a shape. It provides a public property named as **parent** to get the parent shape for the text box to allow customer to find linked **Shape** from linked **TextBox**.

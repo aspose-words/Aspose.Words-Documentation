@@ -2,7 +2,8 @@
 title: Working with VBA Macros
 type: docs
 weight: 200
-url: /python/working-with-vba-macros/
+url: /python-net/working-with-vba-macros/
+aliases: [/python/working-with-vba-macros/]
 ---
 
 ## Overview

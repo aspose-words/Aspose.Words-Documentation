@@ -1,8 +1,10 @@
 ---
 title: Contents Management
+description: "How to extract and manage document contents programmatically using python."
 type: docs
 weight: 190
-url: /python/contents-management/
+url: /python-net/contents-management/
+aliases: [/python/contents-management/]
 ---
 
 Articles in this section describe how to use Aspose.Words classes to extract and manage document contents programmatically.

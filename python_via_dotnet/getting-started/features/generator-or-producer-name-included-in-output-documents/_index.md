@@ -3,7 +3,8 @@ title: Generator or Producer Name Included in Output Documents
 description: "Aspose.Words for Python via .NET add to the document the generator name and version number that was used to create it. This data can be found in the document in ways that depend on the output file format."
 type: docs
 weight: 60
-url: /python/generator-or-producer-name-included-in-output-documents/
+url: /python-net/generator-or-producer-name-included-in-output-documents/
+aliases: [/python/generator-or-producer-name-included-in-output-documents/]
 ---
 
 You can easily know if a document is produced by using Aspose.Words for Python via .NET. You can also find the version number of Aspose.Words for Python via .NET that was used to create a particular output document. Aspose.Words directly writes this information into the generated document.

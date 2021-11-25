@@ -2,7 +2,8 @@
 title: Working with Graphic Elements
 type: docs
 weight: 150
-url: /python/working-with-graphic-elements/
+url: /python-net/working-with-graphic-elements/
+aliases: [/python/working-with-graphic-elements/]
 ---
 
 Articles in this section describe manipulation with various document graphic elements, such as shapes, text boxes, charts, images, and so on. 
