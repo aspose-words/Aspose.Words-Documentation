@@ -1,5 +1,6 @@
 ﻿---
 title: Feature Overview
+description: "This section provides a detailed description of the Aspose.Words for JasperReports features."
 type: docs
 weight: 10
 url: /jasperreports/feature-overview/
