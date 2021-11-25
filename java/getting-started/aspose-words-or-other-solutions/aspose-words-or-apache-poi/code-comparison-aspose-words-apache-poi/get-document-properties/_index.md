@@ -1,5 +1,6 @@
-﻿---
+---
 title: Get Document Properties
+description: "Aspose.Words for Java allows you to get document properties easily and fast instead of using Apache POI."
 type: docs
 weight: 40
 url: /java/get-document-properties/

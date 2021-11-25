@@ -1,5 +1,6 @@
-﻿---
+---
 title: Insert Table of Contents in Document
+description: "Aspose.Words for Java allows you to insert table off contents (TOC) into a document easily and fast instead of using docx4j."
 type: docs
 weight: 80
 url: /java/insert-table-of-contents-in-document/

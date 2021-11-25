@@ -1,5 +1,6 @@
-﻿---
+---
 title: Add Watermark in Document
+description: "Aspose.Words for Java allows you to add a watermark into a document easily and fast instead of using docx4j."
 type: docs
 weight: 20
 url: /java/add-watermark-in-document/
@@ -24,16 +25,16 @@ public static void main(String[] args) throws Exception
 	// Create a watermark shape. This will be a WordArt shape.
 	// You are free to try other shape types as watermarks.
 	Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
-
+	
 	// Set up the text of the watermark.
 	watermark.getTextPath().setText(watermarkText);
 	watermark.getTextPath().setFontFamily("Arial");
 	watermark.setWidth(500);
 	watermark.setHeight(100);
-
+	
 	// Text will be directed from the bottom-left to the top-right corner.
 	watermark.setRotation(-40);
-
+	
 	// Remove the following two lines if you need a solid black text.
 	watermark.getFill().setColor(Color.GRAY);
  // Try LightGray to get more Word-style watermark
@@ -49,7 +50,7 @@ public static void main(String[] args) throws Exception
 	// Create a new paragraph and append the watermark to this paragraph.
 	Paragraph watermarkPara = new Paragraph(doc);
 	watermarkPara.appendChild(watermark);
-
+	
 	// Insert the watermark into all headers of each document section.
 	for (Section sect : doc.getSections())
 	{
@@ -195,7 +196,7 @@ private byte[] getImage() throws IOException {
 		   && (numRead=is.read(bytes, offset, bytes.length-offset)) >= 0) {
 		offset += numRead;
 	}
-
+	
 	// Ensure all the bytes have been read in
 	if (offset < bytes.length) {
 		System.out.println("Could not completely read file "+imageFile.getName());

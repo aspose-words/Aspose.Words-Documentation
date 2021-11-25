@@ -1,5 +1,6 @@
 ---
 title: Code Comparison for common features with NPOI
+description: "Take a look at code comparison of some features implemented in Aspose.Words for .NET and NPOI."
 type: docs
 weight: 10
 url: /net/code-comparison-for-common-features-with-npoi/

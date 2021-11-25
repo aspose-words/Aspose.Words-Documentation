@@ -1,5 +1,6 @@
 ---
 title: Access Ranges in Document
+description: "Aspose.Words for Java allows you to access ranges in a document easily and fast instead of using Apache POI."
 type: docs
 weight: 10
 url: /java/access-ranges-in-document/

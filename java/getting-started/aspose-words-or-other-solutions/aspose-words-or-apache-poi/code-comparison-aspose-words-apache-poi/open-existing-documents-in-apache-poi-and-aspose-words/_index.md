@@ -1,5 +1,6 @@
 ---
 title: Open Existing Documents in Apache POI and Aspose.Words
+description: "Aspose.Words for Java allows you to open an existing document easily and fast instead of using Apache POI."
 type: docs
 weight: 50
 url: /java/open-existing-documents-in-apache-poi-and-aspose-words/
@@ -15,7 +16,7 @@ Pass a file name as a string to the Document constructor that accepts a string t
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AsposeOpenExistingDoc.class);
- 
+
 Document doc = new Document(dataDir + "document.doc");
 {{< /highlight >}}
 
@@ -28,7 +29,7 @@ FileInputStream is passed to the constructor of HWPFDocument to open an existing
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheOpenExistingDoc.class);
- 
+
 HWPFDocument doc = new HWPFDocument(new FileInputStream(
                 dataDir + "document.doc"));
 {{< /highlight >}}
