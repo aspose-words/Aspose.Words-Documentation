@@ -1,5 +1,6 @@
 ---
 title: Insert Image using Apache POI and Aspose.Words
+description: "Aspose.Words for Java allows you to add image into a document easily and fast instead of using Apache POI."
 type: docs
 weight: 40
 url: /java/insert-image-using-apache-poi-and-aspose-words/
@@ -14,10 +15,10 @@ This example inserts a floating image from a file or URL at a specified position
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AsposeInsertImage.class);
- 
+
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 builder.insertImage(dataDir + "background.jpg");
 builder.insertImage(dataDir + "background.jpg",
         RelativeHorizontalPosition.MARGIN,
@@ -27,7 +28,7 @@ builder.insertImage(dataDir + "background.jpg",
         200,
         100,
         WrapType.SQUARE);
- 
+
 doc.save(dataDir + "Aspose_InsertImage.docx");
 {{< /highlight >}}
 
@@ -40,19 +41,19 @@ XWPFRun.addPicture is used to add an image to document.
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheInsertImage.class);
- 
+
 XWPFDocument doc = new XWPFDocument();
 XWPFParagraph p = doc.createParagraph();
- 
+
 String imgFile = dataDir + "aspose.jpg";
 XWPFRun r = p.createRun();
- 
+
 int format = XWPFDocument.PICTURE_TYPE_JPEG;
 r.setText(imgFile);
 r.addBreak();
 r.addPicture(new FileInputStream(imgFile), format, imgFile, Units.toEMU(200), Units.toEMU(200)); // 200x200 pixels
 r.addBreak(BreakType.PAGE);
- 
+
 FileOutputStream out = new FileOutputStream(dataDir + "Apache_ImagesInDoc.docx");
 doc.write(out);
 out.close();

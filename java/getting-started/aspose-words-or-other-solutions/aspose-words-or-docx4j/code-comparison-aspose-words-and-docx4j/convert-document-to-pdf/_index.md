@@ -1,5 +1,6 @@
 ---
 title: Convert Document to PDF
+description: "Aspose.Words for Java allows you to convert a document in any supported format to PDF easily and fast instead of using docx4j."
 type: docs
 weight: 40
 url: /java/convert-document-to-pdf/
@@ -52,7 +53,7 @@ public static void main(String[] args)
 	// Here we have to do this before calling createContent,
 	// since that discovers fonts
 	String regex = null;
-
+	
 	// Windows:
 	// String
 	// regex=".*(calibri|camb|cour|arial|symb|times|Times|zapf).*";
@@ -61,7 +62,7 @@ public static void main(String[] args)
 	// String
 	// regex=".*(Courier New|Arial|Times New Roman|Comic Sans|Georgia|Impact|Lucida Console|Lucida Sans Unicode|Palatino Linotype|Tahoma|Trebuchet|Verdana|Symbol|Webdings|Wingdings|MS Sans Serif|MS Serif).*";
 	PhysicalFonts.setRegex(regex);
-
+	
 	// Document loading (required)
 	WordprocessingMLPackage wordMLPackage;
 	if (inputfilepath==null) {
@@ -74,22 +75,22 @@ public static void main(String[] args)
 		System.out.println("Loading file from " + inputfilepath);
 		wordMLPackage = WordprocessingMLPackage.load(new java.io.File(inputfilepath));
 	}
-
+	
 	// Refresh the values of DOCPROPERTY fields
 	FieldUpdater updater = new FieldUpdater(wordMLPackage);
 	updater.update(true);
-
+	
 	// Set up font mapper (optional)
 	Mapper fontMapper = new IdentityPlusMapper();
 	wordMLPackage.setFontMapper(fontMapper);
-
+	
 	// .. example of mapping font Times New Roman which doesn't have certain Arabic glyphs
 	// eg Glyph "ي" (0x64a, afii57450) not available in font "TimesNewRomanPS-ItalicMT".
 	// eg Glyph "ج" (0x62c, afii57420) not available in font "TimesNewRomanPS-ItalicMT".
 	// to a font which does
 	PhysicalFont font
 			= PhysicalFonts.get("Arial Unicode MS");
-
+	
 		// make sure this is in your regex (if any)!!!
 //		if (font!=null) {
 //			fontMapper.put("Times New Roman", font);
@@ -115,12 +116,12 @@ public static void main(String[] args)
 	String outputfilepath;
 	outputfilepath = dataDir + "OUT_FontContent.pdf";
 	OutputStream os = new java.io.FileOutputStream(outputfilepath);
-
+	
 	// Specify whether PDF export uses XSLT or not to create the FO
 	// (XSLT takes longer, but is more complete).
 	// Don't care what type of exporter you use
 	Docx4J.toFO(foSettings, os, Docx4J.FLAG_EXPORT_PREFER_XSL);
-
+	
 	// Prefer the exporter, that uses a xsl transformation
 	// Docx4J.toFO(foSettings, os, Docx4J.FLAG_EXPORT_PREFER_XSL);
 	// Prefer the exporter, that doesn't use a xsl transformation (= uses a visitor)

@@ -1,5 +1,6 @@
 ---
 title: Insert Hyperlink to Document
+description: "Aspose.Words for Java allows you to insert a hyperlink to a document easily and fast instead of using docx4j."
 type: docs
 weight: 60
 url: /java/insert-hyperlink-to-document/
@@ -39,10 +40,10 @@ public static void main(String[] args) throws Exception
 	org.docx4j.wml.P paragraph = Context.getWmlObjectFactory().createP();
 	paragraph.getContent().add( link );
 	mdp.addObject(paragraph);
-
+	
 	// Now save it
 	wordMLPackage.save(new java.io.File(dataDir + "OUT_HyperlinkTest.docx") );
-
+	
 	// Uncomment to display the result as Flat OPC XML
 //		FlatOpcXmlCreator worker = new FlatOpcXmlCreator(wordMLPackage);
 //		worker.marshal(System.out);

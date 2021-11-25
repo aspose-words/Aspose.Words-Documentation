@@ -1,5 +1,6 @@
 ---
 title: Convert Document to Other Formats
+description: "Aspose.Words for Java allows you to convert a document from one format to another and fast instead of using Apache POI."
 type: docs
 weight: 30
 url: /java/convert-document-to-other-formats/
@@ -21,10 +22,10 @@ The following code example demonstrates how to convert a whole document from DOC
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AsposeConvertToFormats.class);
- 
+
 // Load the document from disk.
 Document doc = new Document(dataDir + "document.doc");
- 
+
 doc.save(dataDir + "Aspose_DocToHTML.html",SaveFormat.HTML); //Save the document in HTML format.
 doc.save(dataDir + "Aspose_DocToPDF.pdf",SaveFormat.PDF); //Save the document in PDF format.
 doc.save(dataDir + "Aspose_DocToTxt.txt",SaveFormat.TEXT); //Save the document in TXT format.
@@ -41,9 +42,9 @@ Apache POI also allows to covert in FO and text format.
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheConvertToFormats.class);
- 
+
 HWPFDocumentCore wordDocument = WordToHtmlUtils.loadDoc(new FileInputStream(dataDir + "document.doc"));
- 
+
 WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(
         DocumentBuilderFactory.newInstance().newDocumentBuilder()
                 .newDocument());
@@ -52,7 +53,7 @@ Document htmlDocument = wordToHtmlConverter.getDocument();
 ByteArrayOutputStream out = new ByteArrayOutputStream();
 DOMSource domSource = new DOMSource(htmlDocument);
 StreamResult streamResult = new StreamResult(out);
- 
+
 TransformerFactory tf = TransformerFactory.newInstance();
 Transformer serializer = tf.newTransformer();
 serializer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
@@ -60,7 +61,7 @@ serializer.setOutputProperty(OutputKeys.INDENT, "yes");
 serializer.setOutputProperty(OutputKeys.METHOD, "html");
 serializer.transform(domSource, streamResult);
 out.close();
- 
+
 FileOutputStream outputStream = new FileOutputStream(dataDir + "Apache_DocToHTML.html");
 outputStream.write(out.toByteArray());
 outputStream.close();

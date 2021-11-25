@@ -1,5 +1,6 @@
 ---
 title: Working with Footers in NPOI
+description: "Aspose.Words for .NET allows you to work with footers in a document easily and fast instead of using NPOI."
 type: docs
 weight: 10
 url: /net/working-with-footers-in-npoi/

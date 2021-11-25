@@ -1,5 +1,6 @@
 ---
 title: Extract Images from Document
+description: "Aspose.Words for Java allows you to extract images from a document easily and fast instead of using Apache POI."
 type: docs
 weight: 30
 url: /java/extract-images-from-document/
@@ -20,9 +21,9 @@ To extract all images or images having specific type from the document, follow t
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AsposeExtractImages.class);
- 
+
 Document doc = new Document(dataDir + "document.doc");
- 
+
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
 for (Shape shape : (Iterable<Shape>) shapes)
@@ -34,7 +35,7 @@ for (Shape shape : (Iterable<Shape>) shapes)
                                         .imageTypeToExtension(shape.getImageData()
                                                         .getImageType()));
         shape.getImageData().save(dataDir + imageFileName);
- 
+
         imageIndex++;
     }
 }
@@ -49,14 +50,14 @@ getAllPictures is used to extract images from the document.
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheExtractImages.class);
- 
+
 HWPFDocument doc = new HWPFDocument(new FileInputStream(dataDir + "document.doc"));
 List<Picture> pics = doc.getPicturesTable().getAllPictures();
- 
+
 for (int i = 0; i < pics.size(); i++)
 {
     Picture pic = (Picture) pics.get(i);
- 
+
     FileOutputStream outputStream = new FileOutputStream(dataDir + "Apache_" + pic.suggestFullFileName());
     outputStream.write(pic.getContent());
     outputStream.close();

@@ -1,5 +1,6 @@
 ---
 title: Get Document Properties in NPOI
+description: "Aspose.Words for .NET allows you to get document properties easily and fast instead of using NPOI."
 type: docs
 weight: 50
 url: /net/get-document-properties-in-npoi/

@@ -1,5 +1,6 @@
 ---
 title: Convert Document to HTML
+description: "Aspose.Words for Java allows you to convert a document in any supported format to HTML easily and fast instead of using docx4j."
 type: docs
 weight: 30
 url: /java/convert-document-to-html/
