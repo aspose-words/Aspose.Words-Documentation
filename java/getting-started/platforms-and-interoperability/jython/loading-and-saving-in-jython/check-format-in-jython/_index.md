@@ -1,5 +1,6 @@
 ---
-title: Check Format in Jython
+title: Check File Format in Jython
+description: Jython: Check File Format using Aspose.Words for Java 
 type: docs
 weight: 10
 url: /java/check-format-in-jython/

@@ -1,5 +1,6 @@
 ---
 title: Append Documents in Python
+description: Python: append Documents using Aspose.Words for Java
 type: docs
 weight: 10
 url: /java/append-documents-in-python/

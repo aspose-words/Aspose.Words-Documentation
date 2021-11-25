@@ -1,5 +1,6 @@
 ---
 title: Check Format in Ruby
+description: Ruby: check file format using Aspose.Words for Java
 type: docs
 weight: 10
 url: /java/check-format-in-ruby/

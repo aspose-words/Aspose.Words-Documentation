@@ -1,5 +1,6 @@
 ﻿---
 title: Update Fields in Jython
+description: Jython: Update Document Fields using Aspose.Words for Java 
 type: docs
 weight: 90
 url: /java/update-fields-in-jython/

@@ -1,5 +1,6 @@
 ---
 title: Process Comments in PHP
+description: PHP: Process Comments using Aspose.Words for Java
 type: docs
 weight: 20
 url: /java/process-comments-in-php/

@@ -1,5 +1,6 @@
 ---
 title: Apply License in Python
+description: Python: Apply License to Aspose.Words for Java
 type: docs
 weight: 20
 url: /java/apply-license-in-python/

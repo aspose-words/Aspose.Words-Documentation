@@ -1,5 +1,6 @@
 ---
 title: Loading And Saving in Ruby
+description: Ruby: Loading And Saving Documents using Aspose.Words for Java
 type: docs
 weight: 30
 url: /java/loading-and-saving-in-ruby/

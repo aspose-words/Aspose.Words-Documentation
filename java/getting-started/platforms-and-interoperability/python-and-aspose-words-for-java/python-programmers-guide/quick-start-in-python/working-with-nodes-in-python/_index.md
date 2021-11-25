@@ -1,5 +1,6 @@
 ---
 title: Working With Nodes in Python
+description: Python: Working With Nodes using Aspose.Words for Java
 type: docs
 weight: 90
 url: /java/working-with-nodes-in-python/

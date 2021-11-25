@@ -1,5 +1,6 @@
 ---
 title: How to build Aspose.Words for Python via Java
+description: How to build Aspose.Words for Java on Python
 type: docs
 weight: 5
 url: /java/how-to-build-aspose-words-for-python-via-java/

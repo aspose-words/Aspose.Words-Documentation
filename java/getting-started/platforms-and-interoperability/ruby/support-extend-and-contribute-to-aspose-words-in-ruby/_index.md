@@ -1,5 +1,6 @@
 ---
 title: Support, Extend and Contribute to Aspose.Words in Ruby
+description: How to get free Support or Contribute to Aspose.Words for Ruby
 type: docs
 weight: 30
 url: /java/support-extend-and-contribute-to-aspose-words-in-ruby/

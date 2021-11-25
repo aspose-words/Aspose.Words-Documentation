@@ -1,5 +1,6 @@
 ---
 title: Support, Extend and Contribute Aspose.Words in Struts 1.3
+description: Support, Extend and Contribute Aspose.Words for Struts
 type: docs
 weight: 20
 url: /java/support-extend-and-contribute-aspose-words-in-struts-1-3/

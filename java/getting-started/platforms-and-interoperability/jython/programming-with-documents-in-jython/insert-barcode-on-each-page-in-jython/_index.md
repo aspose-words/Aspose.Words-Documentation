@@ -1,5 +1,6 @@
 ---
 title: Insert Barcode on Each Page in Jython
+description: Jython: Insert Barcode on Each Page using Aspose.Words for Java 
 type: docs
 weight: 34
 url: /java/insert-barcode-on-each-page-in-jython/

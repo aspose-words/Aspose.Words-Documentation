@@ -1,5 +1,6 @@
 ﻿---
 title: Copy Bookmarked Text in Ruby
+description: Ruby: copy bookmarked text using Aspose.Words for Java
 type: docs
 weight: 10
 url: /java/copy-bookmarked-text-in-ruby/

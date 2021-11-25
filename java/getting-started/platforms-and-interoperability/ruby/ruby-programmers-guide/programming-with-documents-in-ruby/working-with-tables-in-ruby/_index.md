@@ -1,5 +1,6 @@
 ﻿---
 title: Working With Tables in Ruby
+description: Ruby: Working With Tables using Aspose.Words for Java
 type: docs
 weight: 80
 url: /java/working-with-tables-in-ruby/

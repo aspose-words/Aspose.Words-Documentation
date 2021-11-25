@@ -1,5 +1,6 @@
 ---
 title: Clone Documents in Jython
+description: Jython: Clone Documents using Aspose.Words for Java 
 type: docs
 weight: 32
 url: /java/clone-documents-in-jython/

@@ -1,5 +1,6 @@
 ﻿---
 title: NetBeans - Maven
+description: Aspose.Words Java for NetBeans (Maven) Plugin
 type: docs
 weight: 90
 url: /java/aspose-words-java-for-netbeans-maven/
