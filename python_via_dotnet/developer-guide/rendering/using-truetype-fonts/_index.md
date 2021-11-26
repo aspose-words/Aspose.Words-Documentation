@@ -3,7 +3,8 @@ title: Using TrueType Fonts
 description: "Aspose.Words for Python via .NET can find the right font or its suitable replacement for correct document rendering. This ensures that the difference between the displayed document and the original is minimal when there is not enough information about a font."
 type: docs
 weight: 20
-url: /python/using-truetype-fonts/
+url: /python-net/using-truetype-fonts/
+aliases: [/python/using-truetype-fonts/]
 ---
 
 When working with documents, you often have to use different fonts, styles, and sizes. Documents can contain any number of fonts, which are not necessarily limited to the fonts that are installed in the operating system. The fonts can be completely different, such as fonts taken from other operating systems, purchased, or created by users themselves.

@@ -3,7 +3,7 @@ title: File Formats and Conversions
 description: "With Aspose.Words for Python via .NET, you can quickly and reliably convert documents from any supported load to save format with just two lines of code. It provides high-quality conversions."
 type: docs
 weight: 40
-url: /python/file-formats-and-conversions/
+url: /python-net/file-formats-and-conversions/
 aliases:
  - /python/high-quality-conversions/
  - /python/xml-paper-specification-xps/
@@ -18,6 +18,7 @@ aliases:
  - /python/html-xhtml-and-mhtml/
  - /python/digital-publishing-epub/
  - /python/adobe-portable-document-format-pdf/
+ - /python/file-formats-and-conversions/
 ---
 
 {{% alert color="primary" %}}

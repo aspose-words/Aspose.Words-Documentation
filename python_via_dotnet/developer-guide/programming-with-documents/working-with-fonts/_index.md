@@ -1,8 +1,10 @@
 ---
 title: Working with Fonts
+description: "Aspose.Words for Python allows to customize font settings."
 type: docs
 weight: 120
-url: /python/working-with-fonts/
+url: /python-net/working-with-fonts/
+aliases: [/python/working-with-fonts/]
 ---
 
 ## Getting Font Line Spacing

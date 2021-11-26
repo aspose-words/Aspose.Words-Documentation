@@ -1,8 +1,10 @@
 ---
 title: LINQ Reporting Engine API
+description: "LINQ Reporting Engine allows you to build a report from a template is assembled within the class using python."
 type: docs
 weight: 40
-url: /python/linq-reporting-engine-api/
+url: /python-net/linq-reporting-engine-api/
+aliases: [/python/linq-reporting-engine-api/]
 ---
 
 {{% alert color="primary" %}} 

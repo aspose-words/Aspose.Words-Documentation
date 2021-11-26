@@ -4,7 +4,8 @@ type: docs
 description: “Aspose.Words for Python via .NET allows you to convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose.Words.”
 keywords: convert pdf to other formats python
 weight: 45
-url: /python/convert-pdf-to-other-document-formats/
+url: /python-net/convert-pdf-to-other-document-formats/
+aliases: [/python/convert-pdf-to-other-document-formats/]
 ---
 
 Aspose.Words can load even such a complex format as PDF. This opens up new opportunities: it is possible to convert PDF to Word or other formats that bring users far ahead in solving many applied problems.

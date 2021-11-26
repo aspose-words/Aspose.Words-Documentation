@@ -2,7 +2,8 @@
 title: Working with Styles and Themes
 type: docs
 weight: 40
-url: /python/working-with-styles-and-themes/
+url: /python-net/working-with-styles-and-themes/
+aliases: [/python/working-with-styles-and-themes/]
 ---
 
 The **StyleCollection** class is used to manage built-in and apply user-defined settings to styles.

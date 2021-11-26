@@ -3,7 +3,8 @@ title: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words for Python via .NET can embed the correct TrueType fonts into the resulting document to ensure that it displays accurately. If a font or a specific character is not available, Aspose.Words searches for a suitable font replacement or uses the Font fallback mechanism."
 type: docs
 weight: 10
-url: /python/manipulating-and-substitution-truetype-fonts/
+url: /python-net/manipulating-and-substitution-truetype-fonts/
+aliases: [/python/manipulating-and-substitution-truetype-fonts/]
 ---
 
 Aspose.Words requires TrueType fonts for a variety of tasks, including rendering documents to fixed-page formats, for example, PDF or XPS. When Aspose.Words renders a document, it needs to perform embedding and subset embedding of TrueType fonts into the resulting document, which is a normal practice during a document generation, including popular PDF or XPS formats. This ensures that the document will appear the same to any viewer. Moreover, the XPS specification requires fonts to always be embedded in the document.

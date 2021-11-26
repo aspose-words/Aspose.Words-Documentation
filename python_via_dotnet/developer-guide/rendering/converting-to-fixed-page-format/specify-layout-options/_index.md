@@ -3,7 +3,8 @@ title: Specify Layout Options
 description: "Aspose.Words for Python via .NET provides the ability to specify Layout Options for various document layouts."
 type: docs
 weight: 10
-url: /python/specify-layout-options/
+url: /python-net/specify-layout-options/
+aliases: [/python/specify-layout-options/]
 ---
 
 Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in properties of the **LayoutOptions** class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.

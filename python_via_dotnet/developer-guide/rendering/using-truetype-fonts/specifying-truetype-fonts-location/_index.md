@@ -3,7 +3,8 @@ title: Specify TrueType Fonts Location
 description: "Aspose.Words for Python via .NET enables you to specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system or memory."
 type: docs
 weight: 30
-url: /python/specifying-truetype-fonts-location/
+url: /python-net/specifying-truetype-fonts-location/
+aliases: [/python/specifying-truetype-fonts-location/]
 ---
 
 This topic describes the default behavior of Aspose.Words when it looks for TrueType fonts, including operating system specific differences, and demonstrates how to specify user font sources.
