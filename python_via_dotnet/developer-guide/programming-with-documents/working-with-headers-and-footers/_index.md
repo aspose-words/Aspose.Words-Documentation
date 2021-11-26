@@ -1,5 +1,6 @@
 ---
 title: Working with Headers and Footers
+description: "Create, manage, and remove headers and footers in a document using python."
 type: docs
 weight: 70
 url: /python-net/working-with-headers-and-footers/

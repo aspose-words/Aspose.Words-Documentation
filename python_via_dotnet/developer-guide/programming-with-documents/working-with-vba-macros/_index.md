@@ -1,5 +1,6 @@
 ---
 title: Working with VBA Macros
+description: "Create, read, write, clone, and manage VBA macros in a document using python."
 type: docs
 weight: 200
 url: /python-net/working-with-vba-macros/

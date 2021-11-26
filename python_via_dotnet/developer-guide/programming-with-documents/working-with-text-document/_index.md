@@ -1,5 +1,6 @@
 ---
 title: Working with Text Document
+description: "Work with a text document and modiffy its objects using python."
 type: docs
 weight: 220
 url: /python-net/work-with-text-document/

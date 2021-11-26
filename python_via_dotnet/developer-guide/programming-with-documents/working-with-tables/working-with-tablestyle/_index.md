@@ -1,5 +1,6 @@
 ---
 title: Working with TableStyle
+description: "Manage table style in a document using python."
 type: docs
 weight: 30
 url: /python-net/working-with-tablestyle/

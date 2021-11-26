@@ -1,5 +1,6 @@
 ---
 title: Working with Ranges
+description: "Work with ranges in a document using python."
 type: docs
 weight: 65
 url: /python-net/working-with-ranges/

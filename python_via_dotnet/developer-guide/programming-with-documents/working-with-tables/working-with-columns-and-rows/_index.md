@@ -1,5 +1,6 @@
 ---
 title: Working with Columns and Rows
+description: "Work with table columns and rows in a document using python."
 type: docs
 weight: 40
 url: /python-net/working-with-columns-and-rows/
