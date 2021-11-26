@@ -1,5 +1,6 @@
 ---
 title: How to Add Group Shape into a Word Document
+description: "Add group shape into a document using python."
 type: docs
 weight: 20
 url: /python-net/how-to-add-group-shape-into-a-word-document/

@@ -1,5 +1,6 @@
 ---
 title: Working with Shapes
+description: "Create and manage shapes, ole objects in a document using python."
 type: docs
 weight: 10
 url: /python-net/working-with-shapes/

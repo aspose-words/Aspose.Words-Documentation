@@ -1,5 +1,6 @@
 ---
 title: Working with Graphic Elements
+description: "Work with different graphic objects such as images, shapes, watermarks, and others in a document using python."
 type: docs
 weight: 150
 url: /python-net/working-with-graphic-elements/

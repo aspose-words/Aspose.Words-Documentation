@@ -1,5 +1,6 @@
 ---
 title: Working with Watermark
+description: "Create and manage watermarks in a document using python."
 type: docs
 weight: 60
 url: /python-net/working-with-watermark/

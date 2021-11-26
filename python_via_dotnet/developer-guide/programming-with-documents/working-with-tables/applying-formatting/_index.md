@@ -1,5 +1,6 @@
 ---
 title: Applying Formatting
+description: "Apply table and its row, column and cell formatting in a document using python."
 type: docs
 weight: 20
 url: /python-net/applying-formatting/

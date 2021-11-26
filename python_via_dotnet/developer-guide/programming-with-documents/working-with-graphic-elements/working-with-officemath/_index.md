@@ -1,5 +1,6 @@
 ---
 title: Working with OfficeMath
+description: "Create and manage OfficeMath Type Objects in a document using python."
 type: docs
 weight: 30
 url: /python-net/working-with-officemath/
