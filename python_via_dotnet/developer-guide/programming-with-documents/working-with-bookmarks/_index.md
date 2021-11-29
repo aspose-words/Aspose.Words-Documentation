@@ -1,8 +1,10 @@
 ---
 title: Working with Bookmarks
+description: "Learn how to insert, obtain, move, sohw or hide bookmarks using python."
 type: docs
 weight: 86
-url: /python/working-with-bookmarks/
+url: /python-net/working-with-bookmarks/
+aliases: [/python/working-with-bookmarks/]
 ---
 
 Bookmarks identify in a Microsoft Word document the locations or fragments that you name and identify for future reference. For example, you might use a bookmark to identify text that you want to revise later. Instead of scrolling through the document to locate the text, you can go to it by using the Bookmark dialog box.

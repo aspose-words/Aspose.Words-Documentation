@@ -1,5 +1,6 @@
-﻿---
+---
 title: Create New Document in Apache POI and Aspose.Words
+description: "Aspose.Words for Java allows you to create a new document easily and fast instead of using Apache POI."
 type: docs
 weight: 35
 url: /java/create-new-document-in-apache-poi-and-aspose-words/
@@ -16,17 +17,17 @@ If you want to generate a document programmatically, the most reasonable step af
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AsposeNewDocument.class);
- 
+
 Document doc = new Document();
- 
+
 // DocumentBuilder provides members to easily add content to a document.
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 // Write a new paragraph in the document with some text as "Sample Content..."
 builder.setBold(true);
- 
+
 builder.writeln("Aspose Sample Content for Word file.");
- 
+
 // Save the document in DOCX format. The format to save as is inferred from the extension of the file name.
 // Aspose.Words supports saving any document in many more formats.
 doc.save(dataDir + "Aspose_NewDoc.docx",SaveFormat.DOCX);
@@ -41,13 +42,13 @@ The code example given below shows how to create a new document using Apache POI
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheNewDocument.class);
- 
+
 XWPFDocument document = new XWPFDocument();
 XWPFParagraph tmpParagraph = document.createParagraph();
 XWPFRun tmpRun = tmpParagraph.createRun();
 tmpRun.setText("Apache Sample Content for Word file.");
 tmpRun.setFontSize(18);
- 
+
 FileOutputStream fos = new FileOutputStream(dataDir + "Apache_newWordDoc.doc");
 document.write(fos);
 fos.close();

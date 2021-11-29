@@ -1,5 +1,6 @@
-﻿---
+---
 title: Joining Word Documents Together
+description: "Aspose.Words for .NET allows you to join a few document together or append them easily and fast instead of using VSTO."
 type: docs
 weight: 20
 url: /net/joining-word-documents-together/
@@ -48,11 +49,11 @@ for (int i = 1; i <= recordCount; i++)
 	dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles);
 	Document doc2 = new Document("Section.ModifyPageSetupInAllSections.doc");
 	dstDoc.AppendDocument(doc2, ImportFormatMode.UseDestinationStyles);
-
+	
 	// In automation you were required to insert a new section break at this point, however in
 	// Aspose.Words we don't need to do anything here as the appended document is imported as
 	   separate sectons already.
-
+	
 	// If this is the second document or above being appended then unlink all headers footers in
 	// this section from the headers and footers of the previous section.
 	if (i > 1)

@@ -3,7 +3,8 @@ title: Specify Save Options
 description: "Aspose.Words for Python via .NET enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
 type: docs
 weight: 10
-url: /python/specify-save-options/
+url: /python-net/specify-save-options/
+aliases: [/python/specify-save-options/]
 ---
 
 When saving a document, you can set some advanced properties. Aspose.Words provides you with the **SaveOptions** class, which allows more precise control of the save process. There are overloads of the **save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is **PdfSaveOptions** for saving to PDF format or **ImageSaveOptions** for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.

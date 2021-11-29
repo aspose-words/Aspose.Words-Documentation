@@ -1,8 +1,10 @@
 ---
 title: Working with Hyperlinks and HTML
+description: "Aspose.Words for Python allows to insert, replace, or modify a hyperlink into the document."
 type: docs
 weight: 50
-url: /python/working-with-hyperlinks-and-html/
+url: /python-net/working-with-hyperlinks-and-html/
+aliases: [/python/working-with-hyperlinks-and-html/]
 ---
 
 ## Inserting a Hyperlink

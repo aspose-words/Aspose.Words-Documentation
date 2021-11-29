@@ -1,8 +1,10 @@
 ---
 title: How to Extract Selected Content Between Nodes in a Document
+description: "Learn how to extract specific content from a range within the document easily using python."
 type: docs
 weight: 40
-url: /python/how-to-extract-selected-content-between-nodes-in-a-document/
+url: /python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+aliases: [/python/how-to-extract-selected-content-between-nodes-in-a-document/]
 ---
 
 ## Extract Content Overview and Code

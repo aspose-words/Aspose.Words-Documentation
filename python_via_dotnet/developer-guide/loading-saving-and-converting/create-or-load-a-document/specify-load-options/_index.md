@@ -3,7 +3,8 @@ title: Specify Load Options
 description: "Aspose.Words for Python via .NET enables you to set advanced properties when loading a document. This allows you to more accurately control the load process."
 type: docs
 weight: 10
-url: /python/specify-load-options/
+url: /python-net/specify-load-options/
+aliases: [/python/specify-load-options/]
 ---
 
 When loading a document, you can set some advanced properties. Aspose.Words provides you with the **LoadOptions** class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is **PdfLoadOptions** for loading to PDF format or **TxtLoadOptions** for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.

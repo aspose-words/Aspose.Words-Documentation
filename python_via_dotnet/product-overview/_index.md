@@ -3,7 +3,8 @@ title: Product Overview
 description: "With Aspose.Words for Python via .NET you can create, modify, convert, render, and print documents without relying on third-party applications. Aspose.Words is a cross-platform class library."
 type: docs
 weight: 15
-url: /python/product-overview/
+url: /python-net/product-overview/
+aliases: [/python/product-overview/]
 ---
 
 <img src="product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>

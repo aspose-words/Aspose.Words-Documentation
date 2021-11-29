@@ -3,7 +3,8 @@ title: Working with Markdown Features
 description: "Learn how to implement Markdown features using Aspose.Words for Python via .NET. All the features are represented as corresponding styles or direct formatting."
 type: docs
 weight: 210
-url: /python/working-with-markdown-features/
+url: /python-net/working-with-markdown-features/
+aliases: [/python/working-with-markdown-features/]
 ---
 
 This topic discusses how to implement Markdown features using Aspose.Words. Markdown is a simple way to format plain text that can easily be converted to HTML. Aspose.Words supports the following Markdown features:

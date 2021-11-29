@@ -1,8 +1,10 @@
 ---
 title: Working with Lists
+description: "Create, specify formatting and restart lists in a document using python."
 type: docs
 weight: 100
-url: /python/working-with-lists/
+url: /python-net/working-with-lists/
+aliases: [/python/working-with-lists/]
 ---
 
 This topic describes how to work programmatically with lists using Aspose.Words. Lists can be used in your documents to format, arrange, and emphasize text. Lists are a great way to organize data in documents, and they make it easier for readers to understand key points. 

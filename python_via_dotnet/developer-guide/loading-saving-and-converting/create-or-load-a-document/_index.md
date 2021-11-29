@@ -1,8 +1,10 @@
 ---
 title: "Create or Load a Document"
 type: docs
-url: /python/create-or-load-a-document/
-aliases: [/python/creating-or-loading-a-document/]
+url: /python-net/create-or-load-a-document/
+aliases:
+ - /python/creating-or-loading-a-document/
+ - /python/create-or-load-a-document/
 description: "Aspose.Words for Python via .NET enables you to create a blank document or to load it from a file or stream. This is useful for almost any task performed using Aspose.Words."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10

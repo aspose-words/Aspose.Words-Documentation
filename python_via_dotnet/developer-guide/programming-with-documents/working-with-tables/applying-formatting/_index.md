@@ -1,8 +1,10 @@
 ---
 title: Applying Formatting
+description: "Apply table and its row, column and cell formatting in a document using python."
 type: docs
 weight: 20
-url: /python/applying-formatting/
+url: /python-net/applying-formatting/
+aliases: [/python/applying-formatting/]
 ---
 
 ## Applying Formatting to Table, Row and Cell

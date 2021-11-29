@@ -1,5 +1,6 @@
-﻿---
+---
 title: Remove Header and Footer from Documents
+description: "Aspose.Words for Java allows you to remove headers or footers in a document easily and fast instead of using docx4j."
 type: docs
 weight: 30
 url: /java/remove-header-and-footer-from-documents/
@@ -83,7 +84,7 @@ public static void removeHFFromFile(File f) throws Exception {
 	for (SectPr sectPr : finder.getSectPrList()) {
 		sectPr.getEGHdrFtrReferences().clear();
 	}
-
+	
 	// Remove rels
 	List<Relationship> hfRels = new ArrayList<Relationship>();
 	for (Relationship rel : mdp.getRelationshipsPart().getRelationships().getRelationship() ) {

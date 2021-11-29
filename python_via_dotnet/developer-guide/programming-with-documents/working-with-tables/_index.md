@@ -1,8 +1,10 @@
 ---
 title: Working with Tables
+description: "Work with tables in a document using python."
 type: docs
 weight: 90
-url: /python/working-with-tables/
+url: /python-net/working-with-tables/
+aliases: [/python/working-with-tables/]
 ---
 
 Tables are a common element found in word documents. They allow for large amounts of information to be organized and displayed cleanly in a grid like structure with rows and columns. They are also frequently used as a page layout tool, and a better alternative for displaying tabbed data (with tab stops) as they allow much better control over the design and layout of the content. You can lay out content which is to be kept in a fixed position by using a borderless table. While you would normally have plain text in a table, you can also put other content in cells, such as images or even other tables.

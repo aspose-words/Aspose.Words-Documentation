@@ -3,7 +3,8 @@ title: System Requirements
 description: "Before you start working with Aspose.Words for Python via .NET, ensure that you meet the operating system, platform and environment requirements so the activities on your devices are properly accounted for."
 type: docs
 weight: 70
-url: /python/system-requirements/
+url: /python-net/system-requirements/
+aliases: [/python/system-requirements/]
 ---
 
 Aspose.Words for Python via .NET does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converting, and rendering of documents in various formats, including Microsoft Word document formats.

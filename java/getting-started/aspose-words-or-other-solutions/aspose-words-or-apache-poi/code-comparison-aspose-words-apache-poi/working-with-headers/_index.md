@@ -1,5 +1,6 @@
-﻿---
+---
 title: Working with Headers
+description: "Aspose.Words for Java allows you to remove headers from a document easily and fast instead of using Apache POI."
 type: docs
 weight: 40
 url: /java/working-with-headers/
@@ -14,30 +15,30 @@ The following sample code demonstrates how to create headers/footers using Docum
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AsposeHeaders.class);
- 
+
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
- 
+
 Section currentSection = builder.getCurrentSection();
 PageSetup pageSetup = currentSection.getPageSetup();
- 
+
 // Specify if we want headers/footers of the first page to be different from other pages.
 // You can also use PageSetup.OddAndEvenPagesHeaderFooter property to specify
 // different headers/footers for odd and even pages.
 pageSetup.setDifferentFirstPageHeaderFooter(true);
- 
+
 // --- Create header for the first page. ---
 pageSetup.setHeaderDistance(20);
 builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
- 
+
 // Set font properties for header text.
 builder.getFont().setName("Arial");
 builder.getFont().setBold(true);
 builder.getFont().setSize(14);
 // Specify header title for the first page.
 builder.write("Aspose.Words Header/Footer Creation Primer - Title Page.");
- 
+
 // Save the resulting document.
 doc.save(dataDir + "AsposeHeader.doc");
 {{< /highlight >}}
@@ -51,17 +52,17 @@ HeaderStories can be used to access Headers of the document.
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheHeaders.class);
- 
+
 POIFSFileSystem fs = null;
- 
+
 fs = new POIFSFileSystem(new FileInputStream(dataDir + "AsposeHeader.doc"));
 HWPFDocument doc = new HWPFDocument(fs);
- 
+
 int pageNumber = 1;
- 
+
 HeaderStories headerStore = new HeaderStories(doc);
 String header = headerStore.getHeader(pageNumber);
- 
+
 System.out.println("Header Is: " + header);
 {{< /highlight >}}
 

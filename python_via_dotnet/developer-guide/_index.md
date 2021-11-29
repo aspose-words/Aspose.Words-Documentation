@@ -3,7 +3,8 @@ title: Developer Guide
 description: "This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Words for Python via .NET features, achieve a certain document appearance, or make a use case possible."
 type: docs
 weight: 30
-url: /python/developer-guide/
+url: /python-net/developer-guide/
+aliases: [/python/developer-guide/]
 ---
 
 This Developer Guide provides information on using Aspose.Words for Python via .NET in a variety of practical scenarios. Its articles provide suggestions and tips that will help using specific features, achieve a certain document appearance or make a use case possible.

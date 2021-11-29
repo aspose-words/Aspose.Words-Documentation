@@ -1,8 +1,10 @@
 ---
 title: Working with Comments
+description: "Learn how to add, remove, or manipulate comments in a document using python."
 type: docs
 weight: 140
-url: /python/working-with-comments/
+url: /python-net/working-with-comments/
+aliases: [/python/working-with-comments/]
 ---
 
 {{% alert color="primary" %}} 
@@ -98,7 +100,7 @@ while (currentNode != None and isRemoving) :
     nextNode = currentNode.next_pre_order(doc)
     currentNode.remove()
     currentNode = nextNode
-            
+
 # Save the document.
 doc.save(docs_base.artifacts_dir + "WorkingWithComments.remove_region_text.docx"){{< /highlight >}}
 

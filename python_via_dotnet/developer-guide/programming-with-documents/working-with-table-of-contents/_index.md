@@ -1,8 +1,10 @@
 ---
 title: Working with Table of Contents
+description: "Insert and manage Table ofContents (TOC) in a document using python."
 type: docs
 weight: 83
-url: /python/working-with-table-of-contents/
+url: /python-net/working-with-table-of-contents/
+aliases: [/python/working-with-table-of-contents/]
 ---
 
 ## Insert and Work with the Table of Contents Field
@@ -120,7 +122,7 @@ for field in doc.range.fields :
                         
             print(tocItem.to_string(aw.SaveFormat.TEXT).strip())
             print("------------------")
-
+    
             bm = doc.range.bookmarks.get_by_name(hyperlink.sub_address)
             pointer = bm.bookmark_start.get_ancestor(aw.NodeType.PARAGRAPH).as_paragraph()
                         

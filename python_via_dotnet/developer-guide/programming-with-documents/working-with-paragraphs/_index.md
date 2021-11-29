@@ -1,8 +1,10 @@
 ---
 title: Working with Paragraphs
+description: "Insert paragraph and speciffy its formatting in a document using python."
 type: docs
 weight: 110
-url: /python/working-with-paragraphs/
+url: /python-net/working-with-paragraphs/
+aliases: [/python/working-with-paragraphs/]
 ---
 
 ## Inserting a Paragraph

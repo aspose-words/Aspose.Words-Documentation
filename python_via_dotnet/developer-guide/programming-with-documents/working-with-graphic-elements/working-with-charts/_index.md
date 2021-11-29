@@ -1,8 +1,10 @@
 ---
 title: Working with Charts
+description: "Create and modify charts of various types in a document using python."
 type: docs
 weight: 50
-url: /python/working-with-charts/
+url: /python-net/working-with-charts/
+aliases: [/python/working-with-charts/]
 ---
 
 ## Creating OOXML Charts from Scratch using Aspose.Words

@@ -1,8 +1,10 @@
 ---
 title: Working with Digital Signatures
+description: "Aspose.Words for Python allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
 weight: 40
-url: /python/working-with-digital-signatures/
+url: /python-net/working-with-digital-signatures/
+aliases: [/python/working-with-digital-signatures/]
 ---
 
 A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
