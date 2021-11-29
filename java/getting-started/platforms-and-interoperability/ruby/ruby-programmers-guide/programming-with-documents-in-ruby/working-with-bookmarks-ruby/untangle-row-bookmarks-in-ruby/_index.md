@@ -1,6 +1,6 @@
 ---
 title: Untangle Row Bookmarks in Ruby
-description: Ruby: untangle row bookmarks using Aspose.Words for Java
+description: "Ruby: untangle row bookmarks using Aspose.Words for Java."
 type: docs
 weight: 20
 url: /java/untangle-row-bookmarks-in-ruby/

@@ -1,6 +1,6 @@
 ---
 title: Quick Start in Python
-description: Python: Quick Start Aspose.Words for Java
+description: "Python: Quick Start Aspose.Words for Java."
 type: docs
 weight: 10
 url: /java/quick-start-in-python/

@@ -1,6 +1,6 @@
-﻿---
+---
 title: ColdFusion and Aspose.Words for Java
-description: using Aspose.Words for Java in ColdFusion applications
+description: "Using Aspose.Words for Java in ColdFusion applications."
 type: docs
 weight: 20
 url: /java/coldfusion-and-aspose-words-for-java/

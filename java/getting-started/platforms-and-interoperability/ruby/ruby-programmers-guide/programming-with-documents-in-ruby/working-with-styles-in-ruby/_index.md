@@ -1,6 +1,6 @@
 ---
 title: Working With Styles in Ruby
-description: Ruby: working with Document Styles using Aspose.Words for Java
+description: "Ruby: working with Document Styles using Aspose.Words for Java."
 type: docs
 weight: 70
 url: /java/working-with-styles-in-ruby/

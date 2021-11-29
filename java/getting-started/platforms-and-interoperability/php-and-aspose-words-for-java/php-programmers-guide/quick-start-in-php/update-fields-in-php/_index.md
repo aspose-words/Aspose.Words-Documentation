@@ -1,6 +1,6 @@
 ---
 title: Update Fields in PHP
-description: PHP: update fields of Word Document using Aspose.Words for Java
+description: "PHP: update fields of Word Document using Aspose.Words for Java."
 type: docs
 weight: 80
 url: /java/update-fields-in-php/

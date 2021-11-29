@@ -1,6 +1,6 @@
 ---
 title: Apply License in PHP
-description: PHP: Apply License to Aspose.Words for Java
+description: "PHP: Apply License to Aspose.Words for Java."
 type: docs
 weight: 20
 url: /java/apply-license-in-php/

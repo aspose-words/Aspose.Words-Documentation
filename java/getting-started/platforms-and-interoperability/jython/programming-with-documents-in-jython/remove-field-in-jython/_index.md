@@ -1,6 +1,6 @@
 ---
 title: Remove Field in Jython
-description: Jython: Remove Field using Aspose.Words for Java 
+description: "Jython: Remove Field using Aspose.Words for Java."
 type: docs
 weight: 45
 url: /java/remove-field-in-jython/

@@ -1,6 +1,6 @@
 ---
 title: Apply License in Jython
-description: Jython: Apply License to Aspose.Words for Java 
+description: "Jython: Apply License to Aspose.Words for Java."
 type: docs
 weight: 20
 url: /java/apply-license-in-jython/

@@ -1,6 +1,6 @@
 ---
 title: Convert Document to Other Formats in Jython
-description: Jython: Convert Document to Other Formats using Aspose.Words for Java 
+description: "Jython: Convert Document to Other Formats using Aspose.Words for Java."
 type: docs
 weight: 20
 url: /java/convert-document-to-other-formats-in-jython/

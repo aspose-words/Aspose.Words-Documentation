@@ -1,6 +1,6 @@
-﻿---
+---
 title: Ruby
-description: How to use Aspose.Words for Java from Ruby.
+description: "How to use Aspose.Words for Java from Ruby."
 type: docs
 weight: 60
 url: /java/aspose-words-java-for-ruby/

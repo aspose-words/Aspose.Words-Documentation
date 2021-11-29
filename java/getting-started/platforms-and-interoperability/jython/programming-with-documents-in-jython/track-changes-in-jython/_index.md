@@ -1,6 +1,6 @@
 ---
 title: Track Changes in Jython
-description: Jython: track changes in documents using Aspose.Words for Java 
+description: "Jython: track changes in documents using Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/track-changes-in-jython/

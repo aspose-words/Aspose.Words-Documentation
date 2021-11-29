@@ -1,6 +1,6 @@
-﻿---
+---
 title: Ruby Programmers Guide
-description: Examples of Aspose.Words for Java on Ruby
+description: "Examples of Aspose.Words for Java on Ruby."
 type: docs
 weight: 20
 url: /java/ruby-programmers-guide/

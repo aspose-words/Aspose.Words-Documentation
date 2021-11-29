@@ -1,6 +1,6 @@
-﻿---
+---
 title: Copy Bookmarked Text in PHP
-description: PHP: Copy Bookmarked Text using Aspose.Words for Java
+description: "PHP: Copy Bookmarked Text using Aspose.Words for Java."
 type: docs
 weight: 23
 url: /java/copy-bookmarked-text-in-php/

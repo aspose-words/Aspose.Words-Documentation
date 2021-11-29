@@ -1,6 +1,6 @@
-﻿---
+---
 title: Eclipse - Maven
-description: Aspose.Words Java for Eclipse
+description: "Aspose.Words Java for Eclipse."
 type: docs
 weight: 100
 url: /java/aspose-words-java-for-eclipse-maven/

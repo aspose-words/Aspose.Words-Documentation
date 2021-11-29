@@ -1,6 +1,6 @@
 ---
 title: Jython
-description: using Aspose.Words for Java from Jython
+description: "Using Aspose.Words for Java from Jython."
 type: docs
 weight: 55
 url: /java/aspose-words-java-for-jython/

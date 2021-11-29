@@ -1,6 +1,6 @@
-﻿---
+---
 title: Load And Save To Stream in Jython
-description: Jython: Load And Save Word Document To Stream using Aspose.Words for Java 
+description: "Jython: Load And Save Word Document To Stream using Aspose.Words for Java."
 type: docs
 weight: 70
 url: /java/load-and-save-to-stream-in-jython/

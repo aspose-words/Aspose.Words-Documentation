@@ -1,6 +1,6 @@
 ---
 title: Rendering and Printing in Jython
-description: Jython: Rendering and Printing Document using Aspose.Words for Java 
+description: "Jython: Rendering and Printing Document using Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/rendering-and-printing-in-jython/
