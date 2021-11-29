@@ -1,5 +1,6 @@
 ---
 title: dotCMS
+description: "Using Aspose.Words for Java on dotCMS."
 type: docs
 weight: 110
 url: /java/aspose-words-java-for-dotcms/

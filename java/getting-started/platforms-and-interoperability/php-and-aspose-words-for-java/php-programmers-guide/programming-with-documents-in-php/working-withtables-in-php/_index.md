@@ -1,5 +1,6 @@
-﻿---
+---
 title: Working With Tables in PHP
+description: "PHP: Working With Tables using Aspose.Words for Java."
 type: docs
 weight: 80
 url: /java/working-withtables-in-php/

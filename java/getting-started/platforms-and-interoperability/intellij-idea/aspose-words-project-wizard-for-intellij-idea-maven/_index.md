@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words Project Wizard for IntelliJ IDEA - Maven
+description: "Aspose.Words Project Wizard for IntelliJ IDEA."
 type: docs
 weight: 10
 url: /java/aspose-words-project-wizard-for-intellij-idea-maven/

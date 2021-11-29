@@ -1,5 +1,6 @@
 ---
 title: Export to Word Plugin for dotCMS
+description: "Export to Word Plugin for dotCMS."
 type: docs
 weight: 10
 url: /java/export-to-word-plugin-for-dotcms/

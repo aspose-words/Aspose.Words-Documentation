@@ -1,5 +1,6 @@
 ---
 title: Quick Start in Jython
+description: "Jython: Quick Start Aspose.Words for Java."
 type: docs
 weight: 30
 url: /java/quick-start-in-jython/

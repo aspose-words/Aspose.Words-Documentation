@@ -1,5 +1,6 @@
 ---
 title: Working With Nodes in Jython
+description: "Jython: Working With Word Document Nodes using Aspose.Words for Java."
 type: docs
 weight: 100
 url: /java/working-with-nodes-in-jython/

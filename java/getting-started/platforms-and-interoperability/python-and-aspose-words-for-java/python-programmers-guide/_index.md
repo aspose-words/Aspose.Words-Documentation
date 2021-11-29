@@ -1,5 +1,6 @@
-﻿---
+---
 title: Python Programmers Guide
+description: "Examples of Aspose.Words.Java API in Python using JPype."
 type: docs
 weight: 20
 url: /java/python-programmers-guide/
