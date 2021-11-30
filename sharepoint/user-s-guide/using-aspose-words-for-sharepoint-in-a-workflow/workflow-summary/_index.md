@@ -1,5 +1,6 @@
----
+﻿---
 title: Workflow Summary
+description: "This guide describes available workflow scenarios with the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/workflow-summary/

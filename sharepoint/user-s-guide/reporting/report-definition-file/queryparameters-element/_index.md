@@ -1,5 +1,6 @@
 ---
 title: QueryParameters Element
+description: "This page describes QueryParameters element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 130
 url: /sharepoint/queryparameters-element/
@@ -10,4 +11,3 @@ The QueryParameters element set the order in which parameters are substituted in
 |Name|Cardinality|Has Children|Description|
 | :- | :- | :- | :- |
 |Name|1-N|No|Parameter name. It must match a parameter name defined in the [Parameters](/words/sharepoint/parameters-element/) element.|
-

@@ -1,5 +1,6 @@
----
+﻿---
 title: Parameters Element
+description: "This page describes Parameters element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 210
 url: /sharepoint/parameters-element/
@@ -13,4 +14,3 @@ The Parameters element contains information about report parameters. Aspose.Word
 |Int32|1-N|Yes|Describes a 32-bit integer report parameter.|
 |DateTime|1-N|Yes|Describes a report parameter for representing date and time values.|
 |Decimal|1-N|Yes|Describes a decimal report parameter.|
-

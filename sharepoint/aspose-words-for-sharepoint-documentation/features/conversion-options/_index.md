@@ -1,5 +1,6 @@
 ﻿---
 title: Conversion Options
+description: "This page describes list of file conversion options of the Aspose.Words for SharePoint."
 type: docs
 weight: 20
 url: /sharepoint/conversion-options/

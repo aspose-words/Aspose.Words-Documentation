@@ -1,5 +1,6 @@
 ﻿---
 title: Report Definition Overview
+description: "This page describes report definition file meaning, it's structure and how to work with a such file while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 10
 url: /sharepoint/report-definition-overview/
@@ -12,11 +13,11 @@ The report definition file is an XML file that describes details about the repor
 - Relationships between data tables returned by different queries.
 - Report parameters.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A [report template](/words/sharepoint/linking-report-template-with-report-definition/) must have a link to the report definition file.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 When designing a report for Aspose.Words for SharePoint, you need to create a report definition file. Currently, there is no tool for editing report definitions, so you have to edit the raw XML. Think of the report definition file as a configuration file where you specify all the data retrieval details rather than coding them with the Aspose.Words API. If you do not need the fine level of control that the Aspose.Words class library offers, Aspose.Words for SharePoint may be more suitable.
 
@@ -43,5 +44,3 @@ It has the same value (“MyTable”) as the element below.
 {{< /highlight >}}
 
 The report definition schema file (Report.xsd) and data source definition schema file (DataSource.xsd) are included in the installation package for reference.
-
-
