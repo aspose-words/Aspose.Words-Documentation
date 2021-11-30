@@ -1,6 +1,6 @@
 ---
 title: TableNames Element
-description: "This page describes TableNames element meaning and structure."
+description: "This page describes TableNames element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 120
 url: /sharepoint/tablenames-element/
@@ -11,4 +11,3 @@ The TableNames element describes how to name the tables returned by its parent q
 |Name|Cardinality|Has Children|Description|
 | :- | :- | :- | :- |
 |TableName|1-N|No|Table name. It must not be empty.|
-

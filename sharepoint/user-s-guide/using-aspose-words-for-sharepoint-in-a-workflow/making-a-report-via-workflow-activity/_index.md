@@ -1,6 +1,6 @@
 ﻿---
 title: Making a Report via Workflow Activity
-description: "This article walks you through creating a workflow for building a report with parameters."
+description: "This article walks you through creating a workflow for building a report with parameters while using Aspose.Words for SharePoint reports."
 type: docs
 weight: 30
 url: /sharepoint/making-a-report-via-workflow-activity/
@@ -16,7 +16,7 @@ This article walks you through creating a workflow for building a report with pa
 1. Add the **Make a Report via Aspose.Words** activity to the workflow.<br>
    Adding workflow activity for making a report.<br>
 ![todo:image_alt_text](making-a-report-via-workflow-activity_2.png)<br>
-By default, the report template is taken from the current list item.<br> 
+By default, the report template is taken from the current list item.<br>
 ![todo:image_alt_text](making-a-report-via-workflow-activity_3.png)<br>
 However, this example uses a fixed URL set to the report template by editing the first workflow parameter.<br>
 The report template URL is specified in the activity parameter.<br>

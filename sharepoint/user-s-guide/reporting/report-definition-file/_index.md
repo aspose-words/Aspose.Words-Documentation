@@ -1,6 +1,6 @@
 ---
 title: Report Definition File
-description: "This guide describes details of report definition file structure."
+description: "This guide describes details of report definition file structure which used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 80
 url: /sharepoint/report-definition-file/
@@ -30,7 +30,3 @@ url: /sharepoint/report-definition-file/
 - [ChildColumns Element](/words/sharepoint/childcolumns-element/)
 - [Parameters Element](/words/sharepoint/parameters-element/)
 - [Parameter Elements](/words/sharepoint/parameter-elements/)
-
-
-
-

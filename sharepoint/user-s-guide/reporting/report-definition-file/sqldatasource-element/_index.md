@@ -1,6 +1,6 @@
 ﻿---
 title: SqlDataSource Element
-description: "This page describes SqlDataSource element meaning and structure."
+description: "This page describes SqlDataSource element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 60
 url: /sharepoint/sqldatasource-element/
@@ -11,4 +11,3 @@ This element contains information about a connection to a Microsoft SQL server d
 |Name|Cardinality|Has Children|Description|
 | :- | :- | :- | :- |
 |ConnectionString|1|No|Data source connection string. It must not be empty.|
-
