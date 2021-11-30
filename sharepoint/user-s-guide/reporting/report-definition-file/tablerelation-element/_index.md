@@ -1,5 +1,6 @@
 ---
 title: TableRelation Element
+description: "This page describes TableRelation element meaning and structure."
 type: docs
 weight: 170
 url: /sharepoint/tablerelation-element/

@@ -1,5 +1,6 @@
 ﻿---
 title: Linking Report Template with Report Definition
+description: "This guide describes how to link report tamplate with the report definition."
 type: docs
 weight: 60
 url: /sharepoint/linking-report-template-with-report-definition/

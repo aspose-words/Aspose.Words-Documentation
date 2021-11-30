@@ -1,5 +1,6 @@
 ---
 title: ChildColumns Element
+description: "This page describes ChildColumns element meaning and structure."
 type: docs
 weight: 200
 url: /sharepoint/childcolumns-element/

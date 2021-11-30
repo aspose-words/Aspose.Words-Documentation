@@ -1,5 +1,6 @@
 ﻿---
 title: Multiple Format Support
+description: "This page describes list of supported formats by the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/multiple-format-support/

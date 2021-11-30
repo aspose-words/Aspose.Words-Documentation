@@ -1,5 +1,6 @@
 ﻿---
 title: Converting a Document via Workflow Activity
+description: "This article explains how to use SharePoint Designer to create a workflow for converting new documents to PDF and storing the results in another document library."
 type: docs
 weight: 20
 url: /sharepoint/converting-a-document-via-workflow-activity/

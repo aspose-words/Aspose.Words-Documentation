@@ -1,5 +1,6 @@
----
+﻿---
 title: Making a Report via Workflow Activity
+description: "This article walks you through creating a workflow for building a report with parameters."
 type: docs
 weight: 30
 url: /sharepoint/making-a-report-via-workflow-activity/

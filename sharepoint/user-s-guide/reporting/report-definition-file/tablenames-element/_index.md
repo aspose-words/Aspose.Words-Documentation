@@ -1,5 +1,6 @@
 ---
 title: TableNames Element
+description: "This page describes TableNames element meaning and structure."
 type: docs
 weight: 120
 url: /sharepoint/tablenames-element/

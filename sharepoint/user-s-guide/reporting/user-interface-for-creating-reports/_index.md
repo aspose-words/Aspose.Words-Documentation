@@ -1,5 +1,6 @@
 ﻿---
 title: User Interface for Creating Reports
+description: "This guide describes how to create report using the Aspose.Words for SharePoint from SharePoint UI."
 type: docs
 weight: 70
 url: /sharepoint/user-interface-for-creating-reports/

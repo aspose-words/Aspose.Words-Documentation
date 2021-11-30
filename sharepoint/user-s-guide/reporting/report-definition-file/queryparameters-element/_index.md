@@ -1,5 +1,6 @@
 ---
 title: QueryParameters Element
+description: "This page describes QueryParameters element meaning and structure."
 type: docs
 weight: 130
 url: /sharepoint/queryparameters-element/

@@ -1,5 +1,6 @@
 ﻿---
 title: Report Element
+description: "This page describes Report element meaning and structure."
 type: docs
 weight: 20
 url: /sharepoint/report-element/

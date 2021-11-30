@@ -1,5 +1,6 @@
----
+﻿---
 title: SPListQuery Element
+description: "This page describes SPListQuery element meaning and structure."
 type: docs
 weight: 140
 url: /sharepoint/splistquery-element/

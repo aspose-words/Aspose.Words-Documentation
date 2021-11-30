@@ -1,5 +1,6 @@
 ---
 title: Relations Element
+description: "This page describes Relations element meaning and structure."
 type: docs
 weight: 160
 url: /sharepoint/relations-element/

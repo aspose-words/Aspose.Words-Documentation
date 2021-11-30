@@ -1,5 +1,6 @@
 ---
 title: Workflow support
+description: "This page describes workflow features of the Aspose.Words for SharePoint."
 type: docs
 weight: 40
 url: /sharepoint/workflow-support/
@@ -9,6 +10,7 @@ You can use Aspose.Words for SharePoint from a document workflow. Upon installat
 
 - Convert via Aspose.Words.
 - Make a Report via Aspose.Words.
+- Inserting a Watermark.
 
 Use them in workflows to convert documents or build reports.
 

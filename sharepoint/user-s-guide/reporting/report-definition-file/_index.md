@@ -1,5 +1,6 @@
 ---
 title: Report Definition File
+description: "This guide describes details of report definition file structure."
 type: docs
 weight: 80
 url: /sharepoint/report-definition-file/

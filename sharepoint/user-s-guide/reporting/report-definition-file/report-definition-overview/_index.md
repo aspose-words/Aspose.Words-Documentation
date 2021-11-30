@@ -1,5 +1,6 @@
 ﻿---
 title: Report Definition Overview
+description: "This page describes report definition file meaning, it's structure and how to work with a such file."
 type: docs
 weight: 10
 url: /sharepoint/report-definition-overview/

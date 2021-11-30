@@ -1,5 +1,6 @@
----
+﻿---
 title: SqlDataSource Element
+description: "This page describes SqlDataSource element meaning and structure."
 type: docs
 weight: 60
 url: /sharepoint/sqldatasource-element/

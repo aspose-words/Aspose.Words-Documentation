@@ -1,5 +1,6 @@
----
+﻿---
 title: Credentials Element
+description: "This page describes Credentials element meaning and structure."
 type: docs
 weight: 90
 url: /sharepoint/credentials-element/

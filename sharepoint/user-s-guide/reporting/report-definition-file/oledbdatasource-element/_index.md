@@ -1,5 +1,6 @@
----
+﻿---
 title: OleDbDataSource Element
+description: "This page describes OleDbDataSource element meaning and structure."
 type: docs
 weight: 70
 url: /sharepoint/oledbdatasource-element/

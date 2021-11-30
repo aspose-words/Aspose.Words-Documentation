@@ -1,5 +1,6 @@
 ﻿---
 title: DataSet Element
+description: "This page describes DataSet element meaning and structure."
 type: docs
 weight: 40
 url: /sharepoint/dataset-element/

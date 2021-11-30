@@ -1,5 +1,6 @@
----
+﻿---
 title: Parameters Element
+description: "This page describes Parameters element meaning and structure."
 type: docs
 weight: 210
 url: /sharepoint/parameters-element/

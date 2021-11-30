@@ -1,5 +1,6 @@
 ---
 title: SPDataSource Element
+description: "This page describes SPDataSource element meaning and structure."
 type: docs
 weight: 80
 url: /sharepoint/spdatasource-element/

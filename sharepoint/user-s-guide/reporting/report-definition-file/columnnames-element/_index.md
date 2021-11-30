@@ -1,5 +1,6 @@
 ---
 title: ColumnNames Element
+description: "This page describes ColumnNames element meaning and structure."
 type: docs
 weight: 190
 url: /sharepoint/columnnames-element/

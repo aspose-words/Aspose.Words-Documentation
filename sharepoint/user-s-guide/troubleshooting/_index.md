@@ -1,5 +1,6 @@
----
+﻿---
 title: Troubleshooting
+description: "This page describes possible way find more details in case of issues."
 type: docs
 weight: 40
 url: /sharepoint/troubleshooting/

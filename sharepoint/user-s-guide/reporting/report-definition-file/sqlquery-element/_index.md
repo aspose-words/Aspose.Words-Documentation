@@ -1,5 +1,6 @@
 ﻿---
 title: SqlQuery Element
+description: "This page describes SqlQuery element meaning and structure."
 type: docs
 weight: 110
 url: /sharepoint/sqlquery-element/

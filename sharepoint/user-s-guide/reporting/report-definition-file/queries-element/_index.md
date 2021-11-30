@@ -1,5 +1,6 @@
 ---
 title: Queries Element
+description: "This page describes Queries element meaning and structure."
 type: docs
 weight: 100
 url: /sharepoint/queries-element/

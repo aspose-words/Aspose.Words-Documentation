@@ -1,5 +1,6 @@
 ---
 title: ParentColumns Element
+description: "This page describes ParentColumns element meaning and structure."
 type: docs
 weight: 180
 url: /sharepoint/parentcolumns-element/

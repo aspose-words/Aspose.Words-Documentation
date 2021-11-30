@@ -1,5 +1,6 @@
 ﻿---
 title: Inserting a Watermark via Workflow Activity
+description: "This article shows you how to create a workflow for inserting a text or image watermark into a document."
 type: docs
 weight: 40
 url: /sharepoint/inserting-a-watermark-via-workflow-activity/

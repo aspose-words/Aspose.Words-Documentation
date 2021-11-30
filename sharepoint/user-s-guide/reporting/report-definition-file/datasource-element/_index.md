@@ -1,5 +1,6 @@
 ---
 title: DataSource Element
+description: "This page describes DataSource element meaning and structure."
 type: docs
 weight: 50
 url: /sharepoint/datasource-element/
