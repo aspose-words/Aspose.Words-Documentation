@@ -1,15 +1,16 @@
 ---
 title: Rendering Reports Programmatically
+description: "This page describes how to render report without report viewer and report manager interfaces using the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/rendering-reports-programmatically/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes you need to render reports programmatically instead of using the Report Manager or Report Viewer interface. This might happen, for example, if you need to include report rendering in your application where the user may want to export the report to Microsoft Word document by clicking a button on the form. The following code samples demonstrate how to render reports programmatically in your application.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Rendering via Reporting Services Web Service
 
@@ -17,7 +18,7 @@ If you have a Report Server running with Aspose.Words for Reporting Services ins
 
 ### Step 1. Add a reference to the ReportingService2005 Web service.
 
-Open your project in Visual Studio, right click on the **References** folder and select **Add Web Reference** . Enter the URL of the **ReportingService2005** Web service ( ReportService2005.asmx) or browse for it using the browser on the left. Once the service is found, enter “ReportingService2005” in the **Web reference name** textbox and click the **Add Reference** button. 
+Open your project in Visual Studio, right click on the **References** folder and select **Add Web Reference** . Enter the URL of the **ReportingService2005** Web service ( ReportService2005.asmx) or browse for it using the browser on the left. Once the service is found, enter “ReportingService2005” in the **Web reference name** textbox and click the **Add Reference** button.
 
 **Adding a reference to the ReportingService2005 Web service in Visual Studio.**
 
@@ -25,7 +26,7 @@ Open your project in Visual Studio, right click on the **References** folder and
 
 ### Step 2. Add a reference to the ReportExecutionService Web service.
 
-Repeat Step 1 for the **ReportExecutionService** ( ReportExecution2005.asmx) Web service. Name it ReportExecutionService and click the **Add Reference** button. 
+Repeat Step 1 for the **ReportExecutionService** ( ReportExecution2005.asmx) Web service. Name it ReportExecutionService and click the **Add Reference** button.
 
 **Adding a reference to the ReportExecutionService Web service in Visual Studio.**
 
@@ -33,7 +34,7 @@ Repeat Step 1 for the **ReportExecutionService** ( ReportExecution2005.asmx) Web
 
 ### Step 3. Implement the rendering method.
 
-Implement the following method in your application: 
+Implement the following method in your application:
 
 **C#**
 
@@ -63,7 +64,7 @@ using System.IO;
 /// "<DeviceInfo><PageBreaksMode>OnEachPage</PageBreaksMode></DeviceInfo>". May be null.
 /// </param>
 private static void RenderReportToFile(
-    string reportName, 
+    string reportName,
     string fileName,
     string format,
     string deviceInfo)
@@ -81,7 +82,7 @@ private static void RenderReportToFile(
 
         // Load the report.
         ReportExecutionService.ExecutionInfo info = rsExec.LoadReport(reportName, null);
-     
+
         // Get if the report requires parameters set.
         ReportingService2005.ReportParameter[] parameters = rs.GetReportParameters(
             reportName,
@@ -89,7 +90,7 @@ private static void RenderReportToFile(
             false,
             null,
             null);
-    
+
         // Set report parameters if needed.
         if (parameters.Length > 0)
         {
@@ -101,7 +102,7 @@ private static void RenderReportToFile(
             values[0] = value;
             rsExec.SetExecutionParameters(values, "en-us");
         }
-    
+
         // Render the report.
         byte[] reportBytes = rsExec.Render(
             format,
@@ -111,7 +112,7 @@ private static void RenderReportToFile(
             out encoding,
             out warnings,
             out streamIDs);
-    
+
         // Write report bytes to a file.
         using (FileStream stream = File.OpenWrite(fileName))
             stream.Write(reportBytes, 0, reportBytes.Length);
@@ -126,7 +127,7 @@ private static void RenderReportToFile(
 
 ### Step 4. Call the RenderReportToFile method.
 
-You can call the **RenderReportToFile** method from any point of your application. The call might look like the following: 
+You can call the **RenderReportToFile** method from any point of your application. The call might look like the following:
 
 **C#**
 
@@ -148,7 +149,7 @@ Follow the instructions described in the section [Integrate with Microsoft Repor
 
 ### Step 2. Implement the rendering method.
 
-Implement the following method in your application: 
+Implement the following method in your application:
 
 **C#**
 
@@ -187,8 +188,8 @@ using Microsoft.ReportingServices.ReportRendering;
 /// "<DeviceInfo><PageBreaksMode>OnEachPage</PageBreaksMode></DeviceInfo>". May be null.
 /// </param>
 private static void RenderReportToFile(
-    ReportViewer viewer, 
-    string reportName, 
+    ReportViewer viewer,
+    string reportName,
     string documentName,
     string format,
     string deviceInfo)
@@ -204,14 +205,14 @@ private static void RenderReportToFile(
     report.ReportPath = reportName;
     report.EnableExternalImages = true;
     report.EnableHyperlinks = true;
-    
+
     // Get the information about report's parameters.
     ReportParameterInfoCollection parameterInfos = report.GetParameters();
     if (parameterInfos.Count > 0)
     {
         // If the report requires parameters set, add them as the following pattern shows:
         List<Microsoft.Reporting.WinForms.ReportParameter> parameters = new List<Microsoft.Reporting.WinForms.ReportParameter>();
-    
+
         // Repeat this until all parameters are set.
         Microsoft.Reporting.WinForms.ReportParameter parameter = new Microsoft.Reporting.WinForms.ReportParameter(
             "name",
@@ -219,20 +220,20 @@ private static void RenderReportToFile(
         parameters.Add(parameter);
         report.SetParameters(parameters);
     }
-    
+
     // We have to specify data sources for local report rendering. GetDataTables() returns a list of DataTable objects
     // populated with real report data.
     List<DataTable> tables = GetDataTables();
-    
+
     // Add the data sources.
     foreach (DataTable table in tables)
         report.DataSources.Add(new ReportDataSource(table.TableName, table));
-    
+
     // Render to appropriate format using Aspose extensions
     ReportViewerHelper asposeHelper = new ReportViewerHelper(reportViewer);
     asposeHelper.AddExtensions();
     byte[] reportBytes = asposeHelper.Render(format);
-    
+
     // Write document bytes to a file.
     using (FileStream stream = File.OpenWrite(documentName))
         stream.Write(reportBytes, 0, reportBytes.Length);
@@ -241,7 +242,7 @@ private static void RenderReportToFile(
 
 ### Step 3. Call the RenderReportToFile method.
 
-You can call the **RenderReportToFile** method from any point of your application. The call might look like the following: 
+You can call the **RenderReportToFile** method from any point of your application. The call might look like the following:
 
 **C#**
 

@@ -1,11 +1,12 @@
 ﻿---
 title: Integrate with Microsoft Report Viewer in Local Mode
+description: "This page describes how to render reports using built-in engine of the report viewer and Aspose.Words for Reporting Services library."
 type: docs
 weight: 40
 url: /reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Microsoft Report Viewer is a powerful .NET control allowing the use of RDL and RDLC reports in WinForms and ASP.NET applications. It enables users to view and export reports to different formats. The control is included with Microsoft Visual Studio 2010, 2012, and 2015, and is available as a free download from Microsoft. However, Visual Studio 2017 (and higher) does not have RDLC Reporting Tools installed by default. It can be installed as described at [application integration integrating reporting services using report viewer controls get started](https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started?view=sql-server-2017).
 
@@ -17,7 +18,7 @@ When working in the **local mode** however, Report Viewer does not connect to a 
 
 By installing Aspose.Words for Reporting Services on a development machine and following the steps below, you will be able to add the ability to export to Microsoft Word formats from Report Viewer working in the **local mode**.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Step 1. Add a Reference to Aspose.Words.ReportingServices.dll to your project.
 
@@ -64,7 +65,7 @@ Public Class Form1
 
 	Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 		ReportViewerHelper.AddAsposeExtensions(ReportViewer1)
-		
+
 		'Other form load code
 		Me.ReportViewer1.RefreshReport()
 	End Sub
@@ -95,7 +96,7 @@ private void Form1_Load(object sender, EventArgs eventArgs)
 	asposeHelper.AddExtension("AWXPS", "XPS � XML Paper Specification via Aspose.Words", typeof(Aspose.Words.ReportingServices.XpsRenderer));
 	asposeHelper.AddExtension("AWEPUB", "EPUB � Electronic Publications via Aspose.Words", typeof(Aspose.Words.ReportingServices.EpubRenderer));
 	asposeHelper.UpdateHandlers();
-	
+
 	// Other form load code
 	this.reportViewer1.RefreshReport();
 }
@@ -110,7 +111,7 @@ Public Class Form1
 
 	Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 		Dim asposeHelper As ReportViewerHelper = New ReportViewerHelper(ReportViewer1)
-	
+
 		asposeHelper.AddExtension("AWDOCX", "DOCX - Office Open XML via Aspose.Words", GetType(Aspose.Words.ReportingServices.DocxRenderer))
 		asposeHelper.AddExtension("AWRTF", "RTF - Rich Text Format via Aspose.Words", GetType(Aspose.Words.ReportingServices.RtfRenderer))
 		asposeHelper.AddExtension("AWWML", "XML - WordprocessingML via Aspose.Words", GetType(Aspose.Words.ReportingServices.WordMLRenderer))
@@ -121,7 +122,7 @@ Public Class Form1
 		asposeHelper.AddExtension("AWXPS", "XPS - XML Paper Specification via Aspose.Words", GetType(Aspose.Words.ReportingServices.XpsRenderer))
 		asposeHelper.AddExtension("AWEPUB", "EPUB - Electronic Publications via Aspose.Words", GetType(Aspose.Words.ReportingServices.EpubRenderer))
 		asposeHelper.UpdateHandlers()
-	
+
 		' Other form load code
 		Me.ReportViewer1.RefreshReport()
 	End Sub

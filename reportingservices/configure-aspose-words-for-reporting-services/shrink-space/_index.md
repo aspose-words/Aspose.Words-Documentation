@@ -1,15 +1,16 @@
 ---
 title: Shrink Space
+description: "This page describes Shrink Space setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 110
 url: /reportingservices/shrink-space/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following configuration setting only applies to the Flow Layout.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In addition to spacing & scaling factors you may use **ShrinkSpace** configuration setting. It allow to control how to remove spacings between (and inside) report elements.
 
@@ -20,7 +21,7 @@ There are several modes of shrinking space. Below is the description of the mode
 **Hard**. This is the most aggressive shrink spacing mode. Spacings are removed in all places where possible, using following settings:
 
 - **Soft** mode is applied
-- **PageBreaksMode** is set to **DontBreakTables** 
+- **PageBreaksMode** is set to **DontBreakTables**
   - **IgnoreDesignedRowHeight** (see below) is set to **True**
 - **AllowAutoFit** (see below) is set to **True**;
 

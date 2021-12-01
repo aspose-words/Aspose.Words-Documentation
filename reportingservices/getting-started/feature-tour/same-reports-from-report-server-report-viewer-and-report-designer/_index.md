@@ -1,21 +1,22 @@
 ---
 title: Same Reports from Report Server, Report Viewer and Report Designer
+description: "This page describes technologies which may be used to export reports using the Aspose.Words for Reporting Services."
 type: docs
 weight: 30
 url: /reportingservices/same-reports-from-report-server-report-viewer-and-report-designer/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Whenever you are a database administrator or an application developer, with Aspose.Words for Reporting Services you can give your users the ability to export reports to Microsoft Word documents and other popular formats.
 
-Aspose.Words for Reporting Services supports the following technologies: 
+Aspose.Words for Reporting Services supports the following technologies:
 
-- Microsoft SQL Server Reporting Services 
-- Microsoft Report Viewer 
-- Business Intelligence Development Studio 
+- Microsoft SQL Server Reporting Services
+- Microsoft Report Viewer
+- Business Intelligence Development Studio
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Microsoft SQL Server Reporting Services
 
@@ -48,14 +49,14 @@ If you are designing reports in Microsoft Visual Studio Report Designer, the abi
 
 Aspose.Words for Reporting Services supports Microsoft Visual Studio 2005/ 2008/ 2010/ 2012/ 2013/ 2015 Report Designer versions.
 
-**New export formats are available in Microsoft SQL Server Reporting Services.** 
+**New export formats are available in Microsoft SQL Server Reporting Services.**
 
 ![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer_1.png)
 
-**New export formats are available in Microsoft Report Viewer running in the local mode.** 
+**New export formats are available in Microsoft Report Viewer running in the local mode.**
 
 ![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer_2.png)
 
-**New export formats are available in the Microsoft Visual Studio Report Designer.** 
+**New export formats are available in the Microsoft Visual Studio Report Designer.**
 
 ![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer_3.png)

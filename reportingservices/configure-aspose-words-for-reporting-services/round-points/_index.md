@@ -1,5 +1,6 @@
 ---
 title: Round Points
+description: "This page describes Round Points setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 130
 url: /reportingservices/round-points/

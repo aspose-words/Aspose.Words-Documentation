@@ -1,5 +1,6 @@
 ---
 title: Supported Document Formats
+description: "This page describes supported formats by the Aspose.Words for Reporting Services."
 type: docs
 weight: 20
 url: /reportingservices/supported-document-formats/
@@ -22,4 +23,3 @@ The following table indicates the input and output file formats supported by Asp
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Saves the document in the XPS (XML Paper Specification) format.| |{{< emoticons/tick >}}| |
 |[EPUB](https://docs.fileformat.com/ebook/epub/)|Saves the document in the IDPF EPUB format.| |{{< emoticons/tick >}}| |
 |XML|Saves the document in the Microsoft Word 2003 WordprocessingML format.| |{{< emoticons/tick >}}| |
-
