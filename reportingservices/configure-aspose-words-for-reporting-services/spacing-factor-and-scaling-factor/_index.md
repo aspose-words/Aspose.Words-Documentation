@@ -1,15 +1,16 @@
 ---
 title: Spacing Factor and Scaling Factor
+description: "This page describes Spacing Factor and Scaling Factor settings of the Aspose.Words for Reporting Services."
 type: docs
 weight: 40
 url: /reportingservices/spacing-factor-and-scaling-factor/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following configuration setting only applies to the Flow Layout.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 When generating documents in flow mode, it is impossible to set the coordinates of report elements explicitly. This means that sometimes page contents may appear higher than designed and therefore be pushed to the following page.
 
