@@ -29,11 +29,7 @@ The picture below demonstrates two nested regions where the *Order* mail merge r
 
 ## How to Process Mail Merge with Nested Regions
 
-**<u>// Review and update. If I understood you correctly, we have the ability to use nested mail merge with regions in some way (not with DataSet).</u>**
-
-The data to be merged into a template can come from various sources, mainly relational databases or XML documents. In our example, we are going to use an XML file to store our data and load it directly into the **DataSet**.
-
-Aspose.Words allows you to process mail merge with nested regions using the data relationships specified in the **DataSet**. When the **DataSet** object loads XML, it either uses the provided schema or infers it from the structure of the XML itself to accomplish this. From this structure, it creates relationships between tables where necessary.
+The data to be merged into a template can come from various sources, mainly relational databases or XML documents. In our example, we are going to use an [SQLite](https://www.sqlite.org/index.html) database to store our data and load it with custom data source implementation.
 
 The image below demonstrates how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
 
@@ -41,79 +37,145 @@ The image below demonstrates how the data from the *Order* table passed to the n
 
 As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order’s related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting mail merge with regions in the template must match the data relationships between the tables in the data source.
 
-The following code example demonstrates how to generate an invoice using nested mail merge with regions:
-
-**<u>// Add an appropriate code example.</u>**
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-NestedMailMerge-NestedMailMerge.cs" >}}
-
-{{% alert color="primary" %}}
-
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail%20merge%20data%20-%20Orders.xml).
-
-You can check the implementation of setting up the data relations manually from [Aspose.Words Github](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/DocsExamples/DocsExamples/Mail%20Merge%20and%20Reporting/Complex%20examples%20and%20helpers/Nested%20MailMerge%20custom.cs).
-
-{{% /alert %}}
-
-## How to Set Up Data Relations in Nested Mail Merge with Regions
-
-**<u>// Review and update.</u>**
-
-You need to set up all data relationships in the parent-child structure to execute the nested mail merge with regions correctly. Skipping this important step can lead to a failure in executing the nested mail merge with regions.
-
-When retrieving data for a nested mail merge from an XML file using the **ReadXml** method, relationships are automatically created according to the structure of the XML document. However, you need to make sure that correct relations have been created.
-
-If mail merge is not working as expected, then you may need to restructure your XML file or explicitly create relations between DataTable objects in the DataSet.
-
-A DataSet that has related data tables will use the **DataRelation** object to represent the parent-child relationship between the tables.
-
-The following code example shows how to establish a DataRelation between a customer’s table and an order’s table by using a DataRelation object:
-
-**<u>// Add an appropriate code example.</u>**
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ApplyCustomLogicToEmptyRegions-DisableForeignKeyConstraints.cs" >}}
-
 ## How to Create Data Relations from a Custom Data Source
-
-**<u>// Review and update if necessary.</u>**
 
 Implement the [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) interface to create relationships in the parent-child structure of your custom data source. Use the [GetChildDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source#getchilddatasource_string) method to return the relevant child data of a current parent record.
 
-The following example shows how to create data relations using **GetChildDataSource**:
+The following code example demonstrates how to generate an invoice using nested mail merge with regions from [SQLite](https://www.sqlite.org/index.html) database with [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
 
-**<u>// Update the code example.</u>**
+{{< highlight cpp >}}
+namespace NestedMailMerge
+{
+class OrdersDataSource : public MailMerging::IMailMergeDataSource
+{
+public:
+    OrdersDataSource(SQLite::Database& database, int32_t id)
+	    : mQuery(database, "SELECT Name, Quantity FROM Order WHERE ID = ?")
+    {
+	    mQuery.bind(1, id);
+    }
 
-**.NET**
-{{< highlight csharp >}}
-public IMailMergeDataSourceCore GetChildDataSource(string childTableName, bool isObjectAttr)
+    String get_TableName() override
+    {
+	    return u"Order";
+    }
+
+    bool GetValue(String fieldName, SharedPtr<Object>& fieldValue) override
+    {
+
+        if (fieldName == u"Name")
         {
-            DataRow parentRow = GetCurrentDataRow();
-            DataTable parentTable = parentRow.Table;
+            fieldValue = ObjectExt::Box<String>(String::FromUtf8(mQuery.getColumn(0).getString()));
+            return true;
+        }
 
-​        	DataSet dataSet = parentTable.DataSet;
-​       	 if (dataSet == null)
-​            	return null;
+        if (fieldName == u"Quantity")
+        {
+            fieldValue = ObjectExt::Box<int32_t>(mQuery.getColumn(1).getInt());
+            return true;
+        }
 
-​            DataRelation childRelation = FindRelation(dataSet, parentTable.TableName, childTableName);
-​            if (childRelation != null)
-​            {
-​                // Normally expected, found a relation to the child table, return a data source for it.
-​                return new MailMergeDataSourceDataRelation(mMailMerge, parentRow, childRelation);
-​            }
+        fieldValue.reset();
+        return false;
+    }
 
-​        	if (!isObjectAttr)
-​        	{
-​            	DataTable newTable = dataSet.Tables[childTableName];
-​            	if (newTable != null)
-​            	{
-​                	// No relation, but such a table exists in the dataset. It means an unrelated table.
-​                	// Return all rows of the table as per the interface specification.
-​                	return new MailMergeDataSourceDataTable(mMailMerge, newTable);
-​           	 }
-​        	}
+    bool MoveNext() override
+    {
+    	return mQuery.executeStep();
+    }
 
-​        	// No relation and no table, means mismatch between the template document and the data set structure.
-​        	// Return null as per the interface specification.
-​       	return null;
-   	 }
+    SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
+    {
+	    return nullptr;
+    }
+
+private:
+    SQLite::Statement mQuery;
+};
+
+
+class CustomersDataSource : public MailMerging::IMailMergeDataSource
+{
+public:
+    CustomersDataSource(SQLite::Database& database)
+        : mDatabase{database}
+		, mQuery{mDatabase, "SELECT ID, FullName, Address FROM Customer"}
+    {
+    }
+
+    String get_TableName() override
+    {
+	    return u"Customer";
+    }
+
+    bool GetValue(String fieldName, SharedPtr<Object>& fieldValue) override
+    {
+        if (fieldName == u"FullName")
+        {
+            fieldValue = ObjectExt::Box<String>(String::FromUtf8(mQuery.getColumn(1).getString()));
+            return true;
+        }
+
+        if (fieldName == u"Address")
+        {
+            fieldValue = ObjectExt::Box<String>(String::FromUtf8(mQuery.getColumn(2).getString()));
+            return true;
+        }
+
+        fieldValue.reset();
+        return false;
+    }
+
+    bool MoveNext() override
+    {
+        return mQuery.executeStep();
+    }
+
+    SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
+    {
+	    if (tableName == u"Order")
+	    {
+		    return MakeObject<OrdersDataSource>(mDatabase, mQuery.getColumn(0).getInt());
+	    }
+        return nullptr;
+    }
+private:
+    SQLite::Database& mDatabase;
+    SQLite::Statement mQuery;
+};
+}
+
+void CustomMailMerge()
+{
+    auto doc = MakeObject<Document>();
+    auto builder = MakeObject<DocumentBuilder>(doc);
+    builder->InsertField(u" MERGEFIELD TableStart:Customer");
+
+    builder->Write(u"Full name:\t");
+    builder->InsertField(u" MERGEFIELD FullName ");
+    builder->Write(u"\nAddress:\t");
+    builder->InsertField(u" MERGEFIELD Address ");
+    builder->Write(u"\nOrders:\n");
+
+    builder->InsertField(u" MERGEFIELD TableStart:Order");
+
+    builder->Write(u"\tItem name:\t");
+    builder->InsertField(u" MERGEFIELD Name ");
+    builder->Write(u"\n\tQuantity:\t");
+    builder->InsertField(u" MERGEFIELD Quantity ");
+    builder->InsertParagraph();
+
+    builder->InsertField(u" MERGEFIELD TableEnd:Order");
+
+    builder->InsertField(u" MERGEFIELD TableEnd:Customer");
+
+    SQLite::Database database{"customers.db3"};
+    // To be able to mail merge from your data source,
+    // it must be wrapped into an object that implements the IMailMergeDataSource interface.
+    auto customersDataSource = MakeObject<NestedMailMerge::CustomersDataSource>(database);
+
+    doc->get_MailMerge()->ExecuteWithRegions(customersDataSource);
+
+    doc->Save(u"NestedMailMergeCustom.CustomMailMerge.docx");
+}
 {{< /highlight >}}
